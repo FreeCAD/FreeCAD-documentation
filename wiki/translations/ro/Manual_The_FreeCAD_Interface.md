@@ -135,4 +135,4 @@ Aceste opțiuni avansate de personalizare sunt disponibile de la **Tools -> Cust
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The FreeCAD Interface/ro
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:The FreeCAD Interface/ro

@@ -420,4 +420,4 @@ Inne różne \"odnośniki internetowe\" dotyczące Łącza obejmują:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkMake/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std LinkMake/pl

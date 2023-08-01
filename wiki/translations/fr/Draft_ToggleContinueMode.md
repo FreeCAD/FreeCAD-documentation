@@ -23,4 +23,4 @@ La commande <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:24
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode/fr

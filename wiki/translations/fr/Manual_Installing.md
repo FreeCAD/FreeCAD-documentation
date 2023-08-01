@@ -92,4 +92,4 @@ Si vous utilisez Ubuntu, certaines des extensions citées au-dessus sont disponi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Tutorials](Category_Tutorials.md) > Manual:Installing/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Tutorials](Category_Tutorials.md) > Manual:Installing/fr

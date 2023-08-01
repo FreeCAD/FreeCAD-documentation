@@ -14,4 +14,4 @@ This category groups all of the Pages with broken file links
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Pages with broken file links
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Pages with broken file links

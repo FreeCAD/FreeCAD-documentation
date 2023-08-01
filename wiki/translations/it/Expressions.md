@@ -1045,4 +1045,4 @@ Naturalmente, dopo spetta all\'utente il compito di caricare i documenti corrisp
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Expressions/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Expressions/it

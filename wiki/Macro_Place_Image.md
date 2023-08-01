@@ -138,4 +138,4 @@ if rect:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Place Image
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Place Image

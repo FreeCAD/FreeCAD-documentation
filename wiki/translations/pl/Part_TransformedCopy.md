@@ -45,4 +45,4 @@ Kopia ma proste właściwości widoku, jak każda inna [cecha](Part_Feature/pl.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part TransformedCopy/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part TransformedCopy/pl

@@ -32,4 +32,4 @@ Extrude doesn\'t work on 3D objects. This limitation is from the fact that many 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 Extrude
+![](images/Button_right.svg) [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 Extrude

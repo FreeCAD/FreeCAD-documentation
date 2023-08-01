@@ -288,4 +288,4 @@ that causes an error with the version FreeCAD : Version: 0.14.3343 (Git), Python
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Texture/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Texture/ru

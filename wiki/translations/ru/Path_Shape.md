@@ -189,4 +189,4 @@ Path.fromShapes(shapes, start=Vector(), return_end=False arc_plane=1, sort_mode=
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Shape/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Shape/ru

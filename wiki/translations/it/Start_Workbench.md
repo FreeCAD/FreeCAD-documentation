@@ -13,4 +13,4 @@ Da questa interfaccia è possibile visualizzare informazioni utili e passare ai 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Start](Category_Start.md) > [Workbenches](Category_Workbenches.md) > Start Workbench/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Start](Category_Start.md) > [Workbenches](Category_Workbenches.md) > Start Workbench/it

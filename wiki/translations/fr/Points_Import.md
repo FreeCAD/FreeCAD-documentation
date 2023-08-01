@@ -60,4 +60,4 @@ Pour tester, vous pouvez utiliser [ce fichier](https://raw.githubusercontent.com
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Import/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Import/fr

@@ -50,4 +50,4 @@ Lo schizzo può essere spostato nella [Vista 3D](3D_view/it.md) utilizzando [Pos
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/it

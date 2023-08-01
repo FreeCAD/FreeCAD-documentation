@@ -47,4 +47,4 @@ These parameters are provided for information and have no effect on the design o
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket LaunchLug/en
+![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket LaunchLug/en

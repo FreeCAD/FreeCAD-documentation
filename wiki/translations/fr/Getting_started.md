@@ -162,4 +162,4 @@ Et enfin, une des caractéristiques les plus puissantes de FreeCAD est l\'enviro
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Getting started/fr

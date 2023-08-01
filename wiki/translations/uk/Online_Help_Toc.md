@@ -144,4 +144,4 @@ There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/uk
+![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/uk

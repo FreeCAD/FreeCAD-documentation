@@ -56,4 +56,4 @@ Zobacz stronę [Krzywa złożona przez punkty kontrolne](Sketcher_CreateBSpline/
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateBSplineByInterpolation/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateBSplineByInterpolation/pl

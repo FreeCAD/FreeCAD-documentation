@@ -27,4 +27,4 @@ Il peut être utilisé pour préparer des **éléments** avant l\'utilisation de
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 CreateElement/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 CreateElement/fr

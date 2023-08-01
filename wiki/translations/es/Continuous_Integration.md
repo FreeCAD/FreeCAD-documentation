@@ -41,4 +41,4 @@ Actualmente, el repositorio de FreeCAD en GitHub activará una compilación en l
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Testing](Category_Testing.md) > Continuous Integration/es
+![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Testing](Category_Testing.md) > Continuous Integration/es

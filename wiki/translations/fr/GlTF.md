@@ -40,4 +40,4 @@ Source: [fil du forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=31680&p=
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > GlTF/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > GlTF/fr

@@ -67,4 +67,4 @@ The **Mesh Evaluation** command evaluates and repairs a mesh object.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Evaluation/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Evaluation/ru

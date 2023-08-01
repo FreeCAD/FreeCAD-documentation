@@ -33,4 +33,4 @@ Alternativ kannst du auch den Inhalt des aktuellen Dokuments als Vorlage speiche
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Project/de
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Project/de

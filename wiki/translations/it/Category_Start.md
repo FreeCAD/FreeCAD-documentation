@@ -11,4 +11,4 @@ This category lists pages related to the [Start Workbench/it](Start_Workbench/it
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Start/it
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Start/it

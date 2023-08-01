@@ -41,4 +41,4 @@ Wygląd pomiarów można zmienić w [ustawieniach](PartDesign_Preferences/pl#Pom
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Angular/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Angular/pl

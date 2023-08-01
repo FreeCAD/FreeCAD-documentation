@@ -42,4 +42,4 @@ Der Befehl **Mesh Dezimieren** verringert die Anzahl der Flächen von Netzobjekt
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Decimating/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Decimating/de

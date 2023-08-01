@@ -34,4 +34,4 @@ The **Std FreeCADForum** command opens the FreeCAD forum website in the system\'
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADForum/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADForum/ru

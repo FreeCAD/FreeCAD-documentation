@@ -36,4 +36,4 @@ L\'outil **TechDraw Verrouiller/déverrouiller** verrouille ou déverrouille la 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionLockUnlockView/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionLockUnlockView/fr

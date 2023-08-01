@@ -39,4 +39,4 @@ If you select a user defined axis, the numbers define the direction of the revol
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/sv
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/sv

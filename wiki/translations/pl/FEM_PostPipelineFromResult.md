@@ -74,4 +74,4 @@ In the [property editor](Property_editor.md) you can set in the *View* tab the s
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostPipelineFromResult/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostPipelineFromResult/pl

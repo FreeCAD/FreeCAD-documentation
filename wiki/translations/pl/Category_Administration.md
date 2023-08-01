@@ -22,4 +22,4 @@ Ta kategoria zawiera artykuły i kategorie dotyczące tematów administracyjnych
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Administration/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Administration/pl

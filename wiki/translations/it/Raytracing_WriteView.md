@@ -61,4 +61,4 @@ Esporta le proprietà della vista corrente in un file POV da usare in un progett
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteView/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteView/it

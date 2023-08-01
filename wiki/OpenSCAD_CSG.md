@@ -39,4 +39,4 @@ Every object derived from Part::Feature which is not (yet) supported will get me
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD CSG
+![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD CSG

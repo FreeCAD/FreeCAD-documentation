@@ -34,4 +34,4 @@ La commande **Std Zoom fenêtre** effectue un zoom avant sur une zone rectangula
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewBoxZoom/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std ViewBoxZoom/fr

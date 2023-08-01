@@ -40,4 +40,4 @@ Această comandă vă permite să plasați un dreptunghi de tăiere pe un ecran 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Clip/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Clip/ro

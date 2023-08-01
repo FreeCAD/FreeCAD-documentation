@@ -81,4 +81,4 @@ In order to add anything to this list it needs to be vetted by the community. No
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD used in production/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD used in production/pl

@@ -93,4 +93,4 @@ The current color palette is captured in google drive: <https://drive.google.com
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Artwork project
+![](images/Button_right.svg) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Artwork project

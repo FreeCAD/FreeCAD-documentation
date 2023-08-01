@@ -35,4 +35,4 @@ Die Reihenfolge der Auswahl bestimmt, ob das zweite Element auf dem ersten abrol
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear GearConnector/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear GearConnector/de

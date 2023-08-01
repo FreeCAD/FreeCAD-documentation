@@ -95,4 +95,4 @@ Poniżej znajdują się właściwości, które można zdefiniować po utworzeniu
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/pl

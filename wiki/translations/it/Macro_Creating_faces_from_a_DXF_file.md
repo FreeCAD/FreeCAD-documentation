@@ -53,4 +53,4 @@ Questo è un esempio: [Generate 3D solid from intersection of three imported 2D]
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Creating faces from a DXF file/it
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Creating faces from a DXF file/it

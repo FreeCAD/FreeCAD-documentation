@@ -228,4 +228,4 @@ Enthaltene Postprozessoren werden standardmäßig in der **FreeCAD.Mod.Path.Path
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Post/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Post/de

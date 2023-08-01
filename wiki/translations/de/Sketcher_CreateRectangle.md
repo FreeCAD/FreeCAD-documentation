@@ -36,4 +36,4 @@ Um ein Rechteck über einen Mittelpunkt und einen Kantenpunkt zu definieren, ver
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle/de

@@ -48,4 +48,4 @@ Esta herramienta crea un arco de parábola por foco, vértice y puntos finales.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfParabola/es
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfParabola/es

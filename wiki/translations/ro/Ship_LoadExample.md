@@ -75,4 +75,4 @@ Executing the tool (Ship design/Load an example ship geometry) a task dialogue w
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship LoadExample/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship LoadExample/ro

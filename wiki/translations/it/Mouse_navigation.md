@@ -281,4 +281,4 @@ Il tutorial [Aggiunta di una nuova opzione di navigazione del mouse a FreeCAD](A
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Mouse navigation/it
+![](images/Button_right.svg) [documentation index](../README.md) > Mouse navigation/it

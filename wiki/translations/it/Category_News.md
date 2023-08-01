@@ -16,4 +16,4 @@ Questa categoria contiene gli articoli con notizie e informazioni relative a Fre
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:News/it
+![](images/Button_right.svg) [documentation index](../README.md) > Category:News/it

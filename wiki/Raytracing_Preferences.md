@@ -12,4 +12,4 @@ There is only one tab: Raytracing.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Preferences
+![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Preferences

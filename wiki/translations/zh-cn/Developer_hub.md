@@ -164,4 +164,4 @@ FreeCAD虽然在特定领域已经可用了，但是在跨入主流CAD的路途�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > [Developer Documentation](Category_Developer Documentation.md) > Developer hub/zh-cn
+![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > [Developer Documentation](Category_Developer Documentation.md) > Developer hub/zh-cn

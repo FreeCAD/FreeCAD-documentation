@@ -118,4 +118,4 @@ Füge die folgenden Zeilen zur .gitconfig-Datei in deinem home Verzeichnis hinzu
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > WebTools Git/de
+![](images/Button_right.svg) [documentation index](../README.md) > WebTools Git/de

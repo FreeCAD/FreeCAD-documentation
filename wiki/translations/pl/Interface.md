@@ -84,4 +84,4 @@ Opcje te znajdują się w menu, **Narzędzia → Dostosuj**. Patrz [Dostosowywan
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Interface/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Interface/pl

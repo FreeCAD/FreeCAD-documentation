@@ -29,4 +29,4 @@ Valid items are e.g. elements, bodies, vertexes, edges, faces, origins, and othe
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AddXZWorkplane/en
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 AddXZWorkplane/en

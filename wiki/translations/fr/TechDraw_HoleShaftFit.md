@@ -49,4 +49,4 @@ L\'outil **TechDraw Tolérance de trou/d\'arbre** ajoute des tolérances de trou
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HoleShaftFit/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HoleShaftFit/fr

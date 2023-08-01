@@ -94,4 +94,4 @@ Obwohl sich diese Liste auf deutsche Inhalte konzentriert, haben viele dieser Ka
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for product design/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for product design/de

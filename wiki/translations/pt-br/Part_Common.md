@@ -24,4 +24,4 @@ Input objects must be [OpenCASCADE](OpenCASCADE.md) shapes. Examples: stuff made
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/pt-br

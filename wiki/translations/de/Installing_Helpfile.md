@@ -52,4 +52,4 @@ Beim Versuch, die Dokumentationspakete unter Ubuntu zu installieren (z.B. `freec
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Installing Helpfile/de
+![](images/Button_right.svg) [documentation index](../README.md) > Installing Helpfile/de

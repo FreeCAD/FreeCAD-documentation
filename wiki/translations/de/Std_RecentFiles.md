@@ -39,4 +39,4 @@ Der Menüeintrag **Std LetzteDateien** zeigt eine Liste der zuletzt gespeicherte
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std RecentFiles/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std RecentFiles/de

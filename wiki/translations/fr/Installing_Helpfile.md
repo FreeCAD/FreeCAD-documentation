@@ -52,4 +52,4 @@ Des difficultés peuvent survenir lors de la tentative d\'installation des packa
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Installing Helpfile/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Installing Helpfile/fr

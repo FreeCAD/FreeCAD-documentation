@@ -68,4 +68,4 @@ Cu toate acestea, toate obiectele, parametrice sau nu, vor avea câțiva dintre 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Tutorials](Category_Tutorials.md) > Manual:Parametric objects/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Tutorials](Category_Tutorials.md) > Manual:Parametric objects/ro

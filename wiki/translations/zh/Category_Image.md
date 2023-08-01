@@ -10,4 +10,4 @@ This category lists pages related to the [Image Workbench/zh](Image_Workbench/zh
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Image/zh
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Image/zh

@@ -32,4 +32,4 @@ Debido a la rápida evolución de FreeCAD, algunas definiciones de objetos puede
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/es
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/es

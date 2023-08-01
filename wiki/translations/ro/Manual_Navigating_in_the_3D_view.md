@@ -147,4 +147,4 @@ De asemenea, puteți utiliza Selection View pentru a selecta obiecte prin căuta
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:Navigating in the 3D view/ro
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:Navigating in the 3D view/ro

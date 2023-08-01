@@ -16,4 +16,4 @@ Diese Kategorie zeigt eine Liste von Seiten, die zum [OpenSCAD-Arbeitsbereich](O
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:OpenSCAD/de
+![](images/Button_right.svg) [documentation index](../README.md) > Category:OpenSCAD/de

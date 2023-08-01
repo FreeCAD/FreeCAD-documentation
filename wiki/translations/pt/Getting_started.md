@@ -287,4 +287,4 @@ E finalmente, um dos recursos mais poderosos do FreeCAD é o ambiente de [ progr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/pt
+![](images/Button_right.svg) [documentation index](../README.md) > Getting started/pt

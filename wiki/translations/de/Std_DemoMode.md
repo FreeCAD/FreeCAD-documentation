@@ -44,4 +44,4 @@ Der Befehl **Std Präsentationsmodus** dreht die Kamera kontinuierlich in einer 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DemoMode/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std DemoMode/de

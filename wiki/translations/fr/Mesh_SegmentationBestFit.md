@@ -62,4 +62,4 @@ La commande **Segmentation adaptée** crée des segments de maillage séparés p
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SegmentationBestFit/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SegmentationBestFit/fr

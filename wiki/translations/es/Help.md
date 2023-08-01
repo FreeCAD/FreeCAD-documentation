@@ -50,4 +50,4 @@ Tenemos un [official Servidor Discord dedicado a FreeCAD](https://discord.gg/BgZ
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Help](Category_Help.md) > Help/es
+![](images/Button_right.svg) [documentation index](../README.md) > [Help](Category_Help.md) > Help/es

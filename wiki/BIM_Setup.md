@@ -19,4 +19,4 @@ By hovering the mouse over each setting, you will be shown a ttoltip explaining 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Setup
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Setup

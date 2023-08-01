@@ -154,4 +154,4 @@ Per maggiori informazioni vedere la pagina wiki [Tradurre un ambiente esterno](T
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External_Workbenches](Category_External_Workbenches.md) > External workbenches/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External_Workbenches](Category_External_Workbenches.md) > External workbenches/it

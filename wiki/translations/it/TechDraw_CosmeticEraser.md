@@ -55,4 +55,4 @@ Lo strumento Rimuovi oggetto cosmetico rimuove gli oggetti cosmetici da una pagi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticEraser/it
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticEraser/it

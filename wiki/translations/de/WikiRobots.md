@@ -156,4 +156,4 @@ Ersetze eine Zeichenfolge in allen Seiten, die in der Kategorie Arch aufgeführt
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Administration](Category_Administration.md) > [Developer](Category_Developer.md) > WikiRobots/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Administration](Category_Administration.md) > [Developer](Category_Developer.md) > WikiRobots/de

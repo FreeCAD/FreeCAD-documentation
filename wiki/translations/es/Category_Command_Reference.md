@@ -136,4 +136,4 @@ Esta categoría contiene las páginas de ayuda de cada comando de FreeCAD.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Command Reference/es
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Command Reference/es

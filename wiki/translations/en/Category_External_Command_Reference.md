@@ -37,4 +37,4 @@ This categorizes all **external** workbench commands separate from the internal 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:External Command Reference/en
+![](images/Button_right.svg) [documentation index](../README.md) > Category:External Command Reference/en

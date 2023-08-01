@@ -79,4 +79,4 @@ Pentru a dezmembra matricile de reptabilitata din Atelierul Draft, utilizați in
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExplodeGroup/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExplodeGroup/ro

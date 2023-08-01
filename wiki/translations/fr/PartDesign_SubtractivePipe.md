@@ -100,4 +100,4 @@ Le **Balayage soustractif** crée un solide soustractif dans le corps actif en b
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePipe/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePipe/fr

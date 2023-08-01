@@ -84,4 +84,4 @@ La FPA peut de toute façon toujours délivrer un reçu de don. Envoyez-nous un 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Donate/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Donate/fr

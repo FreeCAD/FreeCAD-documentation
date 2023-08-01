@@ -21,4 +21,4 @@ Alternatywnie, użyj makra ![ 24px](images/_HighlightDifference.png ) [Highlight
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Inspection](Category_Inspection.md) > [Workbenches](Category_Workbenches.md) > Inspection Workbench/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Inspection](Category_Inspection.md) > [Workbenches](Category_Workbenches.md) > Inspection Workbench/pl

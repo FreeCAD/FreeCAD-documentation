@@ -231,4 +231,4 @@ App.Console.PrintMessage("Path locality to FCCamera.....images.png [ " + 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro FCCamera/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro FCCamera/fr

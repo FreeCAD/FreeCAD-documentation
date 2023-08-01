@@ -31,4 +31,4 @@ The **Std ViewBoxZoom** command zooms in on a user defined rectangular area, a b
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewBoxZoom/en
+![](images/Button_right.svg) [documentation index](../README.md) > Std ViewBoxZoom/en

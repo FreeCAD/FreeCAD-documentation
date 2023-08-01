@@ -35,4 +35,4 @@ W trybie edycji szkicu są dostępne dwie możliwości
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/pl

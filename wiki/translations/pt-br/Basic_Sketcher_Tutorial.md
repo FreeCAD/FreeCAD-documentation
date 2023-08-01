@@ -310,4 +310,4 @@ Constraining a sketch can be done in many different ways. In general, it is reco
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/pt-br

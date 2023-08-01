@@ -141,4 +141,4 @@ FreeCAD находится в непрерывной разработке, по�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/ru

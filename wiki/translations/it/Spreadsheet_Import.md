@@ -40,4 +40,4 @@ Lo strumento **[<img src=images/Spreadsheet_Import.svg style="width:16px"> [Impo
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Import/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Import/it

@@ -34,4 +34,4 @@ Lo strumento <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:16
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignBottom/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignBottom/it

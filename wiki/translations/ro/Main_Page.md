@@ -118,4 +118,4 @@ Verificați foaia de parcurs [Development roadmap](Development_roadmap.md) pentr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/ro

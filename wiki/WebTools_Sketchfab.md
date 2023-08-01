@@ -33,4 +33,4 @@ This tool allows you to export and upload objects to your [SketchFab](http://www
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > WebTools Sketchfab
+![](images/Button_right.svg) [documentation index](../README.md) > WebTools Sketchfab

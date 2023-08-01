@@ -32,4 +32,4 @@ Defines a tie constraint that connects the two selected surfaces in such a way t
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > FEM ConstraintTie/pl
+![](images/Button_right.svg) [documentation index](../README.md) > FEM ConstraintTie/pl

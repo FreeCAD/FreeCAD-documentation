@@ -86,4 +86,4 @@ Aby dodać nowy segment wału, kliknij prawym przyciskiem myszki w puste miejsce
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/pl

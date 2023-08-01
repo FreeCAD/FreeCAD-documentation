@@ -10,4 +10,4 @@ This category lists pages related to the [Image Workbench/cs](Image_Workbench/cs
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Image/cs
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Image/cs

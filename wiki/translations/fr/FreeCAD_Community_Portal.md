@@ -105,4 +105,4 @@ Ce sont des ateliers, scripts, macros et extensions développés par la communau
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > FreeCAD Community Portal/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > FreeCAD Community Portal/fr

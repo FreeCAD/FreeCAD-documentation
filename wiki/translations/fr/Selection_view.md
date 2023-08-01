@@ -86,4 +86,4 @@ Depuis la v0.19, la case **picked object list** est disponible. Si cette case es
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Selection view/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Selection view/fr

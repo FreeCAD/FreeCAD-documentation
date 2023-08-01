@@ -71,4 +71,4 @@ Si l\'objet Cylinder dans la [vue en arborescence](Tree_view/fr.md) est caché, 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionCylinder/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionCylinder/fr

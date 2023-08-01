@@ -35,4 +35,4 @@ Tryb Tryb dokumentu w widoku drzewa jest zapisywany: **Przybory → Edycja param
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeMultiDocument/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std TreeMultiDocument/pl

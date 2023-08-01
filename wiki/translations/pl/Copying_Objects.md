@@ -28,4 +28,4 @@ Podobnie jak w przypadku większości rzeczy w programie FreeCAD, istnieje wiele
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Copying Objects/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Copying Objects/pl

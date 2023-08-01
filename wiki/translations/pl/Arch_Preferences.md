@@ -14,4 +14,4 @@ Są tam dwie zakładki: Ustawienia ogólne i Domyślne.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Arch](Arch_Workbench.md) > Arch Preferences/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Arch](Arch_Workbench.md) > Arch Preferences/pl

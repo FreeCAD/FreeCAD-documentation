@@ -35,4 +35,4 @@ Questa pagina elenca i componenti aggiuntivi esterni che hanno una pagina in que
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Categories](Category_Categories.md) > Category:Addons/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Categories](Category_Categories.md) > Category:Addons/it

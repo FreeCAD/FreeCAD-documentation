@@ -43,4 +43,4 @@ Das Werkzeug **TechDraw ErgänzungHorizontaleKoordinatenmaße** erzeugt eine hor
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateHorizCoordDimension/de
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateHorizCoordDimension/de

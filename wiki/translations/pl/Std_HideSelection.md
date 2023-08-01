@@ -48,4 +48,4 @@ Aby zapoznać się z przykładami skryptów zobacz stronę [Przełącz widoczno�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std HideSelection/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std HideSelection/pl

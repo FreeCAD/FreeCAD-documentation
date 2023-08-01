@@ -102,4 +102,4 @@ obj.Label = "Custom label"
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Part2DObject/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Part2DObject/fr

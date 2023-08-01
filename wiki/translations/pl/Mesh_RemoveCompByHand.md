@@ -44,4 +44,4 @@ Polecenie **Usuń fragmenty ręcznie** usuwa wskazane elementy z obiektów siatk
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveCompByHand/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveCompByHand/pl

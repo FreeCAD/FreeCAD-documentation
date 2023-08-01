@@ -118,4 +118,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [EM](Category_EM.md) > EM FHPath/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [EM](Category_EM.md) > EM FHPath/fr

@@ -101,4 +101,4 @@ ver 00.01 20/03/2015 :
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Triangle AH/it
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Triangle AH/it

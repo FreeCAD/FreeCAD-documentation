@@ -26,4 +26,4 @@ Dieses Werkzeug wird verwendet, um eine Baugruppe neu zu berechnen, nachdem Bedi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ResolveConstraints/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ResolveConstraints/de

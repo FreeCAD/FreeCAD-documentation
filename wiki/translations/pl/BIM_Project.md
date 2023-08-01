@@ -32,4 +32,4 @@ Alternatively, you can also save the contents of the current document as a templ
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Project/pl
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Project/pl

@@ -36,4 +36,4 @@ Pokazuje lub ukrywa wyświetlanie *stopnia* krzywej złożonej *(zobacz stronę 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDegree/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDegree/pl

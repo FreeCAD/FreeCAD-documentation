@@ -41,4 +41,4 @@ Lorsque vous appuyez sur le bouton **Accept**, le calcul commence. Il se peut qu
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship AreasCurve/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship AreasCurve/fr

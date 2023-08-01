@@ -41,4 +41,4 @@ Narzędzie **Wymiar pionowy sfazowania** tworzy pionowy wymiar i kąt fazowania.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateVertChamferDimension/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateVertChamferDimension/pl

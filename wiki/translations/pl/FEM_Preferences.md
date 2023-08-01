@@ -198,4 +198,4 @@ W zakładce *Materiał* można wybrać następujące opcje:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [FEM](Category_FEM.md) > FEM Preferences/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [FEM](Category_FEM.md) > FEM Preferences/pl

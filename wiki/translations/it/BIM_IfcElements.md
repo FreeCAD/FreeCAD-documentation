@@ -26,4 +26,4 @@ Con esso si può:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM IfcElements/it
+![](images/Button_right.svg) [documentation index](../README.md) > BIM IfcElements/it

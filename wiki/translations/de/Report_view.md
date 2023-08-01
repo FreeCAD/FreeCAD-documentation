@@ -87,4 +87,4 @@ Ein Rechtsklick auf das Ausgabefenster öffnet ein Kontextmenü mit den folgende
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Report view/de
+![](images/Button_right.svg) [documentation index](../README.md) > Report view/de

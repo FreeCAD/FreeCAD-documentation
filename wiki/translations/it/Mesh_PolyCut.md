@@ -57,4 +57,4 @@ Il comando **Taglia la mesh** taglia intere facce da oggetti mesh.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyCut/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyCut/it

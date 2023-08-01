@@ -48,4 +48,4 @@ Nu sunt adăugate extra constrâgeri pentru comportamentul copiei.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Copy/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Copy/ro

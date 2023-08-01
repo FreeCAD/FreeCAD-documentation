@@ -56,4 +56,4 @@ L\'objet Composant Arch est également une base partagée par tous les autres ob
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/fr

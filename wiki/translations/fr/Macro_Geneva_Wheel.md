@@ -150,4 +150,4 @@ Part.show(genevaWheel)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Geneva Wheel/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Geneva Wheel/fr

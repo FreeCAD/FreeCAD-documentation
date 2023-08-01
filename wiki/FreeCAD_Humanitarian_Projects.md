@@ -43,4 +43,4 @@ This wiki page is being used to track all Humanitarian based efforts reported an
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > FreeCAD Humanitarian Projects
+![](images/Button_right.svg) [documentation index](../README.md) > FreeCAD Humanitarian Projects

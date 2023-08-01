@@ -251,4 +251,4 @@ PartDesign Pad este, de asemenea, o funcÈ›i(e)onalitate de extrudare, dar existÄ
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/ro

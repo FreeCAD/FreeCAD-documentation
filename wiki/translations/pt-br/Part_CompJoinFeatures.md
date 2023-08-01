@@ -28,4 +28,4 @@ This command is a dropdown toolbar button containing all the Join tools. See ind
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/pt-br

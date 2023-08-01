@@ -98,4 +98,4 @@ Power użytkownicy stworzyli różne niestandardowe [zewnętrzne środowiska pra
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/pl

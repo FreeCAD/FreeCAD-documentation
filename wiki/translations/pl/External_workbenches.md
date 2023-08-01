@@ -264,4 +264,4 @@ Aby uzyskać więcej informacji, przejdź do strony Wiki [Tłumaczenie interfejs
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External_Workbenches](Category_External_Workbenches.md) > External workbenches/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External_Workbenches](Category_External_Workbenches.md) > External workbenches/pl

@@ -98,4 +98,4 @@ Kliknij prawym przyciskiem myszy na konsoli Pythona, aby wyświetlić kilka pole
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Python console/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Python console/pl

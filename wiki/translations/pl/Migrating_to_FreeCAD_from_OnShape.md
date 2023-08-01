@@ -14,4 +14,4 @@ Ta strona jest przeznaczona dla użytkowników, którzy są zainteresowani prac�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Migrating to FreeCAD from OnShape/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Migrating to FreeCAD from OnShape/pl

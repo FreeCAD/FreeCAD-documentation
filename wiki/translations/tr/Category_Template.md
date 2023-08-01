@@ -16,4 +16,4 @@ See also [UncategorizedTemplates](Special_UncategorizedTemplates.md)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Template/tr
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Template/tr

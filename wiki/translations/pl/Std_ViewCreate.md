@@ -36,4 +36,4 @@ Polecenie **Utwórz nowy widok** tworzy nowy [widok przestrzenny](3D_view/pl.md)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewCreate/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std ViewCreate/pl

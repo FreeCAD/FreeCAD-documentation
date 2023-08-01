@@ -225,4 +225,4 @@ My macros on [mario52a](https://gist.github.com/mario52a) gists
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro FCInfoGlass
+![](images/Button_right.svg) [documentation index](../README.md) > Macro FCInfoGlass

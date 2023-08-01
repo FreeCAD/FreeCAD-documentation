@@ -60,4 +60,4 @@ Il componente clone ha semplicemente la sua proprietà **CloneOf** impostata sul
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/it

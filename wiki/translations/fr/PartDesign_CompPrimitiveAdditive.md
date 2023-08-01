@@ -36,4 +36,4 @@ Crée une primitive d\'addition dans le corps actif en tant que première entit�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveAdditive/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveAdditive/fr

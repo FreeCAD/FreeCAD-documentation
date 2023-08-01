@@ -370,4 +370,4 @@ The page has 4 benefits:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap]] ](Category_Roadmap]] .md) > Sandbox:Wishlist
+![](images/Button_right.svg) [documentation index](../README.md) > [Roadmap]] ](Category_Roadmap]] .md) > Sandbox:Wishlist

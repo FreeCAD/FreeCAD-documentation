@@ -98,4 +98,4 @@ Nous en avons maintenant terminé avec le processus de base pour l\'[atelier Ray
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/fr

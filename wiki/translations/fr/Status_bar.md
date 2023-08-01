@@ -21,4 +21,4 @@ La barre d\'état affiche également le dernier objet présélectionné (tout ob
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Status bar/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Status bar/fr

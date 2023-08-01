@@ -39,4 +39,4 @@ Le mode Document de l\'arborescence est enregistré dans : **Outils → Éditer 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeCollapseDocument/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std TreeCollapseDocument/fr

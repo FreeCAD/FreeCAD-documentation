@@ -53,4 +53,4 @@ Il comando **Finestre** apre una finestra di dialogo con un elenco di finestre d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Windows/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std Windows/it

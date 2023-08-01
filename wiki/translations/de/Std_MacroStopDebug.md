@@ -24,4 +24,4 @@ Dieser Befehl funktioniert zur Zeit nicht.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std MacroStopDebug/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std MacroStopDebug/de

@@ -31,4 +31,4 @@ The **Std SelForward** command restores the next recorded [Tree view](Tree_view.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SelForward
+![](images/Button_right.svg) [documentation index](../README.md) > Std SelForward

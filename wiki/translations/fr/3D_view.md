@@ -88,4 +88,4 @@ Pour plus d\'informations, voir la documentation de l\'utilisateur expert :
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > 3D view/fr
+![](images/Button_right.svg) [documentation index](../README.md) > 3D view/fr

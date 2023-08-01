@@ -1068,4 +1068,4 @@ FreeCAD beinhaltet derzeit keinen solchen eingebundenen Arbeitsbereich, aber es 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Wiki](Category_Wiki.md) > [Glossary](Category_Glossary.md) > Glossary/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Wiki](Category_Wiki.md) > [Glossary](Category_Glossary.md) > Glossary/de

@@ -19,4 +19,4 @@ Dacă glisați mouse-ul peste fiecare setare, veți primi un ttoltip care explic
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Setup/ro
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Setup/ro

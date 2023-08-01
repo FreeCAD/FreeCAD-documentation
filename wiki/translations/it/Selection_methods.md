@@ -115,4 +115,4 @@ Vedere nella [Documentazione del codice sorgente](Source_documentation/it.md) e 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Selection methods/it
+![](images/Button_right.svg) [documentation index](../README.md) > Selection methods/it

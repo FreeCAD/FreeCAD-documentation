@@ -86,4 +86,4 @@ Această decizie se face numai pentru nucleul sistemul FreeCAD. Fiecare scriitor
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/ro

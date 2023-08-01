@@ -152,4 +152,4 @@ Hinweis: Die Ansichtengruppe sollte immer zum Zeichnungsblatt hinzugefügt werde
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ProjectionGroup/de
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ProjectionGroup/de

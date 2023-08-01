@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Plot](Plot_Workbench.md) > Plot Module/zh-tw
+![](images/Button_right.svg) [documentation index](../README.md) > [Plot](Plot_Workbench.md) > Plot Module/zh-tw

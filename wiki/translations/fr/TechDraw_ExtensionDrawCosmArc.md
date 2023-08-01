@@ -42,4 +42,4 @@ L\'outil **TechDraw Arc** ajoute un arc cosmétique dans le sens inverse des aig
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDrawCosmArc/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDrawCosmArc/fr

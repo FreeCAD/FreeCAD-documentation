@@ -26,4 +26,4 @@ Zestaw różnych narzędzi do tworzenia złożeń.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompCompoundTools/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompCompoundTools/pl

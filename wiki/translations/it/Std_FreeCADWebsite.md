@@ -34,4 +34,4 @@ Attualmente il comando punta a [<https://www.freecad.org>](https://www.freecad.o
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADWebsite/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADWebsite/it

@@ -39,4 +39,4 @@ Opcja menu **Ostatnio używane pliki** wyświetla listę poprzednich plików, kt
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std RecentFiles/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std RecentFiles/pl

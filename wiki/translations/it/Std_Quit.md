@@ -43,4 +43,4 @@ Il comando **Esci** chiude l\'applicazione FreeCAD e facoltativamente salva i do
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Quit/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std Quit/it

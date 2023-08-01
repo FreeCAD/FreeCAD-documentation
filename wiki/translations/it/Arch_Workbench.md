@@ -201,4 +201,4 @@ Il Modulo Arch può essere usato negli [Python](Python/it.md) e [macro](macros/i
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/it

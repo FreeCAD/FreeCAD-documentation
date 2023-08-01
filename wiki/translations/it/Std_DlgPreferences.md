@@ -39,4 +39,4 @@ Selezionare l\'opzione **Modifica → <img src="images/Std_DlgPreferences.svg" w
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgPreferences/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std DlgPreferences/it

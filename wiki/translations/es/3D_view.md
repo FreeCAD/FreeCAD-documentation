@@ -96,4 +96,4 @@ For more information see the power user documentation:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > 3D view/es
+![](images/Button_right.svg) [documentation index](../README.md) > 3D view/es

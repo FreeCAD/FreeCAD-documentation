@@ -56,4 +56,4 @@ Polecenie przełącz *Płaszczyznę przecinającą* tymczasowo ukrywa obiekty i 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ToggleClipPlane/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleClipPlane/pl

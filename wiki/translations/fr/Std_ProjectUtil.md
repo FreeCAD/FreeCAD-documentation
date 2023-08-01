@@ -60,4 +60,4 @@ Il est important de réaliser que les fichiers contenus dans un fichier de proje
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ProjectUtil/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std ProjectUtil/fr

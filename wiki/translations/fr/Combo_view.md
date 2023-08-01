@@ -65,4 +65,4 @@ Activez ensuite la vue à l\'aide du menu, **Affichage → Panneaux → Vue arbo
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Combo view/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Combo view/fr

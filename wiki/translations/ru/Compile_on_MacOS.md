@@ -270,4 +270,4 @@ Docnav/ru \|[Компиляция в Linux](Compile_on_Linux/ru.md) \|[Комп�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on MacOS/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on MacOS/ru

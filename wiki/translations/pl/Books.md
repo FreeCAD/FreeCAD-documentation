@@ -92,4 +92,4 @@ Program FreeCAD pozwala użytkownikom na projektowanie na wiele sposobów, od ry
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Books/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Books/pl

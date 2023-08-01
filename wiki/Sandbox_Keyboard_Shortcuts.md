@@ -1211,4 +1211,4 @@ The global workbench\'s cut/copy/paste shortcuts work in spreadsheet.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Sandbox:Keyboard Shortcuts
+![](images/Button_right.svg) [documentation index](../README.md) > Sandbox:Keyboard Shortcuts

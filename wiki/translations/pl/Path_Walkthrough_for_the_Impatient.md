@@ -194,4 +194,4 @@ Ostatnim krokiem do wygenerowania G-code dla docelowej frezarki jest postprocess
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/pl

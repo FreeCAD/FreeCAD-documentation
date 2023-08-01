@@ -25,4 +25,4 @@ Der Abstand ihrer Z-Achsen und die Winkel zwischen ihren X-Achsen (und genauso i
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintAlignment/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintAlignment/de

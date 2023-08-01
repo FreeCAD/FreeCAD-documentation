@@ -22,4 +22,4 @@ Cette commande permet d\'activer la visibilité des mesures delta dans la [vue 3
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle Delta/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle Delta/fr

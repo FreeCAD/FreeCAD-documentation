@@ -34,4 +34,4 @@ If **Reference3** is not provided, FreeCAD makes default choices for it. For mod
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > O-X-Y type attachment modes
+![](images/Button_right.svg) [documentation index](../README.md) > O-X-Y type attachment modes

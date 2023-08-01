@@ -28,4 +28,4 @@ L\'[Ambiente TechDraw](TechDraw_Workbench/it.md) viene fornito con una serie di 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [TechDraw](Category_TechDraw.md) > Artwork TechDraw/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [TechDraw](Category_TechDraw.md) > Artwork TechDraw/it

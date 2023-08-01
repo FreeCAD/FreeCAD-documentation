@@ -46,4 +46,4 @@ In der RealitÃ¤t kann man nicht mit Achsen arbeiten, daher nutzt man ZylinderflÃ
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintAxial/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintAxial/de

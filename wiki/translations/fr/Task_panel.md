@@ -45,4 +45,4 @@ De nombreuses commandes requièrent la sélection de formes ou d\'objets présen
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Task panel/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Task panel/fr

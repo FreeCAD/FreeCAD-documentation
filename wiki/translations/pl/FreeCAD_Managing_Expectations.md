@@ -93,4 +93,4 @@ OpenCascade *(OCC / OCCT)* jest podstawową zewnętrzną zależnością jądra C
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD Managing Expectations/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD Managing Expectations/pl

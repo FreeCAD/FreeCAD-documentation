@@ -29,4 +29,4 @@ The **Mesh EvaluateSolid** command checks if a mesh object is solid. A solid mes
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh EvaluateSolid
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh EvaluateSolid

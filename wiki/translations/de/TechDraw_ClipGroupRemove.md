@@ -44,4 +44,4 @@ Das Werkzeug **TechDraw AusschnittsgruppeEntfernen** entfernt eine Ansicht aus e
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupRemove/de
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupRemove/de

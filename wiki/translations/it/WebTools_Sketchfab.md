@@ -43,4 +43,4 @@ Questo strumento consente di esportare e caricare gli oggetti in un proprio acco
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > WebTools Sketchfab/it
+![](images/Button_right.svg) [documentation index](../README.md) > WebTools Sketchfab/it

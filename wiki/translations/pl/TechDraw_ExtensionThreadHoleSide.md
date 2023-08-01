@@ -42,4 +42,4 @@ Narzędzie **Geometria pomocnicza dla otworu gwintowanego, widok z boku** dodaje
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadHoleSide/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadHoleSide/pl

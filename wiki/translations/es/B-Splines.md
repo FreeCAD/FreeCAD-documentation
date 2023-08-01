@@ -352,4 +352,4 @@ Por lo tanto, también tenemos zonas espaciales en las que la intensidad de la l
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > B-Splines/es
+![](images/Button_right.svg) [documentation index](../README.md) > B-Splines/es

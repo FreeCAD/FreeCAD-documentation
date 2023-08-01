@@ -38,4 +38,4 @@ Con questo manuale speriamo di essere riusciti a dare una buona impressione di F
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The Community/it
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:The Community/it

@@ -53,4 +53,4 @@ Exportă piesa selectată către un fișier tip pov pentru a fi utilizat într-u
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WritePart/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WritePart/ro

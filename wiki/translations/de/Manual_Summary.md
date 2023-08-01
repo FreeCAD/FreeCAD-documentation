@@ -57,4 +57,4 @@ Es gibt ein weiteres Inhaltsverzeichnis für das [FreeCAD **Online Hilfe** Syste
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Manual](Category_Manual.md) > Manual:Summary/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Manual](Category_Manual.md) > Manual:Summary/de

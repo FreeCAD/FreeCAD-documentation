@@ -30,4 +30,4 @@ Or
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointsVertical/en
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointsVertical/en

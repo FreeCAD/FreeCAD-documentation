@@ -36,4 +36,4 @@ Tryb Synchronizuj położenie w Widoku drzewa jest zapisywany: **Przybory → Ed
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeSyncPlacement/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSyncPlacement/pl

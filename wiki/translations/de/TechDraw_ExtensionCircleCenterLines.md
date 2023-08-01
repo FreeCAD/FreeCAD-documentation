@@ -42,4 +42,4 @@ Das Werkzeug **TechDraw ErgänzungKreismittellinien** fügt Mittellinien zu Krei
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCircleCenterLines/de
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCircleCenterLines/de

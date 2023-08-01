@@ -227,4 +227,4 @@ The <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="widt
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Tutorial KinematicSkeleton
+![](images/Button_right.svg) [documentation index](../README.md) > Tutorial KinematicSkeleton

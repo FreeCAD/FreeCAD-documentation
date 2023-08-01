@@ -54,4 +54,4 @@ W programie FreeCAD w wersji 0.20 i wyższej można utworzyć okrąg podziałowy
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Pitch Circle Tutorial/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Pitch Circle Tutorial/pl

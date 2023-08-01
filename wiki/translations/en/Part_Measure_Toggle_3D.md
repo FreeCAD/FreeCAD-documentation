@@ -21,4 +21,4 @@ This command toggles the visibility of linear and angular measurements in the [3
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle 3D/en
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle 3D/en

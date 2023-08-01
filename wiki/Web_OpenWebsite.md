@@ -24,4 +24,4 @@ The <img alt="" src=images/Web_OpenWebsite.svg  style="width:24px;"> **Web OpenW
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web OpenWebsite
+![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web OpenWebsite

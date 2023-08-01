@@ -43,4 +43,4 @@ Il comando **Vista Home** cambia la telecamera nella [Vista 3D](3D_view/it.md) a
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewHome/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std ViewHome/it

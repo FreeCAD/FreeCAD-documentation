@@ -94,4 +94,4 @@ Original idea [Macro_Toggle_Visibility](https://www.freecadweb.org/wiki/index.ph
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Toggle Visibility2 1-2
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Toggle Visibility2 1-2

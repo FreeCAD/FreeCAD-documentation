@@ -128,4 +128,4 @@ questa funzione utilizzare la funzione discrete [the original code](http://forum
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Cut Line/it
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Cut Line/it

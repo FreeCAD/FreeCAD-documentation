@@ -34,4 +34,4 @@ Polecenie **Nadaj kolor losowo** stosuje losowy **Kolor kształtu** do wybranych
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std RandomColor/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std RandomColor/pl

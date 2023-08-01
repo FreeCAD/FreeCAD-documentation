@@ -13,4 +13,4 @@ Desde esta interfaz puedes ver información útil y saltar a los archivos abiert
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Start](Category_Start.md) > [Workbenches](Category_Workbenches.md) > Start Workbench/es
+![](images/Button_right.svg) [documentation index](../README.md) > [Start](Category_Start.md) > [Workbenches](Category_Workbenches.md) > Start Workbench/es

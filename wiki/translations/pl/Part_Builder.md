@@ -89,4 +89,4 @@ Jednym z możliwych rozwiązań może być przepływ pracy:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/pl

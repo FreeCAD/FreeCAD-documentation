@@ -37,4 +37,4 @@ définirait un ensemble de propriétés nommé \"FreeCAD\" (le préfixe Pset\_ n
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM IfcProperties/fr
+![](images/Button_right.svg) [documentation index](../README.md) > BIM IfcProperties/fr

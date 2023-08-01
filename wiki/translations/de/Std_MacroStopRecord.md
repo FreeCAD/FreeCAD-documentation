@@ -35,4 +35,4 @@ Der Befehl **Std Makroaufzeichnung beenden** beendet die Makroaufzeichnungssitzu
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std MacroStopRecord/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std MacroStopRecord/de

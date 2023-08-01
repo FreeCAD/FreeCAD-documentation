@@ -70,4 +70,4 @@ Si l\'objet Plan dans la [vue 3D](3D_view/fr.md) est caché, sélectionnez l\'ob
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionPlane/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionPlane/fr

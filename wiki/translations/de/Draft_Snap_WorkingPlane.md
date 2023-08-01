@@ -45,4 +45,4 @@ Siehe [Draft-Einrasten](Draft_Snap/de#Einstellungen.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap WorkingPlane/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap WorkingPlane/de

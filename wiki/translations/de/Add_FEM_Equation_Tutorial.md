@@ -206,4 +206,4 @@ Wir haben gerade eine neue Gleichungsklasse erstellt. Um sie über die FEM-GUI a
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > [Developer Documentation](Category_Developer Documentation.md) > Add FEM Equation Tutorial/de
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > [Developer Documentation](Category_Developer Documentation.md) > Add FEM Equation Tutorial/de

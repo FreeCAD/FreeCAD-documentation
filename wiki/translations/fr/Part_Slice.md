@@ -147,4 +147,4 @@ L\'outil lui-même est implémenté en Python, voir **/Mod/Part/BOPTools/SplitFe
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/fr

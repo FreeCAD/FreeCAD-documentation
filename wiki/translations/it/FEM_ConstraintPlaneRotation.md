@@ -66,4 +66,4 @@ Crea un vincolo FEM per mantenere i nodi in una superficie planare nello stesso 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPlaneRotation/it
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPlaneRotation/it

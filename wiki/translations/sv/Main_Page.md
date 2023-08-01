@@ -88,4 +88,4 @@ Titta på [Development roadmap](Development_roadmap.md) för nyheter om vad som 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/sv
+![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/sv

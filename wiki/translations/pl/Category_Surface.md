@@ -13,4 +13,4 @@ This category lists pages related to the [Surface Workbench/pl](Surface_Workbenc
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Surface/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Surface/pl

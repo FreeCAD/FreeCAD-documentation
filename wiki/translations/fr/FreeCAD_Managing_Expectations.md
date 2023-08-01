@@ -91,4 +91,4 @@ OpenCascade (OCC) est un noyau externe de CAO dont FreeCAD est totalement dépen
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD Managing Expectations/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD Managing Expectations/fr

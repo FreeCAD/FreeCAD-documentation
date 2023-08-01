@@ -61,4 +61,4 @@ Polecenie to tworzy nowy obiekt [App: Łącze](App_Link/pl.md). Jego właściwo�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkReplace/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std LinkReplace/pl

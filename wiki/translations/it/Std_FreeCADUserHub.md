@@ -34,4 +34,4 @@ Attualmente il comando punta a [<https://wiki.freecad.org/User_hub>](https://wik
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADUserHub/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADUserHub/it

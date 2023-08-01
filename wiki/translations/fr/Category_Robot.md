@@ -16,4 +16,4 @@ This category lists pages related to the [Robot Workbench/fr](Robot_Workbench/fr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Robot/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Robot/fr

@@ -79,4 +79,4 @@ En plus de détecter les erreurs potentielles de géométrie, cet outil affiche 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/fr

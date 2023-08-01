@@ -37,4 +37,4 @@ Eins der B-Spline-Werkzeuge [BSplineGrad](Sketcher_BSplineDegree/de.md), [BSplin
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineApproximate/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineApproximate/de

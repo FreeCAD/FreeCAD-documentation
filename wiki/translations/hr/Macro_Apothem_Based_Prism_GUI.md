@@ -132,4 +132,4 @@ Zahvaljujući glavnom programeru FreeCAD-a [shoogen](http://forum.freecadweb.org
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Apothem Based Prism GUI/hr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Apothem Based Prism GUI/hr

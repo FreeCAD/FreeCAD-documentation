@@ -42,4 +42,4 @@ Tot conținutul manualului acesta este publicat sub licența [Creative Commons 4
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:Introduction/ro
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:Introduction/ro

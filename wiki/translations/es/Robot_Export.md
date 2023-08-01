@@ -31,4 +31,4 @@ Result: A KRL file (\*.src) will be created.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Export/es
+![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Export/es

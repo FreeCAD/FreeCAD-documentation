@@ -33,4 +33,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [UnfinishedDocu](Category_UnfinishedDocu.md) > Category:UnfinishedDocu/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [UnfinishedDocu](Category_UnfinishedDocu.md) > Category:UnfinishedDocu/ru

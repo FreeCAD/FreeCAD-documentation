@@ -228,4 +228,4 @@ OCC version: 7.0.0
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Recompute Profiler/en
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Recompute Profiler/en

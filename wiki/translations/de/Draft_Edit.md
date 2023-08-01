@@ -235,4 +235,4 @@ Es gibt keine Python-Methode, um Draft Bearbeiten auf Objekte anzuwenden. Um die
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/de

@@ -265,4 +265,4 @@ Dar cea mai bună lume dintre cele două există, și este un addon [Assembly2 W
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/ro

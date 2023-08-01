@@ -142,4 +142,4 @@ Once the desired tool shape(profile) exists, you need to create a [tool bit](Pat
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Tools/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Tools/pl

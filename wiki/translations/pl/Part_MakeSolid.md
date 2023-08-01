@@ -32,4 +32,4 @@ To polecenie tworzy bryłę z obiektu kształtu.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/pl

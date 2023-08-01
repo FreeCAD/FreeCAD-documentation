@@ -40,4 +40,4 @@ Polecenie **Zamknij otwór** wypełnia wybrane otwory w obiektach siatkowych.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillInteractiveHole/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillInteractiveHole/pl

@@ -127,4 +127,4 @@ Cette macro utilise la fonction discretize [voir le code original](http://forum.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Cut Line/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Cut Line/fr

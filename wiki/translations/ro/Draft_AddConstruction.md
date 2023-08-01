@@ -57,4 +57,4 @@ Această comandaă adaugă obiectele selectate la [Draft Construction group](Dra
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddConstruction/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddConstruction/ro

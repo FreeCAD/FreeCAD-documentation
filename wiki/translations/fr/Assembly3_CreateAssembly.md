@@ -36,4 +36,4 @@ Chaque objet de la branche est un <img alt="" src=images/Assembly_Assembly_Tree.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 CreateAssembly/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 CreateAssembly/fr

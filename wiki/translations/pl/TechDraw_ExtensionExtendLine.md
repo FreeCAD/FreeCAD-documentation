@@ -42,4 +42,4 @@ Narzędzie **Przedłuż linię** wydłuża linię kosmetyczną lub linię środk
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionExtendLine/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionExtendLine/pl

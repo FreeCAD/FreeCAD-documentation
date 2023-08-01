@@ -26,4 +26,4 @@ Esta página presenta información más detallada sobre los módulos incorporado
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > Builtin modules/es
+![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > Builtin modules/es

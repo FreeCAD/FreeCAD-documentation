@@ -48,4 +48,4 @@ The dialog is shown at the left and offers the following features:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ResultShow/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ResultShow/pl

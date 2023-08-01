@@ -28,4 +28,4 @@ Der Befehl <img alt="" src=images/Web_BrowserNext.svg  style="width:24px;"> **We
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserNext/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserNext/de

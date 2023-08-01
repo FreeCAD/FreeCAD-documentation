@@ -26,4 +26,4 @@ Această pagină oferă informații detaliate despre modulele integrate în Free
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > Builtin modules/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > Builtin modules/ro

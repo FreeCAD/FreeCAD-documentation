@@ -22,4 +22,4 @@ La commande <img alt="" src=images/Assembly_AutoRecompute.svg  style="width:24px
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AutoRecompute/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 AutoRecompute/fr

@@ -10,4 +10,4 @@ This category lists pages related to the [Raytracing Workbench/zh-tw](Raytracing
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Raytracing/zh-tw
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Raytracing/zh-tw

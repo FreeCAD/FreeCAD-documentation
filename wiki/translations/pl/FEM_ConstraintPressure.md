@@ -42,4 +42,4 @@ Nakłada na ścianę warunek nacisku ciśnieniem.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPressure/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPressure/pl

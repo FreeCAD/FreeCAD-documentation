@@ -25,4 +25,4 @@ Les objets utilisés doivent être des formes [OpenCASCADE](OpenCASCADE/fr.md). 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/fr

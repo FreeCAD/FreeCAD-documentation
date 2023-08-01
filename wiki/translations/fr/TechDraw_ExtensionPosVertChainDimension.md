@@ -46,4 +46,4 @@ L\'outil **TechDraw Aligner verticalement** aligne les cotes verticales pour crÃ
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPosVertChainDimension/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPosVertChainDimension/fr

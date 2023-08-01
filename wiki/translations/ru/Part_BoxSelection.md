@@ -32,4 +32,4 @@ The **<img src="images/Part_BoxSelection.svg" width=16px> [Part BoxSelection](Pa
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BoxSelection/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BoxSelection/ru

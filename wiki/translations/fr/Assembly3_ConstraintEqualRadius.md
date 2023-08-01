@@ -35,4 +35,4 @@ La valeur du rayon du premier cercle ou arc sélectionné est égale à la valeu
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintEqualRadius/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintEqualRadius/fr

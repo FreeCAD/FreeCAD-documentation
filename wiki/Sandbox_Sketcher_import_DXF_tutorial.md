@@ -34,4 +34,4 @@ Tip: This procedure can also be useful to convert parts from other CAD programs 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Sandbox:Sketcher import DXF tutorial
+![](images/Button_right.svg) [documentation index](../README.md) > Sandbox:Sketcher import DXF tutorial

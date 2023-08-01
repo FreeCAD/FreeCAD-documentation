@@ -39,4 +39,4 @@ Néanmoins, une esquisse peut toujours être créée à toute autre fin. Elle ne
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Sketch/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Sketch/fr

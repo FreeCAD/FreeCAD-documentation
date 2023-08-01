@@ -59,4 +59,4 @@ La forma risultante è una raccolta di vertici o punti, che può essere utilizza
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part PointsFromMesh/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part PointsFromMesh/it

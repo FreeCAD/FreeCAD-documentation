@@ -53,4 +53,4 @@ The green background indicates links that have been fixed or that never existed.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Rename Module to Workbench
+![](images/Button_right.svg) [documentation index](../README.md) > Rename Module to Workbench

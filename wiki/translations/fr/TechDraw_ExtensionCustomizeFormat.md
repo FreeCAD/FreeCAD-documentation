@@ -42,4 +42,4 @@ L\'outil **TechDraw Personnaliser le format d\'infobulle** personnalise le forma
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCustomizeFormat/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCustomizeFormat/fr

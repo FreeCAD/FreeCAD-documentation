@@ -368,4 +368,4 @@ Voir aussi [Kits de préférences privés](Private_Preference_Packs/fr.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > Preference Packs/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > Preference Packs/fr

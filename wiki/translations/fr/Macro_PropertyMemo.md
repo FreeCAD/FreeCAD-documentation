@@ -407,4 +407,4 @@ Mes macros sur [mario52a](https://gist.github.com/mario52a) gists
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro PropertyMemo/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro PropertyMemo/fr

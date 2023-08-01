@@ -32,4 +32,4 @@ Zobacz stronę [Konwertuj na punkty](Points_Convert/pl.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Merge/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Merge/pl

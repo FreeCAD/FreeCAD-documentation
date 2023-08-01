@@ -85,4 +85,4 @@ To create sections with a section plane see [Cross-sections](Part_SectionCross.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/ro

@@ -263,4 +263,4 @@ Puteți salva / exporta graficul de dependență afișat ca fișier imagine. În
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/ro

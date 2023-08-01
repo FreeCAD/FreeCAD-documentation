@@ -204,4 +204,4 @@ Dialog to save a picture with arbitrary sizes.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Screenshots/hr
+![](images/Button_right.svg) [documentation index](../README.md) > Screenshots/hr

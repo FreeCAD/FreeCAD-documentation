@@ -16,4 +16,4 @@ L'outil Copie BIM est un raccourci vers l'outil standard [Déplacer](Draft_Move/
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Copy/fr
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Copy/fr

@@ -36,4 +36,4 @@ Définit une condition limite de ressort à utiliser pour les analyses mécaniqu
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSpring/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSpring/fr

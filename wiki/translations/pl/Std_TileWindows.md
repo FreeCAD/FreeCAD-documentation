@@ -36,4 +36,4 @@ Polecenie **Sąsiadująco** zmienia układ okien w [Głównym obszarze widoku](M
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TileWindows/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std TileWindows/pl

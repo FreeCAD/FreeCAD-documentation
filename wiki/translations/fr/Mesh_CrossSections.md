@@ -75,4 +75,4 @@ Voir: [Part Feature](Part_Feature/fr.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CrossSections/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CrossSections/fr

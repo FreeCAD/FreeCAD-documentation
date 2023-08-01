@@ -105,4 +105,4 @@ Le mulţumesc utilizatorilor \"freecad-heini-1\" şi \"herbk\" pentru testare ş
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Import](Import_Workbench.md) > Import text and geometry from Inkscape/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Import](Import_Workbench.md) > Import text and geometry from Inkscape/ro

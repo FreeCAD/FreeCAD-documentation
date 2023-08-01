@@ -95,4 +95,4 @@ For any feedback (bug, feature request, comments, \...), please use this forum t
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro PlacementAbsolufy/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Macro PlacementAbsolufy/pl

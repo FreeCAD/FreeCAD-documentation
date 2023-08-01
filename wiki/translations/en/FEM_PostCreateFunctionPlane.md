@@ -55,4 +55,4 @@ If the Plane object in the [3D view](3D_view.md) is hidden, select the <img alt=
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionPlane/en
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionPlane/en

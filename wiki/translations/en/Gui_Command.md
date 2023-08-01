@@ -45,4 +45,4 @@ We try as much as possible to respect this chart, so the color of the icons has 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Gui Command/en
+![](images/Button_right.svg) [documentation index](../README.md) > Gui Command/en

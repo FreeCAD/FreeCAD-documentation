@@ -62,4 +62,4 @@ Fehlt auf dieser Wiki-Seite etwas. Bitte stelle eine Anfrage für [Wiki Berechti
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Migrating to FreeCAD from Fusion360/de
+![](images/Button_right.svg) [documentation index](../README.md) > Migrating to FreeCAD from Fusion360/de

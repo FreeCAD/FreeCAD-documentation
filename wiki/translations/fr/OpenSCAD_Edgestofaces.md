@@ -35,4 +35,4 @@ Voir aussi [Draft Agréger](Draft_Upgrade/fr.md) pour une solution alternative p
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Edgestofaces/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Edgestofaces/fr

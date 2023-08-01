@@ -37,4 +37,4 @@ All properties are described in the [Arch Window](Arch_Window.md) tool.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Door/hr
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Door/hr

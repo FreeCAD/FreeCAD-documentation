@@ -171,4 +171,4 @@ Un [esempio](http://forum.freecadweb.org/viewtopic.php?f=3&t=3674) dettagliato d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/it
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/it

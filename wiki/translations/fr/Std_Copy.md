@@ -44,4 +44,4 @@ La commande **Std Copie** copie les objets dans le presse-papiers.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Copy/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std Copy/fr

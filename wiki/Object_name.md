@@ -118,4 +118,4 @@ Given that the `Label` is in general not unique, the `getObjectsByLabel` method 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Object name
+![](images/Button_right.svg) [documentation index](../README.md) > Object name

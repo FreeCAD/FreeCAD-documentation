@@ -49,4 +49,4 @@ Das Werkzeug **TechDraw ErgänzungHorizontaleMaßeAnordnen** erzeugt gleiche Abs
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCascadeHorizDimension/de
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCascadeHorizDimension/de

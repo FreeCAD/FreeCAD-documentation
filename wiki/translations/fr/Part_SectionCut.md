@@ -109,4 +109,4 @@ Tous les objets visibles sont placés dans un <img alt="" src=images/Part_Compou
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SectionCut/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SectionCut/fr

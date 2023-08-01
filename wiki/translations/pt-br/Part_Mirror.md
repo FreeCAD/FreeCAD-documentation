@@ -49,4 +49,4 @@ The **Base point** boxes can be used to move the mirror plane parallel to the se
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/pt-br

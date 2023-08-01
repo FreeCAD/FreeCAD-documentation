@@ -156,4 +156,4 @@ Replace a string in all the pages listed in the Arch category (a/k/a )
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Administration](Category_Administration.md) > [Developer](Category_Developer.md) > WikiRobots/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [Administration](Category_Administration.md) > [Developer](Category_Developer.md) > WikiRobots/ru

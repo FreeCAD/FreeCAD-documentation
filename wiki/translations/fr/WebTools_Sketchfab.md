@@ -37,4 +37,4 @@ Cet outil permet l\'exportation et le téléchargement d\'objets vers votre comp
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > WebTools Sketchfab/fr
+![](images/Button_right.svg) [documentation index](../README.md) > WebTools Sketchfab/fr

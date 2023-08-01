@@ -118,4 +118,4 @@ Il foro [findConfigFiles macro](https://forum.freecadweb.org/viewtopic.php?f=22&
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro findConfigFiles/it
+![](images/Button_right.svg) [documentation index](../README.md) > Macro findConfigFiles/it

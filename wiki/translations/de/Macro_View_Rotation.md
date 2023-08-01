@@ -292,4 +292,4 @@ am Ende der Funktion \'initUI\'. Die ersten beiden Argumente (rechts-300, 0) (Ze
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro View Rotation/de
+![](images/Button_right.svg) [documentation index](../README.md) > Macro View Rotation/de

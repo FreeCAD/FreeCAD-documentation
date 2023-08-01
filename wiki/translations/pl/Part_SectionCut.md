@@ -115,4 +115,4 @@ Wszystkie widoczne obiekty umieszcza się w kontenerze <img alt="" src=images/Pa
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SectionCut/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SectionCut/pl

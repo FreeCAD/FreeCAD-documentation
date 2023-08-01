@@ -522,4 +522,4 @@ Jeśli środowisko pracy [Start](Start_Workbench.md) pokazuje tylko pustą stron
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.21/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.21/pl

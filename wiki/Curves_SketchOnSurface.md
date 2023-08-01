@@ -67,4 +67,4 @@ It is assumed that all geometry in the sketch is enclosed within the blue constr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves SketchOnSurface
+![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves SketchOnSurface

@@ -58,4 +58,4 @@ Siehe auch [Messung von Winkeln an Bohrungen](Measurement_Of_Angles_On_Holes/de.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HowTo Page/de
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HowTo Page/de

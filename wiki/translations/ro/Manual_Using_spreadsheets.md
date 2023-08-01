@@ -127,4 +127,4 @@ Puteți, de asemenea, să dați aliasuri constrângerilor dimensionale (orizonta
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Using spreadsheets/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Using spreadsheets/ro

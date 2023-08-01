@@ -49,4 +49,4 @@ El propósito de este explorador es simplemente permitirte comprobar lo que real
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/es
+![](images/Button_right.svg) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/es

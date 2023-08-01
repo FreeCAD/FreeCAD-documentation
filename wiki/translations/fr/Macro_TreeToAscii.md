@@ -255,4 +255,4 @@ dlg.exec_()
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro TreeToAscii/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro TreeToAscii/fr

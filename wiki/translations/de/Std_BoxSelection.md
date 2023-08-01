@@ -43,4 +43,4 @@ Der Befehl **Std Rechteckauswahl** wählt die Objekte innerhalb eines benutzerde
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std BoxSelection/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std BoxSelection/de

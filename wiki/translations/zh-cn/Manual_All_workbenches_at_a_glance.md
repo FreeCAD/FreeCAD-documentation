@@ -140,4 +140,4 @@ Arch 工作台包含用于处理 [BIM](https://en.wikipedia.org/wiki/Building_in
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:All workbenches at a glance/zh-cn
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:All workbenches at a glance/zh-cn

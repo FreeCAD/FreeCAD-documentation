@@ -67,4 +67,4 @@ Aktiviere dann die Ansicht über das Menü **Ansicht → Paneele → Baumansicht
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Combo view/de
+![](images/Button_right.svg) [documentation index](../README.md) > Combo view/de

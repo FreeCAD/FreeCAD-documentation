@@ -34,4 +34,4 @@ Una raccolta di strumenti di suddivisione.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompSplittingTools/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompSplittingTools/it

@@ -44,4 +44,4 @@ Die Skizze kann in der [3D-Ansicht](3D_view/de.md) mittels [Positionierung](Plac
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/de

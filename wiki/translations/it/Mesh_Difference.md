@@ -38,4 +38,4 @@ Vedere [Mesh Feature](Mesh_Feature/it.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Difference/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Difference/it

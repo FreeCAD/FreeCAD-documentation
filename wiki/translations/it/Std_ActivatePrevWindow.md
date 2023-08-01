@@ -42,4 +42,4 @@ Il comando **Precedente** attiva la finestra precedente nell\'[Area della vista 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ActivatePrevWindow/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std ActivatePrevWindow/it

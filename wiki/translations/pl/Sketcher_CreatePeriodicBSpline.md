@@ -53,4 +53,4 @@ Zobacz tronę [Krzywa złożona przez punkty kontrolne](Sketcher_CreateBSpline#O
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePeriodicBSpline/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePeriodicBSpline/pl

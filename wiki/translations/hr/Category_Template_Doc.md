@@ -10,4 +10,4 @@ This category lists templates that produce text boxes used for documenting comma
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Template:Doc/hr
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Template:Doc/hr

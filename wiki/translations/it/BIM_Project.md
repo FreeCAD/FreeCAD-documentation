@@ -35,4 +35,4 @@ In alternativa, si può salvare il contenuto del documento corrente come modello
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Project/it
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Project/it

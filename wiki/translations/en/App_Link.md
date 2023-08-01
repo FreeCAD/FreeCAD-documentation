@@ -29,4 +29,4 @@ See [Std LinkMake](Std_LinkMake#Properties.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > App Link/en
+![](images/Button_right.svg) [documentation index](../README.md) > App Link/en

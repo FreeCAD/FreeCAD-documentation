@@ -132,4 +132,4 @@ Alternativamente, si quieres invocar fcinfo con argumentos (por ejemplo, --gui) 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > WebTools Git/es
+![](images/Button_right.svg) [documentation index](../README.md) > WebTools Git/es

@@ -31,4 +31,4 @@ Der Radius des ersten Kreises oder Bogens ist gleich dem Radius des zweiten Krei
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintEqualRadius/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintEqualRadius/de

@@ -41,4 +41,4 @@ Voir: [Part Feature](Part_Feature/fr.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Category_Mesh.md) > [MeshPart](MeshPart_Workbench.md) > MeshPart CreateFlatMesh/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Category_Mesh.md) > [MeshPart](MeshPart_Workbench.md) > MeshPart CreateFlatMesh/fr

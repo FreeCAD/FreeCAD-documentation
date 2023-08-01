@@ -38,4 +38,4 @@ Con conseguente possibilità di modificare i valori per:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryDressUp/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryDressUp/it

@@ -855,4 +855,4 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Unroll Ruled Surface/it
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Unroll Ruled Surface/it

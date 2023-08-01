@@ -41,4 +41,4 @@ The page discussion [GMSH macro](http://forum.freecadweb.org/viewtopic.php?t=111
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro GMSH/en
+![](images/Button_right.svg) [documentation index](../README.md) > Macro GMSH/en

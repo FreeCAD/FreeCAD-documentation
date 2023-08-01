@@ -16,4 +16,4 @@ This page lists all categories with the en language tag.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Categories/en
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Categories/en

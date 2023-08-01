@@ -27,4 +27,4 @@ When the **Accept** button is pressed, a new tank instance is created inside the
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Tank/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Tank/it

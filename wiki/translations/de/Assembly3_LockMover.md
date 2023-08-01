@@ -28,4 +28,4 @@ Ausgewählte **2D-Geometrien**, wie Draft-Linien, -Bögen und -Kreise, die mit d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 LockMover/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 LockMover/de

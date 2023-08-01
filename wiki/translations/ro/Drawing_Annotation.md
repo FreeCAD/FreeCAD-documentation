@@ -56,4 +56,4 @@ Această comandă vă permite să plasați un bloc de text pe un [Drawing page](
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Annotation/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Annotation/ro

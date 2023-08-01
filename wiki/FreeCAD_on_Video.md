@@ -234,4 +234,4 @@ Consider: (This content is mostly from the Forum)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sandbox]]](Category_Sandbox]].md) > FreeCAD on Video
+![](images/Button_right.svg) [documentation index](../README.md) > [Sandbox]]](Category_Sandbox]].md) > FreeCAD on Video

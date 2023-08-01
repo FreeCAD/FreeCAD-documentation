@@ -187,4 +187,4 @@ Netzobjekte, die mit diesem Befehl erstellt werden erben sämtliche Einstellunge
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BuildRegularSolid/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BuildRegularSolid/de

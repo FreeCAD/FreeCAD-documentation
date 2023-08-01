@@ -24,4 +24,4 @@ Il peut traiter des éléments ponctuels 3D ainsi que des éléments ponctuels 2
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointDistance/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointDistance/fr

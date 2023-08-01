@@ -64,4 +64,4 @@ Die Diskussionsseite [Probleme mit LinearMustern (wiederholt)](http://forum.free
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro hinge/de
+![](images/Button_right.svg) [documentation index](../README.md) > Macro hinge/de

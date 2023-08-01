@@ -139,4 +139,4 @@ Un oggetto Image Plane deriva da un oggetto [App GeoFeature](App_GeoFeature/it.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/it
+![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/it

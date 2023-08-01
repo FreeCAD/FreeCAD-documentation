@@ -234,4 +234,4 @@ Altra similare macro [Macro Mouse over cb](Macro_Mouse_over_cb.md)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro FC element selector/it
+![](images/Button_right.svg) [documentation index](../README.md) > Macro FC element selector/it

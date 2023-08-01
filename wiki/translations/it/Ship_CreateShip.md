@@ -80,4 +80,4 @@ Quando si preme il pulsante **OK**, il programma crea la nuova istanza barca, qu
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship CreateShip/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship CreateShip/it

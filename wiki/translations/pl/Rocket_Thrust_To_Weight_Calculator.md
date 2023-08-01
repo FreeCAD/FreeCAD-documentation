@@ -41,4 +41,4 @@ Calculations are done using metric units, but will display in your preferred uni
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Thrust To Weight Calculator/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Thrust To Weight Calculator/pl

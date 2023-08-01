@@ -26,4 +26,4 @@ Der Befehl <img alt="" src=images/Assembly_QuickSolve.svg‎‎  style="width:24
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 QuickSolve/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 QuickSolve/de

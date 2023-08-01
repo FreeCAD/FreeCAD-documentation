@@ -51,4 +51,4 @@ The predefined robots are:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateRobot/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateRobot/pt-br

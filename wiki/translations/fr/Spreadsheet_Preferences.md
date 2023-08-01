@@ -37,4 +37,4 @@ Il n\'y a qu\'un seul onglet : *Tableur* dans la section **Spreadsheet**. Dans c
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Preferences/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Preferences/fr

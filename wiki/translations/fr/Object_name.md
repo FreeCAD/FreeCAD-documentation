@@ -135,4 +135,4 @@ La fonction `addObject` a deux arguments de chaîne de base.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Object name/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Object name/fr

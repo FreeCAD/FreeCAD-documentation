@@ -23,4 +23,4 @@ O FreeCAD Ã© mantido e desenvolvido por uma comunidade de desenvolvedores e usuÃ
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/pt-br

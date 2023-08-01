@@ -155,4 +155,4 @@ Note: Due to what I described, further developing Nurbs workbench is not possibl
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Design456 Workbench
+![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Design456 Workbench

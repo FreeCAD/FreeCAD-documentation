@@ -46,4 +46,4 @@ gdzie \"X\" to liczba stopni swobody pozostałych w szkicu. Więcej informacji o
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsWithDoFs/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsWithDoFs/pl

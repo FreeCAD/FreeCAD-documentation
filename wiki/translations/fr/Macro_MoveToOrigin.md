@@ -193,4 +193,4 @@ La discussion sur le forum [MoveToOrigin Macro](https://forum.freecadweb.org/vie
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro MoveToOrigin/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro MoveToOrigin/fr

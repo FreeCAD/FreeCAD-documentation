@@ -111,4 +111,4 @@ Narzędzie zostało wprowadzone w wersji FreeCAD v0.17.8053. FreeCAD musi być s
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BooleanFragments/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BooleanFragments/pl

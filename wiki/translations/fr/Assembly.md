@@ -54,4 +54,4 @@ Les ateliers d\'assemblage poursuivent leur développement et il est prévu qu\'
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly/fr

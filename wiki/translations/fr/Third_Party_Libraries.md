@@ -278,4 +278,4 @@ Cela inclut entre autres : Boost 1,67, Coin3D 4.0.0a, Eigen3, Open CASCADE Techn
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Libraries/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Libraries/fr

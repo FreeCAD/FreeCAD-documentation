@@ -39,4 +39,4 @@ See also <img alt="Draft_Upgrade" src=images/Draft_Upgrade.svg  style="width:24p
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Edgestofaces/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Edgestofaces/ru

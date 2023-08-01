@@ -275,4 +275,4 @@ ToolBar Icon ![](images/Macro_Shake_Sketch.png )
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Shake Sketch/it
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Shake Sketch/it

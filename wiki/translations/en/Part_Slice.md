@@ -132,4 +132,4 @@ The tool itself is implemented in Python, see **/Mod/Part/BOPTools/SplitFeatures
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/en
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/en

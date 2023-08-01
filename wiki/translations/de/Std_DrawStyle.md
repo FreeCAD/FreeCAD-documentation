@@ -111,4 +111,4 @@ Die Darstellungsart **Flache Linien** überlagert die {{PropertyView/de|Display 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DrawStyle/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std DrawStyle/de

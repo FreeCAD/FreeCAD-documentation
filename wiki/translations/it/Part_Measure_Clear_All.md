@@ -47,4 +47,4 @@ Premere il pulsante **[<img src=images/Part_Measure_Clear_All.svg style="width:2
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Clear All/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Clear All/it

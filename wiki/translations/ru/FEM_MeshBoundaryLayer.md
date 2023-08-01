@@ -68,4 +68,4 @@ You can create as many different mesh boundary layers as needed.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshBoundaryLayer/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshBoundaryLayer/ru

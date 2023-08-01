@@ -29,4 +29,4 @@ Die Linienelemente werden mit Werkzeugen der <img alt="" src=images/Workbench_Dr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintMidPoint/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintMidPoint/de

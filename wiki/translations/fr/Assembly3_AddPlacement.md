@@ -31,4 +31,4 @@ Les éléments valides sont par exemple des éléments, des corps, des sommets, 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AddPlacement/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 AddPlacement/fr

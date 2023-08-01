@@ -56,4 +56,4 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionDrawCosmArc.svg  style="wi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDrawCosmArc/de
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDrawCosmArc/de

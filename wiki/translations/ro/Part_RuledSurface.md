@@ -56,4 +56,4 @@ Macro [Sviluppa superfici rigate](Macro_Unroll_Ruled_Surface/it.md) permite crea
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RuledSurface/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RuledSurface/ro

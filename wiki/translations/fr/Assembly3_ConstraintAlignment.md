@@ -25,4 +25,4 @@ Le décalage de leurs axes z et l\'angle entre leurs axes x (et y également) ne
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintAlignment/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintAlignment/fr

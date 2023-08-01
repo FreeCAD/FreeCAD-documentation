@@ -100,4 +100,4 @@ Utilizzando una elica come traiettoria, tramite uno sweep solido si può creare 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Solid Sweep/it
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Solid Sweep/it

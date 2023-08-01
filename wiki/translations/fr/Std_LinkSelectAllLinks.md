@@ -37,4 +37,4 @@ La commande *Std Tous les liens* sélectionne tous les objets [App Link](App_Lin
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkSelectAllLinks/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std LinkSelectAllLinks/fr

@@ -113,4 +113,4 @@ Il existe une autre table des matières pour le [Manuel : Introduction à FreeCA
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/fr

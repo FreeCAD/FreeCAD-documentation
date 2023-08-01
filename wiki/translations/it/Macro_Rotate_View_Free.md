@@ -54,4 +54,4 @@ Se non ci sono documenti aperti viene restituito un errore.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Rotate View Free/it
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Rotate View Free/it

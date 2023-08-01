@@ -252,4 +252,4 @@ Please refer to the Page [Importing From Sketchup](Importing_From_Sketchup.md)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > FreeCAD Howto Import Export
+![](images/Button_right.svg) [documentation index](../README.md) > FreeCAD Howto Import Export

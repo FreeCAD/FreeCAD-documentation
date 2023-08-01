@@ -80,4 +80,4 @@ La pagina [Ambienti complementari](External_workbenches/it.md) elenca tutti quel
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/it

@@ -22,4 +22,4 @@ Recommended install is via the <img alt="" src=images/Std_AddonMgr.svg  style="w
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Silk](Category_Silk.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > Silk Workbench
+![](images/Button_right.svg) [documentation index](../README.md) > [Silk](Category_Silk.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > Silk Workbench

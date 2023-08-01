@@ -102,4 +102,4 @@ FreeCADバージョン0.14以降、上記の設定が空の場合、FreeCADはOp
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD AddOpenSCADElement/ja
+![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD AddOpenSCADElement/ja

@@ -34,4 +34,4 @@ Permet au robot sélectionné de se déplacer vers sa position de départ.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos/fr

@@ -39,4 +39,4 @@ Sin embargo, un Croquis siempre puede ser creado por sí mismo para cualquier ot
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Sketch/es
+![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Sketch/es

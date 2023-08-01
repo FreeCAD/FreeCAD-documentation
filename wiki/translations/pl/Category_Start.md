@@ -11,4 +11,4 @@ Ta kategoria zawiera strony związane ze środowiskiem pracy [start](Start_Workb
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Start/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Start/pl

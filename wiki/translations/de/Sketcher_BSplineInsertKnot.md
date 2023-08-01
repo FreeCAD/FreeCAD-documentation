@@ -36,4 +36,4 @@ Fügt einen Knoten in einen vorhandenen [B-Spline](B-Splines/de.md) ein. Wenn sc
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineInsertKnot/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineInsertKnot/de

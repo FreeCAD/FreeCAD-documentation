@@ -74,4 +74,4 @@ The Libraries tab shows a list of the external libraries used by the program, an
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/hr
+![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/hr

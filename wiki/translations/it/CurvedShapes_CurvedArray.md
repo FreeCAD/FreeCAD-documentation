@@ -55,4 +55,4 @@ Crea un array e ridimensiona gli elementi all\'interno di una o più curve limit
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Name](Category_Name.md) > [External Command Reference](Category_External Command Reference.md) > CurvedShapes CurvedArray/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Name](Category_Name.md) > [External Command Reference](Category_External Command Reference.md) > CurvedShapes CurvedArray/it

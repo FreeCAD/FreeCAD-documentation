@@ -45,4 +45,4 @@ The **Std Alignment** command aligns an object in relation to a fixed reference 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Alignment/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Std Alignment/ru

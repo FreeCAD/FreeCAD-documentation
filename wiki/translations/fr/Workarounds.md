@@ -301,4 +301,4 @@ Le but de cet article est de lister certaines fonctionnalités actuellement manq
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Workarounds/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Workarounds/fr

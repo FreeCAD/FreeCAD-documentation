@@ -116,4 +116,4 @@ Cerchiamo di rispettare quanto più possibile questo schema, in modo che il colo
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Gui Command/it
+![](images/Button_right.svg) [documentation index](../README.md) > Gui Command/it

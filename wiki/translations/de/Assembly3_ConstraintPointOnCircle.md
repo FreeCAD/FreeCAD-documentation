@@ -27,4 +27,4 @@ Die Position auf dem Kreisobjekt (Bogenlänge vom Startpunkt) ist nicht festgelg
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointOnCircle/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointOnCircle/de

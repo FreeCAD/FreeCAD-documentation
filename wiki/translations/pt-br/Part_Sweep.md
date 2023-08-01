@@ -90,4 +90,4 @@ If \"Frenet\" is \"true\" the orientation of the profile is computed basing on l
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/pt-br

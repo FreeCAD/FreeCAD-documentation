@@ -173,4 +173,4 @@ if __name__ == '__main__': # if macro called to run
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro SplitPropEditor/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro SplitPropEditor/fr

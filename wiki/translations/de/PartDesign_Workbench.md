@@ -248,4 +248,4 @@ Ein paar Ideen, was mit den Part-Design-Werkzeugen erstellt werden kann, findet 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/de

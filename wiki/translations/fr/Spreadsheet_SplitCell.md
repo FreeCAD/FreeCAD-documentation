@@ -30,4 +30,4 @@ L\'outil **[<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> [Sprea
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SplitCell/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SplitCell/fr

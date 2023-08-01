@@ -98,4 +98,4 @@ Si la forma de los objetos exportados se basa en una extrusión o en una operaci
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch IFC/es
+![](images/Button_right.svg) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch IFC/es

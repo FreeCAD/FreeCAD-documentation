@@ -111,4 +111,4 @@ Lo stile **Facce piene** sovrascrive la proprietà **Display Mode** degli oggett
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DrawStyle/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std DrawStyle/it

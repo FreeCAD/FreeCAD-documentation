@@ -54,4 +54,4 @@ Atelierul Draft prezintă un mod de construcție ( ToggleConstructionMode) care 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/ro

@@ -43,4 +43,4 @@ Cependant, lorsque plus de précision est requise, la distinction doit être fai
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Part](Category_Part.md) > Shape/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Part](Category_Part.md) > Shape/fr

@@ -51,4 +51,4 @@ Aggiunge le proprietà del fluido ad una parte.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialFluid/it
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialFluid/it

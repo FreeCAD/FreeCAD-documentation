@@ -34,4 +34,4 @@ Obecnie polecenie wskazuje na stronę [<https://github.com/FreeCAD/FreeCAD/issue
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ReportBug/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std ReportBug/pl

@@ -53,4 +53,4 @@ In order to help new users, Ship includes a geometries examples loader, with the
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship LoadExample/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship LoadExample/ru

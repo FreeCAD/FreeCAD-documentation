@@ -67,4 +67,4 @@ Polecenie **Utwórz segmenty z najlepiej dopasowanych powierzchni** tworzy oddzi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SegmentationBestFit/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SegmentationBestFit/pl

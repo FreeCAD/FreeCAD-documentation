@@ -34,4 +34,4 @@ Der Befehl **Std Texturabbildung** bildet temporär eine Textur auf allen Objekt
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TextureMapping/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std TextureMapping/de

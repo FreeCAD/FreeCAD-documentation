@@ -31,4 +31,4 @@ The **Std LinkSelectLinkedFinal** command selects the **Linked Object**, the sou
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkSelectLinkedFinal/en
+![](images/Button_right.svg) [documentation index](../README.md) > Std LinkSelectLinkedFinal/en

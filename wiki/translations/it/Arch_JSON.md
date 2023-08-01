@@ -28,4 +28,4 @@ Nota che le faccette formano triangoli e i loro valori di riferimento delle valo
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch JSON/it
+![](images/Button_right.svg) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch JSON/it

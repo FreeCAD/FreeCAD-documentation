@@ -103,4 +103,4 @@ Des utilisateurs avancés ont créé différents [Ateliers externes](External_wo
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/fr

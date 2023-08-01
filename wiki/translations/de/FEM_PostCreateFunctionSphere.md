@@ -65,4 +65,4 @@ Wenn das Sphere-Objekt in der [Baumansicht](Tree_view/de.md) ausgeblendet ist, w
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionSphere/de
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionSphere/de

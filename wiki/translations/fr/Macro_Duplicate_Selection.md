@@ -90,4 +90,4 @@ La discussion sur le forum [Duplicate Objects when more than one face selected](
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Duplicate Selection/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Duplicate Selection/fr

@@ -34,4 +34,4 @@ Attualmente il comando punta a [<https://wiki.freecad.org/Power_users_hub>](http
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADPowerUserHub/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADPowerUserHub/it

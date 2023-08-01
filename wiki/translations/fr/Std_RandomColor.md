@@ -34,4 +34,4 @@ La commande **Std Couleur aléatoire** applique une {{PropertyView/fr|Shape Colo
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std RandomColor/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std RandomColor/fr

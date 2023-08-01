@@ -49,4 +49,4 @@ La commande **Std Fenêtres** ouvre une boîte de dialogue avec une liste de fen
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Windows/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std Windows/fr

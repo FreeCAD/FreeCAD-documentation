@@ -39,4 +39,4 @@ Das Werkzeug <img alt="" src=images/Curves_PipeshellProfile.svg  style="width:24
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves PipeshellProfile/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves PipeshellProfile/de

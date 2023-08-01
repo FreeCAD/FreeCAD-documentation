@@ -11,4 +11,4 @@ This category lists pages related to the [Surface Workbench/hr](Surface_Workbenc
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Surface/hr
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Surface/hr

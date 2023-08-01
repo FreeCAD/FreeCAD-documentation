@@ -32,4 +32,4 @@ Der Längenwert der zuerst gewählten Linie ist gleich dem Längenwert der zweit
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintLengthRatio/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLengthRatio/de

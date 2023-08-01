@@ -30,4 +30,4 @@ Actuellement, cette commande pointe vers [<https://forum.freecad.org>](https://f
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADForum/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADForum/fr

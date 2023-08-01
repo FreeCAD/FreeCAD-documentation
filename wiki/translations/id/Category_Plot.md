@@ -10,4 +10,4 @@ This category lists pages related to the [Plot Workbench/id](Plot_Workbench/id.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Plot/id
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Plot/id

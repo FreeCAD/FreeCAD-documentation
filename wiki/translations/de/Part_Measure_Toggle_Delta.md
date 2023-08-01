@@ -26,4 +26,4 @@ Dieser Befehl schaltet die Sichtbarkeit aller Delta-Messungen in der [3D-Ansicht
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle Delta/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle Delta/de

@@ -38,4 +38,4 @@ Polecenie **Wyświetl na pełnym ekranie** przełącza okno [widoku 3D](3D_view/
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewFullscreen/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std ViewFullscreen/pl

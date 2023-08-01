@@ -21,4 +21,4 @@ Esta herramienta abre una hoja de dibujo previamente guardada como un archivo SV
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Open SVG/es
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Open SVG/es

@@ -25,4 +25,4 @@ Dieser Befehl löscht alle Messungen in der [3D-Ansicht](3D_view/de.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Clear All/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Clear All/de

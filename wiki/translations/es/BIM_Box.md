@@ -35,4 +35,4 @@ La herramienta BIM Box le permite crear un estándar [Part Box](Part_Box.md), pe
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Box/es
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Box/es

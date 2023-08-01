@@ -305,4 +305,4 @@ Um die Positionierung von \"Sketch\" mit der von \"Cylinder\" gleichzusetzen, wÃ
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Placement/de
+![](images/Button_right.svg) [documentation index](../README.md) > Placement/de

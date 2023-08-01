@@ -19,4 +19,4 @@ Questa categoria contiene gli articoli che sono importanti per gli sviluppatori.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Developer/it
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Developer/it

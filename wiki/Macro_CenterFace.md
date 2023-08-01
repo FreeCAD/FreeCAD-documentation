@@ -149,4 +149,4 @@ ver 0.1 29/04/2014
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro CenterFace
+![](images/Button_right.svg) [documentation index](../README.md) > Macro CenterFace

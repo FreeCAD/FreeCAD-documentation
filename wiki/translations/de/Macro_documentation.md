@@ -219,4 +219,4 @@ Um das Makro dort aufzunehmen, muss es zunächst von der FreeCAD Gemeinschaft im
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Macros](Category_Macros.md) > [User Documentation](Category_User Documentation.md) > Macro documentation/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Macros](Category_Macros.md) > [User Documentation](Category_User Documentation.md) > Macro documentation/de

@@ -24,4 +24,4 @@ A causa della rapida evoluzione di FreeCAD, le informazioni presentate qui potre
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > Builtin modules/it
+![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > Builtin modules/it

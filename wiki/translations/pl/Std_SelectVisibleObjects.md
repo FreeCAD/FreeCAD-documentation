@@ -28,4 +28,4 @@ Polecenie **Wybierz widoczne obiekty** zaznacza wszystkie widoczne obiekty. Zauw
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SelectVisibleObjects/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std SelectVisibleObjects/pl

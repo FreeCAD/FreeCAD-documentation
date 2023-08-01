@@ -288,4 +288,4 @@ See [forum topic](https://forum.freecad.org/viewtopic.php?t=70975&start=10).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Preferences/hr
+![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Preferences/hr

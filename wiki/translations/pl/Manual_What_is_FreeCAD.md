@@ -22,4 +22,4 @@ Oficjalna strona internetowa FreeCAD znajduje się pod adresem [<http://www.free
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:What is FreeCAD/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:What is FreeCAD/pl

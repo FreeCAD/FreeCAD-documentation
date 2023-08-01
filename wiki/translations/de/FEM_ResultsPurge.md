@@ -34,4 +34,4 @@ Either press the **<img src="images/FEM_ResultsPurge.svg" width=16px> '''Purge r
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ResultsPurge/de
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ResultsPurge/de

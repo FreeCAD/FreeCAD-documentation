@@ -13,4 +13,4 @@ Kategoria, która łączy wszystkie strony wydania FreeCAD.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Releases/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Releases/pl

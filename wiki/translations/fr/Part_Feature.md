@@ -202,4 +202,4 @@ Si vous le souhaitez, l\'attribut `Label` peut être remplacé par un texte plus
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Feature/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Feature/fr

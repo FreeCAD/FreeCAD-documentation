@@ -35,4 +35,4 @@ The BIM Library tool allows you to place, in the current model, an object from t
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > BIM Library/en
+![](images/Button_right.svg) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > BIM Library/en

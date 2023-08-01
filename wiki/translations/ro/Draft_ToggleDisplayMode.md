@@ -37,4 +37,4 @@ Acest instrument comută afișarea obiectelor selectate între Wireframe și Fla
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/ro

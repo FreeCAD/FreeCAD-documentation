@@ -61,4 +61,4 @@ Pour fermer un document, utilisez la méthode `closeDocument` de l\'application 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std CloseAllWindows/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std CloseAllWindows/fr

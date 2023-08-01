@@ -76,4 +76,4 @@ Eseguendo lo strumento (Caricare una geometria modello di nave) si apre una fine
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship LoadExample/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship LoadExample/it

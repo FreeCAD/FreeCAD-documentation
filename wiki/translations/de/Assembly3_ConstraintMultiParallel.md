@@ -27,4 +27,4 @@ Diese Beziehung akzeptiert gerade Kanten und ebene Flächen, die sich parallel a
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintMultiParallel/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintMultiParallel/de

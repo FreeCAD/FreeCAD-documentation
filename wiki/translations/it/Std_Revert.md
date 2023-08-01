@@ -38,4 +38,4 @@ Il comando **Ripristina** chiude il documento attivo e riapre l\'ultima versione
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Revert/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std Revert/it

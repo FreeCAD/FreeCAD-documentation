@@ -39,4 +39,4 @@ For example a tool, like a 1/4 inch cutter can run at many different spindle spe
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolController/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolController/ru

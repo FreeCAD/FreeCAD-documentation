@@ -140,4 +140,4 @@ Une fois que la forme de l\'outil (profil) souhaitée existe, vous devez créer 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Tools/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Tools/fr

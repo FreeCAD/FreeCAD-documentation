@@ -59,4 +59,4 @@ Siehe auch eine detaillierte Beschreibung auf der Seite [Wie man zusätzliche Ar
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/de

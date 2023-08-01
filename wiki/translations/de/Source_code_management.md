@@ -1132,4 +1132,4 @@ Besuche die Entwicklungsabteilung des [FreeCAD Forum](https://forum.freecadweb.o
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source code management/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source code management/de

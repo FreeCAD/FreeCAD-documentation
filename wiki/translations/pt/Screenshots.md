@@ -234,4 +234,4 @@ Caixa de dialogo para salvar imagens com tamanhos arbitrários.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Screenshots/pt
+![](images/Button_right.svg) [documentation index](../README.md) > Screenshots/pt

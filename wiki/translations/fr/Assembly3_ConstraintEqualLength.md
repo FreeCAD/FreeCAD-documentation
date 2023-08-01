@@ -29,4 +29,4 @@ La valeur de la longueur de la première ligne sélectionnée est égale à la v
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintEqualLength/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintEqualLength/fr

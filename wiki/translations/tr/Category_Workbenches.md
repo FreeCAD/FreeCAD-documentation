@@ -24,4 +24,4 @@ Bu kategori de FreeCAD\'deki tezgahlar listelenmektedir.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Workbenches/tr
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Workbenches/tr

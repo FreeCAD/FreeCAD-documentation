@@ -86,4 +86,4 @@ Son sürüm yükleme dosyasını [İndirme sayfasından](Download.md) indirebili
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Installing on Mac/tr
+![](images/Button_right.svg) [documentation index](../README.md) > Installing on Mac/tr

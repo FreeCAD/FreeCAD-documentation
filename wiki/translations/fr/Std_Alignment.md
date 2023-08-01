@@ -45,4 +45,4 @@ Les options supplémentaires suivantes sont disponibles dans le menu contextuel 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Alignment/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std Alignment/fr

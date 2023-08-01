@@ -57,4 +57,4 @@ Příkaz Duplikovat výběr je zkratka pro příkazy Kopírovat+Vložit. Vytvá�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DuplicateSelection/cs
+![](images/Button_right.svg) [documentation index](../README.md) > Std DuplicateSelection/cs

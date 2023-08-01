@@ -86,4 +86,4 @@ Da es viele Videos gibt, die sich mit diesem Thema befassen, besuche bitte [Vide
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Video tutorials/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Video tutorials/de

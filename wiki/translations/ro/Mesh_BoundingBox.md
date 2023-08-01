@@ -44,4 +44,4 @@ Vă oferă coordonatele Min / Max ale unei casete de delimitare pentru o singur�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/ro

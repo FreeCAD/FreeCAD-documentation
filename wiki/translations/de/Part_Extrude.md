@@ -150,4 +150,4 @@ Die Extrusionsform wird durch die folgenden Parameter festgelegt, die nach ihrer
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/de

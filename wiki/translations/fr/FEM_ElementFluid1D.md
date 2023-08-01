@@ -47,4 +47,4 @@ Crée un élément FEM de section de fluide pour les réseaux pneumatiques et hy
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementFluid1D/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementFluid1D/fr

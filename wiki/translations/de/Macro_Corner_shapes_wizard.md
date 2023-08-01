@@ -199,4 +199,4 @@ ToolBar Icon ![](images/Macro_Corner_shapes_wizard.png )
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Corner shapes wizard/de
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Corner shapes wizard/de

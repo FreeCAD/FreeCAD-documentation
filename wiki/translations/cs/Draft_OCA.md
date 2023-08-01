@@ -68,4 +68,4 @@ importOCA.export(objects, "/home/user/Pictures/myfile.oca")
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft OCA/cs
+![](images/Button_right.svg) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft OCA/cs

@@ -272,4 +272,4 @@ Poradnik [Dodanie nowego stylu nawigacji myszką do FreeCAD](Adding_a_new_mouse_
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Mouse navigation/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Mouse navigation/pl

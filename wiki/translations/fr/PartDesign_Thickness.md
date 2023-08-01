@@ -157,4 +157,4 @@ Un objet Part Épaisseur est dérivé d\'un [Part Feature](Part_Feature/fr.md) e
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/fr

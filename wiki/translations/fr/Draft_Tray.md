@@ -21,4 +21,4 @@ La **Draft Barre** permet de sélectionner le plan de travail, de définir les p
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Tray/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Tray/fr

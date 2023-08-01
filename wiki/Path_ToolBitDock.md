@@ -48,4 +48,4 @@ A manager button at the top right **(4)** allows the user to launch the library 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBitDock
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBitDock

@@ -46,4 +46,4 @@ Vue d\'ensemble de l\'Application **:** Un aperçu général de FreeCAD (espace 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > French Translation
+![](images/Button_right.svg) [documentation index](../README.md) > French Translation

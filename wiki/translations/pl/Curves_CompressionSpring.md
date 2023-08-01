@@ -37,4 +37,4 @@ The <img alt="" src=images/Curves_CompressionSpring.svg  style="width:24px;"> [C
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves CompressionSpring/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves CompressionSpring/pl

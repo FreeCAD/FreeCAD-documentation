@@ -37,4 +37,4 @@ ToolBar Icon ![](images/Workbench_PartDesign.svg )
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro PDWrapper/en
+![](images/Button_right.svg) [documentation index](../README.md) > Macro PDWrapper/en

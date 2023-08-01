@@ -47,4 +47,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DuplicateSelection/ko
+![](images/Button_right.svg) [documentation index](../README.md) > Std DuplicateSelection/ko

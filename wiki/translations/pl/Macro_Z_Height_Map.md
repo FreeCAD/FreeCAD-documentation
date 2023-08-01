@@ -164,4 +164,4 @@ print('height map done')
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Macro Z Height Map/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Macro Z Height Map/pl

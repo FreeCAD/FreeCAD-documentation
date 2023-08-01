@@ -167,4 +167,4 @@ Il y a beaucoup plus de fonctionnalités à explorer dans TechDraw: vues en coup
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Basic TechDraw Tutorial/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Basic TechDraw Tutorial/fr

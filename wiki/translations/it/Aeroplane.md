@@ -168,4 +168,4 @@ Spero che questo piccolo tutorial sia di aiuto per gestire le rotazioni.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Aeroplane/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Category_Part.md) > Aeroplane/it

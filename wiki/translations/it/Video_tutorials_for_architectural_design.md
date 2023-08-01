@@ -47,4 +47,4 @@ Videos that go through modeling of rooms, houses, office buildings, and similar 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for architectural design/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for architectural design/it

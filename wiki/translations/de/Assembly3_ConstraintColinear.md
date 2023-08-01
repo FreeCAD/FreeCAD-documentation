@@ -35,4 +35,4 @@ Dieses Werkzeug akzeptiert auch 3D-Elemente wie z.B. Kanten oder Mittellinien.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintColinear/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintColinear/de

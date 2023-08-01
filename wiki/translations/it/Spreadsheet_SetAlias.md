@@ -41,4 +41,4 @@ Lo strumento <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width:16px;
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SetAlias/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SetAlias/it

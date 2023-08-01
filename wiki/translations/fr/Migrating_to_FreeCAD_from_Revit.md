@@ -47,4 +47,4 @@ Bien que vous puissiez effectuer les mêmes tâches et obtenir un résultat simi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Migrating to FreeCAD from Revit/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Migrating to FreeCAD from Revit/fr

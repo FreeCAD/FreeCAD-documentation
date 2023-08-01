@@ -224,4 +224,4 @@ Jetzt sollte das Ergebnis ein Klipp sein, der nur aus einem Einzel-Festkörper b
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Examples/de
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Examples/de

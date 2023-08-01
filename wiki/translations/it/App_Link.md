@@ -29,4 +29,4 @@ Vedere [Crea link](Std_LinkMake/it#Proprietà.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > App Link/it
+![](images/Button_right.svg) [documentation index](../README.md) > App Link/it

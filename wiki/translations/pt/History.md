@@ -147,4 +147,4 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [News](Category_News.md) > History/pt
+![](images/Button_right.svg) [documentation index](../README.md) > [News](Category_News.md) > History/pt

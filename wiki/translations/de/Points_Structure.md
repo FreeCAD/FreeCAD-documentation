@@ -41,4 +41,4 @@ Siehe [Points Konvertieren](Points_Convert/de.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Structure/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Structure/de

@@ -13,4 +13,4 @@ FreeCAD prend en charge certains périphériques d\'entrée spécialisés, tels 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > 3D input devices/fr
+![](images/Button_right.svg) [documentation index](../README.md) > 3D input devices/fr

@@ -41,4 +41,4 @@ El comando **Std InspectorEscenas** abre un cuadro de diálogo que muestra una v
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SceneInspector/es
+![](images/Button_right.svg) [documentation index](../README.md) > Std SceneInspector/es

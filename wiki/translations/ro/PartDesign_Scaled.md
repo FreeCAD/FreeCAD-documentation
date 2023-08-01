@@ -102,4 +102,4 @@ De la FreeCAD 0.15, această funcție nu este valabilă direct, dar este inclus�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/ro

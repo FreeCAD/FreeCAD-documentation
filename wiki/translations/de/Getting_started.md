@@ -164,4 +164,4 @@ Und schließlich ist eine der leistungsfähigsten Funktionen von FreeCAD die [sc
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/de
+![](images/Button_right.svg) [documentation index](../README.md) > Getting started/de

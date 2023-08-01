@@ -39,4 +39,4 @@ Par exemple, un outil, comme un couteau 1/4 pouce, peut fonctionner à différen
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolController/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolController/fr

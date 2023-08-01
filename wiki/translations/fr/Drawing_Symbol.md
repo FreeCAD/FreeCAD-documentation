@@ -36,4 +36,4 @@ Cette commande vous permet d\'ajouter le contenu d\'une image SVG sur une [ Feui
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Symbol/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Symbol/fr

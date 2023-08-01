@@ -240,4 +240,4 @@ På [Grupportalen](free-cad:Community_Portal/sv.md), så kan du hitta andra Free
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/sv
+![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/sv

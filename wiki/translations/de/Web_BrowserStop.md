@@ -28,4 +28,4 @@ Der Befehl <img alt="" src=images/_Web_BrowserStop.svg  style="width:24px;"> **W
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserStop/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserStop/de

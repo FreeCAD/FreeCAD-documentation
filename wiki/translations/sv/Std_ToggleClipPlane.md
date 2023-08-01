@@ -54,4 +54,4 @@ The **Std ToggleClipPlane** command temporarily hides objects and parts of objec
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ToggleClipPlane/sv
+![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleClipPlane/sv

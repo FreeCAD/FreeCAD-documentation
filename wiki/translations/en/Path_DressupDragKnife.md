@@ -36,4 +36,4 @@ This tool dresses up an existing path to add corner actions and edge extensions 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDragKnife/en
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDragKnife/en

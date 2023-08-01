@@ -91,4 +91,4 @@ Appuyez sur le bouton **Accept** lorsque vous êtes prêt, afin que le module ba
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Hydrostatics/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Hydrostatics/fr

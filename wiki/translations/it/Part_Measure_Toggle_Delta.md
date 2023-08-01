@@ -26,4 +26,4 @@ Questo comando attiva o disattiva la visibilità delle misurazioni delta nella [
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle Delta/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle Delta/it

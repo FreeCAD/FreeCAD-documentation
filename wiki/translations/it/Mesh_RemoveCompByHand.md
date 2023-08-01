@@ -37,4 +37,4 @@ Il comando **Rimuovi componenti a mano** rimuove i componenti dagli oggetti mesh
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveCompByHand/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveCompByHand/it

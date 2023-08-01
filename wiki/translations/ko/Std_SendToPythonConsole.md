@@ -111,4 +111,4 @@ Depending on the selected object and its selected subshapes, if any, the followi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SendToPythonConsole/ko
+![](images/Button_right.svg) [documentation index](../README.md) > Std SendToPythonConsole/ko

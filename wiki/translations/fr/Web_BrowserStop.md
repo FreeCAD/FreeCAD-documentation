@@ -28,4 +28,4 @@ Utilisez la commande <img alt="" src=images/Web_BrowserStop.svg  style="width:24
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserStop/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserStop/fr

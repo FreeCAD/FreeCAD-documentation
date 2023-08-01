@@ -105,4 +105,4 @@ c = v.addEventCallback("SoKeyboardEvent",o.logPosition)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Copy3DViewToClipboard
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Copy3DViewToClipboard

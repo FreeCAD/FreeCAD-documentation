@@ -39,4 +39,4 @@ Mimo że użytkownik będzie mógł wykonywać te same zadania i uzyskiwać podo
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Migrating to FreeCAD from Revit/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Migrating to FreeCAD from Revit/pl

@@ -34,4 +34,4 @@ Polecenie **Wypełnienie otworów** wypełnia otwory w obiektach siatkowych.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillupHoles/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillupHoles/pl

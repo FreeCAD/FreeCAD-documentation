@@ -24,4 +24,4 @@ Les axes et les plans sont des objets de type `App::Line` et `App::Plane` respec
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > App OriginGroupExtension/fr
+![](images/Button_right.svg) [documentation index](../README.md) > App OriginGroupExtension/fr

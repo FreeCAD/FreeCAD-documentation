@@ -45,4 +45,4 @@ In real life we cannot handle axes and so cylindrical faces are used to represen
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintAxial/en
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintAxial/en

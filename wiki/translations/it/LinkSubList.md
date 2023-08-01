@@ -75,4 +75,4 @@ Il sottoelemento può quindi essere estratto dalla proprietà assegnata e può e
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > LinkSubList/it
+![](images/Button_right.svg) [documentation index](../README.md) > LinkSubList/it

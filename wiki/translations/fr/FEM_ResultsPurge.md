@@ -37,4 +37,4 @@ Il existe plusieurs façons de lancer la commande :
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ResultsPurge/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ResultsPurge/fr

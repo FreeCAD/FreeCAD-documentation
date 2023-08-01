@@ -27,4 +27,4 @@ It can be used to create a skeleton sketch for 2D kinematics.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintSketchPlane/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintSketchPlane/pl

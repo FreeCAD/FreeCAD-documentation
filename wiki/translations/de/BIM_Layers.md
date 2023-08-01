@@ -22,4 +22,4 @@ Mit dem Lagenverwalter kannst du deine Lagen verwalten, Lagen hinzufügen oder e
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Layers/de
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Layers/de

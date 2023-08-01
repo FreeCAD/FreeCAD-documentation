@@ -242,4 +242,4 @@ Este tutorial utiliza la notación {{Value|(x, y, z)}} para denotar las coordena
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft tutorial/es
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft tutorial/es

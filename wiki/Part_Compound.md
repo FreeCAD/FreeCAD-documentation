@@ -27,4 +27,4 @@ To turn this check on go to **Tools → Edit Parameters → Preferences... → M
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound

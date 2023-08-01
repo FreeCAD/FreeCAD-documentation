@@ -154,4 +154,4 @@ obj.Label = "Custom label"
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > App GeoFeature/it
+![](images/Button_right.svg) [documentation index](../README.md) > App GeoFeature/it

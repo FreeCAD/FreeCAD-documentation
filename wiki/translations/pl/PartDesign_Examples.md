@@ -286,4 +286,4 @@ Transformowany wymaga szczególnej uwagi, ponieważ może wytwarzać płaskie ob
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Examples/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Examples/pl

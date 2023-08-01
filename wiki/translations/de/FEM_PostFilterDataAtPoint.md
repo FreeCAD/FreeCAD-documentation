@@ -40,4 +40,4 @@ The value at this point for the given **Field** is output to the dialog. The val
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterDataAtPoint/de
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterDataAtPoint/de

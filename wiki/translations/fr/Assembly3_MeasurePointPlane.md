@@ -20,4 +20,4 @@ Cet outil mesure la distance entre deux objets d\'un assemblage en utilisant un 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MeasurePointPlane/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 MeasurePointPlane/fr

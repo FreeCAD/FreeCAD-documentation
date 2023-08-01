@@ -244,4 +244,4 @@ Vous pouvez procéder comme ci-dessus pour afficher les dimensions sur la page d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Drawing](Category_Drawing.md) > Drawing API example/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Drawing](Category_Drawing.md) > Drawing API example/fr

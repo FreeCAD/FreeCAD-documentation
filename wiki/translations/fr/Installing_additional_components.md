@@ -118,4 +118,4 @@ Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md) et [F
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Installing additional components/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Installing additional components/fr

@@ -21,4 +21,4 @@ La barra di stato mostra anche l\'ultimo oggetto preselezionato (qualsiasi ogget
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Status bar/it
+![](images/Button_right.svg) [documentation index](../README.md) > Status bar/it

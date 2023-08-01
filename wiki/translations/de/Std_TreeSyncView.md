@@ -42,4 +42,4 @@ Der Befehl **Std BaumSyncAnsicht** schaltet den SyncView-Modus der [Baumansicht]
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeSyncView/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSyncView/de

@@ -42,4 +42,4 @@ La modalità Registra la selezione della vista ad albero può essere impostata a
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeRecordSelection/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std TreeRecordSelection/it

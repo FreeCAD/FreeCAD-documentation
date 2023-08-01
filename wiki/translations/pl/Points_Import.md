@@ -51,4 +51,4 @@ Do testów możesz użyć [ten plik](https://raw.githubusercontent.com/FreeCAD/E
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Import/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Import/pl

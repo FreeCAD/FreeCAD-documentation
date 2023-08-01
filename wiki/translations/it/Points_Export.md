@@ -34,4 +34,4 @@ Il comando **Esporta punti** esporta una nuvola di punti in un file.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Export/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Export/it

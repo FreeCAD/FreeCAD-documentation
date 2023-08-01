@@ -40,4 +40,4 @@ Der Befehl **Std DlgAnpassen** öffnet das Dialogfeld Benutzerdefiniert, das Zug
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgCustomize/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std DlgCustomize/de

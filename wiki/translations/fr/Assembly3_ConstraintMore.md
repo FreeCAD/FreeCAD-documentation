@@ -19,4 +19,4 @@ Cet outil ne fait que basculer la visibilité de deux autres panneaux de contrai
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintMore/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintMore/fr

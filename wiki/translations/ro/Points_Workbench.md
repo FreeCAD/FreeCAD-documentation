@@ -70,4 +70,4 @@ Utilizarea metodei de ancorare [Endpoint](Draft_Snap_Endpoint.md) va asigura că
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/ro

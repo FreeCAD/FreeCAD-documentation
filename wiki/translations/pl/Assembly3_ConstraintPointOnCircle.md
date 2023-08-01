@@ -26,4 +26,4 @@ The position on the circular element (arc length from the start point) is not de
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointOnCircle/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointOnCircle/pl

@@ -42,4 +42,4 @@ Trace les valeurs d\'un champ le long d\'une ligne spécifiée.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterDataAlongLine/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterDataAlongLine/fr

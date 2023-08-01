@@ -236,4 +236,4 @@ La sequenza delle sezioni dipende dalla sequenza di selezione nell\'elenco. Se s
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft/it

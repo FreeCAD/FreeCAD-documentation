@@ -80,4 +80,4 @@ These options are in the menu, **Tools → Customize**. See [interface customiza
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Interface
+![](images/Button_right.svg) [documentation index](../README.md) > Interface

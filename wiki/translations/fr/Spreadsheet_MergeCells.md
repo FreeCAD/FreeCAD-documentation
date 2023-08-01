@@ -30,4 +30,4 @@ L\'outil **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Fusi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells/fr

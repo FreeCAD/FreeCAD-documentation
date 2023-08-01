@@ -32,4 +32,4 @@ L\'opzione per esportare in PDF è disponibile nel menu **File → [Esxporta PDF
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > PDF/it
+![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > PDF/it

@@ -29,4 +29,4 @@ The tool <img alt="" src=images/Path_SimpleCopy.svg  style="width:24px;"> [Simpl
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SimpleCopy
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SimpleCopy

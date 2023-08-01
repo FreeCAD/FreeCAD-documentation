@@ -24,4 +24,4 @@ Der Befehl <img alt="" src=images/Assembly_TogglePartVisibility.svg  style="widt
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 TogglePartVisibility/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 TogglePartVisibility/de

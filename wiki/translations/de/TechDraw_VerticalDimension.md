@@ -32,4 +32,4 @@ Für weitere Informationen siehe [TechDraw Längenmaß](TechDraw_LengthDimension
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw VerticalDimension/de
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw VerticalDimension/de

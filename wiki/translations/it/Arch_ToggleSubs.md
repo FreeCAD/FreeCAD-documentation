@@ -68,4 +68,4 @@ Lo stile [Costruzione](Draft_ToggleConstructionMode/it.md) di Draft può essere 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/it

@@ -70,4 +70,4 @@ Les poids ponctuels sont caractérisés par leur masse (en kg, ou toute autre un
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Weight/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Weight/fr

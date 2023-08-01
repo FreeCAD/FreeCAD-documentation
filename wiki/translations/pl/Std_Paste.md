@@ -52,4 +52,4 @@ Polecenie **Wklej** powoduje wklejenie obiektów ze Schowka do aktywnego dokumen
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Paste/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std Paste/pl

@@ -302,4 +302,4 @@ Die Beschreibung [Adding a new mouse navigation option to FreeCAD](Adding_a_new_
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Mouse navigation/de
+![](images/Button_right.svg) [documentation index](../README.md) > Mouse navigation/de

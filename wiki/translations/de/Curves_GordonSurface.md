@@ -96,4 +96,4 @@ Auf der rechten Seite wurden die Leitkurven (Schienen) von -Y nach +Y gezogen un
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves GordonSurface/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves GordonSurface/de

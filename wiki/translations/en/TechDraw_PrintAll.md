@@ -36,4 +36,4 @@ The <img alt="" src=images/TechDraw_PrintAll.svg  style="width:24px;"> **TechDra
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PrintAll/en
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PrintAll/en

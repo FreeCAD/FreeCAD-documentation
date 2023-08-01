@@ -49,4 +49,4 @@ La commande **Points Couper un nuage** coupe des points de nuages de points.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points PolyCut/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points PolyCut/fr

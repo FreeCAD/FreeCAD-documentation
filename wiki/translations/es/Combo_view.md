@@ -61,4 +61,4 @@ Entonces activa la vista usando el menú, **Vista → Paneles → Vista de árbo
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Combo view/es
+![](images/Button_right.svg) [documentation index](../README.md) > Combo view/es

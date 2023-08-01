@@ -43,4 +43,4 @@ La commande **Std Exécuter la macro dans l\'éditeur** exécute la macro dans l
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgMacroExecuteDirect/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std DlgMacroExecuteDirect/fr

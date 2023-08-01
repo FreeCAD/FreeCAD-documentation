@@ -131,4 +131,4 @@ La discussione sul foro [Keyboard shortcut, View toolbar - Wireframe](https://fo
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Toggle Drawstyle/it
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Toggle Drawstyle/it

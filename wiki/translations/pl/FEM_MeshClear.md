@@ -33,4 +33,4 @@ Obiekty w drzewie modelu są zachowane, ponieważ reprezentują dane siatki, ale
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshClear/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshClear/pl

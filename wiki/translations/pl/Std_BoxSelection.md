@@ -43,4 +43,4 @@ Polecenie **Zaznacz obszar** wybiera obiekty z prostokątnego obszaru zdefiniowa
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std BoxSelection/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std BoxSelection/pl

@@ -141,4 +141,4 @@ Questa è la guida ufficiale di FreeCAD online. Si prega di notare che l\'intero
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/it

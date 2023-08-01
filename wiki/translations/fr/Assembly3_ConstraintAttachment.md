@@ -24,4 +24,4 @@ Ce lien ne laisse aucun degré de liberté (DOF) sans contrainte.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintAttachment/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintAttachment/fr

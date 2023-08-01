@@ -26,4 +26,4 @@ To polecenie przełącza widoczność pomiarów liniowych i kątowych w oknie [w
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle 3D/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle 3D/pl

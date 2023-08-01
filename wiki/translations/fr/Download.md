@@ -65,4 +65,4 @@ La communauté FreeCAD propose une multitude de modules supplémentaires et de m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Download/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Download/fr

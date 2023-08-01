@@ -147,4 +147,4 @@ Zobacz strony [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl#DWG.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Installing additional components/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Installing additional components/pl

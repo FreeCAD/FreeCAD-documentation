@@ -142,4 +142,4 @@ Dies ist die offizielle FreeCAD Online Hilfe. Bitte beachte, dass das gesamte On
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/de

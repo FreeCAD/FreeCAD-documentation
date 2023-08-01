@@ -66,4 +66,4 @@ La commande **Std Enregistrement de macro** démarre une session d\'enregistreme
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgMacroRecord/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std DlgMacroRecord/fr

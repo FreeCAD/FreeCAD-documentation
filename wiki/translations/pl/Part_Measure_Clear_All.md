@@ -25,4 +25,4 @@ To narzędzie usuwa wszystkie pomiary z okna [widoku 3D](3D_view/pl.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Clear All/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Clear All/pl

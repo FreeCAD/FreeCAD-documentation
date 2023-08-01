@@ -25,4 +25,4 @@ Cette catégorie contient les articles, et, les catégories sur le wiki, de tous
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Administration/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Administration/fr

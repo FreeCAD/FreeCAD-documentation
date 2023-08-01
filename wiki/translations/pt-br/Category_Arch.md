@@ -36,4 +36,4 @@ Pages relating to Architectural and Building Information Management
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Arch/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Arch/pt-br

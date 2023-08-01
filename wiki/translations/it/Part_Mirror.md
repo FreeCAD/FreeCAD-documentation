@@ -69,4 +69,4 @@ Le caselle **Punto base** possono essere utilizzate per spostare il piano di spe
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/it

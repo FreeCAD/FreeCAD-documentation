@@ -10,4 +10,4 @@ Pages related to the [Silk workbench](Silk_Workbench.md) which is an [external w
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Silk
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Silk

@@ -51,4 +51,4 @@ Exportă proprietățile curente ale camerei într-un fișier pov pentru a fi ut
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteCamera/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteCamera/ro

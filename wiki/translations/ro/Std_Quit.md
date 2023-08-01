@@ -38,4 +38,4 @@ The **Std Quit** command closes the FreeCAD application and optionally saves uns
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Quit/ro
+![](images/Button_right.svg) [documentation index](../README.md) > Std Quit/ro

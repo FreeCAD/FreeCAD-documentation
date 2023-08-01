@@ -13,4 +13,4 @@ This category gathers articles that list objects and methods available for [Pyth
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > Category:API/tr
+![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > Category:API/tr

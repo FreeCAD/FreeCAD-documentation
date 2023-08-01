@@ -26,4 +26,4 @@ You can also use the quantities manager to change or fix the actual **Height**, 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM IfcQuantities
+![](images/Button_right.svg) [documentation index](../README.md) > BIM IfcQuantities

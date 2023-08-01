@@ -139,4 +139,4 @@ There is much more functionality in TechDraw for you to explore - Section Views,
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Basic TechDraw Tutorial
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Basic TechDraw Tutorial

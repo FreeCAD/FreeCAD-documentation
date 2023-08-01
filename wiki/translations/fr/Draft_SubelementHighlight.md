@@ -42,4 +42,4 @@ La commande <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:2
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SubelementHighlight/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SubelementHighlight/fr

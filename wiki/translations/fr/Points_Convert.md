@@ -72,4 +72,4 @@ Les objets nuage de points sont des objets [App GeoFeature](App_GeoFeature/fr.md
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Convert/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Convert/fr

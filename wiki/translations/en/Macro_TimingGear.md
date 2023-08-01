@@ -869,4 +869,4 @@ MainWindow.show()
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro TimingGear/en
+![](images/Button_right.svg) [documentation index](../README.md) > Macro TimingGear/en

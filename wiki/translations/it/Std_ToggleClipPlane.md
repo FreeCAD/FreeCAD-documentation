@@ -56,4 +56,4 @@ Il comando **Piano di taglio** nasconde temporaneamente oggetti e parti di ogget
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ToggleClipPlane/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleClipPlane/it

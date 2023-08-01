@@ -40,4 +40,4 @@ Le mode Expansion synchrone de l\'arborescence peut également être défini dan
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeSyncSelection/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSyncSelection/fr

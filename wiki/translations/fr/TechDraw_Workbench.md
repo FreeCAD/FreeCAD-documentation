@@ -377,4 +377,4 @@ Voulez-vous en savoir plus sur l\'avenir de l\'atelier TechDraw ? Visitez [la pa
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/fr

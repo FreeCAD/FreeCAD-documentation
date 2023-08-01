@@ -285,4 +285,4 @@ Mamy więc również obszary przestrzenne, w których natężenie światła odbi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > B-Splines/pl
+![](images/Button_right.svg) [documentation index](../README.md) > B-Splines/pl

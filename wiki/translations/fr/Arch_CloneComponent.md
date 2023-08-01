@@ -37,4 +37,4 @@ Le composant clone aura simplement sa propriété **CloneOf** définie sur l\'ob
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/fr

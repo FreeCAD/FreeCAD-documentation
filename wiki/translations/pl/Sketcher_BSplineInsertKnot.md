@@ -39,4 +39,4 @@ Wstawia węzeł do istniejącej [krzywej złożonej](B-Splines/pl.md). Jeśli pr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineInsertKnot/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineInsertKnot/pl

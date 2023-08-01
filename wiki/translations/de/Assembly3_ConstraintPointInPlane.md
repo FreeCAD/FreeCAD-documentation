@@ -27,4 +27,4 @@ Im Bezug auf das Ebenenobjekt, kann sich das Punktobjekte noch entlang der X- un
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointInPlane/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointInPlane/de

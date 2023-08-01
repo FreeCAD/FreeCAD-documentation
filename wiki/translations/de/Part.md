@@ -36,4 +36,4 @@ Wenn jedoch mehr Präzision erforderlich ist, muss die Unterscheidung vorgenomme
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Part/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Part/de

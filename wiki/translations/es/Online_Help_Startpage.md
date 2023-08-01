@@ -16,4 +16,4 @@ Como habrás experimentado en ocasiones, ¡programadores son realmente malos esc
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/es
+![](images/Button_right.svg) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/es

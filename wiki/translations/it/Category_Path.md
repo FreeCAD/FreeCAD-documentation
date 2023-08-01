@@ -26,4 +26,4 @@ This category lists pages related to the [PartDesign Workbench/it](PartDesign_Wo
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Path/it
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Path/it

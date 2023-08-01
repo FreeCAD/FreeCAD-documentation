@@ -54,4 +54,4 @@ Jeśli przypadkowo utworzysz *nadmierną ilość wiązań*, pojawi się ostrzeż
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher requirement for a sketch/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher requirement for a sketch/pl

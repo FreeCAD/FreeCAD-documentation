@@ -147,4 +147,4 @@ W kwietniu 2019 roku zespół core developerów został powiększony: Jürgen, W
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [News](Category_News.md) > History/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [News](Category_News.md) > History/pl

@@ -27,4 +27,4 @@ Die Richtung der Linien und auch die Flächennormalen werden durch die Z-Achse d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintEqualAngle/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintEqualAngle/de

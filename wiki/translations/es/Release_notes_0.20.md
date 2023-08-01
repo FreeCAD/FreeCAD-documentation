@@ -545,4 +545,4 @@ Si el [entorno de trabajo Start](Start_Workbench/es.md) muestra solo una página
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.20/es
+![](images/Button_right.svg) [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.20/es

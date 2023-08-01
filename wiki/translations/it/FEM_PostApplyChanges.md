@@ -45,4 +45,4 @@ If the feature is not active, a change of the size and position of functions fir
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostApplyChanges/it
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostApplyChanges/it

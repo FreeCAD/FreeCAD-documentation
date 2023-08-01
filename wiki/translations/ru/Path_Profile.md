@@ -308,4 +308,4 @@ Example:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Profile/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Profile/ru

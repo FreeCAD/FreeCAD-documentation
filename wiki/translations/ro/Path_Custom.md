@@ -86,4 +86,4 @@ a noului obiect creat. Consulatați pagina [Path scripting](Path_scripting
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Custom/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Custom/ro

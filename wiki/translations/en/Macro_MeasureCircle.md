@@ -37,4 +37,4 @@ ToolBar Icon ![](images/Macro_MeasureCircle.png )
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro MeasureCircle/en
+![](images/Button_right.svg) [documentation index](../README.md) > Macro MeasureCircle/en

@@ -41,4 +41,4 @@ Il comando **Interrompi la registrazione** termina una sessione di registrazione
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std MacroStopRecord/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std MacroStopRecord/it

@@ -33,4 +33,4 @@ Vous pouvez aussi enregistrer le contenu du document actuel en tant que modèle.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Project/fr
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Project/fr

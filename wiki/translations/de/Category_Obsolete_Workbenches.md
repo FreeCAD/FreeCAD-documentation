@@ -11,4 +11,4 @@ Diese Kategorie zeigt eine Liste der veralteten Arbeitsbereiche, d.h. Arbeitsber
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Obsolete Workbenches/de
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Obsolete Workbenches/de

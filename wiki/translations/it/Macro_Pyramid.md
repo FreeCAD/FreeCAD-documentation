@@ -299,4 +299,4 @@ La discussione sul forum [Macros for pyramids and polyhedrons](https://forum.fre
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Pyramid/it
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Pyramid/it

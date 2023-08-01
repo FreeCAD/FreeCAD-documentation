@@ -164,4 +164,4 @@ Nel [Portale della comunità](FreeCAD_Community_Portal/it.md), è possibile trov
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API|in questa pagina in inglese]] e ](Category_API|in questa pagina in inglese]] e .md) > [Hubs](Category_Hubs.md) > Power users hub/it
+![](images/Button_right.svg) [documentation index](../README.md) > [API|in questa pagina in inglese]] e ](Category_API|in questa pagina in inglese]] e .md) > [Hubs](Category_Hubs.md) > Power users hub/it

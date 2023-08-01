@@ -51,4 +51,4 @@ Aby zapisać dokument pod nową nazwą, należy użyć metody `saveAs` obiektu *
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SaveAs/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std SaveAs/pl

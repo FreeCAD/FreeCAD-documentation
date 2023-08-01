@@ -34,4 +34,4 @@ Aby wykonac import pliku Excel ***.xlsx** należy posłużyć się poleceniem [I
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Import/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Import/pl

@@ -45,4 +45,4 @@ W programie FreeCAD {{VersionPlus/pl|0.20}} polecenie to wymaga zainstalowania [
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std OnlineHelp/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std OnlineHelp/pl

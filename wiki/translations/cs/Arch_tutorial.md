@@ -706,4 +706,4 @@ Soubor vytvořený tímto výukovým programem najdete [zde](http://yorik.uncrea
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/cs
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/cs

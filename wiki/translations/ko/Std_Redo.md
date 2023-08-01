@@ -63,4 +63,4 @@ FreeCAD.ActiveDocument.redo()
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Redo/ko
+![](images/Button_right.svg) [documentation index](../README.md) > Std Redo/ko

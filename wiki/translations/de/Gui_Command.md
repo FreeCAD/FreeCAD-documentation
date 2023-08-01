@@ -45,4 +45,4 @@ Wir versuchen so weit wie möglich, dieses Diagramm zu berücksichtigen, und so 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Gui Command/de
+![](images/Button_right.svg) [documentation index](../README.md) > Gui Command/de

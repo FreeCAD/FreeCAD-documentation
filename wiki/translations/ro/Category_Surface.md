@@ -11,4 +11,4 @@ This category lists pages related to the [Surface Workbench/ro](Surface_Workbenc
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Surface/ro
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Surface/ro

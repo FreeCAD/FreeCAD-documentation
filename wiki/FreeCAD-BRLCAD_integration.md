@@ -56,4 +56,4 @@ High, mostly because you have two different applications to learn and work with
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > FreeCAD-BRLCAD integration
+![](images/Button_right.svg) [documentation index](../README.md) > FreeCAD-BRLCAD integration

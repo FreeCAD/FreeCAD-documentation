@@ -16,4 +16,4 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Arch](Category_Arch.md) > Artwork Arch/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Arch](Category_Arch.md) > Artwork Arch/fr

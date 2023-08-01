@@ -66,4 +66,4 @@ La commande **Std Convertisseur d\'unités** ouvre la boîte de dialogue calcula
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std UnitsCalculator/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std UnitsCalculator/fr

@@ -26,4 +26,4 @@ Currently the command points to [<https://wiki.freecad.org/Power_users_hub>](htt
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADPowerUserHub
+![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADPowerUserHub

@@ -16,4 +16,4 @@ The BIM Copy tool is a shortcut to the standard [Draft Move](Draft_Move.md) tool
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Copy/en
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Copy/en

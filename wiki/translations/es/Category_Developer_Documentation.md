@@ -35,4 +35,4 @@ Esta categoría recopila documentación de artículos principalmente dirigidos a
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Developer Documentation/es
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Developer Documentation/es

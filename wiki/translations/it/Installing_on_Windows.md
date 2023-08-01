@@ -106,4 +106,4 @@ Notare che la disinstallazione silente fallisce se c\'è un\'instanza aperta di 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Installing on Windows/it
+![](images/Button_right.svg) [documentation index](../README.md) > Installing on Windows/it

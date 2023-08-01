@@ -22,4 +22,4 @@ Jak może doświadczyłeś czasem, programiści są naprawdę złymi twórcami d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/pl

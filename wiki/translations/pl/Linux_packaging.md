@@ -14,4 +14,4 @@ dla systemów Windows i MacOS, zobacz dokument [Pakiety oprogramowania](Packagin
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > Linux packaging/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > Linux packaging/pl

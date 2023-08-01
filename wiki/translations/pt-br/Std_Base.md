@@ -92,4 +92,4 @@ O menu padrão é composto de 7 sub-menus. Cada sub-menu tem uma página dedicad
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Base/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Base/pt-br

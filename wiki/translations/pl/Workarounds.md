@@ -301,4 +301,4 @@ Celem tego artykułu jest zebranie obecnie brakujących funkcjonalności we Free
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Workarounds/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Workarounds/pl

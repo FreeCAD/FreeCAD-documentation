@@ -74,4 +74,4 @@ FreeCAD由整个社区热心开发人员及用户开发及维护（请看[贡献
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/zh-cn
+![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/zh-cn

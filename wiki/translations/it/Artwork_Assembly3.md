@@ -30,4 +30,4 @@ Queste icone si trovano nel percorso di origine indicato di Link Branch di Realt
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Assembly](Category_Assembly.md) > Artwork Assembly3/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Assembly](Category_Assembly.md) > Artwork Assembly3/it

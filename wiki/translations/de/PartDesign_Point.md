@@ -61,4 +61,4 @@ Doppel-Klicke das Referenzpunkt Label im Modellbaum oder klicke dies einfach und
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Point/de
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Point/de

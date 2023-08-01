@@ -63,4 +63,4 @@ Si l\'objet Sphere dans la [vue en arborescence](Tree_view/fr.md) est cachÃ©, sÃ
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionSphere/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionSphere/fr

@@ -41,4 +41,4 @@ This category list pages related to the \"User_Documentation/ru\" and \"Workbenc
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Draft/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Draft/ru

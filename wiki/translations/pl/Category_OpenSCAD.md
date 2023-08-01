@@ -17,4 +17,4 @@ This category lists pages related to the [OpenSCAD_Workbench/pl](OpenSCAD_Workbe
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:OpenSCAD/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Category:OpenSCAD/pl

@@ -51,4 +51,4 @@ Podczas próby instalacji pakietów dokumentacji na Ubuntu mogą pojawić się t
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Installing Helpfile/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Installing Helpfile/pl

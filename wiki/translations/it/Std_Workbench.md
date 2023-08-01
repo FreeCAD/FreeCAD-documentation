@@ -67,4 +67,4 @@ FreeCADGui.activateWorkbench("PartDesignWorkbench")
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Workbench/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std Workbench/it

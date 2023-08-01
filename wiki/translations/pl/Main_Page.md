@@ -70,4 +70,4 @@ Sprawdź [Drogę rozwoju](Development_roadmap.md) by dowiedzieć się co jest pl
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/pl

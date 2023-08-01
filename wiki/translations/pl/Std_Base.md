@@ -71,4 +71,4 @@ Istnieje siedem standardowych menu podrzędnych. Każde podmenu ma dedykowaną s
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Base/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Base/pl

@@ -19,4 +19,4 @@ Narzędzie to przełącza jedynie widoczność dwóch kolejnych paneli z wiązan
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintMore/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintMore/pl

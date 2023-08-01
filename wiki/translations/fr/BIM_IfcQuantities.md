@@ -27,4 +27,4 @@ Vous pouvez également utiliser le gestionnaire de quantités pour modifier ou f
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM IfcQuantities/fr
+![](images/Button_right.svg) [documentation index](../README.md) > BIM IfcQuantities/fr

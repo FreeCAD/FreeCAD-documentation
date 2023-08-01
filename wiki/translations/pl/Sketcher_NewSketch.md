@@ -50,4 +50,4 @@ Szkic można przesuwać w przestrzeni okna [widoku 3D](3D_view/pl.md) za pomocą
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/pl

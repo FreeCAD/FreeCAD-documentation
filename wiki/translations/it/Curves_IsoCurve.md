@@ -46,4 +46,4 @@ The <img alt="" src=images/Curves_IsoCurve.svg  style="width:24px;"> [Curves Iso
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves IsoCurve/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves IsoCurve/it

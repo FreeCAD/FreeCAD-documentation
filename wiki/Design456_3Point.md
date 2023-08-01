@@ -39,4 +39,4 @@ Unknown yet.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 3Point
+![](images/Button_right.svg) [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 3Point

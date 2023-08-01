@@ -79,4 +79,4 @@ Le flux résultant est soit le flux de chaleur $\rm W/m^2$ (faussement appelé \
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationFlux/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationFlux/fr

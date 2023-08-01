@@ -44,4 +44,4 @@ The **Std Windows** command opens a dialog box with a list of [Main view area](M
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Windows/en
+![](images/Button_right.svg) [documentation index](../README.md) > Std Windows/en

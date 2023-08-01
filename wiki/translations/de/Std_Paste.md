@@ -52,4 +52,4 @@ Der Befehl **Std Einfügen** fügt Objekte aus der Zwischenablage in das aktuell
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Paste/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std Paste/de

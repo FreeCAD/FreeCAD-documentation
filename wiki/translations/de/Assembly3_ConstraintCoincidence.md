@@ -44,4 +44,4 @@ In der Realität erlauben die Formen der Objekte eine Drehung und verhindert ein
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintCoincidence/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintCoincidence/de

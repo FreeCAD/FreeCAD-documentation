@@ -19,4 +19,4 @@ The **Draft Tray** allows selecting the working plane, defining style settings, 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Tray
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Tray

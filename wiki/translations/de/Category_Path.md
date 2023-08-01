@@ -20,4 +20,4 @@ Diese Kategorie zeigt eine Liste von Seiten, die zum [Part Design-Arbeitsbereich
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Path/de
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Path/de

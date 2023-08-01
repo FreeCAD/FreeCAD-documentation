@@ -81,4 +81,4 @@ Per i test si può usare questo file [ASC](https://github.com/FREECAD/Examples/b
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Import/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Import/it

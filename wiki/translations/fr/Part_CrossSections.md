@@ -48,4 +48,4 @@ L\'utilitaire **Coupes** crée une ou plusieurs coupes transversales à travers 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/fr

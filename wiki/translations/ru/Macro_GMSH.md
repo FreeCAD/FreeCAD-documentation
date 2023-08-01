@@ -46,4 +46,4 @@ ToolBar Icon ![](images/Macro_GMSH.png )
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro GMSH/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Macro GMSH/ru

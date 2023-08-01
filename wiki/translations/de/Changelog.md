@@ -6,4 +6,4 @@ Die FreeCAD Änderungshistorie wird über den [Mantis Bug Tracker](http://de.wik
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Administration](Category_Administration.md) > [Developer](Category_Developer.md) > Changelog/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Administration](Category_Administration.md) > [Developer](Category_Developer.md) > Changelog/de

@@ -50,4 +50,4 @@ Icône de la barre d\'outils ![](images/Macro_Joint_Icon.svg )
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Joint/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Joint/fr

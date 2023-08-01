@@ -44,4 +44,4 @@ Der Befehl **Std AnsichtVollbild** schaltet [3D-Ansichten](3D_view/de.md) in den
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewFullscreen/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std ViewFullscreen/de

@@ -43,4 +43,4 @@ La copie reste liée au parcours original. Si l\'original change, la copie aussi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Copy/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Copy/fr

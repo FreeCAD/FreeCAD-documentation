@@ -67,4 +67,4 @@ Instrumentul Bibliotecă vă permite să plasați, în modelul curent, un obiect
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > BIM Library/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > BIM Library/ro

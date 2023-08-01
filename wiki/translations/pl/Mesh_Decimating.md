@@ -43,4 +43,4 @@ Polecenie **Decymacja** zmniejsza liczbę ścian w obiektach siatkowych.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Decimating/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Decimating/pl

@@ -115,4 +115,4 @@ Tutti gli oggetti visibili vengono inseriti in un <img alt="" src=images/Part_Co
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SectionCut/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SectionCut/it

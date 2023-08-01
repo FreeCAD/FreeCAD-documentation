@@ -26,4 +26,4 @@ Dieser Befehl schaltet die Sichtbarkeit von Längen- und Winkelmessungen in der 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle 3D/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle 3D/de

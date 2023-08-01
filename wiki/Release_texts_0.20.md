@@ -48,4 +48,4 @@ FreeCAD wouldn't be possible without its amazing community of developers, tester
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Release texts 0.20
+![](images/Button_right.svg) [documentation index](../README.md) > Release texts 0.20

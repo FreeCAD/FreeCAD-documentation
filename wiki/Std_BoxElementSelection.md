@@ -34,4 +34,4 @@ The **Std BoxElementSelection** command selects faces from a user defined rectan
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std BoxElementSelection
+![](images/Button_right.svg) [documentation index](../README.md) > Std BoxElementSelection

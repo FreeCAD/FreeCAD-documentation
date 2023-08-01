@@ -65,4 +65,4 @@ Diese Kategorie listet Seiten zum Thema [Std Base](Std_Base/de.md), Dieser samme
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Std Base/de
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Std Base/de

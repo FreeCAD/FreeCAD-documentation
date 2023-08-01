@@ -32,4 +32,4 @@ Actuellement cette commande pointe vers [<https://wiki.freecad.org/Frequently_as
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADFAQ/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADFAQ/fr

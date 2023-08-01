@@ -145,4 +145,4 @@ Jetez un coup d\'œil au [Tutoriel Contrôleur cinématique](Tutoriel_KinematicC
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Tutorial KinematicAssembly/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Tutorial KinematicAssembly/fr

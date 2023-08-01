@@ -30,4 +30,4 @@ Lorsqu\'elle est activée, le ou les éléments sélectionnés sont mis en évid
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AutoElementVisibility/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 AutoElementVisibility/fr

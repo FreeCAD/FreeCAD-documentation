@@ -45,4 +45,4 @@ Il comando **Carica immagine** apre un\'immagine in una nuova scheda nella [Area
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewLoadImage/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std ViewLoadImage/it

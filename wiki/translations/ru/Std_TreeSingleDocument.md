@@ -39,4 +39,4 @@ The Tree view DocumentMode mode is stored: **Tools → Edit parameters... → Ba
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeSingleDocument/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSingleDocument/ru

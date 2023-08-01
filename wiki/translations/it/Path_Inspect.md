@@ -57,4 +57,4 @@ Questo strumento consente di ispezionare il contenuto del G-Code nel dialetto in
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Inspect/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Inspect/it

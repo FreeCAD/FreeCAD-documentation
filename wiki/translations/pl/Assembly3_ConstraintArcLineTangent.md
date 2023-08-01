@@ -30,4 +30,4 @@ Constraint "ArcLineTangent" requires the 1st element to be an arc edge
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintArcLineTangent/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintArcLineTangent/pl

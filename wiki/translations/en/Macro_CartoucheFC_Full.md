@@ -1181,4 +1181,4 @@ ver 5 : 08/08/2014 PyQt4 and PySide
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro CartoucheFC Full/en
+![](images/Button_right.svg) [documentation index](../README.md) > Macro CartoucheFC Full/en

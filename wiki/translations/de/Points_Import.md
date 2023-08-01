@@ -61,4 +61,4 @@ Zum Testen kann man [diese Datei](https://raw.githubusercontent.com/FreeCAD/Exam
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Import/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Import/de

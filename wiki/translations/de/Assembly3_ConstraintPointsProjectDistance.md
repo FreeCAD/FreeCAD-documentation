@@ -29,4 +29,4 @@ Ausgehend von der Ausrichtung der Geraden (die Z-Achse ihres lokalen Koordinaten
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointsProjectDistance/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointsProjectDistance/de

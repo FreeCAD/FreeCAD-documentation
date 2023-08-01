@@ -48,4 +48,4 @@ Per esempi di scripting vedere [Nuovo](Std_New/it#Scripting.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Open/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std Open/it

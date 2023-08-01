@@ -246,4 +246,4 @@ Beide Draft-Move-and-Rotate-Werkzeuge nutzen das Draft-Einrast-System. Verschied
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial/de

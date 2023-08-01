@@ -13,4 +13,4 @@ Bu sayfa, bu wikide bir sayfaya sahip harici ek çalışma tezgahlarını listel
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Categories](Category_Categories.md) > Category:Addons/tr
+![](images/Button_right.svg) [documentation index](../README.md) > [Categories](Category_Categories.md) > Category:Addons/tr

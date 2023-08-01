@@ -31,4 +31,4 @@ Der Längenwert der zuerst gewählten Linie ist gleich dem kürzesten Abstand zw
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintLengthEqualPointLineDistance/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLengthEqualPointLineDistance/de

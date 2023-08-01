@@ -171,4 +171,4 @@ Per abilitare l\'utilizzo di fcinfo (solo per Linux e Mac - Da fare: aggiungere 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > WebTools Git/it
+![](images/Button_right.svg) [documentation index](../README.md) > WebTools Git/it

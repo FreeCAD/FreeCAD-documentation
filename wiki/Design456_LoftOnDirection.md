@@ -35,4 +35,4 @@ Works on 3D objects and might fail sometimes. To be more tested and find out the
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 LoftOnDirection
+![](images/Button_right.svg) [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 LoftOnDirection

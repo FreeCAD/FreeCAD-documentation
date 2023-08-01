@@ -25,4 +25,4 @@ Eingabeobjekte müssen [OpenCASCADE](OpenCASCADE/de.md) Formen sein. Beispiele: 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/de

@@ -55,4 +55,4 @@ Ein **ElementRotation1D**-Objekt wird zum drehen des Balkenprofils um die Achse 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementRotation1D/de
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementRotation1D/de

@@ -226,4 +226,4 @@ Probabilmente è una cattiva idea modificare le preferenze di altre parti di Fre
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgParameter/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std DlgParameter/it

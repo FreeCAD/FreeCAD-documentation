@@ -116,4 +116,4 @@ fhsolver = EM.makeFHSolver()
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [EM](Category_EM.md) > EM FHSolver/en
+![](images/Button_right.svg) [documentation index](../README.md) > [EM](Category_EM.md) > EM FHSolver/en

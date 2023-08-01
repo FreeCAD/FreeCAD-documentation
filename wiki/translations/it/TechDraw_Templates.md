@@ -149,4 +149,4 @@ La clausola **xml:space=\"preserve\"** causa a volte problemi di dimensioni e po
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Templates/it
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Templates/it

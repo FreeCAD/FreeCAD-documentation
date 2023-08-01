@@ -40,4 +40,4 @@ La commande **Std Personnalisation** ouvre la boîte de dialogue Personnaliser d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgCustomize/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std DlgCustomize/fr

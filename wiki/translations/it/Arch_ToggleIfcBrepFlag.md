@@ -46,4 +46,4 @@ Questo strumento attiva o disattiva il contrassegno Ifc BREP di un oggetto [Arch
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/it

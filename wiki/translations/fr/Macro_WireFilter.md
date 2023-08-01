@@ -43,4 +43,4 @@ Icône de la barre d\'outils ![](images/Wirefilter.svg )
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro WireFilter/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro WireFilter/fr

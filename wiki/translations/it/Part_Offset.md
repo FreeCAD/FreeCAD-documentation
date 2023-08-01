@@ -102,4 +102,4 @@ offset \"riempito\" con 2 cilindri che creano tagli booleani. Il cilindro A pass
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/it

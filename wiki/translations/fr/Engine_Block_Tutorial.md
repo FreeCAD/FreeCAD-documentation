@@ -183,4 +183,4 @@ Votre objet final devrait ressembler à l\'image sur la droite.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Engine Block Tutorial/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Engine Block Tutorial/fr

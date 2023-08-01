@@ -93,4 +93,4 @@ Two examples of uses can be found in [this forum topic](http://forum.freecadweb.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Solid Sweep
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Solid Sweep

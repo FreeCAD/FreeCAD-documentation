@@ -21,4 +21,4 @@ The <img alt="" src=images/Assembly_TreeItemDown.svg  style="width:24px;"> [Move
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MoveItemDown/en
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 MoveItemDown/en

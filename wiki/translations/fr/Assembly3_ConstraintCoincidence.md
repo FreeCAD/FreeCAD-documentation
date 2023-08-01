@@ -44,4 +44,4 @@ Dans la vie réelle, les formes des objets permettent la rotation et empêchent 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintCoincidence/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintCoincidence/fr

@@ -40,4 +40,4 @@ Medium
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Integrate Cycles renderer
+![](images/Button_right.svg) [documentation index](../README.md) > Integrate Cycles renderer

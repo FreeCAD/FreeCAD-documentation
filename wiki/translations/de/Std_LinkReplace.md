@@ -64,4 +64,4 @@ Diese Anweisung erstellt eine neue [Anwendung Verknüpfung](App_Link/de.md). Sei
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkReplace/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std LinkReplace/de

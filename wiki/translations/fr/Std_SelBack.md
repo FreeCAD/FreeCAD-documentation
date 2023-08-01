@@ -39,4 +39,4 @@ La commande **Std Précédent** restaure la sélection précédente enregistrée
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SelBack/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std SelBack/fr

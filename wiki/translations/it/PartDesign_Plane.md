@@ -79,4 +79,4 @@ Fare doppio clic sull\'etichetta DatumPlane nell\'albero del modello o fare clic
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/it
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/it

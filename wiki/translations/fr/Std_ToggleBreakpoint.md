@@ -26,4 +26,4 @@ Cette commande ne fonctionne pas pour le moment.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ToggleBreakpoint/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleBreakpoint/fr

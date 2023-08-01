@@ -73,4 +73,4 @@ La méthode 2 est à privilégier. Parmi les raisons :
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Export to STL or OBJ/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Export to STL or OBJ/fr

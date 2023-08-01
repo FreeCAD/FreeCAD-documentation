@@ -39,4 +39,4 @@ The PartDesign workbench in FreeCAD v0.17 introduces new tools and elements that
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Migrate/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Migrate/pt-br

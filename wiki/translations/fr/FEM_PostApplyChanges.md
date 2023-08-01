@@ -34,4 +34,4 @@ Cliquez sur le bouton de la barre d\'outils **<img src="images/FEM_PostApplyChan
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostApplyChanges/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostApplyChanges/fr

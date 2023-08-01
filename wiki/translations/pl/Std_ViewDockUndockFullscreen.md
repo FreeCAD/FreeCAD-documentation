@@ -63,4 +63,4 @@ Opcja menu **Niezadokowany** powoduje odłączenie aktywnego okna [widoku 3D](3D
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewDockUndockFullscreen/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std ViewDockUndockFullscreen/pl

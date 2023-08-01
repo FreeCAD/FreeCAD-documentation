@@ -110,4 +110,4 @@ Ein [ausführliches Anwendungsbeispiel](http://forum.freecadweb.org/viewtopic.ph
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/de
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/de

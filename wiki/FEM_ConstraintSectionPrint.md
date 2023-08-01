@@ -32,4 +32,4 @@ Prints the predefined facial output variables (forces and moments) to the data f
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > FEM ConstraintSectionPrint
+![](images/Button_right.svg) [documentation index](../README.md) > FEM ConstraintSectionPrint

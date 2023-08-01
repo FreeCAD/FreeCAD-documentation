@@ -128,4 +128,4 @@ diese Funktion verwendet die Funktion discretize [the original code](http://foru
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Cut Line/de
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Cut Line/de

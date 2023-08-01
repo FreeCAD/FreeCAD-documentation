@@ -79,4 +79,4 @@ Ciò corrisponde approssimativamente a una combinazione di [IfcMaterialLayerSet]
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MultiMaterial/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MultiMaterial/it

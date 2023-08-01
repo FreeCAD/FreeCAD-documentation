@@ -542,4 +542,4 @@ ver 0.4 le 04/06/2016 : test if value = 0 pak nevytvořte ohraničovací rámeč
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro BoundingBox Tracing/cs
+![](images/Button_right.svg) [documentation index](../README.md) > Macro BoundingBox Tracing/cs

@@ -65,4 +65,4 @@ Polecenie **Wygląd zewnętrzny** pokazuje [Panel zadań](Task_panel/pl.md) wła
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SetAppearance/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std SetAppearance/pl

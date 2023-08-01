@@ -366,4 +366,4 @@ Attachment Versatz wird verwendet, um einen linearen oder rotatorischen Versatz 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part EditAttachment/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part EditAttachment/de

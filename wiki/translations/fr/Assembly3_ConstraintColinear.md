@@ -35,4 +35,4 @@ Cet outil accepte également les éléments 3D, par exemple les bords ou les lig
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintColinear/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintColinear/fr

@@ -68,4 +68,4 @@ Derzeit hat man zwei Möglichkeiten den Material-Editor aufzurufen:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialEditor/de
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialEditor/de

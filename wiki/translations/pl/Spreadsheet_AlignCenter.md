@@ -30,4 +30,4 @@ Narzędzie **[<img src=images/Spreadsheet_AlignCenter.svg style="width:16px"> [W
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignCenter/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignCenter/pl

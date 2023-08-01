@@ -136,4 +136,4 @@ Other explanation on [Placement](Placement.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Command_Reference](Category_Command_Reference.md) > Tasks Placement/en
+![](images/Button_right.svg) [documentation index](../README.md) > [Command_Reference](Category_Command_Reference.md) > Tasks Placement/en

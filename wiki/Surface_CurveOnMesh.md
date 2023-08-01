@@ -94,4 +94,4 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface CurveOnMesh
+![](images/Button_right.svg) [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface CurveOnMesh

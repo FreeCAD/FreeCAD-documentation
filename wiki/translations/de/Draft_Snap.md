@@ -99,4 +99,4 @@ Man beachte, dass FreeCAD nach dem Ändern einiger Einstellungen einen Neustart 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap/de

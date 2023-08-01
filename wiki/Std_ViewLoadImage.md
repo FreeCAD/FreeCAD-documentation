@@ -35,4 +35,4 @@ The **Std ViewLoadImage** command opens an image in a new tab in the [Main view 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewLoadImage
+![](images/Button_right.svg) [documentation index](../README.md) > Std ViewLoadImage

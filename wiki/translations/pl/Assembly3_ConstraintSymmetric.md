@@ -20,4 +20,4 @@ This tool builds a link between two objects of an assembly and matches their ori
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintSymmetric/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintSymmetric/pl

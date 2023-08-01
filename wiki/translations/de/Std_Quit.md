@@ -49,4 +49,4 @@ setzen, um Nachfragen zu jeder einzelnen Datei zu vermeiden.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Quit/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std Quit/de

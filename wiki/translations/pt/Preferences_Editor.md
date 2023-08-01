@@ -1012,4 +1012,4 @@ For a scripting example see [Std DlgParameter](Std_DlgParameter.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Preferences Editor/pt
+![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Preferences Editor/pt

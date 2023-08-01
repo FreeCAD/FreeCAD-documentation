@@ -38,4 +38,4 @@ Das Werkzeug <img alt="" src=images/Curves_SplitCurve.svg  style="width:24px;"> 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves SplitCurve/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves SplitCurve/de

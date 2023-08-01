@@ -14,4 +14,4 @@ Diese Seite ist für Anwender gedacht, die sich für die Arbeit mit FreeCAD inte
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Migrating to FreeCAD from OnShape/de
+![](images/Button_right.svg) [documentation index](../README.md) > Migrating to FreeCAD from OnShape/de

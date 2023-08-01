@@ -63,4 +63,4 @@ Acest instrument permite inspectarea dialectului de codul G intern FreeCAD pentr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Inspect/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Inspect/ro

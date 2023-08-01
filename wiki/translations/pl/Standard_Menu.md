@@ -53,4 +53,4 @@ Standardowe menu składa się z 7 podmenu:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Standard Menu/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Standard Menu/pl

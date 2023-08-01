@@ -28,4 +28,4 @@ Utilisez la commande <img alt="" src=images/Web_BrowserZoomIn.svg  style="width:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserZoomIn/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserZoomIn/fr

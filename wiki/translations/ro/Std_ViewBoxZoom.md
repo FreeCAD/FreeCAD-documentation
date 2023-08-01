@@ -37,4 +37,4 @@ Meniul instrumentului Zoom: ![](images/ZoomMenu.png )
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewBoxZoom/ro
+![](images/Button_right.svg) [documentation index](../README.md) > Std ViewBoxZoom/ro

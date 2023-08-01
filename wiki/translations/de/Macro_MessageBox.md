@@ -69,4 +69,4 @@ Beispiel:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro MessageBox/de
+![](images/Button_right.svg) [documentation index](../README.md) > Macro MessageBox/de

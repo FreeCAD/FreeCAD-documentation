@@ -131,4 +131,4 @@ Note that when <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:24p
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Example Capacitance Two Balls
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Example Capacitance Two Balls

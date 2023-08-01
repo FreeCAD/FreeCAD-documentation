@@ -42,4 +42,4 @@ Pour déterminer le tracé de correction des coins, il faut un segment droit (G1
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDogbone/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDogbone/fr

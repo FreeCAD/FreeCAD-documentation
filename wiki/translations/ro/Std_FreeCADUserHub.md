@@ -52,4 +52,4 @@ Currently the command points to [<https://wiki.freecad.org/User_hub>](https://wi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADUserHub/ro
+![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADUserHub/ro

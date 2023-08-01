@@ -42,4 +42,4 @@ La modalità di Pre-selezione della vista ad albero può essere impostata anche 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TreePreSelection/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std TreePreSelection/it

@@ -199,4 +199,4 @@ Etykieta w Szkicowniku, która wyświetla aktualny stan wiązań (np. \" Nie w p
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Fine-tuning/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Fine-tuning/pl

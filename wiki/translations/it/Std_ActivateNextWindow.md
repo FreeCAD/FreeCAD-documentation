@@ -42,4 +42,4 @@ Il comando **Prossima** attiva la finestra successiva nell\'[Area della vista pr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ActivateNextWindow/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std ActivateNextWindow/it

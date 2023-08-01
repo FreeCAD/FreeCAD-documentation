@@ -211,4 +211,4 @@ Instrukce uvedené výše budou fungovat bez ohledu na to co je tlačítku.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Basic modeling tutorial/cs
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Category_Part.md) > Basic modeling tutorial/cs

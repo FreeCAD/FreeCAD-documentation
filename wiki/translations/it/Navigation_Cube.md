@@ -174,4 +174,4 @@ La tabella seguente elenca gli altri parametri avanzati del Cubo di navigazione 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Navigation Cube/it
+![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Navigation Cube/it

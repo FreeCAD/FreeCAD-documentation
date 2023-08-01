@@ -30,4 +30,4 @@ Wenn aktiviert, wird das aktuell ausgewählte Element (bzw. die Elemente) hervor
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AutoElementVisibility/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 AutoElementVisibility/de

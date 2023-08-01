@@ -94,4 +94,4 @@ Ikonka paska narzędzi ![](images/Macro_JointWire.png )
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro JointWire/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Macro JointWire/pl

@@ -57,4 +57,4 @@ Il comando **Informazioni sul progetto** mostra una finestra di dialogo con le i
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ProjectInfo/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std ProjectInfo/it

@@ -53,4 +53,4 @@ Das Werkzeug Verrundung ist von dem Problem der topologischen Benennung betroffe
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/de

@@ -93,4 +93,4 @@ Pentru a utiliza această comandă, trebuie îndeplinite următoarele condiții:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > WebTools BimServer/ro
+![](images/Button_right.svg) [documentation index](../README.md) > WebTools BimServer/ro

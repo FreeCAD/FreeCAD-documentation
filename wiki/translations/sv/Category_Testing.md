@@ -10,4 +10,4 @@ Pages related to testing in regards to unit testing, continuous integration, qua
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Testing/sv
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Testing/sv

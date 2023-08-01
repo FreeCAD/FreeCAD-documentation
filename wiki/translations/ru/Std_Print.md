@@ -47,4 +47,4 @@ The **Std Print** command is primarily intended to print [TechDraw Workbench](Te
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Print/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Std Print/ru

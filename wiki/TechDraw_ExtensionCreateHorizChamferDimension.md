@@ -33,4 +33,4 @@ The **TechDraw ExtensionCreateHorizChamferDimension** tool creates a horizontal 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateHorizChamferDimension
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateHorizChamferDimension

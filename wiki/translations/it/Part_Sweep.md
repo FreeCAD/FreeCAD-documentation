@@ -161,4 +161,4 @@ Se \"Frenet\" è \"true\" l\'orientamento del profilo è calcolato basandosi sul
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/it

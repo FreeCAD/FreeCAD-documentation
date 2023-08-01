@@ -33,4 +33,4 @@ ImageConv este un instrument tip linie de comandă.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer](Category_Developer.md) > ImageConv/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > ImageConv/ro

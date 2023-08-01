@@ -70,4 +70,4 @@ The material editor can currently be accessed by either:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > FEM MaterialEditor/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > FEM MaterialEditor/ro

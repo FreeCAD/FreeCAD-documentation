@@ -56,4 +56,4 @@ Per un esempio di script vedere [Commutare la visibilità](Std_ToggleVisibility/
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std HideSelection/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std HideSelection/it

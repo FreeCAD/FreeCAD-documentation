@@ -34,4 +34,4 @@ Obecnie polecenie wskazuje na [<https://forum.freecad.org>](https://forum.freeca
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADForum/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADForum/pl

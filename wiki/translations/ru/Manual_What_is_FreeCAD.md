@@ -20,4 +20,4 @@ FreeCAD так же пользуется гигантским накаплива
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:What is FreeCAD/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:What is FreeCAD/ru

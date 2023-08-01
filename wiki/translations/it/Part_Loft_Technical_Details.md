@@ -119,4 +119,4 @@ Notare che Loft ha una proprietà \"Ruled\". Se è impostata su true, le superfi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/it

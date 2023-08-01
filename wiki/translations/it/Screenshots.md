@@ -204,4 +204,4 @@ La finestra di dialogo per salvare le immagini.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Screenshots/it
+![](images/Button_right.svg) [documentation index](../README.md) > Screenshots/it

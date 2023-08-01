@@ -280,4 +280,4 @@ Ein Linienzug kann als Pfad verwendet werden, wobei die Eigenschaft **Transition
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Examples/de
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Examples/de

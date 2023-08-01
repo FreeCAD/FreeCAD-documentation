@@ -6,4 +6,4 @@ Die vollständige Dokumentation ist auf Github zu finden: [GewindeProfil Arbeits
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > ThreadProfile Workbench/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > ThreadProfile Workbench/de

@@ -62,4 +62,4 @@ Scarica il codice da <https://github.com/rparkins999/Megaminx> nella tua macro d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Megaminx/it
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Megaminx/it

@@ -143,4 +143,4 @@ Esistono anche numerosi altri ambienti molto utili, prodotti dai membri della co
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:All workbenches at a glance/it
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:All workbenches at a glance/it

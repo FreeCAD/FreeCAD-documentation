@@ -117,4 +117,4 @@ Zum Beispiel ist ein [FEM Analyse](FEM_Analysis/de.md) ein `App::DocumentObjectG
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Group/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std Group/de

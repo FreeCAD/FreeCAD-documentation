@@ -29,4 +29,4 @@ Voir [Std Créer un lien](Std_LinkMake/fr#Propri.C3.A9t.C3.A9s.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > App Link/fr
+![](images/Button_right.svg) [documentation index](../README.md) > App Link/fr

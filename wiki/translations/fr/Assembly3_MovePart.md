@@ -33,4 +33,4 @@ Les poignées déplacent la pièce parallèlement à l\'un des plans de base ICS
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MovePart/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 MovePart/fr

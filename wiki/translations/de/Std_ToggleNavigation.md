@@ -60,4 +60,4 @@ Nicht mit dem Befehl [Std Bearbeiten](Std_Edit/de.md) verwechseln.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ToggleNavigation/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleNavigation/de

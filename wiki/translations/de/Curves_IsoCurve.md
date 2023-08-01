@@ -47,4 +47,4 @@ Das Werkzeug <img alt="" src=images/Curves_IsoCurve.svg  style="width:24px;"> [C
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves IsoCurve/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves IsoCurve/de

@@ -43,4 +43,4 @@ Sposta da un punto a un altro gli elementi dello schizzo selezionati, utilizzand
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/it

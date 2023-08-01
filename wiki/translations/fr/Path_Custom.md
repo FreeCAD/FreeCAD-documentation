@@ -49,4 +49,4 @@ Notez que les vitesses d\'avance ne seront correctement générées par le post-
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Custom/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Custom/fr

@@ -69,4 +69,4 @@ Si seleccionas un eje definido por el usuario, los números definen la direcció
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/es
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/es

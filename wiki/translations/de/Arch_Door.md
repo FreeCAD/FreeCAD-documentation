@@ -28,4 +28,4 @@ Alle Eigenschaften werden im [Arch Fenster](Arch_Window/de.md)-Werkzeug beschrie
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Door/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Door/de

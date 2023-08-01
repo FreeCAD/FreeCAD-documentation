@@ -25,4 +25,4 @@ The <img alt="" src=images/Draft_PointLinkArray.svg  style="width:24px;"> **Draf
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PointLinkArray/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PointLinkArray/pt-br

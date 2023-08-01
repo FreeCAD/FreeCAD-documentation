@@ -27,4 +27,4 @@ Use the <img alt="" src=images/Web_BrowserZoomOut.svg  style="width:24px;"> **We
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserZoomOut/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserZoomOut/pl

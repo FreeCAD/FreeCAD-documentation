@@ -29,4 +29,4 @@ The **[<img src=images/Spreadsheet_Export.svg style="width:16px"> [Spreadsheet E
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Export/en
+![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Export/en

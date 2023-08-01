@@ -22,4 +22,4 @@ This category lists pages related to the [Part_Workbench/cs](Part_Workbench/cs.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Part/cs
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Part/cs

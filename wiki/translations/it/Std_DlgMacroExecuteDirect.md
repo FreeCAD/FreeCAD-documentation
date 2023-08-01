@@ -45,4 +45,4 @@ Il comando **Esegui la macro nell\'editor** esegue la macro nella finestra dell\
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgMacroExecuteDirect/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std DlgMacroExecuteDirect/it

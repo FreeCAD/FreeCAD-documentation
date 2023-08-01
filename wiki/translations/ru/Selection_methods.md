@@ -164,4 +164,4 @@ Gui.Selection.removeSelectionGate()
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Selection methods/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Selection methods/ru

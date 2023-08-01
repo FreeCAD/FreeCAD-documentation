@@ -36,4 +36,4 @@ Polecenie **Przejdź do najgłębiej połączonego obiektu** wybiera właściwo�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkSelectLinkedFinal/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std LinkSelectLinkedFinal/pl

@@ -44,4 +44,4 @@ The following additional options are available in the context menu:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Alignment/en
+![](images/Button_right.svg) [documentation index](../README.md) > Std Alignment/en

@@ -152,4 +152,4 @@ setColors()
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Colorize
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Colorize

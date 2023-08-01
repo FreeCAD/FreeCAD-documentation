@@ -10,4 +10,4 @@ This category lists pages with screenshots.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Screenshots/zh-cn
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Screenshots/zh-cn

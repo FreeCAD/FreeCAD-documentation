@@ -25,4 +25,4 @@ Como já deve ter reparado, os programadores são muito maus a escrever document
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/pt
+![](images/Button_right.svg) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/pt

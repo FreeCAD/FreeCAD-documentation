@@ -11,4 +11,4 @@ This category gathers documentation article mostly aimed at programmers
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Category:Developer Documentation/uk
+![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Category:Developer Documentation/uk

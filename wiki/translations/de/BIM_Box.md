@@ -27,4 +27,4 @@ Mit dem BIM Kasten Werkzeug kannst du eine Standard [Bauteilbox](Part_Box/de.md)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Box/de
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Box/de

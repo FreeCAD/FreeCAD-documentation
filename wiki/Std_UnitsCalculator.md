@@ -62,4 +62,4 @@ The **Std UnitsCalculator** command opens the Units calculator dialog box. The U
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std UnitsCalculator
+![](images/Button_right.svg) [documentation index](../README.md) > Std UnitsCalculator

@@ -60,4 +60,4 @@ If you notice a string in the FreeCAD UI that is not translated do the following
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration/en
+![](images/Button_right.svg) [documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration/en

@@ -144,4 +144,4 @@ Inne wyjaśnienie dotyczące [Umiejscowienie](Placement/pl.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Command_Reference](Category_Command_Reference.md) > Tasks Placement/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Command_Reference](Category_Command_Reference.md) > Tasks Placement/pl

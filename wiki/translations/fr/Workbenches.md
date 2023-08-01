@@ -80,4 +80,4 @@ La page des [Ateliers externes](External_workbenches/fr.md) répertorie tout ce 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/fr

@@ -286,4 +286,4 @@ Vous pouvez aussi continuer avec cet autre tutoriel d\'une pièce un peu plus co
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Creating a simple part with PartDesign/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Creating a simple part with PartDesign/fr

@@ -206,4 +206,4 @@ Nu e disponibil. Fiecare obiect de mai sus poate fi modificat prin schimbarea pr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/ro

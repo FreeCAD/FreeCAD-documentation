@@ -26,4 +26,4 @@ Er kann verwendet werden um ein Grundgerüst (\"Skelett-Skizze\") für eine 2D-K
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintSketchPlane/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintSketchPlane/de

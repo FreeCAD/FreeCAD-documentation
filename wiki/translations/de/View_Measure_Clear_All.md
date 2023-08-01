@@ -40,4 +40,4 @@ Der Befehl **Ansicht Messen alle löschen** entfernt alle [Part](Part_Workbench/
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > View Measure Clear All/de
+![](images/Button_right.svg) [documentation index](../README.md) > View Measure Clear All/de

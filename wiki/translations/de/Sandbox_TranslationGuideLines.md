@@ -59,4 +59,4 @@ Auf dieser Seite werden die Regel gelistet, auf die man sich im Forum geeinigt h
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Sandbox:TranslationGuideLines/de
+![](images/Button_right.svg) [documentation index](../README.md) > Sandbox:TranslationGuideLines/de

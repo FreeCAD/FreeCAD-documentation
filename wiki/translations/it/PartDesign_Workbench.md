@@ -242,4 +242,4 @@ Per alcune idee su cosa si può ottenere con gli strumenti di Part Design, dare 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/it

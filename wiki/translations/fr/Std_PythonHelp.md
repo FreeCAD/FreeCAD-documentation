@@ -31,4 +31,4 @@ Le serveur Web est basé sur le module [pydoc](https://docs.python.org/3.8/libra
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std PythonHelp/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std PythonHelp/fr

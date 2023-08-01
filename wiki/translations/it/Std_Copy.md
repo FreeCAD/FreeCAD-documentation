@@ -46,4 +46,4 @@ Il comando **Copia** pone gli oggetti selezionati negli \"appunti\" per un succe
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Copy/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std Copy/it

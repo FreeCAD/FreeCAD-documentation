@@ -16,4 +16,4 @@ This category lists pages related to the [Robot Workbench/pl](Robot_Workbench/pl
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Robot/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Robot/pl

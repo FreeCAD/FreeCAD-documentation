@@ -45,4 +45,4 @@ The **Std ProjectInfo** command shows a dialog box with project information belo
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ProjectInfo
+![](images/Button_right.svg) [documentation index](../README.md) > Std ProjectInfo

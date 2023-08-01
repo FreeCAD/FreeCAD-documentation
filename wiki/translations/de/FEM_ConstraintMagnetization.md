@@ -50,4 +50,4 @@ Erstellt eine FEM-Randbedingung für die Magnetisierung, zur Verwendung mit der 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintMagnetization/de
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintMagnetization/de

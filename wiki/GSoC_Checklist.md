@@ -39,4 +39,4 @@ Below is a checklist to help students get set up quickly. Items are categorized 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > GSoC Checklist
+![](images/Button_right.svg) [documentation index](../README.md) > GSoC Checklist

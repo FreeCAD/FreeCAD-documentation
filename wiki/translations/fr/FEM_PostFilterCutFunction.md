@@ -46,4 +46,4 @@ Affiche les résultats sur une sphère ou un plan traversant le modèle.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterCutFunction/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterCutFunction/fr

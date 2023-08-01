@@ -224,4 +224,4 @@ Instrumentul propriu-zis este implementat în Python, vezi /Mod/Part/BOPTools/Sp
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/ro

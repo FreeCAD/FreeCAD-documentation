@@ -103,4 +103,4 @@ Nasza strona może być teraz eksportowana do formatu SVG w celu dalszej pracy w
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Generating 2D drawings/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Generating 2D drawings/pl

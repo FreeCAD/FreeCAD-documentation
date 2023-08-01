@@ -44,4 +44,4 @@ Der Befehl **Std RechteckElementAuswahl** wählt Flächen innerhalb eines benutz
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std BoxElementSelection/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std BoxElementSelection/de

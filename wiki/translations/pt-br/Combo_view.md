@@ -61,4 +61,4 @@ Then activate the view using the menu, **View → Panels → Tree view** or **�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Combo view/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > Combo view/pt-br

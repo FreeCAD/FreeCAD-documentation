@@ -832,4 +832,4 @@ ToolBar Icon ![](images/Macro_Sketch_Constraint_From_Spreadsheet.svg )
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Sketch Constraint From Spreadsheet
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Sketch Constraint From Spreadsheet

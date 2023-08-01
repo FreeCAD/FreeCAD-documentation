@@ -118,4 +118,4 @@ Per esempio, un [Analisi FEM](FEM_Analysis/it.md) è un oggetto `App::DocumentOb
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Group/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std Group/it

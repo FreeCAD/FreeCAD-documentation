@@ -101,4 +101,4 @@ For example, a [FEM Analysis](FEM_Analysis.md) is an `App::DocumentObjectGroupPy
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Group/es
+![](images/Button_right.svg) [documentation index](../README.md) > Std Group/es

@@ -117,4 +117,4 @@ Questo strumento crea una proiezione dell\'oggetto selezionato, l\'oggetto sorge
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing ProjectShape/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing ProjectShape/it

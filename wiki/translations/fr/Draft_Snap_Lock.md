@@ -29,4 +29,4 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/fr

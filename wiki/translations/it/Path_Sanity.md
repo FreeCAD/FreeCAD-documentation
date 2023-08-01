@@ -92,4 +92,4 @@ Warnings and errors detected by [Path Sanity](Path_Sanity.md). These may or may 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Sanity/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Sanity/it

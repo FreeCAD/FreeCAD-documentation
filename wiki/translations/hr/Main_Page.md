@@ -96,4 +96,4 @@ Provjerite [Development roadmap](Development_roadmap.md) za vijesti o onom što 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/hr
+![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/hr

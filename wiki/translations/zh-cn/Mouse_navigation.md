@@ -376,4 +376,4 @@ The tutorial [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mous
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Mouse navigation/zh-cn
+![](images/Button_right.svg) [documentation index](../README.md) > Mouse navigation/zh-cn

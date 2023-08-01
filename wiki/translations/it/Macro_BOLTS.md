@@ -40,4 +40,4 @@ Una libreria di Parti che sia utile per una vasta gamma di persone può essere r
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro BOLTS/it
+![](images/Button_right.svg) [documentation index](../README.md) > Macro BOLTS/it

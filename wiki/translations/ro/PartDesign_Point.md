@@ -82,4 +82,4 @@ Faceți dublu clic pe eticheta DatumPoint din arborescența Model sau faceți cl
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Point/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Point/ro

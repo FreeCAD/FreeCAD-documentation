@@ -62,4 +62,4 @@ Pendant la commande, un mode d\'édition spécial est actif et il y a plusieurs 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves EditableSpline/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves EditableSpline/fr

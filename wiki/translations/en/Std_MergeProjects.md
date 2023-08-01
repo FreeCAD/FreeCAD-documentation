@@ -58,4 +58,4 @@ FreeCAD.ActiveDocument.mergeProject("Path_to_FCStd_project_file")
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std MergeProjects/en
+![](images/Button_right.svg) [documentation index](../README.md) > Std MergeProjects/en

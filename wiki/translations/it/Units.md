@@ -68,4 +68,4 @@ Un elenco completo di tutte le unità supportate [si trova quì](Expressions/it#
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Units/it
+![](images/Button_right.svg) [documentation index](../README.md) > Units/it

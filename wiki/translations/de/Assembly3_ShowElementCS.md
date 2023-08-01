@@ -34,4 +34,4 @@ Ein EKS wird durch 3 Linien dargestellt, die sich im Ursprung des Elements treff
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ShowElementCS/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ShowElementCS/de

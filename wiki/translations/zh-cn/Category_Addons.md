@@ -12,4 +12,4 @@ This page lists external addon workbenches that have a page in this wiki. Addons
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Categories](Category_Categories.md) > Category:Addons/zh-cn
+![](images/Button_right.svg) [documentation index](../README.md) > [Categories](Category_Categories.md) > Category:Addons/zh-cn

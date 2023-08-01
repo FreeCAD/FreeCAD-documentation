@@ -170,4 +170,4 @@ Inkscape имеет удобный инструмент для просмотр�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer Documentation](Category_Developer Documentation.md) > Artwork Guidelines/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer Documentation](Category_Developer Documentation.md) > Artwork Guidelines/ru

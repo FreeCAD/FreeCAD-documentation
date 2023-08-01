@@ -10,4 +10,4 @@ This category lists pages related to the [Plot Workbench/ja](Plot_Workbench/ja.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Plot/ja
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Plot/ja

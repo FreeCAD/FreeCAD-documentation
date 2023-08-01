@@ -75,4 +75,4 @@ same shape with a 3D Offset as SKIN and *filled* offset
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/ru

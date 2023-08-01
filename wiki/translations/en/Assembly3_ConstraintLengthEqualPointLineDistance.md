@@ -30,4 +30,4 @@ The length value of the first selected line equals the shortest distance between
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintLengthEqualPointLineDistance/en
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLengthEqualPointLineDistance/en

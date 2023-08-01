@@ -71,4 +71,4 @@ Note that Loft has a \"Ruled\" property. If it is set to true, ruled surfaces ar
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/hr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/hr

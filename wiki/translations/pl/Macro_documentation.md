@@ -207,4 +207,4 @@ In order to include the macro there, first it must be reviewed by the FreeCAD co
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Macros](Category_Macros.md) > [User Documentation](Category_User Documentation.md) > Macro documentation/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Macros](Category_Macros.md) > [User Documentation](Category_User Documentation.md) > Macro documentation/pl

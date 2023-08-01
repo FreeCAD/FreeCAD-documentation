@@ -80,4 +80,4 @@ Die Seite [Externe Arbeitsbereiche](External_workbenches/de.md) listet alle, die
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/de

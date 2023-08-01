@@ -30,4 +30,4 @@ Der Befehl <img alt="" src=images/Assembly_ConstraintEqualPointLineDistance.svg 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintEqualPointLineDistance/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintEqualPointLineDistance/de

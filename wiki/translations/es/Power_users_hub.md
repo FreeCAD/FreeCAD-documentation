@@ -136,4 +136,4 @@ En el [Portal de la Comunidad](FreeCAD_Community_Portal/es.md), puedes encontrar
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/es
+![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/es

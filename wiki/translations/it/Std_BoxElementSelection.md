@@ -38,4 +38,4 @@ Il comando **Box di selezione di elementi** seleziona le facce in un\'area retta
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std BoxElementSelection/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std BoxElementSelection/it

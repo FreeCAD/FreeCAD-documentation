@@ -161,4 +161,4 @@ Obiekt Grubość wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/pl

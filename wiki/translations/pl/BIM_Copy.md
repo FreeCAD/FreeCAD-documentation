@@ -17,4 +17,4 @@ Narzędzie Kopiuj BIM jest skrótem do standardowego narzędzia [Rysunek roboczy
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Copy/pl
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Copy/pl

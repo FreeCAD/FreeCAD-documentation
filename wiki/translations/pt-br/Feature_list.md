@@ -138,4 +138,4 @@ Diversas [bancadas de trabalho alternativas](External_workbenches/pt-br.md) fora
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/pt-br

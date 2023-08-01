@@ -29,4 +29,4 @@ The **Std DlgPreferences** command opens the [Preferences Editor](Preferences_Ed
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgPreferences
+![](images/Button_right.svg) [documentation index](../README.md) > Std DlgPreferences

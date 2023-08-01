@@ -28,4 +28,4 @@ Like most things in FreeCAD, there are many ways of making a copy. For more idea
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Copying Objects/en
+![](images/Button_right.svg) [documentation index](../README.md) > Copying Objects/en

@@ -37,4 +37,4 @@ Creates a FEM constraint for the current density. To be used together with the [
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintCurrentDensity/en
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintCurrentDensity/en

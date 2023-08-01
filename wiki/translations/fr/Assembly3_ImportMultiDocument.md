@@ -23,4 +23,4 @@ Les assemblages STEP sont importés dans un seul document.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ImportMultiDocument/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ImportMultiDocument/fr

@@ -139,4 +139,4 @@ Autres explications sur le [Placement](Placement/fr.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Command_Reference](Category_Command_Reference.md) > Tasks Placement/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Command_Reference](Category_Command_Reference.md) > Tasks Placement/fr

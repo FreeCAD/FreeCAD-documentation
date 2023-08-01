@@ -80,4 +80,4 @@ Polecenie **Kalkulator jednostek** otwiera okno dialogowe Kalkulatora jednostek.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std UnitsCalculator/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std UnitsCalculator/pl

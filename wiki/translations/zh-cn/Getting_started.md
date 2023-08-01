@@ -310,4 +310,4 @@ There are two types of addons:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/zh-cn
+![](images/Button_right.svg) [documentation index](../README.md) > Getting started/zh-cn

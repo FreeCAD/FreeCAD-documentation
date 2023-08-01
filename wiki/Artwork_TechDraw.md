@@ -28,4 +28,4 @@ The [TechDraw Workbench](TechDraw_Workbench.md) comes with a number of default t
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [TechDraw](Category_TechDraw.md) > Artwork TechDraw
+![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [TechDraw](Category_TechDraw.md) > Artwork TechDraw

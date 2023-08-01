@@ -144,4 +144,4 @@ Siehe dazu die Anleitung [Kinematiksteuerung](Tutorial_KinematicController/de.md
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Tutorial KinematicAssembly/de
+![](images/Button_right.svg) [documentation index](../README.md) > Tutorial KinematicAssembly/de

@@ -10,4 +10,4 @@ This category lists pages related to the [Part_Workbench/bg](Part_Workbench/bg.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Part/bg
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Part/bg

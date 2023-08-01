@@ -82,4 +82,4 @@ Per creare delle sezioni con un piano di sezione vedere la pagina **Part** → *
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/it

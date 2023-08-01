@@ -294,4 +294,4 @@ Z88是另一种FEM程序，内含网格生成器、求解器与转换器，用�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Installing additional components/zh-cn
+![](images/Button_right.svg) [documentation index](../README.md) > Installing additional components/zh-cn

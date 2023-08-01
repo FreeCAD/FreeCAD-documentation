@@ -56,4 +56,4 @@ These methods create and return a document and load a project file into it. The 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Open/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Std Open/ru

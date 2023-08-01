@@ -37,4 +37,4 @@ würde einen Eigenschaftssatz mit dem Namen \"FreeCAD\" definieren (das Präfix 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM IfcProperties/de
+![](images/Button_right.svg) [documentation index](../README.md) > BIM IfcProperties/de

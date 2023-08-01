@@ -44,4 +44,4 @@ Constraint "EqualLineArcLength" requires the 2nd element to be a circul
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintEqualLineArcLength/en
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintEqualLineArcLength/en

@@ -216,4 +216,4 @@ Lo strumento è implementato in Python, vedere see **/Mod/Part/BOPTools/SplitFea
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/it

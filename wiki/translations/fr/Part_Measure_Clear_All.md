@@ -21,4 +21,4 @@ Cet outil efface toutes les mesures de la [vue 3D](3D_view/fr.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Clear All/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Clear All/fr

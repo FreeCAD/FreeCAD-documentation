@@ -40,4 +40,4 @@ Icône de la barre d\'outils ![](images/Parametric_Curve_FP.svg )
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Parametric Curve FP/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Parametric Curve FP/fr

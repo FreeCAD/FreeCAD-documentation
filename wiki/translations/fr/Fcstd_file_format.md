@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Fcstd file format/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Fcstd file format/fr

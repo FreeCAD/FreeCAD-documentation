@@ -36,4 +36,4 @@ Il comando **Affianca** riorganizza le finestre nell\'[Area della vista principa
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TileWindows/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std TileWindows/it

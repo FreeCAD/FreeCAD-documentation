@@ -1147,4 +1147,4 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Wiki](Category_Wiki.md) > [Glossary](Category_Glossary.md) > Glossary/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Wiki](Category_Wiki.md) > [Glossary](Category_Glossary.md) > Glossary/fr

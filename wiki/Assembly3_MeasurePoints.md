@@ -19,4 +19,4 @@ This tool measures the distance between two objects of an assembly using two poi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MeasurePoints
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 MeasurePoints

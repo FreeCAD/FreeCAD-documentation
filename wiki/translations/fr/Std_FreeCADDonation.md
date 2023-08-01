@@ -32,4 +32,4 @@ Actuellement, la commande pointe vers [<https://wiki.freecad.org/Donate>](https:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADDonation/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADDonation/fr

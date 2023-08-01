@@ -45,4 +45,4 @@ In FreeCAD {{VersionPlus/de|0.20}} erfordert dieser Befehl das [Help Addon](http
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std OnlineHelp/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std OnlineHelp/de

@@ -40,4 +40,4 @@ Affiche les variables de sortie prédéfinies du modèle (forces et moments) dan
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > FEM ConstraintSectionPrint/fr
+![](images/Button_right.svg) [documentation index](../README.md) > FEM ConstraintSectionPrint/fr

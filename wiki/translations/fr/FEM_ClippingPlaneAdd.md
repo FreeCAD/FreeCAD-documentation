@@ -44,4 +44,4 @@ Pour supprimer tous les plans de coupe, utilisez la fonction [Supprimer les plan
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ClippingPlaneAdd/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ClippingPlaneAdd/fr

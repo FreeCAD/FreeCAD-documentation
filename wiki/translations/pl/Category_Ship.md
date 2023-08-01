@@ -14,4 +14,4 @@ This category lists pages related to the [Ship Workbench/pl](Ship_Workbench/pl.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Ship/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Ship/pl

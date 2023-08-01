@@ -86,4 +86,4 @@ where 9810 is gravity acceleration magnitude in \[mm/s\^2\], and 0,0,-1 is direc
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSelfWeight/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSelfWeight/ru

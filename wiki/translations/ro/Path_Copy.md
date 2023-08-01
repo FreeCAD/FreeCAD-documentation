@@ -54,4 +54,4 @@ Copia este legată cu traiectoria originală. Dacă originalul se schimbă, la f
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Copy/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Copy/ro

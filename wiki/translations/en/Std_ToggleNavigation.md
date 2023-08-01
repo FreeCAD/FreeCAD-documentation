@@ -55,4 +55,4 @@ Do not confuse this command with the [Std Edit](Std_Edit.md) command.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ToggleNavigation/en
+![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleNavigation/en

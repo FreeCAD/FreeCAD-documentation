@@ -76,4 +76,4 @@ Quando si seleziona un asse definito dall\'utente, i numeri definiscono la direz
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/it

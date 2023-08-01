@@ -910,4 +910,4 @@ Dem Benutzer wird empfohlen, die POV-Ray Dokumentation und weitere Tutorials ode
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Tutorial FreeCAD POV ray/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Tutorial FreeCAD POV ray/de

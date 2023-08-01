@@ -111,4 +111,4 @@ La projection effectuée dans l\'atelier Part n\'est pas paramétrique. Si vous 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ProjectionOnSurface/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ProjectionOnSurface/fr

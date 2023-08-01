@@ -40,4 +40,4 @@ The **Std TextureMapping** command temporarily maps a texture onto all objects i
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TextureMapping/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Std TextureMapping/ru

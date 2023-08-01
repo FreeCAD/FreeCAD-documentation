@@ -37,4 +37,4 @@ See also: [Sketcher Preferences](Sketcher_Preferences#Grid.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Grid/en
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Grid/en

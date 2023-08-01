@@ -47,4 +47,4 @@ This category lists pages related to the [FEM Workbench/pl](FEM_Workbench/pl.md)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:FEM/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Category:FEM/pl

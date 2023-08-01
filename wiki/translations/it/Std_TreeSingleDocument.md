@@ -43,4 +43,4 @@ La modalità DocumentMode della vista ad albero è memorizzata: **Strumenti → 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeSingleDocument/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSingleDocument/it

@@ -152,4 +152,4 @@ and running pyrcc4 Draft.qrc -o qrc_Draft.py creates a big Python containing all
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Localization Older Methods/en
+![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Localization Older Methods/en

@@ -41,4 +41,4 @@ L\'outil **TechDraw Ligne parallèle** ajoute une ligne cosmétique parallèle �
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionLineParallel/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionLineParallel/fr

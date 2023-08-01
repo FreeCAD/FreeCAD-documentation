@@ -36,4 +36,4 @@ would define a property set named \"FreeCAD\" (the Pset\_ prefix is not mandator
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM IfcProperties/en
+![](images/Button_right.svg) [documentation index](../README.md) > BIM IfcProperties/en

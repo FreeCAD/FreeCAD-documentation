@@ -33,4 +33,4 @@ An ECS is represented by 3 lines which meet at the elements origin:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ShowElementCS/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ShowElementCS/pl

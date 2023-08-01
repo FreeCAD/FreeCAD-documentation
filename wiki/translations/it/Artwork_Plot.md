@@ -12,4 +12,4 @@ Per tutte le icone nell\'albero del codice sorgente, vedere [Oggetti grafici](Ar
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Plot](Category_Plot.md) > Artwork Plot/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Plot](Category_Plot.md) > Artwork Plot/it

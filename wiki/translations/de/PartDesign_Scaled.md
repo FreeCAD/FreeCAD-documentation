@@ -69,4 +69,4 @@ Wenn noch keine Transformation in der <img alt="" src=images/PartDesign_MultiTra
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/de
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/de

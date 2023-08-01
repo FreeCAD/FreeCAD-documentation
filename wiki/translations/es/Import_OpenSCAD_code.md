@@ -63,4 +63,4 @@ Aquí usaremos el archivo example005.scad de los (antiguos) ejemplos de OpenSCAD
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](Category_OpenSCAD.md) > [Import](Import_Workbench.md) > Import OpenSCAD code/es
+![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](Category_OpenSCAD.md) > [Import](Import_Workbench.md) > Import OpenSCAD code/es

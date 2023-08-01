@@ -17,4 +17,4 @@ L\'outil de clonage BIM est un raccourci vers l\'outil [Draft Clone](Draft_Clone
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Clone/fr
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Clone/fr

@@ -30,4 +30,4 @@ Aktuell verweist dieser Befehl auf die Seite [<https://wiki.freecad.org/Power_us
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADPowerUserHub/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADPowerUserHub/de

@@ -24,4 +24,4 @@ Dieses Werkzeug öffnet ein Zeichenblatt, das als SVG- (scalable vector graphics
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Open SVG/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Open SVG/de

@@ -140,4 +140,4 @@ N\'utilisez **pas** le menu **Fichier** → **Exporter** pour exporter vers le G
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Post/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Post/fr

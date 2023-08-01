@@ -52,4 +52,4 @@ for obj in FreeCADGui.Selection.getSelection():
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Extract Wires from Mesh/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Extract Wires from Mesh/pl

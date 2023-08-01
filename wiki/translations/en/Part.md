@@ -32,4 +32,4 @@ However, when more precision is required, the distinction must be made.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Part/en
+![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Part/en

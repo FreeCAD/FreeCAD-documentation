@@ -55,4 +55,4 @@ If no offset is given to the image initially, its position can still be adjusted
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/en
+![](images/Button_right.svg) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/en

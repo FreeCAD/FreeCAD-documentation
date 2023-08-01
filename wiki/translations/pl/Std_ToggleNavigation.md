@@ -57,4 +57,4 @@ Nie należy mylić tego polecenia z poleceniem [Std: Edycja](Std_Edit/pl.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ToggleNavigation/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleNavigation/pl

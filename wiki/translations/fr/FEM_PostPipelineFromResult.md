@@ -85,4 +85,4 @@ Dans l\'[éditeur de propriétés](Property_editor/fr.md), vous pouvez définir 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostPipelineFromResult/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostPipelineFromResult/fr

@@ -276,4 +276,4 @@ This section is simply a layout map of the settings in the window editor for the
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Waterline/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Waterline/pl

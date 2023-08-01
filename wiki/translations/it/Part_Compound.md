@@ -55,4 +55,4 @@ Per attivare questo controllo, andare in **Strumenti → Modifica parametri → 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/it

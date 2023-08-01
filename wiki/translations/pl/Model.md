@@ -21,4 +21,4 @@ W nieformalnym użyciu, słowo \"[Rysunek](Drawing/pl.md)\" może być używane 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Model/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Model/pl

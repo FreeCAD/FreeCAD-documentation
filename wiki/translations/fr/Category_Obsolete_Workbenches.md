@@ -11,4 +11,4 @@ Cette catégorie répertorie les ateliers obsolètes, c\'est-à-dire les atelier
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Obsolete Workbenches/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Obsolete Workbenches/fr

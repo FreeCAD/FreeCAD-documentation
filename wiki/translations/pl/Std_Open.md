@@ -56,4 +56,4 @@ Przykład skryptu można znaleźć na stronie opisującej opcję [Nowy](Std_New/
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Open/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std Open/pl

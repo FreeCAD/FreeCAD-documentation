@@ -134,4 +134,4 @@ On the [Community portal](FreeCAD_Community_Portal.md), you can find other FreeC
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/en
+![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/en

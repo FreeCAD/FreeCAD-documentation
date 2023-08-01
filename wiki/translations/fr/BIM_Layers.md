@@ -22,4 +22,4 @@ Le gestionnaire de calques vous permet de gérer vos calques, d\'ajouter ou de s
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Layers/fr
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Layers/fr

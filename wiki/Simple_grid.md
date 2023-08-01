@@ -34,4 +34,4 @@ In order to configure it you should open the macro and change the variables at y
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Macros](Category_Macros.md) > Simple grid
+![](images/Button_right.svg) [documentation index](../README.md) > [Macros](Category_Macros.md) > Simple grid

@@ -121,4 +121,4 @@ Neler yapılması planlandığı ile ilgili olarak [Geliştirici rehberine](Deve
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/tr
+![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/tr

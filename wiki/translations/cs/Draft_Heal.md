@@ -34,4 +34,4 @@ Kvůli rychlému vývoji FreeCADu se některé definice objektů mohou v čase a
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/cs
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/cs

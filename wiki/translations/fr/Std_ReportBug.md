@@ -32,4 +32,4 @@ La commande pointe actuellement vers [<https://github.com/FreeCAD/FreeCAD/issues
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ReportBug/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std ReportBug/fr

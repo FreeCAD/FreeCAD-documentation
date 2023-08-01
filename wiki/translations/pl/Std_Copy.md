@@ -46,4 +46,4 @@ Polecenie **Kopiuj** kopiuje zaznaczone obiekty do schowka.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Copy/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std Copy/pl

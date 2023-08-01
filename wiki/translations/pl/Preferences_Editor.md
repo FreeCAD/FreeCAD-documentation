@@ -1018,4 +1018,4 @@ Przykład skryptu można znaleźć w [Std DlgParameter](Std_DlgParameter/pl.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Preferences Editor/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Preferences Editor/pl

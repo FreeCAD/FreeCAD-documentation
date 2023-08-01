@@ -48,4 +48,4 @@ Groupe de maillage FEM permet donc à FreeCAD d\'être utilisé avec des solveur
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > FEM MeshGroup/fr
+![](images/Button_right.svg) [documentation index](../README.md) > FEM MeshGroup/fr

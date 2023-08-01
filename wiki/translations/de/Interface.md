@@ -99,4 +99,4 @@ Diese Optionen befinden sich im Menü, **Werkzeuge → Benutzerdefiniert**. Sieh
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Interface/de
+![](images/Button_right.svg) [documentation index](../README.md) > Interface/de

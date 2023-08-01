@@ -50,4 +50,4 @@ La commande **Std Coller** colle les objets du Presse-papiers dans le document a
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Paste/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std Paste/fr

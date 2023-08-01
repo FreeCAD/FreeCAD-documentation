@@ -20,4 +20,4 @@ La fonctionnalité d\'importation Collada dans l\'atelier Arch dépend de [pycol
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch DAE/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch DAE/fr

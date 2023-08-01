@@ -47,4 +47,4 @@ Kreslicí modul má konstrukční mód, který umožňuje kreslit určité objek
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/cs
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/cs

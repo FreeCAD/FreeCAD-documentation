@@ -19,4 +19,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Reinforcement/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Reinforcement/fr

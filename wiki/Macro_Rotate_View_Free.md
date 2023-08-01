@@ -55,4 +55,4 @@ If there is not open document an error is returned
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Rotate View Free
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Rotate View Free

@@ -111,4 +111,4 @@ The sequence of sections depends on the sequence of clicks in the list. If you w
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft

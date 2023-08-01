@@ -320,4 +320,4 @@ The forum [FC Cam Groover Macro](https://forum.freecadweb.org/viewtopic.php?f=22
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro FCCamGroover
+![](images/Button_right.svg) [documentation index](../README.md) > Macro FCCamGroover

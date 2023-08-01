@@ -48,4 +48,4 @@ Ces paramètres sont fournis à titre indicatif et n\'ont aucun effet sur la con
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket LaunchLug/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket LaunchLug/fr

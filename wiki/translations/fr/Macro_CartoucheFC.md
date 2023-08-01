@@ -956,4 +956,4 @@ ver 0.3 le 02/07/2014 conversion pour utilisation avec **PyQt4** et **PySide**
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro CartoucheFC/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro CartoucheFC/fr

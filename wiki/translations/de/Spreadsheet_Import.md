@@ -34,4 +34,4 @@ Das Werkzeug **[<img src=images/Spreadsheet_Import.svg style="width:16px"> [Spre
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Import/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Import/de

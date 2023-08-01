@@ -436,4 +436,4 @@ Se tutto è andato bene, il modello dovrebbe assomigliare a questo:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Whiffle Ball tutorial/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Category_Part.md) > Whiffle Ball tutorial/it

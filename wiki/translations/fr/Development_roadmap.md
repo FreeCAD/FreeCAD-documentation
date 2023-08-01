@@ -16,4 +16,4 @@ Certaines feuilles de route sur le Wiki utilisent le style [Principes de la mét
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Development roadmap/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Development roadmap/fr

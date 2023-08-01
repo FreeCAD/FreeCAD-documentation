@@ -22,4 +22,4 @@ El contenido de este manual se publica bajo la licencia [Creative Commons 4.0](h
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:Introduction/es
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:Introduction/es

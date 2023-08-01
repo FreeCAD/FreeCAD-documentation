@@ -47,4 +47,4 @@ Both versions can operate independently of the OS used.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro FCInfo Alternate Linux
+![](images/Button_right.svg) [documentation index](../README.md) > Macro FCInfo Alternate Linux

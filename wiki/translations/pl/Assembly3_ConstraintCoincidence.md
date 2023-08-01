@@ -43,4 +43,4 @@ In real life the shapes of the objects allow rotation and prevent sliding and in
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintCoincidence/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintCoincidence/pl

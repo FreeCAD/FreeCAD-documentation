@@ -30,4 +30,4 @@ L\'outil **[<img src=images/Spreadsheet_AlignTop.svg style="width:16px"> [Spread
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignTop/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignTop/fr

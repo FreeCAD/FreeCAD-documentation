@@ -33,4 +33,4 @@ The <img alt="" src=images/Assembly_ConstraintEqualPointLineDistance.svg  style=
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintEqualPointLineDistance/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintEqualPointLineDistance/pl

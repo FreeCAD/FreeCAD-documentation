@@ -32,4 +32,4 @@ Der Befehl **Std AnsichtRechteckauswahl** vergrößert einen vom Benutzer eingeg
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewBoxZoom/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std ViewBoxZoom/de

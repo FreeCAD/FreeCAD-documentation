@@ -32,4 +32,4 @@ This can be used to define the fixed set in a static assembly as well as in a ki
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintLock/en
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLock/en

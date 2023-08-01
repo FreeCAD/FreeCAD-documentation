@@ -16,4 +16,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Reinforcement/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Reinforcement/ru

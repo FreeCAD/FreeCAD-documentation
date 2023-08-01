@@ -54,4 +54,4 @@ Double-cliquez sur l\'étiquette Point de référence dans l\'arborescence du mo
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Point/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Point/fr

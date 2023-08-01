@@ -32,4 +32,4 @@ Il est possible d\'imbriquer des contours fermés, par exemple pour avoir des ce
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeFace/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeFace/fr

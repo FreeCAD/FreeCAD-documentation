@@ -167,4 +167,4 @@ Il flusso di lavoro di base per l\'ambiente [Raytracing](Raytracing_Workbench/it
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/it

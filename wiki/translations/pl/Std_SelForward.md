@@ -41,4 +41,4 @@ Polecenie **Ponów wybór** przywraca następny zarejestrowany wybór z [Widoku 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SelForward/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std SelForward/pl

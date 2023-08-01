@@ -73,4 +73,4 @@ I tag vengono generati automaticamente equidistanti lungo il contorno, iniziando
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupTag/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupTag/it

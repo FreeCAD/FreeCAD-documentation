@@ -19,4 +19,4 @@ This tool measures the distance between two objects of an assembly using a point
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MeasurePointLine/en
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 MeasurePointLine/en

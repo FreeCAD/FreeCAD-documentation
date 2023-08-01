@@ -101,4 +101,4 @@ Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Part S
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface CurveOnMesh/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface CurveOnMesh/fr

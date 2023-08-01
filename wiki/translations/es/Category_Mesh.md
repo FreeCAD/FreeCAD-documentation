@@ -11,4 +11,4 @@ This category lists pages related to the [Mesh_Workbench/es](Mesh_Workbench/es.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Mesh/es
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Mesh/es

@@ -197,4 +197,4 @@ Y finalmente, una de las características más poderosas de FreeCAD es el entorn
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/es
+![](images/Button_right.svg) [documentation index](../README.md) > Getting started/es

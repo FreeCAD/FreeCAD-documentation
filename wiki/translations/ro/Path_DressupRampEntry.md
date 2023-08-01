@@ -67,4 +67,4 @@ Acest instrument utilizează o cale existentă pentru a adăuga punți/etichete 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupRampEntry/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupRampEntry/ro

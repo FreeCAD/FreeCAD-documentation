@@ -59,4 +59,4 @@ See the [Z88 preferences](FEM_Preferences#Z88.md) for the possible solver settin
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverZ88/it
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverZ88/it

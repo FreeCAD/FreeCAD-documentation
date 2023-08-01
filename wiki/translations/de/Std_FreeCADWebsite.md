@@ -34,4 +34,4 @@ Aktuell verweist der Befehl auf die Seite [<https://www.freecad.org>](https://ww
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADWebsite/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADWebsite/de

@@ -12,4 +12,4 @@ Pages relatives aux tests concernant les tests unitaires, l\'intégration contin
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Testing/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Testing/fr

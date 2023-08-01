@@ -115,4 +115,4 @@ Acest instrument creează o proiecți a obiectului selectate (Source) în the 3D
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing ProjectShape/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing ProjectShape/ro

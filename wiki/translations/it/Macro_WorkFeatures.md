@@ -595,4 +595,4 @@ Data 2019-05-01 (YYYY-MM-DD)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [User Documentation](Category_User Documentation.md) > Macro WorkFeatures/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [User Documentation](Category_User Documentation.md) > Macro WorkFeatures/it

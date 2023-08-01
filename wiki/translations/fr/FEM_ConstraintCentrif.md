@@ -35,4 +35,4 @@ Définit une charge centrifuge sur le corps.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > FEM ConstraintCentrif/fr
+![](images/Button_right.svg) [documentation index](../README.md) > FEM ConstraintCentrif/fr

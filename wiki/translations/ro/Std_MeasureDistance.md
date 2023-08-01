@@ -97,4 +97,4 @@ Pentru mai multe posibilități de măsurare / dimensionare puteți utiliza
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std MeasureDistance/ro
+![](images/Button_right.svg) [documentation index](../README.md) > Std MeasureDistance/ro

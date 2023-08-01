@@ -233,4 +233,4 @@ This indicates that the object will be hidden in the Tree view if the **Show ite
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Tree view/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Tree view/ru

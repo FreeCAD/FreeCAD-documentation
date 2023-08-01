@@ -329,4 +329,4 @@ At last, FreeCAD is made by volunteers in their spare time. If you want to furth
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Creating a simple part with Part WB/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Category_Part.md) > Creating a simple part with Part WB/de

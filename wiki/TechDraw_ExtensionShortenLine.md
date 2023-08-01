@@ -34,4 +34,4 @@ The **TechDraw ExtensionShortenLine** tool shortens a cosmetic line or centerlin
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionShortenLine
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionShortenLine

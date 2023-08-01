@@ -38,4 +38,4 @@ Verbindet zwei Kurven an ausgewählten Endpunkten.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher JoinCurves/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher JoinCurves/de

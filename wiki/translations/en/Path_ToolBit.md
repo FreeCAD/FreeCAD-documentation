@@ -61,4 +61,4 @@ Within the FreeCAD GUI the Path toolbit library manager provides a mechanism to 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBit/en
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBit/en

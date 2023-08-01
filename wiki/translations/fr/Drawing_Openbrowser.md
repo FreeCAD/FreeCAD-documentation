@@ -35,4 +35,4 @@ Cette commande vous permet d\'afficher une [Feuille A3 paysage](Drawing_Landscap
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Openbrowser/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Openbrowser/fr

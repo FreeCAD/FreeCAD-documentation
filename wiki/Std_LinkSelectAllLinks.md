@@ -29,4 +29,4 @@ The **Std LinkSelectAllLinks** command selects all [App Link](App_Link.md) objec
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkSelectAllLinks
+![](images/Button_right.svg) [documentation index](../README.md) > Std LinkSelectAllLinks

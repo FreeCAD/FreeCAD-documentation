@@ -13,4 +13,4 @@ This category is for pages related to Building Information Management (BIM). The
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > Category:BIM
+![](images/Button_right.svg) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > Category:BIM

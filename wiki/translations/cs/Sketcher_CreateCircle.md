@@ -41,4 +41,4 @@ Tento nástroj nakreslí kružnici zadáním dvou bodů: střed a bod na polomě
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/cs
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/cs

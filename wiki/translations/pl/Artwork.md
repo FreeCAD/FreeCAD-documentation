@@ -198,4 +198,4 @@ Zobacz stronę [Grafika środowiska pracy Statek](Artwork_Ship/pl.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Artwork/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Artwork/pl

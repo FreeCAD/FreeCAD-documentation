@@ -35,4 +35,4 @@ Les objets utilisés doivent être des formes d\'[OpenCASCADE](OpenCASCADE/fr.md
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/fr

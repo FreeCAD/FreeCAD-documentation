@@ -55,4 +55,4 @@ App.closeDocument(App.ActiveDocument.Name)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > MIBA/es
+![](images/Button_right.svg) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > MIBA/es

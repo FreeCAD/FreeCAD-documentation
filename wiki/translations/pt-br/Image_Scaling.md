@@ -43,4 +43,4 @@ The [Image Scaling](Image_Scaling.md) tool scales an image that was imported wit
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/pt-br

@@ -85,4 +85,4 @@ Queste opzioni sono nel menu **Strumenti → Personalizza**. Vedere [Personalizz
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Interface/it
+![](images/Button_right.svg) [documentation index](../README.md) > Interface/it

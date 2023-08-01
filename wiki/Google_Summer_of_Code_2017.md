@@ -68,4 +68,4 @@ The ideas listed here have a high chance of being accepted as project proposal. 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Google Summer of Code 2017
+![](images/Button_right.svg) [documentation index](../README.md) > Google Summer of Code 2017

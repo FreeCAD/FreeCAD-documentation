@@ -38,4 +38,4 @@ Questo comando essenzialmente esegue <img alt="" src=images/Std_LinkImport.svg  
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkImportAll/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std LinkImportAll/it

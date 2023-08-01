@@ -20,4 +20,4 @@ The windows in the main view area can be organized with commands located in the 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Main view area
+![](images/Button_right.svg) [documentation index](../README.md) > Main view area

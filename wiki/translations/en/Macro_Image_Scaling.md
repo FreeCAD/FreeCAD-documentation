@@ -178,4 +178,4 @@ ui.setupUi(d)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Image Scaling/en
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Image Scaling/en

@@ -180,4 +180,4 @@ Vous pouvez enregistrer un graphique de dépendance :
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/fr

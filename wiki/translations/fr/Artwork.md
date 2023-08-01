@@ -202,4 +202,4 @@ Voir [Graphisme Ship](Artwork_Ship/fr.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Artwork/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Artwork/fr

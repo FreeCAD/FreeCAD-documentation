@@ -147,4 +147,4 @@ Im April 2019 wurde das Team der Kernentwickler erweitert: Zu Jürgen, Werner un
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [News](Category_News.md) > History/de
+![](images/Button_right.svg) [documentation index](../README.md) > [News](Category_News.md) > History/de

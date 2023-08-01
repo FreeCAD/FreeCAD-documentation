@@ -280,4 +280,4 @@ Si tiene problemas para instalar Netgen, Gmsh, o CalculiX, u otra herramienta ex
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Install/es
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Install/es

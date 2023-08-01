@@ -17,4 +17,4 @@ Das BIM Klonen Werkzeug ist eine Abkürzung zum Standard [Entwurf Klonen](Draft_
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Clone/de
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Clone/de

@@ -317,4 +317,4 @@ Attachment Offset is used to apply a linear or rotary offset from the referenced
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part EditAttachment/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part EditAttachment/ru

@@ -20,4 +20,4 @@ Na tej stronie zebrano kilka ciekawych informacji na temat symulacji konstrukcji
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Concrete/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Concrete/pl

@@ -13,4 +13,4 @@ This category lists pages related to the [Plot Workbench/it](Plot_Workbench/it.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Plot/it
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Plot/it

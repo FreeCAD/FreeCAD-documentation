@@ -54,4 +54,4 @@ Der Befehl **Std DruckZuPDF** ist in erster Linie zum Erstellen von [PDF](PDF/de
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std PrintPdf/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std PrintPdf/de

@@ -69,4 +69,4 @@ L\'ordre dans lequel les régions sont affichées dans la [vue en arborescence](
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshRegion/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshRegion/fr

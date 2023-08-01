@@ -18,4 +18,4 @@ This tool only toggles the visibility of two more constraint panels.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintMore/en
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintMore/en

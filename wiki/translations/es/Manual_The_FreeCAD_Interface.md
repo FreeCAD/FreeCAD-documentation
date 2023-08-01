@@ -86,4 +86,4 @@ Estas opciones de personalización avanzada están disponibles en el **Herramien
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The FreeCAD Interface/es
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:The FreeCAD Interface/es

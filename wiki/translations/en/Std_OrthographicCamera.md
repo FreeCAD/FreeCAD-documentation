@@ -55,4 +55,4 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraType()
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std OrthographicCamera/en
+![](images/Button_right.svg) [documentation index](../README.md) > Std OrthographicCamera/en

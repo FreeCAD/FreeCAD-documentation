@@ -97,4 +97,4 @@ In caso di complanarità, anche se la prima operazione booleana riesce, le succe
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Boolean/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Boolean/it

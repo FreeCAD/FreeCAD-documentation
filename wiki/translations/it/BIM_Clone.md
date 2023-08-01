@@ -17,4 +17,4 @@ Lo strumento Clone di BIM è una scorciatoia allo strumento standard [Clone](Dra
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Clone/it
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Clone/it

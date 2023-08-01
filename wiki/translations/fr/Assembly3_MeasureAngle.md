@@ -20,4 +20,4 @@ Cet outil mesure l\'angle entre deux objets d\'un assemblage à l\'aide d\'arêt
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MeasureAngle/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 MeasureAngle/fr

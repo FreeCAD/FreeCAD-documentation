@@ -43,4 +43,4 @@ Acest instrument vă permite să exportați sau să faceți upload de obiecte pe
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > WebTools Sketchfab/ro
+![](images/Button_right.svg) [documentation index](../README.md) > WebTools Sketchfab/ro

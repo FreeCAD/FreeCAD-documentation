@@ -68,4 +68,4 @@ Es gibt vier Abschnitte: Allgemein, Nachbearbeitungsprogramm, Einrichtung und We
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Path](Path_Workbench.md) > Path Preferences/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Path](Path_Workbench.md) > Path Preferences/de

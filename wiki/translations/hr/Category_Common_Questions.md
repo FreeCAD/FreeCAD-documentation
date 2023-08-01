@@ -11,4 +11,4 @@ This category has links to common questions on how to do something in FC. This i
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Common Questions/hr
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Common Questions/hr

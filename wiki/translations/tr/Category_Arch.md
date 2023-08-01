@@ -13,4 +13,4 @@ Bu sayfa Mimari ve Yapı Bilgi Sistemi ile ilgilidir.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Arch/tr
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Arch/tr

@@ -36,4 +36,4 @@ Exporte les propriétés de la vue actuelle vers un fichier pov à utiliser dans
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteView/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteView/fr

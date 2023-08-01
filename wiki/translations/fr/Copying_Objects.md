@@ -36,4 +36,4 @@ Comme la plupart des choses dans FreeCAD, il y a plusieurs façons de faire une 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Copying Objects/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Copying Objects/fr

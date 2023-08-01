@@ -45,4 +45,4 @@ Link to appropriate threads discussing this workbench
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Reverse Engineering](Category_Reverse Engineering.md) > [Workbenches](Category_Workbenches.md) > Reverse Engineering Workbench/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Reverse Engineering](Category_Reverse Engineering.md) > [Workbenches](Category_Workbenches.md) > Reverse Engineering Workbench/ro

@@ -43,4 +43,4 @@ Polecenie <img alt="" src=images/Part_XOR.svg  style="width:24px;"> **XOR** usuw
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part XOR/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part XOR/pl

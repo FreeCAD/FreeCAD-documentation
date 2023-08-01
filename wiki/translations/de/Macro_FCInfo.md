@@ -759,4 +759,4 @@ Hier noch ein Beitrag von [FCInfo Macro](http://forum.freecadweb.org/viewtopic.p
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro FCInfo/de
+![](images/Button_right.svg) [documentation index](../README.md) > Macro FCInfo/de

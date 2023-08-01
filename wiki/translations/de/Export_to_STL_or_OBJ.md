@@ -62,4 +62,4 @@ Methode 2 ist zu bevorzugen: Wenn Du mehr als einen Body zu konvertieren hast, k
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Export to STL or OBJ/de
+![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Export to STL or OBJ/de

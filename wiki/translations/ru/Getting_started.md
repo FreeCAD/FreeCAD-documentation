@@ -234,4 +234,4 @@ Freecad, как программа с открытыми исходниками,
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Getting started/ru

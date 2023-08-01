@@ -72,4 +72,4 @@ Es ist wichtig zu erkennen, dass die Dateien innerhalb einer FreeCAD-Projektdate
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ProjectUtil/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std ProjectUtil/de

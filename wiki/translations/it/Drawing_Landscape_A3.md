@@ -101,4 +101,4 @@ Se la pagina non viene visualizzata, fare clic sull\'icona Aggiorna <img alt="" 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Landscape A3/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Landscape A3/it

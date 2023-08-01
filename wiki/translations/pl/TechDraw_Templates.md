@@ -88,4 +88,4 @@ Zobacz również stronę [Jak stworzyć własny szablon Rysunku Technicznego](Te
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Templates/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Templates/pl

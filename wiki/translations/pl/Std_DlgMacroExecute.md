@@ -150,4 +150,4 @@ Lokalizację plików makroinstrukcji użytkownika można również zmienić w pr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgMacroExecute/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std DlgMacroExecute/pl

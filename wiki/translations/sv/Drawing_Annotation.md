@@ -44,4 +44,4 @@ This command allows you to place a block of text on a [Drawing page](Drawing_Lan
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Annotation/sv
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Annotation/sv

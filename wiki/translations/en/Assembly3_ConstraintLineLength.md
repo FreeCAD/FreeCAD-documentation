@@ -23,4 +23,4 @@ The length is set to a certain value by editing the length parameter in the prop
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintLineLength/en
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLineLength/en

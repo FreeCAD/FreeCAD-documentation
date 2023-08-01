@@ -70,4 +70,4 @@ FreeCAD.ActiveDocument.removeObject("myObjectName")
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Delete/es
+![](images/Button_right.svg) [documentation index](../README.md) > Std Delete/es

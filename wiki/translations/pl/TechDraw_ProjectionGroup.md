@@ -154,4 +154,4 @@ Uwaga: Przed dodaniem rzutów do grupy należy zawsze dodać **Grupę rzutów** 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ProjectionGroup/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ProjectionGroup/pl

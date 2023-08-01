@@ -162,4 +162,4 @@ Infine, una delle più potenti caratteristiche di FreeCAD è l\'ambiente di [scr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/it
+![](images/Button_right.svg) [documentation index](../README.md) > Getting started/it

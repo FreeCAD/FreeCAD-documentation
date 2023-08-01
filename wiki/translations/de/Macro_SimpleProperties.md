@@ -141,4 +141,4 @@ else:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro SimpleProperties/de
+![](images/Button_right.svg) [documentation index](../README.md) > Macro SimpleProperties/de

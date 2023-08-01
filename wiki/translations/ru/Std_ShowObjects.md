@@ -42,4 +42,4 @@ The **Std ShowObjects** command shows all objects belonging to the active docume
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ShowObjects/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Std ShowObjects/ru

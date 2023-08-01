@@ -64,4 +64,4 @@ Other similar macro [Selecting internal faces of a pressure vessel](https://foru
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Mouse over cb
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Mouse over cb

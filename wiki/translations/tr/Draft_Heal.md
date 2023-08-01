@@ -53,4 +53,4 @@ Bu komut, daha eski bir sürümde çalışması için eski bir FreeCAD sürümü
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/tr
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/tr

@@ -21,4 +21,4 @@ Longer pieces of text should be placed in the page itself so that they are trans
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Template:Text
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Template:Text

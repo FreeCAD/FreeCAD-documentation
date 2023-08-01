@@ -68,4 +68,4 @@ Nell\'[editor dei parametri](Std_DlgParameter/it.md) si possono anche modificare
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > DAG view/it
+![](images/Button_right.svg) [documentation index](../README.md) > DAG view/it

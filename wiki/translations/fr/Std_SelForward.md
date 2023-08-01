@@ -41,4 +41,4 @@ La commande **Std Suivant** restaure la sélection suivante enregistrée de la [
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SelForward/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std SelForward/fr

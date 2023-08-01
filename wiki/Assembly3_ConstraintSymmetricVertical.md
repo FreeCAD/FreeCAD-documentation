@@ -23,4 +23,4 @@ Based on one planar element\'s ICS both other elements\' ICSs\' origins are posi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintSymmetricVertical
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintSymmetricVertical

@@ -702,4 +702,4 @@ Fișierul creat pe durata acestui tutorial poate fi găsit la [here](http://yori
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/ro

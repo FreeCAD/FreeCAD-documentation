@@ -56,4 +56,4 @@ The particular parameter values for our variants are described in the below tabl
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Variant link
+![](images/Button_right.svg) [documentation index](../README.md) > Variant link

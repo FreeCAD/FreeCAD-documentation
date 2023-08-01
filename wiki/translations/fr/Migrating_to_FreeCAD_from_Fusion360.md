@@ -58,4 +58,4 @@ Cette page wiki manque-t-elle quelque chose? Veuillez faire une demande de [perm
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Migrating to FreeCAD from Fusion360/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Migrating to FreeCAD from Fusion360/fr

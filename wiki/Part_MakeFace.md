@@ -29,4 +29,4 @@ It is possible to nest closed contours, for example to have circles inside a pol
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeFace
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeFace

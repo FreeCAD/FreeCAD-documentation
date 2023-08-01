@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Compile using Docker
+![](images/Button_right.svg) [documentation index](../README.md) > Compile using Docker

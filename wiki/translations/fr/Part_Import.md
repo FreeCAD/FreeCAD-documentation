@@ -26,4 +26,4 @@ L\'outil **<img src="images/Part_Import.svg" width=16px> [Part Importation](Part
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Import/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Import/fr

@@ -20,4 +20,4 @@ Passando il mouse sopra ogni impostazione, viene mostrato un suggerimento che sp
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Setup/it
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Setup/it

@@ -41,4 +41,4 @@ Gli strumenti Materiale consentono di aggiungere materiali al documento attivo.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompSetMaterial/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompSetMaterial/it

@@ -34,4 +34,4 @@ La commande **Std Lien objet lié primaire** sélectionne {{PropertyData/fr|Link
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkSelectLinkedFinal/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std LinkSelectLinkedFinal/fr

@@ -33,4 +33,4 @@ This command is used to easily trigger the FEM solver. It is a simplified versio
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverRun/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverRun/ru

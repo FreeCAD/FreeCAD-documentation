@@ -145,4 +145,4 @@ Mais le meilleur des deux mondes existe également, qui est l\'[atelier Assembly
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/fr

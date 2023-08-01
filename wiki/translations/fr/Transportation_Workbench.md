@@ -17,4 +17,4 @@ Un sous-ensemble de l\'[atelier Génie civil](Civil_Engineering_Workbench/fr.md)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [User Documentation](Category_User Documentation.md) > Transportation Workbench/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [User Documentation](Category_User Documentation.md) > Transportation Workbench/fr

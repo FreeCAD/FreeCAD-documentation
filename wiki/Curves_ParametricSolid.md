@@ -40,4 +40,4 @@ The <img alt="" src=images/Curves_ParametricSolid.svg  style="width:24px;"> [Cur
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Curves](Category_Curves.md) > Curves ParametricSolid
+![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Curves](Category_Curves.md) > Curves ParametricSolid

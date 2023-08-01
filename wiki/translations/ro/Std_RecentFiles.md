@@ -51,4 +51,4 @@ Documentul este deschis și inserat în proiect.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std RecentFiles/ro
+![](images/Button_right.svg) [documentation index](../README.md) > Std RecentFiles/ro

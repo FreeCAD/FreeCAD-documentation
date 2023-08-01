@@ -28,4 +28,4 @@ Lo strumento Box di BIM consente di creare un [Cuboide](Part_Box/it.md) standard
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Box/it
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Box/it

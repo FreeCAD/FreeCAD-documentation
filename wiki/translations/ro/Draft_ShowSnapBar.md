@@ -36,4 +36,4 @@ Această comandă afișează/ascunde bara de instrumente [ snapping](Draft_Snap.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShowSnapBar/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShowSnapBar/ro

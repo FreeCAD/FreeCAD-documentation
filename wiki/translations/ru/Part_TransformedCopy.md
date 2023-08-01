@@ -35,4 +35,4 @@ To produce other non-parametric copies use **<img src="images/Part_SimpleCopy.sv
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part TransformedCopy/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part TransformedCopy/ru

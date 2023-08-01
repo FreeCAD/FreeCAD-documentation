@@ -297,4 +297,4 @@ Les deux premiers arguments, (**droit-300, 0**) (ligne 91) fournissent la positi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro View Rotation/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro View Rotation/fr

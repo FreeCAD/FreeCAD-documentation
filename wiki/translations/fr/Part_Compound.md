@@ -28,4 +28,4 @@ Pour activer cette vérification, allez sur **Outils → Éditer Paramètres... 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/fr

@@ -73,4 +73,4 @@ El objetivo de este tutorial es el uso de [robots industriales](http://en.wikipe
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/es
+![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/es

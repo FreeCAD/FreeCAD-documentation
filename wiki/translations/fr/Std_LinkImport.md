@@ -46,4 +46,4 @@ Une copie de l\'original **[<img src=images/Std_Part.svg style="width:16px"> [St
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkImport/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std LinkImport/fr

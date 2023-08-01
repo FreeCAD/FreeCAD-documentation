@@ -343,4 +343,4 @@ Ograniczenie szkicu może być wykonane na wiele różnych sposobów. Ogólnie r
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/pl

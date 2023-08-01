@@ -42,4 +42,4 @@ Um andere Objekte auszuschneiden, kannst du den [Std Kopieren](Std_Copy/de.md)-B
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Cut/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std Cut/de

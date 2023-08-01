@@ -78,4 +78,4 @@ mesh_obj.ViewObject.Visibility = False
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch 3Views/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch 3Views/fr

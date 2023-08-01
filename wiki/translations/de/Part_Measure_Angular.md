@@ -41,4 +41,4 @@ Die Darstellung der Maße kann in den [Einstellungen](PartDesign_Preferences/de#
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Angular/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Angular/de

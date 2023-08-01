@@ -30,4 +30,4 @@ The purpose of this page is to log the activity of the FreeCAD community as it i
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > FreeCAD Philanthropy Open Source Hardware
+![](images/Button_right.svg) [documentation index](../README.md) > FreeCAD Philanthropy Open Source Hardware

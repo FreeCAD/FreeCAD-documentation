@@ -62,4 +62,4 @@ Questo strumento imposta la proprietà **Display Mode** dell\'oggetto selezionat
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/it

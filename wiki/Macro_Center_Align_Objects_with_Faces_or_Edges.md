@@ -82,4 +82,4 @@ Forum : [Faces or Edges constraint among non cylindrical parts Macro](http://for
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Center Align Objects with Faces or Edges
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Center Align Objects with Faces or Edges

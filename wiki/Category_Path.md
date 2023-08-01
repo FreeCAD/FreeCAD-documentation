@@ -31,4 +31,4 @@ This category lists pages related to the [Path Workbench](Path_Workbench.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [Workbenches](Category_Workbenches.md) > Category:Path
+![](images/Button_right.svg) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [Workbenches](Category_Workbenches.md) > Category:Path

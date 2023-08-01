@@ -77,4 +77,4 @@ oppure per ottenere subito una forma pulita e non dover ricorrere a questo coman
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/it

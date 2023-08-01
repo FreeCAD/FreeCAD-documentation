@@ -31,4 +31,4 @@ Die resultierende Form ist ein Verbund aus Knoten, der als Referenz verwendet we
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part PointsFromMesh/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part PointsFromMesh/de

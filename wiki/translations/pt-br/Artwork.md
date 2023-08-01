@@ -134,4 +134,4 @@ See [Artwork Ship](Artwork_Ship.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Artwork/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Artwork/pt-br

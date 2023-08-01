@@ -32,4 +32,4 @@ Works on 3D objects.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 PartSubtract
+![](images/Button_right.svg) [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 PartSubtract

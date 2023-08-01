@@ -28,4 +28,4 @@ Polecenie **Pasek stanu** przełącza wyświetlanie [Paska statusu](Status_bar/p
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewStatusBar/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std ViewStatusBar/pl

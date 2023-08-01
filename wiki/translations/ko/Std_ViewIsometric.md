@@ -78,4 +78,4 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewIsometric/ko
+![](images/Button_right.svg) [documentation index](../README.md) > Std ViewIsometric/ko

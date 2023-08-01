@@ -23,4 +23,4 @@ Okna w głównym obszarze widoku mogą być zorganizowane za pomocą poleceń zn
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Main view area/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Main view area/pl

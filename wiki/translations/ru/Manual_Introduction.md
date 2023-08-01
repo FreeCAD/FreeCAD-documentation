@@ -16,4 +16,4 @@ FreeCAD --- это также фундаментально социальный 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:Introduction/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:Introduction/ru

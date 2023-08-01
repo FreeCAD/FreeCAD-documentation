@@ -42,4 +42,4 @@ La modalità Sincronizza la selezione della vista ad albero può anche essere im
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeSyncSelection/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSyncSelection/it

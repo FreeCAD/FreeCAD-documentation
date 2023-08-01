@@ -1071,4 +1071,4 @@ Przejdź do sekcji rozwoju na [forum FreeCAD](https://forum.freecadweb.org/viewf
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source code management/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source code management/pl

@@ -47,4 +47,4 @@ Un peigne 3D sera créé pour les courbes 3D. L\'échantillonnage et l\'échelle
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Curves](Category_Curves.md) > Curves ParametricComb/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Curves](Category_Curves.md) > Curves ParametricComb/fr

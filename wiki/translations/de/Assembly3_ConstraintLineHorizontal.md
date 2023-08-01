@@ -24,4 +24,4 @@ Bezüglich des LKS des planaren Elements werden Anfangs- und Endpunkt des Linien
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintLineHorizontal/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLineHorizontal/de

@@ -236,4 +236,4 @@ Non esiste un metodo Python per modificare gli oggetti Draft. Per emulare i risu
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/it

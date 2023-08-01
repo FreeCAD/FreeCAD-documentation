@@ -28,4 +28,4 @@ See [Points Convert](Points_Convert.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Merge
+![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Merge

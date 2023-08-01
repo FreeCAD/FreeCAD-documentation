@@ -108,4 +108,4 @@ Il est possible d\'ajouter vos propres propriétés aux objets. Celles-ci sont a
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Schedule/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Schedule/fr

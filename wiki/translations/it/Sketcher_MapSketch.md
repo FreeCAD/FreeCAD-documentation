@@ -86,4 +86,4 @@ Ora selezioniamo la faccia superiore di Pad e quindi selezioniamo lo strumento M
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/it

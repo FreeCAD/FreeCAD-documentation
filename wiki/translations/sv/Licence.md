@@ -135,4 +135,4 @@ Detta beslut är ändå bara gjort för FreeCAD\'s kärnsystem. Var och en som s
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/sv
+![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/sv

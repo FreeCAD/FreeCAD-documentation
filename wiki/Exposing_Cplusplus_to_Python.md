@@ -40,4 +40,4 @@ Note:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Exposing Cplusplus to Python
+![](images/Button_right.svg) [documentation index](../README.md) > Exposing Cplusplus to Python

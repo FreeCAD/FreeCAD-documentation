@@ -111,4 +111,4 @@ Opisana ścieżka może jednak stanowić punkt wyjścia *(lub pomysł)* do napis
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Advanced TechDraw Tutorial/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Advanced TechDraw Tutorial/pl

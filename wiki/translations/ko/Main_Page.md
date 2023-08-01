@@ -115,4 +115,4 @@ FreeCAD는 모든 플랫폼에서 [CMake](https://cmake.org/)를 사용하여 �
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/ko
+![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/ko

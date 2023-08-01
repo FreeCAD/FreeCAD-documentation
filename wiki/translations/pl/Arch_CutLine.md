@@ -37,4 +37,4 @@ The [Arch CutLine](Arch_CutLine.md) tool allows you to cut a solid Arch object l
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutLine/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutLine/pl

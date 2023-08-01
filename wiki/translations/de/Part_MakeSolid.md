@@ -32,4 +32,4 @@ Dieser Befehl erstellt einen Festkörper aus einem Formobjekt.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/de

@@ -26,4 +26,4 @@ The constraint accepts straight edges and planar faces, which become parallel.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintMultiParallel
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintMultiParallel

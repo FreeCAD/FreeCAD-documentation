@@ -110,4 +110,4 @@ Inoltre è possibile utilizzare Selezione per selezionare gli oggetti attraverso
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:Navigating in the 3D view/it
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:Navigating in the 3D view/it

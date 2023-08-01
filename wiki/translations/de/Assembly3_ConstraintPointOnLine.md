@@ -27,4 +27,4 @@ Im Bezug auf das erste Element, kann sich das folgende Objekt noch entlang der Z
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointOnLine/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointOnLine/de

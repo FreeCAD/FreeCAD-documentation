@@ -40,4 +40,4 @@ L\'outil **TechDraw Cotes obliques** crée une chaîne oblique de cotes : une s�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateObliqueChainDimension/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateObliqueChainDimension/fr

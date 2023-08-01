@@ -222,4 +222,4 @@ Le résultat devrait être un seul clip solide, qui peut être fermé et ouvert 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Examples/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Examples/fr

@@ -30,4 +30,4 @@ Translations:Std LinkSelectLinkedFinal/1/pt-br
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkSelectLinkedFinal/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > Std LinkSelectLinkedFinal/pt-br

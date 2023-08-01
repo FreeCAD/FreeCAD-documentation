@@ -34,4 +34,4 @@ See [Points Convert](Points_Convert.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Structure/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Structure/pt-br

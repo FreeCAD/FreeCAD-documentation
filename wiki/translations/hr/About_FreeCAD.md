@@ -29,4 +29,4 @@ FreeCAD je podržavan i razvijan od zajednice oduševljenih programera i korisni
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/hr
+![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/hr

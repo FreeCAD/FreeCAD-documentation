@@ -92,4 +92,4 @@ Lorsque l\'esquisse est fermée, les lignes de géométrie externe ne sont pas v
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/fr

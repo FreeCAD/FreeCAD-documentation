@@ -95,4 +95,4 @@ W zależności od wybranego obiektu i jego wybranych kształtów podrzędnych, j
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SendToPythonConsole/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std SendToPythonConsole/pl

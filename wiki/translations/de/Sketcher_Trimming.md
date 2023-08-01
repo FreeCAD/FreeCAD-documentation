@@ -39,4 +39,4 @@ Dieses Werkzeug entfern eine Kante bis zu den nächsten Schnittstellen mit ander
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/de

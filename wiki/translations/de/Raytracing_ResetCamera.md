@@ -74,4 +74,4 @@ Setzt die Kamera des ausgewählten Raytracingprojekts auf die aktuelle Ansicht.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing ResetCamera/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing ResetCamera/de

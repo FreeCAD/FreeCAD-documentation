@@ -27,4 +27,4 @@ If the page does not display, click on the <img alt="" src=images/view-refresh.p
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Landscape A3/sv
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Landscape A3/sv

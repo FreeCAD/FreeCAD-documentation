@@ -61,4 +61,4 @@ Cela correspond à peu près à une combinaison de [IfcMaterialLayerSet](https:/
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MultiMaterial/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MultiMaterial/fr

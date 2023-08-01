@@ -148,4 +148,4 @@ Der Befehl **Std DlgMakroAusführen** öffnet das Dialogfenster Makro ausführen
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgMacroExecute/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std DlgMacroExecute/de

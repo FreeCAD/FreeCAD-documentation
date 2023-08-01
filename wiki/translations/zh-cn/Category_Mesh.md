@@ -11,4 +11,4 @@ This category lists pages related to the [Mesh_Workbench/zh-cn](Mesh_Workbench/z
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Mesh/zh-cn
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Mesh/zh-cn

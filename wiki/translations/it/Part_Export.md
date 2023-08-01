@@ -21,4 +21,4 @@ Lo strumento **<img src="images/Part_Export.svg" width=16px> [Esporta CAD](Part_
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Export/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Export/it

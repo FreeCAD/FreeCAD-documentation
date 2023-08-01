@@ -51,4 +51,4 @@ Um ein Dokument unter einem neuen Namen zu speichern, verwendet man die Methode 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SaveAs/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std SaveAs/de

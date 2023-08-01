@@ -68,4 +68,4 @@ In the [parameter editor](Std_DlgParameter.md) you can also change some properti
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > DAG view/en
+![](images/Button_right.svg) [documentation index](../README.md) > DAG view/en

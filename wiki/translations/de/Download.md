@@ -64,4 +64,4 @@ Die FreeCAD Gemeinschaft bietet viele zusätzliche Module und Makros. Seit 0.17 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Download/de
+![](images/Button_right.svg) [documentation index](../README.md) > Download/de

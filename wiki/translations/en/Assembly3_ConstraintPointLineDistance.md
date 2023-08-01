@@ -21,4 +21,4 @@ This tool builds a link between two objects of an assembly and fixes the distanc
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointLineDistance/en
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointLineDistance/en

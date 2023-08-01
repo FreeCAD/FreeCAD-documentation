@@ -10,4 +10,4 @@ This category lists pages related to the [Plot Workbench/uk](Plot_Workbench/uk.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Plot/uk
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Plot/uk

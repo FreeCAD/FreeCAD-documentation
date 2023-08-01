@@ -239,4 +239,4 @@ Na [komunitním portalu](FreeCAD_Community_Portal.md) najdete další projekty z
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/cs
+![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/cs

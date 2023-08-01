@@ -203,4 +203,4 @@ Der Arbeitsbereich Arch kann mit den Funktionen der [Arch Python API](http://www
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/de

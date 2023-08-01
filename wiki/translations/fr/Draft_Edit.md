@@ -232,4 +232,4 @@ Il n\'existe pas de méthode Python pour les objets Draft Edition. Pour émuler 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/fr

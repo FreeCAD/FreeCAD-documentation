@@ -46,4 +46,4 @@ Die Stapelreihenfolge kann in Skripten durch Ändern der Eigenschaft {{Incode|St
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw StackTop/de
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw StackTop/de

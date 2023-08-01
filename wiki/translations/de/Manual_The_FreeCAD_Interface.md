@@ -76,4 +76,4 @@ Diese erweiterten Anpassungsoptionen sind über das Menü **Werkzeuge → Menü 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The FreeCAD Interface/de
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:The FreeCAD Interface/de

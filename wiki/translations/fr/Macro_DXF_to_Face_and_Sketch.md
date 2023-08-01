@@ -257,4 +257,4 @@ else:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro DXF to Face and Sketch/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro DXF to Face and Sketch/fr

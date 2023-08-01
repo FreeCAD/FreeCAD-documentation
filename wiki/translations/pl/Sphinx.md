@@ -36,4 +36,4 @@ Zachęcające wyniki od David_D:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Sphinx/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Sphinx/pl

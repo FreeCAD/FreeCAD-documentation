@@ -32,4 +32,4 @@ La commande **Std Mosaïque** réorganise les fenêtres dans la [Zone de vue pri
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TileWindows/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std TileWindows/fr

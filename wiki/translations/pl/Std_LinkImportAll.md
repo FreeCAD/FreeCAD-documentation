@@ -42,4 +42,4 @@ Polecenie to zasadniczo uruchamia funkcję **[<img src=images/Std_LinkImport.svg
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkImportAll/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std LinkImportAll/pl

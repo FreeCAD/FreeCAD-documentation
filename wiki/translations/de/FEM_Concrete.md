@@ -20,4 +20,4 @@ Diese Seite sammelt interessante Informationen zum Thema Simulation von Betonstr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Concrete/de
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Concrete/de

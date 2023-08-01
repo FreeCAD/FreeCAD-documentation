@@ -16,4 +16,4 @@ Für alle Symbole im Verzeichnisbaum siehe [Grafik](Artwork/de.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Mesh](Category_Mesh.md) > Artwork MeshPart/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Mesh](Category_Mesh.md) > Artwork MeshPart/de

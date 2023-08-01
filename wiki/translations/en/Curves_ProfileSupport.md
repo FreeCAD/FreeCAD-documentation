@@ -39,4 +39,4 @@ The <img alt="" src=images/Curves_ProfileSupport.svg  style="width:24px;"> [Curv
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves ProfileSupport/en
+![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves ProfileSupport/en

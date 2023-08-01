@@ -30,4 +30,4 @@ Le résultat (objets en surbrillance) dépend de l\'objet sélectionné.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 GoToRelation/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 GoToRelation/fr

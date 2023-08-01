@@ -36,4 +36,4 @@ Tuttavia, quando è richiesta maggiore precisione, vanno fatte le dovute distinz
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Part/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Part/it

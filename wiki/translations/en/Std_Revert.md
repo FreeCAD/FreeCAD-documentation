@@ -31,4 +31,4 @@ The **Std Revert** command closes the active document and reopens the last saved
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Revert/en
+![](images/Button_right.svg) [documentation index](../README.md) > Std Revert/en

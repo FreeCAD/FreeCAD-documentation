@@ -68,4 +68,4 @@ Der **Std DlgMacroRecord** Befehl startet eine [Makro](Macros/de.md) Aufnahmesit
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgMacroRecord/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std DlgMacroRecord/de

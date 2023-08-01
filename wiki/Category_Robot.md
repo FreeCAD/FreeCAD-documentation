@@ -17,4 +17,4 @@ This category lists pages related to the [Robot Workbench](Robot_Workbench.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Robot
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Robot

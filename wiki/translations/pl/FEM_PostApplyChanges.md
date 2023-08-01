@@ -36,4 +36,4 @@ Kliknij przycisk na pasku narzędzi **<img src="images/FEM_PostApplyChanges.svg"
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostApplyChanges/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostApplyChanges/pl

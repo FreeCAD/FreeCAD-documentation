@@ -27,4 +27,4 @@ La position sur l\'élément circulaire (longueur d\'arc à partir du point de d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointOnCircle/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointOnCircle/fr

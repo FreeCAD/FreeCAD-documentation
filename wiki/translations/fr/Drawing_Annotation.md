@@ -42,4 +42,4 @@ Cette commande vous permet de placer un bloc de texte sur une [Feuille A3 paysag
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Annotation/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Annotation/fr

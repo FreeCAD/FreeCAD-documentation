@@ -50,4 +50,4 @@ From Forum [Info Workbench - Help with icons please.](http://forum.freecadweb.or
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro ObjectInfo/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Macro ObjectInfo/pl

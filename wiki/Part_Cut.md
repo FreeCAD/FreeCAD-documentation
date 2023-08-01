@@ -30,4 +30,4 @@ Input objects must be [OpenCASCADE](OpenCASCADE.md) shapes. For example objects 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut

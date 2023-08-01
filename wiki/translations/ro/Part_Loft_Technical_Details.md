@@ -119,4 +119,4 @@ Rețineți că Loft are o proprietate \"Riglat\". Dacă este setat la adevărat,
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/ro

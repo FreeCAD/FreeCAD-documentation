@@ -54,4 +54,4 @@ Acest instrument vă permite să plasați o vizualizarea [spreadsheet](Spreadshe
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing SpreadsheetView/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing SpreadsheetView/ro

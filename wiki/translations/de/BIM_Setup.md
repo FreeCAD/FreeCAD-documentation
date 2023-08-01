@@ -20,4 +20,4 @@ Durch Bewegen des Mauszeigers über jede Einstellung wird dir eine ttoltip Erlä
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Setup/de
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Setup/de

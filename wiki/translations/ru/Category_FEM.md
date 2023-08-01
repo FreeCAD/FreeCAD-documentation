@@ -40,4 +40,4 @@ This category lists pages related to the [FEM Workbench/ru](FEM_Workbench/ru.md)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:FEM/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Category:FEM/ru

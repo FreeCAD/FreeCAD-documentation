@@ -27,4 +27,4 @@ To polecenie w tej chwili nie działa.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std MacroStartDebug/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std MacroStartDebug/pl

@@ -54,4 +54,4 @@ La commande **Std Basculer le plan de coupe** permet de masquer temporairement l
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ToggleClipPlane/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleClipPlane/fr

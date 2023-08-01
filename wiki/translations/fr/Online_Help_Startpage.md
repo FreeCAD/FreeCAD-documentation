@@ -16,4 +16,4 @@ Comme vous avez pu le constater parfois, les programmeurs sont de très mauvais 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/fr

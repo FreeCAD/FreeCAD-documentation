@@ -29,4 +29,4 @@ This tool <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:1
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointCircle/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointCircle/pt-br

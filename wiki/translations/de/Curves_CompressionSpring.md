@@ -38,4 +38,4 @@ Das Werkzeug <img alt="" src=images/Curves_CompressionSpring.svg  style="width:2
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves CompressionSpring/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves CompressionSpring/de

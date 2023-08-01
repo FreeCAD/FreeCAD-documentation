@@ -29,4 +29,4 @@ En se basant sur la direction de la ligne (l\'axe z de son systÃ¨me de coordonnÃ
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointsProjectDistance/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointsProjectDistance/fr

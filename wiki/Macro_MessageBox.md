@@ -74,4 +74,4 @@ Example :
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro MessageBox
+![](images/Button_right.svg) [documentation index](../README.md) > Macro MessageBox

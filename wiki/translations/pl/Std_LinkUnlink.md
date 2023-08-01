@@ -54,4 +54,4 @@ Oryginalna <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkUnlink/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std LinkUnlink/pl

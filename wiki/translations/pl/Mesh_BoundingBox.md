@@ -33,4 +33,4 @@ Polecenie **Informacje o granicach** pokazuje współrzędne ramki otaczającej 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/pl

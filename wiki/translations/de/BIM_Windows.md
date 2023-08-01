@@ -20,4 +20,4 @@ Der BIM Fenstermanager Dialog ermöglicht es dir, alle [Fenster und Türen](Arch
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Windows/de
+![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Windows/de

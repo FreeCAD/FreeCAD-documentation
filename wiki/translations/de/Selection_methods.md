@@ -115,4 +115,4 @@ See the [Source documentation](Source_documentation.md) and [Std PythonHelp](Std
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Selection methods/de
+![](images/Button_right.svg) [documentation index](../README.md) > Selection methods/de

@@ -35,4 +35,4 @@ Serwer internetowy jest oparty na module Python [pydoc](https://docs.python.org/
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std PythonHelp/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std PythonHelp/pl

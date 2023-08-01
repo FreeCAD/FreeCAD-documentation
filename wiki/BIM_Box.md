@@ -26,4 +26,4 @@ The BIM Box tool allows you to create a standard [Part Box](Part_Box.md), but in
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Box
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Box

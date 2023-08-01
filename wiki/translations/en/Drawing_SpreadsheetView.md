@@ -38,4 +38,4 @@ This tool allows you to place a view of a selected [spreadsheet](Spreadsheet_Wor
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing SpreadsheetView/en
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing SpreadsheetView/en

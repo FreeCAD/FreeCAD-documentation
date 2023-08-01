@@ -20,4 +20,4 @@ En survolant chaque paramètre avec la souris, un ttoltip vous en expliquera l'u
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Setup/fr
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Setup/fr

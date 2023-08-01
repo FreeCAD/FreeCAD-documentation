@@ -366,4 +366,4 @@ Hier sind alle Tutorien aufgelistet, die nicht im Handbuch enthalten sind **unab
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials]], eine vollständige und sortierbare Liste findest du in der ](Category_Tutorials]], eine vollständige und sortierbare Liste findest du in der .md) > [Tutorials](Category_Tutorials.md) > Tutorials/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials]], eine vollständige und sortierbare Liste findest du in der ](Category_Tutorials]], eine vollständige und sortierbare Liste findest du in der .md) > [Tutorials](Category_Tutorials.md) > Tutorials/de

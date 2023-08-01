@@ -47,4 +47,4 @@ To save a document under a new name use the `saveAs` method of the document obje
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SaveAs
+![](images/Button_right.svg) [documentation index](../README.md) > Std SaveAs

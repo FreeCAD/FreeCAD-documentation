@@ -104,4 +104,4 @@ wobei das erste Element der Liste eine Bestellnummer (order number) ist, die bis
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Profile/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Profile/de

@@ -67,4 +67,4 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials/ru]] (не переведённые - в ](Category_Tutorials/ru]] (не переведённые - в .md) > [Common Questions](Category_Common Questions.md) > Video tutorials/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials/ru]] (не переведённые - в ](Category_Tutorials/ru]] (не переведённые - в .md) > [Common Questions](Category_Common Questions.md) > Video tutorials/ru

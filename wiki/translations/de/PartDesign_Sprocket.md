@@ -49,4 +49,4 @@ Mit diesem Werkzeug kann ein 2D-Profil eines Kettenrads (oder Ritzels) erstellt 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Sprocket/de
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Sprocket/de

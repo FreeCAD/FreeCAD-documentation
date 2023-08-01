@@ -129,4 +129,4 @@ Original CalculiX documentation can be found at <http://dhondt.de/> in the \"ccx
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverCalculixCxxtools
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverCalculixCxxtools

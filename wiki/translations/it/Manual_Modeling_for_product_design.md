@@ -145,4 +145,4 @@ Ma esiste anche il meglio dei due mondi, che è [Assembly2 Workbench](https://gi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/it

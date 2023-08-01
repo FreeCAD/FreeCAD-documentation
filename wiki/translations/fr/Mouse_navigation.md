@@ -273,4 +273,4 @@ Le tutoriel [Ajout d\'une nouvelle option de navigation à la souris à FreeCAD]
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Mouse navigation/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Mouse navigation/fr

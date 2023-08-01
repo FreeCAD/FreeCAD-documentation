@@ -97,4 +97,4 @@ Dva příklady použití makra lze nalézt na [this forum topic](http://forum.fr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Solid Sweep/cs
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Solid Sweep/cs

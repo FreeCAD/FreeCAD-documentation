@@ -268,4 +268,4 @@ Freecad作为一种开放源代码软件，提供了使用插件补充其工作�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/zh
+![](images/Button_right.svg) [documentation index](../README.md) > Getting started/zh

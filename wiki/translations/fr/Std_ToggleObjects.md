@@ -51,4 +51,4 @@ Pour un exemple de script, voir [Std Basculer la visibilité](Std_ToggleVisibili
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ToggleObjects/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleObjects/fr

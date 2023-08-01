@@ -51,4 +51,4 @@ Questa categoria raccoglie articoli e documentazione per lo più rivolti a progr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Developer Documentation/it
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Developer Documentation/it

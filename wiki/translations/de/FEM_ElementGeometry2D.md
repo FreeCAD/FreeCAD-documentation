@@ -62,4 +62,4 @@ Ein **ElementGeometry2D**-Objekt wird zum Festlegen der Wandstärke von 2D-FEM-E
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementGeometry2D/de
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementGeometry2D/de

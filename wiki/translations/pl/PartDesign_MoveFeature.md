@@ -36,4 +36,4 @@ Funkcja <img alt="" src=images/PartDesign_MoveFeature.svg  style="width:24px;"> 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeature/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeature/pl

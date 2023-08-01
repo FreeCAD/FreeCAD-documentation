@@ -29,4 +29,4 @@ Documentele FreeCAD sunt slavate cu extensia .FcStd , care este arhivată pe baz
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The FreeCAD document/ro
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:The FreeCAD document/ro

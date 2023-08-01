@@ -30,4 +30,4 @@ Das **[<img src=images/Spreadsheet_AlignVCenter.svg style="width:16px"> [Kalkula
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignVCenter/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignVCenter/de

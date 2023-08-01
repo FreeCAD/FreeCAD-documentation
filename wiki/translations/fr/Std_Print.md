@@ -45,4 +45,4 @@ La commande **Std Imprimer** est principalement destinée à imprimer des pages 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Print/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std Print/fr

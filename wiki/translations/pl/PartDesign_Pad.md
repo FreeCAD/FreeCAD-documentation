@@ -201,4 +201,4 @@ Zwęża wyciągnięcie w przeciwnym kierunku wyciskania o podany kąt. Dodatni k
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad/pl

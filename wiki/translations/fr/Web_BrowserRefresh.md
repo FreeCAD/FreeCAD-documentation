@@ -28,4 +28,4 @@ La commande <img alt="" src=images/Web_BrowserRefresh.svg  style="width:24px;"> 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserRefresh/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserRefresh/fr

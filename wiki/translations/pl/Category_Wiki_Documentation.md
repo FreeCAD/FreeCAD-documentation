@@ -10,4 +10,4 @@ Ta kategoria zawiera listę stron, które odnoszą się do efektywnego korzystan
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Wiki Documentation/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Wiki Documentation/pl

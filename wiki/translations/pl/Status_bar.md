@@ -21,4 +21,4 @@ Pasek stanu pokazuje również ostatni wskazany obiekt *(każdy obiekt pod kurso
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Status bar/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Status bar/pl

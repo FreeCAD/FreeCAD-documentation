@@ -25,4 +25,4 @@ It can be used to either group **Constraints**, **Elements**, or **Parts** and w
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 GroupObjects/en
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 GroupObjects/en

@@ -160,4 +160,4 @@ But the best of both worlds also exists, which is the [Assembly2 Workbench](http
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/zh-cn
+![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/zh-cn

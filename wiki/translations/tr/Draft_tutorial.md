@@ -232,4 +232,4 @@ The [Draft Workbench](Draft_Workbench.md) in many ways is similar to the [Sketch
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft tutorial/tr
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft tutorial/tr

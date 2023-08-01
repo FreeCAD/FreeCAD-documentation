@@ -252,4 +252,4 @@ you can change any property to edit Slab Reinforcement.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Category_Arch.md) > Example Slab Having Mesh Of Straight Rebars/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Category_Arch.md) > Example Slab Having Mesh Of Straight Rebars/de

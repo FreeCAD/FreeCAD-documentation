@@ -19,4 +19,4 @@ codespell -q 3 -L aci,ake,aline,alle,alledges,alocation,als,ang,anid,apoints,ba,
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [ Developer Documentation](Category_ Developer Documentation.md) > [ 3rd Party](Category_ 3rd Party.md) > Codespell
+![](images/Button_right.svg) [documentation index](../README.md) > [ Developer Documentation](Category_ Developer Documentation.md) > [ 3rd Party](Category_ 3rd Party.md) > Codespell

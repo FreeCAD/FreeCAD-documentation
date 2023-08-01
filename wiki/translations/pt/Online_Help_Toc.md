@@ -128,4 +128,4 @@ Existe outro índice para o [FreeCAD MANUAL](Manual_Introduction.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/pt
+![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/pt

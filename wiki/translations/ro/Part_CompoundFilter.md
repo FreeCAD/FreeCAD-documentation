@@ -95,4 +95,4 @@ Repetați procedura de selecție de mai sus. Felia și subelementele sale vor fi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/ro

@@ -68,4 +68,4 @@ Im [Parametereditor](Std_DlgParameter/de.md) kannst du auch einige Eigenschaften
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > DAG view/de
+![](images/Button_right.svg) [documentation index](../README.md) > DAG view/de

@@ -29,4 +29,4 @@ The **Solver CalculiX (new framework)** command creates a SolverCalculix object,
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverCalculiX
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverCalculiX

@@ -218,4 +218,4 @@ Qt doesn\'t provide the functionality to retrieve that value. So we have to eith
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > HiDPI support
+![](images/Button_right.svg) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > HiDPI support

@@ -34,4 +34,4 @@ Add python code here
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupLeadInOut/en
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupLeadInOut/en

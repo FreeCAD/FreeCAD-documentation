@@ -96,4 +96,4 @@ Per qualsiasi feedback (bug, richiesta di funzionalità, commenti, \...), utiliz
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro PlacementAbsolufy/it
+![](images/Button_right.svg) [documentation index](../README.md) > Macro PlacementAbsolufy/it

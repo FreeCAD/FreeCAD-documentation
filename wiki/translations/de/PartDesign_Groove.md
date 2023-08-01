@@ -92,4 +92,4 @@ Nachfolgend findest Du Eigenschaften, die nach der Erstellung des Merkmals defin
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/de
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/de

@@ -27,4 +27,4 @@ The **Std ViewStatusBar** command toggles the display of the [Status bar](Status
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewStatusBar/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Std ViewStatusBar/ru

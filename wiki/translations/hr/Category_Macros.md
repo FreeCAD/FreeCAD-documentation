@@ -15,4 +15,4 @@ This category contains macros to extend your FreeCAD installation with new funct
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Macros/hr
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Macros/hr

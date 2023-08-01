@@ -117,4 +117,4 @@ Ostrzeżenia i błędy wykryte przez funkcję **Bezpieczeństwo**. Mogą to być
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Sanity/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Sanity/pl

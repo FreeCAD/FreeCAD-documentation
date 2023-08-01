@@ -102,4 +102,4 @@ A seconda dell\'oggetto selezionato e delle sue forme secondarie selezionate, se
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SendToPythonConsole/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std SendToPythonConsole/it

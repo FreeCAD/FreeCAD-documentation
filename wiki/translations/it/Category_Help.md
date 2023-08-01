@@ -13,4 +13,4 @@ Questa categoria elenca le pagine che contengono informazioni utili su MediaWiki
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Help/it
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Help/it

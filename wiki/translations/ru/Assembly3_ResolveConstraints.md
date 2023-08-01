@@ -26,4 +26,4 @@ This tool is used to recompute an assembly after adding/removing constraints or 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ResolveConstraints/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ResolveConstraints/ru

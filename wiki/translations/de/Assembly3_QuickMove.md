@@ -41,4 +41,4 @@ Der Befehl <img alt="" src=images/Assembly_QuickMove.svg  style="width:24px;"> [
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 QuickMove/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 QuickMove/de

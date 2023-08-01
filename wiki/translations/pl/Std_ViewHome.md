@@ -37,4 +37,4 @@ Polecenie **Widok domyślny** zmienia orientację ujęcia widoku w aktywnym okni
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewHome/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std ViewHome/pl

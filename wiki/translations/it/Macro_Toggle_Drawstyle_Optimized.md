@@ -232,4 +232,4 @@ Il vincolo al forum (2020-29-01 ver:2.0 FC =\> 0.17) : [Keyboard shortcut, View 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Toggle Drawstyle Optimized/it
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Toggle Drawstyle Optimized/it

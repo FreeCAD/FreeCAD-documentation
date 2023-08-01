@@ -135,4 +135,4 @@ Then define the functions {{Incode|installation_succeeded}} and {{Incode|install
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std AddonMgr/pt
+![](images/Button_right.svg) [documentation index](../README.md) > Std AddonMgr/pt

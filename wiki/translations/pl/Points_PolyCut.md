@@ -47,4 +47,4 @@ Polecenie **Wycinanie punktów** wycina punkty z chmury punktów.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points PolyCut/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points PolyCut/pl

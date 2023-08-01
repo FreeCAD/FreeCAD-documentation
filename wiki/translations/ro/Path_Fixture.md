@@ -89,4 +89,4 @@ Fixarea G59 este utilizată pentru a extinde dispozitivele disponibile. Gradul d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Fixture/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Fixture/ro

@@ -467,4 +467,4 @@ Version : 0.4 Date : 04/06/2016 : test si une valeur = 0 alors ne crée pas de b
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro BoundingBox Tracing/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro BoundingBox Tracing/fr

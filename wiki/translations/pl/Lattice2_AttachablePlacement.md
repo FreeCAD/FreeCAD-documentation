@@ -35,4 +35,4 @@ The <img alt="" src=images/Lattice2_AttachablePlacement.svg  style="width:24px;"
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Lattice2](Category_Lattice2.md) > Lattice2 AttachablePlacement/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Lattice2](Category_Lattice2.md) > Lattice2 AttachablePlacement/pl

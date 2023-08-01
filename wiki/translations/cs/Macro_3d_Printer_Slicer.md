@@ -95,4 +95,4 @@ Původní téma fóra : <http://forum.freecadweb.org/viewtopic.php?f=10&t=4686>
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro 3d Printer Slicer/cs
+![](images/Button_right.svg) [documentation index](../README.md) > Macro 3d Printer Slicer/cs

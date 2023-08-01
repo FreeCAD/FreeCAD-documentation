@@ -101,4 +101,4 @@ Bu eğitimde [endüstriyel robotlar](http://en.wikipedia.org/wiki/Industrial_rob
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/tr
+![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/tr

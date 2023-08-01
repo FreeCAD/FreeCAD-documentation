@@ -32,4 +32,4 @@ La commande **Std Rétablir** ferme le document actif et rouvre la dernière ver
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Revert/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std Revert/fr

@@ -22,4 +22,4 @@ The official website of FreeCAD is at <http://www.freecadweb.org>
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:What is FreeCAD
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:What is FreeCAD

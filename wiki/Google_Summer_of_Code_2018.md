@@ -50,4 +50,4 @@ Best of luck to all applicants!
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Google Summer of Code 2018
+![](images/Button_right.svg) [documentation index](../README.md) > Google Summer of Code 2018

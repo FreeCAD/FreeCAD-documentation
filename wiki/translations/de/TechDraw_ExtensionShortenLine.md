@@ -54,4 +54,4 @@ Das <img alt="" src=images/TechDraw_ExtensionShortenLine.svg  style="width:24px;
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionShortenLine/de
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionShortenLine/de

@@ -41,4 +41,4 @@ Polecenie **Podgląd wydruku** wyświetli podgląd wyniku polecenia [Drukuj](Std
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std PrintPreview/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std PrintPreview/pl

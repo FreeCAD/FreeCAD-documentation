@@ -39,4 +39,4 @@ The stacking order can be changed in scripts by changing the {{Incode|StackOrder
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw StackTop/en
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw StackTop/en

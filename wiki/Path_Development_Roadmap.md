@@ -152,4 +152,4 @@ The following list is not individual bugs but shows how Path is inconsistent in 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Path](Path_Workbench.md) > Path Development Roadmap
+![](images/Button_right.svg) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Path](Path_Workbench.md) > Path Development Roadmap

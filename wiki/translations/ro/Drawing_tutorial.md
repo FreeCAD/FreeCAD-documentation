@@ -143,4 +143,4 @@ FreeCAD supports the export of SVG and PDF files based on your **Drawings**
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing tutorial/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing tutorial/ro

@@ -38,4 +38,4 @@ The **TechDraw ExtensionPosVertChainDimension** tool aligns vertical dimensions 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPosVertChainDimension
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPosVertChainDimension

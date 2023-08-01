@@ -199,4 +199,4 @@ Dies ist eine Sandbox
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Assembly3](Category_Assembly3.md) > [Addons](Category_Addons.md) > Sandbox:Assembly3 Elements
+![](images/Button_right.svg) [documentation index](../README.md) > [Assembly3](Category_Assembly3.md) > [Addons](Category_Addons.md) > Sandbox:Assembly3 Elements

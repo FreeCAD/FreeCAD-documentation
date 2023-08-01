@@ -39,4 +39,4 @@ Diese Randbedingung ordnet die Starttemperatur allen Knoten im FEA-Modell zu - e
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintInitialTemperature/de
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintInitialTemperature/de

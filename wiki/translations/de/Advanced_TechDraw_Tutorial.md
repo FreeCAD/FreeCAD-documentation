@@ -113,4 +113,4 @@ Jedoch könnte der beschriebene Weg den Ausgangspunkt (oder die Idee) darstellen
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Advanced TechDraw Tutorial/de
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Advanced TechDraw Tutorial/de

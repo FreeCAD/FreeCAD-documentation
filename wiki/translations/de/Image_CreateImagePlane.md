@@ -56,4 +56,4 @@ Wenn das Bild nicht schon zu Beginn ein Versatz erhält, kann seine Position imm
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/de

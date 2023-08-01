@@ -33,4 +33,4 @@ The **View Measure Clear All** command clears the active [3D view](3D_view.md)\'
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > View Measure Clear All/en
+![](images/Button_right.svg) [documentation index](../README.md) > View Measure Clear All/en

@@ -48,4 +48,4 @@ Dieses Werkzeug ermöglicht die Untersuchung des internen FreeCAD G-Code Dialekt
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Inspect/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Inspect/de

@@ -125,4 +125,4 @@ The best way to go is probably to browse through the [FreeCAD manual](Manual_Int
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Which workbench should I choose/en
+![](images/Button_right.svg) [documentation index](../README.md) > Which workbench should I choose/en

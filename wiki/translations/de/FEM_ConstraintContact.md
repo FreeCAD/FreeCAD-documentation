@@ -67,4 +67,4 @@ Erstellt eine FEM-Randbedingung für den Kontakt zwischen zwei Oberflächen.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintContact/de
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintContact/de

@@ -30,4 +30,4 @@ I file SVG sono comuni e possono essere visualizzati nei browser più moderni e 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Save/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Save/it

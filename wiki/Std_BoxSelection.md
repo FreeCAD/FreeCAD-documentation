@@ -39,4 +39,4 @@ The **Std BoxSelection** command selects objects from a user defined rectangular
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std BoxSelection
+![](images/Button_right.svg) [documentation index](../README.md) > Std BoxSelection

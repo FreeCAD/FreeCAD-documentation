@@ -34,4 +34,4 @@ Dieses Werkzeug erlaubt dir Objekte zu exportieren und auf dein [SketchFab](http
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > WebTools Sketchfab/de
+![](images/Button_right.svg) [documentation index](../README.md) > WebTools Sketchfab/de

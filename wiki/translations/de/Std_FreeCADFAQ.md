@@ -34,4 +34,4 @@ Aktuell verweist dieser Befehl auf die Seite [<https://wiki.freecad.org/Frequent
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADFAQ/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADFAQ/de

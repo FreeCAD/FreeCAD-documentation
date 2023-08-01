@@ -41,4 +41,4 @@ R & o \\
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Rigid Transformation Math
+![](images/Button_right.svg) [documentation index](../README.md) > Rigid Transformation Math

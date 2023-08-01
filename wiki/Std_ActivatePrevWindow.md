@@ -32,4 +32,4 @@ The **Std ActivatePrevWindow** command activates the previous window in the [Mai
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ActivatePrevWindow
+![](images/Button_right.svg) [documentation index](../README.md) > Std ActivatePrevWindow

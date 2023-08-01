@@ -11,4 +11,4 @@ This category gathers all pages used as Sandbox: a place where you can draft or 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Sandbox/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Sandbox/pl

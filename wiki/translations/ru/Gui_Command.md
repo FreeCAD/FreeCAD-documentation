@@ -105,4 +105,4 @@ GuiCommand именуются определенным образом: *ИмяМ
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Gui Command/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Gui Command/ru

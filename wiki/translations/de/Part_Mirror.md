@@ -58,4 +58,4 @@ Die **Basispunkt** Felder können verwendet werden, um die Spiegelebene parallel
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/de

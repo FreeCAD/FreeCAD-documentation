@@ -15,4 +15,4 @@ Es gibt nur einen Reiter: Allgemeine Einstellungen.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Preferences/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Preferences/de

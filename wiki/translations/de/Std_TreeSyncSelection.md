@@ -42,4 +42,4 @@ Der Befehl **Std BaumSyncAuswahl** schaltet den Sync-Auswahl-Modus der [Baumansi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeSyncSelection/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSyncSelection/de

@@ -63,4 +63,4 @@ There is currently no GUI integration of 4th-axis rotational settings in the rel
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path fourth axis
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path fourth axis

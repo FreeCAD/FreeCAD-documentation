@@ -43,4 +43,4 @@ Il codice è visibile in Github: [Utility/HighlightDifference.FCMacro](https://g
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro HighlightDifference/it
+![](images/Button_right.svg) [documentation index](../README.md) > Macro HighlightDifference/it

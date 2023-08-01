@@ -249,4 +249,4 @@ L\'[atelier Draft](Draft_Workbench/fr.md) est à bien des égards similaire au [
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft tutorial/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft tutorial/fr

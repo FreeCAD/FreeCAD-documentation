@@ -12,4 +12,4 @@ See [:Template:Delete](:Template_Delete.md) on how to use the deletion template.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Pages to delete
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Pages to delete

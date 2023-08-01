@@ -34,4 +34,4 @@ However, when more precision is required, the distinction must be made.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [TechDraw](Category_TechDraw.md) > Drawing/zh-cn
+![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [TechDraw](Category_TechDraw.md) > Drawing/zh-cn

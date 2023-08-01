@@ -54,4 +54,4 @@ Gli ambienti di assemblaggio continuano ad essere sviluppati, e ci si aspetta ch
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly/it

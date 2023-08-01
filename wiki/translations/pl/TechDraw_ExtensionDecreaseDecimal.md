@@ -44,4 +44,4 @@ Narzędzie **Zmniejsz ilość cyfr po przecinku** zmniejsza liczbę miejsc dzies
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDecreaseDecimal/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDecreaseDecimal/pl

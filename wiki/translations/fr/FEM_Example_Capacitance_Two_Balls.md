@@ -159,4 +159,4 @@ Remarquez que lorsque <img alt="" src=images/FEM_PostApplyChanges.svg  style="wi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Example Capacitance Two Balls/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Example Capacitance Two Balls/fr

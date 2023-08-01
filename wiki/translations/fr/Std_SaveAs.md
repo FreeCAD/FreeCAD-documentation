@@ -59,4 +59,4 @@ Pour enregistrer un document sous un nouveau nom, utilisez la méthode `saveAs` 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SaveAs/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std SaveAs/fr

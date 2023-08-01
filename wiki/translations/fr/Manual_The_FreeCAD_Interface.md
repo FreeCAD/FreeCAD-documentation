@@ -68,4 +68,4 @@ Ces options de personnalisation avancées sont disponibles à partir du menu **
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The FreeCAD Interface/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:The FreeCAD Interface/fr

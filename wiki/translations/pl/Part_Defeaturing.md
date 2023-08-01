@@ -45,4 +45,4 @@ Aby to narzędzie było dostępne, FreeCAD musi być oparty na Open Cascade **7.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Defeaturing/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Defeaturing/pl

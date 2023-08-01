@@ -245,4 +245,4 @@ Cele două instrumente folosite în acest tutorial au fost Inkscape și Kate. Ac
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Template HowTo/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Template HowTo/ro

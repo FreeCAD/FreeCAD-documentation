@@ -34,4 +34,4 @@ Medium
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Extended functionality of Rebar Addon
+![](images/Button_right.svg) [documentation index](../README.md) > Extended functionality of Rebar Addon

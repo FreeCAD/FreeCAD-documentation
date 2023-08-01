@@ -34,4 +34,4 @@ Obecnie polecenie wskazuje na [<https://wiki.freecad.org/Donate>](https://wiki.f
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADDonation/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADDonation/pl

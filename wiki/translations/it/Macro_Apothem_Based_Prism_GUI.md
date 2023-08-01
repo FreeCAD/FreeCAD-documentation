@@ -132,4 +132,4 @@ Un grazie al principale sviluppatore di FreeCAD [shoogen](http://forum.freecadwe
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Apothem Based Prism GUI/it
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Apothem Based Prism GUI/it

@@ -68,4 +68,4 @@ Gui.SendMsgToActiveView("ViewFit")
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Rotate ViewAxonometric
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Rotate ViewAxonometric

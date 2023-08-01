@@ -72,4 +72,4 @@ Séparer/exploser a été introduit dans FreeCAD v0.18.15506. FreeCAD doit être
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/fr

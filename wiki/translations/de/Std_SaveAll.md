@@ -46,4 +46,4 @@ Um ein Dokument zu speichern, benutze die `save`-Methode des Dokument-Objekts. E
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SaveAll/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std SaveAll/de

@@ -206,4 +206,4 @@ Není dostupné. Každý z výše uvedených objektů může být upravován př
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/cs
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/cs

@@ -24,4 +24,4 @@ Bezüglich des LKS eines planaren Elements haben die Ursprünge der LKS von zwei
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintSymmetricVertical/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintSymmetricVertical/de

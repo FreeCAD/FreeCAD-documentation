@@ -31,4 +31,4 @@ The web server is based on Python\'s [pydoc](https://docs.python.org/3.8/library
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std PythonHelp/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Std PythonHelp/ru

@@ -40,4 +40,4 @@ Mamy [oficjalny dedykowany serwer FreeCAD Discord](https://discord.gg/uh85ZRNcfk
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Help](Category_Help.md) > Help/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Help](Category_Help.md) > Help/pl

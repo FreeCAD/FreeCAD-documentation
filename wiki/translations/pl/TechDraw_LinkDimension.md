@@ -67,4 +67,4 @@ Narzędzie **Powiąż wymiar z geometrią 3D** nie jest bezpośrednio użyteczne
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LinkDimension/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LinkDimension/pl

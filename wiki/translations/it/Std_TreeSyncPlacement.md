@@ -42,4 +42,4 @@ La modalità Sincronizza la posizione è memorizzata: **Strumenti → Modifica p
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeSyncPlacement/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSyncPlacement/it

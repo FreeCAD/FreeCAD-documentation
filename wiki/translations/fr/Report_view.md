@@ -83,4 +83,4 @@ Un clic droit sur la Vue rapport ouvre un menu contextuel avec les commandes sui
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Report view/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Report view/fr

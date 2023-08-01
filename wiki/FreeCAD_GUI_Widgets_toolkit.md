@@ -59,4 +59,4 @@ To be continued ..
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > FreeCAD GUI Widgets toolkit
+![](images/Button_right.svg) [documentation index](../README.md) > FreeCAD GUI Widgets toolkit

@@ -57,4 +57,4 @@ If you use contours only on a part of the mesh, for example when you have a clip
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterContours/en
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterContours/en

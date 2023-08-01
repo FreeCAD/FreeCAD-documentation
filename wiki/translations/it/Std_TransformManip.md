@@ -47,4 +47,4 @@ Questo strumento consente di applicare incrementi di rotazione o incrementi di t
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TransformManip/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std TransformManip/it

@@ -56,4 +56,4 @@ Per salvare un documento, utilizzare il metodo `save` dell\'oggetto documento. U
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SaveAll/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std SaveAll/it

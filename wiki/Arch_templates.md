@@ -94,4 +94,4 @@ The templates are drawn by [Quick61](User_Quick61.md) and listed [FreeCAD-Drawin
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Drawing](Category_Drawing.md) > [Arch](Arch_Workbench.md) > Arch templates
+![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Drawing](Category_Drawing.md) > [Arch](Arch_Workbench.md) > Arch templates

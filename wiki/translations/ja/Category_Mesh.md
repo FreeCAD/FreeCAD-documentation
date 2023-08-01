@@ -10,4 +10,4 @@ This category lists pages related to the [Mesh Workbench/ja](Mesh_Workbench/ja.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Mesh/ja
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Mesh/ja

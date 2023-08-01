@@ -96,4 +96,4 @@ The tool was introduced in FreeCAD v0.17.8053. FreeCAD needs to be compiled with
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BooleanFragments/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BooleanFragments/pt-br

@@ -20,4 +20,4 @@ La boîte de dialogue Gestionnaire de fenêtres BIM vous permet de parcourir et 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Windows/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Windows/fr

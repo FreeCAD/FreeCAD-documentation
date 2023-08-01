@@ -148,4 +148,4 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgMacroExecute/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Std DlgMacroExecute/ru

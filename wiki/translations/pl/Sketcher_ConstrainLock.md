@@ -43,4 +43,4 @@ Wiązanie <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/pl

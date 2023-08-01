@@ -26,4 +26,4 @@ L'outil Boîte BIM vous permet de créer une [Part Box](Part_Box/fr.md) standard
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Box/fr
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Box/fr

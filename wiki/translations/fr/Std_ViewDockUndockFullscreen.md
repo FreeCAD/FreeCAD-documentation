@@ -74,4 +74,4 @@ L\'option de menu **Non dockée** sépare la [vue 3D](3D_view/fr.md) active de l
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewDockUndockFullscreen/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std ViewDockUndockFullscreen/fr

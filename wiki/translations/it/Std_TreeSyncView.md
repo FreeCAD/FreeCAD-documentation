@@ -42,4 +42,4 @@ La modalità Sincronizza la vista della vista ad albero può essere impostata an
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeSyncView/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSyncView/it

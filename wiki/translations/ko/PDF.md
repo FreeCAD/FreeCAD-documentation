@@ -26,4 +26,4 @@ The option to export to PDF is available in the **File → [Export PDF](Std_Expo
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > PDF/ko
+![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > PDF/ko

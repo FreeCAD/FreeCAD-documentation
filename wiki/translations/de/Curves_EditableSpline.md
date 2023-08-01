@@ -66,4 +66,4 @@ Während der Ausführung des Befehls ist ein besonderer Bearbeitungsmodus aktiv 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves EditableSpline/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves EditableSpline/de

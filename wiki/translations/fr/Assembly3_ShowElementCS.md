@@ -34,4 +34,4 @@ Un ECS est représenté par 3 lignes qui se rejoignent à l\'origine des éléme
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ShowElementCS/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ShowElementCS/fr

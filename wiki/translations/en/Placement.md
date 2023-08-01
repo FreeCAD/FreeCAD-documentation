@@ -283,4 +283,4 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Placement/en
+![](images/Button_right.svg) [documentation index](../README.md) > Placement/en

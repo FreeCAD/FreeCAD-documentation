@@ -53,4 +53,4 @@ Riflette uno schizzo lungo l\'asse x, l\'asse Y o l\'origine. Questo comando vie
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch/it

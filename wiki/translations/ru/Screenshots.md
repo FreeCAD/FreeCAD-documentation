@@ -204,4 +204,4 @@ FreeCAD, запущенный в консольном режиме (без гр�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Screenshots/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Screenshots/ru

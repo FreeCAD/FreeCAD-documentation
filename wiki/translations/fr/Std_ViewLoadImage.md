@@ -43,4 +43,4 @@ La commande **Std Charger une image** ouvre une image dans un nouvel onglet de l
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewLoadImage/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std ViewLoadImage/fr

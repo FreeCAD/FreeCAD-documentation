@@ -107,4 +107,4 @@ L\'outil a été introduit dans FreeCAD v0.17.8053. FreeCAD doit être compilé 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BooleanFragments/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BooleanFragments/fr

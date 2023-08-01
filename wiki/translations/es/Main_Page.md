@@ -94,4 +94,4 @@ Comprueba el [ Mapa de desarrollo](Development_roadmap/es.md) para ver noticias 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/es
+![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/es

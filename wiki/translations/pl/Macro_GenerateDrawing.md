@@ -248,4 +248,4 @@ The forum discussion [New Macros: GenerateViews and GenerateDrawing](https://for
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro GenerateDrawing/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Macro GenerateDrawing/pl

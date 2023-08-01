@@ -87,4 +87,4 @@ L\'outil lui-même est implémenté en Python, voir **/Mod/Part/JoinFeatures.py*
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinCutout/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinCutout/fr

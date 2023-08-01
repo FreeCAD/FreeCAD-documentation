@@ -57,4 +57,4 @@ Site-ul oficial al FreeCAD este la <http://www.freecadweb.org>
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:What is FreeCAD/ro
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:What is FreeCAD/ro

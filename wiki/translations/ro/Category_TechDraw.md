@@ -15,4 +15,4 @@ This category lists pages related to the [TechDraw Workbench/ro](TechDraw_Workbe
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:TechDraw/ro
+![](images/Button_right.svg) [documentation index](../README.md) > Category:TechDraw/ro

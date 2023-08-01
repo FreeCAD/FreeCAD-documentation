@@ -272,4 +272,4 @@ App.ActiveDocument.addObject("Part::FeaturePython",
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Part/ro
+![](images/Button_right.svg) [documentation index](../README.md) > Std Part/ro

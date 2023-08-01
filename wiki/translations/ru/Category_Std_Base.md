@@ -66,4 +66,4 @@ This category list pages related to the [Std Base](Std_Base/ru.md), which collec
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Std Base/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Std Base/ru

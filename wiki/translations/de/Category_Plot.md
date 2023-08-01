@@ -13,4 +13,4 @@ Diese Kategorie zeigt eine Liste von Seiten, die zum [Plot-Arbeitsbereich](Plot_
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Plot/de
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Plot/de

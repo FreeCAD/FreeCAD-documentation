@@ -41,4 +41,4 @@ The **Std SelBack** command restores the previous recorded [Tree view](Tree_view
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SelBack/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Std SelBack/ru

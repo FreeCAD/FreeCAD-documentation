@@ -33,4 +33,4 @@ Die Objekte in der Baumansicht bleiben erhalten, da sie die Vernetzungsdaten rep
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshClear/de
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshClear/de

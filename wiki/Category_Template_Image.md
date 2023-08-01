@@ -10,4 +10,4 @@ This category lists templates that add images.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Template:Image
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Template:Image

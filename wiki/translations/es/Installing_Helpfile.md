@@ -52,4 +52,4 @@ Difficulties may arise when trying to install the documentation packages on Ubun
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Installing Helpfile/es
+![](images/Button_right.svg) [documentation index](../README.md) > Installing Helpfile/es

@@ -35,4 +35,4 @@ Narzędzie to umożliwia eksportowanie i przesyłanie obiektów na konto w serwi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > WebTools Sketchfab/pl
+![](images/Button_right.svg) [documentation index](../README.md) > WebTools Sketchfab/pl

@@ -28,4 +28,4 @@ Utilisez le bouton de la barre d\'outils <img alt="" src=images/FEM_ClippingPlan
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ClippingPlaneRemoveAll/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ClippingPlaneRemoveAll/fr

@@ -41,4 +41,4 @@ L\'outil <img alt="" src=images/TechDraw_PrintAll.svg  style="width:24px;"> **Te
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PrintAll/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PrintAll/fr

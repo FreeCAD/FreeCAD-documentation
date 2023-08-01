@@ -38,4 +38,4 @@ Die Anweisung **Netze Normalen spiegeln** dreht und spiegelt die Normalen von Ne
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FlipNormals/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FlipNormals/de

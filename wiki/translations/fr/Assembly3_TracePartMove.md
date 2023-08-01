@@ -38,4 +38,4 @@ La commande <img alt="" src=images/Assembly_Trace.svg  style="width:24px;"> [Tra
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 TracePartMove/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 TracePartMove/fr

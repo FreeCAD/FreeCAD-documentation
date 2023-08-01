@@ -10,4 +10,4 @@ This category gathers all articles documenting what is planned in the Roadmap of
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Roadmap/id
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Roadmap/id

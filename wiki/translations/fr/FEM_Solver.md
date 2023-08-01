@@ -239,4 +239,4 @@ Technog a été utilisé avec succès dans FreeCAD en tant que substitut de Calc
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Solver/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Solver/fr

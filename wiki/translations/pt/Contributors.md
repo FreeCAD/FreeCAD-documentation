@@ -324,4 +324,4 @@ Desenvolvedores de Extras para FreeCAD (obtido a partir de <https://github.com/F
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer](Category_Developer.md) > Contributors/pt
+![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > Contributors/pt

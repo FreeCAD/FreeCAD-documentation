@@ -133,4 +133,4 @@ The Extrude shape is defined by the following parameters, which can be edited af
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/en
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/en

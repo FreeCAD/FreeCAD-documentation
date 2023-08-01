@@ -94,4 +94,4 @@ Remarquez qu\'après avoir modifié certaines préférences, vous devez redémar
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap/fr

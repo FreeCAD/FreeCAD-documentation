@@ -15,4 +15,4 @@ This category lists pages related to the [FEM Workbench/pt-br](FEM_Workbench/pt-
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:FEM/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > Category:FEM/pt-br

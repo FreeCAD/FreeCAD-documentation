@@ -96,4 +96,4 @@ Siehe [Linienzeichungsfunktion](Line_drawing_function/de.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Command Reference/de|Liste aller Befehle]]-Seite erscheint. Befehle können über eine Werkzeugleisten-Schaltfläche, einen Menüpunkt, oder aus einem ](Category_Command Reference/de|Liste aller Befehle]]-Seite erscheint. Befehle können über eine Werkzeugleisten-Schaltfläche, einen Menüpunkt, oder aus einem .md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Command Reference/de|Liste aller Befehle]]-Seite erscheint. Befehle können über eine Werkzeugleisten-Schaltfläche, einen Menüpunkt, oder aus einem ](Category_Command Reference/de|Liste aller Befehle]]-Seite erscheint. Befehle können über eine Werkzeugleisten-Schaltfläche, einen Menüpunkt, oder aus einem .md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/de

@@ -239,4 +239,4 @@ else:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Visibility Manager/en
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Visibility Manager/en

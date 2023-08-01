@@ -143,4 +143,4 @@ El objeto del Arch componente es tambiÃ©n una base compartida por todos los demÃ
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/es
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/es

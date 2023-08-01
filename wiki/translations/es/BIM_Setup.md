@@ -19,4 +19,4 @@ Al pasar el mouse por encima de cada configuración, se le mostrará una sugeren
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Setup/es
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Setup/es

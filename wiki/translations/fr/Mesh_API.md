@@ -235,4 +235,4 @@ d.recompute()
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Mesh](Mesh_Workbench.md) > Mesh API/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Mesh](Mesh_Workbench.md) > Mesh API/fr

@@ -36,4 +36,4 @@ The **Std Copy** command copies objects to the Clipboard.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Copy
+![](images/Button_right.svg) [documentation index](../README.md) > Std Copy

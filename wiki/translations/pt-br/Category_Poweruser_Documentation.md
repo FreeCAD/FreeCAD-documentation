@@ -18,4 +18,4 @@ This category shows documentation articles dealing with python scripting, which 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Poweruser Documentation/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Poweruser Documentation/pt-br

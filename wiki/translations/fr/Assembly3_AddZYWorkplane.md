@@ -30,4 +30,4 @@ Les éléments valides sont par exemple les éléments, les corps, les sommets, 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AddZYWorkplane/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 AddZYWorkplane/fr

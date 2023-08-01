@@ -19,4 +19,4 @@ Vous pouvez également utiliser la macro <img alt="" src=images/HighlightDiffere
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Inspection](Category_Inspection.md) > [Workbenches](Category_Workbenches.md) > Inspection Workbench/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Inspection](Category_Inspection.md) > [Workbenches](Category_Workbenches.md) > Inspection Workbench/fr

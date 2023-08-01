@@ -28,4 +28,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [TechDraw](Category_TechDraw.md) > Artwork TechDraw/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [TechDraw](Category_TechDraw.md) > Artwork TechDraw/ru

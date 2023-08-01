@@ -36,4 +36,4 @@ Tryb Wybór wstępny w widoku drzewa można również ustawić w [Edytorze prefe
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TreePreSelection/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std TreePreSelection/pl

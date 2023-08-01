@@ -953,4 +953,4 @@ Bien sûr, vous pouvez charger les documents correspondants à tout moment pour 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Expressions/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Expressions/fr

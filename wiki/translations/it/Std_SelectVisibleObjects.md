@@ -31,4 +31,4 @@ Il comando **Seleziona gli oggetti visibili** seleziona tutti gli oggetti visibi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SelectVisibleObjects/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std SelectVisibleObjects/it

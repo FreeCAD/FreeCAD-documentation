@@ -50,4 +50,4 @@ To narzędzie pozwala na stworzenie profilu 2D koła łańcuchowego. Może on by
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Sprocket/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Sprocket/pl

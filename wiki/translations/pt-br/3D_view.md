@@ -89,4 +89,4 @@ Para mais informações, veja a documentação para usuários avançados:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > 3D view/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > 3D view/pt-br

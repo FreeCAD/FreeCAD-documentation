@@ -24,4 +24,4 @@ Cette commande permet de basculer la visibilité de toutes les mesures dans la [
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle All/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle All/fr

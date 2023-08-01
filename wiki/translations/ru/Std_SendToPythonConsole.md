@@ -101,4 +101,4 @@ The **Std SendToPythonConsole** command creates variables in the [Python console
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SendToPythonConsole/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Std SendToPythonConsole/ru

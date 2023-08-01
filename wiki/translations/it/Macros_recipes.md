@@ -938,4 +938,4 @@ Se non si utilizza [Addon Manager](Std_AddonMgr/it.md), la macro può essere ins
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python Code.md) > Macros recipes/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python Code.md) > Macros recipes/it

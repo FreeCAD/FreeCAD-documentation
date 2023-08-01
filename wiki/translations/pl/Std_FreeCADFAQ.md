@@ -34,4 +34,4 @@ Obecnie polecenie wskazuje na stronę [<https://wiki.freecad.org/Frequently_aske
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADFAQ/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADFAQ/pl

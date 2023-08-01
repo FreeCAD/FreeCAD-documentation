@@ -25,4 +25,4 @@ Bu sayfa, beton yapılarla ilgili bazı ilginç konuları toplar:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Concrete/tr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Concrete/tr

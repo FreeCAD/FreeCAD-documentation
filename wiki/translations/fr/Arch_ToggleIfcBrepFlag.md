@@ -21,4 +21,4 @@ Cet outil active/désactive l\'indicateur IfcBrep d\'un objet [Arch](Arch_Workbe
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/fr

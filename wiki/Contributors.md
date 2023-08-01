@@ -248,4 +248,4 @@ Developers of FreeCAD addons (retrieved from <https://github.com/FreeCAD/FreeCAD
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer](Category_Developer.md) > Contributors
+![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > Contributors

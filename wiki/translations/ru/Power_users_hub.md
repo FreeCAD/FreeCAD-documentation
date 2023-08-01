@@ -144,4 +144,4 @@ FreeCAD расширяем с помощью кода [Python](Python/ru.md), к
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/ru

@@ -42,4 +42,4 @@ L\'outil **TechDraw Plus de décimales** augmente le nombre de décimales du tex
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionIncreaseDecimal/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionIncreaseDecimal/fr

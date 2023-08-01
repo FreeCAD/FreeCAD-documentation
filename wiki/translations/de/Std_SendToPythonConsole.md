@@ -95,4 +95,4 @@ Abhängig von dem ausgewählten Objekt und seiner ausgewählten Teilformen, fall
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SendToPythonConsole/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std SendToPythonConsole/de

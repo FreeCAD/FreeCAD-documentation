@@ -38,4 +38,4 @@ Polecenie **Wybór elementów ramką zaznaczenia** wybiera ściany z prostokątn
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std BoxElementSelection/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std BoxElementSelection/pl

@@ -54,4 +54,4 @@ In der Vergangenheit wurden die `.xpm`-Symbole als Überlagerungen bei der Anzei
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Sketcher](Category_Sketcher.md) > Artwork Sketcher/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Sketcher](Category_Sketcher.md) > Artwork Sketcher/de

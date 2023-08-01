@@ -13,4 +13,4 @@ Bu kategoride [Robot tezgahı](Robot_Workbench/tr.md) dosyaları listelenecektir
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Robot/tr
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Robot/tr

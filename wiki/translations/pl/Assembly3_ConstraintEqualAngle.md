@@ -27,4 +27,4 @@ The line directions as well as the face normals are represented by each ICS\'s z
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintEqualAngle/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintEqualAngle/pl

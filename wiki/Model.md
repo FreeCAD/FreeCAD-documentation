@@ -18,4 +18,4 @@ In informal usage, the word \"[Drawing](Drawing.md)\" may be used with the same 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Model
+![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Model

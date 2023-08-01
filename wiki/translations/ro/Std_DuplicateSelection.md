@@ -50,4 +50,4 @@ The Duplicate Selection command is a short-cut for the Copy+Paste commands. It c
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DuplicateSelection/ro
+![](images/Button_right.svg) [documentation index](../README.md) > Std DuplicateSelection/ro

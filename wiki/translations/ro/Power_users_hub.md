@@ -254,4 +254,4 @@ Pe pagina [Community portal](FreeCAD_Community_Portal.md), puteți căuta alte p
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/ro

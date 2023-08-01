@@ -35,4 +35,4 @@ Siehe [Std VerknüpfungHerstellen](Std_LinkMake/de#Eigenschaften.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > App Link/de
+![](images/Button_right.svg) [documentation index](../README.md) > App Link/de

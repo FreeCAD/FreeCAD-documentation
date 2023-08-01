@@ -152,4 +152,4 @@ Consulte a [Documentação do código-fonte](Source_documentation/pt-br.md) e [A
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Selection methods/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > Selection methods/pt-br

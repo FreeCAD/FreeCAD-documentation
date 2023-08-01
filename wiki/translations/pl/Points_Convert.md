@@ -74,4 +74,4 @@ Obiekty chmury punktów są obiektami typu [Cecha geometrii](App_GeoFeature/pl.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Convert/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Convert/pl

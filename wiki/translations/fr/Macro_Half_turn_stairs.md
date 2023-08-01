@@ -300,4 +300,4 @@ Sauvez les données dans un fichier nommé **stairs.dat** dans votre répertoire
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Half turn stairs/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Half turn stairs/fr

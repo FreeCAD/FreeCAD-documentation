@@ -74,4 +74,4 @@ Apoi, următoarele informații pot fi introduse într-o fereastră:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ProjectInfo/ro
+![](images/Button_right.svg) [documentation index](../README.md) > Std ProjectInfo/ro

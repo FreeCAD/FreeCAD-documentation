@@ -209,4 +209,4 @@ The Arch module can be used in [Python](Python.md) scripts and [macros](Macros.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/ko
+![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/ko

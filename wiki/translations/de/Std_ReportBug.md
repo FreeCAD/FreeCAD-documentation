@@ -52,4 +52,4 @@ Currently the command points to [<https://github.com/FreeCAD/FreeCAD/issues>](ht
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ReportBug/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std ReportBug/de

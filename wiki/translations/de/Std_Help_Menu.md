@@ -68,4 +68,4 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Help Menu/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Help Menu/de

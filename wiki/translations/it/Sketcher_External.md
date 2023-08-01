@@ -132,4 +132,4 @@ Quando lo schizzo viene chiuso le linee Geometria esterna non sono più visibili
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/it

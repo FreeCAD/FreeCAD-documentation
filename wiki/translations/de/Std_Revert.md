@@ -32,4 +32,4 @@ Der Befehl **Std Rückgängig** schließt das aktive Dokument und öffnet die zu
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Revert/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std Revert/de

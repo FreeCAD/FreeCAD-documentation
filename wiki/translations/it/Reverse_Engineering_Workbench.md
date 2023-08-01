@@ -25,4 +25,4 @@ Link a thread appropriati che discutono di questo ambiente
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Reverse Engineering](Category_Reverse Engineering.md) > [Workbenches](Category_Workbenches.md) > Reverse Engineering Workbench/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Reverse Engineering](Category_Reverse Engineering.md) > [Workbenches](Category_Workbenches.md) > Reverse Engineering Workbench/it

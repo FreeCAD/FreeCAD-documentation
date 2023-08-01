@@ -217,4 +217,4 @@ Acesta este ajutorul online oficial al FreeCAD. Rețineți că întregul sistem 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/ro

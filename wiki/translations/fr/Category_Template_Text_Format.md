@@ -10,4 +10,4 @@ Cette catégorie répertorie les modèles au format texte donnés en entrée.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Template:Text Format/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Template:Text Format/fr

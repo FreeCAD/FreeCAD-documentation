@@ -10,4 +10,4 @@ Denna kategori samlar sidor som fungerar som ett förråd av resurser för FreeC
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Repository/sv
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Repository/sv

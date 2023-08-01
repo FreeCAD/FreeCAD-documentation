@@ -43,4 +43,4 @@ Après que cette opération soit complète, il peut être nécessaire de nettoye
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/fr

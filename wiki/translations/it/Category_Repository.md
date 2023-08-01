@@ -12,4 +12,4 @@ Questa categoria raccoglie le pagine che costituiscono un repositorio di risorse
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Repository/it
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Repository/it

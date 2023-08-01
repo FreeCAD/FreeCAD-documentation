@@ -94,4 +94,4 @@ L\'outil lui-même est implémenté en Python, voir **/Mod/Part/BOPTools/JoinFea
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/fr

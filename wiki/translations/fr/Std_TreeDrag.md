@@ -37,4 +37,4 @@ La commande **Std Déplacement** lance une opération de glissement pour les obj
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeDrag/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std TreeDrag/fr

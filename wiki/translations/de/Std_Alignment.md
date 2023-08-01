@@ -51,4 +51,4 @@ Die folgenden zusätzlichen Möglichkeiten können im Kontextmenü gewählt werd
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Alignment/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std Alignment/de

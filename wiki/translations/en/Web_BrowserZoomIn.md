@@ -27,4 +27,4 @@ Use the <img alt="" src=images/Web_BrowserZoomIn.svg  style="width:24px;"> **Web
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserZoomIn/en
+![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserZoomIn/en

@@ -36,4 +36,4 @@ The following is a list of node editors that can or potentially can work in Free
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Node editors
+![](images/Button_right.svg) [documentation index](../README.md) > Node editors

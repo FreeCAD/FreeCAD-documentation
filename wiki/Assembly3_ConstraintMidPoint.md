@@ -32,4 +32,4 @@ Line elements are made with <img alt="" src=images/Workbench_Draft.svg  style="w
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintMidPoint
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintMidPoint

@@ -93,4 +93,4 @@ See also [How to make a custom TechDraw template](TechDraw_TemplateHowTo.md), or
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Templates/hr
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Templates/hr

@@ -45,4 +45,4 @@ Polecenie **Wykonaj makrodefinicję w trakcie edycji** powoduje wykonanie makra 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgMacroExecuteDirect/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std DlgMacroExecuteDirect/pl

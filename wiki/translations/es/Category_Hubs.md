@@ -11,4 +11,4 @@ Esta categoría recopila los puntos de encuentro de las 3 categorías de usuario
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Hubs/es
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Hubs/es

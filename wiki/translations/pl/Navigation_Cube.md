@@ -164,4 +164,4 @@ Poniższa tabela zawiera listę innych zaawansowanych parametrów Kostki nawigac
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Navigation Cube/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Navigation Cube/pl

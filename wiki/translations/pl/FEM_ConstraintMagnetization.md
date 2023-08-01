@@ -82,4 +82,4 @@ Creates a FEM constraint for the magnetization. To be used together with the [Ma
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintMagnetization/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintMagnetization/pl

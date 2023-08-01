@@ -22,4 +22,4 @@ Finally, using [Fasteners workbench](https://www.freecadweb.org/wiki/Fasteners_W
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Macros](Category_Macros.md) > Fastener holes
+![](images/Button_right.svg) [documentation index](../README.md) > [Macros](Category_Macros.md) > Fastener holes

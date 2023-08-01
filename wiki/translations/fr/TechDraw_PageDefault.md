@@ -113,4 +113,4 @@ Voir [TechDraw Page à partir d\'un modèle](TechDraw_PageTemplate/fr#Script.md)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageDefault/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageDefault/fr

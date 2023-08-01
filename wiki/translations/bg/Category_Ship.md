@@ -10,4 +10,4 @@ This category lists pages related to the [Ship Workbench/bg](Ship_Workbench/bg.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Ship/bg
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Ship/bg

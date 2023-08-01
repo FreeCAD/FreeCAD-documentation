@@ -83,4 +83,4 @@ Políčka **Základní bod** mohou být použity pro posunutí roviny zrcadlení
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/cs
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/cs

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > OpenCascade/it
+![](images/Button_right.svg) [documentation index](../README.md) > OpenCascade/it

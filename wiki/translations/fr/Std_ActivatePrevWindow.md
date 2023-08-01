@@ -40,4 +40,4 @@ La commande **Std Précédente** active la fenêtre précédente dans la [zone d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ActivatePrevWindow/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std ActivatePrevWindow/fr

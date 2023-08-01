@@ -63,4 +63,4 @@ Jestli je vybrána uživetelsky definována osa, čísla definují směr obtáč
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/cs
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/cs

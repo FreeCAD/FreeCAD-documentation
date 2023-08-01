@@ -11,4 +11,4 @@ This category contains python code examples for FreeCAD
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Python Code/zh
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Python Code/zh

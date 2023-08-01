@@ -39,4 +39,4 @@ In real life we cannot handle points and so spherical faces are used to represen
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointsCoincident/en
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointsCoincident/en

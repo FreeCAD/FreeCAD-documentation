@@ -94,4 +94,4 @@ Per poter utilizzare questo comando, devono essere soddisfatte le seguenti condi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > WebTools BimServer/it
+![](images/Button_right.svg) [documentation index](../README.md) > WebTools BimServer/it

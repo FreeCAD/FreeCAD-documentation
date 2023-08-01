@@ -101,4 +101,4 @@ Vous pouvez également utiliser l\'affichage de sélection pour sélectionner de
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:Navigating in the 3D view/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:Navigating in the 3D view/fr

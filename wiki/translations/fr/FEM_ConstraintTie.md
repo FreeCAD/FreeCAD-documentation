@@ -33,4 +33,4 @@ Définit une contrainte de liaison qui relie les deux surfaces sélectionnées d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > FEM ConstraintTie/fr
+![](images/Button_right.svg) [documentation index](../README.md) > FEM ConstraintTie/fr

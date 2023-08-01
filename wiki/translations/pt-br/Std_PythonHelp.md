@@ -30,4 +30,4 @@ O servidor web é baseado no módulo Python [pydoc](https://docs.python.org/3.8/
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std PythonHelp/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > Std PythonHelp/pt-br

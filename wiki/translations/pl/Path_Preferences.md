@@ -50,4 +50,4 @@ Dostępne są cztery sekcje: Ogólne, Post-procesor, Konfiguracja i Przybory.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Path](Path_Workbench.md) > Path Preferences/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Path](Path_Workbench.md) > Path Preferences/pl

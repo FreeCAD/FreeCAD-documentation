@@ -193,4 +193,4 @@ Zwęża kieszeń w przeciwnym kierunku wycinania o podany kąt. Dodatni kąt ozn
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/pl

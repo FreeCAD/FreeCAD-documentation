@@ -281,4 +281,4 @@ In the Workbenches category of the Addon Manager some addons by user triplus can
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Interface Customization/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Interface Customization/ru

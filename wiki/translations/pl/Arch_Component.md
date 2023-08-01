@@ -51,4 +51,4 @@ The Arch component object is also a base shared by all other Arch objects (**<im
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/pl

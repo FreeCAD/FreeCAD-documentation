@@ -57,4 +57,4 @@ if macroPath and os.path.isdir(macroPath):
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro MacroMenu/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro MacroMenu/fr

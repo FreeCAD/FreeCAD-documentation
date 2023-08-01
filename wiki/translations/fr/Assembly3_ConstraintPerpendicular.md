@@ -27,4 +27,4 @@ La contrainte accepte les bords droits et les faces planes.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPerpendicular/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPerpendicular/fr

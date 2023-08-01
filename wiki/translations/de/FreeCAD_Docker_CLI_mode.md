@@ -81,4 +81,4 @@ FreeCAD Forumsbeitrag: <https://forum.freecadweb.org/viewtopic.php?f=8&t=45877>
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > FreeCAD Docker CLI mode/de
+![](images/Button_right.svg) [documentation index](../README.md) > FreeCAD Docker CLI mode/de

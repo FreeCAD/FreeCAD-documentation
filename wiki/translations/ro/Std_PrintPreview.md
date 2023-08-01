@@ -50,4 +50,4 @@ Această funcție vă permite să definiți aspectul paginii care va fi tipărit
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std PrintPreview/ro
+![](images/Button_right.svg) [documentation index](../README.md) > Std PrintPreview/ro

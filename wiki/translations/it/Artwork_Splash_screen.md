@@ -54,4 +54,4 @@ Queste sono le schermate iniziali che sono state utilizzate per ogni versione de
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Splash screen/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Splash screen/it

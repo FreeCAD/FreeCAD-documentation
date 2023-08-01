@@ -824,4 +824,4 @@ Jeśli nie używasz [Menedżera dodatków](Std_AddonMgr/pl.md), makro można zai
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python Code.md) > Macros recipes/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python Code.md) > Macros recipes/pl

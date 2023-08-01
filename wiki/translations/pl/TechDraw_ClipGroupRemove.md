@@ -44,4 +44,4 @@ Narzędzie **Usuń widok z grupy wycinków** usuwa widok z istniejącego klipu i
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupRemove/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupRemove/pl

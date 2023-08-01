@@ -15,4 +15,4 @@ This category gathers documentation article mostly aimed at programmers
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Developer Documentation/ja
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Developer Documentation/ja

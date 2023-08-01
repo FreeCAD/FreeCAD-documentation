@@ -26,4 +26,4 @@ Das **[<img src=images/Draft_PointLinkArray.svg style="width:16px"> [Entwurf Pun
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PointLinkArray/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PointLinkArray/de

@@ -48,4 +48,4 @@ FEM MeshGroup therefore enables FreeCAD to be used with external solvers (or vie
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > FEM MeshGroup/pl
+![](images/Button_right.svg) [documentation index](../README.md) > FEM MeshGroup/pl

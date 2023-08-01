@@ -35,4 +35,4 @@ Polecenie **Przeciąganie w widoku drzewa** inicjuje operację przeciągania dla
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeDrag/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std TreeDrag/pl

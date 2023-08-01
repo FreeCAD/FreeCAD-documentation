@@ -757,4 +757,4 @@ Zde je další příspěvek [FCInfo Macro](http://forum.freecadweb.org/viewtopic
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro FCInfo/cs
+![](images/Button_right.svg) [documentation index](../README.md) > Macro FCInfo/cs

@@ -43,4 +43,4 @@ Aby wyciąć obiekty innych typów, można użyć polecenia [Kopiuj](Std_Copy/pl
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Cut/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std Cut/pl

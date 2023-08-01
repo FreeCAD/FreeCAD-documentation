@@ -10,4 +10,4 @@ This category lists pages related to the [OpenSCAD_Workbench/zh-tw](OpenSCAD_Wor
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:OpenSCAD/zh-tw
+![](images/Button_right.svg) [documentation index](../README.md) > Category:OpenSCAD/zh-tw

@@ -37,4 +37,4 @@ Der **Std ViewHome**-Befehl ändert die Kamera in der aktiven [3D-Ansicht](3D_vi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewHome/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std ViewHome/de

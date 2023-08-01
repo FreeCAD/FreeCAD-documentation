@@ -24,4 +24,4 @@ Il gestore delle classificazioni consente di attribuire una classe standard a un
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Classification/it
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Classification/it

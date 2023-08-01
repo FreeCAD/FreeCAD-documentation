@@ -47,4 +47,4 @@ Die **Drucken**-Anweisung ist in erster Linie zum Drucken von [TechDraw Arbeitsb
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Print/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std Print/de

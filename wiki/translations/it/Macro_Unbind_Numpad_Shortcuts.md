@@ -53,4 +53,4 @@ for (cmd, shortcut) in preset:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Unbind Numpad Shortcuts/it
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Unbind Numpad Shortcuts/it

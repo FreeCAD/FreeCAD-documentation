@@ -40,4 +40,4 @@ Vous pouvez modifier les valeurs de cette trajectoire en définissant un <img al
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Edge2Trac/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Edge2Trac/fr

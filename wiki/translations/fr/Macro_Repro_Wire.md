@@ -148,4 +148,4 @@ Le forum [are there any tools to extrude only selected surface from a sketch?](h
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Repro Wire/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Repro Wire/fr

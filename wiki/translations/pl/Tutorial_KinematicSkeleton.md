@@ -228,4 +228,4 @@ Funkcja <img alt="" src=images/Assembly_ConstraintCoincidence.svg  style="width:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Tutorial KinematicSkeleton/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Tutorial KinematicSkeleton/pl

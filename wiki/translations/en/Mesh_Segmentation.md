@@ -57,4 +57,4 @@ The **Mesh Segmentation** command creates separate mesh segments for specified s
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Segmentation/en
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Segmentation/en

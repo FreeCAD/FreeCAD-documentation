@@ -50,4 +50,4 @@ Der Befehl \"Mesh KomponentenEntfernen\" entfernt Flächen aus Netzobjekten.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveComponents/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveComponents/de

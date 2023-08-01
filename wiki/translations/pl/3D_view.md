@@ -90,4 +90,4 @@ Więcej informacji można znaleźć w dokumentacji dla Power użytkowników:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > 3D view/pl
+![](images/Button_right.svg) [documentation index](../README.md) > 3D view/pl

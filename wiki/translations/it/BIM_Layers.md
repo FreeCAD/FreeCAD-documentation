@@ -22,4 +22,4 @@ Il gestore dei layer consente di gestire i tuoi layer, aggiungerli e rimuoverli 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Layers/it
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Layers/it

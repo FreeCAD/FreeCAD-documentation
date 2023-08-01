@@ -384,4 +384,4 @@ These are tutorials that are related to scripting or programming. They are geare
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials]], на русском языке в ](Category_Tutorials]], на русском языке в .md) > [Tutorials/ru]], полный и сортируемый список - в ](Category_Tutorials/ru]], полный и сортируемый список - в .md) > [Tutorials](Category_Tutorials.md) > Tutorials/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials]], на русском языке в ](Category_Tutorials]], на русском языке в .md) > [Tutorials/ru]], полный и сортируемый список - в ](Category_Tutorials/ru]], полный и сортируемый список - в .md) > [Tutorials](Category_Tutorials.md) > Tutorials/ru

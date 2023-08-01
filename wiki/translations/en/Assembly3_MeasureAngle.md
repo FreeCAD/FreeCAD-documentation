@@ -19,4 +19,4 @@ This tool measures the angle between two objects of an assembly using straight e
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MeasureAngle/en
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 MeasureAngle/en

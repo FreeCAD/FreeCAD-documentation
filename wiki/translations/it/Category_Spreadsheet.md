@@ -16,4 +16,4 @@ This category lists pages related to the [Spreadsheet Workbench/it](Spreadsheet_
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Spreadsheet/it
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Spreadsheet/it

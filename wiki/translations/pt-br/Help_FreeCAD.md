@@ -125,4 +125,4 @@ FreeCAD features a [Models library](https://github.com/FreeCAD/FreeCAD-library) 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Command Reference|:Categoria:Referência de Comando]] lista e documenta todos os ](Category_Command Reference|:Categoria:Referência de Comando]] lista e documenta todos os .md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > Help FreeCAD/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > [Command Reference|:Categoria:Referência de Comando]] lista e documenta todos os ](Category_Command Reference|:Categoria:Referência de Comando]] lista e documenta todos os .md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > Help FreeCAD/pt-br

@@ -36,4 +36,4 @@ Le gestionnaire de vues BIM affichera tous les niveaux (éléments de constructi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Views/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Views/fr

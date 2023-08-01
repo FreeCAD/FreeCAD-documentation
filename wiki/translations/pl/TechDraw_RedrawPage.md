@@ -38,4 +38,4 @@ Narzędzie **Przerysuj stronę** wymusza aktualizację strony pomimo innych usta
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RedrawPage/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RedrawPage/pl

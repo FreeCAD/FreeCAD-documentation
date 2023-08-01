@@ -32,4 +32,4 @@ Il comando **Collega i link selezionati** seleziona il **Linked Object**, l\'ogg
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkSelectLinked/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std LinkSelectLinked/it

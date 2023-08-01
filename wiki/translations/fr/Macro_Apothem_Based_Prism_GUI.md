@@ -131,4 +131,4 @@ Remerciement à [shoogen](http://forum.freecadweb.org/memberlist.php?mode=viewpr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Apothem Based Prism GUI/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Apothem Based Prism GUI/fr

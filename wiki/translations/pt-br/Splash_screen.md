@@ -4,4 +4,4 @@ A **tela de abertura** (splash screen) é uma imagem que aparece durante a inici
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Splash screen/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > Splash screen/pt-br

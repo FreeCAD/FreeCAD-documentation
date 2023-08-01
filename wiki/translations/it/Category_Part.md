@@ -39,4 +39,4 @@ This category lists pages related to the [Part Workbench/it](Part_Workbench/it.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Part/it
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Part/it

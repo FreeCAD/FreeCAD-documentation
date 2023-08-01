@@ -123,4 +123,4 @@ La dernière étape consiste à activer la section **Opération** où vous pouve
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Deburr/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Deburr/fr

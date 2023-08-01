@@ -61,4 +61,4 @@ Para utilizar este comando, se deben cumplir las siguientes condiciones:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > WebTools BimServer/es
+![](images/Button_right.svg) [documentation index](../README.md) > WebTools BimServer/es

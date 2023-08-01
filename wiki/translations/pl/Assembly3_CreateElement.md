@@ -26,4 +26,4 @@ It can be used to prepare **elements** before the use of constraints.  This coul
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 CreateElement/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 CreateElement/pl

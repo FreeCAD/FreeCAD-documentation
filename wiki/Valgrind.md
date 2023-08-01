@@ -25,4 +25,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > [Developer](Category_Developer.md) > Valgrind
+![](images/Button_right.svg) [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > [Developer](Category_Developer.md) > Valgrind

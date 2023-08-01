@@ -47,4 +47,4 @@ If you installed FreeCAD with homebrew simply use the `brew uninstall freecad` c
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Installing on Mac
+![](images/Button_right.svg) [documentation index](../README.md) > Installing on Mac

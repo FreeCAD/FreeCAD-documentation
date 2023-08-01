@@ -142,4 +142,4 @@ The Model tree will list as many Extrude objects as there were selected shapes. 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/sv
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/sv

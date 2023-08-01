@@ -242,4 +242,4 @@ FreeCAD 在控制台模式下运行 (没有 gui)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Screenshots/zh-cn
+![](images/Button_right.svg) [documentation index](../README.md) > Screenshots/zh-cn

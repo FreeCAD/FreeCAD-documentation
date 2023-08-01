@@ -11,4 +11,4 @@ In dieser Kategorie werden Vorlagen aufgelistet, die eingegebenen Text formatier
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Template:Text Format/de
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Template:Text Format/de

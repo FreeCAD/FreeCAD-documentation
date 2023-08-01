@@ -40,4 +40,4 @@ La commande **Std Suivante** active la fenêtre suivante dans la [zone de vue pr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ActivateNextWindow/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std ActivateNextWindow/fr

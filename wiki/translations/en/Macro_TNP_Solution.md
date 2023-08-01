@@ -216,4 +216,4 @@ There are many such problems when programming in FreeCAD, but they can all be so
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro TNP Solution/en
+![](images/Button_right.svg) [documentation index](../README.md) > Macro TNP Solution/en

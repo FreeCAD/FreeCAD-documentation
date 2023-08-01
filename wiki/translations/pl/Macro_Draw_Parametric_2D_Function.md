@@ -79,4 +79,4 @@ draw2Dfunction(xFunction="0.5*n", yFunction="-0.75*n", n=0, nd=-math.pi, step=50
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Draw Parametric 2D Function/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Draw Parametric 2D Function/pl

@@ -98,4 +98,4 @@ Bien que cette liste se concentre sur le contenu allemand, bon nombre de ces cha
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for product design/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for product design/fr

@@ -130,4 +130,4 @@ Obiekt Płaszczyzna obrazu wywodzi się z obiektu [App: Cechy geometrii](App_Geo
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/pl

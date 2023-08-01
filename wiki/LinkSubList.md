@@ -75,4 +75,4 @@ The subelement can then be extracted from the assigned property, and can be mani
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > LinkSubList
+![](images/Button_right.svg) [documentation index](../README.md) > LinkSubList

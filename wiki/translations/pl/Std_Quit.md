@@ -43,4 +43,4 @@ Polecenie **Zakończ** zamyka aplikację FreeCAD i opcjonalnie umożliwia zapisa
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Quit/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std Quit/pl

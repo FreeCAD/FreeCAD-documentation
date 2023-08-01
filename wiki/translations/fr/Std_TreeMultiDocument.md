@@ -39,4 +39,4 @@ Le mode Document de l\'arborescence est enregistré: **Outils → Éditer les pa
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeMultiDocument/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std TreeMultiDocument/fr

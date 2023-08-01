@@ -38,4 +38,4 @@ Il comando **Mappa una trama** mappa temporaneamente una trama su tutti gli ogge
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TextureMapping/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std TextureMapping/it

@@ -486,4 +486,4 @@ Mes macros sur [mario52a](https://gist.github.com/mario52a) Gists
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro FCInfoToMouse/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro FCInfoToMouse/fr

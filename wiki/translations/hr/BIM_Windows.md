@@ -19,4 +19,4 @@ The BIM windows manager dialog allows you to browse and modify all the [windows 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Windows/hr
+![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Windows/hr

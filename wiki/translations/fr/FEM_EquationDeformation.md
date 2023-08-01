@@ -89,4 +89,4 @@ Les résultats disponibles dépendent des [paramètres du solveur](#Param.C3.A8t
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationDeformation/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationDeformation/fr

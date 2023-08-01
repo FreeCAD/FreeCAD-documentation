@@ -42,4 +42,4 @@ L\'outil [Arch Couper selon une ligne](Arch_CutLine/fr.md) vous permet de couper
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutLine/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutLine/fr

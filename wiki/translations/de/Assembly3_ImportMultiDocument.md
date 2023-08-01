@@ -23,4 +23,4 @@ STEP-Baugruppen werden als separate Dokumente eingefügt.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ImportMultiDocument/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ImportMultiDocument/de

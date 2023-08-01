@@ -60,4 +60,4 @@ Mit einem Doppelklick auf die Beschriftung der Bezugsebene in der Baumstruktur o
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/de
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/de

@@ -59,4 +59,4 @@ Această comandă aplică o forță de valoare dată \[N\] la geometria țintei 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintForce/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintForce/ro

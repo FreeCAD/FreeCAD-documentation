@@ -39,4 +39,4 @@ L\'outil **TechDraw Longueur d\'arc** crée une cote de longueur d\'arc.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateLengthArc/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateLengthArc/fr

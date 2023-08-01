@@ -50,4 +50,4 @@ To save a document use the `save` method of the document object. A new document 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Save
+![](images/Button_right.svg) [documentation index](../README.md) > Std Save

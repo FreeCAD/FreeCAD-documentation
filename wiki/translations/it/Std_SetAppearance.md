@@ -79,4 +79,4 @@ Il comando **Impostare l\'aspetto degli oggetti** mostra le proprietà di visual
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SetAppearance/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std SetAppearance/it

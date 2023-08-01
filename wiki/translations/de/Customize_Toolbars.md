@@ -128,4 +128,4 @@ Siehe auch [Anpassung der Oberfläche](Interface_Customization/de.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Customize Toolbars/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Customize Toolbars/de

@@ -56,4 +56,4 @@ The **Std ToggleNavigation** command is intended for certain inspection operatio
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ToggleNavigation/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleNavigation/ru

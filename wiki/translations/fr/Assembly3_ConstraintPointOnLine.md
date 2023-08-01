@@ -27,4 +27,4 @@ Par rapport au premier objet, l\'objet suivant peut toujours se déplacer le lon
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointOnLine/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointOnLine/fr

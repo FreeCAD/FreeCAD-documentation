@@ -61,4 +61,4 @@ Quindi attivare la vista utilizzando il menu **Visualizza → Pannelli → Strut
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Combo view/it
+![](images/Button_right.svg) [documentation index](../README.md) > Combo view/it

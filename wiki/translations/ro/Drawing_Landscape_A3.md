@@ -27,4 +27,4 @@ Dacă pagina nu apare, faceți clic pe<img alt="" src=images/view-refresh.png  s
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Landscape A3/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Landscape A3/ro

@@ -79,4 +79,4 @@ Questo corrisponde approssimativamente a [IfcMaterial](https://standards.buildin
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SetMaterial/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SetMaterial/it

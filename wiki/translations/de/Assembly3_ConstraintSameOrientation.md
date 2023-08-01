@@ -27,4 +27,4 @@ Diese Beziehung akzeptiert ebene Flächen.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintSameOrientation/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintSameOrientation/de

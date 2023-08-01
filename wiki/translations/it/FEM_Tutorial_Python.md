@@ -719,4 +719,4 @@ Divertitevi! Inoltre, se avete commenti o miglioramenti, non esitate a partecipa
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Python Code](Category_Python Code.md) > [FEM](Category_FEM.md) > FEM Tutorial Python/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Python Code](Category_Python Code.md) > [FEM](Category_FEM.md) > FEM Tutorial Python/it

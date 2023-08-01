@@ -23,4 +23,4 @@ Le finestre nell\'area di visualizzazione principale possono essere organizzate 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Main view area/it
+![](images/Button_right.svg) [documentation index](../README.md) > Main view area/it

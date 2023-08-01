@@ -24,4 +24,4 @@ Sur la base de l\'ICS d\'un élément plan, les origines des ICS des deux autres
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintSymmetricVertical/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintSymmetricVertical/fr

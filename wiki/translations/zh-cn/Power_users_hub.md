@@ -253,4 +253,4 @@ Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/zh-cn
+![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/zh-cn

@@ -102,4 +102,4 @@ Es ist möglich, eigene Eigenschaften zu Objekten hinzuzufügen. Diese werden [D
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Schedule/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Schedule/de

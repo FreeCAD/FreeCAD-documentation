@@ -130,4 +130,4 @@ Obiekt Pochylenie ścian środowiska Projekt Części wywodzi się z obiektu [Cz
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft/pl

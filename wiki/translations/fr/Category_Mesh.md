@@ -25,4 +25,4 @@ Cette catégorie répertorie les pages liées à l\'[Atelier maille](Mesh_Workbe
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Mesh/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Mesh/fr

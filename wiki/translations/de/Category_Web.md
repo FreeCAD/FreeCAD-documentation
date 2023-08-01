@@ -13,4 +13,4 @@ This category lists pages that relate to the [Web Workbench/de](Web_Workbench/de
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Web/de
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Web/de

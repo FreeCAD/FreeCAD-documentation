@@ -43,4 +43,4 @@ Die Wertefelder sind für inkrementellen Parameter, jedoch nicht für absolute W
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TransformManip/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std TransformManip/de

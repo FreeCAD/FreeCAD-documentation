@@ -40,4 +40,4 @@ Crée une contrainte FEM pour la de magnétisation. A utiliser avec les équatio
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintMagnetization/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintMagnetization/fr

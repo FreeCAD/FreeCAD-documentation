@@ -117,4 +117,4 @@ Siehe [TechDraw Seitenvorlage](TechDraw_PageTemplate/de#Skripten.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageDefault/de
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageDefault/de

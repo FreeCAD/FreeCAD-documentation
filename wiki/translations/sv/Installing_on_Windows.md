@@ -111,4 +111,4 @@ Note that (silent) uninstallation will fail if there is a running instance of Fr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Installing on Windows/sv
+![](images/Button_right.svg) [documentation index](../README.md) > Installing on Windows/sv

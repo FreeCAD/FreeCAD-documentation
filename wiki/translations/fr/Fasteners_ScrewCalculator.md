@@ -43,4 +43,4 @@ La commande <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:2
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners ScrewCalculator/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners ScrewCalculator/fr

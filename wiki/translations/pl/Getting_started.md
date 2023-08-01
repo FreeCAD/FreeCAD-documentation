@@ -162,4 +162,4 @@ I na końcu, jedną z najpotężniejszych cech FreeCAD jest środowisko [skrypto
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Getting started/pl

@@ -77,4 +77,4 @@ El menú estándar se compone de 7 submenús. Cada submenú tiene una página de
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Base/es
+![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Base/es

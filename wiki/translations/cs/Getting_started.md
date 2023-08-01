@@ -305,4 +305,4 @@ A nakonec jedna z nejmocnějších vlastností FreeCADu je prostředí pro [skri
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/cs
+![](images/Button_right.svg) [documentation index](../README.md) > Getting started/cs

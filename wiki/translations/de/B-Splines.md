@@ -319,4 +319,4 @@ Wir haben also auch räumliche Bereiche, in denen die Intensität des reflektier
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > B-Splines/de
+![](images/Button_right.svg) [documentation index](../README.md) > B-Splines/de

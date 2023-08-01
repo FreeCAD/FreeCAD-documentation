@@ -32,4 +32,4 @@ Actuellement, cette commande pointe vers [<https://www.freecad.org/>](https://ww
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADWebsite/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADWebsite/fr

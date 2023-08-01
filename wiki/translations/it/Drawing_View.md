@@ -63,4 +63,4 @@ Per commutare la vista 3D tra ortogonale e prospettica selezionare [Vista in pro
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing View/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing View/it

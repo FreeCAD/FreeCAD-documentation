@@ -44,4 +44,4 @@ Polecenie **Dostosuj** otwiera okno dialogowe Dostosuj dając dostęp do kilku o
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgCustomize/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std DlgCustomize/pl

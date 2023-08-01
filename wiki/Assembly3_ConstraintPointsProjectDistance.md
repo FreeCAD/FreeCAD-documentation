@@ -32,4 +32,4 @@ Based on the line\'s direction (the z axis of its implicit coordinate system (IC
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointsProjectDistance
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointsProjectDistance

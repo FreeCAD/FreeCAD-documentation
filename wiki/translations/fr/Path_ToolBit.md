@@ -61,4 +61,4 @@ Dans l\'interface graphique de FreeCAD, le gestionnaire de bibliothèque Path to
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBit/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBit/fr

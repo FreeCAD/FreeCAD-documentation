@@ -119,4 +119,4 @@ Alli esta otra tabla de contenidos para el [Manual de FreeCAD](Manual_Introducti
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/es
+![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/es

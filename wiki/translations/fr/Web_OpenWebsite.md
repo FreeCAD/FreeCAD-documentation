@@ -28,4 +28,4 @@ La commande <img alt="" src=images/Web_OpenWebsite.svg  style="width:24px;"> **W
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web OpenWebsite/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web OpenWebsite/fr

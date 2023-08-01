@@ -47,4 +47,4 @@ Medium
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Mapping of main ElmerSolver setting for mechanical simulations
+![](images/Button_right.svg) [documentation index](../README.md) > Mapping of main ElmerSolver setting for mechanical simulations

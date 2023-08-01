@@ -339,4 +339,4 @@ La discussion sur le forum [Snip macro](https://forum.freecadweb.org/viewtopic.p
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Snip/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Snip/fr

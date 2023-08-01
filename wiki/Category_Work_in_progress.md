@@ -27,4 +27,4 @@ This category is for pages that are under construction and should not be touched
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Work in progress
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Work in progress

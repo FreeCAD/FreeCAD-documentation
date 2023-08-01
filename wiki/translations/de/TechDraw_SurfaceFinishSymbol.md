@@ -47,4 +47,4 @@ Das Werkzeug **TechDraw Oberflächensymbol** fügt dem Zeichnungsblatt (Page-Obj
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SurfaceFinishSymbol/de
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SurfaceFinishSymbol/de

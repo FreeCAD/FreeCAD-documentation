@@ -23,4 +23,4 @@ Utilisez les outils suivants pour travailler avec les :
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Categories/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Categories/fr

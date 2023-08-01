@@ -40,4 +40,4 @@ The **Std FreeCADDonation** command opens the FreeCAD Donate wiki page in the sy
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADDonation/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADDonation/ru

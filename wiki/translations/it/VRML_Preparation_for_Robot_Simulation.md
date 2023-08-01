@@ -464,4 +464,4 @@ Ecco un patch per ottenere il file VRML adatto per la simulazione del robot:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Category_Robot.md) > VRML Preparation for Robot Simulation/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Category_Robot.md) > VRML Preparation for Robot Simulation/it

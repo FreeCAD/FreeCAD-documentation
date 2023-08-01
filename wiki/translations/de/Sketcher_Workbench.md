@@ -427,4 +427,4 @@ Ein paar Ideen, was mit den Sketcher-Werkzeugen erstellt werden kann, findet man
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/de

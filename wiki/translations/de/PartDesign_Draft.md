@@ -117,4 +117,4 @@ Ein PartDesign-Draft-Objekt wird von einem [Part-Formelement](Part_Feature/de.md
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft/de
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft/de

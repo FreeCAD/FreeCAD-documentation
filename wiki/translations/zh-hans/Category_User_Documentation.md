@@ -11,4 +11,4 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:User Documentation/zh-hans
+![](images/Button_right.svg) [documentation index](../README.md) > Category:User Documentation/zh-hans

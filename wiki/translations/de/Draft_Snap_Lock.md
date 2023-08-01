@@ -31,4 +31,4 @@ Für allgemeine Informationen zum Einrasten (Fangen) siehe [Draft Fangen](Draft_
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/de

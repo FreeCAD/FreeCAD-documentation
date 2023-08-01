@@ -50,4 +50,4 @@ Double-cliquez sur l\'étiquette DatumLine dans l\'arborescence du modèle ou cl
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Line/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Line/fr

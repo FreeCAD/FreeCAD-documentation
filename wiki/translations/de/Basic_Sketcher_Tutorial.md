@@ -339,4 +339,4 @@ Die Beschränkung einer Skizze kann auf viele verschiedene Arten erfolgen. Im Al
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/de

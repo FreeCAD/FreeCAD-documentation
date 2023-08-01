@@ -145,4 +145,4 @@ La forme extrudée est définie par les paramètres suivants qui peuvent être �
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/fr

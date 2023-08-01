@@ -46,4 +46,4 @@ Filtre un champ à l\'aide d\'une sphère ou d\'un plan coupant le modèle.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterClipRegion/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterClipRegion/fr

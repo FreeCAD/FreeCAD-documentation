@@ -152,4 +152,4 @@ Przeczytaj więcej na stronie [problem nazewnictwa topologicznego](Topological_n
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Fillet/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Fillet/pl

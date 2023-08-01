@@ -36,4 +36,4 @@ The **Std DlgCustomize** command opens the Customize dialog box giving access to
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgCustomize
+![](images/Button_right.svg) [documentation index](../README.md) > Std DlgCustomize

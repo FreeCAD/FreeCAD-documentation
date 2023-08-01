@@ -72,4 +72,4 @@ Auseinanderschneiden wurde in FreeCAD v0.18.15506 eingeführt. FreeCAD muss mit 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/de

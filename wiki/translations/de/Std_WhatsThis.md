@@ -39,4 +39,4 @@ In FreeCAD {{VersionPlus/de|0.20}} erfordert dieser Befehl das [Help Addon](http
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std WhatsThis/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std WhatsThis/de

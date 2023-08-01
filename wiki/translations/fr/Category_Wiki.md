@@ -11,4 +11,4 @@ Cette catégorie contient tous les documents relatifs au Wiki
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Wiki/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Wiki/fr

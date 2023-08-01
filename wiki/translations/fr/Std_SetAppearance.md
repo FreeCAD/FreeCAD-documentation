@@ -75,4 +75,4 @@ La commande **Std Apparence** affiche les propriétés d\'affichage du [Panneau 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SetAppearance/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std SetAppearance/fr

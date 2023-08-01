@@ -92,4 +92,4 @@ Beachte: die Deinstallation im Hintergrund verursacht einen Fehler, wenn eine In
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Installing on Windows/de
+![](images/Button_right.svg) [documentation index](../README.md) > Installing on Windows/de

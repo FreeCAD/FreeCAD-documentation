@@ -95,4 +95,4 @@ Dzięki temu ćwiczeniu poznaliśmy podstawowy przepływ pracy dla środowiska p
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/pl

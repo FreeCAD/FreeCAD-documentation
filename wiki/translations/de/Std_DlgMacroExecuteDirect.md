@@ -39,4 +39,4 @@ Der Befehl **Std MakroDirektAusführen** Führt das Makroaus, das sich im aktive
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgMacroExecuteDirect/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std DlgMacroExecuteDirect/de

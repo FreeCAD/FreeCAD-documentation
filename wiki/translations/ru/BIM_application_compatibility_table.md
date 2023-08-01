@@ -19,4 +19,4 @@ This page gives a general overview of how the different tools and concepts found
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [BIM](Category_BIM.md) > BIM application compatibility table/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [BIM](Category_BIM.md) > BIM application compatibility table/ru

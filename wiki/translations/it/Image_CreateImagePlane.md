@@ -108,4 +108,4 @@ Se inizialmente non viene assegnato alcuno scostamento all\'immagine, la sua pos
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/it

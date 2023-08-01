@@ -202,4 +202,4 @@ Detta är den officiella FreeCAD online hjälpen. Notera att hela online hjälp 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/sv
+![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/sv

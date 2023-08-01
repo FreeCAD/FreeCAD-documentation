@@ -11,4 +11,4 @@ This category collects pages from the [external workbenches](external_workbenche
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:External Workbenches/pt
+![](images/Button_right.svg) [documentation index](../README.md) > Category:External Workbenches/pt

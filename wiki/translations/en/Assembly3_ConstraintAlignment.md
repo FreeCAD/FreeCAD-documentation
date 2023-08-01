@@ -24,4 +24,4 @@ The offset of their z-axes and the angle between their x-axes (and y-axes as wel
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintAlignment/en
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintAlignment/en

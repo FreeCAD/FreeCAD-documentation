@@ -40,4 +40,4 @@ In der Realität kann man nicht mit Punkten arbeiten, daher nutzt man Kugelfläc
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointsCoincident/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointsCoincident/de

@@ -83,4 +83,4 @@ Affetta in parti è stato introdotto in FreeCAD v0.18.15506. FreeCAD deve essere
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/it

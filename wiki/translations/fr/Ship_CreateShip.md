@@ -59,4 +59,4 @@ Lorsque vous appuyez sur le bouton **Accept**, une nouvelle instance de bateau n
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship CreateShip/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship CreateShip/fr

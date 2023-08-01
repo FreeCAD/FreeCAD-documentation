@@ -73,4 +73,4 @@ fhsolver = EM.createFHInputFile()
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [EM](Category_EM.md) > EM FHInputFile/it
+![](images/Button_right.svg) [documentation index](../README.md) > [EM](Category_EM.md) > EM FHInputFile/it

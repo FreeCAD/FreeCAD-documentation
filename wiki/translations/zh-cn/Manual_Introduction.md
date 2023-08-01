@@ -16,4 +16,4 @@ FreeCAD 也是一个社区项目，由一群对 FreeCAD 充满热情的开发者
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:Introduction/zh-cn
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:Introduction/zh-cn

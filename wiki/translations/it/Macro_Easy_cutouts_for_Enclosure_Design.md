@@ -260,4 +260,4 @@ Nel forum : [Easy cutouts for Enclosure Design Macro](http://forum.freecadweb.or
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Easy cutouts for Enclosure Design/it
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Easy cutouts for Enclosure Design/it

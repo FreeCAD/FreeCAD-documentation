@@ -48,4 +48,4 @@ Naciśnij **CTRL* + {{KEY|ENTER**", aby potwierdzić i przejść do następnej w
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkImport/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std LinkImport/pl

@@ -51,4 +51,4 @@ Es gibt viele Befehle, die die Auswahl von vorhandenen Formen oder Objekten aus 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Task panel/de
+![](images/Button_right.svg) [documentation index](../README.md) > Task panel/de

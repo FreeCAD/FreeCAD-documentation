@@ -74,4 +74,4 @@ Questo strumento consente di simulare il percorso della lavorazione. Spazza i mo
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Simulator/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Simulator/it

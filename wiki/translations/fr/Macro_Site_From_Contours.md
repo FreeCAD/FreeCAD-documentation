@@ -103,4 +103,4 @@ La discussion sur le forum [Create Toposurface from DXF](https://forum.freecadwe
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Site From Contours/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Site From Contours/fr

@@ -540,4 +540,4 @@ ver 0.4 le 04/06/2016 : test if value = 0 then not create boundbox (ex: object D
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro BoundingBox Tracing/de
+![](images/Button_right.svg) [documentation index](../README.md) > Macro BoundingBox Tracing/de

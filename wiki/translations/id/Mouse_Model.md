@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Mouse Model/id
+![](images/Button_right.svg) [documentation index](../README.md) > Mouse Model/id

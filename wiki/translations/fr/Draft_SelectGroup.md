@@ -31,4 +31,4 @@ Cette commande a été révisée dans la version 0.20 de FreeCAD et cette page d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectGroup/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectGroup/fr

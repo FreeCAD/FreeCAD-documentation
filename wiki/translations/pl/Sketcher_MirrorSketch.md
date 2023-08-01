@@ -40,4 +40,4 @@ Odbicie lustrzane szkicu wzdłuż osi x, osi y lub punktu początku układu wsp�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch/pl

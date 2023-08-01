@@ -23,4 +23,4 @@ This link leaves no degree of freedom (DOF) unconstrained.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintAttachmentOffset
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintAttachmentOffset

@@ -104,4 +104,4 @@ The <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> **PartD
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/ru

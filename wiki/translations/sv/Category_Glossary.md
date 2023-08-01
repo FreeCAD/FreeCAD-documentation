@@ -10,4 +10,4 @@ This category tracks pages that explain definitions of words related to FreeCAD
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Glossary/sv
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Glossary/sv

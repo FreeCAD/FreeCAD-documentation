@@ -46,4 +46,4 @@ The tool <img alt="" src=images/Path_DressupRampEntry.svg  style="width:24px;"> 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupRampEntry/en
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupRampEntry/en

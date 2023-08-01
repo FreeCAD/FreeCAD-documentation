@@ -37,4 +37,4 @@ The **Std TreeDrag** command initiates a drag operation for selected objects in 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeDrag/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Std TreeDrag/ru

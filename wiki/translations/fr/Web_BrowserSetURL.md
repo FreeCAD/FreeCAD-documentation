@@ -32,4 +32,4 @@ Utilisez la commande <img alt="" src=images/Web_BrowserSetURL.svg  style="width:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserSetURL/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserSetURL/fr

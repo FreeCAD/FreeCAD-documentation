@@ -38,4 +38,4 @@ Polecenie **Powiel zaznaczone** powoduje powielanie wybranych obiektów w aktywn
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DuplicateSelection/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std DuplicateSelection/pl

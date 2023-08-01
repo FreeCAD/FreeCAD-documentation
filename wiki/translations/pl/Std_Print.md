@@ -49,4 +49,4 @@ Polecenie **Drukuj** jest przeznaczone głównie do drukowania stron środowiska
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Print/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std Print/pl

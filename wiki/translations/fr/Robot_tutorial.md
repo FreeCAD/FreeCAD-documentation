@@ -56,4 +56,4 @@ Ce tutoriel vise l\'utilisation des [robots industriels](http://fr.wikipedia.org
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/fr

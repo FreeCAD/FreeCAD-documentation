@@ -46,4 +46,4 @@ Il comando **Duplica la selezione** duplica gli oggetti all\'interno del documen
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DuplicateSelection/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std DuplicateSelection/it

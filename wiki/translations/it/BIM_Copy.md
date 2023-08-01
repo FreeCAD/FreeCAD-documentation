@@ -17,4 +17,4 @@ Lo strumento Copia di BIM è una scorciatoia per lo strumento standard [Sposta d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Copy/it
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Copy/it

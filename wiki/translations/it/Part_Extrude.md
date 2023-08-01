@@ -217,4 +217,4 @@ Il Pad di PartDesign è anche una funzione di estrusione, ma ci sono delle diffe
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/it

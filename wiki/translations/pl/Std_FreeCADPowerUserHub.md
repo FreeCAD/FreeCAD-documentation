@@ -35,4 +35,4 @@ Obecnie polecenie wskazuje na [<https://wiki.freecad.org/Power_users_hub>](https
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADPowerUserHub/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADPowerUserHub/pl

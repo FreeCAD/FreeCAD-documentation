@@ -40,4 +40,4 @@ Crée une contrainte FEM pour la densité de courant. À utiliser avec les équa
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintCurrentDensity/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintCurrentDensity/fr

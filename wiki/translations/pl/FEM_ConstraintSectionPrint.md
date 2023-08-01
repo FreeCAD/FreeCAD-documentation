@@ -42,4 +42,4 @@ Drukuje wstępnie zdefiniowane zmienne wyjściowe z modelu *(siły i momenty)* d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > FEM ConstraintSectionPrint/pl
+![](images/Button_right.svg) [documentation index](../README.md) > FEM ConstraintSectionPrint/pl

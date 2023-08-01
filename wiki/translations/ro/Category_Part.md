@@ -30,4 +30,4 @@ This category lists pages related to the [Part Workbench/ro](Part_Workbench/ro.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Part/ro
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Part/ro

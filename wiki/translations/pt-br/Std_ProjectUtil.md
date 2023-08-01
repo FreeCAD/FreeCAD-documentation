@@ -65,4 +65,4 @@ It is important to realize that the files inside a FreeCAD project file are inte
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ProjectUtil/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > Std ProjectUtil/pt-br

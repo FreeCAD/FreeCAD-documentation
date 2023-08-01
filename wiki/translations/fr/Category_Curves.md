@@ -18,4 +18,4 @@ Pages pertinentes pour l\'[atelier Curves](Curves_Workbench/fr.md) qui fait part
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Curves/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Curves/fr

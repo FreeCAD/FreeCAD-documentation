@@ -90,4 +90,4 @@ Deux exemples d\'utilisation peuvent être consultés dans [cette discussion du 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Solid Sweep/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Solid Sweep/fr

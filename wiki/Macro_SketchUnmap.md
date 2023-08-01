@@ -203,4 +203,4 @@ For any feedback (bug, feature request, comments, \...), please use this forum t
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro SketchUnmap
+![](images/Button_right.svg) [documentation index](../README.md) > Macro SketchUnmap

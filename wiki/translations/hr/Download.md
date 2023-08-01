@@ -72,4 +72,4 @@ FreeCAD zajednica pruža mnogo dodatnih modula i makronaredbi. Od 0.17 mogu se l
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Download/hr
+![](images/Button_right.svg) [documentation index](../README.md) > Download/hr

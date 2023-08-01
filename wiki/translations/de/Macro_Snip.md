@@ -349,4 +349,4 @@ Die Forumsdiskussion [Schnitt Makro](https://forum.freecadweb.org/viewtopic.php?
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Snip/de
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Snip/de

@@ -50,4 +50,4 @@ Medium
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Advanced FreeCAD test system
+![](images/Button_right.svg) [documentation index](../README.md) > Advanced FreeCAD test system

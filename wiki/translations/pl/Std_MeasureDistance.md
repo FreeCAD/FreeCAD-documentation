@@ -81,4 +81,4 @@ Polecenie **Wymiarowanie odległości** tworzy obiekt odległość, który mierz
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std MeasureDistance/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std MeasureDistance/pl

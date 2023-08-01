@@ -21,4 +21,4 @@ The axes and planes are objects of type `App::Line` and `App::Plane` respectivel
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > App OriginGroupExtension
+![](images/Button_right.svg) [documentation index](../README.md) > App OriginGroupExtension

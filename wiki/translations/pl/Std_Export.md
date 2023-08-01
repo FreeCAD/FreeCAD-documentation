@@ -55,4 +55,4 @@ Polecenie **Exportuj** eksportuje wybrane obiekty do innego formatu pliku. Obsł
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export/pl

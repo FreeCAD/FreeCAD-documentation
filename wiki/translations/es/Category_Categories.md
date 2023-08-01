@@ -20,4 +20,4 @@ Esta es la **categoría de nivel superior** que contiene las principales categor
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Categories/es
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Categories/es

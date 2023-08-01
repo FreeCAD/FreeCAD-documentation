@@ -76,4 +76,4 @@ Der Befehl **Mesh Auswertung** wertet ein Netzobjekte aus und repariert es.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Evaluation/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Evaluation/de

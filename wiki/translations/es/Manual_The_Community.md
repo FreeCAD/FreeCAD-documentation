@@ -68,4 +68,4 @@ Con suerte, hemos conseguido darte una buena muestra de FreeCAD en este manual, 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The Community/es
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:The Community/es

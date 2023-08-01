@@ -57,4 +57,4 @@ Aby zamknąć dokument, należy użyć metody `closeDocument` aplikacji FreeCAD.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std CloseActiveWindow/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std CloseActiveWindow/pl

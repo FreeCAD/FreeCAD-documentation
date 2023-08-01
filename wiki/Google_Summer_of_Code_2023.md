@@ -91,4 +91,4 @@ Note also that any issue open on the \[FreeCAD issues tracker <https://github.co
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Google Summer of Code 2023
+![](images/Button_right.svg) [documentation index](../README.md) > Google Summer of Code 2023

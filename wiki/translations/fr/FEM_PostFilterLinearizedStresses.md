@@ -38,4 +38,4 @@ Pour en savoir plus sur les graphiques de linéarisation des contraintes, vous p
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterLinearizedStresses/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterLinearizedStresses/fr

@@ -42,4 +42,4 @@ Der Befehl **Mesh Normalen ausrichten** richtet die Normalen eines Netzobjektes 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/de

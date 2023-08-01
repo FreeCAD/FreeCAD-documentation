@@ -209,4 +209,4 @@ Macro similaire [Macro Mouse over cb](Macro_Mouse_over_cb/fr.md)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro FC element selector/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro FC element selector/fr

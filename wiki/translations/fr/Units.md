@@ -68,4 +68,4 @@ Une liste complète de toutes les unités prises en charge peut être [trouvée 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Units/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Units/fr

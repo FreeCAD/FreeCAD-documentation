@@ -60,4 +60,4 @@ Si aucun décalage n\'est initialement attribué à l\'image, sa position peut t
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/fr

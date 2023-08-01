@@ -50,4 +50,4 @@ Wszystkie narzędzia Środowiska pracy **Punkty** są dostępne w menu **Punkty*
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/pl

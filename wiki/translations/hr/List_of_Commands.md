@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > List of Commands/hr
+![](images/Button_right.svg) [documentation index](../README.md) > List of Commands/hr

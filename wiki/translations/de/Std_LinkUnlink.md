@@ -54,4 +54,4 @@ Jetzt muß die Original-<img alt="" src=images/Tree_Part_Sphere_Parametric.svg  
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkUnlink/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std LinkUnlink/de

@@ -26,4 +26,4 @@ L\'objet Origin sera placé dans le conteneur Parts. Il contient 6 sous-objets r
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AddOrigin/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 AddOrigin/fr

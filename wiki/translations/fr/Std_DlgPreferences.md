@@ -37,4 +37,4 @@ La commande **Std Préférences** ouvre le [Réglage des préférences](Preferen
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgPreferences/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std DlgPreferences/fr

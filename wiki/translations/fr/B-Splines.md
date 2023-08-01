@@ -327,4 +327,4 @@ Nous avons donc également des zones dans lesquelles l\'intensité de la lumièr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > B-Splines/fr
+![](images/Button_right.svg) [documentation index](../README.md) > B-Splines/fr

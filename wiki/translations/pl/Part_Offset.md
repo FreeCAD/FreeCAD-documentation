@@ -77,4 +77,4 @@ Odsunięcie **wypełnione** z 2 cylindrami tworzącymi cięcia funkcją logiczn�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/pl

@@ -41,4 +41,4 @@ La <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Cont
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/fr

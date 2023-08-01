@@ -32,4 +32,4 @@ The handles move the part parallel to one of the basic planes of the selected ob
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MovePart/en
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 MovePart/en

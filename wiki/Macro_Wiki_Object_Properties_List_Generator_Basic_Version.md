@@ -268,4 +268,4 @@ The discussion on the forum: <https://forum.freecadweb.org/viewtopic.php?f=21&t=
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Wiki Object Properties List Generator Basic Version
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Wiki Object Properties List Generator Basic Version

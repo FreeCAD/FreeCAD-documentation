@@ -35,4 +35,4 @@ La commande <img alt="" src=images/Part_XOR.svg  style="width:24px;"> **Part XOR
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part XOR/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part XOR/fr

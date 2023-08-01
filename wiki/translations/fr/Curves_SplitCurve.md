@@ -38,4 +38,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves SplitCurve/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves SplitCurve/fr

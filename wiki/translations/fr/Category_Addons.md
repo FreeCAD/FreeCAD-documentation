@@ -45,4 +45,4 @@ Cette page liste les ateliers externes complémentaires (addons) qui disposent d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Categories](Category_Categories.md) > Category:Addons/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Categories](Category_Categories.md) > Category:Addons/fr

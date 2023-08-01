@@ -147,4 +147,4 @@ Kształt Wyciągnięcia jest definiowany przez następujące parametry, które m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/pl

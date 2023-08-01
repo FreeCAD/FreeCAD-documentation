@@ -48,4 +48,4 @@ The copy has simple view properties like any other [Part Feature](Part_Feature.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SimpleCopy/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SimpleCopy/ro

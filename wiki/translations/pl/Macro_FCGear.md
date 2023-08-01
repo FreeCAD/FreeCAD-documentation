@@ -49,4 +49,4 @@ Note:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro FCGear/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Macro FCGear/pl

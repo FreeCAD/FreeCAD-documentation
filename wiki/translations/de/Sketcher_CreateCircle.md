@@ -36,4 +36,4 @@ Beim Starten des Werkzeugs verwandelt sich der Mauszeiger in ein weißes Kreuz m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/de

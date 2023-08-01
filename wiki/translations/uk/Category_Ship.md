@@ -10,4 +10,4 @@ This category lists pages related to the [Ship Workbench/uk](Ship_Workbench/uk.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Ship/uk
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Ship/uk

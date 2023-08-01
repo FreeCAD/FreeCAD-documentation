@@ -26,4 +26,4 @@ Remarquez que, bien que tout autre objet BIM puisse être ajouté à un projet, 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Project/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Project/fr

@@ -50,4 +50,4 @@ Erstellt eine FEM-Randbedingung für die Stromdichte, zur Verwendung mit der [ma
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintCurrentDensity/de
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintCurrentDensity/de

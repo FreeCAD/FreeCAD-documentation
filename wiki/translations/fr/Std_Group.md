@@ -110,4 +110,4 @@ Par exemple, [Analyse FEM](FEM_Analysis/fr.md) est un objet `App::DocumentObject
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Group/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std Group/fr

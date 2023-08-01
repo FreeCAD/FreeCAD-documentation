@@ -4,4 +4,4 @@ Der **Begrüßungsbildschirm** ist ein Bild, das während des Starts von FreeCAD
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Splash screen/de
+![](images/Button_right.svg) [documentation index](../README.md) > Splash screen/de

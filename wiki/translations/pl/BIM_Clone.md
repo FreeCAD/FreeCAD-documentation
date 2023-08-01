@@ -17,4 +17,4 @@ Narzędzie Clone Środowiska pracy BIM, jest skrótem do standardowego narzędzi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Clone/pl
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Clone/pl

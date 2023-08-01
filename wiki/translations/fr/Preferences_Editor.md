@@ -1013,4 +1013,4 @@ Pour un exemple de script, voir [Std Éditeur des paramètres](Std_DlgParameter/
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Preferences Editor/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Preferences Editor/fr

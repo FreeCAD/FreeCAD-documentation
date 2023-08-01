@@ -10,4 +10,4 @@ This category lists pages related to the [Ship Workbench/cs](Ship_Workbench/cs.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Ship/cs
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Ship/cs

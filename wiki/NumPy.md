@@ -57,4 +57,4 @@ Output is:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > NumPy
+![](images/Button_right.svg) [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > NumPy

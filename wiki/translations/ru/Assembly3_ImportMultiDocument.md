@@ -23,4 +23,4 @@ STEP assemblies are imported into separate documents.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ImportMultiDocument/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ImportMultiDocument/ru

@@ -62,4 +62,4 @@ Es gilt kein spezielles Skripten. Siehe die Seite [Sketcher Skripten](Sketcher_s
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadiam/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadiam/de

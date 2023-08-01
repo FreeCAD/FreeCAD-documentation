@@ -24,4 +24,4 @@ Use the <img alt="" src=images/Web_BrowserBack.svg  style="width:24px;"> **Web B
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserBack
+![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserBack

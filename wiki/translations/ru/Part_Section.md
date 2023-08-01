@@ -61,4 +61,4 @@ To create sections with a section plane see <img alt="" src=images/Part_CrossSec
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/ru

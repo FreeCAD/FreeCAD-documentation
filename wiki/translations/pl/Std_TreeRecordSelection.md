@@ -36,4 +36,4 @@ Tryb Zapisu zaznaczenia w widoku drzewa można również ustawić w [Edytorze pr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeRecordSelection/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std TreeRecordSelection/pl

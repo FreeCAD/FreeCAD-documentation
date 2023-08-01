@@ -53,4 +53,4 @@ Um Anordnungen des Arbeitsbereichs Draft aufzulösen, wird das das Werkzeug [Dra
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExplodeGroup/de
+![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExplodeGroup/de

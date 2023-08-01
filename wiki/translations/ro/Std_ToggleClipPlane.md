@@ -60,4 +60,4 @@ Un **plan de secționare** este un plan care împarte volumul obiectului în dou
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ToggleClipPlane/ro
+![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleClipPlane/ro

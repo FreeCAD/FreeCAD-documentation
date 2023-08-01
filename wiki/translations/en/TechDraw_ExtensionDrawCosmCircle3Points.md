@@ -37,4 +37,4 @@ The **TechDraw ExtensionDrawCosmCircle3Points** tool adds a cosmetic circle base
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDrawCosmCircle3Points/en
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDrawCosmCircle3Points/en

@@ -64,4 +64,4 @@ Come per la maggior parte delle operazioni, anche per fare le copie, in FreeCAD 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Copying Objects/it
+![](images/Button_right.svg) [documentation index](../README.md) > Copying Objects/it

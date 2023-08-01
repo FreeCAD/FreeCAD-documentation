@@ -40,4 +40,4 @@ Il comando **Cancella tutte le misure** cancella le misure della [3D view](3D_vi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > View Measure Clear All/it
+![](images/Button_right.svg) [documentation index](../README.md) > View Measure Clear All/it

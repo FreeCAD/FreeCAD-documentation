@@ -70,4 +70,4 @@ Al hacer clic con el botón derecho del ratón en la vista del informe se muestr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Report view/es
+![](images/Button_right.svg) [documentation index](../README.md) > Report view/es

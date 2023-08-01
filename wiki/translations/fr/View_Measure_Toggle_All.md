@@ -38,4 +38,4 @@ La commande **Affichage Affichage les mesures** active/désactive les mesures de
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > View Measure Toggle All/fr
+![](images/Button_right.svg) [documentation index](../README.md) > View Measure Toggle All/fr

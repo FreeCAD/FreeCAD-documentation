@@ -29,4 +29,4 @@ Zobacz stronę [Std: Utwórz łącze](Std_LinkMake/pl.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > App Link/pl
+![](images/Button_right.svg) [documentation index](../README.md) > App Link/pl

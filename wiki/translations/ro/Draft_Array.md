@@ -119,4 +119,4 @@ Instrumentul Array poate fi utilizat în [macros](macros.md) și din consola Pyt
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/ro

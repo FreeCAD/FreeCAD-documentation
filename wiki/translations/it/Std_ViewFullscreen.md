@@ -44,4 +44,4 @@ Il comando **Vista 3D a schermo intero** commuta la [Vista 3D](3D_view/it.md) da
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewFullscreen/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std ViewFullscreen/it

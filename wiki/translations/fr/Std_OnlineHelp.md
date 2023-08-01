@@ -43,4 +43,4 @@ Dans FreeCAD {{VersionPlus/fr|0.20}}, cette commande nécessite l\'[extension He
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std OnlineHelp/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std OnlineHelp/fr

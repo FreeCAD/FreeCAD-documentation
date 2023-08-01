@@ -180,4 +180,4 @@ E\' anche la lista centrale di download per la documentazione in linea di FreeCA
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:User Documentation/it
+![](images/Button_right.svg) [documentation index](../README.md) > Category:User Documentation/it

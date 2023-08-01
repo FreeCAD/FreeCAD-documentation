@@ -122,4 +122,4 @@ See also [Interface Customization](Interface_Customization.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Customize Toolbars/zh-tw
+![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Customize Toolbars/zh-tw

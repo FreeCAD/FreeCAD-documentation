@@ -80,4 +80,4 @@ Aquí están las unidades definidas en FreeCAD hasta el momento. Es sencillo añ
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Units/es
+![](images/Button_right.svg) [documentation index](../README.md) > Units/es

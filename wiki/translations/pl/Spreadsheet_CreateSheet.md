@@ -30,4 +30,4 @@ Przycisk **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Two
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CreateSheet/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CreateSheet/pl

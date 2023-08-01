@@ -114,4 +114,4 @@ Szablony są rysowane przez [Quick61](User_Quick61.md) i wymienione na stronie [
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Drawing](Category_Drawing.md) > [Arch](Arch_Workbench.md) > Arch templates/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Drawing](Category_Drawing.md) > [Arch](Arch_Workbench.md) > Arch templates/pl

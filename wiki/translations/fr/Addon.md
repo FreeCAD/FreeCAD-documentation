@@ -34,4 +34,4 @@ Voir aussi :
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > Addon/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > Addon/fr

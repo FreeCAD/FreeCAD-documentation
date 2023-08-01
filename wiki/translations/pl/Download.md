@@ -64,4 +64,4 @@ Społeczność FreeCAD dostarcza wiele dodatkowych modułów i makr. Od wersji *
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Download/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Download/pl

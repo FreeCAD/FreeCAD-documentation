@@ -204,4 +204,4 @@ Okno dialogowe, pozwalające na zapisanie obrazu o dowolnych rozmiarach.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Screenshots/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Screenshots/pl

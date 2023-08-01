@@ -351,4 +351,4 @@ The forum discussion [New Macro: ImportAirfoil](https://forum.freecadweb.org/vie
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro ImportAirfoil
+![](images/Button_right.svg) [documentation index](../README.md) > Macro ImportAirfoil

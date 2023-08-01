@@ -45,4 +45,4 @@ The FreeCAD cMake scripts use the variable `BUILD_TEST` to determine whether to 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > C++ code testing
+![](images/Button_right.svg) [documentation index](../README.md) > C++ code testing

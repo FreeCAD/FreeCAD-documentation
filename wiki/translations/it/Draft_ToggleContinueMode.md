@@ -27,4 +27,4 @@ Il comando <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:24p
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode/it

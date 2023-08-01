@@ -68,4 +68,4 @@ Pentru a îmbrăca traiectoria de corecție a colțurilor, este nevoie de un seg
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDogbone/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDogbone/ro

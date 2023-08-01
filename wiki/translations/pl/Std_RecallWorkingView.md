@@ -55,4 +55,4 @@ FreeCADGui.runCommand("Std_RecallWorkingView", 0)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std RecallWorkingView/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std RecallWorkingView/pl

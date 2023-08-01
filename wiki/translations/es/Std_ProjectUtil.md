@@ -66,4 +66,4 @@ Es importante darse cuenta de que los archivos dentro de un archivo de proyecto 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ProjectUtil/es
+![](images/Button_right.svg) [documentation index](../README.md) > Std ProjectUtil/es

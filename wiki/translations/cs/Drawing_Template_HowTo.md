@@ -272,4 +272,4 @@ Dva použité nástroje v tomto výukovém programu byly Inkscape a Kate. Oba m�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Template HowTo/cs
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Template HowTo/cs

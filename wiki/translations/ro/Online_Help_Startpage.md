@@ -43,4 +43,4 @@ După cum poate ați observat uneori, programatorii nu sunt foarte pricepuți la
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/ro

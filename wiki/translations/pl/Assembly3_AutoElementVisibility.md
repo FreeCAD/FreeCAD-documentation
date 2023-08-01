@@ -29,4 +29,4 @@ When activated the currently selected element(s) will be highlighted.  (The visi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AutoElementVisibility/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 AutoElementVisibility/pl

@@ -49,4 +49,4 @@ Der Befehl **<img src="images/Path_SelectLoop.svg" width=16px> [Path SelectLoop]
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SelectLoop/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SelectLoop/de

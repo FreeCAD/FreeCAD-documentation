@@ -296,4 +296,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Whiffle Ball tutorial/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Category_Part.md) > Whiffle Ball tutorial/ru

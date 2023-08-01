@@ -10,4 +10,4 @@ This category contains all the Templates
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Template/id
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Template/id

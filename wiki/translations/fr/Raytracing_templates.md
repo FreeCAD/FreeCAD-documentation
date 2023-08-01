@@ -61,4 +61,4 @@ Notez que dans luxrender, les objets stockés dans un fichier de scène peuvent 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing templates/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing templates/fr

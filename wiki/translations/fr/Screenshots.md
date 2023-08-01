@@ -204,4 +204,4 @@ La boîte de dialogue pour sauvegarder une image avec des dimensions personnalis
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Screenshots/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Screenshots/fr

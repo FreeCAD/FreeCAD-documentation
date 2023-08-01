@@ -33,4 +33,4 @@ Polecenie **Sprawdź siatkę bryły** sprawdza, czy obiekt siatkowy jest jednoli
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh EvaluateSolid/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh EvaluateSolid/pl

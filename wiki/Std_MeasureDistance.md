@@ -65,4 +65,4 @@ The **Std MeasureDistance** command creates a distance object that measures and 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std MeasureDistance
+![](images/Button_right.svg) [documentation index](../README.md) > Std MeasureDistance

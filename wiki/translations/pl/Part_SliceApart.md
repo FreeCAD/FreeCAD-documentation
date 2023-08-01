@@ -83,4 +83,4 @@ Narzędzie zostało wprowadzone w wersji FreeCAD v0.18.15506. FreeCAD musi być 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/pl

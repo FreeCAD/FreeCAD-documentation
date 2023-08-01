@@ -24,4 +24,4 @@ Sur la base de l\'ICS d\'un élément planaire, les points de départ et d\'arri
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintLineVertical/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLineVertical/fr

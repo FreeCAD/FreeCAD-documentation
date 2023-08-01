@@ -147,4 +147,4 @@ Nell\'aprile 2019 il team di sviluppatori principali è stato ampliato: Jürgen,
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [News](Category_News.md) > History/it
+![](images/Button_right.svg) [documentation index](../README.md) > [News](Category_News.md) > History/it

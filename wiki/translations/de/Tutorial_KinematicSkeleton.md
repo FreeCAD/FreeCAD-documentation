@@ -228,4 +228,4 @@ Die Randbedingung <img alt="" src=images/Assembly_ConstraintCoincidence.svgâ€Žâ€
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Tutorial KinematicSkeleton/de
+![](images/Button_right.svg) [documentation index](../README.md) > Tutorial KinematicSkeleton/de

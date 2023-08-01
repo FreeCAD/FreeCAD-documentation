@@ -70,4 +70,4 @@ Les outils suivants sont disponibles dans ce menu :
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Tools Menu/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Tools Menu/fr

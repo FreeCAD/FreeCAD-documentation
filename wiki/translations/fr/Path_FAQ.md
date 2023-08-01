@@ -231,4 +231,4 @@ Il s\'agit seulement un problème d\'affichage de la trajectoire. Vous pouvez mo
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path FAQ/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path FAQ/fr

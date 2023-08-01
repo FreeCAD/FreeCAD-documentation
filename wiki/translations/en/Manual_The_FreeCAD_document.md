@@ -23,4 +23,4 @@ FreeCAD documents are saved with the .FcStd extension, which is a zip-based comp
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The FreeCAD document/en
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:The FreeCAD document/en

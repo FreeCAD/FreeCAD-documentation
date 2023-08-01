@@ -30,4 +30,4 @@ Mögliche Bestandteile sind z. B. Elemente, Körper, Knoten, Kanten, Flächen, U
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AddZYWorkplane/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 AddZYWorkplane/de

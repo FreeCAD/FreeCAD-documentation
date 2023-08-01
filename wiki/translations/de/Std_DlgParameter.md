@@ -178,4 +178,4 @@ It is likely a bad idea to modify the preferences of other parts of FreeCAD unle
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgParameter/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std DlgParameter/de

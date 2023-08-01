@@ -49,4 +49,4 @@ Inițial, poziția în care robotul este introdus în scenă va fi definit ca po
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetHomePos/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetHomePos/ro

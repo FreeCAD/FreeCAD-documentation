@@ -39,4 +39,4 @@ Der **Std DlgEinstellungen**-Befehl öffnet den [Voreinstellungseditor](Preferen
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgPreferences/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std DlgPreferences/de

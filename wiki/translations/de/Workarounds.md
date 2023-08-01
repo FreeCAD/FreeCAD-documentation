@@ -299,4 +299,4 @@ Das Ziel dieses Artikels ist es, einige zurzeit fehlende Funktionen von FreeCAD 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Workarounds/de
+![](images/Button_right.svg) [documentation index](../README.md) > Workarounds/de

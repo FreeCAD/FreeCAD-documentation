@@ -34,4 +34,4 @@ Esta herramienta le permite exportar y subir objetos a su cuenta [SketchFab](htt
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > WebTools Sketchfab/es
+![](images/Button_right.svg) [documentation index](../README.md) > WebTools Sketchfab/es

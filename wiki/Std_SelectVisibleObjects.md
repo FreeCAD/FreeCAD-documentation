@@ -23,4 +23,4 @@ The **Std SelectVisibleObjects** command selects all visible objects. Note that 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SelectVisibleObjects
+![](images/Button_right.svg) [documentation index](../README.md) > Std SelectVisibleObjects

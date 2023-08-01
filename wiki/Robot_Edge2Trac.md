@@ -36,4 +36,4 @@ You are able to change values for this trajectory by defining a <img alt="" src=
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Edge2Trac
+![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Edge2Trac

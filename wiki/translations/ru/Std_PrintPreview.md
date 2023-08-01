@@ -35,4 +35,4 @@ The **Std PrintPreview** command will show a preview of the result of the [Std P
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std PrintPreview/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Std PrintPreview/ru

@@ -324,4 +324,4 @@ Desarrolladores de complementos de FreeCAD (recuperados de <https://github.com/F
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer](Category_Developer.md) > Contributors/es
+![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > Contributors/es

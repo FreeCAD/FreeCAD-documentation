@@ -30,4 +30,4 @@ L\'outil **[<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> [Spr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignBottom/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignBottom/fr

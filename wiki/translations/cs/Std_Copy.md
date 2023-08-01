@@ -46,4 +46,4 @@ Příkaz Kopírovat je součástí kopírování objektů [Document](Document_st
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Copy/cs
+![](images/Button_right.svg) [documentation index](../README.md) > Std Copy/cs

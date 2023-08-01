@@ -51,4 +51,4 @@ Niemniej jednak decyzja ta jest podejmowana tylko w odniesieniu do podstawowego 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/pl

@@ -24,4 +24,4 @@ Die Länge kann durch Änderung des **Length**-Parameters im Eigenschaftenfenste
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintLineLength/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLineLength/de

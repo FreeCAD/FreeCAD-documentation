@@ -111,4 +111,4 @@ Styl **Płaskie linie** zastępuje styl **Tryb wyświetlania** obiektów. Ten st
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DrawStyle/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std DrawStyle/pl

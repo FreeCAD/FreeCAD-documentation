@@ -36,4 +36,4 @@ Polecenie **Kaskadowo** zmienia układ okien w [Głównym obszarze widoku](Main_
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std CascadeWindows/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std CascadeWindows/pl

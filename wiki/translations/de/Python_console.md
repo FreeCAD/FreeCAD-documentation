@@ -106,4 +106,4 @@ Ein Rechtsklick auf die Python Konsole zeigt einige Befehle an:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Python console/de
+![](images/Button_right.svg) [documentation index](../README.md) > Python console/de

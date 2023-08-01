@@ -234,4 +234,4 @@ Oznacza to, że obiekt będzie ukryty w Widoku drzewa, jeśli opcja menu podręc
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Tree view/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Tree view/pl

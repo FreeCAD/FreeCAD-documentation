@@ -72,4 +72,4 @@ L\'utilità **Sezioni\...** crea una o più sezioni trasversali attraverso la fo
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/it

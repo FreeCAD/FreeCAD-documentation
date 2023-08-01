@@ -39,4 +39,4 @@ To polecenie pozwala na dodanie zawartości obrazu SVG na wybranej stronie [stro
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Symbol/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Symbol/pl

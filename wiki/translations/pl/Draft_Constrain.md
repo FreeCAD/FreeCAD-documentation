@@ -50,4 +50,4 @@ Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Constrain/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Constrain/pl

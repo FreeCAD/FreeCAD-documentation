@@ -10,4 +10,4 @@ This category lists pages related to the [Plot Workbench/pt-br](Plot_Workbench/p
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Plot/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Plot/pt-br

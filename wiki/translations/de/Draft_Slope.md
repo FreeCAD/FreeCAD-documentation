@@ -44,4 +44,4 @@ Es gibt keine Python Methode zur Neigung von Objekten. Um die Ergebnisse des Ent
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Slope/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Slope/de

@@ -30,4 +30,4 @@ Valid items are e.g. elements, bodies, vertexes, edges, faces, origins, workplan
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AddPlacement/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 AddPlacement/pl

@@ -882,4 +882,4 @@ La page dédiée sur le forum pour tout commentaires et signalisation d\'éventu
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Category_Draft.md) > Macro FCCircularText/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Category_Draft.md) > Macro FCCircularText/fr

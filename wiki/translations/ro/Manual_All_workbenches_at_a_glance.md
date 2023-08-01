@@ -205,4 +205,4 @@ Există, de asemenea, multe alte ateliere de lucru foarte folositoare produse de
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:All workbenches at a glance/ro
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:All workbenches at a glance/ro

@@ -35,4 +35,4 @@ Il comando **Ispettore di scena** apre una finestra di dialogo che mostra una pa
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SceneInspector/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std SceneInspector/it

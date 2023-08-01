@@ -816,4 +816,4 @@ Wenn der [Erweiterungsverwalter](Std_AddonMgr/de.md) nicht verwendet wird, kann 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python Code.md) > Macros recipes/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python Code.md) > Macros recipes/de

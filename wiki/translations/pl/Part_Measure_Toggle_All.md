@@ -28,4 +28,4 @@ To polecenie przełącza widoczność wszystkich pomiarów w oknie [widoku 3D](3
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle All/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle All/pl

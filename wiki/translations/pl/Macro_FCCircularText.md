@@ -878,4 +878,4 @@ To comment on the [Extrude from curved surface of cylinder](http://forum.freecad
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Category_Draft.md) > Macro FCCircularText/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Category_Draft.md) > Macro FCCircularText/pl

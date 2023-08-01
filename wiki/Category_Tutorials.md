@@ -47,4 +47,4 @@ See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Tutorials
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Tutorials

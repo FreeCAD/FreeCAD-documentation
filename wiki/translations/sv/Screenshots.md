@@ -228,4 +228,4 @@ Dialog för att spara en bild i valfri storlek.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Screenshots/sv
+![](images/Button_right.svg) [documentation index](../README.md) > Screenshots/sv

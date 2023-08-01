@@ -21,4 +21,4 @@ The layers manager allow you to manage your layers, add or remove layers, or cha
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Layers/en
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Layers/en

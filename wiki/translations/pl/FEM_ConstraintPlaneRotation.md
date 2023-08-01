@@ -48,4 +48,4 @@ Tworzy wiązanie metodą elementów skończonych, aby węzły na powierzchni pł
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPlaneRotation/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPlaneRotation/pl

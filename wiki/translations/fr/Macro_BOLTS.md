@@ -40,4 +40,4 @@ Il existe de nombreuses possibilités et façons de [contribuer à BOLTS](https:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro BOLTS/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro BOLTS/fr

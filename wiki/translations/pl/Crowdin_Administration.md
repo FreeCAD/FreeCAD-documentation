@@ -60,4 +60,4 @@ Jeśli zauważysz ciąg znaków w interfejsie użytkownika FreeCAD, który nie j
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration/pl

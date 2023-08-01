@@ -77,4 +77,4 @@ Voir les [snippets Coin3d](Coin3d_snippets/fr.md) grâce aux recherches de Mariw
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scenegraph/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scenegraph/fr

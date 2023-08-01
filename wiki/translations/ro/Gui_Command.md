@@ -111,4 +111,4 @@ Preferable all Icons are drafted with SVG with e.g. [Inkscape](http://inkscape.o
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Gui Command/ro
+![](images/Button_right.svg) [documentation index](../README.md) > Gui Command/ro

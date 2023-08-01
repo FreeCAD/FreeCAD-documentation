@@ -278,4 +278,4 @@ I due strumenti utilizzati in questa esercitazione sono Inkscape e Kate. Si poss
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Template HowTo/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Template HowTo/it

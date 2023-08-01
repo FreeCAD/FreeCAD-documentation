@@ -51,4 +51,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Copy/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Std Copy/ru

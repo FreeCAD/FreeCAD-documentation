@@ -125,4 +125,4 @@ No obstante, esta decisión se ha tomado sólo para el sistema básico de FreeCA
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/es
+![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/es

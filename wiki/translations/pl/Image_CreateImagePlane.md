@@ -56,4 +56,4 @@ Jeśli początkowo nie podano żadnego odsunięcia dla obrazka, jego pozycję mo
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/pl

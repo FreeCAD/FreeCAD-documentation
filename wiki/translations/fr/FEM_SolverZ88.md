@@ -57,4 +57,4 @@ Voir les [préférences de Z88](FEM_Preferences/fr#Z88.md) pour les paramètres 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverZ88/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverZ88/fr

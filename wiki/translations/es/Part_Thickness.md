@@ -124,4 +124,4 @@ En este objeto se han seleccionado y eliminado dos caras adyacentes.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Thickness/es
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Thickness/es

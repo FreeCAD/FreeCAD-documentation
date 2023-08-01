@@ -167,4 +167,4 @@ Tutoriel sur YouTube [Rocket Workbench Nose Cones](https://youtu.be/zwLgie2E4Ts)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket NoseCone/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket NoseCone/fr

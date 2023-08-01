@@ -36,4 +36,4 @@ Wir haben einen [offiziellen FreeCAD-Discord-Server](https://discord.gg/uh85ZRNc
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Help](Category_Help.md) > Help/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Help](Category_Help.md) > Help/de

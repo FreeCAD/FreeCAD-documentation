@@ -102,4 +102,4 @@ Si \"Frenet\" est à \"vrai\", l\'orientation du profil est calculée à partir 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/fr

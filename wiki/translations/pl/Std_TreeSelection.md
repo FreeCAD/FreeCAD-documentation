@@ -36,4 +36,4 @@ Jeżeli tryb [Synchronizacja wyboru](Std_TreeSyncSelection/pl.md) widoku drzewa 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeSelection/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSelection/pl

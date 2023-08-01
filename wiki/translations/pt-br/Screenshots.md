@@ -200,4 +200,4 @@ A caixa de diálogo para salvar uma imagem com dimensões personalizadas.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Screenshots/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > Screenshots/pt-br

@@ -107,4 +107,4 @@ Le style **Filaire ombré** remplace **Display Mode** des objets. Ce style corre
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DrawStyle/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std DrawStyle/fr

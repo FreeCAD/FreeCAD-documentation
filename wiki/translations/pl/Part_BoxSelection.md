@@ -44,4 +44,4 @@ Narzędzie **<img src="images/Part_BoxSelection.svg" width=16px> '''Zaznacz obsz
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BoxSelection/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BoxSelection/pl

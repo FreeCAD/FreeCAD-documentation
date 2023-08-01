@@ -10,4 +10,4 @@ This category contains articles that are relevant for developers.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Developer/zh-cn
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Developer/zh-cn

@@ -54,4 +54,4 @@ This roughly corresponds to a combination of [IfcMaterialLayerSet](https://stand
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MultiMaterial/en
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MultiMaterial/en

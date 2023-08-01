@@ -31,4 +31,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:External Workbenches/it
+![](images/Button_right.svg) [documentation index](../README.md) > Category:External Workbenches/it

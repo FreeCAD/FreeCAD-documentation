@@ -71,4 +71,4 @@ Zum Erzeugen von Querschnitten mit Schnittebenen siehe <img alt="" src=images/Pa
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/de

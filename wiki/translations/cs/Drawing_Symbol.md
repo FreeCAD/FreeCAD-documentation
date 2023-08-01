@@ -28,4 +28,4 @@ This command allows you to add the contents of a SVG image on a selected [Drawin
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Symbol/cs
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Symbol/cs

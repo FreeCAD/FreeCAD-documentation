@@ -58,4 +58,4 @@ Pola **Punkt odniesienia** można użyć do przesunięcia płaszczyzny lustra r�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/pl

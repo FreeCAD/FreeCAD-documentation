@@ -11,4 +11,4 @@ This category list pages related to the \"User_Documentation/hr\" and \"Workbenc
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Draft/hr
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Draft/hr

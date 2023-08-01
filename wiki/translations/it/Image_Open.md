@@ -65,4 +65,4 @@ L\'immagine viene posizionata in una nuova finestra, non nella vista 3D.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/it

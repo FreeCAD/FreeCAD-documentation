@@ -32,4 +32,4 @@ L\'outil **<img src="images/Part_BoxSelection.svg" width=16px> [Part Sélection 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BoxSelection/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BoxSelection/fr

@@ -54,4 +54,4 @@ Aby zapisać dokument, należy użyć metody `save` obiektu *document*. Nowy dok
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Save/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std Save/pl

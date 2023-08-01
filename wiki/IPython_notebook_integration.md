@@ -61,4 +61,4 @@ This project was chosen for GSoC 2020. The results can be found here: [Git repo]
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > IPython notebook integration
+![](images/Button_right.svg) [documentation index](../README.md) > IPython notebook integration

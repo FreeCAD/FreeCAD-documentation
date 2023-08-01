@@ -99,4 +99,4 @@ Vedere anche la pagina [Come installare ambienti aggiuntivi](How_to_install_addi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/it

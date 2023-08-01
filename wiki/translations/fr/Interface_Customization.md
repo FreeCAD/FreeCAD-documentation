@@ -291,4 +291,4 @@ Dans la catégorie Ateliers du gestionnaire des extensions, certaines extensions
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Interface Customization/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Interface Customization/fr

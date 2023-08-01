@@ -34,4 +34,4 @@ The **Std MacroStopRecord** command ends a macro recording session.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std MacroStopRecord/en
+![](images/Button_right.svg) [documentation index](../README.md) > Std MacroStopRecord/en

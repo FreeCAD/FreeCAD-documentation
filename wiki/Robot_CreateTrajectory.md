@@ -26,4 +26,4 @@ Click on <img alt="" src=images/Robot_CreateTrajectory.svg  style="width:32px;">
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateTrajectory
+![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateTrajectory

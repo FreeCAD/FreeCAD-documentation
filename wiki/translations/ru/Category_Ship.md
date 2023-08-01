@@ -14,4 +14,4 @@ This category lists pages related to the [Ship Workbench/ru](Ship_Workbench/ru.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Ship/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Ship/ru

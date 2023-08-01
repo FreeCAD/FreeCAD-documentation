@@ -236,4 +236,4 @@ Since FreeCAD 0.17, many workbenches can be installed using the [Addon Manager](
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/bg
+![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/bg

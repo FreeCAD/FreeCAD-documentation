@@ -68,4 +68,4 @@ Il n\'y a actuellement aucune intégration GUI des paramètres de rotation du 4�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path fourth axis/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path fourth axis/fr

@@ -264,4 +264,4 @@ Entwickler von FreeCAD-Addons (abgerufen von <https://github.com/FreeCAD/FreeCAD
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer](Category_Developer.md) > Contributors/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > Contributors/de

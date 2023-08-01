@@ -990,4 +990,4 @@ ver 00.02.41 25/03/2023 by 2cv001 **Macro_Sketch_Constraint_From_Spreadsheet.FCM
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Sketch Constraint From Spreadsheet/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Sketch Constraint From Spreadsheet/pl

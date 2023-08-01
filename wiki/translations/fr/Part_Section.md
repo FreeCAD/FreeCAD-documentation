@@ -69,4 +69,4 @@ Pour créer des coupes depuis un plan de coupe, voir <img alt="" src=images/Part
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/fr

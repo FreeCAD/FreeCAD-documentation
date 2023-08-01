@@ -36,4 +36,4 @@ Il comando **A cascata** riorganizza le finestre nell\'[Area della vista princip
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std CascadeWindows/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std CascadeWindows/it

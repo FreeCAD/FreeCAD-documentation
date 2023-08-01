@@ -113,4 +113,4 @@ Wir sind jetzt mit dem grundlegenden Workflow für den [PartDesign Arbeitsbereic
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial/de
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial/de

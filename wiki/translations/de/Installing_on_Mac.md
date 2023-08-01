@@ -52,4 +52,4 @@ Wenn du FreeCAD mit Homebrew installiert hast, verwende einfach den Befehl `brew
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Installing on Mac/de
+![](images/Button_right.svg) [documentation index](../README.md) > Installing on Mac/de

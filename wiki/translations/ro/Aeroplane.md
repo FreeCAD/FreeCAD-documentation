@@ -234,4 +234,4 @@ Sper că acest tutorial mic v-a ajutat să vă resimțiți rotațiile.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Aeroplane/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Category_Part.md) > Aeroplane/ro

@@ -88,4 +88,4 @@ Der Reiter Bibliotheken zeigt eine Liste der externen Bibliotheken, die vom Prog
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/de

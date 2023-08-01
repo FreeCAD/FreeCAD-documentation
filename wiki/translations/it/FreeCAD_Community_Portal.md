@@ -151,4 +151,4 @@ These are FreeCAD community developed workbenches, scripts, macros, and addons f
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > FreeCAD Community Portal/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > FreeCAD Community Portal/it

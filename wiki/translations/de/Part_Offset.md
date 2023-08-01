@@ -76,4 +76,4 @@ dieselbe Form mit einem 3D Versatz als SKIN und *gefülltem* Versatz
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/de

@@ -243,4 +243,4 @@ Los objetos malla pueden ser manipulados añadiendo facetas, eliminando facetas,
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Mesh](Mesh_Workbench.md) > Mesh API/es
+![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Mesh](Mesh_Workbench.md) > Mesh API/es

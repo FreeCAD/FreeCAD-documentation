@@ -69,4 +69,4 @@ Non esiste un metodo Python per stirare gli oggetti. Per emulare i risultati del
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Stretch/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Stretch/it

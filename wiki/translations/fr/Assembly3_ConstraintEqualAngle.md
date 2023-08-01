@@ -28,4 +28,4 @@ Les directions des lignes ainsi que les normales des faces sont représentées p
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintEqualAngle/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintEqualAngle/fr

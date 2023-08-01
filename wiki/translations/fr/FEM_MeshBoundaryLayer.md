@@ -67,4 +67,4 @@ Vous pouvez créer autant de couches limites de maillage différentes que néces
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshBoundaryLayer/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshBoundaryLayer/fr

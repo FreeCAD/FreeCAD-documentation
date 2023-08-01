@@ -4,4 +4,4 @@ See [Google docs](https://docs.google.com/spreadsheets/d/1kmfl8tHVg8H0676TVM57Hd
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > CAD Rosetta Stone
+![](images/Button_right.svg) [documentation index](../README.md) > CAD Rosetta Stone

@@ -42,4 +42,4 @@ Narzędzie **Seria wymiarów poziomych** tworzy poziome wymiary łańcuchowe: se
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateHorizChainDimension/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateHorizChainDimension/pl

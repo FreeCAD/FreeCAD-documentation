@@ -69,4 +69,4 @@ La commande **Std Mesurer une distance** crée un objet distance qui mesure et a
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std MeasureDistance/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std MeasureDistance/fr

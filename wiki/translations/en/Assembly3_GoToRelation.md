@@ -29,4 +29,4 @@ The result (highlighted objects) depends on the selected object.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 GoToRelation/en
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 GoToRelation/en

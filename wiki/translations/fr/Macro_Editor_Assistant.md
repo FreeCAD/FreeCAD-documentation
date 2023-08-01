@@ -44,4 +44,4 @@ Icône de la barre d\'outils ![](images/Editor_Assistant_Icon.svg )
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Editor Assistant/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Editor Assistant/fr

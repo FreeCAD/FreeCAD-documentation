@@ -1484,4 +1484,4 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Developer Documentation](Category_Developer Documentation.md) > FeaturePython Custom Properties/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > [Developer Documentation](Category_Developer Documentation.md) > FeaturePython Custom Properties/fr

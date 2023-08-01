@@ -12,4 +12,4 @@ This category contains all Unfinished Documents
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:UnfinishedDocu/cs
+![](images/Button_right.svg) [documentation index](../README.md) > Category:UnfinishedDocu/cs

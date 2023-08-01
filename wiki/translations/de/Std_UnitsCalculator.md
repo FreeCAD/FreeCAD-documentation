@@ -66,4 +66,4 @@ Der **Std Einheitenrechner**-Befehl öffnet die Einheitenrechner-Dialogbox. Der 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std UnitsCalculator/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std UnitsCalculator/de

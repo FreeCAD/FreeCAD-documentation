@@ -24,4 +24,4 @@ Es arbeitet sowohl mit 3D-Punkt-Elementen als auch mit 2D-Punkt-Elementen auf ei
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointDistance/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointDistance/de

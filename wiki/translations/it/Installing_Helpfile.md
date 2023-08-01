@@ -60,4 +60,4 @@ Possono sorgere difficoltà quando si tenta di installare i pacchetti di documen
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Installing Helpfile/it
+![](images/Button_right.svg) [documentation index](../README.md) > Installing Helpfile/it

@@ -34,4 +34,4 @@ La copia ha una semplice proprietà vista come qualsiasi altra [Part Feature](Pa
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part TransformedCopy/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part TransformedCopy/it

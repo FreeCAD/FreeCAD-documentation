@@ -85,4 +85,4 @@ If you have a job which contends more than one path operation, you can determine
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/en
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/en

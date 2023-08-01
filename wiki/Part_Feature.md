@@ -196,4 +196,4 @@ If desired, the `Label` attribute can be changed to a more meaningful text.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Feature
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Feature

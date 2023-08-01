@@ -43,4 +43,4 @@ Una copia della <img alt="" src=images/Std_Part.svg  style="width:16px;"> Parte 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkImport/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std LinkImport/it

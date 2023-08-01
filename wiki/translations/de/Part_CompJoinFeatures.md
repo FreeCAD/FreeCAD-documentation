@@ -29,4 +29,4 @@ Dieser Befehl gehört zu der Schaltfläche in der Symbolleiste, die das Ausklapp
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/de

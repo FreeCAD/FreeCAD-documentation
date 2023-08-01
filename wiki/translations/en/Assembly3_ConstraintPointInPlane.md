@@ -26,4 +26,4 @@ Related to the first object the following object can still move along the x- and
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointInPlane/en
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointInPlane/en

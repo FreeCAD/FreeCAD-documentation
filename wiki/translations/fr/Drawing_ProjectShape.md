@@ -114,4 +114,4 @@ Cet outil crée une projection de l\'objet sélectionné (Source) dans la vue 3D
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing ProjectShape/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing ProjectShape/fr

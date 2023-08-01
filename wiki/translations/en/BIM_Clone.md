@@ -16,4 +16,4 @@ The BIM Clone tool is a shortcut to the standard [Draft Clone](Draft_Clone.md) t
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Clone/en
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Clone/en

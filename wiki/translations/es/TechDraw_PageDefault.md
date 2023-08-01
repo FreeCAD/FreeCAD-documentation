@@ -110,4 +110,4 @@ See [TechDraw PageTemplate](TechDraw_PageTemplate#Scripting.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageDefault/es
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageDefault/es

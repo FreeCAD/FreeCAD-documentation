@@ -142,4 +142,4 @@ The Forum discussion [Export transient FEM results to vtk/vtu for ParaView](http
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro export transient FEM results
+![](images/Button_right.svg) [documentation index](../README.md) > Macro export transient FEM results

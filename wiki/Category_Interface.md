@@ -15,4 +15,4 @@ This category lists pages that describe the FreeCAD interface.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Interface
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Interface

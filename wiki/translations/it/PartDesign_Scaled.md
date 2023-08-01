@@ -104,4 +104,4 @@ A partire da FreeCAD 0.15, questa funzione non Ã¨ disponibile direttamente, ma Ã
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/it
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/it

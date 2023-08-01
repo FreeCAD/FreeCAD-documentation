@@ -70,4 +70,4 @@ There are two approaches to specifying Product and Manufacturing Information (PM
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [TechDraw](Category_TechDraw.md) > Tolerancing
+![](images/Button_right.svg) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [TechDraw](Category_TechDraw.md) > Tolerancing

@@ -64,4 +64,4 @@ Pentru [select](Draft_Select/it.md) mai multe obiecte:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Cut/ro
+![](images/Button_right.svg) [documentation index](../README.md) > Std Cut/ro

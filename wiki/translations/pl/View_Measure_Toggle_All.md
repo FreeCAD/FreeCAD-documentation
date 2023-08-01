@@ -34,4 +34,4 @@ Polecenie **Przełącz widoczność wymiarów** przełącza wyświetlanie pomiar
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > View Measure Toggle All/pl
+![](images/Button_right.svg) [documentation index](../README.md) > View Measure Toggle All/pl

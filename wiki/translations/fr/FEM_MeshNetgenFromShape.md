@@ -60,4 +60,4 @@ En fonction de votre système d\'exploitation et de votre paquetage d\'installat
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshNetgenFromShape/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshNetgenFromShape/fr

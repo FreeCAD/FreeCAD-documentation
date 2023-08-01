@@ -59,4 +59,4 @@ Si vous recherchez un basculement orthogonal en perspective dans la vue 3D, vér
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing View/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing View/fr

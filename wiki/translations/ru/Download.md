@@ -64,4 +64,4 @@ FreeCAD активно развивается.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Download/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Download/ru

@@ -56,4 +56,4 @@ La commande G59 Fixation est utilisée pour étendre les fixations disponibles. 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Fixture/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Fixture/fr

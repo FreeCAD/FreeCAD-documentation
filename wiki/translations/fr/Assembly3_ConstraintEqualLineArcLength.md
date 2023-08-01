@@ -45,4 +45,4 @@ La contrainte "EqualLineArcLength" exige que le 2e élément soit une 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintEqualLineArcLength/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintEqualLineArcLength/fr

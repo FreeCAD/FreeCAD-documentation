@@ -62,4 +62,4 @@ Si vous remarquez une chaîne dans l\'interface utilisateur de FreeCAD qui n\'es
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration/fr

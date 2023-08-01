@@ -27,4 +27,4 @@ Selected **2D geometry**, such as Draft lines, arcs, and circles, fixed with the
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 LockMover/en
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 LockMover/en

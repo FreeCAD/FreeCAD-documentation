@@ -358,4 +358,4 @@ Autre similaire Honeycomb [Honeycomb Array](https://forum.freecadweb.org/viewtop
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro FCHoneycombMaker/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro FCHoneycombMaker/fr

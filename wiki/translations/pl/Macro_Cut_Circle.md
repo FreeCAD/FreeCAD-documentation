@@ -121,4 +121,4 @@ ver 00.01 24/02/2015 :
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Cut Circle/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Cut Circle/pl

@@ -98,4 +98,4 @@ Un clic con il tasto destro sulla console Python mostra alcuni comandi:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Python console/it
+![](images/Button_right.svg) [documentation index](../README.md) > Python console/it

@@ -39,4 +39,4 @@ To narzędzie przycina krawędź w miejscu najbliższego przecięcia z innymi kr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/pl

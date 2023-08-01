@@ -25,4 +25,4 @@ Das [FreeCAD-Forum](https://forum.freecadweb.org/viewforum.php?f=3) ist der best
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Important information/de
+![](images/Button_right.svg) [documentation index](../README.md) > Important information/de

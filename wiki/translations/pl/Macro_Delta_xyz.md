@@ -278,4 +278,4 @@ Version 0.1 2013-11-29 : [view toolbar : measure distance tool](https://forum.fr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Delta xyz/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Delta xyz/pl

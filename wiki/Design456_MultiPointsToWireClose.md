@@ -32,4 +32,4 @@ When you select the points in the object lists, the points aren\'t green. That c
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 MultiPointsToWireClose
+![](images/Button_right.svg) [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 MultiPointsToWireClose

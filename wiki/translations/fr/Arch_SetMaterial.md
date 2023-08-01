@@ -50,4 +50,4 @@ Cela correspond à peu près à [IfcMaterial](https://standards.buildingsmart.or
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SetMaterial/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SetMaterial/fr

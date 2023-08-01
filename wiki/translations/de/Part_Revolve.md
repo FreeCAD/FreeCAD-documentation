@@ -36,4 +36,4 @@ Wenn Du eine benutzerdefinierte Achse wählst, definieren die Zahlen die Richtun
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/de

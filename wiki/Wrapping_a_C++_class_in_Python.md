@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Wrapping a C++ class in Python
+![](images/Button_right.svg) [documentation index](../README.md) > Wrapping a C++ class in Python

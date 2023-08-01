@@ -38,4 +38,4 @@ This tool allows you to apply rotation increments or translation increments to a
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TransformManip
+![](images/Button_right.svg) [documentation index](../README.md) > Std TransformManip

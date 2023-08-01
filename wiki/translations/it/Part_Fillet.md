@@ -89,4 +89,4 @@ Notare inoltre che la funzione Raccordo è soggetta al problema della [denominaz
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/it

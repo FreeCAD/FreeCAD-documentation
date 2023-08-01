@@ -42,4 +42,4 @@ Pour couper d\'autres objets, vous pouvez utiliser la commande [Std Copier](Std_
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Cut/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std Cut/fr

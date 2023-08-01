@@ -35,4 +35,4 @@ Each branch object is an <img alt="" src=images/Assembly_Assembly_Tree.svg  styl
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 CreateAssembly/en
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 CreateAssembly/en

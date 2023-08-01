@@ -19,4 +19,4 @@ Cette catégorie rassemble les articles qui liste les objets et les méthodes di
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > Category:API/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > Category:API/fr

@@ -1455,4 +1455,4 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > German Translation
+![](images/Button_right.svg) [documentation index](../README.md) > German Translation

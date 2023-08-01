@@ -391,4 +391,4 @@ To export a RenderView window highlight the window and use menu option **File > 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > Post-Processing of FEM Results with Paraview/de
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > Post-Processing of FEM Results with Paraview/de

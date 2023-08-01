@@ -72,4 +72,4 @@ Ważne jest, aby zdać sobie sprawę, że pliki wewnątrz pliku projektu FreeCAD
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ProjectUtil/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std ProjectUtil/pl

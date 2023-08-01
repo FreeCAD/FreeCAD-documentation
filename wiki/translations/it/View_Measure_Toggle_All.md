@@ -40,4 +40,4 @@ Il comando **Attiva o disattiva tutte le misure** attiva o disattiva la visualiz
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > View Measure Toggle All/it
+![](images/Button_right.svg) [documentation index](../README.md) > View Measure Toggle All/it

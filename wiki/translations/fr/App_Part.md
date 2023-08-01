@@ -31,4 +31,4 @@ Voir [Std Part](Std_Part/fr#Propri.C3.A9t.C3.A9s.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > App Part/fr
+![](images/Button_right.svg) [documentation index](../README.md) > App Part/fr

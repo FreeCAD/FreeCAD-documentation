@@ -40,4 +40,4 @@ Le mode Présélection de l\'arborescence peut également être défini dans le 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TreePreSelection/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std TreePreSelection/fr

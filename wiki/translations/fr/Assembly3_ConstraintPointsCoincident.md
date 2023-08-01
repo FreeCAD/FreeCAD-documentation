@@ -40,4 +40,4 @@ Dans la vie réelle, nous ne pouvons pas manipuler les points, c\'est pourquoi d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointsCoincident/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointsCoincident/fr

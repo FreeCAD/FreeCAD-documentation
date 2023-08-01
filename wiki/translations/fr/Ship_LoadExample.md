@@ -50,4 +50,4 @@ Afin d\'aider les nouveaux utilisateurs, FreeCAD-Ship comprend un chargeur d\'ex
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship LoadExample/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship LoadExample/fr

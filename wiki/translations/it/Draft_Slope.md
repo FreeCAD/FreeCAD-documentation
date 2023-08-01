@@ -41,4 +41,4 @@ Non esiste un metodo Python per impostare la pendenza agli oggetti. Per emulare 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Slope/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Slope/it

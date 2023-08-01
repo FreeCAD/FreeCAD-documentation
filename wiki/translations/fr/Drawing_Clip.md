@@ -43,4 +43,4 @@ Actualiser\]\] la vue si une vue de dessin n\'a pas été ouverte
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Clip/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Clip/fr

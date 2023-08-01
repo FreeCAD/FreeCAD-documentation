@@ -54,4 +54,4 @@ Les cases **Point de base** peuvent être utilisées pour déplacer le miroir pl
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/fr

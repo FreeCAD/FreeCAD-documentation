@@ -40,4 +40,4 @@ El comando **Std DiálogoPersonalizar** abre el cuadro de diálogo Personalizar 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgCustomize/es
+![](images/Button_right.svg) [documentation index](../README.md) > Std DlgCustomize/es

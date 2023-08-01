@@ -13,4 +13,4 @@ Un [foglio di calcolo](spreadsheet/it.md) è una pagina suddivisa in righe e col
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Spreadsheet/it
+![](images/Button_right.svg) [documentation index](../README.md) > Spreadsheet/it

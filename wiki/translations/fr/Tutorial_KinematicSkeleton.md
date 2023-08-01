@@ -228,4 +228,4 @@ La contrainte <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  s
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Tutorial KinematicSkeleton/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Tutorial KinematicSkeleton/fr

@@ -10,4 +10,4 @@ This category lists pages related to the [Part Workbench/id](Part_Workbench/id.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Part/id
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Part/id

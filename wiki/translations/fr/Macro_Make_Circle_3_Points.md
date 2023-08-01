@@ -640,4 +640,4 @@ Les programmes séparés se trouvent ici,
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Make Circle 3 Points/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Make Circle 3 Points/fr

@@ -48,4 +48,4 @@ Hard
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Give graphical access to a wide range of available ElmerSolver setting from within FreeCAD
+![](images/Button_right.svg) [documentation index](../README.md) > Give graphical access to a wide range of available ElmerSolver setting from within FreeCAD

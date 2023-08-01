@@ -15,4 +15,4 @@ Il n\'y a qu\'un seul onglet: Réglages généraux.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Preferences/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Preferences/fr

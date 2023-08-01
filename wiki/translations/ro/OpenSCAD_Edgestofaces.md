@@ -61,4 +61,4 @@ A se vedea și [Draft Upgrade](Draft_Upgrade.md) pentru o alternativă la modul 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Edgestofaces/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Edgestofaces/ro

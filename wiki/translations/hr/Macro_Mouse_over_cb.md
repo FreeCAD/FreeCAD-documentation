@@ -81,4 +81,4 @@ Drugi slični makro [Selecting internal faces of a pressure vessel](https://foru
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Mouse over cb/hr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Mouse over cb/hr

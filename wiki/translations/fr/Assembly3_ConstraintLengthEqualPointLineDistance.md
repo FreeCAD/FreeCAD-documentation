@@ -31,4 +31,4 @@ La valeur de la longueur de la première ligne sélectionnée est égale à la d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintLengthEqualPointLineDistance/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLengthEqualPointLineDistance/fr

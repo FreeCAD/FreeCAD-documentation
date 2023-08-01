@@ -63,4 +63,4 @@ Aceasta este comanda standard pentru a exporta obiecte din interiorul unui docum
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export/ro

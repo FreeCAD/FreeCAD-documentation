@@ -26,4 +26,4 @@ The constraint accepts straight edges and planar faces.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPerpendicular/en
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPerpendicular/en

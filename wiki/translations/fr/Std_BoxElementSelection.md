@@ -42,4 +42,4 @@ La commande **Std BoxElementSelection** sélectionne des faces dans une zone rec
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std BoxElementSelection/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std BoxElementSelection/fr

@@ -57,4 +57,4 @@ We have an [official dedicated FreeCAD Discord server](https://discord.gg/uh85ZR
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Help](Category_Help.md) > Help/tr
+![](images/Button_right.svg) [documentation index](../README.md) > [Help](Category_Help.md) > Help/tr

@@ -72,4 +72,4 @@ Wenn das Plane-Objekt in der [Baumansicht](Tree_view/de.md) ausgeblendet ist, wÃ
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionPlane/de
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionPlane/de

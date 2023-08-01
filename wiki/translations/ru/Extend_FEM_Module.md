@@ -148,4 +148,4 @@ Adding new constraints is quite straight forward. For newcomers there is a tutor
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > Extend FEM Module/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > Extend FEM Module/ru

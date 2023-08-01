@@ -54,4 +54,4 @@ Die Entwicklung der Zusammenbau Arbeitsbereiche geht weiter, und es wird erwarte
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly/de

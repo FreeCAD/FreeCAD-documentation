@@ -361,4 +361,4 @@ These are tutorials that are related to scripting or programming. They are geare
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials|目錄：Tutorial]]中找到，而經過排序整理的教學課程，請見下方表格](Category_Tutorials|目錄：Tutorial]]中找到，而經過排序整理的教學課程，請見下方表格.md) > [Tutorials](Category_Tutorials.md) > Tutorials/zh-tw
+![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials|目錄：Tutorial]]中找到，而經過排序整理的教學課程，請見下方表格](Category_Tutorials|目錄：Tutorial]]中找到，而經過排序整理的教學課程，請見下方表格.md) > [Tutorials](Category_Tutorials.md) > Tutorials/zh-tw

@@ -40,4 +40,4 @@ L\'outil **TechDraw Raccourcir** raccourcit une ligne cosmétique ou une ligne c
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionShortenLine/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionShortenLine/fr

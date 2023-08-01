@@ -41,4 +41,4 @@ Cette commande exécute essentiellement **[<img src=images/Std_LinkImport.svg st
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkImportAll/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std LinkImportAll/fr

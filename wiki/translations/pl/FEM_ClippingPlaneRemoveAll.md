@@ -27,4 +27,4 @@ Either use the toolbar button <img alt="" src=images/FEM_ClippingPlaneRemoveAll.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ClippingPlaneRemoveAll/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ClippingPlaneRemoveAll/pl

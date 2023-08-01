@@ -194,4 +194,4 @@ See [Rack and pinion](#Rack_and_pinion.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Gear
+![](images/Button_right.svg) [documentation index](../README.md) > Gear

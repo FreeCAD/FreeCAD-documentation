@@ -29,4 +29,4 @@ Les éléments de ligne sont réalisés avec des outils de l\'<img alt="" src=im
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintMidPoint/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintMidPoint/fr

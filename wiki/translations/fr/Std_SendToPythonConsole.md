@@ -95,4 +95,4 @@ Les variables suivantes sont créées en fonction de l\'objet sélectionné et d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SendToPythonConsole/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std SendToPythonConsole/fr

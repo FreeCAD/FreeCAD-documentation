@@ -34,4 +34,4 @@ Attualmente il comando punta a [<https://wiki.freecad.org/Frequently_asked_quest
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADFAQ/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADFAQ/it

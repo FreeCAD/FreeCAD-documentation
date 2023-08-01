@@ -150,4 +150,4 @@ Lo strumento è implementato in Python, vedere **/Mod/Part/BOPTools/JoinFeatures
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/it

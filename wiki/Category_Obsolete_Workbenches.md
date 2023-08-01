@@ -11,4 +11,4 @@ This category lists obsolete workbenches, that is, workbenches that are old and 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Category:Obsolete Workbenches
+![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Category:Obsolete Workbenches

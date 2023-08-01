@@ -264,4 +264,4 @@ Programiści tworzący dodatki do FreeCAD *(dostępne na stronie <https://github
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer](Category_Developer.md) > Contributors/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > Contributors/pl

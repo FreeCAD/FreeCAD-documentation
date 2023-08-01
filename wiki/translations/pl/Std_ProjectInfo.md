@@ -51,4 +51,4 @@ Przetłumaczono z www.DeepL.com/Translator (wersja darmowa)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ProjectInfo/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std ProjectInfo/pl

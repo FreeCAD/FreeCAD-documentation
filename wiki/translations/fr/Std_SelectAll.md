@@ -32,4 +32,4 @@ La commande **Std Tout Sélectionner** sélectionne tous les objets dans la [vue
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SelectAll/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std SelectAll/fr

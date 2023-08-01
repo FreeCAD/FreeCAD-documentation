@@ -53,4 +53,4 @@ If you only want to delete a result object and keep the result mesh, create a co
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ResultsPurge/it
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ResultsPurge/it

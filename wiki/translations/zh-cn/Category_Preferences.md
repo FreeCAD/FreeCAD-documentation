@@ -11,4 +11,4 @@ This category lists all existing Preference menus of different FreeCAD workbench
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Preferences/zh-cn
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Preferences/zh-cn

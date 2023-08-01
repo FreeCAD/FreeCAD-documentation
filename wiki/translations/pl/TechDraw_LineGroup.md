@@ -91,4 +91,4 @@ Uwaga: Dodano nową preferencję, aby umożliwić korzystanie z własnego pliku 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LineGroup/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LineGroup/pl

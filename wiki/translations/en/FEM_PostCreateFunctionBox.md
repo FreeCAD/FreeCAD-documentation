@@ -59,4 +59,4 @@ If the Box object in the [tree view](Tree_view.md) is hidden, select the <img al
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionBox/en
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionBox/en

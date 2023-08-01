@@ -25,4 +25,4 @@ Note that, although any other BIM object can be added to a Project, which the IF
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Project/en
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Project/en

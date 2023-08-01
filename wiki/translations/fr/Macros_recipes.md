@@ -812,4 +812,4 @@ Si le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnair
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python Code.md) > Macros recipes/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python Code.md) > Macros recipes/fr

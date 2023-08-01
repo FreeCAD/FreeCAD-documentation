@@ -10,4 +10,4 @@ This category lists pages related to the [Drawing Workbench/zh-hant](Drawing_Wor
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Drawing/zh-hant
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Drawing/zh-hant

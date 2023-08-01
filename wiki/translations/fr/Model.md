@@ -21,4 +21,4 @@ Dans un usage informel, le mot \"[Drawing](Drawing/fr.md)\" peut être utilisé 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Model/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Model/fr

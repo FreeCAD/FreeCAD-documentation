@@ -36,4 +36,4 @@ Beim Start des Werkzeugs ändert sich der Mauszeiger in ein weißes Kreuz mit ei
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointArc/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointArc/de

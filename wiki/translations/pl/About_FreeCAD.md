@@ -25,4 +25,4 @@ FreeCAD jest utrzymywany i rozwijany przez społeczność pasjonatów programist
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/pl

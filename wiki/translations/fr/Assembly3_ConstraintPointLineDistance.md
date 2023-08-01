@@ -22,4 +22,4 @@ Cet outil établit un lien entre deux objets d\'un assemblage et fixe la distanc
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointLineDistance/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointLineDistance/fr

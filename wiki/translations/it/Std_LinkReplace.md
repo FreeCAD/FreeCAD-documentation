@@ -58,4 +58,4 @@ Questo comando crea un nuovo [App Link](App_Link/it.md); le sue proprietà sono 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkReplace/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std LinkReplace/it

@@ -939,4 +939,4 @@ Natürlich liegt es bei dir, die zugehörigen Dokumente später zu laden, wenn d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Expressions/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Expressions/de

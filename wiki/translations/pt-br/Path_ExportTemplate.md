@@ -56,4 +56,4 @@ The **Edit → Preferences... → Path → Job Preferences → Defaults → Temp
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate/pt-br

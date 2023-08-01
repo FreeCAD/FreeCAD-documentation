@@ -105,4 +105,4 @@ C. Double-cliquez n\'importe où ailleurs dans la ligne pour ouvrir le panneau d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBitLibraryOpen/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBitLibraryOpen/fr

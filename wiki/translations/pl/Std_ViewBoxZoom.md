@@ -32,4 +32,4 @@ Polecenie **Powiększ obszar** powoduje powiększenie prostokątnego obszaru zde
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewBoxZoom/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std ViewBoxZoom/pl

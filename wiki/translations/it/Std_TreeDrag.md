@@ -39,4 +39,4 @@ Il comando **Avvia il trascinamento** avvia un\'operazione di trascinamento per 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeDrag/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std TreeDrag/it

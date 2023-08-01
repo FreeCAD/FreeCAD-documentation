@@ -17,4 +17,4 @@ Un sottoinsieme dell\'ambiente di [Ingegneria civile](Civil_Engineering_Workbenc
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [User Documentation](Category_User Documentation.md) > Transportation Workbench/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [User Documentation](Category_User Documentation.md) > Transportation Workbench/it

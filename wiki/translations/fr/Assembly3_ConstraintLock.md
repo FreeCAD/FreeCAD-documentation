@@ -34,4 +34,4 @@ IL peut être utilisé pour définir l\'ensemble fixe dans un assemblage statiqu
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintLock/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLock/fr

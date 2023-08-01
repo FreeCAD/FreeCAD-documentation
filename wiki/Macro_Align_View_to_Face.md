@@ -97,4 +97,4 @@ Gui.SendMsgToActiveView("ViewSelection")
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Align View to Face
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Align View to Face

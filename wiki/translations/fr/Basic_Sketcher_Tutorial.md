@@ -337,4 +337,4 @@ Contraindre une esquisse peut se faire de différentes manières. En général, 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/fr

@@ -94,4 +94,4 @@ Notez que la désinstallation (mode transparent) échouera s\'il y a une instanc
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Installing on Windows/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Installing on Windows/fr

@@ -96,4 +96,4 @@ Pour tout commentaire (bogue, demande de fonctionnalité, commentaires, \...), v
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro PlacementAbsolufy/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro PlacementAbsolufy/fr

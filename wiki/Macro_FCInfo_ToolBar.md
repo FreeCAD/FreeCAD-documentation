@@ -221,4 +221,4 @@ version: 00.01 2022/02/16 :
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro FCInfo ToolBar
+![](images/Button_right.svg) [documentation index](../README.md) > Macro FCInfo ToolBar

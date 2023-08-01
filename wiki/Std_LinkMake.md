@@ -393,4 +393,4 @@ Other miscellaneous \"links\" about Link include:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkMake
+![](images/Button_right.svg) [documentation index](../README.md) > Std LinkMake

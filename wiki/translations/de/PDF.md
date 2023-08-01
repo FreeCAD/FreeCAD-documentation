@@ -26,4 +26,4 @@ Die Option, nach PDF zu exportieren, ist im Menü unter **Datei → [PDF exporti
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > PDF/de
+![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > PDF/de

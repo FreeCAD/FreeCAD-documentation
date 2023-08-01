@@ -81,4 +81,4 @@ Afin d\'ajouter quoi que ce soit à cette liste, cela doit être approuvé par l
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD used in production/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD used in production/fr

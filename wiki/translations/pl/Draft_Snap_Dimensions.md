@@ -42,4 +42,4 @@ Zobacz stronę [Przyciąganie](Draft_Snap/pl#Ustawienia.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Dimensions/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Dimensions/pl

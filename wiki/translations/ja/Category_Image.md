@@ -10,4 +10,4 @@ This category lists pages related to the [Image Workbench/ja](Image_Workbench/ja
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Image/ja
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Image/ja

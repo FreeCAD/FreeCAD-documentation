@@ -181,4 +181,4 @@ La discussion du forum [New Macros : GenerateViews et GenerateDrawing](https://f
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro GenerateViews/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro GenerateViews/fr

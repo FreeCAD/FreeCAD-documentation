@@ -143,4 +143,4 @@ Nous avons complété la procédure de base de l\'[atelier FEM](FEM_Workbench/fr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM tutorial/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM tutorial/fr

@@ -40,4 +40,4 @@ Polecenie **Std: Okno dialogowe preferencji** otwiera edytor [Edytor ustawień](
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgPreferences/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std DlgPreferences/pl

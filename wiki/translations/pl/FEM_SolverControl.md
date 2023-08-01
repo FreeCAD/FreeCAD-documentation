@@ -46,4 +46,4 @@ Polecenie to służy do sterowania solverem FEM *(zapis pliku wejściowego, jego
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverControl/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverControl/pl

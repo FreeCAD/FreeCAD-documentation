@@ -144,4 +144,4 @@ The discussion [How do I transform a point cloud to a line?](http://forum.freeca
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro WireXYZ
+![](images/Button_right.svg) [documentation index](../README.md) > Macro WireXYZ

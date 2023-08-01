@@ -32,4 +32,4 @@ Dies kann genutzt werden, um ein unbewegliches Set zu definieren, sowohl für ei
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintLock/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLock/de

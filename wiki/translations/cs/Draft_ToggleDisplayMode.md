@@ -37,4 +37,4 @@ Tento nástroj přepíná zobrazení vybraného objektu(ů) mezi Drátovým zobr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/cs
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/cs

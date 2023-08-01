@@ -87,4 +87,4 @@ Se c\'è un solo figlio nel risultato, l\'output è il figlio. Se è presente pi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/it

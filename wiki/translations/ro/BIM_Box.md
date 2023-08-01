@@ -33,4 +33,4 @@ Instrumentul BIM Box vă permite să creați un [Part Box](Part_Box.md) standard
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Box/ro
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Box/ro

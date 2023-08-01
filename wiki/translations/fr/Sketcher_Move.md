@@ -44,4 +44,4 @@ Déplacer le pointeur de la souris sur l'emplacement de la cible '''3'''. L'él�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/fr

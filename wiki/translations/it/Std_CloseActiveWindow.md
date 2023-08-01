@@ -69,4 +69,4 @@ Per chiudere un documento usare il metodo `closeDocument` dell\'applicazione Fre
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std CloseActiveWindow/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std CloseActiveWindow/it

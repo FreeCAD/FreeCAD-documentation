@@ -43,4 +43,4 @@ Per tagliare altri oggetti è possibile utilizzare il comando [Std Copy](Std_Cop
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Cut/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std Cut/it

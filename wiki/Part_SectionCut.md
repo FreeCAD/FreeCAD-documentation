@@ -99,4 +99,4 @@ All visible objects are put into a <img alt="" src=images/Part_Compound.svg  sty
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SectionCut
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SectionCut

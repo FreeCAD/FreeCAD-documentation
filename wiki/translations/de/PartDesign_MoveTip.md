@@ -37,4 +37,4 @@ Die Arbeitsposition wird im Modellbaum durch einen kleinen weißen Abwärtspfeil
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveTip/de
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveTip/de

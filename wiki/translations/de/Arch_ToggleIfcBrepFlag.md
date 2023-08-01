@@ -30,4 +30,4 @@ Dieses Werkzeug schaltet die IfcBrep-Markierung eines ausgewählten [Arch](Arch_
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/de

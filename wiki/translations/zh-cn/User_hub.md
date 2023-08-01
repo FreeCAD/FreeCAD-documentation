@@ -144,4 +144,4 @@ FreeCAD 正在持续发展当中，所以可能存在缺少或过时的信息。
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/zh-cn
+![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/zh-cn

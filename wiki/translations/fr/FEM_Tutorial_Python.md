@@ -647,4 +647,4 @@ Amusez-vous! Aussi, si vous avez des commentaires ou des améliorations, n\'hés
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Python Code](Category_Python Code.md) > [FEM](Category_FEM.md) > FEM Tutorial Python/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Python Code](Category_Python Code.md) > [FEM](Category_FEM.md) > FEM Tutorial Python/fr

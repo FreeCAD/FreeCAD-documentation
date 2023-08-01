@@ -117,4 +117,4 @@ Press the **Accept** button when you are ready, so the Ship module will start th
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Hydrostatics/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Hydrostatics/de

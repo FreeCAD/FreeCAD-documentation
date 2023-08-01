@@ -23,4 +23,4 @@ FreeCAD 文档以 .FcStd 扩展名保存，它是一种基于 ZIP 的复合格�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The FreeCAD document/zh-cn
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:The FreeCAD document/zh-cn

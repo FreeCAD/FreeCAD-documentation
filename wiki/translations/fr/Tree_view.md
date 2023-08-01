@@ -237,4 +237,4 @@ Ceci indique que l\'objet sera caché dans la vue en arborescence si l\'option d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Tree view/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Tree view/fr

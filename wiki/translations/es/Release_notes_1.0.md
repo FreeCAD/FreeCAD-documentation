@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Release notes 1.0/es
+![](images/Button_right.svg) [documentation index](../README.md) > Release notes 1.0/es

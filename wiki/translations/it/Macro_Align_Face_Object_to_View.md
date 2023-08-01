@@ -71,4 +71,4 @@ Original macro by wmayer [Looking for some helpful GUI-commands](http://forum.fr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Align Face Object to View/it
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Align Face Object to View/it

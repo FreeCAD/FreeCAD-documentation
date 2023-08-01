@@ -20,4 +20,4 @@ Per tutte le icone nell\'albero del codice sorgente, vedere [Oggetti grafici](Ar
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [PartDesign](Category_PartDesign.md) > Artwork PartDesign/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [PartDesign](Category_PartDesign.md) > Artwork PartDesign/it

@@ -33,4 +33,4 @@ La commande **Std Inspecteur de scène‏‎** ouvre une boîte de dialogue affi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SceneInspector/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std SceneInspector/fr

@@ -145,4 +145,4 @@ Voir [PartDesign Congé](PartDesign_Fillet/fr#Probl.C3.A8mes_connus.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/fr

@@ -12,4 +12,4 @@ This category groups all of the FreeCAD documentation
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Documentation/ko
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Documentation/ko

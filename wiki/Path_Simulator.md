@@ -50,4 +50,4 @@ The <img alt="" src=images/Path_Simulator.svg  style="width:24px;"> [Simulator](
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Simulator
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Simulator

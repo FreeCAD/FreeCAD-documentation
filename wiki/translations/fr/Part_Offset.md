@@ -66,4 +66,4 @@ Décalage *rempli* avec 2 cylindres créant des coupes booléennes. Le cylindre 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/fr

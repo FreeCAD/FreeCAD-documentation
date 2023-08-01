@@ -138,4 +138,4 @@ Eine Wendel, die sich nicht selbst durchdringt, ist sichtbar, wenn **Werkzeuge â
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveHelix/de
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveHelix/de

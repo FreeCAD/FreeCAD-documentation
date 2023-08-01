@@ -49,4 +49,4 @@ Anfangs wird die Position des Roboters zum Einfügezeitpunkt als Home-Position d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetHomePos/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetHomePos/de

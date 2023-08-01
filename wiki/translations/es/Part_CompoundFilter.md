@@ -81,4 +81,4 @@ Si sólo hay un niño en el resultado, la salida es el niño. Si hay más de un 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/es
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/es

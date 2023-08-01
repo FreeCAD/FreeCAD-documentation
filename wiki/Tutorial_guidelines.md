@@ -95,4 +95,4 @@ Image:Astronotus_ocellatus.jpg\|*[Astronotus ocellatus](commons_Astronotus_ocell
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Tutorial guidelines
+![](images/Button_right.svg) [documentation index](../README.md) > Tutorial guidelines

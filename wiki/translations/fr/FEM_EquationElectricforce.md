@@ -60,4 +60,4 @@ Le résultat est la densité de force électrique en $\rm N/m^2$.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElectricforce/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElectricforce/fr

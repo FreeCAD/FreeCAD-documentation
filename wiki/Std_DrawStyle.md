@@ -85,4 +85,4 @@ The **Flat lines** style overrides the **Display Mode** of objects. This style m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DrawStyle
+![](images/Button_right.svg) [documentation index](../README.md) > Std DrawStyle

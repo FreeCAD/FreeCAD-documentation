@@ -91,4 +91,4 @@ Casetele **Base point** pot fi utilizate pentru a mișca planul oglinzii paralel
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/ro

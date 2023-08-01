@@ -98,4 +98,4 @@ L\'ordre de nœud suivant n\'est pas implémenté ! TODO: vérifier l\'ordre des
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer](Category_Developer.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > [FEM](Category_FEM.md) > FEM Mesh CalculiX/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > [FEM](Category_FEM.md) > FEM Mesh CalculiX/fr

@@ -45,4 +45,4 @@ W menu kontekstowym dostępne są następujące opcje dodatkowe:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Alignment/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std Alignment/pl

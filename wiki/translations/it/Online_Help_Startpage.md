@@ -27,4 +27,4 @@ Come sicuramente vi sarà capitato di constatare, i programmatori sono pessimi s
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/it
+![](images/Button_right.svg) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/it

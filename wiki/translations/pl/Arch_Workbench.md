@@ -205,4 +205,4 @@ Moduł Arch może być używany w skryptach [Python](Python.md) i [makrodefiniac
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/pl

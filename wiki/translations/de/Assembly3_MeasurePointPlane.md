@@ -20,4 +20,4 @@ Dieses Werkzeug misst den Abstand zwischen zwei Objekten eines Zusammenbaus unte
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MeasurePointPlane/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 MeasurePointPlane/de

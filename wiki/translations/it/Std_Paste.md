@@ -52,4 +52,4 @@ Il comando **Incolla** incolla gli oggetti dagli Appunti nel documento attivo.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Paste/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std Paste/it

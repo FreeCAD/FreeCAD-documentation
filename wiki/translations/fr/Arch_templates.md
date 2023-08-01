@@ -98,4 +98,4 @@ Les modèles sont dessinés par [Quick61](User_Quick61.md) et répertoriés [Fre
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Drawing](Category_Drawing.md) > [Arch](Arch_Workbench.md) > Arch templates/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Drawing](Category_Drawing.md) > [Arch](Arch_Workbench.md) > Arch templates/fr

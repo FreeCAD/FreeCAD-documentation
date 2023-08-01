@@ -34,4 +34,4 @@ La copie a des propriétés de vue simples comme toutes les autres [Part Fonctio
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part TransformedCopy/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part TransformedCopy/fr

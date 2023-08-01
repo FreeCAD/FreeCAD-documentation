@@ -36,4 +36,4 @@ Exporte la pièce sélectionnée dans un fichier pov à utiliser dans un projet 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WritePart/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WritePart/fr

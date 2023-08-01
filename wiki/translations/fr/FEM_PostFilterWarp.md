@@ -42,4 +42,4 @@ Le résultat sera le même qu\'avec le curseur *Déplacement* de la boîte de di
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterWarp/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterWarp/fr

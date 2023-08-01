@@ -87,4 +87,4 @@ La discussione [Duplicate Objects when more than one face selected](http://forum
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Duplicate Selection/it
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Duplicate Selection/it

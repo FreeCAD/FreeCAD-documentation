@@ -69,4 +69,4 @@ doc.saveCopy(fnm)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SaveCopy/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std SaveCopy/fr

@@ -100,4 +100,4 @@ Wenn du die **Accept** Schaltfläche drückst, wird eine neue Schiffsinstanz mit
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship CreateShip/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship CreateShip/de

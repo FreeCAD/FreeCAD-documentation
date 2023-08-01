@@ -136,4 +136,4 @@ La discussion sur le forum [How do I transform a point cloud to a line?](http://
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro WireXYZ/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro WireXYZ/fr

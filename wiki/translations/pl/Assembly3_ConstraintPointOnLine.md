@@ -26,4 +26,4 @@ Related to the first object the following object can still move along the z-axis
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointOnLine/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointOnLine/pl

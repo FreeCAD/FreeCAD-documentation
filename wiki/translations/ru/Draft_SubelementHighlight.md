@@ -53,4 +53,4 @@ The <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:24px;"> *
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SubelementHighlight/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SubelementHighlight/ru

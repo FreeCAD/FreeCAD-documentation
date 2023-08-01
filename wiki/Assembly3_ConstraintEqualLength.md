@@ -28,4 +28,4 @@ The length value of the first selected line equals the length value of the secon
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintEqualLength
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintEqualLength

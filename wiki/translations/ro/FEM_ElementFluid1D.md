@@ -69,4 +69,4 @@ Creează o MEF în secțiunea de fluid pentru rețele aerodinamice și hidraulic
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementFluid1D/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementFluid1D/ro

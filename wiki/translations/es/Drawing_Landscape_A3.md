@@ -27,4 +27,4 @@ Si la página no se muestra, pulsa en el icono <img alt="" src=images/view-refre
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Landscape A3/es
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Landscape A3/es

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Basic Part Design Tutorial 017/es
+![](images/Button_right.svg) [documentation index](../README.md) > Basic Part Design Tutorial 017/es

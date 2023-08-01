@@ -93,4 +93,4 @@ if __name__ == "__main__":
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Rectellipse/en
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Rectellipse/en

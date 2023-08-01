@@ -72,4 +72,4 @@ FreeCAD 可以用 [CMake](https://cmake.org/) 在所有平台上编译。源代�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/zh-cn
+![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/zh-cn

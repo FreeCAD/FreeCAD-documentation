@@ -38,4 +38,4 @@ The **Std RecentFiles** menu option displays a list of recent files which can be
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std RecentFiles/en
+![](images/Button_right.svg) [documentation index](../README.md) > Std RecentFiles/en

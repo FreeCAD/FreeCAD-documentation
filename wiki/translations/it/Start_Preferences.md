@@ -94,4 +94,4 @@ C\'è solo una scheda: *Opzioni della pagina iniziale* nella sezione **Start**. 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Start](Start_Workbench.md) > Start Preferences/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Start](Start_Workbench.md) > Start Preferences/it

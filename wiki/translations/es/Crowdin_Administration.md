@@ -60,4 +60,4 @@ Si nota una cadena en la interfaz de usuario de FreeCAD que no ha sido traducida
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration/es
+![](images/Button_right.svg) [documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration/es

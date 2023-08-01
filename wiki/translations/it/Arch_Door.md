@@ -29,4 +29,4 @@ Tutte le proprietà sono descritte nello strumento [Finestra](Arch_Window/it.md)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Door/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Door/it

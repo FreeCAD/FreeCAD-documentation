@@ -43,4 +43,4 @@ Image:Macro HighlightDifference 00.png\|Originalobjekte Image:Macro HighlightDif
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro HighlightDifference/de
+![](images/Button_right.svg) [documentation index](../README.md) > Macro HighlightDifference/de

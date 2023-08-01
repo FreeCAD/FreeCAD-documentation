@@ -15,4 +15,4 @@ Redirect this page to [OpenCASCADE](OpenCASCADE.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > OpenCascade/en
+![](images/Button_right.svg) [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > OpenCascade/en

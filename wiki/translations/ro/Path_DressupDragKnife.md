@@ -63,4 +63,4 @@ Acest instrument îmbracă o cale existentă pentru a adăuga acțiuni de colț 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDragKnife/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDragKnife/ro

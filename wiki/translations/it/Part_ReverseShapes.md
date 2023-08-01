@@ -48,4 +48,4 @@ Inverte le normali di tutte le facce dell\'oggetto selezionato.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ReverseShapes/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ReverseShapes/it

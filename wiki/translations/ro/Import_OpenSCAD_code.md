@@ -99,4 +99,4 @@ Aici vom folosi exemplu005.scad-fișierul din exemplele (vechi) OpenSCAD, dar nu
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](Category_OpenSCAD.md) > [Import](Import_Workbench.md) > Import OpenSCAD code/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](Category_OpenSCAD.md) > [Import](Import_Workbench.md) > Import OpenSCAD code/ro

@@ -64,4 +64,4 @@ This can also be done with objects contained inside {{button|[<img src=images/St
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkReplace/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Std LinkReplace/ru

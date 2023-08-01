@@ -68,4 +68,4 @@ Pełna lista wszystkich obsługiwanych jednostek znajduje się [na tej stronie](
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Units/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Units/pl

@@ -90,4 +90,4 @@ Ursprüngliches Forumsthema: <http://forum.freecadweb.org/viewtopic.php?f=10&t=4
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro 3d Printer Slicer/de
+![](images/Button_right.svg) [documentation index](../README.md) > Macro 3d Printer Slicer/de

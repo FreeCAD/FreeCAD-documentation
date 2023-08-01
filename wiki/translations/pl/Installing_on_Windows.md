@@ -107,4 +107,4 @@ Należy pamiętać, że *(cicha)* deinstalacja nie powiedzie się, jeśli istnie
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Installing on Windows/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Installing on Windows/pl

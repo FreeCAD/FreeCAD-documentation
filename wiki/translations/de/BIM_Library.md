@@ -36,4 +36,4 @@ Mit dem Werkzeug BIM-Bibliothek kann man im aktuellen Modell ein Objekt aus der 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > BIM Library/de
+![](images/Button_right.svg) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > BIM Library/de

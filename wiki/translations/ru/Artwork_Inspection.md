@@ -12,4 +12,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Inspection](Category_Inspection.md) > Artwork Inspection/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Inspection](Category_Inspection.md) > Artwork Inspection/ru

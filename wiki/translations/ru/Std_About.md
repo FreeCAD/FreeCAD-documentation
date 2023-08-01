@@ -93,4 +93,4 @@ FreeCAD распространяется под лицензией [GNU Lesser G
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/ru
+![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/ru

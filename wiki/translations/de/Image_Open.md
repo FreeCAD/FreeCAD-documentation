@@ -31,4 +31,4 @@ Das Bild wird in einem neuen Ansichtsfenster platziert, nicht in der 3D-Ansicht.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/de

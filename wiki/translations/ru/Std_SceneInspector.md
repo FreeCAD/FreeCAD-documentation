@@ -40,4 +40,4 @@ The **Std SceneInspector** command opens a dialog box displaying an overview of 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SceneInspector/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Std SceneInspector/ru

@@ -63,4 +63,4 @@ Această funcționalitate vă permite să creați ferestre noi de vizualizare 3D
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewCreate/ro
+![](images/Button_right.svg) [documentation index](../README.md) > Std ViewCreate/ro

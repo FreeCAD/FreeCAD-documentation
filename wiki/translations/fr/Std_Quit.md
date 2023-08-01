@@ -47,4 +47,4 @@ La commande **Std Quitter** ferme l\'application FreeCAD et enregistre éventuel
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Quit/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Std Quit/fr

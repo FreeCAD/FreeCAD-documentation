@@ -37,4 +37,4 @@ The <img alt="" src=images/Curves_Interpolate.svg  style="width:24px;"> [Curves 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves Interpolate/en
+![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves Interpolate/en

@@ -127,4 +127,4 @@ Lower right: recombination at the surface and in the volume using the '''Simple 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshGmshFromShape/en
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshGmshFromShape/en

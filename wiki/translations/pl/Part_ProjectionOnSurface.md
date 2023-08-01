@@ -108,4 +108,4 @@ Rzutowanie wykonane w środowisku pracy Część nie jest parametryczne. Jeśli 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ProjectionOnSurface/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ProjectionOnSurface/pl

@@ -53,4 +53,4 @@ Nous essayons autant que possible de respecter ce tableau, la couleur des icône
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Gui Command/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Gui Command/fr

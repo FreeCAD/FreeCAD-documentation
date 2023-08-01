@@ -10,4 +10,4 @@ This category lists pages related to the [Part Workbench/zh-hant](Part_Workbench
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Part/zh-hant
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Part/zh-hant

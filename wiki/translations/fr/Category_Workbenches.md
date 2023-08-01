@@ -26,4 +26,4 @@ Cette catégorie répertorie les ateliers inclus dans FreeCAD.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Workbenches/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Workbenches/fr

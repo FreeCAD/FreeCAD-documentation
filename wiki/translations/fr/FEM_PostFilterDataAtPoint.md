@@ -37,4 +37,4 @@ La valeur à ce point pour le **Champ** donné est affichée dans la boîte de d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterDataAtPoint/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterDataAtPoint/fr

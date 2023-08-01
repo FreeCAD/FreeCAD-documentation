@@ -39,4 +39,4 @@ Dans la version 0.20 de FreeCAD, la commande peut également gérer les objets d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddToGroup/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddToGroup/fr

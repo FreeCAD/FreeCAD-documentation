@@ -87,4 +87,4 @@ In particolare, il passaggio dalla scheda **Azioni** alla scheda **Modello** non
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Task panel/it
+![](images/Button_right.svg) [documentation index](../README.md) > Task panel/it

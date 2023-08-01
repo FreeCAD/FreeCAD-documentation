@@ -86,4 +86,4 @@ fhequiv = EM.makeFHEquiv(fhnode1, fhnode2)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [EM](Category_EM.md) > EM FHEquiv/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [EM](Category_EM.md) > EM FHEquiv/fr

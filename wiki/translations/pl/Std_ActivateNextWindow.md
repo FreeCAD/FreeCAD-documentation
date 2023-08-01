@@ -42,4 +42,4 @@ Polecenie **Następne** aktywuje następne okno w [Głównym obszarze widoku](Ma
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ActivateNextWindow/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std ActivateNextWindow/pl

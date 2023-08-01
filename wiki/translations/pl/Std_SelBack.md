@@ -41,4 +41,4 @@ Polecenie **Przywróć wybór** przywraca poprzedni zarejestrowany wybór z [Wid
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SelBack/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std SelBack/pl

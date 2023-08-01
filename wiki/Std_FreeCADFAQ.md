@@ -26,4 +26,4 @@ Currently the command points to [<https://wiki.freecad.org/Frequently_asked_ques
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADFAQ
+![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADFAQ

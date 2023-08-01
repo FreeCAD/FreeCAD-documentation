@@ -77,4 +77,4 @@ Knihovna dílů, která je užitečná pro široký okruh lidí, může být rea
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro BOLTS/cs
+![](images/Button_right.svg) [documentation index](../README.md) > Macro BOLTS/cs

@@ -45,4 +45,4 @@ Polecenie **Załaduj obraz** otwiera obraz w nowej karcie w [głównego obszaru 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewLoadImage/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std ViewLoadImage/pl

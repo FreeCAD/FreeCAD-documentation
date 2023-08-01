@@ -20,4 +20,4 @@ This category collects pages related to artwork existing in the program, like ic
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Artwork/en
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Artwork/en

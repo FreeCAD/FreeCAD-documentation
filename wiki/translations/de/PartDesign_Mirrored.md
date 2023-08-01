@@ -116,4 +116,4 @@ Siehe [PartDesign PolaresMuster](PartDesign_PolarPattern/de#Einschränkungen.md)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/de
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/de

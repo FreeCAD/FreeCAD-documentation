@@ -27,4 +27,4 @@ Du kannst auch den Größenmanager verwenden, um die tatsächlichen **Höhe**, *
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM IfcQuantities/de
+![](images/Button_right.svg) [documentation index](../README.md) > BIM IfcQuantities/de

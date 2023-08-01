@@ -51,4 +51,4 @@ Dal Forum [Info Workbench - Help with icons please.](http://forum.freecadweb.org
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro ObjectInfo/it
+![](images/Button_right.svg) [documentation index](../README.md) > Macro ObjectInfo/it

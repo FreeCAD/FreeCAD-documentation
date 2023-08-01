@@ -46,4 +46,4 @@ Un filtre scalaire peut être combiné avec d\'autres filtres. Voici par exemple
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterClipScalar/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterClipScalar/fr

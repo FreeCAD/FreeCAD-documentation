@@ -45,4 +45,4 @@ This command essentially runs **[<img src=images/Std_LinkImport.svg style="width
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkImportAll/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Std LinkImportAll/ru

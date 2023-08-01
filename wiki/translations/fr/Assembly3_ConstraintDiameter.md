@@ -29,4 +29,4 @@ Pour définir le diamètre, modifiez le paramètre Diamètre dans le panneau des
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintDiameter/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintDiameter/fr

@@ -21,4 +21,4 @@ Das **Draft Fach** ermöglicht die Auswahl einer Arbeitsebene, Stileinstellungen
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Tray/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Tray/de

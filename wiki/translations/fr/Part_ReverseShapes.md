@@ -30,4 +30,4 @@ Inverse les normales de toutes les faces de l\'objet sélectionné.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ReverseShapes/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ReverseShapes/fr

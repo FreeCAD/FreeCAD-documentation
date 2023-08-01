@@ -38,4 +38,4 @@ The **TechDraw ExtensionCascadeObliqueDimension** tool evenly spaces oblique dim
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCascadeObliqueDimension/en
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCascadeObliqueDimension/en

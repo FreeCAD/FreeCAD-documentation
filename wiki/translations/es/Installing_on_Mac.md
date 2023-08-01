@@ -70,4 +70,4 @@ Si instalaste FreeCAD con homebrew simplemente usa el comando `brew uninstall fr
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Installing on Mac/es
+![](images/Button_right.svg) [documentation index](../README.md) > Installing on Mac/es

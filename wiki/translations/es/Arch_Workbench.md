@@ -222,4 +222,4 @@ El Módulo de arquitectura puede usarse en scripts de [Python](Python/es.md) y e
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/es
+![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/es

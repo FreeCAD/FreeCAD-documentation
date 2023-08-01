@@ -24,4 +24,4 @@ The <img alt="" src=images/Web_BrowserRefresh.svg  style="width:24px;"> **Web Br
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserRefresh
+![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserRefresh

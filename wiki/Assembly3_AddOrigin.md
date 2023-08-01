@@ -25,4 +25,4 @@ The Origin object will be placed in the Parts container and it contains 6 sub-ob
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AddOrigin
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 AddOrigin

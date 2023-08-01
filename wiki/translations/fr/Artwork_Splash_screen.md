@@ -54,4 +54,4 @@ Ce sont les écrans de démarrage qui ont été utilisés pour chaque version du
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Splash screen/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Splash screen/fr

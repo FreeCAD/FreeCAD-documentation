@@ -412,4 +412,4 @@ The forum discussion [Pinger macro](https://forum.freecadweb.org/viewtopic.php?f
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Pinger/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Pinger/pl

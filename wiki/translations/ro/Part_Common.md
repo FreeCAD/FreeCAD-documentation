@@ -54,4 +54,4 @@ Elementele de intrare trebuie să fie forme OpenCascade. Exemple: chestii realiz
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/ro

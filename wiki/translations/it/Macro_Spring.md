@@ -73,4 +73,4 @@ La pagina della discussione nel forum: [scripting animations](http://forum.freec
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Spring/it
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Spring/it

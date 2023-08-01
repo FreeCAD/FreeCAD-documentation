@@ -23,4 +23,4 @@ In lockerer Unterhaltung wird das Wort \"[Zeichnung](Drawing/de.md)\" oft gleich
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Model/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Model/de

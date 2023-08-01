@@ -99,4 +99,4 @@ You can also use the Selection View to select objects by searching for a particu
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:Navigating in the 3D view/en
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:Navigating in the 3D view/en

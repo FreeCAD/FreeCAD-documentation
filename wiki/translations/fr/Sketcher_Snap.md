@@ -44,4 +44,4 @@ L\'aimantation ne fonctionne que lors de la création d\'une géométrie. Notez 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Snap/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Snap/fr

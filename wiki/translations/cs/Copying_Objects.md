@@ -62,4 +62,4 @@ Jako mnoho věcí ve FreeCADu, je mnoho způsobů jak vytvořit kopii. Pro dalš
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Copying Objects/cs
+![](images/Button_right.svg) [documentation index](../README.md) > Copying Objects/cs

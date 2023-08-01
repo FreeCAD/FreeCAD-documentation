@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Creating a FeaturePython Box, Part II/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Creating a FeaturePython Box, Part II/ru

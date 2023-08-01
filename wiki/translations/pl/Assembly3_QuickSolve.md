@@ -25,4 +25,4 @@ The <img alt="" src=images/Assembly_QuickSolve.svg‎‎  style="width:24px;"> [
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 QuickSolve/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 QuickSolve/pl

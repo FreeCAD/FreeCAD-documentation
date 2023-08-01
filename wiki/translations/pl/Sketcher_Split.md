@@ -61,4 +61,4 @@ To narzędzie dzieli krawędź na dwie, a istniejące wiązania są kopiowane do
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Split/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Split/pl

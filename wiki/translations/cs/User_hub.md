@@ -200,4 +200,4 @@ Toto je oficiální online nápověda FreeCADu. Mějte prosím na paměti, že c
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/cs
+![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/cs

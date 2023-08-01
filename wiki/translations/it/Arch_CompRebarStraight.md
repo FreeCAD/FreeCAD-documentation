@@ -115,4 +115,4 @@ Torna alla pagina [Ambienti](Workbenches/it#Ambienti_aggiuntivi.md) o alla pagin
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/it

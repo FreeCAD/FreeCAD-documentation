@@ -19,4 +19,4 @@ To narzędzie mierzy odległość pomiędzy dwoma obiektami złożenia przy uży
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MeasurePointLine/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 MeasurePointLine/pl

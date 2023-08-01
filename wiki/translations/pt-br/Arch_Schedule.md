@@ -110,4 +110,4 @@ It is possible to add your own properties to objects. These are called [Dynamic 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Schedule/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Schedule/pt-br

@@ -87,4 +87,4 @@ Facendo clic con il pulsante destro del mouse sulla vista del report si apre un 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Report view/it
+![](images/Button_right.svg) [documentation index](../README.md) > Report view/it

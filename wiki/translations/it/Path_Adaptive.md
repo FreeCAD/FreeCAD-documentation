@@ -252,4 +252,4 @@ A proposed bugfix is available (but no one is working on integrating it):
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Adaptive/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Adaptive/it

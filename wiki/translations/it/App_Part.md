@@ -31,4 +31,4 @@ Vedere [Std Part](Std_Part/it#Proprietà.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > App Part/it
+![](images/Button_right.svg) [documentation index](../README.md) > App Part/it

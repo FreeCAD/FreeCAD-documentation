@@ -10,4 +10,4 @@ This category lists pages that are examples for the wiki documentation.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Wiki:Example/it
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Wiki:Example/it

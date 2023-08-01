@@ -50,4 +50,4 @@ Entrambe le versioni possono funzionare indipendentemente dal sistema operativo 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro FCInfo Alternate Linux/it
+![](images/Button_right.svg) [documentation index](../README.md) > Macro FCInfo Alternate Linux/it

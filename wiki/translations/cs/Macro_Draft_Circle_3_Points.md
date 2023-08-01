@@ -288,4 +288,4 @@ Geneze makra **Draft Circle 3 Points** [na fóru (PYTHONu) coordonnées d\'un po
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Draft Circle 3 Points/cs
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Draft Circle 3 Points/cs

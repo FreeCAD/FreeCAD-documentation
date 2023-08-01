@@ -166,4 +166,4 @@ If you do not see the green boxes for your editable texts, there might be someth
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Sandbox:TechDraw template creation tutorial
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Sandbox:TechDraw template creation tutorial

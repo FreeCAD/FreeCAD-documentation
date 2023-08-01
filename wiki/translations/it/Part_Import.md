@@ -26,4 +26,4 @@ Lo strumento **<img src="images/Part_Import.svg" width=16px> [Importa CAD](Part_
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Import/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Import/it

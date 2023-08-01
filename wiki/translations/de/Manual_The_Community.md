@@ -38,4 +38,4 @@ Hoffentlich ist es uns gelungen, dir in diesem Handbuch einen guten Vorgeschmack
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The Community/de
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:The Community/de

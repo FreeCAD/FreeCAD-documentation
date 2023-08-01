@@ -148,4 +148,4 @@ Il comando **Macro\...** apre la finestra di dialogo Esegui macro. Da questa fin
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgMacroExecute/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std DlgMacroExecute/it

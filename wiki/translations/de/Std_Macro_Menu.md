@@ -70,4 +70,4 @@ Führt das Makro aus, das sich derzeit im Python Editor befindet.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Macro Menu/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Macro Menu/de

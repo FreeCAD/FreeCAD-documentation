@@ -23,4 +23,4 @@ Based on one planar element\'s ICS the line element\'s start and end point are p
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintLineHorizontal/en
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLineHorizontal/en

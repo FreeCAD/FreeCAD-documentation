@@ -20,4 +20,4 @@ This category lists pages related to the [Sketcher Workbench/zh-cn](Sketcher_Wor
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Sketcher/zh-cn
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Sketcher/zh-cn

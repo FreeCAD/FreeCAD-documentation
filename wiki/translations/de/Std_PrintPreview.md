@@ -36,4 +36,4 @@ Der Befehl **Std Druckvorschau** zeigt eine Vorschau auf das Ergebnis des Befehl
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std PrintPreview/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std PrintPreview/de

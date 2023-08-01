@@ -28,4 +28,4 @@ Voir [TechDraw Empiler en haut](TechDraw_StackTop/fr.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw StackUp/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw StackUp/fr

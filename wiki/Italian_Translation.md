@@ -12,4 +12,4 @@ Ho utilizzato Ambiente perchè questo termine è utilizzato spesso anche dai sof
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Italian Translation
+![](images/Button_right.svg) [documentation index](../README.md) > Italian Translation

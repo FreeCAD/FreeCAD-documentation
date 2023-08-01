@@ -39,4 +39,4 @@ Der Befehl **Std TreeDrag** startet das Ziehen von ausgewählten Objekten in der
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeDrag/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std TreeDrag/de

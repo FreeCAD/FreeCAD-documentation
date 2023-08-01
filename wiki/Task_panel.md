@@ -40,4 +40,4 @@ There are many commands that require selection of shapes or objects present in t
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Task panel
+![](images/Button_right.svg) [documentation index](../README.md) > Task panel

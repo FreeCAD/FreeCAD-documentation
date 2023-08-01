@@ -192,4 +192,4 @@ I na kraju, jedna od najmoćnijih značajki FreeCAD-a je [skriptiranje](scriptin
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/hr
+![](images/Button_right.svg) [documentation index](../README.md) > Getting started/hr

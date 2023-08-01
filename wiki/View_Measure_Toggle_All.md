@@ -30,4 +30,4 @@ The **View Measure Toggle All** command toggles the display of the active [3D vi
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > View Measure Toggle All
+![](images/Button_right.svg) [documentation index](../README.md) > View Measure Toggle All

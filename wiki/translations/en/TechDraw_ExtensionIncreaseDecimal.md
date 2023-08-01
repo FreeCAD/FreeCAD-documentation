@@ -37,4 +37,4 @@ The **TechDraw ExtensionIncreaseDecimal** tool increases the number of decimal p
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionIncreaseDecimal/en
+![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionIncreaseDecimal/en

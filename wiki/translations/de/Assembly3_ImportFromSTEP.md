@@ -23,4 +23,4 @@ Der Befehl <img alt="" src=images/Assembly_Import.svg‎‎  style="width:24px;"
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ImportFromSTEP/de
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ImportFromSTEP/de

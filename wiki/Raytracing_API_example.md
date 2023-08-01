@@ -50,4 +50,4 @@ myCustomRenderObject.Result = "// Hello from python!"
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing API example
+![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing API example

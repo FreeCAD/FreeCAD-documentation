@@ -40,4 +40,4 @@ Il comando **Colore casuale** applica un {{PropertyView/it|Shape Color}} casuale
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std RandomColor/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std RandomColor/it

@@ -302,4 +302,4 @@ Iar, la sfârşit, să remarcăm că una dintre cele mai puternice caracteristic
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/ro
+![](images/Button_right.svg) [documentation index](../README.md) > Getting started/ro

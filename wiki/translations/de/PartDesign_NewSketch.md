@@ -83,4 +83,4 @@ Um beliebige Elemente im [Sketcher](Sketcher_Workbench/de.md) zu referenzieren, 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/de
+![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/de

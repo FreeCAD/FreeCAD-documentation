@@ -994,4 +994,4 @@ Per un esempio di script, vedere [Modifica parametri](Std_DlgParameter/it.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Preferences Editor/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Preferences Editor/it

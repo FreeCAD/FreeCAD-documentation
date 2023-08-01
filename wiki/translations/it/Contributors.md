@@ -262,4 +262,4 @@ Sviluppatori di componenti aggiuntivi di FreeCAD (recuperato da <https://github.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer](Category_Developer.md) > Contributors/it
+![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > Contributors/it

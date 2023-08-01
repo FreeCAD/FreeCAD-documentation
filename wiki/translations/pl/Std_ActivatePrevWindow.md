@@ -42,4 +42,4 @@ Polecenie **Poprzednie** aktywuje poprzednie okno w [Głównym obszarze widoku](
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ActivatePrevWindow/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Std ActivatePrevWindow/pl

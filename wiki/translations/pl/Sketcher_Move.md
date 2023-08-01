@@ -45,4 +45,4 @@ Przesuwa wybrane elementy szkicu z jednego punktu do drugiego, używając ostatn
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/pl

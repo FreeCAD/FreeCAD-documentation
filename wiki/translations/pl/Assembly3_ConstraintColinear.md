@@ -38,4 +38,4 @@ This tool accepts a 3D elements as well e.g. edges or center lines.
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintColinear/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintColinear/pl

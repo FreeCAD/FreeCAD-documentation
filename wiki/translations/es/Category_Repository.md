@@ -10,4 +10,4 @@ Esta categoría recopila páginas que actúan como un repositorio de recursos pa
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Repository/es
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Repository/es

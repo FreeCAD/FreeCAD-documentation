@@ -40,4 +40,4 @@ Falls der Baumansicht [Sync-Auswahl](Std_TreeSyncSelection/de.md)-Modus ausgesch
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeSelection/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSelection/de

@@ -243,4 +243,4 @@ Altă explicație este pe [Placement](Placement.md)
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Command_Reference](Category_Command_Reference.md) > Tasks Placement/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Command_Reference](Category_Command_Reference.md) > Tasks Placement/ro

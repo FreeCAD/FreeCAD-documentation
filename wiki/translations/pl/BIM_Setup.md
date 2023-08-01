@@ -20,4 +20,4 @@ Po najechaniu myszką na poszczególne ustawienia, pojawi się podpowiedź wyja�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > BIM Setup/pl
+![](images/Button_right.svg) [documentation index](../README.md) > BIM Setup/pl

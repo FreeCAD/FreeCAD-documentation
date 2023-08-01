@@ -26,4 +26,4 @@ Narzędzie to otwiera arkusz rysunkowy zapisany wcześniej jako plik SVG *(skalo
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Open SVG/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Open SVG/pl

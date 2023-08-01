@@ -37,4 +37,4 @@ Icône de la barre d\'outils ![](images/Macro_Honeycomb.svg )
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Honeycomb/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Honeycomb/fr

@@ -40,4 +40,4 @@ Der Befehl **Polygonnetz FülleLochInteraktiv** füllt ausgewählte Löcher in P
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillInteractiveHole/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillInteractiveHole/de

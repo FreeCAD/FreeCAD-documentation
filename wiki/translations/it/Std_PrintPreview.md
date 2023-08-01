@@ -41,4 +41,4 @@ Il comando **Anteprima di stampa** mostra un\'anteprima del risultato del comand
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std PrintPreview/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std PrintPreview/it

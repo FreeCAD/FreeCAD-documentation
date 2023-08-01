@@ -146,4 +146,4 @@ Dacă aveți o activitate care susține mai multe operațiuni de traiectorie, pu
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/ro
+![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/ro

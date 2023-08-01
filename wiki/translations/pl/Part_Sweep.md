@@ -110,4 +110,4 @@ Opcja **Przejście** ustawia styl przejścia Przeciągania w miejscu połączeni
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/pl

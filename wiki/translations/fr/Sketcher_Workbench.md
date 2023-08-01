@@ -425,4 +425,4 @@ Pour avoir une idée de ce qui peut être réalisé avec les outils de Sketcher,
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/fr

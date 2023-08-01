@@ -34,4 +34,4 @@ Il comando **Crea una nuova vista** crea una nuova [vista 3D](3D_view/it.md) per
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewCreate/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std ViewCreate/it

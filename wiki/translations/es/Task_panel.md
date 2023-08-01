@@ -69,4 +69,4 @@ Nota: Por favor note que al cambiar de la pestaña **Tareas** a la pestaña **Mo
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Task panel/es
+![](images/Button_right.svg) [documentation index](../README.md) > Task panel/es

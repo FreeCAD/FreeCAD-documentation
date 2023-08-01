@@ -38,4 +38,4 @@ Nous espérons que nous avons réussi à vous donner un bon aperçu de FreeCAD d
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The Community/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Manual:The Community/fr

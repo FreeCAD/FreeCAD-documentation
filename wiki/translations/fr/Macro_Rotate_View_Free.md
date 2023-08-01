@@ -55,4 +55,4 @@ si aucun document n\'est ouvert une erreur est retournée
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro Rotate View Free/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro Rotate View Free/fr

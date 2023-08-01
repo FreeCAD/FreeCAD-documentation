@@ -10,4 +10,4 @@ This category lists pages related to the [Points Workbench/zh-tw](Points_Workben
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Points/zh-tw
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Points/zh-tw

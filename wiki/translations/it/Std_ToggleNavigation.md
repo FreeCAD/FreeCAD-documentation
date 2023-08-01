@@ -60,4 +60,4 @@ Non confondere questo comando con il comando [Modalità modifica](Std_Edit/it.md
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ToggleNavigation/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleNavigation/it

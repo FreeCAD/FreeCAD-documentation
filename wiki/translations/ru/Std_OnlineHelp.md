@@ -34,4 +34,4 @@ In FreeCAD <small>(v0.20)</small>  this command requires the [Help Addon](https:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std OnlineHelp/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Std OnlineHelp/ru

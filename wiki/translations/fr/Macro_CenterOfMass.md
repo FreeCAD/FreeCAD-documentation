@@ -70,4 +70,4 @@ La discussion sur le forum [Macro to compute center of mass](https://forum.freec
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Macro CenterOfMass/fr
+![](images/Button_right.svg) [documentation index](../README.md) > Macro CenterOfMass/fr

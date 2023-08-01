@@ -13,4 +13,4 @@ O FreeCAD oferece suporte a dispositivos especializados de entrada, como mouses 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > 3D input devices/pt-br
+![](images/Button_right.svg) [documentation index](../README.md) > 3D input devices/pt-br

@@ -58,4 +58,4 @@ Polecenie **UtwÃ³rz segmenty siatki** tworzy oddzielne segmenty siatki dla okreÅ
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Segmentation/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Segmentation/pl

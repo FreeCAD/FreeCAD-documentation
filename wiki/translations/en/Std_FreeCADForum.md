@@ -29,4 +29,4 @@ Currently the command points to [<https://forum.freecad.org>](https://forum.free
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADForum/en
+![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADForum/en

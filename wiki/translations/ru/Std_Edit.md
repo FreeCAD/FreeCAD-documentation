@@ -83,4 +83,4 @@ FreeCADGui.ActiveDocument.resetEdit()
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std Edit/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Std Edit/ru

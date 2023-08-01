@@ -34,4 +34,4 @@ Zalecana sposób instalacji można wykonać poprzez <img alt="" src=images/Std_A
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Silk](Category_Silk.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > Silk Workbench/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Silk](Category_Silk.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > Silk Workbench/pl

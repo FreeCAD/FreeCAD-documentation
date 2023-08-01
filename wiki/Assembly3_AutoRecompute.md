@@ -21,4 +21,4 @@ The <img alt="" src=images/Assembly_AutoRecompute.svg  style="width:24px;"> [Aut
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AutoRecompute
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 AutoRecompute

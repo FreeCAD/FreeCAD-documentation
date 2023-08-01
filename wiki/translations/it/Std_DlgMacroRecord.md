@@ -68,4 +68,4 @@ Il comando **Registra una macro** avvia una sessione di registrazione della [mac
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgMacroRecord/it
+![](images/Button_right.svg) [documentation index](../README.md) > Std DlgMacroRecord/it

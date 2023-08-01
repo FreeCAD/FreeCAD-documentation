@@ -23,4 +23,4 @@ Mit den Materialwerkzeugen können Materialien zum aktiven Dokument hinzugefügt
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompSetMaterial/de
+![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompSetMaterial/de

@@ -27,4 +27,4 @@ The <img alt="" src=images/Assembly_New_Element.svg‎‎  style="width:24px;"> 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 CreateElement/ru
+![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 CreateElement/ru

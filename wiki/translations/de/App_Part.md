@@ -37,4 +37,4 @@ Siehe [Std Part](Std_Part/de#Eigenschaften.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > App Part/de
+![](images/Button_right.svg) [documentation index](../README.md) > App Part/de

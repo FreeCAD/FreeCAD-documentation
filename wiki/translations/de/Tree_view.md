@@ -247,4 +247,4 @@ Dies zeigt an, dass das Objekt in der Baumansicht ausgeblendet ist, wenn die Kon
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Tree view/de
+![](images/Button_right.svg) [documentation index](../README.md) > Tree view/de

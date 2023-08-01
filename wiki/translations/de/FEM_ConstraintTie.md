@@ -33,4 +33,4 @@ Legt eine Randbedingung Verbinder fest, die zwei ausgewählte Flächen in einer 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > FEM ConstraintTie/de
+![](images/Button_right.svg) [documentation index](../README.md) > FEM ConstraintTie/de

@@ -53,4 +53,4 @@ Für ein Beispiel-Skript siehe [Std SichbarkeitUmschalten](Std_ToggleVisibility/
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std ToggleObjects/de
+![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleObjects/de

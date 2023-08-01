@@ -293,4 +293,4 @@ W kategorii Środowiska pracy Menedżera dodatków można znaleźć niektóre do
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Interface Customization/pl
+![](images/Button_right.svg) [documentation index](../README.md) > Interface Customization/pl

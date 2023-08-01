@@ -38,4 +38,4 @@ Si vous sélectionnez un axe défini par l\'utilisateur, les nombres définissen
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/fr

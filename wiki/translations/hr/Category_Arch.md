@@ -13,4 +13,4 @@ Pages relating to Architectural and Building Information Management
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Arch/hr
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Arch/hr

@@ -55,4 +55,4 @@ Pentru mai multe informații despre modul de selectare, puteți consulta și pag
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Std SelectAll/ro
+![](images/Button_right.svg) [documentation index](../README.md) > Std SelectAll/ro

@@ -81,4 +81,4 @@ Polecenie **Wygładź** wygładza obiekty siatkowe poprzez zmianę położenia i
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Smoothing/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Smoothing/pl

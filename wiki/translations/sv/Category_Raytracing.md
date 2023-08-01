@@ -11,4 +11,4 @@ This category lists pages related to the [Raytracing Workbench/sv](Raytracing_Wo
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Raytracing/sv
+![](images/Button_right.svg) [documentation index](../README.md) > Category:Raytracing/sv

@@ -126,4 +126,4 @@ La séquence des sections dépend de la séquence des clics dans la liste. Si vo
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft/fr
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft/fr

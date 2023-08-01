@@ -55,4 +55,4 @@ Um diesen Befehl zu verwenden, müssen die folgenden Bedingungen erfüllt sein:
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > WebTools BimServer/de
+![](images/Button_right.svg) [documentation index](../README.md) > WebTools BimServer/de

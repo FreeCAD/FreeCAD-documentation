@@ -75,4 +75,4 @@ Le sous-élément peut ensuite être extrait de la propriété affectée et peut
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > LinkSubList/fr
+![](images/Button_right.svg) [documentation index](../README.md) > LinkSubList/fr

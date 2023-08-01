@@ -117,4 +117,4 @@ Samo narzędzie jest zaimplementowane w środowisku Python, patrz **/Mod/Part/BO
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/pl
+![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/pl
