@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch_Reference
    Name/it:Riferimento
    Workbenches:[Arch](Arch_Workbench/it.md)

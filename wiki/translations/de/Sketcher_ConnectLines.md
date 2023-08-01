@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher ConnectLines
    Name/de:Sketcher LinienVerbinden
    MenuLocation:Skizze → Skizzen-Werkzeuge → Kanten verbinden

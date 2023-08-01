@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Лестница
    Name:Arch_Stairs
    MenuLocation:Arch → Лестница

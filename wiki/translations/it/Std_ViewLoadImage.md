@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std ViewLoadImage
    Name/it:Carica immagine
    MenuLocation:Strumenti → Carica immagine...

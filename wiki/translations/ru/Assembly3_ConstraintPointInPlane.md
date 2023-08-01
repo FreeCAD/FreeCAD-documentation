@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Assembly3 ConstraintPointInPlane
    Icon:Assembly_ConstraintPointInPlane.svg
    Workbenches:[Assembly3](Assembly3_Workbench/ru.md)

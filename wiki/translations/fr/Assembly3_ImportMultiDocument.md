@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 ImportMultiDocument
    Name/fr:Assembly3 Importer plusieurs documents
    Icon:Assembly_Import.svg

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft PointLinkArray
    Name/de:Entwurf PunktVerknüpfeAnordnung
    MenuLocation:Änderung → Anordnungswerkzeuge → Punkt Verknüpfe Anordnung

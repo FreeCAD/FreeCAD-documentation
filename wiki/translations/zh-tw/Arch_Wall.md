@@ -1,6 +1,6 @@
 # Arch Wall/zh-tw
 ---
-- GuiCommand:/zh-tw   Name:Arch Wall   Name/zh-tw:Arch Wall   Workbenches:[MenuLocation:Arch → Wall   Shortcut:W A   SeeAlso:[[Arch Structure/zh-tw|Arch Structure](Arch_Workbench/zh-tw___Arch]].md)---
+- GuiCommand:-tw   Name:Arch Wall   Name/zh-tw:Arch Wall   Workbenches:[MenuLocation:Arch → Wall   Shortcut:W A   SeeAlso:[[Arch Structure/zh-tw|Arch Structure](Arch_Workbench/zh-tw___Arch]].md)---
 
 
 </div>

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ProjectShape
    Name/fr:TechDraw Projection de forme
    MenuLocation:TechDraw → Vues de Techdraw → Projeter la forme...

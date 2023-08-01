@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Spreadsheet SetAlias
    Name/de:Kalkulationstabelle SetzeAlias
    Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)

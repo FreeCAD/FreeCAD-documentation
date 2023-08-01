@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_ViewBottom
    Name/it:Vista dal basso
    MenuLocation:Visualizza → Viste standard → Dal basso

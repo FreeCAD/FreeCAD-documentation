@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std ToggleObjects
    Name/it:Commuta tutti gli oggetti
    MenuLocation:Visualizza → Visibilità → Commuta tutti gli oggetti

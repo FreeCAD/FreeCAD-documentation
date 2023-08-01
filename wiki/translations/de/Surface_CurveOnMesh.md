@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Surface CurveOnMesh
    Name/de:Surface KurveAufNetz
    MenuLocation:Surface → Curve on mesh

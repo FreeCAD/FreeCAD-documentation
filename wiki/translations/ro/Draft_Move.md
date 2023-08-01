@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Draft Move
    Name/ro:Draft Move
    MenuLocation:Draft → Move

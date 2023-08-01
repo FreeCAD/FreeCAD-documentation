@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch Pipe
    Name/it:Tubo
    MenuLocation:Arch → Tubazioni → Tubo

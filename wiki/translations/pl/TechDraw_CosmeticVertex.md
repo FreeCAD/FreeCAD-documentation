@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw CosmeticVertex
    Name/pl:Rysunek Techniczny: Wstaw wierzchołek kosmetyczny
    MenuLocation:Rysunek Techniczny → Dodaj wierzchołki → Wstaw wierzchołek kosmetyczny

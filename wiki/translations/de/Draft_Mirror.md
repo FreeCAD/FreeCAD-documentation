@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Mirror
    Name/de:Entwurf Spiegeln
    MenuLocation:Änderung → Spiegeln

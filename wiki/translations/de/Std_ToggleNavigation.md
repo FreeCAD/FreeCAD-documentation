@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ToggleNavigation
    Name/de:Std NavigationEditieren
    MenuLocation:Ansicht → Navigations/Editier-Modus

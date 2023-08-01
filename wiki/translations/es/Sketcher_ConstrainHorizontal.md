@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Constraint Horizontal
    Name/es:Constraint Horizontal
    Workbenches:[Croquizador](Sketcher_Workbench/es.md), [Diseño de Piezas](PartDesign_Workbench/es.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Arch Panel Cut   Name/ro:Arch Panel Cut
    MenuLocation:Arch → Panel Tools → Panel Cut
    Workbenches:[Arch](Arch_Workbench/ro.md)

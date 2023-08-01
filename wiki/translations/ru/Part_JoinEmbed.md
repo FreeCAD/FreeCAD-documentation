@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Встроить объект
    Name:Part_JoinEmbed
    MenuLocation:Part → Соединить → Встроить объект

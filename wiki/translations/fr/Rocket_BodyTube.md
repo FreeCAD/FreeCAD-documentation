@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Rocket BodyTube
    Name/fr:Rocket Tube du corps
    MenuLocation:Rocket → Body Tube

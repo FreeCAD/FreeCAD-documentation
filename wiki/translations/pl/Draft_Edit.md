@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft Edit
    Name/pl:Rysunek Roboczy: Edytuj
    MenuLocation:Modyfikacja → Edytuj

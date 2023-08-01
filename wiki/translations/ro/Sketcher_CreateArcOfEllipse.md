@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Sketcher CreateArcOfEllipse
    Name/ro:Sketcher arc de elipsă
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)

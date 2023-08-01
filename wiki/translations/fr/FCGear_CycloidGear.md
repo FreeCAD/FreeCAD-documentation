@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FCGear CycloidGear
    Name/fr:FCGear Engrenage cycloïde
    MenuLocation:Gear → Cycloid Gear

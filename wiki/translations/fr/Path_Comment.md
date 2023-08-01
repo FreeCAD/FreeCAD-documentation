@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path Comment
    Name/fr:Path Commentaire
    MenuLocation:Path → Autres commandes → Commentaire

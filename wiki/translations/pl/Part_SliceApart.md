@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part SliceApart
    Name/pl:Część: Rozetnij
    MenuLocation:Część → Rozdziel → Rozetnij

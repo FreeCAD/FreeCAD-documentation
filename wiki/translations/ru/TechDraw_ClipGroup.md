@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать группу Видов
    Name:TechDraw_ClipGroup
    MenuLocation:TechDraw → Создать группу Видов

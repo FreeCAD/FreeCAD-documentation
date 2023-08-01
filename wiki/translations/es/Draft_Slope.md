@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft Slope
    Name/es:Borrador Pendiente
    MenuLocation:Modificación → Fijar pendiente<br>Utilidades → Fijar pendiente

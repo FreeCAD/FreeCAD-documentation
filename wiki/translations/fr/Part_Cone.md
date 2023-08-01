@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Cone
    Name/fr:Part Cône
    MenuLocation:Part → Primitives → Cône

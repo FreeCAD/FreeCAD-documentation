@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch SectionPlane
    Name/fr:Arch Plan de coupe
    MenuLocation:Arch → Plan de coupe

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Circle
    Name/tr:Çember
    MenuLocation:Taslak → Çember

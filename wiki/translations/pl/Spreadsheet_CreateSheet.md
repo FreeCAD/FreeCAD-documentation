@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Spreadsheet CreateSheet
    Name/pl:Arkusz Kalkulacyjny: Utwórz arkusz
    MenuLocation:Arkusz kalkulacyjny → Utwórz arkusz

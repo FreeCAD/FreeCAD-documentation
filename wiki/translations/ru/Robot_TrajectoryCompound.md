@@ -1,6 +1,6 @@
 # Robot TrajectoryCompound/ru
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Robot TrajectoryCompound
    Name/ru:Robot TrajectoryCompound
    Workbenches:[Robot](Robot_Workbench/ru.md)

@@ -1,6 +1,6 @@
 # Path Shape/it
 ---
-- GuiCommand:/it   Name:Path FromShapes   Name/it:Da forme   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Comandi parziali → Da forma   Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Path FromShapes   Name/it:Da forme   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Comandi parziali → Da forma   Shortcut:   SeeAlso:---
 
 
 </div>

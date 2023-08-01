@@ -1,6 +1,6 @@
 # Sketcher MapSketch/cs
 ---
-- GuiCommand:/cs   Name:Sketcher_MapSketch   Name/cs:Skicář Vyznač náčrt   Vytvoří náčrt na ploše|Workbenches:[Návrh dílu](Sketcher_Workbench/cs___Skicář]],_[[PartDesign_Workbench/cs.md)|MenuLocation:Návrh dílu → Vytvoř náčrt na ploše   SeeAlso:[Vytvoř náčrt](Sketcher_NewSketch/cs.md)---
+- GuiCommand:   Name:Sketcher_MapSketch   Name/cs:Skicář Vyznač náčrt   Vytvoří náčrt na ploše|Workbenches:[Návrh dílu](Sketcher_Workbench/cs___Skicář]],_[[PartDesign_Workbench/cs.md)|MenuLocation:Návrh dílu → Vytvoř náčrt na ploše   SeeAlso:[Vytvoř náčrt](Sketcher_NewSketch/cs.md)---
 
 
 </div>

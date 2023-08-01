@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft ToggleContinueMode
    Name/tr:Devam modunu değiştir
    MenuLocation:Draft → Utilities → Toggle continue mode

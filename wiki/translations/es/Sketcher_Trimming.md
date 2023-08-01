@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher Trimming
    Name/es:Croquizador Recortar
    MenuLocation:Croquis → Croquizador Geometrías → Recortar borde

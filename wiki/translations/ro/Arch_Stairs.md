@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Arch Stairs
    Name/ro:Arch Stairs
    MenuLocation:Arch → Stairs

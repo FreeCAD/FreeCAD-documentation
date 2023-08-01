@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Mesh_FillupHoles
    Name/it:Riempi i buchi
    MenuLocation:Mesh → Riempi i buchi...

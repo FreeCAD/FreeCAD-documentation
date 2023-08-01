@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh EvaluateFacet
    Name/fr:Mesh Infos sur la face
    MenuLocation:Maillages → Analyser → Infos sur la face

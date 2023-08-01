@@ -1,6 +1,6 @@
 # Part Section/sv
 ---
-- GuiCommand:/sv   Name:Part Section   Name/sv:Part Section   MenuLocation:Part → Section   Workbenches:[[Part_Workbench/sv   Part]], Complete|SeeAlso:---
+- GuiCommand:   Name:Part Section   Name/sv:Part Section   MenuLocation:Part → Section   Workbenches:[[Part_Workbench/sv   Part]], Complete|SeeAlso:---
 
 
 </div>

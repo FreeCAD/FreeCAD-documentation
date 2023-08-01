@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Ship Hydrostatics
    Name/fr:Ship Hydrostatiques
    MenuLocation:Ship design → Hydrostatics

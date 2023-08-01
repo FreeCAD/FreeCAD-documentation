@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Sketcher ViewSection
    Name/ro:Sketcher ViewSection
    MenuLocation:Sketch → View section

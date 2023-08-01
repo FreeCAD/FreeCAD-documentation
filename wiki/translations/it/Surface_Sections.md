@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Surface_Sections
    Name/it:Surface Sections
    MenuLocation:Surface → Sections

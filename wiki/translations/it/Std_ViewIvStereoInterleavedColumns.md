@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std ViewIvStereoInterleavedColumns
    Name/it:Stereo a colonne interlacciate
    MenuLocation:Visualizza → Stereo → Stereo a colonne interlacciate

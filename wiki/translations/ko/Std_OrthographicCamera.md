@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std OrthographicCamera
    Name/ko:표준 직교투영 카메라
    MenuLocation:보기 → 직교투영

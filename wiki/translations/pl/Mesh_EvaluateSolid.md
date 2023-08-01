@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh EvaluateSolid
    Name/pl:Siatka: Sprawdź siatkę bryły
    MenuLocation:Siatki → Analizuj → Sprawdź siatkę bryły

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Raytracing WriteCamera‏‎
    Name/pl:Raytracing: Eksport obrazu
    MenuLocation:Raytracing → Camera‏‎

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch CompAxis
    Name/it:Assi
    MenuLocation:Arch → Assi

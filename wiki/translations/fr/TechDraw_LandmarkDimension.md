@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw LandmarkDimension
    Name/fr:TechDraw Dimension de repère
    MenuLocation:TechDraw → Dimensions → Insérer une cote à partir des points du repère - EXPÉRIMENTAL

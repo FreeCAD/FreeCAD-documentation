@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher ConstrainDiameter
    Name/es:Croquizador RestringirDiámetro
    Workbenches:[Sketcher](Sketcher_Workbench/es.md)

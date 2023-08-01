@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Rocket NoseCone
    Name/fr:Rocket Coiffe
    MenuLocation:Rocket → Nose Cone

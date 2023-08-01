@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Curves PipeshellProfile
    Name/fr:Curves Profil de l'enveloppe d'un tube
    MenuLocation:Surfaces → Pipeshell profile

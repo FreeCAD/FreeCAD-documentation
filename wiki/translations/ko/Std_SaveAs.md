@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std SaveAs
    Name/ko:표준 다른 이름으로 저장
    MenuLocation:파일 → 다른 이름으로 저장...

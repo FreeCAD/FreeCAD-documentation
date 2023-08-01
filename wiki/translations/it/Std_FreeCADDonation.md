@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std FreeCADDonation
    Name/it:Donazione
    MenuLocation:Aiuto → Donazione

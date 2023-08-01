@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw RadiusDimension
    Name/pl:Rysunek Techniczny: Wstaw wymiar promienia
    MenuLocation:Rysunek Techniczny → Wymiary → Wstaw wymiar promienia

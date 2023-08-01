@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std SelectAll
    Name/fr:Std Tout sélectionner 
    MenuLocation:Édition → Tout sélectionner

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:EM FHPlane
    Name/it:EM FHPlane
    MenuLocation:EM → FHPlane

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Path Job
    Name/de:Path Auftrag
    MenuLocation:Pfad → Auftrag

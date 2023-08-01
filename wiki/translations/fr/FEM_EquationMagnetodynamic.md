@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM EquationMagnetodynamic
    Name/fr:FEM Équation magnétodynamique
    MenuLocation:Résolution → Équations électromagnétiques → Équation magnétodynamique

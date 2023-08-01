@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:SheetMetal Extrude
    Name/fr:SheetMetal Prolonger une face
    MenuLocation:SheetMetal → Extend Face

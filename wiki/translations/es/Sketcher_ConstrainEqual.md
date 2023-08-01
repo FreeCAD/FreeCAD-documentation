@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher ConstrainEqual
    Name/es:Croquizador RestringirIgual
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)

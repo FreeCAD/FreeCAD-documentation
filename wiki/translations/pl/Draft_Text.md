@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft Text
    Name/pl:Rysunek roboczy: Tekst
    MenuLocation:Adnotacja → Tekst

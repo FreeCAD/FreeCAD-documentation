@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Spreadsheet AlignTop
    Name/fr:Spreadsheet Alignement en haut
    MenuLocation:Spreadsheet → Alignement → Alignement en haut

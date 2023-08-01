@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std TreeSyncSelection
    Name/pl:Sdt: Synchronizuj wybrane w widoku drzewa
    MenuLocation:Widok → TreeView actions → Synchronizuj wybrane

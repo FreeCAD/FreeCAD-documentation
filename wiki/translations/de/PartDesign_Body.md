@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name/de:PartDesign Körper
    MenuLocation:Part Design → Erstelle Körper
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)

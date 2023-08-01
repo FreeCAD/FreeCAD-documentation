@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std TileWindows
    Name/it:Affianca
    MenuLocation:Finestre → Affianca

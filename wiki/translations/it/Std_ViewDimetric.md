@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_ViewDimetric
    Name/it:Vista dimetrica
    Empty:1

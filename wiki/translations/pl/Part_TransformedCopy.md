@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part TransformedCopy
    Name/pl:Część: Utwórz przekształconą kopię
    MenuLocation:Część → Utwórz kopię → Utwórz przekształconą kopię

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign MoveFeatureInTree
    Name/fr:PartDesign Déplacer après un autre objet
    MenuLocation:Menu contextuel → Déplacer après un autre objet

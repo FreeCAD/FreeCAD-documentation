@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FCGear TimingGear
    Name/de:FCGear Zahnriemenscheibe
    MenuLocation:Gear → Timing Gear

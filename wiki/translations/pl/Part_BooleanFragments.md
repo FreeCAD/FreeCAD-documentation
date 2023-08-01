@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part BooleanFragments
    Name/pl:Część: Fragmentacja funkcją logiczną
    MenuLocation:Część → Rozdziel → Fragmentacja funkcją logiczną

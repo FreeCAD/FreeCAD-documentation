@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Draft Arc
    Name/ro:Arc de Cerc
    MenuLocation:Draft → Arc

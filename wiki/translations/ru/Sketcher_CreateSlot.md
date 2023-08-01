@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Паз
    Name:Sketcher_CreateSlot
    MenuLocation:Эскиз → Геометрия эскиза → Создать паз

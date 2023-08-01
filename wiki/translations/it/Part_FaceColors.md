@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Part_FaceColors
    Name/it:Imposta i colori
    Empty:1

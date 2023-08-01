@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std CascadeWindows
    Name/pl:Std: Kaskadowo
    MenuLocation:Okna → Kaskadowo

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Apply
    Name/fr:Draft Appliquer le style
    MenuLocation:Utilitaires → Appliquer le style en cours

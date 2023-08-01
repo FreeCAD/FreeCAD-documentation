@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Arch CloneComponent‏‎‏‎
    Name/ru:Arch: CloneComponent/Клоновый компонент
    MenuLocation:Архитектура → Утилиты → Clone Component

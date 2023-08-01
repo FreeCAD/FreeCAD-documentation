@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Drawing Open SVG
    Name/pl:Drawing Open SVG
    Workbenches:[Kreślenie](Drawing_Workbench/pl.md), Complete

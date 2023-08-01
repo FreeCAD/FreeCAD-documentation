@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Draft ShowSnapBar
    Name/ro:Draft ShowSnapBar
    MenuLocation:Draft → Utilities → Show Snap Bar

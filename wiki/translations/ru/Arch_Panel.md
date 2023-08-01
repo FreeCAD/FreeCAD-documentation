@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Паенль
    Name:Arch_Panel
    MenuLocation:Arch → Инструменты панелирования → Панель

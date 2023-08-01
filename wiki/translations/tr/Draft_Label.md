@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Label
    Name/tr:Etiket
    MenuLocation:Taslak → Etiket

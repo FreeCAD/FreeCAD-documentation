@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch Profile
    Name/it:Profilo
    Workbenches:[Arch](Arch_Workbench/it.md)

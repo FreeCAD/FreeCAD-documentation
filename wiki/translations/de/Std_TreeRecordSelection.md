@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std TreeRecordSelection
    Name/de:Std BaumAuswahlAufzeichnen
    MenuLocation:Ansicht → Baumansicht-Aktionen → Auswahl aufzeichnen

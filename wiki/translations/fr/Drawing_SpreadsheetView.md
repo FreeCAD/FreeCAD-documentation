@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Drawing SpreadsheetView
    Name/fr:Drawing Vue d'une feuille de calcul
    Workbenches:[Drawing](Drawing_Workbench/fr.md)

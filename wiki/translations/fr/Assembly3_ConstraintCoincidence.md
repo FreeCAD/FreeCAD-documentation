@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 ConstraintCoincidence
    Name/fr:Assembly3 Contrainte de coïncidence
    Icon:Assembly_ConstraintCoincidence.svg

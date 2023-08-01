@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_ViewFront
    Name/it:Vista frontale
    MenuLocation:Visualizza → Viste standard → Di fronte

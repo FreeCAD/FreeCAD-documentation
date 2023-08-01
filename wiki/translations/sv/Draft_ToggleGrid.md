@@ -1,6 +1,6 @@
 # Draft ToggleGrid/sv
 ---
-- GuiCommand:/sv   Name:Draft ToggleGrid   Name/sv:Draft ToggleGrid   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft → Utilities → Toggle grid---
+- GuiCommand:   Name:Draft ToggleGrid   Name/sv:Draft ToggleGrid   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft → Utilities → Toggle grid---
 
 
 </div>

@@ -1,6 +1,6 @@
 # Draft Snap Extension/it
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Snap Extension
    Name/it:Estensione
    MenuLocation:Draft → [Aggancio](Draft_Snap/it.md) → Estensione

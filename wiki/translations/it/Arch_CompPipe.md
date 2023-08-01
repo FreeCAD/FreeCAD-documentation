@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch CompPipe
    Name/it:Tubazioni
    MenuLocation:Arch → Tubazioni

@@ -1,6 +1,6 @@
 # Plot Grid/tr
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name/tr:Izgara
    MenuLocation:Arsa → Izgara
 ‏‎   |Workbenches:[Arsa](Plot_Workbench/tr.md)

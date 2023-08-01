@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft BSpline
    Name/pl:Draft: Krzywa złożona
    MenuLocation:Kreślenie → Krzywa złożona

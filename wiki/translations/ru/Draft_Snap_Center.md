@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Snap Center
    Name/ru:Draft Snap Center
    MenuLocation:Черчение → Привязка → Центр

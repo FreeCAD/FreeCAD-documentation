@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Drawing Openbrowser
    Name/pl:Otwórz przeglądarkę WEB
    Workbenches:[Drawing](Drawing_Workbench/pl.md)

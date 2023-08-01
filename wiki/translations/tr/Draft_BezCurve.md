@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft BezCurve
    Name/tr:Bezier eğrisi
    MenuLocation:Taslak → Bezier eğrisi

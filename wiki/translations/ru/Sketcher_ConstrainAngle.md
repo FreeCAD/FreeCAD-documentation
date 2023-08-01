@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Ограничить угол
    Name:Sketcher_ConstrainAngle
    MenuLocation:Sketch → Ограничения эскиза → Ограничить угол

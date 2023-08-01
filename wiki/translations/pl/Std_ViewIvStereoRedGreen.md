@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ViewIvStereoRedGreen
    Name/pl:Std: Widok stereo czerwony / cyjan
    MenuLocation:Widok → Widok trójwymiarowy → Stereo czerwony / cyjan

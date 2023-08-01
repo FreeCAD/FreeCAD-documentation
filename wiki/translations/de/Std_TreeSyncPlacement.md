@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std TreeSyncPlacement
    Name/de:Std BaumSyncPosition
    MenuLocation:Ansicht → Baumansicht-Aktionen → Sync-Platzierung

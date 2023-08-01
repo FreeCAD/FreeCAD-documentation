@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Arch_CompAxis
    Name:Arch_CompAxis
    MenuLocation:Arch → Инстументы осей

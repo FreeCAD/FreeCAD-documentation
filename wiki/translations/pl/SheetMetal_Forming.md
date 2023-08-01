@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:SheetMetal Forming
    Name/pl:Formowanie blach
    MenuLocation:SheetMetal → Wykonaj formowanie na ścianie

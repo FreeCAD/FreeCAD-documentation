@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Строительная деталь
    Name:Arch_BuildingPart
    MenuLocation:Arch → Строительная деталь

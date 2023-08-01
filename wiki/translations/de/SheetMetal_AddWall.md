@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:SheetMetal AddWall
    Name/de:SheetMetal KanteAnsetzen
    MenuLocation:SheetMetal → Make Wall

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Уменьшить степень B-сплайна
    Name:Sketcher_BSplineDecreaseDegree
    MenuLocation:Sketch → B-сплйан инструменты эскиза → Уменьшить степень B-сплайна

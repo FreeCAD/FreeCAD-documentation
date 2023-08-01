@@ -1,6 +1,6 @@
 # Drawing View/de
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Drawing View
    Name/de:Drawing View
    Workbenches:[Drawing](Drawing_Workbench/de.md), Complete

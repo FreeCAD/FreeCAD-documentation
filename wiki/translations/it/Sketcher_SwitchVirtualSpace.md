@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher Switch virtual space
    Name/it:Cambia spazio virtuale
    Icon:Sketcher SwitchVirtualSpace.svg

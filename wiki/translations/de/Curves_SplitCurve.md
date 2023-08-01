@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Curves SplitCurve
    Name/de:Curves KurveTeilen
    MenuLocation:Curves → Split curve

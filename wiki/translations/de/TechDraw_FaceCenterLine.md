@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw FaceCenterLine
    Name/de:TechDraw FlächenMittellinie
    MenuLocation:TechDraw → Linien hinzufügen → Mittellinie zu Fläche(n) hinzufügen

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign MoveFeature
    Name/pl:Projekt Części: Przesuń cechę do innej zawartości
    MenuLocation:Menu kontekstowe → Przesuń cechę do innej zawartości

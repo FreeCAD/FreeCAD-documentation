@@ -1,6 +1,6 @@
 # Path Stop/it
 ---
-- GuiCommand:/it   Name:Path Stop   Name/it:Stop   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Comandi parziali → Stop   Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Path Stop   Name/it:Stop   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Comandi parziali → Stop   Shortcut:   SeeAlso:---
 
 
 </div>

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std TileWindows
    Name/pl:Std: Sąsiadująco
    MenuLocation:Okna → Sąsiadująco

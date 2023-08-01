@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Schedule
    Name/fr:Arch Nomenclature
    MenuLocation:Arch → Nomenclature

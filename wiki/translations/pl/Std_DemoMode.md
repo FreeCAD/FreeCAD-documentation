@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std DemoMode
    Name/pl:Std: Widok obrotowy
    MenuLocation:Przybory → Widok obrotowy ...

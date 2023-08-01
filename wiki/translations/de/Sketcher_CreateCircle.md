@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher CreateCircle
    Name/de:Sketcher KreisErstellen
    MenuLocation:Sketch → Skizzengeometrien → Kreis erstellen

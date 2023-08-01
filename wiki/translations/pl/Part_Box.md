@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Box
    Name/pl:Część: Sześcian
    MenuLocation:Część → Bryła pierwotna → Sześcian

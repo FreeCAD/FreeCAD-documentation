@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FCGear CycloidGear
    Name/de:FCGear Zykloidenzahnrad
    MenuLocation:Gear → Cycloid Gear

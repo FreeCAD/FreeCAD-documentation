@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch IfcExplorer
    Name/it:Esplora Ifc
    Icon:IFC.svg

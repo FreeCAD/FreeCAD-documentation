@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ViewRotateRight
    Name/de:Std AnsichtNachRechtsDrehen
    MenuLocation:Ansicht → Standardansichten → Nach rechts drehen

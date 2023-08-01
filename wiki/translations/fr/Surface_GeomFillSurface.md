@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Surface GeomFillSurface
    Name/fr:Surface Remplir entre les courbes limites
    MenuLocation:Surface → Fill boundary curves

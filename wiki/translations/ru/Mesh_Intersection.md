@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Mesh Intersection‏‎
    Name/ru:Mesh Intersection‏‎
    MenuLocation:Сетки → Булевы операции → Пересечение

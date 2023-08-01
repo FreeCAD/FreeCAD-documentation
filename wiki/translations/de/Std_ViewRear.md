@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ViewRear
    Name/de:Std Rückansicht
    MenuLocation:Ansicht → Standardansichten → Hinten

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Torus
    Name/pl:Część: Torus
    MenuLocation:Część  → Bryła pierwotna → Torus

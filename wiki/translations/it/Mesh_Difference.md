@@ -1,6 +1,6 @@
 # Mesh Difference/it
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Mesh_Difference
    Name/it:Differenza
    MenuLocation:Mesh → Operazione booleana → Differenza

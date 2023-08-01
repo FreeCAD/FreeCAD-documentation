@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft Ellipse
    Name/pl:Draft: Elipsa
    MenuLocation:Kreślenie → Elipsa

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std UserEditMode
    Name/de:Std BenutzerBearbeitungsmodus
    MenuLocation:Bearbeiten → Bearbeitungsmodus → ...

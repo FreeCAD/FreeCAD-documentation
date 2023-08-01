@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher_ValidateSketch
    Name/it:Convalida lo schizzo
    Empty:1

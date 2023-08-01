@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name/de:[Arch Tür](Arch_Door/de.md)
    MenuLocation:Arch → Fenster
    Workbenches:[Arch](Arch_Workbench/de.md)

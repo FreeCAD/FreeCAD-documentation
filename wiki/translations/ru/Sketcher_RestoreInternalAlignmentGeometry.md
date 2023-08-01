@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Показать/скрыть внутреннюю геометрию
    Name:Sketcher_RestoreInternalAlignmentGeometry
    MenuLocation:Sketch → Инструменты для эскиза → Показать/скрыть внутреннюю геометрию

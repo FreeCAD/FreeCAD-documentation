@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft WorkingPlaneProxy
    Name/de:Draft ArbeitsebenenProxy
    MenuLocation: Dienstprogramme → Arbeitsebenen-Proxy erstellen

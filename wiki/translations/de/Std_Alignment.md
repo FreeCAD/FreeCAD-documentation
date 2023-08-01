@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std Alignment
    Name/de:Std Ausrichtung
    MenuLocation:Bearbeiten → Ausrichtung...

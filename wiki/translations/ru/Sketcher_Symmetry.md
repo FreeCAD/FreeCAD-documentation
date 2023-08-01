@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Симметрия
    Name:Sketcher_Symmetry
    MenuLocation:Sketch → Инструменты для эскиза → Симметрия

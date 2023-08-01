@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Path Inspect
    Name/ru:Path Inspect
    MenuLocation:Путь → Исследовать G-code

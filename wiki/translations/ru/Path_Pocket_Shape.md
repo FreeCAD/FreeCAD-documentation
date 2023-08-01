@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Path Pocket
    Name/ru:Path Pocket
    MenuLocation:Path → Pocket Shape

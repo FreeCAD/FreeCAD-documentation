@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw ArchView
    Name/de:TechDraw ArchAnsicht
    MenuLocation:TechDraw → Arch Arbeitsbereichsobjekt einfügen

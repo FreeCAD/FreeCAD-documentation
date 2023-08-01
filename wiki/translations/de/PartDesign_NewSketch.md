@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign NewSketch
    Name/de:PartDesign NeueSkizze
    MenuLocation:Skizze → Skizze erstellen

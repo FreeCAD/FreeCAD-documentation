@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name/es:Fixtura de trayectoria
    Workbenches:[Trayectoria](Path_Workbench.md)
    MenuLocation:Trayectoria → Comandos Parciales → Fixtura

@@ -1,6 +1,6 @@
 # Std Cut/de
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std Cut
    Name/de:Std Ausschneiden
    MenuLocation:[Bearbeiten](Std_Edit_Menu/de.md) → Ausschneiden

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft FlipDimension
    Name/it:Capovolgi quota
    MenuLocation:Modifiche → Capovolgi quota

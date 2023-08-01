@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft ToggleDisplayMode
    Name/fr:Draft Mode d'affichage
    MenuLocation:Utilitaires → Basculer le mode d'affichage de normal/filaire

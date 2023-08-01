@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FCGear TimingGear
    Name/fr:FCGear Engrenage de distribution
    MenuLocation:Gear → Timing Gear

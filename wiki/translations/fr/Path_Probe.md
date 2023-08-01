@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path Probe
    Name/fr:Path Sonde
    MenuLocation:Path → Autres commandes → Sonde

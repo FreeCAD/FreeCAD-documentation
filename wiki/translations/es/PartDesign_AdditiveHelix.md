@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign AdditiveHelix
    Name/es:PartDesign Hélice aditiva
    MenuLocation:PartDesign → Create an additive feature → Additive helix

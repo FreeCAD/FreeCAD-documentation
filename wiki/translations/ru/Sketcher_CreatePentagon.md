@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Пятиугольник
    Name:Sketcher_CreatePentagon
    MenuLocation:Sketch → Геометрия эскиза → Создать пятиугольник

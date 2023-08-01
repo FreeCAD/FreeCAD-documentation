@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ViewIvStereoQuadBuff
    Name/fr:Std Tampon stéréo quadruple
    MenuLocation:Affichage → Stéréo → Tampon stéréo quadruple

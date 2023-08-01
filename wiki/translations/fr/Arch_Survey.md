@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Survey
    Name/fr:Arch Prendre des cotes
    MenuLocation:Arch → Prendre des cotes

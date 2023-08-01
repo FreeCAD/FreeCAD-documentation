@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Points PolyCut
    Name/it:Taglia una nuvola di punti
    Icon:PolygonPick.svg

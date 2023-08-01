@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM ConstraintPressure
    Name/de:FEM RandbedingungDruck
    MenuLocation:Modell → Mechanische Randbedingungen → Randbedingung Druck

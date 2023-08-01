@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign SubtractiveHelix
    Name/fr:PartDesign Hélice soustractive
    MenuLocation:Part Design → Créer une fonction soustractive → Hélice soustractive

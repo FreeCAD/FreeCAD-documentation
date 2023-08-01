@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ComplexSection
    Name/fr:TechDraw Vue en coupe complexe
    MenuLocation:TechDraw → Vues de Techdraw → Insérer une vue en coupe complexe

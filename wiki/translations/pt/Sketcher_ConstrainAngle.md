@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pt
+- GuiCommand:
    Name:Constraint InternalAngle
    Name/pt:Constraint InternalAngle
    Workbenches:[Sketcher](Sketcher_Workbench/pt.md), [PartDesign](PartDesign_Workbench/pt.md)

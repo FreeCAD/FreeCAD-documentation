@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Spreadsheet Export
    Name/pl:Arkusz Kalkulacyjny: Eksportuj
    MenuLocation:Arkusz Kalkulacyjny → Eksportuj

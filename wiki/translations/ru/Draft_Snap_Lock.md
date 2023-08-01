@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Snap Lock
    Name/ru:Draft ToggleSnap
    MenuLocation:Черчение → Утилиты → Toggle snap

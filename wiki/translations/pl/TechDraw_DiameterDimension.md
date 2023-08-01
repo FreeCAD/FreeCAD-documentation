@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw DiameterDimension
    Name/pl:Rysunek Techniczny: Wstaw wymiar średnicy
    MenuLocation:Rysunek Techniczny → Wymiary → Wstaw wymiar średnicy

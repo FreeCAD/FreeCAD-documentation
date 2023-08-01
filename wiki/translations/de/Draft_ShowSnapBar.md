@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft ShowSnapBar
    Name/de:Draft ShowSnapBar
    MenuLocation:Werkzeuge → Fangen-Symbolleisten einblenden

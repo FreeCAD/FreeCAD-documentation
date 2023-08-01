@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign Plane
    Name/pl:Projekt Części: Utwórz płaszczyznę odniesienia
    MenuLocation:Projekt Części → Utwórz układ odniesienia → Utwórz płaszczyznę odniesienia

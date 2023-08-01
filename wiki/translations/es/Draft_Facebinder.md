@@ -1,6 +1,6 @@
 # Draft Facebinder/es
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft Facebinder
    Name/es:Draft Facebinder
    Workbenches:[Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)

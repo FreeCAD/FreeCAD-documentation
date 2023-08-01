@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std SceneInspector
    Name/pl:Std: Inspektor sceny
    MenuLocation:Przybory → Inspektor sceny

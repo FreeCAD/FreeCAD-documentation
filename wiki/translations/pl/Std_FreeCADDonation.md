@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std FreeCADDonation
    Name/pl:Std: Przekaż darowiznę
    MenuLocation:Pomoc → Przekaż darowiznę

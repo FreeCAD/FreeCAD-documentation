@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Loft
    Name/fr:Part Lissage
    MenuLocation:Part → Lissage...

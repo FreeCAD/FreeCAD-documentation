@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Clone
    Name/it:Clona
    MenuLocation:Modifiche → Clona

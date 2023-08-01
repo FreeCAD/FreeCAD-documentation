@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw LeaderLine
    Name/de:TechDraw Hinweislinie
    MenuLocation:TechDraw → Linien hinzufügen → Hinweislinie zur Ansicht hinzufügen

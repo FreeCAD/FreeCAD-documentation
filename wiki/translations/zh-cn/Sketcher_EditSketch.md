@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/zh-cn
+- GuiCommand:-cn
    Name/zh-cn:编辑草绘
    Name:Sketcher_EditSketch
    MenuLocation:Sketch → 编辑草绘

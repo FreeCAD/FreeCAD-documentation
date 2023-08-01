@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:OpenSCAD_MirrorMeshFeature
    Name/it:Specchia la mesh
    MenuLocation:OpenSCAD → Specchia la mesh

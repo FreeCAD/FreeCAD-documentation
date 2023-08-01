@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Панельный контур
    Name:Arch_Panel_Cut
    MenuLocation:Arch → Инструменты панелирования → Панельный контур

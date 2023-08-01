@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw RedrawPage
    Name/fr:TechDraw Redessiner une page
    MenuLocation:TechDraw → Page → Redessiner la page

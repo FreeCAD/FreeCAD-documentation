@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Snap Dimensions
    Name/it:Dimensioni
    MenuLocation:Draft → [Aggancio](Draft_Snap/it.md) → Dimensioni

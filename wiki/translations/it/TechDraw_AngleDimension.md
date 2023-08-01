@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw Dimension Angle
    Name/it:Angolo
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)

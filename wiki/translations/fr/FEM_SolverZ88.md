@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM SolverZ88
    Name/fr:FEM Solveur Z88
    MenuLocation:Résolution → Solveur Z88

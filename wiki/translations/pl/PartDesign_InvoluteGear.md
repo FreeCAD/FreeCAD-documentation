@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign InvoluteGear
    Name/pl:Projekt Części: Koło zębate ewolwentowe
    Icon:PartDesign_InternalExternalGear.svg

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path ExportTemplate
    Name/fr:Path Exporter un modèle
    MenuLocation:Path → Exporter comme modèle

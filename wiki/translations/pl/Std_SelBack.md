@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std SelBack
    Name/pl:Std: Przywróć wybór
    MenuLocation:

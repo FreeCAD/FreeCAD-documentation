@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher SelectConflictingConstraints
    Name/es:Corquizador SeleccionarRestriccionesConflictivas
    MenuLocation:Croquis → Corquizador Herramientas → Seleccionar Restricciones Conflictivas

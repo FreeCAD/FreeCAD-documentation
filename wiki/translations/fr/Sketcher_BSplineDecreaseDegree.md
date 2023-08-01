@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher BSplineDecreaseDegree
    Name/fr:Sketcher Diminuer le degré d'une B-spline
    MenuLocation:Esquisse → Outils d'esquisse des B-splines → Diminuer le degré de la B-spline

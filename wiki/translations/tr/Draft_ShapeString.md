@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft ShapeString
    Name/tr:Şekil dizesi
    MenuLocation:Taslak → Şekil dizesi

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Mesh_PolyTrim
    Name/it:Rifila con un poligono
    MenuLocation:Mesh → Taglio → Rifila con un poligono

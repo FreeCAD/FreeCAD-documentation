@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part SectionCut
    Name/fr:Part Coupe persistante
    MenuLocation:Affichage → Coupe persistante

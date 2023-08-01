@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher MergeSketches
    Name/de:Sketcher SkizzenZusammenführen
    MenuLocation:Sketch → Skizzen zusammenführen

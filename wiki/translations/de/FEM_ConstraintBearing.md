@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM ConstraintBearing
    Name/de:FEM RandbedingungWälzlager
    MenuLocation:Modell → Randbedingungen ohne Solver → Randbedingung Wälzlager

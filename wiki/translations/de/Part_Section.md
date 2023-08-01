@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Section
    Name/de:Part Schnittkurve
    MenuLocation:Formteil → Schnittkurve

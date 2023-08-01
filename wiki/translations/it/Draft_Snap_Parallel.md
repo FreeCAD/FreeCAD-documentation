@@ -1,6 +1,6 @@
 # Draft Snap Parallel/it
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Snap Parallel
    Name/it:Parallela
    MenuLocation:Draft → [Aggancio](Draft_Snap/it.md) → Parallela

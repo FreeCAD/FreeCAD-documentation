@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std Export
    Name/pl:Std: Eksportuj
    MenuLocation:Plik → Eksportuj...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Robot SetHomePos
    Name/fr:Robot Position de départ
    MenuLocation:Robot → Définir la position de départ

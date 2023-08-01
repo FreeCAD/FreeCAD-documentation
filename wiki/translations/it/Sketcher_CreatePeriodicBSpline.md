@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher CreatePeriodicBSpline
    Name/it:Sketcher BSpline periodica
    Icon:Sketcher Create Periodic BSpline.svg

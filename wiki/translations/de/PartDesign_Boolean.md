@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign Boolean
    Name/de:PartDesign Boolesche Operation
    MenuLocation:Part Design → Boolesche Operation

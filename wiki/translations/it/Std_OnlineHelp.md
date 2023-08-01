@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std OnlineHelp
    Name/it:Aiuto
    MenuLocation:Aiuto → Aiuto

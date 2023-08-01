@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Compound‏‎
    Name/de:Part Verbund
    MenuLocation:Formteil → Verbund → Erzeuge Verbund

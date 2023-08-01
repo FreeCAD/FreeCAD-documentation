@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign AdditiveTorus
    Name/fr:PartDesign Tore Additif
    MenuLocation:Part Design → Créer une primitive additive → Tore additif

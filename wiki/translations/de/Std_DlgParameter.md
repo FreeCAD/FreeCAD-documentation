@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std DlgParameter
    Name/de:Std ParameterDialog
    MenuLocation:Werkzeuge → Parameter bearbeiten...

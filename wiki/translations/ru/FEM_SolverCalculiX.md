@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM SolverCalculiX
    Name/ru:FEM SolverCalculiX
    MenuLocation: Solve → solver CalculiX experimental

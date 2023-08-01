@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Image Open
    Name/it:Apri immagine
    Icon:Image Open.svg

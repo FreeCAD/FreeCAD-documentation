@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher Split
    Name/fr:Sketcher Diviser
    MenuLocation:Esquisse → Géométries d'esquisse → Diviser une arête

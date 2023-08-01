@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher_BSplineIncreaseDegree
    Name/it:Aumenta di grado
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)

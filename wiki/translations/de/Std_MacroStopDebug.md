@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name/de:Std MakroFehlersucheAnhalten
    MenuLocation:Makro → Fehlersuche Anhalten
    Workbenches:Alle

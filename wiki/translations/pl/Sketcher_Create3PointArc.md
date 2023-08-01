@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher Create3PointArc
    Name/pl:Szkicownik: Utwórz łuk przez trzy punkty
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz łuk przez trzy punkty

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Профиль
    Name:Arch_Profile
    MenuLocation:Arch → Профиль

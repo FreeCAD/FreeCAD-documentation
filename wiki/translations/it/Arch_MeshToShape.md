@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch MeshToShape
    Name/it:Da Mesh a Forma
    Workbenches:[Architettura](Arch_Workbench/it.md)

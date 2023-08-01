@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path Simulator
    Name/fr:Path Simulateur FAO
    MenuLocation:Path → Simulateur FAO

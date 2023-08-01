@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Arch Panel   Name/ro:Arch Panel
    MenuLocation:Arch → Panel Tools → Panel
    Workbenches:[Arch](Arch_Workbench/ro.md)

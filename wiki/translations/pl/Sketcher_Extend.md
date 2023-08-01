@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher Extend
    Name/pl:Szkicownik: Przedłuż krawędź
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Przedłuż krawędź

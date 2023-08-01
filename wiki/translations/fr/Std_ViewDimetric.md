@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ViewDimetric
    Name/fr:Std Vue dimétrique
    MenuLocation:Affichage → Vues standards → Axonometric → Dimétrique

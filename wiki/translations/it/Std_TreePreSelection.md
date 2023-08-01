@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_TreePreSelection
    Name/it:Pre-selezione
    MenuLocation:Visualizza → Azioni della vista ad albero → Pre-selezione

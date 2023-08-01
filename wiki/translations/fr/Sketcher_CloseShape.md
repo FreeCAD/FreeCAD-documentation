@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher CloseShape
    Name/fr:Sketcher Fermer la forme
    MenuLocation:Esquisse → Outils d'esquisse → Fermer la forme

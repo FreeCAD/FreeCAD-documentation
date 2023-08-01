@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 MeasurePointPlane
    Name/de:Assembly3 PunktZuEbeneMessen
    Icon:Assembly_MeasurePointPlaneDistance.svg

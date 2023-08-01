@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft AutoGroup
    Name/fr:Draft Groupement automatique
    Empty:1

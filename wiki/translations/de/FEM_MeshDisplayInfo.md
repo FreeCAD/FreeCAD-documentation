@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM MeshDisplayInfo
    Name/de:FEM NetzinformationenAnzeigen
    MenuLocation:Kontextmenü des Mesh-Objekts → Informationen zum FEM-Netz anzeigen

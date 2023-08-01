@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Assembly3 MovePart
    Icon:Assembly_Move.svg
    MenuLocation:Assembly3 → Move part

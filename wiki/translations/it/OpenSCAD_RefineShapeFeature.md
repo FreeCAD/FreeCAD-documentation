@@ -1,6 +1,6 @@
 # OpenSCAD RefineShapeFeature/it
 ---
-- GuiCommand:/it   Name:OpenSCAD RefineShapeFeature   Name/it:Affina forma   MenuLocation:OpenSCAD → Affina forma   Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|SeeAlso:---
+- GuiCommand:   Name:OpenSCAD RefineShapeFeature   Name/it:Affina forma   MenuLocation:OpenSCAD → Affina forma   Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|SeeAlso:---
 
 
 </div>

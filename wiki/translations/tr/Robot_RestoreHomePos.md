@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Robot RestoreHomePos
    Name/tr:Robot Ana konuma dön
    Workbenches:[Robot](Robot_Workbench/tr.md)

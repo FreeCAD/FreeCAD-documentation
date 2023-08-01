@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Panel Sheet
    Name/de:Arch Tafel Blech
    Workbenches:[Arch](Arch_Workbench/de.md)

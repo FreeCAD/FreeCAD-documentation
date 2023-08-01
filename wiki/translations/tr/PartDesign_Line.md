@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:PartDesign Line
    Name/tr:Referans Çizgisi Oluştur
    Workbenches:[Parça Tasarım](PartDesign_Workbench/tr.md)

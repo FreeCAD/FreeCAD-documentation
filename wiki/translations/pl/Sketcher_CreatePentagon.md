@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher CreatePentagon
    Name/pl:Szkicownik: Utwórz pięciokąt
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz pięciokąt

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Circle
    Name/de:Part Kreis
    MenuLocation:Formteil → [Create primitives](Part_Primitives/de.md) → Kreis

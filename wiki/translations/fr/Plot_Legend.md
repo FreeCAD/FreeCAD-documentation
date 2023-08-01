@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Plot Legend
    Name/fr:Plot Légende
    MenuLocation:Plot → Afficher/Masquer la légende

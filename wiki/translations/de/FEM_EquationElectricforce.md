@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM EquationElectricforce
    Name/de:FEM GleichungElektrischeKraft
    MenuLocation:Lösen → Electromagnetic Equations → Gleichung für elektrische Kraft

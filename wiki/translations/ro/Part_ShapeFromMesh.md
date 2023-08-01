@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Part ShapeFromMesh‏‎
    Name/ro:Part ShapeFromMesh‏‎
    MenuLocation:Part → Create shape from mesh...

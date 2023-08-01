@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM PostFilterClipScalar
    Name/fr:FEM Filtre d'écrêtage scalaire
    MenuLocation:Résultats → Filtre d'écrêtage scalaire

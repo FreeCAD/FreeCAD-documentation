@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_Import
    Name/it:Importa
    MenuLocation:File → Importa...

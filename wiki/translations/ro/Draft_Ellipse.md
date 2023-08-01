@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Draft Ellipse
    Name/ro:Elipsă 2D
    MenuLocation:Draft → Ellipse

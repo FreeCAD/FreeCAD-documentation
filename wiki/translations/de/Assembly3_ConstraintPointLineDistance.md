@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 ConstraintPointLineDistance
    Name/de:Assembly3 PunktZuLinieAbstand
    Icon:Assembly_ConstraintPointLineDistance.svg

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Path DressupAxisMap
    Name/pl:Path: Odwzorowanie osi
    MenuLocation:Ścieżka → Ulepszenie ścieżki → Odwzorowanie osi

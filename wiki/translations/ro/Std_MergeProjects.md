@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Std MergeProjects
    Name/ro:Fuzionați Proiectul
    Workbenches:All

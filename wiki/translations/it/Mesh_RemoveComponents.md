@@ -1,6 +1,6 @@
 # Mesh RemoveComponents/it
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Mesh_RemoveComponents
    Name/it:Rimuovi componenti‏‎
    MenuLocation:Mesh → Rimuovi componenti...

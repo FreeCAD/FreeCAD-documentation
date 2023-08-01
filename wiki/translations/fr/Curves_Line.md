@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Curves Line
    Name/fr:Curves Ligne
    MenuLocation:Curves → Parametric line

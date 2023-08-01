@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FCGear WormGear
    Name/it:Vite senza fine
    MenuLocation:FCGear → Create a Worm gear

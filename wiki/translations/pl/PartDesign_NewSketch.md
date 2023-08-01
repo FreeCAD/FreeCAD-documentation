@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign NewSketch
    Name/pl:Projekt Części: Utwór szkic
    MenuLocation:Szkic → Utwór szkic

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Заменить ссылкой
    Name:Std_LinkReplace
    MenuLocation:Нет

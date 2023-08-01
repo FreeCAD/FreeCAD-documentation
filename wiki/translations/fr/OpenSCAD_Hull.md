@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:OpenSCAD Hull
    Name/fr:OpenSCAD Enveloppe
    MenuLocation:OpenSCAD → Enveloppe

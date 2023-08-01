@@ -1,6 +1,6 @@
 # Sketcher ConstrainEqual/it
 ---
-- GuiCommand:/it   Name:Sketcher ConstrainEqual   Name/it:Uguale   Workbenches:[MenuLocation:PartDesign → Schizzo → Uguale   Shortcut:E   SeeAlso:[[Sketcher_ConstrainRadius/it|Raggio](Sketcher_Workbench/it___Schizzo]].md)---
+- GuiCommand:   Name:Sketcher ConstrainEqual   Name/it:Uguale   Workbenches:[MenuLocation:PartDesign → Schizzo → Uguale   Shortcut:E   SeeAlso:[[Sketcher_ConstrainRadius/it|Raggio](Sketcher_Workbench/it___Schizzo]].md)---
 
 
 </div>

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Mesh_TrimByPlane
    Name/it:Rifila con un piano
    MenuLocation:Mesh → Taglio → Rifila con un piano

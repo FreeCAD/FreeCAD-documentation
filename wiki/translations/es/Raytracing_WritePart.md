@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Raytracing WritePart
    Name/es:Raytracing WritePart
    MenuLocation:Raytracing → Part

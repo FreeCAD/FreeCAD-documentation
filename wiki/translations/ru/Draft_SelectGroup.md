@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft SelectGroup
    Name/ru:Draft SelectGroup
    MenuLocation:Черчение → Утилиты → Выбрать группу

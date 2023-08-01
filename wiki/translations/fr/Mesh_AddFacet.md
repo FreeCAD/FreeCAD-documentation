@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh AddFacet
    Name/fr:Mesh Ajouter un triangle
    MenuLocation:Maillages → Ajouter un triangle

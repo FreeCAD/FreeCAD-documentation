@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Point
    Name/tr:Nokta
    MenuLocation:Taslak → Nokta

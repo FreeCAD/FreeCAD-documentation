@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign AdditiveTorus
    Name/pl:Projekt Części: Addytywny torus
    MenuLocation:Projekt Części → Utwórz cechę przez dodanie → Addytywny torus

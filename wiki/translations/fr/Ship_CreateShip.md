@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Ship CreateShip
    Name/fr:Ship Coque
    MenuLocation:Ship design → Create a new ship

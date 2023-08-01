@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Drawing Landscape A3
    Name/fr:Drawing Feuille A3 Paysage
    Workbenches:[Drawing](Drawing_Workbench/fr.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ToggleVisibility
    Name/pl:Std: Przełącz widoczność
    MenuLocation:Widok → Przełącz widoczność

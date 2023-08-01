@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch CurtainWall
    Name/de:Arch Vorhangfassade
    MenuLocation:Arch → Vorhandene Fassade

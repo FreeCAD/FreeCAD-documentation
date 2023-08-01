@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw DimensionRepair
    Name/de:TechDraw Maßreparatur
    MenuLocation:TechDraw → Maßeinträge → Maßreferenzen reparieren

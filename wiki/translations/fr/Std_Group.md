@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std Group
    Name/fr:Std Groupe
    MenuLocation:[Vue arborescente](Tree_view/fr.md) → Clic droit sur le nom du document → Créer un groupe...

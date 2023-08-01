@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FCGear CycloidRack
    Name/de:FCGear Zykloidenzahnstange
    MenuLocation:Gear → Cycloid Rack

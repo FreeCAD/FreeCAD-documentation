@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std SaveAs
    Name/fr:Std Enregistrer sous
    MenuLocation:Fichier → Enregistrer sous...

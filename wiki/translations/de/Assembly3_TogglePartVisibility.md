@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 TogglePartVisibility
    Name/de:Assembly3 SichtbarkeitUmschalten
    Icon:Assembly_TogglePartVisibility.svg‎‎

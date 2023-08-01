@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExportPageDXF
    Name/fr:TechDraw Exporter au format DXF
    MenuLocation:TechDraw → Page → Exporter une page au format DXF

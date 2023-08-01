@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher EditSketch
    Name/pl:Szkicownik: Edycja szkicu
    MenuLocation:Szkic → Edycja szkicu

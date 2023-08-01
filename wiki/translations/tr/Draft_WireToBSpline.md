@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft WireToBSpline
    Name/tr:Telden BSpline çevir
    MenuLocation:Drafting → Wire to BSpline

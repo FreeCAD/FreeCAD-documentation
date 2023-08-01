@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part ElementCopy
    Name/pl:Część: Utwórz kopię kształtu elementu
    MenuLocation:Część → Utwórz kopię → Utwórz kopię kształtu elementu

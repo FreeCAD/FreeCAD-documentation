@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Plot Positions
    Name/pl:Wykres: Ustaw pozycje i rozmiary
    MenuLocation:Wykres → Ustaw pozycje i rozmiary

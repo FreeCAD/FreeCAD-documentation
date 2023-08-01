@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ViewHome
    Name/de:Std ViewHome
    MenuLocation:Ansicht → Standardansichten → Home

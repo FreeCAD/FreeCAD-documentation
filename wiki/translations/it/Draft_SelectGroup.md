@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft SelectGroup
    Name/it:Seleziona gruppo
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)

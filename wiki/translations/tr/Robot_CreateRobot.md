@@ -1,6 +1,6 @@
 # Robot CreateRobot/tr
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Robot CreateRobot
    Name/tr:Robot oluştur
    Workbenches:[Robot](Robot_Workbench/tr.md)

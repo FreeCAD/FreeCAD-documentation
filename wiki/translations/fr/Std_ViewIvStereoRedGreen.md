@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ViewIvStereoRedGreen
    Name/fr:Std Stéréo rouge cyan
    MenuLocation:Affichage → Stéréo → Stéréo rouge/cyan

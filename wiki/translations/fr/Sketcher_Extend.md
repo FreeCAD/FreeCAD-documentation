@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher Extend
    Name/fr:Sketcher Prolonger
    MenuLocation:Esquisse → Géométries d'esquisse → Prolonger l'arête

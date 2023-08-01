@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Fuse
    Name/fr:Part Union
    MenuLocation:Part → Opération booléenne → Union

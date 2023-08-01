@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch Grid
    Name/it:Griglia
    MenuLocation:Arch → Assi → Griglia

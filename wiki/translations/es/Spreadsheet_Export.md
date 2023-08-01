@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Spreadsheet Export
    Name/es:Hoja de cálculo Exportar
    MenuLocation:Hoja de cálculo → Exportar Hoja de cálculo

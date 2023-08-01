@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher MirrorSketch
    Name/it:Rifletti schizzo
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)

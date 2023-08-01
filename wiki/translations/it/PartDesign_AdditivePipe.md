@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:PartDesign AdditivePipe
    Name/it:Sweep additivo
    Workbenches:[PartDesign](PartDesign_Workbench/it.md)

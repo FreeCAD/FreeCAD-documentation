@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Arch MeshToShape
    Name/ru:Arch MeshToShape
    MenuLocation:Архитектура → Утилиты → Сетка в фигуру

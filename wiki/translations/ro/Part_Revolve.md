@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Part Revolve
    Name/ro:Part Revolve
    MenuLocation:Part → Revolve

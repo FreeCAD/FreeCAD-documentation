@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FCGear CycloideGear
    Name/it:Ingranaggio cicloidale
    MenuLocation:FCGear → Create a Cycloide gear

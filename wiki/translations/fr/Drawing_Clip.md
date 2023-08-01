@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Drawing Clip
    Name/fr:Drawing Masque
    Workbenches:[Drawing](Drawing_Workbench/fr.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft ToggleContinueMode
    Name/fr:Draft Basculer en mode continu
    MenuLocation:Utilitaires → Basculer le mode continuer

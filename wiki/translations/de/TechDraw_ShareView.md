@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw ShareView
    Name/de:TechDraw AnsichtTeilen
    MenuLocation:TechDraw → TechDraw Ansichten → Ansicht teilen

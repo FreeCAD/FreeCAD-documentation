@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher ConstrainCoincident
    Name/pl:Szkicownik: Wiązanie zbieżności punktów
    MenuLocation:Szkic → Wiązania szkicownika → Wiązanie zbieżności

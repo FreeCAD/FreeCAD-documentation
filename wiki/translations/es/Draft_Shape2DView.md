@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft Shape2DView
    Name/es:Draft Shape2DView
    MenuLocation:Boceto → Vista de forma 2D

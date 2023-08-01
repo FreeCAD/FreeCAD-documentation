@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Mesh HarmonizeNormals
    Name/de:Mesh Normalen ausrichten
    MenuLocation:Netze → Normalen ausrichten

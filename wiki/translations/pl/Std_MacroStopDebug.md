@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std MacroStopDebug
    Name/pl:Std: Zatrzymaj debugowanie
    MenuLocation:Makrodefinicje → Zatrzymaj debugowanie

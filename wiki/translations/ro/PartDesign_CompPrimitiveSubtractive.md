@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name/ro:PartDesign CompPrimitiveSubtractive
    Empty:1
    Workbenches:[PartDesign](PartDesign_Workbench/ro.md)

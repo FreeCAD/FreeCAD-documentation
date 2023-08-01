@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_ViewRotateLeft
    Name/it:Ruota a sinistra
    MenuLocation:Visualizza → Viste standard → Ruota a sinistra

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Part Measure Toggle Delta
    Name/it:Attiva o disattiva Delta
    MenuLocation:Misura → Attiva/disattiva Delta

@@ -1,6 +1,6 @@
 # Robot Edge2Trac/ru
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Robot Edge2Trac
    Name/ru:Robot Edge2Trac
    Workbenches:[Robot](Robot_Workbench/ru.md)

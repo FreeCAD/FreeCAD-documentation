@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:PartDesign Line
    Name/it:Linea di riferimento
    MenuLocation:Part Design → Linea di riferimento

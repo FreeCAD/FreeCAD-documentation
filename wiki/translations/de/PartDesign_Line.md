@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign Line
    Name/de:PartDesign Bezugslinie erstellen
    MenuLocation:PartDesign → Bezugselement erstellen → Bezugslinie erstellen

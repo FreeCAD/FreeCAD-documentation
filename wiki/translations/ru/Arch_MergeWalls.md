@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Arch MergeWalls
    Name/ru:Arch MergeWalls
    MenuLocation:Архитектура → Утилиты → Объединить стенки

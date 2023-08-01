@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Path Deburr
    Name/pl:Path: Usuwanie zadziorów
    MenuLocation:Path → Usuwanie zadziorów

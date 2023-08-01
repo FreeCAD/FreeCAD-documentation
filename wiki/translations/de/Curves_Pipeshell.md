@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Curves Pipeshell
    Name/de:Curves Rohrschale
    MenuLocation:Surfaces → Pipeshell 

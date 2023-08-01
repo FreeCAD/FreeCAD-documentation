@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std ViewIvIssueCamPos
    Name/ru:Std ViewIvIssueCamPos
    MenuLocation:Вид → Стерео → Выводить положения камеры

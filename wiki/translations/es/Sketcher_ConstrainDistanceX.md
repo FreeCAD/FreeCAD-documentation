@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher ConstrainDistanceX
    Name/es:Restricción de distancia horizontal
    Workbenches:[Sketcher](Sketcher_Workbench/es.md)

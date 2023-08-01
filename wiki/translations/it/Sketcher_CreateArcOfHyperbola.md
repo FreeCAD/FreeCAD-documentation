@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher Arc of hyperbola 
    Name/it:Crea un arco di iperbole
    Icon:Sketcher Hyperbolic Arc.png

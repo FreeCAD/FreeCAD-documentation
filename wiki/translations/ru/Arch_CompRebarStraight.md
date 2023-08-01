@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Arch CompRebarStraight
    Name/ru:Инструменты армирования
    MenuLocation:Arch → Rebar tools

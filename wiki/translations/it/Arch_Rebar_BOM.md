@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch_Rebar_BOM
    Name/it:Distinta dei ferri
    MenuLocation:Reinforcement → Distinta dei ferri

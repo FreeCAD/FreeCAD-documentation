@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:OpenSCAD AddOpenSCADElement
    Name/ru:OpenSCAD AddOpenSCADElement
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/ru.md)

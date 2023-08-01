@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher_BSplineDecreaseKnotMultiplicity
    Name/it:Diminuisci la molteplicità
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)

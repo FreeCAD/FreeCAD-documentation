@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std Redo
    Name/ko:표준 다시 실행
    MenuLocation:편집 → 다시 실행

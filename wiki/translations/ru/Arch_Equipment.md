@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Arch Equipment
    Name/ru:Оборудование
    MenuLocation:Arch → Оборудование

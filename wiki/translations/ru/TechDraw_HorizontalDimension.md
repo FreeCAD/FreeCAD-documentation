@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Указать горизонтальный размер
    Name:TechDraw_HorizontalDimension
    MenuLocation:TechDraw → Размеры → Указать горизонтальный размер

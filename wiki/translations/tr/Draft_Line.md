@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Line
    Name/tr:Çizgi
    MenuLocation:Taslak → Çizgi

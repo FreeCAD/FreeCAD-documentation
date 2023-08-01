@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ReportBug
    Name/fr:Std Rapport de bogue
    MenuLocation:Aide → Signaler un bogue

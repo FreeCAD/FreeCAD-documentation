@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExtensionCascadeHorizDimension
    Name/fr:TechDraw Cascade horizontale
    MenuLocation:TechDraw → Extensions : attributs/modifications → Cascader horizontalement les cotes

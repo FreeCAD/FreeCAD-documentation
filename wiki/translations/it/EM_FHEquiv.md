@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:EM FHEquiv
    Name/it:EM FHEquiv
    MenuLocation:EM → FHEquiv

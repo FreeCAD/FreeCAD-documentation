@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Snap Perpendicular
    Name/ru:Draft Perpendicular
    MenuLocation:Черчение → [Привязка](Draft_Snap/ru.md) → Нормаль

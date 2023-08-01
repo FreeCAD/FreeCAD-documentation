@@ -1,6 +1,6 @@
 # Draft BezCurve/sv
 ---
-- GuiCommand:/sv   Name:Draft BezCurve   Name/sv:Draft BezCurve   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> BezCurve   Shortcut:B Z---
+- GuiCommand:   Name:Draft BezCurve   Name/sv:Draft BezCurve   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> BezCurve   Shortcut:B Z---
 
 
 </div>

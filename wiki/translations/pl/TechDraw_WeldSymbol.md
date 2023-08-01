@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw WeldSymbol
    Name/pl:Rysunek Techniczny: Dodaj informacje spawalnicze do linii odniesienia
    MenuLocation:TechDraw → Dodaj informacje spawalnicze do linii odniesienia

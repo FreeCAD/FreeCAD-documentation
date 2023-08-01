@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign AdditiveWedge
    Name/de:PartDesign KeilHinzufügen
    MenuLocation:Part Design → Grundkörper hinzufügen → Keil

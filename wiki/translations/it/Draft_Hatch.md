@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Hatch
    Name/it:Tratteggio
    MenuLocation:Drafting → Tratteggio

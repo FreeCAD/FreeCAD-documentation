@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher BSplinePolygon
    Name/de:Sketcher BSplinePolygon
    MenuLocation:Sketch → B-Spline-Werkzeuge →B-Spline-Kontrollpolygon ein- / ausblenden

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Mesh Evaluation
    Name/de:Netz Auswertung
    MenuLocation:Netze → Analyse → Netz auswerten und reparieren...

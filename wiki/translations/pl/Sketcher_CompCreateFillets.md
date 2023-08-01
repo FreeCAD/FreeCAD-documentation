@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher CompCreateFillets
    Name/pl:Szkicownik: Komponent Utwórz zaokrąglenie
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)

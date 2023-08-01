@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Plot Series
    Name/pl:Wykres: Skonfiguruj serie
    MenuLocation:Wykres → Skonfiguru serię

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Measure Toggle Delta
    Name/de:Part Messung DeltaUmschalten
    MenuLocation:Messen → Delta umschalten

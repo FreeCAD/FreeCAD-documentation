@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Offset
    Name/pl:Część: Odsunięcie 3D
    MenuLocation:Część → Odsunięcie 3D

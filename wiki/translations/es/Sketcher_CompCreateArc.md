@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher Arcs
    Name/es:Croquizador Arcos
    Icon:Sketcher_CompCreateArc.png

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Arc 3Points
    Name/fr:Draft Arc par 3 points
    MenuLocation:Draft → Outils Arc → Arc par 3 points

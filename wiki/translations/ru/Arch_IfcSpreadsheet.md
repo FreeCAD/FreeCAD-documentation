@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Arch IfcSpreadsheet
    Name/ru:Arch IfcSpreadsheet
    MenuLocation:Arch → Utilities → Создать IFC таблицу

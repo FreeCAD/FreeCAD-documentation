@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign Sprocket
    Name/es:DiseñoPieza Rueda Dentada
    MenuLocation:DiseñoPieza → Rueda Dentada...

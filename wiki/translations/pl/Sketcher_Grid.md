@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher Grid
    Name/pl:Szkicownik: Przełącz widoczność siatki
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 QuickMove
    Name/de:Assembly3 SchnellesBewegen
    Icon:Assembly_QuickMove.svg‎‎

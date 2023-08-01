@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Spreadsheet_StyleUnderline
    Name/it:Sottolineato
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)

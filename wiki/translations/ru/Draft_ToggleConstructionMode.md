@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft ToggleConstructionMode
    Name/ru:Draft ToggleConstructionMode
    MenuLocation:Черчение -> Утилиты -> Переключить режим конструирования

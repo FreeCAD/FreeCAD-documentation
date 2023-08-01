@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Measure Refresh
    Name/fr:Part Rafraîchir les mesures
    MenuLocation:Mesure → Rafraîchir les mesures

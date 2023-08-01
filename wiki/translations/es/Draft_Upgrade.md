@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft Upgrade
    Name/es:Borrador Elevar
    MenuLocation:Modificación → Elevar

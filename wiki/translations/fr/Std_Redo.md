@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std Redo
    Name/fr:Std Rétablir
    MenuLocation:Édition → Rétablir

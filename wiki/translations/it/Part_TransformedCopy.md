@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Part TransformedCopy
    Name/it:Crea una copia modificata
    MenuLocation:Part → Crea una copia → Crea una copia modificata

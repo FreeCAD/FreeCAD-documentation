@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Ограничение перпендикулярности
    Name:Sketcher_ConstrainPerpendicular
    MenuLocation:Sketch → Ограничения эскиза → Ограничение перпендикулярности

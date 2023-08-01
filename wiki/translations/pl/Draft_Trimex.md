@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft Trimex
    Name/pl:Rysunek Roboczy: Przytnij
    MenuLocation:Modyfkacja → Przytnij

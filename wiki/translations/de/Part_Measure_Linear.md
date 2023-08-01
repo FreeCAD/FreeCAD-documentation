@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Measure Linear
    Name/de:Part Messung Abstand
    MenuLocation:Messen → Linear messen

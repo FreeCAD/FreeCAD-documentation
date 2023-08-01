@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Defeaturing
    Name/de:Part MerkmalEntfernen
    MenuLocation:Formteil → Merkmal entfernen

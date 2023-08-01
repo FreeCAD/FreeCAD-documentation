@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_ViewRear
    Name/it:Vista da dietro
    MenuLocation:Visualizza → Viste standard → Da dietro

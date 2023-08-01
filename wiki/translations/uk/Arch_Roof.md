@@ -1,6 +1,6 @@
 # Arch Roof/uk
 ---
-- GuiCommand:/uk   Name:Arch Roof   Name/uk:Arch Roof   Workbenches:[[Arch_Workbench/uk   Arch]]|MenuLocation:Arch → Roof   Shortcut:R F---
+- GuiCommand:   Name:Arch Roof   Name/uk:Arch Roof   Workbenches:[[Arch_Workbench/uk   Arch]]|MenuLocation:Arch → Roof   Shortcut:R F---
 
 
 </div>

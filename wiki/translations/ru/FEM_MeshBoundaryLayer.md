@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM MeshBoundaryLayer
    Name/ru:FEM MeshBoundaryLayer
    MenuLocation: Mesh → FEM Mesh boundary layer

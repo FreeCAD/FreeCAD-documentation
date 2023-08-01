@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign Fillet
    Name/es:DiseñoPiezas Redondeo
    Workbenches:[DiseñoPiezas](PartDesign_Workbench/es.md)

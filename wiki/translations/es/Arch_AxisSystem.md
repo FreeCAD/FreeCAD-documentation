@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch AxisSystem
    Name/es:Arch AxisSystem
    MenuLocation:Arch → Axis System

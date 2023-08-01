@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std PerspectiveCamera
    Name/ko:표준 원근투영 카메라
    MenuLocation:보기 → 원근투영

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Arch Wall
    Name/ro:Arch Wall
    MenuLocation:Arch → Wall

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher ConstrainBlock
    Name/pl:Szkicownik: Wiązanie zablokowania
    MenuLocation:Szkic → Wiązania szkicownika → Wiązanie zablokowania

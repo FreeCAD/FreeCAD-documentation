@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM ElementRotation1D
    Name/de:FEM Elementdrehung1D
    MenuLocation:Model → Element-Geometrie → Beam rotation

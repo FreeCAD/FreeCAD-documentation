@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft Wire
    Name/pl:Rysunek Roboczy: Linia łamana
    MenuLocation:Kreślenie → Linia łamana

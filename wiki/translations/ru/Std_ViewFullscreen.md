@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std ViewFullscreen
    Name/ru:Std ViewFullscreen
    MenuLocation:Вид → Окно документа → На весь экран

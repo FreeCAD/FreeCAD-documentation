@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Указать длину
    Name:TechDraw_LengthDimension
    MenuLocation:TechDraw → Размеры → Указать длину

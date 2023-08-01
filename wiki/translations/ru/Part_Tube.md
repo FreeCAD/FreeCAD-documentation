@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part_Tube
    Name/ru:Создать трубу
    MenuLocation:Деталь → Примитивы → Создать трубу

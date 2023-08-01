@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher ToggleConstruction
    Name/it:Geometria di costruzione
    Icon:Sketcher_AlterConstruction.svg

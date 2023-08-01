@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher RenderingOrder
    Name/fr:Sketcher Ordre de rendu
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)

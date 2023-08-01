@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Std Workbench
    Name/es:Ambiente de Trabajo Std
    Empty:1

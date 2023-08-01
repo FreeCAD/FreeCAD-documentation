@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Разделить ребро
    Name:Sketcher_Split
    MenuLocation:Sketch → Геометрия эскиза → Разделить ребро

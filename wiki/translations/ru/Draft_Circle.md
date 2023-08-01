@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Circle
    Name/ru:Draft Circle
    MenuLocation:Черчение → Окружность

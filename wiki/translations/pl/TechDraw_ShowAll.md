@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw ShowAll
    Name/pl:Rysunek Techniczny: Pokaż / ukryj niewidoczne krawędzie
    MenuLocation:Rysunek Techniczny → Pokaż / ukryj niewidoczne krawędzie

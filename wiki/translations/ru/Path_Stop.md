@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Path Stop
    Name/ru:Path Stop
    MenuLocation:Путь → Частичные команды → Остановить

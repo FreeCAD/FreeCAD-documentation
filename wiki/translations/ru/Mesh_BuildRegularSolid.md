@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Правильное геометрическое тело
    Name:Mesh_BuildRegularSolid
    MenuLocation:Полигональные Сетки → Правильное геометрическое тело...

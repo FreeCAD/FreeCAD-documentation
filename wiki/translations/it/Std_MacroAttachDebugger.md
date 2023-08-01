@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_MacroAttachDebugger
    Name/it:Collega al debugger remoto
    Empty:1

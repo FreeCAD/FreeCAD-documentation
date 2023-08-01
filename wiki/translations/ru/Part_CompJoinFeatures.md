@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part CompJoinFeatures
    Name/ru:Part CompJoinFeatures
    MenuLocation:Деталь → Join

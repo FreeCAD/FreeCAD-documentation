@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Measure Refresh
    Name/pl:Część: Odśwież pomiary
    MenuLocation:Pomiary → Odśwież pomiary

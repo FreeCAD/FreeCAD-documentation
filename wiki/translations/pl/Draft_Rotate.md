@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft Rotate
    Name/pl:Rysunek Roboczy: Obróć
    MenuLocation:Modyfikacja → Obróć

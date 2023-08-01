@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw Dimension Horizontal Extent
    Name/de:TechDraw MaßHorizontaleAusdehnung
    MenuLocation:TechDraw → Maßeinträge → Maß für die horizontale Ausdehnung einfügen

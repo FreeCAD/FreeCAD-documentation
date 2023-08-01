@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw HorizontalDimension
    Name/pl:Rysunek Techniczny: Wstaw wymiar poziomy
    MenuLocation:Rysunek Techniczny → Wymiary → Wstaw wymiar poziomy

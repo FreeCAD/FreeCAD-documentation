@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher SelectRedundantConstraints
    Name/es:Corquizador SeleccionarRestriccionesRedundantes
    Workbenches:[Corquizador](Sketcher_Workbench/es.md)

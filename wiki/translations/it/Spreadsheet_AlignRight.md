@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Spreadsheet_AlignRight
    Name/it:Allinea a destra
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)

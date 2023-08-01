@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign Body
    Name/pl:Projekt części: Zawartość
    MenuLocation:Projekt Części → Stwórz zawartość

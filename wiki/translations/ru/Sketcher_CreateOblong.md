@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать скруглённый прямоугольник
    Name:Sketcher_CreateOblong
    MenuLocation:Sketch → Геометрия эскиза → Создать скруглённый прямоугольник

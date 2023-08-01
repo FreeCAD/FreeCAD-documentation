@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Клонировать
    Name:Sketcher_Clone
    MenuLocation:Sketch → Инструменты для эскиза → Клонировать

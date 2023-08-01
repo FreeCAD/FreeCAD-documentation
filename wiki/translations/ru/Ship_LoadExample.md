@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Ship Load
    Name/ru:Ship Load
    MenuLocation:Ship design → Загрузить пример геометрии судна

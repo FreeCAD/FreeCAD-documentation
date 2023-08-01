@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Удалить компонент
    Name/ru:Arch Remove
    MenuLocation:Архитектура → Удалить компонент

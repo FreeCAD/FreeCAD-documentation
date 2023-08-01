@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw Dimension Vertical Extent
    Name/de:TechDraw MaßVertikaleAusdehnung
    MenuLocation:TechDraw → Maßeinträge → Maß für die vertikale Ausdehnung einfügen

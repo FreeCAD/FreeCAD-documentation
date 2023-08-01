@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExtensionLockUnlockView
    Name/fr:TechDraw Verrouiller/déverrouiller
    MenuLocation:TechDraw → Extensions : attributs/modifications → Verrouiller/déverrouiller les vues

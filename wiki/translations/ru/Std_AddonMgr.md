@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Менеджер дополнений
    MenuLocation:Инструменты → Менеджер дополнений
    Workbenches:All

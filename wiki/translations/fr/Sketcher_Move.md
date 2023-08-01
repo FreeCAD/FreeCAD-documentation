@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher Move
    Name/fr:Sketcher Déplacer
    MenuLocation:Esquisse → Outils d'esquisse → Déplacer

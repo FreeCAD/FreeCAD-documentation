@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Reinforcement_Bar_Shape_Cut_List
    Name/it:Sagomatura dei ferri
    MenuLocation:Reinforcement → Sagomatura dei ferri

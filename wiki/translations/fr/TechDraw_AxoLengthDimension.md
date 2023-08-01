@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw AxoHorizontalDimension
    Name/fr:TechDraw Cote axonométrique
    MenuLocation:TechDraw → Annotations → Cote axonométrique

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/cs
+- GuiCommand:
    Name:Sketcher ConstrainDistanceX
    Name/cs:Sketcher ConstrainDistanceX
    Workbenches:[Sketcher](Sketcher_Workbench/cs.md)

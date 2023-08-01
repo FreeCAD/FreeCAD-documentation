@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Prism
    Name/fr:Part Prisme
    MenuLocation:Part → [Créer des primitives...](Part_Primitives/fr.md) → Prisme

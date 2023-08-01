@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part CompCompoundTools
    Name/de:Part AuswahlVerbundwerkzeuge
    MenuLocation:Formteil → Verbund

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pt-br
+- GuiCommand:-br
    Name:Constraint Parallel
    Name/pt-br:Constraint Parallel
    Workbenches:[Sketcher](Sketcher_Workbench/pt-br.md), [PartDesign](PartDesign_Workbench/pt-br.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Wire
    Name/it:Polilinea
    MenuLocation:Drafting → Polilinea

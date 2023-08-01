@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ClipGroupAdd
    Name/fr:TechDraw Ajout vue dans une fenêtre de rognage
    MenuLocation:TechDraw → Ajouter une vue à la fenêtre de rognage

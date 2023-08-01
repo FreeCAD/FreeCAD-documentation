@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Icon:PartDesign InternalExternalGear.svg
    Name:PartDesign InvoluteGear
    Name/ro:PartDesign: Angrenaj cilindric cu dinți drepți în evolventă

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std TreeSyncPlacement
    Name/ru:Std TreeSyncPlacement
    MenuLocation:Вид → Дерево документа → Sync placement

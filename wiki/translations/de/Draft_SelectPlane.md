@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft SelectPlane
    Name/de:Draft EbeneAuswählen
    MenuLocation:Dienstprogramme → Ebene wählen

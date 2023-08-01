@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FEM SolverRun
    Name/it:Avvia il solutore
    MenuLocation:Soluzione → Avvia il solutore

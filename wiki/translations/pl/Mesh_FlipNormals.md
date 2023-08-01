@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh FlipNormals
    Name/pl:Siatka: Porządkuj wektory normalnych
    MenuLocation:Siatka → Odwróć wektory normalnych

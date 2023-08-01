@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExtensionAreaAnnotation
    Name/fr:TechDraw Surface
    MenuLocation:TechDraw → Extensions : attributs/modifications → Calculer la surface des faces sélectionnées

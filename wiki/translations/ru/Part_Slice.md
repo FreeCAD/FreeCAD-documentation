@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part Slice
    Name/ru:Part Slice
    MenuLocation:Деталь → Split → Slice

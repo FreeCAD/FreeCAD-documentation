@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch MeshToShape
    Name/de:Arch NetzZuForm
    MenuLocation:Arch → Dienstprogramme → Netz zu Form

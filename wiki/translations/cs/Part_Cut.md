@@ -1,6 +1,6 @@
 # Part Cut/cs
 ---
-- GuiCommand:/cs   Name:Part Cut   Name/cs:Díl Oddělit   MenuLocation:Díl → Oddělit   Workbenches:[SeeAlso:[[Part Union/cs|Díl Sjednotit](Part_Workbench/cs___Díl]].md), [Díl Společné](Part_Common/cs.md)---
+- GuiCommand:   Name:Part Cut   Name/cs:Díl Oddělit   MenuLocation:Díl → Oddělit   Workbenches:[SeeAlso:[[Part Union/cs|Díl Sjednotit](Part_Workbench/cs___Díl]].md), [Díl Společné](Part_Common/cs.md)---
 
 
 </div>

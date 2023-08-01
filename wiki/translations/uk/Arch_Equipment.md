@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/uk
+- GuiCommand:
    Name:Arch Equipment
    Name/uk:Arch Equipment
    MenuLocation:Arch → Equipment

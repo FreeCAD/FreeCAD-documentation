@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:SheetMetal Unfold
    Name/fr:SheetMetal Déplier
    MenuLocation:SheetMetal → Unfold

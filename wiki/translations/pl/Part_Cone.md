@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Cone
    Name/pl:Część: Stożek
    MenuLocation:Część → Bryła pierwotna → Stożek

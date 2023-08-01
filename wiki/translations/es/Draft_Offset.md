@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft Offset
    Name/es:Draft Offset
    MenuLocation:Croquis → Equidistancia

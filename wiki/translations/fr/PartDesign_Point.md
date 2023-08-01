@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign Point
    Name/fr:PartDesign Point de référence
    MenuLocation:Part Design → Créer une référence → Créer un point de référence

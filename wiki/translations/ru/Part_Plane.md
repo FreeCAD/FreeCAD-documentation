@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part_Plane
    Name/ru:Плоскость
    MenuLocation:[Деталь](Part_Workbench/ru.md) → [Создать примитивы...](Part_Primitives/ru.md) → Плоскость

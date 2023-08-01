@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/cs
+- GuiCommand:
    Name:Sketcher ConstrainTangent
    Name/cs:Sketcher ConstrainTangent
    Workbenches:[Sketcher](Sketcher_Workbench/cs.md)

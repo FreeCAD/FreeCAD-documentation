@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw DecorateLine
    Name/it:Cambia l'aspetto delle linee
    MenuLocation:TechDraw → Cambia l'aspetto delle linee

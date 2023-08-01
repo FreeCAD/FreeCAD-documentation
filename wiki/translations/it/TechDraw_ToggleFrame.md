@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw ToggleFrame
    Name/it:Attiva o disattiva la cornice
    MenuLocation:TechDraw → Attiva o disattiva la cornice

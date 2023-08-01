@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Spreadsheet MergeCells
    Name/pl:Arkusz Kalkulacyjny: Połącz komórki
    MenuLocation:Arkusz kalkulacyjny → Połącz komórki

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Spreadsheet CreateSheet
    Name/de:Kalkulationstabelle ErstelleArbeitsblatt
    MenuLocation:Kalkulationstabelle → Erstelle Kalkulationstabelle

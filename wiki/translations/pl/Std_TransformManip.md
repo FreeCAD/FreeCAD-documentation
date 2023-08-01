@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std TransformManip
    Name/pl:Std: Przemieszczenie
    MenuLocation:Kliknij prawym przyciskiem na obiekt w widoku drzewa → Przekształć

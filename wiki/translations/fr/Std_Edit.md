@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std_Edit
    Name/fr:Std Bascule mode édition
    MenuLocation:Édition → Basculer le mode d'édition

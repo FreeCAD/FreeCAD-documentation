@@ -1,6 +1,6 @@
 # Arch Add/sv
 ---
-- GuiCommand:/sv   Name:Arch Add   Name/sv:Arch Add   Workbenches:[MenuLocation:Arch → Add   SeeAlso:[[Arch Remove/sv|Arch Remove](Arch_Workbench/sv___Arch]].md)---
+- GuiCommand:   Name:Arch Add   Name/sv:Arch Add   Workbenches:[MenuLocation:Arch → Add   SeeAlso:[[Arch Remove/sv|Arch Remove](Arch_Workbench/sv___Arch]].md)---
 
 
 </div>

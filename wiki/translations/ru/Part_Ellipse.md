@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part Ellipse
    Name/ru:Эллипс
    MenuLocation:Деталь → [Создать примитивы...](Part_Primitives/ru.md) → Эллипс

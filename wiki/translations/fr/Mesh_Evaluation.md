@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh Evaluation
    Name/fr:Mesh Évaluation
    MenuLocation:Maillages → Analyser → Évaluer et réparer le maillage...

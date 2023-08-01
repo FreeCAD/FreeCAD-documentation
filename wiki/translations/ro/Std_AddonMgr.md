@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Std AddonMgr
    Name/ro:Addon manager
    Icon:AddonManager.svg

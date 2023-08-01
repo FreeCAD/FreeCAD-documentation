@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Отвязать
    Name:Std_LinkUnlink
    MenuLocation:Нет

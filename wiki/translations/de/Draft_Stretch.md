@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Stretch
    Name/de:Draft Strecken
    MenuLocation:Änderung → Strecken

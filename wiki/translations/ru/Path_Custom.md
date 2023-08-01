@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Path Custom
    Name/ru:Path Custom
    MenuLocation:Path → Supplemental Commands → Дополнительно

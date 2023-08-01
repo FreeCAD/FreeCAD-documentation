@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:SheetMetal AddFoldWall
    Name/de:SheetMetal Abkanten
    MenuLocation:SheetMetal → Fold a Wall

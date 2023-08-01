@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw Dimension Diameter
    Name/de:TechDraw MaßDurchmesser
    MenuLocation:TechDraw → Bemaßungen → Durchmessermaß einfügen

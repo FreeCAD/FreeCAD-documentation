@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part Helix
    Name/ru:Винтовая Спираль
    MenuLocation:Деталь → [Создать примитивы...](Part_Primitives/ru.md) → Спираль

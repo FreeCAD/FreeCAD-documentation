@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Вставить страницу используя шаблон
    Name:TechDraw_PageTemplate
    MenuLocation:TechDraw → Вставить страницу используя шаблон

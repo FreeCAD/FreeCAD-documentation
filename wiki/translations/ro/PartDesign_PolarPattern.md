@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:PartDesign PolarPattern
    Name/ro:PartDesign PolarPattern
    Workbenches:[PartDesign](PartDesign_Workbench/ro.md)

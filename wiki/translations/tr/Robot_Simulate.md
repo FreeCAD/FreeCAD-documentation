@@ -1,6 +1,6 @@
 # Robot Simulate/tr
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Robot Simulate
    Name/tr:Simülasyon
    Workbenches:[Robot](Robot_Workbench/tr.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign MoveFeature
    Name/fr:PartDesign Déplacer vers un autre corps
    MenuLocation:Menu contextuel → Déplacer vers un autre corps

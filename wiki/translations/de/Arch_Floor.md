@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Floor
    Name/de:Arch Geschoss
    MenuLocation:Architektur → Stockwerk

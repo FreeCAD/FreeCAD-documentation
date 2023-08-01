@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw 3PtAngleDimension
    Name/fr:TechDraw Cote angulaire par 3 points
    MenuLocation:TechDraw → Insérer une cote angulaire par 3 points

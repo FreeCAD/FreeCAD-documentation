@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ViewDockUndockFullscreen
    Name/fr:Std Fenêtre document détachée
    Empty:1

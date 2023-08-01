@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Rotate
    Name/it:Ruota
    MenuLocation:Modifiche → Ruota

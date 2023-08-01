@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher_ConstrainBlock
    Name/it:Fissa
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)

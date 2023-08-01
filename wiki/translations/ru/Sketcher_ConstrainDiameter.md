@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Ограничить диаметр
    Name:Sketcher_ConstrainDiameter
    MenuLocation:Sketch → Ограничения эскиза → Ограничить диаметр

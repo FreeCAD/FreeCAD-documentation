@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:PartDesign_WizardShaft
    Name/it:PartDesign Procedura guidata per alberi
    MenuLocation:PartDesign → Assistente Formazione Albero...

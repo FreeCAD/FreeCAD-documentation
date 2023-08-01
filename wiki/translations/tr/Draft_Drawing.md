@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Drawing
    Name/tr:Çizim
    MenuLocation:Drafting → Drawing

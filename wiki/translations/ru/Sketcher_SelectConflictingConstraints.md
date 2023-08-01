@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Выделить конфликтующие ограничения
    Name:Sketcher_SelectConflictingConstraints
    MenuLocation:Sketch → Инструменты для эскиза → Выделить конфликтующие ограничения

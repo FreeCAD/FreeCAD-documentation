@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FCGear BevelGear
    Name/it:Ingranaggio conico
    MenuLocation:FCGear → Create a Bevel gear

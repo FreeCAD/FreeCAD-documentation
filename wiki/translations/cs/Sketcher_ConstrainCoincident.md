@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/cs
+- GuiCommand:
    Icon:Constraint PointOnPoint.svg
    Name/cs:Constraint PointOnPoint
    Workbenches:[Náčrt](Sketcher_Workbench/cs.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ViewLeft
    Name/fr:Std Vue de gauche
    MenuLocation:Affichage → Vues standards → Gauche

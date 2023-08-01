@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:WebTools Git‏‎
    Name/fr:WebTools Git‏‎
    MenuLocation:Web Tools → Git

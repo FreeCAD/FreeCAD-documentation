@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ViewFullscreen
    Name/fr:Std Plein écran
    MenuLocation:Affichage → Fenêtre de document → Plein écran

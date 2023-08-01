@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh Intersection
    Name/pl:Siatka Przecięcie
    MenuLocation:Siatki → Operacje logiczne → Przecięcie

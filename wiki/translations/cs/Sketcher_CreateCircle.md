@@ -1,6 +1,6 @@
 # Sketcher CreateCircle/cs
 ---
-- GuiCommand:/cs   Name:Sketcher CreateCircle   Name/cs:Skicář Kružnice   Workbenches:[MenuLocation:Náčrt → Skicář Konstrukce → Vytvořit kružnici   SeeAlso:[[Sketcher CompCreateArc/cs|Skicář Oblouk](Sketcher_Workbench/cs___Skicář]].md)---
+- GuiCommand:   Name:Sketcher CreateCircle   Name/cs:Skicář Kružnice   Workbenches:[MenuLocation:Náčrt → Skicář Konstrukce → Vytvořit kružnici   SeeAlso:[[Sketcher CompCreateArc/cs|Skicář Oblouk](Sketcher_Workbench/cs___Skicář]].md)---
 
 
 </div>

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft ToggleGrid
    Name/it:Mostra/Nascondi la griglia
    MenuLocation:Draft → Utilità → Mostra/Nascondi la griglia

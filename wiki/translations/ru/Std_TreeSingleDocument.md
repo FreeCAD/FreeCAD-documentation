@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std TreeSingleDocument
    Name/ru:Std TreeSingleDocument
    MenuLocation:Вид → Дерево документа → Одиночный документ

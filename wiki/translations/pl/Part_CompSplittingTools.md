@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part CompSplittingTools
    Name/pl:Część: Komponent Podziel obiekty
    MenuLocation:Część → Rozdziel

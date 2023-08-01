@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Curves ExtendCurve
    Name/de:Curves KurveVerlängern
    MenuLocation:Curves → Extend Curve

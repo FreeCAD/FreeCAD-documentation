@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_Revert
    Name/it:Ripristina
    MenuLocation:File → Ripristina

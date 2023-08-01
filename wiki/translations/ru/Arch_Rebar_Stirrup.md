@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Кольцевая арматура
    Name:Arch_Rebar_Stirrup
    MenuLocation:Arch → Rebar tools → Stirrup<br>3D/BIM → Reinforcement tools → Stirrup

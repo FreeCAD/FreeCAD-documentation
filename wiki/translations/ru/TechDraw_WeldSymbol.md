@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Добавить информацию о сварке в линию-выноску
    Name:TechDraw_WeldSymbol
    MenuLocation:TechDraw → Добавить информацию о сварке в линию-выноску

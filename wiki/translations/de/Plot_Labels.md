@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Plot Labels
    Name/de:Plot Bezeichnungen
    MenuLocation:Plot → Set Labels‏‎

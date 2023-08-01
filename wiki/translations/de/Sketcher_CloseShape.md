@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher CloseShape
    Name/de:Sketcher KonturSchließen
    MenuLocation:Sketch → Skizzen-Werkzeuge → Kontur schließen

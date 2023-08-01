@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:FEM ConstraintTransform
    Name/pl:MES: Zdefiniuj odkształcenie
    MenuLocation:Model → Wiązania Geometryczne → Zdefiniuj odkształcenie

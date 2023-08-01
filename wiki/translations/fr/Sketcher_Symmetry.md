@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher Symmetry
    Name/fr:Sketcher Symétrie
    MenuLocation:Esquisse → Outils d'esquisse → Symétrie

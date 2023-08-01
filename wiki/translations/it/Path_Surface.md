@@ -1,6 +1,6 @@
 # Path Surface/it
 ---
-- GuiCommand:/it   Name:Path 3DSurface   Name/it:Sfacciatura 3D   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Sfacciatura 3D   Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Path 3DSurface   Name/it:Sfacciatura 3D   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Sfacciatura 3D   Shortcut:   SeeAlso:---
 
 
 </div>

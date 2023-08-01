@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Draft Label
    Name/ro:Draft Label
    MenuLocation:Draft → Label

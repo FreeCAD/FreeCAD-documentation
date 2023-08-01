@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ja
+- GuiCommand:
    Name:Constraint EqualLength
    Name/ja:Constraint EqualLength
    Workbenches:[スケッチャー](Sketcher_Workbench/ja.md), [パートデザイン](PartDesign_Workbench/ja.md)

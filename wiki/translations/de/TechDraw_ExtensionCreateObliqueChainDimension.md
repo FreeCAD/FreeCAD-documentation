@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw ExtensionCreateObliqueChainDimension
    Name/de:TechDraw ErgänzungSchrägeMaßkette
    MenuLocation:TechDraw → Ergänzungen: Maße → Schräge Maßketten erstellen

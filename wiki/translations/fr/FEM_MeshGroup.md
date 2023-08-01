@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM MeshGroup
    Name/fr:FEM Groupe de maillage FEM
    MenuLocation:Maillage → Groupe de maillage FEM

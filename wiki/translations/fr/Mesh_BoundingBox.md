@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh BoundingBox
    Name/fr:Mesh Limites englobantes
    MenuLocation:Maillages → Analyser → Limites englobantes...

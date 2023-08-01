@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher SelectOrigin
    Name/pl:Szkicownik: Wybierz odniesienie położenia
    MenuLocation:Szkic → Narzędzia szkicownika → Wybierz odniesienie położenia

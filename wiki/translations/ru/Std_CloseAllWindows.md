@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std_CloseAllWindows
    Name/ru:Закрыть всё
    MenuLocation:Файл → Закрыть всё

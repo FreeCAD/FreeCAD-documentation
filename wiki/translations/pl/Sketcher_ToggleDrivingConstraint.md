@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher ToggleDrivingConstraint
    Name/pl:Szkicownik: Przełącz kontrolę wiązania
    MenuLocation:Szkic → Wiązania szkicownika → Przełącz kontrolę wiązania

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExtensionExtendLine
    Name/fr:TechDraw Prolonger
    MenuLocation:TechDraw → Extensions : attributs/modifications → Prolonger la ligne

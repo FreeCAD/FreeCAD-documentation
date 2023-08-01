@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft SubelementHighlight
    Name/fr:Draft Surbrillance des sous éléments
    MenuLocation:Modification → Surbrillance des sous éléments

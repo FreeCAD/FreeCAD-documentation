@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part Offset2D
    Name/ru:Part Offset2D
    MenuLocation:Деталь → 2D смещение

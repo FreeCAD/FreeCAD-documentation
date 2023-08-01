@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch Panel
    Name/it:Pannello
    MenuLocation:Arch → Strumenti pannello → Pannello

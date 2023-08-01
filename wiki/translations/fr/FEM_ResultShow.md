@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ResultShow
    Name/fr:FEM Afficher les résultats
    MenuLocation:Résultats → Afficher les résultats

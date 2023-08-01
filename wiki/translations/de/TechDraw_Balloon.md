@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw Balloon
    Name/de: TechDraw Hinweisfeld
    MenuLocation:TechDraw → Anmerkungen → Hinweisfeld einfügen

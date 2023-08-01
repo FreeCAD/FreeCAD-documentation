@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher Split
    Name/pl:Szkicownik: Podziel krawędź
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Podziel krawędź

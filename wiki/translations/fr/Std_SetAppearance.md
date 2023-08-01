@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std SetAppearance
    Name/fr:Std Apparence
    MenuLocation:Affichage → Apparence...

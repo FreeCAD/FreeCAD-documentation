@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign ShapeBinder
    Name/pl:Projekt części: Łącznik kształtu
    MenuLocation:Part Design → Utwórz nowy łącznik kształtu

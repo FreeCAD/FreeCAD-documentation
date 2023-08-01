@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:SheetMetal AddRelief
    Name/fr:SheetMetal Grugeage carré
    MenuLocation:SheetMetal → Make Relief

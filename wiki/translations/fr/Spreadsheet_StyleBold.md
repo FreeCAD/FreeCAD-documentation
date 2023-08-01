@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Spreadsheet StyleBold
    Name/fr:Spreadsheet Texte en gras
    MenuLocation:Spreadsheet → Styles → Texte en gras

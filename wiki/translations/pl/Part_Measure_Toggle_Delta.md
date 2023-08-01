@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Measure Toggle Delta
    Name/pl:Część: Włącz / wyłącz widok pomiarów przyrostowych
    MenuLocation:Pomiary → Włącz / wyłącz widok pomiarów przyrostowych

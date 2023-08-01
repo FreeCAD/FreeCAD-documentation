@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Image CreateImagePlane
    Name/fr:Image Créer un plan d'image
    MenuLocation:

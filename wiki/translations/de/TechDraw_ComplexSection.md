@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw ComplexSection
    Name/de:TechDraw KomplexerSchnitt
    MenuLocation:TechDraw → TechDraw Ansichten → Komplexe Schnittansicht einfügen

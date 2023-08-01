@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Part Measure Toggle 3D
    Name/it:Attiva o Disattiva 3D
    MenuLocation:Misura → Attiva/disattiva 3D

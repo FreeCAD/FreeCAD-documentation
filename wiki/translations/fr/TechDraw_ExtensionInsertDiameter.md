@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExtensionInsertDiameter
    Name/fr:TechDraw Diamètre
    MenuLocation:TechDraw → Extensions : cotes → Insérer un préfixe '⌀'

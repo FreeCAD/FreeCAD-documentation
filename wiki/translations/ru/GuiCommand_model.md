@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Base ExampleCommandModel
    Name/ru:Base ExampleCommandModel
    Icon: 

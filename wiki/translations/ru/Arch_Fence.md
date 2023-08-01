@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Ограждение
    Name:Arch_Fence
    MenuLocation:Arch → Ограждение

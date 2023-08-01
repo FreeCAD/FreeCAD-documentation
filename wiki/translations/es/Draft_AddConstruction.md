@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft AddConstruction
    Name/es:Draft AddConstruction
    MenuLocation:Draft → Utilities → Add to construction group

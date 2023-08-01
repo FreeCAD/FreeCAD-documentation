@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Cone
    Name/de:Part Kegel
    MenuLocation:Formteil → Grundkörper → Kegel

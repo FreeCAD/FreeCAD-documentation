@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign AdditiveSphere
    Name/de:PartDesign KugelHinzufügen
    MenuLocation:Part Design → Grundkörper hinzufügen → Kugel hinzufügen

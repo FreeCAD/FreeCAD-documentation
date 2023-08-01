@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Полужирный текст
    Name:Spreadsheet_StyleBold
    MenuLocation:Электронная таблица → Styles → Полужирный текст

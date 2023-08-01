@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Path Comment
    Name/de:Path Kommentar
    MenuLocation:Path → Supplemental Commands → Comment

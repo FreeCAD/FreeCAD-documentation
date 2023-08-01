@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft Offset
    Name/pl:Rysunek Roboczy: Odsunięcie
    MenuLocation:Modyfikacja → Odsunięcie

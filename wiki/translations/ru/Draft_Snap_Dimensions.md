@@ -1,6 +1,6 @@
 # Draft Snap Dimensions/ru
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Snap Dimensions
    Name/ru:Draft Snap Dimensions
    MenuLocation:Черчение→ [Привязка](Draft_Snap/ru.md) → Размеры

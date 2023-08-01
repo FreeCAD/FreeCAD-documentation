@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Draft2Sketch
    Name/de:Entwurf EntwurfZuSkizze
    MenuLocation:Änderung → Entwurf zu Skizze

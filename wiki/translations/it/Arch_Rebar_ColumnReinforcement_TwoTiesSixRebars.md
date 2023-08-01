@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch_Rebar_ColumnReinforcement
    Name/it:Armatura di pilastro
    MenuLocation:Arch → Strumenti armatura → Armatura di colonna o BIM → 3D/BIM → Reinforcement → Column Reinforcement

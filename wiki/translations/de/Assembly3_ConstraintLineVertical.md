@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 ConstraintLineVertical
    Name/de:Assembly3 Vertikale Linie
    Icon:Assembly_ConstraintLineVertical.svg

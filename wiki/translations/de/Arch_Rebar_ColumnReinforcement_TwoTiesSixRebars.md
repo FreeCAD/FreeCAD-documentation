@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Rebar ColumnReinforcement
    Name/de:Architektur Bewehrung SäulenVerstärkung
    MenuLocation:Arch → Rebar tools → Säulenverstärkung oder 3D/BIM → Reinforcement tools → Stützenbewehrung

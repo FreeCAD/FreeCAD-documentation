@@ -1,6 +1,6 @@
 # PartDesign Draft/cs
 ---
-- GuiCommand:/cs   Name:PartDesign_Draft   Name/cs:PartDesign Draft   MenuLocation:Part Design -> Draft   Workbenches:[[PartDesign_Workbench/cs   Part Design]]|Shortcut:None   SeeAlso:None---
+- GuiCommand:   Name:PartDesign_Draft   Name/cs:PartDesign Draft   MenuLocation:Part Design -> Draft   Workbenches:[[PartDesign_Workbench/cs   Part Design]]|Shortcut:None   SeeAlso:None---
 
 
 </div>

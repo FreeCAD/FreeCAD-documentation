@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name/ro:Noua vedere TechDraw
    MenuLocation:TechDraw → Insert View
    Workbenches:[TechDraw](TechDraw_Workbench.md)

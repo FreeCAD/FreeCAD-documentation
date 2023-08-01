@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Snap Near
    Name/ru:Draft Snap Near
    MenuLocation:Черчение → [Привязка](Draft_Snap/ru.md) → Ближайшие

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FCGear CrownGear
    Name/fr:FCGear Engrenage couronne
    MenuLocation:Gear → Crown Gear

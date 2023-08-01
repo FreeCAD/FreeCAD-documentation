@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Spreadsheet SplitCell
    Name/ru:Разделить ячейку
    MenuLocation:Spreadsheet → Разделить ячейку

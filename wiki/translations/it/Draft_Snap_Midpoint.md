@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Snap Midpoint
    Name/it:Punto medio
    MenuLocation:Draft → [Aggancio](Draft_Snap/it.md) → Punto medio

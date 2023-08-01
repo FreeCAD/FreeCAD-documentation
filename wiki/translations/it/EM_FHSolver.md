@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:EM FHSolver
    Name/it:EM FHSolver
    MenuLocation:EM → FHSolver

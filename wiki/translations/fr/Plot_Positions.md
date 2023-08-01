@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Plot Positions
    Name/fr:Plot Positions
    MenuLocation:Plot → Définir les tailles et positions

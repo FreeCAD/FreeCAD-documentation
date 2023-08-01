@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std SelectVisibleObjects
    Name/ru:Std SelectVisibleObjects
    Empty:1

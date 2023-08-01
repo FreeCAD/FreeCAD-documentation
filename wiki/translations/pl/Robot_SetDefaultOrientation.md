@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Robot SetDefaultOrientation
    Name/pl:Robot: Ustaw domyślą orientację
    MenuLocation:Robot → Ustaw domyślą orientację

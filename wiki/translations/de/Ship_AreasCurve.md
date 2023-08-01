@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Ship Area
    Name/de:Schiffsbereich
    Icon:Ship_AreaCurve.svg

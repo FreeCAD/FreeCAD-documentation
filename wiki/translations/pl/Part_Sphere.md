@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Sphere
    Name/pl:Część: Sfera
    MenuLocation:Część → Bryła pierwotna → Sfera

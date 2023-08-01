@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher ConstrainDistanceY
    Name/pl:Szkicownik: Zwiąż w pionie
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)

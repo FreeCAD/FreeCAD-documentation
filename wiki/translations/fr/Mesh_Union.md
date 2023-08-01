@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh Union‏‎
    Name/fr:Mesh Union
    MenuLocation:Maillages → Opération booléenne → Union

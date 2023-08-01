@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std LinkUnlink
    Name/pl:Std: Usuń powiązanie
    MenuLocation:brak

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:PartDesign AdditiveLoft
    Name/ro:PartDesign Loft Aditivă
    Workbenches:[PartDesign](PartDesign_Workbench/ro.md)

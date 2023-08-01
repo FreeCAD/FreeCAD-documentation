@@ -1,6 +1,6 @@
 # Robot CreateTrajectory/tr
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Robot CreateTrajectory
    Name/tr:Yörünge oluştur
    Workbenches:[Robot](Robot_Workbench/tr.md)

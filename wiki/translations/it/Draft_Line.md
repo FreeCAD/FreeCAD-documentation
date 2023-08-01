@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft_Line
    Name/it:Linea
    MenuLocation:Drafting → Linea

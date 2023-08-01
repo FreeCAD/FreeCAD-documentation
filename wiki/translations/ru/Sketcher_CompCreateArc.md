@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Sketcher_CreateArc
    Name/ru:Создать дугу
    Icon:Sketcher_CompCreateArc.png

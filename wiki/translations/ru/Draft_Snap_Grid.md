@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Snap Grid
    Name/ru:Draft Grid
    MenuLocation:Draft → [Snapping](Draft_Snap.md) → Grid

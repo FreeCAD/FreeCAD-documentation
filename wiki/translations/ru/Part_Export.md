@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Экспорт в CAD
    Name:Part_Export‎
    MenuLocation:Part → Экспорт в CAD ...

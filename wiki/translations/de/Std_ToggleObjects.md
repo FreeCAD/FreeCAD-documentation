@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ToggleObjects
    Name/de:Std ObjekteUmschalten
    MenuLocation:Ansicht → Sichtbarkeit → Alle Objekte umkehren

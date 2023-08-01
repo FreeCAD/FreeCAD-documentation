@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_MacroStopDebug
    Name/it:Interrompi il debug
    MenuLocation:Macro → Interrompi il debug 

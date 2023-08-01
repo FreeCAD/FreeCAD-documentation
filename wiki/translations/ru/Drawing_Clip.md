@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Drawing Clip
    Name/ru:Drawing Clip
    Workbenches:[Drawing](Drawing_Workbench.md), Complete

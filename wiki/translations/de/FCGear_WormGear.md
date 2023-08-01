@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FCGear WormGear
    Name/de:FCGear WormGear
    MenuLocation:Gear → Worm Gear

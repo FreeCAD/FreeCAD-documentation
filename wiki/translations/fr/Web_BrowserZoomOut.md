@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Web BrowserZoomOut
    Name/fr:Web Zoom arrière
    MenuLocation:

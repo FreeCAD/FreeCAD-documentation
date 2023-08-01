@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign Chamfer
    Name/pl:Projekt Części: Sfazowanie
    MenuLocation:Projekt Części → Zastosuj funkcję ulepszenia → Sfazowanie

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std_Delete
    Name/ru:Удалить
    MenuLocation:Правка → Удалить

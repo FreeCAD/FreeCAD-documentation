@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Rocket LaunchLug
    Name/fr:Rocket Rampe de lancement
    MenuLocation:Rocket → Launch Guides → Launch Lug

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw WeldSymbol
    Name/fr:TechDraw Soudure
    MenuLocation:TechDraw → Ajouter les informations de soudage...

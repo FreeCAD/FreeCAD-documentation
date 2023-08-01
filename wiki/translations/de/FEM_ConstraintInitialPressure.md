@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM ConstraintInitialPressure
    Name/de:FEM StartbedingungDruck
    MenuLocation:Model → Fluid-Randbedingungen → Constraint initial pressure

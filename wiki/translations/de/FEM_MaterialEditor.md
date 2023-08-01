@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM MaterialEditor
    Name/de:FEM MaterialEditor
    MenuLocation:Modell → Materialien → Material editor

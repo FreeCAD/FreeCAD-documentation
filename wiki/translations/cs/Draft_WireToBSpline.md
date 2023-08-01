@@ -1,6 +1,6 @@
 # Draft WireToBSpline/cs
 ---
-- GuiCommand:/cs   Name:Draft WireToBSpline   Name/cs:Kreslení Drát do B-křivky   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> Drát do B-křivky---
+- GuiCommand:   Name:Draft WireToBSpline   Name/cs:Kreslení Drát do B-křivky   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> Drát do B-křivky---
 
 
 </div>

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Builder
    Name/fr:Part Générateur de forme
    MenuLocation:Part → Générateur de forme

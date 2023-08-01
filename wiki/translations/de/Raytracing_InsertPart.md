@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Raytracing InsertPart
    Name/de:Raytracing InsertPart
    MenuLocation:Raytracing → Teil einfügen

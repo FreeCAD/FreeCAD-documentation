@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Robot_RestoreHomePos
    Name/ru:Вернуть в исходное положение
    MenuLocation:Робот → Вернуть в исходное положение

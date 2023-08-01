@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM MaterialMechanicalNonlinear
    Name/fr:FEM Matériau mécanique non linéaire
    MenuLocation:Modèle → Matériaux →  Matériau mécanique non linéaire

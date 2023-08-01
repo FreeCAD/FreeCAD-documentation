@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw SurfaceFinishSymbol
    Name/de:TechDraw Oberflächensymbol
    MenuLocation:TechDraw → Symbols → Oberflächensymbol erstellen

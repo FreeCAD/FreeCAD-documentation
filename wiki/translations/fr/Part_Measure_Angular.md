@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Measure Angular
    Name/fr:Part Mesure angulaire
    MenuLocation:Mesure → Mesure angulaire‏‎

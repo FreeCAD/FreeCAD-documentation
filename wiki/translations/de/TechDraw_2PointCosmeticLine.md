@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw 2PointCosmeticLine
    Name/de:TechDraw 2PunkteHilfslinie
    MenuLocation:TechDraw → Linien hinzufügen →Hilfslinie durch 2 Punkte hinzufügen

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher SelectConstraints
    Name/pl:Szkicownik: Wybierz powiązane więzy
    MenuLocation:Szkic → Narzędzia szkicownika → Wybierz powiązane więzy

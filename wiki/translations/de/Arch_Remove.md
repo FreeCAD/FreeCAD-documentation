@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Remove
    Name/de:Arch Entfernen
    MenuLocation:Arch → Komponente entfernen

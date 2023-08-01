@@ -1,6 +1,6 @@
 # Draft ToggleConstructionMode/cs
 ---
-- GuiCommand:/cs   Name:Draft ToggleConstructionMode   Name/cs:DKreslení Přepnutí do konstrukčního módu   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> Utility -> Přepnutí do konstrukčního módu---
+- GuiCommand:   Name:Draft ToggleConstructionMode   Name/cs:DKreslení Přepnutí do konstrukčního módu   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> Utility -> Přepnutí do konstrukčního módu---
 
 
 </div>

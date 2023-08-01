@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Spreadsheet StyleItalic
    Name/pl:Arkusz Kalkulacyjny: Kursywa
    MenuLocation:Arkusz kalkulacyjny → Style → Kursywa

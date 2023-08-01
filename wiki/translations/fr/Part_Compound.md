@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Compound‏‎
    Name/fr:Part Composé
    MenuLocation:Part → Composés → Créer un composé

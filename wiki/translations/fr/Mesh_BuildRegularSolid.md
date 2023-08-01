@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh BuildRegularSolid
    Name/fr:Mesh Solide régulier
    MenuLocation:Maillages → Solide régulier...

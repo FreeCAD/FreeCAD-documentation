@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Добавить вспомогательную линию между 2-мя точками
    Name:TechDraw_2PointCosmeticLine
    MenuLocation:TechDraw → Добавить Линии → Добавить вспомогательную линию между 2-мя точками

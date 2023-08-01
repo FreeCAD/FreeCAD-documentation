@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ViewZoomOut
    Name/fr:Std Zoom arrière
    MenuLocation:Affichage → Zoom‏‎ → Zoom arrière

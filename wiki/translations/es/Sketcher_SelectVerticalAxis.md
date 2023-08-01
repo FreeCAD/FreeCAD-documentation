@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher SelectVerticalAxis
    Name/es:Croquizador SeleccionarEjeVertical
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)

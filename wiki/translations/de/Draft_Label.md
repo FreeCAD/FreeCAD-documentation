@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Label
    Name/de:Draft Notiz
    MenuLocation:Anmerkung → Bezeichnung

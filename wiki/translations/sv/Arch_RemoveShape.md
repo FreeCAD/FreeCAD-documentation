@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/sv
+- GuiCommand:
    Name:Arch RemoveShape
    Name/sv:Arch RemoveShape
    Workbenches:[Arch](Arch_Workbench/sv.md)

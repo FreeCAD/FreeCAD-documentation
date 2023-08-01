@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std AxisCross
    Name/fr:Std Axes du repère
    MenuLocation:Affichage → Afficher les axes des coordonnées

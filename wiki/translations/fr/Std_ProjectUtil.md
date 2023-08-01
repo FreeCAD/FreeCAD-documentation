@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ProjectUtil
    Name/fr:Std Utilitaire de projet
    MenuLocation:Outils → Utilitaire de projet

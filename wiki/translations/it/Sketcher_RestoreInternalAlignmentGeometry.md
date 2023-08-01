@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher RestoreInternalAlignmentGeometry
    Name/it:Mostra/Nascondi la geometria interna
    MenuLocation:Sketch → Strumenti → Mostra/Nascondi la geometria interna

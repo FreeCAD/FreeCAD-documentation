@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FCGear BevelGear
    Name/fr:FCGear Engrenage conique
    MenuLocation:Gear → Bevel Gear

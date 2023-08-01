@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Part Offset2D
    Name/it:Offset 2D
    MenuLocation:Parte → Offset 2D...

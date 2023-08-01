@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft Apply
    Name/pl:Rysunek Roboczy: Zastosuj bieżący styl
    MenuLocation:Przybory → Zastosuj bieżący styl

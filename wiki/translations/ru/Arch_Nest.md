@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Компоновка
    Name:Arch_Nest
    MenuLocation:Arch → Инструменты панелирования → Компоновка

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Drawing Orthoviews
    Name/fr:Drawing Vues orthogonales
    Workbenches:[Drawing](Drawing_Workbench/fr.md)

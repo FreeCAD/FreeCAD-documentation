@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw Dimension Radius
    Name/it:Raggio
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)

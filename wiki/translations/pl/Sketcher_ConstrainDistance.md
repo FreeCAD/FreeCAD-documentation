@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Constraint Length
    Name/pl:Szkicownik: Wiązanie odległości
    MenuLocation:Szkic → Wiązania szkicownika → Wiązanie odległości

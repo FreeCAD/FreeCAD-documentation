@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Part ExplodeCompound
    Name/es:Pieza ExplotarCompuesto
    MenuLocation:Pieza → Compuesto → Explotar Compuesto

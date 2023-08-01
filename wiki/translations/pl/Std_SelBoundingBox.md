@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std SelBoundingBox
    Name/pl:Std: Ramka otaczająca
    MenuLocation:Widok → Ramka otaczająca

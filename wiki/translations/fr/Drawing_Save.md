@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Drawing Save
    Name/fr:Drawing Sauvegarde
    MenuLocation:Drawing → Exporter la page...

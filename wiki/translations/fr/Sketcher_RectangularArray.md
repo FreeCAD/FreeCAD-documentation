@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher RectangularArray
    Name/fr:Sketcher Réseau rectangulaire
    MenuLocation:Esquisse → Outils d'esquisse → Réseau rectangulaire

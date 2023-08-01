@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std WhatsThis
    Name/ru:Std WhatsThis
    MenuLocation:{{StdMenu|[Справка](Std_Help_Menu/ru.md)}} → Что это?

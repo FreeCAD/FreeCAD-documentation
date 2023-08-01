@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std DlgCustomize
    Name/pl:Std: Dostosuj
    MenuLocation:Przybory → Dostosuj ...

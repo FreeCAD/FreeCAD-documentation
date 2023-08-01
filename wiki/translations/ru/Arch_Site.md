@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Arch Site
    Name/ru:Местность
    Workbenches:[Arch](Arch_Workbench/ru.md)

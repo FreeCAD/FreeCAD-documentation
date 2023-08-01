@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Draft Polygon
    Name/ro:Draft Polygon
    MenuLocation:Draft → Polygon

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch IfcExplorer
    Name/es:Arquitectura IfcExplorador
    Workbenches:[Arquitectura](Arch_Workbench/es.md)

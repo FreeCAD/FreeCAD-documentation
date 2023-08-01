@@ -1,6 +1,6 @@
 # Part Fillet/it
 ---
-- GuiCommand:/it   Name:Part_Fillet   Name/it:Raccorda   MenuLocation:Parte → Raccorda...   Workbenches:[SeeAlso:[[Part Chamfer/it|Smussa](Part_Workbench/it___Parte]].md)---
+- GuiCommand:   Name:Part_Fillet   Name/it:Raccorda   MenuLocation:Parte → Raccorda...   Workbenches:[SeeAlso:[[Part Chamfer/it|Smussa](Part_Workbench/it___Parte]].md)---
 
 
 </div>

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Arch Rebar Footing Reinforcement
    Name/pl:Architektura: Zbrojenie stóp fundamentowych
    MenuLocation:Architektura → Narzędzia zbrojenia → Zbrojenie stóp fundamentowych

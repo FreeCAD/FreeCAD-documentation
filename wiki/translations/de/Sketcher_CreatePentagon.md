@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher CreatePentagon
    Name/de:Sketcher FünfeckErstellen
    MenuLocation:Sketch → Skizzengeometrien → Fünfeck erstellen

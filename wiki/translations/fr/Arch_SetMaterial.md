@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch SetMaterial
    Name/fr:Arch Matériaux
    MenuLocation:Arch → Outils pour les matériaux → Matériau

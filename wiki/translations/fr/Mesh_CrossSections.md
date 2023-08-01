@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh CrossSections
    Name/fr:Mesh Coupes
    MenuLocation:Maillages → Couper → Coupes...

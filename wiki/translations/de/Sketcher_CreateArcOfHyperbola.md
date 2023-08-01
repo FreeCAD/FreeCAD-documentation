@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher CreateArcOfHyperbola
    Name/de:Sketcher HyperbelbogenErstellen
    MenuLocation:Sketch → Skizzengeometrien → Hyperbelbogen erstellen

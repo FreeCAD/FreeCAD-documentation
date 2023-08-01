@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std Std ViewBoxZoom
    Name/pl:Std: Powiększ obszar
    MenuLocation:Widok → Powiększenie → Powiększ obszar

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft Upgrade
    Name/pl:Draft: Ulepsz kształt
    MenuLocation:Modyfikacja → Upgrade

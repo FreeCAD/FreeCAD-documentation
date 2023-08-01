@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std PythonHelp
    Name/fr:Std Documentation automatique des modules Python 
    MenuLocation:Aide → Documentation automatique des modules Python

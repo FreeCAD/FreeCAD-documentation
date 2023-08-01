@@ -1,6 +1,6 @@
 # Robot TrajectoryCompound/de
 ---
-- GuiCommand:/de   Name:Robot TrajectoryCompound   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot → TrajectoryCompound---
+- GuiCommand:   Name:Robot TrajectoryCompound   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot → TrajectoryCompound---
 
 
 </div>

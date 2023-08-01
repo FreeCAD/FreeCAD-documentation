@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM ConstraintTransform
    Name/ru:FEM ConstraintTransform
    MenuLocation: Model → Geometrical constraints → Constraint transform

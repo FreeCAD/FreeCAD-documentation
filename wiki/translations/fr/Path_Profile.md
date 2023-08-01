@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path Profile
    Name/fr:Path Contournage
    MenuLocation:Path → Contournage

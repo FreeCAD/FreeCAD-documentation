@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Wedge
    Name/fr:Part Pyramide tronquée
    MenuLocation:Part → [Créer des primitives](Part_Primitives/fr.md) → Pyramide tronquée

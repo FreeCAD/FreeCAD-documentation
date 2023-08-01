@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign Scaled
    Name/de:PartDesign Scaled
    MenuLocation:None (Option within Part Design → Muster anwenden → Mehrfach-Transformation erstellen)

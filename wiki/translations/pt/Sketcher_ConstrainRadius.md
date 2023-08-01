@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pt
+- GuiCommand:
    Name:Constraint Radius
    Name/pt:Constraint Radius
    Workbenches:[Sketcher](Sketcher_Workbench/pt.md), [PartDesign](PartDesign_Workbench/pt.md)

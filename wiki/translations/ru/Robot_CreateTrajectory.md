@@ -1,6 +1,6 @@
 # Robot CreateTrajectory/ru
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Robot CreateTrajectory
    Name/ru:Robot CreateTrajectory
    Workbenches:[Robot](Robot_Workbench/ru.md)

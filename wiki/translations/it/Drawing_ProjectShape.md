@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Drawing_ProjectShape
    Name/it:Proietta le forme
    Empty:1

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path PostProcess
    Name/fr:Path Post-traitement
    MenuLocation:Path → Post-traitement

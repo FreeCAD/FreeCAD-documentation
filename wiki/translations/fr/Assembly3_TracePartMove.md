@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 TracePartMove
    Name/fr:Assembly3 Tracé du déplacement d'une pièce
    Icon:Assembly_Trace.svg‎‎

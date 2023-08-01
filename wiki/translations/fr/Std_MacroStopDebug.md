@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std MacroStopDebug
    Name/fr:Std Arrêt du débogage de macro
    MenuLocation:Macro → Arrêter le débogage 

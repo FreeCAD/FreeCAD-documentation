@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Mesh_Merge
    Name/it:Unisci
    MenuLocation:Mesh → Unisci

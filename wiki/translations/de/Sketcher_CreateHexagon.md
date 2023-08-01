@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher CreateHexagon
    Name/de:Sketcher SechseckErstellen
    MenuLocation:Sketch → Skizzengeometrien → Sechseck erstellen

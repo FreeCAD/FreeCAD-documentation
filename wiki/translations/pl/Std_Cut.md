@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std Cut
    Name/pl:Std: Wytnij
    MenuLocation:Edycja → Wytnij

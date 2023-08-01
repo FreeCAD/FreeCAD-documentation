@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher MirrorSketch
    Name/fr:Sketcher Esquisse miroir
    MenuLocation:Esquisse → Esquisse miroir

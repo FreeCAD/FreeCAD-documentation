@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:View Measure Toggle All
    Name/de:Ansicht Messen alle umschalten
    MenuLocation:Ansicht → Sichtbarkeit → Messen ein-/ausschalten

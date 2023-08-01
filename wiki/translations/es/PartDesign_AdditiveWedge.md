@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign AdditiveWedge
    Name/es:PartDesign Cuña aditiva
    MenuLocation:Part Design → Crear una primitiva aditiva → Cuña aditiva

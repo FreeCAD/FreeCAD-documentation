@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM CompPostCreateFunctions
    Name/fr:FEM Fonctions de filtrage
    MenuLocation:

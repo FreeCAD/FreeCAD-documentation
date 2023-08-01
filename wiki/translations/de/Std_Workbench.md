@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std Workbench
    Name/de:Std Arbeitsbereich
    Empty:1

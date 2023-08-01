@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Mesh Merge‏‎
    Name/ru:Mesh Merge‏‎
    MenuLocation:Сетки → Объединить

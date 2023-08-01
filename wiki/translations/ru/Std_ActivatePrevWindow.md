@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Предыдущее
    Name:Std_ActivatePrevWindow
    MenuLocation:Окна → Предыдущее

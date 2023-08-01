@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch Git
 ‏‎   Name/it:Arch Git
    MenuLocation:Arch → Utilità → Git

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part Compound‏‎Filter
    Name/ru:Part Compound‏‎Filter
    MenuLocation:Деталь → Фильтр соединений

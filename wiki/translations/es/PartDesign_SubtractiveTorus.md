@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign SubtractiveTorus
    Name/es:PartDesign Toro Sustractivo
    MenuLocation:Part Design → Crear una primitiva sustractiva → Toro Sustractivo

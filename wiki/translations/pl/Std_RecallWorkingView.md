@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std RecallWorkingView
    Name/pl:Std: Odtwórz widok
    MenuLocation:Widok → Widoki standardowe → Odtwórz widok

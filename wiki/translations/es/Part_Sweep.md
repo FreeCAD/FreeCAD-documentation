@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Part Sweep
    Name/es:Part Barrido
    MenuLocation:Pieza → Barrido...

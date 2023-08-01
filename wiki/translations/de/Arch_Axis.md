@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Axis
    Name/de:Arch Achse
    MenuLocation:Arch → Achsenwerkzeuge → Achse

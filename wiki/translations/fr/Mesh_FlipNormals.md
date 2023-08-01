@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh FlipNormals
    Name/fr:Mesh Inverser les normales‏‎
    MenuLocation:Maillages → Inverser les normales‏‎

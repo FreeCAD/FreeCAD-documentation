@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Measure Toggle Delta
    Name/fr:Part Basculer Delta
    MenuLocation:Mesure → Basculer Delta

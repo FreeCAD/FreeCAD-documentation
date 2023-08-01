@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft Arc
    Name/es:Draft Arc
    MenuLocation:Croquis → Arco

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Отправить в консоль Python
    Name:Std_SendToPythonConsole
    MenuLocation:Правка → Отправить в консоль Python

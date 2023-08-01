@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Polygon
    Name/it:Poligono
    MenuLocation:Drafting → Poligono

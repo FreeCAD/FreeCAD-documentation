@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Robot CreateRobot
    Name/fr:Robot Création de robot
    MenuLocation:Robot → Insérer des robots

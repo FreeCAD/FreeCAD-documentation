@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Указать угловой размер по 3 точкам
    Name:TechDraw_3PtAngleDimension
    MenuLocation:TechDraw → Указать угловой размер по 3 точкам

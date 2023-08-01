@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part FaceColors
    Name/de:Part FlächenFarben
    MenuLocation:Kontextmenü → Farben setzen

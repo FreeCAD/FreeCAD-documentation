@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Fasteners ChamferHole
    Name/fr:Fasteners ChamferHole
    MenuLocation:Fasteners → Make countersunk

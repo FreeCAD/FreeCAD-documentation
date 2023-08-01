@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/sv
+- GuiCommand:
    Name:Arch Floor
    Name/sv:Arch Floor
    Workbenches:[Arch](Arch_Workbench/sv.md)

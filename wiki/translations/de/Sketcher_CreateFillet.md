@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher CreateFillet
    Name/de:Sketcher VerrundungErstellen
    MenuLocation:Sketch → Skizzengeometrie → Verrundung erstellen

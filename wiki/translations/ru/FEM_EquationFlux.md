@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM EquationFluxsolver
    Name/ru:FEM EquationFluxsolver
    Icon:Fem-equation-fluxsolver.svg

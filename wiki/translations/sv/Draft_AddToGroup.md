@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/sv
+- GuiCommand:
    Name:Draft AddToGroup
    Name/sv:Draft AddToGroup
    Workbenches:[Draft](Draft_Workbench/sv.md), [Arch](Arch_Workbench/sv.md)

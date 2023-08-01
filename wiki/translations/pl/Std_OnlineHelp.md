@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std OnlineHelp
    Name/pl:td: Pomoc online
    MenuLocation:Pomoc → Pomoc

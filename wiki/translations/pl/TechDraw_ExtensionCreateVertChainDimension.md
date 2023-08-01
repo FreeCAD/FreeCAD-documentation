@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw ExtensionCreateVertChainDimension
    Name/pl:Rysunek Techniczny: Rozszerzenie Seria wymiarów pionowo
    MenuLocation:Rysunek Techniczny → Rozszerzenia: Wymiary → Seria wymiarów pionowo

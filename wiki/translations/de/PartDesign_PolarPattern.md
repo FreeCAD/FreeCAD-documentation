@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign PolarPattern
    Name/de:PartDesign PolaresMuster
    MenuLocation:Part Design → Muster anwenden → Polares Muster

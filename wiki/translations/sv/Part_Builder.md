@@ -1,6 +1,6 @@
 # Part Builder/sv
 ---
-- GuiCommand:/sv   Name:Part Shapebuilder   Name/sv:Part Shapebuilder   MenuLocation:Part -> Shapebuilder...   |Workbenches:[SeeAlso:[[Part_CreatePrimitives/sv|Part CreatePrimitives](Part_Workbench/sv___Part]].md)---
+- GuiCommand:   Name:Part Shapebuilder   Name/sv:Part Shapebuilder   MenuLocation:Part -> Shapebuilder...   |Workbenches:[SeeAlso:[[Part_CreatePrimitives/sv|Part CreatePrimitives](Part_Workbench/sv___Part]].md)---
 
 
 </div>

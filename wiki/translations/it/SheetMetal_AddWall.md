@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:SheetMetal_Bend
    Name/it:Piega
    MenuLocation:SheetMetal → Add Bend

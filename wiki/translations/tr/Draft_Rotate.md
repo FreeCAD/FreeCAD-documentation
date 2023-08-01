@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Rotate
    Name/tr:Döndür
    MenuLocation:Taslak → Döndür

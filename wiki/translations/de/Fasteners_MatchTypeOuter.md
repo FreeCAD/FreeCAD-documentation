@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Fasteners MatchTypeOuter
    Name/de:Fasteners AuswahlNachAußenmaß
    MenuLocation:Fasteners → Match for pass hole

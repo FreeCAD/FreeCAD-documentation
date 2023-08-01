@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw VerticalExtentDimension
    Name/pl:Rysunek Techniczny: Wstaw wymiar rozpiętości pionowej
    MenuLocation:Rysunek Techniczny → Wymiary → Wstaw wymiar rozpiętości pionowej

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch_SetMaterial
    Name/it:Imposta Materiale
    MenuLocation:Arch → Strumenti materiali → Materiale

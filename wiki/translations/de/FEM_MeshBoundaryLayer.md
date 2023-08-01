@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM MeshBoundaryLayer
    Name/de:FEM NetzGrenzschicht
    MenuLocation:Netz → FEM Netz Begrenzungsschicht

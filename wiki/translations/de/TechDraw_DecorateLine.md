@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw DecorateLine
    Name/de:TechDraw LiniendarstellungÄndern
    MenuLocation:TechDraw → Liniendarstellung ändern

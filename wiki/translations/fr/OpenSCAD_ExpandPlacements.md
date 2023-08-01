@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:OpenSCAD ExpandPlacements
    Name/fr:OpenSCAD Développer les placements
    MenuLocation:OpenSCAD → Développer les placements

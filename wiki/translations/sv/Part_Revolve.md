@@ -1,6 +1,6 @@
 # Part Revolve/sv
 ---
-- GuiCommand:/sv   Name:Part Revolve   Name/sv:Part Revolve/sv   MenuLocation:Part → Revolve   Workbenches:[[Part_Workbench/sv   Part]], Complete|SeeAlso:---
+- GuiCommand:   Name:Part Revolve   Name/sv:Part Revolve/sv   MenuLocation:Part → Revolve   Workbenches:[[Part_Workbench/sv   Part]], Complete|SeeAlso:---
 
 
 </div>

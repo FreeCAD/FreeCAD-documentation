@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pt-br
+- GuiCommand:-br
    Name:Sketcher ToggleConstruction
    Name/pt-br:Ativa/desativa a geometria de construção
    Icon:Sketcher_AlterConstruction.svg

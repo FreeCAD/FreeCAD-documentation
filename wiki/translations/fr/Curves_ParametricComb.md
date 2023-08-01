@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Curves ParametricComb
    Name/fr:Curves Peigne paramétrique
    MenuLocation:Curves → Comb plot

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std Cut
    Name/ko:표준 잘라내기
    MenuLocation:편집 → 잘라내기

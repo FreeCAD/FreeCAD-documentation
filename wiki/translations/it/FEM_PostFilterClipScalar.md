@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FEM PostFilterClipScalar
    Name/it:FEM PostFilterClipScalar
    MenuLocation: Risultati → scalar clip filter

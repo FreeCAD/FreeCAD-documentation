@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FCGear InternalInvoluteGear
    Name/de:FCGear InnenverzahntesEvolventenzahnrad
    MenuLocation:Gear → Internal Involute Gear

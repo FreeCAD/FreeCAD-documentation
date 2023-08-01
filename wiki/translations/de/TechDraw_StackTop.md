@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw StackTop
    Name/de:TechDraw StapelOberseite
    MenuLocation:TechDraw → Stacking → Ansicht auf die Stapeloberseite bewegen

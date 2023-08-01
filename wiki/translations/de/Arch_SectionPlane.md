@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch SectionPlane
    Name/de:Arch SchnittEbene
    MenuLocation:Arch → Schnittebene

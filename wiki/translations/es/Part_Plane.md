@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Part Plane
    Name/es:Part Plano
    MenuLocation:Pieza → Crear primitivas... →Plano

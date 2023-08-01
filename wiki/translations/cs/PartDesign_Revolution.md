@@ -1,6 +1,6 @@
 # PartDesign Revolution/cs
 ---
-- GuiCommand:/cs   Name:PartDesign_Revolution   Name/cs:Návrh dílu Obtáčení   Workbenches:[[PartDesign Workbench/cs   Návrh dílu]], Kompletace|MenuLocation:Návrh dílu -> Obtáčení---
+- GuiCommand:   Name:PartDesign_Revolution   Name/cs:Návrh dílu Obtáčení   Workbenches:[[PartDesign Workbench/cs   Návrh dílu]], Kompletace|MenuLocation:Návrh dílu -> Obtáčení---
 
 
 </div>

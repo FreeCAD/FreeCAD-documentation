@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw ExtensionDecreaseDecimal
    Name/pl:Rysunek Techniczny: Rozszerzenie Zmniejsz ilość cyfr po przecinku
    MenuLocation:Rysunek Techniczny → Rozszerzenia: Wymiary → Zmniejsz ilość cyfr po przecinku

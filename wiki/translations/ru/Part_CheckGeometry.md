@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Проверка геометрии
    Name:Part_CheckGeometry‏‎
    MenuLocation:Деталь → Проверка геометрии

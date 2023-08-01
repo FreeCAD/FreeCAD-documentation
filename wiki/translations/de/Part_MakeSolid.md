@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part MakeSolid
    Name/de:Part UmwandelnFestkörper
    MenuLocation:Formteil → Umwandeln in Festkörper

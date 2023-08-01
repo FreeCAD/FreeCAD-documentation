@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FEM_ConstraintForce
    Name/it:Vincolo forza
    MenuLocation:Modello → Vincoli meccanici → Vincolo forza

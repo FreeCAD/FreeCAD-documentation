@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:PartDesign Clone
    Name/tr:Klon oluştur
    Workbenches:[Parça tasarım](PartDesign_Workbench/tr.md)

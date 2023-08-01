@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std TreeSyncView
    Name/fr:Std Arborescence Vue synchronisation
    MenuLocation:Affichage → Vue en arborescence → Synchroniser la vue 

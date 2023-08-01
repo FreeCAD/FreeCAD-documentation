@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher DeleteAllGeometry
    Name/de:Sketcher AlleGeometrienLöschen
    MenuLocation: Skizze → Skizzen-Werkzeuge → Gesamte Geometrie löschen 

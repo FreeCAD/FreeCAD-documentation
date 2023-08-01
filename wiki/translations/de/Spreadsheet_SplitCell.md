@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Spreadsheet SplitCell
    Name/de:Kalkulationstabelle ZellenTeilen
    Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)

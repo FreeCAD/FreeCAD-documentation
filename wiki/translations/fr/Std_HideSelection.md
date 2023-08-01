@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std HideSelection
    Name/fr:Std Masquer la sélection
    MenuLocation:Affichage → Visibilité → Masquer la selection

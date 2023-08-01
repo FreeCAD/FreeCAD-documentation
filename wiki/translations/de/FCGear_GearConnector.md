@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FCGear GearConnector
    Name/de:FCGear GearConnector
    MenuLocation:Gear → Combine two gears

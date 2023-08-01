@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw Balloon
    Name/fr:TechDraw Infobulle
    MenuLocation:TechDraw → Annotations → Insérer une infobulle

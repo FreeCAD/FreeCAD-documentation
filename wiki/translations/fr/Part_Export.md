@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Export‏‎
    Name/fr:Part Exportation
    MenuLocation:Part → Exporter un fichier de CAO...

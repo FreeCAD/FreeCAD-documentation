@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Обозначить внутреннюю резьбу отверстия с сечением вдоль оси
    Name:TechDraw_ExtensionThreadHoleBottom
    MenuLocation:TechDraw → Extensions: centerlines and threading → Cosmetic thread hole bottom view

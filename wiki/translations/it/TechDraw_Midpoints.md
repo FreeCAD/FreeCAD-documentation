@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw Midpoints
    Name/it:Punti mediani
    MenuLocation:TechDraw → Aggiungi vertici → Punti mediani

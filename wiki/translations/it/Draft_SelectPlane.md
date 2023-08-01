@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft SelectPlane
    Name/it:Seleziona Piano
    MenuLocation:Utilità → Seleziona Piano

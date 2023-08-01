@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
 Name=Sketcher CreateEllipseBy3Points
 Name/es=Croquizador CrearElipsePor3Puntos
    MenuLocation:Croquis → Geometrías del Croquizador → Crear elipse por 3 puntos

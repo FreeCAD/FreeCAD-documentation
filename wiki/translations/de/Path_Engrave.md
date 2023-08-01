@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Path Engrave
    Name/de:Path Gravieren
    MenuLocation:Path → Gravieren

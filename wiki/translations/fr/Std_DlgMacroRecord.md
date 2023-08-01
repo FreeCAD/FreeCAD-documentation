@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std_DlgMacroRecord
    Name/fr:Std Enregistrement de macro
    MenuLocation:Macro → Enregistrement de macro...

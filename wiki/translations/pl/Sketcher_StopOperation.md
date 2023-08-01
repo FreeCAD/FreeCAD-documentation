@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher StopOperation
    Name/pl:Szkicownik: Przerwij operację
    MenuLocation:Szkic → Przerwij operację

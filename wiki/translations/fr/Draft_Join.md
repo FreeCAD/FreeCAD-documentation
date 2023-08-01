@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Join
    Name/fr:Draft Joindre
    MenuLocation:Modification → Joindre

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Snap Special
    Name/ru:Draft Snap Special
    MenuLocation:Черчение → [Привязка](Draft_Snap/ru.md) → Special

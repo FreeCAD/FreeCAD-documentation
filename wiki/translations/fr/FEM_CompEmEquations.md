@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM CompEmEquations
    Name:FEM Équations électromagnétiques
    MenuLocation:

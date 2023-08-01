@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:View Measure Toggle All
    Name/ru:View Measure Toggle All
    MenuLocation:Вид → Видимость → Показывать замеры

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:View Measure Clear All
    Name/it:View Measure Clear All
    MenuLocation:Visualizza → Visibilita → Cancella le misure

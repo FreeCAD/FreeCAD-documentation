@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw Balloon
    Name/it:Pallinatura
    MenuLocation:TechDraw → Pallinatura

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw View
    Name/fr:TechDraw Vue
    MenuLocation:TechDraw → Vues de Techdraw → Insérer une vue

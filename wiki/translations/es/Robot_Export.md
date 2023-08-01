@@ -1,6 +1,6 @@
 # Robot Export/es
 ---
-- GuiCommand:/es   Name:Robot Export   Name/es:Robot Export   Workbenches:[[Robot_Workbench/es   Robot]]|MenuLocation:Robot → Export trajectory---
+- GuiCommand:   Name:Robot Export   Name/es:Robot Export   Workbenches:[[Robot_Workbench/es   Robot]]|MenuLocation:Robot → Export trajectory---
 
 
 </div>

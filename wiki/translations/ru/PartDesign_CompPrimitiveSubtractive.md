@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать субтрактивный примитив
    Name:PartDesign_CompPrimitiveSubtractive
    MenuLocation:Part Design → Создать субтрактивный примитив

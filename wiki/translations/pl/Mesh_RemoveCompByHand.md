@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh RemoveCompByHand
    Name/pl:Siatka: Usuń elementy Interaktywnie
    MenuLocation:Siatki → Usuń elementy ręcznie ...

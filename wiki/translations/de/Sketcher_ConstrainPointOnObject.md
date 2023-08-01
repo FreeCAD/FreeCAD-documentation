@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher ConstrainPointOnObject
    Name/de:Sketcher PunktAufObjektFestlegen
    MenuLocation:Sketch → Skizzen-Beschränkungen → Punkt auf Objekt festlegen

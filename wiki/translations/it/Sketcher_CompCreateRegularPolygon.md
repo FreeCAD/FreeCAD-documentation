@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher Regular Polygons
    Name/it:Poligoni regolari
    Icon:Sketcher_CompCreateRegularPolygon.png

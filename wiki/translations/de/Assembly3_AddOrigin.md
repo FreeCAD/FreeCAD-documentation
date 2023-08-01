@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 AddOrigin
    Name/de:Assembly3 UrsprungHinzufügen
    Icon:Assembly_Add_Origin.svg‎‎

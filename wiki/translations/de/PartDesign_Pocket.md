@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign Pocket
    Name/de:PartDesign Tasche
    MenuLocation:PartDesign → Objekte abziehen → Tasche

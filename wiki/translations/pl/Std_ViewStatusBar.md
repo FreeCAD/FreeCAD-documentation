@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ViewStatusBar
    Name/pl:Std: Pasek stanu
    Empty:1

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM SolverZ88
    Name/ru:FEM SolverZ88
    MenuLocation: Solve → solver Z88

@@ -1,6 +1,6 @@
 # FEM SolverCalculiX/it
 ---
-- GuiCommand:/it   Name:FEM_SolverCalculiX   Name/it:Risolutore CalculiX   Icon:Fem_Solver.svg   MenuLocation: Solve → Risolutore CalculiX sperimentale   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:   Name:FEM_SolverCalculiX   Name/it:Risolutore CalculiX   Icon:Fem_Solver.svg   MenuLocation: Solve → Risolutore CalculiX sperimentale   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 
 </div>

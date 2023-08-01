@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std Open
    Name/pl:Std: Otwórz
    MenuLocation:Plik → Otwórz ...

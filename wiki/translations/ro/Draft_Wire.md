@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Draft Wire
    Name/ro:Draft Wire
    MenuLocation:Draft → Wire

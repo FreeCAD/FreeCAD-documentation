@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Lattice2 AttachablePlacement
    Name/fr:Lattice2 AttachablePlacement
    MenuLocation:Lattice2 → Attached Placement → Attached Placement

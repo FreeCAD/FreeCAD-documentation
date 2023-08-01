@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Snap Ortho
    Name/ru:Draft Snap Ortho
    MenuLocation:Черчение → [Привязка](Draft_Snap/ru.md) → Ортогональная

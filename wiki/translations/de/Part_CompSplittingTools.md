@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part CompSplittingTools
    Name/de:Part AuswahlAufteilungswerkzeuge
    MenuLocation:Formteil → Split

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ClipGroupRemove
    Name/fr:TechDraw Suppression vue d'une fenêtre de rognage
    MenuLocation:TechDraw → Supprimer la vue de la fenêtre de rognage

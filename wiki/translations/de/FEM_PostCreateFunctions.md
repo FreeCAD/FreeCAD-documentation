@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM CompPostCreateFunctions
    Name/de:FEM NachbereitungFunktionenErstellen
    MenuLocation:

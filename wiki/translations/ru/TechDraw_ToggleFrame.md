@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Отображение рамки вкл/выкл
    Name:TechDraw_ToggleFrame
    MenuLocation:TechDraw → Отображение рамки вкл/выкл

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Улучшить форму
    Name:Part_RefineShape
    MenuLocation:Деталь → Создать копию → Refine Shape

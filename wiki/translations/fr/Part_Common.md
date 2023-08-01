@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part_Common
    Name/fr:Part Intersection
    MenuLocation:Part → Opération booléenne → Intersection 

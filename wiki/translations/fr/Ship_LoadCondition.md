@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Ship Loading
    Name/fr:Ship Charge
    MenuLocation:Weights → Create a new loading condition

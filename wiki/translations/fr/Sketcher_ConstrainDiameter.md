@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher ConstrainDiameter
    Name/fr:Sketcher Contrainte diamètre
    MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte de diamètre

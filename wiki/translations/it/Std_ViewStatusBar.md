@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_ViewStatusBar
    Name/it:Barra di stato
    Empty:1

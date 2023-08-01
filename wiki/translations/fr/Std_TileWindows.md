@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std TileWindows
    Name/fr:Std Mosaïque
    MenuLocation:Fenêtre → Mosaïque

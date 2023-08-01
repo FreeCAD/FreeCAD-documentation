@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM PostCreateFunctionBox
    Name/fr:FEM Filtre fonction boîte
    MenuLocation:Résultats → Fonctions de filtrage → Boîte

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Rectangle
    Name/fr:Draft Rectangle
    MenuLocation:Draft → Rectangle

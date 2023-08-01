@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:PartDesign SubShapeBinder
    Name/it:Lega forme secondarie
    Workbenches:[PartDesign](PartDesign_Workbench/it.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Snap Center
    Name/it:Centro
    MenuLocation:Draft → [[Draft Snap/it   Ancoraggio]] → Centro|Shortcut:

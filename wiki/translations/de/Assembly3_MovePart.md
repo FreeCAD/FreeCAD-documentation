@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 MovePart
    Name/de:Assembly3 TeilBewegen
    Icon:Assembly_Move.svg

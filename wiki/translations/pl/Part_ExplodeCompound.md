@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part ExplodeCompound
    Name/pl:Część: Rozbij kształt złożony
    MenuLocation:Część → Złożenie → Rozbij kształt złożony

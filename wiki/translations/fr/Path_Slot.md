@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path Slot
    Name/fr:Path Rainure
    MenuLocation:Path → Rainurer

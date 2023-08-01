@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Расположение
    Name:Std_Placement
    MenuLocation:Правка → Расположение...

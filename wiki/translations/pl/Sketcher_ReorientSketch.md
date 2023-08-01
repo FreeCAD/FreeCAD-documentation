@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher ReorientSketch
    Name/pl:Szkicownik: Zmień orientację szkicu
    MenuLocation:Szkic → Zmień orientację szkicu ...

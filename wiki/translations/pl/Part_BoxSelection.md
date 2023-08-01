@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part BoxSelection
    Name/pl:Część: Zaznacz obszarem
    MenuLocation:Część → Zaznacz obszarem

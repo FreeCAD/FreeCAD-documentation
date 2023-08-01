@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part BooleanFragments
    Name/de:Part BoolescheFragmente
    MenuLocation:Formteil → Teilen → Boolesche Fragmente

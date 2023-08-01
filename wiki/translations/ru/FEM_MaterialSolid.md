@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM MaterialSolid
    Name/ru:FEM MaterialSolid 
    MenuLocation:Model → Materials → Material for solid

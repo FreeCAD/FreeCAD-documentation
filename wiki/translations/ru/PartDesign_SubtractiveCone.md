@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Субтрактивный конус
    Name:PartDesign_SubtractiveCone
    MenuLocation:Part Design → Создать субтрактивный примитив → Субтрактивный конус

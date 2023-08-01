@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign SubtractiveBox
    Name/fr:PartDesign Cube soustractif
    MenuLocation:Part Design → Créer une primitive soustractive → Cube soustractif

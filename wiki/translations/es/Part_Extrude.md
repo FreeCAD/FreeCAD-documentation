@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Part Extrude
    Name/es:Pieza Extruye
    MenuLocation:Pieza → Extrusión

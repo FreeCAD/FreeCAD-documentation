@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Spreadsheet_SplitCell
    Name/it:Dividi la cella
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)

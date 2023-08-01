@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part Primitives
    Name/ru:Создать примитивы
    MenuLocation:Деталь -> Создать примитивы...

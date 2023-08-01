@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ToggleSelectability
    Name/pl:Std: Przełącz możliwość zaznaczenia
    MenuLocation:Widok → Widoczność → Przełącz możliwość zaznaczenia

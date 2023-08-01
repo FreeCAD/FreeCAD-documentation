@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std SendToPythonConsole
    Name/ko:표준 파이썬 콘솔로 보내기
    MenuLocation:편집 → 파이썬 콘솔로 보내기

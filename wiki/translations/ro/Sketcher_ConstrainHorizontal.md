@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Constraint Horizontal
    Name/ro:Constraint Horizontal
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft ToggleDisplayMode
    Name/it:Aspetto
    Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)

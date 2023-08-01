@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ViewIvIssueCamPos
    Name/pl:Std: Parametry ujęcia widoku
    MenuLocation:Widok → Widok trójwymiarowy → Parametry ujęcia widoku

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw_View
    Name/it:Vista
    MenuLocation:TechDraw → Vista

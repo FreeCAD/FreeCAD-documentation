@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher CompCreateRectangles
    Name/fr:Sketcher Rectangles
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)

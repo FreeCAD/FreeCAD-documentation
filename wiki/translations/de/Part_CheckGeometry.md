@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part CheckGeometry‏‎
    Name/de:Part GeometriePrüfen
    MenuLocation:Formteil → Geometrie überprüfen

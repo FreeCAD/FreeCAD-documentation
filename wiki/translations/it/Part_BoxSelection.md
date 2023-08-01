@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Part BoxSelection
    Name/it:Part BoxSelection
    MenuLocation:Part → Box di selezione

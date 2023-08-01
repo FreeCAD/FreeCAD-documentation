@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:PartDesign Point
    Name/ro:PartDesign Point
    Workbenches:[PartDesign](PartDesign_Workbench/ro.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher SelectElementsAssociatedWithConstraints
    Name/de:Sketcher SelectElementsAssociatedWithConstraints
    MenuLocation:Skizze → Skizzenwerkzeuge → Zugehörige Geometrie auswählen

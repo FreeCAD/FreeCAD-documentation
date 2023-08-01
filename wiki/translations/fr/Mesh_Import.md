@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh Import‏‎
    Name/fr:Mesh Importer un maillage
    MenuLocation:Maillages → Importer un maillage...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft ToggleConstructionMode
    Name/es:Draft ToggleConstructionMode
    MenuLocation:Boceto → Utilidades → Alternar modo de construcción

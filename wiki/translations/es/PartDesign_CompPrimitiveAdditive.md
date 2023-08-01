@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign CompPrimitiveAdditive
    Name/es:Part Design Crear una Primitiva aditiva
    Workbenches:[Part Design](PartDesign_Workbench/es.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch SelectNonSolidMeshes
    Name/de:Arch WähleNNichtFesteNetze
    Icon:Arch SelectNonManifold.svg

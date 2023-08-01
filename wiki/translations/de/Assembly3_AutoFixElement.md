@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 AutoFixElement
    Name/de:Assembly3 ElementAutomatischFixieren
    Icon:Assembly_AutoFixElement.svg‎‎

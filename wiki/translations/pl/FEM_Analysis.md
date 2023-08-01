@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:FEM Analysis
    Name/pl:MES Analiza
    MenuLocation:Model → Analiza MES

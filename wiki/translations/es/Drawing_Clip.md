@@ -1,6 +1,6 @@
 # Drawing Clip/es
 ---
-- GuiCommand:/es   Name:Drawing Clip   Name/es:Drawing Clip   Workbenches:[[Drawing Workbench/es   Drawing]], Complete|MenuLocation:Drawing → Clip   Shortcut:none---
+- GuiCommand:   Name:Drawing Clip   Name/es:Drawing Clip   Workbenches:[[Drawing Workbench/es   Drawing]], Complete|MenuLocation:Drawing → Clip   Shortcut:none---
 
 ## Descripción
 

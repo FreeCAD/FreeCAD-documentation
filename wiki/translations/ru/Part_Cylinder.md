@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Цилиндр
    MenuLocation:Деталь → Примитивы → Цилиндр
    Workbenches:[Part](Part_Workbench/ru.md)

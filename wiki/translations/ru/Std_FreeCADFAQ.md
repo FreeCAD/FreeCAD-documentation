@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std FreeCADFAQ
    Name/ru:Std FreeCADFAQ
    MenuLocation:{{StdMenu|[Help](Std_Help_Menu/ru.md)}} → FreeCAD FAQ

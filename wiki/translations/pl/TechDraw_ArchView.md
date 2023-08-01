@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw ArchView
    Name/pl:Rysunek Techniczny: Wstaw obiekt środowiska Architektura
    MenuLocation:Rysunek Techniczny → Insert Arch Workbench Object

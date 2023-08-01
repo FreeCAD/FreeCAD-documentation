@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Part Common
    Name/ro:Part Common
    MenuLocation:Part → Common

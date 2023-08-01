@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft SelectGroup
    Name/de:Wähle Gruppe
    MenuLocation:Dienstprogramme → Wähle Gruppe

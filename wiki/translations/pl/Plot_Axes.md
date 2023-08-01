@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Plot Axes
    Name/pl:Wykres: Konfiguruj osie
    MenuLocation:Wykres → Konfiguruj osie

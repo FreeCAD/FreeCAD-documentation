@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher CreateLine
    Name/es:Croquizador CrearLínea
    MenuLocation:Croquis → Geometría de croquizador → Crear línea

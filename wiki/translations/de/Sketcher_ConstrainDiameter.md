@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher ConstrainDiameter
    Name/de:Sketcher DurchmesserFestlegen
    MenuLocation:Sketch → Skizzen-Beschränkungen → Durchmesser festlegen

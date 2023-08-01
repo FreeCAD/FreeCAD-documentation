@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Polygon
    Name/tr:Çokgen
    MenuLocation:Taslak → Çokgen

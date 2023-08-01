@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign AdditiveEllipsoid
    Name/es:DiseñoPiezas  ElipsoideAditivo
    MenuLocation:DiseñoPiezas → Crear una primitiva aditiva → Elipsoide Aditivo

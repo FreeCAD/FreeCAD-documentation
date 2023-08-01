@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Part Box
    Name/es:Part Cubo
    MenuLocation:Pieza → Primitivas → Cubo

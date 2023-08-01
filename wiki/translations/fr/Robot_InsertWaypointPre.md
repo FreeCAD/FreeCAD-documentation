@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Robot InsertWaypointPre
    Name/fr:Robot Point de passage à partir d'objets présélectionnés
    MenuLocation:Robot → Insérer dans la trajectoire 

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft PathArray
    Name/es:Draft PathArray
    MenuLocation:Draft → PathArray

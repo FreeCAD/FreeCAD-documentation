@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher SwitchVirtualSpace
    Name/de:Sketcher VirtuellenBereichWechseln
    MenuLocation:Sketch → Virtueller Bereich → Virtuellen Bereich wechseln

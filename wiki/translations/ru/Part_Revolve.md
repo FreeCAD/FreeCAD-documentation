@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part_Revolve
    Name/ru:Вращать
    MenuLocation:Деталь → Вращать...

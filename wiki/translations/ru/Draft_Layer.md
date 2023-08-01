@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Слой
    Name:Draft_Layer
    MenuLocation:Utilities → Слой

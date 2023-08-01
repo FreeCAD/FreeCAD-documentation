@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Site
    Name/fr:Arch Site
    MenuLocation:Arch → Site

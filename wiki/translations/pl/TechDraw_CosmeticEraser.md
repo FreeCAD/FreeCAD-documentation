@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw CosmeticEraser
    None/pl:Rysunek Techniczny: Usuń geometrie pomocnicze
    MenuLocation:Rysunek Techniczny → Usuń geometrie pomocnicze

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:PartDesign AdditivePipe
    Name/ro:PartDesign AdditivePipe
    Workbenches:[PartDesign](PartDesign_Workbench/ro.md)

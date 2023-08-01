@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM ConstraintFixed
    Name/ru:FEM ConstraintFixed
    MenuLocation:Model → Mechanical Constraints → Constraint fixed

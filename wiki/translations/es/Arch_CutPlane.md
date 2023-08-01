@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch CutPlane
    Name/es:Arch CutPlane
    MenuLocation:Arch → Cut Plane

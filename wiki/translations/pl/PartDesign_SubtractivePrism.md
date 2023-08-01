@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign SubtractivePrism
    Name/pl:Projekt Części: Subtraktywny graniastosłup
    MenuLocation:Projekt Części → Utwórz cechę przez odjęcie → Subtraktywny graniastosłup

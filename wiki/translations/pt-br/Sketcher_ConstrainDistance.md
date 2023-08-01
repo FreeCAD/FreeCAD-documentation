@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pt-br
+- GuiCommand:-br
    Name:Constraint Length
    Name/pt-br:Constraint Length
    Workbenches:[Sketcher](Sketcher_Workbench/pt-br.md)

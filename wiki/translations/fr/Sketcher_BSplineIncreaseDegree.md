@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher BSplineIncreaseDegree
    Name/fr:Sketcher Augmenter le degré d'une B-spline
    MenuLocation:Esquisse → Outils d'esquisse des B-splines → Augmenter le degré d'une B-spline

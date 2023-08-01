@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft ToggleConstructionMode
    Name/fr:Draft Basculer en mode construction
    MenuLocation:Utilitaires → Basculer en mode construction

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher ConstrainEqual
    Name/de:Sketcher GleichheitFestlegen 
    MenuLocation:Sketch → Skizzen-Beschränkungen →Gleichheit festlegen

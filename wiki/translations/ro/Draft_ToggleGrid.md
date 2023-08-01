@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Draft ToggleGrid
    Name/ro:Draft ToggleGrid
    MenuLocation:Draft → Utilities → Toggle grid

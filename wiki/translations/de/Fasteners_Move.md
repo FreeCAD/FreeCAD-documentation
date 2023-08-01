@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Fasteners Move
    Name/de:Fasteners Bewegen
    MenuLocation:Fasteners → Move fastener

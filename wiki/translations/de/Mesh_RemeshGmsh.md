@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Mesh RemeshGmsh
    Name/de:Mesh NeuVernetzenGmsh
    MenuLocation:Netze → Aufbereitung...

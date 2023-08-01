@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/cs
+- GuiCommand:
    Name:Sketcher NewSketch
    Name/cs:Skicář Nový náčrt
    Workbenches:[Skicář](Sketcher_Workbench/cs.md)

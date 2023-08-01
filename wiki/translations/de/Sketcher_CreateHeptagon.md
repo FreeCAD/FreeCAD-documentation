@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher CreateHeptagon
    Name/de:Sketcher SiebeneckErstellen
    MenuLocation:Sketch → Skizzengeometrien → Siebeneck erstellen

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:TechDraw  ProjectionGroup   Name/es:TechDraw  ProjectionGroup
    MenuLocation:TechDraw → Insert Projection Group
    Workbenches:[TechDraw](TechDraw_Workbench/es.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch MergeWalls
    Name/de:Arch WändeZusammenführen
    MenuLocation:Arch → Dienstprogramme → Wände zusammenführen

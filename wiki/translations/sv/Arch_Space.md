@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/sv
+- GuiCommand:
    Name:Arch Space   Name/sv:Arch Space
    MenuLocation:Arch → Space
    Workbenches:[Arch](Arch_Workbench/sv.md)

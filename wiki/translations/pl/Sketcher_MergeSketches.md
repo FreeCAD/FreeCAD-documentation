@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher MergeSketches
    Name/pl:Szkicownik: Połącz szkice
    MenuLocation:Szkic → Połącz szkice

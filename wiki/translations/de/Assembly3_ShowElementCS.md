@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 ShowElementCS
    Name/de:Assembly3 ElementKoordinatensystemAnzeigen
    Icon:Assembly_ShowElementCS.svg‎‎

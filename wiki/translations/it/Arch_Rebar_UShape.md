@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch_Rebar_UShape
    Name/it:Armatura ad U
    MenuLocation:Arch → Strumenti armatura → Armatura ad U o BIM → 3D/BIM → Reinforcement → Rebar UShape

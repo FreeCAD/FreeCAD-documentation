@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Fasteners MatchTypeInner
    Name/fr:Fasteners MatchTypeInner
    MenuLocation:Fasteners → Match for tap hole

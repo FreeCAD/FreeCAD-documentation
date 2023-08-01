@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 AddZYWorkplane
    Name/fr:Assembly3 Ajouter un plan de travail ZY
    Icon:Assembly_Add_WorkplaneZY.svg‎‎

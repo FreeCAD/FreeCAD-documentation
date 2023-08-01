@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher CreateRectangle
    Name/fr:Sketcher Rectangle centré
    MenuLocation:Esquisse → Géométries d'esquisse → Créer un rectangle centré

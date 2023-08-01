@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Arch Window
    Name/ro:Arch Window
    MenuLocation:Arch → Window

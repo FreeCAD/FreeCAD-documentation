@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher SelectConflictingConstraints
    Name/fr:Sketcher Contraintes conflictuelles
    MenuLocation:Esquisse → Outils d'esquisse → Sélectionner les contraintes conflictuelles

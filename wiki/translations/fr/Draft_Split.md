@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Split
    Name/fr:Draft Scinder
    MenuLocation:Modification → Scinder

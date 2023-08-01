@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign AdditiveCylinder
    Name/fr:PartDesign Cylindre additif
    MenuLocation:Part Design → Créer une primitive additive → Cylindre additif

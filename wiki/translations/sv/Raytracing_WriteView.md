@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/sv
+- GuiCommand:
    Name:Raytracing WriteView
 ‏‎   Name/sv:Raytracing WriteView
    MenuLocation:Raytracing → Export

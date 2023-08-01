@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch SetMaterial
    Name/es:Arch SetMaterial
    MenuLocation:Arch → Set material...

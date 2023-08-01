@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExtensionInsertSquare
    Name/fr:TechDraw Section tube
    MenuLocation:TechDraw → Extensions : cotes → Insérer un préfixe '〼'

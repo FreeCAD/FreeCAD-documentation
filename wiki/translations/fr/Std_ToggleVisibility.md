@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ToggleVisibility
    Name/fr:Std Basculer la visibilité
    MenuLocation:Affichage → Visibilité

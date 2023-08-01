@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM EquationElasticity
    Name/ru:Уравнение гибкости
    Icon:Fem-equation-elasticity.svg

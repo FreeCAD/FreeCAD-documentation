@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Helix
    Name/de:Part Helix
    MenuLocation:Formteil → [Grundkörper erstellen...](Part_Primitives/de.md) → Helix

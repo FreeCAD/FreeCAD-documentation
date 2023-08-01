@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch SplitMesh
    Name/de:Arch NetzAufteilen
    MenuLocation:Arch → Dienstprogramme → Netz zerlegen

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part Wedge
    Name/ru:Клин
    MenuLocation:Деталь → Создать примитивы... → Клин

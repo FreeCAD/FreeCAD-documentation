@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part SimpleCopy‎
    Name/de:Part EinfacheKopie
    MenuLocation:Part → Erzeuge eine Kopie → Erzeuge eine einfache Kopie

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Web BrowserBack
    Name/fr:Web Page précédente
    MenuLocation:

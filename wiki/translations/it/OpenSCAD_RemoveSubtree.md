@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:OpenSCAD RemoveSubtree
    Name/it:OpenSCAD Elimina un ramo
    MenuLocation:OpenSCAD → Rimuovi oggetti e loro figli|

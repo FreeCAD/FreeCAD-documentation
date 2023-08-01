@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExtensionPosHorizChainDimension
    Name/fr:TechDraw Aligner horizontalement
    MenuLocation:TechDraw → Extensions : attributs/modifications → Aligner horizontalement

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pt
+- GuiCommand:
    Name:Constraint Perpendicular
    Name/pt:Constraint Perpendicular
    Workbenches:[Sketcher](Sketcher_Workbench/pt.md), [PartDesign](PartDesign_Workbench/pt.md)

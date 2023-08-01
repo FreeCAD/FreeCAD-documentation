@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name/it:Seleziona il Risolutore dei gradi di libertà
    Icon:Sketcher SelectElementsWithDoFs.svg
    MenuLocation:Sketch → Strumenti → Seleziona gli elementi con gradi di libertà

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Sphere
    Name/fr:Part Sphère
    MenuLocation:Part → Primitives → Sphère

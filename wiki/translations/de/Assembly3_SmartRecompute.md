@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 SmartRecompute
    Name/de:Assembly3 SmarteBerechnung
    Icon:Assembly_SmartRecompute.svg‎‎

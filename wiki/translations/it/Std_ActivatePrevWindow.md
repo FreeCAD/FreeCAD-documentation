@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std ActivatePrevWindow
    Name/it:Precedente
    MenuLocation:Finestre → Precedente

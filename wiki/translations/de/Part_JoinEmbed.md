@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part JoinEmbed
    Name/de:Part Einbetten
    MenuLocation:Formteil → Verbinden → Objekt einbinden

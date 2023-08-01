@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Замкнуть фигуру
    Name:Sketcher_CloseShape
    MenuLocation:Sketch → Инструменты для эскиза → Замкнуть фигуру

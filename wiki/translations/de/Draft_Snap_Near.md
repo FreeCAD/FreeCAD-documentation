@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Snap Near
    Name/de:Draft EinrastenInDerNähe
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ConstraintInitialPressure
    Name/fr:FEM Contrainte de pression initiale
    MenuLocation:Modèle → Contraintes du fluide → Contrainte de pression initiale

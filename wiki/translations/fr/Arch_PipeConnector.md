@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch PipeConnector
    Name/fr:Arch Raccord
    MenuLocation:Arch → Outils pour la tuyauterie → Raccord

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:PartDesign_PolarPattern
    Name/it:Serie polare
    Workbenches:[PartDesign](PartDesign_Workbench/it.md)

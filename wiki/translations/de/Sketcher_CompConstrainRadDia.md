@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher constrain radius or diameter
    Name/de:Sketcher Radius oder Durchmesser festlegen
    MenuLocation:

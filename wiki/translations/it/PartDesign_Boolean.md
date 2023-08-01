@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:PartDesign Boolean
    Name/it:Operazioni booleane
    MenuLocation:Part Design → Operazioni booleane

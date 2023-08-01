@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher CreateEllipse
    Name/it:Ellisse da centro
    Icon:Sketcher_CreateEllipse.svg

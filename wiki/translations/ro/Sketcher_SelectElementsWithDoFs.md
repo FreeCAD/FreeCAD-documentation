@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name/ro:Sketcher Select solver DoFs
    Icon:Sketcher SelectElementsWithDoFs.svg
    MenuLocation:Sketch → Instrumente pentru schiţe → Select solver DoFs

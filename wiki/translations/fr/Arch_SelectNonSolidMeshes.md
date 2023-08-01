@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch SelectNonSolidMeshes
    Name/fr:Arch Sélection de maillages non-manifold
    MenuLocation:Arch → Utilitaires → Sélectionnez les maillages non-manifold

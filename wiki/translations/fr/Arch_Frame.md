@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Frame
    Name/fr:Arch Ossature
    MenuLocation:Arch → Ossature

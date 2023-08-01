@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std DlgMacroExecuteDirect
    Name/de:Std MakroDirektAusführen
    MenuLocation:Makro → Makro ausführen

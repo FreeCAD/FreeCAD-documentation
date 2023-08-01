@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 TracePartMove
    Name/de:Assembly3 BewegungAufzeichnen
    Icon:Assembly_Trace.svg‎‎

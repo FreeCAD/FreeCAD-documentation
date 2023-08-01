@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ViewRight
    Name/pl:Std: Widok od prawej
    MenuLocation:Widok → Widoki standardowe → Od prawej

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ViewDimetric
    MenuLocation:Ansicht → Standardansichten → Axonometrisch → Dimetrisch
    Workbenches:Alle

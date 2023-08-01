@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign AdditivePrism
    Name/fr:PartDesign Prisme additif
    MenuLocation:Part Design → Créer une primitive additive → Prisme additif

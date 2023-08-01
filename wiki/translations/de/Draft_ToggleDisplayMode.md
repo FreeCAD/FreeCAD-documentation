@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft ToggleDisplayMode
    Name/de:Draft DarstellungsartUmschalten
    MenuLocation:Hilfsprogramme → Normal-/Wireframe-Anzeige umschalten

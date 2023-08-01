@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Spreadsheet CreateSheet
    Name/ru:Создать электронную таблицу
    MenuLocation:Spreadsheet → Создать электронную таблицу

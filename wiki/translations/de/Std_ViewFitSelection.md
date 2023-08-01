@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ViewFitSelection
    Name/de:Std AnsichtAuswahlEinpassen
    MenuLocation:Ansicht → Standardansichten → Auswahl einpassen

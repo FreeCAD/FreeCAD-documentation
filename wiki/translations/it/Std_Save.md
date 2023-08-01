@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_Save
    Name/it:Salva
    MenuLocation:File → Salva

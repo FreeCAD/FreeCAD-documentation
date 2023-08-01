@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Rocket Bulkhead
    Name/fr:Rocket Cloison
    MenuLocation:Rocket → Bulkhead

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher Trim edge
    Name/it:Rifila
    Icon:Sketcher_Trimming.svg

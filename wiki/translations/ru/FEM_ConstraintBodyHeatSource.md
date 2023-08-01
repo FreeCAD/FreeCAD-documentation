@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM ConstraintBodyHeatSource
    Name/ru:FEM ConstraintBodyHeatSource
    Icon:Fem-constraint-heatflux.svg

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name/de:Netz FülleInteraktivesLoch
    MenuLocation:Polygonnetze → Schließe Loch
    Workbenches:[Polygonnetz](Mesh_Workbench/de.md)

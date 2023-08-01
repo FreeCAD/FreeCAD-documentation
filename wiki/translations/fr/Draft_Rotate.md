@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Rotate
    Name/fr:Draft Pivoter
    MenuLocation:Modification → Pivoter

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher NewSketch
    Name/de:Sketcher NeueSkizze
    MenuLocation: Skizze → Skizze erstellen

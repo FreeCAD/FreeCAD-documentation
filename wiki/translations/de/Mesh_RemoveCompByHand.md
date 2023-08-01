@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Mesh RemoveCompByHand
    Name/de:Mesh KomponenteVonHandEntfernen‏‎
    MenuLocation:Netze → Komponente von Hand entfernen...

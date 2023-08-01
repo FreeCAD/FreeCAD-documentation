@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM SolverRun
    Name/ru:FEM SolverRun
    MenuLocation:Solve → Run solver calculations

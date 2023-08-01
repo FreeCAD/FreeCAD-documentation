@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Part Box   Name/it:Cubo
    Icon:Part Box.svg
    MenuLocation:Parte → Primitive → Cubo

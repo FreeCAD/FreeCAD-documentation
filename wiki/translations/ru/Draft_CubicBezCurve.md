@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft CubicBezCurve
    Name/ru:Draft CubicBezCurve
    MenuLocation:Draft → Bezier tools → CubicBezCurve

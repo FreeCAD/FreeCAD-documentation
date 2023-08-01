@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FEM_ConstraintSelfWeight
    Name/it:Vincolo peso proprio
    MenuLocation:Modello → Vincoli meccanici → Vincolo peso proprio

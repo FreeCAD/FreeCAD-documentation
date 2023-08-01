@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Arch CompAxis
    Name/pl:Architektura: Komponent osie
    MenuLocation:Architektura → Narzędzia osi

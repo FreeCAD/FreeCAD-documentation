@@ -1,6 +1,6 @@
 # Part Cone/es
 ---
-- GuiCommand:/es   Name:Part Cone   Name/es:Part Cone   MenuLocation:Part -> Cone   |Workbenches:[SeeAlso:[[Part_CreatePrimitives/es|Part CreatePrimitives](Part_Workbench/es___Part]],_Complete.md)---
+- GuiCommand:   Name:Part Cone   Name/es:Part Cone   MenuLocation:Part -> Cone   |Workbenches:[SeeAlso:[[Part_CreatePrimitives/es|Part CreatePrimitives](Part_Workbench/es___Part]],_Complete.md)---
 
 
 </div>

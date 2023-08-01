@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign Clone
    Name/es:DiseñoPiezas Clon
    Workbenches:[DiseñoPiezas](PartDesign_Workbench/es.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Стерео с чередованием строк
    Name:Std_ViewIvStereoInterleavedRows
    MenuLocation:Вид → Стерео → Stereo interleaved Rows

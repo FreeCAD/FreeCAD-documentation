@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part SliceApart
    Name/fr:Part Séparer/exploser
    MenuLocation:Part → Scinder → Séparer et exploser

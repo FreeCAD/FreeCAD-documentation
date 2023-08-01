@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw Symbol
    Name/de:TechDraw Symbol
    MenuLocation:TechDraw → TechDraw Views → SVG-Zeichnungselement einfügen

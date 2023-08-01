@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std TreeMultiDocument
    Name/de:Std BaumMehrfachdokument
    MenuLocation:Ansicht → Baumansicht-Aktionen → Mehrfachdokument

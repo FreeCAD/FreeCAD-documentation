@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ArchView
    Name/fr:TechDraw Vue d'un objet Arch
    MenuLocation:TechDraw → Insérer un objet de l'atelier Arch

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch CompAxis
    Name/de:Arch AuswahlAchsenwerkzeuge
    MenuLocation:Arch → Achsenwerkzeuge

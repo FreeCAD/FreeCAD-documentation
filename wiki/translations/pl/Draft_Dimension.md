@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft Dimension
    Name/pl:Draft: Wymiar
    MenuLocation:Adnotacja → Wymiar

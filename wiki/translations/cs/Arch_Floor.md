@@ -1,6 +1,6 @@
 # Arch Floor/cs
 ---
-- GuiCommand:/cs   Name:Arch Floor   Name/cs:Arch Floor   Workbenches:[MenuLocation:Arch → Floor   Shortcut:F L   SeeAlso:[[Arch Building/cs|Arch Building](Arch_Workbench/cs___Arch]].md), [Arch Site](Arch_Site/cs.md)---
+- GuiCommand:   Name:Arch Floor   Name/cs:Arch Floor   Workbenches:[MenuLocation:Arch → Floor   Shortcut:F L   SeeAlso:[[Arch Building/cs|Arch Building](Arch_Workbench/cs___Arch]].md), [Arch Site](Arch_Site/cs.md)---
 
 
 </div>

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name/tr:İnşa Ekle
    MenuLocation:Taslak → Araçlar → İnşa grubuna ekle
    Workbenches:[Taslak](Draft_Workbench.md), [Yapı](Arch_Workbench.md)

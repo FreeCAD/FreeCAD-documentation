@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher ConstrainTangent
    Name/es:Croquizador RestringirTangent
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)

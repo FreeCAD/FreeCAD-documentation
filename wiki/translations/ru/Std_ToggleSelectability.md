@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std ToggleSelectability
    Name/ru:Std ToggleSelectability
    MenuLocation:Вид → Видимость → Откл/вкл выделяемость

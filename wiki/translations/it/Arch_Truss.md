@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch Truss
    Name/it:Travatura
    MenuLocation:Arch → Travatura

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh Decimating
    Name/pl:Siatka: Decymacja
    MenuLocation:Siatki → Decymacja ...

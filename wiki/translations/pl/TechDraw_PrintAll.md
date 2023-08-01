@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw PrintAll
    Name/pl:Rysunek Techniczny:
    MenuLocation:Rysunek Techniczny → Strona → Drukuj wszystkie strony

@@ -1,6 +1,6 @@
 # TechDraw Symbol/it
 ---
-- GuiCommand:/it   Name:TechDraw_Symbol   Name/it:Simbolo SVG   Workbenches:[MenuLocation:TechDraw → Simbolo SVG   Shortcut:   SeeAlso:[[TechDraw Templates/it|Modelli di squadrature](TechDraw_Workbench/it___TechDraw]].md), [SVG di Draft](Draft_SVG/it.md)---
+- GuiCommand:   Name:TechDraw_Symbol   Name/it:Simbolo SVG   Workbenches:[MenuLocation:TechDraw → Simbolo SVG   Shortcut:   SeeAlso:[[TechDraw Templates/it|Modelli di squadrature](TechDraw_Workbench/it___TechDraw]].md), [SVG di Draft](Draft_SVG/it.md)---
 
 
 </div>

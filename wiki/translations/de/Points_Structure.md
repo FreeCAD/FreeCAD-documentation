@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Points Structure
    Name/de:Points Strukturieren
    MenuLocation:Punkte → Strukturierte Punktwolke

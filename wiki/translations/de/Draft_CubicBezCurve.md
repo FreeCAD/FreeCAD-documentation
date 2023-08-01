@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft CubicBezCurve
    Name/de:Entwurf KubischeBézKurve
    MenuLocation:Entwurf → Bézier Werkzeuge → Kubische Bézier Kurve

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Draft2Sketch
    Name/fr:Draft Draft vers Esquisse
    MenuLocation:Modification → Draft vers Esquisse

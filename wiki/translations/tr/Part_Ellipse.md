@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Part Ellipse
    Name/tr:Parça Elips
    MenuLocation:Parça → [Temel geometrik şekil oluştur](Part_CreatePrimitives.md) → Elips

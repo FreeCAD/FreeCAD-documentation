@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/sv
+- GuiCommand:
    Name:Sketcher Reorient
    Name/sv:Sketcher Reorient
    Empty:1

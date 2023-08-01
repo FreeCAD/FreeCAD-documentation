@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw StackUp
    Name/fr:TechDraw Empiler vers le haut
    MenuLocation:TechDraw → Empiler → Déplacer la vue vers le haut d'un niveau

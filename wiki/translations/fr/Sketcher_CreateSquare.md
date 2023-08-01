@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher CreateSquare
    Name/fr:Sketcher Carré
    MenuLocation:Esquisse → Géométries d'esquisse → Créer un carré

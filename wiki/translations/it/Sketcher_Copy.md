@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher Copy
    Name/it:Copia
    MenuLocation:Sketch → Strumenti → Copia

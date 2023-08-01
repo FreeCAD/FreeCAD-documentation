@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Std_Delete
    Name/es:Delete
    Workbenches:Todos

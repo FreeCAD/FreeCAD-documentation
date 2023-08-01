@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 ConstraintAngle
    Name/de:Assembly3 WinkelFestlegen
    Icon:Assembly_ConstraintAngle.svg

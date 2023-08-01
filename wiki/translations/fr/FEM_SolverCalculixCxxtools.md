@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM SolverCalculixCxxtools
    Name/fr:FEM Solveur CalculiX standard
    MenuLocation:Résolution → Solveur CalculiX standard

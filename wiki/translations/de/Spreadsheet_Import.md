@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Spreadsheet Import
    Name/de:Kalkulationstabelle Importieren
    MenuLocation:Tabellenkalkulation → Kalkulationstabelle importieren

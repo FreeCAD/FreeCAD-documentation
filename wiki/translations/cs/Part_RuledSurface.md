@@ -1,6 +1,6 @@
 # Part RuledSurface/cs
 ---
-- GuiCommand:/pl   Name:Part RuledSurface   Name/pl:Part RuledSurface   MenuLocation:Part → RuledSurface   Workbenches:[[Part_Workbench/pl   Part]], Complete|SeeAlso:---
+- GuiCommand:   Name:Part RuledSurface   Name/pl:Part RuledSurface   MenuLocation:Part → RuledSurface   Workbenches:[[Part_Workbench/pl   Part]], Complete|SeeAlso:---
 
 
 </div>

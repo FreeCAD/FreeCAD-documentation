@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExtensionCascadeVertDimension
    Name/fr:TechDraw Cascade verticale
    MenuLocation:TechDraw → Extensions : attributs/modifications → Cascader verticalement les cotes

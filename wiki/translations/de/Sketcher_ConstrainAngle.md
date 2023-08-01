@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher ConstrainAngle
    Name/de:Sketcher WinkelFestlegen
    MenuLocation:Sketch → Sketcher constraints → Winkel festlegen

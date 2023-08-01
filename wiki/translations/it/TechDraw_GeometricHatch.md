@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw GeometricHatch
    Name/it:Tratteggio geometrico
    MenuLocation:TechDraw → Tratteggio geometrico

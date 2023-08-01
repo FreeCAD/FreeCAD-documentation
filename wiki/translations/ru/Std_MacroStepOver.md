@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std_MacroStepOver
    Name/ru:Шаг с обходом
    Empty:1

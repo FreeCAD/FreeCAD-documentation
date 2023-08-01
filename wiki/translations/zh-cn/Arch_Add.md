@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/zh-cn
+- GuiCommand:-cn
    Name:Arch Add   Name/zh-cn:建筑添加工具
    MenuLocation:Arch → Add
    Workbenches:[Arch](Arch_Workbench.md)

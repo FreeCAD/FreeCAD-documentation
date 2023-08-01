@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Spreadsheet CreateSheet
    Name/es:Hoja de cálculo CrearHoja
    MenuLocation:Hoja de cálculo → Crear Hoja

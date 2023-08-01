@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Surface_ExtendFace
    Name/it:Surface ExtendFace
    MenuLocation:Surface → Extend face

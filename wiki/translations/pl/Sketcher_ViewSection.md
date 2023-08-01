@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher ViewSection
    Name/pl:Szkicownik: Widok przekroju
    MenuLocation:Szkic → Widok przekroju

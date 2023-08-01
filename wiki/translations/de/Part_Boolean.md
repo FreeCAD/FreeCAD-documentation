@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Boolean
    Name/de:Part BoolescheOperation
    MenuLocation:Formteil → Boolesche Operation → Boolesche Operation...

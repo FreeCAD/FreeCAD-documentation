@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign Draft
    Name/es:DiseñoPiezas Borrador
    MenuLocation:DiseñoPiezas → Borrador

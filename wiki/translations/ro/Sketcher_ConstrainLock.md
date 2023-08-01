@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Sketcher ConstrainLock
    Name/ro:Constrângere fixă
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)

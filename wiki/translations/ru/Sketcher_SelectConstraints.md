@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Выделить связанные ограничения
    Name:Sketcher_SelectConstraints
    MenuLocation:Sketch → Инструменты для эскиза → Выделить связанные ограничения

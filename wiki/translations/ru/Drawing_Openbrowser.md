@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Drawing Openbrowser
    Name/ru:Drawing Openbrowser
    Workbenches:[Drawing](Drawing_Workbench/ru.md), Complete

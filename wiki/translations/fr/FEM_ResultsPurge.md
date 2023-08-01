@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ResultsPurge
    Name/fr:FEM Purger les résultats
    MenuLocation:Résultats → Purger les résultats

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Ограничение вертикальности
    Name:Sketcher_ConstrainVertical
    MenuLocation:Sketch → Ограничения эскиза → Ограничение вертикальности

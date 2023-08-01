@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Robot CreateTrajectory
    Workbenches:[Robot](Robot_Workbench/de.md)
    MenuLocation:Roboter → Erstelle Bwegungsbahn

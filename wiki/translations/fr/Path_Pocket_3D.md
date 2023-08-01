@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path Pocket 3D
    Name/fr:Path Évidement 3D
    MenuLocation:Path → Évidement 3D

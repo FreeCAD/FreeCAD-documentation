@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Выделить связанную геометрию
    Name:Sketcher_SelectElementsAssociatedWithConstraints
    MenuLocation:Sketch → Инструменты для эскиза → Выделить связанную геометрию

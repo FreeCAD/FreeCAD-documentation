@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Spreadsheet_Export
    Name/it:Esporta il foglio di calcolo
    MenuLocation:Spreadsheet → Esporta il foglio di calcolo

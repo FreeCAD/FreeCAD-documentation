@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM MaterialEditor
    Name/fr:FEM Éditeur de matériaux
    MenuLocation:Modèle → Matériaux → Éditeur de matériaux

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher ValidateSketch
    Name/pl:Szkicownik: Sprawdź poprawność szkicu
    MenuLocation:Szkic → Sprawdź poprawność szkicu ...

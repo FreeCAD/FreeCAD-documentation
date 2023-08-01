@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher EditSketch
    Name/fr:Sketcher Modifier l'esquisse
    MenuLocation:Esquisse → Modifier l'esquisse

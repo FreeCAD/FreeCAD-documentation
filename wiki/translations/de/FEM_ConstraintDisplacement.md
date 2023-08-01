@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM ConstraintDisplacement
    Name/de:FEM RandbedingungVersatz
    MenuLocation:Modell → Mechanische Randbedingungen → Randbedingung Versatz

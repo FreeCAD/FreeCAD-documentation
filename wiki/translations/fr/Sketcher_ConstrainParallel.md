@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher ConstrainParallel
    Name/fr:Sketcher Contrainte parallèle
    MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte parallèle

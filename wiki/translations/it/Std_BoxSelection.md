@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_BoxSelection
    Name/it:Box di selezione
    MenuLocation:Modifica → Box di selezione

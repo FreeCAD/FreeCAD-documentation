@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std TreeSyncSelection
    Name/ru:Std TreeSyncSelection
    MenuLocation:Вид → Дерево документа → Sync selection

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch Equipment
    Name/it:Arredo
    MenuLocation:Arch → Arredo

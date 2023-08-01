@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Drawing Save
    Name/it:Esporta il disegno
    Workbenches:[Disegno](Drawing_Workbench/it.md), Completo

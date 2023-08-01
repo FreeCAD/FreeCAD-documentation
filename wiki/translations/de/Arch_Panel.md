@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Panel
    Name/de:Arch Platte
    MenuLocation:Arch → Panel tools → Platte

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Rocket RailGuide
    Name/fr:Rocket Guide rail
    MenuLocation:Rocket → Launch Guides → Rail Guide

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:SheetMetal Junction
    Name/fr:SheetMetal Découpe d'angle
    MenuLocation:SheetMetal → Make Junction

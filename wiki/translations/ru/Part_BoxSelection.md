@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Выделить область
    Name:Part_BoxSelection
    MenuLocation:Part → Выделить область

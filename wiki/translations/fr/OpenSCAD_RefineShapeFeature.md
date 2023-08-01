@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:OpenSCAD RefineShapeFeature
    Name/fr:OpenSCAD Affiner la forme
    MenuLocation:OpenSCAD → Affiner la forme

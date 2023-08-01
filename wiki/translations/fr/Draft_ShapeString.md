@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft ShapeString
    Name/fr:Draft Formes à partir texte
    MenuLocation:Draft → Formes à partir de texte

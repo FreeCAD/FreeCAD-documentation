@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher ConstrainSymmetric
    Name/pl:Szkicownik: Wiązanie symetrii
    MenuLocation:Szkic → Wiązania szkicownika → Wiązanie symetrii

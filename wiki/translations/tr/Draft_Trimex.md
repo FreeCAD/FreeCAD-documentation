@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Trimex
    Name/tr:Kırp/Uzat (Trimex)
    MenuLocation:Draft → Trim/Extend

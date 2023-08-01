@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh Merge
    Name/pl:Siatka: Scal
    MenuLocation:Siatki → Scal

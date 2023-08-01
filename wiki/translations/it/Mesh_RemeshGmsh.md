@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Mesh_RemeshGmsh
    Name/it:Affinamento
    MenuLocation:Mesh → Affinamento...

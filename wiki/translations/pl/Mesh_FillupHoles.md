@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh FillupHoles
    Name/pl:Siatka: Wypełnienie otworów
    MenuLocation:Siatki → Wypełnij otwory ...

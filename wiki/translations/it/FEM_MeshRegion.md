@@ -1,6 +1,6 @@
 # FEM MeshRegion/it
 ---
-- GuiCommand:/it   Name:FEM_MeshRegion   Name/it:FEM MeshRegion   MenuLocation: Mesh → FEM Mesh region   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:   Name:FEM_MeshRegion   Name/it:FEM MeshRegion   MenuLocation: Mesh → FEM Mesh region   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 
 </div>

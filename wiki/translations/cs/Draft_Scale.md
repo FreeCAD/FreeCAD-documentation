@@ -1,6 +1,6 @@
 # Draft Scale/cs
 ---
-- GuiCommand:/cs   Name:Draft Scale   Name/cs:Kreslení Roztáhnout   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení → Roztáhnout   Shortcut:S C   SeeAlso:[Kreslení Klon](Draft_Clone/cs.md)---
+- GuiCommand:   Name:Draft Scale   Name/cs:Kreslení Roztáhnout   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení → Roztáhnout   Shortcut:S C   SeeAlso:[Kreslení Klon](Draft_Clone/cs.md)---
 
 
 </div>

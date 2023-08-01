@@ -1,6 +1,6 @@
 # Part Extrude/tr
 ---
-- GuiCommand:/tr   Name:Part Extrude   Name/tr:Part Extrude   MenuLocation:Part -> Extrude   Workbenches:[[Part_Workbench/tr   Part]], Complete|SeeAlso:---
+- GuiCommand:   Name:Part Extrude   Name/tr:Part Extrude   MenuLocation:Part -> Extrude   Workbenches:[[Part_Workbench/tr   Part]], Complete|SeeAlso:---
 
 
 </div>

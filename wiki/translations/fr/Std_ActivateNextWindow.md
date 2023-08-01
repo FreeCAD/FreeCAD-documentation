@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ActivateNextWindow
    Name/fr:Std Suivante
    MenuLocation:Fenêtre → Suivante

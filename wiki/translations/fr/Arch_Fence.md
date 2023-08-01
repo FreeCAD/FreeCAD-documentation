@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Fence
    Name/fr:Arch Clôture
    MenuLocation:Arch → Clôture

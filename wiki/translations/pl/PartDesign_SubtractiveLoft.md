@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign SubtractiveLoft
    Name/pl:Projekt Części: Odejmowanie wyciągnięciem przez profile
    MenuLocation:Projekt Części → Utwórz cechę przez odjęcie → Odejmowanie wyciągnięciem przez profile

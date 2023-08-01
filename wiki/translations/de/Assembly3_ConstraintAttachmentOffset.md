@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 ConstraintAttachmentOffset
    Name/de:Assembly3 BefestigungVersatz
    Icon:Assembly_ConstraintAttachmentOffset.svg‎‎

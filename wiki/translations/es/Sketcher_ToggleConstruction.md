@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher AlterConstruction
    Name/es:Alternar geometría de construcción
    Icon:Sketcher_AlterConstruction.svg

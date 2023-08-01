@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Arch Survey
    Name/ru:Arch Survey
    MenuLocation:Архитектура → Опрос/анкетирование

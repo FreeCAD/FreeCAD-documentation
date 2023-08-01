@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft_PathArray
    Name/it:Serie su tracciato
    MenuLocation:Modifiche → Strumenti serie → Serie su tracciato

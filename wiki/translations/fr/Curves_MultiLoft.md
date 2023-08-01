@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Curves MultiLoft
    Name/fr:Curves Multi lissage
    MenuLocation:Surfaces → MultiLoft

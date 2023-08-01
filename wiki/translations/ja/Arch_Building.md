@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ja
+- GuiCommand:
    Name:Std_Edit
    Name/ja:Std_Edit
    MenuLocation:Edit -> Toggle Editmode

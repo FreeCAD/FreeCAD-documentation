@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh HarmonizeNormals
    Name/fr:Mesh Harmoniser les normales‎
    MenuLocation:Maillages → Harmoniser les normales‎

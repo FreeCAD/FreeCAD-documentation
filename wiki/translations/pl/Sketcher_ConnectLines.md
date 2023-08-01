@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher ConnectLines
    Name/pl:Szkicownik: Połącz linie
    MenuLocation:Szkic → Narzędzia szkicownika → Połącz linie

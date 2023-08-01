@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Вырезать
    Name:Std_Cut
    MenuLocation:Правка → Вырезать

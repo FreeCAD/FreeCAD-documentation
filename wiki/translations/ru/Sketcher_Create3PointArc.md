@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать дугу по трём точкам
    Name:Sketcher_Create3PointArc
    MenuLocation:Sketch → Геометрия эскиза → Создать дугу по трём точкам

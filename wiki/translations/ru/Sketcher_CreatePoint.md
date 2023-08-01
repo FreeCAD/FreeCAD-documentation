@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Sketcher CreatePoint
    Name/ru:Точка
    MenuLocation:Эскиз → Геометрия эскиза → Точка

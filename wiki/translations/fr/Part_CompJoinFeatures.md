@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part CompJoinFeatures
    Name/fr:Part Jointure
    MenuLocation:Part → Joindre

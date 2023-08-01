@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft CubicBezCurve
    Name/es:Borrador CubicBezCurva
    MenuLocation:Dibujo → Herramientas Bézier → Cubic Curva Bézier

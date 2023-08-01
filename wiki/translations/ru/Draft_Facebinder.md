@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Facebinder
    Name/ru:Draft Facebinder
    MenuLocation:Черчение → Граневяз

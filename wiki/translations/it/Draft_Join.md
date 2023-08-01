@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Join
    Name/it:Unisci
    MenuLocation:Modifiche → Unisci

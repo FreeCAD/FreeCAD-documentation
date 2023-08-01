@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch_Rebar_LShape
    Name/it:Armatura a L
    MenuLocation:Arch → Strumenti armatura → Armatura a L o BIM → 3D/BIM → Reinforcement → LShape Rebar 

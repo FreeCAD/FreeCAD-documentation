@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Snap Dimensions
    Name/tr:Taslak Boyutlar
    MenuLocation:Taslak → [Yakalama](Draft_Snap/tr.md) → Boyutlar

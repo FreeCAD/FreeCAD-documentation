@@ -1,6 +1,6 @@
 # Std Open/it
 ---
-- GuiCommand:/it   Name:Std_Open   Name/it:Apri   MenuLocation:File → Apri   Workbenches:Tutti   Shortcut:**Ctrl**+**O**   SeeAlso:[Nuovo](Std_New.md), [Importa](Std_Import/it.md)---
+- GuiCommand:   Name:Std_Open   Name/it:Apri   MenuLocation:File → Apri   Workbenches:Tutti   Shortcut:**Ctrl**+**O**   SeeAlso:[Nuovo](Std_New.md), [Importa](Std_Import/it.md)---
 
 ## Descrizione
 

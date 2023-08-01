@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM CreateNodesSet
    Name/fr:FEM Ensemble de nœuds
    MenuLocation:Maillage → Ensemble de nœuds

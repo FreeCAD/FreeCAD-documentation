@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Spreadsheet SetAlias
    Name/fr:Spreadsheet Alias
    MenuLocation:

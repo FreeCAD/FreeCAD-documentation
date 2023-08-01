@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw VerticalExtentDimension
    Name/fr:TechDraw Cote étendue verticale
    MenuLocation:TechDraw → Dimensions → Insérer une cote étendue verticale

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Raytracing ExportProject
    Name/ru:Raytracing ExportProject
    MenuLocation:Трассировка лучей → Экспортировать проект

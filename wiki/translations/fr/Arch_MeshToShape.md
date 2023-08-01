@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch MeshToShape
    Name/fr:Arch Maillage vers une forme
    MenuLocation:Arch → Utilitaires → Maillage vers forme

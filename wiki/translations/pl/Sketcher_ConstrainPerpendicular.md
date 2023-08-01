@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher ConstrainPerpendicular
    Name/pl:Szkicownik: Wiązanie prostopadłości
    MenuLocation:Szkic → Wiązania szkicownika → Wiązanie prostopadłości

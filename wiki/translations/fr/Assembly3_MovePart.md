@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 MovePart
    Name/fr:Assembly3 Déplacer une pièce
    Icon:Assembly_Move.svg

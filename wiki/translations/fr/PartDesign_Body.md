@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign Body
    Name/fr:PartDesign Corps
    MenuLocation:Part Design → Créer un corps

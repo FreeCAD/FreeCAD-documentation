@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Path Area Workplane
    Name/pl:Path: Obszar płaszczyzny roboczej
    MenuLocation:Path → Obszar płaszczyzny roboczej

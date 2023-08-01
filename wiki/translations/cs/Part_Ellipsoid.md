@@ -1,6 +1,6 @@
 # Part Ellipsoid/cs
 ---
-- GuiCommand:/cs   Name:Part Ellipsoid   Name/cs:Díl Ellipsoid   MenuLocation:Díl → [Workbenches:[[Part_Workbench/cs   Díl](Part_CreatePrimitives/cs___Vytváření_zákl.geom.tvarů]] → Elipsoid.md),  [OpenSCAD](OpenSCAD_Workbench/cs.md)|SeeAlso:..---
+- GuiCommand:   Name:Part Ellipsoid   Name/cs:Díl Ellipsoid   MenuLocation:Díl → [Workbenches:[[Part_Workbench/cs   Díl](Part_CreatePrimitives/cs___Vytváření_zákl.geom.tvarů]] → Elipsoid.md),  [OpenSCAD](OpenSCAD_Workbench/cs.md)|SeeAlso:..---
 
 
 </div>

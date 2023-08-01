@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path DressupLeadInOut
    Name/fr:Path Entrée/sortie
    MenuLocation:Path → Finition du parcours → Entrée/sortie

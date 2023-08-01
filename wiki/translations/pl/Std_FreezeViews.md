@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std FreezeViews
    Name/pl:Std: Zamroź widok
    MenuLocation:Widok → Zamroź widok → ...

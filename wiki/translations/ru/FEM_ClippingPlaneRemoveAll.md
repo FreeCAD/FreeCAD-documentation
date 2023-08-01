@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM ClippingPlaneRemoveAll
    Name/ru:FEM ClippingPlaneRemoveAll
    Icon:Fem-clipping-plane-remove-all.svg

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FEM PostFilterClipRegion
    Name/it:FEM PostFilterClipRegion
    MenuLocation: Risultati → Crea clip filter

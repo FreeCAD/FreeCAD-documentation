@@ -1,6 +1,6 @@
 # Std ViewScreenShot/sv
 ---
-- GuiCommand:/sv   Name:Std ViewScreenShot   Name/sv:Std ViewScreenShot   MenuLocation:[[Std Tools Menu/sv   Tools]] → Save picture...|Workbenches:All   SeeAlso:...---
+- GuiCommand:   Name:Std ViewScreenShot   Name/sv:Std ViewScreenShot   MenuLocation:[[Std Tools Menu/sv   Tools]] → Save picture...|Workbenches:All   SeeAlso:...---
 
 
 </div>

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Path Fixture
    Name/it:Fissaggio
    Workbenches:[Path](Path_Workbench/it.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM ConstraintDisplacement
    Name/ru:FEM ConstraintDisplacement
    MenuLocation:Model → Mechanical Constraints → Constraint displacement

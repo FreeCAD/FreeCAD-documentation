@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Arch_Reference
    Name/ru:Ссылка
    MenuLocation:Arch → Ссылка

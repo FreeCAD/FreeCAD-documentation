@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Перейти к связанному объекту
    Name:Std_LinkSelectLinked
    MenuLocation:''Нет''

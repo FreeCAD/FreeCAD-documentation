@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Ограничение перемещения
    Name:Sketcher_ConstrainBlock
    MenuLocation:Sketch → Ограничения эскиза → Constrain Block

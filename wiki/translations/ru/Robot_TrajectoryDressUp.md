@@ -1,6 +1,6 @@
 # Robot TrajectoryDressUp/ru
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Robot TrajectoryDressUp
    Name/ru:Robot TrajectoryDressUp
    Workbenches:[Robot](Robot_Workbench/ru.md)

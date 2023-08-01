@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std DlgMacroExecuteDirect
    Name/it:Esegui la macro nell'editor
    MenuLocation:Macro → Esegui la macro

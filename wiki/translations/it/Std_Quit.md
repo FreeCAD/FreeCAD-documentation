@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_Quit
    Name/it:Esci
    MenuLocation:File → Esci

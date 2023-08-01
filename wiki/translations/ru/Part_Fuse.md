@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Part Union
    Icon:Part Fuse.svg
    MenuLocation:Деталь → Булевы операции → Объединение

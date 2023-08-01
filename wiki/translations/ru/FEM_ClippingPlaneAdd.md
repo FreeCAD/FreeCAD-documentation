@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM ClippingPlaneAdd
    Name/ru:FEM ClippingPlaneAdd
    MenuLocation: Utilities → Clipping Plane on Face

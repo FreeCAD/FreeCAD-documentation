@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Attachment
    Name/de:Part Befestigen
    MenuLocation:Part → Befestigung...

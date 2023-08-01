@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Копировать
    Name:Sketcher_Copy
    MenuLocation:Sketch → Инструменты для эскиза → Копировать

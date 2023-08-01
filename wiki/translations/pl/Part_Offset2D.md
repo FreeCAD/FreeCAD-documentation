@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Offset2D
    Name/pl:Część: Odsunięcie 2D
    MenuLocation:Część → Odsunięcie 2D

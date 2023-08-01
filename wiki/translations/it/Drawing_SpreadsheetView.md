@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Drawing SpreadsheetView
    Name/it:Vista foglio di calcolo
    Workbenches:[Drawing](Drawing_Workbench/it.md)

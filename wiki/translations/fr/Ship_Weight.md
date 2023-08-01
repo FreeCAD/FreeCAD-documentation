@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Ship Weight
    Name/fr:Ship Poids
    MenuLocation:Weights → Create a new ship weight

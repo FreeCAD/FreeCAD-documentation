@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std ViewRotateLeft
    Name/ru:Std ViewRotateLeft
    MenuLocation:Вид → Стандартные виды → Повернуть влево

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ToggleObjects
    Name/fr:Std Basculer tous les objets
    MenuLocation:Affichage → Visibilité → Basculer tous les objets

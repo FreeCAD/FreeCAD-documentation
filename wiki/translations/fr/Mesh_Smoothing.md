@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh Smoothing
    Name/fr:Mesh Lissage
    MenuLocation:Maillages → Lisser...

@@ -1,6 +1,6 @@
 # Part Export/it
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Part_Export
    Name/it:Esporta CAD
    MenuLocation:Part → Esporta CAD

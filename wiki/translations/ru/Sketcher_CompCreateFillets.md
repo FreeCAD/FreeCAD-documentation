@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать скругление
    Name:Sketcher_Fillets
    Icon:Sketcher_CompCreateFillets.png

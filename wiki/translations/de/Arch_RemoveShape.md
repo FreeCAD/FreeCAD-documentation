@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch RemoveShape
    Name/de:Arch FormEntfernen
    Workbenches:[Arch-Arbeitsbereich](Arch_Workbench/de.md)

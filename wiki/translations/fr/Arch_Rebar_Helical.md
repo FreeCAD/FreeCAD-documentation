@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Rebar Helical
    Name/fr:Arch Rebar Armature hélicoïdale
    MenuLocation:Arch → Outils pour les armatures → Armature hélicoïdale<br>3D/BIM → Reinforcement tools → Armature hélicoïdale

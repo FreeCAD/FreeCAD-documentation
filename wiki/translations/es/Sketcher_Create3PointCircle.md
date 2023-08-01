@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher Create3PointCircle
    Name/es:Croquizador CrearCírculo3Puntos
    MenuLocation:Croquis → Geometrías del Croquizador → Crear círculo por tres puntos

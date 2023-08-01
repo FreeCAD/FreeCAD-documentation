@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Torus
    Name/de:Part Torus
    MenuLocation:Formteil → Grundkörper → Torus

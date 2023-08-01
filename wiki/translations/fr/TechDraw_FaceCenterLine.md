@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw FaceCenterLine
    Name/fr:TechDraw Ligne centrale à une face
    MenuLocation:TechDraw → Ajouter des lignes → Ajouter une ligne centrale à des faces

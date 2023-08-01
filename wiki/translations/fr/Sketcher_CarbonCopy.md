@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher CarbonCopy
    Name/fr:Sketcher Copie carbone
    MenuLocation:Esquisse → Géométries d'esquisse → Copie carbone

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft_Arc
    Name/fr:Draft Arc
    MenuLocation:Draft → Outils arcs → Arc

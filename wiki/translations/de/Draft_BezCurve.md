@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft BezCurve
    Name/de:Entwurf BezKurve
    MenuLocation:Entwurf → Bézierwerkzeuge → BézKurve

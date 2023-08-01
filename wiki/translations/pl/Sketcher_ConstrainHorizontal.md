@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Icon:Constraint Horizontal.svg
    Name:Sketcher ConstrainHorizontal
    Name/pl:Szkicownik: Zwiąż w poziomie

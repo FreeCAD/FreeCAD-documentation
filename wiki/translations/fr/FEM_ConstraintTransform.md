@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ConstraintTransform
    Name/fr:FEM Contrainte de transformation
    MenuLocation:Modèle → Contraintes géométriques → Contrainte de transformation

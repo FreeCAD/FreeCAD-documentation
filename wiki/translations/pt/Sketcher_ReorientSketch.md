@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pt
+- GuiCommand:
    Name:Sketcher Reorient
    Name/pt:Sketcher Reorient
    Empty:1

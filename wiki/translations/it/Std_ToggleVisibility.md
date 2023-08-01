@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std ToggleVisibility
    Name/it:Mostra/Nascondi
    MenuLocation:Visualizza → Mostra/Nascondi

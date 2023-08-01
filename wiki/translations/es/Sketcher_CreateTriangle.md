@@ -1,6 +1,6 @@
 # Sketcher CreateTriangle/es
 ---
-- GuiCommand:/es   Name:Sketcher CreateTriangle   Name/es:Sketcher CreateTriangle   Workbenches:[[Sketcher Workbench/es   Sketcher]]|MenuLocation:Sketch → Sketcher geometries → Create equilateral triangle   Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Sketcher CreateTriangle   Name/es:Sketcher CreateTriangle   Workbenches:[[Sketcher Workbench/es   Sketcher]]|MenuLocation:Sketch → Sketcher geometries → Create equilateral triangle   Shortcut:   SeeAlso:---
 
 
 </div>

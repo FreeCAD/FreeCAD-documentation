@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path Waterline
    Name/fr:Path Lignes de niveau
    MenuLocation:Path → Lignes de niveau

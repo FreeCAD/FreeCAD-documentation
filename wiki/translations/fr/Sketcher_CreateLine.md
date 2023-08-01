@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher CreateLine
    Name/fr:Sketcher Ligne
    MenuLocation:Esquisse → Géométries d'esquisse → Créer une ligne

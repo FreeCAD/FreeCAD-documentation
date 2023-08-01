@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch Roof
    Name/es:Arch Techo
    MenuLocation:Arquitectura → Techo

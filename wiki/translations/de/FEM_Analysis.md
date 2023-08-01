@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM Analysis
    Name/de:FEM Analyse
    MenuLocation:Modell → Analyse-Container‏‎

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ViewLoadImage
    Name/pl:Std: Załaduj obraz
    MenuLocation:Przybory → Załaduj obraz ...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:PartDesign NewSketch
    Name/it:Nuovo schizzo
    Workbenches:[PartDesign](PartDesign_Workbench/it.md)

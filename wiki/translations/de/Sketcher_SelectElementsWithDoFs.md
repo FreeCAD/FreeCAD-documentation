@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher SelectElementsWithDoFs
    Name/de:Sketcher UnterbestimmteElementeAuswählen
    MenuLocation:Skizze → Skizzenwerkzeuge → Unterbestimmte Elemente auswählen

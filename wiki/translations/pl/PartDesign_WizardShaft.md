@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign WizardShaft
    Name/pl:Projekt Części: Kreator projektowania wału
    MenuLocation:Projekt Części → Kreator projektowania wału ...

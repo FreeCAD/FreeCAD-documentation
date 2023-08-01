@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Reinforcement_Bar_Bending_Schedule
    Name/it:Distinta e sagomatura dei ferri
    MenuLocation:Reinforcement → BarBendingSchedule

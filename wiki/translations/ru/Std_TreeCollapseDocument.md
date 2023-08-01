@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std TreeCollapseDocument
    Name/ru:Std TreeCollapseDocument
    |MenuLocation:Вид → Дерево документа → Свернуть/Развернуть

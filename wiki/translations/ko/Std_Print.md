@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std Print
    Name/ko:인쇄
    MenuLocation:파일 → 인쇄...

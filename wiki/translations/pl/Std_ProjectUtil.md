@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ProjectUtil
    Name/pl:Std: Narzędzie projektu
    MenuLocation:Przybory → Narzędzia projektu ...

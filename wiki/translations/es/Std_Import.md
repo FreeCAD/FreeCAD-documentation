@@ -1,6 +1,6 @@
 # Std Import/es
 ---
-- GuiCommand:/es   Name:Std_Import   Name/es:Std_Import   Workbenches:Todos   MenuLocation:Archivo → Importar   Shortcut:CTRL+I   SeeAlso:[Std Open](Std_Open/es.md), [Std_Save](Std_Save/es.md)...---
+- GuiCommand:   Name:Std_Import   Name/es:Std_Import   Workbenches:Todos   MenuLocation:Archivo → Importar   Shortcut:CTRL+I   SeeAlso:[Std Open](Std_Open/es.md), [Std_Save](Std_Save/es.md)...---
 
 
 </div>

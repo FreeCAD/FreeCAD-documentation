@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Rocket Parachute Size Calculator
    Name/fr:Rocket Calcul taille parachute
    Icon:Rocket_Calculator.svg

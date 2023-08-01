@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Clone
    Name/ru:Клонировать
    MenuLocation:Черчение → Клонировать

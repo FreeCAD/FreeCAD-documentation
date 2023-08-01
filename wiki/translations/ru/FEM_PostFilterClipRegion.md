@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM PostFilterClipRegion
    MenuLocation:Results → Region clip filter
    Workbenches:[FEM](FEM_Workbench/ru.md)

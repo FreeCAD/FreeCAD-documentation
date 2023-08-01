@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch RemoveShape
    Name/es:Arch RemoveShape
    MenuLocation:Arch → Utilities → Remove Shape

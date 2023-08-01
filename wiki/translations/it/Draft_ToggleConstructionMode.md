@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft ToggleConstructionMode
    Name/it:Modalità Costruzione
    MenuLocation:Utilità → Attiva/Disattiva modalità di costruzione

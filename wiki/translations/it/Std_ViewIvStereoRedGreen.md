@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std ViewIvStereoRedGreen
    Name/it:Stereo rosso/ciano
    MenuLocation:Visualizza → Stereo → Stereo rosso/ciano

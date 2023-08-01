@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw LengthDimension
    Name/fr:TechDraw Cote de longueur
    MenuLocation:TechDraw → Dimensions → Insérer une cote de longueur

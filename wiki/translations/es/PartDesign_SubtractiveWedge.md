@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign SubtractiveWedge
    Name/es:PartDesign Cuña Sustractiva
    MenuLocation:Part Design → Crear una primitiva sustractiva → Cuña sustractiva

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher CreateLine
    Name/de:Sketcher LinieErstellen
    MenuLocation:Sketch → Skizzengeometrien → Linie erstellen

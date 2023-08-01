@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 MoveItemDown
    Name/de:Assembly3 ObjektAbwärtsBewegen
    Icon:Assembly_TreeItemDown.svg‎‎

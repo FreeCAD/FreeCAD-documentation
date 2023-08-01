@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft CircularArray
    Name/de:Draft KreisAnordnung
    MenuLocation:Änderung → Array tools → Kreis-Anordnung

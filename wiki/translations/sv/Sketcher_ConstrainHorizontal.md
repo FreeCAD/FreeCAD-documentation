@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/sv
+- GuiCommand:
    Name:Constraint Horizontal
    Name/sv:Constraint Horizontal
    Workbenches:[Sketcher](Sketcher_Workbench/sv.md)

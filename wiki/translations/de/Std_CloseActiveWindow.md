@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std CloseActiveWindow
    Name/de:Std Schließen
    MenuLocation:Datei → Schließen

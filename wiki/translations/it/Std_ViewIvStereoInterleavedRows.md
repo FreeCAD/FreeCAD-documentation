@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std ViewIvStereoInterleavedRows
    Name/it:Stereo a righe interlacciate
    MenuLocation:Visualizza → Stereo → Stereo a righe interlacciate

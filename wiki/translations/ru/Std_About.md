@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:О FreeCAD
    Name:Std_About
    Workbenches:Все

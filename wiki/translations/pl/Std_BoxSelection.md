@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std BoxSelection
    Name/pl:Std: Zaznacz obszar
    MenuLocation:Edycja → Zaznacz obszar

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/zh-cn
+- GuiCommand:-cn
    Name/zh-cn:映射草图至面...
    Name:Sketcher_MapSketch
    MenuLocation:Part Design/Sketch → 映射草图至面...

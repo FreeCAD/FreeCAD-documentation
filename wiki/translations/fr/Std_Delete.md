@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std_Delete
    Name/fr:Std Effacer
    MenuLocation:Édition → Effacer

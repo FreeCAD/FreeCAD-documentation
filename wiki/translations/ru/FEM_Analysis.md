@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM Analysis
    Name/ru:FEM Analysis
    MenuLocation:Model → Блок анализа

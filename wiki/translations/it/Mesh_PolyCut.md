@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Mesh_PolyCut
    Name/it:Taglia la mesh
    MenuLocation:Mesh → Taglio → Taglia la mesh

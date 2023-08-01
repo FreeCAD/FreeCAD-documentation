@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Slope
    Name/ru:Draft Slope
    MenuLocation:Черчение → Утилиты → Set Slope

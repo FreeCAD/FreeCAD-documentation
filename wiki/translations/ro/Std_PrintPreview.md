@@ -1,6 +1,6 @@
 # Std PrintPreview/ro
 ---
-- GuiCommand:/ro   Name:Std PrintPreview   Name/ro:Previzualizare tipărire   Workbenches:All   MenuLocation:[Shortcut:Ctrl+P   SeeAlso:[[Std Print/ro|Imprimare](Std_File_Menu/ro___File]]_→_Previzualizare_tipărire_.md)---
+- GuiCommand:   Name:Std PrintPreview   Name/ro:Previzualizare tipărire   Workbenches:All   MenuLocation:[Shortcut:Ctrl+P   SeeAlso:[[Std Print/ro|Imprimare](Std_File_Menu/ro___File]]_→_Previzualizare_tipărire_.md)---
 
 
 </div>

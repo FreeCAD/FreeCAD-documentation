@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Assembly3 ResolveConstraints
    Name/ru:Assembly3 ResolveConstraints
    Icon:Assembly3_workbench_icon.svg

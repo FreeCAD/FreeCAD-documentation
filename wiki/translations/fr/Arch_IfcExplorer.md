@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch IfcExplorer
    Name/fr:Arch Explorateur IFC
    MenuLocation:Arch → Utilitaires → Explorateur IFC

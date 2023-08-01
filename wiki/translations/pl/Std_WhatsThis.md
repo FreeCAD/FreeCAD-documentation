@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std WhatsThis
    Name/pl:Std: Co to jest
    MenuLocation:Pomoc → Co to jest?

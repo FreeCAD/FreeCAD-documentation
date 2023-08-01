@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw Annotation
    Name/pl:Rysunek Techniczny: Wstaw adnotację
    MenuLocation:TechDraw → Adnotacje → Wstaw adnotację

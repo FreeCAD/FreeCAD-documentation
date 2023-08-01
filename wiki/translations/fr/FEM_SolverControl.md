@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM SolverControl
    Name/fr:FEM Réglage du solveur
    MenuLocation:Résolution → Contrôle des tâches du solveur

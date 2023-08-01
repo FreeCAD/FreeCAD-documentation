@@ -1,6 +1,6 @@
 # Arch Wall/ru
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Arch_Wall
    Name/ru:Стена
    Workbenches:[Arch](Arch_Workbench/ru.md)

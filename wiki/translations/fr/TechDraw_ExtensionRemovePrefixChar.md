@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExtensionRemovePrefixChar
    Name/fr:TechDraw Supprimer les symboles
    MenuLocation:TechDraw → Extensions : cotes → Supprimer le préfixe

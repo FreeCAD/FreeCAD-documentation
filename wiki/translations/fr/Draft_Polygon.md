@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Polygon
    Name/fr:Draft Polygone
    MenuLocation:Draft → Polygone

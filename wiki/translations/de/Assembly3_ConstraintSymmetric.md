@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 ConstraintSymmetric
    Name/de:Assembly3 SymmetrieFestlegen
    Icon:Assembly_ConstraintSymmetric.svg

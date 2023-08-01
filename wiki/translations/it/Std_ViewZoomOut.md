@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std ViewZoomOut
    Name/it:Riduci
    MenuLocation:Visualizza → Zoom → Riduci

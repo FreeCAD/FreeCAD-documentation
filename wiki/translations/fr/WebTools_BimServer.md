@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:WebTools BimServer
    Name/fr:WebTools BimServer
    MenuLocation:Web Tools → BIM server

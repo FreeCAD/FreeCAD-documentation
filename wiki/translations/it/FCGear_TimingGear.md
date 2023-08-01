@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FCGear_TimingGear
    Name/it:Ingranaggio di distribuzione
    MenuLocation:FCGear → Create a Timing gear

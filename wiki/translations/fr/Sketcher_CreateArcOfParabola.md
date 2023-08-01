@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher CreateArcOfParabola
    Name/fr:Sketcher Arc de parabole
    MenuLocation:Esquisse → Géométries d'esquisse → Créer un arc de parabole

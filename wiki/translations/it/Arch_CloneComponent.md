@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch CloneComponent
 ‏‎‏‎   Name/it:Clona component‏‎‏‎e
    Icon:Arch_Component_Clone.svg

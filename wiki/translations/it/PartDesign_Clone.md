@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:PartDesign Clone
    Name/it:PartDesign Clone
    Workbenches:[PartDesign](PartDesign_Workbench/it.md)

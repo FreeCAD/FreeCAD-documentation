@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Snap WorkingPlane
    Name/tr:Taslak Çalışma düzlemi
    MenuLocation:Taslak → [Yakalama](Draft_Snap/tr.md) → Çalışma düzlemi

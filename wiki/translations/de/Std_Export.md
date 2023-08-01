@@ -1,6 +1,6 @@
 # Std Export/de
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std Export
    Name/de:Std Export
    MenuLocation:Datei → Exportieren...

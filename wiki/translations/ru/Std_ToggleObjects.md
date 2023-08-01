@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std ToggleObjects
    Name/ru:Std ToggleObjects
    Empty:1

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM MaterialMechanicalNonlinear
    Name/de:FEM MaterialMechanischNichtlinear
    MenuLocation:Modell → Materialien → Nichtlineares mechanisches Material

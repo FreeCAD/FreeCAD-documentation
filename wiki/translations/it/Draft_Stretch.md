@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Stretch
    Name/it:Stira
    MenuLocation:Modifiche → Stira

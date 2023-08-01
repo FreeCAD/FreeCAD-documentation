@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM ElementRotation1D
    Name/ru:FEM ElementRotation1D
    Icon:Fem-beam-rotation.svg

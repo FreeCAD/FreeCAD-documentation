@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw SectionView
    Name/fr:TechDraw Vue en coupe
    MenuLocation:TechDraw → Vues de Techdraw → Insérer une vue en coupe

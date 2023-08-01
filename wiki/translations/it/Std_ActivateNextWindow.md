@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std ActivateNextWindow
    Name/it:Prossima
    MenuLocation:Finestre → Prossima

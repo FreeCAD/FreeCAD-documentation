@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM CreateNodesSet
    Name/ru:FEM CreateNodesSet
    MenuLocation:Mesh → Nodes set

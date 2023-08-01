@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part FaceColors
    Name/fr:Part Définir les couleurs
    MenuLocation:Menu contextuel → Définir les couleurs...

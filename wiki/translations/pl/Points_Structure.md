@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Points Structure
    Name/pl:Punkty: Uporządkowana chmura punktów
    MenuLocation:Punkty → Uporządkowana chmura punktów

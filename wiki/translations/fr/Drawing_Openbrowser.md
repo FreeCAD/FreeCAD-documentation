@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Drawing Openbrowser
    Name/fr:Drawing Ouvrir sur le navigateur interne
    Workbenches:[Drawing](Drawing_Workbench/fr.md)

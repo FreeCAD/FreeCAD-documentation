@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM ConstraintSpring
    Name/de:FEM RandbedingungFeder
    MenuLocation:Modell → Mechanische Randbedingungen → Randbedingung Feder

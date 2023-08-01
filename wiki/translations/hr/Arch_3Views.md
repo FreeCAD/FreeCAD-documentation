@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/hr
+- GuiCommand:
    Name:Arch 3Views   Name/hr:Arch 3Views
    MenuLocation:Arch → Utilities → 3 Views from mesh
    Workbenches:[Arch](Arch_Workbench.md)

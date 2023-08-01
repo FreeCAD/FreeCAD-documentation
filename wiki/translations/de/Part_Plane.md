@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Plane
    Name/de:Part Ebene
    MenuLocation:Formteil → [Grundkörper erstellen...](Part_Primitives/de.md) → Ebene

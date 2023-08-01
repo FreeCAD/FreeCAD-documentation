@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name/tr:Yüzeyden
    Workbenches:[CNC G-Kodu](Path_Workbench/tr.md)
    MenuLocation:CNC G-Kodu → Yüzeyden
@@ -13,7 +13,7 @@
 </div>
 
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name/tr:Yüzeyden
    Workbenches:[CNC G-Kodu](Path_Workbench/tr.md)
    MenuLocation:CNC G-Kodu → Yüzeyden

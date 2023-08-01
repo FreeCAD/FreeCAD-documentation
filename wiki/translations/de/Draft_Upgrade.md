@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Upgrade
    Name/de:Entwurf Hochstufen
    MenuLocation:Entwurf → Hochstufen

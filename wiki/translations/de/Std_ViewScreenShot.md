@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ViewScreenShot
    Name/de:Std AnsichtAufnehmen
    MenuLocation:Werkzeuge → Bildinhalt speichern...

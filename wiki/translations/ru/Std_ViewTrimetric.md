@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Триметрическая
    Name:Std_ViewTrimetric
    MenuLocation:Вид → Стандартные виды‏‎ → Axonometric → Триметрическая

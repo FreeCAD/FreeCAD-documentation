@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft BSpline
    Name/fr:Draft B-spline
    MenuLocation:Draft → B-spline

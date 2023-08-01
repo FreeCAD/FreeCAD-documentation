@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh RemeshGmsh
    Name/fr:Mesh Affiner
    MenuLocation:Maillages → Affiner...

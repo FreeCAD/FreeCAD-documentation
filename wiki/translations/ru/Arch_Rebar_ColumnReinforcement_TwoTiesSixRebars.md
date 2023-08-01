@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Arch Rebar ColumnReinforcement
    Name/ru:Arch Rebar ColumnReinforcement
    MenuLocation:Arch → Rebar tools

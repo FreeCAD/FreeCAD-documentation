@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw_ArchView
    Name/it:Vista di Arch
    MenuLocation:TechDraw → Vista di Arch

@@ -1,6 +1,6 @@
 # PartDesign Chamfer/cs
 ---
-- GuiCommand:/cs   Name:PartDesign Chamfer   Name/cs:PartDesign Chamfer   Workbenches:[MenuLocation:Part Design → Chamfer   SeeAlso:[[Part Chamfer/cs|Chamfer Part](PartDesign_Workbench/cs___PartDesign]],_Complete.md)---
+- GuiCommand:   Name:PartDesign Chamfer   Name/cs:PartDesign Chamfer   Workbenches:[MenuLocation:Part Design → Chamfer   SeeAlso:[[Part Chamfer/cs|Chamfer Part](PartDesign_Workbench/cs___PartDesign]],_Complete.md)---
 
 
 </div>

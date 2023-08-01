@@ -1,6 +1,6 @@
 # Robot SetHomePos/de
 ---
-- GuiCommand:/de   Name:Robot SetHomePos   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Roboter → Setzen Sie die Ausgangsposition---
+- GuiCommand:   Name:Robot SetHomePos   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Roboter → Setzen Sie die Ausgangsposition---
 
 
 </div>

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Measure Clear All
    Name/de:Part Messung AllesLöschen
    MenuLocation:Messen → Alles löschen

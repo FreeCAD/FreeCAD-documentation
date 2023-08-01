@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Аддитивный эллипсоид
    Name:PartDesign_AdditiveEllipsoid
    MenuLocation:Part Design → Создать аддитивный примитив → Аддитивный Эллипсоид

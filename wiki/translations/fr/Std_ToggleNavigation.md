@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ToggleNavigation
    Name/fr:Std Bascule de mode navigation
    MenuLocation:Affichage → Basculer en mode navigation/édition

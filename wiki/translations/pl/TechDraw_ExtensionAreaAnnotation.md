@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw ExtensionAreaAnnotation
    Name/pl:Rysunek Techniczny: Rozszerzenie Oblicz obszar wybranych powierzchni
    MenuLocation:Rysunek Techniczny → Rozszerzenie: Atrybuty / Modyfikatory → Oblicz obszar wybranych powierzchni

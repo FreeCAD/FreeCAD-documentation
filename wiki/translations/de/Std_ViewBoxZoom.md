@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ViewBoxZoom
    Name/de:Std AnsichtRechteckauswahl
    MenuLocation:Ansicht → Zoom → Zoomen mit Rechteck

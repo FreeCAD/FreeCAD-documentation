@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher NewSketch
    Name/es:Croquizador Nuevo croquis
    MenuLocation:Croquis → Crear croquis

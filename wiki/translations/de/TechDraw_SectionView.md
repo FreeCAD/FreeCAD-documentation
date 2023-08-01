@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw SectionView
    Name/de:TechDraw Schnittansicht
    MenuLocation:TechDraw→ TechDraw Ansichten → Schnittansicht einfügen

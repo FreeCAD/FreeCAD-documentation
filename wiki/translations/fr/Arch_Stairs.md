@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Stairs
    Name/fr:Arch Escalier
    MenuLocation:Arch → Escalier

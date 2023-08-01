@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Plot Grid   Name/it:Griglia
    MenuLocation:Grafico → Griglia
 ‏‎   Workbenches:[Grafico](Plot_Workbench/it.md)

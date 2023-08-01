@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign Boolean
    Name/pl:Projekt Części: Operacja logiczna
    MenuLocation:Projekt Części → Operacja logiczna

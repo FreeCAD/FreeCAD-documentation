@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path DressupDogbone
    Name/fr:Path Dégagement des angles
    MenuLocation:Path → Finition du parcours → Dégagement des angles

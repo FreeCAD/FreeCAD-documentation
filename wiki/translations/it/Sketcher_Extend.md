@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher Extend
    Name/it:Estendi bordo
    Icon:Sketcher Extend.svg

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Import
    Name/fr:Part Importation
    MenuLocation:Part → Importer un fichier de CAO...

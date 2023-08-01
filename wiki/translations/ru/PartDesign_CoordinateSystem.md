@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать локальную систему координат
    Name:PartDesign_CoordinateSystem
    MenuLocation:PartDesign → Создать локальную систему координат

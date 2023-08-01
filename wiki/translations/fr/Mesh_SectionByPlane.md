@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh SectionByPlane
    Name/fr:Mesh Section
    MenuLocation:Maillages → Couper → Créer une section à partir d'un maillage et d'un plan

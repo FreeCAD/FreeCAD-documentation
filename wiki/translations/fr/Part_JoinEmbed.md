@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part JoinEmbed
    Name/fr:Part Intégrer
    MenuLocation:Part → Joindre → Intégrer un objet

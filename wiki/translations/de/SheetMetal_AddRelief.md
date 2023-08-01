@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:SheetMetal AddRelief
    Name/de:SheetMetal EntlastungsausschnittHinzufügen
    MenuLocation:SheetMetal → Make Relief

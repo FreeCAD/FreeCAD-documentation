@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch Frame
    Name/it:Carpenteria
    MenuLocation:Arch → Carpenteria

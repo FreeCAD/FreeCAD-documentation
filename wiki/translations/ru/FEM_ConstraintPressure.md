@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM ConstraintPressure
    Name/ru:FEM ConstraintPressure
    MenuLocation:Model → Mechanical Constraints → Constraint pressure

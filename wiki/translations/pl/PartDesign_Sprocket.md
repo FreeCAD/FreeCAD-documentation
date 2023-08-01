@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign Sprocket
    Name/pl:Projekt Części: Koło łańcuchowe
    MenuLocation:Projekt Części → Koło łańcuchowe ...

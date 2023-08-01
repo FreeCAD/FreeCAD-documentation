@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std LinkSelectAllLinks
    Name/pl:Std: Wybierz wszystkie łącza
    MenuLocation:brak

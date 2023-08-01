@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Экспорт листа в SVG
    Name:TechDraw_ExportPageSVG
    MenuLocation:TechDraw → Экспорт листа в SVG

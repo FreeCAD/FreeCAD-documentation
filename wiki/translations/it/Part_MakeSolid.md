@@ -1,6 +1,6 @@
 # Part MakeSolid/it
 ---
-- GuiCommand:/it   Name:Part ConvertToSolid   Name/it:Converti in solido   Empty:1‏‎   MenuLocation:Parte → Converti in solido   Workbenches:[[Part Workbench/it   Parte]]|SeeAlso:---
+- GuiCommand:   Name:Part ConvertToSolid   Name/it:Converti in solido   Empty:1‏‎   MenuLocation:Parte → Converti in solido   Workbenches:[[Part Workbench/it   Parte]]|SeeAlso:---
 
 
 </div>

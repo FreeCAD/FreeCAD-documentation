@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Structure
    Name/de:Arch Struktur
    MenuLocation:Arch → Strukturwerkzeug → Struktur

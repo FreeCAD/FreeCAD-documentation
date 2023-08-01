@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw ClipGroupAdd
    Name/pl:Rysunek Techniczny: Dodaj widok do grupy wycinków
    MenuLocation:Rysunek Techniczny → Dodaj widok do grupy wycinków

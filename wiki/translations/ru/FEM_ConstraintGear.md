@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM ConstraintGear
    Name/ru:FEM ConstraintGear
    MenuLocation:Model → Mechanical Constraints → Constraint gear

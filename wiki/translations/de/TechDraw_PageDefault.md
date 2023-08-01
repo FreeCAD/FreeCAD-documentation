@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw PageDefault
    Name/de:TechDraw Standardseite
    MenuLocation:TechDraw → Page → Neues Zeichnungsblatt aus der Standardvorlage erstellen

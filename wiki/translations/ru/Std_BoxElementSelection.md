@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Область выбора элементов
    Name:Std_BoxElementSelection
    MenuLocation:Правка → Область выбора элементов

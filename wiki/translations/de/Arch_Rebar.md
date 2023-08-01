@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Rebar
    Name/de:Architektur Bewehrung oder 3D/BIM-Verstärkung
    MenuLocation:Architektur → Bewehrung

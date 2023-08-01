@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Пользовательская документация
    Name:Std_FreeCADUserHub
    MenuLocation:Помощь → Пользовательская документация

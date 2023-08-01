@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Layer
    Name/it:Strato
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)

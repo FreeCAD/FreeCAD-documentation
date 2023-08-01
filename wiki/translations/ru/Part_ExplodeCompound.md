@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part ExplodeCompound
    Name/ru:Part ExplodeCompound
    MenuLocation:Деталь → Соединить → Разъединить соединение

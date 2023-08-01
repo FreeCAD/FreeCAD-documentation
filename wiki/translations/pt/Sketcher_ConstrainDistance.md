@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pt
+- GuiCommand:
    Name:Sketcher ConstrainDistance
    Name/pt:Restringir distância
    Workbenches:[Sketcher](Sketcher_Workbench/pt.md)

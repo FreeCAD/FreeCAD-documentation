@@ -1,6 +1,6 @@
 # Draft Rotate/sv
 ---
-- GuiCommand:/sv   Name:Draft_Rotate   Workbenches:[[Draft_Workbench/sv   Skiss]]|MenuLocation:Draft -> Rotate---
+- GuiCommand:   Name:Draft_Rotate   Workbenches:[[Draft_Workbench/sv   Skiss]]|MenuLocation:Draft -> Rotate---
 
 
 </div>

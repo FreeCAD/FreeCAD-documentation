@@ -1,6 +1,6 @@
 # Sketcher ToggleDrivingConstraint/es
 ---
-- GuiCommand:/es   Name:Sketcher ToggleConstraint   Workbenches:[PartDesign](Sketcher_Workbench/es___Sketcher]],_[[PartDesign_Workbench/es.md)|MenuLocation:Sketch → Sketcher constraints → Toggle reference/driving constraint   Shortcut:   SeeAlso:[Toggle Construction](Sketcher_ToggleConstruction/es.md)---
+- GuiCommand:   Name:Sketcher ToggleConstraint   Workbenches:[PartDesign](Sketcher_Workbench/es___Sketcher]],_[[PartDesign_Workbench/es.md)|MenuLocation:Sketch → Sketcher constraints → Toggle reference/driving constraint   Shortcut:   SeeAlso:[Toggle Construction](Sketcher_ToggleConstruction/es.md)---
 
 
 </div>

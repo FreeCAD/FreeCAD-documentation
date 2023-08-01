@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Label
    Name/it:Etichetta
    MenuLocation:Annotazione → Etichetta

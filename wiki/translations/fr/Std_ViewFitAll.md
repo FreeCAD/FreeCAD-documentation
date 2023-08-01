@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ViewFitAll
    Name/fr:Std Tout afficher
    MenuLocation:Affichage → Vues standards‏‎ → Tout afficher

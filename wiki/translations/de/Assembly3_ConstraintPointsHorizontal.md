@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 ConstraintPointsHorizontal
    Name/de:Assembly3 HorizontalePunkte
    Icon:Assembly_ConstraintPointsHorizontal.svg

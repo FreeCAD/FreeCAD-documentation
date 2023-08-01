@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign Chamfer
    Name/es:DiseñoPieza Chaflán
    Workbenches:[DiseñoPieza](PartDesign_Workbench/es.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Ферма
    Name:Arch_Truss
    MenuLocation:Arch → Ферма

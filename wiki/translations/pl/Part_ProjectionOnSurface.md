@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part ProjectionOnSurface
    Name/pl:Część: Rzutowanie na powierzchnię
    MenuLocation:Część → Utwórz rzut na powierzchni ...

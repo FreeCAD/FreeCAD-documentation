@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Переключение виртуального пространства
    Name:Sketcher_SwitchVirtualSpace
    MenuLocation:Sketch → Виртуальное пространство эскиза → Переключение виртуального пространства

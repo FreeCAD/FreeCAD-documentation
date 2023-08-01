@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch SplitMesh
    Name/fr:Arch Diviser un maillage
    MenuLocation:Arch → Utilitaires → Diviser un maillage

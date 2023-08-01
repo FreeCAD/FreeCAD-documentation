@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch 3Views
    Name/de:Arch 3Ansichten
    MenuLocation:Arch → Dienstprogramme → 3 Ansichten aus Netz

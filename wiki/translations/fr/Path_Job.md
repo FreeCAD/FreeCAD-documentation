@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path Job
    Name/fr:Path Tâche
    MenuLocation:Path → Tâche

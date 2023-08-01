@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std MergeProjects
    Name/pl:Std: Scal projekt
    MenuLocation:Plik → Scal projekt ...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:PartDesign_ShapeBinder
    Name/it:Forme legate
    Workbenches:[PartDesign](PartDesign_Workbench/it.md)

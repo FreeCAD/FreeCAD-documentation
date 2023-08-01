@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std PrintPreview
    Name/pl:Std: Podgląd wydruku
    MenuLocation:Plik → Podgląd wydruku ...

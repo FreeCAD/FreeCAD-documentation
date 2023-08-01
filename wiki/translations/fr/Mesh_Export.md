@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh Export
    Name/fr:Mesh Exporter le maillage
    MenuLocation:Maillages → Exporter le maillage...

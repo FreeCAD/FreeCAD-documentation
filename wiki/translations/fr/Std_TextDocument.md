@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std TextDocument
    Name/fr:Std Ajouter un document texte
    MenuLocation:Outils → Ajouter un document texte

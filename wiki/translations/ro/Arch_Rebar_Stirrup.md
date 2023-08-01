@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name/ro:Arch Rebar Stirrup
    MenuLocation:Arch → Rebar tools
    Workbenches:[Arch](Arch_Workbench/ro.md), [BIM](BIM_Workbench/ro.md)

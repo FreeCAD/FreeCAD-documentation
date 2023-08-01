@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign_Groove
    Name/fr:PartDesign Rainure
    MenuLocation:Part Design → Créer une fonction soustractive → Rainure

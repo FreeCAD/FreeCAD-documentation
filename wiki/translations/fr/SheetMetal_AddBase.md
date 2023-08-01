@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:SheetMetal AddBase
    Name/fr:SheetMetal Tôle de base
    MenuLocation:SheetMetal → Make Base Wall

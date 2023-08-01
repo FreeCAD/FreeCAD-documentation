@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw ExtensionLinePerpendicular
    Name/de:TechDraw ErgänzungRechtwinkligeLinie
    MenuLocation:TechDraw → Ergänzungen: Mittellinien/Gewinde → Senkrechte Hilfslinie hinzufügen

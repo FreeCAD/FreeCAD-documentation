@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign WizardShaft
    Name/de:PartDesign EntwurfsassistentWellen
    MenuLocation:Part Design → Entwurfsassistent für Wellen...

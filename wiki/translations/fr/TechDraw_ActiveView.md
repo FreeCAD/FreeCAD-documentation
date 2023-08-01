@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ActiveView
    Name/fr:TechDraw Vue active
    MenuLocation:TechDraw →  Vues des autres ateliers → Insérer la vue active (dans la vue 3D)

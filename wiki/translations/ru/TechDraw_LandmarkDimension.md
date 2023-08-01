@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Вставить размер знака
    Name:TechDraw_LandmarkDimension
    MenuLocation:TechDraw → Размеры → Вставить размер знака

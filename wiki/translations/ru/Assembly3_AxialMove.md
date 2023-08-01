@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Assembly3 AxialMove
    Icon:Assembly_AxialMove.svg
    MenuLocation:Assembly3 → Axial move part

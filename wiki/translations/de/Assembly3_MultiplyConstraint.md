@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 MultiplyConstraint
    Name/de:Assembly3 BeziehungVervielfältigen
    Icon:Assembly_ConstraintMultiply.svg‎‎

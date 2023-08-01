@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch CompRebarStraight
    Name/de:Arch CompRebarStraight
    MenuLocation:Architektur → Bewehrungswerkzeuge

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Arch Roof
    Name/ro:Arch Roof
    MenuLocation:Arch → Roof

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 ConstraintLengthRatio
    Name/fr:Assembly3 Contrainte longueur par ratio
    Icon:Assembly_ConstraintLengthRatio.svg

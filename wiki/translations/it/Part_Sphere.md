@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Part Sphere
    Name/it:Sfera
    MenuLocation:Parte → Sfera

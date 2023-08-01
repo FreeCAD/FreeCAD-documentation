@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw Dimension Horizontal Extent
    Name/it:Estensione orizzontale
    MenuLocation:TechDraw → Estensione orizzontale

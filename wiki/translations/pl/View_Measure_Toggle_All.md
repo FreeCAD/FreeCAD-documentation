@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:View Measure Toggle All
    Name/pl:Przełącz widoczność wymiarów
    MenuLocation:Widok → Widoczność → Przełącz widoczność wymiarów

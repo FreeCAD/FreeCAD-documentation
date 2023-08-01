@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft AnnotationStyleEditor
    Name/es:Borrador EditorEstiloAnotación
    MenuLocation:Anotación → Estilos de anotación...

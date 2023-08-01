@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Clone
    Name/fr:Draft Cloner
    MenuLocation:Modification → Cloner

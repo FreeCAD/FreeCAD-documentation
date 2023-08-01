@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Std Group
    Name/tr:Grup Oluştur
    MenuLocation:Ağaç görünüm → Belge üzerine sağ tıkla

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch Floor
    Name/it:Piano
    MenuLocation:Arch → Piano

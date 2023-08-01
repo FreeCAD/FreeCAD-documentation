@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Sketcher Create3PointCircle
    Name/ro:Sketcher CreateCircle3Point
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)

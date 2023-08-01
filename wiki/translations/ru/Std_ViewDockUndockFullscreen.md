@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
 
    Name:Std ViewDockUndockFullscreen
    Name/ru:Std ViewDockUndockFullscreen

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Субтрактивный профиль
    Name:PartDesign_SubtractiveLoft
    MenuLocation:Part Design → Create a substractive feature → Субтрактивный профиль

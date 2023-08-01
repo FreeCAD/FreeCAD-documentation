@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft ToggleContinueMode
    Name/de:Draft FortsetzungsmodusUmschalten
    MenuLocation:Werkzeuge → In den Fortsetzungsmodus umschalten

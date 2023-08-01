@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part MakeSolid
    Name/pl:Część: Przekształć na bryłę
    MenuLocation:Część → Przekształć na bryłę

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Robot TrajectoryDressUp
    Name/it:Vesti una traiettoria
    MenuLocation:Robot → Vesti una traiettoria

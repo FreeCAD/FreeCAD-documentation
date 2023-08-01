@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part Section
    Name/ru:Разделить
    MenuLocation:Part → Разделить

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Множественное преобразование
    Name:PartDesign_MultiTransform
    MenuLocation:PartDesign → Apply a pattern → Множественное преобразование

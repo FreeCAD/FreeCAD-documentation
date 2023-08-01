@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:FEM ConstantVacuumPermittivity
    Name/pl:MES: Przenikalność elektryczna próżni
    MenuLocation:Model → Nadpisz stałe → Przenikalność elektryczna próżni

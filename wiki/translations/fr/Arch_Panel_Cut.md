@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Panel Cut
    Name/fr:Arch Découpe de panneau
    MenuLocation:Arch → Outils pour les panneaux → Découpe de panneau

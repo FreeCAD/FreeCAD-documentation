@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft AddToGroup
    Name/ru:Draft AddToGroup
    MenuLocation:Черчение → Утилиты → Добавить в группу

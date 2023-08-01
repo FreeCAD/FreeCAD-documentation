@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch ToggleSubs
 ‏‎   Name/it:Mostra/Nascondi sottocomponenti
    MenuLocation:Architettura → Utilità → Mostra/Nascondi sottocomponenti

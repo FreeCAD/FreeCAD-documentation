@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch ToggleIfcBrepFlag
    Name/de:Arch UmschaltenIfcBrepMarkierung
    Workbenches:[Arch](Arch_Workbench/de.md)

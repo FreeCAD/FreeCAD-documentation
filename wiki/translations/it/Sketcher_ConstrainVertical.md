@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Icon:Constraint Vertical.svg
    Name:Vertical constraint
    Name/it:Vincolo verticale

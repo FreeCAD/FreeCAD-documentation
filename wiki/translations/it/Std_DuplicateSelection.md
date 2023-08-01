@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_DuplicateSelection
    Name/it:Duplica la selezione
    MenuLocation:Modifica → Duplica la selezione

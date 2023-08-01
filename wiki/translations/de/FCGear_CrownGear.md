@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FCGear CrownGear
    Name/de:FCGear Kronenrad
    MenuLocation:Gear → Crown Gear

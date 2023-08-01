@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Импорт электронной таблицы
    Name:Spreadsheet_Import
    MenuLocation:Электронная таблица → Импорт электронной таблицы

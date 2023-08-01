@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher BSplineDegree
    Name/pl:Szkicownik: Stopień krzywej złożonej
    MenuLocation:Szkic → Narzędzia szkicownika krzywej złożonej → Pokaż / ukryj stopień krzywej złożonej

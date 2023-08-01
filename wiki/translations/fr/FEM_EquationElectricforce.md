@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM EquationElectricforce
    Name/fr:FEM Équation de force électrique
    MenuLocation:Résolution → Équations électromagnétiques → Équation de force électrique

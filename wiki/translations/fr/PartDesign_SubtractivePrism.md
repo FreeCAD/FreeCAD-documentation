@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign SubtractivePrism
    Name/fr:PartDesign Prisme soustractif
    MenuLocation:Part Design → Créer une primitive soustractive → Prisme soustractif

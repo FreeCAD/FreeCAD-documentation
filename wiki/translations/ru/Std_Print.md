@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std Print
    Name/ru:Std Print
    MenuLocation:Файл → Печать...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:WebTools BimServer
    Name/it:BimServer
 ‏‎‏‎   MenuLocation:Arch → Utilità → BIM server

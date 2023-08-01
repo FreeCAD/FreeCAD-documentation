@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name/de:Std ViewZoomIn
    MenuLocation:Ansicht → Zoom‏‎ → Vergrößern
    Workbenches:Alle

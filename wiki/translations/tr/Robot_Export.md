@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Robot Export
    Name/tr:Robot Dışa Aktar
    Workbenches:[Robot](Robot_Workbench/tr.md)

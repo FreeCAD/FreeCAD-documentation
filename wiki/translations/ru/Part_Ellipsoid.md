@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part Ellipsoid
    Name/ru:Эллипсоид
    MenuLocation:Деталь → [Создать примитивы...](Part_Primitives/ru.md) → Эллипсоид

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Fillet
    Name/fr:Draft Congé
    MenuLocation:Draft → Congé

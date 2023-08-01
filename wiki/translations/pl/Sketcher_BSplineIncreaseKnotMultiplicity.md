@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher BSplineIncreaseKnotMultiplicity
    Name/pl:Szkicownik: Zmniejsz krotność węzła krzywej złożonej
    MenuLocation:Szkic → Narzędzia szkicownika krzywej złożonej → Zmniejsz krotność węzła krzywej złożonej

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std ViewBottom
    Name/ru:Std ViewBottom
    MenuLocation:Виды → Стандартные виды → Снизу

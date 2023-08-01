@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh CurvatureInfo
    Name/fr:Mesh Infos de courbure
    MenuLocation:Maillages → Analyser → Informations sur la courbure

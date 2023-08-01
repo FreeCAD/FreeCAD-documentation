@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std Edit
    Name/de:Std Bearbeiten
    MenuLocation:Bearbeiten → Umschalten Bearbeitungsmodus

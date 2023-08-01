@@ -1,6 +1,6 @@
 # Plot Labels/es
 ---
-- GuiCommand:/es   Name:Plot Labels   MenuLocation:Plot → Labels‏‎   |Workbenches:[[Plot_Workbench/es   Plot]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Plot Labels   MenuLocation:Plot → Labels‏‎   |Workbenches:[[Plot_Workbench/es   Plot]]|Shortcut:   SeeAlso:---
 
 
 </div>

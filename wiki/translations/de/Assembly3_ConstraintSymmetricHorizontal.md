@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 ConstraintSymmetricHorizontal
    Name/de:Assembly3 HorizontaleSymmetrie
    Icon:Assembly_ConstraintGeneral.svg

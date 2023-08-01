@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/cs
+- GuiCommand:
    Name:Draft AddToGroup
    Name/cs:Kreslení Přidat do skupiny
    MenuLocation:Draft -> Display option -> Add to group

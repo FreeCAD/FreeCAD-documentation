@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft SelectGroup
    Name/tr:Grup içeriğini seç
    MenuLocation:Draft → Utilities → Select group

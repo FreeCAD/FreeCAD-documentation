@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher CreateArcOfParabola
    Name/es:Croquizador Arc of parabola
    MenuLocation:Croquis → Croquizador Geometrías → Create an arc of parabola

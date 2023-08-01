@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch MergeWalls
    Name/it:Unisci Pareti
    MenuLocation:Arch → Utilità → Unisci Pareti

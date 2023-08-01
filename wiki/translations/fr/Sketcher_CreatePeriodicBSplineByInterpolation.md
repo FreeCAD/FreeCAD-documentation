@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher CreatePeriodicBSplineByInterpolation
    Name/fr:Sketcher B-spline périodique par des nœuds
    MenuLocation:Esquisse → Géometries d'esquisse → Créer une B-spline périodique par des nœuds

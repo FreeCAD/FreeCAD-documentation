@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Rebar Straight
    Name/de:Arch Bewehrungsstab gerade
    MenuLocation:Arch → Rebar tools → Straight Rebar oder 3D/BIM → Reinforcement tools → Gerade Bewehrung

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher CreateBSpline
    Name/pl:Szkicownik: Utwórz krzywą złożoną
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz krzywą złożoną

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path Pocket Shape
    Name/fr:Path Poche
    MenuLocation:Path → Poche

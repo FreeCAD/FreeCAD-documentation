@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Slice
    Name/pl:Część: Rozbij na kształty złożenia
    MenuLocation:Część → Rozdziel → Rozbij na kształty złożenia

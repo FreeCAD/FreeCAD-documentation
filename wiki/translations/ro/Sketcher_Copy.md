@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Sketcher Copy
    Name/ro:Sketcher: Copiere
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)

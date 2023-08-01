@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ViewIvStereoInterleavedRows
    Name/de:Std AnsichtStereoVersetzteZeilen
    MenuLocation:Ansicht → Stereo → Horizontales Interlacing

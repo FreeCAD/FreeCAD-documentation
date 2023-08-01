@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Upgrade
    Name/it:Promuovi
    MenuLocation:Modifiche → Promuovi

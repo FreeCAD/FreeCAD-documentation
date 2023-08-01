@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Part Prism
    Name/es:Part Prisma
    MenuLocation:Pieza → [Crear primitivas](Part_Primitives/es.md) → Prisma

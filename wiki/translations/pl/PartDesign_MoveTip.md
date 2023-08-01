@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign MoveTip
    Name/pl:Projekt Części: Ustaw czubek
    MenuLocation:Menu kontekstowe → Ustaw czubek

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Ship Loading
    Name/de:Schiffsbelastung
    MenuLocation:Gewichte → Erstelle eine neue Ladebedingung

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher Clone
    Name/de:Sketcher Klonen
    MenuLocation:Sketch → Skizzen-Werkzeuge → Klonen

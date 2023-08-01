@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher CreateArcOfParabola
    Name/de:Sketcher ParabelbogenErstellen
    MenuLocation:Sketch → Skizzengeometrien → Parabelbogen erstellen

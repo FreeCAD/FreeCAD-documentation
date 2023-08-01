@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать дугу гиперболы
    Name:Sketcher_CreateArcOfHyperbola
    MenuLocation:Sketch → Геометрия эскиза → Создать дугу гиперболы

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать опорный отрезок
    Name:PartDesign_Line
    MenuLocation:Part Design → Create a datum → Создать опорный отрезок

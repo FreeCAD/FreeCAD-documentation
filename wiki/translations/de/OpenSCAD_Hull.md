@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:OpenSCAD Hull
    Name/de:OpenSCAD Hull
    MenuLocation:OpenSCAD → Perform Hull‏‎

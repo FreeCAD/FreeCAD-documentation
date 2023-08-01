@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std Redo
    Name/pl:Std: Przywróć
    MenuLocation:Edycja → Przywróć

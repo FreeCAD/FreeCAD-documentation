@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std RecallWorkingView
    Name/it:Richiama vista di lavoro
    MenuLocation:Visualizza → Viste standard → Richiama vista di lavoro

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Arch SplitMesh
    Name/ro:Arch SplitMesh
    MenuLocation:Arch → Utilities → Split Mesh

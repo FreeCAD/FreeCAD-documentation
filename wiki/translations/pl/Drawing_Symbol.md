@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Drawing Symbol
    Name/pl:Drawing: Symbol
    Workbenches:[Kreślenie](Drawing_Workbench/pl.md)

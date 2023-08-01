@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch SetMaterial
    Name/de:Arch MaterialZuordnen
    MenuLocation:Arch → Materialwerkzeuge → Material

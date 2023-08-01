@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign Mirrored
    Name/de:PartDesign Spiegeln
    MenuLocation:Part Design → Muster anwenden → Spiegeln

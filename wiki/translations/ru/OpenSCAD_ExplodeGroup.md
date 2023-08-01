@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:OpenSCAD ExplodeGroup
    Name/ru:OpenSCAD ExplodeGroup
    MenuLocation:OpenSCAD → Расчленить Группу

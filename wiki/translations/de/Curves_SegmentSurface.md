@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Curves SegmentSurface
    Name/de:Curves FlächeAufteilen
    MenuLocation:Surfaces → Segment surface

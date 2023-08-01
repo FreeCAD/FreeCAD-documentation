@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM Examples
    Name/fr:FEM Exemples
    MenuLocation:Utilitaires → Ouvrir les exemples FEM

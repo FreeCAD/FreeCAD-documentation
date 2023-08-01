@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Draft Facebinder
    Name/ro:Draft Facebinder
    MenuLocation:Draft → Facebinder

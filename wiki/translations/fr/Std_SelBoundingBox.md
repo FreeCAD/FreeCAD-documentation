@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std SelBoundingBox
    Name/fr:Std Boîte englobante
    MenuLocation:Affichage → Boîte englobante

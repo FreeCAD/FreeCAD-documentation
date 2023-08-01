@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft Heal
    Name/es:Draft Heal
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)

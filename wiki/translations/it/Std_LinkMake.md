@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std LinkMake
    Name/it:Crea link
    MenuLocation:None

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM ConstraintElectrostaticPotential
    Name/de:FEM RandbedingungElektrostatischesPotential
    MenuLocation: Model → Electromagnetic Constraints → Constraint Electrostatic Potential

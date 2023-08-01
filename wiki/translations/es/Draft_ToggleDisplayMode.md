@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft_ToggleDisplayMode
    Name/es:Draft_ToggleDisplayMode
    MenuLocation:Croquis → Opciones de visualización → Alternar modo de visualización

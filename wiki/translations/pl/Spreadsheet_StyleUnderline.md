@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Spreadsheet StyleUnderline
    Name/pl:Arkusz Kalkulacyjny: Podkreślenie
    MenuLocation:Arkusz kalkulacyjny → Style → Podkreślenie

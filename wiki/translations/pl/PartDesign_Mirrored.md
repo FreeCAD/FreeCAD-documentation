@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign Mirrored
    Name/pl:Projekt Części: Odbicie lustrzane
    MenuLocation:Projekt Części → Zastosuj przekształcenie → Odbicie lustrzane

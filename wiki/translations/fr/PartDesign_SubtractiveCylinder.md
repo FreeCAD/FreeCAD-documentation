@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign SubtractiveCylinder
    Name/fr:PartDesign Cylindre soustractif
    MenuLocation:Part Design → Créer une primitive soustractive → Cylindre soustractif

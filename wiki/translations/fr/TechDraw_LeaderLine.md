@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw LeaderLine
    Name/fr:TechDraw Ligne de référence
    MenuLocation:TechDraw → Ajouter des lignes → Insérer une ligne de référence à la vue

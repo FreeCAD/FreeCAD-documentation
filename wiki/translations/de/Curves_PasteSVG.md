@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Curves PasteSVG
    Name/de:Curves SVGEinfügen
    MenuLocation:Misc. → Paste SVG

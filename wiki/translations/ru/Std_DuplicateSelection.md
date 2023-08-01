@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Дублировать выбранное
    Name:Std_DuplicateSelection
    MenuLocation:Правка → Дублировать выбранное

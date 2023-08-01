@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Ellipse
    Name/tr:Elips
    MenuLocation:Taslak → Elips

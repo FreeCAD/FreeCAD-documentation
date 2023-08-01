@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/sv
+- GuiCommand:
    Name:Sketcher ConstrainDistanceY
    Name/sv:Sketcher ConstrainDistanceY
    Workbenches:[Sketcher](Sketcher_Workbench/sv.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:View Measure Clear All
    Name/ru:View Measure Clear All
    MenuLocation:Вид → Видимость → Удалить замер

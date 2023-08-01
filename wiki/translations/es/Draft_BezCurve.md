@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft BezCurve
    Name/es:Borrador BezCurva
    MenuLocation:Borrador → Herramientas Bézier → Curva Bézier

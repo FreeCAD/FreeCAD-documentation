@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch Add
    Name/es:Arch Add
    Workbenches:[Entorno de Arquitectura](Arch_Workbench/es.md)

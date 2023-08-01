@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher_ConstrainAngle
    Name/it:Angolo
    Workbenches:[Schizzo](Sketcher_Workbench/it.md)

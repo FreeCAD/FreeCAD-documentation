@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 MultiplyConstraint
    Name/fr:Assembly3 Multiplier les contraintes
    Icon:Assembly_ConstraintMultiply.svg‎‎

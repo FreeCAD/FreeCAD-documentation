@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher BSplineKnotMultiplicity
    Name/it:Mostra/Nascondi molteplicità di nodo
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)

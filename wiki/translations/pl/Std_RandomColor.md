@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std RandomColor
    Name/pl:Std: Kolor losowy
    MenuLocation:Widok → Nadaj kolor losowo

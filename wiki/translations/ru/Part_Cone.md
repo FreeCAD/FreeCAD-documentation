@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part Cone
    Name/ru:Конус
    MenuLocation:Деталь → Примитивы → Конус

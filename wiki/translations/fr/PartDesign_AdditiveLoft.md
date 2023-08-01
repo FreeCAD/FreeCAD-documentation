@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign AdditiveLoft
    Name/fr:PartDesign Lissage additif
    MenuLocation:Part Design → Créer une fonction additive → Lissage additif

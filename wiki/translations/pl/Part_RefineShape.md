@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part RefineShape
    Name/pl:Część: Udoskonal kształt
    MenuLocation:Część → Utwórz kopię → Udoskonal kształt

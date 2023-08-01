@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign Pocket
    Name/pl:Projekt Części: Kiezeń
    MenuLocation:Projekt części → Utwórz cechę przez odjęcie → Kieszeń

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Edit
    Name/de:Draft Bearbeiten
    MenuLocation:Modification → Bearbeiten

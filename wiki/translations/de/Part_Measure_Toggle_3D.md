@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Measure Toggle 3D
    Name/de:Part Messung 3DUmschalten
    MenuLocation:Messen → 3D umschalten

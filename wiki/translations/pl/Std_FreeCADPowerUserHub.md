@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std FreeCADPowerUserHub
    Name/pl:Std: Dokumentacja skryptów środowiska Python
    MenuLocation:Pomoc → Dokumentacja skryptów środowiska Python

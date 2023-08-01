@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign AdditiveBox
    Name/de:PartDesign QuaderHinzufügen
    MenuLocation:Part Design → Grundkörper hinzufügen → Quader

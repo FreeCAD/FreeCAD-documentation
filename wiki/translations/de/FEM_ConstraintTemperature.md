@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM ConstraintTemperature
    Name/de:FEM RandbedingungTemperatur
    MenuLocation:Modell → Thermische Randbedingungen → Randbedingung Temperatur 

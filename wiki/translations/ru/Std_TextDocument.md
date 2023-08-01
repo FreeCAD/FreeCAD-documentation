@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std TextDocument
    Name/ru:Std TextDocument
    MenuLocation:Инструменты → Add text document

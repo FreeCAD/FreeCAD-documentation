@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Вставить примечание в выноску
    Name:TechDraw_Balloon
    MenuLocation:TechDraw → Заметки → Вставить примечание в выноску

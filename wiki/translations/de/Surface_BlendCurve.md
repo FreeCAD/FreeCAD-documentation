@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Surface BlendCurve
    Name/de:Surface Übergangskurve
    MenuLocation:Surface → Blend Curve

@@ -832,8 +832,8 @@ class MediaWiki:
                 if guicommandblk:
                     guicommandblk = guicommandblk[0]
                     guicommandblk = re.sub("\|(.*?)\=(.*?)",r"   \1:\2",guicommandblk) # fixing GuiCommand contents
-                    if guicommandblk.startswith("/"):
-                        guicommandblck = guicommandblk[3:]
+                    if guicommandblk.strip().startswith("/"):  # fix malformation of translated GuiCommands
+                        guicommandblk = guicommandblk[3:]
                     result = re.sub("```{\=mediawiki}.*?{{GuiCommand(.*?)}}\n```",r"---\n- GuiCommand:"+guicommandblk+"---\n",result,flags=flags)
                     result = "---"+"---".join(result.split("---")[1:]) # removing empty line before yaml block
 

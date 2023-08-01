@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Rocket Fin
    Name/fr:Rocket Aileron
    MenuLocation:Rocket → Fin

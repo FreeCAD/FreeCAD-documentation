@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/cs
+- GuiCommand:
    Name:Constraint Horizontal
    Name/cs:Constraint Horizontal
    Workbenches:[Sketcher](Sketcher_Workbench/cs.md), [PartDesign](PartDesign_Workbench/cs.md)

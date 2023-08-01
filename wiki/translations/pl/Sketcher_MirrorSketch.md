@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher MirrorSketch
    Name/pl:Szkicownik: Odbicie lustrzane szkicu
    MenuLocation:Szkic → Odbicie lustrzane szkicu

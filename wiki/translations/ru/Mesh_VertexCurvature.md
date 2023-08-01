@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:График кривизны
    Name:Mesh_VertexCurvature
    MenuLocation:Полигональные Сетки → График кривизны

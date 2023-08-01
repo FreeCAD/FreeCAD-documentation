@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать окружность
    Name:Sketcher_CreateCircle
    MenuLocation:Sketch → Геометрия эскиза → Создать окружность

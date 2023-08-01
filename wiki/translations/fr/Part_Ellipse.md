@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Ellipse
    Name/fr:Part Ellipse
    MenuLocation:Part → [Créer des primitives...](Part_Primitives/fr.md) → Ellipse

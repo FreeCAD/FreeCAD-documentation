@@ -1,6 +1,6 @@
 # Part Ellipse/it
 ---
-- GuiCommand:/it   Name:Part_Ellipse   Name/it:Ellisse   MenuLocation:Parte → [Workbenches:[[Part_Workbench/it   Parte](Part_CreatePrimitives/it___Crea_primitive]]_→_Ellisse.md), [OpenSCAD](OpenSCAD_Workbench/it.md)|SeeAlso:[Crea Primitive](Part_CreatePrimitives/it.md)---
+- GuiCommand:   Name:Part_Ellipse   Name/it:Ellisse   MenuLocation:Parte → [Workbenches:[[Part_Workbench/it   Parte](Part_CreatePrimitives/it___Crea_primitive]]_→_Ellisse.md), [OpenSCAD](OpenSCAD_Workbench/it.md)|SeeAlso:[Crea Primitive](Part_CreatePrimitives/it.md)---
 
 
 </div>

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher BSplinePolygon
    Name/it:Poligono di controllo della B-spline
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)

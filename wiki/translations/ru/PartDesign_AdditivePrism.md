@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Аддитивная призма
    Name:PartDesign_AdditivePrism
    MenuLocation:Part Design → Создать аддитивный примитив → Аддитивная Призма

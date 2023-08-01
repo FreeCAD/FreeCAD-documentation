@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part Common
    Name/ru:Пересечение
    MenuLocation:Деталь → Булевы операции → Пересечение

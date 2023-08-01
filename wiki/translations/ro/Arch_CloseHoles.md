@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Arch CloseHoles
    Name/ro:Arch CloseHoles
    MenuLocation:Arch → Utilities → Close Holes

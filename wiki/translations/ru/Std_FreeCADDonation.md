@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Поддержать
    Name:Std_FreeCADDonation
    MenuLocation:Справка → Поддержать

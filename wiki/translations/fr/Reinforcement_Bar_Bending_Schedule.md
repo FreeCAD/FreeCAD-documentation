@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Reinforcement Bar Bending Schedule
    Name/fr:Reinforcement Tableau des armatures
    MenuLocation:Reinforcement → Bar Bending Schedule

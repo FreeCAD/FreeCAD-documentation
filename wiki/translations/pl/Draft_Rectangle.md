@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft Rectangle
    Name/pl:Draft: Prostokąt
    MenuLocation:Drafting → Prostokąt

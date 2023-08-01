@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Spiral
    Name/de:Part Spirale
    MenuLocation:Formteil → [Grundkörper erstellen...](Part_Primitives/de.md) → Spirale

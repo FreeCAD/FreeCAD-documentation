@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch Survey
    Name/it:Ispeziona
    MenuLocation:Arch → Ispeziona

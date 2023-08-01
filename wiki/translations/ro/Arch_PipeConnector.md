@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Arch PipeConnector
    MenuLocation:Arch → Pipe Tools → Pipe Connector
    Workbenches:[Arch](Arch_Workbench/ro.md)

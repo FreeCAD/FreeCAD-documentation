@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Common
    Name/de:Part Schnitt
    MenuLocation:Formteil → Boolesche Operation → Schnitt

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw ExtensionRemovePrefixChar
    Name/de:TechDraw ErgänzungPräfixsymbolEntfernen
    MenuLocation:TechDraw → Ergänzungen: Maße → Präfixsymbol entfernen

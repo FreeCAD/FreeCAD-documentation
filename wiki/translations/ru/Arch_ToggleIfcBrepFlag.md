@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Arch ToggleIfcBrepFlag
    Name/ru:Arch ToggleIfcBrepFlag
    MenuLocation:Архитектура → Утилиты → Toggle Ifc Brep flag

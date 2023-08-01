@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Sketcher MirrorSketch
    Name/ru:Отразить эскиз
    MenuLocation:Sketch → Отразить эскиз

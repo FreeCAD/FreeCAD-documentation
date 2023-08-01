@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM MeshGroup
    Name/ru:FEM MeshGroup
    MenuLocation: Mesh → FEM Mesh group

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/cs
+- GuiCommand:
    Name:Arch IfcExplorer
    Name/cs:Architektura IfcProhlážeč
    MenuLocation:Arch → Utilities → Ifc Explorer

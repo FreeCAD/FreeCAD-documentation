@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать линию
    Name:Sketcher_CreateLine
    MenuLocation:Sketch → Геометрия эскиза → Создать линию

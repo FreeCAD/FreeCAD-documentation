@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM ClippingPlaneAdd
    Name/de:FEM SchnittebeneHinzufügen
    MenuLocation:Dienstprogramme → Schnittebene auf Oberfläche

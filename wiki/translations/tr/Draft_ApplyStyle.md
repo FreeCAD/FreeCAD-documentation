@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Apply
    Name/tr:Stili uygula
    MenuLocation:Taslak→ Araçlar → Stili uygula

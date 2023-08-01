@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch AxisSystem
    Name/de:Arch AchsenSystem
    Icon:Arch Axis System.svg

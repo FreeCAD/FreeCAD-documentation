@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher CreateRectangle Center
    Name/de:Sketcher ZentriertesRechteckErstellen
    MenuLocation:Sketch → Skizzengeometrien → Zentriertes Rechteck erstellen

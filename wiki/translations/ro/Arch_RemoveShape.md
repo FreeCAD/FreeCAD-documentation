@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Arch RemoveShape   Name/ro:Arch RemoveShape
    Workbenches:[Arch](Arch_Workbench/ro.md)
    MenuLocation:Arch → Utilities → Remove Shape

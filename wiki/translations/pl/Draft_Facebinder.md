@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft Facebinder
    Name/pl:Rysunek Roboczy: Łącznik kształtów
    MenuLocation:Kreślenie → Łącznik kształtu

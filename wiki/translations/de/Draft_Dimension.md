@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Dimension
    Name/de:Draft Maß
    MenuLocation:Anmerkung → Abmessung

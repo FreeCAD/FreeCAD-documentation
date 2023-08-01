@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Path_Job
    Name/it:Lavorazione
    Workbenches:[Path](Path_Workbench/it.md)

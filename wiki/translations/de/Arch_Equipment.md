@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Equipment
    Name/de:Arch Ausstattung
    MenuLocation:Arch → Ausstattung

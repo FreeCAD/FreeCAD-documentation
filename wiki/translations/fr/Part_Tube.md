@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Tube
    Name/fr:Part Tube
    MenuLocation:Part → Primitives → Tube

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 AxialMove
    Name/fr:Assembly3 Déplacement axial
    Icon:Assembly_AxialMove.svg

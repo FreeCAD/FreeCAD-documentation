@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch CutLine
    Name/de:Arch SchneideLinie
    MenuLocation:Arch → Schneiden mit einer Linie

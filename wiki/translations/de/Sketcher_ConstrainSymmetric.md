@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher ConstrainSymmetric
    Name/de:Sketcher SymmetrieFestlegen
    MenuLocation:Sketch → Skizzen-Beschränkungen → Symmetrie festlegen

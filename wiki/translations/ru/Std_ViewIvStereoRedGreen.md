@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Стерео красный/голубой
    Name:Std_ViewIvStereoRedGreen
    MenuLocation:Вид → Стерео → Стерео красный/голубой

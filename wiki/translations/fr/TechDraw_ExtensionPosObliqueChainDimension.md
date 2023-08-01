@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExtensionPosObliqueChainDimension
    Name/fr:TechDraw Aligner obliquement
    MenuLocation:TechDraw → Extensions : attributs/modifications → Aligner obliquement

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign_Pocket
    Name/fr:PartDesign Cavité
    MenuLocation:Part Design → Créer une fonction soustractive → Cavité

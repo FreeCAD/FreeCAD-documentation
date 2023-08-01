@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Arch IfcExplorer
    Name/ro:Arch IfcExplorer
    MenuLocation:Arch → Utilities → Ifc Explorer

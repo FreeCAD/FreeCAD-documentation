@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Mesh BoundingBox‏‎
    Name/ru:Mesh BoundingBox‏‎
    MenuLocation:Сетки → Анализ → Информация о структуре...

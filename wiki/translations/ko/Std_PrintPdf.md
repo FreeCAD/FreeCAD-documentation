@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std PrintPdf
    Name/ko:표준 PDF로 내보내기
    MenuLocation:파일 → PDF로 내보내기...

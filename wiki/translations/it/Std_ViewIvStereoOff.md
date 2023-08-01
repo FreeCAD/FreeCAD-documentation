@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std ViewIvStereoOff
    Name/it:Stereo off
    MenuLocation:Visualizza → Stereo → Stereo off

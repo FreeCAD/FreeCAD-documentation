@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std BoxElementSelection
    Name/ko:표준 면 선택 상자
    MenuLocation:편집 → 면 선택 상자

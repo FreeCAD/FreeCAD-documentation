@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Pipe
    Name/fr:Arch Conduite
    MenuLocation:Arch → Outils pour la tuyauterie → Conduite

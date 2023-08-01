@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft ApplyStyle
    Name/it:Applica lo stile
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)

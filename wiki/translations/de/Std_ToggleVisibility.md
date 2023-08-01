@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ToggleVisibility
    Name/de:Std SichtbarkeitUmschalten
    MenuLocation:Ansicht → Ein/Ausblenden

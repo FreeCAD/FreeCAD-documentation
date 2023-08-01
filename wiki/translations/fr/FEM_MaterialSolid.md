@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM MaterialSolid
    Name/fr:FEM Matériau pour solide
    MenuLocation:Modèle → Matériaux → Matériau pour solide

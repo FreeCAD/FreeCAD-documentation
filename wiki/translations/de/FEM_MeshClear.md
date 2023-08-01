@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM MeshClear
    Name/de:FEM NetzLöschen
    MenuLocation:Kontextmenü des Mesh-Objekts oder der Baumansicht → FEM-Netz löschen

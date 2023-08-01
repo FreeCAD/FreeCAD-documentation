@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh FillupHoles
    Name/fr:Mesh Remplir les trous
    MenuLocation:Maillages → Remplir les trous...

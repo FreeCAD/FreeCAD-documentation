@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Layer
    Name/de:Draft Layer
    MenuLocation:Dienstprogramme → Ebene

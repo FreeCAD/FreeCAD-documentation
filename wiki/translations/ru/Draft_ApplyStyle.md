@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Apply
    Name/ru:Применить текущий стиль
    MenuLocation:Черчение -> Утилиты -> Применить текущий стиль

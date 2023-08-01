@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Offset
    Name/tr:Ofsetle
    MenuLocation:Taslak → Ofsetle

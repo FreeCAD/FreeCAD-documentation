@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign_Mirrored
    Name/fr:PartDesign Symétrie
    MenuLocation:Part Design → Appliquer une transformation → Symétrie

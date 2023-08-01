@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher ConstrainBlock
    Name/es:Croquizador RestringirBloque
    MenuLocation:Croquis → Restricciones de croquis → Restringir Bloque

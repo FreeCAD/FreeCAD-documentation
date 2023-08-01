@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std AxisCross
    Name/pl:Std: Symbol osi
    MenuLocation:Widok → Przełącz krzyż osi

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch CurtainWall
    Name/it:Facciata continua
    MenuLocation:Arch → Facciata continua

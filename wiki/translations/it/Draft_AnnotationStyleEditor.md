@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft AnnotationStyleEditor
    Name/it:Stile delle annotazioni
    MenuLocation:Annotazioni → Stile delle annotazioni...

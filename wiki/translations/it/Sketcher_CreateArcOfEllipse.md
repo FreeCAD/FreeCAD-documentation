@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher CreateArcOfEllipse
    Name/it:Arco di ellisse
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)

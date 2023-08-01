@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Draft Circle
    Name/ro:Cerc
    MenuLocation:Draft → Circle

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Rocket FinCan
    Name/fr:Rocket Échappement avec ailerons
    MenuLocation:Rocket → Échappement avec ailerons

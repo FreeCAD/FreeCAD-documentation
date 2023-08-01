@@ -1,6 +1,6 @@
 # PartDesign SubtractiveSphere/it
 ---
-- GuiCommand:/it   Name:PartDesign SubtractiveSphere   Name/it:Sfera sottrattiva   Workbenches:[MenuLocation:Part Design → Crea una primitiva sottrattiva → Sfera   Version:0.17   SeeAlso:[[PartDesign CompPrimitiveSubtractive/it|Primitive sottrattive](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand:   Name:PartDesign SubtractiveSphere   Name/it:Sfera sottrattiva   Workbenches:[MenuLocation:Part Design → Crea una primitiva sottrattiva → Sfera   Version:0.17   SeeAlso:[[PartDesign CompPrimitiveSubtractive/it|Primitive sottrattive](PartDesign_Workbench/it___PartDesign]].md)---
 
 
 </div>

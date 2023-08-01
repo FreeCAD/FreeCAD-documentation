@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Обозначить наружную резьбу в разрезе стержня
    Name:TechDraw_ExtensionThreadBoltSide
    MenuLocation:TechDraw → Extensions: centerlines and threading → Cosmetic thread bolt side view

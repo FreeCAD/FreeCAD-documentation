@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign SubtractiveBox
    Name/pl:Projekt Części: Subtraktywny prostopadłościan
    MenuLocation:Projekt Części → Utwórz cechę przez odjęcie → Subtraktywny prostopadłościan

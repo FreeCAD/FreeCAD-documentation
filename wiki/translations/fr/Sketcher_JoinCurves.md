@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher JoinCurves
    Name/fr:Sketcher Joindre des courbes
    MenuLocation:Esquisse → Outils d'esquisse des B-splines → Joindre des courbes

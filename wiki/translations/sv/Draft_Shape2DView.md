@@ -1,6 +1,6 @@
 # Draft Shape2DView/sv
 ---
-- GuiCommand:/sv   Name:Draft Shape2DView   Name/sv:Draft Shape2DView   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> Shape 2D View---
+- GuiCommand:   Name:Draft Shape2DView   Name/sv:Draft Shape2DView   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> Shape 2D View---
 
 
 </div>

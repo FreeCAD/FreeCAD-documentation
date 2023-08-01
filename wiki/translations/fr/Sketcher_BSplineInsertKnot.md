@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher BSplineInsertKnot
    Name/fr:Sketcher Insérer un nœud
    MenuLocation:Esquisse → Outils d'esquisse des B-splines → Insérer un nœud

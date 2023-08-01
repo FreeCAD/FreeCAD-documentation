@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ShowSelection
    Name/de:Std AuswahlEinblenden
    MenuLocation:Ansicht → Sichtbarkeit → Auswahl einblenden

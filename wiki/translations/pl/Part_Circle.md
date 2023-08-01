@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Circle
    Name/pl:Part Okrąg
    MenuLocation:Część → Utwórz geometrie pierwotne ... → Okrąg

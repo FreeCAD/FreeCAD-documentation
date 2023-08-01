@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Сзади
    Name:Std_ViewRear
    MenuLocation:Вид → Стандартные виды‏‎ → Сзади

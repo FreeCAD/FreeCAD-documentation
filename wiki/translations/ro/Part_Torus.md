@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Part Torus
    Name/ro:Part Torus
    MenuLocation:Part → Torus

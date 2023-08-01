@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Drawing View
    Name/ru:Drawing View
    Workbenches:[Drawing](Drawing_Workbench/ru.md), Complete

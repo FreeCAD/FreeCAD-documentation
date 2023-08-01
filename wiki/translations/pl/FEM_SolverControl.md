@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:FEM SolverControl
    Name/pl:MES: Kontrola Solwera
    MenuLocation:Solve → Solver job control

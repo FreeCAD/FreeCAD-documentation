@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_Redo
    Name/it:Ripristina
    MenuLocation:Modifica → Ripristina

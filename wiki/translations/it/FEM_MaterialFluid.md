@@ -1,6 +1,6 @@
 # FEM MaterialFluid/it
 ---
-- GuiCommand:/it   Name:FEM_MaterialFluid   Name/it:FEM Materiale per fluido   MenuLocation: Modello → Materiali → Materiale per fluido   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|FEM tutorial](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:   Name:FEM_MaterialFluid   Name/it:FEM Materiale per fluido   MenuLocation: Modello → Materiali → Materiale per fluido   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|FEM tutorial](FEM_Workbench/it___FEM]].md)---
 
 
 </div>

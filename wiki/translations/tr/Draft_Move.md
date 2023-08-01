@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Move
    Name/tr:Taşı
    MenuLocation:Taslak → Taşı

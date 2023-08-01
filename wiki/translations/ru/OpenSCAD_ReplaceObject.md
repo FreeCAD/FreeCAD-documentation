@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:OpenSCAD ReplaceObject‏‎ 
    Name/ru:OpenSCAD ReplaceObject‏‎ 
    MenuLocation:OpenSCAD → Заменить объект

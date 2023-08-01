@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Удалить вспомогательный объект
    Name:TechDraw_CosmeticEraser
    MenuLocation:TechDraw → Удалить вспомогательный объект

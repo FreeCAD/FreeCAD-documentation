@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher CreateSlot
    Name/de:Sketcher NutErstellen
    MenuLocation:Sketch → Skizzengeometrie → Nut erstellen

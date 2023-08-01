@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part Boolean
    Name/ru:Part Boolean
    MenuLocation:Деталь → Булевы операции

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw 2LineCenterLine
    Name/it:Linea centrale a 2 linee
    MenuLocation:TechDraw → Aggiungi linee → Linea centrale a 2 linee

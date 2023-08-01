@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std TreeMultiDocument
    Name/fr:Std Arborescence Plusieurs documents
    MenuLocation:Affichage → Vue en arborescence → Document multiple

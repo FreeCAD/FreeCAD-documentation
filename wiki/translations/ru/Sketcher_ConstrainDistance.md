@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Ограничить расстояние
    Name:Sketcher_ConstrainDistance
    MenuLocation:Sketch → Ограничения эскиза → Ограничить расстояние

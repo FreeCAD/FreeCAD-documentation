@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pt-br
+- GuiCommand:-br
    Name/pt-br:Sketcher ConstrainCoincident
    Icon:Constraint_PointOnPoint.svg
    Workbenches:[Sketcher](Sketcher_Workbench/pt-br.md)

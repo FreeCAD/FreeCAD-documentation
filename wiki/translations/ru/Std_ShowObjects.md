@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std ShowObjects
    Name/ru:Std ShowObjects
    MenuLocation:Вид → Видимость → Показать все объекты

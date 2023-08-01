@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Defeaturing
    Name/fr:Part Supprimer la fonctionnalité
    MenuLocation:Part → Supprimer la fonctionnalité

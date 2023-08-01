@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_Paste
    Name/it:Incolla
    MenuLocation:Modifica → Incolla

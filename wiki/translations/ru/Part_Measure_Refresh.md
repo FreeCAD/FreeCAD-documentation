@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part Measure Refresh
    Name/ru:Part Measure Refresh
    MenuLocation:Measure → Refresh

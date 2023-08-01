@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std Undo
    Name/pl:Std: Cofnij
    MenuLocation:Edycja → Cofnij

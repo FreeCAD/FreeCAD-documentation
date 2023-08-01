@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ja
+- GuiCommand:
    Name:Sketcher CreateCircle
    Name/ja:Sketcher CreateCircle
    Workbenches:[スケッチャー](Sketcher_Workbench/ja.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM MeshNetgenFromShape
    Name/fr:FEM Maillage FEM à partir d'une forme de Netgen
    MenuLocation:Maillage → Maillage FEM à partir d'une forme de Netgen

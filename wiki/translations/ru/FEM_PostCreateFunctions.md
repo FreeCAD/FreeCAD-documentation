@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM CompPostCreateFunctions
    Name/ru:Fem CompPostCreateFunctions
    MenuLocation: Results → Filter Functions

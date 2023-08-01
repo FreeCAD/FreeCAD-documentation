@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Парабола
    Name:Sketcher_CreateArcOfParabola
    MenuLocation:Sketch → Геометрия эскиза → Парабола

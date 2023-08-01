@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:SheetMetal Forming
    Name/fr:SheetMetal Outil d'emboutissage
    MenuLocation:SheetMetal → Make Forming in Wall

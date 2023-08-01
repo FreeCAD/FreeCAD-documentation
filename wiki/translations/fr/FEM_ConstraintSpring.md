@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ConstraintSpring
    Name/fr:FEM Contrainte de ressort
    MenuLocation:Modèle → Contraintes mécaniques→ Contrainte de ressort

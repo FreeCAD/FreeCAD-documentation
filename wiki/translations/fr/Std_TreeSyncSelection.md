@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std TreeSyncSelection
    Name/fr:Std Arborescence Synchroniser la sélection
    MenuLocation:Affichage → Vue en arborescence → Synchroniser la sélection

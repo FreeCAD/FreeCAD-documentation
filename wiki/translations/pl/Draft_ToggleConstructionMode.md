@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft ToggleConstructionMode
    Name/pl:Rysunek Roboczy: Przełącz tryb konstrukcyjny
    MenuLocation:Kreślenie → Przybory → Przełącz tryb konstrukcyjny

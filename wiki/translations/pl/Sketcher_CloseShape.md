@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher CloseShape
    Name/pl:Szkicownik: Zamknij kształt
    MenuLocation:Szkic → Narzędzia szkicownika → Zamknij kształt

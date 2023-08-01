@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign Sprocket
    Name/fr:PartDesign Pignon
    MenuLocation:Part Design → Pignon...

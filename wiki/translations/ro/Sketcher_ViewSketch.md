@@ -1,6 +1,6 @@
 # Sketcher ViewSketch/ro
 ---
-- GuiCommand:/ro   Name:Sketcher ViewSketch   Name/ro:Sketcher ViewSketch   Workbenches:[PartDesign](Sketcher_Workbench___Sketcher]],_[[PartDesign_Workbench.md)|MenuLocation:Sketch → View sketch---
+- GuiCommand:   Name:Sketcher ViewSketch   Name/ro:Sketcher ViewSketch   Workbenches:[PartDesign](Sketcher_Workbench___Sketcher]],_[[PartDesign_Workbench.md)|MenuLocation:Sketch → View sketch---
 
 
 </div>

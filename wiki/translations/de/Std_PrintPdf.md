@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std PrintPdf
    Name/de:Std DruckZuPDF
    MenuLocation:Datei → PDF exportieren...

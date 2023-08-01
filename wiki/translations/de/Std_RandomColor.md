@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std RandomColor
    Name/de:Std ZufälligeFarbe
    MenuLocation:Ansicht → Zufällige Farbe

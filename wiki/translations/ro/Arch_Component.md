@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name/ro:Arch Component
    Icon:Arch Component.svg‏‎
 ‏   MenuLocation:Arch → Utilities → Component‎‏‎

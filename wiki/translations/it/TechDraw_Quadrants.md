@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw Quadrants
    Name/it:Quadrante
    MenuLocation:TechDraw → Aggiungi vertici → Quadrante

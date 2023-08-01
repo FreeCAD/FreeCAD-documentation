@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign CompPrimitiveSubtractive
    Name/fr:PartDesign Primitives soustractives
    MenuLocation:Part Design → Créer une primitive soustractive

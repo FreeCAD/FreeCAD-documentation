@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher Create a B-Spline
    Name/es:Croquizador Crear una B-Spline
    Icon:Sketcher_CompCreateBSpline.png

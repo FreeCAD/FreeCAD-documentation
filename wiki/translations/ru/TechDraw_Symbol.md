@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Вставить знак
    Name:TechDraw_Symbol
    MenuLocation:TechDraw → Вставить SVG знак

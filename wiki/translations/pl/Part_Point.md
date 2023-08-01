@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Point
    Name/pl:Część: Punkt
    MenuLocation:Część → Utwórz geometrie pierwotne ... → Punkt

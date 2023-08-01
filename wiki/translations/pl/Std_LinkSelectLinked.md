@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std LinkSelectLinked
    Name/pl:Std: Przejdź do połączonego obiektu
    MenuLocation:brak

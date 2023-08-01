@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch CompRebarStraight
    Name/it:Armature
    MenuLocation:Arch → Armature

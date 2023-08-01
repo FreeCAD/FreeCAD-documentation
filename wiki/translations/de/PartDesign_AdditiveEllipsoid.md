@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign AdditiveEllipsoid
    Name/de:PartDesign EllipsoidHinzufügen
    MenuLocation:Part Design → Grundkörper hinzufügen→ Ellipsoid hinzufügen

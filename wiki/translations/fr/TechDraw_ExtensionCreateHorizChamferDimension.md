@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExtensionCreateHorizChamferDimension
    Name/fr:TechDraw Cote horizontale chanfrein
    MenuLocation:TechDraw → Extensions : cotes → Cote horizontale et d'angle de chanfrein

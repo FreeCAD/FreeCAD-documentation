@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path DressupPathBoundary
    Name/fr:Path Limitation d'une zone
    MenuLocation:Path → Finition du parcours → Limitation de la zone

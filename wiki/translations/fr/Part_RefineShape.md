@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part RefineShape
    Name/fr:Part Affiner la forme
    MenuLocation:Part → Créer une copie → Affiner la forme

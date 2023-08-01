@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Downgrade
    Name/de:Entwurf Herabstufen
    MenuLocation:Änderung → Herabstufen

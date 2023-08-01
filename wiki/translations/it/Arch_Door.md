@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch Door
    Name/it:Arch Porta
    MenuLocation:Arch → Finestra

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Покинуть эскиз
    Name:Sketcher_LeaveSketch
    MenuLocation:Sketch → Покинуть эскиз

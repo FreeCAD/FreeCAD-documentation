@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Surface CurveOnMesh
    Name/fr:Surface Courbe sur maillage
    MenuLocation:Surface → Curve on mesh...

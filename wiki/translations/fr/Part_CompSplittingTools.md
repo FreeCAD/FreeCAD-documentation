@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part CompSplittingTools
    Name/fr:Part Scinder
    MenuLocation:Part → Scinder

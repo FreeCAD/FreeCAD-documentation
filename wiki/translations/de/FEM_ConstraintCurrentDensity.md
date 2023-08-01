@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM ConstraintCurrentDensity
    Name/de:FEM RandbedingungStromdichte
    MenuLocation: Model → Electromagnetic Constraints → Constraint current density

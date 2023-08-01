@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Pipe
    Name/de:Arch Rohr
    MenuLocation:Arch → Pipe tools → Rohr

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path Sanity
    Name/fr:Path Rechercher des erreurs
    MenuLocation:Path → Vérifier les erreurs courantes dans la tâche du parcours

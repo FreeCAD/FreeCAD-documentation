@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/cs
+- GuiCommand:
    Name:Arch Remove
    Name/cs:Architektura Odebrat
    MenuLocation:Arch → Remove

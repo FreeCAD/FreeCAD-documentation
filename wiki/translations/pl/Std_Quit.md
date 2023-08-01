@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std Quit
    Name/pl:Std: Zakończ
    MenuLocation:Plik → Zakończ

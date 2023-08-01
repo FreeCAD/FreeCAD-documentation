@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std HideSelection
    Name/ru:Std HideSelection
    Empty:1

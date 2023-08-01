@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ClippingPlaneAdd
    Name/fr:FEM Plan de coupe
    MenuLocation:Utilitaires → Plan de coupe

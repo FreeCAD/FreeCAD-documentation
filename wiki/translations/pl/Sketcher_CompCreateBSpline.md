@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher CompCreateBSpline
    Name/pl:Szkicownik: Komponent utwórz krzywą złożoną
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)

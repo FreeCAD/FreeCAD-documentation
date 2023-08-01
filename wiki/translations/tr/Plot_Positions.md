@@ -1,6 +1,6 @@
 # Plot Positions/tr
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name/tr:Konum
    MenuLocation:Arsa → Konum
 ‏‎   |Workbenches:[Arsa](Plot_Workbench/tr.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ToggleClipPlane
    Name/pl:Płaszczyzna przecinająca
    MenuLocation:Widok → Płaszczyzna tnąca‏‎

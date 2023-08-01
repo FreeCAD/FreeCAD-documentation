@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign AdditivePipe
    Name/es:DiseñoPiezas AdditivoTubo
    Workbenches:[DiseñoPiezas](PartDesign_Workbench/es.md)

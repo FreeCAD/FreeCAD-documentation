@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/cs
+- GuiCommand:
    Name:Arch Frame
    Name/cs:Arch Frame
    MenuLocation:Arch → Frame

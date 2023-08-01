@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ViewIvStereoInterleavedRows
    Name/pl:Std: Widok stereo z przeplotem wierszy
    MenuLocation:Widok → Widok trójwymiarowy → Widok z przeplotem wierszy

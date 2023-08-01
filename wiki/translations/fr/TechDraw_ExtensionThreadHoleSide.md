@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExtensionThreadHoleSide
    Name/fr:TechDraw Corps de taraudage
    MenuLocation:TechDraw → Extensions : taraudages/filetages → Corps de taraudage

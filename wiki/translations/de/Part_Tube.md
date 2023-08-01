@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Tube
    Name/de:Part Rohr
    MenuLocation:Part → Grundkörper → Rohr erstellen...

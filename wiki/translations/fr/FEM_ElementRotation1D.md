@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ElementRotation1D
    Name/fr:FEM Rotation de poutre
    MenuLocation:Modèle → Géométrie de l'élement → Rotation de poutre

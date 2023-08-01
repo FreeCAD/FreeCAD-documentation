@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ConstraintCentrif
    Name/fr:FEM Contrainte centrifuge
    MenuLocation:Modèle → Contraintes mécaniques → Contrainte centrifuge

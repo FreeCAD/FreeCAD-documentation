@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign SubtractiveSphere
    Name/fr:PartDesign Sphère soustractive
    MenuLocation:Part Design → Créer une primitive soustractive → Sphère soustractive

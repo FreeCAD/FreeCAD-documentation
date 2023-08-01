@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 ConstraintColinear
    Name/fr:Assembly3 Contrainte colinéaire
    Icon:Assembly_ConstraintColinear.svg

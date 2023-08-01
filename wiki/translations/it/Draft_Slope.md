@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Slope
    Name/it:Draft Slope
    MenuLocation:Draft → Utilità → Imposta la pendenza

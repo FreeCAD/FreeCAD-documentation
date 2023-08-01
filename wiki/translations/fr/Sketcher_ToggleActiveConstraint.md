@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher ToggleActiveConstraint
    Name/fr:Sketcher Activation des contraintes
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)

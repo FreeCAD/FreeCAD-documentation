@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Spreadsheet MergeCells
    Name/ru:Объединить ячейки
    MenuLocation:Spreadsheet → Объединить ячейки

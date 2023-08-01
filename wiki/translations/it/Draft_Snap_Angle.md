@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Snap Angle
    Name/it:Angolo
    MenuLocation:Draft → [Snap](Draft_Snap/it.md) → Angolo

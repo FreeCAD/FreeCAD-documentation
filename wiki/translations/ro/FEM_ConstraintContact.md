@@ -1,6 +1,6 @@
 # FEM ConstraintContact/ro
 ---
-- GuiCommand:/ro   Name:FEM ConstraintContact   Name/ro:FEM ConstraintContact   MenuLocation:Model → Mechanical Constraints → Constraint contact   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
+- GuiCommand:   Name:FEM ConstraintContact   Name/ro:FEM ConstraintContact   MenuLocation:Model → Mechanical Constraints → Constraint contact   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
 
 
 </div>

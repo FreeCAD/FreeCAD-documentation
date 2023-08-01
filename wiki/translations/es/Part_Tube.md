@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Part Tube
    Name/es:Part Tubo
    MenuLocation:Pieza → Primitivas → Crear un tubo

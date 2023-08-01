@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part JoinConnect
    Name/de:Part Verbinden
    MenuLocation:Formteil → Verbinden → Objekte verbinden

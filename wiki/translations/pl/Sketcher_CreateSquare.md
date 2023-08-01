@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher CreateSquare
    Name/pl:Szkicownik: Utwórz kwadrat
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz kwadrat

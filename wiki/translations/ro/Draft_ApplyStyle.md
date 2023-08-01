@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Draft Apply
    Name/ro:Draft Apply
    MenuLocation:Draft → Utilities → Apply style

@@ -1,6 +1,6 @@
 # Draft Array/cs
 ---
-- GuiCommand:/cs   Name:Draft_Array   Name/cs:Kreslení Pole   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft → Array   SeeAlso:[PathArray](Draft_PathArray/cs.md)---
+- GuiCommand:   Name:Draft_Array   Name/cs:Kreslení Pole   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft → Array   SeeAlso:[PathArray](Draft_PathArray/cs.md)---
 
 
 </div>

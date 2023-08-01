@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Rocket RailButton
    Name/fr:Rocket Bouton rail
    MenuLocation:Rocket → Launch Guides → Rail Button

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Move
    Name/ru:Draft Move
    MenuLocation:Черчение -> Перемещение

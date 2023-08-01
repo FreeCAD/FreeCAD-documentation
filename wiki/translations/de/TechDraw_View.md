@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw View
    Name/de:TechDraw Ansicht
    MenuLocation:TechDraw→ TechDraw Ansichten → Ansicht einfügen

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft ShowSnapBar
    Name/fr:Draft Barre d'aimantation
    MenuLocation:Utilitaires → Afficher la barre d'outils d'aimantation

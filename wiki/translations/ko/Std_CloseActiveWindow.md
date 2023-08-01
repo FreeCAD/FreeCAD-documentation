@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std CloseActiveWindow
    Name/ko:표준 활성 창 닫기
    MenuLocation:파일 → 닫기

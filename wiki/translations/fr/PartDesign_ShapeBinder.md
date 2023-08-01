@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign ShapeBinder
    Name/fr:PartDesign Forme liée
    MenuLocation:Part Design → Créer une forme liée

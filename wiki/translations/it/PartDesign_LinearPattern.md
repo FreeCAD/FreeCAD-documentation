@@ -1,6 +1,6 @@
 # PartDesign LinearPattern/it
 ---
-- GuiCommand:/it   Name:PartDesign LinearPattern   Name/it:Schiera lineare   MenuLocation:PartDesign → Serie lineare   Workbenches:[SeeAlso:[[PartDesign PolarPattern/it|Serie polare](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand:   Name:PartDesign LinearPattern   Name/it:Schiera lineare   MenuLocation:PartDesign → Serie lineare   Workbenches:[SeeAlso:[[PartDesign PolarPattern/it|Serie polare](PartDesign_Workbench/it___PartDesign]].md)---
 
 
 </div>

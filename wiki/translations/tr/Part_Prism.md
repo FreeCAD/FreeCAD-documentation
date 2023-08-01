@@ -1,6 +1,6 @@
 # Part Prism/tr
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Part Prism
    Name/tr:Parça Prizma
    MenuLocation:Parça → [Temel geometrik şekil oluştur](Part_CreatePrimitives/tr.md) → Prizma

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path ToolLibraryEdit
    Name/fr:Path Gestionnaire du magasin d'outils
    MenuLocation:Path → Tool Manager

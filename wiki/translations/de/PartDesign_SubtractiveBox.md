@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign SubtractiveBox
    Name/de:PartDesign QuaderAbziehen
    MenuLocation:Part Design → Grundkörper abziehen → Quader

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path DressupTag
    Name/fr:Path Attache
    MenuLocation:Path → Finition du parcours → Attache

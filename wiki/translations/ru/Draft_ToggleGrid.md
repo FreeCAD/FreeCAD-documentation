@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft ToggleGrid
    Name/ru:Показывать сетку
    MenuLocation:Черчение → Вспомогательные → Показывать сетку

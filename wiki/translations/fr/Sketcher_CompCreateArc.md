@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher CompCreateArc
    Name/fr:Sketcher Arcs
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)

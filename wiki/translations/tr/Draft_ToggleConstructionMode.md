@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft ToggleConstructionMode
    Name/tr:İnşaat modunu değiştir
    MenuLocation:Draft → Utilities → Toggle construction mode

@@ -1,6 +1,6 @@
 # Part Revolve/es
 ---
-- GuiCommand:/es   Name:Part_Revolve   MenuLocation:Part → Revolve   Workbenches:[[Part_Workbench/es   Pieza]], Completo|SeeAlso:---
+- GuiCommand:   Name:Part_Revolve   MenuLocation:Part → Revolve   Workbenches:[[Part_Workbench/es   Pieza]], Completo|SeeAlso:---
 
 
 </div>

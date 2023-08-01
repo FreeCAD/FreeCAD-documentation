@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher ConstrainPointOnObject
    Name/it:Punto su oggettto
    Icon:Constraint_PointOnObject.svg

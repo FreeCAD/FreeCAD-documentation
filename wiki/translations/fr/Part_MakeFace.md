@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part MakeFace‏‎
    Name/fr:Part Créer une face
    MenuLocation:Part → Créer une face à partir de polylignes

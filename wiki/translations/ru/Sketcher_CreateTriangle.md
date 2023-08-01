@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Треугольник
    Name:Sketcher_CreateTriangle
    MenuLocation:Sketch → Геометрия эскиза → Создать равносторонний треугольник

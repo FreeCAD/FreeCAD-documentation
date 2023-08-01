@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw ShowAll
    Name/it:Mostra tutto
    MenuLocation:TechDraw → Mostra tutto

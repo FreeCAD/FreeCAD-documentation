@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ViewRotateRight
    Name/fr:Std Rotation à droite
    MenuLocation:Affichage → Vues standards → Rotation à droite

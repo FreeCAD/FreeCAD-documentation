@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Web BrowserZoomOut
    Name/de:Web BrowserVerkleinern
    MenuLocation:

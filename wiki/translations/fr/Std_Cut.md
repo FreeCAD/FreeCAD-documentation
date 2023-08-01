@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std_Cut
    Name/fr:Std Couper
    MenuLocation:Édition → Couper

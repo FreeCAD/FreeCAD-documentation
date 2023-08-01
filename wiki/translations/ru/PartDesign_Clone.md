@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать клон
    Name:PartDesign_Clone
    MenuLocation:Part Design → Создать клон

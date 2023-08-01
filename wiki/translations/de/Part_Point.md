@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Point
    Name/de:Part Punkt
    MenuLocation:Formteil → [Grundkörper erstellen](Part_Primitives/de.md) → Punkt

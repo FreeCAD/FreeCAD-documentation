@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 ConstraintLineLength
    Name/de:Assembly3 Linienlänge
    Icon:Assembly_ConstraintLineLength.svg

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Fasteners_BOM
    Name/ru:Спецификация
    MenuLocation:Стандартные изделия → Спецификация

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 ConstraintLengthEqualPointLineDistance
    Name/fr:Assembly3 Contrainte longueur égale distance point ligne
    Icon:Assembly_ConstraintLengthEqualPointLineDistance.svg

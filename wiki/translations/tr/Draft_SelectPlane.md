@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft SelectPlane
    Name/tr:Çalışma düzlemini ayarla
    MenuLocation:Draft → Utilities → Select Plane

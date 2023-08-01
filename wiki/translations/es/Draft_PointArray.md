@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft PointArray
    Name/es:Borrador ArregloPunto
    MenuLocation:Modificación → Herramientas de  Arreglo → Arreglo Punto

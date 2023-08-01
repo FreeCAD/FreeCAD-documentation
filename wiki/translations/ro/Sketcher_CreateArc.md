@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Sketcher CreateArc
    Name/ro:Sketcher Arc
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)

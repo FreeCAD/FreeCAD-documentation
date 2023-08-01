@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign_PolarPattern
    Name/fr:PartDesign Répétition circulaire
    MenuLocation:Part Design → Appliquer une transformation → Répétition circulaire

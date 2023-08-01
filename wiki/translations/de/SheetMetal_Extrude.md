@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:SheetMetal Extrude
    Name/de:SheetMetal KanteVerlängern
    MenuLocation:SheetMetal → Extend Face

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch ToggleSubs
    Name/es:Arch ToggleSubs
    MenuLocation:Arch → Utilities → Toggle Subcomponents

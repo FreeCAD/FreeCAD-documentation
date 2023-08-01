@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM ResultsPurge
    Name/ru:FEM ResultsPurge
    MenuLocation:Results → Purge results

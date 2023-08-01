@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Draft Dimension
    Name/ro:Cotare
    MenuLocation:Draft → Dimension

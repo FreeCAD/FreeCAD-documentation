@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExtensionPosVertChainDimension
    Name/fr:TechDraw Aligner verticalement
    MenuLocation:TechDraw → Extensions : attributs/modifications → Aligner verticalement

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign SubtractivePipe
    Name/de:PartDesign Subtraktives Rohr
    MenuLocation:Part Design → Create a substractive feature → Subtractive pipe

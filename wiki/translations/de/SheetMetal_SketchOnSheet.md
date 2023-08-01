@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:SheetMetal SketchOnSheet
    Name/de:SheetMetal SkizzeAufBlech
    MenuLocation:SheetMetal → Sketch On Sheet metal

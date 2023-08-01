@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher CreatePolyline
    Name/de:Sketcher LinienzugErstellen
    MenuLocation:Sketch → Skizzengeometrien → Linienzug erstellen

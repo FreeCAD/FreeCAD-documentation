@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std Redo
    Name/de:Std Wiederherstellen
    MenuLocation:Bearbeiten → Wiederherstellen‎

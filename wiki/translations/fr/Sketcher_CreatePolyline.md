@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher CreatePolyline
    Name/fr:Sketcher Polyligne
    MenuLocation:Esquisse → Géométries d'esquisse → Créer une polyligne

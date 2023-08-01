@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_DlgParameter
    Name/it:Modifica parametri
    MenuLocation:Strumenti → Modifica parametri...

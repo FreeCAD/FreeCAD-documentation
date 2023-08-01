@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Text
    Name/fr:Draft Texte
    MenuLocation:Annotation → Texte

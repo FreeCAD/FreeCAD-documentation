@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh FillInteractiveHole
    Name/fr:Mesh Boucher un trou
    MenuLocation:Maillages → Boucher un trou

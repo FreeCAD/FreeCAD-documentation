@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 MeasurePointLine
    Name/de:Assembly3 PunktZuLinieMessen
    Icon:Assembly_MeasurePointLineDistance.svg

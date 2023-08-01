@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Offset
    Name/it:Offset
    MenuLocation:Modifiche → Offset

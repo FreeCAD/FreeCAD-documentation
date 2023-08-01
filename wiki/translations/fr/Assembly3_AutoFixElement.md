@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 AutoFixElement
    Name/fr:Assembly3 Auto réparation d'un élement
    Icon:Assembly_AutoFixElement.svg‎‎

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Spreadsheet_MergeCells
    Name/it:Unisci le celle
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)

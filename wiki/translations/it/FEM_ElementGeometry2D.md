@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FEM_ElementGeometry2D
    Name/it:FEM ElementGeometry2D
    MenuLocation:Model → Spessore di una lastra

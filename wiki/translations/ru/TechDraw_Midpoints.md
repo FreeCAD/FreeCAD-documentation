@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Добавить вершины по центрам граней
    Name:TechDraw_Midpoints
    MenuLocation:TechDraw → Добавить Вершины → Add Midpoints Vertices

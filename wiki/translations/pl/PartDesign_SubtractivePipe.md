@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign SubtractivePipe
    Name/pl:Projekt Części: Odejmowanie wyciągnięciem wzdłuż ścieżki
    MenuLocation:Projekt Części → Utwórz cechę przez odjęcie → Odejmowanie wyciągnięciem wzdłuż ścieżki

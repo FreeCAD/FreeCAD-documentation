@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Указать радиус
    Name:TechDraw_RadiusDimension
    MenuLocation:TechDraw → Размеры → Указать радиус

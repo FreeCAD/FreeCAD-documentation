@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Выравнивание...
    Name:Std_Alignment
    MenuLocation:Правка → Выравнивание...

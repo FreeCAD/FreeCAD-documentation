@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft ShapeString
    Name/de:Draft Textform
    MenuLocation:Entwurf → Form von Text

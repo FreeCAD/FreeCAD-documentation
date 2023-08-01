@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Arc 3Points
    Name/ru:Draft Arc 3Points
    MenuLocation:Draft → Arc 3 points

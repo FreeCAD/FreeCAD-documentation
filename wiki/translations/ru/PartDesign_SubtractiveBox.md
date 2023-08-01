@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Субтрактивный куб (параллелепипед)
    Name:PartDesign_SubtractiveBox
    MenuLocation:Part Design → Создать субтрактивный примитив → Субтрактивный куб (параллелепипед)

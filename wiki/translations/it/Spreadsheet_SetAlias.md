@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Spreadsheet_SetAlias
    Name/it:Alias
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)

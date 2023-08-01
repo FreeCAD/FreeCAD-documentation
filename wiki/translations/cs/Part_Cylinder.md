@@ -1,6 +1,6 @@
 # Part Cylinder/cs
 ---
-- GuiCommand:/cs   Name:Part Cylinder   Name/cs:Díl Válec   MenuLocation:Díl -> Válec   |Workbenches:[SeeAlso:[[Part_CreatePrimitives/cs|Díl Vytváření zakl.geom.tvarů](Part_Workbench/cs___Modul_Díl]],_Kompletace.md)---
+- GuiCommand:   Name:Part Cylinder   Name/cs:Díl Válec   MenuLocation:Díl -> Válec   |Workbenches:[SeeAlso:[[Part_CreatePrimitives/cs|Díl Vytváření zakl.geom.tvarů](Part_Workbench/cs___Modul_Díl]],_Kompletace.md)---
 
 
 </div>

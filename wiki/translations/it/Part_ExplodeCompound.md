@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it   Name:Part ExplodeCompound
+- GuiCommand:   Name:Part ExplodeCompound
    Name/it:Esplodi composto
    MenuLocation:Part → Composto → Esplodi composto
    Version:0.18.15506

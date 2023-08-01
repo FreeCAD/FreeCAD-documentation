@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Path Vcarve
    Name/de:Pfad VGravur
    MenuLocation:Pfad → VGravur

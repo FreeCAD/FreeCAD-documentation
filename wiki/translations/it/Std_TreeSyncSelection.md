@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_TreeSyncSelection
    Name/it:Sincronizza la selezione
    MenuLocation:Visualizza → Azioni della vista ad albero → Sincronizza la selezione

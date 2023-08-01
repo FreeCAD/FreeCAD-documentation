@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft PolarArray
    Name/it:Serie polare
    MenuLocation:Modifiche → Strumenti serie → Serie polare

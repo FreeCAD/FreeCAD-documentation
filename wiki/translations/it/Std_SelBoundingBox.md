@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_SelBoundingBox
    Name/it:Box contenitore
    MenuLocation:Visualizza → Box contenitore

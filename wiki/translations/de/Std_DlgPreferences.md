@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std DlgPreferences
    Name/de:Std DlgEinstellungen
    MenuLocation:Bearbeiten → Einstellungen...

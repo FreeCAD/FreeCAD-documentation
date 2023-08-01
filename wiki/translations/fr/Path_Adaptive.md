@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path Adaptive
    Name/fr:Path Adaptatif
    MenuLocation:Path → Adaptatif

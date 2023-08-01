@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft BSpline
    Name/de:Entwurf BSpline
    MenuLocation:Entwurf → BSpline

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher Split
    Name/de:Sketcher Teilen
    MenuLocation:Sketch → Skizzengeometrien → Kante teilen

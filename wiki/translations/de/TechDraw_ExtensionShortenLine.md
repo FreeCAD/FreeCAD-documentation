@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw ExtensionShortenLine
    Name/de:TechDraw ErgänzungLinieKürzen
    MenuLocation:TechDraw → Extensions: Attributes/Modifications → Shorten Line

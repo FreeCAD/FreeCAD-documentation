@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std DrawStyle
    Name/de:Std Darstellungsart
    MenuLocation:Ansicht → Darstellungsart → ...

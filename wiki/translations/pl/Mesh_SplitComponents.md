@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh SplitComponents
    Name/pl:Siatka: Rozbij na komponenty
    MenuLocation:Siatki → Rozbij na komponenty

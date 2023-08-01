@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Draft WireToBSpline
    Name/ro:Draft WireToBSpline
    MenuLocation:Drafting →  Wire to BSpline

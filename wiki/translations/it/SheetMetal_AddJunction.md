@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:SheetMetal_Junction
    Name/it:Giunzione
    MenuLocation:SheetMetal → Junction

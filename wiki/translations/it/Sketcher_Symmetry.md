@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher Symmetry
    Name/it:Simmetria
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)

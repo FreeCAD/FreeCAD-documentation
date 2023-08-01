@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std RecentFiles
    Name/pl:Std: Ostatnio używane pliki
    Empty:1

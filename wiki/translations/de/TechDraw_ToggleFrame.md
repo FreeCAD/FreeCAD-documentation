@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw ToggleFrame
    Name/de:TechDraw RahmenUmschalten
    MenuLocation:TechDraw  → TechDraw Ansichten → Ansichtsrahmen ein- oder ausschalten

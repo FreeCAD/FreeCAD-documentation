@@ -1,6 +1,6 @@
 # Sketcher SelectOrigin/it
 ---
-- GuiCommand:/it   Name:Sketcher SelectOrigin   Name/it:Seleziona Origine   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch → Strumenti → Seleziona l'origine   Shortcut:**Maiusc**+**Ctrl**+**O**   SeeAlso:   Version:0.15---
+- GuiCommand:   Name:Sketcher SelectOrigin   Name/it:Seleziona Origine   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch → Strumenti → Seleziona l'origine   Shortcut:**Maiusc**+**Ctrl**+**O**   SeeAlso:   Version:0.15---
 
 
 </div>

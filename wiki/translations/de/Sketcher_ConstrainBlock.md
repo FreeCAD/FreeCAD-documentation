@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher ConstrainBlock
    Name/de:Sketcher Fixieren
    MenuLocation:Sketch → Skizzen-Beschränkungen → Fixieren

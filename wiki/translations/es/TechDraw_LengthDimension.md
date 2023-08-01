@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:TechDraw  Dimension Length
    Name/es:TechDraw  Dimensión Longitud
    MenuLocation:TechDraw → Dimensión Longitud

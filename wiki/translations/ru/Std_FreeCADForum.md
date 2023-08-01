@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Форум FreeCAD
    Name:Std_FreeCADForum
    MenuLocation:Справка → Форум FreeCAD

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Plot Legend
    Name/de:Plot Legende
    MenuLocation:Plot → Show/hide legend‏‎

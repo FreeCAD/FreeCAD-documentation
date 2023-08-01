@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:PartDesign Fillet
    Name/it:Raccordo
    Workbenches:[PartDesign](PartDesign_Workbench/it.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ConstraintCurrentDensity
    Name/fr:FEM Contrainte de densité de courant
    MenuLocation:Modèle → Contraintes électromagnétiques → Contrainte de densité de courant

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part_Chamfer
    Name/fr:Part Chanfrein
    MenuLocation:Part → Chanfrein...

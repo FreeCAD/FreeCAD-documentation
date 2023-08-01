@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher DeleteAllConstraints
    Name/pl:Szkicownik: Usuń wszystkie wiązania
    MenuLocation:Szkic → Narzędzia szkicownika → Usuń wszystkie wiązania

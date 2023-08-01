@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:OpenSCAD MeshBoolean
    Name/ru:OpenSCAD MeshBoolean
    MenuLocation:OpenSCAD → Mesh Boolean...‏‎

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Raytracing Render
    Name/ru:Raytracing Render
    MenuLocation:Трассировка лучей → С визуализацией

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Fuse
    Name/pl:Część: Połączenie
    MenuLocation:Część → Operacje logiczne → Połączenie

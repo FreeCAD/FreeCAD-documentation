@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Аддитивный тор
    Name:PartDesign_AdditiveTorus
    MenuLocation:Part Design → Создать аддитивный примитив → Аддитивный Тор

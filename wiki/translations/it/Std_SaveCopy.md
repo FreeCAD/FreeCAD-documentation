@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_SaveCopy
    Name/it:Salva una copia
    MenuLocation:File → Salva una copia...

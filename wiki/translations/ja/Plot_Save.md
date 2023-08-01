@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ja
+- GuiCommand:
    Name:Plot Save
    Name/ja:Plot Save
    Workbenches:[Plot](Plot_Workbench.md)

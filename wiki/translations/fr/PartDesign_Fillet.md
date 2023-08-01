@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign Fillet
    Name/fr:PartDesign Congé 
    MenuLocation:Part Design → Appliquer une fonction d'habillage → Congé

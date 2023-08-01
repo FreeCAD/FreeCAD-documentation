@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Аддитивная спираль
    Name:PartDesign_AdditiveHelix
    MenuLocation:PartDesign → Create an additive feature → Аддитивная спираль

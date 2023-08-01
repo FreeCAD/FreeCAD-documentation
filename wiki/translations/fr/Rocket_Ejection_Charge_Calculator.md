@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Rocket Ejection Charge Calculator
    Name/fr:Rocket Calcul charge d'éjection
    Icon:Rocket_Calculator.svg

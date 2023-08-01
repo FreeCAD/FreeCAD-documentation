@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch_IfcSpreadsheet
    Name/fr:Arch Tableur IFC
    MenuLocation:Arch → Utilitaires → Créer une feuille de calcul IFC

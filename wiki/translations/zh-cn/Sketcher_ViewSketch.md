@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/zh-cn
+- GuiCommand:-cn
    Name:查看草图
    MenuLocation:Sketch → 查看草图
    Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md), [PartDesign](PartDesign_Workbench/zh-cn.md)

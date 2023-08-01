@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Тепловое уравнение
    Name:FEM_EquationHeat
    MenuLocation: Solve → Тепловое уравнение

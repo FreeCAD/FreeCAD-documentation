@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part ShapeFromMesh‏‎
    Name/pl:Część: Utwórz kształt z siatki
    MenuLocation:Part → Utwórz kształt z siatki ...

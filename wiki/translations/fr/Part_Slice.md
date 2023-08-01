@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Slice
    Name/fr:Part Scinder
    MenuLocation:Part → Scinder → Scinder vers composé

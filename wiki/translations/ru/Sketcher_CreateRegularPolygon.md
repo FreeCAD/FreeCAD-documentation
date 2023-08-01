@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Правильный многоугольник
    Name:Sketcher CreateRegularPolygon
    MenuLocation:Эскиз → Геометрия эскиза → Правильный многоугольник

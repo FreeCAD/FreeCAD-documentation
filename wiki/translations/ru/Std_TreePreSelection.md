@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std TreePreSelection
    Name/ru:Std TreePreSelection
    MenuLocation:Вид → Дерево документа → Pre-selection

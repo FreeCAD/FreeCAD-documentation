@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name/ro:Sketcher arc de parabolă
    Icon:Sketcher Parabolic Arc.png
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)

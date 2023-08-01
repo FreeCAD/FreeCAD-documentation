@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Установить цвет
    Name:Part_FaceColors
    MenuLocation:Context menu → Установить цвет

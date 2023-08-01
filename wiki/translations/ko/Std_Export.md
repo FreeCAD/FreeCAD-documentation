@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std Export
    Name/ko:표준 내보내기
    MenuLocation:파일 → 내보내기...

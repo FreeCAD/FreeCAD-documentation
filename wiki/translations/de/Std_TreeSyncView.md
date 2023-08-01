@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std TreeSyncView
    Name/de:Std BaumSyncAnsicht
    MenuLocation:Ansicht → BaumAnsicht-Aktionen → Sync-Ansicht

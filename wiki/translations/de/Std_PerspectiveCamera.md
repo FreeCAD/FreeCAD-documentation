@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std PerspectiveCamera
    Name/de:Std PerspektivKamera
    MenuLocation:Ansicht → Perspektiv Ansicht

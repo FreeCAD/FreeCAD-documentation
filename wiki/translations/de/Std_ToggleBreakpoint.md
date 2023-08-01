@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std UmschaltenHaltepunkt
    Empty:1
    MenuLocation:Makro → Umschalten Haltepunkt

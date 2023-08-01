@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pt
+- GuiCommand:
    Name:Sketcher External
    Name/pt:Sketcher External
    MenuLocation:Sketch → Sketcher geometries → Sketcher External

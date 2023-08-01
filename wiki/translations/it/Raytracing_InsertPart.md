@@ -1,6 +1,6 @@
 # Raytracing InsertPart/it
 ---
-- GuiCommand:/it   Name:Raytracing InsertPart   Name/it:Inserisci parte   MenuLocation:Raytracing → Inserisci parte‏‎   |Workbenches:[[Raytracing_Workbench/it   Raytracing]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Raytracing InsertPart   Name/it:Inserisci parte   MenuLocation:Raytracing → Inserisci parte‏‎   |Workbenches:[[Raytracing_Workbench/it   Raytracing]]|Shortcut:   SeeAlso:---
 
 
 </div>

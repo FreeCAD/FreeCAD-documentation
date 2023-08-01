@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/cs
+- GuiCommand:
    Name:Draft Snap Lock
    Name/cs:Přepínání uchopování
    Workbenches:[Kreslení](Draft_Workbench/cs.md), [Architektura](Arch_Workbench/cs.md)

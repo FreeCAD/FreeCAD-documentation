@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ViewLoadImage
    Name/de:Std AnsichtBildLaden
    MenuLocation:Werkzeuge → Bild laden...

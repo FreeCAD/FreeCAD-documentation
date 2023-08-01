@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part_CompOffsetTools
    Name/ru:Инструменты смещения
    MenuLocation:Part → Инструменты смещения

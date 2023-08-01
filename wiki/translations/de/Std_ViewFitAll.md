@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ViewFitAll
    Name/de:Std AnsichtAllesEinpassen
    MenuLocation:Ansicht → Standardansichten‏‎ → Einpassen

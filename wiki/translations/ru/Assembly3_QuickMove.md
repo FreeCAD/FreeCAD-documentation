@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Assembly3 QuickMove
    Icon:Assembly_QuickMove.svg‎‎
    MenuLocation:Assembly3 → Quick move

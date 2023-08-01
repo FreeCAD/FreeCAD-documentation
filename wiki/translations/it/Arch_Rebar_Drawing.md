@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch_Rebar_Drawing
    Name/it:Disegna un'armatura
    MenuLocation:Arch → Armatura

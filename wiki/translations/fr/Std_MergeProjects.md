@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std MergeProjects
    Name/fr:Std Fusion de projets
    MenuLocation:Fichier → Fusionner un projet...

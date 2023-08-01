@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM ConstraintMagnetization
    Name/de:FEM RandbedingungMagnetisierung
    MenuLocation: Model → Electromagnetic Constraints → Constraint magnetization

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std BoxElementSelection
    Name/fr:Std Sélection d'éléments par boîte
    MenuLocation:Édition → Sélection d'éléments par boîte

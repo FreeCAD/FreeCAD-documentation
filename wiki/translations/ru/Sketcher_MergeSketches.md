@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Объединить эскизы
    Name:Sketcher_MergeSketches
    MenuLocation:Sketch → Объединить эскизы

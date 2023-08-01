@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft Line
    Name/pl:Rysunek roboczy: Linia
    MenuLocation:Kreślenie → Linia

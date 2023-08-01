@@ -1,6 +1,6 @@
 # Sketcher LeaveSketch/es
 ---
-- GuiCommand:/es   Name:Sketcher LeaveSketch   Workbenches:[Diseño de Piezas](Sketcher_Workbench/es___Croquizador]],_[[PartDesign_Workbench/es.md)|MenuLocation:Croquizador→ Abandonar croquis|---
+- GuiCommand:   Name:Sketcher LeaveSketch   Workbenches:[Diseño de Piezas](Sketcher_Workbench/es___Croquizador]],_[[PartDesign_Workbench/es.md)|MenuLocation:Croquizador→ Abandonar croquis|---
 
 
 </div>

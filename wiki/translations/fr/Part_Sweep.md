@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Sweep
    Name/fr:Part Balayage
    MenuLocation:Part → Balayage...

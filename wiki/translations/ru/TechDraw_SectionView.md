@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Вставить Вид сечения
    Name:TechDraw_SectionView
    MenuLocation:TechDraw → Вставить Вид сечения

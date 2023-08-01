@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pt-br
+- GuiCommand:-br
    Name:Addon manager
    Name/pt-br:Addon manager
    Icon:AddonManager.svg

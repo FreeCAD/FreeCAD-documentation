@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Drawing Landscape A3
    Name/it:Nuovo disegno A3
    Workbenches:[Disegno](Drawing_Workbench/it.md), Completo

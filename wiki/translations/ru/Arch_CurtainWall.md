@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Светопрозрачный фасад
    Name:Arch_CurtainWall
    MenuLocation:Arch → Светопрозрачный фасад

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Экспорт электронной таблицы
    Name:Spreadsheet_Export
    MenuLocation:Электронная таблица → Экспорт электронной таблицы

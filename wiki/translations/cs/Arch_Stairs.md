@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/cs
+- GuiCommand:
    Name:Arch_Stairs   Name/cs:Arch Schody
    Workbenches:[Modul architektura](Arch_Workbench/cs.md)
    MenuLocation:Arch → Stairs

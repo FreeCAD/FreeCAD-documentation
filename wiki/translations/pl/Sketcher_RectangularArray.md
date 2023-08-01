@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher RectangularArray
    Name/pl:Szkicownik: Szyk prostokątny
    MenuLocation:Szkic → Narzędzia szkicownika → Szyk prostokątny

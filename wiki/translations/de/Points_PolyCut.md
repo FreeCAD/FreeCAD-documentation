@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Points PolyCut
    Name/de:Points PolySchnitt
    MenuLocation:Punkte → Punktwolke schneiden

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw ShareView
    Name/pl:Rysunek Techniczny: Udostępnij widok
    MenuLocation:Rysunek Techniczny → Widoki → Udostępnij widok

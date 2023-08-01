@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:PartDesign CompPrimitiveAdditive
    Name/ro:PartDesign CompPrimitiveAdditive
    Empty:1

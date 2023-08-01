@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std_Redo
    Name/ru:Вернуть
    MenuLocation:Правка → Вернуть

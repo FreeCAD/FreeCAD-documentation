@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw Quadrants
    Name/fr:TechDraw Sommets quadrants
    MenuLocation:TechDraw → Ajouter des sommets → Ajouter des sommets de quadrants

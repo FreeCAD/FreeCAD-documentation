@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign AdditiveSphere
    Name/pl:Projekt Części: Addytywna sfera
    MenuLocation:Projekt Części → Utwórz cechę przez dodanie → Addytywna sfera

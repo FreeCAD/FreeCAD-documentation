@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Path PostProcess
    Name/de:Pfad PostProzess
    MenuLocation:Pfad → Post Prozess

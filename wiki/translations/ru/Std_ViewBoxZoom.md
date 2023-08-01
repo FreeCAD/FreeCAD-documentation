@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std ViewBoxZoom
    Name/ru:Std ViewBoxZoom
    Workbenches:All

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Std Export
    Name/ro:Exportul
    Workbenches:All

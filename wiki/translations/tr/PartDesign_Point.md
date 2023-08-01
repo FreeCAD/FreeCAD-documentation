@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:PartDesign Point
    Name/tr:Referans noktası oluştur
    Workbenches:[Parça tasarım](PartDesign_Workbench/tr.md)

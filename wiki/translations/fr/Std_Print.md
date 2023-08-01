@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std Print
    Name/fr:Std Imprimer
    MenuLocation:Fichier → Imprimer...

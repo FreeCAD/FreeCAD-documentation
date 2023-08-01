@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh Merge
    Name/fr:Mesh Fusionner
    MenuLocation:Maillages → Fusionner

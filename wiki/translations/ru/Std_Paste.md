@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std_Paste
    Name/ru:Вставить
    MenuLocation:Правка → Вставка

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std TreeSingleDocument
    Name/de:Std BaumEinzeldokument
    MenuLocation:Ansicht → Baumansicht-Aktionen → Einzeldokument

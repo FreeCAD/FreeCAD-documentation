@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std About
    Name/pl:Std: Informacje o FreeCAD
    Workbenches:Wszystkie

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std PrintPreview
    Name/fr:Std Aperçu impression
    MenuLocation:Fichier → Aperçu avant impression

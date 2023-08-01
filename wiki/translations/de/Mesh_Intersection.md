@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Mesh Intersection
    Name/de:Mesh Intersection
    MenuLocation:Netze → Boolesche Verknüpfungen → Schnitt

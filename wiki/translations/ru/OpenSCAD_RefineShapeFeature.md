@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:OpenSCAD RefineShapeFeature
    Name/ru:OpenSCAD RefineShapeFeature
    MenuLocation:OpenSCAD →Улучшить свойство фигуры

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Spreadsheet_StyleItalic
    Name/it:Corsivo
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/cs
+- GuiCommand:
    Name:Sketcher CreateArc
    Name/cs:Skicář Oblouk
    Workbenches:[Skicář](Sketcher_Workbench/cs.md)

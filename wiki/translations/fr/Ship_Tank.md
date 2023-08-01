@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Ship TankNew
    Name/fr:Ship Réservoir
    MenuLocation:Weights → Create a new tank

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh EvaluateSolid
    Name/fr:Mesh Solidité du maillage
    MenuLocation:Maillages → Analyser → Vérifier la solidité du maillage

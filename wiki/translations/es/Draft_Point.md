@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft Point
    Name/es:Draft Point
    MenuLocation:Boceto → Punto

@@ -1,6 +1,6 @@
 # Draft Line/sv
 ---
-- GuiCommand:/sv   Name:Draft Line   Workbenches:[MenuLocation:Draft → Line   Shortcut:L I   SeeAlso:[[Draft Wire/sv|Draft Wire](Draft_Workbench/sv___Skiss]].md)---
+- GuiCommand:   Name:Draft Line   Workbenches:[MenuLocation:Draft → Line   Shortcut:L I   SeeAlso:[[Draft Wire/sv|Draft Wire](Draft_Workbench/sv___Skiss]].md)---
 
 
 </div>

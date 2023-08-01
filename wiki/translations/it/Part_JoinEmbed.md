@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Part JoinEmbed
    Name/it:Incastro
    MenuLocation:Part → Congiungi → Incastra oggetto

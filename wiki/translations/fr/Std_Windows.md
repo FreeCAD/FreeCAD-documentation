@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std Windows
    Name/fr:Std Fenêtres
    MenuLocation:Fenêtres → Fenêtres...

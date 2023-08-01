@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_DlgMacroRecord
    Name/it:Registra una macro
    MenuLocation:Macro → Registra una macro ...

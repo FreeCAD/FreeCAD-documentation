@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std AxisCross
    Name/de:Std Achsenkreuz
    MenuLocation:Ansicht → Achsenkreuz ein-/ausblenden

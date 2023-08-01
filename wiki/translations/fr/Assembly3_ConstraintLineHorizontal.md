@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 ConstraintLineHorizontal
    Name/fr:Assembly3 Contrainte ligne horizontale
    Icon:Assembly_ConstraintLineHorizontal.svg

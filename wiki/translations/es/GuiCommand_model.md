@@ -1,6 +1,6 @@
 # GuiCommand model/es
 ---
-- GuiCommand:/es   Name:Base_ExampleCommandModel   Workbenches:Wb1,Wb2---
+- GuiCommand:   Name:Base_ExampleCommandModel   Workbenches:Wb1,Wb2---
 
 
 </div>

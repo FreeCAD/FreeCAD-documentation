@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft ToggleContinueMode
    Name/ru:Draft ToggleContinueMode
    MenuLocation:Черчение -> Утилиты -> Переключить режим продолжения

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ViewTrimetric
    Name/fr:Std Vue trimétrique
    MenuLocation:Affichage → Vues standards → Axonometric → Trimétrique

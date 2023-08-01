@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Rocket Vent Hole Size Calculator
    Name/fr:Rocket Calcul taille trou d'évent
    Icon:Rocket_Calculator.svg

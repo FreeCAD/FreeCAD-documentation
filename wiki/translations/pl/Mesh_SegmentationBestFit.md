@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh SegmentationBestFit
    Name/pl:Siatka Utwórz segmenty z najlepiej dopasowanych powierzchni
    MenuLocation:Siatki → Utwórz segmenty z najlepiej dopasowanych powierzchni ...

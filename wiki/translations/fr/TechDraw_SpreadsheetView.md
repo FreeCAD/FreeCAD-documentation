@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw SpreadsheetView
    Name/fr:TechDraw Vue d'un objet Spreadsheet
    MenuLocation:TechDraw → Insérer une vue de feuille de calcul

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Dimension
    Name/it:Quota
    MenuLocation:Draft → Quota

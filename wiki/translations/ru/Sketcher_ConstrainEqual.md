@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Ограничение эквивалентностью
    Name:Sketcher_ConstrainEqual
    MenuLocation:Sketch → Ограничения эскиза → Ограничение эквивалентностью

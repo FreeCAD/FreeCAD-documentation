@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Curves SegmentSurface
    Name/fr:Curves Segmenter une surface
    MenuLocation:Surfaces → Segment surface

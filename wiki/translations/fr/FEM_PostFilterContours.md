@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM PostFilterContours
    Name/fr:FEM Filtre par contours
    MenuLocation:Résultats → Filtre par contours

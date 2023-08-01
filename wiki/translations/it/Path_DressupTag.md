@@ -1,6 +1,6 @@
 # Path DressupTag/it
 ---
-- GuiCommand:/it   Name:Path DressupTag   Name/it:DressupTag   Workbenches:[MenuLocation:Path → Vestizione → Tag Dress-up   SeeAlso:[[Path_DressupRampEntry/it|Rampa di entrata](Path_Workbench/it___Path]].md), [Vestizione Dogbone](Path_DressupDogbone/it.md) , [Vestizione DragKnife](Path_DressupDragKnife/it.md) ---
+- GuiCommand:   Name:Path DressupTag   Name/it:DressupTag   Workbenches:[MenuLocation:Path → Vestizione → Tag Dress-up   SeeAlso:[[Path_DressupRampEntry/it|Rampa di entrata](Path_Workbench/it___Path]].md), [Vestizione Dogbone](Path_DressupDogbone/it.md) , [Vestizione DragKnife](Path_DressupDragKnife/it.md) ---
 
 
 </div>

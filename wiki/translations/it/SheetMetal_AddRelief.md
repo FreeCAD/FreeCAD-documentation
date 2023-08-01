@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:SheetMetal_Relief
    Name/it:Scarico
    MenuLocation:SheetMetal → Relief

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft PointLinkArray
    Name/fr:Draft Réseau lié selon des points
    MenuLocation:Modification → Outils pour les réseaux → Réseau lié selon des points

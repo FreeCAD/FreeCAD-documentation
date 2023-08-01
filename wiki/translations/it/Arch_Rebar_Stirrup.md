@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch_Rebar_Stirrup
    Name/it:Staffe armatura
    MenuLocation:Arch → Strumenti armatura → Staffe armatura o BIM → 3D/BIM → Reinforcement → Stirrup

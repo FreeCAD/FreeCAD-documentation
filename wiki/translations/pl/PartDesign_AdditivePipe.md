@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign AdditivePipe
    Name/pl:PartDesign AdditivePipe
    MenuLocation:Projekt Części → Utwórz cechę przez dodanie → Uzupełnianie wyciągnięciem wzdłuż ścieżki

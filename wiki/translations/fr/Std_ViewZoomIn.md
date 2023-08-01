@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ViewZoomIn
    Name/fr:Std Zoom avant
    MenuLocation:Affichage → Zoom‏‎ → Zoom avant

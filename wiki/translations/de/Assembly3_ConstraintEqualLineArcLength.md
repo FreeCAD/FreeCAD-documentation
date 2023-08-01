@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 ConstraintEqualLineArcLength
    Name/de:Assembly3 LinienGleichBogenlänge
    Icon:Assembly_ConstraintEqualLineArcLength.svg

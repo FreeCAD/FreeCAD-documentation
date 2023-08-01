@@ -1,6 +1,6 @@
 # PartDesign Mirrored/it
 ---
-- GuiCommand:/it   Name:PartDesign Mirrored   Name/it:Simmetria   Workbenches:[[PartDesign Workbench/it   PartDesign]]|MenuLocation:PartDesign → Simmetria---
+- GuiCommand:   Name:PartDesign Mirrored   Name/it:Simmetria   Workbenches:[[PartDesign Workbench/it   PartDesign]]|MenuLocation:PartDesign → Simmetria---
 
 
 </div>

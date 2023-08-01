@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Icon:PartDesign InternalExternalGear.svg
    Name:PartDesign InvoluteGear
    MenuLocation:Part Design → Involute gear...

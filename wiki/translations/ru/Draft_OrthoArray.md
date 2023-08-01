@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Draft_OrthoArray
    Name:Draft_OrthoArray
    MenuLocation:Modification → Array tools → Array

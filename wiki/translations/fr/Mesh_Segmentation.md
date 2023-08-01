@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh Segmentation
    Name/fr:Mesh Segmentation
    MenuLocation:Maillages → Segmenter le maillage...

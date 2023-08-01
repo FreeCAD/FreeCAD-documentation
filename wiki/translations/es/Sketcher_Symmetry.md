@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher Symmetry
    Name/es:Croquizador Simetria
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name/ro:Sketcher: Prelungirea muchiei
    Icon:Sketcher Extend.svg
    MenuLocation:Sketch → Geometria schitei → Prelungirea muchiei

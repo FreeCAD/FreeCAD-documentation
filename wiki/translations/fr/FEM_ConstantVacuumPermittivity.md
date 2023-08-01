@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ConstantVacuumPermittivity
    Name/fr:FEM Constante de permittivité du vide
    MenuLocation:Modèle → Remplacer les constantes → Constante de permittivité du vide

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Обратить нормали формы
    Name:Part_ReverseShapes
    MenuLocation:Деталь → Обратить нормали формы

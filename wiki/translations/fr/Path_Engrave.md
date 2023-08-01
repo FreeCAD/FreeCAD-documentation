@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path Engrave
    Name/fr:Path Gravure
    MenuLocation:Path → Graver

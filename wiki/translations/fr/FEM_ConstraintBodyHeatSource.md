@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ConstraintBodyHeatSource
    Name/fr:FEM Contrainte source thermique
    MenuLocation:Modèle → Contraintes thermiques → Contrainte source de chaleur pour le corps

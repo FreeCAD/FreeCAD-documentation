@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:SheetMetal AddBend
    Name/fr:SheetMetal Transformation en pli
    MenuLocation:SheetMetal → Make Bend

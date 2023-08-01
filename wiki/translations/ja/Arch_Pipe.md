@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ja
+- GuiCommand:
    Name:Arch Pipe
    Name/ja:Arch Pipe
    Workbenches:[Arch](Arch_Module.md)

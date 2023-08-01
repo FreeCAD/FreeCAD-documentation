@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part CompOffsetTools
    Name/pl:Część: Komponent narzędzia odsunięcia
    MenuLocation:brak

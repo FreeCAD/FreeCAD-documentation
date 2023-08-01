@@ -1,6 +1,6 @@
 # Ship Tank/it
 ---
-- GuiCommand:/it   Name:Ship TankNew   Name/it:Nuovo serbatoio   MenuLocation:Weights → Crea un nuovo serbatoio   |Workbenches:[[Ship Workbench/it   Ship]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Ship TankNew   Name/it:Nuovo serbatoio   MenuLocation:Weights → Crea un nuovo serbatoio   |Workbenches:[[Ship Workbench/it   Ship]]|Shortcut:   SeeAlso:---
 
 
 </div>

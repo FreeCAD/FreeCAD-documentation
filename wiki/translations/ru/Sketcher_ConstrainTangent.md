@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Ограничение касательности
    Name:Sketcher_ConstrainTangent
    MenuLocation:Sketch → Ограничения эскиза → Ограничение касательности

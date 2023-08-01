@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std MacroAttachDebugger
    Name/fr:Std Débogueur distant
    Empty:1

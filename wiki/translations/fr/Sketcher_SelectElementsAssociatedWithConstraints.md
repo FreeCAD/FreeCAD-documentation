@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher SelectElementsAssociatedWithConstraints
    Name/fr:Sketcher Éléments associés aux contraintes
    MenuLocation:Esquisse → Outils d'esquisse → Sélectionner les éléments associés aux contraintes 

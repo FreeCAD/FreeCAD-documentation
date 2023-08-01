@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft ShowSnapBar
    Name/tr:Yakalama çubuğunu göster
    MenuLocation:Draft → Utilities → Show Snap Bar

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Fasteners Shape
    Name/de:Fasteners Formteil
    MenuLocation:Fasteners → Simplify shape

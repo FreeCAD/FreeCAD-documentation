@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch SplitMesh
    Name/es:Arch SplitMesh
    MenuLocation:Arquitectura → Utilidades → Dividir malla

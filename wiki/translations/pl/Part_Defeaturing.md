@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Defeaturing
    Name/pl:Część: Usuwanie cech
    MenuLocation:Część → Usuwanie cech

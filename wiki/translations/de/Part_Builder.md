@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Builder
    Name/de:Part FormGenerator
    MenuLocation:Formteil → Form-Generator...

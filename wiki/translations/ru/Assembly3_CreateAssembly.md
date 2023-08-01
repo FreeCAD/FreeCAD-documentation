@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Assembly3 CreateAssembly
    Name/ru:Assembly3 CreateAssembly
    Icon:Assembly_New_Assembly.svg

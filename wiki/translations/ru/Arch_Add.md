@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Arch Add
    Name/ru:Arch Add
    MenuLocation:Архитектура → Добавить компонент

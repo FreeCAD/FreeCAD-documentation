@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExtensionDecreaseDecimal
    Name/fr:TechDraw Moins de décimales
    MenuLocation:TechDraw → Extensions : cotes → Moins de décimales

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std Import
    Name/pl:Std: Importuj
    MenuLocation:Plik → Importuj ...

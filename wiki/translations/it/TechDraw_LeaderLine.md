@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw LeaderLine
    Name/it:Linea guida
    MenuLocation:TechDraw → Aggiungi linee → Linea guida

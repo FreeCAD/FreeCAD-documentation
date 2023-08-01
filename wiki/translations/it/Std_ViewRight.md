@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_ViewRight
    Name/it:Vista da destra
    MenuLocation:Visualizza → Viste standard → Da destra

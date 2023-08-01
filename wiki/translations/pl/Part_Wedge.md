@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Wedge
    Name/pl:Część: Klin
    MenuLocation:Część → Utwórz geometrie pierwotne ... → Klin

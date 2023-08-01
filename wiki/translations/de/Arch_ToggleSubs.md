@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch ToggleSubs
    Name/de:Arch UmschaltenUnterkomponenten
    MenuLocation:Arch → Utilities → Umschalten Unterkomponenten

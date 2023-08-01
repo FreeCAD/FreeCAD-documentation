@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher CarbonCopy
    Name/de:Sketcher Pause
    MenuLocation:Skizze → Skizzengeometrien → Pause

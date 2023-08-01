@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh Intersection
    Name/fr:Mesh Intersection‏‎
    MenuLocation:Maillages → Opération booléenne → Intersection

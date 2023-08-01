@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ViewRight
    Name/fr:Std Vue de droite
    MenuLocation:Affichage → Vues standards → Droite

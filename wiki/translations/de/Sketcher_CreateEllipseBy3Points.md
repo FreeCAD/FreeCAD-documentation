@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher CreateEllipseBy3Points
    Name/de:Sketcher EllipseDurch3PunkteErstellen
    MenuLocation:Sketch → Skizzengeometrien → Ellipse durch 3 Punkte erstellen

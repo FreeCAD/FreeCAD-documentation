@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/cs
+- GuiCommand:
    Name:Sketcher ToggleConstruction
    Name/cs: Skicář Změna konst.módu
    Icon:Sketcher_AlterConstruction.svg

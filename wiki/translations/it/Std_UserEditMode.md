@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std UserEditMode
    Name/it:Impostazioni Modalità modifica
    MenuLocation:Modifica → Impostazione modalità modifica → ...

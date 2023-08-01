@@ -1,6 +1,6 @@
 # FEM ConstraintSelfWeight/ro
 ---
-- GuiCommand:/ro   Name:FEM ConstraintSelfWeight   Name/ro:FEM ConstraintSelfWeight   MenuLocation:Model → Mechanical Constraints → Constraint self weight   |Workbenches:[Shortcut:C,W   SeeAlso:[[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
+- GuiCommand:   Name:FEM ConstraintSelfWeight   Name/ro:FEM ConstraintSelfWeight   MenuLocation:Model → Mechanical Constraints → Constraint self weight   |Workbenches:[Shortcut:C,W   SeeAlso:[[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
 
 
 </div>

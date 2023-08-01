@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM ElementGeometry1D
    Name/ru:FEM ElementGeometry1D
    MenuLocation:Model → Beam cross section

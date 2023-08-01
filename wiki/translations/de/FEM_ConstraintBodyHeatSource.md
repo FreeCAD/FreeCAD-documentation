@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM ConstraintBodyHeatSource
    Name/de:FEM RandbedingungKörperwärmequelle
    MenuLocation:Modell → Thermische Randbedingungen → Randbedingung Körperwärmequelle

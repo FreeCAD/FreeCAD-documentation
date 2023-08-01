@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
 
    Name:Sketcher Clone
    Name/de:Sketcher Klonen

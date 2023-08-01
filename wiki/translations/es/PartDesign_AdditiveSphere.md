@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign AdditiveSphere
    Name/es:DiseñoPiezas EsferaAditiva
    MenuLocation:Part Design → Crear una primitiva aditiva → Esfera aditiva

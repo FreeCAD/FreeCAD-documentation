@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Web BrowserStop
    Name/fr:Web Arrêter le chargement
    MenuLocation:

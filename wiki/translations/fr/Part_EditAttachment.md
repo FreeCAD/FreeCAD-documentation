@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part EditAttachment
    Name/fr:Part Ancrage
    MenuLocation:Part → Ancrage

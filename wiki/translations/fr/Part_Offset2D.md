@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Offset2D
    Name/fr:Part Décalage 2D
    MenuLocation:Part → Décalage 2D...

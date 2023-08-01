@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign SubtractiveWedge
    Name/pl:Projekt Części: Subtraktywny klin
    MenuLocation:Projekt Części → Utwórz cechę przez odjęcie → Subtraktywny klin

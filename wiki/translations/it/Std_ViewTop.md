@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_ViewTop
    Name/it:Vista dall'alto
    MenuLocation:Visualizza → Viste standard → Dall'alto

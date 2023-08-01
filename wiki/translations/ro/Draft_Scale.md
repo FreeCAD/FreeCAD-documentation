@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Draft Scale
    Name/ro:Draft Scale
    MenuLocation:Draft → Scale

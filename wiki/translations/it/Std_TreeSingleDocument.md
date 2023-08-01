@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_TreeSingleDocument
    Name/it:Documento singolo
    MenuLocation:Visualizza → Azioni della vista ad albero → Documento singolo

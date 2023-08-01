@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std MeasureDistance
    Name/de:Std AbstandMessen
    MenuLocation:Werkzeuge → Abstand messen

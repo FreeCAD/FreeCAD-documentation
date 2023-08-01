@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Субтрактивный тор
    Name:PartDesign_SubtractiveTorus
    MenuLocation:Part Design → Создать субтрактивный примитив → Субтрактивный тор

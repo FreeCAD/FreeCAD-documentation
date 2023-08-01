@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM MeshRegion
    Name/de:FEM Netzbereich
    MenuLocation:Netz → FEM mesh region

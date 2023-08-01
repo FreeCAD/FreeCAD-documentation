@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher SelectConflictingConstraints
    Name/de:Sketcher WidersprüchlicheRandbedingungenAuswählen
    MenuLocation:Skizze → Skizzenwerkzeuge → Widersprüchliche Randbedingungen auswählen

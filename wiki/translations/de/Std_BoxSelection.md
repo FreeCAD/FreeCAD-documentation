@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std BoxSelection
    Name/de:Std Rechteckauswahl
    MenuLocation:Bearbeiten → Rechteckauswahl

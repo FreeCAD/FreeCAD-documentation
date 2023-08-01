@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 ConstraintMidPoint
    Name/fr:Assembly3 Contrainte milieu
    Icon:Assembly_ConstraintMidPoint.svg

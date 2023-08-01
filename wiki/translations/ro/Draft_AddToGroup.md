@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Draft AddToGroup   Name/ro:Draft AddToGroup
    MenuLocation:Draft → Utilities → Add to groupà
    Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)

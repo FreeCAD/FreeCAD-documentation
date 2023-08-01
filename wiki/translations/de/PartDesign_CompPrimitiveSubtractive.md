@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign CompPrimitiveSubtractive
    Name/de:PartDesign AuswahlGrundkörperAbziehen
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)

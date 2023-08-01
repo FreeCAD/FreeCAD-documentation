@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch_Rebar_Straight
    Name/it:Armatura dritta
    MenuLocation:Arch → Strumenti armatura → Armatura dritta o BIM → 3D/BIM → Reinforcement → Straight Rebar

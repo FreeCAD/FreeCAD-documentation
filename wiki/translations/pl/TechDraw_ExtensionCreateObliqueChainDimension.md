@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw ExtensionCreateObliqueChainDimension
    Name/pl:Rysunek Techniczny: Rozszerzenie Seria wymiarów ukośnie
    MenuLocation:Rysunek Techniczny → Rozszerzenia: Wymiary → Seria wymiarów ukośnie

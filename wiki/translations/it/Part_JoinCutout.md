@@ -1,6 +1,6 @@
 # Part JoinCutout/it
 ---
-- GuiCommand:/it   Name:Part JoinCutout   Name/it:Asportazione   MenuLocation:Part → Congiungi → Asporta oggetto   Workbenches:[Version:0.16.5069   SeeAlso:[[Part_JoinConnect/it|Congiunzione](Part_Workbench/it___Part]].md), [Incastro](Part_JoinEmbed/it.md), [Operazioni booleane](Part_Boolean/it.md), [Spessore](Part_Thickness/it.md)---
+- GuiCommand:   Name:Part JoinCutout   Name/it:Asportazione   MenuLocation:Part → Congiungi → Asporta oggetto   Workbenches:[Version:0.16.5069   SeeAlso:[[Part_JoinConnect/it|Congiunzione](Part_Workbench/it___Part]].md), [Incastro](Part_JoinEmbed/it.md), [Operazioni booleane](Part_Boolean/it.md), [Spessore](Part_Thickness/it.md)---
 
 
 </div>

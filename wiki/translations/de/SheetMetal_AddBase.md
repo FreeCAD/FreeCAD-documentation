@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:SheetMetal AddBase
    Name/de:SheetMetal BasisprofilErstellen
    MenuLocation:SheetMetal → Make Base Wall

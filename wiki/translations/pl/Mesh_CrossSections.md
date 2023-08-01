@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh CrossSections
    Name/pl:Siatka: Wiele przekrojów
    MenuLocation:Siatki → Cięcie → Przekrój poprzeczny ...

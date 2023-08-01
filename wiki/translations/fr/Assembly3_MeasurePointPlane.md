@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 MeasurePointPlane
    Name/fr:Assembly3 Mesure point au plan
    Icon:Assembly_MeasurePointPlaneDistance.svg

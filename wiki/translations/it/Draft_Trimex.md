@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Trimex
    Name/it:Taglia/Estendi
    MenuLocation:Modifiche → Taglia/Estendi

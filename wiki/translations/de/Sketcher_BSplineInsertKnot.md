@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher BSplineInsertKnot
    Name/de:Sketcher BSplineInsertKnot
    MenuLocation:Sketch → Sketcher B-spline tools → Insert knot

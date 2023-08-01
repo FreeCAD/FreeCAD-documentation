@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ViewRotateRight
    Name/pl:Std: Odwróć widok w prawo
    MenuLocation:Widok → Widoki standardowe → Odwróć w prawo

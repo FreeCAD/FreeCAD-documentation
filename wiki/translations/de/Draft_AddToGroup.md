@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft AddToGroup
    Name/de:Draft ZurGruppeHinzufügen
    MenuLocation:Dienstprogramme → Zur Gruppe hinzufügen...

@@ -1,6 +1,6 @@
 # Sketcher CreateCircle/sv
 ---
-- GuiCommand:/sv   Name:Sketcher CreateCircle   Name/sv:Sketcher Circle   Workbenches:[MenuLocation:Sketch → Sketcher geometries → Create circle   SeeAlso:[[Sketcher CompCreateArc/sv|Sketcher Arc](Sketcher_Workbench/sv___Sketcher]].md)---
+- GuiCommand:   Name:Sketcher CreateCircle   Name/sv:Sketcher Circle   Workbenches:[MenuLocation:Sketch → Sketcher geometries → Create circle   SeeAlso:[[Sketcher CompCreateArc/sv|Sketcher Arc](Sketcher_Workbench/sv___Sketcher]].md)---
 
 
 </div>

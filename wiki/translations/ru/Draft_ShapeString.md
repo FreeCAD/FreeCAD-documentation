@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft ShapeString
    Name/ru:Draft ShapeString
    MenuLocation:Черчение → Текст в кривую ...

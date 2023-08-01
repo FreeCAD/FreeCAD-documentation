@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ToggleSelectability
    Name/fr:Std Basculer la sélectivité
    MenuLocation:Affichage → Visibilité → Basculer la sélectivité

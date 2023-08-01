@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Просмотр эскиза
    Name:Sketcher_ViewSketch
    MenuLocation:Sketch → Просмотр эскиза

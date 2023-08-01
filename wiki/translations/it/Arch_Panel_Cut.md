@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch Panel Cut
    Name/it:Arch Panel Cut
    MenuLocation:Arch → Strumenti pannello → Sagoma pannello

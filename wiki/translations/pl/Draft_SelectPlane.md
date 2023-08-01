@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft SelectPlane
    Name/pl:Rysunek Roboczy: Wybór płaszczyzny
    MenuLocation:Kreślenie → Przybory → Wybierz płaszczyznę

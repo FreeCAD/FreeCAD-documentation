@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Spreadsheet MergeCells
    Name/de:Kalkulationstabelle ZellenZusammenführen
    Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)

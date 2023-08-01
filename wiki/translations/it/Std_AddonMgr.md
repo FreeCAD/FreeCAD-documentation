@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_AddonMgr
    Name/it:Addon manager
    MenuLocation:Strumenti → Addon manager

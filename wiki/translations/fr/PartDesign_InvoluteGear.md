@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign InvoluteGear
    Name/fr:PartDesign Engrenage à développante
    Icon:PartDesign_InternalExternalGear.svg

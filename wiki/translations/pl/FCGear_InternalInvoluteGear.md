@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:FCGear InternalInvoluteGear
    Name/pl:FCGear: Wewnętrzna zębatka ewolwentowa
    MenuLocation:Gear → Wewnętrzna zębatka ewolwentowa

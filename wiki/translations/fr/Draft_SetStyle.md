@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft SetStyle
    Name/fr:Draft Définir le style
    MenuLocation:Utilitaires → Définir le style

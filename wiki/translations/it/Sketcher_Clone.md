@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher_Clone
    Name/it:Clona
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)

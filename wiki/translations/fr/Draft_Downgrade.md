@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Downgrade
    Name/fr:Draft Désagréger
    MenuLocation:Modification → Désagréger

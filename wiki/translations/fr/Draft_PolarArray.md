@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft PolarArray
    Name/fr:Draft Réseau polaire
    MenuLocation:Modification → Outils pour les réseaux → Réseau polaire

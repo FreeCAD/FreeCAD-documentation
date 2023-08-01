@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Spiral
    Name/pl:Część: Spirala
    MenuLocation:Część → Utwórz geometrie pierwotne ... → Spirala

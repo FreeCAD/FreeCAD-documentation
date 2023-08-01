@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Circle
    Name/de:Draft Kreis
    MenuLocation:Entwurf → Kreis

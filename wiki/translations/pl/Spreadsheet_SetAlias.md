@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Spreadsheet SetAlias
    Name/pl:Arkusz Kalkulacyjny: Definiuj alias
    MenuLocation:-

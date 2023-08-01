@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch_Rebar_Dimensioning
    Name/it:Dimensiona un'armatura
    MenuLocation:Arch → Armatura

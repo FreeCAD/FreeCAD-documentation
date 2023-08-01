@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft SelectGroup
    Name/fr:Draft Sélection groupée
    MenuLocation:Utilitaires → Sélection d'un groupe

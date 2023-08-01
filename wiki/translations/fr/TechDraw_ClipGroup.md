@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ClipGroup
    Name/fr:TechDraw Fenêtre de rognage
    MenuLocation:TechDraw → Insérer une fenêtre de rognage

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft CubicBezCurve
    Name/it:Curva di Bézier cubica
    MenuLocation:Drafting → Strumenti Bezier → Curva di Bézier cubica

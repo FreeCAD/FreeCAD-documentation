@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch IfcSpreadsheet
    Name/de:Arch_ErstelleIfcTabellenblatt
    Workbenches:[Arch](Arch_Workbench/de.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Drawing Open SVG
    Name/ru:Drawing Open SVG
    Workbenches:[Drawing](Drawing_Workbench/ru.md), Complete

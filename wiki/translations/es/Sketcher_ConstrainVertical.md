@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Icon:Constraint Vertical.svg
    Name/es:Restricción de verticalidad
    Workbenches:[Sketch](Sketcher_Workbench/es.md)

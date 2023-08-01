@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Draft Rotate
    Name/ro:Draft Rotate
    MenuLocation:Draft → Rotate

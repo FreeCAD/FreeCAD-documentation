@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:SheetMetal UnattendedUnfold
    Name/de:SheetMetal AbwickelnOhneEingabe
    MenuLocation:SheetMetal → Unattended Unfold

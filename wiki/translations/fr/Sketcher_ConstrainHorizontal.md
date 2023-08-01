@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher ConstrainHorizontal
    Name/fr:Sketcher_Contrainte horizontale
    MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte horizontale

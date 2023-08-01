@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Макрос
    Name:Std_DlgMacroExecute
    MenuLocation:Макрос → Макросs...

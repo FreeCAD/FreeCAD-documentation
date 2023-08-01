@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Spreadsheet StyleUnderline
    Name/de:Kalkulationstabelle StilUnterstrichen
    Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)

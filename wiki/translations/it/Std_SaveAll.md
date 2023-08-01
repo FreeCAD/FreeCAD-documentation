@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_SaveAll
    Name/it:Salva tutto
    MenuLocation:File → Salva tutto

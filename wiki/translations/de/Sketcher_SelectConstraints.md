@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher SelectConstraints
    Name/de:Sketcher SelectConstraints
    MenuLocation:Skizze → Skizzen-Werkzeuge → Zugehörige Elemente auswählen

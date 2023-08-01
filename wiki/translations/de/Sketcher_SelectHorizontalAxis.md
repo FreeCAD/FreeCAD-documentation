@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher SelectHorizontalAxis
    Name/de:Sketcher HorizontaleAchseAuswählen
    MenuLocation:Skizze → Skizzenwerkzeuge → Horizontale Achse auswählen

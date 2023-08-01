@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch AxisSystem
    Name/fr:Arch Système d'axes
    MenuLocation:Arch → Outils pour les axes → Système d'axes

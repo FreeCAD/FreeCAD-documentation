@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_Group   Name/it:Crea Gruppo
    MenuLocation:Vista ad albero → Cliccare col destro sul nome del documento → Crea gruppo
    |Workbenches:Tutti

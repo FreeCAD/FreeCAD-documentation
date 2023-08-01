@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw VerticalDimension
    Name/pl:Rysunek Techniczny: Wstaw wymiar pionowy
    MenuLocation:Rysunek Techniczny → Wymiary → Wstaw wymiar pionowy

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Snap WorkingPlane
    Name/ru:Draft Snap WorkingPlane
    MenuLocation:Черчение → [Привязка](Draft_Snap/ru.md) → К рабочей плоскости

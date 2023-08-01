@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft Scale
    Name/pl:Rysunek Roboczy: Skaluj
    MenuLocation:Modyfikacja → Skala

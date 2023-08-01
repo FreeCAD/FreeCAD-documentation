@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Arch Schedule
    Name/ro:Arch Schedule
    MenuLocation:Arch → Schedule

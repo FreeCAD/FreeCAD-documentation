@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher ConstrainParallel
    Name/es:Croquizador RestringirParallel
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)

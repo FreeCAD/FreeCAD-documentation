@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part CompCompoundTools
    Name/fr:Part Composés
    MenuLocation:Part → Composés

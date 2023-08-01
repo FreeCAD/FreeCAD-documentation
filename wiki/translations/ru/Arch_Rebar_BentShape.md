@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Изогнутая арматура
    Name:Arch_Rebar_BentShape
    MenuLocation:Arch → Rebar tools → Bent-Shape Rebar<br>3D/BIM → Reinforcement tools → Bent-Shape Rebar

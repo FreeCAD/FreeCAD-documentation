@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ja
+- GuiCommand:
    Name:Sketcher Arc
    Name/ja:中心点から円弧を作成
    Workbenches:[スケッチャー](Sketcher_Workbench/ja.md)

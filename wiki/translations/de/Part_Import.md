@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Import‏‎
    Name/de:Part Import
    MenuLocation:Part → Import CAD

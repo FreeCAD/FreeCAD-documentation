@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Part Sweep
    Name/ro:Part Sweep
    MenuLocation:Part → Sweep...

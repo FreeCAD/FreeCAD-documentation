@@ -1,6 +1,6 @@
 # Draft Snap Angle/tr
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Snap Angle
    Name/tr:Açı
    Workbenches:[Taslak](Draft_Workbench.md), [Yapı](Arch_Workbench.md)

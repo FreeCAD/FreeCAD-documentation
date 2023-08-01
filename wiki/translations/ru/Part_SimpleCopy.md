@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать простую копию‎
    Name:Part_SimpleCopy‎
    MenuLocation:Part → Создать копию → Создать простую копию

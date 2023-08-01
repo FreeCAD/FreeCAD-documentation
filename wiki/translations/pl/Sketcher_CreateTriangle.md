@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher CreateTriangle
    Name/pl:Szkicownik: Utwórz trójkąt równoboczny
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz trójkąt równoboczny

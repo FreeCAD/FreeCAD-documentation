@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part_Offset
    Name/ru:Смещение 3D
    MenuLocation:Деталь → Смещение 3D

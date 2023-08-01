@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Offset
    Name/fr:Draft Décalage
    MenuLocation:Modification → Décalage

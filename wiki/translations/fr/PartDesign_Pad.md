@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign Pad
    Name/fr:PartDesign Protrusion 
    MenuLocation:Part Design → Créer une fonction additive → Protrusion

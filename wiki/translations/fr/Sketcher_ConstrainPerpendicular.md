@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher ConstrainPerpendicular
    Name/fr:Sketcher Contrainte perpendiculaire
    MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte perpendiculaire

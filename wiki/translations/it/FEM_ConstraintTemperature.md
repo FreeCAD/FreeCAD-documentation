@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FEM_ConstraintTemperature
    Name/it:Vincolo temperatura
    MenuLocation:Modello → Vincoli termici → Vincolo temperatura

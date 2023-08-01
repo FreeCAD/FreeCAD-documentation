@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Split
    Name/ru:Draft Split
    MenuLocation:Draft → Split

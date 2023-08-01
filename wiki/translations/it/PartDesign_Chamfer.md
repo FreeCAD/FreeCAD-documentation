@@ -1,6 +1,6 @@
 # PartDesign Chamfer/it
 ---
-- GuiCommand:/it   Name:PartDesign Chamfer
+- GuiCommand:   Name:PartDesign Chamfer
    Name/it:Smusso
    Workbenches:[PartDesign](PartDesign_Workbench/it.md)
    MenuLocation:PartDesign → Smusso

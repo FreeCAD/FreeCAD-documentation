@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name/ro:Sketcher Creaţi un arc de hiperbolă 
    Icon:Sketcher Hyperbolic Arc.png
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)

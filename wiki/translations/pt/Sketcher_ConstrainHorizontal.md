@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pt
+- GuiCommand:
    Name:Constraint Horizontal
    Name/pt:Constraint Horizontal
    Workbenches:[Sketcher](Sketcher_Workbench/pt.md)

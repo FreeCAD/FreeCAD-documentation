@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Ellipse
    Name/de:Part Ellipse
    MenuLocation:Formteil → [Grundkörper erstellen...](Part_CreatePrimitives/de.md) → Ellipse

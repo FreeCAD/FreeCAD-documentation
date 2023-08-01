@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign SubtractivePrism
    Name/de:PartDesign PrismaAbziehen
    MenuLocation:Part Design → Grundkörper abziehen → Prisma

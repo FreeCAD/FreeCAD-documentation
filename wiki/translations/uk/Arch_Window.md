@@ -1,6 +1,6 @@
 # Arch Window/uk
 ---
-- GuiCommand:/uk   Name:Arch Window   Name/uk:Arch Window   Workbenches:[MenuLocation:Arch → Window   Shortcut:W I   SeeAlso:[[Arch Wall/uk|Arch Wall](Arch_Workbench/uk___Arch]].md)---
+- GuiCommand:   Name:Arch Window   Name/uk:Arch Window   Workbenches:[MenuLocation:Arch → Window   Shortcut:W I   SeeAlso:[[Arch Wall/uk|Arch Wall](Arch_Workbench/uk___Arch]].md)---
 
 
 </div>

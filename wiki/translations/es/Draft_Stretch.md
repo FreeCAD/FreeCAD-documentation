@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft Stretch
    Name/es:Draft Stretch
    MenuLocation:Draft → Stretch

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Curves EditableSpline
    Name/fr:Curves Modifier une B-spline
    MenuLocation:Curves → Freehand BSpline

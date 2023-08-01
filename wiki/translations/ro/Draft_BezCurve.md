@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Draft BezCurve
    Name/ro:Draft BezCurve
    MenuLocation:Draft → BezCurve

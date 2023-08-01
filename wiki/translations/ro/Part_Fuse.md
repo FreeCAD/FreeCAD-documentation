@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name/ro:Part Union
    Icon:Part Fuse.png
    MenuLocation:Part → Boolean → Union

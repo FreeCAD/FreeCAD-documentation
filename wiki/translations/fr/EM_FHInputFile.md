@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:EM FHInputFile
    Name/fr:EM Fichier entrée FH
    MenuLocation:EM → FHInputFile

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Фигура вращения
    Name:PartDesign_Revolution
    MenuLocation:PartDesign → Create an additive feature → Фигура вращения

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Ограничение sectionprint
    Name:FEM_ConstraintSectionPrint
    MenuLocation: Model → Geometrical Constraints → Constraint section print

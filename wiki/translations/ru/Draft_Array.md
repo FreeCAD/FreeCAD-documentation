@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Array
    Name/ru:Draft Array
    MenuLocation:Черчение → Массив

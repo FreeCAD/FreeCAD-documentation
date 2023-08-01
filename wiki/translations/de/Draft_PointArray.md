@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft PointArray
    Name/de:Draft PunktAnordnung
    MenuLocation:Änderung → Array tools →  Punkt-Anordnung

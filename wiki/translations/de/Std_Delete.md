@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std Delete
    Name/de:Std Löschen
    MenuLocation:Bearbeiten → Löschen

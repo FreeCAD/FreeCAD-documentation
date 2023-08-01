@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part RegularPolygon
    Name/pl:Część: Wielokąt foremny
    MenuLocation:Część → Utwórz geometrie pierwotne ... → Wielokąt foremny

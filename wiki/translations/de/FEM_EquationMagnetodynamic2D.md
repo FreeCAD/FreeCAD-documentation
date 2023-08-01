@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM EquationMagnetodynamic2D
    Name/de:FEM GleichungElektrodynamik2D
    MenuLocation:Solve → Electromagnetic Equations → Magnetodynamic2D equation

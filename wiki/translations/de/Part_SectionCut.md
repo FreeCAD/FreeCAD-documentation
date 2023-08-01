@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part SectionCut
    Name/de:Part Schnittansicht
    MenuLocation:Ansicht → Dauerhafte Schnittdarstellung

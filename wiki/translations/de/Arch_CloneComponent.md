@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch CloneComponent
    Name/de:Arch KomponenteKlonen‏‎‏‎
    MenuLocation:Arch → Dienstprogramme → Komponente klonen

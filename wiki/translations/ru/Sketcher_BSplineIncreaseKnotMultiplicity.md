@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Увеличение кратности узлов
    Name:Sketcher_BSplineIncreaseKnotMultiplicity
    MenuLocation:Sketch → B-сплйан инструменты эскиза → Увеличение кратности узлов

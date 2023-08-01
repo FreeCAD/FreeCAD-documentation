@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw RichTextAnnotation
    Name/it:Blocco di testo
    MenuLocation:TechDraw → Annotazioni → Blocco di testo

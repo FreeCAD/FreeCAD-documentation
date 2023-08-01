@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign SubtractiveCone
    Name/de:PartDesign KegelAbziehen
    MenuLocation:Part Design →  Grundkörper abziehen → Kegel

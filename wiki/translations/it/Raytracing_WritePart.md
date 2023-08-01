@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Raytracing WritePart
    Name/it:Raytracing WritePart
    MenuLocation:Raytracing → Utilità → Esporta la parte in POV-Ray

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Arch Component‏‎‏‎
    Name/ru:Arch Component‏‎‏‎
    Icon:Arch_Component.svg

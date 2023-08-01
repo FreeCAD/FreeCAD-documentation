@@ -1,6 +1,6 @@
 # Ship Capacity/ru
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Ship TankCapacity
    Name/ru:Ship TankCapacity
    MenuLocation:Weights → Tank capacity curve

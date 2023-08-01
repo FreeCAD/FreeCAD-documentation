@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher DeleteAllConstraints
    Name/de:Sketcher AlleRandbedingungenLöschen
    MenuLocation:Skizze → Skizzen-Werkzeuge → Alle Randbedingungen löschen

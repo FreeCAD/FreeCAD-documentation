@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Моделирование траектории
    MenuLocation:Робот → Моделирование траектории
    Workbenches:[Робот](Robot_Workbench/ru.md)

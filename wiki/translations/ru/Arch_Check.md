@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Arch Check
    Name/ru:Arch Check
    Workbenches:[Arch](Arch_Workbench/ru.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Обновить
    Name:Std_Refresh
    MenuLocation:Правка → Обновить

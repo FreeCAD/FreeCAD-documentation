@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Part Loft
    Name/ro:Part Loft
    MenuLocation:Part → Loft...

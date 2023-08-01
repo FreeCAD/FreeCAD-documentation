@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Rebar Stirrup
    Name/fr:Arch Rebar Armature en étrier
    MenuLocation:Arch → Outils pour les armatures → Armature en étrier<br>3D/BIM → Reinforcement tools → Armature en étrier

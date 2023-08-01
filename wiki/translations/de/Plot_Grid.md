@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Plot Grid
    Name/de:Plot Raster
    MenuLocation:Plot → Show/hide grid‏‎

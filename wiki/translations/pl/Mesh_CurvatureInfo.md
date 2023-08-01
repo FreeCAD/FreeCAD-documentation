@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh_CurvatureInfo
    Name/pl:Mesh: Informacje o krzywiźnie
    MenuLocation:Meshes → Analizuj → Informacja o krzywiźnie

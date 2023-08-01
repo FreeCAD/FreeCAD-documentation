@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Dimension
    Name/tr:Boyut
    MenuLocation:Taslak → Boyut

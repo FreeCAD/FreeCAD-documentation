@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch PipeConnector
    Name/it:Raccordo
    MenuLocation:Arch → Tubazioni → Raccordo

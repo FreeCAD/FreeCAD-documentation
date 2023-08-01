@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ViewIvIssueCamPos
    Name/de:Std AnsichtKamerapositionAusgeben
    MenuLocation:Ansicht → Stereo → Kameraposition ausgeben

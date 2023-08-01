@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std DlgCustomize
    Name/de:Std DlgAnpassen
    MenuLocation:Werkzeuge → Benutzerdefiniert...

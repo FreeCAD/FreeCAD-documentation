@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher ValidateSketch
    Name/es:Croquizador ValidarCroquis
    MenuLocation:Croquizador → Validar Croquis

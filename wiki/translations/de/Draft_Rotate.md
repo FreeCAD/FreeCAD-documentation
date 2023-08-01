@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Rotate
    Name/de:Draft Drehen
    MenuLocation:Änderung → Drehen

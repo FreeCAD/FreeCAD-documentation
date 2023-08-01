@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Part CompSplittingTools
    Name:Part CompSplittingTools
    MenuLocation:Деталь → Разделить

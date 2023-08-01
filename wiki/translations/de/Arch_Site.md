@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Site
    Name/de:Arch Grundstück
    Workbenches:[Arch](Arch_Workbench/de.md)

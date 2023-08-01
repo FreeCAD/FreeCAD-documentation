@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch CompSetMaterial
    Name/it:Materiali
    MenuLocation:Arch → Materiali

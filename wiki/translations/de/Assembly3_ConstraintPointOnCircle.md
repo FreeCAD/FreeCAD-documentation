@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 ConstraintPointOnCircle
    Name/de:Assembly3 PunktAufKreis
    Icon:Assembly_ConstraintPointOnCircle.svg

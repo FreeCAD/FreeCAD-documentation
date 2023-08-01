@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:TechDraw View
    Name/es:TechDraw Vista
    MenuLocation:TechDraw → Insertar Vista

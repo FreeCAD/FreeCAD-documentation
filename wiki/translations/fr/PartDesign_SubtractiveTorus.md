@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign SubtractiveTorus
    Name/fr:PartDesign Tore soustractif
    MenuLocation:Part Design → Créer une  primitive soustractive → Tore soustractif

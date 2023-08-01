@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw MoveView
    Name/pl:Rysunek Techniczny: Przesuń widok
    MenuLocation:Rysunek Techniczny → Widoki → Przesuń widok

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 TogglePartVisibility
    Name/fr:Assembly3 Basculer la visibilité de pièces
    Icon:Assembly_TogglePartVisibility.svg‎‎

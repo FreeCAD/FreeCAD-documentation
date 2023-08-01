@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Points Merge
    Name/de:Points Zusammenführen
    MenuLocation:Punkte → Punktwolken zusammenführen

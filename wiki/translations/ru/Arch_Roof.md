@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Arch_Roof
    Name/ru:Крыша
    MenuLocation:Архитектура → Крыша

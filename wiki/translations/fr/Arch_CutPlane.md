@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch CutPlane
    Name/fr:Arch Couper selon un plan
    MenuLocation:Arch → Couper selon un plan

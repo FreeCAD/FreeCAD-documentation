@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh_RemoveComponents
    Name/fr:Mesh Supprimer des composants
 ‎   MenuLocation:Maillages → Supprimer des composants...

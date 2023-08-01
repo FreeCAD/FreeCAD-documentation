@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft PathLinkArray
    Name/de:Draft PfadVerknüpfungsanordnung
    MenuLocation:Änderung → Array tools → Pfad-Verknüpfungsanordnung

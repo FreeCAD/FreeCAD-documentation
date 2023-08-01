@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ViewZoomOut
    Name/pl:Std: Oddal widok
    MenuLocation:Widok → Powiększenie → Oddal

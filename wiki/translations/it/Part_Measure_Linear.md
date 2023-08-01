@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Part Measure Linear
    Name/it:Misura Lineare
    MenuLocation:[Misure](Std_Measure_Menu/it.md) → Misura Lineare‏‎

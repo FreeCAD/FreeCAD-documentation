@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Spreadsheet_AlignTop
    Name/it:Allinea in alto
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Отверстие
    Name:PartDesign_Hole
    MenuLocation:Part Design → Create a substractive feature → Отверстие

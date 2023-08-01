@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Sketcher Circles
    Name/ru:Создать окружность
    Icon:Sketcher_CompCreateCircle.png

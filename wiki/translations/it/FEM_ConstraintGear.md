@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FEM_ConstraintGear
    Name/it:Vincolo ingranaggio
    MenuLocation:Modello → Vincoli meccanici → Vincolo ingranaggio

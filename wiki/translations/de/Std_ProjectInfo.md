@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ProjectInfo
    Name/de:Std Projektinformationen
    MenuLocation:Datei → Projektinformationen...

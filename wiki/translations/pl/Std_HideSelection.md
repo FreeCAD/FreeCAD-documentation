@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std HideSelection
    Name/pl:Std: Ukryj zaznaczone
    MenuLocation:Widok → Widoczność → Ukryj zaznaczone

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Wedge
    Name/de:Part Keil
    MenuLocation:Formteil → [Grundkörper erstellen...](Part_Primitives/de.md) → Keil

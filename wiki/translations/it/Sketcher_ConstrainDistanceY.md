@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher ConstrainDistanceY
    Name/it:Distanza Verticale   Workbenches:[Sketcher](Sketcher_Workbench/‭it.md)
    MenuLocation:Sketch → Vincoli → Distanza verticale

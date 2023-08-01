@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Point
    Name/fr:Part Point
    MenuLocation:Part → [Créer des primitives...](Part_Primitives/fr.md) → Point

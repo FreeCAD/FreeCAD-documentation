@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std Undo
    Name/de:Std Rückgängig
    MenuLocation:Bearbeiten → Rückgängig

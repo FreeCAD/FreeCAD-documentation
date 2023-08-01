@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM EquationElasticity
    Name/de:FEM Elastizitätsgleichung
    MenuLocation:Lösen → Mechanical equations → Elasticity equation

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Shape2DView
    Name/tr:2D görünüme çevir
    MenuLocation:Draft → Shape 2D View

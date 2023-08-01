@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:SheetMetal UnattendedUnfold
    Name/fr:SheetMetal Déplier sans assistance
    MenuLocation:SheetMetal → Unattended Unfold

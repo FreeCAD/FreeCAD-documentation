@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Part Sphere
    Name/ro:Part Sphere
    MenuLocation:Part -> Sphere

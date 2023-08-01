@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher Copy
    Name/fr:Sketcher Copie
    MenuLocation:Esquisse → Outils d'esquisse → Copie

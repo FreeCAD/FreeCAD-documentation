@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher CreateLine
    Name/it:Linea
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)

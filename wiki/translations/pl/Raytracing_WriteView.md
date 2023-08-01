@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Raytracing WriteView
    Name/pl:Raytracing: Eksport‏‎ widoku
    MenuLocation:Raytracing  → Narzędzia → Eksportowanie widoku do POV-Ray...

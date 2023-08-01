@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Arch SectionPlane
    Name/tr:Arch SectionPlane
    MenuLocation:Arch → Section Plane

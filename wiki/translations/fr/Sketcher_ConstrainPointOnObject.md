@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher ConstrainPointOnObject
    Name/fr:Sketcher Contrainte point sur objet
    MenuLocation:Esquisse → Contraintes d'esquisse  → Contrainte point sur objet

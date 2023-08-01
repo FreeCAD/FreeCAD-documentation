@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Mesh_CurvatureInfo
    Name/it:Dettagli curvatura
    MenuLocation:Mesh → Analizza → Dettagli curvatura

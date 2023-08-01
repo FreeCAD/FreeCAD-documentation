@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw SpreadsheetView
    Name/de:TechDraw Tabellenansicht
    MenuLocation:TechDraw → Views From Other Workbenches → Tabellenansicht einfügen

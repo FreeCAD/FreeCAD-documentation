@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Spreadsheet_AlignBottom
    Name/it:Allinea in basso
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std Quit
    Name/fr:Std Quitter
    MenuLocation:Fichier → Quitter

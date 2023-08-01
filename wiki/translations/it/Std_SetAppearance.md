@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std SetAppearance
    Name/it:Impostare l'aspetto degli oggetti
    MenuLocation:Visualizza → Aspetto...

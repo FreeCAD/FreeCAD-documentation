@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM Examples
    Name/de:FEM Beispiele
    MenuLocation:Dienstprogramme → Freie FEM-Beispiele

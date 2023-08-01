@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Уместить всё
    Name:Std_ViewFitAll
    MenuLocation:Вид → Стандартные виды‏‎ → Уместить всё

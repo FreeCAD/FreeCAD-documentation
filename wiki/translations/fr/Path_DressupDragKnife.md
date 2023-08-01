@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path DressupDragKnife
    Name/fr:Path Lame rotative
    MenuLocation:Path → Finition du parcours → Lame rotative

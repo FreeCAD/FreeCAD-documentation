@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch Equipment
    Name/es:Arch Equipment
    Workbenches:[Arch](Arch_Workbench/es.md)
@@ -14,7 +14,7 @@
 </div>
 
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch Equipment
    Name/es:Arch Equipment
    Workbenches:[Arch](Arch_Workbench/es.md)

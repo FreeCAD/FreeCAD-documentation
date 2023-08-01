@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign Pad
    Name/es:DiseñoPieza Pastilla
    MenuLocation:DiseñoPieza → Crear una característica aditiva → Pastilla

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать траекторию
    Name:Robot_SetDefaultOrientation
    MenuLocation:Робот → Установить ориентацию по умолчанию

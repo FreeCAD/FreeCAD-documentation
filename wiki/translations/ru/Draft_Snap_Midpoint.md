@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Midpoint
    Name/ru:Draft Midpoint
    MenuLocation:Черчение → [Привязка](Draft_Snap/ru.md) → Середина

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std StoreWorkingView
    Name/de:Std ArbeitsansichtSpeichern
    MenuLocation:View → Standardansichten → Arbeitsansicht speichern

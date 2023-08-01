@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign Pocket
    Name/es:DiseñoPieza Cajera
    MenuLocation:DiseñoPieza → Crear una característica substractivo → Cajera

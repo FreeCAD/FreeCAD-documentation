@@ -1,6 +1,6 @@
 # Draft Polygon/cs
 ---
-- GuiCommand:/cs   Name:Draft Polygon   Name/cs:Draft Polygon   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft -> Polygon   Shortcut:P G---
+- GuiCommand:   Name:Draft Polygon   Name/cs:Draft Polygon   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft -> Polygon   Shortcut:P G---
 
 
 </div>

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch_MakeIfcSpreadsheet
    Name/it:Crea un foglio di calcolo Ifc
    Icon:Arch_Schedule.svg

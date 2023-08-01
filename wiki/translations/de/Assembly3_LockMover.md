@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 LockMover
    Name/de:Assembly3 BewegungVerhindern
    Icon:Assembly_LockMover.svg‎‎

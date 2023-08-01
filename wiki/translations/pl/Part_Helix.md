@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Helix
    Name/pl:Część: Helisa
    MenuLocation:Część → Utwórz geometrie pierwotne ... → Helisa

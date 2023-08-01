@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign Migrate
    Name/fr:PartDesign Migrer
    MenuLocation:Part Design → Migrer

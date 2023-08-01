@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Measure Angular
    Name/de:Part Messung Winkel
    MenuLocation:Messen → Winkel messen

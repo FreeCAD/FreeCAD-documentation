@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Выровнять по левому краю
    Name:Spreadsheet_AlignLeft
    MenuLocation:Электронная таблица → Alignment → Выровнять по левому краю

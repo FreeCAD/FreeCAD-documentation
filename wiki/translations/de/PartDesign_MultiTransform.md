@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign MultiTransform
    Name/de:PartDesign MultiTransform
    MenuLocation:Part Design → Muster anwenden → Mehrfach-Transformation erstellen

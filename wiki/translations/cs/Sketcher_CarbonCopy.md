@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/cs
+- GuiCommand:
    Name/cs:Sketcher Kopie náčrtu
    Icon:Sketcher CarbonCopy.svg
    MenuLocation:Sketch → Geometrie skici → Kopie náčrtu

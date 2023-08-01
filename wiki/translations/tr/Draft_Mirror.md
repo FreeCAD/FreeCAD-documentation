@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Mirror
    Name/tr:Yansıt
    MenuLocation:Draft → Mirror

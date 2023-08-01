@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Установка значений по умолчанию
    Name:Robot_SetDefaultValues
    MenuLocation:Робот → Установка значений по умолчанию

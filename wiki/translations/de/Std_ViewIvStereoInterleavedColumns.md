@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ViewIvStereoInterleavedColumns
    Name/de:Std AnsichtStereoVersetzteSpalten
    MenuLocation:Ansicht → Stereo → Vertikales Interlacing

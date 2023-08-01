@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher ConstrainTangent
    Name/pl:Szkicownik: Wiązanie styczności
    MenuLocation:Sketch → Wiązania szkicownika → Wiązanie styczności

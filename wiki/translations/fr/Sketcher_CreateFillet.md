@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher CreateFillet
    Name/fr:Sketcher Congé
    MenuLocation:Esquisse → Géométries d'esquisse → Congé d'esquisse

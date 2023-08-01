@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std_MacroStopRecord
    Name/ru:Остановить запись макроса
    MenuLocation:Макросы → Остановить запись макроса

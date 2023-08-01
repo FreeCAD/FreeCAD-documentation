@@ -1,6 +1,6 @@
 # Plot Legend/tr
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name/tr:Yazıt
    MenuLocation:Arsa → Yazıt
 ‏‎   |Workbenches:[Arsa](Plot_Workbench/tr.md)

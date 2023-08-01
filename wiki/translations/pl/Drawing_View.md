@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Drawing View
    Name/pl:Kreślenie: Widok
    Workbenches:[Kreślenie](Drawing_Workbench/pl.md)

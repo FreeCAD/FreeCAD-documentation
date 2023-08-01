@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 AddXZWorkplane
    Name/fr:Assembly3 Ajouter un plan de travail XZ
    Icon:Assembly_Add_WorkplaneXZ.svg‎‎

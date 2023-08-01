@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Offset
    Name/de:Draft Versatz
    MenuLocation:Änderung → Versatz

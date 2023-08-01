@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Spreadsheet AlignLeft
    Name/de:Kalkulationstabelle LinksAusrichten
    MenuLocation:Kalkulationstabelle → Ausrichtung → LinksAusrichten

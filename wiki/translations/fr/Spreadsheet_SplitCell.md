@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Spreadsheet SplitCell
    Name/fr:Spreadsheet Diviser une cellule
    MenuLocation:Spreadsheet → Diviser la cellule

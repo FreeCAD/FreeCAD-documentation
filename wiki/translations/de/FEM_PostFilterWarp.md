@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM PostFilterWarp
    Name/de:FEM NachbereitungFilterVerformung
    MenuLocation:Ergebnisse → Verformungsfilter

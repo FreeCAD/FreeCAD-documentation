@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher CreateArcOfHyperbola
    Name/fr:Sketcher Créer un arc d'hyberbole
    MenuLocation:Esquisse → Géométries d'esquisse → Créer un arc d'hyberbole

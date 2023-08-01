@@ -1,6 +1,6 @@
 # Draft Move/sv
 ---
-- GuiCommand:/sv   Name:Draft Move   Name/sv:Draft Move   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> Move   Shortcut:M V---
+- GuiCommand:   Name:Draft Move   Name/sv:Draft Move   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> Move   Shortcut:M V---
 
 
 </div>

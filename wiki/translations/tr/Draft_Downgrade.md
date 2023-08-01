@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Downgrade
    Name/tr:Düşür
    MenuLocation:Draft → Downgrade

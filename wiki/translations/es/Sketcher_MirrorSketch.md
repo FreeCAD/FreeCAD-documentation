@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher MirrorSketch
    Name/es:Croquizador SimetríaCroquis
    MenuLocation:Croquis → SimetríaCroquis

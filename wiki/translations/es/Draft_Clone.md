@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft Clone
    Name/es:Borrador Clon
    MenuLocation:Modificación → Clon

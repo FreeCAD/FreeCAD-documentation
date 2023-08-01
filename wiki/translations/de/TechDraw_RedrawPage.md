@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw RedrawPage
    Name/de:TechDraw SeiteNeuZeichnen
    MenuLocation:TechDraw → Page → Seite neu zeichnen

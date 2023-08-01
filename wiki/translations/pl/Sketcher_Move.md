@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher Move
    Name/pl:Szkicownik: Przesuń
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Przesuń

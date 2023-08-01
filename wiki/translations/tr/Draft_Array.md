@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Array
    Name/tr:Dizi
    MenuLocation:Taslak → Dizi

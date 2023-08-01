@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft_ShapeString
    Name/it:Forma da testo
    MenuLocation:Drafting → Forma da testo

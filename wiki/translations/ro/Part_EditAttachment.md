@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name/ro:Part Attachment
    Empty:1
    Workbenches:[Part](Part_Workbench.md), [PartDesign](PartDesign_Workbench.md)

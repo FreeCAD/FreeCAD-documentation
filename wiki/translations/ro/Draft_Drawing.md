@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Draft Drawing
    Name/ro:Draft Drawing
    MenuLocation:Drafting → Drawing

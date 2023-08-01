@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std SelectAll
    Name/ko:표준 모두 선택
    MenuLocation:편집 → 모두 선택

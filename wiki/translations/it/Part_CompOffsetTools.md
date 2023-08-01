@@ -1,6 +1,6 @@
 # Part CompOffsetTools/it
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Part CompOffsetTools
    Name/it:Strumenti offset
    MenuLocation:Part → Strumenti offset

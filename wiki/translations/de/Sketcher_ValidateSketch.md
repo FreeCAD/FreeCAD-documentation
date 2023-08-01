@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher ValidateSketch
    Name/de:Sketcher SkizzeÜberprüfen
    MenuLocation:Sketch → Skizze überprüfen…

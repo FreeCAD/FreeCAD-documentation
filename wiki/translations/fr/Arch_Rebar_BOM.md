@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Rebar BOM
    Name/fr:Arch Rebar Nomenclature armature
    MenuLocation:Reinforcement → Bill Of Material

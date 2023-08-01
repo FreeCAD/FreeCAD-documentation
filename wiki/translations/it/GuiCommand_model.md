@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Base ExampleCommandModel
    Name/it:Esempio di comando
    Icon:

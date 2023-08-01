@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft OrthoArray
    Name/es:Borrador ArregloOrtogonal
    MenuLocation:Modificación → Herramientas de  Arreglo → Arreglo

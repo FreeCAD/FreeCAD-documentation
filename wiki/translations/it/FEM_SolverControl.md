@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FEM SolverControl
    Name/it:Imposta il risolutore
    MenuLocation:Soluzione → Imposta il risolutore

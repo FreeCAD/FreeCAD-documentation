@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FCGear LanternGear
    Name/fr:FCGear Pignon lanterne
    MenuLocation:Gear → Lantern Gear

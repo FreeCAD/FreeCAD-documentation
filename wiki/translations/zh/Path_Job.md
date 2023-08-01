@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/zh
+- GuiCommand:
    Name:Path Job
    Name/zh:刀路作业
    Workbenches:[Path](Path_Workbench.md)

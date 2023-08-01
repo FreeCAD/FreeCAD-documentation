@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign AdditiveWedge
    Name/pl:Projekt Części: Addytywny klin
    MenuLocation:Projekt Części → Utwórz cechę przez dodanie → Addytywny klin

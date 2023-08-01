@@ -1,6 +1,6 @@
 # Std New/es
 ---
-- GuiCommand:/es   Name:Std New   MenuLocation:Archivo -> Nuevo   Workbenches:Todos   SeeAlso:[[Std_Open/es]],[[Std_Import/es]]---
+- GuiCommand:   Name:Std New   MenuLocation:Archivo -> Nuevo   Workbenches:Todos   SeeAlso:[[Std_Open/es]],[[Std_Import/es]]---
 
 
 </div>

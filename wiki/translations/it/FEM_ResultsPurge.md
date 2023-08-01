@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FEM ResultsPurge
    Name/it:Azzera risultati
    MenuLocation:Risultati → Azzera risultati

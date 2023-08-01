@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Curves ParametricComb
    Name/de:Curves Parameterkamm
    MenuLocation:Curves → Comb plot

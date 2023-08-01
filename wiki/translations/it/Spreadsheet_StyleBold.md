@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Spreadsheet StyleBold
    Name/it:Grassetto
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft FlipDimension
    Name/ru:Draft FlipDimension
    MenuLocation:Черчение → Утилиты → Перевернуть размер

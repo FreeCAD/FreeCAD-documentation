@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Mesh Export
    Name/de:Polygonnetz Export
    MenuLocation:Polygonnetze → Polygonnetz exportieren...

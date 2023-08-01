@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft BSpline
    Name/ru:Draft BSpline
    MenuLocation:Черчение → B-сплайн

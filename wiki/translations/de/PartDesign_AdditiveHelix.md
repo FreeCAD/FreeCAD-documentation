@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign AdditiveHelix
    Name/de:PartDesign WendelHinzufügen
    MenuLocation:Part Design → Objekte hinzufügen → Wendel

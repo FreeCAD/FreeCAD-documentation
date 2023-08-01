@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw ShowAll
    Name/de: TechDraw AllesAnzeigen
    MenuLocation:TechDraw → Linien hinzufügen → Ausgeblendete Kanten ein-/ausblenden

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher Symmetry
    Name/pl:Szkicownik: Odbicie lustrzane
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Odbicie lustrzane

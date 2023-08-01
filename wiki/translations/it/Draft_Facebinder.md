@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Facebinder
    Name/it:Lega facce
    MenuLocation:Drafting → Lega facce

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Преобразовать геометрию в B-Сплайн
    Name:Sketcher_BSplineApproximate
    MenuLocation:Sketch → Эскизирование B-spline tools → Преобразовать геометрию в B-Сплайн

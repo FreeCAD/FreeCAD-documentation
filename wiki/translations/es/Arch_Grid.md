@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch Grid
    Name/es:Arch Grid
    MenuLocation:Arch → Axis tools → Grid

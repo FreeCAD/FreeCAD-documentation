@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh FromPartShape
    Name/pl:Siatka: Utwórz siatkę z kształtu
    MenuLocation:Siatki → Utwórz siatkę z kształtu ...

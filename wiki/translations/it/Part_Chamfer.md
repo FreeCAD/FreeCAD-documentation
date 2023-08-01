@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Part_Chamfer
    Name/it:Smussa
    MenuLocation:Parte → Smussa...

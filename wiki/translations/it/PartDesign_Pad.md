@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:PartDesign Pad
    Name/it:PartDesign Estrusione
    MenuLocation:Part Design → Crea una funzione additiva → Estrusione

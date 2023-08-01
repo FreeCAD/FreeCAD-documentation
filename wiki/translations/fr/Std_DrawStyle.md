@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std DrawStyle
    Name/fr:Std Style de représentation
    MenuLocation:Affichage → Style de représentation → ...

@@ -1,6 +1,6 @@
 # Part Builder/cs
 ---
-- GuiCommand:/cs   Name:Part Shapebuilder   Name/cs:Part Shapebuilder   MenuLocation:Part -> Shapebuilder...   |Workbenches:[SeeAlso:[[Part_CreatePrimitives/cs|Part CreatePrimitives](Part_Workbench/cs___Part]].md)---
+- GuiCommand:   Name:Part Shapebuilder   Name/cs:Part Shapebuilder   MenuLocation:Part -> Shapebuilder...   |Workbenches:[SeeAlso:[[Part_CreatePrimitives/cs|Part CreatePrimitives](Part_Workbench/cs___Part]].md)---
 
 
 </div>

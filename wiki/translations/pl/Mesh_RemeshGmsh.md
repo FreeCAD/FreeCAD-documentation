@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh RemeshGmsh
    Name/pl:Siatka: Ulepsz przez Gmsh
    MenuLocation:Siatki → Ulepszanie ...

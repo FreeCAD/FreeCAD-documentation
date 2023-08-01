@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher ConstrainDistanceX
    Name/de:Sketcher XAbstandFestlegen
    MenuLocation:Sketch → Skizzen-Beschränkungen → Horizontalen Abstand festlegen

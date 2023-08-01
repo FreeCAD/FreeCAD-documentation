@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Curves Pipeshell
    Name/fr:Curves Enveloppe de tube
    MenuLocation:Surfaces → Pipeshell 

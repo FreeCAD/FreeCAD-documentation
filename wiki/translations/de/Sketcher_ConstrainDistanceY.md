@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher ConstrainDistanceY
    Name/de:Sketcher YAbstandFestlegen
    MenuLocation:Sketch → Skizzen-Beschränkungen → Vertikalen Abstand festlegen

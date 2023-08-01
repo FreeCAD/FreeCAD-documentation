@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ViewFullscreen
    Name/de:Std AnsichtVollbild
    MenuLocation:Ansicht → Dokumentfenster → Vollbild

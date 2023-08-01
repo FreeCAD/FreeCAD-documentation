@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Сверху
    Name:Std_ViewTop
    MenuLocation:Вид → Стандартные виды‏‎ → Сверху

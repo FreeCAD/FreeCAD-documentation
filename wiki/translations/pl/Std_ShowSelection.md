@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ShowSelection
    Name/pl:Std: Pokaż zaznaczone
    MenuLocation:Widok → Widoczność → Pokaż zaznaczone

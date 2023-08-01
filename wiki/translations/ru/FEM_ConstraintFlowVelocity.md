@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM ConstraintFlowVelocity
    Name/ru:FEM ConstraintFlowVelocity
    Icon:Fem-constraint-flow-velocity.svg

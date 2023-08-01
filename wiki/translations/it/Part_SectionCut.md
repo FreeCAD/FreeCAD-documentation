@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Part SectionCut
    Name/it:Taglio sezione persistente
    MenuLocation:Visualizza → Taglio sezione persistente

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ConstraintForce
    Name/fr:FEM Contrainte de force
    MenuLocation:Modèle → Contraintes mécaniques → Contrainte de force

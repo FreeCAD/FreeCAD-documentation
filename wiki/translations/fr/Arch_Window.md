@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Window
    Name/fr:Arch Fenêtre
    MenuLocation:Arch → Fenêtre

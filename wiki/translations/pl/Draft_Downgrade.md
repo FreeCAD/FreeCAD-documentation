@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft Downgrade
    Name/pl:Rysunek Roboczy: Rozbij kształt
    MenuLocation:Modyfikacja → Rozbij kształt

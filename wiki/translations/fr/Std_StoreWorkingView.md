@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std StoreWorkingView
    Name/fr:Std Stocker la vue de travail
    MenuLocation:Affichage → Vues standards → Stocker la vue de travail

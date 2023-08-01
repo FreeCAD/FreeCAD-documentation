@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:SheetMetal AddJunction
    Name/de:SheetMetal StoßHinzufügen
    MenuLocation:SheetMetal → Make Junction

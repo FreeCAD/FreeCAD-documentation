@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Spreadsheet_Import
    Name/it:Importa un foglio di calcolo
    MenuLocation:Spreadsheet → Importa un foglio di calcolo

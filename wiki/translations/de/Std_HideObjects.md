@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std HideObjects
    Name/de:Std ObjekteAusblenden
    MenuLocation:Ansicht → Sichtbarkeit → Alle Objekte ausblenden

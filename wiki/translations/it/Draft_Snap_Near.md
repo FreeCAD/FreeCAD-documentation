@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Snap Near
    Name/it:Vicino a
    MenuLocation:Draft → [Aggancio](Draft_Snap/it.md) → Vicino

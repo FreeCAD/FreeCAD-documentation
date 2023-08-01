@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Scale
    Name/tr:Ölçekle
    MenuLocation:Draft → Scale

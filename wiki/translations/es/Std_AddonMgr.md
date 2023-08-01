@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Std AddonMgr
    Name/es:Std GestorComplementos
    MenuLocation:Herramientas → Gestor Complementos

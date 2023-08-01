@@ -1,6 +1,6 @@
 # Sketcher CreateHexagon/it
 ---
-- GuiCommand:/it   Name:Sketcher CreateHexagon   Name/it:Esagono   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch → Geometrie → Esagono   Shortcut:   SeeAlso:   Version:0.15---
+- GuiCommand:   Name:Sketcher CreateHexagon   Name/it:Esagono   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch → Geometrie → Esagono   Shortcut:   SeeAlso:   Version:0.15---
 
 
 </div>

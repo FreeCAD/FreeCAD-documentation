@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ReportBug
    Name/de:Std FehlerMelden
    MenuLocation:Hilfe → Einen Fehler melden

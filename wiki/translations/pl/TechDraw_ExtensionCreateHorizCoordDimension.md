@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw ExtensionCreateHorizCoordDimension
    Name/pl:Rysunek Techniczny: Rozszerzenie Seria wymiarów kaskadowych poziomo
    MenuLocation:Rysunek Techniczny → Rozszerzenia: Wymiary → Seria wymiarów poziomo

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher BSplineDegree
    Name/it:Grado della B-spline
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch_Rebar
    Name/it:Armatura
    MenuLocation:Arch → Strumenti armatura o 3D/BIM → Strumenti armatura

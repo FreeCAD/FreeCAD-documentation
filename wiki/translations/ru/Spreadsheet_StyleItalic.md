@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Курсивный текст
    Name:Spreadsheet_StyleItalic
    MenuLocation:Электронная таблица → Styles → Курсивный текст

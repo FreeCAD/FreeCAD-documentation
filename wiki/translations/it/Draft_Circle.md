@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Circle
    Name/it:Cerchio
    MenuLocation:Drafting → Cerchio

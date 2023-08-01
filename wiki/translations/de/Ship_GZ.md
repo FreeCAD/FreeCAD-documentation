@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Ship PlotGZ
    Name/de:Schiff PlotGZ
    MenuLocation:Gewichte → GZ Kurve Berechnung

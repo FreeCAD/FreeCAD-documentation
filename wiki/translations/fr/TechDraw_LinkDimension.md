@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw LinkDimension
    Name/fr:TechDraw Lier une cote
    MenuLocation:TechDraw → Dimensions →  Lier une cote à une géométrie 3D

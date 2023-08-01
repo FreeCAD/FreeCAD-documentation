@@ -1,6 +1,6 @@
 # Part Boolean/pl
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Boolean
    Name/pl:Część: Operacja logiczna
    MenuLocation:Część → Operacje logiczne → Operacja logiczna ...

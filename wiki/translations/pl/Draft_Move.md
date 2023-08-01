@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name/pl:Draft: Move
    Name:Draft Move
    MenuLocation:Modyfikacja → Przesuń

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Sketcher ViewSketch
    Name/tr:Eskiz Eskiz görünümü
    Workbenches:[Eskiz](Sketcher_Workbench.md), [Parça tasarım](PartDesign_Workbench.md)

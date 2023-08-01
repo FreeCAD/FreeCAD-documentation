@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:PartDesign AdditiveBox
    Name/it:Cubo additivo
    Workbenches:[PartDesign](PartDesign_Workbench/it.md)

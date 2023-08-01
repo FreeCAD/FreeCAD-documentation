@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part EditAttachment
    Name/pl:Część: Dołączenie
    MenuLocation:Część → Dołączenie ...

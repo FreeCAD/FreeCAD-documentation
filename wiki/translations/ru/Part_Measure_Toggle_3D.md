@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Part_Measure_Toggle_3D
    Name:Part_Measure_Toggle_3D
    MenuLocation:Измерить → Toggle 3D

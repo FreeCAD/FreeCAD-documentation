@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Compound‏‎Filter
    Name/pl:Część: Filtr złożeń
    MenuLocation:Część → Złożenie → Filtr złożeń

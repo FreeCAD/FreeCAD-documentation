@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Изменить внешний вид линий
    Name:TechDraw_DecorateLine
    MenuLocation:TechDraw → Change Appearance of Line(s)

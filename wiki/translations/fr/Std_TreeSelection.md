@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std TreeSelection
    Name/fr:Std Arborescence Aller à la sélection
    MenuLocation:Affichage → Vue en arborescence → Aller à la sélection

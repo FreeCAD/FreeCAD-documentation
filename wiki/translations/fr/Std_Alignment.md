@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std Alignment
    Name/fr:Std Alignement
    MenuLocation:Édition → Alignement...

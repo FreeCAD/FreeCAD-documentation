@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign PolarPattern
    Name/es:DiseñoPieza PatrónPolar
    MenuLocation:DiseñoPieza → Aplicar un patrón → PatrónPolar

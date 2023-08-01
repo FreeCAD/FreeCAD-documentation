@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Floor
    Name/fr:Arch Niveau
    MenuLocation:Arch → Niveau

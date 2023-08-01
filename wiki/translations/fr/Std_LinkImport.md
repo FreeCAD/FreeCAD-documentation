@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std LinkImport
    Name/fr:Std Importer des liens
    MenuLocation:Aucun

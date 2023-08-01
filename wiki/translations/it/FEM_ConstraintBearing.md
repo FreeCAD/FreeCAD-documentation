@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FEM ConstraintBearing
    Name/it:Vincolo cuscinetto
    MenuLocation:Modello → Vincoli meccanici → Vincolo cuscinetto

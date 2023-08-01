@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_ToggleBreakpoint
    Name/it:Attiva/disattiva punto di interruzione
    Empty:1

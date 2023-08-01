@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:PartDesign ShapeBinder
    Name/ro:PartDesign Forme Legate
    Workbenches:[PartDesign](PartDesign_Workbench/ro.md)

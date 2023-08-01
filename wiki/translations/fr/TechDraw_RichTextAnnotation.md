@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw RichTextAnnotation
    Name/fr:TechDraw Annotation texte enrichi
    MenuLocation:TechDraw → Annotations → Insérer une annotation de texte enrichi

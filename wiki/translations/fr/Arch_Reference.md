@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Reference
    Name/fr:Arch Référence externe
    MenuLocation:Arch → Référence externe

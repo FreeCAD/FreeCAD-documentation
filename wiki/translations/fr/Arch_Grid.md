@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Grid
    Name/fr:Arch Grille
    MenuLocation:Arch → Outils pour les axes → Grille

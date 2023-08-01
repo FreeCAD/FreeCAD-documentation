@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std ViewCreate
    Name/ko:표준 3D 보기 만들기
    MenuLocation:보기 → 새 3D 보기 만들기

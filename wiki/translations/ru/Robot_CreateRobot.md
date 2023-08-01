@@ -1,6 +1,6 @@
 # Robot CreateRobot/ru
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Robot_CreateRobot
    Name/ru:Добавить робота
    Workbenches:[Robot](Robot_Workbench/ru.md)

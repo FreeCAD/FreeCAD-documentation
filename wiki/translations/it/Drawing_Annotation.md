@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Drawing_Annotation
    Name/it:Annotazione
    MenuLocation:Drawing → Annotazione

@@ -1,6 +1,6 @@
 # Mesh FlipNormals/de
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Mesh FlipNormals‏‎
    Name/de:Netz Normalen spiegeln
    MenuLocation:Meshes → Flip Normals

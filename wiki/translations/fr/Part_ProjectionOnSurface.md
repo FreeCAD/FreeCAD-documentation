@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part ProjectionOnSurface
    Name/fr:Part Projection sur surface
    MenuLocation:Part → Créer une projection sur une surface...

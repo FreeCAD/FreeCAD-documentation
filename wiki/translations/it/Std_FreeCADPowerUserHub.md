@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std FreeCADPowerUserHub
    Name/it:Documentazione di scripting Python
    MenuLocation:Aiuto → Documentazione di scripting Python

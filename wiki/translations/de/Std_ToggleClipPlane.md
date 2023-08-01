@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ToggleClipPlane
    Name/de:Std Schnittebene
    MenuLocation:Ansicht → Schnittebene

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw ExtensionIncreaseDecimal
    Name/de:TechDraw ErgänzungDezimalstellenzahlErhöhen
    MenuLocation:TechDraw → Ergänzungen: Maße → Dezimalstellenanzahl erhöhen

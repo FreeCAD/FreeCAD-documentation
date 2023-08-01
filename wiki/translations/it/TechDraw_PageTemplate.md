@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw_PageTemplate
    Name/it:Nuovo disegno da modello
    MenuLocation:TechDraw → Nuovo disegno da modello

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std PrintPreview
    Name/ru:Std PrintPreview
    MenuLocation:Файл → Предварительный просмотр 

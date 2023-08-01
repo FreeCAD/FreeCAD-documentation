@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Вставить объект верстака Arch
    Name:TechDraw_ArchView
    MenuLocation:TechDraw → Вставить объект верстака Arch

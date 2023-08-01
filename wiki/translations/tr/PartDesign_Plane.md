@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:PartDesign Plane
    Name/tr:Referans düzlemi oluştur
    Workbenches:[Parça tasarım](PartDesign_Workbench/tr.md)

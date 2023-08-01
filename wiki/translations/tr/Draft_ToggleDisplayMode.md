@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft ToggleDisplayMode
    Name/tr:Ekran modunu değiştir
    MenuLocation:Draft → Utilities → Toggle display mode

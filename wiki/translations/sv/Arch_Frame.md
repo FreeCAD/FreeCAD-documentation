@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/sv
+- GuiCommand:
    Name:Arch Frame
    Name/sv:Arch Frame
    Workbenches:[Arch](Arch_Workbench/sv.md)

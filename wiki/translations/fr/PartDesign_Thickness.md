@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign Thickness
    Name/fr:PartDesign Coque
    MenuLocation:Part Design → Appliquer une fonction d'habillage → Coque

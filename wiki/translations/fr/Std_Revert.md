@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std Revert
    Name/fr:Std Rétablir
    MenuLocation:Fichier → Rétablir

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_MacroStartDebug
    Name/it:Avvia il debug
    MenuLocation:Macro → Avvia il debug

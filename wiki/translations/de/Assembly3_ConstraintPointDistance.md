@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 ConstraintPointDistance
    Name/de:Assembly3 AbstandZweierPunkte
    Icon:Assembly_ConstraintPointDistance.svg

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std Part
    Name/de:Std Teil
    MenuLocation:Keine

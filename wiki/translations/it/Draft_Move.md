@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft_Move
    Name/it:Sposta
    MenuLocation:Modifiche → Sposta

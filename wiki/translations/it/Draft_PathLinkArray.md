@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft PathLinkArray
    Name/it:Serie di link su tracciato
    MenuLocation:Modifiche → Strumenti serie → Serie di link su tracciato

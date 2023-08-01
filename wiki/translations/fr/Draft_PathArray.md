@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft PathArray
    Name/fr:Draft Réseau selon une courbe
    MenuLocation:Modification → Outils pour les réseaux → Réseau selon une courbe

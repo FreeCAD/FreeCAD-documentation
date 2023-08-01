@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher SelectOrigin
    Name/fr:Sketcher Origine
    MenuLocation:Esquisse → Outils d'esquisse → Selectionner l'origine

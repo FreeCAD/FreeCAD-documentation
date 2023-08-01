@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw ExtensionPositionSectionView
    Name/de:TechDraw ErgänzungSchnittAusrichten
    MenuLocation:TechDraw → Extensions: Attributes/Modifications → Position Section View

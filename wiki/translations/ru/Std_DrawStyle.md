@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std DrawStyle
    Name/ru:Std DrawStyle
    MenuLocation:Вид → Стиль представления → ...

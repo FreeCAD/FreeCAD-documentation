@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Curves Interpolate
    Name/fr:Curves Interpolation
    MenuLocation:Curves → Interpolate

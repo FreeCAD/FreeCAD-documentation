@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pt
+- GuiCommand:
    Name:Sketcher ValidateSketch
    Name/pt:Sketcher ValidateSketch
    Empty:1

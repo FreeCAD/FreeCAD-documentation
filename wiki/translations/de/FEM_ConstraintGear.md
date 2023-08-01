@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM ConstraintGear
    Name/de:FEM RandbedingungZahnrad
    MenuLocation:Modell → Randbedingungen ohne Solver → Randbedingung Zahnrad

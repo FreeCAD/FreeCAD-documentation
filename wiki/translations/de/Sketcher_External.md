@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher External
    Name/de:Sketcher ExterneGeometrie
    MenuLocation:Skizze → Skizzengeometrien → Externe Geometrie

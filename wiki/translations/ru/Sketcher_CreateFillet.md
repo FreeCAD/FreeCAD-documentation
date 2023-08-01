@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Скругление
    Name:Sketcher_CreateFillet
    MenuLocation:Sketch → Геометрия эскиза → Создать скругление

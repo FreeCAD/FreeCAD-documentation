@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw GeometricHatch
    Name/fr:TechDraw Hachures géométriques
    MenuLocation:TechDraw → Hachures → Appliquer un motif de hachure géométrique à une face

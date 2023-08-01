@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std ViewHome
    Name/it:Vista Home
    MenuLocation:Visualizza → Viste Standard → Home

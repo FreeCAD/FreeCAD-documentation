@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Raytracing Render
    Name/fr:Raytracing Rendu
    MenuLocation:Raytracing → Rendu

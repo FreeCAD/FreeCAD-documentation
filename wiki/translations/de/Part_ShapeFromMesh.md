@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part ShapeFromMesh‏‎
    Name/de:Part FormAusNetz
    MenuLocation:Part → Erzeuge Form aus Netz...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher SelectHorizontalAxis
    Name/pl:Szkicownik: Wybierz oś poziomą
    MenuLocation:Szkic → Narzędzia szkicownika → Wybierz oś poziomą

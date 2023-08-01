@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std ToggleBreakpoint
    Name/ru:Std ToggleBreakpoint
    Workbenches:All

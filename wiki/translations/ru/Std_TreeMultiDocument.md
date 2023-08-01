@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std TreeMultiDocument
    Name/ru:Std TreeMultiDocument
    MenuLocation:Вид → Дерево документа → Многокомпонентный документ

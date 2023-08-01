@@ -1,6 +1,6 @@
 # Part Box/tr
 ---
-- GuiCommand:/tr   Name:Part Box   MenuLocation:Part → Box   |Workbenches:[SeeAlso:[[Part_CreatePrimitives|Part CreatePrimitives](Part_Workbench___Part]],_Complete.md)---
+- GuiCommand:   Name:Part Box   MenuLocation:Part → Box   |Workbenches:[SeeAlso:[[Part_CreatePrimitives|Part CreatePrimitives](Part_Workbench___Part]],_Complete.md)---
 
 
 </div>

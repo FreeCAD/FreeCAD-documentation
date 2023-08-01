@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Primitives
    Name/de:Part Grundelemente
    MenuLocation:Formteil → Grundkörper erstellen...

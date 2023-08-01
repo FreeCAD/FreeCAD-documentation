@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ViewIvStereoInterleavedRows
    Name/fr:Std Lignes stéréo entrelacées
    MenuLocation:Affichage → Stéréo → Lignes stéréo entrelacées

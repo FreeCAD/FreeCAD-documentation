@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft WireToBSpline
    Name/ru:Draft WireToBSpline
    MenuLocation:Черчение → Направляющая в BSpline

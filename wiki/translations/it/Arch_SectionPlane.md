@@ -1,6 +1,6 @@
 # Arch SectionPlane/it
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch SectionPlane
    Name/it:Piano di sezione
    Workbenches:[Architettura](Arch_Workbench/it.md)

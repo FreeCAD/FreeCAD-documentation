@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Шестерня с эвольвентным профилем
    Name:PartDesign_InvoluteGear
    MenuLocation:Part Design → Шестерня с эвольвентным профилем...

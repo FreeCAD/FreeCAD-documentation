@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw 2PointCenterLine
    Name/de:TechDraw 2PunkteMittellinie
    MenuLocation:TechDraw → Linien Hinzufügen → Mittellinie zwischen 2 Punkten hinzufügen

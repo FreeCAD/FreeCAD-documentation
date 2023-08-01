@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Edit
    Name/fr:Draft Éditer
    MenuLocation:Modification → Éditer

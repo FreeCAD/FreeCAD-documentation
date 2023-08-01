@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:EM FHPort
    Name/it:EM FHPort
    MenuLocation:EM → FHPort

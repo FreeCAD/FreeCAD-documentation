@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM MeshGmshFromShape
    Name/de:FEM NetzGmshAusForm
    MenuLocation:Netz → FEM Netz aus Form durch Gmsh

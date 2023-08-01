@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh FillInteractiveHole
    Name/pl:Siatka: Interaktywne wypełnienie otworów
    MenuLocation:Meshes → Zamknij otwór

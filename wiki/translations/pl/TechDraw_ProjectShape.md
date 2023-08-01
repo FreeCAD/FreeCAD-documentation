@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw ProjectShape
    Name/pl:Rysunek Techniczny: Rzutowanie kształtów
    MenuLocation:Rysunek Techniczny → Widoki → Rzutowanie kształtów ...

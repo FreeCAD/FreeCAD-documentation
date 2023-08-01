@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign CompPrimitiveAdditive
    Name/fr:PartDesign Primitives additives
    MenuLocation:Part Design → Créer une primitive additive

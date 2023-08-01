@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать периодический B-сплайн
    Name:Sketcher_CreatePeriodicBSpline
    MenuLocation: Sketch → Геометрия эскиза → Создать периодический B-сплайн

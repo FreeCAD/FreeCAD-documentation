@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part_Cut
    Name/fr:Part Soustraction
    MenuLocation:Part → Opération booléenne → Soustraction

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw  ActiveView
    Name/de:TechDraw AktiveAnsicht
    MenuLocation:TechDraw → Views From Other Workbenches → Aktive (3D-)Ansicht einfügen

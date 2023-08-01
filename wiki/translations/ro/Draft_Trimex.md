@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Draft Trimex
    Name/ro:Draft Trimex
    MenuLocation:Draft  → Trim/Extend

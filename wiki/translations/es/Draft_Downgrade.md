@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft Downgrade
    Name/es:Borrador Rebajar
    MenuLocation:Modificación → Rebajar

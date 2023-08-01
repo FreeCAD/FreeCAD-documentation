@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher ConstrainLock
    Name/fr:Sketcher Contrainte fixe
    MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte fixe

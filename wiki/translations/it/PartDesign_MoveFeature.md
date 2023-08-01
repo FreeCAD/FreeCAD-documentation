@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:PartDesign MoveFeature
    Name/it:Sposta in altro corpo
    Empty:1

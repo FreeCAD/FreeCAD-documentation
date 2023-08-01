@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Mesh_Union‏‎
    Name/it:Unione
    MenuLocation:Mesh → Operazione booleana → Unione

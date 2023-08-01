@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Arch Rebar UShape
    Name/ro:Arch Rebar UShape
    MenuLocation:Arch → Rebar tools

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Robot Export
    Name/fr:Robot Exportation de trajectoire
    MenuLocation:Robot → Exporter la trajectoire

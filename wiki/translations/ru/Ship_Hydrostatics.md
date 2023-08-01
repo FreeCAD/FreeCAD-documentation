@@ -1,6 +1,6 @@
 # Ship Hydrostatics/ru
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Ship Hydrostatics
    Name/ru:Ship Hydrostatics
    MenuLocation:Ship design → Гидростатика

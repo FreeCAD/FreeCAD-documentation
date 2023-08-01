@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Offset
    Name/de:Part Versatz
    MenuLocation:Formteil → 3D-Versatz...

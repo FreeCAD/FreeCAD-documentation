@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std DependencyGraph
    Name/fr:Std Graphique de dépendances
    MenuLocation:Outils → Graphique de dépendance...

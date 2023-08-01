@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw RichTextAnnotation
    Name/pl:Rysunek Techniczny: Wstaw adnotację w postaci tekstu sformatowanego
    MenuLocation:Rysunek Techniczny → Adnotacja → Wstaw adnotację w postaci tekstu sformatowanego

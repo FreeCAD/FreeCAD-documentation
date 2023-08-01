@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft Edit
    Name/es:Borrador Edición
    MenuLocation:Modificación → Editar<br>Utilidades → Editar

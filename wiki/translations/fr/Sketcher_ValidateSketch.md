@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher ValidateSketch
    Name/fr:Sketcher Valider l'esquisse
    MenuLocation:Esquisse → Valider l'esquisse...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Инструменты для создания труб
    Name:Arch_CompPipe
    MenuLocation:Arch → Инструменты для создания труб

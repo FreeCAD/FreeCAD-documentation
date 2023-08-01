@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Measure Toggle All
    Name/fr:Part Tout basculer
    MenuLocation:Mesure → Tout basculer

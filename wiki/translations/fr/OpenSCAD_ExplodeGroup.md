@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:OpenSCAD ExplodeGroup
    Name/fr:OpenSCAD Dégrouper
    MenuLocation:OpenSCAD → Dégrouper

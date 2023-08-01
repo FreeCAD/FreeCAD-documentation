@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/cs
+- GuiCommand:
    Name:Arch_Space
    Name/cs:Arch Space
    MenuLocation:Architecture → Space

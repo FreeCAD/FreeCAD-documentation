@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Армировать колонну
    Name:Arch_Rebar_ColumnReinforcement
    MenuLocation:Arch → Rebar tools → Column Reinforcement<br>3D/BIM → Reinforcement tools → Column Reinforcement

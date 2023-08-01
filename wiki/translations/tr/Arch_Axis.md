@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Arch Axis
    MenuLocation:Arch → Axis
    Workbenches:[Arch](Arch_Workbench.md)

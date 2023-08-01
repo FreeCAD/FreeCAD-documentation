@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Part Booleans
    Name/ro:Part Booleans
    MenuLocation:Part → Booleans

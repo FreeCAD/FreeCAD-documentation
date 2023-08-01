@@ -1,6 +1,6 @@
 # Part Wedge/es
 ---
-- GuiCommand:/es   Name:Part Wedge   Name/es:Part Wedge   MenuLocation:Part -> [|Workbenches:[[Part_Workbench/es   Part](Part_CreatePrimitives/es___Part_CreatePrimitives]]_->_Cuña.md)|SeeAlso:[Part CreatePrimitives](Part_CreatePrimitives/es.md)---
+- GuiCommand:   Name:Part Wedge   Name/es:Part Wedge   MenuLocation:Part -> [|Workbenches:[[Part_Workbench/es   Part](Part_CreatePrimitives/es___Part_CreatePrimitives]]_->_Cuña.md)|SeeAlso:[Part CreatePrimitives](Part_CreatePrimitives/es.md)---
 
 
 </div>

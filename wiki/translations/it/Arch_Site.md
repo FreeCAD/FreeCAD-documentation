@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch Site
    Name/it:Sito
    Workbenches:[Architettura](Arch_Workbench/it.md)

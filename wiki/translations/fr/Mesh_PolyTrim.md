@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh PolyTrim
    Name/fr:Mesh Ajuster
    MenuLocation:Maillages → Couper → Ajuster le maillage

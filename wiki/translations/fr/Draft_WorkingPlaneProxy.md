@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft WorkingPlaneProxy
    Name/fr:Draft Proxy de plan de travail
    MenuLocation:Utilitaires → Créer un proxy de plan de travail

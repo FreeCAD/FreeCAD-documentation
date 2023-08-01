@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign Boolean
    Name/fr:PartDesign Opérations booléennes
    MenuLocation:Part Design → Opération booléenne

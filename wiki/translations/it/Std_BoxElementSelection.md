@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_BoxElementSelection
    Name/it:Seleziona elementi
    MenuLocation:Modifica → Box di selezione di elementi

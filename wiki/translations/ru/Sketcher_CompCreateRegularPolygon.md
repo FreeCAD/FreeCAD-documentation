@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать правильный многоугольник
    Name:Sketcher_CompCreateRegularPolygon
    Icon:Sketcher_CompCreateRegularPolygon.png

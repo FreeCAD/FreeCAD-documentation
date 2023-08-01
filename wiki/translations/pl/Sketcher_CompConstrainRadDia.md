@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher constrain arc or circle
    Name/pl:Szkicownik: Wiązanie promienia lub średnicy
    MenuLocation:

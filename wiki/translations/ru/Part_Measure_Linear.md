@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part Measure Linear
    Name/ru:Part Measure Linear
    MenuLocation:Measure → Измерить длину

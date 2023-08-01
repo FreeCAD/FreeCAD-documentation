@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std_ViewScreenShot
    Name/fr:Std Capture d'écran
    MenuLocation:Outils → Enregistrer l'image...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Array
    Name/de:Entwurf Anordnung
    MenuLocation:Entwurf → Anordnung

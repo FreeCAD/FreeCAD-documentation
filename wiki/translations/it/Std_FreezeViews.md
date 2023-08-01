@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_FreezeViews
    Name/it:Viste bloccate
    MenuLocation:Visualizza → Viste bloccate → ...

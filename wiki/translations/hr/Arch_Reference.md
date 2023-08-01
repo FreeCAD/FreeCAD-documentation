@@ -1,6 +1,6 @@
 # Arch Reference/hr
 ---
-- GuiCommand:/hr   Name:Arch Reference   Name/hr:Arch Reference   Workbenches:[MenuLocation:Arch → Reference   Shortcut:   SeeAlso:[[Arch BuildingPart](Arch_Workbench___Arch]].md)---
+- GuiCommand:   Name:Arch Reference   Name/hr:Arch Reference   Workbenches:[MenuLocation:Arch → Reference   Shortcut:   SeeAlso:[[Arch BuildingPart](Arch_Workbench___Arch]].md)---
 
 
 </div>

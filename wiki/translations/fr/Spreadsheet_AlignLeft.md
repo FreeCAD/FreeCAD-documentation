@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Spreadsheet AlignLeft
    Name/fr:Spreadsheet Alignement à gauche
    MenuLocation:Spreadsheet → Alignement → Alignement à gauche

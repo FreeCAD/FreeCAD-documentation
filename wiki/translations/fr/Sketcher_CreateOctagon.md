@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher CreateOctagon
    Name/fr:Sketcher Octogone
    MenuLocation:Esquisse → Géométries d'esquisse → Créer un octogone

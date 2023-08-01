@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Wire
    Name/tr:Tel
    MenuLocation:Taslak → Tel

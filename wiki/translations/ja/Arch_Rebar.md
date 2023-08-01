@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ja
+- GuiCommand:
    Name:Arch Rebar
    Name/ja:Arch Rebar
    MenuLocation:Arch → Rebar

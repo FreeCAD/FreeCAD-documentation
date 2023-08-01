@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part_Mirror
    Name/fr:Part Miroir
    MenuLocation:Part → Mise en miroir...

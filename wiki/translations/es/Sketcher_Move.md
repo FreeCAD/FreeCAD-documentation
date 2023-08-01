@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name/es:Sketcher Move
    Icon:Sketcher_Move.svg
    Workbenches:[Sketcher](Sketcher_Workbench/es.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Curves GordonSurface
    Name/fr:Curves Surface de Gordon
    MenuLocation:Surfaces → Gordon surface

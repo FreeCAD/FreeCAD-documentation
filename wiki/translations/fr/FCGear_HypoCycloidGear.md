@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FCGear HypoCycloidGear
    Name/fr:FCGear Engrenage hypocycloïde
    MenuLocation:Gear → HypoCycloid Gear

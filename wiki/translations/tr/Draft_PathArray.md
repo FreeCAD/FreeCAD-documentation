@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft PathArray
    Name/tr:Yol dizisi
    MenuLocation:Draft → PathArray

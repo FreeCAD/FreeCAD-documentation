@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std AddonMgr
    Name/fr:Std Gestionnaire des extensions
    MenuLocation:Outils → Gestionnaire des extensions

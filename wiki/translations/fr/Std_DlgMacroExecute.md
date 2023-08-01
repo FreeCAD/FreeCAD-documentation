@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std_DlgMacroExecute
    Name/fr:Std Exécuter une macro
    MenuLocation:Macro → Macros...

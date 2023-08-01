@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FEM PostFilterWarp
    Name/it:FEM PostFilterWarp
    MenuLocation: Risultati → Wrap vector filter

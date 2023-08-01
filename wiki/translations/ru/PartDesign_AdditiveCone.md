@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Аддитивный конус
    Name:PartDesign_AdditiveCone
    MenuLocation:Part Design → Создать аддитивный примитив → Аддитивный Конус

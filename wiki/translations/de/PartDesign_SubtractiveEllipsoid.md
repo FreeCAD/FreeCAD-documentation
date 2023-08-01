@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign SubtractiveEllipsoid
    Name/de:PartDesign EllipsoidAbziehen
    MenuLocation:Part Design → Grundkörper abziehen → Ellipsoid

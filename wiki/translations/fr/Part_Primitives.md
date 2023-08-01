@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Primitives
    Name/fr:Part Primitives
    MenuLocation:Part → Créer des primitives...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Draft Snap Lock
    Name/ro:Draft ToggleSnap
    MenuLocation:Draft → [Snapping](Draft_Snap/ro.md) → Toggle snap

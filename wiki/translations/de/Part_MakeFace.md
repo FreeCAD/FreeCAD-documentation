@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part MakeFace‏‎
    Name/de:Part FlächeAusLinienzügen‏‎
    MenuLocation:Formteil → Erstelle Fläche anhand von Kantenzügen

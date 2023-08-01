@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft AddNamedGroup
    Name:Draft BenannteGruppeHinzufügen
    MenuLocation:Utilities → Neue benannte Gruppe hizufügen

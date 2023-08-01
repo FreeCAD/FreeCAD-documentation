@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std DebugToggle
    Name/fr:Std Basculer le point d'arrêt
    Empty:1

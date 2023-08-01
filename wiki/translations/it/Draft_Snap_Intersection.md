@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Snap Intersection
    Name/it:Intersezione
    MenuLocation:Draft → [Ancoraggio](Draft_Snap/it.md) → Intersezione

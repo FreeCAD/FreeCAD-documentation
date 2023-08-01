@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std_Refresh
    Name/fr:Std Rafraîchir
    MenuLocation:Edition → Rafraîchir

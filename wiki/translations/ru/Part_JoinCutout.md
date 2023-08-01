@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part JoinCutout
    Name/ru:Part JoinCutout
    MenuLocation:Деталь → Join → Cutout for Object

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM PostApplyChanges
    Name/fr:FEM Appliquer les modifications
    MenuLocation:Résultats → Appliquer les modifications au pipeline

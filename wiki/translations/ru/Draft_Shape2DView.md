@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Shape2DView
    Name/ru:Draft Shape2DView
    MenuLocation:Черчение → 2D вид фигуры

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Субтрактивная спираль
    Name:PartDesign_SubtractiveHelix
    MenuLocation:Part Design → Субтрактивные преобразования → Субтрактивная спираль

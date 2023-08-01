@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Part Fillet
    Name/ro:Part Fillet
    MenuLocation:Part → Fillet

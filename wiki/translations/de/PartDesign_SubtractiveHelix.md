@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign SubtractiveHelix
    Name/de:PartDesign WendelAbziehen
    MenuLocation:Part Design → Objekte abziehen → Wendel

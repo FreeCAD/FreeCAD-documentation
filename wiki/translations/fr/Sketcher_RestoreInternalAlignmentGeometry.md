@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher RestoreInternalAlignmentGeometry
    Name/fr:Sketcher Géométrie interne
    MenuLocation:Esquisse → Outils d'esquisse → Afficher/masquer la géométrie interne

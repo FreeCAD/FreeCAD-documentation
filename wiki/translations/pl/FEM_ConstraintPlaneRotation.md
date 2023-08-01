@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:FEM ConstraintPlaneRotation
    Name/pl:MES: Zdefiniuj obrót w płaszczyźnie
    MenuLocation:Model → Wiązania geometryczne → Zdefiniuj obrót w płaszczyźnie

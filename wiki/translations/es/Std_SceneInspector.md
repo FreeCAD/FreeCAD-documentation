@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Std SceneInspector
    Name/es:Std InspectorEscena
    MenuLocation:Hierramientas → Inspector Escena...

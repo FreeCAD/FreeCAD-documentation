@@ -1,6 +1,6 @@
 # Part CompCompoundTools/it
 ---
-- GuiCommand:/it   Name:Part CompCompoundTools   Name/it:Strumenti composto   MenuLocation:Part → Composto   Workbenches:[[Part_Workbench/it   Part]]|SeeAlso:---
+- GuiCommand:   Name:Part CompCompoundTools   Name/it:Strumenti composto   MenuLocation:Part → Composto   Workbenches:[[Part_Workbench/it   Part]]|SeeAlso:---
 
 
 </div>

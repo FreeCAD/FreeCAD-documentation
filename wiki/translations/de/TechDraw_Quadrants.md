@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw Quadrants
    Name/de:TechDraw Quadranten
    MenuLocation:TechDraw → Knoten hinzufügen → Quadranten Knoten hinzufügen

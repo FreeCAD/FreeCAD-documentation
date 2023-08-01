@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part CheckGeometry‏‎
    Name/pl:Część: Sprawdź geometrię
    MenuLocation:Część → Sprawdź geometrię

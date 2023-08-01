@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw PrintAll
    Name/de:TechDraw AllesDrucken
    MenuLocation:TechDraw→ Page → Alle Seiten drucken

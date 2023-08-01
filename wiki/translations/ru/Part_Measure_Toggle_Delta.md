@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Переключить Дельту
    Name:Part_Measure_Toggle_Delta
    MenuLocation:Измерить → Переключить Дельту‏‎

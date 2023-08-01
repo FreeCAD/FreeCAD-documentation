@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Mesh_RemoveComponents
    Name/de:Mesh KomponentenEntfernen
    MenuLocation:Netze → Komponenten entfernen...

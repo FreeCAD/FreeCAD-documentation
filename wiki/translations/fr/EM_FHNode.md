@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:EM FHNode
    Name/fr:EM Noeud FH
    MenuLocation:EM → FHNode

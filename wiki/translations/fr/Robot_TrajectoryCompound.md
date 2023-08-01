@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Robot TrajectoryCompound
    Name/fr:Robot Groupement de trajectoires
    MenuLocation:Robot → Groupement de trajectoires

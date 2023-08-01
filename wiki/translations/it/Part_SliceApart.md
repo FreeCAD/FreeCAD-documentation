@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it   Name:Part SliceApart
+- GuiCommand:   Name:Part SliceApart
    Name/it:Affetta in parti
    MenuLocation:Part → Dividi → Affetta in parti
    Workbenches:[Part](Part_Workbench/it.md)

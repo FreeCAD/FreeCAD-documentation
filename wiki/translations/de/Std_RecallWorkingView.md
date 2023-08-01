@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std RecallWorkingView
    Name/de:Std ArbeitsansichtWiederherstellen
    MenuLocation:Ansicht → Standardansichten → Arbeitsansicht wiederherstellen

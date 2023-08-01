@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Robot RestoreHomePos
    Name/fr:Robot Position de départ
    MenuLocation:Robot → Passer à la position de départ

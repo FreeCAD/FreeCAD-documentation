@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/uk
+- GuiCommand:
    Name:Arch Panel   Name/uk:Arch Panel
    MenuLocation:Arch → Panel
    Workbenches:[Arch](Arch_Workbench/uk.md)

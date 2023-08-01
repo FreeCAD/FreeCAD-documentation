@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_TreeSelection
    Name/it:Vai alla selezione
    MenuLocation:Visualizza → Azioni della vista ad albero → Vai alla selezione

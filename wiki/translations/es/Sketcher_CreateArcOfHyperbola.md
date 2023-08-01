@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher CreateArcOfHyperbola
    Name/es:Croquizador CrearArcoDeHipérbola
    MenuLocation:Croquis → Geometrías de Croquizador → Crear un arco de hipérbola

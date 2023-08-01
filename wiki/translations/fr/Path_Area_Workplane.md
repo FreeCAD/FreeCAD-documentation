@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path Area Workplane
    Name/fr:Path Zone de travail plane
    MenuLocation:Path → Plan de travail de la zone

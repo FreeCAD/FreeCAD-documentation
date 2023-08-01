@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign Migrate
    Name/pl:Projekt Części: Przenieś ze starszej wersji
    MenuLocation:Projekt Części → Przenieś ze starszej wersji ...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std ViewZoomIn
    Name/it:Ingrandisci
    MenuLocation:Visualizza → Zoom‏‎ → Ingrandisci

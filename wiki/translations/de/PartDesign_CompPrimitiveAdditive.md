@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign CompPrimitiveAdditive
    Name/de:PartDesign AuswahlGrundkörperHinzufügen
    MenuLocation:Part Design → Grundkörper hinzufügen

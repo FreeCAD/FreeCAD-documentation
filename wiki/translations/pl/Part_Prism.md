@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Prism
    Name/pl:Część: Graniastosłup
    MenuLocation:Część → Utwórz geometrie pierwotne ... → Graniastosłup

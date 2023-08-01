@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/hr
+- GuiCommand:
    Name:Arch Door
    MenuLocation:Arch → Window
    Workbenches:[Arch](Arch_Workbench.md)

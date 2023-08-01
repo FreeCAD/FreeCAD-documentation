@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part_RegularPolygon
    Name/ru:Правильный Многоугольник
    MenuLocation:Деталь → [Создать примитивы...](Part_CreatePrimitives.md) → Правильный Многоугольник

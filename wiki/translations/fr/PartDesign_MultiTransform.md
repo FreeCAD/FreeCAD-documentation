@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign_MultiTransform
    Name/fr:PartDesign Transformation multiple
    MenuLocation:Part Design → Appliquer une transformation → Transformation multiple

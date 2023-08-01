@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Аддитивный цилиндр
    Name:PartDesign_AdditiveCylinder
    MenuLocation:Part Design → Создать аддитивный примитив → Аддитивный Цилиндр

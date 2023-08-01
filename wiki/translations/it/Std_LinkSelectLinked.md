@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std LinkSelectLinked
    Name/it:Collega i link selzionati
    MenuLocation:''None''

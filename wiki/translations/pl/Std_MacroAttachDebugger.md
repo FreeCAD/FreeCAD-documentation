@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std MacroAttachDebugger
    Name/pl:Std: Przełącz na debuger zewnętrzny
    Empty:1

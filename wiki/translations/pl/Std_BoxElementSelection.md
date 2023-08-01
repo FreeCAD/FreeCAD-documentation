@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std BoxElementSelection
    Name/pl:Std: Wybór elementów ramką zaznaczenia
    MenuLocation:Edycja → Wybór elementów ramką zaznaczenia

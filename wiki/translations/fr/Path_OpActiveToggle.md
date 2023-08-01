@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path OpActiveToggle
    Name/fr:Path Activer une opération
    MenuLocation:Path → Activer/désactiver l'état actif de l'opération

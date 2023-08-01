@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch ToggleIfcBrepFlag
    Name/it:Toggle Ifc Brep Flag
    MenuLocation:Arch → Utilità → Attiva/Disattiva Ifc Brep

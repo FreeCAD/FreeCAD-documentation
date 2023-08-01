@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw MoveView
    Name/de:TechDraw AnsichtVerschieben
    MenuLocation:TechDraw → TechDraw Ansichten → Ansicht verschieben

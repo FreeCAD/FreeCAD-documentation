@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw ClipGroupRemove
    Name/de:TechDraw AusschnittsgruppeEntfernen
    MenuLocation:TechDraw → Ansicht aus Ausschnittsgruppe entfernen

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Plane
    Name/fr:Part Plan
    MenuLocation:Part → [Créer des primitives](Part_Primitives/fr.md) → Plan

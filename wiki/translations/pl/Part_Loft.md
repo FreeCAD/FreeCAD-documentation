@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Loft
    Name/pl:Part: Wyciągnij po profilach
    MenuLocation:Część → Wyciągnięcie po profilach...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Layer
    Name/fr:Draft Calque
    MenuLocation:Utilitaires → Calque

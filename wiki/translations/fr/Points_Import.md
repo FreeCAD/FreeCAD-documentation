@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Icon:Points_Import.svg
    Name:Points Import
    Name/fr:Points Importer

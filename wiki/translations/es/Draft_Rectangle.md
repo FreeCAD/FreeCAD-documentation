@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft Rectangle
    Name/es:Draft Rectangle
    MenuLocation:Croquis →  Rectángulo

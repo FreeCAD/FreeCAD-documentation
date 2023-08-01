@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FCGear InvoluteRack
    Name/de:FCGear InvoluteRack
    MenuLocation:Gear → Involute Rack

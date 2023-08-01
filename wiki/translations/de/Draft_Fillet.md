@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Fillet
    Name/de:Draft Verrundung
    MenuLocation:Entwurf → Verrundung

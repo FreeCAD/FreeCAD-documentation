@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch PipeConnector
    Name/de:Arch RohrVerbinder
    MenuLocation:Arch → Pipe tools → Rohr Verbinder

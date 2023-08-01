@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ViewScreenShot
    Name/pl:Std: Zapisz zrzut ekranu
    MenuLocation:Przybory → Zapisz obrazek ...

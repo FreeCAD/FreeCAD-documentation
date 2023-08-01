@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std SendToPythonConsole
    Name/de:Std AnPythonKonsoleSenden
    MenuLocation:Bearbeiten →  An Python-Konsole senden

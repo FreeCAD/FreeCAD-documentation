@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std DlgParameter
    Name/ru:Std DlgParameter
    MenuLocation:Инструменты → Редактор параметров

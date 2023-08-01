@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part JoinCutout
    Name/pl:Część: Wycięcie dla obiektu
    MenuLocation:Part → Join → Wycięcie dla obiektu

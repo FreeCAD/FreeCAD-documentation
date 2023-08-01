@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Icon:Sketcher MergeSketch.svg
    Name/ro:Combină schițe
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)

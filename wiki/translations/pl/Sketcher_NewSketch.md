@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher NewSketch
    Name/pl:Szkicownik: Utwórz szkic
    MenuLocation:Szkic → Utwórz szkic

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher DeleteAllGeometry
    Name/fr:Sketcher Supprimer tous les éléments de géométrie
    MenuLocation:Esquisse → Outils d'esquisse → Supprimer tous les éléments de géométrie

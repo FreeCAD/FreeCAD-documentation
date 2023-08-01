@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:PartDesign MoveFeature
    Name/ru:Перемещение объекта в другое тело
    MenuLocation:Контекстное меню → Перемещение объекта в другое тело

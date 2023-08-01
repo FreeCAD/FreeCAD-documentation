@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FCGear BevelGear
    Name/de:FCGear Kegelrad
    MenuLocation:Gear → Bevel Gear

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher CreateArc
    Name/de:Sketcher BogenErstellen
    MenuLocation:Sketch → Skizzengeometrien → Bogen aus Mittelpunkt erstellen

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Draft ShapeString
    Name/ro:Draft ShapeString
    MenuLocation:Draft → Shape from text ...

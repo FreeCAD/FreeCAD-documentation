@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher SelectOrigin
    Name/de:Sketcher UrsprungAuswählen
    MenuLocation:Skizze → Skizzenwerkzeuge → Ursprung auswählen

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Fasteners Flip
    Name/fr:Fasteners Flip
    MenuLocation:Fasteners → Invert fastener

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Points_Merge
    Name/it:Unisci le nuvole di punti
    Empty:1

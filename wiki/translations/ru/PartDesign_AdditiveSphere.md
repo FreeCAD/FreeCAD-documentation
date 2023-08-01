@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Аддитивная сфера
    Name:PartDesign_AdditiveSphere
    MenuLocation:Part Design → Создать аддитивный примитив → Аддитивная Сфера

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Wire
    Name/de:Draft Polylinie
    MenuLocation:Entwurf → Polyline

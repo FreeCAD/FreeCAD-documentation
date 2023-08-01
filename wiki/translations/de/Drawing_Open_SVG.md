@@ -1,6 +1,6 @@
 # Drawing Open SVG/de
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Drawing Open SVG
    Name/de:Zeichnen Open SVG
    Workbenches:[Zeichnen](Drawing_Workbench/de.md), Complete

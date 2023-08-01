@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Extrude
    Name/pl:Część: Wyciągnięcie
    MenuLocation:Część → Wyciągnięcie

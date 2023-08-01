@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Web BrowserBack
    Name/de:Web BrowserVorherigeSeite
    MenuLocation:

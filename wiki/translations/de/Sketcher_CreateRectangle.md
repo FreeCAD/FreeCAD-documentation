@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher CreateRectangle
    Name/de:Sketcher RechteckErstellen
    MenuLocation:Sketch → Skizzengeometrien → Rechteck erstellen

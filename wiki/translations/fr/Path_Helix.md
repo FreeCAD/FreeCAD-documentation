@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path Helix
    Name/fr:Path Hélice 
    MenuLocation:Path → Hélice

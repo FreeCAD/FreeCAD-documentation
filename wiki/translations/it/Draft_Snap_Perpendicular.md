@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Snap Perpendicular
    Name/it:Perpendicolare
    MenuLocation:Draft → [Aggancio](Draft_Snap/it.md) → Perpendicolare

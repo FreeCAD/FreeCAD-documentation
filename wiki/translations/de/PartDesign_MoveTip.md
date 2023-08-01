@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign MoveTip
    Name/de:PartDesign ArbeitspositionFestlegen
    MenuLocation:Kontextmenü → Arbeitsposition festlegen

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 ConstraintAxial
    Name/de:Assembly3 AxialeAusrichtung
    Icon:Assembly_ConstraintAxial.svg

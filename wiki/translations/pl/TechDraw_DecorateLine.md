@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw DecorateLine
    Name/pl:Rysunek Techniczny: Zmień wygląd linii
    MenuLocation:Rysunek Techniczny → Zmień wygląd linii

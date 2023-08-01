@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Snap Parallel
    Name/tr:Taslak Paralel
    MenuLocation:Taslak → [Yakalama](Draft_Snap/tr.md) → Paralel

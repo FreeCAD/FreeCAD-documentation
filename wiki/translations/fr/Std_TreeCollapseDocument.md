@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std TreeCollapseDocument
    Name/fr:Std Arborescence Réduire développer
    MenuLocation:Affichage → Vue en arborescence → Réduire/développer

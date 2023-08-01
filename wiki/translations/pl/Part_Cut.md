@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Cut
    Name/pl:Część: Wytnij
    MenuLocation:Część → Operacje logiczne → Wytnij

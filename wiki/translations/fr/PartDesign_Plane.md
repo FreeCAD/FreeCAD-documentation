@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign Plane
    Name/fr:PartDesign Plan de référence
    MenuLocation:Part Design → Créer une référence → Créer un plan de référence

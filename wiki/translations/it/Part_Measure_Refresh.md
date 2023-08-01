@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Part Measure Refresh
    Name/it:Aggiorna le misure
    MenuLocation:[Misure](Std_Measure_Menu/it.md) → Aggiorna

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part RuledSurface
    Name/pl:Część: RuledSurface
    MenuLocation:Część → Utwórz powierzchnię prostokreślną

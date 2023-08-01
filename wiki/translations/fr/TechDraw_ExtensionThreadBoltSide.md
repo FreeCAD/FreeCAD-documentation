@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExtensionThreadBoltSide
    Name/fr:TechDraw Corps de filetage
    MenuLocation:TechDraw → Extensions : taraudages/filetages → Corps de filetage

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Sketcher Extend
    Name/ru:Продлить
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part RegularPolygon
    Name/de:Part Regelmäßiges Polygon
    MenuLocation:Formteil → [Grundkörper erstellen...](Part_CreatePrimitives/de.md) → Regelmäßiges Polygon

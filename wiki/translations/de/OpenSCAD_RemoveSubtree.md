@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:OpenSCAD RemoveSubtree‏‎
    Name/de:OpenSCAD TeilbaumEntfernen
    MenuLocation:OpenSCAD → Objekte und ihre Kindobjekte entfernen

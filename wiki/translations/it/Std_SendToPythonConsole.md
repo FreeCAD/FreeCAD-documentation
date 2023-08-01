@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_SendToPythonConsole
    Name/it:Invia alla console Python
    MenuLocation:Modifica → Invia alla console Python

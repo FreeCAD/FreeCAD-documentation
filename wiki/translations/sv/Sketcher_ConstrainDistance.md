@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/sv
+- GuiCommand:
    Name:Constraint Length
    Name/sv:Constraint Length
    Workbenches:[Sketcher](Sketcher_Workbench/sv.md)

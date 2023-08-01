@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Grid
    Name/de:Arch Gitter
    MenuLocation:Arch → Achsenwerkzeuge → Gitter

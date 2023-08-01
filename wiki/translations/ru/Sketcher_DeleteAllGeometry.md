@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Удалить всю геометрию
    Name:Sketcher_DeleteAllGeometry
    MenuLocation:Эскиз → Инструменты для эскиза → Delete All Geometry

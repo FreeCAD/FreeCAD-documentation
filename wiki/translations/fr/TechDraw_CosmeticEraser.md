@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw CosmeticEraser
    Name/fr:TechDraw Gomme
    MenuLocation:TechDraw → Supprimer l'objet cosmétique

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std LinkSelectLinked
    Name/de:Std ZumVerknüpftenObjektGehen
    MenuLocation:''None''

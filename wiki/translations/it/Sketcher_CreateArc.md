@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher CreateArc
    Name/it:Arco
    MenuLocation:Sketch → Geometrie → Arco da centro

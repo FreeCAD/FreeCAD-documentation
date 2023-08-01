@@ -1,6 +1,6 @@
 # Arch Axis/it
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch Axis
    Name/it:Assi
    Workbenches:[Arch](Arch_Workbench/it.md)

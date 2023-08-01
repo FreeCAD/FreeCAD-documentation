@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Raytracing Lux
    Name/ru:Raytracing Lux
    MenuLocation:Трассировка лучей → Новый проект LuxRender

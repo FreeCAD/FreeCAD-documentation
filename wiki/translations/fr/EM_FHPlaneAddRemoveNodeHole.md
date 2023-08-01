@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:EM FHPlaneAddRemoveNodeHole
    Name/fr:EM Bascule noeud trou FH
    MenuLocation:EM → FHPlaneAddRemoveNodeHole

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw FaceCenterLine
    Name/pl:Rysunek Techniczny: Dodaj oś ściany
    MenuLocation:Rysunek Techniczny → Dodaj linie → Dodaj oś ściany

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:FEM MaterialReinforced
    Name/pl:MES Materiał wzmocniony
    MenuLocation: Model → Materials → Reinforced material (concrete)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher ConstrainAngle
    Name/fr:Sketcher Contrainte angulaire
    MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte angulaire

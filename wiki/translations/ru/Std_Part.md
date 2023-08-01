@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать деталь
    Name:Std_Part
    MenuLocation:None

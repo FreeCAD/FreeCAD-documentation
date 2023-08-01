@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Text
    Name/tr:Metin
    MenuLocation:Taslak → Metin

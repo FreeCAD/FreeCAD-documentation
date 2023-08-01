@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Draft2Sketch
    Name/ru:Draft Draft2Sketch
    MenuLocation:Черчение → Преобразовать в эскиз

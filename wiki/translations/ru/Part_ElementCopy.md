@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать копию элемента формы
    Name:Part_ElementCopy
    MenuLocation:Деталь → Создать копию → Создать копию элемента формы

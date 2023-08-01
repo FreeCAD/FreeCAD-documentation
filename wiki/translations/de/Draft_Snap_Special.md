@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Snap Special
    Name/de:Draft EinrastenSpezial
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)

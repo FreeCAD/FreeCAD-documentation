@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw Dimension Angle3Pt
    Name/de:TechDraw Winkelmaß3Punkte
    MenuLocation:TechDraw → Winkelmaß über 3 Punkte ???

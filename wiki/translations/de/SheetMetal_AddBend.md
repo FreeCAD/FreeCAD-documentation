@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:SheetMetal AddBend
    Name/de:SheetMetal BiegungHinzufügen
    MenuLocation:SheetMetal → Make Bend

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft LayerManager
    Name/fr:Draft Gestionnaire de calques
    MenuLocation:Utilitaire → Gestion des calques

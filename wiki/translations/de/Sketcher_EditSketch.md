@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher EditSketch
    Name/de:Sketcher SkizzeBearbeiten
    MenuLocation:Sketch → Skizze bearbeiten

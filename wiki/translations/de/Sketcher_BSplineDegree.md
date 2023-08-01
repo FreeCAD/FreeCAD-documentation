@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher BSplineDegree
    Name/de:Sketcher BSplineDegree
    MenuLocation:Sketch → B-spline-Werkzeuge → B-Spline-Grad ein- / ausblenden

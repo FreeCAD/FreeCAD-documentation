@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std DlgCustomize
    Name/ru:Std DlgCustomize
    MenuLocation:Инструменты → Настройка...

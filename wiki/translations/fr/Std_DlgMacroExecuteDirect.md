@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std DlgMacroExecuteDirect
    Name/fr:Std Lancer la macro
    MenuLocation:Macro → Lancer la macro

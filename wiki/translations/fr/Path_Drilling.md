@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path Drilling
    Name/fr:Path Perçage
    MenuLocation:Path → Perçage

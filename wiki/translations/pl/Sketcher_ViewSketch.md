@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher ViewSketch
    Name/pl:Skzkicownik: Widok szkicu
    MenuLocation:Sketch → Widok szkicu

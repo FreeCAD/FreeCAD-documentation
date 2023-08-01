@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM SolverCalculiX
    Name/de:FEM SolverCalculiX
    MenuLocation:Lösen → Solver CalculiX (new framework)

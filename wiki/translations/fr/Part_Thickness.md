@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Thickness
    Name/fr:Part Évidement
    MenuLocation:Part → Evidement...

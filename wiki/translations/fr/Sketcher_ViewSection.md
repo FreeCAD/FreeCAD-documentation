@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher ViewSection
    Name/fr:Sketcher Vue de section
    MenuLocation:Esquisse → Vue de la section

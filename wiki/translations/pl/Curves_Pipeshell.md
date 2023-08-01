@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Curves Pipeshell
    Name/pl:Krzywe: Powłoka rury
    MenuLocation:Powierzchnia → Powłoka rury

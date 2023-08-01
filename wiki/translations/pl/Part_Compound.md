@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Compound‏‎
    Name/pl:Część: Utwórz kształt złożony
    MenuLocation:Część → Złożenie → Utwórz kształt złożony

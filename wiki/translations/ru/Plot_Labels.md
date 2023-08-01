@@ -1,6 +1,6 @@
 # Plot Labels/ru
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Plot Labels
    Name/ru:Plot Labels
    MenuLocation:Plot → Настроить подписи

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Image Scaling
    Name/ru:Image Scaling
    Icon:Image Scaling.svg

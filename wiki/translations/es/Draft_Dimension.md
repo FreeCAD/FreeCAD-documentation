@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft Dimension
    Name/es:Draft Dimension
    MenuLocation:Croquis → Cotas

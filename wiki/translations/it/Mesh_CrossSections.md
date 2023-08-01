@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Mesh_CrossSections
    Name/it:Sezioni
    MenuLocation:Mesh → Taglio → Sezioni...

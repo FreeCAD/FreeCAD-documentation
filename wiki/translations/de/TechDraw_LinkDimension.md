@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw Dimension Link
    Name/de:TechDraw MaßVerknüpfen
    MenuLocation:TechDraw → Bemaßungen → Maß mit 3D Geometrie verknüpfen

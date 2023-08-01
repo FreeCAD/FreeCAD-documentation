@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:PartDesign Boolean
    Name/ro:PartDesign Operație booleană
    Workbenches:[PartDesign](PartDesign_Workbench/ro.md)

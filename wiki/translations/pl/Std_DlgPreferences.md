@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std DlgPreferences
    Name/pl:Std: Okno dialogowe preferencji
    MenuLocation:Edycja → Preferencje

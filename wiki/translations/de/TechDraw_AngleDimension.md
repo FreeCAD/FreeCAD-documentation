@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw Dimension Angle
    Name/de:TechDraw Winkelmaß
    MenuLocation:TechDraw → Bemaßungen → Winkelmaß einfügen

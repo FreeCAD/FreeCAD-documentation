@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch Check
    Name/es:Arch Check
    MenuLocation:Arquitectura → Utilidades → Comprobar

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:OpenSCAD RefineShapeFeature
    Name/de:OpenSCAD FormelementAufbereiten
    MenuLocation:OpenSCAD → Formelement aufbereiten

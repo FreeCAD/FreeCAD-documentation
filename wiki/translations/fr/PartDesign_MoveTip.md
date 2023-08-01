@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign MoveTip
    Name/fr:PartDesign Désigner comme fonction résultante
    MenuLocation:Menu contextuel → Désigner comme fonction résultante

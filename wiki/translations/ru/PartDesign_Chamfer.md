@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Фаска
    Name:PartDesign_Chamfer
    MenuLocation:Part Design → Apply a dress-up feature → Фаска

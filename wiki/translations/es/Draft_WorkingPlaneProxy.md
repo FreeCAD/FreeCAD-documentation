@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft WorkingPlaneProxy
    Name/es:Borrador PlanoTrabajoProxy
    MenuLocation:Borrador → Utilidades → Crear proxy del plano trabajo

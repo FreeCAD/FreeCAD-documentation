@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM MaterialReinforced
    Name/fr:FEM Matériau renforcé
    MenuLocation:Modèle → Matériaux → Matériau renforcé (type béton)

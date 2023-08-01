@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FEM_MaterialSolid
    Name/it:FEM Materiale per solidi
    MenuLocation:Modello → Materiale solido

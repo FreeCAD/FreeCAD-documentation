@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:PartDesign Clone
    Name/ro:PartDesign Clone
    Workbenches:[PartDesign](PartDesign_Workbench/ro.md)

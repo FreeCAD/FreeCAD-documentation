@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Семиугольник
    Name:Sketcher_CreateHeptagon
    MenuLocation:Эскиз → Геометрия эскиза → Семиугольник

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Cisim Oluştur
    Icon:PartDesign_Body_Create_New.svg
    Workbenches:[Parça tasarım](PartDesign_Workbench/tr.md)

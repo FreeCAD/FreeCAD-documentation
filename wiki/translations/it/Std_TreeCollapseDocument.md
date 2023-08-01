@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_TreeCollapseDocument
    Name/it:Comprimi/Espandi
    MenuLocation:Visualizza → Azioni della vista ad albero → Comprimi/Espandi

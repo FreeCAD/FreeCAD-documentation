@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft AddToGroup
    Name/tr:Gruba Ekle
    MenuLocation:Taslak → Araçlar → Gruba Ekle

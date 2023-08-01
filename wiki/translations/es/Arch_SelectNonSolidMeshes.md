@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch SelectNonSolidMeshes
    Name/es:Arch SelectNonSolidMeshes
    MenuLocation:Arch → Utilities → Select non solid

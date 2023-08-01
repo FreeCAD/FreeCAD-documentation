@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw ExtensionThreadHoleBottom
    Name/pl:Rozszerzenie Geometria pomocnicza dla otworu gwintowanego, widok od dołu
    MenuLocation:Rysunek Techniczny → Rozszerzenia: Linie środka / Gwinty → Geometria pomocnicza dla otworu gwintowanego, widok od dołu

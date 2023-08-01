@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 ConstraintSymmetricLine
    Name/de:Assembly3 Achsensymmetrie
    Icon:Assembly_ConstraintSymmetricLine.svg

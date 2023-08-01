@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Spreadsheet AlignCenter
    Name/de:Kalkulationstabelle MittigAusrichten
    MenuLocation:Kalkulationstabelle → Ausrichtung → Mittig Ausrichten

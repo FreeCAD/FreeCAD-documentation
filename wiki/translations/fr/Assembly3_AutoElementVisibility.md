@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 AutoElementVisibility
    Name/fr:Assembly3 Visibilité automatique des éléments 
    Icon:Assembly_AutoElementVis.svg‎‎

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 ConstraintPerpendicular
    Name/de:Assembly3 RechtwinkligFestlegen
    Icon:Assembly_ConstraintPerpendicular.svg

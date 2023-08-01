@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Аддитивный профиль
    Name:PartDesign_AdditiveLoft
    MenuLocation:Part Design → Create an additive feature → Аддитивный профиль

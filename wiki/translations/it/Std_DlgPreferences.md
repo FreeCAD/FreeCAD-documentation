@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_DlgPreferences
    Name/it:Preferenze
    MenuLocation:Modifica → Preferenze...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher BSplineComb
    Name/de:Sketcher BSplineKamm
    MenuLocation:Sketch → B-Spline-Werkzeuge → B-Spline-Krümmungskamm ein-/ausblenden

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать тело
    Name:PartDesign_Body
    MenuLocation:Part Design → Создать тело

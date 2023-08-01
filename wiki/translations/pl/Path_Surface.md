@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Path Surface
    Name/pl:Path: Powierzchnia 3D
    MenuLocation:Path → Powierzchnia 3D

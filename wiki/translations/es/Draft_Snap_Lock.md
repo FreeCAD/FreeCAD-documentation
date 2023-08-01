@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft Snap Lock
    Name/es:Draft ToggleSnap
    MenuLocation:Draft → Utilities → Toggle snap

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign Point
    Name/de:PartDesign Bezugspunkt erstellen
    MenuLocation:Part Design → Bezugselement erstellen → Bezugspunkt erstellen

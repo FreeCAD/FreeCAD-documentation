@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Mesh FillInteractiveHole‏‎
    Name/ru:Mesh FillInteractiveHole‏‎
    MenuLocation:Сетки → Закрыть отверстие

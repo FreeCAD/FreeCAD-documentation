@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path 3DSurface
    Name/fr:Path Surface
    MenuLocation:Path → Surface

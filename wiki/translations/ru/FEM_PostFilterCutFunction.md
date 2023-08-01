@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM PostFilterCutFunction
    Name/ru:FEM PostFilterCutFunction
    MenuLocation:Results → Function cut filter

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Fasteners BOM
    Name/de:Fasteners Stückliste
    MenuLocation:Fasteners → Generate BOM

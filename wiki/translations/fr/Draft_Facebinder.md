@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Facebinder
    Name/fr:Draft Surfaces liées
    MenuLocation:Draft → Surfaces liées

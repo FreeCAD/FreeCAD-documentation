@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Path Job
    Name/es:Trayectoria Pedido
    Workbenches:[Trayectoria](Path_Workbench.md)

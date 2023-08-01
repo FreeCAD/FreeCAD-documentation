@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh Union
    Name/pl:Siatka Połączenie
    MenuLocation:Siatki → Operacje logiczne → Połączenie

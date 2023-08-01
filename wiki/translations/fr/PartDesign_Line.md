@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign Line
    Name/fr:PartDesign Ligne de référence
    MenuLocation:Part Design → Créer une référence → Créer une ligne de référence

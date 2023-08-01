@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher CompCreateCircle
    Name/fr:Sketcher Cercles
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)

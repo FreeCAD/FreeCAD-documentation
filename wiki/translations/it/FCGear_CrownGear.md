@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FCGear CrownGear
    Name/it:Corona dentata
    MenuLocation:FCGear → Create an Crown gear

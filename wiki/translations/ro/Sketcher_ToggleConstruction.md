@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Sketcher ToggleConstruction
    Name/ro:Activează/dezactivează construcția geometrică
    Icon:Sketcher_AlterConstruction.svg

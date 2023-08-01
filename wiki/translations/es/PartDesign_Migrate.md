@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign Migrate
    Name/es:DiseñoPiezas Migración
    MenuLocation:Diseño Piezas → Migración

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign Draft
    Name/de:PartDesign Formschräge
    MenuLocation:Part Design → Modifikationen → Formschräge

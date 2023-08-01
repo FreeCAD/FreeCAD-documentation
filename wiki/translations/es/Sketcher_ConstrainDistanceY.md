@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher ConstrainDistanceY
    Name/es:Sketcher ConstrainDistanceY
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)

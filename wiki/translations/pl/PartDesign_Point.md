@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign Point
    Name/pl:Projekt Części: Utwórz punkt odniesienia
    MenuLocation:Projekt Części → Utwórz układ odniesienia → Utwórz punkt odniesienia

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw CosmeticVertex
    Name/it:Vertice cosmetico
    MenuLocation:TechDraw → Aggiuge Vertici → Vertice cosmetico

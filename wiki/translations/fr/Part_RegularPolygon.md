@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part RegularPolygon
    Name/fr:Part Polygone régulier
    MenuLocation:Part → [Créer des primitives](Part_Primitives/fr.md) → Polygone régulier

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать связующую форму
    Name:PartDesign_ShapeBinder
    MenuLocation:Part Design → Создать связующую форму

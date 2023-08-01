@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Measure Toggle All
    Name/pl:Część: Włącz / wyłącz widoczność pomiarów
    MenuLocation:Pomiary → Włącz / wyłącz widoczność pomiarów

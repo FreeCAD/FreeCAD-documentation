@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch RemoveShape
    Name/it:Rimuovi forma
    Workbenches:[Architettura](Arch_Workbench/it.md)

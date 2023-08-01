@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Snap Parallel
    Name/ru:Draft Snap Parallel
    MenuLocation:Черчение → [Привязка](Draft_Snap/ru.md) → Параллельно

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft OrthoArray
    Name/fr:Draft Réseau orthogonal
    MenuLocation:Modification → Outils pour les réseaux → Réseau

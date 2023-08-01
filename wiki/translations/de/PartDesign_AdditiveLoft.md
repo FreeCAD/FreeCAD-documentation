@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign AdditiveLoft
    Name/de:PartDesign AusformungHinzufügen
    MenuLocation:Part Design → Objekte hinzufügen → Ausformung

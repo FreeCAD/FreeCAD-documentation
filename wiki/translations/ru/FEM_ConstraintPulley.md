@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM ConstraintPulley
    Name/ru:FEM ConstraintPulley
    MenuLocation:Model → Constraints without solver → Constraint pulley

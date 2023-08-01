@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std Open
    Name/ko:표준 열기
    MenuLocation:파일 → 열기...

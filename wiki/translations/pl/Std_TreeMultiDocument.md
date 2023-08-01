@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std TreeMultiDocument
    Name/pl:Std: Wiele dokumentów w widoku drzewa
    MenuLocation:Widok → Akcje widoku drzewa → Wiele dokumentów

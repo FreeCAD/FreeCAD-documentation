@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM ConstraintContact
    Name/de:FEM RandbedingungKontakt
    MenuLocation:Modell → Mechanische Randbedingungen → Randbedingung Flächenkontakt

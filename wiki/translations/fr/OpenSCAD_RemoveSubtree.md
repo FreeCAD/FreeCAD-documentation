@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:OpenSCAD RemoveSubtree
    Name/fr:OpenSCAD Suppression de l'arborescence
    MenuLocation:OpenSCAD → Supprimer les objets et leurs enfants

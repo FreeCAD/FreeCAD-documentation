@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std Paste
    Name/ko:표준 붙여넣기
    MenuLocation:편집 → 붙여넣기

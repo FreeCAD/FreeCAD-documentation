@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_TreeDrag
    Name/it:Avvia il trascinamento
    MenuLocation:Visualizza → Azioni della vista ad albero → Avvia il trascinamento

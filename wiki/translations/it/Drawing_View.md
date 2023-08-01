@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Drawing View
    Name/it:Inserisci vista
    Workbenches:[Disegno](Drawing_Workbench/it.md), Completo

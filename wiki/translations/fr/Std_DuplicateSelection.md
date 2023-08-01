@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std DuplicateSelection
    Name/fr:Std Dupliquer la Sélection
    MenuLocation:Édition → Dupliquer la sélection

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/cs
+- GuiCommand:
    Name:PartDesign InvoluteGear
    Name/cs:PartDesign InvoluteGear
    MenuLocation:Part Design → Involute gear...

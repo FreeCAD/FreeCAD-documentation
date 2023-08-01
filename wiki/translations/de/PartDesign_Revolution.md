@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign Revolution
    Name/de:PartDesign Drehteil
    MenuLocation:Part Design → Objekte hinzufügen → Drehteil

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Robot SetHomePos
    Name/tr:Robot Ana konum ayarla
    Workbenches:[Robot](Robot_Workbench/tr.md)

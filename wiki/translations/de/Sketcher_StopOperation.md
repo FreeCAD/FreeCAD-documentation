@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher StopOperation
    Name/de:Sketcher VorgangBeenden
    MenuLocation:Skizze → Vorgang beenden

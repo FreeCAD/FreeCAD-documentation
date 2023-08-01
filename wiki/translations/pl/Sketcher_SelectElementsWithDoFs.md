@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher SelectElementsWithDoFs
    Name/pl:Szkicownik: Wybierz elementy bez wiązań
    MenuLocation:Szkic → Narzędzia szkicownika → Wybierz elementy bez wiązań

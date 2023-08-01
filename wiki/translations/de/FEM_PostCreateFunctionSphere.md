@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM PostCreateFunctionSphere
    Name/de:FEM NachbereitungFunktionKugel
    MenuLocation:Ergebnisse → Filterfunktionen → Kugel

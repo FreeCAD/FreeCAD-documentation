@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft PolarArray
    Name/es:Borrador ArregloPolar
    MenuLocation:Modificación → Herramientas de  Arreglo → Arreglo Polar

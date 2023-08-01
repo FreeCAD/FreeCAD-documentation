@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign CompPrimitiveAdditive
    Name/pl:Projekt Części: Utwórz bryłę pierwotną do dodania
    MenuLocation:Projekt Części → Utwórz bryłę pierwotną do dodania

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:TechDraw  Dimension Horizontal
    Name/es:TechDraw  Dimensión Horizontal
    MenuLocation:TechDraw →  Dimensión Horizontal

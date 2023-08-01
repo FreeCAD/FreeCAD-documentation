@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Text
    Name/it:Testo
    MenuLocation:Drafting → Testo

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher ConstrainDistance
    Name/it:Distanza
    Workbenches:[Schizzo](Sketcher_Workbench/it.md)

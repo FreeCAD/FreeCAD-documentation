@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Part Compound‏‎Filter
    Name/it:Filtra composto
    MenuLocation:Part → Filtra composto

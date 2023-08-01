@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std SaveCopy
    Name/de:Std KopieSpeichern
    MenuLocation:Datei → Speichern einer Kopie...

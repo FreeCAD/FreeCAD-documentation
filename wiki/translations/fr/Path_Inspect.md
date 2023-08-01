@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path Inspect
    Name/fr:Path Inspecter des commandes
    MenuLocation:Path → Inspecter les commandes

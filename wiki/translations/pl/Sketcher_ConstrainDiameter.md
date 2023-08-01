@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher ConstrainDiameter
    Name/pl:Szkicownik: Wiązanie średnicy
    MenuLocation:Szkic → Wiązania szkicownika → Wiązanie średnicy

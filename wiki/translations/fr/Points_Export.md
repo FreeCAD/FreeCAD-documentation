@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Points Export
    Name/fr:Points Exporter
    MenuLocation:Points → Exporter les points...

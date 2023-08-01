@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign_Revolution
    Name/fr:PartDesign Révolution
    MenuLocation:Part Design → Créer une fonction additive → Révolution

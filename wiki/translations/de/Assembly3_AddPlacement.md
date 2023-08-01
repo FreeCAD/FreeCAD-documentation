@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 AddPlacement
    Name/de:Assembly3 BezugssystemHinzufügen
    Icon:Assembly_Add_Placement.svg‎‎

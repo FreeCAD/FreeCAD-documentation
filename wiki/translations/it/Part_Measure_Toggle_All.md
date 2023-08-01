@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Part Measure Toggle All
    Name/it:Attiva/Disattiva tutto
    MenuLocation:[Misure](Std_Measure_Menu/it.md) → Attiva/Disattiva tutto‏‎

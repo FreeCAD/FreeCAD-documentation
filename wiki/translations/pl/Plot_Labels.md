@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Plot Labels
    Name/pl:Wykres: Ustaw etykiety
    MenuLocation:Wykres → Ustaw etykiety

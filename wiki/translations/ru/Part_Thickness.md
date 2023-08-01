@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part_Thickness
    Name/ru:Толщина
    MenuLocation:Деталь → Толщина

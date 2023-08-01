@@ -1,6 +1,6 @@
 # PartDesign MultiTransform/cs
 ---
-- GuiCommand:/cs   Name:PartDesign_MultiTransform   Name/cs:Návrh dílu MultiTransformace   Workbenches:[[PartDesign Workbench/cs   Návrh dílu]], Kompletace|MenuLocation:Návrh dílu -> MultiTransformace---
+- GuiCommand:   Name:PartDesign_MultiTransform   Name/cs:Návrh dílu MultiTransformace   Workbenches:[[PartDesign Workbench/cs   Návrh dílu]], Kompletace|MenuLocation:Návrh dílu -> MultiTransformace---
 
 
 </div>

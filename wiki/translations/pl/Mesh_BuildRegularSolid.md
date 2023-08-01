@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh BuildRegularSolid
    Name/pl:Siatka Utwórz bryłę pierwotną
    MenuLocation:Siatki → Utwórz bryłę pierwotną ...

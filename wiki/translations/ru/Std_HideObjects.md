@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std HideObjects
    Name/ru:Std HideObjects
    MenuLocation:Вид → Видимость → Скрыть все объекты

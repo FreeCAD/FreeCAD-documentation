@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher CreateBSpline
    Name/fr:Sketcher B-spline simple
    MenuLocation:Esquisse → Géométries d'esquisse → Créer une B-spline

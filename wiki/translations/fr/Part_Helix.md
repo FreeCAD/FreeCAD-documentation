@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Helix
    Name/fr:Part Hélice
    MenuLocation:Part → [Créer des primitives...](Part_Primitives/fr.md) → Hélice

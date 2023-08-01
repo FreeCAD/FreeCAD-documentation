@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign SubtractiveEllipsoid
    Name/es:PartDesign Elipsoide Sustractivo
    MenuLocation:Part Design → Crear una primitiva sustractiva → Elipsoide sustractivo

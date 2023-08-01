@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part SliceApart
    Name/de:Part Auseinanderschneiden
    MenuLocation:Formteil → Teilen → Auseinanderschneiden

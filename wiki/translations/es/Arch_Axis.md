@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch Axis
    Name/es:Ejes de arquitectura
    MenuLocation:Arquitectura → Ejes

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std MeasureDistance
    Name/fr:Std Mesurer une distance
    MenuLocation:Outils → Mesurer une distance‏‎

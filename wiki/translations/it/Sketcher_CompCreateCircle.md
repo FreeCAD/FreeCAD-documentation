@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher Circles
    Name/it:Cerchi
    Icon:Sketcher_CompCreateCircle.png

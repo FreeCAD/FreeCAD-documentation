@@ -1,6 +1,6 @@
 # Draft ApplyStyle/sv
 ---
-- GuiCommand:/sv   Name:Draft_Apply   Workbenches:[[Draft_Workbench/sv   Skiss]]|MenuLocation:Draft -> Apply style---
+- GuiCommand:   Name:Draft_Apply   Workbenches:[[Draft_Workbench/sv   Skiss]]|MenuLocation:Draft -> Apply style---
 
 
 </div>

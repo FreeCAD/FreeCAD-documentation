@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Path Drilling
    Name/ru:Path Drilling
    MenuLocation:Path → Сверление

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw Annotation
    Name/fr:TechDraw Annotation
    MenuLocation:TechDraw → Annotations → Insérer une annotation

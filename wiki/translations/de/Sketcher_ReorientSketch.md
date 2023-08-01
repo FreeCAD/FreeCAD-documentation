@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher ReorientSketch
    Name/de:Sketcher SkizzeAnordnen
    MenuLocation:Sketch → Skizze neu Anordnen

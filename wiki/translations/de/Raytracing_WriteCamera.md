@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Raytracing WriteCamera‏‎
    Name/de:Raytracing Kamera‏‎
    MenuLocation:Raytracing → Kamera‏‎|

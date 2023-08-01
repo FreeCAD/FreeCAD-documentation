@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Квадрат
    Name:Sketcher_CreateSquare
    MenuLocation:Sketch → Геометрия эскиза → Создать квадрат

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 ShowElementCS
    Name/fr:Assembly3 Système de coordonnées de l'élément
    Icon:Assembly_ShowElementCS.svg‎‎

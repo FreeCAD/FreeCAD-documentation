@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Круговой массив
    Name:PartDesign_PolarPattern
    MenuLocation:Part Design → Apply a pattern → Круговой массив

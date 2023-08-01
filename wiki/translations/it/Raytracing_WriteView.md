@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Raytracing WriteView
    Name/it:Raytracing WriteView
 ‏‎‏‎   MenuLocation:Raytracing  → Utilità → Esporta

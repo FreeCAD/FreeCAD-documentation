@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std MainFullscreen
    Name/ko:표준 메인 전체화면
    MenuLocation:보기 → 전체화면

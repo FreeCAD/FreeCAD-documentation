@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM EquationFlow
    Name/fr:FEM Equation d'écoulement
    MenuLocation:Résolution → Équation d'écoulement

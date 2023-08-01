@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw ExtensionCreateObliqueCoordDimension
    Name/pl:Rysunek Techniczny: Rozszerzenie Seria wymiarów kaskadowych ukośnie
    MenuLocation:Rysunek Techniczny → Rozszerzenia: Wymiary → Seria wymiarów ukośnie

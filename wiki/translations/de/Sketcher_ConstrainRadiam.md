@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher ConstrainRadiam
    Name/de:Sketcher RadiamFestlegen
    MenuLocation:Sketch → Skizzen-Beschränkungen → Automatisch Radius/Durchmesser einschränken

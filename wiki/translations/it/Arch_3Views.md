@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch 3Views
    Name/it:3 Viste da mesh
    MenuLocation:Arch → Utilità → 3 Viste da mesh

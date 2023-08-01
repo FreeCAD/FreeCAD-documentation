@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft FlipDimension
    Name/fr:Draft Inverser le texte de la dimension
    MenuLocation:Modification → Inverser le texte de la dimension

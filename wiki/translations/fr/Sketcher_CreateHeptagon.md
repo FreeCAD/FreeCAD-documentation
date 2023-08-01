@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher CreateHeptagon
    Name/fr:Sketcher Heptagone
    MenuLocation:Esquisse → Géométries d'esquisse → Créer un heptagone

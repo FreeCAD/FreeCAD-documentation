@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher RestoreInternalAlignmentGeometry
    Name/de:Sketcher InterneAusrichtungsgeometrieWiederherstellen
    MenuLocation:Sketch → Skizzen-Werkzeuge → Interne Geometrie anzeigen / ausblenden

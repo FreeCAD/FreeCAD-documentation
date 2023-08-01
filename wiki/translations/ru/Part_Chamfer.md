@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part_Chamfer
    Name/ru:Фаска
    MenuLocation:Деталь → Фаска

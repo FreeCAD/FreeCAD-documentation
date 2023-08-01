@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Path Fixture
    Name/ru:Path Fixture
    MenuLocation:Path → Supplemental Commands → Крепление

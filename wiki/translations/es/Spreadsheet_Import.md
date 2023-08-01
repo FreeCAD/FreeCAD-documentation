@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Spreadsheet Import
    Name/es:Hojas de cálculo Importar
    MenuLocation:Hojas de cálculo → Importar Hojas de cálculo

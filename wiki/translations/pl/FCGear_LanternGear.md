@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:FCGear LanternGear
    Name/pl:Gear: Koło drabinkowe
    MenuLocation:Gear → Koło drabinkowe

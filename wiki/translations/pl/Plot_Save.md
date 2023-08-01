@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Plot Save
    Name/pl:Wykres: Zapisz wykres
    MenuLocation:Wykres → Zapisz wykres

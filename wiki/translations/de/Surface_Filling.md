@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Surface Filling
    Name/de:Surface Füllfläche
    MenuLocation:Surface → Filling

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch MeshToShape   Name/es:Arch Malla a forma
    MenuLocation:Arquitectura → Utilidades → Malla a forma
    Workbenches:[Arquitectura](Arch_Workbench/es.md)

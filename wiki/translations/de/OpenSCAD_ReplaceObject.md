@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:OpenSCAD ReplaceObject‏‎
    Name/de:OpenSCAD ReplaceObject‏‎
    MenuLocation:OpenSCAD → Objekt ersetzen

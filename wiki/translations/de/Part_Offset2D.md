@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Offset2D
    Name/de:Part 2DVersatz
    MenuLocation:Formteil → 2D-Versatz

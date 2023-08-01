@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw PageDefault
    Name/fr:TechDraw Page par défaut
    MenuLocation:TechDraw → Page → Insérer une page par défaut

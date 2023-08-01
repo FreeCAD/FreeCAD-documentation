@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch Reference
    Name/es:Arquitectura Referencia
    MenuLocation:Arquitectura → Referencia

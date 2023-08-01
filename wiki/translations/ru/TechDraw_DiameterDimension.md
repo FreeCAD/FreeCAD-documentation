@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Указать диаметр
    Name:TechDraw_DiameterDimension
    MenuLocation:TechDraw → Размеры → Указать диаметр

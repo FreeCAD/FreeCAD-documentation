@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/zh-cn
+- GuiCommand:-cn
    Name/zh-cn:离开草图
    Name:Sketcher_LeaveSketch
    MenuLocation:Sketch → 离开草图

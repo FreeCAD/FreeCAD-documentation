@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/sv
+- GuiCommand:
    Name:Arch MeshToShape   Name/sv:Arch MeshToShape
    MenuLocation:Arch → Utilities → Mesh to Shape
    Workbenches:[Arch](Arch_Workbench/sv.md)

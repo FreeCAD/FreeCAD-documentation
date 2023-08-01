@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Arch CloneComponent‏‎‏‎
    Name/ro:Arch: CloneComponent
    MenuLocation:Arch → Utilities → Clone Component

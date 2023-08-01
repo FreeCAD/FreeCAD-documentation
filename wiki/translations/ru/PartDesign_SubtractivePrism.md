@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Субтрактивная призма
    Name:PartDesign_SubtractivePrism
    MenuLocation:Part Design → Создать субтрактивный примитив → Субтрактивная призма

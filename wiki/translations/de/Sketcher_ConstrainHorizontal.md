@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher ConstrainHorizontal
    Name/de:Sketcher HorizontalFestlegen
    MenuLocation:Sketch → Skizzen-Beschränkungen → Horizontal einschränken

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part RefineShape
    Name/de:Part FormAufbereiten
    MenuLocation:Formteil → Kopie erstellen → Form aufbereiten

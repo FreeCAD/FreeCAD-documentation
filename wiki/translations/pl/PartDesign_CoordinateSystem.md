@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign CoordinateSystem
    Name/pl:Projekt Części: Utwórz lokalny układ współrzędnych.
    MenuLocation:Projekt Części → Utwórz lokalny układ współrzędnych

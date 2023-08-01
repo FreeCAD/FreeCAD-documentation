@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:SheetMetal_Extrude
    Name/it:Estendi
    MenuLocation:SheetMetal → Extrude

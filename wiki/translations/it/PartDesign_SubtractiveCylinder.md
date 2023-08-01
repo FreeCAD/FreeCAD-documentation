@@ -1,6 +1,6 @@
 # PartDesign SubtractiveCylinder/it
 ---
-- GuiCommand:/it   Name:PartDesign SubtractiveCylinder   Name/it:Cilindro sottrattivo   Workbenches:[MenuLocation:Part Design → Crea una primitiva sottrattiva → Cilindro   Version:0.17   SeeAlso:[[PartDesign CompPrimitiveSubtractive/it|Primitive sottrattive](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand:   Name:PartDesign SubtractiveCylinder   Name/it:Cilindro sottrattivo   Workbenches:[MenuLocation:Part Design → Crea una primitiva sottrattiva → Cilindro   Version:0.17   SeeAlso:[[PartDesign CompPrimitiveSubtractive/it|Primitive sottrattive](PartDesign_Workbench/it___PartDesign]].md)---
 
 
 </div>

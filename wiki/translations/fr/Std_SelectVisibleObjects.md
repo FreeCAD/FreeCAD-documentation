@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std SelectVisibleObjects
    Name/fr:Std Sélection objets visibles
    MenuLocation:Affichage → Visibilité → Sélectionnez des objets visibles

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part JoinEmbed
    Name/pl:Część: Osadź obiekt
    MenuLocation:Część → Połącz → Osadź obiekt

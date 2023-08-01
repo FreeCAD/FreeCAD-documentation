@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher Create3PointCircle
    Name/it:Crea cerchio da 3 punti
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Curves ParametricSolid
    Name/fr:Curves Solide paramétrique
    MenuLocation:Misc. → Parametric solid

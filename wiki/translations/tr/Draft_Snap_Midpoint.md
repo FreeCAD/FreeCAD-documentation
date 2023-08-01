@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Midpoint
    Name/tr:Taslak Orta nokta
    MenuLocation:Taslak → [Yakalama](Draft_Snap/tr.md) → Orta nokta

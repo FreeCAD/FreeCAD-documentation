@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM FemMesh2Mesh
    Name/ru:FEM FemMesh2Mesh
    MenuLocation:Mesh → FEM mesh to mesh

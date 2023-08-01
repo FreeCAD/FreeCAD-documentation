@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Part PointsFromMesh‎
    Name/it:Crea punti da mesh
    MenuLocation:Part → Crea punti da mesh

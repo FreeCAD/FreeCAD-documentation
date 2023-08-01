@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw DimensionRepair
    Name/pl:Rysunek Techniczny: Napraw odniesienia do wymiarów
    MenuLocation:Rysunek Techniczny → Wymiary → Napraw odniesienia do wymiarów

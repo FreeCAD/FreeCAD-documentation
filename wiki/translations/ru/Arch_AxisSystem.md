@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Arch: AxisSystem/Система осей
    Icon:Arch Axis System.svg
    MenuLocation:Arch → Axis System

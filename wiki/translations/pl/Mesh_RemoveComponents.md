@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh_RemoveComponents
    Name/pl:Siatka: Usuń fragmenty
    MenuLocation:Siatki → Usuń fragmenty ...

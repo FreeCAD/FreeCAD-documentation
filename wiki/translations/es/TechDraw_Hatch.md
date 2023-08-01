@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:TechDraw Hatch
    Name/es:DibujoTécnico Achurado
    MenuLocation:DibujoTécnico → Achurar un plano usando un archivo de imagen

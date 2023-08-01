@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FCGear_LanternGear
    Name/it:Ingranaggio a lanterna
    MenuLocation:FCGear → Create a Lantern gear

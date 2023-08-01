@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Arch MeshToShape
    Name/ro:Arch MeshToShape
    MenuLocation:Arch → Utilities → Mesh to Shape

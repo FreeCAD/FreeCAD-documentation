@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign Sprocket
    Name/de:PartDesign Kettenrad
    MenuLocation:Part Design → Kettenrad...

@@ -1,6 +1,6 @@
 # Part XOR/pl
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part_XOR
    Name/pl:Część: Logiczny XOR
    MenuLocation:Część → Rozdziel → Logiczny XOR

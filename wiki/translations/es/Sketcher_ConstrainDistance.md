@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher ConstrainDistance
    Name/es:Restricción de distancia
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)

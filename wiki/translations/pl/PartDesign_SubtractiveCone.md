@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign SubtractiveCone
    Name/pl:Projekt Części: Subtraktywny stożek
    MenuLocation:Projekt Części → Utwórz cechę przez odjęcie → Subtraktywny stożek

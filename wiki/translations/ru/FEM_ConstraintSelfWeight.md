@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM ConstraintSelfWeight
    Name/ru:FEM ConstraintSelfWeight
    MenuLocation:FEM → Constraint self weight

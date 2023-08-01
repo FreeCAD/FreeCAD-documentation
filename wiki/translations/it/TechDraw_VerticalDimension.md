@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw Dimension Vertical
    Name/it:Dimensione verticale
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)

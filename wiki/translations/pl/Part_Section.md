@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Section
    Name/pl:Część: Przecięcie
    MenuLocation:Część → Operacje logiczne → Przecięcie

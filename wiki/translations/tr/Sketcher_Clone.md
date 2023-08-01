@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Sketcher Clone
    Name/tr:Eskiz Klonla
    Workbenches:[Eskiz](Sketcher_Workbench/tr.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Вставить подробный Вид
    Name:TechDraw_DetailView
    MenuLocation:TechDraw → Вставить подробный Вид

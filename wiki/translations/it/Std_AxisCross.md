@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std AxisCross
    Name/it:Origine degli assi
    Empty:1

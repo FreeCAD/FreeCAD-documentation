@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std_BoxSelection
    Name/ru:Выделить область
    MenuLocation:Правка → Выделить область

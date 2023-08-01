@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft_Scale
    Name/it:Scala
    MenuLocation:Modifiche → Scala

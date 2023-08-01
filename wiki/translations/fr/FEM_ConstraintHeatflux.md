@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ConstraintHeatflux
    Name/fr:FEM Contrainte de flux de chaleur
    MenuLocation:Modèle → Contraintes thermiques → Contrainte de flux de chaleur

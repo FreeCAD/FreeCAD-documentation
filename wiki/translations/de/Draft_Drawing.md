@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Drawing
    Name/de:Entwurf Zeichnung
    MenuLocation:Entwurf → Zeichnung

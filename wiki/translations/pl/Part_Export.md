@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Export‎
    Name/pl:Część: Eksport projektu do CAD ...
    MenuLocation:Część → Eksport projektu do CAD

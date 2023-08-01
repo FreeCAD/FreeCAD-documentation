@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std ViewCreate
    Name/ru:Создать новый вид
    MenuLocation:Вид → Создать новый вид

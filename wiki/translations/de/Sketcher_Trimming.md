@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher Trimming
    Name/de:Sketcher Zuschneiden
    MenuLocation:Sketch → Skizzengeometrien → Kante zuschneiden

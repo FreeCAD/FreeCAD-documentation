@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Box
    Name/de:Part Würfel
    MenuLocation:Formteil → Grundkörper → Würfel 

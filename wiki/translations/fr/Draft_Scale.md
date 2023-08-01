@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Scale
    Name/fr:Draft Échelle
    MenuLocation:Modification → Échelle

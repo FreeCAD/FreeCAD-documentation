@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Arch SelectNonSolidMeshes
    Name/ru:Arch SelectNonSolidMeshes
    MenuLocation:Архитектура → Утилиты → Выбрать не-разнородные сетки

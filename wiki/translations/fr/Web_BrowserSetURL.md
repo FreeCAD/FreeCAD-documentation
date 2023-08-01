@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Web BrowserSetURL
    Name/fr:Web Changer l'URL
    MenuLocation:

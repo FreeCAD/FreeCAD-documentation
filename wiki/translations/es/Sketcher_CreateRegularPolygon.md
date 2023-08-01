@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher CreateRegularPolygon
    Name/es:Croquizador CrearPolígonoRegular
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)

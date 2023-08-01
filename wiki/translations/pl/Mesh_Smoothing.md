@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh Smoothing
    Name/pl:Siatka: Wygładź
    MenuLocation:Siatki → Wygładź ...

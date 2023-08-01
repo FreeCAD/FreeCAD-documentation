@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/cs
+- GuiCommand:
    Name:Constraint Perpendicular
    Name/cs:Constraint Perpendicular
    Workbenches:[Náčrt](Sketcher_Workbench/cs.md), [Návrh dílu](PartDesign_Workbench/cs.md)

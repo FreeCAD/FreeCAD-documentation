@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Mesh_AddFacet
    Name/it:Aggiungi triangolo
    MenuLocation:Mesh → Aggiungi triangolo

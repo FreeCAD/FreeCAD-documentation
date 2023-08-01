@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Spreadsheet StyleBold
    Name/de:Kalkulationstabelle StilFett
    Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)

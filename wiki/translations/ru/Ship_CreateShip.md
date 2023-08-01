@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Ship New‏‎ 
    Name/ru:Ship New‏‎ 
    Icon:Ship_Instance.svg

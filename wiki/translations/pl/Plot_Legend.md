@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Plot Legend
    Name/pl:Wykres: Pokaz / ukryj legendę
    MenuLocation:Wykres → Pokaz / ukryj legendę

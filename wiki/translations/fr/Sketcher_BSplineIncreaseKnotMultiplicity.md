@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher BSplineIncreaseKnotMultiplicity
    Name/fr:Sketcher Augmenter la multiplicité d'un nœud
    MenuLocation:Esquisse → Outils d'esquisse des B-splines → Augmenter la multiplicité de noeuds

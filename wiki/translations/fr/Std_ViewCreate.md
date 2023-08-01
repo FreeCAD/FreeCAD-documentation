@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ViewCreate
    Name/fr:Std Créer une nouvelle vue
    MenuLocation:Affichage → Créer une nouvelle vue‏‎

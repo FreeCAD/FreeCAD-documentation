@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ViewIvStereoRedGreen
    Name/de:Std AnsichtStereoRotGrün
    MenuLocation:Ansicht → Stereo → Stereo rot/cyan

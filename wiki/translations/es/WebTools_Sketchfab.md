@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:WebTools Sketchfab
    Name/es:HerramientasWeb Sketchfab
    MenuLocation:HerramientasWeb → Sketchfab

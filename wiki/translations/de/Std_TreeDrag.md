@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std TreeDrag
    Name/de:Std BaumZiehen
    MenuLocation:Ansicht → Baumansicht-Aktionen → Ziehen initiieren

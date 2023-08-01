@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std BoxSelection
    Name/ko:표준 개체 선택 상자
    MenuLocation:편집 → 개체 선택

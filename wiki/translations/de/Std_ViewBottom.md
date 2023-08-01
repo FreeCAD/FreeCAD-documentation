@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ViewBottom
    Name/de:Std Bodenansicht
    MenuLocation:{{StdMenu|[Ansichtsmenü](Std_View_Menu/de.md)}} → Standardansichten → Bodenansicht

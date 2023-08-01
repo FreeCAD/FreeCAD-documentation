@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher CompCreateRectangles
    Name/pl:Szkicownik: Komponent Utwórz prostokąt
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)

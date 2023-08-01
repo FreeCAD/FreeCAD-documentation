@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Part Union
    Name/it:Unione
    Icon:Part Fuse.svg

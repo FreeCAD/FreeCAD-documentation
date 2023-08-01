@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExtensionDrawCosmCircle
    Name/fr:TechDraw Cercle
    MenuLocation:TechDraw → Extensions : taraudages/filetages → Cercle

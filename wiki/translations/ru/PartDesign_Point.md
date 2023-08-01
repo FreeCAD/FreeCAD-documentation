@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать опорную точку
    Name:PartDesign_Point
    MenuLocation:Part Design → Create a datum → Создать опорную точку

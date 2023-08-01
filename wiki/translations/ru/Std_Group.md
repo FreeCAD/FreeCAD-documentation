@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать группу
    Name:Std_Group
    MenuLocation:[Древовидное представление](Tree_view/ru.md) → Правый клик на имени документа → Создать группу

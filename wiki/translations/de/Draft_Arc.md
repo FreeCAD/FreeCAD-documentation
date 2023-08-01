@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Arc
    Name/de:Draft Bogen
    MenuLocation:Entwurf → Bogenwerkzeuge → Kreisbogen

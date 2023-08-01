@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Spreadsheet Export
    Name/fr:Spreadsheet Exporter
    MenuLocation:Spreadsheet → Exporter la feuille de calcul

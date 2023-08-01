@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std TreeCollapseDocument
    Name/de:Std BaumDokumentReduzieren
    MenuLocation:Ansicht → Baumansicht-Aktionen → Reduzieren/Erweitern

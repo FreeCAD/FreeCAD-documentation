@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std Alignment
    Name/pl:Std: Wyrównanie
    MenuLocation:Edycja → Wyrównanie ...

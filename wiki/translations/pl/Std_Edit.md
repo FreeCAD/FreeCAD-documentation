@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std Edit
    Name/pl:Edycja
    MenuLocation:Edycja → Przełącz tryb edycji

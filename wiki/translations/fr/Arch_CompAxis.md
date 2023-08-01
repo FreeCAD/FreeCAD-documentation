@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch CompAxis
    Name/fr:Arch Outils pour les axes 
    MenuLocation:Arch → Outils pour les axes

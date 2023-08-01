@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign Clone
    Name/fr:PartDesign Clone
    MenuLocation:Part Design → Créer un clone

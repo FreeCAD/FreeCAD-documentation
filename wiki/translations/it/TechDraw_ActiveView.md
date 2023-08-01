@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw_ActiveView
    Name/it:Vista attiva
    Icon:TechDraw_ActiveView.svg

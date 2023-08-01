@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch Nest
    Name/it:Nido
    MenuLocation:Arch → Strumenti pannello → Nido

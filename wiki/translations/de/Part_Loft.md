@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Loft
    Name:Part Ausformung
    MenuLocation:Formteil → Ausformung...

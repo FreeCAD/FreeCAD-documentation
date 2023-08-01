@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std FreezeViews
    Name/de:Std AnsichtenEinfrieren
    MenuLocation:Ansicht → Ansicht einfrieren → Ansicht einfrieren

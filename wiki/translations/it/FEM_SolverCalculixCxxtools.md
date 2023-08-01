@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FEM SolverCalculixCxxtools
    Name/it:FEM SolverCalculixCxxtools
    MenuLocation:Solve → Solutore CalculiX Standard

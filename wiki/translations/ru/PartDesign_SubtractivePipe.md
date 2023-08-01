@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Субтрактивный профиль по траектории
    Name:PartDesign_SubtractivePipe
    MenuLocation:Part Design → Create a substractive feature → Субтрактивный профиль по траектории

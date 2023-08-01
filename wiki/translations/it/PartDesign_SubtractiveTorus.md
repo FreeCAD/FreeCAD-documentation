@@ -1,6 +1,6 @@
 # PartDesign SubtractiveTorus/it
 ---
-- GuiCommand:/it   Name:PartDesign SubtractiveTorus   Name/it:Toro sottrattivo   Workbenches:[MenuLocation:Part Design → Crea una primitiva sottrattiva → Toro   Version:0.17   SeeAlso:[[PartDesign CompPrimitiveSubtractive/it|Primitive sottrattive](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand:   Name:PartDesign SubtractiveTorus   Name/it:Toro sottrattivo   Workbenches:[MenuLocation:Part Design → Crea una primitiva sottrattiva → Toro   Version:0.17   SeeAlso:[[PartDesign CompPrimitiveSubtractive/it|Primitive sottrattive](PartDesign_Workbench/it___PartDesign]].md)---
 
 
 </div>

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/sv
+- GuiCommand:
    Name:Arch IfcExplorer   Name/sv:Arch IfcExplorer
    MenuLocation:Arch → Utilities → Ifc Explorer
    Workbenches:[Arch](Arch_Workbench/sv.md)

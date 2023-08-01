@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Arch CutPlane
    Name/ru:Arch CutPlane
    MenuLocation:Архитектура → Срезать по плоскости образца

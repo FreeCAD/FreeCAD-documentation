@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft FlipDimension
    Name/tr:Boyutu çevir
    MenuLocation:Draft → Utilities → Flip Dimension

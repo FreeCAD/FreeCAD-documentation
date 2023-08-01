@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Симметрия
    Name:PartDesign_Mirrored
    MenuLocation:Part Design → Apply a pattern → Симметрия

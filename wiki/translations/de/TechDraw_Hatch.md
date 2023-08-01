@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw Hatch
    Name/de:TechDraw Schraffur
    MenuLocation:TechDraw → Hatching → Fläche mit Muster aus einer Bilddatei schraffieren

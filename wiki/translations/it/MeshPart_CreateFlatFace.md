@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:MeshPart_CreateFlatFace
    Name/it:Sviluppa una faccia
    Empty:1

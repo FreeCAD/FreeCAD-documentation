@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std ViewFullscreen
    Name/it:Schermo intero
    MenuLocation:Visualizza → Finestra del documento → Schermo intero

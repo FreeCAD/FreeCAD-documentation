@@ -1,6 +1,6 @@
 # OpenSCAD ExplodeGroup/it
 ---
-- GuiCommand:/it   Name:OpenSCAD ExplodeGroup   Name/it:Esplodi gruppo   MenuLocation:OpenSCAD → Esplodi gruppo‏‎   |Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name:OpenSCAD ExplodeGroup   Name/it:Esplodi gruppo   MenuLocation:OpenSCAD → Esplodi gruppo‏‎   |Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut:   SeeAlso:---
 
 
 </div>

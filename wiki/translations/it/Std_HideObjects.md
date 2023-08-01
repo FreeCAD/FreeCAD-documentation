@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std HideObjects
    Name/it:Nascondi tutti gli oggetti
    MenuLocation:Visualizza → Visibilità → Nascondi tutti gli oggetti

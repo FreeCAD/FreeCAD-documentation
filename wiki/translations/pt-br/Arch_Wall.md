@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pt-br
+- GuiCommand:-br
    Name:Arch Wall
    Name/pt-br:Arch Wall
    Workbenches:[Arch](Arch_Workbench/pt-br.md)

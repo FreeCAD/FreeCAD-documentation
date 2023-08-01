@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ViewTop
    Name/de:Std Draufsicht
    MenuLocation:Ansicht → Standardansichten → Draufsicht

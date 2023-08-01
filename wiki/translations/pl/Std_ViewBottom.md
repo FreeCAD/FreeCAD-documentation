@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ViewBottom
    Name/pl:Std: Widok od dołu
    MenuLocation:Widok → Widoki standardowe → Od dołu

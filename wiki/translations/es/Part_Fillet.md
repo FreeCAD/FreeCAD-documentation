@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Part Fillet
    Name/es:Pieza Redondeo
    MenuLocation:Pieza → Redondeo

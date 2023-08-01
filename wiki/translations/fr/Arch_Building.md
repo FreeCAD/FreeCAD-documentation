@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Building
    Name/fr:Arch Bâtiment
    MenuLocation:Arch → Bâtiment

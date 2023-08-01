@@ -1,6 +1,6 @@
 # OpenSCAD Edgestofaces/es
 ---
-- GuiCommand:/es   Name:OpenSCAD Edgestofaces   Name/es:OpenSCAD Edgestofaces   MenuLocation:OpenSCAD → EdgesToFaces‏‎   |Workbenches:[[OpenSCAD_Workbench/es   OpenSCAD]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name:OpenSCAD Edgestofaces   Name/es:OpenSCAD Edgestofaces   MenuLocation:OpenSCAD → EdgesToFaces‏‎   |Workbenches:[[OpenSCAD_Workbench/es   OpenSCAD]]|Shortcut:   SeeAlso:---
 
 
 </div>

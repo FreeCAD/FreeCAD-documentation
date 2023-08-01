@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch CutLine
    Name/fr:Arch Couper selon une ligne
    MenuLocation:Arch → Couper selon une ligne

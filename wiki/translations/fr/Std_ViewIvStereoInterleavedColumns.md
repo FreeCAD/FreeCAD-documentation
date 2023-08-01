@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ViewIvStereoInterleavedColumns
    Name/fr:Std Colonnes stéréo entrelacées
    MenuLocation:Affichage → Stéréo → Colonnes stéréo entrelacées

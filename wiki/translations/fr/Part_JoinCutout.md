@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part JoinCutout
    Name/fr:Part Découpe
    |MenuLocation:Part → Joindre → Découper pour un objet

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Curves Discretize
    Name/de:Curves Punktefolge
    MenuLocation:Curves → Discretize

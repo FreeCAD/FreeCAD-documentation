@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path Shape
    Name/fr:Path Parcours à partir de formes
    MenuLocation:Path → Autres commandes → À partir de la forme

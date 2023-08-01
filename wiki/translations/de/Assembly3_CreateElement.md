@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 CreateElement
    Name/de:Assembly3 ElementAnlegen
    Icon:Assembly_New_Element.svg

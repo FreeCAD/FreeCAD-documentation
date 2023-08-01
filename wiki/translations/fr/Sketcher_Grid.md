@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher Grid
    Name/fr:Sketcher Grille
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part PointsFromMesh‎
    Name/ru:Part PointsFromMesh‎
    MenuLocation:Part → Create points object from mesh

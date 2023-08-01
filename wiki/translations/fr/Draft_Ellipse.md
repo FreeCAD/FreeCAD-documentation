@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Ellipse
    Name/fr:Draft Ellipse
    MenuLocation:Draft → Ellipse

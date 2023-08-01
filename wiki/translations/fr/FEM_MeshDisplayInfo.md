@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM MeshDisplayInfo
    Name/fr:FEM Affichage des informations du maillage FEM
    MenuLocation:Menu contextuel sur l'objet maillé → Afficher les informations sur le maillage FEM

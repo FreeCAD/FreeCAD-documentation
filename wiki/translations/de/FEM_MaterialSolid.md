@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM MaterialSolid
    Name/de:FEM MaterialFeststoff
    MenuLocation:Modell → Materiallien → Material für Feststoffe

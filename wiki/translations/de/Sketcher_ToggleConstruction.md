@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher ToggleConstruction
    Name/de:Sketcher UmschalterKonstruktion
    MenuLocation:Skizze → Skizzengeometrien → Umschalten der Hilfsgeometrie

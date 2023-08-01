@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch CutLine
    Name/it:Taglia con una linea
    MenuLocation:Arch → Taglia con una linea

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std ReportBug
    Name/it:Segnala un bug
    MenuLocation:Aiuto → Segnala un bug

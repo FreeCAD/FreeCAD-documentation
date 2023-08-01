@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FEM_ConstraintPulley
    Name/it:Vincolo puleggia
    MenuLocation:Modello → Vincoli meccanici → Vincolo puleggia

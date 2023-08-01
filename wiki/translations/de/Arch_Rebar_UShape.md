@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Rebar UShape   Name/de:Arch Bewehrungsstab U-förmig
    MenuLocation:Arch → Rebar tools → Straight Rebar oder 3D/BIM → Reinforcement tools → Gerade Bewehrung
    Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)

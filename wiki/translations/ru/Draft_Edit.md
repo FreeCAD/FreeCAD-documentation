@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Edit
    Name/ru:Draft Edit
    MenuLocation:Черчение → Правка

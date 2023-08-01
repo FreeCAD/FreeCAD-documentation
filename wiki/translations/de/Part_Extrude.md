@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Extrude
    Name/de:Part Extrudieren
    MenuLocation:Formteil → Extrudieren...

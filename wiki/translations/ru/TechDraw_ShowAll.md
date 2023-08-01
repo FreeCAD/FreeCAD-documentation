@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Показать/скрыть невидимые края
    Name:TechDraw_ShowAll
    MenuLocation:TechDraw → ShowAll

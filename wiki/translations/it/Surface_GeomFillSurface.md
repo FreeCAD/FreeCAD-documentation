@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Surface_GeomFillSurface
    Name/it:Surface GeomFillSurface
    MenuLocation:Surface → Fill boundary curves

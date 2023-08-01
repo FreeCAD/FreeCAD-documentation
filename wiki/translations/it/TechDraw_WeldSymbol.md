@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw WeldSymbol
    Name/it:Informazioni di saldatura
    MenuLocation:TechDraw → Informazioni di saldatura

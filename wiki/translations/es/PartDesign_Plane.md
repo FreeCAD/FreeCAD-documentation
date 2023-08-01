@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign Plane
    Name/es:Plano PartDesign
    Workbenches:[PartDesign](PartDesign_Workbench/es.md)

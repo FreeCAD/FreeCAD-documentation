@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExtensionThreadBoltBottom
    Name/fr:TechDraw Filetage
    MenuLocation:TechDraw → Extensions : taraudages/filetages → Filetage

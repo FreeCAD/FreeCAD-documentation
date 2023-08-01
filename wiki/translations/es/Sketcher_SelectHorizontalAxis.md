@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher SelectHorizontalAxis
    Name/es:Corquizador SeleccionarEjeHorizontal
    MenuLocation:Corquis → Corquizador Herramientas → Seleccionar Eje Horizontal

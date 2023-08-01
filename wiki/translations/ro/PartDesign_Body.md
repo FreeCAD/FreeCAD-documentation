@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:PartDesign Body
    Name/ro:PartDesign Body
    Icon:PartDesign_Body_Create_New.svg

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:На весь экран
    Name:Std_MainFullscreen
    MenuLocation:Вид → На весь экран

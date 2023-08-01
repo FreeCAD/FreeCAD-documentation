@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Указать вертикальный размер
    Name:TechDraw_VerticalDimension
    MenuLocation:TechDraw → Размеры → Указать вертикальный размер

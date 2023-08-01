@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Line
    Name/fr:Part Ligne
    MenuLocation:Part → [Créer des primitives](Part_Primitives/fr.md) → Ligne

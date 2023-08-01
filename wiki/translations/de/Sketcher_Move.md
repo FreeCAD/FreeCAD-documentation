@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher Move
    Name/de:Sketcher Verschieben
    MenuLocation:Sketch → Skizzen-Werkzeuge → Verschieben

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw ExtensionCascadeHorizDimension
    Name/pl:Rysunek Techniczny: Rozszerzenie Wymiar poziomy kaskadowo
    MenuLocation:Rysunek Techniczny → Rozszerzenia: Atrybuty / Modyfikatory → Wymiar poziomy kaskadowo

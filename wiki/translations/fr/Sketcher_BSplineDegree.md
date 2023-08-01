@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher BSplineDegree
    Name/fr:Sketcher Degré d'une B-spline
    MenuLocation:Esquisse → Outils d'esquisse des B-splines → Afficher/masquer le degré d'une B-spline

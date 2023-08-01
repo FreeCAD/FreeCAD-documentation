@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Выбрать горизонтальную ось
    Name:Sketcher_SelectHorizontalAxis
    MenuLocation:Sketch → Инструменты для эскиза → Выбрать горизонтальную ось

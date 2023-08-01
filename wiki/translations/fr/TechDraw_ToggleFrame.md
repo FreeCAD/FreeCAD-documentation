@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ToggleFrame
    Name/fr:TechDraw Bascule des cadres
    MenuLocation:TechDraw → Vues de Techdraw → Activer ou désactiver les cadres de vues

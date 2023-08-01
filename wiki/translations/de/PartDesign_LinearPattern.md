@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign LinearPattern
    Name/de:PartDesign LinearesMuster
    MenuLocation:Part Design → Muster anwenden → Lineares Muster

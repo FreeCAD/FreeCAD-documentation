@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ToggleBreakpoint
    Name/pl:Std: Przełącz punkt przerwania
    Empty:1

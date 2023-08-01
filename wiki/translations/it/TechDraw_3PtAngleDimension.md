@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw Dimension Angle3Pt
    Name/it:Angolo da 3 punti
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)

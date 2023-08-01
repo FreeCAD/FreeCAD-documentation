@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать преобразованную копию
    Name:Part_TransformedCopy
    MenuLocation:Деталь → Создать копию → Создать преобразованную копию

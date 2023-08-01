@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Chamfer
    Name/de:Part Fase
    MenuLocation:Part → Anfasen...

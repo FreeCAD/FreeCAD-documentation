@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher ConstrainSymmetric
    Name/fr:Sketcher Contrainte symétrique
    MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte symétrique

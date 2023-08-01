@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Mesh EvaluateFacet
    Name/de:Mesh FacetteAuswerten
    MenuLocation: Netze → Analysieren → Dreiecksinformation

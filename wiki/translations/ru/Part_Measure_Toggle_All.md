@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part Measure Toggle All
    Name/ru:Part Measure Toggle All
    MenuLocation:Measure → Скрыть/Показать всё

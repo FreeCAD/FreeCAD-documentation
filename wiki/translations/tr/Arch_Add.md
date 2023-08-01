@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Arch Add
    Name/tr:Mimari Ekle
    MenuLocation:Mimari → Ekle

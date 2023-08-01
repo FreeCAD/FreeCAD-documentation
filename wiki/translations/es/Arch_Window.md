@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch Window
    Name/es:Arquitectura Ventana
    MenuLocation:Arquitectura → Ventana

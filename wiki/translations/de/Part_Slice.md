@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Slice
    Name/de:Part Zerschneiden
    MenuLocation:Part → Teilen → Schneiden zu Verbund

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign MultiTransform
    Name/pl:Projekt Części: Transformacja wielokrotna
    MenuLocation:Projekt Części → Zastosuj przekształcenie → Utwórz transformację wielokrotną

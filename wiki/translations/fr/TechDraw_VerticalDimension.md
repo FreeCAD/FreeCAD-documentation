@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw VerticalDimension
    Name/fr:TechDraw Cote verticale
    MenuLocation:TechDraw → Dimensions → Insérer une cote verticale

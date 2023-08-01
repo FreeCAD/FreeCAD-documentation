@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FCGear WormGear
    Name/fr:FCGear Vis sans fin
    MenuLocation:Gear → Worm Gear

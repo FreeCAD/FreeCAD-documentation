@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Отразить
    Name:Draft_Mirror
    MenuLocation:Modification → Отразить

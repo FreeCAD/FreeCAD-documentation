@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher LeaveSketch
    Name/fr:Sketcher Quitter l'esquisse
    MenuLocation:Esquisse → Quitter l'esquisse

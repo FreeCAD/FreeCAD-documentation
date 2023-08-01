@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part CrossSections
    Name/de:Part Querschnitte
    MenuLocation:Formteil → Schnitte...

@@ -1,6 +1,6 @@
 # Draft Snap Endpoint/it
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Snap Endpoint
    Name/it:Punto finale
    MenuLocation:Draft → [Aggancio](Draft_Snap/it.md) → Punto finale

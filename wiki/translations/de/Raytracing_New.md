@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Raytracing New
    Name/de:Raytracing Neu
    MenuLocation:Raytracing → Neues Pov-Ray Projekt‏‎|

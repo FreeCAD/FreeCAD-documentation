@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std Quit
    Name/ko:표준 종료
    MenuLocation:파일 → 종료

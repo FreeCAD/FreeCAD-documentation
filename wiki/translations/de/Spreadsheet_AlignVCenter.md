@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Spreadsheet AlignVCenter
    Name/de:Kalkulationstabelle AusrichtenVMittig
    MenuLocation:Kalkulationstabelle → Ausrichtung → Ausrichten Vertikal Mittig

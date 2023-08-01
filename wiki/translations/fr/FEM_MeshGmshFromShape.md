@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM MeshGmshFromShape
    Name/fr:FEM Maillage FEM à partir d'une forme avec Gmsh
    MenuLocation:Maillage → Maillage FEM à partir d'une forme de Gmsh

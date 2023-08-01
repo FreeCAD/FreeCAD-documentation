@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch Fence
    Name/it:Recinzione
    MenuLocation:Arch → Recinzione

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std SaveCopy
    Name/ko:표준 사본 저장
    MenuLocation:파일 → 사본 저장...

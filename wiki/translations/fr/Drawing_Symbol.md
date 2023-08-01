@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Drawing Symbol
    Name/fr:Drawing Symbole
    Workbenches:[Drawing](Drawing_Workbench/fr.md)

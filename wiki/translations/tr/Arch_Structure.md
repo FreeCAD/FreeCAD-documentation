@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Arch Structure   Name/tr:Arch Structure
    MenuLocation:Arch → Structure
    Workbenches:[Arch](Arch_Workbench/tr.md)

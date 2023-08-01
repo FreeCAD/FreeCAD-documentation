@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher ConstrainPerpendicular
    Name/es:Croquizador RestringirPerpendicular
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)

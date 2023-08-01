@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw Symbol
    Name/pl:Rysunek Techniczny: Wstaw symbol SVG
    MenuLocation:Rysunek Techniczny → Wstaw symbol SVG

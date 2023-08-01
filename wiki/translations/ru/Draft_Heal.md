@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Heal
    Name/ru:Draft Heal
    MenuLocation:Черчение → Утилиты → Лечить

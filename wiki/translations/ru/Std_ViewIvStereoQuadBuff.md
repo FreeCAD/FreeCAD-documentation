@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Четверная буферизация стерео
    Name:Std_ViewIvStereoQuadBuff
    MenuLocation:Вид → Стерео → Четверная буферизация стерео

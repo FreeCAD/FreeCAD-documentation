@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch CutPlane
    Name/de:Arch SchneideEbene
    MenuLocation:Arch → Ebene Schneiden

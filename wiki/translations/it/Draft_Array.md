@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft_Array
    Name/it:Serie
    MenuLocation:Draft → Serie

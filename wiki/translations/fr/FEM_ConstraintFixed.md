@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ConstraintFixed
    Name/fr:FEM Contrainte d'immobilisation
    MenuLocation:Modèle → Contraintes mécaniques → Contrainte d'immobilisation

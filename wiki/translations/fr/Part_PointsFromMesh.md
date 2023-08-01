@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part PointsFromMesh‎
    Name/fr:Part Points à partir de maillage
    MenuLocation:Part → Créer un objet points à partir d'une géométrie

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std SaveAll
    Name/ru:Std SaveAll
    MenuLocation:Файл → Save All

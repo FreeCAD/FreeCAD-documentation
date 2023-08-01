@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw HoleShaftFit
    Name/de:TechDraw Passungen
    MenuLocation:TechDraw → Wellen- oder Bohrungspassung hinzufügen

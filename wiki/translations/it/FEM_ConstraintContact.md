@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FEM ConstraintContact
    Name/it:Vincolo contatto
    MenuLocation:Modello → Vincoli meccanici → Vincolo contatto

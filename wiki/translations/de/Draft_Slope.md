@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Slope
    Name/de:Entwurf Neigung
    MenuLocation:Entwurf → Setze Neigung<br>Dienstprogramme → Setze Neigung

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:PartDesign MoveFeatureInTree
    Name/it:Sposta l'oggetto dopo altro oggetto
    Empty:1

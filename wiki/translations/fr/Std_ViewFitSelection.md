@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ViewFitSelection
    Name/fr:Std Affiche la sélection
    MenuLocation:Affichage →  Vues standards → Affiche la sélection

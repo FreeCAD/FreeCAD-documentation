@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM EquationFlow
    Name/de:FEM GleichungStrömung
    MenuLocation:Lösen → Flow equation

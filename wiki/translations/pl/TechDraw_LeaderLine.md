@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw LeaderLine
    Name/pl:Rysunek Techniczny: Dodaj linię odniesienia do widoku
    MenuLocation:Rysunek Techniczny → Dodaj linie → Dodaj linię odniesienia do widoku

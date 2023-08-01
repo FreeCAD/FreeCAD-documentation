@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Measure Toggle 3D
    Name/fr:Part Basculer 3D
    MenuLocation:Mesure → Basculer 3D‏‎

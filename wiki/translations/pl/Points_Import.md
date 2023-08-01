@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Points Import
    Name/pl:Punkty: Import
    MenuLocation:Punkty → Import punktów ...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw PrintAll
    Name/fr:TechDraw Tout imprimer
    MenuLocation:TechDraw → Page → Imprimer toutes les pages

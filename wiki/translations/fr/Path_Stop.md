@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path Stop
    Name/fr:Path Arrêter
    MenuLocation:Path → Autres commandes → Arrêter

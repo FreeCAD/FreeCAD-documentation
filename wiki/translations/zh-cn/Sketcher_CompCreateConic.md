@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/zh-cn
+- GuiCommand:-cn
    Name:Sketcher Conics
    Name/zh-cn:Sketcher Conics
    Icon:Sketcher_CompCreateConic.png

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/zh-cn
+- GuiCommand:-cn
    Name:Draft Arc
    Name/zh-cn:Draft Arc
    MenuLocation:Draft → Arc

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch ToggleIfcBrepFlag
    Name/fr:Arch Bascule marqueur Brep IFC
    MenuLocation:Arch → Utilitaires → Activer/désactiver le marqueur Brep IFC

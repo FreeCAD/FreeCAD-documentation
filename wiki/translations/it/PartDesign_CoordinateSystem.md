@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:PartDesign CoordinateSystem
    Name/it:Sistema di coordinate locale
    MenuLocation:PartDesign → Sistema di coordinate locale

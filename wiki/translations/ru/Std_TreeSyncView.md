@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std TreeSyncView
    Name/ru:Std TreeSyncView
    MenuLocation:Вид → Дерево документа → Sync view

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Структура
    Name:Arch_Structure
    MenuLocation:Arch → Структура

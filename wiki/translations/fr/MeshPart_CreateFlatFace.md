@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:MeshPart CreateFlatFace
    Name/fr:Mesh Développer une face
    MenuLocation:Maillages → Développer une face

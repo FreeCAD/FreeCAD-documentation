@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher ToggleActiveConstraint
    Name/pl:Szkicownik: Przełącz aktywność wiązania
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)

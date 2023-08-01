@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Mesh_SectionByPlane
    Name/it:Sezione da mesh e piano
    MenuLocation:Mesh → Taglio → Sezione da mesh e piano

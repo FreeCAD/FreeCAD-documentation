@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch Pipe
    Name/es:Arch Pipe
    Workbenches:[Arch](Arch_Workbench/es.md)

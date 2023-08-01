@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Выделить избыточные ограничения
    Name:Sketcher_SelectRedundantConstraints
    MenuLocation:Sketch → Инструменты для эскиза → Выделить избыточные ограничения

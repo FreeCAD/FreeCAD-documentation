@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Sweep
    Name/de:Part Austragung
    MenuLocation:Formteil → Sweep...

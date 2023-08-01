@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path Face
    Name/fr:Path Surfaçage
    MenuLocation:Path → Surfaçage

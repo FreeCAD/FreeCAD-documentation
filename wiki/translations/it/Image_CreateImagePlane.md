@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Image CreateImagePlane
    Name/it:Piano immagine
    Icon:Image CreateImagePlane.svg

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher ConstrainEqual
    Name/pl:Szkicownik: Wiązanie równości
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Просмотр сечения
    Name:Sketcher_ViewSection
    MenuLocation:Sketch → Просмотр сечения

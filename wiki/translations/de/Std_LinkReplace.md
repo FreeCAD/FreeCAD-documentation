@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std LinkReplace
    Name/de:Std DurchVerknüpfungErsetzen
    MenuLocation:None

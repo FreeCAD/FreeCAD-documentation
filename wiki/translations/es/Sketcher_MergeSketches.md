@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Icon:Sketcher MergeSketch.svg
    Name/es:Combinar croquis
    Workbenches:[Sketcher](Sketcher_Workbench/es.md)

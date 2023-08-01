@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Следующее
    Name:Std_ActivateNextWindow
    MenuLocation:Окна → Следующее

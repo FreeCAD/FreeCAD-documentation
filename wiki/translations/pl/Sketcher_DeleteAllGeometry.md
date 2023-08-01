@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher DeleteAllGeometry
    Name/pl:Szkicownik: Usuń wszystkie geometrie
    MenuLocation:Szkic → Narzędzia szkicownika → Usuń wszystkie geometrie

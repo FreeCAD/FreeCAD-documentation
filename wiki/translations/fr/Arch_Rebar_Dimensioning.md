@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Rebar Dimensioning
    Name/fr:Arch Dimensions des armatures
    MenuLocation:Arch → Rebar → Rebar Dimensioning

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Slope
    Name/fr:Draft Pente
    MenuLocation:Modification → Pente

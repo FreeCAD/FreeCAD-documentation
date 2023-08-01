@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Check
    Name/fr:Arch Vérifier
    MenuLocation:Arch → Utilitaires → Vérifier

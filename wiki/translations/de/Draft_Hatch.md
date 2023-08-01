@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Hatch
    Name/de:Draft Schraffur
    MenuLocation:Entwurf → Schraffur

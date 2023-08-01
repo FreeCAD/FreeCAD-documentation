@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std_MeasureDistance
    Name/ru:Измерить расстояние
    MenuLocation:Инструменты → Измерить расстояние

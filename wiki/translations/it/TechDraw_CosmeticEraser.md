@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw CosmeticEraser
    Name/it:Rimuovi oggetto cosmetico
    MenuLocation:TechDraw → Rimuovi oggetto cosmetico

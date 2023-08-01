@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft SetStyle
    Name/de:Draft StilFestlegen
    MenuLocation:Utilities → Stil festlegen

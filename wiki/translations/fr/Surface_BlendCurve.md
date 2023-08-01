@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Surface BlendCurve
    Name/fr:Surface Fusion de courbes
    MenuLocation:Surface → Fusionner des courbes

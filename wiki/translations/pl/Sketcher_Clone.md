@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher Clone
    Name/pl:Szkicownik: Klonuj
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Klonuj

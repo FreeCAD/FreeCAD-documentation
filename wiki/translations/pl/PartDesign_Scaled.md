@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign Scaled
    Name/pl:Projekt Części: Skaluj
    MenuLocation:Brak ''(Opcja dostępna w menu Projekt Części → Zastosuj przekształcenie → Utwórz Transformację wielokrotną)''

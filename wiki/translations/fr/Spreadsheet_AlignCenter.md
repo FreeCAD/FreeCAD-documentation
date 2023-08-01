@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Spreadsheet AlignCenter
    Name/fr:Spreadsheet Alignement au centre
    MenuLocation:Spreadsheet → Alignement → Alignement au centre

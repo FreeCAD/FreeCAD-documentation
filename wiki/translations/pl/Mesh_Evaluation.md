@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh Evaluation
    Name/pl:Siatka: Analiza
    MenuLocation:Siatki → Analizuj → Oceń i napraw siatkę ...

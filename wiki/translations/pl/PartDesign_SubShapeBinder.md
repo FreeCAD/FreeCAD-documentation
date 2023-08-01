@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign SubShapeBinder
    Name/pl:Projekt Części: Łącznik kształtów podrzędnych
    Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)

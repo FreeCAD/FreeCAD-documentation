@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Drawing Save
    Name/ru:Drawing Save
    Workbenches:[Drawing](Drawing_Workbench/ru.md), Complete

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign AdditiveCone
    Name/es:DiseñoPiezas ConoAditivo
    MenuLocation:DiseñoPiezas → Crear una primitiva aditiva → Cono Aditivo

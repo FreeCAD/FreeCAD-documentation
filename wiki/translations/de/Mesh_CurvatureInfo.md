@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Mesh CurvatureInfo
    Name/de:Netz KrümmungInfo
    MenuLocation:Netze → Analyse → Krümmungsinfo

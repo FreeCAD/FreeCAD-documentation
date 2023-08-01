@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw ExtensionRemovePrefixChar
    Name/pl:Rysunek Techniczny: Rozszerzenie Usuń przedrostek
    MenuLocation:Rysunek Techniczny → Rozszerzenia: Wymiary → Usuń prefiks

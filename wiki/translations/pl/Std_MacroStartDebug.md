@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std MacroStartDebug
    Name/pl:Std: Debugowanie makrodefinicjii
    MenuLocation:Makrodefinicje → Debugowanie makrodefinicji

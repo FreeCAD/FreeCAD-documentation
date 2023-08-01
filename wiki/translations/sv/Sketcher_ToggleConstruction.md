@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/sv
+- GuiCommand:
    Name:Sketcher ToggleConstruction
    Name/sv:Toggle construction geometry
    Icon:Sketcher_AlterConstruction.svg

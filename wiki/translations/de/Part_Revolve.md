@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Revolve
    Name/de:Part Drehen
    MenuLocation:Formteil → Drehen

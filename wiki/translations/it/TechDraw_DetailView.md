@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw_DetailView
    Name/it:Dettaglio
    MenuLocation:TechDraw → Dettaglio

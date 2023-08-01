@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ViewLeft
    Name/de:Std Ansicht von links
    MenuLocation:{{StdMenu|[Ansichtsmenü](Std_View_Menu/de.md)}} → Standardansichten → Links

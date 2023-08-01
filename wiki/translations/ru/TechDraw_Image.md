@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Вставить растровое изображение
    Name:TechDraw_Image
    MenuLocation:TechDraw → Вставить растровое изображение

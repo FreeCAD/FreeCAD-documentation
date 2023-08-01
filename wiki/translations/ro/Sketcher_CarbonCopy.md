@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name/ro:Sketcher Copie la indigo
    Icon:Sketcher CarbonCopy.svg
    MenuLocation:Sketch → Geometria schitei → Copie la indigo

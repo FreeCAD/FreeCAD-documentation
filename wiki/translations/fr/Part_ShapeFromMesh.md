@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part ShapeFromMesh
    Name/fr:Part Forme à partir du maillage
    MenuLocation:Part → Créer la forme à partir d'un maillage...

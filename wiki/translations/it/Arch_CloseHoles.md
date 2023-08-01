@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch CloseHoles
    Name/it:Chiudi fori
    Workbenches:[Architettura](Arch_Workbench/it.md)

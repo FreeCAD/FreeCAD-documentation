@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Укоротить/Растянуть
    Name:Draft_Trimex
    MenuLocation:Modification → Укоротить/Растянуть

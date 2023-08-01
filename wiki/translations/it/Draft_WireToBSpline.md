@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft WireToBSpline
    Name/it:Polilinea in B-spline
    MenuLocation:Modifiche → Polilinea in B-spline

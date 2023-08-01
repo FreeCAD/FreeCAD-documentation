@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign MoveFeatureInTree
    Name/de:PartDesign FormelementImBaumVerschieben
    MenuLocation:Kontextmenü → Objekt hinter ein anderes Objekt verschieben

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std Export
    Name/fr:Std Exporter
    MenuLocation:Fichier → Exporter...

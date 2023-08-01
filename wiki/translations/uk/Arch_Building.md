@@ -1,6 +1,6 @@
 # Arch Building/uk
 ---
-- GuiCommand:/uk   Name:Arch Building   Name/uk:Arch Building   Workbenches:[MenuLocation:Arch -> Building   Shortcut:B U   SeeAlso:[[Arch Floor/uk|Arch Floor](Arch_Workbench/uk___Arch]].md), [Arch Site](Arch_Site/uk.md)---
+- GuiCommand:   Name:Arch Building   Name/uk:Arch Building   Workbenches:[MenuLocation:Arch -> Building   Shortcut:B U   SeeAlso:[[Arch Floor/uk|Arch Floor](Arch_Workbench/uk___Arch]].md), [Arch Site](Arch_Site/uk.md)---
 
 
 </div>

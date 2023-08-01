@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Raytracing InsertPart
    Name/ru:Raytracing InsertPart
    MenuLocation:Трассировка лучей → Вставить деталь

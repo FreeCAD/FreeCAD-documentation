@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ViewIvStereoOff
    Name/pl:Std: Wyłącz widok trójwymiarowy
    MenuLocation:Widok → Widok trójwymiarowy → Widok z przeplotem kolumn

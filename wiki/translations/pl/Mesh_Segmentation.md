@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh Segmentation
    Name/pl:Siatki Utwórz segmenty siatki
    MenuLocation:Siatki → Utwórz segmenty siatki ...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/sv
+- GuiCommand:
    Name:Sketcher NewSketch
    Name/sv:Skapa skiss
    Workbenches:[Sketcher](Sketcher_Workbench/sv.md)

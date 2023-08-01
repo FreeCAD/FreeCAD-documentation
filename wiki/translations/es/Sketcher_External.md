@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher External
    Name/es:Croquizador Externo
    MenuLocation:Croquis → Croquizador Geometrías → Croquizador Externo

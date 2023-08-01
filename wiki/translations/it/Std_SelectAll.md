@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_SelectAll
    Name/it:Seleziona tutto
    MenuLocation:Modifica → Seleziona tutto

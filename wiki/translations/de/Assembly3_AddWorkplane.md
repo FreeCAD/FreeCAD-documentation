@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 AddWorkplane
    Name/de:Assembly3 ArbeitsebeneHinzufügen
    Icon:Assembly_Add_Workplane.svg‎‎

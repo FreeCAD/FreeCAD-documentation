@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Переориентировать эскиз
    Name:Sketcher_ReorientSketch
    MenuLocation:Sketch → Переориентировать эскиз

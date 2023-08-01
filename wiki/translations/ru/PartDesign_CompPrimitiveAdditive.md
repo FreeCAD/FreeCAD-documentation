@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать аддитивный примитив
    Name:PartDesign_CompPrimitiveAdditive
    MenuLocation:Part Design → Создать аддитивный примитив

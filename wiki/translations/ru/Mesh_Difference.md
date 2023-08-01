@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Mesh Difference
    Name/ru:Mesh Difference
    MenuLocation: Сетки → Булевы операции → Разность

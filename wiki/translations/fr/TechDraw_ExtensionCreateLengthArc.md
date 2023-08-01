@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExtensionCreateLengthArc
    Name/fr:TechDraw Longueur d'arc
    MenuLocation:TechDraw → Extensions : cotes → Longueur d'arc

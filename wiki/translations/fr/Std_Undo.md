@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std Undo
    Name/fr:Std Annuler
    MenuLocation:Édition → Annuler

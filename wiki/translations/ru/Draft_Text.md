@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Текст
    Name:Draft_Text
    MenuLocation:Annotation → Текст

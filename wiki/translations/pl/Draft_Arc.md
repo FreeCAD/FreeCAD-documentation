@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft Arc
    Name/pl:Rysunek Roboczy: Łuk
    MenuLocation:Kreślenie → Narzędzia łuku → Łuk

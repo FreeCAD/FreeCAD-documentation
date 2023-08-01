@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Sketcher_MapSketch
    Name/ru:Разместить эскиз на грани
    MenuLocation:Part Design/Sketch →  Разместить эскиз на грани...

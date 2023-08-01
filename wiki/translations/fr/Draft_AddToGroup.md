@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft AddToGroup
    Name/fr:Draft Déplacer vers un groupe
    MenuLocation:Utilitaires → Déplacer vers le groupe...

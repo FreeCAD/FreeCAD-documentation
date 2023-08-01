@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Fillet
    Name/pl:Część: Zaokrąglenie
    MenuLocation:Część → Zaokrąglenie ...

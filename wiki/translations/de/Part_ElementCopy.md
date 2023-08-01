@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part ElementCopy
    Name/de:Part_ElementKopie
    MenuLocation:Part → Erzeuge eine Kopie → Erzeuge Formelement Kopie

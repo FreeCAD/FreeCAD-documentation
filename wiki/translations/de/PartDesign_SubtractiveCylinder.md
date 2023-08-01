@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign SubtractiveCylinder
    Name/de:PartDesign ZylinderAbziehen
    MenuLocation:Part Design → Grundkörper abziehen → Zylinder

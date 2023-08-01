@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std RecentFiles
    Name/ko:표준 최근 파일
    Empty:1

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch CurtainWall
    Name/fr:Arch Mur-rideau
    MenuLocation:Arch → Mur-rideau

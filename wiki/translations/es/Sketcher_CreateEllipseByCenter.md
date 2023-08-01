@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher CreateEllipseByCenter
    Name/es:Croquizador CrearElipsePorCentro
    MenuLocation:Croquis → Geometrías del Croquizador → Crear elipse por centro

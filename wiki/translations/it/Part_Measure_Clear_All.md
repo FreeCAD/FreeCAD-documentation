@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Part Measure Clear All
    Name/it:Cancella tutto
    MenuLocation:{{StdMenu|[Misure](Std_Measure_Menu/it.md)}} → Cancella tutto‎

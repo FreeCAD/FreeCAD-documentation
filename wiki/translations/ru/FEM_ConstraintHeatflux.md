@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM ConstraintHeatflux
    Name/ru:FEM ConstraintHeatflux
    MenuLocation:Model → Thermal Constraints → Constraint heatflux

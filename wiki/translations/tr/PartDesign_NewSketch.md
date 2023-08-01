@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:PartDesign NewSketch
    Name/tr:Eskiz oluştur
    Workbenches:[PartDesign](PartDesign_Workbench/tr.md)

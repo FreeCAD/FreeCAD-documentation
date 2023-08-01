@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std_Copy
    Name/ru:Копировать
    MenuLocation:Правка → Копировать

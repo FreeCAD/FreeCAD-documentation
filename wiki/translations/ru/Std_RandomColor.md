@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std RandomColor
    Name/ru:Std RandomColor (Случайный цвет)
    MenuLocation:Вид → Случайный цвет

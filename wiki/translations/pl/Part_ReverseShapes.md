@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part ReverseShapes
    Name/pl:Część: Odwróć kształty
    MenuLocation:Część → Odwróć kształty

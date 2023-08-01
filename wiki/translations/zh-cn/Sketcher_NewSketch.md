@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/zh-cn
+- GuiCommand:-cn
    Name/zh-cn:创建草图
    Name:Sketcher_NewSketch
    MenuLocation:Sketch → 创建草图

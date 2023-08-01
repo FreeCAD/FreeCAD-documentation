@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft_Drawing
    Name/es:Dibujo
    MenuLocation:Croquis → Dibujo

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Проточка
    Name:PartDesign_Groove
    MenuLocation:Part Design → Create a substractive feature → Проточка

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Trimex
    Name/de:Draft Trimex
    MenuLocation:Änderung → Trimex

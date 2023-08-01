@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft ToggleDisplayMode
    Name/ru:Draft ToggleDisplayMode
    MenuLocation:Черчение -> Утилиты -> Переключить режим отображения

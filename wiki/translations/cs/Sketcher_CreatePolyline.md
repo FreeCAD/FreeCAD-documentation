@@ -1,6 +1,6 @@
 # Sketcher CreatePolyline/cs
 ---
-- GuiCommand:/cs   Name:Sketcher CreatePolyline   Name/cs:Skicář Lomená čára   Workbenches:[MenuLocation:Náčrt → Skicář Konstrukce → Vytvořit Lomenou čáru   SeeAlso:[[Sketcher CreateLine/cs|Skicář Přímka](Sketcher_Workbench/cs___Skicář]].md)---
+- GuiCommand:   Name:Sketcher CreatePolyline   Name/cs:Skicář Lomená čára   Workbenches:[MenuLocation:Náčrt → Skicář Konstrukce → Vytvořit Lomenou čáru   SeeAlso:[[Sketcher CreateLine/cs|Skicář Přímka](Sketcher_Workbench/cs___Skicář]].md)---
 
 
 </div>

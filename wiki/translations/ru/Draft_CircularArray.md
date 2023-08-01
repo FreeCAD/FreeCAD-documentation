@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft CircularArray
    Name/ru:Draft CircularArray
    MenuLocation:Draft → Circular array

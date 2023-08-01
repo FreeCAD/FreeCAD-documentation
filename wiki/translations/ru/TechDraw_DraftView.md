@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Вставить объект верстака Draft
    Name:TechDraw_DraftView
    MenuLocation:TechDraw → Вставить объект верстака Draft

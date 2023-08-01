@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher DeleteAllConstraints
    Name/fr:Sketcher Supprimer toutes les contraintes
    MenuLocation:Esquisse → Outils d'esquisse → Supprimer toutes les contraintes

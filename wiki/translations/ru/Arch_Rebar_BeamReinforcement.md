@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Армировать балку
    Name:Arch_Rebar_BeamReinforcement
    MenuLocation:Arch → Rebar tools → Beam Reinforcement<br>3D/BIM → Reinforcement tools → Beam Reinforcement

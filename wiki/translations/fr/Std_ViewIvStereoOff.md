@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ViewIvStereoOff
    Name/fr:Std Stéréo désactivée
    MenuLocation:Affichage → Stéréo → Désactiver la stéréo

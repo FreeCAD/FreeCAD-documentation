@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ViewTop
    Name/pl:Std: Widok od góry
    MenuLocation:Widok → Widoki standardowe → Od góry

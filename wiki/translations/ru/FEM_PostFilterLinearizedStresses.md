@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM PostCreateLinearizedStressesFilter
    Name/ru:FEM PostCreateLinearizedStressesFilter
    Icon:Fem-linearizedstresses.svg

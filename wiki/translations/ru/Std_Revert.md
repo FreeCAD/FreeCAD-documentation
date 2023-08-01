@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std Revert
    Name/ru:Std Revert
    MenuLocation:Файл → Вернуться

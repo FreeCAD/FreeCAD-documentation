@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch MultiMaterial
    Name/fr:Arch Matériaux multiples
    MenuLocation:Arch → Outils pour les matériaux → Matériaux multiples

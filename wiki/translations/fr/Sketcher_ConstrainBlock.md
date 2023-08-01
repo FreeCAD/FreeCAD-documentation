@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher ConstrainBlock
    Name/fr:Sketcher Contrainte de blocage
    MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte de blocage

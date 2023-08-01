@@ -1,6 +1,6 @@
 # Draft Drawing/cs
 ---
-- GuiCommand:/cs   Name:Draft_Drawing   Name/cs:Draft Drawing   Workbenches:[Architektura](Drawing_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Drafting → Drawing---
+- GuiCommand:   Name:Draft_Drawing   Name/cs:Draft Drawing   Workbenches:[Architektura](Drawing_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Drafting → Drawing---
 
 
 </div>

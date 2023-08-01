@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign CoordinateSystem
    Name/de:PartDesign Koordinatensystem
    MenuLocation:Part Design → Lokales Koordinatensystem erstellen

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Arch Wall
    Name/tr:Mimari Duvar
    MenuLocation:Mimari → Duvar

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft SubelementHighlight
    Name/ru:Draft SubelementHighlight
    MenuLocation:Draft → Subelement highlight

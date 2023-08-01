@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Plot Axes
    Name/fr:Plot Axes
    MenuLocation:Plot → Configurer les axes‏‎

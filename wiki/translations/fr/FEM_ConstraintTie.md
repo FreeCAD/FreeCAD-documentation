@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ConstraintTie
    Name/fr:FEM Contrainte de liaison
    MenuLocation:Modèle → Contraintes mécaniques → Contrainte de liaison

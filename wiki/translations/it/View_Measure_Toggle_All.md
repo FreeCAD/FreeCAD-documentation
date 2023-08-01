@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:View Measure Toggle All
    Name/it:View Measure Toggle All
    MenuLocation:Visualizza → Visibilità → Attiva/disattiva le misure

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part_Section
    Name/fr:Part Section
    MenuLocation:Part → Section

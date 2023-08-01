@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw_ProjectionGroup
    Name/it:Gruppo di proiezioni
    MenuLocation:TechDraw → Gruppo di proiezioni

@@ -1,6 +1,6 @@
 # Draft Move/cs
 ---
-- GuiCommand:/cs   Name:Draft_Move   Name/cs:Kreslení Posun   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft -> Move   Shortcut:M V---
+- GuiCommand:   Name:Draft_Move   Name/cs:Kreslení Posun   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft -> Move   Shortcut:M V---
 
 
 </div>

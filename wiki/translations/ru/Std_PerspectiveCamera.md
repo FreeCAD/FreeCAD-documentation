@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Перспективная проекция
    Name:Std_PerspectiveCamera
    MenuLocation:Вид → Перспективная проекция

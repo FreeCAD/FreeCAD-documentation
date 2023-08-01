@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw_2PointCosmeticLine
    Name/it:Linea tra 2 punti
    Icon:TechDraw-line2points.svg

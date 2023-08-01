@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Эллиптическая дуга
    Name:Sketcher_CreateArcOfEllipse
    MenuLocation:Sketch → Геометрия эскиза → Эллиптическая дуга

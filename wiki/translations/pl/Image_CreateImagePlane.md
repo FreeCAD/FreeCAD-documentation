@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Image CreateImagePlane
    Name/pl:Obraz: Utwórz płaszczyznę obrazu
    MenuLocation:

@@ -1,6 +1,6 @@
 # Robot Export/ru
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Robot Export
    Name/ru:Robot Export
    Workbenches:[Robot](Robot_Workbench/ru.md)

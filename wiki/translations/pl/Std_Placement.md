@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std Placement
    Name/pl:Std: Umiejscowienie
    MenuLocation:Edycja → Umiejscowienie ...

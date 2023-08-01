@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Проект
    Name:Arch_Project
    MenuLocation:Arch → Проект

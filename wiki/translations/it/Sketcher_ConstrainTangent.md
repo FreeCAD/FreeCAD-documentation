@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher ConstrainTangent
    Name/it:Sketcher VincoloTangente
    MenuLocation:Sketch → Sketcher Vincoli → Vincolo Tangente

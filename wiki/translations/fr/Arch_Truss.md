@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Truss
    Name/fr:Arch Treillis
    MenuLocation:Arch → Treillis

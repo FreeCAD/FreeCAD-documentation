@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft ShapeString
    Name/pl:Rysunek Roboczy: Kształt z tekstu
    MenuLocation:Kreślenie → Kształt z tekstu ...

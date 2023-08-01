@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std TreeCollapseDocument
    Name/pl:Std: Przeciąganie w widoku drzewa
    MenuLocation:Widok → Akcje widoku drzewa → Rozpocznij przeciąganie

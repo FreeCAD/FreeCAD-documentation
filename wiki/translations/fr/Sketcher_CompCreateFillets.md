@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher CompCreateFillets
    Name/fr:Sketcher Congés
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)

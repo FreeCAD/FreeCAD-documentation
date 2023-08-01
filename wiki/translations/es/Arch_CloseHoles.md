@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch CloseHoles
    Name/es:Tapar agujeros
    MenuLocation:Arquitectura → Utilidades → Tapar agujeros

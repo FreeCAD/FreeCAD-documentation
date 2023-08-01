@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Arch_Window
    Name/ru:Окно
    MenuLocation:Архитектура → Окно

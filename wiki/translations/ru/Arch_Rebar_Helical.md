@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Спиральная арматура
    Name:Arch_Rebar_Helical
    MenuLocation:Arch → Rebar tools → Helical Rebar<br>3D/BIM → Reinforcement tools → Helical Rebar

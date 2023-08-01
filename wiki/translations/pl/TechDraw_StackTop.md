@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw StackTop
    Name/pl:Rysunek Techniczny: Przesuń poziom na górę
    MenuLocation:Rysunek Techniczny → Sortowanie → Przesuń poziom na górę

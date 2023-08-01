@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft SubelementHighlight
    Name/de:Draft UnterelementHervorheben
    MenuLocation:Entwurf → Änderung → Unterelement hervorheben

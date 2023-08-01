@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:SheetMetal SketchOnSheet
    Name/fr:SheetMetal Perçage de paroi
    MenuLocation:SheetMetal → Sketch On Sheet metal

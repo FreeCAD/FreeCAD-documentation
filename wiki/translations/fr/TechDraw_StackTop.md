@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw StackTop
    Name/fr:TechDraw Empiler en haut
    MenuLocation:TechDraw → Empiler → Déplacer la vue vers le haut de la pile

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 ConstraintMore
    Name/fr:Assembly3 Plus de contraintes
    Icon:Assembly_ConstraintMore.svg

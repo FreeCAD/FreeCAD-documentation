@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw Midpoints
    Name/de:TechDraw Mittenpunkte
    MenuLocation:TechDraw → Knoten hinzufügen → Kantenmittelpunkte hinzufügen

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std LinkMakeRelative
    Name/pl:Std: Utwórz łącze względne
    MenuLocation:brak

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh PolyTrim
    Name/pl:Siatka Przytnij
    MenuLocation:Siatki → Cięcie → Przytnij siatkę

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part Spiral
    Name/ru:Плоская Cпираль
    MenuLocation:[Деталь](Part_Workbench/ru.md) → [Создать примитивы...](Part_Primitives/ru.md) → Спираль

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign Thickness
    Name/es:PartDesign Espesor
    MenuLocation:Part Design → Apply a dress up feature → Espesor

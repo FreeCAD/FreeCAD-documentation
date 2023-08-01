@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part Measure Clear All
    Name/ru:Std MeasureClearAll
    MenuLocation:Measure → Очистить всё 

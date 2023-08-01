@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft BezCurve
    Name/ru:Draft BezCurve
    MenuLocation:Черчение →  Кривая Безье

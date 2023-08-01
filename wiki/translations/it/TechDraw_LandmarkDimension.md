@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw LandmarkDimension
    Name/it:Quota da punti di riferimento
    MenuLocation:TechDraw → Quota da punti di riferimento

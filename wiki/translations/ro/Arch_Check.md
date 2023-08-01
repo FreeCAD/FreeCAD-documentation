@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Arch Check
    Workbenches:[Arch](Arch_Workbench/ro.md)
    MenuLocation:Arch → Utilities → Check

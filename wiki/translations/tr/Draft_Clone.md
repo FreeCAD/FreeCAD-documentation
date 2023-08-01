@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Clone
    Name/tr:Klonla
    MenuLocation:Taslak → Klonla

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std LinkMake
    Name/fr:Std Créer un lien
    MenuLocation:

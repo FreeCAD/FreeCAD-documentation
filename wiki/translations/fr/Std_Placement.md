@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std Placement
    Name/fr:Std Positionnement
    MenuLocation:Édition → Positionnement...

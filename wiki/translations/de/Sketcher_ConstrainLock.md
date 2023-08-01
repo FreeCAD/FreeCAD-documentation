@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher ConstrainLock
    Name/de:Sketcher Sperren
    MenuLocation:Sketch → Skizzen-Beschränkungen → Sperren

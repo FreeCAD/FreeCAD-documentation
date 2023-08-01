@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Соединить края
    Name:Sketcher_ConnectLines
    MenuLocation:Sketch → Инструменты для эскиза → Соединить края

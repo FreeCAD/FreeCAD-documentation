@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Thickness
    Name/pl:Część: Grubość
    MenuLocation:Część → Grubość

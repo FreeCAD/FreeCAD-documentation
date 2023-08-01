@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:OpenSCAD MirrorMeshFeature
    Name/de:OpenSCAD NetzelementSpiegeln
    MenuLocation:OpenSCAD → Netzelement spiegeln

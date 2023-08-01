@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Part Compound‏‎
    Name/es:Pieza Compuesto‏‎
    MenuLocation:Pieza → Hacer Compuesto

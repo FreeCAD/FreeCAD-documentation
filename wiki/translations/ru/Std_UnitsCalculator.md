@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std_UnitsCalculator
    Name/ru:Std_UnitsCalculator
    MenuLocation:Панели инструментов → Калькулятор единиц...

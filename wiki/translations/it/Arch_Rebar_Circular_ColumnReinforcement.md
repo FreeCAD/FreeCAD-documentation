@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch_Rebar_ColumnReinforcement
    Name/it:Armatura di colonna
    MenuLocation:Reinforcement → Column Reinforcement, Arch → Strumenti armatura

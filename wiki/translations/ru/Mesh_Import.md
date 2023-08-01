@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Mesh ImportMesh‏‎
    Name/ru:Mesh ImportMesh‏‎
    MenuLocation:Сетки → Импорт сетки

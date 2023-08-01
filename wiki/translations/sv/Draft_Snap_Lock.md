@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/sv
+- GuiCommand:
    Name:Draft Snap Lock
    Name/sv:Draft ToggleSnap
    Workbenches:[Draft](Draft_Workbench/sv.md), [Arch](Arch_Workbench/sv.md)

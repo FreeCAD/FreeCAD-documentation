@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Curves Discretize
    Name/fr:Curves Discrétisation
    MenuLocation:Curves → Discretize

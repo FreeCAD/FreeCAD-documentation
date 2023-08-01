@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign SubtractiveTorus
    Name/de:PartDesign TorusAbziehen
    MenuLocation:Part Design → Grundkörper abziehen → Torus

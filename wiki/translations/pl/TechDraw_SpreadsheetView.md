@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw SpreadsheetView
    name/pl:Rysunek Techniczny: Wstaw widok Arkusza kalkulacyjnego
    MenuLocation:Rysunek Techniczny → Wstaw widok Arkusza kalkulacyjnego

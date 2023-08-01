@@ -1,6 +1,6 @@
 # Part Extrude/it
 ---
-- GuiCommand:/it   Name:Part_Extrude   Name/it:Estrusione   MenuLocation:Parte → Estrudi...   Workbenches:[SeeAlso:[[Draft Trimex/it|Tronca o estendi](Part_Workbench/it___Parte]].md)---
+- GuiCommand:   Name:Part_Extrude   Name/it:Estrusione   MenuLocation:Parte → Estrudi...   Workbenches:[SeeAlso:[[Draft Trimex/it|Tronca o estendi](Part_Workbench/it___Parte]].md)---
 
 
 </div>

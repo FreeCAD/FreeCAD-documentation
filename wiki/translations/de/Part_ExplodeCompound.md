@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part ExplodeCompound
    Name/de:Part VerbundSprengen
    MenuLocation:Formteil → Verbund → Verbundteile extrahieren

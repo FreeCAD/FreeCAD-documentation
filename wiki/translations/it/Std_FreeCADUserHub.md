@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std FreeCADUserHub
    Name/it: Documentazione utenti
    MenuLocation:Aiuto → Documentazione utenti

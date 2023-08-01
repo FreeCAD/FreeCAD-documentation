@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw  Dimension Diameter
    Name/it:Diametro
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)

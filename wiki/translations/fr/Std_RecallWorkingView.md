@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std RecallWorkingView
    Name/fr:Std Rappel de la vue de travail
    MenuLocation:Affichage → Vues standards → Rappeler la vue de travail

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FEM_Analysis
    Name/it:Analisi FEM
    MenuLocation:Modello → Contenitore analisi

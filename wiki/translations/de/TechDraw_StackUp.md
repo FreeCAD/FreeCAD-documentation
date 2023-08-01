@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw StackUp
    Name/de:TechDraw StapelNachOben
    MenuLocation:TechDraw → Stacking → Ansicht um eine Ebene nach oben bewegen

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher Arc
    Name/fr:Sketcher Création d'arc
    MenuLocation:Esquisse → Géométries d'esquisse → Créer un arc à partir du centre

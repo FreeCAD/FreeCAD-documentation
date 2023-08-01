@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Std Part
    Name/es:Std Pieza
    MenuLocation:Ninguna

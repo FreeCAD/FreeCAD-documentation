@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM MeshRegion
    Name/ru:Область сетки МКЭ
    MenuLocation: Mesh → Область сетки МКЭ

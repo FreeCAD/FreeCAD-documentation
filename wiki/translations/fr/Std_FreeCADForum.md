@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std FreeCADForum
    Name/fr:Std Forum FreeCAD
    MenuLocation:Aide → Forum FreeCAD

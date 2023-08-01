@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std_New
    Name/ru:Создать
    MenuLocation:Файл → Создать

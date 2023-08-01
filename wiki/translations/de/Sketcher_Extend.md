@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher Extend
    Name/de:Sketcher Verlängern
    MenuLocation:Sketch → Skizzengeometrien → Kante verlängern

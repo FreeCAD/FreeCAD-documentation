@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:WebTools BimServer
    Name/ru:Arch BimServer‏‎‏‎
    Workbenches:[Arch](Arch_Workbench/ru.md)

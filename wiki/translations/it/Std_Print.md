@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_Print
    Name/it:Stampa
    MenuLocation:File → Stampa...

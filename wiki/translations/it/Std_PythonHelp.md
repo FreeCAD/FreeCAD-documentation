@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std PythonHelp
    Name/it:Documentazione dei moduli Python
    MenuLocation:Aiuto → Documentazione automatica dei moduli Python

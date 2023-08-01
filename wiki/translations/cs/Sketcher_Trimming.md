@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/cs
+- GuiCommand:
    Name/cs: Skicář Oříznutíí
    Icon:Sketcher Trimming.png
    Workbenches:[Skicář](Sketcher_Workbench/cs.md)

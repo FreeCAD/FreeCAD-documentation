@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_MacroStepOver
    Name/it:Passo successivo
    Empty:1

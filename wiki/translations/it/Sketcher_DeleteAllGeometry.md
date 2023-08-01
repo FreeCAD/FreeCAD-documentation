@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher Delete All Geometry
    Name/it:Cancella tutta la geometria
    Icon:Sketcher Element SelectionTypeInvalid.svg

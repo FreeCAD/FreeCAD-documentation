@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std MainFullscreen
    Name/pl:Std: Pełny ekran
    MenuLocation:Widok  → Pełny ekran

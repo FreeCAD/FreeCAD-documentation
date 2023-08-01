@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft AutoGroup
    Name/it:AutoGruppo
    MenuLocation:Draft → Utilità → AutoGruppo

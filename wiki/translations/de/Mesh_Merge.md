@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Mesh Merge
    Name/de:Mesh Zusammenführen
    MenuLocation:Netze → Zusammenführen

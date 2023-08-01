@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch Panel Sheet   Name/es:Arch Panel Sheet
    MenuLocation:Arch → Panel tools → Panel Sheet
    Workbenches:[Arch](Arch_Workbench/es.md)

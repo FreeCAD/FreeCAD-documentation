@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw CosmeticEraser
    Name/de:TechDraw HilfsobjektEntfernen
    MenuLocation:TechDraw → Hilfsobjekt entfernen

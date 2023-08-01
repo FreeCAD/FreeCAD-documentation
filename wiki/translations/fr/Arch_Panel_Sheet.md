@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Panel Sheet
    Name/fr:Arch Feuille de panneaux
    MenuLocation:Arch → Outils pour les panneaux → Feuille de panneaux

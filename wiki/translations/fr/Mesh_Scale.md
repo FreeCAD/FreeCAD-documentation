@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh Scale
    Name/fr:Mesh Echelle
    MenuLocation:Maillages → Échelle...

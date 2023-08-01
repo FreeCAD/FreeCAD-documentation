@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std TreeSyncView
    Name/pl:Std: Synchronizuj widok
    MenuLocation:Widok → Akcje widoku drzewa → Synchronizuj widok

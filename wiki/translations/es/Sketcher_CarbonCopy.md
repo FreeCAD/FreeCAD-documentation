@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name/es:Sketcher Copia de Carbón
    Icon:Sketcher CarbonCopy.svg
    MenuLocation:Sketch → Geometrías de croquis → Copia de Carbón

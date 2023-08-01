@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part_Extrude
    Name/ru:Выдавить...
    MenuLocation:Деталь -> Выдавить...

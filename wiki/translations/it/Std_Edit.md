@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_Edit
    Name/it:Modalità modifica
    MenuLocation:Modifica → Attiva/disattiva Modalità modifica

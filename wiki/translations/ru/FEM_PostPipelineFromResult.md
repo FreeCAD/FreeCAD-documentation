@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM PostPipelineFromResult
    Name/ru:FEM PostPipelineFromResult
    MenuLocation: Results → Post pipeline from result

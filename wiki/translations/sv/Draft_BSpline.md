@@ -1,6 +1,6 @@
 # Draft BSpline/sv
 ---
-- GuiCommand:/sv   Name:Draft BSpline   Name/sv:Draft BSpline   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft → BSpline   Shortcut:B S   SeeAlso:[Draft Wire](Draft_Wire/sv.md)---
+- GuiCommand:   Name:Draft BSpline   Name/sv:Draft BSpline   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft → BSpline   Shortcut:B S   SeeAlso:[Draft Wire](Draft_Wire/sv.md)---
 
 
 </div>

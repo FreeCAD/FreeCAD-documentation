@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Вперёд
    Name:Std_SelForward
    MenuLocation:

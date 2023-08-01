@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher JoinCurves
    Name/pl:Szkicownik: Połącz krzywe
    MenuLocation:Szkic → Narzędzia szkicownika krzywej złożonej → Połącz krzywe

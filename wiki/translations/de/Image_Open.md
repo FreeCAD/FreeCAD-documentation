@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Image Open
    Name/de:Image Öffnen
    MenuLocation:

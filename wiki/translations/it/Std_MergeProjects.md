@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_MergeProjects
    Name/it:Unisci progetti
    MenuLocation:File → Unisci progetti...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part MakeSolid
    Name/fr:Part Convertir en solid‏‎e
    MenuLocation:Part → Convertir en solide

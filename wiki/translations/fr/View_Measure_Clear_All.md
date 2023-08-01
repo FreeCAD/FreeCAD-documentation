@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:View Measure Clear All
    Name/fr:Affichage Supprimer les mesures
    MenuLocation:Affichage → Visibilité → Supprimer les mesures

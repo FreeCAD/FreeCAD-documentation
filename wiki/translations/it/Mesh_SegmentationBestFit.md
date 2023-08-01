@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Mesh_SegmentationBestFit
    Name/it:Adatta i segmenti
    MenuLocation:Mesh → Adatta i segmenti...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher ToggleConstruction
    Name/fr:Sketcher Géométrie de construction
    MenuLocation:Esquisse → Géométries d'esquisse → Basculer le mode de la géométrie de construction

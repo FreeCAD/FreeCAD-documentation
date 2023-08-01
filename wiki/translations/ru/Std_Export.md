@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std Export
    Name/ru:Std Export
    MenuLocation:Файл → Экспорт

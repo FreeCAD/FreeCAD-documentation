@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ViewFront
    Name/fr:Std Vue de face
    MenuLocation:Affichage → Vues standards → Face

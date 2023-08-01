@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign SubtractiveWedge
    Name/de:PartDesign KeilAbziehen
    MenuLocation:Part Design → Grundkörper abziehen → Keil

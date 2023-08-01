@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Mesh Scale
    Name/de:Mesh Skalieren
    MenuLocation:Netze → Skalieren...

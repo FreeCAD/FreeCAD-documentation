@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std PrintPdf
    Name/ru:Std PrintPdf
    MenuLocation:Файл → Экспортировать Pdf 

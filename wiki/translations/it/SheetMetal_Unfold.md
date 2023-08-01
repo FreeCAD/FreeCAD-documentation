@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:SheetMetal_Unfold
    Name/it:Dispiega
    MenuLocation:SheetMetal → Unfold

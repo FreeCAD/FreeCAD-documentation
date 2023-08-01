@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher Extend
    Name/es:Croquizador Extender
    MenuLocation:Croquis → Croquizador Geometrías → Extender borde

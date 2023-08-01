@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Mesh_Scale
    Name/it:Scala
    MenuLocation:Mesh → Scala...

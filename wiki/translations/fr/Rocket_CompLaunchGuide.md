@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Rocket LaunchGuide
    Name/fr:Rocket Guides de lancement
    MenuLocation:Rocket → Launch Guides

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign SubtractiveSphere
    Name/es:PartDesign Esfera Sustractiva
    MenuLocation:Part Design → Crear una primitiva sustractiva → Esfera sustractiva

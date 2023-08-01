@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path DressupRampEntry
    Name/fr:Path Rampe d'entrée
    MenuLocation:Path → Finition du parcours → Rampe d'entrée

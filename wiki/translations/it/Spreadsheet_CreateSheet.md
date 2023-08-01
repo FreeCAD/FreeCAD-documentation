@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Spreadsheet_CreateSheet
    Name/it:Crea un foglio di calcolo
    MenuLocation:Spreadsheet → Crea un foglio di calcolo

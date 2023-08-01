@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std DebugOver
    Name/fr:Std Passer outre
    Empty:1

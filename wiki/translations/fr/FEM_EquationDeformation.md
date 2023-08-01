@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM EquationDeformation
    Name/fr:FEM
    MenuLocation:Résolution → Équations mécaniques → Équation de déformation

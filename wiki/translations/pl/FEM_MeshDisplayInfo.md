@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:FEM MeshDisplayInfo
    Name:MES: Wyświetl informacje o siatce MES
    MenuLocation:Context menu on mesh object → Wyświetl informacje o siatce MES

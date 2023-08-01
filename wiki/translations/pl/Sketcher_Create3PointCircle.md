@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher Create3PointCircle
    Name/pl:Szkicownik: Utwórz okrąg przez trzy punkty na obwodzie
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz okrąg przez trzy punkty

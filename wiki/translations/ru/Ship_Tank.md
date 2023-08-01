@@ -1,6 +1,6 @@
 # Ship Tank/ru
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Ship TankNew
    Name/ru:Ship TankNew
    MenuLocation:Weights → Create a new tank

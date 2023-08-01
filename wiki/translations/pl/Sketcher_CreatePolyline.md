@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher CreatePolyline
    Name/pl:Szkicownik: Utwórz polilinię
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz polilinię

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher SelectElementsWithDoFs
    Name/es:Croquizador SeleccionarElementosConGdL 
    MenuLocation:Croquis → Croquizador Herramientas → Seleccionar GdL del solucionador

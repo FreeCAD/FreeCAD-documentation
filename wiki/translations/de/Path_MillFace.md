@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Path MillFace
    Name/de:Pfad Fräsfläche
    MenuLocation:Pfad → Fläche

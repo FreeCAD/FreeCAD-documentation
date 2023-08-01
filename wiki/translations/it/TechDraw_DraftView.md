@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw_DraftView
    Name/it:Vista di Draft
    MenuLocation:TechDraw → Vista di Draft

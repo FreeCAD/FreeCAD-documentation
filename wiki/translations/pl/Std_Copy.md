@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std Copy
    Name/pl:Std: Kopiuj
    MenuLocation:Edycja→ Kopiuj

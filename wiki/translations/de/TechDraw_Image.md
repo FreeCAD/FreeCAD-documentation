@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw Image
    Name/de:TechDraw Bild
    MenuLocation:TechDraw → Bitmap Bild einfügen

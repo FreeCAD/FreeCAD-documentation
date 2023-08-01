@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_Delete
    Name/it:Elimina
    MenuLocation:Modifica → Elimina

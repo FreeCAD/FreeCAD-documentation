@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:PartDesign AdditiveBox
    Name/ro:PartDesign Casetă aditivă
    Workbenches:[PartDesign](PartDesign_Workbench/ro.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Robot InsertWaypointPre
    Name/ru:Robot InsertWaypointPre
    MenuLocation:Робот → Вставить в траекторию

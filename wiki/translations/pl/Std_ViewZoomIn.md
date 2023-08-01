@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ViewZoomIn
    Name/pl:Std: Przybliż widok
    MenuLocation:Widok → Powiększenie → Przybliż

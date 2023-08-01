@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FEM_ConstraintInitialTemperature
    Name/it:Temperatura iniziale
    MenuLocation:Modello → Vincoli termici → Vincolo temperatura iniziale

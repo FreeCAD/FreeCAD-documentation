@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Arch Rebar
    Name/ro:Arch Rebar
    Workbenches:[Arch](Arch_Workbench/ro.md)
@@ -17,7 +17,7 @@
 <div class="mw-translate-fuzzy">
 
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Arch Rebar
    Name/ro:Arch Rebar
    Workbenches:[Arch](Arch_Workbench/ro.md)

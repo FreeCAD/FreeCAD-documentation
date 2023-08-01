@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ConstraintFlowVelocity
    Name/fr:FEM Contrainte de vitesse d'écoulement
    MenuLocation:Modèle → Contraintes du fluide → Contrainte de vitesse d'écoulement

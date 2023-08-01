@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher CreateOctagon
    Name/pl:Szkicownik: Utwórz ośmiokąt
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz ośmiokąt

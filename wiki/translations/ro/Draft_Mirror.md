@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Draft Mirror
    Name/ro:Draft Mirror
    MenuLocation:Draft → Mirror

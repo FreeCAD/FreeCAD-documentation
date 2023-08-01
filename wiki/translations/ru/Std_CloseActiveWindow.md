@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std CloseActiveWindow
    Name/ru:Закрыть
    MenuLocation:Файл → Закрыть

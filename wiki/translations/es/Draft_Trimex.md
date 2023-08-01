@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft Trimex
    Name/es:Draft Trimex
    MenuLocation:Croquis -> Recortar/Extender

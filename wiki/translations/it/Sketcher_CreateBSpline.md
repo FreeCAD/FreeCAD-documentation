@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher CreateBSpline
    Name/it:Sketcher BSpline
    Icon:Sketcher CreateBSpline.svg

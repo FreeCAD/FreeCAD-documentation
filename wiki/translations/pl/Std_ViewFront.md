@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ViewFront
    Name/pl:Std: Widok od przodu
    MenuLocation:Widok → Widoki standardowe → Od przodu

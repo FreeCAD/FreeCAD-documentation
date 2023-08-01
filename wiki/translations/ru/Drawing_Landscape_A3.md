@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Drawing Landscape A3
    Name/ru:Drawing Landscape A3
    Workbenches:[Drawing](Drawing_Workbench/ru.md), Complete

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path Fixture
    Name/fr:Path Fixation
    MenuLocation:Path → Autres commandes → Fixation

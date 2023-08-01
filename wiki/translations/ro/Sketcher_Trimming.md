@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name/ro:Sketcher Taie marginea
    Icon:Sketcher Trimming.png
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)

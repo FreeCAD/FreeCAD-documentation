@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ElementFluid1D
    Name/fr:FEM Section fluide 1D
    MenuLocation:Modèle → Géométrie de l'élement → Section de fluide pour un écoulement 1D

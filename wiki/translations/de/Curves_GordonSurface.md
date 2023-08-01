@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Curves GordonSurface
    Name/de:Curves GordonFläche
    MenuLocation:Surfaces → Gordon surface

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:PartDesign AdditiveCone
    Name/it:Cono additivo
    Workbenches:[PartDesign](PartDesign_Workbench/it.md)

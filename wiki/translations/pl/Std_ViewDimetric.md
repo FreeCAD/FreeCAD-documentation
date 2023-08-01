@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ViewDimetric
    Name/pl:Std: Widok dimetryczny
    MenuLocation:Widok → Widoki standardowe → Aksonometryczny → Dimetryczny

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Домой
    Name:Std_ViewHome
    MenuLocation:Вид → Стандартные виды‏‎ → Домой

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Part Line
    Name/tr:Parça Çizgi
    MenuLocation:Parça → [Temel geometrik şekil oluştur](Part_CreatePrimitives/tr.md) → Çizgi

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign Pad
    Name/pl:Projekt Części: Wyciągnij
    MenuLocation:Projekt Części → Utwórz cechę przez dodanie → Wyciągnij

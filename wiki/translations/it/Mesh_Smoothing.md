@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Mesh_Smoothing
    Name/it:Mesh Smoothing
    MenuLocation:Mesh → Leviga...

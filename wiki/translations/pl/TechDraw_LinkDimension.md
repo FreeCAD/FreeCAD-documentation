@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw LinkDimension
    Name/pl:Rysunek Techniczny: Powiąż wymiar z geometrią 3D
    MenuLocation:Rysunek Techniczny → Wymiary → Powiąż wymiar z geometrią 3D

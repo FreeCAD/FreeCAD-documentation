@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std SaveCopy
    Name/fr:Std Enregistrer une copie
    MenuLocation:Fichier → Enregistrer une copie...

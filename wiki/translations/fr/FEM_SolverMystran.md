@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM SolverMystran
    Name/fr:FEM Solveur Mystran
    MenuLocation:Résolution → Solveur Mystran

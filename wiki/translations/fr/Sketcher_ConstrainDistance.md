@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher ConstrainDistance
    Name/fr:Sketcher Contrainte dimensionnelle
    MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte de dimension

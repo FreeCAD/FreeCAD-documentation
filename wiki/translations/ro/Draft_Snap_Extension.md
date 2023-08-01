@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Draft Snap Extension
    Name/ro:Draft Snap Extension
    MenuLocation:Draft → [Snap](Draft_Snap/ro.md) → Extension

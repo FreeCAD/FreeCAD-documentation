@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Mesh_Decimating
    Name/it:Decima
    MenuLocation:Mesh → Decima...

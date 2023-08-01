@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:OpenSCAD_ResizeMeshFeature
    Name/it:Ridimensiona le mesh
    Empty:1

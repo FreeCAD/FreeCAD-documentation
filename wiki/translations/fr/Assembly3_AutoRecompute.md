@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 AutoRecompute
    Name/fr:Assembly3 Recomputation automatique
    Icon:Assembly_AutoRecompute.svg‎‎

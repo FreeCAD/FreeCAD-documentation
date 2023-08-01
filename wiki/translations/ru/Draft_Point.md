@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Point
    Name/ru:Draft Point
    MenuLocation:Черчение -> Точка

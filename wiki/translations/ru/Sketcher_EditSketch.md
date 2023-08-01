@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Редактировать эскиз
    Name:Sketcher_EditSketch
    MenuLocation:Sketch → Редактировать эскиз

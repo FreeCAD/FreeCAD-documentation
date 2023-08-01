@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft AddNamedGroup
    Name/fr:Draft Nommer un groupe
    MenuLocation:Utilitaires → Ajouter un nouveau groupe nommé

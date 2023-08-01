@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ConstraintSectionPrint
    Name/fr:FEM Contrainte d'empreinte de section
    MenuLocation:Modèle → Contraintes géométriques → Contrainte d'empreinte de section

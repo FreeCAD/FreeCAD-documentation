@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ja
+- GuiCommand:
    Name:Arch Add
    Name/ja:Arch Add
    Workbenches:[建築](Arch_Workbench/ja.md)

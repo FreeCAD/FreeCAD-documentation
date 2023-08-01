@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Part Measure Toggle Delta
    Name/ro:Part Measure Toggle Delta
    MenuLocation:Measure → Toggle Delta‏‎

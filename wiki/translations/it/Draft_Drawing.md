@@ -1,6 +1,6 @@
 # Draft Drawing/it
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Drawing
    Name/it:Disegno
    Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)

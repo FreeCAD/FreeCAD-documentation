@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Усечь
    Name:Sketcher_Trimming
    MenuLocation:Sketch → Геометрия эскиза → Обрезать линию

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std SelectAll
    Name/pl:Std: Zaznacz wszystko
    MenuLocation:Edycja → Zaznacz wszystko

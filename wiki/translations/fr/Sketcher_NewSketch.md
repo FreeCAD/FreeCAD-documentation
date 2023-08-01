@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher NewSketch
    Name/fr:Sketcher Créer une esquisse
    MenuLocation:Esquisse → Créer une esquisse

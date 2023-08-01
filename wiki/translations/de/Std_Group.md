@@ -1,6 +1,6 @@
 # Std Group/de
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std Group
    Name/de:Std Gruppe
    MenuLocation:Baumansicht → Rechtsklick auf den Dokumentennamen

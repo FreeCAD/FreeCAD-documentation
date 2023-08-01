@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Tube
    Name/pl:Część: Rura
    MenuLocation:Część → Bryła pierwotna → Utwórz rurę

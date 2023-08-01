@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Mirror
    Name/it:Specchio
    MenuLocation:Modifiche → Specchio

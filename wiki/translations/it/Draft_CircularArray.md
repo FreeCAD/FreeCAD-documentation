@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft CircularArray
    Name/it:Serie circolare
    MenuLocation:Modifiche → Strumenti serie → Serie circolare

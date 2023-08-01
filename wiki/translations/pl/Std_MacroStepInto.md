@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std MacroStepInto
    Name/pl:Std: Wejdź do
    Empty:1

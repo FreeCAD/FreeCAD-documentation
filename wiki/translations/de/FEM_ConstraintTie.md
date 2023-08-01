@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM ConstraintTie
    Name/de:FEM RandbedingungVerbinder
    MenuLocation:Modell → Mechanische Randbedingungen → Randbedingung Verbinder

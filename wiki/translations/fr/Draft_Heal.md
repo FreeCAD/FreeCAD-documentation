@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Heal
    Name/fr:Draft Réparer
    MenuLocation:Utilitaires → Réparer

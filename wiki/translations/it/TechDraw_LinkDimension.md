@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw LinkDimension
    Name/it:Link alla dimensione
    MenuLocation:TechDraw → Link alla geometria 3D

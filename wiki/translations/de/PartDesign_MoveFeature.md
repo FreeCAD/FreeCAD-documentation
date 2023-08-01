@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign MoveFeature
    Name/de:PartDesign FormelementVerschieben
    MenuLocation:Kontextmenü → Objekt in anderen Körper verschieben

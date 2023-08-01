@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part ProjectionOnSurface
    Name/de:Part ProjektionAufOberfläche
    MenuLocation:Part → Erstelle Projektion auf Oberfläche...

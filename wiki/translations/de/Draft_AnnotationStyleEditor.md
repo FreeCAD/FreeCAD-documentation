@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft AnnotationStyleEditor
    Name/de:Entwurf AnmerkungsStilEditor
    MenuLocation:Anmerkung → Anmerkungsstile...

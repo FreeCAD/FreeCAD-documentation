@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part_Fillet
    Name/ru:Скругление
    MenuLocation:Деталь → Скругление...

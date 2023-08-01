@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Snap Grid
    Name/tr:Taslak Izgara
    MenuLocation:Taslak → [Snapping](Draft_Snap/tr.md) → Izgara

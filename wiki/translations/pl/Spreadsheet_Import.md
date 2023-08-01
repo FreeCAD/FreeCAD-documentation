@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Spreadsheet Import
    Name/pl:Arkusz Kalkulacyjny: Importuj
    MenuLocation:Arkusz Kalkulacyjny → Importuj

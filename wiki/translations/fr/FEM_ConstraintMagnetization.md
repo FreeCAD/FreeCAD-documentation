@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ConstraintMagnetization
    Name/fr:FEM Contrainte de magnétisation
    MenuLocation:Modèle → Contraintes électromagnétiques → Contrainte de magnétisation

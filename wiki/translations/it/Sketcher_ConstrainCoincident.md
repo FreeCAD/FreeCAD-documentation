@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher_ConstrainCoincident
    Name/it:Coincidenza
    Workbenches:[Schizzo](Sketcher_Workbench/it.md)

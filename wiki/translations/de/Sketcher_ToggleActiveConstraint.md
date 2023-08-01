@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher ToggleActiveConstraint
    Name/de:Sketcher UmschalterAktiveRandbedingung
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)

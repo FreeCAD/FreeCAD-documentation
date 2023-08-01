@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std New
    Name/de:Std Neu
    MenuLocation:Datei → Neu

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path Custom
    Name/fr:Path Personnaliser
    MenuLocation:Path → Autres commandes → Personnaliser

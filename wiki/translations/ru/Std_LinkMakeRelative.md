@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Ссылка
    Name:Std_LinkMakeRelative
    MenuLocation:Нет

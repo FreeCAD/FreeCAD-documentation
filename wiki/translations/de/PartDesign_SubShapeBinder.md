@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign SubShapeBinder
    Name/de:PartDesign Teilformbinder
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)

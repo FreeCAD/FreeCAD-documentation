@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Субтрактивный цилиндр
    Name:PartDesign_SubtractiveCylinder
    MenuLocation:Part Design → Создать субтрактивный примитив → Субтрактивный цилиндр

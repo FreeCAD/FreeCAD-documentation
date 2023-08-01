@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Std AddonMgr
    Name/tr:Addon manager
    Icon:AddonManager.svg

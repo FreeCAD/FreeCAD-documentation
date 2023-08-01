@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Std MacroStartDebug
    Name/ro:Std MacroStartDebug
    Workbenches:All

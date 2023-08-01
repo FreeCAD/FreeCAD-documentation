@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign AdditiveCylinder
    Name/pl:Projekt Części: Addytywny walec
    MenuLocation:Projekt Części → Utwórz cechę przez dodanie → Addytywny walec

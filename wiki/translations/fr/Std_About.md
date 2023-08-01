@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std About
    Name/fr:Std À propos
    Workbenches:Tous

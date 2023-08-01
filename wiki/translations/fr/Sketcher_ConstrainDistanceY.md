@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher ConstrainDistanceY
    Name/fr:Sketcher Contrainte distance en Y
    MenuLocation:Esquisse → Géométries d'esquisse → Contrainte distance verticale

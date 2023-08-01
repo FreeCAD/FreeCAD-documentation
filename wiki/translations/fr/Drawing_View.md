@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Drawing View
    Name/fr:Drawing Insérer une vue
    Workbenches:[Drawing](Drawing_Workbench/fr.md)

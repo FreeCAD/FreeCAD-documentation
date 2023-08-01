@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std Alignment
    Name/ko:표준 정렬
    MenuLocation:편집 → 정렬...

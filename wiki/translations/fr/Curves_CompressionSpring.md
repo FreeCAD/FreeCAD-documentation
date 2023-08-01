@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Curves CompressionSpring
    Name/fr:Curves Ressort de compression
    MenuLocation:Curves → Compression Spring

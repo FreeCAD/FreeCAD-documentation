@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher Circles
    Name/es:Croquizador Círculos
    Icon:Sketcher_CompCreateConic.png

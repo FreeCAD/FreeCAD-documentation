@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM PostCreateFunctionCylinder
    Name/fr:FEM Filtre fonction cylindre
    MenuLocation:Résultats → Fonctions de filtrage → Cylindre

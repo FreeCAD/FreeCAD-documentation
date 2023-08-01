@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign SubtractiveLoft
    Name/de:PartDesign Ausformung
    MenuLocation:Part Design → Objekte abziehen → Ausformung

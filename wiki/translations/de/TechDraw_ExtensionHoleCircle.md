@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw ExtensionHoleCircle
    Name/de:TechDraw ErgänzungLochkreis
    MenuLocation:TechDraw → Extensions: Centerlines/Threading → Add Bolt Circle Centerlines

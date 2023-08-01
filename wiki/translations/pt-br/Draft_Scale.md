@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pt-br
+- GuiCommand:-br
    Name:Draft Scale
    Name/pt-br:Draft Scale
    MenuLocation:Draft → Scale

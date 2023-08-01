@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher Trimming
    Name/pl:Szkicownik: Przytnij krawędź
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Przytnij krawędź

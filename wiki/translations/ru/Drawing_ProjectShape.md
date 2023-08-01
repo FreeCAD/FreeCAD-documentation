@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Drawing ProjectShape
    Name/ru:Drawing ProjectShape
    Empty:1

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch SectionPlane
    Name/es:Arch Plano de Sección
    MenuLocation:Arquitectura → Plano de sección

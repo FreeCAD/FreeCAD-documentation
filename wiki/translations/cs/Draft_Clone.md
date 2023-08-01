@@ -1,6 +1,6 @@
 # Draft Clone/cs
 ---
-- GuiCommand:/cs   Name:Draft Clone   Name/cs:Kreslení Klon   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft → Clone   SeeAlso:[Kreslení Měřítko](Draft_Scale/cs.md)---
+- GuiCommand:   Name:Draft Clone   Name/cs:Kreslení Klon   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft → Clone   SeeAlso:[Kreslení Měřítko](Draft_Scale/cs.md)---
 
 
 </div>

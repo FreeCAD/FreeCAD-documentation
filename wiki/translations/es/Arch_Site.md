@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch Site
    Name/es:Arquitectura Ubicación
    MenuLocation:Arquitectura → Ubicación

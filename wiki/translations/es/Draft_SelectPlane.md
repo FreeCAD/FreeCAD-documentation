@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft SelectPlane
    Name/es:Borrador SeleccionarPlano
    MenuLocation:Borrador -> Seleccionar Plano

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh SegmentationBestFit
    Name/fr:Mesh Segmentation adaptée
    MenuLocation:Maillages → Créer des segments de maillage de surfaces ajustées...

@@ -1,6 +1,6 @@
 # Draft Snap Endpoint/ru
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Endpoint
    Name/ru:Draft Endpoint
    MenuLocation:Черчение → [Привязка](Draft_Snap/ru.md) → Конечные точки

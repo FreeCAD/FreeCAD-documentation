@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign Chamfer
    Name/de:PartDesign Fase
    MenuLocation:Part Design → Modifikationen → Fase

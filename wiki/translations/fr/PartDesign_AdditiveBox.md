@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign AdditiveBox
    Name/fr:PartDesign Cube additif
    MenuLocation:Part Design → Créer une primitive additive → Cube additif

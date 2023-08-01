@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher External
    Name/fr:Sketcher Géométrie externe
    MenuLocation:Esquisse → Géométries d'esquisse → Créer une géométrie externe

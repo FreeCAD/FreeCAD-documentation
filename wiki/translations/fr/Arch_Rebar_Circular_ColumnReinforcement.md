@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Rebar ColumnReinforcement
    Name/fr:Arch : Rebar Armature circulaire
    MenuLocation:Arch → Rebar tools

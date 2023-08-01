@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 ConstraintAlignment
    Name/de:Assembly3 EbenenAusrichten
    Icon:Assembly_ConstraintAlignment.svg

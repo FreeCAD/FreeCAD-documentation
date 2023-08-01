@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std TreeRecordSelection
    Name/pl:Std: Zapisz zaznaczenie z widoku drzewa
    MenuLocation:Widok→ Akcje widoku drzewa → Zapisz zaznaczenie

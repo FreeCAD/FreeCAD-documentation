@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch_Rebar
    Name/fr:Arch Armature personnalisée
    MenuLocation:Arch → Outils pour armatures → Armature personnalisée<br>3D/BIM → Reinforcement tools → Armature personnalisée

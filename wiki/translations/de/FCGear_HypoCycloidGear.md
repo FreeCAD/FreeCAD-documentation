@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FCGear HypoCycloidGear
    Name/de:FCGear Hypozykloidenrad
    MenuLocation:Gear → HypoCycloid Gear

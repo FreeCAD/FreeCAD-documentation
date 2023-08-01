@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch Component
 ‏‎‏‎   Name/es:Arch Componente
 ‏‎‏‎   MenuLocation:Arch → Utilities → Component

@@ -1,6 +1,6 @@
 # FEM MaterialMechanicalNonlinear/it
 ---
-- GuiCommand:/it   Name:FEM_MaterialMechanicalNonlinear   Name/it:FEM Materiale non lineare   MenuLocation: Modello → Materiale non lineare   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:   Name:FEM_MaterialMechanicalNonlinear   Name/it:FEM Materiale non lineare   MenuLocation: Modello → Materiale non lineare   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 ## Descrizione
 

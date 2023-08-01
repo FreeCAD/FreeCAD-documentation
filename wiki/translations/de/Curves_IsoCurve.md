@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Curves IsoCurve
    Name/de:Curves IsoKurve
    MenuLocation:Surfaces → IsoCurve

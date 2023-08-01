@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part TransformedCopy
    Name/de:Part TransformierteKopie
    MenuLocation:Part → Erzeuge eine Kopie → Erzeuge transformierte Kopie

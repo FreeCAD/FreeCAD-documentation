@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Snap Lock
    Name/tr:Yakalama açık/kapalı
    MenuLocation:Taslak → Araçlar→ Yakalama açık/kapalı

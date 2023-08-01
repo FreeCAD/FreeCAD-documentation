@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExtensionChangeLineAttributes
    Name/fr:TechDraw Modification des attributs
    MenuLocation:TechDraw → Extensions : attributs/modifications → Modifier les attibuts de lignes

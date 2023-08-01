@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign AdditivePipe
    Name/fr:PartDesign Balayage additif
    MenuLocation:Part Design → Créer une fonction additive → Balayage additif

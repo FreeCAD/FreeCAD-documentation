@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ToggleObjects
    Name/pl:Std: Przełącz widoczność
    MenuLocation:Widok → Widoczność → Przełącz widoczność wszystkich obiektów

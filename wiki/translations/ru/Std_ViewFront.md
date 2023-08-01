@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Спереди
    Name:Std_ViewFront
    MenuLocation:Вид → Стандартные виды‏‎ → Спереди

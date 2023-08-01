@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ViewIvStereoQuadBuff
    Name/de:Std AnsichtIvStereoVierfachPuffer
    MenuLocation:Ansicht → Stereo → Stereo Vierfach Puffer

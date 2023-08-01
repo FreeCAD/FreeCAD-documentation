@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw ExtensionCreateHorizChainDimension
    Name/de:TechDraw ErgänzungHorizontaleMaßkette
    MenuLocation:TechDraw → Ergänzungen: Maße → Horizontale Maßketten erstellen

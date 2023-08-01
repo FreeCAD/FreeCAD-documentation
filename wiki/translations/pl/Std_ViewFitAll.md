@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ViewFitAll
    Name/pl:Std: Dopasuj wszystko
    MenuLocation:Widok → Widoki standardowe → Dopasuj wszystko

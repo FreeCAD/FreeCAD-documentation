@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch SplitMesh
    Name/it:Dividi mesh
    Workbenches:[Architetttura](Arch_Workbench/it.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Добавить Линию-выноску в Вид
    Name:TechDraw_LeaderLine
    MenuLocation:TechDraw → Добавить Линии → Добавить Линию-выноску в Вид

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft FlipDimension
    Name/pl:Rysunek Roboczy: Obróć wymiar
    MenuLocation:Modyfikacja → Obróć wymiar

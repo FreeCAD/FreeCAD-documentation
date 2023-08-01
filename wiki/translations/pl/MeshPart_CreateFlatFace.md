@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:MeshPart CreateFlatFace
    Name/pl:Projekt Siatki: Rozwiń powierzchnię
    MenuLocation:Siatki → Rozwiń powierzchnię

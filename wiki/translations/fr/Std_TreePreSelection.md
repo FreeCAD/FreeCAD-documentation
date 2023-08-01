@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std TreePreSelection
    Name/fr:Std Arborescence Préselection
    MenuLocation:Affichage → Vue en arborescence  → Pré-sélectionner

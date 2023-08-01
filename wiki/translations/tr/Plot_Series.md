@@ -1,6 +1,6 @@
 # Plot Series/tr
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name/tr:Dizi
    MenuLocation:Arsa → Dizi
 ‏‎   |Workbenches:[Arsa](Plot_Workbench/tr.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw ExtensionLockUnlockView
    Name/pl:Rysunek Techniczny: Rozszerzenie Zablokuj / odblokuj widok
    MenuLocation:Rysunek Techniczny → Rozszerzenie: Atrybuty / Modyfikatory → Zablokuj / odblokuj widok

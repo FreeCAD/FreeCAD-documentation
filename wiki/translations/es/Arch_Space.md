@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch Space   Name/es:Arch Espacio
    MenuLocation:Arch → Space
    Workbenches:[Arch](Arch_Workbench/es.md)

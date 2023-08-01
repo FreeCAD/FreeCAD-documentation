@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path Vcarve
    Name/fr:Path Gravure en V
    MenuLocation:Path → Graver en V

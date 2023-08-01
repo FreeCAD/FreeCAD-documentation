@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:OpenSCAD IncreaseTolerance‏‎Feature
    Name/ru:OpenSCAD IncreaseTolerance‏‎ 
    MenuLocation:OpenSCAD → Increase Tolerance Feature‏‎

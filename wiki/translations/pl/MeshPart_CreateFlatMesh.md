@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:MeshPart CreateFlatMesh
    Name/pl:Projekt Siatki: Rozwiń siatkę
    MenuLocation:Siatki → Rozwiń siatkę

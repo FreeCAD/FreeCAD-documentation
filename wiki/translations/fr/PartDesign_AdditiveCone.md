@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign AdditiveCone
    Name/fr:PartDesign Cône additif
    MenuLocation:Part Design → Créer une primitive additive → Cône additif

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Upgrade
    Name/ru:Draft Upgrade
    MenuLocation:Черчение → Обновить

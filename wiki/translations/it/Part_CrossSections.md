@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Part SectionCross
    Name/it:Sezioni...
    Icon:Part_CrossSections.svg

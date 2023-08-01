@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path SimpleCopy
    Name/fr:Path Copie simple
    MenuLocation:Path → Modification du parcours → Copie simple

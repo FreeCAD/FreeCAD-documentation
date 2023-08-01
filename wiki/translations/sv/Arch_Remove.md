@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/sv
+- GuiCommand:
    Name:Arch Remove
    Name/sv:Arch Remove
    MenuLocation:Arch → Remove

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ConstraintElectrostaticPotential
    Name/fr:FEM Contrainte de potentiel électrostatique
    MenuLocation:Modèle → Contraintes électrostatiques → Contrainte de potentiel électrostatique

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch CloneComponent‏‎‏‎
    Name/fr:Arch Cloner un composant
    MenuLocation:Arch → Utilitaires → Cloner un composant

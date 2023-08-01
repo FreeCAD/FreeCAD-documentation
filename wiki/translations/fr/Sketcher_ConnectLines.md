@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher ConnectLines
    Name/fr:Sketcher Raccorder des arêtes
    MenuLocation:Esquisse → Outils d'esquisse → Raccorder les arêtes

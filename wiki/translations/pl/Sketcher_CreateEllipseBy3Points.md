@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher CreateEllipseBy3Points
    Name/pl:Szkicownik: Utwórz elipsę przez trzy punkty
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz elipsę przez trzy punkty

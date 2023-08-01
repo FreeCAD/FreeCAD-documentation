@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Truss
    Name/de:Arch Traverse
    MenuLocation:Arch → Traverse

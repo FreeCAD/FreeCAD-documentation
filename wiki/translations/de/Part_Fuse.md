@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Fuse
    Name/de:Part Vereinigung
    MenuLocation:Formteil → Boolesche Operation → Vereinigung

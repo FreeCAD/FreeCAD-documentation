@@ -1,6 +1,6 @@
 # Plot Legend/it
 ---
-- GuiCommand:/it   Name:Plot Legend   Name/it:Legenda   MenuLocation:Plot → Legenda‏‎   |Workbenches:[[Plot_Workbench/it   Plot]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Plot Legend   Name/it:Legenda   MenuLocation:Plot → Legenda‏‎   |Workbenches:[[Plot_Workbench/it   Plot]]|Shortcut:   SeeAlso:---
 
 
 </div>

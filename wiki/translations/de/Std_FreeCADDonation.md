@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std FreeCADDonation
    Name/de:Std FreeCADSpenden
    MenuLocation:Hilfe → Spenden

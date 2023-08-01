@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Icon:Constraint PointOnPoint.svg
    Name/es:Restricción de coincidencia
    Workbenches:[Sketcher](Sketcher_Workbench/es.md)

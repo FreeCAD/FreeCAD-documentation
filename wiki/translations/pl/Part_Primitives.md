@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Primitives
    Name/pl:Część: Utwórz geometrie pierwotne
    MenuLocation:Część → Utwórz geometrie pierwotne ...

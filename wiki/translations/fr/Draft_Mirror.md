@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Mirror
    Name/fr:Draft Miroir
    MenuLocation:Modification → Miroir

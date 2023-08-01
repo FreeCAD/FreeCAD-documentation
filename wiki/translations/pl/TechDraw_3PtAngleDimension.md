@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw 3PtAngleDimension
    Name/pl:Rysunek Techniczny: Wstaw trzy punktowy wymiar kąta
    MenuLocation:Rysunek Techniczny → Wymiary → Wstaw trzy punktowy wymiar kąta

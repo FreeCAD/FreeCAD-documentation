@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Constraint Symmetric
    Name/es:Restricción Simetría
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)

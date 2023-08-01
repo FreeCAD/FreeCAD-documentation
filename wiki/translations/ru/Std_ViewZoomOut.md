@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std ViewZoomOut
    Name/ru:Уменьшить
    MenuLocation:Вид → Масштаб‏‎ → Уменьшить

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Mesh PolyCut
    Name/de:Mesh PolygonSchnitt
    MenuLocation:Netze → Schneiden → Netz schneiden

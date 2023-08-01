@@ -1,6 +1,6 @@
 # Drawing Openbrowser/cs
 ---
-- GuiCommand:/cs   Name:Drawing Openbrowser   Name/cs:Drawing Openbrowser   Workbenches:[[Drawing Workbench/cs   Drawing]], Complete|MenuLocation:Drawing → Open Browser   Shortcut:none---
+- GuiCommand:   Name:Drawing Openbrowser   Name/cs:Drawing Openbrowser   Workbenches:[[Drawing Workbench/cs   Drawing]], Complete|MenuLocation:Drawing → Open Browser   Shortcut:none---
 
 ## Popis
 

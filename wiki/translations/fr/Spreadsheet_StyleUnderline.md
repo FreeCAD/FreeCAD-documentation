@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Spreadsheet StyleUnderline
    Name/fr:Spreadsheet Texte souligné
    MenuLocation:Spreadsheet → Styles → Texte souligné

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher Create3PointCircle
    Name/fr:Sketcher Cercle par 3 points
    MenuLocation:Esquisse → Géometries d'esquisse → Créer un cercle par 3 points

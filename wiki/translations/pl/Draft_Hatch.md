@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft Hatch
    Name/pl:Rysunek Roboczy: Kreskowanie
    MenuLocation:Kreślenie → Kreskowanie

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std Quit
    Name/ru:Std Quit
    MenuLocation:Файл → Выход

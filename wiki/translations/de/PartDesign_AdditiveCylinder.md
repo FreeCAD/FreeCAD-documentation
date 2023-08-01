@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign AdditiveCylinder
    Name/de:PartDesign ZylinderHinzufügen
    MenuLocation:Part Design → Grundkörper hinzufügen → Zylinder

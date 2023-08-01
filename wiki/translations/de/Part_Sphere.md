@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Sphere
    Name/de:Part Kugel
    MenuLocation:Part → Grundkörper → Kugel

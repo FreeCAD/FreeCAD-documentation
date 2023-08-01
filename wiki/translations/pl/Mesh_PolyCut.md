@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh PolyCut
    Name/pl:Siatka Przetnij
    MenuLocation:Siatki → Cięcie → Przetnij siatkę

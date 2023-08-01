@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std_Open
    Name/ru:Открыть...
    MenuLocation:[Файл](Std_File_Menu/ru.md) → Открыть...

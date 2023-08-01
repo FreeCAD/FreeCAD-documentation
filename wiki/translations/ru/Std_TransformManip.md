@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Преобразовать
    Name:Std_TransformManip
    MenuLocation:В контекстном меню древовидного обзора проекта → Преобразовать

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft OrthoArray
    Name/de:Draft RechtwinkligeAnordnung
    MenuLocation:Änderung → Array tools → Anordnung

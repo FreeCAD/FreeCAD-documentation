@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh Difference
    Name/fr:Mesh Différence
    MenuLocation:Maillages → Opération booléenne → Différence

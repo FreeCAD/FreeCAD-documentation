@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExtensionCircleCenterLines
    Name/fr:TechDraw Axes de centrage
    MenuLocation:TechDraw → Extensions : taraudages/filetages → Axes de centrage

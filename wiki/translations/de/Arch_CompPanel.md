@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch CompPanel
    Name/de:Arch BildePaneel
    MenuLocation:Arch → Paneel

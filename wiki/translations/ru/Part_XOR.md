@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part XOR
    Name/ru:Part XOR
    MenuLocation:Деталь → Разделить → Boolean Xor

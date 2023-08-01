@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Mesh RemoveCompByHand‏‎
    Name/ru:Mesh RemoveCompByHand‏‎
    MenuLocation:Сетки → Удалить компоненты вручную...

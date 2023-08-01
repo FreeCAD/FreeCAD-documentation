@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher Clone
    Name/fr:Sketcher Clone
    MenuLocation:Esquisse → Outils d'esquisse → Clone

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Draft2Sketch
    Name/tr:Taslak/Eskiz çevir
    MenuLocation:Drafting → Draft to Sketch

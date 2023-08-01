@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM PostCreateFunctionPlane
    Name/de:FEM NachbereitungFunktionEbene
    MenuLocation:Ergebnisse → Filterfunktionen → Ebene

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Полость
    Name:PartDesign_Draft
    MenuLocation:Part Design → Apply a dress-up feature → Полость

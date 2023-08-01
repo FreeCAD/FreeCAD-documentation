@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Circle
    Name/fr:Part Cercle
    MenuLocation:Part → [Créer des primitives](Part_Primitives/fr.md) → Cercle

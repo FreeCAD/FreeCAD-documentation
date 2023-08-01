@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch Remove
    Name/es:Sustraer
    MenuLocation:Arquitectura → Sustraer

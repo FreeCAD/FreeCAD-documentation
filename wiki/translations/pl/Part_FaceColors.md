@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part FaceColors
    Name/pl:Część: Kolor dla ściany
    MenuLocation:Menu podręczne → Ustaw kolory ...

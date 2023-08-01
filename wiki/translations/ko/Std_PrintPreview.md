@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std PrintPreview
    Name/ko:표준 인쇄 미리 보기
    MenuLocation:파일 → 인쇄 미리 보기...

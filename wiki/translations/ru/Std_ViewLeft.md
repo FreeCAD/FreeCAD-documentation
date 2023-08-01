@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std ViewLeft
    Name/ru:Std ViewLeft
    MenuLocation:Виды → Стандартные виды → Слева

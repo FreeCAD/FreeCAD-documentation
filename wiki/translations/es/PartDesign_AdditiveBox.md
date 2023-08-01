@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign AdditiveBox
    Name/es:DiseñoPiezas CuboAditivo
    MenuLocation:DiseñoPiezas → Crear una primitiva aditiva → Cubo Aditivo

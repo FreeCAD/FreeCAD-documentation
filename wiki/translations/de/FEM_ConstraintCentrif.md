@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM ConstraintCentrif
    Name/de:FEM RandbedingungZentrif
    MenuLocation:Modell → Mechanische Randbedingungen → RandbedingungZentrif

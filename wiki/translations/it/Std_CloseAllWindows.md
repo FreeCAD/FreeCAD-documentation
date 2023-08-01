@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_CloseAllWindows
    Name/it:Chiudi tutto
    MenuLocation:File → Chiudi tutto

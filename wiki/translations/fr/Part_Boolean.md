@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Boolean
    Name/fr:Part Opération booléenne
    MenuLocation:Part → Opération booléenne → Opération booléenne...

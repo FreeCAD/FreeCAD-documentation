@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher ConstrainTangent
    Name/fr:Sketcher Contrainte tangente
    MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte tangente

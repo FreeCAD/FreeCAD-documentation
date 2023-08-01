@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Spreadsheet AlignRight
    Name/pl:Arkusz Kalkulacyjny: Wyrównaj do prawej
    MenuLocation:Arkusz kalkulacyjny → Wyrównanie → Wyrównaj do prawej

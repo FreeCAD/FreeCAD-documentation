@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Curves ProfileSupport
    Name/de:Curves Profilebene
    MenuLocation:Surfaces → Profile support plane

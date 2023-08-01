@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Plot Series
    Name/ru:Plot Series
    MenuLocation:Plot → Series

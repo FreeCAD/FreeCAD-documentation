@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std Placement
    Name/ko:표준 배치
    MenuLocation:편집 → 위치 설정...

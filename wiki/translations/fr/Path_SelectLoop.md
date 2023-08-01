@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path SelectLoop
    Name/fr:Path Terminer une Boucle
    MenuLocation:Path → Terminer la boucle de sélection

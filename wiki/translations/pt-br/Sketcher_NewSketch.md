@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pt-br
+- GuiCommand:-br
    Name:Sketcher NewSketch
    Name/pt-br:Criar um esboço
    Workbenches:[Sketcher](Sketcher_Workbench/pt-br.md)

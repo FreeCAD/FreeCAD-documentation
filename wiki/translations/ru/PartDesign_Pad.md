@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Выдавливание
    Name:PartDesign_Pad
    MenuLocation:Part Design → Аддитивные преобразования → Выдавливание

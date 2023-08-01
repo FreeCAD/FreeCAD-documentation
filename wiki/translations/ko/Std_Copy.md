@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std Copy
    Name/ko:표준 복사
    MenuLocation:편집 → 복사

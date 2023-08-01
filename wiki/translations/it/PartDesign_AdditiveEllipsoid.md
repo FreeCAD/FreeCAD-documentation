@@ -1,6 +1,6 @@
 # PartDesign AdditiveEllipsoid/it
 ---
-- GuiCommand:/it   Name:PartDesign AdditiveEllipsoid   Name/it:Ellissoide additivo   Workbenches:[MenuLocation:Part Design → Crea una primitiva additiva → Ellissoide   Version:0.17   SeeAlso:[[PartDesign CompPrimitiveAdditive/it|Primitive additive](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand:   Name:PartDesign AdditiveEllipsoid   Name/it:Ellissoide additivo   Workbenches:[MenuLocation:Part Design → Crea una primitiva additiva → Ellissoide   Version:0.17   SeeAlso:[[PartDesign CompPrimitiveAdditive/it|Primitive additive](PartDesign_Workbench/it___PartDesign]].md)---
 
 
 </div>

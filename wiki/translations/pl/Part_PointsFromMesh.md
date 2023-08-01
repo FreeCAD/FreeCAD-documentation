@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part PointsFromMesh‎
    Name/pl:Część: Utwórz obiekt punktów z siatki
    MenuLocation:Część → Utwórz obiekt punktów z siatki

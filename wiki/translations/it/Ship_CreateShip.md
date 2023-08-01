@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Ship New
    Name/it:Nuova‏‎
    MenuLocation:Ship design → Crea una nuova nave

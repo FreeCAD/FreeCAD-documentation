@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft ToggleGrid
    Name/tr:Izgarayı aç/kapa
    MenuLocation:Draft → Utilities → Toggle grid

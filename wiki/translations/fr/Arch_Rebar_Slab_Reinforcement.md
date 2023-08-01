@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Rebar Slab Reinforcement
    Name/fr:Arch Rebar Renfort de dalle
    MenuLocation:Arch → Rebar tools → Slab Reinforcement<br>3D/BIM → Reinforcement tools → Slab 

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Reinforcement Bar Shape Cut List
    Name/fr:Reinforcement Nomenclature de façonnage des armatures
    MenuLocation:Reinforcement → Rebar Shape Cut List

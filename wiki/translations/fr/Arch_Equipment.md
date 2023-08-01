@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Equipment
    Name/fr:Arch Équipement
    MenuLocation:Arch → Équipement

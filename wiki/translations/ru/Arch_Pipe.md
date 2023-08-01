@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Arch Pipe
    Name/ru:Труба
    MenuLocation:Arch → Инструменты для труб → Труба

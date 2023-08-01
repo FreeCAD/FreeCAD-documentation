@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:OpenSCAD Edgestofaces
    Name/fr:OpenSCAD Conversion d'arêtes en faces
    MenuLocation:OpenSCAD → Convertir les arêtes en faces‏‎

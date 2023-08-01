@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch CompPipe
    Name/de:Arch BildeRohr
    MenuLocation:Arch → Rohrwerkzeuge

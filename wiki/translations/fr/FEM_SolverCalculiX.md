@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM SolverCalculiX
    Name/fr:FEM Solveur CalculiX nouveau modèle
    MenuLocation:Résolution → Solveur CalculiX (nouveau modèle)

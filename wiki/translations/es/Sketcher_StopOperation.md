@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher StopOperation
    Name/es:Croquizador DetenerOperación
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)

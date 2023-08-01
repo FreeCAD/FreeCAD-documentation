@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch CompRebarStraight
    Name/fr:Arch Armatures
    MenuLocation:Arch → Rebar tools

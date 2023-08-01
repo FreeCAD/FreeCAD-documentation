@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Spreadsheet AlignTop
    Name/de:Kalkulationstabelle ObenAusrichten
    MenuLocation:Kalkulationstabelle → Ausrichtung → Oben Ausrichten

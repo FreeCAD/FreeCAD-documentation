@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw ComplexSection
    Name/pl:Rysunek Techniczny: Przekrój złożony
    MenuLocation:Rysunek Techniczny → Widoki → Wstaw przekrój złożony

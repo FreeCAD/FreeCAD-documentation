@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Уместить выделенное
    Name:Std_ViewFitSelection
    MenuLocation:Вид → Стандартные виды‏‎ → Уместить выделенное

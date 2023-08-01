@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Mirror
    Name/pl:Część: Odbicie lustrzane
    MenuLocation:Część → Odbicie lustrzane ...

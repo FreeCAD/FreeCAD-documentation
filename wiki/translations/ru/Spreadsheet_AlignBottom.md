@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Выровнять по нижнему краю
    Name:Spreadsheet_AlignBottom
    MenuLocation:Электронная таблица → Alignment → Выровнять по нижнему краю

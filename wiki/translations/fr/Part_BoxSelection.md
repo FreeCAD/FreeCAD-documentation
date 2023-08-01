@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part BoxSelection
    Name/fr:Part Sélection par zone
    MenuLocation:Part → Sélection par boîte

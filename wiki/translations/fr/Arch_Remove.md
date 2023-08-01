@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Remove
    Name/fr:Arch Soustraire
    MenuLocation:Arch → Enlever un composant

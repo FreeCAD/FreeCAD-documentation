@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std Refresh
    Name/de:Std Aktualisieren
    MenuLocation:Bearbeiten → Aktualisieren

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:EM FHPath
    Name/it:EM FHPath
    MenuLocation:EM → FHPath

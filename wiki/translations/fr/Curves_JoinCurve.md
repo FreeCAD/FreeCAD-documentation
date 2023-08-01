@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Curves JoinCurve
    Name/fr:Curves Joindre courbe
    MenuLocation:Curves → Join Curves

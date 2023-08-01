@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ConstraintTemperature
    Name/fr:FEM Contrainte de température
    MenuLocation:Modèle → Contraintes thermiques → Contrainte de température

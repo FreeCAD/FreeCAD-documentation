@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std AddonMgr
    Name/pl:Std: Menadżer dodatków
    MenuLocation:Przybory → Menadżer dodatków

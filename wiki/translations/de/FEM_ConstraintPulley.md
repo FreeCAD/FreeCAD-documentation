@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM ConstraintPulley
    Name/de :FEM RandbedingungRolle
    MenuLocation:Model → Randbedingungen ohne Solver → Randbedingung Riemenscheibe

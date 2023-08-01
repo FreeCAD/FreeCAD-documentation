@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Cylinder
    Name/de:Part Zylinder
    MenuLocation:Formteil → Grundkörper → Zylinder

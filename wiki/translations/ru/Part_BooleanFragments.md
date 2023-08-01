@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part BooleanFragments
    Name/ru:Part BooleanFragments
    MenuLocation:Деталь → Разделить → Boolean Fragments

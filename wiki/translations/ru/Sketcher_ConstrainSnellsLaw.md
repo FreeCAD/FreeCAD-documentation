@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Constraint SnellsLaw
    Name/ru:Constraint SnellsLaw
    MenuLocation:Sketch → Ограничения эскиза → Ограничение преломления (закон Снеллиуса)

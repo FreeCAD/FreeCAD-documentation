@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Path Array
    Name/ru:Path Array
    MenuLocation:Path → Path Modification → Массив

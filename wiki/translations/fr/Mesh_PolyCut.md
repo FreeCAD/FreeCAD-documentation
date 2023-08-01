@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh PolyCut
    Name/fr:Mesh Couper un maillage
    MenuLocation:Maillages → Couper → Couper le maillage

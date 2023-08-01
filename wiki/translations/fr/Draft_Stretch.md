@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Stretch
    Name/fr:Draft Étirer
    MenuLocation:Modification → Étirer

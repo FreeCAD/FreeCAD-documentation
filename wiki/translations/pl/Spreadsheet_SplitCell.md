@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Spreadsheet SplitCell
    Name/pl:Arkusz Kalkulacyjny: Podziel komórkę
    MenuLocation:Arkusz kalkulacyjny → Podziel komórkę

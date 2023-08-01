@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher SelectConflictingConstraints
    Name/pl:Szkicownik: Wybierz wiązania konfliktowe
    MenuLocation:Szkic → Narzędzia szkicownika → Wybierz wiązania konfliktowe

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Spreadsheet StyleItalic
    Name/de:Kalkulationstabelle StilKursiv
    Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)

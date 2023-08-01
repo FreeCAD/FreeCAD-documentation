@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Edit
    Name/tr:Düzenle
    MenuLocation:Taslak → Düzenle

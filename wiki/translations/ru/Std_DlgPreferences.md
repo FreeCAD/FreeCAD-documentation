@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std_DlgPreferences
    Name/ru:Настройки...
    MenuLocation:Правка → Настройки...

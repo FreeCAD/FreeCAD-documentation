@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Rebar Straight
    Name/fr:Arch Rebar Armature droite
    MenuLocation:Arch → Outils pour les armatures → Armature droite<br>3D/BIM → Reinforcement tools → Armature droite

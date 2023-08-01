@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Масштаб
    Name:Draft_Scale
    MenuLocation:Modification → Масштаб

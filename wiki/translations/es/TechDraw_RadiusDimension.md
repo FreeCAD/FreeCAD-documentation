@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:TechDraw Dimension Radius
    Name/es:TechDraw Dimensión Radio
    MenuLocation:TechDraw → Dimensión Radio

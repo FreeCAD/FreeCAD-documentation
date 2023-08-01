@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Drawing Open SVG
    Name/fr:Drawing Ouvrir SVG
    Workbenches:[Drawing](Drawing_Workbench/fr.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:SheetMetal AddWall
    Name/fr:SheetMetal Tôle pliée
    MenuLocation:SheetMetal → Make Wall

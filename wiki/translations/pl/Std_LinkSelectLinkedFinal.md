@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std LinkSelectLinkedFinal
    Name/pl:Std: Przejdź do najgłębiej połączonego obiektu
    MenuLocation:brak

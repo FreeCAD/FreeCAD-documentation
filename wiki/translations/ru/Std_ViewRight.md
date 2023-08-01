@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Справа
    Name:Std_ViewRight
    MenuLocation:Вид → Стандартные виды‏‎ → Справа

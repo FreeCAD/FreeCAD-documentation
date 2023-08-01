@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 ResolveConstraints
    Name/fr:Assembly3 Résoudre les contraintes
    Icon:Assembly3_workbench_icon.svg

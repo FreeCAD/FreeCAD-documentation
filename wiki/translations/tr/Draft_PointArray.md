@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft PointArray
    Name/tr:Nokta dizisi
    Icon:Draft_PointArray.svg

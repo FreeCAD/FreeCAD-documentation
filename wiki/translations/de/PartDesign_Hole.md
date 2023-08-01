@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign Hole
    Name/de:PartDesign Bohrung
    MenuLocation:Part Design → Objekte abziehen → Bohrung

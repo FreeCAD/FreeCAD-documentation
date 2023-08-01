@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign AdditiveCone
    Name/de:PartDesign KegelHinzufügen
    MenuLocation:Part Design → Grundkörper hinzufügen → Kegel

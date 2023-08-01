@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Подчеркивание текста
    Name:Spreadsheet_StyleUnderline
    MenuLocation:Электронная таблица → Styles → Подчеркивание текста

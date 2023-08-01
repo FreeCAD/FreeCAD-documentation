@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name/de:Std Fenster
    MenuLocation:Fenster → Fenster...
    Workbenches:Alle

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Вставить активный вид (3D Вид)
    Name:TechDraw_ActiveView
    MenuLocation:TechDraw → Вставить активный вид (3D Вид)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name/de:Std WahlBegrenzungRahmen
    MenuLocation:Ansicht → Begrenzungsrahmen
    Workbenches:Alle

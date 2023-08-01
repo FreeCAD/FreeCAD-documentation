@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Линейный массив
    Name:PartDesign_LinearPattern
    MenuLocation:Part Design → Apply a pattern → Линейный массив

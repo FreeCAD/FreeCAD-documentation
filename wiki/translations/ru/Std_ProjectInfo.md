@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std ProjectInfo
    Name/ru:Std ProjectInfo
    MenuLocation:Файл → Информация о проекте

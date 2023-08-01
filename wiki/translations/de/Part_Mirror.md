@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Mirror
    Name/de:Part Spiegeln
    MenuLocation:Formteil → Spiegeln

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pt-br
+- GuiCommand:-br
    Name:Sketcher ConstrainDistanceY
    Name/pt-br:Sketcher ConstrainDistanceY
    Workbenches:[Sketcher](Sketcher_Workbench/pt-br.md)

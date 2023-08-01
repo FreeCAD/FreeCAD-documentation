@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Вырез
    Name:PartDesign_Pocket
    MenuLocation:Part Design → Create a substractive feature → Вырез

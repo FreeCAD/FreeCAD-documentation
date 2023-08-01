@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft ToggleContinueMode
    Name/it:Modalità Continua
    MenuLocation:Utilità → Modalità Continua

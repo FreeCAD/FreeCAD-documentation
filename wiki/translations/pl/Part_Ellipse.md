@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Ellipse
    Name/pl:Część Elipsoida
    MenuLocation:Część → Utwórz geometrie pierwotne ... → Elipsa

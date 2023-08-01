@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign SubtractivePipe
    Name/es:PartDesign Barrido sustractivo
    MenuLocation:Part Design → Create a substractive feature → Tubo sustractivo

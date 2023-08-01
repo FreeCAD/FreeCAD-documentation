@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part_MakeFace
    Name/ru:Создать грань из ломанных
    MenuLocation:Деталь → Создать грань из ломанных

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft FlipDimension
    Name/de:Draft MaßKippen
    MenuLocation:Änderung → Bemaßung umkehren

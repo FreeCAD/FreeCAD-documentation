@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Snap WorkingPlane
    Name/it: Limita al piano di lavoro
    MenuLocation:Draft → [Aggancio](Draft_Snap/it.md) →  Piano di lavoro

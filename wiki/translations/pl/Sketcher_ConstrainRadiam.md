@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher ConstrainRadiam
    Name/pl:Szkicownik: Zwiąż automatycznie promień / średnicę
    MenuLocation:Szkic → Wiązania szkicownika → Zwiąż automatycznie promień / średnicę

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh Difference
    Name/pl:Siatka Różnica
    MenuLocation:Siatki → Operacje logiczne → Różnica

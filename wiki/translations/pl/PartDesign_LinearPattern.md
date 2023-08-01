@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign LinearPattern
    Name/pl:Projekt Części: Szyk liniowy
    MenuLocation:Projekt Części → Zastosuj szyk → Szyk liniowy

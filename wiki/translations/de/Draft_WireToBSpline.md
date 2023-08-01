@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft WireToBSpline
    Name/de:Draft DrahtZuBSpline
    MenuLocation:Änderung → Kantenzug zu BSpline

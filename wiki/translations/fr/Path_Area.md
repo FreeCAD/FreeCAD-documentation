@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path-Area
    Name/fr:Path Surface
    MenuLocation:Path → Surface

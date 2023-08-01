@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign AdditiveHelix
    Name/pl:Projekt Części: Addytywna helisa
    MenuLocation:Projekt Części → Utwórz cechę przez dodanie → Addytywna helisa

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Rebar BOM
    Name/de:Arch Bewehrung Stückliste
    MenuLocation:Reinforcement → Stückliste

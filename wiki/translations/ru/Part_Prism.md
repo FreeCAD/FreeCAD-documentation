@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part Prism
    Name/ru:Призма
    MenuLocation:Деталь → [Создать примитивы...](Part_CreatePrimitives/ru.md) → Призма

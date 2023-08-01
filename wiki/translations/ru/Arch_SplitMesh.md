@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Arch SplitMesh
    Name/ru:Arch SplitMesh
    MenuLocation:Архитектура → Утилиты → Разделить сетку

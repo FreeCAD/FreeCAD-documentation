@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Соединить
    Name:Draft_Join
    MenuLocation:Многоугольник, Полигон → Соединить

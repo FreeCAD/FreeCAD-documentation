@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std ShowSelection
    Name/it:Mostra la selezione
    MenuLocation:Visualizza → Visibilità → Mostra la selezione

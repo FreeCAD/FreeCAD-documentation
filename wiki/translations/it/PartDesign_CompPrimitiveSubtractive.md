@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:PartDesign CompPrimitiveSubtractive
    Name/it:Primitive sottrattive
    Workbenches:[PartDesign](PartDesign_Workbench/it.md)

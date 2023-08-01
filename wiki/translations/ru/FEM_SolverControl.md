@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Управление решателем
    Name:FEM_SolverControl
    MenuLocation:Решить → Управление решателем

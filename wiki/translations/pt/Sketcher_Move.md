@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pt
+- GuiCommand:
    Name/pt:Sketcher Move
    Icon:Sketcher_Move.svg
    Workbenches:[Sketcher](Sketcher_Workbench/pt.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Check
    Name/de:Arch Überprüfen
    Workbenches:[Arch](Arch_Workbench/de.md)

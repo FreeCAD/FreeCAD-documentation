@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ViewCreate
    Name/pl:Std: Utwórz widok
    MenuLocation:Widok → Utwórz nowy widok

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:MeshPart_CreateFlatMesh
    Name/it:Sviluppa una mesh
    Empty:1

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher CloseShape
    Name/es:Sketcher CloseShape
    MenuLocation:Sketch → Sketcher tools → Close Shape

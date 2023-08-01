@@ -1,6 +1,6 @@
 # Robot RestoreHomePos/it
 ---
-- GuiCommand:/it   Name:Robot RestoreHomePos   Name/it:Sposta alla posizione di partenza   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot → Sposta alla posizione di partenza---
+- GuiCommand:   Name:Robot RestoreHomePos   Name/it:Sposta alla posizione di partenza   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot → Sposta alla posizione di partenza---
 
 
 </div>

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std CloseAllWindows
    Name/ko:표준 모든 창 닫기
    MenuLocation:파일 → 모두 닫기

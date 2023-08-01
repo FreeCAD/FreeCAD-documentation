@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Plot Save
    Name/fr:Plot Sauvegarde
    MenuLocation:Plot → Save plot

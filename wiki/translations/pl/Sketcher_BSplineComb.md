@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher BSplineComb
    Name:Szkicownik: Pokaż / ukryj grzebień krzywizny krzywej złożonej
    MenuLocation:Szkic → Narzędzia szkicownika krzywej złożonej → Grzebień krzywizny krzywej złożonej

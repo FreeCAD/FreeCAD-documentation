@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Angle
    Name/ru:Draft Angle
    MenuLocation:Черчение → [Привязка](Draft_Snap/ru.md) → Углы

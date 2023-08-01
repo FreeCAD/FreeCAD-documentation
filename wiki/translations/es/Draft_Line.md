@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft Line
    Name/es:Borrador Linea
    MenuLocation:Borrador → Línea

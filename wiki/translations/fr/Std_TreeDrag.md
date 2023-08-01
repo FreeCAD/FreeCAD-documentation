@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std TreeDrag
    Name/fr:Std Arborescence Déplacement
    MenuLocation:Affichage → Vue en arborescence → Commencer un déplacement

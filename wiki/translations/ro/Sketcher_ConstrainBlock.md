@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Sketcher ConstrainBlock
    Name/ro:Constrângere de blocare
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)

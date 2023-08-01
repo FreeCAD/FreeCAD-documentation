@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch Truss
    Name/es:Arquitectura Armadura
    MenuLocation:Arquitectura → Armadura

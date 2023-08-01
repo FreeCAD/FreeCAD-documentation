@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch Wall
    Name/it:Muro
    MenuLocation:Architettura → Muro

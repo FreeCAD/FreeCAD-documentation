@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 ConstraintSameOrientation
    Name/fr:Assembly3 Contrainte orientation identique
    Icon:Assembly_ConstraintSameOrientation.svg

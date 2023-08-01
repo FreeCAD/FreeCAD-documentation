@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path ToolBitLibraryOpen
    Name/fr:Path Gestionnaire des outils coupants
    MenuLocation:Path → Gestionnaire des outils coupants

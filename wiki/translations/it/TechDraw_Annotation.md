@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw Annotation
    Name/it:Annotazione
    MenuLocation:TechDraw → Annotazioni → Annotazione

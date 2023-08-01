@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher SelectRedundantConstraints
    Name/de:Sketcher SelectRedundantConstraints
    MenuLocation:Skizze → Skizzenwerkzeuge → Überflüssige Randbedingungen auswählen

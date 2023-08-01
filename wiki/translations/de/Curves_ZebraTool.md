@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Curves ZebraTool
    Name/de:Curves Zebrawerkzeug
    MenuLocation:Surfaces → Zebra Tool

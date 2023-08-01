@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM PostPipelineFromResult
    Name/de:FEM PostPipelineFromResult
    MenuLocation:Ergebnisse → Nachbearbeitungs-Pipeline aus Ergebnis

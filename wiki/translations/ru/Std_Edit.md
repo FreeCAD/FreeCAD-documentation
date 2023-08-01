@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Редактировать/закончить редактирование
    Name:Std_Edit
    MenuLocation:Редактировать → Редактировать/закончить редактирование

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_PrintPreview
    Name/it:Anteprima di stampa
    MenuLocation:File → Anteprima di stampa...

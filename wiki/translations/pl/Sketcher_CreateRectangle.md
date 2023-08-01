@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher CreateRectangle
    Name/pl:Szkicownik: Utwórz prostokąt
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz prostokąt

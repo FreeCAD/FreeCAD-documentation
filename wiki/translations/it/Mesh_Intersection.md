@@ -1,6 +1,6 @@
 # Mesh Intersection/it
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Mesh_Intersection
    Name/it:Intersezione‏‎‏‎
    MenuLocation:Mesh → Operazione booleana → Intersezione

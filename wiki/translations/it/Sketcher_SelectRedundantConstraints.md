@@ -1,6 +1,6 @@
 # Sketcher SelectRedundantConstraints/it
 ---
-- GuiCommand:/it   Name:Sketcher SelectRedundantConstraints   Name/it:Seleziona i vincoli ridondanti   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch → Strumenti → Seleziona i vincoli ridondanti   Shortcut:Shift+Ctrl+R   Version:0.15---
+- GuiCommand:   Name:Sketcher SelectRedundantConstraints   Name/it:Seleziona i vincoli ridondanti   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch → Strumenti → Seleziona i vincoli ridondanti   Shortcut:Shift+Ctrl+R   Version:0.15---
 
 
 </div>

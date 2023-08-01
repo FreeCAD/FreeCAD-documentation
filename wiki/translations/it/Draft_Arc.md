@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Arc
    Name/it:Arco
    MenuLocation:Drafting → Strumenti Arco → Arco

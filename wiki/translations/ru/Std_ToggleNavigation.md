@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std ToggleNavigation
    Name/ru:Std ToggleNavigation
    MenuLocation:Вид → Навигация/редактирование

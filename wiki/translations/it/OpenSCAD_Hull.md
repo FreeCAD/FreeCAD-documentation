@@ -1,6 +1,6 @@
 # OpenSCAD Hull/it
 ---
-- GuiCommand:/it   Name:OpenSCAD Hull   Name/it:Hull   MenuLocation:OpenSCAD → Hull‏‎   |Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name:OpenSCAD Hull   Name/it:Hull   MenuLocation:OpenSCAD → Hull‏‎   |Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut:   SeeAlso:---
 
 
 </div>

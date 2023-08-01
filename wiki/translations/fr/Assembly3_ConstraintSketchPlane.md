@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 ConstraintSketchPlane
    Name/fr:Assembly3 Plan esquisse
    Icon:Assembly_ConstraintSketchPlane.svg

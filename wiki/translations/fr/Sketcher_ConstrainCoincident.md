@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher ConstrainCoincident
    Name/fr:Sketcher Contrainte de coïncidence
    MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte coïncidente

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft OrthoArray
    Name/it:Serie ortogonale
    MenuLocation:Modifiche → Strumenti serie → Serie ortogonale

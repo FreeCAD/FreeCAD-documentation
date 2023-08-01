@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh RemoveCompByHand
    Name/fr:Mesh Suppression manuelle de composants
    MenuLocation:Maillages → Supprimer manuellement des composants...

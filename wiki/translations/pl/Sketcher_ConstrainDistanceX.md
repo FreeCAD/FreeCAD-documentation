@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher ConstrainDistanceX
    Name/pl:Szkicownik: Zwiąż w poziomie
    MenuLocation:Szkic → Wiązania szkicownika → Zwiąż w poziomie

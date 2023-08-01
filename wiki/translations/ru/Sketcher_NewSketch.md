@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать эскиз
    Name:Sketcher_NewSketch
    MenuLocation:Sketch → Создать эскиз

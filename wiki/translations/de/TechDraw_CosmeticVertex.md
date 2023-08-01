@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw CosmeticVertex
    Name/de:TechDraw Hilfspunkt
    MenuLocation:TechDraw → Knoten hinzufügen → Hilfspunkt hinzufügen

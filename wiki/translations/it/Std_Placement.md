@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_Placement
    Name/it:Posizionamento
    MenuLocation:Modifica → Posizionamento...

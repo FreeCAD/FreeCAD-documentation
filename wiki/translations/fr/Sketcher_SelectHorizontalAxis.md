@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher SelectHorizontalAxis
    Name/fr:Sketcher Axe horizontal
    MenuLocation:Esquisse → Outils d'esquisse → Selectionner l'axe horizontal

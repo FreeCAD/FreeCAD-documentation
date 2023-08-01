@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch Rebar UShape
    Name/es: Arch Barra de Refuerzo en Forma de U
    MenuLocation:Arch → Rebar tools

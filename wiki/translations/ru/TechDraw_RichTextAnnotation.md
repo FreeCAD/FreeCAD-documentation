@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Вставка аннотаций форматированным текстом
    Name:TechDraw_RichTextAnnotation
    MenuLocation:TechDraw → Заметки → Вставка аннотаций форматированным текстомs

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name/de:Part Export
    MenuLocation:Formteil → CAD Export
    Workbenches:[Part](Part_Workbench/de.md)

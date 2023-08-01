@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw_SectionView
    Name/it:Vista di sezione
    MenuLocation:TechDraw → Vista di sezione

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_MacroStopRecord
    Name/it:Interrompi la registrazione
    MenuLocation:Macro → Interrompi la registrazione

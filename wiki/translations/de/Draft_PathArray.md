@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft PathArray
    Name/de:Draft PfadAnordnung
    MenuLocation:Änderung → Array tools → Pfad-Anordnung

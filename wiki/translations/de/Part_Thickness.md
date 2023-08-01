@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Thickness
    Name/de:Part Dicke
    MenuLocation:Formteil → Dicke...

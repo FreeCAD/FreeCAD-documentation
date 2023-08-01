@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:OpenSCAD AddOpenSCADElement
    Name/de:OpenSCAD OpenSCADElementHinzufügen
    Empty:1

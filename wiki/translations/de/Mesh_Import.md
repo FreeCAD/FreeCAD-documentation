@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Mesh ImportMesh‏‎
    Name/de:Polygonnetz Import
    MenuLocation:Polygonnetze → Polygonnetz importieren...

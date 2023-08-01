@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 ConstraintLengthDifference
    Name/fr:Assembly3 Contrainte longueur différence
    Icon:Assembly_ConstraintLengthDifference.svg

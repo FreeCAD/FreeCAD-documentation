@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Schedule
    Name/de:Arch Ablaufplan
    MenuLocation:Arch → Ablaufplan

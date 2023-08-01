@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Part Measure Angular
    Name/it:Misura angolare
    MenuLocation:{{StdMenu|[Misure](Std_Measure_Menu/it.md)}} → Misura angolare‏‎

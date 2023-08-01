@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign ShapeBinder
    Name/de:PartDesign FormBinder
    MenuLocation:Part Design → Formbinder erstellen

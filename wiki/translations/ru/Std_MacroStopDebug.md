@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std_MacroStopDebug
    Name/ru:Остановить отладку
    MenuLocation:Макросы → Остановить отладку

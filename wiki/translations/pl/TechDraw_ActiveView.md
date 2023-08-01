@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw  ActiveView
    Name/pl:Rysunek Techniczny:  Wstaw aktywny widok
    MenuLocation:Rysunek Techniczny → Widoki innych środowisk → Wstaw aktywny widok (widok 3D)

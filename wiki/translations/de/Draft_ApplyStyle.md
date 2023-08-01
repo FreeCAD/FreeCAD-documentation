@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft ApplyStyle
    Name/de:AktuellenStilAnwenden
    MenuLocation:Draft → Utilities → Aktuellen Stil anwenden

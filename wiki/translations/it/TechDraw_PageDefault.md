@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw_PageDefault
    Name/it:Nuovo disegno standard
    MenuLocation:TechDraw → Nuovo disegno standard

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Path_Waterline
    Name/it:Piani orizzontali
    Workbenches:[Path](Path_Workbench/it.md)

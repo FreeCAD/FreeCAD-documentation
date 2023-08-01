@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ViewTop
    Name/fr:Std Vue de dessus
    MenuLocation:Affichage → Vues standards → Dessus

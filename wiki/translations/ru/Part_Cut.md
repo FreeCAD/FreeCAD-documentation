@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part Cut
    Name/ru:Обрезать
    MenuLocation:Деталь → Булевы операции → Обрезать

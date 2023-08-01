@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM PostCreateFunctionPlane
    Name/fr:FEM Filtre fonction plan
    MenuLocation:Résultats → Fonctions de filtrage → Plan

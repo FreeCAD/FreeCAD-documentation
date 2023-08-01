@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FCGear LanternGear
    Name/de: FCGear Triebstockrad
    MenuLocation:Gear → Lantern Gear

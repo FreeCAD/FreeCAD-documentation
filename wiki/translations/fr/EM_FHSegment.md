@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:EM FHSegment
    Name/fr:EM Segment FH
    MenuLocation:EM → FHSegment

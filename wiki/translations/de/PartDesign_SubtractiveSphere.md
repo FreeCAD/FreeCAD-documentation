@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign SubtractiveSphere
    Name/de:PartDesign KugelAbziehen
    MenuLocation:Part Design → Grundkörper abziehen → Kugel

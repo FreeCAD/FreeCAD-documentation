@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std PrintPreview
    Name/de:Std Druckvorschau
    MenuLocation:Datei → Druckvorschau

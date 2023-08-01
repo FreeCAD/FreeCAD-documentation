@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Spreadsheet MergeCells
    Name/es:Hoja de cálculo UnirCeldas
    MenuLocation:Hoja de cálculo → Unir celdas

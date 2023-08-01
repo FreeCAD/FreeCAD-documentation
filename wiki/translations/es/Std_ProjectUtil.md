@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Std ProjectUtil
    Name/es:Std ProjectoUtil
    MenuLocation:Hierramientas → Utilidad del proyecto...

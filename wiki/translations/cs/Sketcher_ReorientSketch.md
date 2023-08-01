@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/cs
+- GuiCommand:
    Name:Sketcher Reorient
    Name/cs:Skicář Změna orientace
    Empty:1

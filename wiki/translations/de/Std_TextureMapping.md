@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std TextureMapping
    Name/de:Std Texturabbildung
    MenuLocation:Ansicht → Texturabbildung...

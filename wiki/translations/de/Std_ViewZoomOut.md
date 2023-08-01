@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Icon:Zoom-out.svg
    Name/de:Std ViewZoomOut
    MenuLocation:Ansicht → Zoom‏‎ → Verkleinern

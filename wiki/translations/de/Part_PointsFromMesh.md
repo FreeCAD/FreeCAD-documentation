@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part PointsFromMesh‎
    Name/de:Part PunkteAusGeometrie
    MenuLocation:Part → Punktobjekt aus Geometrie erstellen

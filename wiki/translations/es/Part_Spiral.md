@@ -1,6 +1,6 @@
 # Part Spiral/es
 ---
-- GuiCommand:/es   Name:Part Spiral   Name/es:Part Spiral   MenuLocation:[Create Primitives](Part_Workbench/es___Part]]_→_[[Part_CreatePrimitives/es.md) → Spiral|Workbenches:[SeeAlso:[[Part_CreatePrimitives/es|Create Primitives](Part_Workbench/es___Part]].md)---
+- GuiCommand:   Name:Part Spiral   Name/es:Part Spiral   MenuLocation:[Create Primitives](Part_Workbench/es___Part]]_→_[[Part_CreatePrimitives/es.md) → Spiral|Workbenches:[SeeAlso:[[Part_CreatePrimitives/es|Create Primitives](Part_Workbench/es___Part]].md)---
 
 
 </div>

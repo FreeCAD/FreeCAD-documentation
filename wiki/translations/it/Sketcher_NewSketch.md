@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher NewSketch
    Name/it:Crea Schizzo
    MenuLocation:Schizzo → Crea uno Schizzo

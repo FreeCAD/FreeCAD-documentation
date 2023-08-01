@@ -1,6 +1,6 @@
 # Drawing Landscape A3/es
 ---
-- GuiCommand:/es   Name:Drawing Landscape A3   Workbenches:[[Drawing Workbench/es   Dibujo]], Complete|MenuLocation:Dibujo → Insertar nuevo dibujo → A3 apaisado   Shortcut:none---
+- GuiCommand:   Name:Drawing Landscape A3   Workbenches:[[Drawing Workbench/es   Dibujo]], Complete|MenuLocation:Dibujo → Insertar nuevo dibujo → A3 apaisado   Shortcut:none---
 
 Esta herramienta crea una nueva hoja de dibujo a partir de una plantilla instalada. Actualmente, aunque la barra de herramientas y los menús permiten formatos apaisados desde A0 hasta A4, sólo está disponible una plantilla para A3 apaisado.
 

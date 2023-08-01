@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign AdditivePrism
    Name/es:DiseñoPiezas PrismaAditivo
    MenuLocation:DiseñoPiezas → Crear una primitiva aditiva → Prisma Aditivo

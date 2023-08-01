@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft ToggleContinueMode
    Name/es:Draft ToggleContinueMode
    MenuLocation:Draft -> Utilities -> Toggle continue mode

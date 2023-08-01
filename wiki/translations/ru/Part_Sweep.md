@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part_Sweep
    Name/ru:Развёртка
    MenuLocation:Деталь → Развёртка

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Surface Sections
    Name/de:Surface Querschnitte
    MenuLocation:Surface → Sections

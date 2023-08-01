@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher SelectRedundantConstraints
    Name/pl:Szkicownik: Wybierz zbędne wiązania
    MenuLocation:Szkic → Narzędzia szkicownika → Wybierz zbędne wiązania

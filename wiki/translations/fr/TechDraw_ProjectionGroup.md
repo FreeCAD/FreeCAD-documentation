@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ProjectionGroup
    Name/fr:TechDraw Groupe de projections
    MenuLocation:TechDraw → Vues de Techdraw → Insérer un groupe de projections

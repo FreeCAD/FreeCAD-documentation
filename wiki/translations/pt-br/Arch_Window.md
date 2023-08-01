@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pt-br
+- GuiCommand:-br
    Name:Arch Window
    Name/pt-br:Arch Window
    MenuLocation:Arch → Window

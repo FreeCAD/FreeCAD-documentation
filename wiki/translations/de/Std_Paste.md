@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std Paste
    Name/de:Std Einfügen
    MenuLocation:Bearbeiten → Einfügen

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher CreateTriangle
    Name/de:Sketcher DreieckErstellen
    MenuLocation:Sketch → Skizzengeometrie → Gleichseitiges Dreieck erstellen

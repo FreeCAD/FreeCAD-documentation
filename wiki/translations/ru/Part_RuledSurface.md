@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part RuledSurface
    Name/ru:Линейчатая поверхность
    MenuLocation:Деталь → Создать линейчатую поверхность

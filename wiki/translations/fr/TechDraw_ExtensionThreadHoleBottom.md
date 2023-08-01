@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExtensionThreadHoleBottom
    Name/fr:TechDraw Taraudage
    MenuLocation:TechDraw → Extensions : taraudages/filetages → Taraudage

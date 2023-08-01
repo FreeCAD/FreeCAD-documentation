@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher ConstrainParallel
    Name/pl:Szkicownik: Wiązanie równoległości
    MenuLocation:Szkic → Wiązania szkicownika → Wiązanie równoległości

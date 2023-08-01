@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name/ro:TechDraw Dimension Link
    MenuLocation:TechDraw → Dimension Link
    Workbenches:[TechDraw](TechDraw_Workbench.md)

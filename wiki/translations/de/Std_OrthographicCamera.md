@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std OrthographicCamera
    Name/de:Std OrthogonaleKamera
    MenuLocation:Ansicht → Orthogonale Ansicht

@@ -1,6 +1,6 @@
 # Drawing Save/sv
 ---
-- GuiCommand:/sv   Name:Drawing Save   Name/sv:Drawing Save   Workbenches:[MenuLocation:Drawing → Export page...   Shortcut:none   SeeAlso:[[Drawing Open SVG/sv|Drawing Open SVG](Drawing_Workbench/sv___Drawing]],_Complete.md)---
+- GuiCommand:   Name:Drawing Save   Name/sv:Drawing Save   Workbenches:[MenuLocation:Drawing → Export page...   Shortcut:none   SeeAlso:[[Drawing Open SVG/sv|Drawing Open SVG](Drawing_Workbench/sv___Drawing]],_Complete.md)---
 
 
 </div>

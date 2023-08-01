@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:OpenSCAD Hull
    Name/ru:OpenSCAD Hull
    MenuLocation:OpenSCAD → Hull‏‎

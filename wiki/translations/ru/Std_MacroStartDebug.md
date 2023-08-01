@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std_MacroStartDebug
    Name/ru:Отладка макросов
    MenuLocation:Макро → Отладка макросов

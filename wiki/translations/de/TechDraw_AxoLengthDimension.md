@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw AxoLengthDimension
    Name/de:TechDraw AxonometrischesLängenmaß
    MenuLocation:TechDraw → Maßeinträge → Axonometrisches Längenmaß

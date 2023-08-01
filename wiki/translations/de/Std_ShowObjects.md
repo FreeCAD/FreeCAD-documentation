@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ShowObjects
    Name/de:Std ShowObjects
    MenuLocation:View → Visibility → Show all objects

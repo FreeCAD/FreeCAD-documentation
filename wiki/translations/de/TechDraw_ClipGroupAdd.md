@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw ClipGroupAdd
    Name/de:TechDraw AusschnittsgruppeHinzufügen
    MenuLocation:TechDraw → Ansicht zu Ausschnittsgruppe hinzufügen

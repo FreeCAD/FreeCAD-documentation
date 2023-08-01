@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part CrossSections
    Name/ru:Поперечные сечения
    MenuLocation:Деталь → Поперечные сечения

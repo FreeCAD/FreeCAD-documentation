@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part_Sphere
    Name/ru:Сфера
    MenuLocation:Деталь → Примитивы → Сфера

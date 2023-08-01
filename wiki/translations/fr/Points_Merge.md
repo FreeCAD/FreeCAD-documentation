@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Points Merge
    Name/fr:Points Fusionner
    MenuLocation:Points → Fusionner des nuages de points

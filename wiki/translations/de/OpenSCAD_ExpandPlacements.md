@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:OpenSCAD ExpandPlacements
    Name/de:OpenSCAD PositionierungenErweitern
    MenuLocation:OpenSCAD → Positionierungen erweitern

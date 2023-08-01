@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Sketcher Symmetry
    Name/ro:Sketcher Simetrie
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM PostCreateDataAlongLineFilter
    Name/ru:FEM PostCreateDataAlongLineFilter
    Icon:Fem-DataAlongLine.svg

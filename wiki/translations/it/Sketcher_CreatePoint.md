@@ -1,6 +1,6 @@
 # Sketcher CreatePoint/it
 ---
-- GuiCommand:/it   Name:Sketcher CreatePoint   Name/it:Punto   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch → Geometrie → Punto---
+- GuiCommand:   Name:Sketcher CreatePoint   Name/it:Punto   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch → Geometrie → Punto---
 
 
 </div>

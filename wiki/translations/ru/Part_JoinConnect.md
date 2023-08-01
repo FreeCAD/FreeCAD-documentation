@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part_JoinConnect
    Name/ru:Part JoinConnect
    MenuLocation:Деталь → Join → Connect objects

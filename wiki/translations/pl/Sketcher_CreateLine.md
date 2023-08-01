@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher CreateLine
    Name/pl:Szkicownik: Utwórz linię
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz linię

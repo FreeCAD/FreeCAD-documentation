@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Fasteners MatchTypeInner
    Name/de:Fasteners AuswahlNachInnenmaß
    MenuLocation:Fasteners → Match for tap hole

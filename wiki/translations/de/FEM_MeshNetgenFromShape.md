@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM MeshNetgenFromShape
    Name/de:FEM NetzNetgenAusForm
    MenuLocation:Netz → FEM mesh from shape by Netgen

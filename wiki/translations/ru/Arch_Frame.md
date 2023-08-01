@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Каркас
    Name:Arch_Frame
    MenuLocation:Arch → Каркас

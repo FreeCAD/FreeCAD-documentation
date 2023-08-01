@@ -1,6 +1,6 @@
 # Part Chamfer/cs
 ---
-- GuiCommand:/cs   Name:Part Chamfer   Name/cs:Díl Zkosení   MenuLocation:Díl → Zkosení   Workbenches:[[Part_Workbench/cs   Díl]], Kompletace|SeeAlso:---
+- GuiCommand:   Name:Part Chamfer   Name/cs:Díl Zkosení   MenuLocation:Díl → Zkosení   Workbenches:[[Part_Workbench/cs   Díl]], Kompletace|SeeAlso:---
 
 
 </div>

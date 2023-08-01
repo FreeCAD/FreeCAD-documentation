@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std WhatsThis
    Name/it:Cos'è questo?
    MenuLocation:Aiuto → Cos'è questo?‏‎

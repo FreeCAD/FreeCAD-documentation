@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch_Stairs
    Name/it:Scala
    Workbenches:[Arch](Arch_Workbench/it.md)

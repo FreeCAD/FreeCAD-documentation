@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Drawing Openbrowser
    Name/de:Zeichen Openbrowser
    Workbenches:[Zeichnung](Drawing_Workbench/de.md), Complete

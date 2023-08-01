@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Raytracing ResetCamera
    Name/fr:Raytracing Réinitialiser la caméra
    MenuLocation:Raytracing → Réinitialiser la caméra

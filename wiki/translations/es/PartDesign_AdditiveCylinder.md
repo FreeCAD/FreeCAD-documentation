@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign AdditiveCylinder
    Name/es:DiseñoPiezas CilindroAditivo
    MenuLocation:DiseñoPiezas → Crear una primitiva aditiva → Cilindro Aditivo

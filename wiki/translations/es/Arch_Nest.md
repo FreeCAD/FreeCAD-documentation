@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch Nest   Name/es:Arch Nest
    MenuLocation:Arch → Panel tools → Nest
    Workbenches:[Arch](Arch_Workbench/es.md)

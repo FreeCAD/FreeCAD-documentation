@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать эллипс от центра
    Name:Sketcher_CreateEllipseByCenter
    MenuLocation:Sketch → Геометрия эскиза → Создать эллипс от центра

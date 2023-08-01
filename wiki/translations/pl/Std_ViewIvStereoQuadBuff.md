@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ViewIvStereoQuadBuff
    Name/pl:Std: Widok poczwórny bufor stereo
    MenuLocation:Widok → Widok trójwymiarowy → Poczwórny bufor stereo

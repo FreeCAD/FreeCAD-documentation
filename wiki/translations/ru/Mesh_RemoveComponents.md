@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Mesh RemoveComponents‏‎
    Name/ru:Mesh RemoveComponents‏‎
    MenuLocation:Сетки→ Удалить компоненты...

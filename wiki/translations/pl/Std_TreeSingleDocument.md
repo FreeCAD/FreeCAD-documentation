@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std TreeSingleDocument
    Name/pl:Std: Jeden dokument w widoku drzewa
    MenuLocation:Widok → Akcje widoku drzewa → Jeden dokument

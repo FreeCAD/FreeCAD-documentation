@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Mesh BoundingBox‏‎
    Name/de:Netz BegrenzungsRahmen
    MenuLocation:Netze → Analyse → Begrenzungsinfo...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part RuledSurface
    Name/de:Part Regelfläche
    MenuLocation:Formteil → Regelfläche erzeugen

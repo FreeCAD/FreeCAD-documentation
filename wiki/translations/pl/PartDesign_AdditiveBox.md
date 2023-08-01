@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign AdditiveBox
    Name/pl:Projekt Części: Addytywny prostopadłościan
    MenuLocation:Projekt Części → Utwórz cechę przez dodanie → Addytywny prostopadłościan

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std ViewScreenShot
    Name/ru:Std ViewScreenShot
    MenuLocation:Инструменты → Сохранить изображение...

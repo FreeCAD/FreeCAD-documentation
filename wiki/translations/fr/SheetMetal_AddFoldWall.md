@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:SheetMetal AddFoldWall
    Name/fr:SheetMetal Pli sur tôle
    MenuLocation:SheetMetal → Fold a Wall

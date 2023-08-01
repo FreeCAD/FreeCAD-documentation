@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher CreateHexagon
    Name/fr:Sketcher Hexagone
    MenuLocation:Esquisse → Géométries d'esquisse → Créer un hexagone

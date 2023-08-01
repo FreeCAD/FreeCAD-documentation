@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Move
    Name/de:Draft Verschieben
    MenuLocation:Änderung → Verschieben

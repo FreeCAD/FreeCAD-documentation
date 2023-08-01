@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Mesh_EvaluateSolid
    Name/it:Controlla se è un solido
    MenuLocation:Mesh → Analizza → Controlla se è un solido

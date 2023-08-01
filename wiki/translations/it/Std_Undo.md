@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_Undo
    Name/it:Annulla
    MenuLocation:Modifica → Annulla

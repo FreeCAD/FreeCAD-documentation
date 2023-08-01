@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Экспорт листа в DXF
    Name:TechDraw_ExportPageDXF
    MenuLocation:TechDraw → Экспорт листа в DXF

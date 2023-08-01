@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Path Comment
    Name/ru:Path Comment
    MenuLocation:Path → Supplemental commands → Закомментировать

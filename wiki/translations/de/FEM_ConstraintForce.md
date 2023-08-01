@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM ConstraintForce
    Name/de:FEM RandbedingungKraft
    MenuLocation:Modell → Mechanische Randbedingungen → Randbedingung Krafteinwirkung

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part JoinCutout
    Name/de:Part Ausschneiden
    MenuLocation:Formteil → Verbinden → Ausschnitt für Objekt

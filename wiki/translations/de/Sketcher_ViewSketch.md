@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher ViewSketch
    Name/de: Sketcher SkizzeAnzeigen
    MenuLocation: Sketch → Skizze anzeigen

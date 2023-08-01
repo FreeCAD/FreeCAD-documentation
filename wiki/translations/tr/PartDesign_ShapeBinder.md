@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:PartDesign ShapeBinder
    Name/tr:Şekil bağlayıcı oluştur
    Workbenches:[Parça tasarım](PartDesign_Workbench/tr.md)

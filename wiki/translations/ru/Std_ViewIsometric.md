@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Изометрическая
    Name:Std_ViewIsometric
    MenuLocation:Вид → Стандартные виды‏‎ → Axonometric → Изометрическая

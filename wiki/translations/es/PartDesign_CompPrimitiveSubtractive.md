@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign CompPrimitiveSubtractive
    Name/es:PartDesign Crear una Primitiva sustractiva
    MenuLocation:Part Design → Crear una primitiva sustractiva

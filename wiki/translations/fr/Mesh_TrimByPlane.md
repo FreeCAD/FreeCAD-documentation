@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh TrimByPlane
    Name/fr:Mesh Ajuster par plan
    MenuLocation:Maillages → Couper → Ajuster le maillage avec un plan

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign InvoluteGear
    Name/de:PartDesign Evolventenrad
    Icon:PartDesign_InternalExternalGear.svg

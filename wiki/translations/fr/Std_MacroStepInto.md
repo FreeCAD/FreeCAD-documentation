@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std DebugInto
    Name/fr:Std Pénétrer dans
    MenuLocation:Macro  → Pénétrer dans

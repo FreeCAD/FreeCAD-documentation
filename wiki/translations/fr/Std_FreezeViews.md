@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std FreezeViews
    Name/fr:Std Figer l'affichage
    MenuLocation:Affichage → Figer l'affichage → ...

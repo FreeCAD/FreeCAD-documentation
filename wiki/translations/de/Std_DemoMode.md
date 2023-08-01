@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std DemoMode
    Name/de:Std Präsentationsmodus
    MenuLocation:Werkzeuge → Drehscheibe...

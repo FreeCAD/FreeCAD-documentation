@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:PartDesign Pad
    Name/ro:PartDesign Pad
    Workbenches:[PartDesign](PartDesign_Workbench/ro.md)

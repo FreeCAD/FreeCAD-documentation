@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_DrawStyle
    Name/it:Stile di disegno
    MenuLocation:Visualizza → Stile di disegno

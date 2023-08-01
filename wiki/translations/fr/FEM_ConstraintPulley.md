@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ConstraintPulley
    Name/fr:FEM Contrainte de poulie
    MenuLocation:Modèle → Contraintes sans solveur → Contrainte de poulie

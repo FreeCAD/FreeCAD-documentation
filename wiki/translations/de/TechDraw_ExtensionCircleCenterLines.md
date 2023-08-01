@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw ExtensionCircleCenterLines
    Name/de:TechDraw ErgänzungKreismittellinien
    MenuLocation:TechDraw → Ergänzungen: Mittellinien/Gewinde → Kreismittellinien hinzufügen

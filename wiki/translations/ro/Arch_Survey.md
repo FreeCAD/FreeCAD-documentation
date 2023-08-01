@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Arch Survey
    Name/ro:Arch Survey
    MenuLocation:Arch → Survey

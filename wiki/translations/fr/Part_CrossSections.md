@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part CrossSections
    Name/fr:Part Coupes
    Icon:Part_CrossSections.svg

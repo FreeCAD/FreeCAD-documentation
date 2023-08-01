@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Rocket Transition
    Name/fr:Rocket Transition
    MenuLocation:Rocket → Transition

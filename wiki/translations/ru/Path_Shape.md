@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Path Shape
    Name/ru:Path Shape
    MenuLocation:Path → Supplemental commands → Из фигуры

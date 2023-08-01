@@ -1,6 +1,6 @@
 # Draft Ellipse/cs
 ---
-- GuiCommand:/cs   Name:Draft_Ellipse   Name/cs:Kreslení Elipsa   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> Elipsa   Shortcut:E L   SeeAlso:[Kreslení Kružnice](Draft_Circle/cs.md)---
+- GuiCommand:   Name:Draft_Ellipse   Name/cs:Kreslení Elipsa   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> Elipsa   Shortcut:E L   SeeAlso:[Kreslení Kružnice](Draft_Circle/cs.md)---
 
 
 </div>

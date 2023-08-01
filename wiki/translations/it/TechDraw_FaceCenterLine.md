@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw FaceCenterLine
    Name/it:Linea a centro faccia
    MenuLocation:TechDraw → Aggiungi linee → Linea a centro faccia

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:PartDesign AdditiveCone
    Name/ro:PartDesign AdditiveCone
    Workbenches:[PartDesign](PartDesign_Workbench/ro.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ShowSelection
    Name/fr:Std Afficher la sélection
    MenuLocation:Affichage → Visibilité → Afficher la sélection

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Rebar LShape   Name/de:Arch Bewehrungsstab L-förmig
    MenuLocation:Arch → Rebar tools → L-Shape Rebar oder 3D/BIM → Reinforcement tools → L-förmige Bewehrung
    Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std Save
    Name/de:Std Speichern
    MenuLocation:Datei → Speichern

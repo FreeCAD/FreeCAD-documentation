@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std Import
    Name/ko:표준 가져오기
    MenuLocation:파일 → 가져오기...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Prism
    Name/de:Part Prisma
    MenuLocation:Formteil → [Grundkörper erzeugen...](Part_Primitives/de.md) → Prisma

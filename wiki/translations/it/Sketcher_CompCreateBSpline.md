@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher B-splines
    Name/it:B-spline
    Icon:Sketcher_CompCreateBSpline.png

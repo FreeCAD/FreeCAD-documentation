@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
 
    Name:Std AuswahlDokumentfenster
    Name/de:Std AuswahlDokumentfenster

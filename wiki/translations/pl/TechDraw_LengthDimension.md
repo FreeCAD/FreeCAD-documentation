@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw LengthDimension
    Name/pl:Rysunek Techniczny: Wstaw wymiar długości
    MenuLocation:Rysunek Techniczny → Wymiary → Wstaw wymiar długości

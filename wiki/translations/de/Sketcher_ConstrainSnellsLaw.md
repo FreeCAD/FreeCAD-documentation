@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher ConstrainSnellsLaw
    Name/de:Sketcher ConstrainSnellsLaw
    MenuLocation:Sketch → Skizzen-Beschränkungen → Lichtbrechung (nach Snellius-Gesetz) festlegen

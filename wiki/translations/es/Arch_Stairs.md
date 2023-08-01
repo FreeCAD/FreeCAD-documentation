@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch Stairs
    Name/es:Arch Stairs
    Workbenches:[Arch](Arch_Workbench/es.md)

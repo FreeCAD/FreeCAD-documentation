@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Вставить Вид
    Name:TechDraw_View
    MenuLocation:TechDraw → Вставить Вид

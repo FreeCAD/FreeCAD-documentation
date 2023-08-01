@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign Mirrored
    Name/es:PartDesign Simetría
    MenuLocation:PartDesign → Apply a pattern → Simetría

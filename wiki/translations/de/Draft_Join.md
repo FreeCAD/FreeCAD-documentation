@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Join
    Name/de:Entwurf Verbinden
    MenuLocation:Änderung → Verbinden

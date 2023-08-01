@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Fillet
    Name/it:Raccordo
    MenuLocation:Drafting → Raccordo

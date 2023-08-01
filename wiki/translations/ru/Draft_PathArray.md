@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft PathArray
    Name/ru:Draft PathArray
    MenuLocation:Черчение → Массив по направляющей

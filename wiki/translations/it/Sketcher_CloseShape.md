@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher_CloseShape
    Name/it:Chiudi la forma
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)

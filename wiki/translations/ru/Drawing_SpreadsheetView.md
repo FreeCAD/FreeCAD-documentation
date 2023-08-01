@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Drawing SpreadsheetView
    Name/ru:Drawing SpreadsheetView
    Workbenches:[Drawing](Drawing_Workbench/ru.md)

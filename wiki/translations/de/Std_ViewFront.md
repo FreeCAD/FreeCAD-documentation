@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ViewFront
    Name/de:Std Vorderansicht
    MenuLocation:Ansicht → Standardansichten → Vorderseite

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw_HorizontalDimension
    Name/it:Dimensione orizzontale
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Повернуть
    Name:Draft_Rotate
    MenuLocation:Модификация → Повернуть

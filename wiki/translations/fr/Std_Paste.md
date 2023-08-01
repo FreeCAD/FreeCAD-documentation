@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std_Paste
    Name/fr:Std Coller
    MenuLocation:Édition → Coller

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Ship Load‏‎
    Name/de:Schiffslast
    MenuLocation:Schiffkonstruktion → Laden einer Beispielschiffsgeometrie

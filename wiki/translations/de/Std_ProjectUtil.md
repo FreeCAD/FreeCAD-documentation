@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ProjectUtil
    Name/de:Std ProjektHilfsprogramm
    MenuLocation:Werkzeuge → Projekt-Hilfsprogramm...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Выбрать вертикальную ось
    Name:Sketcher_SelectVerticalAxis
    MenuLocation:Sketch → Инструменты для эскиза → Выбрать вертикальную ось

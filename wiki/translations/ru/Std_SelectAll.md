@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Выбрать всё
    Name:Std_SelectAll
    MenuLocation:Правка → Выбрать всё

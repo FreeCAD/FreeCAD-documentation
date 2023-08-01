@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std SaveAll
    Name/de:Std AllesSpeichern
    MenuLocation:Datei → Alles speichern

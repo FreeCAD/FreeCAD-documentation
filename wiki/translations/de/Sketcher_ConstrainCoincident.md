@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher ConstrainCoincident
    Name/de:Skizzierer KoinzidentFestlegen
    MenuLocation:Skizze → Skizzen-Beschränkungen → Koinzidenz festlegen

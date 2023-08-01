@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:EM FHNode
    Name/it:EM FHNode
    MenuLocation:EM → FHNode

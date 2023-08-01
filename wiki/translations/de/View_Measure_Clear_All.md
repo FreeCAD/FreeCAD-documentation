@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:View Measure Clear All
    Name/de:Ansicht Messen alle löschen
    MenuLocation:Ansicht → Navigations-/Editier-Modus

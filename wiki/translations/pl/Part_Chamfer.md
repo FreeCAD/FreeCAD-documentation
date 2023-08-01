@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Chamfer
    Name/pl:Część: Sfazowanie
    MenuLocation:Część → Sfazowanie ...

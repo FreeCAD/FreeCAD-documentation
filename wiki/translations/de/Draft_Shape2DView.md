@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Shape2DView
    Name/de:Draft Form2DAnsicht
    MenuLocation:Änderung → Form in 2D Ansicht

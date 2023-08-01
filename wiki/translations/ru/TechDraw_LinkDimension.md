@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Связать размер с 3D геометрией
    Name:TechDraw_LinkDimension
    MenuLocation:TechDraw → Размеры → Связать размер с 3D геометрией

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher Snap
    Name/fr:Sketcher Aimantation
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)

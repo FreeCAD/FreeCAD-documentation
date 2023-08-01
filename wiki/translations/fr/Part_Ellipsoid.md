@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Ellipsoid
    Name/fr:Part Ellipsoide
    MenuLocation:Part → [Créer des primitives...](Part_Primitives/fr.md) → Ellipsoïde

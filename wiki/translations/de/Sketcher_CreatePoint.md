@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher CreatePoint
    Name/de:Sketcher PunktErstellen
    MenuLocation:Sketch → Skizzengeometrien → Punkt erstellen

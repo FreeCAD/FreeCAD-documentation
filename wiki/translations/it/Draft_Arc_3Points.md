@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Arc 3Points
    Name/it:Arco da tre punti
    MenuLocation:Drafting → Strumenti Arco → Arco da tre punti

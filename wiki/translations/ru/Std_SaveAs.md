@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std_SaveAs
    Name/ru:Сохранить как...
    MenuLocation:[Файл](Std_File_Menu/ru.md) → Сохранить как...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Arch Remove
    Name/tr:Mimari Kaldır
    MenuLocation:Arch → Remove

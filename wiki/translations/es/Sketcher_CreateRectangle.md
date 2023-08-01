@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher CreateRectangle
    Name/es:Croquizador CrearRectángulo
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)

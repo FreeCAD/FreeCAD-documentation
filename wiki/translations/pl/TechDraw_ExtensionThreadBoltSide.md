@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw ExtensionThreadBoltSide
    Name/pl:Rysunek Techniczny: Geometria pomocnicza dla gwintu śruby, widok z boku
    MenuLocation:Rysunek Techniczny → Rozszerzenie: Linie środka / gwinty → Geometria pomocnicza dla gwintu śruby, widok z boku

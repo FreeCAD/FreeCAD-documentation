@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher CompCreateRegularPolygon
    Name/fr:Sketcher Polygones réguliers
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)

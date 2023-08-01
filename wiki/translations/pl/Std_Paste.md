@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std Paste
    Name/pl:Std: Wklej
    MenuLocation:Edycja → Wklej

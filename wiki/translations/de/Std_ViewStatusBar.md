@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std ViewStatusBar
    Name/de:Std StatusleisteAnzeigen
    Empty:1

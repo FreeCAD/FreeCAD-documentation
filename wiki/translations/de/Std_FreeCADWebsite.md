@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std FreeCADWebsite
    Name/de:Std FreeCADWebseite
    MenuLocation:Hilfe → FreeCAD Webseite

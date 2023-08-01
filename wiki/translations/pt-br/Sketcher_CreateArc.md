@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pt-br
+- GuiCommand:-br
    Name:Sketcher CreateArc
    Name/pt-br:Sketcher Arc
    Workbenches:[Sketcher](Sketcher_Workbench/pt-br.md)

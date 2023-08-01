@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Spreadsheet_AlignCenter
    Name/it:Centra in orizzontale
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)

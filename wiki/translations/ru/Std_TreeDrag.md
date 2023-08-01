@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std TreeDrag
    Name/ru:Std TreeDrag
    MenuLocation:Вид → Дерево документа → Initiate dragging

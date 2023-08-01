@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Скругление с сохранением точки пересечения
    Name:Sketcher_CreatePointFillet
    MenuLocation:Sketch → Геометрия эскиза → Создать скругление с сохранением точки пересечения

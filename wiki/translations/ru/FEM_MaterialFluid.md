@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM MaterialFluid
    Name/ru:FEM MaterialFluid
    MenuLocation: Model → Material for fluid

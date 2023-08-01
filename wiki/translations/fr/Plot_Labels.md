@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Plot Labels
    Name/fr:Plot Etiquettes
    MenuLocation:Plot → Définir les étiquettes

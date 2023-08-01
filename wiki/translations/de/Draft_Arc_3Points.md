@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Arc 3Points
    Name/de:Draft Bogen 3Punkte
    MenuLocation:Entwurf → Bogenwerkzeuge → Bogen aus 3 Punkten

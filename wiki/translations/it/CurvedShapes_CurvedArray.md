@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:CurvedShapes CurvedArray
    Name/it:CurvedShapes CurvedArray
    MenuLocation:

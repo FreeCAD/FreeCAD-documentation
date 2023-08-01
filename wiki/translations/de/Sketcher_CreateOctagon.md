@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher CreateOctagon
    Name/de:Sketcher AchteckErstellen
    MenuLocation:Sketch → Skizzengeometrien → Achteck erstellen

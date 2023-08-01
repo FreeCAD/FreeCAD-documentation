@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_TreeMultiDocument
    Name/it:Multi documento
    MenuLocation:Visualizza → Azioni della vista ad albero → Multi documento

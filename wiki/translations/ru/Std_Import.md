@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std Import
    Name/ru:Std Import
    MenuLocation:Файл → Импортировать

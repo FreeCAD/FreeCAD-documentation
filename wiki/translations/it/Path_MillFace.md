@@ -1,12 +1,12 @@
 # Path MillFace/it
 ---
-- GuiCommand:/it   Name:Path-Face   Name/it:Path-Face   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Facia   Shortcut|SeeAlso:---
+- GuiCommand:   Name:Path-Face   Name/it:Path-Face   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Facia   Shortcut|SeeAlso:---
 
 
 </div>
 
 ---
-- GuiCommand:/it   Name:Path-Face   Name/it:Path-Face   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Facia   Shortcut|SeeAlso:---
+- GuiCommand:   Name:Path-Face   Name/it:Path-Face   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Facia   Shortcut|SeeAlso:---
 
 ## Description
 

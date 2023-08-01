@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Субтрактивный клин
    Name:PartDesign_SubtractiveWedge
    MenuLocation:Part Design → Создать субтрактивный примитив → Субтрактивный клин

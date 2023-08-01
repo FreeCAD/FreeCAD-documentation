@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
 
    Name:Std ViewDockUndockFullscreen
    Nam/pl:Std: Zadokuj / Oddokuj okno

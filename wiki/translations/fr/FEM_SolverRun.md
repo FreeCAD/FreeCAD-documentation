@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM SolverRun
    Name/fr:FEM Résolution
    MenuLocation:Résolution → Lancer les calculs du solveur

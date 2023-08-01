@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh Import
    Name/pl:Siatka: Import
    MenuLocation:Siatki → Importuj siatkę ...

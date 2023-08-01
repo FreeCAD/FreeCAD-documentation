@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std TreeSelection
    Name/pl:Std: Wybór w widoku drzewa
    MenuLocation:Widok → Akcje widoku drzewa → Przejdź do zaznaczenia

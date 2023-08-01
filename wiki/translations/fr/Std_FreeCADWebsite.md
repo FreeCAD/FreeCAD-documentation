@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std FreeCADWebsite
    Name/fr:Std Site Web de FreeCAD
    MenuLocation:Aide  → Site Web de FreeCAD

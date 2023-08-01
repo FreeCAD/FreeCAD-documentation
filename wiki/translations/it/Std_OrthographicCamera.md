@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_OrthographicCamera
    Name/it:Vista ortografica
    MenuLocation:Visualizza → Vista ortografica

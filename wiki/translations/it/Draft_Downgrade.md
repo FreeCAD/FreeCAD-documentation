@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Downgrade
    Name/it:Declassa
    MenuLocation:Modifiche → Declassa

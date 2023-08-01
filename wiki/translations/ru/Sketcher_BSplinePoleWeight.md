@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Показать/скрыть контрольную точку веса B-сплайна
    Name:Sketcher_BSplinePoleWeight
    MenuLocation:Sketch → B-сплйан инструменты эскиза → Показать/скрыть контрольную точку веса B-сплайна

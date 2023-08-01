@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:FCGear InvoluteGear
    Name/pl:FCGear: Koło zębate ewolwentowe
    MenuLocation:Gear → Koło zębate ewolwentowe

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher RemoveAxesAlignment
    Name/pl:Szkicownik: Usuń wyrównanie osi
    MenuLocation:Szkic → Narzędzia szkicownika → Usuń wyrównanie osi

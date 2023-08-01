@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign Thickness
    Name/de:PartDesign Dicke
    MenuLocation:Part Design → Modifikationen → Dicke

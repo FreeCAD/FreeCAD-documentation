@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Ellipsoid
    Name/de:Part Ellipsoid
    MenuLocation:Formteil → [Grundkörper erstellen...](Part_Primitives/de.md) → Ellipsoid

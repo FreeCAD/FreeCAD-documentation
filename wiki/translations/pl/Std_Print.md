@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std Print
    Name/pl:Std: Drukuj
    MenuLocation:Plik → Drukuj ...

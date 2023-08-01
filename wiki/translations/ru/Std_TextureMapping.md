@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Текстурирование
    Name:Std_TextureMapping
    MenuLocation:Вид → Текстурирование...

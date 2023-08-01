@@ -1,6 +1,6 @@
 # Arch Wall/cs
 ---
-- GuiCommand:/cs   Name:Arch Wall   Name/cs:Zed'   Workbenches:[MenuLocation:Arch → Zed'   Shortcut:W A   SeeAlso:[[Arch Structure/cs|Struktura](Arch_Workbench/cs___Architettura]].md)---
+- GuiCommand:   Name:Arch Wall   Name/cs:Zed'   Workbenches:[MenuLocation:Arch → Zed'   Shortcut:W A   SeeAlso:[[Arch Structure/cs|Struktura](Arch_Workbench/cs___Architettura]].md)---
 
 
 </div>

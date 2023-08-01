@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM EquationElectrostatic
    Name/ru:FEM EquationElectrostatic
    Icon:Fem-equation-electrostatic.svg

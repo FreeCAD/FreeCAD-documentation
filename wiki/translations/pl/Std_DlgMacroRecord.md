@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std DlgMacroRecord
    Name/pl:Std: Rejestrator makrodefinicji 
    MenuLocation:Makrodefinicje → Rejestrator makrodefinicji ...

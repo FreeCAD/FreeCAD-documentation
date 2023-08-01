@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part SliceApart
    Name/ru:Part SliceApart
    MenuLocation:Деталь → Разделить → Slice Apart

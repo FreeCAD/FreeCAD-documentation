@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Переместить
    Name:Sketcher_Move
    MenuLocation:Sketch → Инструменты для эскиза → Переместить

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher LeaveSketch
    Name/de:Sketcher Skizze verlassen
    MenuLocation:Sketch → SkizzeVerlassen

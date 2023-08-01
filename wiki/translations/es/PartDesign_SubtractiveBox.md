@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign SubtractiveBox
    Name/es:PartDesign Caja Sustractiva
    MenuLocation:Part Design → Crear una primitiva sustractiva → Caja sustractiva

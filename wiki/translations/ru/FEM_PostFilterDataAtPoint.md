@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM PostCreateDataAtPointFilter
    Name/ru:FEM PostCreateDataAtPointFilter
    Icon:Fem-post-filter-data-at-point.png

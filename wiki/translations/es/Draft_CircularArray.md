@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft CircularArray
    Name/es:Borrador ArregloCircular
    MenuLocation:Modificación → Herramientas de  Arreglo → Arreglo Circular

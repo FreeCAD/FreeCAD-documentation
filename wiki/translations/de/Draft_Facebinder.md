@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Facebinder
    Name/de:Entwurf Flächenbinder
    MenuLocation:Entwerfen → Flächenbinder

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name/ro:Sketcher Arcs
    Empty:1
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)

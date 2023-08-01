@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw ExtensionInsertDiameter
    Name/pl:Rysunek Techniczny: Rozszerzenie Dodaj przedrostek "⌀"
    MenuLocation:Rysunek Techniczny → Rozszerzenia: Wymiary → Dodaj przedrostek "⌀"

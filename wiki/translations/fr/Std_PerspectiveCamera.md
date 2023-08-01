@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std PerspectiveCamera
    Name/fr:Std Vue en perspective
    MenuLocation:Affichage → Vue en perspective

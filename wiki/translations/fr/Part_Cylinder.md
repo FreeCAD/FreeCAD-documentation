@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Cylinder
    Name/fr:Part Cylindre
    MenuLocation:Part → Primitives → Cylindre

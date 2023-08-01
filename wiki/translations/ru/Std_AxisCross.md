@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std AxisCross
    Name/ru:Std AxisCross
    Empty:1

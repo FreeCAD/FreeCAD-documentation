@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Fillet
    Name/de:Part Verrundung
    MenuLocation:Formteil → Verrundung

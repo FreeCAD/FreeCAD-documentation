@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Points PolyCut
    Name/fr:Points Couper un nuage
    MenuLocation:Points → Couper un nuage de points

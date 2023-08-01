@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:OpenSCAD Edgestofaces
    Name/de:OpenSCAD KantenZuFlächen
    MenuLocation:OpenSCAD → Kanten in Flächen umwandeln

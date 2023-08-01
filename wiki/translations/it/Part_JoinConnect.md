@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Part JoinConnect
    Name/it:Congiunzione
    MenuLocation:Part → Congiungi → Congiungi oggetti

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Усиленный материал (бетон)
    Name:FEM_MaterialReinforced
    MenuLocation: Model → Материалы → Усиленный материал (бетон)

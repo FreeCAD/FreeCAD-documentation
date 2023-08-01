@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std DlgParameter
    Name/pl:Std: Edytor parametrów
    MenuLocation:Przybory → Edytor parametrów ...

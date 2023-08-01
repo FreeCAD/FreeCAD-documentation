@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher ConstrainEqual
    Name/fr:Sketcher Contrainte d'égalité
    MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte d'égalité

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Sketcher ConstrainCoincident
    Icon:Constraint_PointOnPoint.svg
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)

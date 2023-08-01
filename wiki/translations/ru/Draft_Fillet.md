@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Fillet
    Name/ru:Draft Fillet
    MenuLocation:Draft → Fillet

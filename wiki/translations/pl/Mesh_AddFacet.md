@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh AddFacet
    Name/pl:Siatka: Dodaj trójkąt
    MenuLocation:Siatki → Dodaj trójkąt

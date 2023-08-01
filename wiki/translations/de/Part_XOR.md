@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part XOR
    Name/de:Part XOdeR
    MenuLocation:Formteil → Teilen → BooleanXOR

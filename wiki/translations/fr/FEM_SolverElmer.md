@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM SolverElmer
    Name/fr:FEM Solveur Elmer
    MenuLocation:Résolution → Solveur Elmer

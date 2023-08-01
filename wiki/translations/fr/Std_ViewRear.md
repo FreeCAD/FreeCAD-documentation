@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ViewRear
    Name/fr:Std Vue de l'arrière
    MenuLocation:Affichage → Vues standards → Arrière

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std Delete
    Name/pl:Std: Usuń
    MenuLocation:Edycja → Usuń

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign Fillet
    Name/de:PartDesign Verrundung
    MenuLocation:Part Design → Modifikationen → Verrundung

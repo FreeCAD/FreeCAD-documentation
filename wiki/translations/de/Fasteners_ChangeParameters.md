@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Fasteners ChangeParameters
    Name/de:Fasteners ParameterÄndern
    MenuLocation:Fasteners → Change fastener parameters

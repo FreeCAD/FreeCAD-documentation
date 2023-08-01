@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std Revert
    Name/pl:Std: Przywróć
    MenuLocation:Plik → Przywróć

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std Revert
    Name/de:Std Rückgängig
    MenuLocation:Datei → Rückgängig

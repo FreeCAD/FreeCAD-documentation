@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Редактор материалов
    Name:FEM_MaterialEditor
    MenuLocation:Модель → Материалы → Редактор материалов

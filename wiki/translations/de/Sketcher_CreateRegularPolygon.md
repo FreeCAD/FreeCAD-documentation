@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher CreateRegularPolygon
    Name/de:Sketcher RegelmäßigesVieleckErstellen
    MenuLocation:Sketch → Skizzengeometrien → Regelmäßiges Vieleck erstellen

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Sketcher NewSketch
    Name/tr:Eskiz Oluştur
    Workbenches:[Sketcher](Sketcher_Workbench/tr.md)

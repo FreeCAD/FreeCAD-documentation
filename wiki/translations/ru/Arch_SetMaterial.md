@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Arch SetMaterial
    Name/ru:Arch SetMaterial
    MenuLocation:Arch → Инструменты материала → Материал

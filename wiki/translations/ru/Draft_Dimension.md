@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Dimension
    Name/ru:Draft Dimension
    MenuLocation:Черчение → Размер

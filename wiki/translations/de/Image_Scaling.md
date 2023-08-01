@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Image Scaling
    Name/de:Image BildebeneSkalieren
    MenuLocation:

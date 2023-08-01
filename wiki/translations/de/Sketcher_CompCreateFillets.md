@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher CompCreateFillets
    Name/de:Sketcher AuswahlVerrundungErstellen
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)

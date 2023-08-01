@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std LinkMake
    Name/de:Std VerknüpfungErstellen
    MenuLocation:Keine

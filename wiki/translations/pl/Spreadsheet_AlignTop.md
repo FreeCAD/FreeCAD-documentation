@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Spreadsheet AlignTop
    Name/pl:Arkusz Kalkulacyjny: Wyrównaj w górę
    MenuLocation:Arkusz kalkulacyjny → Wyrównanie → Wyrównaj w górę

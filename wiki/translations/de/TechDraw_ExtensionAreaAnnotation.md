@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw ExtensionAreaAnnotation
    Name/de:TechDraw ErgänzungFlächenangabe
    MenuLocation:TechDraw → Ergänzungen: Merkmale/Änderungen → Flächeninhalt der ausgewählten Flächen berechnen

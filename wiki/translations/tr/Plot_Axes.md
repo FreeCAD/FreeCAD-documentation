@@ -1,6 +1,6 @@
 # Plot Axes/tr
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name/tr:Eksen
    MenuLocation:Arsa → Eksen
 ‏‎   |Workbenches:[Arsa](Plot_Workbench/tr.md)

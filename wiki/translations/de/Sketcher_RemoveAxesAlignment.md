@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher RemoveAxesAlignment
    Name/de:Sketcher AchsenausrichtungenEntfernen
    MenuLocation:Sketch → Skizzen-Werkzeuge → Achsenausrichtung entfernen

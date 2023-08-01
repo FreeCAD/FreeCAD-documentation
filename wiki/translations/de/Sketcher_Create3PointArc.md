@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher Create3PointArc
    Name/de:Sketcher BogenDurch3PunkteErstellen
    MenuLocation:Sketch → Skizzengeometrien → Kreisbogen durch drei Punkte erstellen

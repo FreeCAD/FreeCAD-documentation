@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM PostFilterDataAlongLine
    Name/fr:FEM Filtre d'écrêtage selon une ligne
    MenuLocation:Résultats → Filtre d'écrêtage selon une ligne

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw RichTextAnnotation
    Name/de:TechDraw FormatierteTextAnmerkung
    MenuLocation:TechDraw → Anmerkungen → Rich-Text-Anmerkungen einfügen

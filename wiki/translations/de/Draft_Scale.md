@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Scale
    Name/de:Draft Skalieren
    MenuLocation:Änderung → Skalieren

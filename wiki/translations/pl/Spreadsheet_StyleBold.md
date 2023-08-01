@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Spreadsheet StyleBold
    Name/pl:Arkusz Kalkulacyjny: Pogrubienie
    MenuLocation:Arkusz kalkulacyjny → Style → Pogrubienie

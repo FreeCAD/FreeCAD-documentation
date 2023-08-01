@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign SubtractiveWedge
    Name/fr:PartDesign Pyramide tronquée soustractive
    MenuLocation:Part Design → Créer une primitive soustractive → Pyramide tronquée soustractive

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 ImportFromSTEP
    Name/de:Assembly3 STEPDateienImportieren
    Icon:Assembly_Import.svg

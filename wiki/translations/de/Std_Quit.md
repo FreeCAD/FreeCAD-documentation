@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std Quit
    Name/de:Std Beenden
    MenuLocation:Datei → Beenden

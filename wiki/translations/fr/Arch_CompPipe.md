@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch CompPipe
    Name/fr:Arch Outils pour la tuyauterie 
    MenuLocation:Arch → Outils pour la tuyauterie

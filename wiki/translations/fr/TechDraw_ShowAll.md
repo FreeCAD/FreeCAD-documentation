@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ShowAll
    Name/fr:TechDraw Montrer tout
    MenuLocation:TechDraw → Afficher/Masquer les arrêtes cachées

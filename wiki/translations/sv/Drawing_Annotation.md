@@ -1,6 +1,6 @@
 # Drawing Annotation/sv
 ---
-- GuiCommand:/sv   Name:Drawing Annotation   Name/sv:Drawing Annotation   Workbenches:[[Drawing Workbench/sv   Drawing]], Complete|MenuLocation:Drawing → Annotation   Shortcut:none---
+- GuiCommand:   Name:Drawing Annotation   Name/sv:Drawing Annotation   Workbenches:[[Drawing Workbench/sv   Drawing]], Complete|MenuLocation:Drawing → Annotation   Shortcut:none---
 
 
 </div>

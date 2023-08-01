@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Hatch
    Name/fr:Draft Hachure
    MenuLocation:Draft → Hachure

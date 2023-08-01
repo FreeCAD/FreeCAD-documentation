@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
 
    Name:Std ViewDockUndockFullscreen
    Name/it:Finestra del documento

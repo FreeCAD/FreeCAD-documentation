@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Shapebuilder
    Name/pl:Część: Konstruktor
    MenuLocation:Część → Konstruktor kształtu ...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:EM FHEquiv
    Name/fr:EM Equivalence FH
    MenuLocation:EM → FHEquiv

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part Torus
    Name/ru:Тор
    MenuLocation:Деталь → Примитивы → Тор

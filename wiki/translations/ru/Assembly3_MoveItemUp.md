@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Assembly3 MoveItemUp
    Icon:Assembly_TreeItemUp.svg‎‎
    MenuLocation:Assembly3 → Move item up

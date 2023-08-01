@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:PartDesign MoveFeatureInTree
    Name/ro:PartDesign MoveFeatureInTree
    Empty:1

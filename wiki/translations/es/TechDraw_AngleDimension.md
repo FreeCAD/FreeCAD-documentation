@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:TechDraw Dimension Angle
    Name/es:TechDraw Dimensión Ángulo
    MenuLocation:TechDraw → Dimensión Ángulo

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/sk
+- GuiCommand:
    Name:Sketcher ViewSection
    Name/sk:Náčrtník ZobraziťRez
    MenuLocation:Náčrt → Zobraziť rez

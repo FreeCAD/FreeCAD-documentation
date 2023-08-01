@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Spreadsheet AlignBottom
    Name/fr:Spreadsheet Alignement en bas
    MenuLocation:Spreadsheet → Alignement → Alignement en bas

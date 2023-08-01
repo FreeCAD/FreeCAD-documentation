@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Raytracing Lux
    Name/fr:Raytracing Nouveau projet Luxrender
    MenuLocation:Raytracing → Nouveau projet Luxrender

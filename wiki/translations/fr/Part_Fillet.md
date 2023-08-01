@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part_Fillet
    Name/fr:Part Congé
    MenuLocation:Part → Congé...

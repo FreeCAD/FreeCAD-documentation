@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign Line
    Name/es:Línea PartDesign
    Workbenches:[PartDesign](PartDesign_Workbench/es.md)

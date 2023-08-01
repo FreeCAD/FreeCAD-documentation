@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher ViewSection
    Name/de:Sketcher SchnittAnzeigen
    MenuLocation:Sketch → Schnitt anzeigen

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft BSpline
    Name/tr:BSpline
    MenuLocation:Taslak → BSpline

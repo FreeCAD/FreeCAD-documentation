@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 ResolveConstraints
    Name/de:Assembly3 BedingungenAnwenden
    Icon:Assembly3_workbench_icon.svg

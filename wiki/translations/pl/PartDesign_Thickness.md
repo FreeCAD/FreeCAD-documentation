@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign Thickness
    Name/pl:Projekt Części: Grubość
    MenuLocation:Projekt Części → Zastosuj funkcję ulepszenia → Grubość

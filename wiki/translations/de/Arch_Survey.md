@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Survey
    Name/de:Arch Übersicht
    MenuLocation:Arch → Übersicht       

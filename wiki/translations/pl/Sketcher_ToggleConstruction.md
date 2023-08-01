@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher ToggleConstruction
    Name/pl:Szkicownik: Przełącz geometrię konstrukcji
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Przełącz tryb konstrukcji

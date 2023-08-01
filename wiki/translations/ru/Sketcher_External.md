@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Внешняя геометрия
    Name:Sketcher_External
    MenuLocation:Sketch → Геометрия эскиза → Внешняя геометрия

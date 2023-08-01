@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name/de:Std Direkthilfe
    MenuLocation:[Hilfe](Std_Help_Menu/de.md) → Direkthilfe
    Workbenches:Alle

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher SelectRedundantConstraints
    Name/fr:Sketcher Contraintes redondantes
    MenuLocation:Esquisse → Outils d'esquisse → Selectionner les contraintes redondantes

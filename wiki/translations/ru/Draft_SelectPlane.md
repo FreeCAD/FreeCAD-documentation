@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft SelectPlane
    Name/ru:Draft SelectPlane
    MenuLocation:Draft → Utilities → Select Plane

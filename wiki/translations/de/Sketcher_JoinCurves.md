@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher JoinCurves
    Name/de:Sketcher KurvenVerbinden
    MenuLocation:Skizze → B-Spline-Werkzeuge → Kurven verbinden

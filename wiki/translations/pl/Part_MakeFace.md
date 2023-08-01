@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part MakeFace‏‎
    Name/pl:Część: Utwórz ścianę z polilinii
    MenuLocation:Część → Utwórz ścianę z polilinii

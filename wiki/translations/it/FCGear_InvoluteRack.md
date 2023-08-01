@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FCGear InvoluteRack
    Name/it:Cremagliera
    MenuLocation:FCGear → Create an Involute rack

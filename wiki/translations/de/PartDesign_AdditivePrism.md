@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign AdditivePrism
    Name/de:PartDesign PrismaHinzufügen
    MenuLocation:Part Design → Grundkörper Hinzufügen → Prisma

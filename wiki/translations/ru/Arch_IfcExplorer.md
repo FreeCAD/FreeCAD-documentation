@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Arch IfcExplorer
    Name/ru:Arch IfcExplorer
    MenuLocation:Архитектура → Утилиты → Исследователь Ifc

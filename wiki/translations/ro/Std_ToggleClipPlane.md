@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Std ToggleClipPlane
    Name/ro:Std ToggleClipPlane
    MenuLocation:View → Clipping plane‏‎

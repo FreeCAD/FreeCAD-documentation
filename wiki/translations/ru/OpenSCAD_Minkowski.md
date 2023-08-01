@@ -1,6 +1,6 @@
 # OpenSCAD Minkowski/ru
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:OpenSCAD Minkowski
    Name/ru:OpenSCAD Minkowski
    MenuLocation:OpenSCAD → Minkowski‏‎

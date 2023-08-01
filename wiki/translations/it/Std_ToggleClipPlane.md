@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std ToggleClipPlane
    Name/it:Piano di taglio
    MenuLocation:Visualizza → Piano di taglio

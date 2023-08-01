@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std TreeSingleDocument
    Name/fr:Std Arborescence Document unique
    MenuLocation:Affichage → Vue en arborescence → Document unique

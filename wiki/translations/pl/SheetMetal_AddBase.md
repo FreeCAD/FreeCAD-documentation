@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:SheetMetal AddBase
    Name/pl:Arkusz Blachy: Dodaj element bazowy
    MenuLocation:SheetMetal → Dodaj element bazowy

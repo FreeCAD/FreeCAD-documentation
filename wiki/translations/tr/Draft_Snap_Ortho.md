@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Draft Snap Ortho
    Name/tr:Taslak Orto
    MenuLocation:Taslak → [Yakalama](Draft_Snap/tr.md) → Orto

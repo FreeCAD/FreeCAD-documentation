@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std SetAppearance
    Name/ru:Внешний вид
    MenuLocation:Вид → Внешний вид...

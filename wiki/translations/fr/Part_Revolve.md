@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part_Revolve
    Name/fr:Part Révolution
    MenuLocation:Part → Révolution...

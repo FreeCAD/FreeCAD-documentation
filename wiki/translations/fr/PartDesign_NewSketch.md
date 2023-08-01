@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign NewSketch
    Name/fr:PartDesign Esquisse
    MenuLocation:Esquisse → Créer une esquisse

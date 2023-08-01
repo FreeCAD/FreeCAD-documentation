@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FCGear CycloidRack
    Name/fr:FCGear Crémaillère cycloïde
    MenuLocation:Gear → Cycloid Rack

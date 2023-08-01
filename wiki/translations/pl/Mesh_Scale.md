@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh Scale
    Name/pl:Siatka Skaluj
    MenuLocation:Siatki → Skaluj ...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Армировать фундамент
    Name:Arch_Rebar_Footing_Reinforcement
    MenuLocation:Arch → Rebar tools → Footing Reinforcement<br>3D/BIM → Reinforcement tools → Footing Reinforcement

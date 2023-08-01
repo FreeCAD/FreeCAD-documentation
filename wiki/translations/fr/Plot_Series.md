@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Plot Series
    Name/fr:Plot Séries
    MenuLocation:Plot → Configurer les séries‏‎

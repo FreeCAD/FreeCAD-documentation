@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch RemoveShape
    Name/fr:Arch Supprimer la forme
    MenuLocation:Arch → Utilitaires → Supprimer la forme

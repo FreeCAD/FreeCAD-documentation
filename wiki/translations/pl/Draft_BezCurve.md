@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft BezCurve
    Name/pl:Draft: Krzywa Beziera
    MenuLocation:Drafting → Narzędzia Beziera → Krzywa Beziera

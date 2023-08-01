@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/tr
+- GuiCommand:
    Name:Arch Floor
    MenuLocation:Arch → Floor
    Workbenches:[Arch](Arch_Workbench.md)

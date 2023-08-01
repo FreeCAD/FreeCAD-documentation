@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign SubtractiveCone
    Name/fr:PartDesign Cône soustractif
    MenuLocation:Part Design → Créer une primitive soustractive → Cône soustractif

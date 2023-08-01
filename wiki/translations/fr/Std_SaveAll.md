@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std SaveAll
    Name/fr:Std Tout enregistrer
    MenuLocation:Fichier → Enregistrer tout

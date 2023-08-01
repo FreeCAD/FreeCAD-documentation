@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw Hatch
    Name/fr:TechDraw Hachures par motif
    MenuLocation:TechDraw → Hachures → Hachurer une face en utilisant un fichier image

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher_External
    Name/it:Geometria esterna   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
    Shortcut:X

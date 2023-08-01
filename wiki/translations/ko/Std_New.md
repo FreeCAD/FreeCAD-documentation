@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std New
    Name/ko:표준 새 파일
    MenuLocation:파일 → 새 파일

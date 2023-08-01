@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher CreateEllipseBy3Points
    Name/it:Ellisse da tre punti
    Icon:Sketcher_CreateEllipse_3points.png

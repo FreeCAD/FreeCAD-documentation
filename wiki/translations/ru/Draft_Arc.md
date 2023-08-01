@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Arc
    Name/ru:Draft Arc
    MenuLocation:Черчение → Дуга

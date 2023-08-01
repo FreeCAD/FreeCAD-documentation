@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/sv
+- GuiCommand:
    Icon:Constraint Vertical.svg
    Name/sv:Vertical constraint
    Workbenches:[Sketcher](Sketcher_Workbench/sv.md)

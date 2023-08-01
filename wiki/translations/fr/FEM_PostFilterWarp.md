@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM PostFilterWarp
    Name/fr:FEM Filtre des déformations
    MenuLocation:Résultats → Filtre des déformations

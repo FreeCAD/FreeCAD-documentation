@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std PythonHelp
    Name/ru:Std PythonHelp
    MenuLocation:Help → Automatic python modules documentation

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std ViewZoomIn
    Name/ru:Увеличить
    MenuLocation:Вид → Масштаб‏‎ → Увеличить

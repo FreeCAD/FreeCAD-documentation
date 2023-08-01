@@ -1,6 +1,6 @@
 # Sketcher ConstrainSymmetric/it
 ---
-- GuiCommand:/it   Name:Sketcher ConstrainSymmetric   Name/it:Simmetria   Workbenches:[MenuLocation:Schizzo → Vincoli → Simmetria   Shortcut:S   SeeAlso:[[Sketcher ConstrainParallel/it|Parallela](Sketcher_Workbench/it___Schizzo]].md)---
+- GuiCommand:   Name:Sketcher ConstrainSymmetric   Name/it:Simmetria   Workbenches:[MenuLocation:Schizzo → Vincoli → Simmetria   Shortcut:S   SeeAlso:[[Sketcher ConstrainParallel/it|Parallela](Sketcher_Workbench/it___Schizzo]].md)---
 
 
 </div>

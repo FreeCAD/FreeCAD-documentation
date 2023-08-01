@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Curves ToConsole
    Name/fr:Curves Vers la console
    MenuLocation:Misc. → Objects to Console

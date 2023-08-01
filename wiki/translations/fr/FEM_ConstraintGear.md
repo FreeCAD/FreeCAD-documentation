@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ConstraintGear
    Name/fr:FEM Contrainte d'engrenage
    MenuLocation:Modèle → Contraintes sans solveur → Contrainte d'engrenage

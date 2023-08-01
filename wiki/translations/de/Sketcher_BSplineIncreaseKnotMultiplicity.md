@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher BSplineIncreaseKnotMultiplicity
    Name/de:Sketcher BSplineKnotenVielfachheitErhöhen
    MenuLocation:Sketch → B-Spline-Werkzeuge → Vielfachheit eines Spline-Knotens erhöhen

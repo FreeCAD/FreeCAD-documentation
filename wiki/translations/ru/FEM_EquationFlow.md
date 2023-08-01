@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM EquationFlow
    Name/ru:FEM EquationFlow
    Icon:Fem-equation-flow.svg

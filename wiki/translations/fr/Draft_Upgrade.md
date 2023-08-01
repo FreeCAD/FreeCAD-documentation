@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Upgrade
    Name/fr:Draft Agréger
    MenuLocation:Modification → Agréger

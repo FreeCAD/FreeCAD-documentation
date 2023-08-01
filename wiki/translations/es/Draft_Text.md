@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft_Text
    Name/es:Draft_Text
    MenuLocation:Croquis → Texto

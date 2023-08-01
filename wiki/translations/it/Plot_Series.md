@@ -1,6 +1,6 @@
 # Plot Series/it
 ---
-- GuiCommand:/it   Name:Plot Series   Name/it:Serie   MenuLocation:Grafico → Serie‏‎   |Workbenches:[[Plot_Workbench/it   Grafico]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Plot Series   Name/it:Serie   MenuLocation:Grafico → Serie‏‎   |Workbenches:[[Plot_Workbench/it   Grafico]]|Shortcut:   SeeAlso:---
 
 
 </div>

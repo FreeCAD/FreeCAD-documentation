@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_Cut
    Name/it:Taglia
    MenuLocation:Modifica → Taglia

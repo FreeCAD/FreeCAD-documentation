@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch Remove
    Name/it:Rimuovi
    Workbenches:[Architettura](Arch_Workbench/it.md)

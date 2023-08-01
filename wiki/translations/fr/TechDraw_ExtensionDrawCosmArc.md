@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExtensionDrawCosmArc
    Name/fr:TechDraw Arc
    MenuLocation:TechDraw → Extensions : taraudages/filetages → Arc

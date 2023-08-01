@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Spreadsheet MergeCells
    Name/fr:Spreadsheet Fusionner des cellules
    MenuLocation:Spreadsheet → Fusionner des cellules

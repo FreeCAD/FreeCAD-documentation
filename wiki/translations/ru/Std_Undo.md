@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std_Undo
    Name/ru:Отменить
    MenuLocation:Правка → Отменить

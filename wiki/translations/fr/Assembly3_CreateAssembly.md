@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 CreateAssembly
    Name/fr:Assembly3 Créer un assemblage
    Icon:Assembly_New_Assembly.svg

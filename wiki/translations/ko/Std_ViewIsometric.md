@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std ViewIsometric
    Name/ko:표준 등각투영
    MenuLocation:보기 → 표준 보기 → Axonometric → Isometric

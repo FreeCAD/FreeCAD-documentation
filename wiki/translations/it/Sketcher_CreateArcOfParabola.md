@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher Parabolic Arc
    Name/it:Crea un arco di parabola
    Icon:Sketcher Parabolic Arc.png

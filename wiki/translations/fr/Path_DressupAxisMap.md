@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path DressupAxisMap
    Name/fr:Path Assigner un axe
    MenuLocation:Path → Finition du parcours → Assigner un axe

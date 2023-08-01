@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part CompOffsetTools
    Name/fr:Part Outils de décalage
    MenuLocation:Part → Décalage

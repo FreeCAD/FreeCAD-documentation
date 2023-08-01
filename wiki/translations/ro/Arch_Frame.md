@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Arch Frame
    MenuLocation:Arch → Frame
    Workbenches:[Arch](Arch_Workbench.md)

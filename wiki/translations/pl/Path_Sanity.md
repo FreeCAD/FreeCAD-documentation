@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Path Sanity
    Name/pl:Path: Bezpieczeństwo
    MenuLocation:Ścieżka → Sprawdź zadanie ścieżki pod kątem typowych błędów

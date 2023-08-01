@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw_Dimension_Length
    Name/it:Lunghezza
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)

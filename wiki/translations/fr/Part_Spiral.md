@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Spiral
    Name/fr:Part Spirale
    MenuLocation:Part → [Créer des primitives...](Part_Primitives/fr.md) → Spirale

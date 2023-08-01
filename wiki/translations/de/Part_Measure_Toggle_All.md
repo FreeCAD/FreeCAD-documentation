@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Measure Toggle All
    Name/de:Part Messung AlleUmschalten
    MenuLocation:Messen → Alle umschalten

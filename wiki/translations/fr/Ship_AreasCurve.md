@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Ship Area
    Name/fr:Ship Courbe de surface
    MenuLocation:Ship design → Areas curve

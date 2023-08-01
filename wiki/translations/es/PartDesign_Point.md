@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign Point
    Name/es:Punto de referencia PartDesign
    Workbenches:[PartDesign](PartDesign_Workbench/es.md)

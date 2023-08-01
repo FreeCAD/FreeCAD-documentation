@@ -1,6 +1,6 @@
 # Ship LoadCondition/ru
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Ship Loading
    Name/ru:Ship Loading
    MenuLocation:Weights → Create a new loading condition

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Sketcher_CreateArc
    Name/ru:Дуга
    MenuLocation:Эскиз → Геометрия эскиза → Дуга

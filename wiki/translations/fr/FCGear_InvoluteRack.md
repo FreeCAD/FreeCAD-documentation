@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FCGear InvoluteRack
    Name/fr:FCGear Engrenage à crémaillère
    MenuLocation:Gear → Involute Rack

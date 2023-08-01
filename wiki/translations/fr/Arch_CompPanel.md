@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch CompPanel
    Name/fr:Arch Outils pour les panneaux 
    MenuLocation:Arch → Outils pour les panneaux

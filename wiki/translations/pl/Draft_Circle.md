@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft Circle
    Name/pl:Draft: Okrąg
    MenuLocation:Drafting → Okrąg

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std DlgMacroExecuteDirect
    Name/pl:Std: Wykonaj makrodefinicję w trakcie edycji
    MenuLocation:Makrodefinicje → Wykonaj makro

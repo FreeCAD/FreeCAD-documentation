@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign Plane
    Name/de:PartDesign Bezugsebene erstellen
    MenuLocation:Part Design → Bezugselement erstellen → Bezugsebene erstellen

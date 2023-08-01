@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Raytracing ExportProject
    Name/de:Raytracing ProjektExportieren
    MenuLocation:Raytracing → Projekt exportieren...

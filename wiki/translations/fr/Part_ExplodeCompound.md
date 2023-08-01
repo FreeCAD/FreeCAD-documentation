@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part ExplodeCompound
    Name/fr:Part Éclater le composé
    MenuLocation:Part → Composés → Éclater le composé

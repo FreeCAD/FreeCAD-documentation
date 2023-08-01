@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:SheetMetal Forming
    Name/de:SheetMetal Prägen 
    MenuLocation:SheetMetal → Make Forming in Wall

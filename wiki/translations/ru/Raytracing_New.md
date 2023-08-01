@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Raytracing New
    Name/ru:Raytracing New
    MenuLocation:Трассировка лучей → Новый проект POV-Ray

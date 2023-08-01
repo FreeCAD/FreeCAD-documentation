@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Вставить заметку
    Name:TechDraw_Annotation
    MenuLocation:TechDraw → Заметки → Вставить заметку

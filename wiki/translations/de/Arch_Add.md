@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Add
    Name/de:Arch hinzufügen
    MenuLocation:Arch → Komponente hinzufügen

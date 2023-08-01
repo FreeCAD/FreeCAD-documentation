@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Удалить все ограничения
    Name:Sketcher_DeleteAllConstraints
    MenuLocation:Эскиз → Инструменты для эскиза → Удалить все ограничения

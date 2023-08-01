@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher RectangularArray
    Name/de:Sketcher RechteckigeAnordnung
    MenuLocation: Skizze → Skizzen-Werkzeuge → Rechteckige Anordnung

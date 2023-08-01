@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM EquationDeformation
    Name/de:FEM Verformungsgleichung
    MenuLocation:Lösen → Mechanical equations → Deformation equation

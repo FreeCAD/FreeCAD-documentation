@@ -1,6 +1,6 @@
 # Std Copy/de
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std Copy
    Name/de:Std Kopieren
    MenuLocation:Bearbeiten → Kopieren

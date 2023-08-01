@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part ElementCopy
    Name/fr:Part Copie d'un élément
    MenuLocation:Part → Créer une copie → Créer une copie d'élément forme

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw DraftView
    Name/pl:Rysunek Techniczny: Wstaw obiekt środowiska Rysunek Roboczy
    MenuLocation:Rysunek Techniczny → Widoki → Wstaw obiekt środowiska Rysunek Roboczy

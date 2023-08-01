@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Reinforcement Bar Shape Cut List
    Name/pl:Zbrojenie: Zestawienie kształtów i cięć prętów
    MenuLocation:Zbrojenie → Zestawienie kształtów i cięć prętów

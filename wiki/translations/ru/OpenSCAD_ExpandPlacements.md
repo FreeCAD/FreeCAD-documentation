@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:OpenSCAD ExpandPlacements
    Name/ru:OpenSCAD ExpandPlacements
    MenuLocation:OpenSCAD → ExpandPlacements

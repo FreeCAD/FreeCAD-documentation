@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign AdditiveSphere
    Name/fr:PartDesign Sphère additive
    MenuLocation:Part Design → Créer une primitive additive → Sphère additive

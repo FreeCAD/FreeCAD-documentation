@@ -1,6 +1,6 @@
 # Path Array/it
 ---
-- GuiCommand:/it   Name:Path Array   Name/it:Schiera   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Modifica percorso → Schiera   Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Path Array   Name/it:Schiera   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Modifica percorso → Schiera   Shortcut:   SeeAlso:---
 
 
 </div>

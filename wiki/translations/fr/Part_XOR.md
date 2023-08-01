@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part XOR
    Name/fr:Part OU exclusif
    MenuLocation:Part → Scinder → OU exclusif

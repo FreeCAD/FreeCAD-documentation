@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ViewLeft
    Name/pl:Std: Widok od lewej
    MenuLocation:Widok → Widoki standardowe → Od lewej

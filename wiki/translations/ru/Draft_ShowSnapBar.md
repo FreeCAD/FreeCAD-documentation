@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft ShowSnapBar
    Name/ru:Draft ShowSnapBar
    MenuLocation:Черчение → Утилиты → Показывать панель привязок

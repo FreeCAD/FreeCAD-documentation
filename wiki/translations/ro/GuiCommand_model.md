@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Base ExampleCommandModel
    MenuLocation:Sample → Command
    Workbenches:

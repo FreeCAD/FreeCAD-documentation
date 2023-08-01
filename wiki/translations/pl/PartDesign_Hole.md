@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign Hole
    Name/pl:Projekt Części: otwór
    MenuLocation:Projekt części → Utwórz cechę przez odjęcie → Otwór

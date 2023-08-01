@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Path Array
    Name/es:Trayecoria Arreglo
    MenuLocation:Trayecoria → Trayecoria Modificación → Arreglo

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:PartDesign Scaled
    Name/ru:PartDesign Scaled
    Workbenches:[PartDesign](PartDesign_Workbench/ru.md), Complete

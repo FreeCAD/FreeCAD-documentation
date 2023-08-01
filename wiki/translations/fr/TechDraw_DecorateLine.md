@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw DecorateLine
    Name/fr:TechDraw Apparence des lignes
    MenuLocation:TechDraw → Changer l'apparence des lignes

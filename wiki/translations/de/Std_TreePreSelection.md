@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std TreePreSelection
    Name/de:Std BaumVorauswahl
    MenuLocation:Ansicht → Baumansicht-Aktionen → Vorauswahl

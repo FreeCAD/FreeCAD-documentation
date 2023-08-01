@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ConstraintInitialTemperature
    Name/fr:FEM Contrainte de température initiale
    MenuLocation:Modèle → Contraintes thermiques → Contrainte de température initiale

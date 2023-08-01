@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExtensionCreateHorizCoordDimension
    Name/fr:TechDraw Cotes parallèles horizontales
    MenuLocation:TechDraw → Extensions : cotes → Cotes parallèles horizontales

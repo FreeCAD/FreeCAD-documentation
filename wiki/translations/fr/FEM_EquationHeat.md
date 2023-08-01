@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM EquationHeat
    Name/fr:FEM Équation de chaleur
    MenuLocation:Résolution → Équation de chaleur

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher ReorientSketch
    Name/fr:Sketcher Réorienter l'esquisse
    MenuLocation:Esquisse → Réorienter l'esquisse...

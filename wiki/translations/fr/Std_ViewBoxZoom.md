@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ViewBoxZoom
    Name/fr:Std Zoom fenêtre
    MenuLocation:Affichage → Zoom → Zoom fenêtre

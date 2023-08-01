@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Mesh FlipNormals‏‎
    Name/ru:Mesh FlipNormals‏‎
    MenuLocation:Сетки → Согласовать нормали

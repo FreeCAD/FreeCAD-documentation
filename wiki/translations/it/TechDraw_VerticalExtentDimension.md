@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:TechDraw Dimension Vertical Extent
    Name/it:Estensione verticale
    MenuLocation:TechDraw → Estensione verticale

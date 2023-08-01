@@ -1,6 +1,6 @@
 # Robot SetHomePos/ru
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Robot SetHomePos
    Name/ru:Robot SetHomePos
    Workbenches:[Robot](Robot_Workbench/ru.md)

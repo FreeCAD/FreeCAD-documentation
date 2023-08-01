@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Fasteners MatchTypeOuter
    Name/fr:Fasteners MatchTypeOuter
    MenuLocation:Fasteners → Match for pass hole

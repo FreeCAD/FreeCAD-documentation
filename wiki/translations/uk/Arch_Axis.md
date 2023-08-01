@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/uk
+- GuiCommand:
    Name:Arch Axis
    Name/uk:Arch Axis
    Workbenches:[Arch](Arch_Workbench/uk.md)

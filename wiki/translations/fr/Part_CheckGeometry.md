@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part CheckGeometry‏‎
    Name/fr:Part Vérifier la géométrie
    MenuLocation:Part → Vérifier la géométrie...

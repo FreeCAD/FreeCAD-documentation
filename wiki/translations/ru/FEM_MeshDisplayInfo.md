@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM_MeshDisplayInfo
    Name/ru:FEM_MeshDisplayInfo
    MenuLocation: Context menu on mesh object → Display FEM mesh info

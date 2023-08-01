@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Ellipse
    Name/it:Ellisse
    MenuLocation:Drafting → Ellisse

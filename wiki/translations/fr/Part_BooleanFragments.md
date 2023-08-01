@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part BooleanFragments
    Name/fr:Part Fragments booléens
    MenuLocation:Part → Scinder → Fragments booléens

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Curves SketchOnSurface
    Name/fr:Curves Esquisse sur une surface
    MenuLocation:Surfaces → Sketch on Surface

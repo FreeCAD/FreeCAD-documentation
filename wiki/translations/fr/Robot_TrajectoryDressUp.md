@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Robot TrajectoryDressUp
    Name/fr:Robot Habillage de trajectoire
    MenuLocation:Robot → Habillage de trajectoire

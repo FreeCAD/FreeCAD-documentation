@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Ship Area
    Name/it:Area
    Icon:Ship_AreaCurve.svg

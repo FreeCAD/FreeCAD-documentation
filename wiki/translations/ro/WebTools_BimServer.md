@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name/ro:Arch BimServer‏‎‏‎
    Workbenches:[Arch](Arch_Workbench/ro.md)
    MenuLocation:Arch → Utilities → BIM server

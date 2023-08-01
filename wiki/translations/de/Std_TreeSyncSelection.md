@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std TreeSyncSelection
    Name/de:Std BaumSyncAuswahl
    MenuLocation:View → Baumansicht-Aktionen → Sync-Auswahl

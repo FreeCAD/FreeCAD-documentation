@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std MacroStartDebug
    Name/fr:Std Débogage de macro
    MenuLocation:Macro → Déboguer la macro 

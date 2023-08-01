@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM MaterialReinforced
    Name/de:FEM MaterialBewehrt
    MenuLocation: Modell → Materialien → Verstärkter Werkstoff (Beton)

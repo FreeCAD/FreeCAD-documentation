@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FCGear InvoluteGear
    Name/de:FCGear Evolventenzahnrad
    MenuLocation:Gear → Involute Gear

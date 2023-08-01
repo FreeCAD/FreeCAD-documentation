@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/sk
+- GuiCommand:
    Name/sk:Náčrtník: Klon
    MenuLocation:Náčrt → Nástroje náčrtníka → Klon
    Workbenches:[Náčrtník](Sketcher_Workbench/sk.md)

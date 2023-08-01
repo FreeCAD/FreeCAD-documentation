@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std DlgMacroExecute
    Name/pl:Std: Okno dialogowe Makrodefinicje
    MenuLocation:Makrodefinicje → Makrodefinicje ...

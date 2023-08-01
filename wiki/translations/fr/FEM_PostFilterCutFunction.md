@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM PostFilterCutFunction
    Name/fr:FEM Filtre de fonction de découpe
    MenuLocation:Résultats → Filtre de fonction de découpe

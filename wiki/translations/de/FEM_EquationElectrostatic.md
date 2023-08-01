@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM EquationElectrostatic
    Name/de:FEM GleichungElektrostatik
    MenuLocation:Lösen → Electromagnetic Equations → Electrostatic equation

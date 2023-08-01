@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM MaterialFluid
    Name/fr:FEM Matériau pour fluide
    MenuLocation:Modèle → Matériaux → Matériau pour fluide

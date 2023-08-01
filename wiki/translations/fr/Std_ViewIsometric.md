@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ViewIsometric
    Name/fr:Std Vue isométrique
    MenuLocation:Affichage → Vues standards → Axonométrique → Isométrique

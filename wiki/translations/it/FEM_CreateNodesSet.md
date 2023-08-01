@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FEM CreateNodesSet
    Name/it:Definisci i nodi
    MenuLocation:Mesh → Definisci i nodi

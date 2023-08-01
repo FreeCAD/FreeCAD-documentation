@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM ConstantVacuumPermittivity
    Name/de:FEM ElektrischeFeldkonstante
    MenuLocation:Modell → Konstanten überschreiben → Elektrische Feldkonstante

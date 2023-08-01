@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Std DlgMacroRecord
    Name/ro:Std DlgMacroRecord
    MenuLocation:[Macro](Macros/ro.md) → Macro recording ...

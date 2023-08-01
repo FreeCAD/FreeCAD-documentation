@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Image Open
    Name/ru:Image Open
    MenuLocation:None

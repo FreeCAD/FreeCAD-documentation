@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/sv
+- GuiCommand:
    Name/sv:Part Union
    Icon:Part Fuse.png
    MenuLocation:Part → Boolean → Union

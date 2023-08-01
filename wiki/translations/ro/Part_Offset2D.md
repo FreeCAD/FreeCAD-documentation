@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Part Offset2D
    Name/ro:Part:Decalj 2D
    MenuLocation:Componentă → 2D Offset

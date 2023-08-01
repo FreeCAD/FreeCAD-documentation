@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw DetailView
    Name/pl:Rysunek Techniczny: Wstaw widok szczegółu
    MenuLocation:Rysunek Techniczny → Wstaw widok szczegółu

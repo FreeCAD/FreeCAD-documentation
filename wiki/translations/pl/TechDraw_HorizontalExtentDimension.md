@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw HorizontalExtentDimension
    Name/pl:Rysunek Techniczny: Wstaw wymiar rozpiętości poziomej
    MenuLocation:Rysunek Techniczny → Wymiary → Wstaw wymiar rozpiętości poziomej

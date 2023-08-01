@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch MultiMaterial
    Name/es:Arch MultiMaterial
    MenuLocation:Arch → Multi-Material

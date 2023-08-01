@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExtensionLineParallel
    Name/fr:TechDraw Ligne parallèle
    MenuLocation:TechDraw → Extensions : taraudages/filetages → Ligne parallèle

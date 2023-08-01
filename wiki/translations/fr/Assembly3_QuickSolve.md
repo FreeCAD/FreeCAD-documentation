@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 QuickSolve
    Name/fr:Assembly3 Résolution rapide
    Icon:Assembly_QuickSolve.svg

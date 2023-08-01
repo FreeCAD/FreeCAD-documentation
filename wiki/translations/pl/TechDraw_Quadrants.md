@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw Quadrants
    Name/pl:Rysunek Techniczny: Dodaj wierzchołki kwadrantu
    MenuLocation:Rysunek Techniczny → Dodaj wierzchołki → Dodaj wierzchołki kwadrantu

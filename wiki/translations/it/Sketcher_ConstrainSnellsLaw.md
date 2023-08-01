@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Constraint SnellsLaw
    Name/it:Rifrazione
    MenuLocation:Sketch → Sketcher Constraints → Rifrazione (Legge di Snell)

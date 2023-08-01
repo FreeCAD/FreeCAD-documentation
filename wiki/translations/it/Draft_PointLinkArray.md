@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft_PointLinkArray
    Name/it:Serie di link su punti
    MenuLocation:Modifiche → Strumenti serie → Serie di link su punti

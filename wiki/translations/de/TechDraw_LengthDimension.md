@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw Dimension Length
    Name/de:TechDraw Längenmaß
    MenuLocation:TechDraw → Maßeinträge → Längenmaß einfügen

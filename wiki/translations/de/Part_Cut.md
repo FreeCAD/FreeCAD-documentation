@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Cut
    Name/de:Part Differenz
    MenuLocation:Formteil → Boolesche Operationen → Differenz

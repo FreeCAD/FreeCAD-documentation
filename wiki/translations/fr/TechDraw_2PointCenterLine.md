@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw 2LineCenterLine
    Name/fr:TechDraw Ligne centrale entre 2 points
    MenuLocation:TechDraw → Ajouter des lignes → Ajouter une ligne centrale entre 2 points

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Draft PathArray
    Name/pl:Rysunek Roboczy: Szyk po ścieżce
    MenuLocation:Modyfikacja → Narzędzia szyku → Szyk po ścieżce

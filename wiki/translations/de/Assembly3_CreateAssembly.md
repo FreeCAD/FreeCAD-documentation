@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Assembly3 CreateAssembly
    Name/de:Assembly3 BaugruppeAnlegen
    Icon:Assembly_New_Assembly.svg

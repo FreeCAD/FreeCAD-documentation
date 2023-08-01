@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign SubtractivePipe
    Name/fr:PartDesign Balayage soustractif
    MenuLocation:Part Design → Créer une fonction soustractive → Enlèvement de matière par balayage

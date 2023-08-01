@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM PostPipelineFromResult
    Name/fr:FEM Pipeline de résultats
    MenuLocation:Résultats → Afficher le pipeline des résultats

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM SolverElmer
    Name/ru:FEM SolverElmer
    Icon:Fem-elmer.svg

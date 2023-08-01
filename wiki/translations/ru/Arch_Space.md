@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Arch Space
    Name/ru:Arch Space
    MenuLocation:Архитектура → Пространство

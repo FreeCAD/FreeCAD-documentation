@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft Trimex
    Name/fr:Draft Ajuster ou prolonger
    MenuLocation:Modification → Ajuster ou Prolonger

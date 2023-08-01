@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft ToggleConstructionMode
    Name/de:Draft UmschaltenKonstruktionsmodus
    MenuLocation:Draft → Utilities → Konstruktionsmodus umschalten

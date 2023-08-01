@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Line
    Name/ru:Draft Line
    MenuLocation:Черчение → Линия

@@ -1,6 +1,6 @@
 # Std Import/ro
 ---
-- GuiCommand:/ro   Name:Std Import   Name/ro:Importul   Workbenches:All   MenuLocation:File → Importul   Shortcut:CTRL+I   SeeAlso:[Deschidere](Std_Open/ro.md)...---
+- GuiCommand:   Name:Std Import   Name/ro:Importul   Workbenches:All   MenuLocation:File → Importul   Shortcut:CTRL+I   SeeAlso:[Deschidere](Std_Open/ro.md)...---
 
 
 </div>

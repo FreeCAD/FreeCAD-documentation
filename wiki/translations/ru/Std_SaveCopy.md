@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std_SaveCopy
    Name/ru:Сохранить копию...
    MenuLocation:Файл → Сохранить копию...

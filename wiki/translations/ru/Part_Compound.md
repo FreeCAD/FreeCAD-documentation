@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part Compound‏‎
    Name/ru:Part Compound‏‎
    MenuLocation:Деталь → Соединить → Создать соединение

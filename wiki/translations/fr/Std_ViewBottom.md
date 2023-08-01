@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ViewBottom
    Name/fr:Std Vue de dessous
    MenuLocation:Affichage → Vues standards → Dessous

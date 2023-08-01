@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher LeaveSketch
    Name/pl:Szkicownik: Zamknij szkic
    MenuLocation:Szkic / Projekt części → Opuść szkic

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw ProjectShape
    Name/de:TechDraw FormProjizieren
    MenuLocation:TechDraw → TechDraw Ansichten → Form projizieren...

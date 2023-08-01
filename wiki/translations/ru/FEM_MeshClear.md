@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM MeshClear
    Name/ru:FEM MeshClear
    MenuLocation: Context menu on mesh object → Clear FEM mesh

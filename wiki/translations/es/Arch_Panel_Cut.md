@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch Panel Cut
    Name/es:Arch Corte de Panel
    MenuLocation:Arch → Panel Tools → Panel Cut

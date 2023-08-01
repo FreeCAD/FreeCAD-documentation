@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch Panel Sheet
    Name/it:Foglio di pannello
    MenuLocation:Arch → Strumenti pannello → Foglio pannello

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Path ExportTemplate
    Name/de:Pfad ExportVorlage
    MenuLocation:Pfad → Export Vorlage

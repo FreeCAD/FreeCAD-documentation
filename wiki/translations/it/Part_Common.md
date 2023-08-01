@@ -1,6 +1,6 @@
 # Part Common/it
 ---
-- GuiCommand:/it   Name:Part_Common   Name/it:Intersezione   MenuLocation:Part → Intersezione   Workbenches:[SeeAlso:[[Part Union/it|Unione](Part_Workbench/it___Parte]].md), [Sottrazione](Part_Cut/it.md)---
+- GuiCommand:   Name:Part_Common   Name/it:Intersezione   MenuLocation:Part → Intersezione   Workbenches:[SeeAlso:[[Part Union/it|Unione](Part_Workbench/it___Parte]].md), [Sottrazione](Part_Cut/it.md)---
 
 
 </div>

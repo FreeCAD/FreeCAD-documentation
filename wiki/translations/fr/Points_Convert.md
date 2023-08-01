@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Points Convert
    Name/fr:Points Convertir
    MenuLocation:Points → Convertir en points...

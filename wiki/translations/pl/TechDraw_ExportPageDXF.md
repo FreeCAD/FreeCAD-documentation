@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw ExportPageDXF
    Name/pl:Rysunek Techniczny: Wyeksportuj stronę do formatu DXF
    MenuLocation:Rysunek Techniczny → Strona → Wyeksportuj stronę do formatu DXF

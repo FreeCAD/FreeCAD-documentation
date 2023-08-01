@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:View Measure Clear All
    Name/pl:Usuń widoczne wymiary
    MenuLocation:Widok → Widoczność→ Usuń widoczne wymiary

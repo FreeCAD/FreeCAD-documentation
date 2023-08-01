@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Part Thickness
    Name/es:Part Espesor
    MenuLocation:Pieza → Espesor

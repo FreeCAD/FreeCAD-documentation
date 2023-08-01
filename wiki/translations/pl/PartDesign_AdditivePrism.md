@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign AdditivePrism
    Name/pl:Projekt Części: Addytywny graniastosłup
    MenuLocation:Projekt Części → Utwórz cechę przez dodanie → Addytywny graniastosłup

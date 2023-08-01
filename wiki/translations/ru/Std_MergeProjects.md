@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std MergeProjects
    Name/ru:Std MergeProjects
    MenuLocation:Файл → Объединить проект 

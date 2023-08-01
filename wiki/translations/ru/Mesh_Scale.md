@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Mesh Scale
    Name/ru:Mesh Scale
    Workbenches:[Mesh](Mesh_Workbench/ru.md)

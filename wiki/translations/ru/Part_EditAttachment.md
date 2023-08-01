@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part_Attachment
    Name/ru:Прикрепить
    MenuLocation:Деталь → Attachment...

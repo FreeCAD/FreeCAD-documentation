@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Arch Rebar BeamReinforcement
    Name/fr:Arch Rebar Poutre
    MenuLocation:Arch → Rebar tools → Beam Reinforcement<br>3D/BIM → Reinforcement → Beam Reinforcement

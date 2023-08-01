@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign Line
    Name/pl:Projekt Części: Utwórz linię odniesienia
    MenuLocation:Projekt Części → Utwórz układ odniesienia → Utwórz linię odniesienia

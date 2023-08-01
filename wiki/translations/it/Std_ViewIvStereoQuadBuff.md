@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std ViewIvStereoQuadBuff
    Name/it:Stereo quad buffer
    MenuLocation:Visualizza → Stereo → Stereo quad buffer

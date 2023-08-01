@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw ExtensionDecreaseDecimal
    Name/de:TechDraw ErgänzungDezimalstellenzahlVerringern
    MenuLocation:TechDraw → Ergänzungen: Maße → Dezimalstellenanzahl verringern

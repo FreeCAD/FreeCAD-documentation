@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:MeshPart CreateFlatMesh
    Name/fr:Mesh Développer un maillage
    MenuLocation:Maillages → Développer un maillage

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM PostFilterDataAtPoint
    Name/fr:FEM Données du filtre d'écrêtage du point
    MenuLocation:Résultats → Données du filtre d'écrêtage du point

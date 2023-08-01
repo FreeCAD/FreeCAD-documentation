@@ -1,6 +1,6 @@
 # Draft Shape2DView/cs
 ---
-- GuiCommand:/cs   Name:Draft_Shape2DView   Name/cs:Kreslení TělesoDo2DPohledu   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> TělesoDo2D---
+- GuiCommand:   Name:Draft_Shape2DView   Name/cs:Kreslení TělesoDo2DPohledu   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> TělesoDo2D---
 
 
 </div>

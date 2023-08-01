@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Panel Cut
    Name/de:Arch Tafelschnitt
    MenuLocation:Arch → Panel-Werkzeuge → Tafelschnitt

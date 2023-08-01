@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Видимость
    Name:Std_ToggleVisibility
    MenuLocation:Вид → Видимость

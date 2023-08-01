@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std ToggleClipPlane
    Name/fr:Std Basculer le plan de coupe
    MenuLocation:Affichage → Plan de coupe

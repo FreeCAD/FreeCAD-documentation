@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign Groove
    Name/de:PartDesign Nut
    MenuLocation:Part Design → Objekte abziehen → Nut

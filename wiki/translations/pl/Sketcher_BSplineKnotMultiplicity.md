@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher BSplineKnotMultiplicity
    Name/pl:Szkicownik: Pokaż / ukryj wyświetlanie węzłów krzywej złożonej
    MenuLocation:Szkic → Narzędzia szkicownika krzywej złożonej → Pokaż / ukryj wyświetlanie węzłów krzywej złożonej

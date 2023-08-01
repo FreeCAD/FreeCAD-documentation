@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:OpenSCAD ScaleMeshFeature
    Name/fr:OpenSCAD Mise à l'échelle du maillage
    MenuLocation:OpenSCAD → Mettre à l'échelle le maillage

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:L-Образная арматура
    Name:Arch_Rebar_LShape
    MenuLocation:Arch → Rebar tools → L-Shape Rebar<br>3D/BIM → Reinforcement tools → L-Shape Rebar

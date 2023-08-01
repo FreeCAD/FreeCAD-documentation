@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign_LinearPattern
    Name/fr:PartDesign Répétition linéaire
    MenuLocation:Part Design → Appliquer une transformation → Répétition linéaire

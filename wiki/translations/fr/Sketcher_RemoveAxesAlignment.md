@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Sketcher RemoveAxesAlignment
    Name/fr:Sketcher Supprimer l'alignement des axes
    MenuLocation:Esquisse → Outils d'esquisse → Supprimer l'alignement des axes

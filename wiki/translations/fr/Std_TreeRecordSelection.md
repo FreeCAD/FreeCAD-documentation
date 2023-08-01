@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std TreeRecordSelection
    Name/fr:Std Arborescence Enregistrer la sélection
    MenuLocation:Affichage → Vue en arborescence → Enregistrer la sélection

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part Line
    Name/ru:Линия
    MenuLocation:Деталь → [Создать примитивы...](Part_Primitives/ru.md) → Линия

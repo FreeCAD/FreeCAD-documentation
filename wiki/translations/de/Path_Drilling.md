@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Path Drilling
    Name/de:Path Bohrung
    MenuLocation:Path → Drilling

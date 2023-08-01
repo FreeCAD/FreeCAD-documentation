@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Fasteners ScrewCalculator
    Name/de:Fasteners Schraubenrechner
    MenuLocation:Fasteners → Screw calculator

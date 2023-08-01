@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign Hole
    Name/fr:PartDesign Perçage
    MenuLocation:Part Design → Créer une fonction soustractive → Perçage

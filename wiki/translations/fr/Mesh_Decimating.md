@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Mesh Decimating
    Name/fr:Mesh Décimation
    MenuLocation:Maillages → Décimation...

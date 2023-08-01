@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Mesh_Segmentation
    Name/it:Crea segmenti di mesh
    MenuLocation:Mesh → Crea segmenti di mesh...

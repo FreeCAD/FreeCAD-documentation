@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pt
+- GuiCommand:
    Name/pt:Sketcher Arcs
    Empty:1
    Workbenches:[Sketcher](Sketcher_Workbench/pt.md)

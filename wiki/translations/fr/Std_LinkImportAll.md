@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std LinkImportAll
    Name/fr:Std Importer tous les liens
    MenuLocation:Aucun

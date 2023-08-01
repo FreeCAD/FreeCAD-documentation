@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher CreateSquare
    Name/de:Sketcher QuadratErstellen
    MenuLocation:Sketch → Skizzengeometrien → Quadrat erstellen

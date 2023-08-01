@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher CompCreateRegularPolygon
    Name/de:Sketcher AuswahlRegelmäßigesVieleckErstellen
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher Regular Polygons
    Name/es:Croquizador Polígonos regulares
    Icon:Sketcher_CompCreateRegularPolygon.png

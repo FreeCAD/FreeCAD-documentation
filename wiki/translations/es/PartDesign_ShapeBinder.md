@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign ShapeBinder
    Name/es:DiseñoPiezas FormaAglomerante
    MenuLocation:DiseñoPiezas → Crear una forma aglomerante

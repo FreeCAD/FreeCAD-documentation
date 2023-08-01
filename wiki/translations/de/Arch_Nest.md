@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Nest
    Name/de:Arch Verschachteln
    MenuLocation:Arch → Tafelwerkzeuge → Verschachteln

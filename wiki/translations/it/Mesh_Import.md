@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Mesh_Import
    Name/it:Importa mesh
    MenuLocation:Mesh → Importa mesh...

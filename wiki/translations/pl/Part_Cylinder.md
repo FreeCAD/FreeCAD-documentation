@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Cylinder
    Name/pl:Część: Walec
    MenuLocation:Część → Bryła pierwotna → Walec

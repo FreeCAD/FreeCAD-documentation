@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Draft2Sketch
    Name/it:Draft in Sketch
    MenuLocation:Draft → Draft in Sketch

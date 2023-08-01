@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_ViewScreenShot
    Name/it:Cattura Schermata
    MenuLocation:Strumenti → Salva immagine...

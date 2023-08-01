@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part Point
    Name/ru:Точка(Вершина)
    MenuLocation:Деталь → [Создать примитивы...](Part_Primitives/ru.md) → Точка

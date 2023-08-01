@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Габариты
    Name:Std_SelBoundingBox
    MenuLocation:Вид → Габариты

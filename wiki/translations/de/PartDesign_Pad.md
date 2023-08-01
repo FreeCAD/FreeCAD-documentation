@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign Pad
    Name/de:PartDesign Aufpolsterung
    MenuLocation:Part Design → Objekt hinzufügen → Aufpolsterung

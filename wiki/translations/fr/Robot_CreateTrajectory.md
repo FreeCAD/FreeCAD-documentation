@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Robot CreateTrajectory
    Name/fr:Robot Trajectoire
    MenuLocation:Robot → Créer une trajectoire

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Выровнять вертикально по центру
    Name:Spreadsheet_AlignVCenter
    MenuLocation:Электронная таблица → Alignment → Vertically-center align

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ko
+- GuiCommand:
    Name:Std DuplicateSelection
    Name/ko:표준 개체 복제
    MenuLocation:편집 → 개체 복제

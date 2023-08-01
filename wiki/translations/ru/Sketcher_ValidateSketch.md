@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Проверить эскиз
    Name:Sketcher_ValidateSketch
    MenuLocation:Sketch → Проверить эскиз

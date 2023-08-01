@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw DetailView
    Name/de:TechDraw Detailansicht
    MenuLocation:TechDraw → Detailansicht einfügen

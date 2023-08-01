@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Сайт FreeCAD
    Name:Std_FreeCADWebsite
    MenuLocation:Помощь → Сайт FreeCAD

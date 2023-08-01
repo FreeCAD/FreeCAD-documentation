@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 GoToRelation
    Name/fr:Assembly3 GoToRelation
    Icon:Assembly_GotoRelation.svg

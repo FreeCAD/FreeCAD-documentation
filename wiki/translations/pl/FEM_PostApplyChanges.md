@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:FEM PostApplyChanges
    Name/pl:MES Zastosuj zmiany
    MenuLocation:Wyniki → Zastosuj zmiany

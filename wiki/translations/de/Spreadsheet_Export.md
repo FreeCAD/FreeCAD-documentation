@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Spreadsheet Export
    Name/de:Kalkulationstabelle Exportieren
    MenuLocation:Kalkulationstabelle → Exportiere Kalkulationstabelle

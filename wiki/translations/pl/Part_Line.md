@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Line
    Name/pl:Część: Płaszczyzna
    MenuLocation:Część → Utwórz geometrie pierwotne ... → Linia

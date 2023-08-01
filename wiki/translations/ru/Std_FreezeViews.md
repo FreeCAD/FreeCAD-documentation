@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std FreezeViews
    Name/ru:Std FreezeViews
    Empty:1

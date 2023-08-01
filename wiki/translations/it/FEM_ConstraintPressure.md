@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FEM_ConstraintPressure
    Name/it:Vincolo pressione FEM
    MenuLocation:Modello → Vincoli meccanici → Vincolo pressione

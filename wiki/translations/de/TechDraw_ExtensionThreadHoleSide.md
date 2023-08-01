@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw ExtensionThreadHoleSide
    Name/de:TechDraw ErgänzungInnengewindeSeitlich
    MenuLocation:TechDraw → Extensions: Centerlines/Threading → Add Cosmetic Thread Hole Side View

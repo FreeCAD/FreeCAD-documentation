@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std DuplicateSelection
    Name/pl:Std: Powiel zaznaczone
    MenuLocation:Edycja → Powiel zaznaczone

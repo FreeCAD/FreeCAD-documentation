@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:FEM EquationElectricforce
    Name/pl:MES: Równanie siły elektrostatycznej
    MenuLocation:Rozwiąż → Równania elektromagnetyczne → Równanie siły elektrostatycznej

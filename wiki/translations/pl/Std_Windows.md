@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std Windows
    Name/pl:Std: Okna
    MenuLocation:Okna → Okna ...

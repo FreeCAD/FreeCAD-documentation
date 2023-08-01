@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/sv
+- GuiCommand:
    Name:Sketcher CreateArc
    Name/sv:Sketcher Arc
    Workbenches:[Sketcher](Sketcher_Workbench/sv.md)

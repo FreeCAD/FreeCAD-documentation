@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Mesh Union‏‎
    Name/ru:Mesh Union‏‎
    MenuLocation:Сетки → Булевы операции → Объединение

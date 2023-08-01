@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std CloseAllWindows
    Name/pl:Std: Zamknij wszystkie okna
    MenuLocation:Plik → Zamknij wszystkie

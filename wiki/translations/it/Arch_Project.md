@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Arch Project
    Name/it:Progetto
    MenuLocation:Arch → Progetto

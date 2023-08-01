@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM Examples
    Name/ru:FEM Examples
    MenuLocation: Utilities → Open FEM Examples

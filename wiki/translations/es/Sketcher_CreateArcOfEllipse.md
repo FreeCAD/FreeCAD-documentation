@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Sketcher CreateArcOfEllipse
    Name/es:Croquizador CrearArcoDeElipse
    MenuLocation:Croquis → Geometrías de Croquizador → Crear un arco de elipse

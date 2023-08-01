@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher SwitchVirtualSpace
    Name/pl:Szkicownik: Przełącz przestrzeń wirtualną
    MenuLocation:Szkic → Wirtualna przestrzeń szkicownika → Przełącz przestrzeń wirtualną

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Robot SetHomePos
    Name/it:Imposta la posizione iniziale
    MenuLocation:Robot → Imposta la posizione iniziale

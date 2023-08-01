@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Sketcher ConstrainPointOnObject
    Name/pl:Szkicownik: Zwiąż punkt na obiekcie
    MenuLocation:Szkic → Wiązania szkicownika → Zwiąż punkt na obiekcie

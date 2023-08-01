@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Draft Split
    Name/it:Dividi
    MenuLocation:Modifiche → Dividi

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign AdditiveTorus
    Name/es:Part Design Toro aditivo
    Workbenches:[Part Design](PartDesign_Workbench/es.md)

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Assembly3 GroupObjects
    Icon:Assembly_New_Group.svg
    MenuLocation:Assembly3 → Group objects

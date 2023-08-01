@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path Deburr
    Name/fr:Path Ébavurage
    MenuLocation:Path → Ébavurer

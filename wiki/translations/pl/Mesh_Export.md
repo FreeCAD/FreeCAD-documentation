@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Mesh Export
    Name/pl:Siatka: Eksportuj
    MenuLocation:Siatki → Eksportuj siatkę ...

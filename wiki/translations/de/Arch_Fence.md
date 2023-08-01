@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Fence
    Name/de:Arch Zaun
    MenuLocation:Arch → Zaun

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:FEM MeshClear
    Name/pl:MES: Wyczyść dane siatki
    MenuLocation:Menu podręczne na obiekcie siatki → Wyczyść dane siatki MES

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Arch CurtainWall
    Name/es:Arquitectura  Muro Cortina
    MenuLocation:Arquitectura → MuroCortina

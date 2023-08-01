@@ -1,6 +1,6 @@
 # Sketcher CreateRectangle/it
 ---
-- GuiCommand:/it   Name:Sketcher CreateRectangle   Name/it:Rettangolo   Workbenches:[MenuLocation:Sketch → Geometrie → Rettangolo   Shortcut:**R**   SeeAlso:[[Sketcher CreatePolyline/it|Polilinea](Sketcher_Workbench/it___Sketcher]].md)---
+- GuiCommand:   Name:Sketcher CreateRectangle   Name/it:Rettangolo   Workbenches:[MenuLocation:Sketch → Geometrie → Rettangolo   Shortcut:**R**   SeeAlso:[[Sketcher CreatePolyline/it|Polilinea](Sketcher_Workbench/it___Sketcher]].md)---
 
 
 </div>

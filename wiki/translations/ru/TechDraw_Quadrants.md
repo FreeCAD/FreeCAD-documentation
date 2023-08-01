@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Добавить 4-ре вершины по краям окружности
    Name:TechDraw_Quadrants
    MenuLocation:TechDraw → Добавить Вершины → Добавить 4-ре вершины по краям окружности

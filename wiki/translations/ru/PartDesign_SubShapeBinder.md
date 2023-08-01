@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Создать новую под-объектную связующую форму
    Name:PartDesign_SubShapeBinder
    Workbenches:[PartDesign](PartDesign_Workbench/ru.md)

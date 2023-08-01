@@ -1,6 +1,6 @@
 # Draft Edit/sv
 ---
-- GuiCommand:/sv   Name:Draft_Edit   Workbenches:[[Draft_Workbench/sv   Skiss]]|MenuLocation:Draft → Edit---
+- GuiCommand:   Name:Draft_Edit   Workbenches:[[Draft_Workbench/sv   Skiss]]|MenuLocation:Draft → Edit---
 
 
 </div>

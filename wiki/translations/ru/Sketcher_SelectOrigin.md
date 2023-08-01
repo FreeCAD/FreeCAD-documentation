@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Выбрать начало координат
    Name:Sketcher_SelectOrigin
    MenuLocation:Sketch → Инструменты для эскиза → Выбрать начало координат

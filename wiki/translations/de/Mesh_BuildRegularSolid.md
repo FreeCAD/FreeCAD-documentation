@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Mesh BuildRegularSolid
    Name/de:Mesh RegelgeometrieErstellen
    MenuLocation:Netze → Regelgeometrie...

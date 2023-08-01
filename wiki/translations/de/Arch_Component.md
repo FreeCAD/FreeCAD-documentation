@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Component
    Name/de:Arch Komponente
 ‎   MenuLocation:Arch → Dienstprogramme → Komponente

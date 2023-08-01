@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft BSpline
    Name/es:Borrador BSpline
    MenuLocation:Borrador → B-Spline 

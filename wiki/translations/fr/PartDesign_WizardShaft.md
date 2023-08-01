@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:PartDesign_WizardShaft
    Name/fr:PartDesign Conception d'arbre
    MenuLocation:Part Design → Conception d'arbre...

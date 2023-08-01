@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FEM ConstraintPlaneRotation
    Name/fr:FEM Contrainte de rotation du plan
    MenuLocation:Modèle → Contraintes géométriques → Contrainte de rotation plane

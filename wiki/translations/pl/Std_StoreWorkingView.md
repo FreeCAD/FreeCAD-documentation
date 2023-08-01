@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std StoreWorkingView
    Name/pl:Std: Zachowaj widok
    MenuLocation:Widok → Widoki standardowe → Przechowaj widok roboczy

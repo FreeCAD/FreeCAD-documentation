@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:TechDraw SectionView
    Name/pl:Rysunek Techniczny: Wstaw widok przekroju
    MenuLocation:Rysunek Techniczny → Widoki → Wstaw widok przekroju

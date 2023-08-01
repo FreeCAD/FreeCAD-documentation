@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Draft Wire
    Name/ru:Draft Wire
    MenuLocation:Черчение → DWire

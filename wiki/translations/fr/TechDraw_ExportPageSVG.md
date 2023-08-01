@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:TechDraw ExportPageSVG
    Name/fr:TechDraw Exporter au format SVG
    MenuLocation:TechDraw → Page → Exporter une page au format SVG

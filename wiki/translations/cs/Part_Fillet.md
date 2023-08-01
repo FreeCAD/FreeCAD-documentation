@@ -1,6 +1,6 @@
 # Part Fillet/cs
 ---
-- GuiCommand:/cs   Name:Part Fillet   Name/cs:Díl Zaoblení   MenuLocation:Díl → Zaoblení   Workbenches:[SeeAlso:[[Part Chamfer/cs|Díl Zkosení](Part_Workbench/cs___Díl]],_Kompletace.md)---
+- GuiCommand:   Name:Part Fillet   Name/cs:Díl Zaoblení   MenuLocation:Díl → Zaoblení   Workbenches:[SeeAlso:[[Part Chamfer/cs|Díl Zkosení](Part_Workbench/cs___Díl]],_Kompletace.md)---
 
 
 </div>

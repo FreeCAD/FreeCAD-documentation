@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft Split
    Name/de:Entwurf Teilen
    MenuLocation:Änderung → Teilen

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Массив вращения
    Name:Draft_PolarArray
    MenuLocation:Modification → Array tools → Массив вращения

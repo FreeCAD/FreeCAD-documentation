@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Constraint Radius
    Name/pl:Szkicownik: Wiązanie promienia
    MenuLocation:Szkic → Wiązania szkicownika → Wiązanie promienia

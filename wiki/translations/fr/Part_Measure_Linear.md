@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Measure Linear
    Name/fr:Part Mesure linéaire
    MenuLocation:Mesure → Mesure linéaire

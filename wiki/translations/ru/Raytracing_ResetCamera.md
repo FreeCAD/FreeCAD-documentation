@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Raytracing ResetCamera
    Name/ru:Raytracing ResetCamera
    MenuLocation:Трассировка лучей → Со сбросом настроек камеры

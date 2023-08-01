@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part CrossSections
    Name/pl:Część: Przekrój poprzeczny
    MenuLocation:Część → Przekrój poprzeczny ...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM PostCreateFunctionBox
    Name/de:FEM NachbereitungFunktionQuader
    MenuLocation:Ergebnisse → Filterfunktionen → Box

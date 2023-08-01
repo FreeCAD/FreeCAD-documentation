@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Армировать плиту
    Name:Arch_Rebar_Slab_Reinforcement
    MenuLocation:Arch → Rebar tools → Slab Reinforcement<br>3D/BIM → Reinforcement tools → Slab Reinforcement

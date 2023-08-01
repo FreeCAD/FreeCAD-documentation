@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std BoxElementSelection
    Name/de:Std RechteckElementAuswahl
    MenuLocation:Edit → Box element selection

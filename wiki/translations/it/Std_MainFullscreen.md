@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_MainFullscreen
    Name/it:Schermo intero
    MenuLocation:Visualizza → Schermo intero

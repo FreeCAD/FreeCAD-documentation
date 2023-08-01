@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Mesh_RemoveCompByHand
    Name/it:Rimuovi componente a mano‏‎
    MenuLocation:Mesh → Rimuovi componente a mano...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part Measure Refresh
    Name/de:Part Messung Aktualisieren
    MenuLocation:Messen → Aktualisieren

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Part Torus
    Name/fr:Part Tore
    MenuLocation:Part → Primitives → Tore

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Sketcher MirrorSketch
    Name/de:Sketcher SkizzeSpiegeln
    MenuLocation:Sketch → Skizze spiegeln

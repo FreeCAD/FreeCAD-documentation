@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft SelectPlane
    Name/fr:Draft Plan de travail
    MenuLocation:Utilitaires → Sélectionner un plan

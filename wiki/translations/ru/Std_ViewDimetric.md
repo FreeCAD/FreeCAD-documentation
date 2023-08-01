@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Std_ViewDimetric
    Name/ru:Диметрическая
    MenuLocation:Вид → Стандартные виды → Axonometric → Диметрическая

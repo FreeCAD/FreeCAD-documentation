@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Mesh HarmonizeNormals‏‎
    Name/ru:Mesh HarmonizeNormals‏‎
    MenuLocation:Сетки → Согласовать нормали

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Part Measure Angular
    Name/ru:Измерить угол
    MenuLocation:Measure → Измерить угол‏‎

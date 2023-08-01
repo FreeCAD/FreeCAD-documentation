@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Path ToolBitDock
    Name/fr:Path Sélecteur d'outils coupants
    MenuLocation:Path → Sélecteur des outils coupants

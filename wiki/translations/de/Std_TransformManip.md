@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std TransformManip
    Name/de:Std Bewegen
    MenuLocation:Rechtsklick auf ein Objekt in der Baumansicht → Transformieren

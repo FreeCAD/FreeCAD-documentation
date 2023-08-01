@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Draft PolarArray
    Name/de:Draft PolareAnordnung
    MenuLocation:Änderung → Array tools → Polare Anordnung

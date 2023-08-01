@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std SaveCopy
    Name/pl:Std: Zapisz jako kopię
    MenuLocation:Plik → Zapisz jako kopię ...

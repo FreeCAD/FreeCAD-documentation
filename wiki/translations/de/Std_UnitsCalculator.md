@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Std UnitsCalculator
    Name/de:Std Einheitenrechner
    MenuLocation:Werkzeuge → Einheitenrechner...

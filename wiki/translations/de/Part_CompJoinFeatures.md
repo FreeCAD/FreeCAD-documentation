@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Part CompJoinFeatures
    Name/de:Part AuswahlVerbindungsmethoden
    MenuLocation:Formteil → Verbinden

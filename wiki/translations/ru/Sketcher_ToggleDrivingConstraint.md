@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Переключить ограничения в построительные/основные
    Name:Sketcher_ToggleDrivingConstraint
    MenuLocation:Sketch → Ограничения эскиза → Переключить ограничения в построительные/основные

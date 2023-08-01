@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Path SimpleCopy
    Name/ru:Path SimpleCopy
    MenuLocation:Path → Path Modification → Простое копирование

@@ -1,6 +1,6 @@
 # Arch Rebar/uk
 ---
-- GuiCommand:/uk   Name:Arch Rebar   Name/uk:Arch Rebar   Workbenches:[MenuLocation:Arch → Rebar   Shortcut:R B   SeeAlso:[[Arch Structure/uk|Arch Structure](Arch_Workbench/uk___Arch]].md)---
+- GuiCommand:   Name:Arch Rebar   Name/uk:Arch Rebar   Workbenches:[MenuLocation:Arch → Rebar   Shortcut:R B   SeeAlso:[[Arch Structure/uk|Arch Structure](Arch_Workbench/uk___Arch]].md)---
 
 
 </div>
@@ -9,7 +9,7 @@
 <div class="mw-translate-fuzzy">
 
 ---
-- GuiCommand:/uk   Name:Arch Rebar   Name/uk:Arch Rebar   Workbenches:[MenuLocation:Arch → Rebar   Shortcut:R B   SeeAlso:[[Arch Structure/uk|Arch Structure](Arch_Workbench/uk___Arch]].md)---
+- GuiCommand:   Name:Arch Rebar   Name/uk:Arch Rebar   Workbenches:[MenuLocation:Arch → Rebar   Shortcut:R B   SeeAlso:[[Arch Structure/uk|Arch Structure](Arch_Workbench/uk___Arch]].md)---
 
 
 </div>

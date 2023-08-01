@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Std_ViewTrimetric
    Name/it:Vista trimetrica
    MenuLocation:Visualizza → Viste standard → Assonometria → Trimetrica

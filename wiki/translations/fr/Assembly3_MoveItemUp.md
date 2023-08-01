@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Assembly3 MoveItemUp
    Name/fr:Assembly3 Déplacer un objet vers le haut
    Icon:Assembly_TreeItemUp.svg‎‎

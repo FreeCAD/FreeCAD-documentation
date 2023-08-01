@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Arch_CompPanel
    Name:Инструменты панелирования
    MenuLocation:Arch → Инструменты панелирования

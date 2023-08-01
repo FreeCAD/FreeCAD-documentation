@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:OpenSCAD ColorCodeShape
    Name/fr:OpenSCAD ColorCodeShape‏‎
    MenuLocation:OpenSCAD → ColorCodeShape‏‎

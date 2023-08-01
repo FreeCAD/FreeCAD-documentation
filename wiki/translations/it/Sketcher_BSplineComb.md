@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Sketcher BSplineComb
    Name/it:Curvatura della B-spline
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)

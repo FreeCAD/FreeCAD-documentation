@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:Path PostProcess
    Name/ru:Path PostProcess
    MenuLocation:Path → Постобработка

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Draft Polygon
    Name/es:Draft Polygon
    MenuLocation:Croquis → Polígono

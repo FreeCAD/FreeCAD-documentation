@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Установить точку завершения расчёта тела
    Name:PartDesign_MoveTip
    MenuLocation:Контекстное меню → Установить точку завершения расчёта тела

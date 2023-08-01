@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:Std DlgCustomize
    Name/es:Std PersonalizarDiálogo
    MenuLocation:Herramientas → Personalizar...

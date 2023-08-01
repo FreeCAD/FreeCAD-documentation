@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign AdditivePipe
    Name/de:PartDesign RohrHinzufügen
    MenuLocation:Part Design → Objekt hinzufügen → Rohr

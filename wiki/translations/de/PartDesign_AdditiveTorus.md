@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:PartDesign AdditiveTorus
    Name/de:PartDesign TorusHinzufügen
    MenuLocation:Part Design → Grundkörper hizufügen → Torus hinzufügen

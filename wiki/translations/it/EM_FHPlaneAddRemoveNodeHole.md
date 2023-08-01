@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:EM FHPlaneAddRemoveNodeHole
    Name/it:EM FHPlaneAddRemoveNodeHole
    MenuLocation:EM → FHPlaneAddRemoveNodeHole

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw PageTemplate
    Name/de:TechDraw Seitenvorlage
    MenuLocation:TechDraw → Page → Neues Zeichnungsblatt aus einer Vorlage erstellen

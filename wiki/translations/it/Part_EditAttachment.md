@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Part Attachment
    Name/it:Part Allegato
    MenuLocation:Part → Allegato...

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:FCGear InternalInvoluteGear
    Name/fr:FCGear Engrenage à développante interne
    MenuLocation:Gear → Internal Involute Gear

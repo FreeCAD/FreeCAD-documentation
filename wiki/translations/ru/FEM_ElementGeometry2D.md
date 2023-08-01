@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name:FEM ElementGeometry2D
    Name/ru:FEM ElementGeometry2D
    MenuLocation:Model →Shell plate tickness

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:FCGear InvoluteGear
    Name/it:Ingranaggio a spirale
    MenuLocation:FCGear → Create an Involute gear

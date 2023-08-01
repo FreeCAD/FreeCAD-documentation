@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:TechDraw ExtensionDrawCosmCircle
    Name/de:TechDraw ErgänzungHilfskreisZeichnen
    MenuLocation:TechDraw → Ergänzungen: Mittellinien/Gewinde → Hilfskreis hinzufügen

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft PointArray
    Name/fr:Draft Réseau de points
    MenuLocation:Modification → Outils pour les réseaux →  Réseau de points

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Ортогональная проекция
    Name:Std_OrthographicCamera
    MenuLocation:Вид → Ортогональная проекция

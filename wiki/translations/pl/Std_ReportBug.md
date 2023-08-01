@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std ReportBug
    Name/pl:Std: Zgłoś błąd
    MenuLocation:Pomoc → Zgłoś błąd

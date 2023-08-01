@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Path Waterline
    Name/pl:Path: Linia poziomu
    MenuLocation:Ścieżka → Linia poziomu

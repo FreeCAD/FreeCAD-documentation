@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM PostFilterClipScalar
    Name/de:FEM NachbereitungFilterSkalarerBeschnitt
    MenuLocation:Ergebnisse → Skalar Ausschnitt-Filter

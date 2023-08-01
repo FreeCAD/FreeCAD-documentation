@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name/de:Part RechteckAuswahl
    MenuLocation:Part → Rechteckauswahl
    Workbenches:[Part Arbeitsbereich](Part_Workbench/de.md)

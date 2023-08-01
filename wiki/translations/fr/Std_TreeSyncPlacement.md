@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Std TreeSyncPlacement
    Name/fr:Std Arborescence Synchroniser le placement
    MenuLocation:Affichage → Vue en arborescence → Synchroniser le placement

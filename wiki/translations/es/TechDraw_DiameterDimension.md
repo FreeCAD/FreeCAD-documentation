@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:TechDraw  Dimension Diameter
    Name/es:TechDraw  Dimensión Diámetro
    MenuLocation:TechDraw → Dimensión Diámetro

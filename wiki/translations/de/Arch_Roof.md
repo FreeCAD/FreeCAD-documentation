@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:Arch Roof
    Name/de:Arch Dach
    MenuLocation:Arch → Dach

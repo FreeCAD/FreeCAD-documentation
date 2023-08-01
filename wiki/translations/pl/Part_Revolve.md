@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Part Revolve
    Name/pl:Część: Obrót
    MenuLocation:Część → Obrót ...

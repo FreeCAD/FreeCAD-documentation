@@ -1,6 +1,6 @@
 # PartDesign AdditiveWedge/it
 ---
-- GuiCommand:/it   Name:PartDesign AdditiveWedge   Name/it:Cuneo additivo   Workbenches:[MenuLocation:Part Design → Crea una primitiva additiva → Cuneo   Version:0.17   SeeAlso:[[PartDesign CompPrimitiveAdditive/it|Primitive additive](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand:   Name:PartDesign AdditiveWedge   Name/it:Cuneo additivo   Workbenches:[MenuLocation:Part Design → Crea una primitiva additiva → Cuneo   Version:0.17   SeeAlso:[[PartDesign CompPrimitiveAdditive/it|Primitive additive](PartDesign_Workbench/it___PartDesign]].md)---
 
 
 </div>

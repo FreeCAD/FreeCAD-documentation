@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:Std MacroStopRecord
    Name/pl:Std: Zatrzymaj nagrywanie makra
    MenuLocation:Makrodefinicje → Zatrzymaj nagrywanie makra

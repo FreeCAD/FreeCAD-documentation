@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ru
+- GuiCommand:
    Name/ru:Граф зависимостей
    Name:Std DependencyGraph
    MenuLocation:Инструменты → Граф зависимостей...

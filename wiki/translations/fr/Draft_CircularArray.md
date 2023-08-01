@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/fr
+- GuiCommand:
    Name:Draft PolarArray
    Name/fr:Draft Réseau circulaire
    MenuLocation:Modification → Outils pour les réseaux → Réseau circulaire

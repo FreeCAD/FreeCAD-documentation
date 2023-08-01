@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/es
+- GuiCommand:
    Name:PartDesign LinearPattern
    Name/es:DiseñoPieza PatrónLineal
    MenuLocation:DiseñoPieza  →  Aplicar un patrón → PatrónLineal

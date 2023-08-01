@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/ro
+- GuiCommand:
    Name:Arch_MakeIfcSpreadsheet
    Name/ro:Arch_MakeIfcSpreadsheet
    MenuLocation:Arch → Utilities → Create schedule...

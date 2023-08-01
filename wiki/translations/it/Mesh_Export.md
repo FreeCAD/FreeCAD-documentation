@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/it
+- GuiCommand:
    Name:Mesh_Export
    Name/it:Esporta mesh
    MenuLocation:Mesh → Esporta mesh...

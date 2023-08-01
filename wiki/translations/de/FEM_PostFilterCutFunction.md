@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/de
+- GuiCommand:
    Name:FEM PostFilterCutFunction
    Name/de:FEM NachbereitungFilterSchnittebene
    MenuLocation:Ergebnisse → Funktion Schnitt-Filter

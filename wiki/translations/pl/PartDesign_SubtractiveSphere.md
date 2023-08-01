@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/pl
+- GuiCommand:
    Name:PartDesign SubtractiveSphere
    Name/pl:Projekt Części: Subtraktywna sfera
    MenuLocation:Projekt Części → Utwórz cechę przez odjęcie → Subtraktywna sfera
