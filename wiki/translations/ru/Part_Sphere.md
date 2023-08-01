@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part_Sphere
    Name/ru:Сфера
-   MenuLocation:Деталь → Примитивы → Сфера
+   MenuLocation:Деталь - Примитивы - Сфера
    Workbenches:[Part(Деталь)](Part_Workbench/ru.md)
    SeeAlso:[Создать примитивы](Part_Primitives/ru.md)
 ---

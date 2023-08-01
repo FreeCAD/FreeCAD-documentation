@@ -1,6 +1,6 @@
 # Sketcher CreateCircle/it
 ---
-- GuiCommand:   Name:Sketcher CreateCircle   Name/it:Cerchio   Workbenches:[MenuLocation:Sketch → Geometrie → Cerchio   SeeAlso:[[Sketcher CompCreateArc/it|Arco](Sketcher_Workbench/it___Sketcher]].md)---
+- GuiCommand:   Name:Sketcher CreateCircle   Name/it:Cerchio   Workbenches:[MenuLocation:Sketch - Geometrie - Cerchio   SeeAlso:[[Sketcher CompCreateArc/it|Arco](Sketcher_Workbench/it___Sketcher]].md)---
 
 
 </div>

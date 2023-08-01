@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CreateHexagon
    Name/pl:Szkicownik: Utwórz sześciokąt
-   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz sześciokąt
+   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz sześciokąt
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **P** **6**
    Version:0.15

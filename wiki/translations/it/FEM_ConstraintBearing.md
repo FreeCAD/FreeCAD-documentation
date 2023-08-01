@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM ConstraintBearing
    Name/it:Vincolo cuscinetto
-   MenuLocation:Modello → Vincoli meccanici → Vincolo cuscinetto
+   MenuLocation:Modello - Vincoli meccanici - Vincolo cuscinetto
    Workbenches:[FEM](FEM_Workbench/it.md)
    Shortcut:
    SeeAlso:[Tutorial di FEM](FEM_tutorial/it.md)

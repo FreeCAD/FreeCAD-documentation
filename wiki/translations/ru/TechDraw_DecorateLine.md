@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Изменить внешний вид линий
    Name:TechDraw_DecorateLine
-   MenuLocation:TechDraw → Change Appearance of Line(s)
+   MenuLocation:TechDraw - Change Appearance of Line(s)
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    Version:0.19
    SeeAlso:[Добавить осевую линию к граням](TechDraw_FaceCenterLine/ru.md), [Удалить вспомогательный объект](TechDraw_CosmeticEraser/ru.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionThreadHoleBottom
    Name/de:TechDraw ErgänzungInnengewindeAxial
-   MenuLocation:TechDraw → Extensions: Centerlines/Threading → Add Cosmetic Thread Hole Bottom View
+   MenuLocation:TechDraw - Extensions: Centerlines/Threading - Add Cosmetic Thread Hole Bottom View
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20

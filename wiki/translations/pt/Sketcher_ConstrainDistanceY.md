@@ -3,7 +3,7 @@
    Name:Sketcher ConstrainDistanceY
    Name/pt:Sketcher ConstrainDistanceY
    Workbenches:[Sketcher](Sketcher_Workbench/pt.md)
-   MenuLocation:Sketch → Sketcher geometries → Constrain vertical distance
+   MenuLocation:Sketch - Sketcher geometries - Constrain vertical distance
    SeeAlso:[Constraint HorizontalDistance](Sketcher_ConstrainDistanceX/pt.md), [Constraint Length](Sketcher_ConstrainDistance/pt.md)
 ---
 

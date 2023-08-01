@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM ConstraintSpring
    Name/fr:FEM Contrainte de ressort
-   MenuLocation:Modèle → Contraintes mécaniques→ Contrainte de ressort
+   MenuLocation:Modèle - Contraintes mécaniques- Contrainte de ressort
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Version:0.20
 ---

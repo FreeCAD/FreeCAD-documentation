@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Arc
    Name/ru:Draft Arc
-   MenuLocation:Черчение → Дуга
+   MenuLocation:Черчение - Дуга
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:A R
    SeeAlso:[Draft Circle](Draft_Circle/ru.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Перспективная проекция
    Name:Std_PerspectiveCamera
-   MenuLocation:Вид → Перспективная проекция
+   MenuLocation:Вид - Перспективная проекция
    Workbenches:Все
    Shortcut:**V** **P**
    SeeAlso:[Ортогональная проекция](Std_OrthographicCamera/ru.md)

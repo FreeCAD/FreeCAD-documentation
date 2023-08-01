@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Schedule
    Name/ro:Arch Schedule
-   MenuLocation:Arch → Schedule
+   MenuLocation:Arch - Schedule
    Workbenches:[Arch](Arch_Workbench/ro.md)
    SeeAlso:[[Arch Equipment]]
 ---

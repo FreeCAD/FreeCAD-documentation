@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/es:Sketcher Copia de Carbón
    Icon:Sketcher CarbonCopy.svg
-   MenuLocation:Sketch → Geometrías de croquis → Copia de Carbón
+   MenuLocation:Sketch - Geometrías de croquis - Copia de Carbón
    Workbenches:[Sketcher](Sketcher_Workbench/es.md)
    Version:0.17
 ---

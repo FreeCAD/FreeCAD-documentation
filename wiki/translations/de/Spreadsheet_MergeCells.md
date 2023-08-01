@@ -3,7 +3,7 @@
    Name:Spreadsheet MergeCells
    Name/de:Kalkulationstabelle ZellenZusammenführen
    Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)
-   MenuLocation:Kalkulationstabelle → Zellen Zusammenführen
+   MenuLocation:Kalkulationstabelle - Zellen Zusammenführen
    Version:0.17
 ---
 

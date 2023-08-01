@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Arc
    Name/it:Arco
-   MenuLocation:Drafting → Strumenti Arco → Arco
+   MenuLocation:Drafting - Strumenti Arco - Arco
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**A** **R**
    Version:0.7

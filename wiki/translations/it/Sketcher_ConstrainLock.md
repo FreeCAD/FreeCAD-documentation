@@ -1,6 +1,6 @@
 # Sketcher ConstrainLock/it
 ---
-- GuiCommand:   Name:Sketcher ConstrainLock   Name/it:Blocca   Workbenches:[MenuLocation:PartDesign → Schizzo → Blocca   SeeAlso:[[Sketcher ConstrainBlock/it|Fissa](Sketcher_Workbench/it___Schizzo]].md)---
+- GuiCommand:   Name:Sketcher ConstrainLock   Name/it:Blocca   Workbenches:[MenuLocation:PartDesign - Schizzo - Blocca   SeeAlso:[[Sketcher ConstrainBlock/it|Fissa](Sketcher_Workbench/it___Schizzo]].md)---
 
 
 </div>

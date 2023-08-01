@@ -3,7 +3,7 @@
    Name:Sketcher Symmetry
    Name/es:Croquizador Simetria
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation:Sketch → Herriamentas Croquizador → Simetria
+   MenuLocation:Sketch - Herriamentas Croquizador - Simetria
    Version:0.16
 ---
 

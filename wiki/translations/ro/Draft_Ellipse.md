@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Ellipse
    Name/ro:Elipsă 2D
-   MenuLocation:Draft → Ellipse
+   MenuLocation:Draft - Ellipse
    Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
    Shortcut:**E** **L**
    SeeAlso:[Draft Circle](Draft_Circle/ro.md)

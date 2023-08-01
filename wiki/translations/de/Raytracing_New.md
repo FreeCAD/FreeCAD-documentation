@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Raytracing New
    Name/de:Raytracing Neu
-   MenuLocation:Raytracing → Neues Pov-Ray Projekt‏‎|
+   MenuLocation:Raytracing - Neues Pov-Ray Projekt‏‎|
    Workbenches:[Raytracing](Raytracing_Workbench/de.md)
    Shortcut:
    SeeAlso:

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw LeaderLine
-   MenuLocation:TechDraw → Add Lines → Add Leaderline to View
+   MenuLocation:TechDraw - Add Lines - Add Leaderline to View
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Version:0.19
    SeeAlso:[TechDraw RichTextAnnotation](TechDraw_RichTextAnnotation.md), [TechDraw WeldSymbol](TechDraw_WeldSymbol.md)

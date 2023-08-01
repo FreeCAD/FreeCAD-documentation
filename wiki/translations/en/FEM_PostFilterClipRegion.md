@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:FEM PostFilterClipRegion
-   MenuLocation:Results → Region clip filter
+   MenuLocation:Results - Region clip filter
    Workbenches:[FEM](FEM_Workbench.md)
    SeeAlso:[FEM Result pipeline](FEM_PostPipelineFromResult.md), [FEM Filter functions](FEM_PostCreateFunctions.md), [FEM tutorial](FEM_tutorial.md)
 ---

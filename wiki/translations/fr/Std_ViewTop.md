@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewTop
    Name/fr:Std Vue de dessus
-   MenuLocation:Affichage → Vues standards → Dessus
+   MenuLocation:Affichage - Vues standards - Dessus
    Workbenches:Tous
    Shortcut:**2**
    SeeAlso:[Std Vue de face](Std_ViewFront/fr.md), [Std Vue droite](Std_ViewRight/fr.md)

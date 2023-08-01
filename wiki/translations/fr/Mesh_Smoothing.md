@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh Smoothing
    Name/fr:Mesh Lissage
-   MenuLocation:Maillages → Lisser...
+   MenuLocation:Maillages - Lisser...
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
 ---
 

@@ -3,7 +3,7 @@
    Name:Sketcher SelectRedundantConstraints
    Name/es:Corquizador SeleccionarRestriccionesRedundantes
    Workbenches:[Corquizador](Sketcher_Workbench/es.md)
-   MenuLocation:Croquis → Corquizador Herramientas → Seleccionar Restricciones Redundantes
+   MenuLocation:Croquis - Corquizador Herramientas - Seleccionar Restricciones Redundantes
    Shortcut:Shift+Ctrl+R
    Version:0.15
 ---

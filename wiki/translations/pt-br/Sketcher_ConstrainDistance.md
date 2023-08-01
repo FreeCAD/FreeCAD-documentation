@@ -3,7 +3,7 @@
    Name:Constraint Length
    Name/pt-br:Constraint Length
    Workbenches:[Sketcher](Sketcher_Workbench/pt-br.md)
-   MenuLocation:Sketch → Sketcher constraints → Constrain distance
+   MenuLocation:Sketch - Sketcher constraints - Constrain distance
    Shortcut:Shift + D
    SeeAlso:[Constraint HorizontalDistance](Sketcher_ConstrainDistanceX/pt-br.md), [Constraint VerticalDistance](Sketcher_ConstrainDistanceY/pt-br.md)
 ---

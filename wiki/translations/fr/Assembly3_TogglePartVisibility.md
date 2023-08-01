@@ -3,7 +3,7 @@
    Name:Assembly3 TogglePartVisibility
    Name/fr:Assembly3 Basculer la visibilité de pièces
    Icon:Assembly_TogglePartVisibility.svg‎‎
-   MenuLocation:Assembly3 → Toggle part visibility
+   MenuLocation:Assembly3 - Toggle part visibility
    Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
    Shortcut:**A** puis **Espace**
 ---

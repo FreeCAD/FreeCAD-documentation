@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name/de:Std SzenenInspektor
-   MenuLocation:Werkzeuge → Szenen Inspektor...
+   MenuLocation:Werkzeuge - Szenen Inspektor...
    Workbenches:Alle
 ---
 

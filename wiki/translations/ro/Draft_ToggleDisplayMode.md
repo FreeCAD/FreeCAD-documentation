@@ -1,6 +1,6 @@
 # Draft ToggleDisplayMode/ro
 ---
-- GuiCommand:   Name:Draft ToggleDisplayMode   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft → Utilities → Toggle display mode   Shortcut:Shift + Space---
+- GuiCommand:   Name:Draft ToggleDisplayMode   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft - Utilities - Toggle display mode   Shortcut:Shift + Space---
 
 
 </div>

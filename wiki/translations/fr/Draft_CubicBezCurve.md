@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft CubicBezCurve
    Name/fr:Draft Courbe de Bézier cubique
-   MenuLocation:Draft → Outils de Bézier → Courbe de Bézier cubique
+   MenuLocation:Draft - Outils de Bézier - Courbe de Bézier cubique
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Version:0.19
    SeeAlso:[Draft Courbe de Bézier](Draft_BezCurve/fr.md), [Draft B-spline](Draft_BSpline/fr.md)

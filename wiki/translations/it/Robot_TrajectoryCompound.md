@@ -1,6 +1,6 @@
 # Robot TrajectoryCompound/it
 ---
-- GuiCommand:   Name:Robot TrajectoryCompound   Name/it:Raggruppa traiettorie   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot → Raggruppa traiettorie---
+- GuiCommand:   Name:Robot TrajectoryCompound   Name/it:Raggruppa traiettorie   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot - Raggruppa traiettorie---
 
 
 </div>

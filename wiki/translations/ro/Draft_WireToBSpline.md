@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft WireToBSpline
    Name/ro:Draft WireToBSpline
-   MenuLocation:Drafting →  Wire to BSpline
+   MenuLocation:Drafting -  Wire to BSpline
    Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
 ---
 

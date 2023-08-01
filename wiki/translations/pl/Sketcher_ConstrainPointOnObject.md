@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher ConstrainPointOnObject
    Name/pl:Szkicownik: Zwiąż punkt na obiekcie
-   MenuLocation:Szkic → Wiązania szkicownika → Zwiąż punkt na obiekcie
+   MenuLocation:Szkic - Wiązania szkicownika - Zwiąż punkt na obiekcie
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**O**
    SeeAlso:[Wiązanie spójności punktów](Sketcher_ConstrainCoincident/pl.md)

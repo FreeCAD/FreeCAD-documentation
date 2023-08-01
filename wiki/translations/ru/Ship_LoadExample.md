@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Ship Load
    Name/ru:Ship Load
-   MenuLocation:Ship design → Загрузить пример геометрии судна
+   MenuLocation:Ship design - Загрузить пример геометрии судна
    Workbenches:[Ship](Ship_Workbench/ru.md)
    Shortcut:
    SeeAlso:

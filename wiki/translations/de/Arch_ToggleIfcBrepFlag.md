@@ -3,7 +3,7 @@
    Name:Arch ToggleIfcBrepFlag
    Name/de:Arch UmschaltenIfcBrepMarkierung
    Workbenches:[Arch](Arch_Workbench/de.md)
-   MenuLocation:Arch → Dienstprogramme → Umschalten Ifc Brep Markierung
+   MenuLocation:Arch - Dienstprogramme - Umschalten Ifc Brep Markierung
    SeeAlso:[Arch IfcExplorer](Arch_IfcExplorer/de.md), [Arch IFC](Arch_IFC/de.md)
 ---
 

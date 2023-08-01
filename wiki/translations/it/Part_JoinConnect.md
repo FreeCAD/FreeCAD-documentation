@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part JoinConnect
    Name/it:Congiunzione
-   MenuLocation:Part → Congiungi → Congiungi oggetti
+   MenuLocation:Part - Congiungi - Congiungi oggetti
    Workbenches:[Part](Part_Workbench/it.md)
    SeeAlso:[Incastra](Part_JoinEmbed/it.md), [Asporta](Part_JoinCutout/it.md), [Operazioni booleane](Part_Boolean/it.md), [Spessore](Part_Thickness/it.md)
 ---

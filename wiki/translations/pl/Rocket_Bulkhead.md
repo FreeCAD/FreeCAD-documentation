@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Rocket Bulkhead
-   MenuLocation:Rocket → Bulkhead
+   MenuLocation:Rocket - Bulkhead
    Workbenches:[Rocket Workbench](Rocket_Workbench.md)
    Version:0.19
 ---

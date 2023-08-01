@@ -4,7 +4,7 @@
    Name/it:Geometria di costruzione
    Icon:Sketcher_AlterConstruction.svg
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketcher → Geometrie → Geometrie di costruzione
+   MenuLocation:Sketcher - Geometrie - Geometrie di costruzione
 ---
 
 # Sketcher ToggleConstruction/it

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ActivateNextWindow
    Name/pl:Std: Następne
-   MenuLocation:Okna → Następne
+   MenuLocation:Okna - Następne
    Workbenches:wszystkie
    Shortcut:**Ctrl** + **Tab**
    SeeAlso:[Poprzednie](Std_ActivatePrevWindow/pl.md), [Okna](Std_Windows/pl.md)

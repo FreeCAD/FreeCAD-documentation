@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Tube
    Name/pl:Część: Rura
-   MenuLocation:Część → Bryła pierwotna → Utwórz rurę
+   MenuLocation:Część - Bryła pierwotna - Utwórz rurę
    Workbenches:[Część](Part_Workbench/pl.md)
    Version:0.19
    SeeAlso:[Utwórz geometrie pierwotne](Part_Primitives/pl.md)

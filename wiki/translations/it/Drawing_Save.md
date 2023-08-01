@@ -3,7 +3,7 @@
    Name:Drawing Save
    Name/it:Esporta il disegno
    Workbenches:[Disegno](Drawing_Workbench/it.md), Completo
-   MenuLocation:Disegno → Esporta pagina...
+   MenuLocation:Disegno - Esporta pagina...
    Shortcut:Nessuno
    SeeAlso:[Apri SVG](Drawing_Open_SVG/it.md)
 ---

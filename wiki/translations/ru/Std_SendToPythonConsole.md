@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Отправить в консоль Python
    Name:Std_SendToPythonConsole
-   MenuLocation:Правка → Отправить в консоль Python
+   MenuLocation:Правка - Отправить в консоль Python
    Workbenches:Все
    Shortcut:**Ctrl**+**Shift**+**P**
    Version:0.19

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM PostApplyChanges
    Name/fr:FEM Appliquer les modifications
-   MenuLocation:Résultats → Appliquer les modifications au pipeline
+   MenuLocation:Résultats - Appliquer les modifications au pipeline
    |Workbenches:[FEM](FEM_Workbench/fr.md)
    SeeAlso:[Std Rafraîchir](Std_Refresh/fr.md), [FEM Fonctions de filtrage](FEM_PostCreateFunctions.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:SheetMetal UnattendedUnfold
    Name/fr:SheetMetal Déplier sans assistance
-   MenuLocation:SheetMetal → Unattended Unfold
+   MenuLocation:SheetMetal - Unattended Unfold
    Workbenches:[SheetMetal](SheetMetal_Workbench/fr.md)
    Shortcut:**U**
    SeeAlso:[SheetMetal Déplier](SheetMetal_Unfold/fr.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:EM FHInputFile
    Name/fr:EM Fichier entrée FH
-   MenuLocation:EM → FHInputFile
+   MenuLocation:EM - FHInputFile
    Workbenches:[EM](EM_Workbench/fr.md)
    Shortcut:**E** **I**
    Version:0.17

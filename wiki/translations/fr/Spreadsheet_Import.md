@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Spreadsheet Import
    Name/fr:Spreadsheet Importer
-   MenuLocation:Spreadsheet → Importer une feuille de calcul
+   MenuLocation:Spreadsheet - Importer une feuille de calcul
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/fr.md)
    Version:0.17
    SeeAlso:[Spreadsheet Exporter](Spreadsheet_Export/fr.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch CutLine
    Name/fr:Arch Couper selon une ligne
-   MenuLocation:Arch → Couper selon une ligne
+   MenuLocation:Arch - Couper selon une ligne
    Workbenches:[Arch](Arch_Workbench/fr.md)
    Version:0.19
    SeeAlso:[Arch Couper selon un plan](Arch_CutPlane/fr.md)

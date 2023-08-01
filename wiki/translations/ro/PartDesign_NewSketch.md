@@ -1,6 +1,6 @@
 # PartDesign NewSketch/ro
 ---
-- GuiCommand:   Name:PartDesign NewSketch   Workbenches:[[PartDesign Workbench   PartDesign]], Complete|MenuLocation:Part Design → Create sketch   Shortcut:   SeeAlso:---
+- GuiCommand:   Name:PartDesign NewSketch   Workbenches:[[PartDesign Workbench   PartDesign]], Complete|MenuLocation:Part Design - Create sketch   Shortcut:   SeeAlso:---
 
 
 </div>

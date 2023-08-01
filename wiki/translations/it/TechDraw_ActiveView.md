@@ -3,7 +3,7 @@
    Name:TechDraw_ActiveView
    Name/it:Vista attiva
    Icon:TechDraw_ActiveView.svg
-   MenuLocation:TechDraw → Vista attiva
+   MenuLocation:TechDraw - Vista attiva
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)
    SeeAlso:[Simbolo](TechDraw_Symbol/it.md)
    Version:0.19

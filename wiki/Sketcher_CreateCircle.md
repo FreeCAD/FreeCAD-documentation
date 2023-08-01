@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher CreateCircle
-   MenuLocation:Sketch → Sketcher geometries → Create circle
+   MenuLocation:Sketch - Sketcher geometries - Create circle
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**G** **C**
    SeeAlso:[Sketcher Arc](Sketcher_CompCreateArc.md)

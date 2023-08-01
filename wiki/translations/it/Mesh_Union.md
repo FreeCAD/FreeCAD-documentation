@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh_Union‏‎
    Name/it:Unione
-   MenuLocation:Mesh → Operazione booleana → Unione
+   MenuLocation:Mesh - Operazione booleana - Unione
    Workbenches:[Mesh](Mesh_Workbench/it.md)
    SeeAlso:[Unisci](Mesh_Merge/it.md)
 ---

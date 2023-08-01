@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path Waterline
    Name/pl:Path: Linia poziomu
-   MenuLocation:Ścieżka → Linia poziomu
+   MenuLocation:Ścieżka - Linia poziomu
    Workbenches:[Path](Path_Workbench/pl.md)
    Version:0.19
 ---

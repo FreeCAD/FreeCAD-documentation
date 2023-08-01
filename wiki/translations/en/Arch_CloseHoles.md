@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch CloseHoles
-   MenuLocation:Arch → Utilities → Close holes
+   MenuLocation:Arch - Utilities - Close holes
    Workbenches:[Arch](Arch_Workbench.md)
    SeeAlso:[Arch Check](Arch_Check.md)
 ---

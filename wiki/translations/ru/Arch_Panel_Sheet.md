@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Панельный лист
    Name:Arch_Panel_Sheet
-   MenuLocation:Arch → Инструменты панелирования → Панельный лист
+   MenuLocation:Arch - Инструменты панелирования - Панельный лист
    Workbenches:[Arch](Arch_Workbench/ru.md)
    Shortcut:**P** **S**
    Version:0.17

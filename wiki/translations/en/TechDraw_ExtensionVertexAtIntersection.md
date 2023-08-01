@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ExtensionVertexAtIntersection
-   MenuLocation:TechDraw → Extensions: Centerlines/Threading → Add Cosmetic Intersection Vertex(es)
+   MenuLocation:TechDraw - Extensions: Centerlines/Threading - Add Cosmetic Intersection Vertex(es)
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20

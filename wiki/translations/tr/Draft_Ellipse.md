@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Ellipse
    Name/tr:Elips
-   MenuLocation:Taslak → Elips
+   MenuLocation:Taslak - Elips
    Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
    Shortcut:**E** **L**
    SeeAlso:[Çember](Draft_Circle/tr.md), [Yay](Draft_Arc/tr.md)

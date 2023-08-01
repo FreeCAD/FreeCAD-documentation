@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:SheetMetal AddJunction
-   MenuLocation:SheetMetal → Make Junction
+   MenuLocation:SheetMetal - Make Junction
    Workbenches:[SheetMetal](SheetMetal_Workbench.md)
    Shortcut:**S** **J**
    SeeAlso:[SheetMetal AddRelief](SheetMetal_AddRelief.md), [SheetMetal AddBend](SheetMetal_AddBend.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewRotateLeft
    Name/de:Std AnsichtNachLinksDrehen
-   MenuLocation:Ansicht → Standardansichten → Nach links drehen
+   MenuLocation:Ansicht - Standardansichten - Nach links drehen
    Workbenches:Alle
    Shortcut:**Umschalten** + **Links**
    SeeAlso:[Std AnsichtNachRechtsDrehen](Std_ViewRotateRight/de.md)

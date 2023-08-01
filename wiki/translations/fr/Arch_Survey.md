@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Survey
    Name/fr:Arch Prendre des cotes
-   MenuLocation:Arch → Prendre des cotes
+   MenuLocation:Arch - Prendre des cotes
    Workbenches:[Arch](Arch_Workbench/fr.md)
    SeeAlso:[Macro FCInfo](Macro_FCInfo/fr.md), [Macro SimpleProperties](Macro_SimpleProperties/fr.md)
 ---

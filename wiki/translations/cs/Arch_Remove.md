@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Remove
    Name/cs:Architektura Odebrat
-   MenuLocation:Arch → Remove
+   MenuLocation:Arch - Remove
    Workbenches:[Arch](Arch_Workbench/cs.md)
    SeeAlso:[[Arch Add]]
 ---

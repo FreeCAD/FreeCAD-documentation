@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:OpenSCAD ReplaceObject
    Name/fr:OpenSCAD Remplacement d'un objet
-   MenuLocation:OpenSCAD → Remplacer l'objet
+   MenuLocation:OpenSCAD - Remplacer l'objet
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
 ---
 

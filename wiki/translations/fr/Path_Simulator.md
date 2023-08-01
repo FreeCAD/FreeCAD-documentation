@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path Simulator
    Name/fr:Path Simulateur FAO
-   MenuLocation:Path → Simulateur FAO
+   MenuLocation:Path - Simulateur FAO
    Workbenches:[Path](Path_Workbench/fr.md)
    Shortcut:**P** **M**
    SeeAlso:[Path Inspecter des commandes](Path_Inspect/fr.md)

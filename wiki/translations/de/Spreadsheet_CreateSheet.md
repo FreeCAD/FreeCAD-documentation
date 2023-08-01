@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Spreadsheet CreateSheet
    Name/de:Kalkulationstabelle ErstelleArbeitsblatt
-   MenuLocation:Kalkulationstabelle → Erstelle Kalkulationstabelle
+   MenuLocation:Kalkulationstabelle - Erstelle Kalkulationstabelle
    Workbenches:[Kalkulationstabelle](Spreadsheet_Workbench/de.md)
    Version:0.17
 ---

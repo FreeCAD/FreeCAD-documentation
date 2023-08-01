@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Component
    Name/de:Arch Komponente
-‎   MenuLocation:Arch → Dienstprogramme → Komponente
+‎   MenuLocation:Arch - Dienstprogramme - Komponente
    Workbenches:[Arch](Arch_Workbench/de.md)
    Shortcut:**C** **M‏‎**
 ---

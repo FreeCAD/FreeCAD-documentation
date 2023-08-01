@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Assembly3 QuickSolve
    Icon:Assembly_QuickSolve.svg
-   MenuLocation:Assembly3 → Quick solve
+   MenuLocation:Assembly3 - Quick solve
    Workbenches:[Assembly3](Assembly3_Workbench.md)
    Shortcut:**A** then **F**
 ---

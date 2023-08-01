@@ -1,6 +1,6 @@
 # Draft Slope/ro
 ---
-- GuiCommand:   Name:Draft Slope   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft → Utilities → Set Slope   SeeAlso:---
+- GuiCommand:   Name:Draft Slope   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft - Utilities - Set Slope   SeeAlso:---
 
 
 </div>

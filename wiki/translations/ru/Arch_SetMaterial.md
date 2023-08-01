@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch SetMaterial
    Name/ru:Arch SetMaterial
-   MenuLocation:Arch → Инструменты материала → Материал
+   MenuLocation:Arch - Инструменты материала - Материал
    Workbenches:[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
    Shortcut:**M** **T**
    SeeAlso:[Arch CompSetMaterial](Arch_CompSetMaterial/ru.md), [Arch MultiMaterial](Arch_MultiMaterial/ru.md)

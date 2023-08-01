@@ -3,7 +3,7 @@
    Name:Sketcher EditSketch
    Name/tr:Eskizi Düzenle
    Workbenches:[Eskiz](Sketcher_Workbench/tr.md), [Parça tasarım](PartDesign_Workbench/tr.md)
-   MenuLocation:Eskiz → Yeni Eskiz
+   MenuLocation:Eskiz - Yeni Eskiz
 ---
 
 # Sketcher EditSketch/tr

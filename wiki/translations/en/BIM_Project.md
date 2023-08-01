@@ -3,7 +3,7 @@
    Name:BIM Project
    Workbenches:[BIM](BIM_Workbench.md)
    Addon:BIM
-   MenuLocation:Manage → Manage project...
+   MenuLocation:Manage - Manage project...
 ---
 
 # BIM Project/en

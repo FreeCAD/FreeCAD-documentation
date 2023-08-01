@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM PostFilterClipRegion
    Name/fr:FEM Filtre d'écrêtage selon une région
-   MenuLocation:Résultats → Filtre d'écrêtage selon une région
+   MenuLocation:Résultats - Filtre d'écrêtage selon une région
    Workbenches:[FEM](FEM_Workbench/fr.md)
    SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---

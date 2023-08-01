@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part_Chamfer
    Name/ru:Фаска
-   MenuLocation:Деталь → Фаска
+   MenuLocation:Деталь - Фаска
    Workbenches:[Part(Деталь)](Part_Workbench/ru.md)
    SeeAlso:[Скругление](Part_Fillet/ru.md)
 ---

@@ -1,6 +1,6 @@
 # Robot Export/de
 ---
-- GuiCommand:   Name:Robot Export   Workbenches:[[Robot_Workbench/de   Robot]]|MenuLocation:Roboter → Exportiere Bewegungsbahn---
+- GuiCommand:   Name:Robot Export   Workbenches:[[Robot_Workbench/de   Robot]]|MenuLocation:Roboter - Exportiere Bewegungsbahn---
 
 
 </div>

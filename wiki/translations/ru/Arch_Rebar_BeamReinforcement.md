@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Армировать балку
    Name:Arch_Rebar_BeamReinforcement
-   MenuLocation:Arch → Rebar tools → Beam Reinforcement<br>3D/BIM → Reinforcement tools → Beam Reinforcement
+   MenuLocation:Arch - Rebar tools - Beam Reinforcement<br>3D/BIM - Reinforcement tools - Beam Reinforcement
    Workbenches:[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
    Version:0.19
    SeeAlso:[Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [Arch Rebar ColumnReinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/ru.md)

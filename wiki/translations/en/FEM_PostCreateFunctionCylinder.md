@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:FEM PostCreateFunctionCylinder
-   MenuLocation:Results → Filter Functions → Cylinder
+   MenuLocation:Results - Filter Functions - Cylinder
    Workbenches:[FEM](FEM_Workbench.md)
    Version:0.21
    SeeAlso:[FEM tutorial](FEM_tutorial.md)

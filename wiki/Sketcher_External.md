@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher External
-   MenuLocation:Sketch → Sketcher geometries → Create external geometry
+   MenuLocation:Sketch - Sketcher geometries - Create external geometry
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**G** **X**
    SeeAlso:[Sketcher ConstructionMode](Sketcher_ToggleConstruction.md)

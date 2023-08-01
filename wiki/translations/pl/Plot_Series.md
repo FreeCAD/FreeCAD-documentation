@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Plot Series
    Name/pl:Wykres: Skonfiguruj serie
-   MenuLocation:Wykres → Skonfiguru serię
+   MenuLocation:Wykres - Skonfiguru serię
 ‏‎   Workbenches:[Wykres](Plot_Workbench/pl.md)
 ---
 

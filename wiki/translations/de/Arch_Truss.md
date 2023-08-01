@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Truss
    Name/de:Arch Traverse
-   MenuLocation:Arch → Traverse
+   MenuLocation:Arch - Traverse
    Workbenches:[Arch](Arch_Workbench/de.md)
    Version:0.19
 ---

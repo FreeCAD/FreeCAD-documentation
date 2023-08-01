@@ -3,7 +3,7 @@
    Name:Draft PointArray
    Name/tr:Nokta dizisi
    Icon:Draft_PointArray.svg
-   MenuLocation:Draft → PointArray
+   MenuLocation:Draft - PointArray
    Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
    Version:0.18
    SeeAlso:[Draft Array](Draft_Array/tr.md), [Draft PathArray](Draft_PathArray/tr.md)

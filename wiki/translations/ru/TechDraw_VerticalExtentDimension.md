@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Указать вертикальный габаритный размер
    Name:TechDraw_VerticalExtentDimension
-   MenuLocation:TechDraw → Размеры → Указать вертикальный габаритный размер 
+   MenuLocation:TechDraw - Размеры - Указать вертикальный габаритный размер 
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    Version:0.19
    SeeAlso:[Указать длину](TechDraw_LengthDimension/ru.md), [Указать горизонтальный габаритный размер](TechDraw_HorizontalExtentDimension/ru.md)

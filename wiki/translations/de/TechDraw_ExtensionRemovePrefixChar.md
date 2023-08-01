@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionRemovePrefixChar
    Name/de:TechDraw ErgänzungPräfixsymbolEntfernen
-   MenuLocation:TechDraw → Ergänzungen: Maße → Präfixsymbol entfernen
+   MenuLocation:TechDraw - Ergänzungen: Maße - Präfixsymbol entfernen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20

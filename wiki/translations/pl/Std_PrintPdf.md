@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std PrintPdf
    Name/pl:Std: Eksportuj do PDF
-   MenuLocation:Plik→ Eksportuj do PDF ...
+   MenuLocation:Plik- Eksportuj do PDF ...
    Workbenches:All
    SeeAlso:[Wydrukuj](Std_Print/pl.md), [Exportuj ](Std_Export/pl.md), [Zrzut ekranu](Std_ViewScreenShot/pl.md)
 ---

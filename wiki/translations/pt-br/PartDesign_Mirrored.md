@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:PartDesign Mirrored
-   MenuLocation:Part Design → Apply a pattern → Mirrored
+   MenuLocation:Part Design - Apply a pattern - Mirrored
    Workbenches:[PartDesign](PartDesign_Workbench.md)
    SeeAlso:[PartDesign MultiTransform](PartDesign_MultiTransform.md)
 ---

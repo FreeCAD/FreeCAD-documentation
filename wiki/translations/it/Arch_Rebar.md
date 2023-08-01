@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch_Rebar
    Name/it:Armatura
-   MenuLocation:Arch → Strumenti armatura o 3D/BIM → Strumenti armatura
+   MenuLocation:Arch - Strumenti armatura o 3D/BIM - Strumenti armatura
    Workbenches:[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
    Shortcut:**R** **B**
    SeeAlso:[Struttura](Arch_Structure/it.md), [Ambiente Reinforcement](Reinforcement_Workbench/it.md)

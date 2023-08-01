@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/cs:Sketcher Kopie náčrtu
    Icon:Sketcher CarbonCopy.svg
-   MenuLocation:Sketch → Geometrie skici → Kopie náčrtu
+   MenuLocation:Sketch - Geometrie skici - Kopie náčrtu
    Workbenches:[Sketcher](Sketcher_Workbench/cs.md)
    Version:0.17
 ---

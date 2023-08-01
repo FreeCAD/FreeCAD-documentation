@@ -3,7 +3,7 @@
    Name:Path Job
    Name/ro:Path: Job/Prelucrare
    Workbenches:[Path](Path_Workbench.md)
-   MenuLocation:Path → Job
+   MenuLocation:Path - Job
    Shortcut:**P** **F**
    SeeAlso:
 ---

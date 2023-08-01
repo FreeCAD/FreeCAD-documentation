@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FCGear CrownGear
    Name/de:FCGear Kronenrad
-   MenuLocation:Gear → Crown Gear
+   MenuLocation:Gear - Crown Gear
    Workbenches:[FCGear](FCGear_Workbench/de.md)
    Shortcut:None
    Version:v0.16

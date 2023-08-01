@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Mesh HarmonizeNormals
-   MenuLocation:Meshes → Harmonize normals
+   MenuLocation:Meshes - Harmonize normals
    Workbenches:[Mesh](Mesh_Workbench.md)
    SeeAlso:[Mesh FlipNormals](Mesh_FlipNormals.md)
 ---

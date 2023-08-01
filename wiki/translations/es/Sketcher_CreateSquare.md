@@ -1,6 +1,6 @@
 # Sketcher CreateSquare/es
 ---
-- GuiCommand:   Name:Sketcher CreateSquare   Name/es:Sketcher CreateSquare   Workbenches:[[Sketcher Workbench/es   Sketcher]]|MenuLocation:Sketch → Sketcher geometries → Create square   Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Sketcher CreateSquare   Name/es:Sketcher CreateSquare   Workbenches:[[Sketcher Workbench/es   Sketcher]]|MenuLocation:Sketch - Sketcher geometries - Create square   Shortcut:   SeeAlso:---
 
 
 </div>

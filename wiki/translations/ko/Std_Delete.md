@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std Delete
    Name/ko:표준 삭제
-   MenuLocation:편집 → 삭제
+   MenuLocation:편집 - 삭제
    Workbenches:모두
    Shortcut:**Del**
 ---

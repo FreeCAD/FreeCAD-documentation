@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionCascadeHorizDimension
    Name/pl:Rysunek Techniczny: Rozszerzenie Wymiar poziomy kaskadowo
-   MenuLocation:Rysunek Techniczny → Rozszerzenia: Atrybuty / Modyfikatory → Wymiar poziomy kaskadowo
+   MenuLocation:Rysunek Techniczny - Rozszerzenia: Atrybuty / Modyfikatory - Wymiar poziomy kaskadowo
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20

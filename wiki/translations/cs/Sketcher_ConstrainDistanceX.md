@@ -3,7 +3,7 @@
    Name:Sketcher ConstrainDistanceX
    Name/cs:Sketcher ConstrainDistanceX
    Workbenches:[Sketcher](Sketcher_Workbench/cs.md)
-   MenuLocation:Sketch → Sketcher constraints → Constrain horizontal distance
+   MenuLocation:Sketch - Sketcher constraints - Constrain horizontal distance
    Shortcut:Shift + H
    SeeAlso:[Constraint Length](Sketcher_ConstrainDistance/cs.md), [Constraint VerticalDistance](Sketcher_ConstrainDistanceY/cs.md)
 ---

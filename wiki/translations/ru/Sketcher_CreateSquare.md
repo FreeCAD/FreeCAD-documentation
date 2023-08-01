@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Квадрат
    Name:Sketcher_CreateSquare
-   MenuLocation:Sketch → Геометрия эскиза → Создать квадрат
+   MenuLocation:Sketch - Геометрия эскиза - Создать квадрат
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**G** **P** **4**
    Version:0.15

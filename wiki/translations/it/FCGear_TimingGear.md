@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FCGear_TimingGear
    Name/it:Ingranaggio di distribuzione
-   MenuLocation:FCGear → Create a Timing gear
+   MenuLocation:FCGear - Create a Timing gear
    Workbenches:[FCGear](FCGear_Workbench/it.md)
    Shortcut:None
    Version:v0.16

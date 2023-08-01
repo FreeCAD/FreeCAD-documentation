@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Rotate
    Name/it:Ruota
-   MenuLocation:Modifiche → Ruota
+   MenuLocation:Modifiche - Ruota
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**R** **O**
    Version:0.7

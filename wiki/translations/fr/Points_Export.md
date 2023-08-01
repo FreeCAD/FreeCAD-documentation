@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Points Export
    Name/fr:Points Exporter
-   MenuLocation:Points → Exporter les points...
+   MenuLocation:Points - Exporter les points...
    Workbenches:[Points](Points_Workbench/fr.md)
    SeeAlso:[Import Export](Import_Export/fr.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewBottom
    Name/fr:Std Vue de dessous
-   MenuLocation:Affichage → Vues standards → Dessous
+   MenuLocation:Affichage - Vues standards - Dessous
    Workbenches:Tous
    Shortcut:**5**
    SeeAlso:[Std Vue de l'arrière](Std_ViewRear/fr.md), [Std Vue gauche](Std_ViewLeft/fr.md)

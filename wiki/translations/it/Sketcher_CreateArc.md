@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CreateArc
    Name/it:Arco
-   MenuLocation:Sketch → Geometrie → Arco da centro
+   MenuLocation:Sketch - Geometrie - Arco da centro
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)
    Shortcut:**G** **A**
    SeeAlso:[Cerchi](Sketcher_CompCreateCircle/it.md)

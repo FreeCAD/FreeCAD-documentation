@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Проточка
    Name:PartDesign_Groove
-   MenuLocation:Part Design → Create a substractive feature → Проточка
+   MenuLocation:Part Design - Create a substractive feature - Проточка
    Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
    SeeAlso:[Фигура вращения](PartDesign_Revolution/ru.md)
 ---

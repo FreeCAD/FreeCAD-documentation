@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:OpenSCAD ExplodeGroup
-   MenuLocation:OpenSCAD → Explode Group‏‎
+   MenuLocation:OpenSCAD - Explode Group‏‎
    Workbenches:[OpenSCAD](OpenSCAD_Workbench.md)
 ---
 

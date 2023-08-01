@@ -3,7 +3,7 @@
    Name:Arch IfcSpreadsheet
    Name/de:Arch_ErstelleIfcTabellenblatt
    Workbenches:[Arch](Arch_Workbench/de.md)
-   MenuLocation:Arch → Dienstprogramme → Erstelle IFC Tabellenblatt
+   MenuLocation:Arch - Dienstprogramme - Erstelle IFC Tabellenblatt
    Shortcut:**I** **P**
    SeeAlso:[Arch IfcExplorer](Arch_IFC/de]],_[[Arch_IfcExplorer/de.md)
 ---

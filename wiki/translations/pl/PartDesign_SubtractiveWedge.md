@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign SubtractiveWedge
    Name/pl:Projekt Części: Subtraktywny klin
-   MenuLocation:Projekt Części → Utwórz cechę przez odjęcie → Subtraktywny klin
+   MenuLocation:Projekt Części - Utwórz cechę przez odjęcie - Subtraktywny klin
    Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
    SeeAlso:[Komponent bryła pierwotna do odjęcia](PartDesign_CompPrimitiveSubtractive/pl.md), [Addytywny klin](PartDesign_AdditiveWedge/pl.md)

@@ -3,7 +3,7 @@
    Name:Arch SplitMesh
    Name/it:Dividi mesh
    Workbenches:[Architetttura](Arch_Workbench/it.md)
-   MenuLocation:Arch → Utilità → Dividi Mesh
+   MenuLocation:Arch - Utilità - Dividi Mesh
    SeeAlso:[Seleziona mesh non solidi](Arch_SelectNonSolidMeshes/it.md), [Da Mesh a Forma](Arch_MeshToShape/it.md)
 ---
 

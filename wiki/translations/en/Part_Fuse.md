@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Part Fuse
-   MenuLocation:Part → Boolean → Union
+   MenuLocation:Part - Boolean - Union
    Workbenches:[Part](Part_Workbench.md)
    SeeAlso:[Part Boolean](Part_Boolean.md), [Part Cut](Part_Cut.md), [Part Common](Part_Common.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch ToggleIfcBrepFlag
    Name/it:Toggle Ifc Brep Flag
-   MenuLocation:Arch → Utilità → Attiva/Disattiva Ifc Brep
+   MenuLocation:Arch - Utilità - Attiva/Disattiva Ifc Brep
    Workbenches:[Arch](Arch_Workbench/it.md)
    Shortcut:
    SeeAlso:[Esplora Ifc](Arch_IfcExplorer/it.md), [IFC](Arch_IFC/it.md)

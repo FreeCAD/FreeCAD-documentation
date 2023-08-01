@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher CreateOctagon
-   MenuLocation:Sketch → Sketcher geometries → Create octagon
+   MenuLocation:Sketch - Sketcher geometries - Create octagon
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**G** **P** **8**
    Version:0.15

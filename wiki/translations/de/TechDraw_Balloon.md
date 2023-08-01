@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw Balloon
    Name/de: TechDraw Hinweisfeld
-   MenuLocation:TechDraw → Anmerkungen → Hinweisfeld einfügen
+   MenuLocation:TechDraw - Anmerkungen - Hinweisfeld einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Version:0.19
    SeeAlso:[TechDraw Beschriftung](TechDraw_Annotation/de.md)

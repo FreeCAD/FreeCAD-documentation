@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Circle
    Name/fr:Draft Cercle
-   MenuLocation:Draft → Cercle
+   MenuLocation:Draft - Cercle
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:**C** **I**
    Version:0.7

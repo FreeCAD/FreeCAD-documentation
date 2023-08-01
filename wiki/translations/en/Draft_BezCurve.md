@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft BezCurve
-   MenuLocation:Drafting → Bézier tools → Bézier curve
+   MenuLocation:Drafting - Bézier tools - Bézier curve
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    Shortcut:**B** **Z**
    Version:0.14

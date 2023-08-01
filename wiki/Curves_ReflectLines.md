@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Curves ReflectLines
-   MenuLocation:Surfaces → Reflect Lines
+   MenuLocation:Surfaces - Reflect Lines
    Workbenches:[Curves](Curves_Workbench.md)
 ---
 

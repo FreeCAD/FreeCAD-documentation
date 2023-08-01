@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher SelectElementsAssociatedWithConstraints
-   MenuLocation:Sketch → Sketcher tools → Select associated geometry
+   MenuLocation:Sketch - Sketcher tools - Select associated geometry
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**Z** **E**
    Version:0.15

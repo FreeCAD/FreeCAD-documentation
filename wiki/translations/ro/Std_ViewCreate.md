@@ -1,6 +1,6 @@
 # Std ViewCreate/ro
 ---
-- GuiCommand:   Name:Std ViewCreate   MenuLocation:[[Std View Menu   View]] → Create new view‏‎||Workbenches:All   Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Std ViewCreate   MenuLocation:[[Std View Menu   View]] - Create new view‏‎||Workbenches:All   Shortcut:   SeeAlso:---
 
 
 </div>

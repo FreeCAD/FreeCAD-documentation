@@ -1,6 +1,6 @@
 # PartDesign AdditiveWedge/ro
 ---
-- GuiCommand:   Name:PartDesign AdditiveWedge   Workbenches:[MenuLocation:Part Design → Create an additive primitive → Additive Wedge   Shortcut:None   SeeAlso:[[PartDesign CompPrimitiveAdditive](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand:   Name:PartDesign AdditiveWedge   Workbenches:[MenuLocation:Part Design - Create an additive primitive - Additive Wedge   Shortcut:None   SeeAlso:[[PartDesign CompPrimitiveAdditive](PartDesign_Workbench___PartDesign]].md)---
 
 
 </div>

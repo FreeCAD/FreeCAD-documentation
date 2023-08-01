@@ -3,7 +3,7 @@
    Name:BIM IfcQuantities
    Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
    Addon:BIM
-   MenuLocation:Manage → IFC Quantities
+   MenuLocation:Manage - IFC Quantities
    SeeAlso:[[BIM IfcElements]],[[BIM IfcProperties]]
 ---
 

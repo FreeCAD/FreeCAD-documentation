@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign CompPrimitiveAdditive
    Name/de:PartDesign AuswahlGrundkörperHinzufügen
-   MenuLocation:Part Design → Grundkörper hinzufügen
+   MenuLocation:Part Design - Grundkörper hinzufügen
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
    Shortcut:

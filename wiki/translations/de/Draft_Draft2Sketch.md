@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Draft2Sketch
    Name/de:Entwurf EntwurfZuSkizze
-   MenuLocation:Änderung → Entwurf zu Skizze
+   MenuLocation:Änderung - Entwurf zu Skizze
    Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench.md)
 ---
 

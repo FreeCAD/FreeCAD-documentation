@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft BSpline
    Name/fr:Draft B-spline
-   MenuLocation:Draft → B-spline
+   MenuLocation:Draft - B-spline
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:**B** **S**
    Version:0.7

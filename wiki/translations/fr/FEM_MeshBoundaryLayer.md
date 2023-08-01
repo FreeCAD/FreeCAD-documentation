@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM MeshBoundaryLayer
    Name/fr:FEM Couche limite de maillage FEM
-   MenuLocation:Maillage → Couche limite de maillage FEM
+   MenuLocation:Maillage - Couche limite de maillage FEM
    Workbenches:[FEM](FEM_Workbench/fr.md)
    SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher ConstrainParallel
    Workbenches:[Sketcher](Sketcher_Workbench.md)
-   MenuLocation:Sketch → Sketcher constraints → Constrain parallel
+   MenuLocation:Sketch - Sketcher constraints - Constrain parallel
    Shortcut:Shift + P
    SeeAlso:[Constraint Vertical](Sketcher_ConstrainVertical.md), [Constraint Horizontal](Sketcher_ConstrainHorizontal.md)
 ---

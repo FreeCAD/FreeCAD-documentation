@@ -3,7 +3,7 @@
 - GuiCommand:
    Name:Ship Hydrostatics
    Name/ru:Ship Hydrostatics
-   MenuLocation:Ship design → Гидростатика
+   MenuLocation:Ship design - Гидростатика
    Workbenches:[Ship](Ship_Workbench/ru.md)
    Shortcut:   SeeAlso:---
 

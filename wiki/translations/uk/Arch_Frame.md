@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Frame
    Name/uk:Arch Frame
-   MenuLocation:Arch → Frame
+   MenuLocation:Arch - Frame
    Workbenches:[Arch](Arch_Workbench/uk.md)
    Shortcut:**F** **R**
    SeeAlso:[[Arch Wall/uk]], [[Arch Structure/uk]]

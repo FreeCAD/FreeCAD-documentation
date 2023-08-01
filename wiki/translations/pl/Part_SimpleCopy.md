@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part SimpleCopy‎
    Name/pl:Część: Utwórz prostą kopię
-   MenuLocation:Część → Utwórz kopię → Utwórz prostą kopię
+   MenuLocation:Część - Utwórz kopię - Utwórz prostą kopię
    Workbenches:[Część](Part_Workbench/pl.md)
    SeeAlso:[Kopiuj](Std_Copy/pl.md), [Powiel zaznaczone](Std_DuplicateSelection/pl.md), [Przekształcona kopia](Part_TransformedCopy.md), [Kopia kształtu elementu](Part_ElementCopy/pl.md), [Udoskonal kształt](Part_RefineShape/pl.md)
 ---

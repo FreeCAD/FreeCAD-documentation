@@ -3,7 +3,7 @@
    Name:Assembly3 SmartRecompute
    Name/de:Assembly3 SmarteBerechnung
    Icon:Assembly_SmartRecompute.svg‎‎
-   MenuLocation:Assembly3 → Smart recompute
+   MenuLocation:Assembly3 - Smart recompute
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 

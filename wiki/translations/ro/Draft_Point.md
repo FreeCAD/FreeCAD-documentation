@@ -3,7 +3,7 @@
    Name:Draft Point
    Name/ro:Draft Punctul
    Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   MenuLocation:Draft → Point
+   MenuLocation:Draft - Point
    Shortcut:P T
 ---
 

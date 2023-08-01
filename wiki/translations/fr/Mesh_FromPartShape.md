@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh FromPartShape‏‎
    Name/fr:Mesh Créer un maillage
-‏‎   MenuLocation:Maillages → Créer un maillage à partir d'une forme...
+‏‎   MenuLocation:Maillages - Créer un maillage à partir d'une forme...
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
 ---
 

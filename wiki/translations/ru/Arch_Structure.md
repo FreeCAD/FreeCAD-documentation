@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Структура
    Name:Arch_Structure
-   MenuLocation:Arch → Структура
+   MenuLocation:Arch - Структура
    Workbenches:[Arch](Arch_Workbench/ru.md)
    Shortcut:**S** **T**
    SeeAlso:[Стена](Arch_Wall/ru.md), [Арматура](Arch_Rebar/ru.md)

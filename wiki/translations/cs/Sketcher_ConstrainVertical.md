@@ -4,7 +4,7 @@
    Name/cs:Constraint Vertical
    Workbenches:[Náčrt](Sketcher_Workbench/cs.md)
    Shortcut:V
-   MenuLocation:Sketch → Sketcher constraints → Constrain vertically
+   MenuLocation:Sketch - Sketcher constraints - Constrain vertically
    SeeAlso:[Vazba vodorovnosti](Sketcher_ConstrainHorizontal/cs.md)
 ---
 

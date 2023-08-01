@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Measure Linear
    Name/fr:Part Mesure linéaire
-   MenuLocation:Mesure → Mesure linéaire
+   MenuLocation:Mesure - Mesure linéaire
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Std Mesurer une distance](Std_MeasureDistance/fr.md), [Draft Dimension](Draft_Dimension/fr.md)
 ---

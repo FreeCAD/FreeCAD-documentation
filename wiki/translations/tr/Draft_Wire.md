@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Wire
    Name/tr:Tel
-   MenuLocation:Taslak → Tel
+   MenuLocation:Taslak - Tel
    Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
    Shortcut:**P** **L**
    Version:0.17

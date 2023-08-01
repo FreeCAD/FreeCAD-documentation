@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std Save
    Name/de:Std Speichern
-   MenuLocation:Datei → Speichern
+   MenuLocation:Datei - Speichern
    Workbenches:Alle
    Shortcut:**Ctrl**+**S**
    SeeAlso:[Std SpeichernUnter](Std_SaveAs/de.md), [Std KopieSpeichern](Std_SaveCopy/de.md), [Std AllesSpeichern](Std_SaveAll/de.md)

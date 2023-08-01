@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Выбрать горизонтальную ось
    Name:Sketcher_SelectHorizontalAxis
-   MenuLocation:Sketch → Инструменты для эскиза → Выбрать горизонтальную ось
+   MenuLocation:Sketch - Инструменты для эскиза - Выбрать горизонтальную ось
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:Shift+Ctrl+H
    Version:0.15

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std DlgPreferences
    Name/pl:Std: Okno dialogowe preferencji
-   MenuLocation:Edycja → Preferencje
+   MenuLocation:Edycja - Preferencje
    Workbenches:All
    SeeAlso:[Edytor ustawień](Preferences_Editor/pl.md)
 ---

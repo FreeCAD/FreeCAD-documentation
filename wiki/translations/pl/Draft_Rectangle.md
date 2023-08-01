@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Rectangle
    Name/pl:Draft: Prostokąt
-   MenuLocation:Drafting → Prostokąt
+   MenuLocation:Drafting - Prostokąt
    Workbenches:[Rysunek roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
    Shortcut:**R** **E**
    Version:0.7

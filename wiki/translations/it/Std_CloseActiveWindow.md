@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_CloseActiveWindow
    Name/it:Chiudi
-   MenuLocation:File → Chiudi
+   MenuLocation:File - Chiudi
    Workbenches:Tutti
    Shortcut:**Ctrl**+**F4**
    SeeAlso:[Chiudi tutto](Std_CloseAllWindows/it.md)

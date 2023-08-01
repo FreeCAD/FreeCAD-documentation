@@ -3,7 +3,7 @@
    Name:PartDesign AdditiveBox
    Name/it:Cubo additivo
    Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:Part Design → Crea una primitiva additiva → Cubo
+   MenuLocation:Part Design - Crea una primitiva additiva - Cubo
    Version:0.17
    SeeAlso:[Primitive additive](PartDesign_CompPrimitiveAdditive/it.md)
 ---

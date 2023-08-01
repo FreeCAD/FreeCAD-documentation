@@ -1,6 +1,6 @@
 # Surface CurveOnMesh/ro
 ---
-- GuiCommand:   Name:Surface CurveOnMesh   MenuLocation:Surface → CurveOnMesh   Workbenches:[Surface](Surface_Workbench.md)|---
+- GuiCommand:   Name:Surface CurveOnMesh   MenuLocation:Surface - CurveOnMesh   Workbenches:[Surface](Surface_Workbench.md)|---
 
 
 </div>

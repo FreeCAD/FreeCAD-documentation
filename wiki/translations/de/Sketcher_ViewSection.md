@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher ViewSection
    Name/de:Sketcher SchnittAnzeigen
-   MenuLocation:Sketch → Schnitt anzeigen
+   MenuLocation:Sketch - Schnitt anzeigen
    Workbenches:[Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
    Shortcut:**Q** **S**
    Version:0.18

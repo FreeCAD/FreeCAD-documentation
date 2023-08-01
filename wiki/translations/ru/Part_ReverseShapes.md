@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Обратить нормали формы
    Name:Part_ReverseShapes
-   MenuLocation:Деталь → Обратить нормали формы
+   MenuLocation:Деталь - Обратить нормали формы
    Workbenches:[Part](Part_Workbench/ru.md)
 ---
 

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft ShowSnapBar
-   MenuLocation:Utilities → Show snap toolbar
+   MenuLocation:Utilities - Show snap toolbar
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    SeeAlso:[Draft Snap](Draft_Snap.md)
 ---

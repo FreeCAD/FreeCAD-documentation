@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ro:Sketcher: Prelungirea muchiei
    Icon:Sketcher Extend.svg
-   MenuLocation:Sketch → Geometria schitei → Prelungirea muchiei
+   MenuLocation:Sketch - Geometria schitei - Prelungirea muchiei
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
    SeeAlso:[Sketcher Taie marginea](Sketcher_Trimming/ro.md)
    Version:0.17

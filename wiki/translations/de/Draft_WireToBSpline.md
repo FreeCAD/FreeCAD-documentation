@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft WireToBSpline
    Name/de:Draft DrahtZuBSpline
-   MenuLocation:Änderung → Kantenzug zu BSpline
+   MenuLocation:Änderung - Kantenzug zu BSpline
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    SeeAlso:[Draft Draht](Draft_Wire/de.md), [Draft BSpline](Draft_BSpline/de.md)
 ---

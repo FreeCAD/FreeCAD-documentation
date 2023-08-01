@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std SendToPythonConsole
    Name/ko:표준 파이썬 콘솔로 보내기
-   MenuLocation:편집 → 파이썬 콘솔로 보내기
+   MenuLocation:편집 - 파이썬 콘솔로 보내기
    Workbenches:모두
    Shortcut:**Ctrl**+**Shift**+**P**
    Version:0.19

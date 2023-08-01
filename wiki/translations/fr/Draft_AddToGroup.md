@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft AddToGroup
    Name/fr:Draft Déplacer vers un groupe
-   MenuLocation:Utilitaires → Déplacer vers le groupe...
+   MenuLocation:Utilitaires - Déplacer vers le groupe...
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    SeeAlso:[Std Créer un groupe](Std_Group/fr.md), [Draft Nommer un groupe](Draft_AddNamedGroup/fr.md), [Draft Ajouter au groupe de construction](Draft_AddConstruction/fr.md), [Draft Groupement automatique](Draft_AutoGroup/fr.md)
 ---

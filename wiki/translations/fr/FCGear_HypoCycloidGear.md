@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FCGear HypoCycloidGear
    Name/fr:FCGear Engrenage hypocycloïde
-   MenuLocation:Gear → HypoCycloid Gear
+   MenuLocation:Gear - HypoCycloid Gear
    Workbenches:[FCGear](FCGear_Workbench/fr.md)
    Shortcut:Aucun
    Version:1.0

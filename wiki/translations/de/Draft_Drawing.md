@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Drawing
    Name/de:Entwurf Zeichnung
-   MenuLocation:Entwurf → Zeichnung
+   MenuLocation:Entwurf - Zeichnung
    Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    SeeAlso:[TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md), [Form in 2D Ansicht](Draft_Shape2DView/de.md)
 ---

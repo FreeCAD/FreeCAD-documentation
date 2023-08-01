@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path Job
    Name/fr:Path Tâche
-   MenuLocation:Path → Tâche
+   MenuLocation:Path - Tâche
    Workbenches:[Path](Path_Workbench/fr.md)
    Shortcut:**P** **J**
    SeeAlso:[Path Post-traitement](Path_Post/fr.md), [Path Personnalisation du post-processeur](Path_Postprocessor_Customization/fr.md)

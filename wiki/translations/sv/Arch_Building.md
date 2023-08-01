@@ -1,6 +1,6 @@
 # Arch Building/sv
 ---
-- GuiCommand:   Name:Arch Building   Name/sv:Arch Building   Workbenches:[[Arch_Workbench/sv   Arch]]|MenuLocation:Arch → Building   Shortcut:B U   SeeAlso:---
+- GuiCommand:   Name:Arch Building   Name/sv:Arch Building   Workbenches:[[Arch_Workbench/sv   Arch]]|MenuLocation:Arch - Building   Shortcut:B U   SeeAlso:---
 
 
 </div>

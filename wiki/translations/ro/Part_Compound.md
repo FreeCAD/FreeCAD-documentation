@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Part Compound
-‏‎   MenuLocation:Part → Make compound
+‏‎   MenuLocation:Part - Make compound
    Workbenches:[Part](Part_Workbench.md)
    SeeAlso:
 ---

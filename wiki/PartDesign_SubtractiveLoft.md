@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:PartDesign SubtractiveLoft
-   MenuLocation:Part Design → Create a substractive feature → Subtractive loft
+   MenuLocation:Part Design - Create a substractive feature - Subtractive loft
    Workbenches:[PartDesign](PartDesign_Workbench.md)
    Version:0.17
    SeeAlso:[PartDesign AdditiveLoft](PartDesign_AdditiveLoft.md), [PartDesign SubtractivePipe](PartDesign_SubtractivePipe.md)

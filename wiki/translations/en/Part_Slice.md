@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Part Slice
-   MenuLocation:Part → Split → Slice to compound
+   MenuLocation:Part - Split - Slice to compound
    Workbenches:[Part](Part_Workbench.md)
    Version:0.17
    SeeAlso:[Part Boolean Fragments](Part_BooleanFragments.md), [Part XOR](Part_XOR.md), [Part Join features](Part_CompJoinFeatures.md), [Part Boolean](Part_Boolean.md)

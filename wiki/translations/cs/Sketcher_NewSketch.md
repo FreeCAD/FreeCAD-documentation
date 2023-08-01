@@ -3,7 +3,7 @@
    Name:Sketcher NewSketch
    Name/cs:Skicář Nový náčrt
    Workbenches:[Skicář](Sketcher_Workbench/cs.md)
-   MenuLocation:Náčrt → Vytvoř náčrt
+   MenuLocation:Náčrt - Vytvoř náčrt
    SeeAlso:[Sketcher MapSketch](Sketcher_MapSketch/cs.md), [Sketcher Reorient](Sketcher_ReorientSketch/cs.md)
 ---
 

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Design456 PartSubtract
-   MenuLocation:Design456_Tools → 3DTools → Part Subtract
+   MenuLocation:Design456_Tools - 3DTools - Part Subtract
    Workbenches:[Design456](Design456_Workbench.md)
    Shortcut:None
    SeeAlso:

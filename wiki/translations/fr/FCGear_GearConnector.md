@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FCGear GearConnector
    Name/fr:FCGear Combiner deux engrenages
-   MenuLocation:Gear → Combine two gears
+   MenuLocation:Gear - Combine two gears
    Workbenches:[FCGear](FCGear_Workbench/fr.md)
    Shortcut:Aucun
    Version:1.0

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part BooleanFragments
    Name/de:Part BoolescheFragmente
-   MenuLocation:Formteil → Teilen → Boolesche Fragmente
+   MenuLocation:Formteil - Teilen - Boolesche Fragmente
    Workbenches:[Part](Part_Workbench/de.md)
    Version:0.17
    SeeAlso:[Part Auseinanderschneiden](Part_Slice/de.md), [Part XOR](Part_XOR/de.md), [Part AuswahlVerbindungsmethoden](Part_CompJoinFeatures/de.md), [Part Boolesche Operationen](Part_Boolean/de.md)

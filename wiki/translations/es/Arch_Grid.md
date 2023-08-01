@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Grid
    Name/es:Arch Grid
-   MenuLocation:Arch → Axis tools → Grid
+   MenuLocation:Arch - Axis tools - Grid
    Workbenches:[Arch](Arch_Workbench/es.md)
    SeeAlso:[[Arch Axis/es]], [[Arch AxisSystem/es]]
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Sphere
    Name/pl:Część: Sfera
-   MenuLocation:Część → Bryła pierwotna → Sfera
+   MenuLocation:Część - Bryła pierwotna - Sfera
    Workbenches:[Część](Part_Workbench/pl.md)
    SeeAlso:[Utwórz geometrie pierwotne](Part_CreatePrimitives/pl.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh BuildRegularSolid
    Name/fr:Mesh Solide régulier
-   MenuLocation:Maillages → Solide régulier...
+   MenuLocation:Maillages - Solide régulier...
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
 ---
 

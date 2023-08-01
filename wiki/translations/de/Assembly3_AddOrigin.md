@@ -3,7 +3,7 @@
    Name:Assembly3 AddOrigin
    Name/de:Assembly3 UrsprungHinzufügen
    Icon:Assembly_Add_Origin.svg‎‎
-   MenuLocation:Assembly3 → Workplane and origin → Add origin
+   MenuLocation:Assembly3 - Workplane and origin - Add origin
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 

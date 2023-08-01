@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Stretch
    Name/it:Stira
-   MenuLocation:Modifiche → Stira
+   MenuLocation:Modifiche - Stira
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**S** **H**
    Version:0.17

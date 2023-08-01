@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CreateBSplineByInterpolation
    Name/de:Sketcher B-SplineDurchInterpolationErstellen
-   MenuLocation:Skizze → Skizzengeometrien → B-Spline durch Knoten erstellen
+   MenuLocation:Skizze - Skizzengeometrien - B-Spline durch Knoten erstellen
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Shortcut:**G** **B** **I**
    Version:0.21

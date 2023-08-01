@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh Export
    Name/pl:Siatka: Eksportuj
-   MenuLocation:Siatki → Eksportuj siatkę ...
+   MenuLocation:Siatki - Eksportuj siatkę ...
    Workbenches:[Siatka](Mesh_Workbench/pl.md)
    SeeAlso:[Eksport](Std_Export/pl.md), [Import Eksport](Import_Export/pl.md)
 ---

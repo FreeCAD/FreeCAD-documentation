@@ -3,7 +3,7 @@
    Name:Arch Equipment
    Name/es:Arch Equipment
    Workbenches:[Arch](Arch_Workbench/es.md)
-   MenuLocation:Arch → Equipment
+   MenuLocation:Arch - Equipment
    Shortcut:E Q
    SeeAlso:[3 views from mesh](Arch_3Views/es.md)
 ---
@@ -18,7 +18,7 @@
    Name:Arch Equipment
    Name/es:Arch Equipment
    Workbenches:[Arch](Arch_Workbench/es.md)
-   MenuLocation:Arch → Equipment
+   MenuLocation:Arch - Equipment
    Shortcut:E Q
    SeeAlso:[3 views from mesh](Arch_3Views/es.md)
 ---

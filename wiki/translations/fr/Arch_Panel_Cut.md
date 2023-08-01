@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Panel Cut
    Name/fr:Arch Découpe de panneau
-   MenuLocation:Arch → Outils pour les panneaux → Découpe de panneau
+   MenuLocation:Arch - Outils pour les panneaux - Découpe de panneau
    Workbenches:[Arch](Arch_Workbench/fr.md), [Path](Path_Workbench/fr.md)
    Shortcut:**P** **C**
    Version:0.17

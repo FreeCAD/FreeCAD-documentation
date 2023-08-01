@@ -1,6 +1,6 @@
 # Sketcher LeaveSketch/it
 ---
-- GuiCommand:   Name:Sketcher LeaveSketch   Name/it:Esci   Workbenches:[PartDesign](Sketcher_Workbench/it___Schizzo]],_[[PartDesign_Workbench/it.md)|MenuLocation:Sketch/Part Design → Esci   SeeAlso:[Modifica schizzo](Sketcher_EditSketch/it.md)---
+- GuiCommand:   Name:Sketcher LeaveSketch   Name/it:Esci   Workbenches:[PartDesign](Sketcher_Workbench/it___Schizzo]],_[[PartDesign_Workbench/it.md)|MenuLocation:Sketch/Part Design - Esci   SeeAlso:[Modifica schizzo](Sketcher_EditSketch/it.md)---
 
 
 </div>

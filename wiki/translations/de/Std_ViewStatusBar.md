@@ -3,7 +3,7 @@
    Name:Std ViewStatusBar
    Name/de:Std StatusleisteAnzeigen
    Empty:1
-   MenuLocation:Ansicht → Statusleiste
+   MenuLocation:Ansicht - Statusleiste
    Workbenches:Alle
 ---
 

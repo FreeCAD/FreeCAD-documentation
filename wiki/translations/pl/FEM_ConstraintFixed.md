@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:FEM ConstraintFixed
-   MenuLocation:Model → Mechanical Constraints → Constraint fixed
+   MenuLocation:Model - Mechanical Constraints - Constraint fixed
    Workbenches:[FEM](FEM_Workbench.md)
    SeeAlso:[FEM Constraint contact](FEM_ConstraintContact.md)
 ---

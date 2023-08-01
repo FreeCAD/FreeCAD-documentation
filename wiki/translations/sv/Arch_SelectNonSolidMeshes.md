@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch SelectNonSolidMeshes   Name/sv:Arch SelectNonSolidMeshes
-   MenuLocation:Arch → Utilities → Select non solid
+   MenuLocation:Arch - Utilities - Select non solid
    Workbenches:[Arch](Arch_Workbench/sv.md)
    SeeAlso:[Arch MeshToShape](Arch_SplitMesh/sv]],_[[Arch_MeshToShape/sv.md)
 ---

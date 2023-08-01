@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Window
    Name/de:Arch Fenster
-   MenuLocation:Architektur → Fenster
+   MenuLocation:Architektur - Fenster
    Workbenches:[Arch](Arch_Workbench/de.md)
    Shortcut:**W** **I**
    SeeAlso:[Arch Wand](Arch_Wall/de.md), [Arch Hinzufügen](Arch_Add/de.md)

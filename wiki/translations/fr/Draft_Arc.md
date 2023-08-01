@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft_Arc
    Name/fr:Draft Arc
-   MenuLocation:Draft → Outils arcs → Arc
+   MenuLocation:Draft - Outils arcs - Arc
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:**A** **R**
    Version:0.7

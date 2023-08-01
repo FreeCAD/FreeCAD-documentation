@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Facebinder
    Name/ro:Draft Facebinder
-   MenuLocation:Draft → Facebinder
+   MenuLocation:Draft - Facebinder
    Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
    Shortcut:**F** **F**
 ---

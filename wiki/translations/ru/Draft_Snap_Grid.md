@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Snap Grid
    Name/ru:Draft Grid
-   MenuLocation:Draft → [Snapping](Draft_Snap.md) → Grid
+   MenuLocation:Draft - [Snapping](Draft_Snap.md) - Grid
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    SeeAlso:[[Draft ToggleGrid/ru]], [[Draft Snap/ru]]
 ---

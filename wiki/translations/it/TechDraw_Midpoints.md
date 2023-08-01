@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw Midpoints
    Name/it:Punti mediani
-   MenuLocation:TechDraw → Aggiungi vertici → Punti mediani
+   MenuLocation:TechDraw - Aggiungi vertici - Punti mediani
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)
    SeeAlso:[Vertice cosmetico](TechDraw_CosmeticVertex/it.md), [Quadrante](TechDraw_Quadrants/it.md)
    Version:0.19

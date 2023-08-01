@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher ConnectLines
-   MenuLocation:Sketch → Sketcher tools → Connect edges
+   MenuLocation:Sketch - Sketcher tools - Connect edges
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**Z** **J**
    Version:0.15

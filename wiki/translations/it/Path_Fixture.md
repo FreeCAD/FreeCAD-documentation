@@ -3,7 +3,7 @@
    Name:Path Fixture
    Name/it:Fissaggio
    Workbenches:[Path](Path_Workbench/it.md)
-   MenuLocation:Path → Comandi parziali → Fissaggio
+   MenuLocation:Path - Comandi parziali - Fissaggio
    Shortcut:**P** **F**
    SeeAlso:
 ---

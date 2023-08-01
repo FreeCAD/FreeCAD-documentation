@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:FEM ConstraintTie
-   MenuLocation:Model → Mechanical Constraints → Constraint tie
+   MenuLocation:Model - Mechanical Constraints - Constraint tie
    Workbenches:[FEM](FEM_Workbench.md)
    Version:0.19
    SeeAlso:[FEM Constraint pressure](FEM_ConstraintPressure.md)

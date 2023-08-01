@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Split
    Name/ru:Draft Split
-   MenuLocation:Draft → Split
+   MenuLocation:Draft - Split
    Workbenches:[Draft](Draft_Workbench/ru.md)
    Shortcut:**S** **P**
    Version:0.18

@@ -3,7 +3,7 @@
    Name:Sketcher ConstrainDistanceY
    Name/pl:Szkicownik: Zwiąż w pionie
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   MenuLocation:Szkic → Wiązania szkicownika → Zwiąż w pionie
+   MenuLocation:Szkic - Wiązania szkicownika - Zwiąż w pionie
    Shortcut:**I**
    SeeAlso:[Zwiąż w poziomie](Sketcher_ConstrainDistanceX/pl.md), [Wiązanie odległości](Sketcher_ConstrainDistance/pl.md)
 ---

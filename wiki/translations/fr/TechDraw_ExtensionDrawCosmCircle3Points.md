@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionDrawCosmCircle3Points
    Name/fr:TechDraw Cercle par 3 points
-   MenuLocation:TechDraw → Extensions : taraudages/filetages → Cercle par 3 points
+   MenuLocation:TechDraw - Extensions : taraudages/filetages - Cercle par 3 points
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut:
    Version:0.20

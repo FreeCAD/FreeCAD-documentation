@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:FCGear InternalInvoluteGear
-   MenuLocation:Gear → Internal Involute Gear
+   MenuLocation:Gear - Internal Involute Gear
    Workbenches:[FCGear](FCGear_Workbench.md)
    Shortcut:None
    Version:1.0

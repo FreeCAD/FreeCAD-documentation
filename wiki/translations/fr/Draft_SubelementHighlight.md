@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft SubelementHighlight
    Name/fr:Draft Surbrillance des sous éléments
-   MenuLocation:Modification → Surbrillance des sous éléments
+   MenuLocation:Modification - Surbrillance des sous éléments
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:**H** **S**
    Version:0.19

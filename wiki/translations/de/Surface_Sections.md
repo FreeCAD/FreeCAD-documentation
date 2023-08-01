@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Surface Sections
    Name/de:Surface Querschnitte
-   MenuLocation:Surface → Sections
+   MenuLocation:Surface - Sections
    Workbenches:[Surface](Surface_Workbench/de.md)
    Version:0.19
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Вставить страницу по умолчанию
    Name:TechDraw_PageDefault
-   MenuLocation:TechDraw → Вставить страницу по умолчанию
+   MenuLocation:TechDraw - Вставить страницу по умолчанию
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    SeeAlso:[Вставить страницу используя шаблон](TechDraw_PageTemplate/ru.md), [Шаблоны TechDraw](TechDraw_Templates/ru.md)
 ---

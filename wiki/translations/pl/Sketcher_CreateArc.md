@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CreateArc
    Name/pl:Szkicownik: Utwórz łuk przez środek
-   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz łuk przez środek
+   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz łuk przez środek
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **A**
    SeeAlso:[Komponent utwórz okrąg](Sketcher_CompCreateCircle/pl.md)

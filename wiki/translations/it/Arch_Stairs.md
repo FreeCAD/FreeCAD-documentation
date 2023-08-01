@@ -3,7 +3,7 @@
    Name:Arch_Stairs
    Name/it:Scala
    Workbenches:[Arch](Arch_Workbench/it.md)
-   MenuLocation:Arch → Scala
+   MenuLocation:Arch - Scala
    Shortcut:**S** **R**
    SeeAlso:[Struttura](Arch_Structure/it.md), [Arredo](Arch_Equipment/it.md)
    Version:0.14

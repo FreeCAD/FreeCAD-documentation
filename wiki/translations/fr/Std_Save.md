@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std Save
    Name/fr:Std Enregistrer
-   MenuLocation:Fichier → Enregistrer
+   MenuLocation:Fichier - Enregistrer
    Workbenches:Tous
    Shortcut:**Ctrl**+**S**
    SeeAlso:[Std Enregistrer sous](Std_SaveAs/fr.md), [Std Enregistrer une copie](Std_SaveCopy.md), [Std Tout enregistrer](Std_SaveAll.md)

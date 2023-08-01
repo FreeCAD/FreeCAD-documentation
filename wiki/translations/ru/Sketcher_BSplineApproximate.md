@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Преобразовать геометрию в B-Сплайн
    Name:Sketcher_BSplineApproximate
-   MenuLocation:Sketch → Эскизирование B-spline tools → Преобразовать геометрию в B-Сплайн
+   MenuLocation:Sketch - Эскизирование B-spline tools - Преобразовать геометрию в B-Сплайн
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Version:0.17
    SeeAlso:[Создать B-сплайн](Sketcher_CompCreateBSpline/ru.md)

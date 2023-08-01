@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw Balloon
    Name/pl:Rysunek Techniczny: Wstaw adnotację w formie dymka
-   MenuLocation:Rysunek Techniczny → Adnotacje → Wstaw adnotację w formie dymka
+   MenuLocation:Rysunek Techniczny - Adnotacje - Wstaw adnotację w formie dymka
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Version:0.19
    SeeAlso:[Wstaw adnotację](TechDraw_Annotation/pl.md)

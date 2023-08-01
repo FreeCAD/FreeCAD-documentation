@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Dimension
    Name/it:Quota
-   MenuLocation:Draft → Quota
+   MenuLocation:Draft - Quota
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**D** **I**
    Version:0.8

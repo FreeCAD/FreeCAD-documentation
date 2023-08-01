@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw PrintAll
    Name/pl:Rysunek Techniczny:
-   MenuLocation:Rysunek Techniczny → Strona → Drukuj wszystkie strony
+   MenuLocation:Rysunek Techniczny - Strona - Drukuj wszystkie strony
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.21

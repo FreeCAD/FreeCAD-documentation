@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewRight
    Name/pl:Std: Widok od prawej
-   MenuLocation:Widok → Widoki standardowe → Od prawej
+   MenuLocation:Widok - Widoki standardowe - Od prawej
    Workbenches:wszystkie
    Shortcut:**3**
    SeeAlso:[Widok od przodu](Std_ViewFront/pl.md), [Widok od góry](Std_ViewTop/pl.md)

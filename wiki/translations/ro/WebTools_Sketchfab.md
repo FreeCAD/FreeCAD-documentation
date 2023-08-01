@@ -1,6 +1,6 @@
 # WebTools Sketchfab/ro
 ---
-- GuiCommand:   Name:WebTools Sketchfab   MenuLocation:WebTools → Sketchfab   |Workbenches:[[WebTools Workbench   WebTools]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name:WebTools Sketchfab   MenuLocation:WebTools - Sketchfab   |Workbenches:[[WebTools Workbench   WebTools]]|Shortcut:   SeeAlso:---
 
 
 </div>

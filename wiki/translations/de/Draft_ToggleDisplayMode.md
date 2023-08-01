@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft ToggleDisplayMode
    Name/de:Draft DarstellungsartUmschalten
-   MenuLocation:Hilfsprogramme → Normal-/Wireframe-Anzeige umschalten
+   MenuLocation:Hilfsprogramme - Normal-/Wireframe-Anzeige umschalten
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**Shift**+**Space**
    SeeAlso:[Std SichtbarkeitUmschalten](Std_ToggleVisibility/de.md)

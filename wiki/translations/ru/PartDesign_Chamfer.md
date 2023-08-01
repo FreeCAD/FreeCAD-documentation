@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Фаска
    Name:PartDesign_Chamfer
-   MenuLocation:Part Design → Apply a dress-up feature → Фаска
+   MenuLocation:Part Design - Apply a dress-up feature - Фаска
    Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
    SeeAlso:[Скругление](PartDesign_Fillet/ru.md), [Фаска](Part_Chamfer/ru.md)
 ---

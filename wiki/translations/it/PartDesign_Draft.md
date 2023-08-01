@@ -1,6 +1,6 @@
 # PartDesign Draft/it
 ---
-- GuiCommand:   Name:PartDesign_Draft   Name/it:Sformo   MenuLocation:PartDesign → Sformo   Workbenches:[PartDesign](PartDesign_Workbench/it.md)---
+- GuiCommand:   Name:PartDesign_Draft   Name/it:Sformo   MenuLocation:PartDesign - Sformo   Workbenches:[PartDesign](PartDesign_Workbench/it.md)---
 
 
 </div>

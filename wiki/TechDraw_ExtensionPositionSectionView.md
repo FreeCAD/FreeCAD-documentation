@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ExtensionPositionSectionView
-   MenuLocation:TechDraw → Extensions: Attributes/Modifications → Position Section View
+   MenuLocation:TechDraw - Extensions: Attributes/Modifications - Position Section View
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20

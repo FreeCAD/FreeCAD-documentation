@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionPosObliqueChainDimension
    Name/fr:TechDraw Aligner obliquement
-   MenuLocation:TechDraw → Extensions : attributs/modifications → Aligner obliquement
+   MenuLocation:TechDraw - Extensions : attributs/modifications - Aligner obliquement
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut:
    Version:0.20

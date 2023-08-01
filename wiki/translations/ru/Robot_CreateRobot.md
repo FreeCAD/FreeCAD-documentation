@@ -4,7 +4,7 @@
    Name:Robot_CreateRobot
    Name/ru:Добавить робота
    Workbenches:[Robot](Robot_Workbench/ru.md)
-   MenuLocation:Робот → Добавить робота---
+   MenuLocation:Робот - Добавить робота---
 
 ## Описание
 

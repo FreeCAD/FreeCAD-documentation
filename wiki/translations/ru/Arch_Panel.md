@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Паенль
    Name:Arch_Panel
-   MenuLocation:Arch → Инструменты панелирования → Панель
+   MenuLocation:Arch - Инструменты панелирования - Панель
    Workbenches:[Arch](Arch_Workbench/ru.md)
    Shortcut:**P** **A**
    Version:0.15

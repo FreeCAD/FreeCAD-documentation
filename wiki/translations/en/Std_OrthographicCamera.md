@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std OrthographicCamera
-   MenuLocation:View → Orthographic view
+   MenuLocation:View - Orthographic view
    Workbenches:All
    Shortcut:**V** **O**
    SeeAlso:[Std PerspectiveCamera](Std_PerspectiveCamera.md)

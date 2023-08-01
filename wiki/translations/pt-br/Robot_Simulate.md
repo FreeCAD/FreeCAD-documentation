@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Robot Simulate
-   MenuLocation:Robot → Simulate a trajectory
+   MenuLocation:Robot - Simulate a trajectory
    Workbenches:[Robot](Robot_Workbench.md)
 ---
 

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft ToggleContinueMode
    Name/tr:Devam modunu değiştir
-   MenuLocation:Draft → Utilities → Toggle continue mode
+   MenuLocation:Draft - Utilities - Toggle continue mode
    Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
 ---
 

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Measure Clear All
    Name/pl:Część: Usuń widoczne pomiary
-   MenuLocation:Pomiary → Usuń widoczne pomiary
+   MenuLocation:Pomiary - Usuń widoczne pomiary
    Workbenches:[Część](Part_Workbench/pl.md)
 ---
 

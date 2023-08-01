@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Section
    Name/de:Part Schnittkurve
-   MenuLocation:Formteil → Schnittkurve
+   MenuLocation:Formteil - Schnittkurve
    Workbenches:[Part](Part_Workbench/de.md)
    SeeAlso:[Part Querschnitte](Part_CrossSections/de.md)
 ---

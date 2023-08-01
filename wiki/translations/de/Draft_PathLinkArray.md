@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft PathLinkArray
    Name/de:Draft PfadVerknüpfungsanordnung
-   MenuLocation:Änderung → Array tools → Pfad-Verknüpfungsanordnung
+   MenuLocation:Änderung - Array tools - Pfad-Verknüpfungsanordnung
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Version:0.19
    SeeAlso:[Draft RechtwinkligeAnordnung](Draft_OrthoArray/de.md), [Draft PolareAnordnung](Draft_PolarArray/de.md), [Draft KreisAnordnung](Draft_CircularArray/de.md), [Draft PathArray](Draft_PathArray/de.md), [Draft PunktAnordnung](Draft_PointArray/de.md), [Draft PunktVerknüpfungsanordnung](Draft_PointLinkArray/de.md)

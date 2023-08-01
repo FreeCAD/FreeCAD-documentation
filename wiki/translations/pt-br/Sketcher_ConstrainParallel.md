@@ -3,7 +3,7 @@
    Name:Constraint Parallel
    Name/pt-br:Constraint Parallel
    Workbenches:[Sketcher](Sketcher_Workbench/pt-br.md), [PartDesign](PartDesign_Workbench/pt-br.md)
-   MenuLocation:Sketch → Sketcher constraints → Constrain parallel
+   MenuLocation:Sketch - Sketcher constraints - Constrain parallel
    SeeAlso:[Constraint Vertical](Sketcher_ConstrainVertical/pt-br.md), [Constraint Horizontal](Sketcher_ConstrainHorizontal/pt-br.md)
 ---
 

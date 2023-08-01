@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Raytracing InsertPart
    Name/fr:Raytracing Insérer une pièce
-   MenuLocation:Raytracing → Insérer une pièce
+   MenuLocation:Raytracing - Insérer une pièce
 ‎   Workbenches:[Raytracing](Raytracing_Workbench/fr.md)
    Shortcut:
    SeeAlso:

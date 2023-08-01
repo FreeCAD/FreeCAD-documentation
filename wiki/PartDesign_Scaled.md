@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:PartDesign Scaled
-   MenuLocation:None (Option within Part Design → Apply a pattern → Create MultiTransform)
+   MenuLocation:None (Option within Part Design - Apply a pattern - Create MultiTransform)
    Workbenches:[PartDesign](PartDesign_Workbench.md)
    SeeAlso:[PartDesign MultiTransform](PartDesign_MultiTransform.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std FreeCADDonation
    Name/fr:Std Don à FreeCAD
-   MenuLocation:Aide → Faire un don
+   MenuLocation:Aide - Faire un don
    Workbenches:Tous
    Version:0.19
 ---

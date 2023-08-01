@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Path Pocket Shape
-   MenuLocation:Path → Pocket Shape
+   MenuLocation:Path - Pocket Shape
    Workbenches:[Path](Path_Workbench.md)
 ---
 

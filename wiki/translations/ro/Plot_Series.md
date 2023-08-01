@@ -1,6 +1,6 @@
 # Plot Series/ro
 ---
-- GuiCommand:   Name:Plot Series   MenuLocation:Plot → Series‏‎   |Workbenches:[[Plot_Workbench   Plot]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Plot Series   MenuLocation:Plot - Series‏‎   |Workbenches:[[Plot_Workbench   Plot]]|Shortcut:   SeeAlso:---
 
 
 </div>

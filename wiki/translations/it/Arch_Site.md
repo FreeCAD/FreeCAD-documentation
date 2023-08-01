@@ -3,7 +3,7 @@
    Name:Arch Site
    Name/it:Sito
    Workbenches:[Architettura](Arch_Workbench/it.md)
-   MenuLocation:Arch → Sito
+   MenuLocation:Arch - Sito
    Shortcut:**S** **I**
    SeeAlso:[Piano](Arch_Floor/it.md), [Edificio](Arch_Building/it.md)
 ---

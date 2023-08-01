@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign MoveFeature
    Name/de:PartDesign FormelementVerschieben
-   MenuLocation:Kontextmenü → Objekt in anderen Körper verschieben
+   MenuLocation:Kontextmenü - Objekt in anderen Körper verschieben
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
    SeeAlso:[PartDesign ArbeitspositionFestlegen](PartDesign_MoveTip/de.md), [PartDesign FormelementImBaumVerschieben](PartDesign_MoveFeatureInTree/de.md)

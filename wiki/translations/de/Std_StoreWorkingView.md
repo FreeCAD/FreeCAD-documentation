@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std StoreWorkingView
    Name/de:Std ArbeitsansichtSpeichern
-   MenuLocation:View → Standardansichten → Arbeitsansicht speichern
+   MenuLocation:View - Standardansichten - Arbeitsansicht speichern
    Workbenches:Alle
    Shortcut:**Shift**+**End**
    Version:0.21

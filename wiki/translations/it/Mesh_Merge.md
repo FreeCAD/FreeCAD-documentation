@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh_Merge
    Name/it:Unisci
-   MenuLocation:Mesh → Unisci
+   MenuLocation:Mesh - Unisci
    Workbenches:[Mesh](Mesh_Workbench/it.md)
    SeeAlso:[Dividi in componenti](Mesh_SplitComponents/it.md)
 ---

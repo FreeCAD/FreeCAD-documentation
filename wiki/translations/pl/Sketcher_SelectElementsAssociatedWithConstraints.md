@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher SelectElementsAssociatedWithConstraints
    Name/pl:Szkicownik: Wybierz powiązaną geometrię
-   MenuLocation:Szkic → Narzędzia szkicownika → Wybierz powiązaną geometrię
+   MenuLocation:Szkic - Narzędzia szkicownika - Wybierz powiązaną geometrię
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**Z** **E**
    Version:0.15

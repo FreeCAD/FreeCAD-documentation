@@ -3,7 +3,7 @@
    Name:Assembly3 AutoElementVisibility
    Name/de:Assembly3  ElementAutomatischAnzeigen
    Icon:Assembly_AutoElementVis.svg‎‎
-   MenuLocation:Assembly3 → Element style → Auto element visibility
+   MenuLocation:Assembly3 - Element style - Auto element visibility
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 

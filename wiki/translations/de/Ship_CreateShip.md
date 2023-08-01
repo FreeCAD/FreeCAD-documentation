@@ -3,7 +3,7 @@
    Name:Ship New‏‎
    Name/de:Schiff Neu‏‎
    Icon:Ship_Instance.svg
-   MenuLocation:Schiffskonstruktion → Ein neues Schiff erstellen
+   MenuLocation:Schiffskonstruktion - Ein neues Schiff erstellen
    Workbenches:[Schiff](Ship_Workbench/de.md)|
 Shortcut=
    SeeAlso:

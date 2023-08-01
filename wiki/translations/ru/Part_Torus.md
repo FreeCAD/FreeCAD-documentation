@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Torus
    Name/ru:Тор
-   MenuLocation:Деталь → Примитивы → Тор
+   MenuLocation:Деталь - Примитивы - Тор
    Workbenches:[Part(Деталь)](Part_Workbench/ru.md)
    SeeAlso:[Создать примитивы](Part_Primitives/ru.md)
 ---

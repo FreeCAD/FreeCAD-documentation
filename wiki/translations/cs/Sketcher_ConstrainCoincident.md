@@ -4,7 +4,7 @@
    Name/cs:Constraint PointOnPoint
    Workbenches:[Náčrt](Sketcher_Workbench/cs.md)
    Shortcut:C
-   MenuLocation:Sketch → Sketcher constraints → Constrain coincident
+   MenuLocation:Sketch - Sketcher constraints - Constrain coincident
    SeeAlso:[Constraint Lock](Sketcher_ConstrainLock/cs.md), [Vazba Bod na objekt](Sketcher_ConstrainPointOnObject/cs.md)
 ---
 

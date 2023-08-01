@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_Export
    Name/it:Esporta
-   MenuLocation:File → Esporta...
+   MenuLocation:File - Esporta...
    Workbenches:All
    Shortcut:**Ctrl**+**E**
    SeeAlso:[Esporta PDF](Std_PrintPdf/it.md), [Importazione e Esportazione](Import_Export/it.md), [Preferenze di Importa/Esporta](Import_Export_Preferences/it.md)

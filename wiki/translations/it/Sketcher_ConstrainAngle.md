@@ -4,7 +4,7 @@
    Name/it:Angolo
    Workbenches:[Schizzo](Sketcher_Workbench/it.md)
    Shortcut:**A**
-   MenuLocation:Sketch → Vincoli → Angolo
+   MenuLocation:Sketch - Vincoli - Angolo
    SeeAlso:[Lunghezza](Sketcher_ConstrainDistance/it.md), [Perpendicolare](Sketcher_ConstrainPerpendicular/it.md)
 ---
 

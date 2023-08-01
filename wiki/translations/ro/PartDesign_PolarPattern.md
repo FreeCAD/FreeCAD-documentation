@@ -3,7 +3,7 @@
    Name:PartDesign PolarPattern
    Name/ro:PartDesign PolarPattern
    Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation:PartDesign → PolarPattern
+   MenuLocation:PartDesign - PolarPattern
 ---
 
 # PartDesign PolarPattern/ro

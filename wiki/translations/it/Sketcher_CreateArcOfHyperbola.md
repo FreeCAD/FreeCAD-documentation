@@ -4,7 +4,7 @@
    Name/it:Crea un arco di iperbole
    Icon:Sketcher Hyperbolic Arc.png
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch → Geometrie → Crea un arco di iperbole
+   MenuLocation:Sketch - Geometrie - Crea un arco di iperbole
    Version:0.17
    SeeAlso:[Arco di ellisse](Sketcher_CreateArcOfEllipse/it.md), [Arco di parabola](Sketcher_CreateArcOfParabola/it.md)
 ---

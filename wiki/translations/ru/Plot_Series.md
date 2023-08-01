@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Plot Series
    Name/ru:Plot Series
-   MenuLocation:Plot → Series
+   MenuLocation:Plot - Series
 ‏‎   Workbenches:[Plot](Plot_Workbench/ru.md)
    Shortcut:
    SeeAlso:

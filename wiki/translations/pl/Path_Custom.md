@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Path Custom
-   MenuLocation:Path → Supplemental Commands → Custom
+   MenuLocation:Path - Supplemental Commands - Custom
    Workbenches:[Path](Path_Workbench.md)
 ---
 

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign MoveTip
    Name/de:PartDesign ArbeitspositionFestlegen
-   MenuLocation:Kontextmenü → Arbeitsposition festlegen
+   MenuLocation:Kontextmenü - Arbeitsposition festlegen
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
    SeeAlso:[PartDesign FormelementVerschieben](PartDesign_MoveFeature/de.md), [PartDesign FormelementImBaumVerschieben](PartDesign_MoveFeatureInTree/de.md)

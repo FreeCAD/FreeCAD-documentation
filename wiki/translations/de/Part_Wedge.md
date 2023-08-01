@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Wedge
    Name/de:Part Keil
-   MenuLocation:Formteil → [Grundkörper erstellen...](Part_Primitives/de.md) → Keil
+   MenuLocation:Formteil - [Grundkörper erstellen...](Part_Primitives/de.md) - Keil
    Workbenches:[Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
    SeeAlso:[Part Grundelemente](Part_Primitives/de.md)
 ---

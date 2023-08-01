@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Torus
    Name/pl:Część: Torus
-   MenuLocation:Część  → Bryła pierwotna → Torus
+   MenuLocation:Część  - Bryła pierwotna - Torus
    Workbenches:[Część](Part_Workbench/pl.md)
    SeeAlso:[Bryły pierwotne](Part_Primitives/pl.md)
 ---

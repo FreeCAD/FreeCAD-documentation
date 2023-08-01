@@ -3,7 +3,7 @@
    Name:Sketcher ConstrainPerpendicular
    Name/es:Croquizador RestringirPerpendicular
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation:Croquizador → Restricciones del Croquizador → Perpendicular
+   MenuLocation:Croquizador - Restricciones del Croquizador - Perpendicular
    Shortcut:**N**
    SeeAlso:[Croquizador Restringir Ángulo](Sketcher_ConstrainAngle/es.md)
 ---

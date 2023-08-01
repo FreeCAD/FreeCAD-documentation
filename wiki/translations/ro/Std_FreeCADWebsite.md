@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std FreeCADWebsite
-   MenuLocation:[Help](Std_Help_Menu.md) → FreeCAD Website
+   MenuLocation:[Help](Std_Help_Menu.md) - FreeCAD Website
 ‎   Workbenches:All
 ---
 

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher NewSketch
    Name/it:Crea Schizzo
-   MenuLocation:Schizzo → Crea uno Schizzo
+   MenuLocation:Schizzo - Crea uno Schizzo
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)
    SeeAlso:[PartDesign: Nuovo schizzo](PartDesign_NewSketch/it.md), [Mappa uno schizzo](Sketcher_MapSketch/it.md), [Riposiziona lo schizzo](Sketcher_ReorientSketch/it.md)
 ---

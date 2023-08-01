@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Drawing Annotation
    Name/pl:Kreślenie: Adnotacja
-   MenuLocation:Kreślenie → Adnotacja
+   MenuLocation:Kreślenie - Adnotacja
    Workbenches:[Kreślenie](Drawing_Workbench/pl.md)
 ---
 

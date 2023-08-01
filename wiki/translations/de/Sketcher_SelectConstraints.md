@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher SelectConstraints
    Name/de:Sketcher SelectConstraints
-   MenuLocation:Skizze → Skizzen-Werkzeuge → Zugehörige Elemente auswählen
+   MenuLocation:Skizze - Skizzen-Werkzeuge - Zugehörige Elemente auswählen
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Shortcut:**Z** **K**
    Version:0.15

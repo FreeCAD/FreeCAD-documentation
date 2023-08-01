@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM MeshDisplayInfo
    Name/de:FEM NetzinformationenAnzeigen
-   MenuLocation:Kontextmenü des Mesh-Objekts → Informationen zum FEM-Netz anzeigen
+   MenuLocation:Kontextmenü des Mesh-Objekts - Informationen zum FEM-Netz anzeigen
    Workbenches:[FEM](FEM_Workbench/de.md)
    SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
 ---

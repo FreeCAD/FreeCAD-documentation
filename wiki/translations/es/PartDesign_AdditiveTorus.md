@@ -3,7 +3,7 @@
    Name:PartDesign AdditiveTorus
    Name/es:Part Design Toro aditivo
    Workbenches:[Part Design](PartDesign_Workbench/es.md)
-   MenuLocation:Part Design → Crear una primitiva aditiva → Toro aditivo
+   MenuLocation:Part Design - Crear una primitiva aditiva - Toro aditivo
    Version:0.17
    SeeAlso:[Part Design Crear una Primitiva aditiva](PartDesign_CompPrimitiveAdditive/es.md)
 ---

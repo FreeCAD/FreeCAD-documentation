@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Изогнутая арматура
    Name:Arch_Rebar_BentShape
-   MenuLocation:Arch → Rebar tools → Bent-Shape Rebar<br>3D/BIM → Reinforcement tools → Bent-Shape Rebar
+   MenuLocation:Arch - Rebar tools - Bent-Shape Rebar<br>3D/BIM - Reinforcement tools - Bent-Shape Rebar
    Workbenches:[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
    Version:0.17
    SeeAlso:[Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [Кольцевая арматура](Arch_Rebar_Stirrup/ru.md)

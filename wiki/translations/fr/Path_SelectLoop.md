@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path SelectLoop
    Name/fr:Path Terminer une Boucle
-   MenuLocation:Path → Terminer la boucle de sélection
+   MenuLocation:Path - Terminer la boucle de sélection
    Workbenches:[Path](Path_Workbench/fr.md)
    Shortcut:**P** **L**
 ---

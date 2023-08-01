@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std FreeCADUserHub
    Name/de:Std Benutzerdokumentation
-   MenuLocation:Hilfe → Benutzerdokumentation
+   MenuLocation:Hilfe - Benutzerdokumentation
    Workbenches:All
    SeeAlso:[Std FreeCADWebseite](Std_FreeCADWebsite/de.md), [Std DokumentationSkripterstellungMitPython](Std_FreeCADPowerUserHub/de.md), [Std FreeCADForum](Std_FreeCADForum/de.md), [Std FreeCADFAQ](Std_FreeCADFAQ/de.md)
 ---

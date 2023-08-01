@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path OpActiveToggle
    Name/fr:Path Activer une opération
-   MenuLocation:Path → Activer/désactiver l'état actif de l'opération
+   MenuLocation:Path - Activer/désactiver l'état actif de l'opération
    Workbenches:[Path](Path_Workbench/fr.md)
    Shortcut:**P** **X **
 ---

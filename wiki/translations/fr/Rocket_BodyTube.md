@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Rocket BodyTube
    Name/fr:Rocket Tube du corps
-   MenuLocation:Rocket → Body Tube
+   MenuLocation:Rocket - Body Tube
    Workbenches:[Rocket](Rocket_Workbench/fr.md)
    Version:0.19
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewIvStereoQuadBuff
    Name/pl:Std: Widok poczwórny bufor stereo
-   MenuLocation:Widok → Widok trójwymiarowy → Poczwórny bufor stereo
+   MenuLocation:Widok - Widok trójwymiarowy - Poczwórny bufor stereo
    Workbenches:wszystkie
    SeeAlso:[Widok stereo czerwony / cyjan](Std_ViewIvStereoRedGreen.md), [Widok stereo z przeplotem wierszy](Std_ViewIvStereoInterleavedRows/pl.md), [Widok stereo z przeplotem kolumn](Std_ViewIvStereoInterleavedColumns/pl.md), [Wyłącz widok trójwymiarowy](Std_ViewIvStereoOff/pl.md)
 ---

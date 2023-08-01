@@ -1,6 +1,6 @@
 # Robot SetDefaultValues/it
 ---
-- GuiCommand:   Name:Robot SetDefaultValues   Name/it:Imposta i valori predefiniti   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot → Imposta i valori predefiniti---
+- GuiCommand:   Name:Robot SetDefaultValues   Name/it:Imposta i valori predefiniti   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot - Imposta i valori predefiniti---
 
 
 </div>

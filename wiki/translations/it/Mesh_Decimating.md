@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh_Decimating
    Name/it:Decima
-   MenuLocation:Mesh → Decima...
+   MenuLocation:Mesh - Decima...
    Workbenches:[Mesh](Mesh_Workbench/it.md)
    Version:0.19
 ---

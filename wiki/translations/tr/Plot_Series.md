@@ -2,7 +2,7 @@
 ---
 - GuiCommand:
    Name/tr:Dizi
-   MenuLocation:Arsa → Dizi
+   MenuLocation:Arsa - Dizi
 ‏‎   |Workbenches:[Arsa](Plot_Workbench/tr.md)
    Shortcut:
    SeeAlso:---

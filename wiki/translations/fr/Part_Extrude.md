@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Extrude
    Name/fr:Part Extrusion
-   MenuLocation:Part → Extrusion...
+   MenuLocation:Part - Extrusion...
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Draft Ajuster ou prolonger](Draft_Trimex/fr.md), [PartDesign Protrusion](PartDesign_Pad/fr.md)
 ---

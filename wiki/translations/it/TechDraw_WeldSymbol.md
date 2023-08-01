@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw WeldSymbol
    Name/it:Informazioni di saldatura
-   MenuLocation:TechDraw → Informazioni di saldatura
+   MenuLocation:TechDraw - Informazioni di saldatura
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)
    SeeAlso:[Linea guida](TechDraw_LeaderLine/it.md)
    Version:0.19

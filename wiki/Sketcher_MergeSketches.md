@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher MergeSketches
-   MenuLocation:Sketch → Merge sketches
+   MenuLocation:Sketch - Merge sketches
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Version:0.15
 ---

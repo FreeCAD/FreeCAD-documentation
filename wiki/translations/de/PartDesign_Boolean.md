@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign Boolean
    Name/de:PartDesign Boolesche Operation
-   MenuLocation:Part Design → Boolesche Operation
+   MenuLocation:Part Design - Boolesche Operation
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
 ---

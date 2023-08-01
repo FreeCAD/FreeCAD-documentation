@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Spreadsheet AlignTop
    Name/de:Kalkulationstabelle ObenAusrichten
-   MenuLocation:Kalkulationstabelle → Ausrichtung → Oben Ausrichten
+   MenuLocation:Kalkulationstabelle - Ausrichtung - Oben Ausrichten
    Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)
    Version:0.17
 ---

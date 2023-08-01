@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_TreeSingleDocument
    Name/it:Documento singolo
-   MenuLocation:Visualizza → Azioni della vista ad albero → Documento singolo
+   MenuLocation:Visualizza - Azioni della vista ad albero - Documento singolo
    Workbenches:Tutti
    Version:0.19
    SeeAlso:[Multi documento](Std_TreeMultiDocument/it.md), [Comprimi/espandi](Std_TreeCollapseDocument/it.md)

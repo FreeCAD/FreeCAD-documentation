@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft ToggleConstructionMode
-   MenuLocation:Utilities → Toggle construction mode
+   MenuLocation:Utilities - Toggle construction mode
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    Shortcut:**C** **M**
    SeeAlso:[Draft AddConstruction](Draft_AddConstruction.md), [Draft AutoGroup](Draft_AutoGroup.md)

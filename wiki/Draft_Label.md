@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft Label
-   MenuLocation:Annotation → Label
+   MenuLocation:Annotation - Label
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    Shortcut:**D** **L**
    Version:0.17

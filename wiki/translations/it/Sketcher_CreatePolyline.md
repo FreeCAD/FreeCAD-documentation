@@ -1,6 +1,6 @@
 # Sketcher CreatePolyline/it
 ---
-- GuiCommand:   Name:Sketcher CreatePolyline   Name/it:Polilinea   Workbenches:[MenuLocation:Sketch → Geometrie → Polilinea   SeeAlso:[[Sketcher CreateLine/it|Linea](Sketcher_Workbench/it___Sketcher]].md)---
+- GuiCommand:   Name:Sketcher CreatePolyline   Name/it:Polilinea   Workbenches:[MenuLocation:Sketch - Geometrie - Polilinea   SeeAlso:[[Sketcher CreateLine/it|Linea](Sketcher_Workbench/it___Sketcher]].md)---
 
 
 </div>

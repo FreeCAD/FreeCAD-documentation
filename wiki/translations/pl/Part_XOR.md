@@ -3,7 +3,7 @@
 - GuiCommand:
    Name:Part_XOR
    Name/pl:Część: Logiczny XOR
-   MenuLocation:Część → Rozdziel → Logiczny XOR
+   MenuLocation:Część - Rozdziel - Logiczny XOR
    Workbenches:[Część](Part_Workbench/pl.md)
    Version:0.17
    SeeAlso:[Fragmentacja funkcją logiczną](Part_BooleanFragments/pl.md), [Rozbij na kształty złożenia](Part_Slice/pl.md), [Połącz obiekty](Part_CompJoinFeatures/pl.md), [Operacje logiczne na bryłach](Part_Boolean/pl.md)---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ProjectShape
    Name/fr:TechDraw Projection de forme
-   MenuLocation:TechDraw → Vues de Techdraw → Projeter la forme...
+   MenuLocation:TechDraw - Vues de Techdraw - Projeter la forme...
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut:
    Version:0.20

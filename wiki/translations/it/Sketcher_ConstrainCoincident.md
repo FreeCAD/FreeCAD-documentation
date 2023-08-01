@@ -4,7 +4,7 @@
    Name/it:Coincidenza
    Workbenches:[Schizzo](Sketcher_Workbench/it.md)
    Shortcut:**C**
-   MenuLocation:Sketch → Vincoli → Coincidenza
+   MenuLocation:Sketch - Vincoli - Coincidenza
    SeeAlso:[Blocca](Sketcher_ConstrainBlock/it.md), [Punto su oggetto](Sketcher_ConstrainPointOnObject/it.md)
 ---
 

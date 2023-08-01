@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part PointsFromMesh‎
    Name/pl:Część: Utwórz obiekt punktów z siatki
-   MenuLocation:Część → Utwórz obiekt punktów z siatki
+   MenuLocation:Część - Utwórz obiekt punktów z siatki
    Workbenches:[Część](Part_Workbench/pl.md)
    Version:0.19
    SeeAlso:[Utwórz kształt z siatki](Part_ShapeFromMesh/pl.md), [Przekształć na bryłę](Part_MakeSolid/pl.md), [Udoskonal kształt](Part_RefineShape/pl.md)

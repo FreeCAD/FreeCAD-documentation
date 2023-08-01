@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Создать простую копию‎
    Name:Part_SimpleCopy‎
-   MenuLocation:Part → Создать копию → Создать простую копию
+   MenuLocation:Part - Создать копию - Создать простую копию
    Workbenches:[Part](Part_Workbench/ru.md)
    SeeAlso:[Копировать](Std_Copy/ru.md), [Дублировать выбранное](Std_DuplicateSelection/ru.md), [Создать преобразованную копию](Part_TransformedCopy/ru.md), [Создать копию элемента формы](Part_ElementCopy/ru.md), [Улучшить форму](Part_RefineShape/ru.md)
 ---

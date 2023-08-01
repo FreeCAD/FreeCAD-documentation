@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_DlgParameter
    Name/it:Modifica parametri
-   MenuLocation:Strumenti → Modifica parametri...
+   MenuLocation:Strumenti - Modifica parametri...
    Workbenches:Tutti
    SeeAlso:[Editor delle preferenze](Preferences_Editor/it.md)
 ---

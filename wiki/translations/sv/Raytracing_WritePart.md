@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Raytracing WritePart
    Name/sv:Raytracing Part
-   MenuLocation:Raytracing → Part
+   MenuLocation:Raytracing - Part
    Workbenches:[Raytracing](Raytracing_Workbench/sv.md)
    Shortcut:
    SeeAlso:

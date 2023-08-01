@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw_PageDefault
    Name/it:Nuovo disegno standard
-   MenuLocation:TechDraw → Nuovo disegno standard
+   MenuLocation:TechDraw - Nuovo disegno standard
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)
    SeeAlso:[Nuovo disegno da modello](TechDraw_PageTemplate/it.md), [Modelli di squadrature](TechDraw_Templates/it.md)
 ---

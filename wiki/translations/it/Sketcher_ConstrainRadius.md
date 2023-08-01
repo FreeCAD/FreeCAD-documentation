@@ -1,6 +1,6 @@
 # Sketcher ConstrainRadius/it
 ---
-- GuiCommand:   Name:Sketcher_ConstrainRadius   Name/it:Raggio   Workbenches:[MenuLocation:Schizzo → Vincoli → Raggio   SeeAlso:[[Sketcher ConstrainDistance/it|Distanza orizzontale](Sketcher_Workbench/it___Schizzo]].md), [Distanza verticale](Sketcher_ConstrainDistanceY/it.md)---
+- GuiCommand:   Name:Sketcher_ConstrainRadius   Name/it:Raggio   Workbenches:[MenuLocation:Schizzo - Vincoli - Raggio   SeeAlso:[[Sketcher ConstrainDistance/it|Distanza orizzontale](Sketcher_Workbench/it___Schizzo]].md), [Distanza verticale](Sketcher_ConstrainDistanceY/it.md)---
 
 
 </div>

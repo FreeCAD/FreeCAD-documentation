@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft ToggleConstructionMode
    Name/es:Draft ToggleConstructionMode
-   MenuLocation:Boceto → Utilidades → Alternar modo de construcción
+   MenuLocation:Boceto - Utilidades - Alternar modo de construcción
    Workbenches:[Boceto](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
    Shortcut:**C** **M**
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Spreadsheet AlignLeft
    Name/fr:Spreadsheet Alignement à gauche
-   MenuLocation:Spreadsheet → Alignement → Alignement à gauche
+   MenuLocation:Spreadsheet - Alignement - Alignement à gauche
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/fr.md)
    Version:0.17
 ---

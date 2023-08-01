@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name/de:Part Export
-   MenuLocation:Formteil → CAD Export
+   MenuLocation:Formteil - CAD Export
    Workbenches:[Part](Part_Workbench/de.md)
    SeeAlso:[Part Import](Part_Import/de.md), [Std Export](Std_Export/de.md), [Import Export](Import_Export/de.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Тепловое уравнение
    Name:FEM_EquationHeat
-   MenuLocation: Solve → Тепловое уравнение
+   MenuLocation: Solve - Тепловое уравнение
    Workbenches:[FEM](FEM_Workbench/ru.md)
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
 ---

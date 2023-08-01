@@ -3,7 +3,7 @@
    Name:Arch Floor
    Name/sv:Arch Floor
    Workbenches:[Arch](Arch_Workbench/sv.md)
-   MenuLocation:Arch → Floor
+   MenuLocation:Arch - Floor
    Shortcut:**F** **L**
    SeeAlso:[[Arch Building]], [[Arch BuildingPart]], [[Arch Site]]
 ---

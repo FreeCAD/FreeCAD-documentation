@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft BezCurve
    Name/ro:Draft BezCurve
-   MenuLocation:Draft → BezCurve
+   MenuLocation:Draft - BezCurve
    Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
    Shortcut:B Z
 ---

@@ -4,7 +4,7 @@
    Name/it:Punto su oggettto
    Icon:Constraint_PointOnObject.svg
    Workbenches:[Schizzo](Sketcher_Workbench/it.md)
-   MenuLocation:PartDesign → Schizzo → Punto su oggetto
+   MenuLocation:PartDesign - Schizzo - Punto su oggetto
    Shortcut:**Maiusc** + **O**
    SeeAlso:[Coincidenza](Sketcher_ConstrainCoincident/it.md)
 ---

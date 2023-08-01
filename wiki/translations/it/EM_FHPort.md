@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:EM FHPort
    Name/it:EM FHPort
-   MenuLocation:EM → FHPort
+   MenuLocation:EM - FHPort
    Workbenches:[EM](EM_Workbench/it.md) (add-on)
    Shortcut:**E** **P**
    SeeAlso:[EM FHNode](EM_FHNode/it.md), [EM FHSegment](EM_FHSegment/it.md), [EM FHPath](EM_FHPath/it.md), [EM FHPlane](EM_FHPlane/it.md), [EM FHEquiv](EM_FHEquiv/it.md),

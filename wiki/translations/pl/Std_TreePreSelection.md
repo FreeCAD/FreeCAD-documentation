@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std TreeSelection
    Name/pl:Std: Wybór wstępny w widoku drzewa
-   MenuLocation:Widok → Akcje widoku drzewa → Wybór wstępny
+   MenuLocation:Widok - Akcje widoku drzewa - Wybór wstępny
    Workbenches:Wszystkie
    Shortcut:**T** **4**
    Version:0.19

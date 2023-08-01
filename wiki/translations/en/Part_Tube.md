@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Part Tube
-   MenuLocation:Part → Primitives → Create tube
+   MenuLocation:Part - Primitives - Create tube
    Workbenches:[Part](Part_Workbench.md)
    Version:0.19
    SeeAlso:[Part Primitives](Part_Primitives.md)

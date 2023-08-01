@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewDimetric
    Name/pl:Std: Widok dimetryczny
-   MenuLocation:Widok → Widoki standardowe → Aksonometryczny → Dimetryczny
+   MenuLocation:Widok - Widoki standardowe - Aksonometryczny - Dimetryczny
    Workbenches:wszystkie
    SeeAlso:[Widok izometryczny](Std_ViewIsometric/pl.md), [Widok trimetryczny](Std_ViewTrimetric/pl.md)
 ---

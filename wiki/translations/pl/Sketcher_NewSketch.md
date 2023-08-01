@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher NewSketch
    Name/pl:Szkicownik: Utwórz szkic
-   MenuLocation:Szkic → Utwórz szkic
+   MenuLocation:Szkic - Utwórz szkic
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    SeeAlso:[Utwórz szkic](PartDesign_NewSketch/pl.md), [Zmień orientację szkicu ...](Sketcher_ReorientSketch/pl.md)
 ---

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Surface ExtendFace
-   MenuLocation:Surface → Extend face
+   MenuLocation:Surface - Extend face
    Workbenches:[Surface](Surface_Workbench.md)
    Version:0.17
 ---

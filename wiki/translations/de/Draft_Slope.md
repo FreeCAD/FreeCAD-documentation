@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Slope
    Name/de:Entwurf Neigung
-   MenuLocation:Entwurf → Setze Neigung<br>Dienstprogramme → Setze Neigung
+   MenuLocation:Entwurf - Setze Neigung<br>Dienstprogramme - Setze Neigung
    Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
    Version:0.17
 ---

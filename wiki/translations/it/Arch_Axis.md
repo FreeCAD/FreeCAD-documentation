@@ -4,7 +4,7 @@
    Name:Arch Axis
    Name/it:Assi
    Workbenches:[Arch](Arch_Workbench/it.md)
-   MenuLocation:Arch → Assi   Shortcut:**A** **X**
+   MenuLocation:Arch - Assi   Shortcut:**A** **X**
    SeeAlso:[Sistema di assi](Arch_AxisSystem/it.md), [Griglia](Arch_Grid/it.md)---
 
 

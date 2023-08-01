@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Rebar LShape
    Name/ro:Arch Rebar LShape
-   MenuLocation:Arch → Rebar tools
+   MenuLocation:Arch - Rebar tools
    Workbenches:[Arch](Arch_Workbench/ro.md), [BIM](BIM_Workbench/ro.md)
    SeeAlso:[Bent Rebar](Arch_Rebar_BentShape/ro.md), [Rebar](Arch_Rebar/ro.md)
    Version:0.17

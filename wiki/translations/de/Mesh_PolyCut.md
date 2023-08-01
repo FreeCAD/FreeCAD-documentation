@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh PolyCut
    Name/de:Mesh PolygonSchnitt
-   MenuLocation:Netze → Schneiden → Netz schneiden
+   MenuLocation:Netze - Schneiden - Netz schneiden
    Workbenches:[Mesh](Mesh_Workbench.md)
    SeeAlso:[Mesh PolygonTrim](Mesh_PolyTrim/de.md), [Mesh EbenenTrim](Mesh_TrimByPlane/de.md)
 ---

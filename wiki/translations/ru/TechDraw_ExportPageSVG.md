@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Экспорт листа в SVG
    Name:TechDraw_ExportPageSVG
-   MenuLocation:TechDraw → Экспорт листа в SVG
+   MenuLocation:TechDraw - Экспорт листа в SVG
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    SeeAlso:[Шаблоны](TechDraw_Templates/ru.md), [Draft SVG](Draft_SVG/ru.md)
 ---

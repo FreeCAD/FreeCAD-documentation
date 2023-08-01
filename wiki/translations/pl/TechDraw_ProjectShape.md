@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ProjectShape
    Name/pl:Rysunek Techniczny: Rzutowanie kształtów
-   MenuLocation:Rysunek Techniczny → Widoki → Rzutowanie kształtów ...
+   MenuLocation:Rysunek Techniczny - Widoki - Rzutowanie kształtów ...
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20

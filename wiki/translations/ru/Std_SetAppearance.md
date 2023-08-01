@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std SetAppearance
    Name/ru:Внешний вид
-   MenuLocation:Вид → Внешний вид...
+   MenuLocation:Вид - Внешний вид...
    Workbenches:All
    Shortcut:**Ctrl**+**D**
    SeeAlso:[Part FaceColors](Part_FaceColors/ru.md)

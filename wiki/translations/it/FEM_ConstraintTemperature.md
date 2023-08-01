@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM_ConstraintTemperature
    Name/it:Vincolo temperatura
-   MenuLocation:Modello → Vincoli termici → Vincolo temperatura
+   MenuLocation:Modello - Vincoli termici - Vincolo temperatura
    Workbenches:[FEM](FEM_Workbench/it.md)
    Shortcut:
    SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)

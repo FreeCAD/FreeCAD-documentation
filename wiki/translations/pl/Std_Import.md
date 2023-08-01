@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std Import
    Name/pl:Std: Importuj
-   MenuLocation:Plik → Importuj ...
+   MenuLocation:Plik - Importuj ...
    Workbenches:wszystkie
    Shortcut:**Ctrl** + **I**
    SeeAlso:[Otwórz](Std_Open/pl.md), [Import Export](Import_Export/pl.md), [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl.md)

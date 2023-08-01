@@ -3,7 +3,7 @@
    Name:Draft BSpline
    Name/ro:Funcții BSpline
    Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   MenuLocation:Draft → BSpline
+   MenuLocation:Draft - BSpline
    Shortcut:**B** **S**
    SeeAlso:[Draft Wire](Draft_Wire/ro.md)
 ---

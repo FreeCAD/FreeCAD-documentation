@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewHome
    Name/fr:Std Accueil
-   MenuLocation:Affichage → Vues standards → Accueil
+   MenuLocation:Affichage - Vues standards - Accueil
    Workbenches:Tout
    Shortcut:**⇱ Touche de début**
    Version:0.19

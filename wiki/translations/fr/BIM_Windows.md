@@ -4,7 +4,7 @@
    Name/fr:BIM Fenêtres
    Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/fr.md)
    Addon:BIM
-   MenuLocation:Manage → Manage doors and windows
+   MenuLocation:Manage - Manage doors and windows
 ---
 
 # BIM Windows/fr

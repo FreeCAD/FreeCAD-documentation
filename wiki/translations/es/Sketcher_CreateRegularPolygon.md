@@ -3,7 +3,7 @@
    Name:Sketcher CreateRegularPolygon
    Name/es:Croquizador CrearPolígonoRegular
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation:Dibujar → Dibujar geometrías → Crear un polígono regular
+   MenuLocation:Dibujar - Dibujar geometrías - Crear un polígono regular
    Shortcut:
    SeeAlso:
 ---

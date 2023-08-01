@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:FEM SolverRun
-   MenuLocation:Solve → Run solver calculations
+   MenuLocation:Solve - Run solver calculations
    Workbenches:[FEM](FEM_Workbench.md)
    Shortcut:**S** **R**
    SeeAlso:[FEM Solver job control](FEM_SolverControl.md)

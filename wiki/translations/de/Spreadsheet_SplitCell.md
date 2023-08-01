@@ -3,7 +3,7 @@
    Name:Spreadsheet SplitCell
    Name/de:Kalkulationstabelle ZellenTeilen
    Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)
-   MenuLocation:Kalkulationstabelle → Zellen Teilen
+   MenuLocation:Kalkulationstabelle - Zellen Teilen
    Version:0.17
 ---
 

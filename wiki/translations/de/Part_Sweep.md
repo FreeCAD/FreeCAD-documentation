@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Sweep
    Name/de:Part Austragung
-   MenuLocation:Formteil → Sweep...
+   MenuLocation:Formteil - Sweep...
    Workbenches:[Part](Part_Workbench/de.md)
    SeeAlso:[Part Ausformung](Part_Loft/de.md)
 ---

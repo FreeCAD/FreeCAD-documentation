@@ -1,7 +1,7 @@
 ---
 - GuiCommand:-cn
    Name:镜像草图
-   MenuLocation:Sketch → 镜像草图
+   MenuLocation:Sketch - 镜像草图
    Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md)
    Version:0.16
 ---

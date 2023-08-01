@@ -4,7 +4,7 @@
    Name/ru:Продлить
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**G** **Q**
-   MenuLocation:Эскиз → Геометрия эскиза → Продлить
+   MenuLocation:Эскиз - Геометрия эскиза - Продлить
    Version:0.17
    SeeAlso:[Обрезать](Sketcher_Trimming/ru.md)
 ---

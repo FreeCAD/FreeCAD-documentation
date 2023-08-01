@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std ViewBottom
-   MenuLocation:View → Standard views → Bottom
+   MenuLocation:View - Standard views - Bottom
    Workbenches:All
    Shortcut:**5**
    SeeAlso:[Std ViewRear](Std_ViewRear.md), [Std ViewLeft](Std_ViewLeft.md)

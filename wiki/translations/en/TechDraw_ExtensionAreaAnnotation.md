@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ExtensionAreaAnnotation
-   MenuLocation:TechDraw → Extensions: Attributes/Modifications → Calculate the area of selected faces
+   MenuLocation:TechDraw - Extensions: Attributes/Modifications - Calculate the area of selected faces
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20

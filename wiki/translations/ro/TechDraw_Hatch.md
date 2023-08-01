@@ -1,6 +1,6 @@
 # TechDraw Hatch/ro
 ---
-- GuiCommand:   Name:TechDraw Hatch   Workbenches:[MenuLocation:TechDraw → Hatch   Shortcut:   SeeAlso:[[TechDraw_Hatching|TechDraw Hatching](TechDraw_Workbench___TechDraw]].md)---
+- GuiCommand:   Name:TechDraw Hatch   Workbenches:[MenuLocation:TechDraw - Hatch   Shortcut:   SeeAlso:[[TechDraw_Hatching|TechDraw Hatching](TechDraw_Workbench___TechDraw]].md)---
 
 
 </div>

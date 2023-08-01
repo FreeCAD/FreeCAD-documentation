@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std CloseAllWindows
    Name/pl:Std: Zamknij wszystkie okna
-   MenuLocation:Plik → Zamknij wszystkie
+   MenuLocation:Plik - Zamknij wszystkie
    Workbenches:wszystkie
    SeeAlso:[Zamknij](Std_CloseActiveWindow/pl.md)
 ---

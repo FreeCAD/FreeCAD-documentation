@@ -1,6 +1,6 @@
 # Sketcher ViewSketch/cs
 ---
-- GuiCommand:   Name:Sketcher ViewSketch   Name/cs:Skicář Pohled náčrtu   Workbenches:[Návrh dílu](Sketcher_Workbench/cs___Skicář]],_[[PartDesign_Workbench/cs.md)|MenuLocation:Náčrt → Pohled náčrtu---
+- GuiCommand:   Name:Sketcher ViewSketch   Name/cs:Skicář Pohled náčrtu   Workbenches:[Návrh dílu](Sketcher_Workbench/cs___Skicář]],_[[PartDesign_Workbench/cs.md)|MenuLocation:Náčrt - Pohled náčrtu---
 
 
 </div>

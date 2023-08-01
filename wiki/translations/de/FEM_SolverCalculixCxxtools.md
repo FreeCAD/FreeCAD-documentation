@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM SolverCalculixCxxtools
    Name/de:FEM LöserCalculixCxxtools
-   MenuLocation:Lösen → Solver CalculiX Standard
+   MenuLocation:Lösen - Solver CalculiX Standard
    Workbenches:[FEM](FEM_Workbench/de.md)
    Shortcut:**S** **X**
    SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)

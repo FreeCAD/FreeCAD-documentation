@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_Revert
    Name/it:Ripristina
-   MenuLocation:File → Ripristina
+   MenuLocation:File - Ripristina
    Workbenches:Tutti
 ---
 

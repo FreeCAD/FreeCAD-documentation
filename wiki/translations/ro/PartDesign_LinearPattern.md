@@ -1,6 +1,6 @@
 # PartDesign LinearPattern/ro
 ---
-- GuiCommand:   Name:PartDesign LinearPattern   Workbenches:[[PartDesign Workbench   PartDesign]], Complete|MenuLocation:PartDesign → LinearPattern---
+- GuiCommand:   Name:PartDesign LinearPattern   Workbenches:[[PartDesign Workbench   PartDesign]], Complete|MenuLocation:PartDesign - LinearPattern---
 
 
 </div>

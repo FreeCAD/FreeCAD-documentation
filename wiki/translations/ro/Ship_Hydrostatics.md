@@ -1,6 +1,6 @@
 # Ship Hydrostatics/ro
 ---
-- GuiCommand:   Name:Ship Hydrostatics   MenuLocation:Ship design → Hydrostatics   |Workbenches:[[Ship Workbench   Ship]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Ship Hydrostatics   MenuLocation:Ship design - Hydrostatics   |Workbenches:[[Ship Workbench   Ship]]|Shortcut:   SeeAlso:---
 
 
 </div>

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher ConstrainTangent
    Workbenches:[Sketcher](Sketcher_Workbench.md)
-   MenuLocation:Sketch → Sketcher constraints → Constrain tangent
+   MenuLocation:Sketch - Sketcher constraints - Constrain tangent
    Shortcut:T
    SeeAlso:[Constraint point on object](Sketcher_ConstrainPointOnObject.md)
 ---

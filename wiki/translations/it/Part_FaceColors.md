@@ -3,7 +3,7 @@
    Name:Part_FaceColors
    Name/it:Imposta i colori
    Empty:1
-   MenuLocation:Menu contestuale → Imposta i colori...
+   MenuLocation:Menu contestuale - Imposta i colori...
    Workbenches:[Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md)
    SeeAlso:[Aspetto](Std_SetAppearance/it.md)
 ---

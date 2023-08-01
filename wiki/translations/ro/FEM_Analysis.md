@@ -1,6 +1,6 @@
 # FEM Analysis/ro
 ---
-- GuiCommand:   Name:FEM Analysis   Name/ro:FEM Analysis   MenuLocation:Model → Analysis container‏‎   |Workbenches:[Shortcut:N,A   SeeAlso:[[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
+- GuiCommand:   Name:FEM Analysis   Name/ro:FEM Analysis   MenuLocation:Model - Analysis container‏‎   |Workbenches:[Shortcut:N,A   SeeAlso:[[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
 
 
 </div>

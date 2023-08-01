@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher BSplineDecreaseKnotMultiplicity
-   MenuLocation:Sketch → Sketcher B-spline tools → Decrease knot multiplicity
+   MenuLocation:Sketch - Sketcher B-spline tools - Decrease knot multiplicity
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Version:0.17
    SeeAlso:[Sketcher Show/hide B-spline knot multiplicity](Sketcher_BSplineKnotMultiplicity.md), [Sketcher BSpline Increase knot multiplicity](Sketcher_BSplineIncreaseKnotMultiplicity.md)

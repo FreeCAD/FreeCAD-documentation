@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_Import
    Name/it:Importa
-   MenuLocation:File → Importa...
+   MenuLocation:File - Importa...
    Workbenches:All
    Shortcut:**Ctrl**+**I**
    SeeAlso:[Apri](Std_Open/it.md), [Importazione e Esportazione](Import_Export/it.md), [Preferenze di Importa/Esporta](Import_Export_Preferences/it.md)

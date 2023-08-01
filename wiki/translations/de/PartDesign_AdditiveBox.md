@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign AdditiveBox
    Name/de:PartDesign QuaderHinzufügen
-   MenuLocation:Part Design → Grundkörper hinzufügen → Quader
+   MenuLocation:Part Design - Grundkörper hinzufügen - Quader
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
    SeeAlso:[PartDesign AuswahlGrundkörperHinzufügen](PartDesign_CompPrimitiveAdditive/de.md), [PartDesign QuaderAbziehen](PartDesign_SubtractiveBox/de.md)

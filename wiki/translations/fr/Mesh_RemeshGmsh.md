@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh RemeshGmsh
    Name/fr:Mesh Affiner
-   MenuLocation:Maillages → Affiner...
+   MenuLocation:Maillages - Affiner...
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
    Version:0.19
    SeeAlso:[Mesh Créer un maillage](Mesh_FromPartShape/fr.md)

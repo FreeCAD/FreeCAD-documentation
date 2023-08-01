@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher ConstrainBlock
    Name/pl:Szkicownik: Wiązanie zablokowania
-   MenuLocation:Szkic → Wiązania szkicownika → Wiązanie zablokowania
+   MenuLocation:Szkic - Wiązania szkicownika - Wiązanie zablokowania
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**K** **B**
    Version:0.17

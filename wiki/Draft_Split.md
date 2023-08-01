@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft Split
-   MenuLocation:Modification → Split
+   MenuLocation:Modification - Split
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    Shortcut:**S** **P**
    Version:0.18

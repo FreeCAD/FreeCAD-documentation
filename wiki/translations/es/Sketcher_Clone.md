@@ -9,7 +9,7 @@
    Name/ro:Sketcher Clonă
    Name/ru:Sketcher Клонировать
    Workbenches:[Sketcher](Sketcher_Workbench/es.md)
-   MenuLocation:Sketch → Herriamentas de croquis → Clonar
+   MenuLocation:Sketch - Herriamentas de croquis - Clonar
    Version:0.16
    SeeAlso:[Sketcher Copiar](Sketcher_Copy/es.md), [Sketcher Move](Sketcher_Move/es.md)
 ---

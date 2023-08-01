@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Вставить электронную таблицу
    Name:TechDraw_SpreadsheetView
-   MenuLocation:TechDraw → Вставить электронную таблицу
+   MenuLocation:TechDraw - Вставить электронную таблицу
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md), [Spreadsheet](Spreadsheet_Workbench/ru.md)
 ---
 

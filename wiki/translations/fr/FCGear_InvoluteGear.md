@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FCGear InvoluteGear
    Name/fr:FCGear Engrenage à développante
-   MenuLocation:Gear → Involute Gear
+   MenuLocation:Gear - Involute Gear
    Workbenches:[FCGear](FCGear_Workbench/fr.md)
    Shortcut:Aucun
    Version:v0.16

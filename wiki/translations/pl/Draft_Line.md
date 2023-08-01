@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Line
    Name/pl:Rysunek roboczy: Linia
-   MenuLocation:Kreślenie → Linia
+   MenuLocation:Kreślenie - Linia
    Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
    Shortcut:**L** **I**
    Version:0.7

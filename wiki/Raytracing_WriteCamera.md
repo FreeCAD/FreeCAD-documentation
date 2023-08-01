@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Raytracing WriteCamera‏‎
-   MenuLocation:Raytracing → Camera‏‎
+   MenuLocation:Raytracing - Camera‏‎
    Workbenches:[Raytracing](Raytracing_Workbench.md)
    Shortcut:
    SeeAlso:

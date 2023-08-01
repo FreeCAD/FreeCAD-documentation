@@ -1,6 +1,6 @@
 # Std Save/es
 ---
-- GuiCommand:   Name:Std Save   Name/es:Std Save   MenuLocation:[Workbenches:All   Shortcut:Crtl+S   SeeAlso:[[Std_SaveAs/es|Save as...](Std_File_Menu/es___File]]_→_Save.md)---
+- GuiCommand:   Name:Std Save   Name/es:Std Save   MenuLocation:[Workbenches:All   Shortcut:Crtl+S   SeeAlso:[[Std_SaveAs/es|Save as...](Std_File_Menu/es___File]]_-_Save.md)---
 
 
 </div>

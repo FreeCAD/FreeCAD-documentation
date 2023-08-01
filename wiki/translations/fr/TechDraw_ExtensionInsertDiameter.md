@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionInsertDiameter
    Name/fr:TechDraw Diamètre
-   MenuLocation:TechDraw → Extensions : cotes → Insérer un préfixe '⌀'
+   MenuLocation:TechDraw - Extensions : cotes - Insérer un préfixe '⌀'
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut:
    Version:0.20

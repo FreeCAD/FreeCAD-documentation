@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch SetMaterial
    Name/es:Arch SetMaterial
-   MenuLocation:Arch → Set material...
+   MenuLocation:Arch - Set material...
    Workbenches:[Arch](Arch_Workbench/es.md), [BIM](BIM_Workbench/es.md)
    Shortcut:**M** **T**
 ---

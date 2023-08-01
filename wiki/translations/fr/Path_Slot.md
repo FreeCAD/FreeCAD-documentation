@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path Slot
    Name/fr:Path Rainure
-   MenuLocation:Path → Rainurer
+   MenuLocation:Path - Rainurer
    Workbenches:[Path](Path_Workbench/fr.md)
    Version:0.19
 ---

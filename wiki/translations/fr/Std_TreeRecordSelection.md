@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std TreeRecordSelection
    Name/fr:Std Arborescence Enregistrer la sélection
-   MenuLocation:Affichage → Vue en arborescence → Enregistrer la sélection
+   MenuLocation:Affichage - Vue en arborescence - Enregistrer la sélection
    Workbenches:Tous
    Shortcut:**T** **5**
    Version:0.19

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM PostCreateFunctionCylinder
    Name/fr:FEM Filtre fonction cylindre
-   MenuLocation:Résultats → Fonctions de filtrage → Cylindre
+   MenuLocation:Résultats - Fonctions de filtrage - Cylindre
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Version:0.21
    SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)

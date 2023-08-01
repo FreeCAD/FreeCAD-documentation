@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path Vcarve
    Name/fr:Path Gravure en V
-   MenuLocation:Path → Graver en V
+   MenuLocation:Path - Graver en V
    Workbenches:[Path](Path_Workbench/fr.md)
    Version:0.19
 ---

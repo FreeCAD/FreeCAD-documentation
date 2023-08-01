@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch CurtainWall
    Name/it:Facciata continua
-   MenuLocation:Arch → Facciata continua
+   MenuLocation:Arch - Facciata continua
    Workbenches:[Arch](Arch_Workbench/it.md)
    Shortcut:**C** **W**
    Version:0.19

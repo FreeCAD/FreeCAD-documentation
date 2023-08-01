@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch AxisSystem
    Name/fr:Arch Système d'axes
-   MenuLocation:Arch → Outils pour les axes → Système d'axes
+   MenuLocation:Arch - Outils pour les axes - Système d'axes
    Workbenches:[Arch](Arch_Workbench/fr.md)
    SeeAlso:[Arch Axes](Arch_Axis/fr.md), [Arch Grille](Arch_Grid/fr.md)
 ---

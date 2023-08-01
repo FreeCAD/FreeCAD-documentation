@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft ShapeString
    Name/pl:Rysunek Roboczy: Kształt z tekstu
-   MenuLocation:Kreślenie → Kształt z tekstu ...
+   MenuLocation:Kreślenie - Kształt z tekstu ...
    Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
    Shortcut:
    Version:0.14

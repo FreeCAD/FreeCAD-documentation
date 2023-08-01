@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Выделить область
    Name:Part_BoxSelection
-   MenuLocation:Part → Выделить область
+   MenuLocation:Part - Выделить область
    Workbenches:[Part](Part_Workbench/ru.md)
    Version:0.18
    SeeAlso:[Выделить область](Std_BoxSelection/ru.md), [Область выбора элементов](Std_BoxElementSelection/ru.md), [Выбрать всё](Std_SelectAll/ru.md)

@@ -3,7 +3,7 @@
 - GuiCommand:
    Name:Plot Labels
    Name/ru:Plot Labels
-   MenuLocation:Plot → Настроить подписи
+   MenuLocation:Plot - Настроить подписи
    Workbenches:[Plot](Plot_Workbench/ru.md)
    Shortcut:   SeeAlso:---
 

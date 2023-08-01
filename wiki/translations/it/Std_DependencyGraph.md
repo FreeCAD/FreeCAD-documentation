@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_DependencyGraph
    Name/it:Grafico delle dipendenze
-   MenuLocation:Strumenti → Grafico delle dipendenze...
+   MenuLocation:Strumenti - Grafico delle dipendenze...
    Workbenches:Tutti
 ---
 

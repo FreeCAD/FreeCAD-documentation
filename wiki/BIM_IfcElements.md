@@ -3,7 +3,7 @@
    Name:BIM IfcElements
    Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
    Addon:BIM
-   MenuLocation:Manage → IFC Elements
+   MenuLocation:Manage - IFC Elements
    SeeAlso:[[BIM IfcProperties]],[[BIM IfcQuantities]]
 ---
 

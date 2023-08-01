@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Box   Name/it:Cubo
    Icon:Part Box.svg
-   MenuLocation:Parte → Primitive → Cubo
+   MenuLocation:Parte - Primitive - Cubo
    Workbenches:[Parte](Part_Workbench/it.md)
    SeeAlso:[Crea primitive...](Part_CreatePrimitives/it.md)
    Version:?

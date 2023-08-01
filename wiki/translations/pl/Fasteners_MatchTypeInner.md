@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Fasteners MatchTypeInner
-   MenuLocation:Fasteners → Match for tap hole
+   MenuLocation:Fasteners - Match for tap hole
    Workbenches:[Fasteners](Fasteners_Workbench.md)
    SeeAlso:[Fasteners MatchTypeOuter](Fasteners_MatchTypeOuter.md)
 ---

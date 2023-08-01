@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewIvStereoQuadBuff
    Name/it:Stereo quad buffer
-   MenuLocation:Visualizza → Stereo → Stereo quad buffer
+   MenuLocation:Visualizza - Stereo - Stereo quad buffer
    Workbenches:Tutti
    SeeAlso:[Stereo rosso/ciano](Std_ViewIvStereoRedGreen/it.md), [Stereo a righe interlacciate](Std_ViewIvStereoInterleavedRows/it.md), [Stereo a colonne interlacciate](Std_ViewIvStereoInterleavedColumns/it.md), [Stereo Off](Std_ViewIvStereoOff/it.md)
 ---

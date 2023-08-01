@@ -5,7 +5,7 @@
    Name/it:Vincolo verticale
    Workbenches:[Schizzo](Sketcher_Workbench/it.md)
    Shortcut:**V**
-   MenuLocation:Sketch → Vincoli → Verticale
+   MenuLocation:Sketch - Vincoli - Verticale
    SeeAlso:[Orizzontale](Sketcher_ConstrainHorizontal/it.md)
 ---
 

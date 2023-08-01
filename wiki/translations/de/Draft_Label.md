@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Label
    Name/de:Draft Notiz
-   MenuLocation:Anmerkung → Bezeichnung
+   MenuLocation:Anmerkung - Bezeichnung
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**D** **L**
    Version:0.17

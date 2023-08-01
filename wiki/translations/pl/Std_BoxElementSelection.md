@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std BoxElementSelection
    Name/pl:Std: Wybór elementów ramką zaznaczenia
-   MenuLocation:Edycja → Wybór elementów ramką zaznaczenia
+   MenuLocation:Edycja - Wybór elementów ramką zaznaczenia
    Workbenches:All
    Shortcut:**Shift** + **E**
    SeeAlso:[Zaznacz obszar](Std_BoxSelection/pl.md), [Zaznacz wszystko](Std_SelectAll/pl.md)

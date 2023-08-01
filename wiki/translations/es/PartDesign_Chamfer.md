@@ -3,7 +3,7 @@
    Name:PartDesign Chamfer
    Name/es:DiseñoPieza Chaflán
    Workbenches:[DiseñoPieza](PartDesign_Workbench/es.md)
-   MenuLocation:DiseñoPieza → Chaflán
+   MenuLocation:DiseñoPieza - Chaflán
    SeeAlso:[Redondeo](PartDesign_Fillet/es.md), [Pieza Chaflán](Part_Chamfer/es.md)
 ---
 

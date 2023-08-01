@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewFullscreen
    Name/it:Schermo intero
-   MenuLocation:Visualizza → Finestra del documento → Schermo intero
+   MenuLocation:Visualizza - Finestra del documento - Schermo intero
    Workbenches:Tutti
    Shortcut:**F11**
    SeeAlso:[Finestra del documento](Std_ViewDockUndockFullscreen/it.md), [Vista principale a schermo intero](Std_MainFullscreen/it.md)

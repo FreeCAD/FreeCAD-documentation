@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Dimension
    Name/ro:Cotare
-   MenuLocation:Draft → Dimension
+   MenuLocation:Draft - Dimension
    Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
    Shortcut:**D** **I**
    SeeAlso:[FlipDimension](Draft_FlipDimension/ro.md)

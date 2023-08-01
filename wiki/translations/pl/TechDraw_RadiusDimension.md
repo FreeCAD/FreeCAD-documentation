@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw RadiusDimension
    Name/pl:Rysunek Techniczny: Wstaw wymiar promienia
-   MenuLocation:Rysunek Techniczny → Wymiary → Wstaw wymiar promienia
+   MenuLocation:Rysunek Techniczny - Wymiary - Wstaw wymiar promienia
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    SeeAlso:[Wstaw wymiar średnicy](TechDraw_DiameterDimension/pl.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher ConstrainHorizontal
    Name/de:Sketcher HorizontalFestlegen
-   MenuLocation:Sketch → Skizzen-Beschränkungen → Horizontal einschränken
+   MenuLocation:Sketch - Skizzen-Beschränkungen - Horizontal einschränken
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Shortcut:**H**
    SeeAlso:[Sketcher VertikalFestlegen](Sketcher_ConstrainVertical/de.md)

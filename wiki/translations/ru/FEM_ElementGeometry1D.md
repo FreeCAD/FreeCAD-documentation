@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM ElementGeometry1D
    Name/ru:FEM ElementGeometry1D
-   MenuLocation:Model → Beam cross section
+   MenuLocation:Model - Beam cross section
    Workbenches:[FEM](FEM_Workbench/ru.md)
    Shortcut:**C** **B**
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)

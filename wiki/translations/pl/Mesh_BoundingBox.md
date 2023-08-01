@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh BoundingBox
    Name/pl:Siatka: Informacje o granicach
-   MenuLocation:Siatki → Analizuj → Informacje o granicach ...
+   MenuLocation:Siatki - Analizuj - Informacje o granicach ...
    Workbenches:[Mesh](Mesh_Workbench.md)
 ---
 

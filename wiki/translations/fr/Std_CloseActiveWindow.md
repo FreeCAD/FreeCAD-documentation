@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std CloseActiveWindow
    Name/fr:Std Fermer
-   MenuLocation:Fichier → Fermer
+   MenuLocation:Fichier - Fermer
    Workbenches:Tous
    Shortcut:**Ctrl**+**W**
    SeeAlso:[Std Fermer tout](Std_CloseAllWindows/fr.md)

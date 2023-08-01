@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Dimension
    Name/es:Draft Dimension
-   MenuLocation:Croquis → Cotas
+   MenuLocation:Croquis - Cotas
    Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
    Shortcut:**D** **I**
    SeeAlso:[FlipDimension](Draft_FlipDimension/es.md)

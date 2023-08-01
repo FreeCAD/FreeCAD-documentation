@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Создать окружность по трём точкам
    Name:Sketcher_Create3PointCircle
-   MenuLocation:Sketch → Геометрия эскиза → Создать окружность по трём точкам
+   MenuLocation:Sketch - Геометрия эскиза - Создать окружность по трём точкам
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**G** **3** **C**
    SeeAlso:

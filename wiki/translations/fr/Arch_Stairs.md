@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Stairs
    Name/fr:Arch Escalier
-   MenuLocation:Arch → Escalier
+   MenuLocation:Arch - Escalier
    Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**S** **R**
    Version:0.14

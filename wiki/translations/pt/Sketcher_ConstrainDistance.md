@@ -3,7 +3,7 @@
    Name:Sketcher ConstrainDistance
    Name/pt:Restringir distância
    Workbenches:[Sketcher](Sketcher_Workbench/pt.md)
-   MenuLocation:Sketch → Sketcher constraints → Constrain distance
+   MenuLocation:Sketch - Sketcher constraints - Constrain distance
    Shortcut:Shift + D
    SeeAlso:[Constraint HorizontalDistance](Sketcher_ConstrainDistanceX/pt.md), [Constraint VerticalDistance](Sketcher_ConstrainDistanceY/pt.md)
 ---

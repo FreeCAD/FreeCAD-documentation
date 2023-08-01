@@ -1,6 +1,6 @@
 # Mesh Union/ro
 ---
-- GuiCommand:   Name:Mesh Union‏‎   MenuLocation:Meshes → Boolean → Union   Workbenches:[Shortcut:   SeeAlso:[[Mesh_Merge|Merge](Mesh_Workbench___Mesh]].md)---
+- GuiCommand:   Name:Mesh Union‏‎   MenuLocation:Meshes - Boolean - Union   Workbenches:[Shortcut:   SeeAlso:[[Mesh_Merge|Merge](Mesh_Workbench___Mesh]].md)---
 
 
 </div>

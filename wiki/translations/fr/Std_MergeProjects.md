@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std MergeProjects
    Name/fr:Std Fusion de projets
-   MenuLocation:Fichier → Fusionner un projet...
+   MenuLocation:Fichier - Fusionner un projet...
    Workbenches:Tous
 ---
 

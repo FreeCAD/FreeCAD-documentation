@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign AdditiveCone
    Name/de:PartDesign KegelHinzufügen
-   MenuLocation:Part Design → Grundkörper hinzufügen → Kegel
+   MenuLocation:Part Design - Grundkörper hinzufügen - Kegel
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
    SeeAlso:[PartDesign AuswahlGründkörperHinzufügen](PartDesign_CompPrimitiveAdditive/de.md), [PartDesign KegelAbziehen](PartDesign_SubtractiveCone/de.md)

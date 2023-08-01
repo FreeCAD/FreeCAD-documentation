@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Ограничение параллельности
    Name:Sketcher_ConstrainParallel
-   MenuLocation:Sketch → Ограничения эскиза → Ограничение параллельности
+   MenuLocation:Sketch - Ограничения эскиза - Ограничение параллельности
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**P**
    SeeAlso:[Ограничение вертикальности](Sketcher_ConstrainVertical/ru.md), [Ограничение горизонтальности](Sketcher_ConstrainHorizontal/ru.md)

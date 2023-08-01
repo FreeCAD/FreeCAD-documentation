@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path Comment
    Name/ru:Path Comment
-   MenuLocation:Path → Supplemental commands → Закомментировать
+   MenuLocation:Path - Supplemental commands - Закомментировать
    Workbenches:[Path](Path_Workbench/ru.md)
    Shortcut:**P** **C**
    SeeAlso:

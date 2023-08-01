@@ -4,7 +4,7 @@
    Name:Robot CreateTrajectory
    Name/tr:Yörünge oluştur
    Workbenches:[Robot](Robot_Workbench/tr.md)
-   MenuLocation:Robot → Yörünge oluştur---
+   MenuLocation:Robot - Yörünge oluştur---
 
 
 </div>

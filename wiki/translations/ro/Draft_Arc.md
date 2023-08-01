@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Arc
    Name/ro:Arc de Cerc
-   MenuLocation:Draft → Arc
+   MenuLocation:Draft - Arc
    Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
    Shortcut:A R
    SeeAlso:[Draft Circle](Draft_Circle/ro.md)

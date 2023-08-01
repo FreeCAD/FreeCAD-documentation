@@ -4,7 +4,7 @@
    Name/sv:Toggle construction geometry
    Icon:Sketcher_AlterConstruction.svg
    Workbenches:[Sketcher](Sketcher_Workbench/sv.md)
-   MenuLocation:Sketch → Skissgeometrier → Toggle construction geometry
+   MenuLocation:Sketch - Skissgeometrier - Toggle construction geometry
 ---
 
 # Sketcher ToggleConstruction/sv

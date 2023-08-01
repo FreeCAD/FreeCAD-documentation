@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:SheetMetal UnattendedUnfold
    Name/de:SheetMetal AbwickelnOhneEingabe
-   MenuLocation:SheetMetal → Unattended Unfold
+   MenuLocation:SheetMetal - Unattended Unfold
    Workbenches:[Blech (SheetMetal)](SheetMetal_Workbench/de.md)
    Shortcut:**U**
 |[SheetMetal Abwickeln](SheetMetal_Unfold/de.md)

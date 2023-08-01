@@ -3,7 +3,7 @@
    Name:Std ViewBoxZoom
    Name/ru:Std ViewBoxZoom
    Workbenches:All
-   MenuLocation:Вид → Масштаб‏‎ → Увеличить область
+   MenuLocation:Вид - Масштаб‏‎ - Увеличить область
    Shortcut:**Ctrl**+**B**
    SeeAlso:[Std ViewZoomIn](Std_ViewZoomIn/ru.md), [Std ViewZoomOut](Std_ViewZoomOut/ru.md)
 ---

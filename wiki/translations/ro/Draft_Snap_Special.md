@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Snap Special
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   MenuLocation:Draft → [Snap](Draft_Snap.md) → Special
+   MenuLocation:Draft - [Snap](Draft_Snap.md) - Special
    Shortcut:
    SeeAlso:
 ---

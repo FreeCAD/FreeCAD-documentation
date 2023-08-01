@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM ConstraintFixed
    Name/fr:FEM Contrainte d'immobilisation
-   MenuLocation:Modèle → Contraintes mécaniques → Contrainte d'immobilisation
+   MenuLocation:Modèle - Contraintes mécaniques - Contrainte d'immobilisation
    Workbenches:[FEM](FEM_Workbench/fr.md)
    SeeAlso:[FEM Contrainte de contact](FEM_ConstraintContact/fr.md)
 ---

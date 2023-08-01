@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw AxoHorizontalDimension
    Name/fr:TechDraw Cote axonométrique
-   MenuLocation:TechDraw → Annotations → Cote axonométrique
+   MenuLocation:TechDraw - Annotations - Cote axonométrique
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Version:0.21
 ---

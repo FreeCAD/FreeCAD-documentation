@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM PostFilterWarp
    Name/fr:FEM Filtre des déformations
-   MenuLocation:Résultats → Filtre des déformations
+   MenuLocation:Résultats - Filtre des déformations
    Workbenches:[FEM](FEM_Workbench/fr.md)
    SeeAlso:[FEM Pipeline de résultats](FEM_PostPipelineFromResult/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
 ---

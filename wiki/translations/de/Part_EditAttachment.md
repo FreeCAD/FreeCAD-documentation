@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Attachment
    Name/de:Part Befestigen
-   MenuLocation:Part → Befestigung...
+   MenuLocation:Part - Befestigung...
    Workbenches:[Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
    SeeAlso:[Positionierung](Placement/de.md),

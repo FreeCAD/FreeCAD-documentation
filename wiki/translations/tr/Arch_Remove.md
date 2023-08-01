@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Remove
    Name/tr:Mimari Kaldır
-   MenuLocation:Arch → Remove
+   MenuLocation:Arch - Remove
    Workbenches:[Arch](Arch_Workbench.md)
    SeeAlso:[[Arch Add]]
 ---

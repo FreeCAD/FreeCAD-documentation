@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std FreeCADDonation
    Name/de:Std FreeCADSpenden
-   MenuLocation:Hilfe → Spenden
+   MenuLocation:Hilfe - Spenden
    Workbenches:All
    Version:0.19
 ---

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch Stairs
-   MenuLocation:Arch → Stairs
+   MenuLocation:Arch - Stairs
    Workbenches:[Arch](Arch_Workbench.md)
    Shortcut:**S** **R**
    Version:0.14

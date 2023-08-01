@@ -3,7 +3,7 @@
    Name:Drawing SpreadsheetView
    Name/fr:Drawing Vue d'une feuille de calcul
    Workbenches:[Drawing](Drawing_Workbench/fr.md)
-   MenuLocation:Drawing → insérer une vue d'une feuille de calcul...
+   MenuLocation:Drawing - insérer une vue d'une feuille de calcul...
 ---
 
 # Drawing SpreadsheetView/fr

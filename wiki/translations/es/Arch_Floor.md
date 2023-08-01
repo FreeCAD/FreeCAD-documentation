@@ -3,7 +3,7 @@
    Name:Arch Floor
    Name/es:Arch Floor
    Workbenches:[Entorno de Arquitectura](Arch_Workbench/es.md)
-   MenuLocation:Arquitectura → Piso
+   MenuLocation:Arquitectura - Piso
    Shortcut:**F** **L**
    SeeAlso:
 ---

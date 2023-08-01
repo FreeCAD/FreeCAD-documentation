@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft BezCurve
    Name/de:Entwurf BezKurve
-   MenuLocation:Entwurf → Bézierwerkzeuge → BézKurve
+   MenuLocation:Entwurf - Bézierwerkzeuge - BézKurve
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**B** **Z**
    Version:0.14

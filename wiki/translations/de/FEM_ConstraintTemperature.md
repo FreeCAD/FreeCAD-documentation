@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM ConstraintTemperature
    Name/de:FEM RandbedingungTemperatur
-   MenuLocation:Modell → Thermische Randbedingungen → Randbedingung Temperatur 
+   MenuLocation:Modell - Thermische Randbedingungen - Randbedingung Temperatur 
    Workbenches:[FEM](FEM_Workbench/de.md)
    Shortcut:
    SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)

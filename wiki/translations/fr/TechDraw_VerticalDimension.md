@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw VerticalDimension
    Name/fr:TechDraw Cote verticale
-   MenuLocation:TechDraw → Dimensions → Insérer une cote verticale
+   MenuLocation:TechDraw - Dimensions - Insérer une cote verticale
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut:**Maj** + **V**
    SeeAlso:[TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md), [TechDraw Cote horizontale](TechDraw_HorizontalDimension/fr.md)

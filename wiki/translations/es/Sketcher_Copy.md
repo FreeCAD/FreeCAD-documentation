@@ -3,7 +3,7 @@
    Name:Sketcher Copy
    Name/es:Sketcher Copiar
    Workbenches:[Sketcher](Sketcher_Workbench/es.md)
-   MenuLocation:Sketch → Herramientas de croquis → Copiar
+   MenuLocation:Sketch - Herramientas de croquis - Copiar
    Version:0.16
    SeeAlso:[Sketcher Clonar](Sketcher_Clone/es.md), [Sketcher Move](Sketcher_Move/es.md)
 ---

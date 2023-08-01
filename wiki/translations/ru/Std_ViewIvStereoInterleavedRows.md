@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Стерео с чередованием строк
    Name:Std_ViewIvStereoInterleavedRows
-   MenuLocation:Вид → Стерео → Stereo interleaved Rows
+   MenuLocation:Вид - Стерео - Stereo interleaved Rows
    Workbenches:Все
    SeeAlso:[Стерео красный/голубой](Std_ViewIvStereoRedGreen/ru.md), [Четверная буферизация стерео](Std_ViewIvStereoQuadBuff/ru.md), [Стерео с чередованием столбцов](Std_ViewIvStereoInterleavedColumns/ru.md), [Выключить стерео](Std_ViewIvStereoOff/ru.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Slice
    Name/pl:Część: Rozbij na kształty złożenia
-   MenuLocation:Część → Rozdziel → Rozbij na kształty złożenia
+   MenuLocation:Część - Rozdziel - Rozbij na kształty złożenia
    Workbenches:[Część](Part_Workbench/pl.md)
    Version:0.17
    SeeAlso:[Funkcja logiczna rozdzielająca](Part_BooleanFragments/pl.md), [Logiczny XOR](Part_XOR/pl.md), [Połącz obiekty](Part_CompJoinFeatures/pl.md), [Operacje logiczne na bryłach](Part_Boolean/pl.md)

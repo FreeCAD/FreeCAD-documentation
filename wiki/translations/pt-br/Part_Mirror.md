@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Part Mirror
-   MenuLocation:Part → Mirror
+   MenuLocation:Part - Mirror
    Workbenches:[Part](Part_Workbench.md)
 ---
 

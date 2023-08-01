@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Frame
    Name/it:Carpenteria
-   MenuLocation:Arch → Carpenteria
+   MenuLocation:Arch - Carpenteria
    Workbenches:[Arch](Arch_Workbench/it.md)
    Shortcut:**F** **R**
    SeeAlso:[Parete](Arch_Wall/it.md), [Struttura](Arch_Structure/it.md)

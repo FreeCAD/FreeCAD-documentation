@@ -3,7 +3,7 @@
    Name:Sketcher ConstrainTangent
    Name/es:Croquizador RestringirTangent
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation:Croquis → Restricciones Croquizador →  Restringir Tangent
+   MenuLocation:Croquis - Restricciones Croquizador -  Restringir Tangent
    Shortcut:T
    SeeAlso:[Restriccion Punto sobre objeto](Sketcher_ConstrainPointOnObject/es.md)
 ---

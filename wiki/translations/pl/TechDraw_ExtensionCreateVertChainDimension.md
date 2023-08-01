@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionCreateVertChainDimension
    Name/pl:Rysunek Techniczny: Rozszerzenie Seria wymiarów pionowo
-   MenuLocation:Rysunek Techniczny → Rozszerzenia: Wymiary → Seria wymiarów pionowo
+   MenuLocation:Rysunek Techniczny - Rozszerzenia: Wymiary - Seria wymiarów pionowo
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20

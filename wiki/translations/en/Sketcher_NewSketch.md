@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher NewSketch
-   MenuLocation:Sketch → Create sketch
+   MenuLocation:Sketch - Create sketch
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    SeeAlso:[PartDesign NewSketch](PartDesign_NewSketch.md), [Sketcher MapSketch](Sketcher_MapSketch.md), [Sketcher Reorient](Sketcher_ReorientSketch.md)
 ---

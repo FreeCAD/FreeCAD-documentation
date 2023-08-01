@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:PartDesign AdditiveEllipsoid
-   MenuLocation:Part Design → Create an additive primitive → Additive Ellipsoid
+   MenuLocation:Part Design - Create an additive primitive - Additive Ellipsoid
    Workbenches:[PartDesign](PartDesign_Workbench.md)
    Version:0.17
    SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md), [PartDesign SubtractiveEllipsoid](PartDesign_SubtractiveEllipsoid.md)

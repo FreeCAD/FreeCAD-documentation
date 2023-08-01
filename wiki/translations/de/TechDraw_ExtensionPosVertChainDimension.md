@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionPosVertChainDimension
    Name/de:TechDraw ErgänzungVertikaleKettenmaßeAnordnen
-   MenuLocation:TechDraw → Extensions: Attributes/Modifications → Position Vertical Chain Dimensions
+   MenuLocation:TechDraw - Extensions: Attributes/Modifications - Position Vertical Chain Dimensions
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20

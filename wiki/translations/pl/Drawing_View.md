@@ -3,7 +3,7 @@
    Name:Drawing View
    Name/pl:Kreślenie: Widok
    Workbenches:[Kreślenie](Drawing_Workbench/pl.md)
-   MenuLocation:Kreślenie → Wstaw widok w rysunku
+   MenuLocation:Kreślenie - Wstaw widok w rysunku
    Shortcut:brak
    SeeAlso:[Rysunek w formacie poziomym A3](Drawing_Landscape_A3/pl.md)
 ---

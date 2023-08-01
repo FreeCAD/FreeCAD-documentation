@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Measure Toggle Delta
    Name/pl:Część: Włącz / wyłącz widok pomiarów przyrostowych
-   MenuLocation:Pomiary → Włącz / wyłącz widok pomiarów przyrostowych
+   MenuLocation:Pomiary - Włącz / wyłącz widok pomiarów przyrostowych
    Workbenches:[Część](Part_Workbench/pl.md)
    SeeAlso:[Włącz / wyłącz widoczność pomiarów](Part_Measure_Toggle_All/pl.md),  [Włącz / wyłącz widok pomiarów 3D](Part_Measure_Toggle_3D/pl.md)
 ---

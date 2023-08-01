@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Robot TrajectoryDressUp
    Name/fr:Robot Habillage de trajectoire
-   MenuLocation:Robot → Habillage de trajectoire
+   MenuLocation:Robot - Habillage de trajectoire
    Workbenches:[Robot](Robot_Workbench/fr.md)
 ---
 

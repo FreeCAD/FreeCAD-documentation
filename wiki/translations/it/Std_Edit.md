@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_Edit
    Name/it:Modalità modifica
-   MenuLocation:Modifica → Attiva/disattiva Modalità modifica
+   MenuLocation:Modifica - Attiva/disattiva Modalità modifica
    Workbenches:Tutti
 ---
 

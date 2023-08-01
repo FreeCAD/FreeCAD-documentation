@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ExtensionThreadBoltBottom
-   MenuLocation:TechDraw → Extensions: Centerlines/Threading → Add Cosmetic Thread Bolt Bottom View
+   MenuLocation:TechDraw - Extensions: Centerlines/Threading - Add Cosmetic Thread Bolt Bottom View
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw_SectionView
    Name/it:Vista di sezione
-   MenuLocation:TechDraw → Vista di sezione
+   MenuLocation:TechDraw - Vista di sezione
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)
    SeeAlso:[Vista](TechDraw_View/it.md), [Gruppo di proiezioni](TechDraw_ProjectionGroup/it.md)
 ---

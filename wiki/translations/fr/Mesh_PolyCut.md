@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh PolyCut
    Name/fr:Mesh Couper un maillage
-   MenuLocation:Maillages → Couper → Couper le maillage
+   MenuLocation:Maillages - Couper - Couper le maillage
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
    SeeAlso:[Mesh Ajuster](Mesh_PolyTrim/fr.md), [Mesh Ajuster par plan](Mesh_TrimByPlane/fr.md)
 ---

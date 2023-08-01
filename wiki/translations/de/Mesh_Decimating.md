@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Mesh Decimating
-   MenuLocation:Meshes → Decimation...
+   MenuLocation:Meshes - Decimation...
    Workbenches:[Mesh](Mesh_Workbench.md)
    Version:0.19
 ---

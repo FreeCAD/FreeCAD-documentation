@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Fillet
    Name/it:Raccordo
-   MenuLocation:Drafting → Raccordo
+   MenuLocation:Drafting - Raccordo
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**F** **I**
    Version:0.19

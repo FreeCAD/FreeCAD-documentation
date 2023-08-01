@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std Print
    Name/ru:Std Print
-   MenuLocation:Файл → Печать...
+   MenuLocation:Файл - Печать...
    Workbenches:All
    Shortcut:**Ctrl**+**P**
    SeeAlso:[Предварительный просмотр...](Std_PrintPreview/ru.md), [Std PrintPdf](Std_PrintPdf/ru.md), [Std Export](Std_Export/ru.md), [Std ViewScreenShot](Std_ViewScreenShot/ru.md)

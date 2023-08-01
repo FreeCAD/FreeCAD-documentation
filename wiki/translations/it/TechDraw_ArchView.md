@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw_ArchView
    Name/it:Vista di Arch
-   MenuLocation:TechDraw → Vista di Arch
+   MenuLocation:TechDraw - Vista di Arch
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)
    SeeAlso:[Arch](Arch_Workbench/it.md), [Piano di sezione di Arch](Arch_SectionPlane/it.md)
 ---

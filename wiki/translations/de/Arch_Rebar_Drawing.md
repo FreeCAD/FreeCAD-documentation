@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch Rebar Drawing
-   MenuLocation:Arch → Rebar
+   MenuLocation:Arch - Rebar
    Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
    SeeAlso:[Reinforcement Dimensioning](Arch_Rebar_Dimensioning.md), [Reinforcement Addon](Reinforcement_Addon.md)
    Version:0.19

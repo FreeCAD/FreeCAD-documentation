@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:EM FHSegment
-   MenuLocation:EM → FHSegment
+   MenuLocation:EM - FHSegment
    Workbenches:[EM](EM_Workbench.md)
    Shortcut:**E** **S**
    Version:0.17

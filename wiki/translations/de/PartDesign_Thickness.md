@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign Thickness
    Name/de:PartDesign Dicke
-   MenuLocation:Part Design → Modifikationen → Dicke
+   MenuLocation:Part Design - Modifikationen - Dicke
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
    SeeAlso:[Part Dicke](Part_Thickness/de.md)

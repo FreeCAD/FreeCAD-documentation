@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Строительная деталь
    Name:Arch_BuildingPart
-   MenuLocation:Arch → Строительная деталь
+   MenuLocation:Arch - Строительная деталь
    Workbenches:[Arch](Arch_Workbench/ru.md)
    Version:0.18
    SeeAlso:[Здание](Arch_Building/ru.md), [Местность](Arch_Site/ru.md)

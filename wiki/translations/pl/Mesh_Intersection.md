@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh Intersection
    Name/pl:Siatka Przecięcie
-   MenuLocation:Siatki → Operacje logiczne → Przecięcie
+   MenuLocation:Siatki - Operacje logiczne - Przecięcie
    Workbenches:[Siatka](Mesh_Workbench/pl.md)
    SeeAlso:[Połączenie](Mesh_Union/pl.md), [Różnica](Mesh_Difference/pl.md)
 ---

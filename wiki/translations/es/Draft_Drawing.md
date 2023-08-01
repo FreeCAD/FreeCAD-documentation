@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft_Drawing
    Name/es:Dibujo
-   MenuLocation:Croquis → Dibujo
+   MenuLocation:Croquis - Dibujo
    Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
 ---
 

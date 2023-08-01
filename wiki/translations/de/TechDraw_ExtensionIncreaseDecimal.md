@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionIncreaseDecimal
    Name/de:TechDraw ErgänzungDezimalstellenzahlErhöhen
-   MenuLocation:TechDraw → Ergänzungen: Maße → Dezimalstellenanzahl erhöhen
+   MenuLocation:TechDraw - Ergänzungen: Maße - Dezimalstellenanzahl erhöhen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20

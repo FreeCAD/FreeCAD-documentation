@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Spreadsheet CreateSheet
    Name/fr:Spreadsheet Création d'une feuille de calcul
-   MenuLocation:Spreadsheet → Créer une feuille de calcul
+   MenuLocation:Spreadsheet - Créer une feuille de calcul
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/fr.md)
    Version:0.17
 ---

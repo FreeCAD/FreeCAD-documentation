@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Ограничение горизонтальности
    Name:Sketcher_ConstrainHorizontal
-   MenuLocation:Sketch → Ограничения эскиза → Ограничение горизонтальности
+   MenuLocation:Sketch - Ограничения эскиза - Ограничение горизонтальности
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**H**
    SeeAlso:[Ограничение вертикальности](Sketcher_ConstrainVertical/ru.md)

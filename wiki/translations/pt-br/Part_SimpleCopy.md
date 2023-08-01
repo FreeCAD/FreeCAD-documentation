@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Part SimpleCopy‎
-   MenuLocation:Part → Create a copy → Create simple copy
+   MenuLocation:Part - Create a copy - Create simple copy
    Workbenches:[Part](Part_Workbench.md)
    SeeAlso:[Std Copy](Std_Copy.md), [Std Duplicate Selection](Std_DuplicateSelection.md), [Part TransformedCopy](Part_TransformedCopy.md), [Part ElementCopy](Part_ElementCopy.md), [Part RefineShape](Part_RefineShape.md)
 ---

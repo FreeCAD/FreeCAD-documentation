@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FCGear WormGear
    Name/de:FCGear WormGear
-   MenuLocation:Gear → Worm Gear
+   MenuLocation:Gear - Worm Gear
    Workbenches:[FCGear](FCGear_Workbench/de.md)
    Shortcut:Kein
    Version:v0.16

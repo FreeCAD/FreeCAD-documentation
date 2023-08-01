@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Axis
    Name/de:Arch Achse
-   MenuLocation:Arch → Achsenwerkzeuge → Achse
+   MenuLocation:Arch - Achsenwerkzeuge - Achse
    Workbenches:[Arch](Arch_Workbench/de.md)
    Shortcut:**A** **X**
    SeeAlso:[Arch AchsenSystem](Arch_AxisSystem/de.md), [Arch Gitter](Arch_Grid/de.md)

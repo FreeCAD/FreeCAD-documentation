@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:SheetMetal AddRelief
    Name/de:SheetMetal EntlastungsausschnittHinzufügen
-   MenuLocation:SheetMetal → Make Relief
+   MenuLocation:SheetMetal - Make Relief
    Workbenches:[Blech (SheetMetal)](SheetMetal_Workbench/de.md)
    Shortcut:**S** **R**
    SeeAlso:[SheetMetal Stoß hinzufügen](SheetMetal_AddJunction/de.md), [SheetMetal Biegung hinzufügen](SheetMetal_AddBend/de.md)

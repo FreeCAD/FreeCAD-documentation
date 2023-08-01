@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std Transform
    Name/it:Trasforma
-   MenuLocation:Fare clic con il pulsante destro del mouse su un oggetto nella vista ad albero → Trasforma
+   MenuLocation:Fare clic con il pulsante destro del mouse su un oggetto nella vista ad albero - Trasforma
    Workbenches:All
    SeeAlso:[Menu standard di base](Std_Base/it.md)
 ---

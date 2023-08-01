@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM SolverZ88
    Name/fr:FEM Solveur Z88
-   MenuLocation:Résolution → Solveur Z88
+   MenuLocation:Résolution - Solveur Z88
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Shortcut:**S** **Z**
    SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)

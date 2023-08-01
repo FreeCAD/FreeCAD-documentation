@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Layer
    Name/fr:Draft Calque
-   MenuLocation:Utilitaires → Calque
+   MenuLocation:Utilitaires - Calque
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Version:0.19
    SeeAlso:[Draft Groupement automatique](Draft_AutoGroup/fr.md), [Gestionnaire de calques](Draft_LayerManager/fr.md)

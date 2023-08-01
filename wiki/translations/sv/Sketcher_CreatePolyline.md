@@ -1,6 +1,6 @@
 # Sketcher CreatePolyline/sv
 ---
-- GuiCommand:   Name:Sketcher CreatePolyline   Name/sv:Sketcher CreatePolyline   Workbenches:[MenuLocation:Sketch → Sketcher geometries → Create polyline   SeeAlso:[[Sketcher CreateLine/sv|Sketcher Line](Sketcher_Workbench/sv___Sketcher]].md)---
+- GuiCommand:   Name:Sketcher CreatePolyline   Name/sv:Sketcher CreatePolyline   Workbenches:[MenuLocation:Sketch - Sketcher geometries - Create polyline   SeeAlso:[[Sketcher CreateLine/sv|Sketcher Line](Sketcher_Workbench/sv___Sketcher]].md)---
 
 
 </div>

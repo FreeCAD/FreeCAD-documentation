@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Snap WorkingPlane
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   MenuLocation:Draft → [Snap](Draft_Snap.md) → WorkingPlane
+   MenuLocation:Draft - [Snap](Draft_Snap.md) - WorkingPlane
    Shortcut:
    SeeAlso:
 ---

@@ -3,7 +3,7 @@
    Name:Constraint InternalAngle
    Name/sv:Constraint InternalAngle
    Workbenches:[Sketcher](Sketcher_Workbench/sv.md), [PartDesign](PartDesign_Workbench/sv.md)
-   Shortcut:A   MenuLocation:Sketch → Sketcher constraints → Constrain angle
+   Shortcut:A   MenuLocation:Sketch - Sketcher constraints - Constrain angle
    SeeAlso:[Constraint Length](Sketcher_ConstrainDistance/sv.md), [Constraint Perpendicular](Sketcher_ConstrainPerpendicular/sv.md)
 ---
 

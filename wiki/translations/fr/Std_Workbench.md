@@ -3,7 +3,7 @@
    Name:Std Workbench
    Name/fr:Std Atelier
    Empty:1
-   MenuLocation:Affichage → Atelier
+   MenuLocation:Affichage - Atelier
    Workbenches:[Ateliers](Workbenches/fr.md)
 ---
 

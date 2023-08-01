@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path Profile
    Name/de:Pfad Profil
-   MenuLocation:Pfad → Profil
+   MenuLocation:Pfad - Profil
    Workbenches:[Pfad](Path_Workbench/de.md)
    Version:0.19
 ---

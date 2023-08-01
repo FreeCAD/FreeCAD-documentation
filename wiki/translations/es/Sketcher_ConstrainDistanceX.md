@@ -3,7 +3,7 @@
    Name:Sketcher ConstrainDistanceX
    Name/es:Restricción de distancia horizontal
    Workbenches:[Sketcher](Sketcher_Workbench/es.md)
-   MenuLocation:Sketch → Restricciones de croquis  → Restricción de distancia horizontal
+   MenuLocation:Sketch - Restricciones de croquis  - Restricción de distancia horizontal
    Shortcut:May + H
    SeeAlso:[Restricción de longitud](Sketcher_ConstrainDistance/es.md), [Restricción de distancia vertical](Sketcher_ConstrainDistanceY/es.md)
 ---

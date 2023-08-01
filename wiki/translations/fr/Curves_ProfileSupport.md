@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Curves ProfileSupport
    Name/fr:Curves Plan de support
-   MenuLocation:Surfaces → Profile support plane
+   MenuLocation:Surfaces - Profile support plane
    Workbenches:[Curves](Curves_Workbench/fr.md)
 ---
 

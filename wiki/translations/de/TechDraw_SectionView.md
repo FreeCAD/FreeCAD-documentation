@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw SectionView
    Name/de:TechDraw Schnittansicht
-   MenuLocation:TechDraw→ TechDraw Ansichten → Schnittansicht einfügen
+   MenuLocation:TechDraw- TechDraw Ansichten - Schnittansicht einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    SeeAlso:[TechDraw KomplexerSchnitt](TechDraw_ComplexSection/de.md), [TechDraw Ansicht einfügen](TechDraw_View/de.md), [TechDraw Ansichtengruppe einfügen](TechDraw_ProjectionGroup/de.md)
 ---

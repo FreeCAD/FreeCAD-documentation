@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher ToggleDrivingConstraint
    Name/de:Sketcher UmschalterFührendeRandbedingung
-   MenuLocation:Sketch → Skizzen-Beschränkungen → Einschränkung zwischen festlegend und anzeigend umschalten
+   MenuLocation:Sketch - Skizzen-Beschränkungen - Einschränkung zwischen festlegend und anzeigend umschalten
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Shortcut:**K** **X**
    Version:0.16

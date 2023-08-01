@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part CrossSections
    Name/pl:Część: Przekrój poprzeczny
-   MenuLocation:Część → Przekrój poprzeczny ...
+   MenuLocation:Część - Przekrój poprzeczny ...
    Workbenches:[Część](Part_Workbench/pl.md)
    SeeAlso:[Przekrój](Part_Section/pl.md)
 ---

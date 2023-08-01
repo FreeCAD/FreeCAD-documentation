@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:SheetMetal AddCornerRelief
-   MenuLocation:SheetMetal → Add Corner Relief
+   MenuLocation:SheetMetal - Add Corner Relief
    Workbenches:[SheetMetal](SheetMetal_Workbench.md)
    Shortcut:**C** **R**
 ---

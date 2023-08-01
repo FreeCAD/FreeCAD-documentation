@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Measure Refresh
    Name/fr:Part Rafraîchir les mesures
-   MenuLocation:Mesure → Rafraîchir les mesures
+   MenuLocation:Mesure - Rafraîchir les mesures
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Part Mesure linéaire](Part_Measure_Linear/fr.md), [Part Mesure angulaire](Part_Measure_Angular/fr.md)
 ---

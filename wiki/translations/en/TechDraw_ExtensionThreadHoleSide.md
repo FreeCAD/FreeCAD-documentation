@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ExtensionThreadHoleSide
-   MenuLocation:TechDraw → Extensions: Centerlines/Threading → Add Cosmetic Thread Hole Side View
+   MenuLocation:TechDraw - Extensions: Centerlines/Threading - Add Cosmetic Thread Hole Side View
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20

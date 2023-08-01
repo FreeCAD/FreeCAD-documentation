@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Boolean
    Name/ru:Part Boolean
-   MenuLocation:Деталь → Булевы операции
+   MenuLocation:Деталь - Булевы операции
    Workbenches:[Part](Part_Workbench/ru.md)
    SeeAlso:[Объединение](Part_Union/ru.md), [Пересечение](Part_Common/ru.md), [Обрезать](Part_Cut/ru.md) и [Part Section](Part_Section/ru.md)
 ---

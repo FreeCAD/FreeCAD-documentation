@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Common
    Name/ro:Part Common
-   MenuLocation:Part → Common
+   MenuLocation:Part - Common
    Workbenches:[Part](Part_Workbench/ro.md)
    SeeAlso:[Part Union](Part_Union/ro.md), [Part Cut](Part_Cut/ro.md)
 ---

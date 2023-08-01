@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Move
    Name/ro:Draft Move
-   MenuLocation:Draft → Move
+   MenuLocation:Draft - Move
    Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
    Shortcut:**M** **V**
    Version:0.7

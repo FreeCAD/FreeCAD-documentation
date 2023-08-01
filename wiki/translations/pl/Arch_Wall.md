@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch Wall
-   MenuLocation:Arch → Wall
+   MenuLocation:Arch - Wall
    Workbenches:[Arch](Arch_Workbench.md)
    Shortcut:**W** **A**
    SeeAlso:[Arch Structure](Arch_Structure.md)

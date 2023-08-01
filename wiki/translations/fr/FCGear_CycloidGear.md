@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FCGear CycloidGear
    Name/fr:FCGear Engrenage cycloïde
-   MenuLocation:Gear → Cycloid Gear
+   MenuLocation:Gear - Cycloid Gear
    Workbenches:[FCGear](FCGear_Workbench/fr.md)
    Shortcut:Aucun
    Version:v0.16

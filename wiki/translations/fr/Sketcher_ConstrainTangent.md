@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher ConstrainTangent
    Name/fr:Sketcher Contrainte tangente
-   MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte tangente
+   MenuLocation:Esquisse - Contraintes d'esquisse - Contrainte tangente
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**T**
    SeeAlso:[Sketcher Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md)

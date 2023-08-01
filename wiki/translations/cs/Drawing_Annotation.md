@@ -1,6 +1,6 @@
 # Drawing Annotation/cs
 ---
-- GuiCommand:   Name:Drawing_Annotation   Name/cs:Drawing Annotation   Workbenches:[[Drawing Workbench/cs   Vykreslování]], Complete|MenuLocation:Drawing → Annotation   Shortcut:none---
+- GuiCommand:   Name:Drawing_Annotation   Name/cs:Drawing Annotation   Workbenches:[[Drawing Workbench/cs   Vykreslování]], Complete|MenuLocation:Drawing - Annotation   Shortcut:none---
 
 
 </div>

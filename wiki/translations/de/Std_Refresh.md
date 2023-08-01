@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std Refresh
    Name/de:Std Aktualisieren
-   MenuLocation:Bearbeiten → Aktualisieren
+   MenuLocation:Bearbeiten - Aktualisieren
    Workbenches:Alle
    Shortcut:**F5**
 ---

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher RemoveAxesAlignment
-   MenuLocation:Sketch → Sketcher tools → Remove axes alignment
+   MenuLocation:Sketch - Sketcher tools - Remove axes alignment
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**Z** **R**
    Version:0.20

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Raytracing WriteView
    Name/it:Raytracing WriteView
-‏‎‏‎   MenuLocation:Raytracing  → Utilità → Esporta
+‏‎‏‎   MenuLocation:Raytracing  - Utilità - Esporta
    Workbenches:[Raytracing](Raytracing_Workbench/it.md)
    Shortcut:
    SeeAlso:

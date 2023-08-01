@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch MergeWalls
-   MenuLocation:Arch → Utilities → Merge Walls
+   MenuLocation:Arch - Utilities - Merge Walls
    Workbenches:[Arch](Arch_Workbench.md)
    SeeAlso:[Arch Wall](Arch_Wall.md)
 ---

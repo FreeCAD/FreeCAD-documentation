@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Curves MultiLoft
-   MenuLocation:Surfaces → MultiLoft
+   MenuLocation:Surfaces - MultiLoft
    Workbenches:[Curves](Curves_Workbench.md)
 ---
 

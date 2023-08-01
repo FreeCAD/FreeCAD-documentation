@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Fasteners MatchTypeInner
    Name/de:Fasteners AuswahlNachInnenmaß
-   MenuLocation:Fasteners → Match for tap hole
+   MenuLocation:Fasteners - Match for tap hole
    Workbenches:[Fasteners](Fasteners_Workbench/de.md)
    SeeAlso:[Fasteners AuswahlNachAußenmaß](Fasteners_MatchTypeOuter/de.md)
 ---

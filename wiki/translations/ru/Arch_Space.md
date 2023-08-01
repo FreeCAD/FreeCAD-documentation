@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Space
    Name/ru:Arch Space
-   MenuLocation:Архитектура → Пространство
+   MenuLocation:Архитектура - Пространство
    Workbenches:[Arch](Arch_Workbench/ru.md)
    Shortcut:**S** **P**
    Version:0.14

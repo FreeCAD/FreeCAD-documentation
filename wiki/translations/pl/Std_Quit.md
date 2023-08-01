@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std Quit
    Name/pl:Std: Zakończ
-   MenuLocation:Plik → Zakończ
+   MenuLocation:Plik - Zakończ
    Workbenches:Wszystkie
    Shortcut:**Alt** + **F4**
    SeeAlso:[Zamknij aktywne okno](Std_CloseActiveWindow/pl.md)

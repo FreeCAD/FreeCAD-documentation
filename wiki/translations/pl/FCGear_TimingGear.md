@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:FCGear TimingGear
-   MenuLocation:Gear → Timing Gear
+   MenuLocation:Gear - Timing Gear
    Workbenches:[FCGear](FCGear_Workbench.md)
    Shortcut:None
    Version:v0.16

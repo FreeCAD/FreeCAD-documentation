@@ -1,6 +1,6 @@
 # Part Boolean/sv
 ---
-- GuiCommand:   Name:Part_Booleans   Name/sv:Booleans   MenuLocation:Part → Booleans   Workbenches:Del, Komplett   SeeAlso:[Union](Part_Union/sv.md), [Common](Part_Common/sv.md) and [Cut](Part_Cut/sv.md)---
+- GuiCommand:   Name:Part_Booleans   Name/sv:Booleans   MenuLocation:Part - Booleans   Workbenches:Del, Komplett   SeeAlso:[Union](Part_Union/sv.md), [Common](Part_Common/sv.md) and [Cut](Part_Cut/sv.md)---
 
 
 </div>

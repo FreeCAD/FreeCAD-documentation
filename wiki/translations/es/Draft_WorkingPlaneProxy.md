@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft WorkingPlaneProxy
    Name/es:Borrador PlanoTrabajoProxy
-   MenuLocation:Borrador → Utilidades → Crear proxy del plano trabajo
+   MenuLocation:Borrador - Utilidades - Crear proxy del plano trabajo
    Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
    SeeAlso:[Borrador SeleccionarPlano](Draft_SelectPlane/es.md)
 ---

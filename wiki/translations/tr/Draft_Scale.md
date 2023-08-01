@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Scale
    Name/tr:Ölçekle
-   MenuLocation:Draft → Scale
+   MenuLocation:Draft - Scale
    Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
    Shortcut:**S** **C**
    SeeAlso:[Draft Clone](Draft_Clone/tr.md)

@@ -3,7 +3,7 @@
    Name:Sketcher Copy
    Name/ro:Sketcher: Copiere
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation:Sketch → Sketcher tools → Copiere
+   MenuLocation:Sketch - Sketcher tools - Copiere
    Version:0.16
    SeeAlso:[Sketcher Clonă](Sketcher_Clone/ro.md), [Sketcher Move](Sketcher_Move/ro.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Line
    Name/es:Borrador Linea
-   MenuLocation:Borrador → Línea
+   MenuLocation:Borrador - Línea
    Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
    Shortcut:**L** **I**
    Version:0.7

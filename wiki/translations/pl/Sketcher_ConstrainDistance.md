@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Constraint Length
    Name/pl:Szkicownik: Wiązanie odległości
-   MenuLocation:Szkic → Wiązania szkicownika → Wiązanie odległości
+   MenuLocation:Szkic - Wiązania szkicownika - Wiązanie odległości
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**K** **D**
    SeeAlso:[Zwiąż w poziomie](Sketcher_ConstrainDistanceX/pl.md), [Zwiąż w pionie](Sketcher_ConstrainDistanceY/pl.md)

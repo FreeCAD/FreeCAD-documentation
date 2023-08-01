@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:SheetMetal Extrude
-   MenuLocation:SheetMetal → Extend Face
+   MenuLocation:SheetMetal - Extend Face
    Workbenches:[SheetMetal](SheetMetal_Workbench.md)
    Shortcut:**E**
 ---

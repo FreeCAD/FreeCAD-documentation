@@ -3,7 +3,7 @@
    Name:Assembly3 AddPlacement
    Name/fr:Assembly3 Ajoutez un emplacement
    Icon:Assembly_Add_Placement.svg‎‎
-   MenuLocation:Assembly3 → Workplane and origin → Add placement
+   MenuLocation:Assembly3 - Workplane and origin - Add placement
    Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
 ---
 

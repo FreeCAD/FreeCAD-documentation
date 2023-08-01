@@ -3,7 +3,7 @@
    Name:Draft Snap Lock
    Name/sv:Draft ToggleSnap
    Workbenches:[Draft](Draft_Workbench/sv.md), [Arch](Arch_Workbench/sv.md)
-   MenuLocation:Draft → Utilities → Toggle snap
+   MenuLocation:Draft - Utilities - Toggle snap
 ---
 
 # Draft Snap Lock/sv

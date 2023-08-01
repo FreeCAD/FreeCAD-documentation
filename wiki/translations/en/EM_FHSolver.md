@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:EM FHSolver
-   MenuLocation:EM → FHSolver
+   MenuLocation:EM - FHSolver
    Workbenches:[EM](EM_Workbench.md)
    Shortcut:**E** **X**
    Version:0.17

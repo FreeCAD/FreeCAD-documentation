@@ -1,6 +1,6 @@
 # Sketcher CreateSquare/it
 ---
-- GuiCommand:   Name:Sketcher CreateSquare   Name/it:Quadrato   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch → Geometrie → Quadrato   Shortcut:   SeeAlso:   Version:0.15---
+- GuiCommand:   Name:Sketcher CreateSquare   Name/it:Quadrato   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch - Geometrie - Quadrato   Shortcut:   SeeAlso:   Version:0.15---
 
 
 </div>

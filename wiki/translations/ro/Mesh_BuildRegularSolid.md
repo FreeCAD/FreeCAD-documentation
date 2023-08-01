@@ -1,6 +1,6 @@
 # Mesh BuildRegularSolid/ro
 ---
-- GuiCommand:   Name:Mesh BuildRegularSolid   Workbenches:[[Mesh Workbench   Mesh]]|MenuLocation:Meshes → Regular solid...   Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Mesh BuildRegularSolid   Workbenches:[[Mesh Workbench   Mesh]]|MenuLocation:Meshes - Regular solid...   Shortcut:   SeeAlso:---
 
 ## Description
 

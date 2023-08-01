@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ProjectInfo
    Name/pl:Std: Informacja o projekcie
-   MenuLocation:Plik → Informacja o projekcie ...
+   MenuLocation:Plik - Informacja o projekcie ...
    Workbenches:wszystkie
    SeeAlso:[Nowy](Std_New/pl.md)
 ---

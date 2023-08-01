@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw Balloon
    Name/it:Pallinatura
-   MenuLocation:TechDraw → Pallinatura
+   MenuLocation:TechDraw - Pallinatura
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)
    Version:0.19
    SeeAlso:[Annotazione](TechDraw_Annotation/it.md)

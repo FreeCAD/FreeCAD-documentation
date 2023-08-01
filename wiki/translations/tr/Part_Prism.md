@@ -3,10 +3,10 @@
 - GuiCommand:
    Name:Part Prism
    Name/tr:Parça Prizma
-   MenuLocation:Parça → [Temel geometrik şekil oluştur](Part_CreatePrimitives/tr.md) → Prizma
+   MenuLocation:Parça - [Temel geometrik şekil oluştur](Part_CreatePrimitives/tr.md) - Prizma
    Workbenches:[Parça](Part_Workbench/tr.md)
    Version:0.14
-   SeeAlso:Parça → Temel Geometrik Şekil → [Kutu](Part_Box/tr.md)---
+   SeeAlso:Parça - Temel Geometrik Şekil - [Kutu](Part_Box/tr.md)---
 
 
 </div>

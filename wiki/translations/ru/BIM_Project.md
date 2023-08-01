@@ -3,7 +3,7 @@
    Name:BIM Project
    Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
    Addon:BIM
-   MenuLocation:Manage → Project
+   MenuLocation:Manage - Project
 ---
 
 # BIM Project/ru

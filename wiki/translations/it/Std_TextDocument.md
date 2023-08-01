@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_TextDocument
    Name/it:Aggiungi un documento di testo
-   MenuLocation:Strumenti → Aggiungi un documento di testo
+   MenuLocation:Strumenti - Aggiungi un documento di testo
    Workbenches:Tutti
    Version:0.19
    SeeAlso:[Forma da testo di Draft](Draft_ShapeString/it.md), [Testo di Draft](Draft_Text/it.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std SaveAs
    Name/pl:Std: Zapisz jako
-   MenuLocation:Plik → Zapisz jako ...
+   MenuLocation:Plik - Zapisz jako ...
    Workbenches:wszystkie
    SeeAlso:[Zapisz jako kopię](Std_SaveCopy/pl.md), [Zapisz](Std_Save/pl.md)
 ---

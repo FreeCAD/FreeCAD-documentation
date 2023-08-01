@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher Symmetry
    Name/fr:Sketcher Symétrie
-   MenuLocation:Esquisse → Outils d'esquisse → Symétrie
+   MenuLocation:Esquisse - Outils d'esquisse - Symétrie
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**Z** **S**
    Version:0.16

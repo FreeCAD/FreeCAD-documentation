@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Rotate
    Name/fr:Draft Pivoter
-   MenuLocation:Modification → Pivoter
+   MenuLocation:Modification - Pivoter
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:**R** **O**
    Version:0.7

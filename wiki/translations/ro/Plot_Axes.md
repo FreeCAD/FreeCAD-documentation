@@ -1,6 +1,6 @@
 # Plot Axes/ro
 ---
-- GuiCommand:   Name:Plot Axes   MenuLocation:Plot → Axes‏‎   |Workbenches:[[Plot_Workbench   Plot]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Plot Axes   MenuLocation:Plot - Axes‏‎   |Workbenches:[[Plot_Workbench   Plot]]|Shortcut:   SeeAlso:---
 
 
 </div>

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionDrawCosmCircle
    Name/pl:Rysunek Techniczny: Rozszerzenie Dodaj okrąg kosmetyczny
-   MenuLocation:Rysunek Techniczny → Rozszerzenia: Linie środka / Gwinty → Dodaj okrąg kosmetyczny
+   MenuLocation:Rysunek Techniczny - Rozszerzenia: Linie środka / Gwinty - Dodaj okrąg kosmetyczny
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20

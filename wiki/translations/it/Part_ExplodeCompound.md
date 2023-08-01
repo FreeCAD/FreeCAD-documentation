@@ -1,7 +1,7 @@
 ---
 - GuiCommand:   Name:Part ExplodeCompound
    Name/it:Esplodi composto
-   MenuLocation:Part → Composto → Esplodi composto
+   MenuLocation:Part - Composto - Esplodi composto
    Version:0.18.15506
    Workbenches:[Part](Part_Workbench/it.md)
    SeeAlso:[Crea composto](Part_Compound/it.md), [Draft Declassa](Draft_Downgrade/it.md)

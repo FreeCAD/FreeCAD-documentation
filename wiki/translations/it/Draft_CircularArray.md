@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft CircularArray
    Name/it:Serie circolare
-   MenuLocation:Modifiche → Strumenti serie → Serie circolare
+   MenuLocation:Modifiche - Strumenti serie - Serie circolare
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Version:0.19
    SeeAlso:[Serie ortogonale](Draft_OrthoArray/it.md), [Serie polare](Draft_PolarArray/it.md), [Serie su tracciato](Draft_PathArray/it.md), [Serie di link su tracciato](Draft_PathLinkArray/it.md), [Serie su punti](Draft_PointArray/it.md), [Serie di link su punti](Draft_PointLinkArray/it.md)

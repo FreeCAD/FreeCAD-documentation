@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Ограничение перпендикулярности
    Name:Sketcher_ConstrainPerpendicular
-   MenuLocation:Sketch → Ограничения эскиза → Ограничение перпендикулярности
+   MenuLocation:Sketch - Ограничения эскиза - Ограничение перпендикулярности
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**N**
    SeeAlso:[Ограничить угол](Sketcher_ConstrainAngle/ru.md)

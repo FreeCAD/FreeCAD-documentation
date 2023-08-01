@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher SelectVerticalAxis
    Name/de:Sketcher VertikaleAchseAuswählen
-   MenuLocation:Skizze → Skizzenwerkzeuge → Vertikale Achse auswählen
+   MenuLocation:Skizze - Skizzenwerkzeuge - Vertikale Achse auswählen
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Shortcut:**Z** **V**
    Version:0.15

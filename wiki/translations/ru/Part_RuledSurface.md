@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part RuledSurface
    Name/ru:Линейчатая поверхность
-   MenuLocation:Деталь → Создать линейчатую поверхность
+   MenuLocation:Деталь - Создать линейчатую поверхность
    Workbenches:[Part(Деталь)](Part_Workbench/ru.md)
    SeeAlso:[Создать грань из ломанных](Part_MakeFace/ru.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionLinePerpendicular
    Name/fr:TechDraw Ligne perpendiculaire
-   MenuLocation:TechDraw → Extensions : taraudages/filetages → Ligne perpendiculaire
+   MenuLocation:TechDraw - Extensions : taraudages/filetages - Ligne perpendiculaire
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut:
    Version:0.20

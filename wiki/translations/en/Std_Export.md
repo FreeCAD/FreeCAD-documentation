@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std Export
-   MenuLocation:File → Export...
+   MenuLocation:File - Export...
    Workbenches:All
    Shortcut:**Ctrl**+**E**
    SeeAlso:[Std PrintPdf](Std_PrintPdf.md), [Import Export](Import_Export.md), [Import Export Preferences](Import_Export_Preferences.md)

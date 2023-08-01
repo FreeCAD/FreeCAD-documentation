@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft PolarArray
    Name/es:Borrador ArregloPolar
-   MenuLocation:Modificación → Herramientas de  Arreglo → Arreglo Polar
+   MenuLocation:Modificación - Herramientas de  Arreglo - Arreglo Polar
    Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
    Version:0.19
    SeeAlso:[Borrador OrthoArray](Draft_OrthoArray/es.md), [Borrador ArregloCircular](Draft_CircularArray/es.md), [Borrador ArregloRuta](Draft_PathArray/es.md), [Borrador ArregloEnlaceRuta](Draft_PathLinkArray/es.md), [Borrador ArregloPunto](Draft_PointArray/es.md), [Borrador ArregloEnlacePunto](Draft_PointLinkArray/es.md)

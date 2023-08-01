@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Ship CreateShip
-   MenuLocation:Ship design → Create a new ship
+   MenuLocation:Ship design - Create a new ship
    Workbenches:[Ship](Ship_Workbench.md)|
    Shortcut:
    SeeAlso:

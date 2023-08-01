@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/sv:Part Union
    Icon:Part Fuse.png
-   MenuLocation:Part → Boolean → Union
+   MenuLocation:Part - Boolean - Union
    Workbenches:[Part](Part_Workbench/sv.md)
    SeeAlso:[Part Cut](Part_Cut/sv.md), [Part Common](Part_Common/sv.md)
 ---

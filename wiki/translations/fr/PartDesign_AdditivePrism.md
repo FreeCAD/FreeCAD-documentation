@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign AdditivePrism
    Name/fr:PartDesign Prisme additif
-   MenuLocation:Part Design → Créer une primitive additive → Prisme additif
+   MenuLocation:Part Design - Créer une primitive additive - Prisme additif
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    Version:0.17
    SeeAlso:[PartDesign Primitives additives](PartDesign_CompPrimitiveAdditive/fr.md), [PartDesign Prisme soustractif](PartDesign_SubtractivePrism/fr.md)

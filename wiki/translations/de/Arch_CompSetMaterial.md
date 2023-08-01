@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch CompSetMaterial
    Name/de:Arch AuswahlMaterialZuordnen
-   MenuLocation:Arch → Materialwerkzeuge
+   MenuLocation:Arch - Materialwerkzeuge
    Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
    Version:0.17
    SeeAlso:[Arch MaterialZuordnen](Arch_SetMaterial/de.md), [Arch MehrfachMaterial](Arch_MultiMaterial/de.md)

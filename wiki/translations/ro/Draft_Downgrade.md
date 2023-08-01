@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Downgrade
    Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   MenuLocation:Draft → Downgrade
+   MenuLocation:Draft - Downgrade
    Shortcut:D N
    SeeAlso:[Draft Upgrade](Draft_Upgrade.md)
 ---

@@ -3,7 +3,7 @@
    Name:Arch_Reference
    Name/it:Riferimento
    Workbenches:[Arch](Arch_Workbench/it.md)
-   MenuLocation:Arch → Riferimento
+   MenuLocation:Arch - Riferimento
    Shortcut:
    SeeAlso:[Parte di edificio](Arch_BuildingPart/it.md)
 ---

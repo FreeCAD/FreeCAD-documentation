@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Arc
    Name/de:Draft Bogen
-   MenuLocation:Entwurf → Bogenwerkzeuge → Kreisbogen
+   MenuLocation:Entwurf - Bogenwerkzeuge - Kreisbogen
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Version:0.7
    Shortcut:**A** **R**

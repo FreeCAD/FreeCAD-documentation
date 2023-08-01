@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Surface BlendCurve
    Name/pl:Powierzchnia 3D: Krzywa łącząca
-   MenuLocation:Powierzchnia → Krzywa łącząca
+   MenuLocation:Powierzchnia - Krzywa łącząca
    Workbenches:[Powierzchnia 3D](Surface_Workbench/pl.md)
    Version:0.21
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std SaveAll
    Name/ko:표준 모두 저장
-   MenuLocation:파일 → 모두 저장
+   MenuLocation:파일 - 모두 저장
    Workbenches:모두
    SeeAlso:[표준 저장](Std_Save.md)
 ---

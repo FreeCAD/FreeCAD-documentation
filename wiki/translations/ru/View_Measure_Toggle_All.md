@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:View Measure Toggle All
    Name/ru:View Measure Toggle All
-   MenuLocation:Вид → Видимость → Показывать замеры
+   MenuLocation:Вид - Видимость - Показывать замеры
    Workbenches:All
    SeeAlso:[View Measure Clear All](View_Measure_Clear_All.md), [Part Measure Toggle All](Part_Measure_Toggle_All.md), [Part Measure Clear All](Part_Measure_Clear_All.md)
 ---

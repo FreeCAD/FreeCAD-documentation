@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh_SegmentationBestFit
    Name/it:Adatta i segmenti
-   MenuLocation:Mesh → Adatta i segmenti...
+   MenuLocation:Mesh - Adatta i segmenti...
    Workbenches:[Mesh](Mesh_Workbench/it.md)
    SeeAlso:[Crea segmenti di mesh](Mesh_Segmentation/it.md)
 ---

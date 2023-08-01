@@ -3,7 +3,7 @@
    Name:PartDesign Plane
    Name/tr:Referans düzlemi oluştur
    Workbenches:[Parça tasarım](PartDesign_Workbench/tr.md)
-   MenuLocation:Parça tasarım → Referans düzlemi oluştur
+   MenuLocation:Parça tasarım - Referans düzlemi oluştur
    Version:0.17
    SeeAlso:[Referans noktası oluştur](PartDesign_Point.md), [Referans çizgisi oluştur](PartDesign_Line.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw DimensionRepair
    Name/de:TechDraw Maßreparatur
-   MenuLocation:TechDraw → Maßeinträge → Maßreferenzen reparieren
+   MenuLocation:TechDraw - Maßeinträge - Maßreferenzen reparieren
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Version:0.21
    SeeAlso:[TechDraw Längenmaß](TechDraw_LengthDimension/de.md)

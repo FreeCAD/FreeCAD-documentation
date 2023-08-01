@@ -3,7 +3,7 @@
    Name:Sketcher ConstrainDistanceY
    Name/cs:Sketcher ConstrainDistanceY
    Workbenches:[Náčrt](Sketcher_Workbench/cs.md)
-   MenuLocation:Sketch → Sketcher geometries → Constrain vertical distance
+   MenuLocation:Sketch - Sketcher geometries - Constrain vertical distance
    Shortcut:Shift+V
    SeeAlso:[Vazba vodorovné vzdálenosti](Sketcher_ConstrainDistanceX/cs.md), [Vazba délky](Sketcher_ConstrainDistance/cs.md)
 ---

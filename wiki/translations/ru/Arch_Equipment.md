@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Equipment
    Name/ru:Оборудование
-   MenuLocation:Arch → Оборудование
+   MenuLocation:Arch - Оборудование
    Workbenches:[Arch](Arch_Workbench/ru.md)
    Shortcut:**E** **Q**
    SeeAlso:[3 вида на основе полигональной сетки](Arch_3Views/ru.md)

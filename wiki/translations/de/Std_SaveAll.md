@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std SaveAll
    Name/de:Std AllesSpeichern
-   MenuLocation:Datei → Alles speichern
+   MenuLocation:Datei - Alles speichern
    Workbenches:Alle
    SeeAlso:[Std Speichern](Std_Save/de.md)
 ---

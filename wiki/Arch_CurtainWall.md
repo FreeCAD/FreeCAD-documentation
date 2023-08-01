@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch CurtainWall
-   MenuLocation:Arch → Curtain Wall
+   MenuLocation:Arch - Curtain Wall
    Workbenches:[Arch](Arch_Workbench.md)
    Shortcut:**C** **W**
    Version:0.19

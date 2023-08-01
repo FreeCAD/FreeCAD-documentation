@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh FillupHoles
    Name/fr:Mesh Remplir les trous
-   MenuLocation:Maillages → Remplir les trous...
+   MenuLocation:Maillages - Remplir les trous...
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
    SeeAlso:[Mesh Boucher un trou](Mesh_FillInteractiveHole/fr.md), [Mesh Ajouter un triangle](Mesh_AddFacet/fr.md)
 ---

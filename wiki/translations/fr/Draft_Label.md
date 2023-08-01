@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Label
    Name/fr:Draft Étiquette
-   MenuLocation:Annotation → Étiquette
+   MenuLocation:Annotation - Étiquette
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:**D** **L**
    Version:0.17

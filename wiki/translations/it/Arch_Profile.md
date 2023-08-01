@@ -3,7 +3,7 @@
    Name:Arch Profile
    Name/it:Profilo
    Workbenches:[Arch](Arch_Workbench/it.md)
-   MenuLocation:Arch → Profilo
+   MenuLocation:Arch - Profilo
    Version:0.19
 ---
 

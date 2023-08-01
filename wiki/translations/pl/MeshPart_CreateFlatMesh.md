@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:MeshPart CreateFlatMesh
    Name/pl:Projekt Siatki: Rozwiń siatkę
-   MenuLocation:Siatki → Rozwiń siatkę
+   MenuLocation:Siatki - Rozwiń siatkę
    Workbenches:[Siatka](Mesh_Workbench/pl.md)
    Version:0.19
    SeeAlso:[Rozwiń powierzchnię](MeshPart_CreateFlatFace/pl.md)

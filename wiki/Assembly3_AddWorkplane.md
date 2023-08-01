@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Assembly3 AddWorkplane
    Icon:Assembly_Add_Workplane.svg‎‎
-   MenuLocation:Assembly3 → Workplane and origin → Add workplane
+   MenuLocation:Assembly3 - Workplane and origin - Add workplane
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 

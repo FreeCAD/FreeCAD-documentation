@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Drawing
    Name/tr:Çizim
-   MenuLocation:Drafting → Drawing
+   MenuLocation:Drafting - Drawing
    Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
 ---
 

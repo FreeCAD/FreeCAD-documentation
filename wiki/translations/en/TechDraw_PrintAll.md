@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw PrintAll
-   MenuLocation:TechDraw → Page → Print All Pages
+   MenuLocation:TechDraw - Page - Print All Pages
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.21

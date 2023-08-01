@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewIvStereoInterleavedRows
    Name/de:Std AnsichtStereoVersetzteZeilen
-   MenuLocation:Ansicht → Stereo → Horizontales Interlacing
+   MenuLocation:Ansicht - Stereo - Horizontales Interlacing
    Workbenches:Alle
    SeeAlso:[Std AnsichtStereoRotGrün](Std_ViewIvStereoRedGreen/de.md), [Std AnsichtStereoVierfachPuffer](Std_ViewIvStereoQuadBuff/de.md), [Std AnsichtStereoVersetzteSpalten](Std_ViewIvStereoInterleavedColumns/de.md), [Std AnsichtStereoAus](Std_ViewIvStereoOff/de.md)
 ---

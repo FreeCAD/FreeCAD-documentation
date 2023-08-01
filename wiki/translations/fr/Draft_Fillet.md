@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Fillet
    Name/fr:Draft Congé
-   MenuLocation:Draft → Congé
+   MenuLocation:Draft - Congé
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:**F** **I**
    Version:0.19

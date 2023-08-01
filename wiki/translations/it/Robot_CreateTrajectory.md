@@ -1,6 +1,6 @@
 # Robot CreateTrajectory/it
 ---
-- GuiCommand:   Name:Robot CreateTrajectory   Name/it:Crea una traiettoria   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot → Crea una traiettoria---
+- GuiCommand:   Name:Robot CreateTrajectory   Name/it:Crea una traiettoria   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot - Crea una traiettoria---
 
 
 </div>

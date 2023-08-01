@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher DeleteAllGeometry
    Name/de:Sketcher AlleGeometrienLöschen
-   MenuLocation: Skizze → Skizzen-Werkzeuge → Gesamte Geometrie löschen 
+   MenuLocation: Skizze - Skizzen-Werkzeuge - Gesamte Geometrie löschen 
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Version:0.18
    SeeAlso:[AlleRandbedingungenLöschen](Sketcher_DeleteAllConstraints/de.md)

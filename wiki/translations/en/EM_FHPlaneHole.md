@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:EM FHPlaneHole
-   MenuLocation:EM → FHPlaneHole
+   MenuLocation:EM - FHPlaneHole
    Workbenches:[EM](EM_Workbench.md)
    Shortcut:**E** **H**
    Version:0.17

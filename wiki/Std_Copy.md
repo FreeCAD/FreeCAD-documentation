@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std Copy
-   MenuLocation:Edit → Copy
+   MenuLocation:Edit - Copy
    Workbenches:All
    Shortcut:**Ctrl**+**C**
    SeeAlso:[Std Cut](Std_Cut.md), [Std Paste](Std_Paste.md), [Std DuplicateSelection](Std_DuplicateSelection.md)

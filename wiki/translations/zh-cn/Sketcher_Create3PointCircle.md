@@ -2,7 +2,7 @@
 - GuiCommand:-cn
    Name/zh-cn:通过三点创建圆
    Name:Sketcher_Create3PointCircle
-   MenuLocation:Sketch → 草图几何体 → 通过三点创建圆
+   MenuLocation:Sketch - 草图几何体 - 通过三点创建圆
    Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md)
    Shortcut:
    SeeAlso:

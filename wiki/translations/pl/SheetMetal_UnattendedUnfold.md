@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:SheetMetal UnattendedUnfold
-   MenuLocation:SheetMetal → Unattended Unfold
+   MenuLocation:SheetMetal - Unattended Unfold
    Workbenches:[SheetMetal](SheetMetal_Workbench.md)
    Shortcut:**U**
    SeeAlso:[SheetMetal Unfold](SheetMetal_Unfold.md)

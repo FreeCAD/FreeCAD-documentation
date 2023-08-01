@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:EM FHPort
-   MenuLocation:EM → FHPort
+   MenuLocation:EM - FHPort
    Workbenches:[EM](EM_Workbench.md)
    Shortcut:**E** **P**
    Version:0.17

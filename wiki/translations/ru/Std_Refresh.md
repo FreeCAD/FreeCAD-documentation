@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Обновить
    Name:Std_Refresh
-   MenuLocation:Правка → Обновить
+   MenuLocation:Правка - Обновить
    Workbenches:Все
    Shortcut:**F5**
 ---

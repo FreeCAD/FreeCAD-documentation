@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Roof
    Name/fr:Arch Toiture
-   MenuLocation:Arch → Toiture
+   MenuLocation:Arch - Toiture
    Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**R** **F**
    SeeAlso:[Arch Structure](Arch_Structure/fr.md), [Arch Mur](Arch_Wall/fr.md)

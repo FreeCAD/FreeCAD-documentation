@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std ViewCreate
-   MenuLocation:View → Create new view
+   MenuLocation:View - Create new view
    Workbenches:All
    SeeAlso:[Std ViewDockUndockFullscreen](Std_ViewDockUndockFullscreen.md), [Std ViewFullscreen](Std_ViewFullscreen.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionPositionSectionView
    Name/de:TechDraw ErgänzungSchnittAusrichten
-   MenuLocation:TechDraw → Extensions: Attributes/Modifications → Position Section View
+   MenuLocation:TechDraw - Extensions: Attributes/Modifications - Position Section View
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Выровнять по правому краю
    Name:Spreadsheet_AlignRight
-   MenuLocation:Электронная таблица → Alignment → Выровнять по правому краю
+   MenuLocation:Электронная таблица - Alignment - Выровнять по правому краю
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/ru.md)
    Version:0.17
 ---

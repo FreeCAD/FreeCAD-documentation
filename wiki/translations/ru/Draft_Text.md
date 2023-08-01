@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Текст
    Name:Draft_Text
-   MenuLocation:Annotation → Текст
+   MenuLocation:Annotation - Текст
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:**T** **E**
    Version:0.7

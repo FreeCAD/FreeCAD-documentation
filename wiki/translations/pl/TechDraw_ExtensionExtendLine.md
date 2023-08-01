@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionExtendLine
    Name/pl:Rysunek Techniczny: Rozszerzenie Przedłuż linię
-   MenuLocation:Rysunek Techniczny → Rozszerzenia: Atrybuty / Modyfikatory → Przedłuż linię
+   MenuLocation:Rysunek Techniczny - Rozszerzenia: Atrybuty / Modyfikatory - Przedłuż linię
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20

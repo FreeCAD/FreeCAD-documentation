@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Plot Labels
-   MenuLocation:Plot → Set labels‏‎
+   MenuLocation:Plot - Set labels‏‎
    Workbenches:[Plot](Plot_Workbench.md)
 ---
 

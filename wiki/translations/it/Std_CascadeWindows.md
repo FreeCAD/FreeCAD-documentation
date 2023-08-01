@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std CascadeWindows
    Name/it:A cascata
-   MenuLocation:Finestre → A cascata
+   MenuLocation:Finestre - A cascata
    Workbenches:Tutti
    SeeAlso:[Affianca](Std_TileWindows/it.md)
 ---

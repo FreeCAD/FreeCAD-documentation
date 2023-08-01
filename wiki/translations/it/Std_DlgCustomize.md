@@ -1,6 +1,6 @@
 # Std DlgCustomize/it
 ---
-- GuiCommand:   Name:Std_DlgCustomize   Name/it:Personalizza   MenuLocation:Strumenti → Personalizza...   Workbenches:Tutti   SeeAlso:[Personalizzare l'interfaccia](Interface_Customization/it.md)---
+- GuiCommand:   Name:Std_DlgCustomize   Name/it:Personalizza   MenuLocation:Strumenti - Personalizza...   Workbenches:Tutti   SeeAlso:[Personalizzare l'interfaccia](Interface_Customization/it.md)---
 
 ## Descrizione
 

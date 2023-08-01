@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh HarmonizeNormals
    Name/fr:Mesh Harmoniser les normales‎
-   MenuLocation:Maillages → Harmoniser les normales‎
+   MenuLocation:Maillages - Harmoniser les normales‎
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
    SeeAlso:[Mesh Inverser les normales](Mesh_FlipNormals/fr.md)
 ---

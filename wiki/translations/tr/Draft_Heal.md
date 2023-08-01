@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name/tr:İyileştirme
-   MenuLocation:Taslak → Araçlar → İyileştirme
+   MenuLocation:Taslak - Araçlar - İyileştirme
    Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
    SeeAlso:[Yükselt](Draft_Upgrade/tr.md), [Düşür](Draft_Downgrade/tr.md)
 ---

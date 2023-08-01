@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part CheckGeometry‏‎
    Name/fr:Part Vérifier la géométrie
-   MenuLocation:Part → Vérifier la géométrie...
+   MenuLocation:Part - Vérifier la géométrie...
    Workbenches:[Part](Part_Workbench/fr.md)
 ---
 

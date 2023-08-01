@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Sweep
    Name/pl:Część: Wyciągnięcie po ścieżce
-   MenuLocation:Część → Wyciągnięcie po ścieżce
+   MenuLocation:Część - Wyciągnięcie po ścieżce
    Workbenches:[Część](Part_Workbench/pl.md)
    SeeAlso:[Wyciągnięcie przez profile](Part_Loft/pl.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM Examples
    Name/de:FEM Beispiele
-   MenuLocation:Dienstprogramme → Freie FEM-Beispiele
+   MenuLocation:Dienstprogramme - Freie FEM-Beispiele
    Workbenches:[FEM](FEM_Workbench/de.md)
    Version:0.19
    SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)

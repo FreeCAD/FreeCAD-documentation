@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch AxisSystem
-   MenuLocation:Arch → Axis tools → Axis System
+   MenuLocation:Arch - Axis tools - Axis System
    Workbenches:[Arch](Arch_Workbench.md)
    SeeAlso:[Arch Axis](Arch_Axis.md), [Arch Grid](Arch_Grid.md)
 ---

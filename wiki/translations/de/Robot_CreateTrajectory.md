@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Robot CreateTrajectory
    Workbenches:[Robot](Robot_Workbench/de.md)
-   MenuLocation:Roboter → Erstelle Bwegungsbahn
+   MenuLocation:Roboter - Erstelle Bwegungsbahn
 ---
 
 # Robot CreateTrajectory/de

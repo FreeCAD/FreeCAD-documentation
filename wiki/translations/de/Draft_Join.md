@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Join
    Name/de:Entwurf Verbinden
-   MenuLocation:Änderung → Verbinden
+   MenuLocation:Änderung - Verbinden
    Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench.md)
    Shortcut:**J** **O**
    Version:0.18

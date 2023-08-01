@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ProjectShape
    Name/de:TechDraw FormProjizieren
-   MenuLocation:TechDraw → TechDraw Ansichten → Form projizieren...
+   MenuLocation:TechDraw - TechDraw Ansichten - Form projizieren...
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20

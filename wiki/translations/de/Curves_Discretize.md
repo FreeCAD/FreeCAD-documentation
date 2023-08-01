@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Curves Discretize
    Name/de:Curves Punktefolge
-   MenuLocation:Curves → Discretize
+   MenuLocation:Curves - Discretize
    Workbenches:[Curves](Curves_Workbench/de.md)
 ---
 

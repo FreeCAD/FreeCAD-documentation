@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ReportBug
    Name/de:Std FehlerMelden
-   MenuLocation:Hilfe → Einen Fehler melden
+   MenuLocation:Hilfe - Einen Fehler melden
    Workbenches:Alle
    Version:0.20
 ---

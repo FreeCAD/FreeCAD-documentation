@@ -3,7 +3,7 @@
    Name:Draft SelectGroup
    Name/it:Seleziona gruppo
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   MenuLocation:Draft → Utilità → Seleziona gruppo
+   MenuLocation:Draft - Utilità - Seleziona gruppo
    Shortcut:
    SeeAlso:[Aggiungi al gruppo](Draft_AddToGroup/it.md), [Crea gruppo](Std_Group/it.md)
 ---

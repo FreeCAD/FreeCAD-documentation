@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch Reference
-   MenuLocation:Arch → Reference
+   MenuLocation:Arch - Reference
    Workbenches:[Arch](Arch_Workbench.md)
    SeeAlso:[Arch BuildingPart](Arch_BuildingPart.md)
 ---

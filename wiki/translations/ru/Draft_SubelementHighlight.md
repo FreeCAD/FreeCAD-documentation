@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft SubelementHighlight
    Name/ru:Draft SubelementHighlight
-   MenuLocation:Draft → Subelement highlight
+   MenuLocation:Draft - Subelement highlight
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:**D** **E**
    SeeAlso:[Draft Edit](Draft_Edit/ru.md)

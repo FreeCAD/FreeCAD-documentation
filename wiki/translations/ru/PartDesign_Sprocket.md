@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Цепное колесо (звёздочка)
    Name:PartDesign_Sprocket
-   MenuLocation:Part Design → Цепное колесо (звёздочка)
+   MenuLocation:Part Design - Цепное колесо (звёздочка)
    Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
    Version:0.19
 ---

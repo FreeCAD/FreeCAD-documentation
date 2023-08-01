@@ -3,7 +3,7 @@
    Name:Sketcher StopOperation
    Name/es:Croquizador DetenerOperación
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation:Dibujo → Detener Operación
+   MenuLocation:Dibujo - Detener Operación
 ---
 
 # Sketcher StopOperation/es

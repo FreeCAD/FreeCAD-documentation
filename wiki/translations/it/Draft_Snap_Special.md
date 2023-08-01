@@ -3,7 +3,7 @@
    Name:Draft Snap Special
    Name/it:Speciale
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   MenuLocation:Draft → [Snap](Draft_Snap/it.md) → Speciale
+   MenuLocation:Draft - [Snap](Draft_Snap/it.md) - Speciale
    Shortcut:
    SeeAlso:[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
    Version:0.17

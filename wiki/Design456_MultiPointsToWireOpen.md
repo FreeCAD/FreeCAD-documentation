@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Design456 MultiPointsToWireOpen
-   MenuLocation:Design456_2Ddrawing → MultiPointsToWireOpen
+   MenuLocation:Design456_2Ddrawing - MultiPointsToWireOpen
    Workbenches:[Design456](Design456_Workbench.md)
    Shortcut:None
    SeeAlso:

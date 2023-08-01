@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:SheetMetal AddFoldWall
    Name/fr:SheetMetal Pli sur tôle
-   MenuLocation:SheetMetal → Fold a Wall
+   MenuLocation:SheetMetal - Fold a Wall
    Workbenches:[SheetMetal](SheetMetal_Workbench/fr.md)
    Shortcut:**C** **F**
 ---

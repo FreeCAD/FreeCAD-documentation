@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Defeaturing
    Name/de:Part MerkmalEntfernen
-   MenuLocation:Formteil → Merkmal entfernen
+   MenuLocation:Formteil - Merkmal entfernen
    Workbenches:[Part](Part_Workbench/de.md)
    Version:0.18
    SeeAlso:[Defeaturing](Defeaturing_Workbench/de.md), [Macro Parametric Defeaturing](Macro_Parametric_Defeaturing.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Raytracing ExportProject
    Name/fr:Raytracing Exporter le project
-   MenuLocation:Raytracing → Exporter le project
+   MenuLocation:Raytracing - Exporter le project
    Workbenches:[Raytracing](Raytracing_Workbench/fr.md)
    Shortcut:
    SeeAlso:

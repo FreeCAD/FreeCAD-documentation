@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Edit
    Name/pl:Rysunek Roboczy: Edytuj
-   MenuLocation:Modyfikacja → Edytuj
+   MenuLocation:Modyfikacja - Edytuj
    Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
    Shortcut:**D** **E**
    SeeAlso:[Edytuj](Std_Edit/pl.md)

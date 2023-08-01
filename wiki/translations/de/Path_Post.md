@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path PostProcess
    Name/de:Pfad PostProzess
-   MenuLocation:Pfad → Post Prozess
+   MenuLocation:Pfad - Post Prozess
    Workbenches:[Pfad](Path_Workbench/de.md)
    Shortcut:**P** **P**
    SeeAlso:

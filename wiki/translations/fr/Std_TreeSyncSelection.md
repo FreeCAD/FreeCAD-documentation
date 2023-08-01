@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std TreeSyncSelection
    Name/fr:Std Arborescence Synchroniser la sélection
-   MenuLocation:Affichage → Vue en arborescence → Synchroniser la sélection
+   MenuLocation:Affichage - Vue en arborescence - Synchroniser la sélection
    Workbenches:Tous
    Shortcut:**T** **2**
    Version:0.19

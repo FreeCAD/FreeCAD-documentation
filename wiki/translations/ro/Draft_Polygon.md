@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Polygon
    Name/ro:Draft Polygon
-   MenuLocation:Draft → Polygon
+   MenuLocation:Draft - Polygon
    Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
    Shortcut:**P** **G**
    Version:0.7

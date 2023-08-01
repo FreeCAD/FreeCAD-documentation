@@ -3,7 +3,7 @@
    Name:FEM PostCreateDataAlongLineFilter
    Name/ru:FEM PostCreateDataAlongLineFilter
    Icon:Fem-DataAlongLine.svg
-   MenuLocation: Results → Data along line filter
+   MenuLocation: Results - Data along line filter
    |Workbenches:[FEM](FEM_Workbench/ru.md)
    Shortcut:
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)

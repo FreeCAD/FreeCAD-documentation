@@ -1,6 +1,6 @@
 # Part RefineShape/cs
 ---
-- GuiCommand:   Name:Part RefineShape   Name/cs:Díl Vyčistit tvar   MenuLocation:Díl → Vyčistit tvar   Workbenches:[OpenSCAD](Part_Workbench/cs___Díl]],__[[OpenSCAD_Workbench/cs.md)|SeeAlso:---
+- GuiCommand:   Name:Part RefineShape   Name/cs:Díl Vyčistit tvar   MenuLocation:Díl - Vyčistit tvar   Workbenches:[OpenSCAD](Part_Workbench/cs___Díl]],__[[OpenSCAD_Workbench/cs.md)|SeeAlso:---
 
 
 </div>

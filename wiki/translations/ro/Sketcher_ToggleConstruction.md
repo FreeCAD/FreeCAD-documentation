@@ -4,7 +4,7 @@
    Name/ro:Activează/dezactivează construcția geometrică
    Icon:Sketcher_AlterConstruction.svg
    Workbenches:[Sketcher](Sketcher_Workbench.md)
-   MenuLocation:Sketch → Geometria schitei → Activează/dezactivează construcția geometrică
+   MenuLocation:Sketch - Geometria schitei - Activează/dezactivează construcția geometrică
 ---
 
 # Sketcher ToggleConstruction/ro

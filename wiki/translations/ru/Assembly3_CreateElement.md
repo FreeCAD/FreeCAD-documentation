@@ -3,7 +3,7 @@
    Name:Assembly3 CreateElement
    Name/ru:Assembly3 CreateElement
    Icon:Assembly_New_Element.svg
-   MenuLocation:Assembly3 → Create element
+   MenuLocation:Assembly3 - Create element
    Workbenches:[Assembly3](Assembly3_Workbench/ru.md)
    Shortcut:**A** **E**
 ---

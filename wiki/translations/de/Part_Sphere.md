@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Sphere
    Name/de:Part Kugel
-   MenuLocation:Part → Grundkörper → Kugel
+   MenuLocation:Part - Grundkörper - Kugel
    Workbenches:[Part](Part_Workbench/de.md)
    SeeAlso:[Part Grundelemente](Part_Primitives/de.md)
 ---

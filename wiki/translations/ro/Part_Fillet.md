@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Fillet
    Name/ro:Part Fillet
-   MenuLocation:Part → Fillet
+   MenuLocation:Part - Fillet
    Workbenches:[Part](Part_Workbench/ro.md), Complete
    SeeAlso:[Part Chamfer](Part_Chamfer/ro.md)
 ---

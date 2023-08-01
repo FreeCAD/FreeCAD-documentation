@@ -1,6 +1,6 @@
 # Std Save/ro
 ---
-- GuiCommand:   Name:Std Save   Name/ro:Salvare   MenuLocation:[Workbenches:All   Shortcut:Crtl+S   SeeAlso:[[Std_SaveAs/ro|Save as...](Std_File_Menu/ro___File]]_→_Salvare.md)---
+- GuiCommand:   Name:Std Save   Name/ro:Salvare   MenuLocation:[Workbenches:All   Shortcut:Crtl+S   SeeAlso:[[Std_SaveAs/ro|Save as...](Std_File_Menu/ro___File]]_-_Salvare.md)---
 
 
 </div>

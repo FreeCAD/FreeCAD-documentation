@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Path DressupDogbone
-   MenuLocation:Path → Path Dressup → Dogbone
+   MenuLocation:Path - Path Dressup - Dogbone
    Workbenches:[Path](Path_Workbench.md)
    SeeAlso:[Path DressupTag](Path_DressupTag.md), [Path DressupRampEntry](Path_DressupRampEntry.md), [Path DressupDragKnife](Path_DressupDragKnife.md) 
 ---

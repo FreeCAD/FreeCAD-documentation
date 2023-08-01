@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Raytracing ExportProject
    Name/ru:Raytracing ExportProject
-   MenuLocation:Трассировка лучей → Экспортировать проект
+   MenuLocation:Трассировка лучей - Экспортировать проект
    Workbenches:[Raytracing](Raytracing_Workbench/ru.md)
    Shortcut:
    SeeAlso:

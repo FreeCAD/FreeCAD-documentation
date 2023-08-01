@@ -3,7 +3,7 @@
    Name:Spreadsheet StyleUnderline
    Name/de:Kalkulationstabelle StilUnterstrichen
    Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)
-   MenuLocation:Kalkulationstabelle → Stile → Unterstrichener Text
+   MenuLocation:Kalkulationstabelle - Stile - Unterstrichener Text
    Version:0.17
 ---
 

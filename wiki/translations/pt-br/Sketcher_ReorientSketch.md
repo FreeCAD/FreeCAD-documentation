@@ -4,7 +4,7 @@
    Name/pt-br:Sketcher Reorient
    Empty:1
    Workbenches:[Sketcher](Sketcher_Workbench/pt-br.md), [PartDesign](PartDesign_Workbench/pt-br.md)
-   MenuLocation:Part design → Reorient sketch
+   MenuLocation:Part design - Reorient sketch
    SeeAlso:[Map sketch](Sketcher_MapSketch/pt-br.md), [New Sketch](Sketcher_NewSketch/pt-br.md)
 ---
 

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ExtensionCreateObliqueCoordDimension
-   MenuLocation:TechDraw → Extensions: Dimensions → Create Oblique Coordinate Dimensions
+   MenuLocation:TechDraw - Extensions: Dimensions - Create Oblique Coordinate Dimensions
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20

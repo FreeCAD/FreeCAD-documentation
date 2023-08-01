@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw_DraftView
    Name/it:Vista di Draft
-   MenuLocation:TechDraw → Vista di Draft
+   MenuLocation:TechDraw - Vista di Draft
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)
    SeeAlso:[Draft](Draft_Workbench/it.md), [Vista di Arch](TechDraw_ArchView/it.md)
 ---

@@ -3,7 +3,7 @@
    Name:Assembly3 QuickSolve
    Name/de:Assembly3 SchnelleBerechnung
    Icon:Assembly_QuickSolve.svg
-   MenuLocation:Assembly3 → Quick solve
+   MenuLocation:Assembly3 - Quick solve
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
    Shortcut:**A** dann **F**
 ---

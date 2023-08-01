@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Part ProjectionOnSurface
-   MenuLocation:Part → Create projection on surface...
+   MenuLocation:Part - Create projection on surface...
    Workbenches:[Part](Part_Workbench.md)
    Version:0.19
 ---

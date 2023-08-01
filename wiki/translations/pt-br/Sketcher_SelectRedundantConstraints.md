@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher SelectRedundantConstraints
-   MenuLocation:Sketch → Sketcher tools → Select redundant constraints
+   MenuLocation:Sketch - Sketcher tools - Select redundant constraints
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**Z** **P** **R**
    Version:0.15

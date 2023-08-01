@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Ограничение симметричности
    Name:Sketcher_ConstrainSymmetric
-   MenuLocation:Sketch → Ограничения эскиза → Ограничение симметричности
+   MenuLocation:Sketch - Ограничения эскиза - Ограничение симметричности
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:S
    SeeAlso:[Ограничение параллельности](Sketcher_ConstrainParallel/ru.md)

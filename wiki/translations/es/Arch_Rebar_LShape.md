@@ -1,7 +1,7 @@
 ---
 - GuiCommand:Addon/es
    Name:Arch Rebar LShape   Name/es:Arch Barra de Refuerzo en forma de L
-   MenuLocation:Arch → Rebar tools
+   MenuLocation:Arch - Rebar tools
    Workbenches:[Arch](Arch_Workbench/es.md), [BIM](BIM_Workbench/es.md)
    Shortcut:None
    SeeAlso:[Barra de refuerzo doblada](Arch_Rebar_BentShape/es.md), [[Arch Rebar/es]]

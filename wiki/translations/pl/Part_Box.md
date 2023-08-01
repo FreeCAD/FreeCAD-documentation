@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Box
    Name/pl:Część: Sześcian
-   MenuLocation:Część → Bryła pierwotna → Sześcian
+   MenuLocation:Część - Bryła pierwotna - Sześcian
    Workbenches:[Część](Part_Workbench/pl.md)
    SeeAlso:[Bryły pierwotne](Part_Primitives/pl.md)
 ---

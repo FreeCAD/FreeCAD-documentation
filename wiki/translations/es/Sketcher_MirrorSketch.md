@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher MirrorSketch
    Name/es:Croquizador SimetríaCroquis
-   MenuLocation:Croquis → SimetríaCroquis
+   MenuLocation:Croquis - SimetríaCroquis
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)
    Version:0.16
 ---

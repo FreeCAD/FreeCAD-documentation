@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Loft
    Name/ru:Лофт
-   MenuLocation:Деталь → Лофт...
+   MenuLocation:Деталь - Лофт...
    Workbenches:[Part](Part_Workbench/ru.md)
    SeeAlso:[Part Sweep](Part_Sweep/ru.md)
 ---

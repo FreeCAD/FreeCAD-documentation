@@ -4,7 +4,7 @@
    Name/sv:Sketcher External
    Workbenches:[Sketcher](Sketcher_Workbench/sv.md), [PartDesign](PartDesign_Workbench/sv.md)
    Shortcut:E
-   MenuLocation:Sketch → Sketcher geometries → Sketcher External
+   MenuLocation:Sketch - Sketcher geometries - Sketcher External
    SeeAlso:[ConstructionMode](Sketcher_ToggleConstruction/sv.md)
 ---
 

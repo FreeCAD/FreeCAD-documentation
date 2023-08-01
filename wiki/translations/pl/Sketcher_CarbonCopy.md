@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CarbonCopy
    Name/pl:Szkicownik: Kalka techniczna
-   MenuLocation:Szkic → Elementy geometryczne szkicownika → Kalka techniczna
+   MenuLocation:Szkic - Elementy geometryczne szkicownika - Kalka techniczna
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **W**
    Version:0.17

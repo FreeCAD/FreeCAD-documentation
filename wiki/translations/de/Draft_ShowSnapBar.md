@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft ShowSnapBar
    Name/de:Draft ShowSnapBar
-   MenuLocation:Werkzeuge → Fangen-Symbolleisten einblenden
+   MenuLocation:Werkzeuge - Fangen-Symbolleisten einblenden
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    SeeAlso:[Draft Fangen](Draft_Snap/de.md)
 ---

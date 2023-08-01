@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:OpenSCAD ExpandPlacements
    Name/fr:OpenSCAD Développer les placements
-   MenuLocation:OpenSCAD → Développer les placements
+   MenuLocation:OpenSCAD - Développer les placements
 ‏‎   Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
 ---
 

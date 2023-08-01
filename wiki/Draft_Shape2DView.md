@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft Shape2DView
-   MenuLocation:Modification → Shape 2D view
+   MenuLocation:Modification - Shape 2D view
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    SeeAlso:[TechDraw ProjectShape](TechDraw_ProjectShape.md)
 ---

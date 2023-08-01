@@ -1,6 +1,6 @@
 # Path SelectLoop/it
 ---
-- GuiCommand:   Name:Path SelectLoop   Name/it:Chiudi il ciclo   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Chiudi il ciclo   Shortcut:P,L   SeeAlso:---
+- GuiCommand:   Name:Path SelectLoop   Name/it:Chiudi il ciclo   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path - Chiudi il ciclo   Shortcut:P,L   SeeAlso:---
 
 
 </div>

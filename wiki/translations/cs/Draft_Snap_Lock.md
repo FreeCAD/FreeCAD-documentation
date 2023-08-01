@@ -3,7 +3,7 @@
    Name:Draft Snap Lock
    Name/cs:Přepínání uchopování
    Workbenches:[Kreslení](Draft_Workbench/cs.md), [Architektura](Arch_Workbench/cs.md)
-   MenuLocation:Kreslení → Utility → Přepínání uchopování
+   MenuLocation:Kreslení - Utility - Přepínání uchopování
 ---
 
 # Draft Snap Lock/cs

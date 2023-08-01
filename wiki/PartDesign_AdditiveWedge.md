@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:PartDesign AdditiveWedge
-   MenuLocation:Part Design → Create an additive primitive → Additive Wedge
+   MenuLocation:Part Design - Create an additive primitive - Additive Wedge
    Workbenches:[PartDesign](PartDesign_Workbench.md)
    Version:0.17
    SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md), [PartDesign SubtractiveWedge](PartDesign_SubtractiveWedge.md)

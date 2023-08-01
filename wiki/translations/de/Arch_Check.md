@@ -3,7 +3,7 @@
    Name:Arch Check
    Name/de:Arch Überprüfen
    Workbenches:[Arch](Arch_Workbench/de.md)
-   MenuLocation:Arch → Dienstprogramme → Überprüfen
+   MenuLocation:Arch - Dienstprogramme - Überprüfen
    SeeAlso:[Arch SchließeLöcher](Arch_CloseHoles/de.md)
 ---
 

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std MainFullscreen
    Name/ko:표준 메인 전체화면
-   MenuLocation:보기 → 전체화면
+   MenuLocation:보기 - 전체화면
    Workbenches:모두
    Shortcut:**Alt**+**F11**
    SeeAlso:[표준 보기 전체화면](Std_ViewFullscreen/ko.md)

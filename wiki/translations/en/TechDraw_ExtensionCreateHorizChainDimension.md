@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ExtensionCreateHorizChainDimension
-   MenuLocation:TechDraw → Extensions: Dimensions → Create Horizontal Chain Dimensions
+   MenuLocation:TechDraw - Extensions: Dimensions - Create Horizontal Chain Dimensions
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20

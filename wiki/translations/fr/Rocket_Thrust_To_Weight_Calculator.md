@@ -3,7 +3,7 @@
    Name:Rocket Thrust To Weight Calculator
    Name/fr:Rocket Calcul poussée par rapport au poids
    Icon:Rocket_Calculator.svg
-   MenuLocation:Rocket → Calculators → Thrust To Weight Calculator
+   MenuLocation:Rocket - Calculators - Thrust To Weight Calculator
    Workbenches:[Rocket](Rocket_Workbench/fr.md)
    Version:0.19
 ---

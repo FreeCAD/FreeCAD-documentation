@@ -3,7 +3,7 @@
    Name:Sketcher ConstrainDistance
    Name/it:Distanza
    Workbenches:[Schizzo](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch → Vincolo → Distanza
+   MenuLocation:Sketch - Vincolo - Distanza
    Shortcut:**Maiusc** + **D**
    SeeAlso:[Distanza Orizzontale](Sketcher_ConstrainDistanceX/it.md), [Distanza Verticale](Sketcher_ConstrainDistanceY/it.md)
 ---

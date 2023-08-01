@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Panel
    Name/de:Arch Platte
-   MenuLocation:Arch → Panel tools → Platte
+   MenuLocation:Arch - Panel tools - Platte
    Workbenches:[Arch](Arch_Workbench/de.md)
    Shortcut:**P** **A**
    Version:0.15

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM ConstraintTie
    Name/fr:FEM Contrainte de liaison
-   MenuLocation:Modèle → Contraintes mécaniques → Contrainte de liaison
+   MenuLocation:Modèle - Contraintes mécaniques - Contrainte de liaison
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Version:0.19
    SeeAlso:[FEM Contrainte de pression](FEM_ConstraintPressure.md)

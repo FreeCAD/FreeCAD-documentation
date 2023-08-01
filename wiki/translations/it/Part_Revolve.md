@@ -1,6 +1,6 @@
 # Part Revolve/it
 ---
-- GuiCommand:   Name:Part_Revolve   Name/it:Rivoluziona   MenuLocation:Parte → Rivoluziona...   Workbenches:[[Part_Workbench/it   Parte]]|SeeAlso:---
+- GuiCommand:   Name:Part_Revolve   Name/it:Rivoluziona   MenuLocation:Parte - Rivoluziona...   Workbenches:[[Part_Workbench/it   Parte]]|SeeAlso:---
 
 
 </div>

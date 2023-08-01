@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionThreadBoltBottom
    Name/pl:Rysunek Techniczny: Rozszerzenie Geometria pomocnicza dla gwintu śruby, widok od dołu
-   MenuLocation:Rysunek Techniczny → Rozszerzenie: Linie środka / gwinty → Geometria pomocnicza dla gwintu śruby, widok od dołu
+   MenuLocation:Rysunek Techniczny - Rozszerzenie: Linie środka / gwinty - Geometria pomocnicza dla gwintu śruby, widok od dołu
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign Revolution
    Name/pl:Projekt Części: Wyciągnij przez obrót
-   MenuLocation:Projekt Części → Utwórz cechę przez dodanie → Wyciągnij przez obrót
+   MenuLocation:Projekt Części - Utwórz cechę przez dodanie - Wyciągnij przez obrót
    Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    SeeAlso:[Rowek](PartDesign_Groove/pl.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std OrthographicCamera
    Name/ko:표준 직교투영 카메라
-   MenuLocation:보기 → 직교투영
+   MenuLocation:보기 - 직교투영
    Workbenches:모두
    Shortcut:**V** **O**
    SeeAlso:[표준 원근투영 카메라](Std_PerspectiveCamera/ko.md)

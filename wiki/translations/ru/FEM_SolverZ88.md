@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM SolverZ88
    Name/ru:FEM SolverZ88
-   MenuLocation: Solve → solver Z88
+   MenuLocation: Solve - solver Z88
    Workbenches:[FEM](FEM_Workbench/ru.md)
    Shortcut:
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)

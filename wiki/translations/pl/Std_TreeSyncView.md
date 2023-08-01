@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std TreeSyncView
    Name/pl:Std: Synchronizuj widok
-   MenuLocation:Widok → Akcje widoku drzewa → Synchronizuj widok
+   MenuLocation:Widok - Akcje widoku drzewa - Synchronizuj widok
    Workbenches:wszystkie
    Shortcut:**T** **1**
    Version:0.19

@@ -3,7 +3,7 @@
    Name:Drawing View
    Name/ru:Drawing View
    Workbenches:[Drawing](Drawing_Workbench/ru.md), Complete
-   MenuLocation:Черчение → Вставить вид в чертёж
+   MenuLocation:Черчение - Вставить вид в чертёж
    Shortcut:none
    SeeAlso:[A3 Ландшафтный](Drawing_Landscape_A3/ru.md)
 ---

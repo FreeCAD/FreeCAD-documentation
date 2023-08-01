@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path ToolLibraryEdit
    Name/fr:Path Gestionnaire du magasin d'outils
-   MenuLocation:Path → Tool Manager
+   MenuLocation:Path - Tool Manager
    Workbenches:[Path](Path_Workbench/fr.md)
    Shortcut:**P** **T**
    SeeAlso:

@@ -4,7 +4,7 @@
    Name/it:Migra
    Empty:1
    Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:Part Design → Migra
+   MenuLocation:Part Design - Migra
    Version:0.17
 ---
 

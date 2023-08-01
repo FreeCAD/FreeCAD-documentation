@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Clone
    Name/de:Draft Klonen
-   MenuLocation:Änderung → Klonen
+   MenuLocation:Änderung - Klonen
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**C** **L**
    SeeAlso:[Draft Skalieren](Draft_Scale/de.md)

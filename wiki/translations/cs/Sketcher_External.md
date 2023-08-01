@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher External
    Name/cs:Sketcher External
-   MenuLocation:Sketch → Sketcher geometries → Sketcher External
+   MenuLocation:Sketch - Sketcher geometries - Sketcher External
    Workbenches:[Sketcher](Sketcher_Workbench/cs.md)
    Shortcut:X
    SeeAlso:[Sketcher ConstructionMode](Sketcher_ToggleConstruction/cs.md)

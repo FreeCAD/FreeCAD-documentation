@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Rotate
    Name/de:Draft Drehen
-   MenuLocation:Änderung → Drehen
+   MenuLocation:Änderung - Drehen
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**R****O**
    Version:0.7

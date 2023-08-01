@@ -3,7 +3,7 @@
    Name:BIM Library
    Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
    Addon:BIM
-   MenuLocation:3D Modeling → Library
+   MenuLocation:3D Modeling - Library
    SeeAlso:[[Arch Equipment]]
 ---
 

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std StoreWorkingView
    Name/pl:Std: Zachowaj widok
-   MenuLocation:Widok → Widoki standardowe → Przechowaj widok roboczy
+   MenuLocation:Widok - Widoki standardowe - Przechowaj widok roboczy
    Workbenches:wszystkie
    Shortcut:**Shift** + **End**
    Version:0.21

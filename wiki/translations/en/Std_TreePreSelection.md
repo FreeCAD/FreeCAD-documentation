@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std TreePreSelection
-   MenuLocation:View → TreeView actions → Pre-selection
+   MenuLocation:View - TreeView actions - Pre-selection
    Workbenches:All
    Shortcut:**T** **4**
    Version:0.19

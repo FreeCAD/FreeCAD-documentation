@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh EvaluateSolid
    Name/fr:Mesh Solidité du maillage
-   MenuLocation:Maillages → Analyser → Vérifier la solidité du maillage
+   MenuLocation:Maillages - Analyser - Vérifier la solidité du maillage
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
    SeeAlso:[Arch Sélection de maillages non-manifold](Arch_SelectNonSolidMeshes/fr.md)
 ---

@@ -3,7 +3,7 @@
    Name:Constraint EqualLength
    Name/cs:Constraint EqualLength
    Workbenches:[Sketcher](Sketcher_Workbench/cs.md), [PartDesign](PartDesign_Workbench/cs.md)
-   MenuLocation:Sketch → Sketcher constraints → Constrain equal
+   MenuLocation:Sketch - Sketcher constraints - Constrain equal
    Shortcut:E
    SeeAlso:[Constraint Radius](Sketcher_ConstrainRadius/cs.md)
 ---

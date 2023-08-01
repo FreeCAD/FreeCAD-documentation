@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM ConstraintElectrostaticPotential
    Name/fr:FEM Contrainte de potentiel électrostatique
-   MenuLocation:Modèle → Contraintes électrostatiques → Contrainte de potentiel électrostatique
+   MenuLocation:Modèle - Contraintes électrostatiques - Contrainte de potentiel électrostatique
    Workbenches:[FEM](FEM_Workbench/fr.md)
    SeeAlso:[FEM Exemple calcul capacité de deux sphères](FEM_Example_Capacitance_Two_Balls/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
 ---

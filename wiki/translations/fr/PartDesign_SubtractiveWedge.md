@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign SubtractiveWedge
    Name/fr:PartDesign Pyramide tronquée soustractive
-   MenuLocation:Part Design → Créer une primitive soustractive → Pyramide tronquée soustractive
+   MenuLocation:Part Design - Créer une primitive soustractive - Pyramide tronquée soustractive
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    Version:0.17
    SeeAlso:[PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md), [PartDesign Pyramide tronquée additive](PartDesign_AdditiveWedge/fr.md)

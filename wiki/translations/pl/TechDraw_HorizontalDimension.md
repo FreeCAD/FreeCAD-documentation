@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw HorizontalDimension
    Name/pl:Rysunek Techniczny: Wstaw wymiar poziomy
-   MenuLocation:Rysunek Techniczny → Wymiary → Wstaw wymiar poziomy
+   MenuLocation:Rysunek Techniczny - Wymiary - Wstaw wymiar poziomy
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:**Shift** + **H**
    SeeAlso:[Wstaw wymiar długości](TechDraw_LengthDimension/pl.md), [Wstaw wymiar pionowy](TechDraw_VerticalDimension/pl.md)

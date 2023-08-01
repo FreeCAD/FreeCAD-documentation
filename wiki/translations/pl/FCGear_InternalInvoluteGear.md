@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FCGear InternalInvoluteGear
    Name/pl:FCGear: Wewnętrzna zębatka ewolwentowa
-   MenuLocation:Gear → Wewnętrzna zębatka ewolwentowa
+   MenuLocation:Gear - Wewnętrzna zębatka ewolwentowa
    Workbenches:[FCGear](FCGear_Workbench/pl.md)
    Version:0.21
    SeeAlso:[Koło zębate ewolwentowe](FCGear_InvoluteGear/pl.md)

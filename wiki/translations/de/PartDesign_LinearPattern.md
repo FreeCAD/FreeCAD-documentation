@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign LinearPattern
    Name/de:PartDesign LinearesMuster
-   MenuLocation:Part Design → Muster anwenden → Lineares Muster
+   MenuLocation:Part Design - Muster anwenden - Lineares Muster
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    SeeAlso:[PartDesign MehrfachTransformation](PartDesign_MultiTransform/de.md)
 ---

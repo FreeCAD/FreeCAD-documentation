@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std Placement
    Name/pl:Std: Umiejscowienie
-   MenuLocation:Edycja → Umiejscowienie ...
+   MenuLocation:Edycja - Umiejscowienie ...
    Workbenches:wszystkie
    SeeAlso:[Wyrównanie](Std_Alignment/pl.md), [Umiejscowienie](Placement/pl.md)
 ---

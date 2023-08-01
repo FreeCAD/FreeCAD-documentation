@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_ViewScreenShot
    Name/it:Cattura Schermata
-   MenuLocation:Strumenti → Salva immagine...
+   MenuLocation:Strumenti - Salva immagine...
    Workbenches:Tutti
    SeeAlso:[Stampa](Std_Print/it.md), [Esporta Pdf](Std_PrintPdf/it.md), [Macro Copia la vista 3D negli appunti](Macro_Copy3DViewToClipboard/it.md), [Macro Screen Wiki](Macro_Screen_Wiki/it.md), [Macro Snip](Macro_Snip/it.md)
 ---

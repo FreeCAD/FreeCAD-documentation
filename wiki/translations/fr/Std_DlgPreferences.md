@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std DlgPreferences
    Name/fr:Std Préférences
-   MenuLocation:Édition → Préférences...
+   MenuLocation:Édition - Préférences...
    Workbenches:Tous
    SeeAlso:[Réglage des préférences](Preferences_Editor/fr.md)
 ---

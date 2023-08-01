@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Spreadsheet AlignRight
    Name/de:Kalkulationstabelle RechtsAusrichten
-   MenuLocation:Kalkulationstabelle → Ausrichtung → Rechts Ausrichten
+   MenuLocation:Kalkulationstabelle - Ausrichtung - Rechts Ausrichten
    Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)
    Version:0.17
 ---

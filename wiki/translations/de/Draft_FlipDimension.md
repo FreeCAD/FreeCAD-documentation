@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft FlipDimension
    Name/de:Draft MaßKippen
-   MenuLocation:Änderung → Bemaßung umkehren
+   MenuLocation:Änderung - Bemaßung umkehren
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
 ---
 

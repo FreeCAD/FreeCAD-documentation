@@ -1,6 +1,6 @@
 # PartDesign SubtractivePrism/ro
 ---
-- GuiCommand:   Name:PartDesign SubtractivePrism   Workbenches:[MenuLocation:Part Design → Create a subtractive primitive → Subtractive Prism   Shortcut:None   SeeAlso:[[PartDesign CompPrimitiveSubtractive](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand:   Name:PartDesign SubtractivePrism   Workbenches:[MenuLocation:Part Design - Create a subtractive primitive - Subtractive Prism   Shortcut:None   SeeAlso:[[PartDesign CompPrimitiveSubtractive](PartDesign_Workbench___PartDesign]].md)---
 
 
 </div>

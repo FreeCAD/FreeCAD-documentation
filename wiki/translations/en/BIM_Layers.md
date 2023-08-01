@@ -3,7 +3,7 @@
    Name:BIM Layers
    Workbenches:[BIM](BIM_Workbench.md)
    Addon:BIM
-   MenuLocation:Manage → Layers
+   MenuLocation:Manage - Layers
 ---
 
 # BIM Layers/en

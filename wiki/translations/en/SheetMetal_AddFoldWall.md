@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:SheetMetal AddFoldWall
-   MenuLocation:SheetMetal → Fold a Wall
+   MenuLocation:SheetMetal - Fold a Wall
    Workbenches:[SheetMetal](SheetMetal_Workbench.md)
    Shortcut:**C** **F**
 ---

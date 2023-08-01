@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Shape2DView
    Name/it:Vista forma 2D
-   MenuLocation:Modifiche → Vista forma 2D
+   MenuLocation:Modifiche - Vista forma 2D
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    SeeAlso:[TechDraw Proietta forma](TechDraw_ProjectShape/it.md)
 ---

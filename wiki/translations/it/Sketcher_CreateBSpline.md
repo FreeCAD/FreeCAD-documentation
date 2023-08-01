@@ -3,7 +3,7 @@
    Name:Sketcher CreateBSpline
    Name/it:Sketcher BSpline
    Icon:Sketcher CreateBSpline.svg
-   MenuLocation: Sketch → Geometrie → Crea B-spline
+   MenuLocation: Sketch - Geometrie - Crea B-spline
    Workbenches: [Sketcher](Sketcher_Workbench/it.md)
    Version:0.17
    SeeAlso:[B-spline periodica](Sketcher_CreatePeriodicBSpline/it.md)

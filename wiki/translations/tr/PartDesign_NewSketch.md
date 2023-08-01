@@ -3,7 +3,7 @@
    Name:PartDesign NewSketch
    Name/tr:Eskiz oluştur
    Workbenches:[PartDesign](PartDesign_Workbench/tr.md)
-   MenuLocation:PartDesign → Eskiz oluştur
+   MenuLocation:PartDesign - Eskiz oluştur
    Version:0.17
 ---
 

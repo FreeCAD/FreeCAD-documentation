@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM ConstraintSpring
    Name/de:FEM RandbedingungFeder
-   MenuLocation:Modell → Mechanische Randbedingungen → Randbedingung Feder
+   MenuLocation:Modell - Mechanische Randbedingungen - Randbedingung Feder
    Workbenches:[FEM](FEM_Workbench/de.md)
    Shortcut:
    Version:0.20

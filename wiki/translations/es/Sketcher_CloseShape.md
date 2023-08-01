@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CloseShape
    Name/es:Sketcher CloseShape
-   MenuLocation:Sketch → Sketcher tools → Close Shape
+   MenuLocation:Sketch - Sketcher tools - Close Shape
    Workbenches:[Sketcher](Sketcher_Workbench/es.md)
    Shortcut:Shift+Ctrl+S
    Version:0.15

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std ViewFullscreen
-   MenuLocation:View → Document window → Fullscreen
+   MenuLocation:View - Document window - Fullscreen
    Workbenches:All
    Shortcut:**F11**
    SeeAlso:[Std ViewDockUndockFullscreen](Std_ViewDockUndockFullscreen.md), [Std MainFullscreen](Std_MainFullscreen.md)

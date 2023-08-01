@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw RedrawPage
-   MenuLocation:TechDraw → Page → Redraw Page
+   MenuLocation:TechDraw - Page - Redraw Page
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Version:0.19
 ---

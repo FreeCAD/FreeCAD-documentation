@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CreateRegularPolygon
    Name/de:Sketcher RegelmäßigesVieleckErstellen
-   MenuLocation:Sketch → Skizzengeometrien → Regelmäßiges Vieleck erstellen
+   MenuLocation:Sketch - Skizzengeometrien - Regelmäßiges Vieleck erstellen
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Shortcut:**G** **P** **R**
 ---

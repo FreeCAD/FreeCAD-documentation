@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft Polygon
-   MenuLocation:Drafting → Polygon
+   MenuLocation:Drafting - Polygon
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    Shortcut:**P** **G**
    Version:0.7

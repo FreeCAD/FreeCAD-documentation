@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM ConstraintFixed
    Name/de:FEM RandbedingungFestsetzen
-   MenuLocation:Modell → Mechanische Randbedingungen → Randbedingung Festsetzen
+   MenuLocation:Modell - Mechanische Randbedingungen - Randbedingung Festsetzen
    Workbenches:[FEM](FEM_Workbench/de.md)
    SeeAlso:[FEM RandbedingungKontakt](FEM_ConstraintContact/de.md)
 ---

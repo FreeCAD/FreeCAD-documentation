@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Part Point
-   MenuLocation:Part → [Create primitives](Part_Primitives.md) → Point
+   MenuLocation:Part - [Create primitives](Part_Primitives.md) - Point
    Workbenches:[Part](Part_Workbench.md), [OpenSCAD](OpenSCAD_Workbench.md)
    SeeAlso:[Part Primitives](Part_Primitives.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Fillet
    Name/ru:Draft Fillet
-   MenuLocation:Draft → Fillet
+   MenuLocation:Draft - Fillet
    Workbenches:[Draft](Draft_Workbench/ru.md)
    Version:0.19
    SeeAlso:[Draft Line](Draft_Line/ru.md), [Draft Wire](Draft_Wire/ru.md)

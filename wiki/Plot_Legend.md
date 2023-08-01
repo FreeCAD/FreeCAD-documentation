@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Plot Legend
-   MenuLocation:Plot → Show/hide legend‏‎
+   MenuLocation:Plot - Show/hide legend‏‎
    Workbenches:[Plot](Plot_Workbench.md)
 ---
 

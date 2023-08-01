@@ -3,7 +3,7 @@
    Icon:Constraint Horizontal.svg
    Name:Sketcher ConstrainHorizontal
    Name/pl:Szkicownik: Zwiąż w poziomie
-   MenuLocation:Szkic → Wiązania szkicownika → Zwiąż w poziomie
+   MenuLocation:Szkic - Wiązania szkicownika - Zwiąż w poziomie
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**H**
    SeeAlso:[Wiązanie pionowe](Sketcher_ConstrainVertical/pl.md)

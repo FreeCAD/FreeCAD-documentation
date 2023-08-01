@@ -1,6 +1,6 @@
 # Draft Downgrade/cs
 ---
-- GuiCommand:   Name:Draft_Downgrade   Name/cs:Kreslení Degradace   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft → Downgrade   Shortcut:D N   SeeAlso:[Draft Upgrade](Draft_Upgrade/cs.md)---
+- GuiCommand:   Name:Draft_Downgrade   Name/cs:Kreslení Degradace   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft - Downgrade   Shortcut:D N   SeeAlso:[Draft Upgrade](Draft_Upgrade/cs.md)---
 
 
 </div>

@@ -3,7 +3,7 @@
    Name:Assembly3 ShowElementCS
    Name/fr:Assembly3 Système de coordonnées de l'élément
    Icon:Assembly_ShowElementCS.svg‎‎
-   MenuLocation:Assembly3 → Element style → Show element coordinate system
+   MenuLocation:Assembly3 - Element style - Show element coordinate system
    Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
 ---
 

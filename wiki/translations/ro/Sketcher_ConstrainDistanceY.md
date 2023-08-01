@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher ConstrainDistanceY
    Workbenches:[Sketcher](Sketcher_Workbench.md)
-   MenuLocation:Sketch → Sketcher constraints → Constrain vertical distance
+   MenuLocation:Sketch - Sketcher constraints - Constrain vertical distance
    Shortcut:Shift+V
    SeeAlso:[Constrain Horizontal Distance](Sketcher_ConstrainDistanceX.md), [Constrain Length](Sketcher_ConstrainDistance.md)
 ---

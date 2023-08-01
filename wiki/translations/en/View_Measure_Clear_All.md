@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:View Measure Clear All
-   MenuLocation:View → Visibility → Clear measurement
+   MenuLocation:View - Visibility - Clear measurement
    Workbenches:All
    SeeAlso:[View Measure Toggle All](View_Measure_Toggle_All.md), [Part Measure Toggle All](Part_Measure_Toggle_All.md), [Part Measure Clear All](Part_Measure_Clear_All.md)
 ---

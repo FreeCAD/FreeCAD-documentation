@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Common
    Name/pl:Część: Część wspólna
-   MenuLocation:Część → Operacje logiczne → Część wspólna
+   MenuLocation:Część - Operacje logiczne - Część wspólna
    Workbenches:[Część](Part_Workbench/pl.md)
    SeeAlso:[Operacja logiczna](Part_Boolean/pl.md), [Wytnij](Part_Cut/pl.md), [Połączenie](Part_Fuse/pl.md)
 ---

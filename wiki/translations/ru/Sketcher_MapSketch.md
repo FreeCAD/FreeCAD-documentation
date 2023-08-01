@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher_MapSketch
    Name/ru:Разместить эскиз на грани
-   MenuLocation:Part Design/Sketch →  Разместить эскиз на грани...
+   MenuLocation:Part Design/Sketch -  Разместить эскиз на грани...
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
    SeeAlso:[Создать эскиз](Sketcher_NewSketch/ru.md)
 ---

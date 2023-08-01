@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ToggleClipPlane
    Name/pl:Płaszczyzna przecinająca
-   MenuLocation:Widok → Płaszczyzna tnąca‏‎
+   MenuLocation:Widok - Płaszczyzna tnąca‏‎
    Workbenches:wszystkie
    SeeAlso:[Wycinek przekroju](Part_SectionCut/pl.md)
 ---

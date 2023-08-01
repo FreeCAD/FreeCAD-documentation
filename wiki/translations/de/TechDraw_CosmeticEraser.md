@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw CosmeticEraser
    Name/de:TechDraw HilfsobjektEntfernen
-   MenuLocation:TechDraw → Hilfsobjekt entfernen
+   MenuLocation:TechDraw - Hilfsobjekt entfernen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Version:0.19
 ---

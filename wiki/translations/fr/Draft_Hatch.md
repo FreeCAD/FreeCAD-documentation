@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Hatch
    Name/fr:Draft Hachure
-   MenuLocation:Draft → Hachure
+   MenuLocation:Draft - Hachure
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:**H** **A**
    Version:0.20

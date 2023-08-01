@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh_RemoveComponents
    Name/pl:Siatka: Usuń fragmenty
-   MenuLocation:Siatki → Usuń fragmenty ...
+   MenuLocation:Siatki - Usuń fragmenty ...
    Workbenches:[Siatka](Mesh_Workbench/pl.md)
    SeeAlso:[Usuń elementy interaktywnie](Mesh_RemoveCompByHand/pl.md), [Podziel siatkę](Arch_SplitMesh/pl.md)
 ---

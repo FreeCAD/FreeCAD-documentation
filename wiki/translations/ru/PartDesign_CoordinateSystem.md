@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Создать локальную систему координат
    Name:PartDesign_CoordinateSystem
-   MenuLocation:PartDesign → Создать локальную систему координат
+   MenuLocation:PartDesign - Создать локальную систему координат
    Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
    Version:0.18
    SeeAlso:[Создать опорную точку](PartDesign_Point/ru.md), [Создать опорную линию](PartDesign_Line/ru.md), [Создать опорную плоскость](PartDesign_Plane/ru.md)

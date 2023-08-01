@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh Scale
    Name/de:Mesh Skalieren
-   MenuLocation:Netze → Skalieren...
+   MenuLocation:Netze - Skalieren...
    Workbenches:[Mesh](Mesh_Workbench/de.md)
 ---
 

@@ -3,7 +3,7 @@
    Name:MeshPart_CreateFlatMesh
    Name/it:Sviluppa una mesh
    Empty:1
-   MenuLocation:Mesh → Sviluppa una mesh
+   MenuLocation:Mesh - Sviluppa una mesh
    Workbenches:[Mesh](Mesh_Workbench/it.md)
    SeeAlso:[Sviluppa una faccia](MeshPart_CreateFlatFace/it.md)
 ---

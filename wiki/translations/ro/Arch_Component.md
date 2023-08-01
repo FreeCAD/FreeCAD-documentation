@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ro:Arch Component
    Icon:Arch Component.svg‏‎
-‏   MenuLocation:Arch → Utilities → Component‎‏‎
+‏   MenuLocation:Arch - Utilities - Component‎‏‎
    Workbenches:[Arch](Arch_Workbench/ro.md)
    Shortcut:**C** **M**
 ---

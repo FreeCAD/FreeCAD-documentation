@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Spiral
    Name/pl:Część: Spirala
-   MenuLocation:Część → Utwórz geometrie pierwotne ... → Spirala
+   MenuLocation:Część - Utwórz geometrie pierwotne ... - Spirala
    Workbenches:[Część](Part_Workbench/pl.md), [OpenSCAD](OpenSCAD_Workbench/pl.md)
    SeeAlso:[Utwórz geometrie pierwotne](Part_Primitives/pl.md)
 ---

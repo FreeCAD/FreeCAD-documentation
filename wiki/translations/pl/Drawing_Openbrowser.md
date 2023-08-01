@@ -3,7 +3,7 @@
    Name:Drawing Openbrowser
    Name/pl:Otwórz przeglądarkę WEB
    Workbenches:[Drawing](Drawing_Workbench/pl.md)
-   MenuLocation:Rysunek → Otwiera wybrana stronę w przeglądarce
+   MenuLocation:Rysunek - Otwiera wybrana stronę w przeglądarce
    Shortcut:brak
 ---
 

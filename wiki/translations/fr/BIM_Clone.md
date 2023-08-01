@@ -4,7 +4,7 @@
    Name/fr:Clone
    Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/fr.md)
    Addon:BIM
-   MenuLocation:Modify → Copy
+   MenuLocation:Modify - Copy
    SeeAlso:[Draft Clone](Draft_Clone/fr.md)
 ---
 

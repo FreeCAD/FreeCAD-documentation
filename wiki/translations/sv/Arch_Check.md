@@ -1,6 +1,6 @@
 # Arch Check/sv
 ---
-- GuiCommand:   Name:Arch Check   Name/sv:Arch Check   Workbenches:[MenuLocation:Arch → Utilities → Check   SeeAlso:[[Arch CloseHoles/sv|Arch CloseHoles](Arch_Workbench/sv___Arch]].md)---
+- GuiCommand:   Name:Arch Check   Name/sv:Arch Check   Workbenches:[MenuLocation:Arch - Utilities - Check   SeeAlso:[[Arch CloseHoles/sv|Arch CloseHoles](Arch_Workbench/sv___Arch]].md)---
 
 
 </div>

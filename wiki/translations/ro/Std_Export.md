@@ -3,7 +3,7 @@
    Name:Std Export
    Name/ro:Exportul
    Workbenches:All
-   MenuLocation:[File](Std_File_Menu/ro.md) → Exportul
+   MenuLocation:[File](Std_File_Menu/ro.md) - Exportul
    Shortcut:Ctrl + E
    SeeAlso:[Importul](Std_Import/ro.md)
 ---

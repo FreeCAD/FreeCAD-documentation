@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part JoinConnect
    Name/de:Part Verbinden
-   MenuLocation:Formteil → Verbinden → Objekte verbinden
+   MenuLocation:Formteil - Verbinden - Objekte verbinden
    Workbenches:[Part](Part_Workbench/de.md)
    Version:0.16
    SeeAlso:[Part Einbetten](Part_JoinEmbed/de.md), [Part Ausschneiden](Part_JoinCutout.md), [Part Boolesche Operationen](Part_Boolean/de.md), [Part Dicke](Part_Thickness/de.md)

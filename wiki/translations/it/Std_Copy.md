@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_Copy
    Name/it:Copia
-   MenuLocation:Modifica → Copia
+   MenuLocation:Modifica - Copia
    Shortcut:**Ctrl**+**C**
    Workbenches:Tutti
    SeeAlso:[Incolla](Std_Paste/it.md), [Duplica la selezione](Std_DuplicateSelection/it.md)

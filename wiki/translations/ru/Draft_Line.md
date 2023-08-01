@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Line
    Name/ru:Draft Line
-   MenuLocation:Черчение → Линия
+   MenuLocation:Черчение - Линия
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:**L** **I**
    SeeAlso:[Draft Wire](Draft_Wire/ru.md)

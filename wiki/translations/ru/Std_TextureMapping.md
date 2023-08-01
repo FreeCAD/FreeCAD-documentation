@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Текстурирование
    Name:Std_TextureMapping
-   MenuLocation:Вид → Текстурирование...
+   MenuLocation:Вид - Текстурирование...
    Workbenches:Все
 ---
 

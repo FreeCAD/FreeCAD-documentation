@@ -3,7 +3,7 @@
    Name:Drawing Openbrowser
    Name/fr:Drawing Ouvrir sur le navigateur interne
    Workbenches:[Drawing](Drawing_Workbench/fr.md)
-   MenuLocation:Drawing → Ouvrir sur le navigateur interne 
+   MenuLocation:Drawing - Ouvrir sur le navigateur interne 
    Shortcut:
 ---
 

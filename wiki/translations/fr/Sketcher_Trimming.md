@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher Trimming
    Name/fr:Sketcher Ajuster
-   MenuLocation:Esquisse → Géométries d'esquisse → Ajuster l'arête
+   MenuLocation:Esquisse - Géométries d'esquisse - Ajuster l'arête
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**G** **T**
    Version:0.12

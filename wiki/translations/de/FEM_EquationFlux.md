@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM EquationFlux
    Name/de:FEM GleichungFluss
-   MenuLocation:Lösen → Flux equation
+   MenuLocation:Lösen - Flux equation
    Workbenches:[FEM](FEM_Workbench/de.md)
    Version:0.17
    SeeAlso:

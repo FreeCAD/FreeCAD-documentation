@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Booleans
    Name/ro:Part Booleans
-   MenuLocation:Part → Booleans
+   MenuLocation:Part - Booleans
    Workbenches:[Part](Part_Workbench/ro.md), Complete
    SeeAlso:[Part Union](Part_Union/ro.md), [Part Common](Part_Common/ro.md) and [Part Cut](Part_Cut/ro.md)
 ---

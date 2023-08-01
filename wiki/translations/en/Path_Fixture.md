@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Path Fixture
-   MenuLocation:Path → Supplemental Commands → Fixture
+   MenuLocation:Path - Supplemental Commands - Fixture
    Workbenches:[Path](Path_Workbench.md)
 ---
 

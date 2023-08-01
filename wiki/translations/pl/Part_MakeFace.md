@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part MakeFace‏‎
    Name/pl:Część: Utwórz ścianę z polilinii
-   MenuLocation:Część → Utwórz ścianę z polilinii
+   MenuLocation:Część - Utwórz ścianę z polilinii
    Workbenches:[Część](Part_Workbench/pl.md)
    Version:0.19
    SeeAlso:[Utwórz powierzchnie prostokreślną](Part_RuledSurface/pl.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Паз
    Name:Sketcher_CreateSlot
-   MenuLocation:Эскиз → Геометрия эскиза → Создать паз
+   MenuLocation:Эскиз - Геометрия эскиза - Создать паз
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**G** **S**
 ---

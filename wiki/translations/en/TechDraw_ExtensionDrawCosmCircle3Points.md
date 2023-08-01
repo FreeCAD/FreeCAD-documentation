@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ExtensionDrawCosmCircle3Points
-   MenuLocation:TechDraw → Extensions: Centerlines/Threading → Add Cosmetic Circle 3 Points
+   MenuLocation:TechDraw - Extensions: Centerlines/Threading - Add Cosmetic Circle 3 Points
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20

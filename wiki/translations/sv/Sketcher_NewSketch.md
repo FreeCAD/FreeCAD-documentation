@@ -3,7 +3,7 @@
    Name:Sketcher NewSketch
    Name/sv:Skapa skiss
    Workbenches:[Sketcher](Sketcher_Workbench/sv.md)
-   MenuLocation:Sketch → Skapa skiss
+   MenuLocation:Sketch - Skapa skiss
    SeeAlso:[Kartera skiss till ytan ...](Sketcher_MapSketch/sv.md), [Omorientera skiss...](Sketcher_ReorientSketch/sv.md)
 ---
 

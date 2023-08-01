@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh FromPartShape
    Name/de:Mesh NetzAusPartForm
-   MenuLocation:Netze → Netz aus Form erstellen...
+   MenuLocation:Netze - Netz aus Form erstellen...
    Workbenches:[Mesh](Mesh_Workbench/de.md)
 ---
 

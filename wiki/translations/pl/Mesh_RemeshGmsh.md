@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh RemeshGmsh
    Name/pl:Siatka: Ulepsz przez Gmsh
-   MenuLocation:Siatki → Ulepszanie ...
+   MenuLocation:Siatki - Ulepszanie ...
    Workbenches:[Siatka](Mesh_Workbench/pl.md)
    Version:0.19
    SeeAlso:[Siatka z kształtu](Mesh_FromPartShape/pl.md)

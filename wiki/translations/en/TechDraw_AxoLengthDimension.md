@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw AxoHorizontalDimension
-   MenuLocation:TechDraw → Annotations → Axonometric length dimension
+   MenuLocation:TechDraw - Annotations - Axonometric length dimension
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Version:0.21
 ---

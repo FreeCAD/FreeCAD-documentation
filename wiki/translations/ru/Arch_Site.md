@@ -3,7 +3,7 @@
    Name:Arch Site
    Name/ru:Местность
    Workbenches:[Arch](Arch_Workbench/ru.md)
-   MenuLocation:Архитектура → Место
+   MenuLocation:Архитектура - Место
    Shortcut:**S** **I**
    SeeAlso:[Уровень](Arch_Floor/ru.md), [Здание](Arch_Building/ru.md)
 ---

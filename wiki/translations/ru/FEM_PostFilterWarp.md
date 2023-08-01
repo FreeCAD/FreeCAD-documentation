@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM PostFilterWarp
    Name/ru:FEM PostCreateWarpVectorFilter
-   MenuLocation: Results → Wrap vector filter
+   MenuLocation: Results - Wrap vector filter
    Workbenches:[FEM](FEM_Workbench/ru.md)
    Shortcut:
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)

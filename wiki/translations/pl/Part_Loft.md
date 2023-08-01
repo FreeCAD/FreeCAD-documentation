@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Loft
    Name/pl:Part: Wyciągnij po profilach
-   MenuLocation:Część → Wyciągnięcie po profilach...
+   MenuLocation:Część - Wyciągnięcie po profilach...
    Workbenches:[środowisko pracy Część](Part_Workbench/pl.md)
    Version:0.13
    SeeAlso:[Wyciągnięcie po ścieżce](Part_Sweep/pl.md)

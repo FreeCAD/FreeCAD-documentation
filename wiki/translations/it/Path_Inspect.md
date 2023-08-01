@@ -1,6 +1,6 @@
 # Path Inspect/it
 ---
-- GuiCommand:   Name:Path Inspect   Name/it:Ispeziona G-code   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Ispeziona G-code   Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Path Inspect   Name/it:Ispeziona G-code   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path - Ispeziona G-code   Shortcut:   SeeAlso:---
 
 
 </div>

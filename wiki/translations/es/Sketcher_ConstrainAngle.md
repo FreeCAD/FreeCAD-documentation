@@ -4,7 +4,7 @@
    Name/es:Constraint InternalAngle
    Workbenches:[Croquizador](Sketcher_Workbench/es.md), [Diseño de Piezas](PartDesign_Workbench/es.md)
    Shortcut:A
-   MenuLocation:Croquizador → Restricciones del Croquizador → Restricción angular
+   MenuLocation:Croquizador - Restricciones del Croquizador - Restricción angular
    SeeAlso:[Restricción distancia](Sketcher_ConstrainDistance/es.md), [Restricción perpendicular](Sketcher_ConstrainPerpendicular/es.md)
 ---
 

@@ -3,7 +3,7 @@
    Name:Points PolyCut
    Name/it:Taglia una nuvola di punti
    Icon:PolygonPick.svg
-   MenuLocation:Punti → Taglia una nuvola di punti
+   MenuLocation:Punti - Taglia una nuvola di punti
    Workbenches:[Punti](Points_Workbench/it.md)
    SeeAlso:
 ---

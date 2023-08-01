@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Соединить
    Name:Draft_Join
-   MenuLocation:Многоугольник, Полигон → Соединить
+   MenuLocation:Многоугольник, Полигон - Соединить
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:**J** **O**
    Version:0.18

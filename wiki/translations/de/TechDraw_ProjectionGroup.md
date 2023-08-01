@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ProjectionGroup
    Name/de:TechDraw Ansichtengruppe
-   MenuLocation:TechDraw→ TechDraw Ansichten → Ansichtengruppe einfügen
+   MenuLocation:TechDraw- TechDraw Ansichten - Ansichtengruppe einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    SeeAlso:[TechDraw Ansicht einfügen](TechDraw_View/de.md), [TechDraw Schnittansicht einfügen](TechDraw_SectionView/de.md)
 ---

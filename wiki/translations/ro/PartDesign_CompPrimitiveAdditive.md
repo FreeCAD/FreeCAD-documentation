@@ -4,7 +4,7 @@
    Name/ro:PartDesign CompPrimitiveAdditive
    Empty:1
    Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation:Part Design → Create an additive primitive
+   MenuLocation:Part Design - Create an additive primitive
    Version:0.17
    SeeAlso:[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive/ro.md)
 ---

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Plot Series
-   MenuLocation:Plot → Configure series
+   MenuLocation:Plot - Configure series
 ‏‎   Workbenches:[Plot](Plot_Workbench.md)
 ---
 

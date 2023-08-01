@@ -1,6 +1,6 @@
 # Draft BSpline/cs
 ---
-- GuiCommand:   Name:Draft BSpline   Name/cs:Draft BSpline   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft → BSpline   Shortcut:B S   SeeAlso:[Drát](Draft_Wire/cs.md)---
+- GuiCommand:   Name:Draft BSpline   Name/cs:Draft BSpline   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft - BSpline   Shortcut:B S   SeeAlso:[Drát](Draft_Wire/cs.md)---
 
 
 </div>

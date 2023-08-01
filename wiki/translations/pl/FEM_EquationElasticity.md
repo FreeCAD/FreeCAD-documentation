@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:FEM EquationElasticity
-   MenuLocation:Solve → Mechanical equations → Elasticity equation
+   MenuLocation:Solve - Mechanical equations - Elasticity equation
    Workbenches:[FEM](FEM_Workbench.md)
    Version:0.17
    SeeAlso:[Deformation equation](FEM_EquationDeformation.md), [FEM tutorial](FEM_tutorial.md)

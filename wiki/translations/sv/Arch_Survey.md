@@ -1,6 +1,6 @@
 # Arch Survey/sv
 ---
-- GuiCommand:   Name:Arch Survey   Name/sv:Arch Survey   Workbenches:[MenuLocation:Arch → Survey   SeeAlso:[[Macro FCInfo/sv|FCInfo (macro)](Arch_Workbench/sv___Arch]].md)---
+- GuiCommand:   Name:Arch Survey   Name/sv:Arch Survey   Workbenches:[MenuLocation:Arch - Survey   SeeAlso:[[Macro FCInfo/sv|FCInfo (macro)](Arch_Workbench/sv___Arch]].md)---
 
 
 </div>

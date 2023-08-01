@@ -3,7 +3,7 @@
    Name:Draft Label
    Name/es:Draft Label
    Workbenches:[Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
-   MenuLocation:Draft → Label
+   MenuLocation:Draft - Label
    Shortcut:D L
 ---
 

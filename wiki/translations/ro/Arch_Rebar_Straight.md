@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Rebar UShape
    Name/ro:Arch Rebar UShape
-   MenuLocation:Arch → Rebar tools
+   MenuLocation:Arch - Rebar tools
    Workbenches:[Arch](Arch_Workbench/ro.md)
    Shortcut:None
    SeeAlso:[LShape Rebar](Arch_Rebar_LShape/ro.md)

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher Move
-   MenuLocation:Sketch → Sketcher tools → Move
+   MenuLocation:Sketch - Sketcher tools - Move
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**Z** **M**
    Version:0.18

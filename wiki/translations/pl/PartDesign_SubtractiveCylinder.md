@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign SubtractiveCylinder
    Name/pl:Projekt Części: Subtraktywny walec
-   MenuLocation:Projekt Części → Utwórz cechę przez odjęcie → Subtraktywny walec
+   MenuLocation:Projekt Części - Utwórz cechę przez odjęcie - Subtraktywny walec
    Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
    SeeAlso:[Komponent bryła pierwotna do odjęcia](PartDesign_CompPrimitiveSubtractive/pl.md), [Addytywny walec](PartDesign_AdditiveCylinder/pl.md)

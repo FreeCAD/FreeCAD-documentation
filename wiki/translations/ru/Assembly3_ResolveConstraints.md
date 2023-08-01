@@ -3,7 +3,7 @@
    Name:Assembly3 ResolveConstraints
    Name/ru:Assembly3 ResolveConstraints
    Icon:Assembly3_workbench_icon.svg
-   MenuLocation:Assembly3 → Resolve constraints
+   MenuLocation:Assembly3 - Resolve constraints
    Workbenches:[Assembly3](Assembly3_Workbench/ru.md)
    Shortcut:**A** then **S**
 ---

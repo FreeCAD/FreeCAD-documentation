@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part CrossSections
    Name/ru:Поперечные сечения
-   MenuLocation:Деталь → Поперечные сечения
+   MenuLocation:Деталь - Поперечные сечения
    Workbenches:[Верстак Part](Part_Workbench/ru.md)
    SeeAlso:[Разделить](Part_Section/ru.md)
 ---

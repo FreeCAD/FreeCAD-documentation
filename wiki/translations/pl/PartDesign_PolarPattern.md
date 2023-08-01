@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign PolarPattern
    Name/pl:Projekt Części: Szyk kołowy
-   MenuLocation:Projekt Części → Zastosuj szyk → Szyk kołowy
+   MenuLocation:Projekt Części - Zastosuj szyk - Szyk kołowy
    Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    SeeAlso:[Transformacja wielokrotna](PartDesign_MultiTransform/pl.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw DecorateLine
    Name/pl:Rysunek Techniczny: Zmień wygląd linii
-   MenuLocation:Rysunek Techniczny → Zmień wygląd linii
+   MenuLocation:Rysunek Techniczny - Zmień wygląd linii
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Version:0.19
    SeeAlso:[Dodaj oś ściany](TechDraw_FaceCenterLine/pl.md), [Usuń geometrie pomocnicze](TechDraw_CosmeticEraser/pl.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part SimpleCopy‏‎
    Name/fr:Part Copie simple
-   MenuLocation:Part → Créer une copie → Créer une copie simple
+   MenuLocation:Part - Créer une copie - Créer une copie simple
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Std Copie](Std_Copy/fr.md), [Std Dupliquer la Sélection](Std_DuplicateSelection/fr.md), [Part Copie transformée](Part_TransformedCopy/fr.md), [Part Copie de l’élément](Part_ElementCopy/fr.md), [Part Affiner la forme](Part_RefineShape/fr.md)
 ---

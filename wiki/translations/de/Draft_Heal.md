@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft Heal   Name/de:Draft Heilen
-   MenuLocation:Entwurf → Dienstprogramme → Heilen
+   MenuLocation:Entwurf - Dienstprogramme - Heilen
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    SeeAlso:[Hochstufen](Draft_Upgrade/de.md), [Herabstufen](Draft_Downgrade/de.md)
 ---

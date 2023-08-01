@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw Dimension Link
    Name/de:TechDraw MaßVerknüpfen
-   MenuLocation:TechDraw → Bemaßungen → Maß mit 3D Geometrie verknüpfen
+   MenuLocation:TechDraw - Bemaßungen - Maß mit 3D Geometrie verknüpfen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    SeeAlso:[TechDraw Ansicht](TechDraw_View/de.md), [TechDraw ProjektionsGruppe](TechDraw_ProjectionGroup/de.md)
 ---

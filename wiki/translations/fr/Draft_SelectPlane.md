@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft SelectPlane
    Name/fr:Draft Plan de travail
-   MenuLocation:Utilitaires → Sélectionner un plan
+   MenuLocation:Utilitaires - Sélectionner un plan
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:**W** **P**
    SeeAlso:[Draft Objet Proxy pour plan de travail](Draft_WorkingPlaneProxy/fr.md)

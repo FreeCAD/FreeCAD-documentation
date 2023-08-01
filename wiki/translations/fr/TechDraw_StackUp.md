@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw StackUp
    Name/fr:TechDraw Empiler vers le haut
-   MenuLocation:TechDraw → Empiler → Déplacer la vue vers le haut d'un niveau
+   MenuLocation:TechDraw - Empiler - Déplacer la vue vers le haut d'un niveau
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut:
    Version:0.21

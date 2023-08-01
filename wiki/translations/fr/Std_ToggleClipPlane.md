@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ToggleClipPlane
    Name/fr:Std Basculer le plan de coupe
-   MenuLocation:Affichage → Plan de coupe
+   MenuLocation:Affichage - Plan de coupe
    Workbenches:Tous
    SeeAlso:[Part Coupe persistante](Part_SectionCut/fr.md)
 ---

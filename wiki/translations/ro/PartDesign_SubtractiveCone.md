@@ -1,6 +1,6 @@
 # PartDesign SubtractiveCone/ro
 ---
-- GuiCommand:   Name:PartDesign SubtractiveCone   Workbenches:[MenuLocation:Part Design → Create a subtractive primitive → Subtractive Cone   Shortcut:None   SeeAlso:[[PartDesign CompPrimitiveSubtractive](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand:   Name:PartDesign SubtractiveCone   Workbenches:[MenuLocation:Part Design - Create a subtractive primitive - Subtractive Cone   Shortcut:None   SeeAlso:[[PartDesign CompPrimitiveSubtractive](PartDesign_Workbench___PartDesign]].md)---
 
 
 </div>

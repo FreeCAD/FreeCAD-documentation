@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std AxisCross
-   MenuLocation:View → Toggle axis cross
+   MenuLocation:View - Toggle axis cross
    Workbenches:All
    Shortcut:**A** **C**
 ---

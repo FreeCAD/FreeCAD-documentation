@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft ToggleDisplayMode
-   MenuLocation:Utilities → Toggle normal/wireframe display
+   MenuLocation:Utilities - Toggle normal/wireframe display
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    Shortcut:**Shift**+**Space**
    SeeAlso:[Std ToggleVisibility](Std_ToggleVisibility.md)

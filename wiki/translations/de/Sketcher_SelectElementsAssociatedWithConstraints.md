@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher SelectElementsAssociatedWithConstraints
    Name/de:Sketcher SelectElementsAssociatedWithConstraints
-   MenuLocation:Skizze → Skizzenwerkzeuge → Zugehörige Geometrie auswählen
+   MenuLocation:Skizze - Skizzenwerkzeuge - Zugehörige Geometrie auswählen
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Shortcut:**Z** **E**
    Version:0.15

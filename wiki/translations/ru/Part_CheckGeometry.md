@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Проверка геометрии
    Name:Part_CheckGeometry‏‎
-   MenuLocation:Деталь → Проверка геометрии
+   MenuLocation:Деталь - Проверка геометрии
    Workbenches:[Part](Part_Workbench/ru.md)
 ---
 

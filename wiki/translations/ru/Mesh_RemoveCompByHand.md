@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh RemoveCompByHand‏‎
    Name/ru:Mesh RemoveCompByHand‏‎
-   MenuLocation:Сетки → Удалить компоненты вручную...
+   MenuLocation:Сетки - Удалить компоненты вручную...
    Workbenches:[Mesh](Mesh_Workbench/ru.md)
    Shortcut:
    SeeAlso:

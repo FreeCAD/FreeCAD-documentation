@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Part PointsFromMesh‎
-   MenuLocation:Part → Create points object from geometry
+   MenuLocation:Part - Create points object from geometry
    Workbenches:[Part](Part_Workbench.md)
    Version:0.19
    SeeAlso:[Part ShapeFromMesh](Part_ShapeFromMesh.md), [Part ConvertToSolid](Part_MakeSolid.md), [Part RefineShape](Part_RefineShape.md)

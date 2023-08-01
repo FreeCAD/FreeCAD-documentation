@@ -3,7 +3,7 @@
    Name/ro:Sketcher arc de parabolă
    Icon:Sketcher Parabolic Arc.png
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation:Sketch → Geometria schitei → Creaţi un arc de parabolă
+   MenuLocation:Sketch - Geometria schitei - Creaţi un arc de parabolă
    Version:0.17
    SeeAlso:[Sketcher arc de elipsă](Sketcher_CreateArcOfEllipse.md), [Sketcher arc de Hiperbolă](Sketcher_CreateArcOfHyperbola.md)
 ---

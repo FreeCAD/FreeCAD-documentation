@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:EM FHEquiv
    Name/it:EM FHEquiv
-   MenuLocation:EM → FHEquiv
+   MenuLocation:EM - FHEquiv
    Workbenches:[EM](EM_Workbench/it.md) (add-on)
    Shortcut:**E** **E**
    SeeAlso:[EM FHNode](EM_FHNode/it.md), [EM FHSegment](EM_FHSegment/it.md), [EM FHPath](EM_FHPath/it.md), [EM FHPlane](EM_FHPlane/it.md), [EM FHPort](EM_FHPort/it.md),

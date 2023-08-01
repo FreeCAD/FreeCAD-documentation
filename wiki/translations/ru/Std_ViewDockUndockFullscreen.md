@@ -4,7 +4,7 @@
    Name:Std ViewDockUndockFullscreen
    Name/ru:Std ViewDockUndockFullscreen
    Empty:1
-   MenuLocation:Вид → Окно документа → Закреплённое/Откреплённное
+   MenuLocation:Вид - Окно документа - Закреплённое/Откреплённное
    Workbenches:All
    Shortcut:**V** **D** / **V** **U**
    SeeAlso:[Std ViewFullscreen](Std_ViewFullscreen/ru.md), [Std MainFullscreen](Std_MainFullscreen/ru.md)

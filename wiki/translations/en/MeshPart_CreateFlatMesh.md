@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:MeshPart CreateFlatMesh
-   MenuLocation:Meshes → Unwrap Mesh
+   MenuLocation:Meshes - Unwrap Mesh
    Workbenches:[Mesh](Mesh_Workbench.md)
    Version:0.19
    SeeAlso:[Mesh Part Create Flat Face](MeshPart_CreateFlatFace.md)

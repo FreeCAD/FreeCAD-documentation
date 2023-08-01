@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std SelectVisibleObjects
-   MenuLocation:View → Visibility → Select visible objects
+   MenuLocation:View - Visibility - Select visible objects
    Workbenches:All
 ---
 

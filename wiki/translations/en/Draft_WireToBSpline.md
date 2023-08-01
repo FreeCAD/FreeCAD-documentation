@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft WireToBSpline
-   MenuLocation:Modification → Wire to B-spline
+   MenuLocation:Modification - Wire to B-spline
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    SeeAlso:[Draft Wire](Draft_Wire.md), [Draft BSpline](Draft_BSpline.md)
 ---

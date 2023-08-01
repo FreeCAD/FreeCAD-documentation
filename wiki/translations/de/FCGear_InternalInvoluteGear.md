@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FCGear InternalInvoluteGear
    Name/de:FCGear InnenverzahntesEvolventenzahnrad
-   MenuLocation:Gear → Internal Involute Gear
+   MenuLocation:Gear - Internal Involute Gear
    Workbenches:[FCGear](FCGear_Workbench/de.md)
    Shortcut:Kein
    Version:1.0

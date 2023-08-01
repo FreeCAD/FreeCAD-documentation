@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Вставить объект верстака Arch
    Name:TechDraw_ArchView
-   MenuLocation:TechDraw → Вставить объект верстака Arch
+   MenuLocation:TechDraw - Вставить объект верстака Arch
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    SeeAlso:[Плоскость Сечения](Arch_SectionPlane/ru.md)
 ---

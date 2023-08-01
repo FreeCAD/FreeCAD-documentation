@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft WorkingPlaneProxy
-   MenuLocation:Utilities → Create working plane proxy
+   MenuLocation:Utilities - Create working plane proxy
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    SeeAlso:[Draft SelectPlane](Draft_SelectPlane.md)
 ---

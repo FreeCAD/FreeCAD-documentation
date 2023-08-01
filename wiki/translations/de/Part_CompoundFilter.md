@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Compound‏‎Filter
    Name/de:Part VerbundFiltern
-   MenuLocation:Formteil → Verbund → Verbundfilter
+   MenuLocation:Formteil - Verbund - Verbundfilter
    Workbenches:[Part](Part_Workbench/de.md)
    Version:0.17
 ---

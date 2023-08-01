@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:EM FHNode
    Name/fr:EM Noeud FH
-   MenuLocation:EM → FHNode
+   MenuLocation:EM - FHNode
    Workbenches:[EM](EM_Workbench/fr.md)
    Shortcut:**E** **N**
    Version:0.17

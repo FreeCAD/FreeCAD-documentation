@@ -3,7 +3,7 @@
    Name:Path_Waterline
    Name/it:Piani orizzontali
    Workbenches:[Path](Path_Workbench/it.md)
-   MenuLocation:Path → Piani orizzontali
+   MenuLocation:Path - Piani orizzontali
    Shortcut:
    Version:
    SeeAlso:

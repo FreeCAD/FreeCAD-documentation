@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Path Vcarve
-   MenuLocation:Path → Vcarve
+   MenuLocation:Path - Vcarve
    Workbenches:[Path](Path_Workbench.md)
    Version:0.19
 ---

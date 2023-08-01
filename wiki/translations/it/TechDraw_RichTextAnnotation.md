@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw RichTextAnnotation
    Name/it:Blocco di testo
-   MenuLocation:TechDraw → Annotazioni → Blocco di testo
+   MenuLocation:TechDraw - Annotazioni - Blocco di testo
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)
    Version:0.19
    SeeAlso:[Modelli di squadrature](TechDraw_Templates/it.md), [SVG di Draft](Draft_SVG/it.md), [Linea guida](TechDraw_LeaderLine/it.md)

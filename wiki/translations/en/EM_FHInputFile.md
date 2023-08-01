@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:EM FHInputFile
-   MenuLocation:EM → FHInputFile
+   MenuLocation:EM - FHInputFile
    Workbenches:[EM](EM_Workbench.md)
    Shortcut:**E** **I**
    Version:0.17

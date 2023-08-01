@@ -1,6 +1,6 @@
 # Path DressupTag/ro
 ---
-- GuiCommand:   Name:Path DressupTag   Workbenches:[MenuLocation:Path → Path Dressup → Tag Dress-up   SeeAlso:[[Path_DressupRampEntry|Path_DressupRampEntry](Path_Workbench___Path]].md), [Path_DressupDogbone](Path_DressupDogbone.md) , [Path_DressupDragKnife](Path_DressupDragKnife.md) ---
+- GuiCommand:   Name:Path DressupTag   Workbenches:[MenuLocation:Path - Path Dressup - Tag Dress-up   SeeAlso:[[Path_DressupRampEntry|Path_DressupRampEntry](Path_Workbench___Path]].md), [Path_DressupDogbone](Path_DressupDogbone.md) , [Path_DressupDragKnife](Path_DressupDragKnife.md) ---
 
 
 </div>

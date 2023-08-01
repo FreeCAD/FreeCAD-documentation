@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh BoundingBox‏‎
    Name/de:Netz BegrenzungsRahmen
-   MenuLocation:Netze → Analyse → Begrenzungsinfo...
+   MenuLocation:Netze - Analyse - Begrenzungsinfo...
    Workbenches:[Netze](Mesh_Workbench/de.md)
 ---
 

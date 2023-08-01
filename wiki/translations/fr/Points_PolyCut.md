@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Points PolyCut
    Name/fr:Points Couper un nuage
-   MenuLocation:Points → Couper un nuage de points
+   MenuLocation:Points - Couper un nuage de points
    Workbenches:[Points](Points_Workbench/fr.md)
 ---
 

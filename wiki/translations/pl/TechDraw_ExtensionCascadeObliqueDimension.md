@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionCascadeObliqueDimension
    Name/pl:Rysunek Techniczny: Rozszerzenie Wymiar ukośny kaskadowo
-   MenuLocation:Rysunek Techniczny → Rozszerzenia: Atrybuty / Modyfikatory → Wymiar ukośny kaskadowo
+   MenuLocation:Rysunek Techniczny - Rozszerzenia: Atrybuty / Modyfikatory - Wymiar ukośny kaskadowo
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20

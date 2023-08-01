@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std Edit
    Name/de:Std Bearbeiten
-   MenuLocation:Bearbeiten → Umschalten Bearbeitungsmodus
+   MenuLocation:Bearbeiten - Umschalten Bearbeitungsmodus
    Workbenches:Alle
    SeeAlso:[Std BenutzerBearbeitungsModus](Std_UserEditMode/de.md)
 ---

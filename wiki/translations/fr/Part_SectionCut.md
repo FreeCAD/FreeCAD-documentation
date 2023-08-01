@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part SectionCut
    Name/fr:Part Coupe persistante
-   MenuLocation:Affichage → Coupe persistante
+   MenuLocation:Affichage - Coupe persistante
    Workbenches:Tous
    Version:0.20
    SeeAlso:[Std Basculer le plan de coupe](Std_ToggleClipPlane/fr.md)

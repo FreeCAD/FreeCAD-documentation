@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_MainFullscreen
    Name/it:Schermo intero
-   MenuLocation:Visualizza → Schermo intero
+   MenuLocation:Visualizza - Schermo intero
    Workbenches:All
    Shortcut:**Alt**+**F11**
    SeeAlso:[Vista 3D a schermo intero](Std_ViewFullscreen/it.md)

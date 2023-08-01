@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM PostFilterWarp
    Name/de:FEM NachbereitungFilterVerformung
-   MenuLocation:Ergebnisse → Verformungsfilter
+   MenuLocation:Ergebnisse - Verformungsfilter
    Workbenches:[FEM](FEM_Workbench/de.md)
    SeeAlso:[FEM NachbereitungPipelineVonErgebnis](FEM_PostPipelineFromResult/de.md), [FEM Tutorium](FEM_tutorial/de.md)
 ---

@@ -3,7 +3,7 @@
    Name:Sketcher_BSplineDecreaseKnotMultiplicity
    Name/it:Diminuisci la molteplicità
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch → Strumenti B-spline → Diminuisci la molteplicità
+   MenuLocation:Sketch - Strumenti B-spline - Diminuisci la molteplicità
    Version:0.17
    SeeAlso:[Crea B-spline](Sketcher_CompCreateBSpline/it.md)
 ---

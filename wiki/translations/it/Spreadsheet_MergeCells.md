@@ -3,7 +3,7 @@
    Name:Spreadsheet_MergeCells
    Name/it:Unisci le celle
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)
-   MenuLocation:Spreadsheet → Unisci le celle
+   MenuLocation:Spreadsheet - Unisci le celle
    Version:0.17
 ---
 

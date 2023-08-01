@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh BoundingBox‏‎
    Name/ru:Mesh BoundingBox‏‎
-   MenuLocation:Сетки → Анализ → Информация о структуре...
+   MenuLocation:Сетки - Анализ - Информация о структуре...
    Workbenches:[Mesh](Mesh_Workbench/ru.md)
    Shortcut:
    SeeAlso:

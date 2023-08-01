@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Выбрать начало координат
    Name:Sketcher_SelectOrigin
-   MenuLocation:Sketch → Инструменты для эскиза → Выбрать начало координат
+   MenuLocation:Sketch - Инструменты для эскиза - Выбрать начало координат
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**Shift**+**Ctrl**+**O**
    Version:0.15

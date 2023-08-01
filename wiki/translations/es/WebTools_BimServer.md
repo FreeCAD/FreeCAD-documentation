@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:WebTools BimServer
    Name/es:HerramientasWeb BimServer
-   MenuLocation:Herramientas Web → BIM server
+   MenuLocation:Herramientas Web - BIM server
    Workbenches:[HerramientasWeb](WebTools_Workbench/es.md)
 ---
 

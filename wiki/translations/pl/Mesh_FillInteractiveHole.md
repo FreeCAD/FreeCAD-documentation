@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh FillInteractiveHole
    Name/pl:Siatka: Interaktywne wypełnienie otworów
-   MenuLocation:Meshes → Zamknij otwór
+   MenuLocation:Meshes - Zamknij otwór
    Workbenches:[Siatka](Mesh_Workbench/pl.md)
    SeeAlso:[Wypełnienie otworów](Mesh_FillupHoles/pl.md), [Dodaj trójkąt](Mesh_AddFacet/pl.md)
 ---

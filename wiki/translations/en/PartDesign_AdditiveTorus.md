@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:PartDesign AdditiveTorus
-   MenuLocation:Part Design → Create an additive primitive → Additive Torus
+   MenuLocation:Part Design - Create an additive primitive - Additive Torus
    Workbenches:[PartDesign](PartDesign_Workbench.md)
    Version:0.17
    SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md), [PartDesign SubtractiveTorus](PartDesign_SubtractiveTorus.md)

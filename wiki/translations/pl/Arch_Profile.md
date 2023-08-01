@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch Profile
-   MenuLocation:Arch → Profile
+   MenuLocation:Arch - Profile
    Workbenches:[Arch](Arch_Workbench.md)
    Version:0.19
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:SheetMetal AddJunction
    Name/de:SheetMetal StoßHinzufügen
-   MenuLocation:SheetMetal → Make Junction
+   MenuLocation:SheetMetal - Make Junction
    Workbenches:[SheetMetal (Blech)](SheetMetal_Workbench/de.md)
    Shortcut:**S** **J**
    SeeAlso:[SheetMetal Entlastungsausschnitt hinzufügen](SheetMetal_AddRelief/de.md), [SheetMetal Biegung hinzufügen](SheetMetal_AddBend/de.md)

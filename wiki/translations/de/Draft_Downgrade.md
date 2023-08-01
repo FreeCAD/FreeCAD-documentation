@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Downgrade
    Name/de:Entwurf Herabstufen
-   MenuLocation:Änderung → Herabstufen
+   MenuLocation:Änderung - Herabstufen
    Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
    Shortcut:**D** **N**
    SeeAlso:[Entwurf Hochstufen](Draft_Upgrade/de.md), [Part Schnitt](Part_Cut/de.md)

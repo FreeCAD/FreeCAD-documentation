@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch Stairs   Name/sv:Arch Stairs
-   MenuLocation:Arch → Stairs
+   MenuLocation:Arch - Stairs
    Workbenches:[Arch](Arch_Workbench/sv.md)
    Shortcut:**S** **R**
    SeeAlso:[[Arch Structure/sv]], [[Arch Equipment/sv]]

@@ -1,6 +1,6 @@
 # Drawing Landscape A3/cs
 ---
-- GuiCommand:   Name:Drawing Landscape A3   Name/cs:Drawing Landscape A3   Workbenches:[[Drawing Workbench/cs   Výkres]], Sestavení|MenuLocation:Drawing → Insert new drawing → A3 Landscape   Shortcut:none---
+- GuiCommand:   Name:Drawing Landscape A3   Name/cs:Drawing Landscape A3   Workbenches:[[Drawing Workbench/cs   Výkres]], Sestavení|MenuLocation:Drawing - Insert new drawing - A3 Landscape   Shortcut:none---
 
 Tento nástroj vytváří nový výkres z již instalovaných šablon. Aktuálně je dostupná pouze šablona A3 Na šířku (Landscape), přestože menu a nástrojový pruh nabízejí formáty A0 až A4 na šířku.
 

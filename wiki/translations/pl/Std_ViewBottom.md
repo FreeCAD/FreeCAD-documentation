@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewBottom
    Name/pl:Std: Widok od dołu
-   MenuLocation:Widok → Widoki standardowe → Od dołu
+   MenuLocation:Widok - Widoki standardowe - Od dołu
    Workbenches:wszystkie
    Shortcut:**5**
    SeeAlso:[Widok od tyłu](Std_ViewRear/pl.md), [Widok od lewej](Std_ViewLeft/pl.md)

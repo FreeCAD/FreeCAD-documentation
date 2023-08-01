@@ -4,7 +4,7 @@
    Name/es:Restricción de verticalidad
    Workbenches:[Sketch](Sketcher_Workbench/es.md)
    Shortcut:V
-   MenuLocation:Sketch → Restricciones de croquis → Restricción de verticalidad
+   MenuLocation:Sketch - Restricciones de croquis - Restricción de verticalidad
    SeeAlso:[Restringir horizontalmente](Sketcher_ConstrainHorizontal/es.md)
 ---
 

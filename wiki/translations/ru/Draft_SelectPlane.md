@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft SelectPlane
    Name/ru:Draft SelectPlane
-   MenuLocation:Draft → Utilities → Select Plane
+   MenuLocation:Draft - Utilities - Select Plane
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:**W** **P**
    SeeAlso:[Draft SetWorkingPlaneProxy](Draft_SetWorkingPlaneProxy/ru.md), [Draft ToggleGrid](Draft_ToggleGrid/ru.md)

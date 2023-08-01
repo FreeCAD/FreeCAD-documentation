@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher ConstrainPerpendicular
    Name/pl:Szkicownik: Wiązanie prostopadłości
-   MenuLocation:Szkic → Wiązania szkicownika → Wiązanie prostopadłości
+   MenuLocation:Szkic - Wiązania szkicownika - Wiązanie prostopadłości
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**N**
    SeeAlso:[Szkicownik: Wiązanie kąta](Sketcher_ConstrainAngle/pl.md)

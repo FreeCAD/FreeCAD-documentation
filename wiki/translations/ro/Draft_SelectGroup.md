@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft SelectGroup
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   MenuLocation:Draft → Utilities → Select group
+   MenuLocation:Draft - Utilities - Select group
    Shortcut:
    SeeAlso:[Draft AddToGroup](Draft_AddToGroup.md), [Std Group](Std_Group.md)
 ---

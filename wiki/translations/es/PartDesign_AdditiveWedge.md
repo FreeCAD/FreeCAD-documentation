@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign AdditiveWedge
    Name/es:PartDesign Cuña aditiva
-   MenuLocation:Part Design → Crear una primitiva aditiva → Cuña aditiva
+   MenuLocation:Part Design - Crear una primitiva aditiva - Cuña aditiva
    Workbenches:[PartDesign](PartDesign_Workbench/es.md)
    Version:0.17
    SeeAlso:[Create an additive primitive](PartDesign_CompPrimitiveAdditive/es.md), [Subtractive Wedge](PartDesign_SubtractiveWedge.md)

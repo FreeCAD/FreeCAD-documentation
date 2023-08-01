@@ -4,7 +4,7 @@
    Name/fr:BIM Contrôle en amont
    Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/fr.md)
    Addon:BIM
-   MenuLocation:Manage → Preflight check
+   MenuLocation:Manage - Preflight check
 ---
 
 # BIM Preflight/fr

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh RemoveCompByHand
    Name/de:Mesh KomponenteVonHandEntfernen‏‎
-   MenuLocation:Netze → Komponente von Hand entfernen...
+   MenuLocation:Netze - Komponente von Hand entfernen...
    Workbenches:[Mesh](Mesh_Workbench/de.md)
    SeeAlso:[Mesh KomponentenEntfernen‏‎](Mesh_RemoveComponents/de.md), [Arch NetzAufteilen](Arch_SplitMesh/de.md)
 ---

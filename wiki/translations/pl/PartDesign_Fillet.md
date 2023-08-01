@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign Fillet
    Name/pl:Projekt Części: Zaokrąglenie
-   MenuLocation:Projekt Części → Zastosuj funkcję ulepszenia → Zaokrąglenie
+   MenuLocation:Projekt Części - Zastosuj funkcję ulepszenia - Zaokrąglenie
    Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    SeeAlso:[Sfazowanie](PartDesign_Chamfer/pl.md)
 ---

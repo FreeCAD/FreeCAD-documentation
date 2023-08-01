@@ -2,7 +2,7 @@
 - GuiCommand:Addon/de
    Name:BIM Library
    Name/de:BIM Bibliothek
-   MenuLocation:3D Modellierung → Bibliothek
+   MenuLocation:3D Modellierung - Bibliothek
    Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
    Addon:BIM
    SeeAlso:[Arch Ausrüstung](Arch_Equipment/de.md)

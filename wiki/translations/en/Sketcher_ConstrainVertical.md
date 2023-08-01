@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher ConstrainVertical
-   MenuLocation:Sketch → Sketcher constraints → Constrain vertically
+   MenuLocation:Sketch - Sketcher constraints - Constrain vertically
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**V**
    SeeAlso:[Sketcher Constraint Horizontal](Sketcher_ConstrainHorizontal.md)

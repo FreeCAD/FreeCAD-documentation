@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign Sprocket
    Name/es:DiseñoPieza Rueda Dentada
-   MenuLocation:DiseñoPieza → Rueda Dentada...
+   MenuLocation:DiseñoPieza - Rueda Dentada...
    Workbenches:[DiseñoPieza](PartDesign_Workbench/es.md)
    Version:0.19
 ---

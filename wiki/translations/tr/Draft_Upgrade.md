@@ -3,7 +3,7 @@
    Name:Draft Upgrade
    Name/tr:Yükselt
    Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
-   MenuLocation:Draft → Upgrade
+   MenuLocation:Draft - Upgrade
    Shortcut:**U** **P**
    SeeAlso:[Draft Downgrade](Draft_Downgrade/tr.md)
 ---

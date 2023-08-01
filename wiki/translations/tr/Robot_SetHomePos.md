@@ -3,7 +3,7 @@
    Name:Robot SetHomePos
    Name/tr:Robot Ana konum ayarla
    Workbenches:[Robot](Robot_Workbench/tr.md)
-   MenuLocation:Robot → Ana konum ayarla
+   MenuLocation:Robot - Ana konum ayarla
 ---
 
 # Robot SetHomePos/tr

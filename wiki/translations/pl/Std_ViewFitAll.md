@@ -2,9 +2,9 @@
 - GuiCommand:
    Name:Std ViewFitAll
    Name/pl:Std: Dopasuj wszystko
-   MenuLocation:Widok → Widoki standardowe → Dopasuj wszystko
+   MenuLocation:Widok - Widoki standardowe - Dopasuj wszystko
    Workbenches:wszystkie
-   Shortcut:**V** → **F**
+   Shortcut:**V** - **F**
    SeeAlso:[Widok dopasowany do wyboru](Std_ViewFitSelection/pl.md)
 ---
 

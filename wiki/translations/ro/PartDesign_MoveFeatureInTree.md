@@ -3,7 +3,7 @@
    Name:PartDesign MoveFeatureInTree
    Name/ro:PartDesign MoveFeatureInTree
    Empty:1
-   MenuLocation:Contextual menu → Move object after other object
+   MenuLocation:Contextual menu - Move object after other object
    Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
    SeeAlso:[Set tip](PartDesign_MoveTip/ro.md), [Move object to other body](PartDesign_MoveFeature/ro.md)
    Version:0.17

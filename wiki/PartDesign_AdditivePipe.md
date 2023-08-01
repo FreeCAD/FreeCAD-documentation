@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:PartDesign AdditivePipe
-   MenuLocation:Part Design → Create an additive feature → Additive pipe
+   MenuLocation:Part Design - Create an additive feature - Additive pipe
    Workbenches:[PartDesign](PartDesign_Workbench.md)
    Version:0.17
    SeeAlso:[PartDesign AdditiveLoft](PartDesign_AdditiveLoft.md), [PartDesign SubtractivePipe](PartDesign_SubtractivePipe.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher Create3PointArc
    Name/es:Croquizador CrearArco3Puntos
-   MenuLocation:Croquis → Geometrías Croqizador → Crear arco por tres puntos
+   MenuLocation:Croquis - Geometrías Croqizador - Crear arco por tres puntos
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)
    Shortcut:
    SeeAlso:

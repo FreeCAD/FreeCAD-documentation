@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Аддитивный профиль
    Name:PartDesign_AdditiveLoft
-   MenuLocation:Part Design → Create an additive feature → Аддитивный профиль
+   MenuLocation:Part Design - Create an additive feature - Аддитивный профиль
    Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
    Version:0.17
    SeeAlso:[Аддитивная трубный профиль](PartDesign_AdditivePipe/ru.md), [Субтрактивный профиль](PartDesign_SubtractiveLoft/ru.md)

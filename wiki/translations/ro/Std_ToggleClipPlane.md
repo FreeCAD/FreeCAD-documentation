@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ToggleClipPlane
    Name/ro:Std ToggleClipPlane
-   MenuLocation:View → Clipping plane‏‎
+   MenuLocation:View - Clipping plane‏‎
    Workbenches:All
    Shortcut:
    SeeAlso:

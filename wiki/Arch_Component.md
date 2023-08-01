@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch Component
-   MenuLocation:Arch → Utilities → Component‎‏‎
+   MenuLocation:Arch - Utilities - Component‎‏‎
    Workbenches:[Arch](Arch_Workbench.md)
    Shortcut:**C** **M**
 ---

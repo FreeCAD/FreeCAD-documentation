@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw RichTextAnnotation
    Name/de:TechDraw FormatierteTextAnmerkung
-   MenuLocation:TechDraw → Anmerkungen → Rich-Text-Anmerkungen einfügen
+   MenuLocation:TechDraw - Anmerkungen - Rich-Text-Anmerkungen einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Version:0.19
    SeeAlso:[TechDraw Vorlagen](TechDraw_Templates/de.md)

@@ -3,7 +3,7 @@
    Name:Assembly3 TracePartMove
    Name/de:Assembly3 BewegungAufzeichnen
    Icon:Assembly_Trace.svg‎‎
-   MenuLocation:Assembly3 → Trace part move
+   MenuLocation:Assembly3 - Trace part move
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 

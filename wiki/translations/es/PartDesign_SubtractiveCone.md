@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign SubtractiveCone
    Name/es:PartDesign Cono sustractivo
-   MenuLocation:Part Design → Crear una primitiva sustractiva → Cono sustractivo
+   MenuLocation:Part Design - Crear una primitiva sustractiva - Cono sustractivo
    Workbenches:[PartDesign](PartDesign_Workbench/es.md)
    Version:0.17
    SeeAlso:[Crear una Primitiva sustractiva](PartDesign_CompPrimitiveSubtractive/es.md), [Additive Cone](PartDesign_AdditiveCone.md)

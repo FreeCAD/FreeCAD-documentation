@@ -4,7 +4,7 @@
    Name/de:BIM Klonen
    Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
    Addon:BIM
-   MenuLocation:Ändern → Kopieren
+   MenuLocation:Ändern - Kopieren
    SeeAlso:[Entwurf Klonen](Draft_Clone/de.md)
 ---
 

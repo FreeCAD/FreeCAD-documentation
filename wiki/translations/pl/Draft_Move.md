@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/pl:Draft: Move
    Name:Draft Move
-   MenuLocation:Modyfikacja → Przesuń
+   MenuLocation:Modyfikacja - Przesuń
    Workbenches:[Rysunek roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
    Shortcut:**M** **V**
    Version:0.7

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Surface CurveOnMesh
-   MenuLocation:Surface → Curve on mesh
+   MenuLocation:Surface - Curve on mesh
    Workbenches:[Surface](Surface_Workbench.md)|
    Version:0.17
 ---

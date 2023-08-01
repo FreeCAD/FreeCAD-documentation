@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Path Inspect
-   MenuLocation:Path → Inspect Path Commands
+   MenuLocation:Path - Inspect Path Commands
    Workbenches:[Path](Path_Workbench.md)
    Shortcut:**P** **I**
 ---

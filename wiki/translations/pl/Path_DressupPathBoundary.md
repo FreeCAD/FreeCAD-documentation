@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Path DressupPathBoundary
-   MenuLocation:Path → Path Dressup → Boundary
+   MenuLocation:Path - Path Dressup - Boundary
    Workbenches:[Path](Path_Workbench.md)
    SeeAlso:[Path DressupTag](Path_DressupTag.md), [Path DressupRampEntry](Path_DressupRampEntry.md)
 ---

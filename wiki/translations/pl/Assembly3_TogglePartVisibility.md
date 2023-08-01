@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Assembly3 TogglePartVisibility
    Icon:Assembly_TogglePartVisibility.svg‎‎
-   MenuLocation:Assembly3 → Toggle part visibility
+   MenuLocation:Assembly3 - Toggle part visibility
    Workbenches:[Assembly3](Assembly3_Workbench.md)
    Shortcut:**A** then **Space**
 ---

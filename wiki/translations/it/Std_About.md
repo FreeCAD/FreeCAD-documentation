@@ -3,7 +3,7 @@
    Name:Std_About
    Name/it:Informazioni su FreeCAD
    Workbenches:Tutti
-   MenuLocation:Aiuto → Informazioni su FreeCAD
+   MenuLocation:Aiuto - Informazioni su FreeCAD
 ---
 
 # Std About/it

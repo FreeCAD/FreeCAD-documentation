@@ -3,7 +3,7 @@
    Name:Sketcher ConstrainLock
    Name/cs:Sketcher ConstrainLock
    Workbenches:[Sketcher](Sketcher_Workbench/cs.md), [PartDesign](PartDesign_Workbench/cs.md)
-   MenuLocation:Sketch → Sketcher constraints → Constrain lock
+   MenuLocation:Sketch - Sketcher constraints - Constrain lock
    SeeAlso:[Constraint Coincident](Sketcher_ConstrainBlock/cs.md)
 ---
 

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign AdditivePrism
    Name/pl:Projekt Części: Addytywny graniastosłup
-   MenuLocation:Projekt Części → Utwórz cechę przez dodanie → Addytywny graniastosłup
+   MenuLocation:Projekt Części - Utwórz cechę przez dodanie - Addytywny graniastosłup
    Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
    SeeAlso:[Komponent bryła pierwotna do dodania](PartDesign_CompPrimitiveAdditive/pl.md), [Subtraktywny graniastosłup](PartDesign_SubtractivePrism/pl.md)

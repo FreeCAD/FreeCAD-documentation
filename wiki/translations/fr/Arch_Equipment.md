@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Equipment
    Name/fr:Arch Équipement
-   MenuLocation:Arch → Équipement
+   MenuLocation:Arch - Équipement
    Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**E** **Q**
    SeeAlso:[Arch 3 vues depuis maillage](Arch_3Views/fr.md)

@@ -3,7 +3,7 @@
    Name:Arch RemoveShape
    Name/de:Arch FormEntfernen
    Workbenches:[Arch-Arbeitsbereich](Arch_Workbench/de.md)
-   MenuLocation:Architektur → Dienstprogramme → Entferne Form
+   MenuLocation:Architektur - Dienstprogramme - Entferne Form
    SeeAlso:[Arch NetzAufteilen](Arch_SplitMesh/de.md), [Arch NetzZuForm](Arch_MeshToShape/de.md)
 ---
 

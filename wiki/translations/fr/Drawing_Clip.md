@@ -3,7 +3,7 @@
    Name:Drawing Clip
    Name/fr:Drawing Masque
    Workbenches:[Drawing](Drawing_Workbench/fr.md)
-   MenuLocation:Drawing → Masque
+   MenuLocation:Drawing - Masque
 Shortcut=
 ---
 

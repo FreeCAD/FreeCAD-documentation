@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher LeaveSketch
-   MenuLocation:Sketch → Leave sketch
+   MenuLocation:Sketch - Leave sketch
    Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
    SeeAlso:[Sketcher EditSketch](Sketcher_EditSketch.md)
 ---

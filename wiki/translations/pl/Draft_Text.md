@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Text
    Name/pl:Rysunek roboczy: Tekst
-   MenuLocation:Adnotacja → Tekst
+   MenuLocation:Adnotacja - Tekst
    Workbenches:[Rysunek roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
    Shortcut:**T** **E**
    Version:0.7

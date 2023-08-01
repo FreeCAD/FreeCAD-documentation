@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Offset2D
    Name/ro:Part:Decalj 2D
-   MenuLocation:Componentă → 2D Offset
+   MenuLocation:Componentă - 2D Offset
    Workbenches:[Part](Part_Workbench/ro.md)
    Version:0.17
    SeeAlso:[Part Offset 3D](Part_Offset/ro.md), [Part Thickness](Part_Thickness/ro.md), [Draft Offset](Draft_Offset/ro.md)

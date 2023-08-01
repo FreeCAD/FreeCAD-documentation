@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Building
    Name/de:Arch Gebäude
-   MenuLocation:Arch → Gebäude
+   MenuLocation:Arch - Gebäude
    Workbenches:[Arch](Arch_Workbench/de.md)
    Shortcut:**B** **U**
    SeeAlso:[Arch Gebäudeteil](Arch_BuildingPart/de.md), [Arch Grundstück](Arch_Site/de.md)

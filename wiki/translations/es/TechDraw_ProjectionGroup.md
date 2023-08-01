@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw  ProjectionGroup   Name/es:TechDraw  ProjectionGroup
-   MenuLocation:TechDraw → Insert Projection Group
+   MenuLocation:TechDraw - Insert Projection Group
    Workbenches:[TechDraw](TechDraw_Workbench/es.md)
    Shortcut:
    SeeAlso:[Insert View](TechDraw_View/es.md), [Insert Section View](TechDraw_SectionView/es.md)

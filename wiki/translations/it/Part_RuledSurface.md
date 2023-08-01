@@ -1,6 +1,6 @@
 # Part RuledSurface/it
 ---
-- GuiCommand:   Name:Part RuledSurface   Name/it:Superficie rigata   MenuLocation:Parte → Superficie rigata   Workbenches:[[Part_Workbench/it     Parte]]|SeeAlso:---
+- GuiCommand:   Name:Part RuledSurface   Name/it:Superficie rigata   MenuLocation:Parte - Superficie rigata   Workbenches:[[Part_Workbench/it     Parte]]|SeeAlso:---
 
 
 </div>

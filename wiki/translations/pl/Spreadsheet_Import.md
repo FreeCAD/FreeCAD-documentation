@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Spreadsheet Import
    Name/pl:Arkusz Kalkulacyjny: Importuj
-   MenuLocation:Arkusz Kalkulacyjny → Importuj
+   MenuLocation:Arkusz Kalkulacyjny - Importuj
    Workbenches:[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
    Version:0.17
    SeeAlso:[Eksportuj](Spreadsheet_Export/pl.md)

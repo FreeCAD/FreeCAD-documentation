@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std Refresh
    Name/ko:표준 새로 고침
-   MenuLocation:편집 → 새로 고침
+   MenuLocation:편집 - 새로 고침
    Workbenches:모두
    Shortcut:**F5**
 ---

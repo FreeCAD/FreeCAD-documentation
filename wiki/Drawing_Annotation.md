@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Drawing Annotation
-   MenuLocation:Drawing → Annotation
+   MenuLocation:Drawing - Annotation
    Workbenches:[Drawing](Drawing_Workbench.md)
 ---
 

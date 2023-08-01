@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CreateBSplineByInterpolation
    Name/fr:Sketcher B-spline par des nœuds
-   MenuLocation:Esquisse → Géometries d'esquisse → Créer une B-spline par des nœuds
+   MenuLocation:Esquisse - Géometries d'esquisse - Créer une B-spline par des nœuds
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**G** **B** **I**
    Version:0.21

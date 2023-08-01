@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Path Shape
-   MenuLocation:Path → Supplemental Commands → From Shape
+   MenuLocation:Path - Supplemental Commands - From Shape
    Workbenches:[Path](Path_Workbench.md)
 ---
 

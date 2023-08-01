@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher BSplineDecreaseDegree
-   MenuLocation:Sketch → Sketcher B-spline tools → Decrease B-spline degree
+   MenuLocation:Sketch - Sketcher B-spline tools - Decrease B-spline degree
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Version:0.19
    SeeAlso:[Sketcher Show/hide B-spline degree](Sketcher_BSplineDegree.md), [Sketcher Increase B-spline degree](Sketcher_BSplineIncreaseDegree.md)

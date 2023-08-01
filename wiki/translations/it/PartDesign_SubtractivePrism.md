@@ -1,6 +1,6 @@
 # PartDesign SubtractivePrism/it
 ---
-- GuiCommand:   Name:PartDesign SubtractivePrism   Name/it:Prisma sottrattivo   Workbenches:[MenuLocation:Part Design → Crea una primitiva sottrattiva → Prisma   Version:0.17   SeeAlso:[[PartDesign CompPrimitiveSubtractive/it|Primitive sottrattive](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand:   Name:PartDesign SubtractivePrism   Name/it:Prisma sottrattivo   Workbenches:[MenuLocation:Part Design - Crea una primitiva sottrattiva - Prisma   Version:0.17   SeeAlso:[[PartDesign CompPrimitiveSubtractive/it|Primitive sottrattive](PartDesign_Workbench/it___PartDesign]].md)---
 
 
 </div>

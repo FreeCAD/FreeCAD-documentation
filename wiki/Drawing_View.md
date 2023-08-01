@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Drawing View
    Workbenches:[Drawing](Drawing_Workbench.md), Complete
-   MenuLocation:Drawing → Insert view in drawing
+   MenuLocation:Drawing - Insert view in drawing
    Shortcut:none
    SeeAlso:[Drawing Landscape A3](Drawing_Landscape_A3.md)
 ---

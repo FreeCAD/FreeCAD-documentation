@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Rebar Footing Reinforcement
    Name/fr:Arch Rebar Renforts de semelle
-   MenuLocation:Arch → Rebar tools → Footing Reinforcement<br>3D/BIM → Reinforcement tools → Footing 
+   MenuLocation:Arch - Rebar tools - Footing Reinforcement<br>3D/BIM - Reinforcement tools - Footing 
    Workbenches:[Arch](Arch_Workbench/fr.md)
    SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md)
 ---

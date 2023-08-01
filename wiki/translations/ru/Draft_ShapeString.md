@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft ShapeString
    Name/ru:Draft ShapeString
-   MenuLocation:Черчение → Текст в кривую ...
+   MenuLocation:Черчение - Текст в кривую ...
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:**S** **S**
    Version:0.14

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM MaterialFluid
    Name/de:FEM MaterialFluide
-   MenuLocation:Modell → Materialien → Material für Fluide
+   MenuLocation:Modell - Materialien - Material für Fluide
    Workbenches:[FEM](FEM_Workbench/de.md)
    SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh_PolyTrim
    Name/it:Rifila con un poligono
-   MenuLocation:Mesh → Taglio → Rifila con un poligono
+   MenuLocation:Mesh - Taglio - Rifila con un poligono
    Workbenches:[Mesh](Mesh_Workbench/it.md)
    SeeAlso:[Taglia la mesh](Mesh_PolyCut/it.md), [Rifila con un piano](Mesh_TrimByPlane/it.md)
 ---

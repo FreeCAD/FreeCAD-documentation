@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Выровнять по центру
    Name:Spreadsheet_AlignCenter
-   MenuLocation:Электронная таблица → Alignment → Выровнять по центру
+   MenuLocation:Электронная таблица - Alignment - Выровнять по центру
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/ru.md)
    Version:0.17
 ---

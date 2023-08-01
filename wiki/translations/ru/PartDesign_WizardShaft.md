@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign WizardShaft
    Name/ru:PartDesign WizardShaft
-   MenuLocation:Part Design → Shaft design wizard...
+   MenuLocation:Part Design - Shaft design wizard...
    Workbenches:[PartDesign](PartDesign_Workbench/ru.md), Complete
 ---
 

@@ -3,7 +3,7 @@
    Name:OpenSCAD ColorCodeShape
    Name/de:OpenSCAD ColorCodeShape
 
-   MenuLocation:OpenSCAD → ColorCodeShape‏‎
+   MenuLocation:OpenSCAD - ColorCodeShape‏‎
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
 ---
 

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ShowAll
    Name/fr:TechDraw Montrer tout
-   MenuLocation:TechDraw → Afficher/Masquer les arrêtes cachées
+   MenuLocation:TechDraw - Afficher/Masquer les arrêtes cachées
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Version:0.19
    SeeAlso:[TechDraw Apparence des lignes](TechDraw_DecorateLine/fr.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part RuledSurface
    Name/de:Part Regelfläche
-   MenuLocation:Formteil → Regelfläche erzeugen
+   MenuLocation:Formteil - Regelfläche erzeugen
    Workbenches:[Part](Part_Workbench/de.md)
    SeeAlso:[Part FlächeAusLinienzügen](Part_MakeFace/de.md)
 ---

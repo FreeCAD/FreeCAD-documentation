@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Roof
    Name/de:Arch Dach
-   MenuLocation:Arch → Dach
+   MenuLocation:Arch - Dach
    Workbenches:[Arch](Arch_Workbench/de.md)
    Shortcut:**R** **F**
    SeeAlso:[Arch Struktur](Arch_Structure/de.md), [Arch Wand](Arch_Wall/de.md)

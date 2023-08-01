@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Вставить Вид сечения
    Name:TechDraw_SectionView
-   MenuLocation:TechDraw → Вставить Вид сечения
+   MenuLocation:TechDraw - Вставить Вид сечения
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    SeeAlso:[Вставить Вид](TechDraw_View/ru.md), [Вставить группу проекций](TechDraw_ProjectionGroup/ru.md)
 ---

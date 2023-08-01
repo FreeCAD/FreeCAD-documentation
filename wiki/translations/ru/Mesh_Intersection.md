@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh Intersection‏‎
    Name/ru:Mesh Intersection‏‎
-   MenuLocation:Сетки → Булевы операции → Пересечение
+   MenuLocation:Сетки - Булевы операции - Пересечение
    Workbenches:[Mesh](Mesh_Workbench/ru.md)
    Shortcut:
    SeeAlso:

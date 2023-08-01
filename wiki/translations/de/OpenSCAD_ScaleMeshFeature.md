@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:OpenSCAD ScaleMeshFeature
    Name/de:OpenSCAD NetzelementSkalieren
-   MenuLocation:OpenSCAD → Netzelement skalieren
+   MenuLocation:OpenSCAD - Netzelement skalieren
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
    SeeAlso:[Mesh Skalieren](Mesh_Scale/de.md)
 ---

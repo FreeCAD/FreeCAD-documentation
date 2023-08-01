@@ -3,7 +3,7 @@
    Name:PartDesign_Pad
    Name/cs:Návrh dílu Deska
    Workbenches:[Návrh dílu](PartDesign_Workbench/cs.md)
-   MenuLocation:Návrh dílu → Deska
+   MenuLocation:Návrh dílu - Deska
 ---
 
 # PartDesign Pad/cs

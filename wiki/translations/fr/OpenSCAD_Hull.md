@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:OpenSCAD Hull
    Name/fr:OpenSCAD Enveloppe
-   MenuLocation:OpenSCAD → Enveloppe
+   MenuLocation:OpenSCAD - Enveloppe
 ‏‎   Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
 ---
 

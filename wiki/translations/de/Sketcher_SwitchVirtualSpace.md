@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher SwitchVirtualSpace
    Name/de:Sketcher VirtuellenBereichWechseln
-   MenuLocation:Sketch → Virtueller Bereich → Virtuellen Bereich wechseln
+   MenuLocation:Sketch - Virtueller Bereich - Virtuellen Bereich wechseln
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Version:0.17
 ---

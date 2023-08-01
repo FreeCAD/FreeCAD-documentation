@@ -1,6 +1,6 @@
 # FEM ConstraintForce/ru
 ---
-- GuiCommand:   Name:FEM ConstraintForce   Name/ru:FEM ConstraintForce   MenuLocation:FEM → Constraint force   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/ru|FEM tutorial](FEM_Workbench/ru___FEM]].md)---
+- GuiCommand:   Name:FEM ConstraintForce   Name/ru:FEM ConstraintForce   MenuLocation:FEM - Constraint force   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/ru|FEM tutorial](FEM_Workbench/ru___FEM]].md)---
 
 
 </div>

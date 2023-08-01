@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh FillupHoles
    Name/pl:Siatka: Wypełnienie otworów
-   MenuLocation:Siatki → Wypełnij otwory ...
+   MenuLocation:Siatki - Wypełnij otwory ...
    Workbenches:[Siatka](Mesh_Workbench/pl.md)
    SeeAlso:[Interaktywne wypełnienie otworów](Mesh_FillInteractiveHole/pl.md), [Dodaj trójkąt](Mesh_AddFacet/pl.md)
 ---

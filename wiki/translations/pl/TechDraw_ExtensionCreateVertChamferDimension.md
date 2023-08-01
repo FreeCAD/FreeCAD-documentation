@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionCreateVertChamferDimension
    Name/pl:Rysunek Techniczny: Rozszerzenie Wymiar pionowy sfazowania
-   MenuLocation:Rysunek Techniczny → Rozszerzenia: Wymiary → Wymiar pionowy sfazowania
+   MenuLocation:Rysunek Techniczny - Rozszerzenia: Wymiary - Wymiar pionowy sfazowania
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20

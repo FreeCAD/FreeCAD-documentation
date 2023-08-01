@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewZoomOut
    Name/pl:Std: Oddal widok
-   MenuLocation:Widok → Powiększenie → Oddal
+   MenuLocation:Widok - Powiększenie - Oddal
    Workbenches:wszystkie
    Shortcut:**Ctrl** + **-**
    SeeAlso:[Przybliż](Std_ViewZoomIn/pl.md), [Powiększ obszar](Std_ViewBoxZoom/pl.md)

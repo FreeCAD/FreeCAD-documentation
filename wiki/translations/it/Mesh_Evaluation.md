@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh_Evaluation
    Name/it:Valuta e ripara la mesh
-   MenuLocation:Mesh → Analizza → Valuta e ripara la mesh...
+   MenuLocation:Mesh - Analizza - Valuta e ripara la mesh...
    Workbenches:[Mesh](Mesh_Workbench/it.md)
 ---
 

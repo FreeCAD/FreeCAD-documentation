@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Fence
    Name/it:Recinzione
-   MenuLocation:Arch → Recinzione
+   MenuLocation:Arch - Recinzione
    Workbenches:[Arch](Arch_Workbench/it.md)
    Version:0.19
 ---

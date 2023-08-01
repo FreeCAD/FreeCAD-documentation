@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part SectionCut
    Name/it:Taglio sezione persistente
-   MenuLocation:Visualizza → Taglio sezione persistente
+   MenuLocation:Visualizza - Taglio sezione persistente
    Workbenches:Tutti
    Version:0.20
    SeeAlso:[Piano di taglio](Std_ToggleClipPlane/it.md)

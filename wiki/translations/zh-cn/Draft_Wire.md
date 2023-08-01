@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft Wire
-   MenuLocation:Drafting → Polyline
+   MenuLocation:Drafting - Polyline
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    Shortcut:**P** **L**
    Version:0.7

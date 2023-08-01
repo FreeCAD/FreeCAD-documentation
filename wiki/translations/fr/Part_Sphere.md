@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Sphere
    Name/fr:Part Sphère
-   MenuLocation:Part → Primitives → Sphère
+   MenuLocation:Part - Primitives - Sphère
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path Deburr
    Name/fr:Path Ébavurage
-   MenuLocation:Path → Ébavurer
+   MenuLocation:Path - Ébavurer
    Workbenches:[Path](Path_Workbench/fr.md)
    Version:0.18
 ---

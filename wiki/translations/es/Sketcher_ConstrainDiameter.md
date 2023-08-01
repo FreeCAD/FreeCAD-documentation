@@ -3,7 +3,7 @@
    Name:Sketcher ConstrainDiameter
    Name/es:Croquizador RestringirDiámetro
    Workbenches:[Sketcher](Sketcher_Workbench/es.md)
-   MenuLocation:Boceto → Croquizador restricciónes → RestringirDiámetro
+   MenuLocation:Boceto - Croquizador restricciónes - RestringirDiámetro
    SeeAlso:[Restringir la distancia](Sketcher_ConstrainDistance/es.md), [Restringir distancia horizontal](Sketcher_ConstrainDistanceX/es.md), [Restringir distancia vertical](Sketcher_ConstrainDistanceY/es.md)
 ---
 

@@ -1,6 +1,6 @@
 # Part Boolean/it
 ---
-- GuiCommand:   Name:Part_Boolean   Name/it:Booleana   MenuLocation:Parte → Booleana...   Workbenches:[SeeAlso:[[Part Union/it|Unione ](Part_Workbench/it____Parte]].md), [ Intersezione](Part_Common/it_.md), [ Sottrazione](Part_Cut/it_.md) e [Sezione](Part_Section/it.md)---
+- GuiCommand:   Name:Part_Boolean   Name/it:Booleana   MenuLocation:Parte - Booleana...   Workbenches:[SeeAlso:[[Part Union/it|Unione ](Part_Workbench/it____Parte]].md), [ Intersezione](Part_Common/it_.md), [ Sottrazione](Part_Cut/it_.md) e [Sezione](Part_Section/it.md)---
 
 
 </div>

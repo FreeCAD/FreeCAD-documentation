@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part CompCompoundTools
    Name/fr:Part Composés
-   MenuLocation:Part → Composés
+   MenuLocation:Part - Composés
    Workbenches:[Part](Part_Workbench/fr.md)
 ---
 

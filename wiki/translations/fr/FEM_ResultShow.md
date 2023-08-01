@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM ResultShow
    Name/fr:FEM Afficher les résultats
-   MenuLocation:Résultats → Afficher les résultats
+   MenuLocation:Résultats - Afficher les résultats
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Shortcut:**R** **S**
    SeeAlso:[FEM Pipeline de résultats](FEM_PostPipelineFromResult/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)

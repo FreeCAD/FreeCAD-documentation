@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ActiveView
    Name/fr:TechDraw Vue active
-   MenuLocation:TechDraw →  Vues des autres ateliers → Insérer la vue active (dans la vue 3D)
+   MenuLocation:TechDraw -  Vues des autres ateliers - Insérer la vue active (dans la vue 3D)
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Version:0.19
    SeeAlso:[TechDraw Image](TechDraw_Image/fr.md)

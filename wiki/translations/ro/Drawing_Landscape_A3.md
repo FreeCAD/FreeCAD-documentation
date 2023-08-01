@@ -1,6 +1,6 @@
 # Drawing Landscape A3/ro
 ---
-- GuiCommand:   Name:Drawing Landscape A3   Workbenches:[[Drawing Workbench   Drawing]], Complete|MenuLocation:Drawing → Insert new drawing → A3 Landscape   Shortcut:none---
+- GuiCommand:   Name:Drawing Landscape A3   Workbenches:[[Drawing Workbench   Drawing]], Complete|MenuLocation:Drawing - Insert new drawing - A3 Landscape   Shortcut:none---
 
 Acest instrument creează o nouă foaie de desen din șabloanele deja instalate. În prezent, chiar dacă meniul și bara de instrumente permit formate tip peisaj A0 până la A4, este disponibil numai un șablon peisaj A3.
 

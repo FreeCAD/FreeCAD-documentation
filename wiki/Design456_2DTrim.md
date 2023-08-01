@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Design456 Trim
    Icon:Design456_2DTrimLine.svg
-   MenuLocation:Design456_2Ddrawing → Trim Line
+   MenuLocation:Design456_2Ddrawing - Trim Line
    Workbenches:[Design456](Design456_Workbench.md)
    Shortcut:None
    SeeAlso:

@@ -3,7 +3,7 @@
    Name:Sketcher CreateArc
    Name/ro:Sketcher Arc
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation:Sketch → Sketcher geometries → Create arc
+   MenuLocation:Sketch - Sketcher geometries - Create arc
    SeeAlso:[Sketcher Circle](Sketcher_CompCreateCircle/ro.md)
 ---
 

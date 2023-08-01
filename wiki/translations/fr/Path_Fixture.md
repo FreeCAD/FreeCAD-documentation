@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path Fixture
    Name/fr:Path Fixation
-   MenuLocation:Path → Autres commandes → Fixation
+   MenuLocation:Path - Autres commandes - Fixation
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 

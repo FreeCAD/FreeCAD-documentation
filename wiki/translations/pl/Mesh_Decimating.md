@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh Decimating
    Name/pl:Siatka: Decymacja
-   MenuLocation:Siatki → Decymacja ...
+   MenuLocation:Siatki - Decymacja ...
    Workbenches:[Siatka](Mesh_Workbench/pl.md)
    Version:0.19
 ---

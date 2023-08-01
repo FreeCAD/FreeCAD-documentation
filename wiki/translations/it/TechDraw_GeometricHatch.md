@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw GeometricHatch
    Name/it:Tratteggio geometrico
-   MenuLocation:TechDraw → Tratteggio geometrico
+   MenuLocation:TechDraw - Tratteggio geometrico
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)
    SeeAlso:[Tratteggio da modello](TechDraw_Hatch/it.md), [Tipi di tratteggio](TechDraw_Hatching/it.md)
 ---

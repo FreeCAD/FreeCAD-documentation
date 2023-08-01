@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh Merge
    Name/de:Mesh Zusammenführen
-   MenuLocation:Netze → Zusammenführen
+   MenuLocation:Netze - Zusammenführen
    Workbenches:[Mesh](Mesh_Workbench/de.md)
    SeeAlso:[Mesh KomponentenTeilen](Mesh_SplitComponents/de.md)
 ---

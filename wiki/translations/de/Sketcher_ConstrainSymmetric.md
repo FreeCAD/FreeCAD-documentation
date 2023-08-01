@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher ConstrainSymmetric
    Name/de:Sketcher SymmetrieFestlegen
-   MenuLocation:Sketch → Skizzen-Beschränkungen → Symmetrie festlegen
+   MenuLocation:Sketch - Skizzen-Beschränkungen - Symmetrie festlegen
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Shortcut:**S**
    SeeAlso:[Sketcher ParallelFestlegen](Sketcher_ConstrainParallel/de.md)

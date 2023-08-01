@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Frame
    Name/fr:Arch Ossature
-   MenuLocation:Arch → Ossature
+   MenuLocation:Arch - Ossature
    Workbenches:[Atelier Arch](Arch_Workbench/fr.md)
    Shortcut:**F** **R**
    SeeAlso:[Arch Mur](Arch_Wall/fr.md), [Arch Structure](Arch_Structure/fr.md)

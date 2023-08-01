@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part JoinCutout
    Name/pl:Część: Wycięcie dla obiektu
-   MenuLocation:Part → Join → Wycięcie dla obiektu
+   MenuLocation:Part - Join - Wycięcie dla obiektu
    Workbenches:[Część](Part_Workbench/pl.md)
    Version:0.16
    SeeAlso:[Połącz obiekty](Part_JoinConnect/pl.md), [Osadź obiekty](Part_JoinEmbed/pl.md), [Operacja logiczna](Part_Boolean/pl.md), [Grubość](Part_Thickness/pl.md)

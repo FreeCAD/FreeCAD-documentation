@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Dimension
    Name/ru:Draft Dimension
-   MenuLocation:Черчение → Размер
+   MenuLocation:Черчение - Размер
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:**D** **I**
    SeeAlso:[Перевернуть размер](Draft_FlipDimension/ru.md)

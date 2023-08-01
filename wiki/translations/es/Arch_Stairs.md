@@ -3,7 +3,7 @@
    Name:Arch Stairs
    Name/es:Arch Stairs
    Workbenches:[Arch](Arch_Workbench/es.md)
-   MenuLocation:Arch → Stairs
+   MenuLocation:Arch - Stairs
    Shortcut:**S** **R**
 ---
 

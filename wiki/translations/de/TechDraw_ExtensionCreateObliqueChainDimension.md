@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionCreateObliqueChainDimension
    Name/de:TechDraw ErgänzungSchrägeMaßkette
-   MenuLocation:TechDraw → Ergänzungen: Maße → Schräge Maßketten erstellen
+   MenuLocation:TechDraw - Ergänzungen: Maße - Schräge Maßketten erstellen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20

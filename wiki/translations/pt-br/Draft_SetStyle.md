@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft SetStyle
-   MenuLocation:Utilities → Set style
+   MenuLocation:Utilities - Set style
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    Shortcut:**S** **S**
    Version:0.19

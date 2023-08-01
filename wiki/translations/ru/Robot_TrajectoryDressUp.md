@@ -4,7 +4,7 @@
    Name:Robot TrajectoryDressUp
    Name/ru:Robot TrajectoryDressUp
    Workbenches:[Robot](Robot_Workbench/ru.md)
-   MenuLocation:Robot → TrajectoryDressUp ---
+   MenuLocation:Robot - TrajectoryDressUp ---
 
 
 </div>

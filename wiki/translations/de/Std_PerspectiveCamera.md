@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std PerspectiveCamera
    Name/de:Std PerspektivKamera
-   MenuLocation:Ansicht → Perspektiv Ansicht
+   MenuLocation:Ansicht - Perspektiv Ansicht
    Workbenches:Alle
    Shortcut:**V** **P**
    SeeAlso:[Std OrthogonalKamera](Std_OrthographicCamera/de.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Circle
    Name/de:Draft Kreis
-   MenuLocation:Entwurf → Kreis
+   MenuLocation:Entwurf - Kreis
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**C** **I**
    Version:0.7

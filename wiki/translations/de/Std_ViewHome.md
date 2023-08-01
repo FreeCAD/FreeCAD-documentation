@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewHome
    Name/de:Std ViewHome
-   MenuLocation:Ansicht → Standardansichten → Home
+   MenuLocation:Ansicht - Standardansichten - Home
    Workbenches:Alle
    Shortcut:**Pos1**
    Version:0.19

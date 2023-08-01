@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CreateHeptagon
    Name/fr:Sketcher Heptagone
-   MenuLocation:Esquisse → Géométries d'esquisse → Créer un heptagone
+   MenuLocation:Esquisse - Géométries d'esquisse - Créer un heptagone
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**G** **P** **7**
    Version:0.15

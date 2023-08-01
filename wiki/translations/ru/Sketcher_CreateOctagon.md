@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Восьмиугольник
    Name:Sketcher_CreateOctagon
-   MenuLocation:Эскиз → Геометрия эскиза → Восьмиугольник
+   MenuLocation:Эскиз - Геометрия эскиза - Восьмиугольник
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**G** **P** **8**
    Version:0.15

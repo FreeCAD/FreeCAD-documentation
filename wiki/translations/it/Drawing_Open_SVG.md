@@ -3,7 +3,7 @@
    Name:Drawing Open SVG
    Name/it:Apri SVG
    Workbenches:[Disegno](Drawing_Workbench/it.md), Completo
-   MenuLocation:Disegno → Apri SVG...
+   MenuLocation:Disegno - Apri SVG...
    Shortcut:Nessuno
    SeeAlso:[Salva SVG](Drawing_Save/it.md)
 ---

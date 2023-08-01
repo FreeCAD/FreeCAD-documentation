@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh Intersection
    Name/fr:Mesh Intersection‏‎
-   MenuLocation:Maillages → Opération booléenne → Intersection
+   MenuLocation:Maillages - Opération booléenne - Intersection
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
    SeeAlso:[Mesh Union](Mesh_Union.md), [Mesh Différence](Mesh_Difference.md)
 ---

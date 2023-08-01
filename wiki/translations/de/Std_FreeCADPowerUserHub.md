@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std FreeCADPowerUserHub
    Name/de:Std DokumentationSkripterstellung mit Python
-   MenuLocation:Hilfe → Python scripting Dokumentation
+   MenuLocation:Hilfe - Python scripting Dokumentation
    Workbenches:All
    SeeAlso:[Std FreeCADWebseite](Std_FreeCADWebsite/de.md), [Std Benutzerdokumentation](Std_FreeCADUserHub/de.md), [Std FreeCADForum](Std_FreeCADForum/de.md), [Std FreeCADFAQ](Std_FreeCADFAQ/de.md)
 ---

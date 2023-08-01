@@ -3,7 +3,7 @@
    Name:PartDesign CompPrimitiveSubtractive
    Name/de:PartDesign AuswahlGrundkörperAbziehen
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   MenuLocation:Part Design → Grundkörper abziehen
+   MenuLocation:Part Design - Grundkörper abziehen
    SeeAlso:[PartDesign Grundkörper hinzufügen](PartDesign_CompPrimitiveAdditive/de.md)
    Version:0.17
 ---

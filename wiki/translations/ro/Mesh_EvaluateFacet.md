@@ -1,6 +1,6 @@
 # Mesh EvaluateFacet/ro
 ---
-- GuiCommand:   Name:Mesh_EvaluateFacet   MenuLocation:Meshes → Analyze → Face info   Workbenches:[[Mesh Workbench   Mesh]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Mesh_EvaluateFacet   MenuLocation:Meshes - Analyze - Face info   Workbenches:[[Mesh Workbench   Mesh]]|Shortcut:   SeeAlso:---
 
 
 </div>

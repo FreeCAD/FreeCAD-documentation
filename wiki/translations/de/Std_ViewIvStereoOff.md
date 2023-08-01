@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewIvStereoOff
    Name/de:Std AnsichtStereoAus
-   MenuLocation:Ansicht → Stereo → Stereo aus
+   MenuLocation:Ansicht - Stereo - Stereo aus
    Workbenches:Alle
    SeeAlso:[Std AnsichtStereoRotGrün](Std_ViewIvStereoRedGreen/de.md), [Std AnsichtStereoVierfachPuffer](Std_ViewIvStereoQuadBuff/de.md), [Std AnsichtStereoVersetzteZeilen](Std_ViewIvStereoInterleavedRows/de.md), [Std AnsichtStereoVersetzteSpalten](Std_ViewIvStereoInterleavedColumns/de.md)
 ---

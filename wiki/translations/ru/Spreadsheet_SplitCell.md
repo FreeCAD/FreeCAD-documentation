@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Spreadsheet SplitCell
    Name/ru:Разделить ячейку
-   MenuLocation:Spreadsheet → Разделить ячейку
+   MenuLocation:Spreadsheet - Разделить ячейку
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/ru.md)
    Version:0.17
 ---

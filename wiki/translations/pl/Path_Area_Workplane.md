@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path Area Workplane
    Name/pl:Path: Obszar płaszczyzny roboczej
-   MenuLocation:Path → Obszar płaszczyzny roboczej
+   MenuLocation:Path - Obszar płaszczyzny roboczej
    Workbenches:[Path](Path_Workbench/pl.md)
 ---
 

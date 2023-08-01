@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign_WizardShaft
    Name/fr:PartDesign Conception d'arbre
-   MenuLocation:Part Design → Conception d'arbre...
+   MenuLocation:Part Design - Conception d'arbre...
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
 ---
 

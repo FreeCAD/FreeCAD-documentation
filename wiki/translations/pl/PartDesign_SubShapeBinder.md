@@ -3,7 +3,7 @@
    Name:PartDesign SubShapeBinder
    Name/pl:Projekt Części: Łącznik kształtów podrzędnych
    Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   MenuLocation:Projekt Części → Utwórz łącznik kształtu obiektu podrzędnego
+   MenuLocation:Projekt Części - Utwórz łącznik kształtu obiektu podrzędnego
    Version:0.19
    SeeAlso:[Łącznik kształtu](PartDesign_ShapeBinder/pl.md), [Utwórz klon](PartDesign_Clone/pl.md)
 ---

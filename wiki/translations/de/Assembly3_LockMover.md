@@ -3,7 +3,7 @@
    Name:Assembly3 LockMover
    Name/de:Assembly3 BewegungVerhindern
    Icon:Assembly_LockMover.svg‎‎
-   MenuLocation:Assembly3 → Lock mover
+   MenuLocation:Assembly3 - Lock mover
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 

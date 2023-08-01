@@ -3,7 +3,7 @@
    Name:Spreadsheet_StyleItalic
    Name/it:Corsivo
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)
-   MenuLocation:Spreadsheet → Stile → Corsivo
+   MenuLocation:Spreadsheet - Stile - Corsivo
    Version:0.17
 ---
 

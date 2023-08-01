@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Facebinder
    Name/it:Lega facce
-   MenuLocation:Drafting → Lega facce
+   MenuLocation:Drafting - Lega facce
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**F** **F**
    Version:0.14

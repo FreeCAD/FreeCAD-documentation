@@ -4,7 +4,7 @@
    Name:Drawing View
    Name/de:Drawing View
    Workbenches:[Drawing](Drawing_Workbench/de.md), Complete
-   MenuLocation:Zeichnung → Ansicht in Zeichnung einfügen
+   MenuLocation:Zeichnung - Ansicht in Zeichnung einfügen
    Shortcut:Keine
    SeeAlso:[Drawing Landscape A3](Drawing_Landscape_A3/de.md)---
 

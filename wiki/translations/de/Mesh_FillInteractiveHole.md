@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name/de:Netz FülleInteraktivesLoch
-   MenuLocation:Polygonnetze → Schließe Loch
+   MenuLocation:Polygonnetze - Schließe Loch
    Workbenches:[Polygonnetz](Mesh_Workbench/de.md)
    SeeAlso:[Netz Löcher auffüllen](Mesh_FillupHoles/de.md), [Netz FacetteHinzufügen ](Mesh_AddFacet/de.md)
 ---

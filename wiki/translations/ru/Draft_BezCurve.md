@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft BezCurve
    Name/ru:Draft BezCurve
-   MenuLocation:Черчение →  Кривая Безье
+   MenuLocation:Черчение -  Кривая Безье
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:B Z
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ArchView
    Name/fr:TechDraw Vue d'un objet Arch
-   MenuLocation:TechDraw → Insérer un objet de l'atelier Arch
+   MenuLocation:TechDraw - Insérer un objet de l'atelier Arch
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md), [Atelier Arch](Arch_Workbench/fr.md)
    SeeAlso:[Arch Plan de coupe](Arch_SectionPlane/fr.md)
 ---

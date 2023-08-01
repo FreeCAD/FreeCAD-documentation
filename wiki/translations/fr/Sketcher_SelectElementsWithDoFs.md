@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher SelectElementsWithDoFs
    Name/fr:Sketcher Degrés de liberté non contraints
-   MenuLocation:Esquisse → Outils d'esquisse → Sélectionner les degrés de liberté non contraints
+   MenuLocation:Esquisse - Outils d'esquisse - Sélectionner les degrés de liberté non contraints
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**Z** **F**
    Version:0.18

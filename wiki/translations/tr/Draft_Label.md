@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Label
    Name/tr:Etiket
-   MenuLocation:Taslak → Etiket
+   MenuLocation:Taslak - Etiket
    Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
    Shortcut:**D** **L**
    SeeAlso:[Metin](Draft_Text/tr.md), [Şekil dizesi](Draft_ShapeString/tr.md)

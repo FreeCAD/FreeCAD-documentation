@@ -3,7 +3,7 @@
    Name:Std AddonMgr
    Name/tr:Addon manager
    Icon:AddonManager.svg
-   MenuLocation:Araçlar → Addon manager
+   MenuLocation:Araçlar - Addon manager
    Workbenches:''None''
    SeeAlso:[Makros](Macros/tr.md), [[External workbenches/tr]]
    Version:0.17

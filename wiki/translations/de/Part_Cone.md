@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Cone
    Name/de:Part Kegel
-   MenuLocation:Formteil → Grundkörper → Kegel
+   MenuLocation:Formteil - Grundkörper - Kegel
    Workbenches:[Part](Part_Workbench/de.md)
    SeeAlso:[Part Grundelemente](Part_Primitives/de.md)
 ---

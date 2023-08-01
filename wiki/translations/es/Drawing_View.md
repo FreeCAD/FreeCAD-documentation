@@ -1,6 +1,6 @@
 # Drawing View/es
 ---
-- GuiCommand:   Name:Drawing View   Name/es:Drawing View   Workbenches:[MenuLocation:Dibujo → Insertar vista en dibujo   Shortcut:none   SeeAlso:[[Drawing Landscape A3/es|Dibujo A3 apaisado](Drawing_Workbench/es___Dibujo]],_Complete.md)---
+- GuiCommand:   Name:Drawing View   Name/es:Drawing View   Workbenches:[MenuLocation:Dibujo - Insertar vista en dibujo   Shortcut:none   SeeAlso:[[Drawing Landscape A3/es|Dibujo A3 apaisado](Drawing_Workbench/es___Dibujo]],_Complete.md)---
 
 
 </div>

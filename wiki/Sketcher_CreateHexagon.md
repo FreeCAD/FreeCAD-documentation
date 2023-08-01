@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher CreateHexagon
-   MenuLocation:Sketch → Sketcher geometries → Create hexagon
+   MenuLocation:Sketch - Sketcher geometries - Create hexagon
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**G** **P** **6**
    Version:0.15

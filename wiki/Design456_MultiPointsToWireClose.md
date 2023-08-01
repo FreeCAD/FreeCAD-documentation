@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Design456 MultiPointsToWireClose
-   MenuLocation:Design456_2Ddrawing → MultiPointsToWireClose
+   MenuLocation:Design456_2Ddrawing - MultiPointsToWireClose
    Workbenches:[Design456](Design456_Workbench.md)
    Shortcut:None
    SeeAlso:

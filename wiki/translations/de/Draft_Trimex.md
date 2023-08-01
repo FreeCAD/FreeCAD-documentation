@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Trimex
    Name/de:Draft Trimex
-   MenuLocation:Änderung → Trimex
+   MenuLocation:Änderung - Trimex
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**T** **R**
    SeeAlso:[Part Extrudieren](Part_Extrude/de.md)

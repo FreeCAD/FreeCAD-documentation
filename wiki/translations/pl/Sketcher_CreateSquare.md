@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CreateSquare
    Name/pl:Szkicownik: Utwórz kwadrat
-   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz kwadrat
+   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz kwadrat
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **P** **4**
    Version:0.15

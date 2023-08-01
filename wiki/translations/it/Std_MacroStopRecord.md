@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_MacroStopRecord
    Name/it:Interrompi la registrazione
-   MenuLocation:Macro → Interrompi la registrazione
+   MenuLocation:Macro - Interrompi la registrazione
    Workbenches:Tutti
    SeeAlso:[Registra una macro](Std_DlgMacroRecord/it.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh_Segmentation
    Name/it:Crea segmenti di mesh
-   MenuLocation:Mesh → Crea segmenti di mesh...
+   MenuLocation:Mesh - Crea segmenti di mesh...
    Workbenches:[Mesh](Mesh_Workbench/it.md)
    SeeAlso:[Adatta i segmenti](Mesh_SegmentationBestFit/it.md)
 ---

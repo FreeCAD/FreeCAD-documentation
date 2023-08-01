@@ -3,7 +3,7 @@
    Name:PartDesign CompPrimitiveSubtractive
    Name/it:Primitive sottrattive
    Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:Part Design → Crea una primitiva sottrattiva
+   MenuLocation:Part Design - Crea una primitiva sottrattiva
    SeeAlso:[Primitive additive](PartDesign_CompPrimitiveAdditive/it.md)
    Version:0.17
 ---

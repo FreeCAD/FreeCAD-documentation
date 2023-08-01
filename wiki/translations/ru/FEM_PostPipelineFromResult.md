@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM PostPipelineFromResult
    Name/ru:FEM PostPipelineFromResult
-   MenuLocation: Results → Post pipeline from result
+   MenuLocation: Results - Post pipeline from result
    Workbenches:[FEM](FEM_Workbench/ru.md)
    Version:0.17
    Shortcut:

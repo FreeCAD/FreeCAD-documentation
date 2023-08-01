@@ -1,6 +1,6 @@
 # Sketcher CreatePoint/sv
 ---
-- GuiCommand:   Name:Sketcher CreatePoint   Name/sv:Sketcher Point   Workbenches:[[Sketcher Workbench/sv   Sketcher]]|MenuLocation:Sketch → Sketcher geometries → Create point---
+- GuiCommand:   Name:Sketcher CreatePoint   Name/sv:Sketcher Point   Workbenches:[[Sketcher Workbench/sv   Sketcher]]|MenuLocation:Sketch - Sketcher geometries - Create point---
 
 
 </div>

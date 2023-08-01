@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CreatePoint
    Name/es:Croqizador Punto
-   MenuLocation:Croquis → Geometrías Croqizador→ Crear punto
+   MenuLocation:Croquis - Geometrías Croqizador- Crear punto
    Workbenches:[Croqizador](Sketcher_Workbench/es.md)
 ---
 

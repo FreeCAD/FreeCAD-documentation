@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:OpenSCAD ReplaceObject‏‎ 
    Name/ru:OpenSCAD ReplaceObject‏‎ 
-   MenuLocation:OpenSCAD → Заменить объект
+   MenuLocation:OpenSCAD - Заменить объект
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/ru.md)
    Shortcut:нет
    SeeAlso:---

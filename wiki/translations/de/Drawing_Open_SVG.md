@@ -4,7 +4,7 @@
    Name:Drawing Open SVG
    Name/de:Zeichnen Open SVG
    Workbenches:[Zeichnen](Drawing_Workbench/de.md), Complete
-   MenuLocation:Drawing → Open SVG...
+   MenuLocation:Drawing - Open SVG...
    Shortcut:none
    SeeAlso:[Zeichnung speichern](Drawing_Save/de.md)---
 

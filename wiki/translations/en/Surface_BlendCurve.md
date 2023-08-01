@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Surface BlendCurve
-   MenuLocation:Surface → Blend Curve
+   MenuLocation:Surface - Blend Curve
    Workbenches:[Surface](Surface_Workbench.md)
    Version:0.21
 ---

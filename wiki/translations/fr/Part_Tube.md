@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Tube
    Name/fr:Part Tube
-   MenuLocation:Part → Primitives → Tube
+   MenuLocation:Part - Primitives - Tube
    Workbenches:[Part](Part_Workbench/fr.md)
    Version:0.19
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Import
    Name/fr:Part Importation
-   MenuLocation:Part → Importer un fichier de CAO...
+   MenuLocation:Part - Importer un fichier de CAO...
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Part Exportation](Part_Export/fr.md), [Std Importer](Std_Import/fr.md), [Import Export](Import_Export/fr.md)
 ---

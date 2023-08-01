@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CreateHeptagon
    Name/pl:Szkicownik: Utwórz siedmiokąt
-   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz siedmiokąt
+   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz siedmiokąt
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **P** **7**
    Version:0.15

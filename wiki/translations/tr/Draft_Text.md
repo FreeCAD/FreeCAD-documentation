@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Text
    Name/tr:Metin
-   MenuLocation:Taslak → Metin
+   MenuLocation:Taslak - Metin
    Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
    Shortcut:**T** **E**
    Version/tr:0.7

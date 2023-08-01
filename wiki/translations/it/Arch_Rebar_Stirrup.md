@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch_Rebar_Stirrup
    Name/it:Staffe armatura
-   MenuLocation:Arch → Strumenti armatura → Staffe armatura o BIM → 3D/BIM → Reinforcement → Stirrup
+   MenuLocation:Arch - Strumenti armatura - Staffe armatura o BIM - 3D/BIM - Reinforcement - Stirrup
    Workbenches:[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
    SeeAlso:[Armatura elicoidale](Arch_Rebar_Helical/it.md), [Armatura personalizzata](Arch_Rebar/it.md)
    Version:0.17

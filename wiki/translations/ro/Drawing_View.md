@@ -1,6 +1,6 @@
 # Drawing View/ro
 ---
-- GuiCommand:   Name:Drawing View   Name/ro:Drawing View   Workbenches:[MenuLocation:Drawing → Insert view in drawing   Shortcut:none   SeeAlso:[[Drawing Landscape A3/ro|Drawing Landscape A3](Drawing_Workbench/ro___Drawing]],_Complete.md)---
+- GuiCommand:   Name:Drawing View   Name/ro:Drawing View   Workbenches:[MenuLocation:Drawing - Insert view in drawing   Shortcut:none   SeeAlso:[[Drawing Landscape A3/ro|Drawing Landscape A3](Drawing_Workbench/ro___Drawing]],_Complete.md)---
 
 
 </div>

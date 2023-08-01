@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Shape2DView
    Name/fr:Draft Vue 2D d'une forme
-   MenuLocation:Modification → Vue 2D de la forme
+   MenuLocation:Modification - Vue 2D de la forme
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    SeeAlso:[TechDraw Projection de forme](TechDraw_ProjectShape/fr.md)
 ---

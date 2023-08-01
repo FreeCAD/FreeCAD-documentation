@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Snap Parallel
    Name/tr:Taslak Paralel
-   MenuLocation:Taslak → [Yakalama](Draft_Snap/tr.md) → Paralel
+   MenuLocation:Taslak - [Yakalama](Draft_Snap/tr.md) - Paralel
    Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
    Shortcut:
    SeeAlso:

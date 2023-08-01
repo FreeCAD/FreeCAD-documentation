@@ -1,6 +1,6 @@
 # Arch SplitMesh/sv
 ---
-- GuiCommand:   Name:Arch SplitMesh   Name/sv:Arch SplitMesh   Workbenches:[MenuLocation:Arch → Utilities → Split Mesh   SeeAlso:[[Arch SelectNonSolidMeshes/sv|Arch SelectNonSolidMeshes](Arch_Workbench/sv___Arch]].md)---
+- GuiCommand:   Name:Arch SplitMesh   Name/sv:Arch SplitMesh   Workbenches:[MenuLocation:Arch - Utilities - Split Mesh   SeeAlso:[[Arch SelectNonSolidMeshes/sv|Arch SelectNonSolidMeshes](Arch_Workbench/sv___Arch]].md)---
 
 
 </div>

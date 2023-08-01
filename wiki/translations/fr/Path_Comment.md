@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path Comment
    Name/fr:Path Commentaire
-   MenuLocation:Path → Autres commandes → Commentaire
+   MenuLocation:Path - Autres commandes - Commentaire
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 

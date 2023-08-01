@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Sweep
    Name/es:Part Barrido
-   MenuLocation:Pieza → Barrido...
+   MenuLocation:Pieza - Barrido...
    Workbenches:[Part](Part_Workbench/es.md)
    SeeAlso:[Part Loft](Part_Loft.md)
 ---

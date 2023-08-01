@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CreateSquare
    Name/de:Sketcher QuadratErstellen
-   MenuLocation:Sketch → Skizzengeometrien → Quadrat erstellen
+   MenuLocation:Sketch - Skizzengeometrien - Quadrat erstellen
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Shortcut:**G** **P** **4**
    Version:0.15

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std RecallWorkingView
    Name/de:Std ArbeitsansichtWiederherstellen
-   MenuLocation:Ansicht → Standardansichten → Arbeitsansicht wiederherstellen
+   MenuLocation:Ansicht - Standardansichten - Arbeitsansicht wiederherstellen
    Workbenches:Alle
    Shortcut:**End**
    Version:0.21

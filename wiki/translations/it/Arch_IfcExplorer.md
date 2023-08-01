@@ -4,7 +4,7 @@
    Name/it:Esplora Ifc
    Icon:IFC.svg
    Workbenches:[Arch](Arch_Workbench/it.md)
-   MenuLocation:Arch → Utilità → Esplora Ifc
+   MenuLocation:Arch - Utilità - Esplora Ifc
    SeeAlso:[Arch IFC](Arch_IFC/it.md)
 ---
 

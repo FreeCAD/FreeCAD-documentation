@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Revolve
    Name/ro:Part Revolve
-   MenuLocation:Part → Revolve
+   MenuLocation:Part - Revolve
    Workbenches:[Part](Part_Workbench/ro.md), Complete
    SeeAlso:
 ---

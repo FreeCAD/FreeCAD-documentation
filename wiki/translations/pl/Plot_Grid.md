@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Plot Grid
    Name/pl:Wykres: Pokaż / ukryj siatkę
-   MenuLocation:Wykres → Pokaż / ukryj siatkę
+   MenuLocation:Wykres - Pokaż / ukryj siatkę
 ‏   Workbenches:[Wykres](Plot_Workbench/pl.md)
 ---
 

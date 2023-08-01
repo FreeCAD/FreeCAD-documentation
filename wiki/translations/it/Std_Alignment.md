@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_Alignment
    Name/it:Allineamento
-   MenuLocation:Modifica → Allineamento...
+   MenuLocation:Modifica - Allineamento...
    Workbenches:Tutti
    SeeAlso:[Posizionamento](Std_Placement/it.md)
 ---

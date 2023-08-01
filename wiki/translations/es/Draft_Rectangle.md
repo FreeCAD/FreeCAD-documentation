@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Rectangle
    Name/es:Draft Rectangle
-   MenuLocation:Croquis →  Rectángulo
+   MenuLocation:Croquis -  Rectángulo
    Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
    Shortcut:**R** **E**
    Version:0.7

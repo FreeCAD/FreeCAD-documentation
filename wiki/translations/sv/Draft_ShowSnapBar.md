@@ -1,6 +1,6 @@
 # Draft ShowSnapBar/sv
 ---
-- GuiCommand:   Name:Draft ShowSnapBar   Name/sv:Draft ShowSnapBar   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft → Utilities → Show Snap Bar---
+- GuiCommand:   Name:Draft ShowSnapBar   Name/sv:Draft ShowSnapBar   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft - Utilities - Show Snap Bar---
 
 
 </div>

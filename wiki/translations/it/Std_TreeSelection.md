@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_TreeSelection
    Name/it:Vai alla selezione
-   MenuLocation:Visualizza → Azioni della vista ad albero → Vai alla selezione
+   MenuLocation:Visualizza - Azioni della vista ad albero - Vai alla selezione
    Workbenches:Tutti
    Shortcut:**T** **G**
    Version:0.19

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionCreateHorizChamferDimension
    Name/pl:Rysunek Techniczny: Rozszerzenie Wymiar poziomy sfazowania
-   MenuLocation:Rysunek Techniczny → Rozszerzenia: Wymiary → Wymiar poziomy sfazowania
+   MenuLocation:Rysunek Techniczny - Rozszerzenia: Wymiary - Wymiar poziomy sfazowania
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft ShapeString
    Name/de:Draft Textform
-   MenuLocation:Entwurf → Form von Text
+   MenuLocation:Entwurf - Form von Text
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:
    Version:0.14

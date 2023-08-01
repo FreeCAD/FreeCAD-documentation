@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Rocket Bulkhead
    Name/fr:Rocket Cloison
-   MenuLocation:Rocket → Bulkhead
+   MenuLocation:Rocket - Bulkhead
    Workbenches:[Rocket](Rocket_Workbench/fr.md)
    Version:0.19
 ---

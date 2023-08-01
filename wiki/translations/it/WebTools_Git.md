@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Git
 ‏‎   Name/it:Arch Git
-   MenuLocation:Arch → Utilità → Git
+   MenuLocation:Arch - Utilità - Git
    Workbenches:[Arch](Arch_Workbench/it.md)
    Shortcut:
 ‏‎   SeeAlso:

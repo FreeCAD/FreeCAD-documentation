@@ -3,7 +3,7 @@
    Name:Ship Area
    Name/ru:Ship Area
    Icon:Ship_AreaCurve.svg
-   MenuLocation:Ship design → Строевая
+   MenuLocation:Ship design - Строевая
    Workbenches:[Ship](Ship_Workbench/ru.md)
    Shortcut:
    SeeAlso:

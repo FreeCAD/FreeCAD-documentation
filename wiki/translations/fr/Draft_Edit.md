@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Edit
    Name/fr:Draft Éditer
-   MenuLocation:Modification → Éditer
+   MenuLocation:Modification - Éditer
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:**D** **E**
    SeeAlso:[Std Mode édition](Std_Edit/fr.md)

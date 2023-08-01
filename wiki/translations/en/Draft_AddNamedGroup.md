@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft AddNamedGroup
-   MenuLocation:Utilities → Add a new named group
+   MenuLocation:Utilities - Add a new named group
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    Shortcut:
    Version:0.20

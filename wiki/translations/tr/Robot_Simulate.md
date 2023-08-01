@@ -4,7 +4,7 @@
    Name:Robot Simulate
    Name/tr:Simülasyon
    Workbenches:[Robot](Robot_Workbench/tr.md)
-   MenuLocation:Robot → Yörünge Simülasyonu---
+   MenuLocation:Robot - Yörünge Simülasyonu---
 
 
 </div>

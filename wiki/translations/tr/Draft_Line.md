@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Line
    Name/tr:Çizgi
-   MenuLocation:Taslak → Çizgi
+   MenuLocation:Taslak - Çizgi
    Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
    Shortcut:**L** **I**
    Version:0.7

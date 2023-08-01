@@ -1,6 +1,6 @@
 # Drawing Open SVG/es
 ---
-- GuiCommand:   Name:Drawing Open SVG   Workbenches:[MenuLocation:Dibujo → Abrir SVG...   Shortcut:none   SeeAlso:[[Drawing Save/es|Guardar dibujo](Drawing_Workbench/es___Dibujo]],_Complete.md)---
+- GuiCommand:   Name:Drawing Open SVG   Workbenches:[MenuLocation:Dibujo - Abrir SVG...   Shortcut:none   SeeAlso:[[Drawing Save/es|Guardar dibujo](Drawing_Workbench/es___Dibujo]],_Complete.md)---
 
 
 </div>

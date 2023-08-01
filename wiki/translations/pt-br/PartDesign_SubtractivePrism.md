@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:PartDesign SubtractivePrism
-   MenuLocation:Part Design → Create a subtractive primitive → Subtractive Prism
+   MenuLocation:Part Design - Create a subtractive primitive - Subtractive Prism
    Workbenches:[PartDesign](PartDesign_Workbench.md)
    Version:0.17
    SeeAlso:[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign AdditivePrism](PartDesign_AdditivePrism.md)

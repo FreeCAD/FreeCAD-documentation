@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Curves ExtendCurve
    Name/de:Curves KurveVerlängern
-   MenuLocation:Curves → Extend Curve
+   MenuLocation:Curves - Extend Curve
    Workbenches:[Curves](Curves_Workbench/de.md)
 ---
 

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ClipGroupAdd
    Name/fr:TechDraw Ajout vue dans une fenêtre de rognage
-   MenuLocation:TechDraw → Ajouter une vue à la fenêtre de rognage
+   MenuLocation:TechDraw - Ajouter une vue à la fenêtre de rognage
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    SeeAlso:[TechDraw Fenêtre de rognage](TechDraw_ClipGroup/fr.md), [TechDraw Suppression vue à une fenêtre de rognage](TechDraw_ClipGroupRemove/fr.md)
 ---

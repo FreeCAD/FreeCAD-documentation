@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Measure Clear All
    Name/it:Cancella tutto
-   MenuLocation:{{StdMenu|[Misure](Std_Measure_Menu/it.md)}} → Cancella tutto‎
+   MenuLocation:{{StdMenu|[Misure](Std_Measure_Menu/it.md)}} - Cancella tutto‎
    Workbenches:[Part](Part_Workbench/it.md)
 ---
 

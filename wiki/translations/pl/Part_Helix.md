@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Helix
    Name/pl:Część: Helisa
-   MenuLocation:Część → Utwórz geometrie pierwotne ... → Helisa
+   MenuLocation:Część - Utwórz geometrie pierwotne ... - Helisa
    Workbenches:[Część](Part_Workbench/pl.md), [OpenSCAD](OpenSCAD_Workbench/pl.md)
    SeeAlso:[Utwórz geometrie pierwotne](Part_Primitives/pl.md)
 ---

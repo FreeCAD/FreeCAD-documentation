@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Upgrade
    Name/it:Promuovi
-   MenuLocation:Modifiche → Promuovi
+   MenuLocation:Modifiche - Promuovi
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**U** **P**
    SeeAlso:[Declassa](Draft_Downgrade/it.md)

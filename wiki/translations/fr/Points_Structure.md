@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Points Structure
    Name/fr:Points Nuage structuré
-   MenuLocation:Points → Nuage structuré de points
+   MenuLocation:Points - Nuage structuré de points
    Workbenches:[Points](Points_Workbench/fr.md)
 ---
 

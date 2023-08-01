@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher ConstrainSnellsLaw
    Name/pl:Szkicownik: Wiązanie prawo Snella
-   MenuLocation:Szkic → Wiązania szkicownika → Wiązanie refrakcji (prawo Snell'a)
+   MenuLocation:Szkic - Wiązania szkicownika - Wiązanie refrakcji (prawo Snell'a)
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**K** **W**
    Version:0.15

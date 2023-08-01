@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name/de:PartDesign Körper
-   MenuLocation:Part Design → Erstelle Körper
+   MenuLocation:Part Design - Erstelle Körper
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
    SeeAlso:[Std Part](Std_Part/de.md), [Funktion bearbeiten](Feature_editing/de.md)

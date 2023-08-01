@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Helix
    Name/ru:Винтовая Спираль
-   MenuLocation:Деталь → [Создать примитивы...](Part_Primitives/ru.md) → Спираль
+   MenuLocation:Деталь - [Создать примитивы...](Part_Primitives/ru.md) - Спираль
    Workbenches:[Part(Деталь)](Part_Workbench/ru.md),  [OpenSCAD](OpenSCAD_Workbench/ru.md)
    SeeAlso:[Примитивы](Part_Primitives/ru.md)
 ---

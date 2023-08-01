@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Удалить всю геометрию
    Name:Sketcher_DeleteAllGeometry
-   MenuLocation:Эскиз → Инструменты для эскиза → Delete All Geometry
+   MenuLocation:Эскиз - Инструменты для эскиза - Delete All Geometry
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Version:0.18
    SeeAlso:[Удалить все ограничения](Sketcher_DeleteAllConstraints/ru.md)

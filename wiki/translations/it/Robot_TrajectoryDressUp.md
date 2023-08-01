@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Robot TrajectoryDressUp
    Name/it:Vesti una traiettoria
-   MenuLocation:Robot → Vesti una traiettoria
+   MenuLocation:Robot - Vesti una traiettoria
    Workbenches:[Robot](Robot_Workbench/it.md)
 ---
 

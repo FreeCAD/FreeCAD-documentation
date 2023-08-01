@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher Copy
    Name/pl:Szkicownik: Kopiuj
-   MenuLocation:Szkic → Elementy geometryczne szkicownika → Kopiuj
+   MenuLocation:Szkic - Elementy geometryczne szkicownika - Kopiuj
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**Z** **C**
    Version:0.16

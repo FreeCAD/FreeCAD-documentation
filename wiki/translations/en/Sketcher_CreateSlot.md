@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher CreateSlot
-   MenuLocation:Sketch → Sketcher geometries → Create slot
+   MenuLocation:Sketch - Sketcher geometries - Create slot
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**G** **S**
 ---

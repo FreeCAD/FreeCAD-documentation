@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path Job
    Name/de:Path Auftrag
-   MenuLocation:Pfad → Auftrag
+   MenuLocation:Pfad - Auftrag
    Workbenches:[Pfad](Path_Workbench/de.md)
    Shortcut:**P** **J**
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM ElementFluid1D
    Name/de:FEM ElementFluid1D
-   MenuLocation:Model → Element Geometry → Fluid section for 1D flow
+   MenuLocation:Model - Element Geometry - Fluid section for 1D flow
    Workbenches:[FEM](FEM_Workbench/de.md)
    SeeAlso:[FEM Anleitung](FEM_tutorial/de.md)
 ---

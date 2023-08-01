@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Rotate
    Name/pl:Rysunek Roboczy: Obróć
-   MenuLocation:Modyfikacja → Obróć
+   MenuLocation:Modyfikacja - Obróć
    Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
    Shortcut:**R** **O**
    SeeAlso:[Podświetl element podrzędny](Draft_SubelementHighlight/pl.md)

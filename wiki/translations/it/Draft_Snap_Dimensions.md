@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Snap Dimensions
    Name/it:Dimensioni
-   MenuLocation:Draft → [Aggancio](Draft_Snap/it.md) → Dimensioni
+   MenuLocation:Draft - [Aggancio](Draft_Snap/it.md) - Dimensioni
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:
    SeeAlso:[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)

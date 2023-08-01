@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewZoomIn
    Name/fr:Std Zoom avant
-   MenuLocation:Affichage → Zoom‏‎ → Zoom avant
+   MenuLocation:Affichage - Zoom‏‎ - Zoom avant
    Workbenches:Tous
    Shortcut:**Ctrl**+**+**
    SeeAlso:[Std Zoom arrière](Std_ViewZoomOut/fr.md), [Std Zoom de sélection](Std_ViewBoxZoom/fr.md)

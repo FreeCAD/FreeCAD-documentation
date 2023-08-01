@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM Examples
    Name/ru:FEM Examples
-   MenuLocation: Utilities → Open FEM Examples
+   MenuLocation: Utilities - Open FEM Examples
    Workbenches:[FEM](FEM_Workbench/ru.md)
    Version:0.19
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)

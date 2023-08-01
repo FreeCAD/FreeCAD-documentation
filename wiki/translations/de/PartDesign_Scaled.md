@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign Scaled
    Name/de:PartDesign Scaled
-   MenuLocation:None (Option within Part Design → Muster anwenden → Mehrfach-Transformation erstellen)
+   MenuLocation:None (Option within Part Design - Muster anwenden - Mehrfach-Transformation erstellen)
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    SeeAlso:[PartDesign Mehrfach-Transformation](PartDesign_MultiTransform/de.md)
 ---

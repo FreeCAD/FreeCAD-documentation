@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher Split
    Name/es:Croquizador Dividir
-   MenuLocation:Croquis → Croquizador Geometrías → Dividir
+   MenuLocation:Croquis - Croquizador Geometrías - Dividir
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)
    Version:0.20
    SeeAlso:[Croquizador Recortar](Sketcher_Trimming/es.md)

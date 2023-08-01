@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Уместить выделенное
    Name:Std_ViewFitSelection
-   MenuLocation:Вид → Стандартные виды‏‎ → Уместить выделенное
+   MenuLocation:Вид - Стандартные виды‏‎ - Уместить выделенное
    Workbenches:Все
    Shortcut:**V** **S**
    SeeAlso:[Уместить всё](Std_ViewFitAll/ru.md)

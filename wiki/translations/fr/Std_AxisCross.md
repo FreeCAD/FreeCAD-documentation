@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std AxisCross
    Name/fr:Std Axes du repère
-   MenuLocation:Affichage → Afficher les axes des coordonnées
+   MenuLocation:Affichage - Afficher les axes des coordonnées
    Workbenches:Tous
    Shortcut:**A** **C**
 ---

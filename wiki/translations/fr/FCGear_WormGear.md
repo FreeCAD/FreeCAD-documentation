@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FCGear WormGear
    Name/fr:FCGear Vis sans fin
-   MenuLocation:Gear → Worm Gear
+   MenuLocation:Gear - Worm Gear
    Workbenches:[FCGear](FCGear_Workbench/fr.md)
    Shortcut:Aucun
    Version:v0.16

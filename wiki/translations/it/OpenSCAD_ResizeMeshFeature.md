@@ -3,7 +3,7 @@
    Name:OpenSCAD_ResizeMeshFeature
    Name/it:Ridimensiona le mesh
    Empty:1
-   MenuLocation:OpenSCAD → Ridimensiona le mesh
+   MenuLocation:OpenSCAD - Ridimensiona le mesh
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/it.md)
 ---
 

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name:Std PerspectiveCamera
    Name/pl:Std: Widok perspektywy
-   MenuLocation:Widok → Widok perspektywy
+   MenuLocation:Widok - Widok perspektywy
    Workbenches:wszystkie
-   Shortcut:**V** → **P**
+   Shortcut:**V** - **P**
    SeeAlso:[Widok ortograficzny](Std_OrthographicCamera/pl.md)
 ---
 

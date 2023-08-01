@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Mesh EvaluateFacet
-   MenuLocation:Meshes → Analyze → Face info
+   MenuLocation:Meshes - Analyze - Face info
    Workbenches:[Mesh](Mesh_Workbench.md)
 ---
 

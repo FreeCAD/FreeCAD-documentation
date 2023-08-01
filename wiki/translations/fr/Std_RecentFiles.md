@@ -3,7 +3,7 @@
    Name:Std RecentFiles
    Name/fr:Std Fichiers récents
    Empty:1
-   MenuLocation:Fichier → Fichiers récents
+   MenuLocation:Fichier - Fichiers récents
    Workbenches:Tous
    SeeAlso:[Std Ouvrir](Std_Open/fr.md), [Std Importer](Std_Import/fr.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft_WireToBSpline
    Name/es:Draft_WireToBSpline
-   MenuLocation:Boceto → Contorno a BSpline
+   MenuLocation:Boceto - Contorno a BSpline
    Workbenches:[Boceto](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
 ---
 

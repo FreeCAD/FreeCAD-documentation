@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Spreadsheet CreateSheet
    Name/ru:Создать электронную таблицу
-   MenuLocation:Spreadsheet → Создать электронную таблицу
+   MenuLocation:Spreadsheet - Создать электронную таблицу
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/ru.md)
    Version:0.17
 ---

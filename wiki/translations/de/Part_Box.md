@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Box
    Name/de:Part Würfel
-   MenuLocation:Formteil → Grundkörper → Würfel 
+   MenuLocation:Formteil - Grundkörper - Würfel 
    Workbenches:[Part](Part_Workbench/de.md)
    SeeAlso:[Part Grundelemente](Part_Primitives/de.md)
 ---

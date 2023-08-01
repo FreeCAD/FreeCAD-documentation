@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std ToggleSelectability
-   MenuLocation:View → Visibility → Toggle selectability
+   MenuLocation:View - Visibility - Toggle selectability
    Workbenches:All
 ---
 

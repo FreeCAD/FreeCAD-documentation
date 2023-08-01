@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Measure Refresh
    Name/it:Aggiorna le misure
-   MenuLocation:[Misure](Std_Measure_Menu/it.md) → Aggiorna
+   MenuLocation:[Misure](Std_Measure_Menu/it.md) - Aggiorna
    Workbenches:[Part](Part_Workbench/it.md)
    SeeAlso:[Misura lineare](Part_Measure_Linear/it.md), [Misura angolare](Part_Measure_Angular/it.md)
 ---

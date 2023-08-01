@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft Fillet
-   MenuLocation:Drafting → Fillet
+   MenuLocation:Drafting - Fillet
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    Shortcut:**F** **I**
    Version:0.19

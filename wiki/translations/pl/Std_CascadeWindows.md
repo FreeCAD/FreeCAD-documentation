@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std CascadeWindows
    Name/pl:Std: Kaskadowo
-   MenuLocation:Okna → Kaskadowo
+   MenuLocation:Okna - Kaskadowo
    Workbenches:wszystkie
    SeeAlso:[Sąsiadująco](Std_TileWindows/pl.md)
 ---

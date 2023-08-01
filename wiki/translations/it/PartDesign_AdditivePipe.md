@@ -3,7 +3,7 @@
    Name:PartDesign AdditivePipe
    Name/it:Sweep additivo
    Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:PartDesign → Sweep additivo
+   MenuLocation:PartDesign - Sweep additivo
    Version:0.17
    SeeAlso:[Loft additivo](PartDesign_AdditiveLoft/it.md)
 ---

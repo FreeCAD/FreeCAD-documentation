@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std TreeSingleDocument
    Name/ru:Std TreeSingleDocument
-   MenuLocation:Вид → Дерево документа → Одиночный документ
+   MenuLocation:Вид - Дерево документа - Одиночный документ
    Workbenches:All
    SeeAlso:[Std TreeMultiDocument](Std_TreeMultiDocument/ru.md), [Std TreeCollapseDocument](Std_TreeCollapseDocument/ru.md)
 ---

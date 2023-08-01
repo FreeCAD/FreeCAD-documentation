@@ -1,6 +1,6 @@
 # Draft Scale/sv
 ---
-- GuiCommand:   Name:Draft Scale   Name/sv:Draft Scale   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft → Scale   Shortcut:S C   SeeAlso:[Draft Clone](Draft_Clone/sv.md)---
+- GuiCommand:   Name:Draft Scale   Name/sv:Draft Scale   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft - Scale   Shortcut:S C   SeeAlso:[Draft Clone](Draft_Clone/sv.md)---
 
 
 </div>

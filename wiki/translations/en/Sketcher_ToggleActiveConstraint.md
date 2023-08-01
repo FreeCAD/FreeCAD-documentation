@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher ToggleActiveConstraint
    Workbenches:[Sketcher](Sketcher_Workbench.md)
-   MenuLocation:Sketch → Sketcher constraints → Activate/deactivate constraint
+   MenuLocation:Sketch - Sketcher constraints - Activate/deactivate constraint
    Shortcut:**K** **Z**
    Version:0.19
    SeeAlso:[Sketcher Toggle driving constraints](Sketcher_ToggleDrivingConstraint.md)

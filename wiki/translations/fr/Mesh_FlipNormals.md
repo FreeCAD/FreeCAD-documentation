@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh FlipNormals
    Name/fr:Mesh Inverser les normales‏‎
-   MenuLocation:Maillages → Inverser les normales‏‎
+   MenuLocation:Maillages - Inverser les normales‏‎
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
    SeeAlso:[Mesh Harmoniser les normales](Mesh_HarmonizeNormals/fr.md)
 ---

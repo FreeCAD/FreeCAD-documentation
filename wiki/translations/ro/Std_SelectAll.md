@@ -1,6 +1,6 @@
 # Std SelectAll/ro
 ---
-- GuiCommand:   Name:Std SelectAll   MenuLocation:[[Std Edit Menu   Edit]] → Select All|Workbenches:All   Shortcut:...   SeeAlso:...---
+- GuiCommand:   Name:Std SelectAll   MenuLocation:[[Std Edit Menu   Edit]] - Select All|Workbenches:All   Shortcut:...   SeeAlso:...---
 
 
 </div>

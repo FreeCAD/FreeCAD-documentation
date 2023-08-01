@@ -3,7 +3,7 @@
    Name:Drawing Orthoviews
    Name/fr:Drawing Vues orthogonales
    Workbenches:[Drawing](Drawing_Workbench/fr.md)
-   MenuLocation:Drawing → Insérer des vues orthogonales
+   MenuLocation:Drawing - Insérer des vues orthogonales
    Shortcut:
    SeeAlso:[Drawing A3 Paysage](Drawing_Landscape_A3/fr.md)
 ---

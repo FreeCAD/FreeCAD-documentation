@@ -1,6 +1,6 @@
 # Sketcher CloseShape/ro
 ---
-- GuiCommand:   Name:Sketcher CloseShape   Workbenches:[[Sketcher Workbench   Sketcher]]|MenuLocation:Sketch → Sketcher tools → Close Shape   Shortcut:Shift+Ctrl+S   Version:0.15---
+- GuiCommand:   Name:Sketcher CloseShape   Workbenches:[[Sketcher Workbench   Sketcher]]|MenuLocation:Sketch - Sketcher tools - Close Shape   Shortcut:Shift+Ctrl+S   Version:0.15---
 
 
 </div>

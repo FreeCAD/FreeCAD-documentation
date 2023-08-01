@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Curves IsoCurve
    Name/de:Curves IsoKurve
-   MenuLocation:Surfaces → IsoCurve
+   MenuLocation:Surfaces - IsoCurve
    Workbenches:[Curves](Curves_Workbench/de.md)
    SeeAlso:[Curves KurveVerbinden](Curves_JoinCurve/de.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh ImportMesh‏‎
    Name/ru:Mesh ImportMesh‏‎
-   MenuLocation:Сетки → Импорт сетки
+   MenuLocation:Сетки - Импорт сетки
    Workbenches:[Mesh](Mesh_Workbench/ru.md)
    SeeAlso:[Импорт файла](Std_Import/ru.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher Move
    Name/de:Sketcher Verschieben
-   MenuLocation:Sketch → Skizzen-Werkzeuge → Verschieben
+   MenuLocation:Sketch - Skizzen-Werkzeuge - Verschieben
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Shortcut:**Z** **M**
    Version:0.18

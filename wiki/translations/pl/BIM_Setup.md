@@ -4,7 +4,7 @@
    Name/pl:BIM Setup
    Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/pl.md)
    Addon:BIM
-   MenuLocation:Manage → Ustawiania BIM
+   MenuLocation:Manage - Ustawiania BIM
 ---
 
 # BIM Setup/pl

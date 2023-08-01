@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Показать/скрыть полигон управления B-сплайном
    Name:Sketcher_BSplinePolygon
-   MenuLocation:Sketch → B-сплйан инструменты эскиза → Показать/скрыть полигон управления B-сплайном
+   MenuLocation:Sketch - B-сплйан инструменты эскиза - Показать/скрыть полигон управления B-сплайном
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Version:0.17
    SeeAlso:[Создать B-сплайн](Sketcher_CompCreateBSpline/ru.md)

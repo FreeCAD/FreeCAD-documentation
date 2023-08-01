@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Part Box
-   MenuLocation:Part → Primitives → Cube
+   MenuLocation:Part - Primitives - Cube
    Workbenches:[Part](Part_Workbench.md)
    SeeAlso:[Part Primitives](Part_Primitives.md)
 ---

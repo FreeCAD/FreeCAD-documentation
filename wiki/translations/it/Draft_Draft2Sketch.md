@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Draft2Sketch
    Name/it:Draft in Sketch
-   MenuLocation:Draft → Draft in Sketch
+   MenuLocation:Draft - Draft in Sketch
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
 ---
 

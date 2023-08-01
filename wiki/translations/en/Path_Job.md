@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Path Job
-   MenuLocation:Path → Job
+   MenuLocation:Path - Job
    Workbenches:[Path](Path_Workbench.md)
    Shortcut:**P** **J**
    SeeAlso:[Path Post](Path_Post.md), [Path Postprocessor Customization](Path_Postprocessor_Customization.md)

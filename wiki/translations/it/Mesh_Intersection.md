@@ -3,7 +3,7 @@
 - GuiCommand:
    Name:Mesh_Intersection
    Name/it:Intersezione‏‎‏‎
-   MenuLocation:Mesh → Operazione booleana → Intersezione
+   MenuLocation:Mesh - Operazione booleana - Intersezione
    Workbenches:[Mesh](Mesh_Workbench/it.md)---
 
 ## Descrizione

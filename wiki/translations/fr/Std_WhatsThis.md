@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std WhatsThis
    Name/fr:Std Qu'est-ce que c'est ?
-   MenuLocation:Aide → Qu'est-ce que c'est ‏‎?
+   MenuLocation:Aide - Qu'est-ce que c'est ‏‎?
    Workbenches:Tous
    Shortcut:**Maj** + **F1**
    SeeAlso:[Std Aide](Std_OnlineHelp/fr.md)

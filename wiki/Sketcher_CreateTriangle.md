@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher CreateTriangle
-   MenuLocation:Sketch → Sketcher geometries → Create equilateral triangle
+   MenuLocation:Sketch - Sketcher geometries - Create equilateral triangle
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**G** **P** **3**
    Version:0.15

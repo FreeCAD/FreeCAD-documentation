@@ -3,7 +3,7 @@
    Name:Sketcher ToggleActiveConstraint
    Name/fr:Sketcher Activation des contraintes
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   MenuLocation:Esquisse → Contraintes d'esquisse → Activer/désactiver la contrainte
+   MenuLocation:Esquisse - Contraintes d'esquisse - Activer/désactiver la contrainte
    Shortcut:**K** **Z**
    Version:0.19
    SeeAlso:[Sketcher Géométrie de construction](Sketcher_ToggleConstruction/fr.md)

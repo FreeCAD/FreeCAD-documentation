@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher ConstrainRadius
    Name/ru:Sketcher ConstrainRadius
-   MenuLocation:Sketch → Ограничения эскиза → Ограничения радиуса
+   MenuLocation:Sketch - Ограничения эскиза - Ограничения радиуса
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    SeeAlso:[Sketcher Constrain distance](Sketcher_ConstrainDistance/ru.md), [Sketcher Constrain horizontal distance](Sketcher_ConstrainDistanceX/ru.md), [Sketcher Constrain vertical distance](Sketcher_ConstrainDistanceY/ru.md)
 ---

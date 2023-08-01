@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Measure Toggle All
    Name/fr:Part Tout basculer
-   MenuLocation:Mesure → Tout basculer
+   MenuLocation:Mesure - Tout basculer
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Part Basculer 3D](Part_Measure_Toggle_3D/fr.md), [Part Basculer Delta](Part_Measure_Toggle_Delta/fr.md)
 ---

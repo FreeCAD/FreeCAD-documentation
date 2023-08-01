@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Part_Measure_Toggle_3D
    Name:Part_Measure_Toggle_3D
-   MenuLocation:Измерить → Toggle 3D
+   MenuLocation:Измерить - Toggle 3D
    Workbenches:[Part](Part_Workbench/ru.md)
    SeeAlso:[Переключить Дельту](Part_Measure_Toggle_Delta/ru.md)
 ---

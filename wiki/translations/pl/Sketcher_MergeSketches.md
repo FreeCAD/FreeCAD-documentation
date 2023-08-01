@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher MergeSketches
    Name/pl:Szkicownik: Połącz szkice
-   MenuLocation:Szkic → Połącz szkice
+   MenuLocation:Szkic - Połącz szkice
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Version:0.15
 ---

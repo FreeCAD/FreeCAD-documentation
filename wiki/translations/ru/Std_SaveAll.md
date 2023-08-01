@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std SaveAll
    Name/ru:Std SaveAll
-   MenuLocation:Файл → Save All
+   MenuLocation:Файл - Save All
    Workbenches:All
    SeeAlso:[Std Save](Std_Save/ru.md)
 ---

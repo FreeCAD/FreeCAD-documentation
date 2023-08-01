@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Slice
    Name/ru:Part Slice
-   MenuLocation:Деталь → Split → Slice
+   MenuLocation:Деталь - Split - Slice
    Workbenches:[Part](Part_Workbench/ru.md)
    Version:0.17
    SeeAlso:[Part Boolean Fragments](Part_BooleanFragments/ru.md), [Part XOR](Part_XOR/ru.md), [Part Join features](Part_CompJoinFeatures/ru.md), [Part Boolean](Part_Boolean/ru.md)

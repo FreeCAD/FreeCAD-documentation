@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Schedule
    Name/de:Arch Ablaufplan
-   MenuLocation:Arch → Ablaufplan
+   MenuLocation:Arch - Ablaufplan
    Workbenches:[Arch](Arch_Workbench/de.md)
    SeeAlso:[Arch Ausstattung](Arch_Equipment/de.md)
 ---

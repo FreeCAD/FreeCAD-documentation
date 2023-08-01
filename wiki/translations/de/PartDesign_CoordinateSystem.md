@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign CoordinateSystem
    Name/de:PartDesign Koordinatensystem
-   MenuLocation:Part Design → Lokales Koordinatensystem erstellen
+   MenuLocation:Part Design - Lokales Koordinatensystem erstellen
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.18
    SeeAlso:[PartDesign Bezugspunkt](PartDesign_Point/de.md), [PartDesign Bezugslinie](PartDesign_Line/de.md), [PartDesign Bezugsebene](PartDesign_Plane/de.md)

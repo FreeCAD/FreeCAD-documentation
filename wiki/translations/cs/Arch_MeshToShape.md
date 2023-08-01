@@ -1,6 +1,6 @@
 # Arch MeshToShape/cs
 ---
-- GuiCommand:   Name:Arch MeshToShape   Name/cs:Arch MeshToShape   Workbenches:[MenuLocation:Arch → Utilities → Mesh to Shape   SeeAlso:[[Arch RemoveShape/cs|Arch RemoveShape](Arch_Workbench/cs___Arch]].md)---
+- GuiCommand:   Name:Arch MeshToShape   Name/cs:Arch MeshToShape   Workbenches:[MenuLocation:Arch - Utilities - Mesh to Shape   SeeAlso:[[Arch RemoveShape/cs|Arch RemoveShape](Arch_Workbench/cs___Arch]].md)---
 
 
 </div>

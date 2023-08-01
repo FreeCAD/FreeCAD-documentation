@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch_Rebar_BOM
    Name/it:Distinta dei ferri
-   MenuLocation:Reinforcement → Distinta dei ferri
+   MenuLocation:Reinforcement - Distinta dei ferri
    Workbenches:[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
    SeeAlso:[Bar Bending Schedule](Reinforcement_Bar_Bending_Schedule/it.md), [Quotare l'armatura](Arch_Rebar_Drawing_Dimensioning/it#Quotare_l'armatura.md)
    Version:0.19

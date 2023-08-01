@@ -4,7 +4,7 @@
    Name/it:Crea un arco di parabola
    Icon:Sketcher Parabolic Arc.png
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch → Geometrie → Arco di parabola
+   MenuLocation:Sketch - Geometrie - Arco di parabola
    Version:0.17
    SeeAlso:[Arco di ellisse](Sketcher_CreateArcOfEllipse/it.md), [Arco di iperbole](Sketcher_CreateArcOfHyperbola/it.md)
 ---

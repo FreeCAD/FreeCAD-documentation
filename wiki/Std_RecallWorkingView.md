@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std RecallWorkingView
-   MenuLocation:View → Standard views → Recall working view
+   MenuLocation:View - Standard views - Recall working view
    Workbenches:All
    Shortcut:**End**
    Version:0.21

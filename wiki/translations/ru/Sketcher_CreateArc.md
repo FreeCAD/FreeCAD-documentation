@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher_CreateArc
    Name/ru:Дуга
-   MenuLocation:Эскиз → Геометрия эскиза → Дуга
+   MenuLocation:Эскиз - Геометрия эскиза - Дуга
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**G** **A**
    SeeAlso:[Создать окружность](Sketcher_CompCreateCircle/ru.md)

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Path SelectLoop
-   MenuLocation:Path → Finish Selecting Loop
+   MenuLocation:Path - Finish Selecting Loop
    Workbenches:[Path](Path_Workbench.md)
    Shortcut:**P** **L**
    SeeAlso:

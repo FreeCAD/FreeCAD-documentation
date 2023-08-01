@@ -4,7 +4,7 @@
    Name/ro:Vertical constraint
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
    Shortcut:V
-   MenuLocation:Sketch → Sketcher constraints → Constrain vertically
+   MenuLocation:Sketch - Sketcher constraints - Constrain vertically
    SeeAlso:[Constraint Horizontal](Sketcher_ConstrainHorizontal/ro.md)
 ---
 

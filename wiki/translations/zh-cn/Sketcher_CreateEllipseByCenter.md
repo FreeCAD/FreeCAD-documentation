@@ -1,7 +1,7 @@
 ---
 - GuiCommand:-cn
    Name:通过中心创建椭圆
-   MenuLocation:Sketch → 草图几何体 → 通过中心创建椭圆
+   MenuLocation:Sketch - 草图几何体 - 通过中心创建椭圆
    Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md)
    Shortcut:**G** **E** **E**
    Version:0.15

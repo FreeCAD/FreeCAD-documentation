@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM Analysis
    Name/de:FEM Analyse
-   MenuLocation:Modell → Analyse-Container‏‎
+   MenuLocation:Modell - Analyse-Container‏‎
    Workbenches:[FEM](FEM_Workbench/de.md)
    Shortcut:**S** **A**
    SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Plot Legend
    Name/fr:Plot Légende
-   MenuLocation:Plot → Afficher/Masquer la légende
+   MenuLocation:Plot - Afficher/Masquer la légende
    Workbenches:[Plot](Plot_Workbench/fr.md)
 ---
 

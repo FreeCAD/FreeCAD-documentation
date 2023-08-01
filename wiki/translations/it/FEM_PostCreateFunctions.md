@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM CompPostCreateFunctions
    Name/it:Fem CompPostCreateFunctions
-   MenuLocation: Risultati → Filter Functions
+   MenuLocation: Risultati - Filter Functions
    Workbenches:[FEM](FEM_Workbench/it.md)
    Shortcut:
    SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)

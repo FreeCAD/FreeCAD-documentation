@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std UserEditMode
    Name/de:Std BenutzerBearbeitungsmodus
-   MenuLocation:Bearbeiten → Bearbeitungsmodus → ...
+   MenuLocation:Bearbeiten - Bearbeitungsmodus - ...
    Workbenches:Alle
    Version:0.20
    SeeAlso:[Std Berbeiten](Std_Edit/de.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw 2PointCosmeticLine
    Name/de:TechDraw 2PunkteHilfslinie
-   MenuLocation:TechDraw → Linien hinzufügen →Hilfslinie durch 2 Punkte hinzufügen
+   MenuLocation:TechDraw - Linien hinzufügen -Hilfslinie durch 2 Punkte hinzufügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Version:0.19
    SeeAlso:[TechDraw FlächenMittellinie](TechDraw_FaceCenterLine/de.md), [TechDraw 2LinienMittellinie](TechDraw_2LineCenterLine/de.md)

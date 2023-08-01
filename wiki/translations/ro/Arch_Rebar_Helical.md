@@ -2,7 +2,7 @@
 - GuiCommand:Addon/ro
    Name:Arch Rebar Helical
    Name/ro:Arch Rebar Helical
-   MenuLocation:Arch → Rebar tools
+   MenuLocation:Arch - Rebar tools
    Workbenches:[Arch](Arch_Workbench/ro.md)
    Shortcut:None
    SeeAlso:[Arch Rebar](Arch_Rebar/ro.md)

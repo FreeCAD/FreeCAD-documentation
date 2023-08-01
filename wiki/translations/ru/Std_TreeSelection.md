@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std TreeSelection
    Name/ru:Std TreeSelection
-   MenuLocation:Вид → Дерево документа → Go to selection
+   MenuLocation:Вид - Дерево документа - Go to selection
    Workbenches:All
    Shortcut:**T** **G**
 ---

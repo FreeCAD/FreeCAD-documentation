@@ -3,7 +3,7 @@
    Name:Draft Layer
    Name/it:Strato
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   MenuLocation:Draft → Utilità → Strato
+   MenuLocation:Draft - Utilità - Strato
    Version:0.19
    See also:[Draft AutoGruppo](Draft_AutoGroup/it.md)
 ---

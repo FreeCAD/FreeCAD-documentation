@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CreateArcOfEllipse
    Name/de:Sketcher EllipsenbogenErstellen
-   MenuLocation:Sketch → Skizzengeometrien → Ellipsenbogen erstellen
+   MenuLocation:Sketch - Skizzengeometrien - Ellipsenbogen erstellen
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Shortcut:**G** **E** **A**
    Version:0.15

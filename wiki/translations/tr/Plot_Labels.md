@@ -2,7 +2,7 @@
 ---
 - GuiCommand:
    Name/tr:Etiket
-   MenuLocation:Arsa → Etiket
+   MenuLocation:Arsa - Etiket
 ‏‎   |Workbenches:[Arsa](Plot_Workbench/tr.md)
    Shortcut:
    SeeAlso:---

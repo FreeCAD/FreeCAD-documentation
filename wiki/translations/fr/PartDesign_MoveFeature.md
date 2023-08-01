@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign MoveFeature
    Name/fr:PartDesign Déplacer vers un autre corps
-   MenuLocation:Menu contextuel → Déplacer vers un autre corps
+   MenuLocation:Menu contextuel - Déplacer vers un autre corps
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    Version:0.17
    SeeAlso:[PartDesign Fonction résultante](PartDesign_MoveTip/fr.md), [PartDesign Déplacer après un autre objet](PartDesign_MoveFeatureInTree/fr.md)

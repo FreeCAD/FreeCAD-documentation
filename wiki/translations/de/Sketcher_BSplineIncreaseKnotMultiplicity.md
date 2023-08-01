@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher BSplineIncreaseKnotMultiplicity
    Name/de:Sketcher BSplineKnotenVielfachheitErhöhen
-   MenuLocation:Sketch → B-Spline-Werkzeuge → Vielfachheit eines Spline-Knotens erhöhen
+   MenuLocation:Sketch - B-Spline-Werkzeuge - Vielfachheit eines Spline-Knotens erhöhen
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Version:0.17
    SeeAlso:[BSplineKnotenVielfachheit](Sketcher_BSplineKnotMultiplicity/de.md), [BSplineKnotenVielfachheitVerringern](Sketcher_BSplineDecreaseKnotMultiplicity/de.md)

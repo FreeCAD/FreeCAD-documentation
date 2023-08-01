@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM ConstraintHeatflux
    Name/de:FEM ConstraintHeatflux
-   MenuLocation:Modell → Thermische Randbedingungen → Randbedingung Wärmestrom
+   MenuLocation:Modell - Thermische Randbedingungen - Randbedingung Wärmestrom
    Workbenches:[FEM](FEM_Workbench/de.md)
    SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
 ---

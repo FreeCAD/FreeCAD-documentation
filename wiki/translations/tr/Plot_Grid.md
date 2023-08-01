@@ -2,7 +2,7 @@
 ---
 - GuiCommand:
    Name/tr:Izgara
-   MenuLocation:Arsa → Izgara
+   MenuLocation:Arsa - Izgara
 ‏‎   |Workbenches:[Arsa](Plot_Workbench/tr.md)
    Shortcut:
    SeeAlso:---

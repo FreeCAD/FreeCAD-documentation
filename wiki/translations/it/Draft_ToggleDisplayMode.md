@@ -3,7 +3,7 @@
    Name:Draft ToggleDisplayMode
    Name/it:Aspetto
    Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation:Draft → Utilità → Cambia la visualizzazione
+   MenuLocation:Draft - Utilità - Cambia la visualizzazione
    Shortcut:**Maiusc** + **Spazio**
    SeeAlso:[Gestire la visibilità](Std_ToggleVisibility/it.md)
 ---

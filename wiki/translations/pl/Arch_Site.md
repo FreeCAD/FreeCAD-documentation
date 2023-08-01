@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Site
    Workbenches:[Arch](Arch_Workbench.md)
-   MenuLocation:Arch → Site
+   MenuLocation:Arch - Site
    Shortcut:**S** **I**
    SeeAlso:[Arch Floor](Arch_Floor.md), [Arch Building](Arch_Building.md)
 ---

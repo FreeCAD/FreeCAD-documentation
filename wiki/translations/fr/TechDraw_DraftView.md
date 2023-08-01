@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw DraftView
    Name/fr:TechDraw Vue d'un objet Draft
-   MenuLocation:TechDraw → Insérer un objet de l'atelier Draft
+   MenuLocation:TechDraw - Insérer un objet de l'atelier Draft
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md), [Draft](Draft_Workbench/fr.md)
    Version:0.19
    SeeAlso:[TechDraw Vue d'un objet Arch](TechDraw_ArchView/fr.md)

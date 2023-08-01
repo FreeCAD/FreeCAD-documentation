@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh HarmonizeNormals
    Name/de:Mesh Normalen ausrichten
-   MenuLocation:Netze → Normalen ausrichten
+   MenuLocation:Netze - Normalen ausrichten
    Workbenches:[Mesh](Mesh_Workbench/de.md)
    SeeAlso:[Mesh Normalen umkehren](Mesh_FlipNormals/de.md)
 ---

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft Arc
-   MenuLocation:Drafting → Arc tools → Arc
+   MenuLocation:Drafting - Arc tools - Arc
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    Shortcut:**A** **R**
    Version:0.7

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionIncreaseDecimal
    Name/fr:TechDraw Plus de décimales
-   MenuLocation:TechDraw → Extensions : cotes → Plus de décimales
+   MenuLocation:TechDraw - Extensions : cotes - Plus de décimales
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut:
    Version:0.20

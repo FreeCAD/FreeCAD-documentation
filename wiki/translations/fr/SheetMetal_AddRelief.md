@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:SheetMetal AddRelief
    Name/fr:SheetMetal Grugeage carré
-   MenuLocation:SheetMetal → Make Relief
+   MenuLocation:SheetMetal - Make Relief
    Workbenches:[SheetMetal](SheetMetal_Workbench/fr.md)
    Shortcut:**S** **R**
    SeeAlso:[SheetMetal Découpe d'angle](SheetMetal_AddJunction/fr.md), [SheetMetal Transformation en pli](SheetMetal_AddBend/fr.md)

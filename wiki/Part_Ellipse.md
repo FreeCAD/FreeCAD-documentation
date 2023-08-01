@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Part Ellipse
-   MenuLocation:Part → [Create primitives](Part_Primitives.md) → Ellipse
+   MenuLocation:Part - [Create primitives](Part_Primitives.md) - Ellipse
    Workbenches:[Part](Part_Workbench.md), [OpenSCAD](OpenSCAD_Workbench.md)
    SeeAlso:[Part Primitives](Part_Primitives.md)
 ---

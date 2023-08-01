@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Compound‏‎
    Name/ru:Part Compound‏‎
-   MenuLocation:Деталь → Соединить → Создать соединение
+   MenuLocation:Деталь - Соединить - Создать соединение
    Workbenches:[Part](Part_Workbench/ru.md)
    Version:0.14
    SeeAlso:[Part Fuse](Part_Fuse/ru.md), [Part CompoundFilter](Part_CompoundFilter/ru.md), [Part ExplodeCompound](Part_ExplodeCompound/ru.md)

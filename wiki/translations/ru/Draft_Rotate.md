@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Повернуть
    Name:Draft_Rotate
-   MenuLocation:Модификация → Повернуть
+   MenuLocation:Модификация - Повернуть
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:**R** **O**
    Version:0.7

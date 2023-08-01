@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw HorizontalExtentDimension
    Name/pl:Rysunek Techniczny: Wstaw wymiar rozpiętości poziomej
-   MenuLocation:Rysunek Techniczny → Wymiary → Wstaw wymiar rozpiętości poziomej
+   MenuLocation:Rysunek Techniczny - Wymiary - Wstaw wymiar rozpiętości poziomej
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Version:0.19
    SeeAlso:[Wstaw wymiar długości](TechDraw_LengthDimension/pl.md), [Wstaw wymiar rozpiętości pionowej](TechDraw_VerticalExtentDimension/pl.md)

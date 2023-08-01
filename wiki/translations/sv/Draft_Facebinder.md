@@ -1,6 +1,6 @@
 # Draft Facebinder/sv
 ---
-- GuiCommand:   Name:Draft Facebinder   Name/sv:Draft Facebinder   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft → Facebinder   Shortcut:F F---
+- GuiCommand:   Name:Draft Facebinder   Name/sv:Draft Facebinder   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft - Facebinder   Shortcut:F F---
 
 
 </div>

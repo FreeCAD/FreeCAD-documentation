@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionCascadeVertDimension
    Name/de:TechDraw ErgänzungVertikaleMaßeAnordnen
-   MenuLocation:TechDraw → Ergänzungen: Merkmale/Änderungen → Vertikale Maße anordnen
+   MenuLocation:TechDraw - Ergänzungen: Merkmale/Änderungen - Vertikale Maße anordnen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20

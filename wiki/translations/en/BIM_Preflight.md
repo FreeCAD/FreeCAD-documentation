@@ -3,7 +3,7 @@
    Name:BIM Preflight
    Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
    Addon:BIM
-   MenuLocation:Manage → Preflight check
+   MenuLocation:Manage - Preflight check
 ---
 
 # BIM Preflight/en

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Nest
    Name/fr:Arch Calepinage
-   MenuLocation:Arch → Outils pour les panneaux → Calepinage
+   MenuLocation:Arch - Outils pour les panneaux - Calepinage
    Workbenches:[Atelier Arch](Arch_Workbench/fr.md)
    SeeAlso:[Arch Panneau](Arch_Panel/fr.md), [Arch Feuille de panneaux](Arch_Panel_Sheet/fr.md)
 ---

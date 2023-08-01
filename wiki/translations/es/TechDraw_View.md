@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw View
    Name/es:TechDraw Vista
-   MenuLocation:TechDraw → Insertar Vista
+   MenuLocation:TechDraw - Insertar Vista
    Workbenches:[TechDraw](TechDraw_Workbench/es.md)
    SeeAlso:[TechDraw Insertar Grupo de Proyección](TechDraw_ProjectionGroup/es.md), [TechDraw Insertar vista de sección](TechDraw_SectionView/es.md)
 ---

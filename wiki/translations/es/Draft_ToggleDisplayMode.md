@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft_ToggleDisplayMode
    Name/es:Draft_ToggleDisplayMode
-   MenuLocation:Croquis → Opciones de visualización → Alternar modo de visualización
+   MenuLocation:Croquis - Opciones de visualización - Alternar modo de visualización
    Workbenches:[Croquis](Draft_Workbench/es.md),[Arquitectura](Arch_Workbench/es.md)
    Shortcut:**Shift**+**Space**
 ---

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Raytracing ResetCamera
-   MenuLocation:Raytracing → ResetCamera
+   MenuLocation:Raytracing - ResetCamera
    Workbenches:[Raytracing](Raytracing_Workbench.md)
    Shortcut:
    SeeAlso:

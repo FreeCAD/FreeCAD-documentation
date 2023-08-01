@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Part Wedge
-   MenuLocation:Part → Create primitives → Wedge
+   MenuLocation:Part - Create primitives - Wedge
    Workbenches:[Part](Part_Workbench.md)
    SeeAlso:[Part Primitives](Part_Primitives.md)
 ---

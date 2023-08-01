@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw Quadrants
    Name/de:TechDraw Quadranten
-   MenuLocation:TechDraw → Knoten hinzufügen → Quadranten Knoten hinzufügen
+   MenuLocation:TechDraw - Knoten hinzufügen - Quadranten Knoten hinzufügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Version:0.19
    SeeAlso:[TechDraw Kosmetikknoten](TechDraw_CosmeticVertex/de.md), [TechDraw Mittenpunkt](TechDraw_Midpoints/de.md)

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft Clone
-   MenuLocation:Modification → Clone
+   MenuLocation:Modification - Clone
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    Shortcut:**C** **L**
    SeeAlso:[Draft Scale](Draft_Scale.md)

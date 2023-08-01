@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std CloseActiveWindow
    Name/pl:Std: Zamknij aktywne okno
-   MenuLocation:Plik → Zamknij
+   MenuLocation:Plik - Zamknij
    Workbenches:wszystkie
    Shortcut:**Ctrl**+**F4**
    SeeAlso:[Zamknij wszystkie okna](Std_CloseAllWindows/pl.md)

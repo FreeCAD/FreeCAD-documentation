@@ -1,12 +1,12 @@
 # Arch Rebar BentShape/ro
 ---
-- GuiCommand:Addon   Name:Arch Rebar BentShape   Workbenches:[Addon:Reinforcement   MenuLocation:Arch → Rebar tools   Shortcut:None   SeeAlso:[[Arch_Rebar_Stirrup|Stirrup](Arch_Workbench/ro___Arch]].md)---
+- GuiCommand:Addon   Name:Arch Rebar BentShape   Workbenches:[Addon:Reinforcement   MenuLocation:Arch - Rebar tools   Shortcut:None   SeeAlso:[[Arch_Rebar_Stirrup|Stirrup](Arch_Workbench/ro___Arch]].md)---
 
 
 </div>
 
 ---
-- GuiCommand:Addon   Name:Arch Rebar BentShape   Workbenches:[Addon:Reinforcement   MenuLocation:Arch → Rebar tools   Shortcut:None   SeeAlso:[[Arch_Rebar_Stirrup|Stirrup](Arch_Workbench/ro___Arch]].md)---
+- GuiCommand:Addon   Name:Arch Rebar BentShape   Workbenches:[Addon:Reinforcement   MenuLocation:Arch - Rebar tools   Shortcut:None   SeeAlso:[[Arch_Rebar_Stirrup|Stirrup](Arch_Workbench/ro___Arch]].md)---
 
 
 

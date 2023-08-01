@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std SelBoundingBox
-   MenuLocation:View → Bounding box
+   MenuLocation:View - Bounding box
    Workbenches:All
    Version:0.19
    SeeAlso:[Std DrawStyle](Std_DrawStyle.md)

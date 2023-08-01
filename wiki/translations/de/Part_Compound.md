@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Compound‏‎
    Name/de:Part Verbund
-   MenuLocation:Formteil → Verbund → Erzeuge Verbund
+   MenuLocation:Formteil - Verbund - Erzeuge Verbund
    Workbenches:[Part](Part_Workbench/de.md)
    Version:0.14
    SeeAlso:[Part Verschmelzen](Part_Fuse/de.md), [Part VerbundFiltern](Part_CompoundFilter/de.md), [Part VerbundSprengen](Part_ExplodeCompound/de.md)

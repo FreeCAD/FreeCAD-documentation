@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CreatePoint
    Name/pl:Szkicownik: Utwórz punkt
-   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz punkt
+   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz punkt
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **Y**
 ---

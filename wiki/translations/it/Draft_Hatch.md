@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Hatch
    Name/it:Tratteggio
-   MenuLocation:Drafting → Tratteggio
+   MenuLocation:Drafting - Tratteggio
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**H** **A**
    Version:0.20

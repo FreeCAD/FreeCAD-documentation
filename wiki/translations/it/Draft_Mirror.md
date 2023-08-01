@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Mirror
    Name/it:Specchio
-   MenuLocation:Modifiche → Specchio
+   MenuLocation:Modifiche - Specchio
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    SeeAlso:[Clona](Draft_Clone/it.md)
 ---

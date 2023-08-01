@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw LeaderLine
    Name/it:Linea guida
-   MenuLocation:TechDraw → Aggiungi linee → Linea guida
+   MenuLocation:TechDraw - Aggiungi linee - Linea guida
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)
    Version:0.19
    SeeAlso:[Blocco di testo](TechDraw_RichTextAnnotation/it.md), [Simbolo di saldatura](TechDraw_WeldSymbol/it.md), [Gruppi di linee](TechDraw_LineGroup/it.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path Fixture
    Name/ru:Path Fixture
-   MenuLocation:Path → Supplemental Commands → Крепление
+   MenuLocation:Path - Supplemental Commands - Крепление
    Workbenches:[Path](Path_Workbench/ru.md)
    Shortcut:**P** **F**
    SeeAlso:

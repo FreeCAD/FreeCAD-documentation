@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path Inspect
    Name/fr:Path Inspecter des commandes
-   MenuLocation:Path → Inspecter les commandes
+   MenuLocation:Path - Inspecter les commandes
    Workbenches:[Path](Path_Workbench/fr.md)
    Shortcut:**P** **I**
 ---

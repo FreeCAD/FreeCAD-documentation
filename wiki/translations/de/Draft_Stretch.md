@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Stretch
    Name/de:Draft Strecken
-   MenuLocation:Änderung → Strecken
+   MenuLocation:Änderung - Strecken
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**S** **H**
    Version:0.17

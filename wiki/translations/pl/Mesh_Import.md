@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh Import
    Name/pl:Siatka: Import
-   MenuLocation:Siatki → Importuj siatkę ...
+   MenuLocation:Siatki - Importuj siatkę ...
    Workbenches:[Siatka](Mesh_Workbench/pl.md)
    SeeAlso:[Importuj](Std_Import/pl.md), [Otwórz](Std_Open/pl.md), [Import Eksport](Import_Export/pl.md)
 ---

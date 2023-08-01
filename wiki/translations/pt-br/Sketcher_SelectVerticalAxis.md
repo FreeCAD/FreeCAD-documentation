@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher SelectVerticalAxis
-   MenuLocation:Sketch → Sketcher tools → Select vertical axis
+   MenuLocation:Sketch - Sketcher tools - Select vertical axis
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**Z** **V**
    Version:0.15

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std RecentFiles
    Empty:1
-   MenuLocation:File → Recent files
+   MenuLocation:File - Recent files
    Workbenches:All
    SeeAlso:[Std Open](Std_Open.md), [Std Import](Std_Import.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Plot Save
    Name/fr:Plot Sauvegarde
-   MenuLocation:Plot → Save plot
+   MenuLocation:Plot - Save plot
    Workbenches:[Plot](Plot_Workbench/fr.md)
 ---
 

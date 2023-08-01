@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Surface Filling
-   MenuLocation:Surface → Filling
+   MenuLocation:Surface - Filling
    Workbenches:[Surface](Surface_Workbench.md)
    Version:0.17
 ---

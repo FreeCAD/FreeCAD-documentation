@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM EquationMagnetodynamic
    Name/fr:FEM Équation magnétodynamique
-   MenuLocation:Résolution → Équations électromagnétiques → Équation magnétodynamique
+   MenuLocation:Résolution - Équations électromagnétiques - Équation magnétodynamique
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Version:0.21
    SeeAlso:[FEM Équation magnétodynamique 2D](FEM_EquationMagnetodynamic2D/fr.md)

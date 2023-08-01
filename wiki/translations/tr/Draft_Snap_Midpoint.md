@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Midpoint
    Name/tr:Taslak Orta nokta
-   MenuLocation:Taslak → [Yakalama](Draft_Snap/tr.md) → Orta nokta
+   MenuLocation:Taslak - [Yakalama](Draft_Snap/tr.md) - Orta nokta
    Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
    Shortcut:''None''
    SeeAlso:[Yakalama](Draft_Snap/tr.md)

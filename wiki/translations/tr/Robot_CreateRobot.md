@@ -4,7 +4,7 @@
    Name:Robot CreateRobot
    Name/tr:Robot oluştur
    Workbenches:[Robot](Robot_Workbench/tr.md)
-   MenuLocation:Robot → Robot oluştur---
+   MenuLocation:Robot - Robot oluştur---
 
 
 </div>

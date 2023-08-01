@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft ToggleContinueMode
    Name/de:Draft FortsetzungsmodusUmschalten
-   MenuLocation:Werkzeuge → In den Fortsetzungsmodus umschalten
+   MenuLocation:Werkzeuge - In den Fortsetzungsmodus umschalten
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
 ---
 

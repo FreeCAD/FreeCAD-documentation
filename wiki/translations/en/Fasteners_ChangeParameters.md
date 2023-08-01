@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Fasteners ChangeParameters
-   MenuLocation:Fasteners → Change fastener parameters
+   MenuLocation:Fasteners - Change fastener parameters
    Workbenches:[Fasteners](Fasteners_Workbench.md)
    Shortcut:None
    SeeAlso:

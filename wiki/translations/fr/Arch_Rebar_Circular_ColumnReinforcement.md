@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Rebar ColumnReinforcement
    Name/fr:Arch : Rebar Armature circulaire
-   MenuLocation:Arch → Rebar tools
+   MenuLocation:Arch - Rebar tools
    Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
    Version:0.19
    SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature 2x6](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md)

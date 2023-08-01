@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Path Waterline
-   MenuLocation:Path → Waterline
+   MenuLocation:Path - Waterline
    Workbenches:[Path](Path_Workbench.md)
    Version:0.19
 ---

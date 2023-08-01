@@ -3,7 +3,7 @@
    Name:Drawing Open SVG
    Name/ru:Drawing Open SVG
    Workbenches:[Drawing](Drawing_Workbench/ru.md), Complete
-   MenuLocation:Чертёж → Открыть SVG...
+   MenuLocation:Чертёж - Открыть SVG...
    Shortcut:
    SeeAlso:[Экспортировать страницу](Drawing_Save/ru.md)
 ---

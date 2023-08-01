@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Part BooleanFragments
-   MenuLocation:Part → Split → Boolean Fragments
+   MenuLocation:Part - Split - Boolean Fragments
    Workbenches:[Part](Part_Workbench.md)
    Version:0.17
    SeeAlso:[Part Slice](Part_Slice.md), [Part XOR](Part_XOR.md), [Part Join features](Part_CompJoinFeatures.md), [Part Boolean](Part_Boolean.md)

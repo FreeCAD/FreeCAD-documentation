@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewRotateLeft
    Name/fr:Std Rotation à gauche
-   MenuLocation:Affichage → Vues standards‏‎ → Rotation à gauche
+   MenuLocation:Affichage - Vues standards‏‎ - Rotation à gauche
    Workbenches:Tous
    Shortcut: **Maj**+**Gauche**
    SeeAlso:[Std Rotation à droite](Std_ViewRotateRight/fr.md)

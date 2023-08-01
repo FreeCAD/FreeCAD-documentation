@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Extrude
    Name/de:Part Extrudieren
-   MenuLocation:Formteil → Extrudieren...
+   MenuLocation:Formteil - Extrudieren...
    Workbenches:[Part](Part_Workbench/de.md)
    SeeAlso:[Draft Trimex](Draft_Trimex/de.md), [PartDesign Pad](PartDesign_Pad/de.md)
 ---

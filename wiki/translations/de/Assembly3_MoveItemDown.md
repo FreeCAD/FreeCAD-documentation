@@ -3,7 +3,7 @@
    Name:Assembly3 MoveItemDown
    Name/de:Assembly3 ObjektAbwärtsBewegen
    Icon:Assembly_TreeItemDown.svg‎‎
-   MenuLocation:Assembly3 → Move item down
+   MenuLocation:Assembly3 - Move item down
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 

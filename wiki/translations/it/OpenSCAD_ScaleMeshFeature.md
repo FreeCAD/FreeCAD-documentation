@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:OpenSCAD_ScaleMesh
    Name/it:Scala la mesh
-   MenuLocation:OpenSCAD → Scala la mesh
+   MenuLocation:OpenSCAD - Scala la mesh
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/it.md)
    SeeAlso:
 ---

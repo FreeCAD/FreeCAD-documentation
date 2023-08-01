@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Offset
    Name/tr:Ofsetle
-   MenuLocation:Taslak → Ofsetle
+   MenuLocation:Taslak - Ofsetle
    Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
    Shortcut:**O** **S**
    SeeAlso:[Parça 2D ofset](Part_Offset2D/tr.md)

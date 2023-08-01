@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch Rebar Stirrup
-   MenuLocation:Arch → Rebar tools
+   MenuLocation:Arch - Rebar tools
    Workbenches:[Arch](Arch_Workbench/es.md), [BIM](BIM_Workbench/es.md)
    SeeAlso:[Helical Rebar](Arch_Rebar_Helical/es.md), [Rebar](Arch_Rebar/es.md)
    Version:0.17

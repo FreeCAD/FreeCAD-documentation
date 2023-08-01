@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft SelectGroup
    Name/ru:Draft SelectGroup
-   MenuLocation:Черчение → Утилиты → Выбрать группу
+   MenuLocation:Черчение - Утилиты - Выбрать группу
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:
    SeeAlso:[Добавить в группу](Draft_AddToGroup/ru.md), [Std CreateGroup](Std_Group/ru.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Robot Simulate
    Name/fr:Robot Simulation de trajectoire
-   MenuLocation:Robot → Simuler une trajectoire
+   MenuLocation:Robot - Simuler une trajectoire
    Workbenches:[Robot](Robot_Workbench/fr.md)
 ---
 

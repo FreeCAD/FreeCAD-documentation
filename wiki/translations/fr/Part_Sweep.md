@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Sweep
    Name/fr:Part Balayage
-   MenuLocation:Part → Balayage...
+   MenuLocation:Part - Balayage...
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Part Lissage](Part_Loft/fr.md)
 ---

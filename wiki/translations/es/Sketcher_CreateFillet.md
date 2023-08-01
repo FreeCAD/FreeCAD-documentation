@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CreateFillet
    Name/es:Sketcher CreateFillet
-   MenuLocation:Croquizador → Geometrías del Croquizador → Crear redondeo
+   MenuLocation:Croquizador - Geometrías del Croquizador - Crear redondeo
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)
    Shortcut:F
 ---

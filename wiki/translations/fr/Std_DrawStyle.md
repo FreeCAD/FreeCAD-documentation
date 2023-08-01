@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std DrawStyle
    Name/fr:Std Style de représentation
-   MenuLocation:Affichage → Style de représentation → ...
+   MenuLocation:Affichage - Style de représentation - ...
    Workbenches:Tous
    Shortcut:**V** **1** - **V** **7**
    SeeAlso:[Std Boîte englobante](Std_SelBoundingBox/fr.md)

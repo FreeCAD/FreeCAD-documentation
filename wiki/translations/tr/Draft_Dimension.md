@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Dimension
    Name/tr:Boyut
-   MenuLocation:Taslak → Boyut
+   MenuLocation:Taslak - Boyut
    Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
    Shortcut:**D** **I**
    Version:0.18

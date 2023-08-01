@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft ToggleConstructionMode
    Name/fr:Draft Basculer en mode construction
-   MenuLocation:Utilitaires → Basculer en mode construction
+   MenuLocation:Utilitaires - Basculer en mode construction
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:**C** **M**
    SeeAlso:[Draft Ajouter au groupe de construction](Draft_AddConstruction/fr.md), [Draft Groupe automatique](Draft_AutoGroup/fr.md)

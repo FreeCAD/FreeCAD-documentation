@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Rysunek Roboczy: Widok 2D kształtu
-   MenuLocation:Modyfikacja → Widok 2D kształtu
+   MenuLocation:Modyfikacja - Widok 2D kształtu
    Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
    SeeAlso:[Rysunek Techniczny: Rzut kształtu](TechDraw_ProjectShape/pl.md)
 ---

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std ViewTrimetric
-   MenuLocation:View → Standard views → Axonometric → Trimetric
+   MenuLocation:View - Standard views - Axonometric - Trimetric
    Workbenches:All
    SeeAlso:[Std ViewIsometric](Std_ViewIsometric.md), [Std ViewDimetric](Std_ViewDimetric.md)
 ---

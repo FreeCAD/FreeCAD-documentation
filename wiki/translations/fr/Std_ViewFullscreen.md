@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewFullscreen
    Name/fr:Std Plein écran
-   MenuLocation:Affichage → Fenêtre de document → Plein écran
+   MenuLocation:Affichage - Fenêtre de document - Plein écran
    Workbenches:Tous
    Shortcut:**F11**
    SeeAlso:[Std Fenêtre document plein écran](Std_ViewDockUndockFullscreen/fr.md), [Std Plein écran principal](Std_MainFullscreen/fr.md)

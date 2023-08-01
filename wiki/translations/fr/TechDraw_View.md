@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw View
    Name/fr:TechDraw Vue
-   MenuLocation:TechDraw → Vues de Techdraw → Insérer une vue
+   MenuLocation:TechDraw - Vues de Techdraw - Insérer une vue
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    SeeAlso:[TechDraw Projection de groupe](TechDraw_ProjectionGroup/fr.md), [TechDraw Vue de coupe](TechDraw_SectionView/fr.md)
 ---

@@ -1,6 +1,6 @@
 # Robot CreateRobot/it
 ---
-- GuiCommand:   Name:Robot CreateRobot   Name/it:Inserisci un robot   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot → Inserisci un robot---
+- GuiCommand:   Name:Robot CreateRobot   Name/it:Inserisci un robot   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot - Inserisci un robot---
 
 
 </div>

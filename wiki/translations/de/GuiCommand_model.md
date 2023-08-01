@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Base BeispielBefehlModell
    Icon: 
-   MenuLocation:Menü → Untermenü → Menütext des Befehls
+   MenuLocation:Menü - Untermenü - Menütext des Befehls
    Workbenches:[Name de Arbeitsbereichs](Workbench_Name.md)
    Shortcut:**F** **C**
    Version:0.19

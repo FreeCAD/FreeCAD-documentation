@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ExtensionCascadeHorizDimension
-   MenuLocation:TechDraw → Extensions: Attributes/Modifications → Cascade Horizontal Dimensions
+   MenuLocation:TechDraw - Extensions: Attributes/Modifications - Cascade Horizontal Dimensions
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20

@@ -3,7 +3,7 @@
    Name:Assembly3 QuickSolve
    Name/fr:Assembly3 Résolution rapide
    Icon:Assembly_QuickSolve.svg
-   MenuLocation:Assembly3 → Quick solve
+   MenuLocation:Assembly3 - Quick solve
    Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
    Shortcut:**A** puis **F**
 ---

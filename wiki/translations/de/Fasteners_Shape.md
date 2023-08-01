@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Fasteners Shape
    Name/de:Fasteners Formteil
-   MenuLocation:Fasteners → Simplify shape
+   MenuLocation:Fasteners - Simplify shape
    Workbenches:[Fasteners](Fasteners_Workbench.md)
 ---
 

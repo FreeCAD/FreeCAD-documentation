@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionHoleCircle
    Name/fr:TechDraw Axes de centrage de trous/vis
-   MenuLocation:TechDraw → Extensions : taraudages/filetages → Axes de centrage des trous/vis
+   MenuLocation:TechDraw - Extensions : taraudages/filetages - Axes de centrage des trous/vis
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut:
    Version:0.20

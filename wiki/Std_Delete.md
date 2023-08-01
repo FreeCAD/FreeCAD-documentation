@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std Delete
-   MenuLocation:Edit → Delete
+   MenuLocation:Edit - Delete
    Workbenches:All
    Shortcut:**Del**
 ---

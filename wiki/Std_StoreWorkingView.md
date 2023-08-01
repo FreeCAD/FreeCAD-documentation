@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std StoreWorkingView
-   MenuLocation:View → Standard views → Store working view
+   MenuLocation:View - Standard views - Store working view
    Workbenches:All
    Shortcut:**Shift**+**End**
    Version:0.21

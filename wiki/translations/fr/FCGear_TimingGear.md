@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FCGear TimingGear
    Name/fr:FCGear Engrenage de distribution
-   MenuLocation:Gear → Timing Gear
+   MenuLocation:Gear - Timing Gear
    Workbenches:[FCGear](FCGear_Workbench/fr.md)
    Shortcut:Aucun
    Version:v0.16

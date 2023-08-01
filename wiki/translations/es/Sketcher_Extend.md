@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher Extend
    Name/es:Croquizador Extender
-   MenuLocation:Croquis → Croquizador Geometrías → Extender borde
+   MenuLocation:Croquis - Croquizador Geometrías - Extender borde
 |Workbenches[Croquizador](Sketcher_Workbench/es.md)|
    Version:0.17
    SeeAlso:[Croquizador Recortar borde](Sketcher_Trimming/es.md)

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Path ExportTemplate
-   MenuLocation:Path → Export Template
+   MenuLocation:Path - Export Template
    Workbenches:[Path](Path_Workbench.md)
    SeeAlso:[Path SetupSheet](Path_SetupSheet.md)
 ---

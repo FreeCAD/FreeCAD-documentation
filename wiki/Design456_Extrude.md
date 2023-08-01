@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Design456 Extrude
-   MenuLocation:Design456_Tools → 3DTools → Extrude
+   MenuLocation:Design456_Tools - 3DTools - Extrude
    Workbenches:[Design456](Design456_Workbench.md)
    Shortcut:None
    SeeAlso:

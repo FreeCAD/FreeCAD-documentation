@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_MacroStartDebug
    Name/ru:Отладка макросов
-   MenuLocation:Макро → Отладка макросов
+   MenuLocation:Макро - Отладка макросов
    Workbenches:All
    Shortcut:**F6**
    SeeAlso:[Остановить отладку](Std_MacroStopDebug/ru.md)

@@ -3,7 +3,7 @@
    Name:Sketcher_External
    Name/it:Geometria esterna   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
    Shortcut:X
-   MenuLocation:Sketch → Geometrie → Geometria Esterna
+   MenuLocation:Sketch - Geometrie - Geometria Esterna
    SeeAlso:[Linea di costruzione](Sketcher_ToggleConstruction/it.md)
 ---
 

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft Dimension
-   MenuLocation:Annotation → Dimension
+   MenuLocation:Annotation - Dimension
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    Shortcut:**D** **I**
    Version:0.8

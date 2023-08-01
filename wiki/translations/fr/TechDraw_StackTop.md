@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw StackTop
    Name/fr:TechDraw Empiler en haut
-   MenuLocation:TechDraw → Empiler → Déplacer la vue vers le haut de la pile
+   MenuLocation:TechDraw - Empiler - Déplacer la vue vers le haut de la pile
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut:
    Version:0.21

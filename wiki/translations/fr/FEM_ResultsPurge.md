@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM ResultsPurge
    Name/fr:FEM Purger les résultats
-   MenuLocation:Résultats → Purger les résultats
+   MenuLocation:Résultats - Purger les résultats
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Shortcut:**R** **P**
    SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)

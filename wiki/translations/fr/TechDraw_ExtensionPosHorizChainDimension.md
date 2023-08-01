@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionPosHorizChainDimension
    Name/fr:TechDraw Aligner horizontalement
-   MenuLocation:TechDraw → Extensions : attributs/modifications → Aligner horizontalement
+   MenuLocation:TechDraw - Extensions : attributs/modifications - Aligner horizontalement
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut:
    Version:0.20

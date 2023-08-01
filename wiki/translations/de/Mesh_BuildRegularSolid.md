@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh BuildRegularSolid
    Name/de:Mesh RegelgeometrieErstellen
-   MenuLocation:Netze → Regelgeometrie...
+   MenuLocation:Netze - Regelgeometrie...
    Workbenches:[Mesh](Mesh_Workbench/de.md)
 ---
 

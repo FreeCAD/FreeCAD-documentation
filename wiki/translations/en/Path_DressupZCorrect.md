@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Path DressupZCorrect
-   MenuLocation:Path → Path Dressup → Z Depth Correction
+   MenuLocation:Path - Path Dressup - Z Depth Correction
    Workbenches:[Path](Path_Workbench.md)
 ---
 

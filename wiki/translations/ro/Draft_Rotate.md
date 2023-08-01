@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Rotate
    Name/ro:Draft Rotate
-   MenuLocation:Draft → Rotate
+   MenuLocation:Draft - Rotate
    Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
    Shortcut:**R** **O**
 ---

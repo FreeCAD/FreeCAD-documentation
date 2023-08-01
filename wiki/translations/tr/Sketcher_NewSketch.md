@@ -3,7 +3,7 @@
    Name:Sketcher NewSketch
    Name/tr:Eskiz Oluştur
    Workbenches:[Sketcher](Sketcher_Workbench/tr.md)
-   MenuLocation:Sketch → Eskiz oluştur
+   MenuLocation:Sketch - Eskiz oluştur
    SeeAlso:[Eskizi Yüzeye Eşle](Sketcher_MapSketch/tr.md), [Eskizi yeniden yönlendir...](Sketcher_ReorientSketch/tr.md)
 ---
 

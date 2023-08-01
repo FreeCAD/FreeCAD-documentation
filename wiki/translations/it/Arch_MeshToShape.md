@@ -3,7 +3,7 @@
    Name:Arch MeshToShape
    Name/it:Da Mesh a Forma
    Workbenches:[Architettura](Arch_Workbench/it.md)
-   MenuLocation:Arch → Utilità → Da Mesh a Forma
+   MenuLocation:Arch - Utilità - Da Mesh a Forma
    SeeAlso:[Dividi mesh](Arch_SplitMesh/it.md), [Rimuovi Forma](Arch_RemoveShape/it.md)
 ---
 

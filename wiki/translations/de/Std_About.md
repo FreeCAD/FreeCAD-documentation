@@ -3,7 +3,7 @@
    Name:Std About
    Name/de:Über FreeCAD
    Workbenches:Alle
-   MenuLocation:Hilfe → Über FreeCAD
+   MenuLocation:Hilfe - Über FreeCAD
    SeeAlso:[Standardmenü](Standard_Menu/de.md)
 ---
 

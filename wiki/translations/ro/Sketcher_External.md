@@ -4,7 +4,7 @@
    Name/ro:Sketcher External
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
    Shortcut:X
-   MenuLocation:Sketch → Sketcher geometries → Sketcher External
+   MenuLocation:Sketch - Sketcher geometries - Sketcher External
    SeeAlso:[ConstructionMode](Sketcher_ToggleConstruction/ro.md)
 ---
 

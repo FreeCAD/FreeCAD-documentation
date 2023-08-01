@@ -1,6 +1,6 @@
 # Part RefineShape/it
 ---
-- GuiCommand:   Name:Part_RefineShape   Name/it:Affina forma   MenuLocation:Parte → Crea una copia → Affina forma   Workbenches:[SeeAlso:[[Part_SimpleCopy/it|Copia semplice](Part_Workbench/it___Parte]].md), [Copia trasformata](Part_TransformedCopy/it.md), [Copia elemento](Part_ElementCopy/it.md), [Affina forma di OpenSCAD](OpenSCAD_RefineShapeFeature/it.md)---
+- GuiCommand:   Name:Part_RefineShape   Name/it:Affina forma   MenuLocation:Parte - Crea una copia - Affina forma   Workbenches:[SeeAlso:[[Part_SimpleCopy/it|Copia semplice](Part_Workbench/it___Parte]].md), [Copia trasformata](Part_TransformedCopy/it.md), [Copia elemento](Part_ElementCopy/it.md), [Affina forma di OpenSCAD](OpenSCAD_RefineShapeFeature/it.md)---
 
 
 </div>

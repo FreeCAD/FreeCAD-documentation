@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:FEM PostPipelineFromResult
-   MenuLocation:Results → Post pipeline from result
+   MenuLocation:Results - Post pipeline from result
    Workbenches:[FEM](FEM_Workbench.md)
    Version:0.17
    SeeAlso:[FEM Result object](FEM_ResultShow.md), [FEM tutorial](FEM_tutorial.md)

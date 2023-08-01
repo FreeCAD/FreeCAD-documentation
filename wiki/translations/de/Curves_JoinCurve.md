@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Curves JoinCurve
    Name/de:Curves KurveVerbinden
-   MenuLocation:Curves → Join Curves
+   MenuLocation:Curves - Join Curves
    Workbenches:[Curves](Curves_Workbench/de.md)
 ---
 

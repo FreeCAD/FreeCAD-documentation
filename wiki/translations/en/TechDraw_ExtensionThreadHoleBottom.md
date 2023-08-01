@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ExtensionThreadHoleBottom
-   MenuLocation:TechDraw → Extensions: Centerlines/Threading → Add Cosmetic Thread Hole Bottom View
+   MenuLocation:TechDraw - Extensions: Centerlines/Threading - Add Cosmetic Thread Hole Bottom View
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20

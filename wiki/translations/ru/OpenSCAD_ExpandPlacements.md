@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:OpenSCAD ExpandPlacements
    Name/ru:OpenSCAD ExpandPlacements
-   MenuLocation:OpenSCAD → ExpandPlacements
+   MenuLocation:OpenSCAD - ExpandPlacements
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/ru.md)
    Shortcut:нет
    SeeAlso:---

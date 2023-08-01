@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part CompCompoundTools
    Name/ru:Part CompCompoundTools
-   MenuLocation:Деталь → Соединить
+   MenuLocation:Деталь - Соединить
    Workbenches:[Part](Part_Workbench/ru.md)
    SeeAlso:
 ---

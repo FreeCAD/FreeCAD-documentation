@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:PartDesign LinearPattern
-   MenuLocation:Part Design → Apply a pattern → LinearPattern
+   MenuLocation:Part Design - Apply a pattern - LinearPattern
    Workbenches:[PartDesign](PartDesign_Workbench.md)
    SeeAlso:[PartDesign MultiTransform](PartDesign_MultiTransform.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Применить геометрическую штриховку к грани
    Name:TechDraw_GeometricHatch
-   MenuLocation:TechDraw → Применить геометрическую штриховку к грани
+   MenuLocation:TechDraw - Применить геометрическую штриховку к грани
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    SeeAlso:[Штриховать грань, используя файл изображения](TechDraw_Hatch/ru.md), [Штриховка](TechDraw_Hatching/ru.md)
 ---

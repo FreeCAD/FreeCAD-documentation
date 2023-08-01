@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std OnlineHelp
    Name/de:Std OnlineHilfe
-   MenuLocation:Hilfe → Hilfe
+   MenuLocation:Hilfe - Hilfe
    Workbenches:Alle
    Shortcut:**F1**
    SeeAlso:[Std Direkthilfe](Std_WhatsThis/de.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Fasteners MatchTypeOuter
    Name/fr:Fasteners MatchTypeOuter
-   MenuLocation:Fasteners → Match for pass hole
+   MenuLocation:Fasteners - Match for pass hole
    Workbenches:[Fasteners](Fasteners_Workbench/fr.md)
    SeeAlso:[Fasteners MatchTypeInner](Fasteners_MatchTypeInner/fr.md)
 ---

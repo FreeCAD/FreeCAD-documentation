@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionCreateVertCoordDimension
    Name/pl:Rysunek Techniczny: Rozszerzenie Seria wymiarów kaskadowych pionowo
-   MenuLocation:Rysunek Techniczny → Rozszerzenia: Wymiary → Seria wymiarów kaskadowych pionowo
+   MenuLocation:Rysunek Techniczny - Rozszerzenia: Wymiary - Seria wymiarów kaskadowych pionowo
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20

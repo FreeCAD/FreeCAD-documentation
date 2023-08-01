@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Ship Load‏‎
    Name/de:Schiffslast
-   MenuLocation:Schiffkonstruktion → Laden einer Beispielschiffsgeometrie
+   MenuLocation:Schiffkonstruktion - Laden einer Beispielschiffsgeometrie
    Workbenches:[Schiff](Ship_Workbench/de.md)
    Shortcut:
    SeeAlso:

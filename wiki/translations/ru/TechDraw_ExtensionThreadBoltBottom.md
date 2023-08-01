@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Обозначить наружную резьбу стержня с сечением вдоль оси
    Name:TechDraw_ExtensionThreadBoltBottom
-   MenuLocation:TechDraw → Extensions: centerlines and threading → Cosmetic thread bolt bottom view
+   MenuLocation:TechDraw - Extensions: centerlines and threading - Cosmetic thread bolt bottom view
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    Shortcut:
    Version:0.20

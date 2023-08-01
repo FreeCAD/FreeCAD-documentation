@@ -3,7 +3,7 @@
    Name:Sketcher_BSplineIncreaseDegree
    Name/it:Aumenta di grado
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch → Strumenti B-spline → Aumenta di grado
+   MenuLocation:Sketch - Strumenti B-spline - Aumenta di grado
    Version:0.17
    SeeAlso:[Crea B-spline](Sketcher_CompCreateBSpline/it.md)
 ---

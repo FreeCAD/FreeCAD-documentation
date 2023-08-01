@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionSelectLineAttributes
    Name/fr:TechDraw Sélection des attributs
-   MenuLocation:TechDraw → Extensions : attributs/modifications → Sélectionnez les attributs de ligne, l'espacement de cascade et la distance delta
+   MenuLocation:TechDraw - Extensions : attributs/modifications - Sélectionnez les attributs de ligne, l'espacement de cascade et la distance delta
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut:
    Version:0.20

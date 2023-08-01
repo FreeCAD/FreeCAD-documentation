@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Part MakeSolid
-   MenuLocation:Part → Convert to solid
+   MenuLocation:Part - Convert to solid
    Workbenches:[Part](Part_Workbench.md)
 ---
 

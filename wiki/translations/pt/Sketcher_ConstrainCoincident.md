@@ -3,7 +3,7 @@
    Icon:Constraint PointOnPoint.svg
    Name/pt:Sketcher ConstrainCoincident
    Workbenches:[Sketcher](Sketcher_Workbench/pt.md)
-   MenuLocation:Sketch → Sketcher constraints → Constrain coincident
+   MenuLocation:Sketch - Sketcher constraints - Constrain coincident
    SeeAlso:[Constrain Lock](Sketcher_ConstrainLock/pt.md), [Constrain Point onto Object](Sketcher_ConstrainPointOnObject/pt.md)
 ---
 

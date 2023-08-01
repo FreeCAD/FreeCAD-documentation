@@ -1,6 +1,6 @@
 # Plot Save/es
 ---
-- GuiCommand:   Name:Plot Save   Workbenches:[[Plot_Workbench/es   Plot]]|MenuLocation:Plot → Guardar gráfico---
+- GuiCommand:   Name:Plot Save   Workbenches:[[Plot_Workbench/es   Plot]]|MenuLocation:Plot - Guardar gráfico---
 
 
 </div>

@@ -1,6 +1,6 @@
 # Draft FlipDimension/ro
 ---
-- GuiCommand:   Name:Draft FlipDimension   Name/ro:Draft FlipDimension   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft → Utilities → Flip Dimension   SeeAlso:[Dimension](Draft_Dimension.md)---
+- GuiCommand:   Name:Draft FlipDimension   Name/ro:Draft FlipDimension   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft - Utilities - Flip Dimension   SeeAlso:[Dimension](Draft_Dimension.md)---
 
 
 </div>

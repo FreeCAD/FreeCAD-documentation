@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw CosmeticEraser
    Name/it:Rimuovi oggetto cosmetico
-   MenuLocation:TechDraw → Rimuovi oggetto cosmetico
+   MenuLocation:TechDraw - Rimuovi oggetto cosmetico
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)
    Version:0.19
 ---

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Mesh BuildRegularSolid
-   MenuLocation:Meshes → Regular solid...
+   MenuLocation:Meshes - Regular solid...
    Workbenches:[Mesh](Mesh_Workbench.md)
 ---
 

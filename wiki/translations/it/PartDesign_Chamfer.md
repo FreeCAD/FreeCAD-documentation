@@ -3,7 +3,7 @@
 - GuiCommand:   Name:PartDesign Chamfer
    Name/it:Smusso
    Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:PartDesign → Smusso
+   MenuLocation:PartDesign - Smusso
    SeeAlso:[PartDesign Raccordo](PartDesign_Fillet/it.md),[Part Smusso](Part_Chamfer/it.md)---
 
 

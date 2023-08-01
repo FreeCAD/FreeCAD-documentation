@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM FemMesh2Mesh
    Name/de:FEM FemNetzZuNetz
-   MenuLocation:Mesh → FEM mesh to mesh
+   MenuLocation:Mesh - FEM mesh to mesh
    Workbenches:[FEM](FEM_Workbench/de.md)
    SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM ConstraintContact
    Name/it:Vincolo contatto
-   MenuLocation:Modello → Vincoli meccanici → Vincolo contatto
+   MenuLocation:Modello - Vincoli meccanici - Vincolo contatto
    Workbenches:[FEM](FEM_Workbench/it.md)
    Shortcut:
    SeeAlso:[Tutorial di FEM](FEM_tutorial/it.md)

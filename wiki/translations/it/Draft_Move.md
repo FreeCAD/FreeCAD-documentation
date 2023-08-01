@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft_Move
    Name/it:Sposta
-   MenuLocation:Modifiche → Sposta
+   MenuLocation:Modifiche - Sposta
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**M** **V**
    Version:0.7

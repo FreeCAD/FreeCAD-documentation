@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Создать окружность
    Name:Sketcher_CreateCircle
-   MenuLocation:Sketch → Геометрия эскиза → Создать окружность
+   MenuLocation:Sketch - Геометрия эскиза - Создать окружность
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**G** **C**
    SeeAlso:[Создать дугу от центра](Sketcher_CompCreateArc/ru.md)

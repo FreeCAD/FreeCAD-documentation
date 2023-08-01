@@ -1,6 +1,6 @@
 # OpenSCAD AddOpenSCADElement/it
 ---
-- GuiCommand:   Name:OpenSCAD_AddOpenSCADElement   Name/it:Aggiungi Elemento OpenSCAD   Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|MenuLocation:OpenSCAD  → Aggiungi Elemento OpenSCAD---
+- GuiCommand:   Name:OpenSCAD_AddOpenSCADElement   Name/it:Aggiungi Elemento OpenSCAD   Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|MenuLocation:OpenSCAD  - Aggiungi Elemento OpenSCAD---
 
 
 </div>

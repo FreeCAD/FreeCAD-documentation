@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw RedrawPage
    Name/de:TechDraw SeiteNeuZeichnen
-   MenuLocation:TechDraw → Page → Seite neu zeichnen
+   MenuLocation:TechDraw - Page - Seite neu zeichnen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Version:0.19
 ---

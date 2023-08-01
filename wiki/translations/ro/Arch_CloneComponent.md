@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch CloneComponent‏‎‏‎
    Name/ro:Arch: CloneComponent
-   MenuLocation:Arch → Utilities → Clone Component
+   MenuLocation:Arch - Utilities - Clone Component
    Workbenches:[Arch](Arch_Workbench/ro.md)
    SeeAlso:[Draft Clone](Draft_Clone.md), [Arch Component](Arch_Component.md)
    Icon:Arch_Component_Clone.svg

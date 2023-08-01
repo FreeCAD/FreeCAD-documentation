@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std Windows
-   MenuLocation:Windows → Windows...
+   MenuLocation:Windows - Windows...
    Workbenches:All
    SeeAlso:[Std ActivateNextWindow](Std_ActivateNextWindow.md), [Std ActivatePrevWindow](Std_ActivatePrevWindow.md)
 ---

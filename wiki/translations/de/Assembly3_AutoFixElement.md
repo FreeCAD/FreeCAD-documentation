@@ -3,7 +3,7 @@
    Name:Assembly3 AutoFixElement
    Name/de:Assembly3 ElementAutomatischFixieren
    Icon:Assembly_AutoFixElement.svg‎‎
-   MenuLocation:Assembly3 → Auto fix element
+   MenuLocation:Assembly3 - Auto fix element
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 

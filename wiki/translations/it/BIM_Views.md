@@ -4,7 +4,7 @@
    Name/it:Viste BIM
    Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/it.md)
    Addon:BIM
-   MenuLocation:Gestione → Viste
+   MenuLocation:Gestione - Viste
 ---
 
 # BIM Views/it

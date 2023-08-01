@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher Split
    Name/de:Sketcher Teilen
-   MenuLocation:Sketch → Skizzengeometrien → Kante teilen
+   MenuLocation:Sketch - Skizzengeometrien - Kante teilen
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Shortcut:**G** **Z**
    Version:0.20

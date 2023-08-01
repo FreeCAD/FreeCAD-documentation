@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher ValidateSketch
-   MenuLocation:Sketch → Validate sketch…
+   MenuLocation:Sketch - Validate sketch…
    Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
    SeeAlso:[Sketcher ConstrainCoincident](Sketcher_ConstrainCoincident.md), [Topological naming problem](Topological_naming_problem.md)
 ---

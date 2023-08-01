@@ -4,7 +4,7 @@
    Name/es:Cuerpo PartDesign
    Icon:PartDesign_Body_Create_New.svg
    Workbenches:[PartDesign](PartDesign_Workbench/es.md)
-   MenuLocation:Part Design → Crear cuerpo
+   MenuLocation:Part Design - Crear cuerpo
    Version:0.17
    SeeAlso:[Part](Std_Part/es.md)
 ---

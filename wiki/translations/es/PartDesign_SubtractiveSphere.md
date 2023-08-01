@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign SubtractiveSphere
    Name/es:PartDesign Esfera Sustractiva
-   MenuLocation:Part Design → Crear una primitiva sustractiva → Esfera sustractiva
+   MenuLocation:Part Design - Crear una primitiva sustractiva - Esfera sustractiva
    Workbenches:[PartDesign](PartDesign_Workbench/es.md)
    Version:0.17
    SeeAlso:[Crear una Primitiva sustractiva](PartDesign_CompPrimitiveSubtractive/es.md)

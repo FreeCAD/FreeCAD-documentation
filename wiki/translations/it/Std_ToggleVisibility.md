@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ToggleVisibility
    Name/it:Mostra/Nascondi
-   MenuLocation:Visualizza → Mostra/Nascondi
+   MenuLocation:Visualizza - Mostra/Nascondi
    Workbenches:Tutti
    Shortcut:**Spazio**
    SeeAlso:[Mostra la selezione](Std_ShowSelection/it.md), [Nascondi la selezione](Std_HideSelection/it.md), [Commuta tutti gli oggetti](Std_ToggleObjects/it.md), [Mostra tutti gli oggetti](Std_ShowObjects/it.md), [Nascondi tutti gli oggetti](Std_HideObjects/it.md)

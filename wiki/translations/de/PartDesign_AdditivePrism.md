@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign AdditivePrism
    Name/de:PartDesign PrismaHinzufügen
-   MenuLocation:Part Design → Grundkörper Hinzufügen → Prisma
+   MenuLocation:Part Design - Grundkörper Hinzufügen - Prisma
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
    SeeAlso:[PartDesign AuswahlGrundkörperHinzufügen](PartDesign_CompPrimitiveAdditive/de.md), [PartDesign PrismaAbziehen](PartDesign_SubtractivePrism/de.md)

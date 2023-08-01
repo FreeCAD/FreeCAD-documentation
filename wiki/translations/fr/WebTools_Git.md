@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:WebTools Git‏‎
    Name/fr:WebTools Git‏‎
-   MenuLocation:Web Tools → Git
+   MenuLocation:Web Tools - Git
    Workbenches:[WebTools](WebTools_Workbench/fr.md)
    Version:0.17
 ---

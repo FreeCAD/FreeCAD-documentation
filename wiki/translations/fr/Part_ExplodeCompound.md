@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part ExplodeCompound
    Name/fr:Part Éclater le composé
-   MenuLocation:Part → Composés → Éclater le composé
+   MenuLocation:Part - Composés - Éclater le composé
    Workbenches:[Part](Part_Workbench/fr.md)
    Version:0.18
    SeeAlso:[Part Composé](Part_Compound/fr.md), [Draft Désagréger](Draft_Downgrade/fr.md)

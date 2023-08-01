@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewLoadImage
    Name/de:Std AnsichtBildLaden
-   MenuLocation:Werkzeuge → Bild laden...
+   MenuLocation:Werkzeuge - Bild laden...
    Workbenches:Alle
    Version:0.21
 ---

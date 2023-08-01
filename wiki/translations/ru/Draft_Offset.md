@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Смещение
    Name:Draft_Offset
-   MenuLocation:Modification → Смещение
+   MenuLocation:Modification - Смещение
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:**O** **S**
    SeeAlso:[2D смещение...](Part_Offset2D/ru.md)

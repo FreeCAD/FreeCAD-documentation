@@ -3,7 +3,7 @@
    Name:TechDraw_2PointCosmeticLine
    Name/it:Linea tra 2 punti
    Icon:TechDraw-line2points.svg
-   MenuLocation:TechDraw → Aggiungi linee → Linea tra 2 punti
+   MenuLocation:TechDraw - Aggiungi linee - Linea tra 2 punti
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)
    SeeAlso:[Linea a centro faccia](TechDraw_FaceCenterLine/it.md), [Linea centrale a 2 linee](TechDraw_2LineCenterLine/it.md)
    Version:0.19

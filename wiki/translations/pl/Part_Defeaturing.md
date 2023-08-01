@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Defeaturing
    Name/pl:Część: Usuwanie cech
-   MenuLocation:Część → Usuwanie cech
+   MenuLocation:Część - Usuwanie cech
    Workbenches:[Część](Part_Workbench/pl.md)
    Version:0.18
    SeeAlso:[środowisko Upraszczanie](Defeaturing_Workbench/pl.md), [makrodefinicja: Upraszczanie parametryczne](Macro_Parametric_Defeaturing/pl.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Масштаб
    Name:Draft_Scale
-   MenuLocation:Modification → Масштаб
+   MenuLocation:Modification - Масштаб
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:**S** **C**
    SeeAlso:[Draft SubelementHighlight](Draft_SubelementHighlight/ru.md), [Клонировать](Draft_Clone/ru.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM MeshGroup
    Name/fr:FEM Groupe de maillage FEM
-   MenuLocation:Maillage → Groupe de maillage FEM
+   MenuLocation:Maillage - Groupe de maillage FEM
    Workbenches:[FEM](FEM_Workbench/fr.md)
    SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---

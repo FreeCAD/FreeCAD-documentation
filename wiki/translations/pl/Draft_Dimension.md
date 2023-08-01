@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Dimension
    Name/pl:Draft: Wymiar
-   MenuLocation:Adnotacja → Wymiar
+   MenuLocation:Adnotacja - Wymiar
    Workbenches:[Rysunek roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
    Shortcut:**D** **I**
    Version:0.8

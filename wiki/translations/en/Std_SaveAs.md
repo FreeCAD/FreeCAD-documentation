@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std SaveAs
-   MenuLocation:File → Save As...
+   MenuLocation:File - Save As...
    Workbenches:All
    SeeAlso:[Std SaveCopy](Std_SaveCopy.md), [Std Save](Std_Save.md)
 ---

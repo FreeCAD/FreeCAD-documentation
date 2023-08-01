@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Line
    Name/ro:Draft Line
-   MenuLocation:Draft → Line
+   MenuLocation:Draft - Line
    Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
    Shortcut:**L** **I**
    SeeAlso:[Draft Wire](Draft_Wire/ro.md)

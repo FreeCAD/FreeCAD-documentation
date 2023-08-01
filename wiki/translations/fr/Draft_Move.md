@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Move
    Name/fr:Draft Déplacer
-   MenuLocation:Modification → Déplacer
+   MenuLocation:Modification - Déplacer
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:**M** **V**
    Version:0.7

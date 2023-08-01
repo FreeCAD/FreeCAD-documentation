@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewFitSelection
    Name/de:Std AnsichtAuswahlEinpassen
-   MenuLocation:Ansicht → Standardansichten → Auswahl einpassen
+   MenuLocation:Ansicht - Standardansichten - Auswahl einpassen
    Workbenches:Alle
    Shortcut:**V****S**
    SeeAlso:[Std AnsichtAllesEinpassen](Std_ViewFitAll/de.md)

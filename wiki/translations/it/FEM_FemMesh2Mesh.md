@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM_FemMesh2Mesh
    Name/it:Converti mesh FEM in mesh
-   MenuLocation:Mesh → Converti mesh FEM in mesh
+   MenuLocation:Mesh - Converti mesh FEM in mesh
    Workbenches:[FEM](FEM_Workbench/it.md)
    Shortcut:
    SeeAlso:[Tutorial di FEM](FEM_tutorial/it.md)

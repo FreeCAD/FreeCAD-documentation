@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft SelectPlane
    Name/pl:Rysunek Roboczy: Wybór płaszczyzny
-   MenuLocation:Kreślenie → Przybory → Wybierz płaszczyznę
+   MenuLocation:Kreślenie - Przybory - Wybierz płaszczyznę
    Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
    Shortcut:**W** **P**
    SeeAlso:[Ustaw pośrednią płaszczyznę roboczą](Draft_SetWorkingPlaneProxy/pl.md), [Pokaż / ukryj siatkę](Draft_ToggleGrid/pl.md)

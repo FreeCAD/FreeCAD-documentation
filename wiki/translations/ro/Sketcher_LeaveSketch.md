@@ -1,6 +1,6 @@
 # Sketcher LeaveSketch/ro
 ---
-- GuiCommand:   Name:Sketcher LeaveSketch   Workbenches:[PartDesign](Sketcher_Workbench___Sketcher]],_[[PartDesign_Workbench.md)|MenuLocation:Sketch → Leave sketch|---
+- GuiCommand:   Name:Sketcher LeaveSketch   Workbenches:[PartDesign](Sketcher_Workbench___Sketcher]],_[[PartDesign_Workbench.md)|MenuLocation:Sketch - Leave sketch|---
 
 
 </div>

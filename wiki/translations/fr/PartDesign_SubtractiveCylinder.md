@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign SubtractiveCylinder
    Name/fr:PartDesign Cylindre soustractif
-   MenuLocation:Part Design → Créer une primitive soustractive → Cylindre soustractif
+   MenuLocation:Part Design - Créer une primitive soustractive - Cylindre soustractif
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    Version:0.17
    SeeAlso:[PartDesign Créer une primitive soustractive](PartDesign_CompPrimitiveSubtractive/fr.md), [PartDesign Cylindre additif](PartDesign_AdditiveCylinder/fr.md)

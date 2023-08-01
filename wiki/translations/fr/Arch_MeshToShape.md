@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch MeshToShape
    Name/fr:Arch Maillage vers une forme
-   MenuLocation:Arch → Utilitaires → Maillage vers forme
+   MenuLocation:Arch - Utilitaires - Maillage vers forme
    Workbenches:[Arch](Arch_Workbench/fr.md)
    SeeAlso:[Arch Séparer un objet Mesh](Arch_SplitMesh/fr.md), [Arch Supprimer la forme](Arch_RemoveShape/fr.md)
 ---

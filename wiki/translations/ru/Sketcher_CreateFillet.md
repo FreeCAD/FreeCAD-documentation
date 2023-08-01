@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Скругление
    Name:Sketcher_CreateFillet
-   MenuLocation:Sketch → Геометрия эскиза → Создать скругление
+   MenuLocation:Sketch - Геометрия эскиза - Создать скругление
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**G** **F** **F**
    SeeAlso:[Создать скругление с сохранением точки пересечения](Sketcher_CreatePointFillet/ru.md)

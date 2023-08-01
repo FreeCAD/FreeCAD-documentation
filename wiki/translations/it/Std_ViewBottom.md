@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_ViewBottom
    Name/it:Vista dal basso
-   MenuLocation:Visualizza → Viste standard → Dal basso
+   MenuLocation:Visualizza - Viste standard - Dal basso
    Workbenches:Tutti
    Shortcut:**5**
    SeeAlso:[Vista da dietro](Std_ViewRear/it.md), [Vista da sinistra](Std_ViewLeft/it.md)

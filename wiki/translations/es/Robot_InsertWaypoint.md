@@ -1,6 +1,6 @@
 # Robot InsertWaypoint/es
 ---
-- GuiCommand:   Name:Robot InsertWaypoint   Name/es:Robot InsertWaypoint   Workbenches:[[Robot_Workbench/es   Robot]]|MenuLocation:Robot → Insert in trajectory---
+- GuiCommand:   Name:Robot InsertWaypoint   Name/es:Robot InsertWaypoint   Workbenches:[[Robot_Workbench/es   Robot]]|MenuLocation:Robot - Insert in trajectory---
 
 
 </div>

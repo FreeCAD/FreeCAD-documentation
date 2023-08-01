@@ -1,6 +1,6 @@
 # Mesh Import/hu
 ---
-- GuiCommand:   Name:Mesh ImportMesh   MenuLocation:Hálók → Háló importálása   Workbenches:[SeeAlso:[[Std_Import|Std Import](Mesh_Workbench___Háló]].md)---
+- GuiCommand:   Name:Mesh ImportMesh   MenuLocation:Hálók - Háló importálása   Workbenches:[SeeAlso:[[Std_Import|Std Import](Mesh_Workbench___Háló]].md)---
 
 
 </div>

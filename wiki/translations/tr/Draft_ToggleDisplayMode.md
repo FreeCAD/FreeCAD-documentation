@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft ToggleDisplayMode
    Name/tr:Ekran modunu değiştir
-   MenuLocation:Draft → Utilities → Toggle display mode
+   MenuLocation:Draft - Utilities - Toggle display mode
    Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
    Shortcut:Shift + Space
 ---

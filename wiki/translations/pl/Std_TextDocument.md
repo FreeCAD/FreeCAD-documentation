@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std TextDocument
    Name/pl:Std: Dodaj dokument tekstowy
-   MenuLocation:Przybory → Dodaj dokument tekstowy
+   MenuLocation:Przybory - Dodaj dokument tekstowy
    Workbenches:wszystkie
    Version:0.19
    SeeAlso:[Kształt z tekstu](Draft_ShapeString/pl.md), [Adnotacja wieloliniowa](Draft_Text/pl.md)

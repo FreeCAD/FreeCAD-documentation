@@ -4,7 +4,7 @@
    Name/cs:Skicář Změna orientace
    Empty:1
    Workbenches:[Skicář](Sketcher_Workbench/cs.md), [Návrh dílu](PartDesign_Workbench/cs.md)
-   MenuLocation:Návrh dílu → Změna orientace náčrtu
+   MenuLocation:Návrh dílu - Změna orientace náčrtu
    SeeAlso:[Vyznač náčrt](Sketcher_MapSketch/cs.md), [Nový náčrt](Sketcher_NewSketch/cs.md)
 ---
 

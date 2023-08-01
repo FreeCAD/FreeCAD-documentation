@@ -1,6 +1,6 @@
 # Part CompJoinFeatures/it
 ---
-- GuiCommand:   Name:Part CompJoinFeatures   Name/it:Giunzione   MenuLocation:Part → Congiungi   Workbenches:[SeeAlso:[[Part_JoinConnect/it|Congiungi oggetti](Part_Workbench/it___Part]].md), [Incastra oggetto](Part_JoinEmbed/it.md), [Asporta con oggetto](Part_JoinCutout/it.md), [Operazione booleana](Part_Boolean/it.md), [Spessore](Part_Thickness/it.md)---
+- GuiCommand:   Name:Part CompJoinFeatures   Name/it:Giunzione   MenuLocation:Part - Congiungi   Workbenches:[SeeAlso:[[Part_JoinConnect/it|Congiungi oggetti](Part_Workbench/it___Part]].md), [Incastra oggetto](Part_JoinEmbed/it.md), [Asporta con oggetto](Part_JoinCutout/it.md), [Operazione booleana](Part_Boolean/it.md), [Spessore](Part_Thickness/it.md)---
 
 
 </div>

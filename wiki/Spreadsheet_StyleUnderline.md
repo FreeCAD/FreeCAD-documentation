@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Spreadsheet StyleUnderline
-   MenuLocation:Spreadsheet → Styles → Underline text
+   MenuLocation:Spreadsheet - Styles - Underline text
    Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
    Version:0.17
 ---

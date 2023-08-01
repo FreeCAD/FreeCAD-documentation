@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Стерео красный/голубой
    Name:Std_ViewIvStereoRedGreen
-   MenuLocation:Вид → Стерео → Стерео красный/голубой
+   MenuLocation:Вид - Стерео - Стерео красный/голубой
    Workbenches:Все
    SeeAlso:[Четверная буферизация стерео](Std_ViewIvStereoQuadBuff/ru.md), [Стерео с чередованием строк](Std_ViewIvStereoInterleavedRows/ru.md), [Стерео с чередованием столбцов](Std_ViewIvStereoInterleavedColumns/ru.md), [Выключить стерео](Std_ViewIvStereoOff/ru.md)
 ---

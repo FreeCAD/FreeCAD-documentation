@@ -4,7 +4,7 @@
    Name/it:Rifila
    Icon:Sketcher_Trimming.svg
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch → Geometrie → Rifila
+   MenuLocation:Sketch - Geometrie - Rifila
    Version:0.12
    SeeAlso:[Estendi lo spigolo](Sketcher_Extend/it.md)
 ---

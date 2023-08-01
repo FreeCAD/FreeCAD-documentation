@@ -4,7 +4,7 @@
    Name:Robot TrajectoryCompound
    Name/ru:Robot TrajectoryCompound
    Workbenches:[Robot](Robot_Workbench/ru.md)
-   MenuLocation:Robot → TrajectoryCompound---
+   MenuLocation:Robot - TrajectoryCompound---
 
 
 </div>

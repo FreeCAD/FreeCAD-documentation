@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:OpenSCAD MeshBoolean
    Name/ru:OpenSCAD MeshBoolean
-   MenuLocation:OpenSCAD → Mesh Boolean...‏‎
+   MenuLocation:OpenSCAD - Mesh Boolean...‏‎
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/ru.md)
    Shortcut:нет
    SeeAlso:---

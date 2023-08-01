@@ -1,6 +1,6 @@
 # Std Copy/ro
 ---
-- GuiCommand:   Name:Std Copy   MenuLocation:[Shortcut:Ctrl+C   Workbenches:All   SeeAlso:[[Std_Paste|Paste](Std_Edit_Menu___Edit]]_→_Copy.md), [Duplicate Selection](Std_DuplicateSelection.md)---
+- GuiCommand:   Name:Std Copy   MenuLocation:[Shortcut:Ctrl+C   Workbenches:All   SeeAlso:[[Std_Paste|Paste](Std_Edit_Menu___Edit]]_-_Copy.md), [Duplicate Selection](Std_DuplicateSelection.md)---
 
 
 </div>

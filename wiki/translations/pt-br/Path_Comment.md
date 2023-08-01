@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Path Comment
-   MenuLocation:Path → Supplemental Commands → Comment
+   MenuLocation:Path - Supplemental Commands - Comment
    Workbenches:[Path](Path_Workbench.md)
 ---
 

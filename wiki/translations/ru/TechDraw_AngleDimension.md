@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Указать угловой размер
    Name:TechDraw_AngleDimension
-   MenuLocation:TechDraw → Размеры → Указать угловой размер
+   MenuLocation:TechDraw - Размеры - Указать угловой размер
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    SeeAlso:[Указать угловой размер по 3 точкам](TechDraw_3PtAngleDimension/ru.md)
 ---

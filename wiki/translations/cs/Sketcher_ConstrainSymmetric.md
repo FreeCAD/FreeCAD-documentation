@@ -3,7 +3,7 @@
    Name:Constraint Symmetric
    Name/cs:Constraint Symmetric
    Workbenches:[Náčrt](Sketcher_Workbench/cs.md), [Návrh dílu](PartDesign_Workbench/cs.md)
-   MenuLocation:Sketch → Sketcher constraints → Constrain symmetrical
+   MenuLocation:Sketch - Sketcher constraints - Constrain symmetrical
    SeeAlso:[Vazba rovnoběžnosti](Sketcher_ConstrainParallel/cs.md)
 ---
 

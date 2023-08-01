@@ -3,7 +3,7 @@
    Name:Sketcher_Clone
    Name/it:Clona
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch → Strumenti → Clona
+   MenuLocation:Sketch - Strumenti - Clona
    Version:0.16
    SeeAlso:[Sketcher Copia](Sketcher_Copy/it.md), [Sketcher Sposta](Sketcher_Move/it.md)
 ---

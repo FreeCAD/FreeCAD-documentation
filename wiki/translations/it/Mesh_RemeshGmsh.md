@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh_RemeshGmsh
    Name/it:Affinamento
-   MenuLocation:Mesh → Affinamento...
+   MenuLocation:Mesh - Affinamento...
    Workbenches:[Mesh](Mesh_Workbench/it.md)
    Version:0.19
    SeeAlso:[Crea mesh da una forma](Mesh_FromPartShape/it.md)

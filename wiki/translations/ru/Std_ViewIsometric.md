@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Изометрическая
    Name:Std_ViewIsometric
-   MenuLocation:Вид → Стандартные виды‏‎ → Axonometric → Изометрическая
+   MenuLocation:Вид - Стандартные виды‏‎ - Axonometric - Изометрическая
    Workbenches:Все
    Shortcut:**0**
    SeeAlso:[Диметрическая](Std_ViewDimetric/ru.md), [Триметрическая](Std_ViewTrimetric/ru.md)

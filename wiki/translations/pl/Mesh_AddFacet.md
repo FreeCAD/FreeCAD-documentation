@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh AddFacet
    Name/pl:Siatka: Dodaj trójkąt
-   MenuLocation:Siatki → Dodaj trójkąt
+   MenuLocation:Siatki - Dodaj trójkąt
    Workbenches:[Siatka](Mesh_Workbench/pl.md)
    SeeAlso:[Wypełnienie otworów](Mesh_FillupHoles/pl.md), [Interaktywne wypełnienie otworów](Mesh_FillInteractiveHole/pl.md)
 ---

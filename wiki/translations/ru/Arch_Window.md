@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch_Window
    Name/ru:Окно
-   MenuLocation:Архитектура → Окно
+   MenuLocation:Архитектура - Окно
    Workbenches:[Arch](Arch_Workbench/ru.md)
    Shortcut:**W** **I**
    SeeAlso:[Стена](Arch_Wall/ru.md), [Добавить компонент](Arch_Add/ru.md)

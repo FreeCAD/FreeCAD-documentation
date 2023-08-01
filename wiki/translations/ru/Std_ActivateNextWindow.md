@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Следующее
    Name:Std_ActivateNextWindow
-   MenuLocation:Окна → Следующее
+   MenuLocation:Окна - Следующее
    Workbenches:Все
    Shortcut:**Ctrl**+**Tab**
    SeeAlso:[Предыдущее](Std_ActivatePrevWindow/ru.md), [Окна](Std_Windows/ru.md)

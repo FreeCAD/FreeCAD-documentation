@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ArchView
    Name/pl:Rysunek Techniczny: Wstaw obiekt środowiska Architektura
-   MenuLocation:Rysunek Techniczny → Insert Arch Workbench Object
+   MenuLocation:Rysunek Techniczny - Insert Arch Workbench Object
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
    SeeAlso:[Płaszczyzna przekroju](Arch_SectionPlane/pl.md)
 ---

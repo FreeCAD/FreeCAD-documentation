@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Создать субтрактивный примитив
    Name:PartDesign_CompPrimitiveSubtractive
-   MenuLocation:Part Design → Создать субтрактивный примитив
+   MenuLocation:Part Design - Создать субтрактивный примитив
    Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
    Version:0.17
    SeeAlso:[Создать аддитивный примитив](PartDesign_CompPrimitiveAdditive/ru.md)

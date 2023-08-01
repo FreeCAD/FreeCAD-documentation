@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Move
    Name/tr:Taşı
-   MenuLocation:Taslak → Taşı
+   MenuLocation:Taslak - Taşı
    Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
    Shortcut:**M** **V**
    SeeAlso:[Dizi](Draft_Array/tr.md), [Yol dizisi](Draft_PathArray/tr.md)

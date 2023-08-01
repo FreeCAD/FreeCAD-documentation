@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:View Measure Toggle All
    Name/fr:Affichage Affichage des mesures
-   MenuLocation:Affichage → Visibilité → Activer/désactiver les mesures
+   MenuLocation:Affichage - Visibilité - Activer/désactiver les mesures
    Workbenches:Tous
    SeeAlso:[Affichage Supprimer les mesures](View_Measure_Clear_All/fr.md), [Part Basculer tout](Part_Measure_Toggle_All/fr.md), [Part Effacer toute mesure](Part_Measure_Clear_All/fr.md)
 ---

@@ -3,7 +3,7 @@
    Name:PartDesign AdditiveLoft
    Name/it:Loft additivo
    Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:Part Design → Loft additivo
+   MenuLocation:Part Design - Loft additivo
    Version:0.17
    SeeAlso:[Sweep additivo](PartDesign_AdditivePipe/it.md)
 ---

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std ViewIvStereoRedGreen
-   MenuLocation:View → Stereo → Stereo red/cyan
+   MenuLocation:View - Stereo - Stereo red/cyan
    Workbenches:All
    SeeAlso:[Std ViewIvStereoQuadBuff](Std_ViewIvStereoQuadBuff.md), [Std ViewIvStereoInterleavedRows](Std_ViewIvStereoInterleavedRows.md), [Std ViewIvStereoInterleavedColumns](Std_ViewIvStereoInterleavedColumns.md), [Std ViewIvStereoOff](Std_ViewIvStereoOff.md)
 ---

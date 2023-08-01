@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std Undo
    Name/ko:표준 실행 취소
-   MenuLocation:편집 → 실행 취소
+   MenuLocation:편집 - 실행 취소
    Workbenches:모두
    Shortcut:**Ctrl**+**Z**
    SeeAlso:[표준 다시 실행](Std_Redo/ko.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch MergeWalls
    Name/it:Unisci Pareti
-   MenuLocation:Arch → Utilità → Unisci Pareti
+   MenuLocation:Arch - Utilità - Unisci Pareti
    Workbenches:[Arch](Arch_Workbench/it.md)
    Shortcut:
    SeeAlso:[Parete](Arch_Wall/it.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:EM FHPlaneAddRemoveNodeHole
    Name/it:EM FHPlaneAddRemoveNodeHole
-   MenuLocation:EM → FHPlaneAddRemoveNodeHole
+   MenuLocation:EM - FHPlaneAddRemoveNodeHole
    Workbenches:[EM](EM_Workbench/it.md) (add-on)
    Shortcut:E A
    SeeAlso:[EM FHPlane](EM_FHPlane/it.md), [EM FHNode](EM_FHNode/it.md), [EM FHPlaneHole](EM_FHPlaneHole/it.md)

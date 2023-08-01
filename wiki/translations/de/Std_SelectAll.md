@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std SelectAll
    Name/de:Std AllesAuswählen
-   MenuLocation:Bearbeiten → Alles auswählen
+   MenuLocation:Bearbeiten - Alles auswählen
    Workbenches:Alle
    SeeAlso:[Std Rechteckauswahl](Std_BoxSelection/de.md), [Std RechteckElementAuswahl](Std_BoxElementSelection/de.md), [Part RechteckAuswahl](Part_BoxSelection/de.md)
 ---

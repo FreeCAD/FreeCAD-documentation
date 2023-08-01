@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher ConstrainDiameter
    Name/de:Sketcher DurchmesserFestlegen
-   MenuLocation:Sketch → Skizzen-Beschränkungen → Durchmesser festlegen
+   MenuLocation:Sketch - Skizzen-Beschränkungen - Durchmesser festlegen
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Shortcut:**K** **O**
    Version:0.18

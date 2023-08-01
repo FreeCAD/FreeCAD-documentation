@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw Annotation
    Name/fr:TechDraw Annotation
-   MenuLocation:TechDraw → Annotations → Insérer une annotation
+   MenuLocation:TechDraw - Annotations - Insérer une annotation
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    SeeAlso:[Draft Texte](Draft_Text/fr.md), [Draft Formes à partir texte](Draft_ShapeString/fr.md)
 ---

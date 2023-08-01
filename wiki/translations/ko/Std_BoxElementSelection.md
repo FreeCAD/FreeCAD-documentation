@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std BoxElementSelection
    Name/ko:표준 면 선택 상자
-   MenuLocation:편집 → 면 선택 상자
+   MenuLocation:편집 - 면 선택 상자
    Workbenches:모두
    Shortcut:**Shift**+**E**
    SeeAlso:[표준 개체 선택 상자](Std_BoxSelection/ko.md), [표준 모두 선택](Std_SelectAll/ko.md)

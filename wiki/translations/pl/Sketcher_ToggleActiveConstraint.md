@@ -3,7 +3,7 @@
    Name:Sketcher ToggleActiveConstraint
    Name/pl:Szkicownik: Przełącz aktywność wiązania
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   MenuLocation:Szkic → Wiązania szkicownika → Przełącz aktywność wiązania
+   MenuLocation:Szkic - Wiązania szkicownika - Przełącz aktywność wiązania
    Shortcut:**K** **Z**
    Version:0.19
    SeeAlso:[Przełącz kontrolę wiązania](Sketcher_ToggleDrivingConstraint/pl.md)

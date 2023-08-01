@@ -3,7 +3,7 @@
    Name:Arch Check
    Name/ru:Arch Check
    Workbenches:[Arch](Arch_Workbench/ru.md)
-   MenuLocation:Архитектура → Утилиты → Проверь
+   MenuLocation:Архитектура - Утилиты - Проверь
    SeeAlso:[Убрать отверстия](Arch_CloseHoles/ru.md)
 ---
 

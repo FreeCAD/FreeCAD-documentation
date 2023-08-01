@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Hatch
    Name/de:Draft Schraffur
-   MenuLocation:Entwurf → Schraffur
+   MenuLocation:Entwurf - Schraffur
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**H** **A**
    Version:0.20

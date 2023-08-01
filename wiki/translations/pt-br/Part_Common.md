@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Part Common
-   MenuLocation:Part → Boolean → Common
+   MenuLocation:Part - Boolean - Common
    Workbenches:[Part](Part_Workbench.md)
    SeeAlso:[Part Boolean](Part_Boolean.md), [Part Cut](Part_Cut.md), [Part Fuse](Part_Fuse.md)
 ---

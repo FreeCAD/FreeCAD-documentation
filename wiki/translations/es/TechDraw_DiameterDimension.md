@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw  Dimension Diameter
    Name/es:TechDraw  Dimensión Diámetro
-   MenuLocation:TechDraw → Dimensión Diámetro
+   MenuLocation:TechDraw - Dimensión Diámetro
    Workbenches:[TechDraw](TechDraw_Workbench/es.md)
    SeeAlso:[TechDraw Dimensión Radio](TechDraw_RadiusDimension/es.md)
 ---

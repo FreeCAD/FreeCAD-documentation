@@ -3,7 +3,7 @@
    Name:Constraint Radius
    Name/sv:Constraint Radius
    Workbenches:[Sketcher](Sketcher_Workbench/sv.md), [PartDesign](PartDesign_Workbench/sv.md)
-   MenuLocation:Sketch → Sketcher constraints → Constrain radius
+   MenuLocation:Sketch - Sketcher constraints - Constrain radius
    SeeAlso:[Constraint Distance](Sketcher_ConstrainDistance/sv.md), [Constraint Horizontal](Sketcher_ConstrainHorizontal/sv.md), [Constraint Vertical](Sketcher_ConstrainVertical/sv.md)
 ---
 

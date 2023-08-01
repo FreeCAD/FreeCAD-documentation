@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft BSpline
    Name/tr:BSpline
-   MenuLocation:Taslak → BSpline
+   MenuLocation:Taslak - BSpline
    Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
    Shortcut:**B** **S**
    Version:0.7

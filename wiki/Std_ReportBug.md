@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std ReportBug
-   MenuLocation:Help → Report a bug
+   MenuLocation:Help - Report a bug
    Workbenches:All
    Version:0.20
 ---

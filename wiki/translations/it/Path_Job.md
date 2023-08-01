@@ -3,7 +3,7 @@
    Name:Path_Job
    Name/it:Lavorazione
    Workbenches:[Path](Path_Workbench/it.md)
-   MenuLocation:Path → Lavorazione
+   MenuLocation:Path - Lavorazione
    Shortcut:**P** **F**
    SeeAlso:
 ---

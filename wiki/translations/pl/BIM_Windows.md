@@ -4,7 +4,7 @@
    Name/pl:BIM Windows
    Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/pl.md)
    Addon:BIM
-   MenuLocation:Manage → Zarządzaj drzwiami i oknami
+   MenuLocation:Manage - Zarządzaj drzwiami i oknami
 ---
 
 # BIM Windows/pl

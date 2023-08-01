@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Raytracing Lux
    Name/ru:Raytracing Lux
-   MenuLocation:Трассировка лучей → Новый проект LuxRender
+   MenuLocation:Трассировка лучей - Новый проект LuxRender
    Workbenches:[Raytracing](Raytracing_Workbench/ru.md)
    Shortcut:
    SeeAlso:

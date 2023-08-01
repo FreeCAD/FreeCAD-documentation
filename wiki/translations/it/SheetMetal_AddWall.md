@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:SheetMetal_Bend
    Name/it:Piega
-   MenuLocation:SheetMetal → Add Bend
+   MenuLocation:SheetMetal - Add Bend
    Workbenches:[SheetMetal](SheetMetal_Workbench/it.md)
    Shortcut:None
    Version:

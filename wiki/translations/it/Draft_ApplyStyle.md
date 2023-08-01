@@ -3,7 +3,7 @@
    Name:Draft ApplyStyle
    Name/it:Applica lo stile
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   MenuLocation:Draft → Utilità → Applica stile
+   MenuLocation:Draft - Utilità - Applica stile
    SeeAlso:[Barra di Draft](Draft_Tray/it.md), [Draft SetStyle](Draft_SetStyle.md)
 ---
 

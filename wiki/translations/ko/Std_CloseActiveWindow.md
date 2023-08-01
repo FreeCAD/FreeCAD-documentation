@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std CloseActiveWindow
    Name/ko:표준 활성 창 닫기
-   MenuLocation:파일 → 닫기
+   MenuLocation:파일 - 닫기
    Workbenches:모두
    Shortcut:**Ctrl**+**F4**
    SeeAlso:[표준 모든 창 닫기](Std_CloseAllWindows/ko.md)

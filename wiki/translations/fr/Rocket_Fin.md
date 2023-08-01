@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Rocket Fin
    Name/fr:Rocket Aileron
-   MenuLocation:Rocket → Fin
+   MenuLocation:Rocket - Fin
    Workbenches:[Rocket](Rocket_Workbench/fr.md)
    Version:0.19
 ---

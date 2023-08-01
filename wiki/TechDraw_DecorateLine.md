@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw DecorateLine
-   MenuLocation:TechDraw → Add Lines → Change Appearance of Lines
+   MenuLocation:TechDraw - Add Lines - Change Appearance of Lines
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Version:0.19
    SeeAlso:[TechDraw ShowAll](TechDraw_ShowAll.md), [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md)

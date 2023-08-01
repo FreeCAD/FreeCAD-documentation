@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:SheetMetal SketchOnSheet
    Name/fr:SheetMetal Perçage de paroi
-   MenuLocation:SheetMetal → Sketch On Sheet metal
+   MenuLocation:SheetMetal - Sketch On Sheet metal
    Workbenches:[SheetMetal](SheetMetal_Workbench/fr.md)
    Shortcut:**M** **S**
 ---

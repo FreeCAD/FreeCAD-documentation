@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Экспорт листа в DXF
    Name:TechDraw_ExportPageDXF
-   MenuLocation:TechDraw → Экспорт листа в DXF
+   MenuLocation:TechDraw - Экспорт листа в DXF
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    Version:0.18
    SeeAlso:[Экспорт листа в SVG](TechDraw_ExportPageSVG/ru.md), [Draft DXF](Draft_DXF/ru.md)

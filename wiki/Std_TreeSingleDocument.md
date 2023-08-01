@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std TreeSingleDocument
-   MenuLocation:View → TreeView actions → Single document
+   MenuLocation:View - TreeView actions - Single document
    Workbenches:All
    Version:0.19
    SeeAlso:[Std TreeMultiDocument](Std_TreeMultiDocument.md), [Std TreeCollapseDocument](Std_TreeCollapseDocument.md)

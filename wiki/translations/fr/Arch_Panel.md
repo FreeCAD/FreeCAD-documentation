@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Panel
    Name/fr:Arch Panneau
-   MenuLocation:Arch → Outils pour les  panneaux → Panneau
+   MenuLocation:Arch - Outils pour les  panneaux - Panneau
    Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**P** **A**
    Version:0.15

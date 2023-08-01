@@ -3,7 +3,7 @@
    Name/ro:Sketcher Move
    Icon:Sketcher_Move.svg
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation:Sketch → Sketcher tools → Move
+   MenuLocation:Sketch - Sketcher tools - Move
    Shortcut:Ctrl + M
    Version:0.18
    SeeAlso:[Clonă](Sketcher_Clone/ro.md), [Copiere](Sketcher_Copy/ro.md)

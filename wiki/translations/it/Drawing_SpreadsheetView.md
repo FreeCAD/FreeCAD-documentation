@@ -3,7 +3,7 @@
    Name:Drawing SpreadsheetView
    Name/it:Vista foglio di calcolo
    Workbenches:[Drawing](Drawing_Workbench/it.md)
-   MenuLocation:Drawing → Vista foglio di calcolo
+   MenuLocation:Drawing - Vista foglio di calcolo
 ---
 
 # Drawing SpreadsheetView/it

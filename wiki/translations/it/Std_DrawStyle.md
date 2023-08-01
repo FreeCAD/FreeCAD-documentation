@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_DrawStyle
    Name/it:Stile di disegno
-   MenuLocation:Visualizza → Stile di disegno
+   MenuLocation:Visualizza - Stile di disegno
    Workbenches:Tutti
    Shortcut:**V** **1** - **V** **7**
    SeeAlso:[Box contenitore](Std_SelBoundingBox/it.md)

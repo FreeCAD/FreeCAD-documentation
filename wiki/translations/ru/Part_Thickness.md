@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part_Thickness
    Name/ru:Толщина
-   MenuLocation:Деталь → Толщина
+   MenuLocation:Деталь - Толщина
    Workbenches:[Верстак Part](Part_Workbench/ru.md)
    SeeAlso:[Смещение](Part_Offset/ru.md)
 ---

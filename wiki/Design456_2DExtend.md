@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Design456 2D Extend line/Wire
    Empty:1
-   MenuLocation:Design456_2Ddrawing → Extend Line
+   MenuLocation:Design456_2Ddrawing - Extend Line
    Workbenches:[Design456](Design456_Workbench.md)
    Shortcut:None
    SeeAlso:

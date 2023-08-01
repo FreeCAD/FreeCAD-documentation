@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Spreadsheet StyleBold
    Name/pl:Arkusz Kalkulacyjny: Pogrubienie
-   MenuLocation:Arkusz kalkulacyjny → Style → Pogrubienie
+   MenuLocation:Arkusz kalkulacyjny - Style - Pogrubienie
    Workbenches:[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
    Version:0.17
 ---

@@ -3,7 +3,7 @@
    Name:Sketcher NewSketch
    Name/ro:Creaza schita
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation:Sketch → Creaza schita
+   MenuLocation:Sketch - Creaza schita
    SeeAlso:[Asociază schiţa unei feţe...](Sketcher_MapSketch/ro.md), [Reorientați schița...](Sketcher_ReorientSketch/ro.md)
 ---
 

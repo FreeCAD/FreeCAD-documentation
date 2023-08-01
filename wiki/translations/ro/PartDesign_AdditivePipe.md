@@ -3,7 +3,7 @@
    Name:PartDesign AdditivePipe
    Name/ro:PartDesign AdditivePipe
    Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation:PartDesign → Additive pipe
+   MenuLocation:PartDesign - Additive pipe
    Version:0.17
    SeeAlso:[PartDesign Additive Loft](PartDesign_AdditiveLoft/ro.md)
 ---

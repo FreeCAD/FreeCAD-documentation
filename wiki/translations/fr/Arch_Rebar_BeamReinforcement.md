@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Rebar BeamReinforcement
    Name/fr:Arch Rebar Poutre
-   MenuLocation:Arch → Rebar tools → Beam Reinforcement<br>3D/BIM → Reinforcement → Beam Reinforcement
+   MenuLocation:Arch - Rebar tools - Beam Reinforcement<br>3D/BIM - Reinforcement - Beam Reinforcement
    Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
    Version:0.19
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature 2x6](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md), 

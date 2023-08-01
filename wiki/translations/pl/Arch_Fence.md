@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch Fence
-   MenuLocation:Arch → Fence
+   MenuLocation:Arch - Fence
    Workbenches:[Arch](Arch_Workbench.md)
    Version:0.19
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw SurfaceFinishSymbol
    Name/fr:TechDraw Symbole d'état de surface
-   MenuLocation:TechDraw → Ajouter un symbole d'état de surface
+   MenuLocation:TechDraw - Ajouter un symbole d'état de surface
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Version:0.21
 ---

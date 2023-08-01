@@ -4,7 +4,7 @@
    Name/de:BIM Einrichtung
    Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
    Addon:BIM
-   MenuLocation:Verwalten → Einrichtung
+   MenuLocation:Verwalten - Einrichtung
 ---
 
 # BIM Setup/de

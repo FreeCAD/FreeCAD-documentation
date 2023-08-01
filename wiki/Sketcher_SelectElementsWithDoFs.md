@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher SelectElementsWithDoFs
-   MenuLocation:Sketch → Sketcher tools → Select unconstrained DoF
+   MenuLocation:Sketch - Sketcher tools - Select unconstrained DoF
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**Z** **F**
    Version:0.18

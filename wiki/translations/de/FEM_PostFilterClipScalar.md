@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM PostFilterClipScalar
    Name/de:FEM NachbereitungFilterSkalarerBeschnitt
-   MenuLocation:Ergebnisse → Skalar Ausschnitt-Filter
+   MenuLocation:Ergebnisse - Skalar Ausschnitt-Filter
    Workbenches:[FEM](FEM_Workbench/de.md)
    SeeAlso:[FEM Result pipeline](FEM_PostPipelineFromResult/de.md), [FEM Tutorium](FEM_tutorial/de.md)
 ---

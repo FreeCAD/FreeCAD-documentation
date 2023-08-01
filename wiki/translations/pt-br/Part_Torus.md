@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Part Torus
-   MenuLocation:Part → Primitives → Torus
+   MenuLocation:Part - Primitives - Torus
    Workbenches:[Part](Part_Workbench.md)
    SeeAlso:[Part Primitives](Part_Primitives.md)
 ---

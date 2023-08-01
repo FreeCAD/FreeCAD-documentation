@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std SetAppearance
-   MenuLocation:View → Appearance...
+   MenuLocation:View - Appearance...
    Workbenches:All
    Shortcut:**Ctrl**+**D**
    SeeAlso:[Part FaceColors](Part_FaceColors.md)

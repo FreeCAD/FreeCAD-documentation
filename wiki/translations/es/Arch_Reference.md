@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Reference
    Name/es:Arquitectura Referencia
-   MenuLocation:Arquitectura → Referencia
+   MenuLocation:Arquitectura - Referencia
    Workbenches:[Arquitectura](Arch_Workbench/es.md)
    SeeAlso:[Arquitectura EdificioPieza](Arch_BuildingPart/es.md)
 ---

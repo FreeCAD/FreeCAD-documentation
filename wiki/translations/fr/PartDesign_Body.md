@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign Body
    Name/fr:PartDesign Corps
-   MenuLocation:Part Design → Créer un corps
+   MenuLocation:Part Design - Créer un corps
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    Version:0.17
    SeeAlso:[Std Part](Std_Part/fr.md), [Édition de fonctions](Feature_editing/fr.md)

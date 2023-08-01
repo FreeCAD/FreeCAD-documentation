@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:WebTools Sketchfab
    Name/es:HerramientasWeb Sketchfab
-   MenuLocation:HerramientasWeb → Sketchfab
+   MenuLocation:HerramientasWeb - Sketchfab
    Workbenches:[HerramientasWeb](WebTools_Workbench/es.md)
 ---
 

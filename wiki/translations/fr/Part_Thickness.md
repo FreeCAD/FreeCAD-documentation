@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Thickness
    Name/fr:Part Évidement
-   MenuLocation:Part → Evidement...
+   MenuLocation:Part - Evidement...
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Part Décalage](Part_Offset/fr.md)
 ---

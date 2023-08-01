@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign Boolean
    Name/pl:Projekt Części: Operacja logiczna
-   MenuLocation:Projekt Części → Operacja logiczna
+   MenuLocation:Projekt Części - Operacja logiczna
    Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
 ---

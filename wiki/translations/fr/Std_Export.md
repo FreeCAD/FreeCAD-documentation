@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std Export
    Name/fr:Std Exporter
-   MenuLocation:Fichier → Exporter...
+   MenuLocation:Fichier - Exporter...
    Workbenches:Tous
    Shortcut:**Ctrl**+**E**
    SeeAlso:[Std Générer un pdf](Std_PrintPdf/fr.md), [Std Importer](Std_Import/fr.md), [Préférences d'Import Export](Import_Export_Preferences/fr.md)

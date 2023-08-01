@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Импорт электронной таблицы
    Name:Spreadsheet_Import
-   MenuLocation:Электронная таблица → Импорт электронной таблицы
+   MenuLocation:Электронная таблица - Импорт электронной таблицы
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/ru.md)
    Version:0.17
    SeeAlso:[Экспорт электронной таблицы](Spreadsheet_Export/ru.md)

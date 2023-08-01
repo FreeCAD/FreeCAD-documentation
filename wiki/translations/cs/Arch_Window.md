@@ -1,6 +1,6 @@
 # Arch Window/cs
 ---
-- GuiCommand:   Name:Arch Window   Name/cs:Arch Okno   Workbenches:[MenuLocation:Arch → Window   Shortcut:W I   SeeAlso:[[Arch Wall/cs|Arch Wall](Arch_Workbench/cs___Arch]].md)---
+- GuiCommand:   Name:Arch Window   Name/cs:Arch Okno   Workbenches:[MenuLocation:Arch - Window   Shortcut:W I   SeeAlso:[[Arch Wall/cs|Arch Wall](Arch_Workbench/cs___Arch]].md)---
 
 
 </div>

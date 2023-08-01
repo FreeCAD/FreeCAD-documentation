@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:FEM MeshClear
-   MenuLocation:Context menu on mesh object → Clear FEM mesh
+   MenuLocation:Context menu on mesh object - Clear FEM mesh
    Workbenches:[FEM](FEM_Workbench.md)
    SeeAlso:[FEM tutorial](FEM_tutorial.md)
 ---

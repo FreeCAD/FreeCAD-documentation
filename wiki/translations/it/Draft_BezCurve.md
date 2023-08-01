@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft BezCurve
    Name/it:Curva di Bézier
-   MenuLocation:Drafting → Strumenti Beziér → Curva di Bézier
+   MenuLocation:Drafting - Strumenti Beziér - Curva di Bézier
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**B** **Z**
    Version:0.14

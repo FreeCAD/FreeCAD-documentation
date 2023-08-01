@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Spreadsheet AlignTop
-   MenuLocation:Spreadsheet → Alignment → Align top
+   MenuLocation:Spreadsheet - Alignment - Align top
    Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
    Version:0.17
 ---

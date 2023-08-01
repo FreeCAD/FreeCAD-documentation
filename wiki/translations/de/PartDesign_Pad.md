@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign Pad
    Name/de:PartDesign Aufpolsterung
-   MenuLocation:Part Design → Objekt hinzufügen → Aufpolsterung
+   MenuLocation:Part Design - Objekt hinzufügen - Aufpolsterung
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    SeeAlso:[PartDesign Tasche](PartDesign_Pocket/de.md)
 ---

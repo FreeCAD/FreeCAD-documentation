@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Spreadsheet CreateSheet
    Name/pl:Arkusz Kalkulacyjny: Utwórz arkusz
-   MenuLocation:Arkusz kalkulacyjny → Utwórz arkusz
+   MenuLocation:Arkusz kalkulacyjny - Utwórz arkusz
    Workbenches:[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
    Version:0.17
 ---

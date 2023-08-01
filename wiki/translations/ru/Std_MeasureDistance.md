@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_MeasureDistance
    Name/ru:Измерить расстояние
-   MenuLocation:Инструменты → Измерить расстояние
+   MenuLocation:Инструменты - Измерить расстояние
    Workbenches:Все
    SeeAlso:[Part Measure Linear](Part_Measure_Linear/ru.md), [Draft Dimension](Draft_Dimension/ru.md), [Arch Survey](Arch_Survey/ru.md)
 ---

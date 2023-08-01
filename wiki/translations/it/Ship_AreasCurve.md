@@ -3,7 +3,7 @@
    Name:Ship Area
    Name/it:Area
    Icon:Ship_AreaCurve.svg
-   MenuLocation:Ship design → Curva delle sezioni
+   MenuLocation:Ship design - Curva delle sezioni
    Workbenches:[Ship](Ship_Workbench/it.md)
    Shortcut:
    SeeAlso:

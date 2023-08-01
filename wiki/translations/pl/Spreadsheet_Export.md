@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Spreadsheet Export
    Name/pl:Arkusz Kalkulacyjny: Eksportuj
-   MenuLocation:Arkusz Kalkulacyjny → Eksportuj
+   MenuLocation:Arkusz Kalkulacyjny - Eksportuj
    Workbenches:[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
    Version:0.17
    SeeAlso:[Importuj](Spreadsheet_Import/pl.md)

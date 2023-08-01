@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CreatePoint
    Name/fr:Sketcher Point
-   MenuLocation:Esquisse → Géométries d'esquisse → Créer un point
+   MenuLocation:Esquisse - Géométries d'esquisse - Créer un point
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**G** **Y**
 ---

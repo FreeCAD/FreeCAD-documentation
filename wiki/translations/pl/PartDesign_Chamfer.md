@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign Chamfer
    Name/pl:Projekt Części: Sfazowanie
-   MenuLocation:Projekt Części → Zastosuj funkcję ulepszenia → Sfazowanie
+   MenuLocation:Projekt Części - Zastosuj funkcję ulepszenia - Sfazowanie
    Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    SeeAlso:[Zaokrąglenie](PartDesign_Fillet/pl.md)
 ---

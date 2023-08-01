@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Fasteners ChamferHole
-   MenuLocation:Fasteners → Make countersunk
+   MenuLocation:Fasteners - Make countersunk
    Workbenches:[Fasteners](Fasteners_Workbench.md)
 ---
 

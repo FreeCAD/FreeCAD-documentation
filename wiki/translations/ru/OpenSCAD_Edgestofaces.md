@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:OpenSCAD Edgestofaces
    Name/ru:OpenSCAD Edgestofaces
-   MenuLocation:OpenSCAD → Преобразовать грани в поверхности
+   MenuLocation:OpenSCAD - Преобразовать грани в поверхности
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/ru.md)
    Shortcut:нет
    SeeAlso:[Draft Upgrade](Draft_Upgrade/ru.md)

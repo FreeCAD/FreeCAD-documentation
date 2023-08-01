@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Chamfer
    Name/de:Part Fase
-   MenuLocation:Part → Anfasen...
+   MenuLocation:Part - Anfasen...
    Workbenches:[Part](Part_Workbench/de.md)
    SeeAlso:[Part Verrundung](Part_Fillet/de.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM MeshRegion
    Name/de:FEM Netzbereich
-   MenuLocation:Netz → FEM mesh region
+   MenuLocation:Netz - FEM mesh region
    Workbenches:[FEM](FEM_Workbench/de.md)
    SeeAlso:[FEM Anleitung](FEM_tutorial/de.md)
 ---

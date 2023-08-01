@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Stretch
    Name/es:Draft Stretch
-   MenuLocation:Draft → Stretch
+   MenuLocation:Draft - Stretch
    Workbenches:[Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
    SeeAlso:[[Draft Offset]]
 ---

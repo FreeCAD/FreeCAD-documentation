@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign AdditiveWedge
    Name/de:PartDesign KeilHinzufügen
-   MenuLocation:Part Design → Grundkörper hinzufügen → Keil
+   MenuLocation:Part Design - Grundkörper hinzufügen - Keil
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
    SeeAlso:[PartDesign AuswahlGrundkörperHinzufügen](PartDesign_CompPrimitiveAdditive/de.md), [PartDesign KeilAbziehen](PartDesign_SubtractiveWedge/de.md)

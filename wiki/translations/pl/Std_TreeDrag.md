@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std TreeDrag
    Name/pl:Std: Przeciąganie w widoku drzewa
-   MenuLocation:Widok → Akcje widoku drzewa → Przeciąganie w widoku drzewa
+   MenuLocation:Widok - Akcje widoku drzewa - Przeciąganie w widoku drzewa
    Workbenches:wszystkie
    Shortcut:**T** **D**
    Version:0.19

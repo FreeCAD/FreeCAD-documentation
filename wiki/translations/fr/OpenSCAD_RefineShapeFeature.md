@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:OpenSCAD RefineShapeFeature
    Name/fr:OpenSCAD Affiner la forme
-   MenuLocation:OpenSCAD → Affiner la forme
+   MenuLocation:OpenSCAD - Affiner la forme
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
    SeeAlso:[Part Affiner la forme](Part_RefineShape.md)
 ---

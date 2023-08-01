@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionCreateHorizChainDimension
    Name/fr:TechDraw Cotes horizontales
-   MenuLocation:TechDraw → Extensions : cotes → Cotes horizontales
+   MenuLocation:TechDraw - Extensions : cotes - Cotes horizontales
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut:
    Version:0.20

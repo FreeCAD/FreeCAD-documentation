@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher External
    Name/es:Croquizador Externo
-   MenuLocation:Croquis → Croquizador Geometrías → Croquizador Externo
+   MenuLocation:Croquis - Croquizador Geometrías - Croquizador Externo
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)
    Shortcut:X
    SeeAlso:[Croquizador ModoConstrucción](Sketcher_ToggleConstruction/es.md)

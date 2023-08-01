@@ -3,7 +3,7 @@
    Name:Arch Check
    Name/it:Controlla
    Workbenches:[Architettura](Arch_Workbench/it.md)
-   MenuLocation:Arch → Utilità → Controlla
+   MenuLocation:Arch - Utilità - Controlla
    SeeAlso:[ Chiudi fori](Arch_CloseHoles/it.md)
 ---
 

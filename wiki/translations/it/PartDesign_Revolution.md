@@ -1,6 +1,6 @@
 # PartDesign Revolution/it
 ---
-- GuiCommand:   Name:PartDesign Revolution   Name/it:Rivoluzione   MenuLocation:PartDesign → Rivoluzione   Workbenches:[PartDesign](PartDesign_Workbench/it.md)---
+- GuiCommand:   Name:PartDesign Revolution   Name/it:Rivoluzione   MenuLocation:PartDesign - Rivoluzione   Workbenches:[PartDesign](PartDesign_Workbench/it.md)---
 
 
 </div>

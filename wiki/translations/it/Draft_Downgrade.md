@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Downgrade
    Name/it:Declassa
-   MenuLocation:Modifiche → Declassa
+   MenuLocation:Modifiche - Declassa
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**D** **N**
    SeeAlso:[Promuovi](Draft_Upgrade/it.md), [Sottrazione booleana](Part_Cut/it.md)

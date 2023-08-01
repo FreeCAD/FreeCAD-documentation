@@ -1,6 +1,6 @@
 # Path Comment/it
 ---
-- GuiCommand:   Name:Path Comment   Name/it:Commento   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path → Comandi supplementari → Commento   Shortcut:P,C   SeeAlso:---
+- GuiCommand:   Name:Path Comment   Name/it:Commento   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path - Comandi supplementari - Commento   Shortcut:P,C   SeeAlso:---
 
 
 </div>

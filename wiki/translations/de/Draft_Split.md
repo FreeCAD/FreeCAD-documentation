@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Split
    Name/de:Entwurf Teilen
-   MenuLocation:Änderung → Teilen
+   MenuLocation:Änderung - Teilen
    Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
    Shortcut:**S** **P**
    Version:0.18

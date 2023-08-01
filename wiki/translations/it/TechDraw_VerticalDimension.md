@@ -3,7 +3,7 @@
    Name:TechDraw Dimension Vertical
    Name/it:Dimensione verticale
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   MenuLocation:TechDraw → Dimensione verticale
+   MenuLocation:TechDraw - Dimensione verticale
    Shortcut:
    SeeAlso:[Lunghezza](TechDraw_LengthDimension/it.md), [Orizzontale](TechDraw_HorizontalDimension/it.md)
 ---

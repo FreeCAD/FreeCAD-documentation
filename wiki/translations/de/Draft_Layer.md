@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Layer
    Name/de:Draft Layer
-   MenuLocation:Dienstprogramme → Ebene
+   MenuLocation:Dienstprogramme - Ebene
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Version:0.19
    SeeAlso:[Draft AutoGruppe](Draft_AutoGroup/de.md), [Draft LayerManager](Draft_LayerManager/de.md)

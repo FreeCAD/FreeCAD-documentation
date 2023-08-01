@@ -1,6 +1,6 @@
 # Robot CreateTrajectory/es
 ---
-- GuiCommand:   Name:Robot CreateTrajectory   Name/es:Robot CreateTrajectory   Workbenches:[[Robot_Workbench/es   Robot]]|MenuLocation:Robot → Create trajectory---
+- GuiCommand:   Name:Robot CreateTrajectory   Name/es:Robot CreateTrajectory   Workbenches:[[Robot_Workbench/es   Robot]]|MenuLocation:Robot - Create trajectory---
 
 
 </div>

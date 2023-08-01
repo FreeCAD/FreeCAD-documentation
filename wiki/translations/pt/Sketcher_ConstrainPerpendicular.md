@@ -3,7 +3,7 @@
    Name:Constraint Perpendicular
    Name/pt:Constraint Perpendicular
    Workbenches:[Sketcher](Sketcher_Workbench/pt.md), [PartDesign](PartDesign_Workbench/pt.md)
-   MenuLocation:Sketch → Sketcher constraints → Constrain perpendicular
+   MenuLocation:Sketch - Sketcher constraints - Constrain perpendicular
    Shortcut:N
    SeeAlso:[Constraint Angle](Sketcher_ConstrainAngle/pt.md)
 ---

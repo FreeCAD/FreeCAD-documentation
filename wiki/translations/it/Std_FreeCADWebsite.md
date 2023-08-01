@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std FreeCADWebsite
    Name/it:Sito Web di FreeCAD
-   MenuLocation:Aiuto → Sito Web di FreeCAD
+   MenuLocation:Aiuto - Sito Web di FreeCAD
 ‎   Workbenches:Tutti
    SeeAlso:[Documentazione utenti](Std_FreeCADUserHub/it.md), [Documentazione di scripting Python](Std_FreeCADPowerUserHub/it.md), [Forum di FreeCAD](Std_FreeCADForum/it.md), [FAQ su FreeCAD](Std_FreeCADFAQ/it.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft ToggleGrid
    Name/it:Mostra/Nascondi la griglia
-   MenuLocation:Draft → Utilità → Mostra/Nascondi la griglia
+   MenuLocation:Draft - Utilità - Mostra/Nascondi la griglia
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**G** **R**
    SeeAlso:[Agganciare](Draft_Snap/it.md)

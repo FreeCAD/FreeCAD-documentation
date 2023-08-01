@@ -1,6 +1,6 @@
 # Sketcher CreateTriangle/it
 ---
-- GuiCommand:   Name:Sketcher CreateTriangle   Name/it:Triangolo   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch → Geometrie → Triangolo equilatero   Shortcut:   SeeAlso:   Version:0.15---
+- GuiCommand:   Name:Sketcher CreateTriangle   Name/it:Triangolo   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch - Geometrie - Triangolo equilatero   Shortcut:   SeeAlso:   Version:0.15---
 
 
 </div>

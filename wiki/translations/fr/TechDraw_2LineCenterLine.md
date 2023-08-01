@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw 2LineCenterLine
    Name/fr:TechDraw Ligne centrale entre 2 lignes
-   MenuLocation:TechDraw → Ajouter des lignes → Ajouter une ligne centrale entre 2 lignes
+   MenuLocation:TechDraw - Ajouter des lignes - Ajouter une ligne centrale entre 2 lignes
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Version:0.19
    SeeAlso:[TechDraw Ligne centrale à une surface](TechDraw_FaceCenterLine/fr.md), [TechDraw Ligne centrale entre 2 sommets](TechDraw_2PointCenterLine.md)

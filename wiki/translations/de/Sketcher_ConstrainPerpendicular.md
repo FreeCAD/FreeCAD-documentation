@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher ConstrainPerpendicular
    Name/de:Sketcher RechtwinkligFestlegen
-   MenuLocation:Sketch → Skizzen-Beschränkungen → Orthogonalität festlegen
+   MenuLocation:Sketch - Skizzen-Beschränkungen - Orthogonalität festlegen
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Shortcut:**N**
    SeeAlso:[Sketcher WinkelFestlegen](Sketcher_ConstrainAngle/de.md)

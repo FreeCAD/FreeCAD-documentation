@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Rebar
    Name/ja:Arch Rebar
-   MenuLocation:Arch → Rebar
+   MenuLocation:Arch - Rebar
    Workbenches:[Arch](Arch_Module.md)
    Shortcut:R B
    SeeAlso:[Arch Structure](Arch_Structure.md), [Reinforcement Addon](Reinforcement_Addon.md)

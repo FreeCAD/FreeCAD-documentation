@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Upgrade
    Name/fr:Draft Agréger
-   MenuLocation:Modification → Agréger
+   MenuLocation:Modification - Agréger
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:**U** **P**
    SeeAlso:[Draft Désagréger](Draft_Downgrade/fr.md)

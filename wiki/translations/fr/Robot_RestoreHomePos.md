@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Robot RestoreHomePos
    Name/fr:Robot Position de départ
-   MenuLocation:Robot → Passer à la position de départ
+   MenuLocation:Robot - Passer à la position de départ
    Workbenches:[Robot](Robot_Workbench/fr.md)
 ---
 

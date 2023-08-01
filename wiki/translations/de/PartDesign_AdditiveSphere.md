@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign AdditiveSphere
    Name/de:PartDesign KugelHinzufügen
-   MenuLocation:Part Design → Grundkörper hinzufügen → Kugel hinzufügen
+   MenuLocation:Part Design - Grundkörper hinzufügen - Kugel hinzufügen
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
    SeeAlso:[PartDesign AuswahlGrundkörperHinzufügen](PartDesign_CompPrimitiveAdditive/de.md), [PartDesign KugelAbziehen](PartDesign_SubtractiveSphere/de.md)

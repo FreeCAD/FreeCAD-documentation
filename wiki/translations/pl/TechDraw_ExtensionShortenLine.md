@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionShortenLine
    Name/pl:Rysunek Techniczny: Rozszerzenie Skróć linię
-   MenuLocation:Rysunek Techniczny → Rozszerzenia: Atrybuty / Modyfikatory → Skróć linię
+   MenuLocation:Rysunek Techniczny - Rozszerzenia: Atrybuty / Modyfikatory - Skróć linię
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20

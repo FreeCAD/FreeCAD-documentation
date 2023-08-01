@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Spreadsheet StyleBold
-   MenuLocation:Spreadsheet → Styles → Bold text
+   MenuLocation:Spreadsheet - Styles - Bold text
    Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
    Version:0.17
 ---

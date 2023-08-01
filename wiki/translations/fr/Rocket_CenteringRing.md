@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Rocket CenteringRing
    Name/fr:Rocket Anneau de centrage
-   MenuLocation:Rocket → Centering Ring
+   MenuLocation:Rocket - Centering Ring
    Workbenches:[Rocket](Rocket_Workbench/fr.md)
    Version:0.19
 ---

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Mesh Intersection
-   MenuLocation:Meshes → Boolean → Intersection
+   MenuLocation:Meshes - Boolean - Intersection
    Workbenches:[Mesh](Mesh_Workbench.md)
    SeeAlso:[Mesh Union](Mesh_Union.md), [Mesh Difference](Mesh_Difference.md)
 ---

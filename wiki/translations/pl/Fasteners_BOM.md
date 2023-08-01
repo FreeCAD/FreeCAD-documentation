@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Fasteners BOM
-   MenuLocation:Fasteners → Generate BOM
+   MenuLocation:Fasteners - Generate BOM
    Workbenches:[Fasteners](Fasteners_Workbench.md)
    SeeAlso:[Spreadsheet Workbench](Spreadsheet_Workbench.md)
 ---

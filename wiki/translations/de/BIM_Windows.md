@@ -4,7 +4,7 @@
    Name/de:BIM Fenster
    Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
    Addon:BIM
-   MenuLocation:Verwalten → Fenster
+   MenuLocation:Verwalten - Fenster
 ---
 
 # BIM Windows/de

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:FCGear GearConnector
-   MenuLocation:Gear → Combine two gears
+   MenuLocation:Gear - Combine two gears
    Workbenches:[FCGear](FCGear_Workbench.md)
    Shortcut:None
    Version:1.0

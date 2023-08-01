@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Mesh SegmentationBestFit
-   MenuLocation:Meshes → Create mesh segments from best-fit surfaces...
+   MenuLocation:Meshes - Create mesh segments from best-fit surfaces...
    Workbenches:[Mesh](Mesh_Workbench.md)
    SeeAlso:[Mesh Segmentation](Mesh_Segmentation.md)
 ---

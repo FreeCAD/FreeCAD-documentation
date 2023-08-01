@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign InvoluteGear
    Name/cs:PartDesign InvoluteGear
-   MenuLocation:Part Design → Involute gear...
+   MenuLocation:Part Design - Involute gear...
    Workbenches:[PartDesign](PartDesign_Workbench/cs.md)
 ---
 

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name/de:[Arch Tür](Arch_Door/de.md)
-   MenuLocation:Arch → Fenster
+   MenuLocation:Arch - Fenster
    Workbenches:[Arch](Arch_Workbench/de.md)
    Shortcut:**W** **I**
    SeeAlso:[Wand](Arch_Wall/de.md), [Fenster](Arch_Window/de.md)

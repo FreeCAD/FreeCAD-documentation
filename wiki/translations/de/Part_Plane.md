@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Plane
    Name/de:Part Ebene
-   MenuLocation:Formteil → [Grundkörper erstellen...](Part_Primitives/de.md) → Ebene
+   MenuLocation:Formteil - [Grundkörper erstellen...](Part_Primitives/de.md) - Ebene
    Workbenches:[Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
    SeeAlso:[Part Grundelemente](Part_Primitives/de.md)
 ---

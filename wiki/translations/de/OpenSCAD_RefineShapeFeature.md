@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:OpenSCAD RefineShapeFeature
    Name/de:OpenSCAD FormelementAufbereiten
-   MenuLocation:OpenSCAD → Formelement aufbereiten
+   MenuLocation:OpenSCAD - Formelement aufbereiten
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
 ---
 

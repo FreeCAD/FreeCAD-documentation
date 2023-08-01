@@ -3,7 +3,7 @@
    Name:Spreadsheet StyleBold
    Name/it:Grassetto
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)
-   MenuLocation:Spreadsheet → Stile → Grassetto
+   MenuLocation:Spreadsheet - Stile - Grassetto
    Version:0.17
 ---
 

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM ConstraintSelfWeight
    Name/ru:FEM ConstraintSelfWeight
-   MenuLocation:FEM → Constraint self weight
+   MenuLocation:FEM - Constraint self weight
    Workbenches:[FEM](FEM_Workbench/ru.md)
    Shortcut:C,W
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)

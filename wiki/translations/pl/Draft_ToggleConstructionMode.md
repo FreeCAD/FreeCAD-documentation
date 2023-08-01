@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft ToggleConstructionMode
    Name/pl:Rysunek Roboczy: Przełącz tryb konstrukcyjny
-   MenuLocation:Kreślenie → Przybory → Przełącz tryb konstrukcyjny
+   MenuLocation:Kreślenie - Przybory - Przełącz tryb konstrukcyjny
    Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
    SeeAlso:[Dodaj do grupy konstrukcyjnej](Draft_AddConstruction/pl.md), [Grupowanie automatyczne](Draft_AutoGroup/pl.md)
 ---

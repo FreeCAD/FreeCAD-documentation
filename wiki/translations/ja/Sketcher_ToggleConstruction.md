@@ -3,7 +3,7 @@
    Name:Sketcher_ToggleConstruction
    Name/ja:Sketcher_ToggleConstruction
    Workbenches:[スケッチャー](Sketcher_Workbench/ja.md), [パートデザイン](PartDesign_Workbench/ja.md)
-   MenuLocation:Sketch → Sketcher geometries → Toggle construction line
+   MenuLocation:Sketch - Sketcher geometries - Toggle construction line
 ---
 
 # Sketcher ToggleConstruction/ja

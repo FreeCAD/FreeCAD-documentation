@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionPosVertChainDimension
    Name/fr:TechDraw Aligner verticalement
-   MenuLocation:TechDraw → Extensions : attributs/modifications → Aligner verticalement
+   MenuLocation:TechDraw - Extensions : attributs/modifications - Aligner verticalement
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut:
    Version:0.20

@@ -3,7 +3,7 @@
    Name:Std RecentFiles
    Name/pl:Std: Ostatnio używane pliki
    Empty:1
-   MenuLocation:Plik → Ostatnio używane pliki
+   MenuLocation:Plik - Ostatnio używane pliki
    Workbenches:wszystkie
    SeeAlso:[Otwórz](Std_Open/pl.md), [Importuj](Std_Import/pl.md)
 ---

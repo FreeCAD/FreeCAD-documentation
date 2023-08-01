@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft FlipDimension
    Name/tr:Boyutu çevir
-   MenuLocation:Draft → Utilities → Flip Dimension
+   MenuLocation:Draft - Utilities - Flip Dimension
    Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
    SeeAlso:[Dimension](Draft_Dimension/tr.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh CrossSections
    Name/fr:Mesh Coupes
-   MenuLocation:Maillages → Couper → Coupes...
+   MenuLocation:Maillages - Couper - Coupes...
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
    SeeAlso:[Mesh Section](Mesh_SectionByPlane/fr.md)
 ---

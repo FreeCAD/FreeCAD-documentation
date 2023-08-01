@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Увеличить степень B-сплайна
    Name:Sketcher_BSplineIncreaseDegree
-   MenuLocation:Sketch → B-сплйан инструменты эскиза → Увеличить степень B-сплайна
+   MenuLocation:Sketch - B-сплйан инструменты эскиза - Увеличить степень B-сплайна
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Version:0.17
    SeeAlso:[Показать/скрыть степень B-сплайна](Sketcher_BSplineDegree/ru.md), [Уменьшить степень B-сплайна](Sketcher_BSplineDecreaseDegree/ru.md)

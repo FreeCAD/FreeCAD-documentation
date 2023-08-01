@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Path Drilling
-   MenuLocation:Path → Drilling
+   MenuLocation:Path - Drilling
    Workbenches:[Path](Path_Workbench.md)
 ---
 

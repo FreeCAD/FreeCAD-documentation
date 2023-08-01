@@ -2,7 +2,7 @@
 - GuiCommand:Addon/it
    Name:BIM_Library
    Name/it:Libreria BIM
-   MenuLocation:Modellazione 3D → Libreria
+   MenuLocation:Modellazione 3D - Libreria
    Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/it.md)
    Addon:BIM
    SeeAlso:[Arredo](Arch_Equipment/it.md)

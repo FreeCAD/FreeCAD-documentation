@@ -1,6 +1,6 @@
 # Draft Arc/cs
 ---
-- GuiCommand:   Name:Draft_Arc   Name/cs:Kreslení oblouk   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení → Oblouk   Shortcut:A R   SeeAlso:[Kreslení kružnice](Draft_Circle/cs.md)---
+- GuiCommand:   Name:Draft_Arc   Name/cs:Kreslení oblouk   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení - Oblouk   Shortcut:A R   SeeAlso:[Kreslení kružnice](Draft_Circle/cs.md)---
 
 
 </div>

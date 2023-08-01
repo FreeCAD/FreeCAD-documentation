@@ -4,7 +4,7 @@
    Name/pl:BIM: kopiuj
    Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/pl.md)
    Addon:BIM
-   MenuLocation:Modify → Kopiuj
+   MenuLocation:Modify - Kopiuj
    SeeAlso:[Przesuń](Draft_Move/pl.md)
 ---
 

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionCascadeObliqueDimension
    Name/fr:TechDraw Cascade oblique
-   MenuLocation:TechDraw → Extensions : attributs/modifications → Cascader obliquement les cotes
+   MenuLocation:TechDraw - Extensions : attributs/modifications - Cascader obliquement les cotes
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut:
    Version:0.20

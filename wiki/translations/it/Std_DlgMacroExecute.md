@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_DlgMacroExecute
    Name/it:Esegui la macro
-   MenuLocation:Macro → Esegui la macro
+   MenuLocation:Macro - Esegui la macro
    Workbenches:Tutti
    SeeAlso:[Esegui la macro nell'editor](Std_DlgMacroExecuteDirect/it.md)
 ---

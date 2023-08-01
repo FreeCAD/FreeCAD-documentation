@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Circle
    Name/pl:Draft: Okrąg
-   MenuLocation:Drafting → Okrąg
+   MenuLocation:Drafting - Okrąg
    Workbenches:[Rysunek roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
    Shortcut:**C** **I**
    Version:0.7

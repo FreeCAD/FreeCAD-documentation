@@ -3,7 +3,7 @@
    Name:Sketcher Extend
    Name/it:Estendi bordo
    Icon:Sketcher Extend.svg
-   MenuLocation:Sketch → Geometrie → Estendi bordo
+   MenuLocation:Sketch - Geometrie - Estendi bordo
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)
    SeeAlso:[Rifila](Sketcher_Trimming/it.md)
    Version:0.17

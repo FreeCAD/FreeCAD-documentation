@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Apply
    Name/ro:Draft Apply
-   MenuLocation:Draft → Utilities → Apply style
+   MenuLocation:Draft - Utilities - Apply style
    Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
    SeeAlso:[Draft SetStyle](Draft_SetStyle.md)
 ---

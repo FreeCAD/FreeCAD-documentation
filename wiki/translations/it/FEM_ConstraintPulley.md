@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM_ConstraintPulley
    Name/it:Vincolo puleggia
-   MenuLocation:Modello → Vincoli meccanici → Vincolo puleggia
+   MenuLocation:Modello - Vincoli meccanici - Vincolo puleggia
    Workbenches:[FEM](FEM_Workbench/it.md)
    Shortcut:
    SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)

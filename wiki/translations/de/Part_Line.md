@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Line
    Name/de:Part Linie
-   MenuLocation:Formteil → [Erstelle Grundelemente](Part_Primitives/de.md) → Linie
+   MenuLocation:Formteil - [Erstelle Grundelemente](Part_Primitives/de.md) - Linie
    Workbenches:[Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
    SeeAlso:[Part Grundelemente](Part_Primitives/de.md)
 ---

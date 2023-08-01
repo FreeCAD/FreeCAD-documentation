@@ -3,7 +3,7 @@
    Name:TechDraw Dimension Radius
    Name/it:Raggio
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   MenuLocation:TechDraw → Raggio
+   MenuLocation:TechDraw - Raggio
    Shortcut:
    SeeAlso:[Diametro](TechDraw_DiameterDimension/it.md)
 ---

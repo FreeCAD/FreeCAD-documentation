@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path ToolBitDock
    Name/fr:Path Sélecteur d'outils coupants
-   MenuLocation:Path → Sélecteur des outils coupants
+   MenuLocation:Path - Sélecteur des outils coupants
    Workbenches:[Path](Path_Workbench/fr.md)
    Shortcut:**P** **T**
    Version:0.19

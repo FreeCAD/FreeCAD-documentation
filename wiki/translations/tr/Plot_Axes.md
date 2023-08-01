@@ -2,7 +2,7 @@
 ---
 - GuiCommand:
    Name/tr:Eksen
-   MenuLocation:Arsa → Eksen
+   MenuLocation:Arsa - Eksen
 ‏‎   |Workbenches:[Arsa](Plot_Workbench/tr.md)
    Shortcut:
    SeeAlso:---

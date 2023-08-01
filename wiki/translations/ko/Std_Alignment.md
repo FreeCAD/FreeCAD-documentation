@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std Alignment
    Name/ko:표준 정렬
-   MenuLocation:편집 → 정렬...
+   MenuLocation:편집 - 정렬...
    Workbenches:모두
    SeeAlso:[표준 위치 설정](Std_Placement/ko.md)
 ---

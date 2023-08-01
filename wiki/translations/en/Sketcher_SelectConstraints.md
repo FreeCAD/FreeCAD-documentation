@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher SelectConstraints
-   MenuLocation:Sketch → Sketcher tools → Select associated constraints
+   MenuLocation:Sketch - Sketcher tools - Select associated constraints
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**Z** **K**
    Version:0.15

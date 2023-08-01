@@ -3,7 +3,7 @@
    Name:Draft Rotate
    Name/es:Draft Rotate
    Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   MenuLocation:Croquis → Girar
+   MenuLocation:Croquis - Girar
    Shortcut:**R** **O**
 ---
 

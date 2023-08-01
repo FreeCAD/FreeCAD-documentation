@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft Hatch
-   MenuLocation:Drafting → Hatch
+   MenuLocation:Drafting - Hatch
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    Shortcut:**H** **A**
    Version:0.20

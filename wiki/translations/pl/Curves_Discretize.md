@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Curves Discretize
-   MenuLocation:Curves → Discretize
+   MenuLocation:Curves - Discretize
    Workbenches:[Curves](Curves_Workbench.md)
 ---
 

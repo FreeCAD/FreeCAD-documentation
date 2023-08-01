@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign SubtractivePrism
    Name/de:PartDesign PrismaAbziehen
-   MenuLocation:Part Design → Grundkörper abziehen → Prisma
+   MenuLocation:Part Design - Grundkörper abziehen - Prisma
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
    SeeAlso:[PartDesign AuswahlGrundkörperAbziehen](PartDesign_CompPrimitiveSubtractive/de.md), [PartDesign PrismaHinzufügen](PartDesign_AdditivePrism/de.md)

@@ -1,6 +1,6 @@
 # Part ReverseShapes/it
 ---
-- GuiCommand:   Name:Part ReverseShapes   Name/it:‏‎Inverti forme   Empty:1‏‎   MenuLocation:Part → Inverti forme   Workbenches:[[Part Workbench/it   Part]]|SeeAlso:---
+- GuiCommand:   Name:Part ReverseShapes   Name/it:‏‎Inverti forme   Empty:1‏‎   MenuLocation:Part - Inverti forme   Workbenches:[[Part Workbench/it   Part]]|SeeAlso:---
 
 
 </div>

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path Helix
    Name/fr:Path Hélice 
-   MenuLocation:Path → Hélice
+   MenuLocation:Path - Hélice
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 

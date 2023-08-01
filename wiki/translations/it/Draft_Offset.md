@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Offset
    Name/it:Offset
-   MenuLocation:Modifiche → Offset
+   MenuLocation:Modifiche - Offset
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**O** **S**
    SeeAlso:[Part Offset 2D](Part_Offset2D/it.md)

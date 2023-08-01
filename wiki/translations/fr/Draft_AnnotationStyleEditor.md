@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft AnnotationStyleEditor
    Name/fr:Draft Éditeur de styles d'annotations
-   MenuLocation:Annotation → Éditeur de styles d'annotations...
+   MenuLocation:Annotation - Éditeur de styles d'annotations...
    Workbenches:[Draft](Draft_Workbench/fr.md)
    SeeAlso:[Draft Texte](Draft_Text/fr.md), [Draft Étiquette](Draft_Label/fr.md), [Draft Dimension](Draft_Dimension/fr.md)
    Version:0.19

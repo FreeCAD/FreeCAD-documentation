@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Measure Angular
    Name/it:Misura angolare
-   MenuLocation:{{StdMenu|[Misure](Std_Measure_Menu/it.md)}} → Misura angolare‏‎
+   MenuLocation:{{StdMenu|[Misure](Std_Measure_Menu/it.md)}} - Misura angolare‏‎
    Workbenches:[Part](Part_Workbench/it.md)
 ---
 

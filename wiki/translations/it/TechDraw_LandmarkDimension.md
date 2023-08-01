@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw LandmarkDimension
    Name/it:Quota da punti di riferimento
-   MenuLocation:TechDraw → Quota da punti di riferimento
+   MenuLocation:TechDraw - Quota da punti di riferimento
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)
    SeeAlso:[Dimensione orizzontale](TechDraw_HorizontalDimension/it.md), [Dimensione verticale](TechDraw_VerticalDimension/it.md)
    Version:0.19

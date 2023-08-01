@@ -3,7 +3,7 @@
 - GuiCommand:
    Name:Mesh_Difference
    Name/it:Differenza
-   MenuLocation:Mesh → Operazione booleana → Differenza
+   MenuLocation:Mesh - Operazione booleana - Differenza
    Workbenches:[Mesh](Mesh_Workbench/it.md)---
 
 ## Descrizione

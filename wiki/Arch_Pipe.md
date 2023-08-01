@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch Pipe
-   MenuLocation:Arch → Pipe Tools → Pipe
+   MenuLocation:Arch - Pipe Tools - Pipe
    Workbenches:[Arch](Arch_Workbench.md)
    Shortcut:**P** **I**
    Version:0.17

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CreateRectangle
    Name/de:Sketcher RechteckErstellen
-   MenuLocation:Sketch → Skizzengeometrien → Rechteck erstellen
+   MenuLocation:Sketch - Skizzengeometrien - Rechteck erstellen
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Shortcut:**G** **R**
    SeeAlso:[Sketcher Abgerundetes Rechteck erstellen](Sketcher_CreateOblong/de.md), [Sketcher LinienzugErstellen](Sketcher_CreatePolyline/de.md)

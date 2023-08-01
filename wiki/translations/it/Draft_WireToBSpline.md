@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft WireToBSpline
    Name/it:Polilinea in B-spline
-   MenuLocation:Modifiche → Polilinea in B-spline
+   MenuLocation:Modifiche - Polilinea in B-spline
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    SeeAlso:[Polilinea](Draft_Wire/it.md), [B-spline](Draft_BSpline/it.md)
 ---

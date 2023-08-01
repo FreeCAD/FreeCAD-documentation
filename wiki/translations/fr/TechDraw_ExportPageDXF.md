@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExportPageDXF
    Name/fr:TechDraw Exporter au format DXF
-   MenuLocation:TechDraw → Page → Exporter une page au format DXF
+   MenuLocation:TechDraw - Page - Exporter une page au format DXF
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Version:0.18
    SeeAlso:[TechDraw Exporter au format SVG](TechDraw_ExportPageSVG/fr.md), [Draft DXF](Draft_DXF/fr.md)

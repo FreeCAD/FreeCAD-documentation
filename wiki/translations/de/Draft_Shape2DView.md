@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Shape2DView
    Name/de:Draft Form2DAnsicht
-   MenuLocation:Änderung → Form in 2D Ansicht
+   MenuLocation:Änderung - Form in 2D Ansicht
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    SeeAlso:[TechDraw FormProjizieren](TechDraw_ProjectShape/de.md)
 ---

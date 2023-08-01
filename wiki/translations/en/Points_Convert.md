@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Points Convert
-   MenuLocation:Points → Convert to points...
+   MenuLocation:Points - Convert to points...
    Workbenches:[Points](Points_Workbench.md)
 ---
 

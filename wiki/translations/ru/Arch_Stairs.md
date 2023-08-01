@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Лестница
    Name:Arch_Stairs
-   MenuLocation:Arch → Лестница
+   MenuLocation:Arch - Лестница
    Workbenches:[Arch](Arch_Workbench/ru.md)
    Shortcut:**S** **R**
    Version:0.14

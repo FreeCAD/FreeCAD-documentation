@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Assembly3 GroupObjects
    Icon:Assembly_New_Group.svg
-   MenuLocation:Assembly3 → Group objects
+   MenuLocation:Assembly3 - Group objects
    Workbenches:[Assembly3](Assembly3_Workbench.md)
    Shortcut:**A** **Z**
 ---

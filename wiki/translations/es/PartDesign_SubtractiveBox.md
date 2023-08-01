@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign SubtractiveBox
    Name/es:PartDesign Caja Sustractiva
-   MenuLocation:Part Design → Crear una primitiva sustractiva → Caja sustractiva
+   MenuLocation:Part Design - Crear una primitiva sustractiva - Caja sustractiva
    Workbenches:[PartDesign](PartDesign_Workbench/es.md)
    Version:0.17
    SeeAlso:[Crear una Primitiva sustractiva](PartDesign_CompPrimitiveSubtractive/es.md)

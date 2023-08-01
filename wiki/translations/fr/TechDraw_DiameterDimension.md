@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw DiameterDimension
    Name/fr:TechDraw Cote de diamètre
-   MenuLocation:TechDraw → Dimensions → Insérer une cote de diamètre
+   MenuLocation:TechDraw - Dimensions - Insérer une cote de diamètre
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    SeeAlso:[TechDraw Cote de rayon](TechDraw_RadiusDimension/fr.md)
 ---

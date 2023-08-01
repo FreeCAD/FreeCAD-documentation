@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh Segmentation
    Name/fr:Mesh Segmentation
-   MenuLocation:Maillages → Segmenter le maillage...
+   MenuLocation:Maillages - Segmenter le maillage...
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
    SeeAlso:[Mesh Segmentation adaptée](Mesh_SegmentationBestFit/fr.md)
 ---

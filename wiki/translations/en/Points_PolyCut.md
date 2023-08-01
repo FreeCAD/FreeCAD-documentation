@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Points PolyCut
-   MenuLocation:Points → Cut point cloud
+   MenuLocation:Points - Cut point cloud
    Workbenches:[Points](Points_Workbench.md)
 ---
 

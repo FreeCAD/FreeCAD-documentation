@@ -1,6 +1,6 @@
 # Part Sweep/it
 ---
-- GuiCommand:   Name:Part Sweep   Name/it:Sweep   MenuLocation:Parte → Sweep...   |Workbenches:[SeeAlso:[[Part_Loft/it|Loft](Part_Workbench/it___Parte]].md)---
+- GuiCommand:   Name:Part Sweep   Name/it:Sweep   MenuLocation:Parte - Sweep...   |Workbenches:[SeeAlso:[[Part_Loft/it|Loft](Part_Workbench/it___Parte]].md)---
 
 
 </div>

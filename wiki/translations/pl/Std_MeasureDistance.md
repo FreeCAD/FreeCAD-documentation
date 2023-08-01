@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std MeasureDistance
    Name/pl:Std: Wymiarowanie odległości
-   MenuLocation:Przybory → Wymiarowanie odległości
+   MenuLocation:Przybory - Wymiarowanie odległości
    Workbenches:wszystkie
    SeeAlso:[Wymiarowanie liniowe](Part_Measure_Linear/pl.md), [Wymiarowanie](Draft_Dimension/pl.md)
 ---

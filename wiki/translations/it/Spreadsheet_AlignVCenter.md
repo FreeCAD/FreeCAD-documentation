@@ -3,7 +3,7 @@
    Name:Spreadsheet_AlignVCenter
    Name/it:Centra in verticale
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)
-   MenuLocation:Spreadsheet → Allineamento → Centra in verticale
+   MenuLocation:Spreadsheet - Allineamento - Centra in verticale
    Version:0.17
 ---
 

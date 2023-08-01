@@ -1,6 +1,6 @@
 # Draft Clone/ro
 ---
-- GuiCommand:   Name:Draft Clone   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft → Clone   SeeAlso:[Draft Scale](Draft_Scale.md)---
+- GuiCommand:   Name:Draft Clone   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft - Clone   SeeAlso:[Draft Scale](Draft_Scale.md)---
 
 
 </div>

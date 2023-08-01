@@ -3,7 +3,7 @@
    Name:Path Job
    Name/es:Trayectoria Pedido
    Workbenches:[Trayectoria](Path_Workbench.md)
-   MenuLocation:Trayectoria → Pedido
+   MenuLocation:Trayectoria - Pedido
    Shortcut:**P** **F**
    SeeAlso:
 ---

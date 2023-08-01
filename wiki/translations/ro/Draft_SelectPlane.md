@@ -3,7 +3,7 @@
    Name:Draft SelectPlane
    Name/ro:Draft SelectPlane
    Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   MenuLocation:Draft → Utilities → Select Plane
+   MenuLocation:Draft - Utilities - Select Plane
    Shortcut:**W** **P**
    SeeAlso:[[Draft SetWorkingPlaneProxy]]
 ---

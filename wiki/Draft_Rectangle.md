@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft Rectangle
-   MenuLocation:Drafting → Rectangle
+   MenuLocation:Drafting - Rectangle
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    Shortcut:**R** **E**
    Version:0.7

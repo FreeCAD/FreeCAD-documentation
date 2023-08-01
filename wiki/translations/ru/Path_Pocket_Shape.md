@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path Pocket
    Name/ru:Path Pocket
-   MenuLocation:Path → Pocket Shape
+   MenuLocation:Path - Pocket Shape
    Workbenches:[Path](Path_Workbench/ru.md)
    Shortcut:**P** **O**
    SeeAlso:

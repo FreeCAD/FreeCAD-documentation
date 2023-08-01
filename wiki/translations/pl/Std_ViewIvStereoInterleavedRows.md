@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewIvStereoInterleavedRows
    Name/pl:Std: Widok stereo z przeplotem wierszy
-   MenuLocation:Widok → Widok trójwymiarowy → Widok z przeplotem wierszy
+   MenuLocation:Widok - Widok trójwymiarowy - Widok z przeplotem wierszy
    Workbenches:wszystkie
    SeeAlso:[Widok stereo czerwony / cyjan](Std_ViewIvStereoRedGreen/pl.md),  [Widok poczwórny bufor stereo](Std_ViewIvStereoQuadBuff/pl.md), [Widok stereo z przeplotem kolumn](Std_ViewIvStereoInterleavedColumns/pl.md), [Wyłącz widok trójwymiarowy](Std_ViewIvStereoOff/pl.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part ReverseShapes
    Name/pl:Część: Odwróć kształty
-   MenuLocation:Część → Odwróć kształty
+   MenuLocation:Część - Odwróć kształty
    Workbenches:[Część](Part_Workbench/pl.md)
 ---
 

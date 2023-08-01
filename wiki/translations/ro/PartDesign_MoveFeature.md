@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign MoveFeature
    Empty:1
-   MenuLocation:Contextual menu → Move object to other body
+   MenuLocation:Contextual menu - Move object to other body
    Workbenches:[PartDesign](PartDesign_Workbench.md)
    Version:0.17
    SeeAlso:[Set tip](PartDesign_MoveTip.md), [Move object after other object](PartDesign_MoveFeatureInTree.md)

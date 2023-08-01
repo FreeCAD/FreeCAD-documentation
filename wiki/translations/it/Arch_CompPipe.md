@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch CompPipe
    Name/it:Tubazioni
-   MenuLocation:Arch → Tubazioni
+   MenuLocation:Arch - Tubazioni
    Workbenches:[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
    SeeAlso:
    Version:0.17

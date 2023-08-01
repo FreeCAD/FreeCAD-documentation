@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft Line
-   MenuLocation:Draft → Line
+   MenuLocation:Draft - Line
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    Shortcut:L I
    SeeAlso:[Draft Wire](Draft_Wire.md), [[Draft Point]]

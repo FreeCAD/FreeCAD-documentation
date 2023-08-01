@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh Union‏‎
    Name/ru:Mesh Union‏‎
-   MenuLocation:Сетки → Булевы операции → Объединение
+   MenuLocation:Сетки - Булевы операции - Объединение
    Workbenches:[Mesh](Mesh_Workbench/ru.md)
    Shortcut:
    SeeAlso:[Объединить](Mesh_Merge/ru.md)

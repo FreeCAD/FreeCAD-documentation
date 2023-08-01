@@ -1,6 +1,6 @@
 # Part ProjectionOnSurface/it
 ---
-- GuiCommand:   Name:Part ProjectionOnSurface   Name/it:Proiezione su superficie   MenuLocation:Part → Crea proiezione su superficie...   |Workbenches:[[Part_Workbench/it   Part]]|SeeAlso:   Version:0.19---
+- GuiCommand:   Name:Part ProjectionOnSurface   Name/it:Proiezione su superficie   MenuLocation:Part - Crea proiezione su superficie...   |Workbenches:[[Part_Workbench/it   Part]]|SeeAlso:   Version:0.19---
 
 
 </div>

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft ApplyStyle
-   MenuLocation:Utilities → Apply current style
+   MenuLocation:Utilities - Apply current style
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    SeeAlso:[Draft SetStyle](Draft_SetStyle.md)
 ---

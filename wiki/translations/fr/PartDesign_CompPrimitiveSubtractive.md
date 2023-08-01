@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign CompPrimitiveSubtractive
    Name/fr:PartDesign Primitives soustractives
-   MenuLocation:Part Design → Créer une primitive soustractive
+   MenuLocation:Part Design - Créer une primitive soustractive
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    Version:0.17
    SeeAlso:[PartDesign Primitives additives](PartDesign_CompPrimitiveAdditive/fr.md)

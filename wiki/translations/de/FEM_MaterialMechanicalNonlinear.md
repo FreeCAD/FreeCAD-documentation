@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM MaterialMechanicalNonlinear
    Name/de:FEM MaterialMechanischNichtlinear
-   MenuLocation:Modell → Materialien → Nichtlineares mechanisches Material
+   MenuLocation:Modell - Materialien - Nichtlineares mechanisches Material
    Workbenches:[FEM](FEM_Workbench/de.md)
    SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw GeometricHatch
    Name/pl:Rysunek Techniczny: Zastosuj na powierzchni kreskowanie geometryczne
-   MenuLocation:Rysunek Techniczny → Kreskowanie → Zastosuj na powierzchni kreskowanie geometryczne
+   MenuLocation:Rysunek Techniczny - Kreskowanie - Zastosuj na powierzchni kreskowanie geometryczne
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    SeeAlso:[Kreskowanie powierzchni](TechDraw_Hatch/pl.md), [Kreskowanie](TechDraw_Hatching/pl.md)
 ---

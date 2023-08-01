@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Upgrade
    Name/pl:Draft: Ulepsz kształt
-   MenuLocation:Modyfikacja → Upgrade
+   MenuLocation:Modyfikacja - Upgrade
    Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
    Shortcut:**U** **P**
    SeeAlso:[Rozbij kształt](Draft_Downgrade/pl.md)

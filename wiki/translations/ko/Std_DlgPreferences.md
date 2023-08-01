@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std DlgPreferences
    Name/ko:표준 환경 설정
-   MenuLocation:편집 → 환경 설정...
+   MenuLocation:편집 - 환경 설정...
    Workbenches:모두
    SeeAlso:[환경 설정 편집기](Preferences_Editor/ko.md)
 ---

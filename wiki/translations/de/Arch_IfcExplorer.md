@@ -3,7 +3,7 @@
    Name:Arch IfcExplorer
    Name/de:Arch IfcExplorer
    Icon:IFC.svg
-   MenuLocation:Arch → Dienstprogramme → Ifc Explorer
+   MenuLocation:Arch - Dienstprogramme - Ifc Explorer
    Workbenches:[Arch](Arch_Workbench/de.md)
    SeeAlso:[Architektur IFC](Arch_IFC/de.md)
 ---

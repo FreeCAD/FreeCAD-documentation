@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign WizardShaft
    Name/pl:Projekt Części: Kreator projektowania wału
-   MenuLocation:Projekt Części → Kreator projektowania wału ...
+   MenuLocation:Projekt Części - Kreator projektowania wału ...
    Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
 ---
 

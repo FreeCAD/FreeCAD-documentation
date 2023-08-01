@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewHome
    Name/pl:Std: Widok domyślny
-   MenuLocation:Widok → Widoki standardowe → Widok domyślny
+   MenuLocation:Widok - Widoki standardowe - Widok domyślny
    Workbenches:wszystkie
    Shortcut:**Home**
    Version:0.19

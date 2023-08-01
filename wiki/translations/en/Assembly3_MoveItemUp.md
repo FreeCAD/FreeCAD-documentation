@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Assembly3 MoveItemUp
    Icon:Assembly_TreeItemUp.svg‎‎
-   MenuLocation:Assembly3 → Move item up
+   MenuLocation:Assembly3 - Move item up
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 

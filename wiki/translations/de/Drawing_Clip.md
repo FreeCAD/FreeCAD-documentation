@@ -1,6 +1,6 @@
 # Drawing Clip/de
 ---
-- GuiCommand:   Name/de:Drawing Ausschnitt   Workbenches:[[Drawing Workbench/de   Drawing]], Complete|MenuLocation:Drawing → Ausschnitt   Shortcut:-   SeeAlso:
+- GuiCommand:   Name/de:Drawing Ausschnitt   Workbenches:[[Drawing Workbench/de   Drawing]], Complete|MenuLocation:Drawing - Ausschnitt   Shortcut:-   SeeAlso:
 
 
 **Die Entwicklung des Drawing-Moduls wurde gestoppt und ein neuer in v0.17 eingeführter [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) zielt darauf, es zu setzen. Beide Module stehen in v0.17 zur Verfügung, aber das Drawing-Modul könnte in zukünftigen Ausgaben entfernt werden.**

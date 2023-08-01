@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft AddToGroup
    Name/de:Draft ZurGruppeHinzufügen
-   MenuLocation:Dienstprogramme → Zur Gruppe hinzufügen...
+   MenuLocation:Dienstprogramme - Zur Gruppe hinzufügen...
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    SeeAlso:[Std Gruppe](Std_Group/de.md), [Draft BenannteGruppeHinzufügen](Draft_AddNamedGroup/de.md), [Draft ZurKonstruktionsgruppeHinzufügen](Draft_AddConstruction/de.md), [Draft Autogruppe](Draft_AutoGroup/de.md)
 ---

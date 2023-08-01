@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Robot SetDefaultOrientation
    Name/pl:Robot: Ustaw domyślą orientację
-   MenuLocation:Robot → Ustaw domyślą orientację
+   MenuLocation:Robot - Ustaw domyślą orientację
    Workbenches:[Robot](Robot_Workbench/pl.md)
    SeeAlso:...
 ---

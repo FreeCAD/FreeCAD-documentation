@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Arc 3Points
    Name/ru:Draft Arc 3Points
-   MenuLocation:Draft → Arc 3 points
+   MenuLocation:Draft - Arc 3 points
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:**A** **T**
    Version:0.19

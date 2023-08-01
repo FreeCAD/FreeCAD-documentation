@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Add
    Name/tr:Mimari Ekle
-   MenuLocation:Mimari → Ekle
+   MenuLocation:Mimari - Ekle
    Workbenches:[Mimari](Arch_Workbench/tr.md)
    SeeAlso:[Mimari Kaldır](Arch_Remove/tr.md)
 ---

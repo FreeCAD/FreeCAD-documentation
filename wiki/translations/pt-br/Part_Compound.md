@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Part Compound‏‎
-   MenuLocation:Part → Make compound
+   MenuLocation:Part - Make compound
    Workbenches:[Part](Part_Workbench.md)
    Version:0.14
    SeeAlso:[Part Fuse](Part_Fuse.md), [Part CompoundFilter](Part_CompoundFilter.md), [Part ExplodeCompound](Part_ExplodeCompound.md)

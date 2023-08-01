@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part SliceApart
    Name/ru:Part SliceApart
-   MenuLocation:Деталь → Разделить → Slice Apart
+   MenuLocation:Деталь - Разделить - Slice Apart
    Workbenches:[Part](Part_Workbench/ru.md)
    Version:0.18
    SeeAlso:[Part Slice to compound](Part_Slice/ru.md), [Part Explode Compound](Part_ExplodeCompound/ru.md)

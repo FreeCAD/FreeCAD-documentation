@@ -4,7 +4,7 @@
    Name/fr:Drawing Projection de forme
    Empty:1
    Workbenches:[Drawing](Drawing_Workbench/fr.md)
-   MenuLocation:Drawing → Projeter la forme...
+   MenuLocation:Drawing - Projeter la forme...
 ---
 
 # Drawing ProjectShape/fr

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_CloseAllWindows
    Name/de:Std AllesSchließen
-   MenuLocation:Datei → Alles schließen
+   MenuLocation:Datei - Alles schließen
    Workbenches:Alle
    SeeAlso:[Std Schließen](Std_CloseActiveWindow/de.md)
 ---

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Raytracing InsertPart
-   MenuLocation:Raytracing → InsertPart‏‎
+   MenuLocation:Raytracing - InsertPart‏‎
    Workbenches:[Raytracing](Raytracing_Workbench.md)
    Shortcut:
    SeeAlso:

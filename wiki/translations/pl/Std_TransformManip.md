@@ -2,8 +2,8 @@
 - GuiCommand:
    Name:Std TransformManip
    Name/pl:Std: Przemieszczenie
-   MenuLocation:Kliknij prawym przyciskiem na obiekt w widoku drzewa → Przekształć
-Edycja → Przemieszczenie
+   MenuLocation:Kliknij prawym przyciskiem na obiekt w widoku drzewa - Przekształć
+Edycja - Przemieszczenie
    Workbenches:Wszystkie
    SeeAlso:[Strona Startowa](Std_Base/pl.md)
 ---

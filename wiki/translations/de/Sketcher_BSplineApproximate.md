@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher BSplineApproximate
    Name/de:Sketcher BSplineApproximieren
-   MenuLocation:Sketch → B-Spline-Werkzeuge → Geometrie in B-Spline wandeln
+   MenuLocation:Sketch - B-Spline-Werkzeuge - Geometrie in B-Spline wandeln
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Version:0.17
    SeeAlso:[AuswahlB-SplineErstellen](Sketcher_CompCreateBSpline/de.md)

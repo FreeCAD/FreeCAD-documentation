@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh Smoothing
    Name/pl:Siatka: Wygładź
-   MenuLocation:Siatki → Wygładź ...
+   MenuLocation:Siatki - Wygładź ...
    Workbenches:[Siatka](Mesh_Workbench/pl.md)
 ---
 

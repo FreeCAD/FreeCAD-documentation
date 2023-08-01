@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Rocket Transition
    Name/fr:Rocket Transition
-   MenuLocation:Rocket → Transition
+   MenuLocation:Rocket - Transition
    Workbenches:[Rocket](Rocket_Workbench/fr.md)
    Version:0.19
 ---

@@ -1,6 +1,6 @@
 # Draft Heal/sv
 ---
-- GuiCommand:   Name:Draft Heal   Name/sv:Draft Heal   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft → Utilities → Heal---
+- GuiCommand:   Name:Draft Heal   Name/sv:Draft Heal   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft - Utilities - Heal---
 
 
 </div>

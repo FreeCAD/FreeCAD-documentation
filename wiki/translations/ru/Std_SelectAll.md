@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Выбрать всё
    Name:Std_SelectAll
-   MenuLocation:Правка → Выбрать всё
+   MenuLocation:Правка - Выбрать всё
    Workbenches:Все
    SeeAlso:[Выделить область](Std_BoxSelection/ru.md), [Область выбора элементов](Std_BoxElementSelection/ru.md)
 ---

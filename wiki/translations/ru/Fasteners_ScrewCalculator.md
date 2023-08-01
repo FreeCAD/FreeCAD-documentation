@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Fasteners ScrewCalculator
-   MenuLocation:Fasteners → Screw calculator
+   MenuLocation:Fasteners - Screw calculator
    Workbenches:[Fasteners](Fasteners_Workbench.md)
 ---
 

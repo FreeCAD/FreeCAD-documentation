@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Import‏‎
    Name/it:Importa CAD
-   MenuLocation:Part → Importa CAD
+   MenuLocation:Part - Importa CAD
    Workbenches:[Part](Part_Workbench/it.md)
    SeeAlso:[Esporta CAD](Part_Export/it.md), [Importa](Std_Import/it.md), [Importazione e Esportazione](Import_Export/it.md)
 ---

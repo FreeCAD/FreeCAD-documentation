@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Домой
    Name:Std_ViewHome
-   MenuLocation:Вид → Стандартные виды‏‎ → Домой
+   MenuLocation:Вид - Стандартные виды‏‎ - Домой
    Workbenches:Все
    Shortcut:**Home**
    Version:0.19

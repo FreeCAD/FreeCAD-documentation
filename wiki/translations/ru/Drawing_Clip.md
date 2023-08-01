@@ -3,7 +3,7 @@
    Name:Drawing Clip
    Name/ru:Drawing Clip
    Workbenches:[Drawing](Drawing_Workbench.md), Complete
-   MenuLocation:Чертёж → Клип
+   MenuLocation:Чертёж - Клип
    Shortcut:none
 ---
 

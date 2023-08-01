@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part JoinEmbed
    Name/pl:Część: Osadź obiekt
-   MenuLocation:Część → Połącz → Osadź obiekt
+   MenuLocation:Część - Połącz - Osadź obiekt
    Workbenches:[Część](Part_Workbench/pl.md)
    Version:0.16
    SeeAlso:[Połącz obiekty](Part_JoinConnect/pl.md), [Wycięcie dla obiektu](Part_JoinCutout/pl.md), [Operacja logiczna](Part_Boolean/pl.md), [Grubość](Part_Thickness/pl.md)

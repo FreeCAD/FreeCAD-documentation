@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewLoadImage
    Name/fr:Std Charger une image
-   MenuLocation:Outils → Charger une image...
+   MenuLocation:Outils - Charger une image...
    Workbenches:Tous
    Version:0.21
 ---

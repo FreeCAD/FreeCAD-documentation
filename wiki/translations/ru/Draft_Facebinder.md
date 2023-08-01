@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Facebinder
    Name/ru:Draft Facebinder
-   MenuLocation:Черчение → Граневяз
+   MenuLocation:Черчение - Граневяз
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:**F** **F**
 ---

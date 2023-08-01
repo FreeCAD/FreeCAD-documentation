@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Remove
    Name/sv:Arch Remove
-   MenuLocation:Arch → Remove
+   MenuLocation:Arch - Remove
    Workbenches:[Arch](Arch_Workbench/sv.md)
    SeeAlso:[[Arch Add/sv]]
 ---

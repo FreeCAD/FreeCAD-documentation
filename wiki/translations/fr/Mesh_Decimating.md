@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh Decimating
    Name/fr:Mesh Décimation
-   MenuLocation:Maillages → Décimation...
+   MenuLocation:Maillages - Décimation...
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
 ---
 

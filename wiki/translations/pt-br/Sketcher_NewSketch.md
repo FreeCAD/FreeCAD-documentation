@@ -3,7 +3,7 @@
    Name:Sketcher NewSketch
    Name/pt-br:Criar um esboço
    Workbenches:[Sketcher](Sketcher_Workbench/pt-br.md)
-   MenuLocation:Sketch → Criar um esboço
+   MenuLocation:Sketch - Criar um esboço
    SeeAlso:[Mapear um esboço para uma face](Sketcher_MapSketch/pt-br.md), [Reorientar um esboço...](Sketcher_ReorientSketch/pt-br.md)
 ---
 

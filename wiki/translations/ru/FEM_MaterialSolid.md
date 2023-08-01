@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM MaterialSolid
    Name/ru:FEM MaterialSolid 
-   MenuLocation:Model → Materials → Material for solid
+   MenuLocation:Model - Materials - Material for solid
    Workbenches:[FEM](FEM_Workbench/ru.md)
    Shortcut:**M** **M**
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)

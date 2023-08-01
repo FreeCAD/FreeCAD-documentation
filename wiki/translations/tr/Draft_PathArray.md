@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft PathArray
    Name/tr:Yol dizisi
-   MenuLocation:Draft → PathArray
+   MenuLocation:Draft - PathArray
    Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
    SeeAlso:[Draft Array](Draft_Array/tr.md)
 ---

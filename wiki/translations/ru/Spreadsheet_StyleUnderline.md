@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Подчеркивание текста
    Name:Spreadsheet_StyleUnderline
-   MenuLocation:Электронная таблица → Styles → Подчеркивание текста
+   MenuLocation:Электронная таблица - Styles - Подчеркивание текста
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/ru.md)
    Version:0.17
 ---

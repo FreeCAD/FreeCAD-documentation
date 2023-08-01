@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Управление решателем
    Name:FEM_SolverControl
-   MenuLocation:Решить → Управление решателем
+   MenuLocation:Решить - Управление решателем
    Workbenches:[FEM](FEM_Workbench/ru.md)
    Shortcut:**S** **T**
    SeeAlso:[Запустить решатель](FEM_SolverRun/ru.md)

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ExportPageSVG
-   MenuLocation:TechDraw → Page → Export Page as SVG
+   MenuLocation:TechDraw - Page - Export Page as SVG
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    SeeAlso:[TechDraw Templates](TechDraw_Templates.md), [Draft SVG](Draft_SVG.md)
 ---

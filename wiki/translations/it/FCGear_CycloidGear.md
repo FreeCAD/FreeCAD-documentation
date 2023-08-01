@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FCGear CycloideGear
    Name/it:Ingranaggio cicloidale
-   MenuLocation:FCGear → Create a Cycloide gear
+   MenuLocation:FCGear - Create a Cycloide gear
    Workbenches:[FCGear](FCGear_Workbench/it.md)
    Shortcut:None
    Version:v0.16

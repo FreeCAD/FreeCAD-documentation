@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionCustomizeFormat
    Name/fr:TechDraw Personnaliser le format d'infobulle
-   MenuLocation:TechDraw → Extensions : attributs/modifications → Personnaliser le format de l'infobulle
+   MenuLocation:TechDraw - Extensions : attributs/modifications - Personnaliser le format de l'infobulle
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut:
    Version:0.20

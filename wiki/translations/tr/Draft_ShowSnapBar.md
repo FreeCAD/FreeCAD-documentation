@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft ShowSnapBar
    Name/tr:Yakalama çubuğunu göster
-   MenuLocation:Draft → Utilities → Show Snap Bar
+   MenuLocation:Draft - Utilities - Show Snap Bar
    Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
 ---
 

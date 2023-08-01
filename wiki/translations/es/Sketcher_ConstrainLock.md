@@ -3,7 +3,7 @@
    Name:Sketcher ConstrainLock
    Name/es:Sketcher ConstrainLock
    Workbenches:[Croquizador](Sketcher_Workbench/es.md), [Diseño de Piezas](PartDesign_Workbench/es.md)
-   MenuLocation:Croquizador → Restricciones del Croquizador  → Bloquear
+   MenuLocation:Croquizador - Restricciones del Croquizador  - Bloquear
    SeeAlso:[Croquizador RestringirBloque](Sketcher_ConstrainBlock/es.md)
 ---
 

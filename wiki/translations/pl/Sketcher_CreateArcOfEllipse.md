@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CreateArcOfEllipse
    Name/pl:Szkicownik: Utwórz łuk na podstawie elipsy
-   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz łuk na podstawie elipsy
+   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz łuk na podstawie elipsy
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **E** **A**
    Version:0.15

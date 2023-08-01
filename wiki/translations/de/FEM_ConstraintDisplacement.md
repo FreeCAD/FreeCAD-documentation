@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM ConstraintDisplacement
    Name/de:FEM RandbedingungVersatz
-   MenuLocation:Modell → Mechanische Randbedingungen → Randbedingung Versatz
+   MenuLocation:Modell - Mechanische Randbedingungen - Randbedingung Versatz
    Workbenches:[FEM](FEM_Workbench/de.md)
    Shortcut:
    SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)

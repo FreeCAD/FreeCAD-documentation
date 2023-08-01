@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Circle
    Name/de:Part Kreis
-   MenuLocation:Formteil → [Create primitives](Part_Primitives/de.md) → Kreis
+   MenuLocation:Formteil - [Create primitives](Part_Primitives/de.md) - Kreis
    Workbenches:[Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
    SeeAlso:[Part Grundelemente](Part_Primitives/de.md)
 ---

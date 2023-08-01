@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Measure Toggle Delta
    Name/it:Attiva o disattiva Delta
-   MenuLocation:Misura → Attiva/disattiva Delta
+   MenuLocation:Misura - Attiva/disattiva Delta
    Workbenches:[Part](Part_Workbench/it.md)
    SeeAlso:[Attiva o Disattiva tutte le misure](Part_Measure_Toggle_All/it.md), [Attiva o Disattiva le misure 3D](Part_Measure_Toggle_3D/it.md)
 ---

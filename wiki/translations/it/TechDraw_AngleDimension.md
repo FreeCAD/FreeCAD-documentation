@@ -3,7 +3,7 @@
    Name:TechDraw Dimension Angle
    Name/it:Angolo
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   MenuLocation:TechDraw → Angolo
+   MenuLocation:TechDraw - Angolo
    Shortcut:
    SeeAlso:[Angolo da tre punti](TechDraw_3PtAngleDimension.md)
 ---

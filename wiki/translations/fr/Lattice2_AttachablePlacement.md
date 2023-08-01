@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Lattice2 AttachablePlacement
    Name/fr:Lattice2 AttachablePlacement
-   MenuLocation:Lattice2 → Attached Placement → Attached Placement
+   MenuLocation:Lattice2 - Attached Placement - Attached Placement
    Workbenches:[Lattice2](Lattice2_Workbench/fr.md)
    Shortcut:
    SeeAlso:

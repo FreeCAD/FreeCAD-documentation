@@ -3,7 +3,7 @@
    Name:PartDesign_ShapeBinder
    Name/it:Forme legate
    Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:Part Design → forme legate
+   MenuLocation:Part Design - forme legate
    Version:0.17
    SeeAlso:[PartDesign Forme legate secondarie](PartDesign_SubShapeBinder/it.md),
  [Clone](PartDesign_Clone/it.md)

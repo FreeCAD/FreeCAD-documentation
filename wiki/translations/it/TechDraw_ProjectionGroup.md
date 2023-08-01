@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw_ProjectionGroup
    Name/it:Gruppo di proiezioni
-   MenuLocation:TechDraw → Gruppo di proiezioni
+   MenuLocation:TechDraw - Gruppo di proiezioni
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)
    Shortcut:
    SeeAlso:[Vista](TechDraw_View/it.md), [Vista di sezione](TechDraw_SectionView/it.md)

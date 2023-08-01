@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft AddToGroup
-   MenuLocation:Utilities → Move to group...
+   MenuLocation:Utilities - Move to group...
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    SeeAlso:[Std Group](Std_Group.md), [Draft AddNamedGroup](Draft_AddNamedGroup.md), [Draft AddConstruction](Draft_AddConstruction.md), [Draft AutoGroup](Draft_AutoGroup.md)
 ---

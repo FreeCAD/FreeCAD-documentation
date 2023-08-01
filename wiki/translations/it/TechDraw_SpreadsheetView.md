@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw_SpreadsheetView
    Name/it:Vista di foglio di calcolo
-   MenuLocation:TechDraw → Vista di foglio di calcolo
+   MenuLocation:TechDraw - Vista di foglio di calcolo
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)
    SeeAlso:[Foglio di calcolo](Spreadsheet_Workbench/it.md)
 ---

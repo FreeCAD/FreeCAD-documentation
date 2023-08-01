@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std HideSelection
-   MenuLocation:View → Visibility → Hide selection
+   MenuLocation:View - Visibility - Hide selection
    Workbenches:All
    SeeAlso:[Std ToggleVisibility](Std_ToggleVisibility.md), [Std ShowSelection](Std_ShowSelection.md), [Std ToggleObjects](Std_ToggleObjects.md), [Std ShowObjects](Std_ShowObjects.md), [Std HideObjects](Std_HideObjects.md)
 ---

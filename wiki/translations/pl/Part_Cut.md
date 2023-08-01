@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Cut
    Name/pl:Część: Wytnij
-   MenuLocation:Część → Operacje logiczne → Wytnij
+   MenuLocation:Część - Operacje logiczne - Wytnij
    Workbenches:[Part](Part_Workbench/pl.md)
    SeeAlso:[Operacja logiczna](Part_Boolean/pl.md), [Połączenie](Part_Fuse/pl.md), [Część wspólna](Part_Common/pl.md)
 ---

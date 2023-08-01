@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Удаление элемента
    Name:Part_Defeaturing
-   MenuLocation:Деталь → Удаление элемента
+   MenuLocation:Деталь - Удаление элемента
    Workbenches:[Part](Part_Workbench/ru.md)
    Version:0.18
    SeeAlso:[Defeaturing Workbench](Defeaturing_Workbench/ru.md), [Macro Parametric Defeaturing](Macro_Parametric_Defeaturing/ru.md)

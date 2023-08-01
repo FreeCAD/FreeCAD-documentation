@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Spreadsheet SplitCell
-   MenuLocation:Spreadsheet → Split cells
+   MenuLocation:Spreadsheet - Split cells
    Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
    Version:0.17
 ---

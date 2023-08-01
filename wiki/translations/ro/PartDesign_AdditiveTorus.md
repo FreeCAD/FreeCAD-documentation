@@ -1,6 +1,6 @@
 # PartDesign AdditiveTorus/ro
 ---
-- GuiCommand:   Name:PartDesign AdditiveTorus   Workbenches:[MenuLocation:Part Design → Create an additive primitive → Additive Torus   Shortcut:   SeeAlso:[[PartDesign CompPrimitiveAdditive](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand:   Name:PartDesign AdditiveTorus   Workbenches:[MenuLocation:Part Design - Create an additive primitive - Additive Torus   Shortcut:   SeeAlso:[[PartDesign CompPrimitiveAdditive](PartDesign_Workbench___PartDesign]].md)---
 
 
 </div>

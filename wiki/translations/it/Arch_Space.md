@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch_Space
    Name/it:Spazio
-   MenuLocation:Arch → Spazio
+   MenuLocation:Arch - Spazio
    Workbenches:[Arch](Arch_Workbench/it.md)
    Shortcut:**S** **P**
    Version:0.14

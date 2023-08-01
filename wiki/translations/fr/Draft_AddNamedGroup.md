@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft AddNamedGroup
    Name/fr:Draft Nommer un groupe
-   MenuLocation:Utilitaires → Ajouter un nouveau groupe nommé
+   MenuLocation:Utilitaires - Ajouter un nouveau groupe nommé
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:
    Version:0.20

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch Floor
-   MenuLocation:Arch → Floor
+   MenuLocation:Arch - Floor
    Workbenches:[Arch](Arch_Workbench.md)
    Shortcut:**F** **L**
    SeeAlso:[[Arch Building]], [[Arch BuildingPart]], [[Arch Site]]

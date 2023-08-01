@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Rebar Drawing
    Name/fr:Arch Dessin d'armature
-   MenuLocation:Arch → Rebar
+   MenuLocation:Arch - Rebar
    Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
    SeeAlso:[Arch Dimensions des armatures](Arch_Rebar_Dimensioning/fr.md), [Extension Reinforcement](Reinforcement_Addon/fr.md)
    Version:0.19

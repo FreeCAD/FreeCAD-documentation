@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path DressupZCorrect
    Name/fr:Path Correction en Z
-   MenuLocation:Path → Finition du parcours → Correction de la profondeur en Z
+   MenuLocation:Path - Finition du parcours - Correction de la profondeur en Z
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 

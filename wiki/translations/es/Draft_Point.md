@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Point
    Name/es:Draft Point
-   MenuLocation:Boceto → Punto
+   MenuLocation:Boceto - Punto
    Workbenches:[Boceto](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
    Shortcut:P T
 ---

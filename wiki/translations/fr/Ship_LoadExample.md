@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Ship LoadExample
    Name/fr:Ship Exemples de géométries
-   MenuLocation:Ship design → Load an example ship geometry
+   MenuLocation:Ship design - Load an example ship geometry
    Workbenches:[Ship](Ship_Workbench/fr.md)
    Shortcut:
    SeeAlso:

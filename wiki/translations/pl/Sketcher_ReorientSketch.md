@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher ReorientSketch
    Name/pl:Szkicownik: Zmień orientację szkicu
-   MenuLocation:Szkic → Zmień orientację szkicu ...
+   MenuLocation:Szkic - Zmień orientację szkicu ...
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md)
    SeeAlso:[Mapuj szkic](Sketcher_MapSketch/pl.md), [Nowy szkic](Sketcher_NewSketch/pl.md)
 ---

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Part CompJoinFeatures
-   MenuLocation:Part → Join
+   MenuLocation:Part - Join
    Workbenches:[Part](Part_Workbench.md)
    Version:0.16
    SeeAlso:[Part JoinConnect](Part_JoinConnect.md), [Part JoinEmbed](Part_JoinEmbed.md), [Part JoinCutout](Part_JoinCutout.md), [Part Boolean](Part_Boolean.md), [Part Thickness](Part_Thickness.md)

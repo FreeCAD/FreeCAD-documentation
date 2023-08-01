@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Rocket Fin
-   MenuLocation:Rocket → Fin
+   MenuLocation:Rocket - Fin
    Workbenches:[Rocket Workbench](Rocket_Workbench.md)
    Version:0.19
 ---

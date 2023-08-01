@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Part Chamfer
-   MenuLocation:Part → Chamfer...
+   MenuLocation:Part - Chamfer...
    Workbenches:[Part](Part_Workbench.md)
    SeeAlso:[Part Fillet](Part_Fillet.md)
 ---

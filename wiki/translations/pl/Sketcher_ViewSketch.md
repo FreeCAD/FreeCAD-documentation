@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher ViewSketch
    Name/pl:Skzkicownik: Widok szkicu
-   MenuLocation:Sketch → Widok szkicu
+   MenuLocation:Sketch - Widok szkicu
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md)
    Shortcut:**Q** **P**
 ---

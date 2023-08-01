@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch Frame
-   MenuLocation:Arch → Frame
+   MenuLocation:Arch - Frame
    Workbenches:[Arch](Arch_Workbench.md)
    Shortcut:**F** **R**
    SeeAlso:[Arch Wall](Arch_Wall.md), [Arch Structure](Arch_Structure.md)

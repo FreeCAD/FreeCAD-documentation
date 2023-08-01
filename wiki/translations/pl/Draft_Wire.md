@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Wire
    Name/pl:Rysunek Roboczy: Linia łamana
-   MenuLocation:Kreślenie → Linia łamana
+   MenuLocation:Kreślenie - Linia łamana
    Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
    Shortcut:**P** **L**
 ---

@@ -3,7 +3,7 @@
    Name:Sketcher Switch virtual space
    Name/it:Cambia spazio virtuale
    Icon:Sketcher SwitchVirtualSpace.svg
-   MenuLocation:Sketch → Spazio virtuale dello Sketcher → Cambia spazio virtuale
+   MenuLocation:Sketch - Spazio virtuale dello Sketcher - Cambia spazio virtuale
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)
    Version:0.17
 ---

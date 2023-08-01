@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft BSpline
    Name/pl:Draft: Krzywa złożona
-   MenuLocation:Kreślenie → Krzywa złożona
+   MenuLocation:Kreślenie - Krzywa złożona
    Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
    Shortcut:**B** **S**
    SeeAlso:[Linia łamana](Draft_Wire/pl.md), [CubicBezCurve](Draft_CubicBezCurve/pl.md), [Krzywa Beziera](Draft_BezCurve/pl.md)

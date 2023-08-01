@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ShowObjects
    Name/pl:Std: Wyświetl wszystkie obiekty
-   MenuLocation:Widok → Widoczność → Wyświetl wszystkie obiekty
+   MenuLocation:Widok - Widoczność - Wyświetl wszystkie obiekty
    Workbenches:wszystkie
    SeeAlso:[Przełącz widoczność](Std_ToggleVisibility/pl.md), [Pokaż zaznaczone](Std_ShowSelection/pl.md), [Ukryj zaznaczone](Std_HideSelection.md), [Przełącz widoczność wszystkich obiektów](Std_ToggleObjects/pl.md), [Ukryj wszystkie obiekty](Std_HideObjects/pl.md)
 ---

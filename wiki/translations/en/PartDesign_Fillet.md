@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:PartDesign Fillet
-   MenuLocation:Part Design → Apply a dress-up feature → Fillet
+   MenuLocation:Part Design - Apply a dress-up feature - Fillet
    Workbenches:[PartDesign](PartDesign_Workbench.md)
    SeeAlso:[PartDesign Chamfer](PartDesign_Chamfer.md)
 ---

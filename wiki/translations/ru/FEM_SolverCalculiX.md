@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM SolverCalculiX
    Name/ru:FEM SolverCalculiX
-   MenuLocation: Solve → solver CalculiX experimental
+   MenuLocation: Solve - solver CalculiX experimental
    Workbenches:[FEM](FEM_Workbench/ru.md)
    Shortcut:
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionDecreaseDecimal
    Name/de:TechDraw ErgänzungDezimalstellenzahlVerringern
-   MenuLocation:TechDraw → Ergänzungen: Maße → Dezimalstellenanzahl verringern
+   MenuLocation:TechDraw - Ergänzungen: Maße - Dezimalstellenanzahl verringern
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20

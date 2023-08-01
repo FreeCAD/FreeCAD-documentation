@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:EM FHPlaneAddRemoveNodeHole
    Name/fr:EM Bascule noeud trou FH
-   MenuLocation:EM → FHPlaneAddRemoveNodeHole
+   MenuLocation:EM - FHPlaneAddRemoveNodeHole
    Workbenches:[EM](EM_Workbench/fr.md)
    Shortcut:**E** **A**
    Version:0.17

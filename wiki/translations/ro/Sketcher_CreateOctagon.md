@@ -1,6 +1,6 @@
 # Sketcher CreateOctagon/ro
 ---
-- GuiCommand:   Name:Sketcher CreateOctagon   Name/ro:Sketcher CreateOctagon   Workbenches:[[Sketcher Workbench/ro   Sketcher]]|MenuLocation:Sketch → Sketcher geometries → Create octagon   Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Sketcher CreateOctagon   Name/ro:Sketcher CreateOctagon   Workbenches:[[Sketcher Workbench/ro   Sketcher]]|MenuLocation:Sketch - Sketcher geometries - Create octagon   Shortcut:   SeeAlso:---
 
 
 </div>

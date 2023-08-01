@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Text
    Name/de:Draft Text
-   MenuLocation:Anmerkung → Text
+   MenuLocation:Anmerkung - Text
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**T** **E**
    Version:0.7

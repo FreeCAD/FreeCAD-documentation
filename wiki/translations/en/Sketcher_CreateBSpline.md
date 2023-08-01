@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher CreateBSpline
-   MenuLocation:Sketch → Sketcher geometries → Create B-spline
+   MenuLocation:Sketch - Sketcher geometries - Create B-spline
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**G** **B** **B**
    Version:0.17

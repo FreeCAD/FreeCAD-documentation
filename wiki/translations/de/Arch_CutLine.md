@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch CutLine
    Name/de:Arch SchneideLinie
-   MenuLocation:Arch → Schneiden mit einer Linie
+   MenuLocation:Arch - Schneiden mit einer Linie
    Workbenches:[Arch](Arch_Workbench/de.md)
    SeeAlso:[Arch SchneideEbene](Arch_CutPlane/de.md)
    Version:0.19

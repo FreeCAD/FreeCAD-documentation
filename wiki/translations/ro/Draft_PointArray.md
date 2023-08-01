@@ -3,7 +3,7 @@
    Name:Draft PointArray
    Icon:Draft_PointArray.svg
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   MenuLocation:Draft → PointArray
+   MenuLocation:Draft - PointArray
    Version:0.18
    SeeAlso:[Draft Array](Draft_Array.md), [[Draft PathArray]]
 ---

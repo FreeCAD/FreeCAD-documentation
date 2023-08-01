@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Соединить края
    Name:Sketcher_ConnectLines
-   MenuLocation:Sketch → Инструменты для эскиза → Соединить края
+   MenuLocation:Sketch - Инструменты для эскиза - Соединить края
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**Ctrl**+**Shift**+**K**
    Version:0.15

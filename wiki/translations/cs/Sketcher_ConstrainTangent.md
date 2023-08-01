@@ -3,7 +3,7 @@
    Name:Sketcher ConstrainTangent
    Name/cs:Sketcher ConstrainTangent
    Workbenches:[Sketcher](Sketcher_Workbench/cs.md)
-   MenuLocation:Sketch → Sketcher constraints → Constrain tangent
+   MenuLocation:Sketch - Sketcher constraints - Constrain tangent
    Shortcut:T
    SeeAlso:[Constraint point on object](Sketcher_ConstrainPointOnObject/cs.md)
 ---

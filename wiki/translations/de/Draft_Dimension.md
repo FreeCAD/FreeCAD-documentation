@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Dimension
    Name/de:Draft Maß
-   MenuLocation:Anmerkung → Abmessung
+   MenuLocation:Anmerkung - Abmessung
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**D** **I**
    Version:0.8

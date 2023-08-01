@@ -3,7 +3,7 @@
    Name:Plot Save
    Name/ru:Plot Save
    Workbenches:[Plot](Plot_Workbench/ru.md)
-   MenuLocation:Plot → Сохранить диаграмму
+   MenuLocation:Plot - Сохранить диаграмму
 ---
 
 # Plot Save/ru

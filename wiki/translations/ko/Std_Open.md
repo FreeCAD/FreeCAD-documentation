@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std Open
    Name/ko:표준 열기
-   MenuLocation:파일 → 열기...
+   MenuLocation:파일 - 열기...
    Workbenches:모두
    Shortcut:**Ctrl**+**O**
    SeeAlso:[표준 가져오기](Std_Import/ko.md), [표준 새 파일](Std_New/ko.md)

@@ -1,6 +1,6 @@
 # Raytracing ExportProject/ro
 ---
-- GuiCommand:   Name:Raytracing ExportProject   MenuLocation:Raytracing → ExportProject   |Workbenches:[[Raytracing_Workbench   Raytracing]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Raytracing ExportProject   MenuLocation:Raytracing - ExportProject   |Workbenches:[[Raytracing_Workbench   Raytracing]]|Shortcut:   SeeAlso:---
 
 
 </div>

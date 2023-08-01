@@ -3,7 +3,7 @@
    Name:TechDraw  Dimension Diameter
    Name/it:Diametro
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   MenuLocation:TechDraw → Diametro
+   MenuLocation:TechDraw - Diametro
    Shortcut:
    SeeAlso:[Raggio](TechDraw_RadiusDimension/it.md)
 ---

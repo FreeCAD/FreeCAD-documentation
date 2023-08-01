@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw DetailView
    Name/de:TechDraw Detailansicht
-   MenuLocation:TechDraw → Detailansicht einfügen
+   MenuLocation:TechDraw - Detailansicht einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Version:0.19
    SeeAlso:[TechDraw Ansicht](TechDraw_View/de.md), [TechDraw Projektionsgruppe](TechDraw_ProjectionGroup/de.md)

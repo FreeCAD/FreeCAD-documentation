@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std SetAppearance
    Name/fr:Std Apparence
-   MenuLocation:Affichage → Apparence...
+   MenuLocation:Affichage - Apparence...
    Workbenches:Tous
    Shortcut:**Ctrl**+**D**
    SeeAlso:[Part Définir les couleurs](Part_FaceColors/fr.md)

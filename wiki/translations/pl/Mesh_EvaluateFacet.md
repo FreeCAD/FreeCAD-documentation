@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh EvaluateFacet
    Name/pl:Sitka: Informacje o powierzchni
-   MenuLocation:Siatki → Analizuj → Informacja o powierzchni
+   MenuLocation:Siatki - Analizuj - Informacja o powierzchni
    Workbenches:[Siatka](Mesh_Workbench/pl.md)
 ---
 

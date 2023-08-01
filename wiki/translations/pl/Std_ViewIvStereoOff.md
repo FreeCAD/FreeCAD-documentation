@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewIvStereoOff
    Name/pl:Std: Wyłącz widok trójwymiarowy
-   MenuLocation:Widok → Widok trójwymiarowy → Widok z przeplotem kolumn
+   MenuLocation:Widok - Widok trójwymiarowy - Widok z przeplotem kolumn
    Workbenches:wszystkie
    SeeAlso:[Widok stereo czerwony / cyjan](Std_ViewIvStereoRedGreen/pl.md),  [Widok poczwórny bufor stereo](Std_ViewIvStereoQuadBuff/pl.md), [Widok stereo z przeplotem wierszy](Std_ViewIvStereoInterleavedRows/pl.md), [Widok stereo z przeplotem kolumn](Std_ViewIvStereoInterleavedColumns/pl.md)
 ---

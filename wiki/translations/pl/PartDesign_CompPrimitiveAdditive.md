@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign CompPrimitiveAdditive
    Name/pl:Projekt Części: Utwórz bryłę pierwotną do dodania
-   MenuLocation:Projekt Części → Utwórz bryłę pierwotną do dodania
+   MenuLocation:Projekt Części - Utwórz bryłę pierwotną do dodania
    Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
    SeeAlso:[Utwórz cechę przez odjęcie](PartDesign_CompPrimitiveSubtractive/pl.md)

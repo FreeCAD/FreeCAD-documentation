@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Raytracing WriteCamera‏‎
    Name/pl:Raytracing: Eksport obrazu
-   MenuLocation:Raytracing → Camera‏‎
+   MenuLocation:Raytracing - Camera‏‎
    Workbenches:[Raytracing](Raytracing_Workbench/pl.md)
    Shortcut:brak 
    SeeAlso:-

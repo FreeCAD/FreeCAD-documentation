@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Helix
    Name/de:Part Helix
-   MenuLocation:Formteil → [Grundkörper erstellen...](Part_Primitives/de.md) → Helix
+   MenuLocation:Formteil - [Grundkörper erstellen...](Part_Primitives/de.md) - Helix
    Workbenches:[Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
    SeeAlso:[Part Grundelemente](Part_Primitives/de.md)
 ---

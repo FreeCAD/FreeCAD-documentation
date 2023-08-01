@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch BuildingPart
    Name/de:Arch Gebäudeteil
-   MenuLocation:Arch → Gebäudeteil
+   MenuLocation:Arch - Gebäudeteil
    Workbenches:[Arch](Arch_Workbench/de.md)
    Version:0.18
    SeeAlso:[Arch Gebäude](Arch_Building/de.md), [Arch Grundstück](Arch_Site/de.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Circle
    Name/ru:Окружность
-   MenuLocation:Деталь → [Создать примитивы...](Part_Primitives/ru.md) → Окружность
+   MenuLocation:Деталь - [Создать примитивы...](Part_Primitives/ru.md) - Окружность
    Workbenches:[Верстак Part](Part_Workbench/ru.md)
    SeeAlso:
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Upgrade
    Name/es:Borrador Elevar
-   MenuLocation:Modificación → Elevar
+   MenuLocation:Modificación - Elevar
    Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
    Shortcut:**U** **P**
    SeeAlso:[Borrador Rebajar](Draft_Downgrade/es.md)

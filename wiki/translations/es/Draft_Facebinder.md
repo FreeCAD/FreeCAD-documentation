@@ -4,7 +4,7 @@
    Name:Draft Facebinder
    Name/es:Draft Facebinder
    Workbenches:[Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
-   MenuLocation:Draft → Facebinder
+   MenuLocation:Draft - Facebinder
    Shortcut:F F---
 
 

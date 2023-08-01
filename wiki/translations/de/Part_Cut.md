@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Cut
    Name/de:Part Differenz
-   MenuLocation:Formteil → Boolesche Operationen → Differenz
+   MenuLocation:Formteil - Boolesche Operationen - Differenz
    Workbenches:[Part](Part_Workbench/de.md)
    SeeAlso:[Part Boolesche Operation](Part_Boolean/de.md), [Part Vereinigung](Part_Fuse/de.md), [Part Schnitt](Part_Common/de.md)
 ---

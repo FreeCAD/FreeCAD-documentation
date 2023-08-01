@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Plot Axes
    Name/pl:Wykres: Konfiguruj osie
-   MenuLocation:Wykres → Konfiguruj osie
+   MenuLocation:Wykres - Konfiguruj osie
    Workbenches:[Wykres](Plot_Workbench/pl.md)
 ---
 

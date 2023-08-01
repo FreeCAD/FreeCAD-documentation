@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Shape2DView
    Name/es:Draft Shape2DView
-   MenuLocation:Boceto → Vista de forma 2D
+   MenuLocation:Boceto - Vista de forma 2D
    Workbenches:[Boceto](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
 ---
 

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Surface Sections
    Name/fr:Surface Sections
-   MenuLocation:Surface → Sections...
+   MenuLocation:Surface - Sections...
    Workbenches:[Surface](Surface_Workbench/fr.md)
    Version:0.19
 ---

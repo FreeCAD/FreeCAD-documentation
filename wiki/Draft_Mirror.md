@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft Mirror
-   MenuLocation:Modification → Mirror
+   MenuLocation:Modification - Mirror
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    Shortcut:**M** **I**
    SeeAlso:[Draft Clone](Draft_Clone.md)

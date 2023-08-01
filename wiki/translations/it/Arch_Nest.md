@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Nest
    Name/it:Nido
-   MenuLocation:Arch → Strumenti pannello → Nido
+   MenuLocation:Arch - Strumenti pannello - Nido
    Workbenches:[Arch](Arch_Workbench/it.md)
    SeeAlso:[Pannello](Arch_Panel/it.md), [Foglio pannello](Arch_Panel_Sheet/it.md)
 ---

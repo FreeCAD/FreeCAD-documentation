@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh_CrossSections
    Name/it:Sezioni
-   MenuLocation:Mesh → Taglio → Sezioni...
+   MenuLocation:Mesh - Taglio - Sezioni...
    Workbenches:[Mesh](Mesh_Workbench/it.md)
    Version:0.19
    SeeAlso:[Sezione da mesh e piano](Mesh_SectionByPlane/it.md)

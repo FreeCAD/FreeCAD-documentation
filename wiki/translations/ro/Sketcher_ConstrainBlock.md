@@ -3,7 +3,7 @@
    Name:Sketcher ConstrainBlock
    Name/ro:Constrângere de blocare
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation:Sketch → Constrângeri desenator → Constrain Block
+   MenuLocation:Sketch - Constrângeri desenator - Constrain Block
    SeeAlso:[Constrângere fixă](Sketcher_ConstrainLock/ro.md)
 ---
 

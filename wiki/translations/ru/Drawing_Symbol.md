@@ -3,7 +3,7 @@
    Name:Drawing Symbol
    Name/ru:Drawing Symbol
    Workbenches:[Drawing](Drawing_Workbench/ru.md), Complete
-   MenuLocation:Чертёж → Символ
+   MenuLocation:Чертёж - Символ
    Shortcut:
 ---
 

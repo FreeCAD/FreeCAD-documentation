@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Вставить знак
    Name:TechDraw_Symbol
-   MenuLocation:TechDraw → Вставить SVG знак
+   MenuLocation:TechDraw - Вставить SVG знак
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    SeeAlso:[Шаблоны](TechDraw_Templates/ru.md), [Draft SVG](Draft_SVG/ru.md)
 ---

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:FEM ConstraintInitialPressure
-   MenuLocation:Model → Fluid Constraints → Constraint initial pressure
+   MenuLocation:Model - Fluid Constraints - Constraint initial pressure
    Workbenches:[FEM](FEM_Workbench.md)
    Version:0.21
    SeeAlso:[FEM Constraint initial flow velocity](FEM_ConstraintInitialFlowVelocity.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft PathArray
    Name/es:Draft PathArray
-   MenuLocation:Draft → PathArray
+   MenuLocation:Draft - PathArray
    Workbenches:[Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
    SeeAlso:[Draft Array](Draft_Array/es.md)
 ---

@@ -832,6 +832,7 @@ class MediaWiki:
                 if guicommandblk:
                     guicommandblk = guicommandblk[0]
                     guicommandblk = re.sub("\|(.*?)\=(.*?)",r"   \1:\2",guicommandblk) # fixing GuiCommand contents
+                    guicommandblk = guicommandblk.replace("→","-") # github does not like unicode in here...
                     if guicommandblk.strip().startswith("/"):  # fix malformation of translated GuiCommands
                         guicommandblk = guicommandblk[3:]
                     result = re.sub("```{\=mediawiki}.*?{{GuiCommand(.*?)}}\n```",r"---\n- GuiCommand:"+guicommandblk+"---\n",result,flags=flags)

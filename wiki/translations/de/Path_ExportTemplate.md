@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path ExportTemplate
    Name/de:Pfad ExportVorlage
-   MenuLocation:Pfad → Export Vorlage
+   MenuLocation:Pfad - Export Vorlage
    Workbenches:[Pfad](Path_Workbench/de.md)
    SeeAlso:[Pfad EinrichtungsBlatt](Path_SetupSheet.md)
 ---

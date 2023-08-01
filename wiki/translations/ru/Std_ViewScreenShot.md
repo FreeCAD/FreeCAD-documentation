@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewScreenShot
    Name/ru:Std ViewScreenShot
-   MenuLocation:Инструменты → Сохранить изображение...
+   MenuLocation:Инструменты - Сохранить изображение...
    Workbenches:Все
    SeeAlso:[Std Print](Std_Print/ru.md), [Std PrintPdf](Std_PrintPdf/ru.md)
 ---

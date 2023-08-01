@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std BoxSelection
-   MenuLocation:[Edit](Std_Edit_Menu.md) → Box Selection
+   MenuLocation:[Edit](Std_Edit_Menu.md) - Box Selection
    Workbenches:All
    Shortcut:Shift + B
    SeeAlso:[Fit Selection](Std_ViewFitSelection.md)

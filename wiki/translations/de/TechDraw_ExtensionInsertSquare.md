@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionInsertSquare
    Name/de:TechDraw ErgänzungQuadratsymbolEinfügen
-   MenuLocation:TechDraw → Ergänzung: Maße →  '□'-Symbol einfügen
+   MenuLocation:TechDraw - Ergänzung: Maße -  '□'-Symbol einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20

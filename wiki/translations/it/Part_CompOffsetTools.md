@@ -3,7 +3,7 @@
 - GuiCommand:
    Name:Part CompOffsetTools
    Name/it:Strumenti offset
-   MenuLocation:Part → Strumenti offset
+   MenuLocation:Part - Strumenti offset
    Workbenches:[Part](Part_Workbench/it.md)
    SeeAlso:---
 

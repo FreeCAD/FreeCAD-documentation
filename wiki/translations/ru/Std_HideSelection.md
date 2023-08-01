@@ -3,7 +3,7 @@
    Name:Std HideSelection
    Name/ru:Std HideSelection
    Empty:1
-   MenuLocation:Вид → Видимость → Скрыть выделенные
+   MenuLocation:Вид - Видимость - Скрыть выделенные
    Workbenches:All
    SeeAlso:[Std ToggleVisibility](Std_ToggleVisibility/ru.md), [Std ShowSelection](Std_ShowSelection/ru.md), [Std ToggleObjects](Std_ToggleObjects/ru.md), [Std ShowObjects](Std_ShowObjects/ru.md), [Std HideObjects](Std_HideObjects/ru.md)
 ---

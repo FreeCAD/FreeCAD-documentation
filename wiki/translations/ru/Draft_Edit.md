@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Edit
    Name/ru:Draft Edit
-   MenuLocation:Черчение → Правка
+   MenuLocation:Черчение - Правка
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
 ---
 

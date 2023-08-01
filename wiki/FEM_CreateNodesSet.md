@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:FEM CreateNodesSet
-   MenuLocation:Mesh → Nodes set
+   MenuLocation:Mesh - Nodes set
    Workbenches:[FEM](FEM_Workbench.md)
    SeeAlso:[FEM tutorial](FEM_tutorial.md)
 ---

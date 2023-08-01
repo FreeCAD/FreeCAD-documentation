@@ -4,7 +4,7 @@
    Name/pt-br:Constraint InternalAngle
    Workbenches:[Sketcher](Sketcher_Workbench/pt-br.md), [PartDesign](PartDesign_Workbench/pt-br.md)
    Shortcut:A
-   MenuLocation:Sketch → Sketcher constraints → Constrain angle
+   MenuLocation:Sketch - Sketcher constraints - Constrain angle
    SeeAlso:[Constraint Length](Sketcher_ConstrainDistance/pt-br.md), [Constraint Perpendicular](Sketcher_ConstrainPerpendicular/pt-br.md)
 ---
 

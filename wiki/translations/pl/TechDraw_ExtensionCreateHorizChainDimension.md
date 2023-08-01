@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionCreateHorizChainDimension
    Name/pl:Rysunek Techniczny: Rozszerzenie Seria wymiarów poziomo
-   MenuLocation:Rysunek Techniczny → Rozszerzenia: Wymiary → Seria wymiarów poziomo
+   MenuLocation:Rysunek Techniczny - Rozszerzenia: Wymiary - Seria wymiarów poziomo
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20

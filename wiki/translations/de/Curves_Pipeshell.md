@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Curves Pipeshell
    Name/de:Curves Rohrschale
-   MenuLocation:Surfaces → Pipeshell 
+   MenuLocation:Surfaces - Pipeshell 
    Workbenches:[Curves](Curves_Workbench/de.md)
 ---
 

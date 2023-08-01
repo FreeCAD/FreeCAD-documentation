@@ -3,7 +3,7 @@
    Name:PartDesign AdditiveBox
    Name/ro:PartDesign Casetă aditivă
    Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation:Part Design → Create an additive primitive → Additive Box
+   MenuLocation:Part Design - Create an additive primitive - Additive Box
    Version:0.17
    SeeAlso:[PartDesign Primitive additive](PartDesign_CompPrimitiveAdditive/ro.md)
 ---

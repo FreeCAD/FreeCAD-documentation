@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std AxisCross
    Name/de:Std Achsenkreuz
-   MenuLocation:Ansicht → Achsenkreuz ein-/ausblenden
+   MenuLocation:Ansicht - Achsenkreuz ein-/ausblenden
    Workbenches:Alle
    Shortcut:**A** **C**
 ---

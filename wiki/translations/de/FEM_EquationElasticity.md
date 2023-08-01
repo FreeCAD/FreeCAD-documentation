@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM EquationElasticity
    Name/de:FEM Elastizitätsgleichung
-   MenuLocation:Lösen → Mechanical equations → Elasticity equation
+   MenuLocation:Lösen - Mechanical equations - Elasticity equation
    Workbenches:[FEM](FEM_Workbench/de.md)
    Version:0.17
    SeeAlso:[Verformungsgleichung equation](FEM_EquationDeformation/de.md), [FEM Anleitung](FEM_tutorial/de.md)

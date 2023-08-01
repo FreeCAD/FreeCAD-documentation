@@ -3,7 +3,7 @@
    Name:Arch Rebar
    Name/ro:Arch Rebar
    Workbenches:[Arch](Arch_Workbench/ro.md)
-   MenuLocation:Arch → Rebar
+   MenuLocation:Arch - Rebar
    Shortcut:R B
    SeeAlso:[Arch Structure](Arch_Structure/ro.md)
 ---
@@ -21,7 +21,7 @@
    Name:Arch Rebar
    Name/ro:Arch Rebar
    Workbenches:[Arch](Arch_Workbench/ro.md)
-   MenuLocation:Arch → Rebar
+   MenuLocation:Arch - Rebar
    Shortcut:R B
    SeeAlso:[Arch Structure](Arch_Structure/ro.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Snap Near
    Name/it:Vicino a
-   MenuLocation:Draft → [Aggancio](Draft_Snap/it.md) → Vicino
+   MenuLocation:Draft - [Aggancio](Draft_Snap/it.md) - Vicino
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:
    SeeAlso:[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)

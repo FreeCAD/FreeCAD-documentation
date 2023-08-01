@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_Delete
    Name/ru:Удалить
-   MenuLocation:Правка → Удалить
+   MenuLocation:Правка - Удалить
    Workbenches:Все
    Shortcut:**Del**
 ---

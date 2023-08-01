@@ -4,7 +4,7 @@
    Name/it:Ellisse da centro
    Icon:Sketcher_CreateEllipse.svg
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch → Geometrie → Ellisse da centro
+   MenuLocation:Sketch - Geometrie - Ellisse da centro
    Version:0.15
    SeeAlso:[Ellisse da 3 punti](Sketcher_CreateEllipseBy3Points/it.md), [Cerchio](Sketcher_CreateCircle/it.md), [Arco di ellisse](Sketcher_CreateArcOfEllipse/it.md)
 ---

@@ -3,7 +3,7 @@
 - GuiCommand:
    Name:Std Cut
    Name/de:Std Ausschneiden
-   MenuLocation:[Bearbeiten](Std_Edit_Menu/de.md) → Ausschneiden
+   MenuLocation:[Bearbeiten](Std_Edit_Menu/de.md) - Ausschneiden
    Shortcut:**Strg**+**X**
    Workbenches:Alle
    SeeAlso:[Kopieren](Std_Copy/de.md), [Einfügen](Std_Paste/de.md), [Löschen](Std_Delete/de.md)---

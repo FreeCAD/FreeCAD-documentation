@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Удалить вспомогательный объект
    Name:TechDraw_CosmeticEraser
-   MenuLocation:TechDraw → Удалить вспомогательный объект
+   MenuLocation:TechDraw - Удалить вспомогательный объект
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    Version:0.19
 ---

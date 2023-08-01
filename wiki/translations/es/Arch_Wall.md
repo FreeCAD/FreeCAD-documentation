@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Wall
    Name/es:Arquitectura Muro
-   MenuLocation:Arquitectura → Muro
+   MenuLocation:Arquitectura - Muro
    Workbenches:[Arquitectura](Arch_Workbench/es.md)
    Shortcut:**W** **A**
    SeeAlso:[Arquitectura Estructura](Arch_Structure/es.md)

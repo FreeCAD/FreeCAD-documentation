@@ -3,7 +3,7 @@
    Name:Rocket Parachute Size Calculator
    Name/fr:Rocket Calcul taille parachute
    Icon:Rocket_Calculator.svg
-   MenuLocation:Rocket → Calculators → Parachute Size Calculator
+   MenuLocation:Rocket - Calculators - Parachute Size Calculator
    Workbenches:[Rocket](Rocket_Workbench/fr.md)
    Version:0.19
 ---

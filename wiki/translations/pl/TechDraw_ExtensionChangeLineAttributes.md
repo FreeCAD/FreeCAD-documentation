@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionChangeLineAttributes
    Name/pl:Rysunek Techniczny: Rozszerzenie Zmień atrybuty linii
-   MenuLocation:Rysunek Techniczny → Rozszerzenia: Atrybuty / Modyfikatory → Zmień atrybuty linii
+   MenuLocation:Rysunek Techniczny - Rozszerzenia: Atrybuty / Modyfikatory - Zmień atrybuty linii
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20

@@ -3,7 +3,7 @@
    Name:Constraint Radius
    Name/es:Constraint Radius
    Workbenches:[Croquizador](Sketcher_Workbench/es.md), [Diseño de Piezas](PartDesign_Workbench/es.md)
-   MenuLocation:Croquizador → Restricciones del Croquizador → Radio
+   MenuLocation:Croquizador - Restricciones del Croquizador - Radio
    SeeAlso:[Distancia](Sketcher_ConstrainDistance/es.md), [Horizontal](Sketcher_ConstrainHorizontal/es.md), [Vertical](Sketcher_ConstrainVertical/es.md)
 ---
 

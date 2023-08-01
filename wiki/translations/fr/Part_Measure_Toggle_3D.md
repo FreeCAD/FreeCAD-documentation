@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Measure Toggle 3D
    Name/fr:Part Basculer 3D
-   MenuLocation:Mesure → Basculer 3D‏‎
+   MenuLocation:Mesure - Basculer 3D‏‎
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Part Basculer Delta](Part_Measure_Toggle_Delta/fr.md)
 ---

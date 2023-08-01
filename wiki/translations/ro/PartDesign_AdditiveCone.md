@@ -3,7 +3,7 @@
    Name:PartDesign AdditiveCone
    Name/ro:PartDesign AdditiveCone
    Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation:Part Design → Create an additive primitive → Additive Cone
+   MenuLocation:Part Design - Create an additive primitive - Additive Cone
    Version:0.17
    SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive/ro.md)
 ---

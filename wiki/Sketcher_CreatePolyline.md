@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher CreatePolyline
-   MenuLocation:Sketch → Sketcher geometries → Create polyline
+   MenuLocation:Sketch - Sketcher geometries - Create polyline
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**G** **M**
    SeeAlso:[Sketcher Line](Sketcher_CreateLine.md)

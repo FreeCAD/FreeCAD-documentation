@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:SheetMetal_Extrude
    Name/it:Estendi
-   MenuLocation:SheetMetal → Extrude
+   MenuLocation:SheetMetal - Extrude
    Workbenches:[SheetMetal](SheetMetal_Workbench/it.md)
    Shortcut:None
    Version:

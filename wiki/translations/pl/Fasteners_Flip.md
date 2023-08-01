@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Fasteners Flip
-   MenuLocation:Fasteners → Invert fastener
+   MenuLocation:Fasteners - Invert fastener
    Workbenches:[Fasteners](Fasteners_Workbench.md)
 ---
 

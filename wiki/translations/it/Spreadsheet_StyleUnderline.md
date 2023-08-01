@@ -3,7 +3,7 @@
    Name:Spreadsheet_StyleUnderline
    Name/it:Sottolineato
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)
-   MenuLocation:Spreadsheet → Stile → Sottolineato
+   MenuLocation:Spreadsheet - Stile - Sottolineato
    Version:0.17
 ---
 

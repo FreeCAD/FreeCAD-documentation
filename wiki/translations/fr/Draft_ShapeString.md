@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft ShapeString
    Name/fr:Draft Formes à partir texte
-   MenuLocation:Draft → Formes à partir de texte
+   MenuLocation:Draft - Formes à partir de texte
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:
    Version/fr:0.14

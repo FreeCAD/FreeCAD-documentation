@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw Midpoints
-   MenuLocation:TechDraw → Add Vertices → Add Midpoint Vertices
+   MenuLocation:TechDraw - Add Vertices - Add Midpoint Vertices
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Version:0.19
    SeeAlso:[TechDraw CosmeticVertex](TechDraw_CosmeticVertex.md), [TechDraw Quadrants](TechDraw_Quadrants.md)

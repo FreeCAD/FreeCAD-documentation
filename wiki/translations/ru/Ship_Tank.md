@@ -3,7 +3,7 @@
 - GuiCommand:
    Name:Ship TankNew
    Name/ru:Ship TankNew
-   MenuLocation:Weights → Create a new tank
+   MenuLocation:Weights - Create a new tank
    Workbenches:[Ship](Ship_Workbench/ru.md)
    Shortcut:   SeeAlso:---
 

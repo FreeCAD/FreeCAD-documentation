@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FCGear WormGear
    Name/it:Vite senza fine
-   MenuLocation:FCGear → Create a Worm gear
+   MenuLocation:FCGear - Create a Worm gear
    Workbenches:[FCGear](FCGear_Workbench/it.md)
    Shortcut:None
    Version:v0.16

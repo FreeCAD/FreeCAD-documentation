@@ -3,7 +3,7 @@
    Name:Std Workbench
    Name/es:Ambiente de Trabajo Std
    Empty:1
-   MenuLocation:Vista → Ambiente de Trabajo
+   MenuLocation:Vista - Ambiente de Trabajo
    Workbenches:[Ambiente de Trabajo](Workbenches/es.md)
 ---
 

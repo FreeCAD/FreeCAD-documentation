@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CreateRectangle
    Name/fr:Sketcher Rectangle centré
-   MenuLocation:Esquisse → Géométries d'esquisse → Créer un rectangle centré
+   MenuLocation:Esquisse - Géométries d'esquisse - Créer un rectangle centré
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**G** **V**
    Version: 0.20

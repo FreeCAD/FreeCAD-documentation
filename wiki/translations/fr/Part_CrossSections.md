@@ -3,7 +3,7 @@
    Name:Part CrossSections
    Name/fr:Part Coupes
    Icon:Part_CrossSections.svg
-   MenuLocation:Part → Coupes...
+   MenuLocation:Part - Coupes...
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Part Section](Part_Section/fr.md)
 ---

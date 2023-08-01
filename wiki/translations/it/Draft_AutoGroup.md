@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft AutoGroup
    Name/it:AutoGruppo
-   MenuLocation:Draft → Utilità → AutoGruppo
+   MenuLocation:Draft - Utilità - AutoGruppo
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Version:0.17
    SeeAlso:[Draft Layer](Draft_Layer/it.md), [Gruppo](Std_Group/it.md)

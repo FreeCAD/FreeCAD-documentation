@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM PostCreateFunctionBox
    Name/de:FEM NachbereitungFunktionQuader
-   MenuLocation:Ergebnisse → Filterfunktionen → Box
+   MenuLocation:Ergebnisse - Filterfunktionen - Box
    Workbenches:[FEM](FEM_Workbench/de.md)
    Version:0.21
    SeeAlso:[FEM Anleitung](FEM_tutorial/de.md)

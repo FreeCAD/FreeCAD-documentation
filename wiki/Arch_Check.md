@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch Check
-   MenuLocation:Arch → Utilities → Check
+   MenuLocation:Arch - Utilities - Check
    Workbenches:[Arch](Arch_Workbench.md)
    SeeAlso:[Arch CloseHoles](Arch_CloseHoles.md)
 ---

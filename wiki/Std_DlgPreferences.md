@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std DlgPreferences
-   MenuLocation:Edit → Preferences...
+   MenuLocation:Edit - Preferences...
    Workbenches:All
    SeeAlso:[Preferences Editor](Preferences_Editor.md)
 ---

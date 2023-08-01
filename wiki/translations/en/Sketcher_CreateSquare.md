@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher CreateSquare
-   MenuLocation:Sketch → Sketcher geometries → Create square
+   MenuLocation:Sketch - Sketcher geometries - Create square
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**G** **P** **4**
    Version:0.15

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Stairs
    Name/de:Arch Treppe
-   MenuLocation:Arch → Treppe
+   MenuLocation:Arch - Treppe
    Workbenches:[Arch](Arch_Workbench/de.md)
    Shortcut:**S** **R**
    Version:0.14

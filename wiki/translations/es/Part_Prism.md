@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Prism
    Name/es:Part Prisma
-   MenuLocation:Pieza → [Crear primitivas](Part_Primitives/es.md) → Prisma
+   MenuLocation:Pieza - [Crear primitivas](Part_Primitives/es.md) - Prisma
    Workbenches:[Part](Part_Workbench/es.md)
    Version:0.14
    SeeAlso:[Part Primitivas](Part_Primitives/es.md), [Part Cubo](Part_Box/es.md)

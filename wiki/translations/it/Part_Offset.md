@@ -1,6 +1,6 @@
 # Part Offset/it
 ---
-- GuiCommand:   Name:Part Offset   Name/it:Offset 3D   MenuLocation:Part → Offset 3D...   |Workbenches:[SeeAlso:[[Part_Thickness/it|Spessore](Part_Workbench/it___Part]].md), [Offset 2D](Part_Offset2D/it.md)---
+- GuiCommand:   Name:Part Offset   Name/it:Offset 3D   MenuLocation:Part - Offset 3D...   |Workbenches:[SeeAlso:[[Part_Thickness/it|Spessore](Part_Workbench/it___Part]].md), [Offset 2D](Part_Offset2D/it.md)---
 
 
 </div>

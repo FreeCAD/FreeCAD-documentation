@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Robot CreateTrajectory
    Name/fr:Robot Trajectoire
-   MenuLocation:Robot → Créer une trajectoire
+   MenuLocation:Robot - Créer une trajectoire
    Workbenches:[Robot](Robot_Workbench/fr.md)
    SeeAlso:
 ---

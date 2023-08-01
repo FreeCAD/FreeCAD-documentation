@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh TrimByPlane
    Name/pl:Siatka Przytnij siatkę płaszczyzną
-   MenuLocation:Siatki → Cięcie → Przytnij siatkę
+   MenuLocation:Siatki - Cięcie - Przytnij siatkę
    Workbenches:[Siatka](Mesh_Workbench/pl.md)
    SeeAlso:[Przetnij siatkę](Mesh_PolyCut/pl.md), [Przytnij siatkę](Mesh_PolyTrim/pl.md)
 ---

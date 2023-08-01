@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw FaceCenterLine
    Name/it:Linea a centro faccia
-   MenuLocation:TechDraw → Aggiungi linee → Linea a centro faccia
+   MenuLocation:TechDraw - Aggiungi linee - Linea a centro faccia
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)
    SeeAlso:[Vertice cosmetico](TechDraw_CosmeticVertex/it.md), [Linea centrale a 2 linee](TechDraw_2LineCenterLine/it.md), [Linea centrale a 2 punti](TechDraw_2PointCenterLine/it.md), [Rimuovi oggetto cosmetico](TechDraw_CosmeticEraser/it.md)
    Version:0.19

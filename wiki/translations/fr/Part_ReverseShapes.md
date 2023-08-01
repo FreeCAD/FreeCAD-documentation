@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part ReverseShapes‏‎
    Name/fr:Part Inverser les formes
-   MenuLocation:Part → Inverser les formes
+   MenuLocation:Part - Inverser les formes
    Workbenches:[Part](Part_Workbench/fr.md)
 ---
 

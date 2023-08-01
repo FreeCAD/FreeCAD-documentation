@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part BooleanFragments
    Name/pl:Część: Fragmentacja funkcją logiczną
-   MenuLocation:Część → Rozdziel → Fragmentacja funkcją logiczną
+   MenuLocation:Część - Rozdziel - Fragmentacja funkcją logiczną
    Workbenches:[Część](Part_Workbench/pl.md)
    Version:0.17
    SeeAlso:[Krojenie](Part_Slice/pl.md), [Logiczny XOR](Part_XOR/pl.md), [Połącz obiekty](Part_CompJoinFeatures/pl.md), [Operacje logiczne na bryłach](Part_Boolean/pl.md)

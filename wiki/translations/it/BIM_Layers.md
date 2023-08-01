@@ -4,7 +4,7 @@
    Name/it:Strati BIM
    Workbenches:[BIM](BIM_Workbench/it.md)
    Addon:BIM
-   MenuLocation:Gestione → Strati
+   MenuLocation:Gestione - Strati
 ---
 
 # BIM Layers/it

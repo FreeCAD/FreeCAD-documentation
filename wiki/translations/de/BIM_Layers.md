@@ -4,7 +4,7 @@
    Name/de:BIM Lagen
    Workbenches:[BIM](BIM_Workbench/de.md)
    Addon:BIM
-   MenuLocation:Verwalten → Lagen
+   MenuLocation:Verwalten - Lagen
 ---
 
 # BIM Layers/de

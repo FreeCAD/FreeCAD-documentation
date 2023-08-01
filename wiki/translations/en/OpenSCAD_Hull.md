@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:OpenSCAD Hull
-   MenuLocation:OpenSCAD → Perform Hull‏‎
+   MenuLocation:OpenSCAD - Perform Hull‏‎
    Workbenches:[OpenSCAD](OpenSCAD_Workbench.md)
 ---
 

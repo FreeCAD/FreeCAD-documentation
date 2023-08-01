@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path Vcarve
    Name/de:Pfad VGravur
-   MenuLocation:Pfad → VGravur
+   MenuLocation:Pfad - VGravur
    Workbenches:[Path](Path_Workbench/de.md)
    Version:0.19
 ---

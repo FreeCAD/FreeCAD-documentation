@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std Undo
    Name/de:Std Rückgängig
-   MenuLocation:Bearbeiten → Rückgängig
+   MenuLocation:Bearbeiten - Rückgängig
    Workbenches:Alle
    Shortcut:**Strg**+**Z**
    SeeAlso:[Wiederherstellen](Std_Redo/de.md)

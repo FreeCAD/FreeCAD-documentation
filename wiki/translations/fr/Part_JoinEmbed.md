@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part JoinEmbed
    Name/fr:Part Intégrer
-   MenuLocation:Part → Joindre → Intégrer un objet
+   MenuLocation:Part - Joindre - Intégrer un objet
    Workbenches:[Part](Part_Workbench/fr.md)
    Version:0.16
    SeeAlso:[Part Connecter](Part_JoinConnect/fr.md), [Part Découper](Part_JoinCutout/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)

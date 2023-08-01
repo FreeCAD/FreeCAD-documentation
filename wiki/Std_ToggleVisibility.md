@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std ToggleVisibility
-   MenuLocation:View → Toggle visibility
+   MenuLocation:View - Toggle visibility
    Workbenches:All
    Shortcut:**Space**
    SeeAlso:[Std ShowSelection](Std_ShowSelection.md), [Std HideSelection](Std_HideSelection.md), [Std ToggleObjects](Std_ToggleObjects.md), [Std ShowObjects](Std_ShowObjects.md), [Std HideObjects](Std_HideObjects.md)

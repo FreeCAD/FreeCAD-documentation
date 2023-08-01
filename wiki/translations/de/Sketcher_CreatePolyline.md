@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CreatePolyline
    Name/de:Sketcher LinienzugErstellen
-   MenuLocation:Sketch → Skizzengeometrien → Linienzug erstellen
+   MenuLocation:Sketch - Skizzengeometrien - Linienzug erstellen
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Shortcut:**G** **M**
    SeeAlso:[Sketcher LinieErstellen](Sketcher_CreateLine/de.md)

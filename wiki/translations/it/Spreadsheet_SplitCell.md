@@ -3,7 +3,7 @@
    Name:Spreadsheet_SplitCell
    Name/it:Dividi la cella
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)
-   MenuLocation:Spreadsheet → Dividi la cella
+   MenuLocation:Spreadsheet - Dividi la cella
    Version:0.17
 ---
 

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Шестерня с эвольвентным профилем
    Name:PartDesign_InvoluteGear
-   MenuLocation:Part Design → Шестерня с эвольвентным профилем...
+   MenuLocation:Part Design - Шестерня с эвольвентным профилем...
    Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
    SeeAlso:[Верстак FCGear](FCGear_Workbench/ru.md)
 ---

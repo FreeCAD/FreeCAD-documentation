@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Array
    Name/tr:Dizi
-   MenuLocation:Taslak → Dizi
+   MenuLocation:Taslak - Dizi
    Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
    SeeAlso:[Yol dizisi](Draft_PathArray/tr.md),[Nokta dizisi](Draft_PointArray/tr.md),[Klonla](Draft_Clone/tr.md)
 ---

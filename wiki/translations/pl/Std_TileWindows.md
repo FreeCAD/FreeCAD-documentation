@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std TileWindows
    Name/pl:Std: Sąsiadująco
-   MenuLocation:Okna → Sąsiadująco
+   MenuLocation:Okna - Sąsiadująco
    Workbenches:wszystkie
    SeeAlso:[Kaskadowo](Std_CascadeWindows/pl.md)
 ---

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Curves ToConsole
-   MenuLocation:Misc. → Objects to Console
+   MenuLocation:Misc. - Objects to Console
    Workbenches:[Curves](Curves_Workbench.md)
 ---
 

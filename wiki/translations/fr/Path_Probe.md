@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path Probe
    Name/fr:Path Sonde
-   MenuLocation:Path → Autres commandes → Sonde
+   MenuLocation:Path - Autres commandes - Sonde
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 

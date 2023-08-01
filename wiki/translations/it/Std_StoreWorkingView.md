@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std StoreWorkingView
    Name/it:Memorizza vista di lavoro
-   MenuLocation:Visualizza→ Viste standard → Memorizza vista di lavoro
+   MenuLocation:Visualizza- Viste standard - Memorizza vista di lavoro
    Workbenches:Tutte
    Shortcut:**Shift**+**End**
    Version:0.21

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh_RemoveCompByHand
    Name/it:Rimuovi componente a mano‏‎
-   MenuLocation:Mesh → Rimuovi componente a mano...
+   MenuLocation:Mesh - Rimuovi componente a mano...
    Workbenches:[Mesh](Mesh_Workbench/it.md)
    SeeAlso:[Rimuovi componente](Mesh_RemoveComponents/it.md), [Arch Suddividere un oggetto mesh](Arch_SplitMesh/it.md)
 ---

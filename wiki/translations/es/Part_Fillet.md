@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Fillet
    Name/es:Pieza Redondeo
-   MenuLocation:Pieza → Redondeo
+   MenuLocation:Pieza - Redondeo
    Workbenches:[Pieza](Part_Workbench/es.md)
    SeeAlso:[Pieza Chaflán](Part_Chamfer/es.md)
 ---

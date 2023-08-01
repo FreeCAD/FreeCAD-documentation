@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Fillet
    Name/de:Part Verrundung
-   MenuLocation:Formteil → Verrundung
+   MenuLocation:Formteil - Verrundung
    Workbenches:[Part](Part_Workbench/de.md)
    SeeAlso:[Part Fase](Part_Chamfer/de.md)
 ---

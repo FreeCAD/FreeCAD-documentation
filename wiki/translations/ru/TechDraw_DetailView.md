@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Вставить подробный Вид
    Name:TechDraw_DetailView
-   MenuLocation:TechDraw → Вставить подробный Вид
+   MenuLocation:TechDraw - Вставить подробный Вид
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    SeeAlso:[Вставить Вид](TechDraw_View/ru.md), [Вставить группу проекций](TechDraw_ProjectionGroup/ru.md)
 ---

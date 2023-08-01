@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch BuildingPart
    Name/fr:Arch Partie de bâtiment
-   MenuLocation:Arch → Partie de bâtiment
+   MenuLocation:Arch - Partie de bâtiment
    Workbenches:[Arch](Arch_Workbench/fr.md)
    Version:0.18
    SeeAlso:[Arch Bâtiment](Arch_Building/fr.md), [Arch Site](Arch_Site/fr.md)

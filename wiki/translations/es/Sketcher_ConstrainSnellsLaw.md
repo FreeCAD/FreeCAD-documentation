@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Constraint SnellsLaw
    Name/es:Restricción de refracción (Ley de Snell)
-   MenuLocation:Sketch → Restricciones de croquis → Restricción de refracción (Ley de Snell)
+   MenuLocation:Sketch - Restricciones de croquis - Restricción de refracción (Ley de Snell)
    Workbenches:[Sketcher](Sketcher_Workbench/es.md)
 ---
 

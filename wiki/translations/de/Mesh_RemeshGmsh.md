@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh RemeshGmsh
    Name/de:Mesh NeuVernetzenGmsh
-   MenuLocation:Netze → Aufbereitung...
+   MenuLocation:Netze - Aufbereitung...
    Workbenches:[Mesh](Mesh_Workbench/de.md)
    Version:0.19
    SeeAlso:[Mesh NetzAusPartForm](Mesh_FromPartShape/de.md)

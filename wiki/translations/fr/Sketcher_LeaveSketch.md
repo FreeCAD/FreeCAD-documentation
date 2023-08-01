@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher LeaveSketch
    Name/fr:Sketcher Quitter l'esquisse
-   MenuLocation:Esquisse → Quitter l'esquisse
+   MenuLocation:Esquisse - Quitter l'esquisse
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
    SeeAlso:[Sketcher Modifier l'esquisse](Sketcher_EditSketch/fr.md)
 ---

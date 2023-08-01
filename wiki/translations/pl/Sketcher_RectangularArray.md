@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher RectangularArray
    Name/pl:Szkicownik: Szyk prostokątny
-   MenuLocation:Szkic → Narzędzia szkicownika → Szyk prostokątny
+   MenuLocation:Szkic - Narzędzia szkicownika - Szyk prostokątny
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**Z** **A**
    Version:0.16

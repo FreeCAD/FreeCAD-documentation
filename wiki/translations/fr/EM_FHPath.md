@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:EM FHPath
    Name/fr:EM Chemin FH
-   MenuLocation:EM → FHPath
+   MenuLocation:EM - FHPath
    Workbenches:[EM](EM_Workbench/fr.md)
    Shortcut:**E** **T**
    Version:0.17

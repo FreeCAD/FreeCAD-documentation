@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch CompPanel
    Name/fr:Arch Outils pour les panneaux 
-   MenuLocation:Arch → Outils pour les panneaux
+   MenuLocation:Arch - Outils pour les panneaux
    Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
    Version:0.17
    SeeAlso:

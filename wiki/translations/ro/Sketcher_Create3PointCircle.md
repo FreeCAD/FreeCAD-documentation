@@ -3,7 +3,7 @@
    Name:Sketcher Create3PointCircle
    Name/ro:Sketcher CreateCircle3Point
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation:Sketch → Sketcher geometries → Create circle by three points
+   MenuLocation:Sketch - Sketcher geometries - Create circle by three points
    Shortcut:
    SeeAlso:
 ---

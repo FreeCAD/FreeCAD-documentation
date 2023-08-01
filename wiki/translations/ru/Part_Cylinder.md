@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name/ru:Цилиндр
-   MenuLocation:Деталь → Примитивы → Цилиндр
+   MenuLocation:Деталь - Примитивы - Цилиндр
    Workbenches:[Part](Part_Workbench/ru.md)
    SeeAlso:[Создать примитивы](Part_Primitives/ru.md)
 ---

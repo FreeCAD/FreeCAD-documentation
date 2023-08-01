@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft ShapeString
    Name/tr:Şekil dizesi
-   MenuLocation:Taslak → Şekil dizesi
+   MenuLocation:Taslak - Şekil dizesi
    Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
    Shortcut:**S** **S**
    Version:0.14

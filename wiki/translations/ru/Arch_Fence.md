@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Ограждение
    Name:Arch_Fence
-   MenuLocation:Arch → Ограждение
+   MenuLocation:Arch - Ограждение
    Workbenches:[Arch](Arch_Workbench/ru.md)
    Version:0.19
 ---

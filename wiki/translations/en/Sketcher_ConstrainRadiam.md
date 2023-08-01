@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher ConstrainRadiam
-   MenuLocation:Sketch → Sketcher constraints → Constrain auto radius/diameter
+   MenuLocation:Sketch - Sketcher constraints - Constrain auto radius/diameter
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**K** **S**
    Version:0.20

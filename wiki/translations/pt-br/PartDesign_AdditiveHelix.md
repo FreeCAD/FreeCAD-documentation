@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:PartDesign AdditiveHelix
-   MenuLocation:Part Design → Create an additive feature → Additive helix
+   MenuLocation:Part Design - Create an additive feature - Additive helix
    Workbenches:[PartDesign](PartDesign_Workbench.md)
    Version:0.19
    SeeAlso:[PartDesign SubtractiveHelix](PartDesign_SubtractiveHelix.md)

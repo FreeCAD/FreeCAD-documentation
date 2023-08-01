@@ -3,7 +3,7 @@
    Name:FEM EquationElectrostatic
    Name/ru:FEM EquationElectrostatic
    Icon:Fem-equation-electrostatic.svg
-   MenuLocation: Solve → Equation electrostatic
+   MenuLocation: Solve - Equation electrostatic
    Workbenches:[FEM](FEM_Workbench/ru.md)
    Shortcut:
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)

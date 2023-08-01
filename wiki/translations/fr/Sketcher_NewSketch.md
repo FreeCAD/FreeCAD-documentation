@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher NewSketch
    Name/fr:Sketcher Créer une esquisse
-   MenuLocation:Esquisse → Créer une esquisse
+   MenuLocation:Esquisse - Créer une esquisse
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    SeeAlso:[PartDesign Esquisse](PartDesign_NewSketch/fr.md), [Sketcher Esquisse sur une face](Sketcher_MapSketch/fr.md), [Sketcher Réorienter l'esquisse](Sketcher_ReorientSketch/fr.md)
 ---

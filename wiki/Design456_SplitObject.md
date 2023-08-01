@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Design456 Split a 3D Object
    Icon:Design456_SplitObject.svg
-   MenuLocation:Design456_Tools → 3DTools → Split Object
+   MenuLocation:Design456_Tools - 3DTools - Split Object
    Workbenches:[Design456](Design456_Workbench.md)
    Shortcut:None
    SeeAlso:

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher EditSketch
    Name/fr:Sketcher Modifier l'esquisse
-   MenuLocation:Esquisse → Modifier l'esquisse
+   MenuLocation:Esquisse - Modifier l'esquisse
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
    SeeAlso:[Sketcher Quitter l'esquisse](Sketcher_LeaveSketch/fr.md)
 ---

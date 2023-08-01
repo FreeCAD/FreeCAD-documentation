@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM ConstraintGear
    Name/ru:FEM ConstraintGear
-   MenuLocation:Model → Mechanical Constraints → Constraint gear
+   MenuLocation:Model - Mechanical Constraints - Constraint gear
    Workbenches:[FEM](FEM_Workbench/ru.md)
    Shortcut:
    SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)

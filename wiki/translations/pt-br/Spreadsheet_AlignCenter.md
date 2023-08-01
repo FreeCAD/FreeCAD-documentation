@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Spreadsheet AlignCenter
-   MenuLocation:Spreadsheet → Alignment → Align center
+   MenuLocation:Spreadsheet - Alignment - Align center
    Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
    Version:0.17
 ---

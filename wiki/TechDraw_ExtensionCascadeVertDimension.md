@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ExtensionCascadeVertDimension
-   MenuLocation:TechDraw → Extensions: Attributes/Modifications → Cascade Vertical Dimensions
+   MenuLocation:TechDraw - Extensions: Attributes/Modifications - Cascade Vertical Dimensions
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20

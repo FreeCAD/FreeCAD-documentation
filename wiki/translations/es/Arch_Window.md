@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Window
    Name/es:Arquitectura Ventana
-   MenuLocation:Arquitectura → Ventana
+   MenuLocation:Arquitectura - Ventana
    Workbenches:[Arquitectura](Arch_Workbench/es.md)
    Shortcut:**W** **I**
    SeeAlso:[Arquitectura Muro](Arch_Wall/es.md), [Arquitectura Añadir](Arch_Add/es.md)

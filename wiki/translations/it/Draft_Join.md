@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Join
    Name/it:Unisci
-   MenuLocation:Modifiche → Unisci
+   MenuLocation:Modifiche - Unisci
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**J** **O**
    Version:0.18

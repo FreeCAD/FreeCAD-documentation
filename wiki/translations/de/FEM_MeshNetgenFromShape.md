@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM MeshNetgenFromShape
    Name/de:FEM NetzNetgenAusForm
-   MenuLocation:Netz → FEM mesh from shape by Netgen
+   MenuLocation:Netz - FEM mesh from shape by Netgen
    Workbenches:[FEM](FEM_Workbench/de.md)
    SeeAlso:[FEM Anleitung](FEM_tutorial/de.md)
 ---

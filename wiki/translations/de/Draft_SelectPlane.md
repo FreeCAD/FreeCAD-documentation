@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft SelectPlane
    Name/de:Draft EbeneAuswählen
-   MenuLocation:Dienstprogramme → Ebene wählen
+   MenuLocation:Dienstprogramme - Ebene wählen
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**W** **P**
    SeeAlso:[Draft ArbeitsebenenProxy](Draft_WorkingPlaneProxy/de.md)

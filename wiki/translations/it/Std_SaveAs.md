@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_SaveAs
    Name/it:Salva con nome
-   MenuLocation:File → Salva con nome...
+   MenuLocation:File - Salva con nome...
    Workbenches:Tutti
    SeeAlso:[Salva una copia](Std_SaveCopy/it.md), [Salva](Std_Save/it.md)
 ---

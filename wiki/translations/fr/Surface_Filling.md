@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Surface Filling
    Name/fr:Surface Remplissage
-   MenuLocation:Surface → Filling...
+   MenuLocation:Surface - Filling...
    Workbenches:[Surface](Surface_Workbench/fr.md)
    Version:0.17
 ---

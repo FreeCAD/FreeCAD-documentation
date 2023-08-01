@@ -4,7 +4,7 @@
    Icon:Constraint_PointOnPoint.svg
    Workbenches:[Sketcher](Sketcher_Workbench/pt-br.md)
    Shortcut:C
-   MenuLocation:Sketch → Sketcher constraints → Constrain coincident
+   MenuLocation:Sketch - Sketcher constraints - Constrain coincident
    SeeAlso:[Constrain Lock](Sketcher_ConstrainLock/pt-br.md), [Constrain Point onto Object](Sketcher_ConstrainPointOnObject/pt-br.md)
 ---
 

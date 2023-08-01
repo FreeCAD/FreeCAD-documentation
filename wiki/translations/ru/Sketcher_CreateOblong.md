@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Создать скруглённый прямоугольник
    Name:Sketcher_CreateOblong
-   MenuLocation:Sketch → Геометрия эскиза → Создать скруглённый прямоугольник
+   MenuLocation:Sketch - Геометрия эскиза - Создать скруглённый прямоугольник
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**G** **O**
    Version:0.20

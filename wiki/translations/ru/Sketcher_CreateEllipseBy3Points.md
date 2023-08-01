@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Создать эллипс по трём точкам
    Name:Sketcher_CreateEllipseBy3Points
-   MenuLocation:Sketch → Геометрия эскиза → Создать эллипс по трём точкам
+   MenuLocation:Sketch - Геометрия эскиза - Создать эллипс по трём точкам
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**G** **3** **E**
    Version:0.15

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM PostFilterContours
    Name/fr:FEM Filtre par contours
-   MenuLocation:Résultats → Filtre par contours
+   MenuLocation:Résultats - Filtre par contours
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Version:0.21
    SeeAlso:[FEM Pipeline de résultats](FEM_PostPipelineFromResult/fr.md), [FEM Fonctions de filtrage](FEM_PostCreateFunctions/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Триметрическая
    Name:Std_ViewTrimetric
-   MenuLocation:Вид → Стандартные виды‏‎ → Axonometric → Триметрическая
+   MenuLocation:Вид - Стандартные виды‏‎ - Axonometric - Триметрическая
    Workbenches:Все
    SeeAlso:[Изометрическая](Std_ViewIsometric/ru.md), [Диметрическая](Std_ViewDimetric/ru.md)
 ---

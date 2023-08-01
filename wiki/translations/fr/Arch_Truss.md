@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Truss
    Name/fr:Arch Treillis
-   MenuLocation:Arch → Treillis
+   MenuLocation:Arch - Treillis
    Workbenches:[Arch](Arch_Workbench/fr.md)
    Version:0.19
 ---

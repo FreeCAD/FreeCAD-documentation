@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Measure Linear
    Name/ru:Part Measure Linear
-   MenuLocation:Measure → Измерить длину
+   MenuLocation:Measure - Измерить длину
    Workbenches:[Part](Part_Workbench/ru.md)
    Shortcut:
    SeeAlso:

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch PipeConnector
-   MenuLocation:Arch → Pipe Tools → Pipe Connector
+   MenuLocation:Arch - Pipe Tools - Pipe Connector
    Workbenches:[Arch](Arch_Workbench.md)
    Shortcut:**P** **C**
    Version:0.17

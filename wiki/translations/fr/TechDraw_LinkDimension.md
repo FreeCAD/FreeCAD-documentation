@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw LinkDimension
    Name/fr:TechDraw Lier une cote
-   MenuLocation:TechDraw → Dimensions →  Lier une cote à une géométrie 3D
+   MenuLocation:TechDraw - Dimensions -  Lier une cote à une géométrie 3D
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    SeeAlso:[TechDraw Vue](TechDraw_View/fr.md), [TechDraw Groupe de projection](TechDraw_ProjectionGroup/fr.md)
 ---

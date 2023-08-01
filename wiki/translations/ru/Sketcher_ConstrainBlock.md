@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Ограничение перемещения
    Name:Sketcher_ConstrainBlock
-   MenuLocation:Sketch → Ограничения эскиза → Constrain Block
+   MenuLocation:Sketch - Ограничения эскиза - Constrain Block
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Version:0.17
    SeeAlso:[Ограничение положения](Sketcher_ConstrainLock/ru.md)

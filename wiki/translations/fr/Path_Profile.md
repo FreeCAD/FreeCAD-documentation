@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path Profile
    Name/fr:Path Contournage
-   MenuLocation:Path → Contournage
+   MenuLocation:Path - Contournage
    Workbenches:[Path](Path_Workbench/fr.md)
    Version:0.19
 ---

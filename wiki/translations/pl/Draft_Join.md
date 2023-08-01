@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft Join
-   MenuLocation:Modification → Join
+   MenuLocation:Modification - Join
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    Shortcut:**J** **O**
    Version:0.18

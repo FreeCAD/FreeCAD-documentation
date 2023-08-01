@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Переместить
    Name:Sketcher_Move
-   MenuLocation:Sketch → Инструменты для эскиза → Переместить
+   MenuLocation:Sketch - Инструменты для эскиза - Переместить
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**Ctrl** + **M**
    Version:0.18

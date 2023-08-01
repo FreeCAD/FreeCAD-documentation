@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_ViewIvStereoOff
    Name/ru:Выключить стерео
-   MenuLocation:Вид → Стерео → View → Выключить стерео
+   MenuLocation:Вид - Стерео - View - Выключить стерео
    SeeAlso:[Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen/ru.md), [Std ViewIvStereoQuadBuff](Std_ViewIvStereoQuadBuff/ru.md), [Std ViewIvStereoInterleavedRows](Std_ViewIvStereoInterleavedRows/ru.md), [Std ViewIvStereoInterleavedColumns](Std_ViewIvStereoInterleavedColumns/ru.md)
 ---
 

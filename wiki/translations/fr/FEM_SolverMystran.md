@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM SolverMystran
    Name/fr:FEM Solveur Mystran
-   MenuLocation:Résolution → Solveur Mystran
+   MenuLocation:Résolution - Solveur Mystran
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Shortcut:**S** **M**
    Version:0.20

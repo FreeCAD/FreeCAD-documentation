@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft FlipDimension
    Name/it:Capovolgi quota
-   MenuLocation:Modifiche → Capovolgi quota
+   MenuLocation:Modifiche - Capovolgi quota
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
 ---
 

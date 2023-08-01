@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part_Box
    Name/ru:Куб
-   MenuLocation:Деталь → Примитивы → Куб
+   MenuLocation:Деталь - Примитивы - Куб
    Workbenches:[Part](Part_Workbench/ru.md)
    SeeAlso:[Создать примитивы](Part_CreatePrimitives/ru.md)
 ---

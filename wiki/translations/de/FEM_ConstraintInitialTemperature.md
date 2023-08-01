@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM ConstraintInitialTemperature
    Name/de:FEM RandbedingungStarttemperatur
-   MenuLocation:Modell → Thermische Randbedingungen → Randbedingung Starttemperatur
+   MenuLocation:Modell - Thermische Randbedingungen - Randbedingung Starttemperatur
    Workbenches:[FEM](FEM_Workbench/de.md)
    SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
 ---

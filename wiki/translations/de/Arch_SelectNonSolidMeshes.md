@@ -3,7 +3,7 @@
    Name:Arch SelectNonSolidMeshes
    Name/de:Arch WähleNNichtFesteNetze
    Icon:Arch SelectNonManifold.svg
-   MenuLocation:Arch → Utilities → Wähle nicht feste
+   MenuLocation:Arch - Utilities - Wähle nicht feste
    Workbenches:[Arch](Arch_Workbench/de.md)
    SeeAlso:[Arch NetzAufteilen](Arch_SplitMesh/de.md), [Arch NetzZuForm](Arch_MeshToShape/de.md)
 ---

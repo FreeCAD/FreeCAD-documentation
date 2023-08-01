@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch CompRebarStraight
    Name/ru:Инструменты армирования
-   MenuLocation:Arch → Rebar tools
+   MenuLocation:Arch - Rebar tools
    Workbenches:[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
    Version:0.17
 ---

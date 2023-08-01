@@ -2,7 +2,7 @@
 ---
 - GuiCommand:
    Name/tr:Yazıt
-   MenuLocation:Arsa → Yazıt
+   MenuLocation:Arsa - Yazıt
 ‏‎   |Workbenches:[Arsa](Plot_Workbench/tr.md)
    Shortcut:
    SeeAlso:---

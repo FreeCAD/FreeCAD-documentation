@@ -4,7 +4,7 @@
    Name/it: Gestione elementi IFC
    Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/it.md)
    Addon:BIM
-   MenuLocation:Gestione → Elementi IFC
+   MenuLocation:Gestione - Elementi IFC
    SeeAlso:[Gestione delle proprietà IFC](BIM_IfcProperties/it.md),[Gestione delle quantità IFC](BIM_IfcQuantities/it.md)
 ---
 

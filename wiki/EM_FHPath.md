@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:EM FHPath
-   MenuLocation:EM → FHPath
+   MenuLocation:EM - FHPath
    Workbenches:[EM](EM_Workbench.md)
    Shortcut:**E** **T**
    Version:0.17

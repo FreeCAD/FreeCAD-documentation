@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher SelectVerticalAxis
    Name/pl:Szkicownik: Wybierz oś pionową
-   MenuLocation:Szkic → Narzędzia szkicownika → Wybierz oś pionową
+   MenuLocation:Szkic - Narzędzia szkicownika - Wybierz oś pionową
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**Z** **V**
    Version:0.15

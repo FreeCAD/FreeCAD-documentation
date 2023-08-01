@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_SceneInspector
    Name/it:Ispettore di scena
-   MenuLocation:Strumenti → Ispettore di scena...
+   MenuLocation:Strumenti - Ispettore di scena...
    Workbenches:Tutti
 ---
 

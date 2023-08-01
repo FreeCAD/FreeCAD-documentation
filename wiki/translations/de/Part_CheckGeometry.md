@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part CheckGeometry‏‎
    Name/de:Part GeometriePrüfen
-   MenuLocation:Formteil → Geometrie überprüfen
+   MenuLocation:Formteil - Geometrie überprüfen
    Workbenches:[Part](Part_Workbench/de.md)
 ---
 

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path 3DSurface
    Name/fr:Path Surface
-   MenuLocation:Path → Surface
+   MenuLocation:Path - Surface
    Workbenches:[Path](Path_Workbench/fr.md)
    Version:0.19
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path DressupAxisMap
    Name/pl:Path: Odwzorowanie osi
-   MenuLocation:Ścieżka → Ulepszenie ścieżki → Odwzorowanie osi
+   MenuLocation:Ścieżka - Ulepszenie ścieżki - Odwzorowanie osi
    Workbenches:[Path](Path_Workbench/pl.md)
 ---
 

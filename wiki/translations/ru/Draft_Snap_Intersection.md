@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft Snap Intersection
-   MenuLocation:Черчение → [Привязка](Draft_Snap/ru.md) → Пересечение
+   MenuLocation:Черчение - [Привязка](Draft_Snap/ru.md) - Пересечение
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:
    SeeAlso:

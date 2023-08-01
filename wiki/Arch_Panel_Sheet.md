@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch Panel Sheet
-   MenuLocation:Arch → Panel tools → Panel Sheet
+   MenuLocation:Arch - Panel tools - Panel Sheet
    Workbenches:[Arch](Arch_Workbench.md)
    Shortcut:**P** **S**
    Version:0.17

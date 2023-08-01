@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part ElementCopy
    Name/it:Part ElementCopy
-   MenuLocation:Part → Crea una copia → Copia un elemento
+   MenuLocation:Part - Crea una copia - Copia un elemento
    Workbenches:[Part](Part_Workbench/it.md)
    Version:0.19
    SeeAlso:[Copia semplice](Part_SimpleCopy/it.md), [Copia modificata](Part_TransformedCopy/it.md), [Affina forma](Part_RefineShape/it.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Cylinder
    Name/pl:Część: Walec
-   MenuLocation:Część → Bryła pierwotna → Walec
+   MenuLocation:Część - Bryła pierwotna - Walec
    Workbenches:[Część](Part_Workbench/pl.md)
    SeeAlso:[Utwórz geometrie pierwotne](Part_CreatePrimitives/pl.md)
 ---

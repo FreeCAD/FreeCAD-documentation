@@ -4,7 +4,7 @@
    Name/de:BIM Projekt
    Workbenches:[BIM](BIM_Workbench/de.md)
    Addon:BIM
-   MenuLocation:Verwalten → Projekt verwalten...
+   MenuLocation:Verwalten - Projekt verwalten...
 ---
 
 # BIM Project/de

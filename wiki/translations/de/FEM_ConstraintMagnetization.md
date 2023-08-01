@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM ConstraintMagnetization
    Name/de:FEM RandbedingungMagnetisierung
-   MenuLocation: Model → Electromagnetic Constraints → Constraint magnetization
+   MenuLocation: Model - Electromagnetic Constraints - Constraint magnetization
    Workbenches:[FEM](FEM_Workbench/de.md)
    Version:0.21
    SeeAlso:[MagnetodynamischeGleichung](FEM_EquationMagnetodynamic/de.md), [Magnetodynamische2DGleichung](FEM_EquationMagnetodynamic2D/de.md)

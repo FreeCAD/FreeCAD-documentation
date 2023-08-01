@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign Pocket
    Name/es:DiseñoPieza Cajera
-   MenuLocation:DiseñoPieza → Crear una característica substractivo → Cajera
+   MenuLocation:DiseñoPieza - Crear una característica substractivo - Cajera
    Workbenches:[DiseñoPieza](PartDesign_Workbench/es.md)
    SeeAlso:[DiseñoPieza Pastilla](PartDesign_Pad/es.md)
 ---

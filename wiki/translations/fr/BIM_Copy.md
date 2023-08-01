@@ -3,7 +3,7 @@
    Name:BIM Copy
    Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/fr.md)
    Addon:BIM
-   MenuLocation:Modify → Copie
+   MenuLocation:Modify - Copie
    SeeAlso:[Déplacer](Draft_Move/fr.md)
 ---
 

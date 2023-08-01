@@ -3,7 +3,7 @@
    Name:Arch RemoveShape
    Name/sv:Arch RemoveShape
    Workbenches:[Arch](Arch_Workbench/sv.md)
-   MenuLocation:Arch → Utilities → Remove Shape
+   MenuLocation:Arch - Utilities - Remove Shape
    SeeAlso:[MeshToShape](Arch_SplitMesh]],_[[Arch_MeshToShape/sv.md)
 ---
 

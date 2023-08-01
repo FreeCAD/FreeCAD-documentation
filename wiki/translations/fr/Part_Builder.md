@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Builder
    Name/fr:Part Générateur de forme
-   MenuLocation:Part → Générateur de forme
+   MenuLocation:Part - Générateur de forme
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---

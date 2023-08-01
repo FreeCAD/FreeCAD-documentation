@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std RecallWorkingView
    Name/fr:Std Rappel de la vue de travail
-   MenuLocation:Affichage → Vues standards → Rappeler la vue de travail
+   MenuLocation:Affichage - Vues standards - Rappeler la vue de travail
    Workbenches:Tous
    Shortcut:**Fin**
    Version:0.21

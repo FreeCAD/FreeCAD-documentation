@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Path Profile
-   MenuLocation:Path → Profile
+   MenuLocation:Path - Profile
    Workbenches:[Path](Path_Workbench.md)
    Version:0.19
 ---

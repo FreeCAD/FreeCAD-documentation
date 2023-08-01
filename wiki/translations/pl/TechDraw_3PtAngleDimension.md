@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw 3PtAngleDimension
    Name/pl:Rysunek Techniczny: Wstaw trzy punktowy wymiar kąta
-   MenuLocation:Rysunek Techniczny → Wymiary → Wstaw trzy punktowy wymiar kąta
+   MenuLocation:Rysunek Techniczny - Wymiary - Wstaw trzy punktowy wymiar kąta
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Version:0.18
    SeeAlso:[Wstaw wymiar kąta](TechDraw_AngleDimension/pl.md)

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name:Std TransformManip
-   MenuLocation:Right-click on an object in the tree view → Transform
-Edit → Transform
+   MenuLocation:Right-click on an object in the tree view - Transform
+Edit - Transform
    Workbenches:All
    SeeAlso:[Std Base](Std_Base.md)
 ---

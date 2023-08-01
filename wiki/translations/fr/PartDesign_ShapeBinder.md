@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign ShapeBinder
    Name/fr:PartDesign Forme liée
-   MenuLocation:Part Design → Créer une forme liée
+   MenuLocation:Part Design - Créer une forme liée
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    Version:0.17
    SeeAlso:[PartDesign Sous forme liée](PartDesign_SubShapeBinder/fr.md), [PartDesign Clone](PartDesign_Clone/fr.md)

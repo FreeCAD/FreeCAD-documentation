@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch Survey
-   MenuLocation:Arch → Survey
+   MenuLocation:Arch - Survey
    Workbenches:[Arch](Arch_Workbench.md)
    SeeAlso:[Macro FCInfo](Macro_FCInfo.md), [Macro SimpleProperties](Macro_SimpleProperties.md)
 ---

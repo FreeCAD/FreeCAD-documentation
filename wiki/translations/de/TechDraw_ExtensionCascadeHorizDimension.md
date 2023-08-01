@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionCascadeHorizDimension
    Name/de:TechDraw ErgänzungHorizontaleMaßeAnordnen
-   MenuLocation:TechDraw → Ergänzungen: Merkmale/Änderungen → Horizontale Maße anordnen
+   MenuLocation:TechDraw - Ergänzungen: Merkmale/Änderungen - Horizontale Maße anordnen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20

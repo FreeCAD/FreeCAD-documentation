@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_ViewTop
    Name/it:Vista dall'alto
-   MenuLocation:Visualizza → Viste standard → Dall'alto
+   MenuLocation:Visualizza - Viste standard - Dall'alto
    Workbenches:Tutti
    Shortcut:**2**
    SeeAlso:[Vista frontale](Std_ViewFront/it.md), [Vista da destra](Std_ViewRight/it.md)

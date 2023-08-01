@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionInsertSquare
    Name/fr:TechDraw Section tube
-   MenuLocation:TechDraw → Extensions : cotes → Insérer un préfixe '〼'
+   MenuLocation:TechDraw - Extensions : cotes - Insérer un préfixe '〼'
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut:
    Version:0.20

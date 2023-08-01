@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Points Merge
    Name/fr:Points Fusionner
-   MenuLocation:Points → Fusionner des nuages de points
+   MenuLocation:Points - Fusionner des nuages de points
    Workbenches:[Points](Points_Workbench/fr.md)
 ---
 

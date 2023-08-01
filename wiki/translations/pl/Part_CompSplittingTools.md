@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part CompSplittingTools
    Name/pl:Część: Komponent Podziel obiekty
-   MenuLocation:Część → Rozdziel
+   MenuLocation:Część - Rozdziel
    Workbenches:[Część](Part_Workbench/pl.md)
    SeeAlso:
 ---

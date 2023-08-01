@@ -2,7 +2,7 @@
 - GuiCommand:-cn
    Name/zh-cn:创建圆
    Name:Sketcher_CreateCircle
-   MenuLocation:Sketch → 草图几何体 → 创建圆
+   MenuLocation:Sketch - 草图几何体 - 创建圆
    Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md)
    SeeAlso:[创建弧](Sketcher_CompCreateArc/zh-cn.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Add
    Name/it:Aggiungi
-   MenuLocation:Arch → Aggiungi componente
+   MenuLocation:Arch - Aggiungi componente
    Workbenches:[Architettura](Arch_Workbench/it.md)
    SeeAlso:[Rimuovi](Arch_Remove/it.md)
 ---

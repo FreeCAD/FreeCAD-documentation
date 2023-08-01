@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part CompSplittingTools
    Name/de:Part AuswahlAufteilungswerkzeuge
-   MenuLocation:Formteil → Split
+   MenuLocation:Formteil - Split
    Workbenches:[Part](Part_Workbench/de.md)
    SeeAlso:
 ---

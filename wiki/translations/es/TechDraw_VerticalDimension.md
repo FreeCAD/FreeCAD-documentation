@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw  Dimension Vertical
    Name/es:TechDraw  Dimensión Vertical
-   MenuLocation:TechDraw →  Dimensión Horizontal
+   MenuLocation:TechDraw -  Dimensión Horizontal
    Workbenches:[TechDraw](TechDraw_Workbench/es.md)
    Shortcut:**Shift** + **V**
    SeeAlso:[TechDraw Dimensión Longitud](TechDraw_LengthDimension/es.md), [TechDraw Dimensión Horizontal](TechDraw_HorizontalDimension/es.md)

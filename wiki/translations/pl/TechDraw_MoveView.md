@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw MoveView
    Name/pl:Rysunek Techniczny: Przesuń widok
-   MenuLocation:Rysunek Techniczny → Widoki → Przesuń widok
+   MenuLocation:Rysunek Techniczny - Widoki - Przesuń widok
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Version:0.20
    SeeAlso:[Udostępnij widok](TechDraw_ShareView/pl.md)

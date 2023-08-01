@@ -3,7 +3,7 @@
    Name:Arch Pipe
    Name/es:Arch Pipe
    Workbenches:[Arch](Arch_Workbench/es.md)
-   MenuLocation:Arch → Pipe Tools → Pipe
+   MenuLocation:Arch - Pipe Tools - Pipe
    Shortcut:P I
    SeeAlso:[Arch PipeConnector](Arch_PipeConnector.md)
    Version:0.17

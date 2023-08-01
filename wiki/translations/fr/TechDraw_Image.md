@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw Image
    Name/fr:TechDraw Image
-   MenuLocation:TechDraw → Insérer une image Bitmap
+   MenuLocation:TechDraw - Insérer une image Bitmap
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    SeeAlso:[TechDraw Symbole SVG](TechDraw_Symbol/fr.md)
 ---

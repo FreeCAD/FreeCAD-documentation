@@ -1,6 +1,6 @@
 # Robot SetHomePos/ro
 ---
-- GuiCommand:   Name:Robot SetHomePos   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot → Set home position---
+- GuiCommand:   Name:Robot SetHomePos   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot - Set home position---
 
 
 </div>

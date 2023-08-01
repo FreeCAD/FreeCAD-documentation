@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch Panel Cut
-   MenuLocation:Arch → Panel tools → Panel Cut
+   MenuLocation:Arch - Panel tools - Panel Cut
    Workbenches:[Arch](Arch_Workbench.md), [Path](Path_Workbench.md)
    Shortcut:**P** **C**
    Version:0.17

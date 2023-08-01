@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch RemoveShape
    Name/fr:Arch Supprimer la forme
-   MenuLocation:Arch → Utilitaires → Supprimer la forme
+   MenuLocation:Arch - Utilitaires - Supprimer la forme
    Workbenches:[Arch](Arch_Workbench/fr.md)
    SeeAlso:[Arch Séparer un objet Mesh](Arch_SplitMesh/fr.md), [Arch Maillage vers une forme](Arch_MeshToShape/fr.md)
 ---

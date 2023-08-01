@@ -3,7 +3,7 @@
    Name:Constraint PointOnObject
    Name/es:Constraint PointOnObject
    Workbenches:[Croquizador](Sketcher_Workbench/es.md), [Diseño de Piezas](PartDesign_Workbench/es.md)
-   MenuLocation:Croquizador → Restricciones del Croquizador → Punto en objeto
+   MenuLocation:Croquizador - Restricciones del Croquizador - Punto en objeto
    SeeAlso:[Coincidente](Sketcher_ConstrainCoincident/es.md)
 ---
 

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Label
    Name/ro:Draft Label
-   MenuLocation:Draft → Label
+   MenuLocation:Draft - Label
    Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
    Shortcut:**D** **L**
 ---

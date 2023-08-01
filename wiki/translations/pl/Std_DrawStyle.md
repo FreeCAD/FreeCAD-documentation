@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std DrawStyle
    Name/pl:Std: Styl kreślenia
-   MenuLocation:Widok → Styl kreślenia → ...
+   MenuLocation:Widok - Styl kreślenia - ...
    Workbenches:Wszystkie
    Shortcut:**V** **1** - **V** **7**
    SeeAlso:[Ramka otaczająca](Std_SelBoundingBox/pl.md)

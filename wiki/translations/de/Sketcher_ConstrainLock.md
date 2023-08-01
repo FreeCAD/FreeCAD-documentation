@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher ConstrainLock
    Name/de:Sketcher Sperren
-   MenuLocation:Sketch → Skizzen-Beschränkungen → Sperren
+   MenuLocation:Sketch - Skizzen-Beschränkungen - Sperren
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Shortcut:**K** **L**
    SeeAlso:[Sketcher Fixieren](Sketcher_ConstrainBlock/de.md)

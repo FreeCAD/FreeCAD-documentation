@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Base ExampleCommandModel
    Icon: 
-   MenuLocation:Menu → Submenu → Menu text for the command
+   MenuLocation:Menu - Submenu - Menu text for the command
    Workbenches:[Workbench](Workbench_Name.md)
    Shortcut:**F** **C**
    Version:0.19

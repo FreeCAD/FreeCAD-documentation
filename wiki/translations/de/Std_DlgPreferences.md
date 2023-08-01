@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std DlgPreferences
    Name/de:Std DlgEinstellungen
-   MenuLocation:Bearbeiten → Einstellungen...
+   MenuLocation:Bearbeiten - Einstellungen...
    Workbenches:Alle
    SeeAlso:[Voreinstellungseditor](Preferences_Editor/de.md)
 ---

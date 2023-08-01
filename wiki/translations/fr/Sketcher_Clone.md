@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher Clone
    Name/fr:Sketcher Clone
-   MenuLocation:Esquisse → Outils d'esquisse → Clone
+   MenuLocation:Esquisse - Outils d'esquisse - Clone
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**Z** **L**
    Version:0.16

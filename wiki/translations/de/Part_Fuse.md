@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Fuse
    Name/de:Part Vereinigung
-   MenuLocation:Formteil → Boolesche Operation → Vereinigung
+   MenuLocation:Formteil - Boolesche Operation - Vereinigung
    Workbenches:[Part](Part_Workbench/de.md)
    SeeAlso:[Part Boolesche Operationen](Part_Boolean/de.md), [Part Differenz](Part_Cut/de.md), [Part Schnitt](Part_Common/de.md), 
 ---

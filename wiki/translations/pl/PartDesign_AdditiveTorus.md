@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign AdditiveTorus
    Name/pl:Projekt Części: Addytywny torus
-   MenuLocation:Projekt Części → Utwórz cechę przez dodanie → Addytywny torus
+   MenuLocation:Projekt Części - Utwórz cechę przez dodanie - Addytywny torus
    Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
    SeeAlso:[Komponent bryła pierwotna do dodania](PartDesign_CompPrimitiveAdditive/pl.md), [Subtraktywny torus](PartDesign_SubtractiveTorus/pl.md)

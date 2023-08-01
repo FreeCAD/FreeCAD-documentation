@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FCGear InvoluteGear
    Name/it:Ingranaggio a spirale
-   MenuLocation:FCGear → Create an Involute gear
+   MenuLocation:FCGear - Create an Involute gear
    Workbenches:[FCGear](FCGear_Workbench/it.md)
    Shortcut:None
    Version:v0.16

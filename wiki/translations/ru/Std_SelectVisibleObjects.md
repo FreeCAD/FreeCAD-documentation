@@ -3,7 +3,7 @@
    Name:Std SelectVisibleObjects
    Name/ru:Std SelectVisibleObjects
    Empty:1
-   MenuLocation:Вид → Видимость → Выбрать видимые объекты
+   MenuLocation:Вид - Видимость - Выбрать видимые объекты
    Workbenches:All
 ---
 

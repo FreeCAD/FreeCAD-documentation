@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Spreadsheet MergeCells
    Name/ru:Объединить ячейки
-   MenuLocation:Spreadsheet → Объединить ячейки
+   MenuLocation:Spreadsheet - Объединить ячейки
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/ru.md)
    Version:0.17
 ---

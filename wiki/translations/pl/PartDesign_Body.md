@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign Body
    Name/pl:Projekt części: Zawartość
-   MenuLocation:Projekt Części → Stwórz zawartość
+   MenuLocation:Projekt Części - Stwórz zawartość
    Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
    SeeAlso:[Część](Std_Part/pl.md), [Edycja cech](Feature_editing/pl.md)

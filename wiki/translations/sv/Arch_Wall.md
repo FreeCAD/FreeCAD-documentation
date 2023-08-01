@@ -1,6 +1,6 @@
 # Arch Wall/sv
 ---
-- GuiCommand:   Name:Arch Wall   Name/sv:Arch Wall   Workbenches:[MenuLocation:Arch → Wall   Shortcut:W A   SeeAlso:[[Arch Structure/sv|Arch Structure](Arch_Workbench/sv___Arch]].md)---
+- GuiCommand:   Name:Arch Wall   Name/sv:Arch Wall   Workbenches:[MenuLocation:Arch - Wall   Shortcut:W A   SeeAlso:[[Arch Structure/sv|Arch Structure](Arch_Workbench/sv___Arch]].md)---
 
 
 </div>

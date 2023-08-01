@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft PointArray
    Name/es:Borrador ArregloPunto
-   MenuLocation:Modificación → Herramientas de  Arreglo → Arreglo Punto
+   MenuLocation:Modificación - Herramientas de  Arreglo - Arreglo Punto
    Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
    Version:0.18
    SeeAlso:[Borrador OrthoArray](Draft_OrthoArray/es.md), [Borrador ArregloPolar](Draft_PolarArray/es.md), 

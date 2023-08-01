@@ -3,7 +3,7 @@
    Name:Sketcher Symmetry
    Name/it:Simmetria
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch → Strumenti → Simmetria
+   MenuLocation:Sketch - Strumenti - Simmetria
    Version:0.16
 ---
 

@@ -1,6 +1,6 @@
 # PartDesign Groove/it
 ---
-- GuiCommand:   Name:PartDesign_Groove   Name/it:Scanalatura   Workbenches:[MenuLocation:PartDesign → Scanalatura   SeeAlso:[[PartDesign_Revolution/it|Rivoluzione](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand:   Name:PartDesign_Groove   Name/it:Scanalatura   Workbenches:[MenuLocation:PartDesign - Scanalatura   SeeAlso:[[PartDesign_Revolution/it|Rivoluzione](PartDesign_Workbench/it___PartDesign]].md)---
 
 
 </div>

@@ -1,6 +1,6 @@
 # Draft Dimension/cs
 ---
-- GuiCommand:   Name:Draft Dimension   Name/cs:Draft Dimension   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft → Dimension   Shortcut:D I   SeeAlso:[FlipDimension](Draft_FlipDimension/cs.md)---
+- GuiCommand:   Name:Draft Dimension   Name/cs:Draft Dimension   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft - Dimension   Shortcut:D I   SeeAlso:[FlipDimension](Draft_FlipDimension/cs.md)---
 
 
 </div>

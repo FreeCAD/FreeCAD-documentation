@@ -1,6 +1,6 @@
 # Sketcher MapSketch/pt-br
 ---
-- GuiCommand:-br   Name:Sketcher MapSketch   Name/pt-br:Sketcher MapSketch   Create a sketch on a face|Workbenches:[PartDesign](Sketcher_Workbench/pt-br___Sketcher]],_[[PartDesign_Workbench/pt-br.md)|MenuLocation:Part design → Create a sketch on a face   SeeAlso:[Create a sketch](Sketcher_NewSketch/pt-br.md)---
+- GuiCommand:-br   Name:Sketcher MapSketch   Name/pt-br:Sketcher MapSketch   Create a sketch on a face|Workbenches:[PartDesign](Sketcher_Workbench/pt-br___Sketcher]],_[[PartDesign_Workbench/pt-br.md)|MenuLocation:Part design - Create a sketch on a face   SeeAlso:[Create a sketch](Sketcher_NewSketch/pt-br.md)---
 
 
 </div>

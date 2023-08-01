@@ -1,6 +1,6 @@
 # PartDesign Hole/ro
 ---
-- GuiCommand:   Name:PartDesign Hole   Workbenches:[MenuLocation:Part Design → Hole   Shortcut:None   SeeAlso:[[PartDesign Pocket](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand:   Name:PartDesign Hole   Workbenches:[MenuLocation:Part Design - Hole   Shortcut:None   SeeAlso:[[PartDesign Pocket](PartDesign_Workbench___PartDesign]].md)---
 
 
 </div>

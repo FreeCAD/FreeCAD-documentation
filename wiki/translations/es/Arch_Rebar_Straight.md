@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Rebar UShape
    Name/es: Arch Barra de Refuerzo en Forma de U
-   MenuLocation:Arch → Rebar tools
+   MenuLocation:Arch - Rebar tools
    Workbenches:[Arch](Arch_Workbench/es.md)
    Shortcut:None
    SeeAlso:[LShape Rebar](Arch_Rebar_LShape/es.md)

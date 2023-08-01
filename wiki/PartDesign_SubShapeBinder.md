@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign SubShapeBinder
    Workbenches:[PartDesign](PartDesign_Workbench.md)
-   MenuLocation:Part Design → Create a sub-object(s) shape binder
+   MenuLocation:Part Design - Create a sub-object(s) shape binder
    Version:0.19
    SeeAlso:[PartDesign ShapeBinder](PartDesign_ShapeBinder.md), [PartDesign Clone](PartDesign_Clone.md)
 ---

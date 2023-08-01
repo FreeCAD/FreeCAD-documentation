@@ -3,7 +3,7 @@
    Name:PartDesign Fillet
    Name/es:DiseñoPiezas Redondeo
    Workbenches:[DiseñoPiezas](PartDesign_Workbench/es.md)
-   MenuLocation:DiseñoPiezas → Redondeo
+   MenuLocation:DiseñoPiezas - Redondeo
    SeeAlso:[Chaflán](PartDesign_Chamfer.md),[Piezas Redondeo](Part_Fillet/es.md)
 ---
 

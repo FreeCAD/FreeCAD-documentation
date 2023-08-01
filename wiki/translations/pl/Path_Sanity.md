@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Path Sanity
    Name/pl:Path: Bezpieczeństwo
-   MenuLocation:Ścieżka → Sprawdź zadanie ścieżki pod kątem typowych błędów
+   MenuLocation:Ścieżka - Sprawdź zadanie ścieżki pod kątem typowych błędów
    Workbenches:[Path](Path_Workbench/pl.md)
    Shortcut:**P** **S**
    Version:0.19

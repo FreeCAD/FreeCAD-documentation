@@ -1,6 +1,6 @@
 # Part Section/cs
 ---
-- GuiCommand:   Name:Part Chamfer   Name/cs:Díl Řez   MenuLocation:Díl → Řez   Workbenches:[[Part_Workbench/cs   Díl]], Kompletace|SeeAlso:---
+- GuiCommand:   Name:Part Chamfer   Name/cs:Díl Řez   MenuLocation:Díl - Řez   Workbenches:[[Part_Workbench/cs   Díl]], Kompletace|SeeAlso:---
 
 
 </div>

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std DlgParameter
    Name/pl:Std: Edytor parametrów
-   MenuLocation:Przybory → Edytor parametrów ...
+   MenuLocation:Przybory - Edytor parametrów ...
    Workbenches:wszystkie
    SeeAlso:[Edytor preferencji](Preferences_Editor/pl.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Facebinder
    Name/de:Entwurf Flächenbinder
-   MenuLocation:Entwerfen → Flächenbinder
+   MenuLocation:Entwerfen - Flächenbinder
    Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
    Shortcut:**F** **F**
    Version:0.14

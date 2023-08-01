@@ -1,6 +1,6 @@
 # OpenSCAD ExpandPlacements/it
 ---
-- GuiCommand:   Name:OpenSCAD ExpandPlacements   Name/it:ExpandPlacements   MenuLocation:OpenSCAD → ExpandPlacements‏‎   |Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name:OpenSCAD ExpandPlacements   Name/it:ExpandPlacements   MenuLocation:OpenSCAD - ExpandPlacements‏‎   |Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut:   SeeAlso:---
 
 
 </div>

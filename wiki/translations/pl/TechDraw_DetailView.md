@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw DetailView
    Name/pl:Rysunek Techniczny: Wstaw widok szczegółu
-   MenuLocation:Rysunek Techniczny → Wstaw widok szczegółu
+   MenuLocation:Rysunek Techniczny - Wstaw widok szczegółu
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    SeeAlso:[Wstaw widok](TechDraw_View/pl.md), [Wstaw grupę rzutów](TechDraw_ProjectionGroup/pl.md)
 ---

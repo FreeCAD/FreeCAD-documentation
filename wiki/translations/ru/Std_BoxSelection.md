@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_BoxSelection
    Name/ru:Выделить область
-   MenuLocation:Правка → Выделить область
+   MenuLocation:Правка - Выделить область
    Workbenches:Все
    Shortcut:**Shift**+**B**
    SeeAlso:[Область выбора элементов](Std_BoxElementSelection/ru.md), [Выбрать всё](Std_SelectAll/ru.md)

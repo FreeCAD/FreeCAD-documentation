@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Part CompSplittingTools
    Name:Part CompSplittingTools
-   MenuLocation:Деталь → Разделить
+   MenuLocation:Деталь - Разделить
    Workbenches:[Part](Part_Workbench/ru.md)
    SeeAlso:
 ---

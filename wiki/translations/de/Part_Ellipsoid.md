@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Ellipsoid
    Name/de:Part Ellipsoid
-   MenuLocation:Formteil → [Grundkörper erstellen...](Part_Primitives/de.md) → Ellipsoid
+   MenuLocation:Formteil - [Grundkörper erstellen...](Part_Primitives/de.md) - Ellipsoid
    Workbenches:[Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
    SeeAlso:[Part Grundelemente](Part_Primitives/de.md)
 ---

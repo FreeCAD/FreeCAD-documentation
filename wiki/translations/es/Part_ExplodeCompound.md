@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part ExplodeCompound
    Name/es:Pieza ExplotarCompuesto
-   MenuLocation:Pieza → Compuesto → Explotar Compuesto
+   MenuLocation:Pieza - Compuesto - Explotar Compuesto
    Version:0.18.15506
    Workbenches:[Pieza](Part_Workbench/es.md)
    SeeAlso:[Pieza Hacer Compuesto](Part_Compound/es.md), [Borrador Bajada](Draft_Downgrade/es.md)

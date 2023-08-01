@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign MoveTip
    Name/fr:PartDesign Désigner comme fonction résultante
-   MenuLocation:Menu contextuel → Désigner comme fonction résultante
+   MenuLocation:Menu contextuel - Désigner comme fonction résultante
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    Version:0.17
    SeeAlso:[PartDesign Déplacer vers un autre corps](PartDesign_MoveFeature/fr.md), [PartDesign Déplacer après un autre objet](PartDesign_MoveFeatureInTree/fr.md)

@@ -3,7 +3,7 @@
    Name:Drawing Symbol
    Name/pl:Drawing: Symbol
    Workbenches:[Kreślenie](Drawing_Workbench/pl.md)
-   MenuLocation:Kreślenie → Symbol
+   MenuLocation:Kreślenie - Symbol
    Shortcut:brak
 ---
 

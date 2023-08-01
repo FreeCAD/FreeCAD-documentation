@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Reference
    Name/ro:Arch Reference
-   MenuLocation:Arch → Reference
+   MenuLocation:Arch - Reference
    Workbenches:[Arch](Arch_Workbench/ro.md)
    Shortcut:
    SeeAlso:[[Arch BuildingPart]]

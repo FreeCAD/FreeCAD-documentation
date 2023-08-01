@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Trimex
    Name/pl:Rysunek Roboczy: Przytnij
-   MenuLocation:Modyfkacja → Przytnij
+   MenuLocation:Modyfkacja - Przytnij
    Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
    Shortcut:**T** **R**
    SeeAlso:[Part: Wyciągnij](Part_Extrude.md)

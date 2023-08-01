@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher ConstrainAngle
    Name/fr:Sketcher Contrainte angulaire
-   MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte angulaire
+   MenuLocation:Esquisse - Contraintes d'esquisse - Contrainte angulaire
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**K** **A**
    SeeAlso:[Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte perpendiculaire](Sketcher_ConstrainPerpendicular/fr.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Fasteners_BOM
    Name/ru:Спецификация
-   MenuLocation:Стандартные изделия → Спецификация
+   MenuLocation:Стандартные изделия - Спецификация
    Workbenches:[Стандартные изделия](Fasteners_Workbench/ru.md)
    SeeAlso:[Верстак электронных таблиц](Spreadsheet_Workbench/ru.md)
 ---

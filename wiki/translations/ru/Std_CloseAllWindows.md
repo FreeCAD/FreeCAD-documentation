@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_CloseAllWindows
    Name/ru:Закрыть всё
-   MenuLocation:Файл → Закрыть всё
+   MenuLocation:Файл - Закрыть всё
    Workbenches:Все
    SeeAlso:[Закрыть](Std_CloseActiveWindow/ru.md)
 ---

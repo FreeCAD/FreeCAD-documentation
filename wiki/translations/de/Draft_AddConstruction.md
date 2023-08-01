@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft AddConstruction
    Name/de:Draft ZurKonstruktionsgruppeHinzufügen
-   MenuLocation:Utilities → Zur Konstruktionsgruppe hinzufügen
+   MenuLocation:Utilities - Zur Konstruktionsgruppe hinzufügen
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Version/de:0.17
    SeeAlso:[Draft UmnschaltenKonstruktionsmodus](Draft_ToggleConstructionMode/de.md), [Draft Zur Gruppe hinzufügen](Draft_AddToGroup/de.md)

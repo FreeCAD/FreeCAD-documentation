@@ -3,7 +3,7 @@
    Name:Sketcher_ConstrainBlock
    Name/it:Fissa
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch → Vincoli → Fissa
+   MenuLocation:Sketch - Vincoli - Fissa
    SeeAlso:[Blocca](Sketcher_ConstrainLock/it.md)
    Version:0.17
 ---

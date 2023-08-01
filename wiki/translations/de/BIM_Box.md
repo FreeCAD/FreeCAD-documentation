@@ -4,7 +4,7 @@
    Name/de:BIM Kasten
    Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
    Addon:BIM
-   MenuLocation:3D Modellierung → Kasten
+   MenuLocation:3D Modellierung - Kasten
    SeeAlso:[Part Kasten](Part_Box/de.md)
 ---
 

@@ -3,7 +3,7 @@
    Name:Arch Wall
    Name/pt-br:Arch Wall
    Workbenches:[Arch](Arch_Workbench/pt-br.md)
-   MenuLocation:Arch → Wall
+   MenuLocation:Arch - Wall
    Shortcut:**W** **A**
    SeeAlso:[Arch Structure](Arch_Structure/pt-br.md)
 ---

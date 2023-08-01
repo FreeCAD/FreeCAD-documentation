@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part ReverseShapes
    Name/de:Part FormenUmkehren
-   MenuLocation:Part → Formen umkehren
+   MenuLocation:Part - Formen umkehren
    Workbenches:[Part Modul](Part_Workbench/de.md)
 ---
 

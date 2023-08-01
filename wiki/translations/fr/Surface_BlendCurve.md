@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Surface BlendCurve
    Name/fr:Surface Fusion de courbes
-   MenuLocation:Surface → Fusionner des courbes
+   MenuLocation:Surface - Fusionner des courbes
    Workbenches:[Surface](Surface_Workbench/fr.md)
    Version:0.21
 ---

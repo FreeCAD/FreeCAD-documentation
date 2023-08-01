@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Сверху
    Name:Std_ViewTop
-   MenuLocation:Вид → Стандартные виды‏‎ → Сверху
+   MenuLocation:Вид - Стандартные виды‏‎ - Сверху
    Workbenches:Все
    Shortcut:**2**
    SeeAlso:[Спереди](Std_ViewFront/ru.md), [Справа](Std_ViewRight/ru.md)

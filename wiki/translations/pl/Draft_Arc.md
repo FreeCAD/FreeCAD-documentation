@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Arc
    Name/pl:Rysunek Roboczy: Łuk
-   MenuLocation:Kreślenie → Narzędzia łuku → Łuk
+   MenuLocation:Kreślenie - Narzędzia łuku - Łuk
    Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
    Shortcut:**A** **R**
    Version:0.7

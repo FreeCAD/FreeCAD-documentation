@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Парабола
    Name:Sketcher_CreateArcOfParabola
-   MenuLocation:Sketch → Геометрия эскиза → Парабола
+   MenuLocation:Sketch - Геометрия эскиза - Парабола
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:**G** **J**
    Version:0.17

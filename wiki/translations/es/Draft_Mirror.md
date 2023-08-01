@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Mirror
    Name/es:Draft Mirror
-   MenuLocation:Draft → Mirror
+   MenuLocation:Draft - Mirror
    Workbenches:[Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
    SeeAlso:[Draft Scale](Draft_Scale/es.md)
 ---

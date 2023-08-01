@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Reinforcement Bar Bending Schedule
-   MenuLocation:Reinforcement → Bar Bending Schedule
+   MenuLocation:Reinforcement - Bar Bending Schedule
    Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
    Version:0.19
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar BOM](Arch_Rebar_BOM.md), [Arch Rebar Reinforcement Drawing](Arch_Rebar_Drawing_Dimensioning.md)

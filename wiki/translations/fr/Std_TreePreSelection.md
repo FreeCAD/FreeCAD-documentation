@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std TreePreSelection
    Name/fr:Std Arborescence Préselection
-   MenuLocation:Affichage → Vue en arborescence  → Pré-sélectionner
+   MenuLocation:Affichage - Vue en arborescence  - Pré-sélectionner
    Workbenches:Tous
    Shortcut:**T** **4**
    Version:0.19

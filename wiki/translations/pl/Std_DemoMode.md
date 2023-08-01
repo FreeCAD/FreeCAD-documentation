@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std DemoMode
    Name/pl:Std: Widok obrotowy
-   MenuLocation:Przybory → Widok obrotowy ...
+   MenuLocation:Przybory - Widok obrotowy ...
    Workbenches:wszystkie
 ---
 

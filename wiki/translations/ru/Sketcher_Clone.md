@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Клонировать
    Name:Sketcher_Clone
-   MenuLocation:Sketch → Инструменты для эскиза → Клонировать
+   MenuLocation:Sketch - Инструменты для эскиза - Клонировать
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Version:0.16
    SeeAlso:[Копировать](Sketcher_Copy/ru.md), [Переместить](Sketcher_Move/ru.md)

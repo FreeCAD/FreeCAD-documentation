@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Compound‏‎Filter
    Name/it:Filtra composto
-   MenuLocation:Part → Filtra composto
+   MenuLocation:Part - Filtra composto
    Workbenches:[Part](Part_Workbench/it.md)
    Version:0.17
 ---

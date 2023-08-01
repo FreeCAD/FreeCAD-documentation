@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft SelectGroup
    Name/tr:Grup içeriğini seç
-   MenuLocation:Draft → Utilities → Select group
+   MenuLocation:Draft - Utilities - Select group
    Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
    Shortcut:
    SeeAlso:[Draft AddToGroup](Draft_AddToGroup/tr.md), [Std CreateGroup](Std_Group/tr.md)

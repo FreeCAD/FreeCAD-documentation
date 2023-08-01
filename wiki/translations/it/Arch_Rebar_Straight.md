@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch_Rebar_Straight
    Name/it:Armatura dritta
-   MenuLocation:Arch → Strumenti armatura → Armatura dritta o BIM → 3D/BIM → Reinforcement → Straight Rebar
+   MenuLocation:Arch - Strumenti armatura - Armatura dritta o BIM - 3D/BIM - Reinforcement - Straight Rebar
    Workbenches:[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
    SeeAlso:[Distinta dei ferri](Arch_Rebar_BOM/it.md), [Armatura](Arch_Rebar/it.md)
    Version:0.17

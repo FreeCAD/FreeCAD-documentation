@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std DlgMacroExecuteDirect
    Name/pl:Std: Wykonaj makrodefinicję w trakcie edycji
-   MenuLocation:Makrodefinicje → Wykonaj makro
+   MenuLocation:Makrodefinicje - Wykonaj makro
    Workbenches:wszystkie
    Shortcut:**Ctrl** + **F6**
    SeeAlso:[Makrodefinicje](Std_DlgMacroExecute/pl.md)

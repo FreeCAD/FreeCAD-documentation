@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM SolverRun
    Name/fr:FEM Résolution
-   MenuLocation:Résolution → Lancer les calculs du solveur
+   MenuLocation:Résolution - Lancer les calculs du solveur
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Shortcut:**S** **R**
    SeeAlso:[FEM Réglage du solveur](FEM_SolverControl/fr.md)

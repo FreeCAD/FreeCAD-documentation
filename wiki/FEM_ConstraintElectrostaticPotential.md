@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:FEM ConstraintElectrostaticPotential
-   MenuLocation: Model → Electrostatic Constraints → Constraint Electrostatic Potential
+   MenuLocation: Model - Electrostatic Constraints - Constraint Electrostatic Potential
    Workbenches:[FEM](FEM_Workbench.md)
    SeeAlso:[FEM capacitance example](FEM_Example_Capacitance_Two_Balls.md), [FEM tutorial](FEM_tutorial.md)
 ---

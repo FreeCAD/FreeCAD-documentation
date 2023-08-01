@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:FEM ConstraintBodyHeatSource
-   MenuLocation:Model → Thermal Constraints → Constraint body heat source
+   MenuLocation:Model - Thermal Constraints - Constraint body heat source
    Workbenches:[FEM](FEM_Workbench.md)
    Version:0.19
    SeeAlso:[FEM tutorial](FEM_tutorial.md)

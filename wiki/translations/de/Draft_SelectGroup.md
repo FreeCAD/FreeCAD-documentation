@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft SelectGroup
    Name/de:Wähle Gruppe
-   MenuLocation:Dienstprogramme → Wähle Gruppe
+   MenuLocation:Dienstprogramme - Wähle Gruppe
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    SeeAlso:[Std Gruppe](Std_Group/de.md), [Draft Zur Gruppe hinzufügen...](Draft_AddToGroup/de.md), [Draft zur Konstruktionsgruppe hinzufügen](Draft_AddConstruction/de.md), [Draft Autogruppe](Draft_AutoGroup/de.md)
 ---

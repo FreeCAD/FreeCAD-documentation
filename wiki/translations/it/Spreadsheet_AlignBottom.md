@@ -3,7 +3,7 @@
    Name:Spreadsheet_AlignBottom
    Name/it:Allinea in basso
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)
-   MenuLocation:Spreadsheet → Allineamento → In basso
+   MenuLocation:Spreadsheet - Allineamento - In basso
    Version:0.17
 ---
 

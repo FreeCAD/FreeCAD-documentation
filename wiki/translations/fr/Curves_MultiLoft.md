@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Curves MultiLoft
    Name/fr:Curves Multi lissage
-   MenuLocation:Surfaces → MultiLoft
+   MenuLocation:Surfaces - MultiLoft
    Workbenches:[Curves](Curves_Workbench/fr.md)
 ---
 

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh_PolyCut
    Name/it:Taglia la mesh
-   MenuLocation:Mesh → Taglio → Taglia la mesh
+   MenuLocation:Mesh - Taglio - Taglia la mesh
    Workbenches:[Mesh](Mesh_Workbench/it.md)
    SeeAlso:[Rifila con un poligono](Mesh_PolyTrim/it.md), [Rifila con un piano](Mesh_TrimByPlane/it.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher ViewSketch
    Name/fr:Sketcher Vue de l'esquisse
-   MenuLocation:Esquisse → Vue de l'esquisse
+   MenuLocation:Esquisse - Vue de l'esquisse
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
    Shortcut:**Q** **P**
 ---

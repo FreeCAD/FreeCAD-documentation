@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std DlgCustomize
    Name/ru:Std DlgCustomize
-   MenuLocation:Инструменты → Настройка...
+   MenuLocation:Инструменты - Настройка...
    Workbenches:All
    SeeAlso:[Interface Customization](Interface_Customization/ru.md)
 ---

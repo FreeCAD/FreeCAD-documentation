@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Upgrade
    Name/ru:Draft Upgrade
-   MenuLocation:Черчение → Обновить
+   MenuLocation:Черчение - Обновить
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:**U** **P**
    SeeAlso:[Draft Downgrade](Draft_Downgrade/ru.md), [Part Fuse](Part_Fuse/ru.md)

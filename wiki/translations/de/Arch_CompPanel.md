@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch CompPanel
    Name/de:Arch BildePaneel
-   MenuLocation:Arch → Paneel
+   MenuLocation:Arch - Paneel
    Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
    SeeAlso:
    Version:0.17

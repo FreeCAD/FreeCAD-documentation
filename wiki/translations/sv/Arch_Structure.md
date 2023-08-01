@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch_Structure   Name/sv:Arch Structure
-   MenuLocation:Arch → Structure
+   MenuLocation:Arch - Structure
    Workbenches:[Arch](Arch_Workbench/sv.md)
    Shortcut:**S** **T**
    SeeAlso:[Arch Wall](Arch_Wall/sv.md) [Arch Rebar/sv](Arch_Rebar/sv.md)

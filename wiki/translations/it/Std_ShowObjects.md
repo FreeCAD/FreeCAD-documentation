@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ShowObjects
    Name/it:Mostra tutti gli oggetti
-   MenuLocation:Visualizza → Visibilità → Mostra tutti gli oggetti
+   MenuLocation:Visualizza - Visibilità - Mostra tutti gli oggetti
    Workbenches:Tutti
    SeeAlso:[Mostra/Nascondi](Std_ToggleVisibility/it.md), [Mostra la selezione](Std_ShowSelection/it.md), [Nascondi la selezione](Std_HideSelection/it.md), [Commuta tutti gli oggetti](Std_ToggleObjects/it.md), [Nascondi tutti gli oggetti](Std_HideObjects/it.md)
 ---

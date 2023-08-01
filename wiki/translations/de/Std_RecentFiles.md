@@ -3,7 +3,7 @@
    Name:Std RecentFiles
    Name/de:Std LetzteDateien
    Empty:1
-   MenuLocation:Datei → Letzte Dateien
+   MenuLocation:Datei - Letzte Dateien
    Workbenches:Alle
    SeeAlso:[Std Öffnen](Std_Open/de.md), [Std Import](Std_Import/de.md)
 ---

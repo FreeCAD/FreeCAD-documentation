@@ -1,6 +1,6 @@
 # PartDesign Groove/ro
 ---
-- GuiCommand:   Name:PartDesign Groove   Workbenches:[[PartDesign Workbench   PartDesign]], Complete|MenuLocation:PartDesign → Groove---
+- GuiCommand:   Name:PartDesign Groove   Workbenches:[[PartDesign Workbench   PartDesign]], Complete|MenuLocation:PartDesign - Groove---
 
 
 </div>

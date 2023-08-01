@@ -3,7 +3,7 @@
    Name:Ship Area
    Name/de:Schiffsbereich
    Icon:Ship_AreaCurve.svg
-   MenuLocation:Schiffskonstruktion → Bereichskurve
+   MenuLocation:Schiffskonstruktion - Bereichskurve
    |Workbenches:[Schiff](Ship_Workbench/de.md)
    Shortcut:
    SeeAlso:

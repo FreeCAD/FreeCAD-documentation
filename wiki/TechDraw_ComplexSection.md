@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ComplexSection
-   MenuLocation:TechDraw → TechDraw Views → Insert Complex Section
+   MenuLocation:TechDraw - TechDraw Views - Insert Complex Section
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Version:0.21
    SeeAlso:[TechDraw Section](TechDraw_SectionView.md), [TechDraw View](TechDraw_View.md), [TechDraw Projection Group](TechDraw_ProjectionGroup.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std TreeSelection
    Name/de:Std BaumAnsichtSelektion
-   MenuLocation:View → BaumAnsicht-Aktionen → Gehe zu Selektion
+   MenuLocation:View - BaumAnsicht-Aktionen - Gehe zu Selektion
    Workbenches:Alle
    Shortcut:**T** **G**
    Version:0.19

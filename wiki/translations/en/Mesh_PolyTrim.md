@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Mesh PolyTrim
-   MenuLocation:Meshes → Cutting → Trim mesh
+   MenuLocation:Meshes - Cutting - Trim mesh
    Workbenches:[Mesh](Mesh_Workbench.md)
    SeeAlso:[Mesh PolyCut](Mesh_PolyCut.md), [Mesh TrimByPlane](Mesh_TrimByPlane.md)
 ---

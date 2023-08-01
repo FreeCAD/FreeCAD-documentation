@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part_Revolve
    Name/ru:Вращать
-   MenuLocation:Деталь → Вращать...
+   MenuLocation:Деталь - Вращать...
    Workbenches:[Part(Деталь)](Part_Workbench/ru.md)
    SeeAlso:
 ---

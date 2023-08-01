@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part_Fillet
    Name/fr:Part Congé
-   MenuLocation:Part → Congé...
+   MenuLocation:Part - Congé...
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Part Chanfrein](Part_Chamfer/fr.md)
 ---

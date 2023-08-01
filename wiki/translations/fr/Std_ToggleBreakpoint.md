@@ -3,7 +3,7 @@
    Name:Std DebugToggle
    Name/fr:Std Basculer le point d'arrêt
    Empty:1
-   MenuLocation:Macro → Basculer le point d’arrêt
+   MenuLocation:Macro - Basculer le point d’arrêt
    Workbenches:Tous
    Shortcut:**F9**
    SeeAlso:[Std Passer outre](Std_MacroStepOver/fr.md), [Std Pénétrer dans](Std_MacroStepInto/fr.md),

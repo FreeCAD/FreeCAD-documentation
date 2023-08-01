@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std OnlineHelp
    Name/it:Aiuto
-   MenuLocation:Aiuto → Aiuto
+   MenuLocation:Aiuto - Aiuto
    |Workbenches:Tutti
    Shortcut:F1
    SeeAlso: [Cos'è questo?](Std_WhatsThis/it.md)

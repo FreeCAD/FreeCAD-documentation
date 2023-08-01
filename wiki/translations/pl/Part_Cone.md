@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Cone
    Name/pl:Część: Stożek
-   MenuLocation:Część → Bryła pierwotna → Stożek
+   MenuLocation:Część - Bryła pierwotna - Stożek
    Workbenches:[Część](Part_Workbench/pl.md)
    SeeAlso:[Utwórz geometrie pierwotne](Part_CreatePrimitives/pl.md)
 ---

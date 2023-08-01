@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:PartDesign Hole
-   MenuLocation:Part Design → Create a substractive feature → Hole
+   MenuLocation:Part Design - Create a substractive feature - Hole
    Workbenches:[PartDesign](PartDesign_Workbench.md)
    Version:0.17
    SeeAlso:[PartDesign Pocket](PartDesign_Pocket.md)

@@ -3,7 +3,7 @@
    Name:Sketcher ConstrainEqual
    Name/pl:Szkicownik: Wiązanie równości
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   MenuLocation:Szkic → Wiązania szkicownika → Wiązanie równości
+   MenuLocation:Szkic - Wiązania szkicownika - Wiązanie równości
    Shortcut:**E**
    SeeAlso:[Wiązanie kąta](Sketcher_ConstrainRadius/pl.md)
 ---

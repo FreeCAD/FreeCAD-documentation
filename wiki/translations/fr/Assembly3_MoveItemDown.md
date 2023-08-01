@@ -3,7 +3,7 @@
    Name:Assembly3 MoveItemDown
    Name/fr:Assembly3 Déplacer un objet vers le bas
    Icon:Assembly_TreeItemDown.svg‎‎
-   MenuLocation:Assembly3 → Move item down
+   MenuLocation:Assembly3 - Move item down
    Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
 ---
 

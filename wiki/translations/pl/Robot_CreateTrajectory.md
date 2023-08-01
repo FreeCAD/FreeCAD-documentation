@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Robot CreateTrajectory
-   MenuLocation:Robot → Create trajectory
+   MenuLocation:Robot - Create trajectory
    Workbenches:[Robot](Robot_Workbench.md)
    SeeAlso:
 ---

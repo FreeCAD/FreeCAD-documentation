@@ -1,6 +1,6 @@
 # Plot Labels/it
 ---
-- GuiCommand:   Name:Plot Labels   Name/it:Etichette   MenuLocation:Plot → Imposta etichette‏‎   |Workbenches:[[Plot_Workbench/it   Plot]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Plot Labels   Name/it:Etichette   MenuLocation:Plot - Imposta etichette‏‎   |Workbenches:[[Plot_Workbench/it   Plot]]|Shortcut:   SeeAlso:---
 
 
 </div>

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Downgrade
    Name/fr:Draft Désagréger
-   MenuLocation:Modification → Désagréger
+   MenuLocation:Modification - Désagréger
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:**D** **N**
    SeeAlso:[Draft Agréger](Draft_Upgrade/fr.md), [Part Soustraction](Part_Cut/fr.md)

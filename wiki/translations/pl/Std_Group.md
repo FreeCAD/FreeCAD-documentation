@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std Group
    Name/pl:Std: Grupa
-   MenuLocation:[Widok drzewa](Tree_view/pl.md) → Kliknij prawym przyciskiem myszki nazwę dokumentu → Utwórz grupę ...
+   MenuLocation:[Widok drzewa](Tree_view/pl.md) - Kliknij prawym przyciskiem myszki nazwę dokumentu - Utwórz grupę ...
    Workbenches:wszystkie
    Shortcut:
    Version:

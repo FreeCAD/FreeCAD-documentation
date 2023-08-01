@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:View Measure Toggle All
    Name/de:Ansicht Messen alle umschalten
-   MenuLocation:Ansicht → Sichtbarkeit → Messen ein-/ausschalten
+   MenuLocation:Ansicht - Sichtbarkeit - Messen ein-/ausschalten
    Workbenches:All
    SeeAlso:[Ansicht Messen alle löschen](View_Measure_Clear_All/de.md), [Part Messen alle umschalten](Part_Measure_Toggle_All/de.md), [Part Messen alle löschen](Part_Measure_Clear_All/de.md)
 ---

@@ -4,7 +4,7 @@
    Name/de:Drawing ProjectShape
    Empty:1
    Workbenches:[Drawing](Drawing_Workbench/de.md)
-   MenuLocation:Drawing → Project shape
+   MenuLocation:Drawing - Project shape
 ---
 
 # Drawing ProjectShape/de

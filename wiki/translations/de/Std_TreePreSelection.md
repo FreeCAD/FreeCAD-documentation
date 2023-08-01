@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std TreePreSelection
    Name/de:Std BaumVorauswahl
-   MenuLocation:Ansicht → Baumansicht-Aktionen → Vorauswahl
+   MenuLocation:Ansicht - Baumansicht-Aktionen - Vorauswahl
    Workbenches:Alle
    Shortcut:**T** **4**
    Version:0.19

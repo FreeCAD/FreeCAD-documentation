@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionLockUnlockView
    Name/de:ErgänzungAnsichtSperrenEntsperren
-   MenuLocation:TechDraw → Extensions: Attributes/Modifications → Lock/Unlock View
+   MenuLocation:TechDraw - Extensions: Attributes/Modifications - Lock/Unlock View
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20

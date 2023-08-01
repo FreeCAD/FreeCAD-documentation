@@ -4,7 +4,7 @@
    Name/es:Restricción de coincidencia
    Workbenches:[Sketcher](Sketcher_Workbench/es.md)
    Shortcut:C
-   MenuLocation:Sketch → Restricciones de croquis → Restricción de coincidencia   SeeAlso:[Restricción de bloqueo](Sketcher_ConstrainLock/es.md), [Punto en objeto](Sketcher_ConstrainPointOnObject/es.md)
+   MenuLocation:Sketch - Restricciones de croquis - Restricción de coincidencia   SeeAlso:[Restricción de bloqueo](Sketcher_ConstrainLock/es.md), [Punto en objeto](Sketcher_ConstrainPointOnObject/es.md)
 ---
 
 # Sketcher ConstrainCoincident/es

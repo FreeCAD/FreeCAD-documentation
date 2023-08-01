@@ -1,6 +1,6 @@
 # Ship Tank/ro
 ---
-- GuiCommand:   Name:Ship TankNew   MenuLocation:Weights → Create a new tank   |Workbenches:[[Ship Workbench   Ship]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Ship TankNew   MenuLocation:Weights - Create a new tank   |Workbenches:[[Ship Workbench   Ship]]|Shortcut:   SeeAlso:---
 
 
 </div>

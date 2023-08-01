@@ -3,7 +3,7 @@
    Name:PartDesign Clone
    Name/it:PartDesign Clone
    Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:Part Design → Crea un clone
+   MenuLocation:Part Design - Crea un clone
    Version:0.17
    SeeAlso:[Draft clone](Draft_Clone/it.md)
 ---

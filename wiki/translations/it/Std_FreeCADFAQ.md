@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std FreeCADFAQ
    Name/it:FAQ su FreeCAD
-   MenuLocation:Aiuto → FAQ su FreeCAD
+   MenuLocation:Aiuto - FAQ su FreeCAD
    Workbenches:Tutti
    SeeAlso:[Sito Web di FreeCAD](Std_FreeCADWebsite/it.md), [Documentazione utenti](Std_FreeCADUserHub/it.md), [Documentazione di scripting Python](Std_FreeCADPowerUserHub/it.md), [Forum di FreeCAD](Std_FreeCADForum/it.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Line
    Name/ru:Линия
-   MenuLocation:Деталь → [Создать примитивы...](Part_Primitives/ru.md) → Линия
+   MenuLocation:Деталь - [Создать примитивы...](Part_Primitives/ru.md) - Линия
    Workbenches:[Part(Деталь)](Part_Workbench/ru.md),  [OpenSCAD](OpenSCAD_Workbench/ru.md)
    SeeAlso:[Примитивы](Part_Primitives/ru.md)
 ---

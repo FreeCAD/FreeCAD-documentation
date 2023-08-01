@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_Undo
    Name/it:Annulla
-   MenuLocation:Modifica → Annulla
+   MenuLocation:Modifica - Annulla
    Workbenches:Tutti
    Shortcut:**Ctrl**+**Z**
    SeeAlso:[Ripristina](Std_Redo/it.md)

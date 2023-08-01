@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Points Structure
-   MenuLocation:Points → Structured point cloud
+   MenuLocation:Points - Structured point cloud
    Workbenches:[Points](Points_Workbench.md)
 ---
 

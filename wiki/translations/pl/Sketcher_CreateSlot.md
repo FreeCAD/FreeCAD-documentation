@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CreateSlot
    Name/pl:Szkicownik: Utwórz wpust
-   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz wpust
+   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz wpust
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **S**
 ---

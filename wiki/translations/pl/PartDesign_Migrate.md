@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign Migrate
    Name/pl:Projekt Części: Przenieś ze starszej wersji
-   MenuLocation:Projekt Części → Przenieś ze starszej wersji ...
+   MenuLocation:Projekt Części - Przenieś ze starszej wersji ...
    Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
 ---

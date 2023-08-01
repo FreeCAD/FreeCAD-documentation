@@ -3,7 +3,7 @@
    Name:Draft Rectangle
    Name/ro:Dreptunghi
    Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   MenuLocation:Draft → Rectangle
+   MenuLocation:Draft - Rectangle
    Shortcut:**R** **E**
    Version:0.7
    SeeAlso:[Part Box](Part_Box/ro.md)

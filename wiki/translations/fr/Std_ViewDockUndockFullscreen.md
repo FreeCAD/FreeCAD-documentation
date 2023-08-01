@@ -3,7 +3,7 @@
    Name:Std ViewDockUndockFullscreen
    Name/fr:Std Fenêtre document détachée
    Empty:1
-   MenuLocation:Affichage → Fenêtre Document‏‎ → Dockée/Non dockée
+   MenuLocation:Affichage - Fenêtre Document‏‎ - Dockée/Non dockée
    Workbenches:Tous
    Shortcut:**V** **D** / **V** **U**
    SeeAlso:[Std Plein écran](Std_ViewFullscreen/fr.md), [Std Plein écran principal](Std_MainFullscreen/fr.md)

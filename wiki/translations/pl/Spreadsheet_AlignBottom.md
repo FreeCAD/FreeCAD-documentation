@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Spreadsheet AlignBottom
    Name/pl:Arkusz Kalkulacyjny: Wyrównaj w dół
-   MenuLocation:Arkusz kalkulacyjny → Wyrównanie → Wyrównaj w dół
+   MenuLocation:Arkusz kalkulacyjny - Wyrównanie - Wyrównaj w dół
    Workbenches:[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
    Version:0.17
 ---

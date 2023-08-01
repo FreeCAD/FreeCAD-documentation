@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionThreadBoltSide
    Name/de:TechDraw ErgänzungAußengewindeSeitlich
-   MenuLocation:TechDraw → Extensions: Centerlines/Threading → Add Cosmetic Thread Bolt Side View
+   MenuLocation:TechDraw - Extensions: Centerlines/Threading - Add Cosmetic Thread Bolt Side View
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20

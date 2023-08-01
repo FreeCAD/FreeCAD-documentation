@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Offset2D
    Name/it:Offset 2D
-   MenuLocation:Parte → Offset 2D...
+   MenuLocation:Parte - Offset 2D...
    Workbenches:[Parte](Part_Workbench/it.md)
    Version:0.17
    SeeAlso:[Part Offset 3D](Part_Offset/it.md), [Part Spessore](Part_Thickness/it.md), [Offset di Draft](Draft_Offset/it.md)

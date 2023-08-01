@@ -3,7 +3,7 @@
    Name:Sketcher BSplinePolygon
    Name/it:Poligono di controllo della B-spline
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch → Sketcher B-spline tools → Mostra/Nascondi il poligono di controllo della B-spline
+   MenuLocation:Sketch - Sketcher B-spline tools - Mostra/Nascondi il poligono di controllo della B-spline
    Version:0.17
 SeeAlso=[Crea B-spline](Sketcher_CompCreateBSpline/it.md)
 ---

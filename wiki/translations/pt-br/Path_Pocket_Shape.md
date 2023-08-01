@@ -1,6 +1,6 @@
 # Path Pocket Shape/pt-br
 ---
-- GuiCommand:   Name:Path Pocket   Name/pt:Path Pocket   Workbenches:[[Path Workbench/pt   Path]]|MenuLocation:Path → Pocket Shape → Cavidade   Shortcut:P,O   SeeAlso:---
+- GuiCommand:   Name:Path Pocket   Name/pt:Path Pocket   Workbenches:[[Path Workbench/pt   Path]]|MenuLocation:Path - Pocket Shape - Cavidade   Shortcut:P,O   SeeAlso:---
 
 
 </div>

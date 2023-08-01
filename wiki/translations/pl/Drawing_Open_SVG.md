@@ -3,7 +3,7 @@
    Name:Drawing Open SVG
    Name/pl:Drawing Open SVG
    Workbenches:[Kreślenie](Drawing_Workbench/pl.md), Complete
-   MenuLocation:Drawing → Open SVG...
+   MenuLocation:Drawing - Open SVG...
    Shortcut:none
    SeeAlso:[Zapisz](Drawing_Save/pl.md)
 ---

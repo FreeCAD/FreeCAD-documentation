@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Fillet
    Name/de:Draft Verrundung
-   MenuLocation:Entwurf → Verrundung
+   MenuLocation:Entwurf - Verrundung
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**F** **I**
    Version:0.19

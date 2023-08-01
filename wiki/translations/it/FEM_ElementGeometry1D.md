@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM_ElementGeometry1D
    Name/it:FEM ElementGeometry1D
-   MenuLocation:Modello → Sezione trasversale di trave
+   MenuLocation:Modello - Sezione trasversale di trave
    Workbenches:[FEM](FEM_Workbench/it.md)
    Shortcut:**C** **B**
    SeeAlso:[FEM tutorial](FEM_tutorial/it.md)

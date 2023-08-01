@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM ConstraintTransform
    Name/pl:MES: Zdefiniuj odkształcenie
-   MenuLocation:Model → Wiązania Geometryczne → Zdefiniuj odkształcenie
+   MenuLocation:Model - Wiązania Geometryczne - Zdefiniuj odkształcenie
    Workbenches:[MES](FEM_Workbench/pl.md)
    SeeAlso:[Zdefiniuj obrót w płaszczyźnie](FEM_ConstraintPlaneRotation/pl.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std DuplicateSelection
    Name/fr:Std Dupliquer la Sélection
-   MenuLocation:Édition → Dupliquer la sélection
+   MenuLocation:Édition - Dupliquer la sélection
    Workbenches:tous
    SeeAlso:[Std Copier](Std_Copy/fr.md), [Std Coller](Std_Paste/fr.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ToggleObjects
    Name/de:Std ObjekteUmschalten
-   MenuLocation:Ansicht → Sichtbarkeit → Alle Objekte umkehren
+   MenuLocation:Ansicht - Sichtbarkeit - Alle Objekte umkehren
    Workbenches:Alle
    SeeAlso:[Std SichtbarkeitUmschalten](Std_ToggleVisibility/de.md), [Std AuswahlEinblenden](Std_ShowSelection/de.md), [Std AuswahlAusblenden](Std_HideSelection.md), [Std ObjekteEinblenden](Std_ShowObjects/de.md), [Std ObjekteAusblenden](Std_HideObjects/de.md)
 ---

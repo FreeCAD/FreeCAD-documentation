@@ -4,7 +4,7 @@
    Name:Arch_Wall
    Name/ru:Стена
    Workbenches:[Arch](Arch_Workbench/ru.md)
-   MenuLocation:Архитектура → Стена
+   MenuLocation:Архитектура - Стена
    Shortcut:**W** **A**
    SeeAlso:[Структура](Arch_Structure/ru.md)---
 

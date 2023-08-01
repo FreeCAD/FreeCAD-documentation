@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Связать размер с 3D геометрией
    Name:TechDraw_LinkDimension
-   MenuLocation:TechDraw → Размеры → Связать размер с 3D геометрией
+   MenuLocation:TechDraw - Размеры - Связать размер с 3D геометрией
    Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
    SeeAlso:[Вставить Вид](TechDraw_View/ru.md), [Вставить группу проекций](TechDraw_ProjectionGroup/ru.md)
 ---

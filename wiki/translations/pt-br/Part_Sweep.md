@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Part Sweep
-   MenuLocation:Part → Sweep...
+   MenuLocation:Part - Sweep...
    Workbenches:[Part](Part_Workbench.md)
    SeeAlso:[Part Loft](Part_Loft.md)
 ---

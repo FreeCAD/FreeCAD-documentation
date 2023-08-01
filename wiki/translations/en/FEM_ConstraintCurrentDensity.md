@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:FEM ConstraintCurrentDensity
-   MenuLocation: Model → Electromagnetic Constraints → Constraint current density
+   MenuLocation: Model - Electromagnetic Constraints - Constraint current density
    Workbenches:[FEM](FEM_Workbench.md)
    Version:0.21
    SeeAlso:[Magnetodynamic equation](FEM_EquationMagnetodynamic.md), [Magnetodynamic 2D equation](FEM_EquationMagnetodynamic2D.md)

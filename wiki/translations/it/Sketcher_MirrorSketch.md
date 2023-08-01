@@ -3,7 +3,7 @@
    Name:Sketcher MirrorSketch
    Name/it:Rifletti schizzo
    Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch → Rifletti schizzo
+   MenuLocation:Sketch - Rifletti schizzo
    Version:0.16
 ---
 

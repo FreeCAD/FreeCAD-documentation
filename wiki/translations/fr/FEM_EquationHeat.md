@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM EquationHeat
    Name/fr:FEM Équation de chaleur
-   MenuLocation:Résolution → Équation de chaleur
+   MenuLocation:Résolution - Équation de chaleur
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Version:0.17
    SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh Union
    Name:Mesh Vereinigung
-   MenuLocation:Meshes → Boolesche Verknüpfungen → Vereinigung
+   MenuLocation:Meshes - Boolesche Verknüpfungen - Vereinigung
    Workbenches:[Mesh](Mesh_Workbench.md)
    SeeAlso:[Mesh Schnitt](Mesh_Intersection.md), [Mesh Differenz](Mesh_Difference.md)
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw StackTop
    Name/de:TechDraw StapelOberseite
-   MenuLocation:TechDraw → Stacking → Ansicht auf die Stapeloberseite bewegen
+   MenuLocation:TechDraw - Stacking - Ansicht auf die Stapeloberseite bewegen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.21

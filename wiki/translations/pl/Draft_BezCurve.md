@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft BezCurve
    Name/pl:Draft: Krzywa Beziera
-   MenuLocation:Drafting → Narzędzia Beziera → Krzywa Beziera
+   MenuLocation:Drafting - Narzędzia Beziera - Krzywa Beziera
    Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
    Shortcut:**B** **Z**
    Version:0.14

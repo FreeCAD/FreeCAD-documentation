@@ -3,7 +3,7 @@
    Name:Spreadsheet_AlignTop
    Name/it:Allinea in alto
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)
-   MenuLocation:Spreadsheet → Allineamento → In alto
+   MenuLocation:Spreadsheet - Allineamento - In alto
    Version:0.17
 ---
 

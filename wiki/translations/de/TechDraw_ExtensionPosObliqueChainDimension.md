@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionPosObliqueChainDimension
    Name/de:TechDraw ErgänzungSchrägeKettenmaßeAnordnen
-   MenuLocation:TechDraw → Extensions: Attributes/Modifications → Position Oblique Chain Dimensions
+   MenuLocation:TechDraw - Extensions: Attributes/Modifications - Position Oblique Chain Dimensions
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Points Merge
-   MenuLocation:Points → Merge point clouds
+   MenuLocation:Points - Merge point clouds
    Workbenches:[Points](Points_Workbench.md)
 ---
 

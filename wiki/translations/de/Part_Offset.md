@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Offset
    Name/de:Part Versatz
-   MenuLocation:Formteil → 3D-Versatz...
+   MenuLocation:Formteil - 3D-Versatz...
    Workbenches:[Part](Part_Workbench/de.md)
    SeeAlso:[Part Dicke](Part_Thickness/de.md), [Part 2D-Versatz](Part_Offset2D/de.md)
 ---

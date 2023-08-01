@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std DemoMode
-   MenuLocation:Tools → View turntable...
+   MenuLocation:Tools - View turntable...
    Workbenches:All
 ---
 

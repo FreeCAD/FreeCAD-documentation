@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Rebar BOM
    Name/fr:Arch Rebar Nomenclature armature
-   MenuLocation:Reinforcement → Bill Of Material
+   MenuLocation:Reinforcement - Bill Of Material
    Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
    Version:0.19
    SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Reinforcement Tableau des armatures](Reinforcement_Bar_Bending_Schedule/fr.md), [Arch Rebar Dimensions des armatures](Arch_Rebar_Drawing_Dimensioning/fr.md)

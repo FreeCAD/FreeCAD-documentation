@@ -3,7 +3,7 @@
    Name:Arch AxisSystem
    Name/it:Sistema di assi
    Icon:Arch Axis System.svg
-   MenuLocation:Arch → Sistema di assi
+   MenuLocation:Arch - Sistema di assi
    Workbenches:[Arch](Arch_Workbench/it.md)
    SeeAlso:[Assi](Arch_Axis/it.md), [Griglia](Arch_Grid/it.md)
 ---

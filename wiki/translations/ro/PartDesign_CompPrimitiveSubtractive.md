@@ -3,7 +3,7 @@
    Name/ro:PartDesign CompPrimitiveSubtractive
    Empty:1
    Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation:Part Design → Create a subtractive primitive
+   MenuLocation:Part Design - Create a subtractive primitive
    SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive/ro.md)
    Version:0.17
 ---

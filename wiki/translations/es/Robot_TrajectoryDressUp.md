@@ -1,6 +1,6 @@
 # Robot TrajectoryDressUp/es
 ---
-- GuiCommand:   Name:Robot TrajectoryDressUp   Name/es:Robot TrajectoryDressUp   Workbenches:[[Robot_Workbench/es   Robot]]|MenuLocation:Robot → TrajectoryDressUp ---
+- GuiCommand:   Name:Robot TrajectoryDressUp   Name/es:Robot TrajectoryDressUp   Workbenches:[[Robot_Workbench/es   Robot]]|MenuLocation:Robot - TrajectoryDressUp ---
 
 
 </div>

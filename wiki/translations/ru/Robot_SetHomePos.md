@@ -4,7 +4,7 @@
    Name:Robot SetHomePos
    Name/ru:Robot SetHomePos
    Workbenches:[Robot](Robot_Workbench/ru.md)
-   MenuLocation:Робот → Установить исходное положение---
+   MenuLocation:Робот - Установить исходное положение---
 
 
 </div>

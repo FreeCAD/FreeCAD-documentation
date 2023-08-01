@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Симметрия
    Name:PartDesign_Mirrored
-   MenuLocation:Part Design → Apply a pattern → Симметрия
+   MenuLocation:Part Design - Apply a pattern - Симметрия
    Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
    SeeAlso:[Множественное преобразование](PartDesign_MultiTransform/ru.md)
 ---

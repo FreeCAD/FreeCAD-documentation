@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch AxisSystem
    Name/es:Arch AxisSystem
-   MenuLocation:Arch → Axis System
+   MenuLocation:Arch - Axis System
    Workbenches:[Arch](Arch_Workbench/es.md)
    SeeAlso:[Arch Axis](Arch_Axis/es.md), [Grid](Arch_Grid/es.md)
 ---

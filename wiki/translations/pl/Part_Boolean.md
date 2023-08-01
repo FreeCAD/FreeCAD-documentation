@@ -3,7 +3,7 @@
 - GuiCommand:
    Name:Part Boolean
    Name/pl:Część: Operacja logiczna
-   MenuLocation:Część → Operacje logiczne → Operacja logiczna ...
+   MenuLocation:Część - Operacje logiczne - Operacja logiczna ...
    Workbenches:[Część](Part_Workbench/pl.md)
    SeeAlso:[Suma](Part_Fuse/pl.md), [Część wspólna](Part_Common/pl.md), [Wytnij](Part_Cut/pl.md), [Przecięcie](Part_Section/pl.md)---
 

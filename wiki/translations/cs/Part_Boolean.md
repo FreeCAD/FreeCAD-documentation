@@ -1,6 +1,6 @@
 # Part Boolean/cs
 ---
-- GuiCommand:   Name:Part Booleans   Name/cs:Díl Booleans   MenuLocation:Díl → Booleans   Workbenches:[SeeAlso:[[Part Union/cs|Díl Sjednotit](Part_Workbench/cs___Díl]].md), [Díl Společné](Part_Common/cs.md) and [Díl Oddělit](Part_Cut/cs.md)---
+- GuiCommand:   Name:Part Booleans   Name/cs:Díl Booleans   MenuLocation:Díl - Booleans   Workbenches:[SeeAlso:[[Part Union/cs|Díl Sjednotit](Part_Workbench/cs___Díl]].md), [Díl Společné](Part_Common/cs.md) and [Díl Oddělit](Part_Cut/cs.md)---
 
 
 </div>

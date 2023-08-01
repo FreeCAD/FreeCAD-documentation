@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Отразить
    Name:Draft_Mirror
-   MenuLocation:Modification → Отразить
+   MenuLocation:Modification - Отразить
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:**M** **I**
    SeeAlso:[Клонировать](Draft_Clone/ru.md)

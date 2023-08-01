@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Raytracing New
    Name/ru:Raytracing New
-   MenuLocation:Трассировка лучей → Новый проект POV-Ray
+   MenuLocation:Трассировка лучей - Новый проект POV-Ray
    Workbenches:[Raytracing](Raytracing_Workbench/ru.md)
    Shortcut:
    SeeAlso:

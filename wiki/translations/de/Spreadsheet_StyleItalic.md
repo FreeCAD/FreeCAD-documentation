@@ -3,7 +3,7 @@
    Name:Spreadsheet StyleItalic
    Name/de:Kalkulationstabelle StilKursiv
    Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)
-   MenuLocation:Kalkulationstabelle → Stile → Kursiver Text
+   MenuLocation:Kalkulationstabelle - Stile - Kursiver Text
    Version:0.17
 ---
 

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CreateBSpline
    Name/pl:Szkicownik: Utwórz krzywą złożoną
-   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz krzywą złożoną
+   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz krzywą złożoną
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **B** **B**
    Version:0.17

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part ProjectionOnSurface
    Name/es:Pieza ProyecciónEnSuperficie
-   MenuLocation:Pieza → Crear una proyección en la superficie...
+   MenuLocation:Pieza - Crear una proyección en la superficie...
    Workbenches:[Pieza](Part_Workbench/es.md)
    SeeAlso:
    Version:0.19

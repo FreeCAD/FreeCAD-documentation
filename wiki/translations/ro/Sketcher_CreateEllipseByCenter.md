@@ -3,7 +3,7 @@
    Name:Sketcher Create Ellipse by center
    Icon:Sketcher_CreateEllipse.png
    Workbenches:[Sketcher](Sketcher_Workbench.md)
-   MenuLocation:Sketch → Sketcher geometries → Create ellipse by center
+   MenuLocation:Sketch - Sketcher geometries - Create ellipse by center
    Version:0.15
    SeeAlso:[Sketcher Ellipse by 3 Points](Sketcher_CreateEllipseBy3Points.md), [Sketcher Circle](Sketcher_CreateCircle.md), [Sketcher Arc of Ellipse](Sketcher_CreateArcOfEllipse.md)
 ---

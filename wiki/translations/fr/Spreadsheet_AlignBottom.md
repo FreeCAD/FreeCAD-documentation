@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Spreadsheet AlignBottom
    Name/fr:Spreadsheet Alignement en bas
-   MenuLocation:Spreadsheet → Alignement → Alignement en bas
+   MenuLocation:Spreadsheet - Alignement - Alignement en bas
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/fr.md)
    Version:0.17
 ---

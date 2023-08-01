@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign SubtractiveBox
    Name/pl:Projekt Części: Subtraktywny prostopadłościan
-   MenuLocation:Projekt Części → Utwórz cechę przez odjęcie → Subtraktywny prostopadłościan
+   MenuLocation:Projekt Części - Utwórz cechę przez odjęcie - Subtraktywny prostopadłościan
    Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
    SeeAlso:[Komponent bryła pierwotna do odjęcia](PartDesign_CompPrimitiveSubtractive/pl.md), [Addytywny prostopadłościan](PartDesign_AdditiveBox/pl.md)

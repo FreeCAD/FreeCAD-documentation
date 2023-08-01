@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Curves PasteSVG
    Name/fr:Curves Coller une image SVG
-   MenuLocation:Misc. → Paste SVG
+   MenuLocation:Misc. - Paste SVG
    Workbenches:[Curves](Curves_Workbench/fr.md)
 ---
 

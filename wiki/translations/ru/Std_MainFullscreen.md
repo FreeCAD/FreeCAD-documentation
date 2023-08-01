@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:На весь экран
    Name:Std_MainFullscreen
-   MenuLocation:Вид → На весь экран
+   MenuLocation:Вид - На весь экран
    Workbenches:Все
    Shortcut:**Alt**+**F11**
    SeeAlso:[На весь экран](Std_ViewFullscreen/ru.md)

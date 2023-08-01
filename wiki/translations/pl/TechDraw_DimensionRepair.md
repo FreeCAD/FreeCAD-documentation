@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw DimensionRepair
    Name/pl:Rysunek Techniczny: Napraw odniesienia do wymiarów
-   MenuLocation:Rysunek Techniczny → Wymiary → Napraw odniesienia do wymiarów
+   MenuLocation:Rysunek Techniczny - Wymiary - Napraw odniesienia do wymiarów
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Version:0.21
    SeeAlso:[Wstaw wymiar długości](TechDraw_LengthDimension/pl.md)

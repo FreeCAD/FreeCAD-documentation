@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Rocket RailGuide
    Name/fr:Rocket Guide rail
-   MenuLocation:Rocket → Launch Guides → Rail Guide
+   MenuLocation:Rocket - Launch Guides - Rail Guide
    Workbenches:[Rocket](Rocket_Workbench/fr.md)
    Version:0.19
 ---

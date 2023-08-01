@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch Truss
-   MenuLocation:Arch → Truss
+   MenuLocation:Arch - Truss
    Workbenches:[Arch](Arch_Workbench.md)
    Version:0.19
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Spreadsheet AlignLeft
    Name/de:Kalkulationstabelle LinksAusrichten
-   MenuLocation:Kalkulationstabelle → Ausrichtung → LinksAusrichten
+   MenuLocation:Kalkulationstabelle - Ausrichtung - LinksAusrichten
    Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)
    Version:0.17
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Chamfer
    Name/ro:Part Chamfer
-   MenuLocation:Part → Chamfer
+   MenuLocation:Part - Chamfer
    Workbenches:[Part](Part_Workbench/ro.md), Complete
    SeeAlso:
 ---

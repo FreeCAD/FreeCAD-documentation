@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft_Text
    Name/es:Draft_Text
-   MenuLocation:Croquis → Texto
+   MenuLocation:Croquis - Texto
    Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
    Shortcut:**T** **E**
 ---

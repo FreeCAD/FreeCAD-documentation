@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Door
    Name/fr:Arch Porte
-   MenuLocation:Arch → Fenêtre
+   MenuLocation:Arch - Fenêtre
    Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**W** **I**
    SeeAlso:[Arch Mur](Arch_Wall/fr.md), [Arch Fenêtre](Arch_Window/fr.md)

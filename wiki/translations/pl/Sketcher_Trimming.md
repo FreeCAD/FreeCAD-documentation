@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher Trimming
    Name/pl:Szkicownik: Przytnij krawędź
-   MenuLocation:Szkic → Elementy geometryczne szkicownika → Przytnij krawędź
+   MenuLocation:Szkic - Elementy geometryczne szkicownika - Przytnij krawędź
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **T**
    Version:0.12

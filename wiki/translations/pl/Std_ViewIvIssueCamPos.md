@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewIvIssueCamPos
    Name/pl:Std: Parametry ujęcia widoku
-   MenuLocation:Widok → Widok trójwymiarowy → Parametry ujęcia widoku
+   MenuLocation:Widok - Widok trójwymiarowy - Parametry ujęcia widoku
    Workbenches:wszystkie
    SeeAlso:[Zamroź widok](Std_FreezeViews/pl.md)
 ---

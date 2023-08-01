@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Robot SetHomePos
    Name/fr:Robot Position de départ
-   MenuLocation:Robot → Définir la position de départ
+   MenuLocation:Robot - Définir la position de départ
    Workbenches:[Robot](Robot_Workbench/fr.md)
 ---
 

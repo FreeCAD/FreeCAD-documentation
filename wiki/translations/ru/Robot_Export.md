@@ -4,7 +4,7 @@
    Name:Robot Export
    Name/ru:Robot Export
    Workbenches:[Robot](Robot_Workbench/ru.md)
-   MenuLocation:Робот→ Экспорт траектории---
+   MenuLocation:Робот- Экспорт траектории---
 
 
 </div>

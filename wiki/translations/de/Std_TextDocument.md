@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std TextDocument
    Name/de:Std Textdokument
-   MenuLocation:Werkzeuge → Textdokument hinzufügen
+   MenuLocation:Werkzeuge - Textdokument hinzufügen
    Workbenches:All
    Version:0.19
    SeeAlso:[Draft Textform](Draft_ShapeString/de.md), [Draft Text](Draft_Text/de.md)

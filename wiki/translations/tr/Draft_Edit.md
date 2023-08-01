@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Edit
    Name/tr:Düzenle
-   MenuLocation:Taslak → Düzenle
+   MenuLocation:Taslak - Düzenle
    Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
    Shortcut:**D** **E**
    SeeAlso:[Std Edit](Std_Edit.md)

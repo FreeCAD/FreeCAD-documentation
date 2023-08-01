@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Text
    Name/it:Testo
-   MenuLocation:Drafting → Testo
+   MenuLocation:Drafting - Testo
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**T** **E**
    Version:0.7

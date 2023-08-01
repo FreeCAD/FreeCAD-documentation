@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:EM FHEquiv
-   MenuLocation:EM → FHEquiv
+   MenuLocation:EM - FHEquiv
    Workbenches:[EM](EM_Workbench.md)
    Shortcut:**E** **E**
    Version:0.17

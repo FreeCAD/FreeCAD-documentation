@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch_Rebar_BentShape
    Name/it:Armatura sagomata
-   MenuLocation:Arch → Strumenti armatura → Armatura sagomata o 3D/BIM → Reinforcement → Bent-Shape Rebar
+   MenuLocation:Arch - Strumenti armatura - Armatura sagomata o 3D/BIM - Reinforcement - Bent-Shape Rebar
    Workbenches:[Reinforcement](Reinforcement_Workbench/it.md), [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
    SeeAlso:[Staffe armatura](Arch_Rebar_Stirrup/it.md), [Armatura personalizzata](Arch_Rebar/it.md)
    Version:0.17

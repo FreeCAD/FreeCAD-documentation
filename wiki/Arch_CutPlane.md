@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch CutPlane
-   MenuLocation:Arch → Cut Plane
+   MenuLocation:Arch - Cut Plane
    Workbenches:[Arch](Arch_Workbench.md)
    SeeAlso:[Arch CutLine](Arch_CutLine.md), [Arch Remove](Arch_Remove.md)
 ---

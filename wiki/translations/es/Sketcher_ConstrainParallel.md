@@ -3,7 +3,7 @@
    Name:Sketcher ConstrainParallel
    Name/es:Croquizador RestringirParallel
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation:Croquis → Restricciones del Croquizador → Restringir Paralela
+   MenuLocation:Croquis - Restricciones del Croquizador - Restringir Paralela
    Shortcut:**Shift** + **P**
    SeeAlso:[Croquizador Restriccion Vertical](Sketcher_ConstrainVertical/es.md), [Croquizador Restriccion Horizontal](Sketcher_ConstrainHorizontal/es.md)
 ---

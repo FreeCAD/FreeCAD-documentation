@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std SendToPythonConsole
    Name:Std: Wyślij do konsoli Python
-   MenuLocation:Edycja → Wyślij do konsoli Python
+   MenuLocation:Edycja - Wyślij do konsoli Python
    Workbenches:wszystkie
    Shortcut:**Ctrl** + **Shift**+**P**
    Version:0.19

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Разделить ребро
    Name:Sketcher_Split
-   MenuLocation:Sketch → Геометрия эскиза → Разделить ребро
+   MenuLocation:Sketch - Геометрия эскиза - Разделить ребро
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Version:0.20
    SeeAlso:[Обрезать кривую](Sketcher_Trimming/ru.md)

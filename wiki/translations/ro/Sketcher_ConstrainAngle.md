@@ -3,7 +3,7 @@
    Name:Constraint InternalAngle
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:A
-   MenuLocation:Sketch → Sketcher constraints → Constrain angle
+   MenuLocation:Sketch - Sketcher constraints - Constrain angle
    SeeAlso:[Constrain distance](Sketcher_ConstrainDistance.md), [Constraint Perpendicular](Sketcher_ConstrainPerpendicular.md)
 ---
 

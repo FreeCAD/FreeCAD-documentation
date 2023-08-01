@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Spreadsheet AlignVCenter
    Name/de:Kalkulationstabelle AusrichtenVMittig
-   MenuLocation:Kalkulationstabelle → Ausrichtung → Ausrichten Vertikal Mittig
+   MenuLocation:Kalkulationstabelle - Ausrichtung - Ausrichten Vertikal Mittig
    Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)
    Version:0.17
 ---

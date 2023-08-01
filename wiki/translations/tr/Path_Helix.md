@@ -3,7 +3,7 @@
    Name:Path Helix
    Name/tr:CNC G-Kodu Helezon
    Workbenches:[CNC G-Kodu](Path_Workbench/tr.md)
-   MenuLocation:CNC G-Kodu → Helezon
+   MenuLocation:CNC G-Kodu - Helezon
    Shortcut:
    SeeAlso:
 ---

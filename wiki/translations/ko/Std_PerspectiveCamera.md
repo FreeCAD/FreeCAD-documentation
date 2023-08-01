@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std PerspectiveCamera
    Name/ko:표준 원근투영 카메라
-   MenuLocation:보기 → 원근투영
+   MenuLocation:보기 - 원근투영
    Workbenches:모두
    Shortcut:**V** **P**
    SeeAlso:[표준 직교투영 카메라](Std_OrthographicCamera/ko.md)

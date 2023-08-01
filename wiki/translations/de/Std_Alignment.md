@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std Alignment
    Name/de:Std Ausrichtung
-   MenuLocation:Bearbeiten → Ausrichtung...
+   MenuLocation:Bearbeiten - Ausrichtung...
    Workbenches:Alle
    SeeAlso:[Std Positionierung](Std_Placement/de.md)
 ---

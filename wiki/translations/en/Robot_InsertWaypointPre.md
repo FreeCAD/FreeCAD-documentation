@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Robot InsertWaypointPre
-   MenuLocation:Robot → Insert in trajectory
+   MenuLocation:Robot - Insert in trajectory
    Workbenches:[Robot](Robot_Workbench.md)
    Shortcut:**W**
    SeeAlso:[Robot CreateTrajectory](Robot_CreateTrajectory.md), [Robot InsertWaypoint](Robot_InsertWaypoint.md)

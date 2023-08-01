@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CreateEllipseByCenter
    Name/es:Croquizador CrearElipsePorCentro
-   MenuLocation:Croquis → Geometrías del Croquizador → Crear elipse por centro
+   MenuLocation:Croquis - Geometrías del Croquizador - Crear elipse por centro
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)
    Version:0.15
    SeeAlso:[Croquizador  Elipse de 3 puntos](Sketcher_CreateEllipseBy3Points/es.md), [Croquizador Círculo](Sketcher_CreateCircle/es.md), [Croquizador Arco de Elipse](Sketcher_CreateArcOfEllipse/es.md)

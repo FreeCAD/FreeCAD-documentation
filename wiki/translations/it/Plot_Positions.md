@@ -1,6 +1,6 @@
 # Plot Positions/it
 ---
-- GuiCommand:   Name:Plot Positions   Name/it:Posizione   MenuLocation:Grafico → Posizione   |Workbenches:[[Plot_Workbench/it   Grafico]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Plot Positions   Name/it:Posizione   MenuLocation:Grafico - Posizione   |Workbenches:[[Plot_Workbench/it   Grafico]]|Shortcut:   SeeAlso:---
 
 
 </div>

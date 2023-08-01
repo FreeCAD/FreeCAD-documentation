@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Spreadsheet MergeCells
-   MenuLocation:Spreadsheet → Merge cells
+   MenuLocation:Spreadsheet - Merge cells
    Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
    Version:0.17
 ---

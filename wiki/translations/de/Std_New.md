@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std New
    Name/de:Std Neu
-   MenuLocation:Datei → Neu
+   MenuLocation:Datei - Neu
    Workbenches:Alle
    Shortcut:**Strg**+**N**
    SeeAlso:[Öffnen](Std_Open/de.md), [Import](Std_Import/de.md)

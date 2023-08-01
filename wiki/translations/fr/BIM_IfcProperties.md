@@ -4,7 +4,7 @@
    Name/fr:BIM Propriétés IFC
    Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/fr.md)
    Addon:BIM
-   MenuLocation:Manage → IFC Properties
+   MenuLocation:Manage - IFC Properties
    SeeAlso:[BIM Elements IFC](BIM_IfcElements/fr.md),[BIM Quantité IFC](BIM_IfcQuantities/fr.md)
 ---
 

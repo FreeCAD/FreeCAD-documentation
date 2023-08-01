@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Внешняя геометрия
    Name:Sketcher_External
-   MenuLocation:Sketch → Геометрия эскиза → Внешняя геометрия
+   MenuLocation:Sketch - Геометрия эскиза - Внешняя геометрия
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
    Shortcut:X
    SeeAlso:[Переключить построительную геометрию](Sketcher_ToggleConstruction/ru.md)

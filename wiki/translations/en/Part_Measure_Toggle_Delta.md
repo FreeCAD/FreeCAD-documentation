@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Part Measure Toggle Delta
-   MenuLocation:Measure → Toggle Delta‏‎
+   MenuLocation:Measure - Toggle Delta‏‎
    Workbenches:[Part](Part_Workbench.md)
    SeeAlso:[Part Measure Toggle All](Part_Measure_Toggle_All.md), [Part Measure Toggle 3D](Part_Measure_Toggle_3D.md)
 ---

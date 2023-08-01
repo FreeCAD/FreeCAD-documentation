@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Apply
    Name/fr:Draft Appliquer le style
-   MenuLocation:Utilitaires → Appliquer le style en cours
+   MenuLocation:Utilitaires - Appliquer le style en cours
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    SeeAlso:[Draft Définir le style](Draft_SetStyle/fr.md)
 ---

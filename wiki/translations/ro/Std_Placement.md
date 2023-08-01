@@ -1,6 +1,6 @@
 # Std Placement/ro
 ---
-- GuiCommand:   Name:Std Placement   MenuLocation:[|Workbenches:All   Shortcut:   SeeAlso:[[Tasks Placement|Tasks Placement](Std_Edit_Menu___Edit]]_→_Placement...‏‎.md), [Placement](Placement.md)---
+- GuiCommand:   Name:Std Placement   MenuLocation:[|Workbenches:All   Shortcut:   SeeAlso:[[Tasks Placement|Tasks Placement](Std_Edit_Menu___Edit]]_-_Placement...‏‎.md), [Placement](Placement.md)---
 
 
 </div>

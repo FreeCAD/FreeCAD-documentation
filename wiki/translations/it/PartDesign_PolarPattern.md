@@ -3,7 +3,7 @@
    Name:PartDesign_PolarPattern
    Name/it:Serie polare
    Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:PartDesign → Serie polare
+   MenuLocation:PartDesign - Serie polare
    SeeAlso:[Serie lineare](PartDesign_LinearPattern/it.md)
 ---
 

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Ship New
    Name/it:Nuova‏‎
-   MenuLocation:Ship design → Crea una nuova nave
+   MenuLocation:Ship design - Crea una nuova nave
    Workbenches:[Ship](Ship_Workbench/it.md)
    Shortcut:
    SeeAlso:

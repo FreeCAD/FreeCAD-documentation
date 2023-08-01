@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std Quit
    Name/ru:Std Quit
-   MenuLocation:Файл → Выход
+   MenuLocation:Файл - Выход
    Workbenches:All
    Shortcut:**Alt**+**F4**
    SeeAlso:[Std Open](Std_Open/ru.md)

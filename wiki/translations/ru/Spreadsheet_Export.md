@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Экспорт электронной таблицы
    Name:Spreadsheet_Export
-   MenuLocation:Электронная таблица → Экспорт электронной таблицы
+   MenuLocation:Электронная таблица - Экспорт электронной таблицы
    Workbenches:[Spreadsheet](Spreadsheet_Workbench/ru.md)
    Version:0.17
    SeeAlso:[Импорт электронной таблицы](Spreadsheet_Import/ru.md)

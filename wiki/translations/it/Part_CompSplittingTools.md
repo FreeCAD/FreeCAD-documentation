@@ -1,6 +1,6 @@
 # Part CompSplittingTools/it
 ---
-- GuiCommand:   Name:Part CompSplittingTools   Name/it:Dividi   MenuLocation:Part → Dividi   |Workbenches:[[Part_Workbench/it   Part]]|SeeAlso:---
+- GuiCommand:   Name:Part CompSplittingTools   Name/it:Dividi   MenuLocation:Part - Dividi   |Workbenches:[[Part_Workbench/it   Part]]|SeeAlso:---
 
 
 </div>

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std_DlgPreferences
    Name/it:Preferenze
-   MenuLocation:Modifica → Preferenze...
+   MenuLocation:Modifica - Preferenze...
    Workbenches:Tutti
    SeeAlso:[Editor delle preferenze](Preferences_Editor/it.md)
 ---

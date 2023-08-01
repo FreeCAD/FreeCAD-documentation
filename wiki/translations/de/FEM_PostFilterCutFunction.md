@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM PostFilterCutFunction
    Name/de:FEM NachbereitungFilterSchnittebene
-   MenuLocation:Ergebnisse → Funktion Schnitt-Filter
+   MenuLocation:Ergebnisse - Funktion Schnitt-Filter
    Workbenches:[FEM](FEM_Workbench/de.md)
    SeeAlso:[FEM NachbereitungFilterVonErgebnis](FEM_PostPipelineFromResult/de.md), [FEM NachbereitungFunktionenErstellen](FEM_PostCreateFunctions/de.md), [FEM Tutorium](FEM_tutorial/de.md)
 ---

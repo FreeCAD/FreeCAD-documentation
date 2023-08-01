@@ -3,7 +3,7 @@
 - GuiCommand:
    Name:Mesh FlipNormals‏‎
    Name/de:Netz Normalen spiegeln
-   MenuLocation:Meshes → Flip Normals
+   MenuLocation:Meshes - Flip Normals
    Workbenches:[Arbeitsbereich Netze](Mesh_Workbench/de.md)
    Shortcut:   SeeAlso:---
 

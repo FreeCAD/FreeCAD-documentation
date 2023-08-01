@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Path Helix
-   MenuLocation:Path → Helix
+   MenuLocation:Path - Helix
    Workbenches:[Path](Path_Workbench.md)
 ---
 

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher BSplineDecreaseDegree
-   MenuLocation:Szkic → Narzędzia szkicownika krzywej złożonej → Szkic → Narzędzia szkicownika krzywej złożonej
+   MenuLocation:Szkic - Narzędzia szkicownika krzywej złożonej - Szkic - Narzędzia szkicownika krzywej złożonej
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Version:0.19
    SeeAlso:[Pokaż / ukryj stopień krzywej złożonej](Sketcher_BSplineDegree/pl.md), [Zwiększ stopień krzywej złożonej](Sketcher_BSplineIncreaseDegree/pl.md)

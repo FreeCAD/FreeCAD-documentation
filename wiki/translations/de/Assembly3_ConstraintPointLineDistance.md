@@ -3,7 +3,7 @@
    Name:Assembly3 ConstraintPointLineDistance
    Name/de:Assembly3 PunktZuLinieAbstand
    Icon:Assembly_ConstraintPointLineDistance.svg
-   MenuLocation:Assembly3 → ? → Point line distance
+   MenuLocation:Assembly3 - ? - Point line distance
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
 ---
 

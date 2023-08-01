@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft Array   Name/ro:Matrice repetabilitate
-   MenuLocation:Draft → Array
+   MenuLocation:Draft - Array
    Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
    SeeAlso:[PolarArray](Draft_PolarArray.md), [CircularArray](Draft_CircularArray.md), [PathArray](Draft_PathArray.md), [PointArray](Draft_PointArray.md), [Clone](Draft_Clone.md)
 ---

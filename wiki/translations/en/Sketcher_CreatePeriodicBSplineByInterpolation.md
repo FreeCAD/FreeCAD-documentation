@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher CreatePeriodicBSplineByInterpolation
-   MenuLocation:Sketch → Sketcher geometries → Create periodic B-spline by knots
+   MenuLocation:Sketch - Sketcher geometries - Create periodic B-spline by knots
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**G** **B** **O**
    Version:0.21

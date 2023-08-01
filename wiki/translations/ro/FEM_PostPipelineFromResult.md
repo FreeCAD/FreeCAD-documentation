@@ -1,6 +1,6 @@
 # FEM PostPipelineFromResult/ro
 ---
-- GuiCommand:   Name:FEM PostPipelineFromResult   MenuLocation: Results → post pipeline from result   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
+- GuiCommand:   Name:FEM PostPipelineFromResult   MenuLocation: Results - post pipeline from result   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
 
 
 </div>

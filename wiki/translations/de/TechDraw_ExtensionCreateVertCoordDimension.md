@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionCreateVertCoordDimension
    Name/de:TechDraw ErgänzungVertikaleKoordinatenmaße
-   MenuLocation:TechDraw → Ergänzungen: Maße → Vertikale Koordinatenmaße erstellen
+   MenuLocation:TechDraw - Ergänzungen: Maße - Vertikale Koordinatenmaße erstellen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20

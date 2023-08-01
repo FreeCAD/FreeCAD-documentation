@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ExtensionCircleCenterLines
-   MenuLocation:TechDraw → Extensions: Centerlines/Threading → Add Circle Centerlines
+   MenuLocation:TechDraw - Extensions: Centerlines/Threading - Add Circle Centerlines
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20

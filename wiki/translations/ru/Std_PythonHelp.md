@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std PythonHelp
    Name/ru:Std PythonHelp
-   MenuLocation:Help → Automatic python modules documentation
+   MenuLocation:Help - Automatic python modules documentation
    Workbenches:All
    SeeAlso:[Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub/ru.md)
 ---

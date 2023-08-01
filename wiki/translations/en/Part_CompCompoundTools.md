@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Part CompCompoundTools
-   MenuLocation:Part → Compound
+   MenuLocation:Part - Compound
    Workbenches:[Part](Part_Workbench.md)
    SeeAlso:
 ---

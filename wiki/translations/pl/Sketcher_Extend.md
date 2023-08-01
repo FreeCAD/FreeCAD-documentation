@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher Extend
    Name/pl:Szkicownik: Przedłuż krawędź
-   MenuLocation:Szkic → Elementy geometryczne szkicownika → Przedłuż krawędź
+   MenuLocation:Szkic - Elementy geometryczne szkicownika - Przedłuż krawędź
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **Q**
    Version:0.17

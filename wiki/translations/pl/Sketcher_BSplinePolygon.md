@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher BSplinePolygon
    Name/pl:Szkicownik: Pokaż / ukryj ramkę kontrolną krzywej złożonej
-   MenuLocation:Szkic → Narzędzia szkicownika krzywej złożonej → Pokaż / ukryj ramkę kontrolną krzywej złożonej
+   MenuLocation:Szkic - Narzędzia szkicownika krzywej złożonej - Pokaż / ukryj ramkę kontrolną krzywej złożonej
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Version:0.17
    SeeAlso:[Komponent utwórz krzywą złożoną](Sketcher_CompCreateBSpline/pl.md)

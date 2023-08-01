@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM PostCreateFunctionBox
    Name/fr:FEM Filtre fonction boîte
-   MenuLocation:Résultats → Fonctions de filtrage → Boîte
+   MenuLocation:Résultats - Fonctions de filtrage - Boîte
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Version:0.21
    SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)

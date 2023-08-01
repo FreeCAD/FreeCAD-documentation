@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch CompSetMaterial
    Name/it:Materiali
-   MenuLocation:Arch → Materiali
+   MenuLocation:Arch - Materiali
    Workbenches:[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
    SeeAlso:[Materiale](Arch_SetMaterial/it.md), [Multimateriale](Arch_MultiMaterial/it.md)
    Version:0.17

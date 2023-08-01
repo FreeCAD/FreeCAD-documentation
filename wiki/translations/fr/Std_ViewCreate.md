@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std ViewCreate
    Name/fr:Std Créer une nouvelle vue
-   MenuLocation:Affichage → Créer une nouvelle vue‏‎
+   MenuLocation:Affichage - Créer une nouvelle vue‏‎
    Workbenches:Tous
    SeeAlso:[Std Fenêtre du document](Std_ViewDockUndockFullscreen/fr.md), [Std Plein écran](Std_ViewFullscreen/fr.md)
 ---

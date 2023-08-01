@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft PathLinkArray
    Name/ru:Draft PathLinkArray
-   MenuLocation:Draft → PathLinkArray
+   MenuLocation:Draft - PathLinkArray
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Version:0.19
    SeeAlso:[Array](Draft_Array/ru.md), [LinkArray](Draft_LinkArray/ru.md), [PathArray](Draft_PathArray/ru.md), [Draft Clone](Draft_Clone/ru.md)

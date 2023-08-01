@@ -1,6 +1,6 @@
 # Sketcher CreateHeptagon/es
 ---
-- GuiCommand:   Name:Sketcher CreateHeptagon   Name/es:Sketcher CreateHeptagon   Workbenches:[[Sketcher Workbench/es   Sketcher]]|MenuLocation:Sketch → Sketcher geometries → Create heptagon   Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Sketcher CreateHeptagon   Name/es:Sketcher CreateHeptagon   Workbenches:[[Sketcher Workbench/es   Sketcher]]|MenuLocation:Sketch - Sketcher geometries - Create heptagon   Shortcut:   SeeAlso:---
 
 
 </div>

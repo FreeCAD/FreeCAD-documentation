@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Spreadsheet AlignRight
-   MenuLocation:Spreadsheet → Alignment → Align right
+   MenuLocation:Spreadsheet - Alignment - Align right
    Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
    Version:0.17
 ---

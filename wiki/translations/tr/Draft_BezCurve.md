@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft BezCurve
    Name/tr:Bezier eğrisi
-   MenuLocation:Taslak → Bezier eğrisi
+   MenuLocation:Taslak - Bezier eğrisi
    Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
    Shortcut:B Z
    Version:0.14

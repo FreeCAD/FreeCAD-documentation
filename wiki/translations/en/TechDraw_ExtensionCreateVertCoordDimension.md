@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ExtensionCreateVertCoordDimension
-   MenuLocation:TechDraw → Extensions: Dimensions → Create Vertical Coordinate Dimensions
+   MenuLocation:TechDraw - Extensions: Dimensions - Create Vertical Coordinate Dimensions
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20

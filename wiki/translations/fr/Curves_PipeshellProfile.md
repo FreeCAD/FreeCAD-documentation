@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Curves PipeshellProfile
    Name/fr:Curves Profil de l'enveloppe d'un tube
-   MenuLocation:Surfaces → Pipeshell profile
+   MenuLocation:Surfaces - Pipeshell profile
    Workbenches:[Curves](Curves_Workbench/fr.md)
    SeeAlso:[Curves Enveloppe de tube](Curves_Pipeshell/fr.md)
 ---

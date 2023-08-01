@@ -4,7 +4,7 @@
    Name/it:Progetto BIM
    Workbenches:[BIM](BIM_Workbench/it.md)
    Addon:BIM
-   MenuLocation:Gestione → Gestione progetto...
+   MenuLocation:Gestione - Gestione progetto...
 ---
 
 # BIM Project/it

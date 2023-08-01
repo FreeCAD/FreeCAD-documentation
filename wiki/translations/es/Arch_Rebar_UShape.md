@@ -2,7 +2,7 @@
 - GuiCommand:Addon/es
    Name:Arch Rebar UShape
    Name/es: Arch Barra de Refuerzo en Forma de U
-   MenuLocation:Arch → Rebar tools
+   MenuLocation:Arch - Rebar tools
    Workbenches:[Arch](Arch_Workbench/es.md)
    Addon:Reinforcement
    Version:0.17

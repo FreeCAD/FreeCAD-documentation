@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher ConstrainBlock
-   MenuLocation:Sketch → Sketcher constraints → Constrain block
+   MenuLocation:Sketch - Sketcher constraints - Constrain block
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**K** **B**
    Version:0.17

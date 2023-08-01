@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Snap Midpoint
    Name/it:Punto medio
-   MenuLocation:Draft → [Aggancio](Draft_Snap/it.md) → Punto medio
+   MenuLocation:Draft - [Aggancio](Draft_Snap/it.md) - Punto medio
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    SeeAlso:[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
 ---

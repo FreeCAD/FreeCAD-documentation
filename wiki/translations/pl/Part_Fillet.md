@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Part Fillet
    Name/pl:Część: Zaokrąglenie
-   MenuLocation:Część → Zaokrąglenie ...
+   MenuLocation:Część - Zaokrąglenie ...
    Workbenches:[Część](Part_Workbench/pl.md)
    SeeAlso:[Sfazowanie](Part_Chamfer/pl.md)
 ---

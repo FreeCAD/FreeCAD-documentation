@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std UserEditMode
    Name/fr:Std Mode d'édition
-   MenuLocation:Édition → Mode d'édition → ...
+   MenuLocation:Édition - Mode d'édition - ...
    Workbenches:Tous
    Version:0.20
    SeeAlso:[Std Bascule mode édition](Std_Edit/fr.md)

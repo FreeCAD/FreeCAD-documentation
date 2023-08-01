@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Arch Check
    Name/es:Arch Check
-   MenuLocation:Arquitectura → Utilidades → Comprobar
+   MenuLocation:Arquitectura - Utilidades - Comprobar
    Workbenches:[Arquitectura](Arch_Workbench/es.md)
    SeeAlso:[Tapar agujeros](Arch_CloseHoles/es.md)
 ---

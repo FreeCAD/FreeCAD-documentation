@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh Merge
    Name/pl:Siatka: Scal
-   MenuLocation:Siatki → Scal
+   MenuLocation:Siatki - Scal
    Workbenches:[Mesh](Mesh_Workbench/pl.md)
    SeeAlso:[Rozbij na komponenty](Mesh_SplitComponents/pl.md)
 ---

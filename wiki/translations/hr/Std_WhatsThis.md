@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std WhatsThis
-   MenuLocation:Help → What's This?
+   MenuLocation:Help - What's This?
    Workbenches:All
    Shortcut:**Shift**+**F1**
    SeeAlso:[Std OnlineHelp](Std_OnlineHelp.md)

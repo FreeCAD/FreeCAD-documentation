@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru:Скругление
    Name:PartDesign_Fillet
-   MenuLocation:PartDesign → Apply a dress-up feature → Скругление
+   MenuLocation:PartDesign - Apply a dress-up feature - Скругление
    Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
    SeeAlso:[Фаска](PartDesign_Chamfer/ru.md), [Скругление](Part_Fillet/ru.md)
 ---

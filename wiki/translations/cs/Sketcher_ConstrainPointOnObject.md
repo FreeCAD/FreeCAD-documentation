@@ -3,7 +3,7 @@
    Name:Constraint PointOnObject
    Name/cs:Constraint PointOnObject
    Workbenches:[Náčrt](Sketcher_Workbench/cs.md), [Návrh dílu](PartDesign_Workbench/cs.md)
-   MenuLocation:Sketch → Sketcher constraints → Constrain point onto object
+   MenuLocation:Sketch - Sketcher constraints - Constrain point onto object
    SeeAlso:[Vazba totožnosti](Sketcher_ConstrainCoincident/cs.md)
 ---
 

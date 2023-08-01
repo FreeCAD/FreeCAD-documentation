@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionHoleCircle
    Name/de:TechDraw ErgänzungLochkreis
-   MenuLocation:TechDraw → Extensions: Centerlines/Threading → Add Bolt Circle Centerlines
+   MenuLocation:TechDraw - Extensions: Centerlines/Threading - Add Bolt Circle Centerlines
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20

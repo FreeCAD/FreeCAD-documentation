@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Mesh Merge
    Name/fr:Mesh Fusionner
-   MenuLocation:Maillages → Fusionner
+   MenuLocation:Maillages - Fusionner
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
    SeeAlso:[Mesh Éclater par composants](Mesh_SplitComponents/fr.md)
 ---

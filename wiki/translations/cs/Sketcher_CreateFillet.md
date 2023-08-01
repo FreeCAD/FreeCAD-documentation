@@ -1,6 +1,6 @@
 # Sketcher CreateFillet/cs
 ---
-- GuiCommand:   Name:Sketcher CreateFillet   Name/cs: Skicář Zaoblení   Workbenches:[[Sketcher Workbench/cs   Skicář]]|MenuLocation:Náčrt → Skicář Konstrukce →  Vytvořit zaoblení   Shortcut:F   SeeAlso:---
+- GuiCommand:   Name:Sketcher CreateFillet   Name/cs: Skicář Zaoblení   Workbenches:[[Sketcher Workbench/cs   Skicář]]|MenuLocation:Náčrt - Skicář Konstrukce -  Vytvořit zaoblení   Shortcut:F   SeeAlso:---
 
 
 </div>

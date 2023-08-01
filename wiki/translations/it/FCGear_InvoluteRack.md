@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FCGear InvoluteRack
    Name/it:Cremagliera
-   MenuLocation:FCGear → Create an Involute rack
+   MenuLocation:FCGear - Create an Involute rack
    Workbenches:[FCGear](FCGear_Workbench/it.md)
    Shortcut:None
    Version:0.16

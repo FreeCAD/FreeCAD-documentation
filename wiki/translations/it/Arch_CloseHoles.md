@@ -3,7 +3,7 @@
    Name:Arch CloseHoles
    Name/it:Chiudi fori
    Workbenches:[Architettura](Arch_Workbench/it.md)
-   MenuLocation:Arch → Utilità → Chiudi fori   SeeAlso:[Controlla](Arch_Check/it.md)
+   MenuLocation:Arch - Utilità - Chiudi fori   SeeAlso:[Controlla](Arch_Check/it.md)
 ---
 
 # Arch CloseHoles/it

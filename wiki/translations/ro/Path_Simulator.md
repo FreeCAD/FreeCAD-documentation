@@ -1,6 +1,6 @@
 # Path Simulator/ro
 ---
-- GuiCommand:   Name:Path Simulator   Workbenches:[MenuLocation:Path → CAM Simulator   SeeAlso:[[Path_Inspect|Path Inspect](Path_Workbench___Path]].md) ---
+- GuiCommand:   Name:Path Simulator   Workbenches:[MenuLocation:Path - CAM Simulator   SeeAlso:[[Path_Inspect|Path Inspect](Path_Workbench___Path]].md) ---
 
 
 </div>

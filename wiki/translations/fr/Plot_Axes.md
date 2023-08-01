@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Plot Axes
    Name/fr:Plot Axes
-   MenuLocation:Plot → Configurer les axes‏‎
+   MenuLocation:Plot - Configurer les axes‏‎
    Workbenches:[Plot](Plot_Workbench/fr.md)
 ---
 

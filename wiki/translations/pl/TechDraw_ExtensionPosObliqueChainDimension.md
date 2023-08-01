@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionPosObliqueChainDimension
    Name/pl:Rysunek Techniczny: Rozszerzenie Ułóż ukośną serię wymiarów
-   MenuLocation:Rysunek Techniczny → Rozszerzenia: Atrybuty / Modyfikatory → Ułóż ukośną serię wymiarów
+   MenuLocation:Rysunek Techniczny - Rozszerzenia: Atrybuty / Modyfikatory - Ułóż ukośną serię wymiarów
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20

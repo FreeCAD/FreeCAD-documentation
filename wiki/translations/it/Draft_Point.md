@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Draft Point
    Name/it:Punto
-   MenuLocation:Drafting →  Punto
+   MenuLocation:Drafting -  Punto
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Version:0.7
 ---

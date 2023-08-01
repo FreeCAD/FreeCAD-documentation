@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Std MacroStopRecord
    Name/de:Std MakroaufzeichnungBeenden
-   MenuLocation:[Makro](Macros/de.md) → Makroaufzeichnung beenden
+   MenuLocation:[Makro](Macros/de.md) - Makroaufzeichnung beenden
    Workbenches:Alle
    SeeAlso:[Std DlgMakroAufzeichnen](Std_DlgMacroRecord/de.md)
 ---

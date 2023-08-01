@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:TechDraw ExtensionLineParallel
    Name/fr:TechDraw Ligne parallèle
-   MenuLocation:TechDraw → Extensions : taraudages/filetages → Ligne parallèle
+   MenuLocation:TechDraw - Extensions : taraudages/filetages - Ligne parallèle
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Shortcut:
    Version:0.20

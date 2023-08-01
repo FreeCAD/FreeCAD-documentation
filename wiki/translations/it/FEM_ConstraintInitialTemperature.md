@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:FEM_ConstraintInitialTemperature
    Name/it:Temperatura iniziale
-   MenuLocation:Modello → Vincoli termici → Vincolo temperatura iniziale
+   MenuLocation:Modello - Vincoli termici - Vincolo temperatura iniziale
    Workbenches:[FEM](FEM_Workbench/it.md)
    Shortcut:
    SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)

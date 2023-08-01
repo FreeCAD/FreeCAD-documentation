@@ -1,6 +1,6 @@
 # Sketcher CreateLine/cs
 ---
-- GuiCommand:   Name:Sketcher CreateLine   Name/cs:Skicář Přímka   Workbenches:[MenuLocation:Náčrt → Skicář Konstrukce → Vytvořit přímku   SeeAlso:[[Sketcher CreatePolyline/cs|Skicář Lomená čára](Sketcher_Workbench/cs___Skicář]].md)---
+- GuiCommand:   Name:Sketcher CreateLine   Name/cs:Skicář Přímka   Workbenches:[MenuLocation:Náčrt - Skicář Konstrukce - Vytvořit přímku   SeeAlso:[[Sketcher CreatePolyline/cs|Skicář Lomená čára](Sketcher_Workbench/cs___Skicář]].md)---
 
 
 </div>

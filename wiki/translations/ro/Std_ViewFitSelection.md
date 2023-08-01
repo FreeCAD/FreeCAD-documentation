@@ -1,6 +1,6 @@
 # Std ViewFitSelection/ro
 ---
-- GuiCommand:   Name:Std ViewFitSelection   MenuLocation:[[Std View Menu   View]] → Fit Selection|Workbenches:All   Shortcut:   SeeAlso:---
+- GuiCommand:   Name:Std ViewFitSelection   MenuLocation:[[Std View Menu   View]] - Fit Selection|Workbenches:All   Shortcut:   SeeAlso:---
 
 
 </div>

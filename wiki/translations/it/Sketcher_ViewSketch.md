@@ -1,6 +1,6 @@
 # Sketcher ViewSketch/it
 ---
-- GuiCommand:   Name:Sketcher ViewSketch   Name/it:Vista schizzo   Workbenches:[PartDesign](Sketcher_Workbench/it___Sketcher]],_[[PartDesign_Workbench/it.md)|MenuLocation:Schizzo → Vista schizzo---
+- GuiCommand:   Name:Sketcher ViewSketch   Name/it:Vista schizzo   Workbenches:[PartDesign](Sketcher_Workbench/it___Sketcher]],_[[PartDesign_Workbench/it.md)|MenuLocation:Schizzo - Vista schizzo---
 
 
 </div>

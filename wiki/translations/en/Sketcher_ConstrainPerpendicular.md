@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Sketcher ConstrainPerpendicular
-   MenuLocation:Sketch → Sketcher constraints → Constrain perpendicular
+   MenuLocation:Sketch - Sketcher constraints - Constrain perpendicular
    Workbenches:[Sketcher](Sketcher_Workbench.md)
    Shortcut:**N**
    SeeAlso:[Sketcher Constrain angle](Sketcher_ConstrainAngle.md)

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Draft Scale
-   MenuLocation:Modification → Scale
+   MenuLocation:Modification - Scale
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    Shortcut:**S** **C**
    SeeAlso:[Draft SubelementHighlight](Draft_SubelementHighlight.md), [Draft Clone](Draft_Clone.md)

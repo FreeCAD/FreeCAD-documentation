@@ -3,7 +3,7 @@
    Name:Drawing Annotation
    Name/ru:Drawing Annotation
    Workbenches:[Drawing](Drawing_Workbench/ru.md), Complete
-   MenuLocation:Чертёж → Аннотация
+   MenuLocation:Чертёж - Аннотация
    Shortcut:
 ---
 

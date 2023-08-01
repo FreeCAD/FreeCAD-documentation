@@ -1,6 +1,6 @@
 # Draft Drawing/sv
 ---
-- GuiCommand:   Name:Draft_Drawing   Name/sv:Draft Drawing   Workbenches:[[Draft_Workbench/sv   Skiss]]|MenuLocation:Drafting → Drawing---
+- GuiCommand:   Name:Draft_Drawing   Name/sv:Draft Drawing   Workbenches:[[Draft_Workbench/sv   Skiss]]|MenuLocation:Drafting - Drawing---
 
 
 </div>

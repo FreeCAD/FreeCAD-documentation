@@ -4,7 +4,7 @@
    Name/pt:Sketcher ValidateSketch
    Empty:1
    Workbenches:[Sketcher](Sketcher_Workbench/pt.md), [PartDesign](PartDesign_Workbench/pt.md)
-   MenuLocation:Sketcher → Validate sketch
+   MenuLocation:Sketcher - Validate sketch
 ---
 
 # Sketcher ValidateSketch/pt

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Assembly3 AddZYWorkplane
    Icon:Assembly_Add_WorkplaneZY.svg‎‎
-   MenuLocation:Assembly3 → Workplane and origin → Add ZY workplane
+   MenuLocation:Assembly3 - Workplane and origin - Add ZY workplane
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 

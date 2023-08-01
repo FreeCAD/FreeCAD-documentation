@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Sketcher CreatePentagon
    Name/pl:Szkicownik: Utwórz pięciokąt
-   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz pięciokąt
+   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz pięciokąt
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**G** **P** **5**
    Version:0.15

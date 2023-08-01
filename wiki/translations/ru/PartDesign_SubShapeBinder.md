@@ -3,7 +3,7 @@
    Name/ru:Создать новую под-объектную связующую форму
    Name:PartDesign_SubShapeBinder
    Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   MenuLocation:Part Design → Create a sub-object shape binder
+   MenuLocation:Part Design - Create a sub-object shape binder
    Version:0.19
    SeeAlso:[Создать связующую форму](PartDesign_ShapeBinder/ru.md), [Создать клон](PartDesign_Clone/ru.md)
 ---

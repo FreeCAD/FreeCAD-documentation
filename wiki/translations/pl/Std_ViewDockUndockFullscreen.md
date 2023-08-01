@@ -4,7 +4,7 @@
    Name:Std ViewDockUndockFullscreen
    Nam/pl:Std: Zadokuj / Oddokuj okno
    Empty:1
-   MenuLocation:Widok → Okno dokumentu → Zadokowany / Niezadokowany
+   MenuLocation:Widok - Okno dokumentu - Zadokowany / Niezadokowany
    Workbenches:wszystkie
    Shortcut:**V** **D** / **V** **U**
    SeeAlso:[Wyświetl na pełnym ekranie](Std_ViewFullscreen/pl.md), [Pełny ekran](Std_MainFullscreen/pl.md)
