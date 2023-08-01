@@ -1,8 +1,4 @@
 # External workbenches/ru
-{{TOCright}}
-
-
-
 ## Введение
 
 [Внешние верстаки](External_workbenches/ru.md) разработаны продвинутыми пользователями FreeCAD, но не включены в основной дистрибутив FreeCAD.
@@ -266,4 +262,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External_Workbenches](Category_External_Workbenches.md) > External workbenches/ru
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External_Workbenches](Category_External_Workbenches.md) > External workbenches/ru

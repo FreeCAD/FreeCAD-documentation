@@ -1,6 +1,6 @@
 # Draft ToggleConstructionMode/cs
 ---
-- GuiCommand:   Name:Draft ToggleConstructionMode   Name/cs:DKreslení Přepnutí do konstrukčního módu   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> Utility -> Přepnutí do konstrukčního módu---
+- GuiCommand:   Name: Draft ToggleConstructionMode   Name/cs: DKreslení Přepnutí do konstrukčního módu   Workbenches: [Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation: Kreslení -> Utility -> Přepnutí do konstrukčního módu---
 
 
 </div>
@@ -47,4 +47,4 @@ Kreslicí modul má konstrukční mód, který umožňuje kreslit určité objek
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/cs
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/cs

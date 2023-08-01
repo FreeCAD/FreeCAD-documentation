@@ -1,8 +1,4 @@
 # Installing more workbenches/de
-{{TOCright}}
-
-
-
 ## Einführung
 
 Seit v0.17 ist es einfach, [externe Arbeitsbereiche](external_workbenches/de.md) mit Hilfe des [Erweiterungsverwalters](Std_AddonMgr/de.md) hinzuzufügen. Ein normaler Benutzer muss nicht mehr tun, als dieses Werkzeug zu benutzen.
@@ -59,4 +55,4 @@ Siehe auch eine detaillierte Beschreibung auf der Seite [Wie man zusätzliche Ar
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/de

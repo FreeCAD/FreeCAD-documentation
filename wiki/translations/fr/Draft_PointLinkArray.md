@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft PointLinkArray
-   Name/fr:Draft Réseau lié selon des points
-   MenuLocation:Modification - Outils pour les réseaux - Réseau lié selon des points
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[Draft Réseau orthogonal](Draft_OrthoArray/fr.md), [Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Réseau selon une courbe](Draft_PathArray/fr.md), [Draft Réseau de points](Draft_PointArray/fr.md)
+   Name: Draft PointLinkArray
+   Name/fr: Draft Réseau lié selon des points
+   MenuLocation: Modification - Outils pour les réseaux - Réseau lié selon des points
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Version: 0.19
+   SeeAlso: [Draft Réseau orthogonal](Draft_OrthoArray/fr.md), [Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Réseau selon une courbe](Draft_PathArray/fr.md), [Draft Réseau de points](Draft_PointArray/fr.md)
 ---
 
 # Draft PointLinkArray/fr
@@ -17,4 +17,4 @@ La commande <img alt="" src=images/Draft_PointLinkArray.svg  style="width:24px;"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PointLinkArray/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PointLinkArray/fr

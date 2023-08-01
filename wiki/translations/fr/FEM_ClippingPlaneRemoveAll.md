@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ClippingPlaneRemoveAll
-   Name/fr:FEM Supprimer les plans de coupe
-   MenuLocation:Utilitaires - Supprimer tous les plans de coupe
-   |Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM ClippingPlaneRemoveAll
+   Name/fr: FEM Supprimer les plans de coupe
+   MenuLocation: Utilitaires - Supprimer tous les plans de coupe
+   |Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM ClippingPlaneRemoveAll/fr
@@ -28,4 +28,4 @@ Utilisez le bouton de la barre d\'outils <img alt="" src=images/FEM_ClippingPlan
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ClippingPlaneRemoveAll/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ClippingPlaneRemoveAll/fr

@@ -1,6 +1,6 @@
 # Robot Export/de
 ---
-- GuiCommand:   Name:Robot Export   Workbenches:[[Robot_Workbench/de   Robot]]|MenuLocation:Roboter - Exportiere Bewegungsbahn---
+- GuiCommand:   Name: Robot Export   Workbenches: [[Robot_Workbench/de   Robot]]|MenuLocation: Roboter - Exportiere Bewegungsbahn---
 
 
 </div>
@@ -66,4 +66,4 @@ Eine KRL-Datei (\*.src) wird erstellt.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Export/de
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Export/de

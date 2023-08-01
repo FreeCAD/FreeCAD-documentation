@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std CascadeWindows
-   Name/it:A cascata
-   MenuLocation:Finestre - A cascata
-   Workbenches:Tutti
-   SeeAlso:[Affianca](Std_TileWindows/it.md)
+   Name: Std CascadeWindows
+   Name/it: A cascata
+   MenuLocation: Finestre - A cascata
+   Workbenches: Tutti
+   SeeAlso: [Affianca](Std_TileWindows/it.md)
 ---
 
 # Std CascadeWindows/it
@@ -36,4 +36,4 @@ Il comando **A cascata** riorganizza le finestre nell\'[Area della vista princip
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std CascadeWindows/it
+⏵ [documentation index](../README.md) > Std CascadeWindows/it

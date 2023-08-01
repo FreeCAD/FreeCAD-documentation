@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar UShape
-   Name/ro:Arch Rebar UShape
-   MenuLocation:Arch - Rebar tools
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   Shortcut:None
-   SeeAlso:[LShape Rebar](Arch_Rebar_LShape/ro.md)
-   Addon:Reinforcement
+   Name: Arch Rebar UShape
+   Name/ro: Arch Rebar UShape
+   MenuLocation: Arch - Rebar tools
+   Workbenches: [Arch](Arch_Workbench/ro.md)
+   Shortcut: None
+   SeeAlso: [LShape Rebar](Arch_Rebar_LShape/ro.md)
+   Addon: Reinforcement
 ---
 
 # Arch Rebar Straight/ro
@@ -257,4 +257,4 @@ StraightRebar.editStraightRebar(Rebar4, 50, ("Right Side", 50), 100, 100,
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Straight/ro
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Straight/ro

@@ -8,7 +8,7 @@
 </div>
 
 
-{{TOCright}}
+
 
 ## Description
 
@@ -70,4 +70,4 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch OBJ/cs
+⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch OBJ/cs

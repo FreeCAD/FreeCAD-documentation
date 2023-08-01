@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw CosmeticVertex
-   Name/pl:Rysunek Techniczny: Wstaw wierzchołek kosmetyczny
-   MenuLocation:Rysunek Techniczny - Dodaj wierzchołki - Wstaw wierzchołek kosmetyczny
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Version:0.19
-   SeeAlso:[Dodaj wierzchołek punktu środkowego](TechDraw_Midpoints/pl.md), [Dodaj wierzchołki kwadrantu](TechDraw_Quadrants/pl.md)
+   Name: TechDraw CosmeticVertex
+   Name/pl: Rysunek Techniczny: Wstaw wierzchołek kosmetyczny
+   MenuLocation: Rysunek Techniczny - Dodaj wierzchołki - Wstaw wierzchołek kosmetyczny
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Version: 0.19
+   SeeAlso: [Dodaj wierzchołek punktu środkowego](TechDraw_Midpoints/pl.md), [Dodaj wierzchołki kwadrantu](TechDraw_Quadrants/pl.md)
 ---
 
 # TechDraw CosmeticVertex/pl
@@ -80,4 +80,4 @@ dvp.makeCosmeticLine(start,end,style, weight, pyGreen)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticVertex/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticVertex/pl

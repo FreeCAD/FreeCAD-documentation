@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Cut
-   Name/ru:Обрезать
-   MenuLocation:Деталь - Булевы операции - Обрезать
-   Workbenches:[Part](Part_Workbench/ru.md)
-   SeeAlso:[Объединение](Part_Union/ru.md), [Пересечение](Part_Common/ru.md), [Part Boolean](Part_Boolean/ru.md)
+   Name: Part Cut
+   Name/ru: Обрезать
+   MenuLocation: Деталь - Булевы операции - Обрезать
+   Workbenches: [Part](Part_Workbench/ru.md)
+   SeeAlso: [Объединение](Part_Union/ru.md), [Пересечение](Part_Common/ru.md), [Part Boolean](Part_Boolean/ru.md)
 ---
 
 # Part Cut/ru
@@ -35,4 +35,4 @@ Input objects must be [OpenCASCADE](OpenCASCADE.md) shapes. For example objects 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/ru

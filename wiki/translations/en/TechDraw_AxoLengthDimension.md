@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:TechDraw AxoHorizontalDimension
-   MenuLocation:TechDraw - Annotations - Axonometric length dimension
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.21
+   Name: TechDraw AxoHorizontalDimension
+   MenuLocation: TechDraw - Annotations - Axonometric length dimension
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Version: 0.21
 ---
 
 # TechDraw AxoLengthDimension/en
@@ -46,4 +46,4 @@ To change the properties of a dimension object either double-click it in the dra
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw AxoLengthDimension/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw AxoLengthDimension/en

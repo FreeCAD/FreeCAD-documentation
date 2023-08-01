@@ -1,6 +1,6 @@
 # PartDesign SubtractiveWedge/it
 ---
-- GuiCommand:   Name:PartDesign SubtractiveWedge   Name/it:Cuneo sottrattivo   Workbenches:[MenuLocation:Part Design - Crea una primitiva sottrattiva - Cuneo   Version:0.17   SeeAlso:[[PartDesign CompPrimitiveSubtractive/it|Primitive sottrattive](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign SubtractiveWedge   Name/it: Cuneo sottrattivo   Workbenches: [MenuLocation: Part Design - Crea una primitiva sottrattiva - Cuneo   Version: 0.17   SeeAlso: [[PartDesign CompPrimitiveSubtractive/it|Primitive sottrattive](PartDesign_Workbench/it___PartDesign]].md)---
 
 
 </div>
@@ -72,4 +72,4 @@ Wedges can be used to create pyramids by setting **X2 min/max** and **Z2 min/max
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveWedge/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveWedge/it

@@ -1,6 +1,6 @@
 # Part Spiral/es
 ---
-- GuiCommand:   Name:Part Spiral   Name/es:Part Spiral   MenuLocation:[Create Primitives](Part_Workbench/es___Part]]_-_[[Part_CreatePrimitives/es.md) - Spiral|Workbenches:[SeeAlso:[[Part_CreatePrimitives/es|Create Primitives](Part_Workbench/es___Part]].md)---
+- GuiCommand:   Name: Part Spiral   Name/es: Part Spiral   MenuLocation: [Create Primitives](Part_Workbench/es___Part]]_-_[[Part_CreatePrimitives/es.md) - Spiral|Workbenches: [SeeAlso: [[Part_CreatePrimitives/es|Create Primitives](Part_Workbench/es___Part]].md)---
 
 
 </div>
@@ -87,4 +87,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Spiral/es
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Spiral/es

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Part
-   Name/tr:Parça Oluştur
-   MenuLocation:None
-   Workbenches:Hepsi
-   Version:0.17
-   SeeAlso:[Grup Oluştur](Std_Group.md), [Cisim Oluştur](PartDesign_Body.md)
+   Name: Std Part
+   Name/tr: Parça Oluştur
+   MenuLocation: None
+   Workbenches: Hepsi
+   Version: 0.17
+   SeeAlso: [Grup Oluştur](Std_Group.md), [Cisim Oluştur](PartDesign_Body.md)
 ---
 
 # Std Part/tr
@@ -273,4 +273,4 @@ App.ActiveDocument.addObject("Part::FeaturePython",
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Part/tr
+⏵ [documentation index](../README.md) > Std Part/tr

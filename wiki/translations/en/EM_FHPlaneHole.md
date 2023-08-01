@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:EM FHPlaneHole
-   MenuLocation:EM - FHPlaneHole
-   Workbenches:[EM](EM_Workbench.md)
-   Shortcut:**E** **H**
-   Version:0.17
-   SeeAlso:[EM FHPlane](EM_FHPlane.md), [EM FHNode](EM_FHNode.md), [EM FHPlaneAddRemoveNodeHole](EM_FHPlaneAddRemoveNodeHole.md)
+   Name: EM FHPlaneHole
+   MenuLocation: EM - FHPlaneHole
+   Workbenches: [EM](EM_Workbench.md)
+   Shortcut: **E** **H**
+   Version: 0.17
+   SeeAlso: [EM FHPlane](EM_FHPlane.md), [EM FHNode](EM_FHNode.md), [EM FHPlaneAddRemoveNodeHole](EM_FHPlaneAddRemoveNodeHole.md)
 ---
 
 # EM FHPlaneHole/en
@@ -169,4 +169,4 @@ fhhole = EM.makeFHPlaneHole(X=1.0,Y=1.0,Z=0.0,holetype="Rect",length=1.0,width=2
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [EM](Category_EM.md) > EM FHPlaneHole/en
+⏵ [documentation index](../README.md) > [EM](Category_EM.md) > EM FHPlaneHole/en

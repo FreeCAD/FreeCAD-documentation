@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Выбрать горизонтальную ось
-   Name:Sketcher_SelectHorizontalAxis
-   MenuLocation:Sketch - Инструменты для эскиза - Выбрать горизонтальную ось
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:Shift+Ctrl+H
-   Version:0.15
+   Name/ru: Выбрать горизонтальную ось
+   Name: Sketcher_SelectHorizontalAxis
+   MenuLocation: Sketch - Инструменты для эскиза - Выбрать горизонтальную ось
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: Shift+Ctrl+H
+   Version: 0.15
 ---
 
 # Sketcher SelectHorizontalAxis/ru
@@ -44,4 +44,4 @@ Selects the horizontal axis of a sketch.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectHorizontalAxis/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectHorizontalAxis/ru

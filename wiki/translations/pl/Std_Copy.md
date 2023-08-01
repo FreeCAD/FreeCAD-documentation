@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Copy
-   Name/pl:Std: Kopiuj
-   MenuLocation:Edycja- Kopiuj
-   Workbenches:wszystkie
-   Shortcut:**Ctrl** + **C**
-   SeeAlso:[Wytnij](Std_Cut/pl.md), [Wklej](Std_Paste/pl.md), [Powiel zaznaczone](Std_DuplicateSelection/pl.md)
+   Name: Std Copy
+   Name/pl: Std: Kopiuj
+   MenuLocation: Edycja- Kopiuj
+   Workbenches: wszystkie
+   Shortcut: **Ctrl** + **C**
+   SeeAlso: [Wytnij](Std_Cut/pl.md), [Wklej](Std_Paste/pl.md), [Powiel zaznaczone](Std_DuplicateSelection/pl.md)
 ---
 
 # Std Copy/pl
@@ -46,4 +46,4 @@ Polecenie **Kopiuj** kopiuje zaznaczone obiekty do schowka.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Copy/pl
+⏵ [documentation index](../README.md) > Std Copy/pl

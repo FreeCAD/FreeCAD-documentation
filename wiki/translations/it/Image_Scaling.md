@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Image Scaling
-   Name/it:Scala immagine
-   MenuLocation:
-   Workbenches:[Image](Image_Workbench/it.md)
-   SeeAlso:[Apri immagine](Image_Open/it.md), [Piano immagine](Image_CreateImagePlane/it.md)
+   Name: Image Scaling
+   Name/it: Scala immagine
+   MenuLocation: 
+   Workbenches: [Image](Image_Workbench/it.md)
+   SeeAlso: [Apri immagine](Image_Open/it.md), [Piano immagine](Image_CreateImagePlane/it.md)
 ---
 
 # Image Scaling/it
@@ -32,4 +32,4 @@ Lo strumento [Scala immagine](Image_Scaling/it.md) ridimensiona un\'immagine imp
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/it
+⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/it

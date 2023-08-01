@@ -1,10 +1,10 @@
 ---
-- GuiCommand:   Name:Part ExplodeCompound
-   Name/it:Esplodi composto
-   MenuLocation:Part - Composto - Esplodi composto
-   Version:0.18.15506
-   Workbenches:[Part](Part_Workbench/it.md)
-   SeeAlso:[Crea composto](Part_Compound/it.md), [Draft Declassa](Draft_Downgrade/it.md)
+- GuiCommand:   Name: Part ExplodeCompound
+   Name/it: Esplodi composto
+   MenuLocation: Part - Composto - Esplodi composto
+   Version: 0.18.15506
+   Workbenches: [Part](Part_Workbench/it.md)
+   SeeAlso: [Crea composto](Part_Compound/it.md), [Draft Declassa](Draft_Downgrade/it.md)
 ---
 
 # Part ExplodeCompound/it
@@ -59,4 +59,4 @@ Lo strumento esplode anche forme non composte nei loro costituenti di livello in
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ExplodeCompound/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ExplodeCompound/it

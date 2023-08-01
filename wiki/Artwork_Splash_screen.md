@@ -54,4 +54,4 @@ These are the splash screens that have been used for each version of the program
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Splash screen
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Splash screen

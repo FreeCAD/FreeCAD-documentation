@@ -1,8 +1,4 @@
 # Workbench creation/it
-{{TOCright}}
-
-
-
 ## Introduzione
 
 Questa pagina da indicazioni su come aggiungere un nuovo ambiente di lavoro all\'interfaccia di FreeCAD. Gli [Ambienti di Lavoro](Workbenches/it.md) sono contenitori per i comandi di FreeCAD. Possono essere codificati in Python, in C++ o in un mix di entrambi, il che ha il vantaggio di unire la velocità del C++ alla flessibilità di Python. In tutti i casi, tuttavia, l\'ambiente verrà avviato da un set di due file Python. Possono essere ambienti di lavoro \"interni\", inclusi nella distribuzione di FreeCAD, o ambienti di lavoro \"esterni\", distribuiti tramite l\'[Addon Manager](Std_AddonMgr/it.md) o installati manualmente scaricandoli da qualche repository online. Gli Ambienti di lavoro interni possono essere codificati in C++, Python o una combinazione dei due, mentre i workbench esterni devono essere solo in Python.
@@ -418,4 +414,4 @@ os.remove(qrc_filename)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Workbench creation/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Workbench creation/it

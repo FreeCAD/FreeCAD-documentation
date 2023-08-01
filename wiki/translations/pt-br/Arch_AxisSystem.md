@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Arch AxisSystem
-   MenuLocation:Arch - Axis tools - Axis System
-   Workbenches:[Arch](Arch_Workbench.md)
-   SeeAlso:[Arch Axis](Arch_Axis.md), [Arch Grid](Arch_Grid.md)
+   Name: Arch AxisSystem
+   MenuLocation: Arch - Axis tools - Axis System
+   Workbenches: [Arch](Arch_Workbench.md)
+   SeeAlso: [Arch Axis](Arch_Axis.md), [Arch Grid](Arch_Grid.md)
 ---
 
 # Arch AxisSystem/pt-br
@@ -87,4 +87,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch AxisSystem/pt-br
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch AxisSystem/pt-br

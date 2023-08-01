@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft SelectGroup
-   MenuLocation:Utilities - Select group
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso:[Std Group](Std_Group.md), [Draft AddToGroup](Draft_AddToGroup.md), [Draft AddConstruction](Draft_AddConstruction.md), [Draft AutoGroup](Draft_AutoGroup.md)
+   Name: Draft SelectGroup
+   MenuLocation: Utilities - Select group
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   SeeAlso: [Std Group](Std_Group.md), [Draft AddToGroup](Draft_AddToGroup.md), [Draft AddConstruction](Draft_AddConstruction.md), [Draft AutoGroup](Draft_AutoGroup.md)
 ---
 
 # Draft SelectGroup
@@ -30,4 +30,4 @@ The command was revised in FreeCAD version 0.20 and this page describes that ver
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectGroup
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectGroup

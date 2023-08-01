@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign LinearPattern
-   Name/de:PartDesign LinearesMuster
-   MenuLocation:Part Design - Muster anwenden - Lineares Muster
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso:[PartDesign MehrfachTransformation](PartDesign_MultiTransform/de.md)
+   Name: PartDesign LinearPattern
+   Name/de: PartDesign LinearesMuster
+   MenuLocation: Part Design - Muster anwenden - Lineares Muster
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso: [PartDesign MehrfachTransformation](PartDesign_MultiTransform/de.md)
 ---
 
 # PartDesign LinearPattern/de
@@ -124,4 +124,4 @@ Siehe [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/de

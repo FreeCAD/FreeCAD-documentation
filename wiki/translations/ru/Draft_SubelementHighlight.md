@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft SubelementHighlight
-   Name/ru:Draft SubelementHighlight
-   MenuLocation:Draft - Subelement highlight
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:**D** **E**
-   SeeAlso:[Draft Edit](Draft_Edit/ru.md)
+   Name: Draft SubelementHighlight
+   Name/ru: Draft SubelementHighlight
+   MenuLocation: Draft - Subelement highlight
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: **D** **E**
+   SeeAlso: [Draft Edit](Draft_Edit/ru.md)
 ---
 
 # Draft SubelementHighlight/ru
@@ -53,4 +53,4 @@ The <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:24px;"> *
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SubelementHighlight/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SubelementHighlight/ru

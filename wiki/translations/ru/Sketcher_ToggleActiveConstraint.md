@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ToggleActiveConstraint
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   MenuLocation:Sketch - Sketcher constraints - Activate/deactivate constraint
-   Shortcut:**K** **Z**
-   Version:0.19
-   SeeAlso:[Sketcher Toggle driving constraints](Sketcher_ToggleDrivingConstraint.md)
+   Name: Sketcher ToggleActiveConstraint
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch - Sketcher constraints - Activate/deactivate constraint
+   Shortcut: **K** **Z**
+   Version: 0.19
+   SeeAlso: [Sketcher Toggle driving constraints](Sketcher_ToggleDrivingConstraint.md)
 ---
 
 # Sketcher ToggleActiveConstraint/ru
@@ -77,4 +77,4 @@ sketch.toggleActive(3)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleActiveConstraint/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleActiveConstraint/ru

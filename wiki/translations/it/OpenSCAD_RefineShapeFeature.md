@@ -1,6 +1,6 @@
 # OpenSCAD RefineShapeFeature/it
 ---
-- GuiCommand:   Name:OpenSCAD RefineShapeFeature   Name/it:Affina forma   MenuLocation:OpenSCAD - Affina forma   Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|SeeAlso:---
+- GuiCommand:   Name: OpenSCAD RefineShapeFeature   Name/it: Affina forma   MenuLocation: OpenSCAD - Affina forma   Workbenches: [[OpenSCAD_Workbench/it   OpenSCAD]]|SeeAlso: ---
 
 
 </div>
@@ -79,4 +79,4 @@ Elimina le linee superflue. Dopo un\'operazione booleana alcune linee che defini
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD RefineShapeFeature/it
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD RefineShapeFeature/it

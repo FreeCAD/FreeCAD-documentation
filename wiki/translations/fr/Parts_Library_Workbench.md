@@ -2,7 +2,7 @@
 ## Introduction
 
 
-{{TOCright}}
+
 
 Ce dépôt contient une bibliothèque de pièces à utiliser dans FreeCAD. Il est maintenu par la communauté des utilisateurs de FreeCAD et ne fait pas partie du projet FreeCAD, bien qu\'il soit conçu dans le but d\'être utilisé comme un dépôt de pièces par FreeCAD dans le futur.
 
@@ -67,4 +67,4 @@ La bibliothèque est un simple conteneur pour les fichiers FreeCAD (.fcstd) et S
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Parts Library Workbench/fr
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Parts Library Workbench/fr

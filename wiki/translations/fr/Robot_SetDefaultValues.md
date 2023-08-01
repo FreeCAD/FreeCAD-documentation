@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Robot SetDefaultValues
-   Name/fr:Robot Valeurs par défaut
-   MenuLocation:Robot - Définir les valeurs par défaut
-   Workbenches:[Robot](Robot_Workbench/fr.md)
+   Name: Robot SetDefaultValues
+   Name/fr: Robot Valeurs par défaut
+   MenuLocation: Robot - Définir les valeurs par défaut
+   Workbenches: [Robot](Robot_Workbench/fr.md)
 ---
 
 # Robot SetDefaultValues/fr
@@ -41,4 +41,4 @@ Les valeurs par défaut du programme sont les suivantes :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetDefaultValues/fr
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetDefaultValues/fr

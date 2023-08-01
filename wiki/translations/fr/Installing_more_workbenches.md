@@ -1,6 +1,4 @@
 # Installing more workbenches/fr
-{{TOCright}}
-
 ## Introduction
 
 Depuis la v0.17, il est facile d\'ajouter des [ateliers externes](external_workbenches/fr.md) en utilisant le [gestionnaire d\'addons](Std_AddonMgr/fr.md). Un utilisateur régulier n\'a pas besoin de faire plus que d\'utiliser cet outil.
@@ -49,4 +47,4 @@ Voir aussi une description détaillée sur la page [Comment installer un atelier
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/fr

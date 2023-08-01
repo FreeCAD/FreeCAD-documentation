@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path DressupPathBoundary
-   Name/fr:Path Limitation d'une zone
-   MenuLocation:Path - Finition du parcours - Limitation de la zone
-   Workbenches:[Path](Path_Workbench/fr.md)
-   SeeAlso:[Path Attaches](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry/fr.md)
+   Name: Path DressupPathBoundary
+   Name/fr: Path Limitation d'une zone
+   MenuLocation: Path - Finition du parcours - Limitation de la zone
+   Workbenches: [Path](Path_Workbench/fr.md)
+   SeeAlso: [Path Attaches](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry/fr.md)
 ---
 
 # Path DressupPathBoundary/fr
@@ -42,4 +42,4 @@ L\'outil <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:24px;
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupPathBoundary/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupPathBoundary/fr

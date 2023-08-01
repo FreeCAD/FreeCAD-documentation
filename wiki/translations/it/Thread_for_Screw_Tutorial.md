@@ -494,4 +494,4 @@ Questo metodo produce solidi affidabili che booleano correttamente. Sebbene non 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Thread for Screw Tutorial/it
+⏵ [documentation index](../README.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Thread for Screw Tutorial/it

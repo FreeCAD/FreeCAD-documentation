@@ -1,6 +1,6 @@
 # Path Shape/it
 ---
-- GuiCommand:   Name:Path FromShapes   Name/it:Da forme   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path - Comandi parziali - Da forma   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Path FromShapes   Name/it: Da forme   Workbenches: [[Path Workbench/it   Path]]|MenuLocation: Path - Comandi parziali - Da forma   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -161,4 +161,4 @@ Path.fromShapes(shapes, start=Vector(), return_end=False arc_plane=1, sort_mode=
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Shape/it
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Shape/it

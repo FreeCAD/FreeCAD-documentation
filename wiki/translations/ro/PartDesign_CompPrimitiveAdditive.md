@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:PartDesign CompPrimitiveAdditive
-   Name/ro:PartDesign CompPrimitiveAdditive
-   Empty:1
-   Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation:Part Design - Create an additive primitive
-   Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive/ro.md)
+   Name: PartDesign CompPrimitiveAdditive
+   Name/ro: PartDesign CompPrimitiveAdditive
+   Empty: 1
+   Workbenches: [PartDesign](PartDesign_Workbench/ro.md)
+   MenuLocation: Part Design - Create an additive primitive
+   Version: 0.17
+   SeeAlso: [PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive/ro.md)
 ---
 
 # PartDesign CompPrimitiveAdditive/ro
@@ -48,4 +48,4 @@ Creează o primitivă geometrică aditivă în Corpul activ ca primă funcție(o
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveAdditive/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveAdditive/ro

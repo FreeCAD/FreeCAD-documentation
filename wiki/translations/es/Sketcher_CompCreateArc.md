@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher Arcs
-   Name/es:Croquizador Arcos
-   Icon:Sketcher_CompCreateArc.png
-   MenuLocation:Ninguno (solo barra de herramientas)
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
+   Name: Sketcher Arcs
+   Name/es: Croquizador Arcos
+   Icon: Sketcher_CompCreateArc.png
+   MenuLocation: Ninguno (solo barra de herramientas)
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
 ---
 
 # Sketcher CompCreateArc/es
@@ -48,4 +48,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateArc/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateArc/es

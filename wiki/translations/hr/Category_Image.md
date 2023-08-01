@@ -10,4 +10,4 @@ This category lists pages related to the [Image Workbench/hr](Image_Workbench/hr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Image/hr
+⏵ [documentation index](../README.md) > Category:Image/hr

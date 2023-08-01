@@ -11,4 +11,4 @@ This category has links to common questions on how to do something in FC. This i
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Common Questions/pt
+⏵ [documentation index](../README.md) > Category:Common Questions/pt

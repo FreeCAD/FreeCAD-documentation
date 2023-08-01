@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 MoveItemDown
-   Icon:Assembly_TreeItemDown.svg‎‎
-   MenuLocation:Assembly3 - Move item down
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 MoveItemDown
+   Icon: Assembly_TreeItemDown.svg‎‎
+   MenuLocation: Assembly3 - Move item down
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 MoveItemDown
@@ -21,4 +21,4 @@ The <img alt="" src=images/Assembly_TreeItemDown.svg  style="width:24px;"> [Move
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 MoveItemDown
+⏵ [documentation index](../README.md) > Assembly3 MoveItemDown

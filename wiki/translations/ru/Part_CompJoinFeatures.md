@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part CompJoinFeatures
-   Name/ru:Part CompJoinFeatures
-   MenuLocation:Деталь - Join
-   Workbenches:[Part](Part_Workbench/ru.md)
-   SeeAlso:[Connect](Part_JoinConnect/ru.md), [Embed](Part_JoinEmbed/ru.md), [Cutout](Part_JoinCutout/ru.md), [Part Boolean](Part_Boolean/ru.md), [Part Thickness](Part_Thickness/ru.md)
+   Name: Part CompJoinFeatures
+   Name/ru: Part CompJoinFeatures
+   MenuLocation: Деталь - Join
+   Workbenches: [Part](Part_Workbench/ru.md)
+   SeeAlso: [Connect](Part_JoinConnect/ru.md), [Embed](Part_JoinEmbed/ru.md), [Cutout](Part_JoinCutout/ru.md), [Part Boolean](Part_Boolean/ru.md), [Part Thickness](Part_Thickness/ru.md)
 ---
 
 # Part CompJoinFeatures/ru
@@ -31,4 +31,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/ru

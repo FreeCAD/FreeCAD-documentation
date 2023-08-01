@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Robot SetHomePos
-   Name/fr:Robot Position de départ
-   MenuLocation:Robot - Définir la position de départ
-   Workbenches:[Robot](Robot_Workbench/fr.md)
+   Name: Robot SetHomePos
+   Name/fr: Robot Position de départ
+   MenuLocation: Robot - Définir la position de départ
+   Workbenches: [Robot](Robot_Workbench/fr.md)
 ---
 
 # Robot SetHomePos/fr
@@ -40,4 +40,4 @@ Initialement, la position lorsque le robot est inséré dans la scène sera déf
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetHomePos/fr
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetHomePos/fr

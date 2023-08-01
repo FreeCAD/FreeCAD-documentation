@@ -2,7 +2,7 @@
 Dies ist eine umfangreiche, aber nicht vollständige Liste von Funktionen, die FreeCAD einführt.
 
 
-{{TOCright}}
+
 
 
 
@@ -98,4 +98,4 @@ Erfahrene Nutzer haben verschiedene [externe Arbeitsbereiche](External_workbench
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/de
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/de

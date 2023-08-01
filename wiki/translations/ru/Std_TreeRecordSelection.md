@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std TreeRecordSelection
-   Name/ru:Std TreeRecordSelection
-   MenuLocation:Вид - Дерево документа - Record selection
-   Workbenches:All
-   Shortcut:**T** **5**
+   Name: Std TreeRecordSelection
+   Name/ru: Std TreeRecordSelection
+   MenuLocation: Вид - Дерево документа - Record selection
+   Workbenches: All
+   Shortcut: **T** **5**
 ---
 
 # Std TreeRecordSelection/ru
@@ -38,4 +38,4 @@ The Tree view RecordSelection mode can also be set in the [Preferences editor](P
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeRecordSelection/ru
+⏵ [documentation index](../README.md) > Std TreeRecordSelection/ru

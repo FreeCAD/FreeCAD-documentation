@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign_Scaled
-   Name/fr:PartDesign Mise à l'échelle
-   MenuLocation:Aucune (option dans Part Design - Appliquer une transformation - Transformation multiple)
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso:[PartDesign Transformation multiple](PartDesign_MultiTransform/fr.md)
+   Name: PartDesign_Scaled
+   Name/fr: PartDesign Mise à l'échelle
+   MenuLocation: Aucune (option dans Part Design - Appliquer une transformation - Transformation multiple)
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso: [PartDesign Transformation multiple](PartDesign_MultiTransform/fr.md)
 ---
 
 # PartDesign Scaled/fr
@@ -77,4 +77,4 @@ S\'il n\'y a pas eu une transformation au préalable lors de la <img alt="" src=
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part_Sweep
-   Name/ru:Развёртка
-   MenuLocation:Деталь - Развёртка
-   Workbenches:[Верстак Part](Part_Workbench/ru.md)
-   SeeAlso:[Лофт](Part_Loft/ru.md)
+   Name: Part_Sweep
+   Name/ru: Развёртка
+   MenuLocation: Деталь - Развёртка
+   Workbenches: [Верстак Part](Part_Workbench/ru.md)
+   SeeAlso: [Лофт](Part_Loft/ru.md)
 ---
 
 # Part Sweep/ru
@@ -112,4 +112,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/ru

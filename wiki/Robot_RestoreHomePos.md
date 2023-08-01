@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Robot RestoreHomePos
-   MenuLocation:Robot - Restore home position
-   Workbenches:[Robot](Robot_Workbench.md)
+   Name: Robot RestoreHomePos
+   MenuLocation: Robot - Restore home position
+   Workbenches: [Robot](Robot_Workbench.md)
 ---
 
 # Robot RestoreHomePos
@@ -30,4 +30,4 @@ Lets the selected robot move to its home position.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos

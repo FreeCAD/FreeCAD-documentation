@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Remove
-   Name/de:Arch Entfernen
-   MenuLocation:Arch - Komponente entfernen
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   SeeAlso:[Arch Schnittlinie](Arch_CutLine/de.md), [Arch Schnittebene](Arch_CutPlane/de.md), [Arch Hinzufügen](Arch_Add/de.md)
+   Name: Arch Remove
+   Name/de: Arch Entfernen
+   MenuLocation: Arch - Komponente entfernen
+   Workbenches: [Arch](Arch_Workbench/de.md)
+   SeeAlso: [Arch Schnittlinie](Arch_CutLine/de.md), [Arch Schnittebene](Arch_CutPlane/de.md), [Arch Hinzufügen](Arch_Add/de.md)
 ---
 
 # Arch Remove/de
@@ -71,4 +71,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/de

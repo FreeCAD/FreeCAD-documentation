@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Robot CreateRobot
-   MenuLocation:Robot - Insert robot
-   Workbenches:[Robot](Robot_Workbench.md)
+   Name: Robot CreateRobot
+   MenuLocation: Robot - Insert robot
+   Workbenches: [Robot](Robot_Workbench.md)
 ---
 
 # Robot CreateRobot
@@ -48,4 +48,4 @@ The predefined robots are:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateRobot
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateRobot

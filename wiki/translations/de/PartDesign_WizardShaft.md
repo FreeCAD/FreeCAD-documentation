@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign WizardShaft
-   Name/de:PartDesign EntwurfsassistentWellen
-   MenuLocation:Part Design - Entwurfsassistent für Wellen...
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
+   Name: PartDesign WizardShaft
+   Name/de: PartDesign EntwurfsassistentWellen
+   MenuLocation: Part Design - Entwurfsassistent für Wellen...
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
 ---
 
 # PartDesign WizardShaft/de
@@ -84,4 +84,4 @@ Um ein neues Wellensegment hinzuzufügen, klickt man mit der rechten Maustaste i
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/de

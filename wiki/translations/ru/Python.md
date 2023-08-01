@@ -10,7 +10,7 @@
 ## Описание
 
 
-{{TOCright}}
+
 
 [Python](https://www.python.org) - это язык программирования высокого уровня, общего назначения, который очень часто используется в больших приложениях для автоматизации некоторых задач путем создания скриптов или [макросов](macros.md).
 
@@ -130,4 +130,4 @@ Structure = Arch.make_structure(Wire, name="Big pillar")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [API](Category_API.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Python/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [API](Category_API.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Python/ru

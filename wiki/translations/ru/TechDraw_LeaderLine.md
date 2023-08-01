@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Добавить Линию-выноску в Вид
-   Name:TechDraw_LeaderLine
-   MenuLocation:TechDraw - Добавить Линии - Добавить Линию-выноску в Вид
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Вставка аннотаций форматированным текстом](TechDraw_RichTextAnnotation/ru.md), [Добавить информацию о сварке в указательную линию](TechDraw_WeldSymbol/ru.md), [Группы линий](TechDraw_LineGroup/ru.md)
+   Name/ru: Добавить Линию-выноску в Вид
+   Name: TechDraw_LeaderLine
+   MenuLocation: TechDraw - Добавить Линии - Добавить Линию-выноску в Вид
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Вставка аннотаций форматированным текстом](TechDraw_RichTextAnnotation/ru.md), [Добавить информацию о сварке в указательную линию](TechDraw_WeldSymbol/ru.md), [Группы линий](TechDraw_LineGroup/ru.md)
 ---
 
 # TechDraw LeaderLine/ru
@@ -146,4 +146,4 @@ leaderObj.Y = 5
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LeaderLine/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LeaderLine/ru

@@ -338,4 +338,4 @@ Miłego dołączania!
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Basic Attachment Tutorial/pl
+⏵ [documentation index](../README.md) > Basic Attachment Tutorial/pl

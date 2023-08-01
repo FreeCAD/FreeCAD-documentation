@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Ifcopenshell
+⏵ [documentation index](../README.md) > Ifcopenshell

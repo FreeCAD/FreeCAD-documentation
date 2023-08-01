@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw LandmarkDimension
-   Name/it:Quota da punti di riferimento
-   MenuLocation:TechDraw - Quota da punti di riferimento
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Dimensione orizzontale](TechDraw_HorizontalDimension/it.md), [Dimensione verticale](TechDraw_VerticalDimension/it.md)
-   Version:0.19
+   Name: TechDraw LandmarkDimension
+   Name/it: Quota da punti di riferimento
+   MenuLocation: TechDraw - Quota da punti di riferimento
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso: [Dimensione orizzontale](TechDraw_HorizontalDimension/it.md), [Dimensione verticale](TechDraw_VerticalDimension/it.md)
+   Version: 0.19
 ---
 
 # TechDraw LandmarkDimension/it
@@ -120,4 +120,4 @@ rc = page.addView(dim1)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LandmarkDimension/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LandmarkDimension/it

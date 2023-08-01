@@ -1,6 +1,4 @@
 # Arch IFC/de
-{{TOCright}}
-
 ## Beschreibung
 
 Die <img alt="" src=images/Workbench_Arch.svg  style="width:24px;">[Arch](Arch_Workbench/de.md) und <img alt="" src=images/Workbench_BIM.svg  style="width:24px;">[Arbeitsbereich Bauwerksdatenmodellierung](BIM_Workbench/de.md) (engl. Building Information Modeling (kurz: BIM)) bietet einen [Industry Foundation Classes (IFC)](https://de.wikipedia.org/wiki/Industry_Foundation_Classes) Importeur und Exporteur. Das IFC Format ist ein ständig wachsendes, weit verbreitetes Format für den Datenaustausch zwischen [BIM](https://de.wikipedia.org/wiki/Building_Information_Modeling) (Bauwerksdatenmodellierung) Anwendungen, das in der Architektur und im Ingenieurwesen verwendet wird.
@@ -68,4 +66,4 @@ Wenn die Form der exportierten Objekte auf einer Extrusion oder einer booleschen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch IFC/de
+⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch IFC/de

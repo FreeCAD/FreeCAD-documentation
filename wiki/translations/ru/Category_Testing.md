@@ -12,4 +12,4 @@ Pages related to testing in regards to unit testing, continuous integration, qua
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Testing/ru
+⏵ [documentation index](../README.md) > Category:Testing/ru

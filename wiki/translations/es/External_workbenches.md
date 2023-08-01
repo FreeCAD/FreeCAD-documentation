@@ -1,8 +1,4 @@
 # External workbenches/es
-{{TOCright}}
-
-
-
 ## Introducción
 
 [Ambientes de trabajo externos](External_workbenches/es.md) son aquellos creados por usuarios poderosos que no han sido integrados en el código fuente principal de FreeCAD.
@@ -337,4 +333,4 @@ Ver la página wiki para más información [Traducir un ambiente de trabajo exte
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External_Workbenches](Category_External_Workbenches.md) > External workbenches/es
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External_Workbenches](Category_External_Workbenches.md) > External workbenches/es

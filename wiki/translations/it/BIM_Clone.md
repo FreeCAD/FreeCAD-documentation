@@ -1,11 +1,11 @@
 ---
 - GuiCommand:Addon/it
-   Name:BIM Clone
-   Name/it:Clone
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/it.md)
-   Addon:BIM
-   MenuLocation:Modifica - Copia
-   SeeAlso:[Clone di Draft](Draft_Clone/it.md)
+   Name: BIM Clone
+   Name/it: Clone
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/it.md)
+   Addon: BIM
+   MenuLocation: Modifica - Copia
+   SeeAlso: [Clone di Draft](Draft_Clone/it.md)
 ---
 
 # BIM Clone/it
@@ -17,4 +17,4 @@ Lo strumento Clone di BIM è una scorciatoia allo strumento standard [Clone](Dra
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Clone/it
+⏵ [documentation index](../README.md) > BIM Clone/it

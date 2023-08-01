@@ -5,7 +5,7 @@
 
 
 
-{{TOCright}}
+
 
 
 
@@ -149,4 +149,4 @@ You can find the attached directories in the `/mnt` directory.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > Compile on Docker/ru
+⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > Compile on Docker/ru

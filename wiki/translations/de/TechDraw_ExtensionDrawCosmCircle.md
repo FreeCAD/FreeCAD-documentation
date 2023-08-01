@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionDrawCosmCircle
-   Name/de:TechDraw ErgänzungHilfskreisZeichnen
-   MenuLocation:TechDraw - Ergänzungen: Mittellinien/Gewinde - Hilfskreis hinzufügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ErgänzungHilfsbogenZeichnen](TechDraw_ExtensionDrawCosmArc/de.md)
+   Name: TechDraw ExtensionDrawCosmCircle
+   Name/de: TechDraw ErgänzungHilfskreisZeichnen
+   MenuLocation: TechDraw - Ergänzungen: Mittellinien/Gewinde - Hilfskreis hinzufügen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ErgänzungHilfsbogenZeichnen](TechDraw_ExtensionDrawCosmArc/de.md)
 ---
 
 # TechDraw ExtensionDrawCosmCircle/de
@@ -55,4 +55,4 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle.svg  style=
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDrawCosmCircle/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDrawCosmCircle/de

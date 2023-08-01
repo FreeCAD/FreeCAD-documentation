@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Near
-   Name/it:Vicino a
-   MenuLocation:Draft - [Aggancio](Draft_Snap/it.md) - Vicino
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
+   Name: Draft Snap Near
+   Name/it: Vicino a
+   MenuLocation: Draft - [Aggancio](Draft_Snap/it.md) - Vicino
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: [Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
 ---
 
 # Draft Snap Near/it
@@ -80,4 +80,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Near/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Near/it

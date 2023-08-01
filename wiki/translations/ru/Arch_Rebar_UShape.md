@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:U-Образная арматура
-   Name:Arch_Rebar_UShape
-   MenuLocation:Arch - Rebar tools - U-Shape Rebar<br>3D/BIM - Reinforcement tools - U-Shape Rebar
-   Workbenches:[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [L-Образная арматура](Arch_Rebar_LShape/ru.md)
+   Name/ru: U-Образная арматура
+   Name: Arch_Rebar_UShape
+   MenuLocation: Arch - Rebar tools - U-Shape Rebar<br>3D/BIM - Reinforcement tools - U-Shape Rebar
+   Workbenches: [Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [L-Образная арматура](Arch_Rebar_LShape/ru.md)
 ---
 
 # Arch Rebar UShape/ru
@@ -188,4 +188,4 @@ UShapeRebar.editUShapeRebar(Rebar2, 70, 50, 20, 20,
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar UShape/ru
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar UShape/ru

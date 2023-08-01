@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Edit
-   Name/es:Borrador Edición
-   MenuLocation:Modificación - Editar<br>Utilidades - Editar
-   Workbenches:[Borrador](Draft_Workbench/es.md), [Arquirectura](Arch_Workbench/es.md)
-   Shortcut:**D** **E**
-   SeeAlso:[Std Edición](Std_Edit/es.md)
+   Name: Draft Edit
+   Name/es: Borrador Edición
+   MenuLocation: Modificación - Editar<br>Utilidades - Editar
+   Workbenches: [Borrador](Draft_Workbench/es.md), [Arquirectura](Arch_Workbench/es.md)
+   Shortcut: **D** **E**
+   SeeAlso: [Std Edición](Std_Edit/es.md)
 ---
 
 # Draft Edit/es
@@ -274,4 +274,4 @@ No hay ningún método en Python para editar borradores de objetos. Para emular 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/es

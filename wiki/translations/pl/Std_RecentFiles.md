@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std RecentFiles
-   Name/pl:Std: Ostatnio używane pliki
-   Empty:1
-   MenuLocation:Plik - Ostatnio używane pliki
-   Workbenches:wszystkie
-   SeeAlso:[Otwórz](Std_Open/pl.md), [Importuj](Std_Import/pl.md)
+   Name: Std RecentFiles
+   Name/pl: Std: Ostatnio używane pliki
+   Empty: 1
+   MenuLocation: Plik - Ostatnio używane pliki
+   Workbenches: wszystkie
+   SeeAlso: [Otwórz](Std_Open/pl.md), [Importuj](Std_Import/pl.md)
 ---
 
 # Std RecentFiles/pl
@@ -39,4 +39,4 @@ Opcja menu **Ostatnio używane pliki** wyświetla listę poprzednich plików, kt
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std RecentFiles/pl
+⏵ [documentation index](../README.md) > Std RecentFiles/pl

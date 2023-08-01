@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintLengthEqualPointLineDistance
-   Icon:Assembly_ConstraintLengthEqualPointLineDistance.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintLengthEqualPointLineDistance
+   Icon: Assembly_ConstraintLengthEqualPointLineDistance.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintLengthEqualPointLineDistance/pl
@@ -30,4 +30,4 @@ The length value of the first selected line equals the shortest distance between
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLengthEqualPointLineDistance/pl
+⏵ [documentation index](../README.md) > Assembly3 ConstraintLengthEqualPointLineDistance/pl

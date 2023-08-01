@@ -17,7 +17,7 @@ FreeCAD este în primul rând o aplicație de modelare 3D și, prin urmare, nu a
 </div>
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/TechDraw_Workbench_Example.png  style="width:600px;">
 
@@ -552,4 +552,4 @@ Do you want to know about the future of the TechDraw Workbench? Visit [the TechD
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/ro
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/ro

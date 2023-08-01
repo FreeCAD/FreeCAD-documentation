@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:EM FHEquiv
-   Name/it:EM FHEquiv
-   MenuLocation:EM - FHEquiv
-   Workbenches:[EM](EM_Workbench/it.md) (add-on)
-   Shortcut:**E** **E**
-   SeeAlso:[EM FHNode](EM_FHNode/it.md), [EM FHSegment](EM_FHSegment/it.md), [EM FHPath](EM_FHPath/it.md), [EM FHPlane](EM_FHPlane/it.md), [EM FHPort](EM_FHPort/it.md),
-   Version:0.17
+   Name: EM FHEquiv
+   Name/it: EM FHEquiv
+   MenuLocation: EM - FHEquiv
+   Workbenches: [EM](EM_Workbench/it.md) (add-on)
+   Shortcut: **E** **E**
+   SeeAlso: [EM FHNode](EM_FHNode/it.md), [EM FHSegment](EM_FHSegment/it.md), [EM FHPath](EM_FHPath/it.md), [EM FHPlane](EM_FHPlane/it.md), [EM FHPort](EM_FHPort/it.md),
+   Version: 0.17
 ---
 
 # EM FHEquiv/it
@@ -86,4 +86,4 @@ fhequiv = EM.makeFHEquiv(fhnode1, fhnode2)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [EM](Category_EM.md) > EM FHEquiv/it
+⏵ [documentation index](../README.md) > [EM](Category_EM.md) > EM FHEquiv/it

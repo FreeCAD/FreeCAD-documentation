@@ -2,7 +2,7 @@
 **Chociaż witamy i zachęcamy do rozwoju i uczestnictwa wśród społeczności, żądania, emocjonalne tyrady i dzikie roszczenia są ogólnie słabo odbierane, ponieważ nasza społeczność składa się z wielu doświadczonych i pełnych pasji zwolenników FreeCAD, którzy wielokrotnie słyszeli podobne oświadczenia. Jeśli zauważysz brak jakiejś funkcji lub coś, co Cię denerwuje, gorąco zachęcamy do rozważenia zaangażowania się w sam kod. FreeCAD jest w dużej mierze rozwijany przez stosunkowo niewielką grupę utalentowanych ludzi, którzy mają pracę dzienną, rodziny i inne zainteresowania poza programowaniem na żądanie. Jeśli masz umiejętności ''(Python / C++)'' i motywację do udziału, Twój wkład może sprawić, że FreeCAD będzie jeszcze lepszy niż obecnie. Możesz znaleźć śledzone błędy / prośby o funkcje na stronie [https://github.com/FreeCAD/FreeCAD/issues zgłoszenia].**
 
 
-{{TOCright}}
+
 
 ## Przeznaczenie
 
@@ -93,4 +93,4 @@ OpenCascade *(OCC / OCCT)* jest podstawową zewnętrzną zależnością jądra C
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD Managing Expectations/pl
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD Managing Expectations/pl

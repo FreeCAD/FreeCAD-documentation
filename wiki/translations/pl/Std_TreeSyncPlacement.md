@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreeSyncPlacement
-   Name/pl:Std: Synchronizuj położenie w widoku drzewa
-   MenuLocation:Widok - Akcje widoku drzewa - Synchronizuj położenie
-   Workbenches:wszystkie
-   Shortcut:**T** **3**
-   Version:0.19
+   Name: Std TreeSyncPlacement
+   Name/pl: Std: Synchronizuj położenie w widoku drzewa
+   MenuLocation: Widok - Akcje widoku drzewa - Synchronizuj położenie
+   Workbenches: wszystkie
+   Shortcut: **T** **3**
+   Version: 0.19
 ---
 
 # Std TreeSyncPlacement/pl
@@ -36,4 +36,4 @@ Tryb Synchronizuj położenie w Widoku drzewa jest zapisywany: **Przybory → Ed
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSyncPlacement/pl
+⏵ [documentation index](../README.md) > Std TreeSyncPlacement/pl

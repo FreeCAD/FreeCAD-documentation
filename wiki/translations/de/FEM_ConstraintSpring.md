@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintSpring
-   Name/de:FEM RandbedingungFeder
-   MenuLocation:Modell - Mechanische Randbedingungen - Randbedingung Feder
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:
+   Name: FEM ConstraintSpring
+   Name/de: FEM RandbedingungFeder
+   MenuLocation: Modell - Mechanische Randbedingungen - Randbedingung Feder
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: 
 ---
 
 # FEM ConstraintSpring/de
@@ -40,4 +40,4 @@ Defines a spring boundary condition to be used for mechanical analyses using the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSpring/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSpring/de

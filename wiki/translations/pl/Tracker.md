@@ -1,7 +1,4 @@
 # Tracker/pl
-{{TOCright}}
-
-
 **W lutym 2022 roku śledzenie błędów FreeCAD zostało przeniesione na GitHub Issues pod adresem https://github.com/FreeCAD/FreeCAD/issues. Opisany poniżej bug tracker Mantis jest obecnie w trybie tylko do odczytu.**
 
 ![](images/Mantis_logo_262x90.png )
@@ -174,4 +171,4 @@ Dla dociekliwych: mamy tu zastosowanie wyrażenia regularnego MantisBT do tej op
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Tracker/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Tracker/pl

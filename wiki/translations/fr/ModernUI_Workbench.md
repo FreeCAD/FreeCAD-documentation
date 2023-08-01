@@ -4,7 +4,7 @@
 <img alt="Icône de l\'atelier ModernUI" src=images/ModernUI_workbench_icon.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -84,4 +84,4 @@ La séquence de désinstallation est la suivante :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > ModernUI Workbench/fr
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > ModernUI Workbench/fr

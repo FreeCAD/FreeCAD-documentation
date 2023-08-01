@@ -10,4 +10,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Formats
+⏵ [documentation index](../README.md) > Category:Formats

@@ -1,7 +1,7 @@
 # <img alt="Ikonka FreeCAD dla środowiska pracy Zbrojenie" src=images/Reinforcement_Workbench.svg  style="width:64px;"> Reinforcement Workbench/pl
 
 
-{{TOCright}}
+
 
 ## Wprowadzenie
 
@@ -58,4 +58,4 @@ Image:Arch_Rebar_Straight_example.png\|[Pręty zbrojeniowe proste](Arch_Rebar_St
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [Reinforcement](Category_Reinforcement.md) > Reinforcement Workbench/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [Reinforcement](Category_Reinforcement.md) > Reinforcement Workbench/pl

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateLine
-   Name/de:Sketcher LinieErstellen
-   MenuLocation:Sketch - Skizzengeometrien - Linie erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:L
-   SeeAlso:[Sketcher LinienzugErstellen](Sketcher_CreatePolyline/de.md)
+   Name: Sketcher CreateLine
+   Name/de: Sketcher LinieErstellen
+   MenuLocation: Sketch - Skizzengeometrien - Linie erstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: L
+   SeeAlso: [Sketcher LinienzugErstellen](Sketcher_CreatePolyline/de.md)
 ---
 
 # Sketcher CreateLine/de
@@ -38,4 +38,4 @@ Das erzeugte Linienobjekt beginnt und endet an den gegebenen Punkten, aber die L
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/de

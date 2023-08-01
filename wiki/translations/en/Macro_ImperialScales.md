@@ -173,4 +173,4 @@ dlg.show()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro ImperialScales/en
+⏵ [documentation index](../README.md) > Macro ImperialScales/en

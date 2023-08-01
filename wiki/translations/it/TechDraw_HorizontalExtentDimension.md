@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw Dimension Horizontal Extent
-   Name/it:Estensione orizzontale
-   MenuLocation:TechDraw - Estensione orizzontale
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Lunghezza](TechDraw_LengthDimension/it.md), [Estensione verticale](TechDraw_VerticalExtentDimension/it.md)
+   Name: TechDraw Dimension Horizontal Extent
+   Name/it: Estensione orizzontale
+   MenuLocation: TechDraw - Estensione orizzontale
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso: [Lunghezza](TechDraw_LengthDimension/it.md), [Estensione verticale](TechDraw_VerticalExtentDimension/it.md)
 ---
 
 # TechDraw HorizontalExtentDimension/it
@@ -125,4 +125,4 @@ App.ActiveDocument.DimExtent001.FormatSpec = '%.0f'
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HorizontalExtentDimension/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HorizontalExtentDimension/it

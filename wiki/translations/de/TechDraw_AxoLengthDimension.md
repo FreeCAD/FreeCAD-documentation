@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw AxoLengthDimension
-   Name/de:TechDraw AxonometrischesLängenmaß
-   MenuLocation:TechDraw - Maßeinträge - Axonometrisches Längenmaß
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.21
+   Name: TechDraw AxoLengthDimension
+   Name/de: TechDraw AxonometrischesLängenmaß
+   MenuLocation: TechDraw - Maßeinträge - Axonometrisches Längenmaß
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Version: 0.21
 ---
 
 # TechDraw AxoLengthDimension/de
@@ -93,4 +93,4 @@ Um die Eigenschaften eines Maßes (Dimension-Objekt) zu ändern, wird es in der 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw AxoLengthDimension/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw AxoLengthDimension/de

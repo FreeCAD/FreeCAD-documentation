@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreeMultiDocument
-   Name/fr:Std Arborescence Plusieurs documents
-   MenuLocation:Affichage - Vue en arborescence - Document multiple
-   Workbenches:Tous
-   Version:0.19
-   SeeAlso:[Std Arborescence Document unique](Std_TreeSingleDocument/fr.md), [Std Arborescence Réduire développer](Std_TreeCollapseDocument/fr.md)
+   Name: Std TreeMultiDocument
+   Name/fr: Std Arborescence Plusieurs documents
+   MenuLocation: Affichage - Vue en arborescence - Document multiple
+   Workbenches: Tous
+   Version: 0.19
+   SeeAlso: [Std Arborescence Document unique](Std_TreeSingleDocument/fr.md), [Std Arborescence Réduire développer](Std_TreeCollapseDocument/fr.md)
 ---
 
 # Std TreeMultiDocument/fr
@@ -39,4 +39,4 @@ Le mode Document de l\'arborescence est enregistré: **Outils → Éditer les pa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeMultiDocument/fr
+⏵ [documentation index](../README.md) > Std TreeMultiDocument/fr

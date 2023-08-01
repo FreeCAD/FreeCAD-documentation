@@ -1,7 +1,7 @@
 # <img alt="Ícone da bancada de trabalho Mesh" src=images/Workbench_Mesh.svg  style="width:64px;"> Mesh Workbench/pt-br
 
 
-{{TOCright}}
+
 
 
 
@@ -151,4 +151,4 @@ As preferências da Bancada de Trabalho Mesh podem ser encontradas nas seguintes
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Mesh](Category_Mesh.md) > Mesh Workbench/pt-br
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Mesh](Category_Mesh.md) > Mesh Workbench/pt-br

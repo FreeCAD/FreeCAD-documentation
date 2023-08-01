@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch BuildingPart
-   Name/ro:Arch BuildingPart
-   MenuLocation:Arch - BuildingPart
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   Shortcut:
-   SeeAlso:[[Arch Building]], [[Arch Floor]]
+   Name: Arch BuildingPart
+   Name/ro: Arch BuildingPart
+   MenuLocation: Arch - BuildingPart
+   Workbenches: [Arch](Arch_Workbench/ro.md)
+   Shortcut: 
+   SeeAlso: [[Arch Building]], [[Arch Floor]]
 ---
 
 # Arch BuildingPart/ro
@@ -311,4 +311,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch BuildingPart/ro
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch BuildingPart/ro

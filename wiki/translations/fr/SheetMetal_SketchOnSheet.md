@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:SheetMetal SketchOnSheet
-   Name/fr:SheetMetal Perçage de paroi
-   MenuLocation:SheetMetal - Sketch On Sheet metal
-   Workbenches:[SheetMetal](SheetMetal_Workbench/fr.md)
-   Shortcut:**M** **S**
+   Name: SheetMetal SketchOnSheet
+   Name/fr: SheetMetal Perçage de paroi
+   MenuLocation: SheetMetal - Sketch On Sheet metal
+   Workbenches: [SheetMetal](SheetMetal_Workbench/fr.md)
+   Shortcut: **M** **S**
 ---
 
 # SheetMetal SketchOnSheet/fr
@@ -107,4 +107,4 @@ Ce bidule est constitué d\'un objet en tôle pliée auquel on a ajouté des tro
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal SketchOnSheet/fr
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal SketchOnSheet/fr

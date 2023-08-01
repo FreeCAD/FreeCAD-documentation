@@ -43,4 +43,4 @@ Easy
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > Extend Part workbench python API
+⏵ [documentation index](../README.md) > [API](Category_API.md) > Extend Part workbench python API

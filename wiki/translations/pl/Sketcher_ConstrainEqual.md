@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainEqual
-   Name/pl:Szkicownik: Wiązanie równości
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   MenuLocation:Szkic - Wiązania szkicownika - Wiązanie równości
-   Shortcut:**E**
-   SeeAlso:[Wiązanie kąta](Sketcher_ConstrainRadius/pl.md)
+   Name: Sketcher ConstrainEqual
+   Name/pl: Szkicownik: Wiązanie równości
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   MenuLocation: Szkic - Wiązania szkicownika - Wiązanie równości
+   Shortcut: **E**
+   SeeAlso: [Wiązanie kąta](Sketcher_ConstrainRadius/pl.md)
 ---
 
 # Sketcher ConstrainEqual/pl
@@ -76,4 +76,4 @@ Strona [skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainEqual/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainEqual/pl

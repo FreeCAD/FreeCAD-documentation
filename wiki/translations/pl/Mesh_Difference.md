@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh Difference
-   Name/pl:Siatka Różnica
-   MenuLocation:Siatki - Operacje logiczne - Różnica
-   Workbenches:[Siatka](Mesh_Workbench/pl.md)
-   SeeAlso:[Połączenie](Mesh_Union/pl.md), [Przecięcie](Mesh_Intersection/pl.md)
+   Name: Mesh Difference
+   Name/pl: Siatka Różnica
+   MenuLocation: Siatki - Operacje logiczne - Różnica
+   Workbenches: [Siatka](Mesh_Workbench/pl.md)
+   SeeAlso: [Połączenie](Mesh_Union/pl.md), [Przecięcie](Mesh_Intersection/pl.md)
 ---
 
 # Mesh Difference/pl
@@ -41,4 +41,4 @@ Zapoznaj się z informacjami na stronie: [cecha siatki](Mesh_Feature/pl.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Difference/pl
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Difference/pl

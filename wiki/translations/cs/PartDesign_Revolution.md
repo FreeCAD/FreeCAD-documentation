@@ -1,6 +1,6 @@
 # PartDesign Revolution/cs
 ---
-- GuiCommand:   Name:PartDesign_Revolution   Name/cs:Návrh dílu Obtáčení   Workbenches:[[PartDesign Workbench/cs   Návrh dílu]], Kompletace|MenuLocation:Návrh dílu -> Obtáčení---
+- GuiCommand:   Name: PartDesign_Revolution   Name/cs: Návrh dílu Obtáčení   Workbenches: [[PartDesign Workbench/cs   Návrh dílu]], Kompletace|MenuLocation: Návrh dílu -> Obtáčení---
 
 
 </div>
@@ -128,4 +128,4 @@ Below are properties which can be defined after creation of the feature. Data pr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/cs
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/cs

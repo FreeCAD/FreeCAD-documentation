@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std_ViewIvStereoOff
-   Name/ru:Выключить стерео
-   MenuLocation:Вид - Стерео - View - Выключить стерео
-   SeeAlso:[Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen/ru.md), [Std ViewIvStereoQuadBuff](Std_ViewIvStereoQuadBuff/ru.md), [Std ViewIvStereoInterleavedRows](Std_ViewIvStereoInterleavedRows/ru.md), [Std ViewIvStereoInterleavedColumns](Std_ViewIvStereoInterleavedColumns/ru.md)
+   Name: Std_ViewIvStereoOff
+   Name/ru: Выключить стерео
+   MenuLocation: Вид - Стерео - View - Выключить стерео
+   SeeAlso: [Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen/ru.md), [Std ViewIvStereoQuadBuff](Std_ViewIvStereoQuadBuff/ru.md), [Std ViewIvStereoInterleavedRows](Std_ViewIvStereoInterleavedRows/ru.md), [Std ViewIvStereoInterleavedColumns](Std_ViewIvStereoInterleavedColumns/ru.md)
 ---
 
 # Std ViewIvStereoOff/ru
@@ -44,4 +44,4 @@ FreeCADGui.ActiveDocument.ActiveView.getStereoType()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewIvStereoOff/ru
+⏵ [documentation index](../README.md) > Std ViewIvStereoOff/ru

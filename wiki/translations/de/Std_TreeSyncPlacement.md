@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreeSyncPlacement
-   Name/de:Std BaumSyncPosition
-   MenuLocation:Ansicht - Baumansicht-Aktionen - Sync-Platzierung
-   Workbenches:Alle
-   Shortcut:**T** **3**
-   Version:0.19
+   Name: Std TreeSyncPlacement
+   Name/de: Std BaumSyncPosition
+   MenuLocation: Ansicht - Baumansicht-Aktionen - Sync-Platzierung
+   Workbenches: Alle
+   Shortcut: **T** **3**
+   Version: 0.19
 ---
 
 # Std TreeSyncPlacement/de
@@ -42,4 +42,4 @@ Die Einstellung Sync-Position der Baumansicht wird gespeichert: **Werkzeuge → 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSyncPlacement/de
+⏵ [documentation index](../README.md) > Std TreeSyncPlacement/de

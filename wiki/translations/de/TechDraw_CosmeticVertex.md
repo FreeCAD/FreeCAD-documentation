@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw CosmeticVertex
-   Name/de:TechDraw Hilfspunkt
-   MenuLocation:TechDraw - Knoten hinzufügen - Hilfspunkt hinzufügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[TechDraw Mittenpunkt](TechDraw_Midpoints/de.md), [TechDraw Quadrant](TechDraw_Quadrants/de.md)
+   Name: TechDraw CosmeticVertex
+   Name/de: TechDraw Hilfspunkt
+   MenuLocation: TechDraw - Knoten hinzufügen - Hilfspunkt hinzufügen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [TechDraw Mittenpunkt](TechDraw_Midpoints/de.md), [TechDraw Quadrant](TechDraw_Quadrants/de.md)
 ---
 
 # TechDraw CosmeticVertex/de
@@ -79,4 +79,4 @@ dvp.makeCosmeticLine(start,end,style, weight, pyGreen)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticVertex/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticVertex/de

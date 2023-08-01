@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintAttachmentOffset
-   Name/fr:Assembly3 Contrainte décalage d'accrochage
-   Icon:Assembly_ConstraintAttachmentOffset.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 ConstraintAttachmentOffset
+   Name/fr: Assembly3 Contrainte décalage d'accrochage
+   Icon: Assembly_ConstraintAttachmentOffset.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintAttachmentOffset/fr
@@ -24,4 +24,4 @@ Ce lien ne laisse aucun degré de liberté (DOF) sans contrainte.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintAttachmentOffset/fr
+⏵ [documentation index](../README.md) > Assembly3 ConstraintAttachmentOffset/fr

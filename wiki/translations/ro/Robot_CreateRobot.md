@@ -1,6 +1,6 @@
 # Robot CreateRobot/ro
 ---
-- GuiCommand:   Name:Robot CreateRobot   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot - Insert robot---
+- GuiCommand:   Name: Robot CreateRobot   Workbenches: [[Robot_Workbench   Robot]]|MenuLocation: Robot - Insert robot---
 
 
 </div>
@@ -80,4 +80,4 @@ Roboții predefiniți sunt:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateRobot/ro
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateRobot/ro

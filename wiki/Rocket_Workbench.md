@@ -60,4 +60,4 @@ Components created using the Rocket Workbench are essentially parts similar to w
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Workbench
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Workbench

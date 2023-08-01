@@ -175,4 +175,4 @@ If you have trouble to select features hiding part of the model can help. To hid
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/ru
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/ru

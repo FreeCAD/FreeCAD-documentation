@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintHeatflux
-   Name/fr:FEM Contrainte de flux de chaleur
-   MenuLocation:Modèle - Contraintes thermiques - Contrainte de flux de chaleur
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM ConstraintHeatflux
+   Name/fr: FEM Contrainte de flux de chaleur
+   MenuLocation: Modèle - Contraintes thermiques - Contrainte de flux de chaleur
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM ConstraintHeatflux/fr
@@ -37,4 +37,4 @@ Cette contrainte spécifie l\'échange de chaleur (transfert de chaleur par film
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintHeatflux/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintHeatflux/fr

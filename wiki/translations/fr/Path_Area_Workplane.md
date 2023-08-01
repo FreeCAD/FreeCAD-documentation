@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path Area Workplane
-   Name/fr:Path Zone de travail plane
-   MenuLocation:Path - Plan de travail de la zone
-   Workbenches:[Path](Path_Workbench/fr.md)
+   Name: Path Area Workplane
+   Name/fr: Path Zone de travail plane
+   MenuLocation: Path - Plan de travail de la zone
+   Workbenches: [Path](Path_Workbench/fr.md)
 ---
 
 # Path Area Workplane/fr
@@ -55,4 +55,4 @@ Exemple:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Area Workplane/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Area Workplane/fr

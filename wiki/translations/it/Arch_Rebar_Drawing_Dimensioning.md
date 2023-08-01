@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch_Rebar_Drawing_Dimensioning
-   Name/it:Disegna e quota un'armatura
-   MenuLocation:Arch - Armatura
-   Workbenches:[Reinforcement](Reinforcement_Workbench/it.md), [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   SeeAlso:[Distinta dei ferri](Arch_Rebar_BOM/it.md), [Sagomatura dei ferri](Reinforcement_Bar_Shape_Cut_List/it.md)
-   Version:0.19
+   Name: Arch_Rebar_Drawing_Dimensioning
+   Name/it: Disegna e quota un'armatura
+   MenuLocation: Arch - Armatura
+   Workbenches: [Reinforcement](Reinforcement_Workbench/it.md), [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   SeeAlso: [Distinta dei ferri](Arch_Rebar_BOM/it.md), [Sagomatura dei ferri](Reinforcement_Bar_Shape_Cut_List/it.md)
+   Version: 0.19
 ---
 
 # Arch Rebar Drawing Dimensioning/it
@@ -1106,4 +1106,4 @@ for visible_rebar in visible_rebars:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Drawing Dimensioning/it
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Drawing Dimensioning/it

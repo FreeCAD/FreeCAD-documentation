@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainAngle
-   MenuLocation:Sketch - Sketcher constraints - Constrain angle
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**K** **A**
-   SeeAlso:[Sketcher Constrain distance](Sketcher_ConstrainDistance.md), [Sketcher Constraint Perpendicular](Sketcher_ConstrainPerpendicular.md)
+   Name: Sketcher ConstrainAngle
+   MenuLocation: Sketch - Sketcher constraints - Constrain angle
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **K** **A**
+   SeeAlso: [Sketcher Constrain distance](Sketcher_ConstrainDistance.md), [Sketcher Constraint Perpendicular](Sketcher_ConstrainPerpendicular.md)
 ---
 
 # Sketcher ConstrainAngle
@@ -108,4 +108,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle

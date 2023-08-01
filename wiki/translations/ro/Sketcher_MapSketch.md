@@ -1,6 +1,6 @@
 # Sketcher MapSketch/ro
 ---
-- GuiCommand:   Name:Sketcher MapSketch   Create a sketch on a face|Workbenches:[PartDesign](Sketcher_Workbench___Sketcher]],_[[PartDesign_Workbench.md)|MenuLocation:Part Design/Sketch - Map sketch to face...   SeeAlso:[Create a new sketch](Sketcher_NewSketch.md)---
+- GuiCommand:   Name: Sketcher MapSketch   Create a sketch on a face|Workbenches: [PartDesign](Sketcher_Workbench___Sketcher]],_[[PartDesign_Workbench.md)|MenuLocation: Part Design/Sketch - Map sketch to face...   SeeAlso: [Create a new sketch](Sketcher_NewSketch.md)---
 
 
 </div>
@@ -84,4 +84,4 @@ Acum, selectăm fața superioară a Plăcii și apoi selectăm instrumentul Map 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/ro

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionPosHorizChainDimension
-   Name/pl:Rysunek Techniczny: Ułóż poziomą serię wymiarów
-   MenuLocation:Rysunek Techniczny - Rozszerzenia: Atrybuty / Modyfikatory - Ułóż poziomą serię wymiarów
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[Ułóż pionową serię wymiarów](TechDraw_ExtensionPosVertChainDimension/pl.md), [Ułóż ukośną serię wymiarów](TechDraw_ExtensionPosObliqueChainDimension/pl.md)
+   Name: TechDraw ExtensionPosHorizChainDimension
+   Name/pl: Rysunek Techniczny: Ułóż poziomą serię wymiarów
+   MenuLocation: Rysunek Techniczny - Rozszerzenia: Atrybuty / Modyfikatory - Ułóż poziomą serię wymiarów
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [Ułóż pionową serię wymiarów](TechDraw_ExtensionPosVertChainDimension/pl.md), [Ułóż ukośną serię wymiarów](TechDraw_ExtensionPosObliqueChainDimension/pl.md)
 ---
 
 # TechDraw ExtensionPosHorizChainDimension/pl
@@ -48,4 +48,4 @@ Narzędzie **Ułóż poziomą serię wymiarów** wyrównuje wymiary poziome w ce
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPosHorizChainDimension/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPosHorizChainDimension/pl

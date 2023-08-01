@@ -1,6 +1,6 @@
 # FEM EquationElectrostatic/it
 ---
-- GuiCommand:   Name:FEM_EquationElectrostatic   Name/it:Equazione elettrostatica   Icon:Fem-equation-electrostatic.svg   MenuLocation: Solve - Equazione elettrostatica   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:   Name: FEM_EquationElectrostatic   Name/it: Equazione elettrostatica   Icon: Fem-equation-electrostatic.svg   MenuLocation:  Solve - Equazione elettrostatica   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 
 </div>
@@ -84,4 +84,4 @@ The possible results are:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElectrostatic/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElectrostatic/it

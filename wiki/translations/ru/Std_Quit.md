@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Quit
-   Name/ru:Std Quit
-   MenuLocation:Файл - Выход
-   Workbenches:All
-   Shortcut:**Alt**+**F4**
-   SeeAlso:[Std Open](Std_Open/ru.md)
+   Name: Std Quit
+   Name/ru: Std Quit
+   MenuLocation: Файл - Выход
+   Workbenches: All
+   Shortcut: **Alt**+**F4**
+   SeeAlso: [Std Open](Std_Open/ru.md)
 ---
 
 # Std Quit/ru
@@ -46,4 +46,4 @@ The **Std Quit** command closes the FreeCAD application and optionally saves uns
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Quit/ru
+⏵ [documentation index](../README.md) > Std Quit/ru

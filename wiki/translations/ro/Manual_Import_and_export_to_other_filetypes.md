@@ -57,4 +57,4 @@ Unele dintre aceste formate de fișiere au opțiuni. Acestea pot fi configurate 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Tutorials](Category_Tutorials.md) > Manual:Import and export to other filetypes/ro
+⏵ [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Tutorials](Category_Tutorials.md) > Manual:Import and export to other filetypes/ro

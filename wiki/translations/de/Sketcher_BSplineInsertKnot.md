@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher BSplineInsertKnot
-   Name/de:Sketcher BSplineInsertKnot
-   MenuLocation:Sketch - Sketcher B-spline tools - Insert knot
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Version:0.20
-   SeeAlso:[BSplineKnotenVielfachheit](Sketcher_BSplineKnotMultiplicity/de.md), [BSplineKnotenVielfachheitErhöhen](Sketcher_BSplineIncreaseKnotMultiplicity/de.md), [BSplineKnotenVielfachheitVerringern](Sketcher_BSplineDecreaseKnotMultiplicity/de.md)
+   Name: Sketcher BSplineInsertKnot
+   Name/de: Sketcher BSplineInsertKnot
+   MenuLocation: Sketch - Sketcher B-spline tools - Insert knot
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Version: 0.20
+   SeeAlso: [BSplineKnotenVielfachheit](Sketcher_BSplineKnotMultiplicity/de.md), [BSplineKnotenVielfachheitErhöhen](Sketcher_BSplineIncreaseKnotMultiplicity/de.md), [BSplineKnotenVielfachheitVerringern](Sketcher_BSplineDecreaseKnotMultiplicity/de.md)
 ---
 
 # Sketcher BSplineInsertKnot/de
@@ -36,4 +36,4 @@ Fügt einen Knoten in einen vorhandenen [B-Spline](B-Splines/de.md) ein. Wenn sc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineInsertKnot/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineInsertKnot/de

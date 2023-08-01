@@ -28,4 +28,4 @@ Ces images sont plus grandes que les icônes.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Gui/fr
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Gui/fr

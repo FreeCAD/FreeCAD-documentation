@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Slice
-   Name/ru:Part Slice
-   MenuLocation:Деталь - Split - Slice
-   Workbenches:[Part](Part_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Part Boolean Fragments](Part_BooleanFragments/ru.md), [Part XOR](Part_XOR/ru.md), [Part Join features](Part_CompJoinFeatures/ru.md), [Part Boolean](Part_Boolean/ru.md)
+   Name: Part Slice
+   Name/ru: Part Slice
+   MenuLocation: Деталь - Split - Slice
+   Workbenches: [Part](Part_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Part Boolean Fragments](Part_BooleanFragments/ru.md), [Part XOR](Part_XOR/ru.md), [Part Join features](Part_CompJoinFeatures/ru.md), [Part Boolean](Part_Boolean/ru.md)
 ---
 
 # Part Slice/ru
@@ -220,4 +220,4 @@ j.Tools = FreeCADGui.Selection.getSelection()[1:]
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/ru

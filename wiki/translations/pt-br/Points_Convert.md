@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Points Convert
-   MenuLocation:Points - Convert to points...
-   Workbenches:[Points](Points_Workbench.md)
+   Name: Points Convert
+   MenuLocation: Points - Convert to points...
+   Workbenches: [Points](Points_Workbench.md)
 ---
 
 # Points Convert/pt-br
@@ -61,4 +61,4 @@ Point cloud objects are [App GeoFeature](App_GeoFeature.md) objects with the fol
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Convert/pt-br
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Convert/pt-br

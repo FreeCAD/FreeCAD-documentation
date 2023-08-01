@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionThreadHoleSide
-   Name/fr:TechDraw Corps de taraudage
-   MenuLocation:TechDraw - Extensions : taraudages/filetages - Corps de taraudage
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.20
-   SeeAlso:[TechDraw Corps de filetage](TechDraw_ExtensionThreadBoltSide/fr.md)
+   Name: TechDraw ExtensionThreadHoleSide
+   Name/fr: TechDraw Corps de taraudage
+   MenuLocation: TechDraw - Extensions : taraudages/filetages - Corps de taraudage
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Version: 0.20
+   SeeAlso: [TechDraw Corps de filetage](TechDraw_ExtensionThreadBoltSide/fr.md)
 ---
 
 # TechDraw ExtensionThreadHoleSide/fr
@@ -39,4 +39,4 @@ L\'outil **TechDraw Corps de taraudage** ajoute un taraudage cosmétique à la v
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadHoleSide/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadHoleSide/fr

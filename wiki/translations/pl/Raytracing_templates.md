@@ -63,4 +63,4 @@ Zauważ, że w luxrender, obiekty przechowywane w pliku sceny mogą definiować 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing templates/pl
+⏵ [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing templates/pl

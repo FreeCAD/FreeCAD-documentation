@@ -1,10 +1,10 @@
 ---
 - GuiCommand:Addon/pl
-   Name:BIM Windows
-   Name/pl:BIM Windows
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/pl.md)
-   Addon:BIM
-   MenuLocation:Manage - Zarządzaj drzwiami i oknami
+   Name: BIM Windows
+   Name/pl: BIM Windows
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/pl.md)
+   Addon: BIM
+   MenuLocation: Manage - Zarządzaj drzwiami i oknami
 ---
 
 # BIM Windows/pl
@@ -20,4 +20,4 @@ Okienko dialogowe menadżera okien BIM pozwala na przeglądanie i modyfikowanie 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Windows/pl
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Windows/pl

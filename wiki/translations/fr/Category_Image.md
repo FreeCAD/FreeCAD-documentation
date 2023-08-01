@@ -11,4 +11,4 @@ Cette catégorie est la catégorie de niveau supérieur pour **images**. Il ne d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Image/fr
+⏵ [documentation index](../README.md) > Category:Image/fr

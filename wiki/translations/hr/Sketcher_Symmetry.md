@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher Symmetry
-   MenuLocation:Sketch - Sketcher tools - Symmetry
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**Z** **S**
-   Version:0.16
-   SeeAlso:[Sketcher MirrorSketch](Sketcher_MirrorSketch.md)
+   Name: Sketcher Symmetry
+   MenuLocation: Sketch - Sketcher tools - Symmetry
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **Z** **S**
+   Version: 0.16
+   SeeAlso: [Sketcher MirrorSketch](Sketcher_MirrorSketch.md)
 ---
 
 # Sketcher Symmetry/hr
@@ -35,4 +35,4 @@ Note that no extra symmetry constraint will be added.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Symmetry/hr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Symmetry/hr

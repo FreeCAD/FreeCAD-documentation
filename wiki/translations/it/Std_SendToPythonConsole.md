@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_SendToPythonConsole
-   Name/it:Invia alla console Python
-   MenuLocation:Modifica - Invia alla console Python
-   Workbenches:Tutti
-   Shortcut:**Ctrl**+**Maiusc**+**P**
-   Version:0.19
+   Name: Std_SendToPythonConsole
+   Name/it: Invia alla console Python
+   MenuLocation: Modifica - Invia alla console Python
+   Workbenches: Tutti
+   Shortcut: **Ctrl**+**Maiusc**+**P**
+   Version: 0.19
 ---
 
 # Std SendToPythonConsole/it
@@ -102,4 +102,4 @@ A seconda dell\'oggetto selezionato e delle sue forme secondarie selezionate, se
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SendToPythonConsole/it
+⏵ [documentation index](../README.md) > Std SendToPythonConsole/it

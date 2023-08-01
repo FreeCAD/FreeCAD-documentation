@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainLock
-   Name/ru:Sketcher ConstrainLock
-   MenuLocation:Sketch - Ограничения эскиза - Ограничение положения
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   SeeAlso:[Sketcher Constrain Block](Sketcher_ConstrainBlock/ru.md)
+   Name: Sketcher ConstrainLock
+   Name/ru: Sketcher ConstrainLock
+   MenuLocation: Sketch - Ограничения эскиза - Ограничение положения
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   SeeAlso: [Sketcher Constrain Block](Sketcher_ConstrainBlock/ru.md)
 ---
 
 # Sketcher ConstrainLock/ru
@@ -45,4 +45,4 @@ The <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Loc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft ApplyStyle
-   Name/it:Applica lo stile
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   MenuLocation:Draft - Utilità - Applica stile
-   SeeAlso:[Barra di Draft](Draft_Tray/it.md), [Draft SetStyle](Draft_SetStyle.md)
+   Name: Draft ApplyStyle
+   Name/it: Applica lo stile
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Draft - Utilità - Applica stile
+   SeeAlso: [Barra di Draft](Draft_Tray/it.md), [Draft SetStyle](Draft_SetStyle.md)
 ---
 
 # Draft ApplyStyle/it
@@ -71,4 +71,4 @@ This command currently handles only five of the settings the [Draft SetStyle](Dr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/it

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:-cn
-   Name:通过中心创建椭圆
-   MenuLocation:Sketch - 草图几何体 - 通过中心创建椭圆
-   Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md)
-   Shortcut:**G** **E** **E**
-   Version:0.15
-   SeeAlso:[通过三点创建椭圆](Sketcher_CreateEllipseBy3Points/zh-cn.md), [创建圆](Sketcher_CreateCircle/zh-cn.md), [创建椭圆弧](Sketcher_CreateArcOfEllipse/zh-cn.md)
+   Name: 通过中心创建椭圆
+   MenuLocation: Sketch - 草图几何体 - 通过中心创建椭圆
+   Workbenches: [Sketcher](Sketcher_Workbench/zh-cn.md)
+   Shortcut: **G** **E** **E**
+   Version: 0.15
+   SeeAlso: [通过三点创建椭圆](Sketcher_CreateEllipseBy3Points/zh-cn.md), [创建圆](Sketcher_CreateCircle/zh-cn.md), [创建椭圆弧](Sketcher_CreateArcOfEllipse/zh-cn.md)
 ---
 
 # Sketcher CreateEllipseByCenter/zh-cn
@@ -66,4 +66,4 @@ C is the center, a the major diameter, b the minor diameter, F1 and F2 are foci.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseByCenter/zh-cn
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseByCenter/zh-cn

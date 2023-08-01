@@ -1,7 +1,7 @@
 # <img alt="Ícone da bancada de trabalho Part" src=images/Workbench_Part.svg  style="width:64px;"> Part Module/pt-br
 
 
-{{TOCright}}
+
 
 
 
@@ -210,4 +210,4 @@ Veja [Script(roteiro) da peça](Part_scripting/pt-br.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Part](Part_Workbench.md) > Part Module/pt-br
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Part](Part_Workbench.md) > Part Module/pt-br

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Point
-   Name/es:Draft Point
-   MenuLocation:Boceto - Punto
-   Workbenches:[Boceto](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   Shortcut:P T
+   Name: Draft Point
+   Name/es: Draft Point
+   MenuLocation: Boceto - Punto
+   Workbenches: [Boceto](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut: P T
 ---
 
 # Draft Point/es
@@ -189,4 +189,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Point/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Point/es

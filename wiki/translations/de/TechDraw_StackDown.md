@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw StackDown
-   Name/de:TechDraw StapelNachUnten
-   MenuLocation:TechDraw - Stacking - Ansicht um eine Ebene nach unten bewegen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Shortcut:
-   Version:0.21
-   SeeAlso:[TechDraw StapelOberseite](TechDraw_StackTop/de.md), [TechDraw StapelUnterseite](TechDraw_StackBottom/de.md), [TechDraw StapelNachOben](TechDraw_StackUp/de.md)
+   Name: TechDraw StackDown
+   Name/de: TechDraw StapelNachUnten
+   MenuLocation: TechDraw - Stacking - Ansicht um eine Ebene nach unten bewegen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Shortcut: 
+   Version: 0.21
+   SeeAlso: [TechDraw StapelOberseite](TechDraw_StackTop/de.md), [TechDraw StapelUnterseite](TechDraw_StackBottom/de.md), [TechDraw StapelNachOben](TechDraw_StackUp/de.md)
 ---
 
 # TechDraw StackDown/de
@@ -30,4 +30,4 @@ Siehe [TechDraw StapelOberseite](TechDraw_StackTop/de.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw StackDown/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw StackDown/de

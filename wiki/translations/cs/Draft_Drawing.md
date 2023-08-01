@@ -1,6 +1,6 @@
 # Draft Drawing/cs
 ---
-- GuiCommand:   Name:Draft_Drawing   Name/cs:Draft Drawing   Workbenches:[Architektura](Drawing_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Drafting - Drawing---
+- GuiCommand:   Name: Draft_Drawing   Name/cs: Draft Drawing   Workbenches: [Architektura](Drawing_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation: Drafting - Drawing---
 
 
 </div>
@@ -47,4 +47,4 @@ This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Drawing/cs
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Drawing/cs

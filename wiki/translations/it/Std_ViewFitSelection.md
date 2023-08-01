@@ -1,6 +1,6 @@
 # Std ViewFitSelection/it
 ---
-- GuiCommand:   Name:Std_ViewFitSelection   Name/it:Visualizza la selezione   MenuLocation:Visualizza - Viste standard - Visualizza la selezione   Workbenches:Tutti   Shortcut:**V** **S**   SeeAlso:[Visualizza tutto](Std_ViewFitAll/it.md)---
+- GuiCommand:   Name: Std_ViewFitSelection   Name/it: Visualizza la selezione   MenuLocation: Visualizza - Viste standard - Visualizza la selezione   Workbenches: Tutti   Shortcut: **V** **S**   SeeAlso: [Visualizza tutto](Std_ViewFitAll/it.md)---
 
 
 
@@ -47,4 +47,4 @@ FreeCADGui.SendMsgToActiveView('ViewSelection')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewFitSelection/it
+⏵ [documentation index](../README.md) > Std ViewFitSelection/it

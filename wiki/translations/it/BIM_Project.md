@@ -1,10 +1,10 @@
 ---
 - GuiCommand:Addon/it
-   Name:BIM_Project
-   Name/it:Progetto BIM
-   Workbenches:[BIM](BIM_Workbench/it.md)
-   Addon:BIM
-   MenuLocation:Gestione - Gestione progetto...
+   Name: BIM_Project
+   Name/it: Progetto BIM
+   Workbenches: [BIM](BIM_Workbench/it.md)
+   Addon: BIM
+   MenuLocation: Gestione - Gestione progetto...
 ---
 
 # BIM Project/it
@@ -35,4 +35,4 @@ In alternativa, si può salvare il contenuto del documento corrente come modello
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Project/it
+⏵ [documentation index](../README.md) > BIM Project/it

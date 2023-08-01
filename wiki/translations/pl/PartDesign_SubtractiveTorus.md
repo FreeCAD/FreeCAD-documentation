@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractiveTorus
-   Name/pl:Projekt Części: Subtraktywny torus
-   MenuLocation:Projekt Części - Utwórz cechę przez odjęcie - Subtraktywny torus
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Komponent bryła pierwotna do odjęcia](PartDesign_CompPrimitiveSubtractive/pl.md), [Addytywny torus](PartDesign_AdditiveTorus/pl.md)
+   Name: PartDesign SubtractiveTorus
+   Name/pl: Projekt Części: Subtraktywny torus
+   MenuLocation: Projekt Części - Utwórz cechę przez odjęcie - Subtraktywny torus
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Komponent bryła pierwotna do odjęcia](PartDesign_CompPrimitiveSubtractive/pl.md), [Addytywny torus](PartDesign_AdditiveTorus/pl.md)
 ---
 
 # PartDesign SubtractiveTorus/pl
@@ -65,4 +65,4 @@ Torus można edytować po jego utworzeniu na dwa sposoby:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveTorus/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveTorus/pl

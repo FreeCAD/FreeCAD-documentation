@@ -44,4 +44,4 @@ This category list pages related to the [Draft Workbench](Draft_Workbench.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Draft/en
+⏵ [documentation index](../README.md) > Category:Draft/en

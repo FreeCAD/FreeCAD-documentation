@@ -379,4 +379,4 @@ if FreeCAD.ActiveDocument != None:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Dump Objects/fr
+⏵ [documentation index](../README.md) > Macro Dump Objects/fr

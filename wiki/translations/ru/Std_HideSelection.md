@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std HideSelection
-   Name/ru:Std HideSelection
-   Empty:1
-   MenuLocation:Вид - Видимость - Скрыть выделенные
-   Workbenches:All
-   SeeAlso:[Std ToggleVisibility](Std_ToggleVisibility/ru.md), [Std ShowSelection](Std_ShowSelection/ru.md), [Std ToggleObjects](Std_ToggleObjects/ru.md), [Std ShowObjects](Std_ShowObjects/ru.md), [Std HideObjects](Std_HideObjects/ru.md)
+   Name: Std HideSelection
+   Name/ru: Std HideSelection
+   Empty: 1
+   MenuLocation: Вид - Видимость - Скрыть выделенные
+   Workbenches: All
+   SeeAlso: [Std ToggleVisibility](Std_ToggleVisibility/ru.md), [Std ShowSelection](Std_ShowSelection/ru.md), [Std ToggleObjects](Std_ToggleObjects/ru.md), [Std ShowObjects](Std_ShowObjects/ru.md), [Std HideObjects](Std_HideObjects/ru.md)
 ---
 
 # Std HideSelection/ru
@@ -52,4 +52,4 @@ For a scripting example see [Std ToggleVisibility](Std_ToggleVisibility.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std HideSelection/ru
+⏵ [documentation index](../README.md) > Std HideSelection/ru

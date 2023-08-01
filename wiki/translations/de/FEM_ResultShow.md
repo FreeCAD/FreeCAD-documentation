@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ResultShow
-   MenuLocation:Results - Show result
-   Workbenches:[FEM](FEM_Workbench.md)
-   Shortcut:**R** **S**
-   SeeAlso:[FEM Result pipeline](FEM_PostPipelineFromResult.md), [FEM tutorial](FEM_tutorial.md)
+   Name: FEM ResultShow
+   MenuLocation: Results - Show result
+   Workbenches: [FEM](FEM_Workbench.md)
+   Shortcut: **R** **S**
+   SeeAlso: [FEM Result pipeline](FEM_PostPipelineFromResult.md), [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM ResultShow/de
@@ -48,4 +48,4 @@ The dialog is shown at the left and offers the following features:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ResultShow/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ResultShow/de

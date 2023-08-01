@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std LinkImportAll
-   Name/pl:Std: Importuj wszystkie łącza
-   MenuLocation:brak
-   Workbenches:wszystkie
-   Version:0.19
-   SeeAlso:[Utwórz łącze](Std_LinkMake/pl.md), [Utwórz łącze względne](Std_LinkMakeRelative/pl.md), [Importuj wszystkie łącza](Std_LinkImportAll/pl.md)
+   Name: Std LinkImportAll
+   Name/pl: Std: Importuj wszystkie łącza
+   MenuLocation: brak
+   Workbenches: wszystkie
+   Version: 0.19
+   SeeAlso: [Utwórz łącze](Std_LinkMake/pl.md), [Utwórz łącze względne](Std_LinkMakeRelative/pl.md), [Importuj wszystkie łącza](Std_LinkImportAll/pl.md)
 ---
 
 # Std LinkImportAll/pl
@@ -42,4 +42,4 @@ Polecenie to zasadniczo uruchamia funkcję **[<img src=images/Std_LinkImport.svg
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkImportAll/pl
+⏵ [documentation index](../README.md) > Std LinkImportAll/pl

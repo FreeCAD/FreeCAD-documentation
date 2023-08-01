@@ -40,4 +40,4 @@ This category list pages related to the \"User_Documentation/pt-br\" and \"Workb
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Draft/pt-br
+⏵ [documentation index](../README.md) > Category:Draft/pt-br

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std About
-   Name/de:Über FreeCAD
-   Workbenches:Alle
-   MenuLocation:Hilfe - Über FreeCAD
-   SeeAlso:[Standardmenü](Standard_Menu/de.md)
+   Name: Std About
+   Name/de: Über FreeCAD
+   Workbenches: Alle
+   MenuLocation: Hilfe - Über FreeCAD
+   SeeAlso: [Standardmenü](Standard_Menu/de.md)
 ---
 
 # Std About/de
@@ -88,4 +88,4 @@ Der Reiter Bibliotheken zeigt eine Liste der externen Bibliotheken, die vom Prog
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/de
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/de

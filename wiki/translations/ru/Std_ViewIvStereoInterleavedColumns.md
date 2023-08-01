@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Стерео с чередованием столбцов
-   Name:Std_ViewIvStereoInterleavedColumns
-   MenuLocation:Вид - Стерео - Stereo interleaved Columns
-   Workbenches:Все
-   SeeAlso:[Стерео красный/голубой](Std_ViewIvStereoRedGreen/ru.md), [Четверная буферизация стерео](Std_ViewIvStereoQuadBuff/ru.md), [Стерео с чередованием строк](Std_ViewIvStereoInterleavedRows/ru.md), [Выключить стерео](Std_ViewIvStereoOff/ru.md)
+   Name/ru: Стерео с чередованием столбцов
+   Name: Std_ViewIvStereoInterleavedColumns
+   MenuLocation: Вид - Стерео - Stereo interleaved Columns
+   Workbenches: Все
+   SeeAlso: [Стерео красный/голубой](Std_ViewIvStereoRedGreen/ru.md), [Четверная буферизация стерео](Std_ViewIvStereoQuadBuff/ru.md), [Стерео с чередованием строк](Std_ViewIvStereoInterleavedRows/ru.md), [Выключить стерео](Std_ViewIvStereoOff/ru.md)
 ---
 
 # Std ViewIvStereoInterleavedColumns/ru
@@ -57,4 +57,4 @@ FreeCADGui.ActiveDocument.ActiveView.getStereoType()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewIvStereoInterleavedColumns/ru
+⏵ [documentation index](../README.md) > Std ViewIvStereoInterleavedColumns/ru

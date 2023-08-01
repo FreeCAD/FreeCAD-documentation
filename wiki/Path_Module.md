@@ -6,4 +6,4 @@ Maintain this link for search engines!
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Module
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Module

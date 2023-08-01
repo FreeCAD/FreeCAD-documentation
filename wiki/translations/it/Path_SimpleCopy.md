@@ -1,6 +1,6 @@
 # Path SimpleCopy/it
 ---
-- GuiCommand:   Name:Path SimpleCopy   Name/it:Copia semplice   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path - Modifica percorso - Copia semplice   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Path SimpleCopy   Name/it: Copia semplice   Workbenches: [[Path Workbench/it   Path]]|MenuLocation: Path - Modifica percorso - Copia semplice   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -54,4 +54,4 @@ Questo strumento crea una copia non parametrica di un dato percorso.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SimpleCopy/it
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SimpleCopy/it

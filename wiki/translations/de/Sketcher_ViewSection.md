@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ViewSection
-   Name/de:Sketcher SchnittAnzeigen
-   MenuLocation:Sketch - Schnitt anzeigen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
-   Shortcut:**Q** **S**
-   Version:0.18
+   Name: Sketcher ViewSection
+   Name/de: Sketcher SchnittAnzeigen
+   MenuLocation: Sketch - Schnitt anzeigen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
+   Shortcut: **Q** **S**
+   Version: 0.18
 ---
 
 # Sketcher ViewSection/de
@@ -39,4 +39,4 @@ Es gibt mehrere Wege, diesen Befehl aufzurufen:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/de

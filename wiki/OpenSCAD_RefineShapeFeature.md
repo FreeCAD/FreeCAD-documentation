@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD RefineShapeFeature
-   MenuLocation:OpenSCAD - Refine Shape Feature
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench.md)
-   SeeAlso:[Part RefineShape](Part_RefineShape.md)
+   Name: OpenSCAD RefineShapeFeature
+   MenuLocation: OpenSCAD - Refine Shape Feature
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench.md)
+   SeeAlso: [Part RefineShape](Part_RefineShape.md)
 ---
 
 # OpenSCAD RefineShapeFeature
@@ -41,4 +41,4 @@ Cleans unnecessary lines. After a Boolean operation, some lines defining the pre
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD RefineShapeFeature
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD RefineShapeFeature

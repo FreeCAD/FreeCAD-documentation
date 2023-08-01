@@ -710,4 +710,4 @@ MainWindow.show()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro CartoucheFC 2/de
+⏵ [documentation index](../README.md) > Macro CartoucheFC 2/de

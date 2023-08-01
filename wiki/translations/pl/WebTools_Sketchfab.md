@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:WebTools Sketchfab
-   Name/pl:Web: Sketchfab
-   MenuLocation:WebTools - Sketchfab
+   Name: WebTools Sketchfab
+   Name/pl: Web: Sketchfab
+   MenuLocation: WebTools - Sketchfab
 |
-   Workbenches:[Narzędzia Web](WebTools_Workbench/pl.md)
+   Workbenches: [Narzędzia Web](WebTools_Workbench/pl.md)
 ---
 
 # WebTools Sketchfab/pl
@@ -35,4 +35,4 @@ Narzędzie to umożliwia eksportowanie i przesyłanie obiektów na konto w serwi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > WebTools Sketchfab/pl
+⏵ [documentation index](../README.md) > WebTools Sketchfab/pl

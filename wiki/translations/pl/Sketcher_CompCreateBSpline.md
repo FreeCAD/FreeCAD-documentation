@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher CompCreateBSpline
-   Name/pl:Szkicownik: Komponent utwórz krzywą złożoną
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Version:0.17
+   Name: Sketcher CompCreateBSpline
+   Name/pl: Szkicownik: Komponent utwórz krzywą złożoną
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Version: 0.17
 ---
 
 # Sketcher CompCreateBSpline/pl
@@ -37,4 +37,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateBSpline/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateBSpline/pl

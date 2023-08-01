@@ -1,7 +1,7 @@
 # <img alt="Icône de l\'atelier externe Fasteners" src=images/Fasteners_workbench_icon.svg  style="width:64px;"> Fasteners Workbench/fr
 
 
-{{TOCright}}
+
 
 
 
@@ -403,4 +403,4 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > [External Workbenches](Category_External Workbenches.md) > [Fasteners](Category_Fasteners.md) > Fasteners Workbench/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > [External Workbenches](Category_External Workbenches.md) > [Fasteners](Category_Fasteners.md) > Fasteners Workbench/fr

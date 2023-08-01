@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Circle
-   Name/pl:Draft: Okrąg
-   MenuLocation:Drafting - Okrąg
-   Workbenches:[Rysunek roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut:**C** **I**
-   Version:0.7
-   SeeAlso:[Łuk](Draft_Arc/pl.md), [Łuk przez 3 punkty](Draft_Arc_3Points/pl.md)
+   Name: Draft Circle
+   Name/pl: Draft: Okrąg
+   MenuLocation: Drafting - Okrąg
+   Workbenches: [Rysunek roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut: **C** **I**
+   Version: 0.7
+   SeeAlso: [Łuk](Draft_Arc/pl.md), [Łuk przez 3 punkty](Draft_Arc_3Points/pl.md)
 
 ---
 
@@ -131,4 +131,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Circle/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Circle/pl

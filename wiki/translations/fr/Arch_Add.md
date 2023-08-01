@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Add
-   Name/fr:Arch Ajouter
-   MenuLocation:Arch - Ajouter un composant
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Arch Soustraire](Arch_Remove/fr.md)
+   Name: Arch Add
+   Name/fr: Arch Ajouter
+   MenuLocation: Arch - Ajouter un composant
+   Workbenches: [Arch](Arch_Workbench/fr.md)
+   SeeAlso: [Arch Soustraire](Arch_Remove/fr.md)
 ---
 
 # Arch Add/fr
@@ -80,4 +80,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Add/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Add/fr

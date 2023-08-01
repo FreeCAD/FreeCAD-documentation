@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM PostApplyChanges
-   Name/fr:FEM Appliquer les modifications
-   MenuLocation:Résultats - Appliquer les modifications au pipeline
-   |Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[Std Rafraîchir](Std_Refresh/fr.md), [FEM Fonctions de filtrage](FEM_PostCreateFunctions.md)
+   Name: FEM PostApplyChanges
+   Name/fr: FEM Appliquer les modifications
+   MenuLocation: Résultats - Appliquer les modifications au pipeline
+   |Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [Std Rafraîchir](Std_Refresh/fr.md), [FEM Fonctions de filtrage](FEM_PostCreateFunctions.md)
 ---
 
 # FEM PostApplyChanges/fr
@@ -34,4 +34,4 @@ Cliquez sur le bouton de la barre d\'outils **<img src="images/FEM_PostApplyChan
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostApplyChanges/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostApplyChanges/fr

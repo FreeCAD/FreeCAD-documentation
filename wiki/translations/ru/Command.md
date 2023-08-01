@@ -2,7 +2,7 @@
 ## Вступление
 
 
-{{TOCright}}
+
 
 Под [Командой](Command/ru.md) подразумевается выполнение некоторых действий (кода), в следствии нажатия какой-либо кнопку на панели инструментов или при наборе определённых комбинаций клавиш на клавиатуре. Это может быть как очень простое действие, как например изменение уровня масштабирования [трёхмерного вида](3D_view/ru.md) или поворот точки обзора, так и комплексное решение которое запустит диалоговые окна и будет ожидать, когда пользователь выполнит определенные действия.
 
@@ -102,4 +102,4 @@ FreeCADGui.addCommand('My_Command', MyCommand())
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Command_Reference/ru|:Category:Command_Reference/ru]]. Команды могут запускаться с помощью кнопки на панели инструментов или из списка меню, а так же из ](Category_Command_Reference/ru|:Category:Command_Reference/ru]]. Команды могут запускаться с помощью кнопки на панели инструментов или из списка меню, а так же из .md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/ru
+⏵ [documentation index](../README.md) > [Command_Reference/ru|:Category:Command_Reference/ru]]. Команды могут запускаться с помощью кнопки на панели инструментов или из списка меню, а так же из ](Category_Command_Reference/ru|:Category:Command_Reference/ru]]. Команды могут запускаться с помощью кнопки на панели инструментов или из списка меню, а так же из .md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/ru

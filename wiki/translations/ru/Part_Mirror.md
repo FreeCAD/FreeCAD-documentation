@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part_Mirror
-   Name/ru:Зеркальное отражение
-   MenuLocation:Деталь -> Зеркальное отражение...
-   Workbenches:[Верстак Part](Part_Workbench/ru.md)
-   SeeAlso:
+   Name: Part_Mirror
+   Name/ru: Зеркальное отражение
+   MenuLocation: Деталь -> Зеркальное отражение...
+   Workbenches: [Верстак Part](Part_Workbench/ru.md)
+   SeeAlso: 
 ---
 
 # Part Mirror/ru
@@ -64,4 +64,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/ru

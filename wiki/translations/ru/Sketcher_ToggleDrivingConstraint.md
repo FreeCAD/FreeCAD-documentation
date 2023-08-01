@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Переключить ограничения в построительные/основные
-   Name:Sketcher_ToggleDrivingConstraint
-   MenuLocation:Sketch - Ограничения эскиза - Переключить ограничения в построительные/основные
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.16
-   SeeAlso:[Переключить построительную геометрию](Sketcher_ToggleConstruction/ru.md)
+   Name/ru: Переключить ограничения в построительные/основные
+   Name: Sketcher_ToggleDrivingConstraint
+   MenuLocation: Sketch - Ограничения эскиза - Переключить ограничения в построительные/основные
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Version: 0.16
+   SeeAlso: [Переключить построительную геометрию](Sketcher_ToggleConstruction/ru.md)
 ---
 
 # Sketcher ToggleDrivingConstraint/ru
@@ -51,4 +51,4 @@ The **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleDrivingConstraint/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleDrivingConstraint/ru

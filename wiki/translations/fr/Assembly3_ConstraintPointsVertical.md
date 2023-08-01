@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPointsVertical
-   Name/fr:Assembly3 Contrainte alignement vertical
-   Icon:Assembly_ConstraintPointsVertical.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 ConstraintPointsVertical
+   Name/fr: Assembly3 Contrainte alignement vertical
+   Icon: Assembly_ConstraintPointsVertical.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintPointsVertical/fr
@@ -31,4 +31,4 @@ Ou
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointsVertical/fr
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPointsVertical/fr

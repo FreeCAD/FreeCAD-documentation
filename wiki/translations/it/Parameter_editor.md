@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Parameter editor/it
+⏵ [documentation index](../README.md) > Parameter editor/it

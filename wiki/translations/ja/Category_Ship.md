@@ -10,4 +10,4 @@ This category lists pages related to the [Ship Workbench/ja](Ship_Workbench/ja.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Ship/ja
+⏵ [documentation index](../README.md) > Category:Ship/ja

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/es:Fixtura de trayectoria
-   Workbenches:[Trayectoria](Path_Workbench.md)
-   MenuLocation:Trayectoria - Comandos Parciales - Fixtura
-   Shortcut:**P** **F**
-   SeeAlso:
+   Name/es: Fixtura de trayectoria
+   Workbenches: [Trayectoria](Path_Workbench.md)
+   MenuLocation: Trayectoria - Comandos Parciales - Fixtura
+   Shortcut: **P** **F**
+   SeeAlso: 
 ---
 
 # Path Fixture/es
@@ -77,4 +77,4 @@ The G59 Fixture is used to expand available fixtures. The degree of expansion im
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Fixture/es
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Fixture/es

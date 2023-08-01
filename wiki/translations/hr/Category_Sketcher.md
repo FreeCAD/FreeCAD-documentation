@@ -21,4 +21,4 @@ This category lists pages related to the [Sketcher Workbench/hr](Sketcher_Workbe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Sketcher/hr
+⏵ [documentation index](../README.md) > Category:Sketcher/hr

@@ -5,7 +5,7 @@
 A <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [bancada de trabalho Spreadsheet](Spreadsheet_Workbench.md) permite criar e editar planilhas, usar dados da planilha como parâmetros em um modelo, preencher a planilha com dados recuperados de um modelo, realizar cálculos e exportar os dados para outras aplicações de planilhas como o LibreOffice ou o Microsoft Excel.
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:600px;"> 
 *Uma planilha com determinadas células preenchidas com texto e quantidades*
@@ -457,4 +457,4 @@ sheet.get('Diameter')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/pt-br
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/pt-br

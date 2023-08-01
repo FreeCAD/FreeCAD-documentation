@@ -1,6 +1,4 @@
 # Artwork Splash screen/ru
-{{TOCright}}
-
 Это заставки, которые использовались для каждой версии программы.
 
 ## FreeCAD 0.20 
@@ -54,4 +52,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Splash screen/ru
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Splash screen/ru

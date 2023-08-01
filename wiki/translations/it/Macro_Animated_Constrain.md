@@ -152,4 +152,4 @@ La pagina della discussione [Animated Constrain Macro](http://forum.freecadweb.o
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Animated Constrain/it
+⏵ [documentation index](../README.md) > Macro Animated Constrain/it

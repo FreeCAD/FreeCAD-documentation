@@ -289,4 +289,4 @@ Możesz również kontynuować ćwiczenie umiejętności w kolejnym poradniku o 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Creating a simple part with PartDesign/pl
+⏵ [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Creating a simple part with PartDesign/pl

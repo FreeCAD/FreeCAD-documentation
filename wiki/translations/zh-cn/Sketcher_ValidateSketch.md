@@ -1,9 +1,9 @@
 ---
 - GuiCommand:-cn
-   Name:校验草图…
-   MenuLocation:Sketch - Validate sketch…
-   Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md), [PartDesign](PartDesign_Workbench/zh-cn.md)
-   SeeAlso:[重合约束](Sketcher_ConstrainCoincident/zh-cn.md), [Topological naming problem](Topological_naming_problem/zh-cn.md)
+   Name: 校验草图…
+   MenuLocation: Sketch - Validate sketch…
+   Workbenches: [Sketcher](Sketcher_Workbench/zh-cn.md), [PartDesign](PartDesign_Workbench/zh-cn.md)
+   SeeAlso: [重合约束](Sketcher_ConstrainCoincident/zh-cn.md), [Topological naming problem](Topological_naming_problem/zh-cn.md)
 ---
 
 # Sketcher ValidateSketch/zh-cn
@@ -117,4 +117,4 @@ The locking mechanism typically works well and this tool should not be needed. *
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/zh-cn
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/zh-cn

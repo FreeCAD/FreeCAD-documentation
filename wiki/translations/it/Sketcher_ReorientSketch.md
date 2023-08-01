@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher_ReorientSketch
-   Name/it:Riposiziona lo schizzo
-   Empty:1
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:Part design - Riposiziona sketch
-   SeeAlso:[Mappa schizzo](Sketcher_MapSketch/it.md), [Nuovo schizzo](Sketcher_NewSketch/it.md)
+   Name: Sketcher_ReorientSketch
+   Name/it: Riposiziona lo schizzo
+   Empty: 1
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation: Part design - Riposiziona sketch
+   SeeAlso: [Mappa schizzo](Sketcher_MapSketch/it.md), [Nuovo schizzo](Sketcher_NewSketch/it.md)
 ---
 
 # Sketcher ReorientSketch/it
@@ -82,4 +82,4 @@ Orientamento dello schizzo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ReorientSketch/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ReorientSketch/it

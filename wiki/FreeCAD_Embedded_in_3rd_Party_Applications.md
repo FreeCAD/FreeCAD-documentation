@@ -19,4 +19,4 @@ FreeCAD\'s LGPL licensure allows it to be embedded and rebranded in 3rd party so
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FreeCAD Embedded in 3rd Party Applications
+⏵ [documentation index](../README.md) > FreeCAD Embedded in 3rd Party Applications

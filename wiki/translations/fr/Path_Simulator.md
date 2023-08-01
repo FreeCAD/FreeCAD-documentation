@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Path Simulator
-   Name/fr:Path Simulateur FAO
-   MenuLocation:Path - Simulateur FAO
-   Workbenches:[Path](Path_Workbench/fr.md)
-   Shortcut:**P** **M**
-   SeeAlso:[Path Inspecter des commandes](Path_Inspect/fr.md)
+   Name: Path Simulator
+   Name/fr: Path Simulateur FAO
+   MenuLocation: Path - Simulateur FAO
+   Workbenches: [Path](Path_Workbench/fr.md)
+   Shortcut: **P** **M**
+   SeeAlso: [Path Inspecter des commandes](Path_Inspect/fr.md)
 ---
 
 # Path Simulator/fr
@@ -58,4 +58,4 @@ L\'outil <img alt="" src=images/Path_Simulator.svg  style="width:24px;"> [Simula
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Simulator/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Simulator/fr

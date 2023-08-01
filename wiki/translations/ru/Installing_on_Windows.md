@@ -1,6 +1,4 @@
 # Installing on Windows/ru
-{{TOCright}}
-
 ## Стандартная установка 
 
 Самый простой способ установить последнюю стабильную версию FreeCAD - использовать программу установки:
@@ -94,4 +92,4 @@ Note that (silent) uninstallation will fail if there is a running instance of Fr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Installing on Windows/ru
+⏵ [documentation index](../README.md) > Installing on Windows/ru

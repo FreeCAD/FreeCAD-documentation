@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Ship LoadExample
-   Name/fr:Ship Exemples de géométries
-   MenuLocation:Ship design - Load an example ship geometry
-   Workbenches:[Ship](Ship_Workbench/fr.md)
-   Shortcut:
-   SeeAlso:
+   Name: Ship LoadExample
+   Name/fr: Ship Exemples de géométries
+   MenuLocation: Ship design - Load an example ship geometry
+   Workbenches: [Ship](Ship_Workbench/fr.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Ship LoadExample/fr
@@ -50,4 +50,4 @@ Afin d\'aider les nouveaux utilisateurs, FreeCAD-Ship comprend un chargeur d\'ex
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship LoadExample/fr
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship LoadExample/fr

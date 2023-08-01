@@ -73,4 +73,4 @@ Příklad :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro MessageBox/cs
+⏵ [documentation index](../README.md) > Macro MessageBox/cs

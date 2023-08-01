@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std CascadeWindows
-   Name/pl:Std: Kaskadowo
-   MenuLocation:Okna - Kaskadowo
-   Workbenches:wszystkie
-   SeeAlso:[Sąsiadująco](Std_TileWindows/pl.md)
+   Name: Std CascadeWindows
+   Name/pl: Std: Kaskadowo
+   MenuLocation: Okna - Kaskadowo
+   Workbenches: wszystkie
+   SeeAlso: [Sąsiadująco](Std_TileWindows/pl.md)
 ---
 
 # Std CascadeWindows/pl
@@ -36,4 +36,4 @@ Polecenie **Kaskadowo** zmienia układ okien w [Głównym obszarze widoku](Main_
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std CascadeWindows/pl
+⏵ [documentation index](../README.md) > Std CascadeWindows/pl

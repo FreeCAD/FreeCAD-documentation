@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher_ConstrainDiameter   Name/it:Diametro
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch - Vincoli - Diametro
-   SeeAlso:[Distanza](Sketcher_ConstrainDistance/it.md), [Distanza orizzontale](Sketcher_ConstrainDistanceX/it.md), [Distanza verticale](Sketcher_ConstrainDistanceY/it.md)
+   Name: Sketcher_ConstrainDiameter   Name/it: Diametro
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation: Sketch - Vincoli - Diametro
+   SeeAlso: [Distanza](Sketcher_ConstrainDistance/it.md), [Distanza orizzontale](Sketcher_ConstrainDistanceX/it.md), [Distanza verticale](Sketcher_ConstrainDistanceY/it.md)
 ---
 
 # Sketcher ConstrainDiameter/it
@@ -64,4 +64,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDiameter/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDiameter/it

@@ -1,6 +1,6 @@
 # Sketcher CreatePolyline/sv
 ---
-- GuiCommand:   Name:Sketcher CreatePolyline   Name/sv:Sketcher CreatePolyline   Workbenches:[MenuLocation:Sketch - Sketcher geometries - Create polyline   SeeAlso:[[Sketcher CreateLine/sv|Sketcher Line](Sketcher_Workbench/sv___Sketcher]].md)---
+- GuiCommand:   Name: Sketcher CreatePolyline   Name/sv: Sketcher CreatePolyline   Workbenches: [MenuLocation: Sketch - Sketcher geometries - Create polyline   SeeAlso: [[Sketcher CreateLine/sv|Sketcher Line](Sketcher_Workbench/sv___Sketcher]].md)---
 
 
 </div>
@@ -45,4 +45,4 @@ The polyline always starts with a straight line segment: click - move the mouse 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePolyline/sv
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePolyline/sv

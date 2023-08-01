@@ -58,4 +58,4 @@ print myObj.PropertiesList
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Object API/ro
+⏵ [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Object API/ro

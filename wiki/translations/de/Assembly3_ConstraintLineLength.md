@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintLineLength
-   Name/de:Assembly3 Linienlänge
-   Icon:Assembly_ConstraintLineLength.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintLineLength
+   Name/de: Assembly3 Linienlänge
+   Icon: Assembly_ConstraintLineLength.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintLineLength/de
@@ -24,4 +24,4 @@ Die Länge kann durch Änderung des **Length**-Parameters im Eigenschaftenfenste
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLineLength/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintLineLength/de

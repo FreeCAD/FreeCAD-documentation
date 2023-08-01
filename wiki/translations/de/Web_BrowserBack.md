@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Web BrowserBack
-   Name/de:Web BrowserVorherigeSeite
-   MenuLocation:
-   Workbenches:[Web](Web_Workbench/de.md), [Start](Start_Workbench/de.md)
-   SeeAlso:
+   Name: Web BrowserBack
+   Name/de: Web BrowserVorherigeSeite
+   MenuLocation: 
+   Workbenches: [Web](Web_Workbench/de.md), [Start](Start_Workbench/de.md)
+   SeeAlso: 
 ---
 
 # Web BrowserBack/de
@@ -28,4 +28,4 @@ Der Befehl <img alt="" src=images/Web_BrowserBack.svg  style="width:24px;"> **We
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserBack/de
+⏵ [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserBack/de

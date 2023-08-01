@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintPressure
-   Name/de:FEM RandbedingungDruck
-   MenuLocation:Modell - Mechanische Randbedingungen - Randbedingung Druck
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   SeeAlso:[FEM RandbedingungKraft](FEM_ConstraintForce/de.md)
+   Name: FEM ConstraintPressure
+   Name/de: FEM RandbedingungDruck
+   MenuLocation: Modell - Mechanische Randbedingungen - Randbedingung Druck
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   SeeAlso: [FEM RandbedingungKraft](FEM_ConstraintForce/de.md)
 ---
 
 # FEM ConstraintPressure/de
@@ -39,4 +39,4 @@ Wendet eine Druckbeschränkung auf eine Fläche an.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPressure/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPressure/de

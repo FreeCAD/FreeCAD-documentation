@@ -1,11 +1,11 @@
 ---
 - GuiCommand:Addon/de
-   Name:BIM Library
-   Name/de:BIM Bibliothek
-   MenuLocation:3D Modellierung - Bibliothek
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
-   Addon:BIM
-   SeeAlso:[Arch Ausrüstung](Arch_Equipment/de.md)
+   Name: BIM Library
+   Name/de: BIM Bibliothek
+   MenuLocation: 3D Modellierung - Bibliothek
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
+   Addon: BIM
+   SeeAlso: [Arch Ausrüstung](Arch_Equipment/de.md)
 ---
 
 # BIM Library/de
@@ -36,4 +36,4 @@ Mit dem Werkzeug BIM-Bibliothek kann man im aktuellen Modell ein Objekt aus der 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > BIM Library/de
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > BIM Library/de

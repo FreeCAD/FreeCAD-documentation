@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectHorizontalAxis
-   MenuLocation:Sketch - Sketcher tools - Select horizontal axis
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**Z** **H**
-   Version:0.15
+   Name: Sketcher SelectHorizontalAxis
+   MenuLocation: Sketch - Sketcher tools - Select horizontal axis
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **Z** **H**
+   Version: 0.15
 ---
 
 # Sketcher SelectHorizontalAxis/pt-br
@@ -30,4 +30,4 @@ Selects the horizontal axis of a sketch.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectHorizontalAxis/pt-br
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectHorizontalAxis/pt-br

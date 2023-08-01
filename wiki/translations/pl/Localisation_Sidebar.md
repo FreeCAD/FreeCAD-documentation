@@ -32,4 +32,4 @@ Nie dodawaj kodów językowych \"/fr\", \"/de\", \"/es\", \"/ru\", itp., jeśli 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Wiki](Category_Wiki.md) > Localisation Sidebar/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Wiki](Category_Wiki.md) > Localisation Sidebar/pl

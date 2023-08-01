@@ -1,6 +1,4 @@
 # Draft Constrain/pl
-{{TOCright}}
-
 ## Opis
 
 Oprócz wprowadzania współrzędnych lub używania [przyciągania](Draft_Snap/pl.md), istnieje funkcja zwana wiązaniem, która pomaga w dokładnym rysowaniu w środowiskach pracy <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Rysunek Roboczy](Draft_Workbench/pl.md) i <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Architektura](Arch_Workbench/pl.md). Dla każdego kolejnego punktu możesz ograniczyć ruch kursora do kierunku X, Y, lub Z układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). Można to wykorzystać na przykład do stworzenia idealnie pionowej linii.
@@ -50,4 +48,4 @@ Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Constrain/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Constrain/pl

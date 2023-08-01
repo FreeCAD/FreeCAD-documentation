@@ -10,4 +10,4 @@ This category lists pages related to the [Ship Workbench/id](Ship_Workbench/id.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Ship/id
+⏵ [documentation index](../README.md) > Category:Ship/id

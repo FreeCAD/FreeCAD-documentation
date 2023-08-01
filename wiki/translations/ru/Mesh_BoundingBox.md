@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Mesh BoundingBox‏‎
-   Name/ru:Mesh BoundingBox‏‎
-   MenuLocation:Сетки - Анализ - Информация о структуре...
-   Workbenches:[Mesh](Mesh_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:
+   Name: Mesh BoundingBox‏‎
+   Name/ru: Mesh BoundingBox‏‎
+   MenuLocation: Сетки - Анализ - Информация о структуре...
+   Workbenches: [Mesh](Mesh_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Mesh BoundingBox/ru
@@ -38,4 +38,4 @@ The **Mesh BoundingBox** command shows the bounding box coordinates of a mesh ob
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/ru
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/ru

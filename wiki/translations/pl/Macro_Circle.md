@@ -169,4 +169,4 @@ ver 0.2 24/02/2015 : adding function \"**placemObject**\"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Circle/pl
+⏵ [documentation index](../README.md) > Macro Circle/pl

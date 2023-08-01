@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FCGear GearConnector
-   Name/fr:FCGear Combiner deux engrenages
-   MenuLocation:Gear - Combine two gears
-   Workbenches:[FCGear](FCGear_Workbench/fr.md)
-   Shortcut:Aucun
-   Version:1.0
-   SeeAlso:
+   Name: FCGear GearConnector
+   Name/fr: FCGear Combiner deux engrenages
+   MenuLocation: Gear - Combine two gears
+   Workbenches: [FCGear](FCGear_Workbench/fr.md)
+   Shortcut: Aucun
+   Version: 1.0
+   SeeAlso: 
 ---
 
 # FCGear GearConnector/fr
@@ -35,4 +35,4 @@ L\'ordre de sélection détermine si le deuxième élément peut rouler autour d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear GearConnector/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear GearConnector/fr

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Loft
-   Name/pl:Part: Wyciągnij po profilach
-   MenuLocation:Część - Wyciągnięcie po profilach...
-   Workbenches:[środowisko pracy Część](Part_Workbench/pl.md)
-   Version:0.13
-   SeeAlso:[Wyciągnięcie po ścieżce](Part_Sweep/pl.md)
+   Name: Part Loft
+   Name/pl: Part: Wyciągnij po profilach
+   MenuLocation: Część - Wyciągnięcie po profilach...
+   Workbenches: [środowisko pracy Część](Part_Workbench/pl.md)
+   Version: 0.13
+   SeeAlso: [Wyciągnięcie po ścieżce](Part_Sweep/pl.md)
 ---
 
 # Part Loft/pl
@@ -126,4 +126,4 @@ Kolejność sekcji zależy od kolejności kliknięć na liście. Jeśli chcesz w
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft/pl

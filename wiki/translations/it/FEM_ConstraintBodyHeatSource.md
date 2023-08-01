@@ -1,6 +1,6 @@
 # FEM ConstraintBodyHeatSource/it
 ---
-- GuiCommand:   Name:FEM ConstraintBodyHeatSource   Name/it:Vincolo fonte di calore del corpo   Icon:Fem-constraint-heatflux.svg   MenuLocation: Modello - Vincoli termici - Vincolo fonte di calore del corpo   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:   Name: FEM ConstraintBodyHeatSource   Name/it: Vincolo fonte di calore del corpo   Icon: Fem-constraint-heatflux.svg   MenuLocation:  Modello - Vincoli termici - Vincolo fonte di calore del corpo   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 
 </div>
@@ -49,4 +49,4 @@ Definisce un calore generato internamente e ceduto in W/kg (non J/m³). Per magg
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintBodyHeatSource/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintBodyHeatSource/it

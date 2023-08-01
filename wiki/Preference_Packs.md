@@ -420,4 +420,4 @@ See also [Private Preference Packs](Private_Preference_Packs.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > Preference Packs
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > Preference Packs

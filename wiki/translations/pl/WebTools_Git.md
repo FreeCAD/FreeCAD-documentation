@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:WebTools Git‏‎
-   MenuLocation:Web Tools - Git
-   Workbenches:[WebTools](WebTools_Workbench.md)
-   Version:0.17
+   Name: WebTools Git‏‎
+   MenuLocation: Web Tools - Git
+   Workbenches: [WebTools](WebTools_Workbench.md)
+   Version: 0.17
 ---
 
 # WebTools Git/pl
@@ -125,4 +125,4 @@ textconv = sh -c '/path/to/fcinfo --gui "$0"'
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > WebTools Git/pl
+⏵ [documentation index](../README.md) > WebTools Git/pl

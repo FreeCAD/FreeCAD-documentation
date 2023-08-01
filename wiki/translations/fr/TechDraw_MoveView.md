@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw MoveView
-   Name/fr:TechDraw Déplacer une vue
-   MenuLocation:TechDraw - Vues de Techdraw - Déplacer une vue
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.20
-   SeeAlso:[TechDraw Copier une vue](TechDraw_ShareView/fr.md)
+   Name: TechDraw MoveView
+   Name/fr: TechDraw Déplacer une vue
+   MenuLocation: TechDraw - Vues de Techdraw - Déplacer une vue
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Version: 0.20
+   SeeAlso: [TechDraw Copier une vue](TechDraw_ShareView/fr.md)
 ---
 
 # TechDraw MoveView/fr
@@ -50,4 +50,4 @@ TechDrawTools.MoveView(viewName, fromPageName, toPageName)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw MoveView/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw MoveView/fr

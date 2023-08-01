@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Shape2DView
-   Name/ru:Draft Shape2DView
-   MenuLocation:Черчение - 2D вид фигуры
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Name: Draft Shape2DView
+   Name/ru: Draft Shape2DView
+   MenuLocation: Черчение - 2D вид фигуры
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
 ---
 
 # Draft Shape2DView/ru
@@ -155,4 +155,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Shape2DView/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Shape2DView/ru

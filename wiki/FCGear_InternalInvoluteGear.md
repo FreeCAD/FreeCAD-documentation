@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FCGear InternalInvoluteGear
-   MenuLocation:Gear - Internal Involute Gear
-   Workbenches:[FCGear](FCGear_Workbench.md)
-   Shortcut:None
-   Version:1.0
-   SeeAlso:[FCGear InvoluteGear](FCGear_InvoluteGear.md)
+   Name: FCGear InternalInvoluteGear
+   MenuLocation: Gear - Internal Involute Gear
+   Workbenches: [FCGear](FCGear_Workbench.md)
+   Shortcut: None
+   Version: 1.0
+   SeeAlso: [FCGear InvoluteGear](FCGear_InvoluteGear.md)
 ---
 
 # FCGear InternalInvoluteGear
@@ -120,4 +120,4 @@ See [FCGear InvoluteGear](FCGear_InvoluteGear#Useful_formulas.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear InternalInvoluteGear
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear InternalInvoluteGear

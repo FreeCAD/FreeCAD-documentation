@@ -26,7 +26,7 @@ See [Help FreeCAD](Help_FreeCAD.md) for ways to contribute to FreeCAD.
 </div>
 
 
-{{TOCright}}
+
 
 **FreeCAD 0.21** был выпущен **DD MM 2023**, скачать его можно со [страницы загрузок](Download/ru.md). Текущая страница содержит описание новых возможностей и изменений.
 
@@ -1014,4 +1014,4 @@ If the [Start Workbench](Start_Workbench.md) shows only a blank page, you must e
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.21/ru
+⏵ [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.21/ru

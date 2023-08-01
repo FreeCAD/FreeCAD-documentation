@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_TreeSyncPlacement
-   Name/it:Sincronizza la posizione
-   MenuLocation:Visualizza - Azioni della vista ad albero - Sincronizza la posizione
-   Workbenches:Tutti
-   Shortcut:**T** **3**
-   Version:0.19
+   Name: Std_TreeSyncPlacement
+   Name/it: Sincronizza la posizione
+   MenuLocation: Visualizza - Azioni della vista ad albero - Sincronizza la posizione
+   Workbenches: Tutti
+   Shortcut: **T** **3**
+   Version: 0.19
 ---
 
 # Std TreeSyncPlacement/it
@@ -42,4 +42,4 @@ La modalità Sincronizza la posizione è memorizzata: **Strumenti → Modifica p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSyncPlacement/it
+⏵ [documentation index](../README.md) > Std TreeSyncPlacement/it

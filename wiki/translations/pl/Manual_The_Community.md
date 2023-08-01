@@ -38,4 +38,4 @@ Hopefully, we managed to give you a good taste of FreeCAD in this manual, and yo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Manual:The Community/pl
+⏵ [documentation index](../README.md) > Manual:The Community/pl

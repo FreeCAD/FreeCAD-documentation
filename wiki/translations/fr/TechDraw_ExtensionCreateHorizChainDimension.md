@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionCreateHorizChainDimension
-   Name/fr:TechDraw Cotes horizontales
-   MenuLocation:TechDraw - Extensions : cotes - Cotes horizontales
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw Cotes verticales](TechDraw_ExtensionCreateVertChainDimension/fr.md), [TechDraw Cotes obliques](TechDraw_ExtensionCreateObliqueChainDimension/fr.md)
+   Name: TechDraw ExtensionCreateHorizChainDimension
+   Name/fr: TechDraw Cotes horizontales
+   MenuLocation: TechDraw - Extensions : cotes - Cotes horizontales
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw Cotes verticales](TechDraw_ExtensionCreateVertChainDimension/fr.md), [TechDraw Cotes obliques](TechDraw_ExtensionCreateObliqueChainDimension/fr.md)
 ---
 
 # TechDraw ExtensionCreateHorizChainDimension/fr
@@ -40,4 +40,4 @@ L\'outil **TechDraw Cotes horizontales** crée une chaîne horizontale de cotes 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateHorizChainDimension/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateHorizChainDimension/fr

@@ -10,4 +10,4 @@ This category lists pages related to the [Robot Workbench/hr](Robot_Workbench/hr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Robot/hr
+⏵ [documentation index](../README.md) > Category:Robot/hr

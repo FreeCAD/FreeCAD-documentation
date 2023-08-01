@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign Hole
-   Name/pl:Projekt Części: otwór
-   MenuLocation:Projekt części - Utwórz cechę przez odjęcie - Otwór
-   Workbenches:[Projekt części](PartDesign_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Kieszeń](PartDesign_Pocket/pl.md)
+   Name: PartDesign Hole
+   Name/pl: Projekt Części: otwór
+   MenuLocation: Projekt części - Utwórz cechę przez odjęcie - Otwór
+   Workbenches: [Projekt części](PartDesign_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Kieszeń](PartDesign_Pocket/pl.md)
 ---
 
 # PartDesign Hole/pl
@@ -140,4 +140,4 @@ Przykład: {{Code|lang=json|code=
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Hole/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Hole/pl

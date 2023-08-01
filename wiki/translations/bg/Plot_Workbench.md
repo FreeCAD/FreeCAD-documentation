@@ -1,7 +1,7 @@
 # <img alt="Plot workbench icon" src=images/Workbench_Plot.svg  style="width:64px;"> Plot Workbench/bg
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -63,4 +63,4 @@ Since the Plot Workbench is a layer on top of `matplotlib`, you are free to use 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot Workbench/bg
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot Workbench/bg

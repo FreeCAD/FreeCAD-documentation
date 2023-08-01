@@ -53,4 +53,4 @@ Ici un exemple d\'utilisation de transformation d\'une feuille 2D en objet 3D [G
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Creating faces from a DXF file/fr
+⏵ [documentation index](../README.md) > Macro Creating faces from a DXF file/fr

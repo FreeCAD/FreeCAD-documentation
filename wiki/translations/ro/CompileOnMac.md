@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > CompileOnMac/ro
+⏵ [documentation index](../README.md) > CompileOnMac/ro

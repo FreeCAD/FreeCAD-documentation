@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_PrintPreview
-   Name/it:Anteprima di stampa
-   MenuLocation:File - Anteprima di stampa...
-   Workbenches:Tutti
-   SeeAlso:[Stampa](Std_Print/it.md)
+   Name: Std_PrintPreview
+   Name/it: Anteprima di stampa
+   MenuLocation: File - Anteprima di stampa...
+   Workbenches: Tutti
+   SeeAlso: [Stampa](Std_Print/it.md)
 ---
 
 # Std PrintPreview/it
@@ -41,4 +41,4 @@ Il comando **Anteprima di stampa** mostra un\'anteprima del risultato del comand
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std PrintPreview/it
+⏵ [documentation index](../README.md) > Std PrintPreview/it

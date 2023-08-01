@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPointDistance
-   Name/fr:Assembly3 Contrainte distance d'un point
-   Icon:Assembly_ConstraintPointDistance.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
-   SeeAlso:[Assembly3 Contrainte distance entre points](Assembly3_ConstraintPointsDistance/fr.md)
+   Name: Assembly3 ConstraintPointDistance
+   Name/fr: Assembly3 Contrainte distance d'un point
+   Icon: Assembly_ConstraintPointDistance.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   SeeAlso: [Assembly3 Contrainte distance entre points](Assembly3_ConstraintPointsDistance/fr.md)
 ---
 
 # Assembly3 ConstraintPointDistance/fr
@@ -24,4 +24,4 @@ Il peut traiter des éléments ponctuels 3D ainsi que des éléments ponctuels 2
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointDistance/fr
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPointDistance/fr

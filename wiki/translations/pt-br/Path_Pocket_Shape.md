@@ -1,6 +1,6 @@
 # Path Pocket Shape/pt-br
 ---
-- GuiCommand:   Name:Path Pocket   Name/pt:Path Pocket   Workbenches:[[Path Workbench/pt   Path]]|MenuLocation:Path - Pocket Shape - Cavidade   Shortcut:P,O   SeeAlso:---
+- GuiCommand:   Name: Path Pocket   Name/pt: Path Pocket   Workbenches: [[Path Workbench/pt   Path]]|MenuLocation: Path - Pocket Shape - Cavidade   Shortcut: P,O   SeeAlso: ---
 
 
 </div>
@@ -244,4 +244,4 @@ This section is simply a layout map of the settings in the window editor for the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Pocket Shape/pt-br
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Pocket Shape/pt-br

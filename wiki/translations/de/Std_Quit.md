@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Quit
-   Name/de:Std Beenden
-   MenuLocation:Datei - Beenden
-   Workbenches:All
-   Shortcut:**Alt**+**F4**
-   SeeAlso:[Std Schließen](Std_CloseActiveWindow/de.md)
+   Name: Std Quit
+   Name/de: Std Beenden
+   MenuLocation: Datei - Beenden
+   Workbenches: All
+   Shortcut: **Alt**+**F4**
+   SeeAlso: [Std Schließen](Std_CloseActiveWindow/de.md)
 ---
 
 # Std Quit/de
@@ -49,4 +49,4 @@ setzen, um Nachfragen zu jeder einzelnen Datei zu vermeiden.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Quit/de
+⏵ [documentation index](../README.md) > Std Quit/de

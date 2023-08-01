@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Measure Linear
-   Name/ru:Part Measure Linear
-   MenuLocation:Measure - Измерить длину
-   Workbenches:[Part](Part_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:
+   Name: Part Measure Linear
+   Name/ru: Part Measure Linear
+   MenuLocation: Measure - Измерить длину
+   Workbenches: [Part](Part_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Part Measure Linear/ru
@@ -39,4 +39,4 @@ The appearance of the measurements can be changed in the [preferences](PartDesig
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Linear/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Linear/ru

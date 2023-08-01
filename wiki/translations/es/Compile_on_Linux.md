@@ -2,7 +2,7 @@
 **Hay un contenedor experimental FreeCAD Docker que se está probando para el desarrollo de FreeCAD. Lea más sobre ello en [Compilar en Docker](Compile_on_Docker/es.md)**
 
 
-{{TOCright}}
+
 
 
 
@@ -1483,4 +1483,4 @@ Para actualizar FreeCAD a la última compilación simplemente repite el paso 3.A
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on Linux/es
+⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on Linux/es

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Ship Loading
-   MenuLocation:Weights - Create a new loading condition
-   Workbenches:[Ship](Ship_Workbench.md)
-   Shortcut:
-   SeeAlso:
+   Name: Ship Loading
+   MenuLocation: Weights - Create a new loading condition
+   Workbenches: [Ship](Ship_Workbench.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Ship LoadCondition/en
@@ -21,4 +21,4 @@ TODO
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship LoadCondition/en
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship LoadCondition/en

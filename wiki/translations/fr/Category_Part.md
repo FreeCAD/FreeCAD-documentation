@@ -40,4 +40,4 @@ Cette catégorie répertorie les pages liées à [Part Workbench/fr](Part_Workbe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Part/fr
+⏵ [documentation index](../README.md) > Category:Part/fr

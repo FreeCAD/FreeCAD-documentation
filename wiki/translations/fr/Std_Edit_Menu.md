@@ -1,7 +1,7 @@
 # <img alt="Icône de Std Base" src=images/Freecad.svg  style="width:64px;"> Std Edit Menu/fr
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -81,4 +81,4 @@ Les outils suivants sont disponibles dans ce menu :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Edit Menu/fr
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Edit Menu/fr

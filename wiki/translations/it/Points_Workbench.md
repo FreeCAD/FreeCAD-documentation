@@ -5,7 +5,7 @@
 ## Introduzione
 
 
-{{TOCright}}
+
 
 L\'[Ambiente Points](Points_Workbench/it.md) <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> offre gli strumenti specifici per lavorare con [point clouds](http://en.wikipedia.org/wiki/Point_cloud) (nuvole di punti). È ancora in sviluppo.
 
@@ -50,4 +50,4 @@ Una nuvola di punti è una raccolta di punti nello spazio 3D. Generalmente una n
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/it
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/it

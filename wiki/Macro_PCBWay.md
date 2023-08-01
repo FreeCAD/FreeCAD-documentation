@@ -248,4 +248,4 @@ main()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro PCBWay
+⏵ [documentation index](../README.md) > Macro PCBWay

@@ -1,6 +1,6 @@
 # Part Sweep/cs
 ---
-- GuiCommand:   Name:Part Sweep   Name/cs:Part Sweep   MenuLocation:Part - Sweep...   |Workbenches:[SeeAlso:[[Part Loft/cs|Part Loft](Part_Workbench/cs___Part]].md)---
+- GuiCommand:   Name: Part Sweep   Name/cs: Part Sweep   MenuLocation: Part - Sweep...   |Workbenches: [SeeAlso: [[Part Loft/cs|Part Loft](Part_Workbench/cs___Part]].md)---
 
 
 </div>
@@ -87,4 +87,4 @@ If \"Frenet\" is \"true\" the orientation of the profile is computed basing on l
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/cs
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/cs

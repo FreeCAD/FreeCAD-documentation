@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Path Sanity
-   Name/fr:Path Rechercher des erreurs
-   MenuLocation:Path - Vérifier les erreurs courantes dans la tâche du parcours
-   Workbenches:[Path](Path_Workbench/fr.md)
-   Shortcut:**P** **S**
-   Version:0.19
+   Name: Path Sanity
+   Name/fr: Path Rechercher des erreurs
+   MenuLocation: Path - Vérifier les erreurs courantes dans la tâche du parcours
+   Workbenches: [Path](Path_Workbench/fr.md)
+   Shortcut: **P** **S**
+   Version: 0.19
 ---
 
 # Path Sanity/fr
@@ -99,4 +99,4 @@ Les avertissements et les erreurs détectés par [Path Rechercher des erreurs](P
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Sanity/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Sanity/fr

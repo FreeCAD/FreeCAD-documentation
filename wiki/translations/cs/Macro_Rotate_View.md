@@ -52,4 +52,4 @@ cam.orientation = nrot
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Rotate View/cs
+⏵ [documentation index](../README.md) > Macro Rotate View/cs

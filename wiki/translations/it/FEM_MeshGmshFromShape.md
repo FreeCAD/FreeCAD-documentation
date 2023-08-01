@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM_MeshGmshFromShape
-   Name/it:Mesh FEM da forma con Gmsh
-   MenuLocation:Mesh - Mesh FEM da forma con Gmsh
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:Nessuno
-   SeeAlso:[FEM tutorial](FEM_tutorial/it.md)
+   Name: FEM_MeshGmshFromShape
+   Name/it: Mesh FEM da forma con Gmsh
+   MenuLocation: Mesh - Mesh FEM da forma con Gmsh
+   Workbenches: [FEM](FEM_Workbench/it.md)
+   Shortcut: Nessuno
+   SeeAlso: [FEM tutorial](FEM_tutorial/it.md)
 ---
 
 # FEM MeshGmshFromShape/it
@@ -154,4 +154,4 @@ Lower right: recombination at the surface and in the volume using the '''Simple 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshGmshFromShape/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshGmshFromShape/it

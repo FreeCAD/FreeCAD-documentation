@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign Sprocket
-   MenuLocation:Part Design - Sprocket...
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   Version:0.19
+   Name: PartDesign Sprocket
+   MenuLocation: Part Design - Sprocket...
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   Version: 0.19
 ---
 
 # PartDesign Sprocket
@@ -40,4 +40,4 @@ This tool allows you to create a 2D profile of a sprocket (or chainwheel). It ca
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Sprocket
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Sprocket

@@ -2,7 +2,7 @@
 **While we welcome and encourage community growth and participation, demands, emotional rants and wild claims are generally poorly received as our community is made up of many experienced and passionate supporters of FreeCAD who have heard similar statements many times over. If you find a feature lacking, or something which is annoying for you, we highly encourage you to consider getting engaged with the code itself. FreeCAD is largely developed by a relatively small group of talented people who all have day jobs, families and other interests beyond just programming on-demand. If you have the skills (Python/C++) and motivation to participate, your contributions can help make FreeCAD even better than it is today. You can find tracked bugs/feature requests [https://github.com/FreeCAD/FreeCAD/issues here].**
 
 
-{{TOCright}}
+
 
 ## Purpose
 
@@ -91,4 +91,4 @@ OpenCascade (OCC) is an external CAD kernel that FreeCAD is utterly dependent on
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD Managing Expectations/en
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD Managing Expectations/en

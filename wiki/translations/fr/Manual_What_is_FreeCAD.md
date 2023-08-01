@@ -22,4 +22,4 @@ Pour plus d\'informations:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Manual:What is FreeCAD/fr
+⏵ [documentation index](../README.md) > Manual:What is FreeCAD/fr

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw 2LineCenterLine
-   Name/it:Linea centrale a 2 linee
-   MenuLocation:TechDraw - Aggiungi linee - Linea centrale a 2 linee
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Linea a centro faccia](TechDraw_FaceCenterLine/it.md), [Linea centrale a 2 punti](TechDraw_2PointCenterLine/it.md)
-   Version:0.19
+   Name: TechDraw 2LineCenterLine
+   Name/it: Linea centrale a 2 linee
+   MenuLocation: TechDraw - Aggiungi linee - Linea centrale a 2 linee
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso: [Linea a centro faccia](TechDraw_FaceCenterLine/it.md), [Linea centrale a 2 punti](TechDraw_2PointCenterLine/it.md)
+   Version: 0.19
 ---
 
 # TechDraw 2LineCenterLine/it
@@ -79,4 +79,4 @@ Centerlines have no properties of their own, as they are not document objects.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2LineCenterLine/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2LineCenterLine/it

@@ -34,4 +34,4 @@ Non aggiungere i codici lingua \"/ fr\", \"/ de\", \"/ es\", \"/ ru\", ecc., se 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Wiki](Category_Wiki.md) > Localisation Sidebar/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Wiki](Category_Wiki.md) > Localisation Sidebar/it

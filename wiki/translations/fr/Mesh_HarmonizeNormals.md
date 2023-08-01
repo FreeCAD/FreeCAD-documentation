@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh HarmonizeNormals
-   Name/fr:Mesh Harmoniser les normales‎
-   MenuLocation:Maillages - Harmoniser les normales‎
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Inverser les normales](Mesh_FlipNormals/fr.md)
+   Name: Mesh HarmonizeNormals
+   Name/fr: Mesh Harmoniser les normales‎
+   MenuLocation: Maillages - Harmoniser les normales‎
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
+   SeeAlso: [Mesh Inverser les normales](Mesh_FlipNormals/fr.md)
 ---
 
 # Mesh HarmonizeNormals/fr
@@ -41,4 +41,4 @@ La commande **Harmoniser les normales‎** harmonise les normales des objets mai
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/fr

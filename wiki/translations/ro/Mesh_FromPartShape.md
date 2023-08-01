@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh FromPartShape
-   MenuLocation:Meshes - Create Mesh from Shape
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:
+   Name: Mesh FromPartShape
+   MenuLocation: Meshes - Create Mesh from Shape
+   Workbenches: [Mesh](Mesh_Workbench.md)
+   SeeAlso: 
 ---
 
 # Mesh FromPartShape/ro
@@ -271,4 +271,4 @@ msh.ViewObject.DisplayMode = "Flat Lines"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FromPartShape/ro
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FromPartShape/ro

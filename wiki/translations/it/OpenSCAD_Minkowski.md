@@ -1,6 +1,6 @@
 # OpenSCAD Minkowski/it
 ---
-- GuiCommand:   Name:OpenSCAD Minkowski   Name/it:Minkowski   MenuLocation:OpenSCAD - Minkowski‏‎   |Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: OpenSCAD Minkowski   Name/it: Minkowski   MenuLocation: OpenSCAD - Minkowski‏‎   |Workbenches: [[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -91,4 +91,4 @@ La funzione richiede che OpenSCAD sia installato e configurato nelle **Modifica*
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Minkowski/it
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Minkowski/it

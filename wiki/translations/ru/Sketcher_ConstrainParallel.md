@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Ограничение параллельности
-   Name:Sketcher_ConstrainParallel
-   MenuLocation:Sketch - Ограничения эскиза - Ограничение параллельности
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**P**
-   SeeAlso:[Ограничение вертикальности](Sketcher_ConstrainVertical/ru.md), [Ограничение горизонтальности](Sketcher_ConstrainHorizontal/ru.md)
+   Name/ru: Ограничение параллельности
+   Name: Sketcher_ConstrainParallel
+   MenuLocation: Sketch - Ограничения эскиза - Ограничение параллельности
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **P**
+   SeeAlso: [Ограничение вертикальности](Sketcher_ConstrainVertical/ru.md), [Ограничение горизонтальности](Sketcher_ConstrainHorizontal/ru.md)
 ---
 
 # Sketcher ConstrainParallel/ru
@@ -56,4 +56,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainParallel/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainParallel/ru

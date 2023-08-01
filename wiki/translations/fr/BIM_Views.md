@@ -1,10 +1,10 @@
 ---
 - GuiCommand:Addon/fr
-   Name:BIM Views
-   Name/fr:BIM Vues
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/fr.md)
-   Addon:BIM
-   MenuLocation:Manage - Views
+   Name: BIM Views
+   Name/fr: BIM Vues
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/fr.md)
+   Addon: BIM
+   MenuLocation: Manage - Views
 ---
 
 # BIM Views/fr
@@ -36,4 +36,4 @@ Le gestionnaire de vues BIM affichera tous les niveaux (éléments de constructi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Views/fr
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Views/fr

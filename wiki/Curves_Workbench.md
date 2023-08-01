@@ -53,4 +53,4 @@ Download the Curves workbench via the <img alt="" src=images/Std_AddonMgr.svg  s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [Curves](Category_Curves.md) > Curves Workbench
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [Curves](Category_Curves.md) > Curves Workbench

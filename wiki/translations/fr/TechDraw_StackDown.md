@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw StackDown
-   Name/fr:TechDraw Empiler vers le bas
-   MenuLocation:TechDraw - Empiler - Déplacer la vue vers le bas d'un niveau
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.21
-   SeeAlso:[TechDraw Empiler en haut](TechDraw_StackTop/fr.md), [TechDraw Empiler en bas](TechDraw_StackBottom/fr.md), [TechDraw Empiler vers le haut](TechDraw_StackUp/fr.md)
+   Name: TechDraw StackDown
+   Name/fr: TechDraw Empiler vers le bas
+   MenuLocation: TechDraw - Empiler - Déplacer la vue vers le bas d'un niveau
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.21
+   SeeAlso: [TechDraw Empiler en haut](TechDraw_StackTop/fr.md), [TechDraw Empiler en bas](TechDraw_StackBottom/fr.md), [TechDraw Empiler vers le haut](TechDraw_StackUp/fr.md)
 ---
 
 # TechDraw StackDown/fr
@@ -28,4 +28,4 @@ Voir [TechDraw Empiler en haut](TechDraw_StackTop/fr.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw StackDown/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw StackDown/fr

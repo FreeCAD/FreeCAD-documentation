@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Drawing Module/fr
+⏵ [documentation index](../README.md) > Drawing Module/fr

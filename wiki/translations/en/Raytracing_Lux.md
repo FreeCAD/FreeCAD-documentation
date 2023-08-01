@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Raytracing Lux
-   MenuLocation:Raytracing - New Luxrender project‏‎
-   Workbenches:[Raytracing](Raytracing_Workbench.md)
-   Shortcut:
-   SeeAlso:
+   Name: Raytracing Lux
+   MenuLocation: Raytracing - New Luxrender project‏‎
+   Workbenches: [Raytracing](Raytracing_Workbench.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Raytracing Lux/en
@@ -37,4 +37,4 @@ Insert new LuxRender project in the document.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Lux/en
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Lux/en

@@ -1,6 +1,4 @@
 # Source documentation/it
-{{TOCright}}
-
 ## Panoramica
 
 Il codice sorgente di FreeCAD è commentato per consentire la generazione automatica della documentazione di programmazione utilizzando [Doxygen](Doxygen/it.md), un popolare sistema di documentazione del codice sorgente. Doxygen può documentare entrambe le parti C++ e Python di FreeCAD, ottenendo pagine HTML con collegamenti ipertestuali a ciascuna funzione e classe documentata.
@@ -132,4 +130,4 @@ void removeTaskWatcher(void);
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source documentation/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source documentation/it

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part SliceApart
-   Name/de:Part Auseinanderschneiden
-   MenuLocation:Formteil - Teilen - Auseinanderschneiden
-   Version:0.18.15506
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Teilen zu einem Verbund](Part_Slice/de.md), [Part Verbund Sprengen](Part_ExplodeCompound/de.md)
+   Name: Part SliceApart
+   Name/de: Part Auseinanderschneiden
+   MenuLocation: Formteil - Teilen - Auseinanderschneiden
+   Version: 0.18.15506
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: [Part Teilen zu einem Verbund](Part_Slice/de.md), [Part Verbund Sprengen](Part_ExplodeCompound/de.md)
 ---
 
 # Part SliceApart/de
@@ -72,4 +72,4 @@ Auseinanderschneiden wurde in FreeCAD v0.18.15506 eingeführt. FreeCAD muss mit 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/de

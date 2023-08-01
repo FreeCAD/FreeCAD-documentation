@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh FromPartShape
-   Name/ru:Mesh MeshFromShape‏‎
-   MenuLocation:Полигональные Сетки - Создать полигональную сетку из фигуры
-   Workbenches:[Mesh](Mesh_Workbench/ru.md)
-   SeeAlso:
+   Name: Mesh FromPartShape
+   Name/ru: Mesh MeshFromShape‏‎
+   MenuLocation: Полигональные Сетки - Создать полигональную сетку из фигуры
+   Workbenches: [Mesh](Mesh_Workbench/ru.md)
+   SeeAlso: 
 ---
 
 # Mesh FromPartShape/ru
@@ -199,4 +199,4 @@ msh.ViewObject.DisplayMode = "Flat Lines"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FromPartShape/ru
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FromPartShape/ru

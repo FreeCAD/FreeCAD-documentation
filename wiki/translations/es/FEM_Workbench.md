@@ -10,7 +10,7 @@
 <img alt="El icono del Ambiente de trabajo MEF" src=images/Workbench_FEM.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 
 
@@ -608,4 +608,4 @@ A developer\'s guide has been written to help power users in understanding the c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [FEM](Category_FEM.md) > FEM Workbench/es
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [FEM](Category_FEM.md) > FEM Workbench/es

@@ -10,4 +10,4 @@ This category lists pages related to the [Plot Workbench/zh](Plot_Workbench/zh.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Plot/zh
+⏵ [documentation index](../README.md) > Category:Plot/zh

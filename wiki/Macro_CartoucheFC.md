@@ -953,4 +953,4 @@ ver 0.3 02/07/2014 converted to PyQt4 and PySide
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro CartoucheFC
+⏵ [documentation index](../README.md) > Macro CartoucheFC

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_BoxElementSelection
-   Name/it:Seleziona elementi
-   MenuLocation:Modifica - Box di selezione di elementi
-   Workbenches:Tutti
-   Shortcut:**Shift**+**E**
-   SeeAlso:[Seleziona tutto](Std_SelectAll/it.md), [Box di selezione](Std_BoxSelection/it.md), [Part Box di selezione](Part_BoxSelection/it.md)
+   Name: Std_BoxElementSelection
+   Name/it: Seleziona elementi
+   MenuLocation: Modifica - Box di selezione di elementi
+   Workbenches: Tutti
+   Shortcut: **Shift**+**E**
+   SeeAlso: [Seleziona tutto](Std_SelectAll/it.md), [Box di selezione](Std_BoxSelection/it.md), [Part Box di selezione](Part_BoxSelection/it.md)
 ---
 
 # Std BoxElementSelection/it
@@ -38,4 +38,4 @@ Il comando **Box di selezione di elementi** seleziona le facce in un\'area retta
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std BoxElementSelection/it
+⏵ [documentation index](../README.md) > Std BoxElementSelection/it

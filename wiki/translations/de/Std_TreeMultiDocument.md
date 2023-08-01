@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreeMultiDocument
-   Name/de:Std BaumMehrfachdokument
-   MenuLocation:Ansicht - Baumansicht-Aktionen - Mehrfachdokument
-   Workbenches:Alle
-   Version:0.19
-   SeeAlso:[Std BaumEinfachdokument](Std_TreeSingleDocument/de.md), [Std BaumDokumentReduzieren](Std_TreeCollapseDocument/de.md)
+   Name: Std TreeMultiDocument
+   Name/de: Std BaumMehrfachdokument
+   MenuLocation: Ansicht - Baumansicht-Aktionen - Mehrfachdokument
+   Workbenches: Alle
+   Version: 0.19
+   SeeAlso: [Std BaumEinfachdokument](Std_TreeSingleDocument/de.md), [Std BaumDokumentReduzieren](Std_TreeCollapseDocument/de.md)
 ---
 
 # Std TreeMultiDocument/de
@@ -41,4 +41,4 @@ Die Einstellung Dokument-Modus der Baumansicht wird gespeichert: **Werkzeuge →
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeMultiDocument/de
+⏵ [documentation index](../README.md) > Std TreeMultiDocument/de

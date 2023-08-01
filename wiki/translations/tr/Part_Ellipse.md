@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Ellipse
-   Name/tr:Parça Elips
-   MenuLocation:Parça - [Temel geometrik şekil oluştur](Part_CreatePrimitives.md) - Elips
-   Workbenches:[Parça](Part_Workbench/tr.md),  [OpenSCAD](OpenSCAD_Workbench/tr.md)
-   SeeAlso:..
+   Name: Part Ellipse
+   Name/tr: Parça Elips
+   MenuLocation: Parça - [Temel geometrik şekil oluştur](Part_CreatePrimitives.md) - Elips
+   Workbenches: [Parça](Part_Workbench/tr.md),  [OpenSCAD](OpenSCAD_Workbench/tr.md)
+   SeeAlso: ..
 ---
 
 # Part Ellipse/tr
@@ -111,4 +111,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipse/tr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipse/tr

@@ -1,6 +1,4 @@
 # Feature editing/it
-{{TOCright}}
-
 ## Introduzione
 
 Questa pagina spiega come utilizzare l\'ambiente <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [PartDesign](PartDesign_Workbench/it.md) a partire da FreeCAD 0.17.
@@ -174,4 +172,4 @@ La pagina [Tutorial](Tutorials/it.md) fornisce alcuni esempi di utilizzo del met
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [PartDesign](Category_PartDesign.md) > Feature editing/it
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [PartDesign](Category_PartDesign.md) > Feature editing/it

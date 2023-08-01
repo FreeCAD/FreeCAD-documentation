@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainParallel
-   Name/es:Croquizador RestringirParallel
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation:Croquis - Restricciones del Croquizador - Restringir Paralela
-   Shortcut:**Shift** + **P**
-   SeeAlso:[Croquizador Restriccion Vertical](Sketcher_ConstrainVertical/es.md), [Croquizador Restriccion Horizontal](Sketcher_ConstrainHorizontal/es.md)
+   Name: Sketcher ConstrainParallel
+   Name/es: Croquizador RestringirParallel
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   MenuLocation: Croquis - Restricciones del Croquizador - Restringir Paralela
+   Shortcut: **Shift** + **P**
+   SeeAlso: [Croquizador Restriccion Vertical](Sketcher_ConstrainVertical/es.md), [Croquizador Restriccion Horizontal](Sketcher_ConstrainHorizontal/es.md)
 ---
 
 # Sketcher ConstrainParallel/es
@@ -71,4 +71,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainParallel/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainParallel/es

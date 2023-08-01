@@ -1,6 +1,4 @@
 # Macros/pl
-{{TOCright}}
-
 ## Wprowadzenie
 
 [Makra](Macros/pl.md) to wygodny sposób na odtworzenie złożonych działań w programie FreeCAD. Po prostu nagrywasz działania tak, jak je wykonujesz, a następnie zapisujesz je pod nazwą i odtwarzasz, kiedy tylko chcesz. Ponieważ makra są w rzeczywistości listą poleceń [Python](Python.md), możesz je również edytować i tworzyć bardzo złożone skrypty.
@@ -64,4 +62,4 @@ Możesz ręcznie instalować rozszerzenia, jednak znacznie prostsze jest użycie
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Macros](Category_Macros.md) > Macros/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Macros](Category_Macros.md) > Macros/pl

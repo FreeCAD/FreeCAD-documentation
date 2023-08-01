@@ -218,4 +218,4 @@ For now, the macro is run with the mode parameter set to direct and no choice is
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro clone explicit/en
+⏵ [documentation index](../README.md) > Macro clone explicit/en

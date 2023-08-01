@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:EM FHPort
-   Name/it:EM FHPort
-   MenuLocation:EM - FHPort
-   Workbenches:[EM](EM_Workbench/it.md) (add-on)
-   Shortcut:**E** **P**
-   SeeAlso:[EM FHNode](EM_FHNode/it.md), [EM FHSegment](EM_FHSegment/it.md), [EM FHPath](EM_FHPath/it.md), [EM FHPlane](EM_FHPlane/it.md), [EM FHEquiv](EM_FHEquiv/it.md),
-   Version:0.17
+   Name: EM FHPort
+   Name/it: EM FHPort
+   MenuLocation: EM - FHPort
+   Workbenches: [EM](EM_Workbench/it.md) (add-on)
+   Shortcut: **E** **P**
+   SeeAlso: [EM FHNode](EM_FHNode/it.md), [EM FHSegment](EM_FHSegment/it.md), [EM FHPath](EM_FHPath/it.md), [EM FHPlane](EM_FHPlane/it.md), [EM FHEquiv](EM_FHEquiv/it.md),
+   Version: 0.17
 ---
 
 # EM FHPort/it
@@ -86,4 +86,4 @@ fhport = EM.makeFHPort(fhnode_p, fhnode_n)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [EM](Category_EM.md) > EM FHPort/it
+⏵ [documentation index](../README.md) > [EM](Category_EM.md) > EM FHPort/it

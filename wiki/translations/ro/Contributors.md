@@ -1,7 +1,4 @@
-# Contributors/ro
-{{TOCright}}
-
-<img alt="" src=images/FreeCAD_Users_Contributors.svg  style="width:64px;">
+# <img alt="" src=images/FreeCAD_Users_Contributors.svg  style="width:64px;"> Contributors/ro
 
 FreeCAD n-ar fi ceea ce este fără contribuţia generoasă a mai multor persoane. Aici găsiţi o cuprindere a oamenilor şi companiilor care au contribuit la realizarea FreeCAD de-a lungul timpului. Pentru creditele cuvenite de sursele terţiare vedeţi pagina [Third Party Libraries/ro](Third_Party_Libraries/ro.md).
 
@@ -324,4 +321,4 @@ Dezvoltatori ai FreeCAD addons (preluat din <https://github.com/FreeCAD/FreeCAD-
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > Contributors/ro
+⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > Contributors/ro

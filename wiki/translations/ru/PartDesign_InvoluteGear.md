@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Шестерня с эвольвентным профилем
-   Name:PartDesign_InvoluteGear
-   MenuLocation:Part Design - Шестерня с эвольвентным профилем...
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   SeeAlso:[Верстак FCGear](FCGear_Workbench/ru.md)
+   Name/ru: Шестерня с эвольвентным профилем
+   Name: PartDesign_InvoluteGear
+   MenuLocation: Part Design - Шестерня с эвольвентным профилем...
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso: [Верстак FCGear](FCGear_Workbench/ru.md)
 ---
 
 # PartDesign InvoluteGear/ru
@@ -200,4 +200,4 @@ Hint: To make the helical angle an accessible parameter, use a *dynamic property
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/ru

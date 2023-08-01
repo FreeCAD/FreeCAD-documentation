@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainRadius
-   MenuLocation:Sketch - Sketcher constraints - Constrain radius or weight
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**K** **R**
-   SeeAlso:[Sketcher Constrain distance](Sketcher_ConstrainDistance.md), [Sketcher Constrain horizontal distance](Sketcher_ConstrainDistanceX.md), [Sketcher Constrain vertical distance](Sketcher_ConstrainDistanceY.md)
+   Name: Sketcher ConstrainRadius
+   MenuLocation: Sketch - Sketcher constraints - Constrain radius or weight
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **K** **R**
+   SeeAlso: [Sketcher Constrain distance](Sketcher_ConstrainDistance.md), [Sketcher Constrain horizontal distance](Sketcher_ConstrainDistanceX.md), [Sketcher Constrain vertical distance](Sketcher_ConstrainDistanceY.md)
 ---
 
 # Sketcher ConstrainRadius
@@ -49,4 +49,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadius
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadius

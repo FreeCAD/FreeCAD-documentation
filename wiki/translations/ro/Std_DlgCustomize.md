@@ -1,6 +1,6 @@
 # Std DlgCustomize/ro
 ---
-- GuiCommand:   Name:Std DlgCustomize   MenuLocation:[Workbenches:All   Shortcut:   SeeAlso:[[Interface_Customization|Interface Customization](Std_Tools_Menu___Tools]]_-_Customize....md)---
+- GuiCommand:   Name: Std DlgCustomize   MenuLocation: [Workbenches: All   Shortcut:    SeeAlso: [[Interface_Customization|Interface Customization](Std_Tools_Menu___Tools]]_-_Customize....md)---
 
 
 </div>
@@ -48,4 +48,4 @@ Alegeți ** Tools** → **<img src="images/Std_DlgCustomize.png" width=32px> Cus
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgCustomize/ro
+⏵ [documentation index](../README.md) > Std DlgCustomize/ro

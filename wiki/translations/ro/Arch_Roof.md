@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Roof
-   Name/ro:Arch Roof
-   MenuLocation:Arch - Roof
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   Shortcut:R F
-   SeeAlso:[[Arch Structure]], [[Arch Wall]]
+   Name: Arch Roof
+   Name/ro: Arch Roof
+   MenuLocation: Arch - Roof
+   Workbenches: [Arch](Arch_Workbench/ro.md)
+   Shortcut: R F
+   SeeAlso: [[Arch Structure]], [[Arch Wall]]
 ---
 
 # Arch Roof/ro
@@ -170,4 +170,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Roof/ro
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Roof/ro

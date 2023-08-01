@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintAttachmentOffset
-   Name/de:Assembly3 BefestigungVersatz
-   Icon:Assembly_ConstraintAttachmentOffset.svg‎‎
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintAttachmentOffset
+   Name/de: Assembly3 BefestigungVersatz
+   Icon: Assembly_ConstraintAttachmentOffset.svg‎‎
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintAttachmentOffset/de
@@ -24,4 +24,4 @@ Diese Verbindung lässt keinen Freiheitsgrad unbestimmt.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintAttachmentOffset/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintAttachmentOffset/de

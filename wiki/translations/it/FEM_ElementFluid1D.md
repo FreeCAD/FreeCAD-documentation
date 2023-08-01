@@ -1,6 +1,6 @@
 # FEM ElementFluid1D/it
 ---
-- GuiCommand:   Name:FEM_ElementFluid1D   Name/it:Elemento Fluido 1D   MenuLocation:Modello - Sezione del fluido per il flusso 1D   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|FEM tutorial](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:   Name: FEM_ElementFluid1D   Name/it: Elemento Fluido 1D   MenuLocation: Modello - Sezione del fluido per il flusso 1D   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/it|FEM tutorial](FEM_Workbench/it___FEM]].md)---
 
 
 
@@ -60,4 +60,4 @@ Crea un elemento FEM di sezione del fluido per le reti pneumatiche e idrauliche
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementFluid1D/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementFluid1D/it

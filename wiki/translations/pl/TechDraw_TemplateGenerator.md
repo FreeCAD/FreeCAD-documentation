@@ -558,4 +558,4 @@ I jak to powinno wyglądać po wstawieniu *(plus powiększony blok tytułowy)*:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateGenerator/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateGenerator/pl

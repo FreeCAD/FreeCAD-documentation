@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch SplitMesh
-   Name/es:Arch SplitMesh
-   MenuLocation:Arquitectura - Utilidades - Dividir malla
-   Workbenches:[Arquitectura](Arch_Workbench/es.md)
-   SeeAlso:[Seleccionar Mallas no sólidas](Arch_SelectNonSolidMeshes/es.md)
+   Name: Arch SplitMesh
+   Name/es: Arch SplitMesh
+   MenuLocation: Arquitectura - Utilidades - Dividir malla
+   Workbenches: [Arquitectura](Arch_Workbench/es.md)
+   SeeAlso: [Seleccionar Mallas no sólidas](Arch_SelectNonSolidMeshes/es.md)
 ---
 
 # Arch SplitMesh/es
@@ -94,4 +94,4 @@ new_list = Arch.splitMesh(mesh_obj)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/es
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/es

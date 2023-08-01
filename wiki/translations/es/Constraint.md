@@ -2,7 +2,7 @@
 ## Introducción
 
 
-{{TOCright}}
+
 
 En FreeCAD la palabra \"[Restricción](Constraint/es.md)\" se usa normalmente para referirse a una \"regla\" para dibujar formas geométricas dentro de un <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketch](Sketch/es.md) (`Sketcher::SketchObject` clase). Una restricción limita la posición de un determinado elemento geométrico de diferentes maneras, por ejemplo, puede especificar si el elemento es horizontal, vertical, tangente, paralelo, perpendicular, coincidente con un punto, concéntrico a otro objeto, etc.
 
@@ -53,4 +53,4 @@ Vea la información en el <img alt="" src=images/Workbench_Sketcher.svg  style="
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Constraint/es
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Constraint/es

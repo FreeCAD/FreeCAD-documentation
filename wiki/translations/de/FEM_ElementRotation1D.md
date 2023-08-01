@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ElementRotation1D
-   Name/de:FEM Elementdrehung1D
-   MenuLocation:Model - Element-Geometrie - Beam rotation
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   SeeAlso:[FEM Anleitung](FEM_tutorial/de.md)
+   Name: FEM ElementRotation1D
+   Name/de: FEM Elementdrehung1D
+   MenuLocation: Model - Element-Geometrie - Beam rotation
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   SeeAlso: [FEM Anleitung](FEM_tutorial/de.md)
 ---
 
 # FEM ElementRotation1D/de
@@ -55,4 +55,4 @@ Ein **ElementRotation1D**-Objekt wird zum drehen des Balkenprofils um die Achse 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementRotation1D/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementRotation1D/de

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Web BrowserZoomIn
-   Name/fr:Web Zoom avant
-   MenuLocation:
-   Workbenches:[Web](Web_Workbench/fr.md), [Start](Start_Workbench/fr.md)
-   SeeAlso:
+   Name: Web BrowserZoomIn
+   Name/fr: Web Zoom avant
+   MenuLocation: 
+   Workbenches: [Web](Web_Workbench/fr.md), [Start](Start_Workbench/fr.md)
+   SeeAlso: 
 ---
 
 # Web BrowserZoomIn/fr
@@ -28,4 +28,4 @@ Utilisez la commande <img alt="" src=images/Web_BrowserZoomIn.svg  style="width:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserZoomIn/fr
+⏵ [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserZoomIn/fr

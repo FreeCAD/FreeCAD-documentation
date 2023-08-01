@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path Job
-   MenuLocation:Path - Job
-   Workbenches:[Path](Path_Workbench.md)
-   Shortcut:**P** **J**
-   SeeAlso:[Path Post](Path_Post.md), [Path Postprocessor Customization](Path_Postprocessor_Customization.md)
+   Name: Path Job
+   MenuLocation: Path - Job
+   Workbenches: [Path](Path_Workbench.md)
+   Shortcut: **P** **J**
+   SeeAlso: [Path Post](Path_Post.md), [Path Postprocessor Customization](Path_Postprocessor_Customization.md)
 ---
 
 # Path Job/ru
@@ -85,4 +85,4 @@ If you have a job which contends more than one path operation, you can determine
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/ru
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/ru

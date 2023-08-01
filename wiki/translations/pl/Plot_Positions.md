@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Plot Positions
-   Name/pl:Wykres: Ustaw pozycje i rozmiary
-   MenuLocation:Wykres - Ustaw pozycje i rozmiary
-   Workbenches:[Wykres](Plot_Workbench/pl.md)
+   Name: Plot Positions
+   Name/pl: Wykres: Ustaw pozycje i rozmiary
+   MenuLocation: Wykres - Ustaw pozycje i rozmiary
+   Workbenches: [Wykres](Plot_Workbench/pl.md)
 ---
 
 # Plot Positions/pl
@@ -37,4 +37,4 @@ Wybierz kartę wykresu, który chcesz edytować, i uruchom to narzędzie. Nastę
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Positions/pl
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Positions/pl

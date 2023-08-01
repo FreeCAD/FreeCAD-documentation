@@ -1,6 +1,6 @@
 # PartDesign AdditiveCylinder/ro
 ---
-- GuiCommand:   Name:PartDesign AdditiveCylinder   Workbenches:[MenuLocation:Part Design - Create an additive primitive - Additive Cylinder   Shortcut:None   SeeAlso:[[PartDesign CompPrimitiveAdditive](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign AdditiveCylinder   Workbenches: [MenuLocation: Part Design - Create an additive primitive - Additive Cylinder   Shortcut: None   SeeAlso: [[PartDesign CompPrimitiveAdditive](PartDesign_Workbench___PartDesign]].md)---
 
 
 </div>
@@ -74,4 +74,4 @@ Cilindrul poate fi editat, după crearea sa, în două moduri:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCylinder/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCylinder/ro

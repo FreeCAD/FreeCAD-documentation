@@ -48,4 +48,4 @@ The standard menu is composed of 7 sub-menus:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Standard Menu
+⏵ [documentation index](../README.md) > Standard Menu

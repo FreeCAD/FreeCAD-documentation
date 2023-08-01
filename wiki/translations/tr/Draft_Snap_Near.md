@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Near
-   Name/tr:Taslak En yakın
-   MenuLocation:Taslak - [Yakalama](Draft_Snap/tr.md) - En yakın
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   Shortcut:
-   SeeAlso:
+   Name: Draft Snap Near
+   Name/tr: Taslak En yakın
+   MenuLocation: Taslak - [Yakalama](Draft_Snap/tr.md) - En yakın
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Draft Snap Near/tr
@@ -73,4 +73,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Near/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Near/tr

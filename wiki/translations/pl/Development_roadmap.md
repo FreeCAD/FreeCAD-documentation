@@ -16,4 +16,4 @@ Niektóre plany na Wiki używają stylu [Getting Things Done *(GTD)*](https://en
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Development roadmap/pl
+⏵ [documentation index](../README.md) > Development roadmap/pl

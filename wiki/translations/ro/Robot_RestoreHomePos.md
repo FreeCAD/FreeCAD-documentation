@@ -1,6 +1,6 @@
 # Robot RestoreHomePos/ro
 ---
-- GuiCommand:   Name:Robot RestoreHomePos   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot - Restore home position---
+- GuiCommand:   Name: Robot RestoreHomePos   Workbenches: [[Robot_Workbench   Robot]]|MenuLocation: Robot - Restore home position---
 
 
 </div>
@@ -55,4 +55,4 @@ If no home position has been specified via [Robot_SetHomePos](Robot_SetHomePos.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos/ro
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos/ro

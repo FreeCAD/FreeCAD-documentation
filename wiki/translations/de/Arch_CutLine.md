@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch CutLine
-   Name/de:Arch SchneideLinie
-   MenuLocation:Arch - Schneiden mit einer Linie
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   SeeAlso:[Arch SchneideEbene](Arch_CutPlane/de.md)
-   Version:0.19
+   Name: Arch CutLine
+   Name/de: Arch SchneideLinie
+   MenuLocation: Arch - Schneiden mit einer Linie
+   Workbenches: [Arch](Arch_Workbench/de.md)
+   SeeAlso: [Arch SchneideEbene](Arch_CutPlane/de.md)
+   Version: 0.19
 ---
 
 # Arch CutLine/de
@@ -47,4 +47,4 @@ Das [Arch SchneideLinie](Arch_CutLine/de.md) Werkzeug ermöglicht dir ein festes
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutLine/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutLine/de

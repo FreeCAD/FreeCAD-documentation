@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Fillet
-   MenuLocation:Part - Fillet...
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part Chamfer](Part_Chamfer.md)
+   Name: Part Fillet
+   MenuLocation: Part - Fillet...
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Part Chamfer](Part_Chamfer.md)
 ---
 
 # Part Fillet/pt-br
@@ -43,4 +43,4 @@ The fillet tool is affected by the [topological naming problem](Topological_nami
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/pt-br
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/pt-br

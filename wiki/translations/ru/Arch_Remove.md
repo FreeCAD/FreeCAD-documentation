@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Удалить компонент
-   Name/ru:Arch Remove
-   MenuLocation:Архитектура - Удалить компонент
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   SeeAlso:[Arch CutLine](Arch_CutLine.md), [Arch CutPlane](Arch_CutPlane.md), [Добавить компонент](Arch_Add/ru.md)
+   Name: Удалить компонент
+   Name/ru: Arch Remove
+   MenuLocation: Архитектура - Удалить компонент
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   SeeAlso: [Arch CutLine](Arch_CutLine.md), [Arch CutPlane](Arch_CutPlane.md), [Добавить компонент](Arch_Add/ru.md)
 ---
 
 # Arch Remove/ru
@@ -84,4 +84,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/ru

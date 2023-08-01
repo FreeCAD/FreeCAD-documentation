@@ -92,4 +92,4 @@ FreeCAD permet aux utilisateurs de concevoir de nombreuses façons, du dessin 2D
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Books/fr
+⏵ [documentation index](../README.md) > Books/fr

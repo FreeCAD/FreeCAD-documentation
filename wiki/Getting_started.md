@@ -134,4 +134,4 @@ And finally, one of the most powerful features of FreeCAD is the [scripting](scr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Getting started
+⏵ [documentation index](../README.md) > Getting started

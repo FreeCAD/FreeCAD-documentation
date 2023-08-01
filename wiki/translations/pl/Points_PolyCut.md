@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Points PolyCut
-   Name/pl:Punkty: Wycinanie punktów
-   MenuLocation:Punkty - Wytnij punkt chmury
-   Workbenches:[Punkty](Points_Workbench/pl.md)
+   Name: Points PolyCut
+   Name/pl: Punkty: Wycinanie punktów
+   MenuLocation: Punkty - Wytnij punkt chmury
+   Workbenches: [Punkty](Points_Workbench/pl.md)
 ---
 
 # Points PolyCut/pl
@@ -47,4 +47,4 @@ Polecenie **Wycinanie punktów** wycina punkty z chmury punktów.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points PolyCut/pl
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points PolyCut/pl

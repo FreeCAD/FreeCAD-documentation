@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw Balloon
-   MenuLocation:TechDraw - Annotations - Insert Balloon Annotation
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.19
-   SeeAlso:[TechDraw Annotation](TechDraw_Annotation.md)
+   Name: TechDraw Balloon
+   MenuLocation: TechDraw - Annotations - Insert Balloon Annotation
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Version: 0.19
+   SeeAlso: [TechDraw Annotation](TechDraw_Annotation.md)
 ---
 
 # TechDraw Balloon/en
@@ -104,4 +104,4 @@ rc = page.addView(bal1)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Balloon/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Balloon/en

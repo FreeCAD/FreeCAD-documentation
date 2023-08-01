@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw_HorizontalDimension
-   Name/it:Dimensione orizzontale
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   MenuLocation:TechDraw - Dimensione orizzontale
-   Shortcut:
-   SeeAlso:[Lunghezza](TechDraw_LengthDimension/it.md), [Dimensione verticale](TechDraw_VerticalDimension/it.md)
+   Name: TechDraw_HorizontalDimension
+   Name/it: Dimensione orizzontale
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   MenuLocation: TechDraw - Dimensione orizzontale
+   Shortcut: 
+   SeeAlso: [Lunghezza](TechDraw_LengthDimension/it.md), [Dimensione verticale](TechDraw_VerticalDimension/it.md)
 ---
 
 # TechDraw HorizontalDimension/it
@@ -56,4 +56,4 @@ For more information see [TechDraw LengthDimension](TechDraw_LengthDimension.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HorizontalDimension/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HorizontalDimension/it

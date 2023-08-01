@@ -1,6 +1,6 @@
 # WebTools Sketchfab/it
 ---
-- GuiCommand:   Name:WebTools Sketchfab   Name/it:WebTools Sketchfab   MenuLocation:WebTools - Sketchfab   |Workbenches:[[WebTools Workbench/it   WebTools]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: WebTools Sketchfab   Name/it: WebTools Sketchfab   MenuLocation: WebTools - Sketchfab   |Workbenches: [[WebTools Workbench/it   WebTools]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -43,4 +43,4 @@ Questo strumento consente di esportare e caricare gli oggetti in un proprio acco
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > WebTools Sketchfab/it
+⏵ [documentation index](../README.md) > WebTools Sketchfab/it

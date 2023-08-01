@@ -1,6 +1,6 @@
 # OpenSCAD AddOpenSCADElement/ja
 ---
-- GuiCommand:   Name:OpenSCAD_AddOpenSCADElement   Name/ja:OpenSCAD_AddOpenSCADElement   Workbenches:[[OpenSCAD Module   OpenSCAD]]|MenuLocation:OpenSCAD -> Add OpenSCAD Element---
+- GuiCommand:   Name: OpenSCAD_AddOpenSCADElement   Name/ja: OpenSCAD_AddOpenSCADElement   Workbenches: [[OpenSCAD Module   OpenSCAD]]|MenuLocation: OpenSCAD -> Add OpenSCAD Element---
 
 
 </div>
@@ -102,4 +102,4 @@ FreeCADバージョン0.14以降、上記の設定が空の場合、FreeCADはOp
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD AddOpenSCADElement/ja
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD AddOpenSCADElement/ja

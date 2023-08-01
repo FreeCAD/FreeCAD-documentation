@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw DiameterDimension
-   Name/pl:Rysunek Techniczny: Wstaw wymiar średnicy
-   MenuLocation:Rysunek Techniczny - Wymiary - Wstaw wymiar średnicy
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso:[Wstaw wymiar promienia](TechDraw_RadiusDimension/pl.md)
+   Name: TechDraw DiameterDimension
+   Name/pl: Rysunek Techniczny: Wstaw wymiar średnicy
+   MenuLocation: Rysunek Techniczny - Wymiary - Wstaw wymiar średnicy
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   SeeAlso: [Wstaw wymiar promienia](TechDraw_RadiusDimension/pl.md)
 ---
 
 # TechDraw DiameterDimension/pl
@@ -31,4 +31,4 @@ Więcej informacji można znaleźć na stronie [Wstaw wymiar promienia](TechDraw
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DiameterDimension/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DiameterDimension/pl

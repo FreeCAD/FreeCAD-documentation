@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name/ru:Панельный контур
-   Name:Arch_Panel_Cut
-   MenuLocation:Arch - Инструменты панелирования - Панельный контур
-   Workbenches:[Arch](Arch_Workbench/ru.md), [Path](Path_Workbench/ru.md)
-   Shortcut:**P** **C**
-   Version:0.17
-   SeeAlso:[Паенль](Arch_Panel/ru.md), [Панельный лист](Arch_Panel_Sheet/ru.md), [Компоновка](Arch_Nest/ru.md)
+   Name/ru: Панельный контур
+   Name: Arch_Panel_Cut
+   MenuLocation: Arch - Инструменты панелирования - Панельный контур
+   Workbenches: [Arch](Arch_Workbench/ru.md), [Path](Path_Workbench/ru.md)
+   Shortcut: **P** **C**
+   Version: 0.17
+   SeeAlso: [Паенль](Arch_Panel/ru.md), [Панельный лист](Arch_Panel_Sheet/ru.md), [Компоновка](Arch_Nest/ru.md)
 ---
 
 # Arch Panel Cut/ru
@@ -105,4 +105,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Cut/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Cut/ru

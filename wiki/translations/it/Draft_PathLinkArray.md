@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft PathLinkArray
-   Name/it:Serie di link su tracciato
-   MenuLocation:Modifiche - Strumenti serie - Serie di link su tracciato
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Version:0.19
-   SeeAlso:[Serie ortognale](Draft_OrthoArray/it.md), [Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie di link su tracciato](Draft_PathLinkArray/it.md), [Serie su punti](Draft_PointArray/it.md)
+   Name: Draft PathLinkArray
+   Name/it: Serie di link su tracciato
+   MenuLocation: Modifiche - Strumenti serie - Serie di link su tracciato
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Version: 0.19
+   SeeAlso: [Serie ortognale](Draft_OrthoArray/it.md), [Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie di link su tracciato](Draft_PathLinkArray/it.md), [Serie su punti](Draft_PointArray/it.md)
 ---
 
 # Draft PathLinkArray/it
@@ -17,4 +17,4 @@ Il comando <img alt="" src=images/Draft_PathLinkArray.svg  style="width:24px;"> 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathLinkArray/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathLinkArray/it

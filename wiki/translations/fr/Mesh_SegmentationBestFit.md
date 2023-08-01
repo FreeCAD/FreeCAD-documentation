@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh SegmentationBestFit
-   Name/fr:Mesh Segmentation adaptée
-   MenuLocation:Maillages - Créer des segments de maillage de surfaces ajustées...
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Segmentation](Mesh_Segmentation/fr.md)
+   Name: Mesh SegmentationBestFit
+   Name/fr: Mesh Segmentation adaptée
+   MenuLocation: Maillages - Créer des segments de maillage de surfaces ajustées...
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
+   SeeAlso: [Mesh Segmentation](Mesh_Segmentation/fr.md)
 ---
 
 # Mesh SegmentationBestFit/fr
@@ -62,4 +62,4 @@ La commande **Segmentation adaptée** crée des segments de maillage séparés p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SegmentationBestFit/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SegmentationBestFit/fr

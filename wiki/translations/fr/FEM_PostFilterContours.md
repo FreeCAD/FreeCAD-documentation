@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM PostFilterContours
-   Name/fr:FEM Filtre par contours
-   MenuLocation:Résultats - Filtre par contours
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:0.21
-   SeeAlso:[FEM Pipeline de résultats](FEM_PostPipelineFromResult/fr.md), [FEM Fonctions de filtrage](FEM_PostCreateFunctions/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM PostFilterContours
+   Name/fr: FEM Filtre par contours
+   MenuLocation: Résultats - Filtre par contours
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Version: 0.21
+   SeeAlso: [FEM Pipeline de résultats](FEM_PostPipelineFromResult/fr.md), [FEM Fonctions de filtrage](FEM_PostCreateFunctions/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM PostFilterContours/fr
@@ -60,4 +60,4 @@ Si vous n\'utilisez les contours que sur une partie du maillage, par exemple lor
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterContours/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterContours/fr

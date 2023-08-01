@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractivePrism
-   Name/fr:PartDesign Prisme soustractif
-   MenuLocation:Part Design - Créer une primitive soustractive - Prisme soustractif
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md), [PartDesign Prisme additif](PartDesign_AdditivePrism/fr.md)
+   Name: PartDesign SubtractivePrism
+   Name/fr: PartDesign Prisme soustractif
+   MenuLocation: Part Design - Créer une primitive soustractive - Prisme soustractif
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md), [PartDesign Prisme additif](PartDesign_AdditivePrism/fr.md)
 ---
 
 # PartDesign SubtractivePrism/fr
@@ -65,4 +65,4 @@ Le Prisme peut être éditée après sa création de deux façons :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePrism/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePrism/fr

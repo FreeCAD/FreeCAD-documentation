@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateCircle
-   Name/es:Croquizador CrearCírculo
-   MenuLocation:Croquis - Geometrías de Croquizador - Crear círculo
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   SeeAlso:[Croquizador Arco](Sketcher_CompCreateArc/es.md)
+   Name: Sketcher CreateCircle
+   Name/es: Croquizador CrearCírculo
+   MenuLocation: Croquis - Geometrías de Croquizador - Crear círculo
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   SeeAlso: [Croquizador Arco](Sketcher_CompCreateArc/es.md)
 ---
 
 # Sketcher CreateCircle/es
@@ -50,4 +50,4 @@ Cuando se inicia la herramienta, el puntero del ratón cambia a una cruz blanca 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/es

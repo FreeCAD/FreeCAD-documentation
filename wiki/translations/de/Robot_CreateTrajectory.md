@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Robot CreateTrajectory
-   Workbenches:[Robot](Robot_Workbench/de.md)
-   MenuLocation:Roboter - Erstelle Bwegungsbahn
+   Name: Robot CreateTrajectory
+   Workbenches: [Robot](Robot_Workbench/de.md)
+   MenuLocation: Roboter - Erstelle Bwegungsbahn
 ---
 
 # Robot CreateTrajectory/de
@@ -50,4 +50,4 @@ Klicken Sie <img alt="" src=images/Robot_CreateTrajectory.png  style="width:32px
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateTrajectory/de
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateTrajectory/de

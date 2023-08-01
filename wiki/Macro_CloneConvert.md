@@ -139,4 +139,4 @@ Download the macro to Gist [Macro_CloneConvert.FCMacro](https://gist.github.com/
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro CloneConvert
+⏵ [documentation index](../README.md) > Macro CloneConvert

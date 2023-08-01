@@ -1,6 +1,4 @@
 # Add Workbench to Addon Manager/fr
-{{TOCright}}
-
 ## Introduction
 
 Ces instructions expliquent, étape par étape, comment ajouter un atelier Python au [Gestionnaire des extensions](Std_AddonMgr/fr.md).
@@ -92,4 +90,4 @@ Conditions requises :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [Developer Documentation](Category_Developer Documentation.md) > Add Workbench to Addon Manager/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [Developer Documentation](Category_Developer Documentation.md) > Add Workbench to Addon Manager/fr

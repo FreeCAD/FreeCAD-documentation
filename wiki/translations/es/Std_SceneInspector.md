@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std SceneInspector
-   Name/es:Std InspectorEscena
-   MenuLocation:Hierramientas - Inspector Escena...
-   Workbenches:Todo
+   Name: Std SceneInspector
+   Name/es: Std InspectorEscena
+   MenuLocation: Hierramientas - Inspector Escena...
+   Workbenches: Todo
 ---
 
 # Std SceneInspector/es
@@ -41,4 +41,4 @@ El comando **Std InspectorEscenas** abre un cuadro de diálogo que muestra una v
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SceneInspector/es
+⏵ [documentation index](../README.md) > Std SceneInspector/es

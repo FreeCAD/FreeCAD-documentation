@@ -1,6 +1,4 @@
 # Crowdin Administration/de
-{{TOCright}}
-
 ## Rollen
 
 -   Übersetzer/in
@@ -60,4 +58,4 @@ If you notice a string in the FreeCAD UI that is not translated do the following
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration/de
+⏵ [documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration/de

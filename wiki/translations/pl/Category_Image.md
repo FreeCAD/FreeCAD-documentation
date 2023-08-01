@@ -12,4 +12,4 @@ This category lists pages related to the [Image Workbench/pl](Image_Workbench/pl
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Image/pl
+⏵ [documentation index](../README.md) > Category:Image/pl

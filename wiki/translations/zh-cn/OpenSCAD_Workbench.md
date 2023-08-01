@@ -9,7 +9,7 @@ It contains a [CSG](OpenSCAD_CSG.md) importer to open the CSG files from OpenSCA
 This workbench contains functions to modify the CSG feature tree and repair models. It also contains general purpose tools that do not require installation of OpenSCAD; they can be used in conjunction with other workbenches. For example, the [Mesh Workbench](Mesh_Workbench.md) internally uses the OpenSCAD functions to perform operations with [meshes](mesh.md), as they are quite robust.
 
 
-{{TOCright}}
+
 
 ![](images/OpenSCADexamaple1.png )
 
@@ -127,4 +127,4 @@ If FreeCAD crashes when importing CSG, it is strongly recommended that you enabl
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [OpenSCAD](Category_OpenSCAD.md) > OpenSCAD Workbench/zh-cn
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [OpenSCAD](Category_OpenSCAD.md) > OpenSCAD Workbench/zh-cn

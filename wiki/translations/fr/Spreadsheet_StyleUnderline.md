@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet StyleUnderline
-   Name/fr:Spreadsheet Texte souligné
-   MenuLocation:Spreadsheet - Styles - Texte souligné
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/fr.md)
-   Version:0.17
+   Name: Spreadsheet StyleUnderline
+   Name/fr: Spreadsheet Texte souligné
+   MenuLocation: Spreadsheet - Styles - Texte souligné
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/fr.md)
+   Version: 0.17
 ---
 
 # Spreadsheet StyleUnderline/fr
@@ -30,4 +30,4 @@ L\'outil souligné.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleUnderline/fr
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleUnderline/fr

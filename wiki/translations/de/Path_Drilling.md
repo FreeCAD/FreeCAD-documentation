@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path Drilling
-   Name/de:Path Bohrung
-   MenuLocation:Path - Drilling
-   Workbenches:[Path](Path_Workbench/de.md)
+   Name: Path Drilling
+   Name/de: Path Bohrung
+   MenuLocation: Path - Drilling
+   Workbenches: [Path](Path_Workbench/de.md)
 ---
 
 # Path Drilling/de
@@ -236,4 +236,4 @@ Beispiel:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Drilling/de
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Drilling/de

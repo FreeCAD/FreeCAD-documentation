@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Builder
-   MenuLocation:Part - Shape builder...
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part Primitives](Part_Primitives.md)
+   Name: Part Builder
+   MenuLocation: Part - Shape builder...
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Part Primitives](Part_Primitives.md)
 ---
 
 # Part Builder/zh-cn
@@ -125,4 +125,4 @@ This tool can create the following objects:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/zh-cn
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/zh-cn

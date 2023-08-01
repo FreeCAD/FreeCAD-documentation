@@ -116,4 +116,4 @@ Le canal sur Youtube de l\'auteur de la macro [FreeCAD: Gear Animation Tutorial]
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Assemblage Imprimante 3D/fr
+⏵ [documentation index](../README.md) > Macro Assemblage Imprimante 3D/fr

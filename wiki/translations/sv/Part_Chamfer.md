@@ -1,6 +1,6 @@
 # Part Chamfer/sv
 ---
-- GuiCommand:   Name:Part Chamfer   Name/sv:Part Chamfer   MenuLocation:Part - Chamfer   Workbenches:[[Part_Workbench/sv   Part]], Complete|SeeAlso:---
+- GuiCommand:   Name: Part Chamfer   Name/sv: Part Chamfer   MenuLocation: Part - Chamfer   Workbenches: [[Part_Workbench/sv   Part]], Complete|SeeAlso: ---
 
 
 </div>
@@ -152,4 +152,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/sv
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/sv

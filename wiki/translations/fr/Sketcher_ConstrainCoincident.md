@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainCoincident
-   Name/fr:Sketcher Contrainte de coïncidence
-   MenuLocation:Esquisse - Contraintes d'esquisse - Contrainte coïncidente
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**C**
-   SeeAlso:[Sketcher Contrainte fixe](Sketcher_ConstrainLock/fr.md), [Sketcher Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md)
+   Name: Sketcher ConstrainCoincident
+   Name/fr: Sketcher Contrainte de coïncidence
+   MenuLocation: Esquisse - Contraintes d'esquisse - Contrainte coïncidente
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **C**
+   SeeAlso: [Sketcher Contrainte fixe](Sketcher_ConstrainLock/fr.md), [Sketcher Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md)
 ---
 
 # Sketcher ConstrainCoincident/fr
@@ -76,4 +76,4 @@ La page [Sketcher : Écrire un script](Sketcher_scripting/fr.md) explique les va
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/fr

@@ -790,4 +790,4 @@ Qui uno altro post ché parla di [FCInfo Macro](http://forum.freecadweb.org/view
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro FCInfo/it
+⏵ [documentation index](../README.md) > Macro FCInfo/it

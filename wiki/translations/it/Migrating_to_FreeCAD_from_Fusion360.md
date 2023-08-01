@@ -1,8 +1,4 @@
 # Migrating to FreeCAD from Fusion360/it
-{{TOCright}}
-
-
-
 ## Sfondo
 
 Questa pagina è destinata agli utenti che sono interessati a migrare a FreeCAD dal mondo di Fusion 360.
@@ -77,4 +73,4 @@ A questa pagina wiki manca qualcosa. Fai una richiesta per [permessi wiki](https
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Migrating to FreeCAD from Fusion360/it
+⏵ [documentation index](../README.md) > Migrating to FreeCAD from Fusion360/it

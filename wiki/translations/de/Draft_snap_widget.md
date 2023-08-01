@@ -1,8 +1,4 @@
 # Draft snap widget/de
-{{TOCright}}
-
-
-
 ## Beschreibung
 
 Das **Draft WidgetFangen** ist eine Alternative zur Symbolleiste Draft-Einrasten. Das Widget steht nur im Arbeitsbereich <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/de.md) zur Verfügung. Es ist ein [optionales](#Einstellungen.md) GUI-Element, das sich in der [Statusleiste](Status_bar/de.md) befindet.
@@ -30,4 +26,4 @@ Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstel
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft snap widget/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft snap widget/de

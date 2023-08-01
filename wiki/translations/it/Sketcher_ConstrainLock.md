@@ -1,6 +1,6 @@
 # Sketcher ConstrainLock/it
 ---
-- GuiCommand:   Name:Sketcher ConstrainLock   Name/it:Blocca   Workbenches:[MenuLocation:PartDesign - Schizzo - Blocca   SeeAlso:[[Sketcher ConstrainBlock/it|Fissa](Sketcher_Workbench/it___Schizzo]].md)---
+- GuiCommand:   Name: Sketcher ConstrainLock   Name/it: Blocca   Workbenches: [MenuLocation: PartDesign - Schizzo - Blocca   SeeAlso: [[Sketcher ConstrainBlock/it|Fissa](Sketcher_Workbench/it___Schizzo]].md)---
 
 
 </div>
@@ -50,4 +50,4 @@ The <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Loc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/it

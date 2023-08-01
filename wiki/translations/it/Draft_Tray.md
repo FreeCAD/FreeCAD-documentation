@@ -1,6 +1,4 @@
 # Draft Tray/it
-{{TOCright}}
-
 ## Description
 
 
@@ -29,4 +27,4 @@ La [barra di Draft](Draft_Tray/it.md) consente di modificare rapidamente le prop
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Tray/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Tray/it

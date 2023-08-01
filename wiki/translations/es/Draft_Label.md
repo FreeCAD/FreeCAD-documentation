@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Label
-   Name/es:Draft Label
-   Workbenches:[Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
-   MenuLocation:Draft - Label
-   Shortcut:D L
+   Name: Draft Label
+   Name/es: Draft Label
+   Workbenches: [Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
+   MenuLocation: Draft - Label
+   Shortcut: D L
 ---
 
 # Draft Label/es
@@ -241,4 +241,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Label/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Label/es

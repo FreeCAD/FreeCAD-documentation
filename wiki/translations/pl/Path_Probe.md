@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Path Probe
-   MenuLocation:Path - Supplemental Commands - Probe
-   Workbenches:[Path](Path_Workbench.md)
+   Name: Path Probe
+   MenuLocation: Path - Supplemental Commands - Probe
+   Workbenches: [Path](Path_Workbench.md)
 ---
 
 # Path Probe/pl
@@ -67,4 +67,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Probe/pl
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Probe/pl

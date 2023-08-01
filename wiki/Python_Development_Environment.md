@@ -621,4 +621,4 @@ Some other links about IDEs for Python which might be of interest are:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Python Code](Category_Python Code.md) > Python Development Environment
+⏵ [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Python Code](Category_Python Code.md) > Python Development Environment

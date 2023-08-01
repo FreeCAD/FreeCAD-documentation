@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Перейти на самый глубокий связанный объект
-   Name:Std_LinkSelectLinkedFinal
-   MenuLocation:''Нет''
-   Workbenches:Все
-   Version:0.19
-   SeeAlso:[Перейти к связанному объекту](Std_LinkSelectLinked/ru.md), [Выбрать все ссылки](Std_LinkSelectAllLinks/ru.md), [Назад](Std_SelBack/ru.md), [Вперёд](Std_SelForward/ru.md)
+   Name/ru: Перейти на самый глубокий связанный объект
+   Name: Std_LinkSelectLinkedFinal
+   MenuLocation: ''Нет''
+   Workbenches: Все
+   Version: 0.19
+   SeeAlso: [Перейти к связанному объекту](Std_LinkSelectLinked/ru.md), [Выбрать все ссылки](Std_LinkSelectAllLinks/ru.md), [Назад](Std_SelBack/ru.md), [Вперёд](Std_SelForward/ru.md)
 ---
 
 # Std LinkSelectLinkedFinal/ru
@@ -36,4 +36,4 @@ The **Std LinkSelectLinkedFinal** command selects the **Linked Object**, the sou
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkSelectLinkedFinal/ru
+⏵ [documentation index](../README.md) > Std LinkSelectLinkedFinal/ru

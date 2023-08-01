@@ -16,4 +16,4 @@ FreeCAD peut importer des images bitmap en utilisant l\'[atelier Image](Image_Wo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [TechDraw](Category_TechDraw.md) > [Image](Category_Image.md) > Bitmap/fr
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [TechDraw](Category_TechDraw.md) > [Image](Category_Image.md) > Bitmap/fr

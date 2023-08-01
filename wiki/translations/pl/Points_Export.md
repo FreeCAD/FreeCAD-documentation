@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Points Export
-   Name/pl:Punkty: Eksport
-   MenuLocation:Punkty - Eksport punktów ...
-   Workbenches:[Punkty](Points_Workbench/pl.md)
-   SeeAlso:[Import Eksport](Import_Export/pl.md)
+   Name: Points Export
+   Name/pl: Punkty: Eksport
+   MenuLocation: Punkty - Eksport punktów ...
+   Workbenches: [Punkty](Points_Workbench/pl.md)
+   SeeAlso: [Import Eksport](Import_Export/pl.md)
 ---
 
 # Points Export/pl
@@ -33,4 +33,4 @@ Polecenie **Eksport punktów** eksportuje chmurę punktów do pliku.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Export/pl
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Export/pl

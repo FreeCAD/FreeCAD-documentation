@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_MeasureDistance
-   Name/ru:Измерить расстояние
-   MenuLocation:Инструменты - Измерить расстояние
-   Workbenches:Все
-   SeeAlso:[Part Measure Linear](Part_Measure_Linear/ru.md), [Draft Dimension](Draft_Dimension/ru.md), [Arch Survey](Arch_Survey/ru.md)
+   Name: Std_MeasureDistance
+   Name/ru: Измерить расстояние
+   MenuLocation: Инструменты - Измерить расстояние
+   Workbenches: Все
+   SeeAlso: [Part Measure Linear](Part_Measure_Linear/ru.md), [Draft Dimension](Draft_Dimension/ru.md), [Arch Survey](Arch_Survey/ru.md)
 ---
 
 # Std MeasureDistance/ru
@@ -72,4 +72,4 @@ The **Std MeasureDistance** command creates a distance object that measures and 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MeasureDistance/ru
+⏵ [documentation index](../README.md) > Std MeasureDistance/ru

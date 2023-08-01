@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Measure Linear
-   Name/pl:Część: Pomiar liniowy
-   MenuLocation:Pomiary - Pomiar liniowy
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Pomiar odległości](Std_MeasureDistance/pl.md), [Wymiarowanie](Draft_Dimension/pl.md)
+   Name: Part Measure Linear
+   Name/pl: Część: Pomiar liniowy
+   MenuLocation: Pomiary - Pomiar liniowy
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: [Pomiar odległości](Std_MeasureDistance/pl.md), [Wymiarowanie](Draft_Dimension/pl.md)
 ---
 
 # Part Measure Linear/pl
@@ -41,4 +41,4 @@ Wygląd pomiarów można zmienić w [ustawieniach](PartDesign_Preferences/pl#Pom
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Linear/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Linear/pl

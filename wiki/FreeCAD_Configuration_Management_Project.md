@@ -37,4 +37,4 @@ Medium
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FreeCAD Configuration Management Project
+⏵ [documentation index](../README.md) > FreeCAD Configuration Management Project

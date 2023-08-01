@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh_Evaluation
-   Name/it:Valuta e ripara la mesh
-   MenuLocation:Mesh - Analizza - Valuta e ripara la mesh...
-   Workbenches:[Mesh](Mesh_Workbench/it.md)
+   Name: Mesh_Evaluation
+   Name/it: Valuta e ripara la mesh
+   MenuLocation: Mesh - Analizza - Valuta e ripara la mesh...
+   Workbenches: [Mesh](Mesh_Workbench/it.md)
 ---
 
 # Mesh Evaluation/it
@@ -74,4 +74,4 @@ The **Mesh Evaluation** command evaluates and repairs a mesh object.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Evaluation/it
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Evaluation/it

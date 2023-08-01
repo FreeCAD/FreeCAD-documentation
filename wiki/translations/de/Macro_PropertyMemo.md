@@ -415,4 +415,4 @@ Meine Makros auf gist [mario52a](https://gist.github.com/mario52a)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro PropertyMemo/de
+⏵ [documentation index](../README.md) > Macro PropertyMemo/de

@@ -1,8 +1,4 @@
 # Arch JSON/pl
-{{TOCright}}
-
-
-
 ## Opis
 
 Głównym celem tego formatu eksportu jest ułatwienie przetwarzania danych modelu FreeCAD z języków programowania. Format [JSON](http://json.org/) jest następujący:
@@ -28,4 +24,4 @@ Należy zauważyć, że ścianki tworzą trójkąty, a ich wartości całkowite 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch JSON/pl
+⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch JSON/pl

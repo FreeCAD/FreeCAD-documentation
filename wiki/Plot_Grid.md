@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Plot Grid
-   MenuLocation:Plot - Show/hide grid‏‎
-   Workbenches:[Plot](Plot_Workbench.md)
+   Name: Plot Grid
+   MenuLocation: Plot - Show/hide grid‏‎
+   Workbenches: [Plot](Plot_Workbench.md)
 ---
 
 # Plot Grid
@@ -27,4 +27,4 @@ This tool acts on the active set of axis. In case of multi-axes plots you can se
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Grid
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Grid

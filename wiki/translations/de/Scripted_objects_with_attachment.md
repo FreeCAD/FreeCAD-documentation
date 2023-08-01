@@ -1,8 +1,4 @@
 # Scripted objects with attachment/de
-{{TOCright}}
-
-
-
 ## Einführung
 
 Der Zweck dieser Seite ist es, ein minimales Beispiel zu geben, das die Funktion [Part Befestigen](Part_EditAttachment/de.md) unter Verwendung von [skriptgenerierten Objekten](Scripted_objects.md) in Python zeigt.
@@ -154,4 +150,4 @@ Note: For FreeCAD 0.19 this tutorial needs a minor update:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects with attachment/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects with attachment/de

@@ -16,4 +16,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Arch](Category_Arch.md) > Artwork Arch/ru
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Arch](Category_Arch.md) > Artwork Arch/ru

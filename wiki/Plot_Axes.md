@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Plot Axes
-   MenuLocation:Plot - Configure axes
-   Workbenches:[Plot](Plot_Workbench.md)
+   Name: Plot Axes
+   MenuLocation: Plot - Configure axes
+   Workbenches: [Plot](Plot_Workbench.md)
 ---
 
 # Plot Axes
@@ -52,4 +52,4 @@ Finally you can set the minimum and maximum values considered for each set of ax
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Axes
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Axes

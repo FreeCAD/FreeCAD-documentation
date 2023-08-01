@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Fuse
-   MenuLocation:Part - Boolean - Union
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part Boolean](Part_Boolean.md), [Part Cut](Part_Cut.md), [Part Common](Part_Common.md)
+   Name: Part Fuse
+   MenuLocation: Part - Boolean - Union
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Part Boolean](Part_Boolean.md), [Part Cut](Part_Cut.md), [Part Common](Part_Common.md)
 ---
 
 # Part Fuse
@@ -42,4 +42,4 @@ After this operation is complete, it may be necessary to clean up the shape with
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse

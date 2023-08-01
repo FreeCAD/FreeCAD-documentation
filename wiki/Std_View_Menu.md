@@ -161,4 +161,4 @@ The following tools are available in this menu:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std View Menu
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std View Menu

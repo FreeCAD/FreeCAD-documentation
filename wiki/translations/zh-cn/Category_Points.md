@@ -10,4 +10,4 @@ This category lists pages related to the [Points Workbench/zh-cn](Points_Workben
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Points/zh-cn
+⏵ [documentation index](../README.md) > Category:Points/zh-cn

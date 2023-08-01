@@ -692,4 +692,4 @@ Il file creato durante questo tutorial è disponibile [qui](http://yorik.uncreat
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/it

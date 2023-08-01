@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainBlock
-   Name/es:Croquizador RestringirBloque
-   MenuLocation:Croquis - Restricciones de croquis - Restringir Bloque
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   SeeAlso:[Restringir Lock](Sketcher_ConstrainLock/es.md)
-   Version:0.17
+   Name: Sketcher ConstrainBlock
+   Name/es: Croquizador RestringirBloque
+   MenuLocation: Croquis - Restricciones de croquis - Restringir Bloque
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   SeeAlso: [Restringir Lock](Sketcher_ConstrainLock/es.md)
+   Version: 0.17
 ---
 
 # Sketcher ConstrainBlock/es
@@ -50,4 +50,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainBlock/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainBlock/es

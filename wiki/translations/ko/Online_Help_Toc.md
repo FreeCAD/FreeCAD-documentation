@@ -152,4 +152,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/ko
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/ko

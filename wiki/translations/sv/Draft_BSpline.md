@@ -1,6 +1,6 @@
 # Draft BSpline/sv
 ---
-- GuiCommand:   Name:Draft BSpline   Name/sv:Draft BSpline   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft - BSpline   Shortcut:B S   SeeAlso:[Draft Wire](Draft_Wire/sv.md)---
+- GuiCommand:   Name: Draft BSpline   Name/sv: Draft BSpline   Workbenches: [Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation: Draft - BSpline   Shortcut: B S   SeeAlso: [Draft Wire](Draft_Wire/sv.md)---
 
 
 </div>
@@ -134,4 +134,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BSpline/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BSpline/sv

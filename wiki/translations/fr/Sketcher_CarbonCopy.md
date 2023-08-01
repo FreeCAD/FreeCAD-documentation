@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CarbonCopy
-   Name/fr:Sketcher Copie carbone
-   MenuLocation:Esquisse - Géométries d'esquisse - Copie carbone
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **W**
-   Version:0.17
+   Name: Sketcher CarbonCopy
+   Name/fr: Sketcher Copie carbone
+   MenuLocation: Esquisse - Géométries d'esquisse - Copie carbone
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **W**
+   Version: 0.17
 ---
 
 # Sketcher CarbonCopy/fr
@@ -50,4 +50,4 @@ Les contraintes dimensionnelles qui existaient avant la fonction de copie resten
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CarbonCopy/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CarbonCopy/fr

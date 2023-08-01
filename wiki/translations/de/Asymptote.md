@@ -1,6 +1,4 @@
 # Asymptote/de
-{{TOCright}}
-
 ## Beschreibung
 
 [Asymptote](https://asymptote.sourceforge.io/) is a vector language for 2D and 3D computer graphics. Asymptote code can be included in [LaTeX](https://www.latex-project.org/) documents or used to generate [PostScript](https://en.wikipedia.org/wiki/PostScript), [PDF](PDF.md), [SVG](SVG.md), [WebGL](https://www.khronos.org/webgl/), and [PRC](https://en.wikipedia.org/wiki/PRC_(file_format)) files. Interactive 3D PDF files created from Asymptote code require Acrobat Reader version 9 or higher.
@@ -45,4 +43,4 @@ The following videos are in Spanish:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Mesh](Category_Mesh.md) > Asymptote/de
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Mesh](Category_Mesh.md) > Asymptote/de

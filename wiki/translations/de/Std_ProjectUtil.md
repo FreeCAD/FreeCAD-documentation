@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std ProjectUtil
-   Name/de:Std ProjektHilfsprogramm
-   MenuLocation:Werkzeuge - Projekt-Hilfsprogramm...
-   Workbenches:Alle
+   Name: Std ProjectUtil
+   Name/de: Std ProjektHilfsprogramm
+   MenuLocation: Werkzeuge - Projekt-Hilfsprogramm...
+   Workbenches: Alle
 ---
 
 # Std ProjectUtil/de
@@ -72,4 +72,4 @@ Es ist wichtig zu erkennen, dass die Dateien innerhalb einer FreeCAD-Projektdate
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ProjectUtil/de
+⏵ [documentation index](../README.md) > Std ProjectUtil/de

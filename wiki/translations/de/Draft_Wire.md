@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Wire
-   Name/de:Draft Polylinie
-   MenuLocation:Entwurf - Polyline
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Shortcut:**P** **L**
-   Version:0.7
-   SeeAlso:[Draft Linie](Draft_Line/de.md), [Draft BSpline](Draft_BSpline/de.md)
+   Name: Draft Wire
+   Name/de: Draft Polylinie
+   MenuLocation: Entwurf - Polyline
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut: **P** **L**
+   Version: 0.7
+   SeeAlso: [Draft Linie](Draft_Line/de.md), [Draft BSpline](Draft_BSpline/de.md)
 ---
 
 # Draft Wire/de
@@ -225,4 +225,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/de

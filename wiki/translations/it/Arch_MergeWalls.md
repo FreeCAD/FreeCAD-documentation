@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch MergeWalls
-   Name/it:Unisci Pareti
-   MenuLocation:Arch - Utilità - Unisci Pareti
-   Workbenches:[Arch](Arch_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Parete](Arch_Wall/it.md)
+   Name: Arch MergeWalls
+   Name/it: Unisci Pareti
+   MenuLocation: Arch - Utilità - Unisci Pareti
+   Workbenches: [Arch](Arch_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: [Parete](Arch_Wall/it.md)
 ---
 
 # Arch MergeWalls/it
@@ -108,4 +108,4 @@ base = Arch.joinWalls([Wall1, Wall2])
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MergeWalls/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MergeWalls/it

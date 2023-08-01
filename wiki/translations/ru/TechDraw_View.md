@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Вставить Вид
-   Name:TechDraw_View
-   MenuLocation:TechDraw - Вставить Вид
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Вставить группу проекций](TechDraw_ProjectionGroup/ru.md), [Вставить Вид сечения](TechDraw_SectionView/ru.md)
+   Name/ru: Вставить Вид
+   Name: TechDraw_View
+   MenuLocation: TechDraw - Вставить Вид
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso: [Вставить группу проекций](TechDraw_ProjectionGroup/ru.md), [Вставить Вид сечения](TechDraw_SectionView/ru.md)
 ---
 
 # TechDraw View/ru
@@ -233,4 +233,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw View/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw View/ru

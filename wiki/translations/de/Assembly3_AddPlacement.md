@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 AddPlacement
-   Name/de:Assembly3 BezugssystemHinzufügen
-   Icon:Assembly_Add_Placement.svg‎‎
-   MenuLocation:Assembly3 - Workplane and origin - Add placement
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 AddPlacement
+   Name/de: Assembly3 BezugssystemHinzufügen
+   Icon: Assembly_Add_Placement.svg‎‎
+   MenuLocation: Assembly3 - Workplane and origin - Add placement
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 AddPlacement/de
@@ -31,4 +31,4 @@ Mögliche Bestandteile sind z. B. Elemente, Körper, Knoten, Kanten, Flächen, U
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 AddPlacement/de
+⏵ [documentation index](../README.md) > Assembly3 AddPlacement/de

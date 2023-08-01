@@ -10,4 +10,4 @@ Questa categoria elenca le pagine che sono obsolete rispetto alla versione corre
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Obsolete page/it
+⏵ [documentation index](../README.md) > Category:Obsolete page/it

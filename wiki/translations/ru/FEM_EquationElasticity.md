@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FEM EquationElasticity
-   Name/ru:Уравнение гибкости
-   Icon:Fem-equation-elasticity.svg
-   MenuLocation: Solve - Уравнение гибкости
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM EquationElasticity
+   Name/ru: Уравнение гибкости
+   Icon: Fem-equation-elasticity.svg
+   MenuLocation:  Solve - Уравнение гибкости
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM EquationElasticity/ru
@@ -152,4 +152,4 @@ whereas $\vec{u}$ is the eigenvector and $c$ is a complex number.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElasticity/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElasticity/ru

@@ -1,6 +1,6 @@
 # Path Pocket 3D/it
 ---
-- GuiCommand:   Name:Path 3DPocket   Name/it:Cavità 3D   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path - Cavità 3D   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Path 3DPocket   Name/it: Cavità 3D   Workbenches: [[Path Workbench/it   Path]]|MenuLocation: Path - Cavità 3D   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -242,4 +242,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Pocket 3D/it
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Pocket 3D/it

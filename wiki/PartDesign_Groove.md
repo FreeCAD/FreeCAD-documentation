@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign Groove
-   MenuLocation:Part Design - Create a substractive feature - Groove
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[PartDesign Revolution](PartDesign_Revolution.md)
+   Name: PartDesign Groove
+   MenuLocation: Part Design - Create a substractive feature - Groove
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   SeeAlso: [PartDesign Revolution](PartDesign_Revolution.md)
 ---
 
 # PartDesign Groove
@@ -79,4 +79,4 @@ Below are properties which can be defined after creation of the feature. Data pr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove

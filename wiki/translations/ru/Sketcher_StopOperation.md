@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name/ru:Остановить операцию
-   Name:Sketcher_StopOperation
-   MenuLocation:Эскиз - Остановить операцию
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
+   Name/ru: Остановить операцию
+   Name: Sketcher_StopOperation
+   MenuLocation: Эскиз - Остановить операцию
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
 ---
 
 # Sketcher StopOperation/ru
@@ -51,4 +51,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher StopOperation/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher StopOperation/ru

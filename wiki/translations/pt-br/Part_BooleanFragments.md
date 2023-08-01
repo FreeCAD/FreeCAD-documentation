@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part BooleanFragments
-   MenuLocation:Part - Split - Boolean Fragments
-   Workbenches:[Part](Part_Workbench.md)
-   Version:0.17
-   SeeAlso:[Part Slice](Part_Slice.md), [Part XOR](Part_XOR.md), [Part Join features](Part_CompJoinFeatures.md), [Part Boolean](Part_Boolean.md)
+   Name: Part BooleanFragments
+   MenuLocation: Part - Split - Boolean Fragments
+   Workbenches: [Part](Part_Workbench.md)
+   Version: 0.17
+   SeeAlso: [Part Slice](Part_Slice.md), [Part XOR](Part_XOR.md), [Part Join features](Part_CompJoinFeatures.md), [Part Boolean](Part_Boolean.md)
 ---
 
 # Part BooleanFragments/pt-br
@@ -96,4 +96,4 @@ The tool was introduced in FreeCAD v0.17.8053. FreeCAD needs to be compiled with
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BooleanFragments/pt-br
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BooleanFragments/pt-br

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign CompPrimitiveAdditive
-   Name/pl:Projekt Części: Utwórz bryłę pierwotną do dodania
-   MenuLocation:Projekt Części - Utwórz bryłę pierwotną do dodania
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Utwórz cechę przez odjęcie](PartDesign_CompPrimitiveSubtractive/pl.md)
+   Name: PartDesign CompPrimitiveAdditive
+   Name/pl: Projekt Części: Utwórz bryłę pierwotną do dodania
+   MenuLocation: Projekt Części - Utwórz bryłę pierwotną do dodania
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Utwórz cechę przez odjęcie](PartDesign_CompPrimitiveSubtractive/pl.md)
 ---
 
 # PartDesign CompPrimitiveAdditive/pl
@@ -40,4 +40,4 @@ Tworzy pierwotną bryłę addytywną w aktywnej bryle jako pierwszy element lub 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveAdditive/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveAdditive/pl

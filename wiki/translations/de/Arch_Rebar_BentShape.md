@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch_Rebar_BentShape   Name/de:Arch Bewehrungsstab abgewinkelt
-   MenuLocation:Arch - Rebar tools - Gebogene Bewehrung oder 3D/BIM - Verstärkung - gebogene Bewehrung 
-   Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[Reinforcement](Reinforcement_Workbench/de.md), [Arch Bewehrung](Arch_Rebar/de.md), [bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md)
+   Name: Arch_Rebar_BentShape   Name/de: Arch Bewehrungsstab abgewinkelt
+   MenuLocation: Arch - Rebar tools - Gebogene Bewehrung oder 3D/BIM - Verstärkung - gebogene Bewehrung 
+   Workbenches: [Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [Reinforcement](Reinforcement_Workbench/de.md), [Arch Bewehrung](Arch_Rebar/de.md), [bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md)
 ---
 
 # Arch Rebar BentShape/de
@@ -199,4 +199,4 @@ BentShapeRebar.editBentShapeRebar(Rebar2, 50, 35, 20, 20,
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar BentShape/de
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar BentShape/de

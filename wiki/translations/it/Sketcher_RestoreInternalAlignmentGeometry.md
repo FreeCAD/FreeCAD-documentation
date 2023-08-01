@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher RestoreInternalAlignmentGeometry
-   Name/it:Mostra/Nascondi la geometria interna
-   MenuLocation:Sketch - Strumenti - Mostra/Nascondi la geometria interna
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   Shortcut:Ctrl+Shift+E
-   SeeAlso:
+   Name: Sketcher RestoreInternalAlignmentGeometry
+   Name/it: Mostra/Nascondi la geometria interna
+   MenuLocation: Sketch - Strumenti - Mostra/Nascondi la geometria interna
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   Shortcut: Ctrl+Shift+E
+   SeeAlso: 
 ---
 
 # Sketcher RestoreInternalAlignmentGeometry/it
@@ -65,4 +65,4 @@ Il comando elimina gli elementi di allineamento della geometria interna inutiliz
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RestoreInternalAlignmentGeometry/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RestoreInternalAlignmentGeometry/it

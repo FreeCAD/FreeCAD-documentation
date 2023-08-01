@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh Decimating
-   MenuLocation:Meshes - Decimation...
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   Version:0.19
+   Name: Mesh Decimating
+   MenuLocation: Meshes - Decimation...
+   Workbenches: [Mesh](Mesh_Workbench.md)
+   Version: 0.19
 ---
 
 # Mesh Decimating/en
@@ -38,4 +38,4 @@ The **Mesh Decimating** command reduces the number of faces in mesh objects.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Decimating/en
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Decimating/en

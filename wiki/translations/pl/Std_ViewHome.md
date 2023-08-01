@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Std ViewHome
-   Name/pl:Std: Widok domyślny
-   MenuLocation:Widok - Widoki standardowe - Widok domyślny
-   Workbenches:wszystkie
-   Shortcut:**Home**
-   Version:0.19
-   SeeAlso:[Przybliż i dopasuj wszystko](Std_ViewFitAll/pl.md)
+   Name: Std ViewHome
+   Name/pl: Std: Widok domyślny
+   MenuLocation: Widok - Widoki standardowe - Widok domyślny
+   Workbenches: wszystkie
+   Shortcut: **Home**
+   Version: 0.19
+   SeeAlso: [Przybliż i dopasuj wszystko](Std_ViewFitAll/pl.md)
 ---
 
 # Std ViewHome/pl
@@ -37,4 +37,4 @@ Polecenie **Widok domyślny** zmienia orientację ujęcia widoku w aktywnym okni
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewHome/pl
+⏵ [documentation index](../README.md) > Std ViewHome/pl

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintLengthDifference
-   Name/de :Assembly3 Längendifferenz
-   Icon:Assembly_ConstraintLengthDifference.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintLengthDifference
+   Name/de : Assembly3 Längendifferenz
+   Icon: Assembly_ConstraintLengthDifference.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintLengthDifference/de
@@ -32,4 +32,4 @@ Der Längenwert der zuerst gewählten Linie ist gleich dem Längenwert der zweit
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLengthDifference/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintLengthDifference/de

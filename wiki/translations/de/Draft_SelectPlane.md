@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft SelectPlane
-   Name/de:Draft EbeneAuswählen
-   MenuLocation:Dienstprogramme - Ebene wählen
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Shortcut:**W** **P**
-   SeeAlso:[Draft ArbeitsebenenProxy](Draft_WorkingPlaneProxy/de.md)
+   Name: Draft SelectPlane
+   Name/de: Draft EbeneAuswählen
+   MenuLocation: Dienstprogramme - Ebene wählen
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut: **W** **P**
+   SeeAlso: [Draft ArbeitsebenenProxy](Draft_WorkingPlaneProxy/de.md)
 ---
 
 # Draft SelectPlane/de
@@ -186,4 +186,4 @@ print(projection)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectPlane/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectPlane/de

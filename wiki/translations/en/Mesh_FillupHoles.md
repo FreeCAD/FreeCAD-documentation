@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh FillupHoles
-   MenuLocation:Meshes - Fill holes...
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh FillInteractiveHole](Mesh_FillInteractiveHole.md), [Mesh AddFacet](Mesh_AddFacet.md)
+   Name: Mesh FillupHoles
+   MenuLocation: Meshes - Fill holes...
+   Workbenches: [Mesh](Mesh_Workbench.md)
+   SeeAlso: [Mesh FillInteractiveHole](Mesh_FillInteractiveHole.md), [Mesh AddFacet](Mesh_AddFacet.md)
 ---
 
 # Mesh FillupHoles/en
@@ -33,4 +33,4 @@ The **Mesh FillupHoles** command fills holes in mesh objects.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillupHoles/en
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillupHoles/en

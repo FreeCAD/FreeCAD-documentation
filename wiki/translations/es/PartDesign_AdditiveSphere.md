@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveSphere
-   Name/es:DiseñoPiezas EsferaAditiva
-   MenuLocation:Part Design - Crear una primitiva aditiva - Esfera aditiva
-   Workbenches:[DiseñoPiezas](PartDesign_Workbench/es.md)
-   Version:0.17
-   SeeAlso:[DiseñoPiezas CompPrimitivaAditiva](PartDesign_CompPrimitiveAdditive/es.md)
+   Name: PartDesign AdditiveSphere
+   Name/es: DiseñoPiezas EsferaAditiva
+   MenuLocation: Part Design - Crear una primitiva aditiva - Esfera aditiva
+   Workbenches: [DiseñoPiezas](PartDesign_Workbench/es.md)
+   Version: 0.17
+   SeeAlso: [DiseñoPiezas CompPrimitivaAditiva](PartDesign_CompPrimitiveAdditive/es.md)
 ---
 
 # PartDesign AdditiveSphere/es
@@ -76,4 +76,4 @@ Tras su creación, la Esfera puede ser editada de dos maneras:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveSphere/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveSphere/es

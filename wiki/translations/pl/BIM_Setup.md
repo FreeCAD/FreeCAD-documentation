@@ -1,10 +1,10 @@
 ---
 - GuiCommand:Addon/pl
-   Name:BIM Setup
-   Name/pl:BIM Setup
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/pl.md)
-   Addon:BIM
-   MenuLocation:Manage - Ustawiania BIM
+   Name: BIM Setup
+   Name/pl: BIM Setup
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/pl.md)
+   Addon: BIM
+   MenuLocation: Manage - Ustawiania BIM
 ---
 
 # BIM Setup/pl
@@ -20,4 +20,4 @@ Po najechaniu myszką na poszczególne ustawienia, pojawi się podpowiedź wyja�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Setup/pl
+⏵ [documentation index](../README.md) > BIM Setup/pl

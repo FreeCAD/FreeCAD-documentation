@@ -1,6 +1,6 @@
 # PartDesign Groove/es
 ---
-- GuiCommand:   Name:PartDesign_Groove   Name/es:PartDesign Groove   Workbenches:[[PartDesign Workbench/es   Diseño de Piezas]], Complete|MenuLocation:PartDesign - Groove---
+- GuiCommand:   Name: PartDesign_Groove   Name/es: PartDesign Groove   Workbenches: [[PartDesign Workbench/es   Diseño de Piezas]], Complete|MenuLocation: PartDesign - Groove---
 
 
 </div>
@@ -108,4 +108,4 @@ Below are properties which can be defined after creation of the feature. Data pr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/es

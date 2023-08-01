@@ -176,4 +176,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Command Reference/ru
+⏵ [documentation index](../README.md) > Category:Command Reference/ru

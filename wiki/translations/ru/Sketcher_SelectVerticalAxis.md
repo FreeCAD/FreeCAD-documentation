@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Выбрать вертикальную ось
-   Name:Sketcher_SelectVerticalAxis
-   MenuLocation:Sketch - Инструменты для эскиза - Выбрать вертикальную ось
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**Shift**+**Ctrl**+**V**
-   Version:0.15
+   Name/ru: Выбрать вертикальную ось
+   Name: Sketcher_SelectVerticalAxis
+   MenuLocation: Sketch - Инструменты для эскиза - Выбрать вертикальную ось
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **Shift**+**Ctrl**+**V**
+   Version: 0.15
 ---
 
 # Sketcher SelectVerticalAxis/ru
@@ -44,4 +44,4 @@ Selects the vertical axis of a sketch.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectVerticalAxis/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectVerticalAxis/ru

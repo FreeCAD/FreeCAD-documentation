@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainAngle
-   Name/fr:Sketcher Contrainte angulaire
-   MenuLocation:Esquisse - Contraintes d'esquisse - Contrainte angulaire
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**K** **A**
-   SeeAlso:[Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte perpendiculaire](Sketcher_ConstrainPerpendicular/fr.md)
+   Name: Sketcher ConstrainAngle
+   Name/fr: Sketcher Contrainte angulaire
+   MenuLocation: Esquisse - Contraintes d'esquisse - Contrainte angulaire
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **K** **A**
+   SeeAlso: [Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte perpendiculaire](Sketcher_ConstrainPerpendicular/fr.md)
 ---
 
 # Sketcher ConstrainAngle/fr
@@ -126,4 +126,4 @@ La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui pe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/fr

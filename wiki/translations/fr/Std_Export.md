@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Export
-   Name/fr:Std Exporter
-   MenuLocation:Fichier - Exporter...
-   Workbenches:Tous
-   Shortcut:**Ctrl**+**E**
-   SeeAlso:[Std Générer un pdf](Std_PrintPdf/fr.md), [Std Importer](Std_Import/fr.md), [Préférences d'Import Export](Import_Export_Preferences/fr.md)
+   Name: Std Export
+   Name/fr: Std Exporter
+   MenuLocation: Fichier - Exporter...
+   Workbenches: Tous
+   Shortcut: **Ctrl**+**E**
+   SeeAlso: [Std Générer un pdf](Std_PrintPdf/fr.md), [Std Importer](Std_Import/fr.md), [Préférences d'Import Export](Import_Export_Preferences/fr.md)
 ---
 
 # Std Export/fr
@@ -61,4 +61,4 @@ La commande **Std Exporter** exporte les objets sélectionnés vers un format de
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export/fr
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export/fr

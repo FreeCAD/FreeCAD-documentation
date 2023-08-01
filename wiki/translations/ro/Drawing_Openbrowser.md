@@ -1,6 +1,6 @@
 # Drawing Openbrowser/ro
 ---
-- GuiCommand:   Name:Drawing Openbrowser   Workbenches:[[Drawing Workbench   Drawing]], Complete|MenuLocation:Drawing - Open Browser   Shortcut:none---
+- GuiCommand:   Name: Drawing Openbrowser   Workbenches: [[Drawing Workbench   Drawing]], Complete|MenuLocation: Drawing - Open Browser   Shortcut: none---
 
 ## Descriere
 
@@ -41,4 +41,4 @@ Această comandă vă permite să afișați o [ Drawing page](Drawing_Landscape_
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Openbrowser/ro
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Openbrowser/ro

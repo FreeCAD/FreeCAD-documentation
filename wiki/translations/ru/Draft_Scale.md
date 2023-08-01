@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Масштаб
-   Name:Draft_Scale
-   MenuLocation:Modification - Масштаб
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:**S** **C**
-   SeeAlso:[Draft SubelementHighlight](Draft_SubelementHighlight/ru.md), [Клонировать](Draft_Clone/ru.md)
+   Name/ru: Масштаб
+   Name: Draft_Scale
+   MenuLocation: Modification - Масштаб
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: **S** **C**
+   SeeAlso: [Draft SubelementHighlight](Draft_SubelementHighlight/ru.md), [Клонировать](Draft_Clone/ru.md)
 ---
 
 # Draft Scale/ru
@@ -122,4 +122,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Scale/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Scale/ru

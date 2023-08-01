@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Plugin Loader/en
+⏵ [documentation index](../README.md) > Plugin Loader/en

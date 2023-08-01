@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Plot Series
-   Name/pl:Wykres: Skonfiguruj serie
-   MenuLocation:Wykres - Skonfiguru serię
-‏‎   Workbenches:[Wykres](Plot_Workbench/pl.md)
+   Name: Plot Series
+   Name/pl: Wykres: Skonfiguruj serie
+   MenuLocation: Wykres - Skonfiguru serię
+‏‎   Workbenches: [Wykres](Plot_Workbench/pl.md)
 ---
 
 # Plot Series/pl
@@ -42,4 +42,4 @@ Wybierz zakładkę wykresu, którą chcesz edytować i uruchom to narzędzie. Na
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Series/pl
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Series/pl

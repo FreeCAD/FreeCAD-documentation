@@ -1,6 +1,6 @@
 # Sketcher Create3PointArc/ro
 ---
-- GuiCommand:   Name:Sketcher Create3PointArc   Name/ro:Sketcher Create3PointArc   Workbenches:[[Sketcher Workbench/ro   Sketcher]]|MenuLocation:Sketch - Sketcher geometries - Create Arc by three points   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Sketcher Create3PointArc   Name/ro: Sketcher Create3PointArc   Workbenches: [[Sketcher Workbench/ro   Sketcher]]|MenuLocation: Sketch - Sketcher geometries - Create Arc by three points   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -43,4 +43,4 @@ Când instrumentul este activat, indicatorul maouse-ului se schimbă într-o cur
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointArc/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointArc/ro

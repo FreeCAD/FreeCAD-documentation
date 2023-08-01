@@ -14,4 +14,4 @@ Output produced by Rebar Distribution dialog when user clicks on **OK** button:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Category_Arch.md) > Custom Spacing/pl
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Category_Arch.md) > Custom Spacing/pl

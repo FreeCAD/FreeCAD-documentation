@@ -1,11 +1,11 @@
 # Plot Axes/tr
 ---
 - GuiCommand:
-   Name/tr:Eksen
-   MenuLocation:Arsa - Eksen
-‏‎   |Workbenches:[Arsa](Plot_Workbench/tr.md)
-   Shortcut:
-   SeeAlso:---
+   Name/tr: Eksen
+   MenuLocation: Arsa - Eksen
+‏‎   |Workbenches: [Arsa](Plot_Workbench/tr.md)
+   Shortcut: 
+   SeeAlso: ---
 
 
 </div>
@@ -58,4 +58,4 @@ Finally you can set the minimum and maximum values considered for each set of ax
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Axes/tr
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Axes/tr

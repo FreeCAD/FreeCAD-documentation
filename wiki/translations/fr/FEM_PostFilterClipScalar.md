@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM PostFilterClipScalar
-   Name/fr:FEM Filtre d'écrêtage scalaire
-   MenuLocation:Résultats - Filtre d'écrêtage scalaire
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Pipeline de résultats](FEM_PostPipelineFromResult/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM PostFilterClipScalar
+   Name/fr: FEM Filtre d'écrêtage scalaire
+   MenuLocation: Résultats - Filtre d'écrêtage scalaire
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Pipeline de résultats](FEM_PostPipelineFromResult/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM PostFilterClipScalar/fr
@@ -46,4 +46,4 @@ Un filtre scalaire peut être combiné avec d\'autres filtres. Voici par exemple
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterClipScalar/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterClipScalar/fr

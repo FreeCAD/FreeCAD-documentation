@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Join
-   Name/it:Unisci
-   MenuLocation:Modifiche - Unisci
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:**J** **O**
-   Version:0.18
-   SeeAlso:[Dividi](Draft_Split/it.md)
+   Name: Draft Join
+   Name/it: Unisci
+   MenuLocation: Modifiche - Unisci
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut: **J** **O**
+   Version: 0.18
+   SeeAlso: [Dividi](Draft_Split/it.md)
 ---
 
 # Draft Join/it
@@ -76,4 +76,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Join/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Join/it

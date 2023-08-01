@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std TextureMapping
-   Name/pl:Std: Odwzorowanie tekstury
-   MenuLocation:Widok - Odwzorowanie tekstury ...
-   Workbenches:wszystkie
+   Name: Std TextureMapping
+   Name/pl: Std: Odwzorowanie tekstury
+   MenuLocation: Widok - Odwzorowanie tekstury ...
+   Workbenches: wszystkie
 ---
 
 # Std TextureMapping/pl
@@ -34,4 +34,4 @@ Polecenie **Odwzorowanie tekstury \...** tymczasowo mapuje teksturę na wszystki
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TextureMapping/pl
+⏵ [documentation index](../README.md) > Std TextureMapping/pl

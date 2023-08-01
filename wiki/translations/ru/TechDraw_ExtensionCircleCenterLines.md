@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name/ru:Добавить осевые линии к окружности
-   Name:TechDraw_ExtensionCircleCenterLines
-   MenuLocation:TechDraw - Extensions: centerlines and threading - Draw circle centerlines
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:
+   Name/ru: Добавить осевые линии к окружности
+   Name: TechDraw_ExtensionCircleCenterLines
+   MenuLocation: TechDraw - Extensions: centerlines and threading - Draw circle centerlines
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: 
 ---
 
 # TechDraw ExtensionCircleCenterLines/ru
@@ -51,4 +51,4 @@ The **TechDraw ExtensionCircleCenterLines** tool adds centerlines to circles and
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCircleCenterLines/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCircleCenterLines/ru

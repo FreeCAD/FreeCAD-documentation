@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Open
-   Name/pl:Std: Otwórz
-   MenuLocation:Plik - Otwórz ...
-   Workbenches:wszystkie
-   Shortcut:**Ctrl**+**O**
-   SeeAlso:[Importuj](Std_Import/pl.md), [Nowy](Std_New/pl.md)
+   Name: Std Open
+   Name/pl: Std: Otwórz
+   MenuLocation: Plik - Otwórz ...
+   Workbenches: wszystkie
+   Shortcut: **Ctrl**+**O**
+   SeeAlso: [Importuj](Std_Import/pl.md), [Nowy](Std_New/pl.md)
 ---
 
 # Std Open/pl
@@ -56,4 +56,4 @@ Przykład skryptu można znaleźć na stronie opisującej opcję [Nowy](Std_New/
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Open/pl
+⏵ [documentation index](../README.md) > Std Open/pl

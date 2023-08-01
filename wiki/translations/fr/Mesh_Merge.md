@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh Merge
-   Name/fr:Mesh Fusionner
-   MenuLocation:Maillages - Fusionner
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Éclater par composants](Mesh_SplitComponents/fr.md)
+   Name: Mesh Merge
+   Name/fr: Mesh Fusionner
+   MenuLocation: Maillages - Fusionner
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
+   SeeAlso: [Mesh Éclater par composants](Mesh_SplitComponents/fr.md)
 ---
 
 # Mesh Merge/fr
@@ -40,4 +40,4 @@ Voir : [Mesh Feature](Mesh_Feature/fr.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Merge/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Merge/fr

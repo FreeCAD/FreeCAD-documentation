@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainParallel
-   Name/de:Sketcher ParallelFestlegen
-   MenuLocation:Sketch - Skizzen-Beschränkungen - Parallelität erzwingen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**P**
-   SeeAlso:[Sketcher VertikalFestlegen](Sketcher_ConstrainVertical/de.md), [Sketcher HorizontalFestlegen](Sketcher_ConstrainHorizontal/de.md)
+   Name: Sketcher ConstrainParallel
+   Name/de: Sketcher ParallelFestlegen
+   MenuLocation: Sketch - Skizzen-Beschränkungen - Parallelität erzwingen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **P**
+   SeeAlso: [Sketcher VertikalFestlegen](Sketcher_ConstrainVertical/de.md), [Sketcher HorizontalFestlegen](Sketcher_ConstrainHorizontal/de.md)
 ---
 
 # Sketcher ConstrainParallel/de
@@ -56,4 +56,4 @@ Die Seite [Sketcher Skripten](Sketcher_scripting/de.md) erklärt die Werte, die 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainParallel/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainParallel/de

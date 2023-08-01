@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path Vcarve
-   Name/de:Pfad VGravur
-   MenuLocation:Pfad - VGravur
-   Workbenches:[Path](Path_Workbench/de.md)
-   Version:0.19
+   Name: Path Vcarve
+   Name/de: Pfad VGravur
+   MenuLocation: Pfad - VGravur
+   Workbenches: [Path](Path_Workbench/de.md)
+   Version: 0.19
 ---
 
 # Path Vcarve/de
@@ -179,4 +179,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Vcarve/de
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Vcarve/de

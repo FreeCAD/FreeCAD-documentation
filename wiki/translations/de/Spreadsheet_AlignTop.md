@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet AlignTop
-   Name/de:Kalkulationstabelle ObenAusrichten
-   MenuLocation:Kalkulationstabelle - Ausrichtung - Oben Ausrichten
-   Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)
-   Version:0.17
+   Name: Spreadsheet AlignTop
+   Name/de: Kalkulationstabelle ObenAusrichten
+   MenuLocation: Kalkulationstabelle - Ausrichtung - Oben Ausrichten
+   Workbenches: [Tabellenkalkulation](Spreadsheet_Workbench/de.md)
+   Version: 0.17
 ---
 
 # Spreadsheet AlignTop/de
@@ -30,4 +30,4 @@ Das **[<img src=images/Spreadsheet_AlignTop.svg style="width:16px"> [Kalkulation
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignTop/de
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignTop/de

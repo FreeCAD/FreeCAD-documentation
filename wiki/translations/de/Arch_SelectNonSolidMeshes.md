@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch SelectNonSolidMeshes
-   Name/de:Arch WähleNNichtFesteNetze
-   Icon:Arch SelectNonManifold.svg
-   MenuLocation:Arch - Utilities - Wähle nicht feste
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   SeeAlso:[Arch NetzAufteilen](Arch_SplitMesh/de.md), [Arch NetzZuForm](Arch_MeshToShape/de.md)
+   Name: Arch SelectNonSolidMeshes
+   Name/de: Arch WähleNNichtFesteNetze
+   Icon: Arch SelectNonManifold.svg
+   MenuLocation: Arch - Utilities - Wähle nicht feste
+   Workbenches: [Arch](Arch_Workbench/de.md)
+   SeeAlso: [Arch NetzAufteilen](Arch_SplitMesh/de.md), [Arch NetzZuForm](Arch_MeshToShape/de.md)
 ---
 
 # Arch SelectNonSolidMeshes/de
@@ -38,4 +38,4 @@ Dieses Werkzeug identifiziert und wählt die nicht-festen (nicht-[1](https://de.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/de

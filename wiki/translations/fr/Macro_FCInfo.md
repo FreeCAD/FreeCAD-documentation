@@ -624,4 +624,4 @@ Ici un autre post traitant de [FCInfo Macro](http://forum.freecadweb.org/viewtop
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro FCInfo/fr
+⏵ [documentation index](../README.md) > Macro FCInfo/fr

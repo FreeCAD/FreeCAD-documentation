@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Facebinder
-   Name/fr:Draft Surfaces liées
-   MenuLocation:Draft - Surfaces liées
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:**F** **F**
-   Version:0.14
+   Name: Draft Facebinder
+   Name/fr: Draft Surfaces liées
+   MenuLocation: Draft - Surfaces liées
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut: **F** **F**
+   Version: 0.14
 ---
 
 # Draft Facebinder/fr
@@ -122,4 +122,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Facebinder/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Facebinder/fr

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part_Attachment
-   Name/ru:Прикрепить
-   MenuLocation:Деталь - Attachment...
-   Workbenches:[Part](Part_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Placement](Placement/ru.md), [Basic Attachment Tutorial](Basic_Attachment_Tutorial/ru.md)
+   Name: Part_Attachment
+   Name/ru: Прикрепить
+   MenuLocation: Деталь - Attachment...
+   Workbenches: [Part](Part_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Placement](Placement/ru.md), [Basic Attachment Tutorial](Basic_Attachment_Tutorial/ru.md)
 ---
 
 # Part EditAttachment/ru
@@ -317,4 +317,4 @@ Attachment Offset is used to apply a linear or rotary offset from the referenced
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part EditAttachment/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part EditAttachment/ru

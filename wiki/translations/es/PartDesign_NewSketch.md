@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign NewSketch
-   Name/es:Croquis PartDesign
-   Workbenches:[PartDesign](PartDesign_Workbench/es.md)
-   MenuLocation:Part Design - Crear croquis
-   Version:0.17
+   Name: PartDesign NewSketch
+   Name/es: Croquis PartDesign
+   Workbenches: [PartDesign](PartDesign_Workbench/es.md)
+   MenuLocation: Part Design - Crear croquis
+   Version: 0.17
 ---
 
 # PartDesign NewSketch/es
@@ -74,4 +74,4 @@ To reference any items in the [Workbench Sketcher](Sketcher_Workbench.md) use th
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/es

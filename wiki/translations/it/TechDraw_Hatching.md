@@ -1,8 +1,4 @@
 # TechDraw Hatching/it
-{{TOCright}}
-
-
-
 ## Descrizione
 
 
@@ -112,4 +108,4 @@ Il file `FCPAT.pat` può essere trovato nel seguente percorso:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Hatching/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Hatching/it

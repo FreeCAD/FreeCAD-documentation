@@ -2,7 +2,7 @@
 ## Введение
 
 
-{{TOCright}}
+
 
 В FreeCAD понятие \"[Деталь](Part/ru.md)\" обычно используется для обозначения <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Детали](Std_Part/ru.md) (`App::Part` class), объекта типа контейнер, он определён в базовой системе объектов программы. Объект Деталь используется для управления положением 3D-фигур с целью создания механических сборок.
 
@@ -40,4 +40,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Part/ru
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Part/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Measure Angular
-   Name/fr:Part Mesure angulaire
-   MenuLocation:Mesure - Mesure angulaire‏‎
-   Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Draft Dimension](Draft_Dimension/fr.md)
+   Name: Part Measure Angular
+   Name/fr: Part Mesure angulaire
+   MenuLocation: Mesure - Mesure angulaire‏‎
+   Workbenches: [Part](Part_Workbench/fr.md)
+   SeeAlso: [Draft Dimension](Draft_Dimension/fr.md)
 ---
 
 # Part Measure Angular/fr
@@ -35,4 +35,4 @@ L\'apparence des mesures peut être modifiée dans le menu des [préférences](P
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Angular/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Angular/fr

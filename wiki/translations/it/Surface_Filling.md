@@ -1,6 +1,6 @@
 # Surface Filling/it
 ---
-- GuiCommand:   Name:Surface Filling   Name/it:Surface Filling   MenuLocation:Surface - Riempimento...   Workbenches:[Version:0.17](Surface_Workbench/it___Surface.md)|---
+- GuiCommand:   Name: Surface Filling   Name/it: Surface Filling   MenuLocation: Surface - Riempimento...   Workbenches: [Version: 0.17](Surface_Workbench/it___Surface.md)|---
 
 
 
@@ -270,4 +270,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface Filling/it
+⏵ [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface Filling/it

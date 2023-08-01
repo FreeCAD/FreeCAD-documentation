@@ -9,7 +9,7 @@
 ## Wprowadzenie
 
 
-{{TOCright}}
+
 
 Narzędzie <img alt="" src=images/Workbench_Raytracing.svg  style="width:24px;"> [Środowisko pracy Raytracing](Raytracing_Workbench/pl.md) służy do generowania fotorealistycznych obrazów modeli poprzez przetwarzanie ich za pomocą zewnętrznego programu renderującego.
 
@@ -156,4 +156,4 @@ Strony te odnoszą się do nowego Środowiska pracy, zaprogramowanego w Pythonie
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/pl
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/pl

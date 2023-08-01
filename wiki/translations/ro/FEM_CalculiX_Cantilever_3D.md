@@ -244,4 +244,4 @@ Deformarea în direcția x trebuie să fie de 19,05 mm.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM CalculiX Cantilever 3D/ro
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM CalculiX Cantilever 3D/ro

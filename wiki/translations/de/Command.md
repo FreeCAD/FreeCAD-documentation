@@ -2,7 +2,7 @@
 ## Einführung
 
 
-{{TOCright}}
+
 
 Ein [Befehl](Command/de.md) ist das, was ausgeführt wird, wenn Du eine Werkzeugleisten Schaltfläche oder einen Tastenkürzel eingibst. Es kann eine sehr einfache Handlung sein, wie den Zoomfaktor in der [3D Ansicht](3D_view/de.md) ändern oder das Drehen des Blickwinkels, oder ein komplexes System, das Dialogfenster öffnet und darauf wartet, dass der Benutzer bestimmte Aufgaben ausführt.
 
@@ -96,4 +96,4 @@ Siehe [Linienzeichungsfunktion](Line_drawing_function/de.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Command Reference/de|Liste aller Befehle]]-Seite erscheint. Befehle können über eine Werkzeugleisten-Schaltfläche, einen Menüpunkt, oder aus einem ](Category_Command Reference/de|Liste aller Befehle]]-Seite erscheint. Befehle können über eine Werkzeugleisten-Schaltfläche, einen Menüpunkt, oder aus einem .md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/de
+⏵ [documentation index](../README.md) > [Command Reference/de|Liste aller Befehle]]-Seite erscheint. Befehle können über eine Werkzeugleisten-Schaltfläche, einen Menüpunkt, oder aus einem ](Category_Command Reference/de|Liste aller Befehle]]-Seite erscheint. Befehle können über eine Werkzeugleisten-Schaltfläche, einen Menüpunkt, oder aus einem .md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/de

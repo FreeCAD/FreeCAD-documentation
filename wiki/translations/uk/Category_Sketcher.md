@@ -10,4 +10,4 @@ This category lists pages related to the [Sketcher Workbench/uk](Sketcher_Workbe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Sketcher/uk
+⏵ [documentation index](../README.md) > Category:Sketcher/uk

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part_Sphere
-   Name/ru:Сфера
-   MenuLocation:Деталь - Примитивы - Сфера
-   Workbenches:[Part(Деталь)](Part_Workbench/ru.md)
-   SeeAlso:[Создать примитивы](Part_Primitives/ru.md)
+   Name: Part_Sphere
+   Name/ru: Сфера
+   MenuLocation: Деталь - Примитивы - Сфера
+   Workbenches: [Part(Деталь)](Part_Workbench/ru.md)
+   SeeAlso: [Создать примитивы](Part_Primitives/ru.md)
 ---
 
 # Part Sphere/ru
@@ -117,4 +117,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/ru

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Lattice2
+⏵ [documentation index](../README.md) > Lattice2

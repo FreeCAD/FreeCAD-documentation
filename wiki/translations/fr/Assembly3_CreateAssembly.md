@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Assembly3 CreateAssembly
-   Name/fr:Assembly3 Créer un assemblage
-   Icon:Assembly_New_Assembly.svg
-   MenuLocation:Assembly3 - Create assembly
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
-   Shortcut:**A** **N**
+   Name: Assembly3 CreateAssembly
+   Name/fr: Assembly3 Créer un assemblage
+   Icon: Assembly_New_Assembly.svg
+   MenuLocation: Assembly3 - Create assembly
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Shortcut: **A** **N**
 ---
 
 # Assembly3 CreateAssembly/fr
@@ -36,4 +36,4 @@ Chaque objet de la branche est un <img alt="" src=images/Assembly_Assembly_Tree.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 CreateAssembly/fr
+⏵ [documentation index](../README.md) > Assembly3 CreateAssembly/fr

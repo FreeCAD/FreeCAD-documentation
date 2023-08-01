@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw PrintAll
-   Name/de:TechDraw AllesDrucken
-   MenuLocation:TechDraw- Page - Alle Seiten drucken
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Shortcut:
-   Version:0.21
-   SeeAlso:[Std Drucken](Std_Print/de.md)
+   Name: TechDraw PrintAll
+   Name/de: TechDraw AllesDrucken
+   MenuLocation: TechDraw- Page - Alle Seiten drucken
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Shortcut: 
+   Version: 0.21
+   SeeAlso: [Std Drucken](Std_Print/de.md)
 ---
 
 # TechDraw PrintAll/de
@@ -43,4 +43,4 @@ Das Werkzeug <img alt="" src=images/TechDraw_PrintAll.svg  style="width:24px;"> 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PrintAll/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PrintAll/de

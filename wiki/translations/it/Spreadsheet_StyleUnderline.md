@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet_StyleUnderline
-   Name/it:Sottolineato
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)
-   MenuLocation:Spreadsheet - Stile - Sottolineato
-   Version:0.17
+   Name: Spreadsheet_StyleUnderline
+   Name/it: Sottolineato
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/it.md)
+   MenuLocation: Spreadsheet - Stile - Sottolineato
+   Version: 0.17
 ---
 
 # Spreadsheet StyleUnderline/it
@@ -34,4 +34,4 @@ Lo strumento <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleUnderline/it
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleUnderline/it

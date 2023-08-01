@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectConstraints
-   MenuLocation:Sketch - Sketcher tools - Select associated constraints
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**Z** **K**
-   Version:0.15
+   Name: Sketcher SelectConstraints
+   MenuLocation: Sketch - Sketcher tools - Select associated constraints
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **Z** **K**
+   Version: 0.15
 ---
 
 # Sketcher SelectConstraints
@@ -30,4 +30,4 @@ Selects the constraints of a sketcher element.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConstraints
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConstraints

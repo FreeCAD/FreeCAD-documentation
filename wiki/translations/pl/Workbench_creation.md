@@ -1,8 +1,4 @@
 # Workbench creation/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 Ta strona pokaże Ci, jak dodać nowe środowisko pracy do interfejsu programu FreeCAD. [Środowiska pracy](Workbenches/pl.md) są kontenerami dla poleceń FreeCAD. Mogą być zakodowane w Pythonie, w C++ lub w mieszance obu tych języków, co ma tę zaletę, że łączy szybkość C++ z elastycznością Pythona. We wszystkich przypadkach jednak Twoje środowisko pracy będzie uruchamiane przez zestaw dwóch plików Python. Mogą to być \"wewnętrzne\" środowiska, dołączone do dystrybucji programu FreeCAD, lub \"zewnętrzne\", dystrybuowane za pomocą [Menadżera dodatków](Std_AddonMgr/pl.md) lub instalowane ręcznie przez pobranie z jakiegoś repozytorium online. Wewnętrzne środowiska pracy mogą być napisane w C++, środowisku Python lub kombinacji tych dwóch środowisk, podczas gdy zewnętrzne środowiska pracy muszą być napisane wyłącznie w środowisku Python.
@@ -396,4 +392,4 @@ os.remove(qrc_filename)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Workbench creation/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Workbench creation/pl

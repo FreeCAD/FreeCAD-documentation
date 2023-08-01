@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintDisplacement
-   Name/fr:FEM Contrainte de déplacement
-   MenuLocation:Modèle - Contraintes mécaniques - Contrainte de déplacement
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Shortcut:
-   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM ConstraintDisplacement
+   Name/fr: FEM Contrainte de déplacement
+   MenuLocation: Modèle - Contraintes mécaniques - Contrainte de déplacement
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Shortcut: 
+   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM ConstraintDisplacement/fr
@@ -97,4 +97,4 @@ Pour le <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintDisplacement/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintDisplacement/fr

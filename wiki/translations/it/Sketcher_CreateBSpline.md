@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateBSpline
-   Name/it:Sketcher BSpline
-   Icon:Sketcher CreateBSpline.svg
-   MenuLocation: Sketch - Geometrie - Crea B-spline
-   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
-   Version:0.17
-   SeeAlso:[B-spline periodica](Sketcher_CreatePeriodicBSpline/it.md)
+   Name: Sketcher CreateBSpline
+   Name/it: Sketcher BSpline
+   Icon: Sketcher CreateBSpline.svg
+   MenuLocation:  Sketch - Geometrie - Crea B-spline
+   Workbenches:  [Sketcher](Sketcher_Workbench/it.md)
+   Version: 0.17
+   SeeAlso: [B-spline periodica](Sketcher_CreatePeriodicBSpline/it.md)
 ---
 
 # Sketcher CreateBSpline/it
@@ -92,4 +92,4 @@ Questo strumento traccia una curva B-spline aperta dai suoi punti di controllo.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateBSpline/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateBSpline/it

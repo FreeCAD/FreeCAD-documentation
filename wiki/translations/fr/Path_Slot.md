@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path Slot
-   Name/fr:Path Rainure
-   MenuLocation:Path - Rainurer
-   Workbenches:[Path](Path_Workbench/fr.md)
-   Version:0.19
+   Name: Path Slot
+   Name/fr: Path Rainure
+   MenuLocation: Path - Rainurer
+   Workbenches: [Path](Path_Workbench/fr.md)
+   Version: 0.19
 ---
 
 # Path Slot/fr
@@ -292,4 +292,4 @@ Exemple :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Slot/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Slot/fr

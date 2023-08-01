@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign Mirrored
-   Name/es:PartDesign Simetría
-   MenuLocation:PartDesign - Apply a pattern - Simetría
-   Workbenches:[PartDesign](PartDesign_Workbench/es.md)
+   Name: PartDesign Mirrored
+   Name/es: PartDesign Simetría
+   MenuLocation: PartDesign - Apply a pattern - Simetría
+   Workbenches: [PartDesign](PartDesign_Workbench/es.md)
 ---
 
 # PartDesign Mirrored/es
@@ -127,4 +127,4 @@ See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/es

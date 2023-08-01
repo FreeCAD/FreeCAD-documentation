@@ -188,4 +188,4 @@ La dernière étape pour générer le G-code pour la fraiseuse cible consiste à
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/fr

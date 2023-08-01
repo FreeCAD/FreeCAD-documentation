@@ -1,7 +1,4 @@
 # Mesh to Part/sv
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 ## Konvertera Del objekt till Nät 
@@ -149,4 +146,4 @@ Part.show(solid)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh to Part/sv
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh to Part/sv

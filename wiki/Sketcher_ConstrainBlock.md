@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainBlock
-   MenuLocation:Sketch - Sketcher constraints - Constrain block
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**K** **B**
-   Version:0.17
-   SeeAlso:[Sketcher Constrain Lock](Sketcher_ConstrainLock.md)
+   Name: Sketcher ConstrainBlock
+   MenuLocation: Sketch - Sketcher constraints - Constrain block
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **K** **B**
+   Version: 0.17
+   SeeAlso: [Sketcher Constrain Lock](Sketcher_ConstrainLock.md)
 ---
 
 # Sketcher ConstrainBlock
@@ -37,4 +37,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainBlock
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainBlock

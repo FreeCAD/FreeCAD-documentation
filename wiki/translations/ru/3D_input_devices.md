@@ -19,4 +19,4 @@ FreeCAD поддерживает некоторые специальные вх�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > 3D input devices/ru
+⏵ [documentation index](../README.md) > 3D input devices/ru

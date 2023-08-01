@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Dimension
-   Name/pl:Draft: Wymiar
-   MenuLocation:Adnotacja - Wymiar
-   Workbenches:[Rysunek roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut:**D** **I**
-   Version:0.8
-   SeeAlso:[FlipDimension](Draft_FlipDimension/pl.md)
+   Name: Draft Dimension
+   Name/pl: Draft: Wymiar
+   MenuLocation: Adnotacja - Wymiar
+   Workbenches: [Rysunek roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut: **D** **I**
+   Version: 0.8
+   SeeAlso: [FlipDimension](Draft_FlipDimension/pl.md)
 ---
 
 # Draft Dimension/pl
@@ -322,4 +322,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/pl

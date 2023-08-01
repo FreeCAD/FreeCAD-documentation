@@ -39,4 +39,4 @@ Helper constraints were introduced in v0.15.4387
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher helper constraint
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher helper constraint

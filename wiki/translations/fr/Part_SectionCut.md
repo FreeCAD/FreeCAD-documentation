@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part SectionCut
-   Name/fr:Part Coupe persistante
-   MenuLocation:Affichage - Coupe persistante
-   Workbenches:Tous
-   Version:0.20
-   SeeAlso:[Std Basculer le plan de coupe](Std_ToggleClipPlane/fr.md)
+   Name: Part SectionCut
+   Name/fr: Part Coupe persistante
+   MenuLocation: Affichage - Coupe persistante
+   Workbenches: Tous
+   Version: 0.20
+   SeeAlso: [Std Basculer le plan de coupe](Std_ToggleClipPlane/fr.md)
 ---
 
 # Part SectionCut/fr
@@ -109,4 +109,4 @@ Tous les objets visibles sont placés dans un <img alt="" src=images/Part_Compou
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SectionCut/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SectionCut/fr

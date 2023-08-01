@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part RefineShape
-   MenuLocation:Part - Create a copy - Refine Shape
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part SimpleCopy](Part_SimpleCopy.md), [Part TransformedCopy](Part_TransformedCopy.md), [Part ElementCopy](Part_ElementCopy.md), [OpenSCAD RefineShapeFeature](OpenSCAD_RefineShapeFeature.md)
+   Name: Part RefineShape
+   MenuLocation: Part - Create a copy - Refine Shape
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Part SimpleCopy](Part_SimpleCopy.md), [Part TransformedCopy](Part_TransformedCopy.md), [Part ElementCopy](Part_ElementCopy.md), [OpenSCAD RefineShapeFeature](OpenSCAD_RefineShapeFeature.md)
 ---
 
 # Part RefineShape/pt-br
@@ -60,4 +60,4 @@ shape.removeSplitter()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RefineShape/pt-br
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RefineShape/pt-br

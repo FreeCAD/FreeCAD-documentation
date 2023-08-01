@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Visibility
+⏵ [documentation index](../README.md) > Visibility

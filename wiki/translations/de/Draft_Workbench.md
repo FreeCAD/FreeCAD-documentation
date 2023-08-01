@@ -1,7 +1,7 @@
 # <img alt="Draft Arbeitsbereichssymbol" src=images/Workbench_Draft.svg  style="width:64px;"> Draft Workbench/de
 
 
-{{TOCright}}
+
 
 
 
@@ -371,4 +371,4 @@ Der Einblick in den Code dieses Moduls kann helfen, um die Programmierschnittste
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Draft](Category_Draft.md) > Draft Workbench/de
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Draft](Category_Draft.md) > Draft Workbench/de

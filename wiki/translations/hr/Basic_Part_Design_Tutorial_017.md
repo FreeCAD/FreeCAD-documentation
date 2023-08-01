@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Basic Part Design Tutorial 017/hr
+⏵ [documentation index](../README.md) > Basic Part Design Tutorial 017/hr

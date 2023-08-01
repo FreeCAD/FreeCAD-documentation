@@ -13,4 +13,4 @@ Ta kategoria zawiera strony, które nawiązują do środowiska pracy [Web](Web_W
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Web/pl
+⏵ [documentation index](../README.md) > Category:Web/pl

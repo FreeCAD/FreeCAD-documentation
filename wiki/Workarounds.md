@@ -289,4 +289,4 @@ The goal of this article is to list some currently missing features in FreeCAD a
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Workarounds
+⏵ [documentation index](../README.md) > Workarounds

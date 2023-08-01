@@ -1,13 +1,13 @@
 # Std Group/de
 ---
 - GuiCommand:
-   Name:Std Group
-   Name/de:Std Gruppe
-   MenuLocation:Baumansicht - Rechtsklick auf den Dokumentennamen
-   |Workbenches:Alle
-   Shortcut:
-   Version:
-   SeeAlso:[Standard Teil](Std_Part/de.md), [Wähle Gruppe](Draft_SelectGroup/de.md), [zur Gruppe hinzufügen](Draft_AddToGroup/de.md)---
+   Name: Std Group
+   Name/de: Std Gruppe
+   MenuLocation: Baumansicht - Rechtsklick auf den Dokumentennamen
+   |Workbenches: Alle
+   Shortcut: 
+   Version: 
+   SeeAlso: [Standard Teil](Std_Part/de.md), [Wähle Gruppe](Draft_SelectGroup/de.md), [zur Gruppe hinzufügen](Draft_AddToGroup/de.md)---
 
 
 
@@ -117,4 +117,4 @@ Zum Beispiel ist ein [FEM Analyse](FEM_Analysis/de.md) ein `App::DocumentObjectG
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Group/de
+⏵ [documentation index](../README.md) > Std Group/de

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_Paste
-   Name/it:Incolla
-   MenuLocation:Modifica - Incolla
-   Shortcut:**Ctrl**+**V**
-   Workbenches:Tutti
-   SeeAlso:[Taglia](Std_Cut/it.md), [Copia](Std_Copy/it.md), [Duplica la selezione](Std_DuplicateSelection/it.md)
+   Name: Std_Paste
+   Name/it: Incolla
+   MenuLocation: Modifica - Incolla
+   Shortcut: **Ctrl**+**V**
+   Workbenches: Tutti
+   SeeAlso: [Taglia](Std_Cut/it.md), [Copia](Std_Copy/it.md), [Duplica la selezione](Std_DuplicateSelection/it.md)
 ---
 
 # Std Paste/it
@@ -52,4 +52,4 @@ Il comando **Incolla** incolla gli oggetti dagli Appunti nel documento attivo.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Paste/it
+⏵ [documentation index](../README.md) > Std Paste/it

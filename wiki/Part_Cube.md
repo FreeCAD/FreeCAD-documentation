@@ -6,4 +6,4 @@ As of
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cube
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cube

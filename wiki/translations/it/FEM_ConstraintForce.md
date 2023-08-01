@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM_ConstraintForce
-   Name/it:Vincolo forza
-   MenuLocation:Modello - Vincoli meccanici - Vincolo forza
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Tutorial di FEM](FEM_tutorial/it.md)
+   Name: FEM_ConstraintForce
+   Name/it: Vincolo forza
+   MenuLocation: Modello - Vincoli meccanici - Vincolo forza
+   Workbenches: [FEM](FEM_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: [Tutorial di FEM](FEM_tutorial/it.md)
 ---
 
 # FEM ConstraintForce/it
@@ -67,4 +67,4 @@ Questo comando applica una forza del valore dato \[N\] alla geometria di destina
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintForce/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintForce/it

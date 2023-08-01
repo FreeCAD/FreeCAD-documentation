@@ -330,4 +330,4 @@ Sì, puoi utilizzare le parti principali di FreeCAD in altre applicazioni purch�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Frequently asked questions/it
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Frequently asked questions/it

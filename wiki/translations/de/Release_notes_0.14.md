@@ -232,4 +232,4 @@ Die vollständige Liste aller Bugfixes und Neuen Funtionen kann [hier](http://fr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.14/de
+⏵ [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.14/de

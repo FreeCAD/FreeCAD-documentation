@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Wire
-   Name/pl:Rysunek Roboczy: Linia łamana
-   MenuLocation:Kreślenie - Linia łamana
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut:**P** **L**
+   Name: Draft Wire
+   Name/pl: Rysunek Roboczy: Linia łamana
+   MenuLocation: Kreślenie - Linia łamana
+   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut: **P** **L**
 ---
 
 # Draft Wire/pl
@@ -192,4 +192,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/pl

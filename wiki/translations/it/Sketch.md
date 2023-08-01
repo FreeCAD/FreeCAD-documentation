@@ -2,7 +2,7 @@
 ## Introduzione
 
 
-{{TOCright}}
+
 
 In FreeCAD la parola \"[Sketch](Sketch/it.md)\" viene normalmente utilizzata per fare riferimento a un [Sketcher SketchObject](Sketcher_SketchObject/it.md) (Oggettto schizzo) (classe `Sketcher::SketchObject`) definito dall\'ambiente [Sketcher](Sketcher_Workbench/it.md). Si tratta di un disegno 2D che utilizza i vincoli matematici per descrivere con precisione la geometria 2D.
 
@@ -39,4 +39,4 @@ Tuttavia, uno schizzo può sempre essere creato da solo per qualsiasi altro scop
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Sketch/it
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Sketch/it

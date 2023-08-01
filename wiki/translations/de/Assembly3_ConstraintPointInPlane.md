@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPointInPlane
-   Name/de:Assembly3 PunktAufEbene
-   Icon:Assembly_ConstraintPointInPlane.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintPointInPlane
+   Name/de: Assembly3 PunktAufEbene
+   Icon: Assembly_ConstraintPointInPlane.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintPointInPlane/de
@@ -27,4 +27,4 @@ Im Bezug auf das Ebenenobjekt, kann sich das Punktobjekte noch entlang der X- un
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointInPlane/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPointInPlane/de

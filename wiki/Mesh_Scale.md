@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Mesh Scale
-   MenuLocation:Meshes - Scale...
-   Workbenches:[Mesh](Mesh_Workbench.md)
+   Name: Mesh Scale
+   MenuLocation: Meshes - Scale...
+   Workbenches: [Mesh](Mesh_Workbench.md)
 ---
 
 # Mesh Scale
@@ -59,4 +59,4 @@ msh.Mesh = new_msh
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Scale
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Scale

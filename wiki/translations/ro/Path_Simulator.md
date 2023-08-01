@@ -1,6 +1,6 @@
 # Path Simulator/ro
 ---
-- GuiCommand:   Name:Path Simulator   Workbenches:[MenuLocation:Path - CAM Simulator   SeeAlso:[[Path_Inspect|Path Inspect](Path_Workbench___Path]].md) ---
+- GuiCommand:   Name: Path Simulator   Workbenches: [MenuLocation: Path - CAM Simulator   SeeAlso: [[Path_Inspect|Path Inspect](Path_Workbench___Path]].md) ---
 
 
 </div>
@@ -76,4 +76,4 @@ Acest instrument simulează lucrarea de desen prin scanarea modelelor 3D ale ins
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Simulator/ro
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Simulator/ro

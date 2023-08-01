@@ -232,4 +232,4 @@ version: 00.01 2022/02/16 : création
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro FCInfo ToolBar/fr
+⏵ [documentation index](../README.md) > Macro FCInfo ToolBar/fr

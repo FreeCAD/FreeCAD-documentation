@@ -4,4 +4,4 @@ La **pantalla de bienvenida** es una imagen que aparece durante el inicio de Fre
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Splash screen/es
+⏵ [documentation index](../README.md) > Splash screen/es

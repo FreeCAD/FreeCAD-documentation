@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreatePentagon
-   Name/pl:Szkicownik: Utwórz pięciokąt
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz pięciokąt
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **P** **5**
-   Version:0.15
+   Name: Sketcher CreatePentagon
+   Name/pl: Szkicownik: Utwórz pięciokąt
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Utwórz pięciokąt
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **G** **P** **5**
+   Version: 0.15
 ---
 
 # Sketcher CreatePentagon/pl
@@ -42,4 +42,4 @@ Wyznaczony okrąg to geometria konstrukcyjna, która jest widoczna tylko podczas
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePentagon/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePentagon/pl

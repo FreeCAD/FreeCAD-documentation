@@ -1,7 +1,4 @@
 # Tutorials/ko
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 이 페이지는 고품질 자습서를 제공합니다. 완전한, 정렬되지 않은 목록은 [:Category:Tutorials에](:Category_Tutorials.md) 있습니다.
@@ -311,4 +308,4 @@ Here are listed all the tutorials that are not in the manual **regardless of the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Tutorials/ko
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Tutorials/ko

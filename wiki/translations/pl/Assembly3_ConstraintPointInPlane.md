@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPointInPlane
-   Icon:Assembly_ConstraintPointInPlane.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintPointInPlane
+   Icon: Assembly_ConstraintPointInPlane.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintPointInPlane/pl
@@ -26,4 +26,4 @@ Related to the first object the following object can still move along the x- and
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointInPlane/pl
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPointInPlane/pl

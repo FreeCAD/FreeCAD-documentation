@@ -254,4 +254,4 @@ ToolBar Icon  ![](images/Macro_Shake_Sketch.png )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Shake Sketch
+⏵ [documentation index](../README.md) > Macro Shake Sketch

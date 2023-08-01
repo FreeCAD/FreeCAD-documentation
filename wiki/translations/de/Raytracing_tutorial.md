@@ -143,4 +143,4 @@ Wir sind nun fertig mit der grundlegenden Vorgehensweise mit dem Arbeitsbereich 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/de
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/de

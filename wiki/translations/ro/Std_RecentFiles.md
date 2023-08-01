@@ -1,6 +1,6 @@
 # Std RecentFiles/ro
 ---
-- GuiCommand:   Name:Std RecentFiles   Name/ro:Fișiere recente   MenuLocation:[|Workbenches:All   Shortcut:   SeeAlso:[[Std Open/ro|Deschidere](Std_File_Menu/ro___File]]_-_Fișiere_recente.md), [Importul](Std_Import/ro.md)---
+- GuiCommand:   Name: Std RecentFiles   Name/ro: Fișiere recente   MenuLocation: [|Workbenches: All   Shortcut:    SeeAlso: [[Std Open/ro|Deschidere](Std_File_Menu/ro___File]]_-_Fișiere_recente.md), [Importul](Std_Import/ro.md)---
 
 
 </div>
@@ -51,4 +51,4 @@ Documentul este deschis și inserat în proiect.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std RecentFiles/ro
+⏵ [documentation index](../README.md) > Std RecentFiles/ro

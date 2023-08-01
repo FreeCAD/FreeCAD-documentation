@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:View Measure Toggle All
-   Name/fr:Affichage Affichage des mesures
-   MenuLocation:Affichage - Visibilité - Activer/désactiver les mesures
-   Workbenches:Tous
-   SeeAlso:[Affichage Supprimer les mesures](View_Measure_Clear_All/fr.md), [Part Basculer tout](Part_Measure_Toggle_All/fr.md), [Part Effacer toute mesure](Part_Measure_Clear_All/fr.md)
+   Name: View Measure Toggle All
+   Name/fr: Affichage Affichage des mesures
+   MenuLocation: Affichage - Visibilité - Activer/désactiver les mesures
+   Workbenches: Tous
+   SeeAlso: [Affichage Supprimer les mesures](View_Measure_Clear_All/fr.md), [Part Basculer tout](Part_Measure_Toggle_All/fr.md), [Part Effacer toute mesure](Part_Measure_Clear_All/fr.md)
 ---
 
 # View Measure Toggle All/fr
@@ -38,4 +38,4 @@ La commande **Affichage Affichage les mesures** active/désactive les mesures de
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > View Measure Toggle All/fr
+⏵ [documentation index](../README.md) > View Measure Toggle All/fr

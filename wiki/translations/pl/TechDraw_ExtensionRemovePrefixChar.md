@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionRemovePrefixChar
-   Name/pl:Rysunek Techniczny: Rozszerzenie Usuń przedrostek
-   MenuLocation:Rysunek Techniczny - Rozszerzenia: Wymiary - Usuń prefiks
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:
+   Name: TechDraw ExtensionRemovePrefixChar
+   Name/pl: Rysunek Techniczny: Rozszerzenie Usuń przedrostek
+   MenuLocation: Rysunek Techniczny - Rozszerzenia: Wymiary - Usuń prefiks
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: 
 ---
 
 # TechDraw ExtensionRemovePrefixChar/pl
@@ -41,4 +41,4 @@ Narzędzie **Usuń przedrostek** usuwa wszystkie symbole prefiksów z tekstu wym
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionRemovePrefixChar/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionRemovePrefixChar/pl

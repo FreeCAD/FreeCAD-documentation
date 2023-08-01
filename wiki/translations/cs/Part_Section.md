@@ -1,6 +1,6 @@
 # Part Section/cs
 ---
-- GuiCommand:   Name:Part Chamfer   Name/cs:Díl Řez   MenuLocation:Díl - Řez   Workbenches:[[Part_Workbench/cs   Díl]], Kompletace|SeeAlso:---
+- GuiCommand:   Name: Part Chamfer   Name/cs: Díl Řez   MenuLocation: Díl - Řez   Workbenches: [[Part_Workbench/cs   Díl]], Kompletace|SeeAlso: ---
 
 
 </div>
@@ -57,4 +57,4 @@ To create sections with a section plane see <img alt="" src=images/Part_CrossSec
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/cs
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/cs

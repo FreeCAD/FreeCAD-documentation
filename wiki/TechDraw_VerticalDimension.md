@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw VerticalDimension
-   MenuLocation:TechDraw - Dimensions - Insert Vertical Dimension
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:**Shift** + **V**
-   SeeAlso:[TechDraw LengthDimension](TechDraw_LengthDimension.md), [TechDraw HorizontalDimension](TechDraw_HorizontalDimension.md)
+   Name: TechDraw VerticalDimension
+   MenuLocation: TechDraw - Dimensions - Insert Vertical Dimension
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: **Shift** + **V**
+   SeeAlso: [TechDraw LengthDimension](TechDraw_LengthDimension.md), [TechDraw HorizontalDimension](TechDraw_HorizontalDimension.md)
 ---
 
 # TechDraw VerticalDimension
@@ -26,4 +26,4 @@ For more information see [TechDraw LengthDimension](TechDraw_LengthDimension.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw VerticalDimension
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw VerticalDimension

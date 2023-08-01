@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD_ScaleMesh
-   Name/it:Scala la mesh
-   MenuLocation:OpenSCAD - Scala la mesh
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/it.md)
-   SeeAlso:
+   Name: OpenSCAD_ScaleMesh
+   Name/it: Scala la mesh
+   MenuLocation: OpenSCAD - Scala la mesh
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench/it.md)
+   SeeAlso: 
 ---
 
 # OpenSCAD ScaleMeshFeature/it
@@ -60,4 +60,4 @@ Mesh.show(scaled_mesh)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ScaleMeshFeature/it
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ScaleMeshFeature/it

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateEllipseByCenter
-   Name/de:Skizzierer EllipseDurchMittelpunktErstellen
-   MenuLocation:Sketch - Skizzengeometrien - Ellipse um Mittelpunkt erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **E** **E**
-   Version:0.15
-   SeeAlso:[Sketcher EllipseDurch3PunkteErstellen](Sketcher_CreateEllipseBy3Points/de.md), [Sketcher KreisErstellen](Sketcher_CreateCircle/de.md), [Sketcher EllipsenbogenErstellen](Sketcher_CreateArcOfEllipse/de.md)
+   Name: Sketcher CreateEllipseByCenter
+   Name/de: Skizzierer EllipseDurchMittelpunktErstellen
+   MenuLocation: Sketch - Skizzengeometrien - Ellipse um Mittelpunkt erstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **E** **E**
+   Version: 0.15
+   SeeAlso: [Sketcher EllipseDurch3PunkteErstellen](Sketcher_CreateEllipseBy3Points/de.md), [Sketcher KreisErstellen](Sketcher_CreateCircle/de.md), [Sketcher EllipsenbogenErstellen](Sketcher_CreateArcOfEllipse/de.md)
 ---
 
 # Sketcher CreateEllipseByCenter/de
@@ -51,4 +51,4 @@ Dieses Werkzeug zeichnet eine Ellipse, indem drei Punkte ausgewählt werden: der
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseByCenter/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseByCenter/de

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet AlignBottom
-   Name/de:Kalkulationstabelle UntenAusrichten
-   MenuLocation:Kalkulationstabelle - Ausrichtung - Unten Ausrichten
-   Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)
-   Version:0.17
+   Name: Spreadsheet AlignBottom
+   Name/de: Kalkulationstabelle UntenAusrichten
+   MenuLocation: Kalkulationstabelle - Ausrichtung - Unten Ausrichten
+   Workbenches: [Tabellenkalkulation](Spreadsheet_Workbench/de.md)
+   Version: 0.17
 ---
 
 # Spreadsheet AlignBottom/de
@@ -30,4 +30,4 @@ Das **[<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> [Kalkulat
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignBottom/de
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignBottom/de

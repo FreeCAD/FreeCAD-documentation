@@ -1,6 +1,4 @@
 # Units/pl
-{{TOCright}}
-
 Oto kilka lektur na temat jednostek:
 
 -   [Metrologia](http://en.wikipedia.org/wiki/Metrology)
@@ -68,4 +66,4 @@ Pełna lista wszystkich obsługiwanych jednostek znajduje się [na tej stronie](
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Units/pl
+⏵ [documentation index](../README.md) > Units/pl

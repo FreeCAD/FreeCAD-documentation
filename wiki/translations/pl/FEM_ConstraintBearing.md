@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintBearing
-   MenuLocation:Model - Constraints without solver - Constraint bearing
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM Constraint gear](FEM_ConstraintGear.md), [FEM Constraint pulley](FEM_ConstraintPulley.md)
+   Name: FEM ConstraintBearing
+   MenuLocation: Model - Constraints without solver - Constraint bearing
+   Workbenches: [FEM](FEM_Workbench.md)
+   SeeAlso: [FEM Constraint gear](FEM_ConstraintGear.md), [FEM Constraint pulley](FEM_ConstraintPulley.md)
 ---
 
 # FEM ConstraintBearing/pl
@@ -41,4 +41,4 @@ Brak obsługi w interfejsie CalculiX!
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintBearing/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintBearing/pl

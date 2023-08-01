@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintSymmetricHorizontal
-   Name/de:Assembly3 HorizontaleSymmetrie
-   Icon:Assembly_ConstraintGeneral.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintSymmetricHorizontal
+   Name/de: Assembly3 HorizontaleSymmetrie
+   Icon: Assembly_ConstraintGeneral.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintSymmetricHorizontal/de
@@ -24,4 +24,4 @@ Bezüglich des LKS eines planaren Elements haben die Ursprünge der LKS von zwei
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintSymmetricHorizontal/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintSymmetricHorizontal/de

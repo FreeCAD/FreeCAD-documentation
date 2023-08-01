@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Import‏‎
-   Name/de:Part Import
-   MenuLocation:Part - Import CAD
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Export](Part_Export/de.md), [Std Import](Std_Import/de.md), [Import Export](Import_Export/de.md)
+   Name: Part Import‏‎
+   Name/de: Part Import
+   MenuLocation: Part - Import CAD
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: [Part Export](Part_Export/de.md), [Std Import](Std_Import/de.md), [Import Export](Import_Export/de.md)
 ---
 
 # Part Import/de
@@ -22,4 +22,4 @@ Das **<img src="images/Part_Import.svg" width=16px> [Part Import](Part_Import/de
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Import/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Import/de

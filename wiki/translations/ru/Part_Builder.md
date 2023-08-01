@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Builder
-   Name/ru:Построитель форм
-   MenuLocation:Деталь -> Построитель форм...
-   Workbenches:[Part(Деталь)](Part_Workbench/ru.md)
-   SeeAlso:[Примитивы](Part_Primitives/ru.md)
+   Name: Part Builder
+   Name/ru: Построитель форм
+   MenuLocation: Деталь -> Построитель форм...
+   Workbenches: [Part(Деталь)](Part_Workbench/ru.md)
+   SeeAlso: [Примитивы](Part_Primitives/ru.md)
 ---
 
 # Part Builder/ru
@@ -93,4 +93,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/ru

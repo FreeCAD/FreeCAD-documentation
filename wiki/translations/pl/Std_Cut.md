@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std Cut
-   Name/pl:Std: Wytnij
-   MenuLocation:Edycja - Wytnij
-   Workbenches:All
-   SeeAlso:[Kopiuj](Std_Copy/pl.md), [Wklej](Std_Paste/pl.md), [Powiel zaznaczone](Std_DuplicateSelection/pl.md)
+   Name: Std Cut
+   Name/pl: Std: Wytnij
+   MenuLocation: Edycja - Wytnij
+   Workbenches: All
+   SeeAlso: [Kopiuj](Std_Copy/pl.md), [Wklej](Std_Paste/pl.md), [Powiel zaznaczone](Std_DuplicateSelection/pl.md)
 ---
 
 # Std Cut/pl
@@ -43,4 +43,4 @@ Aby wyciąć obiekty innych typów, można użyć polecenia [Kopiuj](Std_Copy/pl
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Cut/pl
+⏵ [documentation index](../README.md) > Std Cut/pl

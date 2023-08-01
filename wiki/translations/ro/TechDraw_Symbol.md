@@ -1,6 +1,6 @@
 # TechDraw Symbol/ro
 ---
-- GuiCommand:   Name:TechDraw  Symbol   Workbenches:[[TechDraw Workbench   TechDraw]]|MenuLocation:TechDraw - Symbol   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: TechDraw  Symbol   Workbenches: [[TechDraw Workbench   TechDraw]]|MenuLocation: TechDraw - Symbol   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -99,4 +99,4 @@ rc = page.addView(sym)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Symbol/ro
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Symbol/ro

@@ -1,6 +1,4 @@
 # Third Party Tools/tr
-{{TOCright}}
-
 ## Tool Page 
 
 For every serious software development you need tools. Here is a list of tools we use to develop FreeCAD:
@@ -67,4 +65,4 @@ TODO
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Tools/tr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Tools/tr

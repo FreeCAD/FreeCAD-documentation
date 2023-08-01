@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher MirrorSketch
-   Name/de:Sketcher SkizzeSpiegeln
-   MenuLocation:Sketch - Skizze spiegeln
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Version:0.16
+   Name: Sketcher MirrorSketch
+   Name/de: Sketcher SkizzeSpiegeln
+   MenuLocation: Sketch - Skizze spiegeln
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Version: 0.16
 ---
 
 # Sketcher MirrorSketch/de
@@ -40,4 +40,4 @@ Spiegelt eine Skizze entlang der X Achse, der Y Achse oder dem Ursprung. Dieser 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch/de

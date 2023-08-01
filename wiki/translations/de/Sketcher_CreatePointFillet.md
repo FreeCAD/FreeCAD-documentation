@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreatePointFillet
-   Name/de:Sketcher PunktVerrundungErstellen
-   MenuLocation:Sketch - Skizzengeometrien - Eckenerhaltende Verrundung erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **F** **P**
-   Version:0.19
-   SeeAlso:[Sketcher VerrundungErstellen](Sketcher_CreateFillet/de.md)
+   Name: Sketcher CreatePointFillet
+   Name/de: Sketcher PunktVerrundungErstellen
+   MenuLocation: Sketch - Skizzengeometrien - Eckenerhaltende Verrundung erstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **F** **P**
+   Version: 0.19
+   SeeAlso: [Sketcher VerrundungErstellen](Sketcher_CreateFillet/de.md)
 ---
 
 # Sketcher CreatePointFillet/de
@@ -26,4 +26,4 @@ Dieses Werkzeug erstellt einen Bogen zwischen zwei Linien. Der (virtuelle) Schni
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePointFillet/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePointFillet/de

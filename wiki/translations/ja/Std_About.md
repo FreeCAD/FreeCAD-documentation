@@ -1,6 +1,6 @@
 # Std About/ja
 ---
-- GuiCommand:   Name:Std About   Workbenches:All   MenuLocation:Help - About FreeCAD   SeeAlso:[[Standard Menu]]---
+- GuiCommand:   Name: Std About   Workbenches: All   MenuLocation: Help - About FreeCAD   SeeAlso: [[Standard Menu]]---
 
 
 </div>
@@ -84,4 +84,4 @@ The Libraries tab shows a list of the external libraries used by the program, an
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/ja
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/ja

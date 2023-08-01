@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw_RedrawPage
-   Name/it:Ridisegna la pagina
-   MenuLocation:TechDraw - Ridisegna la pagina
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   Version:0.19
+   Name: TechDraw_RedrawPage
+   Name/it: Ridisegna la pagina
+   MenuLocation: TechDraw - Ridisegna la pagina
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   Version: 0.19
 ---
 
 # TechDraw RedrawPage/it
@@ -54,4 +54,4 @@ Lo strumento Ridisegna impone un aggiornamento della Pagina nonostante le impost
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RedrawPage/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RedrawPage/it

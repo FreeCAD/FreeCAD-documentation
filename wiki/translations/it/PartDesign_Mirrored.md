@@ -1,6 +1,6 @@
 # PartDesign Mirrored/it
 ---
-- GuiCommand:   Name:PartDesign Mirrored   Name/it:Simmetria   Workbenches:[[PartDesign Workbench/it   PartDesign]]|MenuLocation:PartDesign - Simmetria---
+- GuiCommand:   Name: PartDesign Mirrored   Name/it: Simmetria   Workbenches: [[PartDesign Workbench/it   PartDesign]]|MenuLocation: PartDesign - Simmetria---
 
 
 </div>
@@ -127,4 +127,4 @@ See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/it

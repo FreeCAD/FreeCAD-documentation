@@ -1,6 +1,6 @@
 # Sketcher CreatePentagon/ro
 ---
-- GuiCommand:   Name:Sketcher CreatePentagon   Name/ro:Sketcher CreatePentagon   Workbenches:[[Sketcher Workbench/ro   Sketcher]]|MenuLocation:Sketch - Sketcher geometries - Create pentagon   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Sketcher CreatePentagon   Name/ro: Sketcher CreatePentagon   Workbenches: [[Sketcher Workbench/ro   Sketcher]]|MenuLocation: Sketch - Sketcher geometries - Create pentagon   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -49,4 +49,4 @@ Când este definită schița obiectului geometric cercul circumscris este vizibi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePentagon/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePentagon/ro

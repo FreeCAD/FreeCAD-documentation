@@ -94,4 +94,4 @@ FreeCAD може бути зібрано з використанням CMake. П
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/uk
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/uk

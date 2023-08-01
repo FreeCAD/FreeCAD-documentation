@@ -113,4 +113,4 @@ Zakończyliśmy teraz prezentacje podstawowego przepływu pracy dla środowiska 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial/pl

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ToggleNavigation
-   Name/de:Std NavigationEditieren
-   MenuLocation:Ansicht - Navigations/Editier-Modus
-   Workbenches:Alle
-   Shortcut:**Esc**
+   Name: Std ToggleNavigation
+   Name/de: Std NavigationEditieren
+   MenuLocation: Ansicht - Navigations/Editier-Modus
+   Workbenches: Alle
+   Shortcut: **Esc**
 ---
 
 # Std ToggleNavigation/de
@@ -60,4 +60,4 @@ Nicht mit dem Befehl [Std Bearbeiten](Std_Edit/de.md) verwechseln.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleNavigation/de
+⏵ [documentation index](../README.md) > Std ToggleNavigation/de

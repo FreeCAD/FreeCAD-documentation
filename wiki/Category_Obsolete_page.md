@@ -10,4 +10,4 @@ This category lists pages that are obsolete in regard to the current FreeCAD ver
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Obsolete page
+⏵ [documentation index](../README.md) > Category:Obsolete page

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionSelectLineAttributes
-   Name/fr:TechDraw Sélection des attributs
-   MenuLocation:TechDraw - Extensions : attributs/modifications - Sélectionnez les attributs de ligne, l'espacement de cascade et la distance delta
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw Modification des attributs](TechDraw_ExtensionChangeLineAttributes/fr.md)
+   Name: TechDraw ExtensionSelectLineAttributes
+   Name/fr: TechDraw Sélection des attributs
+   MenuLocation: TechDraw - Extensions : attributs/modifications - Sélectionnez les attributs de ligne, l'espacement de cascade et la distance delta
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw Modification des attributs](TechDraw_ExtensionChangeLineAttributes/fr.md)
 ---
 
 # TechDraw ExtensionSelectLineAttributes/fr
@@ -48,4 +48,4 @@ L\'outil **TechDraw Sélection des attributs** ouvre une boîte de dialogue dans
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionSelectLineAttributes/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionSelectLineAttributes/fr

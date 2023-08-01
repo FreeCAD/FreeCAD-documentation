@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher_ConstrainAngle
-   Name/it:Angolo
-   Workbenches:[Schizzo](Sketcher_Workbench/it.md)
-   Shortcut:**A**
-   MenuLocation:Sketch - Vincoli - Angolo
-   SeeAlso:[Lunghezza](Sketcher_ConstrainDistance/it.md), [Perpendicolare](Sketcher_ConstrainPerpendicular/it.md)
+   Name: Sketcher_ConstrainAngle
+   Name/it: Angolo
+   Workbenches: [Schizzo](Sketcher_Workbench/it.md)
+   Shortcut: **A**
+   MenuLocation: Sketch - Vincoli - Angolo
+   SeeAlso: [Lunghezza](Sketcher_ConstrainDistance/it.md), [Perpendicolare](Sketcher_ConstrainPerpendicular/it.md)
 ---
 
 # Sketcher ConstrainAngle/it
@@ -177,4 +177,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/it

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Path Helix
-   MenuLocation:Path - Helix
-   Workbenches:[Path](Path_Workbench.md)
+   Name: Path Helix
+   MenuLocation: Path - Helix
+   Workbenches: [Path](Path_Workbench.md)
 ---
 
 # Path Helix/ru
@@ -87,4 +87,4 @@ The feedrate parameter is constant across all cuts and is based on the position 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Helix/ru
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Helix/ru

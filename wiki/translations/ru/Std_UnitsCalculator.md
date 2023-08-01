@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std_UnitsCalculator
-   Name/ru:Std_UnitsCalculator
-   MenuLocation:Панели инструментов - Калькулятор единиц...
-   Workbenches:Все
+   Name: Std_UnitsCalculator
+   Name/ru: Std_UnitsCalculator
+   MenuLocation: Панели инструментов - Калькулятор единиц...
+   Workbenches: Все
 ---
 
 # Std UnitsCalculator/ru
@@ -66,4 +66,4 @@ The **Std UnitsCalculator** command opens the Units calculator dialog box. The U
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std UnitsCalculator/ru
+⏵ [documentation index](../README.md) > Std UnitsCalculator/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Sprocket
-   Name/pl:Projekt Części: Koło łańcuchowe
-   MenuLocation:Projekt Części - Koło łańcuchowe ...
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   Version:0.19
+   Name: PartDesign Sprocket
+   Name/pl: Projekt Części: Koło łańcuchowe
+   MenuLocation: Projekt Części - Koło łańcuchowe ...
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   Version: 0.19
 ---
 
 # PartDesign Sprocket/pl
@@ -50,4 +50,4 @@ To narzędzie pozwala na stworzenie profilu 2D koła łańcuchowego. Może on by
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Sprocket/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Sprocket/pl

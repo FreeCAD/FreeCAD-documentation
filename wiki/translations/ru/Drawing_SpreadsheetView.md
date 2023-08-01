@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Drawing SpreadsheetView
-   Name/ru:Drawing SpreadsheetView
-   Workbenches:[Drawing](Drawing_Workbench/ru.md)
-   MenuLocation:Чертёж - Spreadsheet View
+   Name: Drawing SpreadsheetView
+   Name/ru: Drawing SpreadsheetView
+   Workbenches: [Drawing](Drawing_Workbench/ru.md)
+   MenuLocation: Чертёж - Spreadsheet View
 ---
 
 # Drawing SpreadsheetView/ru
@@ -59,4 +59,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing SpreadsheetView/ru
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing SpreadsheetView/ru

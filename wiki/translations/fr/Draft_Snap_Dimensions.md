@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Dimensions
-   Name/fr:Draft Aimantation Dimensions
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Draft Aimantation](Draft_Snap/fr.md), [Draft Verrouillage de l'aimantation](Draft_Snap_Lock/fr.md), [Draft Plan de travail](Draft_SelectPlane/fr.md)
+   Name: Draft Snap Dimensions
+   Name/fr: Draft Aimantation Dimensions
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   SeeAlso: [Draft Aimantation](Draft_Snap/fr.md), [Draft Verrouillage de l'aimantation](Draft_Snap_Lock/fr.md), [Draft Plan de travail](Draft_SelectPlane/fr.md)
 ---
 
 # Draft Snap Dimensions/fr
@@ -40,4 +40,4 @@ Voir [Draft Préférences](Draft_Snap/fr#Pr.C3.A9f.C3.A9rences.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Dimensions/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Dimensions/fr

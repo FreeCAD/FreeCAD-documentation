@@ -1,7 +1,4 @@
 # FEM Mesh CalculiX/it
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 ## Tipi di elementi FEM in CalculiX 
@@ -110,4 +107,4 @@ Il seguente ordine di nodo non è implementato ! TODO: verify node order (do not
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > [FEM](Category_FEM.md) > FEM Mesh CalculiX/it
+⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > [FEM](Category_FEM.md) > FEM Mesh CalculiX/it

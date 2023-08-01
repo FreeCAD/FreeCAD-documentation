@@ -1,8 +1,4 @@
 # Download/de
-{{TOCright}}
-
-
-
 ## Aktuelle stabile Version 
 
 Die Version 0.20.2 von FreeCAD (29603) wurde am 07.12.2022 veröffentlicht. Um herauszufinden, was es Neues gibt, sIehe die [Veröffentlichungshinweise](Release_notes_0.20/de.md).
@@ -64,4 +60,4 @@ Die FreeCAD Gemeinschaft bietet viele zusätzliche Module und Makros. Seit 0.17 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Download/de
+⏵ [documentation index](../README.md) > Download/de

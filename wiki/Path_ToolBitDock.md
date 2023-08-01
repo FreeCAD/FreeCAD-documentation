@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Path ToolBitDock
-   MenuLocation:Path - ToolBit Dock
-   Workbenches:[Path](Path_Workbench.md)
-   Shortcut:**P** **T**
-   Version:0.19
-   SeeAlso:[Path ToolBitLibraryOpen](Path_ToolBitLibraryOpen.md), [Path Tools](Path_Tools.md), [Path ToolBit](Path_ToolBit.md)
+   Name: Path ToolBitDock
+   MenuLocation: Path - ToolBit Dock
+   Workbenches: [Path](Path_Workbench.md)
+   Shortcut: **P** **T**
+   Version: 0.19
+   SeeAlso: [Path ToolBitLibraryOpen](Path_ToolBitLibraryOpen.md), [Path Tools](Path_Tools.md), [Path ToolBit](Path_ToolBit.md)
 ---
 
 # Path ToolBitDock
@@ -48,4 +48,4 @@ A manager button at the top right **(4)** allows the user to launch the library 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBitDock
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBitDock

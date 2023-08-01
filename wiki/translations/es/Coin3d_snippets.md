@@ -1,6 +1,4 @@
 # Coin3d snippets/es
-{{TOCright}}
-
 ## Descripción de esta lista 
 
 
@@ -109,4 +107,4 @@ No requiere instalación. Gracias al autor del programa.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Coin3d snippets/es
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Coin3d snippets/es

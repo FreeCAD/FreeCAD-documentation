@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ToggleConstruction
-   Name/ro:Activează/dezactivează construcția geometrică
-   Icon:Sketcher_AlterConstruction.svg
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   MenuLocation:Sketch - Geometria schitei - Activează/dezactivează construcția geometrică
+   Name: Sketcher ToggleConstruction
+   Name/ro: Activează/dezactivează construcția geometrică
+   Icon: Sketcher_AlterConstruction.svg
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch - Geometria schitei - Activează/dezactivează construcția geometrică
 ---
 
 # Sketcher ToggleConstruction/ro
@@ -80,4 +80,4 @@ Liniile de construire pot fi utilizate ca axă de rotație de către funcțional
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/ro

@@ -203,4 +203,4 @@ Las instrucciones de arriba funcionarán, sin importar la etiqueta que tenga el 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Category_Part.md) > Basic modeling tutorial/es
+⏵ [documentation index](../README.md) > [Part](Category_Part.md) > Basic modeling tutorial/es

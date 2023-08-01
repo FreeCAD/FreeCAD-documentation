@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Thickness
-   MenuLocation:Part - Thickness...
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part Offset](Part_Offset.md)
+   Name: Part Thickness
+   MenuLocation: Part - Thickness...
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Part Offset](Part_Offset.md)
 ---
 
 # Part Thickness
@@ -81,4 +81,4 @@ Notes:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Thickness
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Thickness

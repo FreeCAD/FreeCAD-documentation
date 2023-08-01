@@ -1,7 +1,7 @@
 # <img alt="Ship workbench icon" src=images/Workbench_Ship.svg  style="width:64px;"> Ship Workbench/tr
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -53,4 +53,4 @@ If you feel your name is missing on this list, please feel free to add it yourse
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [Ship](Category_Ship.md) > Ship Workbench/tr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [Ship](Category_Ship.md) > Ship Workbench/tr

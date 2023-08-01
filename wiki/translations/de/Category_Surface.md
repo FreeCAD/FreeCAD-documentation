@@ -12,4 +12,4 @@ Diese Kategorie zeigt eine Liste von Seiten, die zum [Surface-Arbeitsbereich](Su
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Surface/de
+⏵ [documentation index](../README.md) > Category:Surface/de

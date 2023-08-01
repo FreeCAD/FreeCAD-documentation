@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:TechDraw SpreadsheetView
-   MenuLocation:TechDraw - Views From Other Workbenches - Insert Spreadsheet View
-   Workbenches:[TechDraw](TechDraw_Workbench.md), [Spreadsheet](Spreadsheet_Workbench.md)
+   Name: TechDraw SpreadsheetView
+   MenuLocation: TechDraw - Views From Other Workbenches - Insert Spreadsheet View
+   Workbenches: [TechDraw](TechDraw_Workbench.md), [Spreadsheet](Spreadsheet_Workbench.md)
 ---
 
 # TechDraw SpreadsheetView/pt-br
@@ -64,4 +64,4 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SpreadsheetView/pt-br
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SpreadsheetView/pt-br

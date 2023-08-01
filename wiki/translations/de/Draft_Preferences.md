@@ -1,6 +1,4 @@
 # Draft Preferences/de
-{{TOCright}}
-
 Die Einstellungen für den Arbeitsbereich [Draft](Draft_Workbench.md) findet man im [Voreinstellungseditor](Preferences_Editor.md). Im Menü wählt man **Edit → Einstellungen...** und dann **Draft**.
 
 Es gibt fünf Reiter: [Allgemeine Einstellungen](#General_settings/de.md), [Einstellungen für die Benutzeroberfläche](#User_interface_settings/de.md), [Raster und einrasten](#Grid_and_snapping/de.md), [Visuelle Einstellungen](#Visual_settings/de.md) and [Texte und Bemaßungen](#Texts_and_dimensions/de.md).
@@ -492,4 +490,4 @@ On the *Texts and dimensions* tab you can specify the following:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Draft](Draft_Workbench.md) > Draft Preferences/de
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Draft](Draft_Workbench.md) > Draft Preferences/de

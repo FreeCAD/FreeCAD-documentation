@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw  Dimension Horizontal
-   Name/es:TechDraw  Dimensión Horizontal
-   MenuLocation:TechDraw -  Dimensión Horizontal
-   Workbenches:[TechDraw](TechDraw_Workbench/es.md)
-   Shortcut:**Shift** + **H**
-   SeeAlso:[TechDraw Dimensión Longitud](TechDraw_LengthDimension/es.md), [TechDraw Dimensión Vertical](TechDraw_VerticalDimension/es.md)
+   Name: TechDraw  Dimension Horizontal
+   Name/es: TechDraw  Dimensión Horizontal
+   MenuLocation: TechDraw -  Dimensión Horizontal
+   Workbenches: [TechDraw](TechDraw_Workbench/es.md)
+   Shortcut: **Shift** + **H**
+   SeeAlso: [TechDraw Dimensión Longitud](TechDraw_LengthDimension/es.md), [TechDraw Dimensión Vertical](TechDraw_VerticalDimension/es.md)
 ---
 
 # TechDraw HorizontalDimension/es
@@ -41,4 +41,4 @@ For more information see [TechDraw LengthDimension](TechDraw_LengthDimension.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HorizontalDimension/es
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HorizontalDimension/es

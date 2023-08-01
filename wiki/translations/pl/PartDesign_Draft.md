@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign Draft
-   Name/pl:Projekt części: Pochylenie ścian
-   MenuLocation:Projekt Części - Zastosuj funkcjeę ulepszenia - Pochylenie ścian
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
+   Name: PartDesign Draft
+   Name/pl: Projekt części: Pochylenie ścian
+   MenuLocation: Projekt Części - Zastosuj funkcjeę ulepszenia - Pochylenie ścian
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
 ---
 
 # PartDesign Draft/pl
@@ -130,4 +130,4 @@ Obiekt Pochylenie ścian środowiska Projekt Części wywodzi się z obiektu [Cz
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft/pl

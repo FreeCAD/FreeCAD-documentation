@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part RuledSurface
-   MenuLocation:Part - RuledSurface
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part MakeFace](Part_MakeFace.md)
+   Name: Part RuledSurface
+   MenuLocation: Part - RuledSurface
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Part MakeFace](Part_MakeFace.md)
 ---
 
 # Part RuledSurface
@@ -27,4 +27,4 @@ Create ruled surface
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RuledSurface
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RuledSurface

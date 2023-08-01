@@ -1,6 +1,4 @@
 # Screenshots/fr
-{{TOCright}}
-
 Vous trouverez ici des vues d\'écran montrant différentes parties de FreeCAD. Elles n\'ont pas d\'ordre particulier, donc les images peuvent être différentes de votre version actuelle. Voir d\'autre vues d\'écrans proposées par des utilisateurs de FreeCAD sur le [sujet call for screenshot](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) et sur le sujet [\"Show your project here!\" de la partie Users Showcase du forum](http://forum.freecadweb.org/viewforum.php?f=24).
 
 ### La version 0.17 
@@ -204,4 +202,4 @@ La boîte de dialogue pour sauvegarder une image avec des dimensions personnalis
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Screenshots/fr
+⏵ [documentation index](../README.md) > Screenshots/fr

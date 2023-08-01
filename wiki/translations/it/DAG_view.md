@@ -2,7 +2,7 @@
 ## Introduzione
 
 
-{{TOCright}}
+
 
 La [vista DAG](DAG_view/it.md) è un [grafico aciclico diretto](https://en.wikipedia.org/wiki/Directed_acyclic_graph) (DAG) che mostra le relazioni tra i diversi oggetti nel documento. Intende principalmente mostrare come determinati oggetti dipendono da altri in un modello complesso con molte funzioni e riferimenti, come quelli che possono essere creati con <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md).
 
@@ -68,4 +68,4 @@ Nell\'[editor dei parametri](Std_DlgParameter/it.md) si possono anche modificare
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > DAG view/it
+⏵ [documentation index](../README.md) > DAG view/it

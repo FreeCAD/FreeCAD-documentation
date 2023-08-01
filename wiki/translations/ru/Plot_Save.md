@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Plot Save
-   Name/ru:Plot Save
-   Workbenches:[Plot](Plot_Workbench/ru.md)
-   MenuLocation:Plot - Сохранить диаграмму
+   Name: Plot Save
+   Name/ru: Plot Save
+   Workbenches: [Plot](Plot_Workbench/ru.md)
+   MenuLocation: Plot - Сохранить диаграмму
 ---
 
 # Plot Save/ru
@@ -57,4 +57,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Save/ru
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Save/ru

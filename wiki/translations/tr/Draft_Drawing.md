@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Drawing
-   Name/tr:Çizim
-   MenuLocation:Drafting - Drawing
-   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   Name: Draft Drawing
+   Name/tr: Çizim
+   MenuLocation: Drafting - Drawing
+   Workbenches: [Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
 ---
 
 # Draft Drawing/tr
@@ -33,4 +33,4 @@ This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Drawing/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Drawing/tr

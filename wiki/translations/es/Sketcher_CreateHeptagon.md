@@ -1,6 +1,6 @@
 # Sketcher CreateHeptagon/es
 ---
-- GuiCommand:   Name:Sketcher CreateHeptagon   Name/es:Sketcher CreateHeptagon   Workbenches:[[Sketcher Workbench/es   Sketcher]]|MenuLocation:Sketch - Sketcher geometries - Create heptagon   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Sketcher CreateHeptagon   Name/es: Sketcher CreateHeptagon   Workbenches: [[Sketcher Workbench/es   Sketcher]]|MenuLocation: Sketch - Sketcher geometries - Create heptagon   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -31,4 +31,4 @@ The circumscribed circle is construction geometry, which is only visible when ed
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateHeptagon/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateHeptagon/es

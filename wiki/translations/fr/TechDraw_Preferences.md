@@ -1,6 +1,4 @@
 # TechDraw Preferences/fr
-{{TOCright}}
-
 ## Introduction
 
 Les préférences pour l\'[atelier TechDraw](TechDraw_Workbench/fr.md) se trouvent dans l\'[Editeur de préférences](Preferences_Editor/fr.md), **Édition → Préférences → TechDraw**.
@@ -205,4 +203,4 @@ Version anglaise de la GUI, HLR pour *hidden line removal* (suppression des lign
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/fr
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/fr

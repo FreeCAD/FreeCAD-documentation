@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Ship CreateShip
-   MenuLocation:Ship design - Create a new ship
-   Workbenches:[Ship](Ship_Workbench.md)|
-   Shortcut:
-   SeeAlso:
+   Name: Ship CreateShip
+   MenuLocation: Ship design - Create a new ship
+   Workbenches: [Ship](Ship_Workbench.md)|
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Ship CreateShip/es
@@ -58,4 +58,4 @@ When you press **Accept** button, a new Ship instance named **Ship** is created 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship CreateShip/es
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship CreateShip/es

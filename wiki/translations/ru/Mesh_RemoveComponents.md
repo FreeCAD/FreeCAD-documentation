@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Mesh RemoveComponents‏‎
-   Name/ru:Mesh RemoveComponents‏‎
-   MenuLocation:Сетки- Удалить компоненты...
-   Workbenches:[Mesh](Mesh_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:
+   Name: Mesh RemoveComponents‏‎
+   Name/ru: Mesh RemoveComponents‏‎
+   MenuLocation: Сетки- Удалить компоненты...
+   Workbenches: [Mesh](Mesh_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Mesh RemoveComponents/ru
@@ -50,4 +50,4 @@ The **Mesh RemoveComponents** command removes faces from mesh objects.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveComponents/ru
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveComponents/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ro:PartDesign Migrate
-   Empty:1
-   Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation:Part Design - Migrate
-   Version:0.17
+   Name/ro: PartDesign Migrate
+   Empty: 1
+   Workbenches: [PartDesign](PartDesign_Workbench/ro.md)
+   MenuLocation: Part Design - Migrate
+   Version: 0.17
 ---
 
 # PartDesign Migrate/ro
@@ -55,4 +55,4 @@ Atelierul PartDesign în FreeCAD v0.17 introduce noi instrumente și elemente ca
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Migrate/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Migrate/ro

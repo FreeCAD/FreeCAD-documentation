@@ -4988,4 +4988,4 @@ Das Forum [Screw Maker](https://forum.freecadweb.org/viewtopic.php?f=22&t=6558&s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro screw maker1 2/de
+⏵ [documentation index](../README.md) > Macro screw maker1 2/de

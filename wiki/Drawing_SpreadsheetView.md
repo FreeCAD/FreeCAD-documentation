@@ -1,6 +1,6 @@
 # Drawing SpreadsheetView
 ---
-- GuiCommand:   Name:Drawing SpreadsheetView   Workbenches:[[Drawing Workbench   Drawing]]|MenuLocation:Drawing - Spreadsheet View---
+- GuiCommand:   Name: Drawing SpreadsheetView   Workbenches: [[Drawing Workbench   Drawing]]|MenuLocation: Drawing - Spreadsheet View---
 
 ## Description
 
@@ -35,4 +35,4 @@ This tool allows you to place a view of a selected [spreadsheet](Spreadsheet_Wor
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing SpreadsheetView
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing SpreadsheetView

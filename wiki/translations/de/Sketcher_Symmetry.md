@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher Symmetry
-   Name/de:Sketcher Symmetrie
-   MenuLocation:Skizze - Skizzenwerkzeuge - Symmetrie
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**Z** **S**
-   Version:0.16
-   SeeAlso:[Sketcher SkizzeSpiegeln](Sketcher_MirrorSketch/de.md)
+   Name: Sketcher Symmetry
+   Name/de: Sketcher Symmetrie
+   MenuLocation: Skizze - Skizzenwerkzeuge - Symmetrie
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **Z** **S**
+   Version: 0.16
+   SeeAlso: [Sketcher SkizzeSpiegeln](Sketcher_MirrorSketch/de.md)
 ---
 
 # Sketcher Symmetry/de
@@ -38,4 +38,4 @@ Man beachte, dass keine zusätzliche Symmetrie-Randbedingung hinzugefügt wird.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Symmetry/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Symmetry/de

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch_Window
-   Name/ru:Окно
-   MenuLocation:Архитектура - Окно
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   Shortcut:**W** **I**
-   SeeAlso:[Стена](Arch_Wall/ru.md), [Добавить компонент](Arch_Add/ru.md)
+   Name: Arch_Window
+   Name/ru: Окно
+   MenuLocation: Архитектура - Окно
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   Shortcut: **W** **I**
+   SeeAlso: [Стена](Arch_Wall/ru.md), [Добавить компонент](Arch_Add/ru.md)
 ---
 
 # Arch Window/ru
@@ -273,4 +273,4 @@ Door = Arch.makeWindowPreset("Simple door",
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Window/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Window/ru

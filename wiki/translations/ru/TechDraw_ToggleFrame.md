@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Отображение рамки вкл/выкл
-   Name:TechDraw_ToggleFrame
-   MenuLocation:TechDraw - Отображение рамки вкл/выкл
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Вставить Вид](TechDraw_View/ru.md), [Вставить Группу проекций](TechDraw_ProjectionGroup/ru.md)
+   Name/ru: Отображение рамки вкл/выкл
+   Name: TechDraw_ToggleFrame
+   MenuLocation: TechDraw - Отображение рамки вкл/выкл
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso: [Вставить Вид](TechDraw_View/ru.md), [Вставить Группу проекций](TechDraw_ProjectionGroup/ru.md)
 ---
 
 # TechDraw ToggleFrame/ru
@@ -74,4 +74,4 @@ The Toggle tool currently doesn\'t have a programming interface.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ToggleFrame/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ToggleFrame/ru

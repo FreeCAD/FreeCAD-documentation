@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher Regular Polygons
-   Name/it:Poligoni regolari
-   Icon:Sketcher_CompCreateRegularPolygon.png
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Nessuno (solo nella barra degli strumenti)
+   Name: Sketcher Regular Polygons
+   Name/it: Poligoni regolari
+   Icon: Sketcher_CompCreateRegularPolygon.png
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation: Nessuno (solo nella barra degli strumenti)
 ---
 
 # Sketcher CompCreateRegularPolygon/it
@@ -53,4 +53,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRegularPolygon/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRegularPolygon/it

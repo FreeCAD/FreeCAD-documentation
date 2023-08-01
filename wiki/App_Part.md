@@ -26,4 +26,4 @@ See [Std Part](Std_Part#Properties.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > App Part
+⏵ [documentation index](../README.md) > App Part

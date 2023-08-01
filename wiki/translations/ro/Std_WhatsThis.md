@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std WhatsThis
-   MenuLocation:[Help](Std_Help_Menu.md) - What's This?
-   Workbenches:All
-   Shortcut:Shift + F1
-   SeeAlso:[Std Online Help](Std_OnlineHelp.md)
+   Name: Std WhatsThis
+   MenuLocation: [Help](Std_Help_Menu.md) - What's This?
+   Workbenches: All
+   Shortcut: Shift + F1
+   SeeAlso: [Std Online Help](Std_OnlineHelp.md)
 ---
 
 # Std WhatsThis/ro
@@ -56,4 +56,4 @@ In FreeCAD <small>(v0.20)</small>  this command requires the [Help Addon](https:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std WhatsThis/ro
+⏵ [documentation index](../README.md) > Std WhatsThis/ro

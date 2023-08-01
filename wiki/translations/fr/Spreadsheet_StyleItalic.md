@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet StyleItalic
-   Name/fr:Spreadsheet Texte en italique
-   MenuLocation:Spreadsheet - Styles - Texte en italique
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/fr.md)
-   Version:0.17
+   Name: Spreadsheet StyleItalic
+   Name/fr: Spreadsheet Texte en italique
+   MenuLocation: Spreadsheet - Styles - Texte en italique
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/fr.md)
+   Version: 0.17
 ---
 
 # Spreadsheet StyleItalic/fr
@@ -30,4 +30,4 @@ L\'outil **[<img src=images/Spreadsheet_StyleItalic.svg style="width:16px"> [Spr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleItalic/fr
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleItalic/fr

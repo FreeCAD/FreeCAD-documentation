@@ -9,7 +9,7 @@
 ## Einführung
 
 
-{{TOCright}}
+
 
 Der <img alt="" src=images/Workbench_Raytracing.svg  style="width:24px;">[Arbeitsbereich Strahlverfolgung](Raytracing_Workbench/de.md) dient dazu, fotorealistische Bilder deiner Modelle zu erzeugen, indem du sie mit einem externen Renderer verarbeitest.
 
@@ -156,4 +156,4 @@ Diese Seiten beziehen sich auf den neuen, in Python programmierten Arbeitsbereic
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/de
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/de

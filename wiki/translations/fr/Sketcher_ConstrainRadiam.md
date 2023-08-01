@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainRadiam
-   Name/fr:Sketcher Contrainte automatique rayon/diamètre
-   MenuLocation:Esquisse - Contraintes d'esquisse - Contrainte automatique rayon/diamètre
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**K** **S**
-   Version:0.20
-   SeeAlso:[Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte de distance en X](Sketcher_ConstrainDistanceX/fr.md), [Sketcher Contrainte de distance en Y](Sketcher_ConstrainDistanceY/fr.md)
+   Name: Sketcher ConstrainRadiam
+   Name/fr: Sketcher Contrainte automatique rayon/diamètre
+   MenuLocation: Esquisse - Contraintes d'esquisse - Contrainte automatique rayon/diamètre
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **K** **S**
+   Version: 0.20
+   SeeAlso: [Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte de distance en X](Sketcher_ConstrainDistanceX/fr.md), [Sketcher Contrainte de distance en Y](Sketcher_ConstrainDistanceY/fr.md)
 ---
 
 # Sketcher ConstrainRadiam/fr
@@ -56,4 +56,4 @@ Aucun script spécifique ne s\'applique. Voir la page [Sketcher Scripts](Sketche
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadiam/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadiam/fr

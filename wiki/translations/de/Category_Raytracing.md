@@ -15,4 +15,4 @@ Diese Kategorie zeigt eine Liste von Seiten, die zum [Robot-Arbeitsbereich](Robo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Raytracing/de
+⏵ [documentation index](../README.md) > Category:Raytracing/de

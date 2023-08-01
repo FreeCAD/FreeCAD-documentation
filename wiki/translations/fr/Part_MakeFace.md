@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part MakeFace‏‎
-   Name/fr:Part Créer une face
-   MenuLocation:Part - Créer une face à partir de polylignes
-   Workbenches:[Part](Part_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[Part Créer une surface réglée](Part_RuledSurface/fr.md)
+   Name: Part MakeFace‏‎
+   Name/fr: Part Créer une face
+   MenuLocation: Part - Créer une face à partir de polylignes
+   Workbenches: [Part](Part_Workbench/fr.md)
+   Version: 0.19
+   SeeAlso: [Part Créer une surface réglée](Part_RuledSurface/fr.md)
 ---
 
 # Part MakeFace/fr
@@ -32,4 +32,4 @@ Il est possible d\'imbriquer des contours fermés, par exemple pour avoir des ce
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeFace/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeFace/fr

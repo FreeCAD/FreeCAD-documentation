@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ViewStatusBar
-   Name/de:Std StatusleisteAnzeigen
-   Empty:1
-   MenuLocation:Ansicht - Statusleiste
-   Workbenches:Alle
+   Name: Std ViewStatusBar
+   Name/de: Std StatusleisteAnzeigen
+   Empty: 1
+   MenuLocation: Ansicht - Statusleiste
+   Workbenches: Alle
 ---
 
 # Std ViewStatusBar/de
@@ -32,4 +32,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewStatusBar/de
+⏵ [documentation index](../README.md) > Std ViewStatusBar/de

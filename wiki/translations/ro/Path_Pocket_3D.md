@@ -1,6 +1,6 @@
 # Path Pocket 3D/ro
 ---
-- GuiCommand:   Name:Path 3DPocket   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path - 3D Pocket   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Path 3DPocket   Workbenches: [[Path Workbench   Path]]|MenuLocation: Path - 3D Pocket   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -241,4 +241,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Pocket 3D/ro
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Pocket 3D/ro

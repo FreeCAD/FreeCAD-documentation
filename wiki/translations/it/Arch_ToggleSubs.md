@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch ToggleSubs
-‏‎   Name/it:Mostra/Nascondi sottocomponenti
-   MenuLocation:Architettura - Utilità - Mostra/Nascondi sottocomponenti
-   Workbenches:[Arch](Arch_Workbench/it.md)
-   Shortcut:‏‎Ctrl + Spazio
-   SeeAlso:[Componente](Arch_Component/it.md)
+   Name: Arch ToggleSubs
+‏‎   Name/it: Mostra/Nascondi sottocomponenti
+   MenuLocation: Architettura - Utilità - Mostra/Nascondi sottocomponenti
+   Workbenches: [Arch](Arch_Workbench/it.md)
+   Shortcut: ‏‎Ctrl + Spazio
+   SeeAlso: [Componente](Arch_Component/it.md)
 ---
 
 # Arch ToggleSubs/it
@@ -68,4 +68,4 @@ Lo stile [Costruzione](Draft_ToggleConstructionMode/it.md) di Draft può essere 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/it

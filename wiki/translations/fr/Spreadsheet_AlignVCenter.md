@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet AlignVCenter
-   Name/fr:Spreadsheet Alignement vertical au centre
-   MenuLocation:Spreadsheet - Alignement - Alignement vertical au centre
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/fr.md)
-   Version:0.17
+   Name: Spreadsheet AlignVCenter
+   Name/fr: Spreadsheet Alignement vertical au centre
+   MenuLocation: Spreadsheet - Alignement - Alignement vertical au centre
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/fr.md)
+   Version: 0.17
 ---
 
 # Spreadsheet AlignVCenter/fr
@@ -30,4 +30,4 @@ L\'outil **[<img src=images/Spreadsheet_AlignVCenter.svg style="width:16px"> [Sp
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignVCenter/fr
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignVCenter/fr

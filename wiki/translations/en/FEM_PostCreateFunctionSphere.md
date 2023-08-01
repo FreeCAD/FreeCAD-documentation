@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:FEM PostCreateFunctionSphere
-   MenuLocation:Results - Filter Functions - Sphere
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM tutorial](FEM_tutorial.md)
+   Name: FEM PostCreateFunctionSphere
+   MenuLocation: Results - Filter Functions - Sphere
+   Workbenches: [FEM](FEM_Workbench.md)
+   SeeAlso: [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM PostCreateFunctionSphere/en
@@ -50,4 +50,4 @@ If the Sphere object in the [tree view](Tree_view.md) is hidden, select the <img
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionSphere/en
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionSphere/en

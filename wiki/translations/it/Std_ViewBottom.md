@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_ViewBottom
-   Name/it:Vista dal basso
-   MenuLocation:Visualizza - Viste standard - Dal basso
-   Workbenches:Tutti
-   Shortcut:**5**
-   SeeAlso:[Vista da dietro](Std_ViewRear/it.md), [Vista da sinistra](Std_ViewLeft/it.md)
+   Name: Std_ViewBottom
+   Name/it: Vista dal basso
+   MenuLocation: Visualizza - Viste standard - Dal basso
+   Workbenches: Tutti
+   Shortcut: **5**
+   SeeAlso: [Vista da dietro](Std_ViewRear/it.md), [Vista da sinistra](Std_ViewLeft/it.md)
 ---
 
 # Std ViewBottom/it
@@ -53,4 +53,4 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewBottom/it
+⏵ [documentation index](../README.md) > Std ViewBottom/it

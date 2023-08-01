@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Import‏‎
-   Name/ru:Part ImportCAD‏‎
-   MenuLocation:Деталь - Импорт CAD
-   Workbenches:[Part](Part_Workbench/ru.md)
-   SeeAlso:[Std Import](Std_Import/ru.md)
+   Name: Part Import‏‎
+   Name/ru: Part ImportCAD‏‎
+   MenuLocation: Деталь - Импорт CAD
+   Workbenches: [Part](Part_Workbench/ru.md)
+   SeeAlso: [Std Import](Std_Import/ru.md)
 ---
 
 # Part Import/ru
@@ -36,4 +36,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Import/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Import/ru

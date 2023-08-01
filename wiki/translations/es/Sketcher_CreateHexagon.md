@@ -1,6 +1,6 @@
 # Sketcher CreateHexagon/es
 ---
-- GuiCommand:   Name:Sketcher CreateHexagon   Name/es:Sketcher CreateHexagon   Workbenches:[[Sketcher Workbench/es   Sketcher]]|MenuLocation:Sketch - Sketcher geometries - Create hexagon   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Sketcher CreateHexagon   Name/es: Sketcher CreateHexagon   Workbenches: [[Sketcher Workbench/es   Sketcher]]|MenuLocation: Sketch - Sketcher geometries - Create hexagon   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -31,4 +31,4 @@ The circumscribed circle is construction geometry, which is only visible when ed
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateHexagon/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateHexagon/es

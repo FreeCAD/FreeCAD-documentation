@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Image CreateImagePlane
-   Name/it:Piano immagine
-   Icon:Image CreateImagePlane.svg
-   MenuLocation:Barre degli strumenti - Crea un'immagine planare nello spazio 3D
-   Workbenches:[Image](Image_Workbench/it.md)
-   SeeAlso:[Apri immagine](Image_Open/it.md), [Scala immagine](Image_Scaling/it.md)
+   Name: Image CreateImagePlane
+   Name/it: Piano immagine
+   Icon: Image CreateImagePlane.svg
+   MenuLocation: Barre degli strumenti - Crea un'immagine planare nello spazio 3D
+   Workbenches: [Image](Image_Workbench/it.md)
+   SeeAlso: [Apri immagine](Image_Open/it.md), [Scala immagine](Image_Scaling/it.md)
 ---
 
 # Image CreateImagePlane/it
@@ -108,4 +108,4 @@ Se inizialmente non viene assegnato alcuno scostamento all\'immagine, la sua pos
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/it
+⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/it

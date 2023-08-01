@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part MakeSolid
-   Name/pl:Część: Przekształć na bryłę
-   MenuLocation:Część - Przekształć na bryłę
-   Workbenches:[Część](Part_Workbench/pl.md)
+   Name: Part MakeSolid
+   Name/pl: Część: Przekształć na bryłę
+   MenuLocation: Część - Przekształć na bryłę
+   Workbenches: [Część](Part_Workbench/pl.md)
 ---
 
 # Part MakeSolid/pl
@@ -32,4 +32,4 @@ To polecenie tworzy bryłę z obiektu kształtu.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/pl

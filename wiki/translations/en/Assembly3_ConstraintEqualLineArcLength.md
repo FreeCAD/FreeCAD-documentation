@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintEqualLineArcLength
-   Icon:Assembly_ConstraintEqualLineArcLength.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintEqualLineArcLength
+   Icon: Assembly_ConstraintEqualLineArcLength.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintEqualLineArcLength/en
@@ -44,4 +44,4 @@ Constraint "EqualLineArcLength" requires the 2nd element to be a circul
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintEqualLineArcLength/en
+⏵ [documentation index](../README.md) > Assembly3 ConstraintEqualLineArcLength/en

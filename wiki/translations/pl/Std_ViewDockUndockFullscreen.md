@@ -1,13 +1,13 @@
 ---
 - GuiCommand:
 
-   Name:Std ViewDockUndockFullscreen
-   Nam/pl:Std: Zadokuj / Oddokuj okno
-   Empty:1
-   MenuLocation:Widok - Okno dokumentu - Zadokowany / Niezadokowany
-   Workbenches:wszystkie
-   Shortcut:**V** **D** / **V** **U**
-   SeeAlso:[Wyświetl na pełnym ekranie](Std_ViewFullscreen/pl.md), [Pełny ekran](Std_MainFullscreen/pl.md)
+   Name: Std ViewDockUndockFullscreen
+   Nam/pl: Std: Zadokuj / Oddokuj okno
+   Empty: 1
+   MenuLocation: Widok - Okno dokumentu - Zadokowany / Niezadokowany
+   Workbenches: wszystkie
+   Shortcut: **V** **D** / **V** **U**
+   SeeAlso: [Wyświetl na pełnym ekranie](Std_ViewFullscreen/pl.md), [Pełny ekran](Std_MainFullscreen/pl.md)
 ---
 
 # Std ViewDockUndockFullscreen/pl
@@ -63,4 +63,4 @@ Opcja menu **Niezadokowany** powoduje odłączenie aktywnego okna [widoku 3D](3D
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewDockUndockFullscreen/pl
+⏵ [documentation index](../README.md) > Std ViewDockUndockFullscreen/pl

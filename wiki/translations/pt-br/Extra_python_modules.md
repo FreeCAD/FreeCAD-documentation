@@ -8,7 +8,7 @@
 </div>
 
 
-{{TOCright}}
+
 
 ## Overview
 
@@ -693,4 +693,4 @@ utils = LazyLoader('PathScripts', globals(), 'PathScripts.PathUtils')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Python Code](Category_Python Code.md) > [Developer Documentation](Category_Developer Documentation.md) > Extra python modules/pt-br
+⏵ [documentation index](../README.md) > [Python Code](Category_Python Code.md) > [Developer Documentation](Category_Developer Documentation.md) > Extra python modules/pt-br

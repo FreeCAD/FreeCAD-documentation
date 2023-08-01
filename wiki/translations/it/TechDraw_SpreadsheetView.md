@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw_SpreadsheetView
-   Name/it:Vista di foglio di calcolo
-   MenuLocation:TechDraw - Vista di foglio di calcolo
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Foglio di calcolo](Spreadsheet_Workbench/it.md)
+   Name: TechDraw_SpreadsheetView
+   Name/it: Vista di foglio di calcolo
+   MenuLocation: TechDraw - Vista di foglio di calcolo
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso: [Foglio di calcolo](Spreadsheet_Workbench/it.md)
 ---
 
 # TechDraw SpreadsheetView/it
@@ -93,4 +93,4 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SpreadsheetView/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SpreadsheetView/it

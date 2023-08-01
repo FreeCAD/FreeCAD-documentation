@@ -2,7 +2,7 @@
 ## Introducción
 
 
-{{TOCright}}
+
 
 Esta página tiene como objetivo presentar a Conda como gestor de paquetes, dependencias y administrador ambiente para FreeCAD.
 
@@ -95,4 +95,4 @@ conda create --name fcenv-dev --channel freecad/label/dev freecad
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Conda/es
+⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Conda/es

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Ellipsoid
-   Name/de:Part Ellipsoid
-   MenuLocation:Formteil - [Grundkörper erstellen...](Part_Primitives/de.md) - Ellipsoid
-   Workbenches:[Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
-   SeeAlso:[Part Grundelemente](Part_Primitives/de.md)
+   Name: Part Ellipsoid
+   Name/de: Part Ellipsoid
+   MenuLocation: Formteil - [Grundkörper erstellen...](Part_Primitives/de.md) - Ellipsoid
+   Workbenches: [Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
+   SeeAlso: [Part Grundelemente](Part_Primitives/de.md)
 ---
 
 # Part Ellipsoid/de
@@ -100,4 +100,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipsoid/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipsoid/de

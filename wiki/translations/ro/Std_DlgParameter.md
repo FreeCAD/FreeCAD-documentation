@@ -1,6 +1,6 @@
 # Std DlgParameter/ro
 ---
-- GuiCommand:   Name:Std DlgParameter   Workbenches:All   MenuLocation:[[Std Tools Menu   Tools]] - Parameter |Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Std DlgParameter   Workbenches: All   MenuLocation: [[Std Tools Menu   Tools]] - Parameter |Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -187,4 +187,4 @@ It is likely a bad idea to modify the preferences of other parts of FreeCAD unle
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgParameter/ro
+⏵ [documentation index](../README.md) > Std DlgParameter/ro

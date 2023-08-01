@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Array
-   Name/tr:Dizi
-   MenuLocation:Taslak - Dizi
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   SeeAlso:[Yol dizisi](Draft_PathArray/tr.md),[Nokta dizisi](Draft_PointArray/tr.md),[Klonla](Draft_Clone/tr.md)
+   Name: Draft Array
+   Name/tr: Dizi
+   MenuLocation: Taslak - Dizi
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   SeeAlso: [Yol dizisi](Draft_PathArray/tr.md),[Nokta dizisi](Draft_PointArray/tr.md),[Klonla](Draft_Clone/tr.md)
 ---
 
 # Draft Array/tr
@@ -99,4 +99,4 @@ This command is now obsolete. Use the [Draft OrthoArray](Draft_OrthoArray.md), [
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/tr

@@ -1,7 +1,7 @@
 # <img alt="L\'icona di Draft" src=images/Workbench_Draft.svg  style="width:64px;"> Draft Workbench/it
 
 
-{{TOCright}}
+
 
 
 
@@ -383,4 +383,4 @@ L\'esame del codice di questo modulo può aiutare a comprendere l\'interfaccia d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Draft](Category_Draft.md) > Draft Workbench/it
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Draft](Category_Draft.md) > Draft Workbench/it

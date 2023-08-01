@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Constraint EqualLength
-   Name/ja:Constraint EqualLength
-   Workbenches:[スケッチャー](Sketcher_Workbench/ja.md), [パートデザイン](PartDesign_Workbench/ja.md)
-   MenuLocation:Sketch - Sketcher constraints - Constrain equal
-   SeeAlso:[Constraint Radius](Constraint_Radius/ja.md)
+   Name: Constraint EqualLength
+   Name/ja: Constraint EqualLength
+   Workbenches: [スケッチャー](Sketcher_Workbench/ja.md), [パートデザイン](PartDesign_Workbench/ja.md)
+   MenuLocation: Sketch - Sketcher constraints - Constrain equal
+   SeeAlso: [Constraint Radius](Constraint_Radius/ja.md)
 ---
 
 # Sketcher ConstrainEqual/ja
@@ -120,4 +120,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainEqual/ja
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainEqual/ja

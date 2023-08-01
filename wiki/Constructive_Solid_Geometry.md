@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Constructive Solid Geometry
+⏵ [documentation index](../README.md) > Constructive Solid Geometry

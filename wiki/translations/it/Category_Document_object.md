@@ -18,4 +18,4 @@ Questa categoria elenca le pagine relative agli oggetti derivati dalla base [App
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Document object/it
+⏵ [documentation index](../README.md) > Category:Document object/it

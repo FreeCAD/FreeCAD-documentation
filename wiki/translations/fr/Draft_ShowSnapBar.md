@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft ShowSnapBar
-   Name/fr:Draft Barre d'aimantation
-   MenuLocation:Utilitaires - Afficher la barre d'outils d'aimantation
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Draft Aimantation](Draft_Snap/fr.md)
+   Name: Draft ShowSnapBar
+   Name/fr: Draft Barre d'aimantation
+   MenuLocation: Utilitaires - Afficher la barre d'outils d'aimantation
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   SeeAlso: [Draft Aimantation](Draft_Snap/fr.md)
 ---
 
 # Draft ShowSnapBar/fr
@@ -26,4 +26,4 @@ La commande <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:24px;"> *
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShowSnapBar/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShowSnapBar/fr

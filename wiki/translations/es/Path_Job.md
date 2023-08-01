@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Path Job
-   Name/es:Trayectoria Pedido
-   Workbenches:[Trayectoria](Path_Workbench.md)
-   MenuLocation:Trayectoria - Pedido
-   Shortcut:**P** **F**
-   SeeAlso:
+   Name: Path Job
+   Name/es: Trayectoria Pedido
+   Workbenches: [Trayectoria](Path_Workbench.md)
+   MenuLocation: Trayectoria - Pedido
+   Shortcut: **P** **F**
+   SeeAlso: 
 ---
 
 # Path Job/es
@@ -103,4 +103,4 @@ If you have a job which contends more than one path operation, you can determine
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/es
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/es

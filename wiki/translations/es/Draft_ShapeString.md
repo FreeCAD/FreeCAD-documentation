@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft ShapeString
-   Name/es:Bosquejar forma de cadena
-   MenuLocation:Borrador -> Bosquejar forma de cadena
-   Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   Shortcut:**S** **S**
-   SeeAlso:[Draft Text](Draft_Text/es.md), [Part Extrude](Part_Extrude/es.md)
+   Name: Draft ShapeString
+   Name/es: Bosquejar forma de cadena
+   MenuLocation: Borrador -> Bosquejar forma de cadena
+   Workbenches: [Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut: **S** **S**
+   SeeAlso: [Draft Text](Draft_Text/es.md), [Part Extrude](Part_Extrude/es.md)
 ---
 
 # Draft ShapeString/es
@@ -208,4 +208,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShapeString/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShapeString/es

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher Symmetry
-   Name/fr:Sketcher Symétrie
-   MenuLocation:Esquisse - Outils d'esquisse - Symétrie
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**Z** **S**
-   Version:0.16
-   SeeAlso:[Sketcher Esquisse miroir](Sketcher_MirrorSketch/fr.md)
+   Name: Sketcher Symmetry
+   Name/fr: Sketcher Symétrie
+   MenuLocation: Esquisse - Outils d'esquisse - Symétrie
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **Z** **S**
+   Version: 0.16
+   SeeAlso: [Sketcher Esquisse miroir](Sketcher_MirrorSketch/fr.md)
 ---
 
 # Sketcher Symmetry/fr
@@ -36,4 +36,4 @@ Remarquez qu\'aucune contrainte de symétrie supplémentaire ne sera ajoutée.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Symmetry/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Symmetry/fr

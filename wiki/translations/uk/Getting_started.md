@@ -1,6 +1,4 @@
 # Getting started/uk
-{{TOCright}}
-
 ## Foreword
 
 FreeCAD is a 3D [parametric modeling application](About_FreeCAD.md). It is primarily made for mechanical design, but also serves all other uses where you need to model 3D objects with precision and control over modeling history.
@@ -140,4 +138,4 @@ And finally, one of the most powerful features of FreeCAD is the [scripting](scr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Getting started/uk
+⏵ [documentation index](../README.md) > Getting started/uk

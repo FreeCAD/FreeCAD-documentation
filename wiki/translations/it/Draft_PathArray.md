@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft_PathArray
-   Name/it:Serie su tracciato
-   MenuLocation:Modifiche - Strumenti serie - Serie su tracciato
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Version:0.14
-   SeeAlso:[Serie ortogonale](Draft_OrthoArray/it.md), [Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie di link su tracciato](Draft_PathLinkArray/it.md), [Serie su punti](Draft_PointArray/it.md), [Serie di link su punti](Draft_PointLinkArray/it.md) 
+   Name: Draft_PathArray
+   Name/it: Serie su tracciato
+   MenuLocation: Modifiche - Strumenti serie - Serie su tracciato
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Version: 0.14
+   SeeAlso: [Serie ortogonale](Draft_OrthoArray/it.md), [Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie di link su tracciato](Draft_PathLinkArray/it.md), [Serie su punti](Draft_PointArray/it.md), [Serie di link su punti](Draft_PointLinkArray/it.md) 
 ---
 
 # Draft PathArray/it
@@ -283,4 +283,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathArray/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathArray/it

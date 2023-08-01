@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std ToggleSelectability
-   Name/de:Std AuswählbarkeitUmschalten
-   MenuLocation:Ansicht - Sichtbarkeit - Selektierbarkeit an/aus
-   Workbenches:Alle
+   Name: Std ToggleSelectability
+   Name/de: Std AuswählbarkeitUmschalten
+   MenuLocation: Ansicht - Sichtbarkeit - Selektierbarkeit an/aus
+   Workbenches: Alle
 ---
 
 # Std ToggleSelectability/de
@@ -64,4 +64,4 @@ else:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleSelectability/de
+⏵ [documentation index](../README.md) > Std ToggleSelectability/de

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FEM Module/it
+⏵ [documentation index](../README.md) > FEM Module/it

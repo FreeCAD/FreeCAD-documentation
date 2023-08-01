@@ -1,7 +1,7 @@
 # <img alt="Ikonka FreeCAD dla środowiska pracy Statek" src=images/Workbench_Ship.svg  style="width:64px;"> Ship Workbench/pl
 
 
-{{TOCright}}
+
 
 
 
@@ -68,4 +68,4 @@ Jeśli uważasz, że Twojego nazwiska brakuje na tej liście, dodaj je samodziel
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [Ship](Category_Ship.md) > Ship Workbench/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [Ship](Category_Ship.md) > Ship Workbench/pl

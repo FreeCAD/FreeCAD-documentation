@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/it:Sposta
-   MenuLocation:Sketch - Strumenti - Sposta
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   Shortcut:**Z** **M**
-   Version:0.18
-   SeeAlso:[Sketcher Clona](Sketcher_Clone/it.md), [Sketcher Copia](Sketcher_Copy/it.md)
+   Name/it: Sposta
+   MenuLocation: Sketch - Strumenti - Sposta
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   Shortcut: **Z** **M**
+   Version: 0.18
+   SeeAlso: [Sketcher Clona](Sketcher_Clone/it.md), [Sketcher Copia](Sketcher_Copy/it.md)
 ---
 
 # Sketcher Move/it
@@ -43,4 +43,4 @@ Sposta da un punto a un altro gli elementi dello schizzo selezionati, utilizzand
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/it

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ImportFromSTEP
-   Name/fr:Assembly3 Importer fichier STEP
-   Icon:Assembly_Import.svg
-   MenuLocation:Assembly3 - Import from STEP - Import from STEP
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 ImportFromSTEP
+   Name/fr: Assembly3 Importer fichier STEP
+   Icon: Assembly_Import.svg
+   MenuLocation: Assembly3 - Import from STEP - Import from STEP
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ImportFromSTEP/fr
@@ -23,4 +23,4 @@ La commande <img alt="" src=images/Assembly_Import.svg  style="width:24px;"> [Im
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ImportFromSTEP/fr
+⏵ [documentation index](../README.md) > Assembly3 ImportFromSTEP/fr

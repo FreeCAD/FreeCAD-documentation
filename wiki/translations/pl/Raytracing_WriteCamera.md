@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Raytracing WriteCamera‏‎
-   Name/pl:Raytracing: Eksport obrazu
-   MenuLocation:Raytracing - Camera‏‎
-   Workbenches:[Raytracing](Raytracing_Workbench/pl.md)
-   Shortcut:brak 
-   SeeAlso:-
+   Name: Raytracing WriteCamera‏‎
+   Name/pl: Raytracing: Eksport obrazu
+   MenuLocation: Raytracing - Camera‏‎
+   Workbenches: [Raytracing](Raytracing_Workbench/pl.md)
+   Shortcut: brak 
+   SeeAlso: -
 ---
 
 # Raytracing WriteCamera/pl
@@ -34,4 +34,4 @@ Eksport aktualnego ujęcia widoku do pliku typu .pov do wykorzystania w projekci
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteCamera/pl
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteCamera/pl

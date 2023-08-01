@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Pocket
-   Name/de:PartDesign Tasche
-   MenuLocation:PartDesign - Objekte abziehen - Tasche
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso:[PartDesign Aufpolsterung](PartDesign_Pad/de.md)
+   Name: PartDesign Pocket
+   Name/de: PartDesign Tasche
+   MenuLocation: PartDesign - Objekte abziehen - Tasche
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso: [PartDesign Aufpolsterung](PartDesign_Pad/de.md)
 ---
 
 # PartDesign Pocket/de
@@ -196,4 +196,4 @@ Tapers the pocket in the opposite extrusion direction by the given angle. A posi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/de

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateRectangle Center
-   MenuLocation:Sketch - Sketcher geometries - Create centered rectangle
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**G** **V**
-   Version:0.20
-   SeeAlso:[Sketcher Rectangle](Sketcher_CreateRectangle.md)
+   Name: Sketcher CreateRectangle Center
+   MenuLocation: Sketch - Sketcher geometries - Create centered rectangle
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **G** **V**
+   Version: 0.20
+   SeeAlso: [Sketcher Rectangle](Sketcher_CreateRectangle.md)
 ---
 
 # Sketcher CreateRectangle Center/en
@@ -34,4 +34,4 @@ When starting the tool, the mouse pointer changes to a white cross with a red re
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle Center/en
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle Center/en

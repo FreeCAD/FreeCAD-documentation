@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM MeshNetgenFromShape
-   Name/fr:FEM Maillage FEM à partir d'une forme de Netgen
-   MenuLocation:Maillage - Maillage FEM à partir d'une forme de Netgen
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM MeshNetgenFromShape
+   Name/fr: FEM Maillage FEM à partir d'une forme de Netgen
+   MenuLocation: Maillage - Maillage FEM à partir d'une forme de Netgen
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM MeshNetgenFromShape/fr
@@ -60,4 +60,4 @@ En fonction de votre système d\'exploitation et de votre paquetage d\'installat
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshNetgenFromShape/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshNetgenFromShape/fr

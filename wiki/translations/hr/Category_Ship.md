@@ -10,4 +10,4 @@ This category lists pages related to the [Ship Workbench/hr](Ship_Workbench/hr.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Ship/hr
+⏵ [documentation index](../README.md) > Category:Ship/hr

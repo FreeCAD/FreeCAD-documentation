@@ -13,4 +13,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Spreadsheet/pl
+⏵ [documentation index](../README.md) > Spreadsheet/pl

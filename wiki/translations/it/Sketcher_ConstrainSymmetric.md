@@ -1,6 +1,6 @@
 # Sketcher ConstrainSymmetric/it
 ---
-- GuiCommand:   Name:Sketcher ConstrainSymmetric   Name/it:Simmetria   Workbenches:[MenuLocation:Schizzo - Vincoli - Simmetria   Shortcut:S   SeeAlso:[[Sketcher ConstrainParallel/it|Parallela](Sketcher_Workbench/it___Schizzo]].md)---
+- GuiCommand:   Name: Sketcher ConstrainSymmetric   Name/it: Simmetria   Workbenches: [MenuLocation: Schizzo - Vincoli - Simmetria   Shortcut: S   SeeAlso: [[Sketcher ConstrainParallel/it|Parallela](Sketcher_Workbench/it___Schizzo]].md)---
 
 
 </div>
@@ -105,4 +105,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/it

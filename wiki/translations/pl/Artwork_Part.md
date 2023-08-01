@@ -32,4 +32,4 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Part](Category_Part.md) > Artwork Part/pl
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Part](Category_Part.md) > Artwork Part/pl

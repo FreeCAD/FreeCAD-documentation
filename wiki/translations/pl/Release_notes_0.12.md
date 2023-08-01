@@ -49,4 +49,4 @@ Starsze wersje: [0.11](Release_notes_0.11/pl.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.12/pl
+⏵ [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.12/pl

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Mirror
-   Name/tr:Yansıt
-   MenuLocation:Draft - Mirror
-   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
-   Shortcut:**M** **I**
-   SeeAlso:[Draft Scale](Draft_Scale/tr.md)
+   Name: Draft Mirror
+   Name/tr: Yansıt
+   MenuLocation: Draft - Mirror
+   Workbenches: [Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   Shortcut: **M** **I**
+   SeeAlso: [Draft Scale](Draft_Scale/tr.md)
 ---
 
 # Draft Mirror/tr
@@ -127,4 +127,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Mirror/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Mirror/tr

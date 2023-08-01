@@ -1,6 +1,4 @@
 # Interface/hr
-{{TOCright}}
-
 ## Predstavljanje
 
 The FreeCAD [interface](interface.md) is based on Qt, a well known graphical user interface (GUI) toolkit, particularly used in Linux, but also available in Windows and MacOS.
@@ -85,4 +83,4 @@ These options are in the menu, **Tools → Customize**. See [interface customiza
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Interface/hr
+⏵ [documentation index](../README.md) > Interface/hr

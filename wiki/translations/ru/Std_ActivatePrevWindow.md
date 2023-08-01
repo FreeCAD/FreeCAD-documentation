@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Предыдущее
-   Name:Std_ActivatePrevWindow
-   MenuLocation:Окна - Предыдущее
-   Workbenches:Все
-   Shortcut:**Ctrl**+**Shift**+**Tab**
-   SeeAlso:[Следующее](Std_ActivateNextWindow/ru.md), [Окна](Std_Windows/ru.md)
+   Name/ru: Предыдущее
+   Name: Std_ActivatePrevWindow
+   MenuLocation: Окна - Предыдущее
+   Workbenches: Все
+   Shortcut: **Ctrl**+**Shift**+**Tab**
+   SeeAlso: [Следующее](Std_ActivateNextWindow/ru.md), [Окна](Std_Windows/ru.md)
 ---
 
 # Std ActivatePrevWindow/ru
@@ -42,4 +42,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ActivatePrevWindow/ru
+⏵ [documentation index](../README.md) > Std ActivatePrevWindow/ru

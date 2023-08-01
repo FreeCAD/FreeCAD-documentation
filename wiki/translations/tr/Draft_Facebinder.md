@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Facebinder
-   Name/tr:Yüz kaplama
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   MenuLocation:Taslak - Yüz kaplama
-   Shortcut:**F** **F**
-   SeeAlso:[Parça Kutu](Part_Box/tr.md), [Mimari Duvar](Arch_Wall/tr.md)
-   Version:0.14
+   Name: Draft Facebinder
+   Name/tr: Yüz kaplama
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   MenuLocation: Taslak - Yüz kaplama
+   Shortcut: **F** **F**
+   SeeAlso: [Parça Kutu](Part_Box/tr.md), [Mimari Duvar](Arch_Wall/tr.md)
+   Version: 0.14
 ---
 
 # Draft Facebinder/tr
@@ -215,4 +215,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Facebinder/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Facebinder/tr

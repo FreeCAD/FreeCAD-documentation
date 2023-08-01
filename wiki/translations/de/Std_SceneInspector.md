@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name/de:Std SzenenInspektor
-   MenuLocation:Werkzeuge - Szenen Inspektor...
-   Workbenches:Alle
+   Name/de: Std SzenenInspektor
+   MenuLocation: Werkzeuge - Szenen Inspektor...
+   Workbenches: Alle
 ---
 
 # Std SceneInspector/de
@@ -34,4 +34,4 @@ Der Befehl **Std SceneInspector** öffnet ein Dialogfeld, das eine Übersicht ü
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SceneInspector/de
+⏵ [documentation index](../README.md) > Std SceneInspector/de

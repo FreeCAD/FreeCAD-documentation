@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch MultiMaterial
-   MenuLocation:Arch - Material tools - Multi-Material
-   Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
-   Version:0.17
-   SeeAlso:[Arch SetMaterial](Arch_SetMaterial.md), [Arch CompSetMaterial](Arch_CompSetMaterial.md)
+   Name: Arch MultiMaterial
+   MenuLocation: Arch - Material tools - Multi-Material
+   Workbenches: [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   Version: 0.17
+   SeeAlso: [Arch SetMaterial](Arch_SetMaterial.md), [Arch CompSetMaterial](Arch_CompSetMaterial.md)
 ---
 
 # Arch MultiMaterial
@@ -54,4 +54,4 @@ This roughly corresponds to a combination of [IfcMaterialLayerSet](https://stand
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MultiMaterial
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MultiMaterial

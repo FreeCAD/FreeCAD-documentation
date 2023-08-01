@@ -68,4 +68,4 @@ La discussion sur le forum [Convert mesh to solid?](http://forum.freecadweb.org/
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro MeshToPart/fr
+⏵ [documentation index](../README.md) > Macro MeshToPart/fr

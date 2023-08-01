@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch_Rebar_BeamReinforcement
-   Name/it:Armatura di trave
-   MenuLocation:Arch - Strumenti armatura - Armatura di trave o 3D/BIM - Reinforcement - Beam Reinforcement
-   Workbenches:[Reinforcement](Reinforcement_Workbench/it.md), [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   SeeAlso:[Armatura di pilastro con due staffe e sei barre](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/it.md), [Armatura](Arch_Rebar/it.md)
-   Version:0.19
+   Name: Arch_Rebar_BeamReinforcement
+   Name/it: Armatura di trave
+   MenuLocation: Arch - Strumenti armatura - Armatura di trave o 3D/BIM - Reinforcement - Beam Reinforcement
+   Workbenches: [Reinforcement](Reinforcement_Workbench/it.md), [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   SeeAlso: [Armatura di pilastro con due staffe e sei barre](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/it.md), [Armatura](Arch_Rebar/it.md)
+   Version: 0.19
 ---
 
 # Arch Rebar BeamReinforcement/it
@@ -395,4 +395,4 @@ RebarGroup = TwoLeggedBeam.makeReinforcement(
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar BeamReinforcement/it
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar BeamReinforcement/it

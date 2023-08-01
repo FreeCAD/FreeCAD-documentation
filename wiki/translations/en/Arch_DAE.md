@@ -1,6 +1,4 @@
 # Arch DAE/en
-{{TOCright}}
-
 ## Description
 
 The [Collada (DAE)](https://en.wikipedia.org/wiki/COLLADA) format is a standard file format for exchange of Mesh data. The [Arch Workbench](Arch_Workbench.md) can import meshes from .dae files, and export Arch and other [Shape](Part_Workbench.md)-based objects to the .dae format.
@@ -16,4 +14,4 @@ The Collada import functionality in the Arch workbench depends on [pycollada](ht
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch DAE/en
+⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch DAE/en

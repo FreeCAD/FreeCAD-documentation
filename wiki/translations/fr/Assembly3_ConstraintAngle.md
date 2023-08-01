@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintAngle
-   Name/fr:Assembly3 Contrainte d'angle
-   Icon:Assembly_ConstraintAngle.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 ConstraintAngle
+   Name/fr: Assembly3 Contrainte d'angle
+   Icon: Assembly_ConstraintAngle.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintAngle/fr
@@ -37,4 +37,4 @@ La contrainte accepte les bords droits et les faces planes.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintAngle/fr
+⏵ [documentation index](../README.md) > Assembly3 ConstraintAngle/fr

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Circle
-   Name/tr:Çember
-   MenuLocation:Taslak - Çember
-   Workbenches:[Çember](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
-   Shortcut:**C** **I**
-   SeeAlso:[Yay](Draft_Arc/tr.md), [Elips](Draft_Ellipse/tr.md)
-   Version:0.7
+   Name: Draft Circle
+   Name/tr: Çember
+   MenuLocation: Taslak - Çember
+   Workbenches: [Çember](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   Shortcut: **C** **I**
+   SeeAlso: [Yay](Draft_Arc/tr.md), [Elips](Draft_Ellipse/tr.md)
+   Version: 0.7
 ---
 
 # Draft Circle/tr
@@ -236,4 +236,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Circle/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Circle/tr

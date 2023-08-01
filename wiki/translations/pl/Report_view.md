@@ -83,4 +83,4 @@ Kliknięcie prawym przyciskiem myszki w oknie widoku raportu powoduje wyświetle
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Report view/pl
+⏵ [documentation index](../README.md) > Report view/pl

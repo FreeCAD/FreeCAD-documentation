@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft PathLinkArray
-   MenuLocation:Modification - Array tools - Path Link array
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Version:0.19
-   SeeAlso:[Draft OrthoArray](Draft_OrthoArray.md), [Draft PolarArray](Draft_PolarArray.md), [Draft CircularArray](Draft_CircularArray.md), [Draft PathArray](Draft_PathArray.md), [Draft PointArray](Draft_PointArray.md), [Draft PointLinkArray](Draft_PointLinkArray.md)
+   Name: Draft PathLinkArray
+   MenuLocation: Modification - Array tools - Path Link array
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Version: 0.19
+   SeeAlso: [Draft OrthoArray](Draft_OrthoArray.md), [Draft PolarArray](Draft_PolarArray.md), [Draft CircularArray](Draft_CircularArray.md), [Draft PathArray](Draft_PathArray.md), [Draft PointArray](Draft_PointArray.md), [Draft PointLinkArray](Draft_PointLinkArray.md)
 ---
 
 # Draft PathLinkArray
@@ -16,4 +16,4 @@ The <img alt="" src=images/Draft_PathLinkArray.svg  style="width:24px;"> **Draft
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathLinkArray
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathLinkArray

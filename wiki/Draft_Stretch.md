@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Stretch
-   MenuLocation:Modification - Stretch
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:**S** **H**
-   Version:0.17
+   Name: Draft Stretch
+   MenuLocation: Modification - Stretch
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut: **S** **H**
+   Version: 0.17
 ---
 
 # Draft Stretch
@@ -58,4 +58,4 @@ There is no Python method to stretch objects. To emulate the results of the Draf
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Stretch
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Stretch

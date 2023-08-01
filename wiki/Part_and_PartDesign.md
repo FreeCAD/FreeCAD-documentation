@@ -172,4 +172,4 @@ Part and PartDesign workbenches can be used together with some care, creating qu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign
+⏵ [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign

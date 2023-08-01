@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft_Scale
-   Name/it:Scala
-   MenuLocation:Modifiche - Scala
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:**S** **C**
-   SeeAlso:[Evidenzia i sottoelementi](Draft_SubelementHighlight/it.md), [Clona](Draft_Clone/it.md)
+   Name: Draft_Scale
+   Name/it: Scala
+   MenuLocation: Modifiche - Scala
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut: **S** **C**
+   SeeAlso: [Evidenzia i sottoelementi](Draft_SubelementHighlight/it.md), [Clona](Draft_Clone/it.md)
 ---
 
 # Draft Scale/it
@@ -130,4 +130,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Scale/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Scale/it

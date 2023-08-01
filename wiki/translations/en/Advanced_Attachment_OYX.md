@@ -71,4 +71,4 @@ Now if we add a third reference by selecting the upper vertex of the orange edge
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Advanced Attachment OYX/en
+⏵ [documentation index](../README.md) > Advanced Attachment OYX/en

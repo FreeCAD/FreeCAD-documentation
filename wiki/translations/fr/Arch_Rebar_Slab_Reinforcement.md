@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar Slab Reinforcement
-   Name/fr:Arch Rebar Renfort de dalle
-   MenuLocation:Arch - Rebar tools - Slab Reinforcement<br>3D/BIM - Reinforcement tools - Slab 
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Rebar Armature hélicoïdale](Arch_Rebar_Helical/fr.md)
+   Name: Arch Rebar Slab Reinforcement
+   Name/fr: Arch Rebar Renfort de dalle
+   MenuLocation: Arch - Rebar tools - Slab Reinforcement<br>3D/BIM - Reinforcement tools - Slab 
+   Workbenches: [Arch](Arch_Workbench/fr.md)
+   SeeAlso: [Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Rebar Armature hélicoïdale](Arch_Rebar_Helical/fr.md)
 ---
 
 # Arch Rebar Slab Reinforcement/fr
@@ -363,4 +363,4 @@ slabReinforcementGroup = editSlabReinforcement(
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Slab Reinforcement/fr
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Slab Reinforcement/fr

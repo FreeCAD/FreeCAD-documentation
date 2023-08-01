@@ -1,6 +1,6 @@
 # Mesh FlipNormals/ro
 ---
-- GuiCommand:   Name:Mesh FlipNormals‏‎   MenuLocation:Meshes - Flip Normals   Workbenches:[[Mesh Workbench   Mesh]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Mesh FlipNormals‏‎   MenuLocation: Meshes - Flip Normals   Workbenches: [[Mesh Workbench   Mesh]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -58,4 +58,4 @@ Verificați această acțiune prin
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FlipNormals/ro
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FlipNormals/ro

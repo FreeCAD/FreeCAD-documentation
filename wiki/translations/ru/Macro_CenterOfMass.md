@@ -74,4 +74,4 @@ the forum discussion [Macro to compute center of mass](https://forum.freecadweb.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro CenterOfMass/ru
+⏵ [documentation index](../README.md) > Macro CenterOfMass/ru

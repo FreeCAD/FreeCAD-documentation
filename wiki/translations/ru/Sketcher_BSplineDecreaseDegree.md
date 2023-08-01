@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Уменьшить степень B-сплайна
-   Name:Sketcher_BSplineDecreaseDegree
-   MenuLocation:Sketch - B-сплйан инструменты эскиза - Уменьшить степень B-сплайна
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Показать/скрыть степень B-сплайна](Sketcher_BSplineDegree/ru.md), [Увеличить степень B-сплайна](Sketcher_BSplineIncreaseDegree/ru.md)
+   Name/ru: Уменьшить степень B-сплайна
+   Name: Sketcher_BSplineDecreaseDegree
+   MenuLocation: Sketch - B-сплйан инструменты эскиза - Уменьшить степень B-сплайна
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Показать/скрыть степень B-сплайна](Sketcher_BSplineDegree/ru.md), [Увеличить степень B-сплайна](Sketcher_BSplineIncreaseDegree/ru.md)
 ---
 
 # Sketcher BSplineDecreaseDegree/ru
@@ -48,4 +48,4 @@ If you take this result and increase the degree, you cannot get the initial stat
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDecreaseDegree/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDecreaseDegree/ru

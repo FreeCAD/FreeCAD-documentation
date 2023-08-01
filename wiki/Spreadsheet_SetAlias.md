@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet SetAlias
-   MenuLocation:-
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
-   Version:0.17
+   Name: Spreadsheet SetAlias
+   MenuLocation: -
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench.md)
+   Version: 0.17
 ---
 
 # Spreadsheet SetAlias
@@ -33,4 +33,4 @@ The **[<img src=images/Spreadsheet_SetAlias.svg style="width:16px"> [Spreadsheet
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SetAlias
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SetAlias

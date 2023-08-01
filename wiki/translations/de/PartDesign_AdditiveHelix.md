@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveHelix
-   Name/de:PartDesign WendelHinzufügen
-   MenuLocation:Part Design - Objekte hinzufügen - Wendel
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[PartDesign WendelEntfernen](PartDesign_SubtractiveHelix/de.md)
+   Name: PartDesign AdditiveHelix
+   Name/de: PartDesign WendelHinzufügen
+   MenuLocation: Part Design - Objekte hinzufügen - Wendel
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [PartDesign WendelEntfernen](PartDesign_SubtractiveHelix/de.md)
 ---
 
 # PartDesign AdditiveHelix/de
@@ -138,4 +138,4 @@ Eine Wendel, die sich nicht selbst durchdringt, ist sichtbar, wenn **Werkzeuge �
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveHelix/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveHelix/de

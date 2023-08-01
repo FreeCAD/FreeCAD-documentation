@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std Workbench
-   Empty:1
-   MenuLocation:View - Workbench
-   Workbenches:[Workbenches](Workbenches.md)
+   Name: Std Workbench
+   Empty: 1
+   MenuLocation: View - Workbench
+   Workbenches: [Workbenches](Workbenches.md)
 ---
 
 # Std Workbench
@@ -53,4 +53,4 @@ FreeCADGui.activateWorkbench("PartDesignWorkbench")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Workbench
+⏵ [documentation index](../README.md) > Std Workbench

@@ -286,4 +286,4 @@ La formule vient de [cercle_3pts.pdf](http://www-obs.univ-lyon1.fr/labo/fc/Ateli
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Draft Circle 3 Points/fr
+⏵ [documentation index](../README.md) > Macro Draft Circle 3 Points/fr

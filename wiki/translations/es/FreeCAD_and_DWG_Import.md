@@ -1,7 +1,4 @@
 # FreeCAD and DWG Import/es
-{{TOCright}}
-
-
 {{Fake heading|sub=4|< Back to [[FreeCAD Howto Import Export]]}}
 
 
@@ -245,4 +242,4 @@ En la versión de desarrollo, como se mencionó anteriormente, se puede cambiar 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Common Questions](Category_Common Questions.md) > [Draft](Category_Draft.md) > FreeCAD and DWG Import/es
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Common Questions](Category_Common Questions.md) > [Draft](Category_Draft.md) > FreeCAD and DWG Import/es

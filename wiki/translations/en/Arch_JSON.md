@@ -1,6 +1,4 @@
 # Arch JSON/en
-{{TOCright}}
-
 ## Description
 
 The main purpose of this export format is to make it easier to process FreeCAD model data from programming languages. The [JSON](http://json.org/) format is as follows:
@@ -26,4 +24,4 @@ Note that facets form triangles and their integer values reference points in the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch JSON/en
+⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch JSON/en

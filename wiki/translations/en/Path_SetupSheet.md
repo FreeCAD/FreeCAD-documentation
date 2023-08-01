@@ -1,6 +1,4 @@
 # Path SetupSheet/en
-{{TOCright}}
-
 ## Description
 
 Using a **SetupSheet** allows the user to customize how the various property values for operations will be calculated. The user always has the option to override the SetupSheet values with an explicit value or change the way SetupSheet values are calculated.
@@ -64,4 +62,4 @@ Other values in the SetupSheet can be referenced directly:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SetupSheet/en
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SetupSheet/en

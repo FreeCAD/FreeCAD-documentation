@@ -1,7 +1,7 @@
 # <img alt="Assembly3 workbench icon" src=images/Assembly3_workbench_icon.svg  style="width:64px;"> Assembly3 Workbench/uk
 
 
-{{TOCright}}
+
 
 
 
@@ -600,4 +600,4 @@ One way to solve this is to just delete all invalid constraints and elements, im
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Assembly3 Workbench/uk
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Assembly3 Workbench/uk

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Ограничение горизонтальности
-   Name:Sketcher_ConstrainHorizontal
-   MenuLocation:Sketch - Ограничения эскиза - Ограничение горизонтальности
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**H**
-   SeeAlso:[Ограничение вертикальности](Sketcher_ConstrainVertical/ru.md)
+   Name/ru: Ограничение горизонтальности
+   Name: Sketcher_ConstrainHorizontal
+   MenuLocation: Sketch - Ограничения эскиза - Ограничение горизонтальности
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **H**
+   SeeAlso: [Ограничение вертикальности](Sketcher_ConstrainVertical/ru.md)
 ---
 
 # Sketcher ConstrainHorizontal/ru
@@ -55,4 +55,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/ru

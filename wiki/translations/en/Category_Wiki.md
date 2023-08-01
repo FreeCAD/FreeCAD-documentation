@@ -11,4 +11,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Wiki/en
+⏵ [documentation index](../README.md) > Category:Wiki/en

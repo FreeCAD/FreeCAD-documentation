@@ -90,4 +90,4 @@ Deux exemples d\'utilisation peuvent être consultés dans [cette discussion du 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Solid Sweep/fr
+⏵ [documentation index](../README.md) > Macro Solid Sweep/fr

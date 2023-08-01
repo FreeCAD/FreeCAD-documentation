@@ -1,8 +1,4 @@
 # Part Feature/de
-{{TOCright}}
-
-
-
 ## Einleitung
 
 <img alt="" src=images/Part_3D_object.svg  style="width:32px;">
@@ -216,4 +212,4 @@ If desired, the `Label` attribute can be changed to a more meaningful text.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Feature/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Feature/de

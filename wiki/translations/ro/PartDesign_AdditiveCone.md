@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveCone
-   Name/ro:PartDesign AdditiveCone
-   Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation:Part Design - Create an additive primitive - Additive Cone
-   Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive/ro.md)
+   Name: PartDesign AdditiveCone
+   Name/ro: PartDesign AdditiveCone
+   Workbenches: [PartDesign](PartDesign_Workbench/ro.md)
+   MenuLocation: Part Design - Create an additive primitive - Additive Cone
+   Version: 0.17
+   SeeAlso: [PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive/ro.md)
 ---
 
 # PartDesign AdditiveCone/ro
@@ -82,4 +82,4 @@ Conul poate fi editat după crearea pe două căi:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCone/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCone/ro

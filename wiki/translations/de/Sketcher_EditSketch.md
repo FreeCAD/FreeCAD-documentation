@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher EditSketch
-   Name/de:Sketcher SkizzeBearbeiten
-   MenuLocation:Sketch - Skizze bearbeiten
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso:[Sketcher SkizzeVerlassen](Sketcher_LeaveSketch/de.md)
+   Name: Sketcher EditSketch
+   Name/de: Sketcher SkizzeBearbeiten
+   MenuLocation: Sketch - Skizze bearbeiten
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso: [Sketcher SkizzeVerlassen](Sketcher_LeaveSketch/de.md)
 ---
 
 # Sketcher EditSketch/de
@@ -43,4 +43,4 @@ Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/de

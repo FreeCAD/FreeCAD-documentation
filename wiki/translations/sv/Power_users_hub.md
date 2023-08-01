@@ -1,5 +1,4 @@
-# Power users hub/sv
-{{TOCright}} <img alt="" src=images/Power_user_hub.png  style="width:64px;">
+# <img alt="" src=images/Power_user_hub.png  style="width:64px;"> Power users hub/sv
 
 
 
@@ -240,4 +239,4 @@ På [Grupportalen](free-cad:Community_Portal/sv.md), så kan du hitta andra Free
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/sv
+⏵ [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/sv

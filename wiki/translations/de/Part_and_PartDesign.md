@@ -1,8 +1,4 @@
 # Part and PartDesign/de
-{{TOCright}}
-
-
-
 ## Übersicht
 
 Im Laufe der Jahre gab es viele Diskussionen über die Unterschiede und Auswirkungen der Verwendung des <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md) und des <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md) Arbeitsbereichs.
@@ -189,4 +185,4 @@ Die Arbeitsbereiche Part und PartDesign können mit etwas Vorsicht zusammen verw
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign/de
+⏵ [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign/de

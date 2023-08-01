@@ -2,7 +2,7 @@
 **There is an experimental FreeCAD Docker container that is being tested for FreeCAD development. Read more about it at [[Compile on Docker]]**
 
 
-{{TOCright}}
+
 
 
 
@@ -270,4 +270,4 @@ Docnav/ru \|[Компиляция в Linux](Compile_on_Linux/ru.md) \|[Комп�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on MacOS/ru
+⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on MacOS/ru

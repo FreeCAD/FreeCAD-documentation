@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std TileWindows
-   Name/pl:Std: Sąsiadująco
-   MenuLocation:Okna - Sąsiadująco
-   Workbenches:wszystkie
-   SeeAlso:[Kaskadowo](Std_CascadeWindows/pl.md)
+   Name: Std TileWindows
+   Name/pl: Std: Sąsiadująco
+   MenuLocation: Okna - Sąsiadująco
+   Workbenches: wszystkie
+   SeeAlso: [Kaskadowo](Std_CascadeWindows/pl.md)
 ---
 
 # Std TileWindows/pl
@@ -36,4 +36,4 @@ Polecenie **Sąsiadująco** zmienia układ okien w [Głównym obszarze widoku](M
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TileWindows/pl
+⏵ [documentation index](../README.md) > Std TileWindows/pl

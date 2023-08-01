@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM PostCreateFunctionPlane
-   Name/fr:FEM Filtre fonction plan
-   MenuLocation:Résultats - Fonctions de filtrage - Plan
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM PostCreateFunctionPlane
+   Name/fr: FEM Filtre fonction plan
+   MenuLocation: Résultats - Fonctions de filtrage - Plan
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM PostCreateFunctionPlane/fr
@@ -70,4 +70,4 @@ Si l\'objet Plan dans la [vue 3D](3D_view/fr.md) est caché, sélectionnez l\'ob
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionPlane/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionPlane/fr

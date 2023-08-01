@@ -1,7 +1,7 @@
 # <img alt="L\'icona dell\'ambiente Plot" src=images/Workbench_Plot.svg  style="width:64px;"> Plot Workbench/it
 
 
-{{TOCright}}
+
 
 ## Introduzione
 
@@ -67,4 +67,4 @@ Poiché il modulo Grafico è costruito su `matplotlib`, si è liberi di utilizza
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot Workbench/it
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot Workbench/it

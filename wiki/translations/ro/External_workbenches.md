@@ -1,9 +1,4 @@
 # External workbenches/ro
-{{TOCright}}
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 Utilizatori avansați au extins posibilitățile FreeCAD cu diverse ateliere de lucru personalizate externe, care nu sunt integrate în codul sursă al FreeCAD (încă!), dar sunt ușor de instalat pe o instalare FreeCAD existentă. Instrucțiunile sunt furnizate pe paginile legate mai jos:
@@ -154,4 +149,4 @@ See the wiki page for more information [Translating an external workbench](Trans
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External_Workbenches](Category_External_Workbenches.md) > External workbenches/ro
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External_Workbenches](Category_External_Workbenches.md) > External workbenches/ro

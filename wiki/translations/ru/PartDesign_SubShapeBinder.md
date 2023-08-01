@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Создать новую под-объектную связующую форму
-   Name:PartDesign_SubShapeBinder
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   MenuLocation:Part Design - Create a sub-object shape binder
-   Version:0.19
-   SeeAlso:[Создать связующую форму](PartDesign_ShapeBinder/ru.md), [Создать клон](PartDesign_Clone/ru.md)
+   Name/ru: Создать новую под-объектную связующую форму
+   Name: PartDesign_SubShapeBinder
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   MenuLocation: Part Design - Create a sub-object shape binder
+   Version: 0.19
+   SeeAlso: [Создать связующую форму](PartDesign_ShapeBinder/ru.md), [Создать клон](PartDesign_Clone/ru.md)
 ---
 
 # PartDesign SubShapeBinder/ru
@@ -150,4 +150,4 @@ A PartDesign SubShapeBinder object is derived from a [Part Feature](Part_Feature
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubShapeBinder/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubShapeBinder/ru

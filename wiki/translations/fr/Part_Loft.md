@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Loft
-   Name/fr:Part Lissage
-   MenuLocation:Part - Lissage...
-   Workbenches:[Part](Part_Workbench/fr.md)
-   Version:0.13
-   SeeAlso:[Part Balayage](Part_Sweep/fr.md)
+   Name: Part Loft
+   Name/fr: Part Lissage
+   MenuLocation: Part - Lissage...
+   Workbenches: [Part](Part_Workbench/fr.md)
+   Version: 0.13
+   SeeAlso: [Part Balayage](Part_Sweep/fr.md)
 ---
 
 # Part Loft/fr
@@ -126,4 +126,4 @@ La séquence des sections dépend de la séquence des clics dans la liste. Si vo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft/fr

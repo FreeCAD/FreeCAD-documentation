@@ -1,10 +1,10 @@
 ---
 - GuiCommand:Addon/it
-   Name:BIM Layers
-   Name/it:Strati BIM
-   Workbenches:[BIM](BIM_Workbench/it.md)
-   Addon:BIM
-   MenuLocation:Gestione - Strati
+   Name: BIM Layers
+   Name/it: Strati BIM
+   Workbenches: [BIM](BIM_Workbench/it.md)
+   Addon: BIM
+   MenuLocation: Gestione - Strati
 ---
 
 # BIM Layers/it
@@ -22,4 +22,4 @@ Il gestore dei layer consente di gestire i tuoi layer, aggiungerli e rimuoverli 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Layers/it
+⏵ [documentation index](../README.md) > BIM Layers/it

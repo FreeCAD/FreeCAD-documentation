@@ -1,6 +1,6 @@
 # Draft Snap Endpoint/ro
 ---
-- GuiCommand:   Name:Draft Endpoint   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft - [[Draft Snap   Snap]] - Endpoint|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Draft Endpoint   Workbenches: [Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation: Draft - [[Draft Snap   Snap]] - Endpoint|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -49,4 +49,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Endpoint/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Endpoint/ro

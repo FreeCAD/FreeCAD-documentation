@@ -1,6 +1,6 @@
 # Std ViewBoxZoom/ro
 ---
-- GuiCommand:   Name:Std ViewBoxZoom   Workbenches:All   MenuLocation:[[Std View Menu   View]] - Zoom |Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Std ViewBoxZoom   Workbenches: All   MenuLocation: [[Std View Menu   View]] - Zoom |Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -37,4 +37,4 @@ Meniul instrumentului Zoom: ![](images/ZoomMenu.png )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewBoxZoom/ro
+⏵ [documentation index](../README.md) > Std ViewBoxZoom/ro

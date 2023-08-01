@@ -1,7 +1,7 @@
 # <img alt="Symbol des Arbeitsbereichs ExplodedAssembly" src=images/ExplodedAssembly_workbench_icon.svg  style="width:64px;"> ExplodedAssembly Workbench/de
 
 
-{{TOCright}}
+
 
 ## Einleitung
 
@@ -92,4 +92,4 @@ To install manually download this repository as ZIP and:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > ExplodedAssembly Workbench/de
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > ExplodedAssembly Workbench/de

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Scripting/zh-tw
+⏵ [documentation index](../README.md) > Scripting/zh-tw

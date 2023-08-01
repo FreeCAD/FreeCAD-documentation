@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Fasteners ScrewCalculator
-   MenuLocation:Fasteners - Screw calculator
-   Workbenches:[Fasteners](Fasteners_Workbench.md)
+   Name: Fasteners ScrewCalculator
+   MenuLocation: Fasteners - Screw calculator
+   Workbenches: [Fasteners](Fasteners_Workbench.md)
 ---
 
 # Fasteners ScrewCalculator
@@ -33,4 +33,4 @@ The <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:24px;"> *
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners ScrewCalculator
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners ScrewCalculator

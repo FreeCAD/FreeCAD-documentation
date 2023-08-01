@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CarbonCopy
-   Name/pl:Szkicownik: Kalka techniczna
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Kalka techniczna
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **W**
-   Version:0.17
+   Name: Sketcher CarbonCopy
+   Name/pl: Szkicownik: Kalka techniczna
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Kalka techniczna
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **G** **W**
+   Version: 0.17
 ---
 
 # Sketcher CarbonCopy/pl
@@ -54,4 +54,4 @@ Wiązania wymiarowe, które istnieją przed funkcją kopiowania, pozostają powi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CarbonCopy/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CarbonCopy/pl

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher Move
-   Name/de:Sketcher Verschieben
-   MenuLocation:Sketch - Skizzen-Werkzeuge - Verschieben
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**Z** **M**
-   Version:0.18
-   SeeAlso:[Sketcher Klonen](Sketcher_Clone/de.md), [Sketcher Kopieren](Sketcher_Copy/de.md)
+   Name: Sketcher Move
+   Name/de: Sketcher Verschieben
+   MenuLocation: Sketch - Skizzen-Werkzeuge - Verschieben
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **Z** **M**
+   Version: 0.18
+   SeeAlso: [Sketcher Klonen](Sketcher_Clone/de.md), [Sketcher Kopieren](Sketcher_Copy/de.md)
 ---
 
 # Sketcher Move/de
@@ -44,4 +44,4 @@ Verschiebt die ausgewählten Skizzenelemente von einem Punkt zum anderen, wobei 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/de

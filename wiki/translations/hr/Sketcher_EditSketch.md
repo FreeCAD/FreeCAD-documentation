@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher EditSketch
-   MenuLocation:Sketch - Edit sketch
-   Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[Sketcher LeaveSketch](Sketcher_LeaveSketch.md)
+   Name: Sketcher EditSketch
+   MenuLocation: Sketch - Edit sketch
+   Workbenches: [Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
+   SeeAlso: [Sketcher LeaveSketch](Sketcher_LeaveSketch.md)
 ---
 
 # Sketcher EditSketch/hr
@@ -36,4 +36,4 @@ There are several ways to invoke the command:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/hr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/hr

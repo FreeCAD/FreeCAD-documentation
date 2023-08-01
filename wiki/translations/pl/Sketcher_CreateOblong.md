@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateOblong
-   Name/pl:Szkicownik: Utwórz zaokrąglony prostokąt
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz zaokrąglony prostokąt
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **O**
-   Version:0.20
-   SeeAlso:[Utwórz prostokąt](Sketcher_CreateRectangle/pl.md)
+   Name: Sketcher CreateOblong
+   Name/pl: Szkicownik: Utwórz zaokrąglony prostokąt
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Utwórz zaokrąglony prostokąt
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **G** **O**
+   Version: 0.20
+   SeeAlso: [Utwórz prostokąt](Sketcher_CreateRectangle/pl.md)
 ---
 
 # Sketcher CreateOblong/pl
@@ -37,4 +37,4 @@ Narzędzie to rysuje prostokąt, wybierając dwa przeciwstawne punkty. Po urucho
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOblong/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOblong/pl

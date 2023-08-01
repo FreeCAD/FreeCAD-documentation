@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ViewIvStereoRedGreen
-   Name/de:Std AnsichtStereoRotGrün
-   MenuLocation:Ansicht - Stereo - Stereo rot/cyan
-   Workbenches:Alle
-   SeeAlso:[Std AnsichtStereoVierfachPuffer](Std_ViewIvStereoQuadBuff/de.md), [Std AnsichtStereoVersetzteZeilen](Std_ViewIvStereoInterleavedRows/de.md), [Std AnsichtStereoVersetzteSpalten](Std_ViewIvStereoInterleavedColumns/de.md), [Std AnsichtStereoAus](Std_ViewIvStereoOff/de.md)
+   Name: Std ViewIvStereoRedGreen
+   Name/de: Std AnsichtStereoRotGrün
+   MenuLocation: Ansicht - Stereo - Stereo rot/cyan
+   Workbenches: Alle
+   SeeAlso: [Std AnsichtStereoVierfachPuffer](Std_ViewIvStereoQuadBuff/de.md), [Std AnsichtStereoVersetzteZeilen](Std_ViewIvStereoInterleavedRows/de.md), [Std AnsichtStereoVersetzteSpalten](Std_ViewIvStereoInterleavedColumns/de.md), [Std AnsichtStereoAus](Std_ViewIvStereoOff/de.md)
 ---
 
 # Std ViewIvStereoRedGreen/de
@@ -57,4 +57,4 @@ FreeCADGui.ActiveDocument.ActiveView.getStereoType()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewIvStereoRedGreen/de
+⏵ [documentation index](../README.md) > Std ViewIvStereoRedGreen/de

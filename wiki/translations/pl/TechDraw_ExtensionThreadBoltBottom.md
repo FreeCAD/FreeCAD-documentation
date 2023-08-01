@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionThreadBoltBottom
-   Name/pl:Rysunek Techniczny: Rozszerzenie Geometria pomocnicza dla gwintu śruby, widok od dołu
-   MenuLocation:Rysunek Techniczny - Rozszerzenie: Linie środka / gwinty - Geometria pomocnicza dla gwintu śruby, widok od dołu
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[/pl|Geometria pomocnicza dla otworu gwintowanego, widok od dołu](TechDraw_ExtensionThreadHoleBottom.md)
+   Name: TechDraw ExtensionThreadBoltBottom
+   Name/pl: Rysunek Techniczny: Rozszerzenie Geometria pomocnicza dla gwintu śruby, widok od dołu
+   MenuLocation: Rysunek Techniczny - Rozszerzenie: Linie środka / gwinty - Geometria pomocnicza dla gwintu śruby, widok od dołu
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [/pl|Geometria pomocnicza dla otworu gwintowanego, widok od dołu](TechDraw_ExtensionThreadHoleBottom.md)
 ---
 
 # TechDraw ExtensionThreadBoltBottom/pl
@@ -42,4 +42,4 @@ Narzędzie **Geometria pomocnicza dla gwintu śruby, widok od dołu** dodaje kos
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadBoltBottom/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadBoltBottom/pl

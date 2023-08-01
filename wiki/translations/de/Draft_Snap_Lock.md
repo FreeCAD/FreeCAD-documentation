@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Lock
-   Name/de:Draft EinrastenSperren
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Shortcut:**Shift**+**S**
-   SeeAlso:[Draft Einrasten](Draft_Snap/de.md)
+   Name: Draft Snap Lock
+   Name/de: Draft EinrastenSperren
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut: **Shift**+**S**
+   SeeAlso: [Draft Einrasten](Draft_Snap/de.md)
 ---
 
 # Draft Snap Lock/de
@@ -31,4 +31,4 @@ Für allgemeine Informationen zum Einrasten (Fangen) siehe [Draft Fangen](Draft_
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/de

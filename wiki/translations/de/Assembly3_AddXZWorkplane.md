@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 AddXZWorkplane
-   Name/de:Assembly3 XZArbeitsebeneHinzufügen
-   Icon:Assembly_Add_WorkplaneXZ.svg‎‎
-   MenuLocation:Assembly3 - Workplane and origin - Add XZ workplane
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 AddXZWorkplane
+   Name/de: Assembly3 XZArbeitsebeneHinzufügen
+   Icon: Assembly_Add_WorkplaneXZ.svg‎‎
+   MenuLocation: Assembly3 - Workplane and origin - Add XZ workplane
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 AddXZWorkplane/de
@@ -30,4 +30,4 @@ Mögliche Bestandteile sind z. B. Elemente, Körper, Knoten, Kanten, Flächen, U
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 AddXZWorkplane/de
+⏵ [documentation index](../README.md) > Assembly3 AddXZWorkplane/de

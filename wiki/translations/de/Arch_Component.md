@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Component
-   Name/de:Arch Komponente
-‎   MenuLocation:Arch - Dienstprogramme - Komponente
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   Shortcut:**C** **M‏‎**
+   Name: Arch Component
+   Name/de: Arch Komponente
+‎   MenuLocation: Arch - Dienstprogramme - Komponente
+   Workbenches: [Arch](Arch_Workbench/de.md)
+   Shortcut: **C** **M‏‎**
 ---
 
 # Arch Component/de
@@ -109,4 +109,4 @@ Das Arch-Komponenten-Objekten ist auch eine Basis, die von allen anderen Arch-Ob
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/de

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std_ProjectUtil
-   Name/it:Utilità di progetto
-   MenuLocation:Strumenti - Utilità di progetto...
-   Workbenches:Tutti
+   Name: Std_ProjectUtil
+   Name/it: Utilità di progetto
+   MenuLocation: Strumenti - Utilità di progetto...
+   Workbenches: Tutti
 ---
 
 # Std ProjectUtil/it
@@ -72,4 +72,4 @@ Con il comando **Utilità di progetto** è possibile estrarre i file da un file 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ProjectUtil/it
+⏵ [documentation index](../README.md) > Std ProjectUtil/it

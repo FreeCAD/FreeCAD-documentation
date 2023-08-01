@@ -118,4 +118,4 @@ else:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Print SceneGraph/pl
+⏵ [documentation index](../README.md) > Macro Print SceneGraph/pl

@@ -1,8 +1,4 @@
 # Tree view/ru
-{{TOCright}}
-
-
-
 ## Введение
 
 [Древо проекта](Tree_view/ru.md) появляется на вкладке **Модель** [комбо панели](Combo_view/ru.md), одной из самых важных панелей [интерфейса](Interface/ru.md); оно показывает все пользовательские объекты, которые являются частью документа FreeCAD. Древо проекта представляет собой [структуру документа](Document_structure/ru.md) и указывает, какая информация сохраняется на диске.
@@ -233,4 +229,4 @@ This indicates that the object will be hidden in the Tree view if the **Show ite
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Tree view/ru
+⏵ [documentation index](../README.md) > Tree view/ru

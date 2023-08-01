@@ -1,10 +1,10 @@
 ---
 - GuiCommand:-br
-   Name:Sketcher ConstrainLock
-   Name/pt-br:Sketcher ConstrainLock
-   Workbenches:[Sketcher](Sketcher_Workbench/pt-br.md), [PartDesign](PartDesign_Workbench/pt-br.md)
-   MenuLocation:Sketch - Sketcher constraints - Constrain lock
-   SeeAlso:[Sketcher Constrain Block](Sketcher_ConstrainBlock.md)
+   Name: Sketcher ConstrainLock
+   Name/pt-br: Sketcher ConstrainLock
+   Workbenches: [Sketcher](Sketcher_Workbench/pt-br.md), [PartDesign](PartDesign_Workbench/pt-br.md)
+   MenuLocation: Sketch - Sketcher constraints - Constrain lock
+   SeeAlso: [Sketcher Constrain Block](Sketcher_ConstrainBlock.md)
 ---
 
 # Sketcher ConstrainLock/pt-br
@@ -39,4 +39,4 @@ The <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Loc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/pt-br
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/pt-br

@@ -603,4 +603,4 @@ exportKerkythea().exec_()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro FreeCAD to Kerkythea
+⏵ [documentation index](../README.md) > Macro FreeCAD to Kerkythea

@@ -1,6 +1,4 @@
 # Mouse navigation/fr
-{{TOCright}}
-
 ## Présentation
 
 La **navigation par la souris** dans FreeCAD consiste en des commandes utilisées pour naviguer visuellement dans l\'espace 3D et interagir avec les objets affichés. FreeCAD supporte plusieurs styles de navigation à la souris. Le style de navigation par défaut est appelé [Mode CAD](#Mode_CAD.md). Il est très simple et pratique mais FreeCAD fournit également plusieurs autres styles de navigation à choisir. Le style sélectionné est utilisé pour tous les ateliers.
@@ -273,4 +271,4 @@ Le tutoriel [Ajout d\'une nouvelle option de navigation à la souris à FreeCAD]
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Mouse navigation/fr
+⏵ [documentation index](../README.md) > Mouse navigation/fr

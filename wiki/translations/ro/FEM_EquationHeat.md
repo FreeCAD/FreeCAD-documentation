@@ -1,6 +1,6 @@
 # FEM EquationHeat/ro
 ---
-- GuiCommand:   Name:FEM EquationHeat   MenuLocation: Solve - Equation heat   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
+- GuiCommand:   Name: FEM EquationHeat   MenuLocation:  Solve - Equation heat   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
 
 
 </div>
@@ -64,4 +64,4 @@ The result is the temperature in Kelvin.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationHeat/ro
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationHeat/ro

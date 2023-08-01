@@ -4,7 +4,7 @@
 ## Introducción
 
 
-{{TOCright}}
+
 
 
 <div class="mw-translate-fuzzy">
@@ -104,4 +104,4 @@ Right click on the Python console shows some commands:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Python console/es
+⏵ [documentation index](../README.md) > Python console/es

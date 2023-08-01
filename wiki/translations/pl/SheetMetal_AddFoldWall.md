@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:SheetMetal AddFoldWall
-   MenuLocation:SheetMetal - Fold a Wall
-   Workbenches:[SheetMetal](SheetMetal_Workbench.md)
-   Shortcut:**C** **F**
+   Name: SheetMetal AddFoldWall
+   MenuLocation: SheetMetal - Fold a Wall
+   Workbenches: [SheetMetal](SheetMetal_Workbench.md)
+   Shortcut: **C** **F**
 ---
 
 # SheetMetal AddFoldWall/pl
@@ -149,4 +149,4 @@ Note!: In real life the upward fold must be done before the downward fold. Only 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddFoldWall/pl
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddFoldWall/pl

@@ -30,4 +30,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Assembly](Category_Assembly.md) > Artwork Assembly3/ru
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Assembly](Category_Assembly.md) > Artwork Assembly3/ru

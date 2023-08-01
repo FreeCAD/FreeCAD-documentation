@@ -10,4 +10,4 @@ This category lists pages related to the [Raytracing Workbench/tr](Raytracing_Wo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Raytracing/tr
+⏵ [documentation index](../README.md) > Category:Raytracing/tr

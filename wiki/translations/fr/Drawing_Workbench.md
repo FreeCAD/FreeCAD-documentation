@@ -9,7 +9,7 @@ L'[atelier TechDraw](TechDraw_Workbench/fr.md) est son remplaçant plus avancé.
 L\'atelier Mise en plan vous permet de mettre votre travail 3D sur papier. C\'est-à-dire, mettre des vues de vos modèles dans une fenêtre 2D et insérer cette fenêtre dans un dessin, par exemple une feuille avec une bordure, un titre et votre logo et enfin imprimer cette feuille.
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Drawing_extraction.png  style="width:600px;">
 
@@ -105,4 +105,4 @@ Quelques notes sur le module de dessin sont ajoutés à la page [Documentation s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/fr
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/fr

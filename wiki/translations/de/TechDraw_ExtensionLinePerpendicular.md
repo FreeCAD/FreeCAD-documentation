@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionLinePerpendicular
-   Name/de:TechDraw ErgänzungRechtwinkligeLinie
-   MenuLocation:TechDraw - Ergänzungen: Mittellinien/Gewinde - Senkrechte Hilfslinie hinzufügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ErgänzungParalleleLinie](TechDraw_ExtensionLineParallel/de.md)
+   Name: TechDraw ExtensionLinePerpendicular
+   Name/de: TechDraw ErgänzungRechtwinkligeLinie
+   MenuLocation: TechDraw - Ergänzungen: Mittellinien/Gewinde - Senkrechte Hilfslinie hinzufügen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ErgänzungParalleleLinie](TechDraw_ExtensionLineParallel/de.md)
 ---
 
 # TechDraw ExtensionLinePerpendicular/de
@@ -55,4 +55,4 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionLinePerpendicular.svg  sty
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionLinePerpendicular/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionLinePerpendicular/de

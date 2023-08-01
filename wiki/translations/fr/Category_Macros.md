@@ -83,4 +83,4 @@ Cette catégorie contient des macros qui permettent d\'étendre les fonctionnali
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Macros/fr
+⏵ [documentation index](../README.md) > Category:Macros/fr

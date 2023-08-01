@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std DlgPreferences
-   MenuLocation:Edit - Preferences...
-   Workbenches:All
-   SeeAlso:[Preferences Editor](Preferences_Editor.md)
+   Name: Std DlgPreferences
+   MenuLocation: Edit - Preferences...
+   Workbenches: All
+   SeeAlso: [Preferences Editor](Preferences_Editor.md)
 ---
 
 # Std DlgPreferences
@@ -29,4 +29,4 @@ The **Std DlgPreferences** command opens the [Preferences Editor](Preferences_Ed
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgPreferences
+⏵ [documentation index](../README.md) > Std DlgPreferences

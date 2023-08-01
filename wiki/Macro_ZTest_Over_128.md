@@ -156,4 +156,4 @@ ToolBar Icon ![](images/Macro_ZTest_Over_128.png )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro ZTest Over 128
+⏵ [documentation index](../README.md) > Macro ZTest Over 128

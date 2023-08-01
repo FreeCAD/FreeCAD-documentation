@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh VertexCurvature
-   Name/pl:Siatka: Krzywizna siatki
-   MenuLocation:Siatki - Wykres krzywizny
-   Workbenches:[Siatka](Mesh_Workbench/pl.md)
-   SeeAlso:[Informacje o krzywiźnie](Mesh_CurvatureInfo/pl.md)
+   Name: Mesh VertexCurvature
+   Name/pl: Siatka: Krzywizna siatki
+   MenuLocation: Siatki - Wykres krzywizny
+   Workbenches: [Siatka](Mesh_Workbench/pl.md)
+   SeeAlso: [Informacje o krzywiźnie](Mesh_CurvatureInfo/pl.md)
 ---
 
 # Mesh VertexCurvature/pl
@@ -97,4 +97,4 @@ Dla obiektu krzywizny siatki następujące właściwości są dostępne w [edyto
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh VertexCurvature/pl
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh VertexCurvature/pl

@@ -1,6 +1,6 @@
 # Part Line/ro
 ---
-- GuiCommand:   Name:Part Line   MenuLocation:Part - [Workbenches:[[Part Workbench   Part](Part_CreatePrimitives___Create_Primitives]]_-_Line.md),  [OpenSCAD](OpenSCAD_Workbench.md)|SeeAlso:..---
+- GuiCommand:   Name: Part Line   MenuLocation: Part - [Workbenches: [[Part Workbench   Part](Part_CreatePrimitives___Create_Primitives]]_-_Line.md),  [OpenSCAD](OpenSCAD_Workbench.md)|SeeAlso: ..---
 
 
 </div>
@@ -90,4 +90,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Line/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Line/ro

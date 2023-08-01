@@ -11,7 +11,7 @@
 如果你的主要目标是产生复杂的2D图纸和[DXF文件](DXF.md)，并且不需要3D建模，FreeCAD可能不是正确的选择。你应该考虑一个用于绘制工程草图的专门的软件，如 [LibreCAD](https://en.wikipedia.org/wiki/LibreCAD) 或 [QCad](https://en.wikipedia.org/wiki/QCad).
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/TechDraw_Workbench_Example.png  style="width:600px;">
 
@@ -351,4 +351,4 @@ Do you want to know about the future of the TechDraw Workbench? Visit [the TechD
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/zh-cn
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/zh-cn

@@ -1,6 +1,6 @@
 # Part Builder/it
 ---
-- GuiCommand:   Name:Part Builder   Name/it:Crea forme   Workbenches:[MenuLocation:Parte - Genera una forma...   Shortcut:Nessuno   SeeAlso:[[Part_CreatePrimitives/it| Crea primitive...](Part_Workbench/it___Parte]].md), [Assembla](Draft_Upgrade/it.md), [Scomponi](Draft_Downgrade/it.md)---
+- GuiCommand:   Name: Part Builder   Name/it: Crea forme   Workbenches: [MenuLocation: Parte - Genera una forma...   Shortcut: Nessuno   SeeAlso: [[Part_CreatePrimitives/it| Crea primitive...](Part_Workbench/it___Parte]].md), [Assembla](Draft_Upgrade/it.md), [Scomponi](Draft_Downgrade/it.md)---
 
 
 </div>
@@ -130,4 +130,4 @@ Nell\'ambiente [Draft](Draft_Workbench/it.md) sono disponibili gli strumenti **<
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/it

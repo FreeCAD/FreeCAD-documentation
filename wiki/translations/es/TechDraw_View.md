@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw View
-   Name/es:TechDraw Vista
-   MenuLocation:TechDraw - Insertar Vista
-   Workbenches:[TechDraw](TechDraw_Workbench/es.md)
-   SeeAlso:[TechDraw Insertar Grupo de Proyección](TechDraw_ProjectionGroup/es.md), [TechDraw Insertar vista de sección](TechDraw_SectionView/es.md)
+   Name: TechDraw View
+   Name/es: TechDraw Vista
+   MenuLocation: TechDraw - Insertar Vista
+   Workbenches: [TechDraw](TechDraw_Workbench/es.md)
+   SeeAlso: [TechDraw Insertar Grupo de Proyección](TechDraw_ProjectionGroup/es.md), [TechDraw Insertar vista de sección](TechDraw_SectionView/es.md)
 ---
 
 # TechDraw View/es
@@ -234,4 +234,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw View/es
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw View/es

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractiveCone
-   Name/de:PartDesign KegelAbziehen
-   MenuLocation:Part Design -  Grundkörper abziehen - Kegel
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[PartDesign AuswahlGrundkörperAbziehen](PartDesign_CompPrimitiveSubtractive/de.md), [PartDesign KegelHinzufügen](PartDesign_AdditiveCone/de.md)
+   Name: PartDesign SubtractiveCone
+   Name/de: PartDesign KegelAbziehen
+   MenuLocation: Part Design -  Grundkörper abziehen - Kegel
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [PartDesign AuswahlGrundkörperAbziehen](PartDesign_CompPrimitiveSubtractive/de.md), [PartDesign KegelHinzufügen](PartDesign_AdditiveCone/de.md)
 ---
 
 # PartDesign SubtractiveCone/de
@@ -69,4 +69,4 @@ Der Kegel kann nach der Erstellung auf zwei Arten bearbeitet werden:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveCone/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveCone/de

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Массив вращения
-   Name:Draft_PolarArray
-   MenuLocation:Modification - Array tools - Массив вращения
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Draft OrthoArray](Draft_OrthoArray/ru.md), [Круговой массив](Draft_CircularArray/ru.md), [Draft PathArray](Draft_PathArray/ru.md), [Draft PathLinkArray](Draft_PathLinkArray/ru.md), [Draft PointArray](Draft_PointArray/ru.md), [Draft PointLinkArray](Draft_PointLinkArray/ru.md)
+   Name/ru: Массив вращения
+   Name: Draft_PolarArray
+   MenuLocation: Modification - Array tools - Массив вращения
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Draft OrthoArray](Draft_OrthoArray/ru.md), [Круговой массив](Draft_CircularArray/ru.md), [Draft PathArray](Draft_PathArray/ru.md), [Draft PathLinkArray](Draft_PathLinkArray/ru.md), [Draft PointArray](Draft_PointArray/ru.md), [Draft PointLinkArray](Draft_PointLinkArray/ru.md)
 ---
 
 # Draft PolarArray/ru
@@ -151,4 +151,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PolarArray/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PolarArray/ru

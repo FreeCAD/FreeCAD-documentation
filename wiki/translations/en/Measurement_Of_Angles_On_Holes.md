@@ -50,4 +50,4 @@ Quadrant points select with <img alt="" src=images/TechDraw_Quadrants.svg  style
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Measurement Of Angles On Holes/en
+⏵ [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Measurement Of Angles On Holes/en

@@ -1,8 +1,4 @@
 # Debugging/it
-{{TOCright}}
-
-
-
 ## Prova preliminare 
 
 Prima di provare il debug usare la [Struttura di Test](Testing/it.md) (test framework - macro) per verificare se i test standard funzionano correttamente. Se non funzionano, è possibile che l\'installazione sia danneggiata.
@@ -439,4 +435,4 @@ Per gli sviluppatori che hanno bisogno di approfondire il kernel OpenCasCade, l\
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Debugging/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Debugging/it

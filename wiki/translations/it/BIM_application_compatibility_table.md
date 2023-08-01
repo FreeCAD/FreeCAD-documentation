@@ -38,4 +38,4 @@ Questa pagina offre una panoramica generale di come i diversi strumenti e concet
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [BIM](Category_BIM.md) > BIM application compatibility table/it
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > BIM application compatibility table/it

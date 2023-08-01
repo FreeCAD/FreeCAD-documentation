@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw DraftView
-   Name/pl:Rysunek Techniczny: Wstaw obiekt środowiska Rysunek Roboczy
-   MenuLocation:Rysunek Techniczny - Widoki - Wstaw obiekt środowiska Rysunek Roboczy
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md), [Rysunek Roboczy](Draft_Workbench/pl.md)
-   SeeAlso:[Wstaw obiekt środowiska Architektura](TechDraw_ArchView/pl.md)
+   Name: TechDraw DraftView
+   Name/pl: Rysunek Techniczny: Wstaw obiekt środowiska Rysunek Roboczy
+   MenuLocation: Rysunek Techniczny - Widoki - Wstaw obiekt środowiska Rysunek Roboczy
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md), [Rysunek Roboczy](Draft_Workbench/pl.md)
+   SeeAlso: [Wstaw obiekt środowiska Architektura](TechDraw_ArchView/pl.md)
 ---
 
 # TechDraw DraftView/pl
@@ -103,4 +103,4 @@ rc = page.addView(dv)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DraftView/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DraftView/pl

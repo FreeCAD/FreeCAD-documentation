@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Curves Pipeshell
-   Name/de:Curves Rohrschale
-   MenuLocation:Surfaces - Pipeshell 
-   Workbenches:[Curves](Curves_Workbench/de.md)
+   Name: Curves Pipeshell
+   Name/de: Curves Rohrschale
+   MenuLocation: Surfaces - Pipeshell 
+   Workbenches: [Curves](Curves_Workbench/de.md)
 ---
 
 # Curves Pipeshell/de
@@ -99,4 +99,4 @@ Das Werkzeug <img alt="" src=images/Curves_Pipeshell.svg  style="width:24px;"> [
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves Pipeshell/de
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves Pipeshell/de

@@ -1,6 +1,6 @@
 # Std DuplicateSelection/cs
 ---
-- GuiCommand:   Name:Std_DuplicateSelection   Name/cs:Std Duplikovat výběr   MenuLocation:Úpravy - Kopírovat   Shortcut:    Workbenches:All   SeeAlso:[Kopírovat](Std_Copy/cs.md), [Vložit](Std_Paste/cs.md)---
+- GuiCommand:   Name: Std_DuplicateSelection   Name/cs: Std Duplikovat výběr   MenuLocation: Úpravy - Kopírovat   Shortcut:     Workbenches: All   SeeAlso: [Kopírovat](Std_Copy/cs.md), [Vložit](Std_Paste/cs.md)---
 
 
 </div>
@@ -57,4 +57,4 @@ Příkaz Duplikovat výběr je zkratka pro příkazy Kopírovat+Vložit. Vytvá�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DuplicateSelection/cs
+⏵ [documentation index](../README.md) > Std DuplicateSelection/cs

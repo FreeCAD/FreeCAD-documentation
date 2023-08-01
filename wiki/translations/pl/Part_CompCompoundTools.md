@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part CompCompoundTools
-   Name/pl:Część: Komponent - narzędzia złożeń
-   MenuLocation:Część - Złożenie
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:
+   Name: Part CompCompoundTools
+   Name/pl: Część: Komponent - narzędzia złożeń
+   MenuLocation: Część - Złożenie
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: 
 ---
 
 # Part CompCompoundTools/pl
@@ -26,4 +26,4 @@ Zestaw różnych narzędzi do tworzenia złożeń.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompCompoundTools/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompCompoundTools/pl

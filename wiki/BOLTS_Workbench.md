@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BOLTS Workbench
+⏵ [documentation index](../README.md) > BOLTS Workbench

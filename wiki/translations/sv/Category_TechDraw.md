@@ -10,4 +10,4 @@ This category lists pages related to the [TechDraw Workbench/sv](TechDraw_Workbe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:TechDraw/sv
+⏵ [documentation index](../README.md) > Category:TechDraw/sv

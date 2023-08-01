@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part CompCompoundTools
-   Name/es:Pieza CompHerramientasCompuesto
-   MenuLocation:Pieza - Compuesto
-   Workbenches:[Pieza](Part_Workbench/es.md)
-   SeeAlso:
+   Name: Part CompCompoundTools
+   Name/es: Pieza CompHerramientasCompuesto
+   MenuLocation: Pieza - Compuesto
+   Workbenches: [Pieza](Part_Workbench/es.md)
+   SeeAlso: 
 ---
 
 # Part CompCompoundTools/es
@@ -34,4 +34,4 @@ Un conjunto de varias herramientas compuestas.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompCompoundTools/es
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompCompoundTools/es

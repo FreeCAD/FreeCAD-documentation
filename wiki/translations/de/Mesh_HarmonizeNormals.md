@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh HarmonizeNormals
-   Name/de:Mesh Normalen ausrichten
-   MenuLocation:Netze - Normalen ausrichten
-   Workbenches:[Mesh](Mesh_Workbench/de.md)
-   SeeAlso:[Mesh Normalen umkehren](Mesh_FlipNormals/de.md)
+   Name: Mesh HarmonizeNormals
+   Name/de: Mesh Normalen ausrichten
+   MenuLocation: Netze - Normalen ausrichten
+   Workbenches: [Mesh](Mesh_Workbench/de.md)
+   SeeAlso: [Mesh Normalen umkehren](Mesh_FlipNormals/de.md)
 ---
 
 # Mesh HarmonizeNormals/de
@@ -42,4 +42,4 @@ Der Befehl **Mesh Normalen ausrichten** richtet die Normalen eines Netzobjektes 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/de
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/de

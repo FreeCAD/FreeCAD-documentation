@@ -2,7 +2,7 @@
 ## Introduzione
 
 
-{{TOCright}}
+
 
 Questo repository contiene una libreria di parti da utilizzare in FreeCAD. È mantenuto dalla comunità degli utenti di FreeCAD e non fa parte del progetto FreeCAD, sebbene sia realizzato con l\'obiettivo di essere utilizzato in futuro come repository di parti da FreeCAD.
 
@@ -55,4 +55,4 @@ The library is a simple container for FreeCAD (.fcstd) and STEP (.stp) files. Yo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Parts Library Workbench/it
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Parts Library Workbench/it

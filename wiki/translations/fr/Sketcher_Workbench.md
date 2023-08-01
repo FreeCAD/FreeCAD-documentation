@@ -1,7 +1,7 @@
 # <img alt="Icône de l\'atelier Sketcher" src=images/Workbench_Sketcher.svg  style="width:64px;"> Sketcher Workbench/fr
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -425,4 +425,4 @@ Pour avoir une idée de ce qui peut être réalisé avec les outils de Sketcher,
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/fr
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/fr

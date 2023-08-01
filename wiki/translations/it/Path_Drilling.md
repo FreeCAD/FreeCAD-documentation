@@ -1,6 +1,6 @@
 # Path Drilling/it
 ---
-- GuiCommand:   Name:Path Drilling   Name/it:Foratura   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path - Foratura   Shortcut:P,D   SeeAlso:---
+- GuiCommand:   Name: Path Drilling   Name/it: Foratura   Workbenches: [[Path Workbench/it   Path]]|MenuLocation: Path - Foratura   Shortcut: P,D   SeeAlso: ---
 
 
 </div>
@@ -212,4 +212,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Drilling/it
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Drilling/it

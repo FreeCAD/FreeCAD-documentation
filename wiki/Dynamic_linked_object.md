@@ -60,4 +60,4 @@ How this is accomplished:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Dynamic linked object
+⏵ [documentation index](../README.md) > Dynamic linked object

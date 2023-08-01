@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw Hatch
-   Name/es:DibujoTécnico Achurado
-   MenuLocation:DibujoTécnico - Achurar un plano usando un archivo de imagen
-   Workbenches:[DibujoTécnico](TechDraw_Workbench/es.md)
-   SeeAlso:[DibujoTécnico Aplicar la achurado geométrica a la plano](TechDraw_GeometricHatch/es.md), [DibujoTécnico Achurado](TechDraw_Hatching/es.md)
+   Name: TechDraw Hatch
+   Name/es: DibujoTécnico Achurado
+   MenuLocation: DibujoTécnico - Achurar un plano usando un archivo de imagen
+   Workbenches: [DibujoTécnico](TechDraw_Workbench/es.md)
+   SeeAlso: [DibujoTécnico Aplicar la achurado geométrica a la plano](TechDraw_GeometricHatch/es.md), [DibujoTécnico Achurado](TechDraw_Hatching/es.md)
 ---
 
 # TechDraw Hatch/es
@@ -132,4 +132,4 @@ page.addView(hatch)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Hatch/es
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Hatch/es

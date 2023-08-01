@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher Copy
-   Name/es:Sketcher Copiar
-   Workbenches:[Sketcher](Sketcher_Workbench/es.md)
-   MenuLocation:Sketch - Herramientas de croquis - Copiar
-   Version:0.16
-   SeeAlso:[Sketcher Clonar](Sketcher_Clone/es.md), [Sketcher Move](Sketcher_Move/es.md)
+   Name: Sketcher Copy
+   Name/es: Sketcher Copiar
+   Workbenches: [Sketcher](Sketcher_Workbench/es.md)
+   MenuLocation: Sketch - Herramientas de croquis - Copiar
+   Version: 0.16
+   SeeAlso: [Sketcher Clonar](Sketcher_Clone/es.md), [Sketcher Move](Sketcher_Move/es.md)
 ---
 
 # Sketcher Copy/es
@@ -43,4 +43,4 @@ No extra constraints are added.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Copy/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Copy/es

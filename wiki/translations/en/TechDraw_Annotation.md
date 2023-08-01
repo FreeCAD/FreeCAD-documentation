@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:TechDraw Annotation
-   MenuLocation:TechDraw - Annotations - Insert Annotation
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw RichTextAnnotation](TechDraw_RichTextAnnotation.md)
+   Name: TechDraw Annotation
+   MenuLocation: TechDraw - Annotations - Insert Annotation
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   SeeAlso: [TechDraw RichTextAnnotation](TechDraw_RichTextAnnotation.md)
 ---
 
 # TechDraw Annotation/en
@@ -78,4 +78,4 @@ rc = page.addView(anno)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Annotation/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Annotation/en

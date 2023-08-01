@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectElementsAssociatedWithConstraints
-   Name/pl:Szkicownik: Wybierz powiązaną geometrię
-   MenuLocation:Szkic - Narzędzia szkicownika - Wybierz powiązaną geometrię
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**Z** **E**
-   Version:0.15
+   Name: Sketcher SelectElementsAssociatedWithConstraints
+   Name/pl: Szkicownik: Wybierz powiązaną geometrię
+   MenuLocation: Szkic - Narzędzia szkicownika - Wybierz powiązaną geometrię
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **Z** **E**
+   Version: 0.15
 ---
 
 # Sketcher SelectElementsAssociatedWithConstraints/pl
@@ -35,4 +35,4 @@ Zaznacza elementy szkicu mające wiązania.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsAssociatedWithConstraints/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsAssociatedWithConstraints/pl

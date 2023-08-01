@@ -12,4 +12,4 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Inspection](Category_Inspection.md) > Artwork Inspection/fr
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Inspection](Category_Inspection.md) > Artwork Inspection/fr

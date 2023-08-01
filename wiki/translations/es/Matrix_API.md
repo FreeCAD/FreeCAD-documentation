@@ -95,4 +95,4 @@ print m.A21()               # print m[1][0]
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Matrix API/es
+⏵ [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Matrix API/es

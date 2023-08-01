@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Pipe   Name/ro:Arch: Pipe/Țeavă
-   MenuLocation:Arch - Pipe Tools - Pipe
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   Shortcut:**P** **I**
-   Version:0.17
-   SeeAlso:[Arch PipeConnector](Arch_PipeConnector/ro.md), [Arch Equipment](Arch_Equipment/ro.md)
+   Name: Arch Pipe   Name/ro: Arch: Pipe/Țeavă
+   MenuLocation: Arch - Pipe Tools - Pipe
+   Workbenches: [Arch](Arch_Workbench/ro.md)
+   Shortcut: **P** **I**
+   Version: 0.17
+   SeeAlso: [Arch PipeConnector](Arch_PipeConnector/ro.md), [Arch Equipment](Arch_Equipment/ro.md)
 ---
 
 # Arch Pipe/ro
@@ -173,4 +173,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Pipe/ro
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Pipe/ro

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Boolean
-   Name/fr:PartDesign Opérations booléennes
-   MenuLocation:Part Design - Opération booléenne
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.17
+   Name: PartDesign Boolean
+   Name/fr: PartDesign Opérations booléennes
+   MenuLocation: Part Design - Opération booléenne
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   Version: 0.17
 ---
 
 # PartDesign Boolean/fr
@@ -70,4 +70,4 @@ Alternativement, un ou plusieurs corps peuvent être sélectionnés avant d\'app
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Boolean/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Boolean/fr

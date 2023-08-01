@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Z height map
+⏵ [documentation index](../README.md) > Macro Z height map

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Армировать колонну
-   Name:Arch_Rebar_ColumnReinforcement
-   MenuLocation:Arch - Rebar tools - Column Reinforcement<br>3D/BIM - Reinforcement tools - Column Reinforcement
-   Workbenches:[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [Спиральная арматура](Arch_Rebar_Helical/ru.md), [Arch ColumnReinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/ru.md)
+   Name/ru: Армировать колонну
+   Name: Arch_Rebar_ColumnReinforcement
+   MenuLocation: Arch - Rebar tools - Column Reinforcement<br>3D/BIM - Reinforcement tools - Column Reinforcement
+   Workbenches: [Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [Спиральная арматура](Arch_Rebar_Helical/ru.md), [Arch ColumnReinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/ru.md)
 ---
 
 # Arch Rebar ColumnReinforcement/ru
@@ -577,4 +577,4 @@ rebar_group = SingleTieMultipleRebars.editSingleTieMultipleRebars(
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement/ru
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement/ru

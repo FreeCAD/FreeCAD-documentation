@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Surface BlendCurve
-   Name/fr:Surface Fusion de courbes
-   MenuLocation:Surface - Fusionner des courbes
-   Workbenches:[Surface](Surface_Workbench/fr.md)
-   Version:0.21
+   Name: Surface BlendCurve
+   Name/fr: Surface Fusion de courbes
+   MenuLocation: Surface - Fusionner des courbes
+   Workbenches: [Surface](Surface_Workbench/fr.md)
+   Version: 0.21
 ---
 
 # Surface BlendCurve/fr
@@ -121,4 +121,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface BlendCurve/fr
+⏵ [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface BlendCurve/fr

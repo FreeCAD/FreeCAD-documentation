@@ -1,8 +1,4 @@
 # TechDraw Hatching/de
-{{TOCright}}
-
-
-
 ## Beschreibung
 
 Der Arbeitsbereich Techdraw verfügt über zwei Schraffierwerkzeuge:
@@ -84,4 +80,4 @@ Die Datei `FCPAT.pat` befindet sich im folgenden Verzeichnis:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Hatching/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Hatching/de

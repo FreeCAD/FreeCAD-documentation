@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Slope
-   Name/fr:Draft Pente
-   MenuLocation:Modification - Pente
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Version:0.17
+   Name: Draft Slope
+   Name/fr: Draft Pente
+   MenuLocation: Modification - Pente
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Version: 0.17
 ---
 
 # Draft Slope/fr
@@ -38,4 +38,4 @@ Il n\'existe pas de méthode Python pour incliner les objets. Pour émuler les r
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Slope/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Slope/fr

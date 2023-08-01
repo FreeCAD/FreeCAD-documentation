@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name/ru:Соединить
-   Name:Draft_Join
-   MenuLocation:Многоугольник, Полигон - Соединить
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:**J** **O**
-   Version:0.18
-   SeeAlso:[Разделить](Draft_Split/ru.md)
+   Name/ru: Соединить
+   Name: Draft_Join
+   MenuLocation: Многоугольник, Полигон - Соединить
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: **J** **O**
+   Version: 0.18
+   SeeAlso: [Разделить](Draft_Split/ru.md)
 ---
 
 # Draft Join/ru
@@ -76,4 +76,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Join/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Join/ru

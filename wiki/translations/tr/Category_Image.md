@@ -10,4 +10,4 @@ Bu kategori **Görüntülerin** üst kategorisidir. Herhangi bir dosya içermeme
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Image/tr
+⏵ [documentation index](../README.md) > Category:Image/tr

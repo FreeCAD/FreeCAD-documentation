@@ -1,6 +1,6 @@
 # Sketcher CreateCircle/cs
 ---
-- GuiCommand:   Name:Sketcher CreateCircle   Name/cs:Skicář Kružnice   Workbenches:[MenuLocation:Náčrt - Skicář Konstrukce - Vytvořit kružnici   SeeAlso:[[Sketcher CompCreateArc/cs|Skicář Oblouk](Sketcher_Workbench/cs___Skicář]].md)---
+- GuiCommand:   Name: Sketcher CreateCircle   Name/cs: Skicář Kružnice   Workbenches: [MenuLocation: Náčrt - Skicář Konstrukce - Vytvořit kružnici   SeeAlso: [[Sketcher CompCreateArc/cs|Skicář Oblouk](Sketcher_Workbench/cs___Skicář]].md)---
 
 
 </div>
@@ -41,4 +41,4 @@ Tento nástroj nakreslí kružnici zadáním dvou bodů: střed a bod na polomě
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/cs
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/cs

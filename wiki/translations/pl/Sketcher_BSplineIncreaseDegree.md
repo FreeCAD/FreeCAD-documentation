@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher BSplineIncreaseDegree
-   Name/pl:Szkicownik: Zwiększ stopień krzywej złożonej
-   MenuLocation:Szkic - Narzędzia szkicownika krzywej złożonej - Zwiększ stopień krzywej złożonej
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Pokaż / ukryj stopień krzywej złożonej](Sketcher_BSplineDegree/pl.md), [Zmniejsz stopień krzywej złożonej](Sketcher_BSplineDecreaseDegree/pl.md)
+   Name: Sketcher BSplineIncreaseDegree
+   Name/pl: Szkicownik: Zwiększ stopień krzywej złożonej
+   MenuLocation: Szkic - Narzędzia szkicownika krzywej złożonej - Zwiększ stopień krzywej złożonej
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Pokaż / ukryj stopień krzywej złożonej](Sketcher_BSplineDegree/pl.md), [Zmniejsz stopień krzywej złożonej](Sketcher_BSplineDecreaseDegree/pl.md)
 ---
 
 # Sketcher BSplineIncreaseDegree/pl
@@ -55,4 +55,4 @@ Możesz zobaczyć, że teraz każdy segment ma 2 punkty kontrolne, a węzły pok
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineIncreaseDegree/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineIncreaseDegree/pl

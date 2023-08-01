@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Arch CloneComponent
-   Name/de:Arch KomponenteKlonen‏‎‏‎
-   MenuLocation:Arch - Dienstprogramme - Komponente klonen
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   Shortcut:**C** **C**
-‏‎   SeeAlso:[Draft Klonen](Draft_Clone/de.md), [Arch Komponente](Arch_Component/de.md)
-   Icon:Arch_Component_Clone.svg
+   Name: Arch CloneComponent
+   Name/de: Arch KomponenteKlonen‏‎‏‎
+   MenuLocation: Arch - Dienstprogramme - Komponente klonen
+   Workbenches: [Arch](Arch_Workbench/de.md)
+   Shortcut: **C** **C**
+‏‎   SeeAlso: [Draft Klonen](Draft_Clone/de.md), [Arch Komponente](Arch_Component/de.md)
+   Icon: Arch_Component_Clone.svg
 ---
 
 # Arch CloneComponent/de
@@ -40,4 +40,4 @@ Bei der geklonten Komponente wird die {{PropertyData/de|CloneOf}}-Eigenschaft au
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/de

@@ -2,7 +2,7 @@
 ## Introduzione
 
 
-{{TOCright}}
+
 
 In FreeCAD la parola \"Vincolo\" è normalmente usata per fare riferimento a una \"regola\" per disegnare forme geometriche all\'interno di uno ![ 16px](images/_Workbench_Sketcher.svg ) [Schizzo](Sketch/it.md) (classe `Sketcher::SketchObject`). Un vincolo limita la posizione di un determinato elemento geometrico in diversi modi, ad esempio può specificare se l\'elemento è orizzontale, verticale, tangente, parallelo, perpendicolare, coincidente con un punto, concentrico a un altro oggetto, ecc.
 
@@ -46,4 +46,4 @@ Per un elenco di tutti i vincoli che possono essere applicati vedere le informaz
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Constraint/it
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Constraint/it

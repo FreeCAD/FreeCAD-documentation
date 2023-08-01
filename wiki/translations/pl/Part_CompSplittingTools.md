@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part CompSplittingTools
-   Name/pl:Część: Komponent Podziel obiekty
-   MenuLocation:Część - Rozdziel
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:
+   Name: Part CompSplittingTools
+   Name/pl: Część: Komponent Podziel obiekty
+   MenuLocation: Część - Rozdziel
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: 
 ---
 
 # Part CompSplittingTools/pl
@@ -27,4 +27,4 @@ Kolekcja narzędzi do rozdzielania.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompSplittingTools/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompSplittingTools/pl

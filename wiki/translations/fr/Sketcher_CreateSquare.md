@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateSquare
-   Name/fr:Sketcher Carré
-   MenuLocation:Esquisse - Géométries d'esquisse - Créer un carré
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **P** **4**
-   Version:0.15
+   Name: Sketcher CreateSquare
+   Name/fr: Sketcher Carré
+   MenuLocation: Esquisse - Géométries d'esquisse - Créer un carré
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **P** **4**
+   Version: 0.15
 ---
 
 # Sketcher CreateSquare/fr
@@ -40,4 +40,4 @@ Le cercle circonscrit est la géométrie de construction, qui n\'est visible que
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSquare/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSquare/fr

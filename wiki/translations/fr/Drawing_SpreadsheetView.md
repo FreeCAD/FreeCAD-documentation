@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Drawing SpreadsheetView
-   Name/fr:Drawing Vue d'une feuille de calcul
-   Workbenches:[Drawing](Drawing_Workbench/fr.md)
-   MenuLocation:Drawing - insérer une vue d'une feuille de calcul...
+   Name: Drawing SpreadsheetView
+   Name/fr: Drawing Vue d'une feuille de calcul
+   Workbenches: [Drawing](Drawing_Workbench/fr.md)
+   MenuLocation: Drawing - insérer une vue d'une feuille de calcul...
 ---
 
 # Drawing SpreadsheetView/fr
@@ -44,4 +44,4 @@ Cet outil vous permet de placer une vue d\'une [feuille de calcul](Spreadsheet_W
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing SpreadsheetView/fr
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing SpreadsheetView/fr

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path Adaptive
-   Name/fr:Path Adaptatif
-   MenuLocation:Path - Adaptatif
-   Workbenches:[Path](Path_Workbench/fr.md)
+   Name: Path Adaptive
+   Name/fr: Path Adaptatif
+   MenuLocation: Path - Adaptatif
+   Workbenches: [Path](Path_Workbench/fr.md)
 ---
 
 # Path Adaptive/fr
@@ -265,4 +265,4 @@ Une proposition de correction de bogue est disponible (mais personne ne travaill
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Adaptive/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Adaptive/fr

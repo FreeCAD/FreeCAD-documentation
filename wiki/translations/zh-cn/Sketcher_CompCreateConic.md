@@ -1,10 +1,10 @@
 ---
 - GuiCommand:-cn
-   Name:Sketcher Conics
-   Name/zh-cn:Sketcher Conics
-   Icon:Sketcher_CompCreateConic.png
-   Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md)
-   MenuLocation:None (toolbar only)
+   Name: Sketcher Conics
+   Name/zh-cn: Sketcher Conics
+   Icon: Sketcher_CompCreateConic.png
+   Workbenches: [Sketcher](Sketcher_Workbench/zh-cn.md)
+   MenuLocation: None (toolbar only)
 ---
 
 # Sketcher CompCreateConic/zh-cn
@@ -45,4 +45,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateConic/zh-cn
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateConic/zh-cn

@@ -1,6 +1,4 @@
 # Mesh Scripting/id
-{{TOCright}}
-
 ## Introduction
 
 To get access to the `Mesh` module you have to import it first:
@@ -98,4 +96,4 @@ See also: [Mesh API](Mesh_API.md). {{Top}}  {{Mesh Tools navi}}
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/id
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/id

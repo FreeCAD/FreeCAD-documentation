@@ -1,6 +1,6 @@
 # Path Helix/ro
 ---
-- GuiCommand:   Name:Path Helix   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path - Helix   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Path Helix   Workbenches: [[Path Workbench   Path]]|MenuLocation: Path - Helix   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -78,4 +78,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Helix/ro
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Helix/ro

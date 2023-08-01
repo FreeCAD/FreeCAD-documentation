@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Fuse
-   Name/de:Part Vereinigung
-   MenuLocation:Formteil - Boolesche Operation - Vereinigung
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Boolesche Operationen](Part_Boolean/de.md), [Part Differenz](Part_Cut/de.md), [Part Schnitt](Part_Common/de.md), 
+   Name: Part Fuse
+   Name/de: Part Vereinigung
+   MenuLocation: Formteil - Boolesche Operation - Vereinigung
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: [Part Boolesche Operationen](Part_Boolean/de.md), [Part Differenz](Part_Cut/de.md), [Part Schnitt](Part_Common/de.md), 
 ---
 
 # Part Fuse/de
@@ -51,4 +51,4 @@ Nachdem dieser Vorgang abgeschlossen ist, kann es notwendig sein, die Form mit <
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/de

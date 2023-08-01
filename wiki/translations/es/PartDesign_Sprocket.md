@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Sprocket
-   Name/es:DiseñoPieza Rueda Dentada
-   MenuLocation:DiseñoPieza - Rueda Dentada...
-   Workbenches:[DiseñoPieza](PartDesign_Workbench/es.md)
-   Version:0.19
+   Name: PartDesign Sprocket
+   Name/es: DiseñoPieza Rueda Dentada
+   MenuLocation: DiseñoPieza - Rueda Dentada...
+   Workbenches: [DiseñoPieza](PartDesign_Workbench/es.md)
+   Version: 0.19
 ---
 
 # PartDesign Sprocket/es
@@ -47,4 +47,4 @@ Esta herramienta permite crear un perfil 2D de una rueda dentada. Se puede acolc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Sprocket/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Sprocket/es

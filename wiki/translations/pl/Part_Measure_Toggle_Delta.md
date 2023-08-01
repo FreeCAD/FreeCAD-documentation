@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Measure Toggle Delta
-   Name/pl:Część: Włącz / wyłącz widok pomiarów przyrostowych
-   MenuLocation:Pomiary - Włącz / wyłącz widok pomiarów przyrostowych
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Włącz / wyłącz widoczność pomiarów](Part_Measure_Toggle_All/pl.md),  [Włącz / wyłącz widok pomiarów 3D](Part_Measure_Toggle_3D/pl.md)
+   Name: Part Measure Toggle Delta
+   Name/pl: Część: Włącz / wyłącz widok pomiarów przyrostowych
+   MenuLocation: Pomiary - Włącz / wyłącz widok pomiarów przyrostowych
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: [Włącz / wyłącz widoczność pomiarów](Part_Measure_Toggle_All/pl.md),  [Włącz / wyłącz widok pomiarów 3D](Part_Measure_Toggle_3D/pl.md)
 ---
 
 # Part Measure Toggle Delta/pl
@@ -26,4 +26,4 @@ To polecenie przełącza widoczność pomiarów przyrostowych w oknie [widoku 3D
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle Delta/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle Delta/pl

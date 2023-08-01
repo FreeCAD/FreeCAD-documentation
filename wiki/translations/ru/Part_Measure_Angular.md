@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Measure Angular
-   Name/ru:Измерить угол
-   MenuLocation:Measure - Измерить угол‏‎
-   Workbenches:[Part](Part_Workbench/ru.md)
+   Name: Part Measure Angular
+   Name/ru: Измерить угол
+   MenuLocation: Measure - Измерить угол‏‎
+   Workbenches: [Part](Part_Workbench/ru.md)
 ---
 
 # Part Measure Angular/ru
@@ -37,4 +37,4 @@ The appearance of the measurements can be changed in the [preferences](PartDesig
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Angular/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Angular/ru

@@ -1,6 +1,6 @@
 # Sketcher CreateHeptagon/ro
 ---
-- GuiCommand:   Name:Sketcher CreateHeptagon   Name/ro:Sketcher CreateHeptagon   Workbenches:[[Sketcher Workbench/ro   Sketcher]]|MenuLocation:Sketch - Sketcher geometries - Create heptagon   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Sketcher CreateHeptagon   Name/ro: Sketcher CreateHeptagon   Workbenches: [[Sketcher Workbench/ro   Sketcher]]|MenuLocation: Sketch - Sketcher geometries - Create heptagon   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -49,4 +49,4 @@ Când este definită schița obiectului geometric cercul circumscris este vizibi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateHeptagon/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateHeptagon/ro

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Curves Pipeshell
-   Name/pl:Krzywe: Powłoka rury
-   MenuLocation:Powierzchnia - Powłoka rury
-   Workbenches:[Krzywe](Curves_Workbench/pl.md)
+   Name: Curves Pipeshell
+   Name/pl: Krzywe: Powłoka rury
+   MenuLocation: Powierzchnia - Powłoka rury
+   Workbenches: [Krzywe](Curves_Workbench/pl.md)
 ---
 
 # Curves Pipeshell/pl
@@ -99,4 +99,4 @@ Narzędzie <img alt="" src=images/Curves_Pipeshell.svg  style="width:24px;"> [Po
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves Pipeshell/pl
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves Pipeshell/pl

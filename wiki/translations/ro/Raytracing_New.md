@@ -1,6 +1,6 @@
 # Raytracing New/ro
 ---
-- GuiCommand:   Name:Raytracing New   Name/ro:Raytracing New   MenuLocation:Raytracing - New‏‎   |Workbenches:[[Raytracing Workbench/ro   Raytracing]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Raytracing New   Name/ro: Raytracing New   MenuLocation: Raytracing - New‏‎   |Workbenches: [[Raytracing Workbench/ro   Raytracing]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -64,4 +64,4 @@ Setările suplimentare de proiect ar necesita definirea unor șabloane supliment
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing New/ro
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing New/ro

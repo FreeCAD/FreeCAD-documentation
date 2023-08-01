@@ -29,4 +29,4 @@ A Body is not required when using the [Part Workbench](Part_Workbench.md), as th
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [PartDesign](Category_PartDesign.md) > Body/en
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [PartDesign](Category_PartDesign.md) > Body/en

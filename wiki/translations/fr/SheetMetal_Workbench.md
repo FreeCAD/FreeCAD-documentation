@@ -4,7 +4,7 @@
 <img alt="Icône de l\'atelier externe Sheet Metal" src=images/Sheetmetal_workbench_icon.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 
 
@@ -279,4 +279,4 @@ Comment faire ?
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal Workbench/fr
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal Workbench/fr

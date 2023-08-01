@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Save
-   Name/de:Std Speichern
-   MenuLocation:Datei - Speichern
-   Workbenches:Alle
-   Shortcut:**Ctrl**+**S**
-   SeeAlso:[Std SpeichernUnter](Std_SaveAs/de.md), [Std KopieSpeichern](Std_SaveCopy/de.md), [Std AllesSpeichern](Std_SaveAll/de.md)
+   Name: Std Save
+   Name/de: Std Speichern
+   MenuLocation: Datei - Speichern
+   Workbenches: Alle
+   Shortcut: **Ctrl**+**S**
+   SeeAlso: [Std SpeichernUnter](Std_SaveAs/de.md), [Std KopieSpeichern](Std_SaveCopy/de.md), [Std AllesSpeichern](Std_SaveAll/de.md)
 ---
 
 # Std Save/de
@@ -54,4 +54,4 @@ To save a document use the `save` method of the document object. A new document 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Save/de
+⏵ [documentation index](../README.md) > Std Save/de

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw Midpoints
-   Name/pl:Rysunek Techniczny: Dodaj wierzchołek punktu środkowego
-   MenuLocation:Rysunek Techniczny - Dodaj wierzchołki - Dodaj wierzchołek punktu środkowego
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Version:0.19
-   SeeAlso:[Wstaw wierzchołek kosmetyczny](TechDraw_CosmeticVertex/pl.md), [Dodaj wierzchołki kwadrantu](TechDraw_Quadrants/pl.md)
+   Name: TechDraw Midpoints
+   Name/pl: Rysunek Techniczny: Dodaj wierzchołek punktu środkowego
+   MenuLocation: Rysunek Techniczny - Dodaj wierzchołki - Dodaj wierzchołek punktu środkowego
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Version: 0.19
+   SeeAlso: [Wstaw wierzchołek kosmetyczny](TechDraw_CosmeticVertex/pl.md), [Dodaj wierzchołki kwadrantu](TechDraw_Quadrants/pl.md)
 ---
 
 # TechDraw Midpoints/pl
@@ -74,4 +74,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Midpoints/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Midpoints/pl

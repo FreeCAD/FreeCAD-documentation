@@ -11,7 +11,7 @@ The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement
 Modulul de desenare vă permite să puneți lucrul 3D pe hârtie. Adică, pentru a afișa vizualizările modelelor dvs. într-o fereastră 2D și pentru a insera acea fereastră într-un desen, de exemplu o foaie cu graniță, un titlu și logo-ul dvs. și, în final, să tipăriți această foaie.
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Drawing_extraction.png  style="width:600px;">
 
@@ -120,4 +120,4 @@ Unele note despre partea de programare a modulului de desen vor fi adăugate la 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/ro
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/ro

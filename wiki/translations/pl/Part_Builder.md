@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Shapebuilder
-   Name/pl:Część: Konstruktor
-   MenuLocation:Część - Konstruktor kształtu ...
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Utwórz geometrie pierwotne](Part_CreatePrimitives/pl.md)
+   Name: Part Shapebuilder
+   Name/pl: Część: Konstruktor
+   MenuLocation: Część - Konstruktor kształtu ...
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: [Utwórz geometrie pierwotne](Part_CreatePrimitives/pl.md)
 ---
 
 # Part Builder/pl
@@ -89,4 +89,4 @@ Jednym z możliwych rozwiązań może być przepływ pracy:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/pl

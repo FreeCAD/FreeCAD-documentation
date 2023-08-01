@@ -11,4 +11,4 @@ This category lists pages related to the [Robot Workbench/cs](Robot_Workbench/cs
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Robot/cs
+⏵ [documentation index](../README.md) > Category:Robot/cs

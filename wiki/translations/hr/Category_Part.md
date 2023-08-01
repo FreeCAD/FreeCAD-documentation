@@ -11,4 +11,4 @@ This category lists pages related to the [Part Workbench/hr](Part_Workbench/hr.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Part/hr
+⏵ [documentation index](../README.md) > Category:Part/hr

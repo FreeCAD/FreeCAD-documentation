@@ -24,4 +24,4 @@ Cette page n\'est pas une liste complète du contenus de ces modules, et, en rai
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > Builtin modules/fr
+⏵ [documentation index](../README.md) > [API](Category_API.md) > Builtin modules/fr

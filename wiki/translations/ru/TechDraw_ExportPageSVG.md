@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Экспорт листа в SVG
-   Name:TechDraw_ExportPageSVG
-   MenuLocation:TechDraw - Экспорт листа в SVG
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Шаблоны](TechDraw_Templates/ru.md), [Draft SVG](Draft_SVG/ru.md)
+   Name/ru: Экспорт листа в SVG
+   Name: TechDraw_ExportPageSVG
+   MenuLocation: TechDraw - Экспорт листа в SVG
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso: [Шаблоны](TechDraw_Templates/ru.md), [Draft SVG](Draft_SVG/ru.md)
 ---
 
 # TechDraw ExportPageSVG/ru
@@ -75,4 +75,4 @@ Note that the FreeCADGui module must be active to use this function.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExportPageSVG/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExportPageSVG/ru

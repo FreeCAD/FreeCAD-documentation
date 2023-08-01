@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ValidateSketch
-   Name/es:Croquizador ValidarCroquis
-   MenuLocation:Croquizador - Validar Croquis
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md), [DiseñoPieza](PartDesign_Workbench/es.md)
-   SeeAlso:[Croquizador RestringirCoincidencia](Sketcher_ConstrainCoincident/es.md), [Problema de denominación topológica](Topological_naming_problem/es.md)
+   Name: Sketcher ValidateSketch
+   Name/es: Croquizador ValidarCroquis
+   MenuLocation: Croquizador - Validar Croquis
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md), [DiseñoPieza](PartDesign_Workbench/es.md)
+   SeeAlso: [Croquizador RestringirCoincidencia](Sketcher_ConstrainCoincident/es.md), [Problema de denominación topológica](Topological_naming_problem/es.md)
 ---
 
 # Sketcher ValidateSketch/es
@@ -86,4 +86,4 @@ The locking mechanism typically works well and this tool should not be needed. *
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/es

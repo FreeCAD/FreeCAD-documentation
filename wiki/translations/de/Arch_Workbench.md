@@ -1,7 +1,7 @@
 # <img alt="Arch Arbeitsbereichssymbol" src=images/Workbench_Arch.svg  style="width:64px;"> Arch Workbench/de
 
 
-{{TOCright}}
+
 
 
 
@@ -203,4 +203,4 @@ Der Arbeitsbereich Arch kann mit den Funktionen der [Arch Python API](http://www
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/de
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/de

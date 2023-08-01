@@ -13,4 +13,4 @@ Esta categoría contiene artículos y categorías sobre temas de administración
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Administration/es
+⏵ [documentation index](../README.md) > Category:Administration/es

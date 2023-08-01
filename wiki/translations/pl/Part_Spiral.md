@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Spiral
-   Name/pl:Część: Spirala
-   MenuLocation:Część - Utwórz geometrie pierwotne ... - Spirala
-   Workbenches:[Część](Part_Workbench/pl.md), [OpenSCAD](OpenSCAD_Workbench/pl.md)
-   SeeAlso:[Utwórz geometrie pierwotne](Part_Primitives/pl.md)
+   Name: Part Spiral
+   Name/pl: Część: Spirala
+   MenuLocation: Część - Utwórz geometrie pierwotne ... - Spirala
+   Workbenches: [Część](Part_Workbench/pl.md), [OpenSCAD](OpenSCAD_Workbench/pl.md)
+   SeeAlso: [Utwórz geometrie pierwotne](Part_Primitives/pl.md)
 ---
 
 # Part Spiral/pl
@@ -103,4 +103,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Spiral/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Spiral/pl

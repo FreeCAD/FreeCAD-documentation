@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:FEM PostFilterDataAlongLine
-   MenuLocation:Results - Line clip filter
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM Result pipeline](FEM_PostPipelineFromResult.md), [FEM tutorial](FEM_tutorial.md)
+   Name: FEM PostFilterDataAlongLine
+   MenuLocation: Results - Line clip filter
+   Workbenches: [FEM](FEM_Workbench.md)
+   SeeAlso: [FEM Result pipeline](FEM_PostPipelineFromResult.md), [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM PostFilterDataAlongLine
@@ -36,4 +36,4 @@ Plots the values of a field along a specified line.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterDataAlongLine
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterDataAlongLine

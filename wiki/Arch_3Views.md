@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Arch 3Views
-   MenuLocation:Arch - Utilities - 3 Views from mesh
-   Workbenches:[Arch](Arch_Workbench.md)
-   SeeAlso:[Arch SplitMesh](Arch_SplitMesh.md), [Arch MeshToShape](Arch_MeshToShape.md)
+   Name: Arch 3Views
+   MenuLocation: Arch - Utilities - 3 Views from mesh
+   Workbenches: [Arch](Arch_Workbench.md)
+   SeeAlso: [Arch SplitMesh](Arch_SplitMesh.md), [Arch MeshToShape](Arch_MeshToShape.md)
 ---
 
 # Arch 3Views
@@ -73,4 +73,4 @@ mesh_obj.ViewObject.Visibility = False
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch 3Views
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch 3Views

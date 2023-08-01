@@ -176,4 +176,4 @@ Ta kategoria zawiera artykuły na temat sposobu używania FreeCAD. Jest to równ
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:User Documentation/pl
+⏵ [documentation index](../README.md) > Category:User Documentation/pl

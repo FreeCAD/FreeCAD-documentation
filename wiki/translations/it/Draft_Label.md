@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Label
-   Name/it:Etichetta
-   MenuLocation:Annotazione - Etichetta
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:**D** **L**
-   Version:0.17
-   SeeAlso:[Testo](Draft_Text/it.md), [Forma da testo](Draft_ShapeString/it.md)
+   Name: Draft Label
+   Name/it: Etichetta
+   MenuLocation: Annotazione - Etichetta
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut: **D** **L**
+   Version: 0.17
+   SeeAlso: [Testo](Draft_Text/it.md), [Forma da testo](Draft_ShapeString/it.md)
 ---
 
 # Draft Label/it
@@ -241,4 +241,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Label/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Label/it

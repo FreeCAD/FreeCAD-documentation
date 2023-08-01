@@ -20,7 +20,7 @@ The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement
 Модуль Черчения позволяет поместить ваши 3D наработки на бумагу. То есть, поместить проекции ваших моделей в 2D окно и вставить это окно в рисунок, например на лист с рамкой, вашим заголовком и логотипом и наконец распечатать всё это.
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Drawing_extraction.png  style="width:600px;">
 
@@ -133,4 +133,4 @@ FreeCAD поставляется вместе с набором стандарт
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/ru
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/ru

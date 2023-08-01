@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign Pad
-   MenuLocation:Part Design - Create an additive feature - Pad
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[PartDesign Pocket](PartDesign_Pocket.md)
+   Name: PartDesign Pad
+   MenuLocation: Part Design - Create an additive feature - Pad
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   SeeAlso: [PartDesign Pocket](PartDesign_Pocket.md)
 ---
 
 # PartDesign Pad/en
@@ -154,4 +154,4 @@ Tapers the pad in the opposite extrusion direction by the given angle. A positiv
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad/en
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad/en

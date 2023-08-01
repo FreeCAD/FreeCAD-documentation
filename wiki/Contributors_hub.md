@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Contributors hub
+⏵ [documentation index](../README.md) > Contributors hub

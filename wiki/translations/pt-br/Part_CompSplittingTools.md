@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part CompSplittingTools
-   MenuLocation:Part - Split
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:
+   Name: Part CompSplittingTools
+   MenuLocation: Part - Split
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: 
 ---
 
 # Part CompSplittingTools/pt-br
@@ -22,4 +22,4 @@ A collection of splitting tools.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompSplittingTools/pt-br
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompSplittingTools/pt-br

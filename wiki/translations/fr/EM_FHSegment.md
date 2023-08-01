@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:EM FHSegment
-   Name/fr:EM Segment FH
-   MenuLocation:EM - FHSegment
-   Workbenches:[EM](EM_Workbench/fr.md)
-   Shortcut:**E** **S**
-   Version:0.17
-   SeeAlso:[EM Noeud FH](EM_FHNode/fr.md), [EM Chemin FH](EM_FHPath/fr.md)
+   Name: EM FHSegment
+   Name/fr: EM Segment FH
+   MenuLocation: EM - FHSegment
+   Workbenches: [EM](EM_Workbench/fr.md)
+   Shortcut: **E** **S**
+   Version: 0.17
+   SeeAlso: [EM Noeud FH](EM_FHNode/fr.md), [EM Chemin FH](EM_FHPath/fr.md)
 ---
 
 # EM FHSegment/fr
@@ -125,4 +125,4 @@ fhsegment = EM.makeFHSegment(nodeStart=fhnode1, nodeEnd=fhnode2)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [EM](Category_EM.md) > EM FHSegment/fr
+⏵ [documentation index](../README.md) > [EM](Category_EM.md) > EM FHSegment/fr

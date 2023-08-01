@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Crowdin
+⏵ [documentation index](../README.md) > Crowdin

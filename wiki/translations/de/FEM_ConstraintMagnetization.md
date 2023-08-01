@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintMagnetization
-   Name/de:FEM RandbedingungMagnetisierung
-   MenuLocation: Model - Electromagnetic Constraints - Constraint magnetization
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   Version:0.21
-   SeeAlso:[MagnetodynamischeGleichung](FEM_EquationMagnetodynamic/de.md), [Magnetodynamische2DGleichung](FEM_EquationMagnetodynamic2D/de.md)
+   Name: FEM ConstraintMagnetization
+   Name/de: FEM RandbedingungMagnetisierung
+   MenuLocation:  Model - Electromagnetic Constraints - Constraint magnetization
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   Version: 0.21
+   SeeAlso: [MagnetodynamischeGleichung](FEM_EquationMagnetodynamic/de.md), [Magnetodynamische2DGleichung](FEM_EquationMagnetodynamic2D/de.md)
 ---
 
 # FEM ConstraintMagnetization/de
@@ -50,4 +50,4 @@ Erstellt eine FEM-Randbedingung für die Magnetisierung, zur Verwendung mit der 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintMagnetization/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintMagnetization/de

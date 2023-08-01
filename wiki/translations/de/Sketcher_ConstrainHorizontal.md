@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainHorizontal
-   Name/de:Sketcher HorizontalFestlegen
-   MenuLocation:Sketch - Skizzen-Beschränkungen - Horizontal einschränken
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**H**
-   SeeAlso:[Sketcher VertikalFestlegen](Sketcher_ConstrainVertical/de.md)
+   Name: Sketcher ConstrainHorizontal
+   Name/de: Sketcher HorizontalFestlegen
+   MenuLocation: Sketch - Skizzen-Beschränkungen - Horizontal einschränken
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **H**
+   SeeAlso: [Sketcher VertikalFestlegen](Sketcher_ConstrainVertical/de.md)
 ---
 
 # Sketcher ConstrainHorizontal/de
@@ -51,4 +51,4 @@ Die [Skizzierer Skripten](Sketcher_scripting.md)-Seite erklärt die Werte, die f
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/de

@@ -2,7 +2,7 @@
 ## Introduction
 
 
-{{TOCright}}
+
 
 This documentation will explain how to set up a macro to automatically run at FreeCAD startup.
 
@@ -117,4 +117,4 @@ Notice that if the original macro was downloaded through the Addon Manager, it w
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Macros](Category_Macros.md) > Macro at Startup/en
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Macros](Category_Macros.md) > Macro at Startup/en

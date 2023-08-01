@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FCGear CrownGear
-   Name/fr:FCGear Engrenage couronne
-   MenuLocation:Gear - Crown Gear
-   Workbenches:[FCGear](FCGear_Workbench/fr.md)
-   Shortcut:Aucun
-   Version:v0.16
-   SeeAlso:[FCGear Engrenage à développante](FCGear_InvoluteGear/fr.md)
+   Name: FCGear CrownGear
+   Name/fr: FCGear Engrenage couronne
+   MenuLocation: Gear - Crown Gear
+   Workbenches: [FCGear](FCGear_Workbench/fr.md)
+   Shortcut: Aucun
+   Version: v0.16
+   SeeAlso: [FCGear Engrenage à développante](FCGear_InvoluteGear/fr.md)
 ---
 
 # FCGear CrownGear/fr
@@ -131,4 +131,4 @@ Un objet FCGear CrownGear est dérivé d\'un [Part Feature](Part_Feature/fr.md) 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear CrownGear/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear CrownGear/fr

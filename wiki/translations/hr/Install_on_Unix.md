@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Install on Unix/hr
+⏵ [documentation index](../README.md) > Install on Unix/hr

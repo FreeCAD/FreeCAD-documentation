@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Path Shape
-   MenuLocation:Path - Supplemental Commands - From Shape
-   Workbenches:[Path](Path_Workbench.md)
+   Name: Path Shape
+   MenuLocation: Path - Supplemental Commands - From Shape
+   Workbenches: [Path](Path_Workbench.md)
 ---
 
 # Path Shape/en
@@ -126,4 +126,4 @@ Path.fromShapes(shapes, start=Vector(), return_end=False arc_plane=1, sort_mode=
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Shape/en
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Shape/en

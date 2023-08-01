@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateTriangle
-   Name/pl:Szkicownik: Utwórz trójkąt równoboczny
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz trójkąt równoboczny
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **P** **3**
-   Version:0.15
+   Name: Sketcher CreateTriangle
+   Name/pl: Szkicownik: Utwórz trójkąt równoboczny
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Utwórz trójkąt równoboczny
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **G** **P** **3**
+   Version: 0.15
 ---
 
 # Sketcher CreateTriangle/pl
@@ -44,4 +44,4 @@ Wyznaczony okrąg to geometria konstrukcyjna, która jest widoczna tylko podczas
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateTriangle/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateTriangle/pl

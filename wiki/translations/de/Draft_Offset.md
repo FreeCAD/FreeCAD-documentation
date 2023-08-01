@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Offset
-   Name/de:Draft Versatz
-   MenuLocation:Änderung - Versatz
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Shortcut:**O** **S**
-   SeeAlso:[Part 2DVersatz](Part_Offset2D/de.md)
+   Name: Draft Offset
+   Name/de: Draft Versatz
+   MenuLocation: Änderung - Versatz
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut: **O** **S**
+   SeeAlso: [Part 2DVersatz](Part_Offset2D/de.md)
 ---
 
 # Draft Offset/de
@@ -149,4 +149,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Offset/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Offset/de

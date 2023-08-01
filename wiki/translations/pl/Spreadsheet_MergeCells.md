@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet MergeCells
-   Name/pl:Arkusz Kalkulacyjny: Połącz komórki
-   MenuLocation:Arkusz kalkulacyjny - Połącz komórki
-   Workbenches:[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
-   Version:0.17
+   Name: Spreadsheet MergeCells
+   Name/pl: Arkusz Kalkulacyjny: Połącz komórki
+   MenuLocation: Arkusz kalkulacyjny - Połącz komórki
+   Workbenches: [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   Version: 0.17
 ---
 
 # Spreadsheet MergeCells/pl
@@ -30,4 +30,4 @@ Narzędzie **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Po
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells/pl
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells/pl

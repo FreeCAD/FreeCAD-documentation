@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet CreateSheet
-   MenuLocation:Spreadsheet - Create spreadsheet
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
-   Version:0.17
+   Name: Spreadsheet CreateSheet
+   MenuLocation: Spreadsheet - Create spreadsheet
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench.md)
+   Version: 0.17
 ---
 
 # Spreadsheet CreateSheet/pt-br
@@ -29,4 +29,4 @@ The **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadsh
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CreateSheet/pt-br
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CreateSheet/pt-br

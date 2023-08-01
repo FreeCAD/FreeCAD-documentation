@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw WeldSymbol
-   Name/fr:TechDraw Soudure
-   MenuLocation:TechDraw - Ajouter les informations de soudage...
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[TechDraw Ligne de référence](TechDraw_LeaderLine/fr.md)
+   Name: TechDraw WeldSymbol
+   Name/fr: TechDraw Soudure
+   MenuLocation: TechDraw - Ajouter les informations de soudage...
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Version: 0.19
+   SeeAlso: [TechDraw Ligne de référence](TechDraw_LeaderLine/fr.md)
 ---
 
 # TechDraw WeldSymbol/fr
@@ -133,4 +133,4 @@ Les symboles particuliers sont formés par des fichiers SVG de 64x64 pixels. Des
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw WeldSymbol/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw WeldSymbol/fr

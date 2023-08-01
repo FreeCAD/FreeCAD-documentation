@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher External
-   Name/de:Sketcher ExterneGeometrie
-   MenuLocation:Skizze - Skizzengeometrien - Externe Geometrie
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **X**
-   SeeAlso:[Sketcher UmschalterKonstruktion](Sketcher_ToggleConstruction/de.md)
+   Name: Sketcher External
+   Name/de: Sketcher ExterneGeometrie
+   MenuLocation: Skizze - Skizzengeometrien - Externe Geometrie
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **X**
+   SeeAlso: [Sketcher UmschalterKonstruktion](Sketcher_ToggleConstruction/de.md)
 ---
 
 # Sketcher External/de
@@ -97,4 +97,4 @@ Wenn der Skizzenbearbeitungsmodus geschlossen ist, sind die externen Geometrieli
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/de

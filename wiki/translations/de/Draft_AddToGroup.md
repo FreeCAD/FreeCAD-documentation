@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft AddToGroup
-   Name/de:Draft ZurGruppeHinzufügen
-   MenuLocation:Dienstprogramme - Zur Gruppe hinzufügen...
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso:[Std Gruppe](Std_Group/de.md), [Draft BenannteGruppeHinzufügen](Draft_AddNamedGroup/de.md), [Draft ZurKonstruktionsgruppeHinzufügen](Draft_AddConstruction/de.md), [Draft Autogruppe](Draft_AutoGroup/de.md)
+   Name: Draft AddToGroup
+   Name/de: Draft ZurGruppeHinzufügen
+   MenuLocation: Dienstprogramme - Zur Gruppe hinzufügen...
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso: [Std Gruppe](Std_Group/de.md), [Draft BenannteGruppeHinzufügen](Draft_AddNamedGroup/de.md), [Draft ZurKonstruktionsgruppeHinzufügen](Draft_AddConstruction/de.md), [Draft Autogruppe](Draft_AutoGroup/de.md)
 ---
 
 # Draft AddToGroup/de
@@ -54,4 +54,4 @@ In FreeCAD v0.20 kann der Befehl auch gruppenähnliche [Arch](Arch_Workbench/de.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddToGroup/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddToGroup/de

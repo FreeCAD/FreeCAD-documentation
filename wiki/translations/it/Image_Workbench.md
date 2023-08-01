@@ -5,7 +5,7 @@ La sua funzionalità è stata integrata in [Menu di base](Std_Base/it.md). Veder
 <img alt="L\'icona dell\'ambiente Image" src=images/Workbench_Image.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 
 
@@ -50,4 +50,4 @@ L\'offset dell\'immagine può essere impostato durante l\'importazione o modific
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Image](Category_Image.md) > Image Workbench/it
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Image](Category_Image.md) > Image Workbench/it

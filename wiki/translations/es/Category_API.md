@@ -17,4 +17,4 @@ Esta categoría recopila artículos que listan objetos y métodos disponibles pa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > Category:API/es
+⏵ [documentation index](../README.md) > [API](Category_API.md) > Category:API/es

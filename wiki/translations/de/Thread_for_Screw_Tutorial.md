@@ -293,4 +293,4 @@ Diese Methode erzeugt zuverlässige Festkörper, die korrekt boolesch sind. Obwo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Thread for Screw Tutorial/de
+⏵ [documentation index](../README.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Thread for Screw Tutorial/de

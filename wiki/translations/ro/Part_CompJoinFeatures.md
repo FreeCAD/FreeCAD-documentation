@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part CompJoinFeatures
-   MenuLocation:Part - Join
-   Workbenches:[Part](Part_Workbench.md)
-   Version:0.16
-   SeeAlso:[Part JoinConnect](Part_JoinConnect.md), [Part JoinEmbed](Part_JoinEmbed.md), [Part JoinCutout](Part_JoinCutout.md), [Part Boolean](Part_Boolean.md), [Part Thickness](Part_Thickness.md)
+   Name: Part CompJoinFeatures
+   MenuLocation: Part - Join
+   Workbenches: [Part](Part_Workbench.md)
+   Version: 0.16
+   SeeAlso: [Part JoinConnect](Part_JoinConnect.md), [Part JoinEmbed](Part_JoinEmbed.md), [Part JoinCutout](Part_JoinCutout.md), [Part Boolean](Part_Boolean.md), [Part Thickness](Part_Thickness.md)
 ---
 
 # Part CompJoinFeatures/ro
@@ -48,4 +48,4 @@ Această comandă este un meniu derulant din bara de instrumente Booleană și c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/ro

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Создать копию элемента формы
-   Name:Part_ElementCopy
-   MenuLocation:Деталь - Создать копию - Создать копию элемента формы
-   Workbenches:[Part](Part_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Создать простую копию](Part_SimpleCopy/ru.md), [Создать преобразованную копию](Part_TransformedCopy/ru.md), [Улучшить форму](Part_RefineShape/ru.md)
+   Name/ru: Создать копию элемента формы
+   Name: Part_ElementCopy
+   MenuLocation: Деталь - Создать копию - Создать копию элемента формы
+   Workbenches: [Part](Part_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Создать простую копию](Part_SimpleCopy/ru.md), [Создать преобразованную копию](Part_TransformedCopy/ru.md), [Улучшить форму](Part_RefineShape/ru.md)
 ---
 
 # Part ElementCopy/ru
@@ -35,4 +35,4 @@ To produce complete non-parametric copies of the objects use **<img src="images/
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ElementCopy/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ElementCopy/ru

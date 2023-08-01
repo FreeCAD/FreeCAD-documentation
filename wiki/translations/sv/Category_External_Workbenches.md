@@ -10,4 +10,4 @@ This category collects pages from the [external workbenches](external_workbenche
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:External Workbenches/sv
+⏵ [documentation index](../README.md) > Category:External Workbenches/sv

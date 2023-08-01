@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Fillet
-   Name/fr:Draft Congé
-   MenuLocation:Draft - Congé
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:**F** **I**
-   Version:0.19
-   SeeAlso:[Draft Ligne](Draft_Line/fr.md), [Draft Polyligne](Draft_Wire/fr.md)
+   Name: Draft Fillet
+   Name/fr: Draft Congé
+   MenuLocation: Draft - Congé
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut: **F** **I**
+   Version: 0.19
+   SeeAlso: [Draft Ligne](Draft_Line/fr.md), [Draft Polyligne](Draft_Wire/fr.md)
 ---
 
 # Draft Fillet/fr
@@ -116,4 +116,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Fillet/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Fillet/fr

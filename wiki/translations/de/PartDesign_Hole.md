@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign Hole
-   Name/de:PartDesign Bohrung
-   MenuLocation:Part Design - Objekte abziehen - Bohrung
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[PartDesign Tasche](PartDesign_Pocket/de.md)
+   Name: PartDesign Hole
+   Name/de: PartDesign Bohrung
+   MenuLocation: Part Design - Objekte abziehen - Bohrung
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Tasche](PartDesign_Pocket/de.md)
 ---
 
 # PartDesign Hole/de
@@ -140,4 +140,4 @@ Beispiel: {{Code|lang=json|code=
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Hole/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Hole/de

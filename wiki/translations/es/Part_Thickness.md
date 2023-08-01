@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Thickness
-   Name/es:Part Espesor
-   MenuLocation:Pieza - Espesor
-   Workbenches:[Part](Part_Workbench/es.md)
-   SeeAlso:[Part Offset](Part_Offset.md)
+   Name: Part Thickness
+   Name/es: Part Espesor
+   MenuLocation: Pieza - Espesor
+   Workbenches: [Part](Part_Workbench/es.md)
+   SeeAlso: [Part Offset](Part_Offset.md)
 ---
 
 # Part Thickness/es
@@ -124,4 +124,4 @@ En este objeto se han seleccionado y eliminado dos caras adyacentes.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Thickness/es
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Thickness/es

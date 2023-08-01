@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectConflictingConstraints
-   Name/fr:Sketcher Contraintes conflictuelles
-   MenuLocation:Esquisse - Outils d'esquisse - Sélectionner les contraintes conflictuelles
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**Z** **P** **C**
-   Version:0.15
+   Name: Sketcher SelectConflictingConstraints
+   Name/fr: Sketcher Contraintes conflictuelles
+   MenuLocation: Esquisse - Outils d'esquisse - Sélectionner les contraintes conflictuelles
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **Z** **P** **C**
+   Version: 0.15
 ---
 
 # Sketcher SelectConflictingConstraints/fr
@@ -33,4 +33,4 @@ Sélectionne les contraintes conflictuelles d\'une esquisse.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConflictingConstraints/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConflictingConstraints/fr

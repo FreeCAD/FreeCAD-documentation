@@ -12,4 +12,4 @@ This category is the top level category for **images**. It should not contain an
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Image
+⏵ [documentation index](../README.md) > Category:Image

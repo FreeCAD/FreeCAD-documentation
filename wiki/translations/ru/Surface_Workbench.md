@@ -1,7 +1,7 @@
 # <img alt="Логотип верстака Surface" src=images/Workbench_Surface.svg  style="width:64px;"> Surface Workbench/ru
 
 
-{{TOCright}}
+
 
 
 
@@ -62,4 +62,4 @@ The generated surface cannot be placed inside a **[<img src=images/PartDesign_Bo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Surface](Category_Surface.md) > Surface Workbench/ru
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Surface](Category_Surface.md) > Surface Workbench/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw Dimension Vertical Extent
-   Name/it:Estensione verticale
-   MenuLocation:TechDraw - Estensione verticale
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Lunghezza](TechDraw_LengthDimension/it.md), [Estensione orizzontale](TechDraw_HorizontalExtentDimension/it.md)
+   Name: TechDraw Dimension Vertical Extent
+   Name/it: Estensione verticale
+   MenuLocation: TechDraw - Estensione verticale
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso: [Lunghezza](TechDraw_LengthDimension/it.md), [Estensione orizzontale](TechDraw_HorizontalExtentDimension/it.md)
 ---
 
 # TechDraw VerticalExtentDimension/it
@@ -121,4 +121,4 @@ rc = page.addView(hExtentDim)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw VerticalExtentDimension/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw VerticalExtentDimension/it

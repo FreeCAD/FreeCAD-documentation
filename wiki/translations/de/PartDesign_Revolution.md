@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Revolution
-   Name/de:PartDesign Drehteil
-   MenuLocation:Part Design - Objekte hinzufügen - Drehteil
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso:[PartDesign Nut](PartDesign_Groove/de.md)
+   Name: PartDesign Revolution
+   Name/de: PartDesign Drehteil
+   MenuLocation: Part Design - Objekte hinzufügen - Drehteil
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso: [PartDesign Nut](PartDesign_Groove/de.md)
 ---
 
 # PartDesign Revolution/de
@@ -110,4 +110,4 @@ Ein [ausführliches Anwendungsbeispiel](http://forum.freecadweb.org/viewtopic.ph
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/de

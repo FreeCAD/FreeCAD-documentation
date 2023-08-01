@@ -1,6 +1,6 @@
 # OpenSCAD ExplodeGroup/it
 ---
-- GuiCommand:   Name:OpenSCAD ExplodeGroup   Name/it:Esplodi gruppo   MenuLocation:OpenSCAD - Esplodi gruppo‏‎   |Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: OpenSCAD ExplodeGroup   Name/it: Esplodi gruppo   MenuLocation: OpenSCAD - Esplodi gruppo‏‎   |Workbenches: [[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -84,4 +84,4 @@ Per scomporre le schiere dell\'ambiente Draft usare lo strumento [Retrocedi](Dra
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExplodeGroup/it
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExplodeGroup/it

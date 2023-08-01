@@ -1,6 +1,6 @@
 # Part Section/it
 ---
-- GuiCommand:   Name:Part_Section   Name/it:Seziona   MenuLocation:Parte - Seziona   Workbenches:[SeeAlso:[[Part_SectionCross/it|Sezioni](Part_Workbench/it___Parte]].md)---
+- GuiCommand:   Name: Part_Section   Name/it: Seziona   MenuLocation: Parte - Seziona   Workbenches: [SeeAlso: [[Part_SectionCross/it|Sezioni](Part_Workbench/it___Parte]].md)---
 
 
 </div>
@@ -82,4 +82,4 @@ Per creare delle sezioni con un piano di sezione vedere la pagina **Part** → *
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/it

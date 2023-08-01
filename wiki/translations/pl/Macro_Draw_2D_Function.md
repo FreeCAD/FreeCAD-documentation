@@ -65,4 +65,4 @@ Part.show(WWire)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Draw 2D Function/pl
+⏵ [documentation index](../README.md) > Macro Draw 2D Function/pl

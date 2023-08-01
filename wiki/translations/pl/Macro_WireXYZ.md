@@ -136,4 +136,4 @@ The discussion [How do I transform a point cloud to a line?](http://forum.freeca
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro WireXYZ/pl
+⏵ [documentation index](../README.md) > Macro WireXYZ/pl

@@ -1,6 +1,6 @@
 # Drawing Openbrowser/cs
 ---
-- GuiCommand:   Name:Drawing Openbrowser   Name/cs:Drawing Openbrowser   Workbenches:[[Drawing Workbench/cs   Drawing]], Complete|MenuLocation:Drawing - Open Browser   Shortcut:none---
+- GuiCommand:   Name: Drawing Openbrowser   Name/cs: Drawing Openbrowser   Workbenches: [[Drawing Workbench/cs   Drawing]], Complete|MenuLocation: Drawing - Open Browser   Shortcut: none---
 
 ## Popis
 
@@ -34,4 +34,4 @@ This command allows you to display a selected [Drawing page](Drawing_Landscape_A
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Openbrowser/cs
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Openbrowser/cs

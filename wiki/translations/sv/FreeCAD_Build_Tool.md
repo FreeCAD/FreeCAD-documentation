@@ -1,7 +1,4 @@
 # FreeCAD Build Tool/sv
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 **FreeCAD byggverktyg** eller **fcbt** är ett pythonskript placerat i
@@ -93,4 +90,4 @@ Kommandot \"CM\" [skapar en ny applikationsmodul](Module_Creation/sv.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Build Tool/sv
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Build Tool/sv

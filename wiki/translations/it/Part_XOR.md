@@ -1,6 +1,6 @@
 # Part XOR/it
 ---
-- GuiCommand:   Name:Part_XOR   Name/it:Booleana XOR   MenuLocation:Part - Dividi - Booleana XOR   Workbenches:[SeeAlso:[[Part_BooleanFragments/it|Frammenti booleani](Part_Workbench/it___Part]].md), [Affetta in composto](Part_Slice/it.md), [Congiungi](Part_CompJoinFeatures.md), [Booleane di Parte](Part_Boolean/it.md)---
+- GuiCommand:   Name: Part_XOR   Name/it: Booleana XOR   MenuLocation: Part - Dividi - Booleana XOR   Workbenches: [SeeAlso: [[Part_BooleanFragments/it|Frammenti booleani](Part_Workbench/it___Part]].md), [Affetta in composto](Part_Slice/it.md), [Congiungi](Part_CompJoinFeatures.md), [Booleane di Parte](Part_Boolean/it.md)---
 
 
 </div>
@@ -39,4 +39,4 @@ The <img alt="" src=images/Part_XOR.svg  style="width:24px;"> **Part XOR** comma
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part XOR/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part XOR/it

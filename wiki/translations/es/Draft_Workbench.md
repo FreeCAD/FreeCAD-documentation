@@ -10,7 +10,7 @@
 <img alt="El icono del Ambiente de trabajo Borrador" src=images/Workbench_Draft.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 
 
@@ -480,4 +480,4 @@ Inspeccionar el código de este módulo es útil para entender cómo utilizar la
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Draft](Category_Draft.md) > Draft Workbench/es
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Draft](Category_Draft.md) > Draft Workbench/es

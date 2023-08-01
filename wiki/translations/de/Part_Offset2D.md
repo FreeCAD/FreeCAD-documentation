@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Offset2D
-   Name/de:Part 2DVersatz
-   MenuLocation:Formteil - 2D-Versatz
-   Workbenches:[Part](Part_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[Part Versatz](Part_Offset/de.md), [Part Dicke](Part_Thickness/de.md), [Draft Versatz](Draft_Offset/de.md)
+   Name: Part Offset2D
+   Name/de: Part 2DVersatz
+   MenuLocation: Formteil - 2D-Versatz
+   Workbenches: [Part](Part_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [Part Versatz](Part_Offset/de.md), [Part Dicke](Part_Thickness/de.md), [Draft Versatz](Draft_Offset/de.md)
 ---
 
 # Part Offset2D/de
@@ -136,4 +136,4 @@ Part.show(enlarged_circle)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset2D/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset2D/de

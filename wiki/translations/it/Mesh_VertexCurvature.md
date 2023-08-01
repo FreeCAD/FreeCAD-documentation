@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh VertexCurvature
-   MenuLocation:Meshes - Curvature plot
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh CurvatureInfo](Mesh_CurvatureInfo.md)
+   Name: Mesh VertexCurvature
+   MenuLocation: Meshes - Curvature plot
+   Workbenches: [Mesh](Mesh_Workbench.md)
+   SeeAlso: [Mesh CurvatureInfo](Mesh_CurvatureInfo.md)
 ---
 
 # Mesh VertexCurvature/it
@@ -88,4 +88,4 @@ For a Mesh Curvature object the following properties are available in the [Prope
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh VertexCurvature/it
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh VertexCurvature/it

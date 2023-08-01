@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Python Console
+⏵ [documentation index](../README.md) > Python Console

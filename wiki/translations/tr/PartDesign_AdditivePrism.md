@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditivePrism
-   MenuLocation:Part Design - Create an additive primitive - Additive Prism
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md), [PartDesign SubtractivePrism](PartDesign_SubtractivePrism.md)
+   Name: PartDesign AdditivePrism
+   MenuLocation: Part Design - Create an additive primitive - Additive Prism
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   Version: 0.17
+   SeeAlso: [PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md), [PartDesign SubtractivePrism](PartDesign_SubtractivePrism.md)
 ---
 
 # PartDesign AdditivePrism/tr
@@ -60,4 +60,4 @@ The Prism can be edited after its creation in two ways:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePrism/tr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePrism/tr

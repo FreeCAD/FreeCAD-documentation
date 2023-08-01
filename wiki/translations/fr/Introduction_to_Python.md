@@ -1,6 +1,4 @@
 # Introduction to Python/fr
-{{TOCright}}
-
 ## Introduction
 
 Ceci est un petit tutoriel créé pour ceux qui veulent débuter en programmation [Python](https://fr.wikipedia.org/wiki/Python_(langage)). Python est un [langage de programmation](https://fr.wikipedia.org/wiki/Langage_de_programmation) open-source et multiplate-forme. Il a de nombreuses fonctionnalités qui le différencie des autres langages de programmation et est facilement accessible aux nouveaux utilisateurs :
@@ -501,4 +499,4 @@ dir()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Introduction to Python/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Introduction to Python/fr

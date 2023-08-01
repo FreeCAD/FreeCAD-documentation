@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_MacroStopDebug
-   Name/it:Interrompi il debug
-   MenuLocation:Macro - Interrompi il debug 
-   Workbenches:Tutti
-   Shortcut:**Maiusc**+**F6**
-   SeeAlso:[Avvia il debug](Std_MacroStartDebug/it.md)
+   Name: Std_MacroStopDebug
+   Name/it: Interrompi il debug
+   MenuLocation: Macro - Interrompi il debug 
+   Workbenches: Tutti
+   Shortcut: **Maiusc**+**F6**
+   SeeAlso: [Avvia il debug](Std_MacroStartDebug/it.md)
 ---
 
 # Std MacroStopDebug/it
@@ -25,4 +25,4 @@ In questo momento questo comando non funziona.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MacroStopDebug/it
+⏵ [documentation index](../README.md) > Std MacroStopDebug/it

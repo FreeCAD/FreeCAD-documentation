@@ -75,4 +75,4 @@ ou au choix
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Line Length/fr
+⏵ [documentation index](../README.md) > Macro Line Length/fr

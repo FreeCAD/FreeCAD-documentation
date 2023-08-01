@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FCGear InvoluteRack
-   Name/it:Cremagliera
-   MenuLocation:FCGear - Create an Involute rack
-   Workbenches:[FCGear](FCGear_Workbench/it.md)
-   Shortcut:None
-   Version:0.16
-   SeeAlso:[Ingranaggio a spirale](FCGear_InvoluteGear/it.md)
+   Name: FCGear InvoluteRack
+   Name/it: Cremagliera
+   MenuLocation: FCGear - Create an Involute rack
+   Workbenches: [FCGear](FCGear_Workbench/it.md)
+   Shortcut: None
+   Version: 0.16
+   SeeAlso: [Ingranaggio a spirale](FCGear_InvoluteGear/it.md)
 ---
 
 # FCGear InvoluteRack/it
@@ -140,4 +140,4 @@ Gui.SendMsgToActiveView("ViewFit")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear InvoluteRack/it
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear InvoluteRack/it

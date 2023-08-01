@@ -1,6 +1,6 @@
 # Mesh Import/hu
 ---
-- GuiCommand:   Name:Mesh ImportMesh   MenuLocation:Hálók - Háló importálása   Workbenches:[SeeAlso:[[Std_Import|Std Import](Mesh_Workbench___Háló]].md)---
+- GuiCommand:   Name: Mesh ImportMesh   MenuLocation: Hálók - Háló importálása   Workbenches: [SeeAlso: [[Std_Import|Std Import](Mesh_Workbench___Háló]].md)---
 
 
 </div>
@@ -73,4 +73,4 @@ Mesh.insert('D:/testfiles/cylinder.stl')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Import/hu
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Import/hu

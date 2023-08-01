@@ -1,6 +1,4 @@
 # Combo view/fr
-{{TOCright}}
-
 ## Introduction
 
 La [vue combinée](combo_view/fr.md) est l'un des panneaux principaux de l'[interface](interface/fr.md) FreeCAD. Il est situé sur le côté gauche de l\'écran par défaut. Il est composé de **deux parties** :
@@ -65,4 +63,4 @@ Activez ensuite la vue à l\'aide du menu, **Affichage → Panneaux → Vue arbo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Combo view/fr
+⏵ [documentation index](../README.md) > Combo view/fr

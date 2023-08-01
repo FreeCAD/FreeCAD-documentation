@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Shape2DView
-   Name/tr:2D görünüme çevir
-   MenuLocation:Draft - Shape 2D View
-   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   Name: Draft Shape2DView
+   Name/tr: 2D görünüme çevir
+   MenuLocation: Draft - Shape 2D View
+   Workbenches: [Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
 ---
 
 # Draft Shape2DView/tr
@@ -155,4 +155,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Shape2DView/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Shape2DView/tr

@@ -59,4 +59,4 @@ Best of luck to all applicants!
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Google Summer of Code 2019
+⏵ [documentation index](../README.md) > Google Summer of Code 2019

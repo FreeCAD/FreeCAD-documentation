@@ -14,14 +14,14 @@ It functionality has been integrated in [Std Base](Std_Base.md). See [Std Import
 <img alt="Логотип верстака Image" src=images/Workbench_Image.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 
 
 ## Введение
 
 
-{{TOCright}}
+
 
 [Верстак Image](Image_Workbench/ru.md) обрабатывает различные типы [растровых](bitmap/ru.md) изображений, и позволяет открыть их в FreeCAD.
 
@@ -80,4 +80,4 @@ It functionality has been integrated in [Std Base](Std_Base.md). See [Std Import
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Image](Category_Image.md) > Image Workbench/ru
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Image](Category_Image.md) > Image Workbench/ru

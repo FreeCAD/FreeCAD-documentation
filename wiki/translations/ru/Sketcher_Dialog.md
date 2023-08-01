@@ -8,7 +8,7 @@
 </div>
 
 
-{{TOCright}}
+
 
 
 
@@ -455,4 +455,4 @@ Available options:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Dialog/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Dialog/ru

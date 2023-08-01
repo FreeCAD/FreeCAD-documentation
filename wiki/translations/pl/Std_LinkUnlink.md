@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std LinkUnlink
-   Name/pl:Std: Usuń powiązanie
-   MenuLocation:brak
-   Workbenches:wszystkie
-   Version:0.19
-   SeeAlso:[Utwórz łącze](Std_LinkMake/pl.md), [Utwórz łącze względne](Std_LinkMakeRelative/pl.md), [Zastąp przez łącze](Std_LinkReplace/pl.md)
+   Name: Std LinkUnlink
+   Name/pl: Std: Usuń powiązanie
+   MenuLocation: brak
+   Workbenches: wszystkie
+   Version: 0.19
+   SeeAlso: [Utwórz łącze](Std_LinkMake/pl.md), [Utwórz łącze względne](Std_LinkMakeRelative/pl.md), [Zastąp przez łącze](Std_LinkReplace/pl.md)
 ---
 
 # Std LinkUnlink/pl
@@ -54,4 +54,4 @@ Oryginalna <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkUnlink/pl
+⏵ [documentation index](../README.md) > Std LinkUnlink/pl

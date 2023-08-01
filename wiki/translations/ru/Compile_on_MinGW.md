@@ -1,6 +1,4 @@
 # Compile on MinGW/ru
-{{TOCright}}
-
 В данном руководстве будут рассмотрены шаги, необходимые для сборки FreeCAD в Windows с использованием среды MSYS2/MinGW. Базовые знания команд оболочки Bash будут полезны для понимания того, что происходит на каждом этапе сборки. Тщательное следование руководству по пунктам, должно привести вас к созданию рабочей сборки, даже если вы не полностью понимаете, что вы сделали, чтобы получить ее.
 
 ### Прежде чем вы начнете 
@@ -107,4 +105,4 @@ FreeCAD включает в свою сборку много сторонних 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on MinGW/ru
+⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on MinGW/ru

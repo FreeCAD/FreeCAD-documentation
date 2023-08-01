@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part JoinEmbed
-   Name/de:Part Einbetten
-   MenuLocation:Formteil - Verbinden - Objekt einbinden
-   Workbenches:[Part](Part_Workbench/de.md)
-   Version:0.16
-   SeeAlso:[Part Verbinden](Part_JoinConnect/de.md), [Part Ausschneiden](Part_JoinCutout/de.md), [Part Boolesche Operationen](Part_Boolean/de.md), [Part Dicke](Part_Thickness/de.md)
+   Name: Part JoinEmbed
+   Name/de: Part Einbetten
+   MenuLocation: Formteil - Verbinden - Objekt einbinden
+   Workbenches: [Part](Part_Workbench/de.md)
+   Version: 0.16
+   SeeAlso: [Part Verbinden](Part_JoinConnect/de.md), [Part Ausschneiden](Part_JoinCutout/de.md), [Part Boolesche Operationen](Part_Boolean/de.md), [Part Dicke](Part_Thickness/de.md)
 ---
 
 # Part JoinEmbed/de
@@ -93,4 +93,4 @@ Das Werkzeug selbst ist in Python implementiert, siehe **/Mod/Part/JoinFeatures.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinEmbed/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinEmbed/de

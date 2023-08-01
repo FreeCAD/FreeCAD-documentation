@@ -1,6 +1,4 @@
 # Draft Preferences/pl
-{{TOCright}}
-
 Preferencje dla środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) można znaleźć w [Edytorze preferencji](Preferences_Editor/pl.md). W menu wybierz **Edycja → Preferencje**, a następnie **Rysunek Roboczy**.
 
 Dostępne jest tam pięć zakładek: [Ustawienia ogólne](#Ustawienie_og.C3.B3lne.md), [Ustawienia interfejsu użytkownika](#Ustawienia_interfejsu_u.C5.BCytkownika.md), [Siatka i przyciąganie](#Siatka_i_przyci.C4.85ganie.md), [Ustawienia wyglądu](#Ustawienia_wygl.C4.85du.md) oraz [Teksty i wymiary](#Teksty_i_wymiary.md).
@@ -492,4 +490,4 @@ W zakładce *Teksty i wymiary* można zdefiniować następujące parametry:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Draft](Draft_Workbench.md) > Draft Preferences/pl
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Draft](Draft_Workbench.md) > Draft Preferences/pl

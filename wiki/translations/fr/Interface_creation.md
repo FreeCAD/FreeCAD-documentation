@@ -1,6 +1,4 @@
 # Interface creation/fr
-{{TOCright}}
-
 ## Introduction
 
 Les utilisateurs avancés ont la possibilité de [créer des interfaces](Interface_creation/fr.md) pour les aider à produire des outils complexes pour leurs [extensions](Addon/fr.md) personnalisées, tels que des [macros](Macros/fr.md) ou des [ateliers](Workbenches/fr.md) complets.
@@ -39,4 +37,4 @@ Pour des exemples sur cette méthode, voir [Création d\'interface complètement
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Interface creation/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Interface creation/fr

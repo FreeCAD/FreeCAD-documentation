@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh FromPartShape‏‎
-   Name/fr:Mesh Créer un maillage
-‏‎   MenuLocation:Maillages - Créer un maillage à partir d'une forme...
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
+   Name: Mesh FromPartShape‏‎
+   Name/fr: Mesh Créer un maillage
+‏‎   MenuLocation: Maillages - Créer un maillage à partir d'une forme...
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
 ---
 
 # Mesh FromPartShape/fr
@@ -219,4 +219,4 @@ msh.ViewObject.DisplayMode = "Flat Lines"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FromPartShape/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FromPartShape/fr

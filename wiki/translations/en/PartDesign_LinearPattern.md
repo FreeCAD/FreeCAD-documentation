@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign LinearPattern
-   MenuLocation:Part Design - Apply a pattern - LinearPattern
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[PartDesign MultiTransform](PartDesign_MultiTransform.md)
+   Name: PartDesign LinearPattern
+   MenuLocation: Part Design - Apply a pattern - LinearPattern
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   SeeAlso: [PartDesign MultiTransform](PartDesign_MultiTransform.md)
 ---
 
 # PartDesign LinearPattern/en
@@ -111,4 +111,4 @@ See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/en
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/en

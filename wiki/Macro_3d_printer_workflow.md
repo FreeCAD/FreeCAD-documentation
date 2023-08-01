@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro 3d printer workflow
+⏵ [documentation index](../README.md) > Macro 3d printer workflow

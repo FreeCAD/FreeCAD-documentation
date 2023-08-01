@@ -1,6 +1,6 @@
 # PartDesign Scaled/it
 ---
-- GuiCommand:   Name:PartDesign Scaled   Name/it:Scala   Workbenches:[[PartDesign Workbench/it   PartDesign]], Completo|MenuLocation:PartDesign - Multitrasformazione---
+- GuiCommand:   Name: PartDesign Scaled   Name/it: Scala   Workbenches: [[PartDesign Workbench/it   PartDesign]], Completo|MenuLocation: PartDesign - Multitrasformazione---
 
 
 </div>
@@ -104,4 +104,4 @@ A partire da FreeCAD 0.15, questa funzione non è disponibile direttamente, ma �
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/it

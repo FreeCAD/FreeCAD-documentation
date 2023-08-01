@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std Paste
-   MenuLocation:Edit - Paste
-   Workbenches:All
-   Shortcut:**Ctrl**+**V**
-   SeeAlso:[Std Cut](Std_Cut.md), [Std Copy](Std_Copy.md), [Std DuplicateSelection](Std_DuplicateSelection.md)
+   Name: Std Paste
+   MenuLocation: Edit - Paste
+   Workbenches: All
+   Shortcut: **Ctrl**+**V**
+   SeeAlso: [Std Cut](Std_Cut.md), [Std Copy](Std_Copy.md), [Std DuplicateSelection](Std_DuplicateSelection.md)
 ---
 
 # Std Paste/en
@@ -43,4 +43,4 @@ The **Std Paste** command pastes objects from the Clipboard into the active docu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Paste/en
+⏵ [documentation index](../README.md) > Std Paste/en

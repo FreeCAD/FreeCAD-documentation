@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainSymmetric
-   Name/fr:Sketcher Contrainte symétrique
-   MenuLocation:Esquisse - Contraintes d'esquisse - Contrainte symétrique
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**S**
-   SeeAlso:[Sketcher Contrainte parallèle](Sketcher_ConstrainParallel/fr.md)
+   Name: Sketcher ConstrainSymmetric
+   Name/fr: Sketcher Contrainte symétrique
+   MenuLocation: Esquisse - Contraintes d'esquisse - Contrainte symétrique
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **S**
+   SeeAlso: [Sketcher Contrainte parallèle](Sketcher_ConstrainParallel/fr.md)
 ---
 
 # Sketcher ConstrainSymmetric/fr
@@ -72,4 +72,4 @@ La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui pe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/fr

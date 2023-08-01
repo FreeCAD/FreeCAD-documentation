@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw Dimension Radius
-   Name/es:TechDraw Dimensión Radio
-   MenuLocation:TechDraw - Dimensión Radio
-   Workbenches:[TechDraw](TechDraw_Workbench/es.md)
-   SeeAlso:[TechDraw Dimensión Diámetro](TechDraw_DiameterDimension/es.md)
+   Name: TechDraw Dimension Radius
+   Name/es: TechDraw Dimensión Radio
+   MenuLocation: TechDraw - Dimensión Radio
+   Workbenches: [TechDraw](TechDraw_Workbench/es.md)
+   SeeAlso: [TechDraw Dimensión Diámetro](TechDraw_DiameterDimension/es.md)
 ---
 
 # TechDraw RadiusDimension/es
@@ -95,4 +95,4 @@ rc = page.addView(dim1)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RadiusDimension/es
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RadiusDimension/es

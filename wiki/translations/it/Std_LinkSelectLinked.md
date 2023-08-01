@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std LinkSelectLinked
-   Name/it:Collega i link selzionati
-   MenuLocation:''None''
-   Workbenches:Tutti
-   Version:0.19
-   SeeAlso:[Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal/it.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks/it.md), [Std SelBack](Std_SelBack/it.md), [Std SelForward](Std_SelForward/it.md)
+   Name: Std LinkSelectLinked
+   Name/it: Collega i link selzionati
+   MenuLocation: ''None''
+   Workbenches: Tutti
+   Version: 0.19
+   SeeAlso: [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal/it.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks/it.md), [Std SelBack](Std_SelBack/it.md), [Std SelForward](Std_SelForward/it.md)
 ---
 
 # Std LinkSelectLinked/it
@@ -32,4 +32,4 @@ Il comando **Collega i link selezionati** seleziona il **Linked Object**, l\'ogg
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkSelectLinked/it
+⏵ [documentation index](../README.md) > Std LinkSelectLinked/it

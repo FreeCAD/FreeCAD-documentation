@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std DependencyGraph
-   Name/pl:Std: Graf zależności
-   MenuLocation:Przybory - Graf zależności ...
-   Workbenches:wszystkie
+   Name: Std DependencyGraph
+   Name/pl: Std: Graf zależności
+   MenuLocation: Przybory - Graf zależności ...
+   Workbenches: wszystkie
 ---
 
 # Std DependencyGraph/pl
@@ -181,4 +181,4 @@ Możesz zapisać wykres zależności:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/pl
+⏵ [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/pl

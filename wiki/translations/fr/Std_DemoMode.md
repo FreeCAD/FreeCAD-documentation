@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std DemoMode
-   Name/fr:Std Vue en rotation
-   MenuLocation:Outils - Vue en rotation...
-   Workbenches:Tous
+   Name: Std DemoMode
+   Name/fr: Std Vue en rotation
+   MenuLocation: Outils - Vue en rotation...
+   Workbenches: Tous
 ---
 
 # Std DemoMode/fr
@@ -44,4 +44,4 @@ La commande **Std Vue en rotation** fera tourner la caméra en continu dans une 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DemoMode/fr
+⏵ [documentation index](../README.md) > Std DemoMode/fr

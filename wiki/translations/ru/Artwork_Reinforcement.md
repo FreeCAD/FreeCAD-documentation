@@ -12,4 +12,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Reinforcement/ru
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Reinforcement/ru

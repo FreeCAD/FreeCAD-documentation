@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Arch CurtainWall
-   Name/de:Arch Vorhangfassade
-   MenuLocation:Arch - Vorhandene Fassade
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   Shortcut:**C** **W**
-   Version:0.19
-   SeeAlso:[Arch Wand](Arch_Wall/de.md), [Arch Gitter](Arch_Grid/de.md)
+   Name: Arch CurtainWall
+   Name/de: Arch Vorhangfassade
+   MenuLocation: Arch - Vorhandene Fassade
+   Workbenches: [Arch](Arch_Workbench/de.md)
+   Shortcut: **C** **W**
+   Version: 0.19
+   SeeAlso: [Arch Wand](Arch_Wall/de.md), [Arch Gitter](Arch_Grid/de.md)
 ---
 
 # Arch CurtainWall/de
@@ -203,4 +203,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CurtainWall/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CurtainWall/de

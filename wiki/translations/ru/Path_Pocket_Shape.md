@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Path Pocket
-   Name/ru:Path Pocket
-   MenuLocation:Path - Pocket Shape
-   Workbenches:[Path](Path_Workbench/ru.md)
-   Shortcut:**P** **O**
-   SeeAlso:
+   Name: Path Pocket
+   Name/ru: Path Pocket
+   MenuLocation: Path - Pocket Shape
+   Workbenches: [Path](Path_Workbench/ru.md)
+   Shortcut: **P** **O**
+   SeeAlso: 
 ---
 
 # Path Pocket Shape/ru
@@ -266,4 +266,4 @@ This section is simply a layout map of the settings in the window editor for the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Pocket Shape/ru
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Pocket Shape/ru

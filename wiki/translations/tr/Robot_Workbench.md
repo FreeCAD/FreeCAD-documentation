@@ -33,7 +33,7 @@ Başlamak için [Robot klavuzunu](Robot_tutorial/tr.md) deneyin ve [RobotExample
 </div>
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Robot_Workbench_example.jpg  style="width:500px;">
 
@@ -125,4 +125,4 @@ Robot yer değiştirmelerini modellemek için kullanılan işlevlerin açıklama
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Robot](Category_Robot.md) > Robot Workbench/tr
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Robot](Category_Robot.md) > Robot Workbench/tr

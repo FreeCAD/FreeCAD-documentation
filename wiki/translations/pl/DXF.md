@@ -1,8 +1,4 @@
 # DXF/pl
-{{TOCright}}
-
-
-
 ## Tło historyczne 
 
 Drawing Exchange Format *(DXF)* to zastrzeżony format danych CAD opracowany przez Autodesk w celu umożliwienia wymiany plików między ich flagowym produktem AutoCAD a innym oprogramowaniem. Istnieje wiele dobrych bibliotek oprogramowania do odczytu/zapisu formatu DXF.
@@ -54,4 +50,4 @@ Oprócz opcji w menu **Edycja → Preferencje ...**, środowisko pracy [Rysunek 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > [File_Formats](Category_File_Formats.md) > DXF/pl
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > [File_Formats](Category_File_Formats.md) > DXF/pl

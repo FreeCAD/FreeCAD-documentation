@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ro:Sketcher Creaţi un arc de hiperbolă 
-   Icon:Sketcher Hyperbolic Arc.png
-   Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation:Sketch - Geometria schitei - Creaţi un arc de hiperbolă
-   Version:0.17
-   SeeAlso:[Sketcher Arc de elipsă](Sketcher_CreateArcOfEllipse/ro.md), [Sketcher Arc de parabolă](Sketcher_CreateArcOfParabola/ro.md)
+   Name/ro: Sketcher Creaţi un arc de hiperbolă 
+   Icon: Sketcher Hyperbolic Arc.png
+   Workbenches: [Sketcher](Sketcher_Workbench/ro.md)
+   MenuLocation: Sketch - Geometria schitei - Creaţi un arc de hiperbolă
+   Version: 0.17
+   SeeAlso: [Sketcher Arc de elipsă](Sketcher_CreateArcOfEllipse/ro.md), [Sketcher Arc de parabolă](Sketcher_CreateArcOfParabola/ro.md)
 ---
 
 # Sketcher CreateArcOfHyperbola/ro
@@ -51,4 +51,4 @@ Acest instrument creează un arc de hiperbola definit prin centru, rază majoră
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfHyperbola/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfHyperbola/ro

@@ -8,7 +8,7 @@
 </div>
 
 
-{{TOCright}}
+
 
 
 
@@ -283,4 +283,4 @@ HLR sta per *hidden line removal* (rimozione della linea nascosta).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/it
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/it

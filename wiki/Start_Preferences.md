@@ -91,4 +91,4 @@ There is only one tab: *Start page options* in the **Start** section. On this ta
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Start](Start_Workbench.md) > Start Preferences
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Start](Start_Workbench.md) > Start Preferences

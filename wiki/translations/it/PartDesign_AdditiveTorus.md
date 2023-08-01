@@ -1,6 +1,6 @@
 # PartDesign AdditiveTorus/it
 ---
-- GuiCommand:   Name:PartDesign AdditiveTorus   Name/it:Toro additivo   Workbenches:[MenuLocation:Part Design - Crea una primitiva additiva - Toro   Version:0.17   SeeAlso:[[PartDesign CompPrimitiveAdditive/it|Primitive additive](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign AdditiveTorus   Name/it: Toro additivo   Workbenches: [MenuLocation: Part Design - Crea una primitiva additiva - Toro   Version: 0.17   SeeAlso: [[PartDesign CompPrimitiveAdditive/it|Primitive additive](PartDesign_Workbench/it___PartDesign]].md)---
 
 
 </div>
@@ -76,4 +76,4 @@ Dopo la sua creazione il toro può essere modificato in due modi:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveTorus/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveTorus/it

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign Fillet
-   MenuLocation:Part Design - Apply a dress-up feature - Fillet
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[PartDesign Chamfer](PartDesign_Chamfer.md)
+   Name: PartDesign Fillet
+   MenuLocation: Part Design - Apply a dress-up feature - Fillet
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   SeeAlso: [PartDesign Chamfer](PartDesign_Chamfer.md)
 ---
 
 # PartDesign Fillet/tr
@@ -132,4 +132,4 @@ Read more in [topological naming problem](Topological_naming_problem.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Fillet/tr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Fillet/tr

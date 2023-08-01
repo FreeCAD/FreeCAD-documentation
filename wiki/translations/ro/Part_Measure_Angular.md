@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Part Measure Angular
-   MenuLocation:[Measure](Std_Measure_Menu.md) - Measure Angular‏‎
-   Workbenches:[Part](Part_Workbench.md)
+   Name: Part Measure Angular
+   MenuLocation: [Measure](Std_Measure_Menu.md) - Measure Angular‏‎
+   Workbenches: [Part](Part_Workbench.md)
 ---
 
 # Part Measure Angular/ro
@@ -54,4 +54,4 @@ The appearance of the measurements can be changed in the [preferences](PartDesig
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Angular/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Angular/ro

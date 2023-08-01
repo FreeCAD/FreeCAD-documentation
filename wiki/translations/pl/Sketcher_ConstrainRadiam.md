@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainRadiam
-   Name/pl:Szkicownik: Zwiąż automatycznie promień / średnicę
-   MenuLocation:Szkic - Wiązania szkicownika - Zwiąż automatycznie promień / średnicę
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md),
-   Shortcut:**K** **S**
-   Version:0.20
-   SeeAlso:[Wiązanie odległości](Sketcher_ConstrainDistance/pl.md), [Zwiąż w poziomie](Sketcher_ConstrainDistanceX/pl.md), [Zwiąż w pionie](Sketcher_ConstrainDistanceY/pl.md)
+   Name: Sketcher ConstrainRadiam
+   Name/pl: Szkicownik: Zwiąż automatycznie promień / średnicę
+   MenuLocation: Szkic - Wiązania szkicownika - Zwiąż automatycznie promień / średnicę
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md),
+   Shortcut: **K** **S**
+   Version: 0.20
+   SeeAlso: [Wiązanie odległości](Sketcher_ConstrainDistance/pl.md), [Zwiąż w poziomie](Sketcher_ConstrainDistanceX/pl.md), [Zwiąż w pionie](Sketcher_ConstrainDistanceY/pl.md)
 ---
 
 # Sketcher ConstrainRadiam/pl
@@ -62,4 +62,4 @@ Nie ma zastosowania żaden konkretny skrypt. Zobacz stronę [skrypty szkicownika
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadiam/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadiam/pl

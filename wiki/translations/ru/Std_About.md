@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name/ru:О FreeCAD
-   Name:Std_About
-   Workbenches:Все
-   MenuLocation:Справка - О FreeCAD
+   Name/ru: О FreeCAD
+   Name: Std_About
+   Workbenches: Все
+   MenuLocation: Справка - О FreeCAD
 ---
 
 # Std About/ru
@@ -93,4 +93,4 @@ FreeCAD распространяется под лицензией [GNU Lesser G
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/ru
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Scaled
-   Name/pl:Projekt Części: Skaluj
-   MenuLocation:Brak ''(Opcja dostępna w menu Projekt Części - Zastosuj przekształcenie - Utwórz Transformację wielokrotną)''
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   SeeAlso:[Transformacja wielokrotna](PartDesign_MultiTransform/pl.md)
+   Name: PartDesign Scaled
+   Name/pl: Projekt Części: Skaluj
+   MenuLocation: Brak ''(Opcja dostępna w menu Projekt Części - Zastosuj przekształcenie - Utwórz Transformację wielokrotną)''
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   SeeAlso: [Transformacja wielokrotna](PartDesign_MultiTransform/pl.md)
 ---
 
 # PartDesign Scaled/pl
@@ -83,4 +83,4 @@ Jeśli w obrębie elementu nie było wcześniejszego przekształcenia <img alt="
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/pl

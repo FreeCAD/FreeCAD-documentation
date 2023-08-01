@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Создать периодический B-сплайн
-   Name:Sketcher_CreatePeriodicBSpline
-   MenuLocation: Sketch - Геометрия эскиза - Создать периодический B-сплайн
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Создать B-сплайн](Sketcher_CreateBSpline/ru.md)
+   Name/ru: Создать периодический B-сплайн
+   Name: Sketcher_CreatePeriodicBSpline
+   MenuLocation:  Sketch - Геометрия эскиза - Создать периодический B-сплайн
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Создать B-сплайн](Sketcher_CreateBSpline/ru.md)
 ---
 
 # Sketcher CreatePeriodicBSpline/ru
@@ -81,4 +81,4 @@ See [Sketcher CreateBSpline](Sketcher_CreateBSpline#Limitations.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePeriodicBSpline/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePeriodicBSpline/ru

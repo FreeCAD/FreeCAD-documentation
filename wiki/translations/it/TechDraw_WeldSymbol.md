@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw WeldSymbol
-   Name/it:Informazioni di saldatura
-   MenuLocation:TechDraw - Informazioni di saldatura
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Linea guida](TechDraw_LeaderLine/it.md)
-   Version:0.19
+   Name: TechDraw WeldSymbol
+   Name/it: Informazioni di saldatura
+   MenuLocation: TechDraw - Informazioni di saldatura
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso: [Linea guida](TechDraw_LeaderLine/it.md)
+   Version: 0.19
 ---
 
 # TechDraw WeldSymbol/it
@@ -179,4 +179,4 @@ App.activeDocument().DrawTileWeld001.CenterText = "center text"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw WeldSymbol/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw WeldSymbol/it

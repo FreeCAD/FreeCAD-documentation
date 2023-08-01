@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionSelectLineAttributes
-   MenuLocation:TechDraw - Extensions: Attributes/Modifications - Select Line Attributes, Cascade Spacing and Delta Distance
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ExtensionChangeLineAttributes](TechDraw_ExtensionChangeLineAttributes.md)
+   Name: TechDraw ExtensionSelectLineAttributes
+   MenuLocation: TechDraw - Extensions: Attributes/Modifications - Select Line Attributes, Cascade Spacing and Delta Distance
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ExtensionChangeLineAttributes](TechDraw_ExtensionChangeLineAttributes.md)
 ---
 
 # TechDraw ExtensionSelectLineAttributes
@@ -40,4 +40,4 @@ The **TechDraw ExtensionSelectLineAttributes** tool opens a dialog box where you
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionSelectLineAttributes
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionSelectLineAttributes

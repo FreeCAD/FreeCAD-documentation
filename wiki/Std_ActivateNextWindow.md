@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ActivateNextWindow
-   MenuLocation:Windows - Next
-   Workbenches:All
-   Shortcut:**Ctrl**+**Tab**
-   SeeAlso:[Std ActivatePrevWindow](Std_ActivatePrevWindow.md), [Std Windows](Std_Windows.md)
+   Name: Std ActivateNextWindow
+   MenuLocation: Windows - Next
+   Workbenches: All
+   Shortcut: **Ctrl**+**Tab**
+   SeeAlso: [Std ActivatePrevWindow](Std_ActivatePrevWindow.md), [Std Windows](Std_Windows.md)
 ---
 
 # Std ActivateNextWindow
@@ -32,4 +32,4 @@ The **Std ActivateNextWindow** command activates the next window in the [Main vi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ActivateNextWindow
+⏵ [documentation index](../README.md) > Std ActivateNextWindow

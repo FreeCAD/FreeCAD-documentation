@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ShareView
-   Name/pl:Rysunek Techniczny: Udostępnij widok
-   MenuLocation:Rysunek Techniczny - Widoki - Udostępnij widok
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Version:0.20
-   SeeAlso:[Przesuń widok](TechDraw_MoveView/pl.md)
+   Name: TechDraw ShareView
+   Name/pl: Rysunek Techniczny: Udostępnij widok
+   MenuLocation: Rysunek Techniczny - Widoki - Udostępnij widok
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Version: 0.20
+   SeeAlso: [Przesuń widok](TechDraw_MoveView/pl.md)
 ---
 
 # TechDraw ShareView/pl
@@ -59,4 +59,4 @@ TechDrawTools.MoveView(viewName, fromPageName, toPageName, True)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ShareView/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ShareView/pl

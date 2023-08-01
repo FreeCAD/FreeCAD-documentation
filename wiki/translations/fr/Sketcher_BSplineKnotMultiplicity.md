@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher BSplineKnotMultiplicity
-   Name/fr:Sketcher Multiplicité des nœuds d'une B-spline
-   MenuLocation:Esquisse - Outils d'esquisse des B-splines - Afficher/masquer la multiplicité de nœuds d'une B-spline
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[Sketcher B-splines](Sketcher_CompCreateBSpline/fr.md)
+   Name: Sketcher BSplineKnotMultiplicity
+   Name/fr: Sketcher Multiplicité des nœuds d'une B-spline
+   MenuLocation: Esquisse - Outils d'esquisse des B-splines - Afficher/masquer la multiplicité de nœuds d'une B-spline
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [Sketcher B-splines](Sketcher_CompCreateBSpline/fr.md)
 ---
 
 # Sketcher BSplineKnotMultiplicity/fr
@@ -34,4 +34,4 @@ Montre ou masque l\'affichage de la multiplicité des nœuds d\'une B-spline. Vo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineKnotMultiplicity/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineKnotMultiplicity/fr

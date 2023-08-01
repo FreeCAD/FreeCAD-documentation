@@ -52,4 +52,4 @@ Easy-Medium
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > GSoC FEM Solver Z88
+⏵ [documentation index](../README.md) > GSoC FEM Solver Z88

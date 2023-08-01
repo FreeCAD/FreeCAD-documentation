@@ -57,4 +57,4 @@ Vídeos que recorren el modelado de habitaciones, casas, edificios de oficinas y
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for architectural design/es
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for architectural design/es

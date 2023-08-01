@@ -667,4 +667,4 @@ ver 00.05 17/08/2017 : upgrade pour la version 0.17 FreeCAD version par Sam voir
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro cross section/fr
+⏵ [documentation index](../README.md) > Macro cross section/fr

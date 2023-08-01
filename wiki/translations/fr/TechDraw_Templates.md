@@ -1,8 +1,4 @@
 # TechDraw Templates/fr
-{{TOCright}}
-
-
-
 ## Description
 
 Chaque page TechDraw est basée sur un objet Modèle. **TechDraw Modèle** contrôle la taille du papier et contient des graphiques et du texte fixes, par exemple un cadre de page ou une bordure.
@@ -88,4 +84,4 @@ Voir aussi [Comment créer un modèle TechDraw personnalisé](TechDraw_TemplateH
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Templates/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Templates/fr

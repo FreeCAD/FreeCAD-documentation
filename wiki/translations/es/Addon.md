@@ -1,6 +1,4 @@
 # Addon/es
-{{TOCright}}
-
 ## Introducción
 
 En FreeCAD y en esta documentación, un [complemento](addon/es.md) es cualquier componente que no es parte de la instalación base, pero que puede ser añadido al sistema por ciertos métodos.
@@ -34,4 +32,4 @@ See also:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > Addon/es
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > Addon/es

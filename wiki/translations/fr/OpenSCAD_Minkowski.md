@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD Minkowski
-   Name/fr:OpenSCAD Somme de Minkowski
-   MenuLocation:OpenSCAD - Minkowski
-‏‎   Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
+   Name: OpenSCAD Minkowski
+   Name/fr: OpenSCAD Somme de Minkowski
+   MenuLocation: OpenSCAD - Minkowski
+‏‎   Workbenches: [OpenSCAD](OpenSCAD_Workbench/fr.md)
 ---
 
 # OpenSCAD Minkowski/fr
@@ -47,4 +47,4 @@ OpenSCAD doit être installé et configuré par **Edition** → **Préférences*
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Minkowski/fr
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Minkowski/fr

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPointsSymmetric
-   Name/de:Assembly3 SymmetrischePunkte
-   Icon:Assembly_ConstraintPointsSymmetric.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintPointsSymmetric
+   Name/de: Assembly3 SymmetrischePunkte
+   Icon: Assembly_ConstraintPointsSymmetric.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintPointsSymmetric/de
@@ -31,4 +31,4 @@ Oder
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointsSymmetric/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPointsSymmetric/de

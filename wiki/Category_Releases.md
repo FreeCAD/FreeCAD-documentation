@@ -13,4 +13,4 @@ Category that links all FreeCAD release pages.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Releases
+⏵ [documentation index](../README.md) > Category:Releases

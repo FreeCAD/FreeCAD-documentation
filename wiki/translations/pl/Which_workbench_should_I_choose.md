@@ -135,4 +135,4 @@ Najlepszym sposobem jest prawdopodobnie przejrzenie [Podręcznik FreeCAD](Manual
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Which workbench should I choose/pl
+⏵ [documentation index](../README.md) > Which workbench should I choose/pl

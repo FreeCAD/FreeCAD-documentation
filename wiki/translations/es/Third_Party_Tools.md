@@ -1,6 +1,4 @@
 # Third Party Tools/es
-{{TOCright}}
-
 ## Página Herramienta 
 
 Para todo desarrollo de software serio se necesitan herramientas. Aquí hay una lista de herramientas que usamos para desarrollar FreeCAD:
@@ -85,4 +83,4 @@ PENDIENTE
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Tools/es
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Tools/es

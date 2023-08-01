@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet SplitCell
-   MenuLocation:Spreadsheet - Split cells
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
-   Version:0.17
+   Name: Spreadsheet SplitCell
+   MenuLocation: Spreadsheet - Split cells
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench.md)
+   Version: 0.17
 ---
 
 # Spreadsheet SplitCell/pt-br
@@ -29,4 +29,4 @@ The **[<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> [Spreadshee
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SplitCell/pt-br
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SplitCell/pt-br

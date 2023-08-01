@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std AddonMgr
-   Name/pl:Std: Menadżer dodatków
-   MenuLocation:Przybory - Menadżer dodatków
-   Workbenches:Wszystkie
-   Version:0.17
-   SeeAlso:[Zewnętrzne środowiska pracy](External_workbenches/pl.md), [Makrodefinicje](Macros/pl.md)
+   Name: Std AddonMgr
+   Name/pl: Std: Menadżer dodatków
+   MenuLocation: Przybory - Menadżer dodatków
+   Workbenches: Wszystkie
+   Version: 0.17
+   SeeAlso: [Zewnętrzne środowiska pracy](External_workbenches/pl.md), [Makrodefinicje](Macros/pl.md)
 ---
 
 # Std AddonMgr/pl
@@ -149,4 +149,4 @@ Następnie zdefiniuj funkcje {{Incode|installation_succeeded}} i {{Incode|instal
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std AddonMgr/pl
+⏵ [documentation index](../README.md) > Std AddonMgr/pl

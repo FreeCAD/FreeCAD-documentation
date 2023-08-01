@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std SelectVisibleObjects
-   Name/ru:Std SelectVisibleObjects
-   Empty:1
-   MenuLocation:Вид - Видимость - Выбрать видимые объекты
-   Workbenches:All
+   Name: Std SelectVisibleObjects
+   Name/ru: Std SelectVisibleObjects
+   Empty: 1
+   MenuLocation: Вид - Видимость - Выбрать видимые объекты
+   Workbenches: All
 ---
 
 # Std SelectVisibleObjects/ru
@@ -31,4 +31,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SelectVisibleObjects/ru
+⏵ [documentation index](../README.md) > Std SelectVisibleObjects/ru

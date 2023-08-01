@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveTorus
-   Name/de:PartDesign TorusHinzufügen
-   MenuLocation:Part Design - Grundkörper hizufügen - Torus hinzufügen
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   Version:0.17
-   SeeAlso:[PartDesign AuswahlGrundkörperHinzufügen](PartDesign_CompPrimitiveAdditive/de.md), [PartDesign TorusAbziehen](PartDesign_SubtractiveTorus/de.md)
+   Name: PartDesign AdditiveTorus
+   Name/de: PartDesign TorusHinzufügen
+   MenuLocation: Part Design - Grundkörper hizufügen - Torus hinzufügen
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   Version: 0.17
+   SeeAlso: [PartDesign AuswahlGrundkörperHinzufügen](PartDesign_CompPrimitiveAdditive/de.md), [PartDesign TorusAbziehen](PartDesign_SubtractiveTorus/de.md)
 ---
 
 # PartDesign AdditiveTorus/de
@@ -69,4 +69,4 @@ Der Torus kann nach seiner Erstellung auf zwei Arten bearbeitet werden:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveTorus/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveTorus/de

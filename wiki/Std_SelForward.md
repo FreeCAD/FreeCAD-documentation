@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std SelForward
-   MenuLocation:
-   Workbenches:All
-   Version:0.19
-   SeeAlso:[Std LinkSelectLinked](Std_LinkSelectLinked.md), [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks.md), [Std SelBack](Std_SelBack.md)
+   Name: Std SelForward
+   MenuLocation: 
+   Workbenches: All
+   Version: 0.19
+   SeeAlso: [Std LinkSelectLinked](Std_LinkSelectLinked.md), [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks.md), [Std SelBack](Std_SelBack.md)
 ---
 
 # Std SelForward
@@ -31,4 +31,4 @@ The **Std SelForward** command restores the next recorded [Tree view](Tree_view.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SelForward
+⏵ [documentation index](../README.md) > Std SelForward

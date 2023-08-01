@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintColinear
-   Icon:Assembly_ConstraintColinear.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintColinear
+   Icon: Assembly_ConstraintColinear.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintColinear
@@ -38,4 +38,4 @@ This tool accepts a 3D elements as well e.g. edges or center lines.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintColinear
+⏵ [documentation index](../README.md) > Assembly3 ConstraintColinear

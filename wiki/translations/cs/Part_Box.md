@@ -1,6 +1,6 @@
 # Part Box/cs
 ---
-- GuiCommand:   Name:Part Box   MenuLocation:Part - Box   |Workbenches:[SeeAlso:[[Part_CreatePrimitives|Part CreatePrimitives](Part_Workbench___Part]],_Complete.md)---
+- GuiCommand:   Name: Part Box   MenuLocation: Part - Box   |Workbenches: [SeeAlso: [[Part_CreatePrimitives|Part CreatePrimitives](Part_Workbench___Part]],_Complete.md)---
 
 
 </div>
@@ -95,4 +95,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Box/cs
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Box/cs

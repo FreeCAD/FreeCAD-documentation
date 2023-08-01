@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Point
-   Name/it:Punto
-   MenuLocation:Drafting -  Punto
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Version:0.7
+   Name: Draft Point
+   Name/it: Punto
+   MenuLocation: Drafting -  Punto
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Version: 0.7
 ---
 
 # Draft Point/it
@@ -160,4 +160,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Point/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Point/it

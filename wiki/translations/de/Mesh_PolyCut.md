@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh PolyCut
-   Name/de:Mesh PolygonSchnitt
-   MenuLocation:Netze - Schneiden - Netz schneiden
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh PolygonTrim](Mesh_PolyTrim/de.md), [Mesh EbenenTrim](Mesh_TrimByPlane/de.md)
+   Name: Mesh PolyCut
+   Name/de: Mesh PolygonSchnitt
+   MenuLocation: Netze - Schneiden - Netz schneiden
+   Workbenches: [Mesh](Mesh_Workbench.md)
+   SeeAlso: [Mesh PolygonTrim](Mesh_PolyTrim/de.md), [Mesh EbenenTrim](Mesh_TrimByPlane/de.md)
 ---
 
 # Mesh PolyCut/de
@@ -57,4 +57,4 @@ Der Befehl **Mesh PolygonSchnitt** schneidet ganze Facetten (Dreiecke) von einem
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyCut/de
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyCut/de

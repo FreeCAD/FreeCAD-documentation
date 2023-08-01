@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Helix
-   MenuLocation:Part - [Create primitives](Part_Primitives.md) - Helix
-   Workbenches:[Part](Part_Workbench.md), [OpenSCAD](OpenSCAD_Workbench.md)
-   SeeAlso:[Part Primitives](Part_Primitives.md)
+   Name: Part Helix
+   MenuLocation: Part - [Create primitives](Part_Primitives.md) - Helix
+   Workbenches: [Part](Part_Workbench.md), [OpenSCAD](OpenSCAD_Workbench.md)
+   SeeAlso: [Part Primitives](Part_Primitives.md)
 ---
 
 # Part Helix
@@ -100,4 +100,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Helix
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Helix

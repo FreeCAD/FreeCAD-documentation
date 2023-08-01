@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher BSplineDegree
-   Name/de:Sketcher BSplineDegree
-   MenuLocation:Sketch - B-spline-Werkzeuge - B-Spline-Grad ein- / ausblenden
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[AuswahlBSplineErstellen](Sketcher_CompCreateBSpline/de.md)
+   Name: Sketcher BSplineDegree
+   Name/de: Sketcher BSplineDegree
+   MenuLocation: Sketch - B-spline-Werkzeuge - B-Spline-Grad ein- / ausblenden
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [AuswahlBSplineErstellen](Sketcher_CompCreateBSpline/de.md)
 ---
 
 # Sketcher BSplineDegree/de
@@ -37,4 +37,4 @@ Blendet die Darstellung des Grades einer B-Spline-Kurve ein oder aus (siehe Seit
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDegree/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDegree/de

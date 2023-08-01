@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Plot Grid
-   Name/pl:Wykres: Pokaż / ukryj siatkę
-   MenuLocation:Wykres - Pokaż / ukryj siatkę
-‏   Workbenches:[Wykres](Plot_Workbench/pl.md)
+   Name: Plot Grid
+   Name/pl: Wykres: Pokaż / ukryj siatkę
+   MenuLocation: Wykres - Pokaż / ukryj siatkę
+‏   Workbenches: [Wykres](Plot_Workbench/pl.md)
 ---
 
 # Plot Grid/pl
@@ -31,4 +31,4 @@ Narzędzie to działa na aktywnym zestawie osi. W przypadku wykresów wieloosiow
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Grid/pl
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Grid/pl

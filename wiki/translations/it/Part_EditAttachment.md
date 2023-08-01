@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Attachment
-   Name/it:Part Allegato
-   MenuLocation:Part - Allegato...
-   Workbenches:[Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md)
-   Version:0.17
-   SeeAlso:[Posizionamento](Placement/it.md), [Tutorial di base sugli allegati](Basic_Attachment_Tutorial/it.md), [Part Parte2DOggetto](Part_Part2DObject/it.md)
+   Name: Part Attachment
+   Name/it: Part Allegato
+   MenuLocation: Part - Allegato...
+   Workbenches: [Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md)
+   Version: 0.17
+   SeeAlso: [Posizionamento](Placement/it.md), [Tutorial di base sugli allegati](Basic_Attachment_Tutorial/it.md), [Part Parte2DOggetto](Part_Part2DObject/it.md)
 ---
 
 # Part EditAttachment/it
@@ -358,4 +358,4 @@ Allegato Spostamento viene utilizzato per applicare uno spostamento lineare o ro
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part EditAttachment/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part EditAttachment/it

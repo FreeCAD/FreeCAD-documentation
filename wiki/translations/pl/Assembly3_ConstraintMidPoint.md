@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintMidPoint
-   Icon:Assembly_ConstraintMidPoint.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintMidPoint
+   Icon: Assembly_ConstraintMidPoint.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintMidPoint/pl
@@ -32,4 +32,4 @@ Line elements are made with <img alt="" src=images/Workbench_Draft.svg  style="w
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintMidPoint/pl
+⏵ [documentation index](../README.md) > Assembly3 ConstraintMidPoint/pl

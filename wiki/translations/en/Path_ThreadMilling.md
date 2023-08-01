@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Path ThreadMilling
-   MenuLocation:Path - Specialty Operations - Thread Milling
-   Workbenches:[Path](Path_Workbench.md)
+   Name: Path ThreadMilling
+   MenuLocation: Path - Specialty Operations - Thread Milling
+   Workbenches: [Path](Path_Workbench.md)
 ---
 
 # Path ThreadMilling/en
@@ -28,4 +28,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ThreadMilling/en
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ThreadMilling/en

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ReorientSketch
-   Name/de:Sketcher SkizzeAnordnen
-   MenuLocation:Sketch - Skizze neu Anordnen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso:[Sketcher SkizzeZuordnen](Sketcher_MapSketch/de.md), [Sketcher NeueSkizze](Sketcher_NewSketch/de.md)
+   Name: Sketcher ReorientSketch
+   Name/de: Sketcher SkizzeAnordnen
+   MenuLocation: Sketch - Skizze neu Anordnen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso: [Sketcher SkizzeZuordnen](Sketcher_MapSketch/de.md), [Sketcher NeueSkizze](Sketcher_NewSketch/de.md)
 ---
 
 # Sketcher ReorientSketch/de
@@ -38,4 +38,4 @@ Ermöglicht es dir, eine Skizze von einer Fläche zu lösen und sie an einer der
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ReorientSketch/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ReorientSketch/de

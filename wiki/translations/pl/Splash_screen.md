@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Splash screen/pl
+⏵ [documentation index](../README.md) > Splash screen/pl

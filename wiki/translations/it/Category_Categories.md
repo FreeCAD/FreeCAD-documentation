@@ -29,4 +29,4 @@ Per visualizzare l\'elenco di
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Categories/it
+⏵ [documentation index](../README.md) > Category:Categories/it

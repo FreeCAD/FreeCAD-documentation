@@ -218,4 +218,4 @@ Here\'s an example. Imagine the parent object (the one you select before running
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro clone explicit
+⏵ [documentation index](../README.md) > Macro clone explicit

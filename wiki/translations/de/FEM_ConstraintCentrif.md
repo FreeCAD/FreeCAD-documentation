@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintCentrif
-   Name/de:FEM RandbedingungZentrif
-   MenuLocation:Modell - Mechanische Randbedingungen - RandbedingungZentrif
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:
+   Name: FEM ConstraintCentrif
+   Name/de: FEM RandbedingungZentrif
+   MenuLocation: Modell - Mechanische Randbedingungen - RandbedingungZentrif
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: 
 ---
 
 # FEM ConstraintCentrif/de
@@ -35,4 +35,4 @@ Legt eine zentrifugale Last auf den Körper fest.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FEM ConstraintCentrif/de
+⏵ [documentation index](../README.md) > FEM ConstraintCentrif/de

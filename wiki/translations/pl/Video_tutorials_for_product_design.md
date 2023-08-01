@@ -93,4 +93,4 @@ Chociaż niniejsza lista koncentruje się na treściach w języku niemieckim, wi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for product design/pl
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for product design/pl

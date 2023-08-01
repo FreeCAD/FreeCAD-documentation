@@ -253,4 +253,4 @@ A closer interaction between the workbenches is planed for future versions of Fr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > Tutorial for open windows
+⏵ [documentation index](../README.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > Tutorial for open windows

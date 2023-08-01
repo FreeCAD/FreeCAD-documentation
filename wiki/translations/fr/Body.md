@@ -29,4 +29,4 @@ Un corps n\'est pas requis lors de l\'utilisation de [l\'atelier Part](Part_Work
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [PartDesign](Category_PartDesign.md) > Body/fr
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [PartDesign](Category_PartDesign.md) > Body/fr

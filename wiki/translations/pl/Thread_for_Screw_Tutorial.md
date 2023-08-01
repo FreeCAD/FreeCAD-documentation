@@ -283,4 +283,4 @@ Ta metoda produkuje wysoce stabilne bryły, które prawidłowo działają z funk
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Thread for Screw Tutorial/pl
+⏵ [documentation index](../README.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Thread for Screw Tutorial/pl

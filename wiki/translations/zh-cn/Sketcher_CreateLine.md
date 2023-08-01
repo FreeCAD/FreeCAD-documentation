@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateLine
-   MenuLocation:Sketch - Sketcher geometries - Create line
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**G** **L**
-   SeeAlso:[Sketcher Polyline](Sketcher_CreatePolyline.md)
+   Name: Sketcher CreateLine
+   MenuLocation: Sketch - Sketcher geometries - Create line
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **G** **L**
+   SeeAlso: [Sketcher Polyline](Sketcher_CreatePolyline.md)
 ---
 
 # Sketcher CreateLine/zh-cn
@@ -61,4 +61,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/zh-cn
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/zh-cn

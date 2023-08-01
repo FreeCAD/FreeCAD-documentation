@@ -22,4 +22,4 @@ Cette page rassemble quelques sujets intéressants en ce qui concerne les struct
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Concrete/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Concrete/fr

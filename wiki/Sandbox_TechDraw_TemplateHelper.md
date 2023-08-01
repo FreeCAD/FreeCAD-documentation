@@ -5,7 +5,7 @@ Still not finished :-)
 
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -3156,4 +3156,4 @@ This is a sandbox / Dies ist eine Sandbox
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Sandbox:TechDraw TemplateHelper
+⏵ [documentation index](../README.md) > Sandbox:TechDraw TemplateHelper

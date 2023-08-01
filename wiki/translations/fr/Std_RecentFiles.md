@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std RecentFiles
-   Name/fr:Std Fichiers récents
-   Empty:1
-   MenuLocation:Fichier - Fichiers récents
-   Workbenches:Tous
-   SeeAlso:[Std Ouvrir](Std_Open/fr.md), [Std Importer](Std_Import/fr.md)
+   Name: Std RecentFiles
+   Name/fr: Std Fichiers récents
+   Empty: 1
+   MenuLocation: Fichier - Fichiers récents
+   Workbenches: Tous
+   SeeAlso: [Std Ouvrir](Std_Open/fr.md), [Std Importer](Std_Import/fr.md)
 ---
 
 # Std RecentFiles/fr
@@ -43,4 +43,4 @@ L\'option de menu **Std Fichiers récents** affiche une liste des fichiers réce
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std RecentFiles/fr
+⏵ [documentation index](../README.md) > Std RecentFiles/fr

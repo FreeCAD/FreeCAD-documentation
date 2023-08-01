@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Создать B-сплайн
-   Name:Sketcher_CreateBSpline
-   MenuLocation: Sketch - Геометрия эскиза - Create B-Spline
-   Workbenches: [Верстак "Sketcher"](Sketcher_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Создать периодический B-сплайн](Sketcher_CreatePeriodicBSpline/ru.md)
+   Name/ru: Создать B-сплайн
+   Name: Sketcher_CreateBSpline
+   MenuLocation:  Sketch - Геометрия эскиза - Create B-Spline
+   Workbenches:  [Верстак "Sketcher"](Sketcher_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Создать периодический B-сплайн](Sketcher_CreatePeriodicBSpline/ru.md)
 ---
 
 # Sketcher CreateBSpline/ru
@@ -91,4 +91,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateBSpline/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateBSpline/ru

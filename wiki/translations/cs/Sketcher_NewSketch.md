@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher NewSketch
-   Name/cs:Skicář Nový náčrt
-   Workbenches:[Skicář](Sketcher_Workbench/cs.md)
-   MenuLocation:Náčrt - Vytvoř náčrt
-   SeeAlso:[Sketcher MapSketch](Sketcher_MapSketch/cs.md), [Sketcher Reorient](Sketcher_ReorientSketch/cs.md)
+   Name: Sketcher NewSketch
+   Name/cs: Skicář Nový náčrt
+   Workbenches: [Skicář](Sketcher_Workbench/cs.md)
+   MenuLocation: Náčrt - Vytvoř náčrt
+   SeeAlso: [Sketcher MapSketch](Sketcher_MapSketch/cs.md), [Sketcher Reorient](Sketcher_ReorientSketch/cs.md)
 ---
 
 # Sketcher NewSketch/cs
@@ -53,4 +53,4 @@ The sketch can be moved in the [3D view](3D_view.md) using [Placement](Placement
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/cs
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/cs

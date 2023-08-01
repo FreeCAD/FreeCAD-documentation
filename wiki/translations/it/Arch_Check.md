@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Check
-   Name/it:Controlla
-   Workbenches:[Architettura](Arch_Workbench/it.md)
-   MenuLocation:Arch - Utilità - Controlla
-   SeeAlso:[ Chiudi fori](Arch_CloseHoles/it.md)
+   Name: Arch Check
+   Name/it: Controlla
+   Workbenches: [Architettura](Arch_Workbench/it.md)
+   MenuLocation: Arch - Utilità - Controlla
+   SeeAlso: [ Chiudi fori](Arch_CloseHoles/it.md)
 ---
 
 # Arch Check/it
@@ -102,4 +102,4 @@ print(list_bad)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check/it

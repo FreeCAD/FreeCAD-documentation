@@ -4,7 +4,7 @@
 <img alt="Icône de l\'atelier externe CurvedShapes" src=images/CurvedShapes_workbench_icon.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -42,4 +42,4 @@ L\'installation recommandée se fait par le <img alt="" src=images/Std_AddonMgr.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > CurvedShapes Workbench/fr
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > CurvedShapes Workbench/fr

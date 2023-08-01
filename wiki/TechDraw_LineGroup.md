@@ -75,4 +75,4 @@ Note: A new preference has been added to allow you to use your own personal Line
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LineGroup
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LineGroup

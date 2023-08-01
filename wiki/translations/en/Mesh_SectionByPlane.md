@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh SectionByPlane
-   MenuLocation:Meshes - Cutting - Create section from mesh and plane
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh CrossSections](Mesh_CrossSections.md)
+   Name: Mesh SectionByPlane
+   MenuLocation: Meshes - Cutting - Create section from mesh and plane
+   Workbenches: [Mesh](Mesh_Workbench.md)
+   SeeAlso: [Mesh CrossSections](Mesh_CrossSections.md)
 ---
 
 # Mesh SectionByPlane/en
@@ -64,4 +64,4 @@ Part.show(Part.makePolygon(loops[0]))
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SectionByPlane/en
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SectionByPlane/en

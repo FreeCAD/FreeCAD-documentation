@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name/ru:Лестница
-   Name:Arch_Stairs
-   MenuLocation:Arch - Лестница
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   Shortcut:**S** **R**
-   Version:0.14
-   SeeAlso:[Структура](Arch_Structure/ru.md), [Оборудование](Arch_Equipment/ru.md)
+   Name/ru: Лестница
+   Name: Arch_Stairs
+   MenuLocation: Arch - Лестница
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   Shortcut: **S** **R**
+   Version: 0.14
+   SeeAlso: [Структура](Arch_Structure/ru.md), [Оборудование](Arch_Equipment/ru.md)
 ---
 
 # Arch Stairs/ru
@@ -205,4 +205,4 @@ Stairs = Arch.makeStairs(length=5000, width=1200, height=3000, steps=14)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Stairs/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Stairs/ru

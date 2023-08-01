@@ -1,6 +1,6 @@
 # Path Comment/ro
 ---
-- GuiCommand:   Name:Path Comment   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path - Partial Commands - Comment   Shortcut:P,C   SeeAlso:---
+- GuiCommand:   Name: Path Comment   Workbenches: [[Path Workbench   Path]]|MenuLocation: Path - Partial Commands - Comment   Shortcut: P,C   SeeAlso: ---
 
 
 </div>
@@ -62,4 +62,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Comment/ro
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Comment/ro

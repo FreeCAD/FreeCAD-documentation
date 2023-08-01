@@ -1,6 +1,6 @@
 # Part Builder/es
 ---
-- GuiCommand:   Name:Part Shapebuilder   Name/es:Part Shapebuilder   MenuLocation:Part -> Shapebuilder...   |Workbenches:[SeeAlso:[[Part_CreatePrimitives/es|Part CreatePrimitives](Part_Workbench/es___Part]].md)---
+- GuiCommand:   Name: Part Shapebuilder   Name/es: Part Shapebuilder   MenuLocation: Part -> Shapebuilder...   |Workbenches: [SeeAlso: [[Part_CreatePrimitives/es|Part CreatePrimitives](Part_Workbench/es___Part]].md)---
 
 
 </div>
@@ -71,4 +71,4 @@ A possible workflow could be:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/es
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/es

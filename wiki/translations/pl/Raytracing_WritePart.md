@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Raytracing WritePart
-   Name/pl:Raytracing: Eksport części
-   MenuLocation:Raytracing - Narzędzia - Eksport części do POV-Ray
-   Workbenches:[Raytracing](Raytracing_Workbench/pl.md)
-   Shortcut:brak
-   SeeAlso:
+   Name: Raytracing WritePart
+   Name/pl: Raytracing: Eksport części
+   MenuLocation: Raytracing - Narzędzia - Eksport części do POV-Ray
+   Workbenches: [Raytracing](Raytracing_Workbench/pl.md)
+   Shortcut: brak
+   SeeAlso: 
 ---
 
 # Raytracing WritePart/pl
@@ -42,4 +42,4 @@ Eksport wybranego elementu do pliku o formacie POV-Ray, do użycia w projekcie P
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WritePart/pl
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WritePart/pl

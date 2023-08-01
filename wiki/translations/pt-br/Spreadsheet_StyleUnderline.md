@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet StyleUnderline
-   MenuLocation:Spreadsheet - Styles - Underline text
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
-   Version:0.17
+   Name: Spreadsheet StyleUnderline
+   MenuLocation: Spreadsheet - Styles - Underline text
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench.md)
+   Version: 0.17
 ---
 
 # Spreadsheet StyleUnderline/pt-br
@@ -29,4 +29,4 @@ The underline style.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleUnderline/pt-br
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleUnderline/pt-br

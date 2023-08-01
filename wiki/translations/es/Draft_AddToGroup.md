@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft_AddToGroup
-   Name/es:Draft_AddToGroup
-   MenuLocation:Boceto -> Opciones de visualización -> Añadir a grupo
-   Workbenches:[Boceto](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   SeeAlso:[Draft SelectGroup](Draft_SelectGroup.md), [Std Group](Std_Group.md)
+   Name: Draft_AddToGroup
+   Name/es: Draft_AddToGroup
+   MenuLocation: Boceto -> Opciones de visualización -> Añadir a grupo
+   Workbenches: [Boceto](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   SeeAlso: [Draft SelectGroup](Draft_SelectGroup.md), [Std Group](Std_Group.md)
 ---
 
 # Draft AddToGroup/es
@@ -58,4 +58,4 @@ In FreeCAD version 0.20 the command can also handle group-like [Arch](Arch_Workb
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddToGroup/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddToGroup/es

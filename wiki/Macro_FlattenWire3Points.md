@@ -58,4 +58,4 @@ ToolBar icon ![](images/Macro_FlattenWire3Points.png )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro FlattenWire3Points
+⏵ [documentation index](../README.md) > Macro FlattenWire3Points

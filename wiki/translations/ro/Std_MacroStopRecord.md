@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std MacroStopRecord
-   MenuLocation:[Macro](Macros/ro.md) - Macro Stop
-   Workbenches:All
-   SeeAlso:...
+   Name: Std MacroStopRecord
+   MenuLocation: [Macro](Macros/ro.md) - Macro Stop
+   Workbenches: All
+   SeeAlso: ...
 ---
 
 # Std MacroStopRecord/ro
@@ -58,4 +58,4 @@ Când porniți o **[<img src=images/Std_DlgMacroRecord.png style="width:16px"> [
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MacroStopRecord/ro
+⏵ [documentation index](../README.md) > Std MacroStopRecord/ro

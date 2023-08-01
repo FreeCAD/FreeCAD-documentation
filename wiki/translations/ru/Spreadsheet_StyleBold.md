@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Полужирный текст
-   Name:Spreadsheet_StyleBold
-   MenuLocation:Электронная таблица - Styles - Полужирный текст
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/ru.md)
-   Version:0.17
+   Name/ru: Полужирный текст
+   Name: Spreadsheet_StyleBold
+   MenuLocation: Электронная таблица - Styles - Полужирный текст
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/ru.md)
+   Version: 0.17
 ---
 
 # Spreadsheet StyleBold/ru
@@ -30,4 +30,4 @@ The **[<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> [Spreadshee
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleBold/ru
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleBold/ru

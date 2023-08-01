@@ -1,6 +1,6 @@
 # Part Helix/ro
 ---
-- GuiCommand:   Name:Part Helix   Name/ro:Part Elice   MenuLocation:Part - [Workbenches:[[Part Workbench/ro|Part](Part_CreatePrimitives/ro___Create_Primitives]]_-_Helix.md),  [OpenSCAD](OpenSCAD_Workbench/ro.md)---
+- GuiCommand:   Name: Part Helix   Name/ro: Part Elice   MenuLocation: Part - [Workbenches: [[Part Workbench/ro|Part](Part_CreatePrimitives/ro___Create_Primitives]]_-_Helix.md),  [OpenSCAD](OpenSCAD_Workbench/ro.md)---
 
 
 </div>
@@ -120,4 +120,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Helix/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Helix/ro

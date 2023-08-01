@@ -377,4 +377,4 @@ This is a raw list of sites and blogs that have at some point mentioned FreeCAD.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Release process
+⏵ [documentation index](../README.md) > Release process

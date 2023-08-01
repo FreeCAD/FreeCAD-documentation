@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectElementsWithDoFs
-   Name/es:Croquizador SeleccionarElementosConGdL 
-   MenuLocation:Croquis - Croquizador Herramientas - Seleccionar GdL del solucionador
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   Version:0.18
+   Name: Sketcher SelectElementsWithDoFs
+   Name/es: Croquizador SeleccionarElementosConGdL 
+   MenuLocation: Croquis - Croquizador Herramientas - Seleccionar GdL del solucionador
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   Version: 0.18
 ---
 
 # Sketcher SelectElementsWithDoFs/es
@@ -54,4 +54,4 @@ donde \"X\" es el número de grados de libertad que quedan en el croquis; recibi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsWithDoFs/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsWithDoFs/es

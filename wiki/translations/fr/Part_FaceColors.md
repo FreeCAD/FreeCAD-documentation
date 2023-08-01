@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part FaceColors
-   Name/fr:Part Définir les couleurs
-   MenuLocation:Menu contextuel - Définir les couleurs...
-   Workbenches:[Part](Part_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso:[Std Apparence](Std_SetAppearance/fr.md)
+   Name: Part FaceColors
+   Name/fr: Part Définir les couleurs
+   MenuLocation: Menu contextuel - Définir les couleurs...
+   Workbenches: [Part](Part_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso: [Std Apparence](Std_SetAppearance/fr.md)
 ---
 
 # Part FaceColors/fr
@@ -36,4 +36,4 @@ Pour réinitialiser toutes les couleurs de la face :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Command_Reference](Category_Command_Reference.md) > [Part](Part_Workbench.md) > Part FaceColors/fr
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Command_Reference](Category_Command_Reference.md) > [Part](Part_Workbench.md) > Part FaceColors/fr

@@ -1,8 +1,4 @@
 # Task panel/de
-{{TOCright}}
-
-
-
 ## Einführung
 
 Der [Aufgabenbereich](Task_panel/de.md) erscheint im Reiter **Aufgaben** der [Combo-Ansicht](Combo_view/de.md) und ist einer der wichtigen Bereiche der [Oberfläche](interface/de.md). Er ist ein anpassbarer Bereich, der jede Art von grafischen Fensterbestandteilen (Widgets), wie z.B. ausklappbare Unterfenster, Tabellen, Eingabefelder, Kontrollkästchen, Drehfelder, Auswahlfelder, Textfelder, Schaltflächen, Beschriftungen, Bilder und andere Elemente enthalten kann, abhängig vom gerade aktiven [Arbeitsbereich](Workbenches/de.md) und dem gerade aktiven Werkzeug.
@@ -51,4 +47,4 @@ Es gibt viele Befehle, die die Auswahl von vorhandenen Formen oder Objekten aus 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Task panel/de
+⏵ [documentation index](../README.md) > Task panel/de

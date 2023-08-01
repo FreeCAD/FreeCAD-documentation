@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CloseShape
-   Name/es:Sketcher CloseShape
-   MenuLocation:Sketch - Sketcher tools - Close Shape
-   Workbenches:[Sketcher](Sketcher_Workbench/es.md)
-   Shortcut:Shift+Ctrl+S
-   Version:0.15
+   Name: Sketcher CloseShape
+   Name/es: Sketcher CloseShape
+   MenuLocation: Sketch - Sketcher tools - Close Shape
+   Workbenches: [Sketcher](Sketcher_Workbench/es.md)
+   Shortcut: Shift+Ctrl+S
+   Version: 0.15
 ---
 
 # Sketcher CloseShape/es
@@ -40,4 +40,4 @@ The tool will connect the elements in the order of their selection, so make sure
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/es

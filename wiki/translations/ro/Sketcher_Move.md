@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name/ro:Sketcher Move
-   Icon:Sketcher_Move.svg
-   Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation:Sketch - Sketcher tools - Move
-   Shortcut:Ctrl + M
-   Version:0.18
-   SeeAlso:[Clonă](Sketcher_Clone/ro.md), [Copiere](Sketcher_Copy/ro.md)
+   Name/ro: Sketcher Move
+   Icon: Sketcher_Move.svg
+   Workbenches: [Sketcher](Sketcher_Workbench/ro.md)
+   MenuLocation: Sketch - Sketcher tools - Move
+   Shortcut: Ctrl + M
+   Version: 0.18
+   SeeAlso: [Clonă](Sketcher_Clone/ro.md), [Copiere](Sketcher_Copy/ro.md)
 ---
 
 # Sketcher Move/ro
@@ -45,4 +45,4 @@ Moves the selected sketch elements from one point to another, using the last sel
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/ro

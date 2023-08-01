@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainPerpendicular
-   Name/es:Croquizador RestringirPerpendicular
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation:Croquizador - Restricciones del Croquizador - Perpendicular
-   Shortcut:**N**
-   SeeAlso:[Croquizador Restringir Ángulo](Sketcher_ConstrainAngle/es.md)
+   Name: Sketcher ConstrainPerpendicular
+   Name/es: Croquizador RestringirPerpendicular
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   MenuLocation: Croquizador - Restricciones del Croquizador - Perpendicular
+   Shortcut: **N**
+   SeeAlso: [Croquizador Restringir Ángulo](Sketcher_ConstrainAngle/es.md)
 ---
 
 # Sketcher ConstrainPerpendicular/es
@@ -122,4 +122,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPerpendicular/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPerpendicular/es

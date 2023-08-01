@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateArcOfParabola
-   Name/pl:Szkicownik: Utwórz łuk na podstawie paraboli
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz łuk na podstawie paraboli
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **J**
-   Version:0.17
-   SeeAlso:[Utwórz łuk na podstawie elipsy](Sketcher_CreateArcOfEllipse/pl.md),  [Utwórz łuk na podstawie hiperboli](Sketcher_CreateArcOfHyperbola/pl.md)
+   Name: Sketcher CreateArcOfParabola
+   Name/pl: Szkicownik: Utwórz łuk na podstawie paraboli
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Utwórz łuk na podstawie paraboli
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **G** **J**
+   Version: 0.17
+   SeeAlso: [Utwórz łuk na podstawie elipsy](Sketcher_CreateArcOfEllipse/pl.md),  [Utwórz łuk na podstawie hiperboli](Sketcher_CreateArcOfHyperbola/pl.md)
 ---
 
 # Sketcher CreateArcOfParabola/pl
@@ -40,4 +40,4 @@ To narzędzie tworzy łuk paraboli poprzez punkt ogniskowej, punkt wierzchołka 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfParabola/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfParabola/pl

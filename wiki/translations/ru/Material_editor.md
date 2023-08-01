@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Material](Material_Workbench.md) > Material editor/ru
+⏵ [documentation index](../README.md) > [Material](Material_Workbench.md) > Material editor/ru

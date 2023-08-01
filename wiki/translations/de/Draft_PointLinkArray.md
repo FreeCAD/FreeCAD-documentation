@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft PointLinkArray
-   Name/de:Entwurf PunktVerknüpfeAnordnung
-   MenuLocation:Änderung - Anordnungswerkzeuge - Punkt Verknüpfe Anordnung
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso:[OrthoAnordnung](Draft_OrthoArray/de.md), [PolarAnordnung](Draft_PolarArray/de.md), [KreisAnordnung](Draft_CircularArray/de.md), [PfadAnordnung](Draft_PathArray/de.md), [PunktAnordnung](Draft_PointArray/de.md)
-   Version:0.19
+   Name: Draft PointLinkArray
+   Name/de: Entwurf PunktVerknüpfeAnordnung
+   MenuLocation: Änderung - Anordnungswerkzeuge - Punkt Verknüpfe Anordnung
+   Workbenches: [Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso: [OrthoAnordnung](Draft_OrthoArray/de.md), [PolarAnordnung](Draft_PolarArray/de.md), [KreisAnordnung](Draft_CircularArray/de.md), [PfadAnordnung](Draft_PathArray/de.md), [PunktAnordnung](Draft_PointArray/de.md)
+   Version: 0.19
 ---
 
 # Draft PointLinkArray/de
@@ -26,4 +26,4 @@ Das **[<img src=images/Draft_PointLinkArray.svg style="width:16px"> [Entwurf Pun
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PointLinkArray/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PointLinkArray/de

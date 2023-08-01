@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Выбрать всё
-   Name:Std_SelectAll
-   MenuLocation:Правка - Выбрать всё
-   Workbenches:Все
-   SeeAlso:[Выделить область](Std_BoxSelection/ru.md), [Область выбора элементов](Std_BoxElementSelection/ru.md)
+   Name/ru: Выбрать всё
+   Name: Std_SelectAll
+   MenuLocation: Правка - Выбрать всё
+   Workbenches: Все
+   SeeAlso: [Выделить область](Std_BoxSelection/ru.md), [Область выбора элементов](Std_BoxElementSelection/ru.md)
 ---
 
 # Std SelectAll/ru
@@ -32,4 +32,4 @@ The **Std SelectAll** command selects all objects in the [Tree view](Tree_view.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SelectAll/ru
+⏵ [documentation index](../README.md) > Std SelectAll/ru

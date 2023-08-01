@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Paste
-   Name/pl:Std: Wklej
-   MenuLocation:Edycja - Wklej
-   Workbenches:wszystkie
-   Shortcut:**Ctrl** + **V**
-   SeeAlso:[Wytnij](Std_Cut/pl.md), [Kopiuj](Std_Copy/pl.md), [Powiel zaznaczone](Std_DuplicateSelection/pl.md)
+   Name: Std Paste
+   Name/pl: Std: Wklej
+   MenuLocation: Edycja - Wklej
+   Workbenches: wszystkie
+   Shortcut: **Ctrl** + **V**
+   SeeAlso: [Wytnij](Std_Cut/pl.md), [Kopiuj](Std_Copy/pl.md), [Powiel zaznaczone](Std_DuplicateSelection/pl.md)
 ---
 
 # Std Paste/pl
@@ -52,4 +52,4 @@ Polecenie **Wklej** powoduje wklejenie obiektów ze Schowka do aktywnego dokumen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Paste/pl
+⏵ [documentation index](../README.md) > Std Paste/pl

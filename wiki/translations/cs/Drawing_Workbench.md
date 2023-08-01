@@ -9,7 +9,7 @@ The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement
 Modul Výkres umožňuje dostat Vaši 3D práci na papír. To znamená dát pohledy na Vaše modely do 2D okna a vložit toto okno do výkresu, např. list s okraji, hlavička a logo a nakonec tento list vytisknout.
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Drawing_extraction.png  style="width:600px;">
 
@@ -107,4 +107,4 @@ Některé poznámky k programovací stránce vykreslovacího modulu budou přid�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/cs
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/cs

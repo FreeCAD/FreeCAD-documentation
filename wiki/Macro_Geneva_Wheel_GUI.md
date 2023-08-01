@@ -242,4 +242,4 @@ This Macro is based on [Macro Geneva Wheel](Macro_Geneva_Wheel.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Geneva Wheel GUI
+⏵ [documentation index](../README.md) > Macro Geneva Wheel GUI

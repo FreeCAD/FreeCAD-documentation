@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw Balloon
-   Name/pl:Rysunek Techniczny: Wstaw adnotację w formie dymka
-   MenuLocation:Rysunek Techniczny - Adnotacje - Wstaw adnotację w formie dymka
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Version:0.19
-   SeeAlso:[Wstaw adnotację](TechDraw_Annotation/pl.md)
+   Name: TechDraw Balloon
+   Name/pl: Rysunek Techniczny: Wstaw adnotację w formie dymka
+   MenuLocation: Rysunek Techniczny - Adnotacje - Wstaw adnotację w formie dymka
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Version: 0.19
+   SeeAlso: [Wstaw adnotację](TechDraw_Annotation/pl.md)
 ---
 
 # TechDraw Balloon/pl
@@ -125,4 +125,4 @@ rc = page.addView(bal1)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Balloon/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Balloon/pl

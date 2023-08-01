@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std Print
-   MenuLocation:File - Print...
-   Workbenches:All
-   Shortcut:**Ctrl**+**P**
-   SeeAlso:[Std PrintPreview](Std_PrintPreview.md), [Std PrintPdf](Std_PrintPdf.md), [Std Export](Std_Export.md), [Std ViewScreenShot](Std_ViewScreenShot.md)
+   Name: Std Print
+   MenuLocation: File - Print...
+   Workbenches: All
+   Shortcut: **Ctrl**+**P**
+   SeeAlso: [Std PrintPreview](Std_PrintPreview.md), [Std PrintPdf](Std_PrintPdf.md), [Std Export](Std_Export.md), [Std ViewScreenShot](Std_ViewScreenShot.md)
 ---
 
 # Std Print/en
@@ -40,4 +40,4 @@ The **Std Print** command is primarily intended to print [TechDraw Workbench](Te
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Print/en
+⏵ [documentation index](../README.md) > Std Print/en

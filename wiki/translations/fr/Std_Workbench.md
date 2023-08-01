@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std Workbench
-   Name/fr:Std Atelier
-   Empty:1
-   MenuLocation:Affichage - Atelier
-   Workbenches:[Ateliers](Workbenches/fr.md)
+   Name: Std Workbench
+   Name/fr: Std Atelier
+   Empty: 1
+   MenuLocation: Affichage - Atelier
+   Workbenches: [Ateliers](Workbenches/fr.md)
 ---
 
 # Std Workbench/fr
@@ -65,4 +65,4 @@ FreeCADGui.activateWorkbench("PartDesignWorkbench")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Workbench/fr
+⏵ [documentation index](../README.md) > Std Workbench/fr

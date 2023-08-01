@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveEllipsoid
-   Name/es:DiseñoPiezas  ElipsoideAditivo
-   MenuLocation:DiseñoPiezas - Crear una primitiva aditiva - Elipsoide Aditivo
-   Workbenches:[DiseñoPiezas](PartDesign_Workbench/es.md)
-   Version:0.17
-   SeeAlso:[DiseñoPiezas CompPrimitivaAditiva](PartDesign_CompPrimitiveAdditive/es.md)
+   Name: PartDesign AdditiveEllipsoid
+   Name/es: DiseñoPiezas  ElipsoideAditivo
+   MenuLocation: DiseñoPiezas - Crear una primitiva aditiva - Elipsoide Aditivo
+   Workbenches: [DiseñoPiezas](PartDesign_Workbench/es.md)
+   Version: 0.17
+   SeeAlso: [DiseñoPiezas CompPrimitivaAditiva](PartDesign_CompPrimitiveAdditive/es.md)
 ---
 
 # PartDesign AdditiveEllipsoid/es
@@ -80,4 +80,4 @@ Tras su creación, el Elipsoide puede ser editado de dos maneras:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveEllipsoid/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveEllipsoid/es

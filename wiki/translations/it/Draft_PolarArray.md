@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft PolarArray
-   Name/it:Serie polare
-   MenuLocation:Modifiche - Strumenti serie - Serie polare
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Version:0.19
-   SeeAlso:[Serie ortogonale](Draft_OrthoArray/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie su tracciato](Draft_PathArray/it.md), [Serie di link su tracciato](Draft_PathLinkArray/it.md), [Serie su punti](Draft_PointArray/it.md), [Serie di link su punti](Draft_PointLinkArray/it.md)
+   Name: Draft PolarArray
+   Name/it: Serie polare
+   MenuLocation: Modifiche - Strumenti serie - Serie polare
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Version: 0.19
+   SeeAlso: [Serie ortogonale](Draft_OrthoArray/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie su tracciato](Draft_PathArray/it.md), [Serie di link su tracciato](Draft_PathLinkArray/it.md), [Serie su punti](Draft_PointArray/it.md), [Serie di link su punti](Draft_PointLinkArray/it.md)
 ---
 
 # Draft PolarArray/it
@@ -159,4 +159,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PolarArray/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PolarArray/it

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Внешняя геометрия
-   Name:Sketcher_External
-   MenuLocation:Sketch - Геометрия эскиза - Внешняя геометрия
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:X
-   SeeAlso:[Переключить построительную геометрию](Sketcher_ToggleConstruction/ru.md)
+   Name/ru: Внешняя геометрия
+   Name: Sketcher_External
+   MenuLocation: Sketch - Геометрия эскиза - Внешняя геометрия
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: X
+   SeeAlso: [Переключить построительную геометрию](Sketcher_ToggleConstruction/ru.md)
 ---
 
 # Sketcher External/ru
@@ -133,4 +133,4 @@ A note of caution, using this tool to link to generated (solid) geometry can lea
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/ru

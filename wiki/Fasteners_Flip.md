@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Fasteners Flip
-   MenuLocation:Fasteners - Invert fastener
-   Workbenches:[Fasteners](Fasteners_Workbench.md)
+   Name: Fasteners Flip
+   MenuLocation: Fasteners - Invert fastener
+   Workbenches: [Fasteners](Fasteners_Workbench.md)
 ---
 
 # Fasteners Flip
@@ -31,4 +31,4 @@ The <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> **Fasteners 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners Flip
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners Flip

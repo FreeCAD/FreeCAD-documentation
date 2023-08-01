@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part JoinConnect
-   Name/it:Congiunzione
-   MenuLocation:Part - Congiungi - Congiungi oggetti
-   Workbenches:[Part](Part_Workbench/it.md)
-   SeeAlso:[Incastra](Part_JoinEmbed/it.md), [Asporta](Part_JoinCutout/it.md), [Operazioni booleane](Part_Boolean/it.md), [Spessore](Part_Thickness/it.md)
+   Name: Part JoinConnect
+   Name/it: Congiunzione
+   MenuLocation: Part - Congiungi - Congiungi oggetti
+   Workbenches: [Part](Part_Workbench/it.md)
+   SeeAlso: [Incastra](Part_JoinEmbed/it.md), [Asporta](Part_JoinCutout/it.md), [Operazioni booleane](Part_Boolean/it.md), [Spessore](Part_Thickness/it.md)
 ---
 
 # Part JoinConnect/it
@@ -150,4 +150,4 @@ Lo strumento è implementato in Python, vedere **/Mod/Part/BOPTools/JoinFeatures
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/it

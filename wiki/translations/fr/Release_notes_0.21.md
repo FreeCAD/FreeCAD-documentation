@@ -12,7 +12,7 @@ Voir [Contribuer à FreeCAD](Help_FreeCAD/fr.md) pour savoir comment contribuer 
 {{Message|Toutes les images de cette page doivent utiliser le suffixe **_relnotes_0.21**}}
 
 
-{{TOCright}}
+
 
 **FreeCAD 0.21** a été publié le **JJ MM 2023**, téléchargez la depuis la page [Téléchargement](Download/fr.md). Cette page liste toutes les nouvelles fonctionnalités et les changements.
 
@@ -484,4 +484,4 @@ Si l\'[atelier Start](Start_Workbench/fr.md) n\'affiche qu\'une page blanche, vo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.21/fr
+⏵ [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.21/fr

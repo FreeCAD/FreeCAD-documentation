@@ -28,4 +28,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Concrete/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Concrete/ru

@@ -5,7 +5,7 @@ Jego funkcjonalność została zintegrowana w [Narzędziach podstawowych](Std_Ba
 <img alt="Ikonka FreeCAD dla Środowiska pracy Obraz" src=images/Workbench_Image.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 
 
@@ -50,4 +50,4 @@ Odsunięcie obrazu może być ustawione podczas importu lub zmienione później 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Image](Category_Image.md) > Image Workbench/pl
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Image](Category_Image.md) > Image Workbench/pl

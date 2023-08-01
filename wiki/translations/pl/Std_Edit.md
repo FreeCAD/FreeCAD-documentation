@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std Edit
-   Name/pl:Edycja
-   MenuLocation:Edycja - Przełącz tryb edycji
-   Workbenches:Wszystkie
-   SeeAlso:[Tryb edycji dla uzytkownika](Std_UserEditMode/pl.md)
+   Name: Std Edit
+   Name/pl: Edycja
+   MenuLocation: Edycja - Przełącz tryb edycji
+   Workbenches: Wszystkie
+   SeeAlso: [Tryb edycji dla uzytkownika](Std_UserEditMode/pl.md)
 ---
 
 # Std Edit/pl
@@ -71,4 +71,4 @@ FreeCADGui.ActiveDocument.resetEdit()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Edit/pl
+⏵ [documentation index](../README.md) > Std Edit/pl

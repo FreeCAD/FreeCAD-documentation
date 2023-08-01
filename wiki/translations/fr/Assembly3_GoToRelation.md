@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Assembly3 GoToRelation
-   Name/fr:Assembly3 GoToRelation
-   Icon:Assembly_GotoRelation.svg
-   MenuLocation:Assembly3 - Go to relation
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
-   Shortcut:**A** **R**
+   Name: Assembly3 GoToRelation
+   Name/fr: Assembly3 GoToRelation
+   Icon: Assembly_GotoRelation.svg
+   MenuLocation: Assembly3 - Go to relation
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Shortcut: **A** **R**
 ---
 
 # Assembly3 GoToRelation/fr
@@ -30,4 +30,4 @@ Le résultat (objets en surbrillance) dépend de l\'objet sélectionné.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 GoToRelation/fr
+⏵ [documentation index](../README.md) > Assembly3 GoToRelation/fr

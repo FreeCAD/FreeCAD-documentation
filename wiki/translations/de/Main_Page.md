@@ -78,4 +78,4 @@ Prüfe den [Entwicklungsfahrplan](Development_roadmap/de.md) für Neuigkeiten ü
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/de
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/de

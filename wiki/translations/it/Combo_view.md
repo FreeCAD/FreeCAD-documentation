@@ -1,6 +1,4 @@
 # Combo view/it
-{{TOCright}}
-
 ## Introduzione
 
 La [vista combinata](combo_view/it.md) è uno dei pannelli principali nell\'interfaccia di FreeCAD. Di default si trova sul lato sinistro dello schermo. È composta da due parti:
@@ -61,4 +59,4 @@ Quindi attivare la vista utilizzando il menu **Visualizza → Pannelli → Strut
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Combo view/it
+⏵ [documentation index](../README.md) > Combo view/it

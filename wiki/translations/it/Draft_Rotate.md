@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Rotate
-   Name/it:Ruota
-   MenuLocation:Modifiche - Ruota
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:**R** **O**
-   Version:0.7
-   SeeAlso:[Evidenzia i sottoelementi](Draft_SubelementHighlight/it.md)
+   Name: Draft Rotate
+   Name/it: Ruota
+   MenuLocation: Modifiche - Ruota
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut: **R** **O**
+   Version: 0.7
+   SeeAlso: [Evidenzia i sottoelementi](Draft_SubelementHighlight/it.md)
 ---
 
 # Draft Rotate/it
@@ -134,4 +134,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/it

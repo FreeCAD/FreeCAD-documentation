@@ -1,6 +1,4 @@
 # Download/zh-cn
-{{TOCright}}
-
 ## Current stable version 
 
 The 0.20.2 release of FreeCAD (29603) was published on 2022-12-07. To find out what\'s new, see the [release notes](Release_notes_0.20.md).
@@ -64,4 +62,4 @@ The FreeCAD community provides a wealth of additional modules and macros. They c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Download/zh-cn
+⏵ [documentation index](../README.md) > Download/zh-cn

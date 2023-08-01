@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft CircularArray
-   Name/ru:Draft CircularArray
-   MenuLocation:Draft - Circular array
-   Workbenches:[Draft](Draft_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Array](Draft_Array/ru.md), [PolarArray](Draft_PolarArray/ru.md), [PathArray](Draft_PathArray/ru.md), [PointArray](Draft_PointArray/ru.md), [Clone](Draft_Clone/ru.md)
+   Name: Draft CircularArray
+   Name/ru: Draft CircularArray
+   MenuLocation: Draft - Circular array
+   Workbenches: [Draft](Draft_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Array](Draft_Array/ru.md), [PolarArray](Draft_PolarArray/ru.md), [PathArray](Draft_PathArray/ru.md), [PointArray](Draft_PointArray/ru.md), [Clone](Draft_Clone/ru.md)
 ---
 
 # Draft CircularArray/ru
@@ -131,4 +131,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft CircularArray/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft CircularArray/ru

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Std RandomColor
-   MenuLocation:View - Random color
-   Workbenches:All
+   Name: Std RandomColor
+   MenuLocation: View - Random color
+   Workbenches: All
 ---
 
 # Std RandomColor
@@ -30,4 +30,4 @@ The **Std RandomColor** command applies a random **Shape Color** to selected obj
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std RandomColor
+⏵ [documentation index](../README.md) > Std RandomColor

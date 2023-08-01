@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std DlgCustomize
-   Name/ru:Std DlgCustomize
-   MenuLocation:Инструменты - Настройка...
-   Workbenches:All
-   SeeAlso:[Interface Customization](Interface_Customization/ru.md)
+   Name: Std DlgCustomize
+   Name/ru: Std DlgCustomize
+   MenuLocation: Инструменты - Настройка...
+   Workbenches: All
+   SeeAlso: [Interface Customization](Interface_Customization/ru.md)
 ---
 
 # Std DlgCustomize/ru
@@ -40,4 +40,4 @@ The **Std DlgCustomize** command opens the Customize dialog box giving access to
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgCustomize/ru
+⏵ [documentation index](../README.md) > Std DlgCustomize/ru

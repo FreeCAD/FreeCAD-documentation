@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateOctagon
-   Name/fr:Sketcher Octogone
-   MenuLocation:Esquisse - Géométries d'esquisse - Créer un octogone
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **P** **8**
-   Version:0.15
+   Name: Sketcher CreateOctagon
+   Name/fr: Sketcher Octogone
+   MenuLocation: Esquisse - Géométries d'esquisse - Créer un octogone
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **P** **8**
+   Version: 0.15
 ---
 
 # Sketcher CreateOctagon/fr
@@ -40,4 +40,4 @@ Le cercle circonscrit est la géométrie de construction, qui n\'est visible que
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOctagon/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOctagon/fr

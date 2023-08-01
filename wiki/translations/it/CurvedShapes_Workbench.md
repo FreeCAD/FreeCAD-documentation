@@ -4,7 +4,7 @@
 <img alt="CurvedShapes Workbench icon" src=images/CurvedShapes_workbench_icon.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 ## Introduzione
 
@@ -53,4 +53,4 @@ Si consiglia di installarlo tramite <img alt="" src=images/Std_AddonMgr.svg  sty
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > CurvedShapes Workbench/it
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > CurvedShapes Workbench/it

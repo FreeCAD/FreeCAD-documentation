@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft ToggleConstructionMode
-   Name/tr:İnşaat modunu değiştir
-   MenuLocation:Draft - Utilities - Toggle construction mode
-   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
-   Shortcut:**C** **M**
-   SeeAlso:[Draft AddConstruction](Draft_AddConstruction.md), [Draft AutoGroup](Draft_AutoGroup.md)
+   Name: Draft ToggleConstructionMode
+   Name/tr: İnşaat modunu değiştir
+   MenuLocation: Draft - Utilities - Toggle construction mode
+   Workbenches: [Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   Shortcut: **C** **M**
+   SeeAlso: [Draft AddConstruction](Draft_AddConstruction.md), [Draft AutoGroup](Draft_AutoGroup.md)
 ---
 
 # Draft ToggleConstructionMode/tr
@@ -40,4 +40,4 @@ The <img alt="" src=images/Draft_ToggleConstructionMode.svg  style="width:24px;"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/tr

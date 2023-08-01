@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar UShape
-   Name/es: Arch Barra de Refuerzo en Forma de U
-   MenuLocation:Arch - Rebar tools
-   Workbenches:[Arch](Arch_Workbench/es.md)
-   Shortcut:None
-   SeeAlso:[LShape Rebar](Arch_Rebar_LShape/es.md)
-   Addon:Reinforcement
+   Name: Arch Rebar UShape
+   Name/es:  Arch Barra de Refuerzo en Forma de U
+   MenuLocation: Arch - Rebar tools
+   Workbenches: [Arch](Arch_Workbench/es.md)
+   Shortcut: None
+   SeeAlso: [LShape Rebar](Arch_Rebar_LShape/es.md)
+   Addon: Reinforcement
 ---
 
 # Arch Rebar Straight/es
@@ -260,4 +260,4 @@ StraightRebar.editStraightRebar(Rebar4, 50, ("Right Side", 50), 100, 100,
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Straight/es
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Straight/es

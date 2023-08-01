@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Curves CompressionSpring
-   Name/fr:Curves Ressort de compression
-   MenuLocation:Curves - Compression Spring
-   Workbenches:[Curves](Curves_Workbench/fr.md)
+   Name: Curves CompressionSpring
+   Name/fr: Curves Ressort de compression
+   MenuLocation: Curves - Compression Spring
+   Workbenches: [Curves](Curves_Workbench/fr.md)
 ---
 
 # Curves CompressionSpring/fr
@@ -38,4 +38,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves CompressionSpring/fr
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves CompressionSpring/fr

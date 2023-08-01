@@ -1,6 +1,4 @@
 # Draft DXF/pl
-{{TOCright}}
-
 ## Opis
 
 Funkcja DXF, środowiska Rysunek Roboczy jest modułem oprogramowania używanym przez polecenia <img alt="" src=images/Std_Open.svg  style="width:24px;"> [Otwórz](Std_Open/pl.md), <img alt="" src=images/Std_Import.svg  style="width:24px;"> [Importuj](Std_Import/pl.md) i <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Eksportuj](Std_Export/pl.md) do obsługi formatu pliku DXF.
@@ -129,4 +127,4 @@ importDXF.export(objects, "/home/user/Pictures/myfile.dxf")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft DXF/pl
+⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft DXF/pl

@@ -1,6 +1,6 @@
 # Robot SetHomePos/ro
 ---
-- GuiCommand:   Name:Robot SetHomePos   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot - Set home position---
+- GuiCommand:   Name: Robot SetHomePos   Workbenches: [[Robot_Workbench   Robot]]|MenuLocation: Robot - Set home position---
 
 
 </div>
@@ -49,4 +49,4 @@ Inițial, poziția în care robotul este introdus în scenă va fi definit ca po
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetHomePos/ro
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetHomePos/ro

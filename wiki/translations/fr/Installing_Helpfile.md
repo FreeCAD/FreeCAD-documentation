@@ -1,6 +1,4 @@
 # Installing Helpfile/fr
-{{TOCright}}
-
 ## Extension d\'aide 
 
 **Remarque :** les fichiers d\'aide hors ligne de FreeCAD, décrits ci-dessous, sont en cours de retrait. Le système d\'aide de FreeCAD est maintenant géré par l\'[extension Help](https://github.com/yorikvanhavre/FreeCAD-Help), que vous pouvez installer via le [Gestionnaire des extensions](Std_AddonMgr/fr.md). L\'extension Help permet d\'accéder à la documentation en ligne, sans avoir besoin de télécharger quoi que ce soit, ou à une copie téléchargeable hors ligne de la documentation, qui peut également être installée via le Gestionnaire des extensions.
@@ -52,4 +50,4 @@ Des difficultés peuvent survenir lors de la tentative d\'installation des packa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Installing Helpfile/fr
+⏵ [documentation index](../README.md) > Installing Helpfile/fr

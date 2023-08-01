@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw ClipGroup
-   Name/fr:TechDraw Fenêtre de rognage
-   MenuLocation:TechDraw - Insérer une fenêtre de rognage
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Ajout vue dans une fenêtre de rognage](TechDraw_ClipGroupAdd/fr.md), [TechDraw Suppression vue d'une fenêtre de rognage](TechDraw_ClipGroupRemove/fr.md)
+   Name: TechDraw ClipGroup
+   Name/fr: TechDraw Fenêtre de rognage
+   MenuLocation: TechDraw - Insérer une fenêtre de rognage
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   SeeAlso: [TechDraw Ajout vue dans une fenêtre de rognage](TechDraw_ClipGroupAdd/fr.md), [TechDraw Suppression vue d'une fenêtre de rognage](TechDraw_ClipGroupRemove/fr.md)
 ---
 
 # TechDraw ClipGroup/fr
@@ -56,4 +56,4 @@ Cet outil **TechDraw Fenêtre de rognage**crée une fenêtre de rognage qui peut
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroup/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroup/fr

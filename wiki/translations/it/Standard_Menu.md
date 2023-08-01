@@ -1,8 +1,4 @@
 # Standard Menu/it
-{{TOCright}}
-
-
-
 ## Introduzione
 
 Il menu principale standard di FreeCAD consente di accedere agli strumenti che vengono utilizzati in tutti gli ambienti di lavoro. Può avere un aspetto leggermente diverso, secondo l\'ambiente desktop (KDE, Gnome, Windows, macOS, ecc). Gli ambienti di lavoro possono anche aggiungere dei sottomenu a seconda di come sono strutturati i loro strumenti.
@@ -36,4 +32,4 @@ Il menu standard è composto da sette sottomenu:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Standard Menu/it
+⏵ [documentation index](../README.md) > Standard Menu/it

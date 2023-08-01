@@ -1,9 +1,4 @@
 # Debugging/sv
-{{TOCright}}
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 ## Testa först 
@@ -451,4 +446,4 @@ For developers needing to dig deeper in to the OpenCasCade kernel, user \@abdull
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Debugging/sv
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Debugging/sv

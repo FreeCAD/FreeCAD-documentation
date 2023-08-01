@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Nest
-   Name/fr:Arch Calepinage
-   MenuLocation:Arch - Outils pour les panneaux - Calepinage
-   Workbenches:[Atelier Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Arch Panneau](Arch_Panel/fr.md), [Arch Feuille de panneaux](Arch_Panel_Sheet/fr.md)
+   Name: Arch Nest
+   Name/fr: Arch Calepinage
+   MenuLocation: Arch - Outils pour les panneaux - Calepinage
+   Workbenches: [Atelier Arch](Arch_Workbench/fr.md)
+   SeeAlso: [Arch Panneau](Arch_Panel/fr.md), [Arch Feuille de panneaux](Arch_Panel_Sheet/fr.md)
 ---
 
 # Arch Nest/fr
@@ -44,4 +44,4 @@ L\'algorithme qui gère l\'outil Nest est en constante évolution et n\'est actu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Nest/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Nest/fr

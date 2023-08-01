@@ -1,6 +1,6 @@
 # Path Simulator/it
 ---
-- GuiCommand:   Name:Path Simulator   Name/it:Simulatore   Workbenches:[MenuLocation:Path - Simulatore CAM   SeeAlso:[[Path_Inspect/it|Ispeziona](Path_Workbench/it___Path]].md) ---
+- GuiCommand:   Name: Path Simulator   Name/it: Simulatore   Workbenches: [MenuLocation: Path - Simulatore CAM   SeeAlso: [[Path_Inspect/it|Ispeziona](Path_Workbench/it___Path]].md) ---
 
 
 </div>
@@ -74,4 +74,4 @@ Questo strumento consente di simulare il percorso della lavorazione. Spazza i mo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Simulator/it
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Simulator/it

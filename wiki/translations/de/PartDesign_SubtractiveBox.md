@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractiveBox
-   Name/de:PartDesign QuaderAbziehen
-   MenuLocation:Part Design - Grundkörper abziehen - Quader
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[PartDesign AuswahlGrundkörperAbziehen](PartDesign_CompPrimitiveSubtractive/de.md), [PartDesign QuaderHinzufügen](PartDesign_AdditiveBox/de.md)
+   Name: PartDesign SubtractiveBox
+   Name/de: PartDesign QuaderAbziehen
+   MenuLocation: Part Design - Grundkörper abziehen - Quader
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [PartDesign AuswahlGrundkörperAbziehen](PartDesign_CompPrimitiveSubtractive/de.md), [PartDesign QuaderHinzufügen](PartDesign_AdditiveBox/de.md)
 ---
 
 # PartDesign SubtractiveBox/de
@@ -57,4 +57,4 @@ Der Quader kann nach der Erstellung auf zwei Arten bearbeitet werden:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveBox/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveBox/de

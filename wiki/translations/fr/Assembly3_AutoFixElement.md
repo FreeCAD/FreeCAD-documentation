@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 AutoFixElement
-   Name/fr:Assembly3 Auto réparation d'un élement
-   Icon:Assembly_AutoFixElement.svg‎‎
-   MenuLocation:Assembly3 - Auto fix element
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 AutoFixElement
+   Name/fr: Assembly3 Auto réparation d'un élement
+   Icon: Assembly_AutoFixElement.svg‎‎
+   MenuLocation: Assembly3 - Auto fix element
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 AutoFixElement/fr
@@ -22,4 +22,4 @@ La commande <img alt="" src=images/Assembly_AutoFixElement.svg  style="width:24p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 AutoFixElement/fr
+⏵ [documentation index](../README.md) > Assembly3 AutoFixElement/fr

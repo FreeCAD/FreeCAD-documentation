@@ -55,4 +55,4 @@ for tod in todelete:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro merge duplicate materials/it
+⏵ [documentation index](../README.md) > Macro merge duplicate materials/it

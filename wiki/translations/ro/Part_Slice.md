@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Slice
-   MenuLocation:Part - Split - Slice to compound
-   Workbenches:[Part](Part_Workbench.md)
-   Version:0.17
-   SeeAlso:[Part Boolean Fragments](Part_BooleanFragments.md), [Part XOR](Part_XOR.md), [Part Join features](Part_CompJoinFeatures.md), [Part Boolean](Part_Boolean.md)
+   Name: Part Slice
+   MenuLocation: Part - Split - Slice to compound
+   Workbenches: [Part](Part_Workbench.md)
+   Version: 0.17
+   SeeAlso: [Part Boolean Fragments](Part_BooleanFragments.md), [Part XOR](Part_XOR.md), [Part Join features](Part_CompJoinFeatures.md), [Part Boolean](Part_Boolean.md)
 ---
 
 # Part Slice/ro
@@ -224,4 +224,4 @@ Instrumentul propriu-zis este implementat în Python, vezi /Mod/Part/BOPTools/Sp
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/ro

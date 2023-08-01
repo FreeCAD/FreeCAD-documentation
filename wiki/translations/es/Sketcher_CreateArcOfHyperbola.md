@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateArcOfHyperbola
-   Name/es:Croquizador CrearArcoDeHipérbola
-   MenuLocation:Croquis - Geometrías de Croquizador - Crear un arco de hipérbola
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   Version:0.17
-   SeeAlso:[Croquizador Arco de elipse](Sketcher_CreateArcOfEllipse/es.md), [Croquizador Arco de parábola](Sketcher_CreateArcOfParabola/es.md)
+   Name: Sketcher CreateArcOfHyperbola
+   Name/es: Croquizador CrearArcoDeHipérbola
+   MenuLocation: Croquis - Geometrías de Croquizador - Crear un arco de hipérbola
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   Version: 0.17
+   SeeAlso: [Croquizador Arco de elipse](Sketcher_CreateArcOfEllipse/es.md), [Croquizador Arco de parábola](Sketcher_CreateArcOfParabola/es.md)
 ---
 
 # Sketcher CreateArcOfHyperbola/es
@@ -48,4 +48,4 @@ Esta herramienta crea un arco de hipérbola por centro, radio mayor y puntos fin
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfHyperbola/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfHyperbola/es

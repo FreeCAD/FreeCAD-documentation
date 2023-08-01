@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD ReplaceObject
-   Name/fr:OpenSCAD Remplacement d'un objet
-   MenuLocation:OpenSCAD - Remplacer l'objet
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
+   Name: OpenSCAD ReplaceObject
+   Name/fr: OpenSCAD Remplacement d'un objet
+   MenuLocation: OpenSCAD - Remplacer l'objet
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench/fr.md)
 ---
 
 # OpenSCAD ReplaceObject/fr
@@ -34,4 +34,4 @@ Vous pouvez utiliser cette fonction par exemple pour remplacer une pièce dans u
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ReplaceObject/fr
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ReplaceObject/fr

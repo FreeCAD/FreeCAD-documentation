@@ -1,6 +1,4 @@
 # Bug Triage/ru
-{{TOCright}}
-
 ## Для чего 
 
 
@@ -145,4 +143,4 @@ An important methodology to track tickets by a certain subject/theme/category. I
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Bug Triage/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Bug Triage/ru

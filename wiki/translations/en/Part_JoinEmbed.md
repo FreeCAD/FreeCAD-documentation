@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part JoinEmbed
-   MenuLocation:Part - Join - Embed Object
-   Workbenches:[Part](Part_Workbench.md)
-   Version:0.16
-   SeeAlso:[Part JoinConnect](Part_JoinConnect.md), [Part JoinCutout](Part_JoinCutout.md), [Part Boolean](Part_Boolean.md), [Part Thickness](Part_Thickness.md)
+   Name: Part JoinEmbed
+   MenuLocation: Part - Join - Embed Object
+   Workbenches: [Part](Part_Workbench.md)
+   Version: 0.16
+   SeeAlso: [Part JoinConnect](Part_JoinConnect.md), [Part JoinCutout](Part_JoinCutout.md), [Part Boolean](Part_Boolean.md), [Part Thickness](Part_Thickness.md)
 ---
 
 # Part JoinEmbed/en
@@ -90,4 +90,4 @@ The tool itself is implemented in Python, see **/Mod/Part/JoinFeatures.py** ([Gi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinEmbed/en
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinEmbed/en

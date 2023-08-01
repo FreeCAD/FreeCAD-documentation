@@ -10,4 +10,4 @@ This category contains all disambiguation pages which list multiple meanings of 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Disambiguation
+⏵ [documentation index](../README.md) > Category:Disambiguation

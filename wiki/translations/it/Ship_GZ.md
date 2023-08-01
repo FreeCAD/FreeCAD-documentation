@@ -1,6 +1,6 @@
 # Ship GZ/it
 ---
-- GuiCommand:   Name:Ship PlotGZ   Name/it:Curve GZ   MenuLocation:Weights - Calcola le curve GZ   |Workbenches:[[Ship Workbench/it   Ship]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Ship PlotGZ   Name/it: Curve GZ   MenuLocation: Weights - Calcola le curve GZ   |Workbenches: [[Ship Workbench/it   Ship]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -25,4 +25,4 @@ Da fare
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship GZ/it
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship GZ/it

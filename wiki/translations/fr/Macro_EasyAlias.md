@@ -211,4 +211,4 @@ main()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro EasyAlias/fr
+⏵ [documentation index](../README.md) > Macro EasyAlias/fr

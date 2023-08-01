@@ -1,6 +1,6 @@
 # PartDesign LinearPattern/ro
 ---
-- GuiCommand:   Name:PartDesign LinearPattern   Workbenches:[[PartDesign Workbench   PartDesign]], Complete|MenuLocation:PartDesign - LinearPattern---
+- GuiCommand:   Name: PartDesign LinearPattern   Workbenches: [[PartDesign Workbench   PartDesign]], Complete|MenuLocation: PartDesign - LinearPattern---
 
 
 </div>
@@ -127,4 +127,4 @@ See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/ro

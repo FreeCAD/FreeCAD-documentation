@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 AutoElementVisibility
-   Icon:Assembly_AutoElementVis.svg‎‎
-   MenuLocation:Assembly3 - Element style - Auto element visibility
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 AutoElementVisibility
+   Icon: Assembly_AutoElementVis.svg‎‎
+   MenuLocation: Assembly3 - Element style - Auto element visibility
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 AutoElementVisibility
@@ -29,4 +29,4 @@ When activated the currently selected element(s) will be highlighted.  (The visi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 AutoElementVisibility
+⏵ [documentation index](../README.md) > Assembly3 AutoElementVisibility

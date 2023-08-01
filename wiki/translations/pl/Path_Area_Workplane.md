@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path Area Workplane
-   Name/pl:Path: Obszar płaszczyzny roboczej
-   MenuLocation:Path - Obszar płaszczyzny roboczej
-   Workbenches:[Path](Path_Workbench/pl.md)
+   Name: Path Area Workplane
+   Name/pl: Path: Obszar płaszczyzny roboczej
+   MenuLocation: Path - Obszar płaszczyzny roboczej
+   Workbenches: [Path](Path_Workbench/pl.md)
 ---
 
 # Path Area Workplane/pl
@@ -55,4 +55,4 @@ Przykład:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Area Workplane/pl
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Area Workplane/pl

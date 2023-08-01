@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh TrimByPlane
-   MenuLocation:Meshes - Cutting - Trim mesh with a plane
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh PolyCut](Mesh_PolyCut.md), [Mesh PolyTrim](Mesh_PolyTrim.md)
+   Name: Mesh TrimByPlane
+   MenuLocation: Meshes - Cutting - Trim mesh with a plane
+   Workbenches: [Mesh](Mesh_Workbench.md)
+   SeeAlso: [Mesh PolyCut](Mesh_PolyCut.md), [Mesh PolyTrim](Mesh_PolyTrim.md)
 ---
 
 # Mesh TrimByPlane/de
@@ -85,4 +85,4 @@ msh.Mesh = new_msh
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh TrimByPlane/de
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh TrimByPlane/de

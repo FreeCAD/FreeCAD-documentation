@@ -11,4 +11,4 @@ This category lists pages related to the [PartDesign Workbench/tr](PartDesign_Wo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Path/tr
+⏵ [documentation index](../README.md) > Category:Path/tr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_ViewScreenShot
-   Name/ja:Std_ViewScreenShot
-   MenuLocation:Tools -> Save picture...
-   Workbenches:All
-   SeeAlso:
+   Name: Std_ViewScreenShot
+   Name/ja: Std_ViewScreenShot
+   MenuLocation: Tools -> Save picture...
+   Workbenches: All
+   SeeAlso: 
 ---
 
 # Std ViewScreenShot/ja
@@ -142,4 +142,4 @@ App.closeDocument(App.ActiveDocument.Name)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewScreenShot/ja
+⏵ [documentation index](../README.md) > Std ViewScreenShot/ja

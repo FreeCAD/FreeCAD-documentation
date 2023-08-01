@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft ToggleContinueMode
-   Name/tr:Devam modunu değiştir
-   MenuLocation:Draft - Utilities - Toggle continue mode
-   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   Name: Draft ToggleContinueMode
+   Name/tr: Devam modunu değiştir
+   MenuLocation: Draft - Utilities - Toggle continue mode
+   Workbenches: [Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
 ---
 
 # Draft ToggleContinueMode/tr
@@ -26,4 +26,4 @@ The <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:24px;"> **
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode/tr

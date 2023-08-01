@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std Revert
-   Name/ko:표준 되돌리기
-   MenuLocation:파일 - 되돌리기
-   Workbenches:모두
+   Name: Std Revert
+   Name/ko: 표준 되돌리기
+   MenuLocation: 파일 - 되돌리기
+   Workbenches: 모두
 ---
 
 # Std Revert/ko
@@ -32,4 +32,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Revert/ko
+⏵ [documentation index](../README.md) > Std Revert/ko

@@ -1,6 +1,6 @@
 # Drawing View/es
 ---
-- GuiCommand:   Name:Drawing View   Name/es:Drawing View   Workbenches:[MenuLocation:Dibujo - Insertar vista en dibujo   Shortcut:none   SeeAlso:[[Drawing Landscape A3/es|Dibujo A3 apaisado](Drawing_Workbench/es___Dibujo]],_Complete.md)---
+- GuiCommand:   Name: Drawing View   Name/es: Drawing View   Workbenches: [MenuLocation: Dibujo - Insertar vista en dibujo   Shortcut: none   SeeAlso: [[Drawing Landscape A3/es|Dibujo A3 apaisado](Drawing_Workbench/es___Dibujo]],_Complete.md)---
 
 
 </div>
@@ -67,4 +67,4 @@ If you are looking for persective-orthographic toggling in 3D view check [Std Pe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing View/es
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing View/es

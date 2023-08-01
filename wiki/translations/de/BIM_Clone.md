@@ -1,11 +1,11 @@
 ---
 - GuiCommand:Addon/de
-   Name:BIM Clone
-   Name/de:BIM Klonen
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
-   Addon:BIM
-   MenuLocation:Ändern - Kopieren
-   SeeAlso:[Entwurf Klonen](Draft_Clone/de.md)
+   Name: BIM Clone
+   Name/de: BIM Klonen
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
+   Addon: BIM
+   MenuLocation: Ändern - Kopieren
+   SeeAlso: [Entwurf Klonen](Draft_Clone/de.md)
 ---
 
 # BIM Clone/de
@@ -17,4 +17,4 @@ Das BIM Klonen Werkzeug ist eine Abkürzung zum Standard [Entwurf Klonen](Draft_
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Clone/de
+⏵ [documentation index](../README.md) > BIM Clone/de

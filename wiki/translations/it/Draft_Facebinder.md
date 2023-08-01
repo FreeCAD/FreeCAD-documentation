@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Facebinder
-   Name/it:Lega facce
-   MenuLocation:Drafting - Lega facce
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:**F** **F**
-   Version:0.14
+   Name: Draft Facebinder
+   Name/it: Lega facce
+   MenuLocation: Drafting - Lega facce
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut: **F** **F**
+   Version: 0.14
 ---
 
 # Draft Facebinder/it
@@ -134,4 +134,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Facebinder/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Facebinder/it

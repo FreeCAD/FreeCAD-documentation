@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std LinkSelectAllLinks
-   Name/fr:Std Tous les liens
-   MenuLocation:
-   Workbenches:Tous
-   Version:0.19
-   SeeAlso:[Std Lien objet lié](Std_LinkSelectLinked/fr.md), [Std Lien objet lié primaire](Std_LinkSelectLinkedFinal/fr.md), [Std Précédent](Std_SelBack/fr.md), [Std Suivant](Std_SelForward/fr.md)
+   Name: Std LinkSelectAllLinks
+   Name/fr: Std Tous les liens
+   MenuLocation: 
+   Workbenches: Tous
+   Version: 0.19
+   SeeAlso: [Std Lien objet lié](Std_LinkSelectLinked/fr.md), [Std Lien objet lié primaire](Std_LinkSelectLinkedFinal/fr.md), [Std Précédent](Std_SelBack/fr.md), [Std Suivant](Std_SelForward/fr.md)
 ---
 
 # Std LinkSelectAllLinks/fr
@@ -37,4 +37,4 @@ La commande *Std Tous les liens* sélectionne tous les objets [App Link](App_Lin
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkSelectAllLinks/fr
+⏵ [documentation index](../README.md) > Std LinkSelectAllLinks/fr

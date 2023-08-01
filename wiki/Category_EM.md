@@ -14,4 +14,4 @@ This category list pages related to the [EM Workbench](EM_Workbench.md) which is
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:EM
+⏵ [documentation index](../README.md) > Category:EM

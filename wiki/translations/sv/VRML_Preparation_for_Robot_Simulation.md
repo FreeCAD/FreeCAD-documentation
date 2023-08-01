@@ -393,4 +393,4 @@ Group {
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Category_Robot.md) > VRML Preparation for Robot Simulation/sv
+⏵ [documentation index](../README.md) > [Robot](Category_Robot.md) > VRML Preparation for Robot Simulation/sv

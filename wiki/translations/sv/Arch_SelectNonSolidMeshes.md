@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Arch SelectNonSolidMeshes   Name/sv:Arch SelectNonSolidMeshes
-   MenuLocation:Arch - Utilities - Select non solid
-   Workbenches:[Arch](Arch_Workbench/sv.md)
-   SeeAlso:[Arch MeshToShape](Arch_SplitMesh/sv]],_[[Arch_MeshToShape/sv.md)
+   Name: Arch SelectNonSolidMeshes   Name/sv: Arch SelectNonSolidMeshes
+   MenuLocation: Arch - Utilities - Select non solid
+   Workbenches: [Arch](Arch_Workbench/sv.md)
+   SeeAlso: [Arch MeshToShape](Arch_SplitMesh/sv]],_[[Arch_MeshToShape/sv.md)
 ---
 
 # Arch SelectNonSolidMeshes/sv
@@ -38,4 +38,4 @@ This tool identifies and selects the non-solid (non-[manifold](http://en.wikiped
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/sv
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/sv

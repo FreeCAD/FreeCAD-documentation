@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw 2PointCosmeticLine
-   Name/de:TechDraw 2PunkteHilfslinie
-   MenuLocation:TechDraw - Linien hinzufügen -Hilfslinie durch 2 Punkte hinzufügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[TechDraw FlächenMittellinie](TechDraw_FaceCenterLine/de.md), [TechDraw 2LinienMittellinie](TechDraw_2LineCenterLine/de.md)
+   Name: TechDraw 2PointCosmeticLine
+   Name/de: TechDraw 2PunkteHilfslinie
+   MenuLocation: TechDraw - Linien hinzufügen -Hilfslinie durch 2 Punkte hinzufügen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [TechDraw FlächenMittellinie](TechDraw_FaceCenterLine/de.md), [TechDraw 2LinienMittellinie](TechDraw_2LineCenterLine/de.md)
 ---
 
 # TechDraw 2PointCosmeticLine/de
@@ -121,4 +121,4 @@ Hilfslinien können mit den Methoden makeCosmeticLine(v1, v2) oder makeCosmeticL
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2PointCosmeticLine/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2PointCosmeticLine/de

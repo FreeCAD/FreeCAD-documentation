@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Mesh Union‏‎
-   Name/ru:Mesh Union‏‎
-   MenuLocation:Сетки - Булевы операции - Объединение
-   Workbenches:[Mesh](Mesh_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[Объединить](Mesh_Merge/ru.md)
+   Name: Mesh Union‏‎
+   Name/ru: Mesh Union‏‎
+   MenuLocation: Сетки - Булевы операции - Объединение
+   Workbenches: [Mesh](Mesh_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: [Объединить](Mesh_Merge/ru.md)
 ---
 
 # Mesh Union/ru
@@ -44,4 +44,4 @@ See: [Mesh Feature](Mesh_Feature.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Union/ru
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Union/ru

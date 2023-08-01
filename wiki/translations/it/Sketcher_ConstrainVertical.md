@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Icon:Constraint Vertical.svg
-   Name:Vertical constraint
-   Name/it:Vincolo verticale
-   Workbenches:[Schizzo](Sketcher_Workbench/it.md)
-   Shortcut:**V**
-   MenuLocation:Sketch - Vincoli - Verticale
-   SeeAlso:[Orizzontale](Sketcher_ConstrainHorizontal/it.md)
+   Icon: Constraint Vertical.svg
+   Name: Vertical constraint
+   Name/it: Vincolo verticale
+   Workbenches: [Schizzo](Sketcher_Workbench/it.md)
+   Shortcut: **V**
+   MenuLocation: Sketch - Vincoli - Verticale
+   SeeAlso: [Orizzontale](Sketcher_ConstrainHorizontal/it.md)
 ---
 
 # Sketcher ConstrainVertical/it
@@ -60,4 +60,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainVertical/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainVertical/it

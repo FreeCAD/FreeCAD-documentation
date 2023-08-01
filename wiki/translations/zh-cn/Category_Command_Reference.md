@@ -27,4 +27,4 @@ This category contains the help pages of each of FreeCAD [Command](Command.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Command Reference/zh-cn
+⏵ [documentation index](../README.md) > Category:Command Reference/zh-cn

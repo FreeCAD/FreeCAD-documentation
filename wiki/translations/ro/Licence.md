@@ -1,6 +1,4 @@
 # Licence/ro
-{{TOCright}}
-
 ## Licențe utilizate sub FreeCAD 
 
 FreeCAD utilizează două licențe diferite, una pentru aplicația în sine și una pentru documentație:
@@ -86,4 +84,4 @@ Această decizie se face numai pentru nucleul sistemul FreeCAD. Fiecare scriitor
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/ro
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/ro

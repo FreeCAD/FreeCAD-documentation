@@ -57,4 +57,4 @@ Once installed go to **Edit → Preferences → General**, find the preference p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Private Preference Packs/en
+⏵ [documentation index](../README.md) > Private Preference Packs/en

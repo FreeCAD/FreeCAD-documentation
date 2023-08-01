@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw Dimension Vertical
-   Name/ro:TechDraw Dimension Vertical
-   MenuLocation:TechDraw - Dimension Vertical
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   SeeAlso:[TechDraw Dimension Length](TechDraw_LengthDimension.md), [TechDraw Dimension Horizontal](TechDraw_HorizontalDimension.md)
+   Name: TechDraw Dimension Vertical
+   Name/ro: TechDraw Dimension Vertical
+   MenuLocation: TechDraw - Dimension Vertical
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   SeeAlso: [TechDraw Dimension Length](TechDraw_LengthDimension.md), [TechDraw Dimension Horizontal](TechDraw_HorizontalDimension.md)
 ---
 
 # TechDraw VerticalDimension/ro
@@ -43,4 +43,4 @@ For more information see [TechDraw LengthDimension](TechDraw_LengthDimension.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw VerticalDimension/ro
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw VerticalDimension/ro

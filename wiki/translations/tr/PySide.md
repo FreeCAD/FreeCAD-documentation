@@ -1,6 +1,4 @@
 # PySide/tr
-{{TOCright}}
-
 ## Introduction
 
 The [PySide](PySide.md) library gives access to the cross-platform graphical user interface (GUI) toolkit Qt from [Python](Python.md). Qt is a collection of C++ libraries, but with the help of PySide, the same components can be used from [Python](Python.md). Every graphical interface that can be created in C++, can also be created and modified in Python. An advantage of using Python is that Qt interfaces can be developed and tested live, as we don\'t need to compile the source files.
@@ -67,4 +65,4 @@ The PySide documentation refers to the Python-style classes; however, since Qt i
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > PySide/tr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > PySide/tr

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Points Merge
-   Name/de:Points Zusammenführen
-   MenuLocation:Punkte - Punktwolken zusammenführen
-   Workbenches:[Points](Points_Workbench/de.md)
+   Name: Points Merge
+   Name/de: Points Zusammenführen
+   MenuLocation: Punkte - Punktwolken zusammenführen
+   Workbenches: [Points](Points_Workbench/de.md)
 ---
 
 # Points Merge/de
@@ -38,4 +38,4 @@ Siehe [Points Umwandeln](Points_Convert/de.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Merge/de
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Merge/de

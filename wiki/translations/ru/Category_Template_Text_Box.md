@@ -12,4 +12,4 @@ These templates produce small pieces of text that are suitable for transclusion.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Template:Text Box/ru
+⏵ [documentation index](../README.md) > Category:Template:Text Box/ru

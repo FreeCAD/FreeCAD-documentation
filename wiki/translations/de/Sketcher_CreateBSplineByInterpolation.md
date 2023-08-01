@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateBSplineByInterpolation
-   Name/de:Sketcher B-SplineDurchInterpolationErstellen
-   MenuLocation:Skizze - Skizzengeometrien - B-Spline durch Knoten erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **B** **I**
-   Version:0.21
-   SeeAlso:[Sketcher GeschlossenenB-SplineErstellen](Sketcher_CreatePeriodicBSpline/de.md)
+   Name: Sketcher CreateBSplineByInterpolation
+   Name/de: Sketcher B-SplineDurchInterpolationErstellen
+   MenuLocation: Skizze - Skizzengeometrien - B-Spline durch Knoten erstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **B** **I**
+   Version: 0.21
+   SeeAlso: [Sketcher GeschlossenenB-SplineErstellen](Sketcher_CreatePeriodicBSpline/de.md)
 ---
 
 # Sketcher CreateBSplineByInterpolation/de
@@ -56,4 +56,4 @@ Siehe [Sketcher B-SplineErstellen](Sketcher_CreateBSpline/de#Hinweise.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateBSplineByInterpolation/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateBSplineByInterpolation/de

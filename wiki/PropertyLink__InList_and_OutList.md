@@ -84,4 +84,4 @@ Note that `InList` and `OutList` have **nothing** to do with the tree view of th
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > PropertyLink: InList and OutList
+⏵ [documentation index](../README.md) > PropertyLink: InList and OutList

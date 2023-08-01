@@ -1,6 +1,6 @@
 # Std PrintPdf/ro
 ---
-- GuiCommand:   Name:Std PrintPdf   Name/ro:Std PrintPdf   Workbenches:All   MenuLocation:[Shortcut:   SeeAlso:File [[Std_Export/ro|Export](Std_File_Menu___File]]_-_PrintPdf_.md)---
+- GuiCommand:   Name: Std PrintPdf   Name/ro: Std PrintPdf   Workbenches: All   MenuLocation: [Shortcut:    SeeAlso: File [[Std_Export/ro|Export](Std_File_Menu___File]]_-_PrintPdf_.md)---
 
 
 </div>
@@ -46,4 +46,4 @@ The **Std PrintPdf** command is primarily intended to create [PDF](PDF.md) files
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std PrintPdf/ro
+⏵ [documentation index](../README.md) > Std PrintPdf/ro

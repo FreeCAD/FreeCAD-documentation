@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD Edgestofaces
-   Name/de:OpenSCAD KantenZuFlächen
-   MenuLocation:OpenSCAD - Kanten in Flächen umwandeln
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
-   SeeAlso:[Draft Hochstufen](Draft_Upgrade/de.md)
+   Name: OpenSCAD Edgestofaces
+   Name/de: OpenSCAD KantenZuFlächen
+   MenuLocation: OpenSCAD - Kanten in Flächen umwandeln
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench/de.md)
+   SeeAlso: [Draft Hochstufen](Draft_Upgrade/de.md)
 ---
 
 # OpenSCAD Edgestofaces/de
@@ -43,4 +43,4 @@ Lies auch <img alt="Draft_Upgrade" src=images/Draft_Upgrade.svg  style="width:24
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Edgestofaces/de
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Edgestofaces/de

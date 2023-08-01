@@ -1,11 +1,11 @@
 # Ship Weight/ru
 ---
 - GuiCommand:
-   Name:Ship Weight
-   Name/ru:Ship Weight
-   MenuLocation:Weights - Create a new ship weight
-   Workbenches:[Ship](Ship_Workbench/ru.md)
-   Shortcut:   SeeAlso:---
+   Name: Ship Weight
+   Name/ru: Ship Weight
+   MenuLocation: Weights - Create a new ship weight
+   Workbenches: [Ship](Ship_Workbench/ru.md)
+   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -76,4 +76,4 @@ Punctual weights are featured by its mass (in kg, or any other compatible unit).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Weight/ru
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Weight/ru

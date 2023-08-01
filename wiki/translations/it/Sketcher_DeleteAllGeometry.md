@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher Delete All Geometry
-   Name/it:Cancella tutta la geometria
-   Icon:Sketcher Element SelectionTypeInvalid.svg
-   MenuLocation:Sketch - Strumenti - Cancella tutta la geometria
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   SeeAlso:[Cancella tutti i vincoli](Sketcher_DeleteAllConstraints/it.md)
-   Version:0.18
+   Name: Sketcher Delete All Geometry
+   Name/it: Cancella tutta la geometria
+   Icon: Sketcher Element SelectionTypeInvalid.svg
+   MenuLocation: Sketch - Strumenti - Cancella tutta la geometria
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   SeeAlso: [Cancella tutti i vincoli](Sketcher_DeleteAllConstraints/it.md)
+   Version: 0.18
 ---
 
 # Sketcher DeleteAllGeometry/it
@@ -46,4 +46,4 @@ Questo strumento cancella tutta la geometria dallo schizzo che si sta modificand
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllGeometry/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllGeometry/it

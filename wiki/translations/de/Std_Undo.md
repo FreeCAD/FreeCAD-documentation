@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Undo
-   Name/de:Std Rückgängig
-   MenuLocation:Bearbeiten - Rückgängig
-   Workbenches:Alle
-   Shortcut:**Strg**+**Z**
-   SeeAlso:[Wiederherstellen](Std_Redo/de.md)
+   Name: Std Undo
+   Name/de: Std Rückgängig
+   MenuLocation: Bearbeiten - Rückgängig
+   Workbenches: Alle
+   Shortcut: **Strg**+**Z**
+   SeeAlso: [Wiederherstellen](Std_Redo/de.md)
 ---
 
 # Std Undo/de
@@ -66,4 +66,4 @@ FreeCAD.ActiveDocument.UndoMode = 1
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Undo/de
+⏵ [documentation index](../README.md) > Std Undo/de

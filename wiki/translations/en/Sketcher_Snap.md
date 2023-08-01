@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher Snap
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Version:0.21
-   SeeAlso:[Sketcher Grid](Sketcher_Grid.md)
+   Name: Sketcher Snap
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Version: 0.21
+   SeeAlso: [Sketcher Grid](Sketcher_Grid.md)
 ---
 
 # Sketcher Snap/en
@@ -39,4 +39,4 @@ Snapping only works while creating geometry. Note that snapping is just a drawin
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Snap/en
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Snap/en

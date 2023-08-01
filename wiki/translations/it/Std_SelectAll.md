@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_SelectAll
-   Name/it:Seleziona tutto
-   MenuLocation:Modifica - Seleziona tutto
-   Workbenches:Tutti
-   SeeAlso:[Box di selezione](Std_BoxSelection/it.md), [Selezione di elementi](Std_BoxElementSelection/it.md), [Box di selezione di Part](Part_BoxSelection/it.md)
+   Name: Std_SelectAll
+   Name/it: Seleziona tutto
+   MenuLocation: Modifica - Seleziona tutto
+   Workbenches: Tutti
+   SeeAlso: [Box di selezione](Std_BoxSelection/it.md), [Selezione di elementi](Std_BoxElementSelection/it.md), [Box di selezione di Part](Part_BoxSelection/it.md)
 ---
 
 # Std SelectAll/it
@@ -32,4 +32,4 @@ Il comando **Seleziona tutto** permette di selezionare tutti gli elementi di un 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SelectAll/it
+⏵ [documentation index](../README.md) > Std SelectAll/it

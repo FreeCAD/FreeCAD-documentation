@@ -1,8 +1,4 @@
 # Selection methods/ru
-{{TOCright}}
-
-
-
 ## Обзор
 
 [Методы выбора](Selection_methods/ru.md) в FreeCAD позволяют выбирать объекты в [интерфейсе FreeCAD](Interface/ru.md): таких как [3D view](3D_view/ru.md), [древе проекта](Tree_view/ru.md), [вид выбора](Selection_view/ru.md) и других диалогах. Некоторые методы выбора зависят от конкретной рабочей среды и задокументированы в соответствующей документации по рабочей среде.
@@ -164,4 +160,4 @@ Gui.Selection.removeSelectionGate()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Selection methods/ru
+⏵ [documentation index](../README.md) > Selection methods/ru

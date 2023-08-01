@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Label
-   Name/fr:Draft Étiquette
-   MenuLocation:Annotation - Étiquette
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:**D** **L**
-   Version:0.17
-   SeeAlso:[Draft Texte](Draft_Text/fr.md), [Draft Formes à partir texte](Draft_ShapeString/fr.md)
+   Name: Draft Label
+   Name/fr: Draft Étiquette
+   MenuLocation: Annotation - Étiquette
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut: **D** **L**
+   Version: 0.17
+   SeeAlso: [Draft Texte](Draft_Text/fr.md), [Draft Formes à partir texte](Draft_ShapeString/fr.md)
 ---
 
 # Draft Label/fr
@@ -236,4 +236,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Label/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Label/fr

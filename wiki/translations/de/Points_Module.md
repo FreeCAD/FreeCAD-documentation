@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Module/de
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Module/de

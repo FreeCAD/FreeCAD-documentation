@@ -15,4 +15,4 @@ Les longs textes doivent être placés dans la page elle-même, de manière à p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Template:Text/fr
+⏵ [documentation index](../README.md) > Category:Template:Text/fr

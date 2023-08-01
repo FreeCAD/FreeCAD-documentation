@@ -1,6 +1,4 @@
 # CompileOnWindows - Reducing Disk Footprint/fr
-{{TOCright}}
-
 Voici des techniques pour réduire l\'espace disque nécessaire à la création de FreeCAD sous Windows. Ceci peut être utile à ceux qui sont limités par l\'espace disque (par exemple, à cause d\'un SSD) et à ceux qui veulent éviter d\'installer complètement Visual Studio.
 
 Il est recommandé de savoir, en pratique, comment [Compiler sous Windows](Compile_on_Windows/fr.md) avec Qt Creator avant d\'essayer ceci.
@@ -168,4 +166,4 @@ Ce programme doit être exécuté avec des privilèges d\'administrateur (ou, vo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > CompileOnWindows - Reducing Disk Footprint/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > CompileOnWindows - Reducing Disk Footprint/fr

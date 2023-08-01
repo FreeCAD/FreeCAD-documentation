@@ -67,4 +67,4 @@ Ogólna struktura podręcznika to:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher reference/pl
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher reference/pl

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectElementsWithDoFs
-   MenuLocation:Sketch - Sketcher tools - Select unconstrained DoF
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**Z** **F**
-   Version:0.18
+   Name: Sketcher SelectElementsWithDoFs
+   MenuLocation: Sketch - Sketcher tools - Select unconstrained DoF
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **Z** **F**
+   Version: 0.18
 ---
 
 # Sketcher SelectElementsWithDoFs/en
@@ -41,4 +41,4 @@ where \"X\" is the number of degrees of freedom remaining in the sketch; you wil
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsWithDoFs/en
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsWithDoFs/en

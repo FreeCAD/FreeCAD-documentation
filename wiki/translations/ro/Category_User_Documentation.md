@@ -176,4 +176,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:User Documentation/ro
+⏵ [documentation index](../README.md) > Category:User Documentation/ro

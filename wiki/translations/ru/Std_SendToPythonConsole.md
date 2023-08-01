@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Отправить в консоль Python
-   Name:Std_SendToPythonConsole
-   MenuLocation:Правка - Отправить в консоль Python
-   Workbenches:Все
-   Shortcut:**Ctrl**+**Shift**+**P**
-   Version:0.19
+   Name/ru: Отправить в консоль Python
+   Name: Std_SendToPythonConsole
+   MenuLocation: Правка - Отправить в консоль Python
+   Workbenches: Все
+   Shortcut: **Ctrl**+**Shift**+**P**
+   Version: 0.19
 ---
 
 # Std SendToPythonConsole/ru
@@ -101,4 +101,4 @@ The **Std SendToPythonConsole** command creates variables in the [Python console
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SendToPythonConsole/ru
+⏵ [documentation index](../README.md) > Std SendToPythonConsole/ru

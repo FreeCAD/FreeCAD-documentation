@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Spinning/es
+⏵ [documentation index](../README.md) > Spinning/es

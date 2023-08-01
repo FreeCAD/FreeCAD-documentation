@@ -327,4 +327,4 @@ Ja, du kannst die Kernteile von FreeCAD in anderen Anwendungen verwenden, solang
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Frequently asked questions/de
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Frequently asked questions/de

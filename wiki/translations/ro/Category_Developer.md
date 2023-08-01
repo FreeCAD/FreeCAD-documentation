@@ -13,4 +13,4 @@ This category contains articles that are relevant for developers.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Developer/ro
+⏵ [documentation index](../README.md) > Category:Developer/ro

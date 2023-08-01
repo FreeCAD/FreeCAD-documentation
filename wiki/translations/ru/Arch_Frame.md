@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Каркас
-   Name:Arch_Frame
-   MenuLocation:Arch - Каркас
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   Shortcut:**F** **R**
-   SeeAlso:[Стена](Arch_Wall/ru.md), [Структура](Arch_Structure/ru.md)
+   Name/ru: Каркас
+   Name: Arch_Frame
+   MenuLocation: Arch - Каркас
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   Shortcut: **F** **R**
+   SeeAlso: [Стена](Arch_Wall/ru.md), [Структура](Arch_Structure/ru.md)
 ---
 
 # Arch Frame/ru
@@ -100,4 +100,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Frame/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Frame/ru

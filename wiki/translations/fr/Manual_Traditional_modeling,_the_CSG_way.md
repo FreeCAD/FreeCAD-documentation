@@ -129,4 +129,4 @@ Le fichier produit dans cet exercice: <https://github.com/yorikvanhavre/FreeCADm
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Traditional modeling, the CSG way/fr
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Traditional modeling, the CSG way/fr

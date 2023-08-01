@@ -1,6 +1,6 @@
 # FEM ConstraintForce/ru
 ---
-- GuiCommand:   Name:FEM ConstraintForce   Name/ru:FEM ConstraintForce   MenuLocation:FEM - Constraint force   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/ru|FEM tutorial](FEM_Workbench/ru___FEM]].md)---
+- GuiCommand:   Name: FEM ConstraintForce   Name/ru: FEM ConstraintForce   MenuLocation: FEM - Constraint force   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/ru|FEM tutorial](FEM_Workbench/ru___FEM]].md)---
 
 
 </div>
@@ -43,4 +43,4 @@ This command applies a force of given value \[N\] to selected target geometry.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintForce/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintForce/ru

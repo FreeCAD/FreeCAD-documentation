@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Arch_MakeIfcSpreadsheet
-   Name/it:Crea un foglio di calcolo Ifc
-   Icon:Arch_Schedule.svg
-   MenuLocation:Arch - Utilità - Crea un foglio di calcolo Ifc...
-   Workbenches:[Arch](Arch_Workbench/it.md)
-   Shortcut:**I** **P**
-   SeeAlso:[File IFC](Arch_IFC/it.md), [Esplora Ifc](Arch_IfcExplorer/it.md)
+   Name: Arch_MakeIfcSpreadsheet
+   Name/it: Crea un foglio di calcolo Ifc
+   Icon: Arch_Schedule.svg
+   MenuLocation: Arch - Utilità - Crea un foglio di calcolo Ifc...
+   Workbenches: [Arch](Arch_Workbench/it.md)
+   Shortcut: **I** **P**
+   SeeAlso: [File IFC](Arch_IFC/it.md), [Esplora Ifc](Arch_IfcExplorer/it.md)
 ---
 
 # Arch IfcSpreadsheet/it
@@ -92,4 +92,4 @@ spreadsheet = Arch.makeIfcSpreadsheet(Wall)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcSpreadsheet/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcSpreadsheet/it

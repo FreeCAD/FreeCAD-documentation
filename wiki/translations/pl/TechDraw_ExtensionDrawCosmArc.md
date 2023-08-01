@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionDrawCosmArc
-   Name/pl:Rysunek Techniczny: Rozszerzenie Dodaj łuk kosmetyczny
-   MenuLocation:Rysunek Techniczny - Rozszerzenia: Linie środka / Gwinty - Dodaj łuk kosmetyczny
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[Dodaj okrąg kosmetyczny](TechDraw_ExtensionDrawCosmCircle/pl.md)
+   Name: TechDraw ExtensionDrawCosmArc
+   Name/pl: Rysunek Techniczny: Rozszerzenie Dodaj łuk kosmetyczny
+   MenuLocation: Rysunek Techniczny - Rozszerzenia: Linie środka / Gwinty - Dodaj łuk kosmetyczny
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [Dodaj okrąg kosmetyczny](TechDraw_ExtensionDrawCosmCircle/pl.md)
 ---
 
 # TechDraw ExtensionDrawCosmArc/pl
@@ -44,4 +44,4 @@ Narzędzie **Dodaj łuk kosmetyczny** dodaje łuk kosmetyczny wykonany w kierunk
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDrawCosmArc/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDrawCosmArc/pl

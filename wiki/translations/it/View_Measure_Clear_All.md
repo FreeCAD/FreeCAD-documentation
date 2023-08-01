@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:View Measure Clear All
-   Name/it:View Measure Clear All
-   MenuLocation:Visualizza - Visibilita - Cancella le misure
-   Workbenches:Tutti
-   SeeAlso:[Attiva/disattiva le misure](View_Measure_Toggle_All/it.md), [Part: Attiva o Disattiva tutte le misure](Part_Measure_Toggle_All/it.md), [Part: Cancella tutte le misure](Part_Measure_Clear_All/it.md)
+   Name: View Measure Clear All
+   Name/it: View Measure Clear All
+   MenuLocation: Visualizza - Visibilita - Cancella le misure
+   Workbenches: Tutti
+   SeeAlso: [Attiva/disattiva le misure](View_Measure_Toggle_All/it.md), [Part: Attiva o Disattiva tutte le misure](Part_Measure_Toggle_All/it.md), [Part: Cancella tutte le misure](Part_Measure_Clear_All/it.md)
 ---
 
 # View Measure Clear All/it
@@ -40,4 +40,4 @@ Il comando **Cancella tutte le misure** cancella le misure della [3D view](3D_vi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > View Measure Clear All/it
+⏵ [documentation index](../README.md) > View Measure Clear All/it

@@ -14,4 +14,4 @@ Diese Kategorie zeigt eine Liste von Seiten, die zum [Ship-Arbeitsbereich](Ship_
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Ship/de
+⏵ [documentation index](../README.md) > Category:Ship/de

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Line
-   Name/ru:Draft Line
-   MenuLocation:Черчение - Линия
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:**L** **I**
-   SeeAlso:[Draft Wire](Draft_Wire/ru.md)
+   Name: Draft Line
+   Name/ru: Draft Line
+   MenuLocation: Черчение - Линия
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: **L** **I**
+   SeeAlso: [Draft Wire](Draft_Wire/ru.md)
 ---
 
 # Draft Line/ru
@@ -118,4 +118,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Line/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Line/ru

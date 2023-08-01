@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Fcstd file format/cs
+⏵ [documentation index](../README.md) > Fcstd file format/cs

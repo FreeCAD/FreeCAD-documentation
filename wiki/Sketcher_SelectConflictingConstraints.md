@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectConflictingConstraints
-   MenuLocation:Sketch - Sketcher tools - Select conflicting constraints
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**Z** **P** **C**
-   Version:0.15
+   Name: Sketcher SelectConflictingConstraints
+   MenuLocation: Sketch - Sketcher tools - Select conflicting constraints
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **Z** **P** **C**
+   Version: 0.15
 ---
 
 # Sketcher SelectConflictingConstraints
@@ -27,4 +27,4 @@ Selects the conflicting constraints of a sketch.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConflictingConstraints
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConflictingConstraints

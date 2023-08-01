@@ -52,4 +52,4 @@ Medium
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Google Summer of Code](Category_Google Summer of Code.md) > Direct modeling tools
+⏵ [documentation index](../README.md) > [Google Summer of Code](Category_Google Summer of Code.md) > Direct modeling tools

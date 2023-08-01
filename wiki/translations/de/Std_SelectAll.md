@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std SelectAll
-   Name/de:Std AllesAuswählen
-   MenuLocation:Bearbeiten - Alles auswählen
-   Workbenches:Alle
-   SeeAlso:[Std Rechteckauswahl](Std_BoxSelection/de.md), [Std RechteckElementAuswahl](Std_BoxElementSelection/de.md), [Part RechteckAuswahl](Part_BoxSelection/de.md)
+   Name: Std SelectAll
+   Name/de: Std AllesAuswählen
+   MenuLocation: Bearbeiten - Alles auswählen
+   Workbenches: Alle
+   SeeAlso: [Std Rechteckauswahl](Std_BoxSelection/de.md), [Std RechteckElementAuswahl](Std_BoxElementSelection/de.md), [Part RechteckAuswahl](Part_BoxSelection/de.md)
 ---
 
 # Std SelectAll/de
@@ -32,4 +32,4 @@ Der **Std AllesAuswählen** Befehl wählt alle Objekte in der [Baumansicht](Tree
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SelectAll/de
+⏵ [documentation index](../README.md) > Std SelectAll/de

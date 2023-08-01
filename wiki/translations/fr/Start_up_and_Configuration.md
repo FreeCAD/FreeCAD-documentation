@@ -3,7 +3,7 @@
 Voir les [Notes de version 0.20](Release_notes_0.20/fr#Noyau.md) pour plus d'informations. Cette page n'a pas encore été mise à jour en conséquence.**
 
 
-{{TOCright}}
+
 
 
 
@@ -461,4 +461,4 @@ Maintenant, double-cliquez sur le fichier de commandes pour démarrer FreeCAD. (
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Start](Start_Workbench.md) > Start up and Configuration/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Start](Start_Workbench.md) > Start up and Configuration/fr

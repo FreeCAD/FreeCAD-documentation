@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Image CreateImagePlane
-   Name/ru:Image CreateImagePlane
-   MenuLocation:Toolbars - Создать двумерное изображение в трёхмерном пространстве
-   Workbenches:[Image](Image_Workbench/ru.md)
-   SeeAlso:[Image Open](Image_Open/ru.md), [Image Scaling](Image_Scaling/ru.md)
+   Name: Image CreateImagePlane
+   Name/ru: Image CreateImagePlane
+   MenuLocation: Toolbars - Создать двумерное изображение в трёхмерном пространстве
+   Workbenches: [Image](Image_Workbench/ru.md)
+   SeeAlso: [Image Open](Image_Open/ru.md), [Image Scaling](Image_Scaling/ru.md)
 ---
 
 # Image CreateImagePlane/ru
@@ -65,4 +65,4 @@ If no offset is given to the image initially, its position can still be adjusted
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/ru
+⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/ru

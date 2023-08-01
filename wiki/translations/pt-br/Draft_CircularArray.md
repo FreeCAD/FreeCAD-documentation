@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft CircularArray
-   MenuLocation:Modification - Array tools - Circular array
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Version:0.19
-   SeeAlso:[Draft OrthoArray](Draft_OrthoArray.md), [Draft PolarArray](Draft_PolarArray.md), [Draft PathArray](Draft_PathArray.md), [Draft PathLinkArray](Draft_PathLinkArray.md), [Draft PointArray](Draft_PointArray.md), [Draft PointLinkArray](Draft_PointLinkArray.md)
+   Name: Draft CircularArray
+   MenuLocation: Modification - Array tools - Circular array
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Version: 0.19
+   SeeAlso: [Draft OrthoArray](Draft_OrthoArray.md), [Draft PolarArray](Draft_PolarArray.md), [Draft PathArray](Draft_PathArray.md), [Draft PathLinkArray](Draft_PathLinkArray.md), [Draft PointArray](Draft_PointArray.md), [Draft PointLinkArray](Draft_PointLinkArray.md)
 ---
 
 # Draft CircularArray/pt-br
@@ -127,4 +127,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft CircularArray/pt-br
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft CircularArray/pt-br

@@ -1,6 +1,6 @@
 # PartDesign AdditiveWedge/it
 ---
-- GuiCommand:   Name:PartDesign AdditiveWedge   Name/it:Cuneo additivo   Workbenches:[MenuLocation:Part Design - Crea una primitiva additiva - Cuneo   Version:0.17   SeeAlso:[[PartDesign CompPrimitiveAdditive/it|Primitive additive](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign AdditiveWedge   Name/it: Cuneo additivo   Workbenches: [MenuLocation: Part Design - Crea una primitiva additiva - Cuneo   Version: 0.17   SeeAlso: [[PartDesign CompPrimitiveAdditive/it|Primitive additive](PartDesign_Workbench/it___PartDesign]].md)---
 
 
 </div>
@@ -72,4 +72,4 @@ Wedges can be used to create pyramids by setting **X2 min/max** and **Z2 min/max
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveWedge/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveWedge/it

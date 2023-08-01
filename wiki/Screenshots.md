@@ -202,4 +202,4 @@ Dialog to save a picture with arbitrary sizes.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Screenshots
+⏵ [documentation index](../README.md) > Screenshots

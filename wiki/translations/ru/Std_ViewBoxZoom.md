@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ViewBoxZoom
-   Name/ru:Std ViewBoxZoom
-   Workbenches:All
-   MenuLocation:Вид - Масштаб‏‎ - Увеличить область
-   Shortcut:**Ctrl**+**B**
-   SeeAlso:[Std ViewZoomIn](Std_ViewZoomIn/ru.md), [Std ViewZoomOut](Std_ViewZoomOut/ru.md)
+   Name: Std ViewBoxZoom
+   Name/ru: Std ViewBoxZoom
+   Workbenches: All
+   MenuLocation: Вид - Масштаб‏‎ - Увеличить область
+   Shortcut: **Ctrl**+**B**
+   SeeAlso: [Std ViewZoomIn](Std_ViewZoomIn/ru.md), [Std ViewZoomOut](Std_ViewZoomOut/ru.md)
 ---
 
 # Std ViewBoxZoom/ru
@@ -32,4 +32,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewBoxZoom/ru
+⏵ [documentation index](../README.md) > Std ViewBoxZoom/ru

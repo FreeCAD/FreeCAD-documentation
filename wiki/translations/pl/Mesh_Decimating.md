@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh Decimating
-   Name/pl:Siatka: Decymacja
-   MenuLocation:Siatki - Decymacja ...
-   Workbenches:[Siatka](Mesh_Workbench/pl.md)
-   Version:0.19
+   Name: Mesh Decimating
+   Name/pl: Siatka: Decymacja
+   MenuLocation: Siatki - Decymacja ...
+   Workbenches: [Siatka](Mesh_Workbench/pl.md)
+   Version: 0.19
 ---
 
 # Mesh Decimating/pl
@@ -43,4 +43,4 @@ Polecenie **Decymacja** zmniejsza liczbę ścian w obiektach siatkowych.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Decimating/pl
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Decimating/pl

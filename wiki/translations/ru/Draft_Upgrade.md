@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Upgrade
-   Name/ru:Draft Upgrade
-   MenuLocation:Черчение - Обновить
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:**U** **P**
-   SeeAlso:[Draft Downgrade](Draft_Downgrade/ru.md), [Part Fuse](Part_Fuse/ru.md)
+   Name: Draft Upgrade
+   Name/ru: Draft Upgrade
+   MenuLocation: Черчение - Обновить
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: **U** **P**
+   SeeAlso: [Draft Downgrade](Draft_Downgrade/ru.md), [Part Fuse](Part_Fuse/ru.md)
 ---
 
 # Draft Upgrade/ru
@@ -108,4 +108,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Upgrade/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Upgrade/ru

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ShowAll
-   Name/it:Mostra tutto
-   MenuLocation:TechDraw - Mostra tutto
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Cambia aspetto delle linee](TechDraw_DecorateLine/it.md)
-   Version:0.19
+   Name: TechDraw ShowAll
+   Name/it: Mostra tutto
+   MenuLocation: TechDraw - Mostra tutto
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso: [Cambia aspetto delle linee](TechDraw_DecorateLine/it.md)
+   Version: 0.19
 ---
 
 # TechDraw ShowAll/it
@@ -91,4 +91,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ShowAll/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ShowAll/it

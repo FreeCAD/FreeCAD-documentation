@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM FemMesh2Mesh
-   Name/fr:FEM Maillage FEM à maillage
-   MenuLocation:Maillage - Maillage FEM à maillage
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM FemMesh2Mesh
+   Name/fr: FEM Maillage FEM à maillage
+   MenuLocation: Maillage - Maillage FEM à maillage
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM FemMesh2Mesh/fr
@@ -68,4 +68,4 @@ Mesh.show(Mesh.Mesh(out_mesh))
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM FemMesh2Mesh/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM FemMesh2Mesh/fr

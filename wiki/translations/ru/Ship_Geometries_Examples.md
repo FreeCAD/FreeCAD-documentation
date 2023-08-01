@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Ship Geometries Examples/ru
+⏵ [documentation index](../README.md) > Ship Geometries Examples/ru

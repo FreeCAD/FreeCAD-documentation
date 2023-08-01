@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name/ru:Обозначить внутреннюю резьбу отверстия с сечением вдоль оси
-   Name:TechDraw_ExtensionThreadHoleBottom
-   MenuLocation:TechDraw - Extensions: centerlines and threading - Cosmetic thread hole bottom view
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[Обозначить наружную резьбу стержня с сечением вдоль оси](TechDraw_ExtensionThreadBoltBottom/ru.md), [Добавить осевые линии к окружности](TechDraw_ExtensionCircleCenterLines/ru.md)
+   Name/ru: Обозначить внутреннюю резьбу отверстия с сечением вдоль оси
+   Name: TechDraw_ExtensionThreadHoleBottom
+   MenuLocation: TechDraw - Extensions: centerlines and threading - Cosmetic thread hole bottom view
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [Обозначить наружную резьбу стержня с сечением вдоль оси](TechDraw_ExtensionThreadBoltBottom/ru.md), [Добавить осевые линии к окружности](TechDraw_ExtensionCircleCenterLines/ru.md)
 ---
 
 # TechDraw ExtensionThreadHoleBottom/ru
@@ -51,4 +51,4 @@ The **TechDraw ExtensionThreadHoleBottom** tool adds a cosmetic thread to the to
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadHoleBottom/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadHoleBottom/ru

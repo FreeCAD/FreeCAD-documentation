@@ -43,4 +43,4 @@ Some of the other videos are comparisons of SolidWorks and FreeCAD: <https://www
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Migrating to FreeCAD from SolidWorks
+⏵ [documentation index](../README.md) > Migrating to FreeCAD from SolidWorks

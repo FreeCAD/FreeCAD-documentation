@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD RefineShapeFeature
-   Name/fr:OpenSCAD Affiner la forme
-   MenuLocation:OpenSCAD - Affiner la forme
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
-   SeeAlso:[Part Affiner la forme](Part_RefineShape.md)
+   Name: OpenSCAD RefineShapeFeature
+   Name/fr: OpenSCAD Affiner la forme
+   MenuLocation: OpenSCAD - Affiner la forme
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench/fr.md)
+   SeeAlso: [Part Affiner la forme](Part_RefineShape.md)
 ---
 
 # OpenSCAD RefineShapeFeature/fr
@@ -45,4 +45,4 @@ Nettoie les arêtes résiduelles. Après une opération booléenne, certaines ar
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD RefineShapeFeature/fr
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD RefineShapeFeature/fr

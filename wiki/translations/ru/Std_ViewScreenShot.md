@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ViewScreenShot
-   Name/ru:Std ViewScreenShot
-   MenuLocation:Инструменты - Сохранить изображение...
-   Workbenches:Все
-   SeeAlso:[Std Print](Std_Print/ru.md), [Std PrintPdf](Std_PrintPdf/ru.md)
+   Name: Std ViewScreenShot
+   Name/ru: Std ViewScreenShot
+   MenuLocation: Инструменты - Сохранить изображение...
+   Workbenches: Все
+   SeeAlso: [Std Print](Std_Print/ru.md), [Std PrintPdf](Std_PrintPdf/ru.md)
 ---
 
 # Std ViewScreenShot/ru
@@ -150,4 +150,4 @@ App.closeDocument(App.ActiveDocument.Name)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewScreenShot/ru
+⏵ [documentation index](../README.md) > Std ViewScreenShot/ru

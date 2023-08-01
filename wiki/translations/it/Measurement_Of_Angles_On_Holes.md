@@ -55,4 +55,4 @@ Selezionare i punti del quadrante con <img alt="" src=images/TechDraw_Quadrants.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Measurement Of Angles On Holes/it
+⏵ [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Measurement Of Angles On Holes/it

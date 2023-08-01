@@ -1,6 +1,6 @@
 # Sketcher LeaveSketch/it
 ---
-- GuiCommand:   Name:Sketcher LeaveSketch   Name/it:Esci   Workbenches:[PartDesign](Sketcher_Workbench/it___Schizzo]],_[[PartDesign_Workbench/it.md)|MenuLocation:Sketch/Part Design - Esci   SeeAlso:[Modifica schizzo](Sketcher_EditSketch/it.md)---
+- GuiCommand:   Name: Sketcher LeaveSketch   Name/it: Esci   Workbenches: [PartDesign](Sketcher_Workbench/it___Schizzo]],_[[PartDesign_Workbench/it.md)|MenuLocation: Sketch/Part Design - Esci   SeeAlso: [Modifica schizzo](Sketcher_EditSketch/it.md)---
 
 
 </div>
@@ -48,4 +48,4 @@ Il comando **Esci dallo schizzo** esce dalla modalità di modifica dello schizzo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/it

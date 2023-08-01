@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std SelectVisibleObjects
-   Name/it:Seleziona gli oggetti visibili
-   MenuLocation:Visualizza - Visibilità - Seleziona gli oggetti visibili
-   Workbenches:Tutti
+   Name: Std SelectVisibleObjects
+   Name/it: Seleziona gli oggetti visibili
+   MenuLocation: Visualizza - Visibilità - Seleziona gli oggetti visibili
+   Workbenches: Tutti
 ---
 
 # Std SelectVisibleObjects/it
@@ -31,4 +31,4 @@ Il comando **Seleziona gli oggetti visibili** seleziona tutti gli oggetti visibi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SelectVisibleObjects/it
+⏵ [documentation index](../README.md) > Std SelectVisibleObjects/it

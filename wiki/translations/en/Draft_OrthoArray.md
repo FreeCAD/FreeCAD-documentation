@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft OrthoArray
-   MenuLocation:Modification - Array tools - Array
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Version:0.19
-   SeeAlso:[Draft PolarArray](Draft_PolarArray.md), [Draft CircularArray](Draft_CircularArray.md), [Draft PathArray](Draft_PathArray.md), [Draft PathLinkArray](Draft_PathLinkArray.md), [Draft PointArray](Draft_PointArray.md), [Draft PointLinkArray](Draft_PointLinkArray.md)
+   Name: Draft OrthoArray
+   MenuLocation: Modification - Array tools - Array
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Version: 0.19
+   SeeAlso: [Draft PolarArray](Draft_PolarArray.md), [Draft CircularArray](Draft_CircularArray.md), [Draft PathArray](Draft_PathArray.md), [Draft PathLinkArray](Draft_PathLinkArray.md), [Draft PointArray](Draft_PointArray.md), [Draft PointLinkArray](Draft_PointLinkArray.md)
 ---
 
 # Draft OrthoArray/en
@@ -342,4 +342,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft OrthoArray/en
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft OrthoArray/en

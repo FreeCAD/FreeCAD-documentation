@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path Engrave
-   Name/fr:Path Gravure
-   MenuLocation:Path - Graver
-   Workbenches:[Path](Path_Workbench/fr.md)
+   Name: Path Engrave
+   Name/fr: Path Gravure
+   MenuLocation: Path - Graver
+   Workbenches: [Path](Path_Workbench/fr.md)
 ---
 
 # Path Engrave/fr
@@ -119,4 +119,4 @@ Exemple :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Engrave/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Engrave/fr

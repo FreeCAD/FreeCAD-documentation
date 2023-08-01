@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainVertical
-   Name/fr:Sketcher Contrainte verticale
-   MenuLocation:Esquisse - Contraintes d'esquisse - Contrainte verticale
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**V**
-   SeeAlso:[Sketcher Contrainte horizontale](Sketcher_ConstrainHorizontal/fr.md)
+   Name: Sketcher ConstrainVertical
+   Name/fr: Sketcher Contrainte verticale
+   MenuLocation: Esquisse - Contraintes d'esquisse - Contrainte verticale
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **V**
+   SeeAlso: [Sketcher Contrainte horizontale](Sketcher_ConstrainHorizontal/fr.md)
 ---
 
 # Sketcher ConstrainVertical/fr
@@ -46,4 +46,4 @@ La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui pe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainVertical/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainVertical/fr

@@ -8,7 +8,7 @@ Jede Empfehlung sollte auf dem Forum in deutscher Sprache validiert werden: *[co
 Was die (vorherige) *Einleitung?* sagen will und auch anschaulich darstellt, ist, dass wir ein paar **Regeln** brauchen, auf die sich die Diskussionswilligen im Forum einigen bzw. schon geeinigt haben und eine **Übersetzungshilfe** für die im Programm verwendeten Begriffe, um auch für Laien verständliche, präzise und fachlich korrekte Übersetzungen erstellen zu können.
 
 
-{{TOCright}}
+
 
 ## Ein paar Regeln 
 
@@ -1455,4 +1455,4 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > German Translation
+⏵ [documentation index](../README.md) > German Translation

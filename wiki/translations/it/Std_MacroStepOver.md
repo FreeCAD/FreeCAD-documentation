@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Std_MacroStepOver
-   Name/it:Passo successivo
-   Empty:1
-   Workbenches:Tutti
-   MenuLocation:Macro - Passo successivo 
-   Shortcut:**F10**
-   SeeAlso:[Un passo](Std_DebugInto/it.md), [Attiva/disattiva punto di interruzione](Std_ToggleBreakpoint/it.md)
+   Name: Std_MacroStepOver
+   Name/it: Passo successivo
+   Empty: 1
+   Workbenches: Tutti
+   MenuLocation: Macro - Passo successivo 
+   Shortcut: **F10**
+   SeeAlso: [Un passo](Std_DebugInto/it.md), [Attiva/disattiva punto di interruzione](Std_ToggleBreakpoint/it.md)
 ---
 
 # Std MacroStepOver/it
@@ -26,4 +26,4 @@ In questo momento questo comando non funziona.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MacroStepOver/it
+⏵ [documentation index](../README.md) > Std MacroStepOver/it

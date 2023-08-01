@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher StopOperation
-   Name/fr:Sketcher Arrêt de l'opération
-   MenuLocation:Esquisse - Arrêter l'opération
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Name: Sketcher StopOperation
+   Name/fr: Sketcher Arrêt de l'opération
+   MenuLocation: Esquisse - Arrêter l'opération
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
 ---
 
 # Sketcher StopOperation/fr
@@ -37,4 +37,4 @@ Cela revient à appuyer sur la touche **Echap**.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher StopOperation/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher StopOperation/fr

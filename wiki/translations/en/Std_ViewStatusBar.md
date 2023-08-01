@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std ViewStatusBar
-   Empty:1
-   MenuLocation:View - Status bar
-   Workbenches:All
+   Name: Std ViewStatusBar
+   Empty: 1
+   MenuLocation: View - Status bar
+   Workbenches: All
 ---
 
 # Std ViewStatusBar/en
@@ -27,4 +27,4 @@ The **Std ViewStatusBar** command toggles the display of the [Status bar](Status
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewStatusBar/en
+⏵ [documentation index](../README.md) > Std ViewStatusBar/en

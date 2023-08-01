@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign_Pad
-   Name/cs:Návrh dílu Deska
-   Workbenches:[Návrh dílu](PartDesign_Workbench/cs.md)
-   MenuLocation:Návrh dílu - Deska
+   Name: PartDesign_Pad
+   Name/cs: Návrh dílu Deska
+   Workbenches: [Návrh dílu](PartDesign_Workbench/cs.md)
+   MenuLocation: Návrh dílu - Deska
 ---
 
 # PartDesign Pad/cs
@@ -223,4 +223,4 @@ Tapers the pad in the opposite extrusion direction by the given angle. A positiv
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad/cs
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad/cs

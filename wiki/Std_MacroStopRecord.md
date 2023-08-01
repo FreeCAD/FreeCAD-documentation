@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std MacroStopRecord
-   MenuLocation:Macro - Stop macro recording
-   Workbenches:All
-   SeeAlso:[Std DlgMacroRecord](Std_DlgMacroRecord.md)
+   Name: Std MacroStopRecord
+   MenuLocation: Macro - Stop macro recording
+   Workbenches: All
+   SeeAlso: [Std DlgMacroRecord](Std_DlgMacroRecord.md)
 ---
 
 # Std MacroStopRecord
@@ -31,4 +31,4 @@ The **Std MacroStopRecord** command ends a macro recording session.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MacroStopRecord
+⏵ [documentation index](../README.md) > Std MacroStopRecord

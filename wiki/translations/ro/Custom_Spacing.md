@@ -26,4 +26,4 @@ Rezultaul produs de dialogul Rebar Distribution atunci când utilizatorul face c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Category_Arch.md) > Custom Spacing/ro
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Category_Arch.md) > Custom Spacing/ro

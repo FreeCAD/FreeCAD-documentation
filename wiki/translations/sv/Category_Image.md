@@ -10,4 +10,4 @@ This category lists pages related to the [Image Workbench/sv](Image_Workbench/sv
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Image/sv
+⏵ [documentation index](../README.md) > Category:Image/sv

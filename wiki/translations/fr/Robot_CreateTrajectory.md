@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Robot CreateTrajectory
-   Name/fr:Robot Trajectoire
-   MenuLocation:Robot - Créer une trajectoire
-   Workbenches:[Robot](Robot_Workbench/fr.md)
-   SeeAlso:
+   Name: Robot CreateTrajectory
+   Name/fr: Robot Trajectoire
+   MenuLocation: Robot - Créer une trajectoire
+   Workbenches: [Robot](Robot_Workbench/fr.md)
+   SeeAlso: 
 ---
 
 # Robot CreateTrajectory/fr
@@ -30,4 +30,4 @@ Cliquez sur <img alt="" src=images/Robot_CreateTrajectory.svg  style="width:32px
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateTrajectory/fr
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateTrajectory/fr

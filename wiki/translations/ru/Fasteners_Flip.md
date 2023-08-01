@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name/ru:Перевернуть крепёж
-   Name:FSFlip
-   MenuLocation:Стандартные изделия - Перевернуть крепёж
-   Workbenches:[Стандартные изделия](Fasteners_Workbench/ru.md)
+   Name/ru: Перевернуть крепёж
+   Name: FSFlip
+   MenuLocation: Стандартные изделия - Перевернуть крепёж
+   Workbenches: [Стандартные изделия](Fasteners_Workbench/ru.md)
 ---
 
 # Fasteners Flip/ru
@@ -35,4 +35,4 @@ The <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> **Fasteners 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners Flip/ru
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners Flip/ru

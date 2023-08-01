@@ -10,4 +10,4 @@ This category lists pages related to the [OpenSCAD_Workbench/zh-hant](OpenSCAD_W
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:OpenSCAD/zh-hant
+⏵ [documentation index](../README.md) > Category:OpenSCAD/zh-hant

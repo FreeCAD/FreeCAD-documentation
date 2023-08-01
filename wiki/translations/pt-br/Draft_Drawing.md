@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Draft Drawing
-   Workbenches:[Drawing](Drawing_Workbench.md), [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso:[TechDraw DraftView](TechDraw_DraftView.md)
+   Name: Draft Drawing
+   Workbenches: [Drawing](Drawing_Workbench.md), [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   SeeAlso: [TechDraw DraftView](TechDraw_DraftView.md)
 ---
 
 # Draft Drawing/pt-br
@@ -33,4 +33,4 @@ This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Drawing/pt-br
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Drawing/pt-br

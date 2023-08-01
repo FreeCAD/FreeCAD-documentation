@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Drawing Openbrowser
-   Name/de:Zeichen Openbrowser
-   Workbenches:[Zeichnung](Drawing_Workbench/de.md), Complete
-   MenuLocation:Drawing - Open Browser
-   Shortcut:none
+   Name: Drawing Openbrowser
+   Name/de: Zeichen Openbrowser
+   Workbenches: [Zeichnung](Drawing_Workbench/de.md), Complete
+   MenuLocation: Drawing - Open Browser
+   Shortcut: none
 ---
 
 # Drawing Openbrowser/de
@@ -42,4 +42,4 @@ Mit diesem Befehl kannst Du eine ausgewählte [Drawing page](Drawing_Landscape_A
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Openbrowser/de
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Openbrowser/de

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionDrawCosmCircle3Points
-   Name/fr:TechDraw Cercle par 3 points
-   MenuLocation:TechDraw - Extensions : taraudages/filetages - Cercle par 3 points
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw Arc](TechDraw_ExtensionDrawCosmArc/fr.md)
+   Name: TechDraw ExtensionDrawCosmCircle3Points
+   Name/fr: TechDraw Cercle par 3 points
+   MenuLocation: TechDraw - Extensions : taraudages/filetages - Cercle par 3 points
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw Arc](TechDraw_ExtensionDrawCosmArc/fr.md)
 ---
 
 # TechDraw ExtensionDrawCosmCircle3Points/fr
@@ -40,4 +40,4 @@ L\'outil **TechDraw Cercle par 3 points** ajoute un cercle cosmétique basé sur
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDrawCosmCircle3Points/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDrawCosmCircle3Points/fr

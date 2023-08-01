@@ -2,7 +2,7 @@
 Il s\'agit d\'une liste étendue, mais non complète, des fonctionnalités que FreeCAD implémente.
 
 
-{{TOCright}}
+
 
 
 
@@ -103,4 +103,4 @@ Des utilisateurs avancés ont créé différents [Ateliers externes](External_wo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/fr
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/fr

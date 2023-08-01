@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Measure Toggle Delta
-   MenuLocation:Measure - Toggle Delta‏‎
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part Measure Toggle All](Part_Measure_Toggle_All.md), [Part Measure Toggle 3D](Part_Measure_Toggle_3D.md)
+   Name: Part Measure Toggle Delta
+   MenuLocation: Measure - Toggle Delta‏‎
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Part Measure Toggle All](Part_Measure_Toggle_All.md), [Part Measure Toggle 3D](Part_Measure_Toggle_3D.md)
 ---
 
 # Part Measure Toggle Delta/pt-br
@@ -21,4 +21,4 @@ This command toggles the visibility of delta measurements in the [3D view](3D_vi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle Delta/pt-br
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle Delta/pt-br

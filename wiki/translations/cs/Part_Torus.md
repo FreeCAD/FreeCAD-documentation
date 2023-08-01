@@ -1,6 +1,6 @@
 # Part Torus/cs
 ---
-- GuiCommand:   Name:Part_Torus   Name/cs:Díl_Torus   MenuLocation:Díl -> Torus   |Workbenches:[SeeAlso:[[Part_CreatePrimitives/cs|Díl Vytváření zákl.geom.tvarů](Part_Workbench/cs___Modul_Díl]],_Kompletace.md)---
+- GuiCommand:   Name: Part_Torus   Name/cs: Díl_Torus   MenuLocation: Díl -> Torus   |Workbenches: [SeeAlso: [[Part_CreatePrimitives/cs|Díl Vytváření zákl.geom.tvarů](Part_Workbench/cs___Modul_Díl]],_Kompletace.md)---
 
 
 </div>
@@ -114,4 +114,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/cs
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/cs

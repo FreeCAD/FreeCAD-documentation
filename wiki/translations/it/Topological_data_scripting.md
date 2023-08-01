@@ -5,7 +5,7 @@
 }}
 
 
-{{TOCright}}
+
 
 ## Introduzione
 
@@ -1092,4 +1092,4 @@ Per convertire un file STEP in un file IGS fare:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Topological data scripting/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Topological data scripting/it

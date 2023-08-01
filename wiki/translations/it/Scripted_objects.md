@@ -1,8 +1,4 @@
 # Scripted objects/it
-{{TOCright}}
-
-
-
 ## Introduzione
 
 Oltre ai tipi di oggetti standard, come le Annotazioni, gli oggetti Mesh e gli oggetti Parte, FreeCAD offre anche la straordinaria possibilità di costruire al 100% oggetti parametrici in script di Python, chiamati [Python Features](App_FeaturePython/it.md) (*Caratteristiche* Python). Questi oggetti si comportano esattamente come un qualsiasi altro oggetto di FreeCAD, e sono salvati e ripristinati automaticamente con salva/apri il file.
@@ -1092,4 +1088,4 @@ Oltre agli esempi presentati qui dare un\'occhiata al codice sorgente di FreeCAD
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects/it

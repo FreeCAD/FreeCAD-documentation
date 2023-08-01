@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign CoordinateSystem
-   MenuLocation:Part Design - Create a local coordinate system
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   Version:0.18
-   SeeAlso:[PartDesign Point](PartDesign_Point.md), [PartDesign Line](PartDesign_Line.md), [PartDesign Plane](PartDesign_Plane.md)
+   Name: PartDesign CoordinateSystem
+   MenuLocation: Part Design - Create a local coordinate system
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   Version: 0.18
+   SeeAlso: [PartDesign Point](PartDesign_Point.md), [PartDesign Line](PartDesign_Line.md), [PartDesign Plane](PartDesign_Plane.md)
 ---
 
 # PartDesign CoordinateSystem/pt-br
@@ -60,4 +60,4 @@ lcs = App.activeDocument().addObject( 'PartDesign::CoordinateSystem', 'LCS' )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CoordinateSystem/pt-br
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CoordinateSystem/pt-br

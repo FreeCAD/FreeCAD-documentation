@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Sketcher CompCreateArc
-   Name/fr:Sketcher Arcs
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Name: Sketcher CompCreateArc
+   Name/fr: Sketcher Arcs
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
 ---
 
 # Sketcher CompCreateArc/fr
@@ -29,4 +29,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateArc/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateArc/fr

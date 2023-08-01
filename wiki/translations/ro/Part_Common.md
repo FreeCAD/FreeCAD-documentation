@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Common
-   Name/ro:Part Common
-   MenuLocation:Part - Common
-   Workbenches:[Part](Part_Workbench/ro.md)
-   SeeAlso:[Part Union](Part_Union/ro.md), [Part Cut](Part_Cut/ro.md)
+   Name: Part Common
+   Name/ro: Part Common
+   MenuLocation: Part - Common
+   Workbenches: [Part](Part_Workbench/ro.md)
+   SeeAlso: [Part Union](Part_Union/ro.md), [Part Cut](Part_Cut/ro.md)
 ---
 
 # Part Common/ro
@@ -54,4 +54,4 @@ Elementele de intrare trebuie să fie forme OpenCascade. Exemple: chestii realiz
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/ro

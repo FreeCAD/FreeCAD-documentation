@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Drawing Open SVG
-   Name/ru:Drawing Open SVG
-   Workbenches:[Drawing](Drawing_Workbench/ru.md), Complete
-   MenuLocation:Чертёж - Открыть SVG...
-   Shortcut:
-   SeeAlso:[Экспортировать страницу](Drawing_Save/ru.md)
+   Name: Drawing Open SVG
+   Name/ru: Drawing Open SVG
+   Workbenches: [Drawing](Drawing_Workbench/ru.md), Complete
+   MenuLocation: Чертёж - Открыть SVG...
+   Shortcut: 
+   SeeAlso: [Экспортировать страницу](Drawing_Save/ru.md)
 ---
 
 # Drawing Open SVG/ru
@@ -29,4 +29,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Open SVG/ru
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Open SVG/ru

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign PolarPattern
-   MenuLocation:Part Design - Apply a pattern - PolarPattern
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[PartDesign MultiTransform](PartDesign_MultiTransform.md)
+   Name: PartDesign PolarPattern
+   MenuLocation: Part Design - Apply a pattern - PolarPattern
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   SeeAlso: [PartDesign MultiTransform](PartDesign_MultiTransform.md)
 ---
 
 # PartDesign PolarPattern/tr
@@ -122,4 +122,4 @@ If some of the selected features are additive and others subtractive, their orde
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/tr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/tr

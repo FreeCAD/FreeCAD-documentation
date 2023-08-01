@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateArcOfEllipse
-   Name/ro:Sketcher arc de elipsă
-   Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation:Sketch - Geometria schitei - Creaţi un arc de elipsă
-   Version:0.15
-   SeeAlso:[Sketcher elipsă cu centru](Sketcher_CreateEllipseByCenter/ro.md), [Sketcher Arc cu centru](Sketcher_CompCreateArc/ro.md)
+   Name: Sketcher CreateArcOfEllipse
+   Name/ro: Sketcher arc de elipsă
+   Workbenches: [Sketcher](Sketcher_Workbench/ro.md)
+   MenuLocation: Sketch - Geometria schitei - Creaţi un arc de elipsă
+   Version: 0.15
+   SeeAlso: [Sketcher elipsă cu centru](Sketcher_CreateEllipseByCenter/ro.md), [Sketcher Arc cu centru](Sketcher_CompCreateArc/ro.md)
 ---
 
 # Sketcher CreateArcOfEllipse/ro
@@ -69,4 +69,4 @@ Acest instrument desenează un arc de elipsă prin alegerea a patru puncte: cent
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfEllipse/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfEllipse/ro

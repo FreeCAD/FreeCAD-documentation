@@ -4,7 +4,7 @@
 ## Introduction
 
 
-{{TOCright}}
+
 
 BOLTS est une bibliothèque ouverte pour les spécifications techniques.
 
@@ -71,4 +71,4 @@ est requis.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > BOLTSFC Workbench/fr
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > BOLTSFC Workbench/fr

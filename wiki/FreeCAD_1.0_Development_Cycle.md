@@ -55,4 +55,4 @@ There will be a nightly [Snap](https://github.com/FreeCAD/FreeCAD-snap/issues/24
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Developer](Category_Developer.md) > FreeCAD 1.0 Development Cycle
+⏵ [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Developer](Category_Developer.md) > FreeCAD 1.0 Development Cycle

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ViewBottom
-   Name/de:Std Bodenansicht
-   MenuLocation:{{StdMenu|[Ansichtsmenü](Std_View_Menu/de.md)}} - Standardansichten - Bodenansicht
-   Workbenches:Alle
-   Shortcut:5
-   SeeAlso:[Rückansicht](Std_ViewRear/de.md), [Ansicht von links](Std_ViewLeft/de.md)
+   Name: Std ViewBottom
+   Name/de: Std Bodenansicht
+   MenuLocation: {{StdMenu|[Ansichtsmenü](Std_View_Menu/de.md)}} - Standardansichten - Bodenansicht
+   Workbenches: Alle
+   Shortcut: 5
+   SeeAlso: [Rückansicht](Std_ViewRear/de.md), [Ansicht von links](Std_ViewLeft/de.md)
 ---
 
 # Std ViewBottom/de
@@ -53,4 +53,4 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewBottom/de
+⏵ [documentation index](../README.md) > Std ViewBottom/de

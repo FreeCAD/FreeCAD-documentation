@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh Difference   Name/de:Netze Differenz
-   MenuLocation:Netze - Boolean - Differenz
-   Workbenches:[Netze-Arbeitsbereich](Mesh_Workbench/de.md)
-   SeeAlso:
+   Name: Mesh Difference   Name/de: Netze Differenz
+   MenuLocation: Netze - Boolean - Differenz
+   Workbenches: [Netze-Arbeitsbereich](Mesh_Workbench/de.md)
+   SeeAlso: 
 ---
 
 # Mesh Difference/de
@@ -75,4 +75,4 @@ See: [Mesh Feature](Mesh_Feature.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Difference/de
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Difference/de

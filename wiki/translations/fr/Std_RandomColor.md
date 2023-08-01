@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std RandomColor
-   Name/fr:Std Couleur aléatoire
-   MenuLocation:Affichage - Couleur aléatoire
-   Workbenches:Tous
+   Name: Std RandomColor
+   Name/fr: Std Couleur aléatoire
+   MenuLocation: Affichage - Couleur aléatoire
+   Workbenches: Tous
 ---
 
 # Std RandomColor/fr
@@ -34,4 +34,4 @@ La commande **Std Couleur aléatoire** applique une {{PropertyView/fr|Shape Colo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std RandomColor/fr
+⏵ [documentation index](../README.md) > Std RandomColor/fr

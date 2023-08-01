@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ViewZoomIn
-   MenuLocation:View - Zoom - Zoom In
-   Workbenches:All
-   Shortcut:**Ctrl**+**+**
-   SeeAlso:[Std ViewZoomOut](Std_ViewZoomOut.md), [Std ViewBoxZoom](Std_ViewBoxZoom.md)
+   Name: Std ViewZoomIn
+   MenuLocation: View - Zoom - Zoom In
+   Workbenches: All
+   Shortcut: **Ctrl**+**+**
+   SeeAlso: [Std ViewZoomOut](Std_ViewZoomOut.md), [Std ViewBoxZoom](Std_ViewBoxZoom.md)
 ---
 
 # Std ViewZoomIn
@@ -51,4 +51,4 @@ FreeCADGui.ActiveDocument.ActiveView.zoomIn()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewZoomIn
+⏵ [documentation index](../README.md) > Std ViewZoomIn

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign Revolution
-   MenuLocation:Part Design - Create an additive feature - Revolution
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[PartDesign Groove](PartDesign_Groove.md)
+   Name: PartDesign Revolution
+   MenuLocation: Part Design - Create an additive feature - Revolution
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   SeeAlso: [PartDesign Groove](PartDesign_Groove.md)
 ---
 
 # PartDesign Revolution/en
@@ -83,4 +83,4 @@ A [detailed example of use](http://forum.freecadweb.org/viewtopic.php?f=3&t=3674
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/en
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/en

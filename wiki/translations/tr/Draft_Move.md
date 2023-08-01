@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Move
-   Name/tr:Taşı
-   MenuLocation:Taslak - Taşı
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
-   Shortcut:**M** **V**
-   SeeAlso:[Dizi](Draft_Array/tr.md), [Yol dizisi](Draft_PathArray/tr.md)
-   Version:0.7
+   Name: Draft Move
+   Name/tr: Taşı
+   MenuLocation: Taslak - Taşı
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   Shortcut: **M** **V**
+   SeeAlso: [Dizi](Draft_Array/tr.md), [Yol dizisi](Draft_PathArray/tr.md)
+   Version: 0.7
 ---
 
 # Draft Move/tr
@@ -182,4 +182,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move/tr

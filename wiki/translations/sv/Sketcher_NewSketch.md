@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher NewSketch
-   Name/sv:Skapa skiss
-   Workbenches:[Sketcher](Sketcher_Workbench/sv.md)
-   MenuLocation:Sketch - Skapa skiss
-   SeeAlso:[Kartera skiss till ytan ...](Sketcher_MapSketch/sv.md), [Omorientera skiss...](Sketcher_ReorientSketch/sv.md)
+   Name: Sketcher NewSketch
+   Name/sv: Skapa skiss
+   Workbenches: [Sketcher](Sketcher_Workbench/sv.md)
+   MenuLocation: Sketch - Skapa skiss
+   SeeAlso: [Kartera skiss till ytan ...](Sketcher_MapSketch/sv.md), [Omorientera skiss...](Sketcher_ReorientSketch/sv.md)
 ---
 
 # Sketcher NewSketch/sv
@@ -47,4 +47,4 @@ The sketch can be moved in the [3D view](3D_view.md) using [Placement](Placement
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/sv
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/sv

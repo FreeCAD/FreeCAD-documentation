@@ -48,4 +48,4 @@ Fichier téléchargeable :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Swag/fr
+⏵ [documentation index](../README.md) > Swag/fr

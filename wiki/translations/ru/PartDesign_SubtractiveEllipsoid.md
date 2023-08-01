@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Субтрактивный эллипсоид
-   Name:PartDesign_SubtractiveEllipsoid
-   MenuLocation:Part Design - Создать субтрактивный примитив - Субтрактивный эллипсоид
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Создать субтрактивный примитив](PartDesign_CompPrimitiveSubtractive/ru.md), [Аддитивный эллипсоид](PartDesign_AdditiveEllipsoid/ru.md)
+   Name/ru: Субтрактивный эллипсоид
+   Name: PartDesign_SubtractiveEllipsoid
+   MenuLocation: Part Design - Создать субтрактивный примитив - Субтрактивный эллипсоид
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Создать субтрактивный примитив](PartDesign_CompPrimitiveSubtractive/ru.md), [Аддитивный эллипсоид](PartDesign_AdditiveEllipsoid/ru.md)
 ---
 
 # PartDesign SubtractiveEllipsoid/ru
@@ -61,4 +61,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveEllipsoid/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveEllipsoid/ru

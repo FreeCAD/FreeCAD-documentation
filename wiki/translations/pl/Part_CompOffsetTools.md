@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part CompOffsetTools
-   Name/pl:Część: Komponent narzędzia odsunięcia
-   MenuLocation:brak
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:
+   Name: Part CompOffsetTools
+   Name/pl: Część: Komponent narzędzia odsunięcia
+   MenuLocation: brak
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: 
 ---
 
 # Part CompOffsetTools/pl
@@ -23,4 +23,4 @@ Jest to zestaw narzędzi do odsunięć.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompOffsetTools/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompOffsetTools/pl

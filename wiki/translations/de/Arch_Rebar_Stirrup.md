@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch_Rebar_Stirrup   Name/de:Arch Bewehrungsstab bügelförmig
-   MenuLocation:Arch - Rebar tools - Stirrup oder 3D/BIM - Reinforcement tools - Bügel
-   Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[Verstärkung](Reinforcement_Workbench/de.md), [Bewehrungsstab](Arch_Rebar/de.md), [Spiralförmiger Bewehrungsstab](Arch_Rebar_Helical/de.md)
+   Name: Arch_Rebar_Stirrup   Name/de: Arch Bewehrungsstab bügelförmig
+   MenuLocation: Arch - Rebar tools - Stirrup oder 3D/BIM - Reinforcement tools - Bügel
+   Workbenches: [Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [Verstärkung](Reinforcement_Workbench/de.md), [Bewehrungsstab](Arch_Rebar/de.md), [Spiralförmiger Bewehrungsstab](Arch_Rebar_Helical/de.md)
 ---
 
 # Arch Rebar Stirrup/de
@@ -187,4 +187,4 @@ Stirrup.editStirrup(Rebar, 20, 20, 20, 20, 50,
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Stirrup/de
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Stirrup/de

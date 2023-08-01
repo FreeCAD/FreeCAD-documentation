@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std MacroStopRecord
-   Name/fr:Std Arrêter l'enregistrement de la macro
-   MenuLocation:Macro - Arrêter l'enregistrement de la macro
-   Workbenches:Tous
-   SeeAlso:[Std Enregistrement de macro](Std_DlgMacroRecord/fr.md)
+   Name: Std MacroStopRecord
+   Name/fr: Std Arrêter l'enregistrement de la macro
+   MenuLocation: Macro - Arrêter l'enregistrement de la macro
+   Workbenches: Tous
+   SeeAlso: [Std Enregistrement de macro](Std_DlgMacroRecord/fr.md)
 ---
 
 # Std MacroStopRecord/fr
@@ -39,4 +39,4 @@ La commande **Std Arrêt enregistrement macro** met fin à une session d\'enregi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MacroStopRecord/fr
+⏵ [documentation index](../README.md) > Std MacroStopRecord/fr

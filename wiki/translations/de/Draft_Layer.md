@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Layer
-   Name/de:Draft Layer
-   MenuLocation:Dienstprogramme - Ebene
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[Draft AutoGruppe](Draft_AutoGroup/de.md), [Draft LayerManager](Draft_LayerManager/de.md)
+   Name: Draft Layer
+   Name/de: Draft Layer
+   MenuLocation: Dienstprogramme - Ebene
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [Draft AutoGruppe](Draft_AutoGroup/de.md), [Draft LayerManager](Draft_LayerManager/de.md)
 ---
 
 # Draft Layer/de
@@ -145,4 +145,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Layer/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Layer/de

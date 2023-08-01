@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw WeldSymbol
-   MenuLocation:TechDraw - Symbols - Add Welding Information to Leaderline
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.19
-   SeeAlso:[TechDraw Leaderline](TechDraw_LeaderLine.md)
+   Name: TechDraw WeldSymbol
+   MenuLocation: TechDraw - Symbols - Add Welding Information to Leaderline
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Version: 0.19
+   SeeAlso: [TechDraw Leaderline](TechDraw_LeaderLine.md)
 ---
 
 # TechDraw WeldSymbol
@@ -112,4 +112,4 @@ Individual symbols are formed by 64x64 pixel SVG files. Additional symbols can b
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw WeldSymbol
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw WeldSymbol

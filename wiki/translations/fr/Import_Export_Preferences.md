@@ -1,8 +1,4 @@
 # Import Export Preferences/fr
-{{TOCright}}
-
-
-
 ## Introduction
 
 FreeCAD peut importer et exporter de nombreux formats de fichiers. Pour certains formats, des préférences dédiées existent. Vous les trouverez dans l\'[Éditeur de préférences](Preferences_Editor/fr.md) dans le menu **Édition → Préférences → Importer/Exporter**.
@@ -661,4 +657,4 @@ Pour le format VTK vous pouvez spécifier ce qui suit:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Preferences](Category_Preferences.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export Preferences/fr
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Preferences](Category_Preferences.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export Preferences/fr

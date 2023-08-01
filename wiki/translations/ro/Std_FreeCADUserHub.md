@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std FreeCADUserHub
-   MenuLocation:[Help](Std_Help_Menu.md) - Users documentation
-   Workbenches:All
-   SeeAlso:[Help](Std_OnlineHelp.md)
+   Name: Std FreeCADUserHub
+   MenuLocation: [Help](Std_Help_Menu.md) - Users documentation
+   Workbenches: All
+   SeeAlso: [Help](Std_OnlineHelp.md)
 ---
 
 # Std FreeCADUserHub/ro
@@ -52,4 +52,4 @@ Currently the command points to [<https://wiki.freecad.org/User_hub>](https://wi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADUserHub/ro
+⏵ [documentation index](../README.md) > Std FreeCADUserHub/ro

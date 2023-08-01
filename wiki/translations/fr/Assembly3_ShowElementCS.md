@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ShowElementCS
-   Name/fr:Assembly3 Système de coordonnées de l'élément
-   Icon:Assembly_ShowElementCS.svg‎‎
-   MenuLocation:Assembly3 - Element style - Show element coordinate system
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 ShowElementCS
+   Name/fr: Assembly3 Système de coordonnées de l'élément
+   Icon: Assembly_ShowElementCS.svg‎‎
+   MenuLocation: Assembly3 - Element style - Show element coordinate system
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ShowElementCS/fr
@@ -34,4 +34,4 @@ Un ECS est représenté par 3 lignes qui se rejoignent à l\'origine des éléme
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ShowElementCS/fr
+⏵ [documentation index](../README.md) > Assembly3 ShowElementCS/fr

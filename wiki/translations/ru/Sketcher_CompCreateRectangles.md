@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Создать прямоугольник
-   Name:Sketcher_CompCreateRectangles
-   Icon:Sketcher_CompCreateRectangles.png
-   MenuLocation:Нет (только на панели инструментов)
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version : 0.20
+   Name/ru: Создать прямоугольник
+   Name: Sketcher_CompCreateRectangles
+   Icon: Sketcher_CompCreateRectangles.png
+   MenuLocation: Нет (только на панели инструментов)
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Version :  0.20
 ---
 
 # Sketcher CompCreateRectangles/ru
@@ -44,4 +44,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRectangles/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRectangles/ru

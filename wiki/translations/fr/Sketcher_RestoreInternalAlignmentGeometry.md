@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher RestoreInternalAlignmentGeometry
-   Name/fr:Sketcher Géométrie interne
-   MenuLocation:Esquisse - Outils d'esquisse - Afficher/masquer la géométrie interne
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**Z** **I**
-   SeeAlso:
+   Name: Sketcher RestoreInternalAlignmentGeometry
+   Name/fr: Sketcher Géométrie interne
+   MenuLocation: Esquisse - Outils d'esquisse - Afficher/masquer la géométrie interne
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **Z** **I**
+   SeeAlso: 
 ---
 
 # Sketcher RestoreInternalAlignmentGeometry/fr
@@ -45,4 +45,4 @@ S\'il existe des emplacements d\'alignement libres pour l\'élément sélectionn
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RestoreInternalAlignmentGeometry/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RestoreInternalAlignmentGeometry/fr

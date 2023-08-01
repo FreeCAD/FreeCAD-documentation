@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Симметрия
-   Name:Sketcher_Symmetry
-   MenuLocation:Sketch - Инструменты для эскиза - Симметрия
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.16
-   SeeAlso:[Отразить эскиз зеркально](Sketcher_MirrorSketch/ru.md)
+   Name/ru: Симметрия
+   Name: Sketcher_Symmetry
+   MenuLocation: Sketch - Инструменты для эскиза - Симметрия
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Version: 0.16
+   SeeAlso: [Отразить эскиз зеркально](Sketcher_MirrorSketch/ru.md)
 ---
 
 # Sketcher Symmetry/ru
@@ -46,4 +46,4 @@ Note that no extra symmetry constraint will be added.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Symmetry/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Symmetry/ru

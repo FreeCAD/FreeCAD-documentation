@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_MacroStartDebug
-   Name/ru:Отладка макросов
-   MenuLocation:Макро - Отладка макросов
-   Workbenches:All
-   Shortcut:**F6**
-   SeeAlso:[Остановить отладку](Std_MacroStopDebug/ru.md)
+   Name: Std_MacroStartDebug
+   Name/ru: Отладка макросов
+   MenuLocation: Макро - Отладка макросов
+   Workbenches: All
+   Shortcut: **F6**
+   SeeAlso: [Остановить отладку](Std_MacroStopDebug/ru.md)
 ---
 
 # Std MacroStartDebug/ru
@@ -25,4 +25,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MacroStartDebug/ru
+⏵ [documentation index](../README.md) > Std MacroStartDebug/ru

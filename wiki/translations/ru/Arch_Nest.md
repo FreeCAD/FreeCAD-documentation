@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Компоновка
-   Name:Arch_Nest
-   MenuLocation:Arch - Инструменты панелирования - Компоновка
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Паенль](Arch_Panel/ru.md), [Панельный лист](Arch_Panel_Sheet/ru.md)
+   Name/ru: Компоновка
+   Name: Arch_Nest
+   MenuLocation: Arch - Инструменты панелирования - Компоновка
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Паенль](Arch_Panel/ru.md), [Панельный лист](Arch_Panel_Sheet/ru.md)
 ---
 
 # Arch Nest/ru
@@ -45,4 +45,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Nest/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Nest/ru

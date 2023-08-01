@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Export
-   Name/ko:표준 내보내기
-   MenuLocation:파일 - 내보내기...
-   Workbenches:모두
-   Shortcut:**Ctrl**+**E**
-   SeeAlso:[Std PrintPdf](Std_PrintPdf.md), [Import Export](Import_Export.md), [Import Export Preferences](Import_Export_Preferences.md)
+   Name: Std Export
+   Name/ko: 표준 내보내기
+   MenuLocation: 파일 - 내보내기...
+   Workbenches: 모두
+   Shortcut: **Ctrl**+**E**
+   SeeAlso: [Std PrintPdf](Std_PrintPdf.md), [Import Export](Import_Export.md), [Import Export Preferences](Import_Export_Preferences.md)
 ---
 
 # Std Export/ko
@@ -60,4 +60,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export/ko
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export/ko

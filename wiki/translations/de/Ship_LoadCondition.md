@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Ship Loading
-   Name/de:Schiffsbelastung
-   MenuLocation:Gewichte - Erstelle eine neue Ladebedingung
+   Name: Ship Loading
+   Name/de: Schiffsbelastung
+   MenuLocation: Gewichte - Erstelle eine neue Ladebedingung
 |
-   Workbenches:[Schiff](Ship_Workbench/de.md)
-   Shortcut:
-   SeeAlso:
+   Workbenches: [Schiff](Ship_Workbench/de.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Ship LoadCondition/de
@@ -49,4 +49,4 @@ ZUTUN
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship LoadCondition/de
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship LoadCondition/de

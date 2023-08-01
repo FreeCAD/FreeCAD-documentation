@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft ApplyStyle
-   MenuLocation:Utilities - Apply current style
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso:[Draft SetStyle](Draft_SetStyle.md)
+   Name: Draft ApplyStyle
+   MenuLocation: Utilities - Apply current style
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   SeeAlso: [Draft SetStyle](Draft_SetStyle.md)
 ---
 
 # Draft ApplyStyle/pt-br
@@ -51,4 +51,4 @@ This command currently handles only five of the settings the [Draft SetStyle](Dr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/pt-br
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/pt-br

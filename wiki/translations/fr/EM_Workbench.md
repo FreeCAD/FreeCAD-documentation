@@ -1,7 +1,7 @@
 # <img alt="Icône de l\'atelier externe EM" src=images/EMWorkbench.svg  style="width:64px;"> EM Workbench/fr
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -71,4 +71,4 @@ Certains tutoriels vidéo sont disponibles pour les versions bêta de l\'atelier
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [EM](Category_EM.md) > EM Workbench/fr
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [EM](Category_EM.md) > EM Workbench/fr

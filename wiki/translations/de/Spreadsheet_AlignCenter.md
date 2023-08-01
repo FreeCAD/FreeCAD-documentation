@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet AlignCenter
-   Name/de:Kalkulationstabelle MittigAusrichten
-   MenuLocation:Kalkulationstabelle - Ausrichtung - Mittig Ausrichten
-   Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)
-   Version:0.17
+   Name: Spreadsheet AlignCenter
+   Name/de: Kalkulationstabelle MittigAusrichten
+   MenuLocation: Kalkulationstabelle - Ausrichtung - Mittig Ausrichten
+   Workbenches: [Tabellenkalkulation](Spreadsheet_Workbench/de.md)
+   Version: 0.17
 ---
 
 # Spreadsheet AlignCenter/de
@@ -30,4 +30,4 @@ Das **[<img src=images/Spreadsheet_AlignCenter.svg style="width:16px"> [Kalkulat
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignCenter/de
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignCenter/de

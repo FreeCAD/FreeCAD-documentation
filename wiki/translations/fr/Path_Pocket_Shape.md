@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path Pocket Shape
-   Name/fr:Path Poche
-   MenuLocation:Path - Poche
-   Workbenches:[Path](Path_Workbench/fr.md)
+   Name: Path Pocket Shape
+   Name/fr: Path Poche
+   MenuLocation: Path - Poche
+   Workbenches: [Path](Path_Workbench/fr.md)
 ---
 
 # Path Pocket Shape/fr
@@ -266,4 +266,4 @@ Cette section est simplement une représentation des paramètres de l'éditeur d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Pocket Shape/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Pocket Shape/fr

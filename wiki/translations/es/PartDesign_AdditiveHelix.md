@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveHelix
-   Name/es:PartDesign Hélice aditiva
-   MenuLocation:PartDesign - Create an additive feature - Additive helix
-   Workbenches:[PartDesign](PartDesign_Workbench/es.md)
-   Version:0.19
-   SeeAlso:[PartDesign SubtractiveHelix](PartDesign_SubtractiveHelix.md)
+   Name: PartDesign AdditiveHelix
+   Name/es: PartDesign Hélice aditiva
+   MenuLocation: PartDesign - Create an additive feature - Additive helix
+   Workbenches: [PartDesign](PartDesign_Workbench/es.md)
+   Version: 0.19
+   SeeAlso: [PartDesign SubtractiveHelix](PartDesign_SubtractiveHelix.md)
 ---
 
 # PartDesign AdditiveHelix/es
@@ -156,4 +156,4 @@ Si está marcada esta casilla, la hélice se mostrará en la vista y se actualiz
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveHelix/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveHelix/es

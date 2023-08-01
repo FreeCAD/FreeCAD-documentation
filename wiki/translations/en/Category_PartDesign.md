@@ -34,4 +34,4 @@ This category lists pages related to the [PartDesign Workbench](PartDesign_Workb
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [User_Documentation](Category_User_Documentation.md) > Category:PartDesign/en
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [User_Documentation](Category_User_Documentation.md) > Category:PartDesign/en

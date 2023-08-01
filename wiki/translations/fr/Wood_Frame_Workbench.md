@@ -2,7 +2,7 @@
 **Cet atelier n'est pas développé ou maintenu activement, recherche de développeurs et de mainteneurs.**
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -65,4 +65,4 @@ Wood Frame est compatible avec Freecad 0.19.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Wood Frame Workbench/fr
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Wood Frame Workbench/fr

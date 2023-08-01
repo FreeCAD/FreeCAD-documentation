@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Hatch
-   Name/pl:Rysunek Roboczy: Kreskowanie
-   MenuLocation:Kreślenie - Kreskowanie
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut:**H** **A**
-   Version:0.20
-   SeeAlso:[Wypełnienie](Draft_Pattern/pl.md)
+   Name: Draft Hatch
+   Name/pl: Rysunek Roboczy: Kreskowanie
+   MenuLocation: Kreślenie - Kreskowanie
+   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut: **H** **A**
+   Version: 0.20
+   SeeAlso: [Wypełnienie](Draft_Pattern/pl.md)
 ---
 
 # Draft Hatch/pl
@@ -121,4 +121,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Hatch/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Hatch/pl

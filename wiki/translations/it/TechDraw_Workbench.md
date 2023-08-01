@@ -11,7 +11,7 @@ Alla pagina possono essere aggiunte dimensioni, sezioni, aree tratteggiate, anno
 Se il tuo obiettivo primario è la produzione di disegni 2D complessi, e di file [ DXF](DXF/it.md), e non si ha bisogno di modelli 3D, FreeCAD potrebbe non essere la scelta giusta per te. Dovresti invece prendere in considerazione un programma software dedicato al disegno tecnico, come [LibreCAD](https://en.wikipedia.org/wiki/LibreCAD) o [QCad](https://en.wikipedia.org/wiki/QCad).
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/TechDraw_Workbench_Example.png  style="width:600px;">
 
@@ -383,4 +383,4 @@ Vuoi conoscere il futuro di TechDraw Workbench? Visita [la pagina della roadmap 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/it
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/it

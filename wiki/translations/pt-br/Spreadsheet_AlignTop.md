@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet AlignTop
-   MenuLocation:Spreadsheet - Alignment - Align top
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
-   Version:0.17
+   Name: Spreadsheet AlignTop
+   MenuLocation: Spreadsheet - Alignment - Align top
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench.md)
+   Version: 0.17
 ---
 
 # Spreadsheet AlignTop/pt-br
@@ -29,4 +29,4 @@ The **[<img src=images/Spreadsheet_AlignTop.svg style="width:16px"> [Spreadsheet
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignTop/pt-br
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignTop/pt-br

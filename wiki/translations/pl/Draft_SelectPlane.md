@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft SelectPlane
-   Name/pl:Rysunek Roboczy: Wybór płaszczyzny
-   MenuLocation:Kreślenie - Przybory - Wybierz płaszczyznę
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut:**W** **P**
-   SeeAlso:[Ustaw pośrednią płaszczyznę roboczą](Draft_SetWorkingPlaneProxy/pl.md), [Pokaż / ukryj siatkę](Draft_ToggleGrid/pl.md)
+   Name: Draft SelectPlane
+   Name/pl: Rysunek Roboczy: Wybór płaszczyzny
+   MenuLocation: Kreślenie - Przybory - Wybierz płaszczyznę
+   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut: **W** **P**
+   SeeAlso: [Ustaw pośrednią płaszczyznę roboczą](Draft_SetWorkingPlaneProxy/pl.md), [Pokaż / ukryj siatkę](Draft_ToggleGrid/pl.md)
 ---
 
 # Draft SelectPlane/pl
@@ -138,4 +138,4 @@ print(projection)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectPlane/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectPlane/pl

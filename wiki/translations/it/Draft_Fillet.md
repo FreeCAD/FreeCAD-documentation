@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Fillet
-   Name/it:Raccordo
-   MenuLocation:Drafting - Raccordo
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:**F** **I**
-   Version:0.19
-   SeeAlso:[Linea](Draft_Line/it.md), [Polilinea](Draft_Wire/it.md)
+   Name: Draft Fillet
+   Name/it: Raccordo
+   MenuLocation: Drafting - Raccordo
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut: **F** **I**
+   Version: 0.19
+   SeeAlso: [Linea](Draft_Line/it.md), [Polilinea](Draft_Wire/it.md)
 ---
 
 # Draft Fillet/it
@@ -132,4 +132,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Fillet/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Fillet/it

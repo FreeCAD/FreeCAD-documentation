@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Sphere
-   Name/it:Sfera
-   MenuLocation:Parte - Sfera
-   Workbenches:[Parte](Part_Workbench/it.md)
-   SeeAlso:[Crea Primitive...](Part_CreatePrimitives/it.md)
+   Name: Part Sphere
+   Name/it: Sfera
+   MenuLocation: Parte - Sfera
+   Workbenches: [Parte](Part_Workbench/it.md)
+   SeeAlso: [Crea Primitive...](Part_CreatePrimitives/it.md)
 ---
 
 # Part Sphere/it
@@ -115,4 +115,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/it

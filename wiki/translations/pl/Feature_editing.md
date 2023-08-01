@@ -1,6 +1,4 @@
 # Feature editing/pl
-{{TOCright}}
-
 ## Wprowadzenie
 
 Ta strona wyjaśnia sposób, w jaki środowisko pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [Projekt Części](PartDesign_Workbench/pl.md) jest przeznaczone do użycia począwszy od FreeCAD w wersji 0.17.
@@ -174,4 +172,4 @@ Strona [Poradniki](Tutorials/pl.md) zawiera kilka przykładów użycia metody [E
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [PartDesign](Category_PartDesign.md) > Feature editing/pl
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [PartDesign](Category_PartDesign.md) > Feature editing/pl

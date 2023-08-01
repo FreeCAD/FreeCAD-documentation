@@ -39,4 +39,4 @@ Icône de la barre d\'outils ![](images/Intersection_Icon.svg )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Intersection/fr
+⏵ [documentation index](../README.md) > Macro Intersection/fr

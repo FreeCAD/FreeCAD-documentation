@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Offset2D
-   Name/pl:Część: Odsunięcie 2D
-   MenuLocation:Część - Odsunięcie 2D
-   Workbenches:[Część](Part_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Odsunięcie 3D](Part_Offset/pl.md), [Grubość](Part_Thickness/pl.md), [Odsunięcie](Draft_Offset/pl.md)
+   Name: Part Offset2D
+   Name/pl: Część: Odsunięcie 2D
+   MenuLocation: Część - Odsunięcie 2D
+   Workbenches: [Część](Part_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Odsunięcie 3D](Part_Offset/pl.md), [Grubość](Part_Thickness/pl.md), [Odsunięcie](Draft_Offset/pl.md)
 ---
 
 # Part Offset2D/pl
@@ -122,4 +122,4 @@ Part.show(enlarged_circle)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset2D/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset2D/pl

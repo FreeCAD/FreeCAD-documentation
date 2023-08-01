@@ -1,10 +1,10 @@
 ---
 - GuiCommand:Addon
-   Name:BIM Copy
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
-   Addon:BIM
-   MenuLocation:Modify -> Copy
-   SeeAlso:[[Draft Move]]
+   Name: BIM Copy
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
+   Addon: BIM
+   MenuLocation: Modify -> Copy
+   SeeAlso: [[Draft Move]]
 ---
 
 # BIM Copy/ru
@@ -25,4 +25,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Copy/ru
+⏵ [documentation index](../README.md) > BIM Copy/ru

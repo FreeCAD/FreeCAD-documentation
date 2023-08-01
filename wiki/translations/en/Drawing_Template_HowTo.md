@@ -229,4 +229,4 @@ The two tools used in this tutorial were Inkscape and Kate. They can be found by
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Template HowTo/en
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Template HowTo/en

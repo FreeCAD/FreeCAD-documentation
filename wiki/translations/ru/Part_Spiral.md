@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Spiral
-   Name/ru:Плоская Cпираль
-   MenuLocation:[Деталь](Part_Workbench/ru.md) - [Создать примитивы...](Part_Primitives/ru.md) - Спираль
-   Workbenches:[Part(Деталь)](Part_Workbench/ru.md)
-   Version:0.14
-   SeeAlso:[Создать примитивы...](Part_CreatePrimitives/ru.md)
+   Name: Part Spiral
+   Name/ru: Плоская Cпираль
+   MenuLocation: [Деталь](Part_Workbench/ru.md) - [Создать примитивы...](Part_Primitives/ru.md) - Спираль
+   Workbenches: [Part(Деталь)](Part_Workbench/ru.md)
+   Version: 0.14
+   SeeAlso: [Создать примитивы...](Part_CreatePrimitives/ru.md)
 ---
 
 # Part Spiral/ru
@@ -95,4 +95,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Spiral/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Spiral/ru

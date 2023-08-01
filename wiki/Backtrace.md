@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Backtrace
+⏵ [documentation index](../README.md) > Backtrace

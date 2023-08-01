@@ -2,7 +2,7 @@
 ## Introdução
 
 
-{{TOCright}}
+
 
 A [command](Command.md) is what is being executed when you press a toolbar button or type a keyboard shortcut. It can be a very simple action, like changing the zoom level of the [3D view](3D_view.md) or rotating the point of view, or a complex system that will open dialog boxes and wait for the user to perform specific tasks.
 
@@ -96,4 +96,4 @@ See [Line drawing function](Line_drawing_function.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Command_Reference|:Category:Command Reference]] page. Commands can be launched by a toolbar button, a menu item, or from a ](Category_Command_Reference|:Category:Command Reference]] page. Commands can be launched by a toolbar button, a menu item, or from a .md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/pt-br
+⏵ [documentation index](../README.md) > [Command_Reference|:Category:Command Reference]] page. Commands can be launched by a toolbar button, a menu item, or from a ](Category_Command_Reference|:Category:Command Reference]] page. Commands can be launched by a toolbar button, a menu item, or from a .md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/pt-br

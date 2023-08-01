@@ -14,4 +14,4 @@ Kategori ini berisi artikel tentang penggunaan FreeCAD. Hal ini juga daftar pusa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Documentation/id
+⏵ [documentation index](../README.md) > Category:Documentation/id

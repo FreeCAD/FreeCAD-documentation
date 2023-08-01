@@ -1,7 +1,4 @@
 # Tutorials/zh-cn
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 本页展示了一系列精选的高质量图文教程。完整无序的教程集可以在[:Category:Tutorials找到](:Category_Tutorials.md)。
@@ -393,4 +390,4 @@ Here are listed all the tutorials that are not in the manual **regardless of the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Tutorials/zh-cn
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Tutorials/zh-cn

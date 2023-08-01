@@ -1,6 +1,6 @@
 # Draft AutoGroup/ro
 ---
-- GuiCommand:   Name:Draft AutoGroup   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft - Utilities - AutoGroup   SeeAlso:---
+- GuiCommand:   Name: Draft AutoGroup   Workbenches: [Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation: Draft - Utilities - AutoGroup   SeeAlso: ---
 
 
 </div>
@@ -93,4 +93,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AutoGroup/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AutoGroup/ro

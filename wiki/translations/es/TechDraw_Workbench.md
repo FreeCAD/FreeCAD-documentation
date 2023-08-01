@@ -17,7 +17,7 @@ FreeCAD es principalmente una aplicación de modelado en 3D, y por lo tanto no t
 </div>
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/TechDraw_Workbench_Example.png  style="width:600px;">
 
@@ -686,4 +686,4 @@ Do you want to know about the future of the TechDraw Workbench? Visit [the TechD
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/es
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/es

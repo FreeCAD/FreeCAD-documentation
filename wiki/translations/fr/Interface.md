@@ -1,6 +1,4 @@
 # Interface/fr
-{{TOCright}}
-
 ## Introduction
 
 L'[interface](interface/fr.md) FreeCAD est basée sur Qt, un toolkit d'interface utilisateur graphique bien connu, particulièrement utilisé sous Linux mais également disponible sous Windows et MacOS.
@@ -95,4 +93,4 @@ Ces options sont dans le menu, **Outils → Personnaliser...**. Voir [Personnali
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Interface/fr
+⏵ [documentation index](../README.md) > Interface/fr

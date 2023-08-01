@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign_PolarPattern
-   Name/it:Serie polare
-   Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:PartDesign - Serie polare
-   SeeAlso:[Serie lineare](PartDesign_LinearPattern/it.md)
+   Name: PartDesign_PolarPattern
+   Name/it: Serie polare
+   Workbenches: [PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation: PartDesign - Serie polare
+   SeeAlso: [Serie lineare](PartDesign_LinearPattern/it.md)
 ---
 
 # PartDesign PolarPattern/it
@@ -151,4 +151,4 @@ If some of the selected features are additive and others subtractive, their orde
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/it

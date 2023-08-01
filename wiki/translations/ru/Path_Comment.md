@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Path Comment
-   Name/ru:Path Comment
-   MenuLocation:Path - Supplemental commands - Закомментировать
-   Workbenches:[Path](Path_Workbench/ru.md)
-   Shortcut:**P** **C**
-   SeeAlso:
+   Name: Path Comment
+   Name/ru: Path Comment
+   MenuLocation: Path - Supplemental commands - Закомментировать
+   Workbenches: [Path](Path_Workbench/ru.md)
+   Shortcut: **P** **C**
+   SeeAlso: 
 ---
 
 # Path Comment/ru
@@ -65,4 +65,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Comment/ru
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Comment/ru

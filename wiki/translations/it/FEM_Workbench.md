@@ -1,7 +1,7 @@
 # <img alt="L\'icona dell\'ambiente FEM" src=images/Workbench_FEM.svg  style="width:64px;"> FEM Workbench/it
 
 
-{{TOCright}}
+
 
 
 
@@ -349,4 +349,4 @@ Per aiutare gli utenti a comprendere la complessa base di codici di FreeCAD e le
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [FEM](Category_FEM.md) > FEM Workbench/it
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [FEM](Category_FEM.md) > FEM Workbench/it

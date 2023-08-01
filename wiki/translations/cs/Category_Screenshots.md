@@ -10,4 +10,4 @@ This category lists pages with screenshots.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Screenshots/cs
+⏵ [documentation index](../README.md) > Category:Screenshots/cs

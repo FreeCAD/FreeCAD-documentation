@@ -1,6 +1,4 @@
 # Stemfie Workbench/pl
-{{TOCright}}
-
 ## Wprowadzenie
 
 Środowisko pracy Stemfie to [środowisko zewnętrzne](External_workbenches/pl.md), którego celem jest implementacja parametrycznego zestawu części dla [projektu Stemfie](https://www.stemfie.org/).
@@ -18,4 +16,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External_Workbenches](Category_External_Workbenches.md) > Stemfie Workbench/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External_Workbenches](Category_External_Workbenches.md) > Stemfie Workbench/pl

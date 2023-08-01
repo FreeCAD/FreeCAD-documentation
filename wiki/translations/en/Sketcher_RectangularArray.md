@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher RectangularArray
-   MenuLocation:Sketch - Sketcher tools - Rectangular array
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**Z** **A**
-   Version:0.16
+   Name: Sketcher RectangularArray
+   MenuLocation: Sketch - Sketcher tools - Rectangular array
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **Z** **A**
+   Version: 0.16
 ---
 
 # Sketcher RectangularArray/en
@@ -48,4 +48,4 @@ Creates an array of selected sketcher elements.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RectangularArray/en
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RectangularArray/en

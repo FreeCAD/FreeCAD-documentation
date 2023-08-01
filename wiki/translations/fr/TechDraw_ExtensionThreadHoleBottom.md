@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionThreadHoleBottom
-   Name/fr:TechDraw Taraudage
-   MenuLocation:TechDraw - Extensions : taraudages/filetages - Taraudage
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw Corps de filetage](TechDraw_ExtensionThreadBoltBottom/fr.md), [TechDraw Axes de centrage](TechDraw_ExtensionCircleCenterLines/fr.md)
+   Name: TechDraw ExtensionThreadHoleBottom
+   Name/fr: TechDraw Taraudage
+   MenuLocation: TechDraw - Extensions : taraudages/filetages - Taraudage
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw Corps de filetage](TechDraw_ExtensionThreadBoltBottom/fr.md), [TechDraw Axes de centrage](TechDraw_ExtensionCircleCenterLines/fr.md)
 ---
 
 # TechDraw ExtensionThreadHoleBottom/fr
@@ -42,4 +42,4 @@ L\'outil **TechDraw Taraudage** ajoute des taraudages cosmétiques à la vue de 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadHoleBottom/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadHoleBottom/fr

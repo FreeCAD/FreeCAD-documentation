@@ -16,4 +16,4 @@ Some roadmaps on the Wiki use the [Getting Things Done (GTD)](https://en.wikiped
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Development roadmap/id
+⏵ [documentation index](../README.md) > Development roadmap/id

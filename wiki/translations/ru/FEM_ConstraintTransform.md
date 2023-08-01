@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintTransform
-   Name/ru:FEM ConstraintTransform
-   MenuLocation: Model - Geometrical constraints - Constraint transform
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   SeeAlso:[FEM Constraint plane rotation](FEM_ConstraintPlaneRotation/ru.md)
+   Name: FEM ConstraintTransform
+   Name/ru: FEM ConstraintTransform
+   MenuLocation:  Model - Geometrical constraints - Constraint transform
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   SeeAlso: [FEM Constraint plane rotation](FEM_ConstraintPlaneRotation/ru.md)
 ---
 
 # FEM ConstraintTransform/ru
@@ -52,4 +52,4 @@ Transforms the coordinate system of a face to a particular coordinate system - r
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FEM ConstraintTransform/ru
+⏵ [documentation index](../README.md) > FEM ConstraintTransform/ru

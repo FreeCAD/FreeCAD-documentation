@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreeCollapseDocument
-   Name/fr:Std Arborescence Réduire développer
-   MenuLocation:Affichage - Vue en arborescence - Réduire/développer
-   Workbenches:Tous
-   Version:0.19
-   SeeAlso:[Std Arborescence Document unique](Std_TreeSingleDocument/fr.md), [Std Arborescence Document multiple](Std_TreeMultiDocument/fr.md)
+   Name: Std TreeCollapseDocument
+   Name/fr: Std Arborescence Réduire développer
+   MenuLocation: Affichage - Vue en arborescence - Réduire/développer
+   Workbenches: Tous
+   Version: 0.19
+   SeeAlso: [Std Arborescence Document unique](Std_TreeSingleDocument/fr.md), [Std Arborescence Document multiple](Std_TreeMultiDocument/fr.md)
 ---
 
 # Std TreeCollapseDocument/fr
@@ -39,4 +39,4 @@ Le mode Document de l\'arborescence est enregistré dans : **Outils → Éditer 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeCollapseDocument/fr
+⏵ [documentation index](../README.md) > Std TreeCollapseDocument/fr

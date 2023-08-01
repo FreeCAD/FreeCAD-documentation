@@ -1,6 +1,6 @@
 # Path Surface/ro
 ---
-- GuiCommand:   Name:Path 3DSurface   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path - 3D Surface   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Path 3DSurface   Workbenches: [[Path Workbench   Path]]|MenuLocation: Path - 3D Surface   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -450,4 +450,4 @@ This section is simply a layout map of the settings in the window editor for the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Surface/ro
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Surface/ro

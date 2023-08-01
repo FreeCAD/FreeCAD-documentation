@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Points Export
-   MenuLocation:Points - Export points...
-   Workbenches:[Points](Points_Workbench.md)
-   SeeAlso:[Import Export](Import_Export.md)
+   Name: Points Export
+   MenuLocation: Points - Export points...
+   Workbenches: [Points](Points_Workbench.md)
+   SeeAlso: [Import Export](Import_Export.md)
 ---
 
 # Points Export
@@ -29,4 +29,4 @@ The **Points Export** command exports a point cloud to a file.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Export
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Export

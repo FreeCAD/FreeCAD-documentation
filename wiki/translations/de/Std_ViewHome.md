@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Std ViewHome
-   Name/de:Std ViewHome
-   MenuLocation:Ansicht - Standardansichten - Home
-   Workbenches:Alle
-   Shortcut:**Pos1**
-   Version:0.19
-   SeeAlso:[Std AnsichtEinpassenAlles](Std_ViewFitAll/de.md)
+   Name: Std ViewHome
+   Name/de: Std ViewHome
+   MenuLocation: Ansicht - Standardansichten - Home
+   Workbenches: Alle
+   Shortcut: **Pos1**
+   Version: 0.19
+   SeeAlso: [Std AnsichtEinpassenAlles](Std_ViewFitAll/de.md)
 ---
 
 # Std ViewHome/de
@@ -37,4 +37,4 @@ Der **Std ViewHome**-Befehl ändert die Kamera in der aktiven [3D-Ansicht](3D_vi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewHome/de
+⏵ [documentation index](../README.md) > Std ViewHome/de

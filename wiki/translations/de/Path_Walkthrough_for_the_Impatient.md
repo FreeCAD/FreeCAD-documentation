@@ -318,4 +318,4 @@ Der letzte Schritt zur Erzeugung von G-Code für die Zielfräse ist die Nachbear
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/de
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/de

@@ -8,4 +8,4 @@ Questa categoria contiene le pagine di aiuto per tutti i comandi di FreeCAD.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > List of Commands/it
+⏵ [documentation index](../README.md) > List of Commands/it

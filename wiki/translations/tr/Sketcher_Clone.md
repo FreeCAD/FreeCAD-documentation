@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher Clone
-   Name/tr:Eskiz Klonla
-   Workbenches:[Eskiz](Sketcher_Workbench/tr.md)
-   MenuLocation:Eskiz - Eskiz araçları - Klonla
-   Version:0.16
-   SeeAlso:[Eskiz Kopyala](Sketcher_Copy/tr.md), [Eskiz Taşı](Sketcher_Move/tr.md)
+   Name: Sketcher Clone
+   Name/tr: Eskiz Klonla
+   Workbenches: [Eskiz](Sketcher_Workbench/tr.md)
+   MenuLocation: Eskiz - Eskiz araçları - Klonla
+   Version: 0.16
+   SeeAlso: [Eskiz Kopyala](Sketcher_Copy/tr.md), [Eskiz Taşı](Sketcher_Move/tr.md)
 
 ---
 
@@ -55,4 +55,4 @@ Bir klonun, klonunun bir Eskiz Kopyası haline geldiğine dikkat edin. Bağlant�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/tr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/tr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std DlgMacroExecute
-   Name/de:Std DlgMakroAusführen
-   MenuLocation:Makro - Makros...
-   Workbenches:Alle
-   SeeAlso:[Std MakroDirektAusführen](Std_DlgMacroExecuteDirect/de.md)
+   Name: Std DlgMacroExecute
+   Name/de: Std DlgMakroAusführen
+   MenuLocation: Makro - Makros...
+   Workbenches: Alle
+   SeeAlso: [Std MakroDirektAusführen](Std_DlgMacroExecuteDirect/de.md)
 ---
 
 # Std DlgMacroExecute/de
@@ -148,4 +148,4 @@ Der Befehl **Std DlgMakroAusführen** öffnet das Dialogfenster Makro ausführen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgMacroExecute/de
+⏵ [documentation index](../README.md) > Std DlgMacroExecute/de

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_SaveAll
-   Name/it:Salva tutto
-   MenuLocation:File - Salva tutto
-   Workbenches:Tutti
-   SeeAlso:[Salva](Std_Save/it.md)
+   Name: Std_SaveAll
+   Name/it: Salva tutto
+   MenuLocation: File - Salva tutto
+   Workbenches: Tutti
+   SeeAlso: [Salva](Std_Save/it.md)
 ---
 
 # Std SaveAll/it
@@ -56,4 +56,4 @@ Per salvare un documento, utilizzare il metodo `save` dell\'oggetto documento. U
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SaveAll/it
+⏵ [documentation index](../README.md) > Std SaveAll/it

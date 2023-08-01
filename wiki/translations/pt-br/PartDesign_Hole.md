@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Hole
-   MenuLocation:Part Design - Create a substractive feature - Hole
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   Version:0.17
-   SeeAlso:[PartDesign Pocket](PartDesign_Pocket.md)
+   Name: PartDesign Hole
+   MenuLocation: Part Design - Create a substractive feature - Hole
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Pocket](PartDesign_Pocket.md)
 ---
 
 # PartDesign Hole/pt-br
@@ -119,4 +119,4 @@ Example: {{Code|lang=json|code=
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Hole/pt-br
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Hole/pt-br

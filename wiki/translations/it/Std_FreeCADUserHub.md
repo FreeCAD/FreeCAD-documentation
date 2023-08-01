@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std FreeCADUserHub
-   Name/it: Documentazione utenti
-   MenuLocation:Aiuto - Documentazione utenti
-   Workbenches:Tutti
-   SeeAlso:[Sito Web di  FreeCAD](Std_FreeCADWebsite/it.md), [Documentazione di scripting Python](Std_FreeCADPowerUserHub/it.md), [Forum di FreeCAD](Std_FreeCADForum/it.md), [FAQ su FreeCAD](Std_FreeCADFAQ/it.md)
+   Name: Std FreeCADUserHub
+   Name/it:  Documentazione utenti
+   MenuLocation: Aiuto - Documentazione utenti
+   Workbenches: Tutti
+   SeeAlso: [Sito Web di  FreeCAD](Std_FreeCADWebsite/it.md), [Documentazione di scripting Python](Std_FreeCADPowerUserHub/it.md), [Forum di FreeCAD](Std_FreeCADForum/it.md), [FAQ su FreeCAD](Std_FreeCADFAQ/it.md)
 ---
 
 # Std FreeCADUserHub/it
@@ -34,4 +34,4 @@ Attualmente il comando punta a [<https://wiki.freecad.org/User_hub>](https://wik
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADUserHub/it
+⏵ [documentation index](../README.md) > Std FreeCADUserHub/it

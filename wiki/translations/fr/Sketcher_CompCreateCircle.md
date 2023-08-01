@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Sketcher CompCreateCircle
-   Name/fr:Sketcher Cercles
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Name: Sketcher CompCreateCircle
+   Name/fr: Sketcher Cercles
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
 ---
 
 # Sketcher CompCreateCircle/fr
@@ -29,4 +29,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateCircle/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateCircle/fr

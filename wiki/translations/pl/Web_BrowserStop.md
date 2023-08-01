@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Web BrowserStop
-   MenuLocation:
-   Workbenches:[Web](Web_Workbench.md), [Start](Start_Workbench.md)
-   SeeAlso:
+   Name: Web BrowserStop
+   MenuLocation: 
+   Workbenches: [Web](Web_Workbench.md), [Start](Start_Workbench.md)
+   SeeAlso: 
 ---
 
 # Web BrowserStop/pl
@@ -27,4 +27,4 @@ Use the <img alt="" src=images/Web_BrowserStop.svg  style="width:24px;"> **Web B
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserStop/pl
+⏵ [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserStop/pl

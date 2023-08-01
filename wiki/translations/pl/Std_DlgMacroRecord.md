@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std DlgMacroRecord
-   Name/pl:Std: Rejestrator makrodefinicji 
-   MenuLocation:Makrodefinicje - Rejestrator makrodefinicji ...
-   Workbenches:wszystkie
-   SeeAlso:[Zatrzymaj nagrywanie makra](Std_MacroStopRecord/pl.md)
+   Name: Std DlgMacroRecord
+   Name/pl: Std: Rejestrator makrodefinicji 
+   MenuLocation: Makrodefinicje - Rejestrator makrodefinicji ...
+   Workbenches: wszystkie
+   SeeAlso: [Zatrzymaj nagrywanie makra](Std_MacroStopRecord/pl.md)
 ---
 
 # Std DlgMacroRecord/pl
@@ -68,4 +68,4 @@ Polecenie **Rejestrator makrodefinicji** uruchamia sesję nagrywania [makrodefin
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgMacroRecord/pl
+⏵ [documentation index](../README.md) > Std DlgMacroRecord/pl

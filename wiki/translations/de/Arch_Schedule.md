@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Schedule
-   Name/de:Arch Ablaufplan
-   MenuLocation:Arch - Ablaufplan
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   SeeAlso:[Arch Ausstattung](Arch_Equipment/de.md)
+   Name: Arch Schedule
+   Name/de: Arch Ablaufplan
+   MenuLocation: Arch - Ablaufplan
+   Workbenches: [Arch](Arch_Workbench/de.md)
+   SeeAlso: [Arch Ausstattung](Arch_Equipment/de.md)
 ---
 
 # Arch Schedule/de
@@ -102,4 +102,4 @@ Es ist möglich, eigene Eigenschaften zu Objekten hinzuzufügen. Diese werden [D
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Schedule/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Schedule/de

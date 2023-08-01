@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path DressupRampEntry
-   MenuLocation:Path - Path Dressup - RampEntry
-   Workbenches:[Path](Path_Workbench.md)
-   SeeAlso:[Path DressupTag](Path_DressupTag.md), [Path DressupDogbone](Path_DressupDogbone.md), [Path DressupDragKnife](Path_DressupDragKnife.md)
+   Name: Path DressupRampEntry
+   MenuLocation: Path - Path Dressup - RampEntry
+   Workbenches: [Path](Path_Workbench.md)
+   SeeAlso: [Path DressupTag](Path_DressupTag.md), [Path DressupDogbone](Path_DressupDogbone.md), [Path DressupDragKnife](Path_DressupDragKnife.md)
 ---
 
 # Path DressupRampEntry
@@ -43,4 +43,4 @@ The tool <img alt="" src=images/Path_DressupRampEntry.svg  style="width:24px;"> 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupRampEntry
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupRampEntry

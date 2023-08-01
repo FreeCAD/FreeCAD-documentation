@@ -1,6 +1,6 @@
 # Robot TrajectoryCompound/ro
 ---
-- GuiCommand:   Name:Robot TrajectoryCompound   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot - TrajectoryCompound---
+- GuiCommand:   Name: Robot TrajectoryCompound   Workbenches: [[Robot_Workbench   Robot]]|MenuLocation: Robot - TrajectoryCompound---
 
 
 </div>
@@ -52,4 +52,4 @@ Creează un compus din mai multe traiectorii singulare.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryCompound/ro
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryCompound/ro

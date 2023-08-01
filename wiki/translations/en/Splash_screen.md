@@ -4,4 +4,4 @@ The **splash screen** is an image that appears during the startup of FreeCAD. Yo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Splash screen/en
+⏵ [documentation index](../README.md) > Splash screen/en

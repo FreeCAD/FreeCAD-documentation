@@ -1,6 +1,4 @@
 # Draft Tray/de
-{{TOCright}}
-
 ## Beschreibung
 
 Das **Draft Fach** ermöglicht die Auswahl einer Arbeitsebene, Stileinstellungen festzulegen, den Konstruktionsmodus umschalten und das festlegen eines aktiven Layers oder einer Gruppe. Die vier Schaltflächen zeigen die aktuellen Einstellungen. Das Draft-Fach steht den Arbeitsbereichen <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/de.md) und <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/de.md) zur Verfügung und kann nicht deaktiviert werden.
@@ -21,4 +19,4 @@ Das **Draft Fach** ermöglicht die Auswahl einer Arbeitsebene, Stileinstellungen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Tray/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Tray/de

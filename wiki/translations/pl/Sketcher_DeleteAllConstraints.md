@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher DeleteAllConstraints
-   Name/pl:Szkicownik: Usuń wszystkie wiązania
-   MenuLocation:Szkic - Narzędzia szkicownika - Usuń wszystkie wiązania
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Version:0.18
-   SeeAlso:[Usuń wszystkie geometrie](Sketcher_DeleteAllGeometry/pl.md)
+   Name: Sketcher DeleteAllConstraints
+   Name/pl: Szkicownik: Usuń wszystkie wiązania
+   MenuLocation: Szkic - Narzędzia szkicownika - Usuń wszystkie wiązania
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Version: 0.18
+   SeeAlso: [Usuń wszystkie geometrie](Sketcher_DeleteAllGeometry/pl.md)
 ---
 
 # Sketcher DeleteAllConstraints/pl
@@ -34,4 +34,4 @@ To narzędzie usuwa wszystkie wiązania z edytowanego szkicu, a geometrię pozos
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllConstraints/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllConstraints/pl

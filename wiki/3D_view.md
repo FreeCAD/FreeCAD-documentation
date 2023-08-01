@@ -82,4 +82,4 @@ For more information see the power user documentation:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > 3D view
+⏵ [documentation index](../README.md) > 3D view

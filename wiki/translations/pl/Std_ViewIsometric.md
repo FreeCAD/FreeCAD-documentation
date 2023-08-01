@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ViewIsometric
-   Name/pl:Std: Widok izometryczny
-   MenuLocation:Widok - Widoki standardowe - Aksonometryczny - Izometryczny
-   Workbenches:wszystkie
-   Shortcut:**0**
-   SeeAlso:[Widok dimetryczny](Std_ViewDimetric/pl.md), [Widok trimetryczny](Std_ViewTrimetric/pl.md)
+   Name: Std ViewIsometric
+   Name/pl: Std: Widok izometryczny
+   MenuLocation: Widok - Widoki standardowe - Aksonometryczny - Izometryczny
+   Workbenches: wszystkie
+   Shortcut: **0**
+   SeeAlso: [Widok dimetryczny](Std_ViewDimetric/pl.md), [Widok trimetryczny](Std_ViewTrimetric/pl.md)
 ---
 
 # Std ViewIsometric/pl
@@ -60,4 +60,4 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewIsometric/pl
+⏵ [documentation index](../README.md) > Std ViewIsometric/pl

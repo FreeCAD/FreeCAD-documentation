@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Fillet
-   Name/ru:Draft Fillet
-   MenuLocation:Draft - Fillet
-   Workbenches:[Draft](Draft_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Draft Line](Draft_Line/ru.md), [Draft Wire](Draft_Wire/ru.md)
+   Name: Draft Fillet
+   Name/ru: Draft Fillet
+   MenuLocation: Draft - Fillet
+   Workbenches: [Draft](Draft_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Draft Line](Draft_Line/ru.md), [Draft Wire](Draft_Wire/ru.md)
 ---
 
 # Draft Fillet/ru
@@ -118,4 +118,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Fillet/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Fillet/ru

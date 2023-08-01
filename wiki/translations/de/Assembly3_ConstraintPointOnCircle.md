@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPointOnCircle
-   Name/de:Assembly3 PunktAufKreis
-   Icon:Assembly_ConstraintPointOnCircle.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintPointOnCircle
+   Name/de: Assembly3 PunktAufKreis
+   Icon: Assembly_ConstraintPointOnCircle.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintPointOnCircle/de
@@ -27,4 +27,4 @@ Die Position auf dem Kreisobjekt (Bogenlänge vom Startpunkt) ist nicht festgelg
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointOnCircle/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPointOnCircle/de

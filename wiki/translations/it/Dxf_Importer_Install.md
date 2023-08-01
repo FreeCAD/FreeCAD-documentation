@@ -190,4 +190,4 @@ Video tutorial [FreeCAD Tutorial 24 - DXF/DWG Import](https://www.youtube.com/wa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Dxf Importer Install/it
+⏵ [documentation index](../README.md) > Dxf Importer Install/it

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
 
-   Name:Std AuswahlDokumentfenster
-   Name/de:Std AuswahlDokumentfenster
-   Empty:1
-   MenuLocation:Ansicht - Dokumentfenster - Angedockt/Abgedockt/Vollbild
-   Workbenches:Alle
-   SeeAlso:[Std Neue Ansicht‏‎](Std_ViewCreate/de.md), [Std AnsichtAufnehmen](Std_ViewScreenShot/de.md), [Std AnsichtenEinfrieren‏‎](Std_FreezeViews/de.md), [Std Menü Fenster](Std_Windows_Menu/de.md)
+   Name: Std AuswahlDokumentfenster
+   Name/de: Std AuswahlDokumentfenster
+   Empty: 1
+   MenuLocation: Ansicht - Dokumentfenster - Angedockt/Abgedockt/Vollbild
+   Workbenches: Alle
+   SeeAlso: [Std Neue Ansicht‏‎](Std_ViewCreate/de.md), [Std AnsichtAufnehmen](Std_ViewScreenShot/de.md), [Std AnsichtenEinfrieren‏‎](Std_FreezeViews/de.md), [Std Menü Fenster](Std_Windows_Menu/de.md)
 ---
 
 # Std ViewDockUndockFullscreen/de
@@ -78,4 +78,4 @@ Die Menüoption **Abgedockt** koppelt die aktive [3D-Ansicht](3D_view/de.md) inn
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewDockUndockFullscreen/de
+⏵ [documentation index](../README.md) > Std ViewDockUndockFullscreen/de

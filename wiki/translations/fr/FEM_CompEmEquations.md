@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM CompEmEquations
-   Name:FEM Équations électromagnétiques
-   MenuLocation:
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:0.21
-   SeeAlso:
+   Name: FEM CompEmEquations
+   Name: FEM Équations électromagnétiques
+   MenuLocation: 
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Version: 0.21
+   SeeAlso: 
 ---
 
 # FEM CompEmEquations/fr
@@ -36,4 +36,4 @@ Vous pouvez choisir ces équations :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM CompEmEquations/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM CompEmEquations/fr

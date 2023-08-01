@@ -1,6 +1,6 @@
 # Sketcher CreateSlot/ro
 ---
-- GuiCommand:   Name:Sketcher CreateSlot   Name/ro:Sketcher CreateSlot   Workbenches:[[Sketcher Workbench/ro   Sketcher]]|MenuLocation:Sketch - Sketcher geometries - Create slot   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Sketcher CreateSlot   Name/ro: Sketcher CreateSlot   Workbenches: [[Sketcher Workbench/ro   Sketcher]]|MenuLocation: Sketch - Sketcher geometries - Create slot   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -55,4 +55,4 @@ When starting the tool, the mouse pointer changes to a white cross with a red sl
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSlot/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSlot/ro

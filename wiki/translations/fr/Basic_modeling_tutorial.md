@@ -131,4 +131,4 @@ Les instructions ci-dessus fonctionneront, quelle que soit l\'étiquette sur le 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Category_Part.md) > Basic modeling tutorial/fr
+⏵ [documentation index](../README.md) > [Part](Category_Part.md) > Basic modeling tutorial/fr

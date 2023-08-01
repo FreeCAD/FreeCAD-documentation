@@ -215,4 +215,4 @@ Zbytek rezidentního makra.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Mouse Cross/cs
+⏵ [documentation index](../README.md) > Macro Mouse Cross/cs

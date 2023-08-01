@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Rocket Parachute Size Calculator
-   Name/fr:Rocket Calcul taille parachute
-   Icon:Rocket_Calculator.svg
-   MenuLocation:Rocket - Calculators - Parachute Size Calculator
-   Workbenches:[Rocket](Rocket_Workbench/fr.md)
-   Version:0.19
+   Name: Rocket Parachute Size Calculator
+   Name/fr: Rocket Calcul taille parachute
+   Icon: Rocket_Calculator.svg
+   MenuLocation: Rocket - Calculators - Parachute Size Calculator
+   Workbenches: [Rocket](Rocket_Workbench/fr.md)
+   Version: 0.19
 ---
 
 # Rocket Parachute Size Calculator/fr
@@ -72,4 +72,4 @@ Les calculs sont effectués en unités métriques, mais s\'affichent dans les un
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Parachute Size Calculator/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Parachute Size Calculator/fr

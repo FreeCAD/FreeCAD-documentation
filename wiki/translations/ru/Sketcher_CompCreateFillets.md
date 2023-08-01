@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Создать скругление
-   Name:Sketcher_Fillets
-   Icon:Sketcher_CompCreateFillets.png
-   MenuLocation:
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.19
+   Name/ru: Создать скругление
+   Name: Sketcher_Fillets
+   Icon: Sketcher_CompCreateFillets.png
+   MenuLocation: 
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Version: 0.19
 ---
 
 # Sketcher CompCreateFillets/ru
@@ -38,4 +38,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateFillets/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateFillets/ru

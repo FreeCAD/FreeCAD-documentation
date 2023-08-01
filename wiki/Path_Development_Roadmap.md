@@ -1,6 +1,4 @@
 # Path Development Roadmap
-{{TOCright}}
-
 ## Purpose
 
 This page will discuss the strategic objectives for the [Path Workbench](Path_Workbench.md). This shouldn\'t be a list of features to implement but broader objectives that will steer the overall direction of Path development.
@@ -152,4 +150,4 @@ The following list is not individual bugs but shows how Path is inconsistent in 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Path](Path_Workbench.md) > Path Development Roadmap
+⏵ [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Path](Path_Workbench.md) > Path Development Roadmap

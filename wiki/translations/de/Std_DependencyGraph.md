@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std DependencyGraph
-   Name/de:Std Abhängigkeitsgraph
-   MenuLocation:Werkzeuge - Abhängigkeitsgraph...
-   Workbenches:Alle
+   Name: Std DependencyGraph
+   Name/de: Std Abhängigkeitsgraph
+   MenuLocation: Werkzeuge - Abhängigkeitsgraph...
+   Workbenches: Alle
 ---
 
 # Std DependencyGraph/de
@@ -180,4 +180,4 @@ Du kannst ein Abhängigkeitsdiagramm speichern:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/de
+⏵ [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/de

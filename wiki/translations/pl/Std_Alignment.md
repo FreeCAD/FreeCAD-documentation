@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std Alignment
-   Name/pl:Std: Wyrównanie
-   MenuLocation:Edycja - Wyrównanie ...
-   Workbenches:wszystkie
-   SeeAlso:[Umiejscowienie](Std_Placement/pl.md)
+   Name: Std Alignment
+   Name/pl: Std: Wyrównanie
+   MenuLocation: Edycja - Wyrównanie ...
+   Workbenches: wszystkie
+   SeeAlso: [Umiejscowienie](Std_Placement/pl.md)
 ---
 
 # Std Alignment/pl
@@ -45,4 +45,4 @@ W menu kontekstowym dostępne są następujące opcje dodatkowe:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Alignment/pl
+⏵ [documentation index](../README.md) > Std Alignment/pl

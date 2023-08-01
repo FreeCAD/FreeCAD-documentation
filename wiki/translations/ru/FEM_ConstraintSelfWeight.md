@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintSelfWeight
-   Name/ru:FEM ConstraintSelfWeight
-   MenuLocation:FEM - Constraint self weight
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:C,W
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM ConstraintSelfWeight
+   Name/ru: FEM ConstraintSelfWeight
+   MenuLocation: FEM - Constraint self weight
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   Shortcut: C,W
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM ConstraintSelfWeight/ru
@@ -86,4 +86,4 @@ where 9810 is gravity acceleration magnitude in \[mm/s\^2\], and 0,0,-1 is direc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSelfWeight/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSelfWeight/ru

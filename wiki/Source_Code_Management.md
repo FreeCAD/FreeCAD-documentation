@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Source Code Management
+⏵ [documentation index](../README.md) > Source Code Management

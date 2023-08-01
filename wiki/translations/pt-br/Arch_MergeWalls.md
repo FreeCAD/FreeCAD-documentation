@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Arch MergeWalls
-   MenuLocation:Arch - Utilities - Merge Walls
-   Workbenches:[Arch](Arch_Workbench.md)
-   SeeAlso:[Arch Wall](Arch_Wall.md)
+   Name: Arch MergeWalls
+   MenuLocation: Arch - Utilities - Merge Walls
+   Workbenches: [Arch](Arch_Workbench.md)
+   SeeAlso: [Arch Wall](Arch_Wall.md)
 ---
 
 # Arch MergeWalls/pt-br
@@ -67,4 +67,4 @@ base = Arch.joinWalls([Wall1, Wall2])
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MergeWalls/pt-br
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MergeWalls/pt-br

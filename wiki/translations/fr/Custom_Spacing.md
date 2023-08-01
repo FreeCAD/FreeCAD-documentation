@@ -14,4 +14,4 @@ Le résultat produit par la boîte de dialogue Rebar Distribution lorsque l\'uti
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Category_Arch.md) > Custom Spacing/fr
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Category_Arch.md) > Custom Spacing/fr

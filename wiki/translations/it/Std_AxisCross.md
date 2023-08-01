@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std AxisCross
-   Name/it:Origine degli assi
-   Empty:1
-   MenuLocation:Visualizza - Origine degli assi
-   Workbenches:Tutti
-   Shortcut:**A** **C**
+   Name: Std AxisCross
+   Name/it: Origine degli assi
+   Empty: 1
+   MenuLocation: Visualizza - Origine degli assi
+   Workbenches: Tutti
+   Shortcut: **A** **C**
 ---
 
 # Std AxisCross/it
@@ -72,4 +72,4 @@ FreeCADGui.ActiveDocument.ActiveView.hasAxisCross()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std AxisCross/it
+⏵ [documentation index](../README.md) > Std AxisCross/it

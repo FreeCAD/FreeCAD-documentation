@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Image Open
-   Name/ru:Image Open
-   MenuLocation:None
-   Workbenches:[Image](Image_Workbench/ru.md)
-   SeeAlso:[Image plane](Image_CreateImagePlane/ru.md), [Image Scaling](Image_Scaling/ru.md)
+   Name: Image Open
+   Name/ru: Image Open
+   MenuLocation: None
+   Workbenches: [Image](Image_Workbench/ru.md)
+   SeeAlso: [Image plane](Image_CreateImagePlane/ru.md), [Image Scaling](Image_Scaling/ru.md)
 ---
 
 # Image Open/ru
@@ -52,4 +52,4 @@ The image is placed in a new viewport, not in the 3D view.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/ru
+⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/ru

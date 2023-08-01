@@ -1,10 +1,10 @@
 ---
 - GuiCommand:Addon/fr
-   Name:BIM Layers
-   Name/fr:BIM Calques
-   MenuLocation:Manage - Layers
-   Workbenches:[BIM](BIM_Workbench/fr.md)
-   Addon:BIM
+   Name: BIM Layers
+   Name/fr: BIM Calques
+   MenuLocation: Manage - Layers
+   Workbenches: [BIM](BIM_Workbench/fr.md)
+   Addon: BIM
 ---
 
 # BIM Layers/fr
@@ -22,4 +22,4 @@ Le gestionnaire de calques vous permet de gérer vos calques, d\'ajouter ou de s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Layers/fr
+⏵ [documentation index](../README.md) > BIM Layers/fr

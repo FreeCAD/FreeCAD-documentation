@@ -218,4 +218,4 @@ Pour l\'instant, la macro est exécutée avec le paramètre mode réglé sur dir
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro clone explicit/fr
+⏵ [documentation index](../README.md) > Macro clone explicit/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft ToggleDisplayMode
-   Name/tr:Ekran modunu değiştir
-   MenuLocation:Draft - Utilities - Toggle display mode
-   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
-   Shortcut:Shift + Space
+   Name: Draft ToggleDisplayMode
+   Name/tr: Ekran modunu değiştir
+   MenuLocation: Draft - Utilities - Toggle display mode
+   Workbenches: [Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   Shortcut: Shift + Space
 ---
 
 # Draft ToggleDisplayMode/tr
@@ -31,4 +31,4 @@ The <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:24px;"> **D
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/tr

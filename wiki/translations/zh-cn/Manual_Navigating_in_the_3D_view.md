@@ -109,4 +109,4 @@ FreeCAD 的 3D 空间是一个 [欧几里德空间](https://en.wikipedia.org/wik
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Manual:Navigating in the 3D view/zh-cn
+⏵ [documentation index](../README.md) > Manual:Navigating in the 3D view/zh-cn

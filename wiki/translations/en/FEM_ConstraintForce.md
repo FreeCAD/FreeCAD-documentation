@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintForce
-   MenuLocation:Model - Mechanical Constraints - Constraint force
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM ConstraintPressure](FEM_ConstraintPressure.md)
+   Name: FEM ConstraintForce
+   MenuLocation: Model - Mechanical Constraints - Constraint force
+   Workbenches: [FEM](FEM_Workbench.md)
+   SeeAlso: [FEM ConstraintPressure](FEM_ConstraintPressure.md)
 ---
 
 # FEM ConstraintForce/en
@@ -46,4 +46,4 @@ This command applies a force of given value \[N\] to selected target geometry.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintForce/en
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintForce/en

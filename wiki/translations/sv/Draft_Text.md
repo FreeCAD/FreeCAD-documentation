@@ -1,6 +1,6 @@
 # Draft Text/sv
 ---
-- GuiCommand:   Name:Draft_Text   Workbenches:[Arch](Draft_Workbench/sv___Skiss]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft - Text   Shortcut:T E---
+- GuiCommand:   Name: Draft_Text   Workbenches: [Arch](Draft_Workbench/sv___Skiss]],_[[Arch_Workbench/sv.md)|MenuLocation: Draft - Text   Shortcut: T E---
 
 
 </div>
@@ -164,4 +164,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Text/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Text/sv

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft ToggleGrid
-   Name/es:Draft ToggleGrid
-   MenuLocation:Draft - Utilities - Toggle grid
-   Workbenches:[Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
-   Shortcut:**G** **R**
+   Name: Draft ToggleGrid
+   Name/es: Draft ToggleGrid
+   MenuLocation: Draft - Utilities - Toggle grid
+   Workbenches: [Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
+   Shortcut: **G** **R**
 ---
 
 # Draft ToggleGrid/es
@@ -36,4 +36,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleGrid/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleGrid/es

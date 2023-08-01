@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FEM PostCreateDataAtPointFilter
-   Name/ru:FEM PostCreateDataAtPointFilter
-   Icon:Fem-post-filter-data-at-point.png
-   MenuLocation: Results - Data at point filter
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM PostCreateDataAtPointFilter
+   Name/ru: FEM PostCreateDataAtPointFilter
+   Icon: Fem-post-filter-data-at-point.png
+   MenuLocation:  Results - Data at point filter
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM PostFilterDataAtPoint/ru
@@ -42,4 +42,4 @@ The value at this point for the given **Field** is output to the dialog. The val
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterDataAtPoint/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterDataAtPoint/ru

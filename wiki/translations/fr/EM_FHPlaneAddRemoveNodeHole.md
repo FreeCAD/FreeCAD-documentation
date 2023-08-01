@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:EM FHPlaneAddRemoveNodeHole
-   Name/fr:EM Bascule noeud trou FH
-   MenuLocation:EM - FHPlaneAddRemoveNodeHole
-   Workbenches:[EM](EM_Workbench/fr.md)
-   Shortcut:**E** **A**
-   Version:0.17
-   SeeAlso:[EM Plan FH](EM_FHPlane/fr.md), [EM Noeud FH](EM_FHNode/fr.md), [EM Trou FH](EM_FHPlaneHole/fr.md)
+   Name: EM FHPlaneAddRemoveNodeHole
+   Name/fr: EM Bascule noeud trou FH
+   MenuLocation: EM - FHPlaneAddRemoveNodeHole
+   Workbenches: [EM](EM_Workbench/fr.md)
+   Shortcut: **E** **A**
+   Version: 0.17
+   SeeAlso: [EM Plan FH](EM_FHPlane/fr.md), [EM Noeud FH](EM_FHNode/fr.md), [EM Trou FH](EM_FHPlaneHole/fr.md)
 ---
 
 # EM FHPlaneAddRemoveNodeHole/fr
@@ -57,4 +57,4 @@ Pour ajouter ou supprimer des objets Noeud FH ou Trou FH d\'un Plan FH via des s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [EM](Category_EM.md) > EM FHPlaneAddRemoveNodeHole/fr
+⏵ [documentation index](../README.md) > [EM](Category_EM.md) > EM FHPlaneAddRemoveNodeHole/fr

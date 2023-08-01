@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Arch SetMaterial
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   MenuLocation:Arch - Set material...
-   Shortcut:**M** **T**
+   Name: Arch SetMaterial
+   Workbenches: [Arch](Arch_Workbench/ro.md)
+   MenuLocation: Arch - Set material...
+   Shortcut: **M** **T**
 ---
 
 # Arch SetMaterial/ro
@@ -88,4 +88,4 @@ This roughly corresponds to [IfcMaterial](https://standards.buildingsmart.org/IF
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SetMaterial/ro
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SetMaterial/ro

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Points Import
-   Name/it:Importa punti
-   MenuLocation:Punti - Importa punti
-   Workbenches:[Punti](Points_Workbench/it.md)
-   SeeAlso:[Esporta punti](Points_Export/it.md)
-   Icon:Points_Import.svg
+   Name: Points Import
+   Name/it: Importa punti
+   MenuLocation: Punti - Importa punti
+   Workbenches: [Punti](Points_Workbench/it.md)
+   SeeAlso: [Esporta punti](Points_Export/it.md)
+   Icon: Points_Import.svg
 ---
 
 # Points Import/it
@@ -81,4 +81,4 @@ Per i test si può usare questo file [ASC](https://github.com/FREECAD/Examples/b
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Import/it
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Import/it

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher_ConstrainCoincident
-   Name/it:Coincidenza
-   Workbenches:[Schizzo](Sketcher_Workbench/it.md)
-   Shortcut:**C**
-   MenuLocation:Sketch - Vincoli - Coincidenza
-   SeeAlso:[Blocca](Sketcher_ConstrainBlock/it.md), [Punto su oggetto](Sketcher_ConstrainPointOnObject/it.md)
+   Name: Sketcher_ConstrainCoincident
+   Name/it: Coincidenza
+   Workbenches: [Schizzo](Sketcher_Workbench/it.md)
+   Shortcut: **C**
+   MenuLocation: Sketch - Vincoli - Coincidenza
+   SeeAlso: [Blocca](Sketcher_ConstrainBlock/it.md), [Punto su oggetto](Sketcher_ConstrainPointOnObject/it.md)
 ---
 
 # Sketcher ConstrainCoincident/it
@@ -99,4 +99,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/it

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part ExplodeCompound
-   Name/de:Part VerbundSprengen
-   MenuLocation:Formteil - Verbund - Verbundteile extrahieren
-   Workbenches:[Part](Part_Workbench/de.md)
-   Version:0.18
-   SeeAlso:[Part Verbund](Part_Compound/de.md), [Draft Herabstufen](Draft_Downgrade/de.md)
+   Name: Part ExplodeCompound
+   Name/de: Part VerbundSprengen
+   MenuLocation: Formteil - Verbund - Verbundteile extrahieren
+   Workbenches: [Part](Part_Workbench/de.md)
+   Version: 0.18
+   SeeAlso: [Part Verbund](Part_Compound/de.md), [Draft Herabstufen](Draft_Downgrade/de.md)
 ---
 
 # Part ExplodeCompound/de
@@ -42,4 +42,4 @@ Das Werkzeug wird auch nicht verbundene Formen in ihre untergeordneten Bestandte
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ExplodeCompound/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ExplodeCompound/de

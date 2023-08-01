@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch_Rebar_Straight
-   Name/it:Armatura dritta
-   MenuLocation:Arch - Strumenti armatura - Armatura dritta o BIM - 3D/BIM - Reinforcement - Straight Rebar
-   Workbenches:[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   SeeAlso:[Distinta dei ferri](Arch_Rebar_BOM/it.md), [Armatura](Arch_Rebar/it.md)
-   Version:0.17
+   Name: Arch_Rebar_Straight
+   Name/it: Armatura dritta
+   MenuLocation: Arch - Strumenti armatura - Armatura dritta o BIM - 3D/BIM - Reinforcement - Straight Rebar
+   Workbenches: [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   SeeAlso: [Distinta dei ferri](Arch_Rebar_BOM/it.md), [Armatura](Arch_Rebar/it.md)
+   Version: 0.17
 ---
 
 # Arch Rebar Straight/it
@@ -280,4 +280,4 @@ StraightRebar.editStraightRebar(Rebar4, 50, ("Right Side", 50), 100, 100,
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Straight/it
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Straight/it

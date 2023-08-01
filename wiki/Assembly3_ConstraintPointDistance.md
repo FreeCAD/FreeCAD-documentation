@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPointDistance
-   Icon:Assembly_ConstraintPointDistance.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
-   SeeAlso:[Assembly3 Constraint Points distance](Assembly3_ConstraintPointsDistance.md)
+   Name: Assembly3 ConstraintPointDistance
+   Icon: Assembly_ConstraintPointDistance.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
+   SeeAlso: [Assembly3 Constraint Points distance](Assembly3_ConstraintPointsDistance.md)
 ---
 
 # Assembly3 ConstraintPointDistance
@@ -23,4 +23,4 @@ It can handle 3D point elements as well as 2D point elements within a work plane
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointDistance
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPointDistance

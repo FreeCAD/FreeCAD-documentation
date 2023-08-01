@@ -5,7 +5,7 @@
 
 ## Einleitung
 
-<img alt="Symbol Externer Arbeitsbereich Curves" src=images/Curves_workbench_icon.svg  style="width:128px;"> {{TOCright}}
+<img alt="Symbol Externer Arbeitsbereich Curves" src=images/Curves_workbench_icon.svg  style="width:128px;"> 
 
 
 <div class="mw-translate-fuzzy">
@@ -74,4 +74,4 @@ Der Arbeitsbereich Curves kann mit dem <img alt="" src=images/Std_AddonMgr.svg  
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [Curves](Category_Curves.md) > Curves Workbench/de
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [Curves](Category_Curves.md) > Curves Workbench/de

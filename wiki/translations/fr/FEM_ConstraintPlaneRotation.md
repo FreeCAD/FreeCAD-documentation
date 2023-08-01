@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintPlaneRotation
-   Name/fr:FEM Contrainte de rotation du plan
-   MenuLocation:Modèle - Contraintes géométriques - Contrainte de rotation plane
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Contrainte de transformation](FEM_ConstraintTransform/fr.md)
+   Name: FEM ConstraintPlaneRotation
+   Name/fr: FEM Contrainte de rotation du plan
+   MenuLocation: Modèle - Contraintes géométriques - Contrainte de rotation plane
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Contrainte de transformation](FEM_ConstraintTransform/fr.md)
 ---
 
 # FEM ConstraintPlaneRotation/fr
@@ -44,4 +44,4 @@ Crée une contrainte FEM pour maintenir les nœuds d\'une surface planaire dans 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPlaneRotation/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPlaneRotation/fr

@@ -132,4 +132,4 @@ else:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro SimpleProperties/ru
+⏵ [documentation index](../README.md) > Macro SimpleProperties/ru

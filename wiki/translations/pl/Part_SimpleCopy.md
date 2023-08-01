@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part SimpleCopy‎
-   Name/pl:Część: Utwórz prostą kopię
-   MenuLocation:Część - Utwórz kopię - Utwórz prostą kopię
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Kopiuj](Std_Copy/pl.md), [Powiel zaznaczone](Std_DuplicateSelection/pl.md), [Przekształcona kopia](Part_TransformedCopy.md), [Kopia kształtu elementu](Part_ElementCopy/pl.md), [Udoskonal kształt](Part_RefineShape/pl.md)
+   Name: Part SimpleCopy‎
+   Name/pl: Część: Utwórz prostą kopię
+   MenuLocation: Część - Utwórz kopię - Utwórz prostą kopię
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: [Kopiuj](Std_Copy/pl.md), [Powiel zaznaczone](Std_DuplicateSelection/pl.md), [Przekształcona kopia](Part_TransformedCopy.md), [Kopia kształtu elementu](Part_ElementCopy/pl.md), [Udoskonal kształt](Part_RefineShape/pl.md)
 ---
 
 # Part SimpleCopy/pl
@@ -43,4 +43,4 @@ Kopia ma proste właściwości widoku, jak każda inna [cecha](Part_Feature/pl.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SimpleCopy/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SimpleCopy/pl

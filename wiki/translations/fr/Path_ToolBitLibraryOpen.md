@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Path ToolBitLibraryOpen
-   Name/fr:Path Gestionnaire des outils coupants
-   MenuLocation:Path - Gestionnaire des outils coupants
-   Workbenches:[Path](Path_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[Path Sélecteur d'outils coupants](Path_ToolBitDock/fr.md), [Path Outils](Path_Tools/fr.md), [Path Outil coupant](Path_ToolBit/fr.md)
+   Name: Path ToolBitLibraryOpen
+   Name/fr: Path Gestionnaire des outils coupants
+   MenuLocation: Path - Gestionnaire des outils coupants
+   Workbenches: [Path](Path_Workbench/fr.md)
+   Version: 0.19
+   SeeAlso: [Path Sélecteur d'outils coupants](Path_ToolBitDock/fr.md), [Path Outils](Path_Tools/fr.md), [Path Outil coupant](Path_ToolBit/fr.md)
 ---
 
 # Path ToolBitLibraryOpen/fr
@@ -105,4 +105,4 @@ C. Double-cliquez n\'importe où ailleurs dans la ligne pour ouvrir le panneau d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBitLibraryOpen/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBitLibraryOpen/fr

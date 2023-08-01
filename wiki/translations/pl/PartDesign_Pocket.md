@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Pocket
-   Name/pl:Projekt Części: Kiezeń
-   MenuLocation:Projekt części - Utwórz cechę przez odjęcie - Kieszeń
-   Workbenches:[Projekt części](PartDesign_Workbench/pl.md)
-   SeeAlso:[Wyciągnięcie](PartDesign_Pad/pl.md)
+   Name: PartDesign Pocket
+   Name/pl: Projekt Części: Kiezeń
+   MenuLocation: Projekt części - Utwórz cechę przez odjęcie - Kieszeń
+   Workbenches: [Projekt części](PartDesign_Workbench/pl.md)
+   SeeAlso: [Wyciągnięcie](PartDesign_Pad/pl.md)
 ---
 
 # PartDesign Pocket/pl
@@ -193,4 +193,4 @@ Zwęża kieszeń w przeciwnym kierunku wycinania o podany kąt. Dodatni kąt ozn
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/pl

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Создать деталь
-   Name:Std_Part
-   MenuLocation:None
-   Workbenches:Все
-   Version:0.17
-   SeeAlso:[Создать группу](Std_Group/ru.md), [Создать тело](PartDesign_Body/ru.md)
+   Name/ru: Создать деталь
+   Name: Std_Part
+   MenuLocation: None
+   Workbenches: Все
+   Version: 0.17
+   SeeAlso: [Создать группу](Std_Group/ru.md), [Создать тело](PartDesign_Body/ru.md)
 ---
 
 # Std Part/ru
@@ -274,4 +274,4 @@ App.ActiveDocument.addObject("Part::FeaturePython",
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Part/ru
+⏵ [documentation index](../README.md) > Std Part/ru

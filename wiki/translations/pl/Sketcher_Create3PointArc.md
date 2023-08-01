@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher Create3PointArc
-   Name/pl:Szkicownik: Utwórz łuk przez trzy punkty
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz łuk przez trzy punkty
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **3** **A**
-   SeeAlso:
+   Name: Sketcher Create3PointArc
+   Name/pl: Szkicownik: Utwórz łuk przez trzy punkty
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Utwórz łuk przez trzy punkty
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **G** **3** **A**
+   SeeAlso: 
 ---
 
 # Sketcher Create3PointArc/pl
@@ -36,4 +36,4 @@ Po uruchomieniu narzędzia kursor myszki zmienia się w biały krzyżyk z czerwo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointArc/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointArc/pl

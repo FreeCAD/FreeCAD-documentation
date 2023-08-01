@@ -1,6 +1,6 @@
 # Plot Axes/it
 ---
-- GuiCommand:   Name:Plot Axes   Name/it:Assi   MenuLocation:Grafico - Assi‏‎   |Workbenches:[[Plot_Workbench/it   Grafico]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Plot Axes   Name/it: Assi   MenuLocation: Grafico - Assi‏‎   |Workbenches: [[Plot_Workbench/it   Grafico]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -59,4 +59,4 @@ Finally you can set the minimum and maximum values considered for each set of ax
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Axes/it
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Axes/it

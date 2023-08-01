@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPerpendicular
-   Name/fr:Assembly3 Contrainte perpendiculaire
-   Icon:Assembly_ConstraintPerpendicular.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 ConstraintPerpendicular
+   Name/fr: Assembly3 Contrainte perpendiculaire
+   Icon: Assembly_ConstraintPerpendicular.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintPerpendicular/fr
@@ -27,4 +27,4 @@ La contrainte accepte les bords droits et les faces planes.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPerpendicular/fr
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPerpendicular/fr

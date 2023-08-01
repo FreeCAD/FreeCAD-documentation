@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Выделить связанные ограничения
-   Name:Sketcher_SelectConstraints
-   MenuLocation:Sketch - Инструменты для эскиза - Выделить связанные ограничения
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**Shift**+**Ctrl**+**C**
-   Version:0.15
+   Name/ru: Выделить связанные ограничения
+   Name: Sketcher_SelectConstraints
+   MenuLocation: Sketch - Инструменты для эскиза - Выделить связанные ограничения
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **Shift**+**Ctrl**+**C**
+   Version: 0.15
 ---
 
 # Sketcher SelectConstraints/ru
@@ -47,4 +47,4 @@ Selects the constraints of a sketcher element.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConstraints/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConstraints/ru

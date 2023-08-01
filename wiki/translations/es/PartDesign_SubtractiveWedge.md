@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractiveWedge
-   Name/es:PartDesign Cuña Sustractiva
-   MenuLocation:Part Design - Crear una primitiva sustractiva - Cuña sustractiva
-   Workbenches:[PartDesign](PartDesign_Workbench/es.md)
-   Version:0.17
-   SeeAlso:[Crear una Primitiva sustractiva](PartDesign_CompPrimitiveSubtractive/es.md), [Cuña aditiva](PartDesign_AdditiveWedge/es.md)
+   Name: PartDesign SubtractiveWedge
+   Name/es: PartDesign Cuña Sustractiva
+   MenuLocation: Part Design - Crear una primitiva sustractiva - Cuña sustractiva
+   Workbenches: [PartDesign](PartDesign_Workbench/es.md)
+   Version: 0.17
+   SeeAlso: [Crear una Primitiva sustractiva](PartDesign_CompPrimitiveSubtractive/es.md), [Cuña aditiva](PartDesign_AdditiveWedge/es.md)
 ---
 
 # PartDesign SubtractiveWedge/es
@@ -78,4 +78,4 @@ Para crear una pirámide regular con un vértice en el lado superior, los valore
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveWedge/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveWedge/es

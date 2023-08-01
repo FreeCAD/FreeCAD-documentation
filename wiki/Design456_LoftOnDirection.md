@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Design456 LoftOnDirection
-   MenuLocation:Design456_Tools - 3DTools - LoftOnDirection
-   Workbenches:[Design456](Design456_Workbench.md)
-   Shortcut:None
-   SeeAlso:
+   Name: Design456 LoftOnDirection
+   MenuLocation: Design456_Tools - 3DTools - LoftOnDirection
+   Workbenches: [Design456](Design456_Workbench.md)
+   Shortcut: None
+   SeeAlso: 
 ---
 
 # Design456 LoftOnDirection
@@ -35,4 +35,4 @@ Works on 3D objects and might fail sometimes. To be more tested and find out the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 LoftOnDirection
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 LoftOnDirection

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std MacroStartDebug
-   Name/ro:Std MacroStartDebug
-   Workbenches:All
-   MenuLocation:[Macro](Std_Macro_Menu/ro.md) - Debug Macro 
-   Shortcut:F6
-   SeeAlso:
+   Name: Std MacroStartDebug
+   Name/ro: Std MacroStartDebug
+   Workbenches: All
+   MenuLocation: [Macro](Std_Macro_Menu/ro.md) - Debug Macro 
+   Shortcut: F6
+   SeeAlso: 
 ---
 
 # Std MacroStartDebug/ro
@@ -28,4 +28,4 @@ This command does not work at this time.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MacroStartDebug/ro
+⏵ [documentation index](../README.md) > Std MacroStartDebug/ro

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std SaveAs
-   Name/fr:Std Enregistrer sous
-   MenuLocation:Fichier - Enregistrer sous...
-   Workbenches:Tous
-   SeeAlso:[Std Enregistrer une copie](Std_SaveCopy.md), [Std Enregistrer](Std_Save/fr.md)
+   Name: Std SaveAs
+   Name/fr: Std Enregistrer sous
+   MenuLocation: Fichier - Enregistrer sous...
+   Workbenches: Tous
+   SeeAlso: [Std Enregistrer une copie](Std_SaveCopy.md), [Std Enregistrer](Std_Save/fr.md)
 ---
 
 # Std SaveAs/fr
@@ -59,4 +59,4 @@ Pour enregistrer un document sous un nouveau nom, utilisez la méthode `saveAs` 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SaveAs/fr
+⏵ [documentation index](../README.md) > Std SaveAs/fr

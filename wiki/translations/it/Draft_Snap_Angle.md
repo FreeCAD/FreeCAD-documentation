@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Angle
-   Name/it:Angolo
-   MenuLocation:Draft - [Snap](Draft_Snap/it.md) - Angolo
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   SeeAlso:[Snap](Draft_Snap/it.md), [Attiva/disattiva snap](Draft_Snap_Lock/it.md)
+   Name: Draft Snap Angle
+   Name/it: Angolo
+   MenuLocation: Draft - [Snap](Draft_Snap/it.md) - Angolo
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   SeeAlso: [Snap](Draft_Snap/it.md), [Attiva/disattiva snap](Draft_Snap_Lock/it.md)
 ---
 
 # Draft Snap Angle/it
@@ -64,4 +64,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Angle/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Angle/it

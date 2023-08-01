@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh ImportMesh‏‎
-   Name/de:Polygonnetz Import
-   MenuLocation:Polygonnetze - Polygonnetz importieren...
-   Workbenches:[Polygonnetze](Mesh_Workbench/de.md)
-   SeeAlso:[Std Import](Std_Import/de.md),[Std Öffnen](Std_Open/de.md), [Import Export](Import_Export/de.md)
+   Name: Mesh ImportMesh‏‎
+   Name/de: Polygonnetz Import
+   MenuLocation: Polygonnetze - Polygonnetz importieren...
+   Workbenches: [Polygonnetze](Mesh_Workbench/de.md)
+   SeeAlso: [Std Import](Std_Import/de.md),[Std Öffnen](Std_Open/de.md), [Import Export](Import_Export/de.md)
 ---
 
 # Mesh Import/de
@@ -62,4 +62,4 @@ Mesh.insert('D:/testfiles/cylinder.stl')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Import/de
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Import/de

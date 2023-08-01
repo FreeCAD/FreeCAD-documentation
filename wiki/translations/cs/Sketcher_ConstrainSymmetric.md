@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Constraint Symmetric
-   Name/cs:Constraint Symmetric
-   Workbenches:[Náčrt](Sketcher_Workbench/cs.md), [Návrh dílu](PartDesign_Workbench/cs.md)
-   MenuLocation:Sketch - Sketcher constraints - Constrain symmetrical
-   SeeAlso:[Vazba rovnoběžnosti](Sketcher_ConstrainParallel/cs.md)
+   Name: Constraint Symmetric
+   Name/cs: Constraint Symmetric
+   Workbenches: [Náčrt](Sketcher_Workbench/cs.md), [Návrh dílu](PartDesign_Workbench/cs.md)
+   MenuLocation: Sketch - Sketcher constraints - Constrain symmetrical
+   SeeAlso: [Vazba rovnoběžnosti](Sketcher_ConstrainParallel/cs.md)
 ---
 
 # Sketcher ConstrainSymmetric/cs
@@ -91,4 +91,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/cs
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/cs

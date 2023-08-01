@@ -57,4 +57,4 @@ Ca alternativă, puteţi folosi macro-comanda [HighlightDifference](Macro_Highli
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Inspection](Category_Inspection.md) > [Workbenches](Category_Workbenches.md) > Inspection Workbench/ro
+⏵ [documentation index](../README.md) > [Inspection](Category_Inspection.md) > [Workbenches](Category_Workbenches.md) > Inspection Workbench/ro

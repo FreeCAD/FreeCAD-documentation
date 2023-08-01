@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Grid
-   Name/de:Arch Gitter
-   MenuLocation:Arch - Achsenwerkzeuge - Gitter
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   SeeAlso:[Arch Achse](Arch_Axis/de.md), [Arch AchsenSystem](Arch_AxisSystem/de.md)
+   Name: Arch Grid
+   Name/de: Arch Gitter
+   MenuLocation: Arch - Achsenwerkzeuge - Gitter
+   Workbenches: [Arch](Arch_Workbench/de.md)
+   SeeAlso: [Arch Achse](Arch_Axis/de.md), [Arch AchsenSystem](Arch_AxisSystem/de.md)
 ---
 
 # Arch Grid/de
@@ -95,4 +95,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Grid/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Grid/de

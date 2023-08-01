@@ -137,4 +137,4 @@ The above instructions will work, no matter what label your button has.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Category_Part.md) > Basic modeling tutorial/en
+⏵ [documentation index](../README.md) > [Part](Category_Part.md) > Basic modeling tutorial/en

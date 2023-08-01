@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Heal
-   Name/es:Draft Heal
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   MenuLocation:Draft - Utilities - Heal
+   Name: Draft Heal
+   Name/es: Draft Heal
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Draft - Utilities - Heal
 ---
 
 # Draft Heal/es
@@ -32,4 +32,4 @@ Debido a la rápida evolución de FreeCAD, algunas definiciones de objetos puede
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/es

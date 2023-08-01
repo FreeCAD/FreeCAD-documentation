@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign CompPrimitiveSubtractive
-   Name/fr:PartDesign Primitives soustractives
-   MenuLocation:Part Design - Créer une primitive soustractive
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[PartDesign Primitives additives](PartDesign_CompPrimitiveAdditive/fr.md)
+   Name: PartDesign CompPrimitiveSubtractive
+   Name/fr: PartDesign Primitives soustractives
+   MenuLocation: Part Design - Créer une primitive soustractive
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Primitives additives](PartDesign_CompPrimitiveAdditive/fr.md)
 ---
 
 # PartDesign CompPrimitiveSubtractive/fr
@@ -36,4 +36,4 @@ Crée une primitive soustractive dans le corps actif, en soustrayant sa forme du
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveSubtractive/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveSubtractive/fr

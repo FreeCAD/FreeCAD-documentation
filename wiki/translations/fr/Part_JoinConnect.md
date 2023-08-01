@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part JoinConnect
-   Name/fr:Part Connecter des objets
-   MenuLocation:Part - Joindre - Connecter des objets
-   Workbenches:[Part](Part_Workbench/fr.md)
-   Version:0.16
-   SeeAlso:[Part Intégrer](Part_JoinEmbed/fr.md), [Part Découper](Part_JoinCutout/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)
+   Name: Part JoinConnect
+   Name/fr: Part Connecter des objets
+   MenuLocation: Part - Joindre - Connecter des objets
+   Workbenches: [Part](Part_Workbench/fr.md)
+   Version: 0.16
+   SeeAlso: [Part Intégrer](Part_JoinEmbed/fr.md), [Part Découper](Part_JoinCutout/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)
 ---
 
 # Part JoinConnect/fr
@@ -94,4 +94,4 @@ L\'outil lui-même est implémenté en Python, voir **/Mod/Part/BOPTools/JoinFea
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/fr

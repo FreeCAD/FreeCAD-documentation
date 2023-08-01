@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Drawing
-   Name/pl:Kreślenie: Projekt rysunku
-   Workbenches:[Kreślenie](Drawing_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   SeeAlso:[Wstaw widok rysunku](TechDraw_DraftView/pl.md)
+   Name: Draft Drawing
+   Name/pl: Kreślenie: Projekt rysunku
+   Workbenches: [Kreślenie](Drawing_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   SeeAlso: [Wstaw widok rysunku](TechDraw_DraftView/pl.md)
 ---
 
 # Draft Drawing/pl
@@ -32,4 +32,4 @@ This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Drawing/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Drawing/pl

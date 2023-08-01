@@ -1,6 +1,6 @@
 # Sketcher LeaveSketch/es
 ---
-- GuiCommand:   Name:Sketcher LeaveSketch   Workbenches:[Diseño de Piezas](Sketcher_Workbench/es___Croquizador]],_[[PartDesign_Workbench/es.md)|MenuLocation:Croquizador- Abandonar croquis|---
+- GuiCommand:   Name: Sketcher LeaveSketch   Workbenches: [Diseño de Piezas](Sketcher_Workbench/es___Croquizador]],_[[PartDesign_Workbench/es.md)|MenuLocation: Croquizador- Abandonar croquis|---
 
 
 </div>
@@ -47,4 +47,4 @@ There are several ways to invoke this command:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/es

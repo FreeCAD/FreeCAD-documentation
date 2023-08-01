@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ViewIvIssueCamPos
-   Name/pl:Std: Parametry ujęcia widoku
-   MenuLocation:Widok - Widok trójwymiarowy - Parametry ujęcia widoku
-   Workbenches:wszystkie
-   SeeAlso:[Zamroź widok](Std_FreezeViews/pl.md)
+   Name: Std ViewIvIssueCamPos
+   Name/pl: Std: Parametry ujęcia widoku
+   MenuLocation: Widok - Widok trójwymiarowy - Parametry ujęcia widoku
+   Workbenches: wszystkie
+   SeeAlso: [Zamroź widok](Std_FreezeViews/pl.md)
 ---
 
 # Std ViewIvIssueCamPos/pl
@@ -56,4 +56,4 @@ FreeCADGui.ActiveDocument.ActiveView.getCamera()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewIvIssueCamPos/pl
+⏵ [documentation index](../README.md) > Std ViewIvIssueCamPos/pl

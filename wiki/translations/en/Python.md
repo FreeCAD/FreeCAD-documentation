@@ -4,7 +4,7 @@
 ## Description
 
 
-{{TOCright}}
+
 
 [Python](https://www.python.org) is a general purpose, high level programming language that is very commonly used in large applications to automate some tasks by creating scripts or [macros](macros.md).
 
@@ -124,4 +124,4 @@ Structure = Arch.make_structure(Wire, name="Big pillar")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [API](Category_API.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Python/en
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [API](Category_API.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Python/en

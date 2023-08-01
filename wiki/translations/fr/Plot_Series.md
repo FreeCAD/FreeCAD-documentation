@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Plot Series
-   Name/fr:Plot Séries
-   MenuLocation:Plot - Configurer les séries‏‎
-   Workbenches:[Plot](Plot_Workbench/fr.md)
+   Name: Plot Series
+   Name/fr: Plot Séries
+   MenuLocation: Plot - Configurer les séries‏‎
+   Workbenches: [Plot](Plot_Workbench/fr.md)
 ---
 
 # Plot Series/fr
@@ -42,4 +42,4 @@ Sélectionnez l\'onglet du graphique que vous voulez modifier et exécutez cet o
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Series/fr
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Series/fr

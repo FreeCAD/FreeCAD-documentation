@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionPosHorizChainDimension
-   Name/fr:TechDraw Aligner horizontalement
-   MenuLocation:TechDraw - Extensions : attributs/modifications - Aligner horizontalement
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw Aligner verticalement](TechDraw_ExtensionPosVertChainDimension/fr.md), [TechDraw Aligner obliquement](TechDraw_ExtensionPosObliqueChainDimension/fr.md)
+   Name: TechDraw ExtensionPosHorizChainDimension
+   Name/fr: TechDraw Aligner horizontalement
+   MenuLocation: TechDraw - Extensions : attributs/modifications - Aligner horizontalement
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw Aligner verticalement](TechDraw_ExtensionPosVertChainDimension/fr.md), [TechDraw Aligner obliquement](TechDraw_ExtensionPosObliqueChainDimension/fr.md)
 ---
 
 # TechDraw ExtensionPosHorizChainDimension/fr
@@ -46,4 +46,4 @@ L\'outil **TechDraw Aligner horizontalement** aligne les cotes horizontales pour
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPosHorizChainDimension/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPosHorizChainDimension/fr

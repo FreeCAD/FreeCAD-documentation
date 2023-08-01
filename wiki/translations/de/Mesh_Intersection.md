@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh Intersection
-   Name/de:Mesh Intersection
-   MenuLocation:Netze - Boolesche Verknüpfungen - Schnitt
-   Workbenches:[Mesh](Mesh_Workbench/de.md)
-   SeeAlso:[Mesh Vereinigung](Mesh_Union/de.md), [Mesh Differenz](Mesh_Difference/de.md)
+   Name: Mesh Intersection
+   Name/de: Mesh Intersection
+   MenuLocation: Netze - Boolesche Verknüpfungen - Schnitt
+   Workbenches: [Mesh](Mesh_Workbench/de.md)
+   SeeAlso: [Mesh Vereinigung](Mesh_Union/de.md), [Mesh Differenz](Mesh_Difference/de.md)
 ---
 
 # Mesh Intersection/de
@@ -46,4 +46,4 @@ Siehe: [Mesh Formelement](Mesh_Feature/de.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Intersection/de
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Intersection/de

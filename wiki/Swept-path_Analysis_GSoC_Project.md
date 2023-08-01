@@ -41,4 +41,4 @@ Medium
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Swept-path Analysis GSoC Project
+⏵ [documentation index](../README.md) > Swept-path Analysis GSoC Project

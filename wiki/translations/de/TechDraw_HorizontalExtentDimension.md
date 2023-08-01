@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw Dimension Horizontal Extent
-   Name/de:TechDraw MaßHorizontaleAusdehnung
-   MenuLocation:TechDraw - Maßeinträge - Maß für die horizontale Ausdehnung einfügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[TechDraw Längenmaß](TechDraw_LengthDimension/de.md), [TechDraw MaßVertikaleAusdehnung](TechDraw_VerticalExtentDimension/de.md)
+   Name: TechDraw Dimension Horizontal Extent
+   Name/de: TechDraw MaßHorizontaleAusdehnung
+   MenuLocation: TechDraw - Maßeinträge - Maß für die horizontale Ausdehnung einfügen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [TechDraw Längenmaß](TechDraw_LengthDimension/de.md), [TechDraw MaßVertikaleAusdehnung](TechDraw_VerticalExtentDimension/de.md)
 ---
 
 # TechDraw HorizontalExtentDimension/de
@@ -81,4 +81,4 @@ App.ActiveDocument.DimExtent001.FormatSpec = '%.0f'
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HorizontalExtentDimension/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HorizontalExtentDimension/de

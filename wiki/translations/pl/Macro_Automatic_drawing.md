@@ -114,4 +114,4 @@ The forum [Automatic drawing](https://forum.freecadweb.org/viewtopic.php?f=8&t=3
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Automatic drawing/pl
+⏵ [documentation index](../README.md) > Macro Automatic drawing/pl

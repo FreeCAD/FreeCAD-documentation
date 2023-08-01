@@ -1,6 +1,4 @@
 # Scripted objects saving attributes/it
-{{TOCright}}
-
 ## Introduzione
 
 Gli [oggetti creati con script](Scripted_objects/it.md) vengono ricostruiti ogni volta che viene aperto un documento FCStd. Per fare ciò il documento mantiene un riferimento al modulo e alla classe Python che sono stati usati per creare l\'oggetto, insieme alle sue proprietà.
@@ -185,4 +183,4 @@ class CustomObject:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects saving attributes/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects saving attributes/it

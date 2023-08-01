@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch CloseHoles
-   Name/ru:Arch CloseHoles
-   MenuLocation:Архитектура - Утилиты - Убрать отверстия
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   SeeAlso:[Проверь](Arch_Check/ru.md)
+   Name: Arch CloseHoles
+   Name/ru: Arch CloseHoles
+   MenuLocation: Архитектура - Утилиты - Убрать отверстия
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   SeeAlso: [Проверь](Arch_Check/ru.md)
 ---
 
 # Arch CloseHoles/ru
@@ -76,4 +76,4 @@ solid = Arch.closeHole(Wall.Shape)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/ru

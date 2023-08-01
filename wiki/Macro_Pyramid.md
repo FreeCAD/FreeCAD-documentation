@@ -302,4 +302,4 @@ The forum discussion [Macros for pyramids and polyhedrons](https://forum.freecad
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Pyramid
+⏵ [documentation index](../README.md) > Macro Pyramid

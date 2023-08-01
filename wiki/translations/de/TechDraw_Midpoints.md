@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw Midpoints
-   Name/de:TechDraw Mittenpunkte
-   MenuLocation:TechDraw - Knoten hinzufügen - Kantenmittelpunkte hinzufügen
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.19
-   SeeAlso:[TechDraw Hilfspunkt](TechDraw_CosmeticVertex/de.md), [TechDraw Quadrantenknoten](TechDraw_Quadrants/de.md)
+   Name: TechDraw Midpoints
+   Name/de: TechDraw Mittenpunkte
+   MenuLocation: TechDraw - Knoten hinzufügen - Kantenmittelpunkte hinzufügen
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Version: 0.19
+   SeeAlso: [TechDraw Hilfspunkt](TechDraw_CosmeticVertex/de.md), [TechDraw Quadrantenknoten](TechDraw_Quadrants/de.md)
 ---
 
 # TechDraw Midpoints/de
@@ -73,4 +73,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Midpoints/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Midpoints/de

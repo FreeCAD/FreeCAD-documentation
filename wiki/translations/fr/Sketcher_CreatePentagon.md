@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreatePentagon
-   Name/fr:Sketcher Pentagone
-   MenuLocation:Esquisse - Géométries d'esquisse - Créer un pentagone
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **P** **5**
-   Version:0.15
+   Name: Sketcher CreatePentagon
+   Name/fr: Sketcher Pentagone
+   MenuLocation: Esquisse - Géométries d'esquisse - Créer un pentagone
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **P** **5**
+   Version: 0.15
 ---
 
 # Sketcher CreatePentagon/fr
@@ -40,4 +40,4 @@ Le cercle circonscrit est la géométrie de construction, qui n\'est visible que
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePentagon/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePentagon/fr

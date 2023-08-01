@@ -1,6 +1,4 @@
 # Tutorials/fr
-{{TOCright}}
-
 Cette page présente une sélection de tutoriels écrits de bonne qualité. Une liste complète et non triée des tutoriels peut être trouvée dans [:Category:Tutorials/fr](:Category:Tutorials/fr.md), une liste complète et triable peut être trouvée dans le [tableau ci-dessous](Tutorials/fr#Tutoriels_-_liste_complète.md).
 
 Si vous souhaitez contribuer à la rédaction de la documentation et des tutoriels sur le wiki, consultez les directives générales relatives au wiki dans [Ecrire une page Wiki](WikiPages/fr.md) et voir [tutorial guidelines (en)](Tutorial_guidelines.md).
@@ -374,4 +372,4 @@ Voici une liste de tous les tutoriels qui ne figurent pas dans le manuel **quell
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials/fr]], une liste complète et triable peut être trouvée dans le ](Category_Tutorials/fr]], une liste complète et triable peut être trouvée dans le .md) > [Tutorials](Category_Tutorials.md) > Tutorials/fr
+⏵ [documentation index](../README.md) > [Tutorials/fr]], une liste complète et triable peut être trouvée dans le ](Category_Tutorials/fr]], une liste complète et triable peut être trouvée dans le .md) > [Tutorials](Category_Tutorials.md) > Tutorials/fr

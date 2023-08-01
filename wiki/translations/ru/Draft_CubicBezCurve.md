@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft CubicBezCurve
-   Name/ru:Draft CubicBezCurve
-   MenuLocation:Draft - Bezier tools - CubicBezCurve
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Draft Wire](Draft_Wire/ru.md), [Draft BSpline](Draft_BSpline/ru.md), [Draft BezCurve](Draft_BezCurve/ru.md)
+   Name: Draft CubicBezCurve
+   Name/ru: Draft CubicBezCurve
+   MenuLocation: Draft - Bezier tools - CubicBezCurve
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Draft Wire](Draft_Wire/ru.md), [Draft BSpline](Draft_BSpline/ru.md), [Draft BezCurve](Draft_BezCurve/ru.md)
 ---
 
 # Draft CubicBezCurve/ru
@@ -165,4 +165,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft CubicBezCurve/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft CubicBezCurve/ru

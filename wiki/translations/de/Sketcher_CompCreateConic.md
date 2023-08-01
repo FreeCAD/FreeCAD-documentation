@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Sketcher CompCreateConic
-   Name/de:Sketcher AuswahlKegelschnittErstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
+   Name: Sketcher CompCreateConic
+   Name/de: Sketcher AuswahlKegelschnittErstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
 ---
 
 # Sketcher CompCreateConic/de
@@ -34,4 +34,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateConic/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateConic/de

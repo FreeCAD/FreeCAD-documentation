@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Points Structure
-   Name/pl:Punkty: Uporządkowana chmura punktów
-   MenuLocation:Punkty - Uporządkowana chmura punktów
-   Workbenches:[Punkty](Points_Workbench/pl.md)
+   Name: Points Structure
+   Name/pl: Punkty: Uporządkowana chmura punktów
+   MenuLocation: Punkty - Uporządkowana chmura punktów
+   Workbenches: [Punkty](Points_Workbench/pl.md)
 ---
 
 # Points Structure/pl
@@ -35,4 +35,4 @@ Zobacz stronę [Konwertuj na punkty](Points_Convert/pl.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Structure/pl
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Structure/pl

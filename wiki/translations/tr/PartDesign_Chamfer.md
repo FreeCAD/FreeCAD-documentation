@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign Chamfer
-   MenuLocation:Part Design - Apply a dress-up feature - Chamfer
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[PartDesign Fillet](PartDesign_Fillet.md)
+   Name: PartDesign Chamfer
+   MenuLocation: Part Design - Apply a dress-up feature - Chamfer
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   SeeAlso: [PartDesign Fillet](PartDesign_Fillet.md)
 ---
 
 # PartDesign Chamfer/tr
@@ -138,4 +138,4 @@ See [PartDesign Fillet](PartDesign_Fillet#Known_issues.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/tr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/tr

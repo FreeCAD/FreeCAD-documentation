@@ -12,4 +12,4 @@ Alle Symbole im Quellbaum findest Du unter [Artwork](Artwork/de.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Tux/de
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Tux/de

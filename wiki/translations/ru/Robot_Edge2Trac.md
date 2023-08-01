@@ -1,10 +1,10 @@
 # Robot Edge2Trac/ru
 ---
 - GuiCommand:
-   Name:Robot Edge2Trac
-   Name/ru:Robot Edge2Trac
-   Workbenches:[Robot](Robot_Workbench/ru.md)
-   MenuLocation:Робот - Край траектории---
+   Name: Robot Edge2Trac
+   Name/ru: Robot Edge2Trac
+   Workbenches: [Robot](Robot_Workbench/ru.md)
+   MenuLocation: Робот - Край траектории---
 
 
 </div>
@@ -41,4 +41,4 @@ You are able to change values for this trajectory by defining a <img alt="" src=
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Edge2Trac/ru
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Edge2Trac/ru

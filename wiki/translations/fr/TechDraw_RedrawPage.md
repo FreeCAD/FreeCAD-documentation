@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw RedrawPage
-   Name/fr:TechDraw Redessiner une page
-   MenuLocation:TechDraw - Page - Redessiner la page
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.19
+   Name: TechDraw RedrawPage
+   Name/fr: TechDraw Redessiner une page
+   MenuLocation: TechDraw - Page - Redessiner la page
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Version: 0.19
 ---
 
 # TechDraw RedrawPage/fr
@@ -36,4 +36,4 @@ L\'outil **TechDraw Redessiner** force la mise à jour de la page malgré les pa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RedrawPage/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RedrawPage/fr

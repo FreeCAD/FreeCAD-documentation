@@ -156,4 +156,4 @@ See [Artwork Ship](Artwork_Ship.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Artwork/it
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Artwork/it

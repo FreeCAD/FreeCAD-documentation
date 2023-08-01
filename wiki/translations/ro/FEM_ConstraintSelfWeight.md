@@ -1,6 +1,6 @@
 # FEM ConstraintSelfWeight/ro
 ---
-- GuiCommand:   Name:FEM ConstraintSelfWeight   Name/ro:FEM ConstraintSelfWeight   MenuLocation:Model - Mechanical Constraints - Constraint self weight   |Workbenches:[Shortcut:C,W   SeeAlso:[[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
+- GuiCommand:   Name: FEM ConstraintSelfWeight   Name/ro: FEM ConstraintSelfWeight   MenuLocation: Model - Mechanical Constraints - Constraint self weight   |Workbenches: [Shortcut: C,W   SeeAlso: [[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
 
 
 </div>
@@ -142,4 +142,4 @@ where 9810 is gravity acceleration magnitude in \[mm/s\^2\], and 0,0,-1 is direc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSelfWeight/ro
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSelfWeight/ro

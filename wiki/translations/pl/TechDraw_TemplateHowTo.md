@@ -144,4 +144,4 @@ Jeśli w FreeCAD teksty są przesunięte, może być konieczne usunięcie atrybu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/pl

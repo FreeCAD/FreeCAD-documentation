@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std CloseActiveWindow
-   Name/ru:Закрыть
-   MenuLocation:Файл - Закрыть
-   Workbenches:Все
-   Shortcut:**Ctrl**+**F4**
-   SeeAlso:[Закрыть всё](Std_CloseAllWindows/ru.md)
+   Name: Std CloseActiveWindow
+   Name/ru: Закрыть
+   MenuLocation: Файл - Закрыть
+   Workbenches: Все
+   Shortcut: **Ctrl**+**F4**
+   SeeAlso: [Закрыть всё](Std_CloseAllWindows/ru.md)
 ---
 
 # Std CloseActiveWindow/ru
@@ -57,4 +57,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std CloseActiveWindow/ru
+⏵ [documentation index](../README.md) > Std CloseActiveWindow/ru

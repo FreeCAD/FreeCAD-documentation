@@ -1,6 +1,4 @@
 # Task panel/es
-{{TOCright}}
-
 ## Introducción
 
 
@@ -69,4 +67,4 @@ Nota: Por favor note que al cambiar de la pestaña **Tareas** a la pestaña **Mo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Task panel/es
+⏵ [documentation index](../README.md) > Task panel/es

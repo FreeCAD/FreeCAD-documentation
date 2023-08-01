@@ -2,7 +2,7 @@
 ## Introdução
 
 
-{{TOCright}}
+
 
 In FreeCAD the word \"[Sketch](Sketch.md)\" is normally used to refer to a [Sketcher SketchObject](Sketcher_SketchObject.md) (`Sketcher::SketchObject` class) that is defined by the [Sketcher Workbench](Sketcher_Workbench.md). This is a 2D drawing that uses mathematical constraints to describe 2D geometry precisely.
 
@@ -39,4 +39,4 @@ Nevertheless, a Sketch can always be created by itself for any other purpose; it
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Sketch/pt-br
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Sketch/pt-br

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreatePointFillet
-   Name/fr:Sketcher Congé avec contraintes
-   MenuLocation:Esquisse - Géometries d'esquisse - Congé d'esquisse préservant les contraintes
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **F** **P**
-   Version:0.19
-   SeeAlso:[Sketcher Congé](Sketcher_CreateFillet/fr.md)
+   Name: Sketcher CreatePointFillet
+   Name/fr: Sketcher Congé avec contraintes
+   MenuLocation: Esquisse - Géometries d'esquisse - Congé d'esquisse préservant les contraintes
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **F** **P**
+   Version: 0.19
+   SeeAlso: [Sketcher Congé](Sketcher_CreateFillet/fr.md)
 ---
 
 # Sketcher CreatePointFillet/fr
@@ -26,4 +26,4 @@ Cet outil crée un congé entre deux lignes. L\'intersection (virtuelle) des lig
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePointFillet/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePointFillet/fr

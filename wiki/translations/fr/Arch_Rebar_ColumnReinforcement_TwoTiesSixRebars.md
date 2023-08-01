@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar ColumnReinforcement
-   Name/fr:Arch Rebar Armature 2x6
-   MenuLocation:Arch - Rebar tools - Column Reinforcement ou 3D/BIM - Reinforcement - Column Reinforcement
-   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
-   SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Rebar](Arch_Rebar/fr.md), [Arch Rebar Armature en colonne](Arch_Rebar_ColumnReinforcement/fr.md), [Arch Rebar Poutres](Arch_Rebar_BeamReinforcement/fr.md)
-   Version:0.19
+   Name: Arch Rebar ColumnReinforcement
+   Name/fr: Arch Rebar Armature 2x6
+   MenuLocation: Arch - Rebar tools - Column Reinforcement ou 3D/BIM - Reinforcement - Column Reinforcement
+   Workbenches: [Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   SeeAlso: [Reinforcement](Reinforcement_Workbench/fr.md), [Arch Rebar](Arch_Rebar/fr.md), [Arch Rebar Armature en colonne](Arch_Rebar_ColumnReinforcement/fr.md), [Arch Rebar Poutres](Arch_Rebar_BeamReinforcement/fr.md)
+   Version: 0.19
 ---
 
 # Arch Rebar ColumnReinforcement TwoTiesSixRebars/fr
@@ -350,4 +350,4 @@ rebar_group = TwoTiesSixRebars.editTwoTiesSixRebars(
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement TwoTiesSixRebars/fr
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement TwoTiesSixRebars/fr

@@ -87,4 +87,4 @@ The blog [freecad-tutorial.blogspot](http://freecad-tutorial.blogspot.be/)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro crank simul
+⏵ [documentation index](../README.md) > Macro crank simul

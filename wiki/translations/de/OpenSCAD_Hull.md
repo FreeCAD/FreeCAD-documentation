@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD Hull
-   Name/de:OpenSCAD Hull
-   MenuLocation:OpenSCAD - Perform Hull‏‎
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
+   Name: OpenSCAD Hull
+   Name/de: OpenSCAD Hull
+   MenuLocation: OpenSCAD - Perform Hull‏‎
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench/de.md)
 ---
 
 # OpenSCAD Hull/de
@@ -46,4 +46,4 @@ OpenSCAD muss installiert und konfiguriert sein in **Bearbeiten** → **Einstell
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Hull/de
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Hull/de

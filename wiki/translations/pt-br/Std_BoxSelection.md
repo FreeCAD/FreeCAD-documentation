@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std BoxSelection
-   MenuLocation:Edit - Box selection
-   Workbenches:All
-   Shortcut:**Shift**+**B**
-   SeeAlso:[Std BoxElementSelection](Std_BoxElementSelection.md), [Std SelectAll](Std_SelectAll.md)
+   Name: Std BoxSelection
+   MenuLocation: Edit - Box selection
+   Workbenches: All
+   Shortcut: **Shift**+**B**
+   SeeAlso: [Std BoxElementSelection](Std_BoxElementSelection.md), [Std SelectAll](Std_SelectAll.md)
 ---
 
 # Std BoxSelection/pt-br
@@ -42,4 +42,4 @@ The **Std BoxSelection** command selects objects from a user defined rectangular
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std BoxSelection/pt-br
+⏵ [documentation index](../README.md) > Std BoxSelection/pt-br

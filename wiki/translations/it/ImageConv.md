@@ -21,4 +21,4 @@ ImageConv è uno strumento da riga di comando.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > ImageConv/it
+⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > ImageConv/it

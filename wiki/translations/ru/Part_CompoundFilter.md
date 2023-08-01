@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Compound‏‎Filter
-   Name/ru:Part Compound‏‎Filter
-   MenuLocation:Деталь - Фильтр соединений
-   Workbenches:[Part](Part_Workbench/ru.md)
-   Version:0.17
+   Name: Part Compound‏‎Filter
+   Name/ru: Part Compound‏‎Filter
+   MenuLocation: Деталь - Фильтр соединений
+   Workbenches: [Part](Part_Workbench/ru.md)
+   Version: 0.17
 ---
 
 # Part CompoundFilter/ru
@@ -86,4 +86,4 @@ CompoundFilter можно использовать для извлечения �
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/ru

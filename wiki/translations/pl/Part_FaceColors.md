@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part FaceColors
-   Name/pl:Część: Kolor dla ściany
-   MenuLocation:Menu podręczne - Ustaw kolory ...
-   Workbenches:[Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md)
-   SeeAlso:[Wygląd zewnętrzny](Std_SetAppearance/pl.md)
+   Name: Part FaceColors
+   Name/pl: Część: Kolor dla ściany
+   MenuLocation: Menu podręczne - Ustaw kolory ...
+   Workbenches: [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md)
+   SeeAlso: [Wygląd zewnętrzny](Std_SetAppearance/pl.md)
 ---
 
 # Part FaceColors/pl
@@ -40,4 +40,4 @@ Aby zresetować wszystkie kolory powierzchni:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Command_Reference](Category_Command_Reference.md) > [Part](Part_Workbench.md) > Part FaceColors/pl
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Command_Reference](Category_Command_Reference.md) > [Part](Part_Workbench.md) > Part FaceColors/pl

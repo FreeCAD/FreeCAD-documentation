@@ -1,10 +1,10 @@
 # Robot Simulate/tr
 ---
 - GuiCommand:
-   Name:Robot Simulate
-   Name/tr:Simülasyon
-   Workbenches:[Robot](Robot_Workbench/tr.md)
-   MenuLocation:Robot - Yörünge Simülasyonu---
+   Name: Robot Simulate
+   Name/tr: Simülasyon
+   Workbenches: [Robot](Robot_Workbench/tr.md)
+   MenuLocation: Robot - Yörünge Simülasyonu---
 
 
 </div>
@@ -66,4 +66,4 @@ Soldan sağa düğmeler.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Simulate/tr
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Simulate/tr

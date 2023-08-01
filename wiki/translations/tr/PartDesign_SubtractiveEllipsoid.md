@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractiveEllipsoid
-   MenuLocation:Part Design - Create a subtractive primitive - Subtractive Ellipsoid
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign AdditiveEllipsoid](PartDesign_AdditiveEllipsoid.md)
+   Name: PartDesign SubtractiveEllipsoid
+   MenuLocation: Part Design - Create a subtractive primitive - Subtractive Ellipsoid
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   Version: 0.17
+   SeeAlso: [PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign AdditiveEllipsoid](PartDesign_AdditiveEllipsoid.md)
 ---
 
 # PartDesign SubtractiveEllipsoid/tr
@@ -60,4 +60,4 @@ The Ellipsoid can be edited after its creation in two ways:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveEllipsoid/tr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveEllipsoid/tr

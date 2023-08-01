@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Measure Clear All
-   Name/ru:Std MeasureClearAll
-   MenuLocation:Measure - Очистить всё 
-   Workbenches:[Part](Part_Workbench/ru.md)
+   Name: Part Measure Clear All
+   Name/ru: Std MeasureClearAll
+   MenuLocation: Measure - Очистить всё 
+   Workbenches: [Part](Part_Workbench/ru.md)
 ---
 
 # Part Measure Clear All/ru
@@ -24,4 +24,4 @@ This command clears all measurements from the [3D view](3D_view.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Clear All/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Clear All/ru

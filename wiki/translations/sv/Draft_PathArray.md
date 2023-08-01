@@ -1,6 +1,6 @@
 # Draft PathArray/sv
 ---
-- GuiCommand:   Name:Draft PathArray   Name/sv:Draft PathArray   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft - PathArray   SeeAlso:[Draft Array](Draft_Array/sv.md) ---
+- GuiCommand:   Name: Draft PathArray   Name/sv: Draft PathArray   Workbenches: [Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation: Draft - PathArray   SeeAlso: [Draft Array](Draft_Array/sv.md) ---
 
 
 </div>
@@ -276,4 +276,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathArray/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathArray/sv

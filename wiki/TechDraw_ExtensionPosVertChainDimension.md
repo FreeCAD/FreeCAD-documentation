@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionPosVertChainDimension
-   MenuLocation:TechDraw - Extensions: Attributes/Modifications - Position Vertical Chain Dimensions
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ExtensionPosHorizChainDimension](TechDraw_ExtensionPosHorizChainDimension.md), [TechDraw ExtensionPosObliqueChainDimension](TechDraw_ExtensionPosObliqueChainDimension.md)
+   Name: TechDraw ExtensionPosVertChainDimension
+   MenuLocation: TechDraw - Extensions: Attributes/Modifications - Position Vertical Chain Dimensions
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ExtensionPosHorizChainDimension](TechDraw_ExtensionPosHorizChainDimension.md), [TechDraw ExtensionPosObliqueChainDimension](TechDraw_ExtensionPosObliqueChainDimension.md)
 ---
 
 # TechDraw ExtensionPosVertChainDimension
@@ -38,4 +38,4 @@ The **TechDraw ExtensionPosVertChainDimension** tool aligns vertical dimensions 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPosVertChainDimension
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPosVertChainDimension

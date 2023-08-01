@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign Line
-   Name/tr:Referans Çizgisi Oluştur
-   Workbenches:[Parça Tasarım](PartDesign_Workbench/tr.md)
-   MenuLocation:Parça tasarım - Referans çizgisi oluştur
-   Version:0.17
-   SeeAlso:[Referans noktası oluştur](PartDesign_Point/tr.md), [Referans düzlemi oluştur](PartDesign_Plane/tr.md)
+   Name: PartDesign Line
+   Name/tr: Referans Çizgisi Oluştur
+   Workbenches: [Parça Tasarım](PartDesign_Workbench/tr.md)
+   MenuLocation: Parça tasarım - Referans çizgisi oluştur
+   Version: 0.17
+   SeeAlso: [Referans noktası oluştur](PartDesign_Point/tr.md), [Referans düzlemi oluştur](PartDesign_Plane/tr.md)
 ---
 
 # PartDesign Line/tr
@@ -80,4 +80,4 @@ Model ağacındaki Referans çizgisi etiketine çift tıklayın veya sağ tıkla
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Line/tr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Line/tr

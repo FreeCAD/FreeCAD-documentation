@@ -93,4 +93,4 @@ ver 0.0 , 2018-07-10 :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro CirclePlus/en
+⏵ [documentation index](../README.md) > Macro CirclePlus/en

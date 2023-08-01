@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part ElementCopy
-   Name/it:Part ElementCopy
-   MenuLocation:Part - Crea una copia - Copia un elemento
-   Workbenches:[Part](Part_Workbench/it.md)
-   Version:0.19
-   SeeAlso:[Copia semplice](Part_SimpleCopy/it.md), [Copia modificata](Part_TransformedCopy/it.md), [Affina forma](Part_RefineShape/it.md)
+   Name: Part ElementCopy
+   Name/it: Part ElementCopy
+   MenuLocation: Part - Crea una copia - Copia un elemento
+   Workbenches: [Part](Part_Workbench/it.md)
+   Version: 0.19
+   SeeAlso: [Copia semplice](Part_SimpleCopy/it.md), [Copia modificata](Part_TransformedCopy/it.md), [Affina forma](Part_RefineShape/it.md)
 ---
 
 # Part ElementCopy/it
@@ -55,4 +55,4 @@ La copia ha una semplice proprietà vista come qualsiasi altra [Part Feature](Pa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ElementCopy/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ElementCopy/it

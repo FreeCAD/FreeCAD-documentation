@@ -2,7 +2,7 @@
 ## Introduction
 
 
-{{TOCright}}
+
 
 Macro to export your model to the raytracing program [Kerkythea](http://www.kerkythea.net/cms/).
 
@@ -46,4 +46,4 @@ See [How to install macros](How_to_install_macros.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Macros](Category_Macros.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Macro Kerkythea/pl
+⏵ [documentation index](../README.md) > [Macros](Category_Macros.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Macro Kerkythea/pl

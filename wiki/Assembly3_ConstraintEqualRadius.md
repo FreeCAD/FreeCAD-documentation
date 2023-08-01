@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintEqualRadius
-   Icon:Assembly_ConstraintEqualRadius.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintEqualRadius
+   Icon: Assembly_ConstraintEqualRadius.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintEqualRadius
@@ -34,4 +34,4 @@ The radius value of the first selected circle or arc equals the radius value of 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintEqualRadius
+⏵ [documentation index](../README.md) > Assembly3 ConstraintEqualRadius

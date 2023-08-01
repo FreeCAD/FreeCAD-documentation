@@ -109,4 +109,4 @@ Set the LuxCore command (cli) path, something like *C:/Tools/LuxCore/pyluxcoreto
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > LuxCoreRender
+⏵ [documentation index](../README.md) > LuxCoreRender

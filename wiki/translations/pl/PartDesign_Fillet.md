@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Fillet
-   Name/pl:Projekt Części: Zaokrąglenie
-   MenuLocation:Projekt Części - Zastosuj funkcję ulepszenia - Zaokrąglenie
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   SeeAlso:[Sfazowanie](PartDesign_Chamfer/pl.md)
+   Name: PartDesign Fillet
+   Name/pl: Projekt Części: Zaokrąglenie
+   MenuLocation: Projekt Części - Zastosuj funkcję ulepszenia - Zaokrąglenie
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   SeeAlso: [Sfazowanie](PartDesign_Chamfer/pl.md)
 ---
 
 # PartDesign Fillet/pl
@@ -152,4 +152,4 @@ Przeczytaj więcej na stronie [problem nazewnictwa topologicznego](Topological_n
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Fillet/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Fillet/pl

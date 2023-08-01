@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher RemoveAxesAlignment
-   Name/de:Sketcher AchsenausrichtungenEntfernen
-   MenuLocation:Sketch - Skizzen-Werkzeuge - Achsenausrichtung entfernen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**Z** **R**
-   Version:0.20
+   Name: Sketcher RemoveAxesAlignment
+   Name/de: Sketcher AchsenausrichtungenEntfernen
+   MenuLocation: Sketch - Skizzen-Werkzeuge - Achsenausrichtung entfernen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **Z** **R**
+   Version: 0.20
 ---
 
 # Sketcher RemoveAxesAlignment/de
@@ -38,4 +38,4 @@ Als Ergebnis werden die Randbedingungen HorizontalFestlegen und VertikalFestlege
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RemoveAxesAlignment/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RemoveAxesAlignment/de

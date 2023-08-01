@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Std StoreWorkingView
-   Name/pl:Std: Zachowaj widok
-   MenuLocation:Widok - Widoki standardowe - Przechowaj widok roboczy
-   Workbenches:wszystkie
-   Shortcut:**Shift** + **End**
-   Version:0.21
-   SeeAlso:[Odtwórz widok](Std_RecallWorkingView/pl.md), [Zamroź widok](Std_FreezeViews/pl.md)
+   Name: Std StoreWorkingView
+   Name/pl: Std: Zachowaj widok
+   MenuLocation: Widok - Widoki standardowe - Przechowaj widok roboczy
+   Workbenches: wszystkie
+   Shortcut: **Shift** + **End**
+   Version: 0.21
+   SeeAlso: [Odtwórz widok](Std_RecallWorkingView/pl.md), [Zamroź widok](Std_FreezeViews/pl.md)
 ---
 
 # Std StoreWorkingView/pl
@@ -57,4 +57,4 @@ FreeCADGui.runCommand("Std_StoreWorkingView", 0)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std StoreWorkingView/pl
+⏵ [documentation index](../README.md) > Std StoreWorkingView/pl

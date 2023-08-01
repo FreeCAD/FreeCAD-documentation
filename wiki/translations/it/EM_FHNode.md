@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:EM FHNode
-   Name/it:EM FHNode
-   MenuLocation:EM - FHNode
-   Workbenches:[EM](EM_Workbench/it.md) (add-on)
-   Shortcut:**E** **N**
-   SeeAlso:[EM FHSegment](EM_FHSegment/it.md), [EM FHPath](EM_FHPath/it.md), [EM FHPlane](EM_FHPlane/it.md), [EM FHPlane Add/Remove Node/Hole](EM_FHPlaneAddRemoveNodeHole/it.md), [EM FHEquiv](EM_FHEquiv/it.md), [EM FHPort](EM_FHPort/it.md)
-   Version:0.17
+   Name: EM FHNode
+   Name/it: EM FHNode
+   MenuLocation: EM - FHNode
+   Workbenches: [EM](EM_Workbench/it.md) (add-on)
+   Shortcut: **E** **N**
+   SeeAlso: [EM FHSegment](EM_FHSegment/it.md), [EM FHPath](EM_FHPath/it.md), [EM FHPlane](EM_FHPlane/it.md), [EM FHPlane Add/Remove Node/Hole](EM_FHPlaneAddRemoveNodeHole/it.md), [EM FHEquiv](EM_FHEquiv/it.md), [EM FHPort](EM_FHPort/it.md)
+   Version: 0.17
 ---
 
 # EM FHNode/it
@@ -137,4 +137,4 @@ fhnode = EM.makeFHNode(X=1.0,Y=2.0,Z=0.0)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [EM](Category_EM.md) > EM FHNode/it
+⏵ [documentation index](../README.md) > [EM](Category_EM.md) > EM FHNode/it

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Rotate
-   Name/es:Draft Rotate
-   Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   MenuLocation:Croquis - Girar
-   Shortcut:**R** **O**
+   Name: Draft Rotate
+   Name/es: Draft Rotate
+   Workbenches: [Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   MenuLocation: Croquis - Girar
+   Shortcut: **R** **O**
 ---
 
 # Draft Rotate/es
@@ -154,4 +154,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/es

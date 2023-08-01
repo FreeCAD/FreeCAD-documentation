@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part ReverseShapes
-   Name/de:Part FormenUmkehren
-   MenuLocation:Part - Formen umkehren
-   Workbenches:[Part Modul](Part_Workbench/de.md)
+   Name: Part ReverseShapes
+   Name/de: Part FormenUmkehren
+   MenuLocation: Part - Formen umkehren
+   Workbenches: [Part Modul](Part_Workbench/de.md)
 ---
 
 # Part ReverseShapes/de
@@ -40,4 +40,4 @@ Kippt die Normalen aller Flächen des ausgewählten Objekts.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ReverseShapes/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ReverseShapes/de

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign_Draft
-   Name/fr:PartDesign Dépouille
-   MenuLocation:Part Design - Appliquer une fonction d'habillage - Dépouille
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
+   Name: PartDesign_Draft
+   Name/fr: PartDesign Dépouille
+   MenuLocation: Part Design - Appliquer une fonction d'habillage - Dépouille
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
 ---
 
 # PartDesign Draft/fr
@@ -113,4 +113,4 @@ Un objet Part Dépouille est dérivé d\'un [Part Feature](Part_Feature/fr.md) e
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft/fr

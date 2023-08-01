@@ -1,6 +1,6 @@
 # Path ExportTemplate/ro
 ---
-- GuiCommand:   Name:Path ExportTemplate   Workbenches:[MenuLocation:Path - Export Template   SeeAlso:[[Path_SetupSheet|Path SetupSheet](Path_Workbench___Path]].md) ---
+- GuiCommand:   Name: Path ExportTemplate   Workbenches: [MenuLocation: Path - Export Template   SeeAlso: [[Path_SetupSheet|Path SetupSheet](Path_Workbench___Path]].md) ---
 
 
 </div>
@@ -109,4 +109,4 @@ Crearea unui Șablon
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate/ro
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate/ro

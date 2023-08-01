@@ -20,4 +20,4 @@ To jest **główna kategoria**\', która zawiera główne kategorie FreeCAD wiki
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Categories/pl
+⏵ [documentation index](../README.md) > Category:Categories/pl

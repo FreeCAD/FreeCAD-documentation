@@ -1,6 +1,6 @@
 # Draft WireToBSpline/sv
 ---
-- GuiCommand:   Name:Draft WireToBSpline   Name/sv:Draft WireToBSpline   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Drafting -> Wire to BSpline---
+- GuiCommand:   Name: Draft WireToBSpline   Name/sv: Draft WireToBSpline   Workbenches: [Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation: Drafting -> Wire to BSpline---
 
 
 </div>
@@ -71,4 +71,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WireToBSpline/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WireToBSpline/sv

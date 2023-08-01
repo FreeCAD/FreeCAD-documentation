@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreatePoint
-   Name/de:Sketcher PunktErstellen
-   MenuLocation:Sketch - Skizzengeometrien - Punkt erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **Y**
+   Name: Sketcher CreatePoint
+   Name/de: Sketcher PunktErstellen
+   MenuLocation: Sketch - Skizzengeometrien - Punkt erstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **Y**
 ---
 
 # Sketcher CreatePoint/de
@@ -41,4 +41,4 @@ Das Punktwerkzeug erzeugt einen Punkt in der aktuellen Skizze, der für die Kons
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/de

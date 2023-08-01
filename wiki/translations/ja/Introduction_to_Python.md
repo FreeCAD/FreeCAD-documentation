@@ -1,6 +1,4 @@
 # Introduction to Python/ja
-{{TOCright}}
-
 ## Introduction
 
 
@@ -1005,4 +1003,4 @@ dir()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Introduction to Python/ja
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Introduction to Python/ja

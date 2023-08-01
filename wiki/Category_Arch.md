@@ -47,4 +47,4 @@ This category list pages related to the [Arch Workbench](Arch_Workbench.md), the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Arch
+⏵ [documentation index](../README.md) > Category:Arch

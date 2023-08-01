@@ -1,8 +1,4 @@
 # SheetMetal Examples/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 Środowisko pracy <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:24px;"> [Arkusz Blachy](SheetMetal_Workbench/pl.md) *(jest [zewnętrznym środowiskiem](External_workbenches/pl.md) dostępnym poprzez [Menadżer dodatków](Std_AddonMgr/pl.md))* stało się bardzo rozbudowane i wymaga odpowiedniej dokumentacji.
@@ -473,4 +469,4 @@ Profil łączony → Profil z zazębiającym się przedłużeniem, ten efekt ko�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal Examples/pl
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal Examples/pl

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher LeaveSketch
-   Name/de:Sketcher Skizze verlassen
-   MenuLocation:Sketch - SkizzeVerlassen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso:[Sketcher SkizzeBearbeiten](Sketcher_EditSketch/de.md)
+   Name: Sketcher LeaveSketch
+   Name/de: Sketcher Skizze verlassen
+   MenuLocation: Sketch - SkizzeVerlassen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso: [Sketcher SkizzeBearbeiten](Sketcher_EditSketch/de.md)
 ---
 
 # Sketcher LeaveSketch/de
@@ -36,4 +36,4 @@ Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/de

@@ -1,6 +1,4 @@
 # Dialog creation/ru
-{{TOCright}}
-
 ## Введение
 
 На этой странице мы покажем как создать простой графический интерфейс с помощью [Qt Designer](http://qt-project.org/doc/qt-4.8/designer-manual.html), официальный инструмент Qt для создания интерфейсов, диалог будет сковертирован в код [Python](Python/ru.md), затем использован внутри FreeCAD. Мы будем полагать что пользователь знает в общих чертах как редактировать и запускать [Python](Python/ru.md).
@@ -259,4 +257,4 @@ class plane():
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Dialog creation/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Dialog creation/ru

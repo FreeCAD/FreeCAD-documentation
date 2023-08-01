@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintCoincidence
-   Icon:Assembly_ConstraintCoincidence.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintCoincidence
+   Icon: Assembly_ConstraintCoincidence.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintCoincidence
@@ -43,4 +43,4 @@ In real life the shapes of the objects allow rotation and prevent sliding and in
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintCoincidence
+⏵ [documentation index](../README.md) > Assembly3 ConstraintCoincidence

@@ -14,7 +14,7 @@ It functionality has been integrated in [Std Base](Std_Base.md). See [Std Import
 <img alt="Ícone da bancada de trabalho de imagem" src=images/Workbench_Image.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 
 
@@ -77,4 +77,4 @@ O deslocamento da imagem pode ser configurado durante a importação ou alterada
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Image](Category_Image.md) > Image Workbench/pt-br
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Image](Category_Image.md) > Image Workbench/pt-br

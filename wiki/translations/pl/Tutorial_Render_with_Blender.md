@@ -379,4 +379,4 @@ Uzyskanie dobrych rezultatów zależy w dużej mierze od opcji renderowania, mat
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Tutorial Render with Blender/pl
+⏵ [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Tutorial Render with Blender/pl

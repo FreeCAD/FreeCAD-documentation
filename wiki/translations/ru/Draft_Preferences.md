@@ -1,7 +1,4 @@
 # Draft Preferences/ru
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 Настройки верстака Draft находятся в [Редакторе настроек](Preferences_Editor/ru.md), в меню **Правка → Настройки → Draft**.
@@ -508,4 +505,4 @@ On the *Texts and dimensions* tab you can specify the following:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Draft](Draft_Workbench.md) > Draft Preferences/ru
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Draft](Draft_Workbench.md) > Draft Preferences/ru

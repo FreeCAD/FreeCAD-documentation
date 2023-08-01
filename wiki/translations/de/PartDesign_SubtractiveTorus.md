@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractiveTorus
-   Name/de:PartDesign TorusAbziehen
-   MenuLocation:Part Design - Grundkörper abziehen - Torus
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[PartDesign AuswahlGrundkörperAbziehen](PartDesign_CompPrimitiveSubtractive/de.md), [PartDesign TorusHinzufügen](PartDesign_AdditiveTorus/de.md)
+   Name: PartDesign SubtractiveTorus
+   Name/de: PartDesign TorusAbziehen
+   MenuLocation: Part Design - Grundkörper abziehen - Torus
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [PartDesign AuswahlGrundkörperAbziehen](PartDesign_CompPrimitiveSubtractive/de.md), [PartDesign TorusHinzufügen](PartDesign_AdditiveTorus/de.md)
 ---
 
 # PartDesign SubtractiveTorus/de
@@ -69,4 +69,4 @@ Der Torus kann nach seiner Erstellung auf zwei Arten bearbeitet werden:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveTorus/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveTorus/de

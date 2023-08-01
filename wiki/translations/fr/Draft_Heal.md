@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Heal
-   Name/fr:Draft Réparer
-   MenuLocation:Utilitaires - Réparer
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Draft Agréger](Draft_Upgrade/fr.md), [Draft Désagréger](Draft_Downgrade/fr.md)
+   Name: Draft Heal
+   Name/fr: Draft Réparer
+   MenuLocation: Utilitaires - Réparer
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   SeeAlso: [Draft Agréger](Draft_Upgrade/fr.md), [Draft Désagréger](Draft_Downgrade/fr.md)
 ---
 
 # Draft Heal/fr
@@ -22,4 +22,4 @@ La commande <img alt="" src=images/Draft_Heal.svg  style="width:24px;"> **Draft 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/fr

@@ -284,4 +284,4 @@ that causes an error with the version FreeCAD : Version: 0.14.3343 (Git), Python
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Texture
+⏵ [documentation index](../README.md) > Macro Texture

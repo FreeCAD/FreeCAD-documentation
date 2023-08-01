@@ -1,6 +1,6 @@
 # TechDraw HorizontalDimension/ro
 ---
-- GuiCommand:   Name:TechDraw  Dimension Horizontal   Workbenches:[[TechDraw_Workbench   TechDraw]]|MenuLocation:TechDraw - Dimension Horizontal   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: TechDraw  Dimension Horizontal   Workbenches: [[TechDraw_Workbench   TechDraw]]|MenuLocation: TechDraw - Dimension Horizontal   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -29,4 +29,4 @@ For more information see [TechDraw LengthDimension](TechDraw_LengthDimension.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HorizontalDimension/ro
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HorizontalDimension/ro

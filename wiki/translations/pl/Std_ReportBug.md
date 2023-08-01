@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ReportBug
-   Name/pl:Std: Zgłoś błąd
-   MenuLocation:Pomoc - Zgłoś błąd
-   Workbenches:wszytkie
-   Version:0.20
+   Name: Std ReportBug
+   Name/pl: Std: Zgłoś błąd
+   MenuLocation: Pomoc - Zgłoś błąd
+   Workbenches: wszytkie
+   Version: 0.20
 ---
 
 # Std ReportBug/pl
@@ -34,4 +34,4 @@ Obecnie polecenie wskazuje na stronę [<https://github.com/FreeCAD/FreeCAD/issue
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ReportBug/pl
+⏵ [documentation index](../README.md) > Std ReportBug/pl

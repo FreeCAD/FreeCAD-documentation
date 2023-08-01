@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Drawing View
-   Name/fr:Drawing Insérer une vue
-   Workbenches:[Drawing](Drawing_Workbench/fr.md)
-   MenuLocation:Drawing - Insérer une vue dans la page
-   Shortcut:
-   SeeAlso:[Feuille A3 Paysage](Drawing_Landscape_A3/fr.md)
+   Name: Drawing View
+   Name/fr: Drawing Insérer une vue
+   Workbenches: [Drawing](Drawing_Workbench/fr.md)
+   MenuLocation: Drawing - Insérer une vue dans la page
+   Shortcut: 
+   SeeAlso: [Feuille A3 Paysage](Drawing_Landscape_A3/fr.md)
 ---
 
 # Drawing View/fr
@@ -59,4 +59,4 @@ Si vous recherchez un basculement orthogonal en perspective dans la vue 3D, vér
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing View/fr
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing View/fr

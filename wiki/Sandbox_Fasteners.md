@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Sandbox:Fasteners
+⏵ [documentation index](../README.md) > Sandbox:Fasteners

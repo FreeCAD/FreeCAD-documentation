@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part JoinCutout
-   Name/ru:Part JoinCutout
-   MenuLocation:Деталь - Join - Cutout for Object
-   Workbenches:[Part](Part_Workbench/ru.md)
-   Version:0.16.5069
-   SeeAlso:[Connect](Part_JoinConnect/ru.md), [Embed](Part_JoinEmbed/ru.md), [Part Boolean](Part_Boolean/ru.md), [Part Thickness](Part_Thickness/ru.md)
+   Name: Part JoinCutout
+   Name/ru: Part JoinCutout
+   MenuLocation: Деталь - Join - Cutout for Object
+   Workbenches: [Part](Part_Workbench/ru.md)
+   Version: 0.16.5069
+   SeeAlso: [Connect](Part_JoinConnect/ru.md), [Embed](Part_JoinEmbed/ru.md), [Part Boolean](Part_Boolean/ru.md), [Part Thickness](Part_Thickness/ru.md)
 ---
 
 # Part JoinCutout/ru
@@ -90,4 +90,4 @@ The tool itself is implemented in Python, see **/Mod/Part/JoinFeatures.py** ([Gi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinCutout/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinCutout/ru

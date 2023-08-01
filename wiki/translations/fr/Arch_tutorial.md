@@ -526,4 +526,4 @@ Le fichier créé durant ce tutoriel peut être téléchargé [ici](http://yorik
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/fr

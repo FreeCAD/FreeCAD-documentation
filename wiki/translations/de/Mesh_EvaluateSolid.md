@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh EvaluateSolid
-   MenuLocation:Meshes - Analyze - Check solid mesh
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Arch SelectNonSolidMeshes](Arch_SelectNonSolidMeshes.md)
+   Name: Mesh EvaluateSolid
+   MenuLocation: Meshes - Analyze - Check solid mesh
+   Workbenches: [Mesh](Mesh_Workbench.md)
+   SeeAlso: [Arch SelectNonSolidMeshes](Arch_SelectNonSolidMeshes.md)
 ---
 
 # Mesh EvaluateSolid/de
@@ -32,4 +32,4 @@ The **Mesh EvaluateSolid** command checks if a mesh object is solid. A solid mes
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh EvaluateSolid/de
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh EvaluateSolid/de

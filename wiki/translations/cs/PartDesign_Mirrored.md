@@ -1,6 +1,6 @@
 # PartDesign Mirrored/cs
 ---
-- GuiCommand:   Name:PartDesign_Mirrored   Name/cs:PartDesign Mirrored   Workbenches:[[PartDesign Workbench/cs   Návrh dílu]], Complete|MenuLocation:PartDesign -> Mirrored---
+- GuiCommand:   Name: PartDesign_Mirrored   Name/cs: PartDesign Mirrored   Workbenches: [[PartDesign Workbench/cs   Návrh dílu]], Complete|MenuLocation: PartDesign -> Mirrored---
 
 
 </div>
@@ -147,4 +147,4 @@ See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/cs
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/cs

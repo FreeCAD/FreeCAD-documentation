@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet AlignBottom
-   Name/pl:Arkusz Kalkulacyjny: Wyrównaj w dół
-   MenuLocation:Arkusz kalkulacyjny - Wyrównanie - Wyrównaj w dół
-   Workbenches:[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
-   Version:0.17
+   Name: Spreadsheet AlignBottom
+   Name/pl: Arkusz Kalkulacyjny: Wyrównaj w dół
+   MenuLocation: Arkusz kalkulacyjny - Wyrównanie - Wyrównaj w dół
+   Workbenches: [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   Version: 0.17
 ---
 
 # Spreadsheet AlignBottom/pl
@@ -30,4 +30,4 @@ Narzędzie **[<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> [W
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignBottom/pl
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignBottom/pl

@@ -1,7 +1,7 @@
 # <img alt="Ikonka FreeCAD dla Std: Narzędzia standardowe" src=images/Freecad.svg  style="width:64px;"> Std Macro Menu/pl
 
 
-{{TOCright}}
+
 
 
 
@@ -68,4 +68,4 @@ W tym menu dostępne są następujące narzędzia:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Macro Menu/pl
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Macro Menu/pl

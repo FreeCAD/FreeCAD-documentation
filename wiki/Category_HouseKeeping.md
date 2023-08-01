@@ -14,4 +14,4 @@ The first one out is renaming the Module pages to Workbench, with all the needed
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:HouseKeeping
+⏵ [documentation index](../README.md) > Category:HouseKeeping

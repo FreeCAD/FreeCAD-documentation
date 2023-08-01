@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch CompRebarStraight
-   Name/ru:Инструменты армирования
-   MenuLocation:Arch - Rebar tools
-   Workbenches:[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
-   Version:0.17
+   Name: Arch CompRebarStraight
+   Name/ru: Инструменты армирования
+   MenuLocation: Arch - Rebar tools
+   Workbenches: [Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
+   Version: 0.17
 ---
 
 # Arch CompRebarStraight/ru
@@ -46,4 +46,4 @@ Back to [Workbenches](Workbenches#External_workbenches.md) / [External Workbench
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/ru

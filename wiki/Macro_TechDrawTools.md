@@ -153,4 +153,4 @@ Tools creating dimensions.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro TechDrawTools
+⏵ [documentation index](../README.md) > Macro TechDrawTools

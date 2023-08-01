@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ProjectInfo
-   Name/pl:Std: Informacja o projekcie
-   MenuLocation:Plik - Informacja o projekcie ...
-   Workbenches:wszystkie
-   SeeAlso:[Nowy](Std_New/pl.md)
+   Name: Std ProjectInfo
+   Name/pl: Std: Informacja o projekcie
+   MenuLocation: Plik - Informacja o projekcie ...
+   Workbenches: wszystkie
+   SeeAlso: [Nowy](Std_New/pl.md)
 ---
 
 # Std ProjectInfo/pl
@@ -51,4 +51,4 @@ Przetłumaczono z www.DeepL.com/Translator (wersja darmowa)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ProjectInfo/pl
+⏵ [documentation index](../README.md) > Std ProjectInfo/pl

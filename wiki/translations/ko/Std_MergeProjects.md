@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std MergeProjects
-   Name/ko:표준 프로젝트 병합
-   MenuLocation:파일 - 프로젝트 병합...
-   Workbenches:모두
+   Name: Std MergeProjects
+   Name/ko: 표준 프로젝트 병합
+   MenuLocation: 파일 - 프로젝트 병합...
+   Workbenches: 모두
 ---
 
 # Std MergeProjects/ko
@@ -73,4 +73,4 @@ FreeCAD.ActiveDocument.mergeProject("Path_to_FCStd_project_file")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MergeProjects/ko
+⏵ [documentation index](../README.md) > Std MergeProjects/ko

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM PostFilterClipScalar
-   Name/it:FEM PostFilterClipScalar
-   MenuLocation: Risultati - scalar clip filter
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
+   Name: FEM PostFilterClipScalar
+   Name/it: FEM PostFilterClipScalar
+   MenuLocation:  Risultati - scalar clip filter
+   Workbenches: [FEM](FEM_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: [Tutorial FEM](FEM_tutorial/it.md)
 ---
 
 # FEM PostFilterClipScalar/it
@@ -53,4 +53,4 @@ A scalar filter can be combined with other filters. Here is for example a scalar
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterClipScalar/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterClipScalar/it

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Save
-   Name/ko:표준 저장
-   MenuLocation:파일 - 저장
-   Workbenches:모두
-   Shortcut:**Ctrl**+**S**
-   SeeAlso:[표준 다른 이름으로 저장](Std_SaveAs/ko.md), [표준 사본 저장](Std_SaveCopy/ko.md), [표준 모두 저장](Std_SaveAll/ko.md)
+   Name: Std Save
+   Name/ko: 표준 저장
+   MenuLocation: 파일 - 저장
+   Workbenches: 모두
+   Shortcut: **Ctrl**+**S**
+   SeeAlso: [표준 다른 이름으로 저장](Std_SaveAs/ko.md), [표준 사본 저장](Std_SaveCopy/ko.md), [표준 모두 저장](Std_SaveAll/ko.md)
 ---
 
 # Std Save/ko
@@ -60,4 +60,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Save/ko
+⏵ [documentation index](../README.md) > Std Save/ko

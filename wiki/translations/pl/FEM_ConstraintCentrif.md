@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintCentrif
-   MenuLocation:Model - Mechanical Constraints - Constraint centrif
-   Workbenches:[FEM](FEM_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:
+   Name: FEM ConstraintCentrif
+   MenuLocation: Model - Mechanical Constraints - Constraint centrif
+   Workbenches: [FEM](FEM_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: 
 ---
 
 # FEM ConstraintCentrif/pl
@@ -38,4 +38,4 @@ Definiuje obciążenie siłą odśrodkową bryły.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FEM ConstraintCentrif/pl
+⏵ [documentation index](../README.md) > FEM ConstraintCentrif/pl

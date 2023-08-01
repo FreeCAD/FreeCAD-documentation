@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro CircularText/it
+⏵ [documentation index](../README.md) > Macro CircularText/it

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher Regular Polygons
-   Name/es:Croquizador Polígonos regulares
-   Icon:Sketcher_CompCreateRegularPolygon.png
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation:Ninguno (sólo barra de herramientas)
+   Name: Sketcher Regular Polygons
+   Name/es: Croquizador Polígonos regulares
+   Icon: Sketcher_CompCreateRegularPolygon.png
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   MenuLocation: Ninguno (sólo barra de herramientas)
 ---
 
 # Sketcher CompCreateRegularPolygon/es
@@ -53,4 +53,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRegularPolygon/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRegularPolygon/es

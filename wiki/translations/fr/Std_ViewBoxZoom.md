@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ViewBoxZoom
-   Name/fr:Std Zoom fenêtre
-   MenuLocation:Affichage - Zoom - Zoom fenêtre
-   Workbenches:Tous
-   Shortcut:**Ctrl**+**B**
-   SeeAlso:[Std Zoom avant](Std_ViewZoomIn/fr.md), [Std Zoom arrière](Std_ViewZoomOut/fr.md)
+   Name: Std ViewBoxZoom
+   Name/fr: Std Zoom fenêtre
+   MenuLocation: Affichage - Zoom - Zoom fenêtre
+   Workbenches: Tous
+   Shortcut: **Ctrl**+**B**
+   SeeAlso: [Std Zoom avant](Std_ViewZoomIn/fr.md), [Std Zoom arrière](Std_ViewZoomOut/fr.md)
 ---
 
 # Std ViewBoxZoom/fr
@@ -34,4 +34,4 @@ La commande **Std Zoom fenêtre** effectue un zoom avant sur une zone rectangula
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewBoxZoom/fr
+⏵ [documentation index](../README.md) > Std ViewBoxZoom/fr

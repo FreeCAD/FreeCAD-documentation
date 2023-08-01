@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std LinkUnlink
-   Name/de:Std VerknüpfungAuflösen
-   MenuLocation:None
-   Workbenches:All
-   Version:0.19
-   SeeAlso:[Std VerknüpfungErstellen](Std_LinkMake/de.md), [Std UnterverknüpfungErstellen](Std_LinkMakeRelative/de.md), [Std DurchVerknüpfungErsetzen](Std_LinkReplace/de.md)
+   Name: Std LinkUnlink
+   Name/de: Std VerknüpfungAuflösen
+   MenuLocation: None
+   Workbenches: All
+   Version: 0.19
+   SeeAlso: [Std VerknüpfungErstellen](Std_LinkMake/de.md), [Std UnterverknüpfungErstellen](Std_LinkMakeRelative/de.md), [Std DurchVerknüpfungErsetzen](Std_LinkReplace/de.md)
 ---
 
 # Std LinkUnlink/de
@@ -54,4 +54,4 @@ Jetzt muß die Original-<img alt="" src=images/Tree_Part_Sphere_Parametric.svg  
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkUnlink/de
+⏵ [documentation index](../README.md) > Std LinkUnlink/de

@@ -3,7 +3,7 @@
 ## Introduction
 
 
-{{TOCright}}
+
 
 L\'[Atelier Manipulator](Manipulator_Workbench/fr.md) est un [atelier externe](External_workbenches/fr.md) destiné à aider les utilisateurs de FreeCAD à aligner, déplacer, faire pivoter et mesurer des objets 3D via une interface graphique conviviale. Ces séries d\'outils aident à transformer les objets de placement et de mesure et les modèles STEP dans FreeCAD.
 
@@ -133,4 +133,4 @@ De nouveaux ateliers sont en développement, tenez vous au courant!
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Manipulator Workbench/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Manipulator Workbench/fr

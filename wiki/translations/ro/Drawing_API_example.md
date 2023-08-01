@@ -244,4 +244,4 @@ With those two, you can proceed as above for displaying them on the drawing page
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Drawing](Category_Drawing.md) > Drawing API example/ro
+⏵ [documentation index](../README.md) > [API](Category_API.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Drawing](Category_Drawing.md) > Drawing API example/ro

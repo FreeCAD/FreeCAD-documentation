@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Sweep
-   Name/de:Part Austragung
-   MenuLocation:Formteil - Sweep...
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Ausformung](Part_Loft/de.md)
+   Name: Part Sweep
+   Name/de: Part Austragung
+   MenuLocation: Formteil - Sweep...
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: [Part Ausformung](Part_Loft/de.md)
 ---
 
 # Part Sweep/de
@@ -105,4 +105,4 @@ Wenn \"Frenet\" \"wahr\" ist, wird die Ausrichtung des Profils basierend auf lok
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/de

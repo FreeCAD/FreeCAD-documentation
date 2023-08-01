@@ -1,6 +1,4 @@
 # Fine-tuning/fr
-{{TOCright}}
-
 ## Introduction
 
 L\'[Editeur de préférences](Preferences_Editor/fr.md) de FreeCAD du menu **Édition → Préférences** est généralement utilisé pour définir et manipuler la table des paramètres de FreeCAD.
@@ -182,4 +180,4 @@ L\'étiquette dans Sketcher qui affiche l\'état en cours des contraintes (par e
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Fine-tuning/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Fine-tuning/fr

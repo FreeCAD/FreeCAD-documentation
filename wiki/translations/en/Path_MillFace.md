@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Path MillFace
-   MenuLocation:Path - Face
-   Workbenches:[Path](Path_Workbench.md)
+   Name: Path MillFace
+   MenuLocation: Path - Face
+   Workbenches: [Path](Path_Workbench.md)
 ---
 
 # Path MillFace/en
@@ -229,4 +229,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path MillFace/en
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path MillFace/en

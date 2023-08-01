@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectElementsWithDoFs
-   Name/pl:Szkicownik: Wybierz elementy bez wiązań
-   MenuLocation:Szkic - Narzędzia szkicownika - Wybierz elementy bez wiązań
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**Z** **F**
-   Version:0.18
+   Name: Sketcher SelectElementsWithDoFs
+   Name/pl: Szkicownik: Wybierz elementy bez wiązań
+   MenuLocation: Szkic - Narzędzia szkicownika - Wybierz elementy bez wiązań
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **Z** **F**
+   Version: 0.18
 ---
 
 # Sketcher SelectElementsWithDoFs/pl
@@ -46,4 +46,4 @@ gdzie \"X\" to liczba stopni swobody pozostałych w szkicu. Więcej informacji o
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsWithDoFs/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsWithDoFs/pl

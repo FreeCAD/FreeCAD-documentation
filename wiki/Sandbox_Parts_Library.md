@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Sandbox:Parts Library
+⏵ [documentation index](../README.md) > Sandbox:Parts Library

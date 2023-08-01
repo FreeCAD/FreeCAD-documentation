@@ -1,6 +1,4 @@
 # Arch SHP/ru
-{{TOCright}}
-
 ## Description
 
 FreeCAD is able to import [shapefiles](https://en.wikipedia.org/wiki/Shapefile)
@@ -32,4 +30,4 @@ Note that all the question of georeferenced units, with hundreds of projection s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch SHP/ru
+⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch SHP/ru

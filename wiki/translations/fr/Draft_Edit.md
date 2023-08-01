@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Edit
-   Name/fr:Draft Éditer
-   MenuLocation:Modification - Éditer
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:**D** **E**
-   SeeAlso:[Std Mode édition](Std_Edit/fr.md)
+   Name: Draft Edit
+   Name/fr: Draft Éditer
+   MenuLocation: Modification - Éditer
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut: **D** **E**
+   SeeAlso: [Std Mode édition](Std_Edit/fr.md)
 ---
 
 # Draft Edit/fr
@@ -232,4 +232,4 @@ Il n\'existe pas de méthode Python pour les objets Draft Edition. Pour émuler 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/fr

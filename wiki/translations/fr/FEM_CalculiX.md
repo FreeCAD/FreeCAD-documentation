@@ -1,6 +1,4 @@
 # FEM CalculiX/fr
-{{TOCright}}
-
 ## Introduction
 
 Cette page rassemble des informations sur le solveur d\'éléments finis [CalculiX](http://www.calculix.de/), le solveur par défaut de l\'**<img src="images/Workbench_FEM.svg" width=24px> [atelier FEM](FEM_Workbench/fr.md)** pour l\'analyse structurelle et thermo-mécanique à partir de FreeCAD 0.17. Selon le système d\'exploitation que vous utilisez, vous devrez installer CalculiX avant de lancer votre première simulation. Veuillez voir [Installation des composants requis pour l'atelier FEM](FEM_Install/fr.md).
@@ -88,4 +86,4 @@ Les forces de réaction se trouvent dans le fichier ccx_dat_file qui contient le
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > [Developer](Category_Developer.md) > [FEM](Category_FEM.md) > FEM CalculiX/fr
+⏵ [documentation index](../README.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > [Developer](Category_Developer.md) > [FEM](Category_FEM.md) > FEM CalculiX/fr

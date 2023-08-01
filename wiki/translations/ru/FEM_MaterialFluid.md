@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM MaterialFluid
-   Name/ru:FEM MaterialFluid
-   MenuLocation: Model - Material for fluid
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM MaterialFluid
+   Name/ru: FEM MaterialFluid
+   MenuLocation:  Model - Material for fluid
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM MaterialFluid/ru
@@ -45,4 +45,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialFluid/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialFluid/ru

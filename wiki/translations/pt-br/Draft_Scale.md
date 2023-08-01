@@ -1,11 +1,11 @@
 ---
 - GuiCommand:-br
-   Name:Draft Scale
-   Name/pt-br:Draft Scale
-   MenuLocation:Draft - Scale
-   Workbenches:[Draft](Draft_Workbench/pt-br.md), [Arch](Arch_Workbench/pt-br.md)
-   Shortcut:**S** **C**
-   SeeAlso:[Draft Clone](Draft_Clone/pt-br.md)
+   Name: Draft Scale
+   Name/pt-br: Draft Scale
+   MenuLocation: Draft - Scale
+   Workbenches: [Draft](Draft_Workbench/pt-br.md), [Arch](Arch_Workbench/pt-br.md)
+   Shortcut: **S** **C**
+   SeeAlso: [Draft Clone](Draft_Clone/pt-br.md)
 ---
 
 # Draft Scale/pt-br
@@ -126,4 +126,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Scale/pt-br
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Scale/pt-br

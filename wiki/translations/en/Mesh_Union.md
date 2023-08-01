@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh Union
-   MenuLocation:Meshes - Boolean - Union
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh Intersection](Mesh_Intersection.md), [Mesh Difference](Mesh_Difference.md)
+   Name: Mesh Union
+   MenuLocation: Meshes - Boolean - Union
+   Workbenches: [Mesh](Mesh_Workbench.md)
+   SeeAlso: [Mesh Intersection](Mesh_Intersection.md), [Mesh Difference](Mesh_Difference.md)
 ---
 
 # Mesh Union/en
@@ -39,4 +39,4 @@ See: [Mesh Feature](Mesh_Feature.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Union/en
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Union/en

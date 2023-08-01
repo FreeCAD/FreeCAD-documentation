@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Point
-   Name/tr:Nokta
-   MenuLocation:Taslak - Nokta
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
-   Shortcut:P T
-   SeeAlso:[Çizgi](Draft_Line/tr.md), [Tel](Draft_Wire/tr.md)
-   Version:0.17
+   Name: Draft Point
+   Name/tr: Nokta
+   MenuLocation: Taslak - Nokta
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   Shortcut: P T
+   SeeAlso: [Çizgi](Draft_Line/tr.md), [Tel](Draft_Wire/tr.md)
+   Version: 0.17
 ---
 
 # Draft Point/tr
@@ -218,4 +218,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Point/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Point/tr

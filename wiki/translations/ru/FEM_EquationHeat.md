@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Тепловое уравнение
-   Name:FEM_EquationHeat
-   MenuLocation: Solve - Тепловое уравнение
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name/ru: Тепловое уравнение
+   Name: FEM_EquationHeat
+   MenuLocation:  Solve - Тепловое уравнение
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM EquationHeat/ru
@@ -73,4 +73,4 @@ The result is the temperature in Kelvin.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationHeat/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationHeat/ru

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CloseShape
-   Name/pl:Szkicownik: Zamknij kształt
-   MenuLocation:Szkic - Narzędzia szkicownika - Zamknij kształt
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**Z** **W**
-   Version:0.15
+   Name: Sketcher CloseShape
+   Name/pl: Szkicownik: Zamknij kształt
+   MenuLocation: Szkic - Narzędzia szkicownika - Zamknij kształt
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **Z** **W**
+   Version: 0.15
 ---
 
 # Sketcher CloseShape/pl
@@ -43,4 +43,4 @@ Narzędzie połączy elementy w kolejności ich zaznaczenia, więc upewnij się,
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/pl

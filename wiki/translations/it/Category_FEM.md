@@ -40,4 +40,4 @@ This category lists pages related to the [FEM Workbench/it](FEM_Workbench/it.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:FEM/it
+⏵ [documentation index](../README.md) > Category:FEM/it

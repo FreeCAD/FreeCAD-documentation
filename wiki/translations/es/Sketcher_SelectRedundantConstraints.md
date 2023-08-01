@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectRedundantConstraints
-   Name/es:Corquizador SeleccionarRestriccionesRedundantes
-   Workbenches:[Corquizador](Sketcher_Workbench/es.md)
-   MenuLocation:Croquis - Corquizador Herramientas - Seleccionar Restricciones Redundantes
-   Shortcut:Shift+Ctrl+R
-   Version:0.15
+   Name: Sketcher SelectRedundantConstraints
+   Name/es: Corquizador SeleccionarRestriccionesRedundantes
+   Workbenches: [Corquizador](Sketcher_Workbench/es.md)
+   MenuLocation: Croquis - Corquizador Herramientas - Seleccionar Restricciones Redundantes
+   Shortcut: Shift+Ctrl+R
+   Version: 0.15
 ---
 
 # Sketcher SelectRedundantConstraints/es
@@ -54,4 +54,4 @@ Selecciona las restricciones redundantes de un croquis.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectRedundantConstraints/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectRedundantConstraints/es

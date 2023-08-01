@@ -299,4 +299,4 @@ at the end of the function \'initUI\'. The first two arguments (right-300, 0) (l
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro View Rotation
+⏵ [documentation index](../README.md) > Macro View Rotation

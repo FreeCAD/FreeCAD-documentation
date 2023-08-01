@@ -1,8 +1,4 @@
 # Introduction to Python/de
-{{TOCright}}
-
-
-
 ## Einführung
 
 Dies ist ein kurzes Tutorium für diejenigen, die neu bei [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29) sind. Python ist eine quelloffene, plattformübergreifende [Programmiersprache](https://en.wikipedia.org/wiki/Programming_language). Sie verfügt über mehrere Funktionen, die sie von anderen Programmiersprachen unterscheidet, und ist für neue Benutzer sehr zugänglich:
@@ -505,4 +501,4 @@ dir()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Introduction to Python/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Introduction to Python/de

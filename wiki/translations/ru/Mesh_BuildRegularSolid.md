@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name/ru:Правильное геометрическое тело
-   Name:Mesh_BuildRegularSolid
-   MenuLocation:Полигональные Сетки - Правильное геометрическое тело...
-   Workbenches:[Mesh](Mesh_Workbench/ru.md)
+   Name/ru: Правильное геометрическое тело
+   Name: Mesh_BuildRegularSolid
+   MenuLocation: Полигональные Сетки - Правильное геометрическое тело...
+   Workbenches: [Mesh](Mesh_Workbench/ru.md)
 ---
 
 # Mesh BuildRegularSolid/ru
@@ -159,4 +159,4 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BuildRegularSolid/ru
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BuildRegularSolid/ru

@@ -1,6 +1,4 @@
 # FreeCAD Scripting Basics/zh-cn
-{{TOCright}}
-
 ## FreeCAD中的Python脚本
 
 FreeCAD从一开始就构建为可以由Python完全控制。FreeCAD的几乎所有组件，像界面，场景内容，甚至3D视图中内容的呈现都可以从内置的Python解释器或你自己的脚本进行访问。所以，FreeCAD可能是当今最可深度自定义的工程软件之一
@@ -196,4 +194,4 @@ Now you can really start playing with FreeCAD! For a complete list of available 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FreeCAD Scripting Basics/zh-cn
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FreeCAD Scripting Basics/zh-cn

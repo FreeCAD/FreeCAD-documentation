@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionShortenLine
-   Name/fr:TechDraw Raccourcir
-   MenuLocation:TechDraw - Extensions : attributs/modifications - Racourcir la ligne
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw Prolonger](TechDraw_ExtensionExtendLine/fr.md)
+   Name: TechDraw ExtensionShortenLine
+   Name/fr: TechDraw Raccourcir
+   MenuLocation: TechDraw - Extensions : attributs/modifications - Racourcir la ligne
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw Prolonger](TechDraw_ExtensionExtendLine/fr.md)
 ---
 
 # TechDraw ExtensionShortenLine/fr
@@ -40,4 +40,4 @@ L\'outil **TechDraw Raccourcir** raccourcit une ligne cosmétique ou une ligne c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionShortenLine/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionShortenLine/fr

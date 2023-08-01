@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Circle
-   Name/ru:Окружность
-   MenuLocation:Деталь - [Создать примитивы...](Part_Primitives/ru.md) - Окружность
-   Workbenches:[Верстак Part](Part_Workbench/ru.md)
-   SeeAlso:
+   Name: Part Circle
+   Name/ru: Окружность
+   MenuLocation: Деталь - [Создать примитивы...](Part_Primitives/ru.md) - Окружность
+   Workbenches: [Верстак Part](Part_Workbench/ru.md)
+   SeeAlso: 
 ---
 
 # Part Circle/ru
@@ -120,4 +120,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/ru

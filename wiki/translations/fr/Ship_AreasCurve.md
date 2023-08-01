@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Ship Area
-   Name/fr:Ship Courbe de surface
-   MenuLocation:Ship design - Areas curve
-   Workbenches:[Ship](Ship_Workbench/fr.md)
-   Shortcut:
-   SeeAlso:
+   Name: Ship Area
+   Name/fr: Ship Courbe de surface
+   MenuLocation: Ship design - Areas curve
+   Workbenches: [Ship](Ship_Workbench/fr.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Ship AreasCurve/fr
@@ -41,4 +41,4 @@ Lorsque vous appuyez sur le bouton **Accept**, le calcul commence. Il se peut qu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship AreasCurve/fr
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship AreasCurve/fr

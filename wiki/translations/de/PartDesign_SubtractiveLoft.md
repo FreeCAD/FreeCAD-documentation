@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractiveLoft
-   Name/de:PartDesign Ausformung
-   MenuLocation:Part Design - Objekte abziehen - Ausformung
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[PartDesign AdditiveAusformung](PartDesign_AdditiveLoft/de.md), [PartDesign SubtraktivesRohr](PartDesign_SubtractivePipe/de.md)
+   Name: PartDesign SubtractiveLoft
+   Name/de: PartDesign Ausformung
+   MenuLocation: Part Design - Objekte abziehen - Ausformung
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [PartDesign AdditiveAusformung](PartDesign_AdditiveLoft/de.md), [PartDesign SubtraktivesRohr](PartDesign_SubtractivePipe/de.md)
 ---
 
 # PartDesign SubtractiveLoft/de
@@ -95,4 +95,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveLoft/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveLoft/de

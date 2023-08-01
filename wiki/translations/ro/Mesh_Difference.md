@@ -1,6 +1,6 @@
 # Mesh Difference/ro
 ---
-- GuiCommand:   Name:Mesh Difference   MenuLocation:Meshes - Boolean - Difference   Workbenches:[[Mesh Workbench   Mesh]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Mesh Difference   MenuLocation: Meshes - Boolean - Difference   Workbenches: [[Mesh Workbench   Mesh]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -63,4 +63,4 @@ See: [Mesh Feature](Mesh_Feature.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Difference/ro
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Difference/ro

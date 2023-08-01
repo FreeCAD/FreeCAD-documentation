@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Path ToolLibraryEdit
-   Name/fr:Path Gestionnaire du magasin d'outils
-   MenuLocation:Path - Tool Manager
-   Workbenches:[Path](Path_Workbench/fr.md)
-   Shortcut:**P** **T**
-   SeeAlso:
+   Name: Path ToolLibraryEdit
+   Name/fr: Path Gestionnaire du magasin d'outils
+   MenuLocation: Path - Tool Manager
+   Workbenches: [Path](Path_Workbench/fr.md)
+   Shortcut: **P** **T**
+   SeeAlso: 
 ---
 
 # Path ToolLibraryEdit/fr
@@ -57,4 +57,4 @@ La manipulation est simple:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolLibraryEdit/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolLibraryEdit/fr

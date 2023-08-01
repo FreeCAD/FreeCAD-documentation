@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw VerticalExtentDimension
-   MenuLocation:TechDraw - Dimensions - Insert Vertical Extent Dimension 
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.19
-   SeeAlso:[TechDraw LengthDimension](TechDraw_LengthDimension.md), [TechDraw HorizontalExtentDimension](TechDraw_HorizontalExtentDimension.md)
+   Name: TechDraw VerticalExtentDimension
+   MenuLocation: TechDraw - Dimensions - Insert Vertical Extent Dimension 
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Version: 0.19
+   SeeAlso: [TechDraw LengthDimension](TechDraw_LengthDimension.md), [TechDraw HorizontalExtentDimension](TechDraw_HorizontalExtentDimension.md)
 ---
 
 # TechDraw VerticalExtentDimension
@@ -55,4 +55,4 @@ rc = page.addView(hExtentDim)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw VerticalExtentDimension
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw VerticalExtentDimension

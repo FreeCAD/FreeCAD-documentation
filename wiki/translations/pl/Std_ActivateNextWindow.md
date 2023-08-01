@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ActivateNextWindow
-   Name/pl:Std: Następne
-   MenuLocation:Okna - Następne
-   Workbenches:wszystkie
-   Shortcut:**Ctrl** + **Tab**
-   SeeAlso:[Poprzednie](Std_ActivatePrevWindow/pl.md), [Okna](Std_Windows/pl.md)
+   Name: Std ActivateNextWindow
+   Name/pl: Std: Następne
+   MenuLocation: Okna - Następne
+   Workbenches: wszystkie
+   Shortcut: **Ctrl** + **Tab**
+   SeeAlso: [Poprzednie](Std_ActivatePrevWindow/pl.md), [Okna](Std_Windows/pl.md)
 ---
 
 # Std ActivateNextWindow/pl
@@ -42,4 +42,4 @@ Polecenie **Następne** aktywuje następne okno w [Głównym obszarze widoku](Ma
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ActivateNextWindow/pl
+⏵ [documentation index](../README.md) > Std ActivateNextWindow/pl

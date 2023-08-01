@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher CompCreateArc
-   Name/pl:Szkicownik: Komponent Utwórz łuk
-   MenuLocation:''(tylko pasek narzędzi)''
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
+   Name: Sketcher CompCreateArc
+   Name/pl: Szkicownik: Komponent Utwórz łuk
+   MenuLocation: ''(tylko pasek narzędzi)''
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
 ---
 
 # Sketcher CompCreateArc/pl
@@ -32,4 +32,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateArc/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateArc/pl

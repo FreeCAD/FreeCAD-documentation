@@ -69,4 +69,4 @@ except:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Ellipse-Center+2Points/en
+⏵ [documentation index](../README.md) > Macro Ellipse-Center+2Points/en

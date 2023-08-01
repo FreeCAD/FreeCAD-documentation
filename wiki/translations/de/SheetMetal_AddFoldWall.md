@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:SheetMetal AddFoldWall
-   Name/de:SheetMetal Abkanten
-   MenuLocation:SheetMetal - Fold a Wall
-   Workbenches:[Blech (SheetMetal)](SheetMetal_Workbench/de.md)
-   Shortcut:**C** **F**
+   Name: SheetMetal AddFoldWall
+   Name/de: SheetMetal Abkanten
+   MenuLocation: SheetMetal - Fold a Wall
+   Workbenches: [Blech (SheetMetal)](SheetMetal_Workbench/de.md)
+   Shortcut: **C** **F**
 ---
 
 # SheetMetal AddFoldWall/de
@@ -150,4 +150,4 @@ Achtung!: Im wirklichen Leben muss die Kantung nach oben vor der Kantung nach un
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddFoldWall/de
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddFoldWall/de

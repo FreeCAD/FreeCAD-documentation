@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/de:Std Direkthilfe
-   MenuLocation:[Hilfe](Std_Help_Menu/de.md) - Direkthilfe
-   Workbenches:Alle
-   Shortcut:**Shift** + **F1**
-   SeeAlso:[Hilfe](Std_OnlineHelp/de.md)
+   Name/de: Std Direkthilfe
+   MenuLocation: [Hilfe](Std_Help_Menu/de.md) - Direkthilfe
+   Workbenches: Alle
+   Shortcut: **Shift** + **F1**
+   SeeAlso: [Hilfe](Std_OnlineHelp/de.md)
 ---
 
 # Std WhatsThis/de
@@ -39,4 +39,4 @@ In FreeCAD {{VersionPlus/de|0.20}} erfordert dieser Befehl das [Help Addon](http
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std WhatsThis/de
+⏵ [documentation index](../README.md) > Std WhatsThis/de

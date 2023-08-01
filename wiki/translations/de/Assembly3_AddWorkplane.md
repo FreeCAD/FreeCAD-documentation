@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 AddWorkplane
-   Name/de:Assembly3 ArbeitsebeneHinzufügen
-   Icon:Assembly_Add_Workplane.svg‎‎
-   MenuLocation:Assembly3 - Workplane and origin - Add workplane
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 AddWorkplane
+   Name/de: Assembly3 ArbeitsebeneHinzufügen
+   Icon: Assembly_Add_Workplane.svg‎‎
+   MenuLocation: Assembly3 - Workplane and origin - Add workplane
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 AddWorkplane/de
@@ -30,4 +30,4 @@ Mögliche Bestandteile sind z. B. Elemente, Körper, Knoten, Kanten, Flächen, U
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 AddWorkplane/de
+⏵ [documentation index](../README.md) > Assembly3 AddWorkplane/de

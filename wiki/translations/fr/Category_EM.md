@@ -14,4 +14,4 @@ Cette liste les pages liées à la page [EM Workbench](EM_Workbench/fr.md) qui e
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:EM/fr
+⏵ [documentation index](../README.md) > Category:EM/fr

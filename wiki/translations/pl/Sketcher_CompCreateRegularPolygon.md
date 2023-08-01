@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Sketcher CompCreateRegularPolygon
-   Name/pl:Szkicownik: Komponent Utwórz wielokąt foremny
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
+   Name: Sketcher CompCreateRegularPolygon
+   Name/pl: Szkicownik: Komponent Utwórz wielokąt foremny
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
 ---
 
 # Sketcher CompCreateRegularPolygon/pl
@@ -36,4 +36,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRegularPolygon/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRegularPolygon/pl

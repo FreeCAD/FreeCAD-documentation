@@ -1,6 +1,6 @@
 # TechDraw DiameterDimension/ro
 ---
-- GuiCommand:   Name:TechDraw  Dimension Diameter   Workbenches:[[TechDraw_Workbench   TechDraw]]|MenuLocation:TechDraw - Dimension Diameter   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: TechDraw  Dimension Diameter   Workbenches: [[TechDraw_Workbench   TechDraw]]|MenuLocation: TechDraw - Dimension Diameter   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -29,4 +29,4 @@ For more information see [TechDraw RadiusDimension](TechDraw_RadiusDimension.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DiameterDimension/ro
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DiameterDimension/ro

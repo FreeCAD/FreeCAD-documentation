@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Curves ZebraTool
-   MenuLocation:Surfaces - Zebra Tool
-   Workbenches:[Curves](Curves_Workbench.md)
+   Name: Curves ZebraTool
+   MenuLocation: Surfaces - Zebra Tool
+   Workbenches: [Curves](Curves_Workbench.md)
 ---
 
 # Curves ZebraTool/pl
@@ -47,4 +47,4 @@ The <img alt="" src=images/Curves_ZebraTool.svg  style="width:24px;"> [Curves Ze
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves ZebraTool/pl
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves ZebraTool/pl

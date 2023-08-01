@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectHorizontalAxis
-   Name/de:Sketcher HorizontaleAchseAuswählen
-   MenuLocation:Skizze - Skizzenwerkzeuge - Horizontale Achse auswählen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**Z** **H**
-   Version:0.15
+   Name: Sketcher SelectHorizontalAxis
+   Name/de: Sketcher HorizontaleAchseAuswählen
+   MenuLocation: Skizze - Skizzenwerkzeuge - Horizontale Achse auswählen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **Z** **H**
+   Version: 0.15
 ---
 
 # Sketcher SelectHorizontalAxis/de
@@ -35,4 +35,4 @@ Wählt die horizontale Achse einer Skizze aus.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectHorizontalAxis/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectHorizontalAxis/de

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std MeasureDistance
-   MenuLocation:Tools - Measure distance
-   Workbenches:All
-   SeeAlso:[Part Measure Linear](Part_Measure_Linear.md), [Draft Dimension](Draft_Dimension.md)
+   Name: Std MeasureDistance
+   MenuLocation: Tools - Measure distance
+   Workbenches: All
+   SeeAlso: [Part Measure Linear](Part_Measure_Linear.md), [Draft Dimension](Draft_Dimension.md)
 ---
 
 # Std MeasureDistance
@@ -65,4 +65,4 @@ The **Std MeasureDistance** command creates a distance object that measures and 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MeasureDistance
+⏵ [documentation index](../README.md) > Std MeasureDistance

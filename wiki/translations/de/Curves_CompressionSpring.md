@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Curves CompressionSpring
-   Name/de:Curves Druckfeder
-   MenuLocation:Surfaces - Compression Spring
-   Workbenches:[Curves](Curves_Workbench/de.md)
+   Name: Curves CompressionSpring
+   Name/de: Curves Druckfeder
+   MenuLocation: Surfaces - Compression Spring
+   Workbenches: [Curves](Curves_Workbench/de.md)
 ---
 
 # Curves CompressionSpring/de
@@ -38,4 +38,4 @@ Das Werkzeug <img alt="" src=images/Curves_CompressionSpring.svg  style="width:2
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves CompressionSpring/de
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves CompressionSpring/de

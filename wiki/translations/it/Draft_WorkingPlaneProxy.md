@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft SetWorkingPlaneProxy
-   Name/it:Piano proxy
-   MenuLocation:Draft - Utilità - Crea piano di lavoro proxy
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   SeeAlso:[Seleziona piano](Draft_SelectPlane/it.md)
+   Name: Draft SetWorkingPlaneProxy
+   Name/it: Piano proxy
+   MenuLocation: Draft - Utilità - Crea piano di lavoro proxy
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   SeeAlso: [Seleziona piano](Draft_SelectPlane/it.md)
 ---
 
 # Draft WorkingPlaneProxy/it
@@ -206,4 +206,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WorkingPlaneProxy/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WorkingPlaneProxy/it

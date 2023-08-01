@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreatePolyline
-   Name/de:Sketcher LinienzugErstellen
-   MenuLocation:Sketch - Skizzengeometrien - Linienzug erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **M**
-   SeeAlso:[Sketcher LinieErstellen](Sketcher_CreateLine/de.md)
+   Name: Sketcher CreatePolyline
+   Name/de: Sketcher LinienzugErstellen
+   MenuLocation: Sketch - Skizzengeometrien - Linienzug erstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **M**
+   SeeAlso: [Sketcher LinieErstellen](Sketcher_CreateLine/de.md)
 ---
 
 # Sketcher CreatePolyline/de
@@ -54,4 +54,4 @@ Die Polylinie beginnt immer mit einem geraden Liniensegment: klicken - die Maus 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePolyline/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePolyline/de

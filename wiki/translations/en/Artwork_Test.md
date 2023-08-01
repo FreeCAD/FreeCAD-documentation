@@ -12,4 +12,4 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Testing](Category_Testing.md) > Artwork Test/en
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Testing](Category_Testing.md) > Artwork Test/en

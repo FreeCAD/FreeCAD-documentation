@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name/ru:Создать центрированный прямоугольник
-   Name:Sketcher_CreateRectangle_Center
-   MenuLocation:Sketch - Геометрия эскиза - Создать центрированный прямоугольник
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**G** **V**
-   Version:0.20
-   SeeAlso:[Создать прямоугольник](Sketcher_CreateRectangle/ru.md)
+   Name/ru: Создать центрированный прямоугольник
+   Name: Sketcher_CreateRectangle_Center
+   MenuLocation: Sketch - Геометрия эскиза - Создать центрированный прямоугольник
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **G** **V**
+   Version: 0.20
+   SeeAlso: [Создать прямоугольник](Sketcher_CreateRectangle/ru.md)
 ---
 
 # Sketcher CreateRectangle Center/ru
@@ -39,4 +39,4 @@ When starting the tool, the mouse pointer changes to a white cross with a red re
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle Center/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle Center/ru

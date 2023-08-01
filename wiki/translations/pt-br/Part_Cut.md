@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Cut
-   MenuLocation:Part - Boolean - Cut
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part Boolean](Part_Boolean.md), [Part Fuse](Part_Fuse.md), [Part Common](Part_Common.md)
+   Name: Part Cut
+   MenuLocation: Part - Boolean - Cut
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Part Boolean](Part_Boolean.md), [Part Fuse](Part_Fuse.md), [Part Common](Part_Common.md)
 ---
 
 # Part Cut/pt-br
@@ -30,4 +30,4 @@ Input objects must be [OpenCASCADE](OpenCASCADE.md) shapes. For example objects 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/pt-br
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/pt-br

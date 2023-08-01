@@ -1,6 +1,6 @@
 # FEM EquationElasticity/it
 ---
-- GuiCommand:   Name:FEM_EquationElasticity   Name/it:FEM EquationElasticity   Icon:Fem-equation-elasticity.svg   MenuLocation: Solve - Equazione di elasticità   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:   Name: FEM_EquationElasticity   Name/it: FEM EquationElasticity   Icon: Fem-equation-elasticity.svg   MenuLocation:  Solve - Equazione di elasticità   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 
 </div>
@@ -149,4 +149,4 @@ whereas $\vec{u}$ is the eigenvector and $c$ is a complex number.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElasticity/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElasticity/it

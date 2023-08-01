@@ -278,4 +278,4 @@ viewBox="0 0 279 216"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Template HowTo/ru
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Template HowTo/ru

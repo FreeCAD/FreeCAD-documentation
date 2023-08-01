@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Добавить вспомогательную вершину
-   Name:TechDraw_CosmeticVertex
-   MenuLocation:TechDraw - Добавить Вершины - Добавить вспомогательную вершину 
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Добавить вершины по центрам граней](TechDraw_Midpoints/ru.md), [Добавить 4-ре вершины по краям окружности](TechDraw_Quadrants/ru.md)
+   Name/ru: Добавить вспомогательную вершину
+   Name: TechDraw_CosmeticVertex
+   MenuLocation: TechDraw - Добавить Вершины - Добавить вспомогательную вершину 
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Добавить вершины по центрам граней](TechDraw_Midpoints/ru.md), [Добавить 4-ре вершины по краям окружности](TechDraw_Quadrants/ru.md)
 ---
 
 # TechDraw CosmeticVertex/ru
@@ -80,4 +80,4 @@ dvp.makeCosmeticLine(start,end,style, weight, pyGreen)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticVertex/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticVertex/ru

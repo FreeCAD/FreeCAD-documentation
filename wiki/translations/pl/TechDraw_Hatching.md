@@ -1,8 +1,4 @@
 # TechDraw Hatching/pl
-{{TOCright}}
-
-
-
 ## Opis
 
 Środowisko pracy TechDraw zawiera dwa narzędzia do kreskowania:
@@ -84,4 +80,4 @@ Plik `FCPAT.pat` można znaleźć w następującej lokalizacji.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Hatching/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Hatching/pl

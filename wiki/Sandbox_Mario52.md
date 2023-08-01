@@ -52,4 +52,4 @@ totoche
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Sandbox:Mario52
+⏵ [documentation index](../README.md) > Sandbox:Mario52

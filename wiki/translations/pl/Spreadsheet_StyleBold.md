@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet StyleBold
-   Name/pl:Arkusz Kalkulacyjny: Pogrubienie
-   MenuLocation:Arkusz kalkulacyjny - Style - Pogrubienie
-   Workbenches:[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
-   Version:0.17
+   Name: Spreadsheet StyleBold
+   Name/pl: Arkusz Kalkulacyjny: Pogrubienie
+   MenuLocation: Arkusz kalkulacyjny - Style - Pogrubienie
+   Workbenches: [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   Version: 0.17
 ---
 
 # Spreadsheet StyleBold/pl
@@ -30,4 +30,4 @@ Narzędzie **[<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> [Pog
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleBold/pl
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleBold/pl

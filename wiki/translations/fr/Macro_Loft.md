@@ -74,4 +74,4 @@ ver 00.04 : 03/07/2019 : adapté pour Python 3
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Loft/fr
+⏵ [documentation index](../README.md) > Macro Loft/fr

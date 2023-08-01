@@ -24,4 +24,4 @@ Die Achsen und Ebenen sind vom Typ `App::Line` bzw. `App::Plane`. Jedes dieser E
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > App OriginGroupExtension/de
+⏵ [documentation index](../README.md) > App OriginGroupExtension/de

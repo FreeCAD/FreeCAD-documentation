@@ -3,7 +3,7 @@
 ## Introduction
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> [Defeaturing Workbench](Defeaturing_Workbench.md) is an add-on workbench intended for editing STEP models, removing of the selected features from the model. It is an [external workbench](External_Workbenches.md) and therefore not part of the standard FreeCAD install.
 
@@ -117,4 +117,4 @@ New workbenches are in development, stay tuned!
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Defeaturing Workbench/en
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Defeaturing Workbench/en

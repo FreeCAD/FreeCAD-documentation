@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Tutorial Guidelines
+⏵ [documentation index](../README.md) > Tutorial Guidelines

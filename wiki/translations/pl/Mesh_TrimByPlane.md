@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh TrimByPlane
-   Name/pl:Siatka Przytnij siatkę płaszczyzną
-   MenuLocation:Siatki - Cięcie - Przytnij siatkę
-   Workbenches:[Siatka](Mesh_Workbench/pl.md)
-   SeeAlso:[Przetnij siatkę](Mesh_PolyCut/pl.md), [Przytnij siatkę](Mesh_PolyTrim/pl.md)
+   Name: Mesh TrimByPlane
+   Name/pl: Siatka Przytnij siatkę płaszczyzną
+   MenuLocation: Siatki - Cięcie - Przytnij siatkę
+   Workbenches: [Siatka](Mesh_Workbench/pl.md)
+   SeeAlso: [Przetnij siatkę](Mesh_PolyCut/pl.md), [Przytnij siatkę](Mesh_PolyTrim/pl.md)
 ---
 
 # Mesh TrimByPlane/pl
@@ -86,4 +86,4 @@ msh.Mesh = new_msh
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh TrimByPlane/pl
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh TrimByPlane/pl

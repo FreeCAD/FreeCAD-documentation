@@ -1,6 +1,4 @@
 # Branding/hr
-{{TOCright}}
-
 ## Pregled
 
 This article describes the **Branding** of FreeCAD. Branding means to create your own application based on FreeCAD. That can be only your own executable or [splash screen](Splash_screen.md) till a complete reworked program. On base of the flexible architecture of FreeCAD it\'s easy to use it as base for your own special purpose program.
@@ -98,4 +96,4 @@ All listed tags are optional.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Branding/hr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Branding/hr

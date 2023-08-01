@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Arch: AxisSystem/Система осей
-   Icon:Arch Axis System.svg
-   MenuLocation:Arch - Axis System
-   Workbenches:[Arch](Arch_Workbench.md)
-   SeeAlso:[Arch Axis](Arch_Axis.md), [Arch Grid](Arch_Grid.md)
+   Name/ru: Arch: AxisSystem/Система осей
+   Icon: Arch Axis System.svg
+   MenuLocation: Arch - Axis System
+   Workbenches: [Arch](Arch_Workbench.md)
+   SeeAlso: [Arch Axis](Arch_Axis.md), [Arch Grid](Arch_Grid.md)
 ---
 
 # Arch AxisSystem/ru
@@ -112,4 +112,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch AxisSystem/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch AxisSystem/ru

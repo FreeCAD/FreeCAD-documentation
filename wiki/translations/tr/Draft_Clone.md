@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Clone
-   Name/tr:Klonla
-   MenuLocation:Taslak - Klonla
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
-   Shortcut:**C** **L**
-   SeeAlso:[Taşı](Draft_Move/tr.md), [Ölçek](Draft_Scale/tr.md)
+   Name: Draft Clone
+   Name/tr: Klonla
+   MenuLocation: Taslak - Klonla
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   Shortcut: **C** **L**
+   SeeAlso: [Taşı](Draft_Move/tr.md), [Ölçek](Draft_Scale/tr.md)
 ---
 
 # Draft Clone/tr
@@ -161,4 +161,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Clone/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Clone/tr

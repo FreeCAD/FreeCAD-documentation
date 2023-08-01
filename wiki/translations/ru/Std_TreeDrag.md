@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std TreeDrag
-   Name/ru:Std TreeDrag
-   MenuLocation:Вид - Дерево документа - Initiate dragging
-   Workbenches:All
-   Shortcut:**T** **D**
+   Name: Std TreeDrag
+   Name/ru: Std TreeDrag
+   MenuLocation: Вид - Дерево документа - Initiate dragging
+   Workbenches: All
+   Shortcut: **T** **D**
 ---
 
 # Std TreeDrag/ru
@@ -37,4 +37,4 @@ The **Std TreeDrag** command initiates a drag operation for selected objects in 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeDrag/ru
+⏵ [documentation index](../README.md) > Std TreeDrag/ru

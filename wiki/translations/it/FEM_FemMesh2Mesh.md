@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM_FemMesh2Mesh
-   Name/it:Converti mesh FEM in mesh
-   MenuLocation:Mesh - Converti mesh FEM in mesh
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Tutorial di FEM](FEM_tutorial/it.md)
+   Name: FEM_FemMesh2Mesh
+   Name/it: Converti mesh FEM in mesh
+   MenuLocation: Mesh - Converti mesh FEM in mesh
+   Workbenches: [FEM](FEM_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: [Tutorial di FEM](FEM_tutorial/it.md)
 ---
 
 # FEM FemMesh2Mesh/it
@@ -88,4 +88,4 @@ Mesh.show(Mesh.Mesh(out_mesh))
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM FemMesh2Mesh/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM FemMesh2Mesh/it

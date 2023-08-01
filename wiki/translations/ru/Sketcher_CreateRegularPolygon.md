@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Правильный многоугольник
-   Name:Sketcher CreateRegularPolygon
-   MenuLocation:Эскиз - Геометрия эскиза - Правильный многоугольник
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**G** **P** **R**
+   Name/ru: Правильный многоугольник
+   Name: Sketcher CreateRegularPolygon
+   MenuLocation: Эскиз - Геометрия эскиза - Правильный многоугольник
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **G** **P** **R**
 ---
 
 # Sketcher CreateRegularPolygon/ru
@@ -40,4 +40,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRegularPolygon/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRegularPolygon/ru

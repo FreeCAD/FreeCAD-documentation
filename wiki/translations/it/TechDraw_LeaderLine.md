@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw LeaderLine
-   Name/it:Linea guida
-   MenuLocation:TechDraw - Aggiungi linee - Linea guida
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   Version:0.19
-   SeeAlso:[Blocco di testo](TechDraw_RichTextAnnotation/it.md), [Simbolo di saldatura](TechDraw_WeldSymbol/it.md), [Gruppi di linee](TechDraw_LineGroup/it.md)
+   Name: TechDraw LeaderLine
+   Name/it: Linea guida
+   MenuLocation: TechDraw - Aggiungi linee - Linea guida
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   Version: 0.19
+   SeeAlso: [Blocco di testo](TechDraw_RichTextAnnotation/it.md), [Simbolo di saldatura](TechDraw_WeldSymbol/it.md), [Gruppi di linee](TechDraw_LineGroup/it.md)
 ---
 
 # TechDraw LeaderLine/it
@@ -190,4 +190,4 @@ leaderObj.Y = 5
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LeaderLine/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LeaderLine/it

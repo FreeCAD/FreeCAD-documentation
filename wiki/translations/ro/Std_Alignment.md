@@ -1,6 +1,6 @@
 # Std Alignment/ro
 ---
-- GuiCommand:   Name:Std Alignment   MenuLocation:[Workbenches:All   SeeAlso:[[Std Placement|Placement](Std_Edit_Menu___Edit]]_-_Alignment....md)---
+- GuiCommand:   Name: Std Alignment   MenuLocation: [Workbenches: All   SeeAlso: [[Std Placement|Placement](Std_Edit_Menu___Edit]]_-_Alignment....md)---
 
 
 </div>
@@ -53,4 +53,4 @@ The following additional options are available in the context menu:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Alignment/ro
+⏵ [documentation index](../README.md) > Std Alignment/ro

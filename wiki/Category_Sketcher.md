@@ -56,4 +56,4 @@ This category lists pages related to the [Sketcher Workbench](Sketcher_Workbench
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Sketcher
+⏵ [documentation index](../README.md) > Category:Sketcher

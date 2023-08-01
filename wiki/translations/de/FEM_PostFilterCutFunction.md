@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM PostFilterCutFunction
-   Name/de:FEM NachbereitungFilterSchnittebene
-   MenuLocation:Ergebnisse - Funktion Schnitt-Filter
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   SeeAlso:[FEM NachbereitungFilterVonErgebnis](FEM_PostPipelineFromResult/de.md), [FEM NachbereitungFunktionenErstellen](FEM_PostCreateFunctions/de.md), [FEM Tutorium](FEM_tutorial/de.md)
+   Name: FEM PostFilterCutFunction
+   Name/de: FEM NachbereitungFilterSchnittebene
+   MenuLocation: Ergebnisse - Funktion Schnitt-Filter
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   SeeAlso: [FEM NachbereitungFilterVonErgebnis](FEM_PostPipelineFromResult/de.md), [FEM NachbereitungFunktionenErstellen](FEM_PostCreateFunctions/de.md), [FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM PostFilterCutFunction/de
@@ -48,4 +48,4 @@ Displays the results on a sphere or a plane cutting through the model.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterCutFunction/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterCutFunction/de

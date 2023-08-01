@@ -1,8 +1,4 @@
 # FEM Install/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 Aby móc przeprowadzić analizę elementów skończonych *(MES)* w ramach środowiska pracy <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [MES](FEM_Workbench/pl.md), FreeCAD korzysta z dwóch zewnętrznych środowisk: jedno służy do generowania [siatek](FEM_Mesh/pl.md), a drugie do numerycznego rozwiązywania właściwej analizy. Możesz sprawdzić, czy Twoja instalacja FreeCAD jest gotowa do przeprowadzenia analizy metodą elementów skończonych, uruchamiając przykład [MES CalculiX - wspornik 3D](FEM_CalculiX_Cantilever_3D/pl.md), który jest dołączany do każdej instalacji FreeCAD od wersji 0.17.
@@ -268,4 +264,4 @@ If you have problems installing Netgen, Gmsh, or CalculiX, or another external t
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Install/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Install/pl

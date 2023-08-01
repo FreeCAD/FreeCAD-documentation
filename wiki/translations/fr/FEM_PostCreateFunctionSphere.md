@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM PostCreateFunctionSphere
-   Name/fr:FEM Filtre fonction sphère
-   MenuLocation:Résultats - Fonctions de filtrage - Sphère
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM PostCreateFunctionSphere
+   Name/fr: FEM Filtre fonction sphère
+   MenuLocation: Résultats - Fonctions de filtrage - Sphère
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM PostCreateFunctionSphere/fr
@@ -63,4 +63,4 @@ Si l\'objet Sphere dans la [vue en arborescence](Tree_view/fr.md) est caché, s�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionSphere/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionSphere/fr

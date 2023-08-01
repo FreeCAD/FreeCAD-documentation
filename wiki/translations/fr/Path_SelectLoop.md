@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path SelectLoop
-   Name/fr:Path Terminer une Boucle
-   MenuLocation:Path - Terminer la boucle de sélection
-   Workbenches:[Path](Path_Workbench/fr.md)
-   Shortcut:**P** **L**
+   Name: Path SelectLoop
+   Name/fr: Path Terminer une Boucle
+   MenuLocation: Path - Terminer la boucle de sélection
+   Workbenches: [Path](Path_Workbench/fr.md)
+   Shortcut: **P** **L**
 ---
 
 # Path SelectLoop/fr
@@ -41,4 +41,4 @@ L\'outil <img alt="" src=images/Path_SelectLoop.svg  style="width:16px;"> [Termi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SelectLoop/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SelectLoop/fr

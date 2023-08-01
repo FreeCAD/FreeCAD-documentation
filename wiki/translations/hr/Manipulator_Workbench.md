@@ -3,7 +3,7 @@
 ## Predstavljanje
 
 
-{{TOCright}}
+
 
 The [Manipulator Workbench](Manipulator_Workbench.md) is an [external workbench](External_workbenches.md) aimed to help FreeCAD users with Aligning, Moving, Rotating and Measuring 3D objects through a friendly GUI. These series of tools help to Transform the placement and Measure objects and STEP models in FreeCAD.
 
@@ -139,4 +139,4 @@ New workbenches are in development, stay tuned!
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Manipulator Workbench/hr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Manipulator Workbench/hr

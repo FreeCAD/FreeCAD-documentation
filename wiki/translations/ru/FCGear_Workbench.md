@@ -7,7 +7,7 @@
 </div>
 
 
-{{TOCright}}
+
 
 ## Введение
 
@@ -166,4 +166,4 @@ After installation, the tools are available in the Gear toolbar and in the Gear 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > FCGear Workbench/ru
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > FCGear Workbench/ru

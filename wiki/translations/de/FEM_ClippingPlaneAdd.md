@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ClippingPlaneAdd
-   Name/de:FEM SchnittebeneHinzufügen
-   MenuLocation:Dienstprogramme - Schnittebene auf Oberfläche
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
+   Name: FEM ClippingPlaneAdd
+   Name/de: FEM SchnittebeneHinzufügen
+   MenuLocation: Dienstprogramme - Schnittebene auf Oberfläche
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   SeeAlso: [FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM ClippingPlaneAdd/de
@@ -46,4 +46,4 @@ To remove all clipping planes, use the feature [Remove all clipping planes](FEM_
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ClippingPlaneAdd/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ClippingPlaneAdd/de

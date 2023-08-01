@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw HorizontalExtentDimension
-   Name/fr:TechDraw Cote étendue horizontale
-   MenuLocation:TechDraw - Dimensions - Insérer une cote étendue horizontale
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md), [TechDraw Cote étendue verticale](TechDraw_VerticalExtentDimension/fr.md)
+   Name: TechDraw HorizontalExtentDimension
+   Name/fr: TechDraw Cote étendue horizontale
+   MenuLocation: TechDraw - Dimensions - Insérer une cote étendue horizontale
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Version: 0.19
+   SeeAlso: [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md), [TechDraw Cote étendue verticale](TechDraw_VerticalExtentDimension/fr.md)
 ---
 
 # TechDraw HorizontalExtentDimension/fr
@@ -78,4 +78,4 @@ App.ActiveDocument.DimExtent001.FormatSpec = '%.0f'
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HorizontalExtentDimension/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HorizontalExtentDimension/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std TreePreSelection
-   Name/ru:Std TreePreSelection
-   MenuLocation:Вид - Дерево документа - Pre-selection
-   Workbenches:All
-   Shortcut:**T** **4**
+   Name: Std TreePreSelection
+   Name/ru: Std TreePreSelection
+   MenuLocation: Вид - Дерево документа - Pre-selection
+   Workbenches: All
+   Shortcut: **T** **4**
 ---
 
 # Std TreePreSelection/ru
@@ -38,4 +38,4 @@ The Tree view PreSelection mode can also be set in the [Preferences editor](Pref
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreePreSelection/ru
+⏵ [documentation index](../README.md) > Std TreePreSelection/ru

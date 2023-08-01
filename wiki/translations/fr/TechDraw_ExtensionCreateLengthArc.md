@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionCreateLengthArc
-   Name/fr:TechDraw Longueur d'arc
-   MenuLocation:TechDraw - Extensions : cotes - Longueur d'arc
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:
+   Name: TechDraw ExtensionCreateLengthArc
+   Name/fr: TechDraw Longueur d'arc
+   MenuLocation: TechDraw - Extensions : cotes - Longueur d'arc
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: 
 ---
 
 # TechDraw ExtensionCreateLengthArc/fr
@@ -39,4 +39,4 @@ L\'outil **TechDraw Longueur d\'arc** crée une cote de longueur d\'arc.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateLengthArc/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateLengthArc/fr

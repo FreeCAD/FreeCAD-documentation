@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher CompCreateFillets
-   Name/pl:Szkicownik: Komponent Utwórz zaokrąglenie
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Version:0.19
+   Name: Sketcher CompCreateFillets
+   Name/pl: Szkicownik: Komponent Utwórz zaokrąglenie
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Version: 0.19
 ---
 
 # Sketcher CompCreateFillets/pl
@@ -33,4 +33,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateFillets/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateFillets/pl

@@ -1,6 +1,6 @@
 # Draft Point/cs
 ---
-- GuiCommand:   Name:Draft Point   Name/cs:Kreslení Bod   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> Bod   Shortcut:P T---
+- GuiCommand:   Name: Draft Point   Name/cs: Kreslení Bod   Workbenches: [Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation: Kreslení -> Bod   Shortcut: P T---
 
 
 </div>
@@ -182,4 +182,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Point/cs
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Point/cs

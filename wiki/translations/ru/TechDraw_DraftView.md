@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Вставить объект верстака Draft
-   Name:TechDraw_DraftView
-   MenuLocation:TechDraw - Вставить объект верстака Draft
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md), [Draft](Draft_Workbench/ru.md)
-   SeeAlso:[Вставить объект верстака Arch](TechDraw_ArchView/ru.md)
+   Name/ru: Вставить объект верстака Draft
+   Name: TechDraw_DraftView
+   MenuLocation: TechDraw - Вставить объект верстака Draft
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md), [Draft](Draft_Workbench/ru.md)
+   SeeAlso: [Вставить объект верстака Arch](TechDraw_ArchView/ru.md)
 ---
 
 # TechDraw DraftView/ru
@@ -113,4 +113,4 @@ rc = page.addView(dv)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DraftView/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DraftView/ru

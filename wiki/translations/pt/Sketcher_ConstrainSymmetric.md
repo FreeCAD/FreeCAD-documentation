@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Constraint Symmetric
-   Name/pt:Constraint Symmetric
-   Workbenches:[Sketcher](Sketcher_Workbench/pt.md), [PartDesign](PartDesign_Workbench/pt.md)
-   MenuLocation:Sketch - Sketcher constraints - Constrain symmetrical
-   SeeAlso:[Constraint Parallel](Sketcher_ConstrainParallel/pt.md)
+   Name: Constraint Symmetric
+   Name/pt: Constraint Symmetric
+   Workbenches: [Sketcher](Sketcher_Workbench/pt.md), [PartDesign](PartDesign_Workbench/pt.md)
+   MenuLocation: Sketch - Sketcher constraints - Constrain symmetrical
+   SeeAlso: [Constraint Parallel](Sketcher_ConstrainParallel/pt.md)
 ---
 
 # Sketcher ConstrainSymmetric/pt
@@ -70,4 +70,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/pt
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/pt

@@ -152,4 +152,4 @@ setColors()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Colorize/fr
+⏵ [documentation index](../README.md) > Macro Colorize/fr

@@ -43,4 +43,4 @@ ToolBar Icon  ![](images/Editor_Assistant_Icon.svg )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Editor Assistant
+⏵ [documentation index](../README.md) > Macro Editor Assistant

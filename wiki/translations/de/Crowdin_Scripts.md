@@ -1,6 +1,4 @@
 # Crowdin Scripts/de
-{{TOCright}}
-
 ## Verwalten von Übersetzungen für FreeCAD 
 
 FreeCAD nutzt den Übersetzungsdienst [Crowdin](https://crowdin.com/project/freecad) um Übesetzungen zu verwalten.
@@ -90,4 +88,4 @@ Das updatefromcrowdin.py Skript schiebt Änderungen aus crowdin auf Dein lokales
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Crowdin Scripts/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Crowdin Scripts/de

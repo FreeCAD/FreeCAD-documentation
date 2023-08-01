@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintLineHorizontal
-   Name/fr:Assembly3 Contrainte ligne horizontale
-   Icon:Assembly_ConstraintLineHorizontal.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 ConstraintLineHorizontal
+   Name/fr: Assembly3 Contrainte ligne horizontale
+   Icon: Assembly_ConstraintLineHorizontal.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintLineHorizontal/fr
@@ -24,4 +24,4 @@ Sur la base de l\'ICS d\'un élément planaire, les points de départ et d\'arri
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLineHorizontal/fr
+⏵ [documentation index](../README.md) > Assembly3 ConstraintLineHorizontal/fr

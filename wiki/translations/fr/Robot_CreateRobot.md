@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Robot CreateRobot
-   Name/fr:Robot Création de robot
-   MenuLocation:Robot - Insérer des robots
-   Workbenches:[Robot](Robot_Workbench/fr.md)
+   Name: Robot CreateRobot
+   Name/fr: Robot Création de robot
+   MenuLocation: Robot - Insérer des robots
+   Workbenches: [Robot](Robot_Workbench/fr.md)
 ---
 
 # Robot CreateRobot/fr
@@ -52,4 +52,4 @@ Les robots prédéfinis sont:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateRobot/fr
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateRobot/fr

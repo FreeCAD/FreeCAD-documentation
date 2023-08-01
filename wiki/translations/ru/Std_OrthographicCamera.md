@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Ортогональная проекция
-   Name:Std_OrthographicCamera
-   MenuLocation:Вид - Ортогональная проекция
-   Workbenches:Все
-   Shortcut:**V** **O**
-   SeeAlso:[Перспективная проекция](Std_PerspectiveCamera/ru.md)
+   Name/ru: Ортогональная проекция
+   Name: Std_OrthographicCamera
+   MenuLocation: Вид - Ортогональная проекция
+   Workbenches: Все
+   Shortcut: **V** **O**
+   SeeAlso: [Перспективная проекция](Std_PerspectiveCamera/ru.md)
 ---
 
 # Std OrthographicCamera/ru
@@ -72,4 +72,4 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraType()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std OrthographicCamera/ru
+⏵ [documentation index](../README.md) > Std OrthographicCamera/ru

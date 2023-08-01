@@ -1,8 +1,4 @@
 # Tree view/it
-{{TOCright}}
-
-
-
 ## Introduzione
 
 
@@ -225,4 +221,4 @@ This indicates that the object will be hidden in the Tree view if the **Show ite
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Tree view/it
+⏵ [documentation index](../README.md) > Tree view/it

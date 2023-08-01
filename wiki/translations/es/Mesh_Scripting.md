@@ -1,6 +1,4 @@
 # Mesh Scripting/es
-{{TOCright}}
-
 ## Introducción
 
 Para obtener acceso al módulo `Malla` hay que importarlo primero:
@@ -98,4 +96,4 @@ Ver también: [Interfaz de programación de aplicaciones Malla](Mesh_API.md). {{
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/es
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/es

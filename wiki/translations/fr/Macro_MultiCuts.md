@@ -132,4 +132,4 @@ FreeCADGui.Selection.clearSelection()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro MultiCuts/fr
+⏵ [documentation index](../README.md) > Macro MultiCuts/fr

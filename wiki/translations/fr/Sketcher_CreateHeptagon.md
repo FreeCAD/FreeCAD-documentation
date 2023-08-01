@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateHeptagon
-   Name/fr:Sketcher Heptagone
-   MenuLocation:Esquisse - Géométries d'esquisse - Créer un heptagone
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **P** **7**
-   Version:0.15
+   Name: Sketcher CreateHeptagon
+   Name/fr: Sketcher Heptagone
+   MenuLocation: Esquisse - Géométries d'esquisse - Créer un heptagone
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **P** **7**
+   Version: 0.15
 ---
 
 # Sketcher CreateHeptagon/fr
@@ -40,4 +40,4 @@ Le cercle circonscrit est la géométrie de construction, qui n\'est visible que
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateHeptagon/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateHeptagon/fr

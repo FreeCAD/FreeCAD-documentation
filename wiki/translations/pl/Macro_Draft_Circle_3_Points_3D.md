@@ -134,4 +134,4 @@ else:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Draft Circle 3 Points 3D/pl
+⏵ [documentation index](../README.md) > Macro Draft Circle 3 Points 3D/pl

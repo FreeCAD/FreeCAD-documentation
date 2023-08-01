@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part_Fillet
-   Name/fr:Part Congé
-   MenuLocation:Part - Congé...
-   Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Part Chanfrein](Part_Chamfer/fr.md)
+   Name: Part_Fillet
+   Name/fr: Part Congé
+   MenuLocation: Part - Congé...
+   Workbenches: [Part](Part_Workbench/fr.md)
+   SeeAlso: [Part Chanfrein](Part_Chamfer/fr.md)
 ---
 
 # Part Fillet/fr
@@ -46,4 +46,4 @@ L\'outil Congé est sensible au [Problème de dénomination topologique](Topolog
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/fr

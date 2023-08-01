@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part_Box
-   Name/ru:Куб
-   MenuLocation:Деталь - Примитивы - Куб
-   Workbenches:[Part](Part_Workbench/ru.md)
-   SeeAlso:[Создать примитивы](Part_CreatePrimitives/ru.md)
+   Name: Part_Box
+   Name/ru: Куб
+   MenuLocation: Деталь - Примитивы - Куб
+   Workbenches: [Part](Part_Workbench/ru.md)
+   SeeAlso: [Создать примитивы](Part_CreatePrimitives/ru.md)
 ---
 
 # Part Box/ru
@@ -112,4 +112,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Box/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Box/ru

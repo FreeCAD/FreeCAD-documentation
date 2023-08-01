@@ -1,8 +1,4 @@
 # Preferences Editor/fr
-{{TOCright}}
-
-
-
 ## Introduction
 
 Pour lancer **l\'Éditeur de préférences**, sélectionnez l\'option **Édition → Préférences...** dans le menu. Sur macOS, l\'option **Préférences...** apparaît dans le menu **FreeCAD** à la place (c\'est l\'emplacement par défaut des préférences sur Mac).
@@ -1013,4 +1009,4 @@ Pour un exemple de script, voir [Std Éditeur des paramètres](Std_DlgParameter/
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Preferences Editor/fr
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Preferences Editor/fr

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateArc
-   Name/it:Arco
-   MenuLocation:Sketch - Geometrie - Arco da centro
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   Shortcut:**G** **A**
-   SeeAlso:[Cerchi](Sketcher_CompCreateCircle/it.md)
+   Name: Sketcher CreateArc
+   Name/it: Arco
+   MenuLocation: Sketch - Geometrie - Arco da centro
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   Shortcut: **G** **A**
+   SeeAlso: [Cerchi](Sketcher_CompCreateCircle/it.md)
 ---
 
 # Sketcher CreateArc/it
@@ -38,4 +38,4 @@ Quando si avvia lo strumento, il puntatore del mouse assume la forma di croce bi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/it

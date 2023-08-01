@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std LinkMake
-   Name/de:Std VerknüpfungErstellen
-   MenuLocation:Keine
-   Workbenches:Alle
-   Version:0.19
-   SeeAlso:[Standard Teil](Std_Part/de.md), [Std Gruppe](Std_Group/de.md), [PartDesign Körper](PartDesign_Body/de.md)
+   Name: Std LinkMake
+   Name/de: Std VerknüpfungErstellen
+   MenuLocation: Keine
+   Workbenches: Alle
+   Version: 0.19
+   SeeAlso: [Standard Teil](Std_Part/de.md), [Std Gruppe](Std_Group/de.md), [PartDesign Körper](PartDesign_Body/de.md)
 ---
 
 # Std LinkMake/de
@@ -427,4 +427,4 @@ Other miscellaneous \"links\" about Link include:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkMake/de
+⏵ [documentation index](../README.md) > Std LinkMake/de

@@ -2,7 +2,7 @@
 ## Wprowadzenie
 
 
-{{TOCright}}
+
 
 W FreeCAD słowo **Złożenie** jest zwykle używane w odniesieniu do modelu [3D](Model/pl.md), który składa się z kilku rozróżnialnych części, które są połączone ze sobą w jakiś sposób, aby stworzyć funkcjonalny obiekt, tak jak powstają prawdziwe produkty.
 
@@ -62,4 +62,4 @@ Zauważ, że środowiska złożeń są z reguły niekompatybilne między sobą. 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly/pl
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly/pl

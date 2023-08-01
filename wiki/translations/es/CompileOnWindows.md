@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > CompileOnWindows/es
+⏵ [documentation index](../README.md) > CompileOnWindows/es

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Truss
-   Name/it:Travatura
-   MenuLocation:Arch - Travatura
-   Workbenches:[Arch](Arch_Workbench/it.md)
-   Version:0.19
+   Name: Arch Truss
+   Name/it: Travatura
+   MenuLocation: Arch - Travatura
+   Workbenches: [Arch](Arch_Workbench/it.md)
+   Version: 0.19
 ---
 
 # Arch Truss/it
@@ -111,4 +111,4 @@ truss.HeightEnd = 400
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Truss/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Truss/it

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Box
-   Name/pl:Część: Sześcian
-   MenuLocation:Część - Bryła pierwotna - Sześcian
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Bryły pierwotne](Part_Primitives/pl.md)
+   Name: Part Box
+   Name/pl: Część: Sześcian
+   MenuLocation: Część - Bryła pierwotna - Sześcian
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: [Bryły pierwotne](Part_Primitives/pl.md)
 ---
 
 # Part Box/pl
@@ -118,4 +118,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Box/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Box/pl

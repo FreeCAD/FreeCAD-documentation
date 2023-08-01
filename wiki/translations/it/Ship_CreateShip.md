@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Ship New
-   Name/it:Nuova‏‎
-   MenuLocation:Ship design - Crea una nuova nave
-   Workbenches:[Ship](Ship_Workbench/it.md)
-   Shortcut:
-   SeeAlso:
+   Name: Ship New
+   Name/it: Nuova‏‎
+   MenuLocation: Ship design - Crea una nuova nave
+   Workbenches: [Ship](Ship_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Ship CreateShip/it
@@ -80,4 +80,4 @@ Quando si preme il pulsante **OK**, il programma crea la nuova istanza barca, qu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship CreateShip/it
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship CreateShip/it

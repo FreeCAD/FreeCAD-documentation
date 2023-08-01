@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh AddFacet
-   Name/pl:Siatka: Dodaj trójkąt
-   MenuLocation:Siatki - Dodaj trójkąt
-   Workbenches:[Siatka](Mesh_Workbench/pl.md)
-   SeeAlso:[Wypełnienie otworów](Mesh_FillupHoles/pl.md), [Interaktywne wypełnienie otworów](Mesh_FillInteractiveHole/pl.md)
+   Name: Mesh AddFacet
+   Name/pl: Siatka: Dodaj trójkąt
+   MenuLocation: Siatki - Dodaj trójkąt
+   Workbenches: [Siatka](Mesh_Workbench/pl.md)
+   SeeAlso: [Wypełnienie otworów](Mesh_FillupHoles/pl.md), [Interaktywne wypełnienie otworów](Mesh_FillInteractiveHole/pl.md)
 ---
 
 # Mesh AddFacet/pl
@@ -55,4 +55,4 @@ Polecenie Dodaj trójkąt środowiska Siatka dodaje powierzchnie wzdłuż granic
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh AddFacet/pl
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh AddFacet/pl

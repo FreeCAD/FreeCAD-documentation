@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std MergeProjects
-   Name/fr:Std Fusion de projets
-   MenuLocation:Fichier - Fusionner un projet...
-   Workbenches:Tous
+   Name: Std MergeProjects
+   Name/fr: Std Fusion de projets
+   MenuLocation: Fichier - Fusionner un projet...
+   Workbenches: Tous
 ---
 
 # Std MergeProjects/fr
@@ -67,4 +67,4 @@ FreeCAD.ActiveDocument.mergeProject("Path_to_FCStd_project_file")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MergeProjects/fr
+⏵ [documentation index](../README.md) > Std MergeProjects/fr

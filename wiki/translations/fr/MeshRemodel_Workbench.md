@@ -1,7 +1,7 @@
 # <img alt="Icône de l\'atelier externe MeshRemodel" src=images/MeshRemodel_workbench_icon.svg  style="width:64px;"> MeshRemodel Workbench/fr
 
 
-{{TOCright}}
+
 
 ## Présentation
 
@@ -19,4 +19,4 @@ Cet atelier peut être installé à partir du <img alt="" src=images/Std_AddonMg
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > MeshRemodel Workbench/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > MeshRemodel Workbench/fr

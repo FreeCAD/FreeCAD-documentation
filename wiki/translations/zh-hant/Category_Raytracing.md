@@ -10,4 +10,4 @@ This category lists pages related to the [Raytracing Workbench/zh-hant](Raytraci
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Raytracing/zh-hant
+⏵ [documentation index](../README.md) > Category:Raytracing/zh-hant

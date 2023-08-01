@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch ToggleIfcBrepFlag
-   Name/it:Toggle Ifc Brep Flag
-   MenuLocation:Arch - Utilità - Attiva/Disattiva Ifc Brep
-   Workbenches:[Arch](Arch_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Esplora Ifc](Arch_IfcExplorer/it.md), [IFC](Arch_IFC/it.md)
+   Name: Arch ToggleIfcBrepFlag
+   Name/it: Toggle Ifc Brep Flag
+   MenuLocation: Arch - Utilità - Attiva/Disattiva Ifc Brep
+   Workbenches: [Arch](Arch_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: [Esplora Ifc](Arch_IfcExplorer/it.md), [IFC](Arch_IFC/it.md)
 ---
 
 # Arch ToggleIfcBrepFlag/it
@@ -46,4 +46,4 @@ Questo strumento attiva o disattiva il contrassegno Ifc BREP di un oggetto [Arch
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/it

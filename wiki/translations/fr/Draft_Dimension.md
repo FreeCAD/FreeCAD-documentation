@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Dimension
-   Name/fr:Draft Dimension
-   MenuLocation:Annotation - Dimension
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:**D** **I**
-   Version:0.8
-   SeeAlso:[Draft Inverser le texte de la dimension](Draft_FlipDimension/fr.md)
+   Name: Draft Dimension
+   Name/fr: Draft Dimension
+   MenuLocation: Annotation - Dimension
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut: **D** **I**
+   Version: 0.8
+   SeeAlso: [Draft Inverser le texte de la dimension](Draft_FlipDimension/fr.md)
 ---
 
 # Draft Dimension/fr
@@ -332,4 +332,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/fr

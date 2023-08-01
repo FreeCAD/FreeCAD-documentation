@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Apply
-   Name/tr:Stili uygula
-   MenuLocation:Taslak- Araçlar - Stili uygula
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
-   SeeAlso:[Tepsi](Draft_Tray/tr.md)
+   Name: Draft Apply
+   Name/tr: Stili uygula
+   MenuLocation: Taslak- Araçlar - Stili uygula
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   SeeAlso: [Tepsi](Draft_Tray/tr.md)
 ---
 
 # Draft ApplyStyle/tr
@@ -77,4 +77,4 @@ This command currently handles only five of the settings the [Draft SetStyle](Dr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/tr

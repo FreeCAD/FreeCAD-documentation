@@ -23,4 +23,4 @@ FreeCAD поддерживается и проектируется сообще�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/ru
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/ru

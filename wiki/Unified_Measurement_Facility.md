@@ -45,4 +45,4 @@ Medium
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Unified Measurement Facility
+⏵ [documentation index](../README.md) > Unified Measurement Facility

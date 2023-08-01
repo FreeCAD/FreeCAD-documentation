@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Std DependencyGraph
-   MenuLocation:[Tools](Std_Tools_Menu.md) - Dependency graph...
-   Workbenches:All
+   Name: Std DependencyGraph
+   MenuLocation: [Tools](Std_Tools_Menu.md) - Dependency graph...
+   Workbenches: All
 ---
 
 # Std DependencyGraph/ro
@@ -263,4 +263,4 @@ Puteți salva / exporta graficul de dependență afișat ca fișier imagine. În
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/ro
+⏵ [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/ro

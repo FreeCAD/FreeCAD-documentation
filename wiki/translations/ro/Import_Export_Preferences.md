@@ -9,7 +9,7 @@ The **DXF settings** configure how [DXF files](Draft_DXF.md) must be imported ([
 </div>
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -657,4 +657,4 @@ For the VTK format you can specify the following:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Preferences](Category_Preferences.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export Preferences/ro
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Preferences](Category_Preferences.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export Preferences/ro

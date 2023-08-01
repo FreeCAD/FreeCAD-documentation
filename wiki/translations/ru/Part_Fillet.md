@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part_Fillet
-   Name/ru:Скругление
-   MenuLocation:Деталь - Скругление...
-   Workbenches:[Верстак Part](Part_Workbench/ru.md)
-   SeeAlso:[Фаска](Part_Chamfer/ru.md)
+   Name: Part_Fillet
+   Name/ru: Скругление
+   MenuLocation: Деталь - Скругление...
+   Workbenches: [Верстак Part](Part_Workbench/ru.md)
+   SeeAlso: [Фаска](Part_Chamfer/ru.md)
 ---
 
 # Part Fillet/ru
@@ -84,4 +84,4 @@ Part(Деталь) Скругление может ничего не сдела�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/ru

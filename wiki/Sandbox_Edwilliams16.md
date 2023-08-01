@@ -369,4 +369,4 @@ def getLCSVertex(sel):
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Sandbox:Edwilliams16
+⏵ [documentation index](../README.md) > Sandbox:Edwilliams16

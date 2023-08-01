@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw Annotation
-   Name/fr:TechDraw Annotation
-   MenuLocation:TechDraw - Annotations - Insérer une annotation
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[Draft Texte](Draft_Text/fr.md), [Draft Formes à partir texte](Draft_ShapeString/fr.md)
+   Name: TechDraw Annotation
+   Name/fr: TechDraw Annotation
+   MenuLocation: TechDraw - Annotations - Insérer une annotation
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   SeeAlso: [Draft Texte](Draft_Text/fr.md), [Draft Formes à partir texte](Draft_ShapeString/fr.md)
 ---
 
 # TechDraw Annotation/fr
@@ -109,4 +109,4 @@ rc = page.addView(anno)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Annotation/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Annotation/fr

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:FEM PostFilterClipRegion
-   MenuLocation:Results - Region clip filter
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM Result pipeline](FEM_PostPipelineFromResult.md), [FEM Filter functions](FEM_PostCreateFunctions.md), [FEM tutorial](FEM_tutorial.md)
+   Name: FEM PostFilterClipRegion
+   MenuLocation: Results - Region clip filter
+   Workbenches: [FEM](FEM_Workbench.md)
+   SeeAlso: [FEM Result pipeline](FEM_PostPipelineFromResult.md), [FEM Filter functions](FEM_PostCreateFunctions.md), [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM PostFilterClipRegion/en
@@ -43,4 +43,4 @@ Clips a field using a sphere or a plane cutting through the model.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterClipRegion/en
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterClipRegion/en

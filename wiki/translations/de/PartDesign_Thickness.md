@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign Thickness
-   Name/de:PartDesign Dicke
-   MenuLocation:Part Design - Modifikationen - Dicke
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[Part Dicke](Part_Thickness/de.md)
+   Name: PartDesign Thickness
+   Name/de: PartDesign Dicke
+   MenuLocation: Part Design - Modifikationen - Dicke
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [Part Dicke](Part_Thickness/de.md)
 ---
 
 # PartDesign Thickness/de
@@ -145,4 +145,4 @@ Ein PartDesign-Thickness-Objekt wird von einem [Part-Formelement](Part_Feature/d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/de

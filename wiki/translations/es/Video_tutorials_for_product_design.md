@@ -97,4 +97,4 @@ Aunque esta lista se centra en el contenido alemán, muchos de estos canales tam
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for product design/es
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for product design/es

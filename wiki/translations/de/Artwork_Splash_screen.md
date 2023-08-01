@@ -1,6 +1,4 @@
 # Artwork Splash screen/de
-{{TOCright}}
-
 Dieses sind die Splash-Screens, die für die jeweilige Programmversion verwendet wurden.
 
 ## FreeCAD 0.20 
@@ -54,4 +52,4 @@ Dieses sind die Splash-Screens, die für die jeweilige Programmversion verwendet
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Splash screen/de
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Splash screen/de

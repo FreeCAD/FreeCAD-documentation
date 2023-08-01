@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path 3DSurface
-   Name/fr:Path Surface
-   MenuLocation:Path - Surface
-   Workbenches:[Path](Path_Workbench/fr.md)
-   Version:0.19
+   Name: Path 3DSurface
+   Name/fr: Path Surface
+   MenuLocation: Path - Surface
+   Workbenches: [Path](Path_Workbench/fr.md)
+   Version: 0.19
 ---
 
 # Path Surface/fr
@@ -484,4 +484,4 @@ Cette section est simplement une représentation des paramètres de l'éditeur d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Surface/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Surface/fr

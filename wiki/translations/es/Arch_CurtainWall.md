@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Arch CurtainWall
-   Name/es:Arquitectura  Muro Cortina
-   MenuLocation:Arquitectura - MuroCortina
-   Workbenches:[Arquitectura](Arch_Workbench/es.md)
-   Shortcut:**C** **W**
-   Version:0.19
-   SeeAlso:[Arquitectura Muro](Arch_Wall/es.md), [Arquitecturah Rejilla](Arch_Grid/es.md)
+   Name: Arch CurtainWall
+   Name/es: Arquitectura  Muro Cortina
+   MenuLocation: Arquitectura - MuroCortina
+   Workbenches: [Arquitectura](Arch_Workbench/es.md)
+   Shortcut: **C** **W**
+   Version: 0.19
+   SeeAlso: [Arquitectura Muro](Arch_Wall/es.md), [Arquitecturah Rejilla](Arch_Grid/es.md)
 ---
 
 # Arch CurtainWall/es
@@ -190,4 +190,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CurtainWall/es
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CurtainWall/es

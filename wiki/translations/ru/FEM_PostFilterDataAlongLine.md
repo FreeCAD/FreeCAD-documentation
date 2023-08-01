@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FEM PostCreateDataAlongLineFilter
-   Name/ru:FEM PostCreateDataAlongLineFilter
-   Icon:Fem-DataAlongLine.svg
-   MenuLocation: Results - Data along line filter
-   |Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM PostCreateDataAlongLineFilter
+   Name/ru: FEM PostCreateDataAlongLineFilter
+   Icon: Fem-DataAlongLine.svg
+   MenuLocation:  Results - Data along line filter
+   |Workbenches: [FEM](FEM_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM PostFilterDataAlongLine/ru
@@ -55,4 +55,4 @@ Plots the values of a field along a specified line.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterDataAlongLine/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterDataAlongLine/ru

@@ -1,6 +1,6 @@
 # FEM MaterialFluid/it
 ---
-- GuiCommand:   Name:FEM_MaterialFluid   Name/it:FEM Materiale per fluido   MenuLocation: Modello - Materiali - Materiale per fluido   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|FEM tutorial](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:   Name: FEM_MaterialFluid   Name/it: FEM Materiale per fluido   MenuLocation:  Modello - Materiali - Materiale per fluido   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/it|FEM tutorial](FEM_Workbench/it___FEM]].md)---
 
 
 </div>
@@ -51,4 +51,4 @@ Aggiunge le proprietà del fluido ad una parte.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialFluid/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialFluid/it

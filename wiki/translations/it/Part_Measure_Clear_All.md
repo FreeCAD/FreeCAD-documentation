@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Measure Clear All
-   Name/it:Cancella tutto
-   MenuLocation:{{StdMenu|[Misure](Std_Measure_Menu/it.md)}} - Cancella tutto‎
-   Workbenches:[Part](Part_Workbench/it.md)
+   Name: Part Measure Clear All
+   Name/it: Cancella tutto
+   MenuLocation: {{StdMenu|[Misure](Std_Measure_Menu/it.md)}} - Cancella tutto‎
+   Workbenches: [Part](Part_Workbench/it.md)
 ---
 
 # Part Measure Clear All/it
@@ -47,4 +47,4 @@ Premere il pulsante **[<img src=images/Part_Measure_Clear_All.svg style="width:2
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Clear All/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Clear All/it

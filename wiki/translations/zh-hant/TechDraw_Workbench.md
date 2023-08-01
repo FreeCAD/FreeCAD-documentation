@@ -9,7 +9,7 @@ Dimensions, sections, hatched areas, annotations, and [SVG](SVG.md) symbols can 
 If your primary goal is the production of complex 2D drawings and [DXF](DXF.md) files, and you don\'t need 3D modelling, FreeCAD may not be the right choice for you. You may wish to consider a dedicated software program for technical drafting instead, such as [LibreCAD](https://en.wikipedia.org/wiki/LibreCAD) or [QCad](https://en.wikipedia.org/wiki/QCad).
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/TechDraw_Workbench_Example.png  style="width:600px;">
 
@@ -347,4 +347,4 @@ Do you want to know about the future of the TechDraw Workbench? Visit [the TechD
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/zh-hant
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/zh-hant

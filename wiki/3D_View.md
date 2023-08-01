@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > 3D View
+⏵ [documentation index](../README.md) > 3D View

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher NewSketch
-   Name/ro:Creaza schita
-   Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation:Sketch - Creaza schita
-   SeeAlso:[Asociază schiţa unei feţe...](Sketcher_MapSketch/ro.md), [Reorientați schița...](Sketcher_ReorientSketch/ro.md)
+   Name: Sketcher NewSketch
+   Name/ro: Creaza schita
+   Workbenches: [Sketcher](Sketcher_Workbench/ro.md)
+   MenuLocation: Sketch - Creaza schita
+   SeeAlso: [Asociază schiţa unei feţe...](Sketcher_MapSketch/ro.md), [Reorientați schița...](Sketcher_ReorientSketch/ro.md)
 ---
 
 # Sketcher NewSketch/ro
@@ -65,4 +65,4 @@ The sketch can be moved in the 3D-Space using [Placement](Placement.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/ro

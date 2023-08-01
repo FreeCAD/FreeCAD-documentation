@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionDrawCosmCircle
-   Name/fr:TechDraw Cercle
-   MenuLocation:TechDraw - Extensions : taraudages/filetages - Cercle
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw Arc](TechDraw_ExtensionDrawCosmArc/fr.md)
+   Name: TechDraw ExtensionDrawCosmCircle
+   Name/fr: TechDraw Cercle
+   MenuLocation: TechDraw - Extensions : taraudages/filetages - Cercle
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw Arc](TechDraw_ExtensionDrawCosmArc/fr.md)
 ---
 
 # TechDraw ExtensionDrawCosmCircle/fr
@@ -41,4 +41,4 @@ L\'outil **TechDraw Cercle** ajoute un cercle cosmétique basé sur deux sommets
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDrawCosmCircle/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDrawCosmCircle/fr

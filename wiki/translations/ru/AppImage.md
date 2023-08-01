@@ -2,7 +2,7 @@
 **По состоянию на 7 июля 2019 года сообщество FreeCAD отмечает, что загрузка AppImages из Github, похоже, истекает по таймауту до завершения. Мы не знаем, почему это происходит. Если это произойдет с вами, попробуйте загрузить ещё раз. На это может понадобиться несколько попыток. Рекомендуется использовать [функцию автоматического обновления](#Автообновление/ru.md) AppImage, которая восстановит загрузку с того места, где произошла ошибка.**
 
 
-{{TOCright}}
+
 
 
 
@@ -216,4 +216,4 @@ chmod +x appimagetool-x86_64.AppImage
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > [Testing](Category_Testing.md) > AppImage/ru
+⏵ [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > [Testing](Category_Testing.md) > AppImage/ru

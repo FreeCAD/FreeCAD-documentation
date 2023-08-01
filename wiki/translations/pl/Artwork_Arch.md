@@ -16,4 +16,4 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Arch](Category_Arch.md) > Artwork Arch/pl
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Arch](Category_Arch.md) > Artwork Arch/pl

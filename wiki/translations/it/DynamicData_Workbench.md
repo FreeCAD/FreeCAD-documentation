@@ -1,7 +1,7 @@
 # <img alt="L\'icona dell\'ambiente aggiuntivo DynamicData" src=images/DynamicData_workbench_icon.svg  style="width:64px;"> DynamicData Workbench/it
 
 
-{{TOCright}}
+
 
 ## Presentazione
 
@@ -35,4 +35,4 @@ Sono in fase di sviluppo ulteriori nuovi ambienti.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > DynamicData Workbench/it
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > DynamicData Workbench/it

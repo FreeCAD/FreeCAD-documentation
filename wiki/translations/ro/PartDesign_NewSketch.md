@@ -1,6 +1,6 @@
 # PartDesign NewSketch/ro
 ---
-- GuiCommand:   Name:PartDesign NewSketch   Workbenches:[[PartDesign Workbench   PartDesign]], Complete|MenuLocation:Part Design - Create sketch   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: PartDesign NewSketch   Workbenches: [[PartDesign Workbench   PartDesign]], Complete|MenuLocation: Part Design - Create sketch   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -73,4 +73,4 @@ To reference any items in the [Workbench Sketcher](Sketcher_Workbench.md) use th
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/ro

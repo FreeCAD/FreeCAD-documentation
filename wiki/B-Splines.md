@@ -283,4 +283,4 @@ So we have also spatial areas in which the intensity of reflected light is diffe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > B-Splines
+⏵ [documentation index](../README.md) > B-Splines

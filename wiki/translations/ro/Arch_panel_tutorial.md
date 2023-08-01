@@ -222,4 +222,4 @@ Atât instrumentele Draft Rotire cât și Move utilizează sistemul de ancorare 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial/ro
+⏵ [documentation index](../README.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial/ro

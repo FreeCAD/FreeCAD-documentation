@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Plane
-   Name/es:Part Plano
-   MenuLocation:Pieza - Crear primitivas... -Plano
-   |Workbenches:[Part](Part_Workbench/es.md)
-   SeeAlso:[Part Primitivas](Part_Primitives/es.md)
+   Name: Part Plane
+   Name/es: Part Plano
+   MenuLocation: Pieza - Crear primitivas... -Plano
+   |Workbenches: [Part](Part_Workbench/es.md)
+   SeeAlso: [Part Primitivas](Part_Primitives/es.md)
 ---
 
 # Part Plane/es
@@ -97,4 +97,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane/es
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane/es

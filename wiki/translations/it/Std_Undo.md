@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_Undo
-   Name/it:Annulla
-   MenuLocation:Modifica - Annulla
-   Workbenches:Tutti
-   Shortcut:**Ctrl**+**Z**
-   SeeAlso:[Ripristina](Std_Redo/it.md)
+   Name: Std_Undo
+   Name/it: Annulla
+   MenuLocation: Modifica - Annulla
+   Workbenches: Tutti
+   Shortcut: **Ctrl**+**Z**
+   SeeAlso: [Ripristina](Std_Redo/it.md)
 ---
 
 # Std Undo/it
@@ -76,4 +76,4 @@ FreeCAD.ActiveDocument.UndoMode = 1
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Undo/it
+⏵ [documentation index](../README.md) > Std Undo/it

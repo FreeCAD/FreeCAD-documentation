@@ -45,4 +45,4 @@ except Exception:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro If Selected Stay If Not Then Delete/en
+⏵ [documentation index](../README.md) > Macro If Selected Stay If Not Then Delete/en

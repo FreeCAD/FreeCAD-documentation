@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw AxoHorizontalDimension
-   Name/fr:TechDraw Cote axonométrique
-   MenuLocation:TechDraw - Annotations - Cote axonométrique
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.21
+   Name: TechDraw AxoHorizontalDimension
+   Name/fr: TechDraw Cote axonométrique
+   MenuLocation: TechDraw - Annotations - Cote axonométrique
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Version: 0.21
 ---
 
 # TechDraw AxoLengthDimension/fr
@@ -91,4 +91,4 @@ Pour modifier les propriétés d\'un objet dimension, double-cliquez dessus dans
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw AxoLengthDimension/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw AxoLengthDimension/fr

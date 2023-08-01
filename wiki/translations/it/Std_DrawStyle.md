@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_DrawStyle
-   Name/it:Stile di disegno
-   MenuLocation:Visualizza - Stile di disegno
-   Workbenches:Tutti
-   Shortcut:**V** **1** - **V** **7**
-   SeeAlso:[Box contenitore](Std_SelBoundingBox/it.md)
+   Name: Std_DrawStyle
+   Name/it: Stile di disegno
+   MenuLocation: Visualizza - Stile di disegno
+   Workbenches: Tutti
+   Shortcut: **V** **1** - **V** **7**
+   SeeAlso: [Box contenitore](Std_SelBoundingBox/it.md)
 ---
 
 # Std DrawStyle/it
@@ -111,4 +111,4 @@ Lo stile **Facce piene** sovrascrive la proprietà **Display Mode** degli oggett
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DrawStyle/it
+⏵ [documentation index](../README.md) > Std DrawStyle/it

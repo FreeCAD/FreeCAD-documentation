@@ -80,4 +80,4 @@ Les modèles sont dessinés par [Quick61](User_Quick61.md) et répertoriés [Fre
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Drawing](Category_Drawing.md) > ANSI templates/fr
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Drawing](Category_Drawing.md) > ANSI templates/fr

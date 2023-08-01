@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreatePoint
-   Name/pl:Szkicownik: Utwórz punkt
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz punkt
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **Y**
+   Name: Sketcher CreatePoint
+   Name/pl: Szkicownik: Utwórz punkt
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Utwórz punkt
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **G** **Y**
 ---
 
 # Sketcher CreatePoint/pl
@@ -42,4 +42,4 @@ Tryb przyciągania do siatki może być ustawiony w [Preferencje szkicownika](Sk
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/pl

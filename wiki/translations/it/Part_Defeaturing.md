@@ -1,6 +1,6 @@
 # Part Defeaturing/it
 ---
-- GuiCommand:   Name:Part Defeaturing   Name/it:Elimina funzione   MenuLocation:Part - Elimina funzione   Workbenches:[[Part_Workbench/it   Part]]|Version:0.18---
+- GuiCommand:   Name: Part Defeaturing   Name/it: Elimina funzione   MenuLocation: Part - Elimina funzione   Workbenches: [[Part_Workbench/it   Part]]|Version: 0.18---
 
 
 </div>
@@ -69,4 +69,4 @@ Per essere disponibile, questo strumento richiede che FreeCAD sia basato su Open
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Defeaturing/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Defeaturing/it

@@ -1,6 +1,6 @@
 # Sketcher Create3PointArc/it
 ---
-- GuiCommand:   Name:Sketcher Create3PointArc   Name/it:Crea arco da tre punti   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch - Geometrie - Arco da tre punti   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Sketcher Create3PointArc   Name/it: Crea arco da tre punti   Workbenches: [[Sketcher Workbench/it   Sketcher]]|MenuLocation: Sketch - Geometrie - Arco da tre punti   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -43,4 +43,4 @@ Quando si avvia lo strumento, il puntatore del mouse si trasforma in una croce b
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointArc/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointArc/it

@@ -132,4 +132,4 @@ See also [Interface Customization](Interface_Customization.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Customize Toolbars/ro
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Customize Toolbars/ro

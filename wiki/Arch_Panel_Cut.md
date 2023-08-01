@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Panel Cut
-   MenuLocation:Arch - Panel tools - Panel Cut
-   Workbenches:[Arch](Arch_Workbench.md), [Path](Path_Workbench.md)
-   Shortcut:**P** **C**
-   Version:0.17
-   SeeAlso:[Arch Panel](Arch_Panel.md), [Arch Panel Sheet](Arch_Panel_Sheet.md), [Arch Nest](Arch_Nest.md)
+   Name: Arch Panel Cut
+   MenuLocation: Arch - Panel tools - Panel Cut
+   Workbenches: [Arch](Arch_Workbench.md), [Path](Path_Workbench.md)
+   Shortcut: **P** **C**
+   Version: 0.17
+   SeeAlso: [Arch Panel](Arch_Panel.md), [Arch Panel Sheet](Arch_Panel_Sheet.md), [Arch Nest](Arch_Nest.md)
 ---
 
 # Arch Panel Cut
@@ -101,4 +101,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Cut
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Cut

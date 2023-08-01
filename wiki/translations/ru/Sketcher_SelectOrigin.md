@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Выбрать начало координат
-   Name:Sketcher_SelectOrigin
-   MenuLocation:Sketch - Инструменты для эскиза - Выбрать начало координат
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**Shift**+**Ctrl**+**O**
-   Version:0.15
+   Name/ru: Выбрать начало координат
+   Name: Sketcher_SelectOrigin
+   MenuLocation: Sketch - Инструменты для эскиза - Выбрать начало координат
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **Shift**+**Ctrl**+**O**
+   Version: 0.15
 ---
 
 # Sketcher SelectOrigin/ru
@@ -44,4 +44,4 @@ Selects the origin of a sketch.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectOrigin/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectOrigin/ru

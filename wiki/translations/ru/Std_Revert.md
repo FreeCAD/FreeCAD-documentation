@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std Revert
-   Name/ru:Std Revert
-   MenuLocation:Файл - Вернуться
-   Workbenches:All
+   Name: Std Revert
+   Name/ru: Std Revert
+   MenuLocation: Файл - Вернуться
+   Workbenches: All
 ---
 
 # Std Revert/ru
@@ -35,4 +35,4 @@ The **Std Revert** command closes the active document and reopens the last saved
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Revert/ru
+⏵ [documentation index](../README.md) > Std Revert/ru

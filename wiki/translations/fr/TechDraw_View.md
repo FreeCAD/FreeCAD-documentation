@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw View
-   Name/fr:TechDraw Vue
-   MenuLocation:TechDraw - Vues de Techdraw - Insérer une vue
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Projection de groupe](TechDraw_ProjectionGroup/fr.md), [TechDraw Vue de coupe](TechDraw_SectionView/fr.md)
+   Name: TechDraw View
+   Name/fr: TechDraw Vue
+   MenuLocation: TechDraw - Vues de Techdraw - Insérer une vue
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   SeeAlso: [TechDraw Projection de groupe](TechDraw_ProjectionGroup/fr.md), [TechDraw Vue de coupe](TechDraw_SectionView/fr.md)
 ---
 
 # TechDraw View/fr
@@ -221,4 +221,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw View/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw View/fr

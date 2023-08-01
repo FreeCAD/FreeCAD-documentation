@@ -166,4 +166,4 @@ A questo punto il flusso di lavoro di base per il [Modulo PartDesign](PartDesign
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial/it

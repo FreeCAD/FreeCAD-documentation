@@ -89,4 +89,4 @@ Wyniki wyświetlane za pomocą programu MES nie są oczywiście obecnie wystarcz
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Creating FEM analyses/pl
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Creating FEM analyses/pl

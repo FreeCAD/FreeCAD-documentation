@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Arc
-   Name/es:Draft Arc
-   MenuLocation:Croquis - Arco
-   Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   Shortcut:A R
-   SeeAlso:[Circunferencia](Draft_Circle/es.md)
+   Name: Draft Arc
+   Name/es: Draft Arc
+   MenuLocation: Croquis - Arco
+   Workbenches: [Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut: A R
+   SeeAlso: [Circunferencia](Draft_Circle/es.md)
 ---
 
 # Draft Arc/es
@@ -138,4 +138,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc/es

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Arc
-   Name/ro:Arc de Cerc
-   MenuLocation:Draft - Arc
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   Shortcut:A R
-   SeeAlso:[Draft Circle](Draft_Circle/ro.md)
+   Name: Draft Arc
+   Name/ro: Arc de Cerc
+   MenuLocation: Draft - Arc
+   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut: A R
+   SeeAlso: [Draft Circle](Draft_Circle/ro.md)
 ---
 
 # Draft Arc/ro
@@ -138,4 +138,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc/ro

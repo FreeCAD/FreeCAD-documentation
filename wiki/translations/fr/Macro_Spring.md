@@ -72,4 +72,4 @@ La discussion du forum (en anglais) : [scripting animations](http://forum.freec
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Spring/fr
+⏵ [documentation index](../README.md) > Macro Spring/fr

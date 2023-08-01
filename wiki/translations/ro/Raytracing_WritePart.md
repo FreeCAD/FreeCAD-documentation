@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Raytracing WritePart
-   Name/ro:Raytracing WritePart
-   MenuLocation:Raytracing - Part
-   Workbenches:[Raytracing](Raytracing_Workbench/ro.md)
-   Shortcut:
-   SeeAlso:
+   Name: Raytracing WritePart
+   Name/ro: Raytracing WritePart
+   MenuLocation: Raytracing - Part
+   Workbenches: [Raytracing](Raytracing_Workbench/ro.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Raytracing WritePart/ro
@@ -53,4 +53,4 @@ Exportă piesa selectată către un fișier tip pov pentru a fi utilizat într-u
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WritePart/ro
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WritePart/ro

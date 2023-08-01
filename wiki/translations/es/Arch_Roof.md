@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Roof
-   Name/es:Arch Techo
-   MenuLocation:Arquitectura - Techo
-   Workbenches:[Arquitectura](Arch_Workbench/es.md)
-   Shortcut:**R** **F**
+   Name: Arch Roof
+   Name/es: Arch Techo
+   MenuLocation: Arquitectura - Techo
+   Workbenches: [Arquitectura](Arch_Workbench/es.md)
+   Shortcut: **R** **F**
 ---
 
 # Arch Roof/es
@@ -170,4 +170,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Roof/es
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Roof/es

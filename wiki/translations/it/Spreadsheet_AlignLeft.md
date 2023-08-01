@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet_AlignLeft
-   Name/it:Allinea a sinistra
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)
-   MenuLocation:Spreadsheet - Allineamento - A sinistra
-   Version:0.17
+   Name: Spreadsheet_AlignLeft
+   Name/it: Allinea a sinistra
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/it.md)
+   MenuLocation: Spreadsheet - Allineamento - A sinistra
+   Version: 0.17
 ---
 
 # Spreadsheet AlignLeft/it
@@ -34,4 +34,4 @@ Lo strumento <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width:16px
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignLeft/it
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignLeft/it

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Surface ExtendFace
-   Name/de:Surface FlächeErweitern
-   MenuLocation:Surface - Extend face
-   Workbenches:[Surface](Surface_Workbench/de.md)
-   Version:0.17
+   Name: Surface ExtendFace
+   Name/de: Surface FlächeErweitern
+   MenuLocation: Surface - Extend face
+   Workbenches: [Surface](Surface_Workbench/de.md)
+   Version: 0.17
 ---
 
 # Surface ExtendFace/de
@@ -135,4 +135,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface ExtendFace/de
+⏵ [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface ExtendFace/de

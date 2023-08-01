@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign Thickness
-   Name/es:PartDesign Espesor
-   MenuLocation:Part Design - Apply a dress up feature - Espesor
-   Workbenches:[PartDesign](PartDesign_Workbench/es.md)
-   Version:0.17
-   SeeAlso:[Part Thickness](Part_Thickness/es.md)
+   Name: PartDesign Thickness
+   Name/es: PartDesign Espesor
+   MenuLocation: Part Design - Apply a dress up feature - Espesor
+   Workbenches: [PartDesign](PartDesign_Workbench/es.md)
+   Version: 0.17
+   SeeAlso: [Part Thickness](Part_Thickness/es.md)
 ---
 
 # PartDesign Thickness/es
@@ -137,4 +137,4 @@ A PartDesign Thickness object is derived from a [Part Feature](Part_Feature.md) 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/es

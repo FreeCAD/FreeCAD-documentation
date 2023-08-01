@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Workbench
-   Name/ru:Std Workbench
-   Empty:1
-   MenuLocation:{{StdMenu|[Вид](Std_View_Menu/ru.md)}} - Верстак
-   Workbenches:[Верстаки](Workbenches/ru.md)
-   SeeAlso:
+   Name: Std Workbench
+   Name/ru: Std Workbench
+   Empty: 1
+   MenuLocation: {{StdMenu|[Вид](Std_View_Menu/ru.md)}} - Верстак
+   Workbenches: [Верстаки](Workbenches/ru.md)
+   SeeAlso: 
 ---
 
 # Std Workbench/ru
@@ -61,4 +61,4 @@ FreeCADGui.activateWorkbench("PartDesignWorkbench")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Workbench/ru
+⏵ [documentation index](../README.md) > Std Workbench/ru

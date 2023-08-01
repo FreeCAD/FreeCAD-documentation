@@ -1,6 +1,4 @@
 # Branding/zh-cn
-{{TOCright}}
-
 ## 概述
 
 本文介绍FreeCAD的"品牌化"。品牌化意味着基于FreeCAD构建你自己的应用程序。可以仅仅是你自己的可执行文件或[启动页面](Splash_screen.md)，也可以是完全重新改造的程序。在FreeCAD的灵活架构的基础上，很容易构建你自己的特殊用途的应用程序。
@@ -98,4 +96,4 @@ All listed tags are optional.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Branding/zh-cn
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Branding/zh-cn

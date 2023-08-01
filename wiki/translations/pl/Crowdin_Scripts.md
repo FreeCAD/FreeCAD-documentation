@@ -1,6 +1,4 @@
 # Crowdin Scripts/pl
-{{TOCright}}
-
 ## Zarządzanie Tłumaczeniami w programie FreeCAD 
 
 FreeCAD do zarządzania tłumaczeniami używa zewnętrznego serwisu nazywanego [Crowdin.](https://crowdin.com/project/freecad)
@@ -90,4 +88,4 @@ Skrypt updatefromcrowdin.py ściąga zmiany z Crowdin do twojego lokalnego katal
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Crowdin Scripts/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Crowdin Scripts/pl

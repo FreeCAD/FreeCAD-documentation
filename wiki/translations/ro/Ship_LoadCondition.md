@@ -1,6 +1,6 @@
 # Ship LoadCondition/ro
 ---
-- GuiCommand:   Name:Ship Loading   MenuLocation:Weights - Create a new loading condition   |Workbenches:[[Ship Workbench   Ship]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Ship Loading   MenuLocation: Weights - Create a new loading condition   |Workbenches: [[Ship Workbench   Ship]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -31,4 +31,4 @@ De făcut
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship LoadCondition/ro
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship LoadCondition/ro

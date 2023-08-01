@@ -1,10 +1,10 @@
 ---
 - GuiCommand:Addon/de
-   Name:BIM Project
-   Name/de:BIM Projekt
-   Workbenches:[BIM](BIM_Workbench/de.md)
-   Addon:BIM
-   MenuLocation:Verwalten - Projekt verwalten...
+   Name: BIM Project
+   Name/de: BIM Projekt
+   Workbenches: [BIM](BIM_Workbench/de.md)
+   Addon: BIM
+   MenuLocation: Verwalten - Projekt verwalten...
 ---
 
 # BIM Project/de
@@ -33,4 +33,4 @@ Alternativ kannst du auch den Inhalt des aktuellen Dokuments als Vorlage speiche
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Project/de
+⏵ [documentation index](../README.md) > BIM Project/de

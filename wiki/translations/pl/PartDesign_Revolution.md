@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Revolution
-   Name/pl:Projekt Części: Wyciągnij przez obrót
-   MenuLocation:Projekt Części - Utwórz cechę przez dodanie - Wyciągnij przez obrót
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   SeeAlso:[Rowek](PartDesign_Groove/pl.md)
+   Name: PartDesign Revolution
+   Name/pl: Projekt Części: Wyciągnij przez obrót
+   MenuLocation: Projekt Części - Utwórz cechę przez dodanie - Wyciągnij przez obrót
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   SeeAlso: [Rowek](PartDesign_Groove/pl.md)
 ---
 
 # PartDesign Revolution/pl
@@ -104,4 +104,4 @@ Poniżej znajdują się właściwości, które można zdefiniować po utworzeniu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/pl

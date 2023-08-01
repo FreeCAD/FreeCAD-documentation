@@ -133,4 +133,4 @@ Now you can save your work. See the [previous tutorial](Plot_Basic_tutorial.md) 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot MultiAxes tutorial
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot MultiAxes tutorial

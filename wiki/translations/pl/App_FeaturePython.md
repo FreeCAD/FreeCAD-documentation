@@ -1,8 +1,4 @@
 # App FeaturePython/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 An <img alt="" src=images/Feature.svg  style="width:32px;"> [App FeaturePython](App_FeaturePython.md) object, or formally an `App::FeaturePython`, is a simple instance of the [App DocumentObject](App_DocumentObject.md) in [Python](Python.md).
@@ -107,4 +103,4 @@ obj.Label = "Custom label"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > App FeaturePython/pl
+⏵ [documentation index](../README.md) > App FeaturePython/pl

@@ -27,4 +27,4 @@ FreeCAD 同時為一徹底社群專案，以俱 FreeCAD 熱忱所凝聚之社群
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Manual:Introduction/zh-tw
+⏵ [documentation index](../README.md) > Manual:Introduction/zh-tw

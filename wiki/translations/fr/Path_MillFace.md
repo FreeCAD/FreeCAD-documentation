@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path Face
-   Name/fr:Path Surfaçage
-   MenuLocation:Path - Surfaçage
-   Workbenches:[Path](Path_Workbench/fr.md)
+   Name: Path Face
+   Name/fr: Path Surfaçage
+   MenuLocation: Path - Surfaçage
+   Workbenches: [Path](Path_Workbench/fr.md)
 ---
 
 # Path MillFace/fr
@@ -244,4 +244,4 @@ Exemple :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path MillFace/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path MillFace/fr

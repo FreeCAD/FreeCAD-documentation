@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Rocket CenteringRing
-   Name/fr:Rocket Anneau de centrage
-   MenuLocation:Rocket - Centering Ring
-   Workbenches:[Rocket](Rocket_Workbench/fr.md)
-   Version:0.19
+   Name: Rocket CenteringRing
+   Name/fr: Rocket Anneau de centrage
+   MenuLocation: Rocket - Centering Ring
+   Workbenches: [Rocket](Rocket_Workbench/fr.md)
+   Version: 0.19
 ---
 
 # Rocket CenteringRing/fr
@@ -96,4 +96,4 @@ A définir
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [API/fr]] et ](Category_API/fr]] et .md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket CenteringRing/fr
+⏵ [documentation index](../README.md) > [API/fr]] et ](Category_API/fr]] et .md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket CenteringRing/fr

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std SelBack
-   Name/fr:Std Précédent
-   MenuLocation:
-   Workbenches:Tous
-   Version:0.19
-   SeeAlso:[Std Lien objet lié](Std_LinkSelectLinked/fr.md), [Std Lien objet lié primaire](Std_LinkSelectLinkedFinal/fr.md), [Std Tous les liens](Std_LinkSelectAllLinks/fr.md), [Std Suivant](Std_SelForward/fr.md)
+   Name: Std SelBack
+   Name/fr: Std Précédent
+   MenuLocation: 
+   Workbenches: Tous
+   Version: 0.19
+   SeeAlso: [Std Lien objet lié](Std_LinkSelectLinked/fr.md), [Std Lien objet lié primaire](Std_LinkSelectLinkedFinal/fr.md), [Std Tous les liens](Std_LinkSelectAllLinks/fr.md), [Std Suivant](Std_SelForward/fr.md)
 ---
 
 # Std SelBack/fr
@@ -39,4 +39,4 @@ La commande **Std Précédent** restaure la sélection précédente enregistrée
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SelBack/fr
+⏵ [documentation index](../README.md) > Std SelBack/fr

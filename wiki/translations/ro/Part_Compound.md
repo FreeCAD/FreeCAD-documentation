@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Compound
-‏‎   MenuLocation:Part - Make compound
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:
+   Name: Part Compound
+‏‎   MenuLocation: Part - Make compound
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: 
 ---
 
 # Part Compound/ro
@@ -53,4 +53,4 @@ To turn this check on go to **Tools → Edit Parameters → Preferences... → M
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/ro

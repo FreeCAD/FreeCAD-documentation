@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher RectangularArray
-   Name/fr:Sketcher Réseau rectangulaire
-   MenuLocation:Esquisse - Outils d'esquisse - Réseau rectangulaire
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**Z** **A**
-   Version:0.16
+   Name: Sketcher RectangularArray
+   Name/fr: Sketcher Réseau rectangulaire
+   MenuLocation: Esquisse - Outils d'esquisse - Réseau rectangulaire
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **Z** **A**
+   Version: 0.16
 ---
 
 # Sketcher RectangularArray/fr
@@ -51,4 +51,4 @@ Le **Réseau rectangulaire** a les options suivantes :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RectangularArray/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RectangularArray/fr

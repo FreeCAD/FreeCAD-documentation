@@ -11,4 +11,4 @@ This category lists pages related to the [Drawing Workbench/uk](Drawing_Workbenc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Obsolete Workbenches/uk
+⏵ [documentation index](../README.md) > Category:Obsolete Workbenches/uk

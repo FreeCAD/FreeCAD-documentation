@@ -1,8 +1,4 @@
 # Property editor/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 [Edytor właściwości](property_editor.md) pojawia się, gdy aktywna jest zakładka **Model** [widoku łączonego](combo_view.md). Umożliwia zarządzanie publicznie eksponowanymi właściwościami obiektów w dokumencie.
@@ -12,7 +8,7 @@ Ogólnie rzecz biorąc, edytor właściwości jest przeznaczony do obsługi tylk
 Nie wszystkie właściwości mogą być zawsze modyfikowane. W zależności od określonego statusu właściwości, niektóre z nich będą niewidoczne *(nie wymienione)* lub będą tylko do odczytu *(nie edytowalne)*.
 
 
-{{TOCright}}
+
 
 ![](images/FreeCAD_Property_editor_empty.png )
 
@@ -283,4 +279,4 @@ print(obj.ViewObject.PropertiesList)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Property editor/pl
+⏵ [documentation index](../README.md) > Property editor/pl

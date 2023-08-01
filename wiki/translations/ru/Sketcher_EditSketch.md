@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Редактировать эскиз
-   Name:Sketcher_EditSketch
-   MenuLocation:Sketch - Редактировать эскиз
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
-   SeeAlso:[Покинуть эскиз](Sketcher_LeaveSketch/ru.md)
+   Name/ru: Редактировать эскиз
+   Name: Sketcher_EditSketch
+   MenuLocation: Sketch - Редактировать эскиз
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso: [Покинуть эскиз](Sketcher_LeaveSketch/ru.md)
 ---
 
 # Sketcher EditSketch/ru
@@ -61,4 +61,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/ru

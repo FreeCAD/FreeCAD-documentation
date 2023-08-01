@@ -50,4 +50,4 @@ The assembly workbenches continue development, and it is expected that at some p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly

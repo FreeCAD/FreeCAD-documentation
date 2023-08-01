@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Raytracing WriteCamera‏‎
-   Name/ro:Raytracing WriteCamera‏‎
-   MenuLocation:Raytracing - Camera‏‎
-   Workbenches:[Raytracing](Raytracing_Workbench/ro.md)
-   Shortcut:
-   SeeAlso:
+   Name: Raytracing WriteCamera‏‎
+   Name/ro: Raytracing WriteCamera‏‎
+   MenuLocation: Raytracing - Camera‏‎
+   Workbenches: [Raytracing](Raytracing_Workbench/ro.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Raytracing WriteCamera/ro
@@ -51,4 +51,4 @@ Exportă proprietățile curente ale camerei într-un fișier pov pentru a fi ut
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteCamera/ro
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteCamera/ro

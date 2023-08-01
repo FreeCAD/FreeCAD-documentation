@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part CompJoinFeatures
-   Name/fr:Part Jointure
-   MenuLocation:Part - Joindre
-   Workbenches:[Part](Part_Workbench/fr.md)
-   Version:0.16
-   SeeAlso:[Part Connecter des objets](Part_JoinConnect/fr.md), [Part Intégrer un objet](Part_JoinEmbed/fr.md), [Part Découpe](Part_JoinCutout/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)
+   Name: Part CompJoinFeatures
+   Name/fr: Part Jointure
+   MenuLocation: Part - Joindre
+   Workbenches: [Part](Part_Workbench/fr.md)
+   Version: 0.16
+   SeeAlso: [Part Connecter des objets](Part_JoinConnect/fr.md), [Part Intégrer un objet](Part_JoinEmbed/fr.md), [Part Découpe](Part_JoinCutout/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)
 ---
 
 # Part CompJoinFeatures/fr
@@ -29,4 +29,4 @@ Cette commande est un bouton de la barre d\'outils déroulante contenant tous le
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Circle
-   Name/fr:Part Cercle
-   MenuLocation:Part - [Créer des primitives](Part_Primitives/fr.md) - Cercle
-   Workbenches:[Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
-   SeeAlso:[Part Primitives](Part_Primitives/fr.md)
+   Name: Part Circle
+   Name/fr: Part Cercle
+   MenuLocation: Part - [Créer des primitives](Part_Primitives/fr.md) - Cercle
+   Workbenches: [Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
+   SeeAlso: [Part Primitives](Part_Primitives/fr.md)
 ---
 
 # Part Circle/fr
@@ -109,4 +109,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/fr

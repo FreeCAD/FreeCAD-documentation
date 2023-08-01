@@ -1,6 +1,6 @@
 # Path Engrave/it
 ---
-- GuiCommand:   Name:Path Engrave   Name/it:Incisione   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path - Incisione   Shortcut|SeeAlso:---
+- GuiCommand:   Name: Path Engrave   Name/it: Incisione   Workbenches: [[Path Workbench/it   Path]]|MenuLocation: Path - Incisione   Shortcut|SeeAlso: ---
 
 
 </div>
@@ -116,4 +116,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Engrave/it
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Engrave/it

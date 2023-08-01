@@ -636,4 +636,4 @@ ToolBar Icon ![](images/Macro_Python_Assistant_Window.png )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Python Assistant Window/en
+⏵ [documentation index](../README.md) > Macro Python Assistant Window/en

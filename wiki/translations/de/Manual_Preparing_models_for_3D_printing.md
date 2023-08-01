@@ -132,4 +132,4 @@ Es gibt viele Anwendungen, um das reale Schneiden zu simulieren, eine davon, die
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Category_Path.md) > [Mesh](Category_Mesh.md) > [Tutorials](Category_Tutorials.md) > Manual:Preparing models for 3D printing/de
+⏵ [documentation index](../README.md) > [Path](Category_Path.md) > [Mesh](Category_Mesh.md) > [Tutorials](Category_Tutorials.md) > Manual:Preparing models for 3D printing/de

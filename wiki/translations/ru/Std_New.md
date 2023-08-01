@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_New
-   Name/ru:Создать
-   MenuLocation:Файл - Создать
-   Workbenches:All
-   Shortcut:**Ctrl**+**N**
-   SeeAlso:[Открыть файл](Std_Open/ru.md),<br>[Импортировать файл](Std_Import/ru.md)
+   Name: Std_New
+   Name/ru: Создать
+   MenuLocation: Файл - Создать
+   Workbenches: All
+   Shortcut: **Ctrl**+**N**
+   SeeAlso: [Открыть файл](Std_Open/ru.md),<br>[Импортировать файл](Std_Import/ru.md)
 ---
 
 # Std New/ru
@@ -103,4 +103,4 @@ FreeCAD.closeDocument(doc.Name)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std New/ru
+⏵ [documentation index](../README.md) > Std New/ru

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > CompileOnMinGW/ru
+⏵ [documentation index](../README.md) > CompileOnMinGW/ru

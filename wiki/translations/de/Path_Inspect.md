@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path Inspect
-   MenuLocation:Path - Inspect Path Commands
-   Workbenches:[Path](Path_Workbench.md)
-   Shortcut:**P** **I**
+   Name: Path Inspect
+   MenuLocation: Path - Inspect Path Commands
+   Workbenches: [Path](Path_Workbench.md)
+   Shortcut: **P** **I**
 ---
 
 # Path Inspect/de
@@ -48,4 +48,4 @@ Dieses Werkzeug ermöglicht die Untersuchung des internen FreeCAD G-Code Dialekt
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Inspect/de
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Inspect/de

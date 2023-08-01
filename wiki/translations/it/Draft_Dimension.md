@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Dimension
-   Name/it:Quota
-   MenuLocation:Draft - Quota
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:**D** **I**
-   Version:0.8
-   SeeAlso:[Invertire la direzione delle quote](Draft_FlipDimension/it.md)
+   Name: Draft Dimension
+   Name/it: Quota
+   MenuLocation: Draft - Quota
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut: **D** **I**
+   Version: 0.8
+   SeeAlso: [Invertire la direzione delle quote](Draft_FlipDimension/it.md)
 ---
 
 # Draft Dimension/it
@@ -336,4 +336,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/it

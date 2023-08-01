@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Plot Labels
-   Name/fr:Plot Etiquettes
-   MenuLocation:Plot - Définir les étiquettes
-   Workbenches:[Plot](Plot_Workbench/fr.md)
+   Name: Plot Labels
+   Name/fr: Plot Etiquettes
+   MenuLocation: Plot - Définir les étiquettes
+   Workbenches: [Plot](Plot_Workbench/fr.md)
 ---
 
 # Plot Labels/fr
@@ -41,4 +41,4 @@ Sélectionnez l\'onglet du tracé que vous souhaitez modifier, puis exécutez ce
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Labels/fr
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Labels/fr

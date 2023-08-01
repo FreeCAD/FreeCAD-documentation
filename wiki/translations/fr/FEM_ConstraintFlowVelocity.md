@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintFlowVelocity
-   Name/fr:FEM Contrainte de vitesse d'écoulement
-   MenuLocation:Modèle - Contraintes du fluide - Contrainte de vitesse d'écoulement
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Contrainte vitesse d'écoulement initiale](FEM_ConstraintInitialFlowVelocity/fr.md)
+   Name: FEM ConstraintFlowVelocity
+   Name/fr: FEM Contrainte de vitesse d'écoulement
+   MenuLocation: Modèle - Contraintes du fluide - Contrainte de vitesse d'écoulement
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Contrainte vitesse d'écoulement initiale](FEM_ConstraintInitialFlowVelocity/fr.md)
 ---
 
 # FEM ConstraintFlowVelocity/fr
@@ -79,4 +79,4 @@ Il est également possible d\'utiliser plus d\'une variable. Voir par exemple la
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintFlowVelocity/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintFlowVelocity/fr

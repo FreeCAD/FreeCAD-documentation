@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:SheetMetal AddCornerRelief
-   Name/fr:SheetMetal Grugeage rond
-   MenuLocation:SheetMetal - Add Corner Relief
-   Workbenches:[SheetMetal](SheetMetal_Workbench/fr.md)
-   Shortcut:**C** **R**
+   Name: SheetMetal AddCornerRelief
+   Name/fr: SheetMetal Grugeage rond
+   MenuLocation: SheetMetal - Add Corner Relief
+   Workbenches: [SheetMetal](SheetMetal_Workbench/fr.md)
+   Shortcut: **C** **R**
 ---
 
 # SheetMetal AddCornerRelief/fr
@@ -114,4 +114,4 @@ Un objet SheetMetal Grugeage est dérivé d\'un objet [Part Feature](Part_Featur
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddCornerRelief/fr
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddCornerRelief/fr

@@ -97,4 +97,4 @@ Zwei Anwendungsbeispiele finden Sie in [this forum topic](http://forum.freecadwe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Solid Sweep/de
+⏵ [documentation index](../README.md) > Macro Solid Sweep/de

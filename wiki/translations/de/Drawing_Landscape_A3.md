@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Drawing Landscape A3
-   Name/de:Drawing Landscape A3
-   Workbenches:[Drawing](Drawing_Workbench/de.md), Complete
-   MenuLocation:Drawing - Neue Zeichnung einfügen - A3 Landscape
-   Shortcut:none
+   Name: Drawing Landscape A3
+   Name/de: Drawing Landscape A3
+   Workbenches: [Drawing](Drawing_Workbench/de.md), Complete
+   MenuLocation: Drawing - Neue Zeichnung einfügen - A3 Landscape
+   Shortcut: none
 ---
 
 # Drawing Landscape A3/de
@@ -44,4 +44,4 @@ Wenn die Seite nicht angezeigt wird, klicke auf das <img alt="" src=images/view-
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Landscape A3/de
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Landscape A3/de

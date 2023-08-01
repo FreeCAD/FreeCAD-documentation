@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateEllipseBy3Points
-   Name/pl:Szkicownik: Utwórz elipsę przez trzy punkty
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz elipsę przez trzy punkty
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **3** **E**
-   Version:0.15
-   SeeAlso:[Utwórz elipsę przez środek](Sketcher_CreateEllipseByCenter/pl.md), [Utwórz okrąg](Sketcher_CreateCircle/pl.md), [Utwórz łuk na podstawie elipsy](Sketcher_CreateArcOfEllipse/pl.md)
+   Name: Sketcher CreateEllipseBy3Points
+   Name/pl: Szkicownik: Utwórz elipsę przez trzy punkty
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Utwórz elipsę przez trzy punkty
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **G** **3** **E**
+   Version: 0.15
+   SeeAlso: [Utwórz elipsę przez środek](Sketcher_CreateEllipseByCenter/pl.md), [Utwórz okrąg](Sketcher_CreateCircle/pl.md), [Utwórz łuk na podstawie elipsy](Sketcher_CreateArcOfEllipse/pl.md)
 ---
 
 # Sketcher CreateEllipseBy3Points/pl
@@ -54,4 +54,4 @@ Niebieskie linie to linie konstrukcyjne w celach ilustracyjnych.*
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseBy3Points/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseBy3Points/pl

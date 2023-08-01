@@ -1,7 +1,7 @@
 # <img alt="Ikonka FreeCAD dla środowiska pracy FCGear" src=images/FCGear_workbench_icon.svg  style="width:64px;"> FCGear Workbench/pl
 
 
-{{TOCright}}
+
 
 ## Wprowadzenie
 
@@ -124,4 +124,4 @@ Po zakończeniu instalacji narzędzia są dostępne na pasku narzędziowym Gear 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > FCGear Workbench/pl
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > FCGear Workbench/pl

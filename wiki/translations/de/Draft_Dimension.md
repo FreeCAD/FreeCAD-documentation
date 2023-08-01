@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Dimension
-   Name/de:Draft Maß
-   MenuLocation:Anmerkung - Abmessung
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Shortcut:**D** **I**
-   Version:0.8
-   SeeAlso:[Draft MaßKippen](Draft_FlipDimension/de.md)
+   Name: Draft Dimension
+   Name/de: Draft Maß
+   MenuLocation: Anmerkung - Abmessung
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut: **D** **I**
+   Version: 0.8
+   SeeAlso: [Draft MaßKippen](Draft_FlipDimension/de.md)
 ---
 
 # Draft Dimension/de
@@ -400,4 +400,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/de

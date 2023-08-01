@@ -1,8 +1,4 @@
 # Interface Customization/fr
-{{TOCright}}
-
-
-
 ## Introduction
 
 L\'interface FreeCAD est basée sur la boîte à outils [Qt](https://fr.wikipedia.org/wiki/Qt) et possède une bonne organisation. Certains aspects de l\'interface peuvent être personnalisés. Vous pouvez, par exemple, ajouter des barres d\'outils personnalisées avec des outils de plusieurs ateliers ou des outils définis dans des macros et vous pouvez créer vos propres raccourcis clavier. Mais les menus et barres d\'outils par défaut fournis avec FreeCAD et ses ateliers ne peuvent pas être modifiés.
@@ -291,4 +287,4 @@ Dans la catégorie Ateliers du gestionnaire des extensions, certaines extensions
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Interface Customization/fr
+⏵ [documentation index](../README.md) > Interface Customization/fr

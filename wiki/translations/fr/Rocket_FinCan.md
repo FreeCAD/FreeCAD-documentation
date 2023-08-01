@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Rocket FinCan
-   Name/fr:Rocket Échappement avec ailerons
-   MenuLocation:Rocket - Échappement avec ailerons
-   Workbenches:[Rocket](Rocket_Workbench/fr.md)
-   Version:0.19
+   Name: Rocket FinCan
+   Name/fr: Rocket Échappement avec ailerons
+   MenuLocation: Rocket - Échappement avec ailerons
+   Workbenches: [Rocket](Rocket_Workbench/fr.md)
+   Version: 0.19
 ---
 
 # Rocket FinCan/fr
@@ -95,4 +95,4 @@ Ces paramètres sont fournis à titre indicatif et n\'ont aucun effet sur la con
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket FinCan/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket FinCan/fr

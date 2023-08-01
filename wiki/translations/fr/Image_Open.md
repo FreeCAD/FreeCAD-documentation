@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Image Open
-   Name/fr:Image Ouvrir
-   MenuLocation:
-   Workbenches:[Image](Image_Workbench/fr.md)
-   SeeAlso:[Image Créer un plan d'image](Image_CreateImagePlane/fr.md), [Image Redimensionner une image](Image_Scaling/fr.md)
+   Name: Image Open
+   Name/fr: Image Ouvrir
+   MenuLocation: 
+   Workbenches: [Image](Image_Workbench/fr.md)
+   SeeAlso: [Image Créer un plan d'image](Image_CreateImagePlane/fr.md), [Image Redimensionner une image](Image_Scaling/fr.md)
 ---
 
 # Image Open/fr
@@ -31,4 +31,4 @@ L\'image est placée dans une nouvelle fenêtre, pas dans la vue 3D.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/fr
+⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/fr

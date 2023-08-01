@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std TreeSyncView
-   Name/ru:Std TreeSyncView
-   MenuLocation:Вид - Дерево документа - Sync view
-   Workbenches:All
-   Shortcut:**T** **1**
+   Name: Std TreeSyncView
+   Name/ru: Std TreeSyncView
+   MenuLocation: Вид - Дерево документа - Sync view
+   Workbenches: All
+   Shortcut: **T** **1**
 ---
 
 # Std TreeSyncView/ru
@@ -38,4 +38,4 @@ The Tree view SyncView mode can also be set in the [Preferences editor](Preferen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSyncView/ru
+⏵ [documentation index](../README.md) > Std TreeSyncView/ru

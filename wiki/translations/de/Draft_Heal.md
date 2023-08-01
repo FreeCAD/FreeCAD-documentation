@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Heal   Name/de:Draft Heilen
-   MenuLocation:Entwurf - Dienstprogramme - Heilen
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso:[Hochstufen](Draft_Upgrade/de.md), [Herabstufen](Draft_Downgrade/de.md)
+   Name: Draft Heal   Name/de: Draft Heilen
+   MenuLocation: Entwurf - Dienstprogramme - Heilen
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso: [Hochstufen](Draft_Upgrade/de.md), [Herabstufen](Draft_Downgrade/de.md)
 ---
 
 # Draft Heal/de
@@ -44,4 +44,4 @@ Dieser Befehl versucht, Objekte aus dem [Draft Arbeitsbereich](Draft_Workbench/d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/de

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ToggleObjects
-   Name/pl:Std: Przełącz widoczność
-   MenuLocation:Widok - Widoczność - Przełącz widoczność wszystkich obiektów
-   Workbenches:wszystkie
-   SeeAlso:[Przełącz widoczność](Std_ToggleVisibility/pl.md), [Pokaż zaznaczone](Std_ShowSelection/pl.md), [Ukryj zaznaczone](Std_HideSelection.md), [Wyświetl wszystkie obiekty](Std_ShowObjects/pl.md), [Ukryj wszystkie obiekty](Std_HideObjects/pl.md)
+   Name: Std ToggleObjects
+   Name/pl: Std: Przełącz widoczność
+   MenuLocation: Widok - Widoczność - Przełącz widoczność wszystkich obiektów
+   Workbenches: wszystkie
+   SeeAlso: [Przełącz widoczność](Std_ToggleVisibility/pl.md), [Pokaż zaznaczone](Std_ShowSelection/pl.md), [Ukryj zaznaczone](Std_HideSelection.md), [Wyświetl wszystkie obiekty](Std_ShowObjects/pl.md), [Ukryj wszystkie obiekty](Std_HideObjects/pl.md)
 ---
 
 # Std ToggleObjects/pl
@@ -46,4 +46,4 @@ Aby zapoznać się z przykładami skryptów zobacz stronę [Przełącz widoczno�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleObjects/pl
+⏵ [documentation index](../README.md) > Std ToggleObjects/pl

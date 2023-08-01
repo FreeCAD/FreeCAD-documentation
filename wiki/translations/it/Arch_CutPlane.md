@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Arch CutPlane
-   Name/it:Taglia con piano
-   Workbenches:[[Arch_Workbench/it   Arch]]|MenuLocation:Arch - Taglia con piano
-   SeeAlso:[Taglia con una linea](Arch_CutLine/it.md), [Rimuovi](Arch_Remove/it.md)
+   Name: Arch CutPlane
+   Name/it: Taglia con piano
+   Workbenches: [[Arch_Workbench/it   Arch]]|MenuLocation: Arch - Taglia con piano
+   SeeAlso: [Taglia con una linea](Arch_CutLine/it.md), [Rimuovi](Arch_Remove/it.md)
 ---
 
 # Arch CutPlane/it
@@ -135,4 +135,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/it

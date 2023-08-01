@@ -1,6 +1,6 @@
 # Draft Upgrade/cs
 ---
-- GuiCommand:   Name:Draft Upgrade   Name/cs:Kreslení Vylepšení   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení - Aktualizace   Shortcut:U P   SeeAlso:[Kreslení Degradace](Draft_Downgrade/cs.md)---
+- GuiCommand:   Name: Draft Upgrade   Name/cs: Kreslení Vylepšení   Workbenches: [Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation: Kreslení - Aktualizace   Shortcut: U P   SeeAlso: [Kreslení Degradace](Draft_Downgrade/cs.md)---
 
 
 </div>
@@ -104,4 +104,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Upgrade/cs
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Upgrade/cs

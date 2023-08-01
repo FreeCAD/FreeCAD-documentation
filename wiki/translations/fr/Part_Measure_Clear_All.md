@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Measure Clear All
-   Name/fr:Part Tout effacer
-   MenuLocation:Mesure - Tout effacer
-   Workbenches:[Part](Part_Workbench/fr.md)
+   Name: Part Measure Clear All
+   Name/fr: Part Tout effacer
+   MenuLocation: Mesure - Tout effacer
+   Workbenches: [Part](Part_Workbench/fr.md)
 ---
 
 # Part Measure Clear All/fr
@@ -21,4 +21,4 @@ Cet outil efface toutes les mesures de la [vue 3D](3D_view/fr.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Clear All/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Clear All/fr

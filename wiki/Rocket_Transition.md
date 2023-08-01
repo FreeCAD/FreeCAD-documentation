@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Rocket Transition
-   MenuLocation:Rocket - Transition
-   Workbenches:[Rocket Workbench](Rocket_Workbench.md)
-   Version:0.19
+   Name: Rocket Transition
+   MenuLocation: Rocket - Transition
+   Workbenches: [Rocket Workbench](Rocket_Workbench.md)
+   Version: 0.19
 ---
 
 # Rocket Transition
@@ -123,4 +123,4 @@ TBD
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [API]] and ](Category_API]] and .md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Transition
+⏵ [documentation index](../README.md) > [API]] and ](Category_API]] and .md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Transition

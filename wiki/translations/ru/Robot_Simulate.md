@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Моделирование траектории
-   MenuLocation:Робот - Моделирование траектории
-   Workbenches:[Робот](Robot_Workbench/ru.md)
+   Name: Моделирование траектории
+   MenuLocation: Робот - Моделирование траектории
+   Workbenches: [Робот](Robot_Workbench/ru.md)
 ---
 
 # Robot Simulate/ru
@@ -42,4 +42,4 @@ Result: This will open up a player dialog menu in the [Tree view](Tree_view.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Simulate/ru
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Simulate/ru

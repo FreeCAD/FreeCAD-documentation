@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/cs: Skicář Oříznutíí
-   Icon:Sketcher Trimming.png
-   Workbenches:[Skicář](Sketcher_Workbench/cs.md)
-   MenuLocation:Náčrt - Skicář Konstrukce -  Oříznutí hrany
-   Version:0.12
-   SeeAlso:[Prodloužit hranu](Sketcher_Extend/cs.md)
+   Name/cs:  Skicář Oříznutíí
+   Icon: Sketcher Trimming.png
+   Workbenches: [Skicář](Sketcher_Workbench/cs.md)
+   MenuLocation: Náčrt - Skicář Konstrukce -  Oříznutí hrany
+   Version: 0.12
+   SeeAlso: [Prodloužit hranu](Sketcher_Extend/cs.md)
 ---
 
 # Sketcher Trimming/cs
@@ -61,4 +61,4 @@ This tool trims an edge at the nearest intersections with other edges. If the se
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/cs
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/cs

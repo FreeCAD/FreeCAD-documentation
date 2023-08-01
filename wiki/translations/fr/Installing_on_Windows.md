@@ -1,6 +1,4 @@
 # Installing on Windows/fr
-{{TOCright}}
-
 ## Installation standard 
 
 La façon la plus simple d\'installer la dernière version stable de FreeCAD est d\'utiliser le programme d\'installation :
@@ -94,4 +92,4 @@ Notez que la désinstallation (mode transparent) échouera s\'il y a une instanc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Installing on Windows/fr
+⏵ [documentation index](../README.md) > Installing on Windows/fr

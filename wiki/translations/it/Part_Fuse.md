@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Union
-   Name/it:Unione
-   Icon:Part Fuse.svg
-   MenuLocation:Parte - Operazione booleana - Unione
-   Workbenches:[Parte](Part_Workbench/it.md)
-   SeeAlso:[Sottrazione](Part_Cut/it.md), [Intersezione](Part_Common/it.md), [Operazione booleana](Part_Boolean.md)
+   Name: Part Union
+   Name/it: Unione
+   Icon: Part Fuse.svg
+   MenuLocation: Parte - Operazione booleana - Unione
+   Workbenches: [Parte](Part_Workbench/it.md)
+   SeeAlso: [Sottrazione](Part_Cut/it.md), [Intersezione](Part_Common/it.md), [Operazione booleana](Part_Boolean.md)
 ---
 
 # Part Fuse/it
@@ -77,4 +77,4 @@ oppure per ottenere subito una forma pulita e non dover ricorrere a questo coman
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/it

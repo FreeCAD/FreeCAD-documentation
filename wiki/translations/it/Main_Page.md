@@ -77,4 +77,4 @@ Leggete il [Piano di sviluppo](Development_roadmap/it.md) per sapere cosa è pia
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/it
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/it

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainPointOnObject
-   MenuLocation:Sketch - Sketcher constraints - Constrain point onto object
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**O**
-   SeeAlso:[Sketcher Constrain Coincident](Sketcher_ConstrainCoincident.md)
+   Name: Sketcher ConstrainPointOnObject
+   MenuLocation: Sketch - Sketcher constraints - Constrain point onto object
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **O**
+   SeeAlso: [Sketcher Constrain Coincident](Sketcher_ConstrainCoincident.md)
 ---
 
 # Sketcher ConstrainPointOnObject/en
@@ -49,4 +49,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains how to identify th
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/en
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/en

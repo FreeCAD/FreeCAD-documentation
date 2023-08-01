@@ -1,8 +1,4 @@
 # Installing Helpfile/it
-{{TOCright}}
-
-
-
 ## Mddulo Aiuto 
 
 **Nota:** i file della guida offline di FreeCAD, descritti di seguito, verranno ritirati. Il sistema di aiuto di FreeCAD è ora gestito dal [Help Addon](https://github.com/yorikvanhavre/FreeCAD-Help), che si può installare tramite [Addon manager](Std_AddonMgr/it.md). L\'Help Addon è in grado di accedere alla documentazione online, senza bisogno di scaricare nulla, o ad una copia scaricabile offline della documentazione, che può essere installata anche tramite l\'Addon manager.
@@ -60,4 +56,4 @@ Possono sorgere difficoltà quando si tenta di installare i pacchetti di documen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Installing Helpfile/it
+⏵ [documentation index](../README.md) > Installing Helpfile/it

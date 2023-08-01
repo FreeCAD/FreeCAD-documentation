@@ -1,6 +1,4 @@
 # File Format FCStd/ro
-{{TOCright}}
-
 ## Overview
 
 
@@ -255,4 +253,4 @@ Here, a file Converter utility [ImageConv](ImageConv.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > [File_Formats](Category_File_Formats.md) > File Format FCStd/ro
+⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > [File_Formats](Category_File_Formats.md) > File Format FCStd/ro

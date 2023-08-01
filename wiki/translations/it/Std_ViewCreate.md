@@ -1,6 +1,6 @@
 # Std ViewCreate/it
 ---
-- GuiCommand:   Name:Std_ViewCreate   Name/it:Crea una nuova vista   MenuLocation:Visualizza - Crea una nuova vista   Workbenches:Tutti   SeeAlso:[Finestra del documento](Std_ViewDockUndockFullscreen/it.md), [Vista 3D a schermo intero](Std_ViewFullscreen/it.md)---
+- GuiCommand:   Name: Std_ViewCreate   Name/it: Crea una nuova vista   MenuLocation: Visualizza - Crea una nuova vista   Workbenches: Tutti   SeeAlso: [Finestra del documento](Std_ViewDockUndockFullscreen/it.md), [Vista 3D a schermo intero](Std_ViewFullscreen/it.md)---
 
 
 
@@ -34,4 +34,4 @@ Il comando **Crea una nuova vista** crea una nuova [vista 3D](3D_view/it.md) per
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewCreate/it
+⏵ [documentation index](../README.md) > Std ViewCreate/it

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign WizardShaft
-   Name/pl:Projekt Części: Kreator projektowania wału
-   MenuLocation:Projekt Części - Kreator projektowania wału ...
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
+   Name: PartDesign WizardShaft
+   Name/pl: Projekt Części: Kreator projektowania wału
+   MenuLocation: Projekt Części - Kreator projektowania wału ...
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
 ---
 
 # PartDesign WizardShaft/pl
@@ -86,4 +86,4 @@ Aby dodać nowy segment wału, kliknij prawym przyciskiem myszki w puste miejsce
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/pl

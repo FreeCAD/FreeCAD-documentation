@@ -1,6 +1,6 @@
 # Draft Line/sv
 ---
-- GuiCommand:   Name:Draft Line   Workbenches:[MenuLocation:Draft - Line   Shortcut:L I   SeeAlso:[[Draft Wire/sv|Draft Wire](Draft_Workbench/sv___Skiss]].md)---
+- GuiCommand:   Name: Draft Line   Workbenches: [MenuLocation: Draft - Line   Shortcut: L I   SeeAlso: [[Draft Wire/sv|Draft Wire](Draft_Workbench/sv___Skiss]].md)---
 
 
 </div>
@@ -131,4 +131,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Line/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Line/sv

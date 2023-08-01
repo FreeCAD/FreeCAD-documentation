@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Drawing Open SVG
-   Workbenches:[Drawing](Drawing_Workbench.md), Complete
-   MenuLocation:Drawing - Open SVG...
-   Shortcut:none
-   SeeAlso:[Drawing Save](Drawing_Save.md)
+   Name: Drawing Open SVG
+   Workbenches: [Drawing](Drawing_Workbench.md), Complete
+   MenuLocation: Drawing - Open SVG...
+   Shortcut: none
+   SeeAlso: [Drawing Save](Drawing_Save.md)
 ---
 
 # Drawing Open SVG
@@ -22,4 +22,4 @@ This tool opens a drawing sheet previously saved as an SVG (scalable vector grap
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Open SVG
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Open SVG

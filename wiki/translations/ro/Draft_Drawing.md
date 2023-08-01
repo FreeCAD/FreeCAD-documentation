@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Drawing
-   Name/ro:Draft Drawing
-   MenuLocation:Drafting - Drawing
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Name: Draft Drawing
+   Name/ro: Draft Drawing
+   MenuLocation: Drafting - Drawing
+   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
 ---
 
 # Draft Drawing/ro
@@ -52,4 +52,4 @@ This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Drawing/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Drawing/ro

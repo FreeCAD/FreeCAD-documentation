@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Revolve
-   Name/pl:Część: Obrót
-   MenuLocation:Część - Obrót ...
-   Workbenches:[Część](Part_Workbench/pl.md)
+   Name: Part Revolve
+   Name/pl: Część: Obrót
+   MenuLocation: Część - Obrót ...
+   Workbenches: [Część](Part_Workbench/pl.md)
 ---
 
 # Part Revolve/pl
@@ -40,4 +40,4 @@ Jeśli wybierzemy oś zdefiniowaną przez użytkownika, to liczby określają ki
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/pl

@@ -2,7 +2,7 @@
 ## Introduction
 
 
-{{TOCright}}
+
 
 Une [commande](Command/fr.md) est ce qui est en cours d'exécution lorsque vous appuyez sur un bouton de la barre d'outils ou tapez un raccourci clavier. Cela peut être une action très simple, comme changer le niveau de zoom de la [vue 3D](3D_view/fr.md) ou faire pivoter le point de vue, ou un système complexe qui ouvrira des boîtes de dialogue et attendra que l\'utilisateur exécute des tâches spécifiques.
 
@@ -96,4 +96,4 @@ Voir [Fonction - tracer une ligne](Line_drawing_function/fr.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Command_Reference|:Category:Command_Reference]]. Les commandes peuvent être lancées à l'aide d'un bouton de la barre d'outils, d'un élément de menu, d'un script ](Category_Command_Reference|:Category:Command_Reference]]. Les commandes peuvent être lancées à l'aide d'un bouton de la barre d'outils, d'un élément de menu, d'un script .md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/fr
+⏵ [documentation index](../README.md) > [Command_Reference|:Category:Command_Reference]]. Les commandes peuvent être lancées à l'aide d'un bouton de la barre d'outils, d'un élément de menu, d'un script ](Category_Command_Reference|:Category:Command_Reference]]. Les commandes peuvent être lancées à l'aide d'un bouton de la barre d'outils, d'un élément de menu, d'un script .md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/fr

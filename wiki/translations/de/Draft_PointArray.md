@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft PointArray
-   Name/de:Draft PunktAnordnung
-   MenuLocation:Änderung - Array tools -  Punkt-Anordnung
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Version:0.18
-   SeeAlso:[Draft RechtwinkligeAnordnung](Draft_OrthoArray/de.md), [Draft PolareAnordnung](Draft_PolarArray/de.md), [Draft KreisAnordnung](Draft_CircularArray/de.md), [Draft PfadAnordnung](Draft_PathArray/de.md), [Draft PfadVerknüpfungsanordnung](Draft_PathLinkArray/de.md), [Draft PunktVerknüpfungsanordnung](Draft_PointLinkArray/de.md)
+   Name: Draft PointArray
+   Name/de: Draft PunktAnordnung
+   MenuLocation: Änderung - Array tools -  Punkt-Anordnung
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Version: 0.18
+   SeeAlso: [Draft RechtwinkligeAnordnung](Draft_OrthoArray/de.md), [Draft PolareAnordnung](Draft_PolarArray/de.md), [Draft KreisAnordnung](Draft_CircularArray/de.md), [Draft PfadAnordnung](Draft_PathArray/de.md), [Draft PfadVerknüpfungsanordnung](Draft_PathLinkArray/de.md), [Draft PunktVerknüpfungsanordnung](Draft_PointLinkArray/de.md)
 ---
 
 # Draft PointArray/de
@@ -229,4 +229,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PointArray/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PointArray/de

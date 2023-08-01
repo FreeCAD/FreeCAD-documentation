@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Rocket LaunchGuide
-   MenuLocation:Rocket - Launch Guides
-   Workbenches:[Rocket Workbench](Rocket_Workbench.md)
-   Version:0.19
+   Name: Rocket LaunchGuide
+   MenuLocation: Rocket - Launch Guides
+   Workbenches: [Rocket Workbench](Rocket_Workbench.md)
+   Version: 0.19
 ---
 
 # Rocket CompLaunchGuide/pl
@@ -21,4 +21,4 @@ Tworzy prowadnicę startową używaną do zapewnienia prostego lotu, zanim rakie
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket CompLaunchGuide/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket CompLaunchGuide/pl

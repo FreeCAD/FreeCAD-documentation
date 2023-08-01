@@ -44,4 +44,4 @@ De nouveaux ateliers sont en développement alors tenez vous au jus!
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Category_Arch.md) > Reinforcement Addon/fr
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Category_Arch.md) > Reinforcement Addon/fr

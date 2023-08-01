@@ -1,6 +1,6 @@
 # Part Extrude/tr
 ---
-- GuiCommand:   Name:Part Extrude   Name/tr:Part Extrude   MenuLocation:Part -> Extrude   Workbenches:[[Part_Workbench/tr   Part]], Complete|SeeAlso:---
+- GuiCommand:   Name: Part Extrude   Name/tr: Part Extrude   MenuLocation: Part -> Extrude   Workbenches: [[Part_Workbench/tr   Part]], Complete|SeeAlso: ---
 
 
 </div>
@@ -130,4 +130,4 @@ The Extrude shape is defined by the following parameters, which can be edited af
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/tr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/tr

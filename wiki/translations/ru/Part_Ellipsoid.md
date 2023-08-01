@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Ellipsoid
-   Name/ru:Эллипсоид
-   MenuLocation:Деталь - [Создать примитивы...](Part_Primitives/ru.md) - Эллипсоид
-   Workbenches:[Part](Part_Workbench/ru.md),  [OpenSCAD](OpenSCAD_Workbench/ru.md)
-   SeeAlso:[Создать примитивы...](Part_Primitives/ru.md)
+   Name: Part Ellipsoid
+   Name/ru: Эллипсоид
+   MenuLocation: Деталь - [Создать примитивы...](Part_Primitives/ru.md) - Эллипсоид
+   Workbenches: [Part](Part_Workbench/ru.md),  [OpenSCAD](OpenSCAD_Workbench/ru.md)
+   SeeAlso: [Создать примитивы...](Part_Primitives/ru.md)
 ---
 
 # Part Ellipsoid/ru
@@ -121,4 +121,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipsoid/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipsoid/ru

@@ -111,4 +111,4 @@ Définissez le chemin de la commande LuxCore (cli), quelque chose comme *C:/Tool
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > LuxCoreRender/fr
+⏵ [documentation index](../README.md) > LuxCoreRender/fr

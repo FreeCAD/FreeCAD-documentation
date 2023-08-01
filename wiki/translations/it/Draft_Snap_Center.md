@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Center
-   Name/it:Centro
-   MenuLocation:Draft - [[Draft Snap/it   Ancoraggio]] - Centro|Shortcut:
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   SeeAlso:[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
+   Name: Draft Snap Center
+   Name/it: Centro
+   MenuLocation: Draft - [[Draft Snap/it   Ancoraggio]] - Centro|Shortcut: 
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   SeeAlso: [Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
 ---
 
 # Draft Snap Center/it
@@ -64,4 +64,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Center/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Center/it

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw ShowAll
-   MenuLocation:TechDraw - Add Lines - Show/Hide Invisible Edges
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.19
-   SeeAlso:[TechDraw DecorateLine](TechDraw_DecorateLine.md)
+   Name: TechDraw ShowAll
+   MenuLocation: TechDraw - Add Lines - Show/Hide Invisible Edges
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Version: 0.19
+   SeeAlso: [TechDraw DecorateLine](TechDraw_DecorateLine.md)
 ---
 
 # TechDraw ShowAll/en
@@ -48,4 +48,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ShowAll/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ShowAll/en

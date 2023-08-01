@@ -57,4 +57,4 @@ else:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro SelectVisible
+⏵ [documentation index](../README.md) > Macro SelectVisible

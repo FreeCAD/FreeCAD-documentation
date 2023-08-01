@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher MapSketch
-   Name/de:Sketcher SkizzeZuordnen
-   MenuLocation:Sketch (Sketcher)/Skizze (Part Design) - Skizze einer Fläche zuordnen...
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso:[Sketcher NeueSkizze](Sketcher_NewSketch/de.md)
+   Name: Sketcher MapSketch
+   Name/de: Sketcher SkizzeZuordnen
+   MenuLocation: Sketch (Sketcher)/Skizze (Part Design) - Skizze einer Fläche zuordnen...
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso: [Sketcher NeueSkizze](Sketcher_NewSketch/de.md)
 ---
 
 # Sketcher MapSketch/de
@@ -67,4 +67,4 @@ Nun wird die obere Fläche von Pad ausgewählt und das Werkzeug \"Skizze einer F
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/de

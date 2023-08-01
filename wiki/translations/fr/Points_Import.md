@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Icon:Points_Import.svg
-   Name:Points Import
-   Name/fr:Points Importer
-   MenuLocation:Points - Importer des points...
-   Workbenches:[Points](Points_Workbench/fr.md)
-   SeeAlso:[Points Exporter](Points_Export/fr.md)
+   Icon: Points_Import.svg
+   Name: Points Import
+   Name/fr: Points Importer
+   MenuLocation: Points - Importer des points...
+   Workbenches: [Points](Points_Workbench/fr.md)
+   SeeAlso: [Points Exporter](Points_Export/fr.md)
 ---
 
 # Points Import/fr
@@ -60,4 +60,4 @@ Pour tester, vous pouvez utiliser [ce fichier](https://raw.githubusercontent.com
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Import/fr
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Import/fr

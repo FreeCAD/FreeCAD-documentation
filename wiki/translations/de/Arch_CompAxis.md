@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch CompAxis
-   Name/de:Arch AuswahlAchsenwerkzeuge
-   MenuLocation:Arch - Achsenwerkzeuge
-   Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[Achse](Arch_Axis/de.md), [Achsensystem](Arch_AxisSystem/de.md), [Gitter](Arch_Grid/de.md)
+   Name: Arch CompAxis
+   Name/de: Arch AuswahlAchsenwerkzeuge
+   MenuLocation: Arch - Achsenwerkzeuge
+   Workbenches: [Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [Achse](Arch_Axis/de.md), [Achsensystem](Arch_AxisSystem/de.md), [Gitter](Arch_Grid/de.md)
 ---
 
 # Arch CompAxis/de
@@ -25,4 +25,4 @@ Achse erstellen.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompAxis/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompAxis/de

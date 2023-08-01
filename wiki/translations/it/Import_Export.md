@@ -153,4 +153,4 @@ Per maggiori informazioni consultare queste pagine:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export/it
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export/it

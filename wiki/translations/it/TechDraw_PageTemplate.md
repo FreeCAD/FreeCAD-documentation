@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw_PageTemplate
-   Name/it:Nuovo disegno da modello
-   MenuLocation:TechDraw - Nuovo disegno da modello
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Nuova pagina standard](TechDraw_PageDefault/it.md), [Modelli di squadrature](TechDraw_Templates/it.md)
+   Name: TechDraw_PageTemplate
+   Name/it: Nuovo disegno da modello
+   MenuLocation: TechDraw - Nuovo disegno da modello
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso: [Nuova pagina standard](TechDraw_PageDefault/it.md), [Modelli di squadrature](TechDraw_Templates/it.md)
 ---
 
 # TechDraw PageTemplate/it
@@ -148,4 +148,4 @@ page.Template.EditableTexts = texts
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageTemplate/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageTemplate/it

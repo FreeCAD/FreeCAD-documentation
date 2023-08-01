@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft PathArray
-   Name/pl:Rysunek Roboczy: Szyk po ścieżce
-   MenuLocation:Modyfikacja - Narzędzia szyku - Szyk po ścieżce
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Version:0.14
-   SeeAlso:[Szyk ortogonalny](Draft_OrthoArray/pl.md), [Szyk biegunowy](Draft_PolarArray/pl.md), [Szyk kołowy](Draft_CircularArray/pl.md), [Szyk powiązań po ścieżce](Draft_PathLinkArray/pl.md), [Szyk z punktów](Draft_PointArray/pl.md), [Szyk powiązań w punktach](Draft_PointLinkArray/pl.md)
+   Name: Draft PathArray
+   Name/pl: Rysunek Roboczy: Szyk po ścieżce
+   MenuLocation: Modyfikacja - Narzędzia szyku - Szyk po ścieżce
+   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Version: 0.14
+   SeeAlso: [Szyk ortogonalny](Draft_OrthoArray/pl.md), [Szyk biegunowy](Draft_PolarArray/pl.md), [Szyk kołowy](Draft_CircularArray/pl.md), [Szyk powiązań po ścieżce](Draft_PathLinkArray/pl.md), [Szyk z punktów](Draft_PointArray/pl.md), [Szyk powiązań w punktach](Draft_PointLinkArray/pl.md)
 ---
 
 # Draft PathArray/pl
@@ -269,4 +269,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathArray/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathArray/pl

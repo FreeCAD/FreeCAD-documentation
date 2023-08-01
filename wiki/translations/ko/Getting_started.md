@@ -8,7 +8,7 @@
 </div>
 
 
-{{TOCright}}
+
 
 
 
@@ -237,4 +237,4 @@ There are two types of addons:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Getting started/ko
+⏵ [documentation index](../README.md) > Getting started/ko

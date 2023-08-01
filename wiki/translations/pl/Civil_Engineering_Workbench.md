@@ -30,4 +30,4 @@ Narzędzia Zbrojeniowe są obecnie częścią środowiska pracy [Architektura](A
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > Civil Engineering Workbench/pl
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > Civil Engineering Workbench/pl

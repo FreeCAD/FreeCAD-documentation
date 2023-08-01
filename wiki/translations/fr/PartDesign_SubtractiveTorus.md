@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractiveTorus
-   Name/fr:PartDesign Tore soustractif
-   MenuLocation:Part Design - Créer une  primitive soustractive - Tore soustractif
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md), [PartDesign Tore additif](PartDesign_AdditiveTorus/fr.md)
+   Name: PartDesign SubtractiveTorus
+   Name/fr: PartDesign Tore soustractif
+   MenuLocation: Part Design - Créer une  primitive soustractive - Tore soustractif
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md), [PartDesign Tore additif](PartDesign_AdditiveTorus/fr.md)
 ---
 
 # PartDesign SubtractiveTorus/fr
@@ -61,4 +61,4 @@ Le Tore peut être éditée après sa création de deux façons :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveTorus/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveTorus/fr

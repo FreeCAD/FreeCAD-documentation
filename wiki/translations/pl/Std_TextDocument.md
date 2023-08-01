@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TextDocument
-   Name/pl:Std: Dodaj dokument tekstowy
-   MenuLocation:Przybory - Dodaj dokument tekstowy
-   Workbenches:wszystkie
-   Version:0.19
-   SeeAlso:[Kształt z tekstu](Draft_ShapeString/pl.md), [Adnotacja wieloliniowa](Draft_Text/pl.md)
+   Name: Std TextDocument
+   Name/pl: Std: Dodaj dokument tekstowy
+   MenuLocation: Przybory - Dodaj dokument tekstowy
+   Workbenches: wszystkie
+   Version: 0.19
+   SeeAlso: [Kształt z tekstu](Draft_ShapeString/pl.md), [Adnotacja wieloliniowa](Draft_Text/pl.md)
 ---
 
 # Std TextDocument/pl
@@ -82,4 +82,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TextDocument/pl
+⏵ [documentation index](../README.md) > Std TextDocument/pl

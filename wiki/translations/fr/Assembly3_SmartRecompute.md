@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 SmartRecompute
-   Name/fr:Assembly3 Recomputation intelligente
-   Icon:Assembly_SmartRecompute.svg‎‎
-   MenuLocation:Assembly3 - Smart recompute
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 SmartRecompute
+   Name/fr: Assembly3 Recomputation intelligente
+   Icon: Assembly_SmartRecompute.svg‎‎
+   MenuLocation: Assembly3 - Smart recompute
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 SmartRecompute/fr
@@ -22,4 +22,4 @@ La commande <img alt="" src=images/Assembly_SmartRecompute.svg  style="width:24p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 SmartRecompute/fr
+⏵ [documentation index](../README.md) > Assembly3 SmartRecompute/fr

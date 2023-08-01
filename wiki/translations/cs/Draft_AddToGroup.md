@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft AddToGroup
-   Name/cs:Kreslení Přidat do skupiny
-   MenuLocation:Draft -> Display option -> Add to group
-   Workbenches:[Kreslení](Draft_Workbench/cs.md), [Architektura](Arch_Workbench/cs.md)
-   Shortcut:
-   SeeAlso:[Draft SelectGroup](Draft_SelectGroup/cs.md), [Std Group](Std_Group/cs.md)
+   Name: Draft AddToGroup
+   Name/cs: Kreslení Přidat do skupiny
+   MenuLocation: Draft -> Display option -> Add to group
+   Workbenches: [Kreslení](Draft_Workbench/cs.md), [Architektura](Arch_Workbench/cs.md)
+   Shortcut: 
+   SeeAlso: [Draft SelectGroup](Draft_SelectGroup/cs.md), [Std Group](Std_Group/cs.md)
 ---
 
 # Draft AddToGroup/cs
@@ -52,4 +52,4 @@ In FreeCAD version 0.20 the command can also handle group-like [Arch](Arch_Workb
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddToGroup/cs
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddToGroup/cs

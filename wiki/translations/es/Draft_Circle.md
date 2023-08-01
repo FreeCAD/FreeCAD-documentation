@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Circle
-   Name/es:Draft Círculo
-   Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   MenuLocation:Boceto - Circunferencia
-   Shortcut:**C** **I**
-   Version:0.7
-   SeeAlso:[Arco](Draft_Arc/es.md)
+   Name: Draft Circle
+   Name/es: Draft Círculo
+   Workbenches: [Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   MenuLocation: Boceto - Circunferencia
+   Shortcut: **C** **I**
+   Version: 0.7
+   SeeAlso: [Arco](Draft_Arc/es.md)
 ---
 
 # Draft Circle/es
@@ -174,4 +174,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Circle/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Circle/es

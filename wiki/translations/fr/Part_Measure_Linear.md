@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Measure Linear
-   Name/fr:Part Mesure linéaire
-   MenuLocation:Mesure - Mesure linéaire
-   Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Std Mesurer une distance](Std_MeasureDistance/fr.md), [Draft Dimension](Draft_Dimension/fr.md)
+   Name: Part Measure Linear
+   Name/fr: Part Mesure linéaire
+   MenuLocation: Mesure - Mesure linéaire
+   Workbenches: [Part](Part_Workbench/fr.md)
+   SeeAlso: [Std Mesurer une distance](Std_MeasureDistance/fr.md), [Draft Dimension](Draft_Dimension/fr.md)
 ---
 
 # Part Measure Linear/fr
@@ -35,4 +35,4 @@ L\'apparence des mesures peut être modifiée dans le menu des [préférences](P
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Linear/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Linear/fr

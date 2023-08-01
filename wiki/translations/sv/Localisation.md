@@ -1,9 +1,4 @@
 # Localisation/sv
-{{TOCright}}
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 **Lokalisering** är i allmänhet den process som ger användargränssnittet i ett program flera språk. I FreeCAD så kan du ställa in användargränssnittets språk under *Redigera?Alternativ?Allmänt*. FreeCAD använder [http://sv.wikipedia.org/wiki/Qt Qt](http://sv.wikipedia.org/wiki/Qt_Qt.md) för att aktivera flerspråkssupport. På Unix/Linux system så använder FreeCAD som standard de gällande locale-inställningarna för systemet.
@@ -307,4 +302,4 @@ FreeCADGui.setLocale('ru')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Wiki](Category_Wiki.md) > Localisation/sv
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Wiki](Category_Wiki.md) > Localisation/sv

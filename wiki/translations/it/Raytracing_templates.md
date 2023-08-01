@@ -61,4 +61,4 @@ Note that in luxrender, the objects stored in a scene file can define transforma
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing templates/it
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing templates/it

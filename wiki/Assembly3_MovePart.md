@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 MovePart
-   Icon:Assembly_Move.svg
-   MenuLocation:Assembly3 - Move part
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
-   Shortcut:**A** then **M**
+   Name: Assembly3 MovePart
+   Icon: Assembly_Move.svg
+   MenuLocation: Assembly3 - Move part
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
+   Shortcut: **A** then **M**
 ---
 
 # Assembly3 MovePart
@@ -32,4 +32,4 @@ The handles move the part parallel to one of the basic planes of the selected ob
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 MovePart
+⏵ [documentation index](../README.md) > Assembly3 MovePart

@@ -71,4 +71,4 @@ These items are still on the infamous TODO list. They will be worked on as and i
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Roadmap
+⏵ [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Roadmap

@@ -1,6 +1,6 @@
 # FEM PostPipelineFromResult/it
 ---
-- GuiCommand:   Name:FEM PostPipelineFromResult   Name/it:Post Pipeline da risultato   MenuLocation: Risultati - Post Pipeline da risultato   |Workbenches:[Version:0.17   Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:   Name: FEM PostPipelineFromResult   Name/it: Post Pipeline da risultato   MenuLocation:  Risultati - Post Pipeline da risultato   |Workbenches: [Version: 0.17   Shortcut:    SeeAlso: [[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 
 </div>
@@ -94,4 +94,4 @@ In the [property editor](Property_editor.md) you can set in the *View* tab the s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostPipelineFromResult/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostPipelineFromResult/it

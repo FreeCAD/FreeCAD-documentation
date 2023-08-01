@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Ship Hydrostatics
-   Name/fr:Ship Hydrostatiques
-   MenuLocation:Ship design - Hydrostatics
-   Workbenches:[Ship](Ship_Workbench/fr.md)
-   Shortcut:
-   SeeAlso:
+   Name: Ship Hydrostatics
+   Name/fr: Ship Hydrostatiques
+   MenuLocation: Ship design - Hydrostatics
+   Workbenches: [Ship](Ship_Workbench/fr.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Ship Hydrostatics/fr
@@ -91,4 +91,4 @@ Appuyez sur le bouton **Accept** lorsque vous êtes prêt, afin que le module ba
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Hydrostatics/fr
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Hydrostatics/fr

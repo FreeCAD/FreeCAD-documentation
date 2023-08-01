@@ -2,7 +2,7 @@
 ## Introduction
 
 
-{{TOCright}}
+
 
 All objects in the program have an [object name](Object_name.md) that uniquely identifies them in a given document.
 
@@ -123,4 +123,4 @@ Given that the `Label` is in general not unique, the `getObjectsByLabel` method 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Object name/pl
+⏵ [documentation index](../README.md) > Object name/pl

@@ -1,6 +1,6 @@
 # PartDesign AdditiveSphere/ro
 ---
-- GuiCommand:   Name:PartDesign AdditiveSphere   Workbenches:[MenuLocation:Part Design - Create an additive primitive - Additive Sphere   Shortcut:None   SeeAlso:[[PartDesign CompPrimitiveAdditive](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign AdditiveSphere   Workbenches: [MenuLocation: Part Design - Create an additive primitive - Additive Sphere   Shortcut: None   SeeAlso: [[PartDesign CompPrimitiveAdditive](PartDesign_Workbench___PartDesign]].md)---
 
 
 </div>
@@ -74,4 +74,4 @@ Sfera poate fi editată după crearea sa pe două căi:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveSphere/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveSphere/ro

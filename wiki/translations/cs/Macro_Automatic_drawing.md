@@ -127,4 +127,4 @@ Diskuse na fóru [Automatic drawing](https://forum.freecadweb.org/viewtopic.php?
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Automatic drawing/cs
+⏵ [documentation index](../README.md) > Macro Automatic drawing/cs

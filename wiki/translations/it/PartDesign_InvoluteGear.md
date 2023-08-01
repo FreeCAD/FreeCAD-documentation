@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign InvoluteGear
-   Name/it:DisegnoPezzo IngranaggioEvolvente
-   MenuLocation:DisegnoPezzo - Ingranaggio Evolvente...
-   Workbenches:[DisegnoPezzo](PartDesign_Workbench/it.md)
+   Name: PartDesign InvoluteGear
+   Name/it: DisegnoPezzo IngranaggioEvolvente
+   MenuLocation: DisegnoPezzo - Ingranaggio Evolvente...
+   Workbenches: [DisegnoPezzo](PartDesign_Workbench/it.md)
 ---
 
 # PartDesign InvoluteGear/it
@@ -223,4 +223,4 @@ Video: [How to make gears in FreeCAD](https://www.youtube.com/watch?v=8VNhTrnFMf
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/it

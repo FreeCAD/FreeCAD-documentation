@@ -1,6 +1,4 @@
 # App Link/it
-{{TOCright}}
-
 ## Introduzione
 
 <img alt="" src=images/Link.svg  style="width:32px;">
@@ -29,4 +27,4 @@ Vedere [Crea link](Std_LinkMake/it#Proprietà.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > App Link/it
+⏵ [documentation index](../README.md) > App Link/it

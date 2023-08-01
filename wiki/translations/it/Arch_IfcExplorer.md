@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch IfcExplorer
-   Name/it:Esplora Ifc
-   Icon:IFC.svg
-   Workbenches:[Arch](Arch_Workbench/it.md)
-   MenuLocation:Arch - Utilità - Esplora Ifc
-   SeeAlso:[Arch IFC](Arch_IFC/it.md)
+   Name: Arch IfcExplorer
+   Name/it: Esplora Ifc
+   Icon: IFC.svg
+   Workbenches: [Arch](Arch_Workbench/it.md)
+   MenuLocation: Arch - Utilità - Esplora Ifc
+   SeeAlso: [Arch IFC](Arch_IFC/it.md)
 ---
 
 # Arch IfcExplorer/it
@@ -52,4 +52,4 @@ Lo scopo di questo explorer è semplicemente quello di permettere di controllare
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/it
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/it

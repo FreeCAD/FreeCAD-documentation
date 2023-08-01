@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch ToggleSubs
-   Name/fr:Arch Bascule des sous composants
-   MenuLocation:Arch - Utilitaires - Activer/désactiver sous composants
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   Shortcut:‏‎Ctrl + Espace
-   SeeAlso:[Arch Composants](Arch_Component/fr.md)
+   Name: Arch ToggleSubs
+   Name/fr: Arch Bascule des sous composants
+   MenuLocation: Arch - Utilitaires - Activer/désactiver sous composants
+   Workbenches: [Arch](Arch_Workbench/fr.md)
+   Shortcut: ‏‎Ctrl + Espace
+   SeeAlso: [Arch Composants](Arch_Component/fr.md)
 ---
 
 # Arch ToggleSubs/fr
@@ -33,4 +33,4 @@ Le style de [Draft Basculer en mode construction](Draft_ToggleConstructionMode/f
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/fr

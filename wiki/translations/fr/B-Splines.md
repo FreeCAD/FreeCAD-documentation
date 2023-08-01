@@ -1,6 +1,4 @@
 # B-Splines/fr
-{{TOCright}}
-
 Cette page décrit comment utiliser les B-splines dans FreeCAD. Elle donne également des informations de base sur ce que sont les B-splines et pour quelles applications elles sont utiles.
 
 
@@ -327,4 +325,4 @@ Nous avons donc également des zones dans lesquelles l\'intensité de la lumièr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > B-Splines/fr
+⏵ [documentation index](../README.md) > B-Splines/fr

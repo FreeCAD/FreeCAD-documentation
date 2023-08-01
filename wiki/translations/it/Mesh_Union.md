@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh_Union‏‎
-   Name/it:Unione
-   MenuLocation:Mesh - Operazione booleana - Unione
-   Workbenches:[Mesh](Mesh_Workbench/it.md)
-   SeeAlso:[Unisci](Mesh_Merge/it.md)
+   Name: Mesh_Union‏‎
+   Name/it: Unione
+   MenuLocation: Mesh - Operazione booleana - Unione
+   Workbenches: [Mesh](Mesh_Workbench/it.md)
+   SeeAlso: [Unisci](Mesh_Merge/it.md)
 ---
 
 # Mesh Union/it
@@ -40,4 +40,4 @@ Vedere [Mesh Feature](Mesh_Feature/it.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Union/it
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Union/it

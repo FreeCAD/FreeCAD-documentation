@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw VerticalExtentDimension
-   Name/fr:TechDraw Cote étendue verticale
-   MenuLocation:TechDraw - Dimensions - Insérer une cote étendue verticale
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md), [TechDraw Cote étendue horizontale](TechDraw_HorizontalExtentDimension/fr.md)
+   Name: TechDraw VerticalExtentDimension
+   Name/fr: TechDraw Cote étendue verticale
+   MenuLocation: TechDraw - Dimensions - Insérer une cote étendue verticale
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   SeeAlso: [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md), [TechDraw Cote étendue horizontale](TechDraw_HorizontalExtentDimension/fr.md)
 ---
 
 # TechDraw VerticalExtentDimension/fr
@@ -66,4 +66,4 @@ rc = page.addView(hExtentDim)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw VerticalExtentDimension/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw VerticalExtentDimension/fr

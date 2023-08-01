@@ -1,8 +1,4 @@
 # Debugging/fr
-{{TOCright}}
-
-
-
 ## Premier test 
 
 Avant de passer à la douloureuse phase de débogage, utilisez l\'[Atelier test](Testing/fr.md) pour vérifier si les tests standards fonctionnent correctement. Si ce n\'est pas le cas, c\'est peut-être dû a une installation défectueuse.
@@ -438,4 +434,4 @@ Pour les développeurs qui ont besoin d\'approfondir le noyau d\'OpenCasCade, l\
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Debugging/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Debugging/fr

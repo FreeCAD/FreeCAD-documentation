@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw 2PointCosmeticLine
-   Name/fr:TechDraw Ligne cosmétique par 2 points
-   MenuLocation:TechDraw - Ajouter des lignes - Ajouter une ligne cosmétique par 2 points
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[TechDraw Ligne centrale à une face](TechDraw_FaceCenterLine/fr.md), [TechDraw Ligne centrale entre 2 lignes](TechDraw_2LineCenterLine/fr.md)
+   Name: TechDraw 2PointCosmeticLine
+   Name/fr: TechDraw Ligne cosmétique par 2 points
+   MenuLocation: TechDraw - Ajouter des lignes - Ajouter une ligne cosmétique par 2 points
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Version: 0.19
+   SeeAlso: [TechDraw Ligne centrale à une face](TechDraw_FaceCenterLine/fr.md), [TechDraw Ligne centrale entre 2 lignes](TechDraw_2LineCenterLine/fr.md)
 ---
 
 # TechDraw 2PointCosmeticLine/fr
@@ -115,4 +115,4 @@ Les lignes cosmétiques peuvent être créées à l\'aide des méthodes makeCosm
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2PointCosmeticLine/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2PointCosmeticLine/fr

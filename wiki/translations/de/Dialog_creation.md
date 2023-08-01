@@ -1,6 +1,4 @@
 # Dialog creation/de
-{{TOCright}}
-
 ## Einführung
 
 Auf dieser Seite werden wir zeigen, wie man mit [Qt Designer](http://qt-project.org/doc/qt-4.8/designer-manual.html), Qt\'s offiziellem Werkzeug für die Gestaltung von Oberflächen, eine einfache grafische Oberfläche erstellt; der Dialog wird in [Python](Python/de.md) Code umgewandelt und dann innerhalb von FreeCAD verwendet. Wir gehen davon aus, dass der Benutzer weiß, wie man [Python](Python/de.md) allgemein bearbeitet und ausführt.
@@ -257,4 +255,4 @@ class plane():
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Dialog creation/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Dialog creation/de

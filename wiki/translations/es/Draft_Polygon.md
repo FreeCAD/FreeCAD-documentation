@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Polygon
-   Name/es:Draft Polygon
-   MenuLocation:Croquis - Polígono
-   Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   Shortcut:**P** **G**
+   Name: Draft Polygon
+   Name/es: Draft Polygon
+   MenuLocation: Croquis - Polígono
+   Workbenches: [Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut: **P** **G**
 ---
 
 # Draft Polygon/es
@@ -194,4 +194,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Polygon/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Polygon/es

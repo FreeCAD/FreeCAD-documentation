@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintEqualAngle
-   Icon:Assembly_ConstraintEqualAngle.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintEqualAngle
+   Icon: Assembly_ConstraintEqualAngle.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintEqualAngle/en
@@ -27,4 +27,4 @@ The line directions as well as the face normals are represented by each ICS\'s z
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintEqualAngle/en
+⏵ [documentation index](../README.md) > Assembly3 ConstraintEqualAngle/en

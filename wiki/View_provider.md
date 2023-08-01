@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > View provider
+⏵ [documentation index](../README.md) > View provider

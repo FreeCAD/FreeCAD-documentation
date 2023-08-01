@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionDecreaseDecimal
-   Name/fr:TechDraw Moins de décimales
-   MenuLocation:TechDraw - Extensions : cotes - Moins de décimales
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw Plus de décimales](TechDraw_ExtensionIncreaseDecimal/fr.md)
+   Name: TechDraw ExtensionDecreaseDecimal
+   Name/fr: TechDraw Moins de décimales
+   MenuLocation: TechDraw - Extensions : cotes - Moins de décimales
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw Plus de décimales](TechDraw_ExtensionIncreaseDecimal/fr.md)
 ---
 
 # TechDraw ExtensionDecreaseDecimal/fr
@@ -42,4 +42,4 @@ L\'outil **TechDraw Moins de décimales** diminue le nombre de décimales du tex
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDecreaseDecimal/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDecreaseDecimal/fr

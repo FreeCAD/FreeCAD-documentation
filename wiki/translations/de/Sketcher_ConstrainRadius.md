@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainRadius
-   Name/de:Sketcher RadiusFestlegen
-   MenuLocation:Sketch - Skizzen-Beschränkungen - Radius oder Gewicht festlegen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**K** **R**
-   SeeAlso:[Sketcher AbstandFestlegen](Sketcher_ConstrainDistance/de.md), [Sketcher XAbstandFestlegen](Sketcher_ConstrainDistanceX/de.md), [Sketcher YAbstandFestlegen](Sketcher_ConstrainDistanceY/de.md)
+   Name: Sketcher ConstrainRadius
+   Name/de: Sketcher RadiusFestlegen
+   MenuLocation: Sketch - Skizzen-Beschränkungen - Radius oder Gewicht festlegen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **K** **R**
+   SeeAlso: [Sketcher AbstandFestlegen](Sketcher_ConstrainDistance/de.md), [Sketcher XAbstandFestlegen](Sketcher_ConstrainDistanceX/de.md), [Sketcher YAbstandFestlegen](Sketcher_ConstrainDistanceY/de.md)
 ---
 
 # Sketcher ConstrainRadius/de
@@ -60,4 +60,4 @@ Die Seite [Sketcher Skripten](Sketcher_scripting.md) erklärt die Werte, die fü
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadius/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadius/de

@@ -1,6 +1,6 @@
 # Raytracing ResetCamera/ro
 ---
-- GuiCommand:   Name:Raytracing ResetCamera   MenuLocation:Raytracing - ResetCamera   |Workbenches:[[Raytracing_Workbench   Raytracing]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Raytracing ResetCamera   MenuLocation: Raytracing - ResetCamera   |Workbenches: [[Raytracing_Workbench   Raytracing]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -61,4 +61,4 @@ Setează camera pentru proiectul selectat de raytracing pentru a se potrivi cu v
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing ResetCamera/ro
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing ResetCamera/ro

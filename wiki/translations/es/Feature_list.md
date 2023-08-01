@@ -2,7 +2,7 @@
 Esta es una lista extensa, pero no completa, de las características que FreeCAD implementa.
 
 
-{{TOCright}}
+
 
 
 
@@ -96,4 +96,4 @@ Usuarios talentosos han creado varios [Ambiente de trabajo externos](external_wo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/es
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/es

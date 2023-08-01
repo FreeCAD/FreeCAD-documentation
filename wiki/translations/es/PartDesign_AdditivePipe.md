@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditivePipe
-   Name/es:DiseñoPiezas AdditivoTubo
-   Workbenches:[DiseñoPiezas](PartDesign_Workbench/es.md)
-   MenuLocation:DiseñoPiezas - Additivo Tubo
-   Version:0.17
-   SeeAlso:[DiseñoPiezas Additivo Loft](PartDesign_AdditiveLoft/es.md), [DiseñoPiezas Tubo sustractivo](PartDesign_SubtractivePipe/es.md)
+   Name: PartDesign AdditivePipe
+   Name/es: DiseñoPiezas AdditivoTubo
+   Workbenches: [DiseñoPiezas](PartDesign_Workbench/es.md)
+   MenuLocation: DiseñoPiezas - Additivo Tubo
+   Version: 0.17
+   SeeAlso: [DiseñoPiezas Additivo Loft](PartDesign_AdditiveLoft/es.md), [DiseñoPiezas Tubo sustractivo](PartDesign_SubtractivePipe/es.md)
 ---
 
 # PartDesign AdditivePipe/es
@@ -126,4 +126,4 @@ To use more than one cross-section, start with the first cross-section sketch as
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePipe/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePipe/es

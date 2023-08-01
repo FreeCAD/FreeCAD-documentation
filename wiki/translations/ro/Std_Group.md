@@ -1,6 +1,6 @@
 # Std Group/ro
 ---
-- GuiCommand:   Name:Std Group   MenuLocation:Tree View - Right click on the document name   |Workbenches:All   Shortcut:   SeeAlso:[Draft SelectGroup](Draft_SelectGroup.md), [Draft AddToGroup](Draft_AddToGroup.md)---
+- GuiCommand:   Name: Std Group   MenuLocation: Tree View - Right click on the document name   |Workbenches: All   Shortcut:    SeeAlso: [Draft SelectGroup](Draft_SelectGroup.md), [Draft AddToGroup](Draft_AddToGroup.md)---
 
 
 </div>
@@ -139,4 +139,4 @@ For example, a [FEM Analysis](FEM_Analysis.md) is an `App::DocumentObjectGroupPy
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Group/ro
+⏵ [documentation index](../README.md) > Std Group/ro

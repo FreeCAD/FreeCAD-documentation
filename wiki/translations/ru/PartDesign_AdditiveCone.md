@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Аддитивный конус
-   Name:PartDesign_AdditiveCone
-   MenuLocation:Part Design - Создать аддитивный примитив - Аддитивный Конус
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Создать аддитивный примитив](PartDesign_CompPrimitiveAdditive/ru.md), [Субтрактивный конус](PartDesign_SubtractiveCone/ru.md)
+   Name/ru: Аддитивный конус
+   Name: PartDesign_AdditiveCone
+   MenuLocation: Part Design - Создать аддитивный примитив - Аддитивный Конус
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Создать аддитивный примитив](PartDesign_CompPrimitiveAdditive/ru.md), [Субтрактивный конус](PartDesign_SubtractiveCone/ru.md)
 ---
 
 # PartDesign AdditiveCone/ru
@@ -55,4 +55,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCone/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCone/ru

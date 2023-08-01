@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std About
-   Name/fr:Std À propos
-   Workbenches:Tous
-   MenuLocation:Aide - À propos de FreeCAD
+   Name: Std About
+   Name/fr: Std À propos
+   Workbenches: Tous
+   MenuLocation: Aide - À propos de FreeCAD
 ---
 
 # Std About/fr
@@ -85,4 +85,4 @@ L\'onglet Bibliothèques affiche une liste des bibliothèques externes utilisée
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/fr
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/fr

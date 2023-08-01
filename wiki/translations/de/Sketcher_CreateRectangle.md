@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateRectangle
-   Name/de:Sketcher RechteckErstellen
-   MenuLocation:Sketch - Skizzengeometrien - Rechteck erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **R**
-   SeeAlso:[Sketcher Abgerundetes Rechteck erstellen](Sketcher_CreateOblong/de.md), [Sketcher LinienzugErstellen](Sketcher_CreatePolyline/de.md)
+   Name: Sketcher CreateRectangle
+   Name/de: Sketcher RechteckErstellen
+   MenuLocation: Sketch - Skizzengeometrien - Rechteck erstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **R**
+   SeeAlso: [Sketcher Abgerundetes Rechteck erstellen](Sketcher_CreateOblong/de.md), [Sketcher LinienzugErstellen](Sketcher_CreatePolyline/de.md)
 ---
 
 # Sketcher CreateRectangle/de
@@ -36,4 +36,4 @@ Um ein Rechteck über einen Mittelpunkt und einen Kantenpunkt zu definieren, ver
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle/de

@@ -1,6 +1,4 @@
 # Interface/ru
-{{TOCright}}
-
 ## Введение
 
 The FreeCAD [interface](interface.md) is based on Qt, a well known graphical user interface (GUI) toolkit, particularly used in Linux, but also available in Windows and MacOS.
@@ -85,4 +83,4 @@ Toolbars can have more or fewer buttons, and custom toolbars can be created with
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Interface/ru
+⏵ [documentation index](../README.md) > Interface/ru

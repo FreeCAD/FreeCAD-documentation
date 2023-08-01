@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Std StoreWorkingView
-   Name/it:Memorizza vista di lavoro
-   MenuLocation:Visualizza- Viste standard - Memorizza vista di lavoro
-   Workbenches:Tutte
-   Shortcut:**Shift**+**End**
-   Version:0.21
-   SeeAlso:[Richiama vista di lavoro](Std_RecallWorkingView/it.md), [Viste bloccate](Std_FreezeViews/it.md)
+   Name: Std StoreWorkingView
+   Name/it: Memorizza vista di lavoro
+   MenuLocation: Visualizza- Viste standard - Memorizza vista di lavoro
+   Workbenches: Tutte
+   Shortcut: **Shift**+**End**
+   Version: 0.21
+   SeeAlso: [Richiama vista di lavoro](Std_RecallWorkingView/it.md), [Viste bloccate](Std_FreezeViews/it.md)
 ---
 
 # Std StoreWorkingView/it
@@ -57,4 +57,4 @@ FreeCADGui.runCommand("Std_StoreWorkingView", 0)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std StoreWorkingView/it
+⏵ [documentation index](../README.md) > Std StoreWorkingView/it

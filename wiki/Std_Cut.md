@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std Cut
-   MenuLocation:Edit - Cut
-   Workbenches:All
-   SeeAlso:[Std Copy](Std_Copy.md), [Std Paste](Std_Paste.md), [Std DuplicateSelection](Std_DuplicateSelection.md)
+   Name: Std Cut
+   MenuLocation: Edit - Cut
+   Workbenches: All
+   SeeAlso: [Std Copy](Std_Copy.md), [Std Paste](Std_Paste.md), [Std DuplicateSelection](Std_DuplicateSelection.md)
 ---
 
 # Std Cut
@@ -33,4 +33,4 @@ To cut other objects you can use the [Std Copy](Std_Copy.md) command followed by
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Cut
+⏵ [documentation index](../README.md) > Std Cut

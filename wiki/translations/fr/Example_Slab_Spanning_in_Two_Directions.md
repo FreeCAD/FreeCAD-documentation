@@ -333,4 +333,4 @@ Ici, nous modifions le nombre de barres d\'armature en parallèle et en transver
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Category_Arch.md) > Example Slab Spanning in Two Directions/fr
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Category_Arch.md) > Example Slab Spanning in Two Directions/fr

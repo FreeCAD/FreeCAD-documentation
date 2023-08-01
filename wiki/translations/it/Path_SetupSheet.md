@@ -1,8 +1,4 @@
 # Path SetupSheet/it
-{{TOCright}}
-
-
-
 ## Descrizione
 
 L\'utilizzo di una Tabella delle impostazioni (SetupSheet) consente all\'utente di personalizzare il modo in cui sono calcolati i vari valori delle proprietà per le operazioni. L\'utente ha sempre la possibilità di sovrascrivere i valori del SetupSheet con un valore esplicito o modificare il modo in cui vengono calcolati i valori di SetupSheet.
@@ -76,4 +72,4 @@ Other values in the SetupSheet can be referenced directly:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SetupSheet/it
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SetupSheet/it

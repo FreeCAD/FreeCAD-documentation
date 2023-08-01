@@ -1,7 +1,4 @@
 # FreeCAD and DWG Import/en
-{{TOCright}}
-
-
 {{Fake heading|sub=4|< Back to [[FreeCAD Howto Import Export]]}}
 
 ## Why is it hard to support DWG Files in FreeCAD? 
@@ -119,4 +116,4 @@ In development version as mentioned above you can switch from the proprietary OD
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Common Questions](Category_Common Questions.md) > [Draft](Category_Draft.md) > FreeCAD and DWG Import/en
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Common Questions](Category_Common Questions.md) > [Draft](Category_Draft.md) > FreeCAD and DWG Import/en

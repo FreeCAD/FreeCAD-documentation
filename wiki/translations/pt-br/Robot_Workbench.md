@@ -21,7 +21,7 @@ Você pode fazer as seguintes tarefas:
 Para começar, experimente o [tutorial Robot](Robot_tutorial/pt-br.md) e veja a interface de programação no arquivo de exemplo [RobotExample.py](https://github.com/FreeCAD/FreeCAD_sf_master/blob/master/src/Mod/Robot/RobotExample.py).
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Robot_Workbench_example.jpg  style="width:500px;">
 
@@ -77,4 +77,4 @@ Veja o exemplo [Robot API](Robot_API_example/pt-br.md) para obter uma descriçã
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Robot](Category_Robot.md) > Robot Workbench/pt-br
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Robot](Category_Robot.md) > Robot Workbench/pt-br

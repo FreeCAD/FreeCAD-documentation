@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Mesh Merge‏‎
-   Name/ru:Mesh Merge‏‎
-   MenuLocation:Сетки - Объединить
-   Workbenches:[Mesh](Mesh_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[Булево объединение сеток](Mesh_Union/ru.md)
+   Name: Mesh Merge‏‎
+   Name/ru: Mesh Merge‏‎
+   MenuLocation: Сетки - Объединить
+   Workbenches: [Mesh](Mesh_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: [Булево объединение сеток](Mesh_Union/ru.md)
 ---
 
 # Mesh Merge/ru
@@ -39,4 +39,4 @@ See: [Mesh Feature](Mesh_Feature.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Merge/ru
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Merge/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Point
-   MenuLocation:Part Design - Create a datum - Create a datum point
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   Version:0.17
-   SeeAlso:[PartDesign Line](PartDesign_Line.md), [PartDesign Plane](PartDesign_Plane.md)
+   Name: PartDesign Point
+   MenuLocation: Part Design - Create a datum - Create a datum point
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Line](PartDesign_Line.md), [PartDesign Plane](PartDesign_Plane.md)
 ---
 
 # PartDesign Point/en
@@ -53,4 +53,4 @@ Double-click the DatumPoint label in the Model tree or right-click and select **
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Point/en
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Point/en

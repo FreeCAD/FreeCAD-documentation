@@ -1,7 +1,7 @@
 # <img alt="Std Base icon" src=images/Freecad.svg  style="width:64px;"> Std Help Menu/de
 
 
-{{TOCright}}
+
 
 
 
@@ -68,4 +68,4 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Help Menu/de
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Help Menu/de

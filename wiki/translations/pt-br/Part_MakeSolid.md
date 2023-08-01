@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Part MakeSolid
-   MenuLocation:Part - Convert to solid
-   Workbenches:[Part](Part_Workbench.md)
+   Name: Part MakeSolid
+   MenuLocation: Part - Convert to solid
+   Workbenches: [Part](Part_Workbench.md)
 ---
 
 # Part MakeSolid/pt-br
@@ -25,4 +25,4 @@ This command creates a solid from a shape object.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/pt-br
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/pt-br

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std AxisCross
-   Name/de:Std Achsenkreuz
-   MenuLocation:Ansicht - Achsenkreuz ein-/ausblenden
-   Workbenches:Alle
-   Shortcut:**A** **C**
+   Name: Std AxisCross
+   Name/de: Std Achsenkreuz
+   MenuLocation: Ansicht - Achsenkreuz ein-/ausblenden
+   Workbenches: Alle
+   Shortcut: **A** **C**
 ---
 
 # Std AxisCross/de
@@ -71,4 +71,4 @@ FreeCADGui.ActiveDocument.ActiveView.hasAxisCross()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std AxisCross/de
+⏵ [documentation index](../README.md) > Std AxisCross/de

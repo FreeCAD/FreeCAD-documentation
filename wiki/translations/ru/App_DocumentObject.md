@@ -1,6 +1,4 @@
 # App DocumentObject/ru
-{{TOCright}}
-
 ## Введение
 
 <img alt="" src=images/Px.svg  style="width:32px;">
@@ -82,4 +80,4 @@ obj.Label = "Custom label"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > App DocumentObject/ru
+⏵ [documentation index](../README.md) > App DocumentObject/ru

@@ -1,6 +1,4 @@
 # Third Party Tools/ro
-{{TOCright}}
-
 ## Tool Page 
 
 
@@ -162,4 +160,4 @@ TODO
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Tools/ro
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Tools/ro

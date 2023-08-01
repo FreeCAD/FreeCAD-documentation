@@ -1,6 +1,6 @@
 # OpenSCAD AddOpenSCADElement/it
 ---
-- GuiCommand:   Name:OpenSCAD_AddOpenSCADElement   Name/it:Aggiungi Elemento OpenSCAD   Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|MenuLocation:OpenSCAD  - Aggiungi Elemento OpenSCAD---
+- GuiCommand:   Name: OpenSCAD_AddOpenSCADElement   Name/it: Aggiungi Elemento OpenSCAD   Workbenches: [[OpenSCAD_Workbench/it   OpenSCAD]]|MenuLocation: OpenSCAD  - Aggiungi Elemento OpenSCAD---
 
 
 </div>
@@ -113,4 +113,4 @@ A partire dalla versione 0.14, se l\'impostazione di cui sopra è vuota, FreeCAD
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD AddOpenSCADElement/it
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD AddOpenSCADElement/it

@@ -81,4 +81,4 @@ Remarquez que `InList` et `OutList` n\'ont *rien à voir* avec l\'arborescence d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > PropertyLink: InList and OutList/fr
+⏵ [documentation index](../README.md) > PropertyLink: InList and OutList/fr

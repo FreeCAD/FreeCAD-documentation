@@ -1,6 +1,6 @@
 # Arch CloseHoles/sv
 ---
-- GuiCommand:   Name:Arch CloseHoles   Name/sv:Arch CloseHoles   Workbenches:[MenuLocation:Arch - Utilities - Close Holes   SeeAlso:[[Arch Check/sv|Arch Check](Arch_Workbench/sv___Arch]].md)---
+- GuiCommand:   Name: Arch CloseHoles   Name/sv: Arch CloseHoles   Workbenches: [MenuLocation: Arch - Utilities - Close Holes   SeeAlso: [[Arch Check/sv|Arch Check](Arch_Workbench/sv___Arch]].md)---
 
 
 </div>
@@ -63,4 +63,4 @@ solid = Arch.closeHole(Wall.Shape)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/sv
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/sv

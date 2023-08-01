@@ -7,7 +7,7 @@
  Denna modul är tänkt att skicka innehållet i din scen till en extern [rendererare](http://sv.wikipedia.org/wiki/Rendering), för att generera fotorealistiska bilder på ditt arbete. Renderingsmodulen är fortfarande i ett mycket tidigt skede, så du har inte så många tillgängliga alternativ för tillfället. För närvarande finns endast ett grundläggande verktygsset för att exportera Del objekt som [POV-ray](http://sv.wikipedia.org/wiki/POV-Ray) filer. Dessa filer kan sedan laddas i POV-ray och renderas.
 
 
-{{TOCright}}
+
 
 The <img alt="" src=images/Workbench_Raytracing.svg  style="width:24px;"> [Raytracing Workbench](Raytracing_Workbench.md) is used to generate photorealistic images of your models by processing them with an external renderer.
 
@@ -152,4 +152,4 @@ These pages refer to the new workbench, programmed in Python, meant to replace t
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/sv
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/sv

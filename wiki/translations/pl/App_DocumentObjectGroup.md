@@ -35,4 +35,4 @@ See the properties in the [Std Group](Std_Group.md) page.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > App DocumentObjectGroup/pl
+⏵ [documentation index](../README.md) > App DocumentObjectGroup/pl

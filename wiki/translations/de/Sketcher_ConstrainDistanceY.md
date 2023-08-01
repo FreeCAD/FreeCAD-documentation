@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainDistanceY
-   Name/de:Sketcher YAbstandFestlegen
-   MenuLocation:Sketch - Skizzen-Beschränkungen - Vertikalen Abstand festlegen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**I**
-   SeeAlso:[Sketcher XAbstandFestlegen](Sketcher_ConstrainDistanceX/de.md), [Sketcher AbstandFestlegen](Sketcher_ConstrainDistance/de.md)
+   Name: Sketcher ConstrainDistanceY
+   Name/de: Sketcher YAbstandFestlegen
+   MenuLocation: Sketch - Skizzen-Beschränkungen - Vertikalen Abstand festlegen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **I**
+   SeeAlso: [Sketcher XAbstandFestlegen](Sketcher_ConstrainDistanceX/de.md), [Sketcher AbstandFestlegen](Sketcher_ConstrainDistance/de.md)
 ---
 
 # Sketcher ConstrainDistanceY/de
@@ -63,4 +63,4 @@ Die Seite [Skizzierer Skripten](Sketcher_scripting.md) erklärt die Werte, die f
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistanceY/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistanceY/de

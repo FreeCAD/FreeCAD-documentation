@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh_RemoveComponents
-   Name/de:Mesh KomponentenEntfernen
-   MenuLocation:Netze - Komponenten entfernen...
-   Workbenches:[Mesh](Mesh_Workbench/de.md)
-   SeeAlso:[Mesh KomponentenVonHandEntfernen](Mesh_RemoveCompByHand/de.md), [Arch NetzAufteilen](Arch_SplitMesh/de.md)
+   Name: Mesh_RemoveComponents
+   Name/de: Mesh KomponentenEntfernen
+   MenuLocation: Netze - Komponenten entfernen...
+   Workbenches: [Mesh](Mesh_Workbench/de.md)
+   SeeAlso: [Mesh KomponentenVonHandEntfernen](Mesh_RemoveCompByHand/de.md), [Arch NetzAufteilen](Arch_SplitMesh/de.md)
 ---
 
 # Mesh RemoveComponents/de
@@ -50,4 +50,4 @@ Der Befehl \"Mesh KomponentenEntfernen\" entfernt Flächen aus Netzobjekten.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveComponents/de
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveComponents/de

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionExtendLine
-   Name/fr:TechDraw Prolonger
-   MenuLocation:TechDraw - Extensions : attributs/modifications - Prolonger la ligne
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw Raccourcir](TechDraw_ExtensionShortenLine/fr.md)
+   Name: TechDraw ExtensionExtendLine
+   Name/fr: TechDraw Prolonger
+   MenuLocation: TechDraw - Extensions : attributs/modifications - Prolonger la ligne
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw Raccourcir](TechDraw_ExtensionShortenLine/fr.md)
 ---
 
 # TechDraw ExtensionExtendLine/fr
@@ -40,4 +40,4 @@ L\'outil **TechDraw Prolonger** prolonge une ligne cosmétique ou une ligne cent
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionExtendLine/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionExtendLine/fr

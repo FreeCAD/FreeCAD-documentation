@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh Segmentation
-   Name/fr:Mesh Segmentation
-   MenuLocation:Maillages - Segmenter le maillage...
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Segmentation adaptée](Mesh_SegmentationBestFit/fr.md)
+   Name: Mesh Segmentation
+   Name/fr: Mesh Segmentation
+   MenuLocation: Maillages - Segmenter le maillage...
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
+   SeeAlso: [Mesh Segmentation adaptée](Mesh_SegmentationBestFit/fr.md)
 ---
 
 # Mesh Segmentation/fr
@@ -63,4 +63,4 @@ La commande **Segmentation** crée des segments de maillage séparés pour des t
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Segmentation/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Segmentation/fr

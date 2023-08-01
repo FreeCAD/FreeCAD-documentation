@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Ellipse
-   Name/pl:Draft: Elipsa
-   MenuLocation:Kreślenie - Elipsa
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut:**E** **L**
-   Version:0.7
+   Name: Draft Ellipse
+   Name/pl: Draft: Elipsa
+   MenuLocation: Kreślenie - Elipsa
+   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut: **E** **L**
+   Version: 0.7
 ---
 
 # Draft Ellipse/pl
@@ -127,4 +127,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Ellipse/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Ellipse/pl

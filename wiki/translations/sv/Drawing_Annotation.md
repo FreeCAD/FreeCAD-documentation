@@ -1,6 +1,6 @@
 # Drawing Annotation/sv
 ---
-- GuiCommand:   Name:Drawing Annotation   Name/sv:Drawing Annotation   Workbenches:[[Drawing Workbench/sv   Drawing]], Complete|MenuLocation:Drawing - Annotation   Shortcut:none---
+- GuiCommand:   Name: Drawing Annotation   Name/sv: Drawing Annotation   Workbenches: [[Drawing Workbench/sv   Drawing]], Complete|MenuLocation: Drawing - Annotation   Shortcut: none---
 
 
 </div>
@@ -44,4 +44,4 @@ This command allows you to place a block of text on a [Drawing page](Drawing_Lan
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Annotation/sv
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Annotation/sv

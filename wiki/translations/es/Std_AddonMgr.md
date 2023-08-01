@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std AddonMgr
-   Name/es:Std GestorComplementos
-   MenuLocation:Herramientas - Gestor Complementos
-   Workbenches:Todo
-   Version:0.17
-   SeeAlso:[Ambientes de trabajo externos](External_workbenches/es.md), [Macros](Macros/es.md)
+   Name: Std AddonMgr
+   Name/es: Std GestorComplementos
+   MenuLocation: Herramientas - Gestor Complementos
+   Workbenches: Todo
+   Version: 0.17
+   SeeAlso: [Ambientes de trabajo externos](External_workbenches/es.md), [Macros](Macros/es.md)
 ---
 
 # Std AddonMgr/es
@@ -149,4 +149,4 @@ Then define the functions {{Incode|installation_succeeded}} and {{Incode|install
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std AddonMgr/es
+⏵ [documentation index](../README.md) > Std AddonMgr/es

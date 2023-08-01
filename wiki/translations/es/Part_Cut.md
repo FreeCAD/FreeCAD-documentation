@@ -1,6 +1,6 @@
 # Part Cut/es
 ---
-- GuiCommand:   Name:Part_Cut   Name/es:Part Cut   MenuLocation:Part - Cut   Workbenches:[SeeAlso:[[Part Union/es|Part Union](Part_Workbench/es___Part]].md), [Part Common](Part_Common/es.md)---
+- GuiCommand:   Name: Part_Cut   Name/es: Part Cut   MenuLocation: Part - Cut   Workbenches: [SeeAlso: [[Part Union/es|Part Union](Part_Workbench/es___Part]].md), [Part Common](Part_Common/es.md)---
 
 
 </div>
@@ -35,4 +35,4 @@ Input objects must be [OpenCASCADE](OpenCASCADE.md) shapes. For example objects 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/es
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/es

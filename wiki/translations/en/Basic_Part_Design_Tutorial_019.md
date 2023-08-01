@@ -383,4 +383,4 @@ Finally, select **Sketch** in the [Tree view](Tree_view.md) and on the Data tab 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Basic Part Design Tutorial 019/en
+⏵ [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Basic Part Design Tutorial 019/en

@@ -1,6 +1,6 @@
 # Raytracing InsertPart/it
 ---
-- GuiCommand:   Name:Raytracing InsertPart   Name/it:Inserisci parte   MenuLocation:Raytracing - Inserisci parte‏‎   |Workbenches:[[Raytracing_Workbench/it   Raytracing]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Raytracing InsertPart   Name/it: Inserisci parte   MenuLocation: Raytracing - Inserisci parte‏‎   |Workbenches: [[Raytracing_Workbench/it   Raytracing]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -65,4 +65,4 @@ Inserisce una vista di una parte in un progetto raytracing.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing InsertPart/it
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing InsertPart/it

@@ -1,6 +1,6 @@
 # Std Revert/ro
 ---
-- GuiCommand:   Name:Std Revert   Name/ro:Restabilire   MenuLocation:[[Std_File_Menu/ro   File]] - Restabilire|Workbenches:All   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Std Revert   Name/ro: Restabilire   MenuLocation: [[Std_File_Menu/ro   File]] - Restabilire|Workbenches: All   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -29,4 +29,4 @@ The **Std Revert** command closes the active document and reopens the last saved
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Revert/ro
+⏵ [documentation index](../README.md) > Std Revert/ro

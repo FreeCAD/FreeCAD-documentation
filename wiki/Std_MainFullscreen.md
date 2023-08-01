@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std MainFullscreen
-   MenuLocation:View - Fullscreen
-   Workbenches:All
-   Shortcut:**Alt**+**F11**
-   SeeAlso:[Std ViewFullscreen](Std_ViewFullscreen.md)
+   Name: Std MainFullscreen
+   MenuLocation: View - Fullscreen
+   Workbenches: All
+   Shortcut: **Alt**+**F11**
+   SeeAlso: [Std ViewFullscreen](Std_ViewFullscreen.md)
 ---
 
 # Std MainFullscreen
@@ -27,4 +27,4 @@ The **Std MainFullscreen** command toggles FreeCAD\'s main window fullscreen mod
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MainFullscreen
+⏵ [documentation index](../README.md) > Std MainFullscreen

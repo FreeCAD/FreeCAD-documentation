@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateSlot
-   Name/fr:Sketcher Contour oblong
-   MenuLocation:Esquisse - Géométries d'esquisse - Créer un contour oblong
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **S**
+   Name: Sketcher CreateSlot
+   Name/fr: Sketcher Contour oblong
+   MenuLocation: Esquisse - Géométries d'esquisse - Créer un contour oblong
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **S**
 ---
 
 # Sketcher CreateSlot/fr
@@ -42,4 +42,4 @@ Au démarrage de l\'outil, le pointeur de la souris se transforme en une croix b
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSlot/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSlot/fr

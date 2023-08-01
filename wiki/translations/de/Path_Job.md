@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path Job
-   Name/de:Path Auftrag
-   MenuLocation:Pfad - Auftrag
-   Workbenches:[Pfad](Path_Workbench/de.md)
-   Shortcut:**P** **J**
+   Name: Path Job
+   Name/de: Path Auftrag
+   MenuLocation: Pfad - Auftrag
+   Workbenches: [Pfad](Path_Workbench/de.md)
+   Shortcut: **P** **J**
 ---
 
 # Path Job/de
@@ -105,4 +105,4 @@ Wenn du eine Aufgabe hast, die mehr als eine Pfadoperation umfasst, kannst du fe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/de
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/de

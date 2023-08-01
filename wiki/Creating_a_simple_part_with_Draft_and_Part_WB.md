@@ -220,4 +220,4 @@ At last, FreeCAD is made by volunteers in their spare time. If you want to furth
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Creating a simple part with Draft and Part WB
+⏵ [documentation index](../README.md) > Creating a simple part with Draft and Part WB

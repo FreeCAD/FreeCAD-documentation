@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher Split
-   Name/es:Croquizador Dividir
-   MenuLocation:Croquis - Croquizador Geometrías - Dividir
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   Version:0.20
-   SeeAlso:[Croquizador Recortar](Sketcher_Trimming/es.md)
+   Name: Sketcher Split
+   Name/es: Croquizador Dividir
+   MenuLocation: Croquis - Croquizador Geometrías - Dividir
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   Version: 0.20
+   SeeAlso: [Croquizador Recortar](Sketcher_Trimming/es.md)
 ---
 
 # Sketcher Split/es
@@ -81,4 +81,4 @@ Esta herramienta permite dividir un borde en dos idénticas, mientras que la may
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Split/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Split/es

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintElectrostaticPotential
-   MenuLocation: Model - Electrostatic Constraints - Constraint Electrostatic Potential
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM capacitance example](FEM_Example_Capacitance_Two_Balls.md), [FEM tutorial](FEM_tutorial.md)
+   Name: FEM ConstraintElectrostaticPotential
+   MenuLocation:  Model - Electrostatic Constraints - Constraint Electrostatic Potential
+   Workbenches: [FEM](FEM_Workbench.md)
+   SeeAlso: [FEM capacitance example](FEM_Example_Capacitance_Two_Balls.md), [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM ConstraintElectrostaticPotential/pt-br
@@ -58,4 +58,4 @@ The dialog offers the following settings:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintElectrostaticPotential/pt-br
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintElectrostaticPotential/pt-br

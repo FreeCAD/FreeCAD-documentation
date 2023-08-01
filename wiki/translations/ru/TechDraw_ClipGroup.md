@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Создать группу Видов
-   Name:TechDraw_ClipGroup
-   MenuLocation:TechDraw - Создать группу Видов
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Добавить Вид в группу](TechDraw_ClipGroupAdd/ru.md), [Удалить Вид из группы](TechDraw_ClipGroupRemove/ru.md)
+   Name/ru: Создать группу Видов
+   Name: TechDraw_ClipGroup
+   MenuLocation: TechDraw - Создать группу Видов
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso: [Добавить Вид в группу](TechDraw_ClipGroupAdd/ru.md), [Удалить Вид из группы](TechDraw_ClipGroupRemove/ru.md)
 ---
 
 # TechDraw ClipGroup/ru
@@ -70,4 +70,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroup/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroup/ru

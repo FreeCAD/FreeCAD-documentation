@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh_PolyTrim
-   Name/it:Rifila con un poligono
-   MenuLocation:Mesh - Taglio - Rifila con un poligono
-   Workbenches:[Mesh](Mesh_Workbench/it.md)
-   SeeAlso:[Taglia la mesh](Mesh_PolyCut/it.md), [Rifila con un piano](Mesh_TrimByPlane/it.md)
+   Name: Mesh_PolyTrim
+   Name/it: Rifila con un poligono
+   MenuLocation: Mesh - Taglio - Rifila con un poligono
+   Workbenches: [Mesh](Mesh_Workbench/it.md)
+   SeeAlso: [Taglia la mesh](Mesh_PolyCut/it.md), [Rifila con un piano](Mesh_TrimByPlane/it.md)
 ---
 
 # Mesh PolyTrim/it
@@ -90,4 +90,4 @@ msh.Mesh = new_msh
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyTrim/it
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyTrim/it

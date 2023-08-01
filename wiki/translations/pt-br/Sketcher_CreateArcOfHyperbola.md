@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateArcOfHyperbola
-   MenuLocation:Sketch - Sketcher geometries - Create arc of hyperbola
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**G** **H**
-   Version:0.17
-   SeeAlso:[Sketcher Arc of Ellipse](Sketcher_CreateArcOfEllipse.md), [Sketcher Arc of Parabola](Sketcher_CreateArcOfParabola.md)
+   Name: Sketcher CreateArcOfHyperbola
+   MenuLocation: Sketch - Sketcher geometries - Create arc of hyperbola
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **G** **H**
+   Version: 0.17
+   SeeAlso: [Sketcher Arc of Ellipse](Sketcher_CreateArcOfEllipse.md), [Sketcher Arc of Parabola](Sketcher_CreateArcOfParabola.md)
 ---
 
 # Sketcher CreateArcOfHyperbola/pt-br
@@ -35,4 +35,4 @@ This tool creates an arc of hyperbola by center, major radius and endpoints.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfHyperbola/pt-br
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfHyperbola/pt-br

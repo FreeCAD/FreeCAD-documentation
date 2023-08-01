@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreeSyncSelection
-   Name/ru:Std TreeSyncSelection
-   MenuLocation:Вид - Дерево документа - Sync selection
-   Workbenches:All
-   Shortcut:**T** **2**
-   Version:0.19
+   Name: Std TreeSyncSelection
+   Name/ru: Std TreeSyncSelection
+   MenuLocation: Вид - Дерево документа - Sync selection
+   Workbenches: All
+   Shortcut: **T** **2**
+   Version: 0.19
 ---
 
 # Std TreeSyncSelection/ru
@@ -36,4 +36,4 @@ The Tree view SyncSelection mode can also be set in the [Preferences editor](Pre
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSyncSelection/ru
+⏵ [documentation index](../README.md) > Std TreeSyncSelection/ru

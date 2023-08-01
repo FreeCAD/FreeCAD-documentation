@@ -1,7 +1,7 @@
 # <img alt="Icône de l\'Atelier PartDesign" src=images/Workbench_PartDesign.svg  style="width:64px;"> PartDesign Workbench/fr
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -240,4 +240,4 @@ Pour avoir une idée de ce qui peut être réalisé avec les outils de Part Desi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/fr
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/fr

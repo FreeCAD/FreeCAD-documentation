@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Lock
-   Name/it:Attiva/Disattiva
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   MenuLocation:Draft - [Aggancio](Draft_Snap/it.md) - Attiva/Disattiva
-   SeeAlso:[Agganciare](Draft_Snap/it.md), [Mostra/Nacondi la griglia](Draft_ToggleGrid/it.md)
+   Name: Draft Snap Lock
+   Name/it: Attiva/Disattiva
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Draft - [Aggancio](Draft_Snap/it.md) - Attiva/Disattiva
+   SeeAlso: [Agganciare](Draft_Snap/it.md), [Mostra/Nacondi la griglia](Draft_ToggleGrid/it.md)
 ---
 
 # Draft Snap Lock/it
@@ -54,4 +54,4 @@ Attiva o disattiva la funzione di [aggancio](Draft_Snap/it.md) (snap) agli ogget
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/it

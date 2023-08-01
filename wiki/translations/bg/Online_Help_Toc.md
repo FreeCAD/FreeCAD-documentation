@@ -139,4 +139,4 @@ There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/bg
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/bg

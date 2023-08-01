@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Вставить точку в траекторию
-   Name:Robot_InsertWaypoint
-   MenuLocation:Робот - Вставить в траекторию
-   Workbenches:[Robot](Robot_Workbench/ru.md)
-   Shortcut:**A**
-   SeeAlso:
+   Name/ru: Вставить точку в траекторию
+   Name: Robot_InsertWaypoint
+   MenuLocation: Робот - Вставить в траекторию
+   Workbenches: [Robot](Robot_Workbench/ru.md)
+   Shortcut: **A**
+   SeeAlso: 
 ---
 
 # Robot InsertWaypoint/ru
@@ -41,4 +41,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypoint/ru
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypoint/ru

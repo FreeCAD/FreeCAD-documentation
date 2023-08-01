@@ -1,6 +1,4 @@
 # Release texts 0.20
-{{TOCright}}
-
 ## Press release 
 
 **Aim**: shorter, less technical details, highlighting new features.
@@ -48,4 +46,4 @@ FreeCAD wouldn't be possible without its amazing community of developers, tester
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Release texts 0.20
+⏵ [documentation index](../README.md) > Release texts 0.20

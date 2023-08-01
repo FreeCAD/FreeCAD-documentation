@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Mesh BuildRegularSolid
-   MenuLocation:Meshes - Regular solid...
-   Workbenches:[Mesh](Mesh_Workbench.md)
+   Name: Mesh BuildRegularSolid
+   MenuLocation: Meshes - Regular solid...
+   Workbenches: [Mesh](Mesh_Workbench.md)
 ---
 
 # Mesh BuildRegularSolid
@@ -155,4 +155,4 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BuildRegularSolid
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BuildRegularSolid

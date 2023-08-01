@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectOrigin
-   Name/pl:Szkicownik: Wybierz odniesienie położenia
-   MenuLocation:Szkic - Narzędzia szkicownika - Wybierz odniesienie położenia
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**Z** **O**
-   Version:0.15
+   Name: Sketcher SelectOrigin
+   Name/pl: Szkicownik: Wybierz odniesienie położenia
+   MenuLocation: Szkic - Narzędzia szkicownika - Wybierz odniesienie położenia
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **Z** **O**
+   Version: 0.15
 ---
 
 # Sketcher SelectOrigin/pl
@@ -35,4 +35,4 @@ Zaznacza punkt początkowy szkicu *(odniesienie położenia)*.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectOrigin/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectOrigin/pl

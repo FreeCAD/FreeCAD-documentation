@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Trimex
-   Name/fr:Draft Ajuster ou prolonger
-   MenuLocation:Modification - Ajuster ou Prolonger
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:**T** **R**
-   SeeAlso:[Part Extrusion](Part_Extrude/fr.md)
+   Name: Draft Trimex
+   Name/fr: Draft Ajuster ou prolonger
+   MenuLocation: Modification - Ajuster ou Prolonger
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut: **T** **R**
+   SeeAlso: [Part Extrusion](Part_Extrude/fr.md)
 ---
 
 # Draft Trimex/fr
@@ -135,4 +135,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Trimex/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Trimex/fr

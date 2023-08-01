@@ -1,6 +1,6 @@
 # Sketcher ViewSketch/es
 ---
-- GuiCommand:   Name:Sketcher ViewSketch   Workbenches:[PartDesign](Sketcher_Workbench/es___Sketcher]],_[[PartDesign_Workbench/es.md)|MenuLocation:Sketch - View sketch---
+- GuiCommand:   Name: Sketcher ViewSketch   Workbenches: [PartDesign](Sketcher_Workbench/es___Sketcher]],_[[PartDesign_Workbench/es.md)|MenuLocation: Sketch - View sketch---
 
 
 </div>
@@ -27,4 +27,4 @@ While in sketch edit mode, either
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/es

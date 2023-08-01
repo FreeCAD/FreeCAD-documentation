@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher Create3PointCircle
-   Name/pl:Szkicownik: Utwórz okrąg przez trzy punkty na obwodzie
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz okrąg przez trzy punkty
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **3** **C**
-   SeeAlso:
+   Name: Sketcher Create3PointCircle
+   Name/pl: Szkicownik: Utwórz okrąg przez trzy punkty na obwodzie
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Utwórz okrąg przez trzy punkty
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **G** **3** **C**
+   SeeAlso: 
 ---
 
 # Sketcher Create3PointCircle/pl
@@ -34,4 +34,4 @@ To narzędzie [16px](Plik:Sketcher_Create3PointCircle.svg.md) rysuje okrąg popr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointCircle/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointCircle/pl

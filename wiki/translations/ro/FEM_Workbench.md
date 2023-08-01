@@ -1,7 +1,7 @@
 # <img alt="FEM workbench icon" src=images/Workbench_FEM.svg  style="width:64px;"> FEM Workbench/ro
 
 
-{{TOCright}}
+
 
 
 
@@ -540,4 +540,4 @@ A developer\'s guide has been written to help power users in understanding the c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [FEM](Category_FEM.md) > FEM Workbench/ro
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [FEM](Category_FEM.md) > FEM Workbench/ro

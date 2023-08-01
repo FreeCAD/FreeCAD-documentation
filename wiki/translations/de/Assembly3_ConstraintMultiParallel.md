@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintMultiParallel
-   Name/de:Assembly3 MehrfachParallel
-   Icon:Assembly_ConstraintMultiParallel.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintMultiParallel
+   Name/de: Assembly3 MehrfachParallel
+   Icon: Assembly_ConstraintMultiParallel.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintMultiParallel/de
@@ -27,4 +27,4 @@ Diese Beziehung akzeptiert gerade Kanten und ebene Flächen, die sich parallel a
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintMultiParallel/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintMultiParallel/de

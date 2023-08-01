@@ -1,8 +1,4 @@
 # Navigation Cube/de
-{{TOCright}}
-
-
-
 ## Einleitung
 
 Der **Navigationswürfel** stellt visuelle Informationen zur Kameraposition in der aktiven [3D-Ansicht](3D_view/de.md) zur Verfügung und kann zu ihrer Einstellung verwendet werden. Standardmäßig ist es sichtbar und befindet sich in der oberen rechten Ecke der Ansicht.
@@ -162,4 +158,4 @@ The table below lists the other advanced Navigation Cube parameters that can be 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Navigation Cube/de
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Navigation Cube/de

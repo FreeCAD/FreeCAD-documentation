@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Compound‏‎Filter
-   Name/fr:Part Filtre de composé
-   MenuLocation:Part - Composés - Filtre composé
-   Workbenches:[Part](Part_Workbench/fr.md)
-   Version:0.17
+   Name: Part Compound‏‎Filter
+   Name/fr: Part Filtre de composé
+   MenuLocation: Part - Composés - Filtre composé
+   Workbenches: [Part](Part_Workbench/fr.md)
+   Version: 0.17
 ---
 
 # Part CompoundFilter/fr
@@ -72,4 +72,4 @@ S\'il n\'y a qu\'une seule forme enfant dans le résultat, la sortie est l\'enfa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/fr

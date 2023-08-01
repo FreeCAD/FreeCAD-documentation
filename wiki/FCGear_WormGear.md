@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FCGear WormGear
-   MenuLocation:Gear - Worm Gear
-   Workbenches:[FCGear](FCGear_Workbench.md)
-   Shortcut:None
-   Version:v0.16
-   SeeAlso:[PartDesign InvoluteGear](PartDesign_InvoluteGear.md)
+   Name: FCGear WormGear
+   MenuLocation: Gear - Worm Gear
+   Workbenches: [FCGear](FCGear_Workbench.md)
+   Shortcut: None
+   Version: v0.16
+   SeeAlso: [PartDesign InvoluteGear](PartDesign_InvoluteGear.md)
 ---
 
 # FCGear WormGear
@@ -102,4 +102,4 @@ The worm wheel must be designed manually. For this purpose [FCGear InvoluteGear]
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear WormGear
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear WormGear

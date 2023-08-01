@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw StackBottom
-   Name/pl:Rysunek Techniczny: Przesuń poziom na górę
-   MenuLocation:Rysunek Techniczny - Sortowanie - Przesuń poziom na dół
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Shortcut:
-   Version:0.21
-   SeeAlso:[Przesuń poziom na górę](TechDraw_StackTop/pl.md), [Przesuń poziom w górę](TechDraw_StackUp/pl.md), [Przesuń poziom w dół](TechDraw_StackDown/pl.md).
+   Name: TechDraw StackBottom
+   Name/pl: Rysunek Techniczny: Przesuń poziom na górę
+   MenuLocation: Rysunek Techniczny - Sortowanie - Przesuń poziom na dół
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Shortcut: 
+   Version: 0.21
+   SeeAlso: [Przesuń poziom na górę](TechDraw_StackTop/pl.md), [Przesuń poziom w górę](TechDraw_StackUp/pl.md), [Przesuń poziom w dół](TechDraw_StackDown/pl.md).
 ---
 
 # TechDraw StackBottom/pl
@@ -30,4 +30,4 @@ Zobacz również [Przesuń poziom na górę](TechDraw_StackTop/pl.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw StackBottom/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw StackBottom/pl

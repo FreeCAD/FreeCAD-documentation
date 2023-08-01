@@ -1,8 +1,8 @@
 ---
 - GuiCommand:-cn
-   Name:停止操作
-   MenuLocation:Sketch - 停止操作
-   Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md)
+   Name: 停止操作
+   MenuLocation: Sketch - 停止操作
+   Workbenches: [Sketcher](Sketcher_Workbench/zh-cn.md)
 ---
 
 # Sketcher StopOperation/zh-cn
@@ -40,4 +40,4 @@ This is similar to pressing the **Esc** key.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher StopOperation/zh-cn
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher StopOperation/zh-cn

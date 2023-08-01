@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:TechDraw Image
-   MenuLocation:TechDraw - TechDraw Views - Insert Bitmap Image
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw SVG Symbol](TechDraw_Symbol.md)
+   Name: TechDraw Image
+   MenuLocation: TechDraw - TechDraw Views - Insert Bitmap Image
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   SeeAlso: [TechDraw SVG Symbol](TechDraw_Symbol.md)
 ---
 
 # TechDraw Image
@@ -76,4 +76,4 @@ dvi.Width  = 200
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Image
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Image

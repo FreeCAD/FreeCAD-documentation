@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateBSpline
-   MenuLocation:Sketch - Sketcher geometries - Create B-spline
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**G** **B** **B**
-   Version:0.17
-   SeeAlso:[Sketcher periodic B-spline](Sketcher_CreatePeriodicBSpline.md)
+   Name: Sketcher CreateBSpline
+   MenuLocation: Sketch - Sketcher geometries - Create B-spline
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **G** **B** **B**
+   Version: 0.17
+   SeeAlso: [Sketcher periodic B-spline](Sketcher_CreatePeriodicBSpline.md)
 ---
 
 # Sketcher CreateBSpline/pt-br
@@ -53,4 +53,4 @@ This tool creates a B-spline curve from its control points. (See [this page](B-S
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateBSpline/pt-br
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateBSpline/pt-br

@@ -9,7 +9,7 @@ The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement
 ドローイングモジュールを使うと3D作業物を紙の上に移すことができます。つまりモデルのビューを2Dウィンドウに表示し、図面にそのウィンドウを挿入するということです。例えば枠線、タイトル、ロゴマークが入ったシートに挿入し、最終的にそのシートを印刷することができます。ドローイングモジュールは現在も製作中で多かれ少なかれ技術面でのテスト段階にあります！
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Drawing_extraction.png  style="width:600px;">
 
@@ -99,4 +99,4 @@ Some notes on the programming side of the drawing module will be added to the [D
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/ja
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/ja

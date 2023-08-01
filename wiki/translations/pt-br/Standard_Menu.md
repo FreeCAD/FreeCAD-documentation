@@ -1,8 +1,4 @@
 # Standard Menu/pt-br
-{{TOCright}}
-
-
-
 ## Introdução
 
 O menu padrão dá acesso a ferramentas que podem ser usadas em todas as bancadas de trabalho. O menu pode parecer ligeiramente diferente, dependendo do ambiente de trabalho (KDE, Gnome, Windows, macOS, etc.). As bancadas de trabalho também podem adicionar sub-menus, dependendo de como eles decidem estruturar suas ferramentas.
@@ -51,4 +47,4 @@ O menu padrão é composto por 7 submenus:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Standard Menu/pt-br
+⏵ [documentation index](../README.md) > Standard Menu/pt-br

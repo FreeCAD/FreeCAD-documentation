@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Copy
-   Name/fr:Std Copier
-   MenuLocation:Édition - Copier
-   Workbenches:Tous
-   Shortcut:**Ctrl**+**C**
-   SeeAlso:[Std Couper](Std_Cut/fr.md), [Std Coller](Std_Paste/fr.md), [Std Dupliquer la sélection](Std_DuplicateSelection/fr.md)
+   Name: Std Copy
+   Name/fr: Std Copier
+   MenuLocation: Édition - Copier
+   Workbenches: Tous
+   Shortcut: **Ctrl**+**C**
+   SeeAlso: [Std Couper](Std_Cut/fr.md), [Std Coller](Std_Paste/fr.md), [Std Dupliquer la sélection](Std_DuplicateSelection/fr.md)
 ---
 
 # Std Copy/fr
@@ -44,4 +44,4 @@ La commande **Std Copie** copie les objets dans le presse-papiers.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Copy/fr
+⏵ [documentation index](../README.md) > Std Copy/fr

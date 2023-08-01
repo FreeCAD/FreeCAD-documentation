@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CloseShape
-   Name/de:Sketcher KonturSchließen
-   MenuLocation:Sketch - Skizzen-Werkzeuge - Kontur schließen
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**Z** **W**
-   Version:0.15
+   Name: Sketcher CloseShape
+   Name/de: Sketcher KonturSchließen
+   MenuLocation: Sketch - Skizzen-Werkzeuge - Kontur schließen
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **Z** **W**
+   Version: 0.15
 ---
 
 # Sketcher CloseShape/de
@@ -43,4 +43,4 @@ Das Werkzeug wird die Elemente in der Reihenfolge ihrer Auswahl verbinden, so da
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/de

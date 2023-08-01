@@ -1,10 +1,10 @@
 ---
 - GuiCommand:-br
-   Name:Sketcher NewSketch
-   Name/pt-br:Criar um esboço
-   Workbenches:[Sketcher](Sketcher_Workbench/pt-br.md)
-   MenuLocation:Sketch - Criar um esboço
-   SeeAlso:[Mapear um esboço para uma face](Sketcher_MapSketch/pt-br.md), [Reorientar um esboço...](Sketcher_ReorientSketch/pt-br.md)
+   Name: Sketcher NewSketch
+   Name/pt-br: Criar um esboço
+   Workbenches: [Sketcher](Sketcher_Workbench/pt-br.md)
+   MenuLocation: Sketch - Criar um esboço
+   SeeAlso: [Mapear um esboço para uma face](Sketcher_MapSketch/pt-br.md), [Reorientar um esboço...](Sketcher_ReorientSketch/pt-br.md)
 ---
 
 # Sketcher NewSketch/pt-br
@@ -47,4 +47,4 @@ The sketch can be moved in the [3D view](3D_view.md) using [Placement](Placement
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/pt-br
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/pt-br

@@ -202,4 +202,4 @@ v 00.00 19/01/2016
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro FC Convert Lines/pl
+⏵ [documentation index](../README.md) > Macro FC Convert Lines/pl

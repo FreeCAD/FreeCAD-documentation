@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw LeaderLine
-   Name/de:TechDraw Hinweislinie
-   MenuLocation:TechDraw - Linien hinzufügen - Hinweislinie zur Ansicht hinzufügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[TechDraw FormatierteBeschriftung](TechDraw_RichTextAnnotation/de.md), [TechDraw Schweißsymbol](TechDraw_WeldSymbol/de.md), [TechDraw Liniengruppe](TechDraw_LineGroup/de.md)
+   Name: TechDraw LeaderLine
+   Name/de: TechDraw Hinweislinie
+   MenuLocation: TechDraw - Linien hinzufügen - Hinweislinie zur Ansicht hinzufügen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [TechDraw FormatierteBeschriftung](TechDraw_RichTextAnnotation/de.md), [TechDraw Schweißsymbol](TechDraw_WeldSymbol/de.md), [TechDraw Liniengruppe](TechDraw_LineGroup/de.md)
 ---
 
 # TechDraw LeaderLine/de
@@ -163,4 +163,4 @@ leaderObj.Y = 5
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LeaderLine/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LeaderLine/de

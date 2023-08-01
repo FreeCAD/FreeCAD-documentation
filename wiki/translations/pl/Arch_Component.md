@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Arch Component
-   MenuLocation:Arch - Utilities - Component‎‏‎
-   Workbenches:[Arch](Arch_Workbench.md)
-   Shortcut:**C** **M**
+   Name: Arch Component
+   MenuLocation: Arch - Utilities - Component‎‏‎
+   Workbenches: [Arch](Arch_Workbench.md)
+   Shortcut: **C** **M**
 ---
 
 # Arch Component/pl
@@ -51,4 +51,4 @@ The Arch component object is also a base shared by all other Arch objects (**<im
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/pl
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/pl

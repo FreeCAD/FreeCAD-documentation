@@ -2,7 +2,7 @@
 ## Wprowadzenie
 
 
-{{TOCright}}
+
 
 W FreeCAD słowo [wiązanie](Constraint/pl.md) jest zwykle używane w odniesieniu do \"reguły\" rysowania kształtów geometrycznych wewnątrz <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Szkicu](Sketch/pl.md) *(klasa `Sketcher::SketchObject`)*. Wiązanie ogranicza położenie pewnego elementu geometrycznego na różne sposoby, na przykład może określać, czy element jest poziomy, pionowy, styczny, równoległy, prostopadły, zbieżny z punktem, współśrodkowy do innego obiektu itp.
 
@@ -44,4 +44,4 @@ Zobacz informacje w środowisku pracy <img alt="" src=images/Workbench_Sketcher.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Constraint/pl
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Constraint/pl

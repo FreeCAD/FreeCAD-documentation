@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name/ru:Панельный лист
-   Name:Arch_Panel_Sheet
-   MenuLocation:Arch - Инструменты панелирования - Панельный лист
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   Shortcut:**P** **S**
-   Version:0.17
-   SeeAlso:[Паенль](Arch_Panel/ru.md), [Панельный контур](Arch_Panel_Cut/ru.md), [Компоновка](Arch_Nest/ru.md)
+   Name/ru: Панельный лист
+   Name: Arch_Panel_Sheet
+   MenuLocation: Arch - Инструменты панелирования - Панельный лист
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   Shortcut: **P** **S**
+   Version: 0.17
+   SeeAlso: [Паенль](Arch_Panel/ru.md), [Панельный контур](Arch_Panel_Cut/ru.md), [Компоновка](Arch_Nest/ru.md)
 ---
 
 # Arch Panel Sheet/ru
@@ -120,4 +120,4 @@ Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Sheet/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Sheet/ru

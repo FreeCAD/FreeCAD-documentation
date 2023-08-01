@@ -1,8 +1,4 @@
 # Continuous Integration/pl
-{{TOCright}}
-
-
-
 ## Nieustanna integracja 
 
 Obecnie repozytorium FreeCAD na GitHubie uruchamia kompilację w dwóch poniższych systemach CI. Systemy te obejmują prawie wszystkie główne systemy operacyjne dla różnych platform: Linux, MacOS i Windows. CI mogą być również używane do uruchamiania [testów jednostkowych](Testing/pl.md).
@@ -22,4 +18,4 @@ Obecnie repozytorium FreeCAD na GitHubie uruchamia kompilację w dwóch poniższ
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Testing](Category_Testing.md) > Continuous Integration/pl
+⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Testing](Category_Testing.md) > Continuous Integration/pl

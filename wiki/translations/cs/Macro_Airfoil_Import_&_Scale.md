@@ -541,4 +541,4 @@ Diskuse o [Forum](http://forum.freecadweb.org/viewtopic.php?f=22&t=5554&p=45137&
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Airfoil Import & Scale/cs
+⏵ [documentation index](../README.md) > Macro Airfoil Import & Scale/cs

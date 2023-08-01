@@ -2,7 +2,7 @@
 ## Einleitung
 
 
-{{TOCright}}
+
 
 Die [DAG-Ansicht](DAG_view/de.md) ist ein [directed acyclic graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph) (DAG) (deutsch: gerichteter azyklischer Graph), der die Beziehungen zwischen verschiedenen Objekten im Dokument zeigt. Er ist hauptsächlich dazu gedacht, zu zeigen, wie bestimmte Objekte in einem komplexen Modell mit vielen Funktionen und Referenzen, wie z.B. denjenigen, die mit dem Arbeitsbereich <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md) erstellt werden können, von anderen abhängen.
 
@@ -68,4 +68,4 @@ Im [Parametereditor](Std_DlgParameter/de.md) kannst du auch einige Eigenschaften
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > DAG view/de
+⏵ [documentation index](../README.md) > DAG view/de

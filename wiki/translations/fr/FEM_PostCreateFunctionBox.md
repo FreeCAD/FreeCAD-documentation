@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM PostCreateFunctionBox
-   Name/fr:FEM Filtre fonction boîte
-   MenuLocation:Résultats - Fonctions de filtrage - Boîte
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:0.21
-   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM PostCreateFunctionBox
+   Name/fr: FEM Filtre fonction boîte
+   MenuLocation: Résultats - Fonctions de filtrage - Boîte
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Version: 0.21
+   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM PostCreateFunctionBox/fr
@@ -76,4 +76,4 @@ Si l\'objet Box dans la [vue en arborescence](Tree_view/fr.md) est caché, séle
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionBox/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionBox/fr

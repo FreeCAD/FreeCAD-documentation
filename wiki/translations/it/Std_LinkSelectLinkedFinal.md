@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std LinkSelectLinkedFinal
-   Name/it:
-   MenuLocation:''None''
-   Workbenches:All
-   Version:0.19
-   SeeAlso:[Std LinkSelectLinked](Std_LinkSelectLinked/it.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks/it.md), [Std SelBack](Std_SelBack/it.md), [Std SelForward](Std_SelForward/it.md)
+   Name: Std LinkSelectLinkedFinal
+   Name/it: 
+   MenuLocation: ''None''
+   Workbenches: All
+   Version: 0.19
+   SeeAlso: [Std LinkSelectLinked](Std_LinkSelectLinked/it.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks/it.md), [Std SelBack](Std_SelBack/it.md), [Std SelForward](Std_SelForward/it.md)
 ---
 
 # Std LinkSelectLinkedFinal/it
@@ -32,4 +32,4 @@ The **Std LinkSelectLinkedFinal** command selects the **Linked Object**, the sou
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkSelectLinkedFinal/it
+⏵ [documentation index](../README.md) > Std LinkSelectLinkedFinal/it

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part CheckGeometry‏‎
-   Name/pl:Część: Sprawdź geometrię
-   MenuLocation:Część - Sprawdź geometrię
-   Workbenches:[Część](Part_Workbench/pl.md)
+   Name: Part CheckGeometry‏‎
+   Name/pl: Część: Sprawdź geometrię
+   MenuLocation: Część - Sprawdź geometrię
+   Workbenches: [Część](Part_Workbench/pl.md)
 ---
 
 # Part CheckGeometry/pl
@@ -83,4 +83,4 @@ Oprócz wykrywania potencjalnych błędów geometrii, narzędzie to wyświetla s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/pl

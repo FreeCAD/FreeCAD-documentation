@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher ViewSketch
-   MenuLocation:Sketch - View sketch
-   Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
-   Shortcut:**Q** **P**
+   Name: Sketcher ViewSketch
+   MenuLocation: Sketch - View sketch
+   Workbenches: [Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
+   Shortcut: **Q** **P**
 ---
 
 # Sketcher ViewSketch/en
@@ -30,4 +30,4 @@ While in sketch edit mode, either
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/en
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/en

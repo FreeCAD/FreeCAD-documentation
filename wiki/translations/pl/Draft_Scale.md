@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Scale
-   Name/pl:Rysunek Roboczy: Skaluj
-   MenuLocation:Modyfikacja - Skala
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut:**S** **C**
-   SeeAlso:[Podświetl element podrzędny](Draft_SubelementHighlight/pl.md), [Klonuj](Draft_Clone/pl.md)
+   Name: Draft Scale
+   Name/pl: Rysunek Roboczy: Skaluj
+   MenuLocation: Modyfikacja - Skala
+   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut: **S** **C**
+   SeeAlso: [Podświetl element podrzędny](Draft_SubelementHighlight/pl.md), [Klonuj](Draft_Clone/pl.md)
 ---
 
 # Draft Scale/pl
@@ -114,4 +114,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Scale/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Scale/pl

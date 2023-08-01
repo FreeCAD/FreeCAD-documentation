@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Cylinder
-   MenuLocation:Part - Primitives - Cylinder
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part Primitives](Part_Primitives.md)
+   Name: Part Cylinder
+   MenuLocation: Part - Primitives - Cylinder
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Part Primitives](Part_Primitives.md)
 ---
 
 # Part Cylinder/zh-cn
@@ -135,4 +135,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cylinder/zh-cn
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cylinder/zh-cn

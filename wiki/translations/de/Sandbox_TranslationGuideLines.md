@@ -16,7 +16,7 @@ Auf dieser Seite werden die Regel gelistet, auf die man sich im Forum geeinigt h
 ## Regelwerk
 
 
-{{TOCright}}
+
 
 ### Allgemein
 
@@ -59,4 +59,4 @@ Auf dieser Seite werden die Regel gelistet, auf die man sich im Forum geeinigt h
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Sandbox:TranslationGuideLines/de
+⏵ [documentation index](../README.md) > Sandbox:TranslationGuideLines/de

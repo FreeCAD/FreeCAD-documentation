@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM SolverRun
-   Name/ru:FEM SolverRun
-   MenuLocation:Solve - Run solver calculations
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:**S** **R**
-   SeeAlso:[FEM Solver job control](FEM_SolverControl/ru.md)
+   Name: FEM SolverRun
+   Name/ru: FEM SolverRun
+   MenuLocation: Solve - Run solver calculations
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   Shortcut: **S** **R**
+   SeeAlso: [FEM Solver job control](FEM_SolverControl/ru.md)
 ---
 
 # FEM SolverRun/ru
@@ -33,4 +33,4 @@ This command is used to easily trigger the FEM solver. It is a simplified versio
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverRun/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverRun/ru

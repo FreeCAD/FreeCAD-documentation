@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainDistanceX
-   Name/fr:Sketcher Contrainte distance en X
-   MenuLocation:Esquisse - Contraintes d'esquisse - Contrainte distance horizontale
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**L**
-   SeeAlso:[Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte distance verticale](Sketcher_ConstrainDistanceY/fr.md)
+   Name: Sketcher ConstrainDistanceX
+   Name/fr: Sketcher Contrainte distance en X
+   MenuLocation: Esquisse - Contraintes d'esquisse - Contrainte distance horizontale
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **L**
+   SeeAlso: [Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte distance verticale](Sketcher_ConstrainDistanceY/fr.md)
 ---
 
 # Sketcher ConstrainDistanceX/fr
@@ -61,4 +61,4 @@ La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui pe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistanceX/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistanceX/fr

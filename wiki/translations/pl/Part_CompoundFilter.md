@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Compound‏‎Filter
-   Name/pl:Część: Filtr złożeń
-   MenuLocation:Część - Złożenie - Filtr złożeń
-   Workbenches:[Część](Part_Workbench/pl.md)
-   Version:0.17
+   Name: Part Compound‏‎Filter
+   Name/pl: Część: Filtr złożeń
+   MenuLocation: Część - Złożenie - Filtr złożeń
+   Workbenches: [Część](Part_Workbench/pl.md)
+   Version: 0.17
 ---
 
 # Part CompoundFilter/pl
@@ -78,4 +78,4 @@ Jeśli w wyniku znajduje się tylko jeden element podrzędny, wynikiem jest ten 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/pl

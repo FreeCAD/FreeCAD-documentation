@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Вырезать
-   Name:Std_Cut
-   MenuLocation:Правка - Вырезать
-   Workbenches:All
-   SeeAlso:[Копировать](Std_Copy/ru.md), [Вставить](Std_Paste/ru.md), [Дублировать выбранное](Std_DuplicateSelection/ru.md)
+   Name/ru: Вырезать
+   Name: Std_Cut
+   MenuLocation: Правка - Вырезать
+   Workbenches: All
+   SeeAlso: [Копировать](Std_Copy/ru.md), [Вставить](Std_Paste/ru.md), [Дублировать выбранное](Std_DuplicateSelection/ru.md)
 ---
 
 # Std Cut/ru
@@ -47,4 +47,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Cut/ru
+⏵ [documentation index](../README.md) > Std Cut/ru

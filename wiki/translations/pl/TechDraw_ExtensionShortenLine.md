@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionShortenLine
-   Name/pl:Rysunek Techniczny: Rozszerzenie Skróć linię
-   MenuLocation:Rysunek Techniczny - Rozszerzenia: Atrybuty / Modyfikatory - Skróć linię
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[Przedłóż linię](TechDraw_ExtensionExtendLine/pl.md)
+   Name: TechDraw ExtensionShortenLine
+   Name/pl: Rysunek Techniczny: Rozszerzenie Skróć linię
+   MenuLocation: Rysunek Techniczny - Rozszerzenia: Atrybuty / Modyfikatory - Skróć linię
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [Przedłóż linię](TechDraw_ExtensionExtendLine/pl.md)
 ---
 
 # TechDraw ExtensionShortenLine/pl
@@ -42,4 +42,4 @@ Narzędzie **Skróć linię** skraca linię kosmetyczną lub linię środkową n
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionShortenLine/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionShortenLine/pl

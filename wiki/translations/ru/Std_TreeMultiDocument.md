@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std TreeMultiDocument
-   Name/ru:Std TreeMultiDocument
-   MenuLocation:Вид - Дерево документа - Многокомпонентный документ
-   Workbenches:All
-   SeeAlso:[Std TreeSingleDocument](Std_TreeSingleDocument/ru.md), [Std TreeCollapseDocument](Std_TreeCollapseDocument/ru.md)
+   Name: Std TreeMultiDocument
+   Name/ru: Std TreeMultiDocument
+   MenuLocation: Вид - Дерево документа - Многокомпонентный документ
+   Workbenches: All
+   SeeAlso: [Std TreeSingleDocument](Std_TreeSingleDocument/ru.md), [Std TreeCollapseDocument](Std_TreeCollapseDocument/ru.md)
 ---
 
 # Std TreeMultiDocument/ru
@@ -37,4 +37,4 @@ The Tree view DocumentMode mode is stored: **Tools → Edit parameters... → Ba
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeMultiDocument/ru
+⏵ [documentation index](../README.md) > Std TreeMultiDocument/ru

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConnectLines
-   Name/fr:Sketcher Raccorder des arêtes
-   MenuLocation:Esquisse - Outils d'esquisse - Raccorder les arêtes
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**Z** **J**
-   Version:0.15
-   SeeAlso:[Sketcher Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md)
+   Name: Sketcher ConnectLines
+   Name/fr: Sketcher Raccorder des arêtes
+   MenuLocation: Esquisse - Outils d'esquisse - Raccorder les arêtes
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **Z** **J**
+   Version: 0.15
+   SeeAlso: [Sketcher Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md)
 ---
 
 # Sketcher ConnectLines/fr
@@ -42,4 +42,4 @@ Avant d\'utiliser cette commande, assurez-vous que des contraintes évidentes (h
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConnectLines/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConnectLines/fr

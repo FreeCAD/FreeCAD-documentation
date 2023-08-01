@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Loft
-   Name:Part Ausformung
-   MenuLocation:Formteil - Ausformung...
-   Workbenches:[Part](Part_Workbench/de.md)
-   Version:0.13
-   SeeAlso:[Part Austragung](Part_Sweep/de.md)
+   Name: Part Loft
+   Name: Part Ausformung
+   MenuLocation: Formteil - Ausformung...
+   Workbenches: [Part](Part_Workbench/de.md)
+   Version: 0.13
+   SeeAlso: [Part Austragung](Part_Sweep/de.md)
 ---
 
 # Part Loft/de
@@ -126,4 +126,4 @@ Die Reihenfolge der Abschnitte hängt von der Reihenfolge der Klicks in der List
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft/de

@@ -1,6 +1,4 @@
 # FEM Install/en
-{{TOCright}}
-
 ## Introduction
 
 To be able to perform finite element analysis (FEA) within the **<img src="images/Workbench_FEM.svg" width=24px> [FEM Workbench](FEM_Workbench.md)**, FreeCAD makes use of two external programs: one is used for generating the [FEM Mesh](FEM_Mesh.md), and the other for numerically solving the actual analysis. You can test if your FreeCAD installation is ready for FEA by running the [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D.md) example which is included with every installation of FreeCAD since v0.17.
@@ -238,4 +236,4 @@ If you have problems installing Netgen, Gmsh, or CalculiX, or another external t
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Install/en
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Install/en

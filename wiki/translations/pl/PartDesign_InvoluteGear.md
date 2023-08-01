@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign InvoluteGear
-   Name/pl:Projekt Części: Koło zębate ewolwentowe
-   Icon:PartDesign_InternalExternalGear.svg
-   MenuLocation:Projekt Części - Koło zębate ewolwentowe ...
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   SeeAlso:[FCGear](FCGear_Workbench/pl.md)
+   Name: PartDesign InvoluteGear
+   Name/pl: Projekt Części: Koło zębate ewolwentowe
+   Icon: PartDesign_InternalExternalGear.svg
+   MenuLocation: Projekt Części - Koło zębate ewolwentowe ...
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   SeeAlso: [FCGear](FCGear_Workbench/pl.md)
 ---
 
 # PartDesign InvoluteGear/pl
@@ -193,4 +193,4 @@ Folm: [Jak zrobić przekładnie zębate w FreeCAD](https://www.youtube.com/watch
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/pl

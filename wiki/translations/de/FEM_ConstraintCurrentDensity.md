@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintCurrentDensity
-   Name/de:FEM RandbedingungStromdichte
-   MenuLocation: Model - Electromagnetic Constraints - Constraint current density
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   Version:0.21
-   SeeAlso:[MagnetodynamischeGleichung](FEM_EquationMagnetodynamic/de.md), [Magnetodynamische2DGleichung](FEM_EquationMagnetodynamic2D/de.md)
+   Name: FEM ConstraintCurrentDensity
+   Name/de: FEM RandbedingungStromdichte
+   MenuLocation:  Model - Electromagnetic Constraints - Constraint current density
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   Version: 0.21
+   SeeAlso: [MagnetodynamischeGleichung](FEM_EquationMagnetodynamic/de.md), [Magnetodynamische2DGleichung](FEM_EquationMagnetodynamic2D/de.md)
 ---
 
 # FEM ConstraintCurrentDensity/de
@@ -50,4 +50,4 @@ Erstellt eine FEM-Randbedingung für die Stromdichte, zur Verwendung mit der [ma
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintCurrentDensity/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintCurrentDensity/de

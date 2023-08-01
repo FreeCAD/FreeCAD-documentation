@@ -1,6 +1,4 @@
 # Installing Helpfile/pl
-{{TOCright}}
-
 ### Moduł Pomocy 
 
 **Uwaga:** Pliki pomocy offline programu FreeCAD, opisane poniżej, są wycofywane z użycia. System pomocy FreeCAD jest teraz zarządzany przez [Dodatek Pomocy](https://github.com/yorikvanhavre/FreeCAD-Help), który można zainstalować poprzez [Menadżer dodatków](Std_AddonMgr/pl.md). Dodatek Pomoc umożliwia dostęp do dokumentacji online, bez potrzeby pobierania czegokolwiek, lub do kopii offline dokumentacji do pobrania, którą również można zainstalować za pomocą Menedżera dodatków.
@@ -51,4 +49,4 @@ Podczas próby instalacji pakietów dokumentacji na Ubuntu mogą pojawić się t
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Installing Helpfile/pl
+⏵ [documentation index](../README.md) > Installing Helpfile/pl

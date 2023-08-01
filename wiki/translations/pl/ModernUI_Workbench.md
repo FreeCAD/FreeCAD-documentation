@@ -4,7 +4,7 @@
 <img alt="Ikonka FreeCAD dla środowiska Nowoczesny UI" src=images/ModernUI_workbench_icon.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 ## Wprowadzenie
 
@@ -82,4 +82,4 @@ Szczegółowe instrukcje można znaleźć na [GitHub](https://github.com/HakanSe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > ModernUI Workbench/pl
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > ModernUI Workbench/pl

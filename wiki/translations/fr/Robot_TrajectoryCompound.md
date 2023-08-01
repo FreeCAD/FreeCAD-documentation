@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Robot TrajectoryCompound
-   Name/fr:Robot Groupement de trajectoires
-   MenuLocation:Robot - Groupement de trajectoires
-   Workbenches:[Robot](Robot_Workbench/fr.md)
+   Name: Robot TrajectoryCompound
+   Name/fr: Robot Groupement de trajectoires
+   MenuLocation: Robot - Groupement de trajectoires
+   Workbenches: [Robot](Robot_Workbench/fr.md)
 ---
 
 # Robot TrajectoryCompound/fr
@@ -33,4 +33,4 @@ Crée un groupement à partir de quelques trajectoires simples.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryCompound/fr
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryCompound/fr

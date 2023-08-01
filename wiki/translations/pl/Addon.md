@@ -1,8 +1,4 @@
 # Addon/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 W programie FreeCAD i w tej dokumentacji **Dodatek** to dowolny komponent, który nie jest częścią podstawowej instalacji, ale który można dodać do systemu za pomocą określonych metod.
@@ -42,4 +38,4 @@ Zobacz również:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > Addon/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > Addon/pl

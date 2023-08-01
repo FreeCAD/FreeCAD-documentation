@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Fence
-   Name/fr:Arch Clôture
-   MenuLocation:Arch - Clôture
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   Version:0.19
+   Name: Arch Fence
+   Name/fr: Arch Clôture
+   MenuLocation: Arch - Clôture
+   Workbenches: [Arch](Arch_Workbench/fr.md)
+   Version: 0.19
 ---
 
 # Arch Fence/fr
@@ -100,4 +100,4 @@ Fence = Arch.buildFence(fence_section, post, sketch)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Fence/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Fence/fr

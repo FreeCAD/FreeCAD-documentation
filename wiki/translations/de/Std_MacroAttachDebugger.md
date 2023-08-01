@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std MakroFehlersucherAnhängen
-   Empty:1
-   MenuLocation:Makro - An den entfernten Fehlersucher anhängen...
-   Workbenches:Alle
+   Name: Std MakroFehlersucherAnhängen
+   Empty: 1
+   MenuLocation: Makro - An den entfernten Fehlersucher anhängen...
+   Workbenches: Alle
 ---
 
 # Std MacroAttachDebugger/de
@@ -27,4 +27,4 @@ ZuTun.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MacroAttachDebugger/de
+⏵ [documentation index](../README.md) > Std MacroAttachDebugger/de

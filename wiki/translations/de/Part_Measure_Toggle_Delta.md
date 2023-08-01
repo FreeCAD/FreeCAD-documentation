@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Measure Toggle Delta
-   Name/de:Part Messung DeltaUmschalten
-   MenuLocation:Messen - Delta umschalten
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Messung AlleUmschalten](Part_Measure_Toggle_All/de.md), [Part Messung 3DUmschalten](Part_Measure_Toggle_3D/de.md)
+   Name: Part Measure Toggle Delta
+   Name/de: Part Messung DeltaUmschalten
+   MenuLocation: Messen - Delta umschalten
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: [Part Messung AlleUmschalten](Part_Measure_Toggle_All/de.md), [Part Messung 3DUmschalten](Part_Measure_Toggle_3D/de.md)
 ---
 
 # Part Measure Toggle Delta/de
@@ -26,4 +26,4 @@ Dieser Befehl schaltet die Sichtbarkeit aller Delta-Messungen in der [3D-Ansicht
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle Delta/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle Delta/de

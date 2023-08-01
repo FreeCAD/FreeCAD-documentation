@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh Segmentation
-   MenuLocation:Meshes - Create mesh segments...
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh SegmentationBestFit](Mesh_SegmentationBestFit.md)
+   Name: Mesh Segmentation
+   MenuLocation: Meshes - Create mesh segments...
+   Workbenches: [Mesh](Mesh_Workbench.md)
+   SeeAlso: [Mesh SegmentationBestFit](Mesh_SegmentationBestFit.md)
 ---
 
 # Mesh Segmentation/en
@@ -57,4 +57,4 @@ The **Mesh Segmentation** command creates separate mesh segments for specified s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Segmentation/en
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Segmentation/en

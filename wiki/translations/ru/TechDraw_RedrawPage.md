@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Перерисовать страницу
-   Name:TechDraw_RedrawPage
-   MenuLocation:TechDraw - Перерисовать страницу
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   Version:0.19
+   Name/ru: Перерисовать страницу
+   Name: TechDraw_RedrawPage
+   MenuLocation: TechDraw - Перерисовать страницу
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   Version: 0.19
 ---
 
 # TechDraw RedrawPage/ru
@@ -47,4 +47,4 @@ The **TechDraw RedrawPage** tool forces a page update despite any contrary setti
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RedrawPage/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RedrawPage/ru

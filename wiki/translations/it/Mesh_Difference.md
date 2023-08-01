@@ -1,10 +1,10 @@
 # Mesh Difference/it
 ---
 - GuiCommand:
-   Name:Mesh_Difference
-   Name/it:Differenza
-   MenuLocation:Mesh - Operazione booleana - Differenza
-   Workbenches:[Mesh](Mesh_Workbench/it.md)---
+   Name: Mesh_Difference
+   Name/it: Differenza
+   MenuLocation: Mesh - Operazione booleana - Differenza
+   Workbenches: [Mesh](Mesh_Workbench/it.md)---
 
 ## Descrizione
 
@@ -38,4 +38,4 @@ Vedere [Mesh Feature](Mesh_Feature/it.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Difference/it
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Difference/it

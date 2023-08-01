@@ -69,4 +69,4 @@ for obj in FreeCADGui.Selection.getSelection():
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Texture Objects/de
+⏵ [documentation index](../README.md) > Macro Texture Objects/de

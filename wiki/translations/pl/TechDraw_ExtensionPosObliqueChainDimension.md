@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionPosObliqueChainDimension
-   Name/pl:Rysunek Techniczny: Rozszerzenie Ułóż ukośną serię wymiarów
-   MenuLocation:Rysunek Techniczny - Rozszerzenia: Atrybuty / Modyfikatory - Ułóż ukośną serię wymiarów
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[Ułóż poziomą serię wymiarów](TechDraw_ExtensionPosHorizChainDimension/pl.md), [Ułóż pionową serię wymiarów](TechDraw_ExtensionPosVertChainDimension/pl.md)
+   Name: TechDraw ExtensionPosObliqueChainDimension
+   Name/pl: Rysunek Techniczny: Rozszerzenie Ułóż ukośną serię wymiarów
+   MenuLocation: Rysunek Techniczny - Rozszerzenia: Atrybuty / Modyfikatory - Ułóż ukośną serię wymiarów
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [Ułóż poziomą serię wymiarów](TechDraw_ExtensionPosHorizChainDimension/pl.md), [Ułóż pionową serię wymiarów](TechDraw_ExtensionPosVertChainDimension/pl.md)
 ---
 
 # TechDraw ExtensionPosObliqueChainDimension/pl
@@ -42,4 +42,4 @@ Narzędzie **Ułuż ukośną serię wymiarów** wyrównuje wymiary ukośne w cel
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPosObliqueChainDimension/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPosObliqueChainDimension/pl

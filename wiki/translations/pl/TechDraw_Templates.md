@@ -1,8 +1,4 @@
 # TechDraw Templates/pl
-{{TOCright}}
-
-
-
 ## Opis
 
 Każda strona środowiska Rysunek Techniczny jest oparta na obiekcie Szablonu. **Szablon** określa rozmiar arkusza papieru i zawiera stałą grafikę i tekst, na przykład ramkę lub obramowanie strony.
@@ -88,4 +84,4 @@ Zobacz również stronę [Jak stworzyć własny szablon Rysunku Technicznego](Te
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Templates/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Templates/pl

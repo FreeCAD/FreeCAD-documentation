@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Boolean
-   Name/it:Operazioni booleane
-   MenuLocation:Part Design - Operazioni booleane
-   Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   Version:0.17
+   Name: PartDesign Boolean
+   Name/it: Operazioni booleane
+   MenuLocation: Part Design - Operazioni booleane
+   Workbenches: [PartDesign](PartDesign_Workbench/it.md)
+   Version: 0.17
 ---
 
 # PartDesign Boolean/it
@@ -109,4 +109,4 @@ In alternativa, è possibile selezionare uno o più Corpi prima di premere il pu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Boolean/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Boolean/it

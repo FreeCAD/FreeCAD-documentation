@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher MirrorSketch
-   Name/fr:Sketcher Esquisse miroir
-   MenuLocation:Esquisse - Esquisse miroir
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Version:0.16
+   Name: Sketcher MirrorSketch
+   Name/fr: Sketcher Esquisse miroir
+   MenuLocation: Esquisse - Esquisse miroir
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Version: 0.16
 ---
 
 # Sketcher MirrorSketch/fr
@@ -38,4 +38,4 @@ Met en miroir une esquisse le long de l\'axe x, de l\'axe y ou de l\'origine. Ce
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch/fr

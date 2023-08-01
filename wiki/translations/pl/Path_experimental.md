@@ -1,6 +1,4 @@
 # Path experimental/pl
-{{TOCright}}
-
 ## Opis
 
 Środowisko pracy Path zawiera zestaw ukrytych poleceń. Są one domyślnie ukryte, ponieważ są eksperymentalne. Polecenie może być uznane za eksperymentalne z jednego z następujących powodów:
@@ -40,4 +38,4 @@ Więcej informacji o konkretnych poleceniach eksperymentalnych można znaleźć 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Path](Path_Workbench.md) > Path experimental/pl
+⏵ [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Path](Path_Workbench.md) > Path experimental/pl

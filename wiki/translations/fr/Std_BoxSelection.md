@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std BoxSelection
-   Name/fr:Std Sélection par boîte
-   MenuLocation:Édition - Sélection par boîte
-   Workbenches:Tous
-   Shortcut:**Maj**+**B**
-   SeeAlso:[Std Sélection d'éléments par boîte](Std_BoxElementSelection/fr.md), [Std Tout sélectionner](Std_SelectAll/fr.md)
+   Name: Std BoxSelection
+   Name/fr: Std Sélection par boîte
+   MenuLocation: Édition - Sélection par boîte
+   Workbenches: Tous
+   Shortcut: **Maj**+**B**
+   SeeAlso: [Std Sélection d'éléments par boîte](Std_BoxElementSelection/fr.md), [Std Tout sélectionner](Std_SelectAll/fr.md)
 ---
 
 # Std BoxSelection/fr
@@ -43,4 +43,4 @@ La commande **Std Sélection par boîte** sélectionne des objets dans une zone 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std BoxSelection/fr
+⏵ [documentation index](../README.md) > Std BoxSelection/fr

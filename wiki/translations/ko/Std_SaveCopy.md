@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std SaveCopy
-   Name/ko:표준 사본 저장
-   MenuLocation:파일 - 사본 저장...
-   Workbenches:모두
-   SeeAlso:[표준 다른 이름으로 저장](Std_SaveAs/ko.md), [표준 저장](Std_Save/ko.md)
+   Name: Std SaveCopy
+   Name/ko: 표준 사본 저장
+   MenuLocation: 파일 - 사본 저장...
+   Workbenches: 모두
+   SeeAlso: [표준 다른 이름으로 저장](Std_SaveAs/ko.md), [표준 저장](Std_Save/ko.md)
 ---
 
 # Std SaveCopy/ko
@@ -66,4 +66,4 @@ doc.saveCopy(fnm)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SaveCopy/ko
+⏵ [documentation index](../README.md) > Std SaveCopy/ko

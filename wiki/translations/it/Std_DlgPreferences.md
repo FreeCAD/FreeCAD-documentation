@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_DlgPreferences
-   Name/it:Preferenze
-   MenuLocation:Modifica - Preferenze...
-   Workbenches:Tutti
-   SeeAlso:[Editor delle preferenze](Preferences_Editor/it.md)
+   Name: Std_DlgPreferences
+   Name/it: Preferenze
+   MenuLocation: Modifica - Preferenze...
+   Workbenches: Tutti
+   SeeAlso: [Editor delle preferenze](Preferences_Editor/it.md)
 ---
 
 # Std DlgPreferences/it
@@ -39,4 +39,4 @@ Selezionare l\'opzione **Modifica → <img src="images/Std_DlgPreferences.svg" w
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgPreferences/it
+⏵ [documentation index](../README.md) > Std DlgPreferences/it

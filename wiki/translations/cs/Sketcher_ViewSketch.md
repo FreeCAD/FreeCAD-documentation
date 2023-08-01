@@ -1,6 +1,6 @@
 # Sketcher ViewSketch/cs
 ---
-- GuiCommand:   Name:Sketcher ViewSketch   Name/cs:Skicář Pohled náčrtu   Workbenches:[Návrh dílu](Sketcher_Workbench/cs___Skicář]],_[[PartDesign_Workbench/cs.md)|MenuLocation:Náčrt - Pohled náčrtu---
+- GuiCommand:   Name: Sketcher ViewSketch   Name/cs: Skicář Pohled náčrtu   Workbenches: [Návrh dílu](Sketcher_Workbench/cs___Skicář]],_[[PartDesign_Workbench/cs.md)|MenuLocation: Náčrt - Pohled náčrtu---
 
 
 </div>
@@ -39,4 +39,4 @@ Když je náčrt v editačním módu, buď
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/cs
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/cs

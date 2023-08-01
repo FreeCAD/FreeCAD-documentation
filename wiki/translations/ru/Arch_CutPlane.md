@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch CutPlane
-   Name/ru:Arch CutPlane
-   MenuLocation:Архитектура - Срезать по плоскости образца
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   SeeAlso:[Удалить компонент](Arch_Remove/ru.md)
+   Name: Arch CutPlane
+   Name/ru: Arch CutPlane
+   MenuLocation: Архитектура - Срезать по плоскости образца
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   SeeAlso: [Удалить компонент](Arch_Remove/ru.md)
 ---
 
 # Arch CutPlane/ru
@@ -102,4 +102,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/ru

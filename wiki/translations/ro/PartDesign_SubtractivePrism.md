@@ -1,6 +1,6 @@
 # PartDesign SubtractivePrism/ro
 ---
-- GuiCommand:   Name:PartDesign SubtractivePrism   Workbenches:[MenuLocation:Part Design - Create a subtractive primitive - Subtractive Prism   Shortcut:None   SeeAlso:[[PartDesign CompPrimitiveSubtractive](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign SubtractivePrism   Workbenches: [MenuLocation: Part Design - Create a subtractive primitive - Subtractive Prism   Shortcut: None   SeeAlso: [[PartDesign CompPrimitiveSubtractive](PartDesign_Workbench___PartDesign]].md)---
 
 
 </div>
@@ -84,4 +84,4 @@ Prisma poate fi definită după crearea sa în două moduri:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePrism/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePrism/ro

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintMore
-   Name/pl:Złożenie 3 Więcej wiązań
-   Icon:Assembly_ConstraintMore.svg
-   Workbenches:[Złożenie 3](Assembly3_Workbench/pl.md)
+   Name: Assembly3 ConstraintMore
+   Name/pl: Złożenie 3 Więcej wiązań
+   Icon: Assembly_ConstraintMore.svg
+   Workbenches: [Złożenie 3](Assembly3_Workbench/pl.md)
 ---
 
 # Assembly3 ConstraintMore/pl
@@ -19,4 +19,4 @@ Narzędzie to przełącza jedynie widoczność dwóch kolejnych paneli z wiązan
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintMore/pl
+⏵ [documentation index](../README.md) > Assembly3 ConstraintMore/pl

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher_External
-   Name/it:Geometria esterna   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   Shortcut:X
-   MenuLocation:Sketch - Geometrie - Geometria Esterna
-   SeeAlso:[Linea di costruzione](Sketcher_ToggleConstruction/it.md)
+   Name: Sketcher_External
+   Name/it: Geometria esterna   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   Shortcut: X
+   MenuLocation: Sketch - Geometrie - Geometria Esterna
+   SeeAlso: [Linea di costruzione](Sketcher_ToggleConstruction/it.md)
 ---
 
 # Sketcher External/it
@@ -132,4 +132,4 @@ Quando lo schizzo viene chiuso le linee Geometria esterna non sono più visibili
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/it

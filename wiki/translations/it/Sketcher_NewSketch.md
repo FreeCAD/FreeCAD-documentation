@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher NewSketch
-   Name/it:Crea Schizzo
-   MenuLocation:Schizzo - Crea uno Schizzo
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   SeeAlso:[PartDesign: Nuovo schizzo](PartDesign_NewSketch/it.md), [Mappa uno schizzo](Sketcher_MapSketch/it.md), [Riposiziona lo schizzo](Sketcher_ReorientSketch/it.md)
+   Name: Sketcher NewSketch
+   Name/it: Crea Schizzo
+   MenuLocation: Schizzo - Crea uno Schizzo
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   SeeAlso: [PartDesign: Nuovo schizzo](PartDesign_NewSketch/it.md), [Mappa uno schizzo](Sketcher_MapSketch/it.md), [Riposiziona lo schizzo](Sketcher_ReorientSketch/it.md)
 ---
 
 # Sketcher NewSketch/it
@@ -50,4 +50,4 @@ Lo schizzo può essere spostato nella [Vista 3D](3D_view/it.md) utilizzando [Pos
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/it

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std SaveAll
-   Name/fr:Std Tout enregistrer
-   MenuLocation:Fichier - Enregistrer tout
-   Workbenches:Tous
-   SeeAlso:[Std Enregistrer](Std_Save/fr.md)
+   Name: Std SaveAll
+   Name/fr: Std Tout enregistrer
+   MenuLocation: Fichier - Enregistrer tout
+   Workbenches: Tous
+   SeeAlso: [Std Enregistrer](Std_Save/fr.md)
 ---
 
 # Std SaveAll/fr
@@ -52,4 +52,4 @@ Pour enregistrer un document, utilisez la méthode `save` de l\'objet document. 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SaveAll/fr
+⏵ [documentation index](../README.md) > Std SaveAll/fr

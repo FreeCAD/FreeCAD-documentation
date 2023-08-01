@@ -1,6 +1,4 @@
 # Standard Menu/sv
-{{TOCright}}
-
 ## Introduction
 
 The standard menu gives access to tools that can be used in all workbenches. The menu may look slightly different depending on the desktop environment (KDE, Gnome, Windows, macOS, etc.). Workbenches can also add sub-menus depending on how they decide to structure their tools.
@@ -53,4 +51,4 @@ The standard menu is composed of 7 sub-menus:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Standard Menu/sv
+⏵ [documentation index](../README.md) > Standard Menu/sv

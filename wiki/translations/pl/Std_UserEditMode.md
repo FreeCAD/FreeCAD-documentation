@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std UserEditMode
-   Name/pl:Std: Tryb edycji
-   MenuLocation:Edycja - Przełącz tryb edycji - ...
-   Workbenches:wszystkie
-   Version:0.20
-   SeeAlso:[Edycja](Std_Edit/pl.md)
+   Name: Std UserEditMode
+   Name/pl: Std: Tryb edycji
+   MenuLocation: Edycja - Przełącz tryb edycji - ...
+   Workbenches: wszystkie
+   Version: 0.20
+   SeeAlso: [Edycja](Std_Edit/pl.md)
 ---
 
 # Std UserEditMode/pl
@@ -86,4 +86,4 @@ FreeCADGui.setUserEditMode(MODENAME) # Where MODENAME is a string available in t
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std UserEditMode/pl
+⏵ [documentation index](../README.md) > Std UserEditMode/pl

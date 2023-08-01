@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreatePeriodicBSpline
-   MenuLocation: Sketch - Sketcher geometries - Create periodic B-spline
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**G** **B** **P**
-   Version:0.17
-   SeeAlso:[Sketcher B-spline](Sketcher_CreateBSpline.md)
+   Name: Sketcher CreatePeriodicBSpline
+   MenuLocation:  Sketch - Sketcher geometries - Create periodic B-spline
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **G** **B** **P**
+   Version: 0.17
+   SeeAlso: [Sketcher B-spline](Sketcher_CreateBSpline.md)
 ---
 
 # Sketcher CreatePeriodicBSpline/en
@@ -44,4 +44,4 @@ See [Sketcher CreateBSpline](Sketcher_CreateBSpline#Limitations.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePeriodicBSpline/en
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePeriodicBSpline/en

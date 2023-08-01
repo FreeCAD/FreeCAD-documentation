@@ -1,6 +1,4 @@
 # Mesh to Part/de
-{{TOCright}}
-
 ## Umwandeln von Teilobjekten in Polygonnetze 
 
 Die Konvertierung von übergeordneten Objekten wie [Teil](Part_Workbench/de.md) formen in einfachere Objekte wie [Polygonnetz](Mesh_Workbench/de.md) ist ein sehr einfacher vorwärtsgerichteter Vorgang, bei der alle Flächen eines Teilobjekts trianguliert werden. Das Ergebnis dieser Triangulation (Tesselierung) wird dann zum Aufbau eines Polygonnetzes verwendet:
@@ -107,4 +105,4 @@ Part.show(solid)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh to Part/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh to Part/de

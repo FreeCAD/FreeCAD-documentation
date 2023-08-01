@@ -64,4 +64,4 @@ An actuator node on the OPC UA server acts as a trigger to *open* or *close* the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Fcmcua Workbench
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Fcmcua Workbench

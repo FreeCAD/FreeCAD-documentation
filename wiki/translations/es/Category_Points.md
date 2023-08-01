@@ -10,4 +10,4 @@ This category lists pages related to the [Points Workbench/es](Points_Workbench/
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Points/es
+⏵ [documentation index](../README.md) > Category:Points/es

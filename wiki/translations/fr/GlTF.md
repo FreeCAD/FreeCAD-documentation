@@ -1,6 +1,4 @@
 # GlTF/fr
-{{TOCright}}
-
 ## Description
 
 Le [GL Transmission Format](https://www.khronos.org/gltf/) (glTF™) est une spécification libre de droits pour la transmission et le chargement efficaces de scènes et de modèles 3D par des applications. Il minimise à la fois la taille des actifs 3D et le traitement d\'exécution nécessaire pour décompresser et utiliser ces actifs.
@@ -40,4 +38,4 @@ Source: [fil du forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=31680&p=
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > GlTF/fr
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > GlTF/fr

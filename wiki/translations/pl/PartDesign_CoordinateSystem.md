@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign CoordinateSystem
-   Name/pl:Projekt Części: Utwórz lokalny układ współrzędnych.
-   MenuLocation:Projekt Części - Utwórz lokalny układ współrzędnych
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   Version:0.18
-   SeeAlso:[Punkt odniesienia](PartDesign_Point/pl.md), [Linia odniesienia](PartDesign_Line/pl.md), [Płaszczyzna odniesienia](PartDesign_Plane/pl.md)
+   Name: PartDesign CoordinateSystem
+   Name/pl: Projekt Części: Utwórz lokalny układ współrzędnych.
+   MenuLocation: Projekt Części - Utwórz lokalny układ współrzędnych
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   Version: 0.18
+   SeeAlso: [Punkt odniesienia](PartDesign_Point/pl.md), [Linia odniesienia](PartDesign_Line/pl.md), [Płaszczyzna odniesienia](PartDesign_Plane/pl.md)
 ---
 
 # PartDesign CoordinateSystem/pl
@@ -73,4 +73,4 @@ lcs = App.activeDocument().addObject( 'PartDesign::CoordinateSystem', 'LCS' )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CoordinateSystem/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CoordinateSystem/pl

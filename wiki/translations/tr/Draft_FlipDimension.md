@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft FlipDimension
-   Name/tr:Boyutu çevir
-   MenuLocation:Draft - Utilities - Flip Dimension
-   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
-   SeeAlso:[Dimension](Draft_Dimension/tr.md)
+   Name: Draft FlipDimension
+   Name/tr: Boyutu çevir
+   MenuLocation: Draft - Utilities - Flip Dimension
+   Workbenches: [Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   SeeAlso: [Dimension](Draft_Dimension/tr.md)
 ---
 
 # Draft FlipDimension/tr
@@ -55,4 +55,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft FlipDimension/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft FlipDimension/tr

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch SetMaterial
-   Name/de:Arch MaterialZuordnen
-   MenuLocation:Arch - Materialwerkzeuge - Material
-   Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
-   Shortcut:**M** **T**
-   SeeAlso:[Arch AuswahlMaterialZuordnen](Arch_CompSetMaterial/de.md), [Arch MehrfachMaterial](Arch_MultiMaterial/de.md)
+   Name: Arch SetMaterial
+   Name/de: Arch MaterialZuordnen
+   MenuLocation: Arch - Materialwerkzeuge - Material
+   Workbenches: [Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   Shortcut: **M** **T**
+   SeeAlso: [Arch AuswahlMaterialZuordnen](Arch_CompSetMaterial/de.md), [Arch MehrfachMaterial](Arch_MultiMaterial/de.md)
 ---
 
 # Arch SetMaterial/de
@@ -71,4 +71,4 @@ Dies entspricht in etwa [IfcMaterial](https://standards.buildingsmart.org/IFC/DE
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SetMaterial/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SetMaterial/de

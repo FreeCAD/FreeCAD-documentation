@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FEM PostCreateLinearizedStressesFilter
-   Name/ru:FEM PostCreateLinearizedStressesFilter
-   Icon:Fem-linearizedstresses.svg
-   MenuLocation: Results - Linearized stresses filter
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM PostCreateLinearizedStressesFilter
+   Name/ru: FEM PostCreateLinearizedStressesFilter
+   Icon: Fem-linearizedstresses.svg
+   MenuLocation:  Results - Linearized stresses filter
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM PostFilterLinearizedStresses/ru
@@ -43,4 +43,4 @@ To learn more about stress linearization plots, you can read [this description](
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterLinearizedStresses/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterLinearizedStresses/ru

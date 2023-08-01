@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch SelectNonSolidMeshes
-   Name/fr:Arch Sélection de maillages non-manifold
-   MenuLocation:Arch - Utilitaires - Sélectionnez les maillages non-manifold
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Arch Séparer un objet mesh](Arch_SplitMesh/fr.md), [Arch Supprimer la forme](Arch_MeshToShape/fr.md)
+   Name: Arch SelectNonSolidMeshes
+   Name/fr: Arch Sélection de maillages non-manifold
+   MenuLocation: Arch - Utilitaires - Sélectionnez les maillages non-manifold
+   Workbenches: [Arch](Arch_Workbench/fr.md)
+   SeeAlso: [Arch Séparer un objet mesh](Arch_SplitMesh/fr.md), [Arch Supprimer la forme](Arch_MeshToShape/fr.md)
 ---
 
 # Arch SelectNonSolidMeshes/fr
@@ -21,4 +21,4 @@ Cet outil identifie et sélectionne les objets mailles non solides (non-[manifol
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/fr

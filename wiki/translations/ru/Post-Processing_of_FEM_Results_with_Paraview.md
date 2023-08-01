@@ -439,4 +439,4 @@ CoG_z = 187144 / 556,277 = 336,4 мм (точное значение: 5/6 \* 400
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > Post-Processing of FEM Results with Paraview/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > Post-Processing of FEM Results with Paraview/ru

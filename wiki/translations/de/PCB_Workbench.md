@@ -2,7 +2,7 @@
 ## Einführung
 
 
-{{TOCright}}
+
 
 Arbeitsbereich [Gedruckte Leiterplatte](https://de.wikipedia.org/wiki/Leiterplatte) für FreeCAD (englisch.: Printed Circuit Board)(PCB)
 
@@ -123,4 +123,4 @@ Sicherheit → Bearbeiten → Benutzer und markiere alle Kontrollkästchen unter
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > PCB Workbench/de
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > PCB Workbench/de

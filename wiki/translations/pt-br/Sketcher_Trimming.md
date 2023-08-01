@@ -1,6 +1,6 @@
 # Sketcher Trimming/pt-br
 ---
-- GuiCommand:-br   Name:Sketcher Trimming   Name/pt-br:Sketcher Trimming   Workbenches:[PartDesign](Sketcher_Workbench/pt-br___Sketcher]],_[[PartDesign_Workbench/pt-br.md)|Shortcut:T   MenuLocation:Sketch - Sketcher geometries - Trim edge---
+- GuiCommand:-br   Name: Sketcher Trimming   Name/pt-br: Sketcher Trimming   Workbenches: [PartDesign](Sketcher_Workbench/pt-br___Sketcher]],_[[PartDesign_Workbench/pt-br.md)|Shortcut: T   MenuLocation: Sketch - Sketcher geometries - Trim edge---
 
 
 </div>
@@ -29,4 +29,4 @@ This tool trims an edge at the nearest intersections with other edges. If the se
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/pt-br
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/pt-br

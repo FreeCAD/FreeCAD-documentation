@@ -10,4 +10,4 @@ This category lists pages related to the [Ship Workbench/hu](Ship_Workbench/hu.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Ship/hu
+⏵ [documentation index](../README.md) > Category:Ship/hu

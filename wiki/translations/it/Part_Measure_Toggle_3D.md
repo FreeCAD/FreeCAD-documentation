@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Measure Toggle 3D
-   Name/it:Attiva o Disattiva 3D
-   MenuLocation:Misura - Attiva/disattiva 3D
-   Workbenches:[Part](Part_Workbench/it.md)
-   SeeAlso:[Attiva o disattiva tutte le misure](Part_Measure_Toggle_All/it.md), [Attiva o Disattiva le misure Delta](Part_Measure_Toggle_Delta/it.md)
+   Name: Part Measure Toggle 3D
+   Name/it: Attiva o Disattiva 3D
+   MenuLocation: Misura - Attiva/disattiva 3D
+   Workbenches: [Part](Part_Workbench/it.md)
+   SeeAlso: [Attiva o disattiva tutte le misure](Part_Measure_Toggle_All/it.md), [Attiva o Disattiva le misure Delta](Part_Measure_Toggle_Delta/it.md)
 ---
 
 # Part Measure Toggle 3D/it
@@ -27,4 +27,4 @@ Questo comando attiva/disattiva la visibilità delle misure lineari e angolari n
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle 3D/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle 3D/it

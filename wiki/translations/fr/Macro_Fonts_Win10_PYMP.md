@@ -1148,4 +1148,4 @@ Version = \"01.00\" Date = \"2019/05/10\"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Fonts Win10 PYMP/fr
+⏵ [documentation index](../README.md) > Macro Fonts Win10 PYMP/fr

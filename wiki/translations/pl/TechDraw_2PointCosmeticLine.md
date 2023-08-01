@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw 2PointCosmeticLine
-   Name/pl:Dodaj linię kosmetyczną wytyczoną przez dwa punkty
-   MenuLocation:Rysunek Techniczny - Dodaj Linię - Dodaj linię środkową pomiędzy dwoma punktami
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Version:0.19
-   SeeAlso:[Dodaj linię środkową do ściany](TechDraw_FaceCenterLine/pl.md), [Dodaj linię środkową pomiędzy dwoma liniami](TechDraw_2LineCenterLine/pl.md)
+   Name: TechDraw 2PointCosmeticLine
+   Name/pl: Dodaj linię kosmetyczną wytyczoną przez dwa punkty
+   MenuLocation: Rysunek Techniczny - Dodaj Linię - Dodaj linię środkową pomiędzy dwoma punktami
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Version: 0.19
+   SeeAlso: [Dodaj linię środkową do ściany](TechDraw_FaceCenterLine/pl.md), [Dodaj linię środkową pomiędzy dwoma liniami](TechDraw_2LineCenterLine/pl.md)
 ---
 
 # TechDraw 2PointCosmeticLine/pl
@@ -117,4 +117,4 @@ Linie kosmetyczne można tworzyć za pomocą metod makeCosmeticLine(v1, v2) lub 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2PointCosmeticLine/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2PointCosmeticLine/pl

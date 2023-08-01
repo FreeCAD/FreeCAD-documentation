@@ -8,7 +8,7 @@
 </div>
 
 
-{{TOCright}}
+
 
 ## Description
 
@@ -93,4 +93,4 @@ See also [How to make a custom TechDraw template](TechDraw_TemplateHowTo.md), or
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Templates/hr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Templates/hr

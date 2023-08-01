@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft ShowSnapBar
-   MenuLocation:Utilities - Show snap toolbar
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso:[Draft Snap](Draft_Snap.md)
+   Name: Draft ShowSnapBar
+   MenuLocation: Utilities - Show snap toolbar
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   SeeAlso: [Draft Snap](Draft_Snap.md)
 ---
 
 # Draft ShowSnapBar/pl
@@ -25,4 +25,4 @@ The <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:24px;"> **Draft S
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShowSnapBar/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShowSnapBar/pl

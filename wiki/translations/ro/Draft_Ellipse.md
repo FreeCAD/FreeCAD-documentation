@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Ellipse
-   Name/ro:Elipsă 2D
-   MenuLocation:Draft - Ellipse
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   Shortcut:**E** **L**
-   SeeAlso:[Draft Circle](Draft_Circle/ro.md)
+   Name: Draft Ellipse
+   Name/ro: Elipsă 2D
+   MenuLocation: Draft - Ellipse
+   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut: **E** **L**
+   SeeAlso: [Draft Circle](Draft_Circle/ro.md)
 ---
 
 # Draft Ellipse/ro
@@ -176,4 +176,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Ellipse/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Ellipse/ro

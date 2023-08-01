@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Scale
-   Name/tr:Ölçekle
-   MenuLocation:Draft - Scale
-   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
-   Shortcut:**S** **C**
-   SeeAlso:[Draft Clone](Draft_Clone/tr.md)
+   Name: Draft Scale
+   Name/tr: Ölçekle
+   MenuLocation: Draft - Scale
+   Workbenches: [Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   Shortcut: **S** **C**
+   SeeAlso: [Draft Clone](Draft_Clone/tr.md)
 ---
 
 # Draft Scale/tr
@@ -117,4 +117,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Scale/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Scale/tr

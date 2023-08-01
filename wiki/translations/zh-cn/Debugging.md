@@ -1,8 +1,4 @@
 # Debugging/zh-cn
-{{TOCright}}
-
-
-
 ## 测试先行
 
 在你经历痛苦的调试过程之前请使用 [测试框架](Testing.md) 来检查标准测试是否正常工作。如果它们未完全运行, 则可能这是不完整的安装。
@@ -514,4 +510,4 @@ For developers needing to dig deeper in to the OpenCasCade kernel, user \@abdull
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Debugging/zh-cn
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Debugging/zh-cn

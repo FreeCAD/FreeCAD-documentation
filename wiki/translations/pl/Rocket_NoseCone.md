@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Rocket NoseCone
-   MenuLocation:Rocket - Nose Cone
-   Workbenches:[Rocket Workbench](Rocket_Workbench.md)
-   Version:0.19
+   Name: Rocket NoseCone
+   MenuLocation: Rocket - Nose Cone
+   Workbenches: [Rocket Workbench](Rocket_Workbench.md)
+   Version: 0.19
 ---
 
 # Rocket NoseCone/pl
@@ -170,4 +170,4 @@ These parameters are provided for information and have no effect on the design o
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket NoseCone/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket NoseCone/pl

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Curves ParametricComb
-   Name/de:Curves Parameterkamm
-   MenuLocation:Curves - Comb plot
-   Workbenches:[Curves](Curves_Workbench/de.md)
+   Name: Curves ParametricComb
+   Name/de: Curves Parameterkamm
+   MenuLocation: Curves - Comb plot
+   Workbenches: [Curves](Curves_Workbench/de.md)
 ---
 
 # Curves ParametricComb/de
@@ -46,4 +46,4 @@ Ein 3D-Kamm wird für 3D-Kurven erstellt. Die Werte für Sample (Anzahl) und Sca
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Curves](Category_Curves.md) > Curves ParametricComb/de
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Curves](Category_Curves.md) > Curves ParametricComb/de

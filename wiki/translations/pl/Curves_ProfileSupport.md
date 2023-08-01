@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Curves ProfileSupport
-   MenuLocation:Surfaces - Profile support plane
-   Workbenches:[Curves](Curves_Workbench.md)
+   Name: Curves ProfileSupport
+   MenuLocation: Surfaces - Profile support plane
+   Workbenches: [Curves](Curves_Workbench.md)
 ---
 
 # Curves ProfileSupport/pl
@@ -39,4 +39,4 @@ The <img alt="" src=images/Curves_ProfileSupport.svg  style="width:24px;"> [Curv
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves ProfileSupport/pl
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves ProfileSupport/pl

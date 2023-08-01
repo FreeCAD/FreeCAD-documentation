@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ViewIvStereoOff
-   Name/pl:Std: Wyłącz widok trójwymiarowy
-   MenuLocation:Widok - Widok trójwymiarowy - Widok z przeplotem kolumn
-   Workbenches:wszystkie
-   SeeAlso:[Widok stereo czerwony / cyjan](Std_ViewIvStereoRedGreen/pl.md),  [Widok poczwórny bufor stereo](Std_ViewIvStereoQuadBuff/pl.md), [Widok stereo z przeplotem wierszy](Std_ViewIvStereoInterleavedRows/pl.md), [Widok stereo z przeplotem kolumn](Std_ViewIvStereoInterleavedColumns/pl.md)
+   Name: Std ViewIvStereoOff
+   Name/pl: Std: Wyłącz widok trójwymiarowy
+   MenuLocation: Widok - Widok trójwymiarowy - Widok z przeplotem kolumn
+   Workbenches: wszystkie
+   SeeAlso: [Widok stereo czerwony / cyjan](Std_ViewIvStereoRedGreen/pl.md),  [Widok poczwórny bufor stereo](Std_ViewIvStereoQuadBuff/pl.md), [Widok stereo z przeplotem wierszy](Std_ViewIvStereoInterleavedRows/pl.md), [Widok stereo z przeplotem kolumn](Std_ViewIvStereoInterleavedColumns/pl.md)
 ---
 
 # Std ViewIvStereoOff/pl
@@ -45,4 +45,4 @@ FreeCADGui.ActiveDocument.ActiveView.getStereoType()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewIvStereoOff/pl
+⏵ [documentation index](../README.md) > Std ViewIvStereoOff/pl

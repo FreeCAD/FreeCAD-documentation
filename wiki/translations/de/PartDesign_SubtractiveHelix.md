@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractiveHelix
-   Name/de:PartDesign WendelAbziehen
-   MenuLocation:Part Design - Objekte abziehen - Wendel
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[PartDesign WendelHinzufügen](PartDesign_AdditiveHelix/de.md)
+   Name: PartDesign SubtractiveHelix
+   Name/de: PartDesign WendelAbziehen
+   MenuLocation: Part Design - Objekte abziehen - Wendel
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [PartDesign WendelHinzufügen](PartDesign_AdditiveHelix/de.md)
 ---
 
 # PartDesign SubtractiveHelix/de
@@ -166,4 +166,4 @@ Eine Wendel, die sich nicht selbst durchdringt, ist sichtbar, wenn **Werkzeuge �
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveHelix/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveHelix/de

@@ -849,4 +849,4 @@ Enjoy
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Python Code](Category_Python Code.md) > Qt Example/it
+⏵ [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Python Code](Category_Python Code.md) > Qt Example/it

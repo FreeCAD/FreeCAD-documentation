@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std MainFullscreen
-   Name/pl:Std: Pełny ekran
-   MenuLocation:Widok  - Pełny ekran
-   Workbenches:wszystkie
-   Shortcut:**Alt** + **F11**
-   SeeAlso:[Wyświetl na pełnym ekranie](Std_ViewFullscreen/pl.md)
+   Name: Std MainFullscreen
+   Name/pl: Std: Pełny ekran
+   MenuLocation: Widok  - Pełny ekran
+   Workbenches: wszystkie
+   Shortcut: **Alt** + **F11**
+   SeeAlso: [Wyświetl na pełnym ekranie](Std_ViewFullscreen/pl.md)
 ---
 
 # Std MainFullscreen/pl
@@ -31,4 +31,4 @@ Polecenie **Pełny ekran** przełącza tryb pełnoekranowy okna głównego progr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MainFullscreen/pl
+⏵ [documentation index](../README.md) > Std MainFullscreen/pl

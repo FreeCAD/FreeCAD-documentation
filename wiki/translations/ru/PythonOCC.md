@@ -46,4 +46,4 @@ You can also self compile pythonOCC (see [instructions](https://github.com/tpavi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > PythonOCC/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > PythonOCC/ru

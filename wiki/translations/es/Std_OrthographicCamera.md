@@ -1,6 +1,6 @@
 # Std OrthographicCamera/es
 ---
-- GuiCommand:   Name:Std OrthographicCamera   Name/es:Std OrthographicCamera   MenuLocation:[|Workbenches:All   Shortcut:   SeeAlso:[[Std PerspectiveCamera/es|Perspective View](Std_View_Menu/es___View]]_-_Orthographic_view.md)---
+- GuiCommand:   Name: Std OrthographicCamera   Name/es: Std OrthographicCamera   MenuLocation: [|Workbenches: All   Shortcut:    SeeAlso: [[Std PerspectiveCamera/es|Perspective View](Std_View_Menu/es___View]]_-_Orthographic_view.md)---
 
 
 </div>
@@ -63,4 +63,4 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraType()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std OrthographicCamera/es
+⏵ [documentation index](../README.md) > Std OrthographicCamera/es

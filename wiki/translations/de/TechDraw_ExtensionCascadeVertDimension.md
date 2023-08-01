@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionCascadeVertDimension
-   Name/de:TechDraw ErgänzungVertikaleMaßeAnordnen
-   MenuLocation:TechDraw - Ergänzungen: Merkmale/Änderungen - Vertikale Maße anordnen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ErgänzungHorizontaleMaßeAnordnen](TechDraw_ExtensionCascadeHorizDimension/de.md), [TechDraw ErgänzungSchrägeMaßeAnordnen](TechDraw_ExtensionCascadeObliqueDimension/de.md)
+   Name: TechDraw ExtensionCascadeVertDimension
+   Name/de: TechDraw ErgänzungVertikaleMaßeAnordnen
+   MenuLocation: TechDraw - Ergänzungen: Merkmale/Änderungen - Vertikale Maße anordnen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ErgänzungHorizontaleMaßeAnordnen](TechDraw_ExtensionCascadeHorizDimension/de.md), [TechDraw ErgänzungSchrägeMaßeAnordnen](TechDraw_ExtensionCascadeObliqueDimension/de.md)
 ---
 
 # TechDraw ExtensionCascadeVertDimension/de
@@ -49,4 +49,4 @@ Das Werkzeug **TechDraw ErgänzungVertikaleMaßeAnordnen** erzeugt gleiche Abst�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCascadeVertDimension/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCascadeVertDimension/de

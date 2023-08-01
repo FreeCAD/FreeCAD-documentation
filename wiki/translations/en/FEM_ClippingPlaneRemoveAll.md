@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:FEM ClippingPlaneRemoveAll
-   MenuLocation:Utilities - Remove all clipping planes
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM tutorial](FEM_tutorial.md)
+   Name: FEM ClippingPlaneRemoveAll
+   MenuLocation: Utilities - Remove all clipping planes
+   Workbenches: [FEM](FEM_Workbench.md)
+   SeeAlso: [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM ClippingPlaneRemoveAll/en
@@ -27,4 +27,4 @@ Either use the toolbar button <img alt="" src=images/FEM_ClippingPlaneRemoveAll.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ClippingPlaneRemoveAll/en
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ClippingPlaneRemoveAll/en

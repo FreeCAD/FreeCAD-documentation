@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Arch MeshToShape   Name/sv:Arch MeshToShape
-   MenuLocation:Arch - Utilities - Mesh to Shape
-   Workbenches:[Arch](Arch_Workbench/sv.md)
-   SeeAlso:[Arch SplitMesh](Arch_SplitMesh/sv.md), [Arch RemoveShape](Arch_RemoveShape/sv.md)
+   Name: Arch MeshToShape   Name/sv: Arch MeshToShape
+   MenuLocation: Arch - Utilities - Mesh to Shape
+   Workbenches: [Arch](Arch_Workbench/sv.md)
+   SeeAlso: [Arch SplitMesh](Arch_SplitMesh/sv.md), [Arch RemoveShape](Arch_RemoveShape/sv.md)
 ---
 
 # Arch MeshToShape/sv
@@ -81,4 +81,4 @@ new_obj = Arch.meshToShape(Box)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/sv
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/sv

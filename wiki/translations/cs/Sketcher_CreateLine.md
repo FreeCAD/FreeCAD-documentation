@@ -1,6 +1,6 @@
 # Sketcher CreateLine/cs
 ---
-- GuiCommand:   Name:Sketcher CreateLine   Name/cs:Skicář Přímka   Workbenches:[MenuLocation:Náčrt - Skicář Konstrukce - Vytvořit přímku   SeeAlso:[[Sketcher CreatePolyline/cs|Skicář Lomená čára](Sketcher_Workbench/cs___Skicář]].md)---
+- GuiCommand:   Name: Sketcher CreateLine   Name/cs: Skicář Přímka   Workbenches: [MenuLocation: Náčrt - Skicář Konstrukce - Vytvořit přímku   SeeAlso: [[Sketcher CreatePolyline/cs|Skicář Lomená čára](Sketcher_Workbench/cs___Skicář]].md)---
 
 
 </div>
@@ -51,4 +51,4 @@ The created line object starts and ends at the given points, but the line is inf
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/cs
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/cs

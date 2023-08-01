@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionExtendLine
-   MenuLocation:TechDraw - Extensions: Attributes/Modifications - Extend Line
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ExtensionShortenLine](TechDraw_ExtensionShortenLine.md)
+   Name: TechDraw ExtensionExtendLine
+   MenuLocation: TechDraw - Extensions: Attributes/Modifications - Extend Line
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ExtensionShortenLine](TechDraw_ExtensionShortenLine.md)
 ---
 
 # TechDraw ExtensionExtendLine/en
@@ -37,4 +37,4 @@ The **TechDraw ExtensionExtendLine** tool extends a cosmetic line or centerline 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionExtendLine/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionExtendLine/en

@@ -1,6 +1,4 @@
 # Draft Pattern/ru
-{{TOCright}}
-
 ## Description
 
 [Draft](Draft_Workbench.md) objects with a **Make Face** property can display an SVG pattern instead of a solid face color.
@@ -41,4 +39,4 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Pattern/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Pattern/ru

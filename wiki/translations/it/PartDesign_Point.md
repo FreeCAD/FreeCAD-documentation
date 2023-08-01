@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign Point
-   Name/it:Punto di riferimento
-   Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:Part Design - Punto di riferimento
-   Version:0.17
-   SeeAlso:[Linea di riferimento](PartDesign_Line/it.md), [Piano di riferimento](PartDesign_Plane/it.md)
+   Name: PartDesign Point
+   Name/it: Punto di riferimento
+   Workbenches: [PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation: Part Design - Punto di riferimento
+   Version: 0.17
+   SeeAlso: [Linea di riferimento](PartDesign_Line/it.md), [Piano di riferimento](PartDesign_Plane/it.md)
 ---
 
 # PartDesign Point/it
@@ -75,4 +75,4 @@ Fare doppio clic sull\'etichetta DatumPoint nell\'albero del modello o fare clic
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Point/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Point/it

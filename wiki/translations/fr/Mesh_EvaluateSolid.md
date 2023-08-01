@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh EvaluateSolid
-   Name/fr:Mesh Solidité du maillage
-   MenuLocation:Maillages - Analyser - Vérifier la solidité du maillage
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Arch Sélection de maillages non-manifold](Arch_SelectNonSolidMeshes/fr.md)
+   Name: Mesh EvaluateSolid
+   Name/fr: Mesh Solidité du maillage
+   MenuLocation: Maillages - Analyser - Vérifier la solidité du maillage
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
+   SeeAlso: [Arch Sélection de maillages non-manifold](Arch_SelectNonSolidMeshes/fr.md)
 ---
 
 # Mesh EvaluateSolid/fr
@@ -36,4 +36,4 @@ La commande **Solidité du maillage** vérifie si un objet maillé est solide. U
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh EvaluateSolid/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh EvaluateSolid/fr

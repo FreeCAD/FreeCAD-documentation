@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher External
-   Name/fr:Sketcher Géométrie externe
-   MenuLocation:Esquisse - Géométries d'esquisse - Créer une géométrie externe
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **X**
-   SeeAlso:[Sketcher Géométrie de construction](Sketcher_ToggleConstruction/fr.md)
+   Name: Sketcher External
+   Name/fr: Sketcher Géométrie externe
+   MenuLocation: Esquisse - Géométries d'esquisse - Créer une géométrie externe
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **X**
+   SeeAlso: [Sketcher Géométrie de construction](Sketcher_ToggleConstruction/fr.md)
 ---
 
 # Sketcher External/fr
@@ -92,4 +92,4 @@ Lorsque l\'esquisse est fermée, les lignes de géométrie externe ne sont pas v
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/fr

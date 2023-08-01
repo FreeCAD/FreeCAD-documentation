@@ -133,4 +133,4 @@ A thanks to FreeCAD main developer [shoogen](http://forum.freecadweb.org/memberl
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Apothem Based Prism GUI
+⏵ [documentation index](../README.md) > Macro Apothem Based Prism GUI

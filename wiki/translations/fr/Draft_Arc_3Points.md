@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Arc 3Points
-   Name/fr:Draft Arc par 3 points
-   MenuLocation:Draft - Outils Arc - Arc par 3 points
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:**A** **T**
-   Version:0.19
-   SeeAlso:[Draft Arc](Draft_Arc/fr.md), [Draft Cercle](Draft_Circle/fr.md)
+   Name: Draft Arc 3Points
+   Name/fr: Draft Arc par 3 points
+   MenuLocation: Draft - Outils Arc - Arc par 3 points
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut: **A** **T**
+   Version: 0.19
+   SeeAlso: [Draft Arc](Draft_Arc/fr.md), [Draft Cercle](Draft_Circle/fr.md)
 ---
 
 # Draft Arc 3Points/fr
@@ -101,4 +101,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc 3Points/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc 3Points/fr

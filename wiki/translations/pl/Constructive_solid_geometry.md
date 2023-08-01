@@ -1,6 +1,4 @@
 # Constructive solid geometry/pl
-{{TOCright}}
-
 ## Wprowadzenie
 
 [Constructive solid geometry](https://en.wikipedia.org/wiki/Constructive_solid_geometry) *(**CSG**)* to paradygmat modelowania, który jest używany w wielu tradycyjnych systemach CAD. Zasadniczo polega on na użyciu pierwotnych obiektów bryłowych i wykonywaniu na nich operacji logicznych, takich jak łączenie, odejmowanie i przecinanie, w celu utworzenia ostatecznego kształtu.
@@ -40,4 +38,4 @@ Strona [Poradniki](Tutorials/pl.md) zawiera kilka przykładów tworzenia brył z
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Part](Category_Part.md) > Constructive solid geometry/pl
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Part](Category_Part.md) > Constructive solid geometry/pl

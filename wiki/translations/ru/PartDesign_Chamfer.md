@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Фаска
-   Name:PartDesign_Chamfer
-   MenuLocation:Part Design - Apply a dress-up feature - Фаска
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   SeeAlso:[Скругление](PartDesign_Fillet/ru.md), [Фаска](Part_Chamfer/ru.md)
+   Name/ru: Фаска
+   Name: PartDesign_Chamfer
+   MenuLocation: Part Design - Apply a dress-up feature - Фаска
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso: [Скругление](PartDesign_Fillet/ru.md), [Фаска](Part_Chamfer/ru.md)
 ---
 
 # PartDesign Chamfer/ru
@@ -144,4 +144,4 @@ See [PartDesign Fillet](PartDesign_Fillet#Known_issues.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/ru

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FCGear LanternGear
-   Name/de: FCGear Triebstockrad
-   MenuLocation:Gear - Lantern Gear
-   Workbenches:[FCGear](FCGear_Workbench/de.md)
-   Shortcut:Keine
-   Version:v0.16
-   SeeAlso:
+   Name: FCGear LanternGear
+   Name/de:  FCGear Triebstockrad
+   MenuLocation: Gear - Lantern Gear
+   Workbenches: [FCGear](FCGear_Workbench/de.md)
+   Shortcut: Keine
+   Version: v0.16
+   SeeAlso: 
 ---
 
 # FCGear LanternGear/de
@@ -84,4 +84,4 @@ Ein FCGear-LanternGear-Objekt wird von einem [Part-Formelement](Part_Feature/de.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear LanternGear/de
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear LanternGear/de

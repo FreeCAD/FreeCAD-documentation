@@ -17,4 +17,4 @@ Cette catégorie répertorie les pages liées à l\'[atelier OpenSCAD](OpenSCAD_
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:OpenSCAD/fr
+⏵ [documentation index](../README.md) > Category:OpenSCAD/fr

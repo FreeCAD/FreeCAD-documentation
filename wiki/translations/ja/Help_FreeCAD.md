@@ -1,6 +1,4 @@
 # Help FreeCAD/ja
-{{TOCright}}
-
 ## Introduction
 
 
@@ -221,4 +219,4 @@ FreeCAD features a [Models library](https://github.com/FreeCAD/FreeCAD-library) 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Command_Reference/ja]]ページには、すべてのFreeCAD ](Category_Command_Reference/ja]]ページには、すべてのFreeCAD .md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > Help FreeCAD/ja
+⏵ [documentation index](../README.md) > [Command_Reference/ja]]ページには、すべてのFreeCAD ](Category_Command_Reference/ja]]ページには、すべてのFreeCAD .md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > Help FreeCAD/ja

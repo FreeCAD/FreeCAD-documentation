@@ -1,6 +1,4 @@
 # Mesh to Part/fr
-{{TOCright}}
-
 ## Conversion d\'objets Part en maillages 
 
 La conversion d\'objets de niveau supérieur tels que les objets [Part](Part_Workbench/fr.md) en objets plus simples tels qu\'en [maillages](Mesh_Workbench/fr.md) est une opération directe où toutes les faces d\'un objet Part sont triangulées. Le résultat de cette triangulation (pavage ou tessellation) est ensuite utilisé pour construire un maillage:
@@ -107,4 +105,4 @@ Part.show(solid)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh to Part/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh to Part/fr

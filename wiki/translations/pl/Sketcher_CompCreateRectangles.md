@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher CompCreateRectangles
-   Name/pl:Szkicownik: Komponent Utwórz prostokąt
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Version:0.20
+   Name: Sketcher CompCreateRectangles
+   Name/pl: Szkicownik: Komponent Utwórz prostokąt
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Version: 0.20
 ---
 
 # Sketcher CompCreateRectangles/pl
@@ -33,4 +33,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRectangles/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRectangles/pl

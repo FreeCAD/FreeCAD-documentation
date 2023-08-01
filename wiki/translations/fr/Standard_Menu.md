@@ -1,6 +1,4 @@
 # Standard Menu/fr
-{{TOCright}}
-
 ## Introduction
 
 Le menu standard donne accès à des outils utilisables dans tous les ateliers. Le menu peut être légèrement différent selon l\'environnement de bureau (KDE, Gnome, Windows, macOS, etc.). Les ateliers peuvent également ajouter des sous-menus en fonction de la manière dont ils décident de structurer leurs outils.
@@ -55,4 +53,4 @@ Le menu standard est composé de 7 sous-menus :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Standard Menu/fr
+⏵ [documentation index](../README.md) > Standard Menu/fr

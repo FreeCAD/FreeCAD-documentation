@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh FillupHoles
-   Name/fr:Mesh Remplir les trous
-   MenuLocation:Maillages - Remplir les trous...
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Boucher un trou](Mesh_FillInteractiveHole/fr.md), [Mesh Ajouter un triangle](Mesh_AddFacet/fr.md)
+   Name: Mesh FillupHoles
+   Name/fr: Mesh Remplir les trous
+   MenuLocation: Maillages - Remplir les trous...
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
+   SeeAlso: [Mesh Boucher un trou](Mesh_FillInteractiveHole/fr.md), [Mesh Ajouter un triangle](Mesh_AddFacet/fr.md)
 ---
 
 # Mesh FillupHoles/fr
@@ -37,4 +37,4 @@ La commande **Remplir les trous** remplit les trous dans les objets maillés.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillupHoles/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillupHoles/fr

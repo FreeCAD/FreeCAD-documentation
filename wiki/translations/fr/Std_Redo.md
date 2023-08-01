@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Redo
-   Name/fr:Std Rétablir
-   MenuLocation:Édition - Rétablir
-   Workbenches:Tous
-   Shortcut:**Ctrl**+**Y**
-   SeeAlso:[Std Annuler](Std_Undo/fr.md)
+   Name: Std Redo
+   Name/fr: Std Rétablir
+   MenuLocation: Édition - Rétablir
+   Workbenches: Tous
+   Shortcut: **Ctrl**+**Y**
+   SeeAlso: [Std Annuler](Std_Undo/fr.md)
 ---
 
 # Std Redo/fr
@@ -63,4 +63,4 @@ FreeCAD.ActiveDocument.redo()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Redo/fr
+⏵ [documentation index](../README.md) > Std Redo/fr

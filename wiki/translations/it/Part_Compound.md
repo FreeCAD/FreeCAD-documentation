@@ -1,6 +1,6 @@
 # Part Compound/it
 ---
-- GuiCommand:   Name:Part Compound‏‎   Name/it:Crea un composto‏‎   MenuLocation:Parte - Crea un composto   Workbenches:[Version:0.14   SeeAlso:[[Part Union/it|Unione](Part_Workbench/it___Part]].md), [Filtra composto](Part_CompoundFilter/it.md), [Esplodi composto](Part_ExplodeCompound/it.md)---
+- GuiCommand:   Name: Part Compound‏‎   Name/it: Crea un composto‏‎   MenuLocation: Parte - Crea un composto   Workbenches: [Version: 0.14   SeeAlso: [[Part Union/it|Unione](Part_Workbench/it___Part]].md), [Filtra composto](Part_CompoundFilter/it.md), [Esplodi composto](Part_ExplodeCompound/it.md)---
 
 
 </div>
@@ -55,4 +55,4 @@ Per attivare questo controllo, andare in **Strumenti → Modifica parametri → 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/it

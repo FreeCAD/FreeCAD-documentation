@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name/ru:Обозначить наружную резьбу в разрезе стержня
-   Name:TechDraw_ExtensionThreadBoltSide
-   MenuLocation:TechDraw - Extensions: centerlines and threading - Cosmetic thread bolt side view
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[Обозначить внутреннюю резьбу в разрезе отверстия](TechDraw_ExtensionThreadHoleSide/ru.md)
+   Name/ru: Обозначить наружную резьбу в разрезе стержня
+   Name: TechDraw_ExtensionThreadBoltSide
+   MenuLocation: TechDraw - Extensions: centerlines and threading - Cosmetic thread bolt side view
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [Обозначить внутреннюю резьбу в разрезе отверстия](TechDraw_ExtensionThreadHoleSide/ru.md)
 ---
 
 # TechDraw ExtensionThreadBoltSide/ru
@@ -49,4 +49,4 @@ The **TechDraw ExtensionThreadBoltSide** tool adds a cosmetic thread to the side
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadBoltSide/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadBoltSide/ru

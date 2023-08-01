@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std UnitsCalculator
-   Name/fr:Std Convertisseur d'unités
-   MenuLocation:Outils - Calculateurs d'unités
-   Workbenches:Tous
+   Name: Std UnitsCalculator
+   Name/fr: Std Convertisseur d'unités
+   MenuLocation: Outils - Calculateurs d'unités
+   Workbenches: Tous
 ---
 
 # Std UnitsCalculator/fr
@@ -66,4 +66,4 @@ La commande **Std Convertisseur d\'unités** ouvre la boîte de dialogue calcula
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std UnitsCalculator/fr
+⏵ [documentation index](../README.md) > Std UnitsCalculator/fr

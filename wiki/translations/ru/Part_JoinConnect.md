@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part_JoinConnect
-   Name/ru:Part JoinConnect
-   MenuLocation:Деталь - Join - Connect objects
-   Workbenches:[Part](Part_Workbench/ru.md)
-   SeeAlso:[Connect](Part_JoinConnect/ru.md), [Embed](Part_JoinEmbed/ru.md), [Cutout](Part_JoinCutout/ru.md), [Part Boolean](Part_Boolean/ru.md), [Part Thickness](Part_Thickness/ru.md)
+   Name: Part_JoinConnect
+   Name/ru: Part JoinConnect
+   MenuLocation: Деталь - Join - Connect objects
+   Workbenches: [Part](Part_Workbench/ru.md)
+   SeeAlso: [Connect](Part_JoinConnect/ru.md), [Embed](Part_JoinEmbed/ru.md), [Cutout](Part_JoinCutout/ru.md), [Part Boolean](Part_Boolean/ru.md), [Part Thickness](Part_Thickness/ru.md)
 ---
 
 # Part JoinConnect/ru
@@ -93,4 +93,4 @@ The tool itself is implemented in Python, see **/Mod/Part/BOPTools/JoinFeatures.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/ru

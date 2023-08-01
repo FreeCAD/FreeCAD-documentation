@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std SaveCopy
-   Name/fr:Std Enregistrer une copie
-   MenuLocation:Fichier - Enregistrer une copie...
-   Workbenches:Tous
-   SeeAlso:[Std Enregistrer sous](Std_SaveAs/fr.md), [Std Enregistrer](Std_Save/fr.md)
+   Name: Std SaveCopy
+   Name/fr: Std Enregistrer une copie
+   MenuLocation: Fichier - Enregistrer une copie...
+   Workbenches: Tous
+   SeeAlso: [Std Enregistrer sous](Std_SaveAs/fr.md), [Std Enregistrer](Std_Save/fr.md)
 ---
 
 # Std SaveCopy/fr
@@ -69,4 +69,4 @@ doc.saveCopy(fnm)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SaveCopy/fr
+⏵ [documentation index](../README.md) > Std SaveCopy/fr

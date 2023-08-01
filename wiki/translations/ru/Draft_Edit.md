@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Edit
-   Name/ru:Draft Edit
-   MenuLocation:Черчение - Правка
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Name: Draft Edit
+   Name/ru: Draft Edit
+   MenuLocation: Черчение - Правка
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
 ---
 
 # Draft Edit/ru
@@ -179,4 +179,4 @@ There is no Python method to Draft Edit objects. To emulate the results of the c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/ru

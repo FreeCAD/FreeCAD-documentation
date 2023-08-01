@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std BoxSelection
-   Name/ko:표준 개체 선택 상자
-   MenuLocation:편집 - 개체 선택
-   Workbenches:모두
-   Shortcut:**Shift**+**B**
-   SeeAlso:[표준 면 선택](Std_BoxElementSelection/ko.md), [표준 모두 선택](Std_SelectAll/ko.md)
+   Name: Std BoxSelection
+   Name/ko: 표준 개체 선택 상자
+   MenuLocation: 편집 - 개체 선택
+   Workbenches: 모두
+   Shortcut: **Shift**+**B**
+   SeeAlso: [표준 면 선택](Std_BoxElementSelection/ko.md), [표준 모두 선택](Std_SelectAll/ko.md)
 ---
 
 # Std BoxSelection/ko
@@ -43,4 +43,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std BoxSelection/ko
+⏵ [documentation index](../README.md) > Std BoxSelection/ko

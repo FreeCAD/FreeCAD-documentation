@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Curves Pipeshell
-   MenuLocation:Surfaces - Pipeshell 
-   Workbenches:[Curves](Curves_Workbench.md)
+   Name: Curves Pipeshell
+   MenuLocation: Surfaces - Pipeshell 
+   Workbenches: [Curves](Curves_Workbench.md)
 ---
 
 # Curves Pipeshell/en
@@ -98,4 +98,4 @@ The <img alt="" src=images/Curves_Pipeshell.svg  style="width:24px;"> [Curves Pi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves Pipeshell/en
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves Pipeshell/en

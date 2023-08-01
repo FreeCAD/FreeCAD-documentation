@@ -1,9 +1,9 @@
 ---
 - GuiCommand:-cn
-   Name:合并草图
-   MenuLocation:Sketch - 合并草图
-   Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md)
-   Version:0.15
+   Name: 合并草图
+   MenuLocation: Sketch - 合并草图
+   Workbenches: [Sketcher](Sketcher_Workbench/zh-cn.md)
+   Version: 0.15
 ---
 
 # Sketcher MergeSketches/zh-cn
@@ -33,4 +33,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MergeSketches/zh-cn
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MergeSketches/zh-cn

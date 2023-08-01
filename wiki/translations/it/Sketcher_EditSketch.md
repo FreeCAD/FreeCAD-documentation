@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher EditSketch
-   Name/it:Modifica Sketch
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:Sketch - Modifica schizzo
-   SeeAlso:[Esci](Sketcher_LeaveSketch/it.md)
+   Name: Sketcher EditSketch
+   Name/it: Modifica Sketch
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation: Sketch - Modifica schizzo
+   SeeAlso: [Esci](Sketcher_LeaveSketch/it.md)
 ---
 
 # Sketcher EditSketch/it
@@ -66,4 +66,4 @@ Questo comando permette di modificare uno schizzo esistente. Apr la [Finestra di
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/it

@@ -1,6 +1,6 @@
 # Std DlgCustomize/it
 ---
-- GuiCommand:   Name:Std_DlgCustomize   Name/it:Personalizza   MenuLocation:Strumenti - Personalizza...   Workbenches:Tutti   SeeAlso:[Personalizzare l'interfaccia](Interface_Customization/it.md)---
+- GuiCommand:   Name: Std_DlgCustomize   Name/it: Personalizza   MenuLocation: Strumenti - Personalizza...   Workbenches: Tutti   SeeAlso: [Personalizzare l'interfaccia](Interface_Customization/it.md)---
 
 ## Descrizione
 
@@ -33,4 +33,4 @@ Il comando **Personalizza** apre la finestra di dialogo Personalizza dando acces
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgCustomize/it
+⏵ [documentation index](../README.md) > Std DlgCustomize/it

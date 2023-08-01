@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Module/zh-tw
+⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Module/zh-tw

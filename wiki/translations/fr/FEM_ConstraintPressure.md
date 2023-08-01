@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintPressure
-   Name/fr:FEM Contrainte de pression
-   MenuLocation:Modèle - Contraintes mécaniques - Contrainte de pression
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Contrainte de force](FEM_ConstraintForce/fr.md)
+   Name: FEM ConstraintPressure
+   Name/fr: FEM Contrainte de pression
+   MenuLocation: Modèle - Contraintes mécaniques - Contrainte de pression
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Contrainte de force](FEM_ConstraintForce/fr.md)
 ---
 
 # FEM ConstraintPressure/fr
@@ -39,4 +39,4 @@ Applique une contrainte de pression sur une face.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPressure/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPressure/fr

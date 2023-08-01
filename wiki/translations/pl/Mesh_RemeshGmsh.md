@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Mesh RemeshGmsh
-   Name/pl:Siatka: Ulepsz przez Gmsh
-   MenuLocation:Siatki - Ulepszanie ...
-   Workbenches:[Siatka](Mesh_Workbench/pl.md)
-   Version:0.19
-   SeeAlso:[Siatka z kształtu](Mesh_FromPartShape/pl.md)
+   Name: Mesh RemeshGmsh
+   Name/pl: Siatka: Ulepsz przez Gmsh
+   MenuLocation: Siatki - Ulepszanie ...
+   Workbenches: [Siatka](Mesh_Workbench/pl.md)
+   Version: 0.19
+   SeeAlso: [Siatka z kształtu](Mesh_FromPartShape/pl.md)
 ---
 
 # Mesh RemeshGmsh/pl
@@ -45,4 +45,4 @@ Zapoznaj się z informacjami na stronie: [cecha siatki](Mesh_Feature/pl.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemeshGmsh/pl
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemeshGmsh/pl

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Arch Reference
-   MenuLocation:Arch - Reference
-   Workbenches:[Arch](Arch_Workbench.md)
-   SeeAlso:[Arch BuildingPart](Arch_BuildingPart.md)
+   Name: Arch Reference
+   MenuLocation: Arch - Reference
+   Workbenches: [Arch](Arch_Workbench.md)
+   SeeAlso: [Arch BuildingPart](Arch_BuildingPart.md)
 ---
 
 # Arch Reference
@@ -55,4 +55,4 @@ Arch.makeReference("/path/to/some/file.FSCtd","myPart")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Reference
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Reference

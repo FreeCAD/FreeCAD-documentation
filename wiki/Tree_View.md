@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Tree View
+⏵ [documentation index](../README.md) > Tree View

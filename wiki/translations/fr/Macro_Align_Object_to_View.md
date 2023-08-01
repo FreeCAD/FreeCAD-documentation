@@ -78,4 +78,4 @@ Merci rentlau_64 pour avoir simplifié le code
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Align Object to View/fr
+⏵ [documentation index](../README.md) > Macro Align Object to View/fr

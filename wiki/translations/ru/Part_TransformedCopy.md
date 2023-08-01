@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Создать преобразованную копию
-   Name:Part_TransformedCopy
-   MenuLocation:Деталь - Создать копию - Создать преобразованную копию
-   Workbenches:[Part](Part_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Создать простую копию](Part_SimpleCopy/ru.md), [Создать копию элемента формы](Part_ElementCopy/ru.md), [Улучшить форму](Part_RefineShape/ru.md)
+   Name/ru: Создать преобразованную копию
+   Name: Part_TransformedCopy
+   MenuLocation: Деталь - Создать копию - Создать преобразованную копию
+   Workbenches: [Part](Part_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Создать простую копию](Part_SimpleCopy/ru.md), [Создать копию элемента формы](Part_ElementCopy/ru.md), [Улучшить форму](Part_RefineShape/ru.md)
 ---
 
 # Part TransformedCopy/ru
@@ -35,4 +35,4 @@ To produce other non-parametric copies use **<img src="images/Part_SimpleCopy.sv
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part TransformedCopy/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part TransformedCopy/ru

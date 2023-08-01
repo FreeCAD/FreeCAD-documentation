@@ -1,6 +1,6 @@
 # Draft Offset/cs
 ---
-- GuiCommand:   Name:Draft Offset   Name/cs:Kreslení Odsadit   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft - Offset   Shortcut:O S   SeeAlso:[Part 2D Offset](Part_Offset2D/cs.md)---
+- GuiCommand:   Name: Draft Offset   Name/cs: Kreslení Odsadit   Workbenches: [Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation: Draft - Offset   Shortcut: O S   SeeAlso: [Part 2D Offset](Part_Offset2D/cs.md)---
 
 
 </div>
@@ -130,4 +130,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Offset/cs
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Offset/cs

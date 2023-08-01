@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintMidPoint
-   Name/de:Assembly3 Mittelpunkt
-   Icon:Assembly_ConstraintMidPoint.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintMidPoint
+   Name/de: Assembly3 Mittelpunkt
+   Icon: Assembly_ConstraintMidPoint.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintMidPoint/de
@@ -29,4 +29,4 @@ Die Linienelemente werden mit Werkzeugen der <img alt="" src=images/Workbench_Dr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintMidPoint/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintMidPoint/de

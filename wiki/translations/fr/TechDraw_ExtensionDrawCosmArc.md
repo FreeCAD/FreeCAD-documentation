@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionDrawCosmArc
-   Name/fr:TechDraw Arc
-   MenuLocation:TechDraw - Extensions : taraudages/filetages - Arc
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw Cercle](TechDraw_ExtensionDrawCosmCircle/fr.md)
+   Name: TechDraw ExtensionDrawCosmArc
+   Name/fr: TechDraw Arc
+   MenuLocation: TechDraw - Extensions : taraudages/filetages - Arc
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw Cercle](TechDraw_ExtensionDrawCosmCircle/fr.md)
 ---
 
 # TechDraw ExtensionDrawCosmArc/fr
@@ -42,4 +42,4 @@ L\'outil **TechDraw Arc** ajoute un arc cosmétique dans le sens inverse des aig
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDrawCosmArc/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDrawCosmArc/fr

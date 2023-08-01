@@ -24,4 +24,4 @@ See [Std LinkMake](Std_LinkMake#Properties.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > App Link
+⏵ [documentation index](../README.md) > App Link

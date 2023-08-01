@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet_MergeCells
-   Name/it:Unisci le celle
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)
-   MenuLocation:Spreadsheet - Unisci le celle
-   Version:0.17
+   Name: Spreadsheet_MergeCells
+   Name/it: Unisci le celle
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/it.md)
+   MenuLocation: Spreadsheet - Unisci le celle
+   Version: 0.17
 ---
 
 # Spreadsheet MergeCells/it
@@ -34,4 +34,4 @@ Lo strumento <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width:16p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells/it
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells/it

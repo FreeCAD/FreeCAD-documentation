@@ -34,4 +34,4 @@ This category shows documentation articles dealing with python scripting, which 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Poweruser Documentation/ru
+⏵ [documentation index](../README.md) > Category:Poweruser Documentation/ru

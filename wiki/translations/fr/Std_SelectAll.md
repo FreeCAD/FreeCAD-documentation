@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std SelectAll
-   Name/fr:Std Tout sélectionner 
-   MenuLocation:Édition - Tout sélectionner
-   Workbenches:Tous
-   SeeAlso:[Sélection par boîte](Std_BoxSelection/fr.md), [Sélection d'éléments](Std_BoxElementSelection/fr.md)
+   Name: Std SelectAll
+   Name/fr: Std Tout sélectionner 
+   MenuLocation: Édition - Tout sélectionner
+   Workbenches: Tous
+   SeeAlso: [Sélection par boîte](Std_BoxSelection/fr.md), [Sélection d'éléments](Std_BoxElementSelection/fr.md)
 ---
 
 # Std SelectAll/fr
@@ -32,4 +32,4 @@ La commande **Std Tout Sélectionner** sélectionne tous les objets dans la [vue
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SelectAll/fr
+⏵ [documentation index](../README.md) > Std SelectAll/fr

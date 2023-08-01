@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintTransform
-   Name/fr:FEM Contrainte de transformation
-   MenuLocation:Modèle - Contraintes géométriques - Contrainte de transformation
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Contrainte de rotation plane](FEM_ConstraintPlaneRotation/fr.md)
+   Name: FEM ConstraintTransform
+   Name/fr: FEM Contrainte de transformation
+   MenuLocation: Modèle - Contraintes géométriques - Contrainte de transformation
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Contrainte de rotation plane](FEM_ConstraintPlaneRotation/fr.md)
 ---
 
 # FEM ConstraintTransform/fr
@@ -47,4 +47,4 @@ Transforme le système de coordonnées d\'une face en un système de coordonnée
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FEM ConstraintTransform/fr
+⏵ [documentation index](../README.md) > FEM ConstraintTransform/fr

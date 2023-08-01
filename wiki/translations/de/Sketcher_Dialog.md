@@ -1,8 +1,4 @@
 # Sketcher Dialog/de
-{{TOCright}}
-
-
-
 ## Einleitung
 
 Während eine Skizze bearbeitet wird, oder anders gesagt, während die Skizze im Bearbeitungsmodus ist, wird der Sketcher-Dialog auf der Registerkarte Aufgaben der [Combo-Ansicht](Combo_view/de.md) angezeigt.
@@ -438,4 +434,4 @@ Vorhandene Optionen:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Dialog/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Dialog/de

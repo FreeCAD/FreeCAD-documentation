@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Defeaturing
-   Name/fr:Part Supprimer la fonctionnalité
-   MenuLocation:Part - Supprimer la fonctionnalité
-   Workbenches:[Part](Part_Workbench/fr.md)
-   Version:0.18
-   SeeAlso:[Atelier Defeaturing](Defeaturing_Workbench/fr.md), [Macro Parametric Defeaturing](Macro_Parametric_Defeaturing/fr.md)
+   Name: Part Defeaturing
+   Name/fr: Part Supprimer la fonctionnalité
+   MenuLocation: Part - Supprimer la fonctionnalité
+   Workbenches: [Part](Part_Workbench/fr.md)
+   Version: 0.18
+   SeeAlso: [Atelier Defeaturing](Defeaturing_Workbench/fr.md), [Macro Parametric Defeaturing](Macro_Parametric_Defeaturing/fr.md)
 ---
 
 # Part Defeaturing/fr
@@ -39,4 +39,4 @@ Pour être disponible, cet outil nécessite que FreeCAD soit basé sur Open Casc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Defeaturing/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Defeaturing/fr

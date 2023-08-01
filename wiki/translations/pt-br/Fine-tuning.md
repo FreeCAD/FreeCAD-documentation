@@ -1,6 +1,4 @@
 # Fine-tuning/pt-br
-{{TOCright}}
-
 ## Introduction
 
 The FreeCAD [Preferences Editor](Preferences_Editor.md) under menu **Edit → Preferences** is commonly used to set and manipulate the FreeCAD parameters table.
@@ -152,4 +150,4 @@ The label in Sketcher that displays the current status of the constraints (e.g. 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Fine-tuning/pt-br
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Fine-tuning/pt-br

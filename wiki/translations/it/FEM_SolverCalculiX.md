@@ -1,6 +1,6 @@
 # FEM SolverCalculiX/it
 ---
-- GuiCommand:   Name:FEM_SolverCalculiX   Name/it:Risolutore CalculiX   Icon:Fem_Solver.svg   MenuLocation: Solve - Risolutore CalculiX sperimentale   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:   Name: FEM_SolverCalculiX   Name/it: Risolutore CalculiX   Icon: Fem_Solver.svg   MenuLocation:  Solve - Risolutore CalculiX sperimentale   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 
 </div>
@@ -28,4 +28,4 @@ The **Solver CalculiX (new framework)** command creates a SolverCalculix object,
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverCalculiX/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverCalculiX/it

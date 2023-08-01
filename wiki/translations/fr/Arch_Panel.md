@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Arch Panel
-   Name/fr:Arch Panneau
-   MenuLocation:Arch - Outils pour les  panneaux - Panneau
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   Shortcut:**P** **A**
-   Version:0.15
-   SeeAlso:[Arch Découpe de panneau](Arch_Panel_Cut/fr.md), [Arch Feuille de panneaux](Arch_Panel_Sheet/fr.md)
+   Name: Arch Panel
+   Name/fr: Arch Panneau
+   MenuLocation: Arch - Outils pour les  panneaux - Panneau
+   Workbenches: [Arch](Arch_Workbench/fr.md)
+   Shortcut: **P** **A**
+   Version: 0.15
+   SeeAlso: [Arch Découpe de panneau](Arch_Panel_Cut/fr.md), [Arch Feuille de panneaux](Arch_Panel_Sheet/fr.md)
 ---
 
 # Arch Panel/fr
@@ -104,4 +104,4 @@ Panel = Arch.makePanel(Rect, thickness=36)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel/fr

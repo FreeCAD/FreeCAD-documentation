@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw DimensionRepair
-   Name/de:TechDraw Maßreparatur
-   MenuLocation:TechDraw - Maßeinträge - Maßreferenzen reparieren
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.21
-   SeeAlso:[TechDraw Längenmaß](TechDraw_LengthDimension/de.md)
+   Name: TechDraw DimensionRepair
+   Name/de: TechDraw Maßreparatur
+   MenuLocation: TechDraw - Maßeinträge - Maßreferenzen reparieren
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Version: 0.21
+   SeeAlso: [TechDraw Längenmaß](TechDraw_LengthDimension/de.md)
 ---
 
 # TechDraw DimensionRepair/de
@@ -56,4 +56,4 @@ Das Werkzeug TechDraw Maßreparatur kann nicht in [Makros](Macros/de.md) oder vo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DimensionRepair/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DimensionRepair/de

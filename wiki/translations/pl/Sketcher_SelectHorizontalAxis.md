@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectHorizontalAxis
-   Name/pl:Szkicownik: Wybierz oś poziomą
-   MenuLocation:Szkic - Narzędzia szkicownika - Wybierz oś poziomą
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**Z** **H**
-   Version:0.15
+   Name: Sketcher SelectHorizontalAxis
+   Name/pl: Szkicownik: Wybierz oś poziomą
+   MenuLocation: Szkic - Narzędzia szkicownika - Wybierz oś poziomą
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **Z** **H**
+   Version: 0.15
 ---
 
 # Sketcher SelectHorizontalAxis/pl
@@ -35,4 +35,4 @@ Zaznacza oś poziomą szkicu.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectHorizontalAxis/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectHorizontalAxis/pl

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Paste
-   Name/de:Std Einfügen
-   MenuLocation:Bearbeiten - Einfügen
-   Workbenches:Alle
-   Shortcut:** Strg**+**V**
-   SeeAlso:[Std Ausschneiden](Std_Cut/de.md), [Std Kopieren](Std_Copy/de.md), [Std AuswahlDuplizieren](Std_DuplicateSelection/de.md)
+   Name: Std Paste
+   Name/de: Std Einfügen
+   MenuLocation: Bearbeiten - Einfügen
+   Workbenches: Alle
+   Shortcut: ** Strg**+**V**
+   SeeAlso: [Std Ausschneiden](Std_Cut/de.md), [Std Kopieren](Std_Copy/de.md), [Std AuswahlDuplizieren](Std_DuplicateSelection/de.md)
 ---
 
 # Std Paste/de
@@ -52,4 +52,4 @@ Der Befehl **Std Einfügen** fügt Objekte aus der Zwischenablage in das aktuell
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Paste/de
+⏵ [documentation index](../README.md) > Std Paste/de

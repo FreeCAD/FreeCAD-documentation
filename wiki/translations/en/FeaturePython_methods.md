@@ -1,6 +1,4 @@
 # FeaturePython methods/en
-{{TOCright}}
-
 ## Introduction
 
 This page serves as a reference for the available overridable methods on [Create a FeaturePython object part I](Create_a_FeaturePython_object_part_I.md) or [Scripted objects](Scripted_objects.md).
@@ -67,4 +65,4 @@ Note, getPyObject() and init() are special-cases and don\'t follow the above heu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FeaturePython methods/en
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FeaturePython methods/en

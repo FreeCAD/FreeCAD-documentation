@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch MeshToShape
-   Name/it:Da Mesh a Forma
-   Workbenches:[Architettura](Arch_Workbench/it.md)
-   MenuLocation:Arch - Utilità - Da Mesh a Forma
-   SeeAlso:[Dividi mesh](Arch_SplitMesh/it.md), [Rimuovi Forma](Arch_RemoveShape/it.md)
+   Name: Arch MeshToShape
+   Name/it: Da Mesh a Forma
+   Workbenches: [Architettura](Arch_Workbench/it.md)
+   MenuLocation: Arch - Utilità - Da Mesh a Forma
+   SeeAlso: [Dividi mesh](Arch_SplitMesh/it.md), [Rimuovi Forma](Arch_RemoveShape/it.md)
 ---
 
 # Arch MeshToShape/it
@@ -104,4 +104,4 @@ new_obj = Arch.meshToShape(Box)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/it

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Constraint Symmetric
-   Name/es:Restricción Simetría
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation:Croquis - Restricciones del Croquizador - Restricción de Simetría
-   Shortcut:S
-   SeeAlso:[Restricción Paralela](Sketcher_ConstrainParallel/es.md)
+   Name: Constraint Symmetric
+   Name/es: Restricción Simetría
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   MenuLocation: Croquis - Restricciones del Croquizador - Restricción de Simetría
+   Shortcut: S
+   SeeAlso: [Restricción Paralela](Sketcher_ConstrainParallel/es.md)
 ---
 
 # Sketcher ConstrainSymmetric/es
@@ -97,4 +97,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/es

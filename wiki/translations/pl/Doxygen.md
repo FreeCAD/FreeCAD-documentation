@@ -2,7 +2,7 @@
 ## Informacje o 
 
 
-{{TOCright}}
+
 
 Doxygen jest popularnym narzędziem do generowania dokumentacji z adnotacji w źródłach C++; obsługuje również inne popularne języki programowania, takie jak C#, PHP, Java i Python. Odwiedź stronę [Doxygen](http://www.doxygen.nl/), aby dowiedzieć się więcej o systemie, i zapoznaj się z [Podręcznikiem Doxygen](http://www.doxygen.nl/manual/index.html), aby uzyskać pełne informacje.
 
@@ -912,4 +912,4 @@ See this answer in [Stackoverflow](https://stackoverflow.com/a/35377654) for oth
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > [3rd Party](Category_3rd Party.md) > Doxygen/pl
+⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > [3rd Party](Category_3rd Party.md) > Doxygen/pl

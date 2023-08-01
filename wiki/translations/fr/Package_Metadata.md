@@ -1,6 +1,4 @@
 # Package Metadata/fr
-{{TOCright}}
-
 ## Introduction
 
 A partir de la version 0.20 de FreeCAD, les extensions externes (ateliers, macros, et kits de préférences) peuvent être distribuées avec un fichier de métadonnées décrivant le contenu du package. Si le fichier \"package.xml\" est présent, il est lu par FreeCAD et son contenu est utilisé dans diverses parties de l\'interface utilisateur. Il est pour l\'instant facultatif pour les ateliers et les macros, et obligatoire pour les kits de préférences. Cette page documente le format de ce fichier de métadonnées. Le format (et le contenu de cette page Wiki) est basé sur [REP 149](https://ros.org/reps/rep-0149.html).
@@ -427,4 +425,4 @@ Un paquet avec des dépendances :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Package Metadata/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Package Metadata/fr

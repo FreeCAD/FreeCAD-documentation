@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Downgrade
-   Name/it:Declassa
-   MenuLocation:Modifiche - Declassa
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:**D** **N**
-   SeeAlso:[Promuovi](Draft_Upgrade/it.md), [Sottrazione booleana](Part_Cut/it.md)
+   Name: Draft Downgrade
+   Name/it: Declassa
+   MenuLocation: Modifiche - Declassa
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut: **D** **N**
+   SeeAlso: [Promuovi](Draft_Upgrade/it.md), [Sottrazione booleana](Part_Cut/it.md)
 ---
 
 # Draft Downgrade/it
@@ -84,4 +84,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Downgrade/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Downgrade/it

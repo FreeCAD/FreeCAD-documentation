@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ViewFullscreen
-   Name/it:Schermo intero
-   MenuLocation:Visualizza - Finestra del documento - Schermo intero
-   Workbenches:Tutti
-   Shortcut:**F11**
-   SeeAlso:[Finestra del documento](Std_ViewDockUndockFullscreen/it.md), [Vista principale a schermo intero](Std_MainFullscreen/it.md)
+   Name: Std ViewFullscreen
+   Name/it: Schermo intero
+   MenuLocation: Visualizza - Finestra del documento - Schermo intero
+   Workbenches: Tutti
+   Shortcut: **F11**
+   SeeAlso: [Finestra del documento](Std_ViewDockUndockFullscreen/it.md), [Vista principale a schermo intero](Std_MainFullscreen/it.md)
 ---
 
 # Std ViewFullscreen/it
@@ -44,4 +44,4 @@ Il comando **Vista 3D a schermo intero** commuta la [Vista 3D](3D_view/it.md) da
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewFullscreen/it
+⏵ [documentation index](../README.md) > Std ViewFullscreen/it

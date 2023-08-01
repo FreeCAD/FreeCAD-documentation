@@ -1,6 +1,4 @@
 # Topological data scripting/ru
-{{TOCright}}
-
 ## Введение
 
 Здесь мы объясним вам, как управлять [верстаком Part](Part_Workbench/ru.md) непосредственно из интерпретатора Python FreeCAD или из любого внешнего сценария. Основы создания сценариев топологических данных описаны в [объяснение концепции модуля Part](Part_Workbench/ru#Explaining_the_concepts.md). Обязательно просмотрите раздел [Scripting](Scripting/ru.md) и страницы [Основы скриптинга FreeCAD](FreeCAD_Scripting_Basics/ru.md), если вам нужна дополнительная информация о том, как работает python-скриптинг во FreeCAD .
@@ -1432,4 +1430,4 @@ s.read("test.stp")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Topological data scripting/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Topological data scripting/ru

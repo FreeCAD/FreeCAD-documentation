@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std FreeCADWebsite
-   MenuLocation:Help - FreeCAD Website
-   Workbenches:All
-   SeeAlso:[Std FreeCADUserHub](Std_FreeCADUserHub.md), [Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub.md), [Std FreeCADForum](Std_FreeCADForum.md), [Std FreeCADFAQ](Std_FreeCADFAQ.md)
+   Name: Std FreeCADWebsite
+   MenuLocation: Help - FreeCAD Website
+   Workbenches: All
+   SeeAlso: [Std FreeCADUserHub](Std_FreeCADUserHub.md), [Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub.md), [Std FreeCADForum](Std_FreeCADForum.md), [Std FreeCADFAQ](Std_FreeCADFAQ.md)
 ---
 
 # Std FreeCADWebsite/en
@@ -29,4 +29,4 @@ Currently the command points to [<https://www.freecad.org>](https://www.freecad.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADWebsite/en
+⏵ [documentation index](../README.md) > Std FreeCADWebsite/en

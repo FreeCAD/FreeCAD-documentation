@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Fasteners ChamferHole
-   MenuLocation:Fasteners - Make countersunk
-   Workbenches:[Fasteners](Fasteners_Workbench.md)
+   Name: Fasteners ChamferHole
+   MenuLocation: Fasteners - Make countersunk
+   Workbenches: [Fasteners](Fasteners_Workbench.md)
 ---
 
 # Fasteners ChamferHole
@@ -50,4 +50,4 @@ The <img alt="" src=images/Fasteners_ChamferHole.svg  style="width:24px;"> **Fas
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners ChamferHole
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners ChamferHole

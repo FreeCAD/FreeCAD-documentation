@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft ToggleContinueMode
-   Name/it:Modalità Continua
-   MenuLocation:Utilità - Modalità Continua
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Name: Draft ToggleContinueMode
+   Name/it: Modalità Continua
+   MenuLocation: Utilità - Modalità Continua
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
 ---
 
 # Draft ToggleContinueMode/it
@@ -27,4 +27,4 @@ Il comando <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:24p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode/it

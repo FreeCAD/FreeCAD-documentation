@@ -1,6 +1,4 @@
 # Draft OCA/fr
-{{TOCright}}
-
 ## Description
 
 Draft OCA est un module logiciel utilisé par <img alt="" src=images/Std_Open.svg  style="width:24px;"> [Std Ouvrir](Std_Open/fr.md), <img alt="" src=images/Std_Import.svg  style="width:24px;"> [Std Importer](Std_Import.md) et <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Exporter](Std_Export.md) pour gérer le [format de fichier OCA](http://groups.google.com/group/open_cad_format).
@@ -62,4 +60,4 @@ importOCA.export(objects, "/home/user/Pictures/myfile.oca")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft OCA/fr
+⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft OCA/fr

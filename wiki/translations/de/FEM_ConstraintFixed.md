@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintFixed
-   Name/de:FEM RandbedingungFestsetzen
-   MenuLocation:Modell - Mechanische Randbedingungen - Randbedingung Festsetzen
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   SeeAlso:[FEM RandbedingungKontakt](FEM_ConstraintContact/de.md)
+   Name: FEM ConstraintFixed
+   Name/de: FEM RandbedingungFestsetzen
+   MenuLocation: Modell - Mechanische Randbedingungen - Randbedingung Festsetzen
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   SeeAlso: [FEM RandbedingungKontakt](FEM_ConstraintContact/de.md)
 ---
 
 # FEM ConstraintFixed/de
@@ -37,4 +37,4 @@ Objektarten können nicht innerhalb derselben Randbedingung gemischt werden. Fü
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintFixed/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintFixed/de

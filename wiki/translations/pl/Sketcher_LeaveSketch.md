@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher LeaveSketch
-   Name/pl:Szkicownik: Zamknij szkic
-   MenuLocation:Szkic / Projekt części - Opuść szkic
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md), [Projekt części](PartDesign_Workbench/pl.md)
-   SeeAlso:[Edytuj szkic](Sketcher_EditSketch/pl.md)
+   Name: Sketcher LeaveSketch
+   Name/pl: Szkicownik: Zamknij szkic
+   MenuLocation: Szkic / Projekt części - Opuść szkic
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md), [Projekt części](PartDesign_Workbench/pl.md)
+   SeeAlso: [Edytuj szkic](Sketcher_EditSketch/pl.md)
 ---
 
 # Sketcher LeaveSketch/pl
@@ -36,4 +36,4 @@ Polecenie opuszczenia szkicu kończy tryb edycji szkicu i zamyka zakładkę [pan
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/pl

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Rectangle
-   Name/pl:Draft: Prostokąt
-   MenuLocation:Drafting - Prostokąt
-   Workbenches:[Rysunek roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut:**R** **E**
-   Version:0.7
+   Name: Draft Rectangle
+   Name/pl: Draft: Prostokąt
+   MenuLocation: Drafting - Prostokąt
+   Workbenches: [Rysunek roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut: **R** **E**
+   Version: 0.7
 ---
 
 # Draft Rectangle/pl
@@ -130,4 +130,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rectangle/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rectangle/pl

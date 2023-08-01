@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateEllipseBy3Points
-   Name/fr:Sketcher Ellipse par 3 points
-   MenuLocation:Esquisse - Géométries d'esquisse - Créer une ellipse via 3 points
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **3** **E**
-   Version:0.15
-   SeeAlso:[Sketcher Ellipse par son centre](Sketcher_CreateEllipseByCenter/fr.md), [Sketcher Cercle](Sketcher_CreateCircle/fr.md), [Sketcher Arc d'ellipse](Sketcher_CreateArcOfEllipse/fr.md)
+   Name: Sketcher CreateEllipseBy3Points
+   Name/fr: Sketcher Ellipse par 3 points
+   MenuLocation: Esquisse - Géométries d'esquisse - Créer une ellipse via 3 points
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **3** **E**
+   Version: 0.15
+   SeeAlso: [Sketcher Ellipse par son centre](Sketcher_CreateEllipseByCenter/fr.md), [Sketcher Cercle](Sketcher_CreateCircle/fr.md), [Sketcher Arc d'ellipse](Sketcher_CreateArcOfEllipse/fr.md)
 ---
 
 # Sketcher CreateEllipseBy3Points/fr
@@ -52,4 +52,4 @@ Les lignes bleues sont des lignes de construction aléatoires à des fins d'illu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseBy3Points/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseBy3Points/fr

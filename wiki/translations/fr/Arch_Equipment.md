@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Equipment
-   Name/fr:Arch Équipement
-   MenuLocation:Arch - Équipement
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   Shortcut:**E** **Q**
-   SeeAlso:[Arch 3 vues depuis maillage](Arch_3Views/fr.md)
+   Name: Arch Equipment
+   Name/fr: Arch Équipement
+   MenuLocation: Arch - Équipement
+   Workbenches: [Arch](Arch_Workbench/fr.md)
+   Shortcut: **E** **Q**
+   SeeAlso: [Arch 3 vues depuis maillage](Arch_3Views/fr.md)
 ---
 
 # Arch Equipment/fr
@@ -79,4 +79,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/fr

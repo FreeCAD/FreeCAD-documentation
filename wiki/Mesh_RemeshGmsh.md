@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh RemeshGmsh
-   MenuLocation:Meshes - Refinement...
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   Version:0.19
-   SeeAlso:[Mesh FromPartShape](Mesh_FromPartShape.md)
+   Name: Mesh RemeshGmsh
+   MenuLocation: Meshes - Refinement...
+   Workbenches: [Mesh](Mesh_Workbench.md)
+   Version: 0.19
+   SeeAlso: [Mesh FromPartShape](Mesh_FromPartShape.md)
 ---
 
 # Mesh RemeshGmsh
@@ -41,4 +41,4 @@ See: [Mesh Feature](Mesh_Feature.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemeshGmsh
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemeshGmsh

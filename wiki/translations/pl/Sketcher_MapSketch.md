@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher_MapSketch
-   Name/pl:Szkicownik: Mapuj szkic na powierzchnię
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md)
-   MenuLocation:Projekt Części / Szkicownik - Mapuj szkic na powierzchnię ...
-   SeeAlso:[Utwórz szkic](Sketcher_NewSketch/pl.md)
+   Name: Sketcher_MapSketch
+   Name/pl: Szkicownik: Mapuj szkic na powierzchnię
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md)
+   MenuLocation: Projekt Części / Szkicownik - Mapuj szkic na powierzchnię ...
+   SeeAlso: [Utwórz szkic](Sketcher_NewSketch/pl.md)
 ---
 
 # Sketcher MapSketch/pl
@@ -65,4 +65,4 @@ Teraz wybieramy górną powierzchnię wyciągnięcia *(Pad)*, kolejnie wybieramy
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/pl

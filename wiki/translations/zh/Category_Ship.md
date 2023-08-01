@@ -10,4 +10,4 @@ This category lists pages related to the [Ship Workbench/zh](Ship_Workbench/zh.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Ship/zh
+⏵ [documentation index](../README.md) > Category:Ship/zh

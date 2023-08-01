@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_LinkMakeRelative
-   Name/it:Crea un link relativo
-   MenuLocation:Nessuna
-   Workbenches:Tutti
-   Version:0.19
-   SeeAlso:[Parte](Std_Part/it.md), [Gruppo](Std_Group/it.md), [Crea un link](Std_LinkMake/it.md)
+   Name: Std_LinkMakeRelative
+   Name/it: Crea un link relativo
+   MenuLocation: Nessuna
+   Workbenches: Tutti
+   Version: 0.19
+   SeeAlso: [Parte](Std_Part/it.md), [Gruppo](Std_Group/it.md), [Crea un link](Std_LinkMake/it.md)
 ---
 
 # Std LinkMakeRelative/it
@@ -69,4 +69,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkMakeRelative/it
+⏵ [documentation index](../README.md) > Std LinkMakeRelative/it

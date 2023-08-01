@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std DlgCustomize
-   Name/pl:Std: Dostosuj
-   MenuLocation:Przybory - Dostosuj ...
-   Workbenches:wszystkie
-   SeeAlso:[Dostosowywanie interfejsu użytkownika](Interface_Customization/pl.md)
+   Name: Std DlgCustomize
+   Name/pl: Std: Dostosuj
+   MenuLocation: Przybory - Dostosuj ...
+   Workbenches: wszystkie
+   SeeAlso: [Dostosowywanie interfejsu użytkownika](Interface_Customization/pl.md)
 ---
 
 # Std DlgCustomize/pl
@@ -44,4 +44,4 @@ Polecenie **Dostosuj** otwiera okno dialogowe Dostosuj dając dostęp do kilku o
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgCustomize/pl
+⏵ [documentation index](../README.md) > Std DlgCustomize/pl

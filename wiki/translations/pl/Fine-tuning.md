@@ -1,8 +1,4 @@
 # Fine-tuning/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 [Edytor preferencji](Preferences_Editor/pl.md) FreeCAD w menu **Edycja → Preferencje** jest powszechnie używany do wprowadzania i edycji tabeli parametrów programu.
@@ -199,4 +195,4 @@ Etykieta w Szkicowniku, która wyświetla aktualny stan wiązań (np. \" Nie w p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Fine-tuning/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Fine-tuning/pl

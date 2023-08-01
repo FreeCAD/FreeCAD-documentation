@@ -1,6 +1,4 @@
 # SVG/de
-{{TOCright}}
-
 ## Beschreibung
 
 [Skalierbare Vektorgrafiken](https://de.wikipedia.org/wiki/Scalable_Vector_Graphics) (SVG) gehören zu den vektorbasierten Bildformaten für zweidimensionale Grafiken.
@@ -24,4 +22,4 @@ FreeCAD ist primär eine 3D-Modellierungsanwendung und besitzt daher nicht viele
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > [File_Formats](Category_File_Formats.md) > SVG/de
+⏵ [documentation index](../README.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > [File_Formats](Category_File_Formats.md) > SVG/de

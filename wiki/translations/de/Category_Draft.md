@@ -44,4 +44,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Draft/de
+⏵ [documentation index](../README.md) > Category:Draft/de

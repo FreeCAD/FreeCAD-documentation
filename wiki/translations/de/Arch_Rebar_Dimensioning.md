@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar Dimensioning
-   MenuLocation:Arch - Rebar
-   Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
-   SeeAlso:[Reinforcement Drawing](Arch_Rebar_Drawing.md), [Reinforcement Addon](Reinforcement_Addon.md)
-   Version:0.19
+   Name: Arch Rebar Dimensioning
+   MenuLocation: Arch - Rebar
+   Workbenches: [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   SeeAlso: [Reinforcement Drawing](Arch_Rebar_Drawing.md), [Reinforcement Addon](Reinforcement_Addon.md)
+   Version: 0.19
 ---
 
 # Arch Rebar Dimensioning/de
@@ -351,4 +351,4 @@ for visible_rebar in visible_rebars:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Dimensioning/de
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Dimensioning/de

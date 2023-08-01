@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_ViewIsometric
-   Name/it:Vista isometrica
-   MenuLocation:Visualizza - Viste standard - Assonometria - Isometrica
-   Workbenches:Tutti
-   Shortcut:**0**
-   SeeAlso:[Vista ortografica](Std_OrthographicCamera/it.md), [Assonometria dimetrica](Std_ViewDimetric/it.md), [Assonometria trimetrica](Std_ViewTrimetric/it.md)
+   Name: Std_ViewIsometric
+   Name/it: Vista isometrica
+   MenuLocation: Visualizza - Viste standard - Assonometria - Isometrica
+   Workbenches: Tutti
+   Shortcut: **0**
+   SeeAlso: [Vista ortografica](Std_OrthographicCamera/it.md), [Assonometria dimetrica](Std_ViewDimetric/it.md), [Assonometria trimetrica](Std_ViewTrimetric/it.md)
 ---
 
 # Std ViewIsometric/it
@@ -60,4 +60,4 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewIsometric/it
+⏵ [documentation index](../README.md) > Std ViewIsometric/it

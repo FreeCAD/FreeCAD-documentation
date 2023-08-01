@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > OCCT
+⏵ [documentation index](../README.md) > OCCT

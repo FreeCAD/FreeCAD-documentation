@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw DimensionRepair
-   Name/fr:TechDraw Réparation des cotes
-   MenuLocation:TechDraw - Dimensions - Réparer les références d'une cote
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.21
-   SeeAlso:[TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md)
+   Name: TechDraw DimensionRepair
+   Name/fr: TechDraw Réparation des cotes
+   MenuLocation: TechDraw - Dimensions - Réparer les références d'une cote
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Version: 0.21
+   SeeAlso: [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md)
 ---
 
 # TechDraw DimensionRepair/fr
@@ -54,4 +54,4 @@ L\'outil TechDraw Réparation des cotes ne peut pas être utilisé dans des [mac
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DimensionRepair/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DimensionRepair/fr

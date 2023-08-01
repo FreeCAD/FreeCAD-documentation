@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Ship New‏‎
-   Name/de:Schiff Neu‏‎
-   Icon:Ship_Instance.svg
-   MenuLocation:Schiffskonstruktion - Ein neues Schiff erstellen
-   Workbenches:[Schiff](Ship_Workbench/de.md)|
+   Name: Ship New‏‎
+   Name/de: Schiff Neu‏‎
+   Icon: Ship_Instance.svg
+   MenuLocation: Schiffskonstruktion - Ein neues Schiff erstellen
+   Workbenches: [Schiff](Ship_Workbench/de.md)|
 Shortcut=
-   SeeAlso:
+   SeeAlso: 
 ---
 
 # Ship CreateShip/de
@@ -100,4 +100,4 @@ Wenn du die **Accept** Schaltfläche drückst, wird eine neue Schiffsinstanz mit
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship CreateShip/de
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship CreateShip/de

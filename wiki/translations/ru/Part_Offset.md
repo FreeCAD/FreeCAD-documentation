@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part_Offset
-   Name/ru:Смещение 3D
-   MenuLocation:Деталь - Смещение 3D
-   Workbenches:[Верстак Part](Part_Workbench/ru.md)
-   SeeAlso:[Толщина](Part_Thickness/ru.md)
+   Name: Part_Offset
+   Name/ru: Смещение 3D
+   MenuLocation: Деталь - Смещение 3D
+   Workbenches: [Верстак Part](Part_Workbench/ru.md)
+   SeeAlso: [Толщина](Part_Thickness/ru.md)
 ---
 
 # Part Offset/ru
@@ -75,4 +75,4 @@ same shape with a 3D Offset as SKIN and *filled* offset
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/ru

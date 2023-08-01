@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Move
-   MenuLocation:Modification - Move
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:**M** **V**
-   Version:0.7
-   SeeAlso:[Draft SubelementHighlight](Draft_SubelementHighlight.md)
+   Name: Draft Move
+   MenuLocation: Modification - Move
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut: **M** **V**
+   Version: 0.7
+   SeeAlso: [Draft SubelementHighlight](Draft_SubelementHighlight.md)
 ---
 
 # Draft Move
@@ -114,4 +114,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move

@@ -1,6 +1,6 @@
 # Part Circle/it
 ---
-- GuiCommand:   Name:Part_Circle   Name/it:Cerchio   MenuLocation:Parte - [Workbenches:[[Part_Workbench/it   Parte](Part_CreatePrimitives/it___Crea_primitive]]_-_Cerchio.md)|SeeAlso:---
+- GuiCommand:   Name: Part_Circle   Name/it: Cerchio   MenuLocation: Parte - [Workbenches: [[Part_Workbench/it   Parte](Part_CreatePrimitives/it___Crea_primitive]]_-_Cerchio.md)|SeeAlso: ---
 
 
 </div>
@@ -113,4 +113,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/it

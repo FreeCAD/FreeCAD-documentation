@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft ShowSnapBar
-   Name/ru:Draft ShowSnapBar
-   MenuLocation:Черчение - Утилиты - Показывать панель привязок
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Name: Draft ShowSnapBar
+   Name/ru: Draft ShowSnapBar
+   MenuLocation: Черчение - Утилиты - Показывать панель привязок
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
 ---
 
 # Draft ShowSnapBar/ru
@@ -36,4 +36,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShowSnapBar/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShowSnapBar/ru

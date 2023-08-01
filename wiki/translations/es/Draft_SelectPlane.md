@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft SelectPlane
-   Name/es:Borrador SeleccionarPlano
-   MenuLocation:Borrador -> Seleccionar Plano
-   Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   Shortcut:**W** **P**
-   SeeAlso:[Borrador PlanoTrabajoProxy](Draft_WorkingPlaneProxy/es.md), [Borrador AlternarRejilla](Draft_ToggleGrid/es.md)
+   Name: Draft SelectPlane
+   Name/es: Borrador SeleccionarPlano
+   MenuLocation: Borrador -> Seleccionar Plano
+   Workbenches: [Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut: **W** **P**
+   SeeAlso: [Borrador PlanoTrabajoProxy](Draft_WorkingPlaneProxy/es.md), [Borrador AlternarRejilla](Draft_ToggleGrid/es.md)
 ---
 
 # Draft SelectPlane/es
@@ -189,4 +189,4 @@ print(projection)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectPlane/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectPlane/es

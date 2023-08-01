@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw StackBottom
-   Name/de:TechDraw StapelUnterseite
-   MenuLocation:TechDraw - Stacking - Ansicht zur Stapelunterseite bewegen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Shortcut:
-   Version:0.21
-   SeeAlso:[TechDraw StapelOberseite](TechDraw_StackTop/de.md), [TechDraw StapelNachOben](TechDraw_StackUp/de.md), [TechDraw StapelNachUnten](TechDraw_StackDown/de.md)
+   Name: TechDraw StackBottom
+   Name/de: TechDraw StapelUnterseite
+   MenuLocation: TechDraw - Stacking - Ansicht zur Stapelunterseite bewegen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Shortcut: 
+   Version: 0.21
+   SeeAlso: [TechDraw StapelOberseite](TechDraw_StackTop/de.md), [TechDraw StapelNachOben](TechDraw_StackUp/de.md), [TechDraw StapelNachUnten](TechDraw_StackDown/de.md)
 ---
 
 # TechDraw StackBottom/de
@@ -30,4 +30,4 @@ Siehe [TechDraw StapelOberseite](TechDraw_StackTop/de.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw StackBottom/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw StackBottom/de

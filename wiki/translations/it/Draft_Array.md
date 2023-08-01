@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft_Array
-   Name/it:Serie
-   MenuLocation:Draft - Serie
-   Workbenches:[Draft](Draft_Workbench/it.md)
-   SeeAlso:[Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md),[Serie su tracciato](Draft_PathArray/it.md), [Serie su punti](Draft_PointArray/it.md), [Clone](Draft_Clone/it.md)
+   Name: Draft_Array
+   Name/it: Serie
+   MenuLocation: Draft - Serie
+   Workbenches: [Draft](Draft_Workbench/it.md)
+   SeeAlso: [Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md),[Serie su tracciato](Draft_PathArray/it.md), [Serie su punti](Draft_PointArray/it.md), [Clone](Draft_Clone/it.md)
 ---
 
 # Draft Array/it
@@ -91,4 +91,4 @@ This command is now obsolete. Use the [Draft OrthoArray](Draft_OrthoArray.md), [
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/it

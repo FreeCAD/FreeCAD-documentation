@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro multiCuts
+⏵ [documentation index](../README.md) > Macro multiCuts

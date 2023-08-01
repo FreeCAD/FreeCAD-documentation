@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Remove
-   Name/es:Sustraer
-   MenuLocation:Arquitectura - Sustraer
-   Workbenches:[Entorno de Arquitectura](Arch_Workbench/es.md)
-   SeeAlso:[Añadir](Arch_Add/es.md)
+   Name: Arch Remove
+   Name/es: Sustraer
+   MenuLocation: Arquitectura - Sustraer
+   Workbenches: [Entorno de Arquitectura](Arch_Workbench/es.md)
+   SeeAlso: [Añadir](Arch_Add/es.md)
 ---
 
 # Arch Remove/es
@@ -122,4 +122,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/es
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/es

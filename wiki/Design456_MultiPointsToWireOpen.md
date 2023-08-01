@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Design456 MultiPointsToWireOpen
-   MenuLocation:Design456_2Ddrawing - MultiPointsToWireOpen
-   Workbenches:[Design456](Design456_Workbench.md)
-   Shortcut:None
-   SeeAlso:
+   Name: Design456 MultiPointsToWireOpen
+   MenuLocation: Design456_2Ddrawing - MultiPointsToWireOpen
+   Workbenches: [Design456](Design456_Workbench.md)
+   Shortcut: None
+   SeeAlso: 
 ---
 
 # Design456 MultiPointsToWireOpen
@@ -32,4 +32,4 @@ When you select the points in the object lists, the points aren\'t green. That c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 MultiPointsToWireOpen
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 MultiPointsToWireOpen

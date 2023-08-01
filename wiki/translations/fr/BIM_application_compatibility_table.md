@@ -19,4 +19,4 @@ Cette page donne un aperçu général de la façon dont les différents outils e
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [BIM](Category_BIM.md) > BIM application compatibility table/fr
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > BIM application compatibility table/fr

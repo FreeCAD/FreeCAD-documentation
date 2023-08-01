@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainDiameter
-   Name/es:Croquizador RestringirDiámetro
-   Workbenches:[Sketcher](Sketcher_Workbench/es.md)
-   MenuLocation:Boceto - Croquizador restricciónes - RestringirDiámetro
-   SeeAlso:[Restringir la distancia](Sketcher_ConstrainDistance/es.md), [Restringir distancia horizontal](Sketcher_ConstrainDistanceX/es.md), [Restringir distancia vertical](Sketcher_ConstrainDistanceY/es.md)
+   Name: Sketcher ConstrainDiameter
+   Name/es: Croquizador RestringirDiámetro
+   Workbenches: [Sketcher](Sketcher_Workbench/es.md)
+   MenuLocation: Boceto - Croquizador restricciónes - RestringirDiámetro
+   SeeAlso: [Restringir la distancia](Sketcher_ConstrainDistance/es.md), [Restringir distancia horizontal](Sketcher_ConstrainDistanceX/es.md), [Restringir distancia vertical](Sketcher_ConstrainDistanceY/es.md)
 ---
 
 # Sketcher ConstrainDiameter/es
@@ -70,4 +70,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDiameter/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDiameter/es

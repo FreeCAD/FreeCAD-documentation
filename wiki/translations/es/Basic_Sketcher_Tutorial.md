@@ -343,4 +343,4 @@ La restricción de un croquis puede hacerse de muchas maneras diferentes. En gen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/es
+⏵ [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/es

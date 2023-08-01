@@ -1,8 +1,4 @@
 # Gear
-{{TOCright}}
-
-
-
 ## Introduction
 
 This page is intended to differentiate some kind of gears by their (hopefully) correct names.
@@ -194,4 +190,4 @@ See [Rack and pinion](#Rack_and_pinion.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Gear
+⏵ [documentation index](../README.md) > Gear

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FCGear CycloidRack
-   Name/de:FCGear Zykloidenzahnstange
-   MenuLocation:Gear - Cycloid Rack
-   Workbenches:[FCGear](FCGear_Workbench/de.md)
-   Shortcut:None
-   Version:1.0
-   SeeAlso:[FCGear Zykloidenzahnrad](FCGear_CycloidGear/de.md)
+   Name: FCGear CycloidRack
+   Name/de: FCGear Zykloidenzahnstange
+   MenuLocation: Gear - Cycloid Rack
+   Workbenches: [FCGear](FCGear_Workbench/de.md)
+   Shortcut: None
+   Version: 1.0
+   SeeAlso: [FCGear Zykloidenzahnrad](FCGear_CycloidGear/de.md)
 ---
 
 # FCGear CycloidRack/de
@@ -110,4 +110,4 @@ Siehe [FCGear Zykloidenzahnrad](FCGear_CycloidGear/de#Nützliche_Formeln.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear CycloidRack/de
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear CycloidRack/de

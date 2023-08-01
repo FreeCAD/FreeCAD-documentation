@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Std StoreWorkingView
-   Name/de:Std ArbeitsansichtSpeichern
-   MenuLocation:View - Standardansichten - Arbeitsansicht speichern
-   Workbenches:Alle
-   Shortcut:**Shift**+**End**
-   Version:0.21
-   SeeAlso:[Std ArbeitsansichtWiederherstellen](Std_RecallWorkingView/de.md), [Std AnsichtenEinfrieren](Std_FreezeViews/de.md)
+   Name: Std StoreWorkingView
+   Name/de: Std ArbeitsansichtSpeichern
+   MenuLocation: View - Standardansichten - Arbeitsansicht speichern
+   Workbenches: Alle
+   Shortcut: **Shift**+**End**
+   Version: 0.21
+   SeeAlso: [Std ArbeitsansichtWiederherstellen](Std_RecallWorkingView/de.md), [Std AnsichtenEinfrieren](Std_FreezeViews/de.md)
 ---
 
 # Std StoreWorkingView/de
@@ -57,4 +57,4 @@ FreeCADGui.runCommand("Std_StoreWorkingView", 0)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std StoreWorkingView/de
+⏵ [documentation index](../README.md) > Std StoreWorkingView/de

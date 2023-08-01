@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Вырез
-   Name:PartDesign_Pocket
-   MenuLocation:Part Design - Create a substractive feature - Вырез
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   SeeAlso:[Выдавливание](PartDesign_Pad/ru.md)
+   Name/ru: Вырез
+   Name: PartDesign_Pocket
+   MenuLocation: Part Design - Create a substractive feature - Вырез
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso: [Выдавливание](PartDesign_Pad/ru.md)
 ---
 
 # PartDesign Pocket/ru
@@ -148,4 +148,4 @@ Tapers the pocket in the opposite extrusion direction by the given angle. A posi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/ru

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher JoinCurves
-   Name/de:Sketcher KurvenVerbinden
-   MenuLocation:Skizze - B-Spline-Werkzeuge - Kurven verbinden
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Version:0.21
-   SeeAlso:
+   Name: Sketcher JoinCurves
+   Name/de: Sketcher KurvenVerbinden
+   MenuLocation: Skizze - B-Spline-Werkzeuge - Kurven verbinden
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Version: 0.21
+   SeeAlso: 
 ---
 
 # Sketcher JoinCurves/de
@@ -38,4 +38,4 @@ Verbindet zwei Kurven an ausgewählten Endpunkten.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher JoinCurves/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher JoinCurves/de

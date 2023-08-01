@@ -106,4 +106,4 @@ Du kannst auch die Auswahlansicht verwenden, um Objekte durch die Suche nach ein
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Manual:Navigating in the 3D view/de
+⏵ [documentation index](../README.md) > Manual:Navigating in the 3D view/de

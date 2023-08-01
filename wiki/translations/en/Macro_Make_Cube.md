@@ -153,4 +153,4 @@ myCommand()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Make Cube/en
+⏵ [documentation index](../README.md) > Macro Make Cube/en

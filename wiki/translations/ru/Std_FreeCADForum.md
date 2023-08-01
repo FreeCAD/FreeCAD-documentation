@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Форум FreeCAD
-   Name:Std_FreeCADForum
-   MenuLocation:Справка - Форум FreeCAD
-   Workbenches:Все
-   SeeAlso:[Сайт FreeCAD](Std_FreeCADWebsite/ru.md), [Пользовательская документация](Std_FreeCADUserHub/ru.md), [Документация по созданию скриптов на Python](Std_FreeCADPowerUserHub/ru.md), [FreeCAD Часто Задаваемые  Вопросы](Std_FreeCADFAQ/ru.md)
+   Name/ru: Форум FreeCAD
+   Name: Std_FreeCADForum
+   MenuLocation: Справка - Форум FreeCAD
+   Workbenches: Все
+   SeeAlso: [Сайт FreeCAD](Std_FreeCADWebsite/ru.md), [Пользовательская документация](Std_FreeCADUserHub/ru.md), [Документация по созданию скриптов на Python](Std_FreeCADPowerUserHub/ru.md), [FreeCAD Часто Задаваемые  Вопросы](Std_FreeCADFAQ/ru.md)
 ---
 
 # Std FreeCADForum/ru
@@ -34,4 +34,4 @@ The **Std FreeCADForum** command opens the FreeCAD forum website in the system\'
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADForum/ru
+⏵ [documentation index](../README.md) > Std FreeCADForum/ru

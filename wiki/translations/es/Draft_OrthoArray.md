@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft OrthoArray
-   Name/es:Borrador ArregloOrtogonal
-   MenuLocation:Modificación - Herramientas de  Arreglo - Arreglo
-   Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   Version:0.19
-   SeeAlso:[Borrador ArregloPolar](Draft_PolarArray/es.md), [Borrador ArregloCircular](Draft_CircularArray/es.md), [Borrador ArregloRutas](Draft_PathArray/es.md), [Borrador ArregloEnlaceRuta](Draft_PathLinkArray/es.md), [Borrador ArregloPunto](Draft_PointArray/es.md), [Borrador ArregloEnlacePunto](Draft_PointLinkArray/es.md).
+   Name: Draft OrthoArray
+   Name/es: Borrador ArregloOrtogonal
+   MenuLocation: Modificación - Herramientas de  Arreglo - Arreglo
+   Workbenches: [Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Version: 0.19
+   SeeAlso: [Borrador ArregloPolar](Draft_PolarArray/es.md), [Borrador ArregloCircular](Draft_CircularArray/es.md), [Borrador ArregloRutas](Draft_PathArray/es.md), [Borrador ArregloEnlaceRuta](Draft_PathLinkArray/es.md), [Borrador ArregloPunto](Draft_PointArray/es.md), [Borrador ArregloEnlacePunto](Draft_PointLinkArray/es.md).
 ---
 
 # Draft OrthoArray/es
@@ -378,4 +378,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft OrthoArray/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft OrthoArray/es

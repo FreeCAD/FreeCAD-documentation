@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ToggleConstruction
-   Name/pt:Ativa/desativa a geometria de construção
-   Icon:Sketcher_AlterConstruction.svg
-   Workbenches:[Sketcher](Sketcher_Workbench/pt.md)
-   MenuLocation:Sketch - Geometrias do Sketcher - Ativa/desativa a geometria de construção
+   Name: Sketcher ToggleConstruction
+   Name/pt: Ativa/desativa a geometria de construção
+   Icon: Sketcher_AlterConstruction.svg
+   Workbenches: [Sketcher](Sketcher_Workbench/pt.md)
+   MenuLocation: Sketch - Geometrias do Sketcher - Ativa/desativa a geometria de construção
 ---
 
 # Sketcher ToggleConstruction/pt
@@ -52,4 +52,4 @@ There are two ways of using this tool:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/pt
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/pt

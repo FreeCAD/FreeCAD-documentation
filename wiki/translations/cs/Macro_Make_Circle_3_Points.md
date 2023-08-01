@@ -643,4 +643,4 @@ Samostatné programy jsou umístěny zde,
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Make Circle 3 Points/cs
+⏵ [documentation index](../README.md) > Macro Make Circle 3 Points/cs

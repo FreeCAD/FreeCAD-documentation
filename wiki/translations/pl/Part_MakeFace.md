@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part MakeFace‏‎
-   Name/pl:Część: Utwórz ścianę z polilinii
-   MenuLocation:Część - Utwórz ścianę z polilinii
-   Workbenches:[Część](Part_Workbench/pl.md)
-   Version:0.19
-   SeeAlso:[Utwórz powierzchnie prostokreślną](Part_RuledSurface/pl.md)
+   Name: Part MakeFace‏‎
+   Name/pl: Część: Utwórz ścianę z polilinii
+   MenuLocation: Część - Utwórz ścianę z polilinii
+   Workbenches: [Część](Part_Workbench/pl.md)
+   Version: 0.19
+   SeeAlso: [Utwórz powierzchnie prostokreślną](Part_RuledSurface/pl.md)
 ---
 
 # Part MakeFace/pl
@@ -34,4 +34,4 @@ Możliwe jest zagnieżdżanie zamkniętych konturów, na przykład okręgów wew
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeFace/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeFace/pl

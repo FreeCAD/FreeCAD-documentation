@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 GroupObjects
-   Icon:Assembly_New_Group.svg
-   MenuLocation:Assembly3 - Group objects
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
-   Shortcut:**A** **Z**
+   Name: Assembly3 GroupObjects
+   Icon: Assembly_New_Group.svg
+   MenuLocation: Assembly3 - Group objects
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
+   Shortcut: **A** **Z**
 ---
 
 # Assembly3 GroupObjects/pl
@@ -25,4 +25,4 @@ It can be used to either group **Constraints**, **Elements**, or **Parts** and w
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 GroupObjects/pl
+⏵ [documentation index](../README.md) > Assembly3 GroupObjects/pl

@@ -1,7 +1,4 @@
 # Compile on Windows/ru
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 На этой странице шаг за шагом объясняется \"как скомпилировать FreeCAD 0.19 или новее в Windows\"\". Для других платформ см.[Compiling](Compiling.md).
@@ -751,4 +748,4 @@ To build FreeCAD using the self-compiled Netgen, you must do the following:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on Windows/ru
+⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on Windows/ru

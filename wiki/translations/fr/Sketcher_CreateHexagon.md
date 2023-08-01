@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateHexagon
-   Name/fr:Sketcher Hexagone
-   MenuLocation:Esquisse - Géométries d'esquisse - Créer un hexagone
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **P** **6**
-   Version:0.15
+   Name: Sketcher CreateHexagon
+   Name/fr: Sketcher Hexagone
+   MenuLocation: Esquisse - Géométries d'esquisse - Créer un hexagone
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **P** **6**
+   Version: 0.15
 ---
 
 # Sketcher CreateHexagon/fr
@@ -40,4 +40,4 @@ Le cercle circonscrit est la géométrie de construction, qui n\'est visible que
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateHexagon/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateHexagon/fr

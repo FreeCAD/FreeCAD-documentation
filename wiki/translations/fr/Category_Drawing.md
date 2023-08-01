@@ -17,4 +17,4 @@ Cette catégorie répertorie les pages liées à l\'[Atelier de dessin](Drawing_
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Drawing/fr
+⏵ [documentation index](../README.md) > Category:Drawing/fr

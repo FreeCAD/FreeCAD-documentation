@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM SolverZ88
-   Name/fr:FEM Solveur Z88
-   MenuLocation:Résolution - Solveur Z88
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Shortcut:**S** **Z**
-   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM SolverZ88
+   Name/fr: FEM Solveur Z88
+   MenuLocation: Résolution - Solveur Z88
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Shortcut: **S** **Z**
+   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM SolverZ88/fr
@@ -57,4 +57,4 @@ Voir les [préférences de Z88](FEM_Preferences/fr#Z88.md) pour les paramètres 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverZ88/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverZ88/fr

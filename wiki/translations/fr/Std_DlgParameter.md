@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std DlgParameter
-   Name/fr:Std Éditeur de paramètres
-   MenuLocation:Outils - Éditeur de paramètres
-   Workbenches:Tous
-   SeeAlso:[Réglage des préférences](Preferences_Editor/fr.md) 
+   Name: Std DlgParameter
+   Name/fr: Std Éditeur de paramètres
+   MenuLocation: Outils - Éditeur de paramètres
+   Workbenches: Tous
+   SeeAlso: [Réglage des préférences](Preferences_Editor/fr.md) 
 ---
 
 # Std DlgParameter/fr
@@ -222,4 +222,4 @@ C\'est probablement une mauvaise idée de modifier les préférences d\'autres p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgParameter/fr
+⏵ [documentation index](../README.md) > Std DlgParameter/fr

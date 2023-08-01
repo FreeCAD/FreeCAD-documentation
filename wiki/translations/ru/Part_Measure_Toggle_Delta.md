@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name/ru:Переключить Дельту
-   Name:Part_Measure_Toggle_Delta
-   MenuLocation:Измерить - Переключить Дельту‏‎
-   Workbenches:[Part](Part_Workbench/ru.md)
+   Name/ru: Переключить Дельту
+   Name: Part_Measure_Toggle_Delta
+   MenuLocation: Измерить - Переключить Дельту‏‎
+   Workbenches: [Part](Part_Workbench/ru.md)
 ---
 
 # Part Measure Toggle Delta/ru
@@ -33,4 +33,4 @@ This command toggles the visibility of delta measurements in the [3D view](3D_vi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle Delta/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle Delta/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw 3PtAngleDimension
-   MenuLocation:TechDraw - Dimensions - Insert 3-Point Angle Dimension
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.18
-   SeeAlso:[TechDraw AngleDimension](TechDraw_AngleDimension.md)
+   Name: TechDraw 3PtAngleDimension
+   MenuLocation: TechDraw - Dimensions - Insert 3-Point Angle Dimension
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Version: 0.18
+   SeeAlso: [TechDraw AngleDimension](TechDraw_AngleDimension.md)
 ---
 
 # TechDraw 3PtAngleDimension/hr
@@ -72,4 +72,4 @@ rc = page.addView(dim1)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 3PtAngleDimension/hr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 3PtAngleDimension/hr

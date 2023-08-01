@@ -11,7 +11,7 @@ Sie enthält einen [CSG](OpenSCAD_CSG/de.md) Importeur zum Öffnen der CSG Datei
 Dieser Arbeitsbereich enthält Funktionen, um den CSG Funktionssbaum zu ändern und Modelle zu reparieren. Er enthält außerdem allgemein nutzbare Werkzeuge, die keine OpenSCAD Installation erfordern; sie können in Verbindung mit anderen Arbeitsbereichen verwendet werden.Beispielsweise verwendet der [Netz Arbeitsbereich](Mesh_Workbench/de.md) intern die OpenSCAD Funktionen, um Operationen mit [Netzen](mesh/de.md) durchzuführen, da diese recht robust sind.
 
 
-{{TOCright}}
+
 
 ![](images/OpenSCADexamaple1.png )
 
@@ -132,4 +132,4 @@ Wenn FreeCAD beim Import von CSG abstürzt, wird dringend empfohlen, \"Modell au
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [OpenSCAD](Category_OpenSCAD.md) > OpenSCAD Workbench/de
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [OpenSCAD](Category_OpenSCAD.md) > OpenSCAD Workbench/de

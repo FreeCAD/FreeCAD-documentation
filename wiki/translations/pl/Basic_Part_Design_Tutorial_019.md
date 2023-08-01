@@ -413,4 +413,4 @@ Na koniec wybieramy **Szkic** w [Widoku Drzewa](Tree_view/pl.md) i na zakładce 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Basic Part Design Tutorial 019/pl
+⏵ [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Basic Part Design Tutorial 019/pl

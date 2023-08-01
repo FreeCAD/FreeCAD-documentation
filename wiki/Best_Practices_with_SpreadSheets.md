@@ -224,4 +224,4 @@ Review: ( russ_hensel, dec 2020, Version: 0.19.23141 (Git) )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sandbox‏‎]]  ](Category_Sandbox‏‎]]  .md) > Best Practices with SpreadSheets
+⏵ [documentation index](../README.md) > [Sandbox‏‎]]  ](Category_Sandbox‏‎]]  .md) > Best Practices with SpreadSheets

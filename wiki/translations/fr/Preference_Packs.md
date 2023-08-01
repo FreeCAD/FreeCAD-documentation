@@ -1,6 +1,4 @@
 # Preference Packs/fr
-{{TOCright}}
-
 ## Introduction
 
 Un **kit de préférences** est un ensemble de préférences de l\'utilisateur ({{Version/fr|0.20}}) qui peut être installée comme une extension et appliquée comme un seul ensemble. N\'importe quel paramètre de l\'utilisateur qui peut être défini dans le fichier user.cfg peut être inclus dans un kit de préférences. L\'application d\'un kit de préférences définit toutes les variables du fichier CFG fourni sans modifier aucun autre paramètre utilisateur. Par exemple, ces kitx peuvent être utilisés pour créer des \"Thèmes\" en regroupant une feuille de style personnalisée avec un ensemble de préférences utilisateur qui définit les différentes couleurs et styles d\'éléments dans FreeCAD qui ne sont pas contrôlés par la feuille de style.
@@ -368,4 +366,4 @@ Voir aussi [Kits de préférences privés](Private_Preference_Packs/fr.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > Preference Packs/fr
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > Preference Packs/fr

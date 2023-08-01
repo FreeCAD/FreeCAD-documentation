@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Primitives
-   Name/es:Part Crear Primitivas
-   MenuLocation:Pieza - Crear primitivas...
-   |Workbenches:[Part](Part_Workbench/es.md)
-   SeeAlso:[Part Shapebuilder](Part_Builder.md)
+   Name: Part Primitives
+   Name/es: Part Crear Primitivas
+   MenuLocation: Pieza - Crear primitivas...
+   |Workbenches: [Part](Part_Workbench/es.md)
+   SeeAlso: [Part Shapebuilder](Part_Builder.md)
 ---
 
 # Part Primitives/es
@@ -170,4 +170,4 @@ freecad $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Primitives/es
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Primitives/es

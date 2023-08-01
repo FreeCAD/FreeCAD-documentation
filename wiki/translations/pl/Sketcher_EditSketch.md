@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher EditSketch
-   Name/pl:Szkicownik: Edycja szkicu
-   MenuLocation:Szkic - Edycja szkicu
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md)
-   SeeAlso:[Opuść szkic](Sketcher_LeaveSketch/pl.md)
+   Name: Sketcher EditSketch
+   Name/pl: Szkicownik: Edycja szkicu
+   MenuLocation: Szkic - Edycja szkicu
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md)
+   SeeAlso: [Opuść szkic](Sketcher_LeaveSketch/pl.md)
 ---
 
 # Sketcher EditSketch/pl
@@ -43,4 +43,4 @@ Istnieje kilka sposobów wywołania polecenia:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/pl

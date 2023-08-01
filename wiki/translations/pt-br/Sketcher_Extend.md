@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher Extend
-   MenuLocation:Sketch - Sketcher geometries - Extend edge
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**G** **Q**
-   Version:0.17
-   SeeAlso:[Sketcher Trim edge](Sketcher_Trimming.md)
+   Name: Sketcher Extend
+   MenuLocation: Sketch - Sketcher geometries - Extend edge
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **G** **Q**
+   Version: 0.17
+   SeeAlso: [Sketcher Trim edge](Sketcher_Trimming.md)
 ---
 
 # Sketcher Extend/pt-br
@@ -42,4 +42,4 @@ The **extend edge** tool extends an edge to an arbitrary location in the sketch,
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Extend/pt-br
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Extend/pt-br

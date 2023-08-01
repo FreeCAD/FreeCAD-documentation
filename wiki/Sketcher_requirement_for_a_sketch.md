@@ -50,4 +50,4 @@ If you accidentally create an \"overmodulation\", a warning appears in the combo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher requirement for a sketch
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher requirement for a sketch

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw_ProjectionGroup
-   Name/it:Gruppo di proiezioni
-   MenuLocation:TechDraw - Gruppo di proiezioni
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Vista](TechDraw_View/it.md), [Vista di sezione](TechDraw_SectionView/it.md)
-   Version:
+   Name: TechDraw_ProjectionGroup
+   Name/it: Gruppo di proiezioni
+   MenuLocation: TechDraw - Gruppo di proiezioni
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: [Vista](TechDraw_View/it.md), [Vista di sezione](TechDraw_SectionView/it.md)
+   Version: 
 ---
 
 # TechDraw ProjectionGroup/it
@@ -190,4 +190,4 @@ Nota di programmazione: Il Gruppo di proiezioni deve sempre essere aggiunto alla
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ProjectionGroup/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ProjectionGroup/it

@@ -44,4 +44,4 @@ I vincoli di supporto sono stati introdotti nella versione 0.15.4387
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher helper constraint/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher helper constraint/it

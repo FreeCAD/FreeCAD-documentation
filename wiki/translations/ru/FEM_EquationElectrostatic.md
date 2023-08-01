@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FEM EquationElectrostatic
-   Name/ru:FEM EquationElectrostatic
-   Icon:Fem-equation-electrostatic.svg
-   MenuLocation: Solve - Equation electrostatic
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM EquationElectrostatic
+   Name/ru: FEM EquationElectrostatic
+   Icon: Fem-equation-electrostatic.svg
+   MenuLocation:  Solve - Equation electrostatic
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM EquationElectrostatic/ru
@@ -93,4 +93,4 @@ The possible results are:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElectrostatic/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElectrostatic/ru

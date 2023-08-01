@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Grid
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso:[Draft Snap](Draft_Snap.md), [Draft Snap Lock](Draft_Snap_Lock.md), [Draft ToggleGrid](Draft_ToggleGrid.md), [Draft SelectPlane](Draft_SelectPlane.md)
+   Name: Draft Snap Grid
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   SeeAlso: [Draft Snap](Draft_Snap.md), [Draft Snap Lock](Draft_Snap_Lock.md), [Draft ToggleGrid](Draft_ToggleGrid.md), [Draft SelectPlane](Draft_SelectPlane.md)
 ---
 
 # Draft Snap Grid/pl
@@ -40,4 +40,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Grid/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Grid/pl

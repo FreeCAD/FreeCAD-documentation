@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:График кривизны
-   Name:Mesh_VertexCurvature
-   MenuLocation:Полигональные Сетки - График кривизны
-   Workbenches:[Mesh](Mesh_Workbench/ru.md)
-   SeeAlso:[Mesh CurvatureInfo](Mesh_CurvatureInfo/ru.md)
+   Name/ru: График кривизны
+   Name: Mesh_VertexCurvature
+   MenuLocation: Полигональные Сетки - График кривизны
+   Workbenches: [Mesh](Mesh_Workbench/ru.md)
+   SeeAlso: [Mesh CurvatureInfo](Mesh_CurvatureInfo/ru.md)
 ---
 
 # Mesh VertexCurvature/ru
@@ -86,4 +86,4 @@ For a Mesh Curvature object the following properties are available in the [Prope
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh VertexCurvature/ru
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh VertexCurvature/ru

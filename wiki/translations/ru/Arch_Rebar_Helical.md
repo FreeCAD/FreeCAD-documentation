@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Спиральная арматура
-   Name:Arch_Rebar_Helical
-   MenuLocation:Arch - Rebar tools - Helical Rebar<br>3D/BIM - Reinforcement tools - Helical Rebar
-   Workbenches:[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [Кольцевая арматура](Arch_Rebar_Stirrup/ru.md), [Армировать колонну](Arch_Rebar_ColumnReinforcement/ru.md)
+   Name/ru: Спиральная арматура
+   Name: Arch_Rebar_Helical
+   MenuLocation: Arch - Rebar tools - Helical Rebar<br>3D/BIM - Reinforcement tools - Helical Rebar
+   Workbenches: [Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [Кольцевая арматура](Arch_Rebar_Stirrup/ru.md), [Армировать колонну](Arch_Rebar_ColumnReinforcement/ru.md)
 ---
 
 # Arch Rebar Helical/ru
@@ -152,4 +152,4 @@ HelicalRebar.editHelicalRebar(Rebar, 20, 100, 20, 20, 100)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Helical/ru
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Helical/ru

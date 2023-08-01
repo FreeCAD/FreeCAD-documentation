@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM MeshBoundaryLayer
-   Name/fr:FEM Couche limite de maillage FEM
-   MenuLocation:Maillage - Couche limite de maillage FEM
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM MeshBoundaryLayer
+   Name/fr: FEM Couche limite de maillage FEM
+   MenuLocation: Maillage - Couche limite de maillage FEM
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM MeshBoundaryLayer/fr
@@ -67,4 +67,4 @@ Vous pouvez créer autant de couches limites de maillage différentes que néces
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshBoundaryLayer/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshBoundaryLayer/fr

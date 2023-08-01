@@ -1,6 +1,4 @@
 # Copying Objects/de
-{{TOCright}}
-
 ## Übersicht
 
 Wie viele andere Computerprogramme hat auch FreeCAD die Möglichkeit, Objekte auszuschneiden, zu kopieren und einzufügen.[Dokument](Document_structure/de.md)-Objekte können innerhalb eines Dokuments oder zwischen Dokumenten frei kopiert werden, durch verwenden der Befehle <img alt="" src=images/Std_Copy.svg  style="width:24px;"> [Std Kopieren](Std_Copy.md), <img alt="" src=images/Std_Paste.svg  style="width:24px;"> [Std Einfügen](Std_Paste.md) und [Std AuswahlDuplizieren](Std_DuplicateSelection.md).
@@ -28,4 +26,4 @@ Wie bei den meisten Dingen in FreeCAD gibt es viele Möglichkeiten, eine Kopie z
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Copying Objects/de
+⏵ [documentation index](../README.md) > Copying Objects/de

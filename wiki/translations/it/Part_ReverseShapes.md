@@ -1,6 +1,6 @@
 # Part ReverseShapes/it
 ---
-- GuiCommand:   Name:Part ReverseShapes   Name/it:‏‎Inverti forme   Empty:1‏‎   MenuLocation:Part - Inverti forme   Workbenches:[[Part Workbench/it   Part]]|SeeAlso:---
+- GuiCommand:   Name: Part ReverseShapes   Name/it: ‏‎Inverti forme   Empty: 1‏‎   MenuLocation: Part - Inverti forme   Workbenches: [[Part Workbench/it   Part]]|SeeAlso: ---
 
 
 </div>
@@ -48,4 +48,4 @@ Inverte le normali di tutte le facce dell\'oggetto selezionato.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ReverseShapes/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ReverseShapes/it

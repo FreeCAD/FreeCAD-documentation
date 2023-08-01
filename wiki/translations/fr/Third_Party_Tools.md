@@ -1,6 +1,4 @@
 # Third Party Tools/fr
-{{TOCright}}
-
 ## Page des outils 
 
 Pour chaque développement de logiciels sérieux, vous avez besoin d\'outils sérieux. Voici une liste d\'outils, que nous utilisons pour développer FreeCAD :
@@ -67,4 +65,4 @@ A venir.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Tools/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Tools/fr

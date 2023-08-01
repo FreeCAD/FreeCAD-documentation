@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM ElementGeometry2D
-   Name/ru:FEM ElementGeometry2D
-   MenuLocation:Model -Shell plate tickness
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:**C** **S**
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM ElementGeometry2D
+   Name/ru: FEM ElementGeometry2D
+   MenuLocation: Model -Shell plate tickness
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   Shortcut: **C** **S**
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM ElementGeometry2D/ru
@@ -59,4 +59,4 @@ For viewing results from CalculiX solver on the mesh expanded to the prescribed 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementGeometry2D/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementGeometry2D/ru

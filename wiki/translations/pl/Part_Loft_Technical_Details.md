@@ -83,4 +83,4 @@ Zauważ, że Wyciągnięcie ma właściwość \"Prostokreślnie\". Jeśli jest o
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/pl

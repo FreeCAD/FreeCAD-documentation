@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD ColorCodeShape
-   Name/fr:OpenSCAD ColorCodeShape‏‎
-   MenuLocation:OpenSCAD - ColorCodeShape‏‎
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
+   Name: OpenSCAD ColorCodeShape
+   Name/fr: OpenSCAD ColorCodeShape‏‎
+   MenuLocation: OpenSCAD - ColorCodeShape‏‎
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench/fr.md)
 ---
 
 # OpenSCAD ColorCodeShape/fr
@@ -29,4 +29,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ColorCodeShape/fr
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ColorCodeShape/fr

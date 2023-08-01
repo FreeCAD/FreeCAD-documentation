@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std Cut
-   Name/ko:표준 잘라내기
-   MenuLocation:편집 - 잘라내기
-   Workbenches:모두
-   SeeAlso:[표준 복사](Std_Copy/ko.md), [표준 붙여넣기](Std_Paste/ko.md), [표준 개체 복제](Std_DuplicateSelection/ko.md)
+   Name: Std Cut
+   Name/ko: 표준 잘라내기
+   MenuLocation: 편집 - 잘라내기
+   Workbenches: 모두
+   SeeAlso: [표준 복사](Std_Copy/ko.md), [표준 붙여넣기](Std_Paste/ko.md), [표준 개체 복제](Std_DuplicateSelection/ko.md)
 ---
 
 # Std Cut/ko
@@ -60,4 +60,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Cut/ko
+⏵ [documentation index](../README.md) > Std Cut/ko

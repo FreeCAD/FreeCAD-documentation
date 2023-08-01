@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Compound‏‎Filter
-   Name/ro:Part Compound‏‎Filter
-   MenuLocation:Part - Compound Filter
-   Workbenches:[Part](Part_Workbench.md)
-   Version:0.17
+   Name: Part Compound‏‎Filter
+   Name/ro: Part Compound‏‎Filter
+   MenuLocation: Part - Compound Filter
+   Workbenches: [Part](Part_Workbench.md)
+   Version: 0.17
 ---
 
 # Part CompoundFilter/ro
@@ -95,4 +95,4 @@ Repetați procedura de selecție de mai sus. Felia și subelementele sale vor fi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/ro

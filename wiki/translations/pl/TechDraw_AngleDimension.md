@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw AngleDimension
-   Name/pl:Rysunek Techniczny: Wstaw wymiar kąta
-   MenuLocation:Rysunek Techniczny - Wymiary - Wstaw wymiar kąta
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso:[Wstaw trzy punktowy wymiar kąta](TechDraw_3PtAngleDimension/pl.md)
+   Name: TechDraw AngleDimension
+   Name/pl: Rysunek Techniczny: Wstaw wymiar kąta
+   MenuLocation: Rysunek Techniczny - Wymiary - Wstaw wymiar kąta
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   SeeAlso: [Wstaw trzy punktowy wymiar kąta](TechDraw_3PtAngleDimension/pl.md)
 ---
 
 # TechDraw AngleDimension/pl
@@ -88,4 +88,4 @@ rc = page.addView(dim1)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw AngleDimension/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw AngleDimension/pl

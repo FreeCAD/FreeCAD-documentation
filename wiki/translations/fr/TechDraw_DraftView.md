@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw DraftView
-   Name/fr:TechDraw Vue d'un objet Draft
-   MenuLocation:TechDraw - Insérer un objet de l'atelier Draft
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md), [Draft](Draft_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[TechDraw Vue d'un objet Arch](TechDraw_ArchView/fr.md)
+   Name: TechDraw DraftView
+   Name/fr: TechDraw Vue d'un objet Draft
+   MenuLocation: TechDraw - Insérer un objet de l'atelier Draft
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md), [Draft](Draft_Workbench/fr.md)
+   Version: 0.19
+   SeeAlso: [TechDraw Vue d'un objet Arch](TechDraw_ArchView/fr.md)
 ---
 
 # TechDraw DraftView/fr
@@ -105,4 +105,4 @@ rc = page.addView(dv)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DraftView/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DraftView/fr

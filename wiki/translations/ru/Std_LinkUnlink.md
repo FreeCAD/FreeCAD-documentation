@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Отвязать
-   Name:Std_LinkUnlink
-   MenuLocation:Нет
-   Workbenches:Все
-   Version:0.19
-   SeeAlso:[Создать ссылку](Std_LinkMake/ru.md), [Ссылка](Std_LinkMakeRelative/ru.md), [Заменить ссылкой](Std_LinkReplace/ru.md)
+   Name/ru: Отвязать
+   Name: Std_LinkUnlink
+   MenuLocation: Нет
+   Workbenches: Все
+   Version: 0.19
+   SeeAlso: [Создать ссылку](Std_LinkMake/ru.md), [Ссылка](Std_LinkMakeRelative/ru.md), [Заменить ссылкой](Std_LinkReplace/ru.md)
 ---
 
 # Std LinkUnlink/ru
@@ -54,4 +54,4 @@ The original <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="widt
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkUnlink/ru
+⏵ [documentation index](../README.md) > Std LinkUnlink/ru

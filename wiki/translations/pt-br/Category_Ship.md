@@ -10,4 +10,4 @@ This category lists pages related to the [Ship Workbench/pt-br](Ship_Workbench/p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Ship/pt-br
+⏵ [documentation index](../README.md) > Category:Ship/pt-br

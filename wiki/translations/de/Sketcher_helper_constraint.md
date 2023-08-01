@@ -42,4 +42,4 @@ Hilfsbeschränkungen wurden in v0.15.4387 eingeführt.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher helper constraint/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher helper constraint/de

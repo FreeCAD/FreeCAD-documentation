@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Drawing View
-   Name/pl:Kreślenie: Widok
-   Workbenches:[Kreślenie](Drawing_Workbench/pl.md)
-   MenuLocation:Kreślenie - Wstaw widok w rysunku
-   Shortcut:brak
-   SeeAlso:[Rysunek w formacie poziomym A3](Drawing_Landscape_A3/pl.md)
+   Name: Drawing View
+   Name/pl: Kreślenie: Widok
+   Workbenches: [Kreślenie](Drawing_Workbench/pl.md)
+   MenuLocation: Kreślenie - Wstaw widok w rysunku
+   Shortcut: brak
+   SeeAlso: [Rysunek w formacie poziomym A3](Drawing_Landscape_A3/pl.md)
 ---
 
 # Drawing View/pl
@@ -72,4 +72,4 @@ Jeśli szukasz przełączania persektywnego i ortogonalnego w widoku 3D, sprawd�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing View/pl
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing View/pl

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher RemoveAxesAlignment
-   MenuLocation:Sketch - Sketcher tools - Remove axes alignment
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**Z** **R**
-   Version:0.20
+   Name: Sketcher RemoveAxesAlignment
+   MenuLocation: Sketch - Sketcher tools - Remove axes alignment
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **Z** **R**
+   Version: 0.20
 ---
 
 # Sketcher RemoveAxesAlignment/pt-br
@@ -37,4 +37,4 @@ As result the (horizontal, vertical constraints) will be removed. In the example
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RemoveAxesAlignment/pt-br
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RemoveAxesAlignment/pt-br

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Web BrowserNext
-   Name/de:Web BrowserNächsteSeite
-   MenuLocation:
-   Workbenches:[Web](Web_Workbench/de.md), [Start](Start_Workbench/de.md)
-   SeeAlso:
+   Name: Web BrowserNext
+   Name/de: Web BrowserNächsteSeite
+   MenuLocation: 
+   Workbenches: [Web](Web_Workbench/de.md), [Start](Start_Workbench/de.md)
+   SeeAlso: 
 ---
 
 # Web BrowserNext/de
@@ -28,4 +28,4 @@ Der Befehl <img alt="" src=images/Web_BrowserNext.svg  style="width:24px;"> **We
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserNext/de
+⏵ [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserNext/de

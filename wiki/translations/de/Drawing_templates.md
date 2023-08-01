@@ -2,7 +2,7 @@
 **The [Drawing Workbench](Drawing_Workbench.md) became obsolete in v0.17. Consider using the [TechDraw Workbench](TechDraw_Workbench.md) instead.**
 
 
-{{TOCright}}
+
 
 
 **Die Entwicklung des Drawing-Moduls wurde gestoppt und ein neuer in v0.17 eingeführter TechDraw-Arbeitsbereich zielt darauf, es zu setzen. Beide Module stehen in v0.17 zur Verfügung, aber das Drawing-Modul könnte in zukünftigen Ausgaben entfernt werden.**
@@ -267,4 +267,4 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Documentation](Category_Documentation.md) > [Drawing](Category_Drawing.md) > Drawing templates/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Documentation](Category_Documentation.md) > [Drawing](Category_Drawing.md) > Drawing templates/de

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Mouse Model/hr
+⏵ [documentation index](../README.md) > Mouse Model/hr

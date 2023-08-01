@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Создать опорную точку
-   Name:PartDesign_Point
-   MenuLocation:Part Design - Create a datum - Создать опорную точку
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Создать опорную линию](PartDesign_Line/ru.md), [Создать опорную плоскость](PartDesign_Plane/ru.md)
+   Name/ru: Создать опорную точку
+   Name: PartDesign_Point
+   MenuLocation: Part Design - Create a datum - Создать опорную точку
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Создать опорную линию](PartDesign_Line/ru.md), [Создать опорную плоскость](PartDesign_Plane/ru.md)
 ---
 
 # PartDesign Point/ru
@@ -54,4 +54,4 @@ Double-click the DatumPoint label in the Model tree or right-click and select **
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Point/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Point/ru

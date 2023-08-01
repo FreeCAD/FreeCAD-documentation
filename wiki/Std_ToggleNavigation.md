@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std ToggleNavigation
-   MenuLocation:View - Toggle navigation/Edit mode
-   Workbenches:All
-   Shortcut:**Esc**
+   Name: Std ToggleNavigation
+   MenuLocation: View - Toggle navigation/Edit mode
+   Workbenches: All
+   Shortcut: **Esc**
 ---
 
 # Std ToggleNavigation
@@ -52,4 +52,4 @@ Do not confuse this command with the [Std Edit](Std_Edit.md) command.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleNavigation
+⏵ [documentation index](../README.md) > Std ToggleNavigation

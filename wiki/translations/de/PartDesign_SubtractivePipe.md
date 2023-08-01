@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractivePipe
-   Name/de:PartDesign Subtraktives Rohr
-   MenuLocation:Part Design - Create a substractive feature - Subtractive pipe
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[PartDesign Additives Rohr](PartDesign_AdditivePipe/de.md), [PartDesign Subtraktive Ausformung](PartDesign_SubtractiveLoft/de.md)
+   Name: PartDesign SubtractivePipe
+   Name/de: PartDesign Subtraktives Rohr
+   MenuLocation: Part Design - Create a substractive feature - Subtractive pipe
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Additives Rohr](PartDesign_AdditivePipe/de.md), [PartDesign Subtraktive Ausformung](PartDesign_SubtractiveLoft/de.md)
 ---
 
 # PartDesign SubtractivePipe/de
@@ -108,4 +108,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePipe/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePipe/de

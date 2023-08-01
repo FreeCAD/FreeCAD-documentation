@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign NewSketch
-   MenuLocation:Sketch - Create sketch
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   Version:0.17
-   SeeAlso:[Sketcher NewSketch](Sketcher_NewSketch.md)
+   Name: PartDesign NewSketch
+   MenuLocation: Sketch - Create sketch
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   Version: 0.17
+   SeeAlso: [Sketcher NewSketch](Sketcher_NewSketch.md)
 ---
 
 # PartDesign NewSketch/pt-br
@@ -69,4 +69,4 @@ To reference any items in the [Workbench Sketcher](Sketcher_Workbench.md) use th
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/pt-br
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/pt-br

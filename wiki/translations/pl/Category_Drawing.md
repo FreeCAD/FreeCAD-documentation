@@ -17,4 +17,4 @@ This category lists pages related to the [Drawing Workbench/pl](Drawing_Workbenc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Drawing/pl
+⏵ [documentation index](../README.md) > Category:Drawing/pl

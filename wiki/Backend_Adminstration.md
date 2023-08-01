@@ -21,4 +21,4 @@ Update pywikibot:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Backend Adminstration
+⏵ [documentation index](../README.md) > Backend Adminstration

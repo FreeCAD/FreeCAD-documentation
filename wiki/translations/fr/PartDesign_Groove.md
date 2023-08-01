@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign_Groove
-   Name/fr:PartDesign Rainure
-   MenuLocation:Part Design - Créer une fonction soustractive - Rainure
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso:[PartDesign Révolution](PartDesign_Revolution/fr.md)
+   Name: PartDesign_Groove
+   Name/fr: PartDesign Rainure
+   MenuLocation: Part Design - Créer une fonction soustractive - Rainure
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso: [PartDesign Révolution](PartDesign_Revolution/fr.md)
 ---
 
 # PartDesign Groove/fr
@@ -91,4 +91,4 @@ Ci-dessous les propriétés qui peuvent être modifiées après la création de 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/fr

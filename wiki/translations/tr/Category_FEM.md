@@ -10,4 +10,4 @@ This category lists pages related to the [FEM Workbench/tr](FEM_Workbench/tr.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:FEM/tr
+⏵ [documentation index](../README.md) > Category:FEM/tr

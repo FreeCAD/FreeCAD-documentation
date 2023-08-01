@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/pt:Sketcher Select solver DoFs
-   Icon:Sketcher SelectElementsWithDoFs.svg
-   MenuLocation:Sketch - Ferramentas de esboço (Sketcher) - Select solver DoFs
-   Workbenches:[Sketcher](Sketcher_Workbench/pt.md)
-   Version:0.18
+   Name/pt: Sketcher Select solver DoFs
+   Icon: Sketcher SelectElementsWithDoFs.svg
+   MenuLocation: Sketch - Ferramentas de esboço (Sketcher) - Select solver DoFs
+   Workbenches: [Sketcher](Sketcher_Workbench/pt.md)
+   Version: 0.18
 ---
 
 # Sketcher SelectElementsWithDoFs/pt
@@ -46,4 +46,4 @@ where \"X\" is the number of degrees of freedom remaining in the sketch; you wil
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsWithDoFs/pt
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsWithDoFs/pt

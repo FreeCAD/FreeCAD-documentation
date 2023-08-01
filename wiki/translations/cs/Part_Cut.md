@@ -1,6 +1,6 @@
 # Part Cut/cs
 ---
-- GuiCommand:   Name:Part Cut   Name/cs:Díl Oddělit   MenuLocation:Díl - Oddělit   Workbenches:[SeeAlso:[[Part Union/cs|Díl Sjednotit](Part_Workbench/cs___Díl]].md), [Díl Společné](Part_Common/cs.md)---
+- GuiCommand:   Name: Part Cut   Name/cs: Díl Oddělit   MenuLocation: Díl - Oddělit   Workbenches: [SeeAlso: [[Part Union/cs|Díl Sjednotit](Part_Workbench/cs___Díl]].md), [Díl Společné](Part_Common/cs.md)---
 
 
 </div>
@@ -35,4 +35,4 @@ Input objects must be [OpenCASCADE](OpenCASCADE.md) shapes. For example objects 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/cs
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/cs

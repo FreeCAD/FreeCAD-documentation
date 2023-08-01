@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std BoxSelection
-   Name/pl:Std: Zaznacz obszar
-   MenuLocation:Edycja - Zaznacz obszar
-   Workbenches:wszystkie
-   Shortcut:**Shift** + **B**
-   SeeAlso:[Wybór elementów ramką zaznaczenia](Std_BoxElementSelection/pl.md), [Zaznacz wszystko](Std_SelectAll/pl.md)
+   Name: Std BoxSelection
+   Name/pl: Std: Zaznacz obszar
+   MenuLocation: Edycja - Zaznacz obszar
+   Workbenches: wszystkie
+   Shortcut: **Shift** + **B**
+   SeeAlso: [Wybór elementów ramką zaznaczenia](Std_BoxElementSelection/pl.md), [Zaznacz wszystko](Std_SelectAll/pl.md)
 ---
 
 # Std BoxSelection/pl
@@ -43,4 +43,4 @@ Polecenie **Zaznacz obszar** wybiera obiekty z prostokątnego obszaru zdefiniowa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std BoxSelection/pl
+⏵ [documentation index](../README.md) > Std BoxSelection/pl

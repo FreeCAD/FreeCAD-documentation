@@ -365,4 +365,4 @@ For some ideas of what can be achieved with Sketcher tools, have a look at: [Ske
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Installing/cs
+⏵ [documentation index](../README.md) > Installing/cs

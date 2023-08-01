@@ -1,6 +1,4 @@
 # Addon/pt-br
-{{TOCright}}
-
 ## Introdução
 
 In FreeCAD and in this documentation, an [addon](addon.md) is any component that is not part of the base installation, but that can be added to the system by certain methods.
@@ -34,4 +32,4 @@ See also:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > Addon/pt-br
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > Addon/pt-br

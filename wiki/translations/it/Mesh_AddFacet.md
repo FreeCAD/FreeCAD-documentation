@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh_AddFacet
-   Name/it:Aggiungi triangolo
-   MenuLocation:Mesh - Aggiungi triangolo
-   Workbenches:[Mesh](Mesh_Workbench/it.md)
-   SeeAlso:[Riempi i buchi](Mesh_FillupHoles/it.md), [Chiudi il buco](Mesh_FillInteractiveHole/it.md)
+   Name: Mesh_AddFacet
+   Name/it: Aggiungi triangolo
+   MenuLocation: Mesh - Aggiungi triangolo
+   Workbenches: [Mesh](Mesh_Workbench/it.md)
+   SeeAlso: [Riempi i buchi](Mesh_FillupHoles/it.md), [Chiudi il buco](Mesh_FillInteractiveHole/it.md)
 ---
 
 # Mesh AddFacet/it
@@ -61,4 +61,4 @@ The **Mesh AddFacet** command adds faces along a boundary of an open mesh object
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh AddFacet/it
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh AddFacet/it

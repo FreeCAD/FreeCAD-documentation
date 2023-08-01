@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Points PolyCut
-   MenuLocation:Points - Cut point cloud
-   Workbenches:[Points](Points_Workbench.md)
+   Name: Points PolyCut
+   MenuLocation: Points - Cut point cloud
+   Workbenches: [Points](Points_Workbench.md)
 ---
 
 # Points PolyCut/en
@@ -46,4 +46,4 @@ The **Points PolyCut** command cuts points from point clouds.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points PolyCut/en
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points PolyCut/en

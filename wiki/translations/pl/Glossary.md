@@ -1165,4 +1165,4 @@ Jump to letter: {{CompactTOC|center=yes}}
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Wiki](Category_Wiki.md) > [Glossary](Category_Glossary.md) > Glossary/pl
+⏵ [documentation index](../README.md) > [Wiki](Category_Wiki.md) > [Glossary](Category_Glossary.md) > Glossary/pl

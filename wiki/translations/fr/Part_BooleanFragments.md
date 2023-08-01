@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part BooleanFragments
-   Name/fr:Part Fragments booléens
-   MenuLocation:Part - Scinder - Fragments booléens
-   Workbenches:[Part](Part_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[Part Scinder](Part_Slice/fr.md), [Part OU exclusif](Part_XOR/fr.md), [Part Joindre](Part_CompJoinFeatures/fr.md), [Part Opérations booléennes](Part_Boolean/fr.md)
+   Name: Part BooleanFragments
+   Name/fr: Part Fragments booléens
+   MenuLocation: Part - Scinder - Fragments booléens
+   Workbenches: [Part](Part_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [Part Scinder](Part_Slice/fr.md), [Part OU exclusif](Part_XOR/fr.md), [Part Joindre](Part_CompJoinFeatures/fr.md), [Part Opérations booléennes](Part_Boolean/fr.md)
 ---
 
 # Part BooleanFragments/fr
@@ -107,4 +107,4 @@ L\'outil a été introduit dans FreeCAD v0.17.8053. FreeCAD doit être compilé 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BooleanFragments/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BooleanFragments/fr

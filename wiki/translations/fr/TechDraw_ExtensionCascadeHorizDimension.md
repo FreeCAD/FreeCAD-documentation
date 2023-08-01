@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionCascadeHorizDimension
-   Name/fr:TechDraw Cascade horizontale
-   MenuLocation:TechDraw - Extensions : attributs/modifications - Cascader horizontalement les cotes
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw Cascade verticale](TechDraw_ExtensionCascadeVertDimension.md), [TechDraw Cascade oblique](TechDraw_ExtensionCascadeObliqueDimension.md)
+   Name: TechDraw ExtensionCascadeHorizDimension
+   Name/fr: TechDraw Cascade horizontale
+   MenuLocation: TechDraw - Extensions : attributs/modifications - Cascader horizontalement les cotes
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw Cascade verticale](TechDraw_ExtensionCascadeVertDimension.md), [TechDraw Cascade oblique](TechDraw_ExtensionCascadeObliqueDimension.md)
 ---
 
 # TechDraw ExtensionCascadeHorizDimension/fr
@@ -47,4 +47,4 @@ L\'outil **TechDraw Cascade horizontale** permet d\'espacer uniformément les co
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCascadeHorizDimension/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCascadeHorizDimension/fr

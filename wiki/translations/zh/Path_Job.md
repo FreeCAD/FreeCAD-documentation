@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Path Job
-   Name/zh:刀路作业
-   Workbenches:[Path](Path_Workbench.md)
-   MenuLocation:Path - Job
-   Shortcut:**P** **F**
-   SeeAlso:
+   Name: Path Job
+   Name/zh: 刀路作业
+   Workbenches: [Path](Path_Workbench.md)
+   MenuLocation: Path - Job
+   Shortcut: **P** **F**
+   SeeAlso: 
 ---
 
 # Path Job/zh
@@ -146,4 +146,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/zh
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/zh

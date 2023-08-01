@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std LinkMake
-   MenuLocation:None
-   Workbenches:All
-   Version:0.19
-   SeeAlso:[Std Part](Std_Part.md), [Std Group](Std_Group.md), [PartDesign Body](PartDesign_Body.md)
+   Name: Std LinkMake
+   MenuLocation: None
+   Workbenches: All
+   Version: 0.19
+   SeeAlso: [Std Part](Std_Part.md), [Std Group](Std_Group.md), [PartDesign Body](PartDesign_Body.md)
 ---
 
 # Sandbox:Roy 043
@@ -336,4 +336,4 @@ obj.Label = "Custom label"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Sandbox:Roy 043
+⏵ [documentation index](../README.md) > Sandbox:Roy 043

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ValidateSketch
-   Name/fr:Sketcher Valider l'esquisse
-   MenuLocation:Esquisse - Valider l'esquisse...
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso:[Sketcher Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md), [Problème de dénomination topologique](Topological_naming_problem/fr.md)
+   Name: Sketcher ValidateSketch
+   Name/fr: Sketcher Valider l'esquisse
+   MenuLocation: Esquisse - Valider l'esquisse...
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso: [Sketcher Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md), [Problème de dénomination topologique](Topological_naming_problem/fr.md)
 ---
 
 # Sketcher ValidateSketch/fr
@@ -86,4 +86,4 @@ Le mécanisme de verrouillage fonctionne généralement bien et cet outil ne dev
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/fr

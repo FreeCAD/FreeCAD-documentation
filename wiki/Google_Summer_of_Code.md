@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Google Summer of Code
+⏵ [documentation index](../README.md) > Google Summer of Code

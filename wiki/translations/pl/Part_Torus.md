@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Torus
-   Name/pl:Część: Torus
-   MenuLocation:Część  - Bryła pierwotna - Torus
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Bryły pierwotne](Part_Primitives/pl.md)
+   Name: Part Torus
+   Name/pl: Część: Torus
+   MenuLocation: Część  - Bryła pierwotna - Torus
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: [Bryły pierwotne](Part_Primitives/pl.md)
 ---
 
 # Part Torus/pl
@@ -126,4 +126,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/pl

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher_ConstrainBlock
-   Name/it:Fissa
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch - Vincoli - Fissa
-   SeeAlso:[Blocca](Sketcher_ConstrainLock/it.md)
-   Version:0.17
+   Name: Sketcher_ConstrainBlock
+   Name/it: Fissa
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation: Sketch - Vincoli - Fissa
+   SeeAlso: [Blocca](Sketcher_ConstrainLock/it.md)
+   Version: 0.17
 ---
 
 # Sketcher ConstrainBlock/it
@@ -62,4 +62,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainBlock/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainBlock/it

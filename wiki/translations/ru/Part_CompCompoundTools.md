@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part CompCompoundTools
-   Name/ru:Part CompCompoundTools
-   MenuLocation:Деталь - Соединить
-   Workbenches:[Part](Part_Workbench/ru.md)
-   SeeAlso:
+   Name: Part CompCompoundTools
+   Name/ru: Part CompCompoundTools
+   MenuLocation: Деталь - Соединить
+   Workbenches: [Part](Part_Workbench/ru.md)
+   SeeAlso: 
 ---
 
 # Part CompCompoundTools/ru
@@ -34,4 +34,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompCompoundTools/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompCompoundTools/ru

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh SegmentationBestFit
-   MenuLocation:Meshes - Create mesh segments from best-fit surfaces...
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh Segmentation](Mesh_Segmentation.md)
+   Name: Mesh SegmentationBestFit
+   MenuLocation: Meshes - Create mesh segments from best-fit surfaces...
+   Workbenches: [Mesh](Mesh_Workbench.md)
+   SeeAlso: [Mesh Segmentation](Mesh_Segmentation.md)
 ---
 
 # Mesh SegmentationBestFit/en
@@ -59,4 +59,4 @@ The **Mesh SegmentationBestFit** command creates separate mesh segments for spec
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SegmentationBestFit/en
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SegmentationBestFit/en

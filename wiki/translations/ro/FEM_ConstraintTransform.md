@@ -1,6 +1,6 @@
 # FEM ConstraintTransform/ro
 ---
-- GuiCommand:   Name:FEM ConstraintTransform   MenuLocation: Model - Mechanical constraints - Constraint transform   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
+- GuiCommand:   Name: FEM ConstraintTransform   MenuLocation:  Model - Mechanical constraints - Constraint transform   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
 
 
 </div>
@@ -45,4 +45,4 @@ Transforms the coordinate system of a face to a particular coordinate system - r
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FEM ConstraintTransform/ro
+⏵ [documentation index](../README.md) > FEM ConstraintTransform/ro

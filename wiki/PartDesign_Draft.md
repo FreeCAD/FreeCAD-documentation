@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:PartDesign Draft
-   MenuLocation:Part Design - Apply a dress-up feature - Draft
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name: PartDesign Draft
+   MenuLocation: Part Design - Apply a dress-up feature - Draft
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
 ---
 
 # PartDesign Draft
@@ -111,4 +111,4 @@ A PartDesign Draft object is derived from a [Part Feature](Part_Feature.md) obje
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft

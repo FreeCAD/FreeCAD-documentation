@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM_ConstraintSelfWeight
-   Name/it:Vincolo peso proprio
-   MenuLocation:Modello - Vincoli meccanici - Vincolo peso proprio
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:**C** **W**
-   SeeAlso:[FEM tutorial](FEM_tutorial/it.md)
+   Name: FEM_ConstraintSelfWeight
+   Name/it: Vincolo peso proprio
+   MenuLocation: Modello - Vincoli meccanici - Vincolo peso proprio
+   Workbenches: [FEM](FEM_Workbench/it.md)
+   Shortcut: **C** **W**
+   SeeAlso: [FEM tutorial](FEM_tutorial/it.md)
 ---
 
 # FEM ConstraintSelfWeight/it
@@ -150,4 +150,4 @@ where 9810 is gravity acceleration magnitude in \[mm/s\^2\], and 0,0,-1 is direc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSelfWeight/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSelfWeight/it

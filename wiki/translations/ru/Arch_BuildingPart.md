@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Строительная деталь
-   Name:Arch_BuildingPart
-   MenuLocation:Arch - Строительная деталь
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   Version:0.18
-   SeeAlso:[Здание](Arch_Building/ru.md), [Местность](Arch_Site/ru.md)
+   Name/ru: Строительная деталь
+   Name: Arch_BuildingPart
+   MenuLocation: Arch - Строительная деталь
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   Version: 0.18
+   SeeAlso: [Здание](Arch_Building/ru.md), [Местность](Arch_Site/ru.md)
 ---
 
 # Arch BuildingPart/ru
@@ -257,4 +257,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch BuildingPart/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch BuildingPart/ru

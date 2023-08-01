@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw Balloon
-   Name/de: TechDraw Hinweisfeld
-   MenuLocation:TechDraw - Anmerkungen - Hinweisfeld einfügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[TechDraw Beschriftung](TechDraw_Annotation/de.md)
+   Name: TechDraw Balloon
+   Name/de:  TechDraw Hinweisfeld
+   MenuLocation: TechDraw - Anmerkungen - Hinweisfeld einfügen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [TechDraw Beschriftung](TechDraw_Annotation/de.md)
 ---
 
 # TechDraw Balloon/de
@@ -133,4 +133,4 @@ rc = page.addView(bal1)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Balloon/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Balloon/de

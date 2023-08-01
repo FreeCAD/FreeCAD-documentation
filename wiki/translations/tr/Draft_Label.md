@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Label
-   Name/tr:Etiket
-   MenuLocation:Taslak - Etiket
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   Shortcut:**D** **L**
-   SeeAlso:[Metin](Draft_Text/tr.md), [Şekil dizesi](Draft_ShapeString/tr.md)
-   Version/tr:0.17
+   Name: Draft Label
+   Name/tr: Etiket
+   MenuLocation: Taslak - Etiket
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   Shortcut: **D** **L**
+   SeeAlso: [Metin](Draft_Text/tr.md), [Şekil dizesi](Draft_ShapeString/tr.md)
+   Version/tr: 0.17
 ---
 
 # Draft Label/tr
@@ -335,4 +335,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Label/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Label/tr

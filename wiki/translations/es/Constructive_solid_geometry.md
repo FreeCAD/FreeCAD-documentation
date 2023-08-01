@@ -1,6 +1,4 @@
 # Constructive solid geometry/es
-{{TOCright}}
-
 ## Introducción
 
 [Geometría sólida constructiva](https://en.wikipedia.org/wiki/Constructive_solid_geometry) (**CSG**) es un paradigma de modelización que se utiliza en muchos sistemas tradicionales de CAD. Consiste esencialmente en utilizar objetos sólidos primitivos y hacer operaciones booleanas con ellos, como la fusión, la sustracción y la intersección, para crear una forma final.
@@ -39,4 +37,4 @@ La página de [tutoriales](tutorials/es.md) proporciona algunos ejemplos sobre l
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Part](Category_Part.md) > Constructive solid geometry/es
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Part](Category_Part.md) > Constructive solid geometry/es

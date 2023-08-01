@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Measure Toggle Delta
-   Name/it:Attiva o disattiva Delta
-   MenuLocation:Misura - Attiva/disattiva Delta
-   Workbenches:[Part](Part_Workbench/it.md)
-   SeeAlso:[Attiva o Disattiva tutte le misure](Part_Measure_Toggle_All/it.md), [Attiva o Disattiva le misure 3D](Part_Measure_Toggle_3D/it.md)
+   Name: Part Measure Toggle Delta
+   Name/it: Attiva o disattiva Delta
+   MenuLocation: Misura - Attiva/disattiva Delta
+   Workbenches: [Part](Part_Workbench/it.md)
+   SeeAlso: [Attiva o Disattiva tutte le misure](Part_Measure_Toggle_All/it.md), [Attiva o Disattiva le misure 3D](Part_Measure_Toggle_3D/it.md)
 ---
 
 # Part Measure Toggle Delta/it
@@ -26,4 +26,4 @@ Questo comando attiva o disattiva la visibilità delle misurazioni delta nella [
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle Delta/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle Delta/it

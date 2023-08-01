@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:SheetMetal SketchOnSheet
-   MenuLocation:SheetMetal - Sketch On Sheet metal
-   Workbenches:[SheetMetal](SheetMetal_Workbench.md)
-   Shortcut:**M** **S**
+   Name: SheetMetal SketchOnSheet
+   MenuLocation: SheetMetal - Sketch On Sheet metal
+   Workbenches: [SheetMetal](SheetMetal_Workbench.md)
+   Shortcut: **M** **S**
 ---
 
 # SheetMetal SketchOnSheet
@@ -105,4 +105,4 @@ This thingamajig is made of a folded sheet metal object with holes added.  And s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal SketchOnSheet
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal SketchOnSheet

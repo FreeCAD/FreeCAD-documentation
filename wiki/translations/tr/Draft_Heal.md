@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name/tr:İyileştirme
-   MenuLocation:Taslak - Araçlar - İyileştirme
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
-   SeeAlso:[Yükselt](Draft_Upgrade/tr.md), [Düşür](Draft_Downgrade/tr.md)
+   Name/tr: İyileştirme
+   MenuLocation: Taslak - Araçlar - İyileştirme
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   SeeAlso: [Yükselt](Draft_Upgrade/tr.md), [Düşür](Draft_Downgrade/tr.md)
 ---
 
 # Draft Heal/tr
@@ -53,4 +53,4 @@ Bu komut, daha eski bir sürümde çalışması için eski bir FreeCAD sürümü
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/tr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign MoveFeatureInTree
-   MenuLocation:Context menu - Move object after other object
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   Version:0.17
-   SeeAlso:[PartDesign Set tip](PartDesign_MoveTip.md), [PartDesign Move object to other body](PartDesign_MoveFeature.md)
+   Name: PartDesign MoveFeatureInTree
+   MenuLocation: Context menu - Move object after other object
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Set tip](PartDesign_MoveTip.md), [PartDesign Move object to other body](PartDesign_MoveFeature.md)
 ---
 
 # PartDesign MoveFeatureInTree/tr
@@ -37,4 +37,4 @@ The following three pictures show the same model with a pocket defined on a sket
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeatureInTree/tr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeatureInTree/tr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Поддержать
-   Name:Std_FreeCADDonation
-   MenuLocation:Справка - Поддержать
-   Workbenches:Все
-   Version:0.19
+   Name/ru: Поддержать
+   Name: Std_FreeCADDonation
+   MenuLocation: Справка - Поддержать
+   Workbenches: Все
+   Version: 0.19
 ---
 
 # Std FreeCADDonation/ru
@@ -40,4 +40,4 @@ The **Std FreeCADDonation** command opens the FreeCAD Donate wiki page in the sy
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADDonation/ru
+⏵ [documentation index](../README.md) > Std FreeCADDonation/ru

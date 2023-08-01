@@ -1,10 +1,10 @@
 # Robot CreateRobot/tr
 ---
 - GuiCommand:
-   Name:Robot CreateRobot
-   Name/tr:Robot oluştur
-   Workbenches:[Robot](Robot_Workbench/tr.md)
-   MenuLocation:Robot - Robot oluştur---
+   Name: Robot CreateRobot
+   Name/tr: Robot oluştur
+   Workbenches: [Robot](Robot_Workbench/tr.md)
+   MenuLocation: Robot - Robot oluştur---
 
 
 </div>
@@ -85,4 +85,4 @@ Robot kod ve bir vrml dosyası aracılığıyla tanımlanmalıdır, daha
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateRobot/tr
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateRobot/tr

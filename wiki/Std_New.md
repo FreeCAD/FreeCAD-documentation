@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std New
-   MenuLocation:File - New
-   Workbenches:All
-   Shortcut:**Ctrl**+**N**
-   SeeAlso:[Std Open](Std_Open.md), [Std Import](Std_Import.md)
+   Name: Std New
+   MenuLocation: File - New
+   Workbenches: All
+   Shortcut: **Ctrl**+**N**
+   SeeAlso: [Std Open](Std_Open.md), [Std Import](Std_Import.md)
 ---
 
 # Std New
@@ -99,4 +99,4 @@ FreeCAD.closeDocument(doc.Name)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std New
+⏵ [documentation index](../README.md) > Std New

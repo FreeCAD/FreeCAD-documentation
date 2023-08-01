@@ -1,5 +1,4 @@
-# Developer hub/cs
-{{TOCright}} <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;">
+# <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> Developer hub/cs
 
 
 
@@ -180,4 +179,4 @@ FreeCAD, ačkoli už je použitelný v určité oblasti, je na začátku dlouhé
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > [Developer Documentation](Category_Developer Documentation.md) > Developer hub/cs
+⏵ [documentation index](../README.md) > [Hubs](Category_Hubs.md) > [Developer Documentation](Category_Developer Documentation.md) > Developer hub/cs

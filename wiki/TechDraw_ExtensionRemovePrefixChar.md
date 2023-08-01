@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionRemovePrefixChar
-   MenuLocation:TechDraw - Extensions: Dimensions - Remove Prefix
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:
+   Name: TechDraw ExtensionRemovePrefixChar
+   MenuLocation: TechDraw - Extensions: Dimensions - Remove Prefix
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: 
 ---
 
 # TechDraw ExtensionRemovePrefixChar
@@ -33,4 +33,4 @@ The **TechDraw ExtensionRemovePrefixChar** tool removes all prefix symbols from 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionRemovePrefixChar
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionRemovePrefixChar

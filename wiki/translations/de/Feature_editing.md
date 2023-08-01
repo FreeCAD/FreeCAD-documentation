@@ -1,8 +1,4 @@
 # Feature editing/de
-{{TOCright}}
-
-
-
 ## Einleitung
 
 Diese Seite erklärt die vorgesehene Arbeitsweise des Arbeitsbereichs <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [PartDesign](PartDesign_Workbench/de.md) für den Einsatz ab FreeCAD 0.17.
@@ -208,4 +204,4 @@ Die Seite [Tutorien](Tutorials/de.md) enthält einige Beispiele für die Verwend
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [PartDesign](Category_PartDesign.md) > Feature editing/de
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [PartDesign](Category_PartDesign.md) > Feature editing/de

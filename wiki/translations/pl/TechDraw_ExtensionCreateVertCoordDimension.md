@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionCreateVertCoordDimension
-   Name/pl:Rysunek Techniczny: Rozszerzenie Seria wymiarów kaskadowych pionowo
-   MenuLocation:Rysunek Techniczny - Rozszerzenia: Wymiary - Seria wymiarów kaskadowych pionowo
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[Seria wymiarów kaskadowych poziomo](TechDraw_ExtensionCreateHorizCoordDimension/pl.md), [Seria wymiarów kaskadowych ukośnie](TechDraw_ExtensionCreateObliqueCoordDimension/pl.md)
+   Name: TechDraw ExtensionCreateVertCoordDimension
+   Name/pl: Rysunek Techniczny: Rozszerzenie Seria wymiarów kaskadowych pionowo
+   MenuLocation: Rysunek Techniczny - Rozszerzenia: Wymiary - Seria wymiarów kaskadowych pionowo
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [Seria wymiarów kaskadowych poziomo](TechDraw_ExtensionCreateHorizCoordDimension/pl.md), [Seria wymiarów kaskadowych ukośnie](TechDraw_ExtensionCreateObliqueCoordDimension/pl.md)
 ---
 
 # TechDraw ExtensionCreateVertCoordDimension/pl
@@ -43,4 +43,4 @@ Narzędzie **Seria wymiarów kaskadowych pionowo** tworzy pionowe wymiary wspó�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateVertCoordDimension/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateVertCoordDimension/pl

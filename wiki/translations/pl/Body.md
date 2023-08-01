@@ -29,4 +29,4 @@ Zawartość nie jest wymagana podczas używania środowiska pracy [Część](Par
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [PartDesign](Category_PartDesign.md) > Body/pl
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [PartDesign](Category_PartDesign.md) > Body/pl

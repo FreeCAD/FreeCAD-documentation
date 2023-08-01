@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM ResultsPurge
-   Name/it:Azzera risultati
-   MenuLocation:Risultati - Azzera risultati
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:**R** **P**
-   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
+   Name: FEM ResultsPurge
+   Name/it: Azzera risultati
+   MenuLocation: Risultati - Azzera risultati
+   Workbenches: [FEM](FEM_Workbench/it.md)
+   Shortcut: **R** **P**
+   SeeAlso: [Tutorial FEM](FEM_tutorial/it.md)
 ---
 
 # FEM ResultsPurge/it
@@ -53,4 +53,4 @@ If you only want to delete a result object and keep the result mesh, create a co
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ResultsPurge/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ResultsPurge/it

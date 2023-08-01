@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Назад
-   Name:Std_SelBack
-   MenuLocation:
-   Workbenches:Все
-   Version:0.19
-   SeeAlso:[Перейти к связанному объекту](Std_LinkSelectLinked/ru.md), [Перейти на самый глубокий связанный объект](Std_LinkSelectLinkedFinal/ru.md), [Выбрать все ссылки](Std_LinkSelectAllLinks/ru.md), [Вперёд](Std_SelForward/ru.md)
+   Name/ru: Назад
+   Name: Std_SelBack
+   MenuLocation: 
+   Workbenches: Все
+   Version: 0.19
+   SeeAlso: [Перейти к связанному объекту](Std_LinkSelectLinked/ru.md), [Перейти на самый глубокий связанный объект](Std_LinkSelectLinkedFinal/ru.md), [Выбрать все ссылки](Std_LinkSelectAllLinks/ru.md), [Вперёд](Std_SelForward/ru.md)
 ---
 
 # Std SelBack/ru
@@ -41,4 +41,4 @@ The **Std SelBack** command restores the previous recorded [Tree view](Tree_view
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SelBack/ru
+⏵ [documentation index](../README.md) > Std SelBack/ru

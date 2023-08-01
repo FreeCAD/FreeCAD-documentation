@@ -1,11 +1,11 @@
 ---
 - GuiCommand:Addon/fr
-   Name:BIM Library
-   Name/fr:BIM Bibliothèque
-   MenuLocation:3D Modeling - Library
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/fr.md)
-   Addon:BIM
-   SeeAlso:[Arch Equipement](Arch_Equipment/fr.md)
+   Name: BIM Library
+   Name/fr: BIM Bibliothèque
+   MenuLocation: 3D Modeling - Library
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/fr.md)
+   Addon: BIM
+   SeeAlso: [Arch Equipement](Arch_Equipment/fr.md)
 ---
 
 # BIM Library/fr
@@ -37,4 +37,4 @@ L\'outil Bibliothèque BIM vous permet de placer dans le modèle en cours un obj
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > BIM Library/fr
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > BIM Library/fr

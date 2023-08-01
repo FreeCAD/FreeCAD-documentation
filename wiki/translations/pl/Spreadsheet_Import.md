@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet Import
-   Name/pl:Arkusz Kalkulacyjny: Importuj
-   MenuLocation:Arkusz Kalkulacyjny - Importuj
-   Workbenches:[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Eksportuj](Spreadsheet_Export/pl.md)
+   Name: Spreadsheet Import
+   Name/pl: Arkusz Kalkulacyjny: Importuj
+   MenuLocation: Arkusz Kalkulacyjny - Importuj
+   Workbenches: [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Eksportuj](Spreadsheet_Export/pl.md)
 ---
 
 # Spreadsheet Import/pl
@@ -34,4 +34,4 @@ Aby wykonac import pliku Excel ***.xlsx** należy posłużyć się poleceniem [I
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Import/pl
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Import/pl

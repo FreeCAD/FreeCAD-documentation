@@ -1,8 +1,4 @@
 # Tree view/es
-{{TOCright}}
-
-
-
 ## Introducción
 
 La [vista árbol](Tree_view/es.md) aparece en la pestaña **Modelo** de la [vista combo](Combo_view/es.md), uno de los paneles más importantes de la [interfaz](Interface/es.md); muestra todos los objetos definidos por el usuario que forman parte de un documento de FreeCAD. La vista árbol es una representación de la [estructura del documento](document_structure/es.md), e indica qué información se guarda en el disco.
@@ -237,4 +233,4 @@ This indicates that the object will be hidden in the Tree view if the **Show ite
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Tree view/es
+⏵ [documentation index](../README.md) > Tree view/es

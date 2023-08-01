@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Curves PasteSVG
-   Name/fr:Curves Coller une image SVG
-   MenuLocation:Misc. - Paste SVG
-   Workbenches:[Curves](Curves_Workbench/fr.md)
+   Name: Curves PasteSVG
+   Name/fr: Curves Coller une image SVG
+   MenuLocation: Misc. - Paste SVG
+   Workbenches: [Curves](Curves_Workbench/fr.md)
 ---
 
 # Curves PasteSVG/fr
@@ -38,4 +38,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves PasteSVG/fr
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves PasteSVG/fr

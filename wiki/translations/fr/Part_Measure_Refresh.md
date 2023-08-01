@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Measure Refresh
-   Name/fr:Part Rafraîchir les mesures
-   MenuLocation:Mesure - Rafraîchir les mesures
-   Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Part Mesure linéaire](Part_Measure_Linear/fr.md), [Part Mesure angulaire](Part_Measure_Angular/fr.md)
+   Name: Part Measure Refresh
+   Name/fr: Part Rafraîchir les mesures
+   MenuLocation: Mesure - Rafraîchir les mesures
+   Workbenches: [Part](Part_Workbench/fr.md)
+   SeeAlso: [Part Mesure linéaire](Part_Measure_Linear/fr.md), [Part Mesure angulaire](Part_Measure_Angular/fr.md)
 ---
 
 # Part Measure Refresh/fr
@@ -22,4 +22,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Refresh/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Refresh/fr

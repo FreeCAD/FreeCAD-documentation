@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part_Mirror
-   Name/fr:Part Miroir
-   MenuLocation:Part - Mise en miroir...
-   Workbenches:[Part](Part_Workbench/fr.md)
+   Name: Part_Mirror
+   Name/fr: Part Miroir
+   MenuLocation: Part - Mise en miroir...
+   Workbenches: [Part](Part_Workbench/fr.md)
 ---
 
 # Part Mirror/fr
@@ -54,4 +54,4 @@ Les cases **Point de base** peuvent être utilisées pour déplacer le miroir pl
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/fr

@@ -1,6 +1,4 @@
 # Navigation Cube/fr
-{{TOCright}}
-
 ## Introduction
 
 Le **cube de navigation** donne des informations visuelles sur l\'orientation de la caméra dans la [vue 3D](3D_view/fr.md) en cours et peut être utilisé pour la modifier. Par défaut, il est visible et se trouve dans le coin supérieur droit de la vue.
@@ -160,4 +158,4 @@ Le tableau ci-dessous énumère les autres paramètres avancés du cube de navig
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Navigation Cube/fr
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Navigation Cube/fr

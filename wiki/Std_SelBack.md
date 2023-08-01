@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std SelBack
-   MenuLocation:
-   Workbenches:All
-   Version:0.19
-   SeeAlso:[Std LinkSelectLinked](Std_LinkSelectLinked.md), [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks.md), [Std SelForward](Std_SelForward.md)
+   Name: Std SelBack
+   MenuLocation: 
+   Workbenches: All
+   Version: 0.19
+   SeeAlso: [Std LinkSelectLinked](Std_LinkSelectLinked.md), [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks.md), [Std SelForward](Std_SelForward.md)
 ---
 
 # Std SelBack
@@ -31,4 +31,4 @@ The **Std SelBack** command restores the previous recorded [Tree view](Tree_view
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SelBack
+⏵ [documentation index](../README.md) > Std SelBack

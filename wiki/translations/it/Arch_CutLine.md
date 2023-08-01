@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch CutLine
-   Name/it:Taglia con una linea
-   MenuLocation:Arch - Taglia con una linea
-   Workbenches:[Arch](Arch_Workbench/it.md)
-   SeeAlso:[Taglia con un piano](Arch_CutPlane/it.md)
-   Version:0.19
+   Name: Arch CutLine
+   Name/it: Taglia con una linea
+   MenuLocation: Arch - Taglia con una linea
+   Workbenches: [Arch](Arch_Workbench/it.md)
+   SeeAlso: [Taglia con un piano](Arch_CutPlane/it.md)
+   Version: 0.19
 ---
 
 # Arch CutLine/it
@@ -53,4 +53,4 @@ Lo strumento [Taglia con una linea](Arch_CutLine/it.md) consente di tagliare un 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutLine/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutLine/it

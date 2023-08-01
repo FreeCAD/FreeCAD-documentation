@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/de:Std MakroStartFehlersuche
-   MenuLocation:Makro - Fehlersuchmakro
-   Workbenches:Alle
-   Shortcut:**F6**
-   SeeAlso:[Std MakroFehlersucheAnhalten](Std_MacroStopDebug/de.md)
+   Name/de: Std MakroStartFehlersuche
+   MenuLocation: Makro - Fehlersuchmakro
+   Workbenches: Alle
+   Shortcut: **F6**
+   SeeAlso: [Std MakroFehlersucheAnhalten](Std_MacroStopDebug/de.md)
 ---
 
 # Std MacroStartDebug/de
@@ -24,4 +24,4 @@ Dieser Befehl funktioniert zur Zeit nicht.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MacroStartDebug/de
+⏵ [documentation index](../README.md) > Std MacroStartDebug/de

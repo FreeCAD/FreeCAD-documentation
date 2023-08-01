@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std LinkReplace
-   Name/pl:Std: Zastąp przez łącze
-   MenuLocation:brak
-   Workbenches:wszystkie
-   Version:0.19
-   SeeAlso:[Utwórz łącze](Std_LinkMake/pl.md), [Utwórz łącze względne](Std_LinkMakeRelative/pl.md), [Usuń powiązanie](Std_LinkUnlink/pl.md)
+   Name: Std LinkReplace
+   Name/pl: Std: Zastąp przez łącze
+   MenuLocation: brak
+   Workbenches: wszystkie
+   Version: 0.19
+   SeeAlso: [Utwórz łącze](Std_LinkMake/pl.md), [Utwórz łącze względne](Std_LinkMakeRelative/pl.md), [Usuń powiązanie](Std_LinkUnlink/pl.md)
 ---
 
 # Std LinkReplace/pl
@@ -61,4 +61,4 @@ Polecenie to tworzy nowy obiekt [App: Łącze](App_Link/pl.md). Jego właściwo�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkReplace/pl
+⏵ [documentation index](../README.md) > Std LinkReplace/pl

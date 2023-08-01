@@ -1,5 +1,4 @@
-# Power users hub/fr
-{{TOCright}} <img alt="" src=images/Power_user_hub.png  style="width:64px;">
+# <img alt="" src=images/Power_user_hub.png  style="width:64px;"> Power users hub/fr
 
 
 
@@ -134,4 +133,4 @@ Sur le [Portail communautaire FreeCAD](FreeCAD_Community_Portal/fr.md), vous pou
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/fr
+⏵ [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/fr

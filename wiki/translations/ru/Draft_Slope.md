@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Slope
-   Name/ru:Draft Slope
-   MenuLocation:Черчение - Утилиты - Set Slope
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   SeeAlso:
+   Name: Draft Slope
+   Name/ru: Draft Slope
+   MenuLocation: Черчение - Утилиты - Set Slope
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   SeeAlso: 
 ---
 
 # Draft Slope/ru
@@ -37,4 +37,4 @@ There is no Python method to slope objects. To emulate the results of the Draft 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Slope/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Slope/ru

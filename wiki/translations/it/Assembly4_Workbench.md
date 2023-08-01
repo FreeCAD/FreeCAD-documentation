@@ -5,7 +5,7 @@
 ## Introduzione
 
 
-{{TOCright}}
+
 
 [Assembly4](Assembly4_Workbench.md) è un [external workbench](external_workbenches.md) viene utilizzato per eseguire l\'assemblaggio di diversi corpi contenuti in un unico file o in più documenti. È stato creato nel ciclo di sviluppo v0.19 per sfruttare le nuove funzionalità del ramo Assembly3, come l\'oggetto [App Link](App_Link.md) e il nuovo [expression engine](expressions.md).
 
@@ -45,4 +45,4 @@ Assembly4 è ispirato a <img alt="" src=images/A2p_workbench.svg  style="width:2
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Assembly4 Workbench/it
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Assembly4 Workbench/it

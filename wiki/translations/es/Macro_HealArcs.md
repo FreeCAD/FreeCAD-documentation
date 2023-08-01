@@ -48,4 +48,4 @@ else:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro HealArcs/es
+⏵ [documentation index](../README.md) > Macro HealArcs/es

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionChangeLineAttributes
-   Name/de:TechDraw ErgänzungLinienmerkmaleÄndern
-   MenuLocation:TechDraw - Ergänzungen: Merkmale/Änderungen - Linienmerkmale ändern
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ErgänzungLinienmerkmaleAuswählen](TechDraw_ExtensionSelectLineAttributes/de.md)
+   Name: TechDraw ExtensionChangeLineAttributes
+   Name/de: TechDraw ErgänzungLinienmerkmaleÄndern
+   MenuLocation: TechDraw - Ergänzungen: Merkmale/Änderungen - Linienmerkmale ändern
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ErgänzungLinienmerkmaleAuswählen](TechDraw_ExtensionSelectLineAttributes/de.md)
 ---
 
 # TechDraw ExtensionChangeLineAttributes/de
@@ -42,4 +42,4 @@ Das Werkzeug **TechDraw ErgänzungLinienmerkmaleÄndern** ändert die Eigenschaf
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionChangeLineAttributes/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionChangeLineAttributes/de

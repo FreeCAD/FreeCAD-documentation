@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Constraint Length
-   Name/pl:Szkicownik: Wiązanie odległości
-   MenuLocation:Szkic - Wiązania szkicownika - Wiązanie odległości
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**K** **D**
-   SeeAlso:[Zwiąż w poziomie](Sketcher_ConstrainDistanceX/pl.md), [Zwiąż w pionie](Sketcher_ConstrainDistanceY/pl.md)
+   Name: Constraint Length
+   Name/pl: Szkicownik: Wiązanie odległości
+   MenuLocation: Szkic - Wiązania szkicownika - Wiązanie odległości
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **K** **D**
+   SeeAlso: [Zwiąż w poziomie](Sketcher_ConstrainDistanceX/pl.md), [Zwiąż w pionie](Sketcher_ConstrainDistanceY/pl.md)
 ---
 
 # Sketcher ConstrainDistance/pl
@@ -79,4 +79,4 @@ Strona [Skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistance/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistance/pl

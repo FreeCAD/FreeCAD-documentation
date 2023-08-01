@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Check
-   Name/es:Arch Check
-   MenuLocation:Arquitectura - Utilidades - Comprobar
-   Workbenches:[Arquitectura](Arch_Workbench/es.md)
-   SeeAlso:[Tapar agujeros](Arch_CloseHoles/es.md)
+   Name: Arch Check
+   Name/es: Arch Check
+   MenuLocation: Arquitectura - Utilidades - Comprobar
+   Workbenches: [Arquitectura](Arch_Workbench/es.md)
+   SeeAlso: [Tapar agujeros](Arch_CloseHoles/es.md)
 ---
 
 # Arch Check/es
@@ -104,4 +104,4 @@ print(list_bad)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check/es
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check/es

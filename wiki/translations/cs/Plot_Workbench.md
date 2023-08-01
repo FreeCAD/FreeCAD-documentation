@@ -1,7 +1,7 @@
 # <img alt="Plot workbench icon" src=images/Workbench_Plot.svg  style="width:64px;"> Plot Workbench/cs
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -65,4 +65,4 @@ Since Plot module is a layer over matplotlib, you are free to use all matplotlib
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot Workbench/cs
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot Workbench/cs

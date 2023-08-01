@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std SaveAll
-   Name/pl:Std: Zapisz wszystkie
-   MenuLocation:Plik - Zapisz wszystkie
-   Workbenches:wszystkie
-   SeeAlso:[Zapisz](Std_Save/pl.md)
+   Name: Std SaveAll
+   Name/pl: Std: Zapisz wszystkie
+   MenuLocation: Plik - Zapisz wszystkie
+   Workbenches: wszystkie
+   SeeAlso: [Zapisz](Std_Save/pl.md)
 ---
 
 # Std SaveAll/pl
@@ -46,4 +46,4 @@ Aby zapisać dokument, należy użyć metody `save` obiektu *document*. Nowy dok
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SaveAll/pl
+⏵ [documentation index](../README.md) > Std SaveAll/pl

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintAlignment
-   Name/de:Assembly3 EbenenAusrichten
-   Icon:Assembly_ConstraintAlignment.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintAlignment
+   Name/de: Assembly3 EbenenAusrichten
+   Icon: Assembly_ConstraintAlignment.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintAlignment/de
@@ -25,4 +25,4 @@ Der Abstand ihrer Z-Achsen und die Winkel zwischen ihren X-Achsen (und genauso i
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintAlignment/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintAlignment/de

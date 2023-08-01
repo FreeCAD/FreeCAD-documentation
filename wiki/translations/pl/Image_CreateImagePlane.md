@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Image CreateImagePlane
-   Name/pl:Obraz: Utwórz płaszczyznę obrazu
-   MenuLocation:
-   Workbenches:[Obraz](Image_Workbench/pl.md)
-   SeeAlso:[Otwórz](Image_Open/pl.md), [Skaluj](Image_Scaling/pl.md)
+   Name: Image CreateImagePlane
+   Name/pl: Obraz: Utwórz płaszczyznę obrazu
+   MenuLocation: 
+   Workbenches: [Obraz](Image_Workbench/pl.md)
+   SeeAlso: [Otwórz](Image_Open/pl.md), [Skaluj](Image_Scaling/pl.md)
 ---
 
 # Image CreateImagePlane/pl
@@ -56,4 +56,4 @@ Jeśli początkowo nie podano żadnego odsunięcia dla obrazka, jego pozycję mo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/pl
+⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/pl

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher Create3PointArc
-   Name/de:Sketcher BogenDurch3PunkteErstellen
-   MenuLocation:Sketch - Skizzengeometrien - Kreisbogen durch drei Punkte erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **3** **A**
-   SeeAlso:
+   Name: Sketcher Create3PointArc
+   Name/de: Sketcher BogenDurch3PunkteErstellen
+   MenuLocation: Sketch - Skizzengeometrien - Kreisbogen durch drei Punkte erstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **3** **A**
+   SeeAlso: 
 ---
 
 # Sketcher Create3PointArc/de
@@ -36,4 +36,4 @@ Beim Start des Werkzeugs ändert sich der Mauszeiger in ein weißes Kreuz mit ei
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointArc/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointArc/de

@@ -48,4 +48,4 @@ Obě verze mohou pracovat nezávisle na použitém operačním systému.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro FCInfo Alternate Linux/cs
+⏵ [documentation index](../README.md) > Macro FCInfo Alternate Linux/cs

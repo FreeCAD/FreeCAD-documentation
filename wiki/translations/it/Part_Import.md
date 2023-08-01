@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Import‏‎
-   Name/it:Importa CAD
-   MenuLocation:Part - Importa CAD
-   Workbenches:[Part](Part_Workbench/it.md)
-   SeeAlso:[Esporta CAD](Part_Export/it.md), [Importa](Std_Import/it.md), [Importazione e Esportazione](Import_Export/it.md)
+   Name: Part Import‏‎
+   Name/it: Importa CAD
+   MenuLocation: Part - Importa CAD
+   Workbenches: [Part](Part_Workbench/it.md)
+   SeeAlso: [Esporta CAD](Part_Export/it.md), [Importa](Std_Import/it.md), [Importazione e Esportazione](Import_Export/it.md)
 ---
 
 # Part Import/it
@@ -26,4 +26,4 @@ Lo strumento **<img src="images/Part_Import.svg" width=16px> [Importa CAD](Part_
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Import/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Import/it

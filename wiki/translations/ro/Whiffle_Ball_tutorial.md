@@ -426,4 +426,4 @@ Felicitări! Tocmai ați terminat cu succes acest tutorial!
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Category_Part.md) > Whiffle Ball tutorial/ro
+⏵ [documentation index](../README.md) > [Part](Category_Part.md) > Whiffle Ball tutorial/ro

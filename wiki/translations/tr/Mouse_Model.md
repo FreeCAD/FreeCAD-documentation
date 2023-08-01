@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Mouse Model/tr
+⏵ [documentation index](../README.md) > Mouse Model/tr

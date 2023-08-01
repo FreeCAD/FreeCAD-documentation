@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher Extend
-   Name/it:Estendi bordo
-   Icon:Sketcher Extend.svg
-   MenuLocation:Sketch - Geometrie - Estendi bordo
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   SeeAlso:[Rifila](Sketcher_Trimming/it.md)
-   Version:0.17
+   Name: Sketcher Extend
+   Name/it: Estendi bordo
+   Icon: Sketcher Extend.svg
+   MenuLocation: Sketch - Geometrie - Estendi bordo
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   SeeAlso: [Rifila](Sketcher_Trimming/it.md)
+   Version: 0.17
 ---
 
 # Sketcher Extend/it
@@ -71,4 +71,4 @@ Lo strumento **Estendi bordo** estende un bordo fino ad una posizione arbitraria
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Extend/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Extend/it

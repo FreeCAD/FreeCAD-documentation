@@ -1,6 +1,6 @@
 # PartDesign SubtractiveSphere/it
 ---
-- GuiCommand:   Name:PartDesign SubtractiveSphere   Name/it:Sfera sottrattiva   Workbenches:[MenuLocation:Part Design - Crea una primitiva sottrattiva - Sfera   Version:0.17   SeeAlso:[[PartDesign CompPrimitiveSubtractive/it|Primitive sottrattive](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign SubtractiveSphere   Name/it: Sfera sottrattiva   Workbenches: [MenuLocation: Part Design - Crea una primitiva sottrattiva - Sfera   Version: 0.17   SeeAlso: [[PartDesign CompPrimitiveSubtractive/it|Primitive sottrattive](PartDesign_Workbench/it___PartDesign]].md)---
 
 
 </div>
@@ -74,4 +74,4 @@ Dopo la sua creazione la sfera può essere modificata in due modi:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveSphere/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveSphere/it

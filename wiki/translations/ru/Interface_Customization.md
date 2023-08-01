@@ -1,8 +1,4 @@
 # Interface Customization/ru
-{{TOCright}}
-
-
-
 ## Введение
 
 Интерфейс FreeCAD базируется на современном инструментарии [Qt](http://ru.wikipedia.org/wiki/Qt_(toolkit)), и имеет современную организацию. Некоторые аспекты интерфейса могут быть настроены. Вы можете, например, добавить пользовательские панели инструментов с инструментами из нескольких рабочих мест или инструментами, определенными в макросах, и вы можете создавать свои собственные сочетания клавиш. Не могут быть изменены меню и панели инструментов по умолчанию, которые поставляются с FreeCAD и его верстаками.
@@ -281,4 +277,4 @@ In the Workbenches category of the Addon Manager some addons by user triplus can
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Interface Customization/ru
+⏵ [documentation index](../README.md) > Interface Customization/ru

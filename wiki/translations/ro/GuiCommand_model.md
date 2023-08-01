@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Base ExampleCommandModel
-   MenuLocation:Sample - Command
-   Workbenches:
-   Shortcut:
-   SeeAlso:
+   Name: Base ExampleCommandModel
+   MenuLocation: Sample - Command
+   Workbenches: 
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # GuiCommand model/ro
@@ -308,4 +308,4 @@ Optional.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbench_Tools_navi{{#translation:}}}} <!--use the](Category_Workbench_Tools_navi{{#translation:}}}} <!--use the.md) > GuiCommand model/ro
+⏵ [documentation index](../README.md) > [Workbench_Tools_navi{{#translation:}}}} <!--use the](Category_Workbench_Tools_navi{{#translation:}}}} <!--use the.md) > GuiCommand model/ro

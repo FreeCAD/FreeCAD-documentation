@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Path Area
-   MenuLocation:Path - Area
-   Workbenches:[Path](Path_Workbench.md)
+   Name: Path Area
+   MenuLocation: Path - Area
+   Workbenches: [Path](Path_Workbench.md)
 ---
 
 # Path Area/it
@@ -174,4 +174,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Area/it
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Area/it

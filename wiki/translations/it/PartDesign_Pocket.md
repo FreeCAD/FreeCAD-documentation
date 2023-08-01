@@ -1,6 +1,6 @@
 # PartDesign Pocket/it
 ---
-- GuiCommand:   Name:PartDesign_Pocket   Name/it:Tasca   MenuLocation:PartDesign - Tasca   Workbenches:[PartDesign](PartDesign_Workbench/it.md)---
+- GuiCommand:   Name: PartDesign_Pocket   Name/it: Tasca   MenuLocation: PartDesign - Tasca   Workbenches: [PartDesign](PartDesign_Workbench/it.md)---
 
 
 </div>
@@ -212,4 +212,4 @@ Tapers the pocket in the opposite extrusion direction by the given angle. A posi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/it

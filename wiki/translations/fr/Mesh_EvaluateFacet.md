@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh EvaluateFacet
-   Name/fr:Mesh Infos sur la face
-   MenuLocation:Maillages - Analyser - Infos sur la face
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
+   Name: Mesh EvaluateFacet
+   Name/fr: Mesh Infos sur la face
+   MenuLocation: Maillages - Analyser - Infos sur la face
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
 ---
 
 # Mesh EvaluateFacet/fr
@@ -51,4 +51,4 @@ Triangle: <[1.964574, 0.047063, 0.748046], [1.937166, 0.062461, 0.992797],
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh EvaluateFacet/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh EvaluateFacet/fr

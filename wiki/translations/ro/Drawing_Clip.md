@@ -1,6 +1,6 @@
 # Drawing Clip/ro
 ---
-- GuiCommand:   Name:Drawing Clip   Workbenches:[[Drawing Workbench   Drawing]], Complete|MenuLocation:Drawing - Clip   Shortcut:none---
+- GuiCommand:   Name: Drawing Clip   Workbenches: [[Drawing Workbench   Drawing]], Complete|MenuLocation: Drawing - Clip   Shortcut: none---
 
 ## Descriere
 
@@ -40,4 +40,4 @@ Această comandă vă permite să plasați un dreptunghi de tăiere pe un ecran 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Clip/ro
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Clip/ro

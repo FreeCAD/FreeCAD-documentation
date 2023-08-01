@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractiveSphere
-   Name/fr:PartDesign Sphère soustractive
-   MenuLocation:Part Design - Créer une primitive soustractive - Sphère soustractive
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md), [PartDesign Sphère additif](PartDesign_AdditiveSphere/fr.md)
+   Name: PartDesign SubtractiveSphere
+   Name/fr: PartDesign Sphère soustractive
+   MenuLocation: Part Design - Créer une primitive soustractive - Sphère soustractive
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md), [PartDesign Sphère additif](PartDesign_AdditiveSphere/fr.md)
 ---
 
 # PartDesign SubtractiveSphere/fr
@@ -55,4 +55,4 @@ La Sphère peut être éditée après sa création de deux façons :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveSphere/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveSphere/fr

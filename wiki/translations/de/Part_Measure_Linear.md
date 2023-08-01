@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Measure Linear
-   Name/de:Part Messung Abstand
-   MenuLocation:Messen - Linear messen
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Std AbstandMessen](Std_MeasureDistance/de.md), [Draft Maß](Draft_Dimension/de.md)
+   Name: Part Measure Linear
+   Name/de: Part Messung Abstand
+   MenuLocation: Messen - Linear messen
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: [Std AbstandMessen](Std_MeasureDistance/de.md), [Draft Maß](Draft_Dimension/de.md)
 ---
 
 # Part Measure Linear/de
@@ -41,4 +41,4 @@ Die Darstellung der Maße kann in den [Einstellungen](PartDesign_Preferences/de#
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Linear/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Linear/de

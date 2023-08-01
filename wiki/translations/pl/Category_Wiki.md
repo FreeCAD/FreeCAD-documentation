@@ -11,4 +11,4 @@ This category contains all documents that relate to the Wiki.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Wiki/pl
+⏵ [documentation index](../README.md) > Category:Wiki/pl

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Design456 PartSubtract
-   MenuLocation:Design456_Tools - 3DTools - Part Subtract
-   Workbenches:[Design456](Design456_Workbench.md)
-   Shortcut:None
-   SeeAlso:
+   Name: Design456 PartSubtract
+   MenuLocation: Design456_Tools - 3DTools - Part Subtract
+   Workbenches: [Design456](Design456_Workbench.md)
+   Shortcut: None
+   SeeAlso: 
 ---
 
 # Design456 PartSubtract
@@ -32,4 +32,4 @@ Works on 3D objects.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 PartSubtract
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 PartSubtract

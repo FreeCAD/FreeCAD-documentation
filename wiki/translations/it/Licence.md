@@ -1,6 +1,4 @@
 # Licence/it
-{{TOCright}}
-
 ## Licenze utilizzate in FreeCAD 
 
 FreeCAD utilizza due licenze diverse, una per l\'applicazione stessa e una per la documentazione:
@@ -51,4 +49,4 @@ Tuttavia questa decisione viene presa solo per il sistema principale di FreeCAD.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/it

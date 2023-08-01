@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part CompJoinFeatures
-   Name/de:Part AuswahlVerbindungsmethoden
-   MenuLocation:Formteil - Verbinden
-   Workbenches:[Part](Part_Workbench/de.md)
-   Version:0.16
-   SeeAlso:[Part Verbinden](Part_JoinConnect/de.md), [Part Einbetten](Part_JoinEmbed/de.md), [Part Ausschneiden](Part_JoinCutout/de.md), [Part Boolesche Operationen](Part_Boolean/de.md), [Part Dicke](Part_Thickness/de.md)
+   Name: Part CompJoinFeatures
+   Name/de: Part AuswahlVerbindungsmethoden
+   MenuLocation: Formteil - Verbinden
+   Workbenches: [Part](Part_Workbench/de.md)
+   Version: 0.16
+   SeeAlso: [Part Verbinden](Part_JoinConnect/de.md), [Part Einbetten](Part_JoinEmbed/de.md), [Part Ausschneiden](Part_JoinCutout/de.md), [Part Boolesche Operationen](Part_Boolean/de.md), [Part Dicke](Part_Thickness/de.md)
 ---
 
 # Part CompJoinFeatures/de
@@ -29,4 +29,4 @@ Dieser Befehl gehört zu der Schaltfläche in der Symbolleiste, die das Ausklapp
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/de

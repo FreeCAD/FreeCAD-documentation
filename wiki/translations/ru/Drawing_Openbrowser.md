@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Drawing Openbrowser
-   Name/ru:Drawing Openbrowser
-   Workbenches:[Drawing](Drawing_Workbench/ru.md), Complete
-   MenuLocation:Чертёж - Открыть в браузере
-   Shortcut:
+   Name: Drawing Openbrowser
+   Name/ru: Drawing Openbrowser
+   Workbenches: [Drawing](Drawing_Workbench/ru.md), Complete
+   MenuLocation: Чертёж - Открыть в браузере
+   Shortcut: 
 ---
 
 # Drawing Openbrowser/ru
@@ -35,4 +35,4 @@ This command allows you to display a selected [Drawing page](Drawing_Landscape_A
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Openbrowser/ru
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Openbrowser/ru

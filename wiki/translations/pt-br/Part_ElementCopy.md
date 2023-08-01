@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part ElementCopy
-   MenuLocation:Part - Create a copy - Create shape element copy
-   Workbenches:[Part](Part_Workbench.md)
-   Version:0.19
-   SeeAlso:[Part SimpleCopy](Part_SimpleCopy.md), [Part TransformedCopy](Part_TransformedCopy.md), [Part RefineShape](Part_RefineShape.md)
+   Name: Part ElementCopy
+   MenuLocation: Part - Create a copy - Create shape element copy
+   Workbenches: [Part](Part_Workbench.md)
+   Version: 0.19
+   SeeAlso: [Part SimpleCopy](Part_SimpleCopy.md), [Part TransformedCopy](Part_TransformedCopy.md), [Part RefineShape](Part_RefineShape.md)
 ---
 
 # Part ElementCopy/pt-br
@@ -34,4 +34,4 @@ The copy has simple view properties like any other [Part Feature](Part_Feature.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ElementCopy/pt-br
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ElementCopy/pt-br

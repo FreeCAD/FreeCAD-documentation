@@ -10,4 +10,4 @@ This category lists pages related to the [TechDraw Workbench/zh-cn](TechDraw_Wor
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:TechDraw/zh-cn
+⏵ [documentation index](../README.md) > Category:TechDraw/zh-cn

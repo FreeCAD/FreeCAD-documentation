@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Plot](Plot_Workbench.md) > Plot Module/pt
+⏵ [documentation index](../README.md) > [Plot](Plot_Workbench.md) > Plot Module/pt

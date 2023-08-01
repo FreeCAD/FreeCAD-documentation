@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Sprocket
-   Name/de:PartDesign Kettenrad
-   MenuLocation:Part Design - Kettenrad...
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.19
+   Name: PartDesign Sprocket
+   Name/de: PartDesign Kettenrad
+   MenuLocation: Part Design - Kettenrad...
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.19
 ---
 
 # PartDesign Sprocket/de
@@ -49,4 +49,4 @@ Mit diesem Werkzeug kann ein 2D-Profil eines Kettenrads (oder Ritzels) erstellt 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Sprocket/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Sprocket/de

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std InterfaceCustomization/ja
+⏵ [documentation index](../README.md) > Std InterfaceCustomization/ja

@@ -46,4 +46,4 @@ Seit ihrem Erscheinen in v0.17 waren Bezugsobjekte für die Verwendung innerhalb
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [PartDesign](Category_PartDesign.md) > Datum/de
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [PartDesign](Category_PartDesign.md) > Datum/de

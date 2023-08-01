@@ -1,5 +1,5 @@
 # FEM Preferences/pl
-{{TOCright}} Ekran preferencji środowiska pracy [MES](EM_Workbench/pl.md) znajduje się w [Edytorze ustawień](Preferences_Editor/pl.md), **Edycja → Preferencje ... → MES**.
+Ekran preferencji środowiska pracy [MES](EM_Workbench/pl.md) znajduje się w [Edytorze ustawień](Preferences_Editor/pl.md), **Edycja → Preferencje ... → MES**.
 
 W preferencjach środowiska pracy MES znajduje się kilka zakładek, poczynając od **Ogólnej** konfiguracji środowiska. Pozostałe zakładki określają sposób współpracy MES z obsługiwanymi zewnętrznymi solverami.
 
@@ -198,4 +198,4 @@ W zakładce *Materiał* można wybrać następujące opcje:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [FEM](Category_FEM.md) > FEM Preferences/pl
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [FEM](Category_FEM.md) > FEM Preferences/pl

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Import
-‏‎   MenuLocation:Part - Import CAD
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Std Import](Std_Import.md)
+   Name: Part Import
+‏‎   MenuLocation: Part - Import CAD
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Std Import](Std_Import.md)
 ---
 
 # Part Import/ro
@@ -41,4 +41,4 @@ Acest instrument vă permite să a dăugați un fișier [\*.IGES](http://en.wiki
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Import/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Import/ro

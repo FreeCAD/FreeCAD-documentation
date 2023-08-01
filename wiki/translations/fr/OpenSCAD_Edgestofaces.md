@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD Edgestofaces
-   Name/fr:OpenSCAD Conversion d'arêtes en faces
-   MenuLocation:OpenSCAD - Convertir les arêtes en faces‏‎
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
-   SeeAlso:[Draft Agréger](Draft_Upgrade/fr.md)
+   Name: OpenSCAD Edgestofaces
+   Name/fr: OpenSCAD Conversion d'arêtes en faces
+   MenuLocation: OpenSCAD - Convertir les arêtes en faces‏‎
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench/fr.md)
+   SeeAlso: [Draft Agréger](Draft_Upgrade/fr.md)
 ---
 
 # OpenSCAD Edgestofaces/fr
@@ -35,4 +35,4 @@ Voir aussi [Draft Agréger](Draft_Upgrade/fr.md) pour une solution alternative p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Edgestofaces/fr
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Edgestofaces/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Truss
-   Name/fr:Arch Treillis
-   MenuLocation:Arch - Treillis
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   Version:0.19
+   Name: Arch Truss
+   Name/fr: Arch Treillis
+   MenuLocation: Arch - Treillis
+   Workbenches: [Arch](Arch_Workbench/fr.md)
+   Version: 0.19
 ---
 
 # Arch Truss/fr
@@ -97,4 +97,4 @@ truss.HeightEnd = 400
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Truss/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Truss/fr

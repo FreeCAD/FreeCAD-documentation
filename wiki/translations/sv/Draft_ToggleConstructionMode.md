@@ -1,6 +1,6 @@
 # Draft ToggleConstructionMode/sv
 ---
-- GuiCommand:   Name:Draft ToggleConstructionMode   Name/sv:Draft ToggleConstructionMode   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> Utilities -> Toggle construction mode---
+- GuiCommand:   Name: Draft ToggleConstructionMode   Name/sv: Draft ToggleConstructionMode   Workbenches: [Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation: Draft -> Utilities -> Toggle construction mode---
 
 
 </div>
@@ -54,4 +54,4 @@ The Draft module features a construction mode, which allows to draw certain obje
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/sv

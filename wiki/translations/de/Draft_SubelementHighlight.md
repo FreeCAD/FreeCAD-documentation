@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft SubelementHighlight
-   Name/de:Draft UnterelementHervorheben
-   MenuLocation:Entwurf - Änderung - Unterelement hervorheben
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Shortcut:**H** **S**
-   Version:0.19
-   SeeAlso:[Draft Verschieben](Draft_Move/de.md), [Draft Drehen](Draft_Rotate/de.md), [Draft Skalieren](Draft_Scale/de.md)
+   Name: Draft SubelementHighlight
+   Name/de: Draft UnterelementHervorheben
+   MenuLocation: Entwurf - Änderung - Unterelement hervorheben
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut: **H** **S**
+   Version: 0.19
+   SeeAlso: [Draft Verschieben](Draft_Move/de.md), [Draft Drehen](Draft_Rotate/de.md), [Draft Skalieren](Draft_Scale/de.md)
 ---
 
 # Draft SubelementHighlight/de
@@ -49,4 +49,4 @@ Der <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:24px;"> *
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SubelementHighlight/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SubelementHighlight/de

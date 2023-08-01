@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainPointOnObject
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   MenuLocation:Sketch - Sketcher constraints - Constrain point onto object
-   Shortcut:Shift+O
-   SeeAlso:[Constrain Coincident](Sketcher_ConstrainCoincident.md)
+   Name: Sketcher ConstrainPointOnObject
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch - Sketcher constraints - Constrain point onto object
+   Shortcut: Shift+O
+   SeeAlso: [Constrain Coincident](Sketcher_ConstrainCoincident.md)
 ---
 
 # Sketcher ConstrainPointOnObject/ro
@@ -87,4 +87,4 @@ Pentru a identifica numărul care are indică liniile și punctele? Vă rog să 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/ro

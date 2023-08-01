@@ -1,7 +1,7 @@
 # <img alt="Plot workbench icon" src=images/Workbench_Plot.svg  style="width:64px;"> Plot Workbench/es
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -67,4 +67,4 @@ Siendo el módulo de graficado una adaptación de `matplotlib`, usted puede hace
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot Workbench/es
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot Workbench/es

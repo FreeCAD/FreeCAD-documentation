@@ -1,8 +1,4 @@
 # Addon/ru
-{{TOCright}}
-
-
-
 ## Введение
 
 В FreeCAD и в этой документации [Дополнения](Addon/ru.md) - это любой компонент, который не является частью базовой установки, но который может быть добавлен в систему определенными методами.
@@ -54,4 +50,4 @@ See also:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > Addon/ru
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > Addon/ru

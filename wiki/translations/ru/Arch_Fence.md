@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Ограждение
-   Name:Arch_Fence
-   MenuLocation:Arch - Ограждение
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   Version:0.19
+   Name/ru: Ограждение
+   Name: Arch_Fence
+   MenuLocation: Arch - Ограждение
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   Version: 0.19
 ---
 
 # Arch Fence/ru
@@ -100,4 +100,4 @@ Fence = Arch.buildFence(fence_section, post, sketch)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Fence/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Fence/ru

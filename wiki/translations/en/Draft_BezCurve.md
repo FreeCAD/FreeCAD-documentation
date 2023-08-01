@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft BezCurve
-   MenuLocation:Drafting - Bézier tools - Bézier curve
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:**B** **Z**
-   Version:0.14
-   SeeAlso:[Draft CubicBezCurve](Draft_CubicBezCurve.md), [Draft BSpline](Draft_BSpline.md)
+   Name: Draft BezCurve
+   MenuLocation: Drafting - Bézier tools - Bézier curve
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut: **B** **Z**
+   Version: 0.14
+   SeeAlso: [Draft CubicBezCurve](Draft_CubicBezCurve.md), [Draft BSpline](Draft_BSpline.md)
 ---
 
 # Draft BezCurve/en
@@ -146,4 +146,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BezCurve/en
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BezCurve/en

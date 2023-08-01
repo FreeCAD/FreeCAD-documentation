@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintSameOrientation
-   Icon:Assembly_ConstraintSameOrientation.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintSameOrientation
+   Icon: Assembly_ConstraintSameOrientation.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintSameOrientation/en
@@ -26,4 +26,4 @@ The constraint accepts planar faces.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintSameOrientation/en
+⏵ [documentation index](../README.md) > Assembly3 ConstraintSameOrientation/en

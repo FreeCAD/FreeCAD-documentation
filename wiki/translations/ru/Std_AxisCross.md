@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std AxisCross
-   Name/ru:Std AxisCross
-   Empty:1
-   MenuLocation:Вид - Показать/скрыть оси координат
-   Workbenches:All
-   Shortcut:**A** **C**
+   Name: Std AxisCross
+   Name/ru: Std AxisCross
+   Empty: 1
+   MenuLocation: Вид - Показать/скрыть оси координат
+   Workbenches: All
+   Shortcut: **A** **C**
 ---
 
 # Std AxisCross/ru
@@ -73,4 +73,4 @@ FreeCADGui.ActiveDocument.ActiveView.hasAxisCross()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std AxisCross/ru
+⏵ [documentation index](../README.md) > Std AxisCross/ru

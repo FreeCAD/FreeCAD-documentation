@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:View Measure Toggle All
-   MenuLocation:View - Visibility - Toggle measurement
-   Workbenches:All
-   SeeAlso:[View Measure Clear All](View_Measure_Clear_All.md), [Part Measure Toggle All](Part_Measure_Toggle_All.md), [Part Measure Clear All](Part_Measure_Clear_All.md)
+   Name: View Measure Toggle All
+   MenuLocation: View - Visibility - Toggle measurement
+   Workbenches: All
+   SeeAlso: [View Measure Clear All](View_Measure_Clear_All.md), [Part Measure Toggle All](Part_Measure_Toggle_All.md), [Part Measure Clear All](Part_Measure_Clear_All.md)
 ---
 
 # View Measure Toggle All/en
@@ -33,4 +33,4 @@ The **View Measure Toggle All** command toggles the display of the active [3D vi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > View Measure Toggle All/en
+⏵ [documentation index](../README.md) > View Measure Toggle All/en

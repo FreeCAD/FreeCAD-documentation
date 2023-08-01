@@ -1,12 +1,12 @@
 # Draft Snap Extension/it
 ---
 - GuiCommand:
-   Name:Draft Snap Extension
-   Name/it:Estensione
-   MenuLocation:Draft - [Aggancio](Draft_Snap/it.md) - Estensione
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Aggancia](Draft_Snap/it.md), [Attiva/disattiva aggancio](Draft_Snap_Lock/it.md)---
+   Name: Draft Snap Extension
+   Name/it: Estensione
+   MenuLocation: Draft - [Aggancio](Draft_Snap/it.md) - Estensione
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: [Aggancia](Draft_Snap/it.md), [Attiva/disattiva aggancio](Draft_Snap_Lock/it.md)---
 
 
 </div>
@@ -67,4 +67,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Extension/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Extension/it

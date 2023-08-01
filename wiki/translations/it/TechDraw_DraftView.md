@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw_DraftView
-   Name/it:Vista di Draft
-   MenuLocation:TechDraw - Vista di Draft
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Draft](Draft_Workbench/it.md), [Vista di Arch](TechDraw_ArchView/it.md)
+   Name: TechDraw_DraftView
+   Name/it: Vista di Draft
+   MenuLocation: TechDraw - Vista di Draft
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso: [Draft](Draft_Workbench/it.md), [Vista di Arch](TechDraw_ArchView/it.md)
 ---
 
 # TechDraw DraftView/it
@@ -155,4 +155,4 @@ rc = page.addView(dv)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DraftView/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DraftView/it

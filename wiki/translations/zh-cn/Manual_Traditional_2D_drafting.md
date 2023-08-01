@@ -122,4 +122,4 @@ Draft 工作台虽然继承了传统 2D CAD 的工作方式，但并不局限于
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Draft](Category_Draft.md) > Manual:Traditional 2D drafting/zh-cn
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Draft](Category_Draft.md) > Manual:Traditional 2D drafting/zh-cn

@@ -13,4 +13,4 @@ Cette catégorie liste les pages en relation avec l\'[atelier Plot](Plot_Workben
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Plot/fr
+⏵ [documentation index](../README.md) > Category:Plot/fr

@@ -1,8 +1,4 @@
 # PartDesign Preferences/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 Środowiska pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md) oraz <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt części](PartDesign_Workbench/pl.md) używają tych samych preferencji. Można je znaleźć w <img alt="" src=images/Preferences-part_design.svg  style="width:24px;"> sekcji [Edytora ustawień](Preferences_Editor/pl.md) **Projekt Części**. Sekcja ta będzie dostępna tylko wtedy, gdy w bieżącej sesji programu FreeCAD załadowano jedno z tych środowisk pracy.
@@ -174,4 +170,4 @@ Kliknij prawym przyciskiem myszy na pozycji **Mesh deviation** i wybierz z menu 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Preferences/pl
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Preferences/pl

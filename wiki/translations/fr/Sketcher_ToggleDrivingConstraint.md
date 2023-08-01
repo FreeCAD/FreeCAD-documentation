@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher ToggleDrivingConstraint
-   Name/fr:Sketcher Contraintes pilotantes
-   MenuLocation:Esquisse - Contraintes d'esquisse - Basculer les contraintes pilotantes/pilotées
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**K** **X**
-   Version:0.16
-   SeeAlso:[Sketcher Géométrie de construction](Sketcher_ToggleConstruction/fr.md)
+   Name: Sketcher ToggleDrivingConstraint
+   Name/fr: Sketcher Contraintes pilotantes
+   MenuLocation: Esquisse - Contraintes d'esquisse - Basculer les contraintes pilotantes/pilotées
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **K** **X**
+   Version: 0.16
+   SeeAlso: [Sketcher Géométrie de construction](Sketcher_ToggleConstruction/fr.md)
 ---
 
 # Sketcher ToggleDrivingConstraint/fr
@@ -41,4 +41,4 @@ L\'icône **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:1
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleDrivingConstraint/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleDrivingConstraint/fr

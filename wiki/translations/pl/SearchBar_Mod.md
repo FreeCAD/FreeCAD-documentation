@@ -1,7 +1,7 @@
 # <img alt="Ikonka FreeCAD dla Modyfikacji pasek wyszukiwania" src=images/SearchBarModIcon.svg  style="width:64px;"> SearchBar Mod/pl
 
 
-{{TOCright}}
+
 
 ## Wprowadzenie
 
@@ -22,4 +22,4 @@ Aby zainstalować go ręcznie zobacz stronę [Instalacja zewnętrznych środowis
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > SearchBar Mod/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > SearchBar Mod/pl

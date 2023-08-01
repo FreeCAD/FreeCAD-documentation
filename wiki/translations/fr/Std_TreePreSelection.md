@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreePreSelection
-   Name/fr:Std Arborescence Préselection
-   MenuLocation:Affichage - Vue en arborescence  - Pré-sélectionner
-   Workbenches:Tous
-   Shortcut:**T** **4**
-   Version:0.19
+   Name: Std TreePreSelection
+   Name/fr: Std Arborescence Préselection
+   MenuLocation: Affichage - Vue en arborescence  - Pré-sélectionner
+   Workbenches: Tous
+   Shortcut: **T** **4**
+   Version: 0.19
 ---
 
 # Std TreePreSelection/fr
@@ -40,4 +40,4 @@ Le mode Présélection de l\'arborescence peut également être défini dans le 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreePreSelection/fr
+⏵ [documentation index](../README.md) > Std TreePreSelection/fr

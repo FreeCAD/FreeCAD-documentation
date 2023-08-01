@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ViewFullscreen
-   Name/de:Std AnsichtVollbild
-   MenuLocation:Ansicht - Dokumentfenster - Vollbild
-   Workbenches:Alle
-   Shortcut:**F11**
-   SeeAlso:[Std AuswahlDokumentfenster](Std_ViewDockUndockFullscreen/de.md), [Std HauptfensterVollbild](Std_MainFullscreen.md)
+   Name: Std ViewFullscreen
+   Name/de: Std AnsichtVollbild
+   MenuLocation: Ansicht - Dokumentfenster - Vollbild
+   Workbenches: Alle
+   Shortcut: **F11**
+   SeeAlso: [Std AuswahlDokumentfenster](Std_ViewDockUndockFullscreen/de.md), [Std HauptfensterVollbild](Std_MainFullscreen.md)
 ---
 
 # Std ViewFullscreen/de
@@ -44,4 +44,4 @@ Der Befehl **Std AnsichtVollbild** schaltet [3D-Ansichten](3D_view/de.md) in den
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewFullscreen/de
+⏵ [documentation index](../README.md) > Std ViewFullscreen/de

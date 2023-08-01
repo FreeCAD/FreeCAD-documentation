@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Group
-   MenuLocation:[Tree view](Tree_view.md) - Right click on the document name - Create group
-   Workbenches:All
-   Shortcut:
-   Version:
-   SeeAlso:[Std Part](Std_Part.md), [Draft SelectGroup](Draft_SelectGroup.md), [Draft AddToGroup](Draft_AddToGroup.md)
+   Name: Std Group
+   MenuLocation: [Tree view](Tree_view.md) - Right click on the document name - Create group
+   Workbenches: All
+   Shortcut: 
+   Version: 
+   SeeAlso: [Std Part](Std_Part.md), [Draft SelectGroup](Draft_SelectGroup.md), [Draft AddToGroup](Draft_AddToGroup.md)
 ---
 
 # Std Group/pt-br
@@ -106,4 +106,4 @@ For example, a [FEM Analysis](FEM_Analysis.md) is an `App::DocumentObjectGroupPy
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Group/pt-br
+⏵ [documentation index](../README.md) > Std Group/pt-br

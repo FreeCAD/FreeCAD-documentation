@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Показать/скрыть контрольную точку веса B-сплайна
-   Name:Sketcher_BSplinePoleWeight
-   MenuLocation:Sketch - B-сплйан инструменты эскиза - Показать/скрыть контрольную точку веса B-сплайна
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Создать B-сплайн](Sketcher_CompCreateBSpline/ru.md)
+   Name/ru: Показать/скрыть контрольную точку веса B-сплайна
+   Name: Sketcher_BSplinePoleWeight
+   MenuLocation: Sketch - B-сплйан инструменты эскиза - Показать/скрыть контрольную точку веса B-сплайна
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Создать B-сплайн](Sketcher_CompCreateBSpline/ru.md)
 ---
 
 # Sketcher BSplinePoleWeight/ru
@@ -79,4 +79,4 @@ How to change weights is described in [this Wiki page](B-Splines#Changing_the_We
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplinePoleWeight/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplinePoleWeight/ru

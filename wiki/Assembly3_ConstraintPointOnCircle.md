@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPointOnCircle
-   Icon:Assembly_ConstraintPointOnCircle.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintPointOnCircle
+   Icon: Assembly_ConstraintPointOnCircle.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintPointOnCircle
@@ -26,4 +26,4 @@ The position on the circular element (arc length from the start point) is not de
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointOnCircle
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPointOnCircle

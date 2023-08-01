@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Mesh HarmonizeNormals‏‎
-   Name/ru:Mesh HarmonizeNormals‏‎
-   MenuLocation:Сетки - Согласовать нормали
-   Workbenches:[Mesh](Mesh_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:
+   Name: Mesh HarmonizeNormals‏‎
+   Name/ru: Mesh HarmonizeNormals‏‎
+   MenuLocation: Сетки - Согласовать нормали
+   Workbenches: [Mesh](Mesh_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Mesh HarmonizeNormals/ru
@@ -40,4 +40,4 @@ The **Mesh HarmonizeNormals** command harmonizes the normals of mesh objects.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/ru
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/ru

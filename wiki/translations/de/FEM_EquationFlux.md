@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM EquationFlux
-   Name/de:FEM GleichungFluss
-   MenuLocation:Lösen - Flux equation
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   Version:0.17
-   SeeAlso:
+   Name: FEM EquationFlux
+   Name/de: FEM GleichungFluss
+   MenuLocation: Lösen - Flux equation
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: 
 ---
 
 # FEM EquationFlux/de
@@ -75,4 +75,4 @@ Die resultierende Flussgröße ist entweder der Wärmefluss $\rm W/m^2$ (fälsch
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationFlux/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationFlux/de

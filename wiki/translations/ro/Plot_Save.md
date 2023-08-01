@@ -1,6 +1,6 @@
 # Plot Save/ro
 ---
-- GuiCommand:   Name:Plot Save   Workbenches:[[Plot_Workbench   Plot]]|MenuLocation:Plot - Save plot---
+- GuiCommand:   Name: Plot Save   Workbenches: [[Plot_Workbench   Plot]]|MenuLocation: Plot - Save plot---
 
 
 </div>
@@ -59,4 +59,4 @@ Selectați fila de plotare pe care doriți să o salvați și rulați acest inst
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Save/ro
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Save/ro

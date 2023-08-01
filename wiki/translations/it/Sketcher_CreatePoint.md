@@ -1,6 +1,6 @@
 # Sketcher CreatePoint/it
 ---
-- GuiCommand:   Name:Sketcher CreatePoint   Name/it:Punto   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch - Geometrie - Punto---
+- GuiCommand:   Name: Sketcher CreatePoint   Name/it: Punto   Workbenches: [[Sketcher Workbench/it   Sketcher]]|MenuLocation: Sketch - Geometrie - Punto---
 
 
 </div>
@@ -62,4 +62,4 @@ L\'aggancio alla griglia può essere impostato nelle [Preferenze di Sketcher](Sk
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/it

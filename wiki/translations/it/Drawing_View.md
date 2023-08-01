@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Drawing View
-   Name/it:Inserisci vista
-   Workbenches:[Disegno](Drawing_Workbench/it.md), Completo
-   MenuLocation:Disegno - Inserisci Vista
-   Shortcut:Nessuno
-   SeeAlso:[Disegno A3](Drawing_Landscape_A3/it.md)
+   Name: Drawing View
+   Name/it: Inserisci vista
+   Workbenches: [Disegno](Drawing_Workbench/it.md), Completo
+   MenuLocation: Disegno - Inserisci Vista
+   Shortcut: Nessuno
+   SeeAlso: [Disegno A3](Drawing_Landscape_A3/it.md)
 ---
 
 # Drawing View/it
@@ -63,4 +63,4 @@ Per commutare la vista 3D tra ortogonale e prospettica selezionare [Vista in pro
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing View/it
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing View/it

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Arc
-   Name/de:Draft Bogen
-   MenuLocation:Entwurf - Bogenwerkzeuge - Kreisbogen
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Version:0.7
-   Shortcut:**A** **R**
-   SeeAlso:[Draft Bogen 3Punkte](Draft_Arc_3Points/de.md), [Draft Kreis](Draft_Circle/de.md)
+   Name: Draft Arc
+   Name/de: Draft Bogen
+   MenuLocation: Entwurf - Bogenwerkzeuge - Kreisbogen
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Version: 0.7
+   Shortcut: **A** **R**
+   SeeAlso: [Draft Bogen 3Punkte](Draft_Arc_3Points/de.md), [Draft Kreis](Draft_Circle/de.md)
 ---
 
 # Draft Arc/de
@@ -115,4 +115,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc/de

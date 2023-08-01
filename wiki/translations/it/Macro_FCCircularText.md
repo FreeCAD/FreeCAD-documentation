@@ -878,4 +878,4 @@ I commenti nella pagina del forum: [Extrude from curved surface of cylinder](htt
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Category_Draft.md) > Macro FCCircularText/it
+⏵ [documentation index](../README.md) > [Draft](Category_Draft.md) > Macro FCCircularText/it

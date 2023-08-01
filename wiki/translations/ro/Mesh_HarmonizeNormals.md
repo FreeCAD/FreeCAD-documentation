@@ -1,6 +1,6 @@
 # Mesh HarmonizeNormals/ro
 ---
-- GuiCommand:   Name:Mesh HarmonizeNormals‏‎   MenuLocation:Meshes - Harmonize normals   Workbenches:[[Mesh Workbench   Mesh]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Mesh HarmonizeNormals‏‎   MenuLocation: Meshes - Harmonize normals   Workbenches: [[Mesh Workbench   Mesh]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -52,4 +52,4 @@ Armonizați normalele plaselor sau ochiurilor selectate.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/ro
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/ro

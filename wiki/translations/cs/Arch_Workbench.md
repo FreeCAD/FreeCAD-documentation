@@ -4,7 +4,7 @@
 <img alt="Arch workbench icon" src=images/Workbench_Arch.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
  Pracovní plocha Architektura poskytuje moderní [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) pracovní prostředí ve FreeCADu s možnostmi jako je podpora [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes), plně parametrizované stavební entity jako jsou zdi, strukturální prvky nebo okna a bohatá 2D dokumentace. Pracovní plocha Architektura také zahrnuje všechny nástroje [Pracovní plocha kreslení](Draft_Workbench/cs.md).
 
@@ -209,4 +209,4 @@ Modul Architektura může být použit v pythonovských skriptech a [makrech](ma
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/cs
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/cs

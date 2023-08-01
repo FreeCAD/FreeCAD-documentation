@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Arch CurtainWall
-   Name/fr:Arch Mur-rideau
-   MenuLocation:Arch - Mur-rideau
-   Workbenches:[Atelier Arch](Arch_Workbench/fr.md)
-   Shortcut:**C** **W**
-   Version:0.19
-   SeeAlso:[Arch Mur](Arch_Wall/fr.md), [Arch Grille](Arch_Grid/fr.md)
+   Name: Arch CurtainWall
+   Name/fr: Arch Mur-rideau
+   MenuLocation: Arch - Mur-rideau
+   Workbenches: [Atelier Arch](Arch_Workbench/fr.md)
+   Shortcut: **C** **W**
+   Version: 0.19
+   SeeAlso: [Arch Mur](Arch_Wall/fr.md), [Arch Grille](Arch_Grid/fr.md)
 ---
 
 # Arch CurtainWall/fr
@@ -167,4 +167,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CurtainWall/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CurtainWall/fr

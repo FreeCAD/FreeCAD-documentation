@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Arc 3Points
-   Name/ru:Draft Arc 3Points
-   MenuLocation:Draft - Arc 3 points
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:**A** **T**
-   Version:0.19
-   SeeAlso:[Draft Arc](Draft_Arc/ru.md), [Draft Circle](Draft_Circle/ru.md), [Draft Ellipse](Draft_Ellipse/ru.md)
+   Name: Draft Arc 3Points
+   Name/ru: Draft Arc 3Points
+   MenuLocation: Draft - Arc 3 points
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: **A** **T**
+   Version: 0.19
+   SeeAlso: [Draft Arc](Draft_Arc/ru.md), [Draft Circle](Draft_Circle/ru.md), [Draft Ellipse](Draft_Ellipse/ru.md)
 ---
 
 # Draft Arc 3Points/ru
@@ -104,4 +104,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc 3Points/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc 3Points/ru

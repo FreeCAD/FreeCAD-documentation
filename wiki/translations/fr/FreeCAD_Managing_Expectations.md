@@ -2,7 +2,7 @@
 **Bien que nous accueillions et encouragions la croissance et la participation de la communauté, les demandes, les divagations émotionnelles et les revendications sauvages sont généralement mal reçues car notre communauté est composée de nombreux partisans expérimentés et passionnés de FreeCAD qui ont entendu des déclarations similaires à maintes reprises. Si vous trouvez qu'une fonctionnalité manque, ou que quelque chose vous gêne, nous vous encourageons vivement à envisager de vous engager dans le code lui-même. FreeCAD est largement développé par un groupe relativement restreint de personnes talentueuses qui ont toutes un emploi, une famille et d'autres intérêts que la programmation à la demande. Si vous avez les compétences (Python/C++) et la motivation pour participer, vos contributions peuvent aider à rendre FreeCAD encore meilleur qu'il ne l'est aujourd'hui. Vous pouvez trouver les bogues et les demandes de fonctionnalités suivis [https://github.com/FreeCAD/FreeCAD/issues ici].**
 
 
-{{TOCright}}
+
 
 ## Objectif
 
@@ -91,4 +91,4 @@ OpenCascade (OCC) est un noyau externe de CAO dont FreeCAD est totalement dépen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD Managing Expectations/fr
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD Managing Expectations/fr

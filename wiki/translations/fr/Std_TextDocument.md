@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TextDocument
-   Name/fr:Std Ajouter un document texte
-   MenuLocation:Outils - Ajouter un document texte
-   Workbenches:Tous
-   Version:0.19
-   SeeAlso:[Draft Formes à partir de texte](Draft_ShapeString/fr.md), [Draft Texte](Draft_Text.md)
+   Name: Std TextDocument
+   Name/fr: Std Ajouter un document texte
+   MenuLocation: Outils - Ajouter un document texte
+   Workbenches: Tous
+   Version: 0.19
+   SeeAlso: [Draft Formes à partir de texte](Draft_ShapeString/fr.md), [Draft Texte](Draft_Text.md)
 ---
 
 # Std TextDocument/fr
@@ -72,4 +72,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TextDocument/fr
+⏵ [documentation index](../README.md) > Std TextDocument/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 LockMover
-   Name/fr:Assembly3 Verrouiller le déplacement
-   Icon:Assembly_LockMover.svg‎‎
-   MenuLocation:Assembly3 - Lock mover
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 LockMover
+   Name/fr: Assembly3 Verrouiller le déplacement
+   Icon: Assembly_LockMover.svg‎‎
+   MenuLocation: Assembly3 - Lock mover
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 LockMover/fr
@@ -28,4 +28,4 @@ La **géométrie 2D** sélectionnée, telle que les Draft lignes, les arcs et le
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 LockMover/fr
+⏵ [documentation index](../README.md) > Assembly3 LockMover/fr

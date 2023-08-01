@@ -38,4 +38,4 @@ A library of parts that is useful for a broad range of people can only be realis
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro BOLTS/pl
+⏵ [documentation index](../README.md) > Macro BOLTS/pl

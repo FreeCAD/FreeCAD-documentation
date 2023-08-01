@@ -1,8 +1,4 @@
 # Extra python modules/fr
-{{TOCright}}
-
-
-
 ## Présentation
 
 Cette page contient plusieurs modules Python supplémentaires ou d\'autres bouts de code qui peuvent être téléchargés gratuitement sur Internet, et ajouter des fonctionnalités à votre installation de FreeCAD.
@@ -709,4 +705,4 @@ utils = LazyLoader('PathScripts', globals(), 'PathScripts.PathUtils')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Python Code](Category_Python Code.md) > [Developer Documentation](Category_Developer Documentation.md) > Extra python modules/fr
+⏵ [documentation index](../README.md) > [Python Code](Category_Python Code.md) > [Developer Documentation](Category_Developer Documentation.md) > Extra python modules/fr

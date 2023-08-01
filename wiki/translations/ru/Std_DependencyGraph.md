@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name/ru:Граф зависимостей
-   Name:Std DependencyGraph
-   MenuLocation:Инструменты - Граф зависимостей...
-   Workbenches:Все
+   Name/ru: Граф зависимостей
+   Name: Std DependencyGraph
+   MenuLocation: Инструменты - Граф зависимостей...
+   Workbenches: Все
 ---
 
 # Std DependencyGraph/ru
@@ -178,4 +178,4 @@ You can save a dependency graph:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/ru
+⏵ [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/ru

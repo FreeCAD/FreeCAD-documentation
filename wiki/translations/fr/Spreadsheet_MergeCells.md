@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet MergeCells
-   Name/fr:Spreadsheet Fusionner des cellules
-   MenuLocation:Spreadsheet - Fusionner des cellules
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/fr.md)
-   Version:0.17
+   Name: Spreadsheet MergeCells
+   Name/fr: Spreadsheet Fusionner des cellules
+   MenuLocation: Spreadsheet - Fusionner des cellules
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/fr.md)
+   Version: 0.17
 ---
 
 # Spreadsheet MergeCells/fr
@@ -30,4 +30,4 @@ L\'outil **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Fusi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells/fr
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells/fr

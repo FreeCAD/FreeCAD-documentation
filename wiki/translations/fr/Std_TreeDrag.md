@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreeDrag
-   Name/fr:Std Arborescence Déplacement
-   MenuLocation:Affichage - Vue en arborescence - Commencer un déplacement
-   Workbenches:Tous
-   Shortcut:**T** **D**
-   Version:0.19
+   Name: Std TreeDrag
+   Name/fr: Std Arborescence Déplacement
+   MenuLocation: Affichage - Vue en arborescence - Commencer un déplacement
+   Workbenches: Tous
+   Shortcut: **T** **D**
+   Version: 0.19
 ---
 
 # Std TreeDrag/fr
@@ -37,4 +37,4 @@ La commande **Std Déplacement** lance une opération de glissement pour les obj
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeDrag/fr
+⏵ [documentation index](../README.md) > Std TreeDrag/fr

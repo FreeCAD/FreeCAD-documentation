@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path Post
-   MenuLocation:Path - Post Process
-   Workbenches:[Path](Path_Workbench.md)
-   Shortcut:**P** **P**
+   Name: Path Post
+   MenuLocation: Path - Post Process
+   Workbenches: [Path](Path_Workbench.md)
+   Shortcut: **P** **P**
 ---
 
 # Path Post/pt-br
@@ -126,4 +126,4 @@ Included Postprocessors are saved in the **FreeCAD/Mod/Path/Pathscripts/Post** b
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Post/pt-br
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Post/pt-br

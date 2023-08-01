@@ -18,4 +18,4 @@ Ta kategoria zawiera strony związane ze środowiskiem [Krzywe](Curves_Workbench
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Curves/pl
+⏵ [documentation index](../README.md) > Category:Curves/pl

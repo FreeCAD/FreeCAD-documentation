@@ -5,7 +5,7 @@ It functionality has been integrated in [Std Base](Std_Base.md). See [Std Import
 <img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -44,4 +44,4 @@ The offset of the image can be set during import, or changed later through its p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Image](Category_Image.md) > Image Workbench/ja
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Image](Category_Image.md) > Image Workbench/ja

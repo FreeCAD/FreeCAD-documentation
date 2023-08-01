@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Image CreateImagePlane
-   MenuLocation:
-   Workbenches:[Image](Image_Workbench.md)
-   SeeAlso:[Image Open](Image_Open.md), [Image Scaling](Image_Scaling.md)
+   Name: Image CreateImagePlane
+   MenuLocation: 
+   Workbenches: [Image](Image_Workbench.md)
+   SeeAlso: [Image Open](Image_Open.md), [Image Scaling](Image_Scaling.md)
 ---
 
 # Image CreateImagePlane/pt-br
@@ -61,4 +61,4 @@ If no offset is given to the image initially, its position can still be adjusted
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/pt-br
+⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/pt-br

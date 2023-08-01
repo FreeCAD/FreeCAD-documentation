@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Выровнять вертикально по центру
-   Name:Spreadsheet_AlignVCenter
-   MenuLocation:Электронная таблица - Alignment - Vertically-center align
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/ru.md)
-   Version:0.17
+   Name/ru: Выровнять вертикально по центру
+   Name: Spreadsheet_AlignVCenter
+   MenuLocation: Электронная таблица - Alignment - Vertically-center align
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/ru.md)
+   Version: 0.17
 ---
 
 # Spreadsheet AlignVCenter/ru
@@ -30,4 +30,4 @@ The **[<img src=images/Spreadsheet_AlignVCenter.svg style="width:16px"> [Spreads
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignVCenter/ru
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignVCenter/ru

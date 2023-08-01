@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:View Measure Toggle All
-   Name/pl:Przełącz widoczność wymiarów
-   MenuLocation:Widok - Widoczność - Przełącz widoczność wymiarów
-   Workbenches:wszystkie
-   SeeAlso:[Usuń widoczne wymiary](View_Measure_Clear_All/pl.md), [Przełącz widoczność wszystkich wymiarów](Part_Measure_Toggle_All/pl.md), [Usuń wymiary](Part_Measure_Clear_All/pl.md)
+   Name: View Measure Toggle All
+   Name/pl: Przełącz widoczność wymiarów
+   MenuLocation: Widok - Widoczność - Przełącz widoczność wymiarów
+   Workbenches: wszystkie
+   SeeAlso: [Usuń widoczne wymiary](View_Measure_Clear_All/pl.md), [Przełącz widoczność wszystkich wymiarów](Part_Measure_Toggle_All/pl.md), [Usuń wymiary](Part_Measure_Clear_All/pl.md)
 ---
 
 # View Measure Toggle All/pl
@@ -34,4 +34,4 @@ Polecenie **Przełącz widoczność wymiarów** przełącza wyświetlanie pomiar
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > View Measure Toggle All/pl
+⏵ [documentation index](../README.md) > View Measure Toggle All/pl

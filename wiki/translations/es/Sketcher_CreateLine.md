@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateLine
-   Name/es:Croquizador CrearLínea
-   MenuLocation:Croquis - Geometría de croquizador - Crear línea
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   Shortcut:L
-   SeeAlso:[Croquizador Polilínea](Sketcher_CreatePolyline/es.md)
+   Name: Sketcher CreateLine
+   Name/es: Croquizador CrearLínea
+   MenuLocation: Croquis - Geometría de croquizador - Crear línea
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   Shortcut: L
+   SeeAlso: [Croquizador Polilínea](Sketcher_CreatePolyline/es.md)
 ---
 
 # Sketcher CreateLine/es
@@ -59,4 +59,4 @@ El objeto línea creado comienza y termina en los puntos dados, pero la línea e
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/es

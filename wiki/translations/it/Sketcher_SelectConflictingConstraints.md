@@ -1,6 +1,6 @@
 # Sketcher SelectConflictingConstraints/it
 ---
-- GuiCommand:   Name:Sketcher SelectConflictingConstraints   Name/it:Seleziona i vincoli in conflitto   Workbenches:[[Sketcher_Workbench/it   Sketcher]]|MenuLocation:Sketch - Strumenti - Seleziona i vincoli in conflitto   Shortcut:Shift+Ctrl+E   Version:0.15---
+- GuiCommand:   Name: Sketcher SelectConflictingConstraints   Name/it: Seleziona i vincoli in conflitto   Workbenches: [[Sketcher_Workbench/it   Sketcher]]|MenuLocation: Sketch - Strumenti - Seleziona i vincoli in conflitto   Shortcut: Shift+Ctrl+E   Version: 0.15---
 
 
 </div>
@@ -38,4 +38,4 @@ Seleziona i vincoli in conflitto di uno schizzo.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConflictingConstraints/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConflictingConstraints/it

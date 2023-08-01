@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet CreateSheet
-   Name/fr:Spreadsheet Création d'une feuille de calcul
-   MenuLocation:Spreadsheet - Créer une feuille de calcul
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/fr.md)
-   Version:0.17
+   Name: Spreadsheet CreateSheet
+   Name/fr: Spreadsheet Création d'une feuille de calcul
+   MenuLocation: Spreadsheet - Créer une feuille de calcul
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/fr.md)
+   Version: 0.17
 ---
 
 # Spreadsheet CreateSheet/fr
@@ -30,4 +30,4 @@ L\'outil **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CreateSheet/fr
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CreateSheet/fr

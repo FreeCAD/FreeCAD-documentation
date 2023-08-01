@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainTangent
-   Name/de:Sketcher TangentialFestlegen
-   MenuLocation:Sketch - Skizzen-Beschränkungen - Tangente setzen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md) 
-   Shortcut:**T**
-   SeeAlso:[Sketcher PunktAufObjektFestlegen](Sketcher_ConstrainPointOnObject/de.md)
+   Name: Sketcher ConstrainTangent
+   Name/de: Sketcher TangentialFestlegen
+   MenuLocation: Sketch - Skizzen-Beschränkungen - Tangente setzen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md) 
+   Shortcut: **T**
+   SeeAlso: [Sketcher PunktAufObjektFestlegen](Sketcher_ConstrainPointOnObject/de.md)
 ---
 
 # Sketcher ConstrainTangent/de
@@ -130,4 +130,4 @@ Die [Skizzierer Skripten](Sketcher_scripting/de.md) Seite erklärt die Werte, di
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainTangent/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainTangent/de

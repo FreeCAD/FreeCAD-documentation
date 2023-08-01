@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateRegularPolygon
-   Name/pl:Szkicownik: Utwórz wielokąt foremny
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz wielokąt foremny
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **P** **R**
+   Name: Sketcher CreateRegularPolygon
+   Name/pl: Szkicownik: Utwórz wielokąt foremny
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Utwórz wielokąt foremny
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **G** **P** **R**
 ---
 
 # Sketcher CreateRegularPolygon/pl
@@ -40,4 +40,4 @@ Wyznaczony okrąg to geometria konstrukcyjna, która jest widoczna tylko podczas
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRegularPolygon/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRegularPolygon/pl

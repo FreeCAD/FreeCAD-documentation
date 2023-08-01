@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar ColumnReinforcement
-   Name/de:Architektur Bewehrung Säulenverstärkung
-   MenuLocation:Architektur - Rebar Tools - Säulenverstärkung oder 3D/BIM - Reinforcement tools - Stützenbewehrung 
-   Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
-   Version:0.19
-   SeeAlso:[Reinforcement](Reinforcement_Workbench/de.md), [Arch Bewehrung](Arch_Rebar/de.md), [Arch Bewehrungsstab spiralförmig](Arch_Rebar_Helical/de.md), [ColumnReinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md)
+   Name: Arch Rebar ColumnReinforcement
+   Name/de: Architektur Bewehrung Säulenverstärkung
+   MenuLocation: Architektur - Rebar Tools - Säulenverstärkung oder 3D/BIM - Reinforcement tools - Stützenbewehrung 
+   Workbenches: [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   Version: 0.19
+   SeeAlso: [Reinforcement](Reinforcement_Workbench/de.md), [Arch Bewehrung](Arch_Rebar/de.md), [Arch Bewehrungsstab spiralförmig](Arch_Rebar_Helical/de.md), [ColumnReinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md)
 ---
 
 # Arch Rebar ColumnReinforcement/de
@@ -601,4 +601,4 @@ rebar_group = SingleTieMultipleRebars.editSingleTieMultipleRebars(
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement/de
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement/de

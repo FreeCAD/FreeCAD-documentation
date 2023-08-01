@@ -1,8 +1,4 @@
 # Introduction to Python/ru
-{{TOCright}}
-
-
-
 ## Введение
 
 Это небольшой учебник, созданный для новичков в [Python](http://ru.wikipedia.org/wiki/Python). Python - это язык с открытым исходным кодом, многоплатформенный [язык програмирования](http://ru.wikipedia.org/wiki/%D0%92%D1%8B%D1%81%D0%BE%D0%BA%D0%BE%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D0%B5%D0%B2%D1%8B%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F). Он имеет некоторые функции, которые отличают его от других языков программирования и легко доступны для новых пользователей:
@@ -503,4 +499,4 @@ dir()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Introduction to Python/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Introduction to Python/ru

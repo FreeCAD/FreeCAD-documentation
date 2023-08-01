@@ -1,8 +1,4 @@
 # Installing on Linux/ru
-{{TOCright}}
-
-
-
 ## Обзор
 
 Установка FreeCAD на наиболее известных системах Linux теперь поддерживается сообществом и FreeCAD должен быть доступен напрямую через диспетчер пакетов вашего дистрибутива. Команда FreeCAD также предоставляет:
@@ -376,4 +372,4 @@ pacman -Sy freecad
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing on Linux/ru
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing on Linux/ru

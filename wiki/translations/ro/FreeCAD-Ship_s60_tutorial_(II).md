@@ -298,4 +298,4 @@ Desigur, acest exemplu nu este real (mai întâi pentru toate cisternele de comb
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > FreeCAD-Ship s60 tutorial (II)/ro
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > FreeCAD-Ship s60 tutorial (II)/ro

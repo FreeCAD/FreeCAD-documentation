@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectVerticalAxis
-   Name/es:Croquizador SeleccionarEjeVertical
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation:Corquis - Corquizador Herramientas - Seleccionar Eje Vertical
-   Shortcut:**Shift**+**Ctrl**+**V**
-   Version:0.15
+   Name: Sketcher SelectVerticalAxis
+   Name/es: Croquizador SeleccionarEjeVertical
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   MenuLocation: Corquis - Corquizador Herramientas - Seleccionar Eje Vertical
+   Shortcut: **Shift**+**Ctrl**+**V**
+   Version: 0.15
 ---
 
 # Sketcher SelectVerticalAxis/es
@@ -50,4 +50,4 @@ Selecciona el eje vertical de un croquis.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectVerticalAxis/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectVerticalAxis/es

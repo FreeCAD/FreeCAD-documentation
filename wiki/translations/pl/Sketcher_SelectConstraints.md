@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectConstraints
-   Name/pl:Szkicownik: Wybierz powiązane więzy
-   MenuLocation:Szkic - Narzędzia szkicownika - Wybierz powiązane więzy
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**Z** **K**
-   Version:0.15
+   Name: Sketcher SelectConstraints
+   Name/pl: Szkicownik: Wybierz powiązane więzy
+   MenuLocation: Szkic - Narzędzia szkicownika - Wybierz powiązane więzy
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **Z** **K**
+   Version: 0.15
 ---
 
 # Sketcher SelectConstraints/pl
@@ -38,4 +38,4 @@ Wybiera wiązania elementu szkicu.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConstraints/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConstraints/pl

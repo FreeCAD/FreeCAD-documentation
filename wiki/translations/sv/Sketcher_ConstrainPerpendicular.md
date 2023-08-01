@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Constraint Perpendicular
-   Name/sv:Constraint Perpendicular
-   Workbenches:[Sketcher](Sketcher_Workbench/sv.md), [PartDesign](PartDesign_Workbench/sv.md)
-   MenuLocation:Sketch - Sketcher constraints - Constrain perpendicular
-   Shortcut:N
-   SeeAlso:[Constraint Angle](Sketcher_ConstrainAngle/sv.md)
+   Name: Constraint Perpendicular
+   Name/sv: Constraint Perpendicular
+   Workbenches: [Sketcher](Sketcher_Workbench/sv.md), [PartDesign](PartDesign_Workbench/sv.md)
+   MenuLocation: Sketch - Sketcher constraints - Constrain perpendicular
+   Shortcut: N
+   SeeAlso: [Constraint Angle](Sketcher_ConstrainAngle/sv.md)
 ---
 
 # Sketcher ConstrainPerpendicular/sv
@@ -122,4 +122,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPerpendicular/sv
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPerpendicular/sv

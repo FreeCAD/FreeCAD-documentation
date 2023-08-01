@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Drawing Save
-   Name/fr:Drawing Sauvegarde
-   MenuLocation:Drawing - Exporter la page...
-   Workbenches:[Drawing](Drawing_Workbench/fr.md)
-   Raccourci:
-   SeeAlso:[Drawing Ouvrir SVG](Drawing_Open_SVG/fr.md)
+   Name: Drawing Save
+   Name/fr: Drawing Sauvegarde
+   MenuLocation: Drawing - Exporter la page...
+   Workbenches: [Drawing](Drawing_Workbench/fr.md)
+   Raccourci: 
+   SeeAlso: [Drawing Ouvrir SVG](Drawing_Open_SVG/fr.md)
 ---
 
 # Drawing Save/fr
@@ -25,4 +25,4 @@ Les fichiers SVG sont très répandus et peuvent être visionnés dans la plupar
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Save/fr
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Save/fr

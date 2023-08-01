@@ -147,4 +147,4 @@ Se i testi appaiono sfalsati in FreeCAD, potrebbe essere necessario rimuovere gl
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/it

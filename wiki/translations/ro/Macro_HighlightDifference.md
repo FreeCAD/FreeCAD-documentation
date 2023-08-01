@@ -45,4 +45,4 @@ Codul este vizibil pe Github: [Utility/HighlightDifference.FCMacro](https://gith
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro HighlightDifference/ro
+⏵ [documentation index](../README.md) > Macro HighlightDifference/ro

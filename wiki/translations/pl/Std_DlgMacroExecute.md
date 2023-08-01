@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std DlgMacroExecute
-   Name/pl:Std: Okno dialogowe Makrodefinicje
-   MenuLocation:Makrodefinicje - Makrodefinicje ...
-   Workbenches:wszystkie
-   SeeAlso:[Wykonaj makrodefinicję w trakcie edycji](Std_DlgMacroExecuteDirect/pl.md)
+   Name: Std DlgMacroExecute
+   Name/pl: Std: Okno dialogowe Makrodefinicje
+   MenuLocation: Makrodefinicje - Makrodefinicje ...
+   Workbenches: wszystkie
+   SeeAlso: [Wykonaj makrodefinicję w trakcie edycji](Std_DlgMacroExecuteDirect/pl.md)
 ---
 
 # Std DlgMacroExecute/pl
@@ -150,4 +150,4 @@ Lokalizację plików makroinstrukcji użytkownika można również zmienić w pr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgMacroExecute/pl
+⏵ [documentation index](../README.md) > Std DlgMacroExecute/pl

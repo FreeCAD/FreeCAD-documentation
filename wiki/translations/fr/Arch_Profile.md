@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Profile
-   Name/fr:Arch Profilé
-   MenuLocation:Arch - Profilé
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   Version:0.19
+   Name: Arch Profile
+   Name/fr: Arch Profilé
+   MenuLocation: Arch - Profilé
+   Workbenches: [Arch](Arch_Workbench/fr.md)
+   Version: 0.19
 ---
 
 # Arch Profile/fr
@@ -106,4 +106,4 @@ Lorsque le premier élément de la liste est un numéro ordonné pas encore util
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Profile/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Profile/fr

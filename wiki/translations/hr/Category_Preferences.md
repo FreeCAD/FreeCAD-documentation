@@ -13,4 +13,4 @@ This category lists all existing Preference menus of different FreeCAD workbench
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Preferences/hr
+⏵ [documentation index](../README.md) > Category:Preferences/hr

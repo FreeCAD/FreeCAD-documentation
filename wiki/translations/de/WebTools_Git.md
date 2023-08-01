@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:WebTools Git‏‎
-   Name/de:WebWerkzeuge Git‏‎
-   MenuLocation:WebWerkzeuge - Git
-   Workbenches:[Arbeitsbereich WebWerkzeuge](WebTools_Workbench/de.md)
-   Version:0.17
+   Name: WebTools Git‏‎
+   Name/de: WebWerkzeuge Git‏‎
+   MenuLocation: WebWerkzeuge - Git
+   Workbenches: [Arbeitsbereich WebWerkzeuge](WebTools_Workbench/de.md)
+   Version: 0.17
 ---
 
 # WebTools Git/de
@@ -118,4 +118,4 @@ Füge die folgenden Zeilen zur .gitconfig-Datei in deinem home Verzeichnis hinzu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > WebTools Git/de
+⏵ [documentation index](../README.md) > WebTools Git/de

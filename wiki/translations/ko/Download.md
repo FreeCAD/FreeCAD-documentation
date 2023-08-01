@@ -1,9 +1,4 @@
 # Download/ko
-{{TOCright}}
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 ## 현재 안정 버전 
@@ -66,4 +61,4 @@ The FreeCAD community provides many additional modules and macros. Since 0.17 th
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Download/ko
+⏵ [documentation index](../README.md) > Download/ko

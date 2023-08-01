@@ -1,10 +1,10 @@
 ---
 - GuiCommand:-cn
-   Name/zh-cn:创建草图
-   Name:Sketcher_NewSketch
-   MenuLocation:Sketch - 创建草图
-   Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md)
-   SeeAlso:[创建草图](PartDesign_NewSketch/zh-cn.md), [映射草图至面](Sketcher_MapSketch/zh-cn.md), [调整草图方向](Sketcher_ReorientSketch/zh-cn.md)
+   Name/zh-cn: 创建草图
+   Name: Sketcher_NewSketch
+   MenuLocation: Sketch - 创建草图
+   Workbenches: [Sketcher](Sketcher_Workbench/zh-cn.md)
+   SeeAlso: [创建草图](PartDesign_NewSketch/zh-cn.md), [映射草图至面](Sketcher_MapSketch/zh-cn.md), [调整草图方向](Sketcher_ReorientSketch/zh-cn.md)
 ---
 
 # Sketcher NewSketch/zh-cn
@@ -74,4 +74,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/zh-cn
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/zh-cn

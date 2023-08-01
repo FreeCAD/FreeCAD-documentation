@@ -1,6 +1,6 @@
 # Sketcher CreateCircle/pt
 ---
-- GuiCommand:   Name:Sketcher CreateCircle   Name/pt:Sketcher Circle   Workbenches:[MenuLocation:Sketch - Sketcher geometries - Create circle   SeeAlso:[[Sketcher CompCreateArc/pt|Sketcher Arc](Sketcher_Workbench/pt___Sketcher]].md)---
+- GuiCommand:   Name: Sketcher CreateCircle   Name/pt: Sketcher Circle   Workbenches: [MenuLocation: Sketch - Sketcher geometries - Create circle   SeeAlso: [[Sketcher CompCreateArc/pt|Sketcher Arc](Sketcher_Workbench/pt___Sketcher]].md)---
 
 
 </div>
@@ -27,4 +27,4 @@ This tool draws a circle by picking two points: the center, and a point along th
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/pt
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/pt

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:-cn
-   Name:镜像草图
-   MenuLocation:Sketch - 镜像草图
-   Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md)
-   Version:0.16
+   Name: 镜像草图
+   MenuLocation: Sketch - 镜像草图
+   Workbenches: [Sketcher](Sketcher_Workbench/zh-cn.md)
+   Version: 0.16
 ---
 
 # Sketcher MirrorSketch/zh-cn
@@ -55,4 +55,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch/zh-cn
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch/zh-cn

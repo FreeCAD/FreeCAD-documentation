@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Remove
-   Name/fr:Arch Soustraire
-   MenuLocation:Arch - Enlever un composant
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Arch Couper selon une ligne](Arch_CutLine.md), [Arch Couper selon un plan](Arch_CutPlane.md), [Arch Ajouter](Arch_Add/fr.md)
+   Name: Arch Remove
+   Name/fr: Arch Soustraire
+   MenuLocation: Arch - Enlever un composant
+   Workbenches: [Arch](Arch_Workbench/fr.md)
+   SeeAlso: [Arch Couper selon une ligne](Arch_CutLine.md), [Arch Couper selon un plan](Arch_CutPlane.md), [Arch Ajouter](Arch_Add/fr.md)
 ---
 
 # Arch Remove/fr
@@ -72,4 +72,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/fr

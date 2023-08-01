@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreeSelection
-   Name/fr:Std Arborescence Aller à la sélection
-   MenuLocation:Affichage - Vue en arborescence - Aller à la sélection
-   Workbenches:Tous
-   Shortcut:**T** **G**
-   Version:0.19
+   Name: Std TreeSelection
+   Name/fr: Std Arborescence Aller à la sélection
+   MenuLocation: Affichage - Vue en arborescence - Aller à la sélection
+   Workbenches: Tous
+   Shortcut: **T** **G**
+   Version: 0.19
 ---
 
 # Std TreeSelection/fr
@@ -38,4 +38,4 @@ Si le mode de la vue en arborescence [Synchroniser la sélection](Std_TreeSyncSe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSelection/fr
+⏵ [documentation index](../README.md) > Std TreeSelection/fr

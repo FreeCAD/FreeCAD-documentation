@@ -42,4 +42,4 @@ except Exception:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro VisibleAlls/it
+⏵ [documentation index](../README.md) > Macro VisibleAlls/it

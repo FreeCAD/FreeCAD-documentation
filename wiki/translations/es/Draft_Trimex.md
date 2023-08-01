@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Trimex
-   Name/es:Draft Trimex
-   MenuLocation:Croquis -> Recortar/Extender
-   Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   Shortcut:**T** **R**
-   SeeAlso:[Extrusión](Part_Extrude/es.md)
+   Name: Draft Trimex
+   Name/es: Draft Trimex
+   MenuLocation: Croquis -> Recortar/Extender
+   Workbenches: [Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut: **T** **R**
+   SeeAlso: [Extrusión](Part_Extrude/es.md)
 ---
 
 # Draft Trimex/es
@@ -149,4 +149,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Trimex/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Trimex/es

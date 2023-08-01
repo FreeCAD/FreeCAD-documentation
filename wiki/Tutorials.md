@@ -335,4 +335,4 @@ Here are listed all the tutorials that are not in the manual **regardless of the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials]], a complete and sortable one can be found in the ](Category_Tutorials]], a complete and sortable one can be found in the .md) > [Tutorials](Category_Tutorials.md) > Tutorials
+⏵ [documentation index](../README.md) > [Tutorials]], a complete and sortable one can be found in the ](Category_Tutorials]], a complete and sortable one can be found in the .md) > [Tutorials](Category_Tutorials.md) > Tutorials

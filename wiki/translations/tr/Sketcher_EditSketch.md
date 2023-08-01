@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher EditSketch
-   Name/tr:Eskizi Düzenle
-   Workbenches:[Eskiz](Sketcher_Workbench/tr.md), [Parça tasarım](PartDesign_Workbench/tr.md)
-   MenuLocation:Eskiz - Yeni Eskiz
+   Name: Sketcher EditSketch
+   Name/tr: Eskizi Düzenle
+   Workbenches: [Eskiz](Sketcher_Workbench/tr.md), [Parça tasarım](PartDesign_Workbench/tr.md)
+   MenuLocation: Eskiz - Yeni Eskiz
 ---
 
 # Sketcher EditSketch/tr
@@ -60,4 +60,4 @@ Bu komut, varolan bir eskizi düzenlemenizi sağlar.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/tr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/tr

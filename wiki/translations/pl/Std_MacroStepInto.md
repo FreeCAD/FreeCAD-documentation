@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Std MacroStepInto
-   Name/pl:Std: Wejdź do
-   Empty:1
-   MenuLocation:Makrodefinicje - Wejdź do
-   Workbenches:wszystkie
-   Shortcut:**F11**
-   SeeAlso:[Krok dalej](Std_MacroStepOver/pl.md), [Przełącz punkt przerwania](Std_ToggleBreakpoint/pl.md)
+   Name: Std MacroStepInto
+   Name/pl: Std: Wejdź do
+   Empty: 1
+   MenuLocation: Makrodefinicje - Wejdź do
+   Workbenches: wszystkie
+   Shortcut: **F11**
+   SeeAlso: [Krok dalej](Std_MacroStepOver/pl.md), [Przełącz punkt przerwania](Std_ToggleBreakpoint/pl.md)
 ---
 
 # Std MacroStepInto/pl
@@ -28,4 +28,4 @@ To polecenie w tej chwili nie działa.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MacroStepInto/pl
+⏵ [documentation index](../README.md) > Std MacroStepInto/pl

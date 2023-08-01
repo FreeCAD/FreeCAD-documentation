@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 MeasureAngle
-   Name/fr:Assembly3 Mesure d'angle
-   Icon:Assembly_MeasureAngle.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 MeasureAngle
+   Name/fr: Assembly3 Mesure d'angle
+   Icon: Assembly_MeasureAngle.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 MeasureAngle/fr
@@ -20,4 +20,4 @@ Cet outil mesure l\'angle entre deux objets d\'un assemblage à l\'aide d\'arêt
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 MeasureAngle/fr
+⏵ [documentation index](../README.md) > Assembly3 MeasureAngle/fr

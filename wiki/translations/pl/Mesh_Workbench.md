@@ -1,7 +1,7 @@
 # <img alt="Ikona FreeCAD dla środowiska pracy Siatka" src=images/Workbench_Mesh.svg  style="width:64px;"> Mesh Workbench/pl
 
 
-{{TOCright}}
+
 
 
 
@@ -117,4 +117,4 @@ Preferencje środowiska pracy Mesh można znaleźć w następujących kategoriac
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Mesh](Category_Mesh.md) > Mesh Workbench/pl
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Mesh](Category_Mesh.md) > Mesh Workbench/pl

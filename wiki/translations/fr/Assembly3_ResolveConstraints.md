@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ResolveConstraints
-   Name/fr:Assembly3 Résoudre les contraintes
-   Icon:Assembly3_workbench_icon.svg
-   MenuLocation:Assembly3 - Resolve constraints
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
-   Shortcut:**A** puis **S**
+   Name: Assembly3 ResolveConstraints
+   Name/fr: Assembly3 Résoudre les contraintes
+   Icon: Assembly3_workbench_icon.svg
+   MenuLocation: Assembly3 - Resolve constraints
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Shortcut: **A** puis **S**
 ---
 
 # Assembly3 ResolveConstraints/fr
@@ -26,4 +26,4 @@ Cet outil est utilisé pour recalculer un assemblage après avoir ajouté/suppri
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ResolveConstraints/fr
+⏵ [documentation index](../README.md) > Assembly3 ResolveConstraints/fr

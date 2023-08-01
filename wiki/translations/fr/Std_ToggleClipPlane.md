@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ToggleClipPlane
-   Name/fr:Std Basculer le plan de coupe
-   MenuLocation:Affichage - Plan de coupe
-   Workbenches:Tous
-   SeeAlso:[Part Coupe persistante](Part_SectionCut/fr.md)
+   Name: Std ToggleClipPlane
+   Name/fr: Std Basculer le plan de coupe
+   MenuLocation: Affichage - Plan de coupe
+   Workbenches: Tous
+   SeeAlso: [Part Coupe persistante](Part_SectionCut/fr.md)
 ---
 
 # Std ToggleClipPlane/fr
@@ -54,4 +54,4 @@ La commande **Std Basculer le plan de coupe** permet de masquer temporairement l
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleClipPlane/fr
+⏵ [documentation index](../README.md) > Std ToggleClipPlane/fr

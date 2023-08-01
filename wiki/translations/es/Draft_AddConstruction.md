@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft AddConstruction
-   Name/es:Draft AddConstruction
-   MenuLocation:Draft - Utilities - Add to construction group
-   Workbenches:[Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
-   SeeAlso:[[Draft ToggleConstructionMode/es]],  [[Draft AddToGroup/es]]
-   Version:0.17
+   Name: Draft AddConstruction
+   Name/es: Draft AddConstruction
+   MenuLocation: Draft - Utilities - Add to construction group
+   Workbenches: [Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
+   SeeAlso: [[Draft ToggleConstructionMode/es]],  [[Draft AddToGroup/es]]
+   Version: 0.17
 ---
 
 # Draft AddConstruction/es
@@ -58,4 +58,4 @@ Este comando agrega los objetos seleccionados a la [Draft Construction group](Dr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddConstruction/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddConstruction/es

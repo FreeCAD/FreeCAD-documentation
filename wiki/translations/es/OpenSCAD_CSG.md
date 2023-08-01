@@ -1,6 +1,4 @@
 # OpenSCAD CSG/es
-{{TOCright}}
-
 ## Importar
 
 ### Elementos soportados 
@@ -42,4 +40,4 @@ Todo objeto derivado de Part::Feature que aún no es soportado será mallado y e
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD CSG/es
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD CSG/es

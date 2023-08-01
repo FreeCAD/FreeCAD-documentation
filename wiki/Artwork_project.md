@@ -1,6 +1,4 @@
 # Artwork project
-{{TOCright}}
-
 **Artwork project** is a project dedicated to coming up with a new logo, icons, and pictures. Not to be confused with [Artwork](Artwork.md) page which captures the current state of the art ;) . See also [Artwork Guidelines](Artwork_Guidelines.md) which describe the current agreed-upon rules.
 
 This project is more of an experiment, to not be constrained by the current artwork guidelines set in stone many years ago.
@@ -93,4 +91,4 @@ The current color palette is captured in google drive: <https://drive.google.com
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Artwork project
+⏵ [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Artwork project

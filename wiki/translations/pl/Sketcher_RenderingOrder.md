@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher RenderingOrder
-   Name/pl:Szkicownik: Kolejność renderowania
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Version:0.21
+   Name: Sketcher RenderingOrder
+   Name/pl: Szkicownik: Kolejność renderowania
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Version: 0.21
 ---
 
 # Sketcher RenderingOrder/pl
@@ -38,4 +38,4 @@ W przypadku zbieżnych obiektów, kolejność renderowania określa, które elem
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RenderingOrder/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RenderingOrder/pl

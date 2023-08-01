@@ -1,6 +1,6 @@
 # Std Import/ro
 ---
-- GuiCommand:   Name:Std Import   Name/ro:Importul   Workbenches:All   MenuLocation:File - Importul   Shortcut:CTRL+I   SeeAlso:[Deschidere](Std_Open/ro.md)...---
+- GuiCommand:   Name: Std Import   Name/ro: Importul   Workbenches: All   MenuLocation: File - Importul   Shortcut: CTRL+I   SeeAlso: [Deschidere](Std_Open/ro.md)...---
 
 
 </div>
@@ -120,4 +120,4 @@ An Image Plane object is derived from an [App GeoFeature](App_GeoFeature.md) obj
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/ro
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/ro

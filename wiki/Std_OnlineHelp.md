@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std OnlineHelp
-   MenuLocation:Help - Help
-   Workbenches:All
-   Shortcut:**F1**
-   SeeAlso:[Std WhatsThis](Std_WhatsThis.md)
+   Name: Std OnlineHelp
+   MenuLocation: Help - Help
+   Workbenches: All
+   Shortcut: **F1**
+   SeeAlso: [Std WhatsThis](Std_WhatsThis.md)
 ---
 
 # Std OnlineHelp
@@ -35,4 +35,4 @@ In FreeCAD <small>(v0.20)</small>  this command requires the [Help Addon](https:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std OnlineHelp
+⏵ [documentation index](../README.md) > Std OnlineHelp

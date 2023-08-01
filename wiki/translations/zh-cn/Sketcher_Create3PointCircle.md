@@ -1,11 +1,11 @@
 ---
 - GuiCommand:-cn
-   Name/zh-cn:通过三点创建圆
-   Name:Sketcher_Create3PointCircle
-   MenuLocation:Sketch - 草图几何体 - 通过三点创建圆
-   Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md)
-   Shortcut:
-   SeeAlso:
+   Name/zh-cn: 通过三点创建圆
+   Name: Sketcher_Create3PointCircle
+   MenuLocation: Sketch - 草图几何体 - 通过三点创建圆
+   Workbenches: [Sketcher](Sketcher_Workbench/zh-cn.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Sketcher Create3PointCircle/zh-cn
@@ -61,4 +61,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointCircle/zh-cn
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointCircle/zh-cn

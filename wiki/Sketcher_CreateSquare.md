@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateSquare
-   MenuLocation:Sketch - Sketcher geometries - Create square
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**G** **P** **4**
-   Version:0.15
+   Name: Sketcher CreateSquare
+   MenuLocation: Sketch - Sketcher geometries - Create square
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **G** **P** **4**
+   Version: 0.15
 ---
 
 # Sketcher CreateSquare
@@ -32,4 +32,4 @@ The circumscribed circle is construction geometry, which is only visible when ed
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSquare
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSquare

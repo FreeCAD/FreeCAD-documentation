@@ -250,4 +250,4 @@ Questi file sono pronti per essere inviati ai laboratori che faranno il taglio v
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Wikihouse porting tutorial/it
+⏵ [documentation index](../README.md) > Wikihouse porting tutorial/it

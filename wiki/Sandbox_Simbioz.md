@@ -76,4 +76,4 @@ This text is collapsed.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Sandbox:Simbioz
+⏵ [documentation index](../README.md) > Sandbox:Simbioz

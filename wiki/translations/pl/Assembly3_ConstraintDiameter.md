@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintDiameter
-   Icon:Assembly_ConstraintDiameter.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintDiameter
+   Icon: Assembly_ConstraintDiameter.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintDiameter/pl
@@ -32,4 +32,4 @@ To set the diameter edit the Diameter parameter in the properties panel.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintDiameter/pl
+⏵ [documentation index](../README.md) > Assembly3 ConstraintDiameter/pl

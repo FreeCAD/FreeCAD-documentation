@@ -759,4 +759,4 @@ Här ett annat inlägg av [FCInfo Macro](http://forum.freecadweb.org/viewtopic.p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro FCInfo/sv
+⏵ [documentation index](../README.md) > Macro FCInfo/sv

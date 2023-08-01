@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign MoveFeature
-   MenuLocation:Context menu - Move object to other body
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   Version:0.17
-   SeeAlso:[PartDesign Set tip](PartDesign_MoveTip.md), [PartDesign Move object after other object](PartDesign_MoveFeatureInTree.md)
+   Name: PartDesign MoveFeature
+   MenuLocation: Context menu - Move object to other body
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Set tip](PartDesign_MoveTip.md), [PartDesign Move object after other object](PartDesign_MoveFeatureInTree.md)
 ---
 
 # PartDesign MoveFeature/tr
@@ -31,4 +31,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeature/tr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeature/tr

@@ -1,7 +1,7 @@
 # <img alt="Icône de l\'atelier Path" src=images/Workbench_Path.svg  style="width:64px;"> Path Workbench/fr
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -278,4 +278,4 @@ Voir la page [Path Ecrire un script](Path_scripting/fr.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/fr
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/fr

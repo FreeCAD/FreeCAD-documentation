@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainHorizontal
-   Name/fr:Sketcher_Contrainte horizontale
-   MenuLocation:Esquisse - Contraintes d'esquisse - Contrainte horizontale
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**H**
-   SeeAlso:[Sketcher Contrainte verticale](Sketcher_ConstrainVertical/fr.md)
+   Name: Sketcher ConstrainHorizontal
+   Name/fr: Sketcher_Contrainte horizontale
+   MenuLocation: Esquisse - Contraintes d'esquisse - Contrainte horizontale
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **H**
+   SeeAlso: [Sketcher Contrainte verticale](Sketcher_ConstrainVertical/fr.md)
 ---
 
 # Sketcher ConstrainHorizontal/fr
@@ -53,4 +53,4 @@ La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui pe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/fr

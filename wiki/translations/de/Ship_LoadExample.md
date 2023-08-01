@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Ship Load‏‎
-   Name/de:Schiffslast
-   MenuLocation:Schiffkonstruktion - Laden einer Beispielschiffsgeometrie
-   Workbenches:[Schiff](Ship_Workbench/de.md)
-   Shortcut:
-   SeeAlso:
+   Name: Ship Load‏‎
+   Name/de: Schiffslast
+   MenuLocation: Schiffkonstruktion - Laden einer Beispielschiffsgeometrie
+   Workbenches: [Schiff](Ship_Workbench/de.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Ship LoadExample/de
@@ -72,4 +72,4 @@ Um neuen Anwendern zu helfen, enthält Schiff ein Ladeprogramm für Geometriebei
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship LoadExample/de
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship LoadExample/de

@@ -170,4 +170,4 @@ Ein Graustufenbild erlaubt dir Kontrastprobleme leichter zu erkennen, da nur ein
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer Documentation](Category_Developer Documentation.md) > Artwork Guidelines/de
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer Documentation](Category_Developer Documentation.md) > Artwork Guidelines/de

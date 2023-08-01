@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Downgrade
-   Name/pl:Rysunek Roboczy: Rozbij kształt
-   MenuLocation:Modyfikacja - Rozbij kształt
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut:**D** **N**
-   SeeAlso:[Ulepsz kształt](Draft_Upgrade/pl.md), [Wytnij](Part_Cut/pl.md)
+   Name: Draft Downgrade
+   Name/pl: Rysunek Roboczy: Rozbij kształt
+   MenuLocation: Modyfikacja - Rozbij kształt
+   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut: **D** **N**
+   SeeAlso: [Ulepsz kształt](Draft_Upgrade/pl.md), [Wytnij](Part_Cut/pl.md)
 ---
 
 # Draft Downgrade/pl
@@ -83,4 +83,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Downgrade/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Downgrade/pl

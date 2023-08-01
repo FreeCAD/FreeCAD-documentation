@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path MillFace
-   Name/de:Pfad Fräsfläche
-   MenuLocation:Pfad - Fläche
-   Workbenches:[Pfad](Path_Workbench/de.md)
+   Name: Path MillFace
+   Name/de: Pfad Fräsfläche
+   MenuLocation: Pfad - Fläche
+   Workbenches: [Pfad](Path_Workbench/de.md)
 ---
 
 # Path MillFace/de
@@ -240,4 +240,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path MillFace/de
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path MillFace/de

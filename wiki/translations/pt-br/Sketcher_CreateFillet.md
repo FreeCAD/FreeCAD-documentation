@@ -1,6 +1,6 @@
 # Sketcher CreateFillet/pt-br
 ---
-- GuiCommand:-br   Name:Sketcher CreateFillet   Name/pt-br:Sketcher CreateFillet   Workbenches:[[Sketcher Workbench/pt-br   Sketcher]]|Shortcut:F   MenuLocation:Sketch - Sketcher geometries - Create fillet---
+- GuiCommand:-br   Name: Sketcher CreateFillet   Name/pt-br: Sketcher CreateFillet   Workbenches: [[Sketcher Workbench/pt-br   Sketcher]]|Shortcut: F   MenuLocation: Sketch - Sketcher geometries - Create fillet---
 
 
 </div>
@@ -31,4 +31,4 @@ When starting the tool, selections are cleared and the mouse pointer changes to 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/pt-br
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/pt-br

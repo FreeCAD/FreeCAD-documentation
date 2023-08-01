@@ -1,8 +1,4 @@
 # External workbenches/de
-{{TOCright}}
-
-
-
 ## Einführung
 
 [Externe Arbeitsbereiche](External_workbenches/de.md) sind von erfahrenen Nutzern erstellte Arbeitsbereiche, welche nicht in den FreeCAD Hauptquellcode integriert wurden.
@@ -154,4 +150,4 @@ Weitere Informationen findest du auf der Wiki Seite [Übersetzen eines externen 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External_Workbenches](Category_External_Workbenches.md) > External workbenches/de
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External_Workbenches](Category_External_Workbenches.md) > External workbenches/de

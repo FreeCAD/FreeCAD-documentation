@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Sketcher constrain radius or diameter
-   MenuLocation:
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name: Sketcher constrain radius or diameter
+   MenuLocation: 
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
 ---
 
 # Sketcher CompConstrainRadDia/en
@@ -30,4 +30,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompConstrainRadDia/en
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompConstrainRadDia/en

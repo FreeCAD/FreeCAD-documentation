@@ -1,6 +1,6 @@
 # Draft Shape2DView/sv
 ---
-- GuiCommand:   Name:Draft Shape2DView   Name/sv:Draft Shape2DView   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> Shape 2D View---
+- GuiCommand:   Name: Draft Shape2DView   Name/sv: Draft Shape2DView   Workbenches: [Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation: Draft -> Shape 2D View---
 
 
 </div>
@@ -159,4 +159,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Shape2DView/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Shape2DView/sv

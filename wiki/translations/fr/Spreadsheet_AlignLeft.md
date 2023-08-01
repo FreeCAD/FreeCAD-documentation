@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet AlignLeft
-   Name/fr:Spreadsheet Alignement à gauche
-   MenuLocation:Spreadsheet - Alignement - Alignement à gauche
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/fr.md)
-   Version:0.17
+   Name: Spreadsheet AlignLeft
+   Name/fr: Spreadsheet Alignement à gauche
+   MenuLocation: Spreadsheet - Alignement - Alignement à gauche
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/fr.md)
+   Version: 0.17
 ---
 
 # Spreadsheet AlignLeft/fr
@@ -30,4 +30,4 @@ L\'outil **[<img src=images/Spreadsheet_AlignLeft.svg style="width:16px"> [Sprea
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignLeft/fr
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignLeft/fr

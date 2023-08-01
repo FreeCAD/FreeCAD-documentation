@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw ClipGroupAdd
-   Name/fr:TechDraw Ajout vue dans une fenêtre de rognage
-   MenuLocation:TechDraw - Ajouter une vue à la fenêtre de rognage
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Fenêtre de rognage](TechDraw_ClipGroup/fr.md), [TechDraw Suppression vue à une fenêtre de rognage](TechDraw_ClipGroupRemove/fr.md)
+   Name: TechDraw ClipGroupAdd
+   Name/fr: TechDraw Ajout vue dans une fenêtre de rognage
+   MenuLocation: TechDraw - Ajouter une vue à la fenêtre de rognage
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   SeeAlso: [TechDraw Fenêtre de rognage](TechDraw_ClipGroup/fr.md), [TechDraw Suppression vue à une fenêtre de rognage](TechDraw_ClipGroupRemove/fr.md)
 ---
 
 # TechDraw ClipGroupAdd/fr
@@ -42,4 +42,4 @@ Cet outil **TechDraw Ajout vue dans une fenêtre de rognage** ajoute une vue à 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupAdd/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupAdd/fr

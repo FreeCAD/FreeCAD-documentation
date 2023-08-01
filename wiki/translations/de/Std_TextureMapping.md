@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std TextureMapping
-   Name/de:Std Texturabbildung
-   MenuLocation:Ansicht - Texturabbildung...
-   Workbenches:Alle
+   Name: Std TextureMapping
+   Name/de: Std Texturabbildung
+   MenuLocation: Ansicht - Texturabbildung...
+   Workbenches: Alle
 ---
 
 # Std TextureMapping/de
@@ -34,4 +34,4 @@ Der Befehl **Std Texturabbildung** bildet temporär eine Textur auf allen Objekt
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TextureMapping/de
+⏵ [documentation index](../README.md) > Std TextureMapping/de

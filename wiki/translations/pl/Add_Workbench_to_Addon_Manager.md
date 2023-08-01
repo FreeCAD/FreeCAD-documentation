@@ -1,8 +1,4 @@
 # Add Workbench to Addon Manager/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 These are step-by-step instructions on how to add a Python workbench to the [Addon Manager](Std_AddonMgr.md).
@@ -92,4 +88,4 @@ Requirements:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [Developer Documentation](Category_Developer Documentation.md) > Add Workbench to Addon Manager/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [Developer Documentation](Category_Developer Documentation.md) > Add Workbench to Addon Manager/pl

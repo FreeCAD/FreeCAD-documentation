@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Pocket
-   Name/es:DiseñoPieza Cajera
-   MenuLocation:DiseñoPieza - Crear una característica substractivo - Cajera
-   Workbenches:[DiseñoPieza](PartDesign_Workbench/es.md)
-   SeeAlso:[DiseñoPieza Pastilla](PartDesign_Pad/es.md)
+   Name: PartDesign Pocket
+   Name/es: DiseñoPieza Cajera
+   MenuLocation: DiseñoPieza - Crear una característica substractivo - Cajera
+   Workbenches: [DiseñoPieza](PartDesign_Workbench/es.md)
+   SeeAlso: [DiseñoPieza Pastilla](PartDesign_Pad/es.md)
 ---
 
 # PartDesign Pocket/es
@@ -215,4 +215,4 @@ Tapers the pocket in the opposite extrusion direction by the given angle. A posi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/es

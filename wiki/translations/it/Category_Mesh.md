@@ -25,4 +25,4 @@ This category lists pages related to the [Mesh_Workbench/it](Mesh_Workbench/it.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Mesh/it
+⏵ [documentation index](../README.md) > Category:Mesh/it

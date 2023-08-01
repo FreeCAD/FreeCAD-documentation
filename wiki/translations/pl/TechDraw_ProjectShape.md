@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ProjectShape
-   Name/pl:Rysunek Techniczny: Rzutowanie kształtów
-   MenuLocation:Rysunek Techniczny - Widoki - Rzutowanie kształtów ...
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[Widok 2D kształtu](Draft_Shape2DView/pl.md)
+   Name: TechDraw ProjectShape
+   Name/pl: Rysunek Techniczny: Rzutowanie kształtów
+   MenuLocation: Rysunek Techniczny - Widoki - Rzutowanie kształtów ...
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [Widok 2D kształtu](Draft_Shape2DView/pl.md)
 ---
 
 # TechDraw ProjectShape/pl
@@ -89,4 +89,4 @@ Narzędzie to było wcześniej dostępne w środowisku pracy Kreślenie.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ProjectShape/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ProjectShape/pl

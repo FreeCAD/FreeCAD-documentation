@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintBodyHeatSource
-   MenuLocation:Model - Thermal Constraints - Constraint body heat source
-   Workbenches:[FEM](FEM_Workbench.md)
-   Version:0.19
-   SeeAlso:[FEM tutorial](FEM_tutorial.md)
+   Name: FEM ConstraintBodyHeatSource
+   MenuLocation: Model - Thermal Constraints - Constraint body heat source
+   Workbenches: [FEM](FEM_Workbench.md)
+   Version: 0.19
+   SeeAlso: [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM ConstraintBodyHeatSource/pl
@@ -50,4 +50,4 @@ Definiuje wewnętrznie wytworzone ciepło ciała podane w W/kg.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintBodyHeatSource/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintBodyHeatSource/pl

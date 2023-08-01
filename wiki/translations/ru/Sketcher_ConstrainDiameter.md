@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Ограничить диаметр
-   Name:Sketcher_ConstrainDiameter
-   MenuLocation:Sketch - Ограничения эскиза - Ограничить диаметр
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   SeeAlso:[Ограничить расстояние](Sketcher_ConstrainDistance/ru.md), [Ограничение расстояния по горизонтали](Sketcher_ConstrainDistanceX/ru.md), [Ограничение расстояния по вертикали](Sketcher_ConstrainDistanceY/ru.md)
-   Version:0.18
+   Name/ru: Ограничить диаметр
+   Name: Sketcher_ConstrainDiameter
+   MenuLocation: Sketch - Ограничения эскиза - Ограничить диаметр
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   SeeAlso: [Ограничить расстояние](Sketcher_ConstrainDistance/ru.md), [Ограничение расстояния по горизонтали](Sketcher_ConstrainDistanceX/ru.md), [Ограничение расстояния по вертикали](Sketcher_ConstrainDistanceY/ru.md)
+   Version: 0.18
 ---
 
 # Sketcher ConstrainDiameter/ru
@@ -73,4 +73,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDiameter/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDiameter/ru

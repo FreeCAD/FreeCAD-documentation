@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft ShowSnapBar
-   Name/ro:Draft ShowSnapBar
-   MenuLocation:Draft - Utilities - Show Snap Bar
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Name: Draft ShowSnapBar
+   Name/ro: Draft ShowSnapBar
+   MenuLocation: Draft - Utilities - Show Snap Bar
+   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
 ---
 
 # Draft ShowSnapBar/ro
@@ -36,4 +36,4 @@ Această comandă afișează/ascunde bara de instrumente [ snapping](Draft_Snap.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShowSnapBar/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShowSnapBar/ro

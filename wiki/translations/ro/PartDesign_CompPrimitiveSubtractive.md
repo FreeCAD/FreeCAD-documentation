@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ro:PartDesign CompPrimitiveSubtractive
-   Empty:1
-   Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation:Part Design - Create a subtractive primitive
-   SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive/ro.md)
-   Version:0.17
+   Name/ro: PartDesign CompPrimitiveSubtractive
+   Empty: 1
+   Workbenches: [PartDesign](PartDesign_Workbench/ro.md)
+   MenuLocation: Part Design - Create a subtractive primitive
+   SeeAlso: [PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive/ro.md)
+   Version: 0.17
 ---
 
 # PartDesign CompPrimitiveSubtractive/ro
@@ -45,4 +45,4 @@ Creează primitive geometrice substractive în corpul activ, extrăgându-le/sc�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveSubtractive/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveSubtractive/ro

@@ -1,8 +1,4 @@
 # Property editor/es
-{{TOCright}}
-
-
-
 ## Introducción
 
 El [Editor de propiedades](property_editor/es.md) es una de las herramientas más importantes de FreeCAD y un elemento principal al trabajar con FreeCAD. El Editor de propiedades permite administrar las propiedades de los objetos en su documento.
@@ -12,7 +8,7 @@ Im Allgemeinen ist der Eigenschaftseditor dafür vorgesehen, jeweils nur ein Obj
 Not all properties can be modified always; depending on the specific status of the property, some of them will be invisible (not listed), or be read-only (not editable).
 
 
-{{TOCright}}
+
 
 ![](images/FreeCAD_Property_editor_empty.png )
 
@@ -407,4 +403,4 @@ print(obj.ViewObject.PropertiesList)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Property editor/es
+⏵ [documentation index](../README.md) > Property editor/es

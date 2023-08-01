@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign MoveTip
-   Name/de:PartDesign ArbeitspositionFestlegen
-   MenuLocation:Kontextmenü - Arbeitsposition festlegen
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[PartDesign FormelementVerschieben](PartDesign_MoveFeature/de.md), [PartDesign FormelementImBaumVerschieben](PartDesign_MoveFeatureInTree/de.md)
+   Name: PartDesign MoveTip
+   Name/de: PartDesign ArbeitspositionFestlegen
+   MenuLocation: Kontextmenü - Arbeitsposition festlegen
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [PartDesign FormelementVerschieben](PartDesign_MoveFeature/de.md), [PartDesign FormelementImBaumVerschieben](PartDesign_MoveFeatureInTree/de.md)
 ---
 
 # PartDesign MoveTip/de
@@ -37,4 +37,4 @@ Die Arbeitsposition wird im Modellbaum durch einen kleinen weißen Abwärtspfeil
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveTip/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveTip/de

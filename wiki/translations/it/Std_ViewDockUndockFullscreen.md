@@ -1,13 +1,13 @@
 ---
 - GuiCommand:
 
-   Name:Std ViewDockUndockFullscreen
-   Name/it:Finestra del documento
-   Empty:1
-   MenuLocation:Visualizza - Finestra del documento - Agganciata o Non agganciata
-   Workbenches:All
-   Shortcut:**V** **D** / **V** **U**
-   SeeAlso:[Vista 3D a schermo intero](Std_ViewFullscreen/it.md), [Finestra principale a schermo intero](Std_MainFullscreen/it.md)
+   Name: Std ViewDockUndockFullscreen
+   Name/it: Finestra del documento
+   Empty: 1
+   MenuLocation: Visualizza - Finestra del documento - Agganciata o Non agganciata
+   Workbenches: All
+   Shortcut: **V** **D** / **V** **U**
+   SeeAlso: [Vista 3D a schermo intero](Std_ViewFullscreen/it.md), [Finestra principale a schermo intero](Std_MainFullscreen/it.md)
 ---
 
 # Std ViewDockUndockFullscreen/it
@@ -79,4 +79,4 @@ L\'opzione di menu **Sganciata** sgancia la [Vista 3D](3D_view/it.md) attiva dal
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewDockUndockFullscreen/it
+⏵ [documentation index](../README.md) > Std ViewDockUndockFullscreen/it

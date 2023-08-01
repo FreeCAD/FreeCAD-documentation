@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Shape2DView
-   Name/de:Draft Form2DAnsicht
-   MenuLocation:Änderung - Form in 2D Ansicht
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso:[TechDraw FormProjizieren](TechDraw_ProjectShape/de.md)
+   Name: Draft Shape2DView
+   Name/de: Draft Form2DAnsicht
+   MenuLocation: Änderung - Form in 2D Ansicht
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso: [TechDraw FormProjizieren](TechDraw_ProjectShape/de.md)
 ---
 
 # Draft Shape2DView/de
@@ -165,4 +165,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Shape2DView/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Shape2DView/de

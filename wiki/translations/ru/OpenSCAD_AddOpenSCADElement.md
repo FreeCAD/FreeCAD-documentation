@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD AddOpenSCADElement
-   Name/ru:OpenSCAD AddOpenSCADElement
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/ru.md)
-   MenuLocation:OpenSCAD -> Add OpenSCAD Element
+   Name: OpenSCAD AddOpenSCADElement
+   Name/ru: OpenSCAD AddOpenSCADElement
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench/ru.md)
+   MenuLocation: OpenSCAD -> Add OpenSCAD Element
 ---
 
 # OpenSCAD AddOpenSCADElement/ru
@@ -75,4 +75,4 @@ Note: It is also possible to add another optional Parameter which controls the m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD AddOpenSCADElement/ru
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD AddOpenSCADElement/ru

@@ -1,6 +1,4 @@
 # Introduction to Python/id
-{{TOCright}}
-
 ## Introduction
 
 This is a short tutorial for those new to [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29). Python is an open-source, multiplatform [programming language](https://en.wikipedia.org/wiki/Programming_language). It has several features that make it different from other programming languages, and very accessible to new users:
@@ -493,4 +491,4 @@ dir()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Introduction to Python/id
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Introduction to Python/id

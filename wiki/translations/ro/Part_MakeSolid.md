@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Part MakeSolid
-   MenuLocation:Part - Convert to solid
-   Workbenches:[Part](Part_Workbench.md)
+   Name: Part MakeSolid
+   MenuLocation: Part - Convert to solid
+   Workbenches: [Part](Part_Workbench.md)
 ---
 
 # Part MakeSolid/ro
@@ -45,4 +45,4 @@ Este recomandabil să utilizați traseul ** Part** → ** Refine Shape** înaint
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/ro

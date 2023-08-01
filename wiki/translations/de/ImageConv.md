@@ -17,4 +17,4 @@ BildKonv ist ein Befehlszeilenwerkzeug.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > ImageConv/de
+⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > ImageConv/de

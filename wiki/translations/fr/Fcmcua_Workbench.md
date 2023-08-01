@@ -1,7 +1,7 @@
 # <img alt="Icône de l\'atelier Fcmcua" src=images/Fcmcua_wb.svg  style="width:64" height="64px;"> Fcmcua Workbench/fr
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -75,4 +75,4 @@ Un nœud d\'actionneur sur le serveur OPC UA agit comme un déclencheur pour *ou
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Fcmcua Workbench/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Fcmcua Workbench/fr

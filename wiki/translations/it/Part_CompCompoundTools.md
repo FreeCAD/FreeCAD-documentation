@@ -1,6 +1,6 @@
 # Part CompCompoundTools/it
 ---
-- GuiCommand:   Name:Part CompCompoundTools   Name/it:Strumenti composto   MenuLocation:Part - Composto   Workbenches:[[Part_Workbench/it   Part]]|SeeAlso:---
+- GuiCommand:   Name: Part CompCompoundTools   Name/it: Strumenti composto   MenuLocation: Part - Composto   Workbenches: [[Part_Workbench/it   Part]]|SeeAlso: ---
 
 
 </div>
@@ -27,4 +27,4 @@ Un insieme di vari strumenti per i composti.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompCompoundTools/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompCompoundTools/it

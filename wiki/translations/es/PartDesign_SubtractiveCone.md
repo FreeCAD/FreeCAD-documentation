@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractiveCone
-   Name/es:PartDesign Cono sustractivo
-   MenuLocation:Part Design - Crear una primitiva sustractiva - Cono sustractivo
-   Workbenches:[PartDesign](PartDesign_Workbench/es.md)
-   Version:0.17
-   SeeAlso:[Crear una Primitiva sustractiva](PartDesign_CompPrimitiveSubtractive/es.md), [Additive Cone](PartDesign_AdditiveCone.md)
+   Name: PartDesign SubtractiveCone
+   Name/es: PartDesign Cono sustractivo
+   MenuLocation: Part Design - Crear una primitiva sustractiva - Cono sustractivo
+   Workbenches: [PartDesign](PartDesign_Workbench/es.md)
+   Version: 0.17
+   SeeAlso: [Crear una Primitiva sustractiva](PartDesign_CompPrimitiveSubtractive/es.md), [Additive Cone](PartDesign_AdditiveCone.md)
 ---
 
 # PartDesign SubtractiveCone/es
@@ -78,4 +78,4 @@ Tras su creación, el Cono puede ser editado de dos maneras:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveCone/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveCone/es

@@ -1,6 +1,4 @@
 # FeaturePython Custom Properties/fr
-{{TOCright}}
-
 ## Introduction
 
 Voir aussi : [Documentation API générée automatiquement (documentation C++)](https://freecad.github.io/SourceDoc/dd/dc2/namespaceApp.html).
@@ -1484,4 +1482,4 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > [Developer Documentation](Category_Developer Documentation.md) > FeaturePython Custom Properties/fr
+⏵ [documentation index](../README.md) > [API](Category_API.md) > [Developer Documentation](Category_Developer Documentation.md) > FeaturePython Custom Properties/fr

@@ -23,7 +23,7 @@
 Начните с [Учебника по роботам](Robot_tutorial/ru.md), и смотрите программный интерфейс в файле примера [RobotExample.py](https://github.com/FreeCAD/FreeCAD_sf_master/blob/master/src/Mod/Robot/RobotExample.py).
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Robot_Workbench_example.jpg  style="width:500px;">
 
@@ -81,4 +81,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Robot](Category_Robot.md) > Robot Workbench/ru
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Robot](Category_Robot.md) > Robot Workbench/ru

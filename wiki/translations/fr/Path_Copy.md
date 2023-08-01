@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path Copy
-   Name/fr:Path Copie d'opération
-   MenuLocation:Path - Modification du parcours - Copier l'opération dans la tâche
-   Workbenches:[Path](Path_Workbench/fr.md)
+   Name: Path Copy
+   Name/fr: Path Copie d'opération
+   MenuLocation: Path - Modification du parcours - Copier l'opération dans la tâche
+   Workbenches: [Path](Path_Workbench/fr.md)
 ---
 
 # Path Copy/fr
@@ -43,4 +43,4 @@ La copie reste liée au parcours original. Si l\'original change, la copie aussi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Copy/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Copy/fr

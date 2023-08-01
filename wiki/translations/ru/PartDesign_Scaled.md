@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign Scaled
-   Name/ru:PartDesign Scaled
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md), Complete
-   MenuLocation:PartDesign - Множественное преобразование
+   Name: PartDesign Scaled
+   Name/ru: PartDesign Scaled
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md), Complete
+   MenuLocation: PartDesign - Множественное преобразование
 ---
 
 # PartDesign Scaled/ru
@@ -71,4 +71,4 @@ If there is no previous transformation within the <img alt="" src=images/PartDes
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/ru

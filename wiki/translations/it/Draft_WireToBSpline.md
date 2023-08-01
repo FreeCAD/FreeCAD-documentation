@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft WireToBSpline
-   Name/it:Polilinea in B-spline
-   MenuLocation:Modifiche - Polilinea in B-spline
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   SeeAlso:[Polilinea](Draft_Wire/it.md), [B-spline](Draft_BSpline/it.md)
+   Name: Draft WireToBSpline
+   Name/it: Polilinea in B-spline
+   MenuLocation: Modifiche - Polilinea in B-spline
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   SeeAlso: [Polilinea](Draft_Wire/it.md), [B-spline](Draft_BSpline/it.md)
 ---
 
 # Draft WireToBSpline/it
@@ -71,4 +71,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WireToBSpline/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WireToBSpline/it

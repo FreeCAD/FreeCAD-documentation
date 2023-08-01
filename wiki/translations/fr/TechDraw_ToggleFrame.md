@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw ToggleFrame
-   Name/fr:TechDraw Bascule des cadres
-   MenuLocation:TechDraw - Vues de Techdraw - Activer ou désactiver les cadres de vues
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Vue](TechDraw_View/fr.md), [TechDraw Projection de groupe](TechDraw_ProjectionGroup/fr.md)
+   Name: TechDraw ToggleFrame
+   Name/fr: TechDraw Bascule des cadres
+   MenuLocation: TechDraw - Vues de Techdraw - Activer ou désactiver les cadres de vues
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   SeeAlso: [TechDraw Vue](TechDraw_View/fr.md), [TechDraw Projection de groupe](TechDraw_ProjectionGroup/fr.md)
 ---
 
 # TechDraw ToggleFrame/fr
@@ -60,4 +60,4 @@ L\'outil Basculer l\'affichage des cadres n\'a actuellement pas d\'interface de 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ToggleFrame/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ToggleFrame/fr

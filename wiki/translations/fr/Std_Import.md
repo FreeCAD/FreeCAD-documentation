@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_Import
-   Name/fr:Std Importer
-   MenuLocation:Fichier - Importer...
-   Workbenches:Tous
-   Shortcut:**Ctrl**+**I**
-   SeeAlso:[Std Ouvrir](Std_Open/fr.md), [Import Export](Import_Export/fr.md), [Préférences d'Import Export](Import_Export_Preferences/fr.md)
+   Name: Std_Import
+   Name/fr: Std Importer
+   MenuLocation: Fichier - Importer...
+   Workbenches: Tous
+   Shortcut: **Ctrl**+**I**
+   SeeAlso: [Std Ouvrir](Std_Open/fr.md), [Import Export](Import_Export/fr.md), [Préférences d'Import Export](Import_Export_Preferences/fr.md)
 ---
 
 # Std Import/fr
@@ -124,4 +124,4 @@ Un objet Plan d\'image est dérivé d\'un objet [App GeoFeature](App_GeoFeature/
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/fr
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/fr

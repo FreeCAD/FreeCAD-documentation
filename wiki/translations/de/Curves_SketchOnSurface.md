@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Curves SketchOnSurface
-   Name/de:Curves SkizzeAufFläche
-   MenuLocation:Surfaces - Sketch on Surface
-   Workbenches:[Curves](Curves_Workbench/de.md)
+   Name: Curves SketchOnSurface
+   Name/de: Curves SkizzeAufFläche
+   MenuLocation: Surfaces - Sketch on Surface
+   Workbenches: [Curves](Curves_Workbench/de.md)
 ---
 
 # Curves SketchOnSurface/de
@@ -83,4 +83,4 @@ Sämtliche Geometrie sollte sich innerhalb des blauen Konstruktionsrahmens befin
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves SketchOnSurface/de
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves SketchOnSurface/de

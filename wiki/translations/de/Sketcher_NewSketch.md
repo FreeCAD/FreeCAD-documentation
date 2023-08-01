@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher NewSketch
-   Name/de:Sketcher NeueSkizze
-   MenuLocation: Skizze - Skizze erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   SeeAlso:[PartDesign NeueSkizze](PartDesign_NewSketch/de.md),[SkizzeZuordnen](Sketcher_MapSketch/de.md), [SkizzeAusrichten](Sketcher_ReorientSketch/de.md)
+   Name: Sketcher NewSketch
+   Name/de: Sketcher NeueSkizze
+   MenuLocation:  Skizze - Skizze erstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   SeeAlso: [PartDesign NeueSkizze](PartDesign_NewSketch/de.md),[SkizzeZuordnen](Sketcher_MapSketch/de.md), [SkizzeAusrichten](Sketcher_ReorientSketch/de.md)
 ---
 
 # Sketcher NewSketch/de
@@ -44,4 +44,4 @@ Die Skizze kann in der [3D-Ansicht](3D_view/de.md) mittels [Positionierung](Plac
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/de

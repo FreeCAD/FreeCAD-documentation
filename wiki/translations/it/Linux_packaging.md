@@ -14,4 +14,4 @@ per Windows e MacOS, vedere [Impacchettamento](Packaging/it.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > Linux packaging/it
+⏵ [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > Linux packaging/it

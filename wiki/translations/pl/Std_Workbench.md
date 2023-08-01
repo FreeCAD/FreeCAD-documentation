@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std Workbench
-   Name/pl:Std: Środowiska pracy
-   Empty:1
-   MenuLocation:Widok - Środowiska pracy
-   Workbenches:[Środowiska pracy](Workbenches/pl.md)
+   Name: Std Workbench
+   Name/pl: Std: Środowiska pracy
+   Empty: 1
+   MenuLocation: Widok - Środowiska pracy
+   Workbenches: [Środowiska pracy](Workbenches/pl.md)
 ---
 
 # Std Workbench/pl
@@ -57,4 +57,4 @@ FreeCADGui.activateWorkbench("PartDesignWorkbench")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Workbench/pl
+⏵ [documentation index](../README.md) > Std Workbench/pl

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw Dimension Angle
-   Name/es:TechDraw Dimensión Ángulo
-   MenuLocation:TechDraw - Dimensión Ángulo
-   Workbenches:[TechDraw](TechDraw_Workbench/es.md)
-   SeeAlso:[TechDraw Dimensión Ángulo3Ps](TechDraw_3PtAngleDimension/es.md)
+   Name: TechDraw Dimension Angle
+   Name/es: TechDraw Dimensión Ángulo
+   MenuLocation: TechDraw - Dimensión Ángulo
+   Workbenches: [TechDraw](TechDraw_Workbench/es.md)
+   SeeAlso: [TechDraw Dimensión Ángulo3Ps](TechDraw_3PtAngleDimension/es.md)
 ---
 
 # TechDraw AngleDimension/es
@@ -89,4 +89,4 @@ rc = page.addView(dim1)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw AngleDimension/es
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw AngleDimension/es

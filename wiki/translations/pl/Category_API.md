@@ -19,4 +19,4 @@ Kategoria ta gromadzi artykuły zawierające listę obiektów i metod dostępnyc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > Category:API/pl
+⏵ [documentation index](../README.md) > [API](Category_API.md) > Category:API/pl

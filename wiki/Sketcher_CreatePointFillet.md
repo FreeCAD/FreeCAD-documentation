@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreatePointFillet
-   MenuLocation:Sketch - Sketcher geometries - Create corner-preserving fillet
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**G** **F** **P**
-   Version:0.19
-   SeeAlso:[Sketcher CreateFillet](Sketcher_CreateFillet.md)
+   Name: Sketcher CreatePointFillet
+   MenuLocation: Sketch - Sketcher geometries - Create corner-preserving fillet
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **G** **F** **P**
+   Version: 0.19
+   SeeAlso: [Sketcher CreateFillet](Sketcher_CreateFillet.md)
 ---
 
 # Sketcher CreatePointFillet
@@ -22,4 +22,4 @@ This tool creates a fillet between two lines. The (virtual) intersection of the 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePointFillet
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePointFillet

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Sandbox:Lattice2
+⏵ [documentation index](../README.md) > Sandbox:Lattice2

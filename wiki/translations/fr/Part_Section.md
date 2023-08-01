@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part_Section
-   Name/fr:Part Section
-   MenuLocation:Part - Section
-   Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Part Coupes](Part_CrossSections/fr.md)
+   Name: Part_Section
+   Name/fr: Part Section
+   MenuLocation: Part - Section
+   Workbenches: [Part](Part_Workbench/fr.md)
+   SeeAlso: [Part Coupes](Part_CrossSections/fr.md)
 ---
 
 # Part Section/fr
@@ -69,4 +69,4 @@ Pour créer des coupes depuis un plan de coupe, voir <img alt="" src=images/Part
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/fr

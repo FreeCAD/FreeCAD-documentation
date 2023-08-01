@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher BSplineInsertKnot
-   Name/fr:Sketcher Insérer un nœud
-   MenuLocation:Esquisse - Outils d'esquisse des B-splines - Insérer un nœud
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Version:0.20
-   SeeAlso:[Sketcher Multiplicité des nœuds d'une B-spline](Sketcher_BSplineKnotMultiplicity/fr.md), [Sketcher Plus de nœuds d'une B-spline](Sketcher_BSplineIncreaseKnotMultiplicity/fr.md), [Sketcher Moins de nœuds d'une B-spline](Sketcher_BSplineDecreaseKnotMultiplicity/fr.md)
+   Name: Sketcher BSplineInsertKnot
+   Name/fr: Sketcher Insérer un nœud
+   MenuLocation: Esquisse - Outils d'esquisse des B-splines - Insérer un nœud
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Version: 0.20
+   SeeAlso: [Sketcher Multiplicité des nœuds d'une B-spline](Sketcher_BSplineKnotMultiplicity/fr.md), [Sketcher Plus de nœuds d'une B-spline](Sketcher_BSplineIncreaseKnotMultiplicity/fr.md), [Sketcher Moins de nœuds d'une B-spline](Sketcher_BSplineDecreaseKnotMultiplicity/fr.md)
 ---
 
 # Sketcher BSplineInsertKnot/fr
@@ -37,4 +37,4 @@ Insère un noeud dans une [B-spline](B-Splines/fr.md) existante. Si un nœud exi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineInsertKnot/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineInsertKnot/fr

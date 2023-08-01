@@ -1,6 +1,6 @@
 # Part Wedge/it
 ---
-- GuiCommand:   Name:Part Wedge   Name/it:Cuneo   MenuLocation:Parte - Crea Primitive - Cuneo   Workbenches:[SeeAlso:[[Part_CreatePrimitives/it|Part Crea Primitive](Part_Workbench/it___Parte]].md)---
+- GuiCommand:   Name: Part Wedge   Name/it: Cuneo   MenuLocation: Parte - Crea Primitive - Cuneo   Workbenches: [SeeAlso: [[Part_CreatePrimitives/it|Part Crea Primitive](Part_Workbench/it___Parte]].md)---
 
 
 </div>
@@ -116,4 +116,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/it

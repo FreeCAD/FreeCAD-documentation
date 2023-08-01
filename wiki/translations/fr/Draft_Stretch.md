@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Stretch
-   Name/fr:Draft Étirer
-   MenuLocation:Modification - Étirer
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:**S** **H**
-   Version:0.17
+   Name: Draft Stretch
+   Name/fr: Draft Étirer
+   MenuLocation: Modification - Étirer
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut: **S** **H**
+   Version: 0.17
 ---
 
 # Draft Stretch/fr
@@ -65,4 +65,4 @@ Il n\'existe pas de méthode Python pour étirer les objets. Pour émuler les r�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Stretch/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Stretch/fr

@@ -1,8 +1,4 @@
 # Sketcher Dialog/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 Podczas edycji szkicu lub, innymi słowy, gdy szkic jest w trybie edycji, okno dialogowe szkicownika jest wyświetlane na karcie Zadanie w panelu [Widoku złożonego](Combo_view/pl.md).
@@ -442,4 +438,4 @@ Dostępne opcje:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Dialog/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Dialog/pl

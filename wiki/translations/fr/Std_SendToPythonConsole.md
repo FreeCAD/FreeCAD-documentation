@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std SendToPythonConsole
-   Name/fr:Std Vers la console Python
-   MenuLocation:Édition - Envoyer vers la console Python
-   Workbenches:Tous
-   Shortcut:**Ctrl**+**Shift**+**P**
-   Version:0.19
+   Name: Std SendToPythonConsole
+   Name/fr: Std Vers la console Python
+   MenuLocation: Édition - Envoyer vers la console Python
+   Workbenches: Tous
+   Shortcut: **Ctrl**+**Shift**+**P**
+   Version: 0.19
 ---
 
 # Std SendToPythonConsole/fr
@@ -95,4 +95,4 @@ Les variables suivantes sont créées en fonction de l\'objet sélectionné et d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SendToPythonConsole/fr
+⏵ [documentation index](../README.md) > Std SendToPythonConsole/fr

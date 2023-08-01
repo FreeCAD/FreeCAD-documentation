@@ -1,6 +1,6 @@
 # Sketcher ConnectLines/ro
 ---
-- GuiCommand:   Name:Sketcher ConnectLines   Name/ro:Sketcher ConnectLines   Workbenches:[[Sketcher Workbench/ro   Sketcher]]|MenuLocation:Sketch - Sketcher tools - Connect Edges   Shortcut:Ctrl+Shift+K   Version:0.15---
+- GuiCommand:   Name: Sketcher ConnectLines   Name/ro: Sketcher ConnectLines   Workbenches: [[Sketcher Workbench/ro   Sketcher]]|MenuLocation: Sketch - Sketcher tools - Connect Edges   Shortcut: Ctrl+Shift+K   Version: 0.15---
 
 
 </div>
@@ -52,4 +52,4 @@ Selectați elementele din vizualizarea 3D sau din caseta de listă din partea st
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConnectLines/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConnectLines/ro

@@ -28,4 +28,4 @@ This template is the guideline for a FreeCAD development project. It follows the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Project template
+⏵ [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Project template

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std LinkReplace
-   Name/de:Std DurchVerknüpfungErsetzen
-   MenuLocation:None
-   Workbenches:All
-   Version:0.19
-   SeeAlso:[Std VerknüpfungErstellen](Std_LinkMake/de.md), [Std UnterverknüpfungErstellen](Std_LinkMakeRelative/de.md), [Std VerknüpfungAuflösen](Std_LinkUnlink/de.md)
+   Name: Std LinkReplace
+   Name/de: Std DurchVerknüpfungErsetzen
+   MenuLocation: None
+   Workbenches: All
+   Version: 0.19
+   SeeAlso: [Std VerknüpfungErstellen](Std_LinkMake/de.md), [Std UnterverknüpfungErstellen](Std_LinkMakeRelative/de.md), [Std VerknüpfungAuflösen](Std_LinkUnlink/de.md)
 ---
 
 # Std LinkReplace/de
@@ -64,4 +64,4 @@ Diese Anweisung erstellt eine neue [Anwendung Verknüpfung](App_Link/de.md). Sei
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkReplace/de
+⏵ [documentation index](../README.md) > Std LinkReplace/de

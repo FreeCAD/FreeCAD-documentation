@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh_RemoveComponents
-   Name/pl:Siatka: Usuń fragmenty
-   MenuLocation:Siatki - Usuń fragmenty ...
-   Workbenches:[Siatka](Mesh_Workbench/pl.md)
-   SeeAlso:[Usuń elementy interaktywnie](Mesh_RemoveCompByHand/pl.md), [Podziel siatkę](Arch_SplitMesh/pl.md)
+   Name: Mesh_RemoveComponents
+   Name/pl: Siatka: Usuń fragmenty
+   MenuLocation: Siatki - Usuń fragmenty ...
+   Workbenches: [Siatka](Mesh_Workbench/pl.md)
+   SeeAlso: [Usuń elementy interaktywnie](Mesh_RemoveCompByHand/pl.md), [Podziel siatkę](Arch_SplitMesh/pl.md)
 ---
 
 # Mesh RemoveComponents/pl
@@ -53,4 +53,4 @@ Polecenie **Usuń fragmenty** usuwa ściany z obiektów siatkowych.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveComponents/pl
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveComponents/pl

@@ -1,8 +1,4 @@
 # FreeCAD and Mesh Import/de
-{{TOCright}}
-
-
-
 ## Nach dem Import 
 
 Nach dem Import ist das Modell (für FreeCAD) nur eine Baugruppe von Flächen. Du möchtest das Modell vielleicht in eine Form konvertieren, die FreeCAD erkennt und die in FreeCAD geändert werden kann.
@@ -54,4 +50,4 @@ Nun, deine Schale scheint Fehler zu haben, vielleicht ist sie nicht geschlossen 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [File_Formats](Category_File_Formats.md) > FreeCAD and Mesh Import/de
+⏵ [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [File_Formats](Category_File_Formats.md) > FreeCAD and Mesh Import/de

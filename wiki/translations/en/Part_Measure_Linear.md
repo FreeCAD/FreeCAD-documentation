@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Measure Linear
-   MenuLocation:Measure - Measure Linear
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Std MeasureDistance](Std_MeasureDistance.md), [Draft Dimension](Draft_Dimension.md)
+   Name: Part Measure Linear
+   MenuLocation: Measure - Measure Linear
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Std MeasureDistance](Std_MeasureDistance.md), [Draft Dimension](Draft_Dimension.md)
 ---
 
 # Part Measure Linear/en
@@ -34,4 +34,4 @@ The appearance of the measurements can be changed in the [preferences](PartDesig
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Linear/en
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Linear/en

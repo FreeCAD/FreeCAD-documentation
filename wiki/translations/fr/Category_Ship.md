@@ -14,4 +14,4 @@ Cette catégorie répertorie les pages liées à [Ship Workbench/fr](Ship_Workbe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Ship/fr
+⏵ [documentation index](../README.md) > Category:Ship/fr

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name/de:Std FensterAnordnen
-   MenuLocation:Fenster - Anordnen
-   Workbenches:Alle
-   SeeAlso:[Std FensterÜberlappendAnordnen](Std_CascadeWindows/de.md)
+   Name/de: Std FensterAnordnen
+   MenuLocation: Fenster - Anordnen
+   Workbenches: Alle
+   SeeAlso: [Std FensterÜberlappendAnordnen](Std_CascadeWindows/de.md)
 ---
 
 # Std TileWindows/de
@@ -31,4 +31,4 @@ Der **Std FensterAnordnen**-Befehl ordnet die Fenster im [Hauptansichtsbereich](
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TileWindows/de
+⏵ [documentation index](../README.md) > Std TileWindows/de

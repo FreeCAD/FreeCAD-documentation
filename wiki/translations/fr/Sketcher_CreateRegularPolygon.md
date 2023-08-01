@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateRegularPolygon
-   Name/fr:Sketcher Polygone régulier
-   MenuLocation:Esquisse - Géométries d'esquisse - Créer un polygone régulier
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **P** **R**
+   Name: Sketcher CreateRegularPolygon
+   Name/fr: Sketcher Polygone régulier
+   MenuLocation: Esquisse - Géométries d'esquisse - Créer un polygone régulier
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **P** **R**
 ---
 
 # Sketcher CreateRegularPolygon/fr
@@ -38,4 +38,4 @@ Le cercle circonscrit est la géométrie de construction, qui n\'est visible que
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRegularPolygon/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRegularPolygon/fr

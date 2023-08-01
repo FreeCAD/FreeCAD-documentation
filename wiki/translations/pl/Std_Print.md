@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Print
-   Name/pl:Std: Drukuj
-   MenuLocation:Plik - Drukuj ...
-   Workbenches:All
-   Shortcut:**Ctrl** + **P**
-   SeeAlso:[Podgląd wydruku](Std_PrintPreview/pl.md), [Eksportuj do PDF](Std_PrintPdf/pl.md), [Exportuj](Std_Export/pl.md), [Zrzut ekranu](Std_ViewScreenShot/pl.md)
+   Name: Std Print
+   Name/pl: Std: Drukuj
+   MenuLocation: Plik - Drukuj ...
+   Workbenches: All
+   Shortcut: **Ctrl** + **P**
+   SeeAlso: [Podgląd wydruku](Std_PrintPreview/pl.md), [Eksportuj do PDF](Std_PrintPdf/pl.md), [Exportuj](Std_Export/pl.md), [Zrzut ekranu](Std_ViewScreenShot/pl.md)
 ---
 
 # Std Print/pl
@@ -49,4 +49,4 @@ Polecenie **Drukuj** jest przeznaczone głównie do drukowania stron środowiska
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Print/pl
+⏵ [documentation index](../README.md) > Std Print/pl

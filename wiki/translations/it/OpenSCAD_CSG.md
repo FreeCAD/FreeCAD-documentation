@@ -1,6 +1,4 @@
 # OpenSCAD CSG/it
-{{TOCright}}
-
 ## Importazione
 
 ### Elementi supportati 
@@ -42,4 +40,4 @@ Qualsiasi oggetto derivato da Part::Feature che non è (ancora) supportato viene
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD CSG/it
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD CSG/it

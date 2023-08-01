@@ -121,4 +121,4 @@ Wir sind nun fertig mit dem grundlegenden Arbeitsablauf für den [Drawing-Arbeit
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing tutorial/de
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing tutorial/de

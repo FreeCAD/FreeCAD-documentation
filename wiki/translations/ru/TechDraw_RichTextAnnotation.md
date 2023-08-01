@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Вставка аннотаций форматированным текстом
-   Name:TechDraw_RichTextAnnotation
-   MenuLocation:TechDraw - Заметки - Вставка аннотаций форматированным текстомs
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Шаблоны](TechDraw_Templates/ru.md), [Draft SVG](Draft_SVG/ru.md), [Добавить Линию-выноску в Вид](TechDraw_LeaderLine/ru.md)
+   Name/ru: Вставка аннотаций форматированным текстом
+   Name: TechDraw_RichTextAnnotation
+   MenuLocation: TechDraw - Заметки - Вставка аннотаций форматированным текстомs
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Шаблоны](TechDraw_Templates/ru.md), [Draft SVG](Draft_SVG/ru.md), [Добавить Линию-выноску в Вид](TechDraw_LeaderLine/ru.md)
 ---
 
 # TechDraw RichTextAnnotation/ru
@@ -91,4 +91,4 @@ blockObj.AnnoText = myHTMLText
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RichTextAnnotation/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RichTextAnnotation/ru

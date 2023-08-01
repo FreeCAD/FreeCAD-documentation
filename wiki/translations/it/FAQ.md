@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FAQ/it
+⏵ [documentation index](../README.md) > FAQ/it

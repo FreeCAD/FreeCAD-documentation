@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Edit
-   Name/de:Draft Bearbeiten
-   MenuLocation:Modification - Bearbeiten
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Shortcut:**D** **E**
-   SeeAlso:[Std Bearbeiten](Std_Edit/de.md)
+   Name: Draft Edit
+   Name/de: Draft Bearbeiten
+   MenuLocation: Modification - Bearbeiten
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut: **D** **E**
+   SeeAlso: [Std Bearbeiten](Std_Edit/de.md)
 ---
 
 # Draft Edit/de
@@ -235,4 +235,4 @@ Es gibt keine Python-Methode, um Draft Bearbeiten auf Objekte anzuwenden. Um die
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/de

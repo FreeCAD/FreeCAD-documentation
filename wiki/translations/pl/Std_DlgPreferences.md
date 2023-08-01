@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std DlgPreferences
-   Name/pl:Std: Okno dialogowe preferencji
-   MenuLocation:Edycja - Preferencje
-   Workbenches:All
-   SeeAlso:[Edytor ustawień](Preferences_Editor/pl.md)
+   Name: Std DlgPreferences
+   Name/pl: Std: Okno dialogowe preferencji
+   MenuLocation: Edycja - Preferencje
+   Workbenches: All
+   SeeAlso: [Edytor ustawień](Preferences_Editor/pl.md)
 ---
 
 # Std DlgPreferences/pl
@@ -40,4 +40,4 @@ Polecenie **Std: Okno dialogowe preferencji** otwiera edytor [Edytor ustawień](
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgPreferences/pl
+⏵ [documentation index](../README.md) > Std DlgPreferences/pl

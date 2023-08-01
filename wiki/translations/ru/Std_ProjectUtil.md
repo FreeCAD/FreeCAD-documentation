@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Std ProjectUtil
-   MenuLocation:Tools - Project utility...
-   Workbenches:All
+   Name: Std ProjectUtil
+   MenuLocation: Tools - Project utility...
+   Workbenches: All
 ---
 
 # Std ProjectUtil/ru
@@ -67,4 +67,4 @@ It is important to realize that the files inside a FreeCAD project file are inte
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ProjectUtil/ru
+⏵ [documentation index](../README.md) > Std ProjectUtil/ru

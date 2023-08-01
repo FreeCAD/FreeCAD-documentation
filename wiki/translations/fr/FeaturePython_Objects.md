@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FeaturePython Objects/fr
+⏵ [documentation index](../README.md) > FeaturePython Objects/fr

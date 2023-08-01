@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part_Chamfer
-   Name/ru:Фаска
-   MenuLocation:Деталь - Фаска
-   Workbenches:[Part(Деталь)](Part_Workbench/ru.md)
-   SeeAlso:[Скругление](Part_Fillet/ru.md)
+   Name: Part_Chamfer
+   Name/ru: Фаска
+   MenuLocation: Деталь - Фаска
+   Workbenches: [Part(Деталь)](Part_Workbench/ru.md)
+   SeeAlso: [Скругление](Part_Fillet/ru.md)
 ---
 
 # Part Chamfer/ru
@@ -180,4 +180,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/ru

@@ -6,4 +6,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FCStdAllTheThings
+⏵ [documentation index](../README.md) > FCStdAllTheThings

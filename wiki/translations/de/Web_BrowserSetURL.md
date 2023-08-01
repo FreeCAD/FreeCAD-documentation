@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Web BrowserSetURL
-   Name/de:Web BrowserURLBearbeiten
-   MenuLocation:
-   Workbenches:[Web](Web_Workbench/de.md), [Start](Start_Workbench/de.md)
-   SeeAlso:[Web WebseiteÖffnen](Web_OpenWebsite/de.md)
+   Name: Web BrowserSetURL
+   Name/de: Web BrowserURLBearbeiten
+   MenuLocation: 
+   Workbenches: [Web](Web_Workbench/de.md), [Start](Start_Workbench/de.md)
+   SeeAlso: [Web WebseiteÖffnen](Web_OpenWebsite/de.md)
 ---
 
 # Web BrowserSetURL/de
@@ -32,4 +32,4 @@ Der Befehl <img alt="" src=images/Web_BrowserSetURL.svg  style="width:24px;"> **
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserSetURL/de
+⏵ [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserSetURL/de

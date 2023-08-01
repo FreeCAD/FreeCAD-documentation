@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractivePipe
-   Name/fr:PartDesign Balayage soustractif
-   MenuLocation:Part Design - Créer une fonction soustractive - Enlèvement de matière par balayage
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[PartDesign Balayage additif](PartDesign_AdditivePipe/fr.md), [PartDesign Lissage soustractif](PartDesign_SubtractiveLoft/fr.md)
+   Name: PartDesign SubtractivePipe
+   Name/fr: PartDesign Balayage soustractif
+   MenuLocation: Part Design - Créer une fonction soustractive - Enlèvement de matière par balayage
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Balayage additif](PartDesign_AdditivePipe/fr.md), [PartDesign Lissage soustractif](PartDesign_SubtractiveLoft/fr.md)
 ---
 
 # PartDesign SubtractivePipe/fr
@@ -100,4 +100,4 @@ Le **Balayage soustractif** crée un solide soustractif dans le corps actif en b
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePipe/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePipe/fr

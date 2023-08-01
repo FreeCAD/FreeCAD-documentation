@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part SliceApart
-   Name/fr:Part Séparer/exploser
-   MenuLocation:Part - Scinder - Séparer et exploser
-   Workbenches:[Part](Part_Workbench/fr.md)
-   Version:0.18
-   SeeAlso:[Part Scinder](Part_Slice/fr.md), [Part Éclater le composé](Part_ExplodeCompound/fr.md)
+   Name: Part SliceApart
+   Name/fr: Part Séparer/exploser
+   MenuLocation: Part - Scinder - Séparer et exploser
+   Workbenches: [Part](Part_Workbench/fr.md)
+   Version: 0.18
+   SeeAlso: [Part Scinder](Part_Slice/fr.md), [Part Éclater le composé](Part_ExplodeCompound/fr.md)
 ---
 
 # Part SliceApart/fr
@@ -72,4 +72,4 @@ Séparer/exploser a été introduit dans FreeCAD v0.18.15506. FreeCAD doit être
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/fr

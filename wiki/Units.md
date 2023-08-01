@@ -66,4 +66,4 @@ A complete list of all supported units can be [found here](Expressions#Units.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Units
+⏵ [documentation index](../README.md) > Units

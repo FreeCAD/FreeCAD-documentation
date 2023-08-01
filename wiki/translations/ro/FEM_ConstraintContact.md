@@ -1,6 +1,6 @@
 # FEM ConstraintContact/ro
 ---
-- GuiCommand:   Name:FEM ConstraintContact   Name/ro:FEM ConstraintContact   MenuLocation:Model - Mechanical Constraints - Constraint contact   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
+- GuiCommand:   Name: FEM ConstraintContact   Name/ro: FEM ConstraintContact   MenuLocation: Model - Mechanical Constraints - Constraint contact   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
 
 
 </div>
@@ -92,4 +92,4 @@ Creează o constrângere MEF pentru contactul între două suprafețe.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintContact/ro
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintContact/ro

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 LockMover
-   Name/de:Assembly3 BewegungVerhindern
-   Icon:Assembly_LockMover.svg‎‎
-   MenuLocation:Assembly3 - Lock mover
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 LockMover
+   Name/de: Assembly3 BewegungVerhindern
+   Icon: Assembly_LockMover.svg‎‎
+   MenuLocation: Assembly3 - Lock mover
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 LockMover/de
@@ -28,4 +28,4 @@ Ausgewählte **2D-Geometrien**, wie Draft-Linien, -Bögen und -Kreise, die mit d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 LockMover/de
+⏵ [documentation index](../README.md) > Assembly3 LockMover/de

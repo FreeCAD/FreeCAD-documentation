@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintLengthEqualPointLineDistance
-   Name/fr:Assembly3 Contrainte longueur égale distance point ligne
-   Icon:Assembly_ConstraintLengthEqualPointLineDistance.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 ConstraintLengthEqualPointLineDistance
+   Name/fr: Assembly3 Contrainte longueur égale distance point ligne
+   Icon: Assembly_ConstraintLengthEqualPointLineDistance.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintLengthEqualPointLineDistance/fr
@@ -31,4 +31,4 @@ La valeur de la longueur de la première ligne sélectionnée est égale à la d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLengthEqualPointLineDistance/fr
+⏵ [documentation index](../README.md) > Assembly3 ConstraintLengthEqualPointLineDistance/fr

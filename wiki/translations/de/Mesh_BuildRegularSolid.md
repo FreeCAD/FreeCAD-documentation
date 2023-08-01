@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh BuildRegularSolid
-   Name/de:Mesh RegelgeometrieErstellen
-   MenuLocation:Netze - Regelgeometrie...
-   Workbenches:[Mesh](Mesh_Workbench/de.md)
+   Name: Mesh BuildRegularSolid
+   Name/de: Mesh RegelgeometrieErstellen
+   MenuLocation: Netze - Regelgeometrie...
+   Workbenches: [Mesh](Mesh_Workbench/de.md)
 ---
 
 # Mesh BuildRegularSolid/de
@@ -187,4 +187,4 @@ Netzobjekte, die mit diesem Befehl erstellt werden erben sämtliche Einstellunge
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BuildRegularSolid/de
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BuildRegularSolid/de

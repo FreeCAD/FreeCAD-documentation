@@ -13,4 +13,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > Category:Fasteners/ru
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > Category:Fasteners/ru

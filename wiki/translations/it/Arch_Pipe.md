@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Arch Pipe
-   Name/it:Tubo
-   MenuLocation:Arch - Tubazioni - Tubo
-   Workbenches:[Arch](Arch_Workbench/it.md)
-   Shortcut:**P** **I**
-   Version/it:0.17
-   SeeAlso:[Raccordo](Arch_PipeConnector/it.md), [Arredo](Arch_Equipment/it.md)
+   Name: Arch Pipe
+   Name/it: Tubo
+   MenuLocation: Arch - Tubazioni - Tubo
+   Workbenches: [Arch](Arch_Workbench/it.md)
+   Shortcut: **P** **I**
+   Version/it: 0.17
+   SeeAlso: [Raccordo](Arch_PipeConnector/it.md), [Arredo](Arch_Equipment/it.md)
 ---
 
 # Arch Pipe/it
@@ -142,4 +142,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Pipe/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Pipe/it

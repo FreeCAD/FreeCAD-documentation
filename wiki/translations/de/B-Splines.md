@@ -1,6 +1,4 @@
 # B-Splines/de
-{{TOCright}}
-
 Diese Seite beschreibt, wie man B-Splines in FreeCAD verwendet. Sie gibt auch Hintergrundinformationen, was B-Splines sind und für welche Anwendungen sie nützlich sind.
 
 ## Motivation
@@ -319,4 +317,4 @@ Wir haben also auch räumliche Bereiche, in denen die Intensität des reflektier
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > B-Splines/de
+⏵ [documentation index](../README.md) > B-Splines/de

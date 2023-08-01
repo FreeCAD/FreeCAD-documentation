@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Mirror
-   Name/it:Specchio
-   MenuLocation:Modifiche - Specchio
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   SeeAlso:[Clona](Draft_Clone/it.md)
+   Name: Draft Mirror
+   Name/it: Specchio
+   MenuLocation: Modifiche - Specchio
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   SeeAlso: [Clona](Draft_Clone/it.md)
 ---
 
 # Draft Mirror/it
@@ -139,4 +139,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Mirror/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Mirror/it

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Ограничение наложения точек
-   Name:Sketcher_ConstrainCoincident
-   MenuLocation:Sketch - Ограничения эскиза - Ограничение наложения точек
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**C**
-   SeeAlso:[Ограничение положения](Sketcher_ConstrainLock/ru.md), [Ограничить точку на объекте](Sketcher_ConstrainPointOnObject/ru.md)
+   Name/ru: Ограничение наложения точек
+   Name: Sketcher_ConstrainCoincident
+   MenuLocation: Sketch - Ограничения эскиза - Ограничение наложения точек
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **C**
+   SeeAlso: [Ограничение положения](Sketcher_ConstrainLock/ru.md), [Ограничить точку на объекте](Sketcher_ConstrainPointOnObject/ru.md)
 ---
 
 # Sketcher ConstrainCoincident/ru
@@ -76,4 +76,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/ru

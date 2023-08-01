@@ -8,7 +8,7 @@
 </div>
 
 
-{{TOCright}}
+
 
 ## Overview
 
@@ -368,4 +368,4 @@ Head to [Getting started](Getting_started.md) once installation is complete.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing on Linux/ro
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing on Linux/ro

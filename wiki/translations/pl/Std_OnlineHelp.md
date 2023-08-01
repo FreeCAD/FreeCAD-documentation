@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std OnlineHelp
-   Name/pl:td: Pomoc online
-   MenuLocation:Pomoc - Pomoc
-   Workbenches:wszystkie
-   Shortcut:**F1**
-   SeeAlso:[Co to jest](Std_WhatsThis/pl.md)
+   Name: Std OnlineHelp
+   Name/pl: td: Pomoc online
+   MenuLocation: Pomoc - Pomoc
+   Workbenches: wszystkie
+   Shortcut: **F1**
+   SeeAlso: [Co to jest](Std_WhatsThis/pl.md)
 ---
 
 # Std OnlineHelp/pl
@@ -45,4 +45,4 @@ W programie FreeCAD {{VersionPlus/pl|0.20}} polecenie to wymaga zainstalowania [
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std OnlineHelp/pl
+⏵ [documentation index](../README.md) > Std OnlineHelp/pl

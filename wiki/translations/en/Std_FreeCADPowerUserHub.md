@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std FreeCADPowerUserHub
-   MenuLocation:Help - Python scripting documentation
-   Workbenches:All
-   SeeAlso:[Std FreeCADWebsite](Std_FreeCADWebsite.md), [Std FreeCADUserHub](Std_FreeCADUserHub.md), [Std FreeCADForum](Std_FreeCADForum.md), [Std FreeCADFAQ](Std_FreeCADFAQ.md)
+   Name: Std FreeCADPowerUserHub
+   MenuLocation: Help - Python scripting documentation
+   Workbenches: All
+   SeeAlso: [Std FreeCADWebsite](Std_FreeCADWebsite.md), [Std FreeCADUserHub](Std_FreeCADUserHub.md), [Std FreeCADForum](Std_FreeCADForum.md), [Std FreeCADFAQ](Std_FreeCADFAQ.md)
 ---
 
 # Std FreeCADPowerUserHub/en
@@ -29,4 +29,4 @@ Currently the command points to [<https://wiki.freecad.org/Power_users_hub>](htt
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADPowerUserHub/en
+⏵ [documentation index](../README.md) > Std FreeCADPowerUserHub/en

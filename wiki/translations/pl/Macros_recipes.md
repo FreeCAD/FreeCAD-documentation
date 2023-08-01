@@ -1,6 +1,4 @@
 # Macros recipes/pl
-{{TOCright}}
-
 Ta strona zawiera listę [makrodefinicji](Macros/pl.md), które dodają funkcjonalności do programu FreeCAD.
 
 Jeśli napisałeś makro i chcesz umieścić je w kategoriach na tej stronie, zobacz artykuł **[dokumentacja makrodefinicji](Macro_documentation/pl.md)**, aby dowiedzieć się jak właściwie przygotować dokumentację.
@@ -824,4 +822,4 @@ Jeśli nie używasz [Menedżera dodatków](Std_AddonMgr/pl.md), makro można zai
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python Code.md) > Macros recipes/pl
+⏵ [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python Code.md) > Macros recipes/pl

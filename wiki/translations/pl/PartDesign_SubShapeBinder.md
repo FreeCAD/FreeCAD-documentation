@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubShapeBinder
-   Name/pl:Projekt Części: Łącznik kształtów podrzędnych
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   MenuLocation:Projekt Części - Utwórz łącznik kształtu obiektu podrzędnego
-   Version:0.19
-   SeeAlso:[Łącznik kształtu](PartDesign_ShapeBinder/pl.md), [Utwórz klon](PartDesign_Clone/pl.md)
+   Name: PartDesign SubShapeBinder
+   Name/pl: Projekt Części: Łącznik kształtów podrzędnych
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   MenuLocation: Projekt Części - Utwórz łącznik kształtu obiektu podrzędnego
+   Version: 0.19
+   SeeAlso: [Łącznik kształtu](PartDesign_ShapeBinder/pl.md), [Utwórz klon](PartDesign_Clone/pl.md)
 ---
 
 # PartDesign SubShapeBinder/pl
@@ -163,4 +163,4 @@ Obiekt Łącznik kształtów podrzędnych środowiska Projekt Części wywodzi s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubShapeBinder/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubShapeBinder/pl

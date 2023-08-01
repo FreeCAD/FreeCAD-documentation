@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Export
-   Name/ro:Exportul
-   Workbenches:All
-   MenuLocation:[File](Std_File_Menu/ro.md) - Exportul
-   Shortcut:Ctrl + E
-   SeeAlso:[Importul](Std_Import/ro.md)
+   Name: Std Export
+   Name/ro: Exportul
+   Workbenches: All
+   MenuLocation: [File](Std_File_Menu/ro.md) - Exportul
+   Shortcut: Ctrl + E
+   SeeAlso: [Importul](Std_Import/ro.md)
 ---
 
 # Std Export/ro
@@ -63,4 +63,4 @@ Aceasta este comanda standard pentru a exporta obiecte din interiorul unui docum
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export/ro
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export/ro

@@ -1,6 +1,6 @@
 # Robot Export/es
 ---
-- GuiCommand:   Name:Robot Export   Name/es:Robot Export   Workbenches:[[Robot_Workbench/es   Robot]]|MenuLocation:Robot - Export trajectory---
+- GuiCommand:   Name: Robot Export   Name/es: Robot Export   Workbenches: [[Robot_Workbench/es   Robot]]|MenuLocation: Robot - Export trajectory---
 
 
 </div>
@@ -31,4 +31,4 @@ Result: A KRL file (\*.src) will be created.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Export/es
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Export/es

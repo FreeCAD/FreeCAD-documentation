@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FEM MeshPrintInfo/en
+⏵ [documentation index](../README.md) > FEM MeshPrintInfo/en

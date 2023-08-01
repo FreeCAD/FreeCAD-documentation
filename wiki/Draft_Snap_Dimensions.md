@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Dimensions
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso:[Draft Snap](Draft_Snap.md), [Draft Snap Lock](Draft_Snap_Lock.md), [Draft SelectPlane](Draft_SelectPlane.md)
+   Name: Draft Snap Dimensions
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   SeeAlso: [Draft Snap](Draft_Snap.md), [Draft Snap Lock](Draft_Snap_Lock.md), [Draft SelectPlane](Draft_SelectPlane.md)
 ---
 
 # Draft Snap Dimensions
@@ -35,4 +35,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Dimensions
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Dimensions

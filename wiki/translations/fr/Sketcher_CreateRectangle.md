@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateRectangle
-   Name/fr:Sketcher Rectangle
-   MenuLocation:Esquisse - Géométries d'esquisse- Créer un rectangle
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **R**
-   SeeAlso:[Sketcher Rectangle arrondi](Sketcher_CreateOblong/fr.md), [Sketcher Polyligne](Sketcher_CreatePolyline/fr.md)
+   Name: Sketcher CreateRectangle
+   Name/fr: Sketcher Rectangle
+   MenuLocation: Esquisse - Géométries d'esquisse- Créer un rectangle
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **R**
+   SeeAlso: [Sketcher Rectangle arrondi](Sketcher_CreateOblong/fr.md), [Sketcher Polyligne](Sketcher_CreatePolyline/fr.md)
 ---
 
 # Sketcher CreateRectangle/fr
@@ -34,4 +34,4 @@ Pour définir un rectangle à l\'aide d\'un point central et d\'un point du bord
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle/fr

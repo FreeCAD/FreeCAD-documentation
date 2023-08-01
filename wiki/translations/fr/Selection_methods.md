@@ -1,8 +1,4 @@
 # Selection methods/fr
-{{TOCright}}
-
-
-
 ## Présentation
 
 Les [Méthodes de sélection](Selection_methods/fr.md) dans FreeCAD permettent de choisir des objets dans l\'[interface de FreeCAD](Interface/fr.md) tels que la [vue 3D](3D_view/fr.md), la [vue en arborescence](Tree_view/fr.md), la [fenêtre de sélection](Selection_view/fr.md) et d\'autres boîtes de dialogue. Certaines méthodes de sélection sont spécifiques à l\'atelier et sont documentées dans la documentation particulière de l\'atelier.
@@ -115,4 +111,4 @@ Voir la [Documentation du code source](Source_documentation/fr.md) et la [Std Do
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Selection methods/fr
+⏵ [documentation index](../README.md) > Selection methods/fr

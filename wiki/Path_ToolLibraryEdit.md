@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path ToolLibraryEdit
-   MenuLocation:Path - Tool Manager
-   Workbenches:[Path](Path_Workbench.md)
-   Shortcut:**P** **T**
-   SeeAlso:
+   Name: Path ToolLibraryEdit
+   MenuLocation: Path - Tool Manager
+   Workbenches: [Path](Path_Workbench.md)
+   Shortcut: **P** **T**
+   SeeAlso: 
 ---
 
 # Path ToolLibraryEdit
@@ -53,4 +53,4 @@ The handling is straight forward:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolLibraryEdit
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolLibraryEdit

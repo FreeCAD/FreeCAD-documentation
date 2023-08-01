@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPointPlaneDistance
-   Name/de:Assembly3 PunktZuEbeneAbstand
-   Icon:Assembly_ConstraintPointPlaneDistance.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintPointPlaneDistance
+   Name/de: Assembly3 PunktZuEbeneAbstand
+   Icon: Assembly_ConstraintPointPlaneDistance.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintPointPlaneDistance/de
@@ -21,4 +21,4 @@ Dieses Werkzeug stellt eine Verbindung zwischen zwei Objekten eines Zusammenbaus
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointPlaneDistance/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPointPlaneDistance/de

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part CrossSections
-   Name/de:Part Querschnitte
-   MenuLocation:Formteil - Schnitte...
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Schnittkurve](Part_Section/de.md)
+   Name: Part CrossSections
+   Name/de: Part Querschnitte
+   MenuLocation: Formteil - Schnitte...
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: [Part Schnittkurve](Part_Section/de.md)
 ---
 
 # Part CrossSections/de
@@ -53,4 +53,4 @@ Das Dienstprogramm \"Querschnitte\" erstellt einen oder mehrere Schnitte durch d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/de

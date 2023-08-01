@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Surface_GeomFillSurface
-   Name/it:Surface GeomFillSurface
-   MenuLocation:Surface - Fill boundary curves
-   Workbenches:[Surface](Surface_Workbench/it.md)
-   Version:0.17
+   Name: Surface_GeomFillSurface
+   Name/it: Surface GeomFillSurface
+   MenuLocation: Surface - Fill boundary curves
+   Workbenches: [Surface](Surface_Workbench/it.md)
+   Version: 0.17
 ---
 
 # Surface GeomFillSurface/it
@@ -181,4 +181,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface GeomFillSurface/it
+⏵ [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface GeomFillSurface/it

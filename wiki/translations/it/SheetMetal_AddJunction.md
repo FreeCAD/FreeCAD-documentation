@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:SheetMetal_Junction
-   Name/it:Giunzione
-   MenuLocation:SheetMetal - Junction
-   Workbenches:[SheetMetal](SheetMetal_Workbench/it.md)
-   Shortcut:None
-   Version:
-   SeeAlso:
+   Name: SheetMetal_Junction
+   Name/it: Giunzione
+   MenuLocation: SheetMetal - Junction
+   Workbenches: [SheetMetal](SheetMetal_Workbench/it.md)
+   Shortcut: None
+   Version: 
+   SeeAlso: 
 ---
 
 # SheetMetal AddJunction/it
@@ -147,4 +147,4 @@ A SheetMetal Junction object is derived from a [Part Feature](Part_Feature.md) o
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddJunction/it
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddJunction/it

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Assembly3 AxialMove
-   Name/fr:Assembly3 Déplacement axial
-   Icon:Assembly_AxialMove.svg
-   MenuLocation:Assembly3 - Axial move part
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
-   Shortcut:**A** puis **A**
+   Name: Assembly3 AxialMove
+   Name/fr: Assembly3 Déplacement axial
+   Icon: Assembly_AxialMove.svg
+   MenuLocation: Assembly3 - Axial move part
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Shortcut: **A** puis **A**
 ---
 
 # Assembly3 AxialMove/fr
@@ -31,4 +31,4 @@ La commande <img alt="" src=images/Assembly_AxialMove.svg  style="width:24px;"> 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 AxialMove/fr
+⏵ [documentation index](../README.md) > Assembly3 AxialMove/fr

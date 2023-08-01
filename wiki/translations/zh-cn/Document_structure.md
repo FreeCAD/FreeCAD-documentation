@@ -1,6 +1,4 @@
 # Document structure/zh-cn
-{{TOCright}}
-
 ![](images/Screenshot_treeview.jpg ) 一份 FreeCAD 文档包含了场景中的所有对象。它可以包含组以及所有工作台所创建的对象。因而你可以在工作台之间自由切换，但是仍在同一份 FreeCAD 文档上工作。如果你打算保存你的工作成果，那么 FreeCAD 文档便会被保存到磁盘中。可以在 FreeCAD 中同时打开多份文档，也可以为同一份文档开启多个视图。
 
 
@@ -82,4 +80,4 @@ FreeCADGui.ActiveDocument.ActiveView
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Document structure/zh-cn
+⏵ [documentation index](../README.md) > Document structure/zh-cn

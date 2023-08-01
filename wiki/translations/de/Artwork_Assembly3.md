@@ -30,4 +30,4 @@ Diese Symbole befinden sich im angegebenen Quellpfad von Realthunders Link-Branc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Assembly](Category_Assembly.md) > Artwork Assembly3/de
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Assembly](Category_Assembly.md) > Artwork Assembly3/de

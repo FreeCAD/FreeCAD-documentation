@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh Decimating
-   Name/fr:Mesh Décimation
-   MenuLocation:Maillages - Décimation...
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
+   Name: Mesh Decimating
+   Name/fr: Mesh Décimation
+   MenuLocation: Maillages - Décimation...
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
 ---
 
 # Mesh Decimating/fr
@@ -41,4 +41,4 @@ La commande **Décimation** réduit le nombre de faces des objets maillés.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Decimating/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Decimating/fr

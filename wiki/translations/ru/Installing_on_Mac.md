@@ -72,4 +72,4 @@ brew install freecad
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Installing on Mac/ru
+⏵ [documentation index](../README.md) > Installing on Mac/ru

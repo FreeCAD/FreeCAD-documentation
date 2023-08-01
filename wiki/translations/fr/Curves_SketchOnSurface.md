@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Curves SketchOnSurface
-   Name/fr:Curves Esquisse sur une surface
-   MenuLocation:Surfaces - Sketch on Surface
-   Workbenches:[Curves](Curves_Workbench/fr.md)
+   Name: Curves SketchOnSurface
+   Name/fr: Curves Esquisse sur une surface
+   MenuLocation: Surfaces - Sketch on Surface
+   Workbenches: [Curves](Curves_Workbench/fr.md)
 ---
 
 # Curves SketchOnSurface/fr
@@ -79,4 +79,4 @@ On suppose que toute la géométrie de l\'esquisse est incluse dans le cadre de 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves SketchOnSurface/fr
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves SketchOnSurface/fr

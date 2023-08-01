@@ -5,7 +5,7 @@
 L\'[AmbienteSpreadsheet](Spreadsheet_Workbench/it.md) <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> consente di creare e modificare fogli di calcolo, utilizzare i dati del foglio di calcolo come parametri in un modello, riempire il foglio di calcolo con i dati ricavati da un modello, eseguire calcoli ed esportare i dati in altre applicazioni di fogli di calcolo come LibreOffice o Microsoft Excel.
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:600px;"> 
 *Un foglio di calcolo con alcune celle compilate con testo e quantità*
@@ -347,4 +347,4 @@ sheet.get('Diameter')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/it
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/it

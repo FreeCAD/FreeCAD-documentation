@@ -75,4 +75,4 @@ Visite o [Mapa de desenvolvimento](Development_roadmap/pt-br.md) para ver notíc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/pt-br
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/pt-br

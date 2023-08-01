@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Compound‏‎
-   Name/fr:Part Composé
-   MenuLocation:Part - Composés - Créer un composé
-   Workbenches:[Part](Part_Workbench/fr.md)
-   Version:0.14
-   SeeAlso:[Part Union](Part_Fuse/fr.md), [Part Filtre composé](Part_CompoundFilter/fr.md), [Part Éclater le composé](Part_ExplodeCompound/fr.md)
+   Name: Part Compound‏‎
+   Name/fr: Part Composé
+   MenuLocation: Part - Composés - Créer un composé
+   Workbenches: [Part](Part_Workbench/fr.md)
+   Version: 0.14
+   SeeAlso: [Part Union](Part_Fuse/fr.md), [Part Filtre composé](Part_CompoundFilter/fr.md), [Part Éclater le composé](Part_ExplodeCompound/fr.md)
 ---
 
 # Part Compound/fr
@@ -28,4 +28,4 @@ Pour activer cette vérification, allez sur **Outils → Éditer Paramètres... 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/fr

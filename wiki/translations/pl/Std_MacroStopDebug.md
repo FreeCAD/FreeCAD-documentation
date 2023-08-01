@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std MacroStopDebug
-   Name/pl:Std: Zatrzymaj debugowanie
-   MenuLocation:Makrodefinicje - Zatrzymaj debugowanie
-   Workbenches:Wszystkie
-   Shortcut:**Shift**+**F6**
-   SeeAlso:[Debugowanie makrodefinicji](Std_MacroStartDebug/pl.md)
+   Name: Std MacroStopDebug
+   Name/pl: Std: Zatrzymaj debugowanie
+   MenuLocation: Makrodefinicje - Zatrzymaj debugowanie
+   Workbenches: Wszystkie
+   Shortcut: **Shift**+**F6**
+   SeeAlso: [Debugowanie makrodefinicji](Std_MacroStartDebug/pl.md)
 ---
 
 # Std MacroStopDebug/pl
@@ -27,4 +27,4 @@ To polecenie w tej chwili nie działa.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MacroStopDebug/pl
+⏵ [documentation index](../README.md) > Std MacroStopDebug/pl

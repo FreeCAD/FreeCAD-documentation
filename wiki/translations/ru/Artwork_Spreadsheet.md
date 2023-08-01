@@ -12,4 +12,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Spreadsheet](Category_Spreadsheet.md) > Artwork Spreadsheet/ru
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Spreadsheet](Category_Spreadsheet.md) > Artwork Spreadsheet/ru

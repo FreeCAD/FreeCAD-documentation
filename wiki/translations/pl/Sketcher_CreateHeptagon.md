@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateHeptagon
-   Name/pl:Szkicownik: Utwórz siedmiokąt
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz siedmiokąt
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **P** **7**
-   Version:0.15
+   Name: Sketcher CreateHeptagon
+   Name/pl: Szkicownik: Utwórz siedmiokąt
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Utwórz siedmiokąt
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **G** **P** **7**
+   Version: 0.15
 ---
 
 # Sketcher CreateHeptagon/pl
@@ -42,4 +42,4 @@ Wyznaczony okrąg to geometria konstrukcyjna, która jest widoczna tylko podczas
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateHeptagon/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateHeptagon/pl

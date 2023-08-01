@@ -6,4 +6,4 @@ Di questo formato esistono molti *dialetti*, questo modulo di importazione cerca
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft DAT/it
+⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft DAT/it

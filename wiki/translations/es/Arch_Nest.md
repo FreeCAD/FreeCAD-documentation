@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Arch Nest   Name/es:Arch Nest
-   MenuLocation:Arch - Panel tools - Nest
-   Workbenches:[Arch](Arch_Workbench/es.md)
-   SeeAlso:[[Arch Panel/es]], [[Arch Panel Sheet/es]]
+   Name: Arch Nest   Name/es: Arch Nest
+   MenuLocation: Arch - Panel tools - Nest
+   Workbenches: [Arch](Arch_Workbench/es.md)
+   SeeAlso: [[Arch Panel/es]], [[Arch Panel Sheet/es]]
 ---
 
 # Arch Nest/es
@@ -73,4 +73,4 @@ El algoritmo detrás de la herramienta Nido está en constante evolución y actu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Nest/es
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Nest/es

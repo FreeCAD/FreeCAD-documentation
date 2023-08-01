@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM ElementGeometry2D
-   Name/de:FEM ElementGeometrie2D
-   MenuLocation:Model - Element-Geometrie - Shell plate thickness
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   Shortcut:**C** **S**
-   SeeAlso:[FEM Anleitungl](FEM_tutorial/de.md)
+   Name: FEM ElementGeometry2D
+   Name/de: FEM ElementGeometrie2D
+   MenuLocation: Model - Element-Geometrie - Shell plate thickness
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   Shortcut: **C** **S**
+   SeeAlso: [FEM Anleitungl](FEM_tutorial/de.md)
 ---
 
 # FEM ElementGeometry2D/de
@@ -62,4 +62,4 @@ Ein **ElementGeometry2D**-Objekt wird zum Festlegen der Wandstärke von 2D-FEM-E
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementGeometry2D/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementGeometry2D/de

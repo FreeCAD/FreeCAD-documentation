@@ -1,9 +1,9 @@
 ---
 - GuiCommand:Addon
-   Name:BIM Setup
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
-   Addon:BIM
-   MenuLocation:Manage - Setup
+   Name: BIM Setup
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
+   Addon: BIM
+   MenuLocation: Manage - Setup
 ---
 
 # BIM Setup/ro
@@ -19,4 +19,4 @@ Dacă glisați mouse-ul peste fiecare setare, veți primi un ttoltip care explic
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Setup/ro
+⏵ [documentation index](../README.md) > BIM Setup/ro

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch RemoveShape
-   Name/ru:Arch RemoveShape
-   MenuLocation:Архитектура - Утилиты - Удалить форму из Архитектуры
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   SeeAlso:[Сетка в фигуру](Arch_MeshToShape/ru.md)
+   Name: Arch RemoveShape
+   Name/ru: Arch RemoveShape
+   MenuLocation: Архитектура - Утилиты - Удалить форму из Архитектуры
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   SeeAlso: [Сетка в фигуру](Arch_MeshToShape/ru.md)
 ---
 
 # Arch RemoveShape/ru
@@ -61,4 +61,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch RemoveShape/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch RemoveShape/ru

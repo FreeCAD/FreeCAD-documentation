@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Fillet
-   Name/es:Pieza Redondeo
-   MenuLocation:Pieza - Redondeo
-   Workbenches:[Pieza](Part_Workbench/es.md)
-   SeeAlso:[Pieza Chaflán](Part_Chamfer/es.md)
+   Name: Part Fillet
+   Name/es: Pieza Redondeo
+   MenuLocation: Pieza - Redondeo
+   Workbenches: [Pieza](Part_Workbench/es.md)
+   SeeAlso: [Pieza Chaflán](Part_Chamfer/es.md)
 ---
 
 # Part Fillet/es
@@ -69,4 +69,4 @@ The fillet tool is affected by the [topological naming problem](Topological_nami
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/es
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/es

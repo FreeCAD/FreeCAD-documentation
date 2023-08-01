@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path Shape
-   Name/fr:Path Parcours à partir de formes
-   MenuLocation:Path - Autres commandes - À partir de la forme
-   Workbenches:[Path](Path_Workbench/fr.md)
+   Name: Path Shape
+   Name/fr: Path Parcours à partir de formes
+   MenuLocation: Path - Autres commandes - À partir de la forme
+   Workbenches: [Path](Path_Workbench/fr.md)
 ---
 
 # Path Shape/fr
@@ -137,4 +137,4 @@ Path.fromShapes(shapes, start=Vector(), return_end=False arc_plane=1, sort_mode=
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Shape/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Shape/fr

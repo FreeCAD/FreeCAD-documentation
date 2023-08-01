@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher DeleteAllConstraints
-   Name/it:Sketcher Cancella tutti i vincoli
-   MenuLocation:Sketch - Sketcher Strumenti - Cancella tutti i vincoli
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   Version:0.18
-   SeeAlso:[Sketcher Cancella tutta la geometria](Sketcher_DeleteAllGeometry/it.md)
+   Name: Sketcher DeleteAllConstraints
+   Name/it: Sketcher Cancella tutti i vincoli
+   MenuLocation: Sketch - Sketcher Strumenti - Cancella tutti i vincoli
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   Version: 0.18
+   SeeAlso: [Sketcher Cancella tutta la geometria](Sketcher_DeleteAllGeometry/it.md)
 ---
 
 # Sketcher DeleteAllConstraints/it
@@ -45,4 +45,4 @@ Questo strumento elimina tutti i vincoli dallo schizzo in corso di modifica e la
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllConstraints/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllConstraints/it

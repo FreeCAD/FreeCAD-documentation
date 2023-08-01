@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std LinkSelectLinkedFinal
-   Name/de:Std ZumLetztenVerknüpftenObjektGehen
-   MenuLocation:''None''
-   Workbenches:All
-   Version:0.19
-   SeeAlso:[Std ZumVerknüpftenObjektGehen](Std_LinkSelectLinked/de.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks/de.md), [Std SelBack](Std_SelBack/de.md), [Std SelForward](Std_SelForward/de.md)
+   Name: Std LinkSelectLinkedFinal
+   Name/de: Std ZumLetztenVerknüpftenObjektGehen
+   MenuLocation: ''None''
+   Workbenches: All
+   Version: 0.19
+   SeeAlso: [Std ZumVerknüpftenObjektGehen](Std_LinkSelectLinked/de.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks/de.md), [Std SelBack](Std_SelBack/de.md), [Std SelForward](Std_SelForward/de.md)
 ---
 
 # Std LinkSelectLinkedFinal/de
@@ -32,4 +32,4 @@ Der Befehl **Std ZumLetztenVerknüpftenObjektGehen** wählt die {{PropertyData/d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkSelectLinkedFinal/de
+⏵ [documentation index](../README.md) > Std LinkSelectLinkedFinal/de

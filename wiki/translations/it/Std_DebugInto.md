@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DebugInto/it
+⏵ [documentation index](../README.md) > Std DebugInto/it

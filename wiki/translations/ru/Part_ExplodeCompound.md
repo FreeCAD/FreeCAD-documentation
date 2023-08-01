@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part ExplodeCompound
-   Name/ru:Part ExplodeCompound
-   MenuLocation:Деталь - Соединить - Разъединить соединение
-   Workbenches:[Part](Part_Workbench/ru.md)
-   Version:0.18
-   SeeAlso:[Part Compound](Part_Compound/ru.md), [Draft Downgrade](Draft_Downgrade/ru.md)
+   Name: Part ExplodeCompound
+   Name/ru: Part ExplodeCompound
+   MenuLocation: Деталь - Соединить - Разъединить соединение
+   Workbenches: [Part](Part_Workbench/ru.md)
+   Version: 0.18
+   SeeAlso: [Part Compound](Part_Compound/ru.md), [Draft Downgrade](Draft_Downgrade/ru.md)
 ---
 
 # Part ExplodeCompound/ru
@@ -39,4 +39,4 @@ The tool will also explode non-compound shapes into their lower-level constituen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ExplodeCompound/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ExplodeCompound/ru

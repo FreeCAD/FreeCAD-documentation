@@ -1,6 +1,6 @@
 # Std DuplicateSelection/ro
 ---
-- GuiCommand:   Name:Std DuplicateSelection   Name/ro:Std DuplicateSelection   MenuLocation:Edit - Copy   Shortcut:    Workbenches:All   SeeAlso:[Copy](Std_Copy/ro.md), [Paste](Std_Paste/ro.md)---
+- GuiCommand:   Name: Std DuplicateSelection   Name/ro: Std DuplicateSelection   MenuLocation: Edit - Copy   Shortcut:     Workbenches: All   SeeAlso: [Copy](Std_Copy/ro.md), [Paste](Std_Paste/ro.md)---
 
 
 </div>
@@ -50,4 +50,4 @@ The Duplicate Selection command is a short-cut for the Copy+Paste commands. It c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DuplicateSelection/ro
+⏵ [documentation index](../README.md) > Std DuplicateSelection/ro

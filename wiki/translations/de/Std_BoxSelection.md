@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std BoxSelection
-   Name/de:Std Rechteckauswahl
-   MenuLocation:Bearbeiten - Rechteckauswahl
-   Workbenches:Alle
-   Shortcut:**Shift** + **B**
-   SeeAlso:[Std RechteckElementAuswahl](Std_BoxElementSelection/de.md), [Std AllesAuswählen](Std_SelectAll/de.md)
+   Name: Std BoxSelection
+   Name/de: Std Rechteckauswahl
+   MenuLocation: Bearbeiten - Rechteckauswahl
+   Workbenches: Alle
+   Shortcut: **Shift** + **B**
+   SeeAlso: [Std RechteckElementAuswahl](Std_BoxElementSelection/de.md), [Std AllesAuswählen](Std_SelectAll/de.md)
 ---
 
 # Std BoxSelection/de
@@ -43,4 +43,4 @@ Der Befehl **Std Rechteckauswahl** wählt die Objekte innerhalb eines benutzerde
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std BoxSelection/de
+⏵ [documentation index](../README.md) > Std BoxSelection/de

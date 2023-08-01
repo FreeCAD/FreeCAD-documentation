@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Points Structure
-   Name/fr:Points Nuage structuré
-   MenuLocation:Points - Nuage structuré de points
-   Workbenches:[Points](Points_Workbench/fr.md)
+   Name: Points Structure
+   Name/fr: Points Nuage structuré
+   MenuLocation: Points - Nuage structuré de points
+   Workbenches: [Points](Points_Workbench/fr.md)
 ---
 
 # Points Structure/fr
@@ -39,4 +39,4 @@ Voir [Points Convertir](Points_Convert/fr.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Structure/fr
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Structure/fr

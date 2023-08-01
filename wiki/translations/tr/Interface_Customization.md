@@ -1,6 +1,4 @@
 # Interface Customization/tr
-{{TOCright}}
-
 ## Introduction
 
 
@@ -258,4 +256,4 @@ In the Workbenches category of the Addon Manager some addons by user triplus can
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Interface Customization/tr
+⏵ [documentation index](../README.md) > Interface Customization/tr

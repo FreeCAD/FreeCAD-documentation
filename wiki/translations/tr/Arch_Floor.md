@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Floor
-   MenuLocation:Arch - Floor
-   Workbenches:[Arch](Arch_Workbench.md)
-   Shortcut:**F** **L**
-   SeeAlso:[[Arch Building]], [[Arch BuildingPart]], [[Arch Site]]
+   Name: Arch Floor
+   MenuLocation: Arch - Floor
+   Workbenches: [Arch](Arch_Workbench.md)
+   Shortcut: **F** **L**
+   SeeAlso: [[Arch Building]], [[Arch BuildingPart]], [[Arch Site]]
 ---
 
 # Arch Floor/tr
@@ -83,4 +83,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Floor/tr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Floor/tr

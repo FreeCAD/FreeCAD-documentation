@@ -10,7 +10,7 @@
 **Lattice 2 jest stabilny. Nowe funkcje mogą być dodawane, ale nie spodziewaj się żadnych przełomowych zmian.**
 
 
-{{TOCright}}
+
 
 Środowisko pracy Lattice2 to pracy [zewnętrzne środowisko](External_workbenches/pl.md) FreeCAD, które służy do pracy z umiejscowieniem i szykami umiejscowień. Jest to rodzaj środowiska montażowego, ale z naciskiem na szyki. Nie ma ograniczeń i relacji, są tylko układy miejsc docelowych, które mogą być generowane, łączone, przekształcane, nakładane i wypełniane kształtami.
 
@@ -201,4 +201,4 @@ Po zainstalowaniu środowiska roboczego powinno ono pojawić się na dole listy 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Lattice2 Workbench/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Lattice2 Workbench/pl

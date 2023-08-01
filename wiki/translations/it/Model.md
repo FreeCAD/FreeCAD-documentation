@@ -21,4 +21,4 @@ Nell\'uso informale, il termine \"[Disegno](Drawing.md)\" può essere usato con 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Model/it
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Model/it

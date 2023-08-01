@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Label
-   MenuLocation:Annotation - Label
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:**D** **L**
-   Version:0.17
-   SeeAlso:[Draft Text](Draft_Text.md), [Draft ShapeString](Draft_ShapeString.md)
+   Name: Draft Label
+   MenuLocation: Annotation - Label
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut: **D** **L**
+   Version: 0.17
+   SeeAlso: [Draft Text](Draft_Text.md), [Draft ShapeString](Draft_ShapeString.md)
 ---
 
 # Draft Label/pl
@@ -222,4 +222,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Label/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Label/pl

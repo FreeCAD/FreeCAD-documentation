@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Downgrade
-   Name/fr:Draft Désagréger
-   MenuLocation:Modification - Désagréger
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:**D** **N**
-   SeeAlso:[Draft Agréger](Draft_Upgrade/fr.md), [Part Soustraction](Part_Cut/fr.md)
+   Name: Draft Downgrade
+   Name/fr: Draft Désagréger
+   MenuLocation: Modification - Désagréger
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut: **D** **N**
+   SeeAlso: [Draft Agréger](Draft_Upgrade/fr.md), [Part Soustraction](Part_Cut/fr.md)
 ---
 
 # Draft Downgrade/fr
@@ -78,4 +78,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Downgrade/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Downgrade/fr

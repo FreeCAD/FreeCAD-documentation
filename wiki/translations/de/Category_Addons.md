@@ -35,4 +35,4 @@ Diese Seite listet externe Erweiterungsarbeitsbereiche auf, die eine Seite in di
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Categories](Category_Categories.md) > Category:Addons/de
+⏵ [documentation index](../README.md) > [Categories](Category_Categories.md) > Category:Addons/de

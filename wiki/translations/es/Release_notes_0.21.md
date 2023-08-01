@@ -20,7 +20,7 @@ See [Help FreeCAD](Help_FreeCAD.md) for ways to contribute to FreeCAD.
 </div>
 
 
-{{TOCright}}
+
 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -1014,4 +1014,4 @@ If the [Start Workbench](Start_Workbench.md) shows only a blank page, you must e
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.21/es
+⏵ [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.21/es

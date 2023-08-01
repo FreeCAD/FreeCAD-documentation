@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateArc
-   Name/pl:Szkicownik: Utwórz łuk przez środek
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz łuk przez środek
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **A**
-   SeeAlso:[Komponent utwórz okrąg](Sketcher_CompCreateCircle/pl.md)
+   Name: Sketcher CreateArc
+   Name/pl: Szkicownik: Utwórz łuk przez środek
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Utwórz łuk przez środek
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **G** **A**
+   SeeAlso: [Komponent utwórz okrąg](Sketcher_CompCreateCircle/pl.md)
 ---
 
 # Sketcher CreateArc/pl
@@ -38,4 +38,4 @@ Podczas uruchamiania narzędzia kursor myszki zmienia wygląd na biały krzyżyk
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/pl

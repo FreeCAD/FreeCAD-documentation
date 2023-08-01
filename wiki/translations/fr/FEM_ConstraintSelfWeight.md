@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintSelfWeight
-   Name/fr:FEM Contrainte de poids propre
-   MenuLocation:Modèle - Contraintes mécaniques - Contrainte de poids propre
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM ConstraintSelfWeight
+   Name/fr: FEM Contrainte de poids propre
+   MenuLocation: Modèle - Contraintes mécaniques - Contrainte de poids propre
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM ConstraintSelfWeight/fr
@@ -92,4 +92,4 @@ où 9810 est la magnitude de l\'accélération de la gravité en \[mm/s\^2\], et
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSelfWeight/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSelfWeight/fr

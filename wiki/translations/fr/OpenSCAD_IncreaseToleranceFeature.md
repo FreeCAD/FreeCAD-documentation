@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD IncreaseTolerance‏‎Feature
-   Name/fr:OpenSCAD Augmenter la tolérance
-   MenuLocation:OpenSCAD - Augmenter la tolérance
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
+   Name: OpenSCAD IncreaseTolerance‏‎Feature
+   Name/fr: OpenSCAD Augmenter la tolérance
+   MenuLocation: OpenSCAD - Augmenter la tolérance
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench/fr.md)
 ---
 
 # OpenSCAD IncreaseToleranceFeature/fr
@@ -31,4 +31,4 @@ Augmente la tolérance des arêtes/faces/sommets des objets sélectionnés.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD IncreaseToleranceFeature/fr
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD IncreaseToleranceFeature/fr

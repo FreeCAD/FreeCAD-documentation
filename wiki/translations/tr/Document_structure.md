@@ -1,6 +1,4 @@
 # Document structure/tr
-{{TOCright}}
-
 ![](images/Screenshot_treeview.jpg ) Bir FreeCAD belgesi, sahnenizdeki tüm nesneleri içerir. Herhangi bir tezgah ile yapılan grupları ve nesneleri içerebilir. Bu nedenle tezgahlar arasında geçiş yapabilir ve hala aynı belge üzerinde çalışabilirsiniz. Çalışmanızı kaydettiğinizde belge diske kaydedilecek olandır. Ayrıca FreeCAD\'de aynı anda birkaç belge açabilir ve aynı belgenin birkaç görünümünü açabilirsiniz.
 
 
@@ -70,4 +68,4 @@ FreeCADGui.ActiveDocument.ActiveView
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Document structure/tr
+⏵ [documentation index](../README.md) > Document structure/tr

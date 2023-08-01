@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Quit
-   Name/pl:Std: Zakończ
-   MenuLocation:Plik - Zakończ
-   Workbenches:Wszystkie
-   Shortcut:**Alt** + **F4**
-   SeeAlso:[Zamknij aktywne okno](Std_CloseActiveWindow/pl.md)
+   Name: Std Quit
+   Name/pl: Std: Zakończ
+   MenuLocation: Plik - Zakończ
+   Workbenches: Wszystkie
+   Shortcut: **Alt** + **F4**
+   SeeAlso: [Zamknij aktywne okno](Std_CloseActiveWindow/pl.md)
 ---
 
 # Std Quit/pl
@@ -43,4 +43,4 @@ Polecenie **Zakończ** zamyka aplikację FreeCAD i opcjonalnie umożliwia zapisa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Quit/pl
+⏵ [documentation index](../README.md) > Std Quit/pl

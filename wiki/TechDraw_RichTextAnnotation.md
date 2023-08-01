@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw RichTextAnnotation
-   MenuLocation:TechDraw - Annotations - Insert Rich Text Annotations
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.19
-   SeeAlso:[TechDraw Annotation](TechDraw_Annotation.md)
+   Name: TechDraw RichTextAnnotation
+   MenuLocation: TechDraw - Annotations - Insert Rich Text Annotations
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Version: 0.19
+   SeeAlso: [TechDraw Annotation](TechDraw_Annotation.md)
 ---
 
 # TechDraw RichTextAnnotation
@@ -71,4 +71,4 @@ blockObj.AnnoText = myHTMLText
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RichTextAnnotation
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RichTextAnnotation

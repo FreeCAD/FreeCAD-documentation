@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPointLineDistance
-   Name/fr:Assembly3 Contrainte distance entre point et ligne
-   Icon:Assembly_ConstraintPointLineDistance.svg
-   MenuLocation:Assembly3 - ? - Point line distance
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 ConstraintPointLineDistance
+   Name/fr: Assembly3 Contrainte distance entre point et ligne
+   Icon: Assembly_ConstraintPointLineDistance.svg
+   MenuLocation: Assembly3 - ? - Point line distance
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintPointLineDistance/fr
@@ -22,4 +22,4 @@ Cet outil établit un lien entre deux objets d\'un assemblage et fixe la distanc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointLineDistance/fr
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPointLineDistance/fr

@@ -71,4 +71,4 @@ Questa categoria contiene le macro per estendere l\'installazione FreeCAD con nu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Macros/it
+⏵ [documentation index](../README.md) > Category:Macros/it

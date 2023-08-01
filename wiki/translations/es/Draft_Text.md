@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft_Text
-   Name/es:Draft_Text
-   MenuLocation:Croquis - Texto
-   Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   Shortcut:**T** **E**
+   Name: Draft_Text
+   Name/es: Draft_Text
+   MenuLocation: Croquis - Texto
+   Workbenches: [Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut: **T** **E**
 ---
 
 # Draft Text/es
@@ -216,4 +216,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Text/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Text/es

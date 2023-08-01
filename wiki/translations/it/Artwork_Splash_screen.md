@@ -1,6 +1,4 @@
 # Artwork Splash screen/it
-{{TOCright}}
-
 Queste sono le schermate iniziali che sono state utilizzate per ogni versione del programma.
 
 ## FreeCAD 0.20 
@@ -54,4 +52,4 @@ Queste sono le schermate iniziali che sono state utilizzate per ogni versione de
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Splash screen/it
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Splash screen/it

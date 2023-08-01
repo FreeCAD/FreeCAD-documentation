@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher_ToggleConstruction
-   Name/ja:Sketcher_ToggleConstruction
-   Workbenches:[スケッチャー](Sketcher_Workbench/ja.md), [パートデザイン](PartDesign_Workbench/ja.md)
-   MenuLocation:Sketch - Sketcher geometries - Toggle construction line
+   Name: Sketcher_ToggleConstruction
+   Name/ja: Sketcher_ToggleConstruction
+   Workbenches: [スケッチャー](Sketcher_Workbench/ja.md), [パートデザイン](PartDesign_Workbench/ja.md)
+   MenuLocation: Sketch - Sketcher geometries - Toggle construction line
 ---
 
 # Sketcher ToggleConstruction/ja
@@ -90,4 +90,4 @@ There are two ways of using this tool:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/ja
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/ja

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Stretch
-   Name/it:Stira
-   MenuLocation:Modifiche - Stira
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:**S** **H**
-   Version:0.17
+   Name: Draft Stretch
+   Name/it: Stira
+   MenuLocation: Modifiche - Stira
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut: **S** **H**
+   Version: 0.17
 ---
 
 # Draft Stretch/it
@@ -69,4 +69,4 @@ Non esiste un metodo Python per stirare gli oggetti. Per emulare i risultati del
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Stretch/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Stretch/it

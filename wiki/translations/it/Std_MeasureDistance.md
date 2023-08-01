@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_MeasureDistance
-   Name/it:Misura la distanza
-   MenuLocation:Strumenti - Misura la distanza
-   Workbenches:Tutti
-   SeeAlso:[Misura lineare](Part_Measure_Linear/it.md), [Quotatura di Draft](Draft_Dimension/it.md)
+   Name: Std_MeasureDistance
+   Name/it: Misura la distanza
+   MenuLocation: Strumenti - Misura la distanza
+   Workbenches: Tutti
+   SeeAlso: [Misura lineare](Part_Measure_Linear/it.md), [Quotatura di Draft](Draft_Dimension/it.md)
 ---
 
 # Std MeasureDistance/it
@@ -81,4 +81,4 @@ Il comando **Misura la distanza** crea un oggetto distanza che misura e visualiz
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MeasureDistance/it
+⏵ [documentation index](../README.md) > Std MeasureDistance/it

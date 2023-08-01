@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std SelectAll
-   Name/ko:표준 모두 선택
-   MenuLocation:편집 - 모두 선택
-   Workbenches:모두
-   SeeAlso:[표준 개체 선택 상자](Std_BoxSelection/ko.md), [표준 면 선택 상자](Std_BoxElementSelection/ko.md)
+   Name: Std SelectAll
+   Name/ko: 표준 모두 선택
+   MenuLocation: 편집 - 모두 선택
+   Workbenches: 모두
+   SeeAlso: [표준 개체 선택 상자](Std_BoxSelection/ko.md), [표준 면 선택 상자](Std_BoxElementSelection/ko.md)
 ---
 
 # Std SelectAll/ko
@@ -32,4 +32,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SelectAll/ko
+⏵ [documentation index](../README.md) > Std SelectAll/ko

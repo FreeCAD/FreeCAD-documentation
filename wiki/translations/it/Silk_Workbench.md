@@ -5,7 +5,7 @@
 ## Descrizione
 
 
-{{TOCright}}
+
 
 Silk è un [ambiente complementare](External_workbenches/it.md) che crea superfici NURBS in FreeCAD..
 
@@ -26,4 +26,4 @@ Si consiglia di installarlo tramite <img alt="" src=images/Std_AddonMgr.svg  sty
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Silk](Category_Silk.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > Silk Workbench/it
+⏵ [documentation index](../README.md) > [Silk](Category_Silk.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > Silk Workbench/it

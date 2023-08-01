@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher Split
-   MenuLocation:Sketch - Sketcher geometries - Split edge
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**G** **Z**
-   Version:0.20
-   SeeAlso:[Sketcher Trimming](Sketcher_Trimming.md)
+   Name: Sketcher Split
+   MenuLocation: Sketch - Sketcher geometries - Split edge
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **G** **Z**
+   Version: 0.20
+   SeeAlso: [Sketcher Trimming](Sketcher_Trimming.md)
 ---
 
 # Sketcher Split/pt-br
@@ -52,4 +52,4 @@ This tool splits an edge into two, with existing applicable constraints being co
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Split/pt-br
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Split/pt-br

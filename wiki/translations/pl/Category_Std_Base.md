@@ -10,4 +10,4 @@ Ta kategoria zawiera listę stron związanych z [Std Base](Std_Base/pl.md), któ
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Std Base/pl
+⏵ [documentation index](../README.md) > Category:Std Base/pl

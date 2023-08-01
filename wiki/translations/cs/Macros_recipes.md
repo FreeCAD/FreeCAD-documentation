@@ -1,7 +1,4 @@
 # Macros recipes/cs
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 Tato stránka obsahuje makra pro rozšíření funkcionality Vaší instalace FreeCADu.
@@ -822,4 +819,4 @@ Navíc můžete nové makro přidat i na Váš uživatelský nástrojový pruh
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python Code.md) > Macros recipes/cs
+⏵ [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python Code.md) > Macros recipes/cs

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft FlipDimension
-   Name/fr:Draft Inverser le texte de la dimension
-   MenuLocation:Modification - Inverser le texte de la dimension
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Name: Draft FlipDimension
+   Name/fr: Draft Inverser le texte de la dimension
+   MenuLocation: Modification - Inverser le texte de la dimension
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
 ---
 
 # Draft FlipDimension/fr
@@ -57,4 +57,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft FlipDimension/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft FlipDimension/fr

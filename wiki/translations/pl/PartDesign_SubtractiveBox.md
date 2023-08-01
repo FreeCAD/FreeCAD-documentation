@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractiveBox
-   Name/pl:Projekt Części: Subtraktywny prostopadłościan
-   MenuLocation:Projekt Części - Utwórz cechę przez odjęcie - Subtraktywny prostopadłościan
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Komponent bryła pierwotna do odjęcia](PartDesign_CompPrimitiveSubtractive/pl.md), [Addytywny prostopadłościan](PartDesign_AdditiveBox/pl.md)
+   Name: PartDesign SubtractiveBox
+   Name/pl: Projekt Części: Subtraktywny prostopadłościan
+   MenuLocation: Projekt Części - Utwórz cechę przez odjęcie - Subtraktywny prostopadłościan
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Komponent bryła pierwotna do odjęcia](PartDesign_CompPrimitiveSubtractive/pl.md), [Addytywny prostopadłościan](PartDesign_AdditiveBox/pl.md)
 ---
 
 # PartDesign SubtractiveBox/pl
@@ -61,4 +61,4 @@ Prostopadłościan można edytować po jego utworzeniu na dwa sposoby:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveBox/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveBox/pl

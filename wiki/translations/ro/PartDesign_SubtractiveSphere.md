@@ -1,6 +1,6 @@
 # PartDesign SubtractiveSphere/ro
 ---
-- GuiCommand:   Name:PartDesign SubtractiveSphere   Workbenches:[MenuLocation:Part Design - Create a subtractive primitive - Subtractive Sphere   Shortcut:None   SeeAlso:[[PartDesign CompPrimitiveSubtractive](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign SubtractiveSphere   Workbenches: [MenuLocation: Part Design - Create a subtractive primitive - Subtractive Sphere   Shortcut: None   SeeAlso: [[PartDesign CompPrimitiveSubtractive](PartDesign_Workbench___PartDesign]].md)---
 
 
 </div>
@@ -74,4 +74,4 @@ The Sphere can be edited after its creation in two ways:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveSphere/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveSphere/ro

@@ -1,7 +1,7 @@
 # <img alt="Arch workbench icon" src=images/Workbench_Arch.svg  style="width:64px;"> Arch Workbench/zh-cn
 
 
-{{TOCright}}
+
 
 
 
@@ -217,4 +217,4 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/zh-cn
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/zh-cn

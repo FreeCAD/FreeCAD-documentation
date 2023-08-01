@@ -134,4 +134,4 @@ Hay muchas aplicaciones disponibles para simular el corte real, una de ellas que
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Category_Path.md) > [Mesh](Category_Mesh.md) > [Tutorials](Category_Tutorials.md) > Manual:Preparing models for 3D printing/es
+⏵ [documentation index](../README.md) > [Path](Category_Path.md) > [Mesh](Category_Mesh.md) > [Tutorials](Category_Tutorials.md) > Manual:Preparing models for 3D printing/es

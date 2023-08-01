@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Primitives
-   MenuLocation:Part - Create primitives...
-   Workbenches:[Part](Part_Workbench.md), [OpenSCAD](OpenSCAD_Workbench.md)
-   SeeAlso:[Part Builder](Part_Builder.md)
+   Name: Part Primitives
+   MenuLocation: Part - Create primitives...
+   Workbenches: [Part](Part_Workbench.md), [OpenSCAD](OpenSCAD_Workbench.md)
+   SeeAlso: [Part Builder](Part_Builder.md)
 ---
 
 # Part Primitives/tr
@@ -103,4 +103,4 @@ freecad $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Primitives/tr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Primitives/tr

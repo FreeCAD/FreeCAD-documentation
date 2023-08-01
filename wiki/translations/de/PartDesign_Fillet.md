@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Fillet
-   Name/de:PartDesign Verrundung
-   MenuLocation:Part Design - Modifikationen - Verrundung
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso:[PartDesign Fase](PartDesign_Chamfer/de.md)
+   Name: PartDesign Fillet
+   Name/de: PartDesign Verrundung
+   MenuLocation: Part Design - Modifikationen - Verrundung
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso: [PartDesign Fase](PartDesign_Chamfer/de.md)
 ---
 
 # PartDesign Fillet/de
@@ -133,4 +133,4 @@ Mehr kann man unter [Problem der topologischen Benennung](Topological_naming_pro
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Fillet/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Fillet/de

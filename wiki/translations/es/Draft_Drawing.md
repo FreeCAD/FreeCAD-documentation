@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft_Drawing
-   Name/es:Dibujo
-   MenuLocation:Croquis - Dibujo
-   Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Name: Draft_Drawing
+   Name/es: Dibujo
+   MenuLocation: Croquis - Dibujo
+   Workbenches: [Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
 ---
 
 # Draft Drawing/es
@@ -53,4 +53,4 @@ This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Drawing/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Drawing/es

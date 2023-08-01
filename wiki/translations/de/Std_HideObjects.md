@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std HideObjects
-   Name/de:Std ObjekteAusblenden
-   MenuLocation:Ansicht - Sichtbarkeit - Alle Objekte ausblenden
-   Workbenches:Alle
-   SeeAlso:[Std SichtbarkeitUmschalten](Std_ToggleVisibility/de.md), [Std AuswahlEinblenden](Std_ShowSelection/de.md), [Std AuswahlAusblenden](Std_HideSelection.md), [Std ObjekteUmschalten](Std_ToggleObjects/de.md), [Std ObjekteEinblenden](Std_ShowObjects/de.md)
+   Name: Std HideObjects
+   Name/de: Std ObjekteAusblenden
+   MenuLocation: Ansicht - Sichtbarkeit - Alle Objekte ausblenden
+   Workbenches: Alle
+   SeeAlso: [Std SichtbarkeitUmschalten](Std_ToggleVisibility/de.md), [Std AuswahlEinblenden](Std_ShowSelection/de.md), [Std AuswahlAusblenden](Std_HideSelection.md), [Std ObjekteUmschalten](Std_ToggleObjects/de.md), [Std ObjekteEinblenden](Std_ShowObjects/de.md)
 ---
 
 # Std HideObjects/de
@@ -43,4 +43,4 @@ For a scripting example see [Std ToggleVisibility](Std_ToggleVisibility.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std HideObjects/de
+⏵ [documentation index](../README.md) > Std HideObjects/de

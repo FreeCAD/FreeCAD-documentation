@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh Evaluation
-   Name/fr:Mesh Évaluation
-   MenuLocation:Maillages - Analyser - Évaluer et réparer le maillage...
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
+   Name: Mesh Evaluation
+   Name/fr: Mesh Évaluation
+   MenuLocation: Maillages - Analyser - Évaluer et réparer le maillage...
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
 ---
 
 # Mesh Evaluation/fr
@@ -75,4 +75,4 @@ La commande **Évaluation** évalue et répare un objet maillé.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Evaluation/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Evaluation/fr

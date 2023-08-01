@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TransformManip
-   Name/fr:Std Transformation manipulation
-   MenuLocation:Clic droit sur un objet de la vue en arborescence - Transformer
+   Name: Std TransformManip
+   Name/fr: Std Transformation manipulation
+   MenuLocation: Clic droit sur un objet de la vue en arborescence - Transformer
 Édition - Transformer
-   Workbenches:Tous
-   SeeAlso:[Std Base](Std_Base/fr.md)
+   Workbenches: Tous
+   SeeAlso: [Std Base](Std_Base/fr.md)
 ---
 
 # Std TransformManip/fr
@@ -42,4 +42,4 @@ Cet outil vous permet d\'appliquer des incréments de rotation ou des incrément
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TransformManip/fr
+⏵ [documentation index](../README.md) > Std TransformManip/fr

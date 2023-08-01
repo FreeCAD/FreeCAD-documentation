@@ -122,4 +122,4 @@ Zobacz również [Dostosowywanie interfejsu użytkownika do własnych potrzeb](I
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Customize Toolbars/pl
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Customize Toolbars/pl

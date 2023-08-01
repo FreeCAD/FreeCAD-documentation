@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM Analysis
-   Name/fr:FEM Conteneur d'analyse
-   MenuLocation:Modèle - Conteneur d'analyse‏‎
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Shortcut:**S** **A**
-   SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
+   Name: FEM Analysis
+   Name/fr: FEM Conteneur d'analyse
+   MenuLocation: Modèle - Conteneur d'analyse‏‎
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Shortcut: **S** **A**
+   SeeAlso: [Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
 # FEM Analysis/fr
@@ -95,4 +95,4 @@ App.ActiveDocument.MechanicalAnalysis.Member = member
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Analysis/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Analysis/fr

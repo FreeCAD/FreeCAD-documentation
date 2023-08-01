@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh VertexCurvature
-   Name/fr:Mesh Courbure
-   MenuLocation:Maillages - Tracer la courbure
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Info sur les courbures](Mesh_CurvatureInfo/fr.md)
+   Name: Mesh VertexCurvature
+   Name/fr: Mesh Courbure
+   MenuLocation: Maillages - Tracer la courbure
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
+   SeeAlso: [Mesh Info sur les courbures](Mesh_CurvatureInfo/fr.md)
 ---
 
 # Mesh VertexCurvature/fr
@@ -95,4 +95,4 @@ Pour un objet Courbure, les propriétés suivantes sont disponibles dans l\'[éd
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh VertexCurvature/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh VertexCurvature/fr

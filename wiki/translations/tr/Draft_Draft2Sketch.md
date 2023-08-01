@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Draft2Sketch
-   Name/tr:Taslak/Eskiz çevir
-   MenuLocation:Drafting - Draft to Sketch
-   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   Name: Draft Draft2Sketch
+   Name/tr: Taslak/Eskiz çevir
+   MenuLocation: Drafting - Draft to Sketch
+   Workbenches: [Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
 ---
 
 # Draft Draft2Sketch/tr
@@ -102,4 +102,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Draft2Sketch/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Draft2Sketch/tr

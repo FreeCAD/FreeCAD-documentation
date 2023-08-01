@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BlenderSverchokAddonSetup
+⏵ [documentation index](../README.md) > BlenderSverchokAddonSetup

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreePreSelection
-   Name/de:Std BaumVorauswahl
-   MenuLocation:Ansicht - Baumansicht-Aktionen - Vorauswahl
-   Workbenches:Alle
-   Shortcut:**T** **4**
-   Version:0.19
+   Name: Std TreePreSelection
+   Name/de: Std BaumVorauswahl
+   MenuLocation: Ansicht - Baumansicht-Aktionen - Vorauswahl
+   Workbenches: Alle
+   Shortcut: **T** **4**
+   Version: 0.19
 ---
 
 # Std TreePreSelection/de
@@ -42,4 +42,4 @@ Der Befehl **Std BaumVorauswahl** schaltet den Vorauswahl-Modus der [Baumansicht
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreePreSelection/de
+⏵ [documentation index](../README.md) > Std TreePreSelection/de

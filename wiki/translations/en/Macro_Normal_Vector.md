@@ -39,4 +39,4 @@ Gui.Selection.getSelectionEx()[0].SubObjects[0].Faces[0].normalAt(0,0)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Normal Vector/en
+⏵ [documentation index](../README.md) > Macro Normal Vector/en

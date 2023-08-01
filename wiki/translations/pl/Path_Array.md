@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Path Array
-   MenuLocation:Path - Path Modification - Array
-   Workbenches:[Path](Path_Workbench.md)
+   Name: Path Array
+   MenuLocation: Path - Path Modification - Array
+   Workbenches: [Path](Path_Workbench.md)
 ---
 
 # Path Array/pl
@@ -51,4 +51,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Array/pl
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Array/pl

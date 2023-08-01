@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Draft FlipDimension
-   MenuLocation:Modification - Flip dimension
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Name: Draft FlipDimension
+   MenuLocation: Modification - Flip dimension
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
 ---
 
 # Draft FlipDimension/en
@@ -50,4 +50,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft FlipDimension/en
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft FlipDimension/en

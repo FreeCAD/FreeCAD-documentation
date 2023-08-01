@@ -2,7 +2,7 @@
 ## Wprowadzenie
 
 
-{{TOCright}}
+
 
 **Polecenie** to czynność wykonywana po naciśnięciu przycisku na pasku narzędzi lub wpisaniu skrótu klawiaturowego. Może to być bardzo prosta czynność, jak zmiana stopnia powiększenia [widoku 3D](3D_view/pl.md) lub obrót punktu widzenia, albo złożony system, który będzie otwierał okna dialogowe i czekał na wykonanie przez użytkownika określonych zadań.
 
@@ -96,4 +96,4 @@ See [Line drawing function](Line_drawing_function.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Command_Reference|:Category:Command Reference]] page. Commands can be launched by a toolbar button, a menu item, or from a ](Category_Command_Reference|:Category:Command Reference]] page. Commands can be launched by a toolbar button, a menu item, or from a .md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/pl
+⏵ [documentation index](../README.md) > [Command_Reference|:Category:Command Reference]] page. Commands can be launched by a toolbar button, a menu item, or from a ](Category_Command_Reference|:Category:Command Reference]] page. Commands can be launched by a toolbar button, a menu item, or from a .md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/pl

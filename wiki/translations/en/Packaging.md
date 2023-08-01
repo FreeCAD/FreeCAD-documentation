@@ -8,4 +8,4 @@ This page collects the information on packaging FreeCAD in different platforms.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > Packaging/en
+⏵ [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > Packaging/en

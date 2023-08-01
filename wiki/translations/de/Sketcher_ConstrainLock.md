@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainLock
-   Name/de:Sketcher Sperren
-   MenuLocation:Sketch - Skizzen-Beschränkungen - Sperren
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**K** **L**
-   SeeAlso:[Sketcher Fixieren](Sketcher_ConstrainBlock/de.md)
+   Name: Sketcher ConstrainLock
+   Name/de: Sketcher Sperren
+   MenuLocation: Sketch - Skizzen-Beschränkungen - Sperren
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **K** **L**
+   SeeAlso: [Sketcher Fixieren](Sketcher_ConstrainBlock/de.md)
 ---
 
 # Sketcher ConstrainLock/de
@@ -37,4 +37,4 @@ Die <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Sch
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/de

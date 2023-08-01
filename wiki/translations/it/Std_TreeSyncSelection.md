@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_TreeSyncSelection
-   Name/it:Sincronizza la selezione
-   MenuLocation:Visualizza - Azioni della vista ad albero - Sincronizza la selezione
-   Workbenches:Tutti
-   Shortcut:**T** **2**
-   Version:0.19
+   Name: Std_TreeSyncSelection
+   Name/it: Sincronizza la selezione
+   MenuLocation: Visualizza - Azioni della vista ad albero - Sincronizza la selezione
+   Workbenches: Tutti
+   Shortcut: **T** **2**
+   Version: 0.19
 ---
 
 # Std TreeSyncSelection/it
@@ -42,4 +42,4 @@ La modalità Sincronizza la selezione della vista ad albero può anche essere im
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSyncSelection/it
+⏵ [documentation index](../README.md) > Std TreeSyncSelection/it

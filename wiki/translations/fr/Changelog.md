@@ -6,4 +6,4 @@ Le suivi des changements FreeCAD est assuré sur notre tracker mantis :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Administration](Category_Administration.md) > [Developer](Category_Developer.md) > Changelog/fr
+⏵ [documentation index](../README.md) > [Administration](Category_Administration.md) > [Developer](Category_Developer.md) > Changelog/fr

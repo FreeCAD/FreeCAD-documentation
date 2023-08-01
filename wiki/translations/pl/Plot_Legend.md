@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Plot Legend
-   Name/pl:Wykres: Pokaz / ukryj legendę
-   MenuLocation:Wykres - Pokaz / ukryj legendę
-   Workbenches:[Wykres](Plot_Workbench/pl.md)
+   Name: Plot Legend
+   Name/pl: Wykres: Pokaz / ukryj legendę
+   MenuLocation: Wykres - Pokaz / ukryj legendę
+   Workbenches: [Wykres](Plot_Workbench/pl.md)
 ---
 
 # Plot Legend/pl
@@ -31,4 +31,4 @@ Pamiętaj, że style i etykiety serii danych mogą być edytowane za pomocą [na
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Legend/pl
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Legend/pl

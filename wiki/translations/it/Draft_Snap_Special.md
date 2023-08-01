@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Special
-   Name/it:Speciale
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   MenuLocation:Draft - [Snap](Draft_Snap/it.md) - Speciale
-   Shortcut:
-   SeeAlso:[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
-   Version:0.17
+   Name: Draft Snap Special
+   Name/it: Speciale
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Draft - [Snap](Draft_Snap/it.md) - Speciale
+   Shortcut: 
+   SeeAlso: [Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
+   Version: 0.17
 ---
 
 # Draft Snap Special/it
@@ -65,4 +65,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Special/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Special/it

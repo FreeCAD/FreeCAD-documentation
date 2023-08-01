@@ -221,4 +221,4 @@ W końcu FreeCAD jest tworzony przez wolontariuszy w ich wolnym czasie. Jeśli c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Creating a simple part with Draft and Part WB/pl
+⏵ [documentation index](../README.md) > Creating a simple part with Draft and Part WB/pl

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM_ConstraintGear
-   Name/it:Vincolo ingranaggio
-   MenuLocation:Modello - Vincoli meccanici - Vincolo ingranaggio
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
+   Name: FEM_ConstraintGear
+   Name/it: Vincolo ingranaggio
+   MenuLocation: Modello - Vincoli meccanici - Vincolo ingranaggio
+   Workbenches: [FEM](FEM_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: [Tutorial FEM](FEM_tutorial/it.md)
 ---
 
 # FEM ConstraintGear/it
@@ -36,4 +36,4 @@ Non supportato dall\'interfaccia calculix!
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintGear/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintGear/it

@@ -1,6 +1,6 @@
 # Sketcher CreatePolyline/es
 ---
-- GuiCommand:   Name:Sketcher CreatePolyline   Workbenches:[MenuLocation:Croquizador- Geometrías del croquizador - Crear polilínea   SeeAlso:[[Sketcher CreateLine/es|Línea](Sketcher_Workbench/es___Croquizador]].md)---
+- GuiCommand:   Name: Sketcher CreatePolyline   Workbenches: [MenuLocation: Croquizador- Geometrías del croquizador - Crear polilínea   SeeAlso: [[Sketcher CreateLine/es|Línea](Sketcher_Workbench/es___Croquizador]].md)---
 
 
 </div>
@@ -63,4 +63,4 @@ The polyline always starts with a straight line segment: click - move the mouse 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePolyline/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePolyline/es

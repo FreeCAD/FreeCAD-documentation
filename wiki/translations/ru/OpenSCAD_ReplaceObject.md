@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD ReplaceObject‏‎ 
-   Name/ru:OpenSCAD ReplaceObject‏‎ 
-   MenuLocation:OpenSCAD - Заменить объект
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/ru.md)
-   Shortcut:нет
-   SeeAlso:---
+   Name: OpenSCAD ReplaceObject‏‎ 
+   Name/ru: OpenSCAD ReplaceObject‏‎ 
+   MenuLocation: OpenSCAD - Заменить объект
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench/ru.md)
+   Shortcut: нет
+   SeeAlso: ---
 ---
 
 # OpenSCAD ReplaceObject/ru
@@ -45,4 +45,4 @@ You can use this feature for example to substitute a part inside a fusion/cut/co
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ReplaceObject/ru
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ReplaceObject/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch SplitMesh
-   Name/de:Arch NetzAufteilen
-   MenuLocation:Arch - Dienstprogramme - Netz zerlegen
-   Workbenches:[Arch-Arbeitsbereich](Arch_Workbench/de.md)
-   SeeAlso:[Arch SelectNonSolidMeshes](Arch_SelectNonSolidMeshes/de.md), [Arch NetzZuForm](Arch_MeshToShape/de.md)
+   Name: Arch SplitMesh
+   Name/de: Arch NetzAufteilen
+   MenuLocation: Arch - Dienstprogramme - Netz zerlegen
+   Workbenches: [Arch-Arbeitsbereich](Arch_Workbench/de.md)
+   SeeAlso: [Arch SelectNonSolidMeshes](Arch_SelectNonSolidMeshes/de.md), [Arch NetzZuForm](Arch_MeshToShape/de.md)
 ---
 
 # Arch SplitMesh/de
@@ -95,4 +95,4 @@ new_list = Arch.splitMesh(mesh_obj)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/de

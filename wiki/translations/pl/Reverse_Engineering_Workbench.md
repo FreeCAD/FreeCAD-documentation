@@ -25,4 +25,4 @@ Link do odpowiednich wątków omawiających te stanowiska pracy
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reverse Engineering](Category_Reverse Engineering.md) > [Workbenches](Category_Workbenches.md) > Reverse Engineering Workbench/pl
+⏵ [documentation index](../README.md) > [Reverse Engineering](Category_Reverse Engineering.md) > [Workbenches](Category_Workbenches.md) > Reverse Engineering Workbench/pl

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM MeshRegion
-   Name/fr:FEM Région de maillage FEM
-   MenuLocation:Maillage - Région de maillage FEM
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM MeshRegion
+   Name/fr: FEM Région de maillage FEM
+   MenuLocation: Maillage - Région de maillage FEM
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM MeshRegion/fr
@@ -69,4 +69,4 @@ L\'ordre dans lequel les régions sont affichées dans la [vue en arborescence](
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshRegion/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshRegion/fr

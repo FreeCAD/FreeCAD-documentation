@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Wire
-   Name/ro:Draft Wire
-   MenuLocation:Draft - Wire
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   Shortcut:**P** **L**
-   SeeAlso:[Draft Line](Draft_Line/ro.md), [Draft BSpline](Draft_BSpline/ro.md)
+   Name: Draft Wire
+   Name/ro: Draft Wire
+   MenuLocation: Draft - Wire
+   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut: **P** **L**
+   SeeAlso: [Draft Line](Draft_Line/ro.md), [Draft BSpline](Draft_BSpline/ro.md)
 ---
 
 # Draft Wire/ro
@@ -223,4 +223,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/ro

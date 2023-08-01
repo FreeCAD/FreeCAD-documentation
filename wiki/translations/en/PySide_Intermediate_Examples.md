@@ -1,6 +1,4 @@
 # PySide Intermediate Examples/en
-{{TOCright}}
-
 ## Introduction
 
 This page covers medium level examples of the [PySide](PySide.md) GUI manager (accompanying pages cover aspects that are both less or more advanced, [Beginner PySide Examples](PySide_Beginner_Examples.md) and [Advanced PySide Examples](PySide_Advanced_Examples.md)). In this page an example program is used to cover the different PySide topics. The intention is to present some functional PySide code so anyone who needs to use PySide can copy out the relevant section, modify and adapt it to their own purposes.
@@ -798,4 +796,4 @@ These same commands can be executed on a user generated window, the syntax does 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > PySide Intermediate Examples/en
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > PySide Intermediate Examples/en

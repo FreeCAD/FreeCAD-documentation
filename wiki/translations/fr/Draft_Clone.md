@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Clone
-   Name/fr:Draft Cloner
-   MenuLocation:Modification - Cloner
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:**C** **L**
-   SeeAlso:[Draft Echelle](Draft_Scale/fr.md)
+   Name: Draft Clone
+   Name/fr: Draft Cloner
+   MenuLocation: Modification - Cloner
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut: **C** **L**
+   SeeAlso: [Draft Echelle](Draft_Scale/fr.md)
 ---
 
 # Draft Clone/fr
@@ -96,4 +96,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Clone/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Clone/fr

@@ -13,4 +13,4 @@ Une [feuille de calcul](spreadsheet/fr.md) est une page qui contient des lignes 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Spreadsheet/fr
+⏵ [documentation index](../README.md) > Spreadsheet/fr

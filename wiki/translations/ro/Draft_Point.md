@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Point
-   Name/ro:Draft Punctul
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   MenuLocation:Draft - Point
-   Shortcut:P T
+   Name: Draft Point
+   Name/ro: Draft Punctul
+   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   MenuLocation: Draft - Point
+   Shortcut: P T
 ---
 
 # Draft Point/ro
@@ -189,4 +189,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Point/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Point/ro

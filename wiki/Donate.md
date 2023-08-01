@@ -68,4 +68,4 @@ The FPA can anyway always issue a donation receipt. [Mail us](mailto:fpa@freecad
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Donate
+⏵ [documentation index](../README.md) > Donate

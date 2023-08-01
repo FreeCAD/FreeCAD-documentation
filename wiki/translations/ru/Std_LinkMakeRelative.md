@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Ссылка
-   Name:Std_LinkMakeRelative
-   MenuLocation:Нет
-   Workbenches:Все
-   Version:0.19
-   SeeAlso:[Создать деталь](Std_Part/ru.md), [Создать группу](Std_Group/ru.md), [Создать ссылку](Std_LinkMake/ru.md)
+   Name/ru: Ссылка
+   Name: Std_LinkMakeRelative
+   MenuLocation: Нет
+   Workbenches: Все
+   Version: 0.19
+   SeeAlso: [Создать деталь](Std_Part/ru.md), [Создать группу](Std_Group/ru.md), [Создать ссылку](Std_LinkMake/ru.md)
 ---
 
 # Std LinkMakeRelative/ru
@@ -80,4 +80,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkMakeRelative/ru
+⏵ [documentation index](../README.md) > Std LinkMakeRelative/ru

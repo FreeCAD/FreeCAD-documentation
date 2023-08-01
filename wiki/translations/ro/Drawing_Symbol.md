@@ -1,6 +1,6 @@
 # Drawing Symbol/ro
 ---
-- GuiCommand:   Name:Drawing Symbol   Workbenches:[[Drawing Workbench   Drawing]], Complete|MenuLocation:Drawing - Symbol   Shortcut:none---
+- GuiCommand:   Name: Drawing Symbol   Workbenches: [[Drawing Workbench   Drawing]], Complete|MenuLocation: Drawing - Symbol   Shortcut: none---
 
 ## Descriere
 
@@ -38,4 +38,4 @@ Această comandă vă permite să adăugați conținutul unei imagini SVG pe un 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Symbol/ro
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Symbol/ro

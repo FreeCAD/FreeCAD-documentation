@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainEqual
-   Name/es:Croquizador RestringirIgual
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation:Croquis - Croquizador Restricciones - Restringir igual
-   Shortcut:E
-   SeeAlso:[Restringir radius](Sketcher_ConstrainRadius/es.md)
+   Name: Sketcher ConstrainEqual
+   Name/es: Croquizador RestringirIgual
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   MenuLocation: Croquis - Croquizador Restricciones - Restringir igual
+   Shortcut: E
+   SeeAlso: [Restringir radius](Sketcher_ConstrainRadius/es.md)
 ---
 
 # Sketcher ConstrainEqual/es
@@ -121,4 +121,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainEqual/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainEqual/es

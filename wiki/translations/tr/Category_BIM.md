@@ -10,4 +10,4 @@ This category is for pages related to building information management (BIM).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:BIM/tr
+⏵ [documentation index](../README.md) > Category:BIM/tr

@@ -350,4 +350,4 @@ La discussion du forum [New Macro: ImportAirfoil](https://forum.freecadweb.org/v
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro ImportAirfoil/fr
+⏵ [documentation index](../README.md) > Macro ImportAirfoil/fr

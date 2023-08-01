@@ -1,7 +1,7 @@
 # <img alt="Ikonka FreeCAD dla Środowiska pracy Rysunek Roboczy" src=images/Workbench_Draft.svg  style="width:64px;"> Draft Workbench/pl
 
 
-{{TOCright}}
+
 
 
 
@@ -385,4 +385,4 @@ Sprawdzenie kodu tego modułu jest pomocne, aby zrozumieć interfejs programowan
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Draft](Category_Draft.md) > Draft Workbench/pl
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Draft](Category_Draft.md) > Draft Workbench/pl

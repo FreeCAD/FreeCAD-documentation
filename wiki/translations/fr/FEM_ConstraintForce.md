@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintForce
-   Name/fr:FEM Contrainte de force
-   MenuLocation:Modèle - Contraintes mécaniques - Contrainte de force
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Contrainte de pression](FEM_ConstraintPressure/fr.md)
+   Name: FEM ConstraintForce
+   Name/fr: FEM Contrainte de force
+   MenuLocation: Modèle - Contraintes mécaniques - Contrainte de force
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Contrainte de pression](FEM_ConstraintPressure/fr.md)
 ---
 
 # FEM ConstraintForce/fr
@@ -48,4 +48,4 @@ Cette commande applique une force de valeur donnée \[N\] à la géométrie cibl
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintForce/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintForce/fr

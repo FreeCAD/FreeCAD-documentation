@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std SaveAs
-   Name/pl:Std: Zapisz jako
-   MenuLocation:Plik - Zapisz jako ...
-   Workbenches:wszystkie
-   SeeAlso:[Zapisz jako kopię](Std_SaveCopy/pl.md), [Zapisz](Std_Save/pl.md)
+   Name: Std SaveAs
+   Name/pl: Std: Zapisz jako
+   MenuLocation: Plik - Zapisz jako ...
+   Workbenches: wszystkie
+   SeeAlso: [Zapisz jako kopię](Std_SaveCopy/pl.md), [Zapisz](Std_Save/pl.md)
 ---
 
 # Std SaveAs/pl
@@ -51,4 +51,4 @@ Aby zapisać dokument pod nową nazwą, należy użyć metody `saveAs` obiektu *
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SaveAs/pl
+⏵ [documentation index](../README.md) > Std SaveAs/pl

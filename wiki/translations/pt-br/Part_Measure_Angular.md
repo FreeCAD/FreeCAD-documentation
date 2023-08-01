@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Measure Angular
-   MenuLocation:Measure - Measure Angular‏‎
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Draft Dimension](Draft_Dimension.md)
+   Name: Part Measure Angular
+   MenuLocation: Measure - Measure Angular‏‎
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Draft Dimension](Draft_Dimension.md)
 ---
 
 # Part Measure Angular/pt-br
@@ -34,4 +34,4 @@ The appearance of the measurements can be changed in the [preferences](PartDesig
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Angular/pt-br
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Angular/pt-br

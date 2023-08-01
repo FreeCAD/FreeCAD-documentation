@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std Export
-   MenuLocation:File - Export...
-   Workbenches:All
-   Shortcut:**Ctrl**+**E**
-   SeeAlso:[Std PrintPdf](Std_PrintPdf.md), [Import Export](Import_Export.md), [Import Export Preferences](Import_Export_Preferences.md)
+   Name: Std Export
+   MenuLocation: File - Export...
+   Workbenches: All
+   Shortcut: **Ctrl**+**E**
+   SeeAlso: [Std PrintPdf](Std_PrintPdf.md), [Import Export](Import_Export.md), [Import Export Preferences](Import_Export_Preferences.md)
 ---
 
 # Std Export
@@ -51,4 +51,4 @@ The **Std Export** command exports selected objects to a different file format. 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export

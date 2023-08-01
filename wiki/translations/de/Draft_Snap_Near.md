@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Near
-   Name/de:Draft EinrastenInDerNähe
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso:[Draft Einrasten](Draft_Snap/de.md), [Draft EinrastenSperren](Draft_Snap_Lock/de.md)
+   Name: Draft Snap Near
+   Name/de: Draft EinrastenInDerNähe
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso: [Draft Einrasten](Draft_Snap/de.md), [Draft EinrastenSperren](Draft_Snap_Lock/de.md)
 ---
 
 # Draft Snap Near/de
@@ -51,4 +51,4 @@ Siehe [Draft Fang Einstellungen](Draft_Snap/de#Einstellungen.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Near/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Near/de

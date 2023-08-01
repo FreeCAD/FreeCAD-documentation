@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionCreateVertChamferDimension
-   Name/pl:Rysunek Techniczny: Rozszerzenie Wymiar pionowy sfazowania
-   MenuLocation:Rysunek Techniczny - Rozszerzenia: Wymiary - Wymiar pionowy sfazowania
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[Wymiar poziomy sfazowania](TechDraw_ExtensionCreateHorizChamferDimension/pl.md)
+   Name: TechDraw ExtensionCreateVertChamferDimension
+   Name/pl: Rysunek Techniczny: Rozszerzenie Wymiar pionowy sfazowania
+   MenuLocation: Rysunek Techniczny - Rozszerzenia: Wymiary - Wymiar pionowy sfazowania
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [Wymiar poziomy sfazowania](TechDraw_ExtensionCreateHorizChamferDimension/pl.md)
 ---
 
 # TechDraw ExtensionCreateVertChamferDimension/pl
@@ -41,4 +41,4 @@ Narzędzie **Wymiar pionowy sfazowania** tworzy pionowy wymiar i kąt fazowania.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateVertChamferDimension/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateVertChamferDimension/pl

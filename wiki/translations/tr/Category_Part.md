@@ -13,4 +13,4 @@ This category lists pages related to the [Part Workbench/tr](Part_Workbench/tr.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Part/tr
+⏵ [documentation index](../README.md) > Category:Part/tr

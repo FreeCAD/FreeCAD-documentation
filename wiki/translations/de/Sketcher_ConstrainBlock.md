@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainBlock
-   Name/de:Sketcher Fixieren
-   MenuLocation:Sketch - Skizzen-Beschränkungen - Fixieren
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**K** **B**
-   Version:0.17
-   SeeAlso:[Sketcher Sperren](Sketcher_ConstrainLock/de.md)
+   Name: Sketcher ConstrainBlock
+   Name/de: Sketcher Fixieren
+   MenuLocation: Sketch - Skizzen-Beschränkungen - Fixieren
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **K** **B**
+   Version: 0.17
+   SeeAlso: [Sketcher Sperren](Sketcher_ConstrainLock/de.md)
 ---
 
 # Sketcher ConstrainBlock/de
@@ -42,4 +42,4 @@ Die [Skizzierer Skripten](Sketcher_scripting/de.md)-Seite erklärt die Werte, di
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainBlock/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainBlock/de

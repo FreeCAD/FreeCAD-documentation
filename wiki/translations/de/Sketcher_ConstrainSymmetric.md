@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainSymmetric
-   Name/de:Sketcher SymmetrieFestlegen
-   MenuLocation:Sketch - Skizzen-Beschränkungen - Symmetrie festlegen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**S**
-   SeeAlso:[Sketcher ParallelFestlegen](Sketcher_ConstrainParallel/de.md)
+   Name: Sketcher ConstrainSymmetric
+   Name/de: Sketcher SymmetrieFestlegen
+   MenuLocation: Sketch - Skizzen-Beschränkungen - Symmetrie festlegen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **S**
+   SeeAlso: [Sketcher ParallelFestlegen](Sketcher_ConstrainParallel/de.md)
 ---
 
 # Sketcher ConstrainSymmetric/de
@@ -69,4 +69,4 @@ Die [Skizzierer Skripten](Sketcher_scripting.md) Seite erklärt die Werte, die f
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/de

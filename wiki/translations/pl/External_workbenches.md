@@ -1,8 +1,4 @@
 # External workbenches/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 [Zewnętrzne środowiska pracy](External_workbenches/pl.md) to te stworzone przez power użytkowników, które nie zostały zintegrowane z głównym kodem źródłowym programu FreeCAD.
@@ -264,4 +260,4 @@ Aby uzyskać więcej informacji, przejdź do strony Wiki [Tłumaczenie interfejs
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External_Workbenches](Category_External_Workbenches.md) > External workbenches/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External_Workbenches](Category_External_Workbenches.md) > External workbenches/pl

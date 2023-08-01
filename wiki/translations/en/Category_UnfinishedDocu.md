@@ -70,4 +70,4 @@ This category contains all Unfinished Documents
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:UnfinishedDocu/en
+⏵ [documentation index](../README.md) > Category:UnfinishedDocu/en

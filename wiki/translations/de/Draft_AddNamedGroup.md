@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft AddNamedGroup
-   Name:Draft BenannteGruppeHinzufügen
-   MenuLocation:Utilities - Neue benannte Gruppe hizufügen
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[Std Gruppe](Std_Group/de.md), [Draft ZurGruppeHinzufügen](Draft_AddToGroup/de.md), [Draft AutoGruppe](Draft_AutoGroup/de.md)
+   Name: Draft AddNamedGroup
+   Name: Draft BenannteGruppeHinzufügen
+   MenuLocation: Utilities - Neue benannte Gruppe hizufügen
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [Std Gruppe](Std_Group/de.md), [Draft ZurGruppeHinzufügen](Draft_AddToGroup/de.md), [Draft AutoGruppe](Draft_AutoGroup/de.md)
 ---
 
 # Draft AddNamedGroup/de
@@ -38,4 +38,4 @@ The <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:24px;"> **Draft
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddNamedGroup/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddNamedGroup/de

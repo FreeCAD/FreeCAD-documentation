@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM MaterialEditor
-   Name/ro:Material editor
-   MenuLocation:Model - Material - Material editor
-   Workbenches:[FEM](FEM_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial.md)
+   Name: FEM MaterialEditor
+   Name/ro: Material editor
+   MenuLocation: Model - Material - Material editor
+   Workbenches: [FEM](FEM_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut: 
+   SeeAlso: [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM MaterialEditor/ro
@@ -70,4 +70,4 @@ The material editor can currently be accessed by either:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > FEM MaterialEditor/ro
+⏵ [documentation index](../README.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > FEM MaterialEditor/ro

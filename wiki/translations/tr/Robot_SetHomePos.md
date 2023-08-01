@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Robot SetHomePos
-   Name/tr:Robot Ana konum ayarla
-   Workbenches:[Robot](Robot_Workbench/tr.md)
-   MenuLocation:Robot - Ana konum ayarla
+   Name: Robot SetHomePos
+   Name/tr: Robot Ana konum ayarla
+   Workbenches: [Robot](Robot_Workbench/tr.md)
+   MenuLocation: Robot - Ana konum ayarla
 ---
 
 # Robot SetHomePos/tr
@@ -55,4 +55,4 @@ Birden fazla robot seçilmediyse, sadece bir robot seçmeniz istenir.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetHomePos/tr
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetHomePos/tr

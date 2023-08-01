@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Arch IfcExplorer   Name/sv:Arch IfcExplorer
-   MenuLocation:Arch - Utilities - Ifc Explorer
-   Workbenches:[Arch](Arch_Workbench/sv.md)
-   SeeAlso:[Arch IFC](Arch_IFC/sv.md)
+   Name: Arch IfcExplorer   Name/sv: Arch IfcExplorer
+   MenuLocation: Arch - Utilities - Ifc Explorer
+   Workbenches: [Arch](Arch_Workbench/sv.md)
+   SeeAlso: [Arch IFC](Arch_IFC/sv.md)
 ---
 
 # Arch IfcExplorer/sv
@@ -42,4 +42,4 @@ The purpose of this explorer is simply to allow you to check what is really writ
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/sv
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/sv

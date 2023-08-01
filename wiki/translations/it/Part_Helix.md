@@ -1,6 +1,6 @@
 # Part Helix/it
 ---
-- GuiCommand:   Name:Part_Helix   Name/it:Elica   MenuLocation:Parte - [Workbenches:[[Part_Workbench/it   Parte](Part_CreatePrimitives/it___Crea_primitive]]_-_Elica.md),  [OpenSCAD](OpenSCAD_Workbench/it.md)|SeeAlso:[Crea Primitive](Part_CreatePrimitives/it.md)---
+- GuiCommand:   Name: Part_Helix   Name/it: Elica   MenuLocation: Parte - [Workbenches: [[Part_Workbench/it   Parte](Part_CreatePrimitives/it___Crea_primitive]]_-_Elica.md),  [OpenSCAD](OpenSCAD_Workbench/it.md)|SeeAlso: [Crea Primitive](Part_CreatePrimitives/it.md)---
 
 
 </div>
@@ -118,4 +118,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Helix/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Helix/it

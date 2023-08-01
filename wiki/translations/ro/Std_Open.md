@@ -1,6 +1,6 @@
 # Std Open/ro
 ---
-- GuiCommand:   Name:Std Open   Name/ro:Deschidere   MenuLocation:[Workbenches:All   Shortcut:Ctrl+O   SeeAlso:[[Std Save/ro|Salvare](Std_File_Menu/ro___File]]_-_Deschidere.md),[Importul](Std_Import/ro.md)---
+- GuiCommand:   Name: Std Open   Name/ro: Deschidere   MenuLocation: [Workbenches: All   Shortcut: Ctrl+O   SeeAlso: [[Std Save/ro|Salvare](Std_File_Menu/ro___File]]_-_Deschidere.md),[Importul](Std_Import/ro.md)---
 
 
 </div>
@@ -57,4 +57,4 @@ For a scripting example see [Std New](Std_New#Scripting.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Open/ro
+⏵ [documentation index](../README.md) > Std Open/ro

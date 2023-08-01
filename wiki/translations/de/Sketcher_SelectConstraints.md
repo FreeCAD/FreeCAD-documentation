@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectConstraints
-   Name/de:Sketcher SelectConstraints
-   MenuLocation:Skizze - Skizzen-Werkzeuge - Zugehörige Elemente auswählen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**Z** **K**
-   Version:0.15
+   Name: Sketcher SelectConstraints
+   Name/de: Sketcher SelectConstraints
+   MenuLocation: Skizze - Skizzen-Werkzeuge - Zugehörige Elemente auswählen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **Z** **K**
+   Version: 0.15
 ---
 
 # Sketcher SelectConstraints/de
@@ -38,4 +38,4 @@ Wählt die Beschränkungen eines Skizzierer Elements aus.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConstraints/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConstraints/de

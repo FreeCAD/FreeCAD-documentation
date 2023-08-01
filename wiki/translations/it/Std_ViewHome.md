@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Std ViewHome
-   Name/it:Vista Home
-   MenuLocation:Visualizza - Viste Standard - Home
-   Workbenches:Tutti
-   Shortcut:**Home**
-   Version:0.19
-   SeeAlso:[Visualizza tutto](Std_ViewFitAll/it.md)
+   Name: Std ViewHome
+   Name/it: Vista Home
+   MenuLocation: Visualizza - Viste Standard - Home
+   Workbenches: Tutti
+   Shortcut: **Home**
+   Version: 0.19
+   SeeAlso: [Visualizza tutto](Std_ViewFitAll/it.md)
 ---
 
 # Std ViewHome/it
@@ -43,4 +43,4 @@ Il comando **Vista Home** cambia la telecamera nella [Vista 3D](3D_view/it.md) a
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewHome/it
+⏵ [documentation index](../README.md) > Std ViewHome/it

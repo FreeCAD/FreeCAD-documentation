@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name/de:Netz FülleInteraktivesLoch
-   MenuLocation:Polygonnetze - Schließe Loch
-   Workbenches:[Polygonnetz](Mesh_Workbench/de.md)
-   SeeAlso:[Netz Löcher auffüllen](Mesh_FillupHoles/de.md), [Netz FacetteHinzufügen ](Mesh_AddFacet/de.md)
+   Name/de: Netz FülleInteraktivesLoch
+   MenuLocation: Polygonnetze - Schließe Loch
+   Workbenches: [Polygonnetz](Mesh_Workbench/de.md)
+   SeeAlso: [Netz Löcher auffüllen](Mesh_FillupHoles/de.md), [Netz FacetteHinzufügen ](Mesh_AddFacet/de.md)
 ---
 
 # Mesh FillInteractiveHole/de
@@ -40,4 +40,4 @@ Der Befehl **Polygonnetz FülleLochInteraktiv** füllt ausgewählte Löcher in P
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillInteractiveHole/de
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillInteractiveHole/de

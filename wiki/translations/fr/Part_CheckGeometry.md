@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part CheckGeometry‏‎
-   Name/fr:Part Vérifier la géométrie
-   MenuLocation:Part - Vérifier la géométrie...
-   Workbenches:[Part](Part_Workbench/fr.md)
+   Name: Part CheckGeometry‏‎
+   Name/fr: Part Vérifier la géométrie
+   MenuLocation: Part - Vérifier la géométrie...
+   Workbenches: [Part](Part_Workbench/fr.md)
 ---
 
 # Part CheckGeometry/fr
@@ -79,4 +79,4 @@ En plus de détecter les erreurs potentielles de géométrie, cet outil affiche 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/fr

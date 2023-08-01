@@ -10,7 +10,7 @@
 <img alt="Логотип верстака Draft на котором изображен кульман" src=images/Workbench_Draft.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 
 
@@ -475,4 +475,4 @@ doc = dto.create_test_file()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Draft](Category_Draft.md) > Draft Workbench/ru
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Draft](Category_Draft.md) > Draft Workbench/ru

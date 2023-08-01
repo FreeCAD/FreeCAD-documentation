@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Special
-   Name/tr:Taslak Özel
-   MenuLocation:Taslak - [Yakalama](Draft_Snap/tr.md) - Özel
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   Shortcut:
-   SeeAlso:
+   Name: Draft Snap Special
+   Name/tr: Taslak Özel
+   MenuLocation: Taslak - [Yakalama](Draft_Snap/tr.md) - Özel
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Draft Snap Special/tr
@@ -57,4 +57,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Special/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Special/tr

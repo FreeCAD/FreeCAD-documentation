@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name/ru:Текстурирование
-   Name:Std_TextureMapping
-   MenuLocation:Вид - Текстурирование...
-   Workbenches:Все
+   Name/ru: Текстурирование
+   Name: Std_TextureMapping
+   MenuLocation: Вид - Текстурирование...
+   Workbenches: Все
 ---
 
 # Std TextureMapping/ru
@@ -40,4 +40,4 @@ The **Std TextureMapping** command temporarily maps a texture onto all objects i
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TextureMapping/ru
+⏵ [documentation index](../README.md) > Std TextureMapping/ru

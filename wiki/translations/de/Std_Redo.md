@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Redo
-   Name/de:Std Wiederherstellen
-   MenuLocation:Bearbeiten - Wiederherstellen‎
-   Workbenches:Alle
-   Shortcut:**Strg**+**Y**
-   SeeAlso:[Rückgängig](Std_Undo/de.md)
+   Name: Std Redo
+   Name/de: Std Wiederherstellen
+   MenuLocation: Bearbeiten - Wiederherstellen‎
+   Workbenches: Alle
+   Shortcut: **Strg**+**Y**
+   SeeAlso: [Rückgängig](Std_Undo/de.md)
 ---
 
 # Std Redo/de
@@ -57,4 +57,4 @@ FreeCAD.ActiveDocument.redo()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Redo/de
+⏵ [documentation index](../README.md) > Std Redo/de

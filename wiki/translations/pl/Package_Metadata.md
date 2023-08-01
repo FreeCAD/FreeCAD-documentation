@@ -1,8 +1,4 @@
 # Package Metadata/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 Począwszy od wersji 0.20 programu FreeCAD, zewnętrzne dodatki (środowiska pracy, makra i pakiety preferencji) mogą być dystrybuowane z plikiem metadanych opisującym zawartość pakietu. Jeżeli plik \"package.xml\" jest obecny, jest on odczytywany przez FreeCAD i jego zawartość jest wykorzystywana w różnych częściach interfejsu użytkownika. Obecnie jest on opcjonalny dla środowisk pracy i makrodefinicji, a wymagany dla pakietów preferencji. Ta strona dokumentuje format tego pliku metadanych. Format *(i zawartość tej strony Wiki)* są oparte na [REP 149](https://ros.org/reps/rep-0149.html).
@@ -413,4 +409,4 @@ A package with dependencies:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Package Metadata/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Package Metadata/pl

@@ -1,6 +1,4 @@
 # Macros/it
-{{TOCright}}
-
 ## Introduzione
 
 Le macro sono un modo pratico per riprodurre delle azioni complesse in FreeCAd. È sufficiente registrare le azioni così come vengono eseguite, quindi salvare queste azioni con un nome, per poterle ripetere quando si vuole. Dato che le macro sono in realtà un elenco di comandi [Python](Python/it.md), è anche possibile modificarle e creare degli script molto complessi.
@@ -63,4 +61,4 @@ Ci sono due posti principali per le macro. Il primo è il repository di macro uf
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Macros](Category_Macros.md) > Macros/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Macros](Category_Macros.md) > Macros/it

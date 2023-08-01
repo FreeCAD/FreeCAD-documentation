@@ -3,7 +3,7 @@
 ## Introduction
 
 
-{{TOCright}}
+
 
 L\'<img alt="" src=images/Workbench_Points.svg  style="width:24px;"> [atelier Points](Points_Workbench/fr.md) offre des outils spécifiques pour travailler avec des [nuages de points](https://fr.wikipedia.org/wiki/Nuage_de_points_(g%C3%A9om%C3%A9trie)). L\'atelier est toujours en développement.
 
@@ -48,4 +48,4 @@ Tous les outils de l\'atelier Points sont accessibles depuis le menu **Points**.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/fr
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/fr

@@ -1,8 +1,4 @@
 # Part scripting/it
-{{TOCright}}
-
-
-
 ## Introduzione
 
 La struttura dati principale utilizzata nel modulo Parte è il tipo di dati [BRep](https://it.wikipedia.org/wiki/B-Rep) da [OpenCASCADE](OpenCASCADE/it.md). Quasi tutti i contenuti e i tipi di oggetti del modulo Part sono disponibili per lo scripting con [Python](Python/it.md). Ciò include le primitive geometriche, come linee, cerchi e archi, e l\'intera gamma di forme topografiche, come vertici, bordi, fili, facce, solidi e composti. Per ciascuno di questi oggetti esistono diversi metodi di creazione e per alcuni di essi, in particolare TopoShapes, sono disponibili anche operazioni avanzate come unione/differenza/intersezione booleana. Si possono esplorare i contenuti del modulo Parte, come descritto nella pagina [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md), per saperne di più.
@@ -260,4 +256,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Part](Part_Workbench.md) > Part scripting/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Part](Part_Workbench.md) > Part scripting/it

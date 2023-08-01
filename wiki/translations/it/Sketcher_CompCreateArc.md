@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher Arcs
-   Name/it:Archi
-   Empty:1
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Nessuno (solo sulla barra degli strumenti)
+   Name: Sketcher Arcs
+   Name/it: Archi
+   Empty: 1
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation: Nessuno (solo sulla barra degli strumenti)
 ---
 
 # Sketcher CompCreateArc/it
@@ -48,4 +48,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateArc/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateArc/it

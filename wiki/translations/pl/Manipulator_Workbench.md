@@ -5,7 +5,7 @@
 ## Wprowadzenie
 
 
-{{TOCright}}
+
 
 Środowisko pracy [Manipulator](Manipulator_Workbench/pl.md) to [zewnętrzne środowisko pracy](External_workbenches/pl.md) mające na celu pomoc użytkownikom FreeCAD w wyrównywaniu, przesuwaniu, obracaniu i mierzeniu obiektów 3D poprzez przyjazny GUI. Ta seria narzędzi pomaga Przemieszczać umiejscowienie i dokonywać Pomiarów obiektów i modeli STEP w programie FreeCAD.
 
@@ -163,4 +163,4 @@ Nowe środowiska pracy są w czasie tworzenia, bądź cierpliwy!
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Manipulator Workbench/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Manipulator Workbench/pl

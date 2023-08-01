@@ -1,11 +1,11 @@
 # Ship GZ/ru
 ---
 - GuiCommand:
-   Name:Ship PlotGZ
-   Name/ru:Ship PlotGZ
-   MenuLocation:Weights - GZ curve computation
-   Workbenches:[Ship](Ship_Workbench/ru.md)
-   Shortcut:   SeeAlso:---
+   Name: Ship PlotGZ
+   Name/ru: Ship PlotGZ
+   MenuLocation: Weights - GZ curve computation
+   Workbenches: [Ship](Ship_Workbench/ru.md)
+   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -22,4 +22,4 @@ TODO
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship GZ/ru
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship GZ/ru

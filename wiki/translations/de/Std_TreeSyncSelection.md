@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreeSyncSelection
-   Name/de:Std BaumSyncAuswahl
-   MenuLocation:View - Baumansicht-Aktionen - Sync-Auswahl
-   Workbenches:Alle
-   Shortcut:**T** **2**
-   Version:0.19
+   Name: Std TreeSyncSelection
+   Name/de: Std BaumSyncAuswahl
+   MenuLocation: View - Baumansicht-Aktionen - Sync-Auswahl
+   Workbenches: Alle
+   Shortcut: **T** **2**
+   Version: 0.19
 ---
 
 # Std TreeSyncSelection/de
@@ -42,4 +42,4 @@ Der Befehl **Std BaumSyncAuswahl** schaltet den Sync-Auswahl-Modus der [Baumansi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSyncSelection/de
+⏵ [documentation index](../README.md) > Std TreeSyncSelection/de

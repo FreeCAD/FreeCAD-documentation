@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveTorus
-   MenuLocation:Part Design - Create an additive primitive - Additive Torus
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md), [PartDesign SubtractiveTorus](PartDesign_SubtractiveTorus.md)
+   Name: PartDesign AdditiveTorus
+   MenuLocation: Part Design - Create an additive primitive - Additive Torus
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   Version: 0.17
+   SeeAlso: [PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md), [PartDesign SubtractiveTorus](PartDesign_SubtractiveTorus.md)
 ---
 
 # PartDesign AdditiveTorus
@@ -53,4 +53,4 @@ The Torus can be edited after its creation in two ways:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveTorus
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveTorus

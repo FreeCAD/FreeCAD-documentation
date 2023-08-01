@@ -1,6 +1,6 @@
 # Part Sweep/it
 ---
-- GuiCommand:   Name:Part Sweep   Name/it:Sweep   MenuLocation:Parte - Sweep...   |Workbenches:[SeeAlso:[[Part_Loft/it|Loft](Part_Workbench/it___Parte]].md)---
+- GuiCommand:   Name: Part Sweep   Name/it: Sweep   MenuLocation: Parte - Sweep...   |Workbenches: [SeeAlso: [[Part_Loft/it|Loft](Part_Workbench/it___Parte]].md)---
 
 
 </div>
@@ -161,4 +161,4 @@ Se \"Frenet\" è \"true\" l\'orientamento del profilo è calcolato basandosi sul
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/it

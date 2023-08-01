@@ -33,4 +33,4 @@ Location: ~/.quiltrc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > Git buildpackage/en
+⏵ [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > Git buildpackage/en

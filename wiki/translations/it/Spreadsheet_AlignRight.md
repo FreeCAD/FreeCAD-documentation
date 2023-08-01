@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet_AlignRight
-   Name/it:Allinea a destra
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)
-   MenuLocation:Spreadsheet - Allineamento - A destra
-   Version:0.17
+   Name: Spreadsheet_AlignRight
+   Name/it: Allinea a destra
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/it.md)
+   MenuLocation: Spreadsheet - Allineamento - A destra
+   Version: 0.17
 ---
 
 # Spreadsheet AlignRight/it
@@ -34,4 +34,4 @@ Lo strumento <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width:16p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignRight/it
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignRight/it

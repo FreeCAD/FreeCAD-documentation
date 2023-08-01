@@ -1,7 +1,7 @@
 # <img alt="Fasteners Workbench icon" src=images/Fasteners_workbench_icon.svg  style="width:64px;"> Fasteners Workbench/it
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -367,4 +367,4 @@ Fasteners with metric dimensions have orange icons. Fasteners with inch dimensio
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > [External Workbenches](Category_External Workbenches.md) > [Fasteners](Category_Fasteners.md) > Fasteners Workbench/it
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > [External Workbenches](Category_External Workbenches.md) > [Fasteners](Category_Fasteners.md) > Fasteners Workbench/it

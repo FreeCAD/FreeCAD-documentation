@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std RandomColor
-   Name/de:Std ZufälligeFarbe
-   MenuLocation:Ansicht - Zufällige Farbe
-   Workbenches:All
+   Name: Std RandomColor
+   Name/de: Std ZufälligeFarbe
+   MenuLocation: Ansicht - Zufällige Farbe
+   Workbenches: All
 ---
 
 # Std RandomColor/de
@@ -34,4 +34,4 @@ Der Befehl **Std ZufälligeFarbe** ordnet ausgewählten Objekten eine zufällige
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std RandomColor/de
+⏵ [documentation index](../README.md) > Std RandomColor/de

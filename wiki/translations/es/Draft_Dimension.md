@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Dimension
-   Name/es:Draft Dimension
-   MenuLocation:Croquis - Cotas
-   Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   Shortcut:**D** **I**
-   SeeAlso:[FlipDimension](Draft_FlipDimension/es.md)
+   Name: Draft Dimension
+   Name/es: Draft Dimension
+   MenuLocation: Croquis - Cotas
+   Workbenches: [Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut: **D** **I**
+   SeeAlso: [FlipDimension](Draft_FlipDimension/es.md)
 ---
 
 # Draft Dimension/es
@@ -381,4 +381,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/es

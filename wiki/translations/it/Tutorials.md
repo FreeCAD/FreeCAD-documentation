@@ -1,6 +1,4 @@
 # Tutorials/it
-{{TOCright}}
-
 Questa pagina presenta una selezione di tutorial di alta qualità. Un elenco completo e non ordinato di esercitazioni si trova nella pagina: [:Category:Tutorials/it](:Category:Tutorials/it.md), uno elenco completo e riordinabile si trova nella [tabella sottostante](Tutorials/it#Tutorial_-_Elenco_completo.md).
 
 Se desiderate contribuire alla stesura di documentazione e tutorial wiki, consultate le linee guida generali del wiki in [WikiPages](WikiPages.md), e leggete [Tutorial guidelines](Tutorial_guidelines.md).
@@ -329,4 +327,4 @@ Qui sono elencati tutti i tutorial che non sono nel manuale **indipendentemente 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials/it]],  uno elenco completo e riordinabile si trova  nella ](Category_Tutorials/it]],  uno elenco completo e riordinabile si trova  nella .md) > [Tutorials](Category_Tutorials.md) > Tutorials/it
+⏵ [documentation index](../README.md) > [Tutorials/it]],  uno elenco completo e riordinabile si trova  nella ](Category_Tutorials/it]],  uno elenco completo e riordinabile si trova  nella .md) > [Tutorials](Category_Tutorials.md) > Tutorials/it

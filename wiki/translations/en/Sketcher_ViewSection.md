@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ViewSection
-   MenuLocation:Sketch - View section
-   Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
-   Shortcut:**Q** **S**
-   Version:0.18
+   Name: Sketcher ViewSection
+   MenuLocation: Sketch - View section
+   Workbenches: [Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
+   Shortcut: **Q** **S**
+   Version: 0.18
 ---
 
 # Sketcher ViewSection/en
@@ -34,4 +34,4 @@ Several ways to invoke this command:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/en
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/en

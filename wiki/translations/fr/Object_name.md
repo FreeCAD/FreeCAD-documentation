@@ -2,7 +2,7 @@
 ## Introduction
 
 
-{{TOCright}}
+
 
 Tous les objets du programme ont un [object name](Object_name/fr.md) qui les identifie de manière unique dans un document donné.
 
@@ -135,4 +135,4 @@ La fonction `addObject` a deux arguments de chaîne de base.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Object name/fr
+⏵ [documentation index](../README.md) > Object name/fr

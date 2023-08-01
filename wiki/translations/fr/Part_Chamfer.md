@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part_Chamfer
-   Name/fr:Part Chanfrein
-   MenuLocation:Part - Chanfrein...
-   Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Part Congé](Part_Fillet/fr.md)
+   Name: Part_Chamfer
+   Name/fr: Part Chanfrein
+   MenuLocation: Part - Chanfrein...
+   Workbenches: [Part](Part_Workbench/fr.md)
+   SeeAlso: [Part Congé](Part_Fillet/fr.md)
 ---
 
 # Part Chamfer/fr
@@ -162,4 +162,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/fr

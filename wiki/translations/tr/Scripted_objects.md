@@ -1,6 +1,4 @@
 # Scripted objects/tr
-{{TOCright}}
-
 ## Introduction
 
 Besides the standard object types such as annotations, meshes and parts objects, FreeCAD also offers the amazing possibility to build 100% python-scripted parametric objects, called [Python Features](App_FeaturePython.md). Those objects will behave exactly as any other FreeCAD object, and are saved and restored automatically on file save/load.
@@ -1074,4 +1072,4 @@ In addition to the examples presented here have a look at FreeCAD source code [s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects/tr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects/tr

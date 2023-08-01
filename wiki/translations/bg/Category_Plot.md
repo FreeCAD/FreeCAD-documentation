@@ -10,4 +10,4 @@ This category lists pages related to the [Plot Workbench/bg](Plot_Workbench/bg.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Plot/bg
+⏵ [documentation index](../README.md) > Category:Plot/bg

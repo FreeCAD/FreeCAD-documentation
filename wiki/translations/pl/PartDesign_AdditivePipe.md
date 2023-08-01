@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditivePipe
-   Name/pl:PartDesign AdditivePipe
-   MenuLocation:Projekt Części - Utwórz cechę przez dodanie - Uzupełnianie wyciągnięciem wzdłuż ścieżki
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Uzupełnianie wyciągnięciem przez profile](PartDesign_AdditiveLoft/pl.md), [Odejmowanie wyciągnięciem wzdłuż ścieżki](PartDesign_SubtractivePipe/pl.md)
+   Name: PartDesign AdditivePipe
+   Name/pl: PartDesign AdditivePipe
+   MenuLocation: Projekt Części - Utwórz cechę przez dodanie - Uzupełnianie wyciągnięciem wzdłuż ścieżki
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Uzupełnianie wyciągnięciem przez profile](PartDesign_AdditiveLoft/pl.md), [Odejmowanie wyciągnięciem wzdłuż ścieżki](PartDesign_SubtractivePipe/pl.md)
 ---
 
 # PartDesign AdditivePipe/pl
@@ -120,4 +120,4 @@ Aby użyć więcej niż jednego przekroju, zacznij od pierwszego szkicu przekroj
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePipe/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePipe/pl

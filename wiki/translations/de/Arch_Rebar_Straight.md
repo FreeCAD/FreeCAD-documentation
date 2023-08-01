@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar Straight
-   Name/de:Arch Bewehrungsstab gerade
-   MenuLocation:Arch - Rebar tools - Straight Rebar oder 3D/BIM - Reinforcement tools - Gerade Bewehrung
-   Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
-   SeeAlso:[Verstärkung](Reinforcement_Workbench/de.md), [Bewehrungsstab](Arch_Rebar/de.md), [Bewehrung Stückliste](Arch_Rebar_BOM/de.md)
-   Version:0.17
+   Name: Arch Rebar Straight
+   Name/de: Arch Bewehrungsstab gerade
+   MenuLocation: Arch - Rebar tools - Straight Rebar oder 3D/BIM - Reinforcement tools - Gerade Bewehrung
+   Workbenches: [Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   SeeAlso: [Verstärkung](Reinforcement_Workbench/de.md), [Bewehrungsstab](Arch_Rebar/de.md), [Bewehrung Stückliste](Arch_Rebar_BOM/de.md)
+   Version: 0.17
 ---
 
 # Arch Rebar Straight/de
@@ -279,4 +279,4 @@ StraightRebar.editStraightRebar(Rebar4, 50, ("Right Side", 50), 100, 100,
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Straight/de
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Straight/de

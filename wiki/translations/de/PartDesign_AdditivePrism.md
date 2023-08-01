@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditivePrism
-   Name/de:PartDesign PrismaHinzufügen
-   MenuLocation:Part Design - Grundkörper Hinzufügen - Prisma
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[PartDesign AuswahlGrundkörperHinzufügen](PartDesign_CompPrimitiveAdditive/de.md), [PartDesign PrismaAbziehen](PartDesign_SubtractivePrism/de.md)
+   Name: PartDesign AdditivePrism
+   Name/de: PartDesign PrismaHinzufügen
+   MenuLocation: Part Design - Grundkörper Hinzufügen - Prisma
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [PartDesign AuswahlGrundkörperHinzufügen](PartDesign_CompPrimitiveAdditive/de.md), [PartDesign PrismaAbziehen](PartDesign_SubtractivePrism/de.md)
 ---
 
 # PartDesign AdditivePrism/de
@@ -71,4 +71,4 @@ Das Prisma kann nach seiner Erstellung auf zwei Arten bearbeitet werden:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePrism/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePrism/de

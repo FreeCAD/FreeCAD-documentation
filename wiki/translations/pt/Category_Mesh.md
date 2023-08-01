@@ -10,4 +10,4 @@ This category lists pages related to the [Mesh_Workbench/pt](Mesh_Workbench/pt.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Mesh/pt
+⏵ [documentation index](../README.md) > Category:Mesh/pt

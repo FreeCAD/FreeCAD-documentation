@@ -1,6 +1,4 @@
 # Package Metadata/en
-{{TOCright}}
-
 ## Introduction
 
 Beginning in FreeCAD version 0.20, external addons (workbenches, macros, and preference packs) may be distributed with a metadata file describing the contents of the package. If the file \"package.xml\" is present it is read by FreeCAD and its contents used in various parts of the user interface. It is currently optional for workbenches and macros, and required for preference packs. This page documents the format of that metadata file. The format (and the contents of this Wiki page) are based on [REP 149](https://ros.org/reps/rep-0149.html).
@@ -399,4 +397,4 @@ A package with dependencies:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Package Metadata/en
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Package Metadata/en

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Exposing C++ to Python
+⏵ [documentation index](../README.md) > Exposing C++ to Python

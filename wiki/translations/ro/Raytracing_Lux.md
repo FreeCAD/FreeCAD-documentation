@@ -1,6 +1,6 @@
 # Raytracing Lux/ro
 ---
-- GuiCommand:   Name:Raytracing Lux   MenuLocation:Raytracing - New Luxrender project‏‎   |Workbenches:[[Raytracing_Workbench   Raytracing]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Raytracing Lux   MenuLocation: Raytracing - New Luxrender project‏‎   |Workbenches: [[Raytracing_Workbench   Raytracing]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -64,4 +64,4 @@ Setările suplimentare de proiect ar necesita definirea unor șabloane supliment
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Lux/ro
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Lux/ro

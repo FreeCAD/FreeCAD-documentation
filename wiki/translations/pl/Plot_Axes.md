@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Plot Axes
-   Name/pl:Wykres: Konfiguruj osie
-   MenuLocation:Wykres - Konfiguruj osie
-   Workbenches:[Wykres](Plot_Workbench/pl.md)
+   Name: Plot Axes
+   Name/pl: Wykres: Konfiguruj osie
+   MenuLocation: Wykres - Konfiguruj osie
+   Workbenches: [Wykres](Plot_Workbench/pl.md)
 ---
 
 # Plot Axes/pl
@@ -56,4 +56,4 @@ Na koniec można ustawić minimalne i maksymalne wartości uwzględniane dla ka�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Axes/pl
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Axes/pl

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Task Panel/fr
+⏵ [documentation index](../README.md) > Task Panel/fr

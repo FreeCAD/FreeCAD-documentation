@@ -10,4 +10,4 @@ Ta kategoria gromadzi wszystkie artykuły dokumentujące to, co jest przewidzian
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Roadmap/pl
+⏵ [documentation index](../README.md) > Category:Roadmap/pl

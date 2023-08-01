@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Fasteners ChangeParameters
-   MenuLocation:Fasteners - Change fastener parameters
-   Workbenches:[Fasteners](Fasteners_Workbench.md)
-   Shortcut:None
-   SeeAlso:
+   Name: Fasteners ChangeParameters
+   MenuLocation: Fasteners - Change fastener parameters
+   Workbenches: [Fasteners](Fasteners_Workbench.md)
+   Shortcut: None
+   SeeAlso: 
 ---
 
 # Fasteners ChangeParameters/ru
@@ -37,4 +37,4 @@ The <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:24px;"> 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners ChangeParameters/ru
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners ChangeParameters/ru

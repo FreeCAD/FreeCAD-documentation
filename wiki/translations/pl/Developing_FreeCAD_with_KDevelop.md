@@ -21,4 +21,4 @@ The intention for this page is to help orient users who are inclined toward unde
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [3rd Party](Category_3rd Party.md) > Developing FreeCAD with KDevelop/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [3rd Party](Category_3rd Party.md) > Developing FreeCAD with KDevelop/pl

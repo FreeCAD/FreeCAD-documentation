@@ -89,4 +89,4 @@ Si può anche dare un alias a vincoli dimensionali (orizzontale, verticale o dis
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Using spreadsheets/it
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Using spreadsheets/it

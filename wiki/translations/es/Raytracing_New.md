@@ -1,6 +1,6 @@
 # Raytracing New/es
 ---
-- GuiCommand:   Name:Raytracing New   Name/es:Raytracing New   MenuLocation:Raytracing - New‏‎   |Workbenches:[[Raytracing_Workbench/es   Raytracing]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Raytracing New   Name/es: Raytracing New   MenuLocation: Raytracing - New‏‎   |Workbenches: [[Raytracing_Workbench/es   Raytracing]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -33,4 +33,4 @@ Insert new PovRay project in the document.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing New/es
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing New/es

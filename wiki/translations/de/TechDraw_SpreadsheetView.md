@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:TechDraw SpreadsheetView
-   Name/de:TechDraw Tabellenansicht
-   MenuLocation:TechDraw - Views From Other Workbenches - Tabellenansicht einfügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md), [Spreadsheet](Spreadsheet_Workbench/de.md)
+   Name: TechDraw SpreadsheetView
+   Name/de: TechDraw Tabellenansicht
+   MenuLocation: TechDraw - Views From Other Workbenches - Tabellenansicht einfügen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md), [Spreadsheet](Spreadsheet_Workbench/de.md)
 ---
 
 # TechDraw SpreadsheetView/de
@@ -75,4 +75,4 @@ Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SpreadsheetView/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SpreadsheetView/de

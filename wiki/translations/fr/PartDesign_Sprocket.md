@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Sprocket
-   Name/fr:PartDesign Pignon
-   MenuLocation:Part Design - Pignon...
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.19
+   Name: PartDesign Sprocket
+   Name/fr: PartDesign Pignon
+   MenuLocation: Part Design - Pignon...
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   Version: 0.19
 ---
 
 # PartDesign Sprocket/fr
@@ -48,4 +48,4 @@ Cet outil vous permet de créer un profil 2D d\'un pignon (ou roue à chaîne). 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Sprocket/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Sprocket/fr

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Creating a FeaturePython Box, Part II/pl
+⏵ [documentation index](../README.md) > Creating a FeaturePython Box, Part II/pl

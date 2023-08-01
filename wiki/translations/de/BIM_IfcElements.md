@@ -1,11 +1,11 @@
 ---
 - GuiCommand:Addon/de
-   Name:BIM IfcElements
-   Name/de:BIM IfcElemente
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
-   Addon:BIM
-   MenuLocation:Verwalten - IFC Elemente
-   SeeAlso:[BIM IfcEigenschaften](BIM_IfcProperties/de.md),[BIM IfcGrößen](BIM_IfcQuantities/de.md)
+   Name: BIM IfcElements
+   Name/de: BIM IfcElemente
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
+   Addon: BIM
+   MenuLocation: Verwalten - IFC Elemente
+   SeeAlso: [BIM IfcEigenschaften](BIM_IfcProperties/de.md),[BIM IfcGrößen](BIM_IfcQuantities/de.md)
 ---
 
 # BIM IfcElements/de
@@ -26,4 +26,4 @@ Damit kannst du:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM IfcElements/de
+⏵ [documentation index](../README.md) > BIM IfcElements/de

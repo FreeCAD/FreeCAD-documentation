@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FCGear HypoCycloidGear
-   Name/fr:FCGear Engrenage hypocycloïde
-   MenuLocation:Gear - HypoCycloid Gear
-   Workbenches:[FCGear](FCGear_Workbench/fr.md)
-   Shortcut:Aucun
-   Version:1.0
-   SeeAlso:
+   Name: FCGear HypoCycloidGear
+   Name/fr: FCGear Engrenage hypocycloïde
+   MenuLocation: Gear - HypoCycloid Gear
+   Workbenches: [FCGear](FCGear_Workbench/fr.md)
+   Shortcut: Aucun
+   Version: 1.0
+   SeeAlso: 
 ---
 
 # FCGear HypoCycloidGear/fr
@@ -52,4 +52,4 @@ Pour afficher les disques à cames et le jeu de galets (broches) dans des couleu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear HypoCycloidGear/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear HypoCycloidGear/fr

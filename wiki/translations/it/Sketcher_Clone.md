@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher_Clone
-   Name/it:Clona
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch - Strumenti - Clona
-   Version:0.16
-   SeeAlso:[Sketcher Copia](Sketcher_Copy/it.md), [Sketcher Sposta](Sketcher_Move/it.md)
+   Name: Sketcher_Clone
+   Name/it: Clona
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation: Sketch - Strumenti - Clona
+   Version: 0.16
+   SeeAlso: [Sketcher Copia](Sketcher_Copy/it.md), [Sketcher Sposta](Sketcher_Move/it.md)
 ---
 
 # Sketcher Clone/it
@@ -50,4 +50,4 @@ Per il clone non vengono aggiunti vincoli specifici.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/it

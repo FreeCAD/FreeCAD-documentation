@@ -30,4 +30,4 @@ Ces icônes se trouvent dans le chemin source indiqué de la branche de Realthun
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Assembly](Category_Assembly.md) > Artwork Assembly3/fr
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Assembly](Category_Assembly.md) > Artwork Assembly3/fr

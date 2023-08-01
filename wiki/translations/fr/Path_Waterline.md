@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path Waterline
-   Name/fr:Path Lignes de niveau
-   MenuLocation:Path - Lignes de niveau
-   Workbenches:[Path](Path_Workbench/fr.md)
-   Version:0.19
+   Name: Path Waterline
+   Name/fr: Path Lignes de niveau
+   MenuLocation: Path - Lignes de niveau
+   Workbenches: [Path](Path_Workbench/fr.md)
+   Version: 0.19
 ---
 
 # Path Waterline/fr
@@ -298,4 +298,4 @@ Cette section est simplement une représentation des paramètres de l'éditeur d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Waterline/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Waterline/fr

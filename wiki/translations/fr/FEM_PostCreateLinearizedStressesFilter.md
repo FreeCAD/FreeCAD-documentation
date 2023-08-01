@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FEM PostCreateLinearizedStressesFilter/fr
+⏵ [documentation index](../README.md) > FEM PostCreateLinearizedStressesFilter/fr

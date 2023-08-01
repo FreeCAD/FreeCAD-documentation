@@ -92,4 +92,4 @@ for tree in trees:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro ExpandTreeItem/pl
+⏵ [documentation index](../README.md) > Macro ExpandTreeItem/pl

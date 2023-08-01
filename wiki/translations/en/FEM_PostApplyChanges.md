@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:FEM PostApplyChanges
-   MenuLocation:Results - Apply changes to pipeline
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[Std Refresh](Std_Refresh.md), [FEM Filter functions](FEM_PostCreateFunctions.md)
+   Name: FEM PostApplyChanges
+   MenuLocation: Results - Apply changes to pipeline
+   Workbenches: [FEM](FEM_Workbench.md)
+   SeeAlso: [Std Refresh](Std_Refresh.md), [FEM Filter functions](FEM_PostCreateFunctions.md)
 ---
 
 # FEM PostApplyChanges/en
@@ -31,4 +31,4 @@ Click the toolbar button **<img src="images/FEM_PostApplyChanges.svg" width=16px
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostApplyChanges/en
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostApplyChanges/en

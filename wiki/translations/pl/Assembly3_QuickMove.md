@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 QuickMove
-   Icon:Assembly_QuickMove.svg‎‎
-   MenuLocation:Assembly3 - Quick move
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
-   Shortcut:**A** then **Q**
+   Name: Assembly3 QuickMove
+   Icon: Assembly_QuickMove.svg‎‎
+   MenuLocation: Assembly3 - Quick move
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
+   Shortcut: **A** then **Q**
 ---
 
 # Assembly3 QuickMove/pl
@@ -40,4 +40,4 @@ The <img alt="" src=images/Assembly_QuickMove.svg  style="width:24px;"> [Quick m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 QuickMove/pl
+⏵ [documentation index](../README.md) > Assembly3 QuickMove/pl

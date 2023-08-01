@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPointsProjectDistance
-   Name/de:Assembly3 ProjizierterPunktabstand
-   Icon:Assembly_ConstraintPointsProjectDistance.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintPointsProjectDistance
+   Name/de: Assembly3 ProjizierterPunktabstand
+   Icon: Assembly_ConstraintPointsProjectDistance.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintPointsProjectDistance/de
@@ -29,4 +29,4 @@ Ausgehend von der Ausrichtung der Geraden (die Z-Achse ihres lokalen Koordinaten
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointsProjectDistance/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPointsProjectDistance/de

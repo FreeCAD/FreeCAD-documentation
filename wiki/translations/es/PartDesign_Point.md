@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign Point
-   Name/es:Punto de referencia PartDesign
-   Workbenches:[PartDesign](PartDesign_Workbench/es.md)
-   MenuLocation:Part Design - Crear un punto de referencia
-   Version:0.17
-   SeeAlso:[Línea PartDesign](PartDesign_Line/es.md), [Plano PartDesign](PartDesign_Plane/es.md)
+   Name: PartDesign Point
+   Name/es: Punto de referencia PartDesign
+   Workbenches: [PartDesign](PartDesign_Workbench/es.md)
+   MenuLocation: Part Design - Crear un punto de referencia
+   Version: 0.17
+   SeeAlso: [Línea PartDesign](PartDesign_Line/es.md), [Plano PartDesign](PartDesign_Plane/es.md)
 ---
 
 # PartDesign Point/es
@@ -57,4 +57,4 @@ Double-click the DatumPoint label in the Model tree or right-click and select **
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Point/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Point/es

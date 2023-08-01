@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Text
-   Name/tr:Metin
-   MenuLocation:Taslak - Metin
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   Shortcut:**T** **E**
-   Version/tr:0.7
-   SeeAlso:[Etiket](Draft_Label/tr.md), [Şekil dizesi](Draft_ShapeString/tr.md)
+   Name: Draft Text
+   Name/tr: Metin
+   MenuLocation: Taslak - Metin
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   Shortcut: **T** **E**
+   Version/tr: 0.7
+   SeeAlso: [Etiket](Draft_Label/tr.md), [Şekil dizesi](Draft_ShapeString/tr.md)
 ---
 
 # Draft Text/tr
@@ -256,4 +256,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Text/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Text/tr

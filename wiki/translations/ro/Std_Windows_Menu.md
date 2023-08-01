@@ -1,7 +1,7 @@
 # <img alt="Std Base icon" src=images/Freecad.svg  style="width:64px;"> Std Windows Menu/ro
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -82,4 +82,4 @@ Ferestre\...
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Windows Menu/ro
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Windows Menu/ro

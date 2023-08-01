@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Measure Linear
-   Name/ro:Part Measure Linear
-   MenuLocation:Measure - Measure Linear‏‎
-   Workbenches:[Part](Part_Workbench/ro.md)
+   Name: Part Measure Linear
+   Name/ro: Part Measure Linear
+   MenuLocation: Measure - Measure Linear‏‎
+   Workbenches: [Part](Part_Workbench/ro.md)
 ---
 
 # Part Measure Linear/ro
@@ -49,4 +49,4 @@ The appearance of the measurements can be changed in the [preferences](PartDesig
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Linear/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Linear/ro

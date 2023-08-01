@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign Line
-   Name/pl:Projekt Części: Utwórz linię odniesienia
-   MenuLocation:Projekt Części - Utwórz układ odniesienia - Utwórz linię odniesienia
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Utwórz punkt odniesienia](PartDesign_Point/pl.md), [Utwórz płaszczyznę odniesienia](PartDesign_Plane/pl.md)
+   Name: PartDesign Line
+   Name/pl: Projekt Części: Utwórz linię odniesienia
+   MenuLocation: Projekt Części - Utwórz układ odniesienia - Utwórz linię odniesienia
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Utwórz punkt odniesienia](PartDesign_Point/pl.md), [Utwórz płaszczyznę odniesienia](PartDesign_Plane/pl.md)
 ---
 
 # PartDesign Line/pl
@@ -58,4 +58,4 @@ Kliknij dwukrotnie etykietę LiniaOdniesienia w drzewie modelu lub kliknij prawy
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Line/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Line/pl

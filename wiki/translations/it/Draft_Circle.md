@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Circle
-   Name/it:Cerchio
-   MenuLocation:Drafting - Cerchio
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:**C** **I**
-   Version:0.7
-   SeeAlso:[Arco](Draft_Arc/it.md), [Arco da 3 punti](Draft_Arc_3Points/it.md)
+   Name: Draft Circle
+   Name/it: Cerchio
+   MenuLocation: Drafting - Cerchio
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut: **C** **I**
+   Version: 0.7
+   SeeAlso: [Arco](Draft_Arc/it.md), [Arco da 3 punti](Draft_Arc_3Points/it.md)
 ---
 
 # Draft Circle/it
@@ -148,4 +148,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Circle/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Circle/it

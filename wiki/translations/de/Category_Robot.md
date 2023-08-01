@@ -16,4 +16,4 @@ Diese Kategorie zeigt eine Liste von Seiten, die zum [Robot](Robot_Workbench/de.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Robot/de
+⏵ [documentation index](../README.md) > Category:Robot/de

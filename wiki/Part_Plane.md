@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Plane
-   MenuLocation:Part - [Create primitives](Part_Primitives.md) - Plane
-   Workbenches:[Part](Part_Workbench.md), [OpenSCAD](OpenSCAD_Workbench.md)
-   SeeAlso:[Part Primitives](Part_Primitives.md)
+   Name: Part Plane
+   MenuLocation: Part - [Create primitives](Part_Primitives.md) - Plane
+   Workbenches: [Part](Part_Workbench.md), [OpenSCAD](OpenSCAD_Workbench.md)
+   SeeAlso: [Part Primitives](Part_Primitives.md)
 ---
 
 # Part Plane
@@ -82,4 +82,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Upgrade
-   Name/tr:Yükselt
-   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
-   MenuLocation:Draft - Upgrade
-   Shortcut:**U** **P**
-   SeeAlso:[Draft Downgrade](Draft_Downgrade/tr.md)
+   Name: Draft Upgrade
+   Name/tr: Yükselt
+   Workbenches: [Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   MenuLocation: Draft - Upgrade
+   Shortcut: **U** **P**
+   SeeAlso: [Draft Downgrade](Draft_Downgrade/tr.md)
 ---
 
 # Draft Upgrade/tr
@@ -88,4 +88,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Upgrade/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Upgrade/tr

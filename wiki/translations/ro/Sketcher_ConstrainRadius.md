@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainRadius
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   MenuLocation:Sketch - Sketcher constraints - Constrain radius
-   SeeAlso:[Constrain distance](Sketcher_ConstrainDistance.md), [Constrain horizontal distance](Sketcher_ConstrainDistanceX.md), [Constrain vertical distance](Sketcher_ConstrainDistanceY.md)
+   Name: Sketcher ConstrainRadius
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch - Sketcher constraints - Constrain radius
+   SeeAlso: [Constrain distance](Sketcher_ConstrainDistance.md), [Constrain horizontal distance](Sketcher_ConstrainDistanceX.md), [Constrain vertical distance](Sketcher_ConstrainDistanceY.md)
 ---
 
 # Sketcher ConstrainRadius/ro
@@ -85,4 +85,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadius/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadius/ro

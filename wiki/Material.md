@@ -2,7 +2,7 @@
 ## Overview
 
 
-{{TOCright}}
+
 
 This page is about the Material data system in FreeCAD.
 
@@ -170,4 +170,4 @@ This section defines material-properties which are related to the visual appeara
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > [Roadmap](Category_Roadmap.md) > [BIM](Category_BIM.md) > [File_Formats](Category_File_Formats.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > Material
+⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > [Roadmap](Category_Roadmap.md) > [BIM](Category_BIM.md) > [File_Formats](Category_File_Formats.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > Material

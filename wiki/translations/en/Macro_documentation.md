@@ -1,6 +1,4 @@
 # Macro documentation/en
-{{TOCright}}
-
 ## Description
 
 All macros should be properly documented in the same way [Gui Commands](Gui_Command.md) are documented.
@@ -205,4 +203,4 @@ In order to include the macro there, first it must be reviewed by the FreeCAD co
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Macros](Category_Macros.md) > [User Documentation](Category_User Documentation.md) > Macro documentation/en
+⏵ [documentation index](../README.md) > [Macros](Category_Macros.md) > [User Documentation](Category_User Documentation.md) > Macro documentation/en

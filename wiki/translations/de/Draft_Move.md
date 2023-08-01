@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Move
-   Name/de:Draft Verschieben
-   MenuLocation:Änderung - Verschieben
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Shortcut:**M****V**
-   Version:0.7
-   SeeAlso:[Draft UnterelementHervorheben](Draft_SubelementHighlight/de.md)
+   Name: Draft Move
+   Name/de: Draft Verschieben
+   MenuLocation: Änderung - Verschieben
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut: **M****V**
+   Version: 0.7
+   SeeAlso: [Draft UnterelementHervorheben](Draft_SubelementHighlight/de.md)
 ---
 
 # Draft Move/de
@@ -127,4 +127,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move/de

@@ -8,7 +8,7 @@
 </div>
 
 
-{{TOCright}}
+
 
 ![](images/Screenshot_treeview.jpg ) FreeCAD 문서는 scene의 모든 객체를 포함합니다. It can contain groups, and objects made with any workbench. You can therefore switch between workbenches, and still work on the same document. The document is what gets saved to disk when you save your work. You can also open several documents at the same time in FreeCAD, and open several views of the same document.
 
@@ -57,4 +57,4 @@ FreeCADGui.ActiveDocument.ActiveView
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Document structure/ko
+⏵ [documentation index](../README.md) > Document structure/ko

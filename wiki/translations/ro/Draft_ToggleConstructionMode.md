@@ -1,6 +1,6 @@
 # Draft ToggleConstructionMode/ro
 ---
-- GuiCommand:   Name:Draft ToggleConstructionMode   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft - Utilities - Toggle construction mode   SeeAlso:[[Draft_AddConstruction]]---
+- GuiCommand:   Name: Draft ToggleConstructionMode   Workbenches: [Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation: Draft - Utilities - Toggle construction mode   SeeAlso: [[Draft_AddConstruction]]---
 
 
 </div>
@@ -54,4 +54,4 @@ Atelierul Draft prezintă un mod de construcție ( ToggleConstructionMode) care 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/ro

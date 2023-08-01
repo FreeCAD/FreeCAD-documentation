@@ -2,7 +2,7 @@
 **Seit dem 7. Juli 2019 beobachtet die FreeCAD Gemeinschaft, dass das Herunterladen von AppImages von Github vor der Fertigstellung eine Zeitüberschreitung zu haben scheint. Wir sind uns nicht sicher, warum dies geschieht. Wenn dies bei dir passiert, versuche bitte das Herunterladen erneut. Es kann ein paar Versuche dauern. Es wird empfohlen, die Funktion AppImage [https://www.freecadweb.org/wiki/Appimage#Automatic_updating Auto-Aktualisierungsfunktion] zu verwenden, die das Herunterladen an der Stelle wiederherstellt, an der er fehlgeschlagen ist.**
 
 
-{{TOCright}}
+
 
 
 
@@ -209,4 +209,4 @@ Das Repositorium für diese Skripte befindet sich unter [realthunder/FreeCADMake
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > [Testing](Category_Testing.md) > AppImage/de
+⏵ [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > [Testing](Category_Testing.md) > AppImage/de

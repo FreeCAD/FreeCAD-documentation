@@ -1,6 +1,4 @@
 # Draft Constrain/fr
-{{TOCright}}
-
 ## Description
 
 En plus de la saisie de coordonnées ou de l\'utilisation de l\'[aimantation](Draft_Snap/fr.md), il existe une fonctionnalité appelée contrainte qui vous aide à dessiner avec précision dans l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) et l\'<img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [atelier Arch](Arch_Workbench/fr.md). Pour chaque point consécutif, vous pouvez contraindre le mouvement du curseur à la direction X, Y ou Z du système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). Ceci peut par exemple être utilisé pour créer une ligne parfaitement verticale.
@@ -50,4 +48,4 @@ Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Pr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Constrain/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Constrain/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std HideSelection
-   Name/it:Nascondi la selezione
-   MenuLocation:Visualizza - Visibilità - Nascondi la selezione
-   Workbenches:Tutti
-   SeeAlso:[Mostra/Nascondi](Std_ToggleVisibility/it.md), [Mostra la selezione](Std_ShowSelection/it.md), [Commuta tutti gli oggetti](Std_ToggleObjects/it.md), [Mostra tutti gli oggetti](Std_ShowObjects/it.md), [Nascondi tutti gli oggetti](Std_HideObjects/it.md)
+   Name: Std HideSelection
+   Name/it: Nascondi la selezione
+   MenuLocation: Visualizza - Visibilità - Nascondi la selezione
+   Workbenches: Tutti
+   SeeAlso: [Mostra/Nascondi](Std_ToggleVisibility/it.md), [Mostra la selezione](Std_ShowSelection/it.md), [Commuta tutti gli oggetti](Std_ToggleObjects/it.md), [Mostra tutti gli oggetti](Std_ShowObjects/it.md), [Nascondi tutti gli oggetti](Std_HideObjects/it.md)
 ---
 
 # Std HideSelection/it
@@ -56,4 +56,4 @@ Per un esempio di script vedere [Commutare la visibilità](Std_ToggleVisibility/
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std HideSelection/it
+⏵ [documentation index](../README.md) > Std HideSelection/it

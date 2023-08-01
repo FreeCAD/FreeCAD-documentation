@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/de:[Arch Tür](Arch_Door/de.md)
-   MenuLocation:Arch - Fenster
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   Shortcut:**W** **I**
-   SeeAlso:[Wand](Arch_Wall/de.md), [Fenster](Arch_Window/de.md)
-   Icon:Arch_Window.svg
+   Name/de: [Arch Tür](Arch_Door/de.md)
+   MenuLocation: Arch - Fenster
+   Workbenches: [Arch](Arch_Workbench/de.md)
+   Shortcut: **W** **I**
+   SeeAlso: [Wand](Arch_Wall/de.md), [Fenster](Arch_Window/de.md)
+   Icon: Arch_Window.svg
 ---
 
 # Arch Door/de
@@ -28,4 +28,4 @@ Alle Eigenschaften werden im [Arch Fenster](Arch_Window/de.md)-Werkzeug beschrie
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Door/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Door/de

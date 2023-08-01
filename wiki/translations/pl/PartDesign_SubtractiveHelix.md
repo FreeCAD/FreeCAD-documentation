@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractiveHelix
-   Name/pl:Projekt Części: Subtraktywna helisa
-   MenuLocation:Projekt Części - Utwórz cechę przez odjęcie -  Subtraktywna helisa
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   Version:0.19
-   SeeAlso:[Addytywna helisa](PartDesign_AdditiveHelix/pl.md)
+   Name: PartDesign SubtractiveHelix
+   Name/pl: Projekt Części: Subtraktywna helisa
+   MenuLocation: Projekt Części - Utwórz cechę przez odjęcie -  Subtraktywna helisa
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   Version: 0.19
+   SeeAlso: [Addytywna helisa](PartDesign_AdditiveHelix/pl.md)
 ---
 
 # PartDesign SubtractiveHelix/pl
@@ -161,4 +161,4 @@ Jeśli opcja ta jest zaznaczona, helisa będzie wyświetlana w oknie widoku w tr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveHelix/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveHelix/pl

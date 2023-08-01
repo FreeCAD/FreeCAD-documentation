@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher_CarbonCopy
-   Name/it:Copia carbone
-   MenuLocation:Sketch - Geometrie - Copia carbone
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   Version:0.17
+   Name: Sketcher_CarbonCopy
+   Name/it: Copia carbone
+   MenuLocation: Sketch - Geometrie - Copia carbone
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   Version: 0.17
 ---
 
 # Sketcher CarbonCopy/it
@@ -72,4 +72,4 @@ I vincoli dimensionali che esistono prima della funzione di copia rimangono coll
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CarbonCopy/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CarbonCopy/it

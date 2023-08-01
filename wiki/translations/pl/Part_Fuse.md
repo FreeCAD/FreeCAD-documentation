@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Fuse
-   Name/pl:Część: Połączenie
-   MenuLocation:Część - Operacje logiczne - Połączenie
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Wytnij](Part_Cut/pl.md), [Część wspólna](Part_Common/pl.md), [Operacja logiczna](Part_Boolean/pl.md)
+   Name: Part Fuse
+   Name/pl: Część: Połączenie
+   MenuLocation: Część - Operacje logiczne - Połączenie
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: [Wytnij](Part_Cut/pl.md), [Część wspólna](Part_Common/pl.md), [Operacja logiczna](Part_Boolean/pl.md)
 ---
 
 # Part Fuse/pl
@@ -51,4 +51,4 @@ Po zakończeniu tej operacji może być konieczne wyczyszczenie kształtu za pom
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/pl

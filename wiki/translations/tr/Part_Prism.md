@@ -1,12 +1,12 @@
 # Part Prism/tr
 ---
 - GuiCommand:
-   Name:Part Prism
-   Name/tr:Parça Prizma
-   MenuLocation:Parça - [Temel geometrik şekil oluştur](Part_CreatePrimitives/tr.md) - Prizma
-   Workbenches:[Parça](Part_Workbench/tr.md)
-   Version:0.14
-   SeeAlso:Parça - Temel Geometrik Şekil - [Kutu](Part_Box/tr.md)---
+   Name: Part Prism
+   Name/tr: Parça Prizma
+   MenuLocation: Parça - [Temel geometrik şekil oluştur](Part_CreatePrimitives/tr.md) - Prizma
+   Workbenches: [Parça](Part_Workbench/tr.md)
+   Version: 0.14
+   SeeAlso: Parça - Temel Geometrik Şekil - [Kutu](Part_Box/tr.md)---
 
 
 </div>
@@ -117,4 +117,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Prism/tr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Prism/tr

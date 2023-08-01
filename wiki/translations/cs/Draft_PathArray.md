@@ -1,6 +1,6 @@
 # Draft PathArray/cs
 ---
-- GuiCommand:   Name:Draft PathArray   Name/cs:Kreslení TrasovéPole   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft - PathArray   SeeAlso:[Draft Array](Draft_Array/cs.md) ---
+- GuiCommand:   Name: Draft PathArray   Name/cs: Kreslení TrasovéPole   Workbenches: [Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation: Draft - PathArray   SeeAlso: [Draft Array](Draft_Array/cs.md) ---
 
 
 </div>
@@ -283,4 +283,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathArray/cs
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathArray/cs

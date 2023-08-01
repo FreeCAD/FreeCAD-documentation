@@ -1,8 +1,4 @@
 # FEM Install/es
-{{TOCright}}
-
-
-
 ## Introducción
 
 
@@ -280,4 +276,4 @@ Si tiene problemas para instalar Netgen, Gmsh, o CalculiX, u otra herramienta ex
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Install/es
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Install/es

@@ -10,4 +10,4 @@ This category lists pages related to the [OpenSCAD_Workbench/tr](OpenSCAD_Workbe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:OpenSCAD/tr
+⏵ [documentation index](../README.md) > Category:OpenSCAD/tr

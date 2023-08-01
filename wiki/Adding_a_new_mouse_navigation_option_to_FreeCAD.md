@@ -49,4 +49,4 @@ We can refer to previous code commits that added different mouse modes for orien
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Developer Documentation](Category_Developer Documentation.md) > Adding a new mouse navigation option to FreeCAD
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Developer Documentation](Category_Developer Documentation.md) > Adding a new mouse navigation option to FreeCAD

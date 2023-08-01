@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Lattice2 AttachablePlacement
-   Name/fr:Lattice2 AttachablePlacement
-   MenuLocation:Lattice2 - Attached Placement - Attached Placement
-   Workbenches:[Lattice2](Lattice2_Workbench/fr.md)
-   Shortcut:
-   SeeAlso:
+   Name: Lattice2 AttachablePlacement
+   Name/fr: Lattice2 AttachablePlacement
+   MenuLocation: Lattice2 - Attached Placement - Attached Placement
+   Workbenches: [Lattice2](Lattice2_Workbench/fr.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Lattice2 AttachablePlacement/fr
@@ -36,4 +36,4 @@ La commande <img alt="" src=images/Lattice2_AttachablePlacement.svg  style="widt
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Lattice2](Category_Lattice2.md) > Lattice2 AttachablePlacement/fr
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Lattice2](Category_Lattice2.md) > Lattice2 AttachablePlacement/fr

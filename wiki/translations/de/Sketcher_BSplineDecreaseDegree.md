@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher BSplineDecreaseDegree
-   Name/de:Sketcher BSplineGradVerringern
-   MenuLocation:Sketch - B-Spline-Werkzeuge - Grad des B-Splines verringern
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[BSplineGrad](Sketcher_BSplineDegree/de.md), [BSplineGradVerringern](Sketcher_BSplineIncreaseDegree/de.md)
+   Name: Sketcher BSplineDecreaseDegree
+   Name/de: Sketcher BSplineGradVerringern
+   MenuLocation: Sketch - B-Spline-Werkzeuge - Grad des B-Splines verringern
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [BSplineGrad](Sketcher_BSplineDegree/de.md), [BSplineGradVerringern](Sketcher_BSplineIncreaseDegree/de.md)
 ---
 
 # Sketcher BSplineDecreaseDegree/de
@@ -49,4 +49,4 @@ If you take this result and increase the degree, you cannot get the initial stat
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDecreaseDegree/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDecreaseDegree/de

@@ -10,4 +10,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Template:Link
+⏵ [documentation index](../README.md) > Category:Template:Link

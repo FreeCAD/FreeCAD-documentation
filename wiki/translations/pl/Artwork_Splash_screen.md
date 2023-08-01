@@ -1,6 +1,4 @@
 # Artwork Splash screen/pl
-{{TOCright}}
-
 Są to ekrany powitalne, które zostały użyte w poszczególnych wersjach programu.
 
 ## FreeCAD 0.20 
@@ -54,4 +52,4 @@ Są to ekrany powitalne, które zostały użyte w poszczególnych wersjach progr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Splash screen/pl
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Splash screen/pl

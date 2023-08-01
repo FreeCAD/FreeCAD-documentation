@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign_ShapeBinder
-   Name/it:Forme legate
-   Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:Part Design - forme legate
-   Version:0.17
-   SeeAlso:[PartDesign Forme legate secondarie](PartDesign_SubShapeBinder/it.md),
+   Name: PartDesign_ShapeBinder
+   Name/it: Forme legate
+   Workbenches: [PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation: Part Design - forme legate
+   Version: 0.17
+   SeeAlso: [PartDesign Forme legate secondarie](PartDesign_SubShapeBinder/it.md),
  [Clone](PartDesign_Clone/it.md)
 ---
 
@@ -171,4 +171,4 @@ Ecco come utilizzare la funzione ShapeBinder per ottenerlo:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/it

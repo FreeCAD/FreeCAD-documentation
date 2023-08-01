@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubShapeBinder
-   Name/fr:PartDesign Sous forme liée
-   MenuLocation:PartDesign - Créer une forme liée du sous-objet(s)
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[PartDesign Forme liée](PartDesign_ShapeBinder/fr.md), [PartDesign Clone](PartDesign_Clone/fr.md)
+   Name: PartDesign SubShapeBinder
+   Name/fr: PartDesign Sous forme liée
+   MenuLocation: PartDesign - Créer une forme liée du sous-objet(s)
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   Version: 0.19
+   SeeAlso: [PartDesign Forme liée](PartDesign_ShapeBinder/fr.md), [PartDesign Clone](PartDesign_Clone/fr.md)
 ---
 
 # PartDesign SubShapeBinder/fr
@@ -139,4 +139,4 @@ Un objet PartDesign Sous forme liée est dérivé d\'un objet [Part Feature](Par
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubShapeBinder/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubShapeBinder/fr

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher BSplineIncreaseKnotMultiplicity
-   Name/pl:Szkicownik: Zmniejsz krotność węzła krzywej złożonej
-   MenuLocation:Szkic - Narzędzia szkicownika krzywej złożonej - Zmniejsz krotność węzła krzywej złożonej
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Pokaż / ukryj wyświetlanie węzłów krzywej złożonej](Sketcher_BSplineKnotMultiplicity/pl.md), [Zmniejsz krotność węzła krzywej złożonej](Sketcher_BSplineDecreaseKnotMultiplicity/pl.md)
+   Name: Sketcher BSplineIncreaseKnotMultiplicity
+   Name/pl: Szkicownik: Zmniejsz krotność węzła krzywej złożonej
+   MenuLocation: Szkic - Narzędzia szkicownika krzywej złożonej - Zmniejsz krotność węzła krzywej złożonej
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Pokaż / ukryj wyświetlanie węzłów krzywej złożonej](Sketcher_BSplineKnotMultiplicity/pl.md), [Zmniejsz krotność węzła krzywej złożonej](Sketcher_BSplineDecreaseKnotMultiplicity/pl.md)
 ---
 
 # Sketcher BSplineIncreaseKnotMultiplicity/pl
@@ -53,4 +53,4 @@ Można zauważyć, że krzywa z krotnością węzła 1 jest całkowicie zmienion
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineIncreaseKnotMultiplicity/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineIncreaseKnotMultiplicity/pl

@@ -30,4 +30,4 @@ This category includes FreeCAD pages related to PartDesign
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:PartDesign/pt-br
+⏵ [documentation index](../README.md) > Category:PartDesign/pt-br

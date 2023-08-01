@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std SaveAll
-   Name/de:Std AllesSpeichern
-   MenuLocation:Datei - Alles speichern
-   Workbenches:Alle
-   SeeAlso:[Std Speichern](Std_Save/de.md)
+   Name: Std SaveAll
+   Name/de: Std AllesSpeichern
+   MenuLocation: Datei - Alles speichern
+   Workbenches: Alle
+   SeeAlso: [Std Speichern](Std_Save/de.md)
 ---
 
 # Std SaveAll/de
@@ -46,4 +46,4 @@ Um ein Dokument zu speichern, benutze die `save`-Methode des Dokument-Objekts. E
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SaveAll/de
+⏵ [documentation index](../README.md) > Std SaveAll/de

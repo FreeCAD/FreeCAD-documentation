@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreatePoint
-   MenuLocation:Sketch - Sketcher geometries - Create point
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**G** **Y**
+   Name: Sketcher CreatePoint
+   MenuLocation: Sketch - Sketcher geometries - Create point
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **G** **Y**
 ---
 
 # Sketcher CreatePoint/en
@@ -36,4 +36,4 @@ The Point tool creates a point in the current sketch, which can be used for cons
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/en
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/en

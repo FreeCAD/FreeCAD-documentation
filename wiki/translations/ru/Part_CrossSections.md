@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part CrossSections
-   Name/ru:Поперечные сечения
-   MenuLocation:Деталь - Поперечные сечения
-   Workbenches:[Верстак Part](Part_Workbench/ru.md)
-   SeeAlso:[Разделить](Part_Section/ru.md)
+   Name: Part CrossSections
+   Name/ru: Поперечные сечения
+   MenuLocation: Деталь - Поперечные сечения
+   Workbenches: [Верстак Part](Part_Workbench/ru.md)
+   SeeAlso: [Разделить](Part_Section/ru.md)
 ---
 
 # Part CrossSections/ru
@@ -41,4 +41,4 @@ The **Cross-sections** utility creates one or more cross-sections through the se
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/ru

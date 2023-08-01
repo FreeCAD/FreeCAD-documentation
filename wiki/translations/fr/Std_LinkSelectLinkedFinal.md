@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std LinkSelectLinkedFinal
-   Name/fr:Std Lien objet lié primaire
-   MenuLocation:''Aucun''
-   Workbenches:Tous
-   Version:0.19
-   SeeAlso:[Std Lien objet lié](Std_LinkSelectLinked/fr.md), [Std Tous les liens](Std_LinkSelectAllLinks/fr.md), [Std Rétablir](Std_SelBack/fr.md), [Std Établir](Std_SelForward/fr.md)
+   Name: Std LinkSelectLinkedFinal
+   Name/fr: Std Lien objet lié primaire
+   MenuLocation: ''Aucun''
+   Workbenches: Tous
+   Version: 0.19
+   SeeAlso: [Std Lien objet lié](Std_LinkSelectLinked/fr.md), [Std Tous les liens](Std_LinkSelectAllLinks/fr.md), [Std Rétablir](Std_SelBack/fr.md), [Std Établir](Std_SelForward/fr.md)
 ---
 
 # Std LinkSelectLinkedFinal/fr
@@ -34,4 +34,4 @@ La commande **Std Lien objet lié primaire** sélectionne {{PropertyData/fr|Link
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkSelectLinkedFinal/fr
+⏵ [documentation index](../README.md) > Std LinkSelectLinkedFinal/fr

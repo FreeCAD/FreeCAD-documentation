@@ -12,4 +12,4 @@ This category lists pages related to the [Surface Workbench/it](Surface_Workbenc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Surface/it
+⏵ [documentation index](../README.md) > Category:Surface/it

@@ -1,6 +1,6 @@
 # PartDesign Revolution/ro
 ---
-- GuiCommand:   Name:PartDesign Revolution   Workbenches:[[PartDesign Workbench   PartDesign]], Complete|MenuLocation:PartDesign - Revolution---
+- GuiCommand:   Name: PartDesign Revolution   Workbenches: [[PartDesign Workbench   PartDesign]], Complete|MenuLocation: PartDesign - Revolution---
 
 
 </div>
@@ -171,4 +171,4 @@ Un exemplu [detailed example of use](http://forum.freecadweb.org/viewtopic.php?f
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/ro

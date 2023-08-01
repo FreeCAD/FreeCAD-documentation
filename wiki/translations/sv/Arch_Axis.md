@@ -1,6 +1,6 @@
 # Arch Axis/sv
 ---
-- GuiCommand:   Name:Arch Axis   Name/sv:Arch Axis   Workbenches:[[Arch_Workbench/sv   Arch]]|MenuLocation:Arch -> Axis   Shortcut:A X---
+- GuiCommand:   Name: Arch Axis   Name/sv: Arch Axis   Workbenches: [[Arch_Workbench/sv   Arch]]|MenuLocation: Arch -> Axis   Shortcut: A X---
 
 
 </div>
@@ -99,4 +99,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Axis/sv
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Axis/sv

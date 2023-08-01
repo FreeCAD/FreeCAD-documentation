@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part RegularPolygon
-   Name/fr:Part Polygone régulier
-   MenuLocation:Part - [Créer des primitives](Part_Primitives/fr.md) - Polygone régulier
-   Workbenches:[Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
-   Version:0.14
-   SeeAlso:[Part Primitives](Part_Primitives/fr.md)
+   Name: Part RegularPolygon
+   Name/fr: Part Polygone régulier
+   MenuLocation: Part - [Créer des primitives](Part_Primitives/fr.md) - Polygone régulier
+   Workbenches: [Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
+   Version: 0.14
+   SeeAlso: [Part Primitives](Part_Primitives/fr.md)
 ---
 
 # Part RegularPolygon/fr
@@ -99,4 +99,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RegularPolygon/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RegularPolygon/fr

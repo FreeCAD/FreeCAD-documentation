@@ -15,4 +15,4 @@ This category list pages related to the \"User_Documentation/zh-cn\" and \"Workb
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Draft/zh-cn
+⏵ [documentation index](../README.md) > Category:Draft/zh-cn

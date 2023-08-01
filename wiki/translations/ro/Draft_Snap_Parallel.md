@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Parallel
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   MenuLocation:Draft - [Snap](Draft_Snap.md) - Parallel
-   Shortcut:
-   SeeAlso:
+   Name: Draft Snap Parallel
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Draft - [Snap](Draft_Snap.md) - Parallel
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Draft Snap Parallel/ro
@@ -50,4 +50,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Parallel/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Parallel/ro

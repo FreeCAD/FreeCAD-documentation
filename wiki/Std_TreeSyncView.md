@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std TreeSyncView
-   MenuLocation:View - TreeView actions - Sync view
-   Workbenches:All
-   Shortcut:**T** **1**
-   Version:0.19
+   Name: Std TreeSyncView
+   MenuLocation: View - TreeView actions - Sync view
+   Workbenches: All
+   Shortcut: **T** **1**
+   Version: 0.19
 ---
 
 # Std TreeSyncView
@@ -32,4 +32,4 @@ The Tree view SyncView mode can also be set in the [Preferences editor](Preferen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSyncView
+⏵ [documentation index](../README.md) > Std TreeSyncView

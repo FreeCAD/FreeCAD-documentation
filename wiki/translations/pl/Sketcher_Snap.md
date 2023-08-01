@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher Snap
-   Name/pl:Szkicownik: Włącz / wyłącz przyciąganie
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Version:0.21
-   SeeAlso:[Sketcher Grid](Sketcher_Grid.md)
+   Name: Sketcher Snap
+   Name/pl: Szkicownik: Włącz / wyłącz przyciąganie
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Version: 0.21
+   SeeAlso: [Sketcher Grid](Sketcher_Grid.md)
 ---
 
 # Sketcher Snap/pl
@@ -44,4 +44,4 @@ Przyciąganie działa tylko podczas tworzenia geometrii. Należy pamiętać, że
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Snap/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Snap/pl

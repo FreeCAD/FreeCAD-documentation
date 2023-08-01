@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ToggleClipPlane
-   Name/ro:Std ToggleClipPlane
-   MenuLocation:View - Clipping plane‏‎
-   Workbenches:All
-   Shortcut:
-   SeeAlso:
+   Name: Std ToggleClipPlane
+   Name/ro: Std ToggleClipPlane
+   MenuLocation: View - Clipping plane‏‎
+   Workbenches: All
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Std ToggleClipPlane/ro
@@ -60,4 +60,4 @@ Un **plan de secționare** este un plan care împarte volumul obiectului în dou
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleClipPlane/ro
+⏵ [documentation index](../README.md) > Std ToggleClipPlane/ro

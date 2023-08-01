@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Chamfer
-   Name/de:PartDesign Fase
-   MenuLocation:Part Design - Modifikationen - Fase
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso:[Verrundung](PartDesign_Fillet/de.md)
+   Name: PartDesign Chamfer
+   Name/de: PartDesign Fase
+   MenuLocation: Part Design - Modifikationen - Fase
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso: [Verrundung](PartDesign_Fillet/de.md)
 ---
 
 # PartDesign Chamfer/de
@@ -149,4 +149,4 @@ Siehe [PartDesign Verrundung](PartDesign_Fillet/de#Bekannte_Probleme.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/de

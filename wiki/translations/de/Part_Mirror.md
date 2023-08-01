@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Mirror
-   Name/de:Part Spiegeln
-   MenuLocation:Formteil - Spiegeln
-   Workbenches:[Part](Part_Workbench/de.md)
+   Name: Part Mirror
+   Name/de: Part Spiegeln
+   MenuLocation: Formteil - Spiegeln
+   Workbenches: [Part](Part_Workbench/de.md)
 ---
 
 # Part Mirror/de
@@ -58,4 +58,4 @@ Die **Basispunkt** Felder können verwendet werden, um die Spiegelebene parallel
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/de

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Compile on Unix/Linux
+⏵ [documentation index](../README.md) > Compile on Unix/Linux

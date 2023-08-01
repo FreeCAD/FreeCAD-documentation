@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch CloneComponent‏‎‏‎
-   Name/ru:Arch: CloneComponent/Клоновый компонент
-   MenuLocation:Архитектура - Утилиты - Clone Component
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   Shortcut:**C** **C‏‎**
-   SeeAlso:[Draft Clone](Draft_Clone/ru.md), [Arch Component](Arch_Component/ru.md)
+   Name: Arch CloneComponent‏‎‏‎
+   Name/ru: Arch: CloneComponent/Клоновый компонент
+   MenuLocation: Архитектура - Утилиты - Clone Component
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   Shortcut: **C** **C‏‎**
+   SeeAlso: [Draft Clone](Draft_Clone/ru.md), [Arch Component](Arch_Component/ru.md)
 ---
 
 # Arch CloneComponent/ru
@@ -53,4 +53,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/ru

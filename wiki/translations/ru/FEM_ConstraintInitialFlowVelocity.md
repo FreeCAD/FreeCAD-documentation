@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Начальное условие скорости потока
-   Name:FEM_ConstraintInitialFlowVelocity
-   MenuLocation:Модель - Fluid Constraints - Начальное условие скорости потока
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   SeeAlso:[Граничное условие скорости потока](FEM_ConstraintFlowVelocity/ru.md)
+   Name/ru: Начальное условие скорости потока
+   Name: FEM_ConstraintInitialFlowVelocity
+   MenuLocation: Модель - Fluid Constraints - Начальное условие скорости потока
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   SeeAlso: [Граничное условие скорости потока](FEM_ConstraintFlowVelocity/ru.md)
 ---
 
 # FEM ConstraintInitialFlowVelocity/ru
@@ -59,4 +59,4 @@ For a description how to input formulas, see section *Formulas* in the page for 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintInitialFlowVelocity/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintInitialFlowVelocity/ru

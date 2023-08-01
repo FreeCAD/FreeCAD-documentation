@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Image Scaling
-   MenuLocation:
-   Workbenches:[Image](Image_Workbench.md)
-   SeeAlso:[Image Open](Image_Open.md), [Image CreateImagePlane](Image_CreateImagePlane.md)
+   Name: Image Scaling
+   MenuLocation: 
+   Workbenches: [Image](Image_Workbench.md)
+   SeeAlso: [Image Open](Image_Open.md), [Image CreateImagePlane](Image_CreateImagePlane.md)
 ---
 
 # Image Scaling/zh-cn
@@ -49,4 +49,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/zh-cn
+⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/zh-cn

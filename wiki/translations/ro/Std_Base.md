@@ -1,7 +1,7 @@
 # <img alt="Std Base icon" src=images/Freecad.svg  style="width:64px;"> Std Base/ro
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -63,4 +63,4 @@ The standard menu is composed of 7 sub-menus. Each sub-menu has a dedicated page
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Base/ro
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Base/ro

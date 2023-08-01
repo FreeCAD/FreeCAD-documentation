@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ActivateNextWindow
-   Name/it:Prossima
-   MenuLocation:Finestre - Prossima
-   Workbenches:Tutti
-   Shortcut:**Ctrl**+**Tab**
-   SeeAlso:[Precedente](Std_ActivatePrevWindow/it.md), [Finestre](Std_Windows/it.md)
+   Name: Std ActivateNextWindow
+   Name/it: Prossima
+   MenuLocation: Finestre - Prossima
+   Workbenches: Tutti
+   Shortcut: **Ctrl**+**Tab**
+   SeeAlso: [Precedente](Std_ActivatePrevWindow/it.md), [Finestre](Std_Windows/it.md)
 ---
 
 # Std ActivateNextWindow/it
@@ -42,4 +42,4 @@ Il comando **Prossima** attiva la finestra successiva nell\'[Area della vista pr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ActivateNextWindow/it
+⏵ [documentation index](../README.md) > Std ActivateNextWindow/it

@@ -1,7 +1,7 @@
 # <img alt="Ikonka FreeCAD dla środowiska pracy Rozłożony Zespół" src=images/ExplodedAssembly_workbench_icon.svg  style="width:64px;"> ExplodedAssembly Workbench/pl
 
 
-{{TOCright}}
+
 
 ## Wprowadzenie
 
@@ -92,4 +92,4 @@ Aby przeprowadzić instalację samodzielnie, pobierz to repozytorium jako ZIP i:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > ExplodedAssembly Workbench/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > ExplodedAssembly Workbench/pl

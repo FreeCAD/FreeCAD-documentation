@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Вставить заметку
-   Name:TechDraw_Annotation
-   MenuLocation:TechDraw - Заметки - Вставить заметку
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Текст](Draft_Text/ru.md), [Фигура из текста](Draft_ShapeString/ru.md)
+   Name/ru: Вставить заметку
+   Name: TechDraw_Annotation
+   MenuLocation: TechDraw - Заметки - Вставить заметку
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso: [Текст](Draft_Text/ru.md), [Фигура из текста](Draft_ShapeString/ru.md)
 ---
 
 # TechDraw Annotation/ru
@@ -98,4 +98,4 @@ rc = page.addView(anno)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Annotation/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Annotation/ru

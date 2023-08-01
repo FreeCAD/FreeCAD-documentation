@@ -1,6 +1,6 @@
 # Part Wedge/cs
 ---
-- GuiCommand:   Name:Part Wedge   Name/cs:Díl_Klín   MenuLocation:Díl -> [|Workbenches:[[Part_Workbench/cs   Modul Díl](Part_CreatePrimitives/cs___Díl_Vytváření_zákl.geom.tvarů]] -> Klín.md)|SeeAlso:[Díl Vytváření zákl.geom.tvarů](Part_CreatePrimitives/cs.md)---
+- GuiCommand:   Name: Part Wedge   Name/cs: Díl_Klín   MenuLocation: Díl -> [|Workbenches: [[Part_Workbench/cs   Modul Díl](Part_CreatePrimitives/cs___Díl_Vytváření_zákl.geom.tvarů]] -> Klín.md)|SeeAlso: [Díl Vytváření zákl.geom.tvarů](Part_CreatePrimitives/cs.md)---
 
 
 </div>
@@ -116,4 +116,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/cs
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/cs

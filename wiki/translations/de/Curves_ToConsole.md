@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Curves ToConsole
-   Name/de:Curves ZurKonsole
-   MenuLocation:Misc. - Objects to Console
-   Workbenches:[Curves](Curves_Workbench/de.md)
+   Name: Curves ToConsole
+   Name/de: Curves ZurKonsole
+   MenuLocation: Misc. - Objects to Console
+   Workbenches: [Curves](Curves_Workbench/de.md)
 ---
 
 # Curves ToConsole/de
@@ -38,4 +38,4 @@ Das Werkzeug <img alt="" src=images/Curves_ToConsole.svg  style="width:24px;"> [
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves ToConsole/de
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves ToConsole/de

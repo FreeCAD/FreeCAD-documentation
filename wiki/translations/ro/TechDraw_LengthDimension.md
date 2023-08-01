@@ -1,6 +1,6 @@
 # TechDraw LengthDimension/ro
 ---
-- GuiCommand:   Name:TechDraw  Dimension Length   Workbenches:[[TechDraw_Workbench   TechDraw]]|MenuLocation:TechDraw - Dimension Length   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: TechDraw  Dimension Length   Workbenches: [[TechDraw_Workbench   TechDraw]]|MenuLocation: TechDraw - Dimension Length   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -371,4 +371,4 @@ rc = page.addView(dim1)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LengthDimension/ro
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LengthDimension/ro

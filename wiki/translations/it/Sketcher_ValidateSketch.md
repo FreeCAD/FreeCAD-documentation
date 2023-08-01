@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher_ValidateSketch
-   Name/it:Convalida lo schizzo
-   Empty:1
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:Sketch/Part Design - Convalida lo schizzo...
+   Name: Sketcher_ValidateSketch
+   Name/it: Convalida lo schizzo
+   Empty: 1
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation: Sketch/Part Design - Convalida lo schizzo...
 ---
 
 # Sketcher ValidateSketch/it
@@ -119,4 +119,4 @@ The locking mechanism typically works well and this tool should not be needed. *
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/it

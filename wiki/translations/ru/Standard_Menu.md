@@ -1,8 +1,4 @@
 # Standard Menu/ru
-{{TOCright}}
-
-
-
 ## Введение
 
 Стандартное меню содержит инструменты, применимые во всех верстаках. Меню может немного отличаться в зависимости от среды рабочего стола (KDE, Gnome, Windows, macOS и т. д.). Верстаки также могут внедрять собственные подменю если это требуется.
@@ -57,4 +53,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Standard Menu/ru
+⏵ [documentation index](../README.md) > Standard Menu/ru

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Appimage
+⏵ [documentation index](../README.md) > Appimage

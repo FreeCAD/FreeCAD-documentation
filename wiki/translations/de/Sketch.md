@@ -2,7 +2,7 @@
 ## Einleitung
 
 
-{{TOCright}}
+
 
 In FreeCAD wird das Wort \"[Skizze](Sketch/de.md)\" normalerweise verwendet, um sich auf ein [Sketcher Sketch-Objekt](Sketcher_SketchObject/de.md) zu beziehen (`Sketcher::SketchObject` Klasse), das vom Arbeitsbereich [Sketcher](Sketcher_Workbench/de.md) definiert wird. Dies ist eine 2D-Zeichnung, die mathematische Randbedingungen verwendet, um 2D-Geometrie genau zu beschreiben.
 
@@ -45,4 +45,4 @@ Eine Skizze kann aber auch immer für sich allein für andere Zwecke erstellt we
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Sketch/de
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Sketch/de

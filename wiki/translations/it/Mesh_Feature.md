@@ -1,6 +1,4 @@
 # Mesh Feature/it
-{{TOCright}}
-
 ## Introduzione
 
 <img alt="" src=images/Mesh_Tree.svg  style="width:32px;">
@@ -158,4 +156,4 @@ obj.Label = "Custom label"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Mesh](Mesh_Workbench.md) > Mesh Feature/it
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Mesh](Mesh_Workbench.md) > Mesh Feature/it

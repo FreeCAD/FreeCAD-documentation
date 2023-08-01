@@ -1,6 +1,6 @@
 # Drawing Landscape A3/en
 ---
-- GuiCommand:   Name:Drawing Landscape A3   Workbenches:[[Drawing Workbench   Drawing]], Complete|MenuLocation:Drawing - Insert new drawing - A3 Landscape   Shortcut:none---
+- GuiCommand:   Name: Drawing Landscape A3   Workbenches: [[Drawing Workbench   Drawing]], Complete|MenuLocation: Drawing - Insert new drawing - A3 Landscape   Shortcut: none---
 
 This tool creates a new drawing sheet from already installed templates. Currently, even though the menu and the toolbar allow for A0 to A4 landscape formats, only an A3 Landscape template is available.
 
@@ -27,4 +27,4 @@ If the page does not display, click on the <img alt="" src=images/view-refresh.p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Landscape A3/en
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Landscape A3/en

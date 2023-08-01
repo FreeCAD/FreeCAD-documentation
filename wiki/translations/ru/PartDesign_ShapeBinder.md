@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Создать связующую форму
-   Name:PartDesign_ShapeBinder
-   MenuLocation:Part Design - Создать связующую форму
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Создать новую под-объектную связующую форму](PartDesign_SubShapeBinder/ru.md), [Создать клон](PartDesign_Clone/ru.md)
+   Name/ru: Создать связующую форму
+   Name: PartDesign_ShapeBinder
+   MenuLocation: Part Design - Создать связующую форму
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Создать новую под-объектную связующую форму](PartDesign_SubShapeBinder/ru.md), [Создать клон](PartDesign_Clone/ru.md)
 ---
 
 # PartDesign ShapeBinder/ru
@@ -121,4 +121,4 @@ Here is how you use the ShapeBinder Feature to achieve it:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/ru

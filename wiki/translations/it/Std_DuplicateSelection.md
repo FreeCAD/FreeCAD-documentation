@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_DuplicateSelection
-   Name/it:Duplica la selezione
-   MenuLocation:Modifica - Duplica la selezione
-   Workbenches:Tutti
-   SeeAlso:[Taglia](Std_Cut/it.md), [Copia](Std_Copy/it.md), [Incolla](Std_Paste/it.md)
+   Name: Std_DuplicateSelection
+   Name/it: Duplica la selezione
+   MenuLocation: Modifica - Duplica la selezione
+   Workbenches: Tutti
+   SeeAlso: [Taglia](Std_Cut/it.md), [Copia](Std_Copy/it.md), [Incolla](Std_Paste/it.md)
 ---
 
 # Std DuplicateSelection/it
@@ -46,4 +46,4 @@ Il comando **Duplica la selezione** duplica gli oggetti all\'interno del documen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DuplicateSelection/it
+⏵ [documentation index](../README.md) > Std DuplicateSelection/it

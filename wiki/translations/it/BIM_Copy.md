@@ -1,11 +1,11 @@
 ---
 - GuiCommand:Addon/it
-   Name:BIM Copy
-   Name/it:Copia BIM
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/it.md)
-   Addon:BIM
-   MenuLocation:Modifica - Copia
-   SeeAlso:[Sposta di Draft](Draft_Move/it.md)
+   Name: BIM Copy
+   Name/it: Copia BIM
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/it.md)
+   Addon: BIM
+   MenuLocation: Modifica - Copia
+   SeeAlso: [Sposta di Draft](Draft_Move/it.md)
 ---
 
 # BIM Copy/it
@@ -17,4 +17,4 @@ Lo strumento Copia di BIM è una scorciatoia per lo strumento standard [Sposta d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Copy/it
+⏵ [documentation index](../README.md) > BIM Copy/it

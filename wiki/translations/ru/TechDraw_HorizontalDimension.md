@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Указать горизонтальный размер
-   Name:TechDraw_HorizontalDimension
-   MenuLocation:TechDraw - Размеры - Указать горизонтальный размер
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   Shortcut:**Shift** + **H**
-   SeeAlso:[Указать длину](TechDraw_LengthDimension/ru.md), [Указать вертикальный размер](TechDraw_VerticalDimension/ru.md)
+   Name/ru: Указать горизонтальный размер
+   Name: TechDraw_HorizontalDimension
+   MenuLocation: TechDraw - Размеры - Указать горизонтальный размер
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   Shortcut: **Shift** + **H**
+   SeeAlso: [Указать длину](TechDraw_LengthDimension/ru.md), [Указать вертикальный размер](TechDraw_VerticalDimension/ru.md)
 ---
 
 # TechDraw HorizontalDimension/ru
@@ -41,4 +41,4 @@ For more information see [TechDraw LengthDimension](TechDraw_LengthDimension.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HorizontalDimension/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HorizontalDimension/ru

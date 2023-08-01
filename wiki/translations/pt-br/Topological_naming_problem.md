@@ -2,7 +2,7 @@
 ## Introdução
 
 
-{{TOCright}}
+
 
 The [topological naming problem](topological_naming_problem.md) in FreeCAD refers to the issue of a shape changing its internal name after a modelling operation (pad, cut, union, chamfer, fillet, etc.) is performed. This will result in other parametric features that depend on that shape to break or be incorrectly computed. This issue affects all objects in FreeCAD but is especially notable when building solids with the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md), and when dimensioning those solids with the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md).
 
@@ -129,4 +129,4 @@ Datum objects, [points](PartDesign_Point.md), [lines](PartDesign_Line.md), [plan
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [TechDraw](Category_TechDraw.md) > [PartDesign](Category_PartDesign.md) > [Part](Category_Part.md) > Topological naming problem/pt-br
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [TechDraw](Category_TechDraw.md) > [PartDesign](Category_PartDesign.md) > [Part](Category_Part.md) > Topological naming problem/pt-br

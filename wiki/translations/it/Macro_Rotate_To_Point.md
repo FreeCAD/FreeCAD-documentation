@@ -273,4 +273,4 @@ myObject.Placement
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Rotate To Point/it
+⏵ [documentation index](../README.md) > Macro Rotate To Point/it

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name/ru:Текст
-   Name:Draft_Text
-   MenuLocation:Annotation - Текст
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:**T** **E**
-   Version:0.7
-   SeeAlso:[Метка](Draft_Label/ru.md), [Фигура из текста](Draft_ShapeString/ru.md)
+   Name/ru: Текст
+   Name: Draft_Text
+   MenuLocation: Annotation - Текст
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: **T** **E**
+   Version: 0.7
+   SeeAlso: [Метка](Draft_Label/ru.md), [Фигура из текста](Draft_ShapeString/ru.md)
 ---
 
 # Draft Text/ru
@@ -224,4 +224,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Text/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Text/ru

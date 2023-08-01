@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_ViewDimetric
-   Name/it:Vista dimetrica
-   Empty:1
-   MenuLocation:Visualizza - Viste standard - Assonometria - Dimetrica
-   Workbenches:Tutti
-   SeeAlso:[Assonometria isometrica](Std_ViewIsometric/it.md), [Assonometria trimetrica](Std_ViewTrimetric/it.md)
+   Name: Std_ViewDimetric
+   Name/it: Vista dimetrica
+   Empty: 1
+   MenuLocation: Visualizza - Viste standard - Assonometria - Dimetrica
+   Workbenches: Tutti
+   SeeAlso: [Assonometria isometrica](Std_ViewIsometric/it.md), [Assonometria trimetrica](Std_ViewTrimetric/it.md)
 ---
 
 # Std ViewDimetric/it
@@ -55,4 +55,4 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewDimetric/it
+⏵ [documentation index](../README.md) > Std ViewDimetric/it

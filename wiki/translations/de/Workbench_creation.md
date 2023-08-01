@@ -1,6 +1,4 @@
 # Workbench creation/de
-{{TOCright}}
-
 ## Einführung
 
 Diese Seite zeigt, wie man einen neuen Arbeitsbereich zur FreeCAD Oberfläche hinzufügt. [Arbeitbereiche](Workbenches/de.md) sind Behälter für FreeCAD-Befehle. Sie können in Python, in C++ oder in einer Mischung aus beiden programmiert werden, was den Vorteil hat, die Geschwindigkeit von C++ mit der Flexibilität von Python zu verbinden. In jedem Fall wird der neue Arbeitsbereich durch einen Satz von zwei Pythondateien gestartet. Dies können \"interne\" Arbeitsbereiche sein, die im FreeCAD-Paket enthalten sind oder \"externe\" Arbeitsbereiche, die mit dem [Addon Manager](Std_AddonMgr.md) erhältlich sind oder sie werden manuell über das Herunterladen einiger Quellen (repositories) aus dem Netz installiert. Interne Arbeitsbereiche können in C++, Python oder einer Kombination der beiden programmiert sein, wogegen externe Arbeitsbereiche nur in Python programmiert sein dürfen.
@@ -389,4 +387,4 @@ os.remove(qrc_filename)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Workbench creation/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Workbench creation/de

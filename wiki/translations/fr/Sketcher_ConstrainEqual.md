@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainEqual
-   Name/fr:Sketcher Contrainte d'égalité
-   MenuLocation:Esquisse - Contraintes d'esquisse - Contrainte d'égalité
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**E**
-   SeeAlso:[Sketcher Contrainte rayon](Sketcher_ConstrainRadius/fr.md)
+   Name: Sketcher ConstrainEqual
+   Name/fr: Sketcher Contrainte d'égalité
+   MenuLocation: Esquisse - Contraintes d'esquisse - Contrainte d'égalité
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **E**
+   SeeAlso: [Sketcher Contrainte rayon](Sketcher_ConstrainRadius/fr.md)
 ---
 
 # Sketcher ConstrainEqual/fr
@@ -74,4 +74,4 @@ La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui pe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainEqual/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainEqual/fr

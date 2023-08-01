@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ProjectInfo
-   Name/de:Std Projektinformationen
-   MenuLocation:Datei - Projektinformationen...
-   Workbenches:Alle
-   Shortcut:-
-   SeeAlso:[Std Neu](Std_New/de.md)
+   Name: Std ProjectInfo
+   Name/de: Std Projektinformationen
+   MenuLocation: Datei - Projektinformationen...
+   Workbenches: Alle
+   Shortcut: -
+   SeeAlso: [Std Neu](Std_New/de.md)
 ---
 
 # Std ProjectInfo/de
@@ -50,4 +50,4 @@ Der Befehl **Std Projektinformationen** öffnet ein Dialogfeld mit Projektinform
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ProjectInfo/de
+⏵ [documentation index](../README.md) > Std ProjectInfo/de

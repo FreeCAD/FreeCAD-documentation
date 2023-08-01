@@ -5,7 +5,7 @@
 
 
 
-{{TOCright}}
+
 
 
 
@@ -41,4 +41,4 @@ Na przykład narzędzie, takie jak frez 1/4 cala, może pracować przy wielu ró
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolController/pl
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolController/pl

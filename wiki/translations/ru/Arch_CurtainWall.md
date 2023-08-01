@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name/ru:Светопрозрачный фасад
-   Name:Arch_CurtainWall
-   MenuLocation:Arch - Светопрозрачный фасад
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   Shortcut:**C** **W**
-   Version:0.19
-   SeeAlso:[Стена](Arch_Wall/ru.md), [Сетка](Arch_Grid/ru.md)
+   Name/ru: Светопрозрачный фасад
+   Name: Arch_CurtainWall
+   MenuLocation: Arch - Светопрозрачный фасад
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   Shortcut: **C** **W**
+   Version: 0.19
+   SeeAlso: [Стена](Arch_Wall/ru.md), [Сетка](Arch_Grid/ru.md)
 ---
 
 # Arch CurtainWall/ru
@@ -166,4 +166,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CurtainWall/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CurtainWall/ru

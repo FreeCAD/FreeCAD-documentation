@@ -413,4 +413,4 @@ v0.1 2021-08-09 : première version
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Spreadsheet2html/fr
+⏵ [documentation index](../README.md) > Macro Spreadsheet2html/fr

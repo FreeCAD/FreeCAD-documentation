@@ -393,4 +393,4 @@ Są one importowane i inicjowane w `[https://github.com/FreeCAD/FreeCAD/blob/9c2
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Property/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Property/pl

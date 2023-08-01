@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft AnnotationStyleEditor
-   Name/es:Borrador EditorEstiloAnotación
-   MenuLocation:Anotación - Estilos de anotación...
-   Workbenches:[Borrador](Draft_Workbench/es.md)
-   SeeAlso:[Borrador Texto](Draft_Text/es.md), [Borrador Etiqueta](Draft_Label/es.md), [Borrador Dimensión](Draft_Dimension/es.md)
-   Version:0.19
+   Name: Draft AnnotationStyleEditor
+   Name/es: Borrador EditorEstiloAnotación
+   MenuLocation: Anotación - Estilos de anotación...
+   Workbenches: [Borrador](Draft_Workbench/es.md)
+   SeeAlso: [Borrador Texto](Draft_Text/es.md), [Borrador Etiqueta](Draft_Label/es.md), [Borrador Dimensión](Draft_Dimension/es.md)
+   Version: 0.19
 ---
 
 # Draft AnnotationStyleEditor/es
@@ -153,4 +153,4 @@ props = {
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AnnotationStyleEditor/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AnnotationStyleEditor/es

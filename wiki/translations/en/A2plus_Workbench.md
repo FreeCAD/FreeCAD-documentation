@@ -3,7 +3,7 @@
 ## Introduction
 
 
-{{TOCright}}
+
 
 The A2plus workbench is an [external workbench](External_workbenches.md) to [assemble](Assembly.md) different parts in FreeCAD.
 
@@ -618,4 +618,4 @@ This is an A2plus-specific command. It solves the assembly constraints of the as
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > A2plus Workbench/en
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > A2plus Workbench/en

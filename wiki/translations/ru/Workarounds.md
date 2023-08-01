@@ -341,4 +341,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Workarounds/ru
+⏵ [documentation index](../README.md) > Workarounds/ru

@@ -22,4 +22,4 @@ Ta strona prezentuje więcej szczegółowych informacji na temat wbudowanych mod
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > Builtin modules/pl
+⏵ [documentation index](../README.md) > [API](Category_API.md) > Builtin modules/pl

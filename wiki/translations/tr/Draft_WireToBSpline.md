@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft WireToBSpline
-   Name/tr:Telden BSpline çevir
-   MenuLocation:Drafting - Wire to BSpline
-   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   Name: Draft WireToBSpline
+   Name/tr: Telden BSpline çevir
+   MenuLocation: Drafting - Wire to BSpline
+   Workbenches: [Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
 ---
 
 # Draft WireToBSpline/tr
@@ -65,4 +65,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WireToBSpline/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WireToBSpline/tr

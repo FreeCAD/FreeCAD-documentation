@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part_Revolve
-   Name/fr:Part Révolution
-   MenuLocation:Part - Révolution...
-   Workbenches:[Part](Part_Workbench/fr.md)
+   Name: Part_Revolve
+   Name/fr: Part Révolution
+   MenuLocation: Part - Révolution...
+   Workbenches: [Part](Part_Workbench/fr.md)
 ---
 
 # Part Revolve/fr
@@ -38,4 +38,4 @@ Si vous sélectionnez un axe défini par l\'utilisateur, les nombres définissen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/fr

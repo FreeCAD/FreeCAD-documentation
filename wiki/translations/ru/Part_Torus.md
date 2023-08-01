@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Torus
-   Name/ru:Тор
-   MenuLocation:Деталь - Примитивы - Тор
-   Workbenches:[Part(Деталь)](Part_Workbench/ru.md)
-   SeeAlso:[Создать примитивы](Part_Primitives/ru.md)
+   Name: Part Torus
+   Name/ru: Тор
+   MenuLocation: Деталь - Примитивы - Тор
+   Workbenches: [Part(Деталь)](Part_Workbench/ru.md)
+   SeeAlso: [Создать примитивы](Part_Primitives/ru.md)
 ---
 
 # Part Torus/ru
@@ -134,4 +134,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/ru

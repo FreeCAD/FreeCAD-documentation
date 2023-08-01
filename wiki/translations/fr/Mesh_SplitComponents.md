@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh SplitComponents
-   Name/fr:Mesh Éclater par composants
-   MenuLocation:Maillages - Éclater par composants
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Fusionner](Mesh_Merge/fr.md)
+   Name: Mesh SplitComponents
+   Name/fr: Mesh Éclater par composants
+   MenuLocation: Maillages - Éclater par composants
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
+   SeeAlso: [Mesh Fusionner](Mesh_Merge/fr.md)
 ---
 
 # Mesh SplitComponents/fr
@@ -40,4 +40,4 @@ Voir : [Mesh Feature](Mesh_Feature/fr.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SplitComponents/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SplitComponents/fr

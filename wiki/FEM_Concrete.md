@@ -17,4 +17,4 @@ This page collects some interesting information on the topic of simulating concr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Concrete
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Concrete

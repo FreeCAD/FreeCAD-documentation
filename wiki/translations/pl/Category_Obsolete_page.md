@@ -10,4 +10,4 @@ Ta kategoria zawiera listę stron, które są nieaktualne w odniesieniu do obecn
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Obsolete page/pl
+⏵ [documentation index](../README.md) > Category:Obsolete page/pl

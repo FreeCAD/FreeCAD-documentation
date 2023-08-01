@@ -1,6 +1,6 @@
 # FEM ElementGeometry2D/ro
 ---
-- GuiCommand:   Name:FEM ElementGeometry2D   MenuLocation:Model -Shell plate tickness   |Workbenches:[Shortcut:C,S   SeeAlso:[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
+- GuiCommand:   Name: FEM ElementGeometry2D   MenuLocation: Model -Shell plate tickness   |Workbenches: [Shortcut: C,S   SeeAlso: [[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
 
 
 </div>
@@ -57,4 +57,4 @@ For viewing results from CalculiX solver on the mesh expanded to the prescribed 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementGeometry2D/ro
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementGeometry2D/ro

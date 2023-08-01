@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionDecreaseDecimal
-   Name/pl:Rysunek Techniczny: Rozszerzenie Zmniejsz ilość cyfr po przecinku
-   MenuLocation:Rysunek Techniczny - Rozszerzenia: Wymiary - Zmniejsz ilość cyfr po przecinku
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[Zwiększ ilość cyfr po przecinku](TechDraw_ExtensionIncreaseDecimal/pl.md)
+   Name: TechDraw ExtensionDecreaseDecimal
+   Name/pl: Rysunek Techniczny: Rozszerzenie Zmniejsz ilość cyfr po przecinku
+   MenuLocation: Rysunek Techniczny - Rozszerzenia: Wymiary - Zmniejsz ilość cyfr po przecinku
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [Zwiększ ilość cyfr po przecinku](TechDraw_ExtensionIncreaseDecimal/pl.md)
 ---
 
 # TechDraw ExtensionDecreaseDecimal/pl
@@ -44,4 +44,4 @@ Narzędzie **Zmniejsz ilość cyfr po przecinku** zmniejsza liczbę miejsc dzies
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDecreaseDecimal/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDecreaseDecimal/pl

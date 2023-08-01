@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet Import
-   Name/fr:Spreadsheet Importer
-   MenuLocation:Spreadsheet - Importer une feuille de calcul
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[Spreadsheet Exporter](Spreadsheet_Export/fr.md)
+   Name: Spreadsheet Import
+   Name/fr: Spreadsheet Importer
+   MenuLocation: Spreadsheet - Importer une feuille de calcul
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [Spreadsheet Exporter](Spreadsheet_Export/fr.md)
 ---
 
 # Spreadsheet Import/fr
@@ -34,4 +34,4 @@ L\'outil **[<img src=images/Spreadsheet_Import.svg style="width:16px"> [Spreadsh
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Import/fr
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Import/fr

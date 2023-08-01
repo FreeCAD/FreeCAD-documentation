@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign Thickness
-   Name/pl:Projekt Części: Grubość
-   MenuLocation:Projekt Części - Zastosuj funkcję ulepszenia - Grubość
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Część: Grubość](Part_Thickness/pl.md)
+   Name: PartDesign Thickness
+   Name/pl: Projekt Części: Grubość
+   MenuLocation: Projekt Części - Zastosuj funkcję ulepszenia - Grubość
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Część: Grubość](Part_Thickness/pl.md)
 ---
 
 # PartDesign Thickness/pl
@@ -161,4 +161,4 @@ Obiekt Grubość wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/pl

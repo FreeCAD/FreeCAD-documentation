@@ -1,6 +1,4 @@
 # Embedding FreeCAD/zh-cn
-{{TOCright}}
-
 ## Introduction
 
 FreeCAD can be imported as a [Python](Python.md) module in other programs or in a standalone Python console, together with all its modules and components. It\'s even possible to import the FreeCAD user interface as a python module but with some restrictions indicated in [Caveats](#Caveats.md).
@@ -130,4 +128,4 @@ Since the FreeCAD Python module is compiled from C++ (rather than being a pure P
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Embedding FreeCAD/zh-cn
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Embedding FreeCAD/zh-cn

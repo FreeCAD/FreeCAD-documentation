@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Std MergeProjects
-   MenuLocation:File - Merge project...
-   Workbenches:All
+   Name: Std MergeProjects
+   MenuLocation: File - Merge project...
+   Workbenches: All
 ---
 
 # Std MergeProjects/en
@@ -58,4 +58,4 @@ FreeCAD.ActiveDocument.mergeProject("Path_to_FCStd_project_file")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MergeProjects/en
+⏵ [documentation index](../README.md) > Std MergeProjects/en

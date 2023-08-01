@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Drawing Orthoviews
-   Name/fr:Drawing Vues orthogonales
-   Workbenches:[Drawing](Drawing_Workbench/fr.md)
-   MenuLocation:Drawing - Insérer des vues orthogonales
-   Shortcut:
-   SeeAlso:[Drawing A3 Paysage](Drawing_Landscape_A3/fr.md)
+   Name: Drawing Orthoviews
+   Name/fr: Drawing Vues orthogonales
+   Workbenches: [Drawing](Drawing_Workbench/fr.md)
+   MenuLocation: Drawing - Insérer des vues orthogonales
+   Shortcut: 
+   SeeAlso: [Drawing A3 Paysage](Drawing_Landscape_A3/fr.md)
 ---
 
 # Drawing Orthoviews/fr
@@ -70,4 +70,4 @@ A ajouter.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Orthoviews/fr
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Orthoviews/fr

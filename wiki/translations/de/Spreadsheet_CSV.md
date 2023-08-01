@@ -12,4 +12,4 @@ Das Exportieren eines <img alt="" src=images/Spreadsheet_CreateSheet.svg  style=
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [File_Formats](Category_File_Formats.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CSV/de
+⏵ [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [File_Formats](Category_File_Formats.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CSV/de

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:Addon
-   Name:BIM Copy
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
-   Addon:BIM
-   MenuLocation:Modify -> Copy
-   SeeAlso:[[Draft Move]]
+   Name: BIM Copy
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
+   Addon: BIM
+   MenuLocation: Modify -> Copy
+   SeeAlso: [[Draft Move]]
 ---
 
 # BIM Copy/es
@@ -25,4 +25,4 @@ La herramienta BIM Copy es un acceso directo a la herramienta estándar [Draft M
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Copy/es
+⏵ [documentation index](../README.md) > BIM Copy/es

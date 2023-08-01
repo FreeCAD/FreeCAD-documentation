@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std MeasureDistance
-   Name/pl:Std: Wymiarowanie odległości
-   MenuLocation:Przybory - Wymiarowanie odległości
-   Workbenches:wszystkie
-   SeeAlso:[Wymiarowanie liniowe](Part_Measure_Linear/pl.md), [Wymiarowanie](Draft_Dimension/pl.md)
+   Name: Std MeasureDistance
+   Name/pl: Std: Wymiarowanie odległości
+   MenuLocation: Przybory - Wymiarowanie odległości
+   Workbenches: wszystkie
+   SeeAlso: [Wymiarowanie liniowe](Part_Measure_Linear/pl.md), [Wymiarowanie](Draft_Dimension/pl.md)
 ---
 
 # Std MeasureDistance/pl
@@ -81,4 +81,4 @@ Polecenie **Wymiarowanie odległości** tworzy obiekt odległość, który mierz
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MeasureDistance/pl
+⏵ [documentation index](../README.md) > Std MeasureDistance/pl

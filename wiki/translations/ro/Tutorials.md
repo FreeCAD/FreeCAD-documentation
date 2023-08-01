@@ -1,7 +1,4 @@
 # Tutorials/ro
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 Această pagină prezintă o selecție de tutoriale scrise de înaltă calitae. O listă completă și nesortată de tutoriale puteți găsi la : [:Category:Tutorials](:Category_Tutorials.md).
@@ -418,4 +415,4 @@ Here are listed all the tutorials that are not in the manual **regardless of the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Tutorials/ro
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Tutorials/ro

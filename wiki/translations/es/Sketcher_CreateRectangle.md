@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateRectangle
-   Name/es:Croquizador CrearRectángulo
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation:Croquizador- Geometrías del Croquizador - Crear rectángulo
-   Shortcut:**R**
-   SeeAlso:[Croquizador Polilínea](Sketcher_CreatePolyline/es.md)
+   Name: Sketcher CreateRectangle
+   Name/es: Croquizador CrearRectángulo
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   MenuLocation: Croquizador- Geometrías del Croquizador - Crear rectángulo
+   Shortcut: **R**
+   SeeAlso: [Croquizador Polilínea](Sketcher_CreatePolyline/es.md)
 ---
 
 # Sketcher CreateRectangle/es
@@ -59,4 +59,4 @@ To define a rectangle via a center point and an edge point, use the [Centered re
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle/es

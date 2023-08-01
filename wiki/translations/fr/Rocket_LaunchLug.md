@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Rocket LaunchLug
-   Name/fr:Rocket Rampe de lancement
-   MenuLocation:Rocket - Launch Guides - Launch Lug
-   Workbenches:[Rocket](Rocket_Workbench/fr.md)
-   Version:0.19
+   Name: Rocket LaunchLug
+   Name/fr: Rocket Rampe de lancement
+   MenuLocation: Rocket - Launch Guides - Launch Lug
+   Workbenches: [Rocket](Rocket_Workbench/fr.md)
+   Version: 0.19
 ---
 
 # Rocket LaunchLug/fr
@@ -48,4 +48,4 @@ Ces paramètres sont fournis à titre indicatif et n\'ont aucun effet sur la con
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket LaunchLug/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket LaunchLug/fr

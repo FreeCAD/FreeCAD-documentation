@@ -88,4 +88,4 @@ Asta-i tot.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Installing on Mac/ro
+⏵ [documentation index](../README.md) > Installing on Mac/ro

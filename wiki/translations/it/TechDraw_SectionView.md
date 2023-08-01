@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw_SectionView
-   Name/it:Vista di sezione
-   MenuLocation:TechDraw - Vista di sezione
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Vista](TechDraw_View/it.md), [Gruppo di proiezioni](TechDraw_ProjectionGroup/it.md)
+   Name: TechDraw_SectionView
+   Name/it: Vista di sezione
+   MenuLocation: TechDraw - Vista di sezione
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso: [Vista](TechDraw_View/it.md), [Gruppo di proiezioni](TechDraw_ProjectionGroup/it.md)
 ---
 
 # TechDraw SectionView/it
@@ -253,4 +253,4 @@ For some more information about section views and some use cases, have a look at
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SectionView/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SectionView/it

@@ -1,6 +1,4 @@
 # Continuous Integration/pt-br
-{{TOCright}}
-
 ## Continuous Integration 
 
 Currently the FreeCAD repository on GitHub will trigger a build on several CI systems. Between these systems pretty much all the main OSs are coveredː Linux, macOS, and Windows. CIs can also be used to run [unit tests](Testing.md).
@@ -16,4 +14,4 @@ Currently the FreeCAD repository on GitHub will trigger a build on several CI sy
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Testing](Category_Testing.md) > Continuous Integration/pt-br
+⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Testing](Category_Testing.md) > Continuous Integration/pt-br

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectOrigin
-   Name/de:Sketcher UrsprungAuswählen
-   MenuLocation:Skizze - Skizzenwerkzeuge - Ursprung auswählen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**Z** **O**
-   Version:0.15
+   Name: Sketcher SelectOrigin
+   Name/de: Sketcher UrsprungAuswählen
+   MenuLocation: Skizze - Skizzenwerkzeuge - Ursprung auswählen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **Z** **O**
+   Version: 0.15
 ---
 
 # Sketcher SelectOrigin/de
@@ -35,4 +35,4 @@ Wählt den Ursprung einer Skizze aus.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectOrigin/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectOrigin/de

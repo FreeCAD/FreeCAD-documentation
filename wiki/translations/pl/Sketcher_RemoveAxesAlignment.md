@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher RemoveAxesAlignment
-   Name/pl:Szkicownik: Usuń wyrównanie osi
-   MenuLocation:Szkic - Narzędzia szkicownika - Usuń wyrównanie osi
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**Z** **R**
-   Version:0.20
+   Name: Sketcher RemoveAxesAlignment
+   Name/pl: Szkicownik: Usuń wyrównanie osi
+   MenuLocation: Szkic - Narzędzia szkicownika - Usuń wyrównanie osi
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **Z** **R**
+   Version: 0.20
 ---
 
 # Sketcher RemoveAxesAlignment/pl
@@ -42,4 +42,4 @@ W rezultacie wiązania *(poziome, pionowe)* zostaną usunięte. W przykładzie p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RemoveAxesAlignment/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RemoveAxesAlignment/pl

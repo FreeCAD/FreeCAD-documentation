@@ -32,4 +32,4 @@ Icona barra strumenti ![](images/FreeCAD_Doc.png )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro PartsLibrary/it
+⏵ [documentation index](../README.md) > Macro PartsLibrary/it

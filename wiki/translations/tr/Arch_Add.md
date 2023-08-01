@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Add
-   Name/tr:Mimari Ekle
-   MenuLocation:Mimari - Ekle
-   Workbenches:[Mimari](Arch_Workbench/tr.md)
-   SeeAlso:[Mimari Kaldır](Arch_Remove/tr.md)
+   Name: Arch Add
+   Name/tr: Mimari Ekle
+   MenuLocation: Mimari - Ekle
+   Workbenches: [Mimari](Arch_Workbench/tr.md)
+   SeeAlso: [Mimari Kaldır](Arch_Remove/tr.md)
 ---
 
 # Arch Add/tr
@@ -125,4 +125,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Add/tr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Add/tr

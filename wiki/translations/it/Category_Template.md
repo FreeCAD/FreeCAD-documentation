@@ -17,4 +17,4 @@ Vedere anche [UncategorizedTemplates](Special_UncategorizedTemplates.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Template/it
+⏵ [documentation index](../README.md) > Category:Template/it

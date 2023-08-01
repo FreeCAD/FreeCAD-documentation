@@ -54,4 +54,4 @@ In passato, le icone `.xpm` sono state utilizzate come sovrapposizioni durante l
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Sketcher](Category_Sketcher.md) > Artwork Sketcher/it
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Sketcher](Category_Sketcher.md) > Artwork Sketcher/it

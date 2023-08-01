@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD IncreaseTolerance‏‎Feature
-   MenuLocation:OpenSCAD - Increase Tolerance Feature‏‎
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench.md)
-   Shortcut:
-   SeeAlso:
+   Name: OpenSCAD IncreaseTolerance‏‎Feature
+   MenuLocation: OpenSCAD - Increase Tolerance Feature‏‎
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # OpenSCAD IncreaseToleranceFeature/ro
@@ -39,4 +39,4 @@ Crește toleranța muchiilor/fațetelor/vertex a obiectelor selectate.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD IncreaseToleranceFeature/ro
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD IncreaseToleranceFeature/ro

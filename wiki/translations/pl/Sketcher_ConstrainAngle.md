@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainAngle
-   Name/pl:Szkicownik: Wiązanie kąta
-   MenuLocation:Szkic - Wiązania szkicownika - Wiązanie kąta
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**K** **A**
-   SeeAlso:[Wiązanie odległości](Sketcher_ConstrainDistance/pl.md), [Wiązanie prostopadłości](Sketcher_ConstrainPerpendicular/pl.md)
+   Name: Sketcher ConstrainAngle
+   Name/pl: Szkicownik: Wiązanie kąta
+   MenuLocation: Szkic - Wiązania szkicownika - Wiązanie kąta
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **K** **A**
+   SeeAlso: [Wiązanie odległości](Sketcher_ConstrainDistance/pl.md), [Wiązanie prostopadłości](Sketcher_ConstrainPerpendicular/pl.md)
 ---
 
 # Sketcher ConstrainAngle/pl
@@ -128,4 +128,4 @@ Strona [Skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/pl

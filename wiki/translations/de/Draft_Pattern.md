@@ -1,6 +1,4 @@
 # Draft Pattern/de
-{{TOCright}}
-
 ## Beschreibung
 
 [Draft](Draft_Workbench/de.md)-Objekte mit einer {{PropertyData/de|Make Face}} können ein SVG-muster anstelle einer einfarbigen Fläche anzeigen.
@@ -41,4 +39,4 @@ Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstel
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Pattern/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Pattern/de

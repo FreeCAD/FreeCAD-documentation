@@ -16,4 +16,4 @@ This category lists pages related to the [Mesh_Workbench/ro](Mesh_Workbench/ro.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Mesh/ro
+⏵ [documentation index](../README.md) > Category:Mesh/ro

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw WeldSymbol
-   Name/de:TechDraw Schweißsymbol
-   MenuLocation:TechDraw - Symbols - Hinzufügen von Schweißinformationen zur Hinweislinie
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[TechDraw Hinweislinie](TechDraw_LeaderLine/de.md)
+   Name: TechDraw WeldSymbol
+   Name/de: TechDraw Schweißsymbol
+   MenuLocation: TechDraw - Symbols - Hinzufügen von Schweißinformationen zur Hinweislinie
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [TechDraw Hinweislinie](TechDraw_LeaderLine/de.md)
 ---
 
 # TechDraw WeldSymbol/de
@@ -130,4 +130,4 @@ App.activeDocument().DrawTileWeld001.CenterText = "center text"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw WeldSymbol/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw WeldSymbol/de

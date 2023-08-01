@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path DressupLeadInOut
-   Name/fr:Path Entrée/sortie
-   MenuLocation:Path - Finition du parcours - Entrée/sortie
-   Workbenches:[Path](Path_Workbench/fr.md)
-   SeeAlso:[Path Dégagement d'angles](Path_DressupDogbone/fr.md), [Path Attaches](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Lame rotative](Path_DressupDragKnife/fr.md)
+   Name: Path DressupLeadInOut
+   Name/fr: Path Entrée/sortie
+   MenuLocation: Path - Finition du parcours - Entrée/sortie
+   Workbenches: [Path](Path_Workbench/fr.md)
+   SeeAlso: [Path Dégagement d'angles](Path_DressupDogbone/fr.md), [Path Attaches](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Lame rotative](Path_DressupDragKnife/fr.md)
 ---
 
 # Path DressupLeadInOut/fr
@@ -39,4 +39,4 @@ Add python code here
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupLeadInOut/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupLeadInOut/fr

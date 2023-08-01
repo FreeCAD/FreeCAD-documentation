@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPointPlaneDistance
-   Name/fr:Assembly3 Contrainte distance entre point et plan
-   Icon:Assembly_ConstraintPointPlaneDistance.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 ConstraintPointPlaneDistance
+   Name/fr: Assembly3 Contrainte distance entre point et plan
+   Icon: Assembly_ConstraintPointPlaneDistance.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintPointPlaneDistance/fr
@@ -21,4 +21,4 @@ Cet outil établit un lien entre deux objets d\'un assemblage et fixe la distanc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointPlaneDistance/fr
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPointPlaneDistance/fr

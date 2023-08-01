@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw 2LineCenterLine
-   Name/de:TechDraw 2LinienMittellinie
-   MenuLocation:TechDraw - Linien hinzufügen - Mittellinie zwischen 2 Linien hinzufügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[TechDraw FlächeMittellinie](TechDraw_FaceCenterLine/de.md), [TechDraw 2PunkteMittellinie](TechDraw_2PointCenterLine/de.md)
+   Name: TechDraw 2LineCenterLine
+   Name/de: TechDraw 2LinienMittellinie
+   MenuLocation: TechDraw - Linien hinzufügen - Mittellinie zwischen 2 Linien hinzufügen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [TechDraw FlächeMittellinie](TechDraw_FaceCenterLine/de.md), [TechDraw 2PunkteMittellinie](TechDraw_2PointCenterLine/de.md)
 ---
 
 # TechDraw 2LineCenterLine/de
@@ -73,4 +73,4 @@ Centerlines have no properties of their own, as they are not document objects.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2LineCenterLine/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2LineCenterLine/de

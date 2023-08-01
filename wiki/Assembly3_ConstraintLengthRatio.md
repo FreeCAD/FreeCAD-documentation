@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintLengthRatio
-   Icon:Assembly_ConstraintLengthRatio.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintLengthRatio
+   Icon: Assembly_ConstraintLengthRatio.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintLengthRatio
@@ -31,4 +31,4 @@ The length value of the first selected line equals the length value of the secon
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLengthRatio
+⏵ [documentation index](../README.md) > Assembly3 ConstraintLengthRatio

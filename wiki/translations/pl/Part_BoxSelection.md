@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part BoxSelection
-   Name/pl:Część: Zaznacz obszarem
-   MenuLocation:Część - Zaznacz obszarem
-   Workbenches:[Część](Part_Workbench/pl.md)
-   Version:0.18
-   SeeAlso:[Zaznacz obszar](Std_BoxSelection/pl.md), [Wybór elementów ramką zaznaczenia](Std_BoxElementSelection/pl.md), [Zaznacz wszystko](Std_SelectAll/pl.md)
+   Name: Part BoxSelection
+   Name/pl: Część: Zaznacz obszarem
+   MenuLocation: Część - Zaznacz obszarem
+   Workbenches: [Część](Part_Workbench/pl.md)
+   Version: 0.18
+   SeeAlso: [Zaznacz obszar](Std_BoxSelection/pl.md), [Wybór elementów ramką zaznaczenia](Std_BoxElementSelection/pl.md), [Zaznacz wszystko](Std_SelectAll/pl.md)
 ---
 
 # Part BoxSelection/pl
@@ -44,4 +44,4 @@ Narzędzie **<img src="images/Part_BoxSelection.svg" width=16px> '''Zaznacz obsz
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BoxSelection/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BoxSelection/pl

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Constraint PointOnObject
-   Name/es:Constraint PointOnObject
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md), [Diseño de Piezas](PartDesign_Workbench/es.md)
-   MenuLocation:Croquizador - Restricciones del Croquizador - Punto en objeto
-   SeeAlso:[Coincidente](Sketcher_ConstrainCoincident/es.md)
+   Name: Constraint PointOnObject
+   Name/es: Constraint PointOnObject
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md), [Diseño de Piezas](PartDesign_Workbench/es.md)
+   MenuLocation: Croquizador - Restricciones del Croquizador - Punto en objeto
+   SeeAlso: [Coincidente](Sketcher_ConstrainCoincident/es.md)
 ---
 
 # Sketcher ConstrainPointOnObject/es
@@ -64,4 +64,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains how to identify th
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/es

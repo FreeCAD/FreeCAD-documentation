@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std MergeProjects
-   Name/pl:Std: Scal projekt
-   MenuLocation:Plik - Scal projekt ...
-   Workbenches:wszystkie
+   Name: Std MergeProjects
+   Name/pl: Std: Scal projekt
+   MenuLocation: Plik - Scal projekt ...
+   Workbenches: wszystkie
 ---
 
 # Std MergeProjects/pl
@@ -71,4 +71,4 @@ FreeCAD.ActiveDocument.mergeProject("Path_to_FCStd_project_file")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MergeProjects/pl
+⏵ [documentation index](../README.md) > Std MergeProjects/pl

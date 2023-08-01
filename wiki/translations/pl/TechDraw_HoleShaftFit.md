@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw HoleShaftFit
-   Name/pl:Rysunek Techniczny: Dodaj pasowanie otworu / wału
-   MenuLocation:Rysunek Techniczny - Dodaj pasowanie otworu / wału
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Version:0.21
-   SeeAlso:[Wymiarowanie geometrii i tolerancja](TechDraw_Geometric_dimensioning_and_tolerancing/pl.md)
+   Name: TechDraw HoleShaftFit
+   Name/pl: Rysunek Techniczny: Dodaj pasowanie otworu / wału
+   MenuLocation: Rysunek Techniczny - Dodaj pasowanie otworu / wału
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Version: 0.21
+   SeeAlso: [Wymiarowanie geometrii i tolerancja](TechDraw_Geometric_dimensioning_and_tolerancing/pl.md)
 ---
 
 # TechDraw HoleShaftFit/pl
@@ -51,4 +51,4 @@ Narzędzie **Dodaj pasowanie otworu / wału** dodaje tolerancje otworu lub wału
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HoleShaftFit/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HoleShaftFit/pl

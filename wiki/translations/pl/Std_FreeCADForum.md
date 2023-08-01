@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std FreeCADForum
-   Name/pl:Std: Forum FreeCAD
-   MenuLocation:Pomoc - Forum FreeCAD
-   Workbenches:wszystkie
-   SeeAlso:[Witryna FreeCAD](Std_FreeCADWebsite/pl.md), [Dokumentacja użytkowników](Std_FreeCADUserHub/pl.md), [Dokumentacja skryptów środowiska Python](Std_FreeCADPowerUserHub/pl.md),[Często zadawane pytania dotyczące FreeCAD](Std_FreeCADFAQ/pl.md)
+   Name: Std FreeCADForum
+   Name/pl: Std: Forum FreeCAD
+   MenuLocation: Pomoc - Forum FreeCAD
+   Workbenches: wszystkie
+   SeeAlso: [Witryna FreeCAD](Std_FreeCADWebsite/pl.md), [Dokumentacja użytkowników](Std_FreeCADUserHub/pl.md), [Dokumentacja skryptów środowiska Python](Std_FreeCADPowerUserHub/pl.md),[Często zadawane pytania dotyczące FreeCAD](Std_FreeCADFAQ/pl.md)
 ---
 
 # Std FreeCADForum/pl
@@ -34,4 +34,4 @@ Obecnie polecenie wskazuje na [<https://forum.freecad.org>](https://forum.freeca
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADForum/pl
+⏵ [documentation index](../README.md) > Std FreeCADForum/pl

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Arch Component‏‎‏‎
-   Name/ru:Arch Component‏‎‏‎
-   Icon:Arch_Component.svg
-   MenuLocation:Arch - Вспомогательные - Компонент
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   Shortcut:**C** **M**
-   SeeAlso:
+   Name: Arch Component‏‎‏‎
+   Name/ru: Arch Component‏‎‏‎
+   Icon: Arch_Component.svg
+   MenuLocation: Arch - Вспомогательные - Компонент
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   Shortcut: **C** **M**
+   SeeAlso: 
 ---
 
 # Arch Component/ru
@@ -66,4 +66,4 @@ The Arch component object is also a base shared by all other Arch objects (**<im
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/ru

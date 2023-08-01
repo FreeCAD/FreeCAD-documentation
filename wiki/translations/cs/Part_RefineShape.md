@@ -1,6 +1,6 @@
 # Part RefineShape/cs
 ---
-- GuiCommand:   Name:Part RefineShape   Name/cs:Díl Vyčistit tvar   MenuLocation:Díl - Vyčistit tvar   Workbenches:[OpenSCAD](Part_Workbench/cs___Díl]],__[[OpenSCAD_Workbench/cs.md)|SeeAlso:---
+- GuiCommand:   Name: Part RefineShape   Name/cs: Díl Vyčistit tvar   MenuLocation: Díl - Vyčistit tvar   Workbenches: [OpenSCAD](Part_Workbench/cs___Díl]],__[[OpenSCAD_Workbench/cs.md)|SeeAlso: ---
 
 
 </div>
@@ -81,4 +81,4 @@ shape.removeSplitter()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RefineShape/cs
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RefineShape/cs

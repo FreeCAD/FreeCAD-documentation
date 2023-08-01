@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ViewFullscreen
-   Name/pl:Std: Wyświetl na pełnym ekranie
-   MenuLocation:Widok - Okno dokumentu - Pełny ekran
-   Workbenches:wszystkie
-   Shortcut:**F11**
-   SeeAlso:[Zadokuj / Oddokuj okno](Std_ViewDockUndockFullscreen/pl.md), [Pełny ekran](Std_MainFullscreen/pl.md)
+   Name: Std ViewFullscreen
+   Name/pl: Std: Wyświetl na pełnym ekranie
+   MenuLocation: Widok - Okno dokumentu - Pełny ekran
+   Workbenches: wszystkie
+   Shortcut: **F11**
+   SeeAlso: [Zadokuj / Oddokuj okno](Std_ViewDockUndockFullscreen/pl.md), [Pełny ekran](Std_MainFullscreen/pl.md)
 ---
 
 # Std ViewFullscreen/pl
@@ -38,4 +38,4 @@ Polecenie **Wyświetl na pełnym ekranie** przełącza okno [widoku 3D](3D_view/
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewFullscreen/pl
+⏵ [documentation index](../README.md) > Std ViewFullscreen/pl

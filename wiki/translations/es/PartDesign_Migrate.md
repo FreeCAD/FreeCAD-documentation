@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Migrate
-   Name/es:DiseñoPiezas Migración
-   MenuLocation:Diseño Piezas - Migración
-   Workbenches:[DiseñoPiezas](PartDesign_Workbench/es.md)
-   Version:0.17
+   Name: PartDesign Migrate
+   Name/es: DiseñoPiezas Migración
+   MenuLocation: Diseño Piezas - Migración
+   Workbenches: [DiseñoPiezas](PartDesign_Workbench/es.md)
+   Version: 0.17
 ---
 
 # PartDesign Migrate/es
@@ -46,4 +46,4 @@ El ambiente de trabajo de DiseñoPiezas en FreeCAD v0.17 introduce nuevas herram
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Migrate/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Migrate/es

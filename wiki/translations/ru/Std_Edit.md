@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Редактировать/закончить редактирование
-   Name:Std_Edit
-   MenuLocation:Редактировать - Редактировать/закончить редактирование
-   Workbenches:Все
-   SeeAlso:[Режим редактирования](Std_UserEditMode/ru.md)
+   Name/ru: Редактировать/закончить редактирование
+   Name: Std_Edit
+   MenuLocation: Редактировать - Редактировать/закончить редактирование
+   Workbenches: Все
+   SeeAlso: [Режим редактирования](Std_UserEditMode/ru.md)
 ---
 
 # Std Edit/ru
@@ -83,4 +83,4 @@ FreeCADGui.ActiveDocument.resetEdit()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Edit/ru
+⏵ [documentation index](../README.md) > Std Edit/ru

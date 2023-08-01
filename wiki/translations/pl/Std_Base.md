@@ -1,7 +1,7 @@
 # <img alt="Ikonka FreeCAD dla Std: Narzędzia standardowe" src=images/Freecad.svg  style="width:64px;"> Std Base/pl
 
 
-{{TOCright}}
+
 
 
 
@@ -71,4 +71,4 @@ Istnieje siedem standardowych menu podrzędnych. Każde podmenu ma dedykowaną s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Base/pl
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Base/pl

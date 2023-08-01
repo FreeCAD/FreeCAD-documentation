@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionIncreaseDecimal
-   Name/de:TechDraw ErgänzungDezimalstellenzahlErhöhen
-   MenuLocation:TechDraw - Ergänzungen: Maße - Dezimalstellenanzahl erhöhen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ErgänzungDezimalstellenzahlVerringern](TechDraw_ExtensionDecreaseDecimal/de.md)
+   Name: TechDraw ExtensionIncreaseDecimal
+   Name/de: TechDraw ErgänzungDezimalstellenzahlErhöhen
+   MenuLocation: TechDraw - Ergänzungen: Maße - Dezimalstellenanzahl erhöhen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ErgänzungDezimalstellenzahlVerringern](TechDraw_ExtensionDecreaseDecimal/de.md)
 ---
 
 # TechDraw ExtensionIncreaseDecimal/de
@@ -56,4 +56,4 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionIncreaseDecimal.svg  style
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionIncreaseDecimal/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionIncreaseDecimal/de

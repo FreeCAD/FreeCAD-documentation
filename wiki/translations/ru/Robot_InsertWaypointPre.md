@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Robot InsertWaypointPre
-   Name/ru:Robot InsertWaypointPre
-   MenuLocation:Робот - Вставить в траекторию
-   Workbenches:[Robot](Robot_Workbench/ru.md)
-   Shortcut:**W**
-   SeeAlso:[Robot CreateTrajectory](Robot_CreateTrajectory/ru.md), [Robot InsertWaypoint](Robot_InsertWaypoint/ru.md)
+   Name: Robot InsertWaypointPre
+   Name/ru: Robot InsertWaypointPre
+   MenuLocation: Робот - Вставить в траекторию
+   Workbenches: [Robot](Robot_Workbench/ru.md)
+   Shortcut: **W**
+   SeeAlso: [Robot CreateTrajectory](Robot_CreateTrajectory/ru.md), [Robot InsertWaypoint](Robot_InsertWaypoint/ru.md)
 ---
 
 # Robot InsertWaypointPre/ru
@@ -49,4 +49,4 @@ Selectable objects are:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypointPre/ru
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypointPre/ru

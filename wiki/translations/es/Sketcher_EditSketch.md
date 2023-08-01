@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher EditSketch
-   Name/es:Croquizador EditarCroquis
-   MenuLocation:Croquis - Editar Croquis
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md), [DiseñoPieza](PartDesign_Workbench/es.md)
-   SeeAlso:[Croquizador DejarCroquis](Sketcher_LeaveSketch/es.md)
+   Name: Sketcher EditSketch
+   Name/es: Croquizador EditarCroquis
+   MenuLocation: Croquis - Editar Croquis
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md), [DiseñoPieza](PartDesign_Workbench/es.md)
+   SeeAlso: [Croquizador DejarCroquis](Sketcher_LeaveSketch/es.md)
 ---
 
 # Sketcher EditSketch/es
@@ -67,4 +67,4 @@ Hay varias formas de invocar el comando Editar croquis:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/es

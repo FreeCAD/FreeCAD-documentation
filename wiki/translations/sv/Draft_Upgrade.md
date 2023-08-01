@@ -1,6 +1,6 @@
 # Draft Upgrade/sv
 ---
-- GuiCommand:   Name:Draft_Upgrade   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft - Upgrade   Shortcut:U P   SeeAlso:[Draft Downgrade](Draft_Downgrade/sv.md)---
+- GuiCommand:   Name: Draft_Upgrade   Workbenches: [Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation: Draft - Upgrade   Shortcut: U P   SeeAlso: [Draft Downgrade](Draft_Downgrade/sv.md)---
 
 
 </div>
@@ -92,4 +92,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Upgrade/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Upgrade/sv

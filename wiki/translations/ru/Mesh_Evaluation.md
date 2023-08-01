@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Mesh Evaluation
-   MenuLocation:Meshes - Analyze - Evaluate and repair mesh...
-   Workbenches:[Mesh](Mesh_Workbench.md)
+   Name: Mesh Evaluation
+   MenuLocation: Meshes - Analyze - Evaluate and repair mesh...
+   Workbenches: [Mesh](Mesh_Workbench.md)
 ---
 
 # Mesh Evaluation/ru
@@ -67,4 +67,4 @@ The **Mesh Evaluation** command evaluates and repairs a mesh object.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Evaluation/ru
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Evaluation/ru

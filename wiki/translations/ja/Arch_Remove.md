@@ -1,11 +1,11 @@
 # Arch Remove/ja
 ---
 - GuiCommand:
-   Name:Arch Remove
-   Name/ja:Removeツール
-   MenuLocation:Arch -> Remove
-   Workbenches:[建築](Arch_Workbench/ja.md)
-   SeeAlso:[Arch Add](Arch_Add/ja.md)---
+   Name: Arch Remove
+   Name/ja: Removeツール
+   MenuLocation: Arch -> Remove
+   Workbenches: [建築](Arch_Workbench/ja.md)
+   SeeAlso: [Arch Add](Arch_Add/ja.md)---
 
 
 </div>
@@ -106,4 +106,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/ja
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/ja

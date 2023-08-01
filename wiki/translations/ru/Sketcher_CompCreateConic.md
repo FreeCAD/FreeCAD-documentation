@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher_CompCreateConic
-   Name/ru:Создать фигуру конического сечения
-   Icon:Sketcher_CompCreateConic.png
-   MenuLocation:Нет (только на панели инструментов) 
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
+   Name: Sketcher_CompCreateConic
+   Name/ru: Создать фигуру конического сечения
+   Icon: Sketcher_CompCreateConic.png
+   MenuLocation: Нет (только на панели инструментов) 
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
 ---
 
 # Sketcher CompCreateConic/ru
@@ -39,4 +39,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateConic/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateConic/ru

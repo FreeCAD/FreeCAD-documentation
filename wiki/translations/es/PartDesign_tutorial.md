@@ -113,4 +113,4 @@ We are now finished with the basic workflow for the [PartDesign Workbench](PartD
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial/es

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:SheetMetal AddBend
-   MenuLocation:SheetMetal - Make Bend
-   Workbenches:[SheetMetal](SheetMetal_Workbench.md)
-   Shortcut:**S** **B**
-   SeeAlso:[SheetMetal AddRelief](SheetMetal_AddRelief.md), [SheetMetal AddJunction](SheetMetal_AddJunction.md)
+   Name: SheetMetal AddBend
+   MenuLocation: SheetMetal - Make Bend
+   Workbenches: [SheetMetal](SheetMetal_Workbench.md)
+   Shortcut: **S** **B**
+   SeeAlso: [SheetMetal AddRelief](SheetMetal_AddRelief.md), [SheetMetal AddJunction](SheetMetal_AddJunction.md)
 ---
 
 # SheetMetal AddBend/it
@@ -67,4 +67,4 @@ A SheetMetal SolidBend object is derived from a [Part Feature](Part_Feature.md) 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddBend/it
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddBend/it

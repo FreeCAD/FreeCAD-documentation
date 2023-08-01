@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh BoundingBox‏‎
-   Name/de:Netz BegrenzungsRahmen
-   MenuLocation:Netze - Analyse - Begrenzungsinfo...
-   Workbenches:[Netze](Mesh_Workbench/de.md)
+   Name: Mesh BoundingBox‏‎
+   Name/de: Netz BegrenzungsRahmen
+   MenuLocation: Netze - Analyse - Begrenzungsinfo...
+   Workbenches: [Netze](Mesh_Workbench/de.md)
 ---
 
 # Mesh BoundingBox/de
@@ -33,4 +33,4 @@ Der **Netz BegrenzungsRahmen** Befehl zeigt die Begrenzungsrahmen Koordinaten ei
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/de
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/de

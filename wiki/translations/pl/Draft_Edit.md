@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Edit
-   Name/pl:Rysunek Roboczy: Edytuj
-   MenuLocation:Modyfikacja - Edytuj
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut:**D** **E**
-   SeeAlso:[Edytuj](Std_Edit/pl.md)
+   Name: Draft Edit
+   Name/pl: Rysunek Roboczy: Edytuj
+   MenuLocation: Modyfikacja - Edytuj
+   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut: **D** **E**
+   SeeAlso: [Edytuj](Std_Edit/pl.md)
 ---
 
 # Draft Edit/pl
@@ -178,4 +178,4 @@ There is no Python method to Draft Edit objects. To emulate the results of the c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/pl

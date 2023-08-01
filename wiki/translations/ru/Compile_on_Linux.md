@@ -2,7 +2,7 @@
 **Существует экспериментальный контейнер FreeCAD Docker, который протестирован для разработки FreeCAD. Подробнее на странице [Компиляция в Docker](Compile_on_Docker/ru.md)**
 
 
-{{TOCright}}
+
 
 
 
@@ -1485,4 +1485,4 @@ make -j$(nproc)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on Linux/ru
+⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on Linux/ru

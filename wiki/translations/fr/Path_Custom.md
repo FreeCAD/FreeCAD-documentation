@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path Custom
-   Name/fr:Path Personnaliser
-   MenuLocation:Path - Autres commandes - Personnaliser
-   Workbenches:[Path](Path_Workbench/fr.md)
+   Name: Path Custom
+   Name/fr: Path Personnaliser
+   MenuLocation: Path - Autres commandes - Personnaliser
+   Workbenches: [Path](Path_Workbench/fr.md)
 ---
 
 # Path Custom/fr
@@ -49,4 +49,4 @@ Notez que les vitesses d\'avance ne seront correctement générées par le post-
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Custom/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Custom/fr

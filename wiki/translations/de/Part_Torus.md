@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Torus
-   Name/de:Part Torus
-   MenuLocation:Formteil - Grundkörper - Torus
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Grundelemente](Part_Primitives/de.md)
+   Name: Part Torus
+   Name/de: Part Torus
+   MenuLocation: Formteil - Grundkörper - Torus
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: [Part Grundelemente](Part_Primitives/de.md)
 ---
 
 # Part Torus/de
@@ -126,4 +126,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/de

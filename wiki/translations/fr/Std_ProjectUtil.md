@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std ProjectUtil
-   Name/fr:Std Utilitaire de projet
-   MenuLocation:Outils - Utilitaire de projet
-   Workbenches:Tous
+   Name: Std ProjectUtil
+   Name/fr: Std Utilitaire de projet
+   MenuLocation: Outils - Utilitaire de projet
+   Workbenches: Tous
 ---
 
 # Std ProjectUtil/fr
@@ -60,4 +60,4 @@ Il est important de réaliser que les fichiers contenus dans un fichier de proje
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ProjectUtil/fr
+⏵ [documentation index](../README.md) > Std ProjectUtil/fr

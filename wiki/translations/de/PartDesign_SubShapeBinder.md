@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubShapeBinder
-   Name/de:PartDesign Teilformbinder
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   MenuLocation:Part Design - Formbinder für Teilobjekt erstellen
-   Version:0.19
-   SeeAlso:[PartDesign Formbinder](PartDesign_ShapeBinder/de.md), [PartDesign Klon](PartDesign_Clone/de.md)
+   Name: PartDesign SubShapeBinder
+   Name/de: PartDesign Teilformbinder
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   MenuLocation: Part Design - Formbinder für Teilobjekt erstellen
+   Version: 0.19
+   SeeAlso: [PartDesign Formbinder](PartDesign_ShapeBinder/de.md), [PartDesign Klon](PartDesign_Clone/de.md)
 ---
 
 # PartDesign SubShapeBinder/de
@@ -156,4 +156,4 @@ Ein PartDesign-Teilformbinder (Binder-Objekt) ist von einem [Part-Formelement](P
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubShapeBinder/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubShapeBinder/de

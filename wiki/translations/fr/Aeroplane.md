@@ -109,4 +109,4 @@ J\'espère, que ce petit tutoriel vous a aidé, à comprendre les rotations.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Category_Part.md) > Aeroplane/fr
+⏵ [documentation index](../README.md) > [Part](Category_Part.md) > Aeroplane/fr

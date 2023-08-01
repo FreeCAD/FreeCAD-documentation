@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Snap WorkingPlane
-   Name/it: Limita al piano di lavoro
-   MenuLocation:Draft - [Aggancio](Draft_Snap/it.md) -  Piano di lavoro
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Agganciare](Draft_Snap/it.md), [Selezione del piano](Draft_SelectPlane/it.md)
+   Name: Draft Snap WorkingPlane
+   Name/it:  Limita al piano di lavoro
+   MenuLocation: Draft - [Aggancio](Draft_Snap/it.md) -  Piano di lavoro
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: [Agganciare](Draft_Snap/it.md), [Selezione del piano](Draft_SelectPlane/it.md)
 ---
 
 # Draft Snap WorkingPlane/it
@@ -62,4 +62,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap WorkingPlane/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap WorkingPlane/it

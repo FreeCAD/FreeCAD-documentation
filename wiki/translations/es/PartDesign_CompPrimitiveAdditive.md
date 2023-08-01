@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign CompPrimitiveAdditive
-   Name/es:Part Design Crear una Primitiva aditiva
-   Workbenches:[Part Design](PartDesign_Workbench/es.md)
-   MenuLocation:Part Design - Crear una primitiva aditiva
-   Version:0.17
-   SeeAlso:[Crear una Primitiva sustractiva](PartDesign_CompPrimitiveSubtractive/es.md)
+   Name: PartDesign CompPrimitiveAdditive
+   Name/es: Part Design Crear una Primitiva aditiva
+   Workbenches: [Part Design](PartDesign_Workbench/es.md)
+   MenuLocation: Part Design - Crear una primitiva aditiva
+   Version: 0.17
+   SeeAlso: [Crear una Primitiva sustractiva](PartDesign_CompPrimitiveSubtractive/es.md)
 ---
 
 # PartDesign CompPrimitiveAdditive/es
@@ -44,4 +44,4 @@ Crea una primitiva aditiva en el Cuerpo activo como primera característica, o l
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveAdditive/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveAdditive/es

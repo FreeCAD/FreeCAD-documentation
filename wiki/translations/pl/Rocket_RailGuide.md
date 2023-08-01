@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Rocket RailGuide
-   MenuLocation:Rocket - Launch Guides - Rail Guide
-   Workbenches:[Rocket Workbench](Rocket_Workbench.md)
-   Version:0.19
+   Name: Rocket RailGuide
+   MenuLocation: Rocket - Launch Guides - Rail Guide
+   Workbenches: [Rocket Workbench](Rocket_Workbench.md)
+   Version: 0.19
 ---
 
 # Rocket RailGuide/pl
@@ -77,4 +77,4 @@ These parameters are provided for information and have no effect on the design o
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket RailGuide/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket RailGuide/pl

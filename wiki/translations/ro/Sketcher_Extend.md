@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ro:Sketcher: Prelungirea muchiei
-   Icon:Sketcher Extend.svg
-   MenuLocation:Sketch - Geometria schitei - Prelungirea muchiei
-   Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   SeeAlso:[Sketcher Taie marginea](Sketcher_Trimming/ro.md)
-   Version:0.17
+   Name/ro: Sketcher: Prelungirea muchiei
+   Icon: Sketcher Extend.svg
+   MenuLocation: Sketch - Geometria schitei - Prelungirea muchiei
+   Workbenches: [Sketcher](Sketcher_Workbench/ro.md)
+   SeeAlso: [Sketcher Taie marginea](Sketcher_Trimming/ro.md)
+   Version: 0.17
 ---
 
 # Sketcher Extend/ro
@@ -45,4 +45,4 @@ The **extend edge** tool extends an edge to an arbitrary location in the sketch,
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Extend/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Extend/ro

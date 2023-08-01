@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Measure Menu/it
+⏵ [documentation index](../README.md) > Std Measure Menu/it

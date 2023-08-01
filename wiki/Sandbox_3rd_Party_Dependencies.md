@@ -76,4 +76,4 @@ qt5                                                      qt5-base
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Sandbox:3rd Party Dependencies
+⏵ [documentation index](../README.md) > Sandbox:3rd Party Dependencies

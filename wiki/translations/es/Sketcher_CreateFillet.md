@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateFillet
-   Name/es:Sketcher CreateFillet
-   MenuLocation:Croquizador - Geometrías del Croquizador - Crear redondeo
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   Shortcut:F
+   Name: Sketcher CreateFillet
+   Name/es: Sketcher CreateFillet
+   MenuLocation: Croquizador - Geometrías del Croquizador - Crear redondeo
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   Shortcut: F
 ---
 
 # Sketcher CreateFillet/es
@@ -59,4 +59,4 @@ Al iniciar la herramienta, las selecciones se borran y el puntero del ratón cam
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/es

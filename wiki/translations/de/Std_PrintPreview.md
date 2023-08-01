@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std PrintPreview
-   Name/de:Std Druckvorschau
-   MenuLocation:Datei - Druckvorschau
-   Workbenches:Alle
-   Shortcut:Strg+P
-   SeeAlso:[Drucken](Std_Print/de.md)
+   Name: Std PrintPreview
+   Name/de: Std Druckvorschau
+   MenuLocation: Datei - Druckvorschau
+   Workbenches: Alle
+   Shortcut: Strg+P
+   SeeAlso: [Drucken](Std_Print/de.md)
 ---
 
 # Std PrintPreview/de
@@ -36,4 +36,4 @@ Der Befehl **Std Druckvorschau** zeigt eine Vorschau auf das Ergebnis des Befehl
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std PrintPreview/de
+⏵ [documentation index](../README.md) > Std PrintPreview/de

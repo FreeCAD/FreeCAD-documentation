@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_DlgMacroRecord
-   Name/fr:Std Enregistrement de macro
-   MenuLocation:Macro - Enregistrement de macro...
-   Workbenches:Tous
-   SeeAlso:[Std Arrêt enregistrement macro](Std_MacroStopRecord/fr.md)
+   Name: Std_DlgMacroRecord
+   Name/fr: Std Enregistrement de macro
+   MenuLocation: Macro - Enregistrement de macro...
+   Workbenches: Tous
+   SeeAlso: [Std Arrêt enregistrement macro](Std_MacroStopRecord/fr.md)
 ---
 
 # Std DlgMacroRecord/fr
@@ -66,4 +66,4 @@ La commande **Std Enregistrement de macro** démarre une session d\'enregistreme
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgMacroRecord/fr
+⏵ [documentation index](../README.md) > Std DlgMacroRecord/fr

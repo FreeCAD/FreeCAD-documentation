@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch CompPipe
-   Name/it:Tubazioni
-   MenuLocation:Arch - Tubazioni
-   Workbenches:[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   SeeAlso:
-   Version:0.17
+   Name: Arch CompPipe
+   Name/it: Tubazioni
+   MenuLocation: Arch - Tubazioni
+   Workbenches: [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   SeeAlso: 
+   Version: 0.17
 ---
 
 # Arch CompPipe/it
@@ -42,4 +42,4 @@ Grouping of several pipe related tools.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPipe/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPipe/it

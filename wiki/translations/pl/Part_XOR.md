@@ -1,12 +1,12 @@
 # Part XOR/pl
 ---
 - GuiCommand:
-   Name:Part_XOR
-   Name/pl:Część: Logiczny XOR
-   MenuLocation:Część - Rozdziel - Logiczny XOR
-   Workbenches:[Część](Part_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Fragmentacja funkcją logiczną](Part_BooleanFragments/pl.md), [Rozbij na kształty złożenia](Part_Slice/pl.md), [Połącz obiekty](Part_CompJoinFeatures/pl.md), [Operacje logiczne na bryłach](Part_Boolean/pl.md)---
+   Name: Part_XOR
+   Name/pl: Część: Logiczny XOR
+   MenuLocation: Część - Rozdziel - Logiczny XOR
+   Workbenches: [Część](Part_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Fragmentacja funkcją logiczną](Part_BooleanFragments/pl.md), [Rozbij na kształty złożenia](Part_Slice/pl.md), [Połącz obiekty](Part_CompJoinFeatures/pl.md), [Operacje logiczne na bryłach](Part_Boolean/pl.md)---
 
 
 
@@ -43,4 +43,4 @@ Polecenie <img alt="" src=images/Part_XOR.svg  style="width:24px;"> **XOR** usuw
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part XOR/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part XOR/pl

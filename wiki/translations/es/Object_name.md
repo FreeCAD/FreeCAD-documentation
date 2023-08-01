@@ -2,7 +2,7 @@
 ## Introducción
 
 
-{{TOCright}}
+
 
 
 <div class="mw-translate-fuzzy">
@@ -131,4 +131,4 @@ Given that the `Label` is in general not unique, the `getObjectsByLabel` method 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Object name/es
+⏵ [documentation index](../README.md) > Object name/es

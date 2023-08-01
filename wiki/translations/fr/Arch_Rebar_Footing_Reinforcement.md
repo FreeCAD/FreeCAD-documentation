@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar Footing Reinforcement
-   Name/fr:Arch Rebar Renforts de semelle
-   MenuLocation:Arch - Rebar tools - Footing Reinforcement<br>3D/BIM - Reinforcement tools - Footing 
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md)
+   Name: Arch Rebar Footing Reinforcement
+   Name/fr: Arch Rebar Renforts de semelle
+   MenuLocation: Arch - Rebar tools - Footing Reinforcement<br>3D/BIM - Reinforcement tools - Footing 
+   Workbenches: [Arch](Arch_Workbench/fr.md)
+   SeeAlso: [Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md)
 ---
 
 # Arch Rebar Footing Reinforcement/fr
@@ -510,4 +510,4 @@ footingReinforcementGroup = editFootingReinforcement(
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Footing Reinforcement/fr
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Footing Reinforcement/fr

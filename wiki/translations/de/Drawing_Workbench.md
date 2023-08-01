@@ -11,7 +11,7 @@ The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement
 Das Zeichnungsmodul erlaubt dir, deine 3D Arbeit zu Papier zu bringen. Das bedeutet, gewählte Ansichten von deinen Modellen in einem 2D Fenster anzeigen und dieses Fenster in eine Zeichnung einzufügen, zum Beispiel in ein Blatt mit einer Umrandung, einem Titel und deinem Logo und druckt schließlich das Blatt.
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Drawing_extraction.png  style="width:600px;">
 
@@ -111,4 +111,4 @@ Einige Hinweise auf der Programmierseite des Zeichenmoduls werden auf der Seite 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/de
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/de

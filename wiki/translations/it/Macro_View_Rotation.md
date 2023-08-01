@@ -296,4 +296,4 @@ alla fine della funzione \'initUI\'. I primi due argomenti (right-300, 0) (linea
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro View Rotation/it
+⏵ [documentation index](../README.md) > Macro View Rotation/it

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Raytracing InsertPart
-   Name/fr:Raytracing Insérer une pièce
-   MenuLocation:Raytracing - Insérer une pièce
-‎   Workbenches:[Raytracing](Raytracing_Workbench/fr.md)
-   Shortcut:
-   SeeAlso:
+   Name: Raytracing InsertPart
+   Name/fr: Raytracing Insérer une pièce
+   MenuLocation: Raytracing - Insérer une pièce
+‎   Workbenches: [Raytracing](Raytracing_Workbench/fr.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Raytracing InsertPart/fr
@@ -36,4 +36,4 @@ Insére une vue d\'une pièce dans un projet de Lancer de rayons.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing InsertPart/fr
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing InsertPart/fr

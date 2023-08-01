@@ -1,6 +1,6 @@
 # Part Loft/it
 ---
-- GuiCommand:   Name:Part Loft   Name/it:Loft   MenuLocation:Part - Loft...   |Workbenches:[Version:0.13   SeeAlso:[[Part Sweep/it|Sweep](Part_Workbench/it___Part]].md)---
+- GuiCommand:   Name: Part Loft   Name/it: Loft   MenuLocation: Part - Loft...   |Workbenches: [Version: 0.13   SeeAlso: [[Part Sweep/it|Sweep](Part_Workbench/it___Part]].md)---
 
 
 </div>
@@ -236,4 +236,4 @@ La sequenza delle sezioni dipende dalla sequenza di selezione nell\'elenco. Se s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft/it

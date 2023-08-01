@@ -1,7 +1,7 @@
 # <img alt="PartDesign Arbeitsbereichsymbol" src=images/Workbench_PartDesign.svg  style="width:64px;"> PartDesign Workbench/de
 
 
-{{TOCright}}
+
 
 
 
@@ -248,4 +248,4 @@ Ein paar Ideen, was mit den Part-Design-Werkzeugen erstellt werden kann, findet 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/de
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/de

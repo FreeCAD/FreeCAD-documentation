@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Curves Line
-   MenuLocation:Curves - Parametric line
-   Workbenches:[Curves](Curves_Workbench.md)
+   Name: Curves Line
+   MenuLocation: Curves - Parametric line
+   Workbenches: [Curves](Curves_Workbench.md)
 ---
 
 # Curves Line/pl
@@ -37,4 +37,4 @@ The <img alt="" src=images/Curves_Line.svg  style="width:24px;"> [Curves Line](C
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves Line/pl
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves Line/pl

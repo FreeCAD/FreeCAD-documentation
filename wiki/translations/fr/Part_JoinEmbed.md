@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part JoinEmbed
-   Name/fr:Part Intégrer
-   MenuLocation:Part - Joindre - Intégrer un objet
-   Workbenches:[Part](Part_Workbench/fr.md)
-   Version:0.16
-   SeeAlso:[Part Connecter](Part_JoinConnect/fr.md), [Part Découper](Part_JoinCutout/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)
+   Name: Part JoinEmbed
+   Name/fr: Part Intégrer
+   MenuLocation: Part - Joindre - Intégrer un objet
+   Workbenches: [Part](Part_Workbench/fr.md)
+   Version: 0.16
+   SeeAlso: [Part Connecter](Part_JoinConnect/fr.md), [Part Découper](Part_JoinCutout/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)
 ---
 
 # Part JoinEmbed/fr
@@ -91,4 +91,4 @@ L\'outil lui-même est implémenté en Python, voir **/Mod/Part/JoinFeatures.py*
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinEmbed/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinEmbed/fr

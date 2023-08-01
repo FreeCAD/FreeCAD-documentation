@@ -1,8 +1,4 @@
 # File Format FCStd/it
-{{TOCright}}
-
-
-
 ## Introduzione
 
 Il **Formato nativo dei file di FreeCAD** (FreeCAD Standard file format) **.FCStd** è il formato principale dei file di FreeCAD. Si tratta di un formato composto che supporta la compressione e l\'incorporamento di diversi tipi di dati.
@@ -180,4 +176,4 @@ Un utile programma convertitore: [ImageConv](ImageConv/it.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > [File_Formats](Category_File_Formats.md) > File Format FCStd/it
+⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > [File_Formats](Category_File_Formats.md) > File Format FCStd/it

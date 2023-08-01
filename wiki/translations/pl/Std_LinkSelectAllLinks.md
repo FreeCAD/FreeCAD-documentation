@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std LinkSelectAllLinks
-   Name/pl:Std: Wybierz wszystkie łącza
-   MenuLocation:brak
-   Workbenches:wszystkie
-   Version:0.19
-   SeeAlso:[Przejdź do połączonego obiektu](Std_LinkSelectLinked/pl.md), [Przejdź do najgłębiej połączonego obiektu](Std_LinkSelectLinkedFinal/pl.md), [Przywróć wybór](Std_SelBack/pl.md), [Ponów wybór](Std_SelForward/pl.md)
+   Name: Std LinkSelectAllLinks
+   Name/pl: Std: Wybierz wszystkie łącza
+   MenuLocation: brak
+   Workbenches: wszystkie
+   Version: 0.19
+   SeeAlso: [Przejdź do połączonego obiektu](Std_LinkSelectLinked/pl.md), [Przejdź do najgłębiej połączonego obiektu](Std_LinkSelectLinkedFinal/pl.md), [Przywróć wybór](Std_SelBack/pl.md), [Ponów wybór](Std_SelForward/pl.md)
 ---
 
 # Std LinkSelectAllLinks/pl
@@ -37,4 +37,4 @@ Polecenie **Wybierz wszystkie łącza** wybiera wszystkie obiekty [App Link](App
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkSelectAllLinks/pl
+⏵ [documentation index](../README.md) > Std LinkSelectAllLinks/pl

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Part Workbench/en
+⏵ [documentation index](../README.md) > Part Workbench/en

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Save
-   Name/ru:Std Save
-   MenuLocation:[Файл](Std_File_Menu/ru.md) - Сохранить
-   Workbenches:All
-   Shortcut:**Ctrl**+**S**
-   SeeAlso:[Сохранить как...](Std_SaveAs/ru.md), [Std SaveCopy](Std_SaveCopy/ru.md), [Std SaveAll](Std_SaveAll/ru.md)
+   Name: Std Save
+   Name/ru: Std Save
+   MenuLocation: [Файл](Std_File_Menu/ru.md) - Сохранить
+   Workbenches: All
+   Shortcut: **Ctrl**+**S**
+   SeeAlso: [Сохранить как...](Std_SaveAs/ru.md), [Std SaveCopy](Std_SaveCopy/ru.md), [Std SaveAll](Std_SaveAll/ru.md)
 ---
 
 # Std Save/ru
@@ -57,4 +57,4 @@ To save a document use the `save` method of the document object. A new document 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Save/ru
+⏵ [documentation index](../README.md) > Std Save/ru

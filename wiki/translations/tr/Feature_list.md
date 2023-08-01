@@ -7,7 +7,7 @@ FreeCAD\'in uyguladığı özelliklerin kapsamlı bir listesidir, dolayısıyla 
 </div>
 
 
-{{TOCright}}
+
 
 
 
@@ -285,4 +285,4 @@ Uzman kullanıcılar, çeşitli özel [dış tezgahlar](external_workbenches.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/tr
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/tr

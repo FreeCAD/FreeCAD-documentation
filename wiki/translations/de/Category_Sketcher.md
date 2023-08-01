@@ -55,4 +55,4 @@ Diese Kategorie listet Seiten auf, die sich auf den [Sketcher-Arbeitsbereich](Sk
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Sketcher/de
+⏵ [documentation index](../README.md) > Category:Sketcher/de

@@ -1,7 +1,7 @@
 # <img alt="Surface Arbeitsbereichssymbol" src=images/Workbench_Surface.svg  style="width:64px;"> Surface Workbench/de
 
 
-{{TOCright}}
+
 
 
 
@@ -62,4 +62,4 @@ Die generierte Oberfläche kann nicht mehr innerhalb eines **[<img src=images/Pa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Surface](Category_Surface.md) > Surface Workbench/de
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Surface](Category_Surface.md) > Surface Workbench/de

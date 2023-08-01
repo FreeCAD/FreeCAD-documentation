@@ -2,7 +2,7 @@
 **Esiste un contenitore Docker FreeCAD sperimentale che viene testato per lo sviluppo di FreeCAD. Ulteriori informazioni su [[Compile on Docker]]**
 
 
-{{TOCright}}
+
 
 
 
@@ -282,4 +282,4 @@ FreeCAD può essere compilato con l\'ultimo git master ospitato su github e avvi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on MacOS/it
+⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on MacOS/it

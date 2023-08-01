@@ -217,4 +217,4 @@ Există numeroase aplicații disponibile pentru a simula uzinarea reală, una di
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Category_Path.md) > [Mesh](Category_Mesh.md) > [Tutorials](Category_Tutorials.md) > Manual:Preparing models for 3D printing/ro
+⏵ [documentation index](../README.md) > [Path](Category_Path.md) > [Mesh](Category_Mesh.md) > [Tutorials](Category_Tutorials.md) > Manual:Preparing models for 3D printing/ro

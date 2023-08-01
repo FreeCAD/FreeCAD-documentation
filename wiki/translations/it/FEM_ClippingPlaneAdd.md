@@ -1,6 +1,6 @@
 # FEM ClippingPlaneAdd/it
 ---
-- GuiCommand:   Name:FEM ClippingPlaneAdd   Name/it:Piano di taglio sulla faccia   Icon:Fem-clipping-plane-add.svg   MenuLocation: Utilità - Piano di taglio sulla faccia   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:   Name: FEM ClippingPlaneAdd   Name/it: Piano di taglio sulla faccia   Icon: Fem-clipping-plane-add.svg   MenuLocation:  Utilità - Piano di taglio sulla faccia   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 
 </div>
@@ -52,4 +52,4 @@ To remove all clipping planes, use the feature [Remove all clipping planes](FEM_
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ClippingPlaneAdd/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ClippingPlaneAdd/it

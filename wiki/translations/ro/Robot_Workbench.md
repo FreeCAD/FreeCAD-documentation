@@ -42,7 +42,7 @@ Pentru a începe încercați [Robot tutorial](Robot_tutorial.md), și vedeți in
 </div>
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Robot_Workbench_example.jpg  style="width:500px;">
 
@@ -128,4 +128,4 @@ A se vedea [Robot API example](Robot_API_example.md) pentru o descriere a funcț
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Robot](Category_Robot.md) > Robot Workbench/ro
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Robot](Category_Robot.md) > Robot Workbench/ro

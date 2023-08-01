@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft SubelementHighlight
-   MenuLocation:Modification - Subelement highlight
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:**H** **S**
-   Version:0.19
-   SeeAlso:[Draft Move](Draft_Move.md), [Draft Rotate](Draft_Rotate.md), [Draft Scale](Draft_Scale.md)
+   Name: Draft SubelementHighlight
+   MenuLocation: Modification - Subelement highlight
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut: **H** **S**
+   Version: 0.19
+   SeeAlso: [Draft Move](Draft_Move.md), [Draft Rotate](Draft_Rotate.md), [Draft Scale](Draft_Scale.md)
 ---
 
 # Draft SubelementHighlight/pt-br
@@ -50,4 +50,4 @@ The <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:24px;"> *
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SubelementHighlight/pt-br
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SubelementHighlight/pt-br

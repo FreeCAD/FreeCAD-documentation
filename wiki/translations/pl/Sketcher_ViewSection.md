@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ViewSection
-   Name/pl:Szkicownik: Widok przekroju
-   MenuLocation:Szkic - Widok przekroju
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md), [Projekt części](PartDesign_Workbench/pl.md)
-   Shortcut:**Q** **S**
-   Version:0.18
+   Name: Sketcher ViewSection
+   Name/pl: Szkicownik: Widok przekroju
+   MenuLocation: Szkic - Widok przekroju
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md), [Projekt części](PartDesign_Workbench/pl.md)
+   Shortcut: **Q** **S**
+   Version: 0.18
 ---
 
 # Sketcher ViewSection/pl
@@ -39,4 +39,4 @@ To polecenie można wywołać na kilka sposobów:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/pl

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintPlaneRotation
-   Name/pl:MES: Zdefiniuj obrót w płaszczyźnie
-   MenuLocation:Model - Wiązania geometryczne - Zdefiniuj obrót w płaszczyźnie
-   Workbenches:[środowisko pracy MES](FEM_Workbench/pl.md)
-   SeeAlso:[Zdefiniuj odkształcenia](FEM_ConstraintTransform/pl.md)
+   Name: FEM ConstraintPlaneRotation
+   Name/pl: MES: Zdefiniuj obrót w płaszczyźnie
+   MenuLocation: Model - Wiązania geometryczne - Zdefiniuj obrót w płaszczyźnie
+   Workbenches: [środowisko pracy MES](FEM_Workbench/pl.md)
+   SeeAlso: [Zdefiniuj odkształcenia](FEM_ConstraintTransform/pl.md)
 ---
 
 # FEM ConstraintPlaneRotation/pl
@@ -48,4 +48,4 @@ Tworzy wiązanie metodą elementów skończonych, aby węzły na powierzchni pł
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPlaneRotation/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPlaneRotation/pl

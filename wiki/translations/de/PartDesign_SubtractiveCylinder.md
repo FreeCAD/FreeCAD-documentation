@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractiveCylinder
-   Name/de:PartDesign ZylinderAbziehen
-   MenuLocation:Part Design - Grundkörper abziehen - Zylinder
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[PartDesign AuswahlGrundkörperAbziehen](PartDesign_CompPrimitiveSubtractive/de.md), [PartDesign ZylinderHinzufügen](PartDesign_AdditiveCylinder/de.md)
+   Name: PartDesign SubtractiveCylinder
+   Name/de: PartDesign ZylinderAbziehen
+   MenuLocation: Part Design - Grundkörper abziehen - Zylinder
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [PartDesign AuswahlGrundkörperAbziehen](PartDesign_CompPrimitiveSubtractive/de.md), [PartDesign ZylinderHinzufügen](PartDesign_AdditiveCylinder/de.md)
 ---
 
 # PartDesign SubtractiveCylinder/de
@@ -73,4 +73,4 @@ Der Zylinder kann nach der Erstellung auf zwei Arten bearbeitet werden:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveCylinder/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveCylinder/de

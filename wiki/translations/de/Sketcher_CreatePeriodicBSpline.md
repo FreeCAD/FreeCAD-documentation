@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreatePeriodicBSpline
-   Name/de:Sketcher GeschlossenenB-SplineErstellen
-   MenuLocation: Sketch - Skizzengeometrien - Geschlossenen B-Spline erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **B** **P**
-   Version:0.17
-   SeeAlso:[Sketcher B-SplineErstellen](Sketcher_CreateBSpline/de.md)
+   Name: Sketcher CreatePeriodicBSpline
+   Name/de: Sketcher GeschlossenenB-SplineErstellen
+   MenuLocation:  Sketch - Skizzengeometrien - Geschlossenen B-Spline erstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **B** **P**
+   Version: 0.17
+   SeeAlso: [Sketcher B-SplineErstellen](Sketcher_CreateBSpline/de.md)
 ---
 
 # Sketcher CreatePeriodicBSpline/de
@@ -53,4 +53,4 @@ Siehe [Sketcher B-SplineErstellen](Sketcher_CreateBSpline/de#Hinweise.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePeriodicBSpline/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePeriodicBSpline/de

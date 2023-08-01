@@ -3,7 +3,7 @@
 ## Introduzione
 
 
-{{TOCright}}
+
 
 L\'ambiente <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> **Defeaturing** è un ambiente aggiuntivo destinato alla modifica dei modelli STEP, per rimuovere dal modello le funzioni selezionate. È un [ambiente esterno](External_Workbenches/it.md) e quindi non fa parte dell\'installazione standard di FreeCAD.
 
@@ -117,4 +117,4 @@ Sono in fase di sviluppo ulteriori nuovi ambienti.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Defeaturing Workbench/it
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Defeaturing Workbench/it

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Создать опорную плоскость
-   Name:PartDesign_Plane
-   MenuLocation:Part Design - Create a datum - Создать опорную плоскость
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Создать опорную точку](PartDesign_Point/ru.md), [Создать опорный отрезок](PartDesign_Line/ru.md)
+   Name/ru: Создать опорную плоскость
+   Name: PartDesign_Plane
+   MenuLocation: Part Design - Create a datum - Создать опорную плоскость
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Создать опорную точку](PartDesign_Point/ru.md), [Создать опорный отрезок](PartDesign_Line/ru.md)
 ---
 
 # PartDesign Plane/ru
@@ -52,4 +52,4 @@ Double-click the DatumPlane label in the Model tree or right-click and select **
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/ru

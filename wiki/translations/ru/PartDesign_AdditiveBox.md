@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Аддитивный куб (параллелепипед)
-   Name:PartDesign_AdditiveBox
-   MenuLocation:Part Design - Создать аддитивный примитив - Аддитивный куб (параллелепипед)
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Создать аддитивный примитив](PartDesign_CompPrimitiveAdditive/ru.md), [Субтрактивный куб (параллелепипед)](PartDesign_SubtractiveBox/ru.md)
+   Name/ru: Аддитивный куб (параллелепипед)
+   Name: PartDesign_AdditiveBox
+   MenuLocation: Part Design - Создать аддитивный примитив - Аддитивный куб (параллелепипед)
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Создать аддитивный примитив](PartDesign_CompPrimitiveAdditive/ru.md), [Субтрактивный куб (параллелепипед)](PartDesign_SubtractiveBox/ru.md)
 ---
 
 # PartDesign AdditiveBox/ru
@@ -53,4 +53,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveBox/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveBox/ru

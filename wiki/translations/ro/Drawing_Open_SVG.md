@@ -1,6 +1,6 @@
 # Drawing Open SVG/ro
 ---
-- GuiCommand:   Name:Drawing Open SVG   Name/ro:Drawing Open SVG   Workbenches:[MenuLocation:Drawing - Open SVG...   Shortcut:none   SeeAlso:[[Drawing Save/ro|Drawing Save](Drawing_Workbench/ro___Drawing]],_Complete.md)---
+- GuiCommand:   Name: Drawing Open SVG   Name/ro: Drawing Open SVG   Workbenches: [MenuLocation: Drawing - Open SVG...   Shortcut: none   SeeAlso: [[Drawing Save/ro|Drawing Save](Drawing_Workbench/ro___Drawing]],_Complete.md)---
 
 
 </div>
@@ -21,4 +21,4 @@ Acest instrument deschide o foaie de desen creată anterior ca fișier SVG (graf
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Open SVG/ro
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Open SVG/ro

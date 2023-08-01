@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_OrthographicCamera
-   Name/it:Vista ortografica
-   MenuLocation:Visualizza - Vista ortografica
-   Workbenches:Tutti
-   Shortcut:**V** **O**
-   SeeAlso:[Vista in prospettiva](Std_PerspectiveCamera/it.md)
+   Name: Std_OrthographicCamera
+   Name/it: Vista ortografica
+   MenuLocation: Visualizza - Vista ortografica
+   Workbenches: Tutti
+   Shortcut: **V** **O**
+   SeeAlso: [Vista in prospettiva](Std_PerspectiveCamera/it.md)
 ---
 
 # Std OrthographicCamera/it
@@ -64,4 +64,4 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraType()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std OrthographicCamera/it
+⏵ [documentation index](../README.md) > Std OrthographicCamera/it

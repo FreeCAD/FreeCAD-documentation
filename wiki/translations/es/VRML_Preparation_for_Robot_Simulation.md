@@ -447,4 +447,4 @@ Aquí está un parche para conseguir el archivo VRML adecuado para la simulació
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Category_Robot.md) > VRML Preparation for Robot Simulation/es
+⏵ [documentation index](../README.md) > [Robot](Category_Robot.md) > VRML Preparation for Robot Simulation/es

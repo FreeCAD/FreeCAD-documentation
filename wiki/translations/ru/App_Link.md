@@ -1,8 +1,4 @@
 # App Link/ru
-{{TOCright}}
-
-
-
 ## Введение
 
 <img alt="" src=images/Link.svg  style="width:32px;">
@@ -35,4 +31,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > App Link/ru
+⏵ [documentation index](../README.md) > App Link/ru

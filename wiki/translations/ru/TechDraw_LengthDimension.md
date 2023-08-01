@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Указать длину
-   Name:TechDraw_LengthDimension
-   MenuLocation:TechDraw - Размеры - Указать длину
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Указать горизонтальный размер](TechDraw_HorizontalDimension/ru.md), [Указать вертикальный размер](TechDraw_VerticalDimension/ru.md)
+   Name/ru: Указать длину
+   Name: TechDraw_LengthDimension
+   MenuLocation: TechDraw - Размеры - Указать длину
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso: [Указать горизонтальный размер](TechDraw_HorizontalDimension/ru.md), [Указать вертикальный размер](TechDraw_VerticalDimension/ru.md)
 ---
 
 # TechDraw LengthDimension/ru
@@ -383,4 +383,4 @@ rc = page.addView(dim1)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LengthDimension/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LengthDimension/ru

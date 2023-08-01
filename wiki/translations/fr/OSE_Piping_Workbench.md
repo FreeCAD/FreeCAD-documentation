@@ -2,7 +2,7 @@
 ## Introduction
 
 
-{{TOCright}}
+
 
 L\'atelier OSE Piping crée des tuyaux et des raccords. Il fait partie de [Open Source Ecology](https://www.opensourceecology.org/) et [Open Source Ecology Germany](https://www.ose-germany.de/). Pour utiliser toutes ses fonctionnalités, installez l\'[atelier Dodo](Flamingo_Workbench/fr.md).
 
@@ -41,4 +41,4 @@ Un sweep elbow est un coude spécial dont le rayon de courbure est plus grand. I
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > OSE Piping Workbench/fr
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > OSE Piping Workbench/fr

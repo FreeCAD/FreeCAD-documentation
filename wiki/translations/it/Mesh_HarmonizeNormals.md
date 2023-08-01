@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh_HarmonizeNormals
-   Name/it:Armonizza le normali
-   MenuLocation:Mesh - Armonizza le normali
-   Workbenches:[Mesh](Mesh_Workbench/it.md)
-   SeeAlso:[Inverti le normali](Mesh_FlipNormals/it.md)
+   Name: Mesh_HarmonizeNormals
+   Name/it: Armonizza le normali
+   MenuLocation: Mesh - Armonizza le normali
+   Workbenches: [Mesh](Mesh_Workbench/it.md)
+   SeeAlso: [Inverti le normali](Mesh_FlipNormals/it.md)
 ---
 
 # Mesh HarmonizeNormals/it
@@ -42,4 +42,4 @@ Il comando **Armonizza le normali** armonizza le normali degli oggetti mesh.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/it
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/it

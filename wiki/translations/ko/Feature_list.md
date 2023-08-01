@@ -16,7 +16,7 @@
 </div>
 
 
-{{TOCright}}
+
 
 
 
@@ -147,4 +147,4 @@ Power users have created various custom [external workbenches](External_workbenc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/ko
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/ko

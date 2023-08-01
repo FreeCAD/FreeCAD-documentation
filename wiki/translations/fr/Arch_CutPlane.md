@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch CutPlane
-   Name/fr:Arch Couper selon un plan
-   MenuLocation:Arch - Couper selon un plan
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Arch Couper selon une ligne](Arch_CutLine/fr.md), [Arch Soustraire](Arch_Remove/fr.md)
+   Name: Arch CutPlane
+   Name/fr: Arch Couper selon un plan
+   MenuLocation: Arch - Couper selon un plan
+   Workbenches: [Arch](Arch_Workbench/fr.md)
+   SeeAlso: [Arch Couper selon une ligne](Arch_CutLine/fr.md), [Arch Soustraire](Arch_Remove/fr.md)
 ---
 
 # Arch CutPlane/fr
@@ -103,4 +103,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/fr

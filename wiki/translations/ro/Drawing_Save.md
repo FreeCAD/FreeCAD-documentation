@@ -1,6 +1,6 @@
 # Drawing Save/ro
 ---
-- GuiCommand:   Name:Drawing Save   Name/ro:Drawing Save   Workbenches:[MenuLocation:Drawing - Export page...   Shortcut:none   SeeAlso:[[Drawing Open SVG|Drawing Open SVG](Drawing_Workbench/ro___Drawing]],_Complete.md)---
+- GuiCommand:   Name: Drawing Save   Name/ro: Drawing Save   Workbenches: [MenuLocation: Drawing - Export page...   Shortcut: none   SeeAlso: [[Drawing Open SVG|Drawing Open SVG](Drawing_Workbench/ro___Drawing]],_Complete.md)---
 
 Acest instrument salvează foaia curentă de desen ca un fișier SVG (grafică vectorială scalabilă). Un astfel de fișier poate fi apoi editat într-un program de grafică vectorial scalabil, cum ar fi [Inkscape](http://www.inkscape.org).
 
@@ -23,4 +23,4 @@ Fișierele SVG sunt frecvente și pot fi vizualizate în majoritatea browserelor
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Save/ro
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Save/ro

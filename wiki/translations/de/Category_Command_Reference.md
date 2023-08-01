@@ -179,4 +179,4 @@ Diese Kategorie enthält die Hilfeseiten jedes FreeCAD-Befehls.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Command Reference/de
+⏵ [documentation index](../README.md) > Category:Command Reference/de

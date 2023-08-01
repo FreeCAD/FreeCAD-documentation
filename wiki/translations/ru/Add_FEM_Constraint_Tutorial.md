@@ -319,4 +319,4 @@ def _handleFlowBndConditions(self):
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > Add FEM Constraint Tutorial/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > Add FEM Constraint Tutorial/ru

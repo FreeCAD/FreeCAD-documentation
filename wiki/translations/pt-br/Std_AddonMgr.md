@@ -1,12 +1,12 @@
 ---
 - GuiCommand:-br
-   Name:Addon manager
-   Name/pt-br:Addon manager
-   Icon:AddonManager.svg
-   MenuLocation:Tools - Addon manager
-   Workbenches:''None''
-   SeeAlso:[Macros](Macros/pt-br.md), [[External workbenches/pt-br]]
-   Version:0.17
+   Name: Addon manager
+   Name/pt-br: Addon manager
+   Icon: AddonManager.svg
+   MenuLocation: Tools - Addon manager
+   Workbenches: ''None''
+   SeeAlso: [Macros](Macros/pt-br.md), [[External workbenches/pt-br]]
+   Version: 0.17
 ---
 
 # Std AddonMgr/pt-br
@@ -135,4 +135,4 @@ Then define the functions {{Incode|installation_succeeded}} and {{Incode|install
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std AddonMgr/pt-br
+⏵ [documentation index](../README.md) > Std AddonMgr/pt-br

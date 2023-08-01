@@ -1,6 +1,6 @@
 # Part Common/it
 ---
-- GuiCommand:   Name:Part_Common   Name/it:Intersezione   MenuLocation:Part - Intersezione   Workbenches:[SeeAlso:[[Part Union/it|Unione](Part_Workbench/it___Parte]].md), [Sottrazione](Part_Cut/it.md)---
+- GuiCommand:   Name: Part_Common   Name/it: Intersezione   MenuLocation: Part - Intersezione   Workbenches: [SeeAlso: [[Part Union/it|Unione](Part_Workbench/it___Parte]].md), [Sottrazione](Part_Cut/it.md)---
 
 
 </div>
@@ -50,4 +50,4 @@ Gli oggetti in ingresso devono essere delle forme [OpenCascade](OpenCascade/it.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/it

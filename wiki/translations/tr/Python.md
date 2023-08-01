@@ -10,7 +10,7 @@
 ## Tanım
 
 
-{{TOCright}}
+
 
 [Python](https://www.python.org) genel amaçlı, büyük uygulamalarda komut dosyası veya [makro](macros/tr.md) oluşturarak bazı görevleri otomatikleştirmek için yaygın olarak kullanılan yüksek seviye bir programlama dilidir.
 
@@ -142,4 +142,4 @@ Structure = Arch.make_structure(Wire, name="Big pillar")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [API](Category_API.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Python/tr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [API](Category_API.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Python/tr

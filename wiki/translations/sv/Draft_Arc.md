@@ -1,6 +1,6 @@
 # Draft Arc/sv
 ---
-- GuiCommand:   Name:Draft Arc   Name/sv:Draft Arc   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> Arc   Shortcut:A R   SeeAlso:[Draft Circle](Draft_Circle/sv.md)---
+- GuiCommand:   Name: Draft Arc   Name/sv: Draft Arc   Workbenches: [Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation: Draft -> Arc   Shortcut: A R   SeeAlso: [Draft Circle](Draft_Circle/sv.md)---
 
 
 </div>
@@ -99,4 +99,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc/sv

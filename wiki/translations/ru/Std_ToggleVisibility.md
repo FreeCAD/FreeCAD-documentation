@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Видимость
-   Name:Std_ToggleVisibility
-   MenuLocation:Вид - Видимость
-   Workbenches:Все
-   Shortcut:**Space**
-   SeeAlso:[Показать выделенные](Std_ShowSelection/ru.md), [Скрыть выделенные](Std_HideSelection/ru.md), [Инвертировать все видимости](Std_ToggleObjects/ru.md), [Показать все объекты](Std_ShowObjects/ru.md), [Скрыть все объекты](Std_HideObjects/ru.md)
+   Name/ru: Видимость
+   Name: Std_ToggleVisibility
+   MenuLocation: Вид - Видимость
+   Workbenches: Все
+   Shortcut: **Space**
+   SeeAlso: [Показать выделенные](Std_ShowSelection/ru.md), [Скрыть выделенные](Std_HideSelection/ru.md), [Инвертировать все видимости](Std_ToggleObjects/ru.md), [Показать все объекты](Std_ShowObjects/ru.md), [Скрыть все объекты](Std_HideObjects/ru.md)
 ---
 
 # Std ToggleVisibility/ru
@@ -73,4 +73,4 @@ else:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleVisibility/ru
+⏵ [documentation index](../README.md) > Std ToggleVisibility/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintSpring
-   Name/fr:FEM Contrainte de ressort
-   MenuLocation:Modèle - Contraintes mécaniques- Contrainte de ressort
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:0.20
+   Name: FEM ConstraintSpring
+   Name/fr: FEM Contrainte de ressort
+   MenuLocation: Modèle - Contraintes mécaniques- Contrainte de ressort
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Version: 0.20
 ---
 
 # FEM ConstraintSpring/fr
@@ -36,4 +36,4 @@ Définit une condition limite de ressort à utiliser pour les analyses mécaniqu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSpring/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSpring/fr

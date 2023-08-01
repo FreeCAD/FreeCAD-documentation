@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Sweep
-   Name/fr:Part Balayage
-   MenuLocation:Part - Balayage...
-   Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Part Lissage](Part_Loft/fr.md)
+   Name: Part Sweep
+   Name/fr: Part Balayage
+   MenuLocation: Part - Balayage...
+   Workbenches: [Part](Part_Workbench/fr.md)
+   SeeAlso: [Part Lissage](Part_Loft/fr.md)
 ---
 
 # Part Sweep/fr
@@ -102,4 +102,4 @@ Si \"Frenet\" est à \"vrai\", l\'orientation du profil est calculée à partir 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/fr

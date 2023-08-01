@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw LandmarkDimension
-   Name/de:TechDraw MaßÜberOrientierungspunkte
-   MenuLocation:TechDraw - Bemaßungen - Maß zwischen Orientierungspunkten einfügen - EXPERIMENTELL
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[TechDraw MaßHorizontal](TechDraw_HorizontalDimension/de.md), [TechDraw MaßVertikal](TechDraw_VerticalDimension/de.md)
+   Name: TechDraw LandmarkDimension
+   Name/de: TechDraw MaßÜberOrientierungspunkte
+   MenuLocation: TechDraw - Bemaßungen - Maß zwischen Orientierungspunkten einfügen - EXPERIMENTELL
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [TechDraw MaßHorizontal](TechDraw_HorizontalDimension/de.md), [TechDraw MaßVertikal](TechDraw_VerticalDimension/de.md)
 ---
 
 # TechDraw LandmarkDimension/de
@@ -73,4 +73,4 @@ rc = page.addView(dim1)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LandmarkDimension/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LandmarkDimension/de

@@ -151,4 +151,4 @@ Wenn der Text in FreeCAD versetzt dargestellt wird, müssen eventuell die {{Inco
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/de

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Trimex
-   Name/tr:Kırp/Uzat (Trimex)
-   MenuLocation:Draft - Trim/Extend
-   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
-   Shortcut:**T** **R**
-   SeeAlso:[Part Extrude](Part_Extrude/tr.md)
+   Name: Draft Trimex
+   Name/tr: Kırp/Uzat (Trimex)
+   MenuLocation: Draft - Trim/Extend
+   Workbenches: [Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   Shortcut: **T** **R**
+   SeeAlso: [Part Extrude](Part_Extrude/tr.md)
 ---
 
 # Draft Trimex/tr
@@ -127,4 +127,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Trimex/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Trimex/tr

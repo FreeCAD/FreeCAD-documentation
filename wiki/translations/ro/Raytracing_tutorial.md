@@ -117,4 +117,4 @@ We are now finished with the basic workflow for the [Raytracing Workbench](Raytr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/ro
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/ro

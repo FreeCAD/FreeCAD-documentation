@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar Drawing
-   MenuLocation:Arch - Rebar
-   Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
-   SeeAlso:[Reinforcement Dimensioning](Arch_Rebar_Dimensioning.md), [Reinforcement Addon](Reinforcement_Addon.md)
-   Version:0.19
+   Name: Arch Rebar Drawing
+   MenuLocation: Arch - Rebar
+   Workbenches: [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   SeeAlso: [Reinforcement Dimensioning](Arch_Rebar_Dimensioning.md), [Reinforcement Addon](Reinforcement_Addon.md)
+   Version: 0.19
 ---
 
 # Arch Rebar Drawing/pl
@@ -384,4 +384,4 @@ for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Drawing/pl
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Drawing/pl

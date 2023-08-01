@@ -11,7 +11,7 @@ Ela contém um importador [CSG](OpenSCAD_CSG.md) para abrir arquivos CSG do Open
 Esta bancada de trabalho contém funções para modificar o recurso de árvore CSG e reparar modelos. Também contém ferramentas de propósitos gerais que não necessitam de instalação do OpenSCAD; elas também podem ser utilizadas em conjunto com outras bancadas de trabalho.
 
 
-{{TOCright}}
+
 
 ![](images/OpenSCADexamaple1.png )
 
@@ -139,4 +139,4 @@ Se o FreeCAD travar ao importar o CSG, é altamente recomendável que você ativ
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [OpenSCAD](Category_OpenSCAD.md) > OpenSCAD Workbench/pt-br
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [OpenSCAD](Category_OpenSCAD.md) > OpenSCAD Workbench/pt-br

@@ -16,4 +16,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Web](Category_Web.md) > Artwork Web/ru
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Web](Category_Web.md) > Artwork Web/ru

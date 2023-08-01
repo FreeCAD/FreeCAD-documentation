@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Groove
-   Name/pl:Projekt Części: Rowek
-   MenuLocation:Projekt części - Utwórz cechę przez odjęcie - Kieszeń
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   SeeAlso:[Wyciągnij przez obrót](PartDesign_Revolution/pl.md)
+   Name: PartDesign Groove
+   Name/pl: Projekt Części: Rowek
+   MenuLocation: Projekt części - Utwórz cechę przez odjęcie - Kieszeń
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   SeeAlso: [Wyciągnij przez obrót](PartDesign_Revolution/pl.md)
 ---
 
 # PartDesign Groove/pl
@@ -95,4 +95,4 @@ Poniżej znajdują się właściwości, które można zdefiniować po utworzeniu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/pl

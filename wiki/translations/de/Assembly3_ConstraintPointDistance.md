@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPointDistance
-   Name/de:Assembly3 AbstandZweierPunkte
-   Icon:Assembly_ConstraintPointDistance.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
-   SeeAlso:[Points distance](Assembly3_ConstraintPointsDistance/de.md)
+   Name: Assembly3 ConstraintPointDistance
+   Name/de: Assembly3 AbstandZweierPunkte
+   Icon: Assembly_ConstraintPointDistance.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   SeeAlso: [Points distance](Assembly3_ConstraintPointsDistance/de.md)
 ---
 
 # Assembly3 ConstraintPointDistance/de
@@ -24,4 +24,4 @@ Es arbeitet sowohl mit 3D-Punkt-Elementen als auch mit 2D-Punkt-Elementen auf ei
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointDistance/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPointDistance/de

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TransformManip
-   Name/de:Std Bewegen
-   MenuLocation:Rechtsklick auf ein Objekt in der Baumansicht - Transformieren
+   Name: Std TransformManip
+   Name/de: Std Bewegen
+   MenuLocation: Rechtsklick auf ein Objekt in der Baumansicht - Transformieren
 Bearbeiten - Transformieren
-   Workbenches:Alle
-   SeeAlso:[Std Basis](Std_Base/de.md)
+   Workbenches: Alle
+   SeeAlso: [Std Basis](Std_Base/de.md)
 ---
 
 # Std TransformManip/de
@@ -43,4 +43,4 @@ Die Wertefelder sind für inkrementellen Parameter, jedoch nicht für absolute W
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TransformManip/de
+⏵ [documentation index](../README.md) > Std TransformManip/de

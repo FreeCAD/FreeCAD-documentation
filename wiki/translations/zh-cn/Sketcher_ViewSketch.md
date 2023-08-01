@@ -1,9 +1,9 @@
 ---
 - GuiCommand:-cn
-   Name:查看草图
-   MenuLocation:Sketch - 查看草图
-   Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md), [PartDesign](PartDesign_Workbench/zh-cn.md)
-   Shortcut:**Q** **P**
+   Name: 查看草图
+   MenuLocation: Sketch - 查看草图
+   Workbenches: [Sketcher](Sketcher_Workbench/zh-cn.md), [PartDesign](PartDesign_Workbench/zh-cn.md)
+   Shortcut: **Q** **P**
 ---
 
 # Sketcher ViewSketch/zh-cn
@@ -40,4 +40,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/zh-cn
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/zh-cn

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveHelix
-   Name/fr:PartDesign Hélice additive
-   MenuLocation:Part Design - Créer une fonction additive - Hélice additive
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[PartDesign Hélice soustractive](PartDesign_SubtractiveHelix/fr.md)
+   Name: PartDesign AdditiveHelix
+   Name/fr: PartDesign Hélice additive
+   MenuLocation: Part Design - Créer une fonction additive - Hélice additive
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   Version: 0.19
+   SeeAlso: [PartDesign Hélice soustractive](PartDesign_SubtractiveHelix/fr.md)
 ---
 
 # PartDesign AdditiveHelix/fr
@@ -157,4 +157,4 @@ Si coché, l\'hélice sera affichée dans la vue et la mise à jour sera automat
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveHelix/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveHelix/fr

@@ -1,8 +1,4 @@
 # Getting started/ro
-{{TOCright}}
-
-
-
 ## Cuvânt înainte 
 
 
@@ -302,4 +298,4 @@ Iar, la sfârşit, să remarcăm că una dintre cele mai puternice caracteristic
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Getting started/ro
+⏵ [documentation index](../README.md) > Getting started/ro

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Fasteners ChamferHole
-   Name/de:Fasteners Lochsenkung
-   MenuLocation:Fasteners - Make countersunk
-   Workbenches:[Fasteners](Fasteners_Workbench/de.md)
+   Name: Fasteners ChamferHole
+   Name/de: Fasteners Lochsenkung
+   MenuLocation: Fasteners - Make countersunk
+   Workbenches: [Fasteners](Fasteners_Workbench/de.md)
 ---
 
 # Fasteners ChamferHole/de
@@ -54,4 +54,4 @@ Der Befehl <img alt="" src=images/Fasteners_ChamferHole.svg  style="width:24px;"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners ChamferHole/de
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners ChamferHole/de

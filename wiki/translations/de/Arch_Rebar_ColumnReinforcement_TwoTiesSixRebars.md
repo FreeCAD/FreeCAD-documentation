@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar ColumnReinforcement
-   Name/de:Architektur Bewehrung SäulenVerstärkung
-   MenuLocation:Arch - Rebar tools - Säulenverstärkung oder 3D/BIM - Reinforcement tools - Stützenbewehrung
-   Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
-   SeeAlso:[Reinforcement](Reinforcement_Workbench/de.md), [Arch Rebar](Arch_Rebar/de.md),[Säulen Verstärkung](Arch_Rebar_ColumnReinforcement/de.md), [Balken Verstärkung](Arch_Rebar_BeamReinforcement/de.md)
-   Version:0.19
+   Name: Arch Rebar ColumnReinforcement
+   Name/de: Architektur Bewehrung SäulenVerstärkung
+   MenuLocation: Arch - Rebar tools - Säulenverstärkung oder 3D/BIM - Reinforcement tools - Stützenbewehrung
+   Workbenches: [Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   SeeAlso: [Reinforcement](Reinforcement_Workbench/de.md), [Arch Rebar](Arch_Rebar/de.md),[Säulen Verstärkung](Arch_Rebar_ColumnReinforcement/de.md), [Balken Verstärkung](Arch_Rebar_BeamReinforcement/de.md)
+   Version: 0.19
 ---
 
 # Arch Rebar ColumnReinforcement TwoTiesSixRebars/de
@@ -339,4 +339,4 @@ rebar_group = TwoTiesSixRebars.editTwoTiesSixRebars(
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement TwoTiesSixRebars/de
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement TwoTiesSixRebars/de

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std TreeCollapseDocument
-   MenuLocation:View - TreeView actions - Collapse/Expand
-   Workbenches:All
-   Version:0.19
-   SeeAlso:[Std TreeSingleDocument](Std_TreeSingleDocument.md), [Std TreeMultiDocument](Std_TreeMultiDocument.md)
+   Name: Std TreeCollapseDocument
+   MenuLocation: View - TreeView actions - Collapse/Expand
+   Workbenches: All
+   Version: 0.19
+   SeeAlso: [Std TreeSingleDocument](Std_TreeSingleDocument.md), [Std TreeMultiDocument](Std_TreeMultiDocument.md)
 ---
 
 # Std TreeCollapseDocument/en
@@ -34,4 +34,4 @@ The Tree view DocumentMode mode is stored: **Tools → Edit parameters... → Ba
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeCollapseDocument/en
+⏵ [documentation index](../README.md) > Std TreeCollapseDocument/en

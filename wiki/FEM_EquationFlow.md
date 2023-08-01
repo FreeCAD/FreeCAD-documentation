@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM EquationFlow
-   MenuLocation: Solve - Flow equation
-   Workbenches:[FEM](FEM_Workbench.md)
-   Version:0.17
-   SeeAlso:
+   Name: FEM EquationFlow
+   MenuLocation:  Solve - Flow equation
+   Workbenches: [FEM](FEM_Workbench.md)
+   Version: 0.17
+   SeeAlso: 
 ---
 
 # FEM EquationFlow
@@ -75,4 +75,4 @@ The results are the velocity in $\rm m/s$ and the pressure in $\rm Pa$. If there
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationFlow
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationFlow

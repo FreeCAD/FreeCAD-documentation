@@ -5,7 +5,7 @@
 
 
 
-{{TOCright}}
+
 
 
 
@@ -164,4 +164,4 @@ Vous pouvez trouver les répertoires joints dans le répertoire `/mnt`.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > Compile on Docker/fr
+⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > Compile on Docker/fr

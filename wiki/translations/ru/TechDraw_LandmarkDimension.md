@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Вставить размер знака
-   Name:TechDraw_LandmarkDimension
-   MenuLocation:TechDraw - Размеры - Вставить размер знака
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Указать горизонтальный размер](TechDraw_HorizontalDimension/ru.md), [Указать вертикальный размер](TechDraw_VerticalDimension/ru.md)
+   Name/ru: Вставить размер знака
+   Name: TechDraw_LandmarkDimension
+   MenuLocation: TechDraw - Размеры - Вставить размер знака
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Указать горизонтальный размер](TechDraw_HorizontalDimension/ru.md), [Указать вертикальный размер](TechDraw_VerticalDimension/ru.md)
 ---
 
 # TechDraw LandmarkDimension/ru
@@ -85,4 +85,4 @@ rc = page.addView(dim1)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LandmarkDimension/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LandmarkDimension/ru

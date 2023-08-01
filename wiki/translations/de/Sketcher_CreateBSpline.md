@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateBSpline
-   Name/de:Sketcher B-SplineErstellen
-   MenuLocation:Sketch - Skizzengeometrien - B-Spline erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **B** **B**
-   Version:0.17
-   SeeAlso:[Sketcher GeschlossenenB-SplineErstellen](Sketcher_CreatePeriodicBSpline/de.md)
+   Name: Sketcher CreateBSpline
+   Name/de: Sketcher B-SplineErstellen
+   MenuLocation: Sketch - Skizzengeometrien - B-Spline erstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **B** **B**
+   Version: 0.17
+   SeeAlso: [Sketcher GeschlossenenB-SplineErstellen](Sketcher_CreatePeriodicBSpline/de.md)
 ---
 
 # Sketcher CreateBSpline/de
@@ -62,4 +62,4 @@ Dieses Werkzeug erstellt eine offene B-Spline-Kurve aus ihren Kontrollpunkten. (
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateBSpline/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateBSpline/de

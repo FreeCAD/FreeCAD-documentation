@@ -1,8 +1,4 @@
 # Property editor/de
-{{TOCright}}
-
-
-
 ## Einführung
 
 Der [Eigenschafteneditor](property_editor/de.md) erscheint wenn der Reiter **Modell** der [Combo-Ansicht](combo_view/de.md) auf der [Oberfläche](interface/de.md) aktiv ist; er ermöglicht die Verwaltung der öffentlich zugänglichen Eigenschaften der Objekte im Dokument.
@@ -12,7 +8,7 @@ Generell ist der Eigenschafteneditor dazu gedacht, nur ein Objekt zur Zeit zu be
 Nicht alle Eigenschaften können immer geändert werden; je nach dem spezifischen Status der Eigenschaft sind einige von ihnen unsichtbar (nicht aufgeführt) oder schreibgeschützt (nicht bearbeitbar).
 
 
-{{TOCright}}
+
 
 ![](images/FreeCAD_Property_editor_empty.png )
 
@@ -280,4 +276,4 @@ print(obj.ViewObject.PropertiesList)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Property editor/de
+⏵ [documentation index](../README.md) > Property editor/de

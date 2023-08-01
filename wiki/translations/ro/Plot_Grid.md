@@ -1,6 +1,6 @@
 # Plot Grid/ro
 ---
-- GuiCommand:   Name:Plot Grid   MenuLocation:Plot - Grid‏‎   |Workbenches:[[Plot_Workbench   Plot]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Plot Grid   MenuLocation: Plot - Grid‏‎   |Workbenches: [[Plot_Workbench   Plot]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -28,4 +28,4 @@ This tool acts on the active set of axis. In case of multi-axes plots you can se
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Grid/ro
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Grid/ro

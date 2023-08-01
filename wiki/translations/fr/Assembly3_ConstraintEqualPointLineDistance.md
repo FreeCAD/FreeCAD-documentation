@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintEqualPointLineDistance
-   Name/fr:Assembly3 Contrainte égalité distance point et ligne
-   Icon:Assembly_ConstraintEqualPointLineDistance.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 ConstraintEqualPointLineDistance
+   Name/fr: Assembly3 Contrainte égalité distance point et ligne
+   Icon: Assembly_ConstraintEqualPointLineDistance.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintEqualPointLineDistance/fr
@@ -30,4 +30,4 @@ La commande <img alt="" src=images/Assembly_ConstraintEqualPointLineDistance.svg
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintEqualPointLineDistance/fr
+⏵ [documentation index](../README.md) > Assembly3 ConstraintEqualPointLineDistance/fr

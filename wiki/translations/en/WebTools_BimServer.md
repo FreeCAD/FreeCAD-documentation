@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:WebTools BimServer
-   MenuLocation:Web Tools - BIM server
-   Workbenches:[WebTools](WebTools_Workbench.md)
+   Name: WebTools BimServer
+   MenuLocation: Web Tools - BIM server
+   Workbenches: [WebTools](WebTools_Workbench.md)
 ---
 
 # WebTools BimServer/en
@@ -54,4 +54,4 @@ In order to use this command, the following conditions must be met:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > WebTools BimServer/en
+⏵ [documentation index](../README.md) > WebTools BimServer/en

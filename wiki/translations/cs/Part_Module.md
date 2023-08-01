@@ -1,7 +1,7 @@
 # <img alt="Part workbench icon" src=images/Workbench_Part.svg  style="width:64px;"> Part Module/cs
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -235,4 +235,4 @@ See [Part scripting](Part_scripting.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Part](Part_Workbench.md) > Part Module/cs
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Part](Part_Workbench.md) > Part Module/cs

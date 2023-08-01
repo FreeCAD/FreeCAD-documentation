@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part CompCompoundTools
-   MenuLocation:Part - Compound
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:
+   Name: Part CompCompoundTools
+   MenuLocation: Part - Compound
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: 
 ---
 
 # Part CompCompoundTools
@@ -21,4 +21,4 @@ A set of various Compound tools.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompCompoundTools
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompCompoundTools

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintHeatflux
-   Name/ru:FEM ConstraintHeatflux
-   MenuLocation:Model - Thermal Constraints - Constraint heatflux
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM ConstraintHeatflux
+   Name/ru: FEM ConstraintHeatflux
+   MenuLocation: Model - Thermal Constraints - Constraint heatflux
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM ConstraintHeatflux/ru
@@ -40,4 +40,4 @@ This constraint specifies film heat transfer of a surface at temperature *T* and
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintHeatflux/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintHeatflux/ru

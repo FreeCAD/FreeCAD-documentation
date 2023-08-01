@@ -1,6 +1,6 @@
 # PartDesign Mirrored/ro
 ---
-- GuiCommand:   Name:PartDesign Mirrored   Workbenches:[[PartDesign Workbench   PartDesign]], Complete|MenuLocation:PartDesign - Mirrored---
+- GuiCommand:   Name: PartDesign Mirrored   Workbenches: [[PartDesign Workbench   PartDesign]], Complete|MenuLocation: PartDesign - Mirrored---
 
 
 </div>
@@ -119,4 +119,4 @@ See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/ro

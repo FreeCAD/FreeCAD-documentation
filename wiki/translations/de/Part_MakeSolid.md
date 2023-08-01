@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part MakeSolid
-   Name/de:Part UmwandelnFestkörper
-   MenuLocation:Formteil - Umwandeln in Festkörper
-   Workbenches:[Part Arbeitsbereich](Part_Workbench/de.md)
+   Name: Part MakeSolid
+   Name/de: Part UmwandelnFestkörper
+   MenuLocation: Formteil - Umwandeln in Festkörper
+   Workbenches: [Part Arbeitsbereich](Part_Workbench/de.md)
 ---
 
 # Part MakeSolid/de
@@ -32,4 +32,4 @@ Dieser Befehl erstellt einen Festkörper aus einem Formobjekt.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/de

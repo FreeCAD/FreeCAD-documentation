@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_Copy
-   Name/it:Copia
-   MenuLocation:Modifica - Copia
-   Shortcut:**Ctrl**+**C**
-   Workbenches:Tutti
-   SeeAlso:[Incolla](Std_Paste/it.md), [Duplica la selezione](Std_DuplicateSelection/it.md)
+   Name: Std_Copy
+   Name/it: Copia
+   MenuLocation: Modifica - Copia
+   Shortcut: **Ctrl**+**C**
+   Workbenches: Tutti
+   SeeAlso: [Incolla](Std_Paste/it.md), [Duplica la selezione](Std_DuplicateSelection/it.md)
 ---
 
 # Std Copy/it
@@ -46,4 +46,4 @@ Il comando **Copia** pone gli oggetti selezionati negli \"appunti\" per un succe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Copy/it
+⏵ [documentation index](../README.md) > Std Copy/it

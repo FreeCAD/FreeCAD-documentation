@@ -1,6 +1,6 @@
 # Arch Building/ro
 ---
-- GuiCommand:   Name:Arch Building   Name/ro:Arch Building   Workbenches:[MenuLocation:Arch - Building   Shortcut:B U   SeeAlso:[[Arch Floor](Arch_Workbench/ro___Arch]].md), [[Arch Site]]---
+- GuiCommand:   Name: Arch Building   Name/ro: Arch Building   Workbenches: [MenuLocation: Arch - Building   Shortcut: B U   SeeAlso: [[Arch Floor](Arch_Workbench/ro___Arch]].md), [[Arch Site]]---
 
 
 </div>
@@ -104,4 +104,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/ro
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/ro

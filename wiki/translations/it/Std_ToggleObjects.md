@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ToggleObjects
-   Name/it:Commuta tutti gli oggetti
-   MenuLocation:Visualizza - Visibilità - Commuta tutti gli oggetti
-   Workbenches:Tutti
-   SeeAlso:[Mostra/Nascondi](Std_ToggleVisibility/it.md), [Mostra la selezione](Std_ShowSelection/it.md), [Nascondi la selezione](Std_HideSelection/it.md), [Mostra tutti gli oggetti](Std_ShowObjects/it.md), [Nascondi tutti gli oggetti](Std_HideObjects/it.md)
+   Name: Std ToggleObjects
+   Name/it: Commuta tutti gli oggetti
+   MenuLocation: Visualizza - Visibilità - Commuta tutti gli oggetti
+   Workbenches: Tutti
+   SeeAlso: [Mostra/Nascondi](Std_ToggleVisibility/it.md), [Mostra la selezione](Std_ShowSelection/it.md), [Nascondi la selezione](Std_HideSelection/it.md), [Mostra tutti gli oggetti](Std_ShowObjects/it.md), [Nascondi tutti gli oggetti](Std_HideObjects/it.md)
 ---
 
 # Std ToggleObjects/it
@@ -53,4 +53,4 @@ Per un esempio di script vedere [Commutare la visibilità](Std_ToggleVisibility/
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleObjects/it
+⏵ [documentation index](../README.md) > Std ToggleObjects/it

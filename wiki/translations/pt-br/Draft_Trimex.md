@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Trimex
-   MenuLocation:Modification - Trimex
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:**T** **R**
-   SeeAlso:[Part Extrude](Part_Extrude.md)
+   Name: Draft Trimex
+   MenuLocation: Modification - Trimex
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut: **T** **R**
+   SeeAlso: [Part Extrude](Part_Extrude.md)
 ---
 
 # Draft Trimex/pt-br
@@ -144,4 +144,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Trimex/pt-br
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Trimex/pt-br

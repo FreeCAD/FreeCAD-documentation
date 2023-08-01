@@ -90,4 +90,4 @@ obj.Label = "Custom label"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > App FeaturePython
+⏵ [documentation index](../README.md) > App FeaturePython

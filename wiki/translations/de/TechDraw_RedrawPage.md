@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw RedrawPage
-   Name/de:TechDraw SeiteNeuZeichnen
-   MenuLocation:TechDraw - Page - Seite neu zeichnen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.19
+   Name: TechDraw RedrawPage
+   Name/de: TechDraw SeiteNeuZeichnen
+   MenuLocation: TechDraw - Page - Seite neu zeichnen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Version: 0.19
 ---
 
 # TechDraw RedrawPage/de
@@ -38,4 +38,4 @@ Das Werkzeug **TechDraw SeiteNeuZeichnen** veranlasst eine Zeichnungsaktualisier
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RedrawPage/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RedrawPage/de

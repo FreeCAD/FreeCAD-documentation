@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:WebTools BimServer
-   Name/it:BimServer
-‏‎‏‎   MenuLocation:Arch - Utilità - BIM server
-   Workbenches:[Arch](Arch_Workbench/it.md)
-   Shortcut:
-‏‎   SeeAlso:
+   Name: WebTools BimServer
+   Name/it: BimServer
+‏‎‏‎   MenuLocation: Arch - Utilità - BIM server
+   Workbenches: [Arch](Arch_Workbench/it.md)
+   Shortcut: 
+‏‎   SeeAlso: 
 ---
 
 # WebTools BimServer/it
@@ -94,4 +94,4 @@ Per poter utilizzare questo comando, devono essere soddisfatte le seguenti condi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > WebTools BimServer/it
+⏵ [documentation index](../README.md) > WebTools BimServer/it

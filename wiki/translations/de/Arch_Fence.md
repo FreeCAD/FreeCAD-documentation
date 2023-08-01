@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Fence
-   Name/de:Arch Zaun
-   MenuLocation:Arch - Zaun
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   Version:0.19
+   Name: Arch Fence
+   Name/de: Arch Zaun
+   MenuLocation: Arch - Zaun
+   Workbenches: [Arch](Arch_Workbench/de.md)
+   Version: 0.19
 ---
 
 # Arch Fence/de
@@ -100,4 +100,4 @@ Fence = Arch.buildFence(fence_section, post, sketch)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Fence/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Fence/de

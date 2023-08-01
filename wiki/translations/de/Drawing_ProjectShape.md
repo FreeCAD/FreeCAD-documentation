@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Drawing ProjectShape
-   Name/de:Drawing ProjectShape
-   Empty:1
-   Workbenches:[Drawing](Drawing_Workbench/de.md)
-   MenuLocation:Drawing - Project shape
+   Name: Drawing ProjectShape
+   Name/de: Drawing ProjectShape
+   Empty: 1
+   Workbenches: [Drawing](Drawing_Workbench/de.md)
+   MenuLocation: Drawing - Project shape
 ---
 
 # Drawing ProjectShape/de
@@ -113,4 +113,4 @@ This tool creates a projection of the selected object (Source) in the 3D view.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing ProjectShape/de
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing ProjectShape/de

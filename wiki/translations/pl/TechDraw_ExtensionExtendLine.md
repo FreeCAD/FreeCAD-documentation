@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionExtendLine
-   Name/pl:Rysunek Techniczny: Rozszerzenie Przedłuż linię
-   MenuLocation:Rysunek Techniczny - Rozszerzenia: Atrybuty / Modyfikatory - Przedłuż linię
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ExtensionShortenLine](TechDraw_ExtensionShortenLine/pl.md)
+   Name: TechDraw ExtensionExtendLine
+   Name/pl: Rysunek Techniczny: Rozszerzenie Przedłuż linię
+   MenuLocation: Rysunek Techniczny - Rozszerzenia: Atrybuty / Modyfikatory - Przedłuż linię
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ExtensionShortenLine](TechDraw_ExtensionShortenLine/pl.md)
 ---
 
 # TechDraw ExtensionExtendLine/pl
@@ -42,4 +42,4 @@ Narzędzie **Przedłuż linię** wydłuża linię kosmetyczną lub linię środk
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionExtendLine/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionExtendLine/pl

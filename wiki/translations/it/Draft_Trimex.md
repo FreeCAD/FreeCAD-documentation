@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Trimex
-   Name/it:Taglia/Estendi
-   MenuLocation:Modifiche - Taglia/Estendi
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:**T** **R**
-   SeeAlso:Parte - [Estrudi](Part_Extrude/it.md)
+   Name: Draft Trimex
+   Name/it: Taglia/Estendi
+   MenuLocation: Modifiche - Taglia/Estendi
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut: **T** **R**
+   SeeAlso: Parte - [Estrudi](Part_Extrude/it.md)
 ---
 
 # Draft Trimex/it
@@ -142,4 +142,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Trimex/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Trimex/it

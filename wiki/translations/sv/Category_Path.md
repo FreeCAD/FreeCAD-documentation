@@ -10,4 +10,4 @@ This category lists pages related to the [PartDesign Workbench/sv](PartDesign_Wo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Path/sv
+⏵ [documentation index](../README.md) > Category:Path/sv

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Teigha Converter
+⏵ [documentation index](../README.md) > Teigha Converter

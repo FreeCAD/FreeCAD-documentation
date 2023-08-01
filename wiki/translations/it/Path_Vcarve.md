@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path Vcarve
-   MenuLocation:Path - Vcarve
-   Workbenches:[Path](Path_Workbench.md)
-   Version:0.19
+   Name: Path Vcarve
+   MenuLocation: Path - Vcarve
+   Workbenches: [Path](Path_Workbench.md)
+   Version: 0.19
 ---
 
 # Path Vcarve/it
@@ -166,4 +166,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Vcarve/it
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Vcarve/it

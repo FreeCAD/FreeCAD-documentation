@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Mesh SplitComponents
-   Name/pl:Siatka: Rozbij na komponenty
-   MenuLocation:Siatki - Rozbij na komponenty
-   Workbenches:[Siatka](Mesh_Workbench/pl.md)
-   Version:0.19
-   SeeAlso:[Scal](Mesh_Merge/pl.md)
+   Name: Mesh SplitComponents
+   Name/pl: Siatka: Rozbij na komponenty
+   MenuLocation: Siatki - Rozbij na komponenty
+   Workbenches: [Siatka](Mesh_Workbench/pl.md)
+   Version: 0.19
+   SeeAlso: [Scal](Mesh_Merge/pl.md)
 ---
 
 # Mesh SplitComponents/pl
@@ -42,4 +42,4 @@ Zapoznaj się z informacjami na stronie: [cecha siatki](Mesh_Feature/pl.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SplitComponents/pl
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SplitComponents/pl

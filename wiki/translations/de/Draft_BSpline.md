@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft BSpline
-   Name/de:Entwurf BSpline
-   MenuLocation:Entwurf - BSpline
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
-   Shortcut:**B** **S**
-   Version:0.7
-   SeeAlso:[Entwurf Polygonzug](Draft_Wire/de.md), [Entwurf Bézkurve](Draft_BezCurve/de.md)
+   Name: Draft BSpline
+   Name/de: Entwurf BSpline
+   MenuLocation: Entwurf - BSpline
+   Workbenches: [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   Shortcut: **B** **S**
+   Version: 0.7
+   SeeAlso: [Entwurf Polygonzug](Draft_Wire/de.md), [Entwurf Bézkurve](Draft_BezCurve/de.md)
 ---
 
 # Draft BSpline/de
@@ -164,4 +164,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BSpline/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BSpline/de

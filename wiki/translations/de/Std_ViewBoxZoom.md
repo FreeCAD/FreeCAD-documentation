@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ViewBoxZoom
-   Name/de:Std AnsichtRechteckauswahl
-   MenuLocation:Ansicht - Zoom - Zoomen mit Rechteck
-   Workbenches:Alle
-   Shortcut:**Ctrl**+**B**
-   SeeAlso:[Std Vergrößern](Std_ViewZoomIn/de.md), [Std Verkleinern](Std_ViewZoomOut/de.md)
+   Name: Std ViewBoxZoom
+   Name/de: Std AnsichtRechteckauswahl
+   MenuLocation: Ansicht - Zoom - Zoomen mit Rechteck
+   Workbenches: Alle
+   Shortcut: **Ctrl**+**B**
+   SeeAlso: [Std Vergrößern](Std_ViewZoomIn/de.md), [Std Verkleinern](Std_ViewZoomOut/de.md)
 ---
 
 # Std ViewBoxZoom/de
@@ -32,4 +32,4 @@ Der Befehl **Std AnsichtRechteckauswahl** vergrößert einen vom Benutzer eingeg
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewBoxZoom/de
+⏵ [documentation index](../README.md) > Std ViewBoxZoom/de

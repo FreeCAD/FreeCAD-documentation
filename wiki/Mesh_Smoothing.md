@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Mesh Smoothing
-   MenuLocation:Meshes - Smooth...
-   Workbenches:[Mesh](Mesh_Workbench.md)
+   Name: Mesh Smoothing
+   MenuLocation: Meshes - Smooth...
+   Workbenches: [Mesh](Mesh_Workbench.md)
 ---
 
 # Mesh Smoothing
@@ -69,4 +69,4 @@ The **Mesh Smoothing** command smooths mesh objects by changing the position of 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Smoothing
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Smoothing

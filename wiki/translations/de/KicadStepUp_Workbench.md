@@ -1,7 +1,7 @@
 # <img alt="Symbol des externen Arbeitsbereichs KicadStepUp" src=images/Kicad-StepUp-tools-WB.svg  style="width:64px;"> KicadStepUp Workbench/de
 
 
-{{TOCright}}
+
 
 
 
@@ -149,4 +149,4 @@ Neue Arbeitsbereiche sind in der Entwicklung, bleib dran!
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > KicadStepUp Workbench/de
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > KicadStepUp Workbench/de

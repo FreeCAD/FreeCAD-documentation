@@ -2,7 +2,7 @@
 **Lo sviluppo del modulo Drawing è stato interrotto in FreeCAD 0.16 con il proposito di sostituirlo con il nuovo modulo [TechDraw](TechDraw_Workbench/it.md) che sarà introdotto nella versione 0.17. Nella versione 0.17 sono forniti entrambi i moduli, ma il modulo Drawing potrebbe essere rimosso nelle versioni future.**
 
 
-{{TOCright}}
+
 
 Nei documenti [SVG](http://it.wikipedia.org/wiki/Scalable_Vector_Graphics) esportati dal [Modulo Disegno](Drawing_Workbench/it.md) di FreeCAD e utilizzati come [modelli di pagina](Drawing_templates/it.md) (squadrature), si possono utilizzare diversi [attributi](http://www.w3schools.com/xml/xml_attributes.asp) personalizzati, originariamente per uso interno di FreeCAD, ma che, in futuro, potrebbero essere utilizzati anche da altre applicazioni oltre a FreeCAD . Tutti questi attributi utilizzano il prefisso **freecad:** per il [namespace](http://www.w3schools.com/xml/xml_namespaces.asp). L\'URL del namespace definito in tali documenti SVG fa riferimento a questa pagina.
 
@@ -224,4 +224,4 @@ Vedere la pagina dei [Modelli di squadrature](Drawing_templates/it.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > [Developer](Category_Developer.md) > [Python_Code](Category_Python_Code.md) > [Macros](Category_Macros.md) > [Drawing](Category_Drawing.md) > Svg Namespace/it
+⏵ [documentation index](../README.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > [Developer](Category_Developer.md) > [Python_Code](Category_Python_Code.md) > [Macros](Category_Macros.md) > [Drawing](Category_Drawing.md) > Svg Namespace/it

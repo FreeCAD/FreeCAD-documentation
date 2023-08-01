@@ -1,7 +1,7 @@
 # <img alt="L\'icona dell\'ambiente Mesh" src=images/Workbench_Mesh.svg  style="width:64px;"> Mesh Workbench/it
 
 
-{{TOCright}}
+
 
 
 
@@ -115,4 +115,4 @@ Le preferenze di Mesh si trovano nelle seguenti categorie dell\'[editor delle pr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Mesh](Category_Mesh.md) > Mesh Workbench/it
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Mesh](Category_Mesh.md) > Mesh Workbench/it

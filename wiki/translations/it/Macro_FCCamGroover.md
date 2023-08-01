@@ -317,4 +317,4 @@ Il foro [FC Cam Groover Macro](https://forum.freecadweb.org/viewtopic.php?f=22&t
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro FCCamGroover/it
+⏵ [documentation index](../README.md) > Macro FCCamGroover/it

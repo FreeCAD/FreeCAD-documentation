@@ -1,9 +1,4 @@
 # Standard Menu/ro
-{{TOCright}}
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 ### Preambul
@@ -50,4 +45,4 @@ The standard menu is composed of 7 sub-menus:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Standard Menu/ro
+⏵ [documentation index](../README.md) > Standard Menu/ro

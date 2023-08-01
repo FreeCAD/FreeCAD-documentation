@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainTangent
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   MenuLocation:Sketch - Sketcher constraints - Constrain tangent
-   Shortcut:T
-   SeeAlso:[Constraint point on object](Sketcher_ConstrainPointOnObject.md)
+   Name: Sketcher ConstrainTangent
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch - Sketcher constraints - Constrain tangent
+   Shortcut: T
+   SeeAlso: [Constraint point on object](Sketcher_ConstrainPointOnObject.md)
 ---
 
 # Sketcher ConstrainTangent/ro
@@ -175,4 +175,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainTangent/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainTangent/ro

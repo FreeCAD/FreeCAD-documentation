@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM EquationElectricforce
-   Name/pl:MES: Równanie siły elektrostatycznej
-   MenuLocation:Rozwiąż - Równania elektromagnetyczne - Równanie siły elektrostatycznej
-   Workbenches:[MES](FEM_Workbench/pl.md)
-   Version:0.19
-   SeeAlso:[Równanie elektrostatyczne](FEM_EquationElectrostatic/pl.md)
+   Name: FEM EquationElectricforce
+   Name/pl: MES: Równanie siły elektrostatycznej
+   MenuLocation: Rozwiąż - Równania elektromagnetyczne - Równanie siły elektrostatycznej
+   Workbenches: [MES](FEM_Workbench/pl.md)
+   Version: 0.19
+   SeeAlso: [Równanie elektrostatyczne](FEM_EquationElectrostatic/pl.md)
 ---
 
 # FEM EquationElectricforce/pl
@@ -54,4 +54,4 @@ The result is the electric force density in $\rm N/m^2$.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElectricforce/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElectricforce/pl

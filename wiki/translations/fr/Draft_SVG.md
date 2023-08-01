@@ -1,6 +1,4 @@
 # Draft SVG/fr
-{{TOCright}}
-
 ## Description
 
 Draft SVG est un module logiciel utilisé par <img alt="" src=images/Std_Open.svg  style="width:24px;"> [Std Ouvrir](Std_Open/fr.md), <img alt="" src=images/Std_Import.svg  style="width:24px;"> [Std Importer](Std_Import.md) et <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Exporter](Std_Export.md) pour gérer le format de fichier [SVG](SVG/fr.md).
@@ -85,4 +83,4 @@ importSVG.export(objects, "/home/user/Pictures/myfile.svg")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft SVG/fr
+⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft SVG/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM PostFilterDataAlongLine
-   Name/fr:FEM Filtre d'écrêtage selon une ligne
-   MenuLocation:Résultats - Filtre d'écrêtage selon une ligne
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Pipeline de résultats](FEM_PostPipelineFromResult/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM PostFilterDataAlongLine
+   Name/fr: FEM Filtre d'écrêtage selon une ligne
+   MenuLocation: Résultats - Filtre d'écrêtage selon une ligne
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Pipeline de résultats](FEM_PostPipelineFromResult/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM PostFilterDataAlongLine/fr
@@ -42,4 +42,4 @@ Trace les valeurs d\'un champ le long d\'une ligne spécifiée.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterDataAlongLine/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterDataAlongLine/fr

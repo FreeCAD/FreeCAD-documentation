@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name/ru:Assembly3 ConstraintSketchPlane
-   Icon:Assembly_ConstraintSketchPlane.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/ru.md)
+   Name/ru: Assembly3 ConstraintSketchPlane
+   Icon: Assembly_ConstraintSketchPlane.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/ru.md)
 ---
 
 # Assembly3 ConstraintSketchPlane/ru
@@ -28,4 +28,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintSketchPlane/ru
+⏵ [documentation index](../README.md) > Assembly3 ConstraintSketchPlane/ru

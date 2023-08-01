@@ -1,6 +1,6 @@
 # Raytracing ExportProject/it
 ---
-- GuiCommand:   Name:Raytracing ExportProject   Name/it:ExportProject   MenuLocation:Raytracing - ExportProject   |Workbenches:[[Raytracing_Workbench/it   Raytracing]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Raytracing ExportProject   Name/it: ExportProject   MenuLocation: Raytracing - ExportProject   |Workbenches: [[Raytracing_Workbench/it   Raytracing]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -63,4 +63,4 @@ Esporta il progetto raytracing selezionato in un file.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing ExportProject/it
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing ExportProject/it

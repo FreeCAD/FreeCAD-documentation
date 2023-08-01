@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Measure Angular
-   Name/pl:Część: Pomiar kątowy
-   MenuLocation:Pomiary - Pomiar kątowy
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Wymiarowanie](Draft_Dimension/pl.md)
+   Name: Part Measure Angular
+   Name/pl: Część: Pomiar kątowy
+   MenuLocation: Pomiary - Pomiar kątowy
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: [Wymiarowanie](Draft_Dimension/pl.md)
 ---
 
 # Part Measure Angular/pl
@@ -41,4 +41,4 @@ Wygląd pomiarów można zmienić w [ustawieniach](PartDesign_Preferences/pl#Pom
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Angular/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Angular/pl

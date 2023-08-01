@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher BSplinePoleWeight
-   MenuLocation:Sketch - Sketcher B-spline tools - Show/hide B-spline control point weight
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Version:0.19
-   SeeAlso:[Sketcher Create B-spline](Sketcher_CompCreateBSpline.md)
+   Name: Sketcher BSplinePoleWeight
+   MenuLocation: Sketch - Sketcher B-spline tools - Show/hide B-spline control point weight
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Version: 0.19
+   SeeAlso: [Sketcher Create B-spline](Sketcher_CompCreateBSpline.md)
 ---
 
 # Sketcher BSplinePoleWeight
@@ -62,4 +62,4 @@ How to change weights is described in [this Wiki page](B-Splines#Changing_the_We
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplinePoleWeight
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplinePoleWeight

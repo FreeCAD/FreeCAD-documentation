@@ -1,6 +1,6 @@
 # Part Chamfer/es
 ---
-- GuiCommand:   Name:Part_Chamfer   MenuLocation:Pieza - Chaflán   Workbenches:Pieza,Completo---
+- GuiCommand:   Name: Part_Chamfer   MenuLocation: Pieza - Chaflán   Workbenches: Pieza,Completo---
 
 
 </div>
@@ -158,4 +158,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/es
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/es

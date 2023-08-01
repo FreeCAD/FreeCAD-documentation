@@ -1,10 +1,10 @@
 ---
 - GuiCommand:Addon/de
-   Name:BIM Views
-   Name/de:BIM Ansichten
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
-   Addon:BIM
-   MenuLocation:Verwalten - Ansichten
+   Name: BIM Views
+   Name/de: BIM Ansichten
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
+   Addon: BIM
+   MenuLocation: Verwalten - Ansichten
 ---
 
 # BIM Views/de
@@ -36,4 +36,4 @@ Der BIM Ansichtenverwalter zeigt alle Ebenen (Gebäudeteile) und Arbeitsebenen P
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Views/de
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Views/de

@@ -347,4 +347,4 @@ Ultimul pas în generarea Codului G pentru mașina de frezare țintă este post-
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/ro
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/ro

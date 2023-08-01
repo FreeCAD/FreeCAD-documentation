@@ -1,11 +1,11 @@
 # Plot Positions/tr
 ---
 - GuiCommand:
-   Name/tr:Konum
-   MenuLocation:Arsa - Konum
-‏‎   |Workbenches:[Arsa](Plot_Workbench/tr.md)
-   Shortcut:
-   SeeAlso:---
+   Name/tr: Konum
+   MenuLocation: Arsa - Konum
+‏‎   |Workbenches: [Arsa](Plot_Workbench/tr.md)
+   Shortcut: 
+   SeeAlso: ---
 
 
 </div>
@@ -39,4 +39,4 @@ Select the plot tab that you want to edit, and run this tool. Then you can selec
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Positions/tr
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Positions/tr

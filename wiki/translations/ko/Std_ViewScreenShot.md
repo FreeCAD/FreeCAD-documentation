@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std ViewScreenShot
-   MenuLocation:Tools - Save image...
-   Workbenches:All
-   SeeAlso:[Std Print](Std_Print.md), [Std PrintPdf](Std_PrintPdf.md), [Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard.md), [Macro Screen Wiki](Macro_Screen_Wiki.md), [Macro Snip](Macro_Snip.md)
+   Name: Std ViewScreenShot
+   MenuLocation: Tools - Save image...
+   Workbenches: All
+   SeeAlso: [Std Print](Std_Print.md), [Std PrintPdf](Std_PrintPdf.md), [Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard.md), [Macro Screen Wiki](Macro_Screen_Wiki.md), [Macro Snip](Macro_Snip.md)
 ---
 
 # Std ViewScreenShot/ko
@@ -130,4 +130,4 @@ App.closeDocument(App.ActiveDocument.Name)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewScreenShot/ko
+⏵ [documentation index](../README.md) > Std ViewScreenShot/ko

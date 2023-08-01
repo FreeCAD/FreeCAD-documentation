@@ -1,6 +1,6 @@
 # Draft Snap Angle/es
 ---
-- GuiCommand:   Name:Draft Angle   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft - [[Draft Snap   Snap]] - Angle|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Draft Angle   Workbenches: [Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation: Draft - [[Draft Snap   Snap]] - Angle|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -45,4 +45,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Angle/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Angle/es

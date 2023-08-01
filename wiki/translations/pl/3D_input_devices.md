@@ -13,4 +13,4 @@ FreeCAD obsługuje wybranee specjalistyczne urządzenia wejściowe, takie jak na
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > 3D input devices/pl
+⏵ [documentation index](../README.md) > 3D input devices/pl

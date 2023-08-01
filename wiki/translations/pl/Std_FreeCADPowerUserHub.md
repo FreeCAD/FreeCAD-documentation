@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std FreeCADPowerUserHub
-   Name/pl:Std: Dokumentacja skryptów środowiska Python
-   MenuLocation:Pomoc - Dokumentacja skryptów środowiska Python
-   Workbenches:wszystkie
-   SeeAlso:[Witryna FreeCAD](Std_FreeCADWebsite/pl.md), [Dokumentacja skryptów środowiska Python](Std_FreeCADUserHub/pl.md), [Forum FreeCAD](Std_FreeCADForum/pl.md), [Często zadawane pytania dotyczące FreeCAD](Std_FreeCADFAQ/pl.md)
+   Name: Std FreeCADPowerUserHub
+   Name/pl: Std: Dokumentacja skryptów środowiska Python
+   MenuLocation: Pomoc - Dokumentacja skryptów środowiska Python
+   Workbenches: wszystkie
+   SeeAlso: [Witryna FreeCAD](Std_FreeCADWebsite/pl.md), [Dokumentacja skryptów środowiska Python](Std_FreeCADUserHub/pl.md), [Forum FreeCAD](Std_FreeCADForum/pl.md), [Często zadawane pytania dotyczące FreeCAD](Std_FreeCADFAQ/pl.md)
 ---
 
 # Std FreeCADPowerUserHub/pl
@@ -35,4 +35,4 @@ Obecnie polecenie wskazuje na [<https://wiki.freecad.org/Power_users_hub>](https
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADPowerUserHub/pl
+⏵ [documentation index](../README.md) > Std FreeCADPowerUserHub/pl

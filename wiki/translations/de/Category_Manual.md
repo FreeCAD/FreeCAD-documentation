@@ -18,4 +18,4 @@ This category contains all the page of the FreeCAD manual Diese Kategorie enthä
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Manual/de
+⏵ [documentation index](../README.md) > Category:Manual/de

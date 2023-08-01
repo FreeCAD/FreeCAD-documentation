@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Constraint Radius
-   Name/es:Constraint Radius
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md), [Diseño de Piezas](PartDesign_Workbench/es.md)
-   MenuLocation:Croquizador - Restricciones del Croquizador - Radio
-   SeeAlso:[Distancia](Sketcher_ConstrainDistance/es.md), [Horizontal](Sketcher_ConstrainHorizontal/es.md), [Vertical](Sketcher_ConstrainVertical/es.md)
+   Name: Constraint Radius
+   Name/es: Constraint Radius
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md), [Diseño de Piezas](PartDesign_Workbench/es.md)
+   MenuLocation: Croquizador - Restricciones del Croquizador - Radio
+   SeeAlso: [Distancia](Sketcher_ConstrainDistance/es.md), [Horizontal](Sketcher_ConstrainHorizontal/es.md), [Vertical](Sketcher_ConstrainVertical/es.md)
 ---
 
 # Sketcher ConstrainRadius/es
@@ -70,4 +70,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadius/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadius/es

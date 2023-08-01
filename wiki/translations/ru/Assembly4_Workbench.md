@@ -3,7 +3,7 @@
 ## Введение
 
 
-{{TOCright}}
+
 
 [Assembly4](Assembly4_Workbench/ru.md) это [внешний верстак](external_workbenches/ru.md), который используется для собирания различных тел, содержащихся в едином файле или в нескольких документах. Он был создан во время проектирования версии v0.19 для получения преимуществ от новых возможностей ветки Assembly3, таких как объект [App Link](App_Link/ru.md), и нового [механизма выражений](expressions/ru.md).
 
@@ -35,4 +35,4 @@ Assembly4 создавался под влиянием верстаков <img a
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Assembly4 Workbench/ru
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Assembly4 Workbench/ru

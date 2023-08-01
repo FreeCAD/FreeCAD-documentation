@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Design456 ExtrudeFace
-   MenuLocation:Design456_Tools - 3DTools - Extrude Face
-   Workbenches:[Design456](Design456_Workbench.md)
-   Shortcut:None
-   SeeAlso:
+   Name: Design456 ExtrudeFace
+   MenuLocation: Design456_Tools - 3DTools - Extrude Face
+   Workbenches: [Design456](Design456_Workbench.md)
+   Shortcut: None
+   SeeAlso: 
 ---
 
 # Design456 ExtrudeFace
@@ -33,4 +33,4 @@ Works on 3D objects.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 ExtrudeFace
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 ExtrudeFace

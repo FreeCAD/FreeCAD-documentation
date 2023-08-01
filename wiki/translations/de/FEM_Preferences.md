@@ -1,5 +1,5 @@
 # FEM Preferences/de
-{{TOCright}} The preferences screen of the [FEM Workbench](FEM_Workbench.md) are found in the [Preferences Editor](Preferences_Editor.md), **Edit → Preferences → FEM**.
+The preferences screen of the [FEM Workbench](FEM_Workbench.md) are found in the [Preferences Editor](Preferences_Editor.md), **Edit → Preferences → FEM**.
 
 There are several tabs in the FEM workbench preferences, starting with the **General** configuration of the workbench. The rest of the tabs control how FEM interacts with supported external solvers.
 
@@ -197,4 +197,4 @@ Auf der Registerkarte *Material* kann folgendes festgelegt werden:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [FEM](Category_FEM.md) > FEM Preferences/de
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [FEM](Category_FEM.md) > FEM Preferences/de

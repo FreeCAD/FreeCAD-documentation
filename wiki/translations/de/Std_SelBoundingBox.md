@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/de:Std WahlBegrenzungRahmen
-   MenuLocation:Ansicht - Begrenzungsrahmen
-   Workbenches:Alle
-   Version:0.19
-   SeeAlso:[Std ZeichenStil](Std_DrawStyle/de.md)
+   Name/de: Std WahlBegrenzungRahmen
+   MenuLocation: Ansicht - Begrenzungsrahmen
+   Workbenches: Alle
+   Version: 0.19
+   SeeAlso: [Std ZeichenStil](Std_DrawStyle/de.md)
 ---
 
 # Std SelBoundingBox/de
@@ -64,4 +64,4 @@ FreeCADGui.updateCommands()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SelBoundingBox/de
+⏵ [documentation index](../README.md) > Std SelBoundingBox/de

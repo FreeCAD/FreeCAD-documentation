@@ -15,4 +15,4 @@ Diese Kategorie zeigt eine Liste der Seiten, die zum [Drawing-Arbeitsbereich](Dr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Drawing/de
+⏵ [documentation index](../README.md) > Category:Drawing/de

@@ -11,7 +11,7 @@ el conține un importator[importer](OpenSCAD_CSG.md) care permite deschiderea re
 Acest atelier de lucru conține funcții pentru modificarea arborescenței funcțiilor CSG și a modelelor de reparații.
 
 
-{{TOCright}}
+
 
 ![](images/OpenSCADexamaple1.png )
 
@@ -144,4 +144,4 @@ Dacă FreeCAD se blochează atunci când importați CSG, este recomandat să act
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [OpenSCAD](Category_OpenSCAD.md) > OpenSCAD Workbench/ro
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [OpenSCAD](Category_OpenSCAD.md) > OpenSCAD Workbench/ro

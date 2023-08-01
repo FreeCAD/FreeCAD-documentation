@@ -210,4 +210,4 @@ def run():
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Section/fr
+⏵ [documentation index](../README.md) > Macro Section/fr

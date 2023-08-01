@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std TreeSyncPlacement
-   MenuLocation:View - TreeView actions - Sync placement
-   Workbenches:All
-   Shortcut:**T** **3**
-   Version:0.19
+   Name: Std TreeSyncPlacement
+   MenuLocation: View - TreeView actions - Sync placement
+   Workbenches: All
+   Shortcut: **T** **3**
+   Version: 0.19
 ---
 
 # Std TreeSyncPlacement
@@ -32,4 +32,4 @@ The Tree view SyncPlacement mode is stored: **Tools → Edit parameters... → B
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSyncPlacement
+⏵ [documentation index](../README.md) > Std TreeSyncPlacement

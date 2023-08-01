@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw Image
-   Name/pl:Rysunek Techniczny: Wstaw obraz bitmapy
-   MenuLocation:Rysunek Techniczny - Wstaw obraz bitmapy
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso:[Wstaw symbol SVG](TechDraw_Symbol/pl.md)
+   Name: TechDraw Image
+   Name/pl: Rysunek Techniczny: Wstaw obraz bitmapy
+   MenuLocation: Rysunek Techniczny - Wstaw obraz bitmapy
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   SeeAlso: [Wstaw symbol SVG](TechDraw_Symbol/pl.md)
 ---
 
 # TechDraw Image/pl
@@ -92,4 +92,4 @@ dvi.Width  = 200
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Image/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Image/pl

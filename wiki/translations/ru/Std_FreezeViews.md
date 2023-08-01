@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std FreezeViews
-   Name/ru:Std FreezeViews
-   Empty:1
-   MenuLocation:Вид - Положения камеры - ...
-   Workbenches:All
-   SeeAlso:[Std ViewIvIssueCamPos](Std_ViewIvIssueCamPos/ru.md)
+   Name: Std FreezeViews
+   Name/ru: Std FreezeViews
+   Empty: 1
+   MenuLocation: Вид - Положения камеры - ...
+   Workbenches: All
+   SeeAlso: [Std ViewIvIssueCamPos](Std_ViewIvIssueCamPos/ru.md)
 ---
 
 # Std FreezeViews/ru
@@ -138,4 +138,4 @@ For each frozen view a **Restore view** option is added with which it can be res
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std FreezeViews/ru
+⏵ [documentation index](../README.md) > Std FreezeViews/ru

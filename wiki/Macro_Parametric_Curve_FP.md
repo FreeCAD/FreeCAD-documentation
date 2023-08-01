@@ -38,4 +38,4 @@ ToolBar Icon  ![](images/Parametric_Curve_FP.svg )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Parametric Curve FP
+⏵ [documentation index](../README.md) > Macro Parametric Curve FP

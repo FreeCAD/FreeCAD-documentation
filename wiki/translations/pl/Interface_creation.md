@@ -1,6 +1,4 @@
 # Interface creation/pl
-{{TOCright}}
-
 ## Introduction
 
 Power users have the possibility of [creating interfaces](Interface_creation.md) to help them produce complex tools for their custom [addons](Addon.md), such as [macros](Macros.md) or full [workbenches](Workbenches.md).
@@ -39,4 +37,4 @@ For examples on this method see [Interface creation completely in Python](Dialog
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Interface creation/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Interface creation/pl

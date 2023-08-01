@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft SelectPlane
-   Name/tr:Çalışma düzlemini ayarla
-   MenuLocation:Draft - Utilities - Select Plane
-   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   Name: Draft SelectPlane
+   Name/tr: Çalışma düzlemini ayarla
+   MenuLocation: Draft - Utilities - Select Plane
+   Workbenches: [Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
 ---
 
 # Draft SelectPlane/tr
@@ -139,4 +139,4 @@ print(projection)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectPlane/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectPlane/tr

@@ -880,4 +880,4 @@ Il est conseillé à l\'utilisateur de lire la documentation de POV-Ray, ainsi q
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Tutorial FreeCAD POV ray/fr
+⏵ [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Tutorial FreeCAD POV ray/fr

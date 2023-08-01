@@ -1,6 +1,6 @@
 # Sketcher ConstrainRadius/cs
 ---
-- GuiCommand:   Name:Constraint Radius   Name/cs:Constraint Radius   Workbenches:[Návrh dílu](Sketcher_Workbench/cs___Náčrt]],_[[PartDesign_Workbench/cs.md)|MenuLocation:Sketch - Sketcher constraints - Constrain radius   SeeAlso:[Vazba délky](Sketcher_ConstrainDistance/cs.md), [Vazba vodorovnosti](Sketcher_ConstrainDistanceX/cs.md), [Vazba svislosti](Sketcher_ConstrainDistanceY/cs.md)---
+- GuiCommand:   Name: Constraint Radius   Name/cs: Constraint Radius   Workbenches: [Návrh dílu](Sketcher_Workbench/cs___Náčrt]],_[[PartDesign_Workbench/cs.md)|MenuLocation: Sketch - Sketcher constraints - Constrain radius   SeeAlso: [Vazba délky](Sketcher_ConstrainDistance/cs.md), [Vazba vodorovnosti](Sketcher_ConstrainDistanceX/cs.md), [Vazba svislosti](Sketcher_ConstrainDistanceY/cs.md)---
 
 
 </div>
@@ -81,4 +81,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadius/cs
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadius/cs

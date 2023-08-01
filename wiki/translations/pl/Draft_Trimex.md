@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Trimex
-   Name/pl:Rysunek Roboczy: Przytnij
-   MenuLocation:Modyfkacja - Przytnij
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut:**T** **R**
-   SeeAlso:[Part: Wyciągnij](Part_Extrude.md)
+   Name: Draft Trimex
+   Name/pl: Rysunek Roboczy: Przytnij
+   MenuLocation: Modyfkacja - Przytnij
+   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut: **T** **R**
+   SeeAlso: [Part: Wyciągnij](Part_Extrude.md)
 ---
 
 # Draft Trimex/pl
@@ -139,4 +139,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Trimex/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Trimex/pl

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw DimensionRepair
-   MenuLocation:TechDraw - Dimensions - Repair Dimension References
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.21
-   SeeAlso:[TechDraw LengthDimension](TechDraw_LengthDimension.md)
+   Name: TechDraw DimensionRepair
+   MenuLocation: TechDraw - Dimensions - Repair Dimension References
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Version: 0.21
+   SeeAlso: [TechDraw LengthDimension](TechDraw_LengthDimension.md)
 ---
 
 # TechDraw DimensionRepair/en
@@ -44,4 +44,4 @@ The TechDraw DimensionRepair tool cannot used in [macros](Macros.md) or from the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DimensionRepair/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DimensionRepair/en

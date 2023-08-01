@@ -2,7 +2,7 @@
 ## Wprowadzenie
 
 
-{{TOCright}}
+
 
 To repozytorium zawiera bibliotekę symboli SVG do wykorzystania w programie FreeCAD. Chociaż składają się one z prostych plików SVG, więc mogą być również importowane wewnątrz dokumentu 3D, są one przede wszystkim przeznaczone do użytku na stronach rysunków.
 
@@ -63,4 +63,4 @@ Biblioteka jest prostym kontenerem dla plików SVG. Można ją pobrać w dowolny
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Symbols Library Workbench/pl
+⏵ [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Symbols Library Workbench/pl

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ValidateSketch
-   Name/pl:Szkicownik: Sprawdź poprawność szkicu
-   MenuLocation:Szkic - Sprawdź poprawność szkicu ...
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md), [Projekt części](PartDesign_Workbench/pl.md)
-   SeeAlso:[Szkicownik: Wiązanie zbieżności punktów](Sketcher_ConstrainCoincident/pl.md), [Problem nazwenictwa topologicznego](Topological_naming_problem/pl.md)
+   Name: Sketcher ValidateSketch
+   Name/pl: Szkicownik: Sprawdź poprawność szkicu
+   MenuLocation: Szkic - Sprawdź poprawność szkicu ...
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md), [Projekt części](PartDesign_Workbench/pl.md)
+   SeeAlso: [Szkicownik: Wiązanie zbieżności punktów](Sketcher_ConstrainCoincident/pl.md), [Problem nazwenictwa topologicznego](Topological_naming_problem/pl.md)
 ---
 
 # Sketcher ValidateSketch/pl
@@ -102,4 +102,4 @@ Mechanizm blokujący zazwyczaj działa dobrze i narzędzie to nie powinno być p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/pl

@@ -239,4 +239,4 @@ Am terminat acum cu fluxul de lucru de bază pentru [FEM Workbench](FEM_Workbenc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM tutorial/ro
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM tutorial/ro

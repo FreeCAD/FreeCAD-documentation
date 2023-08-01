@@ -123,4 +123,4 @@ Il flusso di lavoro di base per l\'ambiente [Drawing](Drawing_Workbench/it.md) Ã
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing tutorial/it
+âµ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing tutorial/it

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher Arc
-   Name/fr:Sketcher Création d'arc
-   MenuLocation:Esquisse - Géométries d'esquisse - Créer un arc à partir du centre
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **A**
-   SeeAlso:[Sketcher Cercle](Sketcher_CompCreateCircle/fr.md)
+   Name: Sketcher Arc
+   Name/fr: Sketcher Création d'arc
+   MenuLocation: Esquisse - Géométries d'esquisse - Créer un arc à partir du centre
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **A**
+   SeeAlso: [Sketcher Cercle](Sketcher_CompCreateCircle/fr.md)
 ---
 
 # Sketcher CreateArc/fr
@@ -36,4 +36,4 @@ Lorsque l\'outil est activé, le pointeur de la souris se change en croix blanch
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/fr

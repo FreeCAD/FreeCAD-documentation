@@ -1,6 +1,6 @@
 # Draft Rectangle/cs
 ---
-- GuiCommand:   Name:Draft Rectangle   Name/cs:Draft Rectangle   Workbenches:[Architecture](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft -> Rectangle   Shortcut:R E   SeeAlso:[Part Box](Part_Box/cs.md)---
+- GuiCommand:   Name: Draft Rectangle   Name/cs: Draft Rectangle   Workbenches: [Architecture](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation: Draft -> Rectangle   Shortcut: R E   SeeAlso: [Part Box](Part_Box/cs.md)---
 
 
 </div>
@@ -184,4 +184,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rectangle/cs
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rectangle/cs

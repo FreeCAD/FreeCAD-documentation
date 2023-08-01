@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Raytracing InsertPart
-   Name/ru:Raytracing InsertPart
-   MenuLocation:Трассировка лучей - Вставить деталь
-   Workbenches:[Raytracing](Raytracing_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:
+   Name: Raytracing InsertPart
+   Name/ru: Raytracing InsertPart
+   MenuLocation: Трассировка лучей - Вставить деталь
+   Workbenches: [Raytracing](Raytracing_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Raytracing InsertPart/ru
@@ -47,4 +47,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing InsertPart/ru
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing InsertPart/ru

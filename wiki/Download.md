@@ -59,4 +59,4 @@ The FreeCAD community provides many additional modules and macros. Since 0.17 th
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Download
+⏵ [documentation index](../README.md) > Download

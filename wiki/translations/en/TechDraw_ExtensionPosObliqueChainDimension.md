@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionPosObliqueChainDimension
-   MenuLocation:TechDraw - Extensions: Attributes/Modifications - Position Oblique Chain Dimensions
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ExtensionPosHorizChainDimension](TechDraw_ExtensionPosHorizChainDimension.md), [TechDraw ExtensionPosVertChainDimension](TechDraw_ExtensionPosVertChainDimension.md)
+   Name: TechDraw ExtensionPosObliqueChainDimension
+   MenuLocation: TechDraw - Extensions: Attributes/Modifications - Position Oblique Chain Dimensions
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ExtensionPosHorizChainDimension](TechDraw_ExtensionPosHorizChainDimension.md), [TechDraw ExtensionPosVertChainDimension](TechDraw_ExtensionPosVertChainDimension.md)
 ---
 
 # TechDraw ExtensionPosObliqueChainDimension/en
@@ -37,4 +37,4 @@ The **TechDraw ExtensionPosObliqueChainDimension** tool aligns oblique dimension
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPosObliqueChainDimension/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPosObliqueChainDimension/en

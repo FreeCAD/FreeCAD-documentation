@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part JoinConnect
-   Name/de:Part Verbinden
-   MenuLocation:Formteil - Verbinden - Objekte verbinden
-   Workbenches:[Part](Part_Workbench/de.md)
-   Version:0.16
-   SeeAlso:[Part Einbetten](Part_JoinEmbed/de.md), [Part Ausschneiden](Part_JoinCutout.md), [Part Boolesche Operationen](Part_Boolean/de.md), [Part Dicke](Part_Thickness/de.md)
+   Name: Part JoinConnect
+   Name/de: Part Verbinden
+   MenuLocation: Formteil - Verbinden - Objekte verbinden
+   Workbenches: [Part](Part_Workbench/de.md)
+   Version: 0.16
+   SeeAlso: [Part Einbetten](Part_JoinEmbed/de.md), [Part Ausschneiden](Part_JoinCutout.md), [Part Boolesche Operationen](Part_Boolean/de.md), [Part Dicke](Part_Thickness/de.md)
 ---
 
 # Part JoinConnect/de
@@ -108,4 +108,4 @@ Das Werkzeug selbst ist in Python implementiert, siehe **/Mod/Part/BOPTools/Join
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/de

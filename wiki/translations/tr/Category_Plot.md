@@ -12,4 +12,4 @@ This category lists pages related to the [Plot Workbench/tr](Plot_Workbench/tr.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Plot/tr
+⏵ [documentation index](../README.md) > Category:Plot/tr

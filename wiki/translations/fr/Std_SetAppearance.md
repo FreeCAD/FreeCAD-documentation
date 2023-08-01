@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std SetAppearance
-   Name/fr:Std Apparence
-   MenuLocation:Affichage - Apparence...
-   Workbenches:Tous
-   Shortcut:**Ctrl**+**D**
-   SeeAlso:[Part Définir les couleurs](Part_FaceColors/fr.md)
+   Name: Std SetAppearance
+   Name/fr: Std Apparence
+   MenuLocation: Affichage - Apparence...
+   Workbenches: Tous
+   Shortcut: **Ctrl**+**D**
+   SeeAlso: [Part Définir les couleurs](Part_FaceColors/fr.md)
 ---
 
 # Std SetAppearance/fr
@@ -75,4 +75,4 @@ La commande **Std Apparence** affiche les propriétés d\'affichage du [Panneau 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SetAppearance/fr
+⏵ [documentation index](../README.md) > Std SetAppearance/fr

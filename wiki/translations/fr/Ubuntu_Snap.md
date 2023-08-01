@@ -1,6 +1,4 @@
 # Ubuntu Snap/fr
-{{TOCright}}
-
 ## Introduction
 
 Un package [Ubuntu Snap](Ubuntu_Snap/fr.md), ou simplement [Snap](Ubuntu_Snap/fr.md) est un format de distribution similaire à [AppImage](AppImage/fr.md) en ce qu\'il est destiné à être un \"package installable universel\" pour déployer le logiciel pour les systèmes Linux. Les snaps ont été introduits par Ubuntu mais ils sont destinés à fonctionner dans toutes les distributions Linux tant que le démon Snap, ou `snapd`, est disponible dans le système cible.
@@ -162,4 +160,4 @@ Plus d\'informations sur les efforts en cours pour gérer Snaps :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > [Testing](Category_Testing.md) > Ubuntu Snap/fr
+⏵ [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > [Testing](Category_Testing.md) > Ubuntu Snap/fr

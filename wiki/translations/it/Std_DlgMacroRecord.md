@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_DlgMacroRecord
-   Name/it:Registra una macro
-   MenuLocation:Macro - Registra una macro ...
-   Workbenches:Tutti
-   SeeAlso:[Interrompi la registrazione](Std_MacroStopRecord/it.md)
+   Name: Std_DlgMacroRecord
+   Name/it: Registra una macro
+   MenuLocation: Macro - Registra una macro ...
+   Workbenches: Tutti
+   SeeAlso: [Interrompi la registrazione](Std_MacroStopRecord/it.md)
 ---
 
 # Std DlgMacroRecord/it
@@ -68,4 +68,4 @@ Il comando **Registra una macro** avvia una sessione di registrazione della [mac
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgMacroRecord/it
+⏵ [documentation index](../README.md) > Std DlgMacroRecord/it

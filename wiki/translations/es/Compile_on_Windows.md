@@ -1,7 +1,4 @@
 # Compile on Windows/es
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 Esta página explica paso a paso *cómo compilar FreeCAD 0.19 o más reciente en Windows*. Para otras plataformas ver [Compilación](Compiling/es.md).
@@ -572,4 +569,4 @@ See also
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on Windows/es
+⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on Windows/es

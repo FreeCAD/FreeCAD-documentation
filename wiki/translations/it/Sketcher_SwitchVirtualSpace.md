@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher Switch virtual space
-   Name/it:Cambia spazio virtuale
-   Icon:Sketcher SwitchVirtualSpace.svg
-   MenuLocation:Sketch - Spazio virtuale dello Sketcher - Cambia spazio virtuale
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   Version:0.17
+   Name: Sketcher Switch virtual space
+   Name/it: Cambia spazio virtuale
+   Icon: Sketcher SwitchVirtualSpace.svg
+   MenuLocation: Sketch - Spazio virtuale dello Sketcher - Cambia spazio virtuale
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   Version: 0.17
 ---
 
 # Sketcher SwitchVirtualSpace/it
@@ -64,4 +64,4 @@ Per cambiare lo spazio virtuale:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SwitchVirtualSpace/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SwitchVirtualSpace/it

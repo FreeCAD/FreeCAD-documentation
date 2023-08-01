@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Part ReverseShapes
-   MenuLocation:Part - Reverse shapes
-   Workbenches:[Part](Part_Workbench.md)
+   Name: Part ReverseShapes
+   MenuLocation: Part - Reverse shapes
+   Workbenches: [Part](Part_Workbench.md)
 ---
 
 # Part ReverseShapes/en
@@ -29,4 +29,4 @@ Flips the normals of all faces of the selected object.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ReverseShapes/en
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ReverseShapes/en

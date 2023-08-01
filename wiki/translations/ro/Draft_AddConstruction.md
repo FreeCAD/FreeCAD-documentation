@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft AddConstruction
-   Name/ro:Draft AddConstruction
-   MenuLocation:Draft - Utilities - Add to construction group
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso:[[Draft_ToggleConstructionMode]]
+   Name: Draft AddConstruction
+   Name/ro: Draft AddConstruction
+   MenuLocation: Draft - Utilities - Add to construction group
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   SeeAlso: [[Draft_ToggleConstructionMode]]
 ---
 
 # Draft AddConstruction/ro
@@ -57,4 +57,4 @@ Această comandaă adaugă obiectele selectate la [Draft Construction group](Dra
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddConstruction/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddConstruction/ro

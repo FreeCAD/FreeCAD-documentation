@@ -1,10 +1,10 @@
 ---
 - GuiCommand:-cn
-   Name:通过圆心创建圆弧
-   MenuLocation:Sketch - 草图几何体 - 通过圆心创建圆弧
-   Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md)
-   Shortcut:**G** **A**
-   SeeAlso:[创建圆](Sketcher_CompCreateCircle/zh-cn.md)
+   Name: 通过圆心创建圆弧
+   MenuLocation: Sketch - 草图几何体 - 通过圆心创建圆弧
+   Workbenches: [Sketcher](Sketcher_Workbench/zh-cn.md)
+   Shortcut: **G** **A**
+   SeeAlso: [创建圆](Sketcher_CompCreateCircle/zh-cn.md)
 ---
 
 # Sketcher CreateArc/zh-cn
@@ -43,4 +43,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/zh-cn
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/zh-cn

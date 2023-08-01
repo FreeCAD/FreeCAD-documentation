@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Tube
-   Name/de:Part Rohr
-   MenuLocation:Part - Grundkörper - Rohr erstellen...
-   Workbenches:[Part](Part_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[Part Grundelemente](Part_Primitives/de.md)
+   Name: Part Tube
+   Name/de: Part Rohr
+   MenuLocation: Part - Grundkörper - Rohr erstellen...
+   Workbenches: [Part](Part_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [Part Grundelemente](Part_Primitives/de.md)
 ---
 
 # Part Tube/de
@@ -125,4 +125,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Tube/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Tube/de

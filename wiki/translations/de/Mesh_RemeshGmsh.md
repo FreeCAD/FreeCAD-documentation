@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Mesh RemeshGmsh
-   Name/de:Mesh NeuVernetzenGmsh
-   MenuLocation:Netze - Aufbereitung...
-   Workbenches:[Mesh](Mesh_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[Mesh NetzAusPartForm](Mesh_FromPartShape/de.md)
+   Name: Mesh RemeshGmsh
+   Name/de: Mesh NeuVernetzenGmsh
+   MenuLocation: Netze - Aufbereitung...
+   Workbenches: [Mesh](Mesh_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [Mesh NetzAusPartForm](Mesh_FromPartShape/de.md)
 ---
 
 # Mesh RemeshGmsh/de
@@ -53,4 +53,4 @@ Siehe: [Mesh Formelement](Mesh_Feature/de.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemeshGmsh/de
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemeshGmsh/de

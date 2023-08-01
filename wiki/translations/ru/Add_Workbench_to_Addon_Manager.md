@@ -1,8 +1,4 @@
 # Add Workbench to Addon Manager/ru
-{{TOCright}}
-
-
-
 ## Вступление
 
 Данная страница содержит пошаговую инструкцию позволяющую добавить Python верстак в [Менеджер дополнений](Std_AddonMgr/ru.md).
@@ -100,4 +96,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [Developer Documentation](Category_Developer Documentation.md) > Add Workbench to Addon Manager/ru
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [Developer Documentation](Category_Developer Documentation.md) > Add Workbench to Addon Manager/ru

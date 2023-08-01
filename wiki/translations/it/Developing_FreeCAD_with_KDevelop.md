@@ -29,4 +29,4 @@ L\'intenzione di questa pagina è di aiutare gli utenti che sono inclini a compr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [3rd Party](Category_3rd Party.md) > Developing FreeCAD with KDevelop/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [3rd Party](Category_3rd Party.md) > Developing FreeCAD with KDevelop/it

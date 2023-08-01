@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path Waterline
-   Name/pl:Path: Linia poziomu
-   MenuLocation:Ścieżka - Linia poziomu
-   Workbenches:[Path](Path_Workbench/pl.md)
-   Version:0.19
+   Name: Path Waterline
+   Name/pl: Path: Linia poziomu
+   MenuLocation: Ścieżka - Linia poziomu
+   Workbenches: [Path](Path_Workbench/pl.md)
+   Version: 0.19
 ---
 
 # Path Waterline/pl
@@ -276,4 +276,4 @@ This section is simply a layout map of the settings in the window editor for the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Waterline/pl
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Waterline/pl

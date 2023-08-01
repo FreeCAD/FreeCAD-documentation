@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part ProjectionOnSurface
-   Name/fr:Part Projection sur surface
-   MenuLocation:Part - Créer une projection sur une surface...
-   Workbenches:[Part](Part_Workbench/fr.md)
-   Version:0.19
+   Name: Part ProjectionOnSurface
+   Name/fr: Part Projection sur surface
+   MenuLocation: Part - Créer une projection sur une surface...
+   Workbenches: [Part](Part_Workbench/fr.md)
+   Version: 0.19
 ---
 
 # Part ProjectionOnSurface/fr
@@ -111,4 +111,4 @@ La projection effectuée dans l\'atelier Part n\'est pas paramétrique. Si vous 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ProjectionOnSurface/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ProjectionOnSurface/fr

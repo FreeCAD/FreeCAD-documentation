@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FEM SolverElmer
-   Name/ru:FEM SolverElmer
-   Icon:Fem-elmer.svg
-   MenuLocation: Solve - solver Elmer
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[FEM Solver CalculiX](FEM_SolverCalculiX/ru.md), [FEM Solver Z88](FEM_SolverZ88/ru.md), [Учебник МКЭ](FEM_tutorial/ru.md)
+   Name: FEM SolverElmer
+   Name/ru: FEM SolverElmer
+   Icon: Fem-elmer.svg
+   MenuLocation:  Solve - solver Elmer
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: [FEM Solver CalculiX](FEM_SolverCalculiX/ru.md), [FEM Solver Z88](FEM_SolverZ88/ru.md), [Учебник МКЭ](FEM_tutorial/ru.md)
 ---
 
 # FEM SolverElmer/ru
@@ -162,4 +162,4 @@ The following link gives access to the full [documentation for Elmer](https://ww
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverElmer/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverElmer/ru

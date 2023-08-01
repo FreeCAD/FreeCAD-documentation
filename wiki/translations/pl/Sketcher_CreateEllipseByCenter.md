@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateEllipseByCenter
-   Name/pl:Szkicownik: Utwórz elipsę przez środek
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz elipsę przez środek
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **E** **E**
-   Version:0.15
-   SeeAlso:[Utwórz elipsę przez trzy punkty](Sketcher_CreateEllipseBy3Points/pl.md), [Utwórz okrąg](Sketcher_CreateCircle/pl.md), [Utwórz łuk na podstawie elipsy](Sketcher_CreateArcOfEllipse/pl.md)
+   Name: Sketcher CreateEllipseByCenter
+   Name/pl: Szkicownik: Utwórz elipsę przez środek
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Utwórz elipsę przez środek
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **G** **E** **E**
+   Version: 0.15
+   SeeAlso: [Utwórz elipsę przez trzy punkty](Sketcher_CreateEllipseBy3Points/pl.md), [Utwórz okrąg](Sketcher_CreateCircle/pl.md), [Utwórz łuk na podstawie elipsy](Sketcher_CreateArcOfEllipse/pl.md)
 ---
 
 # Sketcher CreateEllipseByCenter/pl
@@ -49,4 +49,4 @@ Narzędzie to rysuje elipsę wybierając trzy punkty: środek, koniec promienia 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseByCenter/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseByCenter/pl

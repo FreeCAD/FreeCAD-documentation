@@ -13,4 +13,4 @@ Von dieser Oberfläche aus kannst Du nützliche Informationen einsehen und zu de
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Start](Category_Start.md) > [Workbenches](Category_Workbenches.md) > Start Workbench/de
+⏵ [documentation index](../README.md) > [Start](Category_Start.md) > [Workbenches](Category_Workbenches.md) > Start Workbench/de

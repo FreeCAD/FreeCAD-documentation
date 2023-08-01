@@ -2,7 +2,7 @@
 ## Wprowadzenie
 
 
-{{TOCright}}
+
 
 W programie FreeCAD słowo \"[Część](Part/pl.md)\" jest zwykle używane w odniesieniu do typu obiektu <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Std: Część](Std_Part/pl.md) *(klasa `App::Part`)*, kontenera, który jest zdefiniowany przez system bazowy. Ta część jest używana do zarządzania pozycją kształtów 3D w celu tworzenia złożeń mechanicznych.
 
@@ -32,4 +32,4 @@ Jednakże, gdy wymagana jest większa precyzja, należy dokonać rozróżnienia.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Part/pl
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Part/pl

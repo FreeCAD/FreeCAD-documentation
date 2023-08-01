@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std DlgMacroRecord
-   Name/de:Std DialogMakroAufzeichnen
-   MenuLocation:[Makro](Macros/de.md) - Makro aufzeichnen...
-   Workbenches:Alle
-   Siehe auch:[Std MakroaufzeichnungBeenden](Std_DlgMacroExecuteDirect/de.md)
+   Name: Std DlgMacroRecord
+   Name/de: Std DialogMakroAufzeichnen
+   MenuLocation: [Makro](Macros/de.md) - Makro aufzeichnen...
+   Workbenches: Alle
+   Siehe auch: [Std MakroaufzeichnungBeenden](Std_DlgMacroExecuteDirect/de.md)
 ---
 
 # Std DlgMacroRecord/de
@@ -68,4 +68,4 @@ Der **Std DlgMacroRecord** Befehl startet eine [Makro](Macros/de.md) Aufnahmesit
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgMacroRecord/de
+⏵ [documentation index](../README.md) > Std DlgMacroRecord/de

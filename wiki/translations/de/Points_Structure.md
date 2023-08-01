@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Points Structure
-   Name/de:Points Strukturieren
-   MenuLocation:Punkte - Strukturierte Punktwolke
-   Workbenches:[Points](Points_Workbench/de.md)
+   Name: Points Structure
+   Name/de: Points Strukturieren
+   MenuLocation: Punkte - Strukturierte Punktwolke
+   Workbenches: [Points](Points_Workbench/de.md)
 ---
 
 # Points Structure/de
@@ -41,4 +41,4 @@ Siehe [Points Konvertieren](Points_Convert/de.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Structure/de
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Structure/de

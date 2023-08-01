@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw Dimension Angle3Pt
-   Name/it:Angolo da 3 punti
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   MenuLocation:TechDraw - Angolo da 3 punti
-   Shortcut:
-   SeeAlso:[Angolo](TechDraw_AngleDimension/it.md)
+   Name: TechDraw Dimension Angle3Pt
+   Name/it: Angolo da 3 punti
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   MenuLocation: TechDraw - Angolo da 3 punti
+   Shortcut: 
+   SeeAlso: [Angolo](TechDraw_AngleDimension/it.md)
 ---
 
 # TechDraw 3PtAngleDimension/it
@@ -131,4 +131,4 @@ rc = page.addView(dim1)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 3PtAngleDimension/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 3PtAngleDimension/it

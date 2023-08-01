@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part JoinCutout
-   Name/de:Part Ausschneiden
-   MenuLocation:Formteil - Verbinden - Ausschnitt für Objekt
-   Workbenches:[Part](Part_Workbench/de.md)
-   Version:0.16
-   SeeAlso:[Part Verbinden](Part_JoinConnect/de.md), [Part Einbetten](Part_JoinEmbed/de.md), [Part Boolesche Operationen](Part_Boolean/de.md), [Part Dicke](Part_Thickness/de.md)
+   Name: Part JoinCutout
+   Name/de: Part Ausschneiden
+   MenuLocation: Formteil - Verbinden - Ausschnitt für Objekt
+   Workbenches: [Part](Part_Workbench/de.md)
+   Version: 0.16
+   SeeAlso: [Part Verbinden](Part_JoinConnect/de.md), [Part Einbetten](Part_JoinEmbed/de.md), [Part Boolesche Operationen](Part_Boolean/de.md), [Part Dicke](Part_Thickness/de.md)
 ---
 
 # Part JoinCutout/de
@@ -89,4 +89,4 @@ Das Werkzeug selbst ist in Python implementiert, siehe **/Mod/Part/JoinFeatures.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinCutout/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinCutout/de

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Measure Toggle Delta
-   Name/ro:Part Measure Toggle Delta
-   MenuLocation:Measure - Toggle Delta‏‎
-   Workbenches:[Part](Part_Workbench/ro.md)
+   Name: Part Measure Toggle Delta
+   Name/ro: Part Measure Toggle Delta
+   MenuLocation: Measure - Toggle Delta‏‎
+   Workbenches: [Part](Part_Workbench/ro.md)
 ---
 
 # Part Measure Toggle Delta/ro
@@ -38,4 +38,4 @@ Acest instrument activează/dezactivează vizibilitatea măsurătorilor delta (v
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle Delta/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle Delta/ro

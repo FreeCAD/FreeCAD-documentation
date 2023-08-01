@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_Open
-   Name/ru:Открыть...
-   MenuLocation:[Файл](Std_File_Menu/ru.md) - Открыть...
-   Workbenches:All
-   Shortcut:**Ctrl**+**O**
-   SeeAlso:[Импортировать файл](Std_Import/ru.md),<br>[Создать файл](Std_New/ru.md)
+   Name: Std_Open
+   Name/ru: Открыть...
+   MenuLocation: [Файл](Std_File_Menu/ru.md) - Открыть...
+   Workbenches: All
+   Shortcut: **Ctrl**+**O**
+   SeeAlso: [Импортировать файл](Std_Import/ru.md),<br>[Создать файл](Std_New/ru.md)
 ---
 
 # Std Open/ru
@@ -56,4 +56,4 @@ These methods create and return a document and load a project file into it. The 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Open/ru
+⏵ [documentation index](../README.md) > Std Open/ru

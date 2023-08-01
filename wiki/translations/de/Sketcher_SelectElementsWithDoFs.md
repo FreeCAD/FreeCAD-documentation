@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectElementsWithDoFs
-   Name/de:Sketcher UnterbestimmteElementeAuswählen
-   MenuLocation:Skizze - Skizzenwerkzeuge - Unterbestimmte Elemente auswählen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**Z** **F**
-   Version:0.18
+   Name: Sketcher SelectElementsWithDoFs
+   Name/de: Sketcher UnterbestimmteElementeAuswählen
+   MenuLocation: Skizze - Skizzenwerkzeuge - Unterbestimmte Elemente auswählen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **Z** **F**
+   Version: 0.18
 ---
 
 # Sketcher SelectElementsWithDoFs/de
@@ -46,4 +46,4 @@ Im Meldungsfeld des Lösers, das sich oben im [Aufgabebereich](Task_panel/de.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsWithDoFs/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsWithDoFs/de

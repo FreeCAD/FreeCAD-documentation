@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Module Creation/tr
+⏵ [documentation index](../README.md) > Module Creation/tr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh PolyCut
-   Name/fr:Mesh Couper un maillage
-   MenuLocation:Maillages - Couper - Couper le maillage
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Ajuster](Mesh_PolyTrim/fr.md), [Mesh Ajuster par plan](Mesh_TrimByPlane/fr.md)
+   Name: Mesh PolyCut
+   Name/fr: Mesh Couper un maillage
+   MenuLocation: Maillages - Couper - Couper le maillage
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
+   SeeAlso: [Mesh Ajuster](Mesh_PolyTrim/fr.md), [Mesh Ajuster par plan](Mesh_TrimByPlane/fr.md)
 ---
 
 # Mesh PolyCut/fr
@@ -55,4 +55,4 @@ La commande **Couper un maillage** coupe des faces entières à partir d\'objets
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyCut/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyCut/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh ImportMesh‏‎
-   Name/ru:Mesh ImportMesh‏‎
-   MenuLocation:Сетки - Импорт сетки
-   Workbenches:[Mesh](Mesh_Workbench/ru.md)
-   SeeAlso:[Импорт файла](Std_Import/ru.md)
+   Name: Mesh ImportMesh‏‎
+   Name/ru: Mesh ImportMesh‏‎
+   MenuLocation: Сетки - Импорт сетки
+   Workbenches: [Mesh](Mesh_Workbench/ru.md)
+   SeeAlso: [Импорт файла](Std_Import/ru.md)
 ---
 
 # Mesh Import/ru
@@ -61,4 +61,4 @@ Mesh.insert('D:/testfiles/cylinder.stl')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Import/ru
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Import/ru

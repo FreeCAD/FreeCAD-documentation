@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher Reorient
-   Name/cs:Skicář Změna orientace
-   Empty:1
-   Workbenches:[Skicář](Sketcher_Workbench/cs.md), [Návrh dílu](PartDesign_Workbench/cs.md)
-   MenuLocation:Návrh dílu - Změna orientace náčrtu
-   SeeAlso:[Vyznač náčrt](Sketcher_MapSketch/cs.md), [Nový náčrt](Sketcher_NewSketch/cs.md)
+   Name: Sketcher Reorient
+   Name/cs: Skicář Změna orientace
+   Empty: 1
+   Workbenches: [Skicář](Sketcher_Workbench/cs.md), [Návrh dílu](PartDesign_Workbench/cs.md)
+   MenuLocation: Návrh dílu - Změna orientace náčrtu
+   SeeAlso: [Vyznač náčrt](Sketcher_MapSketch/cs.md), [Nový náčrt](Sketcher_NewSketch/cs.md)
 ---
 
 # Sketcher ReorientSketch/cs
@@ -42,4 +42,4 @@ Allows you to detach a sketch from a face and attach it to one of the main plane
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ReorientSketch/cs
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ReorientSketch/cs

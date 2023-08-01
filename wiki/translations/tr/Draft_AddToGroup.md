@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft AddToGroup
-   Name/tr:Gruba Ekle
-   MenuLocation:Taslak - Araçlar - Gruba Ekle
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
-   SeeAlso:[Grup seç](Draft_SelectGroup/tr.md), [Grup](Std_Group/tr.md)
+   Name: Draft AddToGroup
+   Name/tr: Gruba Ekle
+   MenuLocation: Taslak - Araçlar - Gruba Ekle
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   SeeAlso: [Grup seç](Draft_SelectGroup/tr.md), [Grup](Std_Group/tr.md)
 ---
 
 # Draft AddToGroup/tr
@@ -68,4 +68,4 @@ In FreeCAD version 0.20 the command can also handle group-like [Arch](Arch_Workb
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddToGroup/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddToGroup/tr

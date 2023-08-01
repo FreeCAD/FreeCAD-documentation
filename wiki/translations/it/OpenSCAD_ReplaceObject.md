@@ -1,6 +1,6 @@
 # OpenSCAD ReplaceObject/it
 ---
-- GuiCommand:   Name:OpenSCAD ReplaceObject   Name/it:Sostituisci oggetto   MenuLocation:OpenSCAD - Sostituisci oggetto‏‎   |Workbenches:[[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: OpenSCAD ReplaceObject   Name/it: Sostituisci oggetto   MenuLocation: OpenSCAD - Sostituisci oggetto‏‎   |Workbenches: [[OpenSCAD_Workbench/it   OpenSCAD]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -67,4 +67,4 @@ Sostituisce un oggetto nell\'albero delle caratteristiche.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ReplaceObject/it
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ReplaceObject/it

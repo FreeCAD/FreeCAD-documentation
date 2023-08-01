@@ -254,4 +254,4 @@ Ulteriori informazioni si trovano nella pagina [Posizionamento](Placement/it.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Command_Reference](Category_Command_Reference.md) > Tasks Placement/it
+⏵ [documentation index](../README.md) > [Command_Reference](Category_Command_Reference.md) > Tasks Placement/it

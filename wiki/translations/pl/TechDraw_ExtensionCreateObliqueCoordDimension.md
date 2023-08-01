@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionCreateObliqueCoordDimension
-   Name/pl:Rysunek Techniczny: Rozszerzenie Seria wymiarów kaskadowych ukośnie
-   MenuLocation:Rysunek Techniczny - Rozszerzenia: Wymiary - Seria wymiarów ukośnie
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[Seria wymiarów kaskadowych poziomo](TechDraw_ExtensionCreateHorizCoordDimension/pl.md), [Seria wymiarów kaskadowych pionowo](TechDraw_ExtensionCreateVertCoordDimension/pl.md)
+   Name: TechDraw ExtensionCreateObliqueCoordDimension
+   Name/pl: Rysunek Techniczny: Rozszerzenie Seria wymiarów kaskadowych ukośnie
+   MenuLocation: Rysunek Techniczny - Rozszerzenia: Wymiary - Seria wymiarów ukośnie
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [Seria wymiarów kaskadowych poziomo](TechDraw_ExtensionCreateHorizCoordDimension/pl.md), [Seria wymiarów kaskadowych pionowo](TechDraw_ExtensionCreateVertCoordDimension/pl.md)
 ---
 
 # TechDraw ExtensionCreateObliqueCoordDimension/pl
@@ -44,4 +44,4 @@ Narzędzie **Seria wymiarów kaskadowych ukośnie** tworzy ukośne wymiary wspó
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateObliqueCoordDimension/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateObliqueCoordDimension/pl

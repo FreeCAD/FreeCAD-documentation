@@ -1,11 +1,11 @@
 ---
 - GuiCommand:-br
-   Name:Constraint InternalAngle
-   Name/pt-br:Constraint InternalAngle
-   Workbenches:[Sketcher](Sketcher_Workbench/pt-br.md), [PartDesign](PartDesign_Workbench/pt-br.md)
-   Shortcut:A
-   MenuLocation:Sketch - Sketcher constraints - Constrain angle
-   SeeAlso:[Constraint Length](Sketcher_ConstrainDistance/pt-br.md), [Constraint Perpendicular](Sketcher_ConstrainPerpendicular/pt-br.md)
+   Name: Constraint InternalAngle
+   Name/pt-br: Constraint InternalAngle
+   Workbenches: [Sketcher](Sketcher_Workbench/pt-br.md), [PartDesign](PartDesign_Workbench/pt-br.md)
+   Shortcut: A
+   MenuLocation: Sketch - Sketcher constraints - Constrain angle
+   SeeAlso: [Constraint Length](Sketcher_ConstrainDistance/pt-br.md), [Constraint Perpendicular](Sketcher_ConstrainPerpendicular/pt-br.md)
 ---
 
 # Sketcher ConstrainAngle/pt-br
@@ -115,4 +115,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/pt-br
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/pt-br

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Path Shape
-   Name/ru:Path Shape
-   MenuLocation:Path - Supplemental commands - Из фигуры
-   Workbenches:[Path](Path_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:
+   Name: Path Shape
+   Name/ru: Path Shape
+   MenuLocation: Path - Supplemental commands - Из фигуры
+   Workbenches: [Path](Path_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Path Shape/ru
@@ -189,4 +189,4 @@ Path.fromShapes(shapes, start=Vector(), return_end=False arc_plane=1, sort_mode=
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Shape/ru
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Shape/ru

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher Split
-   Name/pl:Szkicownik: Podziel krawędź
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Podziel krawędź
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **Z**
-   Version:0.20
-   SeeAlso:[Przytnij krawędź](Sketcher_Trimming/pl.md)
+   Name: Sketcher Split
+   Name/pl: Szkicownik: Podziel krawędź
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Podziel krawędź
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **G** **Z**
+   Version: 0.20
+   SeeAlso: [Przytnij krawędź](Sketcher_Trimming/pl.md)
 ---
 
 # Sketcher Split/pl
@@ -61,4 +61,4 @@ To narzędzie dzieli krawędź na dwie, a istniejące wiązania są kopiowane do
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Split/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Split/pl

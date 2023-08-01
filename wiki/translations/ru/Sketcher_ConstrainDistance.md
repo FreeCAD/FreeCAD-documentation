@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Ограничить расстояние
-   Name:Sketcher_ConstrainDistance
-   MenuLocation:Sketch - Ограничения эскиза - Ограничить расстояние
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**Shift** + **D**
-   SeeAlso:[Ограничение расстояния по горизонтали](Sketcher_ConstrainDistanceX/ru.md), [Ограничение расстояния по вертикали](Sketcher_ConstrainDistanceY/ru.md)
+   Name/ru: Ограничить расстояние
+   Name: Sketcher_ConstrainDistance
+   MenuLocation: Sketch - Ограничения эскиза - Ограничить расстояние
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **Shift** + **D**
+   SeeAlso: [Ограничение расстояния по горизонтали](Sketcher_ConstrainDistanceX/ru.md), [Ограничение расстояния по вертикали](Sketcher_ConstrainDistanceY/ru.md)
 ---
 
 # Sketcher ConstrainDistance/ru
@@ -86,4 +86,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistance/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistance/ru

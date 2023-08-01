@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Floor
-   Name/de:Arch Geschoss
-   MenuLocation:Architektur - Stockwerk
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   Shortcut:**L** **V**
-   SeeAlso:[Arch Gebäude](Arch_Building/de.md), [Arch Gebäudeteil](Arch_BuildingPart/de.md), [Arch Grundstück](Arch_Site/de.md)
+   Name: Arch Floor
+   Name/de: Arch Geschoss
+   MenuLocation: Architektur - Stockwerk
+   Workbenches: [Arch](Arch_Workbench/de.md)
+   Shortcut: **L** **V**
+   SeeAlso: [Arch Gebäude](Arch_Building/de.md), [Arch Gebäudeteil](Arch_BuildingPart/de.md), [Arch Grundstück](Arch_Site/de.md)
 ---
 
 # Arch Floor/de
@@ -72,4 +72,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Floor/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Floor/de

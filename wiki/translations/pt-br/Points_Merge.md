@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Points Merge
-   MenuLocation:Points - Merge point clouds
-   Workbenches:[Points](Points_Workbench.md)
+   Name: Points Merge
+   MenuLocation: Points - Merge point clouds
+   Workbenches: [Points](Points_Workbench.md)
 ---
 
 # Points Merge/pt-br
@@ -31,4 +31,4 @@ See [Points Convert](Points_Convert.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Merge/pt-br
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Merge/pt-br

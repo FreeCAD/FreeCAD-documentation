@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintSectionPrint
-   Name/fr:FEM Contrainte d'empreinte de section
-   MenuLocation:Modèle - Contraintes géométriques - Contrainte d'empreinte de section
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:
+   Name: FEM ConstraintSectionPrint
+   Name/fr: FEM Contrainte d'empreinte de section
+   MenuLocation: Modèle - Contraintes géométriques - Contrainte d'empreinte de section
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Version: 0.19
+   SeeAlso: 
 ---
 
 # FEM ConstraintSectionPrint/fr
@@ -40,4 +40,4 @@ Affiche les variables de sortie prédéfinies du modèle (forces et moments) dan
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FEM ConstraintSectionPrint/fr
+⏵ [documentation index](../README.md) > FEM ConstraintSectionPrint/fr

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Right side view
+⏵ [documentation index](../README.md) > Right side view

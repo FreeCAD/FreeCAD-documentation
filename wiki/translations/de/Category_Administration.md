@@ -22,4 +22,4 @@ Den betreffenden Artikeln folgende Zeile anhängen:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Administration/de]] ](Category_Administration/de]] .md) > Category:Administration/de
+⏵ [documentation index](../README.md) > [Administration/de]] ](Category_Administration/de]] .md) > Category:Administration/de

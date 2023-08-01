@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionLineParallel
-   MenuLocation:TechDraw - Extensions: Centerlines/Threading - Add Cosmetic Parallel Line
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ExtensionLinePerpendicular](TechDraw_ExtensionLinePerpendicular.md)
+   Name: TechDraw ExtensionLineParallel
+   MenuLocation: TechDraw - Extensions: Centerlines/Threading - Add Cosmetic Parallel Line
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ExtensionLinePerpendicular](TechDraw_ExtensionLinePerpendicular.md)
 ---
 
 # TechDraw ExtensionLineParallel
@@ -35,4 +35,4 @@ The **TechDraw ExtensionLineParallel** tool adds a cosmetic line parallel to ano
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionLineParallel
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionLineParallel

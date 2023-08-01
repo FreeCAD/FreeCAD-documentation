@@ -1,6 +1,6 @@
 # Arch Reference/hr
 ---
-- GuiCommand:   Name:Arch Reference   Name/hr:Arch Reference   Workbenches:[MenuLocation:Arch - Reference   Shortcut:   SeeAlso:[[Arch BuildingPart](Arch_Workbench___Arch]].md)---
+- GuiCommand:   Name: Arch Reference   Name/hr: Arch Reference   Workbenches: [MenuLocation: Arch - Reference   Shortcut:    SeeAlso: [[Arch BuildingPart](Arch_Workbench___Arch]].md)---
 
 
 </div>
@@ -52,4 +52,4 @@ Arch.makeReference("/path/to/some/file.FSCtd","myPart")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Reference/hr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Reference/hr

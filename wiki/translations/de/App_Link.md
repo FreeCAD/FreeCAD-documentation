@@ -1,8 +1,4 @@
 # App Link/de
-{{TOCright}}
-
-
-
 ## Einführung
 
 <img alt="" src=images/Link.svg  style="width:32px;">
@@ -35,4 +31,4 @@ Siehe [Std VerknüpfungHerstellen](Std_LinkMake/de#Eigenschaften.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > App Link/de
+⏵ [documentation index](../README.md) > App Link/de

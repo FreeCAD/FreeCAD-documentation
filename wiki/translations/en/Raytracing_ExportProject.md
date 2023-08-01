@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Raytracing ExportProject
-   MenuLocation:Raytracing - ExportProject
-   Workbenches:[Raytracing](Raytracing_Workbench.md)
-   Shortcut:
-   SeeAlso:
+   Name: Raytracing ExportProject
+   MenuLocation: Raytracing - ExportProject
+   Workbenches: [Raytracing](Raytracing_Workbench.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Raytracing ExportProject/en
@@ -33,4 +33,4 @@ Exports the selected raytracing project to a file.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing ExportProject/en
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing ExportProject/en

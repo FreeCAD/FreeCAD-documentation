@@ -1,8 +1,4 @@
 # TechDraw Section Examples/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 Środowisko pracy <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Rysunek Techniczny](TechDraw_Workbench/pl.md) poczyniło duży krok naprzód w kwestii generowania **widoków przekrojów**. Aby nie przeciążać stron referencyjnych, intencją tej strony jest podanie przykładów i dostarczenie właściwego nazewnictwa dla wykonywanych zadań.
@@ -273,4 +269,4 @@ Po prawej: Widok odsunięcia przekroju oparty na alternatywnej linii przekroju, 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Section Examples/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Section Examples/pl

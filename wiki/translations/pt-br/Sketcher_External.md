@@ -1,11 +1,11 @@
 ---
 - GuiCommand:-br
-   Name:Sketcher External
-   Name/pt-br:Sketcher External
-   MenuLocation:Sketch - Sketcher geometries - Sketcher External
-   Workbenches:[Sketcher](Sketcher_Workbench/pt-br.md)
-   Shortcut:X
-   SeeAlso:[Sketcher ConstructionMode](Sketcher_ToggleConstruction/pt-br.md)
+   Name: Sketcher External
+   Name/pt-br: Sketcher External
+   MenuLocation: Sketch - Sketcher geometries - Sketcher External
+   Workbenches: [Sketcher](Sketcher_Workbench/pt-br.md)
+   Shortcut: X
+   SeeAlso: [Sketcher ConstructionMode](Sketcher_ToggleConstruction/pt-br.md)
 ---
 
 # Sketcher External/pt-br
@@ -87,4 +87,4 @@ When the sketch edit mode is closed, external Geometry lines are not visible.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/pt-br
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/pt-br

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Fasteners_BOM
-   Name/ru:Спецификация
-   MenuLocation:Стандартные изделия - Спецификация
-   Workbenches:[Стандартные изделия](Fasteners_Workbench/ru.md)
-   SeeAlso:[Верстак электронных таблиц](Spreadsheet_Workbench/ru.md)
+   Name: Fasteners_BOM
+   Name/ru: Спецификация
+   MenuLocation: Стандартные изделия - Спецификация
+   Workbenches: [Стандартные изделия](Fasteners_Workbench/ru.md)
+   SeeAlso: [Верстак электронных таблиц](Spreadsheet_Workbench/ru.md)
 ---
 
 # Fasteners BOM/ru
@@ -39,4 +39,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners BOM/ru
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners BOM/ru

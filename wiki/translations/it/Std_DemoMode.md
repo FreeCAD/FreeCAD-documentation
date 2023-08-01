@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std DemoMode
-   Name/it:Visualizza rotazione oggetti
-   MenuLocation:Strumenti - Visualizza rotazione oggetti...
-   Workbenches:Tutti
+   Name: Std DemoMode
+   Name/it: Visualizza rotazione oggetti
+   MenuLocation: Strumenti - Visualizza rotazione oggetti...
+   Workbenches: Tutti
 ---
 
 # Std DemoMode/it
@@ -44,4 +44,4 @@ Il comando **Visualizza rotazione oggetti** ruota continuamente la telecamera in
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DemoMode/it
+⏵ [documentation index](../README.md) > Std DemoMode/it

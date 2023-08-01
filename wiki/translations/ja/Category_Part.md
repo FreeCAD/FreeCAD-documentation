@@ -10,4 +10,4 @@ This category lists pages related to the [Part Workbench/ja](Part_Workbench/ja.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Part/ja
+⏵ [documentation index](../README.md) > Category:Part/ja

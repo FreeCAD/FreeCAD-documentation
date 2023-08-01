@@ -1,8 +1,4 @@
 # Property editor/it
-{{TOCright}}
-
-
-
 ## Descrizione
 
 L\'[editor delle proprietà](property_editor/it.md) appare quando è attiva la scheda **Modello** della [vista combinata](combo_view/it.md) nell\'[interfaciia](interface/it.md); consente di gestire le proprietà degli oggetti nel documento.
@@ -12,7 +8,7 @@ Generalmente, l\'editor delle proprietà è destinato a gestire solo un oggetto 
 Non tutte le proprietà possono sempre essere modificate; a seconda dello stato specifico della proprietà, alcune di esse possono essere invisibili (non elencate) o di sola lettura (non modificabili).
 
 
-{{TOCright}}
+
 
 ![](images/FreeCAD_Property_editor_empty.png )
 
@@ -283,4 +279,4 @@ print(obj.ViewObject.PropertiesList)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Property editor/it
+⏵ [documentation index](../README.md) > Property editor/it

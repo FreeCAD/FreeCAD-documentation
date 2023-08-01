@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Объединить эскизы
-   Name:Sketcher_MergeSketches
-   MenuLocation:Sketch - Объединить эскизы
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.15
+   Name/ru: Объединить эскизы
+   Name: Sketcher_MergeSketches
+   MenuLocation: Sketch - Объединить эскизы
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Version: 0.15
 ---
 
 # Sketcher MergeSketches/ru
@@ -36,4 +36,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MergeSketches/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MergeSketches/ru

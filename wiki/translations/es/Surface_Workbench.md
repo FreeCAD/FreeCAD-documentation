@@ -10,7 +10,7 @@
 <img alt="El icono del Ambiente de trabajo superficie" src=images/Workbench_Surface.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 
 
@@ -89,4 +89,4 @@ La superficie generada no puede colocarse dentro de un **[<img src=images/PartDe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Surface](Category_Surface.md) > Surface Workbench/es
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Surface](Category_Surface.md) > Surface Workbench/es

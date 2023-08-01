@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Scripting examples/de
+⏵ [documentation index](../README.md) > Scripting examples/de

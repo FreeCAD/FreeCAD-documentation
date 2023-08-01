@@ -20,4 +20,4 @@ Questa pagina raccoglie alcune informazioni interessanti sul tema della simulazi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Concrete/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Concrete/it

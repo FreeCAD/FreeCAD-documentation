@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Переключение виртуального пространства
-   Name:Sketcher_SwitchVirtualSpace
-   MenuLocation:Sketch - Виртуальное пространство эскиза - Переключение виртуального пространства
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.17
+   Name/ru: Переключение виртуального пространства
+   Name: Sketcher_SwitchVirtualSpace
+   MenuLocation: Sketch - Виртуальное пространство эскиза - Переключение виртуального пространства
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Version: 0.17
 ---
 
 # Sketcher SwitchVirtualSpace/ru
@@ -51,4 +51,4 @@ if you decide to set constraints on the second virtual space, don\'t forget abou
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SwitchVirtualSpace/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SwitchVirtualSpace/ru

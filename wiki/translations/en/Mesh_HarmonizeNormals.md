@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh HarmonizeNormals
-   MenuLocation:Meshes - Harmonize normals
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh FlipNormals](Mesh_FlipNormals.md)
+   Name: Mesh HarmonizeNormals
+   MenuLocation: Meshes - Harmonize normals
+   Workbenches: [Mesh](Mesh_Workbench.md)
+   SeeAlso: [Mesh FlipNormals](Mesh_FlipNormals.md)
 ---
 
 # Mesh HarmonizeNormals/en
@@ -35,4 +35,4 @@ The **Mesh HarmonizeNormals** command harmonizes the normals of mesh objects.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/en
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/en

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Compound‏‎
-   MenuLocation:Part - Make compound
-   Workbenches:[Part](Part_Workbench.md)
-   Version:0.14
-   SeeAlso:[Part Fuse](Part_Fuse.md), [Part CompoundFilter](Part_CompoundFilter.md), [Part ExplodeCompound](Part_ExplodeCompound.md)
+   Name: Part Compound‏‎
+   MenuLocation: Part - Make compound
+   Workbenches: [Part](Part_Workbench.md)
+   Version: 0.14
+   SeeAlso: [Part Fuse](Part_Fuse.md), [Part CompoundFilter](Part_CompoundFilter.md), [Part ExplodeCompound](Part_ExplodeCompound.md)
 ---
 
 # Part Compound
@@ -27,4 +27,4 @@ To turn this check on go to **Tools → Edit Parameters → Preferences... → M
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound

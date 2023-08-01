@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch CompAxis
-   Name/fr:Arch Outils pour les axes 
-   MenuLocation:Arch - Outils pour les axes
-   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[Arch Axes](Arch_Axis/fr.md), [Arch Système d'axes](Arch_AxisSystem/fr.md), [Arch Grille](Arch_Grid/fr.md)
+   Name: Arch CompAxis
+   Name/fr: Arch Outils pour les axes 
+   MenuLocation: Arch - Outils pour les axes
+   Workbenches: [Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [Arch Axes](Arch_Axis/fr.md), [Arch Système d'axes](Arch_AxisSystem/fr.md), [Arch Grille](Arch_Grid/fr.md)
 ---
 
 # Arch CompAxis/fr
@@ -25,4 +25,4 @@ Crée des axes.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompAxis/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompAxis/fr

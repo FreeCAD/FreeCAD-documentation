@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher BSplinePolygon
-   Name/pl:Szkicownik: Pokaż / ukryj ramkę kontrolną krzywej złożonej
-   MenuLocation:Szkic - Narzędzia szkicownika krzywej złożonej - Pokaż / ukryj ramkę kontrolną krzywej złożonej
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Komponent utwórz krzywą złożoną](Sketcher_CompCreateBSpline/pl.md)
+   Name: Sketcher BSplinePolygon
+   Name/pl: Szkicownik: Pokaż / ukryj ramkę kontrolną krzywej złożonej
+   MenuLocation: Szkic - Narzędzia szkicownika krzywej złożonej - Pokaż / ukryj ramkę kontrolną krzywej złożonej
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Komponent utwórz krzywą złożoną](Sketcher_CompCreateBSpline/pl.md)
 ---
 
 # Sketcher BSplinePolygon/pl
@@ -36,4 +36,4 @@ Pokazuje lub ukrywa wyświetlanie zdefiniowanego wielokąta krzywej złożonej *
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplinePolygon/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplinePolygon/pl

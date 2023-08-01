@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Ortho
-   Name/tr:Taslak Orto
-   MenuLocation:Taslak - [Yakalama](Draft_Snap/tr.md) - Orto
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   Shortcut:
-   SeeAlso:
+   Name: Draft Snap Ortho
+   Name/tr: Taslak Orto
+   MenuLocation: Taslak - [Yakalama](Draft_Snap/tr.md) - Orto
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Draft Snap Ortho/tr
@@ -42,4 +42,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Ortho/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Ortho/tr

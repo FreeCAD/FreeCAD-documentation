@@ -1,6 +1,6 @@
 # Sketcher CreateOctagon/es
 ---
-- GuiCommand:   Name:Sketcher CreateOctagon   Name/es:Sketcher CreateOctagon   Workbenches:[[Sketcher Workbench/es   Sketcher]]|MenuLocation:Sketch - Sketcher geometries - Create octagon   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Sketcher CreateOctagon   Name/es: Sketcher CreateOctagon   Workbenches: [[Sketcher Workbench/es   Sketcher]]|MenuLocation: Sketch - Sketcher geometries - Create octagon   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -31,4 +31,4 @@ The circumscribed circle is construction geometry, which is only visible when ed
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOctagon/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOctagon/es

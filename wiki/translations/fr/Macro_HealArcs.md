@@ -47,4 +47,4 @@ else:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro HealArcs/fr
+⏵ [documentation index](../README.md) > Macro HealArcs/fr

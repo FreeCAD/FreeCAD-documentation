@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Ограничить угол
-   Name:Sketcher_ConstrainAngle
-   MenuLocation:Sketch - Ограничения эскиза - Ограничить угол
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**A**
-   SeeAlso:[Ограничить расстояние](Sketcher_ConstrainDistance/ru.md), [Ограничить перпендикулярность](Sketcher_ConstrainPerpendicular/ru.md)
+   Name/ru: Ограничить угол
+   Name: Sketcher_ConstrainAngle
+   MenuLocation: Sketch - Ограничения эскиза - Ограничить угол
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **A**
+   SeeAlso: [Ограничить расстояние](Sketcher_ConstrainDistance/ru.md), [Ограничить перпендикулярность](Sketcher_ConstrainPerpendicular/ru.md)
 ---
 
 # Sketcher ConstrainAngle/ru
@@ -127,4 +127,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/ru

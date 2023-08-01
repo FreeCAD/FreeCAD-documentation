@@ -1,6 +1,6 @@
 # Draft Move/sv
 ---
-- GuiCommand:   Name:Draft Move   Name/sv:Draft Move   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> Move   Shortcut:M V---
+- GuiCommand:   Name: Draft Move   Name/sv: Draft Move   Workbenches: [Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation: Draft -> Move   Shortcut: M V---
 
 
 </div>
@@ -126,4 +126,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move/sv

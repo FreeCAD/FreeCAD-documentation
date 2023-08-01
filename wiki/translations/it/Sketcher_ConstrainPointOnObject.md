@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainPointOnObject
-   Name/it:Punto su oggettto
-   Icon:Constraint_PointOnObject.svg
-   Workbenches:[Schizzo](Sketcher_Workbench/it.md)
-   MenuLocation:PartDesign - Schizzo - Punto su oggetto
-   Shortcut:**Maiusc** + **O**
-   SeeAlso:[Coincidenza](Sketcher_ConstrainCoincident/it.md)
+   Name: Sketcher ConstrainPointOnObject
+   Name/it: Punto su oggettto
+   Icon: Constraint_PointOnObject.svg
+   Workbenches: [Schizzo](Sketcher_Workbench/it.md)
+   MenuLocation: PartDesign - Schizzo - Punto su oggetto
+   Shortcut: **Maiusc** + **O**
+   SeeAlso: [Coincidenza](Sketcher_ConstrainCoincident/it.md)
 ---
 
 # Sketcher ConstrainPointOnObject/it
@@ -89,4 +89,4 @@ Per identificare il numero che indica le linee ed i punti si prega di fare rifer
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/it

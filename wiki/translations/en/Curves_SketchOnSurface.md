@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Curves SketchOnSurface
-   MenuLocation:Surfaces - Sketch on Surface
-   Workbenches:[Curves](Curves_Workbench.md)
+   Name: Curves SketchOnSurface
+   MenuLocation: Surfaces - Sketch on Surface
+   Workbenches: [Curves](Curves_Workbench.md)
 ---
 
 # Curves SketchOnSurface/en
@@ -70,4 +70,4 @@ It is assumed that all geometry in the sketch is enclosed within the blue constr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves SketchOnSurface/en
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves SketchOnSurface/en

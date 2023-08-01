@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Offset2D
-   Name/ro:Part:Decalj 2D
-   MenuLocation:Componentă - 2D Offset
-   Workbenches:[Part](Part_Workbench/ro.md)
-   Version:0.17
-   SeeAlso:[Part Offset 3D](Part_Offset/ro.md), [Part Thickness](Part_Thickness/ro.md), [Draft Offset](Draft_Offset/ro.md)
+   Name: Part Offset2D
+   Name/ro: Part:Decalj 2D
+   MenuLocation: Componentă - 2D Offset
+   Workbenches: [Part](Part_Workbench/ro.md)
+   Version: 0.17
+   SeeAlso: [Part Offset 3D](Part_Offset/ro.md), [Part Thickness](Part_Thickness/ro.md), [Draft Offset](Draft_Offset/ro.md)
 ---
 
 # Part Offset2D/ro
@@ -174,4 +174,4 @@ Part.show(enlarged_circle)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset2D/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset2D/ro

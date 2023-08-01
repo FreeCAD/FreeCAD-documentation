@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Удалить выравнивание осей
-   Name:Sketcher_RemoveAxesAlignment
-   MenuLocation:Эскиз - Инструменты для эскиза - Удалить выравнивание осей
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.20
+   Name/ru: Удалить выравнивание осей
+   Name: Sketcher_RemoveAxesAlignment
+   MenuLocation: Эскиз - Инструменты для эскиза - Удалить выравнивание осей
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Version: 0.20
 ---
 
 # Sketcher RemoveAxesAlignment/ru
@@ -52,4 +52,4 @@ As result the (horizontal, vertical constraints) will be removed. In the example
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RemoveAxesAlignment/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RemoveAxesAlignment/ru

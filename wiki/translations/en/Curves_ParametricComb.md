@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Curves ParametricComb
-   MenuLocation:Curves - Comb plot
-   Workbenches:[Curves](Curves_Workbench.md)
+   Name: Curves ParametricComb
+   MenuLocation: Curves - Comb plot
+   Workbenches: [Curves](Curves_Workbench.md)
 ---
 
 # Curves ParametricComb/en
@@ -46,4 +46,4 @@ A 3D comb will be created for 3D curves. Sample and scale can be changed. This t
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Curves](Category_Curves.md) > Curves ParametricComb/en
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Curves](Category_Curves.md) > Curves ParametricComb/en

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Assembly3 MovePart
-   Name/fr:Assembly3 Déplacer une pièce
-   Icon:Assembly_Move.svg
-   MenuLocation:Assembly3 - Move part
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
-   Shortcut:**A** puis **M**
+   Name: Assembly3 MovePart
+   Name/fr: Assembly3 Déplacer une pièce
+   Icon: Assembly_Move.svg
+   MenuLocation: Assembly3 - Move part
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Shortcut: **A** puis **M**
 ---
 
 # Assembly3 MovePart/fr
@@ -33,4 +33,4 @@ Les poignées déplacent la pièce parallèlement à l\'un des plans de base ICS
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 MovePart/fr
+⏵ [documentation index](../README.md) > Assembly3 MovePart/fr

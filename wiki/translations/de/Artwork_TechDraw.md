@@ -28,4 +28,4 @@ Der [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) wird mit einer Reihe von
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [TechDraw](Category_TechDraw.md) > Artwork TechDraw/de
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [TechDraw](Category_TechDraw.md) > Artwork TechDraw/de

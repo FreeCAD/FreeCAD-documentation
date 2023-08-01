@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Icon:Sketcher MergeSketch.svg
-   Name/it:Unisci schizzi
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch - Unisci schizzi
-   Version:0.15
+   Icon: Sketcher MergeSketch.svg
+   Name/it: Unisci schizzi
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation: Sketch - Unisci schizzi
+   Version: 0.15
 ---
 
 # Sketcher MergeSketches/it
@@ -45,4 +45,4 @@ Unisce due o più schizzi in uno solo.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MergeSketches/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MergeSketches/it

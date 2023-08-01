@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateRectangle
-   MenuLocation:Sketch - Sketcher geometries - Create rectangle
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**G** **R**
-   SeeAlso:[Sketcher Rounded rectangle](Sketcher_CreateOblong.md), [Sketcher Polyline](Sketcher_CreatePolyline.md)
+   Name: Sketcher CreateRectangle
+   MenuLocation: Sketch - Sketcher geometries - Create rectangle
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **G** **R**
+   SeeAlso: [Sketcher Rounded rectangle](Sketcher_CreateOblong.md), [Sketcher Polyline](Sketcher_CreatePolyline.md)
 ---
 
 # Sketcher CreateRectangle
@@ -30,4 +30,4 @@ To define a rectangle via a center point and an edge point, use the [Centered re
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle

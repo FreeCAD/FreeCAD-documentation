@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractiveTorus
-   MenuLocation:Part Design - Create a subtractive primitive - Subtractive Torus
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign AdditiveTorus](PartDesign_AdditiveTorus.md)
+   Name: PartDesign SubtractiveTorus
+   MenuLocation: Part Design - Create a subtractive primitive - Subtractive Torus
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   Version: 0.17
+   SeeAlso: [PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign AdditiveTorus](PartDesign_AdditiveTorus.md)
 ---
 
 # PartDesign SubtractiveTorus/pt-br
@@ -56,4 +56,4 @@ The Torus can be edited after its creation in two ways:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveTorus/pt-br
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveTorus/pt-br

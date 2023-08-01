@@ -1,8 +1,4 @@
 # Expressions/de
-{{TOCright}}
-
-
-
 ## Übersicht
 
 Es ist möglich, Eigenschaften unter Verwendung von mathematischen Ausdrücken festzulegen. In der GUI enthalten Drehfelder oder Eingabefelder, die an Eigenschaften gebunden sind, ein blaues Symbol <img alt="" src=images/Bound-expression.svg  style="width:24px;">. Klicken auf das Symbol oder Eingeben des Gleichheitszeichens **&#61;** ruft den Ausdruckseditor für diese bestimmte Eigenschaft auf.
@@ -939,4 +935,4 @@ Natürlich liegt es bei dir, die zugehörigen Dokumente später zu laden, wenn d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Expressions/de
+⏵ [documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Expressions/de

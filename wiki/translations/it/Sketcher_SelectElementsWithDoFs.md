@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/it:Seleziona il Risolutore dei gradi di libertà
-   Icon:Sketcher SelectElementsWithDoFs.svg
-   MenuLocation:Sketch - Strumenti - Seleziona gli elementi con gradi di libertà
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   Version:0.18
+   Name/it: Seleziona il Risolutore dei gradi di libertà
+   Icon: Sketcher SelectElementsWithDoFs.svg
+   MenuLocation: Sketch - Strumenti - Seleziona gli elementi con gradi di libertà
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   Version: 0.18
 ---
 
 # Sketcher SelectElementsWithDoFs/it
@@ -65,4 +65,4 @@ where \"X\" is the number of degrees of freedom remaining in the sketch; you wil
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsWithDoFs/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsWithDoFs/it

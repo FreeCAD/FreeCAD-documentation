@@ -88,4 +88,4 @@ Merci à [Wmayer](http://forum.freecadweb.org/viewtopic.php?f=10&t=4686) pour so
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro 3d Printer Slicer/fr
+⏵ [documentation index](../README.md) > Macro 3d Printer Slicer/fr

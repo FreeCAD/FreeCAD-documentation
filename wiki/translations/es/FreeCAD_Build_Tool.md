@@ -1,7 +1,4 @@
 # FreeCAD Build Tool/es
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 La **Utilidad de construcción de FreeCAD** (FreeCAD build tool o **fcbt**) es un archivo de guión en Python ubicado en
@@ -93,4 +90,4 @@ El comando \"CM\" [crea un nuevo módulo de aplicación](Module_Creation/es.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Build Tool/es
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Build Tool/es

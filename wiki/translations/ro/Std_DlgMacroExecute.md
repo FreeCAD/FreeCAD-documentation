@@ -1,6 +1,6 @@
 # Std DlgMacroExecute/ro
 ---
-- GuiCommand:   Name:Std DlgMacroExecute   MenuLocation:[Shortcut:CTRL+F6   Workbenches:All   SeeAlso:[[Std_DlgMacroExecuteDirect|Execute Direct](Macros___Macros]]_-_Execute_macro.md)---
+- GuiCommand:   Name: Std DlgMacroExecute   MenuLocation: [Shortcut: CTRL+F6   Workbenches: All   SeeAlso: [[Std_DlgMacroExecuteDirect|Execute Direct](Macros___Macros]]_-_Execute_macro.md)---
 
 
 </div>
@@ -137,4 +137,4 @@ Când tastați în **[<img src=images/Std_DlgMacroExecuteDirect.png style="width
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgMacroExecute/ro
+⏵ [documentation index](../README.md) > Std DlgMacroExecute/ro

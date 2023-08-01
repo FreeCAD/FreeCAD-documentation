@@ -149,4 +149,4 @@ Wir sind nun mit dem grundlegenden Arbeitsablauf für den Arbeitsbereich [FEM](F
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM tutorial/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM tutorial/de

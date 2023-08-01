@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh Smoothing
-   Name/pl:Siatka: Wygładź
-   MenuLocation:Siatki - Wygładź ...
-   Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   Name: Mesh Smoothing
+   Name/pl: Siatka: Wygładź
+   MenuLocation: Siatki - Wygładź ...
+   Workbenches: [Siatka](Mesh_Workbench/pl.md)
 ---
 
 # Mesh Smoothing/pl
@@ -81,4 +81,4 @@ Polecenie **Wygładź** wygładza obiekty siatkowe poprzez zmianę położenia i
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Smoothing/pl
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Smoothing/pl

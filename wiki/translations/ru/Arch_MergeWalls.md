@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch MergeWalls
-   Name/ru:Arch MergeWalls
-   MenuLocation:Архитектура - Утилиты - Объединить стенки
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   SeeAlso:[[Arch Wall]]
+   Name: Arch MergeWalls
+   Name/ru: Arch MergeWalls
+   MenuLocation: Архитектура - Утилиты - Объединить стенки
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   SeeAlso: [[Arch Wall]]
 ---
 
 # Arch MergeWalls/ru
@@ -69,4 +69,4 @@ base = Arch.joinWalls([Wall1, Wall2])
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MergeWalls/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MergeWalls/ru

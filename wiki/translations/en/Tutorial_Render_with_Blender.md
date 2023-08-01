@@ -354,4 +354,4 @@ Obtaining good results is highly dependent on the rendering options, the materia
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Tutorial Render with Blender/en
+⏵ [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Tutorial Render with Blender/en

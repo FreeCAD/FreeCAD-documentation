@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Ellipse
-   Name/tr:Elips
-   MenuLocation:Taslak - Elips
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   Shortcut:**E** **L**
-   SeeAlso:[Çember](Draft_Circle/tr.md), [Yay](Draft_Arc/tr.md)
-   Version:0.7
+   Name: Draft Ellipse
+   Name/tr: Elips
+   MenuLocation: Taslak - Elips
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   Shortcut: **E** **L**
+   SeeAlso: [Çember](Draft_Circle/tr.md), [Yay](Draft_Arc/tr.md)
+   Version: 0.7
 ---
 
 # Draft Ellipse/tr
@@ -217,4 +217,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Ellipse/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Ellipse/tr

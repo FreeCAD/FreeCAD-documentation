@@ -1,6 +1,6 @@
 # Robot RestoreHomePos/de
 ---
-- GuiCommand:   Name:Robot RestoreHomePos   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Roboter - zur Ausgangsposition bewegen---
+- GuiCommand:   Name: Robot RestoreHomePos   Workbenches: [[Robot_Workbench   Robot]]|MenuLocation: Roboter - zur Ausgangsposition bewegen---
 
 
 </div>
@@ -55,4 +55,4 @@ Wenn über [Robot_SetHomePos](Robot_SetHomePos.md) keine Ausgangsposition festge
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos/de
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos/de

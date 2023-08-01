@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher MapSketch
-   Name/tr:Eskizi yüze eşle
-   Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
-   MenuLocation:Part Design/Sketch - Map sketch to face...
-   SeeAlso:[Create a new sketch](Sketcher_NewSketch.md)
+   Name: Sketcher MapSketch
+   Name/tr: Eskizi yüze eşle
+   Workbenches: [Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
+   MenuLocation: Part Design/Sketch - Map sketch to face...
+   SeeAlso: [Create a new sketch](Sketcher_NewSketch.md)
 ---
 
 # Sketcher MapSketch/tr
@@ -94,4 +94,4 @@ Modeli onarmak için önce katıların görünürlüğünü değiştiriyoruz. Pa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/tr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/tr

@@ -1,17 +1,17 @@
 ---
 - GuiCommand:
 
-   Name:Sketcher Clone
-   Name/de:Sketcher Klonen
-   Name/es:Sketcher Clonar
-   Name/fr:Clone Sketcher
-   Name/it:Sketcher Clona
-   Name/ro:Sketcher Clonă
-   Name/ru:Sketcher Клонировать
-   Workbenches:[Sketcher](Sketcher_Workbench/es.md)
-   MenuLocation:Sketch - Herriamentas de croquis - Clonar
-   Version:0.16
-   SeeAlso:[Sketcher Copiar](Sketcher_Copy/es.md), [Sketcher Move](Sketcher_Move/es.md)
+   Name: Sketcher Clone
+   Name/de: Sketcher Klonen
+   Name/es: Sketcher Clonar
+   Name/fr: Clone Sketcher
+   Name/it: Sketcher Clona
+   Name/ro: Sketcher Clonă
+   Name/ru: Sketcher Клонировать
+   Workbenches: [Sketcher](Sketcher_Workbench/es.md)
+   MenuLocation: Sketch - Herriamentas de croquis - Clonar
+   Version: 0.16
+   SeeAlso: [Sketcher Copiar](Sketcher_Copy/es.md), [Sketcher Move](Sketcher_Move/es.md)
 ---
 
 # Sketcher Clone/es
@@ -45,4 +45,4 @@ No extra constraints are added for the clone.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/es

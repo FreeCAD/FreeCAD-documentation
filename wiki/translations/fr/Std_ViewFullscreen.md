@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ViewFullscreen
-   Name/fr:Std Plein écran
-   MenuLocation:Affichage - Fenêtre de document - Plein écran
-   Workbenches:Tous
-   Shortcut:**F11**
-   SeeAlso:[Std Fenêtre document plein écran](Std_ViewDockUndockFullscreen/fr.md), [Std Plein écran principal](Std_MainFullscreen/fr.md)
+   Name: Std ViewFullscreen
+   Name/fr: Std Plein écran
+   MenuLocation: Affichage - Fenêtre de document - Plein écran
+   Workbenches: Tous
+   Shortcut: **F11**
+   SeeAlso: [Std Fenêtre document plein écran](Std_ViewDockUndockFullscreen/fr.md), [Std Plein écran principal](Std_MainFullscreen/fr.md)
 ---
 
 # Std ViewFullscreen/fr
@@ -42,4 +42,4 @@ La commande **Std Plein écran** bascule la [vue 3D](3D_view/fr.md) vers et depu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewFullscreen/fr
+⏵ [documentation index](../README.md) > Std ViewFullscreen/fr

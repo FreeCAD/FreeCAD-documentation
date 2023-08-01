@@ -45,4 +45,4 @@ There are four sections: General, Post processor, Setup and Tools.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Path](Path_Workbench.md) > Path Preferences
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Path](Path_Workbench.md) > Path Preferences

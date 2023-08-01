@@ -2,7 +2,7 @@
 ## Введение
 
 
-{{TOCright}}
+
 
 The [selection view](selection_view.md) is a panel in the [interface](interface.md) by default located below the [combo view](combo_view.md). Just like the [property editor](property_editor.md), it shows more information about the currently selected objects.
 
@@ -83,4 +83,4 @@ Starting from v0.19, the **picked object list** checkbox is available. If this i
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Selection view/ru
+⏵ [documentation index](../README.md) > Selection view/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std FreeCADDonation
-   Name/fr:Std Don à FreeCAD
-   MenuLocation:Aide - Faire un don
-   Workbenches:Tous
-   Version:0.19
+   Name: Std FreeCADDonation
+   Name/fr: Std Don à FreeCAD
+   MenuLocation: Aide - Faire un don
+   Workbenches: Tous
+   Version: 0.19
 ---
 
 # Std FreeCADDonation/fr
@@ -32,4 +32,4 @@ Actuellement, la commande pointe vers [<https://wiki.freecad.org/Donate>](https:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADDonation/fr
+⏵ [documentation index](../README.md) > Std FreeCADDonation/fr

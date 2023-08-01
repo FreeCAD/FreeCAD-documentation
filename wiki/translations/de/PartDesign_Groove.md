@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Groove
-   Name/de:PartDesign Nut
-   MenuLocation:Part Design - Objekte abziehen - Nut
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso:[PartDesign Drehkörper](PartDesign_Revolution/de.md)
+   Name: PartDesign Groove
+   Name/de: PartDesign Nut
+   MenuLocation: Part Design - Objekte abziehen - Nut
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso: [PartDesign Drehkörper](PartDesign_Revolution/de.md)
 ---
 
 # PartDesign Groove/de
@@ -92,4 +92,4 @@ Nachfolgend findest Du Eigenschaften, die nach der Erstellung des Merkmals defin
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/de

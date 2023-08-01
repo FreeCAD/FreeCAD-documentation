@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std PrintPdf
-   Name/ru:Std PrintPdf
-   MenuLocation:Файл - Экспортировать Pdf 
-   Workbenches:All
-   SeeAlso:[Печать](Std_Print/ru.md), [Экспортировать](Std_Export/ru.md), [Std ViewScreenShot](Std_ViewScreenShot/ru.md)
+   Name: Std PrintPdf
+   Name/ru: Std PrintPdf
+   MenuLocation: Файл - Экспортировать Pdf 
+   Workbenches: All
+   SeeAlso: [Печать](Std_Print/ru.md), [Экспортировать](Std_Export/ru.md), [Std ViewScreenShot](Std_ViewScreenShot/ru.md)
 ---
 
 # Std PrintPdf/ru
@@ -47,4 +47,4 @@ The **Std PrintPdf** command is primarily intended to create [PDF](PDF.md) files
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std PrintPdf/ru
+⏵ [documentation index](../README.md) > Std PrintPdf/ru

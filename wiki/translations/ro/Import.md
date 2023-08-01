@@ -198,4 +198,4 @@ Subiectul este pe Forum la [here](http://forum.freecadweb.org/viewtopic.php?f=23
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > [3rd Party](Category_3rd Party.md) > [File_Formats](Category_File_Formats.md) > Import/Export IFC - compiling IfcOpenShell/ro
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > [3rd Party](Category_3rd Party.md) > [File_Formats](Category_File_Formats.md) > Import/Export IFC - compiling IfcOpenShell/ro

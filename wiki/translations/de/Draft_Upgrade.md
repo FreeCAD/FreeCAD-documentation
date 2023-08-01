@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Upgrade
-   Name/de:Entwurf Hochstufen
-   MenuLocation:Entwurf - Hochstufen
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
-   Shortcut:**U** **P**
-   SeeAlso:[Entwurf Herabstufen](Draft_Downgrade/de.md)
+   Name: Draft Upgrade
+   Name/de: Entwurf Hochstufen
+   MenuLocation: Entwurf - Hochstufen
+   Workbenches: [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   Shortcut: **U** **P**
+   SeeAlso: [Entwurf Herabstufen](Draft_Downgrade/de.md)
 ---
 
 # Draft Upgrade/de
@@ -85,4 +85,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Upgrade/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Upgrade/de

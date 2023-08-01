@@ -1,6 +1,4 @@
 # Release notes 0.19/fr
-{{TOCright}}
-
 **FreeCAD 0.19** a été publié le **20 mars 2021** et est disponible sur la page de [téléchargement](Download/fr.md). Ceci est un résumé des changements les plus intéressants. La liste complète des modifications est disponible dans le [journal des modifications MantisBT bugtracker FC 0.19](https://www.freecadweb.org/tracker/changelog_page.php?version_id=122).
 
 Les notes de version plus anciennes de FreeCAD sont disponibles dans la [liste des fonctionnalités](Feature_list/fr#Notes_de_versions.md).
@@ -864,4 +862,4 @@ ce sont les nouveaux ateliers créés dans ce cycle de développement ou les anc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.19/fr
+⏵ [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.19/fr

@@ -20,7 +20,7 @@ The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement
 El módulo de Dibujo le permite poner su trabajo 3D en papel. Es decir, poner vistas de tus modelos en una ventana 2D e insertar esa ventana en un dibujo, por ejemplo una hoja con un borde, un título y tu logo y finalmente imprimir esa hoja.
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Drawing_extraction.png  style="width:600px;">
 
@@ -136,4 +136,4 @@ Some notes on the programming side of the drawing module will be added to the [D
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/es
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/es

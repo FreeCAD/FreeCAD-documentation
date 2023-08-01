@@ -2,7 +2,7 @@
 ## Aperçu
 
 
-{{TOCright}}
+
 
 Suivi du **fil de discussion : Liste des entreprises/compagnies/organisations qui utilisent FreeCAD en production ou dans leur flux de travail** ([fil de discussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=43604)) cette page wiki a été créée pour suivre toutes les utilisations à but lucratif et non lucratif du secteur public et privé de FreeCAD dans un environnement de production. L\'intention principale est de démystifier la stigmatisation/perception selon laquelle FreeCAD n\'est pas suffisamment stable ou fiable pour fonctionner dans un environnement de production.
 
@@ -81,4 +81,4 @@ Afin d\'ajouter quoi que ce soit à cette liste, cela doit être approuvé par l
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD used in production/fr
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD used in production/fr

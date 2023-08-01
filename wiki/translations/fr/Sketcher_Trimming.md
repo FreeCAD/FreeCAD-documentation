@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher Trimming
-   Name/fr:Sketcher Ajuster
-   MenuLocation:Esquisse - Géométries d'esquisse - Ajuster l'arête
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **T**
-   Version:0.12
-   SeeAlso:[Sketcher Prolonger](Sketcher_Extend/fr.md)
+   Name: Sketcher Trimming
+   Name/fr: Sketcher Ajuster
+   MenuLocation: Esquisse - Géométries d'esquisse - Ajuster l'arête
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **T**
+   Version: 0.12
+   SeeAlso: [Sketcher Prolonger](Sketcher_Extend/fr.md)
 ---
 
 # Sketcher Trimming/fr
@@ -37,4 +37,4 @@ Cet outil ajuste une arête aux intersections les plus proches avec d\'autres ar
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/fr

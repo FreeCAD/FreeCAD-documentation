@@ -8,7 +8,7 @@
 </div>
 
 
-{{TOCright}}
+
 
 
 
@@ -125,4 +125,4 @@ See the [Source documentation](Source_documentation.md) and [Std PythonHelp](Std
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Selection methods/es
+⏵ [documentation index](../README.md) > Selection methods/es

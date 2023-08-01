@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Icon:Constraint Horizontal.svg
-   Name:Sketcher ConstrainHorizontal
-   Name/pl:Szkicownik: Zwiąż w poziomie
-   MenuLocation:Szkic - Wiązania szkicownika - Zwiąż w poziomie
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**H**
-   SeeAlso:[Wiązanie pionowe](Sketcher_ConstrainVertical/pl.md)
+   Icon: Constraint Horizontal.svg
+   Name: Sketcher ConstrainHorizontal
+   Name/pl: Szkicownik: Zwiąż w poziomie
+   MenuLocation: Szkic - Wiązania szkicownika - Zwiąż w poziomie
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **H**
+   SeeAlso: [Wiązanie pionowe](Sketcher_ConstrainVertical/pl.md)
 ---
 
 # Sketcher ConstrainHorizontal/pl
@@ -56,4 +56,4 @@ Strona [skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/pl

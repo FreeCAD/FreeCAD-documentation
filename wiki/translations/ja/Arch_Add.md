@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Add
-   Name/ja:Arch Add
-   Workbenches:[建築](Arch_Workbench/ja.md)
-   MenuLocation:Arch -> Add
-   SeeAlso:[Arch Remove](Arch_Remove/ja.md)
+   Name: Arch Add
+   Name/ja: Arch Add
+   Workbenches: [建築](Arch_Workbench/ja.md)
+   MenuLocation: Arch -> Add
+   SeeAlso: [Arch Remove](Arch_Remove/ja.md)
 ---
 
 # Arch Add/ja
@@ -116,4 +116,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Add/ja
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Add/ja

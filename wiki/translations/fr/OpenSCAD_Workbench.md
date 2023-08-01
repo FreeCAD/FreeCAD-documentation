@@ -9,7 +9,7 @@ Il contient un importateur [CSG](OpenSCAD_CSG/fr.md) pour ouvrir les fichiers CS
 Cet atelier contient des fonctions permettant de modifier l\'arborescence des éléments CSG et de réparer les modèles. Il contient également des outils d\'usage général qui ne nécessitent pas l\'installation d\'OpenSCAD et peuvent être utilisés conjointement avec d\'autres ateliers. Par exemple, l\'[Atelier Mesh](Mesh_Workbench/fr.md) utilise en interne les fonctions OpenSCAD pour effectuer des opérations avec de [maillage](mesh/fr.md) car elles sont assez robustes.
 
 
-{{TOCright}}
+
 
 ![](images/OpenSCADexamaple1.png )
 
@@ -114,4 +114,4 @@ Si FreeCAD se bloque lors de l\'importation de CSG, il est fortement recommandé
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [OpenSCAD](Category_OpenSCAD.md) > OpenSCAD Workbench/fr
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [OpenSCAD](Category_OpenSCAD.md) > OpenSCAD Workbench/fr

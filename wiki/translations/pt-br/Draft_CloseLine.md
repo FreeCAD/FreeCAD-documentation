@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft CloseLine/pt-br
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft CloseLine/pt-br

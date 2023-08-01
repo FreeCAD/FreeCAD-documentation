@@ -1,6 +1,6 @@
 # Draft Edit/sv
 ---
-- GuiCommand:   Name:Draft_Edit   Workbenches:[[Draft_Workbench/sv   Skiss]]|MenuLocation:Draft - Edit---
+- GuiCommand:   Name: Draft_Edit   Workbenches: [[Draft_Workbench/sv   Skiss]]|MenuLocation: Draft - Edit---
 
 
 </div>
@@ -190,4 +190,4 @@ There is no Python method to Draft Edit objects. To emulate the results of the c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/sv

@@ -1,6 +1,6 @@
 # FEM MaterialSolid/ro
 ---
-- GuiCommand:   Name:FEM MaterialSolid    MenuLocation:Model - FEM material for solid   |Workbenches:[Shortcut:M,M   SeeAlso:[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
+- GuiCommand:   Name: FEM MaterialSolid    MenuLocation: Model - FEM material for solid   |Workbenches: [Shortcut: M,M   SeeAlso: [[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
 
 
 </div>
@@ -60,4 +60,4 @@ Adaugă proprietăți materiale la o piesă.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialSolid/ro
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialSolid/ro

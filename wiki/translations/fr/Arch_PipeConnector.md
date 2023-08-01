@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Arch PipeConnector
-   Name/fr:Arch Raccord
-   MenuLocation:Arch - Outils pour la tuyauterie - Raccord
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   Shortcut:**P** **C**
-   Version:0.17
-   SeeAlso:[Arch Conduite](Arch_Pipe/fr.md), [Arch Equipement](Arch_Equipment/fr.md)
+   Name: Arch PipeConnector
+   Name/fr: Arch Raccord
+   MenuLocation: Arch - Outils pour la tuyauterie - Raccord
+   Workbenches: [Arch](Arch_Workbench/fr.md)
+   Shortcut: **P** **C**
+   Version: 0.17
+   SeeAlso: [Arch Conduite](Arch_Pipe/fr.md), [Arch Equipement](Arch_Equipment/fr.md)
 ---
 
 # Arch PipeConnector/fr
@@ -79,4 +79,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch PipeConnector/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch PipeConnector/fr

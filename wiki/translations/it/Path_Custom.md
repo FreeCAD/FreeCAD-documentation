@@ -1,6 +1,6 @@
 # Path Custom/it
 ---
-- GuiCommand:   Name:Path Custom   Name/it:Personalizza   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path - Comandi parziali - Personalizza   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Path Custom   Name/it: Personalizza   Workbenches: [[Path Workbench/it   Path]]|MenuLocation: Path - Comandi parziali - Personalizza   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -84,4 +84,4 @@ Notare che le velocità di avanzamento sono generate correttamente dal postproce
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Custom/it
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Custom/it

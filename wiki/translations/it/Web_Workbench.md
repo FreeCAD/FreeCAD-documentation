@@ -37,4 +37,4 @@ L\'Ambiente Web offre i seguenti strumenti:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Web](Category_Web.md) > Web Workbench/it
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Web](Category_Web.md) > Web Workbench/it

@@ -12,4 +12,4 @@ See also [UncategorizedTemplates](Special:UncategorizedTemplates/hu.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Template/hu
+⏵ [documentation index](../README.md) > Category:Template/hu

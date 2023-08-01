@@ -23,4 +23,4 @@ Die Fenster im Hauptansichtsbereich können mit Befehlen im Menü [Fenster](Std_
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Main view area/de
+⏵ [documentation index](../README.md) > Main view area/de

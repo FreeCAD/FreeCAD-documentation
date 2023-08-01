@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name/ru:Усечь
-   Name:Sketcher_Trimming
-   MenuLocation:Sketch - Геометрия эскиза - Обрезать линию
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**G** **T**
-   Version:0.12
-   SeeAlso:[Продлить грань](Sketcher_Extend/ru.md)
+   Name/ru: Усечь
+   Name: Sketcher_Trimming
+   MenuLocation: Sketch - Геометрия эскиза - Обрезать линию
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **G** **T**
+   Version: 0.12
+   SeeAlso: [Продлить грань](Sketcher_Extend/ru.md)
 ---
 
 # Sketcher Trimming/ru
@@ -51,4 +51,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/ru

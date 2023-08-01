@@ -3,7 +3,7 @@
 
 ## Introduction
 
-<img alt="Design456 External workbench icon" src=images/Design456_workbench_icon.svg  style="width:128px;"> {{TOCright}}
+<img alt="Design456 External workbench icon" src=images/Design456_workbench_icon.svg  style="width:128px;"> 
 
 The Design456 workbench is an [External workbench](External_workbenches.md) that plans to implement a Direct Modeling methodology in FreeCAD. Think \'push and pull geometry\' that one finds in CAD suites like SketchUp and Fusion360.
 
@@ -155,4 +155,4 @@ Note: Due to what I described, further developing Nurbs workbench is not possibl
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Design456 Workbench
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Design456 Workbench

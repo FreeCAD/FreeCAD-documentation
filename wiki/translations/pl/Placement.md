@@ -305,4 +305,4 @@ Aby zrównać umiejscowienie \"Szkicu\" z umiejscowieniem \"Cylindra\", należa�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Placement/pl
+⏵ [documentation index](../README.md) > Placement/pl

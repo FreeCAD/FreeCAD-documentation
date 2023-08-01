@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/sv:Sketcher ConstrainCoincident
-   Icon:Constraint_PointOnPoint.svg
-   Workbenches:[Sketcher](Sketcher_Workbench/sv.md)
-   Shortcut:C
-   MenuLocation:Sketch - Sketcher constraints - Constrain coincident
-   SeeAlso:[Constrain Lock](Sketcher_ConstrainLock/sv.md), [Constrain Point onto Object](Sketcher_ConstrainPointOnObject/sv.md)
+   Name/sv: Sketcher ConstrainCoincident
+   Icon: Constraint_PointOnPoint.svg
+   Workbenches: [Sketcher](Sketcher_Workbench/sv.md)
+   Shortcut: C
+   MenuLocation: Sketch - Sketcher constraints - Constrain coincident
+   SeeAlso: [Constrain Lock](Sketcher_ConstrainLock/sv.md), [Constrain Point onto Object](Sketcher_ConstrainPointOnObject/sv.md)
 ---
 
 # Sketcher ConstrainCoincident/sv
@@ -76,4 +76,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/sv
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/sv

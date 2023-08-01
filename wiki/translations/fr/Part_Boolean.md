@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Boolean
-   Name/fr:Part Opération booléenne
-   MenuLocation:Part - Opération booléenne - Opération booléenne...
-   Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Part Soustraction](Part_Cut.md), [Part Union](Part_Fuse/fr.md), [Part Intersection](Part_Common/fr.md), [Part Section](Part_Section/fr.md)
+   Name: Part Boolean
+   Name/fr: Part Opération booléenne
+   MenuLocation: Part - Opération booléenne - Opération booléenne...
+   Workbenches: [Part](Part_Workbench/fr.md)
+   SeeAlso: [Part Soustraction](Part_Cut.md), [Part Union](Part_Fuse/fr.md), [Part Intersection](Part_Common/fr.md), [Part Section](Part_Section/fr.md)
 ---
 
 # Part Boolean/fr
@@ -71,4 +71,4 @@ En cas de coplanarité, même si la première opération booléenne réussit, le
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Boolean/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Boolean/fr

@@ -11,7 +11,7 @@ Jego bardziej zaawansowanym zamiennikiem jest [Rysunek Techniczny](TechDraw_Work
 Środowisko pracy Drawing pozwala na umieszczenie na papierze modelu 3D. Oznacza to, że możesz umieścić widoki obiektu w oknie 2D i wstawić to okno do rysunku. Na przykład stronę z ramką, tytułem i logo, a następnie wydrukować tę stronę.
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Drawing_extraction.png  style="width:600px;">
 
@@ -109,4 +109,4 @@ Niektóre uwagi dotyczące programowania Środowiska pracy Drawing zostaną doda
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/pl
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/pl

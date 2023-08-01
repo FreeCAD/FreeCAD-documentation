@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std BoxElementSelection
-   Name/pl:Std: Wybór elementów ramką zaznaczenia
-   MenuLocation:Edycja - Wybór elementów ramką zaznaczenia
-   Workbenches:All
-   Shortcut:**Shift** + **E**
-   SeeAlso:[Zaznacz obszar](Std_BoxSelection/pl.md), [Zaznacz wszystko](Std_SelectAll/pl.md)
+   Name: Std BoxElementSelection
+   Name/pl: Std: Wybór elementów ramką zaznaczenia
+   MenuLocation: Edycja - Wybór elementów ramką zaznaczenia
+   Workbenches: All
+   Shortcut: **Shift** + **E**
+   SeeAlso: [Zaznacz obszar](Std_BoxSelection/pl.md), [Zaznacz wszystko](Std_SelectAll/pl.md)
 ---
 
 # Std BoxElementSelection/pl
@@ -38,4 +38,4 @@ Polecenie **Wybór elementów ramką zaznaczenia** wybiera ściany z prostokątn
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std BoxElementSelection/pl
+⏵ [documentation index](../README.md) > Std BoxElementSelection/pl

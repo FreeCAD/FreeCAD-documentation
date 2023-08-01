@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ImportMultiDocument
-   Name/fr:Assembly3 Importer plusieurs documents
-   Icon:Assembly_Import.svg
-   MenuLocation:Assembly3 - Import from STEP - Import as multi-document
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 ImportMultiDocument
+   Name/fr: Assembly3 Importer plusieurs documents
+   Icon: Assembly_Import.svg
+   MenuLocation: Assembly3 - Import from STEP - Import as multi-document
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ImportMultiDocument/fr
@@ -23,4 +23,4 @@ Les assemblages STEP sont importés dans un seul document.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ImportMultiDocument/fr
+⏵ [documentation index](../README.md) > Assembly3 ImportMultiDocument/fr

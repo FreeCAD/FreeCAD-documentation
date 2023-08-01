@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Chamfer
-   Name/fr:PartDesign Chanfrein
-   MenuLocation:Part Design - Appliquer une fonction d'habillage - Chanfrein
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso:[PartDesign Congé](PartDesign_Fillet/fr.md)
+   Name: PartDesign Chamfer
+   Name/fr: PartDesign Chanfrein
+   MenuLocation: Part Design - Appliquer une fonction d'habillage - Chanfrein
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso: [PartDesign Congé](PartDesign_Fillet/fr.md)
 ---
 
 # PartDesign Chamfer/fr
@@ -145,4 +145,4 @@ Voir [PartDesign Congé](PartDesign_Fillet/fr#Probl.C3.A8mes_connus.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/fr

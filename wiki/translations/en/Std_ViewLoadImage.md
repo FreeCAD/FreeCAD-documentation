@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std ViewLoadImage
-   MenuLocation:Tools - Load image...
-   Workbenches:All
-   Version:0.21
+   Name: Std ViewLoadImage
+   MenuLocation: Tools - Load image...
+   Workbenches: All
+   Version: 0.21
 ---
 
 # Std ViewLoadImage/en
@@ -38,4 +38,4 @@ The **Std ViewLoadImage** command opens an image in a new tab in the [Main view 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewLoadImage/en
+⏵ [documentation index](../README.md) > Std ViewLoadImage/en

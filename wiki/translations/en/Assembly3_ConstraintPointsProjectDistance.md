@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPointsProjectDistance
-   Icon:Assembly_ConstraintPointsProjectDistance.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintPointsProjectDistance
+   Icon: Assembly_ConstraintPointsProjectDistance.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintPointsProjectDistance/en
@@ -32,4 +32,4 @@ Based on the line\'s direction (the z axis of its implicit coordinate system (IC
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointsProjectDistance/en
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPointsProjectDistance/en

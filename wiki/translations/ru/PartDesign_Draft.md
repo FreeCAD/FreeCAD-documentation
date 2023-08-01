@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name/ru:Полость
-   Name:PartDesign_Draft
-   MenuLocation:Part Design - Apply a dress-up feature - Полость
-   Workbenches:[Part Design](PartDesign_Workbench/ru.md)
+   Name/ru: Полость
+   Name: PartDesign_Draft
+   MenuLocation: Part Design - Apply a dress-up feature - Полость
+   Workbenches: [Part Design](PartDesign_Workbench/ru.md)
 ---
 
 # PartDesign Draft/ru
@@ -115,4 +115,4 @@ A PartDesign Draft object is derived from a [Part Feature](Part_Feature.md) obje
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft/ru

@@ -1,7 +1,7 @@
 # <img alt="Surface workbench icon" src=images/Workbench_Surface.svg  style="width:64px;"> Surface Workbench/zh
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -56,4 +56,4 @@ The generated surface cannot be placed inside a **[<img src=images/PartDesign_Bo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Surface](Category_Surface.md) > Surface Workbench/zh
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Surface](Category_Surface.md) > Surface Workbench/zh

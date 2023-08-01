@@ -2,7 +2,7 @@
 ## Description
 
 
-{{TOCright}}
+
 
 [IFC++](IfcPlusPlus.md) or [IfcPlusPlus](IfcPlusPlus.md) is a C++ open source (MIT license) library from the [IfcQuery](IfcPlusPlus.md) project for reading, writing, and viewing [IFC](Arch_IFC.md) files.
 
@@ -240,4 +240,4 @@ QT5_ADD_RESOURCES(SimpleViewerExample_RESOURCES_RCC ${RESOURCES})
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > IfcPlusPlus/pl
+⏵ [documentation index](../README.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > IfcPlusPlus/pl

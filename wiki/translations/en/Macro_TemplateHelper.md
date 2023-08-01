@@ -1416,4 +1416,4 @@ main()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro TemplateHelper/en
+⏵ [documentation index](../README.md) > Macro TemplateHelper/en

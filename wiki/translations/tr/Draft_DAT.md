@@ -23,4 +23,4 @@ Bu formata farklı lehçeler var, bu yüzden bu içe aktarma modülü neredeyse 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft DAT/tr
+⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft DAT/tr

@@ -1,8 +1,4 @@
 # PartDesign Examples/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 Czasami potrzebna jest wskazówka, jak potężne jest dane narzędzie, bez zbyt wielu wyjaśnień.
@@ -286,4 +282,4 @@ Transformowany wymaga szczególnej uwagi, ponieważ może wytwarzać płaskie ob
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Examples/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Examples/pl

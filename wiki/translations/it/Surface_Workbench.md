@@ -1,7 +1,7 @@
 # <img alt="L\'icona dell\'ambiente Surface" src=images/Workbench_Surface.svg  style="width:64px;"> Surface Workbench/it
 
 
-{{TOCright}}
+
 
 
 
@@ -62,4 +62,4 @@ Allo stato attuale di FreeCAD (v0.17) non è possibile posizionare le superfici 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Surface](Category_Surface.md) > Surface Workbench/it
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Surface](Category_Surface.md) > Surface Workbench/it

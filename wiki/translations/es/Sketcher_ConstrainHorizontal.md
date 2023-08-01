@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Constraint Horizontal
-   Name/es:Constraint Horizontal
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md), [Diseño de Piezas](PartDesign_Workbench/es.md)
-   MenuLocation:Croquizador - Restricciones del Croquizador - Restricción Horizontal
-   SeeAlso:[Vertical](Sketcher_ConstrainVertical/es.md)
+   Name: Constraint Horizontal
+   Name/es: Constraint Horizontal
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md), [Diseño de Piezas](PartDesign_Workbench/es.md)
+   MenuLocation: Croquizador - Restricciones del Croquizador - Restricción Horizontal
+   SeeAlso: [Vertical](Sketcher_ConstrainVertical/es.md)
 ---
 
 # Sketcher ConstrainHorizontal/es
@@ -51,4 +51,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/es

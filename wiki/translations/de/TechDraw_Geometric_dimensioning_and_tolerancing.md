@@ -1,8 +1,4 @@
 # TechDraw Geometric dimensioning and tolerancing/de
-{{TOCright}}
-
-
-
 ## Konzept
 
 Der Hauptzweck einer technischen Zeichnung besteht darin, dass andere verstehen, was der Konstrukteur mit welchen Toleranzen entworfen hat UND wie der Entwurf zu fertigen ist. Da die meisten Teile zu Baugruppen passen müssen, sind auch die geometrischen Beziehungen zu anderen Teilen wichtig. Um dies zu erreichen, wurde das System der [Form- und Lagetoleranz](https://de.wikipedia.org/wiki/Form-_und_Lagetoleranz) (GD&T engl. Geometric Dimensioning and Tolerancing) entwickelt.
@@ -364,4 +360,4 @@ As reference, here are lists of characters to be used for geometric tolerancing:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Geometric dimensioning and tolerancing/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Geometric dimensioning and tolerancing/de

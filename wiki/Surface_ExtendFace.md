@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Surface ExtendFace
-   MenuLocation:Surface - Extend face
-   Workbenches:[Surface](Surface_Workbench.md)
-   Version:0.17
+   Name: Surface ExtendFace
+   MenuLocation: Surface - Extend face
+   Workbenches: [Surface](Surface_Workbench.md)
+   Version: 0.17
 ---
 
 # Surface ExtendFace
@@ -131,4 +131,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface ExtendFace
+⏵ [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface ExtendFace

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Windows packaging
+⏵ [documentation index](../README.md) > Windows packaging

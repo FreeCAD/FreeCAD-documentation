@@ -125,4 +125,4 @@ This category list pages related to the [Std Base](Std_Base.md), which collects 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Std Base
+⏵ [documentation index](../README.md) > Category:Std Base

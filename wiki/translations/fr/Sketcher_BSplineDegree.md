@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher BSplineDegree
-   Name/fr:Sketcher Degré d'une B-spline
-   MenuLocation:Esquisse - Outils d'esquisse des B-splines - Afficher/masquer le degré d'une B-spline
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[Sketcher B-splines](Sketcher_CompCreateBSpline/fr.md)
+   Name: Sketcher BSplineDegree
+   Name/fr: Sketcher Degré d'une B-spline
+   MenuLocation: Esquisse - Outils d'esquisse des B-splines - Afficher/masquer le degré d'une B-spline
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [Sketcher B-splines](Sketcher_CompCreateBSpline/fr.md)
 ---
 
 # Sketcher BSplineDegree/fr
@@ -34,4 +34,4 @@ Montre ou masque l\'affichage du **degré** d\'une B-spline (voir [cette page](B
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDegree/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDegree/fr

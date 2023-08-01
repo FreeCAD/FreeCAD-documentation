@@ -1,6 +1,4 @@
 # Document structure/hr
-{{TOCright}}
-
 ![](images/Screenshot_treeview.jpg ) A FreeCAD document contains all the objects of your scene. It can contain groups, and objects made with any workbench. You can therefore switch between workbenches, and still work on the same document. The document is what gets saved to disk when you save your work. You can also open several documents at the same time in FreeCAD, and open several views of the same document.
 
 Inside the document, the objects can be moved into groups, and have a unique name. Managing groups, objects and object names is done mainly from the [Tree view](Tree_view.md). **Note:** It can also be done, of course, like everything in FreeCAD, from the [Python](Python.md) interpreter. In the [Tree view](Tree_view.md), you can create <img alt="" src=images/Std_Group.svg  style="width:16px;"> [groups](Std_Group.md), move objects to groups, delete objects or groups, by right-clicking in the [tree view](tree_view.md) or on an object, rename objects by double-clicking on their names, or possibly other operations, depending on the current workbench.
@@ -48,4 +46,4 @@ FreeCADGui.ActiveDocument.ActiveView
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Document structure/hr
+⏵ [documentation index](../README.md) > Document structure/hr

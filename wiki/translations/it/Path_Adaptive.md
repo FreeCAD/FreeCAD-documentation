@@ -1,6 +1,6 @@
 # Path Adaptive/it
 ---
-- GuiCommand:   Name:Path Adaptive   Name/it:Adattiva   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path - Adattiva   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Path Adaptive   Name/it: Adattiva   Workbenches: [[Path Workbench/it   Path]]|MenuLocation: Path - Adattiva   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -252,4 +252,4 @@ A proposed bugfix is available (but no one is working on integrating it):
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Adaptive/it
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Adaptive/it

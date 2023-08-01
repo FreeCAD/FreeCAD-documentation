@@ -1,8 +1,4 @@
 # Sketcher Dialog/fr
-{{TOCright}}
-
-
-
 ## Introduction
 
 Lorsqu\'une esquisse est en cours d\'édition, la boîte de dialogue de Sketcher s\'affiche dans l\'onglet Tâche de la [vue combinée](Combo_view/fr.md).
@@ -442,4 +438,4 @@ Les options disponibles :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Dialog/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Dialog/fr

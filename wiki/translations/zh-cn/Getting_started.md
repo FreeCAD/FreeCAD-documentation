@@ -1,8 +1,4 @@
 # Getting started/zh-cn
-{{TOCright}}
-
-
-
 ## 前言
 
 
@@ -310,4 +306,4 @@ There are two types of addons:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Getting started/zh-cn
+⏵ [documentation index](../README.md) > Getting started/zh-cn

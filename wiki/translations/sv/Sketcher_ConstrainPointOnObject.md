@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Constraint PointOnObject
-   Name/sv:Constraint PointOnObject
-   Workbenches:[Sketcher](Sketcher_Workbench/sv.md), [PartDesign](PartDesign_Workbench/sv.md)
-   MenuLocation:Sketch - Sketcher constraints - Constrain point onto object
-   SeeAlso:[Constraint Coincident](Sketcher_ConstrainCoincident/sv.md)
+   Name: Constraint PointOnObject
+   Name/sv: Constraint PointOnObject
+   Workbenches: [Sketcher](Sketcher_Workbench/sv.md), [PartDesign](PartDesign_Workbench/sv.md)
+   MenuLocation: Sketch - Sketcher constraints - Constrain point onto object
+   SeeAlso: [Constraint Coincident](Sketcher_ConstrainCoincident/sv.md)
 ---
 
 # Sketcher ConstrainPointOnObject/sv
@@ -58,4 +58,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains how to identify th
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/sv
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/sv

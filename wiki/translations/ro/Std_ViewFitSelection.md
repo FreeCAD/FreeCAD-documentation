@@ -1,6 +1,6 @@
 # Std ViewFitSelection/ro
 ---
-- GuiCommand:   Name:Std ViewFitSelection   MenuLocation:[[Std View Menu   View]] - Fit Selection|Workbenches:All   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Std ViewFitSelection   MenuLocation: [[Std View Menu   View]] - Fit Selection|Workbenches: All   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -66,4 +66,4 @@ FreeCADGui.SendMsgToActiveView('ViewSelection')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewFitSelection/ro
+⏵ [documentation index](../README.md) > Std ViewFitSelection/ro

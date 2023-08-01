@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std LinkImport
-   Name/pl:Std: Importuj łącza
-   MenuLocation:brak
-   Workbenches:wszystkie
-   Version:0.19
-   SeeAlso:[Utwórz łącze](Std_LinkMake/pl.md), [Utwórz łącze względne](Std_LinkMakeRelative/pl.md), [Importuj wszystkie łącza](Std_LinkImportAll/pl.md)
+   Name: Std LinkImport
+   Name/pl: Std: Importuj łącza
+   MenuLocation: brak
+   Workbenches: wszystkie
+   Version: 0.19
+   SeeAlso: [Utwórz łącze](Std_LinkMake/pl.md), [Utwórz łącze względne](Std_LinkMakeRelative/pl.md), [Importuj wszystkie łącza](Std_LinkImportAll/pl.md)
 ---
 
 # Std LinkImport/pl
@@ -48,4 +48,4 @@ Naciśnij **CTRL* + {{KEY|ENTER**", aby potwierdzić i przejść do następnej w
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkImport/pl
+⏵ [documentation index](../README.md) > Std LinkImport/pl

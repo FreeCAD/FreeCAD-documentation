@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet StyleBold
-   Name/de:Kalkulationstabelle StilFett
-   Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)
-   MenuLocation:Kalkulationstabelle - Stile - Fetter Text
-   Version:0.17
+   Name: Spreadsheet StyleBold
+   Name/de: Kalkulationstabelle StilFett
+   Workbenches: [Tabellenkalkulation](Spreadsheet_Workbench/de.md)
+   MenuLocation: Kalkulationstabelle - Stile - Fetter Text
+   Version: 0.17
 ---
 
 # Spreadsheet StyleBold/de
@@ -30,4 +30,4 @@ Das **[<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> [Kalkulatio
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleBold/de
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleBold/de

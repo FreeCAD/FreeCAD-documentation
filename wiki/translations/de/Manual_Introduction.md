@@ -22,4 +22,4 @@ Der Inhalt dieses Handbuchs wird unter der [Creative Commons 4.0](http://creativ
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Manual:Introduction/de
+⏵ [documentation index](../README.md) > Manual:Introduction/de

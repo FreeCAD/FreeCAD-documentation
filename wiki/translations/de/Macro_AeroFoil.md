@@ -232,4 +232,4 @@ AeroFoil_UI_Files/AeroFoil_mfb_img.gif, AeroFoil_UI_Files/AeroFoil.svg"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro AeroFoil/de
+⏵ [documentation index](../README.md) > Macro AeroFoil/de

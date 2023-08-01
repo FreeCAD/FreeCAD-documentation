@@ -3,7 +3,7 @@
 Siehe [Versionshinweise 0.20](Release_notes_0.20/de#Kernsystem.md) für weitere Informationen. Diese Seite wurde noch nicht entsprechend aktualisiert.**
 
 
-{{TOCright}}
+
 
 
 
@@ -457,4 +457,4 @@ Doppelklicke nun auf die Stapelverarbeitungs-Datei, um FreeCAD zu starten. ([sie
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Start](Start_Workbench.md) > Start up and Configuration/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Start](Start_Workbench.md) > Start up and Configuration/de

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std DlgMacroRecord
-   MenuLocation:Macro - Macro recording...
-   Workbenches:All
-   SeeAlso:[Std MacroStopRecord](Std_MacroStopRecord.md)
+   Name: Std DlgMacroRecord
+   MenuLocation: Macro - Macro recording...
+   Workbenches: All
+   SeeAlso: [Std MacroStopRecord](Std_MacroStopRecord.md)
 ---
 
 # Std DlgMacroRecord/en
@@ -57,4 +57,4 @@ The **Std DlgMacroRecord** command starts a [macro](Macros.md) recording session
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgMacroRecord/en
+⏵ [documentation index](../README.md) > Std DlgMacroRecord/en

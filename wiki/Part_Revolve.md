@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Part Revolve
-   MenuLocation:Part - Revolve
-   Workbenches:[Part](Part_Workbench.md)
+   Name: Part Revolve
+   MenuLocation: Part - Revolve
+   Workbenches: [Part](Part_Workbench.md)
 ---
 
 # Part Revolve
@@ -35,4 +35,4 @@ If you select a user defined axis, the numbers define the direction of the revol
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve

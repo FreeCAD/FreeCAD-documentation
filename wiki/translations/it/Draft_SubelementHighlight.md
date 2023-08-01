@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft SubelementHighlight
-   Name/it:Evidenzia sottoelemento
-   MenuLocation:Draft - Evidenzia sottoelemento
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:**H** **S**
-   Version:0.19
-   SeeAlso:[Draft Muovi](Draft_Move/it.md), [Draft Ruota](Draft_Rotate/it.md), [Draft Scala](Draft_Scale/it.md)
+   Name: Draft SubelementHighlight
+   Name/it: Evidenzia sottoelemento
+   MenuLocation: Draft - Evidenzia sottoelemento
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut: **H** **S**
+   Version: 0.19
+   SeeAlso: [Draft Muovi](Draft_Move/it.md), [Draft Ruota](Draft_Rotate/it.md), [Draft Scala](Draft_Scale/it.md)
 ---
 
 # Draft SubelementHighlight/it
@@ -48,4 +48,4 @@ Il comando <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:24
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SubelementHighlight/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SubelementHighlight/it

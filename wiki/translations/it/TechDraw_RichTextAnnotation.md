@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw RichTextAnnotation
-   Name/it:Blocco di testo
-   MenuLocation:TechDraw - Annotazioni - Blocco di testo
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   Version:0.19
-   SeeAlso:[Modelli di squadrature](TechDraw_Templates/it.md), [SVG di Draft](Draft_SVG/it.md), [Linea guida](TechDraw_LeaderLine/it.md)
+   Name: TechDraw RichTextAnnotation
+   Name/it: Blocco di testo
+   MenuLocation: TechDraw - Annotazioni - Blocco di testo
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   Version: 0.19
+   SeeAlso: [Modelli di squadrature](TechDraw_Templates/it.md), [SVG di Draft](Draft_SVG/it.md), [Linea guida](TechDraw_LeaderLine/it.md)
 ---
 
 # TechDraw RichTextAnnotation/it
@@ -134,4 +134,4 @@ blockObj.AnnoText = myHTMLText
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RichTextAnnotation/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RichTextAnnotation/it

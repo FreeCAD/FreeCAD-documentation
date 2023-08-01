@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft ShapeString
-   MenuLocation:Drafting - Shape from text
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:
-   Version:0.14
-   SeeAlso:[Draft Text](Draft_Text.md), [Draft Label](Draft_Label.md), [Part Extrude](Part_Extrude.md)
+   Name: Draft ShapeString
+   MenuLocation: Drafting - Shape from text
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut: 
+   Version: 0.14
+   SeeAlso: [Draft Text](Draft_Text.md), [Draft Label](Draft_Label.md), [Part Extrude](Part_Extrude.md)
 ---
 
 # Draft ShapeString
@@ -156,4 +156,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShapeString
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShapeString

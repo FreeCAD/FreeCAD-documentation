@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Surface Sections
-   Name/de:Surface Querschnitte
-   MenuLocation:Surface - Sections
-   Workbenches:[Surface](Surface_Workbench/de.md)
-   Version:0.19
+   Name: Surface Sections
+   Name/de: Surface Querschnitte
+   MenuLocation: Surface - Sections
+   Workbenches: [Surface](Surface_Workbench/de.md)
+   Version: 0.19
 ---
 
 # Surface Sections/de
@@ -124,4 +124,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface Sections/de
+⏵ [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface Sections/de

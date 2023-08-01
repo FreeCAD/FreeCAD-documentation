@@ -1,6 +1,4 @@
 # PartDesign Preferences/fr
-{{TOCright}}
-
 ## Introduction
 
 L\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md) et l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md) utilisent les mêmes préférences. Elles se trouvent dans la section <img alt="" src=images/Preferences-part_design.svg  style="width:24px;"> **Part/Part Design** de l\'[éditeur de préférences](Preferences_Editor/fr.md). Cette section ne sera disponible que si l\'un des ateliers a été chargé dans la session FreeCAD en cours.
@@ -172,4 +170,4 @@ Cliquez avec le bouton droit de la souris sur **Mesh deviation** dans le menu co
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Preferences/fr
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Preferences/fr

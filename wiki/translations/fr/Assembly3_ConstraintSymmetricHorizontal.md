@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintSymmetricHorizontal
-   Name/fr:Assembly3 Contrainte symétrie horizontale
-   Icon:Assembly_ConstraintGeneral.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 ConstraintSymmetricHorizontal
+   Name/fr: Assembly3 Contrainte symétrie horizontale
+   Icon: Assembly_ConstraintGeneral.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintSymmetricHorizontal/fr
@@ -24,4 +24,4 @@ Sur la base de l\'ICS d\'un élément plan, les origines des ICS des deux autres
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintSymmetricHorizontal/fr
+⏵ [documentation index](../README.md) > Assembly3 ConstraintSymmetricHorizontal/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Points Convert
-   Name/it:Converti in punti
-   MenuLocation:Punti - Converti in punti
-   Workbenches:[Punti](Points_Workbench/it.md)
-   SeeAlso:
+   Name: Points Convert
+   Name/it: Converti in punti
+   MenuLocation: Punti - Converti in punti
+   Workbenches: [Punti](Points_Workbench/it.md)
+   SeeAlso: 
 ---
 
 # Points Convert/it
@@ -79,4 +79,4 @@ Point cloud objects are [App GeoFeature](App_GeoFeature.md) objects with the fol
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Convert/it
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Convert/it

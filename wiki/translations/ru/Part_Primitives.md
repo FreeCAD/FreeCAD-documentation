@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Primitives
-   Name/ru:Создать примитивы
-   MenuLocation:Деталь -> Создать примитивы...
-   |Workbenches:[Part(Деталь)](Part_Workbench/ru.md)
-   SeeAlso:[Построитель форм](Part_Builder/ru.md)
+   Name: Part Primitives
+   Name/ru: Создать примитивы
+   MenuLocation: Деталь -> Создать примитивы...
+   |Workbenches: [Part(Деталь)](Part_Workbench/ru.md)
+   SeeAlso: [Построитель форм](Part_Builder/ru.md)
 ---
 
 # Part Primitives/ru
@@ -164,4 +164,4 @@ freecad $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Primitives/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Primitives/ru

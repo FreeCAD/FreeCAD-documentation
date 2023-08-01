@@ -1,6 +1,4 @@
 # Mesh Scripting/ru
-{{TOCright}}
-
 ## Введение
 
 Чтобы получить доступ к модулю `Mesh`, вы должны сначала импортировать его:
@@ -98,4 +96,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/ru

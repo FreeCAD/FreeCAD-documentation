@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Drawing Annotation
-   MenuLocation:Drawing - Annotation
-   Workbenches:[Drawing](Drawing_Workbench.md)
+   Name: Drawing Annotation
+   MenuLocation: Drawing - Annotation
+   Workbenches: [Drawing](Drawing_Workbench.md)
 ---
 
 # Drawing Annotation/en
@@ -36,4 +36,4 @@ This command allows you to place a block of text on a [Drawing page](Drawing_Lan
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Annotation/en
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Annotation/en

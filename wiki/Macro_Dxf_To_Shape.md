@@ -72,4 +72,4 @@ The script on github [Macro_DXF_to_Shape.FCMacro](https://gist.github.com/mario5
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Dxf To Shape
+⏵ [documentation index](../README.md) > Macro Dxf To Shape

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > A2plus
+⏵ [documentation index](../README.md) > A2plus

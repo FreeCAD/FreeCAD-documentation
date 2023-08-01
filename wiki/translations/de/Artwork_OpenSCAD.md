@@ -12,4 +12,4 @@ Für alle Symbole im Verzeichnisbaum siehe [Grafik](Artwork/de.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [OpenSCAD](Category_OpenSCAD.md) > Artwork OpenSCAD/de
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [OpenSCAD](Category_OpenSCAD.md) > Artwork OpenSCAD/de

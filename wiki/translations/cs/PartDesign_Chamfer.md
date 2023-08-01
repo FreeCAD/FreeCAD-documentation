@@ -1,6 +1,6 @@
 # PartDesign Chamfer/cs
 ---
-- GuiCommand:   Name:PartDesign Chamfer   Name/cs:PartDesign Chamfer   Workbenches:[MenuLocation:Part Design - Chamfer   SeeAlso:[[Part Chamfer/cs|Chamfer Part](PartDesign_Workbench/cs___PartDesign]],_Complete.md)---
+- GuiCommand:   Name: PartDesign Chamfer   Name/cs: PartDesign Chamfer   Workbenches: [MenuLocation: Part Design - Chamfer   SeeAlso: [[Part Chamfer/cs|Chamfer Part](PartDesign_Workbench/cs___PartDesign]],_Complete.md)---
 
 
 </div>
@@ -155,4 +155,4 @@ See [PartDesign Fillet](PartDesign_Fillet#Known_issues.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/cs
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/cs

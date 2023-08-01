@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Curves PasteSVG
-   MenuLocation:Misc. - Paste SVG
-   Workbenches:[Curves](Curves_Workbench.md)
+   Name: Curves PasteSVG
+   MenuLocation: Misc. - Paste SVG
+   Workbenches: [Curves](Curves_Workbench.md)
 ---
 
 # Curves PasteSVG
@@ -34,4 +34,4 @@ The <img alt="" src=images/Curves_PasteSVG.svg  style="width:24px;"> [Curves Pas
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves PasteSVG
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves PasteSVG

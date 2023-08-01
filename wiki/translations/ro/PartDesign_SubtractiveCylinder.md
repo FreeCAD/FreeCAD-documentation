@@ -1,6 +1,6 @@
 # PartDesign SubtractiveCylinder/ro
 ---
-- GuiCommand:   Name:PartDesign SubtractiveCylinder   Workbenches:[MenuLocation:Part Design - Create a subtractive primitive - Subtractive Cylinder   Shortcut:None   SeeAlso:[[PartDesign CompPrimitiveSubtractive](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign SubtractiveCylinder   Workbenches: [MenuLocation: Part Design - Create a subtractive primitive - Subtractive Cylinder   Shortcut: None   SeeAlso: [[PartDesign CompPrimitiveSubtractive](PartDesign_Workbench___PartDesign]].md)---
 
 
 </div>
@@ -84,4 +84,4 @@ Cilindrul poate fi editat, după crearea sa, în două moduri:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveCylinder/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveCylinder/ro

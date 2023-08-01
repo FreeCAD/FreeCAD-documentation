@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher MirrorSketch
-   Name/pl:Szkicownik: Odbicie lustrzane szkicu
-   MenuLocation:Szkic - Odbicie lustrzane szkicu
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Version:0.16
+   Name: Sketcher MirrorSketch
+   Name/pl: Szkicownik: Odbicie lustrzane szkicu
+   MenuLocation: Szkic - Odbicie lustrzane szkicu
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Version: 0.16
 ---
 
 # Sketcher MirrorSketch/pl
@@ -40,4 +40,4 @@ Odbicie lustrzane szkicu wzdłuż osi x, osi y lub punktu początku układu wsp�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch/pl

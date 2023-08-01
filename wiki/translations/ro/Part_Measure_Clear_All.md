@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Part Measure Clear All
-   MenuLocation:[Measure](Std_Measure_Menu.md) - Clear All
-   Workbenches:[Part](Part_Workbench.md)
+   Name: Part Measure Clear All
+   MenuLocation: [Measure](Std_Measure_Menu.md) - Clear All
+   Workbenches: [Part](Part_Workbench.md)
 ---
 
 # Part Measure Clear All/ro
@@ -37,4 +37,4 @@ Acest instrument șterge toate măsurătorile din vizualizarea 3D .
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Clear All/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Clear All/ro

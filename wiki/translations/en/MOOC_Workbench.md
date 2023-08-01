@@ -4,7 +4,7 @@
 ## Overview
 
 
-{{TOCright}}
+
 
 The MOOC Workbench is an [external workbench](External_workbenches.md) with which you can follow interactive tutorials and make evaluation of your work directly within the FreeCAD interface. The MOOC workbench offers 2 tools: interactive tutorials and evaluations.
 
@@ -65,4 +65,4 @@ New workbenches are in development, stay tuned!
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > MOOC Workbench/en
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > MOOC Workbench/en

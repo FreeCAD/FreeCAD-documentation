@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Wedge
-   MenuLocation:Part - Create primitives - Wedge
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part Primitives](Part_Primitives.md)
+   Name: Part Wedge
+   MenuLocation: Part - Create primitives - Wedge
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Part Primitives](Part_Primitives.md)
 ---
 
 # Part Wedge/ro
@@ -122,4 +122,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/ro

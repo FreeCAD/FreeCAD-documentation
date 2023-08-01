@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:SheetMetal AddBase
-   Name/pl:Arkusz Blachy: Dodaj element bazowy
-   MenuLocation:SheetMetal - Dodaj element bazowy
-   Workbenches:[Arkusz Blachy](SheetMetal_Workbench/pl.md)
-   Shortcut:**C** **B**
+   Name: SheetMetal AddBase
+   Name/pl: Arkusz Blachy: Dodaj element bazowy
+   MenuLocation: SheetMetal - Dodaj element bazowy
+   Workbenches: [Arkusz Blachy](SheetMetal_Workbench/pl.md)
+   Shortcut: **C** **B**
 ---
 
 # SheetMetal AddBase/pl
@@ -97,4 +97,4 @@ Edytowalna przez użytkownika nazwa tego obiektu, może to być dowolny ciąg zn
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddBase/pl
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddBase/pl

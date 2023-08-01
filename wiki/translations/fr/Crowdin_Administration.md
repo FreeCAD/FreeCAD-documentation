@@ -1,6 +1,4 @@
 # Crowdin Administration/fr
-{{TOCright}}
-
 ## Rôles
 
 -   Traducteur
@@ -62,4 +60,4 @@ Si vous remarquez une chaîne dans l\'interface utilisateur de FreeCAD qui n\'es
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration/fr
+⏵ [documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration/fr

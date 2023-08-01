@@ -1,7 +1,7 @@
 # <img alt="Std Base icono" src=images/Freecad.svg  style="width:64px;"> Std View Menu/es
 
 
-{{TOCright}}
+
 
 
 
@@ -169,4 +169,4 @@ The following tools are available in this menu:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std View Menu/es
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std View Menu/es

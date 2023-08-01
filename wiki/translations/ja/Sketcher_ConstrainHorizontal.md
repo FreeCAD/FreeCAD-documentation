@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainHorizontal
-   Name/ja:Sketcher ConstrainHorizontal
-   Workbenches:[スケッチャー](Sketcher_Workbench/ja.md), [パートデザイン](PartDesign_Workbench/ja.md)
-   MenuLocation:Sketch - Sketcher constraints - Constrain horizontally
-   SeeAlso:[Constraint Vertical](Constraint_Vertical/ja.md)
+   Name: Sketcher ConstrainHorizontal
+   Name/ja: Sketcher ConstrainHorizontal
+   Workbenches: [スケッチャー](Sketcher_Workbench/ja.md), [パートデザイン](PartDesign_Workbench/ja.md)
+   MenuLocation: Sketch - Sketcher constraints - Constrain horizontally
+   SeeAlso: [Constraint Vertical](Constraint_Vertical/ja.md)
 ---
 
 # Sketcher ConstrainHorizontal/ja
@@ -69,4 +69,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/ja
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/ja

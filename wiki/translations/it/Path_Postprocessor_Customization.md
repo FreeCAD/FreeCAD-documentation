@@ -5,7 +5,7 @@
 
 
 
-{{TOCright}}
+
 
 ## Introduzione
 
@@ -165,4 +165,4 @@ Vedrete che entrambe le funzioni chiamano anche la funzione \"linenumber()\". Se
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Postprocessor Customization/it
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Postprocessor Customization/it

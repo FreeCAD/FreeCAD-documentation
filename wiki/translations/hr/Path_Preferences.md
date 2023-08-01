@@ -1,6 +1,4 @@
 # Path Preferences/hr
-{{TOCright}}
-
 ## Overview
 
 The preferences screen of the [Path Workbench](Path_Workbench.md) are found in the [Preferences Editor](Preferences_Editor.md), **Edit → Preferences → Path**.
@@ -50,4 +48,4 @@ There are four sections: General, Post processor, Setup and Tools.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Path](Path_Workbench.md) > Path Preferences/hr
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Path](Path_Workbench.md) > Path Preferences/hr

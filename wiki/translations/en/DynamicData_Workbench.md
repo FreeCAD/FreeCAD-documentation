@@ -1,7 +1,7 @@
 # <img alt="DynamicData External Workbench Icon" src=images/DynamicData_workbench_icon.svg  style="width:64px;"> DynamicData Workbench/en
 
 
-{{TOCright}}
+
 
 ## Overview
 
@@ -35,4 +35,4 @@ New workbenches are in development, stay tuned!
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > DynamicData Workbench/en
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > DynamicData Workbench/en

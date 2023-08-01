@@ -16,7 +16,7 @@
 Atelierul [Points Workbench](Points_Workbench.md) \"Nor de Puncte\" a fost creat ca să vă ofere unelte specifice pentru lucrul cu [point clouds](http://en.wikipedia.org/wiki/Point_cloud). Acest Atelier se află în curs de dezvoltare.
 
 
-{{TOCright}}
+
 
 The <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> [Points Workbench](Points_Workbench.md) offers specific tools for working with [point clouds](http://en.wikipedia.org/wiki/Point_cloud). The workbench is still in development.
 
@@ -70,4 +70,4 @@ Utilizarea metodei de ancorare [Endpoint](Draft_Snap_Endpoint.md) va asigura că
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/ro
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/ro

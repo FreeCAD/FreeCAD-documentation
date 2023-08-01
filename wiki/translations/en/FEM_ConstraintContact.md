@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintContact
-   MenuLocation:Model - Mechanical Constraints - Constraint contact
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM Constraint fixed](FEM_ConstraintFixed.md)
+   Name: FEM ConstraintContact
+   MenuLocation: Model - Mechanical Constraints - Constraint contact
+   Workbenches: [FEM](FEM_Workbench.md)
+   SeeAlso: [FEM Constraint fixed](FEM_ConstraintFixed.md)
 ---
 
 # FEM ConstraintContact/en
@@ -66,4 +66,4 @@ Creates a FEM constraint for contact between 2 surfaces.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintContact/en
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintContact/en

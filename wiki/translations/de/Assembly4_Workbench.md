@@ -3,7 +3,7 @@
 ## Einleitung
 
 
-{{TOCright}}
+
 
 [Assembly4](Assembly4_Workbench/de.md) ist ein [externer Arbeitsbereich](external_workbenches/de.md) der die dazu verwendet wird, verschiedene Körper, die in einer einzigen Datei oder in mehreren Dokumenten enthalten sind, zusammenzufügen. Er wurde im Entwicklungszyklus von Version 0.19 erstellt, um die Vorteile der neuen Funktionen des Assembly3 Zweiges zu nutzen, wie z.B. das [App Link](App_Link/de.md) Objekt und die neue [Ausdruckmaschine](expressions/de.md).
 
@@ -35,4 +35,4 @@ Assembly4 wurde angeregt durch <img alt="" src=images/A2p_workbench.svg  style="
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Assembly4 Workbench/de
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Assembly4 Workbench/de

@@ -329,4 +329,4 @@ Enfin, FreeCAD est réalisé par des volontaires pendant leur temps libre. Si vo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Category_Part.md) > Creating a simple part with Part WB/fr
+⏵ [documentation index](../README.md) > [Part](Category_Part.md) > Creating a simple part with Part WB/fr

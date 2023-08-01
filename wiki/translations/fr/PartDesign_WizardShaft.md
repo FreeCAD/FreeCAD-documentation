@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign_WizardShaft
-   Name/fr:PartDesign Conception d'arbre
-   MenuLocation:Part Design - Conception d'arbre...
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
+   Name: PartDesign_WizardShaft
+   Name/fr: PartDesign Conception d'arbre
+   MenuLocation: Part Design - Conception d'arbre...
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
 ---
 
 # PartDesign WizardShaft/fr
@@ -80,4 +80,4 @@ Pour ajouter un nouveau segment d\'arbre, cliquez avec le bouton droit de la sou
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/fr

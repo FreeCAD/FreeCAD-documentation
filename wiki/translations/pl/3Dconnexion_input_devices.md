@@ -1,7 +1,7 @@
 # <img alt="kontroler SpaceNavigator firmy 3Dconnexion" src=images/SpaceNavigator.jpg  style="width:200px;"> 3Dconnexion input devices/pl
 
 
-{{TOCright}}
+
 
 
 
@@ -318,4 +318,4 @@ Jeśli nie pojawi się żaden z nich, oznacza to, że Twój program FreeCAD nie 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [3rd Party](Category_3rd Party.md) > 3Dconnexion input devices/pl
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [3rd Party](Category_3rd Party.md) > 3Dconnexion input devices/pl

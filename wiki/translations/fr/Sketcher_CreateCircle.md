@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateCircle
-   Name/fr:Sketcher Cercle
-   MenuLocation:Esquisse - Géometries d'esquisse  - Créer un cercle
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **C**
-   SeeAlso:[Sketcher Arcs](Sketcher_CompCreateArc/fr.md)
+   Name: Sketcher CreateCircle
+   Name/fr: Sketcher Cercle
+   MenuLocation: Esquisse - Géometries d'esquisse  - Créer un cercle
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **C**
+   SeeAlso: [Sketcher Arcs](Sketcher_CompCreateArc/fr.md)
 ---
 
 # Sketcher CreateCircle/fr
@@ -34,4 +34,4 @@ Lorsque l\'outil est activé, le pointeur de la souris se change en croix blanch
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/fr

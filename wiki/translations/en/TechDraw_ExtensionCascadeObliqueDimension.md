@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionCascadeObliqueDimension
-   MenuLocation:TechDraw - Extensions: Attributes/Modifications - Cascade Oblique Dimensions
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ExtensionCascadeHorizDimension](TechDraw_ExtensionCascadeHorizDimension.md), [TechDraw ExtensionCascadeVertDimension](TechDraw_ExtensionCascadeVertDimension.md)
+   Name: TechDraw ExtensionCascadeObliqueDimension
+   MenuLocation: TechDraw - Extensions: Attributes/Modifications - Cascade Oblique Dimensions
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ExtensionCascadeHorizDimension](TechDraw_ExtensionCascadeHorizDimension.md), [TechDraw ExtensionCascadeVertDimension](TechDraw_ExtensionCascadeVertDimension.md)
 ---
 
 # TechDraw ExtensionCascadeObliqueDimension/en
@@ -38,4 +38,4 @@ The **TechDraw ExtensionCascadeObliqueDimension** tool evenly spaces oblique dim
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCascadeObliqueDimension/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCascadeObliqueDimension/en

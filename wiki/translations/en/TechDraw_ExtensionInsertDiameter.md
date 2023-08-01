@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionInsertDiameter
-   MenuLocation:TechDraw - Extensions: Dimensions - Insert '⌀' Prefix
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ExtensionInsertSquare](TechDraw_ExtensionInsertSquare.md)
+   Name: TechDraw ExtensionInsertDiameter
+   MenuLocation: TechDraw - Extensions: Dimensions - Insert '⌀' Prefix
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ExtensionInsertSquare](TechDraw_ExtensionInsertSquare.md)
 ---
 
 # TechDraw ExtensionInsertDiameter/en
@@ -36,4 +36,4 @@ The **TechDraw ExtensionInsertDiameter** tool inserts a \'⌀\' symbol at the be
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionInsertDiameter/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionInsertDiameter/en

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Survey
-   Name/de:Arch Übersicht
-   MenuLocation:Arch - Übersicht       
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   SeeAlso:[FCInfo (Makro)](Macro_FCInfo/de.md), [Makro EinfacheEigenschaften (Makro)](Macro_SimpleProperties/de.md)
+   Name: Arch Survey
+   Name/de: Arch Übersicht
+   MenuLocation: Arch - Übersicht       
+   Workbenches: [Arch](Arch_Workbench/de.md)
+   SeeAlso: [FCInfo (Makro)](Macro_FCInfo/de.md), [Makro EinfacheEigenschaften (Makro)](Macro_SimpleProperties/de.md)
 ---
 
 # Arch Survey/de
@@ -70,4 +70,4 @@ for obj in selection:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Survey/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Survey/de

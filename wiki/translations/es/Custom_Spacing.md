@@ -26,4 +26,4 @@ La salida se genera mediante el cuadro de diálogo Distribución de barras de re
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Category_Arch.md) > Custom Spacing/es
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Category_Arch.md) > Custom Spacing/es

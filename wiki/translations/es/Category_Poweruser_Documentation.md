@@ -29,4 +29,4 @@ Esta categoría muestra documentación de artículos acerca de los archivos de g
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Poweruser Documentation/es
+⏵ [documentation index](../README.md) > Category:Poweruser Documentation/es

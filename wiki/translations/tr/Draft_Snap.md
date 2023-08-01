@@ -1,8 +1,4 @@
 # Draft Snap/tr
-{{TOCright}}
-
-
-
 ## Açıklama
 
 
@@ -139,4 +135,4 @@ Note that after changing some preferences you must restart FreeCAD.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap/tr

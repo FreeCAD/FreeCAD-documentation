@@ -12,4 +12,4 @@ Most of these articles are open-access.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Scientific literature/ru
+⏵ [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Scientific literature/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_Edit
-   Name/fr:Std Bascule mode édition
-   MenuLocation:Édition - Basculer le mode d'édition
-   Workbenches:Tous
-   SeeAlso:[Std Mode d'édition](Std_UserEditMode/fr.md)
+   Name: Std_Edit
+   Name/fr: Std Bascule mode édition
+   MenuLocation: Édition - Basculer le mode d'édition
+   Workbenches: Tous
+   SeeAlso: [Std Mode d'édition](Std_UserEditMode/fr.md)
 ---
 
 # Std Edit/fr
@@ -81,4 +81,4 @@ FreeCADGui.ActiveDocument.resetEdit()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Edit/fr
+⏵ [documentation index](../README.md) > Std Edit/fr

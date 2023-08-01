@@ -1,6 +1,6 @@
 # Sketcher RectangularArray/it
 ---
-- GuiCommand:   Name:Sketcher RectangularArray   Name/it:Serie rettangolare   Workbenches:[PartDesign](Sketcher_Workbench/it___Sketcher]],_[[PartDesign_Workbench/it.md)|MenuLocation:Sketch - Strumenti - Serie rettangolare   Shortcut:   Version:0.16---
+- GuiCommand:   Name: Sketcher RectangularArray   Name/it: Serie rettangolare   Workbenches: [PartDesign](Sketcher_Workbench/it___Sketcher]],_[[PartDesign_Workbench/it.md)|MenuLocation: Sketch - Strumenti - Serie rettangolare   Shortcut:    Version: 0.16---
 
 
 </div>
@@ -58,4 +58,4 @@ Le opzioni per la serie
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RectangularArray/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RectangularArray/it

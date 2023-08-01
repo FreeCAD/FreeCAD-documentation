@@ -1,6 +1,4 @@
 # Draft Pattern/fr
-{{TOCright}}
-
 ## Description
 
 Les objets [Draft](Draft_Workbench/fr.md) ayant une propriété **Make Face** peuvent afficher un motif SVG au lieu d\'une couleur de surface unie.
@@ -41,4 +39,4 @@ Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Pr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Pattern/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Pattern/fr

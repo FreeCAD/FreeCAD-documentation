@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw ClipGroup
-   Name/de:TechDraw Ausschnittsgruppe
-   MenuLocation:TechDraw - Ausschnittsgruppe einfügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso:[TechDraw AusschnittsgruppeHinzufügen](TechDraw_ClipGroupAdd/de.md), [TechDraw AusschnittsgruppeEntfernen](TechDraw_ClipGroupRemove/de.md)
+   Name: TechDraw ClipGroup
+   Name/de: TechDraw Ausschnittsgruppe
+   MenuLocation: TechDraw - Ausschnittsgruppe einfügen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   SeeAlso: [TechDraw AusschnittsgruppeHinzufügen](TechDraw_ClipGroupAdd/de.md), [TechDraw AusschnittsgruppeEntfernen](TechDraw_ClipGroupRemove/de.md)
 ---
 
 # TechDraw ClipGroup/de
@@ -58,4 +58,4 @@ Das Werkzeug **TechDraw Ausschnittsgruppe** erstellt ein Ausschnittfenster, das 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroup/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroup/de

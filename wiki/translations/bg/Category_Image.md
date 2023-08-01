@@ -10,4 +10,4 @@ This category lists pages related to the [Image Workbench/bg](Image_Workbench/bg
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Image/bg
+⏵ [documentation index](../README.md) > Category:Image/bg

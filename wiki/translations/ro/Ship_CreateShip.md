@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Ship New‏‎
-   MenuLocation:Ship design - Create a new ship
-   Workbenches:[Ship](Ship_Workbench.md)
-   Shortcut:
-   SeeAlso:
+   Name: Ship New‏‎
+   MenuLocation: Ship design - Create a new ship
+   Workbenches: [Ship](Ship_Workbench.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Ship CreateShip/ro
@@ -79,4 +79,4 @@ Când apăsați butonul **Accept** programul crează noua Ship instance numită 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship CreateShip/ro
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship CreateShip/ro

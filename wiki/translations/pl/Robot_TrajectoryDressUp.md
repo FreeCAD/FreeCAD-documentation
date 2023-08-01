@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Robot TrajectoryDressUp
-   MenuLocation:Robot - TrajectoryDressUp
-   Workbenches:[Robot](Robot_Workbench.md)
+   Name: Robot TrajectoryDressUp
+   MenuLocation: Robot - TrajectoryDressUp
+   Workbenches: [Robot](Robot_Workbench.md)
 ---
 
 # Robot TrajectoryDressUp/pl
@@ -37,4 +37,4 @@ Resulting in the ability to change values for:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryDressUp/pl
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryDressUp/pl

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Parallel
-   Name/fr:Draft Aimantation Parallèle
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Draft Aimantation](Draft_Snap/fr.md), [Draft Verrouillage de l'aimantation](Draft_Snap_Lock/fr.md)
+   Name: Draft Snap Parallel
+   Name/fr: Draft Aimantation Parallèle
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   SeeAlso: [Draft Aimantation](Draft_Snap/fr.md), [Draft Verrouillage de l'aimantation](Draft_Snap_Lock/fr.md)
 ---
 
 # Draft Snap Parallel/fr
@@ -41,4 +41,4 @@ Voir [Draft Préférences](Draft_Snap/fr#Pr.C3.A9f.C3.A9rences.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Parallel/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Parallel/fr

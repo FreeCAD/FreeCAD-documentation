@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Std TextureMapping
-   MenuLocation:View - Texture Mapping...
-   Workbenches:All
+   Name: Std TextureMapping
+   MenuLocation: View - Texture Mapping...
+   Workbenches: All
 ---
 
 # Std TextureMapping/en
@@ -33,4 +33,4 @@ The **Std TextureMapping** command temporarily maps a texture onto all objects i
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TextureMapping/en
+⏵ [documentation index](../README.md) > Std TextureMapping/en

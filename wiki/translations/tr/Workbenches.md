@@ -119,4 +119,4 @@ FreeCAD çalışma tezgahlarının Python\'da programlanması kolaydır , bu ned
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/tr
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/tr

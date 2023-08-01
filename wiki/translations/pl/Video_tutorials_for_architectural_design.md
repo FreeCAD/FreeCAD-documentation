@@ -51,4 +51,4 @@ Filmy przedstawiające modelowanie pomieszczeń, domów, budynków biurowych i p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for architectural design/pl
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for architectural design/pl

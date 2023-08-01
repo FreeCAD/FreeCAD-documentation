@@ -1,6 +1,4 @@
 # App Link/pl
-{{TOCright}}
-
 ## Wprowadzenie
 
 <img alt="" src=images/Link.svg  style="width:32px;">
@@ -29,4 +27,4 @@ Zobacz stronę [Std: Utwórz łącze](Std_LinkMake/pl.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > App Link/pl
+⏵ [documentation index](../README.md) > App Link/pl

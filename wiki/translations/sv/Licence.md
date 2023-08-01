@@ -1,7 +1,4 @@
 # Licence/sv
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 ### Använda licenser 
@@ -135,4 +132,4 @@ Detta beslut är ändå bara gjort för FreeCAD\'s kärnsystem. Var och en som s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/sv
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/sv

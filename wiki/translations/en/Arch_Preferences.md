@@ -14,4 +14,4 @@ There are two tabs: General settings, and Defaults.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Arch](Arch_Workbench.md) > Arch Preferences/en
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Arch](Arch_Workbench.md) > Arch Preferences/en

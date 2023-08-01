@@ -1,7 +1,7 @@
 # <img alt="L\'icona dell\'ambiente Reinforcement" src=images/Reinforcement_Workbench.svg  style="width:64px;"> Reinforcement Workbench/it
 
 
-{{TOCright}}
+
 
 ## Introduzione
 
@@ -58,4 +58,4 @@ The Reinforcement workbench is not bundled with the default FreeCAD package, but
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [Reinforcement](Category_Reinforcement.md) > Reinforcement Workbench/it
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [Reinforcement](Category_Reinforcement.md) > Reinforcement Workbench/it

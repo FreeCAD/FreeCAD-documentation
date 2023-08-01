@@ -6,4 +6,4 @@ Istnieje wiele różnych dialektów tego formatu, więc ten moduł importujący 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft DAT/pl
+⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft DAT/pl

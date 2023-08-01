@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path Helix
-   Name/fr:Path Hélice 
-   MenuLocation:Path - Hélice
-   Workbenches:[Path](Path_Workbench/fr.md)
+   Name: Path Helix
+   Name/fr: Path Hélice 
+   MenuLocation: Path - Hélice
+   Workbenches: [Path](Path_Workbench/fr.md)
 ---
 
 # Path Helix/fr
@@ -82,4 +82,4 @@ Exemple :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Helix/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Helix/fr

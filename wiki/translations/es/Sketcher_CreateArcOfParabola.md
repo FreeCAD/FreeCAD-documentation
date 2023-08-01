@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateArcOfParabola
-   Name/es:Croquizador Arc of parabola
-   MenuLocation:Croquis - Croquizador Geometrías - Create an arc of parabola
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   Version:0.17
-   SeeAlso:[Sketcher Arc of Ellipse](Sketcher_CreateArcOfEllipse/es.md), [Sketcher Arc of hyperbola](Sketcher_CreateArcOfHyperbola/es.md)
+   Name: Sketcher CreateArcOfParabola
+   Name/es: Croquizador Arc of parabola
+   MenuLocation: Croquis - Croquizador Geometrías - Create an arc of parabola
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   Version: 0.17
+   SeeAlso: [Sketcher Arc of Ellipse](Sketcher_CreateArcOfEllipse/es.md), [Sketcher Arc of hyperbola](Sketcher_CreateArcOfHyperbola/es.md)
 ---
 
 # Sketcher CreateArcOfParabola/es
@@ -48,4 +48,4 @@ Esta herramienta crea un arco de parábola por foco, vértice y puntos finales.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfParabola/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfParabola/es

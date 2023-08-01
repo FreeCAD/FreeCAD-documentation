@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Mirror
-   Name/es:Draft Mirror
-   MenuLocation:Draft - Mirror
-   Workbenches:[Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
-   SeeAlso:[Draft Scale](Draft_Scale/es.md)
+   Name: Draft Mirror
+   Name/es: Draft Mirror
+   MenuLocation: Draft - Mirror
+   Workbenches: [Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
+   SeeAlso: [Draft Scale](Draft_Scale/es.md)
 ---
 
 # Draft Mirror/es
@@ -164,4 +164,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Mirror/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Mirror/es

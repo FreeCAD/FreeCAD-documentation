@@ -16,4 +16,4 @@ Den betreffenden Artikeln folgende Zeile anhängen:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Administration/de]] ](Category_Administration/de]] .md) > Category:Template/de
+⏵ [documentation index](../README.md) > [Administration/de]] ](Category_Administration/de]] .md) > Category:Template/de

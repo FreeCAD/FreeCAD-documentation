@@ -272,4 +272,4 @@ ToolBar Icon ![](images/Macro_Arch_Axis_System_Repartition.png )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Arch Axis System Repartition/fr
+⏵ [documentation index](../README.md) > Macro Arch Axis System Repartition/fr

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Создать локальную систему координат
-   Name:PartDesign_CoordinateSystem
-   MenuLocation:PartDesign - Создать локальную систему координат
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   Version:0.18
-   SeeAlso:[Создать опорную точку](PartDesign_Point/ru.md), [Создать опорную линию](PartDesign_Line/ru.md), [Создать опорную плоскость](PartDesign_Plane/ru.md)
+   Name/ru: Создать локальную систему координат
+   Name: PartDesign_CoordinateSystem
+   MenuLocation: PartDesign - Создать локальную систему координат
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   Version: 0.18
+   SeeAlso: [Создать опорную точку](PartDesign_Point/ru.md), [Создать опорную линию](PartDesign_Line/ru.md), [Создать опорную плоскость](PartDesign_Plane/ru.md)
 ---
 
 # PartDesign CoordinateSystem/ru
@@ -64,4 +64,4 @@ lcs = App.activeDocument().addObject( 'PartDesign::CoordinateSystem', 'LCS' )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CoordinateSystem/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CoordinateSystem/ru

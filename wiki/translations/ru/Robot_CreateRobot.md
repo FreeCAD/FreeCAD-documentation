@@ -1,10 +1,10 @@
 # Robot CreateRobot/ru
 ---
 - GuiCommand:
-   Name:Robot_CreateRobot
-   Name/ru:Добавить робота
-   Workbenches:[Robot](Robot_Workbench/ru.md)
-   MenuLocation:Робот - Добавить робота---
+   Name: Robot_CreateRobot
+   Name/ru: Добавить робота
+   Workbenches: [Robot](Robot_Workbench/ru.md)
+   MenuLocation: Робот - Добавить робота---
 
 ## Описание
 
@@ -50,4 +50,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateRobot/ru
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateRobot/ru

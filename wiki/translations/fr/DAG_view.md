@@ -2,7 +2,7 @@
 ## Introduction
 
 
-{{TOCright}}
+
 
 La [Vue DAG](DAG_view/fr.md) signifie [Directed Acyclic Graph (Graphe orienté acyclique)](https://fr.wikipedia.org/wiki/Graphe_orient%C3%A9_acyclique). Elle montre les relations entre les différents objets du document. Elle est principalement destinée à montrer comment certains objets dépendent d\'autres objets dans un modèle complexe comportant de nombreuses fonctionnalités et références, telles que celles pouvant être créées avec l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md).
 
@@ -76,4 +76,4 @@ Voir aussi :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > DAG view/fr
+⏵ [documentation index](../README.md) > DAG view/fr

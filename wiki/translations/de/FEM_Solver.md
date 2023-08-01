@@ -1,8 +1,4 @@
 # FEM Solver/de
-{{TOCright}}
-
-
-
 ## Vorwort
 
 Diese Seite sammelt Informationen über die vom Arbeitsbereich [FEM](FEM_Workbench/de.md) verwendeten Finite-Elemente-Löser. Die Schnittstelle zwischen einem Löser und FreeCAD sowohl in der Vor- als auch in der Nachbearbeitung erfolgt über Textdateien. Das bedeutet, dass theoretisch jeder Löser, der über Textdateien konfiguriert und gesteuert werden kann, mit FreeCAD zusammenarbeiten kann; für diese Kommunikation muss ein geeigneter Parser und Schreiber von Ein- und Ausgabedateien programmiert werden. Im Forum findet sich ein Thema mit Diskussionen und Ankündigungen zu den verschiedenen Lösern:[General FEM solvers discussion topic](https://forum.freecadweb.org/viewtopic.php?f=18&t=26326).
@@ -235,4 +231,4 @@ Technog was successfully used in FreeCAD as a substitute of CalculiX, although t
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Solver/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Solver/de

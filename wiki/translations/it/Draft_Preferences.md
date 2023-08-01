@@ -1,7 +1,4 @@
 # Draft Preferences/it
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 La scheda delle preferenze del modulo [Draft](Draft_Workbench/it.md) si trova nella finestra delle [Preferenze](Preferences_Editor/it.md), nel menu **Modifica → Preferenze → Draft**.
@@ -508,4 +505,4 @@ On the *Texts and dimensions* tab you can specify the following:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Draft](Draft_Workbench.md) > Draft Preferences/it
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Draft](Draft_Workbench.md) > Draft Preferences/it

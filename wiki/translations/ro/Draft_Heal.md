@@ -1,6 +1,6 @@
 # Draft Heal/ro
 ---
-- GuiCommand:   Name:Draft Heal   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft - Utilities - Heal---
+- GuiCommand:   Name: Draft Heal   Workbenches: [Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation: Draft - Utilities - Heal---
 
 
 </div>
@@ -34,4 +34,4 @@ Din cauza evoluției rapide a FreeCAD, unele definiții de obiecte s-ar putea sc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/ro

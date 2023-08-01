@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path Slot
-   MenuLocation:Path - Slot
-   Workbenches:[Path](Path_Workbench.md)
-   Version:0.19
+   Name: Path Slot
+   MenuLocation: Path - Slot
+   Workbenches: [Path](Path_Workbench.md)
+   Version: 0.19
 ---
 
 # Path Slot/en
@@ -273,4 +273,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Slot/en
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Slot/en

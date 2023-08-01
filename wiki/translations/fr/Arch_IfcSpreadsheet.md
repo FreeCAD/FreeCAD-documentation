@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch_IfcSpreadsheet
-   Name/fr:Arch Tableur IFC
-   MenuLocation:Arch - Utilitaires - Créer une feuille de calcul IFC
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   Shortcut:**I** **P**
-   SeeAlso:[Arch IFC](Arch_IFC/fr.md), [Arch Explorateur IFC](Arch_IfcExplorer/fr.md)
+   Name: Arch_IfcSpreadsheet
+   Name/fr: Arch Tableur IFC
+   MenuLocation: Arch - Utilitaires - Créer une feuille de calcul IFC
+   Workbenches: [Arch](Arch_Workbench/fr.md)
+   Shortcut: **I** **P**
+   SeeAlso: [Arch IFC](Arch_IFC/fr.md), [Arch Explorateur IFC](Arch_IfcExplorer/fr.md)
 ---
 
 # Arch IfcSpreadsheet/fr
@@ -54,4 +54,4 @@ spreadsheet = Arch.makeIfcSpreadsheet(Wall)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcSpreadsheet/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcSpreadsheet/fr

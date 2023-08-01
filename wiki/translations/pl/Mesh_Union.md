@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh Union
-   Name/pl:Siatka Połączenie
-   MenuLocation:Siatki - Operacje logiczne - Połączenie
-   Workbenches:[Siatka](Mesh_Workbench/pl.md)
-   SeeAlso:[Przecięcie](Mesh_Intersection/pl.md), [Różnica](Mesh_Difference/pl.md)
+   Name: Mesh Union
+   Name/pl: Siatka Połączenie
+   MenuLocation: Siatki - Operacje logiczne - Połączenie
+   Workbenches: [Siatka](Mesh_Workbench/pl.md)
+   SeeAlso: [Przecięcie](Mesh_Intersection/pl.md), [Różnica](Mesh_Difference/pl.md)
 ---
 
 # Mesh Union/pl
@@ -40,4 +40,4 @@ Zapoznaj się z informacjami na stronie: [cecha siatki](Mesh_Feature/pl.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Union/pl
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Union/pl

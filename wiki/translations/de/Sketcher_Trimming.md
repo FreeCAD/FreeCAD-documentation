@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher Trimming
-   Name/de:Sketcher Zuschneiden
-   MenuLocation:Sketch - Skizzengeometrien - Kante zuschneiden
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **T**
-   Version:0.12
-   SeeAlso:[Sketcher KanteVerlängern](Sketcher_Extend/de.md)
+   Name: Sketcher Trimming
+   Name/de: Sketcher Zuschneiden
+   MenuLocation: Sketch - Skizzengeometrien - Kante zuschneiden
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **T**
+   Version: 0.12
+   SeeAlso: [Sketcher KanteVerlängern](Sketcher_Extend/de.md)
 ---
 
 # Sketcher Trimming/de
@@ -39,4 +39,4 @@ Dieses Werkzeug entfern eine Kante bis zu den nächsten Schnittstellen mit ander
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/de

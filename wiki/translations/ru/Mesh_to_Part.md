@@ -1,6 +1,4 @@
 # Mesh to Part/ru
-{{TOCright}}
-
 ## Преобразование объектов Part в полигональную сетку 
 
 
@@ -113,4 +111,4 @@ Part.show(solid)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh to Part/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh to Part/ru

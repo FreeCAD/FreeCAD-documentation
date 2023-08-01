@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet StyleUnderline
-   Name/pl:Arkusz Kalkulacyjny: Podkreślenie
-   MenuLocation:Arkusz kalkulacyjny - Style - Podkreślenie
-   Workbenches:[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
-   Version:0.17
+   Name: Spreadsheet StyleUnderline
+   Name/pl: Arkusz Kalkulacyjny: Podkreślenie
+   MenuLocation: Arkusz kalkulacyjny - Style - Podkreślenie
+   Workbenches: [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   Version: 0.17
 ---
 
 # Spreadsheet StyleUnderline/pl
@@ -30,4 +30,4 @@ Narzędzie podkreślenia.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleUnderline/pl
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleUnderline/pl

@@ -1,7 +1,4 @@
 # Topological data scripting/sv
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 ## Introduktion
@@ -1735,4 +1732,4 @@ To convert a STEP file to an IGS file:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Topological data scripting/sv
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Topological data scripting/sv

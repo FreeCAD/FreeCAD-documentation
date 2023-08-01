@@ -1,8 +1,4 @@
 # Download/hr
-{{TOCright}}
-
-
-
 ### Trenutna stabilna verzija 
 
 The 0.20.2 release of FreeCAD (29603) was published on 2022-12-07. To find out what\'s new, see the [release notes](Release_notes_0.20.md).
@@ -72,4 +68,4 @@ FreeCAD zajednica pruža mnogo dodatnih modula i makronaredbi. Od 0.17 mogu se l
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Download/hr
+⏵ [documentation index](../README.md) > Download/hr

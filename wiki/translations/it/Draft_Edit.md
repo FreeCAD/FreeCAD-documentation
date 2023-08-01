@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Edit
-   Name/it:Modifica
-   MenuLocation:Modifiche - Modifica
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:**D** **E**
-   SeeAlso:[Modalità modifica](Std_Edit/it.md)
+   Name: Draft Edit
+   Name/it: Modifica
+   MenuLocation: Modifiche - Modifica
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut: **D** **E**
+   SeeAlso: [Modalità modifica](Std_Edit/it.md)
 ---
 
 # Draft Edit/it
@@ -236,4 +236,4 @@ Non esiste un metodo Python per modificare gli oggetti Draft. Per emulare i risu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/it

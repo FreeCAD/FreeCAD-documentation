@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Split
-   MenuLocation:Modification - Split
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:**S** **P**
-   Version:0.18
-   SeeAlso:[Draft Join](Draft_Join.md)
+   Name: Draft Split
+   MenuLocation: Modification - Split
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut: **S** **P**
+   Version: 0.18
+   SeeAlso: [Draft Join](Draft_Join.md)
 ---
 
 # Draft Split/pt-br
@@ -83,4 +83,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Split/pt-br
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Split/pt-br

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:Addon/de
-   Name:BIM Box
-   Name/de:BIM Kasten
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
-   Addon:BIM
-   MenuLocation:3D Modellierung - Kasten
-   SeeAlso:[Part Kasten](Part_Box/de.md)
+   Name: BIM Box
+   Name/de: BIM Kasten
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
+   Addon: BIM
+   MenuLocation: 3D Modellierung - Kasten
+   SeeAlso: [Part Kasten](Part_Box/de.md)
 ---
 
 # BIM Box/de
@@ -27,4 +27,4 @@ Mit dem BIM Kasten Werkzeug kannst du eine Standard [Bauteilbox](Part_Box/de.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Box/de
+⏵ [documentation index](../README.md) > BIM Box/de

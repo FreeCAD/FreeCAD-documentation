@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_Import
-   Name/it:Importa
-   MenuLocation:File - Importa...
-   Workbenches:All
-   Shortcut:**Ctrl**+**I**
-   SeeAlso:[Apri](Std_Open/it.md), [Importazione e Esportazione](Import_Export/it.md), [Preferenze di Importa/Esporta](Import_Export_Preferences/it.md)
+   Name: Std_Import
+   Name/it: Importa
+   MenuLocation: File - Importa...
+   Workbenches: All
+   Shortcut: **Ctrl**+**I**
+   SeeAlso: [Apri](Std_Open/it.md), [Importazione e Esportazione](Import_Export/it.md), [Preferenze di Importa/Esporta](Import_Export_Preferences/it.md)
 ---
 
 # Std Import/it
@@ -139,4 +139,4 @@ Un oggetto Image Plane deriva da un oggetto [App GeoFeature](App_GeoFeature/it.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/it
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/it

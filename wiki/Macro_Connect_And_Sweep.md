@@ -232,4 +232,4 @@ Other forum discussion [Macro_Connect_And_Sweep](https://forum.freecadweb.org/vi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Connect And Sweep
+⏵ [documentation index](../README.md) > Macro Connect And Sweep

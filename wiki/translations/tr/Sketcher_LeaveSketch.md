@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher LeaveSketch
-   Name/tr:Eskizi Kapat
-   Workbenches:[Eskiz](Sketcher_Workbench/tr.md), [Parça tasarım](PartDesign_Workbench/tr.md)
-   MenuLocation:Eskiz - Eskizi kapat
+   Name: Sketcher LeaveSketch
+   Name/tr: Eskizi Kapat
+   Workbenches: [Eskiz](Sketcher_Workbench/tr.md), [Parça tasarım](PartDesign_Workbench/tr.md)
+   MenuLocation: Eskiz - Eskizi kapat
 ---
 
 # Sketcher LeaveSketch/tr
@@ -49,4 +49,4 @@ There are several ways to invoke this command:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/tr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/tr

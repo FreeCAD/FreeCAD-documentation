@@ -1,6 +1,6 @@
 # Robot InsertWaypoint/de
 ---
-- GuiCommand:   Name:Robot InsertWaypoint   Workbenches:[[Robot_Workbench/de   Robot]]|MenuLocation:Roboter - In Bewegungsbahn einfügen   Shortcut:A   SeeAlso:
+- GuiCommand:   Name: Robot InsertWaypoint   Workbenches: [[Robot_Workbench/de   Robot]]|MenuLocation: Roboter - In Bewegungsbahn einfügen   Shortcut: A   SeeAlso: 
 
 
 </div>
@@ -57,4 +57,4 @@ Bewegen eines Roboters erfolgt durch
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypoint/de
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypoint/de

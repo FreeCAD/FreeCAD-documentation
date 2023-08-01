@@ -1,6 +1,6 @@
 # Part Torus/sv
 ---
-- GuiCommand:   Name:Part Torus   Name/sv:Part Torus   MenuLocation:Part -> Torus   |Workbenches:[SeeAlso:[[Part_CreatePrimitives/sv|Part_CreatePrimitives](Part_Workbench/sv___Part_Module]],Complete.md)---
+- GuiCommand:   Name: Part Torus   Name/sv: Part Torus   MenuLocation: Part -> Torus   |Workbenches: [SeeAlso: [[Part_CreatePrimitives/sv|Part_CreatePrimitives](Part_Workbench/sv___Part_Module]],Complete.md)---
 
 
 </div>
@@ -108,4 +108,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/sv
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/sv

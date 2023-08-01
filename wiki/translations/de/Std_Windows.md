@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name/de:Std Fenster
-   MenuLocation:Fenster - Fenster...
-   Workbenches:Alle
-   SeeAlso:[Std NächstesFensterAktivieren](Std_ActivateNextWindow/de.md), [Std VorherigesFensterAktivieren](Std_ActivatePrevWindow/de.md)
+   Name/de: Std Fenster
+   MenuLocation: Fenster - Fenster...
+   Workbenches: Alle
+   SeeAlso: [Std NächstesFensterAktivieren](Std_ActivateNextWindow/de.md), [Std VorherigesFensterAktivieren](Std_ActivatePrevWindow/de.md)
 ---
 
 # Std Windows/de
@@ -52,4 +52,4 @@ Fenster im Hauptansichtsbereich sind auch im **Fenster**-Menü aufgeführt und k
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Windows/de
+⏵ [documentation index](../README.md) > Std Windows/de

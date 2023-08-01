@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher Copy
-   Name/it:Copia
-   MenuLocation:Sketch - Strumenti - Copia
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   Shortcut:**Z** **C**
-   Version:0.16
-   SeeAlso:[Clona](Sketcher_Clone/it.md), [Sposta](Sketcher_Move/it.md)
+   Name: Sketcher Copy
+   Name/it: Copia
+   MenuLocation: Sketch - Strumenti - Copia
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   Shortcut: **Z** **C**
+   Version: 0.16
+   SeeAlso: [Clona](Sketcher_Clone/it.md), [Sposta](Sketcher_Move/it.md)
 ---
 
 # Sketcher Copy/it
@@ -35,4 +35,4 @@ Alla copia non vengono aggiunti vincoli specifici.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Copy/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Copy/it

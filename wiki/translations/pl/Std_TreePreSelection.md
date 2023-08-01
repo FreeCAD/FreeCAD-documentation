@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreeSelection
-   Name/pl:Std: Wybór wstępny w widoku drzewa
-   MenuLocation:Widok - Akcje widoku drzewa - Wybór wstępny
-   Workbenches:Wszystkie
-   Shortcut:**T** **4**
-   Version:0.19
+   Name: Std TreeSelection
+   Name/pl: Std: Wybór wstępny w widoku drzewa
+   MenuLocation: Widok - Akcje widoku drzewa - Wybór wstępny
+   Workbenches: Wszystkie
+   Shortcut: **T** **4**
+   Version: 0.19
 ---
 
 # Std TreePreSelection/pl
@@ -36,4 +36,4 @@ Tryb Wybór wstępny w widoku drzewa można również ustawić w [Edytorze prefe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreePreSelection/pl
+⏵ [documentation index](../README.md) > Std TreePreSelection/pl

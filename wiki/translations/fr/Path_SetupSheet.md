@@ -1,6 +1,4 @@
 # Path SetupSheet/fr
-{{TOCright}}
-
 ## Description
 
 L\'utilisation d\'une feuille de configuration permet à l\'utilisateur de personnaliser le mode de calcul des différentes valeurs de propriété pour les opérations. L\'utilisateur a toujours la possibilité de remplacer les valeurs de SetupSheet par une valeur explicite ou de modifier le mode de calcul des valeurs de SetupSheet.
@@ -70,4 +68,4 @@ Les autres valeurs de la Feuille de configuration peuvent être référencées d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SetupSheet/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SetupSheet/fr

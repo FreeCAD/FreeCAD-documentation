@@ -1,6 +1,4 @@
 # PySide Intermediate Examples/fr
-{{TOCright}}
-
 ## Introduction
 
 Cette page couvre des exemples de niveau moyen du gestionnaire d\'interface graphique [PySide](PySide/fr.md) (les pages d\'accompagnement couvrent des aspects à la fois moins ou plus avancés, [Exemples PySide pour débutants](PySide_Beginner_Examples/fr.md) et [Exemples PySide pour confirmés](PySide_Advanced_Examples/fr.md)). Dans cette page, un exemple de programme est utilisé pour couvrir les différents sujets PySide. L\'intention est de présenter du code PySide fonctionnel afin que toute personne ayant besoin d\'utiliser PySide puisse copier la section correspondante, la modifier et l\'adapter à ses propres fins.
@@ -864,4 +862,4 @@ Ces mêmes commandes peuvent être exécutées sur une fenêtre générée par l
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > PySide Intermediate Examples/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > PySide Intermediate Examples/fr

@@ -16,4 +16,4 @@ Cette catégorie répertorie les modèles qui créent des éléments de navigati
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Template:Navigation/fr
+⏵ [documentation index](../README.md) > Category:Template:Navigation/fr

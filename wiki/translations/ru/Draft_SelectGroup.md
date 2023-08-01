@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft SelectGroup
-   Name/ru:Draft SelectGroup
-   MenuLocation:Черчение - Утилиты - Выбрать группу
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[Добавить в группу](Draft_AddToGroup/ru.md), [Std CreateGroup](Std_Group/ru.md)
+   Name: Draft SelectGroup
+   Name/ru: Draft SelectGroup
+   MenuLocation: Черчение - Утилиты - Выбрать группу
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: [Добавить в группу](Draft_AddToGroup/ru.md), [Std CreateGroup](Std_Group/ru.md)
 ---
 
 # Draft SelectGroup/ru
@@ -35,4 +35,4 @@ The command was revised in FreeCAD version 0.20 and this page describes that ver
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectGroup/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectGroup/ru

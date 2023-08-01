@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainPointOnObject
-   Name/fr:Sketcher Contrainte point sur objet
-   MenuLocation:Esquisse - Contraintes d'esquisse  - Contrainte point sur objet
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**O**
-   SeeAlso:[Sketcher Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md)
+   Name: Sketcher ConstrainPointOnObject
+   Name/fr: Sketcher Contrainte point sur objet
+   MenuLocation: Esquisse - Contraintes d'esquisse  - Contrainte point sur objet
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **O**
+   SeeAlso: [Sketcher Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md)
 ---
 
 # Sketcher ConstrainPointOnObject/fr
@@ -54,4 +54,4 @@ La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique comment identifier
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/fr

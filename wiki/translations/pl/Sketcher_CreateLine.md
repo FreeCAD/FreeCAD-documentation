@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateLine
-   Name/pl:Szkicownik: Utwórz linię
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz linię
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **L**
-   SeeAlso:[Polilinia](Sketcher_CreatePolyline/pl.md)
+   Name: Sketcher CreateLine
+   Name/pl: Szkicownik: Utwórz linię
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Utwórz linię
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **G** **L**
+   SeeAlso: [Polilinia](Sketcher_CreatePolyline/pl.md)
 ---
 
 # Sketcher CreateLine/pl
@@ -38,4 +38,4 @@ Utworzony obiekt linii zaczyna się i kończy w podanych punktach, ale linia jes
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/pl

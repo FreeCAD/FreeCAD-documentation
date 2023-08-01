@@ -3,7 +3,7 @@
 Kompilieren unter Docker]]**
 
 
-{{TOCright}}
+
 
 
 
@@ -281,4 +281,4 @@ FreeCAD can be built against the latest git master hosted on github, and launche
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on MacOS/de
+⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on MacOS/de

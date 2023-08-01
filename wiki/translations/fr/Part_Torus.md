@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Torus
-   Name/fr:Part Tore
-   MenuLocation:Part - Primitives - Tore
-   Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Part Primitives](Part_Primitives/fr.md)
+   Name: Part Torus
+   Name/fr: Part Tore
+   MenuLocation: Part - Primitives - Tore
+   Workbenches: [Part](Part_Workbench/fr.md)
+   SeeAlso: [Part Primitives](Part_Primitives/fr.md)
 ---
 
 # Part Torus/fr
@@ -124,4 +124,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/fr

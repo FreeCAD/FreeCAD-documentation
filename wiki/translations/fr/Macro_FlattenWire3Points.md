@@ -58,4 +58,4 @@ Icône de la barre d\'outils ![](images/Macro_FlattenWire3Points.png )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro FlattenWire3Points/fr
+⏵ [documentation index](../README.md) > Macro FlattenWire3Points/fr

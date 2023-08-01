@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Curves SegmentSurface
-   MenuLocation:Surfaces - Segment surface
-   Workbenches:[Curves](Curves_Workbench.md)
+   Name: Curves SegmentSurface
+   MenuLocation: Surfaces - Segment surface
+   Workbenches: [Curves](Curves_Workbench.md)
 ---
 
 # Curves SegmentSurface/pl
@@ -37,4 +37,4 @@ The <img alt="" src=images/Curves_SegmentSurface.svg  style="width:24px;"> [Curv
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves SegmentSurface/pl
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves SegmentSurface/pl

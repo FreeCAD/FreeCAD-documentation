@@ -56,4 +56,4 @@ Punkty czworokąta wybierz za pomocą narzędzia <img alt="" src=images/TechDraw
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Measurement Of Angles On Holes/pl
+⏵ [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Measurement Of Angles On Holes/pl

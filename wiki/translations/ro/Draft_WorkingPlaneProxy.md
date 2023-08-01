@@ -1,6 +1,6 @@
 # Draft WorkingPlaneProxy/ro
 ---
-- GuiCommand:   Name:Draft SetWorkingPlaneProxy   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft - Utilities - Create WP Proxy   SeeAlso:[[Draft SelectPlane]]---
+- GuiCommand:   Name: Draft SetWorkingPlaneProxy   Workbenches: [Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation: Draft - Utilities - Create WP Proxy   SeeAlso: [[Draft SelectPlane]]---
 
 
 </div>
@@ -143,4 +143,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WorkingPlaneProxy/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WorkingPlaneProxy/ro

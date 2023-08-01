@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:SheetMetal Forming
-   Name/de:SheetMetal Prägen 
-   MenuLocation:SheetMetal - Make Forming in Wall
-   Workbenches:[Blech (SheetMetal)](SheetMetal_Workbench/de.md)
-   Shortcut:**M** **F**
+   Name: SheetMetal Forming
+   Name/de: SheetMetal Prägen 
+   MenuLocation: SheetMetal - Make Forming in Wall
+   Workbenches: [Blech (SheetMetal)](SheetMetal_Workbench/de.md)
+   Shortcut: **M** **F**
 ---
 
 # SheetMetal Forming/de
@@ -232,4 +232,4 @@ Es ist hier nicht nötig mit komplanaren Skizzen zu arbeiten.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal Forming/de
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal Forming/de

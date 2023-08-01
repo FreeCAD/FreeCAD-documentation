@@ -3,7 +3,7 @@
 ## Introduction
 
 
-{{TOCright}}
+
 
 L\'atelier A2plus est un [atelier externe](External_workbenches/fr.md) de Freecad qui permet l\'[assemblage](Assembly/fr.md) de plusieurs pièces.
 
@@ -715,4 +715,4 @@ Il s\'agit d\'une commande spécifique à A2plus. Elle résout les contraintes d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > A2plus Workbench/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > A2plus Workbench/fr

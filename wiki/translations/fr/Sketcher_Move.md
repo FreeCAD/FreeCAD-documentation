@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher Move
-   Name/fr:Sketcher Déplacer
-   MenuLocation:Esquisse - Outils d'esquisse - Déplacer
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**Z** **M**
-   Version:0.18
-   SeeAlso:[Sketcher Clone](Sketcher_Clone/fr.md), [Sketcher Copie](Sketcher_Copy/fr.md)
+   Name: Sketcher Move
+   Name/fr: Sketcher Déplacer
+   MenuLocation: Esquisse - Outils d'esquisse - Déplacer
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **Z** **M**
+   Version: 0.18
+   SeeAlso: [Sketcher Clone](Sketcher_Clone/fr.md), [Sketcher Copie](Sketcher_Copy/fr.md)
 ---
 
 # Sketcher Move/fr
@@ -44,4 +44,4 @@ Déplacer le pointeur de la souris sur l'emplacement de la cible '''3'''. L'él�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/fr

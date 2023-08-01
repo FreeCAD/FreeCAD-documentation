@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM CompEmConstraints
-   Name:FEM Contraintes électromagnétiques
-   MenuLocation:
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:0.21
-   SeeAlso:
+   Name: FEM CompEmConstraints
+   Name: FEM Contraintes électromagnétiques
+   MenuLocation: 
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Version: 0.21
+   SeeAlso: 
 ---
 
 # FEM CompEmConstraints/fr
@@ -35,4 +35,4 @@ Vous pouvez choisir ces contraintes :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM CompEmConstraints/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM CompEmConstraints/fr

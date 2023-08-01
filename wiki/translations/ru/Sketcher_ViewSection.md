@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Просмотр сечения
-   Name:Sketcher_ViewSection
-   MenuLocation:Sketch - Просмотр сечения
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md) 
-   Version:0.18
+   Name/ru: Просмотр сечения
+   Name: Sketcher_ViewSection
+   MenuLocation: Sketch - Просмотр сечения
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md) 
+   Version: 0.18
 ---
 
 # Sketcher ViewSection/ru
@@ -50,4 +50,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ShowObjects
-   Name/fr:Std Afficher tous les objets
-   MenuLocation:Affichage - Visibilité - Afficher tous les objets
-   Workbenches:Tous
-   SeeAlso:[Std Basculer visibilité](Std_ToggleVisibility/fr.md), [Std Afficher la sélection](Std_ShowSelection/fr.md), [Std Masquer la sélection](Std_HideSelection/fr.md), [Std Basculer tous les objets](Std_ToggleObjects/fr.md), [Std Masquer tous les objets](Std_HideObjects/fr.md)
+   Name: Std ShowObjects
+   Name/fr: Std Afficher tous les objets
+   MenuLocation: Affichage - Visibilité - Afficher tous les objets
+   Workbenches: Tous
+   SeeAlso: [Std Basculer visibilité](Std_ToggleVisibility/fr.md), [Std Afficher la sélection](Std_ShowSelection/fr.md), [Std Masquer la sélection](Std_HideSelection/fr.md), [Std Basculer tous les objets](Std_ToggleObjects/fr.md), [Std Masquer tous les objets](Std_HideObjects/fr.md)
 ---
 
 # Std ShowObjects/fr
@@ -48,4 +48,4 @@ Pour un exemple de script, voir [Std Basculer la visibilité](Std_ToggleVisibili
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ShowObjects/fr
+⏵ [documentation index](../README.md) > Std ShowObjects/fr

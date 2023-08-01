@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Redo
-   Name/ko:표준 다시 실행
-   MenuLocation:편집 - 다시 실행
-   Workbenches:모두
-   Shortcut:**Ctrl**+**Y**
-   SeeAlso:[표준 실행 취소](Std_Undo/ko.md)
+   Name: Std Redo
+   Name/ko: 표준 다시 실행
+   MenuLocation: 편집 - 다시 실행
+   Workbenches: 모두
+   Shortcut: **Ctrl**+**Y**
+   SeeAlso: [표준 실행 취소](Std_Undo/ko.md)
 ---
 
 # Std Redo/ko
@@ -63,4 +63,4 @@ FreeCAD.ActiveDocument.redo()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Redo/ko
+⏵ [documentation index](../README.md) > Std Redo/ko

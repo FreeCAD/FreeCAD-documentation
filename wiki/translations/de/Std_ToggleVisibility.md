@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ToggleVisibility
-   Name/de:Std SichtbarkeitUmschalten
-   MenuLocation:Ansicht - Ein/Ausblenden
-   Workbenches:Alle
-   Shortcut:**Space**
-   SeeAlso:[Std AuswahlEinblenden](Std_ShowSelection/de.md), [Std AuswahlAusblenden](Std_HideSelection/de.md), [Std ObjekteUmschalten](Std_ToggleObjects/de.md), [Std ObjekteEinblenden](Std_ShowObjects/de.md), [Std ObjekteAusblenden](Std_HideObjects/de.md)
+   Name: Std ToggleVisibility
+   Name/de: Std SichtbarkeitUmschalten
+   MenuLocation: Ansicht - Ein/Ausblenden
+   Workbenches: Alle
+   Shortcut: **Space**
+   SeeAlso: [Std AuswahlEinblenden](Std_ShowSelection/de.md), [Std AuswahlAusblenden](Std_HideSelection/de.md), [Std ObjekteUmschalten](Std_ToggleObjects/de.md), [Std ObjekteEinblenden](Std_ShowObjects/de.md), [Std ObjekteAusblenden](Std_HideObjects/de.md)
 ---
 
 # Std ToggleVisibility/de
@@ -75,4 +75,4 @@ else:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleVisibility/de
+⏵ [documentation index](../README.md) > Std ToggleVisibility/de

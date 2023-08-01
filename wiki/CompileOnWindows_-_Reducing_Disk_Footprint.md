@@ -163,4 +163,4 @@ This batch must be run with administrator privileges (or, you can set to allow u
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > CompileOnWindows - Reducing Disk Footprint
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > CompileOnWindows - Reducing Disk Footprint

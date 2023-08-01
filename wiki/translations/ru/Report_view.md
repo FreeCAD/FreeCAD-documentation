@@ -87,4 +87,4 @@ Right clicking the report view opens a context menu with the following commands:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Report view/ru
+⏵ [documentation index](../README.md) > Report view/ru

@@ -111,4 +111,4 @@ Es gibt ein weiteres Inhaltsverzeichnis für das [FreeCAD HANDBUCH](Manual:Intro
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/de
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/de

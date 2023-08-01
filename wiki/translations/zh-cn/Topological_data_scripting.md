@@ -1,7 +1,4 @@
 # Topological data scripting/zh-cn
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 ## 概述
@@ -1725,4 +1722,4 @@ s.read("test.stp")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Topological data scripting/zh-cn
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Topological data scripting/zh-cn

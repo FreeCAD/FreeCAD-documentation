@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh_FillupHoles
-   Name/it:Riempi i buchi
-   MenuLocation:Mesh - Riempi i buchi...
-   Workbenches:[Mesh](Mesh_Workbench/it.md)
-   SeeAlso:[Chiudi il buco](Mesh_FillInteractiveHole/it.md), [Aggiungi triangolo](Mesh_AddFacet/it.md)
+   Name: Mesh_FillupHoles
+   Name/it: Riempi i buchi
+   MenuLocation: Mesh - Riempi i buchi...
+   Workbenches: [Mesh](Mesh_Workbench/it.md)
+   SeeAlso: [Chiudi il buco](Mesh_FillInteractiveHole/it.md), [Aggiungi triangolo](Mesh_AddFacet/it.md)
 ---
 
 # Mesh FillupHoles/it
@@ -44,4 +44,4 @@ Il comando **Riempi i buchi** riempie i buchi negli oggetti mesh.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillupHoles/it
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillupHoles/it

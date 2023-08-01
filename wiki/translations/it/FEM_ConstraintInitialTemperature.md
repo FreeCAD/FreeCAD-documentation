@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM_ConstraintInitialTemperature
-   Name/it:Temperatura iniziale
-   MenuLocation:Modello - Vincoli termici - Vincolo temperatura iniziale
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
+   Name: FEM_ConstraintInitialTemperature
+   Name/it: Temperatura iniziale
+   MenuLocation: Modello - Vincoli termici - Vincolo temperatura iniziale
+   Workbenches: [FEM](FEM_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: [Tutorial FEM](FEM_tutorial/it.md)
 ---
 
 # FEM ConstraintInitialTemperature/it
@@ -65,4 +65,4 @@ Il vincolo applica la temperatura iniziale a tutti i nodi nel modello FEA
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintInitialTemperature/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintInitialTemperature/it

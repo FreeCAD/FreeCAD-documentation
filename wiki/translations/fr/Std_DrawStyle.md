@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std DrawStyle
-   Name/fr:Std Style de représentation
-   MenuLocation:Affichage - Style de représentation - ...
-   Workbenches:Tous
-   Shortcut:**V** **1** - **V** **7**
-   SeeAlso:[Std Boîte englobante](Std_SelBoundingBox/fr.md)
+   Name: Std DrawStyle
+   Name/fr: Std Style de représentation
+   MenuLocation: Affichage - Style de représentation - ...
+   Workbenches: Tous
+   Shortcut: **V** **1** - **V** **7**
+   SeeAlso: [Std Boîte englobante](Std_SelBoundingBox/fr.md)
 ---
 
 # Std DrawStyle/fr
@@ -107,4 +107,4 @@ Le style **Filaire ombré** remplace **Display Mode** des objets. Ce style corre
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DrawStyle/fr
+⏵ [documentation index](../README.md) > Std DrawStyle/fr

@@ -1,5 +1,4 @@
-# Developer hub/it
-{{TOCright}} <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;">
+# <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> Developer hub/it
 
 
 
@@ -148,4 +147,4 @@ Serve ancora molto lavoro prima che possa competere con i software commerciali.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > [Developer Documentation](Category_Developer Documentation.md) > Developer hub/it
+⏵ [documentation index](../README.md) > [Hubs](Category_Hubs.md) > [Developer Documentation](Category_Developer Documentation.md) > Developer hub/it

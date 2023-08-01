@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part CompSplittingTools
-   Name/de:Part AuswahlAufteilungswerkzeuge
-   MenuLocation:Formteil - Split
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:
+   Name: Part CompSplittingTools
+   Name/de: Part AuswahlAufteilungswerkzeuge
+   MenuLocation: Formteil - Split
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: 
 ---
 
 # Part CompSplittingTools/de
@@ -23,4 +23,4 @@ Eine Sammlung von Aufteilungswerkzeugen.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompSplittingTools/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompSplittingTools/de

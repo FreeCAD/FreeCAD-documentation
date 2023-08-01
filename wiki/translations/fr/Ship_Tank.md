@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Ship TankNew
-   Name/fr:Ship Réservoir
-   MenuLocation:Weights - Create a new tank
-   Workbenches:[Ship](Ship_Workbench/fr.md)
-   Shortcut:
-   SeeAlso:
+   Name: Ship TankNew
+   Name/fr: Ship Réservoir
+   MenuLocation: Weights - Create a new tank
+   Workbenches: [Ship](Ship_Workbench/fr.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Ship Tank/fr
@@ -32,4 +32,4 @@ Lorsque vous appuyez sur le bouton **Accept**, une nouvelle instance de réservo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Tank/fr
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Tank/fr

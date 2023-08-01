@@ -1,6 +1,6 @@
 # Part Revolve/cs
 ---
-- GuiCommand:   Name:Part Revolve   Name/cs:Díl Obtáčení   MenuLocation:Díl -> Obtáčení   Workbenches:[[Part_Workbench/cs   Díl]], Kompletace|SeeAlso:---
+- GuiCommand:   Name: Part Revolve   Name/cs: Díl Obtáčení   MenuLocation: Díl -> Obtáčení   Workbenches: [[Part_Workbench/cs   Díl]], Kompletace|SeeAlso: ---
 
 
 </div>
@@ -63,4 +63,4 @@ Jestli je vybrána uživetelsky definována osa, čísla definují směr obtáč
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/cs
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/cs

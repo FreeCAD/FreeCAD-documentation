@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConnectLines
-   Name/pl:Szkicownik: Połącz linie
-   MenuLocation:Szkic - Narzędzia szkicownika - Połącz linie
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**Z** **J**
-   Version:0.15
-   SeeAlso:[Wiązanie zbieżności punktów](Sketcher_ConstrainCoincident/pl.md)
+   Name: Sketcher ConnectLines
+   Name/pl: Szkicownik: Połącz linie
+   MenuLocation: Szkic - Narzędzia szkicownika - Połącz linie
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **Z** **J**
+   Version: 0.15
+   SeeAlso: [Wiązanie zbieżności punktów](Sketcher_ConstrainCoincident/pl.md)
 ---
 
 # Sketcher ConnectLines/pl
@@ -44,4 +44,4 @@ Przed użyciem tego polecenia upewnij się, że oczywiste wiązania *(poziome, p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConnectLines/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConnectLines/pl

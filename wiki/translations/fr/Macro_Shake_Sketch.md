@@ -254,4 +254,4 @@ Icône de la barre d\'outils ![](images/Macro_Shake_Sketch.png )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Shake Sketch/fr
+⏵ [documentation index](../README.md) > Macro Shake Sketch/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Booleans
-   Name/ro:Part Booleans
-   MenuLocation:Part - Booleans
-   Workbenches:[Part](Part_Workbench/ro.md), Complete
-   SeeAlso:[Part Union](Part_Union/ro.md), [Part Common](Part_Common/ro.md) and [Part Cut](Part_Cut/ro.md)
+   Name: Part Booleans
+   Name/ro: Part Booleans
+   MenuLocation: Part - Booleans
+   Workbenches: [Part](Part_Workbench/ro.md), Complete
+   SeeAlso: [Part Union](Part_Union/ro.md), [Part Common](Part_Common/ro.md) and [Part Cut](Part_Cut/ro.md)
 ---
 
 # Part Boolean/ro
@@ -80,4 +80,4 @@ In cases of coplanarity, even if the first boolean operation succeeds, subsequen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Boolean/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Boolean/ro

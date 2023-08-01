@@ -1,7 +1,4 @@
 # Mesh Scripting/ro
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 ### Introducere
@@ -171,4 +168,4 @@ See also [Mesh API](Mesh_API.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/ro
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/ro

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateRectangle
-   Name/fr:Sketcher Rectangle centré
-   MenuLocation:Esquisse - Géométries d'esquisse - Créer un rectangle centré
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **V**
-   Version: 0.20
-   SeeAlso:[Sketcher Rectangle](Sketcher_CreateRectangle/fr.md)
+   Name: Sketcher CreateRectangle
+   Name/fr: Sketcher Rectangle centré
+   MenuLocation: Esquisse - Géométries d'esquisse - Créer un rectangle centré
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **V**
+   Version:  0.20
+   SeeAlso: [Sketcher Rectangle](Sketcher_CreateRectangle/fr.md)
 ---
 
 # Sketcher CreateRectangle Center/fr
@@ -37,4 +37,4 @@ Au démarrage de l\'outil, le pointeur de la souris se transforme en une croix b
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle Center/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle Center/fr

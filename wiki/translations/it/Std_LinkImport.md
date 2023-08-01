@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_LinkImport
-   Name/it:Importa un link
-   MenuLocation:Nessuna
-   Workbenches:Tutti
-   Version:0.19
-   SeeAlso:[Crea un link](Std_LinkMake/it.md), [Crea un link relativo](Std_LinkMakeRelative/it.md), [Importa tutti i link](Std_LinkImportAll/it.md)
+   Name: Std_LinkImport
+   Name/it: Importa un link
+   MenuLocation: Nessuna
+   Workbenches: Tutti
+   Version: 0.19
+   SeeAlso: [Crea un link](Std_LinkMake/it.md), [Crea un link relativo](Std_LinkMakeRelative/it.md), [Importa tutti i link](Std_LinkImportAll/it.md)
 ---
 
 # Std LinkImport/it
@@ -43,4 +43,4 @@ Una copia della <img alt="" src=images/Std_Part.svg  style="width:16px;"> Parte 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkImport/it
+⏵ [documentation index](../README.md) > Std LinkImport/it

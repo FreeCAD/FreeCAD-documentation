@@ -301,4 +301,4 @@ Tři ikony symbolizují směr rotace. Zip soubory s ikonami najdete [zde](http:/
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro View Rotation/cs
+⏵ [documentation index](../README.md) > Macro View Rotation/cs

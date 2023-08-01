@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher RestoreInternalAlignmentGeometry
-   Name/pl:Szkicownik: Pokaż / ukryj geometrię wewnętrzną
-   MenuLocation:Szkic - Narzędzia szkicownika - Pokaż / ukryj geometrię wewnętrzną
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**Z** **I**
-   SeeAlso:
+   Name: Sketcher RestoreInternalAlignmentGeometry
+   Name/pl: Szkicownik: Pokaż / ukryj geometrię wewnętrzną
+   MenuLocation: Szkic - Narzędzia szkicownika - Pokaż / ukryj geometrię wewnętrzną
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **Z** **I**
+   SeeAlso: 
 ---
 
 # Sketcher RestoreInternalAlignmentGeometry/pl
@@ -47,4 +47,4 @@ Jeśli istnieją wolne miejsca wyrównania dla wybranego elementu, tworzona jest
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RestoreInternalAlignmentGeometry/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RestoreInternalAlignmentGeometry/pl

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintEqualLineArcLength
-   Name/fr:Assembly3 Contrainte égalité longueur d'arc
-   Icon:Assembly_ConstraintEqualLineArcLength.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 ConstraintEqualLineArcLength
+   Name/fr: Assembly3 Contrainte égalité longueur d'arc
+   Icon: Assembly_ConstraintEqualLineArcLength.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintEqualLineArcLength/fr
@@ -45,4 +45,4 @@ La contrainte "EqualLineArcLength" exige que le 2e élément soit une 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintEqualLineArcLength/fr
+⏵ [documentation index](../README.md) > Assembly3 ConstraintEqualLineArcLength/fr

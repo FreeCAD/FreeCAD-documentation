@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 AutoRecompute
-   Icon:Assembly_AutoRecompute.svg‎‎
-   MenuLocation:Assembly3 - Auto recompute
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 AutoRecompute
+   Icon: Assembly_AutoRecompute.svg‎‎
+   MenuLocation: Assembly3 - Auto recompute
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 AutoRecompute/pl
@@ -21,4 +21,4 @@ The <img alt="" src=images/Assembly_AutoRecompute.svg  style="width:24px;"> [Aut
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 AutoRecompute/pl
+⏵ [documentation index](../README.md) > Assembly3 AutoRecompute/pl

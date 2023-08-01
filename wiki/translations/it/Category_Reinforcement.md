@@ -17,4 +17,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Reinforcement/it
+⏵ [documentation index](../README.md) > Category:Reinforcement/it

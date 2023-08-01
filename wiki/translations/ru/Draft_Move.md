@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Move
-   Name/ru:Draft Move
-   MenuLocation:Черчение -> Перемещение
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:**M** **V**
+   Name: Draft Move
+   Name/ru: Draft Move
+   MenuLocation: Черчение -> Перемещение
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: **M** **V**
 ---
 
 # Draft Move/ru
@@ -116,4 +116,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move/ru

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionSelectLineAttributes
-   Name/de:TechDraw ErgänzungLinienmerkmaleAuswählen
-   MenuLocation:TechDraw - Extensions: Attributes/Modifications - Select Line Attributes, Cascade Spacing and Delta Distance
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ErgänzungLinienmerkmaleÄndern](TechDraw_ExtensionChangeLineAttributes/de.md)
+   Name: TechDraw ExtensionSelectLineAttributes
+   Name/de: TechDraw ErgänzungLinienmerkmaleAuswählen
+   MenuLocation: TechDraw - Extensions: Attributes/Modifications - Select Line Attributes, Cascade Spacing and Delta Distance
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ErgänzungLinienmerkmaleÄndern](TechDraw_ExtensionChangeLineAttributes/de.md)
 ---
 
 # TechDraw ExtensionSelectLineAttributes/de
@@ -62,4 +62,4 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionSelectLineAttributes/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionSelectLineAttributes/de

@@ -8,7 +8,7 @@
 </div>
 
 
-{{TOCright}}
+
 
 The preferences for the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md) can be found in the [Preferences Editor](Preferences_Editor.md). In the menu select **Edit → Preferences...** and then **Sketcher**.
 
@@ -309,4 +309,4 @@ See [forum topic](https://forum.freecad.org/viewtopic.php?t=70975&start=10).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Preferences/ru
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Preferences/ru

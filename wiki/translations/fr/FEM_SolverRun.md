@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM SolverRun
-   Name/fr:FEM Résolution
-   MenuLocation:Résolution - Lancer les calculs du solveur
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Shortcut:**S** **R**
-   SeeAlso:[FEM Réglage du solveur](FEM_SolverControl/fr.md)
+   Name: FEM SolverRun
+   Name/fr: FEM Résolution
+   MenuLocation: Résolution - Lancer les calculs du solveur
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Shortcut: **S** **R**
+   SeeAlso: [FEM Réglage du solveur](FEM_SolverControl/fr.md)
 ---
 
 # FEM SolverRun/fr
@@ -35,4 +35,4 @@ Cette commande est utilisée pour lancer facilement le solveur FEM. C\'est une v
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverRun/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverRun/fr

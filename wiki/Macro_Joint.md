@@ -49,4 +49,4 @@ ToolBar Icon  ![](images/Macro_Joint_Icon.svg )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Joint
+⏵ [documentation index](../README.md) > Macro Joint

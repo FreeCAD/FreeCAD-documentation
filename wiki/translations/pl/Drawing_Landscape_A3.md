@@ -1,6 +1,6 @@
 # Drawing Landscape A3/pl
 ---
-- GuiCommand:   Name:Drawing Landscape A3   Name/pl:Drawing Landscape A3   Workbenches:[[Drawing Workbench/pl   Drawing]], Complete|MenuLocation:Drawing - Insert new drawing - A3 Landscape   Shortcut:none---
+- GuiCommand:   Name: Drawing Landscape A3   Name/pl: Drawing Landscape A3   Workbenches: [[Drawing Workbench/pl   Drawing]], Complete|MenuLocation: Drawing - Insert new drawing - A3 Landscape   Shortcut: none---
 
 Narzędzie to tworzy nowy arkusz rysunku z już zainstalowanych szablonów. Obecnie, mimo że menu i pasek narzędzi pozwalają na formaty poziome od **A0** do **A4**, to jednak dostępny jest tylko szablon pionowy A3.
 
@@ -27,4 +27,4 @@ Jeśli strona nie jest wyświetlana, kliknij na ikonę odświeżania <img alt=""
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Landscape A3/pl
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Landscape A3/pl

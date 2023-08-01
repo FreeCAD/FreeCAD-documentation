@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Raytracing WriteCamera‏‎
-   Name/de:Raytracing Kamera‏‎
-   MenuLocation:Raytracing - Kamera‏‎|
-   Workbenches:[Raytracing](Raytracing_Workbench/de.md)
-   Shortcut:
-   SeeAlso:
+   Name: Raytracing WriteCamera‏‎
+   Name/de: Raytracing Kamera‏‎
+   MenuLocation: Raytracing - Kamera‏‎|
+   Workbenches: [Raytracing](Raytracing_Workbench/de.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Raytracing WriteCamera/de
@@ -53,4 +53,4 @@ Exportiert die aktuellen Kameraeigenschaften in eine pov-Datei zur Verwendung in
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteCamera/de
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteCamera/de

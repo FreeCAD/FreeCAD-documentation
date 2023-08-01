@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw LeaderLine
-   Name/pl:Rysunek Techniczny: Dodaj linię odniesienia do widoku
-   MenuLocation:Rysunek Techniczny - Dodaj linie - Dodaj linię odniesienia do widoku
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Version:0.19
-   SeeAlso:[Wstaw adnotację w postaci tekstu sformatowanego](TechDraw_RichTextAnnotation/pl.md), [Dodaj informacje spawalnicze do linii odniesienia](TechDraw_WeldSymbol/pl.md), [Grupa linii](TechDraw_LineGroup/pl.md)
+   Name: TechDraw LeaderLine
+   Name/pl: Rysunek Techniczny: Dodaj linię odniesienia do widoku
+   MenuLocation: Rysunek Techniczny - Dodaj linie - Dodaj linię odniesienia do widoku
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Version: 0.19
+   SeeAlso: [Wstaw adnotację w postaci tekstu sformatowanego](TechDraw_RichTextAnnotation/pl.md), [Dodaj informacje spawalnicze do linii odniesienia](TechDraw_WeldSymbol/pl.md), [Grupa linii](TechDraw_LineGroup/pl.md)
 ---
 
 # TechDraw LeaderLine/pl
@@ -163,4 +163,4 @@ leaderObj.Y = 5
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LeaderLine/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LeaderLine/pl

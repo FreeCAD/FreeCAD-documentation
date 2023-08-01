@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_TreeDrag
-   Name/it:Avvia il trascinamento
-   MenuLocation:Visualizza - Azioni della vista ad albero - Avvia il trascinamento
-   Workbenches:Tutti
-   Shortcut:**T** **D**
-   Version:0.19
+   Name: Std_TreeDrag
+   Name/it: Avvia il trascinamento
+   MenuLocation: Visualizza - Azioni della vista ad albero - Avvia il trascinamento
+   Workbenches: Tutti
+   Shortcut: **T** **D**
+   Version: 0.19
 ---
 
 # Std TreeDrag/it
@@ -39,4 +39,4 @@ Il comando **Avvia il trascinamento** avvia un\'operazione di trascinamento per 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeDrag/it
+⏵ [documentation index](../README.md) > Std TreeDrag/it

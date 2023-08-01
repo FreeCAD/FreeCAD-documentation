@@ -1,8 +1,4 @@
 # Tree view/pt-br
-{{TOCright}}
-
-
-
 ## Introdução
 
 The [tree view](Tree_view.md) appears in the **Model** tab of the [combo view](Combo_view.md), one of the most important panels in the [interface](Interface.md); it shows all user defined objects that are part of a FreeCAD document. The tree view is a representation of the [document\'s structure](document_structure.md), and indicates what information is saved to disk.
@@ -211,4 +207,4 @@ This indicates that the object will be hidden in the Tree view if the **Show ite
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Tree view/pt-br
+⏵ [documentation index](../README.md) > Tree view/pt-br

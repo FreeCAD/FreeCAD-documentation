@@ -1,6 +1,4 @@
 # App Part/fr
-{{TOCright}}
-
 ## Introduction
 
 <img alt="" src=images/Geofeaturegroup.svg  style="width:32px;">
@@ -31,4 +29,4 @@ Voir [Std Part](Std_Part/fr#Propri.C3.A9t.C3.A9s.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > App Part/fr
+⏵ [documentation index](../README.md) > App Part/fr

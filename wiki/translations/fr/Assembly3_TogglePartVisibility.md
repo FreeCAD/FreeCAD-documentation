@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Assembly3 TogglePartVisibility
-   Name/fr:Assembly3 Basculer la visibilité de pièces
-   Icon:Assembly_TogglePartVisibility.svg‎‎
-   MenuLocation:Assembly3 - Toggle part visibility
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
-   Shortcut:**A** puis **Espace**
+   Name: Assembly3 TogglePartVisibility
+   Name/fr: Assembly3 Basculer la visibilité de pièces
+   Icon: Assembly_TogglePartVisibility.svg‎‎
+   MenuLocation: Assembly3 - Toggle part visibility
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Shortcut: **A** puis **Espace**
 ---
 
 # Assembly3 TogglePartVisibility/fr
@@ -24,4 +24,4 @@ La commande <img alt="" src=images/Assembly_TogglePartVisibility.svg  style="wid
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 TogglePartVisibility/fr
+⏵ [documentation index](../README.md) > Assembly3 TogglePartVisibility/fr

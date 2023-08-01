@@ -1,6 +1,4 @@
 # Artwork Splash screen/fr
-{{TOCright}}
-
 Ce sont les écrans de démarrage qui ont été utilisés pour chaque version du programme.
 
 ## FreeCAD 0.20 
@@ -54,4 +52,4 @@ Ce sont les écrans de démarrage qui ont été utilisés pour chaque version du
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Splash screen/fr
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Splash screen/fr

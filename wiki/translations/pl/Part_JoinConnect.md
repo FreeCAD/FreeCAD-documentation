@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part JoinConnect
-   Name/pl:Część: Połącz obiekty
-   MenuLocation:Część - Połącz - Połącz obiekty
-   Workbenches:[Część](Part_Workbench/pl.md)
-   Version:0.16
-   SeeAlso:[Osadź obiekty](Part_JoinEmbed/pl.md), [Wycięcie dla obiektu](Part_JoinCutout/pl.md), [Operacja logiczna](Part_Boolean/pl.md), [Grubość](Part_Thickness/pl.md)
+   Name: Part JoinConnect
+   Name/pl: Część: Połącz obiekty
+   MenuLocation: Część - Połącz - Połącz obiekty
+   Workbenches: [Część](Part_Workbench/pl.md)
+   Version: 0.16
+   SeeAlso: [Osadź obiekty](Part_JoinEmbed/pl.md), [Wycięcie dla obiektu](Part_JoinCutout/pl.md), [Operacja logiczna](Part_Boolean/pl.md), [Grubość](Part_Thickness/pl.md)
 ---
 
 # Part JoinConnect/pl
@@ -117,4 +117,4 @@ Samo narzędzie jest zaimplementowane w środowisku Python, patrz **/Mod/Part/BO
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/pl

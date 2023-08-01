@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name/ru:Вставить электронную таблицу
-   Name:TechDraw_SpreadsheetView
-   MenuLocation:TechDraw - Вставить электронную таблицу
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md), [Spreadsheet](Spreadsheet_Workbench/ru.md)
+   Name/ru: Вставить электронную таблицу
+   Name: TechDraw_SpreadsheetView
+   MenuLocation: TechDraw - Вставить электронную таблицу
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md), [Spreadsheet](Spreadsheet_Workbench/ru.md)
 ---
 
 # TechDraw SpreadsheetView/ru
@@ -80,4 +80,4 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SpreadsheetView/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SpreadsheetView/ru

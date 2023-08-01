@@ -14,4 +14,4 @@ Ta kategoria zawiera listę stron związanych ze środowiskiem pracy [Elektromag
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:EM/pl
+⏵ [documentation index](../README.md) > Category:EM/pl

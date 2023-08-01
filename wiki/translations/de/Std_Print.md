@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Print
-   Name/de:Std Drucken
-   MenuLocation:Datei - Drucken...
-   Workbenches:Alle
-   Shortcut:**Ctrl**+**P**
-   SeeAlso:[Std DruckVorschau](Std_PrintPreview/de.md) [Std DruckenPdf](Std_PrintPdf/de.md), [Std Export](Std_Export/de.md), [Std Ansicht BildschirmFoto](Std_ViewScreenShot/de.md)
+   Name: Std Print
+   Name/de: Std Drucken
+   MenuLocation: Datei - Drucken...
+   Workbenches: Alle
+   Shortcut: **Ctrl**+**P**
+   SeeAlso: [Std DruckVorschau](Std_PrintPreview/de.md) [Std DruckenPdf](Std_PrintPdf/de.md), [Std Export](Std_Export/de.md), [Std Ansicht BildschirmFoto](Std_ViewScreenShot/de.md)
 ---
 
 # Std Print/de
@@ -47,4 +47,4 @@ Die **Drucken**-Anweisung ist in erster Linie zum Drucken von [TechDraw Arbeitsb
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Print/de
+⏵ [documentation index](../README.md) > Std Print/de

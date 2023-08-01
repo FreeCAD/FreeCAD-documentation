@@ -25,4 +25,4 @@ Le [forum FreeCAD](https://forum.freecadweb.org/viewforum.php?f=3) est le meille
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Important information/fr
+⏵ [documentation index](../README.md) > Important information/fr

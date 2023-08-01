@@ -5,7 +5,7 @@
 
 ## Wprowadzenie
 
-<img alt="Ikonka FreeCAD dla zewnętrznego środowiska pracy Krzywe." src=images/Curves_workbench_icon.svg  style="width:128px;"> {{TOCright}}
+<img alt="Ikonka FreeCAD dla zewnętrznego środowiska pracy Krzywe." src=images/Curves_workbench_icon.svg  style="width:128px;"> 
 
 Środowisko pracy Krzywe to [Zewnętrzne środowisko pracy](External_workbenches/pl.md) oparte na bazie kodu Python z kolekcją narzędzi do krzywych i powierzchni NURBS. To środowisko pracy zostało opracowane przy użyciu FreeCAD Master i OCC 7.4.
 
@@ -62,4 +62,4 @@ Pobierz środowisko pracy Krzywe poprzez <img alt="" src=images/Std_AddonMgr.svg
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [Curves](Category_Curves.md) > Curves Workbench/pl
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [Curves](Category_Curves.md) > Curves Workbench/pl

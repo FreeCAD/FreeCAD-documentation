@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM CompPostCreateFunctions
-   Name/it:Fem CompPostCreateFunctions
-   MenuLocation: Risultati - Filter Functions
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
+   Name: FEM CompPostCreateFunctions
+   Name/it: Fem CompPostCreateFunctions
+   MenuLocation:  Risultati - Filter Functions
+   Workbenches: [FEM](FEM_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: [Tutorial FEM](FEM_tutorial/it.md)
 ---
 
 # FEM PostCreateFunctions/it
@@ -53,4 +53,4 @@ You can choose these functions:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctions/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctions/it

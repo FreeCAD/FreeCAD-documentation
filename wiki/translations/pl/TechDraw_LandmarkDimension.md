@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw LandmarkDimension
-   Name/pl:Rysunek Techniczny: Wstaw wymiar przestrzenny
-   MenuLocation:Rysunek Techniczny - Wymiary - Wstaw wymiar przestrzenny - EXPERYMENTALNE
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Version:0.19
-   SeeAlso:[Wstaw wymiar poziomy](TechDraw_HorizontalDimension/pl.md), [Wstaw wymiar pionowy](TechDraw_VerticalDimension/pl.md)
+   Name: TechDraw LandmarkDimension
+   Name/pl: Rysunek Techniczny: Wstaw wymiar przestrzenny
+   MenuLocation: Rysunek Techniczny - Wymiary - Wstaw wymiar przestrzenny - EXPERYMENTALNE
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Version: 0.19
+   SeeAlso: [Wstaw wymiar poziomy](TechDraw_HorizontalDimension/pl.md), [Wstaw wymiar pionowy](TechDraw_VerticalDimension/pl.md)
 ---
 
 # TechDraw LandmarkDimension/pl
@@ -72,4 +72,4 @@ rc = page.addView(dim1)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LandmarkDimension/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LandmarkDimension/pl

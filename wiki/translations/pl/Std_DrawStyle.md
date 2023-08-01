@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std DrawStyle
-   Name/pl:Std: Styl kreślenia
-   MenuLocation:Widok - Styl kreślenia - ...
-   Workbenches:Wszystkie
-   Shortcut:**V** **1** - **V** **7**
-   SeeAlso:[Ramka otaczająca](Std_SelBoundingBox/pl.md)
+   Name: Std DrawStyle
+   Name/pl: Std: Styl kreślenia
+   MenuLocation: Widok - Styl kreślenia - ...
+   Workbenches: Wszystkie
+   Shortcut: **V** **1** - **V** **7**
+   SeeAlso: [Ramka otaczająca](Std_SelBoundingBox/pl.md)
 ---
 
 # Std DrawStyle/pl
@@ -111,4 +111,4 @@ Styl **Płaskie linie** zastępuje styl **Tryb wyświetlania** obiektów. Ten st
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DrawStyle/pl
+⏵ [documentation index](../README.md) > Std DrawStyle/pl

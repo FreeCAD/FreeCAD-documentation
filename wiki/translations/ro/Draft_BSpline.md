@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft BSpline
-   Name/ro:Funcții BSpline
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   MenuLocation:Draft - BSpline
-   Shortcut:**B** **S**
-   SeeAlso:[Draft Wire](Draft_Wire/ro.md)
+   Name: Draft BSpline
+   Name/ro: Funcții BSpline
+   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   MenuLocation: Draft - BSpline
+   Shortcut: **B** **S**
+   SeeAlso: [Draft Wire](Draft_Wire/ro.md)
 ---
 
 # Draft BSpline/ro
@@ -208,4 +208,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BSpline/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BSpline/ro

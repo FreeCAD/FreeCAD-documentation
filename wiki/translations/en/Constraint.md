@@ -2,7 +2,7 @@
 ## Introduction
 
 
-{{TOCright}}
+
 
 In FreeCAD the word \"[Constraint](Constraint.md)\" is normally used to refer to a \"rule\" to draw geometrical shapes inside a <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketch](Sketch.md) (`Sketcher::SketchObject` class). A constraint limits the position of a certain geometrical element in different ways, for example, it can specify whether the element is horizontal, vertical, tangent, parallel, perpendicular, coincident with a point, concentric to another object, etc.
 
@@ -47,4 +47,4 @@ See the information in the <img alt="" src=images/Workbench_Sketcher.svg  style=
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Constraint/en
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Constraint/en

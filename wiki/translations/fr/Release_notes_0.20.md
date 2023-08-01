@@ -1,6 +1,4 @@
 # Release notes 0.20/fr
-{{TOCright}}
-
 **FreeCAD 0.20** a été publié le **14 juin 2022**, téléchargez le depuis la page [Téléchargement](Download/fr.md). Cette page liste toutes les nouvelles fonctionnalités et les changements.
 
 Les notes de versions plus anciennes de FreeCAD sont disponibles dans la [Liste des fonctionnalités](Feature_list/fr#Notes_de_versions.md).
@@ -612,4 +610,4 @@ Si l\'[atelier Start](Start_Workbench/fr.md) n\'affiche qu\'une page blanche, vo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.20/fr
+⏵ [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.20/fr

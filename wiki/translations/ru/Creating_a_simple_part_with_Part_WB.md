@@ -375,4 +375,4 @@ FreeCAD делают добровольцы в свободное время. Е
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Category_Part.md) > Creating a simple part with Part WB/ru
+⏵ [documentation index](../README.md) > [Part](Category_Part.md) > Creating a simple part with Part WB/ru

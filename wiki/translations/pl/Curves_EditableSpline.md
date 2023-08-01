@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Curves EditableSpline
-   MenuLocation:Curves - Freehand BSpline
-   Workbenches:[Curves](Curves_Workbench.md)
+   Name: Curves EditableSpline
+   MenuLocation: Curves - Freehand BSpline
+   Workbenches: [Curves](Curves_Workbench.md)
 ---
 
 # Curves EditableSpline/pl
@@ -53,4 +53,4 @@ During the command a special edit mode is active and there are several actions a
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves EditableSpline/pl
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves EditableSpline/pl

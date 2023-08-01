@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part SectionCut
-   Name/pl:Część: Wycinek przekroju
-   MenuLocation:Widok - Wycinek z przekroju
-   Workbenches:All
-   Version:0.20
-   SeeAlso:[[Std_ToggleClipPlane/pl]]
+   Name: Part SectionCut
+   Name/pl: Część: Wycinek przekroju
+   MenuLocation: Widok - Wycinek z przekroju
+   Workbenches: All
+   Version: 0.20
+   SeeAlso: [[Std_ToggleClipPlane/pl]]
 ---
 
 # Part SectionCut/pl
@@ -115,4 +115,4 @@ Wszystkie widoczne obiekty umieszcza się w kontenerze <img alt="" src=images/Pa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SectionCut/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SectionCut/pl

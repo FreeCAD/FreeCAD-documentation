@@ -70,4 +70,4 @@ Le opzioni di personalizzazione avanzate sono disponibili dal menu **Strumenti â
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Manual:The FreeCAD Interface/it
+âµ [documentation index](../README.md) > Manual:The FreeCAD Interface/it

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM EquationDeformation
-   Name/fr:FEM
-   MenuLocation:Résolution - Équations mécaniques - Équation de déformation
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:0.21
-   SeeAlso:[FEM Équation d'élasticité](FEM_EquationElasticity/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM EquationDeformation
+   Name/fr: FEM
+   MenuLocation: Résolution - Équations mécaniques - Équation de déformation
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Version: 0.21
+   SeeAlso: [FEM Équation d'élasticité](FEM_EquationElasticity/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM EquationDeformation/fr
@@ -89,4 +89,4 @@ Les résultats disponibles dépendent des [paramètres du solveur](#Param.C3.A8t
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationDeformation/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationDeformation/fr

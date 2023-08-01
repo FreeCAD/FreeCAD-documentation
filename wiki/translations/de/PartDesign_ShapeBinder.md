@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign ShapeBinder
-   Name/de:PartDesign FormBinder
-   MenuLocation:Part Design - Formbinder erstellen
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[PartDesign UnterFormBinder](PartDesign_SubShapeBinder/de.md),[PartDesign Klon](PartDesign_Clone/de.md)
+   Name: PartDesign ShapeBinder
+   Name/de: PartDesign FormBinder
+   MenuLocation: Part Design - Formbinder erstellen
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [PartDesign UnterFormBinder](PartDesign_SubShapeBinder/de.md),[PartDesign Klon](PartDesign_Clone/de.md)
 ---
 
 # PartDesign ShapeBinder/de
@@ -119,4 +119,4 @@ Und so wird das Formelement Formbinder verwendet, um das Ziel zu erreichen:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/de

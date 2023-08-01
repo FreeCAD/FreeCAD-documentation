@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar Footing Reinforcement
-   Name/pl:Architektura: Zbrojenie stóp fundamentowych
-   MenuLocation:Architektura - Narzędzia zbrojenia - Zbrojenie stóp fundamentowych
-   Workbenches:[Architektura](Arch_Workbench/pl.md)
-   SeeAlso:[Zbrojenie](Reinforcement_Workbench/pl.md), [Pręt zbrojeniowy](Arch_Rebar/pl.md)
+   Name: Arch Rebar Footing Reinforcement
+   Name/pl: Architektura: Zbrojenie stóp fundamentowych
+   MenuLocation: Architektura - Narzędzia zbrojenia - Zbrojenie stóp fundamentowych
+   Workbenches: [Architektura](Arch_Workbench/pl.md)
+   SeeAlso: [Zbrojenie](Reinforcement_Workbench/pl.md), [Pręt zbrojeniowy](Arch_Rebar/pl.md)
 ---
 
 # Arch Rebar Footing Reinforcement/pl
@@ -510,4 +510,4 @@ footingReinforcementGroup = editFootingReinforcement(
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Footing Reinforcement/pl
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Footing Reinforcement/pl

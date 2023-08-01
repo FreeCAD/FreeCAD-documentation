@@ -1,7 +1,4 @@
-# Contributors/de
-{{TOCright}}
-
-<img alt="" src=images/FreeCAD_Users_Contributors.svg  style="width:64px;">
+# <img alt="" src=images/FreeCAD_Users_Contributors.svg  style="width:64px;"> Contributors/de
 
 FreeCAD wäre nicht das, was es ist ohne die großartige Mitarbeit vieler Personen. Hier ist ein Überblick über die Personen und Unternehmen, die im Laufe der Zeit etwas zu FreeCAD beigetragen haben. Für die Bibliotheken Dritter bedanken wir uns auf der [Third Party Libraries/de](Third_Party_Libraries/de.md)-Seite.
 
@@ -264,4 +261,4 @@ Entwickler von FreeCAD-Addons (abgerufen von <https://github.com/FreeCAD/FreeCAD
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > Contributors/de
+⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > Contributors/de

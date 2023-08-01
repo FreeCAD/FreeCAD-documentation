@@ -13,4 +13,4 @@ This category collects pages related to packing FreeCAD for different platforms,
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Packaging/en
+⏵ [documentation index](../README.md) > Category:Packaging/en

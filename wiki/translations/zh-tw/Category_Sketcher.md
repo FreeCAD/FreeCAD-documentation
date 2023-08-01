@@ -10,4 +10,4 @@ This category lists pages related to the [Sketcher Workbench/zh-tw](Sketcher_Wor
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Sketcher/zh-tw
+⏵ [documentation index](../README.md) > Category:Sketcher/zh-tw

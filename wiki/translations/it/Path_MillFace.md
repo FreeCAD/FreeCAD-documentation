@@ -1,12 +1,12 @@
 # Path MillFace/it
 ---
-- GuiCommand:   Name:Path-Face   Name/it:Path-Face   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path - Facia   Shortcut|SeeAlso:---
+- GuiCommand:   Name: Path-Face   Name/it: Path-Face   Workbenches: [[Path Workbench/it   Path]]|MenuLocation: Path - Facia   Shortcut|SeeAlso: ---
 
 
 </div>
 
 ---
-- GuiCommand:   Name:Path-Face   Name/it:Path-Face   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path - Facia   Shortcut|SeeAlso:---
+- GuiCommand:   Name: Path-Face   Name/it: Path-Face   Workbenches: [[Path Workbench/it   Path]]|MenuLocation: Path - Facia   Shortcut|SeeAlso: ---
 
 ## Description
 
@@ -230,4 +230,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path MillFace/it
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path MillFace/it

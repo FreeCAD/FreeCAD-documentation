@@ -1,8 +1,4 @@
 # Sketcher scripting/pl
-{{TOCright}}
-
-
-
 ## Tworzenie obiektu Szkicu przy użyciu środowiska Python 
 
 Tworzymy obiekt Szkic w następujący sposób:
@@ -240,4 +236,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher scripting/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher scripting/pl

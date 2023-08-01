@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Web BrowserZoomOut
-   Name/fr:Web Zoom arrière
-   MenuLocation:
-   Workbenches:[Web](Web_Workbench/fr.md), [Start](Start_Workbench/fr.md)
-   SeeAlso:
+   Name: Web BrowserZoomOut
+   Name/fr: Web Zoom arrière
+   MenuLocation: 
+   Workbenches: [Web](Web_Workbench/fr.md), [Start](Start_Workbench/fr.md)
+   SeeAlso: 
 ---
 
 # Web BrowserZoomOut/fr
@@ -28,4 +28,4 @@ Utilisez la commande <img alt="" src=images/Web_BrowserZoomOut.svg  style="width
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserZoomOut/fr
+⏵ [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserZoomOut/fr

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateOblong
-   MenuLocation:Sketch - Sketcher geometries - Create rounded rectangle
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**G** **O**
-   Version:0.20
-   SeeAlso:[Sketcher CreateRectangle](Sketcher_CreateRectangle.md)
+   Name: Sketcher CreateOblong
+   MenuLocation: Sketch - Sketcher geometries - Create rounded rectangle
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **G** **O**
+   Version: 0.20
+   SeeAlso: [Sketcher CreateRectangle](Sketcher_CreateRectangle.md)
 ---
 
 # Sketcher CreateOblong/pt-br
@@ -32,4 +32,4 @@ This tool draws a rounded rectangle by picking two opposite points. When startin
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOblong/pt-br
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOblong/pt-br

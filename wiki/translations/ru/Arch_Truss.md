@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Ферма
-   Name:Arch_Truss
-   MenuLocation:Arch - Ферма
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   Version:0.19
+   Name/ru: Ферма
+   Name: Arch_Truss
+   MenuLocation: Arch - Ферма
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   Version: 0.19
 ---
 
 # Arch Truss/ru
@@ -95,4 +95,4 @@ truss.HeightEnd = 400
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Truss/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Truss/ru

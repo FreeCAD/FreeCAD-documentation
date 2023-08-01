@@ -1,6 +1,4 @@
 # Mesh to Part/tr
-{{TOCright}}
-
 ## Convert Part objects to meshes 
 
 Converting higher-level objects such as [Part](Part_Workbench.md) shapes to simpler objects such as [meshes](Mesh_Workbench.md) is a pretty straightforward operation where all faces of a Part object get triangulated. The result of that triangulation (tessellation) is then used to construct a mesh:
@@ -107,4 +105,4 @@ Part.show(solid)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh to Part/tr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh to Part/tr

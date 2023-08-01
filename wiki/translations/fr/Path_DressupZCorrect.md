@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path DressupZCorrect
-   Name/fr:Path Correction en Z
-   MenuLocation:Path - Finition du parcours - Correction de la profondeur en Z
-   Workbenches:[Path](Path_Workbench/fr.md)
+   Name: Path DressupZCorrect
+   Name/fr: Path Correction en Z
+   MenuLocation: Path - Finition du parcours - Correction de la profondeur en Z
+   Workbenches: [Path](Path_Workbench/fr.md)
 ---
 
 # Path DressupZCorrect/fr
@@ -35,4 +35,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupZCorrect/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupZCorrect/fr

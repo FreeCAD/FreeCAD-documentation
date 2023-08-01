@@ -1,7 +1,7 @@
 # <img alt="Path workbench icon" src=images/Workbench_Path.svg  style="width:64px;"> Path Workbench/pt
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -239,4 +239,4 @@ See [Path scripting](Path_scripting.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/pt
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/pt

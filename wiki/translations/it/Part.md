@@ -2,7 +2,7 @@
 ## Introduzione
 
 
-{{TOCright}}
+
 
 In FreeCAD il termine \"[Parte](Part/it.md)\" è in genere usato per riferirsi ad una <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Parte](Std_Part/it.md) (classe `App::Part`), un tipo di oggetto contenitore che è definito dal sistema base. Questa Parte è usata per gestire la posizione di forme tridimensionali allo scopo di creare assemblaggi meccanici.
 
@@ -36,4 +36,4 @@ Tuttavia, quando è richiesta maggiore precisione, vanno fatte le dovute distinz
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Part/it
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Part/it

@@ -1,8 +1,4 @@
 # Getting started/de
-{{TOCright}}
-
-
-
 ## Vorwort
 
 FreeCAD ist eine [parametrische 3D Modellierungssoftware](About_FreeCAD/de.md) und hauptsächlich für mechanisches Konstruieren ausgelegt. FreeCAD unterstützt aber auch alle anderen Anwendungen, bei denen 3D Objekte präzise und kontrolliert, mit einer Historie versehen modelliert werden müssen.
@@ -164,4 +160,4 @@ Und schließlich ist eine der leistungsfähigsten Funktionen von FreeCAD die [sc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Getting started/de
+⏵ [documentation index](../README.md) > Getting started/de

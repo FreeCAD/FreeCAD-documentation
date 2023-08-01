@@ -1,6 +1,6 @@
 # Part Cone/sv
 ---
-- GuiCommand:   Name:Part Cone   Name/sv:Part Cone   MenuLocation:Part -> Cone   Workbenches:[SeeAlso:[[Part_CreatePrimitives/sv|Part CreatePrimitives](Part_Workbench/sv___Part]],_Complete.md)---
+- GuiCommand:   Name: Part Cone   Name/sv: Part Cone   MenuLocation: Part -> Cone   Workbenches: [SeeAlso: [[Part_CreatePrimitives/sv|Part CreatePrimitives](Part_Workbench/sv___Part]],_Complete.md)---
 
 
 </div>
@@ -105,4 +105,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/sv
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/sv

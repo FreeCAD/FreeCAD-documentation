@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Point
-   MenuLocation:Part - [Create primitives](Part_Primitives.md) - Point
-   Workbenches:[Part](Part_Workbench.md), [OpenSCAD](OpenSCAD_Workbench.md)
-   SeeAlso:[Part Primitives](Part_Primitives.md)
+   Name: Part Point
+   MenuLocation: Part - [Create primitives](Part_Primitives.md) - Point
+   Workbenches: [Part](Part_Workbench.md), [OpenSCAD](OpenSCAD_Workbench.md)
+   SeeAlso: [Part Primitives](Part_Primitives.md)
 ---
 
 # Part Point
@@ -76,4 +76,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Point
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Point

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 AddWorkplane
-   Icon:Assembly_Add_Workplane.svg‎‎
-   MenuLocation:Assembly3 - Workplane and origin - Add workplane
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 AddWorkplane
+   Icon: Assembly_Add_Workplane.svg‎‎
+   MenuLocation: Assembly3 - Workplane and origin - Add workplane
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 AddWorkplane
@@ -29,4 +29,4 @@ Valid items are e.g. elements, bodies, vertexes, edges, faces, origins, and othe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 AddWorkplane
+⏵ [documentation index](../README.md) > Assembly3 AddWorkplane

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std Windows
-   MenuLocation:Windows - Windows...
-   Workbenches:All
-   SeeAlso:[Std ActivateNextWindow](Std_ActivateNextWindow.md), [Std ActivatePrevWindow](Std_ActivatePrevWindow.md)
+   Name: Std Windows
+   MenuLocation: Windows - Windows...
+   Workbenches: All
+   SeeAlso: [Std ActivateNextWindow](Std_ActivateNextWindow.md), [Std ActivatePrevWindow](Std_ActivatePrevWindow.md)
 ---
 
 # Std Windows/en
@@ -44,4 +44,4 @@ The **Std Windows** command opens a dialog box with a list of [Main view area](M
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Windows/en
+⏵ [documentation index](../README.md) > Std Windows/en

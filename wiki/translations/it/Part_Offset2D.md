@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Offset2D
-   Name/it:Offset 2D
-   MenuLocation:Parte - Offset 2D...
-   Workbenches:[Parte](Part_Workbench/it.md)
-   Version:0.17
-   SeeAlso:[Part Offset 3D](Part_Offset/it.md), [Part Spessore](Part_Thickness/it.md), [Offset di Draft](Draft_Offset/it.md)
+   Name: Part Offset2D
+   Name/it: Offset 2D
+   MenuLocation: Parte - Offset 2D...
+   Workbenches: [Parte](Part_Workbench/it.md)
+   Version: 0.17
+   SeeAlso: [Part Offset 3D](Part_Offset/it.md), [Part Spessore](Part_Thickness/it.md), [Offset di Draft](Draft_Offset/it.md)
 ---
 
 # Part Offset2D/it
@@ -168,4 +168,4 @@ Part.show(enlarged_circle)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset2D/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset2D/it

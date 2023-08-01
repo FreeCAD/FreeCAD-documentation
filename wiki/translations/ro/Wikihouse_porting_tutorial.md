@@ -250,4 +250,4 @@ Aceste fișiere sunt gata pentru a fi trimise la atelierele care vor efectua aș
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Wikihouse porting tutorial/ro
+⏵ [documentation index](../README.md) > Wikihouse porting tutorial/ro

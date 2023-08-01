@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher RestoreInternalAlignmentGeometry
-   Name/es:Sketcher RestoreInternalAlignmentGeometry
-   MenuLocation:Sketch - Sketcher tools - Show/hide internal geometry
-   Workbenches:[Sketcher](Sketcher_Workbench/es.md)
-   Shortcut:**Ctrl**+**Shift**+**E**
-   SeeAlso:
+   Name: Sketcher RestoreInternalAlignmentGeometry
+   Name/es: Sketcher RestoreInternalAlignmentGeometry
+   MenuLocation: Sketch - Sketcher tools - Show/hide internal geometry
+   Workbenches: [Sketcher](Sketcher_Workbench/es.md)
+   Shortcut: **Ctrl**+**Shift**+**E**
+   SeeAlso: 
 ---
 
 # Sketcher RestoreInternalAlignmentGeometry/es
@@ -44,4 +44,4 @@ If there are free alignment places for the selected element, new construction ge
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RestoreInternalAlignmentGeometry/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RestoreInternalAlignmentGeometry/es

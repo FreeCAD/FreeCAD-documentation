@@ -1,6 +1,6 @@
 # Sketcher ConstrainParallel/it
 ---
-- GuiCommand:   Name:Sketcher ConstrainParallel   Name/it:Parallela   Icon:Constraint Parallel.svg   Workbenches:[MenuLocation:PartDesign - Schizzo - Parallela   Shortcut:**Shift** + **P**   SeeAlso:[[Sketcher ConstrainVertical/it|Verticale](Sketcher_Workbench/it___Schizzo]].md), [Orizzontale](Sketcher_ConstrainHorizontal/it.md)---
+- GuiCommand:   Name: Sketcher ConstrainParallel   Name/it: Parallela   Icon: Constraint Parallel.svg   Workbenches: [MenuLocation: PartDesign - Schizzo - Parallela   Shortcut: **Shift** + **P**   SeeAlso: [[Sketcher ConstrainVertical/it|Verticale](Sketcher_Workbench/it___Schizzo]].md), [Orizzontale](Sketcher_ConstrainHorizontal/it.md)---
 
 
 </div>
@@ -89,4 +89,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainParallel/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainParallel/it

@@ -1,6 +1,6 @@
 # Part Extrude/cs
 ---
-- GuiCommand:   Name:Part Extrude   Name/cs:Díl Vysunutí   MenuLocation:Díl -> Vysunutí   Workbenches:[[Part_Workbench/cs   Modul Díl]], Kompletace|SeeAlso:---
+- GuiCommand:   Name: Part Extrude   Name/cs: Díl Vysunutí   MenuLocation: Díl -> Vysunutí   Workbenches: [[Part_Workbench/cs   Modul Díl]], Kompletace|SeeAlso: ---
 
 
 </div>
@@ -158,4 +158,4 @@ Parametrický obdélníkový kvádr je definován prametry
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/cs
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/cs

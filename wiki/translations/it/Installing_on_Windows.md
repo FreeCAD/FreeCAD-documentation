@@ -5,7 +5,7 @@
 }}
 
 
-{{TOCright}}
+
 
 ## Installazione Standard 
 
@@ -106,4 +106,4 @@ Notare che la disinstallazione silente fallisce se c\'è un\'instanza aperta di 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Installing on Windows/it
+⏵ [documentation index](../README.md) > Installing on Windows/it

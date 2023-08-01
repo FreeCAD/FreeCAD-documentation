@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std DlgCustomize
-   Name/de:Std DlgAnpassen
-   MenuLocation:Werkzeuge - Benutzerdefiniert...
-   Workbenches:Alle
-   SeeAlso:[Anpassung der Oberfläche](Interface_Customization/de.md)
+   Name: Std DlgCustomize
+   Name/de: Std DlgAnpassen
+   MenuLocation: Werkzeuge - Benutzerdefiniert...
+   Workbenches: Alle
+   SeeAlso: [Anpassung der Oberfläche](Interface_Customization/de.md)
 ---
 
 # Std DlgCustomize/de
@@ -40,4 +40,4 @@ Der Befehl **Std DlgAnpassen** öffnet das Dialogfeld Benutzerdefiniert, das Zug
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgCustomize/de
+⏵ [documentation index](../README.md) > Std DlgCustomize/de

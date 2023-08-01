@@ -49,4 +49,4 @@ In FreeCAD version 0.20 and above a pitch circle can be created with the [TechDr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Pitch Circle Tutorial
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Pitch Circle Tutorial

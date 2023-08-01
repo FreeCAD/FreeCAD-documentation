@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM CompMechEquations
-   MenuLocation:
-   Workbenches:[FEM](FEM_Workbench.md)
-   Version:0.21
-   SeeAlso:
+   Name: FEM CompMechEquations
+   MenuLocation: 
+   Workbenches: [FEM](FEM_Workbench.md)
+   Version: 0.21
+   SeeAlso: 
 ---
 
 # FEM CompMechEquations
@@ -28,4 +28,4 @@ You can choose these equations:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM CompMechEquations
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM CompMechEquations

@@ -2,7 +2,7 @@
 **As of 7 July 2019, the FreeCAD community has been observing that downloading AppImages from Github seems to timeout before completion. We aren't sure why this is occurring. If this happens to you please try downloading again. It may take a few tries. A recommended practice is to use the AppImage [https://www.freecadweb.org/wiki/Appimage#Automatic_updating auto-updating feature], which will restore the download from the place it failed.**
 
 
-{{TOCright}}
+
 
 ## What is an AppImage? 
 
@@ -173,4 +173,4 @@ The repository for these scripts is at [realthunder/FreeCADMakeImage](https://gi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > [Testing](Category_Testing.md) > AppImage/en
+⏵ [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > [Testing](Category_Testing.md) > AppImage/en

@@ -34,4 +34,4 @@ Encouraging results from David_D:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Sphinx/en
+⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Sphinx/en

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateArcOfEllipse
-   MenuLocation:Sketch - Sketcher geometries - Create arc of ellipse
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**G** **E** **A**
-   Version:0.15
-   SeeAlso:[Sketcher Ellipse by center](Sketcher_CreateEllipseByCenter.md), [Sketcher Arc](Sketcher_CompCreateArc.md)
+   Name: Sketcher CreateArcOfEllipse
+   MenuLocation: Sketch - Sketcher geometries - Create arc of ellipse
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **G** **E** **A**
+   Version: 0.15
+   SeeAlso: [Sketcher Ellipse by center](Sketcher_CreateEllipseByCenter.md), [Sketcher Arc](Sketcher_CompCreateArc.md)
 ---
 
 # Sketcher CreateArcOfEllipse/en
@@ -42,4 +42,4 @@ C is the center, a the major diameter, b the minor diameter, F1 and F2 are foci.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfEllipse/en
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfEllipse/en

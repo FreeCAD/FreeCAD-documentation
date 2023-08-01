@@ -116,4 +116,4 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Installing additional components
+⏵ [documentation index](../README.md) > Installing additional components

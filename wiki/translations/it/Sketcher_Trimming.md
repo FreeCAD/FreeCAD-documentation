@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher Trim edge
-   Name/it:Rifila
-   Icon:Sketcher_Trimming.svg
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch - Geometrie - Rifila
-   Version:0.12
-   SeeAlso:[Estendi lo spigolo](Sketcher_Extend/it.md)
+   Name: Sketcher Trim edge
+   Name/it: Rifila
+   Icon: Sketcher_Trimming.svg
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation: Sketch - Geometrie - Rifila
+   Version: 0.12
+   SeeAlso: [Estendi lo spigolo](Sketcher_Extend/it.md)
 ---
 
 # Sketcher Trimming/it
@@ -60,4 +60,4 @@ Questo strumento accorcia, rifila una linea fino al primo punto di intersezione,
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/it

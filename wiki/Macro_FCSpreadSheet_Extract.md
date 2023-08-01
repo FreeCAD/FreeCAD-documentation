@@ -239,4 +239,4 @@ except Exception:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro FCSpreadSheet Extract
+⏵ [documentation index](../README.md) > Macro FCSpreadSheet Extract

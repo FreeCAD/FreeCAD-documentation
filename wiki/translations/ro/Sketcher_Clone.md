@@ -1,17 +1,17 @@
 ---
 - GuiCommand:
 
-   Name:Sketcher Clone
-   Name/de:Sketcher Klonen
-   Name/es:Sketcher Clonar
-   Name/fr:Clone Sketcher
-   Name/it:Sketcher Clona
-   Name/ro:Sketcher Clonă
-   Name/ru:Sketcher Клонировать
-   Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation:Sketch - Sketcher tools - Clonă
-   Version:0.16
-   SeeAlso:[Sketcher Copiere](Sketcher_Copy/ro.md), [Sketcher Move](Sketcher_Move/ro.md)
+   Name: Sketcher Clone
+   Name/de: Sketcher Klonen
+   Name/es: Sketcher Clonar
+   Name/fr: Clone Sketcher
+   Name/it: Sketcher Clona
+   Name/ro: Sketcher Clonă
+   Name/ru: Sketcher Клонировать
+   Workbenches: [Sketcher](Sketcher_Workbench/ro.md)
+   MenuLocation: Sketch - Sketcher tools - Clonă
+   Version: 0.16
+   SeeAlso: [Sketcher Copiere](Sketcher_Copy/ro.md), [Sketcher Move](Sketcher_Move/ro.md)
 ---
 
 # Sketcher Clone/ro
@@ -64,4 +64,4 @@ Nu sunt adăugate extra constrâgeri pentru compartamentul clonei.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/ro

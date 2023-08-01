@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateEllipse
-   Name/it:Ellisse da centro
-   Icon:Sketcher_CreateEllipse.svg
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch - Geometrie - Ellisse da centro
-   Version:0.15
-   SeeAlso:[Ellisse da 3 punti](Sketcher_CreateEllipseBy3Points/it.md), [Cerchio](Sketcher_CreateCircle/it.md), [Arco di ellisse](Sketcher_CreateArcOfEllipse/it.md)
+   Name: Sketcher CreateEllipse
+   Name/it: Ellisse da centro
+   Icon: Sketcher_CreateEllipse.svg
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation: Sketch - Geometrie - Ellisse da centro
+   Version: 0.15
+   SeeAlso: [Ellisse da 3 punti](Sketcher_CreateEllipseBy3Points/it.md), [Cerchio](Sketcher_CreateCircle/it.md), [Arco di ellisse](Sketcher_CreateArcOfEllipse/it.md)
 ---
 
 # Sketcher CreateEllipseByCenter/it
@@ -64,4 +64,4 @@ C is the center, a the major diameter, b the minor diameter, F1 and F2 are foci.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseByCenter/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseByCenter/it

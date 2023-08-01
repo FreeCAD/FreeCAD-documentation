@@ -9,7 +9,7 @@ The CadQuery workbench is '''no longer actively maintained''', but may receive s
 ## Introduction
 
 
-{{TOCright}}
+
 
 A module-workbench combo that adds a CadQuery editor to FreeCAD. Please see the [wiki](https://github.com/jmwright/cadquery-freecad-module/wiki) for more detailed information on getting started.
 
@@ -59,4 +59,4 @@ The latest version of CadQuery is no longer using FreeCAD and is not compatible 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > CadQuery Workbench/hr
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > CadQuery Workbench/hr

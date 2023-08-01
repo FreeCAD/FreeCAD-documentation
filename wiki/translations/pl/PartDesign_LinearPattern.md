@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign LinearPattern
-   Name/pl:Projekt Części: Szyk liniowy
-   MenuLocation:Projekt Części - Zastosuj szyk - Szyk liniowy
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   SeeAlso:[Transformacja wielokrotna](PartDesign_MultiTransform/pl.md)
+   Name: PartDesign LinearPattern
+   Name/pl: Projekt Części: Szyk liniowy
+   MenuLocation: Projekt Części - Zastosuj szyk - Szyk liniowy
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   SeeAlso: [Transformacja wielokrotna](PartDesign_MultiTransform/pl.md)
 ---
 
 # PartDesign LinearPattern/pl
@@ -124,4 +124,4 @@ Zobacz stronę o ograniczeniach [Szyku kołowego](PartDesign_PolarPattern/pl#Ogr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/pl

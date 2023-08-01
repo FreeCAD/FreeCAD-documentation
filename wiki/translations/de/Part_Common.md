@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Common
-   Name/de:Part Schnitt
-   MenuLocation:Formteil - Boolesche Operation - Schnitt
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Boolesche Operationen](Part_Boolean/de.md), [Part Differenz](Part_Cut/de.md), [Part Vereinigung](Part_Fuse/de.md)
+   Name: Part Common
+   Name/de: Part Schnitt
+   MenuLocation: Formteil - Boolesche Operation - Schnitt
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: [Part Boolesche Operationen](Part_Boolean/de.md), [Part Differenz](Part_Cut/de.md), [Part Vereinigung](Part_Fuse/de.md)
 ---
 
 # Part Common/de
@@ -25,4 +25,4 @@ Eingabeobjekte müssen [OpenCASCADE](OpenCASCADE/de.md) Formen sein. Beispiele: 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/de

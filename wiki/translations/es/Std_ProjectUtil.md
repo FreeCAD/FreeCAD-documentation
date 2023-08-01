@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std ProjectUtil
-   Name/es:Std ProjectoUtil
-   MenuLocation:Hierramientas - Utilidad del proyecto...
-   Workbenches:Todo
+   Name: Std ProjectUtil
+   Name/es: Std ProjectoUtil
+   MenuLocation: Hierramientas - Utilidad del proyecto...
+   Workbenches: Todo
 ---
 
 # Std ProjectUtil/es
@@ -66,4 +66,4 @@ Es importante darse cuenta de que los archivos dentro de un archivo de proyecto 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ProjectUtil/es
+⏵ [documentation index](../README.md) > Std ProjectUtil/es

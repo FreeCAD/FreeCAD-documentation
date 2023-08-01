@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/tr:Yüzeyden
-   Workbenches:[CNC G-Kodu](Path_Workbench/tr.md)
-   MenuLocation:CNC G-Kodu - Yüzeyden
+   Name/tr: Yüzeyden
+   Workbenches: [CNC G-Kodu](Path_Workbench/tr.md)
+   MenuLocation: CNC G-Kodu - Yüzeyden
 |Shortcut
-   SeeAlso:
+   SeeAlso: 
 ---
 
 # Path MillFace/tr
@@ -14,11 +14,11 @@
 
 ---
 - GuiCommand:
-   Name/tr:Yüzeyden
-   Workbenches:[CNC G-Kodu](Path_Workbench/tr.md)
-   MenuLocation:CNC G-Kodu - Yüzeyden
+   Name/tr: Yüzeyden
+   Workbenches: [CNC G-Kodu](Path_Workbench/tr.md)
+   MenuLocation: CNC G-Kodu - Yüzeyden
 |Shortcut
-   SeeAlso:
+   SeeAlso: 
 ---
 
 # Path MillFace/tr
@@ -245,4 +245,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path MillFace/tr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path MillFace/tr

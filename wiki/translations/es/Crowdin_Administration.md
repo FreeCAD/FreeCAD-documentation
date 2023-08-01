@@ -1,6 +1,4 @@
 # Crowdin Administration/es
-{{TOCright}}
-
 ## Roles
 
 -   Traductor
@@ -60,4 +58,4 @@ Si nota una cadena en la interfaz de usuario de FreeCAD que no ha sido traducida
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration/es
+⏵ [documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration/es

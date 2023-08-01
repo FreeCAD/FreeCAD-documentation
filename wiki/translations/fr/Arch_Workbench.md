@@ -1,7 +1,7 @@
 # <img alt="Icône de l\'Atelier Arch" src=images/Workbench_Arch.svg  style="width:64px;"> Arch Workbench/fr
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -201,4 +201,4 @@ L\'atelier Arch peut être utilisé dans des scripts [Python](Python/fr.md) et d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/fr
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/fr

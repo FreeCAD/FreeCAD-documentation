@@ -3,7 +3,7 @@
 ## Introducción
 
 
-{{TOCright}}
+
 
 El ambiente de trabajo A2plus es un [Ambiente de trabajo externo](External_workbenches/es.md) para [ensamble](Assembly/es.md) diferentes piezas en FreeCAD.
 
@@ -624,4 +624,4 @@ This is an A2plus-specific command. It solves the assembly constraints of the as
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > A2plus Workbench/es
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > A2plus Workbench/es

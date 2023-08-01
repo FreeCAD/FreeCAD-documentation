@@ -1,6 +1,6 @@
 # PartDesign WizardShaft/ro
 ---
-- GuiCommand:   Name:PartDesign WizardShaft   MenuLocation:Part Design - Shaft design wizard...   Workbenches:[PartDesign](PartDesign_Workbench.md), Complete---
+- GuiCommand:   Name: PartDesign WizardShaft   MenuLocation: Part Design - Shaft design wizard...   Workbenches: [PartDesign](PartDesign_Workbench.md), Complete---
 
 
 </div>
@@ -142,4 +142,4 @@ Pentru a adăuga un nou segment de arbore, faceți clic dreapta în spațiul gol
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/ro

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionThreadBoltSide
-   Name/pl:Rysunek Techniczny: Geometria pomocnicza dla gwintu śruby, widok z boku
-   MenuLocation:Rysunek Techniczny - Rozszerzenie: Linie środka / gwinty - Geometria pomocnicza dla gwintu śruby, widok z boku
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[Geometria pomocnicza dla otworu gwintowanego, widok z boku](TechDraw_ExtensionThreadHoleSide/pl.md)
+   Name: TechDraw ExtensionThreadBoltSide
+   Name/pl: Rysunek Techniczny: Geometria pomocnicza dla gwintu śruby, widok z boku
+   MenuLocation: Rysunek Techniczny - Rozszerzenie: Linie środka / gwinty - Geometria pomocnicza dla gwintu śruby, widok z boku
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [Geometria pomocnicza dla otworu gwintowanego, widok z boku](TechDraw_ExtensionThreadHoleSide/pl.md)
 ---
 
 # TechDraw ExtensionThreadBoltSide/pl
@@ -42,4 +42,4 @@ Narzędzie **Geometria pomocnicza dla gwintu śruby, widok z boku** dodaje kosme
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadBoltSide/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadBoltSide/pl

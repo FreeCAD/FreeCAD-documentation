@@ -123,4 +123,4 @@ whereas $\epsilon$ is the steady state tolerance and $u_{i}$ is the calculated v
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverElmer SolverSettings
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverElmer SolverSettings

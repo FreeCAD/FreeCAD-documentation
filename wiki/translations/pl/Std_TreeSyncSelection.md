@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreeSyncSelection
-   Name/pl:Sdt: Synchronizuj wybrane w widoku drzewa
-   MenuLocation:Widok - TreeView actions - Synchronizuj wybrane
-   Workbenches:wszystkie
-   Shortcut:**T** **2**
-   Version:0.19
+   Name: Std TreeSyncSelection
+   Name/pl: Sdt: Synchronizuj wybrane w widoku drzewa
+   MenuLocation: Widok - TreeView actions - Synchronizuj wybrane
+   Workbenches: wszystkie
+   Shortcut: **T** **2**
+   Version: 0.19
 ---
 
 # Std TreeSyncSelection/pl
@@ -36,4 +36,4 @@ Tryb Synchronizacja widoku drzewa można również ustawić w [Edytorze preferen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSyncSelection/pl
+⏵ [documentation index](../README.md) > Std TreeSyncSelection/pl

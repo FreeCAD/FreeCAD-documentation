@@ -303,4 +303,4 @@ ver 0.3 : 28/03/2014 :commenté la ligne \"**\# self.checkBox_5.setAccessibleNam
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Texture/fr
+⏵ [documentation index](../README.md) > Macro Texture/fr

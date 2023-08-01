@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw FaceCenterLine
-   MenuLocation:TechDraw - Add Lines - Add Centerline to Faces
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.19
-   SeeAlso:[TechDraw 2LineCenterLine](TechDraw_2LineCenterLine.md), [TechDraw 2PointCenterLine](TechDraw_2PointCenterLine.md)
+   Name: TechDraw FaceCenterLine
+   MenuLocation: TechDraw - Add Lines - Add Centerline to Faces
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Version: 0.19
+   SeeAlso: [TechDraw 2LineCenterLine](TechDraw_2LineCenterLine.md), [TechDraw 2PointCenterLine](TechDraw_2PointCenterLine.md)
 ---
 
 # TechDraw FaceCenterLine/en
@@ -88,4 +88,4 @@ Centerlines have no properties of their own, as they are not document objects.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw FaceCenterLine/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw FaceCenterLine/en

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ViewIsometric
-   Name/ko:표준 등각투영
-   MenuLocation:보기 - 표준 보기 - Axonometric - Isometric
-   Workbenches:모두
-   Shortcut:**0**
-   SeeAlso:[표준 등각투영](Std_ViewDimetric/ko.md), [표준 삼각투영](Std_ViewTrimetric/ko.md)
+   Name: Std ViewIsometric
+   Name/ko: 표준 등각투영
+   MenuLocation: 보기 - 표준 보기 - Axonometric - Isometric
+   Workbenches: 모두
+   Shortcut: **0**
+   SeeAlso: [표준 등각투영](Std_ViewDimetric/ko.md), [표준 삼각투영](Std_ViewTrimetric/ko.md)
 ---
 
 # Std ViewIsometric/ko
@@ -78,4 +78,4 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewIsometric/ko
+⏵ [documentation index](../README.md) > Std ViewIsometric/ko

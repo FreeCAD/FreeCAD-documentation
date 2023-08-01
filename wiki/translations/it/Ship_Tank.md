@@ -1,6 +1,6 @@
 # Ship Tank/it
 ---
-- GuiCommand:   Name:Ship TankNew   Name/it:Nuovo serbatoio   MenuLocation:Weights - Crea un nuovo serbatoio   |Workbenches:[[Ship Workbench/it   Ship]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Ship TankNew   Name/it: Nuovo serbatoio   MenuLocation: Weights - Crea un nuovo serbatoio   |Workbenches: [[Ship Workbench/it   Ship]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -27,4 +27,4 @@ When the **Accept** button is pressed, a new tank instance is created inside the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Tank/it
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Tank/it

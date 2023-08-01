@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part JoinEmbed
-   Name/it:Incastro
-   MenuLocation:Part - Congiungi - Incastra oggetto
-   Workbenches:[[Part_Workbench/it   Part]]|Version:0.16.5069
-   SeeAlso:[Congiunzione](Part_JoinConnect/it.md), [Asportazione](Part_JoinCutout/it.md), [Operazione booleana](Part_Boolean/it.md), [Spessore](Part_Thickness/it.md)
+   Name: Part JoinEmbed
+   Name/it: Incastro
+   MenuLocation: Part - Congiungi - Incastra oggetto
+   Workbenches: [[Part_Workbench/it   Part]]|Version: 0.16.5069
+   SeeAlso: [Congiunzione](Part_JoinConnect/it.md), [Asportazione](Part_JoinCutout/it.md), [Operazione booleana](Part_Boolean/it.md), [Spessore](Part_Thickness/it.md)
 ---
 
 # Part JoinEmbed/it
@@ -144,4 +144,4 @@ Lo strumento è implementato in Python, vedere **/Mod/Part/JoinFeatures.py** ([G
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinEmbed/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinEmbed/it

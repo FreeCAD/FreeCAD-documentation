@@ -1,6 +1,6 @@
 # TechDraw Image/ro
 ---
-- GuiCommand:   Name:TechDraw  Image   Workbenches:[[TechDraw_Workbench   TechDraw]]|MenuLocation:TechDraw - Image   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: TechDraw  Image   Workbenches: [[TechDraw_Workbench   TechDraw]]|MenuLocation: TechDraw - Image   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -114,4 +114,4 @@ dvi.Width  = 200
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Image/ro
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Image/ro

@@ -1,5 +1,4 @@
-# User hub/sv
-{{TOCright}} <img alt="" src=images/User_hub.png  style="width:64px;">
+# <img alt="" src=images/User_hub.png  style="width:64px;"> User hub/sv
 
 
 
@@ -202,4 +201,4 @@ Detta är den officiella FreeCAD online hjälpen. Notera att hela online hjälp 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/sv
+⏵ [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/sv

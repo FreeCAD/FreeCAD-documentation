@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Robot SetHomePos
-   Name/it:Imposta la posizione iniziale
-   MenuLocation:Robot - Imposta la posizione iniziale
-   Workbenches:[Robot](Robot_Workbench/it.md)
+   Name: Robot SetHomePos
+   Name/it: Imposta la posizione iniziale
+   MenuLocation: Robot - Imposta la posizione iniziale
+   Workbenches: [Robot](Robot_Workbench/it.md)
 ---
 
 # Robot SetHomePos/it
@@ -34,4 +34,4 @@ Imposta la posizione e l\'orientamento corrente del robot selezionato come posiz
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetHomePos/it
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetHomePos/it

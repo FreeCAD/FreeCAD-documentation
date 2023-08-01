@@ -10,4 +10,4 @@ This category lists pages related to the [Surface Workbench/ru](Surface_Workbenc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Surface/ru
+⏵ [documentation index](../README.md) > Category:Surface/ru

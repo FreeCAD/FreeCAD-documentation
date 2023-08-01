@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Join
-   Name/fr:Draft Joindre
-   MenuLocation:Modification - Joindre
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:**J** **O**
-   Version:0.18
-   SeeAlso:[Draft Fractionner](Draft_Split/fr.md)
+   Name: Draft Join
+   Name/fr: Draft Joindre
+   MenuLocation: Modification - Joindre
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut: **J** **O**
+   Version: 0.18
+   SeeAlso: [Draft Fractionner](Draft_Split/fr.md)
 ---
 
 # Draft Join/fr
@@ -68,4 +68,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Join/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Join/fr

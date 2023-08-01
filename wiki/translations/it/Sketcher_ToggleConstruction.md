@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ToggleConstruction
-   Name/it:Geometria di costruzione
-   Icon:Sketcher_AlterConstruction.svg
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketcher - Geometrie - Geometrie di costruzione
+   Name: Sketcher ToggleConstruction
+   Name/it: Geometria di costruzione
+   Icon: Sketcher_AlterConstruction.svg
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation: Sketcher - Geometrie - Geometrie di costruzione
 ---
 
 # Sketcher ToggleConstruction/it
@@ -81,4 +81,4 @@ Le linee di costruzione possono essere utilizzate come assi di rotazione per ese
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/it

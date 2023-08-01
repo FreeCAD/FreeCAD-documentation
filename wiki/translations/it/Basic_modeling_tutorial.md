@@ -142,4 +142,4 @@ Le istruzioni di cui sopra funzionano comunque, non importa quale etichetta comp
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Category_Part.md) > Basic modeling tutorial/it
+⏵ [documentation index](../README.md) > [Part](Category_Part.md) > Basic modeling tutorial/it

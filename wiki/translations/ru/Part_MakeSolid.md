@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name/ru:Преобразовать в твердое тело
-   Name:Part_MakeSolid
-   MenuLocation:Part - Преобразовать в твердое тело
-   Workbenches:[Part](Part_Workbench/ru.md)
+   Name/ru: Преобразовать в твердое тело
+   Name: Part_MakeSolid
+   MenuLocation: Part - Преобразовать в твердое тело
+   Workbenches: [Part](Part_Workbench/ru.md)
 ---
 
 # Part MakeSolid/ru
@@ -26,4 +26,4 @@ This command creates a solid from a shape object.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/ru

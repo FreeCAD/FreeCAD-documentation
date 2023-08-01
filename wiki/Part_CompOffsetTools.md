@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part CompOffsetTools
-   MenuLocation:Part - CompOffsetTools
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:
+   Name: Part CompOffsetTools
+   MenuLocation: Part - CompOffsetTools
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: 
 ---
 
 # Part CompOffsetTools
@@ -20,4 +20,4 @@ A set of Offset tools
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompOffsetTools
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompOffsetTools

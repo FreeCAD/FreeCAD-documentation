@@ -1,12 +1,12 @@
 ---
 - GuiCommand:Addon/es
-   Name:Arch Rebar Helical
-   Name/es:Arch Rebar Helical
-   MenuLocation:Arch - Rebar tools
-   Workbenches:[Arch](Arch_Workbench/es.md)
-   Addon:Reinforcement
-   Shortcut:None
-   SeeAlso:[Arch Rebar](Arch_Rebar/es.md)
+   Name: Arch Rebar Helical
+   Name/es: Arch Rebar Helical
+   MenuLocation: Arch - Rebar tools
+   Workbenches: [Arch](Arch_Workbench/es.md)
+   Addon: Reinforcement
+   Shortcut: None
+   SeeAlso: [Arch Rebar](Arch_Rebar/es.md)
 ---
 
 # Arch Rebar Helical/es
@@ -173,4 +173,4 @@ HelicalRebar.editHelicalRebar(Rebar, 20, 100, 20, 20, 100)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Helical/es
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Helical/es

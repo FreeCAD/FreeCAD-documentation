@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher ToggleDrivingConstraint
-   Name/pl:Szkicownik: Przełącz kontrolę wiązania
-   MenuLocation:Szkic - Wiązania szkicownika - Przełącz kontrolę wiązania
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**K** **X**
-   Version:0.16
-   SeeAlso:[Przełącz tryb konstrukcji](Sketcher_ToggleConstruction/pl.md)
+   Name: Sketcher ToggleDrivingConstraint
+   Name/pl: Szkicownik: Przełącz kontrolę wiązania
+   MenuLocation: Szkic - Wiązania szkicownika - Przełącz kontrolę wiązania
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **K** **X**
+   Version: 0.16
+   SeeAlso: [Przełącz tryb konstrukcji](Sketcher_ToggleConstruction/pl.md)
 ---
 
 # Sketcher ToggleDrivingConstraint/pl
@@ -43,4 +43,4 @@ Narzędzie **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleDrivingConstraint/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleDrivingConstraint/pl

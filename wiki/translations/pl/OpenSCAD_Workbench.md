@@ -11,7 +11,7 @@ Zawiera importer formatu [CSG](OpenSCAD_CSG/pl.md), który otwiera pliki CSG z O
 To środowisko pracy zawiera funkcje do modyfikacji drzewa cech CSG i naprawy modeli. Zawiera także narzędzia ogólnego przeznaczenia, które nie wymagają instalacji OpenSCAD Mogą być one używane w połączeniu z innymi środowiskami pracy. Na przykład, środowiskiem [Projekt Siatki](Mesh_Workbench/pl.md) wewnętrznie używa funkcji OpenSCAD do wykonywania operacji z [siatkami](Mesh/pl.md), ponieważ są one dość stabilne.
 
 
-{{TOCright}}
+
 
 ![](images/OpenSCADexamaple1.png )
 
@@ -116,4 +116,4 @@ Jeśli program FreeCAD zawiesza się podczas importowania pliku CSG, zaleca się
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [OpenSCAD](Category_OpenSCAD.md) > OpenSCAD Workbench/pl
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [OpenSCAD](Category_OpenSCAD.md) > OpenSCAD Workbench/pl

@@ -640,4 +640,4 @@ Altre macro si trovano in:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Make Circle 3 Points/it
+⏵ [documentation index](../README.md) > Macro Make Circle 3 Points/it

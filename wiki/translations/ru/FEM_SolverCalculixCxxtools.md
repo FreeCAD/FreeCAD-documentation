@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM SolverCalculixCxxtools
-   Name/ru:FEM Solver
-   MenuLocation:Solve - Solver CalculiX Standard
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:**S** **X**
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM SolverCalculixCxxtools
+   Name/ru: FEM Solver
+   MenuLocation: Solve - Solver CalculiX Standard
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   Shortcut: **S** **X**
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM SolverCalculixCxxtools/ru
@@ -154,4 +154,4 @@ Original CalculiX documentation can be found at <http://dhondt.de/> in the \"ccx
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverCalculixCxxtools/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverCalculixCxxtools/ru

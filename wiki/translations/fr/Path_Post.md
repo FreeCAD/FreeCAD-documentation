@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path PostProcess
-   Name/fr:Path Post-traitement
-   MenuLocation:Path - Post-traitement
-   Workbenches:[Path](Path_Workbench/fr.md)
-   Shortcut:**P** **P**
+   Name: Path PostProcess
+   Name/fr: Path Post-traitement
+   MenuLocation: Path - Post-traitement
+   Workbenches: [Path](Path_Workbench/fr.md)
+   Shortcut: **P** **P**
 ---
 
 # Path Post/fr
@@ -140,4 +140,4 @@ N\'utilisez **pas** le menu **Fichier** → **Exporter** pour exporter vers le G
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Post/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Post/fr

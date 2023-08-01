@@ -36,4 +36,4 @@ obj.Points = newpoints
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro FlattenWire/it
+⏵ [documentation index](../README.md) > Macro FlattenWire/it

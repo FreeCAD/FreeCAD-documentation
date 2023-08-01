@@ -1,8 +1,4 @@
 # Debugging/de
-{{TOCright}}
-
-
-
 ## Erster Test 
 
 Bevor du den Schmerz der Fehlerdiagnose durchmachst, benutze das [Test Framework](Testing/de.md), um zu überprüfen, ob die Standardtests ordnungsgemäß funktionieren. Wenn sie nicht vollständig ausgeführt werden, liegt möglicherweise eine defekte Installation vor.
@@ -434,4 +430,4 @@ Für Entwickler, die tiefer in den OpenCasCade Kernel einsteigen müssen, hat de
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Debugging/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Debugging/de

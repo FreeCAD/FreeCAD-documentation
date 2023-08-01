@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft SelectPlane
-   Name/it:Seleziona Piano
-   MenuLocation:Utilità - Seleziona Piano
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:**W** **P**
-   SeeAlso:[Piano di lavoro proxy](Draft_WorkingPlaneProxy/it.md)
+   Name: Draft SelectPlane
+   Name/it: Seleziona Piano
+   MenuLocation: Utilità - Seleziona Piano
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut: **W** **P**
+   SeeAlso: [Piano di lavoro proxy](Draft_WorkingPlaneProxy/it.md)
 ---
 
 # Draft SelectPlane/it
@@ -168,4 +168,4 @@ print(projection)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectPlane/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectPlane/it

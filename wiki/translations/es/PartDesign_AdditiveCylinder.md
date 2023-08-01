@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveCylinder
-   Name/es:DiseñoPiezas CilindroAditivo
-   MenuLocation:DiseñoPiezas - Crear una primitiva aditiva - Cilindro Aditivo
-   Workbenches:[DiseñoPiezas](PartDesign_Workbench/es.md)
-   Version:0.17
-   SeeAlso:[Crear una primitiva aditiva](PartDesign_CompPrimitiveAdditive/es.md), [Cilindro sustractivo](PartDesign_SubtractiveCylinder/es.md)
+   Name: PartDesign AdditiveCylinder
+   Name/es: DiseñoPiezas CilindroAditivo
+   MenuLocation: DiseñoPiezas - Crear una primitiva aditiva - Cilindro Aditivo
+   Workbenches: [DiseñoPiezas](PartDesign_Workbench/es.md)
+   Version: 0.17
+   SeeAlso: [Crear una primitiva aditiva](PartDesign_CompPrimitiveAdditive/es.md), [Cilindro sustractivo](PartDesign_SubtractiveCylinder/es.md)
 ---
 
 # PartDesign AdditiveCylinder/es
@@ -86,4 +86,4 @@ Tras su creación, el Cilindro puede ser editado de dos maneras:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCylinder/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCylinder/es

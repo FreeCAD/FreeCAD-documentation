@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Drawing Openbrowser
-   Name/pl:Otwórz przeglądarkę WEB
-   Workbenches:[Drawing](Drawing_Workbench/pl.md)
-   MenuLocation:Rysunek - Otwiera wybrana stronę w przeglądarce
-   Shortcut:brak
+   Name: Drawing Openbrowser
+   Name/pl: Otwórz przeglądarkę WEB
+   Workbenches: [Drawing](Drawing_Workbench/pl.md)
+   MenuLocation: Rysunek - Otwiera wybrana stronę w przeglądarce
+   Shortcut: brak
 ---
 
 # Drawing Openbrowser/pl
@@ -41,4 +41,4 @@ To polecenie pozwala wyświetlić wybraną [Stronę rysunku](Drawing_Landscape_A
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Openbrowser/pl
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Openbrowser/pl

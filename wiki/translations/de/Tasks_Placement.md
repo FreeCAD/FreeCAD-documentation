@@ -136,4 +136,4 @@ Eine weitere Erklärung zu [Positionierung](Placement/de.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Command_Reference](Category_Command_Reference.md) > Tasks Placement/de
+⏵ [documentation index](../README.md) > [Command_Reference](Category_Command_Reference.md) > Tasks Placement/de

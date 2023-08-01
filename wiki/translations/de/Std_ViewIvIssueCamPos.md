@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ViewIvIssueCamPos
-   Name/de:Std AnsichtKamerapositionAusgeben
-   MenuLocation:Ansicht - Stereo - Kameraposition ausgeben
-   Workbenches:Alle
-   SeeAlso:[Std AnsichtenEinfrieren](Std_FreezeViews/de.md)
+   Name: Std ViewIvIssueCamPos
+   Name/de: Std AnsichtKamerapositionAusgeben
+   MenuLocation: Ansicht - Stereo - Kameraposition ausgeben
+   Workbenches: Alle
+   SeeAlso: [Std AnsichtenEinfrieren](Std_FreezeViews/de.md)
 ---
 
 # Std ViewIvIssueCamPos/de
@@ -64,4 +64,4 @@ FreeCADGui.ActiveDocument.ActiveView.getCamera()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewIvIssueCamPos/de
+⏵ [documentation index](../README.md) > Std ViewIvIssueCamPos/de

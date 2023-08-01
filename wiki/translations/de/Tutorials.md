@@ -1,6 +1,4 @@
 # Tutorials/de
-{{TOCright}}
-
 Diese Seite präsentiert eine Auswahl von qualitativ hochwertigen schriftlichen Tutorien. Eine vollständige, unsortierte Liste der Tutorien findest du in [:Category:Tutorials](:Category_Tutorials.md), eine vollständige und sortierbare Liste findest du in der [Tabelle unten](Tutorials/de#Tutorien_-_Umfassende_Liste.md).
 
 Wenn du dich durch Schreiben von Wiki-Dokumentation und Anleitungen beiteiligen möchtest, wirf einen Blick auf die allgemeinen Wiki-Richtlinien unter [WikiSeiten](WikiPages/de.md) und lies die [tutorial guidelines](Tutorial_guidelines/de.md).
@@ -366,4 +364,4 @@ Hier sind alle Tutorien aufgelistet, die nicht im Handbuch enthalten sind **unab
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials]], eine vollständige und sortierbare Liste findest du in der ](Category_Tutorials]], eine vollständige und sortierbare Liste findest du in der .md) > [Tutorials](Category_Tutorials.md) > Tutorials/de
+⏵ [documentation index](../README.md) > [Tutorials]], eine vollständige und sortierbare Liste findest du in der ](Category_Tutorials]], eine vollständige und sortierbare Liste findest du in der .md) > [Tutorials](Category_Tutorials.md) > Tutorials/de

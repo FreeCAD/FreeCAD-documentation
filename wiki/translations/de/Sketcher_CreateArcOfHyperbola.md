@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateArcOfHyperbola
-   Name/de:Sketcher HyperbelbogenErstellen
-   MenuLocation:Sketch - Skizzengeometrien - Hyperbelbogen erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **H**
-   Version:0.17
-   SeeAlso:[EllipsenbogenErstellen](Sketcher_CreateArcOfEllipse/de.md), [ParabelbogenErstellen](Sketcher_CreateArcOfParabola/de.md)
+   Name: Sketcher CreateArcOfHyperbola
+   Name/de: Sketcher HyperbelbogenErstellen
+   MenuLocation: Sketch - Skizzengeometrien - Hyperbelbogen erstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **H**
+   Version: 0.17
+   SeeAlso: [EllipsenbogenErstellen](Sketcher_CreateArcOfEllipse/de.md), [ParabelbogenErstellen](Sketcher_CreateArcOfParabola/de.md)
 ---
 
 # Sketcher CreateArcOfHyperbola/de
@@ -40,4 +40,4 @@ Dieses Werkzeug erstellt einen Hyperbelbogen mit Mittelpunkt, Scheitelpunkt (Hau
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfHyperbola/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfHyperbola/de

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintCurrentDensity
-   MenuLocation: Model - Electromagnetic Constraints - Constraint current density
-   Workbenches:[FEM](FEM_Workbench.md)
-   Version:0.21
-   SeeAlso:[Magnetodynamic equation](FEM_EquationMagnetodynamic.md), [Magnetodynamic 2D equation](FEM_EquationMagnetodynamic2D.md)
+   Name: FEM ConstraintCurrentDensity
+   MenuLocation:  Model - Electromagnetic Constraints - Constraint current density
+   Workbenches: [FEM](FEM_Workbench.md)
+   Version: 0.21
+   SeeAlso: [Magnetodynamic equation](FEM_EquationMagnetodynamic.md), [Magnetodynamic 2D equation](FEM_EquationMagnetodynamic2D.md)
 ---
 
 # FEM ConstraintCurrentDensity/pl
@@ -82,4 +82,4 @@ Creates a FEM constraint for the current density. To be used together with the [
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintCurrentDensity/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintCurrentDensity/pl

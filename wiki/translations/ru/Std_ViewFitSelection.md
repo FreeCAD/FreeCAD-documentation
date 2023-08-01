@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Уместить выделенное
-   Name:Std_ViewFitSelection
-   MenuLocation:Вид - Стандартные виды‏‎ - Уместить выделенное
-   Workbenches:Все
-   Shortcut:**V** **S**
-   SeeAlso:[Уместить всё](Std_ViewFitAll/ru.md)
+   Name/ru: Уместить выделенное
+   Name: Std_ViewFitSelection
+   MenuLocation: Вид - Стандартные виды‏‎ - Уместить выделенное
+   Workbenches: Все
+   Shortcut: **V** **S**
+   SeeAlso: [Уместить всё](Std_ViewFitAll/ru.md)
 ---
 
 # Std ViewFitSelection/ru
@@ -62,4 +62,4 @@ FreeCADGui.SendMsgToActiveView('ViewSelection')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewFitSelection/ru
+⏵ [documentation index](../README.md) > Std ViewFitSelection/ru

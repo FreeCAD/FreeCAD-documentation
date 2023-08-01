@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Downgrade
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   MenuLocation:Draft - Downgrade
-   Shortcut:D N
-   SeeAlso:[Draft Upgrade](Draft_Upgrade.md)
+   Name: Draft Downgrade
+   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   MenuLocation: Draft - Downgrade
+   Shortcut: D N
+   SeeAlso: [Draft Upgrade](Draft_Upgrade.md)
 ---
 
 # Draft Downgrade/ro
@@ -110,4 +110,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Downgrade/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Downgrade/ro

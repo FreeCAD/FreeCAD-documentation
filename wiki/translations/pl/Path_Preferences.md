@@ -1,6 +1,4 @@
 # Path Preferences/pl
-{{TOCright}}
-
 ## Informacje ogólne 
 
 Ekran preferencji środowiska pracy [TechDraw](Path_Workbench/pl.md) znajduje się w [Edytorze ustawień](Preferences_Editor/pl.md), **Edycja → Preferencje ... → Path**.
@@ -50,4 +48,4 @@ Dostępne są cztery sekcje: Ogólne, Post-procesor, Konfiguracja i Przybory.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Path](Path_Workbench.md) > Path Preferences/pl
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Path](Path_Workbench.md) > Path Preferences/pl

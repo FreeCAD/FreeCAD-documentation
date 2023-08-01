@@ -1,6 +1,6 @@
 # PartDesign Scaled/ro
 ---
-- GuiCommand:   Name:PartDesign Scaled   Workbenches:[[PartDesign Workbench   PartDesign]], Complete|MenuLocation:PartDesign - MultiTransform---
+- GuiCommand:   Name: PartDesign Scaled   Workbenches: [[PartDesign Workbench   PartDesign]], Complete|MenuLocation: PartDesign - MultiTransform---
 
 
 </div>
@@ -102,4 +102,4 @@ De la FreeCAD 0.15, această funcție nu este valabilă direct, dar este inclus�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/ro

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:-cn
-   Name:Draft Arc
-   Name/zh-cn:Draft Arc
-   MenuLocation:Draft - Arc
-   Workbenches:[Draft](Draft_Workbench/zh-cn.md), [Arch](Arch_Workbench/zh-cn.md)
-   Shortcut:**A** **R**
-   SeeAlso:[Draft Circle](Draft_Circle/zh-cn.md), [Draft Ellipse](Draft_Ellipse/zh-cn.md)
-   Version:0.7
+   Name: Draft Arc
+   Name/zh-cn: Draft Arc
+   MenuLocation: Draft - Arc
+   Workbenches: [Draft](Draft_Workbench/zh-cn.md), [Arch](Arch_Workbench/zh-cn.md)
+   Shortcut: **A** **R**
+   SeeAlso: [Draft Circle](Draft_Circle/zh-cn.md), [Draft Ellipse](Draft_Ellipse/zh-cn.md)
+   Version: 0.7
 ---
 
 # Draft Arc/zh-cn
@@ -157,4 +157,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc/zh-cn
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc/zh-cn

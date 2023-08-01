@@ -228,4 +228,4 @@ Les deux outils utilisés dans ce tutoriel sont Inkscape et Kate. Ils peuvent ê
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Template HowTo/fr
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Template HowTo/fr

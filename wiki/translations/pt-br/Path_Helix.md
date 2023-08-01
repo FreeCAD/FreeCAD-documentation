@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Path Helix
-   MenuLocation:Path - Helix
-   Workbenches:[Path](Path_Workbench.md)
+   Name: Path Helix
+   MenuLocation: Path - Helix
+   Workbenches: [Path](Path_Workbench.md)
 ---
 
 # Path Helix/pt-br
@@ -69,4 +69,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Helix/pt-br
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Helix/pt-br

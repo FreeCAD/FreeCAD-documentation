@@ -1,10 +1,10 @@
 ---
 - GuiCommand:Addon/fr
-   Name:BIM Project
-   Name/fr:BIM Project
-   Workbenches:[BIM](BIM_Workbench/fr.md)
-   Addon:BIM
-   MenuLocation:Manage - Manage project...
+   Name: BIM Project
+   Name/fr: BIM Project
+   Workbenches: [BIM](BIM_Workbench/fr.md)
+   Addon: BIM
+   MenuLocation: Manage - Manage project...
 ---
 
 # BIM Project/fr
@@ -33,4 +33,4 @@ Vous pouvez aussi enregistrer le contenu du document actuel en tant que modèle.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Project/fr
+⏵ [documentation index](../README.md) > BIM Project/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet MergeCells
-   Name/ru:Объединить ячейки
-   MenuLocation:Spreadsheet - Объединить ячейки
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/ru.md)
-   Version:0.17
+   Name: Spreadsheet MergeCells
+   Name/ru: Объединить ячейки
+   MenuLocation: Spreadsheet - Объединить ячейки
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/ru.md)
+   Version: 0.17
 ---
 
 # Spreadsheet MergeCells/ru
@@ -30,4 +30,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells/ru
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells/ru

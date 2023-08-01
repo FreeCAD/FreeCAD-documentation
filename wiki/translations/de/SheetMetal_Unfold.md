@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:SheetMetal Unfold
-   Name/de:SheetMetal Abwickeln
-   MenuLocation:SheetMetal - Unfold
-   Workbenches:[Blech (SheetMetal)](SheetMetal_Workbench/de.md)
-   Shortcut:**U**
-   SeeAlso:[SheetMetal UnattendedUnfold](SheetMetal_UnattendedUnfold/de.md)
+   Name: SheetMetal Unfold
+   Name/de: SheetMetal Abwickeln
+   MenuLocation: SheetMetal - Unfold
+   Workbenches: [Blech (SheetMetal)](SheetMetal_Workbench/de.md)
+   Shortcut: **U**
+   SeeAlso: [SheetMetal UnattendedUnfold](SheetMetal_UnattendedUnfold/de.md)
 ---
 
 # SheetMetal Unfold/de
@@ -53,4 +53,4 @@ Das SheetMetal-**Unfold**-Objekt, wird von einem [Part-Formelement](Part_Feature
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal Unfold/de
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal Unfold/de

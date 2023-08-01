@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Surface ExtendFace
-   Name/fr:Surface Extension de surface
-   MenuLocation:Surface - Extend face
-   Workbenches:[Surface](Surface_Workbench/fr.md)
-   Version:0.17
+   Name: Surface ExtendFace
+   Name/fr: Surface Extension de surface
+   MenuLocation: Surface - Extend face
+   Workbenches: [Surface](Surface_Workbench/fr.md)
+   Version: 0.17
 ---
 
 # Surface ExtendFace/fr
@@ -145,4 +145,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface ExtendFace/fr
+⏵ [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface ExtendFace/fr

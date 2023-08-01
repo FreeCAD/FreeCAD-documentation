@@ -1,6 +1,6 @@
 # Part Sphere/es
 ---
-- GuiCommand:   Name:Part Sphere   Name/es:Part Sphere   MenuLocation:Part -> Sphere   |Workbenches:[SeeAlso:[[Part_CreatePrimitives/es|Part CreatePrimitives](Part_Workbench/es___Part_Module]],Complete.md)---
+- GuiCommand:   Name: Part Sphere   Name/es: Part Sphere   MenuLocation: Part -> Sphere   |Workbenches: [SeeAlso: [[Part_CreatePrimitives/es|Part CreatePrimitives](Part_Workbench/es___Part_Module]],Complete.md)---
 
 
 </div>
@@ -103,4 +103,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/es
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/es

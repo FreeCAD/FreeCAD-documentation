@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreeRecordSelection
-   Name/fr:Std Arborescence Enregistrer la sélection
-   MenuLocation:Affichage - Vue en arborescence - Enregistrer la sélection
-   Workbenches:Tous
-   Shortcut:**T** **5**
-   Version:0.19
+   Name: Std TreeRecordSelection
+   Name/fr: Std Arborescence Enregistrer la sélection
+   MenuLocation: Affichage - Vue en arborescence - Enregistrer la sélection
+   Workbenches: Tous
+   Shortcut: **T** **5**
+   Version: 0.19
 ---
 
 # Std TreeRecordSelection/fr
@@ -40,4 +40,4 @@ Le mode Enregistrer l\'arborescence peut également être défini dans le [Régl
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeRecordSelection/fr
+⏵ [documentation index](../README.md) > Std TreeRecordSelection/fr

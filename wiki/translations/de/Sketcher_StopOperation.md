@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher StopOperation
-   Name/de:Sketcher VorgangBeenden
-   MenuLocation:Skizze - Vorgang beenden
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
+   Name: Sketcher StopOperation
+   Name/de: Sketcher VorgangBeenden
+   MenuLocation: Skizze - Vorgang beenden
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
 ---
 
 # Sketcher StopOperation/de
@@ -39,4 +39,4 @@ Dies ist ähnlich wie das Drücken der **Esc** Taste.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher StopOperation/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher StopOperation/de

@@ -2,7 +2,7 @@
 ## Wprowadzenie
 
 
-{{TOCright}}
+
 
 Problem z **nazewnictwem topologicznym** w programie FreeCAD odnosi się do kwestii zmiany wewnętrznej nazwy kształtu po wykonaniu operacji modelowania *(wyciągnięcie, wycięcie, połączenie, fazka, zaokrąglenie, itp.)*. Spowoduje to, że inne właściwości parametryczne, które zależą od tego kształtu, zostaną uszkodzone lub niepoprawnie obliczone. Ten problem dotyczy wszystkich obiektów w programie FreeCAD, ale jest szczególnie zauważalny podczas budowania brył za pomocą środowiska pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md), oraz podczas wymiarowania tych brył za pomocą środowiska<img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Rysunek Techniczny](TechDraw_Workbench/pl.md).
 
@@ -129,4 +129,4 @@ Obiekty układu odniesienia, [punkty](PartDesign_Point/pl.md), [linie](PartDesig
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [TechDraw](Category_TechDraw.md) > [PartDesign](Category_PartDesign.md) > [Part](Category_Part.md) > Topological naming problem/pl
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [TechDraw](Category_TechDraw.md) > [PartDesign](Category_PartDesign.md) > [Part](Category_Part.md) > Topological naming problem/pl

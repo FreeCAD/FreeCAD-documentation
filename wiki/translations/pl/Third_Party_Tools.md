@@ -1,6 +1,4 @@
 # Third Party Tools/pl
-{{TOCright}}
-
 ## Strona z narzędziami 
 
 Do tworzenia każdego poważnego oprogramowania potrzebne są narzędzia. Oto lista narzędzi, których używamy do rozwijania programu FreeCAD:
@@ -67,4 +65,4 @@ do zrobienia
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Tools/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Tools/pl

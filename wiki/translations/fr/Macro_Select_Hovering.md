@@ -413,4 +413,4 @@ ver 00.01 (25/12/2017) :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Select Hovering/fr
+⏵ [documentation index](../README.md) > Macro Select Hovering/fr

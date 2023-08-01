@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part TransformedCopy
-   Name/de:Part TransformierteKopie
-   MenuLocation:Part - Erzeuge eine Kopie - Erzeuge transformierte Kopie
-   Workbenches:[Arbeitsbereich Part](Part_Workbench/de.md)
-   Version:0.19
-   Siehe auch:[Part_EinfacheKopie](Part_SimpleCopy.md), [Part_ElementKopie](Part_ElementCopy/de.md), [Form Verfeinern](Part_RefineShape/de.md)
+   Name: Part TransformedCopy
+   Name/de: Part TransformierteKopie
+   MenuLocation: Part - Erzeuge eine Kopie - Erzeuge transformierte Kopie
+   Workbenches: [Arbeitsbereich Part](Part_Workbench/de.md)
+   Version: 0.19
+   Siehe auch: [Part_EinfacheKopie](Part_SimpleCopy.md), [Part_ElementKopie](Part_ElementCopy/de.md), [Form Verfeinern](Part_RefineShape/de.md)
 ---
 
 # Part TransformedCopy/de
@@ -44,4 +44,4 @@ Die Kopie hat einfache Ansichtseigenschaften wie jede andere [Teilfunktion](Part
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part TransformedCopy/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part TransformedCopy/de

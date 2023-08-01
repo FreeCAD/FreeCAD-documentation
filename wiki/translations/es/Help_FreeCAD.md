@@ -1,6 +1,4 @@
 # Help FreeCAD/es
-{{TOCright}}
-
 ## Introducción
 
 
@@ -121,4 +119,4 @@ FreeCAD features a [Models library](https://github.com/FreeCAD/FreeCAD-library) 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Command_Reference]] lista y documenta todos los FreeCAD ](Category_Command_Reference]] lista y documenta todos los FreeCAD .md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > Help FreeCAD/es
+⏵ [documentation index](../README.md) > [Command_Reference]] lista y documenta todos los FreeCAD ](Category_Command_Reference]] lista y documenta todos los FreeCAD .md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > Help FreeCAD/es

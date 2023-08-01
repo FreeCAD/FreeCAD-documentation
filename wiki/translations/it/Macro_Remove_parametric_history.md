@@ -42,4 +42,4 @@ newObject.Shape = newShape
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Remove parametric history/it
+⏵ [documentation index](../README.md) > Macro Remove parametric history/it

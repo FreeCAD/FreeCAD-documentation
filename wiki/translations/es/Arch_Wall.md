@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Wall
-   Name/es:Arquitectura Muro
-   MenuLocation:Arquitectura - Muro
-   Workbenches:[Arquitectura](Arch_Workbench/es.md)
-   Shortcut:**W** **A**
-   SeeAlso:[Arquitectura Estructura](Arch_Structure/es.md)
+   Name: Arch Wall
+   Name/es: Arquitectura Muro
+   MenuLocation: Arquitectura - Muro
+   Workbenches: [Arquitectura](Arch_Workbench/es.md)
+   Shortcut: **W** **A**
+   SeeAlso: [Arquitectura Estructura](Arch_Structure/es.md)
 ---
 
 # Arch Wall/es
@@ -228,4 +228,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Wall/es
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Wall/es

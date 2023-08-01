@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Замкнуть фигуру
-   Name:Sketcher_CloseShape
-   MenuLocation:Sketch - Инструменты для эскиза - Замкнуть фигуру
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**Ctrl** + **Shift** + **S**
-   Version:0.15
+   Name/ru: Замкнуть фигуру
+   Name: Sketcher_CloseShape
+   MenuLocation: Sketch - Инструменты для эскиза - Замкнуть фигуру
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **Ctrl** + **Shift** + **S**
+   Version: 0.15
 ---
 
 # Sketcher CloseShape/ru
@@ -52,4 +52,4 @@ The tool will connect the elements in the order of their selection, so make sure
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/ru

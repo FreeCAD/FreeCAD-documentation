@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std_DependencyGraph
-   Name/it:Grafico delle dipendenze
-   MenuLocation:Strumenti - Grafico delle dipendenze...
-   Workbenches:Tutti
+   Name: Std_DependencyGraph
+   Name/it: Grafico delle dipendenze
+   MenuLocation: Strumenti - Grafico delle dipendenze...
+   Workbenches: Tutti
 ---
 
 # Std DependencyGraph/it
@@ -182,4 +182,4 @@ Quindi si può dire a FreeCAD di cercare in quella directory.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/it
+⏵ [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/it

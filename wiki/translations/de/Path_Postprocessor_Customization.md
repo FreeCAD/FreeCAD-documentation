@@ -5,7 +5,7 @@
 
 
 
-{{TOCright}}
+
 
 
 
@@ -133,4 +133,4 @@ Du wirst sehen, dass beide Funktionen auch die Funktion \"Zeilennummer()\" aufru
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Postprocessor Customization/de
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Postprocessor Customization/de

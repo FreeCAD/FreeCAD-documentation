@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateBSpline
-   Name/fr:Sketcher B-spline simple
-   MenuLocation:Esquisse - Géométries d'esquisse - Créer une B-spline
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **B** **B**
-   Version:0.17
-   SeeAlso:[Sketcher B-spline périodique](Sketcher_CreatePeriodicBSpline/fr.md)
+   Name: Sketcher CreateBSpline
+   Name/fr: Sketcher B-spline simple
+   MenuLocation: Esquisse - Géométries d'esquisse - Créer une B-spline
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **B** **B**
+   Version: 0.17
+   SeeAlso: [Sketcher B-spline périodique](Sketcher_CreatePeriodicBSpline/fr.md)
 ---
 
 # Sketcher CreateBSpline/fr
@@ -58,4 +58,4 @@ Cet outil trace une courbe B-spline à partir de ses points de contrôle. (Voir 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateBSpline/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateBSpline/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ElementFluid1D
-   Name/fr:FEM Section fluide 1D
-   MenuLocation:Modèle - Géométrie de l'élement - Section de fluide pour un écoulement 1D
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM ElementFluid1D
+   Name/fr: FEM Section fluide 1D
+   MenuLocation: Modèle - Géométrie de l'élement - Section de fluide pour un écoulement 1D
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM ElementFluid1D/fr
@@ -47,4 +47,4 @@ Crée un élément FEM de section de fluide pour les réseaux pneumatiques et hy
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementFluid1D/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementFluid1D/fr

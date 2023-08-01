@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part ShapeFromMesh
-   Name/it:‏‎Crea forma da mesh
-   MenuLocation:Part - Crea forma da mesh...
-   Workbenches:[Part](Part_Workbench/it.md)
-   SeeAlso:[Converti in solido](Part_MakeSolid/it.md), [Affina forma](Part_RefineShape/it.md), [Crea punti da mesh](Part_PointsFromMesh/it.md)
+   Name: Part ShapeFromMesh
+   Name/it: ‏‎Crea forma da mesh
+   MenuLocation: Part - Crea forma da mesh...
+   Workbenches: [Part](Part_Workbench/it.md)
+   SeeAlso: [Converti in solido](Part_MakeSolid/it.md), [Affina forma](Part_RefineShape/it.md), [Crea punti da mesh](Part_PointsFromMesh/it.md)
 ---
 
 # Part ShapeFromMesh/it
@@ -58,4 +58,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ShapeFromMesh/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ShapeFromMesh/it

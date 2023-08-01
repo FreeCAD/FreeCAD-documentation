@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Structure
-   Name/ja:Arch Structure
-   Workbenches:[建築](Arch_Workbench/ja.md)
-   MenuLocation:Arch -> Structure   Shortcut:S T
-   SeeAlso:[[Arch Wall/ja]]
+   Name: Arch Structure
+   Name/ja: Arch Structure
+   Workbenches: [建築](Arch_Workbench/ja.md)
+   MenuLocation: Arch -> Structure   Shortcut: S T
+   SeeAlso: [[Arch Wall/ja]]
 ---
 
 # Arch Structure/ja
@@ -163,4 +163,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/ja
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/ja

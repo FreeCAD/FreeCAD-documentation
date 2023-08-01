@@ -1,6 +1,4 @@
 # Mesh to Part/it
-{{TOCright}}
-
 ## Convertire oggetti Parte in Mesh 
 
 La conversione di oggetti di alto livello come le [forme di Parte](Part_Workbench/it.md) in oggetti semplici come gli [oggetti Mesh](Mesh_Workbench/it.md) è una operazione piuttosto semplice, nella quale tutte le facce di un oggetto Parte vengono triangolate (suddivise in maglie di una rete). Il risultato di tale triangolazione (tassellatura) viene poi utilizzato per costruire un oggetto mesh:
@@ -107,4 +105,4 @@ Part.show(solid)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh to Part/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh to Part/it

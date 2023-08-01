@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FCGear WormGear
-   Name/fr:FCGear Vis sans fin
-   MenuLocation:Gear - Worm Gear
-   Workbenches:[FCGear](FCGear_Workbench/fr.md)
-   Shortcut:Aucun
-   Version:v0.16
-   SeeAlso:[PartDesign Engrenage à développante](PartDesign_InvoluteGear/fr.md)
+   Name: FCGear WormGear
+   Name/fr: FCGear Vis sans fin
+   MenuLocation: Gear - Worm Gear
+   Workbenches: [FCGear](FCGear_Workbench/fr.md)
+   Shortcut: Aucun
+   Version: v0.16
+   SeeAlso: [PartDesign Engrenage à développante](PartDesign_InvoluteGear/fr.md)
 ---
 
 # FCGear WormGear/fr
@@ -117,4 +117,4 @@ La roue à vis sans fin doit être conçue manuellement. A cet effet, [FCGear En
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear WormGear/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear WormGear/fr

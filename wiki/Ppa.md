@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Ppa
+⏵ [documentation index](../README.md) > Ppa

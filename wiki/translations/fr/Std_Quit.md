@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Quit
-   Name/fr:Std Quitter
-   MenuLocation:Fichier - Quitter
-   Workbenches:Tous
-   Shortcut:**Alt**+**F4**
-   SeeAlso:[Std Fermer](Std_CloseActiveWindow/fr.md)
+   Name: Std Quit
+   Name/fr: Std Quitter
+   MenuLocation: Fichier - Quitter
+   Workbenches: Tous
+   Shortcut: **Alt**+**F4**
+   SeeAlso: [Std Fermer](Std_CloseActiveWindow/fr.md)
 ---
 
 # Std Quit/fr
@@ -47,4 +47,4 @@ La commande **Std Quitter** ferme l\'application FreeCAD et enregistre éventuel
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Quit/fr
+⏵ [documentation index](../README.md) > Std Quit/fr

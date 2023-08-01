@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPointsDistance
-   Icon:Assembly_ConstraintPointsDistance.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintPointsDistance
+   Icon: Assembly_ConstraintPointsDistance.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintPointsDistance/pl
@@ -20,4 +20,4 @@ This tool builds a link between two objects of an assembly and fixes the distanc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointsDistance/pl
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPointsDistance/pl

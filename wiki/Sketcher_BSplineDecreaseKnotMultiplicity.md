@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher BSplineDecreaseKnotMultiplicity
-   MenuLocation:Sketch - Sketcher B-spline tools - Decrease knot multiplicity
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Version:0.17
-   SeeAlso:[Sketcher Show/hide B-spline knot multiplicity](Sketcher_BSplineKnotMultiplicity.md), [Sketcher BSpline Increase knot multiplicity](Sketcher_BSplineIncreaseKnotMultiplicity.md)
+   Name: Sketcher BSplineDecreaseKnotMultiplicity
+   MenuLocation: Sketch - Sketcher B-spline tools - Decrease knot multiplicity
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Version: 0.17
+   SeeAlso: [Sketcher Show/hide B-spline knot multiplicity](Sketcher_BSplineKnotMultiplicity.md), [Sketcher BSpline Increase knot multiplicity](Sketcher_BSplineIncreaseKnotMultiplicity.md)
 ---
 
 # Sketcher BSplineDecreaseKnotMultiplicity
@@ -49,4 +49,4 @@ One can see that the spline with knot multiplicity 1 is completely changed while
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDecreaseKnotMultiplicity
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDecreaseKnotMultiplicity

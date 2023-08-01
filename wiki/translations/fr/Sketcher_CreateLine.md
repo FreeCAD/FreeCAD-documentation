@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateLine
-   Name/fr:Sketcher Ligne
-   MenuLocation:Esquisse - Géométries d'esquisse - Créer une ligne
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **L**
-   SeeAlso:[Sketcher Polyligne](Sketcher_CreatePolyline/fr.md)
+   Name: Sketcher CreateLine
+   Name/fr: Sketcher Ligne
+   MenuLocation: Esquisse - Géométries d'esquisse - Créer une ligne
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **L**
+   SeeAlso: [Sketcher Polyligne](Sketcher_CreatePolyline/fr.md)
 ---
 
 # Sketcher CreateLine/fr
@@ -36,4 +36,4 @@ L\'objet ligne créé commence et se termine aux points donnés, mais la ligne e
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/fr

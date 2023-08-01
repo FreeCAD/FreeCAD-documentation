@@ -2,7 +2,7 @@
 **Entwicklung des [Zeichnung Arbeitsbereich](Drawing_Workbench/de.md) wurde in FreeCAD v0.16 gestoppt und der neue in v0.17 eingeführte [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) zielt darauf, ihn zu ersetzen. Beide Arbeitsbereiche werden in v0.17 bereitgestellt, aber der Zeichnung Arbeitsbereich könnte in zukünftigen Ausgaben entfernt werden.**
 
 
-{{TOCright}}
+
 
 In den [SVG](http://de.wikipedia.org/wiki/Scalable_Vector_Graphics)-Dokumenten, die aus FreeCAD\'s [Zeichnungsmodul](Drawing_Workbench/de.md) exportiert wurden und als Seite [Vorlagen (templates)](Drawing_templates/de.md) verwendet werden, können verschiedene anwenderspezifische [Attribute](http://www.w3schools.com/xml/xml_attributes.asp) verwendet werden. Ursprünglich für den internen Gebrauch in FreeCAD, können sie auch durch andere FreeCAD-Applikationen in der Zukunft verwendet werden. All diese Attribute nutzen das **freecad:** [Namensraum](http://www.w3schools.com/xml/xml_namespaces.asp)-Präfix. Die URL des Namensraumes, die in diesen SVG-Dokumenten vorgegeben ist, bezieht sich auf diese Seite.
 
@@ -226,4 +226,4 @@ Siehe [Zeichnungsvorlagen](Drawing_templates/de.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > [Developer](Category_Developer.md) > [Python_Code](Category_Python_Code.md) > [Macros](Category_Macros.md) > [Drawing](Category_Drawing.md) > Svg Namespace/de
+⏵ [documentation index](../README.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > [Developer](Category_Developer.md) > [Python_Code](Category_Python_Code.md) > [Macros](Category_Macros.md) > [Drawing](Category_Drawing.md) > Svg Namespace/de

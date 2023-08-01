@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM EquationElectrostatic
-   Name/de:FEM GleichungElektrostatik
-   MenuLocation:Lösen - Electromagnetic Equations - Electrostatic equation
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[FEM GleichungElektrischeKraft](FEM_EquationElectricforce/de.md), [FEM Beispiel Kapazität Zweier Kugeln](FEM_Example_Capacitance_Two_Balls/de.md)
+   Name: FEM EquationElectrostatic
+   Name/de: FEM GleichungElektrostatik
+   MenuLocation: Lösen - Electromagnetic Equations - Electrostatic equation
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [FEM GleichungElektrischeKraft](FEM_EquationElectricforce/de.md), [FEM Beispiel Kapazität Zweier Kugeln](FEM_Example_Capacitance_Two_Balls/de.md)
 ---
 
 # FEM EquationElectrostatic/de
@@ -81,4 +81,4 @@ The possible results are:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElectrostatic/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElectrostatic/de

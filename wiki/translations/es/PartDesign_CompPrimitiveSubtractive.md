@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign CompPrimitiveSubtractive
-   Name/es:PartDesign Crear una Primitiva sustractiva
-   MenuLocation:Part Design - Crear una primitiva sustractiva
-   Workbenches:[PartDesign](PartDesign_Workbench/es.md)
-   Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md)
+   Name: PartDesign CompPrimitiveSubtractive
+   Name/es: PartDesign Crear una Primitiva sustractiva
+   MenuLocation: Part Design - Crear una primitiva sustractiva
+   Workbenches: [PartDesign](PartDesign_Workbench/es.md)
+   Version: 0.17
+   SeeAlso: [PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md)
 ---
 
 # PartDesign CompPrimitiveSubtractive/es
@@ -42,4 +42,4 @@ Crea una Primitiva sustractiva en el Body (cuerpo) activo, sustrayendo su forma 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveSubtractive/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveSubtractive/es

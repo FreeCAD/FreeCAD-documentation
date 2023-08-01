@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Chamfer
-   Name/pl:Część: Sfazowanie
-   MenuLocation:Część - Sfazowanie ...
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Zaokrąglenie](Part_Fillet/pl.md)
+   Name: Part Chamfer
+   Name/pl: Część: Sfazowanie
+   MenuLocation: Część - Sfazowanie ...
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: [Zaokrąglenie](Part_Fillet/pl.md)
 ---
 
 # Part Chamfer/pl
@@ -168,4 +168,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/pl

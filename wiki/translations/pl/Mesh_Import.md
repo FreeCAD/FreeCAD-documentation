@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh Import
-   Name/pl:Siatka: Import
-   MenuLocation:Siatki - Importuj siatkę ...
-   Workbenches:[Siatka](Mesh_Workbench/pl.md)
-   SeeAlso:[Importuj](Std_Import/pl.md), [Otwórz](Std_Open/pl.md), [Import Eksport](Import_Export/pl.md)
+   Name: Mesh Import
+   Name/pl: Siatka: Import
+   MenuLocation: Siatki - Importuj siatkę ...
+   Workbenches: [Siatka](Mesh_Workbench/pl.md)
+   SeeAlso: [Importuj](Std_Import/pl.md), [Otwórz](Std_Open/pl.md), [Import Eksport](Import_Export/pl.md)
 ---
 
 # Mesh Import/pl
@@ -58,4 +58,4 @@ Mesh.insert('D:/testfiles/cylinder.stl')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Import/pl
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Import/pl

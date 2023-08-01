@@ -49,4 +49,4 @@ else:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro SuperWire/it
+⏵ [documentation index](../README.md) > Macro SuperWire/it

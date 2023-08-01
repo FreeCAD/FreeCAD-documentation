@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher BSplineComb
-   Name/de:Sketcher BSplineKamm
-   MenuLocation:Sketch - B-Spline-Werkzeuge - B-Spline-Krümmungskamm ein-/ausblenden
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[Sketcher AuswahlBSplineErstellen](Sketcher_CompCreateBSpline/de.md)
+   Name: Sketcher BSplineComb
+   Name/de: Sketcher BSplineKamm
+   MenuLocation: Sketch - B-Spline-Werkzeuge - B-Spline-Krümmungskamm ein-/ausblenden
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [Sketcher AuswahlBSplineErstellen](Sketcher_CompCreateBSpline/de.md)
 ---
 
 # Sketcher BSplineComb/de
@@ -41,4 +41,4 @@ Der Krümmungskamm zeigt die Krümmung (Wert der zweiten Ableitung ) der B-Splin
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineComb/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineComb/de

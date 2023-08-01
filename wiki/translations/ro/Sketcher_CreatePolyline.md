@@ -1,6 +1,6 @@
 # Sketcher CreatePolyline/ro
 ---
-- GuiCommand:   Name:Sketcher CreatePolyline   Name/ro:Sketcher CreatePolyline   Workbenches:[MenuLocation:Sketch - Sketcher geometries - Create polyline   SeeAlso:[[Sketcher CreateLine/ro|Sketcher Line](Sketcher_Workbench/ro___Sketcher]].md)---
+- GuiCommand:   Name: Sketcher CreatePolyline   Name/ro: Sketcher CreatePolyline   Workbenches: [MenuLocation: Sketch - Sketcher geometries - Create polyline   SeeAlso: [[Sketcher CreateLine/ro|Sketcher Line](Sketcher_Workbench/ro___Sketcher]].md)---
 
 
 </div>
@@ -72,4 +72,4 @@ segmentul precedent.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePolyline/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePolyline/ro

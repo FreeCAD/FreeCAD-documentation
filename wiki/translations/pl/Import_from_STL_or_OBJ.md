@@ -100,4 +100,4 @@ Ponieważ utworzona bryła nie posiada historii i żadnych edytowalnych funkcji 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import from STL or OBJ/pl
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import from STL or OBJ/pl

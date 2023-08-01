@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Extrude
-   MenuLocation:Part - Extrude
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Draft Trimex](Draft_Trimex.md), [PartDesign Pad](PartDesign_Pad.md)
+   Name: Part Extrude
+   MenuLocation: Part - Extrude
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Draft Trimex](Draft_Trimex.md), [PartDesign Pad](PartDesign_Pad.md)
 ---
 
 # Part Extrude/zh-cn
@@ -233,4 +233,4 @@ PartDesign Pad也是一种挤型功能，但是与本页描述的挤型工具大
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/zh-cn
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/zh-cn

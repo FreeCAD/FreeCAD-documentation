@@ -751,4 +751,4 @@ class Fretboard():
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Guitar fretboard
+⏵ [documentation index](../README.md) > Macro Guitar fretboard

@@ -14,4 +14,4 @@ External aka 3rd-Party applications/libraries that FreeCAD depends on or are of 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:3rd Party
+⏵ [documentation index](../README.md) > Category:3rd Party

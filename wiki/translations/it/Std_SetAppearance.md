@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std SetAppearance
-   Name/it:Impostare l'aspetto degli oggetti
-   MenuLocation:Visualizza - Aspetto...
-   Workbenches:Tutti
-   Shortcut:**Ctrl**+**D**
-   SeeAlso:[Impostare il colore delle facce](Part_FaceColors/it.md)
+   Name: Std SetAppearance
+   Name/it: Impostare l'aspetto degli oggetti
+   MenuLocation: Visualizza - Aspetto...
+   Workbenches: Tutti
+   Shortcut: **Ctrl**+**D**
+   SeeAlso: [Impostare il colore delle facce](Part_FaceColors/it.md)
 ---
 
 # Std SetAppearance/it
@@ -79,4 +79,4 @@ Il comando **Impostare l\'aspetto degli oggetti** mostra le proprietà di visual
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SetAppearance/it
+⏵ [documentation index](../README.md) > Std SetAppearance/it

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Image CreateImagePlane
-   Name/de:Image BildebeneErstellen
-   MenuLocation:
-   Workbenches:[Image (Bild)](Image_Workbench/de.md)
-   SeeAlso:[Image Öffnen](Image_Open/de.md), [Image BildebeneSkalieren](Image_Scaling/de.md)
+   Name: Image CreateImagePlane
+   Name/de: Image BildebeneErstellen
+   MenuLocation: 
+   Workbenches: [Image (Bild)](Image_Workbench/de.md)
+   SeeAlso: [Image Öffnen](Image_Open/de.md), [Image BildebeneSkalieren](Image_Scaling/de.md)
 ---
 
 # Image CreateImagePlane/de
@@ -56,4 +56,4 @@ Wenn das Bild nicht schon zu Beginn ein Versatz erhält, kann seine Position imm
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/de
+⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/de

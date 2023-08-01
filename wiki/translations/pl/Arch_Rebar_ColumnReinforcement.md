@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar ColumnReinforcement
-   MenuLocation:Arch - Rebar tools - Column Reinforcement<br>3D/BIM - Reinforcement tools - Column Reinforcement
-   Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
-   Version:0.19
-   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Helical Rebar](Arch_Rebar_Helical.md), [Arch ColumnReinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md)
+   Name: Arch Rebar ColumnReinforcement
+   MenuLocation: Arch - Rebar tools - Column Reinforcement<br>3D/BIM - Reinforcement tools - Column Reinforcement
+   Workbenches: [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   Version: 0.19
+   SeeAlso: [Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Helical Rebar](Arch_Rebar_Helical.md), [Arch ColumnReinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md)
 ---
 
 # Arch Rebar ColumnReinforcement/pl
@@ -561,4 +561,4 @@ rebar_group = SingleTieMultipleRebars.editSingleTieMultipleRebars(
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement/pl
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement/pl

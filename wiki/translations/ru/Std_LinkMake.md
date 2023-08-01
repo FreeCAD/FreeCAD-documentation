@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std LinkMake
-   Name/ru:"Создать ссылку"
-   MenuLocation:Нет
-   Workbenches:Все
-   Version:0.19
-   SeeAlso:["Создать деталь"](Std_Part/ru.md), ["Создать группу"](Std_Group/ru.md), ["PartDesign Body"](PartDesign_Body/ru.md)
+   Name: Std LinkMake
+   Name/ru: "Создать ссылку"
+   MenuLocation: Нет
+   Workbenches: Все
+   Version: 0.19
+   SeeAlso: ["Создать деталь"](Std_Part/ru.md), ["Создать группу"](Std_Group/ru.md), ["PartDesign Body"](PartDesign_Body/ru.md)
 ---
 
 # Std LinkMake/ru
@@ -397,4 +397,4 @@ Other miscellaneous \"links\" about Link include:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkMake/ru
+⏵ [documentation index](../README.md) > Std LinkMake/ru

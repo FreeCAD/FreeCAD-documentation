@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign Point
-   Name/de:PartDesign Bezugspunkt erstellen
-   MenuLocation:Part Design - Bezugselement erstellen - Bezugspunkt erstellen
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[PartDesign Bezugslinie](PartDesign_Line/de.md), [PartDesign Bezugsebene](PartDesign_Plane/de.md)
+   Name: PartDesign Point
+   Name/de: PartDesign Bezugspunkt erstellen
+   MenuLocation: Part Design - Bezugselement erstellen - Bezugspunkt erstellen
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Bezugslinie](PartDesign_Line/de.md), [PartDesign Bezugsebene](PartDesign_Plane/de.md)
 ---
 
 # PartDesign Point/de
@@ -61,4 +61,4 @@ Doppel-Klicke das Referenzpunkt Label im Modellbaum oder klicke dies einfach und
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Point/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Point/de

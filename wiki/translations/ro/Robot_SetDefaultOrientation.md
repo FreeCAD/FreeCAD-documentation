@@ -1,6 +1,6 @@
 # Robot SetDefaultOrientation/ro
 ---
-- GuiCommand:   Name:Robot SetDefaultOrientation   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot - Set default orientation---
+- GuiCommand:   Name: Robot SetDefaultOrientation   Workbenches: [[Robot_Workbench   Robot]]|MenuLocation: Robot - Set default orientation---
 
 
 </div>
@@ -32,4 +32,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetDefaultOrientation/ro
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetDefaultOrientation/ro

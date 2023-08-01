@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ShowElementCS
-   Name/de:Assembly3 ElementKoordinatensystemAnzeigen
-   Icon:Assembly_ShowElementCS.svg‎‎
-   MenuLocation:Assembly3 - Element style - Show element coordinate system
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ShowElementCS
+   Name/de: Assembly3 ElementKoordinatensystemAnzeigen
+   Icon: Assembly_ShowElementCS.svg‎‎
+   MenuLocation: Assembly3 - Element style - Show element coordinate system
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ShowElementCS/de
@@ -34,4 +34,4 @@ Ein EKS wird durch 3 Linien dargestellt, die sich im Ursprung des Elements treff
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ShowElementCS/de
+⏵ [documentation index](../README.md) > Assembly3 ShowElementCS/de

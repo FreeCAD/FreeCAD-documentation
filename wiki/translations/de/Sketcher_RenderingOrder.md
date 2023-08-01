@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher RenderingOrder
-   Name/de:Sketcher RenderingReihenfolge
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Version:0.21
+   Name: Sketcher RenderingOrder
+   Name/de: Sketcher RenderingReihenfolge
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Version: 0.21
 ---
 
 # Sketcher RenderingOrder/de
@@ -38,4 +38,4 @@ Im Falle von deckungsgleichen Objekten gibt die Rendering-Reihenfolge vor, welch
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RenderingOrder/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RenderingOrder/de

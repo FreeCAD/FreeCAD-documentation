@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std Delete
-   MenuLocation:Edit - Delete
-   Workbenches:All
-   Shortcut:**Del**
+   Name: Std Delete
+   MenuLocation: Edit - Delete
+   Workbenches: All
+   Shortcut: **Del**
 ---
 
 # Std Delete/en
@@ -47,4 +47,4 @@ FreeCAD.ActiveDocument.removeObject("myObjectName")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Delete/en
+⏵ [documentation index](../README.md) > Std Delete/en

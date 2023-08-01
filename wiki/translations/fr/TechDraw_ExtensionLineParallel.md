@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionLineParallel
-   Name/fr:TechDraw Ligne parallèle
-   MenuLocation:TechDraw - Extensions : taraudages/filetages - Ligne parallèle
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw Ligne perpendiculaire](TechDraw_ExtensionLinePerpendicular/fr.md)
+   Name: TechDraw ExtensionLineParallel
+   Name/fr: TechDraw Ligne parallèle
+   MenuLocation: TechDraw - Extensions : taraudages/filetages - Ligne parallèle
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw Ligne perpendiculaire](TechDraw_ExtensionLinePerpendicular/fr.md)
 ---
 
 # TechDraw ExtensionLineParallel/fr
@@ -41,4 +41,4 @@ L\'outil **TechDraw Ligne parallèle** ajoute une ligne cosmétique parallèle �
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionLineParallel/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionLineParallel/fr

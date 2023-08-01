@@ -1,6 +1,6 @@
 # Drawing Clip/it
 ---
-- GuiCommand:   Name:Drawing Clip   Name/it:Inserto   Workbenches:[[Drawing Workbench/it   Drawing]], Completo|MenuLocation:Drawing - Inserto   Shortcut:none---
+- GuiCommand:   Name: Drawing Clip   Name/it: Inserto   Workbenches: [[Drawing Workbench/it   Drawing]], Completo|MenuLocation: Drawing - Inserto   Shortcut: none---
 
 ### Descrizione
 
@@ -34,4 +34,4 @@ Questo comando consente di inserire e posizionare un riquadro rettangolare, deno
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Clip/it
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Clip/it

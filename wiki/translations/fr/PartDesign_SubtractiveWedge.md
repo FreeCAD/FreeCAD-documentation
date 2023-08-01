@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractiveWedge
-   Name/fr:PartDesign Pyramide tronquée soustractive
-   MenuLocation:Part Design - Créer une primitive soustractive - Pyramide tronquée soustractive
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md), [PartDesign Pyramide tronquée additive](PartDesign_AdditiveWedge/fr.md)
+   Name: PartDesign SubtractiveWedge
+   Name/fr: PartDesign Pyramide tronquée soustractive
+   MenuLocation: Part Design - Créer une primitive soustractive - Pyramide tronquée soustractive
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md), [PartDesign Pyramide tronquée additive](PartDesign_AdditiveWedge/fr.md)
 ---
 
 # PartDesign SubtractiveWedge/fr
@@ -59,4 +59,4 @@ Les Pyramides tronquées peuvent être utilisées pour créer des pyramides en f
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveWedge/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveWedge/fr

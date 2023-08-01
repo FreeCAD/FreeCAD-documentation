@@ -543,4 +543,4 @@ Diskussion über [Forum](http://forum.freecadweb.org/viewtopic.php?f=22&t=5554&p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Airfoil Import & Scale/de
+⏵ [documentation index](../README.md) > Macro Airfoil Import & Scale/de

@@ -12,7 +12,7 @@
 ## Introduction
 
 
-{{TOCright}}
+
 
 The <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> [Points Workbench](Points_Workbench.md) offers specific tools for working with [point clouds](http://en.wikipedia.org/wiki/Point_cloud). The workbench is still in development.
 
@@ -61,4 +61,4 @@ A point cloud is a collection of points in 3D space. A point cloud is generally 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/sv
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/sv

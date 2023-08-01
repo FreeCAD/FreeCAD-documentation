@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreatePoint
-   MenuLocation:Sketch - Sketcher geometries - Create point
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**G** **Y**
+   Name: Sketcher CreatePoint
+   MenuLocation: Sketch - Sketcher geometries - Create point
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **G** **Y**
 ---
 
 # Sketcher CreatePoint/zh-cn
@@ -63,4 +63,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/zh-cn
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/zh-cn

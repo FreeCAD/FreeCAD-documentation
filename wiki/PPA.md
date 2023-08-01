@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > PPA
+⏵ [documentation index](../README.md) > PPA

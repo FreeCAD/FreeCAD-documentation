@@ -1,7 +1,7 @@
 # <img alt="FEM Arbeitsbereichssymbol" src=images/Workbench_FEM.svg  style="width:64px;"> FEM Workbench/de
 
 
-{{TOCright}}
+
 
 
 
@@ -347,4 +347,4 @@ Ein Entwicklerhandbuch wurde geschrieben, um Power-Usern zu helfen, die komplexe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [FEM](Category_FEM.md) > FEM Workbench/de
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [FEM](Category_FEM.md) > FEM Workbench/de

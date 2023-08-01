@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_SaveAs
-   Name/it:Salva con nome
-   MenuLocation:File - Salva con nome...
-   Workbenches:Tutti
-   SeeAlso:[Salva una copia](Std_SaveCopy/it.md), [Salva](Std_Save/it.md)
+   Name: Std_SaveAs
+   Name/it: Salva con nome
+   MenuLocation: File - Salva con nome...
+   Workbenches: Tutti
+   SeeAlso: [Salva una copia](Std_SaveCopy/it.md), [Salva](Std_Save/it.md)
 ---
 
 # Std SaveAs/it
@@ -63,4 +63,4 @@ Per salvare un documento con un nuovo nome, utilizzare il metodo `saveAs` dell\'
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SaveAs/it
+⏵ [documentation index](../README.md) > Std SaveAs/it

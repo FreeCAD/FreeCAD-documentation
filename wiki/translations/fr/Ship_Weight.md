@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Ship Weight
-   Name/fr:Ship Poids
-   MenuLocation:Weights - Create a new ship weight
-   Workbenches:[Ship](Ship_Workbench/fr.md)
-   Shortcut:
-   SeeAlso:
+   Name: Ship Weight
+   Name/fr: Ship Poids
+   MenuLocation: Weights - Create a new ship weight
+   Workbenches: [Ship](Ship_Workbench/fr.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Ship Weight/fr
@@ -70,4 +70,4 @@ Les poids ponctuels sont caractérisés par leur masse (en kg, ou toute autre un
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Weight/fr
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Weight/fr

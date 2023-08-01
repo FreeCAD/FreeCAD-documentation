@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreatePoint
-   Name/fr:Sketcher Point
-   MenuLocation:Esquisse - Géométries d'esquisse - Créer un point
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **Y**
+   Name: Sketcher CreatePoint
+   Name/fr: Sketcher Point
+   MenuLocation: Esquisse - Géométries d'esquisse - Créer un point
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **Y**
 ---
 
 # Sketcher CreatePoint/fr
@@ -37,4 +37,4 @@ L\'outil Point crée un point dans l\'esquisse en cours, qui peut être utilisé
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/fr

@@ -147,4 +147,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Category_Part.md) > Aeroplane/ru
+⏵ [documentation index](../README.md) > [Part](Category_Part.md) > Aeroplane/ru

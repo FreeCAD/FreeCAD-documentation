@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Добавить информацию о сварке в линию-выноску
-   Name:TechDraw_WeldSymbol
-   MenuLocation:TechDraw - Добавить информацию о сварке в линию-выноску
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Добавить Линию-выноску в Вид](TechDraw_LeaderLine/ru.md)
+   Name/ru: Добавить информацию о сварке в линию-выноску
+   Name: TechDraw_WeldSymbol
+   MenuLocation: TechDraw - Добавить информацию о сварке в линию-выноску
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Добавить Линию-выноску в Вид](TechDraw_LeaderLine/ru.md)
 ---
 
 # TechDraw WeldSymbol/ru
@@ -138,4 +138,4 @@ Individual symbols are formed by 64x64 pixel SVG files. Additional symbols can b
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw WeldSymbol/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw WeldSymbol/ru

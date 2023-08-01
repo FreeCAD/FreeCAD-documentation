@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign NewSketch
-   Name/tr:Eskiz oluştur
-   Workbenches:[PartDesign](PartDesign_Workbench/tr.md)
-   MenuLocation:PartDesign - Eskiz oluştur
-   Version:0.17
+   Name: PartDesign NewSketch
+   Name/tr: Eskiz oluştur
+   Workbenches: [PartDesign](PartDesign_Workbench/tr.md)
+   MenuLocation: PartDesign - Eskiz oluştur
+   Version: 0.17
 ---
 
 # PartDesign NewSketch/tr
@@ -109,4 +109,4 @@ To reference any items in the [Workbench Sketcher](Sketcher_Workbench.md) use th
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/tr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/tr

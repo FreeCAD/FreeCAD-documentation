@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM_ConstraintPressure
-   Name/it:Vincolo pressione FEM
-   MenuLocation:Modello - Vincoli meccanici - Vincolo pressione
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
+   Name: FEM_ConstraintPressure
+   Name/it: Vincolo pressione FEM
+   MenuLocation: Modello - Vincoli meccanici - Vincolo pressione
+   Workbenches: [FEM](FEM_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: [Tutorial FEM](FEM_tutorial/it.md)
 ---
 
 # FEM ConstraintPressure/it
@@ -65,4 +65,4 @@ Si applica un vincolo di pressione a una faccia.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPressure/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPressure/it

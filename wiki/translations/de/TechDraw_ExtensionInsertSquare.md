@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionInsertSquare
-   Name/de:TechDraw ErgänzungQuadratsymbolEinfügen
-   MenuLocation:TechDraw - Ergänzung: Maße -  '□'-Symbol einfügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ErgänzungDurchmesserEinfügen](TechDraw_ExtensionInsertDiameter/de.md)
+   Name: TechDraw ExtensionInsertSquare
+   Name/de: TechDraw ErgänzungQuadratsymbolEinfügen
+   MenuLocation: TechDraw - Ergänzung: Maße -  '□'-Symbol einfügen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ErgänzungDurchmesserEinfügen](TechDraw_ExtensionInsertDiameter/de.md)
 ---
 
 # TechDraw ExtensionInsertSquare/de
@@ -53,4 +53,4 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionInsertSquare.svg  style="w
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionInsertSquare/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionInsertSquare/de

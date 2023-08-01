@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Ограничение касательности
-   Name:Sketcher_ConstrainTangent
-   MenuLocation:Sketch - Ограничения эскиза - Ограничение касательности
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**T**
-   SeeAlso:[Зафиксировать точку на объекте](Sketcher_ConstrainPointOnObject/ru.md)
+   Name/ru: Ограничение касательности
+   Name: Sketcher_ConstrainTangent
+   MenuLocation: Sketch - Ограничения эскиза - Ограничение касательности
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **T**
+   SeeAlso: [Зафиксировать точку на объекте](Sketcher_ConstrainPointOnObject/ru.md)
 ---
 
 # Sketcher ConstrainTangent/ru
@@ -138,4 +138,4 @@ Sketch.addConstraint(Sketcher.Constraint('TangentViaPoint',icurve1,icurve2,geoid
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainTangent/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainTangent/ru

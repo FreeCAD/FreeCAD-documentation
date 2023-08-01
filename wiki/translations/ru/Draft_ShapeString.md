@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft ShapeString
-   Name/ru:Draft ShapeString
-   MenuLocation:Черчение - Текст в кривую ...
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:**S** **S**
-   Version:0.14
-   SeeAlso:[Draft Text](Draft_Text/ru.md), [Part Extrude](Part_Extrude/ru.md)
+   Name: Draft ShapeString
+   Name/ru: Draft ShapeString
+   MenuLocation: Черчение - Текст в кривую ...
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: **S** **S**
+   Version: 0.14
+   SeeAlso: [Draft Text](Draft_Text/ru.md), [Part Extrude](Part_Extrude/ru.md)
 ---
 
 # Draft ShapeString/ru
@@ -160,4 +160,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShapeString/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShapeString/ru

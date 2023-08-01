@@ -1,7 +1,4 @@
 # Tutorials/hr
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 Ova stranica predstavlja izbornik napisanih vježbi visoke kvalitete koja još nije gotova, nesortirana lista vježbi se može ovdje naći [Upute](:Category:Tutorials/hr.md).
@@ -356,4 +353,4 @@ Here are listed all the tutorials that are not in the manual **regardless of the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Tutorials/hr
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Tutorials/hr

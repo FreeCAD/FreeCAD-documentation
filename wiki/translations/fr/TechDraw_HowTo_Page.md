@@ -58,4 +58,4 @@ Voir aussi [Mesure des angles sur les axes des trous](Measurement_Of_Angles_On_H
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HowTo Page/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HowTo Page/fr

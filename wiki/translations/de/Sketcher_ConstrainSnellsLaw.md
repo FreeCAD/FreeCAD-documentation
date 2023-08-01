@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainSnellsLaw
-   Name/de:Sketcher ConstrainSnellsLaw
-   MenuLocation:Sketch - Skizzen-Beschränkungen - Lichtbrechung (nach Snellius-Gesetz) festlegen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**K** **W**
-   Version:0.15
+   Name: Sketcher ConstrainSnellsLaw
+   Name/de: Sketcher ConstrainSnellsLaw
+   MenuLocation: Sketch - Skizzen-Beschränkungen - Lichtbrechung (nach Snellius-Gesetz) festlegen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **K** **W**
+   Version: 0.15
 ---
 
 # Sketcher ConstrainSnellsLaw/de
@@ -116,4 +116,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSnellsLaw/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSnellsLaw/de

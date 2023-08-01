@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:FEM CreateNodesSet
-   MenuLocation:Mesh - Nodes set
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM tutorial](FEM_tutorial.md)
+   Name: FEM CreateNodesSet
+   MenuLocation: Mesh - Nodes set
+   Workbenches: [FEM](FEM_Workbench.md)
+   SeeAlso: [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM CreateNodesSet/pl
@@ -33,4 +33,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM CreateNodesSet/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM CreateNodesSet/pl

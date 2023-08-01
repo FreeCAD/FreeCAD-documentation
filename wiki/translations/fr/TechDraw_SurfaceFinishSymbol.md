@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw SurfaceFinishSymbol
-   Name/fr:TechDraw Symbole d'état de surface
-   MenuLocation:TechDraw - Ajouter un symbole d'état de surface
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.21
+   Name: TechDraw SurfaceFinishSymbol
+   Name/fr: TechDraw Symbole d'état de surface
+   MenuLocation: TechDraw - Ajouter un symbole d'état de surface
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Version: 0.21
 ---
 
 # TechDraw SurfaceFinishSymbol/fr
@@ -52,4 +52,4 @@ L\'outil **TechDraw Symbole d\'état de surface** ajoute un symbole de finition 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SurfaceFinishSymbol/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SurfaceFinishSymbol/fr

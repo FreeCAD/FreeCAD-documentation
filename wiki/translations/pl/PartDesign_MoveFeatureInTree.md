@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign MoveFeatureInTree
-   Name/pl:Projekt Części: Przesuń cechę
-   MenuLocation:Menu kontekstowe - Przesuń cechę
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Ustaw czubek](PartDesign_MoveTip/pl.md), [Przesuń cechę do innej zawartości](PartDesign_MoveFeature/pl.md)
+   Name: PartDesign MoveFeatureInTree
+   Name/pl: Projekt Części: Przesuń cechę
+   MenuLocation: Menu kontekstowe - Przesuń cechę
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Ustaw czubek](PartDesign_MoveTip/pl.md), [Przesuń cechę do innej zawartości](PartDesign_MoveFeature/pl.md)
 ---
 
 # PartDesign MoveFeatureInTree/pl
@@ -42,4 +42,4 @@ Poniższe trzy obrazki przedstawiają ten sam model z kieszenią zdefiniowaną n
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeatureInTree/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeatureInTree/pl

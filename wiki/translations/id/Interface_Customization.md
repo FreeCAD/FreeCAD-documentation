@@ -1,6 +1,4 @@
 # Interface Customization/id
-{{TOCright}}
-
 ## Introduction
 
 The FreeCAD interface is based on the modern [Qt](http://en.wikipedia.org/wiki/Qt_(toolkit)) toolkit and has a state-of-the-art organization. Some aspects of the interface can be customized. You can, for example, add custom toolbars, with tools from several workbenches or tools defined in macros, and you can create you own keyboard shortcuts. But the menus and default toolbars that come with FreeCAD and its workbenches cannot be changed.
@@ -245,4 +243,4 @@ In the Workbenches category of the Addon Manager some addons by user triplus can
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Interface Customization/id
+⏵ [documentation index](../README.md) > Interface Customization/id

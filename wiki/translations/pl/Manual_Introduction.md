@@ -16,4 +16,4 @@ Zawartość tego podręcznika jest opublikowana na licencji [Creative Commons 4.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Manual:Introduction/pl
+⏵ [documentation index](../README.md) > Manual:Introduction/pl

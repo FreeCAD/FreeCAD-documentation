@@ -1,5 +1,4 @@
-# User hub/cs
-{{TOCright}} <img alt="" src=images/User_hub.png  style="width:64px;">
+# <img alt="" src=images/User_hub.png  style="width:64px;"> User hub/cs
 
 
 
@@ -200,4 +199,4 @@ Toto je oficiální online nápověda FreeCADu. Mějte prosím na paměti, že c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/cs
+⏵ [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/cs

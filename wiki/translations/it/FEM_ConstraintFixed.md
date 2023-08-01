@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM_ConstraintFixed
-   Name/it:Vincolo fissaggio
-   MenuLocation:Modello - Vincoli meccanici - Vincolo fissaggio
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
+   Name: FEM_ConstraintFixed
+   Name/it: Vincolo fissaggio
+   MenuLocation: Modello - Vincoli meccanici - Vincolo fissaggio
+   Workbenches: [FEM](FEM_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: [Tutorial FEM](FEM_tutorial/it.md)
 ---
 
 # FEM ConstraintFixed/it
@@ -54,4 +54,4 @@ Non è possibile ceare combinazioni di tipi di oggetti all\'interno dello stesso
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintFixed/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintFixed/it

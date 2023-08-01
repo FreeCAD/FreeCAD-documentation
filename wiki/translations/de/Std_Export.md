@@ -1,12 +1,12 @@
 # Std Export/de
 ---
 - GuiCommand:
-   Name:Std Export
-   Name/de:Std Export
-   MenuLocation:Datei - Exportieren...
-   Workbenches:Alle
-   Shortcut:**Strg**+**E**
-   SeeAlso:[Std PrintPdf](Std_PrintPdf/de.md), [Export](Import_Export/de.md), [Import Export Einstellungen](Import_Export_Preferences/de.md)---
+   Name: Std Export
+   Name/de: Std Export
+   MenuLocation: Datei - Exportieren...
+   Workbenches: Alle
+   Shortcut: **Strg**+**E**
+   SeeAlso: [Std PrintPdf](Std_PrintPdf/de.md), [Export](Import_Export/de.md), [Import Export Einstellungen](Import_Export_Preferences/de.md)---
 
 ## Beschreibung
 
@@ -53,4 +53,4 @@ Der **Std Export**-Befehl exportiert ausgewählte Objekte in ein anderes Dateifo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export/de
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export/de

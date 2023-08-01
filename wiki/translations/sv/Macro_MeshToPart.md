@@ -69,4 +69,4 @@ Diskussionen på forumet [Convert mesh to solid?](http://forum.freecadweb.org/vi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro MeshToPart/sv
+⏵ [documentation index](../README.md) > Macro MeshToPart/sv

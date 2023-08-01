@@ -1,8 +1,4 @@
 # Code snippets/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 Ta strona zawiera przykłady, wycinki, fragmenty kodu FreeCAD python zebrane z doświadczeń użytkowników i dyskusji na [forum](https://forum.freecadweb.org/viewforum.php?f=22). Przeczytaj i użyj jako zaczątek swoich własnych skryptów\...
@@ -1862,4 +1858,4 @@ See [Coin3d snippets](Coin3d_snippets.md) {{Top}}
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Code snippets/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Code snippets/pl

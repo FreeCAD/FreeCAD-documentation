@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh Export
-   Name/pl:Siatka: Eksportuj
-   MenuLocation:Siatki - Eksportuj siatkę ...
-   Workbenches:[Siatka](Mesh_Workbench/pl.md)
-   SeeAlso:[Eksport](Std_Export/pl.md), [Import Eksport](Import_Export/pl.md)
+   Name: Mesh Export
+   Name/pl: Siatka: Eksportuj
+   MenuLocation: Siatki - Eksportuj siatkę ...
+   Workbenches: [Siatka](Mesh_Workbench/pl.md)
+   SeeAlso: [Eksport](Std_Export/pl.md), [Import Eksport](Import_Export/pl.md)
 ---
 
 # Mesh Export/pl
@@ -59,4 +59,4 @@ Mesh.export([doc.Cone, doc.Cylinder], 'D:/testfiles/mymodel.stl')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Export/pl
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Export/pl

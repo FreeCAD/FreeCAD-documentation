@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part PointsFromMesh‎
-   Name/it:Crea punti da mesh
-   MenuLocation:Part - Crea punti da mesh
-   Workbenches:[Part](Part_Workbench/it.md)
-   Version:0.19
-   SeeAlso:[Crea forma da mesh](Part_ShapeFromMesh/it.md), [Converti in solido](Part_MakeSolid/it.md), [Affina forma](Part_RefineShape/it.md)
+   Name: Part PointsFromMesh‎
+   Name/it: Crea punti da mesh
+   MenuLocation: Part - Crea punti da mesh
+   Workbenches: [Part](Part_Workbench/it.md)
+   Version: 0.19
+   SeeAlso: [Crea forma da mesh](Part_ShapeFromMesh/it.md), [Converti in solido](Part_MakeSolid/it.md), [Affina forma](Part_RefineShape/it.md)
 ---
 
 # Part PointsFromMesh/it
@@ -59,4 +59,4 @@ La forma risultante è una raccolta di vertici o punti, che può essere utilizza
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part PointsFromMesh/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part PointsFromMesh/it

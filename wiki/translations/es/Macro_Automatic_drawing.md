@@ -128,4 +128,4 @@ El foro [Automatic drawing](https://forum.freecadweb.org/viewtopic.php?f=8&t=336
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Automatic drawing/es
+⏵ [documentation index](../README.md) > Macro Automatic drawing/es

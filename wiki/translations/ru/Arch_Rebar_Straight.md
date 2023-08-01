@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Прямая арматура
-   Name:Arch_Rebar_Straight
-   MenuLocation:Arch - Rebar tools - Straight Rebar<br>3D/BIM - Reinforcement tools - Straight Rebar
-   Workbenches:[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [Arch Rebar BOM](Arch_Rebar_BOM/ru.md)
+   Name/ru: Прямая арматура
+   Name: Arch_Rebar_Straight
+   MenuLocation: Arch - Rebar tools - Straight Rebar<br>3D/BIM - Reinforcement tools - Straight Rebar
+   Workbenches: [Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [Arch Rebar BOM](Arch_Rebar_BOM/ru.md)
 ---
 
 # Arch Rebar Straight/ru
@@ -232,4 +232,4 @@ StraightRebar.editStraightRebar(Rebar4, 50, ("Right Side", 50), 100, 100,
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Straight/ru
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Straight/ru

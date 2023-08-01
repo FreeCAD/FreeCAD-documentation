@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Cone
-   Name/fr:Part Cône
-   MenuLocation:Part - Primitives - Cône
-   Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Part Primitives](Part_Primitives/fr.md)
+   Name: Part Cone
+   Name/fr: Part Cône
+   MenuLocation: Part - Primitives - Cône
+   Workbenches: [Part](Part_Workbench/fr.md)
+   SeeAlso: [Part Primitives](Part_Primitives/fr.md)
 ---
 
 # Part Cone/fr
@@ -121,4 +121,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/fr

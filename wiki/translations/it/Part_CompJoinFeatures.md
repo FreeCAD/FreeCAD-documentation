@@ -1,6 +1,6 @@
 # Part CompJoinFeatures/it
 ---
-- GuiCommand:   Name:Part CompJoinFeatures   Name/it:Giunzione   MenuLocation:Part - Congiungi   Workbenches:[SeeAlso:[[Part_JoinConnect/it|Congiungi oggetti](Part_Workbench/it___Part]].md), [Incastra oggetto](Part_JoinEmbed/it.md), [Asporta con oggetto](Part_JoinCutout/it.md), [Operazione booleana](Part_Boolean/it.md), [Spessore](Part_Thickness/it.md)---
+- GuiCommand:   Name: Part CompJoinFeatures   Name/it: Giunzione   MenuLocation: Part - Congiungi   Workbenches: [SeeAlso: [[Part_JoinConnect/it|Congiungi oggetti](Part_Workbench/it___Part]].md), [Incastra oggetto](Part_JoinEmbed/it.md), [Asporta con oggetto](Part_JoinCutout/it.md), [Operazione booleana](Part_Boolean/it.md), [Spessore](Part_Thickness/it.md)---
 
 
 </div>
@@ -39,4 +39,4 @@ Questo comando apre un menu a tendina della barra degli strumenti che contiene t
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/it

@@ -1,6 +1,6 @@
 # PartDesign SubtractiveTorus/it
 ---
-- GuiCommand:   Name:PartDesign SubtractiveTorus   Name/it:Toro sottrattivo   Workbenches:[MenuLocation:Part Design - Crea una primitiva sottrattiva - Toro   Version:0.17   SeeAlso:[[PartDesign CompPrimitiveSubtractive/it|Primitive sottrattive](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign SubtractiveTorus   Name/it: Toro sottrattivo   Workbenches: [MenuLocation: Part Design - Crea una primitiva sottrattiva - Toro   Version: 0.17   SeeAlso: [[PartDesign CompPrimitiveSubtractive/it|Primitive sottrattive](PartDesign_Workbench/it___PartDesign]].md)---
 
 
 </div>
@@ -76,4 +76,4 @@ Dopo la sua creazione il toro può essere modificato in due modi:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveTorus/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveTorus/it

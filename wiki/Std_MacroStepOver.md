@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std MacroStepOver
-   Empty:1
-   MenuLocation:Macro - Step over
-   Workbenches:All
-   Shortcut:**F10**
-   SeeAlso:[Std MacroStepInto](Std_MacroStepInto.md), [Std ToggleBreakpoint](Std_ToggleBreakpoint.md)
+   Name: Std MacroStepOver
+   Empty: 1
+   MenuLocation: Macro - Step over
+   Workbenches: All
+   Shortcut: **F10**
+   SeeAlso: [Std MacroStepInto](Std_MacroStepInto.md), [Std ToggleBreakpoint](Std_ToggleBreakpoint.md)
 ---
 
 # Std MacroStepOver
@@ -22,4 +22,4 @@ This command does not work at this time.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MacroStepOver
+⏵ [documentation index](../README.md) > Std MacroStepOver

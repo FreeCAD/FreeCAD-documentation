@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectConstraints
-   Name/fr:Sketcher Contraintes associées
-   MenuLocation:Esquisse - Outils d'esquisse - Sélectionner les contraintes associées
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**Z** **K**
-   Version:0.15
+   Name: Sketcher SelectConstraints
+   Name/fr: Sketcher Contraintes associées
+   MenuLocation: Esquisse - Outils d'esquisse - Sélectionner les contraintes associées
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **Z** **K**
+   Version: 0.15
 ---
 
 # Sketcher SelectConstraints/fr
@@ -36,4 +36,4 @@ Sélectionne les contraintes d\'un élément d\'esquisse.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConstraints/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConstraints/fr

@@ -1,7 +1,7 @@
 # <img alt="PartDesign workbench icon" src=images/Workbench_PartDesign.svg  style="width:64px;"> PartDesign Workbench/tr
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -618,4 +618,4 @@ For some ideas of what can be achieved with Part Design tools, have a look at: [
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/tr
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/tr

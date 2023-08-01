@@ -10,7 +10,7 @@
 <img alt="El icono del Ambiente de trabajo Pieza" src=images/Workbench_Part.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 
 
@@ -280,4 +280,4 @@ Ver [Guiones Pieza](Part_scripting/es.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Part](Part_Workbench.md) > Part Module/es
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Part](Part_Workbench.md) > Part Module/es

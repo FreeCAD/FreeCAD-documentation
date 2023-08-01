@@ -1,6 +1,6 @@
 # Path Engrave/ro
 ---
-- GuiCommand:   Name:Path Engrave   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path - Engrave   Shortcut|SeeAlso:---
+- GuiCommand:   Name: Path Engrave   Workbenches: [[Path Workbench   Path]]|MenuLocation: Path - Engrave   Shortcut|SeeAlso: ---
 
 
 </div>
@@ -116,4 +116,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Engrave/ro
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Engrave/ro

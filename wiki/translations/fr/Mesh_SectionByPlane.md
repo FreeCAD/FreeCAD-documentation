@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh SectionByPlane
-   Name/fr:Mesh Section
-   MenuLocation:Maillages - Couper - Créer une section à partir d'un maillage et d'un plan
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Coupes](Mesh_CrossSections/fr.md)
+   Name: Mesh SectionByPlane
+   Name/fr: Mesh Section
+   MenuLocation: Maillages - Couper - Créer une section à partir d'un maillage et d'un plan
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
+   SeeAlso: [Mesh Coupes](Mesh_CrossSections/fr.md)
 ---
 
 # Mesh SectionByPlane/fr
@@ -71,4 +71,4 @@ Part.show(Part.makePolygon(loops[0]))
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SectionByPlane/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SectionByPlane/fr

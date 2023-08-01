@@ -1,6 +1,6 @@
 # Std Cut/ro
 ---
-- GuiCommand:   Name:Std Cut   MenuLocation:[Shortcut:Ctrl+X   Workbenches:All   SeeAlso:[[Std Copy|Copy](Std_Edit_Menu___Edit]]_-_Cut.md), [Paste](Std_Paste.md), [Delete](Std_Delete.md)---
+- GuiCommand:   Name: Std Cut   MenuLocation: [Shortcut: Ctrl+X   Workbenches: All   SeeAlso: [[Std Copy|Copy](Std_Edit_Menu___Edit]]_-_Cut.md), [Paste](Std_Paste.md), [Delete](Std_Delete.md)---
 
 
 </div>
@@ -64,4 +64,4 @@ Pentru [select](Draft_Select/it.md) mai multe obiecte:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Cut/ro
+⏵ [documentation index](../README.md) > Std Cut/ro

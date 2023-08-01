@@ -95,4 +95,4 @@ No installation is required. Thanks go to the author of the program.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Coin3d snippets
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Coin3d snippets

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 MultiplyConstraint
-   Name/fr:Assembly3 Multiplier les contraintes
-   Icon:Assembly_ConstraintMultiply.svg‎‎
-   MenuLocation:Assembly3 - Multiply constraint
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 MultiplyConstraint
+   Name/fr: Assembly3 Multiplier les contraintes
+   Icon: Assembly_ConstraintMultiply.svg‎‎
+   MenuLocation: Assembly3 - Multiply constraint
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 MultiplyConstraint/fr
@@ -22,4 +22,4 @@ La commande <img alt="" src=images/Assembly_ConstraintMultiply.svg  style="width
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 MultiplyConstraint/fr
+⏵ [documentation index](../README.md) > Assembly3 MultiplyConstraint/fr

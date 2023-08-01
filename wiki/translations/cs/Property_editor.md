@@ -1,9 +1,4 @@
 # Property editor/cs
-{{TOCright}}
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 ## Přehled
@@ -32,7 +27,7 @@ Ne všechny vlastnosti mohou být upravovány v daném čase. V závislosti na s
 </div>
 
 
-{{TOCright}}
+
 
 ![](images/FreeCAD_Property_editor_empty.png )
 
@@ -316,4 +311,4 @@ print(obj.ViewObject.PropertiesList)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Property editor/cs
+⏵ [documentation index](../README.md) > Property editor/cs

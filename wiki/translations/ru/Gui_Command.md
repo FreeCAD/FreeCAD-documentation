@@ -1,7 +1,4 @@
 # Gui Command/ru
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 GuiCommand - одна из наиболее важных функций FreeCAD при взаимодействии с пользователем. Каждый раз, когда пользователь выбирает опцию в меню или нажимает на кнопку панели инструментов, активируется GuiCommand. Некоторые из атрибутов GuiCommand:
@@ -105,4 +102,4 @@ GuiCommand именуются определенным образом: *ИмяМ
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Gui Command/ru
+⏵ [documentation index](../README.md) > Gui Command/ru

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreeCollapseDocument
-   Name/pl:Std: Przeciąganie w widoku drzewa
-   MenuLocation:Widok - Akcje widoku drzewa - Rozpocznij przeciąganie
-   Workbenches:wszystkie
-   Version:0.19
-   SeeAlso:[Jeden dokument](Std_TreeSingleDocument/pl.md), [Wiele dokumentów](Std_TreeMultiDocument/pl.md)
+   Name: Std TreeCollapseDocument
+   Name/pl: Std: Przeciąganie w widoku drzewa
+   MenuLocation: Widok - Akcje widoku drzewa - Rozpocznij przeciąganie
+   Workbenches: wszystkie
+   Version: 0.19
+   SeeAlso: [Jeden dokument](Std_TreeSingleDocument/pl.md), [Wiele dokumentów](Std_TreeMultiDocument/pl.md)
 ---
 
 # Std TreeCollapseDocument/pl
@@ -35,4 +35,4 @@ Tryb Tryb dokumentu w widoku drzewa jest zapisywany: **Przybory → Edycja param
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeCollapseDocument/pl
+⏵ [documentation index](../README.md) > Std TreeCollapseDocument/pl

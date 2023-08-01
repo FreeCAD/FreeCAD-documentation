@@ -256,4 +256,4 @@ Der [Entwurf Arbeitsbereich](Draft_Workbench/de.md) ähnelt in vielerlei Hinsich
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft tutorial/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft tutorial/de

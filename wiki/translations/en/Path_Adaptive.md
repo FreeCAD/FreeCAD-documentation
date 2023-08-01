@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Path Adaptive
-   MenuLocation:Path - Adaptive
-   Workbenches:[Path](Path_Workbench.md)
+   Name: Path Adaptive
+   MenuLocation: Path - Adaptive
+   Workbenches: [Path](Path_Workbench.md)
 ---
 
 # Path Adaptive/en
@@ -242,4 +242,4 @@ A proposed bugfix is available (but no one is working on integrating it):
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Adaptive/en
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Adaptive/en

@@ -181,4 +181,4 @@ Dein endgültiges Objekt sollte wie auf dem Bild rechts aussehen.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Engine Block Tutorial/de
+⏵ [documentation index](../README.md) > Engine Block Tutorial/de

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Web BrowserNext
-   MenuLocation:
-   Workbenches:[Web](Web_Workbench.md), [Start](Start_Workbench.md)
-   SeeAlso:
+   Name: Web BrowserNext
+   MenuLocation: 
+   Workbenches: [Web](Web_Workbench.md), [Start](Start_Workbench.md)
+   SeeAlso: 
 ---
 
 # Web BrowserNext
@@ -24,4 +24,4 @@ Use the <img alt="" src=images/Web_BrowserNext.svg  style="width:24px;"> **Web B
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserNext
+⏵ [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserNext

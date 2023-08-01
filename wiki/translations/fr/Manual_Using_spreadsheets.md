@@ -83,4 +83,4 @@ Vous pouvez également donner des alias aux contraintes dimensionnelles (horizon
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Using spreadsheets/fr
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Using spreadsheets/fr

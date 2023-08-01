@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Design456 Trim
-   Icon:Design456_2DTrimLine.svg
-   MenuLocation:Design456_2Ddrawing - Trim Line
-   Workbenches:[Design456](Design456_Workbench.md)
-   Shortcut:None
-   SeeAlso:
+   Name: Design456 Trim
+   Icon: Design456_2DTrimLine.svg
+   MenuLocation: Design456_2Ddrawing - Trim Line
+   Workbenches: [Design456](Design456_Workbench.md)
+   Shortcut: None
+   SeeAlso: 
 ---
 
 # Design456 2DTrim
@@ -39,4 +39,4 @@ Unknown yet.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 2DTrim
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 2DTrim

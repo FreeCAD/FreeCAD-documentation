@@ -16,4 +16,4 @@ As you may have experienced sometimes, programmers are really bad help writers! 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage
+⏵ [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage

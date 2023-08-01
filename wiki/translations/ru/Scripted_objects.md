@@ -1,8 +1,4 @@
 # Scripted objects/ru
-{{TOCright}}
-
-
-
 ## Введение
 
 Кроме стандартных типов объектов, таких как аннотации, полигональные сетки и детали, FreeCAD также предлагает удивительную возможность создавать параметрические объекты, 100% написанные на Python, такие объекты называются ([Python Features](App_FeaturePython/ru.md)). Они ведут себя точно так же, как любой другой объект FreeCAD, автоматически сохраняются и восстанавливаются при сохранении или загрузке файла.
@@ -1095,4 +1091,4 @@ else:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects/ru

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft SetStyle
-   MenuLocation:Utilities - Set style
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:**S** **S**
-   Version:0.19
-   SeeAlso:[Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md), [Draft ApplyStyle](Draft_ApplyStyle.md)
+   Name: Draft SetStyle
+   MenuLocation: Utilities - Set style
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut: **S** **S**
+   Version: 0.19
+   SeeAlso: [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md), [Draft ApplyStyle](Draft_ApplyStyle.md)
 ---
 
 # Draft SetStyle/pl
@@ -162,4 +162,4 @@ The following preferences are involved:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SetStyle/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SetStyle/pl

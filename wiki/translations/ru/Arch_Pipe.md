@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Arch Pipe
-   Name/ru:Труба
-   MenuLocation:Arch - Инструменты для труб - Труба
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   Shortcut:**P** **I**
-   SeeAlso:[Соединитель труб](Arch_PipeConnector/ru.md), [Оборудование](Arch_Equipment/ru.md)
-   Version:0.17
+   Name: Arch Pipe
+   Name/ru: Труба
+   MenuLocation: Arch - Инструменты для труб - Труба
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   Shortcut: **P** **I**
+   SeeAlso: [Соединитель труб](Arch_PipeConnector/ru.md), [Оборудование](Arch_Equipment/ru.md)
+   Version: 0.17
 ---
 
 # Arch Pipe/ru
@@ -145,4 +145,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Pipe/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Pipe/ru

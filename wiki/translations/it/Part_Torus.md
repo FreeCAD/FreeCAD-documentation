@@ -1,6 +1,6 @@
 # Part Torus/it
 ---
-- GuiCommand:   Name:Part Torus   Name/it:Toro   MenuLocation:Parte - Primitive - Toro   Workbenches:[SeeAlso: [[Part_CreatePrimitives/it|Crea primitive](Part_Workbench/it___Parte]].md)---
+- GuiCommand:   Name: Part Torus   Name/it: Toro   MenuLocation: Parte - Primitive - Toro   Workbenches: [SeeAlso:  [[Part_CreatePrimitives/it|Crea primitive](Part_Workbench/it___Parte]].md)---
 
 
 </div>
@@ -132,4 +132,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/it

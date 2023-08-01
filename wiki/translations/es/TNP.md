@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > TNP/es
+⏵ [documentation index](../README.md) > TNP/es

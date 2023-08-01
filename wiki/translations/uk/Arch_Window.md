@@ -1,6 +1,6 @@
 # Arch Window/uk
 ---
-- GuiCommand:   Name:Arch Window   Name/uk:Arch Window   Workbenches:[MenuLocation:Arch - Window   Shortcut:W I   SeeAlso:[[Arch Wall/uk|Arch Wall](Arch_Workbench/uk___Arch]].md)---
+- GuiCommand:   Name: Arch Window   Name/uk: Arch Window   Workbenches: [MenuLocation: Arch - Window   Shortcut: W I   SeeAlso: [[Arch Wall/uk|Arch Wall](Arch_Workbench/uk___Arch]].md)---
 
 
 </div>
@@ -223,4 +223,4 @@ Door = Arch.makeWindowPreset("Simple door",
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Window/uk
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Window/uk

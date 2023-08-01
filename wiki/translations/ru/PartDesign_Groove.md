@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Проточка
-   Name:PartDesign_Groove
-   MenuLocation:Part Design - Create a substractive feature - Проточка
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   SeeAlso:[Фигура вращения](PartDesign_Revolution/ru.md)
+   Name/ru: Проточка
+   Name: PartDesign_Groove
+   MenuLocation: Part Design - Create a substractive feature - Проточка
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso: [Фигура вращения](PartDesign_Revolution/ru.md)
 ---
 
 # PartDesign Groove/ru
@@ -83,4 +83,4 @@ Below are properties which can be defined after creation of the feature. Data pr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/ru

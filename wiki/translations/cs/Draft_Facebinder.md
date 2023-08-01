@@ -1,6 +1,6 @@
 # Draft Facebinder/cs
 ---
-- GuiCommand:   Name:Draft_Facebinder   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft - Facebinder   Shortcut:F F---
+- GuiCommand:   Name: Draft_Facebinder   Workbenches: [Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation: Draft - Facebinder   Shortcut: F F---
 
 
 </div>
@@ -141,4 +141,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Facebinder/cs
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Facebinder/cs

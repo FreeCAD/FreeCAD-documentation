@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:EM FHInputFile
-   Name/fr:EM Fichier entrée FH
-   MenuLocation:EM - FHInputFile
-   Workbenches:[EM](EM_Workbench/fr.md)
-   Shortcut:**E** **I**
-   Version:0.17
-   SeeAlso:[EM Solveur FH](EM_FHSolver/fr.md)
+   Name: EM FHInputFile
+   Name/fr: EM Fichier entrée FH
+   MenuLocation: EM - FHInputFile
+   Workbenches: [EM](EM_Workbench/fr.md)
+   Shortcut: **E** **I**
+   Version: 0.17
+   SeeAlso: [EM Solveur FH](EM_FHSolver/fr.md)
 ---
 
 # EM FHInputFile/fr
@@ -70,4 +70,4 @@ fhsolver = EM.createFHInputFile()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [EM](Category_EM.md) > EM FHInputFile/fr
+⏵ [documentation index](../README.md) > [EM](Category_EM.md) > EM FHInputFile/fr

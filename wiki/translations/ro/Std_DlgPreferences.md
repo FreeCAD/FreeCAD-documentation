@@ -1,6 +1,6 @@
 # Std DlgPreferences/ro
 ---
-- GuiCommand:   Name:Std DlgPreferences   MenuLocation:[|Workbenches:All   Shortcut:   SeeAlso:[[Preferences_Editor/ro|Preferences Editor](Std_Edit_Menu___Edit]]_-_Preferences.md)---
+- GuiCommand:   Name: Std DlgPreferences   MenuLocation: [|Workbenches: All   Shortcut:    SeeAlso: [[Preferences_Editor/ro|Preferences Editor](Std_Edit_Menu___Edit]]_-_Preferences.md)---
 
 
 </div>
@@ -51,4 +51,4 @@ Alegeți ** Edit** → ** Preferences** din meniul principal.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgPreferences/ro
+⏵ [documentation index](../README.md) > Std DlgPreferences/ro

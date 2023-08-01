@@ -1,6 +1,4 @@
 # Document structure/it
-{{TOCright}}
-
 ![](images/Screenshot_treeview.jpg ) Un documento FreeCAD contiene tutti gli oggetti della scena. Può contenere i gruppi e gli oggetti realizzati con qualsiasi ambiente di lavoro. Si possono quindi alternare gli ambienti pur continuando a lavorare sullo stesso documento. Il documento è ciò che viene salvato sul disco quando si salva il proprio lavoro. Inoltre, in FreeCAD è possibile aprire più documenti contemporaneamente, e aprire diverse viste dello stesso documento.
 
 All\'interno del documento, gli oggetti possono essere raggruppati, e avere un unico nome. La gestione dei gruppi, degli oggetti e dei nomi degli oggetti avviene prevalentemente nella [vista a albero](Tree_view/it.md). **Nota:** Naturalmente, queste operazioni, come tutto in FreeCAD, si possono eseguire anche tramite interprete [Python](Python/it.md).
@@ -47,4 +45,4 @@ FreeCADGui.ActiveDocument.ActiveView
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Document structure/it
+⏵ [documentation index](../README.md) > Document structure/it

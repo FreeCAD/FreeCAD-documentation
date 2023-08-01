@@ -23,4 +23,4 @@ Les fenêtres de la zone d\'affichage principale peuvent être organisées avec 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Main view area/fr
+⏵ [documentation index](../README.md) > Main view area/fr

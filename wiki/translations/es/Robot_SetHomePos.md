@@ -1,6 +1,6 @@
 # Robot SetHomePos/es
 ---
-- GuiCommand:   Name:Robot SetHomePos   Name/es:Robot SetHomePos   Workbenches:[[Robot_Workbench/es   Robot]]|MenuLocation:Robot - Set home position---
+- GuiCommand:   Name: Robot SetHomePos   Name/es: Robot SetHomePos   Workbenches: [[Robot_Workbench/es   Robot]]|MenuLocation: Robot - Set home position---
 
 
 </div>
@@ -31,4 +31,4 @@ Sets the current position/orientation of the selected robot as home position.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetHomePos/es
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetHomePos/es

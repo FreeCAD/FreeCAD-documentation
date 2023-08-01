@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateFillet
-   Name/de:Sketcher VerrundungErstellen
-   MenuLocation:Sketch - Skizzengeometrie - Verrundung erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **F** **F**
-   SeeAlso:[Sketcher PunktVerrundungErstellen](Sketcher_CreatePointFillet/de.md)
+   Name: Sketcher CreateFillet
+   Name/de: Sketcher VerrundungErstellen
+   MenuLocation: Sketch - Skizzengeometrie - Verrundung erstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **F** **F**
+   SeeAlso: [Sketcher PunktVerrundungErstellen](Sketcher_CreatePointFillet/de.md)
 ---
 
 # Sketcher CreateFillet/de
@@ -44,4 +44,4 @@ Beim Starten des Werkzeugs werden Auswahlen gelöscht und der Mauszeiger ändert
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/de

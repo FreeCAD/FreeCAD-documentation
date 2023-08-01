@@ -1,7 +1,4 @@
 # Compile on Windows/ro
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 Acest articol explică pas cu pas **how to compile FreeCAD on Windows**.
@@ -647,4 +644,4 @@ A se vedea și
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on Windows/ro
+⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on Windows/ro

@@ -220,4 +220,4 @@ print('... completed import')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Macro 3DXML import/fr
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Macro 3DXML import/fr

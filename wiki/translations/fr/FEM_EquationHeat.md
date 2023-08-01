@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM EquationHeat
-   Name/fr:FEM Équation de chaleur
-   MenuLocation:Résolution - Équation de chaleur
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM EquationHeat
+   Name/fr: FEM Équation de chaleur
+   MenuLocation: Résolution - Équation de chaleur
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM EquationHeat/fr
@@ -73,4 +73,4 @@ Le résultat est la température en Kelvin.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationHeat/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationHeat/fr

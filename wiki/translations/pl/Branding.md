@@ -1,6 +1,4 @@
 # Branding/pl
-{{TOCright}}
-
 ## Informacje ogólne 
 
 Ten artykuł opisuje \"Branding\" FreeCAD. Branding oznacza utworzenie własnej aplikacji w oparciu o FreeCAD. Może to być tylko twój własny program wykonywalny lub [ekran powitalny](Splash_screen/pl.md) do czasu opracowania pełnej modyfikacji. W oparciu o elastyczną architekturę FreeCAD można go łatwo wykorzystać jako bazę do stworzenia własnego programu specjalnego przeznaczenia.
@@ -98,4 +96,4 @@ Wszystkie wymienione znaczniki są opcjonalne.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Branding/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Branding/pl

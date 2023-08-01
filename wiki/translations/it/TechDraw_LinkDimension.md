@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw LinkDimension
-   Name/it:Link alla dimensione
-   MenuLocation:TechDraw - Link alla geometria 3D
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Vista](TechDraw_View/it.md), [Proiezioni](TechDraw_ProjectionGroup/it.md)
+   Name: TechDraw LinkDimension
+   Name/it: Link alla dimensione
+   MenuLocation: TechDraw - Link alla geometria 3D
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: [Vista](TechDraw_View/it.md), [Proiezioni](TechDraw_ProjectionGroup/it.md)
 ---
 
 # TechDraw LinkDimension/it
@@ -113,4 +113,4 @@ The TechDraw LinkDimension tool is not directly usable in macros, but changing t
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LinkDimension/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LinkDimension/it

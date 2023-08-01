@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Path Array
-   Name/es:Trayecoria Arreglo
-   MenuLocation:Trayecoria - Trayecoria Modificación - Arreglo
-   Workbenches:[Trayecoria](Path_Workbench/es.md)
-   Shortcut:
-   SeeAlso:
+   Name: Path Array
+   Name/es: Trayecoria Arreglo
+   MenuLocation: Trayecoria - Trayecoria Modificación - Arreglo
+   Workbenches: [Trayecoria](Path_Workbench/es.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Path Array/es
@@ -71,4 +71,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Array/es
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Array/es

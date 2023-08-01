@@ -1,8 +1,4 @@
 # Expressions/fr
-{{TOCright}}
-
-
-
 ## Présentation
 
 Il est possible de définir des propriétés à l\'aide d\'expressions mathématiques. Dans l\'interface graphique, les zones de sélection numérique ou les champs de saisie liés aux propriétés contiennent une icône bleue <img alt="" src=images/Bound-expression.svg  style="width:24px;">. Cliquez sur l\'icône ou tapez le signe égal **&#61;** pour ouvrir l\'éditeur d\'expression pour cette propriété particulière.
@@ -953,4 +949,4 @@ Bien sûr, vous pouvez charger les documents correspondants à tout moment pour 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Expressions/fr
+⏵ [documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Expressions/fr

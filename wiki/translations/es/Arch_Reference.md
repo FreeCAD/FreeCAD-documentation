@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Reference
-   Name/es:Arquitectura Referencia
-   MenuLocation:Arquitectura - Referencia
-   Workbenches:[Arquitectura](Arch_Workbench/es.md)
-   SeeAlso:[Arquitectura EdificioPieza](Arch_BuildingPart/es.md)
+   Name: Arch Reference
+   Name/es: Arquitectura Referencia
+   MenuLocation: Arquitectura - Referencia
+   Workbenches: [Arquitectura](Arch_Workbench/es.md)
+   SeeAlso: [Arquitectura EdificioPieza](Arch_BuildingPart/es.md)
 ---
 
 # Arch Reference/es
@@ -74,4 +74,4 @@ Arch.makeReference("/path/to/some/file.FSCtd","myPart")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Reference/es
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Reference/es

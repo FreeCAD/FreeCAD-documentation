@@ -40,4 +40,4 @@ Diese Kategorie zeigt eine Liste von Seiten, die zum [Part-Arbeitsbereich](Part_
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Part/de
+⏵ [documentation index](../README.md) > Category:Part/de

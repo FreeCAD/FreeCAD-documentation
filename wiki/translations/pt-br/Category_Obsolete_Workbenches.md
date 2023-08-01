@@ -11,4 +11,4 @@ This category lists pages related to the [Drawing Workbench/pt-br](Drawing_Workb
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Obsolete Workbenches/pt-br
+⏵ [documentation index](../README.md) > Category:Obsolete Workbenches/pt-br

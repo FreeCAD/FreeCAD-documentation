@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveCone
-   Name/fr:PartDesign Cône additif
-   MenuLocation:Part Design - Créer une primitive additive - Cône additif
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[PartDesign Primitives additives](PartDesign_CompPrimitiveAdditive/fr.md), [PartDesign Cône soustractif](PartDesign_SubtractiveCone.md)
+   Name: PartDesign AdditiveCone
+   Name/fr: PartDesign Cône additif
+   MenuLocation: Part Design - Créer une primitive additive - Cône additif
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Primitives additives](PartDesign_CompPrimitiveAdditive/fr.md), [PartDesign Cône soustractif](PartDesign_SubtractiveCone.md)
 ---
 
 # PartDesign AdditiveCone/fr
@@ -59,4 +59,4 @@ Le Cône peut être éditée après sa création de deux façons :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCone/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCone/fr

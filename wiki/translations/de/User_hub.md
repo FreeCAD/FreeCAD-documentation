@@ -1,5 +1,4 @@
-# User hub/de
-{{TOCright}} <img alt="" src=images/User_hub.png  style="width:64px;">
+# <img alt="" src=images/User_hub.png  style="width:64px;"> User hub/de
 
 
 
@@ -142,4 +141,4 @@ Dies ist die offizielle FreeCAD Online Hilfe. Bitte beachte, dass das gesamte On
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/de
+⏵ [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/de

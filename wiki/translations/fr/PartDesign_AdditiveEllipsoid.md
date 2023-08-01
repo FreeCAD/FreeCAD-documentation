@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveEllipsoid
-   Name/fr:PartDesign Ellipsoïde additif
-   MenuLocation:Part Design - Créer une primitive additive - Ellipsoïde additif
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[PartDesign Primitives additives](PartDesign_CompPrimitiveAdditive/fr.md), [PartDesign Ellipsoïde soustractif](PartDesign_SubtractiveEllipsoid/fr.md)
+   Name: PartDesign AdditiveEllipsoid
+   Name/fr: PartDesign Ellipsoïde additif
+   MenuLocation: Part Design - Créer une primitive additive - Ellipsoïde additif
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Primitives additives](PartDesign_CompPrimitiveAdditive/fr.md), [PartDesign Ellipsoïde soustractif](PartDesign_SubtractiveEllipsoid/fr.md)
 ---
 
 # PartDesign AdditiveEllipsoid/fr
@@ -59,4 +59,4 @@ L\'Ellipsoïde peut être édité après sa création de deux façons :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveEllipsoid/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveEllipsoid/fr

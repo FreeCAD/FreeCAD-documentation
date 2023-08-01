@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:EM FHSolver
-   MenuLocation:EM - FHSolver
-   Workbenches:[EM](EM_Workbench.md)
-   Shortcut:**E** **X**
-   Version:0.17
-   SeeAlso:[EM FHInputFile](EM_FHInputFile.md), [EM FHNode](EM_FHNode.md), [EM FHSegment](EM_FHSegment.md), [EM FHPath](EM_FHPath.md), [EM FHPlane](EM_FHPlane.md), [EM FHEquiv](EM_FHEquiv.md), [EM FHPort](EM_FHPort.md)
+   Name: EM FHSolver
+   MenuLocation: EM - FHSolver
+   Workbenches: [EM](EM_Workbench.md)
+   Shortcut: **E** **X**
+   Version: 0.17
+   SeeAlso: [EM FHInputFile](EM_FHInputFile.md), [EM FHNode](EM_FHNode.md), [EM FHSegment](EM_FHSegment.md), [EM FHPath](EM_FHPath.md), [EM FHPlane](EM_FHPlane.md), [EM FHEquiv](EM_FHEquiv.md), [EM FHPort](EM_FHPort.md)
 ---
 
 # EM FHSolver/pl
@@ -116,4 +116,4 @@ fhsolver = EM.makeFHSolver()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [EM](Category_EM.md) > EM FHSolver/pl
+⏵ [documentation index](../README.md) > [EM](Category_EM.md) > EM FHSolver/pl

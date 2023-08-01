@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw_PageDefault
-   Name/it:Nuovo disegno standard
-   MenuLocation:TechDraw - Nuovo disegno standard
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Nuovo disegno da modello](TechDraw_PageTemplate/it.md), [Modelli di squadrature](TechDraw_Templates/it.md)
+   Name: TechDraw_PageDefault
+   Name/it: Nuovo disegno standard
+   MenuLocation: TechDraw - Nuovo disegno standard
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso: [Nuovo disegno da modello](TechDraw_PageTemplate/it.md), [Modelli di squadrature](TechDraw_Templates/it.md)
 ---
 
 # TechDraw PageDefault/it
@@ -158,4 +158,4 @@ See [TechDraw PageTemplate](TechDraw_PageTemplate#Scripting.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageDefault/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageDefault/it

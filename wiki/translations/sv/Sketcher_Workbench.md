@@ -1,7 +1,7 @@
 # <img alt="Sketcher workbench icon" src=images/Workbench_Sketcher.svg  style="width:64px;"> Sketcher Workbench/sv
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -379,4 +379,4 @@ For some ideas of what can be achieved with Sketcher tools, have a look at: [Ske
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/sv
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/sv

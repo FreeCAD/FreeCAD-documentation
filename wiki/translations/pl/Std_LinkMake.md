@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std LinkMake
-   Name/pl:Std: Utwórz łącze
-   MenuLocation:brak
-   Workbenches:wszystkie
-   Version:0.19
-   SeeAlso:[Część](Std_Part/pl.md), [Grupa](Std_Group/pl.md), [Zawartość](PartDesign_Body/pl.md)
+   Name: Std LinkMake
+   Name/pl: Std: Utwórz łącze
+   MenuLocation: brak
+   Workbenches: wszystkie
+   Version: 0.19
+   SeeAlso: [Część](Std_Part/pl.md), [Grupa](Std_Group/pl.md), [Zawartość](PartDesign_Body/pl.md)
 ---
 
 # Std LinkMake/pl
@@ -420,4 +420,4 @@ Inne różne \"odnośniki internetowe\" dotyczące Łącza obejmują:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkMake/pl
+⏵ [documentation index](../README.md) > Std LinkMake/pl

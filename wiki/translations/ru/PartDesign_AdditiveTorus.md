@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Аддитивный тор
-   Name:PartDesign_AdditiveTorus
-   MenuLocation:Part Design - Создать аддитивный примитив - Аддитивный Тор
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Создать аддитивный примитив](PartDesign_CompPrimitiveAdditive/ru.md), [Субтрактивный тор](PartDesign_SubtractiveTorus/ru.md)
+   Name/ru: Аддитивный тор
+   Name: PartDesign_AdditiveTorus
+   MenuLocation: Part Design - Создать аддитивный примитив - Аддитивный Тор
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Создать аддитивный примитив](PartDesign_CompPrimitiveAdditive/ru.md), [Субтрактивный тор](PartDesign_SubtractiveTorus/ru.md)
 ---
 
 # PartDesign AdditiveTorus/ru
@@ -57,4 +57,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveTorus/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveTorus/ru

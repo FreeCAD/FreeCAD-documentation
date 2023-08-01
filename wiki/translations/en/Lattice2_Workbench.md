@@ -8,7 +8,7 @@
 **Lattice2 is stable. New features may be added, but no breaking changes are supposed to happen.**
 
 
-{{TOCright}}
+
 
 The Lattice2 Workbench is a FreeCAD [external workbench](External_workbenches.md) that serves the purpose of working with placements and arrays of placements. It is a sort of Assembly workbench, but with emphasis on arrays. There are no constraints and relations, there are just arrays of placements that can be generated, combined, transformed, superimposed, and populated with shapes.
 
@@ -156,4 +156,4 @@ After you install the workbench, it should appear at the bottom of list of workb
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Lattice2 Workbench/en
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Lattice2 Workbench/en

@@ -91,4 +91,4 @@ Original forum topic: <http://forum.freecadweb.org/viewtopic.php?f=10&t=4686>
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro 3d Printer Slicer
+⏵ [documentation index](../README.md) > Macro 3d Printer Slicer

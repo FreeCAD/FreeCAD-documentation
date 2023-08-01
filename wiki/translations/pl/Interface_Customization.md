@@ -1,8 +1,4 @@
 # Interface Customization/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 Interfejs FreeCAD jest oparty na nowoczesnym zestawie narzędzi [Qt](http://en.wikipedia.org/wiki/Qt_(toolkit)) i posiada nowoczesną organizację. Niektóre aspekty interfejsu mogą być dostosowane do indywidualnych potrzeb. Możesz na przykład dodać niestandardowe paski narzędzi, z narzędziami z kilku Środowisk pracy lub narzędziami zdefiniowanymi w makrach, a także tworzyć własne skróty klawiaturowe. Ale menu i domyślne paski narzędzi, które są dostarczane z programem FreeCAD i jego warsztatami nie mogą być zmieniane.
@@ -293,4 +289,4 @@ W kategorii Środowiska pracy Menedżera dodatków można znaleźć niektóre do
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Interface Customization/pl
+⏵ [documentation index](../README.md) > Interface Customization/pl

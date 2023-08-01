@@ -757,4 +757,4 @@ In a Linux distribution and in the case of an error of **\"ordinal not in range 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro FCInfo/ru
+⏵ [documentation index](../README.md) > Macro FCInfo/ru

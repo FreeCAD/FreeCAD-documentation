@@ -93,4 +93,4 @@ This tutorial is targeting on the use of [industrial robots](http://en.wikipedia
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/ro
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/ro

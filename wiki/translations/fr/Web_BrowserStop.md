@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Web BrowserStop
-   Name/fr:Web Arrêter le chargement
-   MenuLocation:
-   Workbenches:[Web](Web_Workbench/fr.md), [Start](Start_Workbench/fr.md)
-   SeeAlso:
+   Name: Web BrowserStop
+   Name/fr: Web Arrêter le chargement
+   MenuLocation: 
+   Workbenches: [Web](Web_Workbench/fr.md), [Start](Start_Workbench/fr.md)
+   SeeAlso: 
 ---
 
 # Web BrowserStop/fr
@@ -28,4 +28,4 @@ Utilisez la commande <img alt="" src=images/Web_BrowserStop.svg  style="width:24
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserStop/fr
+⏵ [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserStop/fr

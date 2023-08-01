@@ -213,4 +213,4 @@ ParamCurv()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro 3D Parametric Curve/it
+⏵ [documentation index](../README.md) > Macro 3D Parametric Curve/it

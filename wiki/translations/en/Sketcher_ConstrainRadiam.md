@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainRadiam
-   MenuLocation:Sketch - Sketcher constraints - Constrain auto radius/diameter
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**K** **S**
-   Version:0.20
-   SeeAlso:[Sketcher Constrain distance](Sketcher_ConstrainDistance.md), [Sketcher Constrain horizontal distance](Sketcher_ConstrainDistanceX.md), [Sketcher Constrain vertical distance](Sketcher_ConstrainDistanceY.md)
+   Name: Sketcher ConstrainRadiam
+   MenuLocation: Sketch - Sketcher constraints - Constrain auto radius/diameter
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **K** **S**
+   Version: 0.20
+   SeeAlso: [Sketcher Constrain distance](Sketcher_ConstrainDistance.md), [Sketcher Constrain horizontal distance](Sketcher_ConstrainDistanceX.md), [Sketcher Constrain vertical distance](Sketcher_ConstrainDistanceY.md)
 ---
 
 # Sketcher ConstrainRadiam/en
@@ -55,4 +55,4 @@ No specific scripting applies. See the [Sketcher scripting](Sketcher_scripting.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadiam/en
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadiam/en

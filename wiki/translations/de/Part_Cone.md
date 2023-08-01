@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Cone
-   Name/de:Part Kegel
-   MenuLocation:Formteil - Grundkörper - Kegel
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Grundelemente](Part_Primitives/de.md)
+   Name: Part Cone
+   Name/de: Part Kegel
+   MenuLocation: Formteil - Grundkörper - Kegel
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: [Part Grundelemente](Part_Primitives/de.md)
 ---
 
 # Part Cone/de
@@ -123,4 +123,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/de

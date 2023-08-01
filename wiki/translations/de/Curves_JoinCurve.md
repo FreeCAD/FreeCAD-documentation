@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Curves JoinCurve
-   Name/de:Curves KurveVerbinden
-   MenuLocation:Curves - Join Curves
-   Workbenches:[Curves](Curves_Workbench/de.md)
+   Name: Curves JoinCurve
+   Name/de: Curves KurveVerbinden
+   MenuLocation: Curves - Join Curves
+   Workbenches: [Curves](Curves_Workbench/de.md)
 ---
 
 # Curves JoinCurve/de
@@ -55,4 +55,4 @@ Das Werkzeug <img alt="" src=images/Curves_JoinCurve.svg  style="width:24px;"> [
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves JoinCurve/de
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves JoinCurve/de

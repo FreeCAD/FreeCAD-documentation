@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM_MeshNetgenFromShape
-   Name/it:Mesh FEM da forma con Netgen
-   MenuLocation:FEM - Mesh FEM da forma con Netgen
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
+   Name: FEM_MeshNetgenFromShape
+   Name/it: Mesh FEM da forma con Netgen
+   MenuLocation: FEM - Mesh FEM da forma con Netgen
+   Workbenches: [FEM](FEM_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: [Tutorial FEM](FEM_tutorial/it.md)
 ---
 
 # FEM MeshNetgenFromShape/it
@@ -66,4 +66,4 @@ Depending on your operating system and your installation package Netgen might be
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshNetgenFromShape/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshNetgenFromShape/it

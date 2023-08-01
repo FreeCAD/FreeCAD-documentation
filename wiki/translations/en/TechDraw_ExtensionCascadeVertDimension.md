@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionCascadeVertDimension
-   MenuLocation:TechDraw - Extensions: Attributes/Modifications - Cascade Vertical Dimensions
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ExtensionCascadeHorizDimension](TechDraw_ExtensionCascadeHorizDimension.md), [TechDraw ExtensionCascadeObliqueDimension](TechDraw_ExtensionCascadeObliqueDimension.md)
+   Name: TechDraw ExtensionCascadeVertDimension
+   MenuLocation: TechDraw - Extensions: Attributes/Modifications - Cascade Vertical Dimensions
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ExtensionCascadeHorizDimension](TechDraw_ExtensionCascadeHorizDimension.md), [TechDraw ExtensionCascadeObliqueDimension](TechDraw_ExtensionCascadeObliqueDimension.md)
 ---
 
 # TechDraw ExtensionCascadeVertDimension/en
@@ -42,4 +42,4 @@ The **TechDraw ExtensionCascadeVertDimension** tool evenly spaces vertical dimen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCascadeVertDimension/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCascadeVertDimension/en

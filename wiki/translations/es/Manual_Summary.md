@@ -57,4 +57,4 @@ Hay otra tabla de contenidos para el sistema [FreeCAD **Ayuda en línea**](Onlin
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Manual](Category_Manual.md) > Manual:Summary/es
+⏵ [documentation index](../README.md) > [Manual](Category_Manual.md) > Manual:Summary/es

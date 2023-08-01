@@ -1,8 +1,4 @@
 # FreeCAD Scripting Basics/de
-{{TOCright}}
-
-
-
 ## Python skripten in FreeCAD 
 
 FreeCAD wurde von Grund auf neu entwickelt, um vollständig von Python Skripten gesteuert zu werden. Nahezu alle Teile von FreeCAD, wie z.B. die Oberfläche, die Szeneninhalte und sogar die Darstellung dieser Inhalte in den 3D Ansichten, sind über den eingebauten Python Interpreter oder über eigene Skripte zugänglich. Damit ist FreeCAD wahrscheinlich eine der am weitesten anpassbaren Engineering Anwendungen, die heute verfügbar sind.
@@ -206,4 +202,4 @@ Jetzt kannst du wirklich anfangen, mit FreeCAD zu spielen! Eine vollständige Li
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FreeCAD Scripting Basics/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FreeCAD Scripting Basics/de

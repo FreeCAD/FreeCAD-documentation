@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Compound‏‎
-   Name/es:Pieza Compuesto‏‎
-   MenuLocation:Pieza - Hacer Compuesto
-   Workbenches:[Pieza](Part_Workbench/es.md)
-   Version:0.14
-   SeeAlso:[Pieza Unión](Part_Union/es.md), [Pieza Filtro compuesto](Part_CompoundFilter/es.md), [Pieza Explotar compuesto](Part_ExplodeCompound/es.md)
+   Name: Part Compound‏‎
+   Name/es: Pieza Compuesto‏‎
+   MenuLocation: Pieza - Hacer Compuesto
+   Workbenches: [Pieza](Part_Workbench/es.md)
+   Version: 0.14
+   SeeAlso: [Pieza Unión](Part_Union/es.md), [Pieza Filtro compuesto](Part_CompoundFilter/es.md), [Pieza Explotar compuesto](Part_ExplodeCompound/es.md)
 ---
 
 # Part Compound/es
@@ -48,4 +48,4 @@ To turn this check on go to **Tools → Edit Parameters → Preferences... → M
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/es
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/es

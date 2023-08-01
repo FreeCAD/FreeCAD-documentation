@@ -42,4 +42,4 @@ ToolBar Icon  ![](images/Wirefilter.svg )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro WireFilter
+⏵ [documentation index](../README.md) > Macro WireFilter

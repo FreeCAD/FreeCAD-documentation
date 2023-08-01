@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar UShape   Name/de:Arch Bewehrungsstab U-förmig
-   MenuLocation:Arch - Rebar tools - Straight Rebar oder 3D/BIM - Reinforcement tools - Gerade Bewehrung
-   Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
-   SeeAlso:[Verstärkung](Reinforcement_Workbench/de.md), [Bewehrungsstab](Arch_Rebar/de.md),[L-förmiger Bewehrungsstab](Arch_Rebar_LShape/de.md)
-   Version:0.17
+   Name: Arch Rebar UShape   Name/de: Arch Bewehrungsstab U-förmig
+   MenuLocation: Arch - Rebar tools - Straight Rebar oder 3D/BIM - Reinforcement tools - Gerade Bewehrung
+   Workbenches: [Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   SeeAlso: [Verstärkung](Reinforcement_Workbench/de.md), [Bewehrungsstab](Arch_Rebar/de.md),[L-förmiger Bewehrungsstab](Arch_Rebar_LShape/de.md)
+   Version: 0.17
 ---
 
 # Arch Rebar UShape/de
@@ -223,4 +223,4 @@ UShapeRebar.editUShapeRebar(Rebar2, 70, 50, 20, 20,
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar UShape/de
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar UShape/de

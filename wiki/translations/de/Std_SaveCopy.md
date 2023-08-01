@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std SaveCopy
-   Name/de:Std KopieSpeichern
-   MenuLocation:Datei - Speichern einer Kopie...
-   Workbenches:Alle
-   Shortcut:**C**
-   SeeAlso:[Std Speichern](Std_Save/de.md), [Std SpeichernUnter](Std_SaveAs/de.md)
+   Name: Std SaveCopy
+   Name/de: Std KopieSpeichern
+   MenuLocation: Datei - Speichern einer Kopie...
+   Workbenches: Alle
+   Shortcut: **C**
+   SeeAlso: [Std Speichern](Std_Save/de.md), [Std SpeichernUnter](Std_SaveAs/de.md)
 ---
 
 # Std SaveCopy/de
@@ -64,4 +64,4 @@ doc.saveCopy(fnm)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SaveCopy/de
+⏵ [documentation index](../README.md) > Std SaveCopy/de

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std TransformManip
-   MenuLocation:Right-click on an object in the tree view - Transform
+   Name: Std TransformManip
+   MenuLocation: Right-click on an object in the tree view - Transform
 Edit - Transform
-   Workbenches:All
-   SeeAlso:[Std Base](Std_Base.md)
+   Workbenches: All
+   SeeAlso: [Std Base](Std_Base.md)
 ---
 
 # Std TransformManip/en
@@ -41,4 +41,4 @@ This tool allows you to apply rotation increments or translation increments to a
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TransformManip/en
+⏵ [documentation index](../README.md) > Std TransformManip/en

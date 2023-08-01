@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateArcOfEllipse
-   Name/it:Arco di ellisse
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch - Geometrie - Arco di ellisse
-   Version:0.15
-   SeeAlso:[Ellisse da centro](Sketcher_CreateEllipseByCenter/it.md), [Arco di ellisse](Sketcher_CompCreateArc/it.md), [Cerchio](Sketcher_CreateCircle/it.md)
+   Name: Sketcher CreateArcOfEllipse
+   Name/it: Arco di ellisse
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation: Sketch - Geometrie - Arco di ellisse
+   Version: 0.15
+   SeeAlso: [Ellisse da centro](Sketcher_CreateEllipseByCenter/it.md), [Arco di ellisse](Sketcher_CompCreateArc/it.md), [Cerchio](Sketcher_CreateCircle/it.md)
 ---
 
 # Sketcher CreateArcOfEllipse/it
@@ -69,4 +69,4 @@ Questo strumento disegna un arco di ellisse selezionando quattro punti: il centr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfEllipse/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfEllipse/it

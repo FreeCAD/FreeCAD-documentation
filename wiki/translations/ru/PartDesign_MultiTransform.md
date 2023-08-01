@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name/ru:Множественное преобразование
-   Name:PartDesign_MultiTransform
-   MenuLocation:PartDesign - Apply a pattern - Множественное преобразование
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
+   Name/ru: Множественное преобразование
+   Name: PartDesign_MultiTransform
+   MenuLocation: PartDesign - Apply a pattern - Множественное преобразование
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
 ---
 
 # PartDesign MultiTransform/ru
@@ -153,4 +153,4 @@ To verify that the part is fully parametric open the initial sketch with the qua
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/ru

@@ -51,4 +51,4 @@ This category gathers documentation article mostly aimed at programmers
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Developer Documentation/pl
+⏵ [documentation index](../README.md) > Category:Developer Documentation/pl

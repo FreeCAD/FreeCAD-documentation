@@ -1,6 +1,4 @@
 # Interface creation/de
-{{TOCright}}
-
 ## Einführung
 
 Intensivnutzer haben die Möglichkeit, [Oberflächen erstellen](Interface_creation/de.md) um sie bei der Erstellung komplexer Werkzeuge für ihre benutzerdefinierten [Erweiterungen](Addon/de.md) zu unterstützen, wie z.B. [Makros](Macros/de.md) oder vollständige [Arbeitsbereiche](Workbenches/de.md).
@@ -39,4 +37,4 @@ Beispiele für diese Methode findest Du unter [Dialogerstellung](Dialog_creation
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Interface creation/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Interface creation/de

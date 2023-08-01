@@ -1,6 +1,4 @@
 # TechDraw Geometric dimensioning and tolerancing/fr
-{{TOCright}}
-
 ## Concept
 
 Le but principal d\'un dessin technique est que les autres comprennent ce que le concepteur a créé avec quelles tolérances ET comment fabriquer le dessin. Étant donné que la plupart des pièces doivent s\'adapter aux assemblages, les relations géométriques avec les autres pièces sont également importantes. Pour y parvenir, le système de [Geometric Dimensioning and Tolerancing](https://en.wikipedia.org/wiki/Geometric_dimensioning_and_tolerancing) (GD&T) a été développé.
@@ -362,4 +360,4 @@ Pour insérer des symboles GD&T, TechDraw propose la fonction [TechDraw Personna
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Geometric dimensioning and tolerancing/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Geometric dimensioning and tolerancing/fr

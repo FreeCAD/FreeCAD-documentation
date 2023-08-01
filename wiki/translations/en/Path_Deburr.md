@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path Deburr
-   MenuLocation:Path - Deburr
-   Workbenches:[Path](Path_Workbench.md)
-   Version:0.18
+   Name: Path Deburr
+   MenuLocation: Path - Deburr
+   Workbenches: [Path](Path_Workbench.md)
+   Version: 0.18
 ---
 
 # Path Deburr/en
@@ -116,4 +116,4 @@ The Final step is to activate the **Operation** section where you can specify th
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Deburr/en
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Deburr/en

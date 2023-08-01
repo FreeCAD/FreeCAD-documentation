@@ -34,4 +34,4 @@ This category lists pages related to the [TechDraw Workbench/ru](TechDraw_Workbe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:TechDraw/ru
+⏵ [documentation index](../README.md) > Category:TechDraw/ru

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Points PolyCut
-   Name/fr:Points Couper un nuage
-   MenuLocation:Points - Couper un nuage de points
-   Workbenches:[Points](Points_Workbench/fr.md)
+   Name: Points PolyCut
+   Name/fr: Points Couper un nuage
+   MenuLocation: Points - Couper un nuage de points
+   Workbenches: [Points](Points_Workbench/fr.md)
 ---
 
 # Points PolyCut/fr
@@ -49,4 +49,4 @@ La commande **Points Couper un nuage** coupe des points de nuages de points.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points PolyCut/fr
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points PolyCut/fr

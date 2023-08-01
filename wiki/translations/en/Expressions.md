@@ -1,6 +1,4 @@
 # Expressions/en
-{{TOCright}}
-
 ## Overview
 
 It is possible to define properties using mathematical expressions. In the GUI, spin boxes or input fields that are bound to properties contain a blue icon <img alt="" src=images/Bound-expression.svg  style="width:24px;">. Clicking on the icon or typing the equal sign **&#61;** brings up the expression editor for that particular property.
@@ -863,4 +861,4 @@ Of course, it\'s up to you to load the corresponding documents later when you wa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Expressions/en
+⏵ [documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Expressions/en

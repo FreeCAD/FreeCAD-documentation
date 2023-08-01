@@ -14,4 +14,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:External Workbenches/hr
+⏵ [documentation index](../README.md) > Category:External Workbenches/hr

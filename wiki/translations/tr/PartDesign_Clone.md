@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign Clone
-   Name/tr:Klon oluştur
-   Workbenches:[Parça tasarım](PartDesign_Workbench/tr.md)
-   MenuLocation:Parça tasarım - Klon oluştur
-   Version:0.17
-   SeeAlso:[Taslak Klon](Draft_Clone.md)
+   Name: PartDesign Clone
+   Name/tr: Klon oluştur
+   Workbenches: [Parça tasarım](PartDesign_Workbench/tr.md)
+   MenuLocation: Parça tasarım - Klon oluştur
+   Version: 0.17
+   SeeAlso: [Taslak Klon](Draft_Clone.md)
 ---
 
 # PartDesign Clone/tr
@@ -75,4 +75,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Clone/tr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Clone/tr

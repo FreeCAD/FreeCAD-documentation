@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh HarmonizeNormals
-   Name/pl:Siatka: Porządkuj wektory normalnych
-   MenuLocation:Siatka - Porządkuj wektory normalnych
-   Workbenches:[Siatka](Mesh_Workbench/pl.md)
-   SeeAlso:[Odwróć wektory normalnych](Mesh_FlipNormals/pl.md)
+   Name: Mesh HarmonizeNormals
+   Name/pl: Siatka: Porządkuj wektory normalnych
+   MenuLocation: Siatka - Porządkuj wektory normalnych
+   Workbenches: [Siatka](Mesh_Workbench/pl.md)
+   SeeAlso: [Odwróć wektory normalnych](Mesh_FlipNormals/pl.md)
 ---
 
 # Mesh HarmonizeNormals/pl
@@ -36,4 +36,4 @@ Polecenie **Porządkuj wektory normalne** ujednolica normalne obiektów siatkowy
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/pl
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/pl

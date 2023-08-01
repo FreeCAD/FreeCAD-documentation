@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part SectionCross
-   Name/it:Sezioni...
-   Icon:Part_CrossSections.svg
-   MenuLocation:Parte - Sezioni...
-   Workbenches:[Parte](Part_Workbench/it.md)
-   SeeAlso:[Seziona](Part_Section/it.md)
+   Name: Part SectionCross
+   Name/it: Sezioni...
+   Icon: Part_CrossSections.svg
+   MenuLocation: Parte - Sezioni...
+   Workbenches: [Parte](Part_Workbench/it.md)
+   SeeAlso: [Seziona](Part_Section/it.md)
 ---
 
 # Part CrossSections/it
@@ -72,4 +72,4 @@ L\'utilità **Sezioni\...** crea una o più sezioni trasversali attraverso la fo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/it

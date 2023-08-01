@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:WebTools Sketchfab
-   Name/es:HerramientasWeb Sketchfab
-   MenuLocation:HerramientasWeb - Sketchfab
-   Workbenches:[HerramientasWeb](WebTools_Workbench/es.md)
+   Name: WebTools Sketchfab
+   Name/es: HerramientasWeb Sketchfab
+   MenuLocation: HerramientasWeb - Sketchfab
+   Workbenches: [HerramientasWeb](WebTools_Workbench/es.md)
 ---
 
 # WebTools Sketchfab/es
@@ -34,4 +34,4 @@ Esta herramienta le permite exportar y subir objetos a su cuenta [SketchFab](htt
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > WebTools Sketchfab/es
+⏵ [documentation index](../README.md) > WebTools Sketchfab/es

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher Parabolic Arc
-   Name/it:Crea un arco di parabola
-   Icon:Sketcher Parabolic Arc.png
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch - Geometrie - Arco di parabola
-   Version:0.17
-   SeeAlso:[Arco di ellisse](Sketcher_CreateArcOfEllipse/it.md), [Arco di iperbole](Sketcher_CreateArcOfHyperbola/it.md)
+   Name: Sketcher Parabolic Arc
+   Name/it: Crea un arco di parabola
+   Icon: Sketcher Parabolic Arc.png
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation: Sketch - Geometrie - Arco di parabola
+   Version: 0.17
+   SeeAlso: [Arco di ellisse](Sketcher_CreateArcOfEllipse/it.md), [Arco di iperbole](Sketcher_CreateArcOfHyperbola/it.md)
 ---
 
 # Sketcher CreateArcOfParabola/it
@@ -55,4 +55,4 @@ Questo strumento crea un arco di parabola da fuoco, vertice e punti finali.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfParabola/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfParabola/it

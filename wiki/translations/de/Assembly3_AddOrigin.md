@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 AddOrigin
-   Name/de:Assembly3 UrsprungHinzufügen
-   Icon:Assembly_Add_Origin.svg‎‎
-   MenuLocation:Assembly3 - Workplane and origin - Add origin
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 AddOrigin
+   Name/de: Assembly3 UrsprungHinzufügen
+   Icon: Assembly_Add_Origin.svg‎‎
+   MenuLocation: Assembly3 - Workplane and origin - Add origin
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 AddOrigin/de
@@ -26,4 +26,4 @@ Das Ursprunsobjekt (Origin object) wird innerhalb des Parts-Containers angelegt 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 AddOrigin/de
+⏵ [documentation index](../README.md) > Assembly3 AddOrigin/de

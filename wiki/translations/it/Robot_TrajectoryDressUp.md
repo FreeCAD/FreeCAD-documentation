@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Robot TrajectoryDressUp
-   Name/it:Vesti una traiettoria
-   MenuLocation:Robot - Vesti una traiettoria
-   Workbenches:[Robot](Robot_Workbench/it.md)
+   Name: Robot TrajectoryDressUp
+   Name/it: Vesti una traiettoria
+   MenuLocation: Robot - Vesti una traiettoria
+   Workbenches: [Robot](Robot_Workbench/it.md)
 ---
 
 # Robot TrajectoryDressUp/it
@@ -38,4 +38,4 @@ Con conseguente possibilità di modificare i valori per:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryDressUp/it
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryDressUp/it

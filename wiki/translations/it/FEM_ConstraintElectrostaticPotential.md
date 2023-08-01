@@ -1,6 +1,6 @@
 # FEM ConstraintElectrostaticPotential/it
 ---
-- GuiCommand:   Name:FEM_ConstraintElectrostaticPotential   Name/it:Potenziale elettrostatico di vincolo   Icon:Fem-constraint-electrostatic-potential.svg   MenuLocation: Modello - Vincoli elettrostatici - Potenziale elettrostatico di vincolo   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:   Name: FEM_ConstraintElectrostaticPotential   Name/it: Potenziale elettrostatico di vincolo   Icon: Fem-constraint-electrostatic-potential.svg   MenuLocation:  Modello - Vincoli elettrostatici - Potenziale elettrostatico di vincolo   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 
 </div>
@@ -61,4 +61,4 @@ The dialog offers the following settings:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintElectrostaticPotential/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintElectrostaticPotential/it

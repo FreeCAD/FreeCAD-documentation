@@ -1,6 +1,4 @@
 # Task panel/ru
-{{TOCright}}
-
 ## Введение
 
 
@@ -51,4 +49,4 @@ There are many commands that require selection of shapes or objects present in t
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Task panel/ru
+⏵ [documentation index](../README.md) > Task panel/ru

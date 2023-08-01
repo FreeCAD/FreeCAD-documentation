@@ -1,11 +1,11 @@
 ---
 - GuiCommand:Addon/it
-   Name:BIM IfcProperties
-   Name/it:Gestione delle proprietà IFC
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/it.md)
-   Addon:BIM
-   MenuLocation:Gestione - Gestione delle proprietà IFC
-   SeeAlso:[Gestione elementi IFC](BIM_IfcElements/it.md),[Gestione delle quantità IFC](BIM_IfcQuantities/it.md)
+   Name: BIM IfcProperties
+   Name/it: Gestione delle proprietà IFC
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/it.md)
+   Addon: BIM
+   MenuLocation: Gestione - Gestione delle proprietà IFC
+   SeeAlso: [Gestione elementi IFC](BIM_IfcElements/it.md),[Gestione delle quantità IFC](BIM_IfcQuantities/it.md)
 ---
 
 # BIM IfcProperties/it
@@ -37,4 +37,4 @@ would define a property set named \"FreeCAD\" (the Pset\_ prefix is not mandator
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM IfcProperties/it
+⏵ [documentation index](../README.md) > BIM IfcProperties/it

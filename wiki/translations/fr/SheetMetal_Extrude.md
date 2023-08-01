@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:SheetMetal Extrude
-   Name/fr:SheetMetal Prolonger une face
-   MenuLocation:SheetMetal - Extend Face
-   Workbenches:[SheetMetal](SheetMetal_Workbench/fr.md)
-   Shortcut:**E**
+   Name: SheetMetal Extrude
+   Name/fr: SheetMetal Prolonger une face
+   MenuLocation: SheetMetal - Extend Face
+   Workbenches: [SheetMetal](SheetMetal_Workbench/fr.md)
+   Shortcut: **E**
 ---
 
 # SheetMetal Extrude/fr
@@ -118,4 +118,4 @@ Un objet SheetMetal Prolonger une face est dérivé d\'un objet [Part Feature](P
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal Extrude/fr
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal Extrude/fr

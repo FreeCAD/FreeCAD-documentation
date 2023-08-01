@@ -1,8 +1,4 @@
 # TechDraw Geometric dimensioning and tolerancing/ru
-{{TOCright}}
-
-
-
 ## Концепция
 
 Важной целью технического чертежа является то, чтобы читающий его человек понимал, какими характеристиками должна обладать деталь, с какой точностью и как она должна быть изготовлена. Поскольку большинство деталей стыкуются друг с другом в процессе сборки, важны их геометрические размеры. Для достижения этой цели была разработана [система геометрических размеров и допусков](https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BF%D1%83%D1%81%D0%BA) (англ. аббревиатура GD&T).
@@ -346,4 +342,4 @@ As reference, here are lists of characters to be used for geometric tolerancing:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Geometric dimensioning and tolerancing/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Geometric dimensioning and tolerancing/ru

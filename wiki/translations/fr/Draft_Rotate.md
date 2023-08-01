@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Rotate
-   Name/fr:Draft Pivoter
-   MenuLocation:Modification - Pivoter
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:**R** **O**
-   Version:0.7
-   SeeAlso:[Draft Surligner les sous éléments](Draft_SubelementHighlight/fr.md)
+   Name: Draft Rotate
+   Name/fr: Draft Pivoter
+   MenuLocation: Modification - Pivoter
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut: **R** **O**
+   Version: 0.7
+   SeeAlso: [Draft Surligner les sous éléments](Draft_SubelementHighlight/fr.md)
 ---
 
 # Draft Rotate/fr
@@ -122,4 +122,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/fr

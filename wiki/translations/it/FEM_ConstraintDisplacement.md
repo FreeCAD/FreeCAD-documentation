@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM_ConstraintDisplacement
-   Name/it:Vincolo di dislocamento
-   MenuLocation:Modello - Vincoli meccanici - Vincolo dislocamento
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Tutorial di FEM](FEM_tutorial/it.md)
+   Name: FEM_ConstraintDisplacement
+   Name/it: Vincolo di dislocamento
+   MenuLocation: Modello - Vincoli meccanici - Vincolo dislocamento
+   Workbenches: [FEM](FEM_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: [Tutorial di FEM](FEM_tutorial/it.md)
 ---
 
 # FEM ConstraintDisplacement/it
@@ -113,4 +113,4 @@ This code has the following syntax:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintDisplacement/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintDisplacement/it

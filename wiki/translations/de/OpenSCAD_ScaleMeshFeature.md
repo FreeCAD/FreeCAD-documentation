@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD ScaleMeshFeature
-   Name/de:OpenSCAD NetzelementSkalieren
-   MenuLocation:OpenSCAD - Netzelement skalieren
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
-   SeeAlso:[Mesh Skalieren](Mesh_Scale/de.md)
+   Name: OpenSCAD ScaleMeshFeature
+   Name/de: OpenSCAD NetzelementSkalieren
+   MenuLocation: OpenSCAD - Netzelement skalieren
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench/de.md)
+   SeeAlso: [Mesh Skalieren](Mesh_Scale/de.md)
 ---
 
 # OpenSCAD ScaleMeshFeature/de
@@ -59,4 +59,4 @@ Mesh.show(scaled_mesh)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ScaleMeshFeature/de
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ScaleMeshFeature/de

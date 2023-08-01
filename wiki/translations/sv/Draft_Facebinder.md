@@ -1,6 +1,6 @@
 # Draft Facebinder/sv
 ---
-- GuiCommand:   Name:Draft Facebinder   Name/sv:Draft Facebinder   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft - Facebinder   Shortcut:F F---
+- GuiCommand:   Name: Draft Facebinder   Name/sv: Draft Facebinder   Workbenches: [Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation: Draft - Facebinder   Shortcut: F F---
 
 
 </div>
@@ -123,4 +123,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Facebinder/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Facebinder/sv

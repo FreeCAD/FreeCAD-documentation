@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Source Integration Markup
+⏵ [documentation index](../README.md) > Source Integration Markup

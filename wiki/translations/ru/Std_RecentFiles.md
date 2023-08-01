@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std RecentFiles
-   Name/ru:Std RecentFiles
-   Empty:1
-   MenuLocation:Файл - Недавние файлы
-   Workbenches:All
-   SeeAlso:[Открыть](Std_Open/ru.md), [Импортировать](Std_Import/ru.md)
+   Name: Std RecentFiles
+   Name/ru: Std RecentFiles
+   Empty: 1
+   MenuLocation: Файл - Недавние файлы
+   Workbenches: All
+   SeeAlso: [Открыть](Std_Open/ru.md), [Импортировать](Std_Import/ru.md)
 ---
 
 # Std RecentFiles/ru
@@ -39,4 +39,4 @@ The **Std RecentFiles** menu option displays a list of recent files which can be
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std RecentFiles/ru
+⏵ [documentation index](../README.md) > Std RecentFiles/ru

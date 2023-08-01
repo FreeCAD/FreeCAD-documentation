@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionCreateVertChamferDimension
-   MenuLocation:TechDraw - Extensions: Dimensions - Create Vertical Chamfer Dimension
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ExtensionCreateHorizChamferDimension](TechDraw_ExtensionCreateHorizChamferDimension.md)
+   Name: TechDraw ExtensionCreateVertChamferDimension
+   MenuLocation: TechDraw - Extensions: Dimensions - Create Vertical Chamfer Dimension
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ExtensionCreateHorizChamferDimension](TechDraw_ExtensionCreateHorizChamferDimension.md)
 ---
 
 # TechDraw ExtensionCreateVertChamferDimension/en
@@ -36,4 +36,4 @@ The **TechDraw ExtensionCreateVertChamferDimension** tool creates a vertical siz
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateVertChamferDimension/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateVertChamferDimension/en

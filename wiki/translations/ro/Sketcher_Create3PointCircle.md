@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher Create3PointCircle
-   Name/ro:Sketcher CreateCircle3Point
-   Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation:Sketch - Sketcher geometries - Create circle by three points
-   Shortcut:
-   SeeAlso:
+   Name: Sketcher Create3PointCircle
+   Name/ro: Sketcher CreateCircle3Point
+   Workbenches: [Sketcher](Sketcher_Workbench/ro.md)
+   MenuLocation: Sketch - Sketcher geometries - Create circle by three points
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Sketcher Create3PointCircle/ro
@@ -61,4 +61,4 @@ Acest instrument <img alt="" src=images/Sketcher_CreateCircle3Point.png  style="
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointCircle/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointCircle/ro

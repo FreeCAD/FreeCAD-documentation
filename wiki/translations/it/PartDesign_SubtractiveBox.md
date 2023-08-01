@@ -1,6 +1,6 @@
 # PartDesign SubtractiveBox/it
 ---
-- GuiCommand:   Name:PartDesign SubtractiveBox   Name/it:Cubo sottrattivo   Workbenches:[MenuLocation:Part Design - Crea una primitiva sottrattiva - Cubo   Version:0.17   SeeAlso:[[PartDesign CompPrimitiveSubtractive/it|Primitive sottrattive](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign SubtractiveBox   Name/it: Cubo sottrattivo   Workbenches: [MenuLocation: Part Design - Crea una primitiva sottrattiva - Cubo   Version: 0.17   SeeAlso: [[PartDesign CompPrimitiveSubtractive/it|Primitive sottrattive](PartDesign_Workbench/it___PartDesign]].md)---
 
 
 </div>
@@ -72,4 +72,4 @@ Dopo la sua creazione il cubo può essere modificato in due modi:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveBox/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveBox/it

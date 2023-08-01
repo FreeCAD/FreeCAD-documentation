@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Выдавливание
-   Name:PartDesign_Pad
-   MenuLocation:Part Design - Аддитивные преобразования - Выдавливание
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   SeeAlso:[Вырез](PartDesign_Pocket/ru.md)
+   Name/ru: Выдавливание
+   Name: PartDesign_Pad
+   MenuLocation: Part Design - Аддитивные преобразования - Выдавливание
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso: [Вырез](PartDesign_Pocket/ru.md)
 ---
 
 # PartDesign Pad/ru
@@ -199,4 +199,4 @@ Tapers the pad in the opposite extrusion direction by the given angle. A positiv
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad/ru

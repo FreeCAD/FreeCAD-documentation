@@ -12,4 +12,4 @@ Für alle Symbole im Verzeichnisbaum siehe [Grafik](Artwork/de.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Ship](Category_Ship.md) > Artwork Ship/de
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Ship](Category_Ship.md) > Artwork Ship/de

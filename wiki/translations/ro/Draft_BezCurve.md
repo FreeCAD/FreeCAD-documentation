@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft BezCurve
-   Name/ro:Draft BezCurve
-   MenuLocation:Draft - BezCurve
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   Shortcut:B Z
+   Name: Draft BezCurve
+   Name/ro: Draft BezCurve
+   MenuLocation: Draft - BezCurve
+   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut: B Z
 ---
 
 # Draft BezCurve/ro
@@ -215,4 +215,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BezCurve/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BezCurve/ro

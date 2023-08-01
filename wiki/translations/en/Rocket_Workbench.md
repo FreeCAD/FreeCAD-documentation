@@ -1,7 +1,7 @@
 # <img alt="Rocket Workbench icon" src=images/RocketWorkbench.svg  style="width:64px;"> Rocket Workbench/en
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -61,4 +61,4 @@ Components created using the Rocket Workbench are essentially parts similar to w
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Workbench/en
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Workbench/en

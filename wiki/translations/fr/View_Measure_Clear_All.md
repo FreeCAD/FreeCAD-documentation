@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:View Measure Clear All
-   Name/fr:Affichage Supprimer les mesures
-   MenuLocation:Affichage - Visibilité - Supprimer les mesures
-   Workbenches:Tous
-   SeeAlso:[Affichage Afficher les mesures](View_Measure_Toggle_All/fr.md), [Part Basculer tout](Part_Measure_Toggle_All/fr.md), [Part Effacer toute mesure](Part_Measure_Clear_All/fr.md)
+   Name: View Measure Clear All
+   Name/fr: Affichage Supprimer les mesures
+   MenuLocation: Affichage - Visibilité - Supprimer les mesures
+   Workbenches: Tous
+   SeeAlso: [Affichage Afficher les mesures](View_Measure_Toggle_All/fr.md), [Part Basculer tout](Part_Measure_Toggle_All/fr.md), [Part Effacer toute mesure](Part_Measure_Clear_All/fr.md)
 ---
 
 # View Measure Clear All/fr
@@ -38,4 +38,4 @@ La commande **Affichage Supprimer les mesures** efface les mesures de la [vue 3D
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > View Measure Clear All/fr
+⏵ [documentation index](../README.md) > View Measure Clear All/fr

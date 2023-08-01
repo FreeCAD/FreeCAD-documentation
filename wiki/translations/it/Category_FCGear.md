@@ -13,4 +13,4 @@ All relevant pages to the [FCGear workbench](FCGear_Workbench/it.md) (an [extern
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > Category:FCGear/it
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > Category:FCGear/it

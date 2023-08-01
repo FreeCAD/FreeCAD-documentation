@@ -1,6 +1,6 @@
 # Std Copy/cs
 ---
-- GuiCommand:   Name:Std_Copy   Name/cs:Std Kopírovat   MenuLocation:[Shortcut:Ctrl+C   Workbenches:Všechny   SeeAlso:[[Std_Paste/cs|Vložit](Std_Edit_Menu/cs___Úpravy]]_-_Kopírovat.md), [Duplicate Selection](Std_DuplicateSelection/cs.md)---
+- GuiCommand:   Name: Std_Copy   Name/cs: Std Kopírovat   MenuLocation: [Shortcut: Ctrl+C   Workbenches: Všechny   SeeAlso: [[Std_Paste/cs|Vložit](Std_Edit_Menu/cs___Úpravy]]_-_Kopírovat.md), [Duplicate Selection](Std_DuplicateSelection/cs.md)---
 
 
 </div>
@@ -46,4 +46,4 @@ Příkaz Kopírovat je součástí kopírování objektů [Document](Document_st
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Copy/cs
+⏵ [documentation index](../README.md) > Std Copy/cs

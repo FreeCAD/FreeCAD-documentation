@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher BSplineDecreaseKnotMultiplicity
-   Name/fr:Sketcher Diminuer la multiplicité d'un nœud
-   MenuLocation:Esquisse - Outils d'esquisse des B-splines - Diminuer la multiplicité de noeuds
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[Sketcher Multiplicité des nœuds d'une B-spline](Sketcher_BSplineKnotMultiplicity/fr.md), [Sketcher Augmenter la multiplicité d'un nœud](Sketcher_BSplineIncreaseKnotMultiplicity/fr.md)
+   Name: Sketcher BSplineDecreaseKnotMultiplicity
+   Name/fr: Sketcher Diminuer la multiplicité d'un nœud
+   MenuLocation: Esquisse - Outils d'esquisse des B-splines - Diminuer la multiplicité de noeuds
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [Sketcher Multiplicité des nœuds d'une B-spline](Sketcher_BSplineKnotMultiplicity/fr.md), [Sketcher Augmenter la multiplicité d'un nœud](Sketcher_BSplineIncreaseKnotMultiplicity/fr.md)
 ---
 
 # Sketcher BSplineDecreaseKnotMultiplicity/fr
@@ -55,4 +55,4 @@ On peut voir que la spline de multiplicité de nœud 1 est complètement modifi�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDecreaseKnotMultiplicity/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDecreaseKnotMultiplicity/fr

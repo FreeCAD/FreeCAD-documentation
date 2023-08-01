@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std Revert
-   Name/fr:Std Rétablir
-   MenuLocation:Fichier - Rétablir
-   Workbenches:Tous
+   Name: Std Revert
+   Name/fr: Std Rétablir
+   MenuLocation: Fichier - Rétablir
+   Workbenches: Tous
 ---
 
 # Std Revert/fr
@@ -32,4 +32,4 @@ La commande **Std Rétablir** ferme le document actif et rouvre la dernière ver
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Revert/fr
+⏵ [documentation index](../README.md) > Std Revert/fr

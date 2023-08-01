@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Линейный массив
-   Name:PartDesign_LinearPattern
-   MenuLocation:Part Design - Apply a pattern - Линейный массив
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   SeeAlso:[Множественное преобразование](PartDesign_MultiTransform/ru.md)
+   Name/ru: Линейный массив
+   Name: PartDesign_LinearPattern
+   MenuLocation: Part Design - Apply a pattern - Линейный массив
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso: [Множественное преобразование](PartDesign_MultiTransform/ru.md)
 ---
 
 # PartDesign LinearPattern/ru
@@ -112,4 +112,4 @@ The <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:24px;"> **
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/ru

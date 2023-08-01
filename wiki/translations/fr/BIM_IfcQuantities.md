@@ -1,11 +1,11 @@
 ---
 - GuiCommand:Addon/fr
-   Name:BIM IfcQuantities
-   Name/fr:BIM Quantité IFC
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/fr.md)
-   Addon:BIM
-   MenuLocation:Manage - IFC Quantities
-   SeeAlso:[BIM Elements IFC](BIM_IfcElements/fr.md),[BIM Propriétés IFC](BIM_IfcProperties/fr.md)
+   Name: BIM IfcQuantities
+   Name/fr: BIM Quantité IFC
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/fr.md)
+   Addon: BIM
+   MenuLocation: Manage - IFC Quantities
+   SeeAlso: [BIM Elements IFC](BIM_IfcElements/fr.md),[BIM Propriétés IFC](BIM_IfcProperties/fr.md)
 ---
 
 # BIM IfcQuantities/fr
@@ -27,4 +27,4 @@ Vous pouvez également utiliser le gestionnaire de quantités pour modifier ou f
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM IfcQuantities/fr
+⏵ [documentation index](../README.md) > BIM IfcQuantities/fr

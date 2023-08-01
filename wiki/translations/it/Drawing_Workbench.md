@@ -22,7 +22,7 @@ L\'ambiente Disegno (Drawing) consente di trasferire su carta il lavoro realizza
 Permette di produrre delle viste (proiezioni sul piano) del modello, di posizionarle in una finestra 2D e di inserire la finestra in una tavola, ad esempio, in un foglio con il bordo, il titolo e il logo e, infine, di stampare la tavola.
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Drawing_extraction.png  style="width:600px;">
 
@@ -135,4 +135,4 @@ Alcune ulteriori note sulla programmazione del Modulo Disegno sono contenute nel
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/it
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/it

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:-cn
-   Name/zh-cn:映射草图至面...
-   Name:Sketcher_MapSketch
-   MenuLocation:Part Design/Sketch - 映射草图至面...
-   Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md), [PartDesign](PartDesign_Workbench/zh-cn.md)
-   SeeAlso:[创建草图](Sketcher_NewSketch/zh-cn.md)
+   Name/zh-cn: 映射草图至面...
+   Name: Sketcher_MapSketch
+   MenuLocation: Part Design/Sketch - 映射草图至面...
+   Workbenches: [Sketcher](Sketcher_Workbench/zh-cn.md), [PartDesign](PartDesign_Workbench/zh-cn.md)
+   SeeAlso: [创建草图](Sketcher_NewSketch/zh-cn.md)
 ---
 
 # Sketcher MapSketch/zh-cn
@@ -85,4 +85,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/zh-cn
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/zh-cn

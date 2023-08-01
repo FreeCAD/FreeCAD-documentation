@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Scale
-   MenuLocation:Modification - Scale
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:**S** **C**
-   SeeAlso:[Draft SubelementHighlight](Draft_SubelementHighlight.md), [Draft Clone](Draft_Clone.md)
+   Name: Draft Scale
+   MenuLocation: Modification - Scale
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut: **S** **C**
+   SeeAlso: [Draft SubelementHighlight](Draft_SubelementHighlight.md), [Draft Clone](Draft_Clone.md)
 ---
 
 # Draft Scale
@@ -113,4 +113,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Scale
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Scale

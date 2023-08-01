@@ -1,6 +1,6 @@
 # Sketcher SelectVerticalAxis/ro
 ---
-- GuiCommand:   Name:Sketcher SelectVerticalAxis   Name/ro:Sketcher SelectVerticalAxis   Workbenches:[[Sketcher Workbench/ro   Sketcher]]|MenuLocation:Sketch - Sketcher tools - Select Vertical Axis   Shortcut:Shift+Ctrl+V   Version:0.15---
+- GuiCommand:   Name: Sketcher SelectVerticalAxis   Name/ro: Sketcher SelectVerticalAxis   Workbenches: [[Sketcher Workbench/ro   Sketcher]]|MenuLocation: Sketch - Sketcher tools - Select Vertical Axis   Shortcut: Shift+Ctrl+V   Version: 0.15---
 
 
 </div>
@@ -40,4 +40,4 @@ Selects the vertical axis of a sketch.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectVerticalAxis/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectVerticalAxis/ro

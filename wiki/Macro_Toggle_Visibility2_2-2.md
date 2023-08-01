@@ -54,4 +54,4 @@ except Exception:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Toggle Visibility2 2-2
+⏵ [documentation index](../README.md) > Macro Toggle Visibility2 2-2

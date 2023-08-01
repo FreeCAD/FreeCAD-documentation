@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Extrude
-   Name/de:Part Extrudieren
-   MenuLocation:Formteil - Extrudieren...
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Draft Trimex](Draft_Trimex/de.md), [PartDesign Pad](PartDesign_Pad/de.md)
+   Name: Part Extrude
+   Name/de: Part Extrudieren
+   MenuLocation: Formteil - Extrudieren...
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: [Draft Trimex](Draft_Trimex/de.md), [PartDesign Pad](PartDesign_Pad/de.md)
 ---
 
 # Part Extrude/de
@@ -150,4 +150,4 @@ Die Extrusionsform wird durch die folgenden Parameter festgelegt, die nach ihrer
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/de

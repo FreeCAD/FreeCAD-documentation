@@ -1,10 +1,10 @@
 # Mesh Intersection/it
 ---
 - GuiCommand:
-   Name:Mesh_Intersection
-   Name/it:Intersezione‏‎‏‎
-   MenuLocation:Mesh - Operazione booleana - Intersezione
-   Workbenches:[Mesh](Mesh_Workbench/it.md)---
+   Name: Mesh_Intersection
+   Name/it: Intersezione‏‎‏‎
+   MenuLocation: Mesh - Operazione booleana - Intersezione
+   Workbenches: [Mesh](Mesh_Workbench/it.md)---
 
 ## Descrizione
 
@@ -47,4 +47,4 @@ Vedere [Mesh Feature](Mesh_Feature/it.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Intersection/it
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Intersection/it

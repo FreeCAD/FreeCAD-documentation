@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Rocket FinCan
-   MenuLocation:Rocket - Fin Can
-   Workbenches:[Rocket Workbench](Rocket_Workbench.md)
-   Version:0.19
+   Name: Rocket FinCan
+   MenuLocation: Rocket - Fin Can
+   Workbenches: [Rocket Workbench](Rocket_Workbench.md)
+   Version: 0.19
 ---
 
 # Rocket FinCan/en
@@ -94,4 +94,4 @@ These parameters are provided for information and have no effect on the design o
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket FinCan/en
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket FinCan/en

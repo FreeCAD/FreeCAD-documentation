@@ -2,7 +2,7 @@
 **There is an experimental FreeCAD Docker container that is being tested for FreeCAD development. Read more about it at [[Compile on Docker]]**
 
 
-{{TOCright}}
+
 
 ## Overview
 
@@ -1329,4 +1329,4 @@ To update FreeCAD to latest build just repeat from step 3. Update AUR repository
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on Linux/en
+⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on Linux/en

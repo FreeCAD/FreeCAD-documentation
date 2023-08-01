@@ -1,6 +1,6 @@
 # Std SelectAll/ro
 ---
-- GuiCommand:   Name:Std SelectAll   MenuLocation:[[Std Edit Menu   Edit]] - Select All|Workbenches:All   Shortcut:...   SeeAlso:...---
+- GuiCommand:   Name: Std SelectAll   MenuLocation: [[Std Edit Menu   Edit]] - Select All|Workbenches: All   Shortcut: ...   SeeAlso: ...---
 
 
 </div>
@@ -55,4 +55,4 @@ Pentru mai multe informații despre modul de selectare, puteți consulta și pag
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SelectAll/ro
+⏵ [documentation index](../README.md) > Std SelectAll/ro

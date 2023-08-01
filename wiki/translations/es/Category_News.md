@@ -14,4 +14,4 @@ Esta categoría contiene artículos con noticias y mensajes sobre FreeCAD.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:News/es
+⏵ [documentation index](../README.md) > Category:News/es

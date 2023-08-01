@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft_PointLinkArray
-   Name/it:Serie di link su punti
-   MenuLocation:Modifiche - Strumenti serie - Serie di link su punti
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Version:0.19
-   SeeAlso:[Serie ortognale](Draft_OrthoArray/it.md), [Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie su tracciato](Draft_PathArray/it.md), [Serie di link su punti](Draft_PathLinkArray/it.md),  [Serie su punti](Draft_PointArray/it.md)
+   Name: Draft_PointLinkArray
+   Name/it: Serie di link su punti
+   MenuLocation: Modifiche - Strumenti serie - Serie di link su punti
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Version: 0.19
+   SeeAlso: [Serie ortognale](Draft_OrthoArray/it.md), [Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie su tracciato](Draft_PathArray/it.md), [Serie di link su punti](Draft_PathLinkArray/it.md),  [Serie su punti](Draft_PointArray/it.md)
 ---
 
 # Draft PointLinkArray/it
@@ -17,4 +17,4 @@ Lo strumento <img alt="" src=images/Draft_PointLinkArray.svg  style="width:24px;
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PointLinkArray/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PointLinkArray/it

@@ -4,7 +4,7 @@
 ## Wprowadzenie
 
 
-{{TOCright}}
+
 
 [Konsola Python](Python_console/pl.md) jest panelem, który jest częścią [interfejs użytkownika](Interface/pl.md) FreeCAD. Może być używany do sterowania procesami FreeCAD oraz tworzenia i modyfikowania obiektów i ich właściwości.
 
@@ -98,4 +98,4 @@ Kliknij prawym przyciskiem myszy na konsoli Pythona, aby wyświetlić kilka pole
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Python console/pl
+⏵ [documentation index](../README.md) > Python console/pl

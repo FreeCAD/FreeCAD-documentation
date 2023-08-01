@@ -1,6 +1,6 @@
 # FEM EquationElasticity/ro
 ---
-- GuiCommand:   Name:FEM EquationElasticity   MenuLocation: Solve - Equation elasticity   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
+- GuiCommand:   Name: FEM EquationElasticity   MenuLocation:  Solve - Equation elasticity   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
 
 
 </div>
@@ -141,4 +141,4 @@ whereas $\vec{u}$ is the eigenvector and $c$ is a complex number.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElasticity/ro
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElasticity/ro

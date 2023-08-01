@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Mesh FlipNormals‏‎
-   Name/ru:Mesh FlipNormals‏‎
-   MenuLocation:Сетки - Согласовать нормали
-   Workbenches:[Mesh](Mesh_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:
+   Name: Mesh FlipNormals‏‎
+   Name/ru: Mesh FlipNormals‏‎
+   MenuLocation: Сетки - Согласовать нормали
+   Workbenches: [Mesh](Mesh_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Mesh FlipNormals/ru
@@ -60,4 +60,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FlipNormals/ru
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FlipNormals/ru

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Line
-   Name/de:Draft Linie
-   MenuLocation:Entwurf - Linie
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Shortcut:**L** **I**
-   Version:0.7
-   SeeAlso:[Draft Polylinie](Draft_Wire/de.md)
+   Name: Draft Line
+   Name/de: Draft Linie
+   MenuLocation: Entwurf - Linie
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut: **L** **I**
+   Version: 0.7
+   SeeAlso: [Draft Polylinie](Draft_Wire/de.md)
 ---
 
 # Draft Line/de
@@ -133,4 +133,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Line/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Line/de

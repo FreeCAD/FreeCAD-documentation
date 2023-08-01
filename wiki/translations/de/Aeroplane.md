@@ -111,4 +111,4 @@ Ich hoffe, dass dieses kleine Tutorial dir geholfen hat, ein Gefühl für Rotati
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Category_Part.md) > Aeroplane/de
+⏵ [documentation index](../README.md) > [Part](Category_Part.md) > Aeroplane/de

@@ -1,7 +1,7 @@
 # <img alt="El icono del Ambiente de trabajo Croquizador" src=images/Workbench_Sketcher.svg  style="width:64px;"> Sketcher Workbench/es
 
 
-{{TOCright}}
+
 
 
 
@@ -880,4 +880,4 @@ For some ideas of what can be achieved with Sketcher tools, have a look at: [Ske
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/es
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/es

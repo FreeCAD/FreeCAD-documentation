@@ -1,6 +1,6 @@
 # Drawing Orthoviews/it
 ---
-- GuiCommand:   Name:Drawing Orthoviews   Name/it:Viste ortogonali   Workbenches:[MenuLocation:Drawing - Inserisci viste ortogonali   Shortcut:none   SeeAlso:[[Drawing Landscape A3/it|Nuovo disegno](Drawing_Workbench/it___Drawing]],_Complete.md)---
+- GuiCommand:   Name: Drawing Orthoviews   Name/it: Viste ortogonali   Workbenches: [MenuLocation: Drawing - Inserisci viste ortogonali   Shortcut: none   SeeAlso: [[Drawing Landscape A3/it|Nuovo disegno](Drawing_Workbench/it___Drawing]],_Complete.md)---
 
 Lo strumento Viste ortogonali inserisce una serie di proiezioni ortografiche dell\'oggetto selezionato nel foglio di disegno attivo. Notare che non crea un singolo oggetto vista sulla pagina. Crea invece una proiezione ortografica separata per ciascuna delle viste selezionate nelle opzioni.
 
@@ -83,4 +83,4 @@ Da fare
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Orthoviews/it
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Orthoviews/it

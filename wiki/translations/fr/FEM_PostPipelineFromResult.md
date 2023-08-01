@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM PostPipelineFromResult
-   Name/fr:FEM Pipeline de résultats
-   MenuLocation:Résultats - Afficher le pipeline des résultats
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[FEM Afficher les résultats](FEM_ResultShow/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM PostPipelineFromResult
+   Name/fr: FEM Pipeline de résultats
+   MenuLocation: Résultats - Afficher le pipeline des résultats
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [FEM Afficher les résultats](FEM_ResultShow/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM PostPipelineFromResult/fr
@@ -85,4 +85,4 @@ Dans l\'[éditeur de propriétés](Property_editor/fr.md), vous pouvez définir 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostPipelineFromResult/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostPipelineFromResult/fr

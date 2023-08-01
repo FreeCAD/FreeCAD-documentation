@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionCreateHorizChamferDimension
-   Name/fr:TechDraw Cote horizontale chanfrein
-   MenuLocation:TechDraw - Extensions : cotes - Cote horizontale et d'angle de chanfrein
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw Cote verticale chanfrein](TechDraw_ExtensionCreateVertChamferDimension/fr.md)
+   Name: TechDraw ExtensionCreateHorizChamferDimension
+   Name/fr: TechDraw Cote horizontale chanfrein
+   MenuLocation: TechDraw - Extensions : cotes - Cote horizontale et d'angle de chanfrein
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw Cote verticale chanfrein](TechDraw_ExtensionCreateVertChamferDimension/fr.md)
 ---
 
 # TechDraw ExtensionCreateHorizChamferDimension/fr
@@ -39,4 +39,4 @@ L\'outil **TechDraw Cote horizontale chanfrein** crée une cote horizontale de l
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateHorizChamferDimension/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateHorizChamferDimension/fr

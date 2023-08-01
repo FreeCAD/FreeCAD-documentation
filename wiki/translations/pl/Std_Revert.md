@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std Revert
-   Name/pl:Std: Przywróć
-   MenuLocation:Plik - Przywróć
-   Workbenches:wszystkie
+   Name: Std Revert
+   Name/pl: Std: Przywróć
+   MenuLocation: Plik - Przywróć
+   Workbenches: wszystkie
 ---
 
 # Std Revert/pl
@@ -32,4 +32,4 @@ Polecenie **Przywróć** powoduje zamknięcie aktywnego dokumentu i ponowne otwa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Revert/pl
+⏵ [documentation index](../README.md) > Std Revert/pl

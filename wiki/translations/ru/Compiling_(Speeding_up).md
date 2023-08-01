@@ -1,8 +1,4 @@
 # Compiling (Speeding up)/ru
-{{TOCright}}
-
-
-
 ## Обзор
 
 FreeCAD - это крупное приложение, для полной компиляции которого из исходного когда, может потребоваться от 10 минут до часа. В первую очередь это зависит от используемого процессора и количества ядер, используемых в процессе компиляции. Вот несколько советов, как сократить время процесса сборки.
@@ -96,4 +92,4 @@ FreeCAD dev \'etrombly\' has published a short explanation on [how to install di
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compiling (Speeding up)/ru
+⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compiling (Speeding up)/ru

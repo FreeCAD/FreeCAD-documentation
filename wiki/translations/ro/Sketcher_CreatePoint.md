@@ -1,6 +1,6 @@
 # Sketcher CreatePoint/ro
 ---
-- GuiCommand:   Name:Sketcher CreatePoint   Workbenches:[[Sketcher Workbench/ro   Sketcher]]|MenuLocation:Sketch - Sketcher geometries - Create point---
+- GuiCommand:   Name: Sketcher CreatePoint   Workbenches: [[Sketcher Workbench/ro   Sketcher]]|MenuLocation: Sketch - Sketcher geometries - Create point---
 
 
 </div>
@@ -60,4 +60,4 @@ Modul de alinierea la grilă poate fi definit în [Sketcher Preferences](Sketche
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/ro

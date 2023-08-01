@@ -1,7 +1,4 @@
 # FEM Preferences/ru
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 Экран настроек [верстака FEM](FEM_Workbench/ru.md) находится в общем [окне настроек](Preferences_Editor/ru.md) **Правка → Настройки → Fem**
@@ -209,4 +206,4 @@ On the *Material* tab you can specify the following:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [FEM](Category_FEM.md) > FEM Preferences/ru
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [FEM](Category_FEM.md) > FEM Preferences/ru

@@ -1,6 +1,6 @@
 # Draft SelectGroup/sv
 ---
-- GuiCommand:   Name:Draft SelectGroup   Name/sv:Draft SelectGroup   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> Utilities -> Select group---
+- GuiCommand:   Name: Draft SelectGroup   Name/sv: Draft SelectGroup   Workbenches: [Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation: Draft -> Utilities -> Select group---
 
 
 </div>
@@ -27,4 +27,4 @@ The command was revised in FreeCAD version 0.20 and this page describes that ver
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectGroup/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectGroup/sv

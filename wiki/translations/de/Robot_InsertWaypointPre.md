@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Robot InsertWaypointPre   Name/de:Robot In Bewegungsbahn einfügen
-   Workbenches:[Robot](Robot_Workbench.md)
-   MenuLocation:Roboter - In Bewegungsbahn einfügen
-   Shortcut:**W**
+   Name: Robot InsertWaypointPre   Name/de: Robot In Bewegungsbahn einfügen
+   Workbenches: [Robot](Robot_Workbench.md)
+   MenuLocation: Roboter - In Bewegungsbahn einfügen
+   Shortcut: **W**
 ---
 
 # Robot InsertWaypointPre/de
@@ -65,4 +65,4 @@ Selektierbare Objekte sind
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypointPre/de
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypointPre/de

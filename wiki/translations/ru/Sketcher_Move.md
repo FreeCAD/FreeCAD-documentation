@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name/ru:Переместить
-   Name:Sketcher_Move
-   MenuLocation:Sketch - Инструменты для эскиза - Переместить
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**Ctrl** + **M**
-   Version:0.18
-   SeeAlso:[Клонировать](Sketcher_Clone/ru.md), [Копировать](Sketcher_Copy/ru.md)
+   Name/ru: Переместить
+   Name: Sketcher_Move
+   MenuLocation: Sketch - Инструменты для эскиза - Переместить
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **Ctrl** + **M**
+   Version: 0.18
+   SeeAlso: [Клонировать](Sketcher_Clone/ru.md), [Копировать](Sketcher_Copy/ru.md)
 ---
 
 # Sketcher Move/ru
@@ -53,4 +53,4 @@ Moves the selected sketch elements from one point to another, using the last sel
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/ru

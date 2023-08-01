@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std LinkMakeRelative
-   Name/pl:Std: Utwórz łącze względne
-   MenuLocation:brak
-   Workbenches:wszystkie
-   Version:0.19
-   SeeAlso:[Część](Std_Part/pl.md), [Grupa](Std_Group/pl.md), [Utwórz łącze](Std_LinkMake/pl.md)
+   Name: Std LinkMakeRelative
+   Name/pl: Std: Utwórz łącze względne
+   MenuLocation: brak
+   Workbenches: wszystkie
+   Version: 0.19
+   SeeAlso: [Część](Std_Part/pl.md), [Grupa](Std_Group/pl.md), [Utwórz łącze](Std_LinkMake/pl.md)
 ---
 
 # Std LinkMakeRelative/pl
@@ -77,4 +77,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkMakeRelative/pl
+⏵ [documentation index](../README.md) > Std LinkMakeRelative/pl

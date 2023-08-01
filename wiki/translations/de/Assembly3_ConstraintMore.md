@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintMore
-   Name/de:Assembly3 Weitere
-   Icon:Assembly_ConstraintMore.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintMore
+   Name/de: Assembly3 Weitere
+   Icon: Assembly_ConstraintMore.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintMore/de
@@ -19,4 +19,4 @@ Diese Werkzeug schaltet die Sichtbarkeit von zwei weitere Werkzeugleisten um.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintMore/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintMore/de

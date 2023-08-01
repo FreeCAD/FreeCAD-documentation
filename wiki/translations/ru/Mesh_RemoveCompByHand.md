@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Mesh RemoveCompByHand‏‎
-   Name/ru:Mesh RemoveCompByHand‏‎
-   MenuLocation:Сетки - Удалить компоненты вручную...
-   Workbenches:[Mesh](Mesh_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:
+   Name: Mesh RemoveCompByHand‏‎
+   Name/ru: Mesh RemoveCompByHand‏‎
+   MenuLocation: Сетки - Удалить компоненты вручную...
+   Workbenches: [Mesh](Mesh_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Mesh RemoveCompByHand/ru
@@ -47,4 +47,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveCompByHand/ru
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveCompByHand/ru

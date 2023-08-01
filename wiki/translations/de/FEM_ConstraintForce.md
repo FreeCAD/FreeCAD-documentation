@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintForce
-   Name/de:FEM RandbedingungKraft
-   MenuLocation:Modell - Mechanische Randbedingungen - Randbedingung Krafteinwirkung
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   SeeAlso:[FEM RandbedingungDruck](FEM_ConstraintPressure/de.md)
+   Name: FEM ConstraintForce
+   Name/de: FEM RandbedingungKraft
+   MenuLocation: Modell - Mechanische Randbedingungen - Randbedingung Krafteinwirkung
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   SeeAlso: [FEM RandbedingungDruck](FEM_ConstraintPressure/de.md)
 ---
 
 # FEM ConstraintForce/de
@@ -47,4 +47,4 @@ Dieser Befehl wendet eine Kraft mit dem gegebenen Wert \[N\] auf die ausgewählt
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintForce/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintForce/de

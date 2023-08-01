@@ -1,6 +1,6 @@
 # Part Point/cs
 ---
-- GuiCommand:   Name:Part Point   Name/cs:Díl Bod   MenuLocation:Díl - [Workbenches:[[Part_Workbench/cs   Díl](Part_CreatePrimitives/cs___Vytváření_zákl.geom.tvarů]] - Bod.md), [OpenSCAD](OpenSCAD_Workbench/cs.md)|SeeAlso:..---
+- GuiCommand:   Name: Part Point   Name/cs: Díl Bod   MenuLocation: Díl - [Workbenches: [[Part_Workbench/cs   Díl](Part_CreatePrimitives/cs___Vytváření_zákl.geom.tvarů]] - Bod.md), [OpenSCAD](OpenSCAD_Workbench/cs.md)|SeeAlso: ..---
 
 
 </div>
@@ -84,4 +84,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Point/cs
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Point/cs

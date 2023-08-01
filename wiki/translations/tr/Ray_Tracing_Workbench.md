@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Ray Tracing Workbench/tr
+⏵ [documentation index](../README.md) > Ray Tracing Workbench/tr

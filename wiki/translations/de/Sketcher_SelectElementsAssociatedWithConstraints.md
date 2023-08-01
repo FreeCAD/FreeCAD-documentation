@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectElementsAssociatedWithConstraints
-   Name/de:Sketcher SelectElementsAssociatedWithConstraints
-   MenuLocation:Skizze - Skizzenwerkzeuge - Zugehörige Geometrie auswählen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**Z** **E**
-   Version:0.15
+   Name: Sketcher SelectElementsAssociatedWithConstraints
+   Name/de: Sketcher SelectElementsAssociatedWithConstraints
+   MenuLocation: Skizze - Skizzenwerkzeuge - Zugehörige Geometrie auswählen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **Z** **E**
+   Version: 0.15
 ---
 
 # Sketcher SelectElementsAssociatedWithConstraints/de
@@ -31,4 +31,4 @@ Wählt Skizzenelemente aus, die mit Randbedingungen versehen sind.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsAssociatedWithConstraints/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsAssociatedWithConstraints/de

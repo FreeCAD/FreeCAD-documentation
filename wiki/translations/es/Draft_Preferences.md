@@ -1,7 +1,4 @@
 # Draft Preferences/es
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 La pantalla de preferencias del módulo de Croquis se encuentra en la [Ventana de Preferencias](Preferences_Editor/es.md) (Menú Editar -\> Preferencias).
@@ -502,4 +499,4 @@ On the *Texts and dimensions* tab you can specify the following:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Draft](Draft_Workbench.md) > Draft Preferences/es
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Draft](Draft_Workbench.md) > Draft Preferences/es

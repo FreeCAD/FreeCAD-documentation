@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD Minkowski
-   MenuLocation:OpenSCAD - Minkowski
-‏‎   Workbenches:[OpenSCAD](OpenSCAD_Workbench.md)
+   Name: OpenSCAD Minkowski
+   MenuLocation: OpenSCAD - Minkowski
+‏‎   Workbenches: [OpenSCAD](OpenSCAD_Workbench.md)
 ---
 
 # OpenSCAD Minkowski
@@ -43,4 +43,4 @@ Feature needs OpenSCAD installed and configured in **Edit** → **Preferences**
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Minkowski
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Minkowski

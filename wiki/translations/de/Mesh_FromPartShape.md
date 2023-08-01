@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh FromPartShape
-   Name/de:Mesh NetzAusPartForm
-   MenuLocation:Netze - Netz aus Form erstellen...
-   Workbenches:[Mesh](Mesh_Workbench/de.md)
+   Name: Mesh FromPartShape
+   Name/de: Mesh NetzAusPartForm
+   MenuLocation: Netze - Netz aus Form erstellen...
+   Workbenches: [Mesh](Mesh_Workbench/de.md)
 ---
 
 # Mesh FromPartShape/de
@@ -224,4 +224,4 @@ msh.ViewObject.DisplayMode = "Flat Lines"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FromPartShape/de
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FromPartShape/de

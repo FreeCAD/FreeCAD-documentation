@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar
-   MenuLocation:Arch - Rebar tools - Custom Rebar<br>3D/BIM - Reinforcement tools - Custom Rebar
-   Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
-   Shortcut:**R** **B**
-   SeeAlso:[Arch Structure](Arch_Structure.md), [Reinforcement](Reinforcement_Workbench.md)
+   Name: Arch Rebar
+   MenuLocation: Arch - Rebar tools - Custom Rebar<br>3D/BIM - Reinforcement tools - Custom Rebar
+   Workbenches: [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   Shortcut: **R** **B**
+   SeeAlso: [Arch Structure](Arch_Structure.md), [Reinforcement](Reinforcement_Workbench.md)
 ---
 
 # Arch Rebar
@@ -118,4 +118,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar

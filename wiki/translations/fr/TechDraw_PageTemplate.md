@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw PageTemplate
-   Name/fr:TechDraw Page à partir d'un modèle
-   MenuLocation:TechDraw - Page - Insérer une page à partir d'un modèle
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Page par défaut](TechDraw_PageDefault/fr.md), [TechDraw Modèles](TechDraw_Templates/fr.md)
+   Name: TechDraw PageTemplate
+   Name/fr: TechDraw Page à partir d'un modèle
+   MenuLocation: TechDraw - Page - Insérer une page à partir d'un modèle
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   SeeAlso: [TechDraw Page par défaut](TechDraw_PageDefault/fr.md), [TechDraw Modèles](TechDraw_Templates/fr.md)
 ---
 
 # TechDraw PageTemplate/fr
@@ -98,4 +98,4 @@ page.Template.EditableTexts = texts
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageTemplate/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageTemplate/fr

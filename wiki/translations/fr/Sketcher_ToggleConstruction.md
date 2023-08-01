@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ToggleConstruction
-   Name/fr:Sketcher Géométrie de construction
-   MenuLocation:Esquisse - Géométries d'esquisse - Basculer le mode de la géométrie de construction
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **N**
-   SeeAlso:[Sketcher Contraintes pilotantes](Sketcher_ToggleDrivingConstraint/fr.md)
+   Name: Sketcher ToggleConstruction
+   Name/fr: Sketcher Géométrie de construction
+   MenuLocation: Esquisse - Géométries d'esquisse - Basculer le mode de la géométrie de construction
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **N**
+   SeeAlso: [Sketcher Contraintes pilotantes](Sketcher_ToggleDrivingConstraint/fr.md)
 ---
 
 # Sketcher ToggleConstruction/fr
@@ -54,4 +54,4 @@ Il y a deux façons d\'utiliser cet outil :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/fr

@@ -1,6 +1,4 @@
 # Units/pt-br
-{{TOCright}}
-
 Some reading about units:
 
 -   [Metrology](http://en.wikipedia.org/wiki/Metrology)
@@ -68,4 +66,4 @@ A complete list of all supported units can be [found here](Expressions#Units.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Units/pt-br
+⏵ [documentation index](../README.md) > Units/pt-br

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Draft ApplyStyle
-   Workbenches:[Croquis](Draft_Workbench/es.md)
-   MenuLocation:Croquis->- Utilidades - Aplicar estilo
+   Name: Draft ApplyStyle
+   Workbenches: [Croquis](Draft_Workbench/es.md)
+   MenuLocation: Croquis->- Utilidades - Aplicar estilo
 ---
 
 # Draft ApplyStyle/es
@@ -61,4 +61,4 @@ This command currently handles only five of the settings the [Draft SetStyle](Dr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/es

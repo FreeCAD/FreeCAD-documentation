@@ -2,7 +2,7 @@
 ## Introduction
 
 
-{{TOCright}}
+
 
 Le **problème de dénomination topologique** dans FreeCAD fait référence au conséquences d'une forme qui change de nom interne après une opération de modélisation (protusion, coupe, union, chanfrein, congé, etc.). Cela a pour conséquence la casse ou le calcul incorrect d\'autres caractéristiques paramétriques dépendantes de cette forme. Ce problème concerne tous les objets dans FreeCAD, mais est particulièrement important lors de la création de solides avec l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md) et lors de la cotation de ces solides avec l\'<img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [atelier TechDraw](TechDraw_Workbench/fr.md).
 
@@ -136,4 +136,4 @@ Les objets de référence, [points](PartDesign_Point/fr.md), [lignes](PartDesign
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [TechDraw](Category_TechDraw.md) > [PartDesign](Category_PartDesign.md) > [Part](Category_Part.md) > Topological naming problem/fr
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [TechDraw](Category_TechDraw.md) > [PartDesign](Category_PartDesign.md) > [Part](Category_Part.md) > Topological naming problem/fr

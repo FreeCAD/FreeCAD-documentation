@@ -1,6 +1,6 @@
 # Arch Window/it
 ---
-- GuiCommand:   Name:Arch Window   Name/it:Finestra   Workbenches:[MenuLocation:Arch - Finestra   Shortcut:**W** **I**   SeeAlso:[[Arch Wall/it|Muro](Arch_Workbench/it___Architettura]].md), [Aggiungi componente](Arch_Add/it.md)---
+- GuiCommand:   Name: Arch Window   Name/it: Finestra   Workbenches: [MenuLocation: Arch - Finestra   Shortcut: **W** **I**   SeeAlso: [[Arch Wall/it|Muro](Arch_Workbench/it___Architettura]].md), [Aggiungi componente](Arch_Add/it.md)---
 
 
 
@@ -304,4 +304,4 @@ Door = Arch.makeWindowPreset("Simple door",
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Window/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Window/it

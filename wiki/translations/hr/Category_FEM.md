@@ -10,4 +10,4 @@ This category lists pages related to the [FEM Workbench/hr](FEM_Workbench/hr.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:FEM/hr
+⏵ [documentation index](../README.md) > Category:FEM/hr

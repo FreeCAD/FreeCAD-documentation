@@ -48,4 +48,4 @@ Beide Versionen können unabhängig vom verwendeten Betriebssystem ausgeführt w
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro FCInfo Alternate Linux/de
+⏵ [documentation index](../README.md) > Macro FCInfo Alternate Linux/de

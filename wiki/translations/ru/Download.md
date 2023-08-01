@@ -1,8 +1,4 @@
 # Download/ru
-{{TOCright}}
-
-
-
 ## Текущая стабильная версия 
 
 Релиз FreeCAD версии 0.20.2 (29603) был опубликован 07.12.2022. Чтобы узнать о нововведениях, ознакомьтесь с [примечаниями к выпуску](Release_notes_0.20/ru.md).
@@ -64,4 +60,4 @@ FreeCAD активно развивается.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Download/ru
+⏵ [documentation index](../README.md) > Download/ru

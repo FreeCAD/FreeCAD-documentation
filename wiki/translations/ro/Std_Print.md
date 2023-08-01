@@ -1,6 +1,6 @@
 # Std Print/ro
 ---
-- GuiCommand:   Name:Std Print   Name/ro:Imprimare   MenuLocation:[Workbenches:All   Shortcut:Ctrl+P   SeeAlso:[[Std_PrintPreview/ro|Previzualizare tipărire...](Std_File_Menu/ro___File]]_-_Imprimare....md)---
+- GuiCommand:   Name: Std Print   Name/ro: Imprimare   MenuLocation: [Workbenches: All   Shortcut: Ctrl+P   SeeAlso: [[Std_PrintPreview/ro|Previzualizare tipărire...](Std_File_Menu/ro___File]]_-_Imprimare....md)---
 
 
 </div>
@@ -46,4 +46,4 @@ The **Std Print** command is primarily intended to print [TechDraw Workbench](Te
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Print/ro
+⏵ [documentation index](../README.md) > Std Print/ro

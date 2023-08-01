@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign MoveTip
-   Name/fr:PartDesign Désigner comme fonction résultante
-   MenuLocation:Menu contextuel - Désigner comme fonction résultante
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[PartDesign Déplacer vers un autre corps](PartDesign_MoveFeature/fr.md), [PartDesign Déplacer après un autre objet](PartDesign_MoveFeatureInTree/fr.md)
+   Name: PartDesign MoveTip
+   Name/fr: PartDesign Désigner comme fonction résultante
+   MenuLocation: Menu contextuel - Désigner comme fonction résultante
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Déplacer vers un autre corps](PartDesign_MoveFeature/fr.md), [PartDesign Déplacer après un autre objet](PartDesign_MoveFeatureInTree/fr.md)
 ---
 
 # PartDesign MoveTip/fr
@@ -37,4 +37,4 @@ La fonction résultante se distingue visuellement dans l\'arborescence Modèle p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveTip/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveTip/fr

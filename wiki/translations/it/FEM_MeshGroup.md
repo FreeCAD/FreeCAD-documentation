@@ -1,6 +1,6 @@
 # FEM MeshGroup/it
 ---
-- GuiCommand:   Name:FEM_MeshGroup   Name/it:FEM MeshGroup   MenuLocation: Mesh - FEM Mesh group   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:   Name: FEM_MeshGroup   Name/it: FEM MeshGroup   MenuLocation:  Mesh - FEM Mesh group   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 ## Descrizione
 
@@ -47,4 +47,4 @@ FEM MeshGroup therefore enables FreeCAD to be used with external solvers (or vie
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FEM MeshGroup/it
+⏵ [documentation index](../README.md) > FEM MeshGroup/it

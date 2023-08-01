@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 MoveItemUp
-   Name/fr:Assembly3 Déplacer un objet vers le haut
-   Icon:Assembly_TreeItemUp.svg‎‎
-   MenuLocation:Assembly3 - Move item up
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 MoveItemUp
+   Name/fr: Assembly3 Déplacer un objet vers le haut
+   Icon: Assembly_TreeItemUp.svg‎‎
+   MenuLocation: Assembly3 - Move item up
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 MoveItemUp/fr
@@ -22,4 +22,4 @@ La commande <img alt="" src=images/Assembly_TreeItemUp.svg  style="width:24px;">
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 MoveItemUp/fr
+⏵ [documentation index](../README.md) > Assembly3 MoveItemUp/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:SheetMetal AddCornerRelief
-   Name/de:SheetMetal EckentlastungHinzufügen
-   MenuLocation:SheetMetal - Add Corner Relief
-   Workbenches:[Blech (SheetMetal)](SheetMetal_Workbench/de.md)
-   Shortcut:**C** **R**
+   Name: SheetMetal AddCornerRelief
+   Name/de: SheetMetal EckentlastungHinzufügen
+   MenuLocation: SheetMetal - Add Corner Relief
+   Workbenches: [Blech (SheetMetal)](SheetMetal_Workbench/de.md)
+   Shortcut: **C** **R**
 ---
 
 # SheetMetal AddCornerRelief/de
@@ -114,4 +114,4 @@ Ein SheetMetal-CornerRelief-Objekt wird von einem [Part-Formelement](Part_Featur
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddCornerRelief/de
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddCornerRelief/de

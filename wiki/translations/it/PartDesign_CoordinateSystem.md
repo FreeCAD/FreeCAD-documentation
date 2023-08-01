@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign CoordinateSystem
-   Name/it:Sistema di coordinate locale
-   MenuLocation:PartDesign - Sistema di coordinate locale
-   Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   Version:0.18
-   SeeAlso:[Punto di riferimento](PartDesign_Point/it.md), [Linea di riferimento](PartDesign_Line/it.md), [Piano di riferimento](PartDesign_Plane/it.md)
+   Name: PartDesign CoordinateSystem
+   Name/it: Sistema di coordinate locale
+   MenuLocation: PartDesign - Sistema di coordinate locale
+   Workbenches: [PartDesign](PartDesign_Workbench/it.md)
+   Version: 0.18
+   SeeAlso: [Punto di riferimento](PartDesign_Point/it.md), [Linea di riferimento](PartDesign_Line/it.md), [Piano di riferimento](PartDesign_Plane/it.md)
 ---
 
 # PartDesign CoordinateSystem/it
@@ -82,4 +82,4 @@ lcs = App.activeDocument().addObject( 'PartDesign::CoordinateSystem', 'LCS' )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CoordinateSystem/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CoordinateSystem/it

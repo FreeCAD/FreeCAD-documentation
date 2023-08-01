@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh CurvatureInfo
-   MenuLocation:Meshes - Analyze - Curvature info
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh VertexCurvature](Mesh_VertexCurvature.md)
+   Name: Mesh CurvatureInfo
+   MenuLocation: Meshes - Analyze - Curvature info
+   Workbenches: [Mesh](Mesh_Workbench.md)
+   SeeAlso: [Mesh VertexCurvature](Mesh_VertexCurvature.md)
 ---
 
 # Mesh CurvatureInfo/ru
@@ -36,4 +36,4 @@ The **Mesh CurvatureInfo** command shows the absolute curvature of [curvature ob
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CurvatureInfo/ru
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CurvatureInfo/ru

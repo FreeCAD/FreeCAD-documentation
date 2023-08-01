@@ -1,8 +1,4 @@
 # Draft Snap/de
-{{TOCright}}
-
-
-
 ## Beschreibung
 
 In den Arbeitsbereichen <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/de.md) und <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/de.md) kann Geometrie erstellt werden durch Auswählen von Punkten in der [3D-Ansicht](3D_view/de.md) oder durch Eingabe von Koordinaten im [Aufgaben-Bereichl](Task_panel/de.md) der Befehle. Eine Weitere Möglichkeit Punkte auszuwählen ist durch Einrasten (Fangen). Einrasten erlaubt, exakte geometrische Punkte auf dem Raster auszuwählen, Punkte auf anderen Objekten, die auf dem Raster liegen oder Punkte, die durch diese Objekte festgelegt werden. Es kann z.B. auf dem Endpunkt einer Linie, dem Mittelpunkt eines Kreises oder dem Schnittpunkt zweier Kanten eingerastet werden.
@@ -99,4 +95,4 @@ Man beachte, dass FreeCAD nach dem Ändern einiger Einstellungen einen Neustart 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap/de

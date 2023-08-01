@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft ToggleGrid
-   Name/pl:Rysunek Roboczy: Przełącz widoczność siatki
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut:**G** **R**
-   SeeAlso:[Przyciąganie](Draft_Snap/pl.md), [Przyciągnij do siatki](Draft_Snap_Grid/pl.md), [Wybór płaszczyzny roboczej](Draft_SelectPlane/pl.md)
+   Name: Draft ToggleGrid
+   Name/pl: Rysunek Roboczy: Przełącz widoczność siatki
+   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut: **G** **R**
+   SeeAlso: [Przyciąganie](Draft_Snap/pl.md), [Przyciągnij do siatki](Draft_Snap_Grid/pl.md), [Wybór płaszczyzny roboczej](Draft_SelectPlane/pl.md)
 ---
 
 # Draft ToggleGrid/pl
@@ -33,4 +33,4 @@ Zobacz stronę [Przyciąganie](Draft_Snap/pl#Ustawienia.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleGrid/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleGrid/pl

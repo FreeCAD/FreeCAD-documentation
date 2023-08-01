@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std MergeProjects
-   Name/ro:Fuzionați Proiectul
-   Workbenches:All
-   MenuLocation:File - Fuzionați Proiectul
-   Shortcut:
-   SeeAlso:
+   Name: Std MergeProjects
+   Name/ro: Fuzionați Proiectul
+   Workbenches: All
+   MenuLocation: File - Fuzionați Proiectul
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Std MergeProjects/ro
@@ -79,4 +79,4 @@ FreeCAD.ActiveDocument.mergeProject("Path_to_FCStd_project_file")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MergeProjects/ro
+⏵ [documentation index](../README.md) > Std MergeProjects/ro

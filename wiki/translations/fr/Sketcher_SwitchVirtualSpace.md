@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher SwitchVirtualSpace
-   Name/fr:Sketcher Basculer l'espace virtuel
-   MenuLocation:Esquisse - Espace virtuel de l'esquisse - Basculer vers/de l'espace virtuel
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Version:0.17
+   Name: Sketcher SwitchVirtualSpace
+   Name/fr: Sketcher Basculer l'espace virtuel
+   MenuLocation: Esquisse - Espace virtuel de l'esquisse - Basculer vers/de l'espace virtuel
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Version: 0.17
 ---
 
 # Sketcher SwitchVirtualSpace/fr
@@ -43,4 +43,4 @@ si vous décidez de définir des contraintes sur le deuxième espace virtuel, ne
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SwitchVirtualSpace/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SwitchVirtualSpace/fr

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign InvoluteGear
-   Name/fr:PartDesign Engrenage à développante
-   Icon:PartDesign_InternalExternalGear.svg
-   MenuLocation:Part Design - Engrenage à développante...
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso:[Atelier FCGear](FCGear_Workbench/fr.md)
+   Name: PartDesign InvoluteGear
+   Name/fr: PartDesign Engrenage à développante
+   Icon: PartDesign_InternalExternalGear.svg
+   MenuLocation: Part Design - Engrenage à développante...
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso: [Atelier FCGear](FCGear_Workbench/fr.md)
 ---
 
 # PartDesign InvoluteGear/fr
@@ -186,4 +186,4 @@ Vidéo : [How to make gears in FreeCAD](https://www.youtube.com/watch?v=8VNhTrnF
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/fr

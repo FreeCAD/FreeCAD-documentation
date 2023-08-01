@@ -100,4 +100,4 @@ if circular:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro EdgesToArc
+⏵ [documentation index](../README.md) > Macro EdgesToArc

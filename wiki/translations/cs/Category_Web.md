@@ -10,4 +10,4 @@ This category lists pages that relate to the [Web Workbench/cs](Web_Workbench/cs
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Web/cs
+⏵ [documentation index](../README.md) > Category:Web/cs

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft PathArray
-   Name/es:Draft PathArray
-   MenuLocation:Draft - PathArray
-   Workbenches:[Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
-   SeeAlso:[Draft Array](Draft_Array/es.md)
+   Name: Draft PathArray
+   Name/es: Draft PathArray
+   MenuLocation: Draft - PathArray
+   Workbenches: [Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
+   SeeAlso: [Draft Array](Draft_Array/es.md)
 ---
 
 # Draft PathArray/es
@@ -290,4 +290,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathArray/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathArray/es

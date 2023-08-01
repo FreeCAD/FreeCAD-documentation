@@ -1,6 +1,6 @@
 # Part RefineShape/sv
 ---
-- GuiCommand:   Name:Part RefineShape   Name/sv:Part RefineShape   MenuLocation:Part - Refine Shape   Workbenches:[OpenSCAD](Part_Workbench/sv___Part]],_[[OpenSCAD_Workbench/sv.md)|SeeAlso:---
+- GuiCommand:   Name: Part RefineShape   Name/sv: Part RefineShape   MenuLocation: Part - Refine Shape   Workbenches: [OpenSCAD](Part_Workbench/sv___Part]],_[[OpenSCAD_Workbench/sv.md)|SeeAlso: ---
 
 
 </div>
@@ -64,4 +64,4 @@ shape.removeSplitter()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RefineShape/sv
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RefineShape/sv

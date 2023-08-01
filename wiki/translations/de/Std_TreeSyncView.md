@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreeSyncView
-   Name/de:Std BaumSyncAnsicht
-   MenuLocation:Ansicht - BaumAnsicht-Aktionen - Sync-Ansicht
-   Workbenches:All
-   Shortcut:**T** **1**
-   Version:0.19
+   Name: Std TreeSyncView
+   Name/de: Std BaumSyncAnsicht
+   MenuLocation: Ansicht - BaumAnsicht-Aktionen - Sync-Ansicht
+   Workbenches: All
+   Shortcut: **T** **1**
+   Version: 0.19
 ---
 
 # Std TreeSyncView/de
@@ -42,4 +42,4 @@ Der Befehl **Std BaumSyncAnsicht** schaltet den SyncView-Modus der [Baumansicht]
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSyncView/de
+⏵ [documentation index](../README.md) > Std TreeSyncView/de

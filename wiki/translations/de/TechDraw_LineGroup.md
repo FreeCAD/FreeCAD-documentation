@@ -1,8 +1,4 @@
 # TechDraw LineGroup/de
-{{TOCright}}
-
-
-
 ## Beschreibung
 
 Liniengruppen werden verwendet, um die Darstellung verschiedener Linienarten zu steuern.
@@ -88,4 +84,4 @@ Hinweis: Eine neue Einstellung wurde hinzugefügt, die es erlaubt, eine eigene p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LineGroup/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LineGroup/de

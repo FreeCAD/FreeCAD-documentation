@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher External
-   Name/cs:Sketcher External
-   MenuLocation:Sketch - Sketcher geometries - Sketcher External
-   Workbenches:[Sketcher](Sketcher_Workbench/cs.md)
-   Shortcut:X
-   SeeAlso:[Sketcher ConstructionMode](Sketcher_ToggleConstruction/cs.md)
+   Name: Sketcher External
+   Name/cs: Sketcher External
+   MenuLocation: Sketch - Sketcher geometries - Sketcher External
+   Workbenches: [Sketcher](Sketcher_Workbench/cs.md)
+   Shortcut: X
+   SeeAlso: [Sketcher ConstructionMode](Sketcher_ToggleConstruction/cs.md)
 ---
 
 # Sketcher External/cs
@@ -161,4 +161,4 @@ Při uzavření skicáře nejsou přetažené konstrukce viditelné.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/cs
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/cs

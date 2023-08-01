@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign Plane
-   Name/ro:PartDesign Plane
-   Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation:PartDesign - Create a datum plane
-   Version:0.17
-   SeeAlso:[[PartDesign Point/ro]], [[PartDesign Line/ro]]
+   Name: PartDesign Plane
+   Name/ro: PartDesign Plane
+   Workbenches: [PartDesign](PartDesign_Workbench/ro.md)
+   MenuLocation: PartDesign - Create a datum plane
+   Version: 0.17
+   SeeAlso: [[PartDesign Point/ro]], [[PartDesign Line/ro]]
 ---
 
 # PartDesign Plane/ro
@@ -94,4 +94,4 @@ Faceți dublu clic pe eticheta DatumPlane din arborescența Model sau faceți cl
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/ro

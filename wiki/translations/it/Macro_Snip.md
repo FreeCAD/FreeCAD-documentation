@@ -363,4 +363,4 @@ The forum discussion [Snip macro](https://forum.freecadweb.org/viewtopic.php?f=9
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Snip/it
+⏵ [documentation index](../README.md) > Macro Snip/it

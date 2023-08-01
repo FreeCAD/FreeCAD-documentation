@@ -1,9 +1,4 @@
 # Property editor/tr
-{{TOCright}}
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 ## Genel Bakış 
@@ -32,7 +27,7 @@ Bazı özellikler değiştirilemez. Özel duruma bağlı olarak, bazı özellikl
 </div>
 
 
-{{TOCright}}
+
 
 ![](images/FreeCAD_Property_editor_empty.png )
 
@@ -323,4 +318,4 @@ print(obj.ViewObject.PropertiesList)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Property editor/tr
+⏵ [documentation index](../README.md) > Property editor/tr

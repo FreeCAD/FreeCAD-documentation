@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Std SceneInspector
-   MenuLocation:Tools - Scene inspector...
-   Workbenches:All
+   Name: Std SceneInspector
+   MenuLocation: Tools - Scene inspector...
+   Workbenches: All
 ---
 
 # Std SceneInspector/ru
@@ -40,4 +40,4 @@ The **Std SceneInspector** command opens a dialog box displaying an overview of 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SceneInspector/ru
+⏵ [documentation index](../README.md) > Std SceneInspector/ru

@@ -1,6 +1,4 @@
 # Screenshots/pt-br
-{{TOCright}}
-
 Aqui estão algumas captures de tela mostrando diferentes partes do FreeCAD. Elas não estão ordenadas por uma linha de tempo em particular e podem apresentar uma aparência diferente da versão mais atual do FreeCAD. Veja mais capturas de tela enviadas por usuários do FreeCAD no [screenshot forum thread](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) e no [\"Mostre seu projeto aqui!\" Users Showcase forum part](http://forum.freecadweb.org/viewforum.php?f=24).
 
 ### Na versão 0.17 
@@ -200,4 +198,4 @@ A caixa de diálogo para salvar uma imagem com dimensões personalizadas.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Screenshots/pt-br
+⏵ [documentation index](../README.md) > Screenshots/pt-br

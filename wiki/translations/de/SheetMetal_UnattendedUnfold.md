@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:SheetMetal UnattendedUnfold
-   Name/de:SheetMetal AbwickelnOhneEingabe
-   MenuLocation:SheetMetal - Unattended Unfold
-   Workbenches:[Blech (SheetMetal)](SheetMetal_Workbench/de.md)
-   Shortcut:**U**
+   Name: SheetMetal UnattendedUnfold
+   Name/de: SheetMetal AbwickelnOhneEingabe
+   MenuLocation: SheetMetal - Unattended Unfold
+   Workbenches: [Blech (SheetMetal)](SheetMetal_Workbench/de.md)
+   Shortcut: **U**
 |[SheetMetal Abwickeln](SheetMetal_Unfold/de.md)
 ---
 
@@ -48,4 +48,4 @@ Siehe <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Abwick
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal UnattendedUnfold/de
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal UnattendedUnfold/de

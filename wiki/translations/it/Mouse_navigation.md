@@ -5,7 +5,7 @@
 }}
 
 
-{{TOCright}}
+
 
 ## Panoramica
 
@@ -281,4 +281,4 @@ Il tutorial [Aggiunta di una nuova opzione di navigazione del mouse a FreeCAD](A
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Mouse navigation/it
+⏵ [documentation index](../README.md) > Mouse navigation/it

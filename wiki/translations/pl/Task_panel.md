@@ -1,6 +1,4 @@
 # Task panel/pl
-{{TOCright}}
-
 ## Wprowadzenie
 
 **Panel zadań** pojawia się w zakładce **Zadania** okienka [widoku łączonego](Combo_view/pl.md), jednego z najważniejszych paneli [interfejsu użytkownika](Interface/pl.md). Jest to konfigurowalna przestrzeń, która może zawierać dowolny typ graficznego widżetu, jak składane okienka, tabele, pola wejściowe, pola wyboru, pola tekstowe, przyciski, etykiety, obrazy i inne elementy, w zależności od aktualnie aktywnego [Środowiska pracy](Workbenches/pl.md), oraz aktualnie aktywnego narzędzia.
@@ -45,4 +43,4 @@ Istnieje wiele poleceń wymagających wyboru kształtów lub obiektów obecnych 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Task panel/pl
+⏵ [documentation index](../README.md) > Task panel/pl

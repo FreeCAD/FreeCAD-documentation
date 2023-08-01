@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Ship CreateShip
-   Name/fr:Ship Coque
-   MenuLocation:Ship design - Create a new ship
-   Workbenches:[Ship](Ship_Workbench.md)|
-   Shortcut:
-   SeeAlso:
+   Name: Ship CreateShip
+   Name/fr: Ship Coque
+   MenuLocation: Ship design - Create a new ship
+   Workbenches: [Ship](Ship_Workbench.md)|
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Ship CreateShip/fr
@@ -59,4 +59,4 @@ Lorsque vous appuyez sur le bouton **Accept**, une nouvelle instance de bateau n
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship CreateShip/fr
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship CreateShip/fr

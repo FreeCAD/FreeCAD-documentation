@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher BSplineDegree
-   Name/it:Grado della B-spline
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch - Sketcher B-spline tools - Mostra/Nascondi il grado della B-spline
-   Version:0.17
+   Name: Sketcher BSplineDegree
+   Name/it: Grado della B-spline
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation: Sketch - Sketcher B-spline tools - Mostra/Nascondi il grado della B-spline
+   Version: 0.17
 SeeAlso=[Crea B-spline](Sketcher_CompCreateBSpline/it.md)
 ---
 
@@ -57,4 +57,4 @@ Mostra o nasconde la visualizzazione del **grado** di una B-spline (vedere: [B-s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDegree/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDegree/it

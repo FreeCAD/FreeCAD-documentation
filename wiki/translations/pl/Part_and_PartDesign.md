@@ -1,8 +1,4 @@
 # Part and PartDesign/pl
-{{TOCright}}
-
-
-
 ## Informacje ogólne 
 
 Przez lata było wiele dyskusji o różnicach i konsekwencjach używania środowisk pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md) i <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md).
@@ -189,4 +185,4 @@ Porównaj drzewa konstrukcji w obu środowiskach pracy, jak również ich organi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign/pl
+⏵ [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign/pl

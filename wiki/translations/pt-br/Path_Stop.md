@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Path Stop
-   MenuLocation:Path - Supplemental Commands - Stop
-   Workbenches:[Path](Path_Workbench.md)
+   Name: Path Stop
+   MenuLocation: Path - Supplemental Commands - Stop
+   Workbenches: [Path](Path_Workbench.md)
 ---
 
 # Path Stop/pt-br
@@ -32,4 +32,4 @@ The tool <img alt="" src=images/Path_Stop.svg  style="width:24px;"> [Stop](Path_
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Stop/pt-br
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Stop/pt-br

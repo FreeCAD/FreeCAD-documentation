@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ViewLoadImage
-   Name/it:Carica immagine
-   MenuLocation:Strumenti - Carica immagine...
-   Workbenches:Tutti
-   Version/it:0.21
+   Name: Std ViewLoadImage
+   Name/it: Carica immagine
+   MenuLocation: Strumenti - Carica immagine...
+   Workbenches: Tutti
+   Version/it: 0.21
 ---
 
 # Std ViewLoadImage/it
@@ -45,4 +45,4 @@ Il comando **Carica immagine** apre un\'immagine in una nuova scheda nella [Area
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewLoadImage/it
+⏵ [documentation index](../README.md) > Std ViewLoadImage/it

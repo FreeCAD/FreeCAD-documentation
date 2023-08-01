@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Robot Export
-   Name/fr:Robot Exportation de trajectoire
-   MenuLocation:Robot - Exporter la trajectoire
-   Workbenches:[Robot](Robot_Workbench/fr.md)
+   Name: Robot Export
+   Name/fr: Robot Exportation de trajectoire
+   MenuLocation: Robot - Exporter la trajectoire
+   Workbenches: [Robot](Robot_Workbench/fr.md)
 ---
 
 # Robot Export/fr
@@ -34,4 +34,4 @@ Résultat : un fichier KRL (\*.src) sera créé.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Export/fr
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Export/fr

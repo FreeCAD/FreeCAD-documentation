@@ -1,7 +1,7 @@
 # <img alt="Ikonka FreeCAD dla środowiska pracy Przebudowa Siatki" src=images/MeshRemodel_workbench_icon.svg  style="width:64px;"> MeshRemodel Workbench/pl
 
 
-{{TOCright}}
+
 
 ## Informacje ogólne 
 
@@ -19,4 +19,4 @@ To środowisko pracy może być zainstalowane z <img alt="" src=images/Std_Addon
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > MeshRemodel Workbench/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > MeshRemodel Workbench/pl

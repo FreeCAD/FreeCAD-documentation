@@ -42,4 +42,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro ForceRecompute/pl
+⏵ [documentation index](../README.md) > Macro ForceRecompute/pl

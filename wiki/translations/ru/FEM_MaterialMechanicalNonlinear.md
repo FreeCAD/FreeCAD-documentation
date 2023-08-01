@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM MaterialMechanicalNonlinear
-   Name/ru:FEM Нелинейный механический материал
-   MenuLocation: Model - Materials - Нелинейный механический материал
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM MaterialMechanicalNonlinear
+   Name/ru: FEM Нелинейный механический материал
+   MenuLocation:  Model - Materials - Нелинейный механический материал
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM MaterialMechanicalNonlinear/ru
@@ -38,4 +38,4 @@ Adds nonlinear mechanical material model. Currently only plasticity with simple 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialMechanicalNonlinear/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialMechanicalNonlinear/ru

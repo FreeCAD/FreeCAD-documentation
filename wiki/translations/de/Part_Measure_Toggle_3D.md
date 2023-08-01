@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Measure Toggle 3D
-   Name/de:Part Messung 3DUmschalten
-   MenuLocation:Messen - 3D umschalten
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Messung AlleUmschalten](Part_Measure_Toggle_All/de.md), [Part Messung DeltaUmschalten](Part_Measure_Toggle_Delta/de.md)
+   Name: Part Measure Toggle 3D
+   Name/de: Part Messung 3DUmschalten
+   MenuLocation: Messen - 3D umschalten
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: [Part Messung AlleUmschalten](Part_Measure_Toggle_All/de.md), [Part Messung DeltaUmschalten](Part_Measure_Toggle_Delta/de.md)
 ---
 
 # Part Measure Toggle 3D/de
@@ -26,4 +26,4 @@ Dieser Befehl schaltet die Sichtbarkeit von Längen- und Winkelmessungen in der 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle 3D/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle 3D/de

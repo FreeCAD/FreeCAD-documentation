@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM EquationFlux
-   MenuLocation: Solve - Equation fluxsolver
-   Workbenches:[FEM](FEM_Workbench.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial.md)
+   Name: FEM EquationFlux
+   MenuLocation:  Solve - Equation fluxsolver
+   Workbenches: [FEM](FEM_Workbench.md)
+   Shortcut: 
+   SeeAlso: [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM EquationFlux/ro
@@ -79,4 +79,4 @@ The resulting flux is either the heat flux $\rm W/m^2$ (misleadingly named \"tem
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationFlux/ro
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationFlux/ro

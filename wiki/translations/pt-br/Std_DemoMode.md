@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Std DemoMode
-   MenuLocation:Tools - View turntable...
-   Workbenches:All
+   Name: Std DemoMode
+   MenuLocation: Tools - View turntable...
+   Workbenches: All
 ---
 
 # Std DemoMode/pt-br
@@ -43,4 +43,4 @@ The **Std DemoMode** command will continuously rotate the camera in a [3D view](
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DemoMode/pt-br
+⏵ [documentation index](../README.md) > Std DemoMode/pt-br

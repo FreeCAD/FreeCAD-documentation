@@ -1,6 +1,4 @@
 # Copying Objects/it
-{{TOCright}}
-
 ## Overview
 
 
@@ -64,4 +62,4 @@ Come per la maggior parte delle operazioni, anche per fare le copie, in FreeCAD 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Copying Objects/it
+⏵ [documentation index](../README.md) > Copying Objects/it

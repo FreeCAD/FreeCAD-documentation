@@ -118,4 +118,4 @@ Voir aussi :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Customize Toolbars/fr
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Customize Toolbars/fr

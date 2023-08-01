@@ -1,6 +1,4 @@
 # FEM Mesh/it
-{{TOCright}}
-
 ## Create a finite element mesh 
 
 
@@ -1402,4 +1400,4 @@ Vedere per esempio <https://forum.freecadweb.org/viewtopic.php?f=18&t=37304&star
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Mesh/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Mesh/it

@@ -1,8 +1,4 @@
 # Interface creation/ru
-{{TOCright}}
-
-
-
 ## Введение
 
 Power users have the possibility of [creating interfaces](Interface_creation.md) to help them produce complex tools for their custom [addons](Addon.md), such as [macros](Macros.md) or full [workbenches](Workbenches.md).
@@ -47,4 +43,4 @@ In this method the entire interface is defined by several Python calls.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Interface creation/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Interface creation/ru

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Разделить ребро
-   Name:Sketcher_Split
-   MenuLocation:Sketch - Геометрия эскиза - Разделить ребро
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.20
-   SeeAlso:[Обрезать кривую](Sketcher_Trimming/ru.md)
+   Name/ru: Разделить ребро
+   Name: Sketcher_Split
+   MenuLocation: Sketch - Геометрия эскиза - Разделить ребро
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Version: 0.20
+   SeeAlso: [Обрезать кривую](Sketcher_Trimming/ru.md)
 ---
 
 # Sketcher Split/ru
@@ -81,4 +81,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Split/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Split/ru

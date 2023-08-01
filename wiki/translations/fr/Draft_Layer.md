@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Layer
-   Name/fr:Draft Calque
-   MenuLocation:Utilitaires - Calque
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[Draft Groupement automatique](Draft_AutoGroup/fr.md), [Gestionnaire de calques](Draft_LayerManager/fr.md)
+   Name: Draft Layer
+   Name/fr: Draft Calque
+   MenuLocation: Utilitaires - Calque
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Version: 0.19
+   SeeAlso: [Draft Groupement automatique](Draft_AutoGroup/fr.md), [Gestionnaire de calques](Draft_LayerManager/fr.md)
 ---
 
 # Draft Layer/fr
@@ -146,4 +146,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Layer/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Layer/fr

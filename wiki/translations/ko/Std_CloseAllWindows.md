@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std CloseAllWindows
-   Name/ko:표준 모든 창 닫기
-   MenuLocation:파일 - 모두 닫기
-   Workbenches:모두
-   SeeAlso:[표준 활성 창 닫기](Std_CloseActiveWindow.md)
+   Name: Std CloseAllWindows
+   Name/ko: 표준 모든 창 닫기
+   MenuLocation: 파일 - 모두 닫기
+   Workbenches: 모두
+   SeeAlso: [표준 활성 창 닫기](Std_CloseActiveWindow.md)
 ---
 
 # Std CloseAllWindows/ko
@@ -53,4 +53,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std CloseAllWindows/ko
+⏵ [documentation index](../README.md) > Std CloseAllWindows/ko

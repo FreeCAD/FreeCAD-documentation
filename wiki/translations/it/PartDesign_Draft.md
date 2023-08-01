@@ -1,6 +1,6 @@
 # PartDesign Draft/it
 ---
-- GuiCommand:   Name:PartDesign_Draft   Name/it:Sformo   MenuLocation:PartDesign - Sformo   Workbenches:[PartDesign](PartDesign_Workbench/it.md)---
+- GuiCommand:   Name: PartDesign_Draft   Name/it: Sformo   MenuLocation: PartDesign - Sformo   Workbenches: [PartDesign](PartDesign_Workbench/it.md)---
 
 
 </div>
@@ -163,4 +163,4 @@ A PartDesign Draft object is derived from a [Part Feature](Part_Feature.md) obje
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft/it

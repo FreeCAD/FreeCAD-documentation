@@ -305,4 +305,4 @@ Happy Attaching!
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Basic Attachment Tutorial/it
+⏵ [documentation index](../README.md) > Basic Attachment Tutorial/it

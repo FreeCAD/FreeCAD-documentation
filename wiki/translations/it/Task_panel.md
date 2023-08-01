@@ -1,6 +1,4 @@
 # Task panel/it
-{{TOCright}}
-
 ## Introduzione
 
 
@@ -87,4 +85,4 @@ In particolare, il passaggio dalla scheda **Azioni** alla scheda **Modello** non
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Task panel/it
+⏵ [documentation index](../README.md) > Task panel/it

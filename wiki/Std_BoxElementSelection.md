@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std BoxElementSelection
-   MenuLocation:Edit - Box element selection
-   Workbenches:All
-   Shortcut:**Shift**+**E**
-   SeeAlso:[Std BoxSelection](Std_BoxSelection.md), [Std SelectAll](Std_SelectAll.md)
+   Name: Std BoxElementSelection
+   MenuLocation: Edit - Box element selection
+   Workbenches: All
+   Shortcut: **Shift**+**E**
+   SeeAlso: [Std BoxSelection](Std_BoxSelection.md), [Std SelectAll](Std_SelectAll.md)
 ---
 
 # Std BoxElementSelection
@@ -34,4 +34,4 @@ The **Std BoxElementSelection** command selects faces from a user defined rectan
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std BoxElementSelection
+⏵ [documentation index](../README.md) > Std BoxElementSelection

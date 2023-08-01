@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path Deburr
-   Name/fr:Path Ébavurage
-   MenuLocation:Path - Ébavurer
-   Workbenches:[Path](Path_Workbench/fr.md)
-   Version:0.18
+   Name: Path Deburr
+   Name/fr: Path Ébavurage
+   MenuLocation: Path - Ébavurer
+   Workbenches: [Path](Path_Workbench/fr.md)
+   Version: 0.18
 ---
 
 # Path Deburr/fr
@@ -123,4 +123,4 @@ La dernière étape consiste à activer la section **Opération** où vous pouve
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Deburr/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Deburr/fr

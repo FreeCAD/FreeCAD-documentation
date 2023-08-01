@@ -19,4 +19,4 @@ Diese Seite gibt einen allgemeinen Überblick darüber, wie die verschiedenen We
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [BIM](Category_BIM.md) > BIM application compatibility table/de
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > BIM application compatibility table/de

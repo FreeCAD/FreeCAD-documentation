@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveWedge
-   Name/fr:PartDesign Pyramide tronquée additive
-   MenuLocation:Part Design - Créer une primitive additive - Pyramide tronquée additive
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[PartDesign Primitives additives](PartDesign_CompPrimitiveAdditive/fr.md), [PartDesign Pyramide tronquée soustractive](PartDesign_SubtractiveWedge/fr.md)
+   Name: PartDesign AdditiveWedge
+   Name/fr: PartDesign Pyramide tronquée additive
+   MenuLocation: Part Design - Créer une primitive additive - Pyramide tronquée additive
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Primitives additives](PartDesign_CompPrimitiveAdditive/fr.md), [PartDesign Pyramide tronquée soustractive](PartDesign_SubtractiveWedge/fr.md)
 ---
 
 # PartDesign AdditiveWedge/fr
@@ -59,4 +59,4 @@ Les Pyramides tronquées peuvent être utilisées pour créer des pyramides en f
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveWedge/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveWedge/fr

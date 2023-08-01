@@ -218,4 +218,4 @@ La griglia resta permanante.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Mouse Cross/it
+⏵ [documentation index](../README.md) > Macro Mouse Cross/it

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Ограничение эквивалентностью
-   Name:Sketcher_ConstrainEqual
-   MenuLocation:Sketch - Ограничения эскиза - Ограничение эквивалентностью
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:E
-   SeeAlso:[Ограничить радиус или вес](Sketcher_ConstrainRadius/ru.md)
+   Name/ru: Ограничение эквивалентностью
+   Name: Sketcher_ConstrainEqual
+   MenuLocation: Sketch - Ограничения эскиза - Ограничение эквивалентностью
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: E
+   SeeAlso: [Ограничить радиус или вес](Sketcher_ConstrainRadius/ru.md)
 ---
 
 # Sketcher ConstrainEqual/ru
@@ -73,4 +73,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainEqual/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainEqual/ru

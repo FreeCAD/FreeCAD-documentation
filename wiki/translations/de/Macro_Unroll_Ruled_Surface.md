@@ -803,4 +803,4 @@ Werkzeugleistensymbol ![](images/Macro_Unroll_Ruled_Surface.png )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Unroll Ruled Surface/de
+⏵ [documentation index](../README.md) > Macro Unroll Ruled Surface/de

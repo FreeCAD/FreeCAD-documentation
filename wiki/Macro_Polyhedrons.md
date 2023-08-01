@@ -871,4 +871,4 @@ mainaction = polyhedron_dialog()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Polyhedrons
+⏵ [documentation index](../README.md) > Macro Polyhedrons

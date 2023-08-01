@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw Dimension Radius
-   Name/it:Raggio
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   MenuLocation:TechDraw - Raggio
-   Shortcut:
-   SeeAlso:[Diametro](TechDraw_DiameterDimension/it.md)
+   Name: TechDraw Dimension Radius
+   Name/it: Raggio
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   MenuLocation: TechDraw - Raggio
+   Shortcut: 
+   SeeAlso: [Diametro](TechDraw_DiameterDimension/it.md)
 ---
 
 # TechDraw RadiusDimension/it
@@ -121,4 +121,4 @@ rc = page.addView(dim1)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RadiusDimension/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RadiusDimension/it

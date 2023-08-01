@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Thickness
-   Name/de:Part Dicke
-   MenuLocation:Formteil - Dicke...
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Versatz](Part_Offset/de.md)
+   Name: Part Thickness
+   Name/de: Part Dicke
+   MenuLocation: Formteil - Dicke...
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: [Part Versatz](Part_Offset/de.md)
 ---
 
 # Part Thickness/de
@@ -94,4 +94,4 @@ Notes:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Thickness/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Thickness/de

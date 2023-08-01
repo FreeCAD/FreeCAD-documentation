@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft ToggleGrid
-   Name/de:Draft RasterUmschalten
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Shortcut:**G** **R**
-   SeeAlso:[Draft Einrasten](Draft_Snap/de.md), [Draft EinrastenAufRaster](Draft_Snap_Grid/de.md), [Draft EbeneAuswählen](Draft_SelectPlane/de.md)
+   Name: Draft ToggleGrid
+   Name/de: Draft RasterUmschalten
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut: **G** **R**
+   SeeAlso: [Draft Einrasten](Draft_Snap/de.md), [Draft EinrastenAufRaster](Draft_Snap_Grid/de.md), [Draft EbeneAuswählen](Draft_SelectPlane/de.md)
 ---
 
 # Draft ToggleGrid/de
@@ -39,4 +39,4 @@ Siehe [Draft-Einrasten](Draft_Snap/de#Einstellungen.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleGrid/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleGrid/de

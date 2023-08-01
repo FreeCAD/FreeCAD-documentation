@@ -8,7 +8,7 @@
 </div>
 
 
-{{TOCright}}
+
 
 
 
@@ -443,4 +443,4 @@ FreeCADGui.setLocale('ru')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Wiki](Category_Wiki.md) > Localisation/tr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Wiki](Category_Wiki.md) > Localisation/tr

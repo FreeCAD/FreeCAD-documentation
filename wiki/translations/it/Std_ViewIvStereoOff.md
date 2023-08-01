@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ViewIvStereoOff
-   Name/it:Stereo off
-   MenuLocation:Visualizza - Stereo - Stereo off
-   Workbenches:Tutti
-   SeeAlso:[Stereo rosso/ciano](Std_ViewIvStereoRedGreen/it.md), [Stereo quad buffer](Std_ViewIvStereoQuadBuff/it.md),  [Stereo a righe interlacciate](Std_ViewIvStereoInterleavedRows/it.md), [Stereo a colonne interlacciate](Std_ViewIvStereoInterleavedColumns/it.md)
+   Name: Std ViewIvStereoOff
+   Name/it: Stereo off
+   MenuLocation: Visualizza - Stereo - Stereo off
+   Workbenches: Tutti
+   SeeAlso: [Stereo rosso/ciano](Std_ViewIvStereoRedGreen/it.md), [Stereo quad buffer](Std_ViewIvStereoQuadBuff/it.md),  [Stereo a righe interlacciate](Std_ViewIvStereoInterleavedRows/it.md), [Stereo a colonne interlacciate](Std_ViewIvStereoInterleavedColumns/it.md)
 ---
 
 # Std ViewIvStereoOff/it
@@ -51,4 +51,4 @@ FreeCADGui.ActiveDocument.ActiveView.getStereoType()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewIvStereoOff/it
+⏵ [documentation index](../README.md) > Std ViewIvStereoOff/it

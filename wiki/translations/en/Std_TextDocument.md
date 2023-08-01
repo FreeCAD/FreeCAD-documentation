@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std TextDocument
-   MenuLocation:Tools - Add text document
-   Workbenches:All
-   Version:0.19
-   SeeAlso:[Draft ShapeString](Draft_ShapeString.md), [Draft Text](Draft_Text.md)
+   Name: Std TextDocument
+   MenuLocation: Tools - Add text document
+   Workbenches: All
+   Version: 0.19
+   SeeAlso: [Draft ShapeString](Draft_ShapeString.md), [Draft Text](Draft_Text.md)
 ---
 
 # Std TextDocument/en
@@ -71,4 +71,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TextDocument/en
+⏵ [documentation index](../README.md) > Std TextDocument/en

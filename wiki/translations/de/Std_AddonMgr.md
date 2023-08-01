@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std AddonMgr
-   Name/de:Std AddonManager
-   MenuLocation:Werkzeuge - Addon-Manager
-   Workbenches:Alle
-   Version:0.17
-   SeeAlso:[Externe Arbeitsbereiche](External_workbenches/de.md), [Makros](Macros/de.md)
+   Name: Std AddonMgr
+   Name/de: Std AddonManager
+   MenuLocation: Werkzeuge - Addon-Manager
+   Workbenches: Alle
+   Version: 0.17
+   SeeAlso: [Externe Arbeitsbereiche](External_workbenches/de.md), [Makros](Macros/de.md)
 ---
 
 # Std AddonMgr/de
@@ -147,4 +147,4 @@ Then define the functions {{Incode|installation_succeeded}} and {{Incode|install
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std AddonMgr/de
+⏵ [documentation index](../README.md) > Std AddonMgr/de

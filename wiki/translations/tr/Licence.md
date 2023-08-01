@@ -1,6 +1,4 @@
 # Licence/tr
-{{TOCright}}
-
 ## Licences used in FreeCAD 
 
 FreeCAD uses two different licenses, one for the application itself, and one for the documentation:
@@ -51,4 +49,4 @@ Nevertheless this decision is made only for the core system of FreeCAD. Every wr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/tr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/tr

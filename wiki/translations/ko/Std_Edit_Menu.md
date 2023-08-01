@@ -1,7 +1,7 @@
 # <img alt="표준 기반 아이콘" src=images/Freecad.svg  style="width:64px;"> Std Edit Menu/ko
 
 
-{{TOCright}}
+
 
 
 
@@ -95,4 +95,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Edit Menu/ko
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Edit Menu/ko

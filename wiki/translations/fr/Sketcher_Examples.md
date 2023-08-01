@@ -1,6 +1,4 @@
 # Sketcher Examples/fr
-{{TOCright}}
-
 ## Introduction
 
 Je pense que l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [atelier Sketcher](Sketcher_Workbench/fr.md) a besoin de quelques exemples qui ne sont pas des tutoriels détaillés ou des vidéos\...
@@ -222,4 +220,4 @@ Le résultat devrait être un seul clip solide, qui peut être fermé et ouvert 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Examples/fr
+⏵ [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Examples/fr

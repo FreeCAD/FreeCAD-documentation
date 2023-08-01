@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign MoveFeatureInTree
-   Name/de:PartDesign FormelementImBaumVerschieben
-   MenuLocation:Kontextmenü - Objekt hinter ein anderes Objekt verschieben
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   Version:0.17
-   SeeAlso:[PartDesign ArbeitspositionFestlegen](PartDesign_MoveTip/de.md), [PartDesign FormelementVerschieben](PartDesign_MoveFeature/de.md)
+   Name: PartDesign MoveFeatureInTree
+   Name/de: PartDesign FormelementImBaumVerschieben
+   MenuLocation: Kontextmenü - Objekt hinter ein anderes Objekt verschieben
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   Version: 0.17
+   SeeAlso: [PartDesign ArbeitspositionFestlegen](PartDesign_MoveTip/de.md), [PartDesign FormelementVerschieben](PartDesign_MoveFeature/de.md)
 ---
 
 # PartDesign MoveFeatureInTree/de
@@ -42,4 +42,4 @@ Die folgenden drei Bilder zeigen dasselbe Modell mit einer Tasche, die auf einer
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeatureInTree/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeatureInTree/de

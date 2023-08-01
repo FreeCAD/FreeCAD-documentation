@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw SectionView
-   Name/fr:TechDraw Vue en coupe
-   MenuLocation:TechDraw - Vues de Techdraw - Insérer une vue en coupe
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Vue en coupe complexe](TechDraw_ComplexSection/fr.md), [TechDraw Vue](TechDraw_View/fr.md), [TechDraw Groupe de projection](TechDraw_ProjectionGroup/fr.md)
+   Name: TechDraw SectionView
+   Name/fr: TechDraw Vue en coupe
+   MenuLocation: TechDraw - Vues de Techdraw - Insérer une vue en coupe
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   SeeAlso: [TechDraw Vue en coupe complexe](TechDraw_ComplexSection/fr.md), [TechDraw Vue](TechDraw_View/fr.md), [TechDraw Groupe de projection](TechDraw_ProjectionGroup/fr.md)
 ---
 
 # TechDraw SectionView/fr
@@ -190,4 +190,4 @@ Pour plus d\'informations sur les coupes et certains cas d\'utilisation, consult
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SectionView/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SectionView/fr

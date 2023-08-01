@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Constraint SnellsLaw
-   Name/ru:Constraint SnellsLaw
-   MenuLocation:Sketch - Ограничения эскиза - Ограничение преломления (закон Снеллиуса)
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
+   Name: Constraint SnellsLaw
+   Name/ru: Constraint SnellsLaw
+   MenuLocation: Sketch - Ограничения эскиза - Ограничение преломления (закон Снеллиуса)
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
 ---
 
 # Sketcher ConstrainSnellsLaw/ru
@@ -112,4 +112,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSnellsLaw/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSnellsLaw/ru

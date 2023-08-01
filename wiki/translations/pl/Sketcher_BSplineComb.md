@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher BSplineComb
-   Name:Szkicownik: Pokaż / ukryj grzebień krzywizny krzywej złożonej
-   MenuLocation:Szkic - Narzędzia szkicownika krzywej złożonej - Grzebień krzywizny krzywej złożonej
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Komponent utwórz krzywą złożoną](Sketcher_CompCreateBSpline/pl.md)
+   Name: Sketcher BSplineComb
+   Name: Szkicownik: Pokaż / ukryj grzebień krzywizny krzywej złożonej
+   MenuLocation: Szkic - Narzędzia szkicownika krzywej złożonej - Grzebień krzywizny krzywej złożonej
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Komponent utwórz krzywą złożoną](Sketcher_CompCreateBSpline/pl.md)
 ---
 
 # Sketcher BSplineComb/pl
@@ -39,4 +39,4 @@ Grzebień krzywizny wskazuje krzywiznę (wartość pochodnej drugiego rzędu) kr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineComb/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineComb/pl

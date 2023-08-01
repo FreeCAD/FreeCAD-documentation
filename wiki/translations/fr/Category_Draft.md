@@ -44,4 +44,4 @@ Cette catégorie liste les pages liées à l\'[atelier Draft](Draft_Workbench/fr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Draft/fr
+⏵ [documentation index](../README.md) > Category:Draft/fr

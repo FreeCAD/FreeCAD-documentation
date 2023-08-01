@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Curves EditableSpline
-   Name/de:Curves EditierbarerSpline
-   MenuLocation:Curves - Freehand BSpline
-   Workbenches:[Curves](Curves_Workbench/de.md)
+   Name: Curves EditableSpline
+   Name/de: Curves EditierbarerSpline
+   MenuLocation: Curves - Freehand BSpline
+   Workbenches: [Curves](Curves_Workbench/de.md)
 ---
 
 # Curves EditableSpline/de
@@ -66,4 +66,4 @@ Während der Ausführung des Befehls ist ein besonderer Bearbeitungsmodus aktiv 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves EditableSpline/de
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves EditableSpline/de

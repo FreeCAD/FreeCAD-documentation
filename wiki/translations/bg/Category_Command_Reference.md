@@ -10,4 +10,4 @@ This category contains the help pages of each of FreeCAD [Command/bg](Command/bg
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Command Reference/bg
+⏵ [documentation index](../README.md) > Category:Command Reference/bg

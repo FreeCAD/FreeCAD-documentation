@@ -10,7 +10,7 @@
 <img alt="Логотип верстака FEM" src=images/Workbench_FEM.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 
 
@@ -585,4 +585,4 @@ Many video tutorials: [anisim Open Source Engineering Software](https://www.yout
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [FEM](Category_FEM.md) > FEM Workbench/ru
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [FEM](Category_FEM.md) > FEM Workbench/ru

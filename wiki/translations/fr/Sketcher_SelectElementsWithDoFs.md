@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectElementsWithDoFs
-   Name/fr:Sketcher Degrés de liberté non contraints
-   MenuLocation:Esquisse - Outils d'esquisse - Sélectionner les degrés de liberté non contraints
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**Z** **F**
-   Version:0.18
+   Name: Sketcher SelectElementsWithDoFs
+   Name/fr: Sketcher Degrés de liberté non contraints
+   MenuLocation: Esquisse - Outils d'esquisse - Sélectionner les degrés de liberté non contraints
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **Z** **F**
+   Version: 0.18
 ---
 
 # Sketcher SelectElementsWithDoFs/fr
@@ -44,4 +44,4 @@ où \"X\" est le nombre de degrés de liberté restant dans l\'esquisse. Plus d\
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsWithDoFs/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsWithDoFs/fr

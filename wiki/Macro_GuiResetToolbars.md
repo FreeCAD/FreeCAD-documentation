@@ -83,4 +83,4 @@ The forum discussion [Reset toolbar position](https://forum.freecadweb.org/viewt
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro GuiResetToolbars
+⏵ [documentation index](../README.md) > Macro GuiResetToolbars

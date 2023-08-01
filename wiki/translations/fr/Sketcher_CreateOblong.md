@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateOblong
-   Name/fr:Sketcher Rectangle arrondi
-   MenuLocation:Esquisse - Géométries d'esquisse - Créer un rectangle arrondi
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **O**
-   Version: 0.20
-   SeeAlso:[Sketcher Rectangle](Sketcher_CreateRectangle/fr.md)
+   Name: Sketcher CreateOblong
+   Name/fr: Sketcher Rectangle arrondi
+   MenuLocation: Esquisse - Géométries d'esquisse - Créer un rectangle arrondi
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **O**
+   Version:  0.20
+   SeeAlso: [Sketcher Rectangle](Sketcher_CreateRectangle/fr.md)
 ---
 
 # Sketcher CreateOblong/fr
@@ -35,4 +35,4 @@ Cet outil dessine un rectangle arrondi en choisissant deux points opposés. Au d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOblong/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOblong/fr

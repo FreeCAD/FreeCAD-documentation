@@ -1,6 +1,4 @@
 # Feature editing/fr
-{{TOCright}}
-
 ## Introduction
 
 Cette page explique la manière dont <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [l\'atelier PartDesign](PartDesign_Workbench/fr.md) doit être utilisé à partir de FreeCAD 0.17.
@@ -205,4 +203,4 @@ La page des [tutoriels](Tutorials/fr.md) fournit des exemples d\'utilisation de 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [PartDesign](Category_PartDesign.md) > Feature editing/fr
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [PartDesign](Category_PartDesign.md) > Feature editing/fr

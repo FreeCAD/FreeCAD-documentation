@@ -1,6 +1,6 @@
 # Part Circle/cs
 ---
-- GuiCommand:   Name:Part_Circle   Name/cs:Díl Kružnice   MenuLocation:Díl - [Workbenches:[[Part_Workbench/cs   Díl](Part_CreatePrimitives/cs___Vytváření_zákl.geom.tvarů]] - Kružnice.md),  [OpenSCAD](OpenSCAD_Workbench/cs.md)|SeeAlso:..---
+- GuiCommand:   Name: Part_Circle   Name/cs: Díl Kružnice   MenuLocation: Díl - [Workbenches: [[Part_Workbench/cs   Díl](Part_CreatePrimitives/cs___Vytváření_zákl.geom.tvarů]] - Kružnice.md),  [OpenSCAD](OpenSCAD_Workbench/cs.md)|SeeAlso: ..---
 
 
 </div>
@@ -134,4 +134,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/cs
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/cs

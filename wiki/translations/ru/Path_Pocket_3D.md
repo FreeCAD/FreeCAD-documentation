@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Path Pocket 3D
-   MenuLocation:Path - 3D Pocket
-   Workbenches:[Path](Path_Workbench.md)
+   Name: Path Pocket 3D
+   MenuLocation: Path - 3D Pocket
+   Workbenches: [Path](Path_Workbench.md)
 ---
 
 # Path Pocket 3D/ru
@@ -227,4 +227,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Pocket 3D/ru
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Pocket 3D/ru

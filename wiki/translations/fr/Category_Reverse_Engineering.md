@@ -10,4 +10,4 @@ Cette catégorie répertorie les pages liées à [Reverse Engineering Workbench/
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Reverse Engineering/fr
+⏵ [documentation index](../README.md) > Category:Reverse Engineering/fr

@@ -28,4 +28,4 @@ This category lists workbenches included in FreeCAD.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Workbenches
+⏵ [documentation index](../README.md) > Category:Workbenches

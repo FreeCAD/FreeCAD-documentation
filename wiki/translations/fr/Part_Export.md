@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Export‏‎
-   Name/fr:Part Exportation
-   MenuLocation:Part - Exporter un fichier de CAO...
-   Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Part Importation](Part_Import/fr.md), [Std Exporter](Std_Export/fr.md), [Import Export](Import_Export/fr.md)
+   Name: Part Export‏‎
+   Name/fr: Part Exportation
+   MenuLocation: Part - Exporter un fichier de CAO...
+   Workbenches: [Part](Part_Workbench/fr.md)
+   SeeAlso: [Part Importation](Part_Import/fr.md), [Std Exporter](Std_Export/fr.md), [Import Export](Import_Export/fr.md)
 ---
 
 # Part Export/fr
@@ -27,4 +27,4 @@ l\'outil **<img src="images/Part_Export.svg" width=16px> [Part Exportation](Part
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Export/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Export/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateSlot
-   Name/de:Sketcher NutErstellen
-   MenuLocation:Sketch - Skizzengeometrie - Nut erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **S**
+   Name: Sketcher CreateSlot
+   Name/de: Sketcher NutErstellen
+   MenuLocation: Sketch - Skizzengeometrie - Nut erstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **S**
 ---
 
 # Sketcher CreateSlot/de
@@ -44,4 +44,4 @@ Beim Starten des Werkzeugs ändert sich der Mauszeiger in ein weißes Kreuz mit 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSlot/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSlot/de

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher BSplineDegree
-   Name/pl:Szkicownik: Stopień krzywej złożonej
-   MenuLocation:Szkic - Narzędzia szkicownika krzywej złożonej - Pokaż / ukryj stopień krzywej złożonej
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Komponent utwórz krzywą złożoną](Sketcher_CompCreateBSpline/pl.md)
+   Name: Sketcher BSplineDegree
+   Name/pl: Szkicownik: Stopień krzywej złożonej
+   MenuLocation: Szkic - Narzędzia szkicownika krzywej złożonej - Pokaż / ukryj stopień krzywej złożonej
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Komponent utwórz krzywą złożoną](Sketcher_CompCreateBSpline/pl.md)
 ---
 
 # Sketcher BSplineDegree/pl
@@ -36,4 +36,4 @@ Pokazuje lub ukrywa wyświetlanie *stopnia* krzywej złożonej *(zobacz stronę 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDegree/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDegree/pl

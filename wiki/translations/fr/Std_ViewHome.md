@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Std ViewHome
-   Name/fr:Std Accueil
-   MenuLocation:Affichage - Vues standards - Accueil
-   Workbenches:Tout
-   Shortcut:**⇱ Touche de début**
-   Version:0.19
-   SeeAlso:[Std Tout afficher](Std_ViewFitAll/fr.md)
+   Name: Std ViewHome
+   Name/fr: Std Accueil
+   MenuLocation: Affichage - Vues standards - Accueil
+   Workbenches: Tout
+   Shortcut: **⇱ Touche de début**
+   Version: 0.19
+   SeeAlso: [Std Tout afficher](Std_ViewFitAll/fr.md)
 ---
 
 # Std ViewHome/fr
@@ -41,4 +41,4 @@ La commande **Std Accueil** change la caméra dans la [vue 3D](3D_view/fr.md) se
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewHome/fr
+⏵ [documentation index](../README.md) > Std ViewHome/fr

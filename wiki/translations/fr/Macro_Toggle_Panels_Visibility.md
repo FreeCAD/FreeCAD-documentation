@@ -66,4 +66,4 @@ else:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Toggle Panels Visibility/fr
+⏵ [documentation index](../README.md) > Macro Toggle Panels Visibility/fr

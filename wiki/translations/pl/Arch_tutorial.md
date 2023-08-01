@@ -529,4 +529,4 @@ Plik utworzony podczas tego ćwiczenia można znaleźć [ze strony yorik-a](http
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/pl
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/pl

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft PathArray
-   Name/ro:Draft PathArray
-   MenuLocation:Draft - PathArray
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   Version:0.14
-   SeeAlso:[Draft Array](Draft_Array/ro.md)
+   Name: Draft PathArray
+   Name/ro: Draft PathArray
+   MenuLocation: Draft - PathArray
+   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Version: 0.14
+   SeeAlso: [Draft Array](Draft_Array/ro.md)
 ---
 
 # Draft PathArray/ro
@@ -291,4 +291,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathArray/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathArray/ro

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name/ru:Создать группу
-   Name:Std_Group
-   MenuLocation:[Древовидное представление](Tree_view/ru.md) - Правый клик на имени документа - Создать группу
-   Workbenches:Все
-   Shortcut:
-   Version:
-   SeeAlso:[Создать деталь](Std_Part/ru.md), [Выбрать группу](Draft_SelectGroup/ru.md), [Переместить в группу](Draft_AddToGroup/ru.md)
+   Name/ru: Создать группу
+   Name: Std_Group
+   MenuLocation: [Древовидное представление](Tree_view/ru.md) - Правый клик на имени документа - Создать группу
+   Workbenches: Все
+   Shortcut: 
+   Version: 
+   SeeAlso: [Создать деталь](Std_Part/ru.md), [Выбрать группу](Draft_SelectGroup/ru.md), [Переместить в группу](Draft_AddToGroup/ru.md)
 ---
 
 # Std Group/ru
@@ -113,4 +113,4 @@ For example, a [FEM Analysis](FEM_Analysis.md) is an `App::DocumentObjectGroupPy
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Group/ru
+⏵ [documentation index](../README.md) > Std Group/ru

@@ -5,7 +5,7 @@
 
 ## Introduzione
 
-<img alt="Curves External workbench icon" src=images/Curves_workbench_icon.svg  style="width:128px;"> {{TOCright}}
+<img alt="Curves External workbench icon" src=images/Curves_workbench_icon.svg  style="width:128px;"> 
 
 The Curves workbench is an [External workbench](External_workbenches.md) that is Python based with a collection of tools for NURBS curves and surfaces. This workbench is developed with FreeCAD Master and OCC 7.4.
 
@@ -56,4 +56,4 @@ Download the Curves workbench via the <img alt="" src=images/Std_AddonMgr.svg  s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [Curves](Category_Curves.md) > Curves Workbench/it
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [Curves](Category_Curves.md) > Curves Workbench/it

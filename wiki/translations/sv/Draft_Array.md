@@ -1,6 +1,6 @@
 # Draft Array/sv
 ---
-- GuiCommand:   Name:Draft Array   Name/sv:Draft Array   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft - Array   SeeAlso:[PathArray](Draft_PathArray/sv.md)---
+- GuiCommand:   Name: Draft Array   Name/sv: Draft Array   Workbenches: [Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation: Draft - Array   SeeAlso: [PathArray](Draft_PathArray/sv.md)---
 
 
 </div>
@@ -33,4 +33,4 @@ See [Draft OrthoArray](Draft_OrthoArray#Scripting.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/sv

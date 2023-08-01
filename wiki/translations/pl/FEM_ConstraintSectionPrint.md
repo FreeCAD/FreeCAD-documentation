@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintSectionPrint
-   Name/pl:MES: Zapis wyników z przekroju
-   MenuLocation: Model - Wiązania Geometryczne - Zapis wyników z przekroju
-   Workbenches:[MES](FEM_Workbench/pl.md)
-   Version:0.19
-   SeeAlso:
+   Name: FEM ConstraintSectionPrint
+   Name/pl: MES: Zapis wyników z przekroju
+   MenuLocation:  Model - Wiązania Geometryczne - Zapis wyników z przekroju
+   Workbenches: [MES](FEM_Workbench/pl.md)
+   Version: 0.19
+   SeeAlso: 
 ---
 
 # FEM ConstraintSectionPrint/pl
@@ -42,4 +42,4 @@ Drukuje wstępnie zdefiniowane zmienne wyjściowe z modelu *(siły i momenty)* d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FEM ConstraintSectionPrint/pl
+⏵ [documentation index](../README.md) > FEM ConstraintSectionPrint/pl

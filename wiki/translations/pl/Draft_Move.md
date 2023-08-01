@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name/pl:Draft: Move
-   Name:Draft Move
-   MenuLocation:Modyfikacja - Przesuń
-   Workbenches:[Rysunek roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut:**M** **V**
-   Version:0.7
-   SeeAlso:[Podświetl element podrzędny](Draft_SubelementHighlight/pl.md)
+   Name/pl: Draft: Move
+   Name: Draft Move
+   MenuLocation: Modyfikacja - Przesuń
+   Workbenches: [Rysunek roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut: **M** **V**
+   Version: 0.7
+   SeeAlso: [Podświetl element podrzędny](Draft_SubelementHighlight/pl.md)
 ---
 
 # Draft Move/pl
@@ -115,4 +115,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move/pl

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Plot Grid   Name/it:Griglia
-   MenuLocation:Grafico - Griglia
-‏‎   Workbenches:[Grafico](Plot_Workbench/it.md)
+   Name: Plot Grid   Name/it: Griglia
+   MenuLocation: Grafico - Griglia
+‏‎   Workbenches: [Grafico](Plot_Workbench/it.md)
 ---
 
 # Plot Grid/it
@@ -34,4 +34,4 @@ Questo strumento agisce sull\'insieme di assi attivo. In caso di grafici multi-a
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Grid/it
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Grid/it

@@ -558,4 +558,4 @@ if guiok:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Cabinets32
+⏵ [documentation index](../README.md) > Macro Cabinets32

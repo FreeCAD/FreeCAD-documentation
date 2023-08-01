@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_DlgCustomize
-   Name/fr:Std Personnalisation
-   MenuLocation:Outils - Personnaliser...
-   Workbenches:Tous
-   SeeAlso:[Personnaliser l'interface](Interface_Customization/fr.md)
+   Name: Std_DlgCustomize
+   Name/fr: Std Personnalisation
+   MenuLocation: Outils - Personnaliser...
+   Workbenches: Tous
+   SeeAlso: [Personnaliser l'interface](Interface_Customization/fr.md)
 ---
 
 # Std DlgCustomize/fr
@@ -40,4 +40,4 @@ La commande **Std Personnalisation** ouvre la boîte de dialogue Personnaliser d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgCustomize/fr
+⏵ [documentation index](../README.md) > Std DlgCustomize/fr

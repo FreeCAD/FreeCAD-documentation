@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part CompOffsetTools
-   Name/fr:Part Outils de décalage
-   MenuLocation:Part - Décalage
-   Workbenches:[Part](Part_Workbench/fr.md)
+   Name: Part CompOffsetTools
+   Name/fr: Part Outils de décalage
+   MenuLocation: Part - Décalage
+   Workbenches: [Part](Part_Workbench/fr.md)
 ---
 
 # Part CompOffsetTools/fr
@@ -22,4 +22,4 @@ Un ensemble d\'outils de décalage.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompOffsetTools/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompOffsetTools/fr

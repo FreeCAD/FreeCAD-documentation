@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Raytracing Render
-   Name/it:Raytracing Render
-   MenuLocation:Raytracing - Render
-   Workbenches:[Raytracing](Raytracing_Workbench/it.md)
-   Shortcut:
-   SeeAlso:
+   Name: Raytracing Render
+   Name/it: Raytracing Render
+   MenuLocation: Raytracing - Render
+   Workbenches: [Raytracing](Raytracing_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Raytracing Render/it
@@ -75,4 +75,4 @@ Attualmente sono supportati solo POV-Ray e LuxRender.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Render/it
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Render/it

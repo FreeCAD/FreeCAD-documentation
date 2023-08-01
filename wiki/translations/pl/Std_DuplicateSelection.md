@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std DuplicateSelection
-   Name/pl:Std: Powiel zaznaczone
-   MenuLocation:Edycja - Powiel zaznaczone
-   Workbenches:All
-   SeeAlso:[Wytnij](Std_Cut/pl.md), [Kopiuj](Std_Copy/pl.md), [Wklej](Std_Paste/pl.md)
+   Name: Std DuplicateSelection
+   Name/pl: Std: Powiel zaznaczone
+   MenuLocation: Edycja - Powiel zaznaczone
+   Workbenches: All
+   SeeAlso: [Wytnij](Std_Cut/pl.md), [Kopiuj](Std_Copy/pl.md), [Wklej](Std_Paste/pl.md)
 ---
 
 # Std DuplicateSelection/pl
@@ -38,4 +38,4 @@ Polecenie **Powiel zaznaczone** powoduje powielanie wybranych obiektów w aktywn
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DuplicateSelection/pl
+⏵ [documentation index](../README.md) > Std DuplicateSelection/pl

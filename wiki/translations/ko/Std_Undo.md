@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Undo
-   Name/ko:표준 실행 취소
-   MenuLocation:편집 - 실행 취소
-   Workbenches:모두
-   Shortcut:**Ctrl**+**Z**
-   SeeAlso:[표준 다시 실행](Std_Redo/ko.md)
+   Name: Std Undo
+   Name/ko: 표준 실행 취소
+   MenuLocation: 편집 - 실행 취소
+   Workbenches: 모두
+   Shortcut: **Ctrl**+**Z**
+   SeeAlso: [표준 다시 실행](Std_Redo/ko.md)
 ---
 
 # Std Undo/ko
@@ -78,4 +78,4 @@ FreeCAD.ActiveDocument.UndoMode = 1
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Undo/ko
+⏵ [documentation index](../README.md) > Std Undo/ko

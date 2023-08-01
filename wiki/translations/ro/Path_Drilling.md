@@ -1,6 +1,6 @@
 # Path Drilling/ro
 ---
-- GuiCommand:   Name:Path Drilling   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path - Drilling   Shortcut:P,D   SeeAlso:---
+- GuiCommand:   Name: Path Drilling   Workbenches: [[Path Workbench   Path]]|MenuLocation: Path - Drilling   Shortcut: P,D   SeeAlso: ---
 
 
 </div>
@@ -212,4 +212,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Drilling/ro
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Drilling/ro

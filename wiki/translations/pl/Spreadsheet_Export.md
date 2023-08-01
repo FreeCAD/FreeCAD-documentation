@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet Export
-   Name/pl:Arkusz Kalkulacyjny: Eksportuj
-   MenuLocation:Arkusz Kalkulacyjny - Eksportuj
-   Workbenches:[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Importuj](Spreadsheet_Import/pl.md)
+   Name: Spreadsheet Export
+   Name/pl: Arkusz Kalkulacyjny: Eksportuj
+   MenuLocation: Arkusz Kalkulacyjny - Eksportuj
+   Workbenches: [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Importuj](Spreadsheet_Import/pl.md)
 ---
 
 # Spreadsheet Export/pl
@@ -30,4 +30,4 @@ Narzędzie **[<img src=images/Spreadsheet_Export.svg style="width:16px"> [Ekspor
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Export/pl
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Export/pl

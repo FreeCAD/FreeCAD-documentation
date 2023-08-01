@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std DlgPreferences
-   Name/de:Std DlgEinstellungen
-   MenuLocation:Bearbeiten - Einstellungen...
-   Workbenches:Alle
-   SeeAlso:[Voreinstellungseditor](Preferences_Editor/de.md)
+   Name: Std DlgPreferences
+   Name/de: Std DlgEinstellungen
+   MenuLocation: Bearbeiten - Einstellungen...
+   Workbenches: Alle
+   SeeAlso: [Voreinstellungseditor](Preferences_Editor/de.md)
 ---
 
 # Std DlgPreferences/de
@@ -39,4 +39,4 @@ Der **Std DlgEinstellungen**-Befehl öffnet den [Voreinstellungseditor](Preferen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgPreferences/de
+⏵ [documentation index](../README.md) > Std DlgPreferences/de

@@ -1,8 +1,4 @@
 # Part Feature/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 <img alt="" src=images/Part_3D_object.svg  style="width:32px;">
@@ -220,4 +216,4 @@ W razie potrzeby atrybut `Etykieta` może zostać zmieniony na bardziej wymowny 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Feature/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Feature/pl

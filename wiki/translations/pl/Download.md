@@ -1,8 +1,4 @@
 # Download/pl
-{{TOCright}}
-
-
-
 ## Aktualne stabilne wersje 
 
 Wydanie **0.20.2** *(29603)* programu FreeCAD zostało opublikowane 2022-12-07. Aby dowiedzieć się o nowościach, zobacz stronę [Informacje o wydaniu](Release_notes_0.20/pl.md).
@@ -64,4 +60,4 @@ Społeczność FreeCAD dostarcza wiele dodatkowych modułów i makr. Od wersji *
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Download/pl
+⏵ [documentation index](../README.md) > Download/pl

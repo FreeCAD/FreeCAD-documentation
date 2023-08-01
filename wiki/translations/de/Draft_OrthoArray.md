@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft OrthoArray
-   Name/de:Draft RechtwinkligeAnordnung
-   MenuLocation:Änderung - Array tools - Anordnung
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[Draft PolareAnordnung](Draft_PolarArray/de.md), [Draft Kreisanordnung](Draft_CircularArray/de.md), [Draft Pfadanordnung](Draft_PathArray/de.md), [Draft PathLinkArray](Draft_PathLinkArray/de.md), [Draft PunktAnordnung](Draft_PointArray/de.md), [Draft PointLinkArray](Draft_PointLinkArray/de.md)
+   Name: Draft OrthoArray
+   Name/de: Draft RechtwinkligeAnordnung
+   MenuLocation: Änderung - Array tools - Anordnung
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [Draft PolareAnordnung](Draft_PolarArray/de.md), [Draft Kreisanordnung](Draft_CircularArray/de.md), [Draft Pfadanordnung](Draft_PathArray/de.md), [Draft PathLinkArray](Draft_PathLinkArray/de.md), [Draft PunktAnordnung](Draft_PointArray/de.md), [Draft PointLinkArray](Draft_PointLinkArray/de.md)
 ---
 
 # Draft OrthoArray/de
@@ -370,4 +370,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft OrthoArray/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft OrthoArray/de

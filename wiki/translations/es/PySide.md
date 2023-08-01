@@ -1,6 +1,4 @@
 # PySide/es
-{{TOCright}}
-
 ## Introduction
 
 
@@ -73,4 +71,4 @@ The PySide documentation refers to the Python-style classes; however, since Qt i
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > PySide/es
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > PySide/es

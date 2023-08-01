@@ -10,7 +10,7 @@
 <img alt="Ícone da bancada de trabalho de draft" src=images/Workbench_Draft.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 
 
@@ -489,4 +489,4 @@ A inspeção do código deste módulo é útil para entender como utilizar a int
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Draft](Category_Draft.md) > Draft Workbench/pt-br
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Draft](Category_Draft.md) > Draft Workbench/pt-br

@@ -108,4 +108,4 @@ However, the described path could represent the starting point (or the idea) to 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Advanced TechDraw Tutorial/ru
+⏵ [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Advanced TechDraw Tutorial/ru

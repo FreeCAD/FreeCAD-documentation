@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Array   Name/ro:Matrice repetabilitate
-   MenuLocation:Draft - Array
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   SeeAlso:[PolarArray](Draft_PolarArray.md), [CircularArray](Draft_CircularArray.md), [PathArray](Draft_PathArray.md), [PointArray](Draft_PointArray.md), [Clone](Draft_Clone.md)
+   Name: Draft Array   Name/ro: Matrice repetabilitate
+   MenuLocation: Draft - Array
+   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   SeeAlso: [PolarArray](Draft_PolarArray.md), [CircularArray](Draft_CircularArray.md), [PathArray](Draft_PathArray.md), [PointArray](Draft_PointArray.md), [Clone](Draft_Clone.md)
 ---
 
 # Draft Array/ro
@@ -119,4 +119,4 @@ Instrumentul Array poate fi utilizat în [macros](macros.md) și din consola Pyt
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/ro

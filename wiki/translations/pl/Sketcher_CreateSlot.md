@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateSlot
-   Name/pl:Szkicownik: Utwórz wpust
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz wpust
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **S**
+   Name: Sketcher CreateSlot
+   Name/pl: Szkicownik: Utwórz wpust
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Utwórz wpust
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **G** **S**
 ---
 
 # Sketcher CreateSlot/pl
@@ -44,4 +44,4 @@ Podczas uruchamiania narzędzia kursor myszki zmienia wygląd na biały krzyż z
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSlot/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSlot/pl

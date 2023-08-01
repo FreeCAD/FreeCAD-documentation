@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Project
-   Name/it:Progetto
-   MenuLocation:Arch - Progetto
-   Workbenches:[Arch](Arch_Workbench/it.md)
-   Shortcut:**P** **O**
-   SeeAlso:[Sito](Arch_Site/it.md), [Edificio](Arch_Building/it.md)
+   Name: Arch Project
+   Name/it: Progetto
+   MenuLocation: Arch - Progetto
+   Workbenches: [Arch](Arch_Workbench/it.md)
+   Shortcut: **P** **O**
+   SeeAlso: [Sito](Arch_Site/it.md), [Edificio](Arch_Building/it.md)
 ---
 
 # Arch Project/it
@@ -56,4 +56,4 @@ Notare che, sebbene a un Progetto possa essere aggiunto qualsiasi altro oggetto 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Project/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Project/it

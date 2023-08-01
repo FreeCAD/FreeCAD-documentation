@@ -117,4 +117,4 @@ We are now finished with the basic workflow for the [FEM Workbench](FEM_Workbenc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM tutorial
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM tutorial

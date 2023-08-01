@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std AddonMgr
-   Name/fr:Std Gestionnaire des extensions
-   MenuLocation:Outils - Gestionnaire des extensions
-   Workbenches:Tous
-   Version:0.17
-   SeeAlso:[Ateliers externes](External_workbenches/fr.md), [Macros](Macros/fr.md)
+   Name: Std AddonMgr
+   Name/fr: Std Gestionnaire des extensions
+   MenuLocation: Outils - Gestionnaire des extensions
+   Workbenches: Tous
+   Version: 0.17
+   SeeAlso: [Ateliers externes](External_workbenches/fr.md), [Macros](Macros/fr.md)
 ---
 
 # Std AddonMgr/fr
@@ -145,4 +145,4 @@ Définissez ensuite les fonctions {{Incode|installation_succeded}} et {{Incode|i
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std AddonMgr/fr
+⏵ [documentation index](../README.md) > Std AddonMgr/fr

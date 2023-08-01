@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Path Copy
-   Name/ru:Path Copy
-   MenuLocation:Path - Supplemental Commands - Простое копирование
-   Workbenches:[Path](Path_Workbench/ru.md)
-   Shortcut:**P** **Y**
-   SeeAlso:
+   Name: Path Copy
+   Name/ru: Path Copy
+   MenuLocation: Path - Supplemental Commands - Простое копирование
+   Workbenches: [Path](Path_Workbench/ru.md)
+   Shortcut: **P** **Y**
+   SeeAlso: 
 ---
 
 # Path Copy/ru
@@ -44,4 +44,4 @@ The copy stays linked with the original path. If the original changes, so does t
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Copy/ru
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Copy/ru

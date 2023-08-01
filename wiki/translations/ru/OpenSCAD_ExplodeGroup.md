@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD ExplodeGroup
-   Name/ru:OpenSCAD ExplodeGroup
-   MenuLocation:OpenSCAD - Расчленить Группу
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/ru.md)
-   Shortcut:нет
-   SeeAlso:---
+   Name: OpenSCAD ExplodeGroup
+   Name/ru: OpenSCAD ExplodeGroup
+   MenuLocation: OpenSCAD - Расчленить Группу
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench/ru.md)
+   Shortcut: нет
+   SeeAlso: ---
 ---
 
 # OpenSCAD ExplodeGroup/ru
@@ -50,4 +50,4 @@ For dissolving arrays from Draft Workbench use [Draft Downgrade](Draft_Downgrade
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExplodeGroup/ru
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExplodeGroup/ru

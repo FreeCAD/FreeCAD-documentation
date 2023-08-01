@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 AddZYWorkplane
-   Name/fr:Assembly3 Ajouter un plan de travail ZY
-   Icon:Assembly_Add_WorkplaneZY.svg‎‎
-   MenuLocation:Assembly3 - Workplane and origin - Add ZY workplane
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 AddZYWorkplane
+   Name/fr: Assembly3 Ajouter un plan de travail ZY
+   Icon: Assembly_Add_WorkplaneZY.svg‎‎
+   MenuLocation: Assembly3 - Workplane and origin - Add ZY workplane
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 AddZYWorkplane/fr
@@ -30,4 +30,4 @@ Les éléments valides sont par exemple les éléments, les corps, les sommets, 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 AddZYWorkplane/fr
+⏵ [documentation index](../README.md) > Assembly3 AddZYWorkplane/fr

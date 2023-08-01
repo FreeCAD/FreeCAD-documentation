@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar ColumnReinforcement
-   MenuLocation:Reinforcement - Column Reinforcement, Arch - Rebar tools
-   Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
-   Version:0.19
-   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch ColumnReinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md), [Arch Rebar](Arch_Rebar.md)
+   Name: Arch Rebar ColumnReinforcement
+   MenuLocation: Reinforcement - Column Reinforcement, Arch - Rebar tools
+   Workbenches: [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   Version: 0.19
+   SeeAlso: [Reinforcement](Reinforcement_Workbench.md), [Arch ColumnReinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md), [Arch Rebar](Arch_Rebar.md)
 ---
 
 # Arch Rebar Circular ColumnReinforcement
@@ -196,4 +196,4 @@ rebar_group = CircularColumn.editReinforcement(
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Circular ColumnReinforcement
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Circular ColumnReinforcement

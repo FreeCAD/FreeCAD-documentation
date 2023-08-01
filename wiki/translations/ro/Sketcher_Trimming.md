@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ro:Sketcher Taie marginea
-   Icon:Sketcher Trimming.png
-   Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation:Sketch - Geometria schitei - Taie marginea
-   Version:0.12
-   SeeAlso:[Prelungirea muchiei](Sketcher_Extend/ro.md)
+   Name/ro: Sketcher Taie marginea
+   Icon: Sketcher Trimming.png
+   Workbenches: [Sketcher](Sketcher_Workbench/ro.md)
+   MenuLocation: Sketch - Geometria schitei - Taie marginea
+   Version: 0.12
+   SeeAlso: [Prelungirea muchiei](Sketcher_Extend/ro.md)
 ---
 
 # Sketcher Trimming/ro
@@ -63,4 +63,4 @@ Pentru a utiliza instrumentul, faceți:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/ro

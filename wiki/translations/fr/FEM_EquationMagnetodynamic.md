@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM EquationMagnetodynamic
-   Name/fr:FEM Équation magnétodynamique
-   MenuLocation:Résolution - Équations électromagnétiques - Équation magnétodynamique
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:0.21
-   SeeAlso:[FEM Équation magnétodynamique 2D](FEM_EquationMagnetodynamic2D/fr.md)
+   Name: FEM EquationMagnetodynamic
+   Name/fr: FEM Équation magnétodynamique
+   MenuLocation: Résolution - Équations électromagnétiques - Équation magnétodynamique
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Version: 0.21
+   SeeAlso: [FEM Équation magnétodynamique 2D](FEM_EquationMagnetodynamic2D/fr.md)
 ---
 
 # FEM EquationMagnetodynamic/fr
@@ -127,4 +127,4 @@ Les résultats possibles sont :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationMagnetodynamic/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationMagnetodynamic/fr

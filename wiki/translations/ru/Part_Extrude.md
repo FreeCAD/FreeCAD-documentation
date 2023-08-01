@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part_Extrude
-   Name/ru:Выдавить...
-   MenuLocation:Деталь -> Выдавить...
-   Workbenches:[Part(Деталь)](Part_Workbench/ru.md)
-   SeeAlso:[Draft Trimex](Draft_Trimex/ru.md)
+   Name: Part_Extrude
+   Name/ru: Выдавить...
+   MenuLocation: Деталь -> Выдавить...
+   Workbenches: [Part(Деталь)](Part_Workbench/ru.md)
+   SeeAlso: [Draft Trimex](Draft_Trimex/ru.md)
 ---
 
 # Part Extrude/ru
@@ -213,4 +213,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/ru

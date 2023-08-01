@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher CompCreateBSpline
-   Name/de:Sketcher AuswahlBSplineErstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Version:0.17
+   Name: Sketcher CompCreateBSpline
+   Name/de: Sketcher AuswahlBSplineErstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Version: 0.17
 ---
 
 # Sketcher CompCreateBSpline/de
@@ -37,4 +37,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateBSpline/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateBSpline/de

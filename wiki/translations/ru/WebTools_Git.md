@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:WebTools Git‏‎
-   Name/ru:Arch Git‏‎
-   MenuLocation:Архитектура - Утилиты - Commit with Git
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   Shortcut:
-‏‎   SeeAlso:
+   Name: WebTools Git‏‎
+   Name/ru: Arch Git‏‎
+   MenuLocation: Архитектура - Утилиты - Commit with Git
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   Shortcut: 
+‏‎   SeeAlso: 
 ---
 
 # WebTools Git/ru
@@ -130,4 +130,4 @@ textconv = sh -c '/path/to/fcinfo --gui "$0"'
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > WebTools Git/ru
+⏵ [documentation index](../README.md) > WebTools Git/ru

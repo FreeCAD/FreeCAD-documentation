@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Arch Nest   Name/ro:Arch Nest
-   MenuLocation:Arch - Panel tools - Nest
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   SeeAlso:[[Arch Panel/ro]], [[Arch Panel Sheet/ro]]
+   Name: Arch Nest   Name/ro: Arch Nest
+   MenuLocation: Arch - Panel tools - Nest
+   Workbenches: [Arch](Arch_Workbench/ro.md)
+   SeeAlso: [[Arch Panel/ro]], [[Arch Panel Sheet/ro]]
 ---
 
 # Arch Nest/ro
@@ -73,4 +73,4 @@ Algoritmul din spatele instrumentului Nest (Economizor) este în evoluție const
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Nest/ro
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Nest/ro

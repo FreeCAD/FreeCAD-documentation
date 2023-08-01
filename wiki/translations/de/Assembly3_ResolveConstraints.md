@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ResolveConstraints
-   Name/de:Assembly3 BedingungenAnwenden
-   Icon:Assembly3_workbench_icon.svg
-   MenuLocation:Assembly3 - Resolve constraints
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
-   Shortcut:**A** dann **S**
+   Name: Assembly3 ResolveConstraints
+   Name/de: Assembly3 BedingungenAnwenden
+   Icon: Assembly3_workbench_icon.svg
+   MenuLocation: Assembly3 - Resolve constraints
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   Shortcut: **A** dann **S**
 ---
 
 # Assembly3 ResolveConstraints/de
@@ -26,4 +26,4 @@ Dieses Werkzeug wird verwendet, um eine Baugruppe neu zu berechnen, nachdem Bedi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ResolveConstraints/de
+⏵ [documentation index](../README.md) > Assembly3 ResolveConstraints/de

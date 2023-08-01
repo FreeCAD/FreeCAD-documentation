@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ShowAll
-   Name/de: TechDraw AllesAnzeigen
-   MenuLocation:TechDraw - Linien hinzufügen - Ausgeblendete Kanten ein-/ausblenden
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[LiniendarstellungÄndern](TechDraw_DecorateLine/de.md)
+   Name: TechDraw ShowAll
+   Name/de:  TechDraw AllesAnzeigen
+   MenuLocation: TechDraw - Linien hinzufügen - Ausgeblendete Kanten ein-/ausblenden
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [LiniendarstellungÄndern](TechDraw_DecorateLine/de.md)
 ---
 
 # TechDraw ShowAll/de
@@ -57,4 +57,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ShowAll/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ShowAll/de

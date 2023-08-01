@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Установить псевдоним
-   Name:Spreadsheet_SetAlias
-   MenuLocation:-
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/ru.md)
-   Version:0.17
+   Name/ru: Установить псевдоним
+   Name: Spreadsheet_SetAlias
+   MenuLocation: -
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/ru.md)
+   Version: 0.17
 ---
 
 # Spreadsheet SetAlias/ru
@@ -47,4 +47,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SetAlias/ru
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SetAlias/ru

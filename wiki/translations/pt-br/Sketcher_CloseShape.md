@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher CloseShape
-   MenuLocation:Sketch - Sketcher tools - Close shape
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**Z** **W**
-   Version:0.15
+   Name: Sketcher CloseShape
+   MenuLocation: Sketch - Sketcher tools - Close shape
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **Z** **W**
+   Version: 0.15
 ---
 
 # Sketcher CloseShape/pt-br
@@ -36,4 +36,4 @@ The tool will connect the elements in the order of their selection, so make sure
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/pt-br
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/pt-br

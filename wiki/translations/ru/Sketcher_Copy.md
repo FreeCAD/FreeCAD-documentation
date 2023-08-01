@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Копировать
-   Name:Sketcher_Copy
-   MenuLocation:Sketch - Инструменты для эскиза - Копировать
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.16
-   SeeAlso:[Клонировать](Sketcher_Clone/ru.md), [Переместить](Sketcher_Move/ru.md)
+   Name/ru: Копировать
+   Name: Sketcher_Copy
+   MenuLocation: Sketch - Инструменты для эскиза - Копировать
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Version: 0.16
+   SeeAlso: [Клонировать](Sketcher_Clone/ru.md), [Переместить](Sketcher_Move/ru.md)
 ---
 
 # Sketcher Copy/ru
@@ -37,4 +37,4 @@ No extra constraints are added.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Copy/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Copy/ru

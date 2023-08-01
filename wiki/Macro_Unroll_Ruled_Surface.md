@@ -794,4 +794,4 @@ ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Unroll Ruled Surface
+⏵ [documentation index](../README.md) > Macro Unroll Ruled Surface

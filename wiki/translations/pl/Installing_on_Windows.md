@@ -5,7 +5,7 @@
 }}
 
 
-{{TOCright}}
+
 
 ## Instalacja standardowa 
 
@@ -107,4 +107,4 @@ Należy pamiętać, że *(cicha)* deinstalacja nie powiedzie się, jeśli istnie
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Installing on Windows/pl
+⏵ [documentation index](../README.md) > Installing on Windows/pl

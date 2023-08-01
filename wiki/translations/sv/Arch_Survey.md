@@ -1,6 +1,6 @@
 # Arch Survey/sv
 ---
-- GuiCommand:   Name:Arch Survey   Name/sv:Arch Survey   Workbenches:[MenuLocation:Arch - Survey   SeeAlso:[[Macro FCInfo/sv|FCInfo (macro)](Arch_Workbench/sv___Arch]].md)---
+- GuiCommand:   Name: Arch Survey   Name/sv: Arch Survey   Workbenches: [MenuLocation: Arch - Survey   SeeAlso: [[Macro FCInfo/sv|FCInfo (macro)](Arch_Workbench/sv___Arch]].md)---
 
 
 </div>
@@ -66,4 +66,4 @@ for obj in selection:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Survey/sv
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Survey/sv

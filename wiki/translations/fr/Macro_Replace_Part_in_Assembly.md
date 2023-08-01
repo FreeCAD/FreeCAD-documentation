@@ -618,4 +618,4 @@ class replace():
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Replace Part in Assembly/fr
+⏵ [documentation index](../README.md) > Macro Replace Part in Assembly/fr

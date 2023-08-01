@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet_AlignTop
-   Name/it:Allinea in alto
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)
-   MenuLocation:Spreadsheet - Allineamento - In alto
-   Version:0.17
+   Name: Spreadsheet_AlignTop
+   Name/it: Allinea in alto
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/it.md)
+   MenuLocation: Spreadsheet - Allineamento - In alto
+   Version: 0.17
 ---
 
 # Spreadsheet AlignTop/it
@@ -34,4 +34,4 @@ Lo strumento <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width:16px;
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignTop/it
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignTop/it

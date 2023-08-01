@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std AxisCross
-   Name/pl:Std: Symbol osi
-   MenuLocation:Widok - Przełącz krzyż osi
-   Workbenches:wszystkie
-   Shortcut:**A** **C**
+   Name: Std AxisCross
+   Name/pl: Std: Symbol osi
+   MenuLocation: Widok - Przełącz krzyż osi
+   Workbenches: wszystkie
+   Shortcut: **A** **C**
 ---
 
 # Std AxisCross/pl
@@ -71,4 +71,4 @@ FreeCADGui.ActiveDocument.ActiveView.hasAxisCross()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std AxisCross/pl
+⏵ [documentation index](../README.md) > Std AxisCross/pl

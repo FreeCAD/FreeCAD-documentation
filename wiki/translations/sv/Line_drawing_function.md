@@ -1,6 +1,4 @@
 # Line drawing function/sv
-{{TOCright}}
-
 ## Introduction
 
 
@@ -466,4 +464,4 @@ Don\'t hesitate to ask questions or share ideas on the [forum](https://forum.fre
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Line drawing function/sv
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Line drawing function/sv

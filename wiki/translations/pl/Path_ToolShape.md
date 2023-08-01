@@ -1,6 +1,4 @@
 # Path ToolShape/pl
-{{TOCright}}
-
 ## Opis
 
 Profile narzędziowe są podstawową częścią systemu [narzędzi](Path_Tools/pl.md). Profile narzędzi są szablonami, na podstawie których tworzone są końcówki narzędzi *(ToolBits)*. Reprezentują one konkretny fizyczny kształt narzędzia. Kształt *(ToolShape)* nie opisuje w pełni końcówki - do tego potrzebne są dodatkowe parametry, które zostaną dodane, gdy rzeczywista końcówka zostanie określona parametrami na podstawie szablonu.
@@ -110,4 +108,4 @@ Ważne uwagi:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolShape/pl
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolShape/pl

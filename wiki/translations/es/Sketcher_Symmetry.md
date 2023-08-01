@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher Symmetry
-   Name/es:Croquizador Simetria
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation:Sketch - Herriamentas Croquizador - Simetria
-   Version:0.16
+   Name: Sketcher Symmetry
+   Name/es: Croquizador Simetria
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   MenuLocation: Sketch - Herriamentas Croquizador - Simetria
+   Version: 0.16
 ---
 
 # Sketcher Symmetry/es
@@ -45,4 +45,4 @@ Tenga en cuenta que no se añadirá ninguna restricción de simetría adicional.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Symmetry/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Symmetry/es

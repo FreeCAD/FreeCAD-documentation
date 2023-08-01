@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:EM FHSolver
-   Name/fr:EM Solveur FH
-   MenuLocation:EM - FHSolver
-   Workbenches:[EM](EM_Workbench/fr.md)
-   Shortcut:**E** **X**
-   Version:0.17
-   SeeAlso:[EM  Fichier entrée FH](EM_FHInputFile/fr.md), [EM Noeud FH](EM_FHNode/fr.md), [EM Segment FH](EM_FHSegment/fr.md), [EM Chemin Fh](EM_FHPath/fr.md), [EM Plan FH](EM_FHPlane/fr.md), [EM Equivalence FH](EM_FHEquiv/fr.md), [EM Port FH](EM_FHPort/fr.md)
+   Name: EM FHSolver
+   Name/fr: EM Solveur FH
+   MenuLocation: EM - FHSolver
+   Workbenches: [EM](EM_Workbench/fr.md)
+   Shortcut: **E** **X**
+   Version: 0.17
+   SeeAlso: [EM  Fichier entrée FH](EM_FHInputFile/fr.md), [EM Noeud FH](EM_FHNode/fr.md), [EM Segment FH](EM_FHSegment/fr.md), [EM Chemin Fh](EM_FHPath/fr.md), [EM Plan FH](EM_FHPlane/fr.md), [EM Equivalence FH](EM_FHEquiv/fr.md), [EM Port FH](EM_FHPort/fr.md)
 ---
 
 # EM FHSolver/fr
@@ -117,4 +117,4 @@ fhsolver = EM.makeFHSolver()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [EM](Category_EM.md) > EM FHSolver/fr
+⏵ [documentation index](../README.md) > [EM](Category_EM.md) > EM FHSolver/fr

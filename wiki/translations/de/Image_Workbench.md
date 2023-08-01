@@ -5,7 +5,7 @@ Seine Funktionalität wurde in [Std Basis](Std_Base/de.md) integriert. Siehe [St
 <img alt="Bild Arbeitsbereichssymbol" src=images/Workbench_Image.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 
 
@@ -50,4 +50,4 @@ Der Versatz des Bildes kann beim Import eingestellt oder später über seine Eig
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Image](Category_Image.md) > Image Workbench/de
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Image](Category_Image.md) > Image Workbench/de

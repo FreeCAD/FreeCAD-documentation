@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Raytracing WriteCamera
-   Name/fr:Raytracing Export de la pièce vers Pov-Ray
-   MenuLocation:Raytracing - Utilitaires - Exporter la pièce vers Pov-Ray
-‏‎   Workbenches:[Raytracing](Raytracing_Workbench/fr.md)
-   Shortcut:
-   SeeAlso:
+   Name: Raytracing WriteCamera
+   Name/fr: Raytracing Export de la pièce vers Pov-Ray
+   MenuLocation: Raytracing - Utilitaires - Exporter la pièce vers Pov-Ray
+‏‎   Workbenches: [Raytracing](Raytracing_Workbench/fr.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Raytracing WritePart/fr
@@ -36,4 +36,4 @@ Exporte la pièce sélectionnée dans un fichier pov à utiliser dans un projet 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WritePart/fr
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WritePart/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Вставить знак
-   Name:TechDraw_Symbol
-   MenuLocation:TechDraw - Вставить SVG знак
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Шаблоны](TechDraw_Templates/ru.md), [Draft SVG](Draft_SVG/ru.md)
+   Name/ru: Вставить знак
+   Name: TechDraw_Symbol
+   MenuLocation: TechDraw - Вставить SVG знак
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso: [Шаблоны](TechDraw_Templates/ru.md), [Draft SVG](Draft_SVG/ru.md)
 ---
 
 # TechDraw Symbol/ru
@@ -85,4 +85,4 @@ rc = page.addView(sym)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Symbol/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Symbol/ru

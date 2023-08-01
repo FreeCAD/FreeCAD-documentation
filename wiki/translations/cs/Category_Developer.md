@@ -12,4 +12,4 @@ This category contains articles that are relevant for developers.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Developer/cs
+⏵ [documentation index](../README.md) > Category:Developer/cs

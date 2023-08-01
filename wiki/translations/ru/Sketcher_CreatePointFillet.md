@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name/ru:Скругление с сохранением точки пересечения
-   Name:Sketcher_CreatePointFillet
-   MenuLocation:Sketch - Геометрия эскиза - Создать скругление с сохранением точки пересечения
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**G** **F** **P**
-   Version:0.19
-   SeeAlso:[Создать скругление](Sketcher_CreateFillet/ru.md)
+   Name/ru: Скругление с сохранением точки пересечения
+   Name: Sketcher_CreatePointFillet
+   MenuLocation: Sketch - Геометрия эскиза - Создать скругление с сохранением точки пересечения
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **G** **F** **P**
+   Version: 0.19
+   SeeAlso: [Создать скругление](Sketcher_CreateFillet/ru.md)
 ---
 
 # Sketcher CreatePointFillet/ru
@@ -28,4 +28,4 @@ This tool creates a fillet between two lines. The (virtual) intersection of the 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePointFillet/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePointFillet/ru

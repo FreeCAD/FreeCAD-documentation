@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Label
-   Name/de:Draft Notiz
-   MenuLocation:Anmerkung - Bezeichnung
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Shortcut:**D** **L**
-   Version:0.17
-   SeeAlso:[Draft Text](Draft_Text/de.md), [Draft Textform](Draft_ShapeString/de.md)
+   Name: Draft Label
+   Name/de: Draft Notiz
+   MenuLocation: Anmerkung - Bezeichnung
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut: **D** **L**
+   Version: 0.17
+   SeeAlso: [Draft Text](Draft_Text/de.md), [Draft Textform](Draft_ShapeString/de.md)
 ---
 
 # Draft Label/de
@@ -253,4 +253,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Label/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Label/de

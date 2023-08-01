@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ToggleClipPlane
-   Name/de:Std Schnittebene
-   MenuLocation:Ansicht - Schnittebene
-   Workbenches:Alle
-   SeeAlso:[Part Schnittansicht](Part_SectionCut/de.md)
+   Name: Std ToggleClipPlane
+   Name/de: Std Schnittebene
+   MenuLocation: Ansicht - Schnittebene
+   Workbenches: Alle
+   SeeAlso: [Part Schnittansicht](Part_SectionCut/de.md)
 ---
 
 # Std ToggleClipPlane/de
@@ -56,4 +56,4 @@ Der Befehl **Std Schnittebene** blendet Objekte und Teile von Objekten aus, die 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleClipPlane/de
+⏵ [documentation index](../README.md) > Std ToggleClipPlane/de

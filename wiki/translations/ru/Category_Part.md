@@ -39,4 +39,4 @@ This category lists pages related to the [Part Workbench/ru](Part_Workbench/ru.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Part/ru
+⏵ [documentation index](../README.md) > Category:Part/ru

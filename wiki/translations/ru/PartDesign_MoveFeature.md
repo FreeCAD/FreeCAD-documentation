@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign MoveFeature
-   Name/ru:Перемещение объекта в другое тело
-   MenuLocation:Контекстное меню - Перемещение объекта в другое тело
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Установить точку завершения расчёта тела](PartDesign_MoveTip/ru.md), [Поместить объект позади другого объекта](PartDesign_MoveFeatureInTree/ru.md)
+   Name: PartDesign MoveFeature
+   Name/ru: Перемещение объекта в другое тело
+   MenuLocation: Контекстное меню - Перемещение объекта в другое тело
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Установить точку завершения расчёта тела](PartDesign_MoveTip/ru.md), [Поместить объект позади другого объекта](PartDesign_MoveFeatureInTree/ru.md)
 ---
 
 # PartDesign MoveFeature/ru
@@ -36,4 +36,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeature/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeature/ru

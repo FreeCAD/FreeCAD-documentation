@@ -1,8 +1,4 @@
 # Navigation Cube/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 **Kostka nawigacyjna** daje wizualną informację o orientacji ujęcia widoku kamery w bieżącym [widoku 3D](3D_view/pl.md) i może być użyta do jej zmiany. Domyślnie jest ona widoczna i znajduje się w prawym górnym rogu okna.
@@ -164,4 +160,4 @@ Poniższa tabela zawiera listę innych zaawansowanych parametrów Kostki nawigac
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Navigation Cube/pl
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Navigation Cube/pl

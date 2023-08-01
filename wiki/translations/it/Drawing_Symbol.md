@@ -1,6 +1,6 @@
 # Drawing Symbol/it
 ---
-- GuiCommand:   Name:Drawing Symbol   Name/it:Simbolo   Workbenches:[[Drawing Workbench/it   Drawing]], Completo|MenuLocation:Drawing - Simbolo   Shortcut: ---
+- GuiCommand:   Name: Drawing Symbol   Name/it: Simbolo   Workbenches: [[Drawing Workbench/it   Drawing]], Completo|MenuLocation: Drawing - Simbolo   Shortcut:  ---
 
 ### Descrizione
 
@@ -36,4 +36,4 @@ Questo comando consente di aggiungere il contenuto di un\'immagine SVG in una [p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Symbol/it
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Symbol/it

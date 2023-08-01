@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintDisplacement
-   Name/de:FEM RandbedingungVersatz
-   MenuLocation:Modell - Mechanische Randbedingungen - Randbedingung Versatz
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   Shortcut:
-   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
+   Name: FEM ConstraintDisplacement
+   Name/de: FEM RandbedingungVersatz
+   MenuLocation: Modell - Mechanische Randbedingungen - Randbedingung Versatz
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   Shortcut: 
+   SeeAlso: [FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM ConstraintDisplacement/de
@@ -101,4 +101,4 @@ For the <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintDisplacement/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintDisplacement/de

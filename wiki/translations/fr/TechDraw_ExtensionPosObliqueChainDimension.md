@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionPosObliqueChainDimension
-   Name/fr:TechDraw Aligner obliquement
-   MenuLocation:TechDraw - Extensions : attributs/modifications - Aligner obliquement
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw Aligner horizontalement](TechDraw_ExtensionPosHorizChainDimension.md), [TechDraw Aligner verticalement](TechDraw_ExtensionPosVertChainDimension.md)
+   Name: TechDraw ExtensionPosObliqueChainDimension
+   Name/fr: TechDraw Aligner obliquement
+   MenuLocation: TechDraw - Extensions : attributs/modifications - Aligner obliquement
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw Aligner horizontalement](TechDraw_ExtensionPosHorizChainDimension.md), [TechDraw Aligner verticalement](TechDraw_ExtensionPosVertChainDimension.md)
 ---
 
 # TechDraw ExtensionPosObliqueChainDimension/fr
@@ -40,4 +40,4 @@ L\'outil **TechDraw Aligner obliquement** aligne les cotes obliques pour créer 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPosObliqueChainDimension/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPosObliqueChainDimension/fr

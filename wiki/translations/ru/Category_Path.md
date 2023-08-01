@@ -21,4 +21,4 @@ This category lists pages related to the [PartDesign Workbench/ru](PartDesign_Wo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Path/ru
+⏵ [documentation index](../README.md) > Category:Path/ru

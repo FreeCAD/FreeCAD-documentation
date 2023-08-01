@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Arch_CompPanel
-   Name:Инструменты панелирования
-   MenuLocation:Arch - Инструменты панелирования
-   Workbenches:[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:
+   Name/ru: Arch_CompPanel
+   Name: Инструменты панелирования
+   MenuLocation: Arch - Инструменты панелирования
+   Workbenches: [Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: 
 ---
 
 # Arch CompPanel/ru
@@ -27,4 +27,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPanel/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPanel/ru

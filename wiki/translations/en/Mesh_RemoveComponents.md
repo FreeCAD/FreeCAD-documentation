@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh_RemoveComponents
-   MenuLocation:Meshes - Remove components...
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh RemoveCompByHand](Mesh_RemoveCompByHand.md), [Arch SplitMesh](Arch_SplitMesh.md)
+   Name: Mesh_RemoveComponents
+   MenuLocation: Meshes - Remove components...
+   Workbenches: [Mesh](Mesh_Workbench.md)
+   SeeAlso: [Mesh RemoveCompByHand](Mesh_RemoveCompByHand.md), [Arch SplitMesh](Arch_SplitMesh.md)
 ---
 
 # Mesh RemoveComponents/en
@@ -45,4 +45,4 @@ The **Mesh RemoveComponents** command removes faces from mesh objects.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveComponents/en
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveComponents/en

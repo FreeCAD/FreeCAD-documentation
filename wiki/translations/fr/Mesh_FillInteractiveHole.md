@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh FillInteractiveHole
-   Name/fr:Mesh Boucher un trou
-   MenuLocation:Maillages - Boucher un trou
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Remplir les trous](Mesh_FillupHoles/fr.md), [Mesh Ajouter un triangle](Mesh_AddFacet/fr.md)
+   Name: Mesh FillInteractiveHole
+   Name/fr: Mesh Boucher un trou
+   MenuLocation: Maillages - Boucher un trou
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
+   SeeAlso: [Mesh Remplir les trous](Mesh_FillupHoles/fr.md), [Mesh Ajouter un triangle](Mesh_AddFacet/fr.md)
 ---
 
 # Mesh FillInteractiveHole/fr
@@ -45,4 +45,4 @@ La commande **Boucher un trou** remplit les trous sélectionnés dans les objets
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillInteractiveHole/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillInteractiveHole/fr

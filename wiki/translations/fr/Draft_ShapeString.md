@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft ShapeString
-   Name/fr:Draft Formes à partir texte
-   MenuLocation:Draft - Formes à partir de texte
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:
-   Version/fr:0.14
-   SeeAlso:[Draft Texte](Draft_Text/fr.md), [Draft Etiquette](Draft_Label/fr.md), [Part Extrusion](Part_Extrude/fr.md)
+   Name: Draft ShapeString
+   Name/fr: Draft Formes à partir texte
+   MenuLocation: Draft - Formes à partir de texte
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut: 
+   Version/fr: 0.14
+   SeeAlso: [Draft Texte](Draft_Text/fr.md), [Draft Etiquette](Draft_Label/fr.md), [Part Extrusion](Part_Extrude/fr.md)
 ---
 
 # Draft ShapeString/fr
@@ -156,4 +156,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShapeString/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShapeString/fr

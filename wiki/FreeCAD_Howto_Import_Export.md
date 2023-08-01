@@ -6,7 +6,7 @@ This page attempts to answer the most common questions asked on the FreeCAD foru
 Then, if you cannot find an answer for your specific question, head to the FreeCAD [forum](http://forum.freecadweb.org/)!
 
 
-{{TOCright}}
+
 
 ## Import 2D/3D Data 
 
@@ -252,4 +252,4 @@ Please refer to the Page [Importing From Sketchup](Importing_From_Sketchup.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FreeCAD Howto Import Export
+⏵ [documentation index](../README.md) > FreeCAD Howto Import Export

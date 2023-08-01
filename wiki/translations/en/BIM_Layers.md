@@ -1,9 +1,9 @@
 ---
 - GuiCommand:Addon
-   Name:BIM Layers
-   Workbenches:[BIM](BIM_Workbench.md)
-   Addon:BIM
-   MenuLocation:Manage - Layers
+   Name: BIM Layers
+   Workbenches: [BIM](BIM_Workbench.md)
+   Addon: BIM
+   MenuLocation: Manage - Layers
 ---
 
 # BIM Layers/en
@@ -21,4 +21,4 @@ The layers manager allow you to manage your layers, add or remove layers, or cha
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Layers/en
+⏵ [documentation index](../README.md) > BIM Layers/en

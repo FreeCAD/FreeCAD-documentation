@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Wire
-   Name/es:Draft Wire
-   MenuLocation:Croquis -> Polilínea
-   Workbenches:[Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   Shortcut:**P** **L**
-   Version:0.7
-   SeeAlso:[Línea Boceto](Draft_Line/es.md), [BSpline Boceto](Draft_BSpline/es.md)
+   Name: Draft Wire
+   Name/es: Draft Wire
+   MenuLocation: Croquis -> Polilínea
+   Workbenches: [Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut: **P** **L**
+   Version: 0.7
+   SeeAlso: [Línea Boceto](Draft_Line/es.md), [BSpline Boceto](Draft_BSpline/es.md)
 ---
 
 # Draft Wire/es
@@ -218,4 +218,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/es

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std Refresh
-   Name/ko:표준 새로 고침
-   MenuLocation:편집 - 새로 고침
-   Workbenches:모두
-   Shortcut:**F5**
+   Name: Std Refresh
+   Name/ko: 표준 새로 고침
+   MenuLocation: 편집 - 새로 고침
+   Workbenches: 모두
+   Shortcut: **F5**
 ---
 
 # Std Refresh/ko
@@ -79,4 +79,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Refresh/ko
+⏵ [documentation index](../README.md) > Std Refresh/ko

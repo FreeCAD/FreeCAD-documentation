@@ -1,6 +1,6 @@
 # Mesh Import/ro
 ---
-- GuiCommand:   Name:Mesh ImportMesh‏‎   MenuLocation:Meshes - Import Mesh   Workbenches:[SeeAlso:[[Std_Import|Std Import](Mesh_Workbench___Mesh]].md)---
+- GuiCommand:   Name: Mesh ImportMesh‏‎   MenuLocation: Meshes - Import Mesh   Workbenches: [SeeAlso: [[Std_Import|Std Import](Mesh_Workbench___Mesh]].md)---
 
 
 </div>
@@ -73,4 +73,4 @@ Mesh.insert('D:/testfiles/cylinder.stl')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Import/ro
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Import/ro

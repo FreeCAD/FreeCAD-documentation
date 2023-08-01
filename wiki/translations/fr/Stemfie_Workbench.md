@@ -1,6 +1,4 @@
 # Stemfie Workbench/fr
-{{TOCright}}
-
 ## Introduction
 
 L\'atelier Stemfie est un [atelier externe](External_workbenches/fr.md) visant à mettre en œuvre un ensemble paramétrique de pièces pour le [Stemfie project](https://www.stemfie.org/).
@@ -18,4 +16,4 @@ L\'atelier Stenfie n\'est pas inclus dans le package FreeCAD par défaut mais pe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External_Workbenches](Category_External_Workbenches.md) > Stemfie Workbench/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External_Workbenches](Category_External_Workbenches.md) > Stemfie Workbench/fr

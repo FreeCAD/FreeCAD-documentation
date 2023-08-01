@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part SectionCut
-   Name/it:Taglio sezione persistente
-   MenuLocation:Visualizza - Taglio sezione persistente
-   Workbenches:Tutti
-   Version:0.20
-   SeeAlso:[Piano di taglio](Std_ToggleClipPlane/it.md)
+   Name: Part SectionCut
+   Name/it: Taglio sezione persistente
+   MenuLocation: Visualizza - Taglio sezione persistente
+   Workbenches: Tutti
+   Version: 0.20
+   SeeAlso: [Piano di taglio](Std_ToggleClipPlane/it.md)
 ---
 
 # Part SectionCut/it
@@ -115,4 +115,4 @@ Tutti gli oggetti visibili vengono inseriti in un <img alt="" src=images/Part_Co
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SectionCut/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SectionCut/it

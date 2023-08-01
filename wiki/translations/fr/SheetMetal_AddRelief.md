@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:SheetMetal AddRelief
-   Name/fr:SheetMetal Grugeage carré
-   MenuLocation:SheetMetal - Make Relief
-   Workbenches:[SheetMetal](SheetMetal_Workbench/fr.md)
-   Shortcut:**S** **R**
-   SeeAlso:[SheetMetal Découpe d'angle](SheetMetal_AddJunction/fr.md), [SheetMetal Transformation en pli](SheetMetal_AddBend/fr.md)
+   Name: SheetMetal AddRelief
+   Name/fr: SheetMetal Grugeage carré
+   MenuLocation: SheetMetal - Make Relief
+   Workbenches: [SheetMetal](SheetMetal_Workbench/fr.md)
+   Shortcut: **S** **R**
+   SeeAlso: [SheetMetal Découpe d'angle](SheetMetal_AddJunction/fr.md), [SheetMetal Transformation en pli](SheetMetal_AddBend/fr.md)
 ---
 
 # SheetMetal AddRelief/fr
@@ -83,4 +83,4 @@ Un objet SheetMetal Grugeage carré est dérivé d\'un objet [Part Feature](Part
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddRelief/fr
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddRelief/fr

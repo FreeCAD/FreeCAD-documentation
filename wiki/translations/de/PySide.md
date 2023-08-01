@@ -1,6 +1,4 @@
 # PySide/de
-{{TOCright}}
-
 ## Einführung
 
 Die [PySide](PySide.md) Bibliothek ermöglicht den Zugriff auf das plattformübergreifende GUI Werkzeugsatz Qt von [Python](Python/de.md). Qt ist eine Sammlung von C++ Bibliotheken, aber mit Hilfe von PySide können die gleichen Komponenten von [Python](Python/de.md) aus verwendet werden. Jede grafische Oberfläche, die in C++ erstellt werden kann, kann auch in Python erstellt und modifiziert werden. Ein Vorteil der Verwendung von Python ist, dass Qt Oberflächen entwickelt und live getestet werden können, da wir die Quelldateien nicht kompilieren müssen.
@@ -67,4 +65,4 @@ Die PySide Dokumentation bezieht sich auf die Klassen im Python Stil; da Qt jedo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > PySide/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > PySide/de

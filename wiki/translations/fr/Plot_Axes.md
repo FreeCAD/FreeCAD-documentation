@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Plot Axes
-   Name/fr:Plot Axes
-   MenuLocation:Plot - Configurer les axes‏‎
-   Workbenches:[Plot](Plot_Workbench/fr.md)
+   Name: Plot Axes
+   Name/fr: Plot Axes
+   MenuLocation: Plot - Configurer les axes‏‎
+   Workbenches: [Plot](Plot_Workbench/fr.md)
 ---
 
 # Plot Axes/fr
@@ -56,4 +56,4 @@ Enfin, vous pouvez définir les valeurs minimales et maximales prises en compte 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Axes/fr
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Axes/fr

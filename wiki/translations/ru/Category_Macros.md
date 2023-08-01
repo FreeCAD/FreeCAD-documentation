@@ -22,4 +22,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Macros/ru
+⏵ [documentation index](../README.md) > Category:Macros/ru

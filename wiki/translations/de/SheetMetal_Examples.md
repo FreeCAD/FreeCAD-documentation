@@ -1,8 +1,4 @@
 # SheetMetal Examples/de
-{{TOCright}}
-
-
-
 ## Einführung
 
 Der Arbeitsbereich <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:24px;"> [SheetMetal](SheetMetal_Workbench/de.md) (ein [externer Arbeitsbereich](External_workbenches/de.md), der durch den [Addon-Manager](Std_AddonMgr/de.md) zur Verfügung gestellt wird) ist ziemlich mächtig geworden und verlangt jetzt nach einer angemessenen Dokumentation.
@@ -480,4 +476,4 @@ Verschmolzenes Profil → Profil mit verzahnter Erweiterung; dieses Endergebnis 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal Examples/de
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal Examples/de

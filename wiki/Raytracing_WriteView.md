@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Raytracing WriteView
-   MenuLocation:Raytracing  - Utilities - Export view to POV-Ray...
-   Workbenches:[Raytracing](Raytracing_Workbench.md)
-   Shortcut:
-   SeeAlso:
+   Name: Raytracing WriteView
+   MenuLocation: Raytracing  - Utilities - Export view to POV-Ray...
+   Workbenches: [Raytracing](Raytracing_Workbench.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Raytracing WriteView
@@ -30,4 +30,4 @@ Exports the current view properties to a pov-file for use in a POV-Ray project.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteView
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteView

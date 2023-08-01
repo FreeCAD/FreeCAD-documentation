@@ -1,8 +1,4 @@
 # Standard Menu/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 Standardowe menu daje dostęp do narzędzi, które mogą być używane na wszystkich stanowiskach pracy. Menu może wyglądać nieco inaczej w zależności od środowiska graficznego *(KDE, Gnome, Windows, Mac OS, itd.)*. Poszczególne Środowiska pracy mogą również dodawać podmenu w zależności od tego, jak ustalają strukturę swoich narzędzi.
@@ -53,4 +49,4 @@ Standardowe menu składa się z 7 podmenu:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Standard Menu/pl
+⏵ [documentation index](../README.md) > Standard Menu/pl

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ProjectInfo
-   Name/ru:Std ProjectInfo
-   MenuLocation:Файл - Информация о проекте
-   Workbenches:All
-   SeeAlso:[Std New](Std_New/ru.md)
+   Name: Std ProjectInfo
+   Name/ru: Std ProjectInfo
+   MenuLocation: Файл - Информация о проекте
+   Workbenches: All
+   SeeAlso: [Std New](Std_New/ru.md)
 ---
 
 # Std ProjectInfo/ru
@@ -49,4 +49,4 @@ The **Std ProjectInfo** command shows a dialog box with project information belo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ProjectInfo/ru
+⏵ [documentation index](../README.md) > Std ProjectInfo/ru

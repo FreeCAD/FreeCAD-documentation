@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM ElementGeometry1D
-   Name/ru:FEM ElementGeometry1D
-   MenuLocation:Model - Beam cross section
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:**C** **B**
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM ElementGeometry1D
+   Name/ru: FEM ElementGeometry1D
+   MenuLocation: Model - Beam cross section
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   Shortcut: **C** **B**
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM ElementGeometry1D/ru
@@ -51,4 +51,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementGeometry1D/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementGeometry1D/ru

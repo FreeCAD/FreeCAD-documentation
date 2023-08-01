@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Measure Toggle All
-   Name/pl:Część: Włącz / wyłącz widoczność pomiarów
-   MenuLocation:Pomiary - Włącz / wyłącz widoczność pomiarów
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Włącz / wyłącz widok pomiarów 3D](Part_Measure_Toggle_3D/pl.md), [Włącz / wyłącz widok pomiarów przyrostowych](Part_Measure_Toggle_Delta/pl.md)
+   Name: Part Measure Toggle All
+   Name/pl: Część: Włącz / wyłącz widoczność pomiarów
+   MenuLocation: Pomiary - Włącz / wyłącz widoczność pomiarów
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: [Włącz / wyłącz widok pomiarów 3D](Part_Measure_Toggle_3D/pl.md), [Włącz / wyłącz widok pomiarów przyrostowych](Part_Measure_Toggle_Delta/pl.md)
 ---
 
 # Part Measure Toggle All/pl
@@ -28,4 +28,4 @@ To polecenie przełącza widoczność wszystkich pomiarów w oknie [widoku 3D](3
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle All/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle All/pl

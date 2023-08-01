@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch MeshToShape
-   Name/fr:Arch Maillage vers une forme
-   MenuLocation:Arch - Utilitaires - Maillage vers forme
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Arch Séparer un objet Mesh](Arch_SplitMesh/fr.md), [Arch Supprimer la forme](Arch_RemoveShape/fr.md)
+   Name: Arch MeshToShape
+   Name/fr: Arch Maillage vers une forme
+   MenuLocation: Arch - Utilitaires - Maillage vers forme
+   Workbenches: [Arch](Arch_Workbench/fr.md)
+   SeeAlso: [Arch Séparer un objet Mesh](Arch_SplitMesh/fr.md), [Arch Supprimer la forme](Arch_RemoveShape/fr.md)
 ---
 
 # Arch MeshToShape/fr
@@ -70,4 +70,4 @@ new_obj = Arch.meshToShape(Box)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/fr

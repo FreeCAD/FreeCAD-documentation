@@ -1,6 +1,4 @@
 # Sketcher Preferences/fr
-{{TOCright}}
-
 Les préférences pour l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [atelier Sketcher](Sketcher_Workbench/fr.md) se trouvent dans [Réglage des préférences](Preferences_Editor/fr.md). Dans le menu, sélectionnez **Édition → Préférences...** puis **Sketcher**.
 
 Il existe quatre onglets : [Général](#G.C3.A9n.C3.A9ral.md), [Grille](#Grille.md), [Affichage](#Affichage.md) et [Couleurs](#Couleurs.md).
@@ -298,4 +296,4 @@ Voir ce [fil du forum](https://forum.freecad.org/viewtopic.php?t=70975&start=10)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Preferences/fr
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Preferences/fr

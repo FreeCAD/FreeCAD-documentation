@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Constraint Parallel
-   Name/sv:Constraint Parallel
-   Workbenches:[Sketcher](Sketcher_Workbench/sv.md), [PartDesign](PartDesign_Workbench/sv.md)
-   MenuLocation:Sketch - Sketcher constraints - Constrain parallel
-   SeeAlso:[Constraint Vertical](Sketcher_ConstrainVertical/sv.md), [Constraint Horizontal](Sketcher_ConstrainHorizontal/sv.md)
+   Name: Constraint Parallel
+   Name/sv: Constraint Parallel
+   Workbenches: [Sketcher](Sketcher_Workbench/sv.md), [PartDesign](PartDesign_Workbench/sv.md)
+   MenuLocation: Sketch - Sketcher constraints - Constrain parallel
+   SeeAlso: [Constraint Vertical](Sketcher_ConstrainVertical/sv.md), [Constraint Horizontal](Sketcher_ConstrainHorizontal/sv.md)
 ---
 
 # Sketcher ConstrainParallel/sv
@@ -58,4 +58,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainParallel/sv
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainParallel/sv

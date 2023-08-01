@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std PrintPreview
-   Name/ko:표준 인쇄 미리 보기
-   MenuLocation:파일 - 인쇄 미리 보기...
-   Workbenches:모두
-   SeeAlso:[표준 인쇄](Std_Print/ko.md)
+   Name: Std PrintPreview
+   Name/ko: 표준 인쇄 미리 보기
+   MenuLocation: 파일 - 인쇄 미리 보기...
+   Workbenches: 모두
+   SeeAlso: [표준 인쇄](Std_Print/ko.md)
 ---
 
 # Std PrintPreview/ko
@@ -41,4 +41,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std PrintPreview/ko
+⏵ [documentation index](../README.md) > Std PrintPreview/ko

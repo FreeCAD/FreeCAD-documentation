@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh AddFacet
-   Name/fr:Mesh Ajouter un triangle
-   MenuLocation:Maillages - Ajouter un triangle
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Remplir les trous](Mesh_FillupHoles/fr.md), [Mesh Boucher un trou](Mesh_FillInteractiveHole/fr.md)
+   Name: Mesh AddFacet
+   Name/fr: Mesh Ajouter un triangle
+   MenuLocation: Maillages - Ajouter un triangle
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
+   SeeAlso: [Mesh Remplir les trous](Mesh_FillupHoles/fr.md), [Mesh Boucher un trou](Mesh_FillInteractiveHole/fr.md)
 ---
 
 # Mesh AddFacet/fr
@@ -59,4 +59,4 @@ Pour une indication plus précise de l\'orientation des faces des objets maillé
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh AddFacet/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh AddFacet/fr

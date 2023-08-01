@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Смещение
-   Name:Draft_Offset
-   MenuLocation:Modification - Смещение
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:**O** **S**
-   SeeAlso:[2D смещение...](Part_Offset2D/ru.md)
+   Name/ru: Смещение
+   Name: Draft_Offset
+   MenuLocation: Modification - Смещение
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: **O** **S**
+   SeeAlso: [2D смещение...](Part_Offset2D/ru.md)
 ---
 
 # Draft Offset/ru
@@ -126,4 +126,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Offset/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Offset/ru

@@ -1,8 +1,4 @@
 # TechDraw Preferences/de
-{{TOCright}}
-
-
-
 ## Einführung
 
 Die Einstellungen des [TechDraw Arbeitsbereichs](TechDraw_Workbench/de.md) befinden sich im [Einstellungseditor](Preferences_Editor/de.md), **Bearbeiten → Einstellungen → TechDraw**.
@@ -211,4 +207,4 @@ HLR steht für *Entfernen verdeckter Linien* (engl.: hidden line removal).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/de
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/de

@@ -1,6 +1,6 @@
 # Robot InsertWaypoint/it
 ---
-- GuiCommand:   Name:Robot InsertWaypoint   Name/it:Inserisci un punto nella traiettoria   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot - Inserisci un punto nella traiettoria   Shortcut:A   SeeAlso:---
+- GuiCommand:   Name: Robot InsertWaypoint   Name/it: Inserisci un punto nella traiettoria   Workbenches: [[Robot_Workbench/it   Robot]]|MenuLocation: Robot - Inserisci un punto nella traiettoria   Shortcut: A   SeeAlso: ---
 
 
 </div>
@@ -63,4 +63,4 @@ Per spostare un robot:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypoint/it
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypoint/it

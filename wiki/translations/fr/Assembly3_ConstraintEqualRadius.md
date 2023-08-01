@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintEqualRadius
-   Name/fr:Assembly3 Contrainte rayon
-   Icon:Assembly_ConstraintEqualRadius.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 ConstraintEqualRadius
+   Name/fr: Assembly3 Contrainte rayon
+   Icon: Assembly_ConstraintEqualRadius.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintEqualRadius/fr
@@ -35,4 +35,4 @@ La valeur du rayon du premier cercle ou arc sélectionné est égale à la valeu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintEqualRadius/fr
+⏵ [documentation index](../README.md) > Assembly3 ConstraintEqualRadius/fr

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Rotate
-   Name/pl:Rysunek Roboczy: Obróć
-   MenuLocation:Modyfikacja - Obróć
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut:**R** **O**
-   SeeAlso:[Podświetl element podrzędny](Draft_SubelementHighlight/pl.md)
-   Version:0.7
+   Name: Draft Rotate
+   Name/pl: Rysunek Roboczy: Obróć
+   MenuLocation: Modyfikacja - Obróć
+   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut: **R** **O**
+   SeeAlso: [Podświetl element podrzędny](Draft_SubelementHighlight/pl.md)
+   Version: 0.7
 ---
 
 # Draft Rotate/pl
@@ -124,4 +124,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/pl

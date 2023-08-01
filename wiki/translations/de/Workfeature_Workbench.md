@@ -4,7 +4,7 @@
 {{Note|Hinweis|Zusammenführen mit [Makro Workfeature](Macro_WorkFeatures/de.md)??}}
 
 
-{{TOCright}}
+
 
 ## Einführung
 
@@ -78,4 +78,4 @@ Dieser Arbeitsbereich kann über den [Erweiterungsverwalter](Std_AddonMgr/de.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Workfeature Workbench/de
+⏵ [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Workfeature Workbench/de

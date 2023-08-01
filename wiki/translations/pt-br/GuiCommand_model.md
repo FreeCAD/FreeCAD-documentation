@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Base ExampleCommandModel
-   Icon: 
-   MenuLocation:Menu - Submenu - Menu text for the command
-   Workbenches:[Workbench](Workbench_Name.md)
-   Shortcut:**F** **C**
-   Version:0.19
-   SeeAlso: 
+   Name: Base ExampleCommandModel
+   Icon:  
+   MenuLocation: Menu - Submenu - Menu text for the command
+   Workbenches: [Workbench](Workbench_Name.md)
+   Shortcut: **F** **C**
+   Version: 0.19
+   SeeAlso:  
 ---
 
 # GuiCommand model/pt-br
@@ -218,4 +218,4 @@ Optional.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbench_Tools_navi{{#translation:}}}} <!--use the](Category_Workbench_Tools_navi{{#translation:}}}} <!--use the.md) > GuiCommand model/pt-br
+⏵ [documentation index](../README.md) > [Workbench_Tools_navi{{#translation:}}}} <!--use the](Category_Workbench_Tools_navi{{#translation:}}}} <!--use the.md) > GuiCommand model/pt-br

@@ -1,6 +1,6 @@
 # WebTools Sketchfab/ro
 ---
-- GuiCommand:   Name:WebTools Sketchfab   MenuLocation:WebTools - Sketchfab   |Workbenches:[[WebTools Workbench   WebTools]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: WebTools Sketchfab   MenuLocation: WebTools - Sketchfab   |Workbenches: [[WebTools Workbench   WebTools]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -43,4 +43,4 @@ Acest instrument vă permite să exportați sau să faceți upload de obiecte pe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > WebTools Sketchfab/ro
+⏵ [documentation index](../README.md) > WebTools Sketchfab/ro

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ImportMultiDocument
-   Name/de:Assembly3 MehrfachdokumentEinfügen
-   Icon:Assembly_Import.svg
-   MenuLocation:Assembly3 - Import from STEP - Import as multi-document
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ImportMultiDocument
+   Name/de: Assembly3 MehrfachdokumentEinfügen
+   Icon: Assembly_Import.svg
+   MenuLocation: Assembly3 - Import from STEP - Import as multi-document
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ImportMultiDocument/de
@@ -23,4 +23,4 @@ STEP-Baugruppen werden als separate Dokumente eingefügt.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ImportMultiDocument/de
+⏵ [documentation index](../README.md) > Assembly3 ImportMultiDocument/de

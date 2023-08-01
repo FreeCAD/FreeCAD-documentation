@@ -99,4 +99,4 @@ A página de bancadas de trabalho externas ([Bancadas de trabalho externas](exte
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/pt-br
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/pt-br

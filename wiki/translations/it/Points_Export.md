@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Points Export
-   Name/it:Esporta punti 
-   MenuLocation:Punti - Esporta punti
-   Workbenches:[Punti](Points_Workbench/it.md)
-   SeeAlso:[Importa punti](Points_Import/it.md)
-   Icon:Points_Export.svg
+   Name: Points Export
+   Name/it: Esporta punti 
+   MenuLocation: Punti - Esporta punti
+   Workbenches: [Punti](Points_Workbench/it.md)
+   SeeAlso: [Importa punti](Points_Import/it.md)
+   Icon: Points_Export.svg
 ---
 
 # Points Export/it
@@ -34,4 +34,4 @@ Il comando **Esporta punti** esporta una nuvola di punti in un file.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Export/it
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Export/it

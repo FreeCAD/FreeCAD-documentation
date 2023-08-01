@@ -9,7 +9,7 @@ The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement
 A Bancada de trabalho Drawing (Desenho de Folhas) permite por os seus trabalho 3D no papel. Isto é , pôr vistas do modelo numa janela 2D e inserir essa janela numa folha de desenho, por exemplo uma folha com uma moldura, um título e o seu logótipo e finalmente imprimir essa folha. Esta bancada de trabalho está neste momento em construção e é por enquanto uma espécie de amostra do que esta tecnologia pode fazer!
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Drawing_extraction.png  style="width:600px;">
 
@@ -103,4 +103,4 @@ Some notes on the programming side of the drawing module will be added to the [D
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/pt
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/pt

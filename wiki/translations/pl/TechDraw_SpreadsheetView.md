@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:TechDraw SpreadsheetView
-   name/pl:Rysunek Techniczny: Wstaw widok Arkusza kalkulacyjnego
-   MenuLocation:Rysunek Techniczny - Wstaw widok Arkusza kalkulacyjnego
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md), [Arkusz kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   Name: TechDraw SpreadsheetView
+   name/pl: Rysunek Techniczny: Wstaw widok Arkusza kalkulacyjnego
+   MenuLocation: Rysunek Techniczny - Wstaw widok Arkusza kalkulacyjnego
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md), [Arkusz kalkulacyjny](Spreadsheet_Workbench/pl.md)
 ---
 
 # TechDraw SpreadsheetView/pl
@@ -77,4 +77,4 @@ Zapoznaj się również informacjami na stronie [właściwości widoku](TechDraw
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SpreadsheetView/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SpreadsheetView/pl

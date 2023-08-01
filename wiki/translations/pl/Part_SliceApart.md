@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part SliceApart
-   Name/pl:Część: Rozetnij
-   MenuLocation:Część - Rozdziel - Rozetnij
-   Workbenches:[Część](Part_Workbench/pl.md)
-   Version:0.18
-   SeeAlso:[Krojenie](Part_Slice/pl.md), [Rozbij kształt złożony](Part_ExplodeCompound/pl.md)
+   Name: Part SliceApart
+   Name/pl: Część: Rozetnij
+   MenuLocation: Część - Rozdziel - Rozetnij
+   Workbenches: [Część](Part_Workbench/pl.md)
+   Version: 0.18
+   SeeAlso: [Krojenie](Part_Slice/pl.md), [Rozbij kształt złożony](Part_ExplodeCompound/pl.md)
 ---
 
 # Part SliceApart/pl
@@ -83,4 +83,4 @@ Narzędzie zostało wprowadzone w wersji FreeCAD v0.18.15506. FreeCAD musi być 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/pl

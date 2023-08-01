@@ -1,6 +1,4 @@
 # HiDPI support
-{{TOCright}}
-
 ![Device pixel ratio. 100% = 1, 200% = 2, 150% = 1.5](images/HiDpiDevicePixelRatio.png )
 
 This is a [project](Development_roadmap.md) dedicated to support high-resolution displays in FreeCAD.
@@ -218,4 +216,4 @@ Qt doesn\'t provide the functionality to retrieve that value. So we have to eith
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > HiDPI support
+⏵ [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > HiDPI support

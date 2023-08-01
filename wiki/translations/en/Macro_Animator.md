@@ -37,4 +37,4 @@ ToolBar Icon ![](images/Animator.svg )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Animator/en
+⏵ [documentation index](../README.md) > Macro Animator/en

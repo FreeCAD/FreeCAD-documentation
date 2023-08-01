@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintLock
-   Icon:Assembly_ConstraintLock.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintLock
+   Icon: Assembly_ConstraintLock.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintLock
@@ -32,4 +32,4 @@ This can be used to define the fixed set in a static assembly as well as in a ki
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLock
+⏵ [documentation index](../README.md) > Assembly3 ConstraintLock

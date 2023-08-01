@@ -8,7 +8,7 @@
 **Lattice2 est stable. De nouvelles fonctionnalités peuvent être ajoutées, mais aucun changement radical n'est censé se produire.**
 
 
-{{TOCright}}
+
 
 L\'atelier Lattice2 est un [Atelier externe](External_workbenches/fr.md) de FreeCAD qui sert à travailler avec des emplacements et des réseaux d\'emplacements. Il s\'agit d\'une sorte d\'atelier d\'assemblage mais en mettant l\'accent sur les zones. Il n\'y a pas de contraintes et de relations, il n\'y a que des réseaux d\'emplacements qui peuvent être générés, combinés, transformés, superposés et peuplés de formes.
 
@@ -173,4 +173,4 @@ Après avoir installé l\'atelier, il devrait apparaître en bas de la liste du 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Lattice2 Workbench/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Lattice2 Workbench/fr

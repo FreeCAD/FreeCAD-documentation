@@ -20,4 +20,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [PartDesign](Category_PartDesign.md) > Artwork PartDesign/ru
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [PartDesign](Category_PartDesign.md) > Artwork PartDesign/ru

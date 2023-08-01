@@ -73,4 +73,4 @@ Consultez la [feuille de route du développement](Development_roadmap/fr.md) pou
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/fr
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/fr

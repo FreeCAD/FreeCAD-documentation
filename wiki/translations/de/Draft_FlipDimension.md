@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft FlipDimension
-   Name/de:Draft MaßKippen
-   MenuLocation:Änderung - Bemaßung umkehren
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Name: Draft FlipDimension
+   Name/de: Draft MaßKippen
+   MenuLocation: Änderung - Bemaßung umkehren
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
 ---
 
 # Draft FlipDimension/de
@@ -51,4 +51,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft FlipDimension/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft FlipDimension/de

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ToggleNavigation
-   Name/it:Attiva/disattiva la modalità modifica
-   MenuLocation:Visualizza - Attiva/disattiva la modalità modifica
-   Workbenches:Tutti
-   Shortcut:**Esc**
+   Name: Std ToggleNavigation
+   Name/it: Attiva/disattiva la modalità modifica
+   MenuLocation: Visualizza - Attiva/disattiva la modalità modifica
+   Workbenches: Tutti
+   Shortcut: **Esc**
 ---
 
 # Std ToggleNavigation/it
@@ -60,4 +60,4 @@ Non confondere questo comando con il comando [Modalità modifica](Std_Edit/it.md
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleNavigation/it
+⏵ [documentation index](../README.md) > Std ToggleNavigation/it

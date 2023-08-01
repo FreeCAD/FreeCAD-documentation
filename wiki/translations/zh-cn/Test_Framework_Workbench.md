@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Test Framework Workbench/zh-cn
+⏵ [documentation index](../README.md) > Test Framework Workbench/zh-cn

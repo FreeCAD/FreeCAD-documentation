@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Edit
-   Name/tr:Düzenle
-   MenuLocation:Taslak - Düzenle
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
-   Shortcut:**D** **E**
-   SeeAlso:[Std Edit](Std_Edit.md)
+   Name: Draft Edit
+   Name/tr: Düzenle
+   MenuLocation: Taslak - Düzenle
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   Shortcut: **D** **E**
+   SeeAlso: [Std Edit](Std_Edit.md)
 ---
 
 # Draft Edit/tr
@@ -226,4 +226,4 @@ Düzenleme aracı için uygun bir programlama arayüzü yoktur. Her nesne, nitel
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/tr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Pad
-   Name/es:DiseñoPieza Pastilla
-   MenuLocation:DiseñoPieza - Crear una característica aditiva - Pastilla
-   Workbenches:[DiseñoPiezas](PartDesign_Workbench/es.md)
-   SeeAlso:[DiseñoPiezas Cajera](PartDesign_Pocket/es.md)
+   Name: PartDesign Pad
+   Name/es: DiseñoPieza Pastilla
+   MenuLocation: DiseñoPieza - Crear una característica aditiva - Pastilla
+   Workbenches: [DiseñoPiezas](PartDesign_Workbench/es.md)
+   SeeAlso: [DiseñoPiezas Cajera](PartDesign_Pocket/es.md)
 ---
 
 # PartDesign Pad/es
@@ -285,4 +285,4 @@ Tapers the pad in the opposite extrusion direction by the given angle. A positiv
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad/es

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD RefineShapeFeature
-   Name/ru:OpenSCAD RefineShapeFeature
-   MenuLocation:OpenSCAD -Улучшить свойство фигуры
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/ru.md)
-   SeeAlso:---
+   Name: OpenSCAD RefineShapeFeature
+   Name/ru: OpenSCAD RefineShapeFeature
+   MenuLocation: OpenSCAD -Улучшить свойство фигуры
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench/ru.md)
+   SeeAlso: ---
 ---
 
 # OpenSCAD RefineShapeFeature/ru
@@ -48,4 +48,4 @@ Cleans unnecessary lines. After a Boolean operation, some lines defining the pre
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD RefineShapeFeature/ru
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD RefineShapeFeature/ru

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std PrintPdf
-   MenuLocation:File - Export PDF...
-   Workbenches:All
-   SeeAlso:[Std Print](Std_Print.md), [Std Export](Std_Export.md), [Std ViewScreenShot](Std_ViewScreenShot.md)
+   Name: Std PrintPdf
+   MenuLocation: File - Export PDF...
+   Workbenches: All
+   SeeAlso: [Std Print](Std_Print.md), [Std Export](Std_Export.md), [Std ViewScreenShot](Std_ViewScreenShot.md)
 ---
 
 # Std PrintPdf
@@ -40,4 +40,4 @@ The **Std PrintPdf** command is primarily intended to create [PDF](PDF.md) files
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std PrintPdf
+⏵ [documentation index](../README.md) > Std PrintPdf

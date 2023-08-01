@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Fasteners MatchTypeInner
-   Name/de:Fasteners AuswahlNachInnenmaß
-   MenuLocation:Fasteners - Match for tap hole
-   Workbenches:[Fasteners](Fasteners_Workbench/de.md)
-   SeeAlso:[Fasteners AuswahlNachAußenmaß](Fasteners_MatchTypeOuter/de.md)
+   Name: Fasteners MatchTypeInner
+   Name/de: Fasteners AuswahlNachInnenmaß
+   MenuLocation: Fasteners - Match for tap hole
+   Workbenches: [Fasteners](Fasteners_Workbench/de.md)
+   SeeAlso: [Fasteners AuswahlNachAußenmaß](Fasteners_MatchTypeOuter/de.md)
 ---
 
 # Fasteners MatchTypeInner/de
@@ -31,4 +31,4 @@ Der Befehl <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:24p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners MatchTypeInner/de
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners MatchTypeInner/de

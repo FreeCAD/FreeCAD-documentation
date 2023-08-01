@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh Import‏‎
-   Name/fr:Mesh Importer un maillage
-   MenuLocation:Maillages - Importer un maillage...
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Std Importer](Std_Import/fr.md), [Std Ouvrir](Std_Open/fr.md), [Import Export](Import_Export/fr.md)
+   Name: Mesh Import‏‎
+   Name/fr: Mesh Importer un maillage
+   MenuLocation: Maillages - Importer un maillage...
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
+   SeeAlso: [Std Importer](Std_Import/fr.md), [Std Ouvrir](Std_Open/fr.md), [Import Export](Import_Export/fr.md)
 ---
 
 # Mesh Import/fr
@@ -68,4 +68,4 @@ Mesh.insert('D:/testfiles/cylinder.stl')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Import/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Import/fr

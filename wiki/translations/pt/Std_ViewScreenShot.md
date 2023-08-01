@@ -1,6 +1,6 @@
 # Std ViewScreenShot/pt
 ---
-- GuiCommand:   Name:Std ViewScreenShot   Name/pt:Std ViewScreenShot   MenuLocation:[[Std Tools Menu/pt   Tools]] - Save picture...|Workbenches:All   SeeAlso:...---
+- GuiCommand:   Name: Std ViewScreenShot   Name/pt: Std ViewScreenShot   MenuLocation: [[Std Tools Menu/pt   Tools]] - Save picture...|Workbenches: All   SeeAlso: ...---
 
 
 </div>
@@ -127,4 +127,4 @@ App.closeDocument(App.ActiveDocument.Name)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewScreenShot/pt
+⏵ [documentation index](../README.md) > Std ViewScreenShot/pt

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintSketchPlane
-   Name/de:Assembly3 Skizzierebene
-   Icon:Assembly_ConstraintSketchPlane.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintSketchPlane
+   Name/de: Assembly3 Skizzierebene
+   Icon: Assembly_ConstraintSketchPlane.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintSketchPlane/de
@@ -26,4 +26,4 @@ Er kann verwendet werden um ein Grundgerüst (\"Skelett-Skizze\") für eine 2D-K
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintSketchPlane/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintSketchPlane/de

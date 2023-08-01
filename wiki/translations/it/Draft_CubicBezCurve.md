@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft CubicBezCurve
-   Name/it:Curva di Bézier cubica
-   MenuLocation:Drafting - Strumenti Bezier - Curva di Bézier cubica
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Version/it:0.19
-   SeeAlso:[Curva di Bézier](Draft_BezCurve/it.md), [BSpline](Draft_BSpline/it.md)
+   Name: Draft CubicBezCurve
+   Name/it: Curva di Bézier cubica
+   MenuLocation: Drafting - Strumenti Bezier - Curva di Bézier cubica
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Version/it: 0.19
+   SeeAlso: [Curva di Bézier](Draft_BezCurve/it.md), [BSpline](Draft_BSpline/it.md)
 ---
 
 # Draft CubicBezCurve/it
@@ -167,4 +167,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft CubicBezCurve/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft CubicBezCurve/it

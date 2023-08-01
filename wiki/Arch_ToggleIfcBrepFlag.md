@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Arch ToggleIfcBrepFlag
-   MenuLocation:Arch - Utilities - Toggle Ifc Brep flag
-   Workbenches:[Arch](Arch_Workbench.md)
-   SeeAlso:[Arch IfcExplorer](Arch_IfcExplorer.md), [Arch IFC](Arch_IFC.md)
+   Name: Arch ToggleIfcBrepFlag
+   MenuLocation: Arch - Utilities - Toggle Ifc Brep flag
+   Workbenches: [Arch](Arch_Workbench.md)
+   SeeAlso: [Arch IfcExplorer](Arch_IfcExplorer.md), [Arch IFC](Arch_IFC.md)
 ---
 
 # Arch ToggleIfcBrepFlag
@@ -20,4 +20,4 @@ This tool turns the IfcBrep flag of a selected [Arch](Arch_Workbench.md) object 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag

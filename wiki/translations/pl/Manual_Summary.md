@@ -57,4 +57,4 @@ Istnieje odrębny spis treści dla systemu [FreeCAD **Pomoc Online**](Online_Hel
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Manual](Category_Manual.md) > Manual:Summary/pl
+⏵ [documentation index](../README.md) > [Manual](Category_Manual.md) > Manual:Summary/pl

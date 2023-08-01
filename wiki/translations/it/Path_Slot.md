@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Path_Slot
-   Name/it:Scanalatura
-   Workbenches:[Path](Path_Workbench/it.md)
-   MenuLocation:Path - Scanalatura
-   Shortcut:
-   Version:0.19
-   SeeAlso:
+   Name: Path_Slot
+   Name/it: Scanalatura
+   Workbenches: [Path](Path_Workbench/it.md)
+   MenuLocation: Path - Scanalatura
+   Shortcut: 
+   Version: 0.19
+   SeeAlso: 
 ---
 
 # Path Slot/it
@@ -279,4 +279,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Slot/it
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Slot/it

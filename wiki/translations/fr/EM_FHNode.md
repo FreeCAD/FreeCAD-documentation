@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:EM FHNode
-   Name/fr:EM Noeud FH
-   MenuLocation:EM - FHNode
-   Workbenches:[EM](EM_Workbench/fr.md)
-   Shortcut:**E** **N**
-   Version:0.17
-   SeeAlso:[EM Segment FH](EM_FHSegment/fr.md), [EM Chemin FH](EM_FHPath/fr.md), [EM Plan FH](EM_FHPlane/fr.md), [EM Bascule noeud trou FH](EM_FHPlaneAddRemoveNodeHole/fr.md), [EM Equivalence FH](EM_FHEquiv/fr.md), [EM Port FH](EM_FHPort/fr.md)
+   Name: EM FHNode
+   Name/fr: EM Noeud FH
+   MenuLocation: EM - FHNode
+   Workbenches: [EM](EM_Workbench/fr.md)
+   Shortcut: **E** **N**
+   Version: 0.17
+   SeeAlso: [EM Segment FH](EM_FHSegment/fr.md), [EM Chemin FH](EM_FHPath/fr.md), [EM Plan FH](EM_FHPlane/fr.md), [EM Bascule noeud trou FH](EM_FHPlaneAddRemoveNodeHole/fr.md), [EM Equivalence FH](EM_FHEquiv/fr.md), [EM Port FH](EM_FHPort/fr.md)
 ---
 
 # EM FHNode/fr
@@ -134,4 +134,4 @@ fhnode = EM.makeFHNode(X=1.0,Y=2.0,Z=0.0)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [EM](Category_EM.md) > EM FHNode/fr
+⏵ [documentation index](../README.md) > [EM](Category_EM.md) > EM FHNode/fr

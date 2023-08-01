@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Пятиугольник
-   Name:Sketcher_CreatePentagon
-   MenuLocation:Sketch - Геометрия эскиза - Создать пятиугольник
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**G** **P** **5**
-   Version:0.15
+   Name/ru: Пятиугольник
+   Name: Sketcher_CreatePentagon
+   MenuLocation: Sketch - Геометрия эскиза - Создать пятиугольник
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **G** **P** **5**
+   Version: 0.15
 ---
 
 # Sketcher CreatePentagon/ru
@@ -42,4 +42,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePentagon/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePentagon/ru

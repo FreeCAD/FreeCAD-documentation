@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh Merge
-   MenuLocation:Meshes - Merge
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh SplitComponents](Mesh_SplitComponents.md)
+   Name: Mesh Merge
+   MenuLocation: Meshes - Merge
+   Workbenches: [Mesh](Mesh_Workbench.md)
+   SeeAlso: [Mesh SplitComponents](Mesh_SplitComponents.md)
 ---
 
 # Mesh Merge
@@ -31,4 +31,4 @@ See: [Mesh Feature](Mesh_Feature.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Merge
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Merge

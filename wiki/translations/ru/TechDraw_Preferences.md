@@ -1,8 +1,4 @@
 # TechDraw Preferences/ru
-{{TOCright}}
-
-
-
 ## Введение
 
 Экран настроек [модуля TechDraw](TechDraw_Workbench/ru.md) находится в общем [окне настроек](Preferences_Editor/ru.md) **Правка → Настройки → TechDraw**.
@@ -187,4 +183,4 @@ HLR stands for *hidden line removal*.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/ru
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/ru

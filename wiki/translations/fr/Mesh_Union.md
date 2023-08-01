@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh Union‏‎
-   Name/fr:Mesh Union
-   MenuLocation:Maillages - Opération booléenne - Union
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Intersection](Mesh_Intersection/fr.md), [Mesh Différence](Mesh_Difference/fr.md)
+   Name: Mesh Union‏‎
+   Name/fr: Mesh Union
+   MenuLocation: Maillages - Opération booléenne - Union
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
+   SeeAlso: [Mesh Intersection](Mesh_Intersection/fr.md), [Mesh Différence](Mesh_Difference/fr.md)
 ---
 
 # Mesh Union/fr
@@ -45,4 +45,4 @@ Voir : [Mesh Feature](Mesh_Feature/fr.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Union/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Union/fr

@@ -1,6 +1,6 @@
 # Std PerspectiveCamera/ro
 ---
-- GuiCommand:   Name:Std PerspectiveCamera   MenuLocation:[|Workbenches:All   Shortcut:P   SeeAlso:[[Std OrthographicCamera|Orthographic view](Std_View_Menu___View]]_-_Perspective_view‏‎.md)---
+- GuiCommand:   Name: Std PerspectiveCamera   MenuLocation: [|Workbenches: All   Shortcut: P   SeeAlso: [[Std OrthographicCamera|Orthographic view](Std_View_Menu___View]]_-_Perspective_view‏‎.md)---
 
 
 </div>
@@ -72,4 +72,4 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraType()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std PerspectiveCamera/ro
+⏵ [documentation index](../README.md) > Std PerspectiveCamera/ro

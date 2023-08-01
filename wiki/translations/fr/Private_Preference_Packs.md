@@ -70,4 +70,4 @@ Une fois installé, allez dans **Edition → Préférences → Général**, trou
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Private Preference Packs/fr
+⏵ [documentation index](../README.md) > Private Preference Packs/fr

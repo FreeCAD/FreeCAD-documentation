@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > List of Commands/ro
+⏵ [documentation index](../README.md) > List of Commands/ro

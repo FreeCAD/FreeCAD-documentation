@@ -108,4 +108,4 @@ Jest jeszcze jeden spis treści dla [podręcznika FreeCAD](Manual:Introduction/p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/pl
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/pl

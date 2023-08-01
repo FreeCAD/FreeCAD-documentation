@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh_Segmentation
-   Name/it:Crea segmenti di mesh
-   MenuLocation:Mesh - Crea segmenti di mesh...
-   Workbenches:[Mesh](Mesh_Workbench/it.md)
-   SeeAlso:[Adatta i segmenti](Mesh_SegmentationBestFit/it.md)
+   Name: Mesh_Segmentation
+   Name/it: Crea segmenti di mesh
+   MenuLocation: Mesh - Crea segmenti di mesh...
+   Workbenches: [Mesh](Mesh_Workbench/it.md)
+   SeeAlso: [Adatta i segmenti](Mesh_SegmentationBestFit/it.md)
 ---
 
 # Mesh Segmentation/it
@@ -64,4 +64,4 @@ Il comando **Crea segmenti di mesh** crea segmenti di mesh separati per i tipi d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Segmentation/it
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Segmentation/it

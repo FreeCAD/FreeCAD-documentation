@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreatePoint
-   Name/es:Croqizador Punto
-   MenuLocation:Croquis - Geometrías Croqizador- Crear punto
-   Workbenches:[Croqizador](Sketcher_Workbench/es.md)
+   Name: Sketcher CreatePoint
+   Name/es: Croqizador Punto
+   MenuLocation: Croquis - Geometrías Croqizador- Crear punto
+   Workbenches: [Croqizador](Sketcher_Workbench/es.md)
 ---
 
 # Sketcher CreatePoint/es
@@ -66,4 +66,4 @@ El modo de ajuste a la rejilla se puede establecer en el [Preferencias del Croqu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/es

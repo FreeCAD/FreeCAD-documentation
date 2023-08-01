@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign PolarPattern
-   Name/es:DiseñoPieza PatrónPolar
-   MenuLocation:DiseñoPieza - Aplicar un patrón - PatrónPolar
-   Workbenches:[DiseñoPieza](PartDesign_Workbench/es.md)
+   Name: PartDesign PolarPattern
+   Name/es: DiseñoPieza PatrónPolar
+   MenuLocation: DiseñoPieza - Aplicar un patrón - PatrónPolar
+   Workbenches: [DiseñoPieza](PartDesign_Workbench/es.md)
 ---
 
 # PartDesign PolarPattern/es
@@ -152,4 +152,4 @@ If some of the selected features are additive and others subtractive, their orde
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/es

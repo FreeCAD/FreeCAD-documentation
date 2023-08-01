@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw LeaderLine
-   MenuLocation:TechDraw - Add Lines - Add Leaderline to View
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.19
-   SeeAlso:[TechDraw RichTextAnnotation](TechDraw_RichTextAnnotation.md), [TechDraw WeldSymbol](TechDraw_WeldSymbol.md)
+   Name: TechDraw LeaderLine
+   MenuLocation: TechDraw - Add Lines - Add Leaderline to View
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Version: 0.19
+   SeeAlso: [TechDraw RichTextAnnotation](TechDraw_RichTextAnnotation.md), [TechDraw WeldSymbol](TechDraw_WeldSymbol.md)
 ---
 
 # TechDraw LeaderLine
@@ -122,4 +122,4 @@ leaderObj.Y = 5
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LeaderLine
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LeaderLine

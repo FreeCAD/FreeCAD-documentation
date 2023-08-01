@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std ToggleSelectability
-   Name/ru:Std ToggleSelectability
-   MenuLocation:Вид - Видимость - Откл/вкл выделяемость
-   Workbenches:All
+   Name: Std ToggleSelectability
+   Name/ru: Std ToggleSelectability
+   MenuLocation: Вид - Видимость - Откл/вкл выделяемость
+   Workbenches: All
 ---
 
 # Std ToggleSelectability/ru
@@ -56,4 +56,4 @@ else:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleSelectability/ru
+⏵ [documentation index](../README.md) > Std ToggleSelectability/ru

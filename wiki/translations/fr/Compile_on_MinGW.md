@@ -1,6 +1,4 @@
 # Compile on MinGW/fr
-{{TOCright}}
-
 Ce guide explique les étapes nécessaires pour compiler FreeCAD sous Windows en utilisant l\'environnement MSYS2/MinGW. Une connaissance de base avec les commandes du shell Bash sera utile pour comprendre ce que fait chaque étape, mais en suivant le guide, vous devriez obtenir une compilation fonctionnelle même si vous ne comprenez pas exactement ce que vous avez fait pour l\'obtenir.
 
 ### Avant de commencer 
@@ -95,4 +93,4 @@ Et enfin :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on MinGW/fr
+⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on MinGW/fr

@@ -1,11 +1,11 @@
 # Mesh FlipNormals/de
 ---
 - GuiCommand:
-   Name:Mesh FlipNormals‏‎
-   Name/de:Netz Normalen spiegeln
-   MenuLocation:Meshes - Flip Normals
-   Workbenches:[Arbeitsbereich Netze](Mesh_Workbench/de.md)
-   Shortcut:   SeeAlso:---
+   Name: Mesh FlipNormals‏‎
+   Name/de: Netz Normalen spiegeln
+   MenuLocation: Meshes - Flip Normals
+   Workbenches: [Arbeitsbereich Netze](Mesh_Workbench/de.md)
+   Shortcut:    SeeAlso: ---
 
 ## Beschreibung
 
@@ -38,4 +38,4 @@ Die Anweisung **Netze Normalen spiegeln** dreht und spiegelt die Normalen von Ne
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FlipNormals/de
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FlipNormals/de

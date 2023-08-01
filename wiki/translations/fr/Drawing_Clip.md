@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Drawing Clip
-   Name/fr:Drawing Masque
-   Workbenches:[Drawing](Drawing_Workbench/fr.md)
-   MenuLocation:Drawing - Masque
+   Name: Drawing Clip
+   Name/fr: Drawing Masque
+   Workbenches: [Drawing](Drawing_Workbench/fr.md)
+   MenuLocation: Drawing - Masque
 Shortcut=
 ---
 
@@ -43,4 +43,4 @@ Actualiser\]\] la vue si une vue de dessin n\'a pas été ouverte
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Clip/fr
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Clip/fr

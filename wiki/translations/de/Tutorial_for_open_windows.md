@@ -273,4 +273,4 @@ Für zukünftige FreeCAD-Versionen ist eine engere Interaktion zwischen beiden A
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > Tutorial for open windows/de
+⏵ [documentation index](../README.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > Tutorial for open windows/de

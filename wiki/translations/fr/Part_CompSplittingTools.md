@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part CompSplittingTools
-   Name/fr:Part Scinder
-   MenuLocation:Part - Scinder
-   Workbenches:[Part](Part_Workbench/fr.md)
+   Name: Part CompSplittingTools
+   Name/fr: Part Scinder
+   MenuLocation: Part - Scinder
+   Workbenches: [Part](Part_Workbench/fr.md)
 ---
 
 # Part CompSplittingTools/fr
@@ -22,4 +22,4 @@ Une collection d\'outils pour séparer.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompSplittingTools/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompSplittingTools/fr

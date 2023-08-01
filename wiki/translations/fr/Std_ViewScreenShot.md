@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_ViewScreenShot
-   Name/fr:Std Capture d'écran
-   MenuLocation:Outils - Enregistrer l'image...
-   Workbenches:Tous
-   SeeAlso:[Std Imprimer](Std_Print/fr.md), [Std Exporter au format PDF](Std_PrintPdf/fr.md), [Macro Snip](Macro_Snip/fr.md)
+   Name: Std_ViewScreenShot
+   Name/fr: Std Capture d'écran
+   MenuLocation: Outils - Enregistrer l'image...
+   Workbenches: Tous
+   SeeAlso: [Std Imprimer](Std_Print/fr.md), [Std Exporter au format PDF](Std_PrintPdf/fr.md), [Macro Snip](Macro_Snip/fr.md)
 ---
 
 # Std ViewScreenShot/fr
@@ -147,4 +147,4 @@ App.closeDocument(App.ActiveDocument.Name)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewScreenShot/fr
+⏵ [documentation index](../README.md) > Std ViewScreenShot/fr

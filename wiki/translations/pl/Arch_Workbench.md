@@ -1,7 +1,7 @@
 # <img alt="Ikonka FreeCAD dla środowiska pracy Architektura" src=images/Workbench_Arch.svg  style="width:64px;"> Arch Workbench/pl
 
 
-{{TOCright}}
+
 
 
 
@@ -205,4 +205,4 @@ Moduł Arch może być używany w skryptach [Python](Python.md) i [makrodefiniac
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/pl
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/pl

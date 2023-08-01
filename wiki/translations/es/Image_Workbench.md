@@ -14,7 +14,7 @@ It functionality has been integrated in [Std Base](Std_Base.md). See [Std Import
 <img alt="El icono del Ambiente de trabajo Imagen" src=images/Workbench_Image.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 
 
@@ -77,4 +77,4 @@ El relleno de la imagen puede establecerse durante la importación, o modificars
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Image](Category_Image.md) > Image Workbench/es
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Image](Category_Image.md) > Image Workbench/es

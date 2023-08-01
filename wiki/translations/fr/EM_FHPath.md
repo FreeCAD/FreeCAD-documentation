@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:EM FHPath
-   Name/fr:EM Chemin FH
-   MenuLocation:EM - FHPath
-   Workbenches:[EM](EM_Workbench/fr.md)
-   Shortcut:**E** **T**
-   Version:0.17
-   SeeAlso:[EM Noeud FH](EM_FHNode/fr.md), [EM Segment FH](EM_FHSegment/fr.md)
+   Name: EM FHPath
+   Name/fr: EM Chemin FH
+   MenuLocation: EM - FHPath
+   Workbenches: [EM](EM_Workbench/fr.md)
+   Shortcut: **E** **T**
+   Version: 0.17
+   SeeAlso: [EM Noeud FH](EM_FHNode/fr.md), [EM Segment FH](EM_FHSegment/fr.md)
 ---
 
 # EM FHPath/fr
@@ -118,4 +118,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [EM](Category_EM.md) > EM FHPath/fr
+⏵ [documentation index](../README.md) > [EM](Category_EM.md) > EM FHPath/fr

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name/ru:Просмотр эскиза
-   Name:Sketcher_ViewSketch
-   MenuLocation:Sketch - Просмотр эскиза
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
+   Name/ru: Просмотр эскиза
+   Name: Sketcher_ViewSketch
+   MenuLocation: Sketch - Просмотр эскиза
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
 ---
 
 # Sketcher ViewSketch/ru
@@ -39,4 +39,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/ru

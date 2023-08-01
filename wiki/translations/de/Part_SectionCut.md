@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part SectionCut
-   Name/de:Part Schnittansicht
-   MenuLocation:Ansicht - Dauerhafte Schnittdarstellung
-   Workbenches:Alle
-   Version:0.20
-   SeeAlso:[Std Schnittebene](Std_ToggleClipPlane/de.md)
+   Name: Part SectionCut
+   Name/de: Part Schnittansicht
+   MenuLocation: Ansicht - Dauerhafte Schnittdarstellung
+   Workbenches: Alle
+   Version: 0.20
+   SeeAlso: [Std Schnittebene](Std_ToggleClipPlane/de.md)
 ---
 
 # Part SectionCut/de
@@ -107,4 +107,4 @@ All visible objects are put into a <img alt="" src=images/Part_Compound.svg  sty
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SectionCut/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SectionCut/de

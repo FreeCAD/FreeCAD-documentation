@@ -284,4 +284,4 @@ Nous dupliquerons à nouveau les deux objets précédents pour les utiliser à n
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Category_Part.md) > Whiffle Ball tutorial/fr
+⏵ [documentation index](../README.md) > [Part](Category_Part.md) > Whiffle Ball tutorial/fr

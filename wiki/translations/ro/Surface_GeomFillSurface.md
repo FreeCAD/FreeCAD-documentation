@@ -1,6 +1,6 @@
 # Surface GeomFillSurface/ro
 ---
-- GuiCommand:   Icon:BSplineSurf.svg   Name:Surface Fill boundary curves   MenuLocation:Surface - Fill boundary curves   Workbenches:[Surface](Surface_Workbench.md)|---
+- GuiCommand:   Icon: BSplineSurf.svg   Name: Surface Fill boundary curves   MenuLocation: Surface - Fill boundary curves   Workbenches: [Surface](Surface_Workbench.md)|---
 
 
 </div>
@@ -179,4 +179,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface GeomFillSurface/ro
+⏵ [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface GeomFillSurface/ro

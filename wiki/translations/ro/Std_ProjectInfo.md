@@ -1,6 +1,6 @@
 # Std ProjectInfo/ro
 ---
-- GuiCommand:   Name:Std ProjectInfo   Name/ro:Informații despre proiect   MenuLocation:[[Std File Menu/ro   File]] - Informații despre proiect||Workbenches:All   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Std ProjectInfo   Name/ro: Informații despre proiect   MenuLocation: [[Std File Menu/ro   File]] - Informații despre proiect||Workbenches: All   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -74,4 +74,4 @@ Apoi, următoarele informații pot fi introduse într-o fereastră:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ProjectInfo/ro
+⏵ [documentation index](../README.md) > Std ProjectInfo/ro

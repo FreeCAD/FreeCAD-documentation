@@ -6,4 +6,4 @@ The Arch Workbench supports importing [3DS](https://en.wikipedia.org/wiki/.3ds) 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch 3DS
+⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch 3DS

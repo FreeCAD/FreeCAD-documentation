@@ -43,4 +43,4 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:User Documentation/ko
+⏵ [documentation index](../README.md) > Category:User Documentation/ko

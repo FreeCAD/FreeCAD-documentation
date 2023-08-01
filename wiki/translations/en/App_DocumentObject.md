@@ -1,6 +1,4 @@
 # App DocumentObject/en
-{{TOCright}}
-
 ## Introduction
 
 <img alt="" src=images/Px.svg  style="width:32px;">
@@ -76,4 +74,4 @@ obj.Label = "Custom label"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > App DocumentObject/en
+⏵ [documentation index](../README.md) > App DocumentObject/en

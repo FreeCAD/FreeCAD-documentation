@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std LinkImportAll
-   Name/fr:Std Importer tous les liens
-   MenuLocation:Aucun
-   Workbenches:Tous
-   Version:0.19
-   SeeAlso:[Std Créer un lien](Std_LinkMake/fr.md), [Std Créer un lien relatif](Std_LinkMakeRelative/fr.md), [Std Importer des liens](Std_LinkImport/fr.md)
+   Name: Std LinkImportAll
+   Name/fr: Std Importer tous les liens
+   MenuLocation: Aucun
+   Workbenches: Tous
+   Version: 0.19
+   SeeAlso: [Std Créer un lien](Std_LinkMake/fr.md), [Std Créer un lien relatif](Std_LinkMakeRelative/fr.md), [Std Importer des liens](Std_LinkImport/fr.md)
 ---
 
 # Std LinkImportAll/fr
@@ -41,4 +41,4 @@ Cette commande exécute essentiellement **[<img src=images/Std_LinkImport.svg st
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkImportAll/fr
+⏵ [documentation index](../README.md) > Std LinkImportAll/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainLock
-   MenuLocation:Sketch - Sketcher constraints - Constrain lock
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**K** **L**
-   SeeAlso:[Sketcher Constrain Block](Sketcher_ConstrainBlock.md)
+   Name: Sketcher ConstrainLock
+   MenuLocation: Sketch - Sketcher constraints - Constrain lock
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **K** **L**
+   SeeAlso: [Sketcher Constrain Block](Sketcher_ConstrainBlock.md)
 ---
 
 # Sketcher ConstrainLock
@@ -33,4 +33,4 @@ The <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Loc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock

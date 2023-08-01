@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft AnnotationStyleEditor
-   Name/it:Stile delle annotazioni
-   MenuLocation:Annotazioni - Stile delle annotazioni...
-   Workbenches:[Draft](Draft_Workbench/it.md)
-   SeeAlso:[Testo](Draft_Text/it.md), [Etichetta](Draft_Label/it.md), [Quotatura](Draft_Dimension/it.md)
-   Version:0.19
+   Name: Draft AnnotationStyleEditor
+   Name/it: Stile delle annotazioni
+   MenuLocation: Annotazioni - Stile delle annotazioni...
+   Workbenches: [Draft](Draft_Workbench/it.md)
+   SeeAlso: [Testo](Draft_Text/it.md), [Etichetta](Draft_Label/it.md), [Quotatura](Draft_Dimension/it.md)
+   Version: 0.19
 ---
 
 # Draft AnnotationStyleEditor/it
@@ -144,4 +144,4 @@ props = {
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AnnotationStyleEditor/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AnnotationStyleEditor/it

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > API documentation/fr
+⏵ [documentation index](../README.md) > [API](Category_API.md) > API documentation/fr

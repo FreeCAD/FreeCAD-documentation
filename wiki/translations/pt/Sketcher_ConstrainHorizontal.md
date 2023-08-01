@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Constraint Horizontal
-   Name/pt:Constraint Horizontal
-   Workbenches:[Sketcher](Sketcher_Workbench/pt.md)
-   Shortcut:H
-   MenuLocation:Sketch - Sketcher constraints - Constrain horizontally
-   SeeAlso:[Constraint Vertical](Sketcher_ConstrainVertical/pt.md)
+   Name: Constraint Horizontal
+   Name/pt: Constraint Horizontal
+   Workbenches: [Sketcher](Sketcher_Workbench/pt.md)
+   Shortcut: H
+   MenuLocation: Sketch - Sketcher constraints - Constrain horizontally
+   SeeAlso: [Constraint Vertical](Sketcher_ConstrainVertical/pt.md)
 ---
 
 # Sketcher ConstrainHorizontal/pt
@@ -61,4 +61,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/pt
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/pt

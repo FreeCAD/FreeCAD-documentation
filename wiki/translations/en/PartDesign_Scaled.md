@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign Scaled
-   MenuLocation:None (Option within Part Design - Apply a pattern - Create MultiTransform)
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[PartDesign MultiTransform](PartDesign_MultiTransform.md)
+   Name: PartDesign Scaled
+   MenuLocation: None (Option within Part Design - Apply a pattern - Create MultiTransform)
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   SeeAlso: [PartDesign MultiTransform](PartDesign_MultiTransform.md)
 ---
 
 # PartDesign Scaled/en
@@ -68,4 +68,4 @@ If there is no previous transformation within the <img alt="" src=images/PartDes
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/en
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/en

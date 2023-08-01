@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Builder
-   Name/fr:Part Générateur de forme
-   MenuLocation:Part - Générateur de forme
-   Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Part Primitives](Part_Primitives/fr.md)
+   Name: Part Builder
+   Name/fr: Part Générateur de forme
+   MenuLocation: Part - Générateur de forme
+   Workbenches: [Part](Part_Workbench/fr.md)
+   SeeAlso: [Part Primitives](Part_Primitives/fr.md)
 ---
 
 # Part Builder/fr
@@ -91,4 +91,4 @@ Un flux de travail possible pourrait être :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/fr

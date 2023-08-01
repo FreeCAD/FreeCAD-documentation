@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std WhatsThis
-   Name/pl:Std: Co to jest
-   MenuLocation:Pomoc - Co to jest?
-   Workbenches:wszystkie
-   Shortcut:**Shift** + **F1**
-   SeeAlso:[Pomoc online](Std_OnlineHelp/pl.md)
+   Name: Std WhatsThis
+   Name/pl: Std: Co to jest
+   MenuLocation: Pomoc - Co to jest?
+   Workbenches: wszystkie
+   Shortcut: **Shift** + **F1**
+   SeeAlso: [Pomoc online](Std_OnlineHelp/pl.md)
 ---
 
 # Std WhatsThis/pl
@@ -47,4 +47,4 @@ W programie FreeCAD {{VersionPlus/pl|0.20}} polecenie to wymaga zainstalowania [
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std WhatsThis/pl
+⏵ [documentation index](../README.md) > Std WhatsThis/pl

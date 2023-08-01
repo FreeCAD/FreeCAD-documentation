@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionCreateHorizCoordDimension
-   Name/fr:TechDraw Cotes parallèles horizontales
-   MenuLocation:TechDraw - Extensions : cotes - Cotes parallèles horizontales
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw Cotes parallèles verticales](TechDraw_ExtensionCreateVertCoordDimension/fr.md), [TechDraw Cotes parallèles obliques](TechDraw_ExtensionCreateObliqueCoordDimension/fr.md)
+   Name: TechDraw ExtensionCreateHorizCoordDimension
+   Name/fr: TechDraw Cotes parallèles horizontales
+   MenuLocation: TechDraw - Extensions : cotes - Cotes parallèles horizontales
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw Cotes parallèles verticales](TechDraw_ExtensionCreateVertCoordDimension/fr.md), [TechDraw Cotes parallèles obliques](TechDraw_ExtensionCreateObliqueCoordDimension/fr.md)
 ---
 
 # TechDraw ExtensionCreateHorizCoordDimension/fr
@@ -41,4 +41,4 @@ L\'outil **TechDraw Cotes parallèles horizontales** crée des cotes de coordonn
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateHorizCoordDimension/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateHorizCoordDimension/fr

@@ -1,6 +1,6 @@
 # FEM ElementFluid1D/ro
 ---
-- GuiCommand:   Name:FEM ElementFluid1D   Name/ro:FEM ElementFluid1D   MenuLocation:Model - Fluid section for 1D flow   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
+- GuiCommand:   Name: FEM ElementFluid1D   Name/ro: FEM ElementFluid1D   MenuLocation: Model - Fluid section for 1D flow   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
 
 
 </div>
@@ -69,4 +69,4 @@ Creează o MEF în secțiunea de fluid pentru rețele aerodinamice și hidraulic
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementFluid1D/ro
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementFluid1D/ro

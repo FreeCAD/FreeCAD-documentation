@@ -22,4 +22,4 @@ This is the **top category** which contains the main categories of the FreeCAD w
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Categories
+⏵ [documentation index](../README.md) > Category:Categories

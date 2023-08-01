@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Drawing Annotation
-   Name/pl:Kreślenie: Adnotacja
-   MenuLocation:Kreślenie - Adnotacja
-   Workbenches:[Kreślenie](Drawing_Workbench/pl.md)
+   Name: Drawing Annotation
+   Name/pl: Kreślenie: Adnotacja
+   MenuLocation: Kreślenie - Adnotacja
+   Workbenches: [Kreślenie](Drawing_Workbench/pl.md)
 ---
 
 # Drawing Annotation/pl
@@ -43,4 +43,4 @@ To polecenie pozwala na umieszczenie bloku tekstu na [stronie rysunku](Drawing_L
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Annotation/pl
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Annotation/pl

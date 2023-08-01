@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Scale
-   Name/fr:Draft Échelle
-   MenuLocation:Modification - Échelle
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:**S** **C**
-   SeeAlso:[Draft Surligner les sous éléments](Draft_SubelementHighlight/fr.md), [Draft Cloner](Draft_Clone/fr.md)
+   Name: Draft Scale
+   Name/fr: Draft Échelle
+   MenuLocation: Modification - Échelle
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut: **S** **C**
+   SeeAlso: [Draft Surligner les sous éléments](Draft_SubelementHighlight/fr.md), [Draft Cloner](Draft_Clone/fr.md)
 ---
 
 # Draft Scale/fr
@@ -124,4 +124,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Scale/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Scale/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh RemoveCompByHand
-   Name/de:Mesh KomponenteVonHandEntfernen‏‎
-   MenuLocation:Netze - Komponente von Hand entfernen...
-   Workbenches:[Mesh](Mesh_Workbench/de.md)
-   SeeAlso:[Mesh KomponentenEntfernen‏‎](Mesh_RemoveComponents/de.md), [Arch NetzAufteilen](Arch_SplitMesh/de.md)
+   Name: Mesh RemoveCompByHand
+   Name/de: Mesh KomponenteVonHandEntfernen‏‎
+   MenuLocation: Netze - Komponente von Hand entfernen...
+   Workbenches: [Mesh](Mesh_Workbench/de.md)
+   SeeAlso: [Mesh KomponentenEntfernen‏‎](Mesh_RemoveComponents/de.md), [Arch NetzAufteilen](Arch_SplitMesh/de.md)
 ---
 
 # Mesh RemoveCompByHand/de
@@ -47,4 +47,4 @@ Rechtsklick in der 3D-Ansicht bietet die Möglichkeit zum
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveCompByHand/de
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveCompByHand/de

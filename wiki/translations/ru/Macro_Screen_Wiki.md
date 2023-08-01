@@ -355,4 +355,4 @@ Version=0.01: 2020/03/21
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Screen Wiki/ru
+⏵ [documentation index](../README.md) > Macro Screen Wiki/ru

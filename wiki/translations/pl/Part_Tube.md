@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Tube
-   Name/pl:Część: Rura
-   MenuLocation:Część - Bryła pierwotna - Utwórz rurę
-   Workbenches:[Część](Part_Workbench/pl.md)
-   Version:0.19
-   SeeAlso:[Utwórz geometrie pierwotne](Part_Primitives/pl.md)
+   Name: Part Tube
+   Name/pl: Część: Rura
+   MenuLocation: Część - Bryła pierwotna - Utwórz rurę
+   Workbenches: [Część](Part_Workbench/pl.md)
+   Version: 0.19
+   SeeAlso: [Utwórz geometrie pierwotne](Part_Primitives/pl.md)
 ---
 
 # Part Tube/pl
@@ -125,4 +125,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Tube/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Tube/pl

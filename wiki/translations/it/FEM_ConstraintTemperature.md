@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM_ConstraintTemperature
-   Name/it:Vincolo temperatura
-   MenuLocation:Modello - Vincoli termici - Vincolo temperatura
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
+   Name: FEM_ConstraintTemperature
+   Name/it: Vincolo temperatura
+   MenuLocation: Modello - Vincoli termici - Vincolo temperatura
+   Workbenches: [FEM](FEM_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: [Tutorial FEM](FEM_tutorial/it.md)
 ---
 
 # FEM ConstraintTemperature/it
@@ -63,4 +63,4 @@ By default the constraint defines a temperature. By using the option **Concentra
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintTemperature/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintTemperature/it

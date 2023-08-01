@@ -1,7 +1,7 @@
 # <img alt="Std Base icon" src=images/Freecad.svg  style="width:64px;"> Std View Menu/pt-br
 
 
-{{TOCright}}
+
 
 
 
@@ -167,4 +167,4 @@ The following tools are available in this menu:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std View Menu/pt-br
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std View Menu/pt-br

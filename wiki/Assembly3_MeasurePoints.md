@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 MeasurePoints
-   Icon:Assembly_MeasurePointDistance.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 MeasurePoints
+   Icon: Assembly_MeasurePointDistance.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 MeasurePoints
@@ -19,4 +19,4 @@ This tool measures the distance between two objects of an assembly using two poi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 MeasurePoints
+⏵ [documentation index](../README.md) > Assembly3 MeasurePoints

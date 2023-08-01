@@ -1,6 +1,6 @@
 # Std Placement/ro
 ---
-- GuiCommand:   Name:Std Placement   MenuLocation:[|Workbenches:All   Shortcut:   SeeAlso:[[Tasks Placement|Tasks Placement](Std_Edit_Menu___Edit]]_-_Placement...‏‎.md), [Placement](Placement.md)---
+- GuiCommand:   Name: Std Placement   MenuLocation: [|Workbenches: All   Shortcut:    SeeAlso: [[Tasks Placement|Tasks Placement](Std_Edit_Menu___Edit]]_-_Placement...‏‎.md), [Placement](Placement.md)---
 
 
 </div>
@@ -107,4 +107,4 @@ print(obj.Placement.Matrix)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Placement/ro
+⏵ [documentation index](../README.md) > Std Placement/ro

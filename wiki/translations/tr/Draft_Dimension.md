@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Dimension
-   Name/tr:Boyut
-   MenuLocation:Taslak - Boyut
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   Shortcut:**D** **I**
-   Version:0.18
-   SeeAlso:[FlipDimension](Draft_FlipDimension/tr.md),[Teknik resim](TechDraw_Workbench/tr.md)
+   Name: Draft Dimension
+   Name/tr: Boyut
+   MenuLocation: Taslak - Boyut
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   Shortcut: **D** **I**
+   Version: 0.18
+   SeeAlso: [FlipDimension](Draft_FlipDimension/tr.md),[Teknik resim](TechDraw_Workbench/tr.md)
 ---
 
 # Draft Dimension/tr
@@ -441,4 +441,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/tr

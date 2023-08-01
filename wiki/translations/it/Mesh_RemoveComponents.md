@@ -1,11 +1,11 @@
 # Mesh RemoveComponents/it
 ---
 - GuiCommand:
-   Name:Mesh_RemoveComponents
-   Name/it:Rimuovi componenti‏‎
-   MenuLocation:Mesh - Rimuovi componenti...
-   Workbenches:[Mesh](Mesh_Workbench/it.md)
-   SeeAlso:[Rimuovi componente a mano](Mesh_RemoveCompByHand/it.md), [Arch Suddividere un oggetto mesh](Arch_SplitMesh/it.md)---
+   Name: Mesh_RemoveComponents
+   Name/it: Rimuovi componenti‏‎
+   MenuLocation: Mesh - Rimuovi componenti...
+   Workbenches: [Mesh](Mesh_Workbench/it.md)
+   SeeAlso: [Rimuovi componente a mano](Mesh_RemoveCompByHand/it.md), [Arch Suddividere un oggetto mesh](Arch_SplitMesh/it.md)---
 
 
 
@@ -48,4 +48,4 @@ Il comando **Rimuovi componenti** rimuove le facce dagli oggetti mesh.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveComponents/it
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveComponents/it

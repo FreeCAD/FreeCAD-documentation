@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Plot Labels
-   Name/pl:Wykres: Ustaw etykiety
-   MenuLocation:Wykres - Ustaw etykiety
-   Workbenches:[Wykres](Plot_Workbench/pl.md)
+   Name: Plot Labels
+   Name/pl: Wykres: Ustaw etykiety
+   MenuLocation: Wykres - Ustaw etykiety
+   Workbenches: [Wykres](Plot_Workbench/pl.md)
 ---
 
 # Plot Labels/pl
@@ -41,4 +41,4 @@ Wybierz kartę powierzchni, którą chcesz edytować, i uruchom to narzędzie. W
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Labels/pl
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Labels/pl

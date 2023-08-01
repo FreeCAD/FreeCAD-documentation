@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std Import
-   MenuLocation:File - Import...
-   Workbenches:All
-   Shortcut:**Ctrl**+**I**
-   SeeAlso:[Std Open](Std_Open.md), [Import Export](Import_Export.md), [Import Export Preferences](Import_Export_Preferences.md)
+   Name: Std Import
+   MenuLocation: File - Import...
+   Workbenches: All
+   Shortcut: **Ctrl**+**I**
+   SeeAlso: [Std Open](Std_Open.md), [Import Export](Import_Export.md), [Import Export Preferences](Import_Export_Preferences.md)
 ---
 
 # Std Import/pt-br
@@ -117,4 +117,4 @@ An Image Plane object is derived from an [App GeoFeature](App_GeoFeature.md) obj
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/pt-br
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/pt-br

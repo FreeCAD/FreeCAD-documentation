@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std FreezeViews
-   Name/de:Std AnsichtenEinfrieren
-   MenuLocation:Ansicht - Ansicht einfrieren - Ansicht einfrieren
-   Workbenches:Alle
-   SeeAlso:[Std ArbeisansichtSpeichern](Std_StoreWorkingView/de.md), [Std ArbeitsansichtAbrufen](Std_RecallWorkingView/de.md), [Std ViewIvIssueCamPos](Std_ViewIvIssueCamPos/de.md)
+   Name: Std FreezeViews
+   Name/de: Std AnsichtenEinfrieren
+   MenuLocation: Ansicht - Ansicht einfrieren - Ansicht einfrieren
+   Workbenches: Alle
+   SeeAlso: [Std ArbeisansichtSpeichern](Std_StoreWorkingView/de.md), [Std ArbeitsansichtAbrufen](Std_RecallWorkingView/de.md), [Std ViewIvIssueCamPos](Std_ViewIvIssueCamPos/de.md)
 ---
 
 # Std FreezeViews/de
@@ -94,4 +94,4 @@ For each frozen view a **Restore view** option is added with which it can be res
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std FreezeViews/de
+⏵ [documentation index](../README.md) > Std FreezeViews/de

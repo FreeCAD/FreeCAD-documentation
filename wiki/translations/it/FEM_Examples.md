@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM Examples
-   Name/it:Esempi FEM
-   MenuLocation: Utilities - Open FEM Examples
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
-   Version:0.19
+   Name: FEM Examples
+   Name/it: Esempi FEM
+   MenuLocation:  Utilities - Open FEM Examples
+   Workbenches: [FEM](FEM_Workbench/it.md)
+   SeeAlso: [Tutorial FEM](FEM_tutorial/it.md)
+   Version: 0.19
 ---
 
 # FEM Examples/it
@@ -45,4 +45,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Examples/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Examples/it

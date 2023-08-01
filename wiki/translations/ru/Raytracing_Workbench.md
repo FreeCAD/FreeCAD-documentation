@@ -18,7 +18,7 @@
 ## Введение
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Workbench_Raytracing.svg  style="width:24px;"> [Верстак Raytracing](Raytracing_Workbench/ru.md) предназначен для создания фотореалистичной изображения ваших моделей с помощью внешних программ рендеринга.
 
@@ -177,4 +177,4 @@ Although direct export to the Kerkythea XML-File-Format is not supported yet, yo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/ru
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/ru

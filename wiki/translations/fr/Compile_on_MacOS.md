@@ -2,7 +2,7 @@
 **Il existe un conteneur Docker FreeCAD expérimental qui est testé pour le développement FreeCAD. En savoir plus à ce sujet sur [Compiler sur Docker](Compile_on_Docker/fr.md)**
 
 
-{{TOCright}}
+
 
 
 
@@ -284,4 +284,4 @@ FreeCAD peut être construit à partir du dernier master git hébergé sur githu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on MacOS/fr
+⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on MacOS/fr

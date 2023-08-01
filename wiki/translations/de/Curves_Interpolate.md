@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Curves Interpolate
-   Name/de:Curves Interpolieren
-   MenuLocation:Curves - Interpolate
-   Workbenches:[Curves](Curves_Workbench/de.md)
+   Name: Curves Interpolate
+   Name/de: Curves Interpolieren
+   MenuLocation: Curves - Interpolate
+   Workbenches: [Curves](Curves_Workbench/de.md)
 ---
 
 # Curves Interpolate/de
@@ -38,4 +38,4 @@ Das Werkzeug <img alt="" src=images/Curves_Interpolate.svg  style="width:24px;">
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves Interpolate/de
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves Interpolate/de

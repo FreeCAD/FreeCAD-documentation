@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part RuledSurface
-   MenuLocation:Part - RuledSurface
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part MakeFace](Part_MakeFace.md)
+   Name: Part RuledSurface
+   MenuLocation: Part - RuledSurface
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Part MakeFace](Part_MakeFace.md)
 ---
 
 # Part RuledSurface/ro
@@ -56,4 +56,4 @@ Macro [Sviluppa superfici rigate](Macro_Unroll_Ruled_Surface/it.md) permite crea
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RuledSurface/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RuledSurface/ro

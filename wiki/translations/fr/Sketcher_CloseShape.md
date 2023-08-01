@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CloseShape
-   Name/fr:Sketcher Fermer la forme
-   MenuLocation:Esquisse - Outils d'esquisse - Fermer la forme
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**Z** **W**
-   Version:0.15
+   Name: Sketcher CloseShape
+   Name/fr: Sketcher Fermer la forme
+   MenuLocation: Esquisse - Outils d'esquisse - Fermer la forme
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **Z** **W**
+   Version: 0.15
 ---
 
 # Sketcher CloseShape/fr
@@ -41,4 +41,4 @@ L\'outil va connecter les éléments dans l\'ordre de leur sélection, alors ass
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/fr

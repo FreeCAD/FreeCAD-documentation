@@ -36,4 +36,4 @@ Link to appropriate threads discussing this workbench
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reverse Engineering](Category_Reverse Engineering.md) > [Workbenches](Category_Workbenches.md) > Reverse Engineering Workbench/tr
+⏵ [documentation index](../README.md) > [Reverse Engineering](Category_Reverse Engineering.md) > [Workbenches](Category_Workbenches.md) > Reverse Engineering Workbench/tr

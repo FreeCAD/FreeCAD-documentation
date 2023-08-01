@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Polish translation
+⏵ [documentation index](../README.md) > Polish translation

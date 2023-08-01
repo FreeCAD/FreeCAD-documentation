@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainPerpendicular
-   Name/pl:Szkicownik: Wiązanie prostopadłości
-   MenuLocation:Szkic - Wiązania szkicownika - Wiązanie prostopadłości
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**N**
-   SeeAlso:[Szkicownik: Wiązanie kąta](Sketcher_ConstrainAngle/pl.md)
+   Name: Sketcher ConstrainPerpendicular
+   Name/pl: Szkicownik: Wiązanie prostopadłości
+   MenuLocation: Szkic - Wiązania szkicownika - Wiązanie prostopadłości
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **N**
+   SeeAlso: [Szkicownik: Wiązanie kąta](Sketcher_ConstrainAngle/pl.md)
 ---
 
 # Sketcher ConstrainPerpendicular/pl
@@ -133,4 +133,4 @@ Strona [skrypty szkicownika](Sketcher_scripting.md) wyjaśnia wartości, które 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPerpendicular/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPerpendicular/pl

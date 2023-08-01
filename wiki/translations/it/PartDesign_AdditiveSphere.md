@@ -1,6 +1,6 @@
 # PartDesign AdditiveSphere/it
 ---
-- GuiCommand:   Name:PartDesign AdditiveSphere   Name/it:Sfera additiva   Workbenches:[MenuLocation:Part Design - Crea una primitiva additiva - Sfera   Shortcut:None   Version:0.17   SeeAlso:[[PartDesign CompPrimitiveAdditive/it|Primitive additive](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign AdditiveSphere   Name/it: Sfera additiva   Workbenches: [MenuLocation: Part Design - Crea una primitiva additiva - Sfera   Shortcut: None   Version: 0.17   SeeAlso: [[PartDesign CompPrimitiveAdditive/it|Primitive additive](PartDesign_Workbench/it___PartDesign]].md)---
 
 
 </div>
@@ -74,4 +74,4 @@ Dopo la sua creazione la sfera può essere modificata in due modi:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveSphere/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveSphere/it

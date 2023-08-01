@@ -47,4 +47,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Manual:The FreeCAD document/ru
+⏵ [documentation index](../README.md) > Manual:The FreeCAD document/ru

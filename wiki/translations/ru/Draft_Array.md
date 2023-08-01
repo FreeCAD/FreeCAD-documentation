@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Array
-   Name/ru:Draft Array
-   MenuLocation:Черчение - Массив
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   SeeAlso:[PathArray](Draft_PathArray/ru.md)
+   Name: Draft Array
+   Name/ru: Draft Array
+   MenuLocation: Черчение - Массив
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   SeeAlso: [PathArray](Draft_PathArray/ru.md)
 ---
 
 # Draft Array/ru
@@ -40,4 +40,4 @@ See [Draft OrthoArray](Draft_OrthoArray#Scripting.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/ru

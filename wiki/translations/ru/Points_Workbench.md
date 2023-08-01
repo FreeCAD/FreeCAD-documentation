@@ -14,7 +14,7 @@
 ## Введение
 
 
-{{TOCright}}
+
 
 The <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> [Верстак Points](Points_Workbench/ru.md) предлагает специальные инструменты для работы с [облаками точек](https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE_%D1%82%D0%BE%D1%87%D0%B5%D0%BA). Верстак всё ещё находится в стадии разработки.
 
@@ -65,4 +65,4 @@ All Points Workbench tools can be accessed from the **Points** menu. Some tools 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/ru
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/ru

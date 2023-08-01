@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Wikipages
+⏵ [documentation index](../README.md) > Wikipages

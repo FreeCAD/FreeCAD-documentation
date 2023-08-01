@@ -89,4 +89,4 @@ Two examples of uses can be found in [this forum topic](http://forum.freecadweb.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Solid Sweep/en
+⏵ [documentation index](../README.md) > Macro Solid Sweep/en

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part RegularPolygon
-   Name/de:Part Regelmäßiges Polygon
-   MenuLocation:Formteil - [Grundkörper erstellen...](Part_CreatePrimitives/de.md) - Regelmäßiges Polygon
-   Workbenches:[Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
-   Version:0.14
-   SeeAlso:[Part Grundelemente](Part_Primitives/de.md)
+   Name: Part RegularPolygon
+   Name/de: Part Regelmäßiges Polygon
+   MenuLocation: Formteil - [Grundkörper erstellen...](Part_CreatePrimitives/de.md) - Regelmäßiges Polygon
+   Workbenches: [Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
+   Version: 0.14
+   SeeAlso: [Part Grundelemente](Part_Primitives/de.md)
 ---
 
 # Part RegularPolygon/de
@@ -99,4 +99,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RegularPolygon/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RegularPolygon/de

@@ -61,4 +61,4 @@ L\'[Atelier Render](https://github.com/FreeCAD/FreeCAD-render) a abandonné la p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > LuxRender/fr
+⏵ [documentation index](../README.md) > LuxRender/fr

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path Stop
-   Name/fr:Path Arrêter
-   MenuLocation:Path - Autres commandes - Arrêter
-   Workbenches:[Path](Path_Workbench/fr.md)
+   Name: Path Stop
+   Name/fr: Path Arrêter
+   MenuLocation: Path - Autres commandes - Arrêter
+   Workbenches: [Path](Path_Workbench/fr.md)
 ---
 
 # Path Stop/fr
@@ -38,4 +38,4 @@ L\'outil <img alt="" src=images/Path_Stop.svg  style="width:24px;"> [Arrêter](P
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Stop/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Stop/fr

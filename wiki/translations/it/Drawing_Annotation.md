@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Drawing_Annotation
-   Name/it:Annotazione
-   MenuLocation:Drawing - Annotazione
-   Workbenches:[Drawing](Drawing_Workbench/it.md)
+   Name: Drawing_Annotation
+   Name/it: Annotazione
+   MenuLocation: Drawing - Annotazione
+   Workbenches: [Drawing](Drawing_Workbench/it.md)
 ---
 
 # Drawing Annotation/it
@@ -44,4 +44,4 @@ Questo comando consente di posizionare un blocco di testo in una [pagina di dise
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Annotation/it
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Annotation/it

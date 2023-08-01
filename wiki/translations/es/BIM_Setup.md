@@ -1,9 +1,9 @@
 ---
 - GuiCommand:Addon
-   Name:BIM Setup
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
-   Addon:BIM
-   MenuLocation:Manage - Setup
+   Name: BIM Setup
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
+   Addon: BIM
+   MenuLocation: Manage - Setup
 ---
 
 # BIM Setup/es
@@ -19,4 +19,4 @@ Al pasar el mouse por encima de cada configuración, se le mostrará una sugeren
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Setup/es
+⏵ [documentation index](../README.md) > BIM Setup/es

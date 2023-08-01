@@ -23,4 +23,4 @@ I documenti di FreeCAD vengono salvati con l\'estensione .FcStd, che è un forma
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Manual:The FreeCAD document/it
+⏵ [documentation index](../README.md) > Manual:The FreeCAD document/it

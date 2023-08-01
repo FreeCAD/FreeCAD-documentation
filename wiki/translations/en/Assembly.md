@@ -2,7 +2,7 @@
 ## Introduction
 
 
-{{TOCright}}
+
 
 In FreeCAD the word \"[Assembly](Assembly.md)\" is normally used to refer to a [3D model](model.md) that is composed of several distinguishable parts, that are put together in some way to create a functional object, just like real life products are made.
 
@@ -54,4 +54,4 @@ The assembly workbenches continue development, and it is expected that at some p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly/en
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly/en

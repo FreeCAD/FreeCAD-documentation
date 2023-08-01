@@ -1,6 +1,4 @@
 # FEM Mesh CalculiX/fr
-{{TOCright}}
-
 ## Types d\'éléments MEF dans CalculiX 
 
 Pour plus d\'informations détaillées de FreeCAD FEM éléments voir [FEM Maillage](FEM_Mesh/fr.md) et [FEM Types d\'éléments](FEM_Element_Types/fr.md). Pour les questions spécifiques à CalculiX, vous pouvez essayer [Discourse group](https://calculix.discourse.group) ou [Discord channel](https://discord.gg/yyuQQg5).
@@ -98,4 +96,4 @@ L\'ordre de nœud suivant n\'est pas implémenté ! TODO: vérifier l\'ordre des
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > [FEM](Category_FEM.md) > FEM Mesh CalculiX/fr
+⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > [FEM](Category_FEM.md) > FEM Mesh CalculiX/fr

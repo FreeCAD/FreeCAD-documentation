@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintAttachmentOffset
-   Icon:Assembly_ConstraintAttachmentOffset.svg‎‎
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintAttachmentOffset
+   Icon: Assembly_ConstraintAttachmentOffset.svg‎‎
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintAttachmentOffset
@@ -23,4 +23,4 @@ This link leaves no degree of freedom (DOF) unconstrained.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintAttachmentOffset
+⏵ [documentation index](../README.md) > Assembly3 ConstraintAttachmentOffset

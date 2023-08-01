@@ -14,4 +14,4 @@ Pagine rilevanti per l\'ambiente [Curves](Curves_Workbench/it.md) che fa parte d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Curves/it
+⏵ [documentation index](../README.md) > Category:Curves/it

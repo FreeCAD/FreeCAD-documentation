@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft AddConstruction
-   Name/fr:Draft Ajouter au groupe de construction
-   MenuLocation:Utilitaires - Ajouter au groupe de construction
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[Draft Basculer en mode construction](Draft_ToggleConstructionMode/fr.md), [Draft Ajouter au groupe](Draft_AddToGroup/fr.md)
+   Name: Draft AddConstruction
+   Name/fr: Draft Ajouter au groupe de construction
+   MenuLocation: Utilitaires - Ajouter au groupe de construction
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [Draft Basculer en mode construction](Draft_ToggleConstructionMode/fr.md), [Draft Ajouter au groupe](Draft_AddToGroup/fr.md)
 ---
 
 # Draft AddConstruction/fr
@@ -31,4 +31,4 @@ La commande <img alt="" src=images/Draft_AddConstruction.svg  style="width:24px;
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddConstruction/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddConstruction/fr

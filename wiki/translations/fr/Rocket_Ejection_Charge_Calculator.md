@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Rocket Ejection Charge Calculator
-   Name/fr:Rocket Calcul charge d'éjection
-   Icon:Rocket_Calculator.svg
-   MenuLocation:Rocket - Calculators - Ejection Charge Calculator
-   Workbenches:[Rocket](Rocket_Workbench/fr.md)
-   Version:0.19
+   Name: Rocket Ejection Charge Calculator
+   Name/fr: Rocket Calcul charge d'éjection
+   Icon: Rocket_Calculator.svg
+   MenuLocation: Rocket - Calculators - Ejection Charge Calculator
+   Workbenches: [Rocket](Rocket_Workbench/fr.md)
+   Version: 0.19
 ---
 
 # Rocket Ejection Charge Calculator/fr
@@ -86,4 +86,4 @@ Les calculs sont effectués en unités métriques, mais s\'affichent dans les un
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Ejection Charge Calculator/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Ejection Charge Calculator/fr

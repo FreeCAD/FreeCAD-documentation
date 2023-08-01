@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign Plane
-   Name/it:Piano di riferimento
-   Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:PartDesign - Piano di riferimento
-   Version:0.17
-   SeeAlso:[Punto di riferimento](PartDesign_Point/it.md), [Linea di riferimento](PartDesign_Line/it.md)
+   Name: PartDesign Plane
+   Name/it: Piano di riferimento
+   Workbenches: [PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation: PartDesign - Piano di riferimento
+   Version: 0.17
+   SeeAlso: [Punto di riferimento](PartDesign_Point/it.md), [Linea di riferimento](PartDesign_Line/it.md)
 ---
 
 # PartDesign Plane/it
@@ -79,4 +79,4 @@ Fare doppio clic sull\'etichetta DatumPlane nell\'albero del modello o fare clic
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/it

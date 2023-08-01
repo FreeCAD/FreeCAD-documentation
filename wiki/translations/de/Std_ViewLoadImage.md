@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ViewLoadImage
-   Name/de:Std AnsichtBildLaden
-   MenuLocation:Werkzeuge - Bild laden...
-   Workbenches:Alle
-   Version:0.21
+   Name: Std ViewLoadImage
+   Name/de: Std AnsichtBildLaden
+   MenuLocation: Werkzeuge - Bild laden...
+   Workbenches: Alle
+   Version: 0.21
 ---
 
 # Std ViewLoadImage/de
@@ -45,4 +45,4 @@ Der Befehl **Std AnsichtBildLaden** öffnet ein Bild in einem neuen Reiter im [H
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewLoadImage/de
+⏵ [documentation index](../README.md) > Std ViewLoadImage/de

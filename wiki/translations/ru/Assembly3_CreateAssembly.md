@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Assembly3 CreateAssembly
-   Name/ru:Assembly3 CreateAssembly
-   Icon:Assembly_New_Assembly.svg
-   MenuLocation:Assembly3 - Create assembly
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
-   Shortcut:**A** **N**
+   Name: Assembly3 CreateAssembly
+   Name/ru: Assembly3 CreateAssembly
+   Icon: Assembly_New_Assembly.svg
+   MenuLocation: Assembly3 - Create assembly
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
+   Shortcut: **A** **N**
 ---
 
 # Assembly3 CreateAssembly/ru
@@ -36,4 +36,4 @@ Each branch object is an <img alt="" src=images/Assembly_Assembly_Tree.svg  styl
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 CreateAssembly/ru
+⏵ [documentation index](../README.md) > Assembly3 CreateAssembly/ru

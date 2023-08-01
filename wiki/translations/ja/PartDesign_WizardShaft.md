@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:PartDesign_WizardShaft
-   Name/ja:PartDesign_WizardShaft
-   Workbenches:[パートデザイン](PartDesign_Workbench/ja.md), Complete
+   Name: PartDesign_WizardShaft
+   Name/ja: PartDesign_WizardShaft
+   Workbenches: [パートデザイン](PartDesign_Workbench/ja.md), Complete
 ---
 
 # PartDesign WizardShaft/ja
@@ -156,4 +156,4 @@ For each shaft segment, the following parameters can be defined
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/ja
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/ja

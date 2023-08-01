@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet AlignRight
-   MenuLocation:Spreadsheet - Alignment - Align right
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
-   Version:0.17
+   Name: Spreadsheet AlignRight
+   MenuLocation: Spreadsheet - Alignment - Align right
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench.md)
+   Version: 0.17
 ---
 
 # Spreadsheet AlignRight
@@ -26,4 +26,4 @@ The **[<img src=images/Spreadsheet_AlignRight.svg style="width:16px"> [Spreadshe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignRight
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignRight

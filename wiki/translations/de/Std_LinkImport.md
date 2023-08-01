@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std LinkImport
-   Name/de:Std VerknüpfungImportieren
-   MenuLocation:None
-   Workbenches:All
-   Version:0.19
-   SeeAlso:[Std VerknüpfungErstellen](Std_LinkMake/de.md), [Std UnterverknüpfungErstellen](Std_LinkMakeRelative/de.md), [Std AlleVerknüpfungenImportieren](Std_LinkImportAll/de.md)
+   Name: Std LinkImport
+   Name/de: Std VerknüpfungImportieren
+   MenuLocation: None
+   Workbenches: All
+   Version: 0.19
+   SeeAlso: [Std VerknüpfungErstellen](Std_LinkMake/de.md), [Std UnterverknüpfungErstellen](Std_LinkMakeRelative/de.md), [Std AlleVerknüpfungenImportieren](Std_LinkImportAll/de.md)
 ---
 
 # Std LinkImport/de
@@ -50,4 +50,4 @@ A copy of the original **[<img src=images/Std_Part.svg style="width:16px"> [Std 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkImport/de
+⏵ [documentation index](../README.md) > Std LinkImport/de

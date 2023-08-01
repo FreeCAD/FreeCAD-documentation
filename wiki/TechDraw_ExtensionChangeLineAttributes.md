@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionChangeLineAttributes
-   MenuLocation:TechDraw - Extensions: Attributes/Modifications - Change Line Attributes
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md)
+   Name: TechDraw ExtensionChangeLineAttributes
+   MenuLocation: TechDraw - Extensions: Attributes/Modifications - Change Line Attributes
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md)
 ---
 
 # TechDraw ExtensionChangeLineAttributes
@@ -34,4 +34,4 @@ The **TechDraw ExtensionChangeLineAttributes** tool changes the attributes (styl
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionChangeLineAttributes
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionChangeLineAttributes

@@ -1,7 +1,4 @@
-# Contributors/zh-tw
-{{TOCright}}
-
-<img alt="" src=images/FreeCAD_Users_Contributors.svg  style="width:64px;">
+# <img alt="" src=images/FreeCAD_Users_Contributors.svg  style="width:64px;"> Contributors/zh-tw
 
 FreeCAD would not be what it is without the generous contributions of many people. Here\'s an overview of the people and companies who contributed to FreeCAD over time. For credits for the third party libraries see the [Third Party Libraries](Third_Party_Libraries.md) page.
 
@@ -244,4 +241,4 @@ Developers of FreeCAD addons (retrieved from <https://github.com/FreeCAD/FreeCAD
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > Contributors/zh-tw
+⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > Contributors/zh-tw

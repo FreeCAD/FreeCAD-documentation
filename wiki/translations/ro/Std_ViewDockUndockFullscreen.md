@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
 
-   Name:Std ViewDockUndockFullscreen
-   Empty:1
-   MenuLocation:View - Document window - Docked/Undocked
-   Workbenches:All
-   Shortcut:**V** **D** / **V** **U**
-   SeeAlso:[Std ViewFullscreen](Std_ViewFullscreen.md), [Std MainFullscreen](Std_MainFullscreen.md)
+   Name: Std ViewDockUndockFullscreen
+   Empty: 1
+   MenuLocation: View - Document window - Docked/Undocked
+   Workbenches: All
+   Shortcut: **V** **D** / **V** **U**
+   SeeAlso: [Std ViewFullscreen](Std_ViewFullscreen.md), [Std MainFullscreen](Std_MainFullscreen.md)
 ---
 
 # Std ViewDockUndockFullscreen/ro
@@ -62,4 +62,4 @@ The **Undocked** menu option undocks the active [3D view](3D_view.md) from the m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewDockUndockFullscreen/ro
+⏵ [documentation index](../README.md) > Std ViewDockUndockFullscreen/ro

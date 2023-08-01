@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM_ElementGeometry2D
-   Name/it:FEM ElementGeometry2D
-   MenuLocation:Model - Spessore di una lastra
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:**C** **S**
-   SeeAlso:[FEM tutorial](FEM_tutorial/it.md)
+   Name: FEM_ElementGeometry2D
+   Name/it: FEM ElementGeometry2D
+   MenuLocation: Model - Spessore di una lastra
+   Workbenches: [FEM](FEM_Workbench/it.md)
+   Shortcut: **C** **S**
+   SeeAlso: [FEM tutorial](FEM_tutorial/it.md)
 ---
 
 # FEM ElementGeometry2D/it
@@ -75,4 +75,4 @@ Per visualizzare i risultati dal risolutore CalculiX sulla mesh espansa allo spe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementGeometry2D/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementGeometry2D/it

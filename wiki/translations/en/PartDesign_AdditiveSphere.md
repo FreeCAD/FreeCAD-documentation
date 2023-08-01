@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveSphere
-   MenuLocation:Part Design - Create an additive primitive - Additive Sphere
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md), [PartDesign SubtractiveSphere](PartDesign_SubtractiveSphere.md)
+   Name: PartDesign AdditiveSphere
+   MenuLocation: Part Design - Create an additive primitive - Additive Sphere
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   Version: 0.17
+   SeeAlso: [PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md), [PartDesign SubtractiveSphere](PartDesign_SubtractiveSphere.md)
 ---
 
 # PartDesign AdditiveSphere/en
@@ -54,4 +54,4 @@ The Sphere can be edited after its creation in two ways:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveSphere/en
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveSphere/en

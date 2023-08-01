@@ -19,4 +19,4 @@ From this interface you can see useful information and jump to recently opened f
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Start](Category_Start.md) > [Workbenches](Category_Workbenches.md) > Start Workbench/sv
+⏵ [documentation index](../README.md) > [Start](Category_Start.md) > [Workbenches](Category_Workbenches.md) > Start Workbench/sv

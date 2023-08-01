@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Tube
-   MenuLocation:Part - Primitives - Create tube
-   Workbenches:[Part](Part_Workbench.md)
-   Version:0.19
-   SeeAlso:[Part Primitives](Part_Primitives.md)
+   Name: Part Tube
+   MenuLocation: Part - Primitives - Create tube
+   Workbenches: [Part](Part_Workbench.md)
+   Version: 0.19
+   SeeAlso: [Part Primitives](Part_Primitives.md)
 ---
 
 # Part Tube/pt-br
@@ -108,4 +108,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Tube/pt-br
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Tube/pt-br

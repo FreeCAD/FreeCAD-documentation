@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path DressupTag
-   Name/fr:Path Attache
-   MenuLocation:Path - Finition du parcours - Attache
-   Workbenches:[Path](Path_Workbench/fr.md)
-   SeeAlso:[Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Dégagement d'angles](Path_DressupDogbone/fr.md) , [Path Lame rotative](Path_DressupDragKnife/fr.md)
+   Name: Path DressupTag
+   Name/fr: Path Attache
+   MenuLocation: Path - Finition du parcours - Attache
+   Workbenches: [Path](Path_Workbench/fr.md)
+   SeeAlso: [Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Dégagement d'angles](Path_DressupDogbone/fr.md) , [Path Lame rotative](Path_DressupDragKnife/fr.md)
 ---
 
 # Path DressupTag/fr
@@ -43,4 +43,4 @@ Les attaches sont automatiquement générées à intervalles réguliers le long 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupTag/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupTag/fr

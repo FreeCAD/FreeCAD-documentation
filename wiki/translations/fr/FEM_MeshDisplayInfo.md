@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM MeshDisplayInfo
-   Name/fr:FEM Affichage des informations du maillage FEM
-   MenuLocation:Menu contextuel sur l'objet maillé - Afficher les informations sur le maillage FEM
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM MeshDisplayInfo
+   Name/fr: FEM Affichage des informations du maillage FEM
+   MenuLocation: Menu contextuel sur l'objet maillé - Afficher les informations sur le maillage FEM
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM MeshDisplayInfo/fr
@@ -95,4 +95,4 @@ donnera le résultat suivant :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshDisplayInfo/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshDisplayInfo/fr

@@ -1,6 +1,6 @@
 # Draft ApplyStyle/sv
 ---
-- GuiCommand:   Name:Draft_Apply   Workbenches:[[Draft_Workbench/sv   Skiss]]|MenuLocation:Draft -> Apply style---
+- GuiCommand:   Name: Draft_Apply   Workbenches: [[Draft_Workbench/sv   Skiss]]|MenuLocation: Draft -> Apply style---
 
 
 </div>
@@ -56,4 +56,4 @@ This command currently handles only five of the settings the [Draft SetStyle](Dr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/sv

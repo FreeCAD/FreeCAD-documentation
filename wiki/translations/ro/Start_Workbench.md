@@ -55,4 +55,4 @@ Din această interfață puteți vedea informații utile și puteți să accesa�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Start](Category_Start.md) > [Workbenches](Category_Workbenches.md) > Start Workbench/ro
+⏵ [documentation index](../README.md) > [Start](Category_Start.md) > [Workbenches](Category_Workbenches.md) > Start Workbench/ro

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:Addon/pl
-   Name:BIM Copy
-   Name/pl:BIM: kopiuj
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/pl.md)
-   Addon:BIM
-   MenuLocation:Modify - Kopiuj
-   SeeAlso:[Przesuń](Draft_Move/pl.md)
+   Name: BIM Copy
+   Name/pl: BIM: kopiuj
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/pl.md)
+   Addon: BIM
+   MenuLocation: Modify - Kopiuj
+   SeeAlso: [Przesuń](Draft_Move/pl.md)
 ---
 
 # BIM Copy/pl
@@ -17,4 +17,4 @@ Narzędzie Kopiuj BIM jest skrótem do standardowego narzędzia [Rysunek roboczy
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Copy/pl
+⏵ [documentation index](../README.md) > BIM Copy/pl

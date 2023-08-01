@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw StackTop
-   MenuLocation:TechDraw - Stacking - Move view to top of stack
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.21
-   SeeAlso:[TechDraw StackBottom](TechDraw_StackBottom.md), [TechDraw StackUp](TechDraw_StackUp.md), [TechDraw StackDown](TechDraw_StackDown.md).
+   Name: TechDraw StackTop
+   MenuLocation: TechDraw - Stacking - Move view to top of stack
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.21
+   SeeAlso: [TechDraw StackBottom](TechDraw_StackBottom.md), [TechDraw StackUp](TechDraw_StackUp.md), [TechDraw StackDown](TechDraw_StackDown.md).
 ---
 
 # TechDraw StackTop
@@ -36,4 +36,4 @@ The stacking order can be changed in scripts by changing the {{Incode|StackOrder
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw StackTop
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw StackTop

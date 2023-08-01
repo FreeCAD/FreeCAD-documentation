@@ -38,4 +38,4 @@ Recommended installation is through the FreeCAD <img alt="" src=images/Std_Addon
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > CurvedShapes Workbench
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > CurvedShapes Workbench

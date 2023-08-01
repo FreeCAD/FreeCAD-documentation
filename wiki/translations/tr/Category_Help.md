@@ -10,4 +10,4 @@ Bu kategori, MediaWiki ve düzenleme ile ilgili yardım belgelerini içerir.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Help/tr
+⏵ [documentation index](../README.md) > Category:Help/tr

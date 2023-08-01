@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch SectionPlane
-   MenuLocation:Arch - Section Plane
-   Workbenches:[Arch](Arch_Workbench.md)
-   Shortcut:**S** **P**
-   SeeAlso:[Draft Shape2DView](Draft_Shape2DView.md), [TechDraw ArchView](TechDraw_ArchView.md)
+   Name: Arch SectionPlane
+   MenuLocation: Arch - Section Plane
+   Workbenches: [Arch](Arch_Workbench.md)
+   Shortcut: **S** **P**
+   SeeAlso: [Draft Shape2DView](Draft_Shape2DView.md), [TechDraw ArchView](TechDraw_ArchView.md)
 ---
 
 # Arch SectionPlane/pt-br
@@ -131,4 +131,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/pt-br
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/pt-br

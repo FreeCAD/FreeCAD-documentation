@@ -114,4 +114,4 @@ La discussione nel forum [Newbie question - spiral stairs reloaded](http://forum
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Stairs/it
+⏵ [documentation index](../README.md) > Macro Stairs/it

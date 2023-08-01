@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Design456 Extrude
-   MenuLocation:Design456_Tools - 3DTools - Extrude
-   Workbenches:[Design456](Design456_Workbench.md)
-   Shortcut:None
-   SeeAlso:
+   Name: Design456 Extrude
+   MenuLocation: Design456_Tools - 3DTools - Extrude
+   Workbenches: [Design456](Design456_Workbench.md)
+   Shortcut: None
+   SeeAlso: 
 ---
 
 # Design456 Extrude
@@ -32,4 +32,4 @@ Extrude doesn\'t work on 3D objects. This limitation is from the fact that many 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 Extrude
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 Extrude

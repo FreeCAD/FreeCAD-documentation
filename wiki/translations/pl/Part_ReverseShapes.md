@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part ReverseShapes
-   Name/pl:Część: Odwróć kształty
-   MenuLocation:Część - Odwróć kształty
-   Workbenches:[Część](Part_Workbench/pl.md)
+   Name: Part ReverseShapes
+   Name/pl: Część: Odwróć kształty
+   MenuLocation: Część - Odwróć kształty
+   Workbenches: [Część](Part_Workbench/pl.md)
 ---
 
 # Part ReverseShapes/pl
@@ -40,4 +40,4 @@ Odwraca normalne wszystkich ścian wybranego obiektu.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ReverseShapes/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ReverseShapes/pl

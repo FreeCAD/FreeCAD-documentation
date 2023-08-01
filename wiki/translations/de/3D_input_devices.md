@@ -13,4 +13,4 @@ FreeCAD unterstützt einige spezielle Eingabegeräte wie etwa 3D-Mäuse. Diese e
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > 3D input devices/de
+⏵ [documentation index](../README.md) > 3D input devices/de

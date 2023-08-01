@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM ResultShow
-   Name/fr:FEM Afficher les résultats
-   MenuLocation:Résultats - Afficher les résultats
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Shortcut:**R** **S**
-   SeeAlso:[FEM Pipeline de résultats](FEM_PostPipelineFromResult/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM ResultShow
+   Name/fr: FEM Afficher les résultats
+   MenuLocation: Résultats - Afficher les résultats
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Shortcut: **R** **S**
+   SeeAlso: [FEM Pipeline de résultats](FEM_PostPipelineFromResult/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM ResultShow/fr
@@ -57,4 +57,4 @@ La boîte de dialogue à gauche offre les fonctions suivantes :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ResultShow/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ResultShow/fr

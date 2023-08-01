@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign PolarPattern
-   Name/de:PartDesign PolaresMuster
-   MenuLocation:Part Design - Muster anwenden - Polares Muster
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso:[PartDesign MehrfachTransformation](PartDesign_MultiTransform/de.md)
+   Name: PartDesign PolarPattern
+   Name/de: PartDesign PolaresMuster
+   MenuLocation: Part Design - Muster anwenden - Polares Muster
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso: [PartDesign MehrfachTransformation](PartDesign_MultiTransform/de.md)
 ---
 
 # PartDesign PolarPattern/de
@@ -135,4 +135,4 @@ Wenn einige der ausgewählten Formelemente additiv und andere subtraktiv sind, k
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/de

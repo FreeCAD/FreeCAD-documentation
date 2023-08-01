@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Extrude
-   MenuLocation:Part - Extrude
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Draft Trimex](Draft_Trimex.md), [PartDesign Pad](PartDesign_Pad.md)
+   Name: Part Extrude
+   MenuLocation: Part - Extrude
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Draft Trimex](Draft_Trimex.md), [PartDesign Pad](PartDesign_Pad.md)
 ---
 
 # Part Extrude/en
@@ -133,4 +133,4 @@ The Extrude shape is defined by the following parameters, which can be edited af
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/en
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/en

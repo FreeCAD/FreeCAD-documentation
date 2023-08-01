@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher DeleteAllGeometry
-   Name/fr:Sketcher Supprimer tous les éléments de géométrie
-   MenuLocation:Esquisse - Outils d'esquisse - Supprimer tous les éléments de géométrie
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Version:0.18
-   SeeAlso:[Sketcher Supprimer toutes les contraintes](Sketcher_DeleteAllConstraints/fr.md)
+   Name: Sketcher DeleteAllGeometry
+   Name/fr: Sketcher Supprimer tous les éléments de géométrie
+   MenuLocation: Esquisse - Outils d'esquisse - Supprimer tous les éléments de géométrie
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Version: 0.18
+   SeeAlso: [Sketcher Supprimer toutes les contraintes](Sketcher_DeleteAllConstraints/fr.md)
 ---
 
 # Sketcher DeleteAllGeometry/fr
@@ -32,4 +32,4 @@ Cet outil supprime tous les éléments de géométrie de l\'esquisse en cours d\
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllGeometry/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllGeometry/fr

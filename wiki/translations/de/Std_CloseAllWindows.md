@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_CloseAllWindows
-   Name/de:Std AllesSchließen
-   MenuLocation:Datei - Alles schließen
-   Workbenches:Alle
-   SeeAlso:[Std Schließen](Std_CloseActiveWindow/de.md)
+   Name: Std_CloseAllWindows
+   Name/de: Std AllesSchließen
+   MenuLocation: Datei - Alles schließen
+   Workbenches: Alle
+   SeeAlso: [Std Schließen](Std_CloseActiveWindow/de.md)
 ---
 
 # Std CloseAllWindows/de
@@ -53,4 +53,4 @@ Um ein Dokument zu schließen, benutze die `closeDocument`-Methode der FreeCAD-A
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std CloseAllWindows/de
+⏵ [documentation index](../README.md) > Std CloseAllWindows/de

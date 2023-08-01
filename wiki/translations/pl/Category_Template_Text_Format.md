@@ -10,4 +10,4 @@ This category lists templates that format text given as input.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Template:Text Format/pl
+⏵ [documentation index](../README.md) > Category:Template:Text Format/pl

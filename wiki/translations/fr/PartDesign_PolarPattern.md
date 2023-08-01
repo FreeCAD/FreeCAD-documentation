@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign_PolarPattern
-   Name/fr:PartDesign Répétition circulaire
-   MenuLocation:Part Design - Appliquer une transformation - Répétition circulaire
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso:[PartDesign Transformation multiple](PartDesign_MultiTransform/fr.md)
+   Name: PartDesign_PolarPattern
+   Name/fr: PartDesign Répétition circulaire
+   MenuLocation: Part Design - Appliquer une transformation - Répétition circulaire
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso: [PartDesign Transformation multiple](PartDesign_MultiTransform/fr.md)
 ---
 
 # PartDesign PolarPattern/fr
@@ -129,4 +129,4 @@ Si certaines des fonctions sélectionnées sont additives et d\'autres soustract
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/fr

@@ -44,4 +44,4 @@ ToolBar Icon ![](images/parametric_defeaturing.svg )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Parametric Defeaturing/pl
+⏵ [documentation index](../README.md) > Macro Parametric Defeaturing/pl

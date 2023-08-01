@@ -1,6 +1,6 @@
 # Ship GZ/ro
 ---
-- GuiCommand:   Name:Ship PlotGZ   MenuLocation:Weights - GZ curve computation   |Workbenches:[[Ship Workbench   Ship]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Ship PlotGZ   MenuLocation: Weights - GZ curve computation   |Workbenches: [[Ship Workbench   Ship]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -25,4 +25,4 @@ De făcut
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship GZ/ro
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship GZ/ro

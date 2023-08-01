@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh_SectionByPlane
-   Name/it:Sezione da mesh e piano
-   MenuLocation:Mesh - Taglio - Sezione da mesh e piano
-   Workbenches:[Mesh](Mesh_Workbench/it.md)
-   SeeAlso:[Sezioni](Mesh_CrossSections/it.md)
+   Name: Mesh_SectionByPlane
+   Name/it: Sezione da mesh e piano
+   MenuLocation: Mesh - Taglio - Sezione da mesh e piano
+   Workbenches: [Mesh](Mesh_Workbench/it.md)
+   SeeAlso: [Sezioni](Mesh_CrossSections/it.md)
 ---
 
 # Mesh SectionByPlane/it
@@ -81,4 +81,4 @@ Part.show(Part.makePolygon(loops[0]))
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SectionByPlane/it
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SectionByPlane/it

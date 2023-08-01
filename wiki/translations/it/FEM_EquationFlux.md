@@ -1,6 +1,6 @@
 # FEM EquationFlux/it
 ---
-- GuiCommand:   Name:FEM_EquationFluxsolver   Name/it:Equazione fluxsolver   Icon:Fem-equation-fluxsolver.svg   MenuLocation: Solve - Equazione fluxsolver   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:   Name: FEM_EquationFluxsolver   Name/it: Equazione fluxsolver   Icon: Fem-equation-fluxsolver.svg   MenuLocation:  Solve - Equazione fluxsolver   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 
 </div>
@@ -72,4 +72,4 @@ The resulting flux is either the heat flux $\rm W/m^2$ (misleadingly named \"tem
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationFlux/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationFlux/it

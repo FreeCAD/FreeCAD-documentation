@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Boolean
-   Name/ro:PartDesign Operație booleană
-   Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation:Part Design - Operație booleană
-   Version:0.17
+   Name: PartDesign Boolean
+   Name/ro: PartDesign Operație booleană
+   Workbenches: [PartDesign](PartDesign_Workbench/ro.md)
+   MenuLocation: Part Design - Operație booleană
+   Version: 0.17
 ---
 
 # PartDesign Boolean/ro
@@ -113,4 +113,4 @@ De asemenea, puteți selecta unul sau mai multe corpuri înainte de a apăsa but
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Boolean/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Boolean/ro

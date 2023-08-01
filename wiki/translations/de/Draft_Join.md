@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Join
-   Name/de:Entwurf Verbinden
-   MenuLocation:Änderung - Verbinden
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench.md)
-   Shortcut:**J** **O**
-   Version:0.18
-   SeeAlso:[Entwurf Teilen](Draft_Split/de.md)
+   Name: Draft Join
+   Name/de: Entwurf Verbinden
+   MenuLocation: Änderung - Verbinden
+   Workbenches: [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench.md)
+   Shortcut: **J** **O**
+   Version: 0.18
+   SeeAlso: [Entwurf Teilen](Draft_Split/de.md)
 ---
 
 # Draft Join/de
@@ -68,4 +68,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Join/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Join/de

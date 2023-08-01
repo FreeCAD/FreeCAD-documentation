@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Скругление
-   Name:PartDesign_Fillet
-   MenuLocation:PartDesign - Apply a dress-up feature - Скругление
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   SeeAlso:[Фаска](PartDesign_Chamfer/ru.md), [Скругление](Part_Fillet/ru.md)
+   Name/ru: Скругление
+   Name: PartDesign_Fillet
+   MenuLocation: PartDesign - Apply a dress-up feature - Скругление
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso: [Фаска](PartDesign_Chamfer/ru.md), [Скругление](Part_Fillet/ru.md)
 ---
 
 # PartDesign Fillet/ru
@@ -136,4 +136,4 @@ Read more in [topological naming problem](Topological_naming_problem.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Fillet/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Fillet/ru

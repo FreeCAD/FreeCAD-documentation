@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar UShape
-   MenuLocation:Arch - Rebar tools - U-Shape Rebar<br>3D/BIM - Reinforcement tools - U-Shape Rebar
-   Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
-   Version:0.17
-   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Rebar LShape](Arch_Rebar_LShape.md)
+   Name: Arch Rebar UShape
+   MenuLocation: Arch - Rebar tools - U-Shape Rebar<br>3D/BIM - Reinforcement tools - U-Shape Rebar
+   Workbenches: [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   Version: 0.17
+   SeeAlso: [Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Rebar LShape](Arch_Rebar_LShape.md)
 ---
 
 # Arch Rebar UShape/pl
@@ -147,4 +147,4 @@ UShapeRebar.editUShapeRebar(Rebar2, 70, 50, 20, 20,
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar UShape/pl
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar UShape/pl

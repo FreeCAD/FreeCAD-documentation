@@ -1,6 +1,6 @@
 # Robot CreateTrajectory/it
 ---
-- GuiCommand:   Name:Robot CreateTrajectory   Name/it:Crea una traiettoria   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot - Crea una traiettoria---
+- GuiCommand:   Name: Robot CreateTrajectory   Name/it: Crea una traiettoria   Workbenches: [[Robot_Workbench/it   Robot]]|MenuLocation: Robot - Crea una traiettoria---
 
 
 </div>
@@ -54,4 +54,4 @@ Cliccare su <img alt="" src=images/Robot_CreateTrajectory.png  style="width:32px
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateTrajectory/it
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateTrajectory/it

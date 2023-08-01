@@ -16,4 +16,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Reverse Engineering](Category_Reverse Engineering.md) > Artwork ReverseEngineering/ru
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Reverse Engineering](Category_Reverse Engineering.md) > Artwork ReverseEngineering/ru

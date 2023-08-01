@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Arch CurtainWall
-   Name/it:Facciata continua
-   MenuLocation:Arch - Facciata continua
-   Workbenches:[Arch](Arch_Workbench/it.md)
-   Shortcut:**C** **W**
-   Version:0.19
-   SeeAlso:[Muro](Arch_Wall/it.md), [Griglia](Arch_Grid/it.md)
+   Name: Arch CurtainWall
+   Name/it: Facciata continua
+   MenuLocation: Arch - Facciata continua
+   Workbenches: [Arch](Arch_Workbench/it.md)
+   Shortcut: **C** **W**
+   Version: 0.19
+   SeeAlso: [Muro](Arch_Wall/it.md), [Griglia](Arch_Grid/it.md)
 ---
 
 # Arch CurtainWall/it
@@ -232,4 +232,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CurtainWall/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CurtainWall/it

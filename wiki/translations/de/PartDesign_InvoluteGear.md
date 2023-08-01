@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign InvoluteGear
-   Name/de:PartDesign Evolventenrad
-   Icon:PartDesign_InternalExternalGear.svg
-   MenuLocation:Part Design - Evolventenrad...
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso:[Arbeitsbereich FCGear](FCGear_Workbench/de.md)
+   Name: PartDesign InvoluteGear
+   Name/de: PartDesign Evolventenrad
+   Icon: PartDesign_InternalExternalGear.svg
+   MenuLocation: Part Design - Evolventenrad...
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso: [Arbeitsbereich FCGear](FCGear_Workbench/de.md)
 ---
 
 # PartDesign InvoluteGear/de
@@ -193,4 +193,4 @@ Video: [How to make gears in FreeCAD](https://www.youtube.com/watch?v=8VNhTrnFMf
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/de

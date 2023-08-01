@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:SheetMetal SketchOnSheet
-   Name/de:SheetMetal SkizzeAufBlech
-   MenuLocation:SheetMetal - Sketch On Sheet metal
-   Workbenches:[Blech (SheetMetal)](SheetMetal_Workbench/de.md)
-   Shortcut:**M** **S**
+   Name: SheetMetal SketchOnSheet
+   Name/de: SheetMetal SkizzeAufBlech
+   MenuLocation: SheetMetal - Sketch On Sheet metal
+   Workbenches: [Blech (SheetMetal)](SheetMetal_Workbench/de.md)
+   Shortcut: **M** **S**
 ---
 
 # SheetMetal SketchOnSheet/de
@@ -98,4 +98,4 @@ Dieses Dingens besteht aus einem Blechprofil mit hinzugefügten Löchern.  Es m�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal SketchOnSheet/de
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal SketchOnSheet/de

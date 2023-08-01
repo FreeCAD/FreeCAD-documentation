@@ -7,7 +7,7 @@ Ovo je opsežan, ali ne potpun popis značajki koje FreeCAD provodi. Ako želite
 </div>
 
 
-{{TOCright}}
+
 
 
 
@@ -114,4 +114,4 @@ Napredni korisnici stvorili su razne prilagođene [vanjske radne površine](exte
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/hr
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/hr

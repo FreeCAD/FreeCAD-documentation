@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 MeasurePointPlane
-   Name/de:Assembly3 PunktZuEbeneMessen
-   Icon:Assembly_MeasurePointPlaneDistance.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 MeasurePointPlane
+   Name/de: Assembly3 PunktZuEbeneMessen
+   Icon: Assembly_MeasurePointPlaneDistance.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 MeasurePointPlane/de
@@ -20,4 +20,4 @@ Dieses Werkzeug misst den Abstand zwischen zwei Objekten eines Zusammenbaus unte
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 MeasurePointPlane/de
+⏵ [documentation index](../README.md) > Assembly3 MeasurePointPlane/de

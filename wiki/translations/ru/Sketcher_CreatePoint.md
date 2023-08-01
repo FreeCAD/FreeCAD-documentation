@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreatePoint
-   Name/ru:Точка
-   MenuLocation:Эскиз - Геометрия эскиза - Точка
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**G** **Y**
+   Name: Sketcher CreatePoint
+   Name/ru: Точка
+   MenuLocation: Эскиз - Геометрия эскиза - Точка
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **G** **Y**
 ---
 
 # Sketcher CreatePoint/ru
@@ -47,4 +47,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/ru

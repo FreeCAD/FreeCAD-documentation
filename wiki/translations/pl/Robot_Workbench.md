@@ -21,7 +21,7 @@ Możesz wykonywać następujące zadania:
 Na wstępie wypróbuj [Samouczek robota](Robot_tutorial.md), i zobacz interfejs programowania w pliku [RobotExample.py](https://github.com/FreeCAD/FreeCAD_sf_master/blob/master/src/Mod/Robot/RobotExample.py).
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Robot_Workbench_example.jpg  style="width:500px;">
 
@@ -77,4 +77,4 @@ Aby uzyskać opis funkcji używanych do modelowania przemieszczeń robota, zobac
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Robot](Category_Robot.md) > Robot Workbench/pl
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Robot](Category_Robot.md) > Robot Workbench/pl

@@ -10,4 +10,4 @@ Cette catégorie répertorie les pages avec des captures d\'écran.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Screenshots/fr
+⏵ [documentation index](../README.md) > Category:Screenshots/fr

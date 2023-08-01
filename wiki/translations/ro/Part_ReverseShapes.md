@@ -1,6 +1,6 @@
 # Part ReverseShapes/ro
 ---
-- GuiCommand:   Name:Part ReverseShapes‏‎   MenuLocation:Part - Reverse Shapes   Workbenches:[[Part Workbench   Part]]|SeeAlso:---
+- GuiCommand:   Name: Part ReverseShapes‏‎   MenuLocation: Part - Reverse Shapes   Workbenches: [[Part Workbench   Part]]|SeeAlso: ---
 
 
 </div>
@@ -59,4 +59,4 @@ Puteți verifica prin :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ReverseShapes/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ReverseShapes/ro

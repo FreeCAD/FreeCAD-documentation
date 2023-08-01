@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM EquationFlow
-   Name/pl:MES: Równanie przepływu
-   MenuLocation: Solwer - Równanie przepływu
-   Workbenches:[MES](FEM_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:
+   Name: FEM EquationFlow
+   Name/pl: MES: Równanie przepływu
+   MenuLocation:  Solwer - Równanie przepływu
+   Workbenches: [MES](FEM_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: 
 ---
 
 # FEM EquationFlow/pl
@@ -79,4 +79,4 @@ The results are the velocity in $\rm m/s$ and the pressure in $\rm Pa$. If there
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationFlow/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationFlow/pl

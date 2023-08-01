@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Points Convert
-   Name/pl:Punkty: Konwersja
-   MenuLocation:Punkty - Konwertuj na punkty ...
-   Workbenches:[Punkty](Points_Workbench/pl.md)
+   Name: Points Convert
+   Name/pl: Punkty: Konwersja
+   MenuLocation: Punkty - Konwertuj na punkty ...
+   Workbenches: [Punkty](Points_Workbench/pl.md)
 ---
 
 # Points Convert/pl
@@ -74,4 +74,4 @@ Obiekty chmury punktów są obiektami typu [Cecha geometrii](App_GeoFeature/pl.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Convert/pl
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Convert/pl

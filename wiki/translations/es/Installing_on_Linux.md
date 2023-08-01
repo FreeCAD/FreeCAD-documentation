@@ -1,8 +1,4 @@
 # Installing on Linux/es
-{{TOCright}}
-
-
-
 ## Vista general 
 
 
@@ -402,4 +398,4 @@ Una vez tengas instalado FreeCAD, es hora de [dar tus primeros pasos](Getting_st
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing on Linux/es
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing on Linux/es

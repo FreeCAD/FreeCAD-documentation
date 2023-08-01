@@ -17,4 +17,4 @@ This category lists templates that create navigation elements.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Template:Navigation/pl
+⏵ [documentation index](../README.md) > Category:Template:Navigation/pl

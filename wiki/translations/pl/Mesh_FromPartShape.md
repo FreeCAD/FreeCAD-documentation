@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh FromPartShape
-   Name/pl:Siatka: Utwórz siatkę z kształtu
-   MenuLocation:Siatki - Utwórz siatkę z kształtu ...
-   Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   Name: Mesh FromPartShape
+   Name/pl: Siatka: Utwórz siatkę z kształtu
+   MenuLocation: Siatki - Utwórz siatkę z kształtu ...
+   Workbenches: [Siatka](Mesh_Workbench/pl.md)
 ---
 
 # Mesh FromPartShape/pl
@@ -221,4 +221,4 @@ msh.ViewObject.DisplayMode = "Flat Lines"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FromPartShape/pl
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FromPartShape/pl

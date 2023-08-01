@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Mesh BoundingBox
-   MenuLocation:Meshes - Analyze - Boundings info...
-   Workbenches:[Mesh](Mesh_Workbench.md)
+   Name: Mesh BoundingBox
+   MenuLocation: Meshes - Analyze - Boundings info...
+   Workbenches: [Mesh](Mesh_Workbench.md)
 ---
 
 # Mesh BoundingBox/en
@@ -32,4 +32,4 @@ The **Mesh BoundingBox** command shows the bounding box coordinates of a mesh ob
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/en
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/en

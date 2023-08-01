@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Drawing Symbol
-   Name/ru:Drawing Symbol
-   Workbenches:[Drawing](Drawing_Workbench/ru.md), Complete
-   MenuLocation:Чертёж - Символ
-   Shortcut:
+   Name: Drawing Symbol
+   Name/ru: Drawing Symbol
+   Workbenches: [Drawing](Drawing_Workbench/ru.md), Complete
+   MenuLocation: Чертёж - Символ
+   Shortcut: 
 ---
 
 # Drawing Symbol/ru
@@ -41,4 +41,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Symbol/ru
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Symbol/ru

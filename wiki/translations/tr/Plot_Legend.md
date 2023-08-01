@@ -1,11 +1,11 @@
 # Plot Legend/tr
 ---
 - GuiCommand:
-   Name/tr:Yazıt
-   MenuLocation:Arsa - Yazıt
-‏‎   |Workbenches:[Arsa](Plot_Workbench/tr.md)
-   Shortcut:
-   SeeAlso:---
+   Name/tr: Yazıt
+   MenuLocation: Arsa - Yazıt
+‏‎   |Workbenches: [Arsa](Plot_Workbench/tr.md)
+   Shortcut: 
+   SeeAlso: ---
 
 
 </div>
@@ -33,4 +33,4 @@ Remember that the styles and labels of the data series can be edited with the [d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Legend/tr
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Legend/tr

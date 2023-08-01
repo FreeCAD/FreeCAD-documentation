@@ -1,6 +1,6 @@
 # Sketcher CreateTriangle/ro
 ---
-- GuiCommand:   Name:Sketcher CreateTriangle   Name/ro:Sketcher CreateTriangle   Workbenches:[[Sketcher Workbench/ro   Sketcher]]|MenuLocation:Sketch - Sketcher geometries - Create equilateral triangle   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Sketcher CreateTriangle   Name/ro: Sketcher CreateTriangle   Workbenches: [[Sketcher Workbench/ro   Sketcher]]|MenuLocation: Sketch - Sketcher geometries - Create equilateral triangle   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -55,4 +55,4 @@ Când este definită schița obiectului geometric cercul circumscris este vizibi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateTriangle/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateTriangle/ro

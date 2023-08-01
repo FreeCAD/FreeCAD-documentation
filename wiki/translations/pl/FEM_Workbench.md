@@ -1,7 +1,7 @@
 # <img alt="Ikonka FreeCAD dla środowiska pracy MES" src=images/Workbench_FEM.svg  style="width:64px;"> FEM Workbench/pl
 
 
-{{TOCright}}
+
 
 
 
@@ -349,4 +349,4 @@ Przewodnik programisty został napisany, aby pomóc użytkownikom w zrozumieniu 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [FEM](Category_FEM.md) > FEM Workbench/pl
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [FEM](Category_FEM.md) > FEM Workbench/pl

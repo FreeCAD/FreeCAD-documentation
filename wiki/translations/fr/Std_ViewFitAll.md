@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ViewFitAll
-   Name/fr:Std Tout afficher
-   MenuLocation:Affichage - Vues standards‏‎ - Tout afficher
-   Workbenches:Tous
-   Shortcut:**V** **F**
-   SeeAlso:[Std Affichage de la sélection](Std_ViewFitSelection/fr.md)
+   Name: Std ViewFitAll
+   Name/fr: Std Tout afficher
+   MenuLocation: Affichage - Vues standards‏‎ - Tout afficher
+   Workbenches: Tous
+   Shortcut: **V** **F**
+   SeeAlso: [Std Affichage de la sélection](Std_ViewFitSelection/fr.md)
 ---
 
 # Std ViewFitAll/fr
@@ -65,4 +65,4 @@ FreeCADGui.SendMsgToActiveView('ViewFit')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewFitAll/fr
+⏵ [documentation index](../README.md) > Std ViewFitAll/fr

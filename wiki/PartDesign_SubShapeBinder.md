@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubShapeBinder
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   MenuLocation:Part Design - Create a sub-object(s) shape binder
-   Version:0.19
-   SeeAlso:[PartDesign ShapeBinder](PartDesign_ShapeBinder.md), [PartDesign Clone](PartDesign_Clone.md)
+   Name: PartDesign SubShapeBinder
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   MenuLocation: Part Design - Create a sub-object(s) shape binder
+   Version: 0.19
+   SeeAlso: [PartDesign ShapeBinder](PartDesign_ShapeBinder.md), [PartDesign Clone](PartDesign_Clone.md)
 ---
 
 # PartDesign SubShapeBinder
@@ -137,4 +137,4 @@ A PartDesign SubShapeBinder object is derived from a [Part Feature](Part_Feature
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubShapeBinder
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubShapeBinder

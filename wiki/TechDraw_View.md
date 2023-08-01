@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:TechDraw View
-   MenuLocation:TechDraw - TechDraw Views - Insert View
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw Projection Group](TechDraw_ProjectionGroup.md), [TechDraw Section View](TechDraw_SectionView.md)
+   Name: TechDraw View
+   MenuLocation: TechDraw - TechDraw Views - Insert View
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   SeeAlso: [TechDraw Projection Group](TechDraw_ProjectionGroup.md), [TechDraw Section View](TechDraw_SectionView.md)
 ---
 
 # TechDraw View
@@ -207,4 +207,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw View
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw View

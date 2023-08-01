@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Extrude
-   Name/pl:Część: Wyciągnięcie
-   MenuLocation:Część - Wyciągnięcie
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Przytnij](Draft_Trimex/pl.md), [Wyciągnij](PartDesign_Pad/pl.md)
+   Name: Part Extrude
+   Name/pl: Część: Wyciągnięcie
+   MenuLocation: Część - Wyciągnięcie
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: [Przytnij](Draft_Trimex/pl.md), [Wyciągnij](PartDesign_Pad/pl.md)
 ---
 
 # Part Extrude/pl
@@ -147,4 +147,4 @@ Kształt Wyciągnięcia jest definiowany przez następujące parametry, które m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/pl

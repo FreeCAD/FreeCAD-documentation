@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Part CompSplittingTools
-   Name:Part CompSplittingTools
-   MenuLocation:Деталь - Разделить
-   Workbenches:[Part](Part_Workbench/ru.md)
-   SeeAlso:
+   Name/ru: Part CompSplittingTools
+   Name: Part CompSplittingTools
+   MenuLocation: Деталь - Разделить
+   Workbenches: [Part](Part_Workbench/ru.md)
+   SeeAlso: 
 ---
 
 # Part CompSplittingTools/ru
@@ -41,4 +41,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompSplittingTools/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompSplittingTools/ru

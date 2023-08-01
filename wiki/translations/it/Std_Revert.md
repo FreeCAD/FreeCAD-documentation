@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std_Revert
-   Name/it:Ripristina
-   MenuLocation:File - Ripristina
-   Workbenches:Tutti
+   Name: Std_Revert
+   Name/it: Ripristina
+   MenuLocation: File - Ripristina
+   Workbenches: Tutti
 ---
 
 # Std Revert/it
@@ -38,4 +38,4 @@ Il comando **Ripristina** chiude il documento attivo e riapre l\'ultima versione
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Revert/it
+⏵ [documentation index](../README.md) > Std Revert/it

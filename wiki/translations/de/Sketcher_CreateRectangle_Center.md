@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateRectangle Center
-   Name/de:Sketcher ZentriertesRechteckErstellen
-   MenuLocation:Sketch - Skizzengeometrien - Zentriertes Rechteck erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **V**
-   Version:0.20
-   SeeAlso:[Sketcher RechteckErstellen](Sketcher_CreateRectangle/de.md)
+   Name: Sketcher CreateRectangle Center
+   Name/de: Sketcher ZentriertesRechteckErstellen
+   MenuLocation: Sketch - Skizzengeometrien - Zentriertes Rechteck erstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **V**
+   Version: 0.20
+   SeeAlso: [Sketcher RechteckErstellen](Sketcher_CreateRectangle/de.md)
 ---
 
 # Sketcher CreateRectangle Center/de
@@ -35,4 +35,4 @@ Beim starten des Werkzeugs verwandelt sich der Mauszeiger in ein weißes Kreuz m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle Center/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle Center/de

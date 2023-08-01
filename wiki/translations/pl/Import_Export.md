@@ -155,4 +155,4 @@ Jeśli chcesz zobaczyć dodatkowe informacje zajrzyj na stronę:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export/pl
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export/pl

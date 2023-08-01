@@ -1,6 +1,4 @@
 # Arch DAE/ru
-{{TOCright}}
-
 ## Description
 
 
@@ -45,4 +43,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch DAE/ru
+⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch DAE/ru

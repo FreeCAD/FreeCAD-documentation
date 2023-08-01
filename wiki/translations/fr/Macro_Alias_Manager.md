@@ -406,4 +406,4 @@ ToolBar Icon <img alt="" src=images/Aliasmanager_icon.png  style="width:32px;">
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Alias Manager/fr
+⏵ [documentation index](../README.md) > Macro Alias Manager/fr

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet Export
-   Name/es:Hoja de cálculo Exportar
-   MenuLocation:Hoja de cálculo - Exportar Hoja de cálculo
-   Workbenches:[Ambiente de trabajo Hoja de cálculo](Spreadsheet_Workbench/es.md)
-   Version:0.17
-   SeeAlso:[Spreadsheet Import](Spreadsheet_Import/es.md)
+   Name: Spreadsheet Export
+   Name/es: Hoja de cálculo Exportar
+   MenuLocation: Hoja de cálculo - Exportar Hoja de cálculo
+   Workbenches: [Ambiente de trabajo Hoja de cálculo](Spreadsheet_Workbench/es.md)
+   Version: 0.17
+   SeeAlso: [Spreadsheet Import](Spreadsheet_Import/es.md)
 ---
 
 # Spreadsheet Export/es
@@ -30,4 +30,4 @@ La herramienta **[<img src=images/Spreadsheet_Export.svg style="width:16px"> [Ex
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Export/es
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Export/es

@@ -1,6 +1,4 @@
 # Interface/pl
-{{TOCright}}
-
 ## Wprowadzenie
 
 [Interfejs](interface.md) FreeCAD oparty jest na Qt, znanym graficznym zestawie narzędzi interfejsu użytkownika *(GUI)*, szczególnie używanym w Linuksie, ale dostępnym również w systemie Windows i MacOS.
@@ -84,4 +82,4 @@ Opcje te znajdują się w menu, **Narzędzia → Dostosuj**. Patrz [Dostosowywan
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Interface/pl
+⏵ [documentation index](../README.md) > Interface/pl

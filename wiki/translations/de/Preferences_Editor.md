@@ -1,8 +1,4 @@
 # Preferences Editor/de
-{{TOCright}}
-
-
-
 ## Einleitung
 
 Zum Start des **Voreinstellungseditors** wähl man den Menüeintrag **Bearbeiten → Einstellungen...**. Im macOS erscheint die Menüoption **Einstellungen...** im **FreeCAD**-Menü anstatt im Bearbeitungsmenü (ersteres ist der vorgegebene Ort für Einstellungen auf dem Mac).
@@ -1017,4 +1013,4 @@ For a scripting example see [Std DlgParameter](Std_DlgParameter.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Preferences Editor/de
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Preferences Editor/de

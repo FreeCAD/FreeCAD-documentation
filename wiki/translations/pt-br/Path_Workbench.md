@@ -1,7 +1,7 @@
 # <img alt="ícone da bancada de trabalho Path" src=images/Workbench_Path.svg  style="width:64px;"> Path Workbench/pt-br
 
 
-{{TOCright}}
+
 
 
 
@@ -567,4 +567,4 @@ Confira a página [Path scripting](Path_scripting.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/pt-br
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/pt-br

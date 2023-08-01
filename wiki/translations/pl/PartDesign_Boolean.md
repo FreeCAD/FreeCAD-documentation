@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Boolean
-   Name/pl:Projekt Części: Operacja logiczna
-   MenuLocation:Projekt Części - Operacja logiczna
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   Version:0.17
+   Name: PartDesign Boolean
+   Name/pl: Projekt Części: Operacja logiczna
+   MenuLocation: Projekt Części - Operacja logiczna
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   Version: 0.17
 ---
 
 # PartDesign Boolean/pl
@@ -80,4 +80,4 @@ Alternatywnie można wybrać jedną lub więcej brył przed użyciem przycisku O
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Boolean/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Boolean/pl

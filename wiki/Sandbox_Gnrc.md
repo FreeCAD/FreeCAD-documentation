@@ -19,4 +19,4 @@ Bonjour !
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Sandbox:Gnrc
+⏵ [documentation index](../README.md) > Sandbox:Gnrc

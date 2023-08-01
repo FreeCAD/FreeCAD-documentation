@@ -44,4 +44,4 @@ Easy
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > New solver object for handling ElmerFEM execution in FEM-workbench
+⏵ [documentation index](../README.md) > New solver object for handling ElmerFEM execution in FEM-workbench

@@ -156,4 +156,4 @@ Remplacer une chaîne dans toutes les pages listées dans la catégorie Arch (co
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Administration](Category_Administration.md) > [Developer](Category_Developer.md) > WikiRobots/fr
+⏵ [documentation index](../README.md) > [Administration](Category_Administration.md) > [Developer](Category_Developer.md) > WikiRobots/fr

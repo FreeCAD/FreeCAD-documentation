@@ -1,7 +1,7 @@
 # <img alt="Icône de l\'atelier Plot" src=images/Workbench_Plot.svg  style="width:64px;"> Plot Workbench/fr
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -63,4 +63,4 @@ Puisque l\'atelier Plot est une couche sur `matplotlib`, vous êtes libre d\'uti
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot Workbench/fr
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot Workbench/fr

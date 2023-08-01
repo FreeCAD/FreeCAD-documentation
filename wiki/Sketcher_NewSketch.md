@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher NewSketch
-   MenuLocation:Sketch - Create sketch
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   SeeAlso:[PartDesign NewSketch](PartDesign_NewSketch.md), [Sketcher MapSketch](Sketcher_MapSketch.md), [Sketcher Reorient](Sketcher_ReorientSketch.md)
+   Name: Sketcher NewSketch
+   MenuLocation: Sketch - Create sketch
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   SeeAlso: [PartDesign NewSketch](PartDesign_NewSketch.md), [Sketcher MapSketch](Sketcher_MapSketch.md), [Sketcher Reorient](Sketcher_ReorientSketch.md)
 ---
 
 # Sketcher NewSketch
@@ -40,4 +40,4 @@ The sketch can be moved in the [3D view](3D_view.md) using [Placement](Placement
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch

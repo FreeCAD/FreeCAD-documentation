@@ -5,7 +5,7 @@
 ## Wprowadzenie
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> Środowisko pracy **Upraszczanie** jest dodatkowym środowiskiem pracy przeznaczonym do edycji modeli STEP, usuwając wybrane cechy z modelu. Jest to [zewnętrzne środowiskiem pracy](External_workbenches/pl.md) i dlatego nie jest częścią standardowej instalacji FreeCAD.
 
@@ -137,4 +137,4 @@ Nowe środowiska pracy są w czasie tworzenia, bądź cierpliwy!
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Defeaturing Workbench/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Defeaturing Workbench/pl

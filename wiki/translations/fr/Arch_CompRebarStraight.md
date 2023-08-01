@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch CompRebarStraight
-   Name/fr:Arch Armatures
-   MenuLocation:Arch - Rebar tools
-   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
-   Version:0.17
+   Name: Arch CompRebarStraight
+   Name/fr: Arch Armatures
+   MenuLocation: Arch - Rebar tools
+   Workbenches: [Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   Version: 0.17
 ---
 
 # Arch CompRebarStraight/fr
@@ -46,4 +46,4 @@ Voir sur [Ateliers](Workbenches/fr#Ateliers_externes.md)/[Ateliers externes](Ext
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/fr

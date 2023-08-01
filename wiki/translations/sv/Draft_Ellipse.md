@@ -1,6 +1,6 @@
 # Draft Ellipse/sv
 ---
-- GuiCommand:   Name:Draft Ellipse   Name/sv:Draft Ellipse   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> Ellipse   Shortcut:E L   SeeAlso:[Draft Circle](Draft_Circle/sv.md)---
+- GuiCommand:   Name: Draft Ellipse   Name/sv: Draft Ellipse   Workbenches: [Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation: Draft -> Ellipse   Shortcut: E L   SeeAlso: [Draft Circle](Draft_Circle/sv.md)---
 
 
 </div>
@@ -129,4 +129,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Ellipse/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Ellipse/sv

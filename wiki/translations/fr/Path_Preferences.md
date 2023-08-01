@@ -1,8 +1,4 @@
 # Path Preferences/fr
-{{TOCright}}
-
-
-
 ## Présentation
 
 L\'écran des [préférences du module Path](Path_Workbench/fr.md) se trouve dans la fenêtre [Préférences](Preferences_Editor/fr.md) (Menu Édition → Préférences → Path).
@@ -68,4 +64,4 @@ Il y a quatre sections: Général, Post-processeur, Configuration et Outils
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Path](Path_Workbench.md) > Path Preferences/fr
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Path](Path_Workbench.md) > Path Preferences/fr

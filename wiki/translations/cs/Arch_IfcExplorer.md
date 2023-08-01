@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch IfcExplorer
-   Name/cs:Architektura IfcProhlážeč
-   MenuLocation:Arch - Utilities - Ifc Explorer
-   Workbenches:[Architektura](Arch_Workbench/cs.md)
-   SeeAlso:[[Arch IFC]]
+   Name: Arch IfcExplorer
+   Name/cs: Architektura IfcProhlážeč
+   MenuLocation: Arch - Utilities - Ifc Explorer
+   Workbenches: [Architektura](Arch_Workbench/cs.md)
+   SeeAlso: [[Arch IFC]]
 ---
 
 # Arch IfcExplorer/cs
@@ -55,4 +55,4 @@ Důvod pro použití tohoto prohlížeče je jednoduše v tom, že si můžete z
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/cs
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/cs

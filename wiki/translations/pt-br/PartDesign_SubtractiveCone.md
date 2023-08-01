@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractiveCone
-   MenuLocation:Part Design - Create a subtractive primitive - Subtractive Cone
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign AdditiveCone](PartDesign_AdditiveCone.md)
+   Name: PartDesign SubtractiveCone
+   MenuLocation: Part Design - Create a subtractive primitive - Subtractive Cone
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   Version: 0.17
+   SeeAlso: [PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign AdditiveCone](PartDesign_AdditiveCone.md)
 ---
 
 # PartDesign SubtractiveCone/pt-br
@@ -56,4 +56,4 @@ The Cone can be edited after its creation in two ways:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveCone/pt-br
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveCone/pt-br

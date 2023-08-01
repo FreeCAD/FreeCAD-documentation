@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh PolyTrim
-   Name/fr:Mesh Ajuster
-   MenuLocation:Maillages - Couper - Ajuster le maillage
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Couper le maillage](Mesh_PolyCut/fr.md), [Mesh Ajuster par plan](Mesh_TrimByPlane/fr.md)
+   Name: Mesh PolyTrim
+   Name/fr: Mesh Ajuster
+   MenuLocation: Maillages - Couper - Ajuster le maillage
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
+   SeeAlso: [Mesh Couper le maillage](Mesh_PolyCut/fr.md), [Mesh Ajuster par plan](Mesh_TrimByPlane/fr.md)
 ---
 
 # Mesh PolyTrim/fr
@@ -88,4 +88,4 @@ msh.Mesh = new_msh
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyTrim/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyTrim/fr

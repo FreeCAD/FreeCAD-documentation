@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM CreateNodesSet
-   Name/it:Definisci i nodi
-   MenuLocation:Mesh - Definisci i nodi
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
+   Name: FEM CreateNodesSet
+   Name/it: Definisci i nodi
+   MenuLocation: Mesh - Definisci i nodi
+   Workbenches: [FEM](FEM_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: [Tutorial FEM](FEM_tutorial/it.md)
 ---
 
 # FEM CreateNodesSet/it
@@ -44,4 +44,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM CreateNodesSet/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM CreateNodesSet/it

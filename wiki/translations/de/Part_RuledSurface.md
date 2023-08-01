@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part RuledSurface
-   Name/de:Part Regelfläche
-   MenuLocation:Formteil - Regelfläche erzeugen
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part FlächeAusLinienzügen](Part_MakeFace/de.md)
+   Name: Part RuledSurface
+   Name/de: Part Regelfläche
+   MenuLocation: Formteil - Regelfläche erzeugen
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: [Part FlächeAusLinienzügen](Part_MakeFace/de.md)
 ---
 
 # Part RuledSurface/de
@@ -34,4 +34,4 @@ Erstellt eine Regelfläche
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RuledSurface/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RuledSurface/de

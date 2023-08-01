@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part MakeFace‏‎
-   MenuLocation:Part - Make face from wires
-   Workbenches:[Part](Part_Workbench.md)
-   Version:0.19
-   SeeAlso:[Part RuledSurface](Part_RuledSurface.md)
+   Name: Part MakeFace‏‎
+   MenuLocation: Part - Make face from wires
+   Workbenches: [Part](Part_Workbench.md)
+   Version: 0.19
+   SeeAlso: [Part RuledSurface](Part_RuledSurface.md)
 ---
 
 # Part MakeFace/en
@@ -29,4 +29,4 @@ It is possible to nest closed contours, for example to have circles inside a pol
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeFace/en
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeFace/en

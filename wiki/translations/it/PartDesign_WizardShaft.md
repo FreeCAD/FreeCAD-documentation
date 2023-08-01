@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign_WizardShaft
-   Name/it:PartDesign Procedura guidata per alberi
-   MenuLocation:PartDesign - Assistente Formazione Albero...
-   Workbenches:[DisegnoPezzo](PartDesign_Workbench/it.md)
+   Name: PartDesign_WizardShaft
+   Name/it: PartDesign Procedura guidata per alberi
+   MenuLocation: PartDesign - Assistente Formazione Albero...
+   Workbenches: [DisegnoPezzo](PartDesign_Workbench/it.md)
 ---
 
 # PartDesign WizardShaft/it
@@ -132,4 +132,4 @@ Per aggiungere un nuovo segmento all\'albero, fare clic con il tasto destro nell
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/it

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std PrintPreview
-   Name/ru:Std PrintPreview
-   MenuLocation:Файл - Предварительный просмотр 
-   Workbenches:All
-   SeeAlso:File [Печать](Std_Print/ru.md)
+   Name: Std PrintPreview
+   Name/ru: Std PrintPreview
+   MenuLocation: Файл - Предварительный просмотр 
+   Workbenches: All
+   SeeAlso: File [Печать](Std_Print/ru.md)
 ---
 
 # Std PrintPreview/ru
@@ -35,4 +35,4 @@ The **Std PrintPreview** command will show a preview of the result of the [Std P
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std PrintPreview/ru
+⏵ [documentation index](../README.md) > Std PrintPreview/ru

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign Body
-   Name/it:Corpo
-   MenuLocation:Part Design - Crea un corpo
-   Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   Version:0.17
-   SeeAlso:[Parte standard](Std_Part/it.md), [Editazione delle funzioni](feature_editing/it.md)
+   Name: PartDesign Body
+   Name/it: Corpo
+   MenuLocation: Part Design - Crea un corpo
+   Workbenches: [PartDesign](PartDesign_Workbench/it.md)
+   Version: 0.17
+   SeeAlso: [Parte standard](Std_Part/it.md), [Editazione delle funzioni](feature_editing/it.md)
 ---
 
 # PartDesign Body/it
@@ -351,4 +351,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Body/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Body/it

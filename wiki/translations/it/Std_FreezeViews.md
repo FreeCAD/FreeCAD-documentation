@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_FreezeViews
-   Name/it:Viste bloccate
-   MenuLocation:Visualizza - Viste bloccate - ...
-   Workbenches:Tutti
-   SeeAlso:[Memorizza vista di lavoro](Std_StoreWorkingView/it.md), [Richiama vista di lavoro](Std_RecallWorkingView/it.md), [Pubblica la posizione della camera](Std_ViewIvIssueCamPos/it.md)
+   Name: Std_FreezeViews
+   Name/it: Viste bloccate
+   MenuLocation: Visualizza - Viste bloccate - ...
+   Workbenches: Tutti
+   SeeAlso: [Memorizza vista di lavoro](Std_StoreWorkingView/it.md), [Richiama vista di lavoro](Std_RecallWorkingView/it.md), [Pubblica la posizione della camera](Std_ViewIvIssueCamPos/it.md)
 ---
 
 # Std FreezeViews/it
@@ -130,4 +130,4 @@ Per ogni vista bloccata viene aggiunta un\'opzione **Ripristina vista** con la q
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std FreezeViews/it
+⏵ [documentation index](../README.md) > Std FreezeViews/it

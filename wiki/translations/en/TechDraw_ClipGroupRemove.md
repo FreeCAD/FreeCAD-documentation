@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:TechDraw ClipGroupRemove
-   MenuLocation:TechDraw - Clipped Views - Remove View from Clip Group
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw Clip Group](TechDraw_ClipGroup.md), [TechDraw Add Clip Group](TechDraw_ClipGroupAdd.md)
+   Name: TechDraw ClipGroupRemove
+   MenuLocation: TechDraw - Clipped Views - Remove View from Clip Group
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   SeeAlso: [TechDraw Clip Group](TechDraw_ClipGroup.md), [TechDraw Add Clip Group](TechDraw_ClipGroupAdd.md)
 ---
 
 # TechDraw ClipGroupRemove/en
@@ -33,4 +33,4 @@ The **TechDraw ClipGroupRemove** tool removes a View from an existing Clip and r
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupRemove/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupRemove/en

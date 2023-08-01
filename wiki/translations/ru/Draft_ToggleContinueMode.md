@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft ToggleContinueMode
-   Name/ru:Draft ToggleContinueMode
-   MenuLocation:Черчение -> Утилиты -> Переключить режим продолжения
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Name: Draft ToggleContinueMode
+   Name/ru: Draft ToggleContinueMode
+   MenuLocation: Черчение -> Утилиты -> Переключить режим продолжения
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
 ---
 
 # Draft ToggleContinueMode/ru
@@ -26,4 +26,4 @@ The <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:24px;"> **
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode/ru

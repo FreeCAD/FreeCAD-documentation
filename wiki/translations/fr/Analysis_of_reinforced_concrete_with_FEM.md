@@ -194,4 +194,4 @@ Le modèle de contrainte de traction suggère un concept alternatif utilisant de
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > Analysis of reinforced concrete with FEM/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > Analysis of reinforced concrete with FEM/fr

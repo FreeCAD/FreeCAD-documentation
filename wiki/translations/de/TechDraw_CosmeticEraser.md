@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw CosmeticEraser
-   Name/de:TechDraw HilfsobjektEntfernen
-   MenuLocation:TechDraw - Hilfsobjekt entfernen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.19
+   Name: TechDraw CosmeticEraser
+   Name/de: TechDraw HilfsobjektEntfernen
+   MenuLocation: TechDraw - Hilfsobjekt entfernen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Version: 0.19
 ---
 
 # TechDraw CosmeticEraser/de
@@ -46,4 +46,4 @@ Das Werkzeug **TechDraw HilfsobjektEntfernen** entfernt Hilfsobjekte vom Zeichnu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticEraser/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticEraser/de

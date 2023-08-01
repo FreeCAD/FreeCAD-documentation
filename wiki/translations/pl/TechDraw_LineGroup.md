@@ -1,8 +1,4 @@
 # TechDraw LineGroup/pl
-{{TOCright}}
-
-
-
 ## Opis
 
 Grupy linii służą do kontrolowania wyglądu różnych typów linii.
@@ -91,4 +87,4 @@ Uwaga: Dodano nową preferencję, aby umożliwić korzystanie z własnego pliku 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LineGroup/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LineGroup/pl

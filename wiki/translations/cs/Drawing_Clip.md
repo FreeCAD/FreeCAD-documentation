@@ -1,6 +1,6 @@
 # Drawing Clip/cs
 ---
-- GuiCommand:   Name:Drawing Clip   Name/cs:Drawing Clip   Workbenches:[[Drawing Workbench/cs   Drawing]], Complete|MenuLocation:Drawing - Clip   Shortcut:none---
+- GuiCommand:   Name: Drawing Clip   Name/cs: Drawing Clip   Workbenches: [[Drawing Workbench/cs   Drawing]], Complete|MenuLocation: Drawing - Clip   Shortcut: none---
 
 ## Popis
 
@@ -33,4 +33,4 @@ This command allows you to place a clipping rectangle on a [Drawing page](Drawin
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Clip/cs
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Clip/cs

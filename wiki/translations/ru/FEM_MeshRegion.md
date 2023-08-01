@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM MeshRegion
-   Name/ru:Область сетки МКЭ
-   MenuLocation: Mesh - Область сетки МКЭ
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM MeshRegion
+   Name/ru: Область сетки МКЭ
+   MenuLocation:  Mesh - Область сетки МКЭ
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM MeshRegion/ru
@@ -78,4 +78,4 @@ You can create as many different mesh regions as needed.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshRegion/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshRegion/ru

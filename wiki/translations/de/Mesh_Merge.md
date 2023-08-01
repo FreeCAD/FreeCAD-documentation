@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh Merge
-   Name/de:Mesh Zusammenführen
-   MenuLocation:Netze - Zusammenführen
-   Workbenches:[Mesh](Mesh_Workbench/de.md)
-   SeeAlso:[Mesh KomponentenTeilen](Mesh_SplitComponents/de.md)
+   Name: Mesh Merge
+   Name/de: Mesh Zusammenführen
+   MenuLocation: Netze - Zusammenführen
+   Workbenches: [Mesh](Mesh_Workbench/de.md)
+   SeeAlso: [Mesh KomponentenTeilen](Mesh_SplitComponents/de.md)
 ---
 
 # Mesh Merge/de
@@ -41,4 +41,4 @@ Siehe: [Mesh Formelement](Mesh_Feature/de.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Merge/de
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Merge/de

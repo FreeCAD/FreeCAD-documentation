@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionCascadeHorizDimension
-   Name/de:TechDraw ErgänzungHorizontaleMaßeAnordnen
-   MenuLocation:TechDraw - Ergänzungen: Merkmale/Änderungen - Horizontale Maße anordnen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ErgänzungVertikaleMaßeAnordnen](TechDraw_ExtensionCascadeVertDimension/de.md), [TechDraw ErgänzungSchrägeMaßeAnordnen](TechDraw_ExtensionCascadeObliqueDimension/de.md)
+   Name: TechDraw ExtensionCascadeHorizDimension
+   Name/de: TechDraw ErgänzungHorizontaleMaßeAnordnen
+   MenuLocation: TechDraw - Ergänzungen: Merkmale/Änderungen - Horizontale Maße anordnen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ErgänzungVertikaleMaßeAnordnen](TechDraw_ExtensionCascadeVertDimension/de.md), [TechDraw ErgänzungSchrägeMaßeAnordnen](TechDraw_ExtensionCascadeObliqueDimension/de.md)
 ---
 
 # TechDraw ExtensionCascadeHorizDimension/de
@@ -49,4 +49,4 @@ Das Werkzeug **TechDraw ErgänzungHorizontaleMaßeAnordnen** erzeugt gleiche Abs
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCascadeHorizDimension/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCascadeHorizDimension/de

@@ -935,4 +935,4 @@ Lo script è troppo lungo per essere visualizzato nel Wiki quindi deve essere co
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Half-Hull Model/it
+⏵ [documentation index](../README.md) > Macro Half-Hull Model/it

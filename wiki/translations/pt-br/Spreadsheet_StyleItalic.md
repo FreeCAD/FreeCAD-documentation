@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet StyleItalic
-   MenuLocation:Spreadsheet - Styles - Italic text
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
-   Version:0.17
+   Name: Spreadsheet StyleItalic
+   MenuLocation: Spreadsheet - Styles - Italic text
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench.md)
+   Version: 0.17
 ---
 
 # Spreadsheet StyleItalic/pt-br
@@ -29,4 +29,4 @@ The **[<img src=images/Spreadsheet_StyleItalic.svg style="width:16px"> [Spreadsh
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleItalic/pt-br
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleItalic/pt-br

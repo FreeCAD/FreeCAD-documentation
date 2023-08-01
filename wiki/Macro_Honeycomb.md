@@ -36,4 +36,4 @@ ToolBar Icon  ![](images/Macro_Honeycomb.svg )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Honeycomb
+⏵ [documentation index](../README.md) > Macro Honeycomb

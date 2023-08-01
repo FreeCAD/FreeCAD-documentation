@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet AlignLeft
-   Name/pl:Arkusz Kalkulacyjny: Wyrównaj do lewej
-   MenuLocation:Arkusz kalkulacyjny - Wyrównanie - Wyrównaj do lewej
-   Workbenches:[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
-   Version:0.17
+   Name: Spreadsheet AlignLeft
+   Name/pl: Arkusz Kalkulacyjny: Wyrównaj do lewej
+   MenuLocation: Arkusz kalkulacyjny - Wyrównanie - Wyrównaj do lewej
+   Workbenches: [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   Version: 0.17
 ---
 
 # Spreadsheet AlignLeft/pl
@@ -30,4 +30,4 @@ Narzędzie **[<img src=images/Spreadsheet_AlignLeft.svg style="width:16px"> [Wyr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignLeft/pl
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignLeft/pl

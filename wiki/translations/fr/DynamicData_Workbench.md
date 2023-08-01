@@ -1,7 +1,7 @@
 # <img alt="Icône de l\'atelier externe DynamicData" src=images/DynamicData_workbench_icon.svg  style="width:64px;"> DynamicData Workbench/fr
 
 
-{{TOCright}}
+
 
 
 
@@ -43,4 +43,4 @@ De nouveaux ateliers sont en développement, restez à l\'écoute !
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > DynamicData Workbench/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > DynamicData Workbench/fr

@@ -20,4 +20,4 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [PartDesign](Category_PartDesign.md) > Artwork PartDesign/pl
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [PartDesign](Category_PartDesign.md) > Artwork PartDesign/pl

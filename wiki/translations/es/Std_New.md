@@ -1,6 +1,6 @@
 # Std New/es
 ---
-- GuiCommand:   Name:Std New   MenuLocation:Archivo -> Nuevo   Workbenches:Todos   SeeAlso:[[Std_Open/es]],[[Std_Import/es]]---
+- GuiCommand:   Name: Std New   MenuLocation: Archivo -> Nuevo   Workbenches: Todos   SeeAlso: [[Std_Open/es]],[[Std_Import/es]]---
 
 
 </div>
@@ -104,4 +104,4 @@ FreeCAD.closeDocument(doc.Name)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std New/es
+⏵ [documentation index](../README.md) > Std New/es

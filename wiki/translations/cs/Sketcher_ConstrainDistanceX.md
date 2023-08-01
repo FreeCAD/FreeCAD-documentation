@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainDistanceX
-   Name/cs:Sketcher ConstrainDistanceX
-   Workbenches:[Sketcher](Sketcher_Workbench/cs.md)
-   MenuLocation:Sketch - Sketcher constraints - Constrain horizontal distance
-   Shortcut:Shift + H
-   SeeAlso:[Constraint Length](Sketcher_ConstrainDistance/cs.md), [Constraint VerticalDistance](Sketcher_ConstrainDistanceY/cs.md)
+   Name: Sketcher ConstrainDistanceX
+   Name/cs: Sketcher ConstrainDistanceX
+   Workbenches: [Sketcher](Sketcher_Workbench/cs.md)
+   MenuLocation: Sketch - Sketcher constraints - Constrain horizontal distance
+   Shortcut: Shift + H
+   SeeAlso: [Constraint Length](Sketcher_ConstrainDistance/cs.md), [Constraint VerticalDistance](Sketcher_ConstrainDistanceY/cs.md)
 ---
 
 # Sketcher ConstrainDistanceX/cs
@@ -90,4 +90,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistanceX/cs
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistanceX/cs

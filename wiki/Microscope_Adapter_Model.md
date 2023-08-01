@@ -55,4 +55,4 @@ and perhaps add category Model and Best Practice
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Microscope Adapter Model
+⏵ [documentation index](../README.md) > Microscope Adapter Model

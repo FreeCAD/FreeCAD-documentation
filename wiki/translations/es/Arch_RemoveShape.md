@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch RemoveShape
-   Name/es:Arch RemoveShape
-   MenuLocation:Arch - Utilities - Remove Shape
-   Workbenches:[Arch](Arch_Workbench/es.md)
-   SeeAlso:[Arch MeshToShape](Arch_MeshToShape/es.md)
+   Name: Arch RemoveShape
+   Name/es: Arch RemoveShape
+   MenuLocation: Arch - Utilities - Remove Shape
+   Workbenches: [Arch](Arch_Workbench/es.md)
+   SeeAlso: [Arch MeshToShape](Arch_MeshToShape/es.md)
 ---
 
 # Arch RemoveShape/es
@@ -93,4 +93,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch RemoveShape/es
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch RemoveShape/es

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:MeshPart CreateFlatMesh
-   Name/pl:Projekt Siatki: Rozwiń siatkę
-   MenuLocation:Siatki - Rozwiń siatkę
-   Workbenches:[Siatka](Mesh_Workbench/pl.md)
-   Version:0.19
-   SeeAlso:[Rozwiń powierzchnię](MeshPart_CreateFlatFace/pl.md)
+   Name: MeshPart CreateFlatMesh
+   Name/pl: Projekt Siatki: Rozwiń siatkę
+   MenuLocation: Siatki - Rozwiń siatkę
+   Workbenches: [Siatka](Mesh_Workbench/pl.md)
+   Version: 0.19
+   SeeAlso: [Rozwiń powierzchnię](MeshPart_CreateFlatFace/pl.md)
 ---
 
 # MeshPart CreateFlatMesh/pl
@@ -43,4 +43,4 @@ Zapoznaj się z informacjami na stronie: [cecha](Part_Feature/pl.md) środowiska
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Category_Mesh.md) > [MeshPart](MeshPart_Workbench.md) > MeshPart CreateFlatMesh/pl
+⏵ [documentation index](../README.md) > [Mesh](Category_Mesh.md) > [MeshPart](MeshPart_Workbench.md) > MeshPart CreateFlatMesh/pl

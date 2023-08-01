@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw Balloon
-   Name/it:Pallinatura
-   MenuLocation:TechDraw - Pallinatura
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   Version:0.19
-   SeeAlso:[Annotazione](TechDraw_Annotation/it.md)
+   Name: TechDraw Balloon
+   Name/it: Pallinatura
+   MenuLocation: TechDraw - Pallinatura
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   Version: 0.19
+   SeeAlso: [Annotazione](TechDraw_Annotation/it.md)
 ---
 
 # TechDraw Balloon/it
@@ -163,4 +163,4 @@ rc = page.addView(bal1)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Balloon/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Balloon/it

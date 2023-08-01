@@ -14,4 +14,4 @@ Ces modèles produisent de petits morceaux de texte qui conviennent à la transc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Template:Text Box/fr
+⏵ [documentation index](../README.md) > Category:Template:Text Box/fr

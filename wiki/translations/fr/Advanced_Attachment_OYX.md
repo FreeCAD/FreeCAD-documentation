@@ -72,4 +72,4 @@ Maintenant, si nous ajoutons une troisième référence en sélectionnant le som
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Advanced Attachment OYX/fr
+⏵ [documentation index](../README.md) > Advanced Attachment OYX/fr

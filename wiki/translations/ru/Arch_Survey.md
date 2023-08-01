@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Survey
-   Name/ru:Arch Survey
-   MenuLocation:Архитектура - Опрос/анкетирование
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   SeeAlso:[FCInfo (macro)](Macro_FCInfo/ru.md)
+   Name: Arch Survey
+   Name/ru: Arch Survey
+   MenuLocation: Архитектура - Опрос/анкетирование
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   SeeAlso: [FCInfo (macro)](Macro_FCInfo/ru.md)
 ---
 
 # Arch Survey/ru
@@ -73,4 +73,4 @@ for obj in selection:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Survey/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Survey/ru

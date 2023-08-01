@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw DecorateLine
-   Name/fr:TechDraw Apparence des lignes
-   MenuLocation:TechDraw - Changer l'apparence des lignes
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[TechDraw Ligne centrale à une face](TechDraw_FaceCenterLine/fr.md), [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md)
+   Name: TechDraw DecorateLine
+   Name/fr: TechDraw Apparence des lignes
+   MenuLocation: TechDraw - Changer l'apparence des lignes
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Version: 0.19
+   SeeAlso: [TechDraw Ligne centrale à une face](TechDraw_FaceCenterLine/fr.md), [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md)
 ---
 
 # TechDraw DecorateLine/fr
@@ -72,4 +72,4 @@ L\'outil **TechDraw Apparence des lignes** modifie l\'apparence des lignes.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DecorateLine/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DecorateLine/fr

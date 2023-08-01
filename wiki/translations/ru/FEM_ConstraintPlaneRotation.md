@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Ограничить вращение плоскости
-   Name:FEM_ConstraintPlaneRotation
-   MenuLocation:Модель - Geometrical Constraints - Ограничить вращение плоскости
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   SeeAlso:[Ограничение преобразования](FEM_ConstraintTransform/ru.md)
+   Name/ru: Ограничить вращение плоскости
+   Name: FEM_ConstraintPlaneRotation
+   MenuLocation: Модель - Geometrical Constraints - Ограничить вращение плоскости
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   SeeAlso: [Ограничение преобразования](FEM_ConstraintTransform/ru.md)
 ---
 
 # FEM ConstraintPlaneRotation/ru
@@ -56,4 +56,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPlaneRotation/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPlaneRotation/ru

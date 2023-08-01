@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:SheetMetal Unfold
-   Name/fr:SheetMetal Déplier
-   MenuLocation:SheetMetal - Unfold
-   Workbenches:[SheetMetal](SheetMetal_Workbench/fr.md)
-   Shortcut:**U**
-   SeeAlso:[Déplier sans assistance](SheetMetal_UnattendedUnfold/fr.md)
+   Name: SheetMetal Unfold
+   Name/fr: SheetMetal Déplier
+   MenuLocation: SheetMetal - Unfold
+   Workbenches: [SheetMetal](SheetMetal_Workbench/fr.md)
+   Shortcut: **U**
+   SeeAlso: [Déplier sans assistance](SheetMetal_UnattendedUnfold/fr.md)
 ---
 
 # SheetMetal Unfold/fr
@@ -51,4 +51,4 @@ Un objet SheetMetal Unfold est dérivé d\'un objet [Part Feature](Part_Feature/
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal Unfold/fr
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal Unfold/fr

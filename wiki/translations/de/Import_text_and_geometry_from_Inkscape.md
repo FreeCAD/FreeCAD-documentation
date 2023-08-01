@@ -59,4 +59,4 @@ Dank an die Benutzer \"freecad-heini-1\" und \"herbk\" für die Tests und die we
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Import](Import_Workbench.md) > Import text and geometry from Inkscape/de
+⏵ [documentation index](../README.md) > [Import](Import_Workbench.md) > Import text and geometry from Inkscape/de

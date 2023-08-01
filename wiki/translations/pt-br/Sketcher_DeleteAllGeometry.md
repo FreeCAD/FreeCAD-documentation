@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher DeleteAllGeometry
-   MenuLocation:Sketch - Sketcher tools - Delete all geometry
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Version:0.18
-   SeeAlso:[Sketcher Delete All Constraints](Sketcher_DeleteAllConstraints.md)
+   Name: Sketcher DeleteAllGeometry
+   MenuLocation: Sketch - Sketcher tools - Delete all geometry
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Version: 0.18
+   SeeAlso: [Sketcher Delete All Constraints](Sketcher_DeleteAllConstraints.md)
 ---
 
 # Sketcher DeleteAllGeometry/pt-br
@@ -29,4 +29,4 @@ This tool deletes all geometry from the sketch being edited.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllGeometry/pt-br
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllGeometry/pt-br

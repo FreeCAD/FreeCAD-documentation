@@ -1,6 +1,6 @@
 # Draft Polygon/sv
 ---
-- GuiCommand:   Name:Draft_Polygon   Workbenches:[[Draft_Workbench/sv   Skiss]]|MenuLocation:Draft -> Polygon---
+- GuiCommand:   Name: Draft_Polygon   Workbenches: [[Draft_Workbench/sv   Skiss]]|MenuLocation: Draft -> Polygon---
 
 
 </div>
@@ -145,4 +145,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Polygon/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Polygon/sv

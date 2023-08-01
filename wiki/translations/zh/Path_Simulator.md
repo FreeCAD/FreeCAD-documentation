@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path Simulator
-   MenuLocation:Path - CAM Simulator
-   Workbenches:[Path](Path_Workbench.md)
-   Shortcut:**P** **M**
-   SeeAlso:[Path Inspect](Path_Inspect.md)
+   Name: Path Simulator
+   MenuLocation: Path - CAM Simulator
+   Workbenches: [Path](Path_Workbench.md)
+   Shortcut: **P** **M**
+   SeeAlso: [Path Inspect](Path_Inspect.md)
 ---
 
 # Path Simulator/zh
@@ -78,4 +78,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Simulator/zh
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Simulator/zh

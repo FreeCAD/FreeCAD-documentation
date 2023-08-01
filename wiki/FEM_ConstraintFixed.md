@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintFixed
-   MenuLocation:Model - Mechanical Constraints - Constraint fixed
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM Constraint contact](FEM_ConstraintContact.md)
+   Name: FEM ConstraintFixed
+   MenuLocation: Model - Mechanical Constraints - Constraint fixed
+   Workbenches: [FEM](FEM_Workbench.md)
+   SeeAlso: [FEM Constraint contact](FEM_ConstraintContact.md)
 ---
 
 # FEM ConstraintFixed
@@ -33,4 +33,4 @@ You cannot mix object-types within the same constraint. Use one fixed constraint
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintFixed
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintFixed

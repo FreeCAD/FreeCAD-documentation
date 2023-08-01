@@ -1,6 +1,6 @@
 # FEM SolverZ88/it
 ---
-- GuiCommand:   Name:FEM_SolverZ88   Name/it:Risolutore Z88   MenuLocation: Solve - Risolutore Z88   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:   Name: FEM_SolverZ88   Name/it: Risolutore Z88   MenuLocation:  Solve - Risolutore Z88   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 
 </div>
@@ -59,4 +59,4 @@ See the [Z88 preferences](FEM_Preferences#Z88.md) for the possible solver settin
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverZ88/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverZ88/it

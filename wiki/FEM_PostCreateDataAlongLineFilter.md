@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FEM PostCreateDataAlongLineFilter
+⏵ [documentation index](../README.md) > FEM PostCreateDataAlongLineFilter

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Draft2Sketch
-   Name/it:Draft in Sketch
-   MenuLocation:Draft - Draft in Sketch
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Name: Draft Draft2Sketch
+   Name/it: Draft in Sketch
+   MenuLocation: Draft - Draft in Sketch
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
 ---
 
 # Draft Draft2Sketch/it
@@ -107,4 +107,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Draft2Sketch/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Draft2Sketch/it

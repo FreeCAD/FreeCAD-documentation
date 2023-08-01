@@ -72,4 +72,4 @@ Jeśli teraz dodamy trzecie odniesienie, wybierając górny wierzchołek pomara�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Advanced Attachment OYX/pl
+⏵ [documentation index](../README.md) > Advanced Attachment OYX/pl

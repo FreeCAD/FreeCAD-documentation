@@ -1,7 +1,7 @@
 # <img alt="Логотип верстака Стандартные изделия (Fasteners)" src=images/Fasteners_workbench_icon.svg  style="width:64px;"> Fasteners Workbench/ru
 
 
-{{TOCright}}
+
 
 
 
@@ -420,4 +420,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > [External Workbenches](Category_External Workbenches.md) > [Fasteners](Category_Fasteners.md) > Fasteners Workbench/ru
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > [External Workbenches](Category_External Workbenches.md) > [Fasteners](Category_Fasteners.md) > Fasteners Workbench/ru

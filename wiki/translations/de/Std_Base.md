@@ -1,7 +1,7 @@
 # <img alt="Symbol Std Basis" src=images/Freecad.svg  style="width:64px;"> Std Base/de
 
 
-{{TOCright}}
+
 
 
 
@@ -71,4 +71,4 @@ Das Standardmenü setzt sich aus 7 Untermenüs zusammen. Jedes Untermenü hat ei
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Base/de
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Base/de

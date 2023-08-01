@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Constraint Radius
-   Name/pt:Constraint Radius
-   Workbenches:[Sketcher](Sketcher_Workbench/pt.md), [PartDesign](PartDesign_Workbench/pt.md)
-   MenuLocation:Sketch - Sketcher constraints - Constrain radius
-   SeeAlso:[Constraint Distance](Sketcher_ConstrainDistance/pt.md), [Constraint Horizontal](Sketcher_ConstrainHorizontal/pt.md), [Constraint Vertical](Sketcher_ConstrainVertical/pt.md)
+   Name: Constraint Radius
+   Name/pt: Constraint Radius
+   Workbenches: [Sketcher](Sketcher_Workbench/pt.md), [PartDesign](PartDesign_Workbench/pt.md)
+   MenuLocation: Sketch - Sketcher constraints - Constrain radius
+   SeeAlso: [Constraint Distance](Sketcher_ConstrainDistance/pt.md), [Constraint Horizontal](Sketcher_ConstrainHorizontal/pt.md), [Constraint Vertical](Sketcher_ConstrainVertical/pt.md)
 ---
 
 # Sketcher ConstrainRadius/pt
@@ -56,4 +56,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadius/pt
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadius/pt

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Управление решателем
-   Name:FEM_SolverControl
-   MenuLocation:Решить - Управление решателем
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:**S** **T**
-   SeeAlso:[Запустить решатель](FEM_SolverRun/ru.md)
+   Name/ru: Управление решателем
+   Name: FEM_SolverControl
+   MenuLocation: Решить - Управление решателем
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   Shortcut: **S** **T**
+   SeeAlso: [Запустить решатель](FEM_SolverRun/ru.md)
 ---
 
 # FEM SolverControl/ru
@@ -46,4 +46,4 @@ This command is used to control the FEM solver (write the input file, edit it, a
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverControl/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverControl/ru

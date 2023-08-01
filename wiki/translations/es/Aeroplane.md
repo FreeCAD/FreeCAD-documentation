@@ -117,4 +117,4 @@ Espero que este pequeño tutorial te ayude a manejar mejor las rotaciones.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Category_Part.md) > Aeroplane/es
+⏵ [documentation index](../README.md) > [Part](Category_Part.md) > Aeroplane/es

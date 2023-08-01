@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std DrawStyle
-   Name/de:Std Darstellungsart
-   MenuLocation:Ansicht - Darstellungsart - ...
-   Workbenches:Alle
-   Shortcut:**V** **1** - **V** **7**
-   SeeAlso:[Std SelBoundingBox](Std_SelBoundingBox/de.md)
+   Name: Std DrawStyle
+   Name/de: Std Darstellungsart
+   MenuLocation: Ansicht - Darstellungsart - ...
+   Workbenches: Alle
+   Shortcut: **V** **1** - **V** **7**
+   SeeAlso: [Std SelBoundingBox](Std_SelBoundingBox/de.md)
 ---
 
 # Std DrawStyle/de
@@ -111,4 +111,4 @@ Die Darstellungsart **Flache Linien** überlagert die {{PropertyView/de|Display 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DrawStyle/de
+⏵ [documentation index](../README.md) > Std DrawStyle/de

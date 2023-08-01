@@ -1,6 +1,6 @@
 # Part ProjectionOnSurface/it
 ---
-- GuiCommand:   Name:Part ProjectionOnSurface   Name/it:Proiezione su superficie   MenuLocation:Part - Crea proiezione su superficie...   |Workbenches:[[Part_Workbench/it   Part]]|SeeAlso:   Version:0.19---
+- GuiCommand:   Name: Part ProjectionOnSurface   Name/it: Proiezione su superficie   MenuLocation: Part - Crea proiezione su superficie...   |Workbenches: [[Part_Workbench/it   Part]]|SeeAlso:    Version: 0.19---
 
 
 </div>
@@ -133,4 +133,4 @@ The projection done in the Part workbench is not parametric. If you need a param
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ProjectionOnSurface/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ProjectionOnSurface/it

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part MakeSolid
-   Name/fr:Part Convertir en solid‏‎e
-   MenuLocation:Part - Convertir en solide
-   Workbenches:[Part](Part_Workbench/fr.md)
+   Name: Part MakeSolid
+   Name/fr: Part Convertir en solid‏‎e
+   MenuLocation: Part - Convertir en solide
+   Workbenches: [Part](Part_Workbench/fr.md)
 ---
 
 # Part MakeSolid/fr
@@ -26,4 +26,4 @@ Cette commande crée un objet solide à partir d\'un objet forme.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Менеджер дополнений
-   MenuLocation:Инструменты - Менеджер дополнений
-   Workbenches:All
-   Version:0.17
-   SeeAlso:[External workbenches](External_workbenches/ru.md), [Макросы](Macros/ru.md)
+   Name/ru: Менеджер дополнений
+   MenuLocation: Инструменты - Менеджер дополнений
+   Workbenches: All
+   Version: 0.17
+   SeeAlso: [External workbenches](External_workbenches/ru.md), [Макросы](Macros/ru.md)
 ---
 
 # Std AddonMgr/ru
@@ -156,4 +156,4 @@ Then define the functions {{Incode|installation_succeeded}} and {{Incode|install
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std AddonMgr/ru
+⏵ [documentation index](../README.md) > Std AddonMgr/ru

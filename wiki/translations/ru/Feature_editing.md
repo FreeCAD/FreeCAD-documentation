@@ -1,6 +1,4 @@
 # Feature editing/ru
-{{TOCright}}
-
 ## Введение
 
 На этой странице объясняется, как использовать <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [Верстак PartDesign](PartDesign_Workbench/ru.md), начиная с версии FreeCAD 0.17.
@@ -192,4 +190,4 @@ The [tutorials](Tutorials.md) page provides some examples of using the [feature 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [PartDesign](Category_PartDesign.md) > Feature editing/ru
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [PartDesign](Category_PartDesign.md) > Feature editing/ru

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPointOnLine
-   Name/fr:Assembly3 Contrainte point sur une ligne
-   Icon:Assembly_ConstraintPointOnLine.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 ConstraintPointOnLine
+   Name/fr: Assembly3 Contrainte point sur une ligne
+   Icon: Assembly_ConstraintPointOnLine.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintPointOnLine/fr
@@ -27,4 +27,4 @@ Par rapport au premier objet, l\'objet suivant peut toujours se déplacer le lon
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointOnLine/fr
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPointOnLine/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Вставить страницу используя шаблон
-   Name:TechDraw_PageTemplate
-   MenuLocation:TechDraw - Вставить страницу используя шаблон
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Вставить страницу по умолчанию](TechDraw_PageDefault/ru.md), [Шаблоны](TechDraw_Templates/ru.md)
+   Name/ru: Вставить страницу используя шаблон
+   Name: TechDraw_PageTemplate
+   MenuLocation: TechDraw - Вставить страницу используя шаблон
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso: [Вставить страницу по умолчанию](TechDraw_PageDefault/ru.md), [Шаблоны](TechDraw_Templates/ru.md)
 ---
 
 # TechDraw PageTemplate/ru
@@ -104,4 +104,4 @@ page.Template.EditableTexts = texts
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageTemplate/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageTemplate/ru

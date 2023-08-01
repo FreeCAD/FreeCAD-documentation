@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Curves ToConsole
-   Name/fr:Curves Vers la console
-   MenuLocation:Misc. - Objects to Console
-   Workbenches:[Curves](Curves_Workbench/fr.md)
+   Name: Curves ToConsole
+   Name/fr: Curves Vers la console
+   MenuLocation: Misc. - Objects to Console
+   Workbenches: [Curves](Curves_Workbench/fr.md)
 ---
 
 # Curves ToConsole/fr
@@ -38,4 +38,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves ToConsole/fr
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves ToConsole/fr

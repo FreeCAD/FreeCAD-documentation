@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainDistanceX
-   Name/de:Sketcher XAbstandFestlegen
-   MenuLocation:Sketch - Skizzen-Beschränkungen - Horizontalen Abstand festlegen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**L**
-   SeeAlso:[Sketcher AbstandFestlegen](Sketcher_ConstrainDistance/de.md), [Sketcher YAbstandFestlegen](Sketcher_ConstrainDistanceY/de.md)
+   Name: Sketcher ConstrainDistanceX
+   Name/de: Sketcher XAbstandFestlegen
+   MenuLocation: Sketch - Skizzen-Beschränkungen - Horizontalen Abstand festlegen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **L**
+   SeeAlso: [Sketcher AbstandFestlegen](Sketcher_ConstrainDistance/de.md), [Sketcher YAbstandFestlegen](Sketcher_ConstrainDistanceY/de.md)
 ---
 
 # Sketcher ConstrainDistanceX/de
@@ -63,4 +63,4 @@ Die Seite [Sketcher Skripten](Sketcher_scripting.md) erklärt die Werte, die fü
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistanceX/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistanceX/de

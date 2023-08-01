@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditivePipe
-   Name/it:Sweep additivo
-   Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:PartDesign - Sweep additivo
-   Version:0.17
-   SeeAlso:[Loft additivo](PartDesign_AdditiveLoft/it.md)
+   Name: PartDesign AdditivePipe
+   Name/it: Sweep additivo
+   Workbenches: [PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation: PartDesign - Sweep additivo
+   Version: 0.17
+   SeeAlso: [Loft additivo](PartDesign_AdditiveLoft/it.md)
 ---
 
 # PartDesign AdditivePipe/it
@@ -151,4 +151,4 @@ Per utilizzare più di una sezione trasversale, iniziare con il primo schizzo de
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePipe/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePipe/it

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Вставить растровое изображение
-   Name:TechDraw_Image
-   MenuLocation:TechDraw - Вставить растровое изображение
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Вставить SVG знак](TechDraw_Symbol/ru.md)
+   Name/ru: Вставить растровое изображение
+   Name: TechDraw_Image
+   MenuLocation: TechDraw - Вставить растровое изображение
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso: [Вставить SVG знак](TechDraw_Symbol/ru.md)
 ---
 
 # TechDraw Image/ru
@@ -94,4 +94,4 @@ dvi.Width  = 200
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Image/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Image/ru

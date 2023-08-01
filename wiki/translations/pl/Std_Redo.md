@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Redo
-   Name/pl:Std: Przywróć
-   MenuLocation:Edycja - Przywróć
-   Workbenches:wszystkie
-   Shortcut:**Ctrl** + **Y**
-   SeeAlso:[Cofnij](Std_Undo/pl.md)
+   Name: Std Redo
+   Name/pl: Std: Przywróć
+   MenuLocation: Edycja - Przywróć
+   Workbenches: wszystkie
+   Shortcut: **Ctrl** + **Y**
+   SeeAlso: [Cofnij](Std_Undo/pl.md)
 ---
 
 # Std Redo/pl
@@ -57,4 +57,4 @@ FreeCAD.ActiveDocument.redo()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Redo/pl
+⏵ [documentation index](../README.md) > Std Redo/pl

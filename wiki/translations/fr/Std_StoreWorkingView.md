@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Std StoreWorkingView
-   Name/fr:Std Stocker la vue de travail
-   MenuLocation:Affichage - Vues standards - Stocker la vue de travail
-   Workbenches:Tous
-   Shortcut:**Maj**+**Fin**
-   Version:0.21
-   SeeAlso:[Std Rappel de la vue de travail](Std_RecallWorkingView/fr.md), [Std Figer l'affichage](Std_FreezeViews/fr.md)
+   Name: Std StoreWorkingView
+   Name/fr: Std Stocker la vue de travail
+   MenuLocation: Affichage - Vues standards - Stocker la vue de travail
+   Workbenches: Tous
+   Shortcut: **Maj**+**Fin**
+   Version: 0.21
+   SeeAlso: [Std Rappel de la vue de travail](Std_RecallWorkingView/fr.md), [Std Figer l'affichage](Std_FreezeViews/fr.md)
 ---
 
 # Std StoreWorkingView/fr
@@ -55,4 +55,4 @@ FreeCADGui.runCommand("Std_StoreWorkingView", 0)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std StoreWorkingView/fr
+⏵ [documentation index](../README.md) > Std StoreWorkingView/fr

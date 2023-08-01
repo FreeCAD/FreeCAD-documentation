@@ -57,4 +57,4 @@ Il existe une autre table des matières pour le [Système d\'aide en ligne de Fr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Manual](Category_Manual.md) > Manual:Summary/fr
+⏵ [documentation index](../README.md) > [Manual](Category_Manual.md) > Manual:Summary/fr

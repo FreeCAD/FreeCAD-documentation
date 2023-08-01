@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_DlgPreferences
-   Name/ru:Настройки...
-   MenuLocation:Правка - Настройки...
-   Workbenches:Все
-   SeeAlso:[Редактор настроек](Preferences_Editor/ru.md)
+   Name: Std_DlgPreferences
+   Name/ru: Настройки...
+   MenuLocation: Правка - Настройки...
+   Workbenches: Все
+   SeeAlso: [Редактор настроек](Preferences_Editor/ru.md)
 ---
 
 # Std DlgPreferences/ru
@@ -45,4 +45,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgPreferences/ru
+⏵ [documentation index](../README.md) > Std DlgPreferences/ru

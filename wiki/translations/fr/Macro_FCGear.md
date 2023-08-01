@@ -52,4 +52,4 @@ Vous devez ouvrir .Mod en mode administrateur et vous devez donner le
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro FCGear/fr
+⏵ [documentation index](../README.md) > Macro FCGear/fr

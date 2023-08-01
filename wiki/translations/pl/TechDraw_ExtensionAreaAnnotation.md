@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionAreaAnnotation
-   Name/pl:Rysunek Techniczny: Rozszerzenie Oblicz obszar wybranych powierzchni
-   MenuLocation:Rysunek Techniczny - Rozszerzenie: Atrybuty / Modyfikatory - Oblicz obszar wybranych powierzchni
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:
+   Name: TechDraw ExtensionAreaAnnotation
+   Name/pl: Rysunek Techniczny: Rozszerzenie Oblicz obszar wybranych powierzchni
+   MenuLocation: Rysunek Techniczny - Rozszerzenie: Atrybuty / Modyfikatory - Oblicz obszar wybranych powierzchni
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: 
 ---
 
 # TechDraw ExtensionAreaAnnotation/pl
@@ -41,4 +41,4 @@ Narzędzie **Oblicz obszar wybranych powierzchni** oblicza obszar wybranych powi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionAreaAnnotation/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionAreaAnnotation/pl

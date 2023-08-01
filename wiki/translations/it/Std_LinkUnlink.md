@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std LinkUnlink
-   Name/it:Annulla il link
-   MenuLocation:Nessuna
-   Workbenches:Tutti
-   Version:0.19
-   SeeAlso:[Crea un link](Std_LinkMake/it.md), [Crea un link relativo](Std_LinkMakeRelative/it.md), [Sostituisci con un link](Std_LinkReplace/it.md)
+   Name: Std LinkUnlink
+   Name/it: Annulla il link
+   MenuLocation: Nessuna
+   Workbenches: Tutti
+   Version: 0.19
+   SeeAlso: [Crea un link](Std_LinkMake/it.md), [Crea un link relativo](Std_LinkMakeRelative/it.md), [Sostituisci con un link](Std_LinkReplace/it.md)
 ---
 
 # Std LinkUnlink/it
@@ -47,4 +47,4 @@ L\'originale <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="widt
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkUnlink/it
+⏵ [documentation index](../README.md) > Std LinkUnlink/it

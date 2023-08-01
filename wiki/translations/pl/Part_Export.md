@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Export‎
-   Name/pl:Część: Eksport projektu do CAD ...
-   MenuLocation:Część - Eksport projektu do CAD
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Import projektu CAD](Part_Import/pl.md), [Eksport](Std_Export/pl.md), [Import Eksport](Import_Export/pl.md)
+   Name: Part Export‎
+   Name/pl: Część: Eksport projektu do CAD ...
+   MenuLocation: Część - Eksport projektu do CAD
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: [Import projektu CAD](Part_Import/pl.md), [Eksport](Std_Export/pl.md), [Import Eksport](Import_Export/pl.md)
 ---
 
 # Part Export/pl
@@ -27,4 +27,4 @@ Narzędzie **<img src="images/Part_Export.svg" width=16px> '''Eksport projektu d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Export/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Export/pl

@@ -806,4 +806,4 @@ Icône de la barre d\'outils ![](images/Macro_Unfold_Box.png )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Unfold Box/fr
+⏵ [documentation index](../README.md) > Macro Unfold Box/fr

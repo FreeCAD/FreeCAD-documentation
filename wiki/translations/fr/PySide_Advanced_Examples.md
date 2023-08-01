@@ -1,8 +1,4 @@
 # PySide Advanced Examples/fr
-{{TOCright}}
-
-
-
 ## Introduction
 
 Le but de cette page est de couvrir des exemples de niveau avancé du gestionnaire GUI [PySide](PySide/fr.md) (il y a des pages d\'accompagnement [PySide : Exemples pour débutant](PySide_Beginner_Examples/fr.md) et [PySide : Exemples pour niveau intermédiaire](PySide_Intermediate_Examples/fr.md)).
@@ -112,4 +108,4 @@ self.dialog = FreeCADGui.PySideUic.loadUi(os.path.join(os.path.dirname(__file__)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > PySide Advanced Examples/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > PySide Advanced Examples/fr

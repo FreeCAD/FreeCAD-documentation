@@ -204,4 +204,4 @@ def run():
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Overlap/it
+⏵ [documentation index](../README.md) > Macro Overlap/it

@@ -209,4 +209,4 @@ Forum discussion [Guitar fretboard macro / guitar body](https://forum.freecadweb
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Guitar Nut/en
+⏵ [documentation index](../README.md) > Macro Guitar Nut/en

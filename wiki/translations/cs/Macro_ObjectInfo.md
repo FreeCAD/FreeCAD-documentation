@@ -57,4 +57,4 @@ Z fóra [Info Workbench - Help with icons please.](http://forum.freecadweb.org/v
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro ObjectInfo/cs
+⏵ [documentation index](../README.md) > Macro ObjectInfo/cs

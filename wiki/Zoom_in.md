@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Zoom in
+⏵ [documentation index](../README.md) > Zoom in

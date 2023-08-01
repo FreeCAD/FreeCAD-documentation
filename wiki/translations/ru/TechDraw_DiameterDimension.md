@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Указать диаметр
-   Name:TechDraw_DiameterDimension
-   MenuLocation:TechDraw - Размеры - Указать диаметр
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Указать радиус](TechDraw_RadiusDimension/ru.md)
+   Name/ru: Указать диаметр
+   Name: TechDraw_DiameterDimension
+   MenuLocation: TechDraw - Размеры - Указать диаметр
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso: [Указать радиус](TechDraw_RadiusDimension/ru.md)
 ---
 
 # TechDraw DiameterDimension/ru
@@ -31,4 +31,4 @@ For more information see [TechDraw RadiusDimension](TechDraw_RadiusDimension.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DiameterDimension/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DiameterDimension/ru

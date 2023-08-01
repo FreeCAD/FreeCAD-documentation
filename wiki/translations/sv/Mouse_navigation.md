@@ -1,6 +1,4 @@
 # Mouse navigation/sv
-{{TOCright}}
-
 ## Overview
 
 
@@ -397,4 +395,4 @@ The tutorial [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mous
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Mouse navigation/sv
+⏵ [documentation index](../README.md) > Mouse navigation/sv

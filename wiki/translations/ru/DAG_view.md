@@ -2,7 +2,7 @@
 ## Введение
 
 
-{{TOCright}}
+
 
 [DAG](DAG_view/ru.md) (Directed Acyclic Graph) - это [направленный ациклический граф](https://ru.wikipedia.org/wiki/%D0%9E%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B0%D1%86%D0%B8%D0%BA%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%B3%D1%80%D0%B0%D1%84), который отображает взаимосвязи между различными объектами в документе. Этот иструмент предназначен в первую очередь для того, чтобы показать, зависимости между объектами в сложных моделях со множеством функций и ссылок, например созданных с помощью <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [верстака PartDesign](PartDesign_Workbench/ru.md).
 
@@ -68,4 +68,4 @@ In the [parameter editor](Std_DlgParameter.md) you can also change some properti
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > DAG view/ru
+⏵ [documentation index](../README.md) > DAG view/ru

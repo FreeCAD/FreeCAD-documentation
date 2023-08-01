@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM MeshClear
-   Name/ru:FEM MeshClear
-   MenuLocation: Context menu on mesh object - Clear FEM mesh
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM MeshClear
+   Name/ru: FEM MeshClear
+   MenuLocation:  Context menu on mesh object - Clear FEM mesh
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM MeshClear/ru
@@ -42,4 +42,4 @@ The objects in the Model Tree are maintained because they represent the meshing 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshClear/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshClear/ru

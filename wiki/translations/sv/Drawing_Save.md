@@ -1,6 +1,6 @@
 # Drawing Save/sv
 ---
-- GuiCommand:   Name:Drawing Save   Name/sv:Drawing Save   Workbenches:[MenuLocation:Drawing - Export page...   Shortcut:none   SeeAlso:[[Drawing Open SVG/sv|Drawing Open SVG](Drawing_Workbench/sv___Drawing]],_Complete.md)---
+- GuiCommand:   Name: Drawing Save   Name/sv: Drawing Save   Workbenches: [MenuLocation: Drawing - Export page...   Shortcut: none   SeeAlso: [[Drawing Open SVG/sv|Drawing Open SVG](Drawing_Workbench/sv___Drawing]],_Complete.md)---
 
 
 </div>
@@ -20,4 +20,4 @@ SVG files are common and can be viewed in most modern browsers and image viewers
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Save/sv
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Save/sv

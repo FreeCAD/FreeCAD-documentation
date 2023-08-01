@@ -1,8 +1,4 @@
 # Part and PartDesign/it
-{{TOCright}}
-
-
-
 ## Descrizione
 
 Ci sono state molte discussioni nel corso degli anni sulle differenze e le ramificazioni dell\'uso degli ambienti <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/it.md) e <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md).
@@ -189,4 +185,4 @@ Gli ambienti di lavoro Part e PartDesign possono essere usati insieme con una ce
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign/it
+⏵ [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign/it

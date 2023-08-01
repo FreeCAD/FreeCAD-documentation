@@ -11,7 +11,7 @@
 Если вашей основной целью является создание сложных 2D чертежей и файлов в формате [DXF](DXF/ru.md), и вам не нужно 3D-моделирование, возможно FreeCAD будет не самым лучшим выбором для вас. Вы можете использовать специальное программное обеспечение для построения технических чертежей, такое как [LibreCAD](https://en.wikipedia.org/wiki/LibreCAD) или [QCad](https://en.wikipedia.org/wiki/QCad).
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/TechDraw_Workbench_Example_ru-ru.png  style="width:425px;">
 
@@ -646,4 +646,4 @@ Do you want to know about the future of the TechDraw Workbench? Visit [the TechD
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/ru
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/ru

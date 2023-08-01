@@ -1,7 +1,7 @@
 # <img alt="Icône de l\'atelier Surface" src=images/Workbench_Surface.svg  style="width:64px;"> Surface Workbench/fr
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -60,4 +60,4 @@ La surface générée ne peut pas être placée dans un **[<img src=images/PartD
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Surface](Category_Surface.md) > Surface Workbench/fr
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Surface](Category_Surface.md) > Surface Workbench/fr

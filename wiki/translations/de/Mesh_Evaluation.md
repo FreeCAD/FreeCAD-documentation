@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh Evaluation
-   Name/de:Netz Auswertung
-   MenuLocation:Netze - Analyse - Netz auswerten und reparieren...
-   Workbenches:[Netz](Mesh_Workbench/de.md)
+   Name: Mesh Evaluation
+   Name/de: Netz Auswertung
+   MenuLocation: Netze - Analyse - Netz auswerten und reparieren...
+   Workbenches: [Netz](Mesh_Workbench/de.md)
 ---
 
 # Mesh Evaluation/de
@@ -76,4 +76,4 @@ Der Befehl **Mesh Auswertung** wertet ein Netzobjekte aus und repariert es.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Evaluation/de
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Evaluation/de

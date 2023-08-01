@@ -1,6 +1,6 @@
 # FEM PostApplyChanges/it
 ---
-- GuiCommand:   Name:FEM_PostApplyChanges   Name/it:FEM PostApplyChanges   MenuLocation: Risultati - Apply changes to pipeline   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:   Name: FEM_PostApplyChanges   Name/it: FEM PostApplyChanges   MenuLocation:  Risultati - Apply changes to pipeline   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 
 </div>
@@ -45,4 +45,4 @@ If the feature is not active, a change of the size and position of functions fir
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostApplyChanges/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostApplyChanges/it

@@ -47,4 +47,4 @@ Medium
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > GSoC Path/Robot Integration
+⏵ [documentation index](../README.md) > GSoC Path/Robot Integration

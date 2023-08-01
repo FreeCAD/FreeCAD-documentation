@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch CloseHoles
-   Name/es:Tapar agujeros
-   MenuLocation:Arquitectura - Utilidades - Tapar agujeros
-   Workbenches:[Arquitectura](Arch_Workbench/es.md)
-   SeeAlso:[Comprobar](Arch_Check/es.md)
+   Name: Arch CloseHoles
+   Name/es: Tapar agujeros
+   MenuLocation: Arquitectura - Utilidades - Tapar agujeros
+   Workbenches: [Arquitectura](Arch_Workbench/es.md)
+   SeeAlso: [Comprobar](Arch_Check/es.md)
 ---
 
 # Arch CloseHoles/es
@@ -104,4 +104,4 @@ solid = Arch.closeHole(Wall.Shape)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/es
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/es

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Субтрактивный профиль по траектории
-   Name:PartDesign_SubtractivePipe
-   MenuLocation:Part Design - Create a substractive feature - Субтрактивный профиль по траектории
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Аддитивный профиль по траектории](PartDesign_AdditivePipe/ru.md), [Субтрактивный профиль](PartDesign_SubtractiveLoft/ru.md)
+   Name/ru: Субтрактивный профиль по траектории
+   Name: PartDesign_SubtractivePipe
+   MenuLocation: Part Design - Create a substractive feature - Субтрактивный профиль по траектории
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Аддитивный профиль по траектории](PartDesign_AdditivePipe/ru.md), [Субтрактивный профиль](PartDesign_SubtractiveLoft/ru.md)
 ---
 
 # PartDesign SubtractivePipe/ru
@@ -100,4 +100,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePipe/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePipe/ru

@@ -1,6 +1,4 @@
 # FreeCAD Scripting Basics/es
-{{TOCright}}
-
 ## Guionización Python en FreeCAD 
 
 FreeCAD está construido desde cero para ser totalmente controlado por guiónes de Python. Casi todas las partes de FreeCAD, como la interfaz, el contenido de la escena, e incluso la representación de este contenido en las vistas 3D, son accesibles desde el intérprete de Python incorporado o desde tus propios guiónes. Como resultado, FreeCAD es probablemente una de las aplicaciones de ingeniería más profundamente personalizables disponibles hoy en día.
@@ -205,4 +203,4 @@ print(myObj.isDerivedFrom("Part::Feature"))
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FreeCAD Scripting Basics/es
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FreeCAD Scripting Basics/es

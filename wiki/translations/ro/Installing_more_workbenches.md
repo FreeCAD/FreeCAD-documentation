@@ -1,6 +1,4 @@
 # Installing more workbenches/ro
-{{TOCright}}
-
 ## Introduction
 
 Since v0.17 it is easy to add [external workbenches](external_workbenches.md) by using the [Addon Manager](Std_AddonMgr.md). A regular user doesn\'t need to do more than use this tool.
@@ -49,4 +47,4 @@ See also a detailed description in the page [how to install additional workbench
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/ro
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/ro

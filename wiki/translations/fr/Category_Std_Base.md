@@ -67,4 +67,4 @@ Cette catégorie répertorie les pages associées à [Std Base](Std_Base/fr.md),
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Std Base/fr
+⏵ [documentation index](../README.md) > Category:Std Base/fr

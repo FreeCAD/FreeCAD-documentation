@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft_ToggleDisplayMode
-   Name/es:Draft_ToggleDisplayMode
-   MenuLocation:Croquis - Opciones de visualización - Alternar modo de visualización
-   Workbenches:[Croquis](Draft_Workbench/es.md),[Arquitectura](Arch_Workbench/es.md)
-   Shortcut:**Shift**+**Space**
+   Name: Draft_ToggleDisplayMode
+   Name/es: Draft_ToggleDisplayMode
+   MenuLocation: Croquis - Opciones de visualización - Alternar modo de visualización
+   Workbenches: [Croquis](Draft_Workbench/es.md),[Arquitectura](Arch_Workbench/es.md)
+   Shortcut: **Shift**+**Space**
 ---
 
 # Draft ToggleDisplayMode/es
@@ -44,4 +44,4 @@ Esta herramienta conmuta la visualización de los objetos seleccionados entre Wi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/es

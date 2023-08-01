@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Reinforcement_Bar_Bending_Schedule
-   Name/it:Distinta e sagomatura dei ferri
-   MenuLocation:Reinforcement - BarBendingSchedule
-   Workbenches:[Reinforcement](Reinforcement_Workbench/it.md), [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   SeeAlso:[Distinta dei ferri](Arch_Rebar_BOM/it.md), [Disegno_dell'armatura](Arch_Rebar_Drawing_Dimensioning/it#Disegno_dell'armatura.md)
-   Version:0.19
+   Name: Reinforcement_Bar_Bending_Schedule
+   Name/it: Distinta e sagomatura dei ferri
+   MenuLocation: Reinforcement - BarBendingSchedule
+   Workbenches: [Reinforcement](Reinforcement_Workbench/it.md), [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   SeeAlso: [Distinta dei ferri](Arch_Rebar_BOM/it.md), [Disegno_dell'armatura](Arch_Rebar_Drawing_Dimensioning/it#Disegno_dell'armatura.md)
+   Version: 0.19
 ---
 
 # Reinforcement Bar Bending Schedule/it
@@ -372,4 +372,4 @@ BBSfunc.getBarBendingSchedule(
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > Reinforcement Bar Bending Schedule/it
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > Reinforcement Bar Bending Schedule/it

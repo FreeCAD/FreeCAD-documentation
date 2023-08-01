@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Ограничить радиус/диаметр автоматически
-   Name:Sketcher_ConstrainRadiam
-   MenuLocation:Sketch - Ограничения эскиза - Ограничить радиус/диаметр автоматически
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   SeeAlso:[Ограничить расстояние](Sketcher_ConstrainDistance/ru.md), [Ограничение расстояния по горизонтали](Sketcher_ConstrainDistanceX/ru.md), [Ограничение расстояния по вертикали](Sketcher_ConstrainDistanceY/ru.md)
-   Version:0.20
+   Name/ru: Ограничить радиус/диаметр автоматически
+   Name: Sketcher_ConstrainRadiam
+   MenuLocation: Sketch - Ограничения эскиза - Ограничить радиус/диаметр автоматически
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   SeeAlso: [Ограничить расстояние](Sketcher_ConstrainDistance/ru.md), [Ограничение расстояния по горизонтали](Sketcher_ConstrainDistanceX/ru.md), [Ограничение расстояния по вертикали](Sketcher_ConstrainDistanceY/ru.md)
+   Version: 0.20
 ---
 
 # Sketcher ConstrainRadiam/ru
@@ -70,4 +70,4 @@ No specific scripting applies. See the [Sketcher scripting](Sketcher_scripting.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadiam/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadiam/ru

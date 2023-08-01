@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft ToggleConstructionMode
-   Name/pl:Rysunek Roboczy: Przełącz tryb konstrukcyjny
-   MenuLocation:Kreślenie - Przybory - Przełącz tryb konstrukcyjny
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   SeeAlso:[Dodaj do grupy konstrukcyjnej](Draft_AddConstruction/pl.md), [Grupowanie automatyczne](Draft_AutoGroup/pl.md)
+   Name: Draft ToggleConstructionMode
+   Name/pl: Rysunek Roboczy: Przełącz tryb konstrukcyjny
+   MenuLocation: Kreślenie - Przybory - Przełącz tryb konstrukcyjny
+   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   SeeAlso: [Dodaj do grupy konstrukcyjnej](Draft_AddConstruction/pl.md), [Grupowanie automatyczne](Draft_AutoGroup/pl.md)
 ---
 
 # Draft ToggleConstructionMode/pl
@@ -36,4 +36,4 @@ Polecenie <img alt="" src=images/Draft_ToggleConstructionMode.svg  style="width:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/pl

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Common
-   Name/ru:Пересечение
-   MenuLocation:Деталь - Булевы операции - Пересечение
-   Workbenches:[Part](Part_Workbench/ru.md)
-   SeeAlso:[Part Boolean](Part_Boolean/ru.md), [Part Cut](Part_Cut/ru.md), [Part Fuse](Part_Fuse/ru.md)
+   Name: Part Common
+   Name/ru: Пересечение
+   MenuLocation: Деталь - Булевы операции - Пересечение
+   Workbenches: [Part](Part_Workbench/ru.md)
+   SeeAlso: [Part Boolean](Part_Boolean/ru.md), [Part Cut](Part_Cut/ru.md), [Part Fuse](Part_Fuse/ru.md)
 ---
 
 # Part Common/ru
@@ -36,4 +36,4 @@ Input objects must be [OpenCASCADE](OpenCASCADE.md) shapes. Examples: stuff made
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/ru

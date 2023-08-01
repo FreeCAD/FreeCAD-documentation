@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Boolean
-   Name/de:PartDesign Boolesche Operation
-   MenuLocation:Part Design - Boolesche Operation
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
+   Name: PartDesign Boolean
+   Name/de: PartDesign Boolesche Operation
+   MenuLocation: Part Design - Boolesche Operation
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.17
 ---
 
 # PartDesign Boolean/de
@@ -76,4 +76,4 @@ Alternativ können ein oder mehrere Körper vor dem Drücken der Schaltfläche B
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Boolean/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Boolean/de

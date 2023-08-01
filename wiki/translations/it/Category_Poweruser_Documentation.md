@@ -44,4 +44,4 @@ Questa categoria contiene articoli di documentazione sui file di script Python, 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Poweruser Documentation/it
+⏵ [documentation index](../README.md) > Category:Poweruser Documentation/it

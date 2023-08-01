@@ -16,4 +16,4 @@ Für alle Symbole im Quellbaum siehe [Illustration](Artwork/de.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Mesh](Category_Mesh.md) > Artwork Mesh/de
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Mesh](Category_Mesh.md) > Artwork Mesh/de

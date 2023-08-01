@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Уместить всё
-   Name:Std_ViewFitAll
-   MenuLocation:Вид - Стандартные виды‏‎ - Уместить всё
-   Workbenches:Все
-   Shortcut:**V** **F**
-   SeeAlso:[Уместить выделенное](Std_ViewFitSelection/ru.md)
+   Name/ru: Уместить всё
+   Name: Std_ViewFitAll
+   MenuLocation: Вид - Стандартные виды‏‎ - Уместить всё
+   Workbenches: Все
+   Shortcut: **V** **F**
+   SeeAlso: [Уместить выделенное](Std_ViewFitSelection/ru.md)
 ---
 
 # Std ViewFitAll/ru
@@ -65,4 +65,4 @@ FreeCADGui.SendMsgToActiveView('ViewFit')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewFitAll/ru
+⏵ [documentation index](../README.md) > Std ViewFitAll/ru

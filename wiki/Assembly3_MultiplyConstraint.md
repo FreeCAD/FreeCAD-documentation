@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 MultiplyConstraint
-   Icon:Assembly_ConstraintMultiply.svg‎‎
-   MenuLocation:Assembly3 - Multiply constraint
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 MultiplyConstraint
+   Icon: Assembly_ConstraintMultiply.svg‎‎
+   MenuLocation: Assembly3 - Multiply constraint
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 MultiplyConstraint
@@ -21,4 +21,4 @@ The <img alt="" src=images/Assembly_ConstraintMultiply.svg  style="width:24px;">
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 MultiplyConstraint
+⏵ [documentation index](../README.md) > Assembly3 MultiplyConstraint

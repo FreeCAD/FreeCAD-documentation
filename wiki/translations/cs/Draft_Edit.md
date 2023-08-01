@@ -1,6 +1,6 @@
 # Draft Edit/cs
 ---
-- GuiCommand:   Name:Draft Edit   |Name/cs:Kreslení Úpravy   Workbenches:[Architektura](Draft_Workbench/cs___Modul_kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft -> Edit---
+- GuiCommand:   Name: Draft Edit   |Name/cs: Kreslení Úpravy   Workbenches: [Architektura](Draft_Workbench/cs___Modul_kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation: Draft -> Edit---
 
 
 </div>
@@ -206,4 +206,4 @@ Není dostupné. Každý z výše uvedených objektů může být upravován př
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/cs
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/cs

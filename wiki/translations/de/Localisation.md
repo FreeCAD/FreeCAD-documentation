@@ -1,8 +1,4 @@
 # Localisation/de
-{{TOCright}}
-
-
-
 ## Überblick
 
 **Lokalisierung** ist im Allgemeinen der Prozess der Bereitstellung einer Software mit einer mehrsprachigen Benutzeroberfläche. In FreeCAD kannst du die Sprache der Benutzeroberfläche unter **Bearbeiten → Einstellungen → Allgemein** einstellen. FreeCAD verwendet [Qt](wikipedia:Qt_(Bibliothek).md), um die Unterstützung mehrerer Sprachen zu ermöglichen. Auf Unix/Linux-Systemen verwendet FreeCAD standardmäßig die aktuellen Gebietsschemaeinstellungen deines Systems.
@@ -264,4 +260,4 @@ FreeCADGui.setLocale('ru')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Wiki](Category_Wiki.md) > Localisation/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Wiki](Category_Wiki.md) > Localisation/de

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part BoxSelection
-   MenuLocation:Part - Box selection
-   Workbenches:[Part](Part_Workbench.md)
-   Version:0.18
-   SeeAlso:[Std BoxSelection](Std_BoxSelection.md), [Std BoxElementSelection](Std_BoxElementSelection.md), [Std SelectAll](Std_SelectAll.md)
+   Name: Part BoxSelection
+   MenuLocation: Part - Box selection
+   Workbenches: [Part](Part_Workbench.md)
+   Version: 0.18
+   SeeAlso: [Std BoxSelection](Std_BoxSelection.md), [Std BoxElementSelection](Std_BoxElementSelection.md), [Std SelectAll](Std_SelectAll.md)
 ---
 
 # Part BoxSelection/en
@@ -31,4 +31,4 @@ The **<img src="images/Part_BoxSelection.svg" width=16px> [Part BoxSelection](Pa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BoxSelection/en
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BoxSelection/en

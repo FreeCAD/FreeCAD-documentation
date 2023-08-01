@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std TileWindows
-   Name/it:Affianca
-   MenuLocation:Finestre - Affianca
-   Workbenches:Tutti
-   SeeAlso:[A cascata](Std_CascadeWindows/it.md)
+   Name: Std TileWindows
+   Name/it: Affianca
+   MenuLocation: Finestre - Affianca
+   Workbenches: Tutti
+   SeeAlso: [A cascata](Std_CascadeWindows/it.md)
 ---
 
 # Std TileWindows/it
@@ -36,4 +36,4 @@ Il comando **Affianca** riorganizza le finestre nell\'[Area della vista principa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TileWindows/it
+⏵ [documentation index](../README.md) > Std TileWindows/it

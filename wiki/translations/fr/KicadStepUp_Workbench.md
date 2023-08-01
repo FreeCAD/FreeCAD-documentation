@@ -1,7 +1,7 @@
 # <img alt="Icône de l\'atelier externe KicadStepUp" src=images/Kicad-StepUp-tools-WB.svg  style="width:64px;"> KicadStepUp Workbench/fr
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -128,4 +128,4 @@ De nouveaux ateliers sont en développement, tenez vous au courant!
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > KicadStepUp Workbench/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > KicadStepUp Workbench/fr

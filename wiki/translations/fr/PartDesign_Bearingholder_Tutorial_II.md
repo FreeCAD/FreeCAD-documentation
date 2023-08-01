@@ -94,4 +94,4 @@ Pour le reste de l\'usinage, créer un nouveau corps. Le fond du support sera us
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial II/fr
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial II/fr

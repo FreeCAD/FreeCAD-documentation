@@ -85,4 +85,4 @@ Puisqu\'il existe de nombreuses vidéos traitant de ce sujet, vous pouvez vous r
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Video tutorials/fr
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Video tutorials/fr

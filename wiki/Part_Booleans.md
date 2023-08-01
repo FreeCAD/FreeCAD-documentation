@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Booleans
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Booleans

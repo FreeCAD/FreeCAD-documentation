@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Move
-   Name/fr:Draft Déplacer
-   MenuLocation:Modification - Déplacer
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:**M** **V**
-   Version:0.7
-   SeeAlso:[Draft Surligner les sous éléments](Draft_SubelementHighlight/fr.md)
+   Name: Draft Move
+   Name/fr: Draft Déplacer
+   MenuLocation: Modification - Déplacer
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut: **M** **V**
+   Version: 0.7
+   SeeAlso: [Draft Surligner les sous éléments](Draft_SubelementHighlight/fr.md)
 ---
 
 # Draft Move/fr
@@ -123,4 +123,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move/fr

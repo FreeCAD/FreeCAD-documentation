@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh BoundingBox
-   Name/fr:Mesh Limites englobantes
-   MenuLocation:Maillages - Analyser - Limites englobantes...
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
+   Name: Mesh BoundingBox
+   Name/fr: Mesh Limites englobantes
+   MenuLocation: Maillages - Analyser - Limites englobantes...
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
 ---
 
 # Mesh BoundingBox/fr
@@ -36,4 +36,4 @@ La commande **Limites englobantes** affiche les coordonnées de la boîte englob
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/fr

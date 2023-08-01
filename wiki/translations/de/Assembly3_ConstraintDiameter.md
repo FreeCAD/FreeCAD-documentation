@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintDiameter
-   Name/de:Assembly3 Durchmesser
-   Icon:Assembly_ConstraintDiameter.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintDiameter
+   Name/de: Assembly3 Durchmesser
+   Icon: Assembly_ConstraintDiameter.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintDiameter/de
@@ -29,4 +29,4 @@ Zum Ändern des Durchmessers wird der Wert der Eigenschaft **Diameter** im Eigen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintDiameter/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintDiameter/de

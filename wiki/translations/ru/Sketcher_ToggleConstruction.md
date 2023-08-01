@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name/ru:Переключить построительную геометрию
-   Name:Sketcher_ToggleConstruction
-   MenuLocation:Sketch - Геометрия эскиза - Переключить построительную геометрию
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
+   Name/ru: Переключить построительную геометрию
+   Name: Sketcher_ToggleConstruction
+   MenuLocation: Sketch - Геометрия эскиза - Переключить построительную геометрию
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
 ---
 
 # Sketcher ToggleConstruction/ru
@@ -73,4 +73,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/ru

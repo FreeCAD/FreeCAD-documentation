@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Grid
-   Name/de:Draft EinrastenAufRaster
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso:[Draft Einrasten](Draft_Snap/de.md), [Draft EinrastenSperren](Draft_Snap_Lock.md), [Draft RasterUmschalten](Draft_ToggleGrid/de.md), [Draft EbeneAuswählen](Draft_SelectPlane/de.md)
+   Name: Draft Snap Grid
+   Name/de: Draft EinrastenAufRaster
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso: [Draft Einrasten](Draft_Snap/de.md), [Draft EinrastenSperren](Draft_Snap_Lock.md), [Draft RasterUmschalten](Draft_ToggleGrid/de.md), [Draft EbeneAuswählen](Draft_SelectPlane/de.md)
 ---
 
 # Draft Snap Grid/de
@@ -47,4 +47,4 @@ Siehe [Draft-Einrasten](Draft_Snap/de#Einstellungen.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Grid/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Grid/de

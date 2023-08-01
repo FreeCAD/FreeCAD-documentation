@@ -46,4 +46,4 @@ Diese Kategorie zeigt eine Liste der Seiten, die zum [FEM-Arbeitbereich](FEM_Wor
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:FEM/de
+⏵ [documentation index](../README.md) > Category:FEM/de

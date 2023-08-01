@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Array
-   Name/fr:Draft Réseau
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Draft Réseau orthogonal](Draft_OrthoArray/fr.md), [Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md)
+   Name: Draft Array
+   Name/fr: Draft Réseau
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   SeeAlso: [Draft Réseau orthogonal](Draft_OrthoArray/fr.md), [Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md)
 ---
 
 # Draft Array/fr
@@ -42,4 +42,4 @@ Voir [Draft Réseau orthogonal](Draft_OrthoArray/fr#Propri.C3.A9t.C3.A9s.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/fr

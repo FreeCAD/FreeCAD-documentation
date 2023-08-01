@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet StyleUnderline
-   Name/de:Kalkulationstabelle StilUnterstrichen
-   Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)
-   MenuLocation:Kalkulationstabelle - Stile - Unterstrichener Text
-   Version:0.17
+   Name: Spreadsheet StyleUnderline
+   Name/de: Kalkulationstabelle StilUnterstrichen
+   Workbenches: [Tabellenkalkulation](Spreadsheet_Workbench/de.md)
+   MenuLocation: Kalkulationstabelle - Stile - Unterstrichener Text
+   Version: 0.17
 ---
 
 # Spreadsheet StyleUnderline/de
@@ -30,4 +30,4 @@ Das unterstrichen erhält.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleUnderline/de
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleUnderline/de

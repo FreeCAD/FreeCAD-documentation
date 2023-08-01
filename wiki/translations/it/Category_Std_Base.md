@@ -66,4 +66,4 @@ This category list pages related to the [Std Base](Std_Base/it.md), which collec
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Std Base/it
+⏵ [documentation index](../README.md) > Category:Std Base/it

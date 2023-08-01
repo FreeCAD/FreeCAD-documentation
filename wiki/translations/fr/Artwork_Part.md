@@ -32,4 +32,4 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Part](Category_Part.md) > Artwork Part/fr
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Part](Category_Part.md) > Artwork Part/fr

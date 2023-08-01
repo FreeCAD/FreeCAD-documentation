@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FEM ClippingPlaneRemoveAll
-   Name/ru:FEM ClippingPlaneRemoveAll
-   Icon:Fem-clipping-plane-remove-all.svg
-   MenuLocation: Utility - Clipping Plane Remove All
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM ClippingPlaneRemoveAll
+   Name/ru: FEM ClippingPlaneRemoveAll
+   Icon: Fem-clipping-plane-remove-all.svg
+   MenuLocation:  Utility - Clipping Plane Remove All
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM ClippingPlaneRemoveAll/ru
@@ -39,4 +39,4 @@ Either use the toolbar button <img alt="" src=images/FEM_ClippingPlaneRemoveAll.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ClippingPlaneRemoveAll/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ClippingPlaneRemoveAll/ru

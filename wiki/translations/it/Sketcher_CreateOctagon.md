@@ -1,6 +1,6 @@
 # Sketcher CreateOctagon/it
 ---
-- GuiCommand:   Name:Sketcher CreateOctagon   Name/it:Ottagono   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch - Geometrie - Ottagono   Shortcut:   SeeAlso:   Version:0.15---
+- GuiCommand:   Name: Sketcher CreateOctagon   Name/it: Ottagono   Workbenches: [[Sketcher Workbench/it   Sketcher]]|MenuLocation: Sketch - Geometrie - Ottagono   Shortcut:    SeeAlso:    Version: 0.15---
 
 
 </div>
@@ -57,4 +57,4 @@ Quando si edita lo schizzo il cerchio circoscritto è visibile, quando si chiude
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOctagon/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOctagon/it

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_TreeSyncView
-   Name/it:Sincronizza la vista
-   MenuLocation:Visualizza - Azioni della vista ad albero - Sincronizza la vista
-   Workbenches:Tutti
-   Shortcut:**T** **1**
-   Version:0.19
+   Name: Std_TreeSyncView
+   Name/it: Sincronizza la vista
+   MenuLocation: Visualizza - Azioni della vista ad albero - Sincronizza la vista
+   Workbenches: Tutti
+   Shortcut: **T** **1**
+   Version: 0.19
 ---
 
 # Std TreeSyncView/it
@@ -42,4 +42,4 @@ La modalità Sincronizza la vista della vista ad albero può essere impostata an
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSyncView/it
+⏵ [documentation index](../README.md) > Std TreeSyncView/it

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM CompEmConstraints
-   MenuLocation:
-   Workbenches:[FEM](FEM_Workbench.md)
-   Version:0.21
-   SeeAlso:
+   Name: FEM CompEmConstraints
+   MenuLocation: 
+   Workbenches: [FEM](FEM_Workbench.md)
+   Version: 0.21
+   SeeAlso: 
 ---
 
 # FEM CompEmConstraints
@@ -29,4 +29,4 @@ You can choose these constraints:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM CompEmConstraints
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM CompEmConstraints

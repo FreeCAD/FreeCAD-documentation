@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Pad
-   Name/pl:Projekt Części: Wyciągnij
-   MenuLocation:Projekt Części - Utwórz cechę przez dodanie - Wyciągnij
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   SeeAlso:[Kieszeń](PartDesign_Pocket/pl.md)
+   Name: PartDesign Pad
+   Name/pl: Projekt Części: Wyciągnij
+   MenuLocation: Projekt Części - Utwórz cechę przez dodanie - Wyciągnij
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   SeeAlso: [Kieszeń](PartDesign_Pocket/pl.md)
 ---
 
 # PartDesign Pad/pl
@@ -201,4 +201,4 @@ Zwęża wyciągnięcie w przeciwnym kierunku wyciskania o podany kąt. Dodatni k
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad/pl

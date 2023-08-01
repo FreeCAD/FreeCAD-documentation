@@ -1,6 +1,4 @@
 # FreeCAD Humanitarian Projects
-{{TOCright}}
-
 ## About
 
 This wiki page is being used to track all Humanitarian based efforts reported and organized on the forum, that benefit from using FreeCAD as part of their projects.
@@ -43,4 +41,4 @@ This wiki page is being used to track all Humanitarian based efforts reported an
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FreeCAD Humanitarian Projects
+⏵ [documentation index](../README.md) > FreeCAD Humanitarian Projects

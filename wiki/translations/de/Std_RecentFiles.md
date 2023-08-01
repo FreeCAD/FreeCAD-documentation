@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std RecentFiles
-   Name/de:Std LetzteDateien
-   Empty:1
-   MenuLocation:Datei - Letzte Dateien
-   Workbenches:Alle
-   SeeAlso:[Std Öffnen](Std_Open/de.md), [Std Import](Std_Import/de.md)
+   Name: Std RecentFiles
+   Name/de: Std LetzteDateien
+   Empty: 1
+   MenuLocation: Datei - Letzte Dateien
+   Workbenches: Alle
+   SeeAlso: [Std Öffnen](Std_Open/de.md), [Std Import](Std_Import/de.md)
 ---
 
 # Std RecentFiles/de
@@ -39,4 +39,4 @@ Der Menüeintrag **Std LetzteDateien** zeigt eine Liste der zuletzt gespeicherte
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std RecentFiles/de
+⏵ [documentation index](../README.md) > Std RecentFiles/de

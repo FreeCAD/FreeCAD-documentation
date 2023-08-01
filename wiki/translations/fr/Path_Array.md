@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path Array
-   Name/fr:Path Réseau
-   MenuLocation:Path - Modification du parcours - Réseau
-   Workbenches:[Path](Path_Workbench/fr.md)
+   Name: Path Array
+   Name/fr: Path Réseau
+   MenuLocation: Path - Modification du parcours - Réseau
+   Workbenches: [Path](Path_Workbench/fr.md)
 ---
 
 # Path Array/fr
@@ -59,4 +59,4 @@ Exemple :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Array/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Array/fr

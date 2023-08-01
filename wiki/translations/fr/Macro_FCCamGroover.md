@@ -316,4 +316,4 @@ La discussion sur le forum [FC Cam Groover Macro](https://forum.freecadweb.org/v
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro FCCamGroover/fr
+⏵ [documentation index](../README.md) > Macro FCCamGroover/fr

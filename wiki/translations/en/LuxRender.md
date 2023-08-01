@@ -59,4 +59,4 @@ The [Render Workbench](https://github.com/FreeCAD/FreeCAD-render) has dropped su
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > LuxRender/en
+⏵ [documentation index](../README.md) > LuxRender/en

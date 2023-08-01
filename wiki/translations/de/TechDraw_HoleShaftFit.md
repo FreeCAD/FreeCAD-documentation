@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw HoleShaftFit
-   Name/de:TechDraw Passungen
-   MenuLocation:TechDraw - Wellen- oder Bohrungspassung hinzufügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.21
-   SeeAlso:[TechDraw Form- und Lagetolerierung](TechDraw_Geometric_dimensioning_and_tolerancing/de.md)
+   Name: TechDraw HoleShaftFit
+   Name/de: TechDraw Passungen
+   MenuLocation: TechDraw - Wellen- oder Bohrungspassung hinzufügen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Version: 0.21
+   SeeAlso: [TechDraw Form- und Lagetolerierung](TechDraw_Geometric_dimensioning_and_tolerancing/de.md)
 ---
 
 # TechDraw HoleShaftFit/de
@@ -58,4 +58,4 @@ Das Werkzeug **TechDraw Passungen** fügt Längenmaßen und Durchmessermaßen An
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HoleShaftFit/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HoleShaftFit/de

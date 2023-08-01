@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Curves Pipeshell
-   Name/fr:Curves Enveloppe de tube
-   MenuLocation:Surfaces - Pipeshell 
-   Workbenches:[Curves](Curves_Workbench/fr.md)
+   Name: Curves Pipeshell
+   Name/fr: Curves Enveloppe de tube
+   MenuLocation: Surfaces - Pipeshell 
+   Workbenches: [Curves](Curves_Workbench/fr.md)
 ---
 
 # Curves Pipeshell/fr
@@ -99,4 +99,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves Pipeshell/fr
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves Pipeshell/fr

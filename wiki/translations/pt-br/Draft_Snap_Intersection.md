@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Intersection
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso:[Draft Snap](Draft_Snap.md), [Draft Snap Lock](Draft_Snap_Lock.md)
+   Name: Draft Snap Intersection
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   SeeAlso: [Draft Snap](Draft_Snap.md), [Draft Snap Lock](Draft_Snap_Lock.md)
 ---
 
 # Draft Snap Intersection/pt-br
@@ -50,4 +50,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Intersection/pt-br
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Intersection/pt-br

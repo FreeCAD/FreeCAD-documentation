@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreatePeriodicBSplineByInterpolation
-   Name/fr:Sketcher B-spline périodique par des nœuds
-   MenuLocation:Esquisse - Géometries d'esquisse - Créer une B-spline périodique par des nœuds
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **B** **O**
-   Version:0.21
-   SeeAlso:[Sketcher B-spline périodique](Sketcher_CreatePeriodicBSpline/fr.md)
+   Name: Sketcher CreatePeriodicBSplineByInterpolation
+   Name/fr: Sketcher B-spline périodique par des nœuds
+   MenuLocation: Esquisse - Géometries d'esquisse - Créer une B-spline périodique par des nœuds
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **B** **O**
+   Version: 0.21
+   SeeAlso: [Sketcher B-spline périodique](Sketcher_CreatePeriodicBSpline/fr.md)
 ---
 
 # Sketcher CreatePeriodicBSplineByInterpolation/fr
@@ -43,4 +43,4 @@ Voir [Sketcher B-spline par des nœuds](Sketcher_CreateBSplineByInterpolation/fr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePeriodicBSplineByInterpolation/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePeriodicBSplineByInterpolation/fr

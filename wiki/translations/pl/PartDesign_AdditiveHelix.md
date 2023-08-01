@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveHelix
-   Name/pl:Projekt Części: Addytywna helisa
-   MenuLocation:Projekt Części - Utwórz cechę przez dodanie - Addytywna helisa
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   Version:0.19
-   SeeAlso:[Komponent bryła pierwotna do odjęcia](PartDesign_SubtractiveHelix/pl.md)
+   Name: PartDesign AdditiveHelix
+   Name/pl: Projekt Części: Addytywna helisa
+   MenuLocation: Projekt Części - Utwórz cechę przez dodanie - Addytywna helisa
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   Version: 0.19
+   SeeAlso: [Komponent bryła pierwotna do odjęcia](PartDesign_SubtractiveHelix/pl.md)
 ---
 
 # PartDesign AdditiveHelix/pl
@@ -163,4 +163,4 @@ Jeśli opcja ta jest zaznaczona, helisa będzie wyświetlana w oknie widoku w tr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveHelix/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveHelix/pl

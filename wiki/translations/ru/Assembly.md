@@ -2,7 +2,7 @@
 ## Введение
 
 
-{{TOCright}}
+
 
 Во FreeCAD слово \"[Сборка](Assembly/ru.md)\" обычно используется для обозначения [3D модели](model/ru.md), состоящей из нескольких различимых частей, которые в некотором роде складываются вместе для создания функционального объекта, точно так же, как создаются реальные изделия.
 
@@ -62,4 +62,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly/ru
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly/ru

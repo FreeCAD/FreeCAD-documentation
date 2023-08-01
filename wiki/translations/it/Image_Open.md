@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Image Open
-   Name/it:Apri immagine
-   Icon:Image Open.svg
-   MenuLocation:None
-   Workbenches:[Image](Image_Workbench/it.md)
-   SeeAlso:[Piano immagine](Image_CreateImagePlane/it.md), [Scala immagine](Image_Scaling/it.md)
+   Name: Image Open
+   Name/it: Apri immagine
+   Icon: Image Open.svg
+   MenuLocation: None
+   Workbenches: [Image](Image_Workbench/it.md)
+   SeeAlso: [Piano immagine](Image_CreateImagePlane/it.md), [Scala immagine](Image_Scaling/it.md)
 ---
 
 # Image Open/it
@@ -65,4 +65,4 @@ L\'immagine viene posizionata in una nuova finestra, non nella vista 3D.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/it
+⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/it

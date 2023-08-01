@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw RadiusDimension
-   Name/fr:TechDraw Cote de rayon
-   MenuLocation:TechDraw - Dimensions - Insérer une cote de rayon
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Cote de diamètre](TechDraw_DiameterDimension/fr.md)
+   Name: TechDraw RadiusDimension
+   Name/fr: TechDraw Cote de rayon
+   MenuLocation: TechDraw - Dimensions - Insérer une cote de rayon
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   SeeAlso: [TechDraw Cote de diamètre](TechDraw_DiameterDimension/fr.md)
 ---
 
 # TechDraw RadiusDimension/fr
@@ -99,4 +99,4 @@ rc = page.addView(dim1)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RadiusDimension/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RadiusDimension/fr

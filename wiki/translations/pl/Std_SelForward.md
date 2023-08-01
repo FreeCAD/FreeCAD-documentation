@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std SelForward
-   Name/pl:Std: Ponów wybór
-   MenuLocation:
-   Workbenches:wszystkie
-   Version:0.19
-   SeeAlso:[Przejdź do połączonego obiektu](Std_LinkSelectLinked/pl.md), [Przejdź do najgłębiej połączonego obiektu](Std_LinkSelectLinkedFinal/pl.md),  [Wybierz wszystkie łącza](Std_LinkSelectAllLinks/pl.md), [Przywróć wybór](Std_SelBack/pl.md)
+   Name: Std SelForward
+   Name/pl: Std: Ponów wybór
+   MenuLocation: 
+   Workbenches: wszystkie
+   Version: 0.19
+   SeeAlso: [Przejdź do połączonego obiektu](Std_LinkSelectLinked/pl.md), [Przejdź do najgłębiej połączonego obiektu](Std_LinkSelectLinkedFinal/pl.md),  [Wybierz wszystkie łącza](Std_LinkSelectAllLinks/pl.md), [Przywróć wybór](Std_SelBack/pl.md)
 ---
 
 # Std SelForward/pl
@@ -41,4 +41,4 @@ Polecenie **Ponów wybór** przywraca następny zarejestrowany wybór z [Widoku 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SelForward/pl
+⏵ [documentation index](../README.md) > Std SelForward/pl

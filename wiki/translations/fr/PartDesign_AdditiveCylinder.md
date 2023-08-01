@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveCylinder
-   Name/fr:PartDesign Cylindre additif
-   MenuLocation:Part Design - Créer une primitive additive - Cylindre additif
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[PartDesign Créer une primitive d'addition](PartDesign_CompPrimitiveAdditive/fr.md), [PartDesign Cylindre soustractif](PartDesign_SubtractiveCylinder/fr.md)
+   Name: PartDesign AdditiveCylinder
+   Name/fr: PartDesign Cylindre additif
+   MenuLocation: Part Design - Créer une primitive additive - Cylindre additif
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Créer une primitive d'addition](PartDesign_CompPrimitiveAdditive/fr.md), [PartDesign Cylindre soustractif](PartDesign_SubtractiveCylinder/fr.md)
 ---
 
 # PartDesign AdditiveCylinder/fr
@@ -59,4 +59,4 @@ Le Cylindre peut être édité après sa création de deux façons :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCylinder/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCylinder/fr

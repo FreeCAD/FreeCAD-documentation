@@ -8,7 +8,7 @@
 </div>
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -447,4 +447,4 @@ Available options:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Dialog/zh-cn
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Dialog/zh-cn

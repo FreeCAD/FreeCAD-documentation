@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh Export
-   Name/de:Polygonnetz Export
-   MenuLocation:Polygonnetze - Polygonnetz exportieren...
-   Workbenches:[Polygonnetz](Mesh_Workbench/de.md)
-   SeeAlso:[Std Export](Std_Export/de.md), [Import Export](Import_Export/de.md)
+   Name: Mesh Export
+   Name/de: Polygonnetz Export
+   MenuLocation: Polygonnetze - Polygonnetz exportieren...
+   Workbenches: [Polygonnetz](Mesh_Workbench/de.md)
+   SeeAlso: [Std Export](Std_Export/de.md), [Import Export](Import_Export/de.md)
 ---
 
 # Mesh Export/de
@@ -59,4 +59,4 @@ Mesh.export([doc.Cone, doc.Cylinder], 'D:/testfiles/mymodel.stl')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Export/de
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Export/de

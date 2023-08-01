@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Offset
-   Name/tr:Ofsetle
-   MenuLocation:Taslak - Ofsetle
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
-   Shortcut:**O** **S**
-   SeeAlso:[Parça 2D ofset](Part_Offset2D/tr.md)
+   Name: Draft Offset
+   Name/tr: Ofsetle
+   MenuLocation: Taslak - Ofsetle
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   Shortcut: **O** **S**
+   SeeAlso: [Parça 2D ofset](Part_Offset2D/tr.md)
 ---
 
 # Draft Offset/tr
@@ -175,4 +175,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Offset/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Offset/tr

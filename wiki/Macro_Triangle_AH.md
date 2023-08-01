@@ -108,4 +108,4 @@ ver 00.01 20/03/2015 :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Triangle AH
+⏵ [documentation index](../README.md) > Macro Triangle AH

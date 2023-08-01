@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar Helical
-   Name/fr:Arch Rebar Armature hélicoïdale
-   MenuLocation:Arch - Outils pour les armatures - Armature hélicoïdale<br>3D/BIM - Reinforcement tools - Armature hélicoïdale
-   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Rebar Armature en étrier](Arch_Rebar_Stirrup/fr.md), [Arch Rebar Armature en colonnes](Arch_Rebar_ColumnReinforcement/fr.md)
+   Name: Arch Rebar Helical
+   Name/fr: Arch Rebar Armature hélicoïdale
+   MenuLocation: Arch - Outils pour les armatures - Armature hélicoïdale<br>3D/BIM - Reinforcement tools - Armature hélicoïdale
+   Workbenches: [Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Rebar Armature en étrier](Arch_Rebar_Stirrup/fr.md), [Arch Rebar Armature en colonnes](Arch_Rebar_ColumnReinforcement/fr.md)
 ---
 
 # Arch Rebar Helical/fr
@@ -134,4 +134,4 @@ HelicalRebar.editHelicalRebar(Rebar, 20, 100, 20, 20, 100)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Helical/fr
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Helical/fr

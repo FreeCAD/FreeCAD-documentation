@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM EquationFlow
-   Name/fr:FEM Equation d'écoulement
-   MenuLocation:Résolution - Équation d'écoulement
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:
+   Name: FEM EquationFlow
+   Name/fr: FEM Equation d'écoulement
+   MenuLocation: Résolution - Équation d'écoulement
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: 
 ---
 
 # FEM EquationFlow/fr
@@ -91,4 +91,4 @@ Les résultats sont la vitesse en $\rm m/s$ et la pression en $\rm Pa$. Si aucun
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationFlow/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationFlow/fr

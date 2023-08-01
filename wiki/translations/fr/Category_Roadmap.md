@@ -10,4 +10,4 @@ Cette catégorie regroupe tous les articles de documention ce qui sont prévues 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Roadmap/fr
+⏵ [documentation index](../README.md) > Category:Roadmap/fr

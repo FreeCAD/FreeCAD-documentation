@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Points_Merge
-   Name/it:Unisci le nuvole di punti
-   Empty:1
-   MenuLocation:Punti - Unisci le nuvole di punti
-   Workbenches:[Punti](Points_Workbench/it.md)
-   SeeAlso:
+   Name: Points_Merge
+   Name/it: Unisci le nuvole di punti
+   Empty: 1
+   MenuLocation: Punti - Unisci le nuvole di punti
+   Workbenches: [Punti](Points_Workbench/it.md)
+   SeeAlso: 
 ---
 
 # Points Merge/it
@@ -46,4 +46,4 @@ See [Points Convert](Points_Convert.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Merge/it
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Merge/it

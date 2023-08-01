@@ -1,6 +1,6 @@
 # Draft Rotate/cs
 ---
-- GuiCommand:   Name:Draft Rotate   Name/cs:Kreslení Otočit   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení - Otočit   Shortcut:R O---
+- GuiCommand:   Name: Draft Rotate   Name/cs: Kreslení Otočit   Workbenches: [Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation: Kreslení - Otočit   Shortcut: R O---
 
 
 </div>
@@ -144,4 +144,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/cs
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/cs

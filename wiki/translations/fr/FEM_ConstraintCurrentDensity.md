@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintCurrentDensity
-   Name/fr:FEM Contrainte de densité de courant
-   MenuLocation:Modèle - Contraintes électromagnétiques - Contrainte de densité de courant
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:0.21
-   SeeAlso:[FEM Équation magnétodynamique](FEM_EquationMagnetodynamic/fr.md), [FEM Équation magnétodynamique 2D](FEM_EquationMagnetodynamic2D/fr.md)
+   Name: FEM ConstraintCurrentDensity
+   Name/fr: FEM Contrainte de densité de courant
+   MenuLocation: Modèle - Contraintes électromagnétiques - Contrainte de densité de courant
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Version: 0.21
+   SeeAlso: [FEM Équation magnétodynamique](FEM_EquationMagnetodynamic/fr.md), [FEM Équation magnétodynamique 2D](FEM_EquationMagnetodynamic2D/fr.md)
 ---
 
 # FEM ConstraintCurrentDensity/fr
@@ -40,4 +40,4 @@ Crée une contrainte FEM pour la densité de courant. À utiliser avec les équa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintCurrentDensity/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintCurrentDensity/fr

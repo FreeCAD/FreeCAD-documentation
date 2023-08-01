@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign NewSketch
-   Name/de:PartDesign NeueSkizze
-   MenuLocation:Skizze - Skizze erstellen
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[Sketcher NeueSkizze](Sketcher_NewSketch/de.md)
+   Name: PartDesign NewSketch
+   Name/de: PartDesign NeueSkizze
+   MenuLocation: Skizze - Skizze erstellen
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [Sketcher NeueSkizze](Sketcher_NewSketch/de.md)
 ---
 
 # PartDesign NewSketch/de
@@ -83,4 +83,4 @@ Um beliebige Elemente im [Sketcher](Sketcher_Workbench/de.md) zu referenzieren, 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/de

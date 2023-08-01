@@ -5,7 +5,7 @@
 ## Description
 
 
-{{TOCright}}
+
 
 The Silk workbench is an [External workbench](external_workbenches.md) that creates NURBS surfaces in FreeCAD.
 
@@ -26,4 +26,4 @@ Recommended install is via the <img alt="" src=images/Std_AddonMgr.svg  style="w
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Silk](Category_Silk.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > Silk Workbench/en
+⏵ [documentation index](../README.md) > [Silk](Category_Silk.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > Silk Workbench/en

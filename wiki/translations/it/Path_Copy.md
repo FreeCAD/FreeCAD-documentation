@@ -1,6 +1,6 @@
 # Path Copy/it
 ---
-- GuiCommand:   Name:Path Copy   Name/it:Copia   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path - Modifica percorso - Copia   Shortcut:P,Y   SeeAlso:---
+- GuiCommand:   Name: Path Copy   Name/it: Copia   Workbenches: [[Path Workbench/it   Path]]|MenuLocation: Path - Modifica percorso - Copia   Shortcut: P,Y   SeeAlso: ---
 
 
 </div>
@@ -60,4 +60,4 @@ La copia rimane collegata al percorso originale. Le modifiche apportate all\'ori
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Copy/it
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Copy/it

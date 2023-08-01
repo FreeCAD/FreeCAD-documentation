@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Parallel
-   Name/tr:Taslak Paralel
-   MenuLocation:Taslak - [Yakalama](Draft_Snap/tr.md) - Paralel
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   Shortcut:
-   SeeAlso:
+   Name: Draft Snap Parallel
+   Name/tr: Taslak Paralel
+   MenuLocation: Taslak - [Yakalama](Draft_Snap/tr.md) - Paralel
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Draft Snap Parallel/tr
@@ -51,4 +51,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Parallel/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Parallel/tr

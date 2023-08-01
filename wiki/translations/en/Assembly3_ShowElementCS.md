@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ShowElementCS
-   Icon:Assembly_ShowElementCS.svg‎‎
-   MenuLocation:Assembly3 - Element style - Show element coordinate system
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ShowElementCS
+   Icon: Assembly_ShowElementCS.svg‎‎
+   MenuLocation: Assembly3 - Element style - Show element coordinate system
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ShowElementCS/en
@@ -33,4 +33,4 @@ An ECS is represented by 3 lines which meet at the elements origin:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ShowElementCS/en
+⏵ [documentation index](../README.md) > Assembly3 ShowElementCS/en

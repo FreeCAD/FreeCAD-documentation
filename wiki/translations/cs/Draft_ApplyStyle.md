@@ -1,6 +1,6 @@
 # Draft ApplyStyle/cs
 ---
-- GuiCommand:   Name:Draft_Apply   Name/cs:Kreslení Použij   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft -> Apply style---
+- GuiCommand:   Name: Draft_Apply   Name/cs: Kreslení Použij   Workbenches: [Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation: Draft -> Apply style---
 
 
 </div>
@@ -56,4 +56,4 @@ This command currently handles only five of the settings the [Draft SetStyle](Dr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/cs
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/cs

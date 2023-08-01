@@ -1,8 +1,4 @@
 # Interface Customization/de
-{{TOCright}}
-
-
-
 ## Einführung
 
 Die FreeCAD Oberfläche basiert auf dem modernen [Qt](http://en.wikipedia.org/wiki/Qt_(toolkit)) Werkzeugsatz und hat einen Aufbau nach Stand der Technik. Einige Aspekte der Oberfläche können angepasst werden. Du kannst z.B. benutzerdefinierte Werkzeugleisten hinzufügen, mit Werkzeugen von mehreren Arbeitsbereichen oder in Makros festgelegten Werkzeugen, und du kannst eigene Tastaturkürzel erstellen. Die Menüs und Standardwerkzeugleisten, die mit FreeCAD und seinen Arbeitsbereichen geliefert werden, können jedoch nicht geändert werden.
@@ -302,4 +298,4 @@ In the Workbenches category of the Addon Manager some addons by user triplus can
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Interface Customization/de
+⏵ [documentation index](../README.md) > Interface Customization/de

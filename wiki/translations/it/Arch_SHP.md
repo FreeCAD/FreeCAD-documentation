@@ -1,8 +1,4 @@
 # Arch SHP/it
-{{TOCright}}
-
-
-
 ## Descrizione
 
 FreeCAD è in grado di importare [shapefiles](https://en.wikipedia.org/wiki/Shapefile)
@@ -28,4 +24,4 @@ Notare che al momento non viene trattata tutta la questione delle unità georefe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch SHP/it
+⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch SHP/it

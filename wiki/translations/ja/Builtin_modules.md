@@ -26,4 +26,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > Builtin modules/ja
+⏵ [documentation index](../README.md) > [API](Category_API.md) > Builtin modules/ja

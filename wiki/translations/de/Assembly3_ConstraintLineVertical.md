@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintLineVertical
-   Name/de:Assembly3 Vertikale Linie
-   Icon:Assembly_ConstraintLineVertical.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintLineVertical
+   Name/de: Assembly3 Vertikale Linie
+   Icon: Assembly_ConstraintLineVertical.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintLineVertical/de
@@ -24,4 +24,4 @@ Bezüglich des LKS des planaren Elements werden Anfangs- und Endpunkt des Linien
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLineVertical/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintLineVertical/de

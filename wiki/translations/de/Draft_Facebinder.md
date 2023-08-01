@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Facebinder
-   Name/de:Entwurf Flächenbinder
-   MenuLocation:Entwerfen - Flächenbinder
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
-   Shortcut:**F** **F**
-   Version:0.14
+   Name: Draft Facebinder
+   Name/de: Entwurf Flächenbinder
+   MenuLocation: Entwerfen - Flächenbinder
+   Workbenches: [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   Shortcut: **F** **F**
+   Version: 0.14
 ---
 
 # Draft Facebinder/de
@@ -122,4 +122,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Facebinder/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Facebinder/de

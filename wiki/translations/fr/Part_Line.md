@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Line
-   Name/fr:Part Ligne
-   MenuLocation:Part - [Créer des primitives](Part_Primitives/fr.md) - Ligne
-   Workbenches:[Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
-   SeeAlso:[Part Primitives](Part_Primitives/fr.md)
+   Name: Part Line
+   Name/fr: Part Ligne
+   MenuLocation: Part - [Créer des primitives](Part_Primitives/fr.md) - Ligne
+   Workbenches: [Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
+   SeeAlso: [Part Primitives](Part_Primitives/fr.md)
 ---
 
 # Part Line/fr
@@ -102,4 +102,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Line/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Line/fr

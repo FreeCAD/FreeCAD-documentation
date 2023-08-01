@@ -10,4 +10,4 @@ This category list pages related to the \"User_Documentation/pt\" and \"Workbenc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Draft/pt
+⏵ [documentation index](../README.md) > Category:Draft/pt

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Points Structure
-   MenuLocation:Points - Structured point cloud
-   Workbenches:[Points](Points_Workbench.md)
+   Name: Points Structure
+   MenuLocation: Points - Structured point cloud
+   Workbenches: [Points](Points_Workbench.md)
 ---
 
 # Points Structure/pt-br
@@ -34,4 +34,4 @@ See [Points Convert](Points_Convert.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Structure/pt-br
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Structure/pt-br

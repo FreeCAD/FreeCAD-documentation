@@ -75,4 +75,4 @@ Sperăm că am reușit să vă oferim o bună prezentare pentru FreeCAD în aces
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Manual:The Community/ro
+⏵ [documentation index](../README.md) > Manual:The Community/ro

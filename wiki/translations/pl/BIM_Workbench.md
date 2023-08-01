@@ -4,7 +4,7 @@
 <img alt="Ikonka FreeCAD dla zewnętrznego Środowiska pracy BIM" src=images/IFC.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 
 
@@ -208,4 +208,4 @@ Nowe środowiska pracy są w czasie tworzenia, bądź cierpliwy!
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [BIM](Category_BIM.md) > BIM Workbench/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [BIM](Category_BIM.md) > BIM Workbench/pl

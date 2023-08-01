@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/de:Part RechteckAuswahl
-   MenuLocation:Part - Rechteckauswahl
-   Workbenches:[Part Arbeitsbereich](Part_Workbench/de.md)
-   Version:0.18
-   SeeAlso:[Std BoxSelection](Std_BoxSelection/de.md), [Std BoxElementSelection](Std_BoxElementSelection/de.md), [Std SelectAll](Std_SelectAll/de.md)
+   Name/de: Part RechteckAuswahl
+   MenuLocation: Part - Rechteckauswahl
+   Workbenches: [Part Arbeitsbereich](Part_Workbench/de.md)
+   Version: 0.18
+   SeeAlso: [Std BoxSelection](Std_BoxSelection/de.md), [Std BoxElementSelection](Std_BoxElementSelection/de.md), [Std SelectAll](Std_SelectAll/de.md)
 ---
 
 # Part BoxSelection/de
@@ -31,4 +31,4 @@ Das **<img src="images/Part_BoxSelection.svg" width=16px> [Part RechteckAuswahl]
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BoxSelection/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BoxSelection/de

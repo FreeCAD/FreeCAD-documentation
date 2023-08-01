@@ -1,6 +1,6 @@
 # Part Circle/ro
 ---
-- GuiCommand:   Name:Part Circle   MenuLocation:Part - [Workbenches:[[Part Workbench   Part](Part_CreatePrimitives___Create_Primitives]]_-_Circle.md),  [OpenSCAD](OpenSCAD_Workbench.md)|SeeAlso:..---
+- GuiCommand:   Name: Part Circle   MenuLocation: Part - [Workbenches: [[Part Workbench   Part](Part_CreatePrimitives___Create_Primitives]]_-_Circle.md),  [OpenSCAD](OpenSCAD_Workbench.md)|SeeAlso: ..---
 
 
 </div>
@@ -153,4 +153,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/ro

@@ -16,4 +16,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > [Arch](Category_Arch.md) > SweetHome3D/pl
+⏵ [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > [Arch](Category_Arch.md) > SweetHome3D/pl

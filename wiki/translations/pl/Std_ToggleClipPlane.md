@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ToggleClipPlane
-   Name/pl:Płaszczyzna przecinająca
-   MenuLocation:Widok - Płaszczyzna tnąca‏‎
-   Workbenches:wszystkie
-   SeeAlso:[Wycinek przekroju](Part_SectionCut/pl.md)
+   Name: Std ToggleClipPlane
+   Name/pl: Płaszczyzna przecinająca
+   MenuLocation: Widok - Płaszczyzna tnąca‏‎
+   Workbenches: wszystkie
+   SeeAlso: [Wycinek przekroju](Part_SectionCut/pl.md)
 ---
 
 # Std ToggleClipPlane/pl
@@ -56,4 +56,4 @@ Polecenie przełącz *Płaszczyznę przecinającą* tymczasowo ukrywa obiekty i 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleClipPlane/pl
+⏵ [documentation index](../README.md) > Std ToggleClipPlane/pl

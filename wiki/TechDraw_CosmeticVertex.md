@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw CosmeticVertex
-   MenuLocation:TechDraw - Add Vertices - Add Cosmetic Vertex 
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.19
-   SeeAlso:[TechDraw Midpoint](TechDraw_Midpoints.md), [TechDraw Quadrant](TechDraw_Quadrants.md)
+   Name: TechDraw CosmeticVertex
+   MenuLocation: TechDraw - Add Vertices - Add Cosmetic Vertex 
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Version: 0.19
+   SeeAlso: [TechDraw Midpoint](TechDraw_Midpoints.md), [TechDraw Quadrant](TechDraw_Quadrants.md)
 ---
 
 # TechDraw CosmeticVertex
@@ -65,4 +65,4 @@ dvp.makeCosmeticLine(start,end,style, weight, pyGreen)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticVertex
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticVertex

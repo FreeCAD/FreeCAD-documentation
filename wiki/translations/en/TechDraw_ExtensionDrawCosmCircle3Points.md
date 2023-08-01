@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionDrawCosmCircle3Points
-   MenuLocation:TechDraw - Extensions: Centerlines/Threading - Add Cosmetic Circle 3 Points
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ExtensionDrawCosmArc](TechDraw_ExtensionDrawCosmArc.md)
+   Name: TechDraw ExtensionDrawCosmCircle3Points
+   MenuLocation: TechDraw - Extensions: Centerlines/Threading - Add Cosmetic Circle 3 Points
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ExtensionDrawCosmArc](TechDraw_ExtensionDrawCosmArc.md)
 ---
 
 # TechDraw ExtensionDrawCosmCircle3Points/en
@@ -37,4 +37,4 @@ The **TechDraw ExtensionDrawCosmCircle3Points** tool adds a cosmetic circle base
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDrawCosmCircle3Points/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDrawCosmCircle3Points/en

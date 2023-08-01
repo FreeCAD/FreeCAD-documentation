@@ -1,7 +1,7 @@
 # <img alt="Std Base icon" src=images/Freecad.svg  style="width:64px;"> Std Tools Menu/ko
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -66,4 +66,4 @@ The following tools are available in this menu:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Tools Menu/ko
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Tools Menu/ko

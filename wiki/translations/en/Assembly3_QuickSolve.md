@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 QuickSolve
-   Icon:Assembly_QuickSolve.svg
-   MenuLocation:Assembly3 - Quick solve
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
-   Shortcut:**A** then **F**
+   Name: Assembly3 QuickSolve
+   Icon: Assembly_QuickSolve.svg
+   MenuLocation: Assembly3 - Quick solve
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
+   Shortcut: **A** then **F**
 ---
 
 # Assembly3 QuickSolve/en
@@ -25,4 +25,4 @@ The <img alt="" src=images/Assembly_QuickSolve.svg‎‎  style="width:24px;"> [
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 QuickSolve/en
+⏵ [documentation index](../README.md) > Assembly3 QuickSolve/en

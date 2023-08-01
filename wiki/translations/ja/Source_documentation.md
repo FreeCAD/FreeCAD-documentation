@@ -1,7 +1,4 @@
 # Source documentation/ja
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 FreeCADのソースコードは、[Doxygen](http://www.doxygen.org)を使ってHTMLドキュメントを自動生成するようにコメントされています。これは、FreeCADソースコードのC ++部分とPython部分の両方に当てはまります。
@@ -202,4 +199,4 @@ void removeTaskWatcher(void);
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source documentation/ja
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source documentation/ja

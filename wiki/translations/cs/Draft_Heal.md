@@ -1,6 +1,6 @@
 # Draft Heal/cs
 ---
-- GuiCommand:   Name:Draft Heal   Name/cs:Kreslení Léčit   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení - Utility - Léčit---
+- GuiCommand:   Name: Draft Heal   Name/cs: Kreslení Léčit   Workbenches: [Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation: Kreslení - Utility - Léčit---
 
 
 </div>
@@ -34,4 +34,4 @@ Kvůli rychlému vývoji FreeCADu se některé definice objektů mohou v čase a
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/cs
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/cs

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Icon:Constraint Vertical.svg
-   Name/es:Restricción de verticalidad
-   Workbenches:[Sketch](Sketcher_Workbench/es.md)
-   Shortcut:V
-   MenuLocation:Sketch - Restricciones de croquis - Restricción de verticalidad
-   SeeAlso:[Restringir horizontalmente](Sketcher_ConstrainHorizontal/es.md)
+   Icon: Constraint Vertical.svg
+   Name/es: Restricción de verticalidad
+   Workbenches: [Sketch](Sketcher_Workbench/es.md)
+   Shortcut: V
+   MenuLocation: Sketch - Restricciones de croquis - Restricción de verticalidad
+   SeeAlso: [Restringir horizontalmente](Sketcher_ConstrainHorizontal/es.md)
 ---
 
 # Sketcher ConstrainVertical/es
@@ -54,4 +54,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainVertical/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainVertical/es

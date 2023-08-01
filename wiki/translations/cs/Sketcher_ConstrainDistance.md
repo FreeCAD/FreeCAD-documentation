@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainDistance
-   Name/cs:Constraint Length
-   Workbenches:[Sketcher](Sketcher_Workbench/cs.md)
-   MenuLocation:Sketch - Vazby náčrtu - Vazba vzdálenosti
-   Shortcut:Shift + D
-   SeeAlso:[Constrain  horizontal distance](Sketcher_ConstrainDistanceX/cs.md), [Constrain vertical distance](Sketcher_ConstrainDistanceY/cs.md)
+   Name: Sketcher ConstrainDistance
+   Name/cs: Constraint Length
+   Workbenches: [Sketcher](Sketcher_Workbench/cs.md)
+   MenuLocation: Sketch - Vazby náčrtu - Vazba vzdálenosti
+   Shortcut: Shift + D
+   SeeAlso: [Constrain  horizontal distance](Sketcher_ConstrainDistanceX/cs.md), [Constrain vertical distance](Sketcher_ConstrainDistanceY/cs.md)
 ---
 
 # Sketcher ConstrainDistance/cs
@@ -98,4 +98,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistance/cs
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistance/cs

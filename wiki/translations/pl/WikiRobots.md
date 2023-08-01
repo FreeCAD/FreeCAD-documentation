@@ -156,4 +156,4 @@ Zamień ciąg we wszystkich stronach wymienionych w kategorii Arch *(a/k/a )*
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Administration](Category_Administration.md) > [Developer](Category_Developer.md) > WikiRobots/pl
+⏵ [documentation index](../README.md) > [Administration](Category_Administration.md) > [Developer](Category_Developer.md) > WikiRobots/pl

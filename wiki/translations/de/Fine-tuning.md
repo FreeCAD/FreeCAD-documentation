@@ -1,8 +1,4 @@
 # Fine-tuning/de
-{{TOCright}}
-
-
-
 ## Einleitung
 
 Der FreeCAD [Einstellungseditor](Preferences_Editor/de.md) unter dem Menüpunkt **Bearbeitungen → Einstellungen** wird üblicherweise verwendet, um die FreeCAD Parametertabelle festzulegen und zu ändern.
@@ -149,4 +145,4 @@ The label in Sketcher that displays the current status of the constraints (e.g. 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Fine-tuning/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Fine-tuning/de

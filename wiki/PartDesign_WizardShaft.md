@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:PartDesign WizardShaft
-   MenuLocation:Part Design - Shaft design wizard...
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name: PartDesign WizardShaft
+   MenuLocation: Part Design - Shaft design wizard...
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
 ---
 
 # PartDesign WizardShaft
@@ -68,4 +68,4 @@ To add a new shaft segment, right-click into the empty space to the right of the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path DressupDogbone
-   MenuLocation:Path - Path Dressup - Dogbone
-   Workbenches:[Path](Path_Workbench.md)
-   SeeAlso:[Path DressupTag](Path_DressupTag.md), [Path DressupRampEntry](Path_DressupRampEntry.md), [Path DressupDragKnife](Path_DressupDragKnife.md) 
+   Name: Path DressupDogbone
+   MenuLocation: Path - Path Dressup - Dogbone
+   Workbenches: [Path](Path_Workbench.md)
+   SeeAlso: [Path DressupTag](Path_DressupTag.md), [Path DressupRampEntry](Path_DressupRampEntry.md), [Path DressupDragKnife](Path_DressupDragKnife.md) 
 ---
 
 # Path DressupDogbone/pt-br
@@ -39,4 +39,4 @@ The dogbone dressup needs a straight path segment (G1) before and after the corn
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDogbone/pt-br
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDogbone/pt-br

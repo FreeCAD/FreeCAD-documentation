@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveBox
-   Name/pl:Projekt Części: Addytywny prostopadłościan
-   MenuLocation:Projekt Części - Utwórz cechę przez dodanie - Addytywny prostopadłościan
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Komponent bryła pierwotna do dodania](PartDesign_CompPrimitiveAdditive/pl.md), [Subtraktywny prostopadłościan](PartDesign_SubtractiveBox/pl.md)
+   Name: PartDesign AdditiveBox
+   Name/pl: Projekt Części: Addytywny prostopadłościan
+   MenuLocation: Projekt Części - Utwórz cechę przez dodanie - Addytywny prostopadłościan
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Komponent bryła pierwotna do dodania](PartDesign_CompPrimitiveAdditive/pl.md), [Subtraktywny prostopadłościan](PartDesign_SubtractiveBox/pl.md)
 ---
 
 # PartDesign AdditiveBox/pl
@@ -61,4 +61,4 @@ Prostopadłościan można edytować po jego utworzeniu na dwa sposoby:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveBox/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveBox/pl

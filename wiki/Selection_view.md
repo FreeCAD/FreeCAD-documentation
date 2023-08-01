@@ -82,4 +82,4 @@ Starting from v0.19, the **picked object list** checkbox is available. If this i
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Selection view
+⏵ [documentation index](../README.md) > Selection view

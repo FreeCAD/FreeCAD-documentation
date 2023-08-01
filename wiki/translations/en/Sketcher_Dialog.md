@@ -1,6 +1,4 @@
 # Sketcher Dialog/en
-{{TOCright}}
-
 ## Introduction
 
 While a sketch is being edited, or, in other words, while a sketch is in edit mode, the Sketcher Dialog is displayed on the Task tab of the [Combo view](Combo_view.md).
@@ -432,4 +430,4 @@ Available options:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Dialog/en
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Dialog/en

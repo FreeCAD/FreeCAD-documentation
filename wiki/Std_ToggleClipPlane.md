@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std ToggleClipPlane
-   MenuLocation:View - Clipping plane
-   Workbenches:All
-   SeeAlso:[Part SectionCut](Part_SectionCut.md)
+   Name: Std ToggleClipPlane
+   MenuLocation: View - Clipping plane
+   Workbenches: All
+   SeeAlso: [Part SectionCut](Part_SectionCut.md)
 ---
 
 # Std ToggleClipPlane
@@ -46,4 +46,4 @@ The **Std ToggleClipPlane** command temporarily hides objects and parts of objec
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleClipPlane
+⏵ [documentation index](../README.md) > Std ToggleClipPlane

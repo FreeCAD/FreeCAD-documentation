@@ -1493,4 +1493,4 @@ else:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Sheet Metal Unfolder
+⏵ [documentation index](../README.md) > Macro Sheet Metal Unfolder

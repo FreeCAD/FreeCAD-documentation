@@ -1,7 +1,4 @@
 # Tracker/sv
-{{TOCright}}
-
-
 **In February 2022 FreeCAD bug tracking was migrated to [https://github.com/FreeCAD/FreeCAD/issues GitHub Issues]. The Mantis bug tracker described below is now in read-only mode.**
 
 ![](images/Mantis_logo_262x90.png )
@@ -188,4 +185,4 @@ For the inquisitive here is the regex MantisBT uses for this operation:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Tracker/sv
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Tracker/sv

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher Trimming
-   Name/es:Croquizador Recortar
-   MenuLocation:Croquis - Croquizador Geometrías - Recortar borde
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   Version:0.12
-   SeeAlso:[Croquizador Extender borde](Sketcher_Extend/es.md)
+   Name: Sketcher Trimming
+   Name/es: Croquizador Recortar
+   MenuLocation: Croquis - Croquizador Geometrías - Recortar borde
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   Version: 0.12
+   SeeAlso: [Croquizador Extender borde](Sketcher_Extend/es.md)
 ---
 
 # Sketcher Trimming/es
@@ -59,4 +59,4 @@ Esta herramienta recorta un borde hasta el borde más cercano que se superpone.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/es

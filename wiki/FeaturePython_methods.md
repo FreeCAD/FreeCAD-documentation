@@ -65,4 +65,4 @@ Note, getPyObject() and init() are special-cases and don\'t follow the above heu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FeaturePython methods
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FeaturePython methods

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar ColumnReinforcement
-   Name/ru:Arch Rebar ColumnReinforcement
-   MenuLocation:Arch - Rebar tools
-   Workbenches:[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
-   SeeAlso:[Column Reinforcement](Arch_Rebar_ColumnReinforcement/ru.md), [Beam Reinforcement](Arch_Rebar_BeamReinforcement/ru.md)
-   Version:0.19
+   Name: Arch Rebar ColumnReinforcement
+   Name/ru: Arch Rebar ColumnReinforcement
+   MenuLocation: Arch - Rebar tools
+   Workbenches: [Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
+   SeeAlso: [Column Reinforcement](Arch_Rebar_ColumnReinforcement/ru.md), [Beam Reinforcement](Arch_Rebar_BeamReinforcement/ru.md)
+   Version: 0.19
 ---
 
 # Arch Rebar ColumnReinforcement TwoTiesSixRebars/ru
@@ -351,4 +351,4 @@ rebar_group = TwoTiesSixRebars.editTwoTiesSixRebars(
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement TwoTiesSixRebars/ru
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement TwoTiesSixRebars/ru

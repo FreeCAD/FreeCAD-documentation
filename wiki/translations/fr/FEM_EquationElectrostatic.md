@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM EquationElectrostatic
-   Name/fr:FEM Equation électrostatique
-   MenuLocation:Résolution - Équations électromagnétiques - Équation électrostastique
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[FEM Équation de force électrique](FEM_EquationElectricforce/fr.md), [FEM Exemple calcul capacité de deux sphères](FEM_Example_Capacitance_Two_Balls/fr.md)
+   Name: FEM EquationElectrostatic
+   Name/fr: FEM Equation électrostatique
+   MenuLocation: Résolution - Équations électromagnétiques - Équation électrostastique
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Version: 0.19
+   SeeAlso: [FEM Équation de force électrique](FEM_EquationElectricforce/fr.md), [FEM Exemple calcul capacité de deux sphères](FEM_Example_Capacitance_Two_Balls/fr.md)
 ---
 
 # FEM EquationElectrostatic/fr
@@ -87,4 +87,4 @@ Les résultats possibles sont :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElectrostatic/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElectrostatic/fr

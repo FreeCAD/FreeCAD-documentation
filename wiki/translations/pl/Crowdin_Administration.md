@@ -1,6 +1,4 @@
 # Crowdin Administration/pl
-{{TOCright}}
-
 ## Funkcje
 
 -   Tłumacz
@@ -60,4 +58,4 @@ Jeśli zauważysz ciąg znaków w interfejsie użytkownika FreeCAD, który nie j
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration/pl
+⏵ [documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration/pl

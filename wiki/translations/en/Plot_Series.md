@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Plot Series
-   MenuLocation:Plot - Configure series
-‏‎   Workbenches:[Plot](Plot_Workbench.md)
+   Name: Plot Series
+   MenuLocation: Plot - Configure series
+‏‎   Workbenches: [Plot](Plot_Workbench.md)
 ---
 
 # Plot Series/en
@@ -41,4 +41,4 @@ Select the plot tab that you want to edit, and run this tool. Then select the se
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Series/en
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Series/en

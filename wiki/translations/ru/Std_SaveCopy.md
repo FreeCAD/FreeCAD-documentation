@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_SaveCopy
-   Name/ru:Сохранить копию...
-   MenuLocation:Файл - Сохранить копию...
-   Workbenches:Все
-   SeeAlso:[Сохранить](Std_Save/ru.md),<br> [Сохранить как...](Std_SaveAs/ru.md) 
+   Name: Std_SaveCopy
+   Name/ru: Сохранить копию...
+   MenuLocation: Файл - Сохранить копию...
+   Workbenches: Все
+   SeeAlso: [Сохранить](Std_Save/ru.md),<br> [Сохранить как...](Std_SaveAs/ru.md) 
 ---
 
 # Std SaveCopy/ru
@@ -63,4 +63,4 @@ doc.saveCopy(fnm)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SaveCopy/ru
+⏵ [documentation index](../README.md) > Std SaveCopy/ru

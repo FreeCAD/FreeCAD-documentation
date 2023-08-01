@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign_Pocket
-   Name/fr:PartDesign Cavité
-   MenuLocation:Part Design - Créer une fonction soustractive - Cavité
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso:[PartDesign Protrusion](PartDesign_Pad/fr.md)
+   Name: PartDesign_Pocket
+   Name/fr: PartDesign Cavité
+   MenuLocation: Part Design - Créer une fonction soustractive - Cavité
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso: [PartDesign Protrusion](PartDesign_Pad/fr.md)
 ---
 
 # PartDesign Pocket/fr
@@ -148,4 +148,4 @@ Génère la cavité dans le sens opposé de l\'extrusion selon l\'angle donné. 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/fr

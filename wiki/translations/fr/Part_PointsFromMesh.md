@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part PointsFromMesh‎
-   Name/fr:Part Points à partir de maillage
-   MenuLocation:Part - Créer un objet points à partir d'une géométrie
-   Workbenches:[Part](Part_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[Part Forme à partir du maillage](Part_ShapeFromMesh/fr.md), [Part Convertir en solide](Part_MakeSolid/fr.md), [Part Affiner la forme](Part_RefineShape/fr.md)
+   Name: Part PointsFromMesh‎
+   Name/fr: Part Points à partir de maillage
+   MenuLocation: Part - Créer un objet points à partir d'une géométrie
+   Workbenches: [Part](Part_Workbench/fr.md)
+   Version: 0.19
+   SeeAlso: [Part Forme à partir du maillage](Part_ShapeFromMesh/fr.md), [Part Convertir en solide](Part_MakeSolid/fr.md), [Part Affiner la forme](Part_RefineShape/fr.md)
 ---
 
 # Part PointsFromMesh/fr
@@ -29,4 +29,4 @@ La forme résultante est un composé de sommets qui peut être utilisé comme r�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part PointsFromMesh/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part PointsFromMesh/fr

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Module/pt-br
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Module/pt-br

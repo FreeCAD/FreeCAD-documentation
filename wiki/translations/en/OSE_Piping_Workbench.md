@@ -2,7 +2,7 @@
 # Introduction
 
 
-{{TOCright}}
+
 
 OSE Piping Workbench creates pipes and fittings. It is a part of [Open Source Ecology](https://www.opensourceecology.org/) and [Open Source Ecology Germany](https://www.ose-germany.de/). To use all its features install the [Dodo Workbench](Flamingo_Workbench.md).
 
@@ -41,4 +41,4 @@ A sweep elbow is a special elbow with larger radius of the bent part. It is desc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > OSE Piping Workbench/en
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > OSE Piping Workbench/en

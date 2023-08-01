@@ -1,10 +1,10 @@
 # Robot CreateTrajectory/ru
 ---
 - GuiCommand:
-   Name:Robot CreateTrajectory
-   Name/ru:Robot CreateTrajectory
-   Workbenches:[Robot](Robot_Workbench/ru.md)
-   MenuLocation:Робот - Создание траектории---
+   Name: Robot CreateTrajectory
+   Name/ru: Robot CreateTrajectory
+   Workbenches: [Robot](Robot_Workbench/ru.md)
+   MenuLocation: Робот - Создание траектории---
 
 
 </div>
@@ -30,4 +30,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateTrajectory/ru
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateTrajectory/ru

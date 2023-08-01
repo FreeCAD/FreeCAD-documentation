@@ -10,4 +10,4 @@ This category lists pages related to the [Mesh_Workbench/hr](Mesh_Workbench/hr.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Mesh/hr
+⏵ [documentation index](../README.md) > Category:Mesh/hr

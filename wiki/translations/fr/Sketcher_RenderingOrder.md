@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher RenderingOrder
-   Name/fr:Sketcher Ordre de rendu
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Version:0.21
+   Name: Sketcher RenderingOrder
+   Name/fr: Sketcher Ordre de rendu
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Version: 0.21
 ---
 
 # Sketcher RenderingOrder/fr
@@ -38,4 +38,4 @@ Dans le cas d\'objets coïncidents, l\'ordre de rendu détermine quels élément
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RenderingOrder/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RenderingOrder/fr

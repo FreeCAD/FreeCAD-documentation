@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher Create a B-Spline
-   Name/es:Croquizador Crear una B-Spline
-   Icon:Sketcher_CompCreateBSpline.png
-   MenuLocation:Ninguno (sólo barra de herramientas)
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   Version:0.17
+   Name: Sketcher Create a B-Spline
+   Name/es: Croquizador Crear una B-Spline
+   Icon: Sketcher_CompCreateBSpline.png
+   MenuLocation: Ninguno (sólo barra de herramientas)
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   Version: 0.17
 ---
 
 # Sketcher CompCreateBSpline/es
@@ -54,4 +54,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateBSpline/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateBSpline/es

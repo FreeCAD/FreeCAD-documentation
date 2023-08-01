@@ -10,4 +10,4 @@ This category lists pages related to the [Inspection Workbench/fr](Inspection_Wo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Inspection/fr
+⏵ [documentation index](../README.md) > Category:Inspection/fr

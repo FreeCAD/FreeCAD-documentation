@@ -1,6 +1,4 @@
 # Topological data scripting/es
-{{TOCright}}
-
 ## Introducción
 
 Aquí te explicaremos cómo controlar el módulo [Pieza](Part_Workbench/es.md) directamente desde el intérprete de Python de FreeCAD, o desde cualquier guión externo. Asegúrate de navegar por la sección [Guionización](Scripting/es.md) y las páginas [Básicos de Guionización FreeCAD](FreeCAD_Scripting_Basics/es.md) si necesitas más información sobre cómo funciona el guionización de Python en FreeCAD. Si eres nuevo en Python, es una buena idea leer primero la [Introducción a Python](Introduction_to_Python/es.md).
@@ -1562,4 +1560,4 @@ To convert a STEP file to an IGS file:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Topological data scripting/es
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Topological data scripting/es

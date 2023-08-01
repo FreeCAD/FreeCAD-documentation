@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet AlignRight
-   Name/pl:Arkusz Kalkulacyjny: Wyrównaj do prawej
-   MenuLocation:Arkusz kalkulacyjny - Wyrównanie - Wyrównaj do prawej
-   Workbenches:[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
-   Version:0.17
+   Name: Spreadsheet AlignRight
+   Name/pl: Arkusz Kalkulacyjny: Wyrównaj do prawej
+   MenuLocation: Arkusz kalkulacyjny - Wyrównanie - Wyrównaj do prawej
+   Workbenches: [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   Version: 0.17
 ---
 
 # Spreadsheet AlignRight/pl
@@ -30,4 +30,4 @@ Narzędzie **[<img src=images/Spreadsheet_AlignRight.svg style="width:16px"> [Wy
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignRight/pl
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignRight/pl

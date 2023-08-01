@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConnectLines
-   MenuLocation:Sketch - Sketcher tools - Connect edges
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**Z** **J**
-   Version:0.15
-   SeeAlso:[Sketcher ConstrainCoincident](Sketcher_ConstrainCoincident.md)
+   Name: Sketcher ConnectLines
+   MenuLocation: Sketch - Sketcher tools - Connect edges
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **Z** **J**
+   Version: 0.15
+   SeeAlso: [Sketcher ConstrainCoincident](Sketcher_ConstrainCoincident.md)
 ---
 
 # Sketcher ConnectLines/en
@@ -37,4 +37,4 @@ Before using this command make sure that obvious constraints (horizontal, vertic
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConnectLines/en
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConnectLines/en

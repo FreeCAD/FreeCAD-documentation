@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Snap WorkingPlane
-   Name/ru:Draft Snap WorkingPlane
-   MenuLocation:Черчение - [Привязка](Draft_Snap/ru.md) - К рабочей плоскости
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:
+   Name: Draft Snap WorkingPlane
+   Name/ru: Draft Snap WorkingPlane
+   MenuLocation: Черчение - [Привязка](Draft_Snap/ru.md) - К рабочей плоскости
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Draft Snap WorkingPlane/ru
@@ -46,4 +46,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap WorkingPlane/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap WorkingPlane/ru

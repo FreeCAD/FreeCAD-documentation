@@ -1,6 +1,6 @@
 # Sketcher CreateHeptagon/it
 ---
-- GuiCommand:   Name:Sketcher CreateHeptagon   Name/it:Ettagono   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch - Geometrie - Ettagono   Version:0.15   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Sketcher CreateHeptagon   Name/it: Ettagono   Workbenches: [[Sketcher Workbench/it   Sketcher]]|MenuLocation: Sketch - Geometrie - Ettagono   Version: 0.15   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -57,4 +57,4 @@ Quando si edita lo schizzo il cerchio circoscritto è visibile, quando si chiude
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateHeptagon/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateHeptagon/it

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name/sv:Sketcher Arcs
-   Empty:1
-   Workbenches:[Sketcher](Sketcher_Workbench/sv.md)
-   MenuLocation:None (toolbar only)
+   Name/sv: Sketcher Arcs
+   Empty: 1
+   Workbenches: [Sketcher](Sketcher_Workbench/sv.md)
+   MenuLocation: None (toolbar only)
 ---
 
 # Sketcher CompCreateArc/sv
@@ -31,4 +31,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateArc/sv
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateArc/sv

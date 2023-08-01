@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Curves SegmentSurface
-   Name/de:Curves FlächeAufteilen
-   MenuLocation:Surfaces - Segment surface
-   Workbenches:[Curves](Curves_Workbench/de.md)
+   Name: Curves SegmentSurface
+   Name/de: Curves FlächeAufteilen
+   MenuLocation: Surfaces - Segment surface
+   Workbenches: [Curves](Curves_Workbench/de.md)
 ---
 
 # Curves SegmentSurface/de
@@ -38,4 +38,4 @@ Das Werkzeug <img alt="" src=images/Curves_SegmentSurface.svg  style="width:24px
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves SegmentSurface/de
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves SegmentSurface/de

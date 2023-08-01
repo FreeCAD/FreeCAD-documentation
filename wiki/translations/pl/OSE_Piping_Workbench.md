@@ -2,7 +2,7 @@
 # Wprowadzenie
 
 
-{{TOCright}}
+
 
 Środowisko Rurociągi OSE tworzy rury i kształtki. Jest częścią [Open Source Ecology](https://www.opensourceecology.org/) i [Open Source Ecology Germany](https://www.ose-germany.de/). Aby korzystać ze wszystkich jego funkcji, należy zainstalować środowisko pracy [Dodo](Flamingo_Workbench/pl.md).
 
@@ -47,4 +47,4 @@ Kolanko długie to specjalne kolanko o większym promieniu wygiętej części. J
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > OSE Piping Workbench/pl
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > OSE Piping Workbench/pl

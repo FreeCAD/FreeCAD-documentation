@@ -10,4 +10,4 @@ Esta categoría lista páginas que contienen información útil sobre MediaWiki 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Help/es
+⏵ [documentation index](../README.md) > Category:Help/es

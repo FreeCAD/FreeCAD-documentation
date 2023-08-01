@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch RemoveShape
-   Name/de:Arch FormEntfernen
-   Workbenches:[Arch-Arbeitsbereich](Arch_Workbench/de.md)
-   MenuLocation:Architektur - Dienstprogramme - Entferne Form
-   SeeAlso:[Arch NetzAufteilen](Arch_SplitMesh/de.md), [Arch NetzZuForm](Arch_MeshToShape/de.md)
+   Name: Arch RemoveShape
+   Name/de: Arch FormEntfernen
+   Workbenches: [Arch-Arbeitsbereich](Arch_Workbench/de.md)
+   MenuLocation: Architektur - Dienstprogramme - Entferne Form
+   SeeAlso: [Arch NetzAufteilen](Arch_SplitMesh/de.md), [Arch NetzZuForm](Arch_MeshToShape/de.md)
 ---
 
 # Arch RemoveShape/de
@@ -63,4 +63,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch RemoveShape/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch RemoveShape/de

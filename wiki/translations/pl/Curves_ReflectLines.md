@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Curves ReflectLines
-   MenuLocation:Surfaces - Reflect Lines
-   Workbenches:[Curves](Curves_Workbench.md)
+   Name: Curves ReflectLines
+   MenuLocation: Surfaces - Reflect Lines
+   Workbenches: [Curves](Curves_Workbench.md)
 ---
 
 # Curves ReflectLines/pl
@@ -37,4 +37,4 @@ The <img alt="" src=images/Curves_ReflectLines.svg  style="width:24px;"> [Curves
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves ReflectLines/pl
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves ReflectLines/pl

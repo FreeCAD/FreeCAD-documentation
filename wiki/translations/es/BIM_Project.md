@@ -1,9 +1,9 @@
 ---
 - GuiCommand:Addon
-   Name:BIM Project
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
-   Addon:BIM
-   MenuLocation:Manage - Project
+   Name: BIM Project
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
+   Addon: BIM
+   MenuLocation: Manage - Project
 ---
 
 # BIM Project/es
@@ -35,4 +35,4 @@ Alternatively, you can also save the contents of the current document as a templ
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Project/es
+⏵ [documentation index](../README.md) > BIM Project/es

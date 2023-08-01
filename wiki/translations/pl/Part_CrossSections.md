@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part CrossSections
-   Name/pl:Część: Przekrój poprzeczny
-   MenuLocation:Część - Przekrój poprzeczny ...
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Przekrój](Part_Section/pl.md)
+   Name: Part CrossSections
+   Name/pl: Część: Przekrój poprzeczny
+   MenuLocation: Część - Przekrój poprzeczny ...
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: [Przekrój](Part_Section/pl.md)
 ---
 
 # Part CrossSections/pl
@@ -49,4 +49,4 @@ Narzędzie **Przekrój poprzeczny** tworzy jeden lub więcej przekrojów przez w
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/pl

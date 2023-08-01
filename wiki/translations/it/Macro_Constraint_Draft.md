@@ -75,4 +75,4 @@ Il forum [Sketch Feature to create linkage mechanism simulator](https://www.foru
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Constraint Draft/it
+⏵ [documentation index](../README.md) > Macro Constraint Draft/it

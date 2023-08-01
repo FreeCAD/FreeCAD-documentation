@@ -98,4 +98,4 @@ if circular:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro EdgesToArc/pl
+⏵ [documentation index](../README.md) > Macro EdgesToArc/pl

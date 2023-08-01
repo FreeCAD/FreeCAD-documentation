@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Вставить объект верстака Arch
-   Name:TechDraw_ArchView
-   MenuLocation:TechDraw - Вставить объект верстака Arch
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   SeeAlso:[Плоскость Сечения](Arch_SectionPlane/ru.md)
+   Name/ru: Вставить объект верстака Arch
+   Name: TechDraw_ArchView
+   MenuLocation: TechDraw - Вставить объект верстака Arch
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   SeeAlso: [Плоскость Сечения](Arch_SectionPlane/ru.md)
 ---
 
 # TechDraw ArchView/ru
@@ -121,4 +121,4 @@ rc = page.addView(dv)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ArchView/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ArchView/ru

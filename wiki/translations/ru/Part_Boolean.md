@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Boolean
-   Name/ru:Part Boolean
-   MenuLocation:Деталь - Булевы операции
-   Workbenches:[Part](Part_Workbench/ru.md)
-   SeeAlso:[Объединение](Part_Union/ru.md), [Пересечение](Part_Common/ru.md), [Обрезать](Part_Cut/ru.md) и [Part Section](Part_Section/ru.md)
+   Name: Part Boolean
+   Name/ru: Part Boolean
+   MenuLocation: Деталь - Булевы операции
+   Workbenches: [Part](Part_Workbench/ru.md)
+   SeeAlso: [Объединение](Part_Union/ru.md), [Пересечение](Part_Common/ru.md), [Обрезать](Part_Cut/ru.md) и [Part Section](Part_Section/ru.md)
 ---
 
 # Part Boolean/ru
@@ -86,4 +86,4 @@ In cases of coplanarity, even if the first boolean operation succeeds, subsequen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Boolean/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Boolean/ru

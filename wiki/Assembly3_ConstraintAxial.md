@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintAxial
-   Icon:Assembly_ConstraintAxial.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintAxial
+   Icon: Assembly_ConstraintAxial.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintAxial
@@ -45,4 +45,4 @@ In real life we cannot handle axes and so cylindrical faces are used to represen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintAxial
+⏵ [documentation index](../README.md) > Assembly3 ConstraintAxial

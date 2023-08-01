@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Четверная буферизация стерео
-   Name:Std_ViewIvStereoQuadBuff
-   MenuLocation:Вид - Стерео - Четверная буферизация стерео
-   Workbenches:Все
-   SeeAlso:[Стерео красный/голубой](Std_ViewIvStereoRedGreen/ru.md), [Стерео с чередованием строк](Std_ViewIvStereoInterleavedRows/ru.md), [Стерео с чередованием столбцов](Std_ViewIvStereoInterleavedColumns/ru.md), [Выключить стерео](Std_ViewIvStereoOff/ru.md)
+   Name/ru: Четверная буферизация стерео
+   Name: Std_ViewIvStereoQuadBuff
+   MenuLocation: Вид - Стерео - Четверная буферизация стерео
+   Workbenches: Все
+   SeeAlso: [Стерео красный/голубой](Std_ViewIvStereoRedGreen/ru.md), [Стерео с чередованием строк](Std_ViewIvStereoInterleavedRows/ru.md), [Стерео с чередованием столбцов](Std_ViewIvStereoInterleavedColumns/ru.md), [Выключить стерео](Std_ViewIvStereoOff/ru.md)
 ---
 
 # Std ViewIvStereoQuadBuff/ru
@@ -57,4 +57,4 @@ FreeCADGui.ActiveDocument.ActiveView.getStereoType()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewIvStereoQuadBuff/ru
+⏵ [documentation index](../README.md) > Std ViewIvStereoQuadBuff/ru

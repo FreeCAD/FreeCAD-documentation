@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Импорт ссылок
-   Name:Std_LinkImport
-   MenuLocation:Нет
-   Workbenches:Все
-   Version:0.19
-   SeeAlso:[Создать ссылку](Std_LinkMake/ru.md), [Ссылка](Std_LinkMakeRelative/ru.md), [Импорт всех ссылок](Std_LinkImportAll/ru.md)
+   Name/ru: Импорт ссылок
+   Name: Std_LinkImport
+   MenuLocation: Нет
+   Workbenches: Все
+   Version: 0.19
+   SeeAlso: [Создать ссылку](Std_LinkMake/ru.md), [Ссылка](Std_LinkMakeRelative/ru.md), [Импорт всех ссылок](Std_LinkImportAll/ru.md)
 ---
 
 # Std LinkImport/ru
@@ -50,4 +50,4 @@ A copy of the original **[<img src=images/Std_Part.svg style="width:16px"> [Std 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkImport/ru
+⏵ [documentation index](../README.md) > Std LinkImport/ru

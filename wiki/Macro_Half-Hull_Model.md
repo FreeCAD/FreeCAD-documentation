@@ -933,4 +933,4 @@ The script is too long for the Wiki to display so it must be copied or downloade
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Half-Hull Model
+⏵ [documentation index](../README.md) > Macro Half-Hull Model

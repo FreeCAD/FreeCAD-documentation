@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Apply
-   Name/ru:Применить текущий стиль
-   MenuLocation:Черчение -> Утилиты -> Применить текущий стиль
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Name: Draft Apply
+   Name/ru: Применить текущий стиль
+   MenuLocation: Черчение -> Утилиты -> Применить текущий стиль
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
 ---
 
 # Draft ApplyStyle/ru
@@ -62,4 +62,4 @@ This command currently handles only five of the settings the [Draft SetStyle](Dr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/ru

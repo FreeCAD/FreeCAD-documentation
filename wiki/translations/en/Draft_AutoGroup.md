@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft AutoGroup
-   Empty:1
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Version:0.17
-   SeeAlso:[Draft Layer](Draft_Layer.md), [Std Group](Std_Group.md)
+   Name: Draft AutoGroup
+   Empty: 1
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Version: 0.17
+   SeeAlso: [Draft Layer](Draft_Layer.md), [Std Group](Std_Group.md)
 ---
 
 # Draft AutoGroup/en
@@ -74,4 +74,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AutoGroup/en
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AutoGroup/en

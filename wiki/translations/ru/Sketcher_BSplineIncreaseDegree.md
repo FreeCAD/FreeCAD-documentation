@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Увеличить степень B-сплайна
-   Name:Sketcher_BSplineIncreaseDegree
-   MenuLocation:Sketch - B-сплйан инструменты эскиза - Увеличить степень B-сплайна
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Показать/скрыть степень B-сплайна](Sketcher_BSplineDegree/ru.md), [Уменьшить степень B-сплайна](Sketcher_BSplineDecreaseDegree/ru.md)
+   Name/ru: Увеличить степень B-сплайна
+   Name: Sketcher_BSplineIncreaseDegree
+   MenuLocation: Sketch - B-сплйан инструменты эскиза - Увеличить степень B-сплайна
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Показать/скрыть степень B-сплайна](Sketcher_BSplineDegree/ru.md), [Уменьшить степень B-сплайна](Sketcher_BSplineDecreaseDegree/ru.md)
 ---
 
 # Sketcher BSplineIncreaseDegree/ru
@@ -60,4 +60,4 @@ You can see that now each segment has 2 control points and the knots are coincid
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineIncreaseDegree/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineIncreaseDegree/ru

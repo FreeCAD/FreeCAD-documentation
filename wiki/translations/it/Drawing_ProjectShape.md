@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Drawing_ProjectShape
-   Name/it:Proietta le forme
-   Empty:1
-   Workbenches:[Drawing](Drawing_Workbench/it.md)
-   MenuLocation:Drawing - Proietta le forme
+   Name: Drawing_ProjectShape
+   Name/it: Proietta le forme
+   Empty: 1
+   Workbenches: [Drawing](Drawing_Workbench/it.md)
+   MenuLocation: Drawing - Proietta le forme
 ---
 
 # Drawing ProjectShape/it
@@ -117,4 +117,4 @@ Questo strumento crea una proiezione dell\'oggetto selezionato, l\'oggetto sorge
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing ProjectShape/it
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing ProjectShape/it

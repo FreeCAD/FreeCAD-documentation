@@ -123,4 +123,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Shear of a Composite Block/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Shear of a Composite Block/ru

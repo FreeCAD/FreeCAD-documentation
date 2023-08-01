@@ -2,7 +2,7 @@
 Jest to obszerna, ale nie kompletna lista funkcji, realizowanych przez program FreeCAD.
 
 
-{{TOCright}}
+
 
 
 
@@ -98,4 +98,4 @@ Power użytkownicy stworzyli różne niestandardowe [zewnętrzne środowiska pra
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/pl
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/pl

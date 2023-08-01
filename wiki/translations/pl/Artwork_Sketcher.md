@@ -54,4 +54,4 @@ W przeszłości ikony `.xpm` były używane jako nakładki podczas wyświetlania
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Sketcher](Category_Sketcher.md) > Artwork Sketcher/pl
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Sketcher](Category_Sketcher.md) > Artwork Sketcher/pl

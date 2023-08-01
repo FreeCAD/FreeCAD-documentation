@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch RemoveShape
-   Name/fr:Arch Supprimer la forme
-   MenuLocation:Arch - Utilitaires - Supprimer la forme
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Arch Séparer un objet Mesh](Arch_SplitMesh/fr.md), [Arch Maillage vers une forme](Arch_MeshToShape/fr.md)
+   Name: Arch RemoveShape
+   Name/fr: Arch Supprimer la forme
+   MenuLocation: Arch - Utilitaires - Supprimer la forme
+   Workbenches: [Arch](Arch_Workbench/fr.md)
+   SeeAlso: [Arch Séparer un objet Mesh](Arch_SplitMesh/fr.md), [Arch Maillage vers une forme](Arch_MeshToShape/fr.md)
 ---
 
 # Arch RemoveShape/fr
@@ -61,4 +61,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch RemoveShape/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch RemoveShape/fr

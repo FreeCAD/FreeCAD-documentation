@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Design456 2D Extend line/Wire
-   Empty:1
-   MenuLocation:Design456_2Ddrawing - Extend Line
-   Workbenches:[Design456](Design456_Workbench.md)
-   Shortcut:None
-   SeeAlso:
+   Name: Design456 2D Extend line/Wire
+   Empty: 1
+   MenuLocation: Design456_2Ddrawing - Extend Line
+   Workbenches: [Design456](Design456_Workbench.md)
+   Shortcut: None
+   SeeAlso: 
 ---
 
 # Design456 2DExtend
@@ -41,4 +41,4 @@ At the moment, the command extend only at the end. This must be improved to do l
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 2DExtend
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 2DExtend

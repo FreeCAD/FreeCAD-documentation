@@ -67,4 +67,4 @@ La structure générale du manuel est la suivante :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher reference/fr
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher reference/fr

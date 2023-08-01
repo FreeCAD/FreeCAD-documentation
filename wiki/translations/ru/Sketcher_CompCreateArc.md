@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher_CreateArc
-   Name/ru:Создать дугу
-   Icon:Sketcher_CompCreateArc.png
-   MenuLocation:Нет (только на панели инструментов)
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
+   Name: Sketcher_CreateArc
+   Name/ru: Создать дугу
+   Icon: Sketcher_CompCreateArc.png
+   MenuLocation: Нет (только на панели инструментов)
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
 ---
 
 # Sketcher CompCreateArc/ru
@@ -36,4 +36,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateArc/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateArc/ru

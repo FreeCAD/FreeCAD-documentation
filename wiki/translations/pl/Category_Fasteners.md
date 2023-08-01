@@ -13,4 +13,4 @@ Ta strona gromadzi strony dokumentacji dla środowiska pracy [Elementy złączne
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > Category:Fasteners/pl
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > Category:Fasteners/pl

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw Annotation
-   Name/de:TechDraw Beschriftung
-   MenuLocation:TechDraw - Anmerkungen - Anmerkung einfügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso:[Draft Text](Draft_Text/de.md), [Draft Textform](Draft_ShapeString/de.md)
+   Name: TechDraw Annotation
+   Name/de: TechDraw Beschriftung
+   MenuLocation: TechDraw - Anmerkungen - Anmerkung einfügen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   SeeAlso: [Draft Text](Draft_Text/de.md), [Draft Textform](Draft_ShapeString/de.md)
 ---
 
 # TechDraw Annotation/de
@@ -110,4 +110,4 @@ rc = page.addView(anno)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Annotation/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Annotation/de

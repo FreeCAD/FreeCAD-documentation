@@ -4,7 +4,7 @@
 <img alt="Icona dell\'ambiente aggiuntivo BIM" src=images/IFC.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 
 
@@ -300,4 +300,4 @@ Sono in fase di sviluppo ulteriori nuovi ambienti.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [BIM](Category_BIM.md) > BIM Workbench/it
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [BIM](Category_BIM.md) > BIM Workbench/it

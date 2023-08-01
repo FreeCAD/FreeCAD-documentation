@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditivePipe
-   Name/ro:PartDesign AdditivePipe
-   Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation:PartDesign - Additive pipe
-   Version:0.17
-   SeeAlso:[PartDesign Additive Loft](PartDesign_AdditiveLoft/ro.md)
+   Name: PartDesign AdditivePipe
+   Name/ro: PartDesign AdditivePipe
+   Workbenches: [PartDesign](PartDesign_Workbench/ro.md)
+   MenuLocation: PartDesign - Additive pipe
+   Version: 0.17
+   SeeAlso: [PartDesign Additive Loft](PartDesign_AdditiveLoft/ro.md)
 ---
 
 # PartDesign AdditivePipe/ro
@@ -116,4 +116,4 @@ To use more than one cross-section, start with the first cross-section sketch as
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePipe/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePipe/ro

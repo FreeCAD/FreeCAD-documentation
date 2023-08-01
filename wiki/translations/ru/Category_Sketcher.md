@@ -52,4 +52,4 @@ This category includes FreeCAD pages related to Sketcher
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Sketcher/ru
+⏵ [documentation index](../README.md) > Category:Sketcher/ru

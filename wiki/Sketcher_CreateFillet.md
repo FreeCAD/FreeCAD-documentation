@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateFillet
-   MenuLocation:Sketch - Sketcher geometries - Create fillet
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**G** **F** **F**
-   SeeAlso:[Sketcher CreatePointFillet](Sketcher_CreatePointFillet.md)
+   Name: Sketcher CreateFillet
+   MenuLocation: Sketch - Sketcher geometries - Create fillet
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **G** **F** **F**
+   SeeAlso: [Sketcher CreatePointFillet](Sketcher_CreatePointFillet.md)
 ---
 
 # Sketcher CreateFillet
@@ -32,4 +32,4 @@ When starting the tool, selections are cleared and the mouse pointer changes to 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet

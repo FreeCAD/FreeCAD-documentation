@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std SelBoundingBox
-   Name/pl:Std: Ramka otaczająca
-   MenuLocation:Widok - Ramka otaczająca
-   Workbenches:wszystkie
-   Version:0.19
-   SeeAlso:[Styl kreślenia](Std_DrawStyle/pl.md)
+   Name: Std SelBoundingBox
+   Name/pl: Std: Ramka otaczająca
+   MenuLocation: Widok - Ramka otaczająca
+   Workbenches: wszystkie
+   Version: 0.19
+   SeeAlso: [Styl kreślenia](Std_DrawStyle/pl.md)
 ---
 
 # Std SelBoundingBox/pl
@@ -65,4 +65,4 @@ FreeCADGui.updateCommands()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SelBoundingBox/pl
+⏵ [documentation index](../README.md) > Std SelBoundingBox/pl

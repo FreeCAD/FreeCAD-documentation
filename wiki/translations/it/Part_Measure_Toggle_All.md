@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Measure Toggle All
-   Name/it:Attiva/Disattiva tutto
-   MenuLocation:[Misure](Std_Measure_Menu/it.md) - Attiva/Disattiva tutto‏‎
-   Workbenches:[Part](Part_Workbench/it.md)
+   Name: Part Measure Toggle All
+   Name/it: Attiva/Disattiva tutto
+   MenuLocation: [Misure](Std_Measure_Menu/it.md) - Attiva/Disattiva tutto‏‎
+   Workbenches: [Part](Part_Workbench/it.md)
 ---
 
 # Part Measure Toggle All/it
@@ -47,4 +47,4 @@ Questo strumento attiva o disattiva la visibilità di tutte le misurazioni nella
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle All/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle All/it

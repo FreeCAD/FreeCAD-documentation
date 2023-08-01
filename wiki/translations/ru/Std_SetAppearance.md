@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std SetAppearance
-   Name/ru:Внешний вид
-   MenuLocation:Вид - Внешний вид...
-   Workbenches:All
-   Shortcut:**Ctrl**+**D**
-   SeeAlso:[Part FaceColors](Part_FaceColors/ru.md)
+   Name: Std SetAppearance
+   Name/ru: Внешний вид
+   MenuLocation: Вид - Внешний вид...
+   Workbenches: All
+   Shortcut: **Ctrl**+**D**
+   SeeAlso: [Part FaceColors](Part_FaceColors/ru.md)
 ---
 
 # Std SetAppearance/ru
@@ -65,4 +65,4 @@ The **Std SetAppearance** command shows the Display properties [task panel](Task
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SetAppearance/ru
+⏵ [documentation index](../README.md) > Std SetAppearance/ru

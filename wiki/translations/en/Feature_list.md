@@ -2,7 +2,7 @@
 This is an extensive, but not complete, list of features which FreeCAD implements.
 
 
-{{TOCright}}
+
 
 ## Release notes 
 
@@ -90,4 +90,4 @@ Power users have created various custom [external workbenches](External_workbenc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/en
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/en

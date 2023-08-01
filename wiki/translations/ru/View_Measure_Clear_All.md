@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:View Measure Clear All
-   Name/ru:View Measure Clear All
-   MenuLocation:Вид - Видимость - Удалить замер
-   Workbenches:All
-   SeeAlso:[View Measure Toggle All](View_Measure_Toggle_All/ru.md), [Part Measure Toggle All](Part_Measure_Toggle_All/ru.md), [Part Measure Clear All](Part_Measure_Clear_All/ru.md)
+   Name: View Measure Clear All
+   Name/ru: View Measure Clear All
+   MenuLocation: Вид - Видимость - Удалить замер
+   Workbenches: All
+   SeeAlso: [View Measure Toggle All](View_Measure_Toggle_All/ru.md), [Part Measure Toggle All](Part_Measure_Toggle_All/ru.md), [Part Measure Clear All](Part_Measure_Clear_All/ru.md)
 ---
 
 # View Measure Clear All/ru
@@ -34,4 +34,4 @@ The **View Measure Clear All** command clears the active [3D view](3D_view.md)\'
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > View Measure Clear All/ru
+⏵ [documentation index](../README.md) > View Measure Clear All/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part JoinCutout
-   MenuLocation:Part - Join - Cutout for Object
-   Workbenches:[Part](Part_Workbench.md)
-   Version:0.16
-   SeeAlso:[Part JoinConnect](Part_JoinConnect.md), [Part JoinEmbed](Part_JoinEmbed.md), [Part Boolean](Part_Boolean.md), [Part Thickness](Part_Thickness.md)
+   Name: Part JoinCutout
+   MenuLocation: Part - Join - Cutout for Object
+   Workbenches: [Part](Part_Workbench.md)
+   Version: 0.16
+   SeeAlso: [Part JoinConnect](Part_JoinConnect.md), [Part JoinEmbed](Part_JoinEmbed.md), [Part Boolean](Part_Boolean.md), [Part Thickness](Part_Thickness.md)
 ---
 
 # Part JoinCutout/ro
@@ -162,4 +162,4 @@ Instrumentul propriu-zis este implementat în Python, vezi /Mod/Part/JoinFeature
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinCutout/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinCutout/ro

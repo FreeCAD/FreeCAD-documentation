@@ -1,7 +1,4 @@
 # Tracker/fr
-{{TOCright}}
-
-
 **En février 2022, le suivi des bogues de FreeCAD a été transféré sur [https://github.com/FreeCAD/FreeCAD/issues GitHub Issues]. Le système de suivi des bogues Mantis décrit ci-dessous est maintenant en mode lecture seule.**
 
 ![](images/Mantis_logo_262x90.png )
@@ -176,4 +173,4 @@ Pour les curieux, voici le regex que MantisBT utilise pour cette opération:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Tracker/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Tracker/fr

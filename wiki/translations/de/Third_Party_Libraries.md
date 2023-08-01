@@ -1,6 +1,4 @@
 # Third Party Libraries/de
-{{TOCright}}
-
 ## Übersicht
 
 Dies sind Bibliotheken, die FreeCAD als Abhängigkeiten von Dritten während der Kompilierung verwendet. Sie sind normalerweise [dynamisch gelinkte Bibliotheken](https://en.wikipedia.org/wiki/Dynamic_loading) und haben eine Erweiterung `.so` in Linux/MacOS und `.dll` in Windows, und werden von ihren Kopfdateien `.h` oder`.hpp` oder ähnlichem begleitet. Wenn eine modifizierte Bibliothek oder eine Hülle erforderlich ist, muss der Code der modifizierten Bibliothek oder der Hülle Teil des FreeCAD Quellcodes werden und zusammen mit diesem kompiliert werden.
@@ -276,4 +274,4 @@ Siehe die Ankündigung im Forum: [Neue Libpacks für Windows mit Qt5.12, OCC7.3 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Libraries/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Libraries/de

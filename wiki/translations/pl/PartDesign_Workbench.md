@@ -1,7 +1,7 @@
 # <img alt="Ikonka FreeCAD dla środowiska pracy Projekt Części" src=images/Workbench_PartDesign.svg  style="width:64px;"> PartDesign Workbench/pl
 
 
-{{TOCright}}
+
 
 
 
@@ -242,4 +242,4 @@ Aby uzyskać kilka pomysłów na to, co można osiągnąć za pomocą narzędzi 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/pl
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/pl

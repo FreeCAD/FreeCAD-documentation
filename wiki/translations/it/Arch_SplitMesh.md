@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch SplitMesh
-   Name/it:Dividi mesh
-   Workbenches:[Architetttura](Arch_Workbench/it.md)
-   MenuLocation:Arch - Utilità - Dividi Mesh
-   SeeAlso:[Seleziona mesh non solidi](Arch_SelectNonSolidMeshes/it.md), [Da Mesh a Forma](Arch_MeshToShape/it.md)
+   Name: Arch SplitMesh
+   Name/it: Dividi mesh
+   Workbenches: [Architetttura](Arch_Workbench/it.md)
+   MenuLocation: Arch - Utilità - Dividi Mesh
+   SeeAlso: [Seleziona mesh non solidi](Arch_SelectNonSolidMeshes/it.md), [Da Mesh a Forma](Arch_MeshToShape/it.md)
 ---
 
 # Arch SplitMesh/it
@@ -105,4 +105,4 @@ new_list = Arch.splitMesh(mesh_obj)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/it

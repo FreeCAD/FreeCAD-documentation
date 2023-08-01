@@ -94,4 +94,4 @@ Es gibt nur einen Reiter: *Startseiten Einstellungen* im Abschnitt **Start**. Au
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Start](Start_Workbench.md) > Start Preferences/de
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Start](Start_Workbench.md) > Start Preferences/de

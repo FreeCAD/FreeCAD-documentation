@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Curves MultiLoft
-   MenuLocation:Surfaces - MultiLoft
-   Workbenches:[Curves](Curves_Workbench.md)
+   Name: Curves MultiLoft
+   MenuLocation: Surfaces - MultiLoft
+   Workbenches: [Curves](Curves_Workbench.md)
 ---
 
 # Curves MultiLoft/en
@@ -37,4 +37,4 @@ The <img alt="" src=images/Curves_MultiLoft.svg  style="width:24px;"> [Curves Mu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves MultiLoft/en
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves MultiLoft/en

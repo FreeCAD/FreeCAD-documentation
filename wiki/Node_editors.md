@@ -1,6 +1,4 @@
 # Node editors
-{{TOCright}}
-
 ## Background
 
 This page is dedicated to tracking different node-editor paradigms related, in some fashion, to FreeCAD.
@@ -36,4 +34,4 @@ The following is a list of node editors that can or potentially can work in Free
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Node editors
+⏵ [documentation index](../README.md) > Node editors

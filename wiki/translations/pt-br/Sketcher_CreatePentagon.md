@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreatePentagon
-   MenuLocation:Sketch - Sketcher geometries - Create pentagon
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**G** **P** **5**
-   Version:0.15
+   Name: Sketcher CreatePentagon
+   MenuLocation: Sketch - Sketcher geometries - Create pentagon
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **G** **P** **5**
+   Version: 0.15
 ---
 
 # Sketcher CreatePentagon/pt-br
@@ -35,4 +35,4 @@ The circumscribed circle is construction geometry, which is only visible when ed
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePentagon/pt-br
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePentagon/pt-br

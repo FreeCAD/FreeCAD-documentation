@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:WebTools Sketchfab
-   Name/fr:WebTools Sketchfab
-   MenuLocation:Web Tools - Sketchfab
+   Name: WebTools Sketchfab
+   Name/fr: WebTools Sketchfab
+   MenuLocation: Web Tools - Sketchfab
 |
-   Workbenches:[WebTools](WebTools_Workbench/fr.md)
-   Shortcut:
-   SeeAlso:
+   Workbenches: [WebTools](WebTools_Workbench/fr.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # WebTools Sketchfab/fr
@@ -37,4 +37,4 @@ Cet outil permet l\'exportation et le téléchargement d\'objets vers votre comp
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > WebTools Sketchfab/fr
+⏵ [documentation index](../README.md) > WebTools Sketchfab/fr

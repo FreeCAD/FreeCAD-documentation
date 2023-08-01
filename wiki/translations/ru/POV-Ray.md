@@ -101,4 +101,4 @@ Then, before trying to render something, start POV-Ray separately and [set I/O r
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > POV-Ray/ru
+⏵ [documentation index](../README.md) > POV-Ray/ru

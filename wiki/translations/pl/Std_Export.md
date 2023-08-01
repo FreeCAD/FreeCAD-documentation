@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Export
-   Name/pl:Std: Eksportuj
-   MenuLocation:Plik - Eksportuj...
-   Workbenches:wszystkie
-   Shortcut:**Ctrl** + **E**
-   SeeAlso:[Eksportuj do PDF](Std_PrintPdf/pl.md), [Import Eksport](Import_Export/pl.md), [Ustawienia dla Importu i Eksportu](Import_Export_Preferences/pl.md)
+   Name: Std Export
+   Name/pl: Std: Eksportuj
+   MenuLocation: Plik - Eksportuj...
+   Workbenches: wszystkie
+   Shortcut: **Ctrl** + **E**
+   SeeAlso: [Eksportuj do PDF](Std_PrintPdf/pl.md), [Import Eksport](Import_Export/pl.md), [Ustawienia dla Importu i Eksportu](Import_Export_Preferences/pl.md)
 ---
 
 # Std Export/pl
@@ -55,4 +55,4 @@ Polecenie **Exportuj** eksportuje wybrane obiekty do innego formatu pliku. Obsł
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export/pl
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export/pl

@@ -1,7 +1,7 @@
 # <img alt="Ikonka FreeCAD dla środowiska pracy Piramidy i wielościany" src=images/Pyramids-and-Polyhedrons_workbench_icon.svg  style="width:64px;"> Pyramids and polyhedrons Workbench/pl
 
 
-{{TOCright}}
+
 
 
 
@@ -54,4 +54,4 @@ Prosimy o przesyłanie opinii, pomysłów i przemyśleń na temat tego środowis
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Pyramids and polyhedrons Workbench/pl
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Pyramids and polyhedrons Workbench/pl

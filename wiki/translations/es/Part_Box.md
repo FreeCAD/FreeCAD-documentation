@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Box
-   Name/es:Part Cubo
-   MenuLocation:Pieza - Primitivas - Cubo
-   Workbenches:[Part](Part_Workbench/es.md)
-   SeeAlso:[Part Crear primitivas](Part_Primitives/es.md)
+   Name: Part Box
+   Name/es: Part Cubo
+   MenuLocation: Pieza - Primitivas - Cubo
+   Workbenches: [Part](Part_Workbench/es.md)
+   SeeAlso: [Part Crear primitivas](Part_Primitives/es.md)
 ---
 
 # Part Box/es
@@ -139,4 +139,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Box/es
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Box/es

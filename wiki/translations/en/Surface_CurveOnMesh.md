@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Surface CurveOnMesh
-   MenuLocation:Surface - Curve on mesh
-   Workbenches:[Surface](Surface_Workbench.md)|
-   Version:0.17
+   Name: Surface CurveOnMesh
+   MenuLocation: Surface - Curve on mesh
+   Workbenches: [Surface](Surface_Workbench.md)|
+   Version: 0.17
 ---
 
 # Surface CurveOnMesh/en
@@ -97,4 +97,4 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface CurveOnMesh/en
+⏵ [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface CurveOnMesh/en

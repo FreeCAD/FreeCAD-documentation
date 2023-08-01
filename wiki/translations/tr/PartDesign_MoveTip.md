@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign MoveTip
-   MenuLocation:Context menu - Set tip
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   Version:0.17
-   SeeAlso:[PartDesign Move object to other body](PartDesign_MoveFeature.md), [PartDesign Move object after other object](PartDesign_MoveFeatureInTree.md)
+   Name: PartDesign MoveTip
+   MenuLocation: Context menu - Set tip
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Move object to other body](PartDesign_MoveFeature.md), [PartDesign Move object after other object](PartDesign_MoveFeatureInTree.md)
 ---
 
 # PartDesign MoveTip/tr
@@ -36,4 +36,4 @@ The tip is visually distinguished in the Model tree by a small white down arrow 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveTip/tr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveTip/tr

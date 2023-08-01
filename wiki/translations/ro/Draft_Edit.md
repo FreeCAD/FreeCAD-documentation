@@ -1,6 +1,6 @@
 # Draft Edit/ro
 ---
-- GuiCommand:   Name:Draft Edit   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft - Edit---
+- GuiCommand:   Name: Draft Edit   Workbenches: [Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation: Draft - Edit---
 
 
 </div>
@@ -206,4 +206,4 @@ Nu e disponibil. Fiecare obiect de mai sus poate fi modificat prin schimbarea pr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/ro

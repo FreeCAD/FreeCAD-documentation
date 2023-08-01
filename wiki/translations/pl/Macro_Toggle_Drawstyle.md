@@ -130,4 +130,4 @@ The forum discussion [Keyboard shortcut, View toolbar - Wireframe](https://forum
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Toggle Drawstyle/pl
+⏵ [documentation index](../README.md) > Macro Toggle Drawstyle/pl

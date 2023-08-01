@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainTangent
-   Name/fr:Sketcher Contrainte tangente
-   MenuLocation:Esquisse - Contraintes d'esquisse - Contrainte tangente
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**T**
-   SeeAlso:[Sketcher Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md)
+   Name: Sketcher ConstrainTangent
+   Name/fr: Sketcher Contrainte tangente
+   MenuLocation: Esquisse - Contraintes d'esquisse - Contrainte tangente
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **T**
+   SeeAlso: [Sketcher Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md)
 ---
 
 # Sketcher ConstrainTangent/fr
@@ -136,4 +136,4 @@ La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui pe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainTangent/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainTangent/fr

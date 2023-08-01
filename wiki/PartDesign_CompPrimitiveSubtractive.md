@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign CompPrimitiveSubtractive
-   MenuLocation:Part Design - Create a subtractive primitive
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md)
+   Name: PartDesign CompPrimitiveSubtractive
+   MenuLocation: Part Design - Create a subtractive primitive
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   Version: 0.17
+   SeeAlso: [PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md)
 ---
 
 # PartDesign CompPrimitiveSubtractive
@@ -32,4 +32,4 @@ Creates a subtractive primitive in the active Body, subtracting its shape from t
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveSubtractive
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveSubtractive

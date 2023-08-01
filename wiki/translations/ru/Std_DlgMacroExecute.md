@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Макрос
-   Name:Std_DlgMacroExecute
-   MenuLocation:Макрос - Макросs...
-   Workbenches:Все
-   SeeAlso:[Выполнить макрос](Std_DlgMacroExecuteDirect/ru.md)
+   Name/ru: Макрос
+   Name: Std_DlgMacroExecute
+   MenuLocation: Макрос - Макросs...
+   Workbenches: Все
+   SeeAlso: [Выполнить макрос](Std_DlgMacroExecuteDirect/ru.md)
 ---
 
 # Std DlgMacroExecute/ru
@@ -148,4 +148,4 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgMacroExecute/ru
+⏵ [documentation index](../README.md) > Std DlgMacroExecute/ru

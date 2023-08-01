@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ViewFitAll
-   Name/pl:Std: Dopasuj wszystko
-   MenuLocation:Widok - Widoki standardowe - Dopasuj wszystko
-   Workbenches:wszystkie
-   Shortcut:**V** - **F**
-   SeeAlso:[Widok dopasowany do wyboru](Std_ViewFitSelection/pl.md)
+   Name: Std ViewFitAll
+   Name/pl: Std: Dopasuj wszystko
+   MenuLocation: Widok - Widoki standardowe - Dopasuj wszystko
+   Workbenches: wszystkie
+   Shortcut: **V** - **F**
+   SeeAlso: [Widok dopasowany do wyboru](Std_ViewFitSelection/pl.md)
 ---
 
 # Std ViewFitAll/pl
@@ -66,4 +66,4 @@ FreeCADGui.SendMsgToActiveView('ViewFit')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewFitAll/pl
+⏵ [documentation index](../README.md) > Std ViewFitAll/pl

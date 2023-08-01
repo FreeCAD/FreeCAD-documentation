@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Drawing Annotation
-   Name/ru:Drawing Annotation
-   Workbenches:[Drawing](Drawing_Workbench/ru.md), Complete
-   MenuLocation:Чертёж - Аннотация
-   Shortcut:
+   Name: Drawing Annotation
+   Name/ru: Drawing Annotation
+   Workbenches: [Drawing](Drawing_Workbench/ru.md), Complete
+   MenuLocation: Чертёж - Аннотация
+   Shortcut: 
 ---
 
 # Drawing Annotation/ru
@@ -56,4 +56,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Annotation/ru
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Annotation/ru

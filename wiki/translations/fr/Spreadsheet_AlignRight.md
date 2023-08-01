@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet AlignRight
-   Name/fr:Spreadsheet Alignement à droite
-   MenuLocation:Spreadsheet - Alignement - Alignement à droite
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/fr.md)
-   Version:0.17
+   Name: Spreadsheet AlignRight
+   Name/fr: Spreadsheet Alignement à droite
+   MenuLocation: Spreadsheet - Alignement - Alignement à droite
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/fr.md)
+   Version: 0.17
 ---
 
 # Spreadsheet AlignRight/fr
@@ -30,4 +30,4 @@ L\'outil **[<img src=images/Spreadsheet_AlignRight.svg style="width:16px"> [Spre
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignRight/fr
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignRight/fr

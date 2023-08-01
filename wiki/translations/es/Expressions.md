@@ -1,8 +1,4 @@
 # Expressions/es
-{{TOCright}}
-
-
-
 ## Resumen
 
 Es posible definir propiedades utilizando expresiones matemáticas. En la interfaz gráfica de usuario, los cuadros de giro o campos de entrada que están vinculados a las propiedades contienen un icono azul <img alt="" src=images/Bound-expression.svg  style="width:24px;">. Haciendo clic en el icono o escribiendo el signo igual **&#61;** aparece el editor de expresiones para esa propiedad en particular.
@@ -909,4 +905,4 @@ Of course, it\'s up to you to load the corresponding documents later when you wa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Expressions/es
+⏵ [documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Expressions/es

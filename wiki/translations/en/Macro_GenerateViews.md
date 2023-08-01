@@ -180,4 +180,4 @@ The forum discussion [New Macros: GenerateViews and GenerateDrawing](https://for
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro GenerateViews/en
+⏵ [documentation index](../README.md) > Macro GenerateViews/en

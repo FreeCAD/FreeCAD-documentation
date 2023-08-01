@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro sketchConstraintFromSpreadsheet
+⏵ [documentation index](../README.md) > Macro sketchConstraintFromSpreadsheet

@@ -25,4 +25,4 @@ To środowisko pracy może być zainstalowane z <img alt="" src=images/Std_Addon
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [User Documentation](Category_User Documentation.md) > WebTools Workbench/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [User Documentation](Category_User Documentation.md) > WebTools Workbench/pl

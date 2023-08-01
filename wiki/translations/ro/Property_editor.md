@@ -1,9 +1,4 @@
 # Property editor/ro
-{{TOCright}}
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 ## Prezentare generală 
@@ -32,7 +27,7 @@ Nu toate proprietățile pot fi modificate în orice moment. În funcție de sta
 </div>
 
 
-{{TOCright}}
+
 
 ![](images/FreeCAD_Property_editor_empty.png )
 
@@ -379,4 +374,4 @@ print(obj.ViewObject.PropertiesList)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Property editor/ro
+⏵ [documentation index](../README.md) > Property editor/ro

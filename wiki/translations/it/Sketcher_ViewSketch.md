@@ -1,6 +1,6 @@
 # Sketcher ViewSketch/it
 ---
-- GuiCommand:   Name:Sketcher ViewSketch   Name/it:Vista schizzo   Workbenches:[PartDesign](Sketcher_Workbench/it___Sketcher]],_[[PartDesign_Workbench/it.md)|MenuLocation:Schizzo - Vista schizzo---
+- GuiCommand:   Name: Sketcher ViewSketch   Name/it: Vista schizzo   Workbenches: [PartDesign](Sketcher_Workbench/it___Sketcher]],_[[PartDesign_Workbench/it.md)|MenuLocation: Schizzo - Vista schizzo---
 
 
 </div>
@@ -43,4 +43,4 @@ In modalità **Modifica schizzo** usare uno dei seguenti modi:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/it

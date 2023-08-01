@@ -1,5 +1,4 @@
-# User hub/zh-tw
-{{TOCright}} <img alt="" src=images/User_hub.png  style="width:64px;">
+# <img alt="" src=images/User_hub.png  style="width:64px;"> User hub/zh-tw
 
 
 
@@ -121,4 +120,4 @@ This is the official FreeCAD online help. Please note that the whole online help
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/zh-tw
+⏵ [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/zh-tw

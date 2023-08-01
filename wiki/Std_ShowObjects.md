@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std ShowObjects
-   MenuLocation:View - Visibility - Show all objects
-   Workbenches:All
-   SeeAlso:[Std ToggleVisibility](Std_ToggleVisibility.md), [Std ShowSelection](Std_ShowSelection.md), [Std HideSelection](Std_HideSelection.md), [Std ToggleObjects](Std_ToggleObjects.md), [Std HideObjects](Std_HideObjects.md)
+   Name: Std ShowObjects
+   MenuLocation: View - Visibility - Show all objects
+   Workbenches: All
+   SeeAlso: [Std ToggleVisibility](Std_ToggleVisibility.md), [Std ShowSelection](Std_ShowSelection.md), [Std HideSelection](Std_HideSelection.md), [Std ToggleObjects](Std_ToggleObjects.md), [Std HideObjects](Std_HideObjects.md)
 ---
 
 # Std ShowObjects
@@ -38,4 +38,4 @@ For a scripting example see [Std ToggleVisibility](Std_ToggleVisibility.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ShowObjects
+⏵ [documentation index](../README.md) > Std ShowObjects

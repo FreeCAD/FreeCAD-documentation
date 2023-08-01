@@ -1,6 +1,4 @@
 # FEM Mesh/fr
-{{TOCright}}
-
 ## Créer un maillage à éléments finis 
 
 L\'analyse par éléments finis (FEA) est effectuée sur un maillage composé de multiples éléments triangulaires et quadrilatéraux qui subdivisent le corps d\'origine. Plus le maillage est raffiné, plus les résultats numériques seront précis, mais le temps de calcul sera également plus long. Un équilibre entre la taille du maillage, le temps de calcul et la précision des résultats est une caractéristique importante d\'une analyse par éléments finis bien définie.
@@ -1311,4 +1309,4 @@ Voir par exemple <https://forum.freecadweb.org/viewtopic.php?f=18&t=37304&start=
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Mesh/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Mesh/fr

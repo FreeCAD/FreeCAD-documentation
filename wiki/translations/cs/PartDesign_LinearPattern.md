@@ -1,6 +1,6 @@
 # PartDesign LinearPattern/cs
 ---
-- GuiCommand:   Name:PartDesign_LinearPattern   Name/cs:PartDesign LinearPattern   Workbenches:[[PartDesign Workbench/cs   Návrh dílu]], Complete|MenuLocation:PartDesign -> LinearPattern---
+- GuiCommand:   Name: PartDesign_LinearPattern   Name/cs: PartDesign LinearPattern   Workbenches: [[PartDesign Workbench/cs   Návrh dílu]], Complete|MenuLocation: PartDesign -> LinearPattern---
 
 
 </div>
@@ -141,4 +141,4 @@ See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/cs
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/cs

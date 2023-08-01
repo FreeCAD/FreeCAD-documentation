@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/de:Std neue Ansicht
-   Name:Std ViewCreate
-   MenuLocation:[Ansichtsmenü](Std_View_Menu/de.md) - Neue Ansicht‏‎
-   Workbenches:Alle
-   SeeAlso:[[Std ViewDockUndockFullscreen/de]]
+   Name/de: Std neue Ansicht
+   Name: Std ViewCreate
+   MenuLocation: [Ansichtsmenü](Std_View_Menu/de.md) - Neue Ansicht‏‎
+   Workbenches: Alle
+   SeeAlso: [[Std ViewDockUndockFullscreen/de]]
 ---
 
 # Std ViewCreate/de
@@ -35,4 +35,4 @@ Der Befehl **Std Neue Ansicht** erstellt eine neue [3D-Ansicht für](3D_view/de.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewCreate/de
+⏵ [documentation index](../README.md) > Std ViewCreate/de

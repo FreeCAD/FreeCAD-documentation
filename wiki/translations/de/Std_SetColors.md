@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SetColors/de
+⏵ [documentation index](../README.md) > Std SetColors/de

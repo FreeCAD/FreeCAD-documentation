@@ -1,6 +1,6 @@
 # Part Boolean/es
 ---
-- GuiCommand:   Name:Part Booleans   Name/es:Part Booleans   MenuLocation:Part - Booleans   Workbenches:[SeeAlso:[[Part Union/es|Part Union](Part_Workbench/es___Part]].md), [Part Common](Part_Common/es.md) and [Part Cut](Part_Cut/es.md)---
+- GuiCommand:   Name: Part Booleans   Name/es: Part Booleans   MenuLocation: Part - Booleans   Workbenches: [SeeAlso: [[Part Union/es|Part Union](Part_Workbench/es___Part]].md), [Part Common](Part_Common/es.md) and [Part Cut](Part_Cut/es.md)---
 
 
 </div>
@@ -73,4 +73,4 @@ In cases of coplanarity, even if the first boolean operation succeeds, subsequen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Boolean/es
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Boolean/es

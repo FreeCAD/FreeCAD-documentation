@@ -1,6 +1,6 @@
 # Path DressupRampEntry/ro
 ---
-- GuiCommand:   Name:Path DressupTag   Workbenches:[MenuLocation:Path - Path Dressup - RampEntry Dress-up   SeeAlso:[[Path_DressupTag|Path_DressupTag](Path_Workbench___Path]].md), [Path_DressupDogbone](Path_DressupDogbone.md) , [Path_DressupDragKnife](Path_DressupDragKnife.md) ---
+- GuiCommand:   Name: Path DressupTag   Workbenches: [MenuLocation: Path - Path Dressup - RampEntry Dress-up   SeeAlso: [[Path_DressupTag|Path_DressupTag](Path_Workbench___Path]].md), [Path_DressupDogbone](Path_DressupDogbone.md) , [Path_DressupDragKnife](Path_DressupDragKnife.md) ---
 
 
 </div>
@@ -67,4 +67,4 @@ Acest instrument utilizează o cale existentă pentru a adăuga punți/etichete 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupRampEntry/ro
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupRampEntry/ro

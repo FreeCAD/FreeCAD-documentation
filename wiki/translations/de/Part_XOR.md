@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part XOR
-   Name/de:Part XOdeR
-   MenuLocation:Formteil - Teilen - BooleanXOR
-   Workbenches:[Part](Part_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[Part BoolescheFragmente](Part_BooleanFragments/de.md), [Part Zerschneiden](Part_Slice/de.md), [Part AuswahlVerbindungsmethoden](Part_CompJoinFeatures/de.md), [Part Boolesche Operationen](Part_Boolean/de.md)
+   Name: Part XOR
+   Name/de: Part XOdeR
+   MenuLocation: Formteil - Teilen - BooleanXOR
+   Workbenches: [Part](Part_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [Part BoolescheFragmente](Part_BooleanFragments/de.md), [Part Zerschneiden](Part_Slice/de.md), [Part AuswahlVerbindungsmethoden](Part_CompJoinFeatures/de.md), [Part Boolesche Operationen](Part_Boolean/de.md)
 ---
 
 # Part XOR/de
@@ -35,4 +35,4 @@ Der Befehl <img alt="" src=images/Part_XOR.svg  style="width:24px;"> **Part XOde
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part XOR/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part XOR/de

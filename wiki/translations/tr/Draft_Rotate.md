@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Rotate
-   Name/tr:Döndür
-   MenuLocation:Taslak - Döndür
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   Shortcut:**R** **O**
-   SeeAlso:[Taşı](Draft_Move/tr.md), [Dizi](Draft_Array/tr.md)
-   Version:0.17
+   Name: Draft Rotate
+   Name/tr: Döndür
+   MenuLocation: Taslak - Döndür
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   Shortcut: **R** **O**
+   SeeAlso: [Taşı](Draft_Move/tr.md), [Dizi](Draft_Array/tr.md)
+   Version: 0.17
 ---
 
 # Draft Rotate/tr
@@ -202,4 +202,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/tr

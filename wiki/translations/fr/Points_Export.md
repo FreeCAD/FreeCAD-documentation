@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Points Export
-   Name/fr:Points Exporter
-   MenuLocation:Points - Exporter les points...
-   Workbenches:[Points](Points_Workbench/fr.md)
-   SeeAlso:[Import Export](Import_Export/fr.md)
+   Name: Points Export
+   Name/fr: Points Exporter
+   MenuLocation: Points - Exporter les points...
+   Workbenches: [Points](Points_Workbench/fr.md)
+   SeeAlso: [Import Export](Import_Export/fr.md)
 ---
 
 # Points Export/fr
@@ -35,4 +35,4 @@ La commande **Points Exporter** exporte un nuage de points vers \'un fichier.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Export/fr
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Export/fr

@@ -35,4 +35,4 @@ Vous trouverez ci-dessous quelques indices et informations utiles pour vous mett
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > The FreeCAD source code/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > The FreeCAD source code/fr

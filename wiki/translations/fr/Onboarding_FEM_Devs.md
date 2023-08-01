@@ -1,6 +1,4 @@
 # Onboarding FEM Devs/fr
-{{TOCright}}
-
 ## Description
 
 Cette page oriente les nouveaux développeurs sur la façon de configurer leur environnement de développement afin de pouvoir travailler sur l\'atelier FEM.
@@ -162,4 +160,4 @@ A définir
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > [Developer Documentation](Category_Developer Documentation.md) > Onboarding FEM Devs/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > [Developer Documentation](Category_Developer Documentation.md) > Onboarding FEM Devs/fr

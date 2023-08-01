@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Compound‏‎
-   Name/ru:Part Compound‏‎
-   MenuLocation:Деталь - Соединить - Создать соединение
-   Workbenches:[Part](Part_Workbench/ru.md)
-   Version:0.14
-   SeeAlso:[Part Fuse](Part_Fuse/ru.md), [Part CompoundFilter](Part_CompoundFilter/ru.md), [Part ExplodeCompound](Part_ExplodeCompound/ru.md)
+   Name: Part Compound‏‎
+   Name/ru: Part Compound‏‎
+   MenuLocation: Деталь - Соединить - Создать соединение
+   Workbenches: [Part](Part_Workbench/ru.md)
+   Version: 0.14
+   SeeAlso: [Part Fuse](Part_Fuse/ru.md), [Part CompoundFilter](Part_CompoundFilter/ru.md), [Part ExplodeCompound](Part_ExplodeCompound/ru.md)
 ---
 
 # Part Compound/ru
@@ -31,4 +31,4 @@ To turn this check on go to **Tools → Edit Parameters → Preferences... → M
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/ru

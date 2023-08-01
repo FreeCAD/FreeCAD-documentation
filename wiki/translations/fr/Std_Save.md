@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Save
-   Name/fr:Std Enregistrer
-   MenuLocation:Fichier - Enregistrer
-   Workbenches:Tous
-   Shortcut:**Ctrl**+**S**
-   SeeAlso:[Std Enregistrer sous](Std_SaveAs/fr.md), [Std Enregistrer une copie](Std_SaveCopy.md), [Std Tout enregistrer](Std_SaveAll.md)
+   Name: Std Save
+   Name/fr: Std Enregistrer
+   MenuLocation: Fichier - Enregistrer
+   Workbenches: Tous
+   Shortcut: **Ctrl**+**S**
+   SeeAlso: [Std Enregistrer sous](Std_SaveAs/fr.md), [Std Enregistrer une copie](Std_SaveCopy.md), [Std Tout enregistrer](Std_SaveAll.md)
 ---
 
 # Std Save/fr
@@ -54,4 +54,4 @@ Pour enregistrer un document, utilisez la méthode `save` de l\'objet document. 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Save/fr
+⏵ [documentation index](../README.md) > Std Save/fr

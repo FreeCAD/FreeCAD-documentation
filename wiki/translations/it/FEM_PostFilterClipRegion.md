@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM PostFilterClipRegion
-   Name/it:FEM PostFilterClipRegion
-   MenuLocation: Risultati - Crea clip filter
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
+   Name: FEM PostFilterClipRegion
+   Name/it: FEM PostFilterClipRegion
+   MenuLocation:  Risultati - Crea clip filter
+   Workbenches: [FEM](FEM_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: [Tutorial FEM](FEM_tutorial/it.md)
 ---
 
 # FEM PostFilterClipRegion/it
@@ -59,4 +59,4 @@ Da fare
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterClipRegion/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterClipRegion/it

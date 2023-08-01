@@ -1,6 +1,6 @@
 # FEM MeshRegion/it
 ---
-- GuiCommand:   Name:FEM_MeshRegion   Name/it:FEM MeshRegion   MenuLocation: Mesh - FEM Mesh region   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:   Name: FEM_MeshRegion   Name/it: FEM MeshRegion   MenuLocation:  Mesh - FEM Mesh region   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 
 </div>
@@ -64,4 +64,4 @@ L\'ordine in cui le regioni sono mostrate nella [vista ad albero](Tree_view/it.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshRegion/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshRegion/it

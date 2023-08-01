@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Survey
-   Name/fr:Arch Prendre des cotes
-   MenuLocation:Arch - Prendre des cotes
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Macro FCInfo](Macro_FCInfo/fr.md), [Macro SimpleProperties](Macro_SimpleProperties/fr.md)
+   Name: Arch Survey
+   Name/fr: Arch Prendre des cotes
+   MenuLocation: Arch - Prendre des cotes
+   Workbenches: [Arch](Arch_Workbench/fr.md)
+   SeeAlso: [Macro FCInfo](Macro_FCInfo/fr.md), [Macro SimpleProperties](Macro_SimpleProperties/fr.md)
 ---
 
 # Arch Survey/fr
@@ -71,4 +71,4 @@ for obj in selection:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Survey/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Survey/fr

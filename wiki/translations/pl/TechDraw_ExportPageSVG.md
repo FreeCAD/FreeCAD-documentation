@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExportPageSVG
-   Name/pl:Rysunek Techniczny: Wyeksportuj stronę do formatu SVG
-   MenuLocation:Rysunek Techniczny - Strona - Wyeksportuj stronę do formatu SVG
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso:[Szablony](TechDraw_Templates/pl.md), [SVG](Draft_SVG/pl.md)
+   Name: TechDraw ExportPageSVG
+   Name/pl: Rysunek Techniczny: Wyeksportuj stronę do formatu SVG
+   MenuLocation: Rysunek Techniczny - Strona - Wyeksportuj stronę do formatu SVG
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   SeeAlso: [Szablony](TechDraw_Templates/pl.md), [SVG](Draft_SVG/pl.md)
 ---
 
 # TechDraw ExportPageSVG/pl
@@ -63,4 +63,4 @@ Należy pamiętać, że moduł FreeCADGui musi być aktywny, aby korzystać z te
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExportPageSVG/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExportPageSVG/pl

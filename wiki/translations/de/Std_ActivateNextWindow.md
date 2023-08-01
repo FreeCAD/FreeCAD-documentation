@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ActivateNextWindow
-   Name/de:Std NächstesFensterAktivieren
-   MenuLocation:Fenster - Nächstes
-   Workbenches:Alle
-   Shortcut:**Strg**+**Tab**
-   SeeAlso:[Std VorherigesFensterAktivieren](Std_ActivatePrevWindow/de.md), [Std Fenster](Std_Windows/de.md)
+   Name: Std ActivateNextWindow
+   Name/de: Std NächstesFensterAktivieren
+   MenuLocation: Fenster - Nächstes
+   Workbenches: Alle
+   Shortcut: **Strg**+**Tab**
+   SeeAlso: [Std VorherigesFensterAktivieren](Std_ActivatePrevWindow/de.md), [Std Fenster](Std_Windows/de.md)
 ---
 
 # Std ActivateNextWindow/de
@@ -42,4 +42,4 @@ Fenster im Hauptansichtsbereich sind auch im **Fenster**-Menü aufgeführt und k
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ActivateNextWindow/de
+⏵ [documentation index](../README.md) > Std ActivateNextWindow/de

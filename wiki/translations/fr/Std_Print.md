@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Print
-   Name/fr:Std Imprimer
-   MenuLocation:Fichier - Imprimer...
-   Workbenches:Tous
-   Shortcut:**Ctrl**+**P**
-   SeeAlso:[Std Aperçu Impression](Std_PrintPreview/fr.md), [Std Générer un pdf](Std_PrintPdf/fr.md), [Std Exporter](Std_Export/fr.md), [Std Capture d'écran](Std_ViewScreenShot/fr.md)
+   Name: Std Print
+   Name/fr: Std Imprimer
+   MenuLocation: Fichier - Imprimer...
+   Workbenches: Tous
+   Shortcut: **Ctrl**+**P**
+   SeeAlso: [Std Aperçu Impression](Std_PrintPreview/fr.md), [Std Générer un pdf](Std_PrintPdf/fr.md), [Std Exporter](Std_Export/fr.md), [Std Capture d'écran](Std_ViewScreenShot/fr.md)
 ---
 
 # Std Print/fr
@@ -45,4 +45,4 @@ La commande **Std Imprimer** est principalement destinée à imprimer des pages 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Print/fr
+⏵ [documentation index](../README.md) > Std Print/fr

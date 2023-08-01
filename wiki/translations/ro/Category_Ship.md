@@ -13,4 +13,4 @@ This category lists pages related to the [Ship Workbench/ro](Ship_Workbench/ro.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Ship/ro
+⏵ [documentation index](../README.md) > Category:Ship/ro

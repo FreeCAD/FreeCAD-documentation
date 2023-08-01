@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Constraint InternalAngle
-   Name/sv:Constraint InternalAngle
-   Workbenches:[Sketcher](Sketcher_Workbench/sv.md), [PartDesign](PartDesign_Workbench/sv.md)
-   Shortcut:A   MenuLocation:Sketch - Sketcher constraints - Constrain angle
-   SeeAlso:[Constraint Length](Sketcher_ConstrainDistance/sv.md), [Constraint Perpendicular](Sketcher_ConstrainPerpendicular/sv.md)
+   Name: Constraint InternalAngle
+   Name/sv: Constraint InternalAngle
+   Workbenches: [Sketcher](Sketcher_Workbench/sv.md), [PartDesign](PartDesign_Workbench/sv.md)
+   Shortcut: A   MenuLocation: Sketch - Sketcher constraints - Constrain angle
+   SeeAlso: [Constraint Length](Sketcher_ConstrainDistance/sv.md), [Constraint Perpendicular](Sketcher_ConstrainPerpendicular/sv.md)
 ---
 
 # Sketcher ConstrainAngle/sv
@@ -114,4 +114,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/sv
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/sv

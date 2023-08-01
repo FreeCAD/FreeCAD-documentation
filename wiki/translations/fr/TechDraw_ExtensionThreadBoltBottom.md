@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionThreadBoltBottom
-   Name/fr:TechDraw Filetage
-   MenuLocation:TechDraw - Extensions : taraudages/filetages - Filetage
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.20
-   SeeAlso:[TechDraw Taraudage](TechDraw_ExtensionThreadHoleBottom/fr.md), [TechDraw Axes de centrage](TechDraw_ExtensionCircleCenterLines/fr.md)
+   Name: TechDraw ExtensionThreadBoltBottom
+   Name/fr: TechDraw Filetage
+   MenuLocation: TechDraw - Extensions : taraudages/filetages - Filetage
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Version: 0.20
+   SeeAlso: [TechDraw Taraudage](TechDraw_ExtensionThreadHoleBottom/fr.md), [TechDraw Axes de centrage](TechDraw_ExtensionCircleCenterLines/fr.md)
 ---
 
 # TechDraw ExtensionThreadBoltBottom/fr
@@ -39,4 +39,4 @@ L\'outil **TechDraw Filetage** ajoute des filetages cosmétiques à la vue de de
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadBoltBottom/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadBoltBottom/fr

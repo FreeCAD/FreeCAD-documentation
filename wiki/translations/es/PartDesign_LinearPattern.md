@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign LinearPattern
-   Name/es:DiseñoPieza PatrónLineal
-   MenuLocation:DiseñoPieza  -  Aplicar un patrón - PatrónLineal
-   Workbenches:[DiseñoPieza](PartDesign_Workbench/es.md)
+   Name: PartDesign LinearPattern
+   Name/es: DiseñoPieza PatrónLineal
+   MenuLocation: DiseñoPieza  -  Aplicar un patrón - PatrónLineal
+   Workbenches: [DiseñoPieza](PartDesign_Workbench/es.md)
 ---
 
 # PartDesign LinearPattern/es
@@ -133,4 +133,4 @@ See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/es

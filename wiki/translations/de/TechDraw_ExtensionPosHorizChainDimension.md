@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionPosHorizChainDimension
-   Name/de:TechDraw ErgänzungHorizontaleKettenmaßeAnordnen
-   MenuLocation:TechDraw - Extensions: Attributes/Modifications - Position Horizontal Chain Dimensions
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ErgänzungVertikaleKettenmaßeAnordnen](TechDraw_ExtensionPosVertChainDimension/de.md), [TechDraw ErgänzungSchrägeKettenmaßeAnordnen](TechDraw_ExtensionPosObliqueChainDimension/de.md)
+   Name: TechDraw ExtensionPosHorizChainDimension
+   Name/de: TechDraw ErgänzungHorizontaleKettenmaßeAnordnen
+   MenuLocation: TechDraw - Extensions: Attributes/Modifications - Position Horizontal Chain Dimensions
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ErgänzungVertikaleKettenmaßeAnordnen](TechDraw_ExtensionPosVertChainDimension/de.md), [TechDraw ErgänzungSchrägeKettenmaßeAnordnen](TechDraw_ExtensionPosObliqueChainDimension/de.md)
 ---
 
 # TechDraw ExtensionPosHorizChainDimension/de
@@ -60,4 +60,4 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionPosHorizChainDimension.svg
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPosHorizChainDimension/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPosHorizChainDimension/de

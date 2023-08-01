@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Text
-   Name/fr:Draft Texte
-   MenuLocation:Annotation - Texte
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:**T** **E**
-   Version:0.7
-   SeeAlso:[Draft Étiquette](Draft_Label/fr.md), [Draft Formes à partir de texte](Draft_ShapeString/fr.md)
+   Name: Draft Text
+   Name/fr: Draft Texte
+   MenuLocation: Annotation - Texte
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut: **T** **E**
+   Version: 0.7
+   SeeAlso: [Draft Étiquette](Draft_Label/fr.md), [Draft Formes à partir de texte](Draft_ShapeString/fr.md)
 ---
 
 # Draft Text/fr
@@ -162,4 +162,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Text/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Text/fr

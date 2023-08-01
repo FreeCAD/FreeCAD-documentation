@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateArcOfParabola
-   Name/de:Sketcher ParabelbogenErstellen
-   MenuLocation:Sketch - Skizzengeometrien - Parabelbogen erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **J**
-   Version:0.17
-   SeeAlso:[Sketcher EllipsenbogenErstellen](Sketcher_CreateArcOfEllipse/de.md), [Sketcher HyperbelbogenErstellen](Sketcher_CreateArcOfHyperbola/de.md)
+   Name: Sketcher CreateArcOfParabola
+   Name/de: Sketcher ParabelbogenErstellen
+   MenuLocation: Sketch - Skizzengeometrien - Parabelbogen erstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **J**
+   Version: 0.17
+   SeeAlso: [Sketcher EllipsenbogenErstellen](Sketcher_CreateArcOfEllipse/de.md), [Sketcher HyperbelbogenErstellen](Sketcher_CreateArcOfHyperbola/de.md)
 ---
 
 # Sketcher CreateArcOfParabola/de
@@ -40,4 +40,4 @@ Dieses Werkzeug erstellt einen Parabelbogen durch Brennpunkt, Scheitelpunkt und 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfParabola/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfParabola/de

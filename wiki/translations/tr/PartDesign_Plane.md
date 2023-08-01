@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign Plane
-   Name/tr:Referans düzlemi oluştur
-   Workbenches:[Parça tasarım](PartDesign_Workbench/tr.md)
-   MenuLocation:Parça tasarım - Referans düzlemi oluştur
-   Version:0.17
-   SeeAlso:[Referans noktası oluştur](PartDesign_Point.md), [Referans çizgisi oluştur](PartDesign_Line.md)
+   Name: PartDesign Plane
+   Name/tr: Referans düzlemi oluştur
+   Workbenches: [Parça tasarım](PartDesign_Workbench/tr.md)
+   MenuLocation: Parça tasarım - Referans düzlemi oluştur
+   Version: 0.17
+   SeeAlso: [Referans noktası oluştur](PartDesign_Point.md), [Referans çizgisi oluştur](PartDesign_Line.md)
 ---
 
 # PartDesign Plane/tr
@@ -102,4 +102,4 @@ Model ağacındaki Referans düzlemi etiketine çift tıklayın veya sağ tıkla
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/tr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/tr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainEqual
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   MenuLocation:Sketch - Sketcher constraints - Constrain equal
-   Shortcut:E
-   SeeAlso:[Constrain radius](Sketcher_ConstrainRadius.md)
+   Name: Sketcher ConstrainEqual
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch - Sketcher constraints - Constrain equal
+   Shortcut: E
+   SeeAlso: [Constrain radius](Sketcher_ConstrainRadius.md)
 ---
 
 # Sketcher ConstrainEqual/ro
@@ -103,4 +103,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainEqual/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainEqual/ro

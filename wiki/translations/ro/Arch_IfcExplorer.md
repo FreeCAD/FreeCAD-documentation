@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch IfcExplorer
-   Name/ro:Arch IfcExplorer
-   MenuLocation:Arch - Utilities - Ifc Explorer
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   SeeAlso:[Arch IFC](Arch_IFC/ro.md)
+   Name: Arch IfcExplorer
+   Name/ro: Arch IfcExplorer
+   MenuLocation: Arch - Utilities - Ifc Explorer
+   Workbenches: [Arch](Arch_Workbench/ro.md)
+   SeeAlso: [Arch IFC](Arch_IFC/ro.md)
 ---
 
 # Arch IfcExplorer/ro
@@ -61,4 +61,4 @@ Scopul acestui explorator este pur și simplu să vă permită să verificați c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/ro
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/ro

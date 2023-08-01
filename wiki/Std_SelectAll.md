@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std SelectAll
-   MenuLocation:Edit - Select All
-   Workbenches:All
-   SeeAlso:[Std BoxSelection](Std_BoxSelection.md), [Std BoxElementSelection](Std_BoxElementSelection.md)
+   Name: Std SelectAll
+   MenuLocation: Edit - Select All
+   Workbenches: All
+   SeeAlso: [Std BoxSelection](Std_BoxSelection.md), [Std BoxElementSelection](Std_BoxElementSelection.md)
 ---
 
 # Std SelectAll
@@ -28,4 +28,4 @@ The **Std SelectAll** command selects all objects in the [Tree view](Tree_view.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SelectAll
+⏵ [documentation index](../README.md) > Std SelectAll

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch_Roof
-   Name/ru:Крыша
-   MenuLocation:Архитектура - Крыша
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   Shortcut:**R** **F**
-   SeeAlso:[Структура](Arch_Structure/ru.md), [Стена](Arch_Wall/ru.md)
+   Name: Arch_Roof
+   Name/ru: Крыша
+   MenuLocation: Архитектура - Крыша
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   Shortcut: **R** **F**
+   SeeAlso: [Структура](Arch_Structure/ru.md), [Стена](Arch_Wall/ru.md)
 ---
 
 # Arch Roof/ru
@@ -137,4 +137,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Roof/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Roof/ru

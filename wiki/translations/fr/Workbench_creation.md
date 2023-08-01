@@ -1,6 +1,4 @@
 # Workbench creation/fr
-{{TOCright}}
-
 ## Introduction
 
 Cette page vous montrera comment ajouter un nouvel atelier à l\'interface de FreeCAD. Les [ateliers](Workbenches/fr.md) sont des conteneurs pour les commandes de FreeCAD. Ils peuvent être codés en Python, en C++, ou dans un mélange des deux, ce qui a l\'avantage d\'allier la vitesse du C++ à la flexibilité du Python. Dans tous les cas, cependant, votre atelier sera lancé par un ensemble de deux fichiers Python. Il peut s\'agir d\'ateliers \"internes\", inclus dans la distribution de FreeCAD, ou d\'ateliers \"externes\", distribués via le [Gestionnaire des extensions](Std_AddonMgr/fr.md) ou installés manuellement par téléchargement depuis un dépôt en ligne. Les ateliers internes peuvent être codés en C++, Python, ou une combinaison des deux, alors que les ateliers externes doivent être en Python uniquement.
@@ -388,4 +386,4 @@ os.remove(qrc_filename)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Workbench creation/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Workbench creation/fr

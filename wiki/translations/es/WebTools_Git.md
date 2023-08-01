@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:WebTools Git‏‎
-   Name/es:HerramientasWeb Git
-   MenuLocation:HerramientasWeb - Git
-   Workbenches:[HerramientasWeb](WebTools_Workbench/es.md)
-   Version:0.17
+   Name: WebTools Git‏‎
+   Name/es: HerramientasWeb Git
+   MenuLocation: HerramientasWeb - Git
+   Workbenches: [HerramientasWeb](WebTools_Workbench/es.md)
+   Version: 0.17
 ---
 
 # WebTools Git/es
@@ -132,4 +132,4 @@ Alternativamente, si quieres invocar fcinfo con argumentos (por ejemplo, --gui) 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > WebTools Git/es
+⏵ [documentation index](../README.md) > WebTools Git/es

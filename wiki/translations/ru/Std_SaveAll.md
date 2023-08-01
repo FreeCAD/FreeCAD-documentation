@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std SaveAll
-   Name/ru:Std SaveAll
-   MenuLocation:Файл - Save All
-   Workbenches:All
-   SeeAlso:[Std Save](Std_Save/ru.md)
+   Name: Std SaveAll
+   Name/ru: Std SaveAll
+   MenuLocation: Файл - Save All
+   Workbenches: All
+   SeeAlso: [Std Save](Std_Save/ru.md)
 ---
 
 # Std SaveAll/ru
@@ -49,4 +49,4 @@ To save a document use the `save` method of the document object. A new document 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SaveAll/ru
+⏵ [documentation index](../README.md) > Std SaveAll/ru

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std UnitsCalculator
-   Name/de:Std Einheitenrechner
-   MenuLocation:Werkzeuge - Einheitenrechner...
-   Workbenches:Alle
+   Name: Std UnitsCalculator
+   Name/de: Std Einheitenrechner
+   MenuLocation: Werkzeuge - Einheitenrechner...
+   Workbenches: Alle
 ---
 
 # Std UnitsCalculator/de
@@ -66,4 +66,4 @@ Der **Std Einheitenrechner**-Befehl öffnet die Einheitenrechner-Dialogbox. Der 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std UnitsCalculator/de
+⏵ [documentation index](../README.md) > Std UnitsCalculator/de

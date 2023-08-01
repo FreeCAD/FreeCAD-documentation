@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft SelectGroup
-   Name/cs:Kreslení VybratSkupinu
-   Workbenches:[Kreslení](Draft_Workbench/cs.md), [Architektura](Arch_Workbench/cs.md)
-   MenuLocation:Kreslení -> Utility -> VybratSkupinu
-   Shortcut:   SeeAlso:[Draft AddToGroup](Draft_AddToGroup/cs.md), [Std CreateGroup](Std_Group/cs.md)
+   Name: Draft SelectGroup
+   Name/cs: Kreslení VybratSkupinu
+   Workbenches: [Kreslení](Draft_Workbench/cs.md), [Architektura](Arch_Workbench/cs.md)
+   MenuLocation: Kreslení -> Utility -> VybratSkupinu
+   Shortcut:    SeeAlso: [Draft AddToGroup](Draft_AddToGroup/cs.md), [Std CreateGroup](Std_Group/cs.md)
 ---
 
 # Draft SelectGroup/cs
@@ -47,4 +47,4 @@ The command was revised in FreeCAD version 0.20 and this page describes that ver
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectGroup/cs
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectGroup/cs

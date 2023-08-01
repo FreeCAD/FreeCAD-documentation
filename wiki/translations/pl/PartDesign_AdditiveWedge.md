@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveWedge
-   Name/pl:Projekt Części: Addytywny klin
-   MenuLocation:Projekt Części - Utwórz cechę przez dodanie - Addytywny klin
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Komponent bryła pierwotna do dodania](PartDesign_CompPrimitiveAdditive/pl.md), [Subtraktywny klin](PartDesign_SubtractiveWedge/pl.md)
+   Name: PartDesign AdditiveWedge
+   Name/pl: Projekt Części: Addytywny klin
+   MenuLocation: Projekt Części - Utwórz cechę przez dodanie - Addytywny klin
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Komponent bryła pierwotna do dodania](PartDesign_CompPrimitiveAdditive/pl.md), [Subtraktywny klin](PartDesign_SubtractiveWedge/pl.md)
 ---
 
 # PartDesign AdditiveWedge/pl
@@ -69,4 +69,4 @@ Kliny mogą być używane do tworzenia piramid poprzez ustawienie **X2 min/max**
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveWedge/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveWedge/pl

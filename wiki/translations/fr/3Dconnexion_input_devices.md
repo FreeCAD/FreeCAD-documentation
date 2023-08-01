@@ -1,7 +1,7 @@
 # <img alt="SpaceNavigator de 3Dconnexion" src=images/SpaceNavigator.jpg  style="width:200px;"> 3Dconnexion input devices/fr
 
 
-{{TOCright}}
+
 
 
 
@@ -316,4 +316,4 @@ Si aucun de ces messages n\'apparaît, c\'est que votre version de FreeCAD n\'es
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [3rd Party](Category_3rd Party.md) > 3Dconnexion input devices/fr
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [3rd Party](Category_3rd Party.md) > 3Dconnexion input devices/fr

@@ -1,7 +1,7 @@
 # <img alt="Icône de l\'atelier Mesh" src=images/Workbench_Mesh.svg  style="width:64px;"> Mesh Workbench/fr
 
 
-{{TOCright}}
+
 
 
 
@@ -115,4 +115,4 @@ Les préférences de l\'atelier Mesh se trouvent dans les catégories suivantes 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Mesh](Category_Mesh.md) > Mesh Workbench/fr
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Mesh](Category_Mesh.md) > Mesh Workbench/fr

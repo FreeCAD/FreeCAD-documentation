@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet CreateSheet
-   Name/es:Hoja de cálculo CrearHoja
-   MenuLocation:Hoja de cálculo - Crear Hoja
-   Workbenches:[Ambiente de trabajo Hoja de cálculo](Spreadsheet_Workbench/es.md)
-   Version:0.17
+   Name: Spreadsheet CreateSheet
+   Name/es: Hoja de cálculo CrearHoja
+   MenuLocation: Hoja de cálculo - Crear Hoja
+   Workbenches: [Ambiente de trabajo Hoja de cálculo](Spreadsheet_Workbench/es.md)
+   Version: 0.17
 ---
 
 # Spreadsheet CreateSheet/es
@@ -30,4 +30,4 @@ El **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Hoja de c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CreateSheet/es
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CreateSheet/es

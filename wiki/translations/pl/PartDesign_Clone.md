@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:PartDesign Clone
-   Name/pl:Projekt Części: Utwórz klona
-   MenuLocation:Projekt części - Utwórz klona
-   Workbenches:[Projekt części](PartDesign_Workbench/pl.md)
-   Version:0.17
-   Version:0.17
-   SeeAlso:[Klon](Draft_Clone/pl.md)
+   Name: PartDesign Clone
+   Name/pl: Projekt Części: Utwórz klona
+   MenuLocation: Projekt części - Utwórz klona
+   Workbenches: [Projekt części](PartDesign_Workbench/pl.md)
+   Version: 0.17
+   Version: 0.17
+   SeeAlso: [Klon](Draft_Clone/pl.md)
 ---
 
 # PartDesign Clone/pl
@@ -55,4 +55,4 @@ Funkcja **Klon** środowiska Projekt Części tworzy połączoną kopię wybrane
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Clone/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Clone/pl

@@ -1,6 +1,4 @@
 # PDF/de
-{{TOCright}}
-
 ## Beschreibung
 
 [Portable Document Format](https://en.wikipedia.org/wiki/PDF) (PDF) ist ein Dateiformat, das von Adobe in den 1990er Jahren entwickelt wurde, um Dokumente, einschließlich Text und Bilder, zu präsentieren.
@@ -26,4 +24,4 @@ Die Option, nach PDF zu exportieren, ist im Menü unter **Datei → [PDF exporti
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > PDF/de
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > PDF/de

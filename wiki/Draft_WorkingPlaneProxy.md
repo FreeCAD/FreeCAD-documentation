@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft WorkingPlaneProxy
-   MenuLocation:Utilities - Create working plane proxy
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso:[Draft SelectPlane](Draft_SelectPlane.md)
+   Name: Draft WorkingPlaneProxy
+   MenuLocation: Utilities - Create working plane proxy
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   SeeAlso: [Draft SelectPlane](Draft_SelectPlane.md)
 ---
 
 # Draft WorkingPlaneProxy
@@ -121,4 +121,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WorkingPlaneProxy
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WorkingPlaneProxy

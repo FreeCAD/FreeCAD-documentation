@@ -231,4 +231,4 @@ Dabei geht es nur um die Anzeige des Pfades. Du kannst dies in den Einstellungen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path FAQ/de
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path FAQ/de

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part PointsFromMesh‎
-   Name/pl:Część: Utwórz obiekt punktów z siatki
-   MenuLocation:Część - Utwórz obiekt punktów z siatki
-   Workbenches:[Część](Part_Workbench/pl.md)
-   Version:0.19
-   SeeAlso:[Utwórz kształt z siatki](Part_ShapeFromMesh/pl.md), [Przekształć na bryłę](Part_MakeSolid/pl.md), [Udoskonal kształt](Part_RefineShape/pl.md)
+   Name: Part PointsFromMesh‎
+   Name/pl: Część: Utwórz obiekt punktów z siatki
+   MenuLocation: Część - Utwórz obiekt punktów z siatki
+   Workbenches: [Część](Part_Workbench/pl.md)
+   Version: 0.19
+   SeeAlso: [Utwórz kształt z siatki](Part_ShapeFromMesh/pl.md), [Przekształć na bryłę](Part_MakeSolid/pl.md), [Udoskonal kształt](Part_RefineShape/pl.md)
 ---
 
 # Part PointsFromMesh/pl
@@ -31,4 +31,4 @@ Wynikowy kształt jest złożeniem wierzchołków, które mogą być użyte jako
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part PointsFromMesh/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part PointsFromMesh/pl

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Raytracing InsertPart
-   Name/de:Raytracing InsertPart
-   MenuLocation:Raytracing - Teil einfügen
+   Name: Raytracing InsertPart
+   Name/de: Raytracing InsertPart
+   MenuLocation: Raytracing - Teil einfügen
 ‏‎|
-   Workbenches:[Raytracing](Raytracing_Workbench/de.md)
-   Shortcut:
-   SeeAlso:
+   Workbenches: [Raytracing](Raytracing_Workbench/de.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Raytracing InsertPart/de
@@ -74,4 +74,4 @@ Einfügen einer Ansicht eines Teils in ein Raytracing Projekt.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing InsertPart/de
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing InsertPart/de

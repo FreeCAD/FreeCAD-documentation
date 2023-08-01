@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std MacroStopRecord
-   Name/pl:Std: Zatrzymaj nagrywanie makra
-   MenuLocation:Makrodefinicje - Zatrzymaj nagrywanie makra
-   Workbenches:wszystkie
-   SeeAlso:[Wykonaj makro](Std_DlgMacroRecord/pl.md)
+   Name: Std MacroStopRecord
+   Name/pl: Std: Zatrzymaj nagrywanie makra
+   MenuLocation: Makrodefinicje - Zatrzymaj nagrywanie makra
+   Workbenches: wszystkie
+   SeeAlso: [Wykonaj makro](Std_DlgMacroRecord/pl.md)
 ---
 
 # Std MacroStopRecord/pl
@@ -41,4 +41,4 @@ Polecenie **Zatrzymaj nagrywanie makra** kończy sesję nagrywania makra.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MacroStopRecord/pl
+⏵ [documentation index](../README.md) > Std MacroStopRecord/pl

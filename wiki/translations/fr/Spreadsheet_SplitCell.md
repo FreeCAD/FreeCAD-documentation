@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet SplitCell
-   Name/fr:Spreadsheet Diviser une cellule
-   MenuLocation:Spreadsheet - Diviser la cellule
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/fr.md)
-   Version:0.17
+   Name: Spreadsheet SplitCell
+   Name/fr: Spreadsheet Diviser une cellule
+   MenuLocation: Spreadsheet - Diviser la cellule
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/fr.md)
+   Version: 0.17
 ---
 
 # Spreadsheet SplitCell/fr
@@ -30,4 +30,4 @@ L\'outil **[<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> [Sprea
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SplitCell/fr
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SplitCell/fr

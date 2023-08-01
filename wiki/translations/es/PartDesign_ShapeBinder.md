@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign ShapeBinder
-   Name/es:DiseñoPiezas FormaAglomerante
-   MenuLocation:DiseñoPiezas - Crear una forma aglomerante
-   Workbenches:[DiseñoPiezas](PartDesign_Workbench/es.md)
-   Version:0.17
-   SeeAlso:[DiseñoPiezas SubFormaAglomerante](PartDesign_SubShapeBinder/es.md), [DiseñoPiezas Clon](PartDesign_Clone/es.md)
+   Name: PartDesign ShapeBinder
+   Name/es: DiseñoPiezas FormaAglomerante
+   MenuLocation: DiseñoPiezas - Crear una forma aglomerante
+   Workbenches: [DiseñoPiezas](PartDesign_Workbench/es.md)
+   Version: 0.17
+   SeeAlso: [DiseñoPiezas SubFormaAglomerante](PartDesign_SubShapeBinder/es.md), [DiseñoPiezas Clon](PartDesign_Clone/es.md)
 ---
 
 # PartDesign ShapeBinder/es
@@ -127,4 +127,4 @@ Here is how you use the ShapeBinder Feature to achieve it:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/es

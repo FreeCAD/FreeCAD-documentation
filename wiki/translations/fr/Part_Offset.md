@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Offset
-   Name/fr:Part Décalage 3D
-   MenuLocation:Part - Décalage 3D...
-   Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Part Évidement](Part_Thickness/fr.md), [Part Décalage 2D](Part_Offset2D/fr.md)
+   Name: Part Offset
+   Name/fr: Part Décalage 3D
+   MenuLocation: Part - Décalage 3D...
+   Workbenches: [Part](Part_Workbench/fr.md)
+   SeeAlso: [Part Évidement](Part_Thickness/fr.md), [Part Décalage 2D](Part_Offset2D/fr.md)
 ---
 
 # Part Offset/fr
@@ -66,4 +66,4 @@ Décalage *rempli* avec 2 cylindres créant des coupes booléennes. Le cylindre 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/fr

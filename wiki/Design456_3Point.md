@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Design456 3Point
-   MenuLocation:Design456 - 3Point
-   Workbenches:[Design456](Design456_Workbench.md)
-   Shortcut:None
-   SeeAlso:
+   Name: Design456 3Point
+   MenuLocation: Design456 - 3Point
+   Workbenches: [Design456](Design456_Workbench.md)
+   Shortcut: None
+   SeeAlso: 
 ---
 
 # Design456 3Point
@@ -39,4 +39,4 @@ Unknown yet.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 3Point
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 3Point

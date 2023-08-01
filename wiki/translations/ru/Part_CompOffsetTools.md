@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part_CompOffsetTools
-   Name/ru:Инструменты смещения
-   MenuLocation:Part - Инструменты смещения
-   Workbenches:[Part](Part_Workbench/ru.md)
-   SeeAlso:
+   Name: Part_CompOffsetTools
+   Name/ru: Инструменты смещения
+   MenuLocation: Part - Инструменты смещения
+   Workbenches: [Part](Part_Workbench/ru.md)
+   SeeAlso: 
 ---
 
 # Part CompOffsetTools/ru
@@ -21,4 +21,4 @@ A set of Offset tools
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompOffsetTools/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompOffsetTools/ru

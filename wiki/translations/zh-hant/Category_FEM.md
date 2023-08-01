@@ -10,4 +10,4 @@ This category lists pages related to the [FEM Workbench/zh-hant](FEM_Workbench/z
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:FEM/zh-hant
+⏵ [documentation index](../README.md) > Category:FEM/zh-hant

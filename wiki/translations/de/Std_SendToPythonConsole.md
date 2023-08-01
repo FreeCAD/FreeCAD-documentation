@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std SendToPythonConsole
-   Name/de:Std AnPythonKonsoleSenden
-   MenuLocation:Bearbeiten -  An Python-Konsole senden
-   Workbenches:Alle
-   Shortcut:**Ctrl**+**Shift**+**P**
-   Version:0.19
+   Name: Std SendToPythonConsole
+   Name/de: Std AnPythonKonsoleSenden
+   MenuLocation: Bearbeiten -  An Python-Konsole senden
+   Workbenches: Alle
+   Shortcut: **Ctrl**+**Shift**+**P**
+   Version: 0.19
 ---
 
 # Std SendToPythonConsole/de
@@ -95,4 +95,4 @@ Abhängig von dem ausgewählten Objekt und seiner ausgewählten Teilformen, fall
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SendToPythonConsole/de
+⏵ [documentation index](../README.md) > Std SendToPythonConsole/de

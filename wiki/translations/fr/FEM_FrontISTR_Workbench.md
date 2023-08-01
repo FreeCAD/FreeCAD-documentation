@@ -1,7 +1,7 @@
 # <img alt="Icône de l\'atelier FEM FrontISTR" src=images/FrontISTR.svg  style="width:64px;"> FEM FrontISTR Workbench/fr
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -122,4 +122,4 @@ En préparation.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > FEM FrontISTR Workbench/fr
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > FEM FrontISTR Workbench/fr

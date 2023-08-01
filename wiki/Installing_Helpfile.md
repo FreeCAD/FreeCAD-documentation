@@ -50,4 +50,4 @@ Difficulties may arise when trying to install the documentation packages on Ubun
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Installing Helpfile
+⏵ [documentation index](../README.md) > Installing Helpfile

@@ -2,7 +2,7 @@
 ## Einleitung
 
 
-{{TOCright}}
+
 
 Rechnergestützte Strömungsdynamik (engl. Computational Fluid Dynamics, CFD) für FreeCAD basiert auf dem OpenFOAM-Gleichungslöser.
 
@@ -69,4 +69,4 @@ Um CFD für FreeCAD zu verwenden
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Cfd Workbench/de
+⏵ [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Cfd Workbench/de

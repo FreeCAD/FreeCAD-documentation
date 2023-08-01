@@ -10,4 +10,4 @@ This category lists pages related to the [Part Workbench/zh-tw](Part_Workbench/z
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Part/zh-tw
+⏵ [documentation index](../README.md) > Category:Part/zh-tw

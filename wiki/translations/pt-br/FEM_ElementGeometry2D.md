@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ElementGeometry2D
-   MenuLocation:Model - Element Geometry - Shell plate thickness
-   Workbenches:[FEM](FEM_Workbench.md)
-   Shortcut:**C** **S**
-   SeeAlso:[FEM tutorial](FEM_tutorial.md)
+   Name: FEM ElementGeometry2D
+   MenuLocation: Model - Element Geometry - Shell plate thickness
+   Workbenches: [FEM](FEM_Workbench.md)
+   Shortcut: **C** **S**
+   SeeAlso: [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM ElementGeometry2D/pt-br
@@ -55,4 +55,4 @@ For viewing results from CalculiX solver on the mesh expanded to the prescribed 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementGeometry2D/pt-br
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementGeometry2D/pt-br

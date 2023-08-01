@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher StopOperation
-   Name/es:Croquizador DetenerOperación
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation:Dibujo - Detener Operación
+   Name: Sketcher StopOperation
+   Name/es: Croquizador DetenerOperación
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   MenuLocation: Dibujo - Detener Operación
 ---
 
 # Sketcher StopOperation/es
@@ -42,4 +42,4 @@ Esto es similar a pulsar la tecla **Esc**.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher StopOperation/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher StopOperation/es

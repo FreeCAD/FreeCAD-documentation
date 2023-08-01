@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch AxisSystem
-   Name/fr:Arch Système d'axes
-   MenuLocation:Arch - Outils pour les axes - Système d'axes
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Arch Axes](Arch_Axis/fr.md), [Arch Grille](Arch_Grid/fr.md)
+   Name: Arch AxisSystem
+   Name/fr: Arch Système d'axes
+   MenuLocation: Arch - Outils pour les axes - Système d'axes
+   Workbenches: [Arch](Arch_Workbench/fr.md)
+   SeeAlso: [Arch Axes](Arch_Axis/fr.md), [Arch Grille](Arch_Grid/fr.md)
 ---
 
 # Arch AxisSystem/fr
@@ -83,4 +83,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch AxisSystem/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch AxisSystem/fr

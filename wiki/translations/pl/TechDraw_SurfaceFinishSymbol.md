@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw SurfaceFinishSymbol
-   Name/pl:Rysunek Techniczny: Dodaj symbol wykończenia powierzchni
-   MenuLocation:Rysunek Techniczny - Dodaj symbol wykończenia powierzchni
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Version:0.21
+   Name: TechDraw SurfaceFinishSymbol
+   Name/pl: Rysunek Techniczny: Dodaj symbol wykończenia powierzchni
+   MenuLocation: Rysunek Techniczny - Dodaj symbol wykończenia powierzchni
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Version: 0.21
 ---
 
 # TechDraw SurfaceFinishSymbol/pl
@@ -54,4 +54,4 @@ Narzędzie **Dodaj symbol wykończenia powierzchni** dodaje symbol wykończenia 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SurfaceFinishSymbol/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SurfaceFinishSymbol/pl

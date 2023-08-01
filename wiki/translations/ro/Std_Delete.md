@@ -1,6 +1,6 @@
 # Std Delete/ro
 ---
-- GuiCommand:   Name:Std Delete   Workbenches:All   MenuLocation:[Edit](Std_Edit_Menu.md) - Delete---
+- GuiCommand:   Name: Std Delete   Workbenches: All   MenuLocation: [Edit](Std_Edit_Menu.md) - Delete---
 
 
 </div>
@@ -58,4 +58,4 @@ FreeCAD.ActiveDocument.removeObject("myObjectName")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Delete/ro
+⏵ [documentation index](../README.md) > Std Delete/ro

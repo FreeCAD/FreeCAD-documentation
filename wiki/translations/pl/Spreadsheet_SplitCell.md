@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet SplitCell
-   Name/pl:Arkusz Kalkulacyjny: Podziel komórkę
-   MenuLocation:Arkusz kalkulacyjny - Podziel komórkę
-   Workbenches:[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
-   Version:0.17
+   Name: Spreadsheet SplitCell
+   Name/pl: Arkusz Kalkulacyjny: Podziel komórkę
+   MenuLocation: Arkusz kalkulacyjny - Podziel komórkę
+   Workbenches: [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   Version: 0.17
 ---
 
 # Spreadsheet SplitCell/pl
@@ -30,4 +30,4 @@ Narzędzie **[<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> [Pod
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SplitCell/pl
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SplitCell/pl

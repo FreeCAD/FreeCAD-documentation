@@ -38,4 +38,4 @@ Il codice è visibile in Github: [Utility/HighlightCommon.FCMacro](https://githu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro HighlightCommon/it
+⏵ [documentation index](../README.md) > Macro HighlightCommon/it

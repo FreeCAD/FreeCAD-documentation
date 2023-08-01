@@ -83,4 +83,4 @@ You can also give aliases to dimensional constraints (horizontal, vertical or di
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Using spreadsheets
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Using spreadsheets

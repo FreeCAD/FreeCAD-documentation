@@ -8,7 +8,7 @@
 </div>
 
 
-{{TOCright}}
+
 
 ![](images/Screenshot_treeview.jpg )
 
@@ -93,4 +93,4 @@ FreeCADGui.ActiveDocument.ActiveView
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Document structure/es
+⏵ [documentation index](../README.md) > Document structure/es

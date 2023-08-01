@@ -1,10 +1,10 @@
 ---
 - GuiCommand:Addon
-   Name:BIM Library
-   MenuLocation:3D Modeling - Library
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
-   Addon:BIM
-   SeeAlso:[[Arch Equipment]]
+   Name: BIM Library
+   MenuLocation: 3D Modeling - Library
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
+   Addon: BIM
+   SeeAlso: [[Arch Equipment]]
 ---
 
 # BIM Library/pl
@@ -35,4 +35,4 @@ The BIM Library tool allows you to place, in the current model, an object from t
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > BIM Library/pl
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > BIM Library/pl

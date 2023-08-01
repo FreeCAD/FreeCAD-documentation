@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh FlipNormals
-   Name/fr:Mesh Inverser les normales‏‎
-   MenuLocation:Maillages - Inverser les normales‏‎
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Harmoniser les normales](Mesh_HarmonizeNormals/fr.md)
+   Name: Mesh FlipNormals
+   Name/fr: Mesh Inverser les normales‏‎
+   MenuLocation: Maillages - Inverser les normales‏‎
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
+   SeeAlso: [Mesh Harmoniser les normales](Mesh_HarmonizeNormals/fr.md)
 ---
 
 # Mesh FlipNormals/fr
@@ -40,4 +40,4 @@ Pour une indication plus précise de l\'orientation des faces des objets maillé
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FlipNormals/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FlipNormals/fr

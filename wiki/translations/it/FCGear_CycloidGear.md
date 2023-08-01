@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FCGear CycloideGear
-   Name/it:Ingranaggio cicloidale
-   MenuLocation:FCGear - Create a Cycloide gear
-   Workbenches:[FCGear](FCGear_Workbench/it.md)
-   Shortcut:None
-   Version:v0.16
-   SeeAlso:[Ingranaggio a spirale](FCGear_InvoluteGear/it.md)
+   Name: FCGear CycloideGear
+   Name/it: Ingranaggio cicloidale
+   MenuLocation: FCGear - Create a Cycloide gear
+   Workbenches: [FCGear](FCGear_Workbench/it.md)
+   Shortcut: None
+   Version: v0.16
+   SeeAlso: [Ingranaggio a spirale](FCGear_InvoluteGear/it.md)
 ---
 
 # FCGear CycloidGear/it
@@ -149,4 +149,4 @@ See [FCGear InvoluteGear](FCGear_InvoluteGear#Useful_formulas.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear CycloidGear/it
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear CycloidGear/it

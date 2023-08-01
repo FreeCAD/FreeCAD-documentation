@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Std Group
-   Name/fr:Std Groupe
-   MenuLocation:[Vue arborescente](Tree_view/fr.md) - Clic droit sur le nom du document - Créer un groupe...
-   Workbenches:Tous
-   Shortcut:
-   Version:
-   SeeAlso:[Std Part](Std_Part/fr.md), [Draft Sélection groupée](Draft_SelectGroup/fr.md), [Draft Ajouter au groupe](Draft_AddToGroup/fr.md)
+   Name: Std Group
+   Name/fr: Std Groupe
+   MenuLocation: [Vue arborescente](Tree_view/fr.md) - Clic droit sur le nom du document - Créer un groupe...
+   Workbenches: Tous
+   Shortcut: 
+   Version: 
+   SeeAlso: [Std Part](Std_Part/fr.md), [Draft Sélection groupée](Draft_SelectGroup/fr.md), [Draft Ajouter au groupe](Draft_AddToGroup/fr.md)
 ---
 
 # Std Group/fr
@@ -110,4 +110,4 @@ Par exemple, [Analyse FEM](FEM_Analysis/fr.md) est un objet `App::DocumentObject
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Group/fr
+⏵ [documentation index](../README.md) > Std Group/fr

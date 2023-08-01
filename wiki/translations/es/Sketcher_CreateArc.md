@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher Arc
-   Name/es:Croquizador Arco
-   MenuLocation:Croquis - Geometrías de Croquizador - Crear arco por el centro
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   SeeAlso:[Croquizador Círculo](Sketcher_CompCreateCircle/es.md)
+   Name: Sketcher Arc
+   Name/es: Croquizador Arco
+   MenuLocation: Croquis - Geometrías de Croquizador - Crear arco por el centro
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   SeeAlso: [Croquizador Círculo](Sketcher_CompCreateCircle/es.md)
 ---
 
 # Sketcher CreateArc/es
@@ -46,4 +46,4 @@ Cuando se inicia la herramienta, el puntero del ratón cambia a una cruz blanca 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/es

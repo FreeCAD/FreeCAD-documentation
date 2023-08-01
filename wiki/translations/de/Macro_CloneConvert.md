@@ -141,4 +141,4 @@ Laden Sie das Makro in herunter Gist [Macro_CloneConvert.FCMacro](https://gist.g
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro CloneConvert/de
+⏵ [documentation index](../README.md) > Macro CloneConvert/de

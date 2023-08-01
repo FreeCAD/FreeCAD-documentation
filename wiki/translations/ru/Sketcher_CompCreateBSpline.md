@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Создать B-Сплайн
-   Name:Sketcher_Create_a_B-Spline
-   Icon:Sketcher_CompCreateBSpline.png
-   MenuLocation:Нет (только на панели инструментов)
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.17
+   Name/ru: Создать B-Сплайн
+   Name: Sketcher_Create_a_B-Spline
+   Icon: Sketcher_CompCreateBSpline.png
+   MenuLocation: Нет (только на панели инструментов)
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Version: 0.17
 ---
 
 # Sketcher CompCreateBSpline/ru
@@ -54,4 +54,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateBSpline/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateBSpline/ru

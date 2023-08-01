@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Check
-   Name/ru:Arch Check
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   MenuLocation:Архитектура - Утилиты - Проверь
-   SeeAlso:[Убрать отверстия](Arch_CloseHoles/ru.md)
+   Name: Arch Check
+   Name/ru: Arch Check
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Архитектура - Утилиты - Проверь
+   SeeAlso: [Убрать отверстия](Arch_CloseHoles/ru.md)
 ---
 
 # Arch Check/ru
@@ -101,4 +101,4 @@ print(list_bad)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check/ru

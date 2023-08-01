@@ -30,4 +30,4 @@ Icône de la barre d\'outils ![](images/FreeCAD_Doc.png )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro PartsLibrary/fr
+⏵ [documentation index](../README.md) > Macro PartsLibrary/fr

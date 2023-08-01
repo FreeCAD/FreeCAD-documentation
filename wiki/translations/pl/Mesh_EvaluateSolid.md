@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh EvaluateSolid
-   Name/pl:Siatka: Sprawdź siatkę bryły
-   MenuLocation:Siatki - Analizuj - Sprawdź siatkę bryły
-   Workbenches:[Siatka](Mesh_Workbench/pl.md)
-   SeeAlso:[Zaznacz siatki niebryłowe](Arch_SelectNonSolidMeshes/pl.md)
+   Name: Mesh EvaluateSolid
+   Name/pl: Siatka: Sprawdź siatkę bryły
+   MenuLocation: Siatki - Analizuj - Sprawdź siatkę bryły
+   Workbenches: [Siatka](Mesh_Workbench/pl.md)
+   SeeAlso: [Zaznacz siatki niebryłowe](Arch_SelectNonSolidMeshes/pl.md)
 ---
 
 # Mesh EvaluateSolid/pl
@@ -33,4 +33,4 @@ Polecenie **Sprawdź siatkę bryły** sprawdza, czy obiekt siatkowy jest jednoli
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh EvaluateSolid/pl
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh EvaluateSolid/pl

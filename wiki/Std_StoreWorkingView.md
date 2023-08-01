@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std StoreWorkingView
-   MenuLocation:View - Standard views - Store working view
-   Workbenches:All
-   Shortcut:**Shift**+**End**
-   Version:0.21
-   SeeAlso:[Std RecallWorkingView](Std_RecallWorkingView.md), [Std FreezeViews](Std_FreezeViews.md)
+   Name: Std StoreWorkingView
+   MenuLocation: View - Standard views - Store working view
+   Workbenches: All
+   Shortcut: **Shift**+**End**
+   Version: 0.21
+   SeeAlso: [Std RecallWorkingView](Std_RecallWorkingView.md), [Std FreezeViews](Std_FreezeViews.md)
 ---
 
 # Std StoreWorkingView
@@ -47,4 +47,4 @@ FreeCADGui.runCommand("Std_StoreWorkingView", 0)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std StoreWorkingView
+⏵ [documentation index](../README.md) > Std StoreWorkingView

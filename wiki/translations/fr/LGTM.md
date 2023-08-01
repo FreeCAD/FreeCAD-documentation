@@ -2,7 +2,7 @@
 ## Présentation
 
 
-{{TOCright}}
+
 
 [LGTM](https://www.lgtm.com) est un outil d\'analyse de code pouvant être intégré à plusieurs systèmes de contrôle de version de logiciel en ligne et prenant en charge plusieurs langues. C\'est un excellent vérificateur de la qualité du code, identifiant les problèmes de code qui sont souvent oubliés par les autres vérificateurs de code et les linters.
 
@@ -69,4 +69,4 @@ En outre, certaines classifications (telles que \"modèle\" et \"test\") sont ut
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > [Testing](Category_Testing.md) > LGTM/fr
+⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > [Testing](Category_Testing.md) > LGTM/fr

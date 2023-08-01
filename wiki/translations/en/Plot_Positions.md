@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Plot Positions
-   MenuLocation:Plot - Set positions and sizes
-   Workbenches:[Plot](Plot_Workbench.md)
+   Name: Plot Positions
+   MenuLocation: Plot - Set positions and sizes
+   Workbenches: [Plot](Plot_Workbench.md)
 ---
 
 # Plot Positions/en
@@ -36,4 +36,4 @@ Select the plot tab that you want to edit, and run this tool. Then you can selec
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Positions/en
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Positions/en

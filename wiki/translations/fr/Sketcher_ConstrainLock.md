@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainLock
-   Name/fr:Sketcher Contrainte fixe
-   MenuLocation:Esquisse - Contraintes d'esquisse - Contrainte fixe
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**K** **L**
-   SeeAlso:[Sketcher Contrainte de blocage](Sketcher_ConstrainBlock/fr.md)
+   Name: Sketcher ConstrainLock
+   Name/fr: Sketcher Contrainte fixe
+   MenuLocation: Esquisse - Contraintes d'esquisse - Contrainte fixe
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **K** **L**
+   SeeAlso: [Sketcher Contrainte de blocage](Sketcher_ConstrainBlock/fr.md)
 ---
 
 # Sketcher ConstrainLock/fr
@@ -41,4 +41,4 @@ La <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Cont
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/fr

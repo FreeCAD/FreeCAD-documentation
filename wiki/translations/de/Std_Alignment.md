@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std Alignment
-   Name/de:Std Ausrichtung
-   MenuLocation:Bearbeiten - Ausrichtung...
-   Workbenches:Alle
-   SeeAlso:[Std Positionierung](Std_Placement/de.md)
+   Name: Std Alignment
+   Name/de: Std Ausrichtung
+   MenuLocation: Bearbeiten - Ausrichtung...
+   Workbenches: Alle
+   SeeAlso: [Std Positionierung](Std_Placement/de.md)
 ---
 
 # Std Alignment/de
@@ -51,4 +51,4 @@ Die folgenden zusätzlichen Möglichkeiten können im Kontextmenü gewählt werd
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Alignment/de
+⏵ [documentation index](../README.md) > Std Alignment/de

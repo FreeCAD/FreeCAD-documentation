@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part ReverseShapes‏‎
-   Name/fr:Part Inverser les formes
-   MenuLocation:Part - Inverser les formes
-   Workbenches:[Part](Part_Workbench/fr.md)
+   Name: Part ReverseShapes‏‎
+   Name/fr: Part Inverser les formes
+   MenuLocation: Part - Inverser les formes
+   Workbenches: [Part](Part_Workbench/fr.md)
 ---
 
 # Part ReverseShapes/fr
@@ -30,4 +30,4 @@ Inverse les normales de toutes les faces de l\'objet sélectionné.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ReverseShapes/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ReverseShapes/fr

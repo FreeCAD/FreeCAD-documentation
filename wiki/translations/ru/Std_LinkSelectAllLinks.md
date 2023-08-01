@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Выбрать все ссылки
-   Name:Std_LinkSelectAllLinks
-   MenuLocation:
-   Workbenches:Все
-   Version:0.19
-   SeeAlso:[Перейти к связанному объекту](Std_LinkSelectLinked/ru.md), [Перейти на самый глубокий связанный объект](Std_LinkSelectLinkedFinal/ru.md), [Назад](Std_SelBack/ru.md), [Вперёд](Std_SelForward/ru.md)
+   Name/ru: Выбрать все ссылки
+   Name: Std_LinkSelectAllLinks
+   MenuLocation: 
+   Workbenches: Все
+   Version: 0.19
+   SeeAlso: [Перейти к связанному объекту](Std_LinkSelectLinked/ru.md), [Перейти на самый глубокий связанный объект](Std_LinkSelectLinkedFinal/ru.md), [Назад](Std_SelBack/ru.md), [Вперёд](Std_SelForward/ru.md)
 ---
 
 # Std LinkSelectAllLinks/ru
@@ -37,4 +37,4 @@ The **Std LinkSelectAllLinks** command selects all [App Link](App_Link.md) objec
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkSelectAllLinks/ru
+⏵ [documentation index](../README.md) > Std LinkSelectAllLinks/ru

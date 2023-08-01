@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher Move
-   Name/pl:Szkicownik: Przesuń
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Przesuń
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**Z** **M**
-   Version:0.16
-   SeeAlso:[Klonuj](Sketcher_Clone/pl.md), [Kopiuj](Sketcher_Copy/pl.md)
+   Name: Sketcher Move
+   Name/pl: Szkicownik: Przesuń
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Przesuń
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **Z** **M**
+   Version: 0.16
+   SeeAlso: [Klonuj](Sketcher_Clone/pl.md), [Kopiuj](Sketcher_Copy/pl.md)
 ---
 
 # Sketcher Move/pl
@@ -45,4 +45,4 @@ Przesuwa wybrane elementy szkicu z jednego punktu do drugiego, używając ostatn
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/pl

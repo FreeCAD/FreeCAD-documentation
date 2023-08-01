@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Std DependencyGraph
-   MenuLocation:Tools - Dependency graph...
-   Workbenches:All
+   Name: Std DependencyGraph
+   MenuLocation: Tools - Dependency graph...
+   Workbenches: All
 ---
 
 # Std DependencyGraph
@@ -154,4 +154,4 @@ You can save a dependency graph:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph
+⏵ [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph

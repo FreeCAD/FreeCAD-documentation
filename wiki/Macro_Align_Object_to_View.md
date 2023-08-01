@@ -79,4 +79,4 @@ Tanks Simplified code to rentlau_64
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Align Object to View
+⏵ [documentation index](../README.md) > Macro Align Object to View

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw ClipGroup
-   Name/pl:Rysunek Techniczny: Wstaw grupę wycinków
-   MenuLocation:Rysunek Techniczny - Wstaw grupę wycinków
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso:[Dodaj widok do grupy wycinków](TechDraw_ClipGroupAdd/pl.md), [Usuń widok z grupy wycinków](TechDraw_ClipGroupRemove/pl.md)
+   Name: TechDraw ClipGroup
+   Name/pl: Rysunek Techniczny: Wstaw grupę wycinków
+   MenuLocation: Rysunek Techniczny - Wstaw grupę wycinków
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   SeeAlso: [Dodaj widok do grupy wycinków](TechDraw_ClipGroupAdd/pl.md), [Usuń widok z grupy wycinków](TechDraw_ClipGroupRemove/pl.md)
 ---
 
 # TechDraw ClipGroup/pl
@@ -58,4 +58,4 @@ Narzędzie **Wstaw grupę wycinków** tworzy okno wycinka, które może zawiera�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroup/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroup/pl

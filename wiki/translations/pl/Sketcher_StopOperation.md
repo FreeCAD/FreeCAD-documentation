@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher StopOperation
-   Name/pl:Szkicownik: Przerwij operację
-   MenuLocation:Szkic - Przerwij operację
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
+   Name: Sketcher StopOperation
+   Name/pl: Szkicownik: Przerwij operację
+   MenuLocation: Szkic - Przerwij operację
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
 ---
 
 # Sketcher StopOperation/pl
@@ -36,4 +36,4 @@ Jest to rozwiązanie podobne do naciśnięcia klawisza **Esc**.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher StopOperation/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher StopOperation/pl

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher CompCreateRectangles
-   Name/fr:Sketcher Rectangles
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Version:0.20
+   Name: Sketcher CompCreateRectangles
+   Name/fr: Sketcher Rectangles
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Version: 0.20
 ---
 
 # Sketcher CompCreateRectangles/fr
@@ -31,4 +31,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRectangles/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRectangles/fr

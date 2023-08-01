@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM EquationElasticity
-   Name/de:FEM Elastizitätsgleichung
-   MenuLocation:Lösen - Mechanical equations - Elasticity equation
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[Verformungsgleichung equation](FEM_EquationDeformation/de.md), [FEM Anleitung](FEM_tutorial/de.md)
+   Name: FEM EquationElasticity
+   Name/de: FEM Elastizitätsgleichung
+   MenuLocation: Lösen - Mechanical equations - Elasticity equation
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [Verformungsgleichung equation](FEM_EquationDeformation/de.md), [FEM Anleitung](FEM_tutorial/de.md)
 ---
 
 # FEM EquationElasticity/de
@@ -148,4 +148,4 @@ whereas $\vec{u}$ is the eigenvector and $c$ is a complex number.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElasticity/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElasticity/de

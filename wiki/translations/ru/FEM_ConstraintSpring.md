@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintSpring
-   MenuLocation:Model - Mechanical Constraints - Constraint spring
-   Workbenches:[FEM](FEM_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:
+   Name: FEM ConstraintSpring
+   MenuLocation: Model - Mechanical Constraints - Constraint spring
+   Workbenches: [FEM](FEM_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: 
 ---
 
 # FEM ConstraintSpring/ru
@@ -39,4 +39,4 @@ Defines a spring boundary condition to be used for mechanical analyses using the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSpring/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSpring/ru

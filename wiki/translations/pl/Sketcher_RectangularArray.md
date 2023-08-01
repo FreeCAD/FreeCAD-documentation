@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher RectangularArray
-   Name/pl:Szkicownik: Szyk prostokątny
-   MenuLocation:Szkic - Narzędzia szkicownika - Szyk prostokątny
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**Z** **A**
-   Version:0.16
+   Name: Sketcher RectangularArray
+   Name/pl: Szkicownik: Szyk prostokątny
+   MenuLocation: Szkic - Narzędzia szkicownika - Szyk prostokątny
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **Z** **A**
+   Version: 0.16
 ---
 
 # Sketcher RectangularArray/pl
@@ -56,4 +56,4 @@ Tworzy szyk wybranych elementów szkicownika.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RectangularArray/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RectangularArray/pl

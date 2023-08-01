@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Surface CurveOnMesh
-   Name/fr:Surface Courbe sur maillage
-   MenuLocation:Surface - Curve on mesh...
-   Workbenches:[Surface](Surface_Workbench/fr.md)
-   Version:0.17
+   Name: Surface CurveOnMesh
+   Name/fr: Surface Courbe sur maillage
+   MenuLocation: Surface - Curve on mesh...
+   Workbenches: [Surface](Surface_Workbench/fr.md)
+   Version: 0.17
 ---
 
 # Surface CurveOnMesh/fr
@@ -101,4 +101,4 @@ Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Part S
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface CurveOnMesh/fr
+⏵ [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface CurveOnMesh/fr

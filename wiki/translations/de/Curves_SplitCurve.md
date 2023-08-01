@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Curves SplitCurve
-   Name/de:Curves KurveTeilen
-   MenuLocation:Curves - Split curve
-   Workbenches:[Curves](Curves_Workbench/de.md)
+   Name: Curves SplitCurve
+   Name/de: Curves KurveTeilen
+   MenuLocation: Curves - Split curve
+   Workbenches: [Curves](Curves_Workbench/de.md)
 ---
 
 # Curves SplitCurve/de
@@ -38,4 +38,4 @@ Das Werkzeug <img alt="" src=images/Curves_SplitCurve.svg  style="width:24px;"> 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves SplitCurve/de
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves SplitCurve/de

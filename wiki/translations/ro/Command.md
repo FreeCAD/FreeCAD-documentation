@@ -2,7 +2,7 @@
 ## Introduction
 
 
-{{TOCright}}
+
 
 
 <div class="mw-translate-fuzzy">
@@ -134,4 +134,4 @@ See [Line drawing function](Line_drawing_function.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/ro
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/ro

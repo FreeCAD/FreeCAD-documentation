@@ -1,6 +1,6 @@
 # Arch MeshToShape/cs
 ---
-- GuiCommand:   Name:Arch MeshToShape   Name/cs:Arch MeshToShape   Workbenches:[MenuLocation:Arch - Utilities - Mesh to Shape   SeeAlso:[[Arch RemoveShape/cs|Arch RemoveShape](Arch_Workbench/cs___Arch]].md)---
+- GuiCommand:   Name: Arch MeshToShape   Name/cs: Arch MeshToShape   Workbenches: [MenuLocation: Arch - Utilities - Mesh to Shape   SeeAlso: [[Arch RemoveShape/cs|Arch RemoveShape](Arch_Workbench/cs___Arch]].md)---
 
 
 </div>
@@ -79,4 +79,4 @@ new_obj = Arch.meshToShape(Box)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/cs
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/cs

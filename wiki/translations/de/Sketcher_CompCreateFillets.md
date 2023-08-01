@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher CompCreateFillets
-   Name/de:Sketcher AuswahlVerrundungErstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Version:0.19
+   Name: Sketcher CompCreateFillets
+   Name/de: Sketcher AuswahlVerrundungErstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Version: 0.19
 ---
 
 # Sketcher CompCreateFillets/de
@@ -33,4 +33,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateFillets/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateFillets/de

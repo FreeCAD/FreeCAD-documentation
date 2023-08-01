@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Window
-   Name/de:Arch Fenster
-   MenuLocation:Architektur - Fenster
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   Shortcut:**W** **I**
-   SeeAlso:[Arch Wand](Arch_Wall/de.md), [Arch Hinzufügen](Arch_Add/de.md)
+   Name: Arch Window
+   Name/de: Arch Fenster
+   MenuLocation: Architektur - Fenster
+   Workbenches: [Arch](Arch_Workbench/de.md)
+   Shortcut: **W** **I**
+   SeeAlso: [Arch Wand](Arch_Wall/de.md), [Arch Hinzufügen](Arch_Add/de.md)
 ---
 
 # Arch Window/de
@@ -294,4 +294,4 @@ Door = Arch.makeWindowPreset("Simple door",
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Window/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Window/de

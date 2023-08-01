@@ -1,6 +1,6 @@
 # PartDesign MultiTransform/cs
 ---
-- GuiCommand:   Name:PartDesign_MultiTransform   Name/cs:Návrh dílu MultiTransformace   Workbenches:[[PartDesign Workbench/cs   Návrh dílu]], Kompletace|MenuLocation:Návrh dílu -> MultiTransformace---
+- GuiCommand:   Name: PartDesign_MultiTransform   Name/cs: Návrh dílu MultiTransformace   Workbenches: [[PartDesign Workbench/cs   Návrh dílu]], Kompletace|MenuLocation: Návrh dílu -> MultiTransformace---
 
 
 </div>
@@ -155,4 +155,4 @@ To verify that the part is fully parametric open the initial sketch with the qua
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/cs
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/cs

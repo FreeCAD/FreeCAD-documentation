@@ -748,7 +748,8 @@ class MediaWiki:
 
         breadcrumb = " > "
         footer = "\n\n\n\n---\n"
-        footer += "![]("+self.icon_nav+") "
+        #footer += "![]("+self.icon_nav+") "
+        footer += "⏵ "
         footer += "[documentation index](../"+self.rootpage+")"
         c = self.getPageCategories(page)
         w = self.getWorkbench(page)
@@ -796,6 +797,7 @@ class MediaWiki:
             result = re.sub("{{\#translation\:}}","",result,flags=flags)
             result = re.sub("{{\\\#translation\:}}","",result,flags=flags)
             result = re.sub("{{UnfinishedDocu.*?}}","",result,flags=flags)
+            result = re.sub("{{TOCright}}","",result,flags=flags)
 
         if debug >= 3:
             # templates that get turned into italic text
@@ -831,10 +833,11 @@ class MediaWiki:
                 guicommandblk = re.findall("```{\=mediawiki}.*?{{GuiCommand(.*?)}}\n```",result,flags=flags)
                 if guicommandblk:
                     guicommandblk = guicommandblk[0]
-                    guicommandblk = re.sub("\|(.*?)\=(.*?)",r"   \1:\2",guicommandblk) # fixing GuiCommand contents
+                    guicommandblk = re.sub("\|(.*?)\=(.*?)",r"   \1: \2",guicommandblk) # fixing GuiCommand contents
                     guicommandblk = guicommandblk.replace("→","-") # github does not like unicode in here...
                     if guicommandblk.strip().startswith("/"):  # fix malformation of translated GuiCommands
                         guicommandblk = guicommandblk[3:]
+                    guicommandblk = re.sub("/:\s*/", ": ", guicommandblk) # fixes bad yaml entries
                     result = re.sub("```{\=mediawiki}.*?{{GuiCommand(.*?)}}\n```",r"---\n- GuiCommand:"+guicommandblk+"---\n",result,flags=flags)
                     result = "---"+"---".join(result.split("---")[1:]) # removing empty line before yaml block
 

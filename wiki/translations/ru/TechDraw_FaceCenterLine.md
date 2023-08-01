@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Добавить осевую линию к граням
-   Name:TechDraw_FaceCenterLine
-   MenuLocation:TechDraw - Добавить Линии - Add Centerline to Face(s)
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Добавить вспомогательную вершину](TechDraw_CosmeticVertex/ru.md), [Добавить осевую линию между 2 линиями](TechDraw_2LineCenterLine/ru.md), [Добавить осевую линию между 2 точками](TechDraw_2PointCenterLine/ru.md), [Удалить вспомогательный объект](TechDraw_CosmeticEraser/ru.md)
+   Name/ru: Добавить осевую линию к граням
+   Name: TechDraw_FaceCenterLine
+   MenuLocation: TechDraw - Добавить Линии - Add Centerline to Face(s)
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Добавить вспомогательную вершину](TechDraw_CosmeticVertex/ru.md), [Добавить осевую линию между 2 линиями](TechDraw_2LineCenterLine/ru.md), [Добавить осевую линию между 2 точками](TechDraw_2PointCenterLine/ru.md), [Удалить вспомогательный объект](TechDraw_CosmeticEraser/ru.md)
 ---
 
 # TechDraw FaceCenterLine/ru
@@ -104,4 +104,4 @@ Centerlines have no properties of their own, as they are not document objects.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw FaceCenterLine/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw FaceCenterLine/ru

@@ -1,7 +1,7 @@
 # <img alt="L\'icona dell\'ambiente PartDesign" src=images/Workbench_PartDesign.svg  style="width:64px;"> PartDesign Workbench/it
 
 
-{{TOCright}}
+
 
 
 
@@ -242,4 +242,4 @@ Per alcune idee su cosa si può ottenere con gli strumenti di Part Design, dare 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/it
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/it

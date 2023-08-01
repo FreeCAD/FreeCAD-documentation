@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Ship Loading/fr
+⏵ [documentation index](../README.md) > Ship Loading/fr

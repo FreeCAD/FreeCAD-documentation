@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Polygon
-   Name/ru:Draft Polygon
-   MenuLocation:Черчение -> Многоугольник
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:**P** **G**
+   Name: Draft Polygon
+   Name/ru: Draft Polygon
+   MenuLocation: Черчение -> Многоугольник
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: **P** **G**
 ---
 
 # Draft Polygon/ru
@@ -129,4 +129,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Polygon/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Polygon/ru

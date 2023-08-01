@@ -1,11 +1,11 @@
 ---
 - GuiCommand:Addon/de
-   Name:BIM IfcProperties
-   Name/de:BIM IfcEigenschaften
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
-   Addon:BIM
-   MenuLocation:Verwalten - IFC Eigenschaften
-   SeeAlso:[BIM IfcElemente](BIM_IfcElements/de.md),[BIM IfcGrößen](BIM_IfcQuantities/de.md)
+   Name: BIM IfcProperties
+   Name/de: BIM IfcEigenschaften
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
+   Addon: BIM
+   MenuLocation: Verwalten - IFC Eigenschaften
+   SeeAlso: [BIM IfcElemente](BIM_IfcElements/de.md),[BIM IfcGrößen](BIM_IfcQuantities/de.md)
 ---
 
 # BIM IfcProperties/de
@@ -37,4 +37,4 @@ würde einen Eigenschaftssatz mit dem Namen \"FreeCAD\" definieren (das Präfix 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM IfcProperties/de
+⏵ [documentation index](../README.md) > BIM IfcProperties/de

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintMultiParallel
-   Name/fr:Assembly3 Contrainte parallèle
-   Icon:Assembly_ConstraintMultiParallel.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 ConstraintMultiParallel
+   Name/fr: Assembly3 Contrainte parallèle
+   Icon: Assembly_ConstraintMultiParallel.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintMultiParallel/fr
@@ -27,4 +27,4 @@ La contrainte accepte les bords droits et les faces planes, qui deviennent paral
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintMultiParallel/fr
+⏵ [documentation index](../README.md) > Assembly3 ConstraintMultiParallel/fr

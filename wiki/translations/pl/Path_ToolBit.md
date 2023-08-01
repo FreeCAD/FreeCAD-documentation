@@ -5,7 +5,7 @@
 
 
 
-{{TOCright}}
+
 
 ## Opis
 
@@ -61,4 +61,4 @@ W interfejsie graficznym programu FreeCAD menedżer biblioteki narzędziowej Pat
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBit/pl
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBit/pl

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Показать/скрыть полигон управления B-сплайном
-   Name:Sketcher_BSplinePolygon
-   MenuLocation:Sketch - B-сплйан инструменты эскиза - Показать/скрыть полигон управления B-сплайном
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Создать B-сплайн](Sketcher_CompCreateBSpline/ru.md)
+   Name/ru: Показать/скрыть полигон управления B-сплайном
+   Name: Sketcher_BSplinePolygon
+   MenuLocation: Sketch - B-сплйан инструменты эскиза - Показать/скрыть полигон управления B-сплайном
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Создать B-сплайн](Sketcher_CompCreateBSpline/ru.md)
 ---
 
 # Sketcher BSplinePolygon/ru
@@ -45,4 +45,4 @@ Shows or hides the display of the defining polygon of a B-spline (see [this page
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplinePolygon/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplinePolygon/ru

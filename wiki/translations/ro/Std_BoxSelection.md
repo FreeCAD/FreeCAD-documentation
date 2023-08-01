@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std BoxSelection
-   MenuLocation:[Edit](Std_Edit_Menu.md) - Box Selection
-   Workbenches:All
-   Shortcut:Shift + B
-   SeeAlso:[Fit Selection](Std_ViewFitSelection.md)
+   Name: Std BoxSelection
+   MenuLocation: [Edit](Std_Edit_Menu.md) - Box Selection
+   Workbenches: All
+   Shortcut: Shift + B
+   SeeAlso: [Fit Selection](Std_ViewFitSelection.md)
 ---
 
 # Std BoxSelection/ro
@@ -58,4 +58,4 @@ The **Std BoxSelection** command selects objects from a user defined rectangular
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std BoxSelection/ro
+⏵ [documentation index](../README.md) > Std BoxSelection/ro

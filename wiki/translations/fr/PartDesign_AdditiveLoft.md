@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveLoft
-   Name/fr:PartDesign Lissage additif
-   MenuLocation:Part Design - Créer une fonction additive - Lissage additif
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[PartDesign Balayage additif](PartDesign_AdditivePipe/fr.md), [PartDesign Lissage soustractif](PartDesign_SubtractiveLoft/fr.md)
+   Name: PartDesign AdditiveLoft
+   Name/fr: PartDesign Lissage additif
+   MenuLocation: Part Design - Créer une fonction additive - Lissage additif
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Balayage additif](PartDesign_AdditivePipe/fr.md), [PartDesign Lissage soustractif](PartDesign_SubtractiveLoft/fr.md)
 ---
 
 # PartDesign AdditiveLoft/fr
@@ -101,4 +101,4 @@ Le **Lissage additif** crée un solide dans le Corps actif en faisant une transi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveLoft/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveLoft/fr

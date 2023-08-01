@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainSnellsLaw
-   Name/pl:Szkicownik: Wiązanie prawo Snella
-   MenuLocation:Szkic - Wiązania szkicownika - Wiązanie refrakcji (prawo Snell'a)
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**K** **W**
-   Version:0.15
+   Name: Sketcher ConstrainSnellsLaw
+   Name/pl: Szkicownik: Wiązanie prawo Snella
+   MenuLocation: Szkic - Wiązania szkicownika - Wiązanie refrakcji (prawo Snell'a)
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **K** **W**
+   Version: 0.15
 ---
 
 # Sketcher ConstrainSnellsLaw/pl
@@ -111,4 +111,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSnellsLaw/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSnellsLaw/pl

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher MirrorSketch
-   MenuLocation:Sketch - Mirror sketch
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Version:0.16
+   Name: Sketcher MirrorSketch
+   MenuLocation: Sketch - Mirror sketch
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Version: 0.16
 ---
 
 # Sketcher MirrorSketch/ro
@@ -55,4 +55,4 @@ Construiți o schiță simetrică(o reflexie în oglindă) cu prima față de ax
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch/ro

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionPositionSectionView
-   Name/fr:TechDraw
-   MenuLocation:TechDraw - Extensions : attributs/modifications - Position de la vue en coupe
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:
+   Name: TechDraw ExtensionPositionSectionView
+   Name/fr: TechDraw
+   MenuLocation: TechDraw - Extensions : attributs/modifications - Position de la vue en coupe
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: 
 ---
 
 # TechDraw ExtensionPositionSectionView/fr
@@ -39,4 +39,4 @@ L\'outil **TechDraw Position d\'une vue en coupe** aligne orthogonalement une vu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPositionSectionView/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPositionSectionView/fr

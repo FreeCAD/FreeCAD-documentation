@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractiveLoft
-   Name/fr:PartDesign Lissage soustractif
-   MenuLocation:Part Design - Créer une fonction soustractive - Enlèvement de matière par lissage
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[PartDesign Lissage additif](PartDesign_AdditiveLoft/fr.md), [PartDesign Balayage soustractif](PartDesign_SubtractivePipe/fr.md)
+   Name: PartDesign SubtractiveLoft
+   Name/fr: PartDesign Lissage soustractif
+   MenuLocation: Part Design - Créer une fonction soustractive - Enlèvement de matière par lissage
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Lissage additif](PartDesign_AdditiveLoft/fr.md), [PartDesign Balayage soustractif](PartDesign_SubtractivePipe/fr.md)
 ---
 
 # PartDesign SubtractiveLoft/fr
@@ -91,4 +91,4 @@ Le **Lissage soustractif** crée un solide soustractif dans le corps actif en ef
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveLoft/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveLoft/fr

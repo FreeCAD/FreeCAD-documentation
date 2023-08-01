@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM FemMesh2Mesh
-   Name/ru:FEM FemMesh2Mesh
-   MenuLocation:Mesh - FEM mesh to mesh
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM FemMesh2Mesh
+   Name/ru: FEM FemMesh2Mesh
+   MenuLocation: Mesh - FEM mesh to mesh
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM FemMesh2Mesh/ru
@@ -68,4 +68,4 @@ Mesh.show(Mesh.Mesh(out_mesh))
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM FemMesh2Mesh/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM FemMesh2Mesh/ru

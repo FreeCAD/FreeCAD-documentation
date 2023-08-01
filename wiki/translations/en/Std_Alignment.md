@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std Alignment
-   MenuLocation:Edit - Alignment...
-   Workbenches:All
-   SeeAlso:[Std Placement](Std_Placement.md)
+   Name: Std Alignment
+   MenuLocation: Edit - Alignment...
+   Workbenches: All
+   SeeAlso: [Std Placement](Std_Placement.md)
 ---
 
 # Std Alignment/en
@@ -44,4 +44,4 @@ The following additional options are available in the context menu:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Alignment/en
+⏵ [documentation index](../README.md) > Std Alignment/en

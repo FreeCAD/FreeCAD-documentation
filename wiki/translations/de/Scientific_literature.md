@@ -12,4 +12,4 @@ Die meisten dieser Artikel sind frei zugänglich.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Scientific literature/de
+⏵ [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Scientific literature/de

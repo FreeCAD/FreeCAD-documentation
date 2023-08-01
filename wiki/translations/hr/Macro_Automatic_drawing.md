@@ -127,4 +127,4 @@ Forum [Automatic drawing](https://forum.freecadweb.org/viewtopic.php?f=8&t=3361)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Automatic drawing/hr
+⏵ [documentation index](../README.md) > Macro Automatic drawing/hr

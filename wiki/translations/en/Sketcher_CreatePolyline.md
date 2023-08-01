@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreatePolyline
-   MenuLocation:Sketch - Sketcher geometries - Create polyline
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**G** **M**
-   SeeAlso:[Sketcher Line](Sketcher_CreateLine.md)
+   Name: Sketcher CreatePolyline
+   MenuLocation: Sketch - Sketcher geometries - Create polyline
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **G** **M**
+   SeeAlso: [Sketcher Line](Sketcher_CreateLine.md)
 ---
 
 # Sketcher CreatePolyline/en
@@ -49,4 +49,4 @@ The polyline always starts with a straight line segment: click - move the mouse 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePolyline/en
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePolyline/en

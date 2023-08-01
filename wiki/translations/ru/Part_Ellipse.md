@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Ellipse
-   Name/ru:Эллипс
-   MenuLocation:Деталь - [Создать примитивы...](Part_Primitives/ru.md) - Эллипс
-   Workbenches:[Part(Деталь)](Part_Workbench/ru.md), [OpenSCAD](OpenSCAD_Workbench/ru.md)
-   SeeAlso:..
+   Name: Part Ellipse
+   Name/ru: Эллипс
+   MenuLocation: Деталь - [Создать примитивы...](Part_Primitives/ru.md) - Эллипс
+   Workbenches: [Part(Деталь)](Part_Workbench/ru.md), [OpenSCAD](OpenSCAD_Workbench/ru.md)
+   SeeAlso: ..
 ---
 
 # Part Ellipse/ru
@@ -100,4 +100,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipse/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipse/ru

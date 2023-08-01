@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh Merge
-   Name/pl:Siatka: Scal
-   MenuLocation:Siatki - Scal
-   Workbenches:[Mesh](Mesh_Workbench/pl.md)
-   SeeAlso:[Rozbij na komponenty](Mesh_SplitComponents/pl.md)
+   Name: Mesh Merge
+   Name/pl: Siatka: Scal
+   MenuLocation: Siatki - Scal
+   Workbenches: [Mesh](Mesh_Workbench/pl.md)
+   SeeAlso: [Rozbij na komponenty](Mesh_SplitComponents/pl.md)
 ---
 
 # Mesh Merge/pl
@@ -35,4 +35,4 @@ Zapoznaj się z informacjami na stronie: [cecha siatki](Mesh_Feature/pl.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Merge/pl
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Merge/pl

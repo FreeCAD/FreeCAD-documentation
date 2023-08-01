@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher Grid
-   Name/pl:Szkicownik: Przełącz widoczność siatki
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Version:0.21
-   SeeAlso:[Włącz / wyłącz przyciąganie](Sketcher_Snap/pl.md)
+   Name: Sketcher Grid
+   Name/pl: Szkicownik: Przełącz widoczność siatki
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Version: 0.21
+   SeeAlso: [Włącz / wyłącz przyciąganie](Sketcher_Snap/pl.md)
 ---
 
 # Sketcher Grid/pl
@@ -42,4 +42,4 @@ Zobacz również stronę [Ustawienia](Sketcher_Preferences/pl#Siatka.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Grid/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Grid/pl

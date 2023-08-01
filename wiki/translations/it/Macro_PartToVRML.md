@@ -241,4 +241,4 @@ La macro inversa, [Macro_MeshToPart](Macro_MeshToPart/it.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro PartToVRML/it
+⏵ [documentation index](../README.md) > Macro PartToVRML/it

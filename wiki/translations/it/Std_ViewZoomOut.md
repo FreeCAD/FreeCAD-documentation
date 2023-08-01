@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ViewZoomOut
-   Name/it:Riduci
-   MenuLocation:Visualizza - Zoom - Riduci
-   Workbenches:Tutti
-   Shortcut:**Ctrl**+**-**
-   SeeAlso:[Ingrandisci](Std_ViewZoomIn/it.md), [Finestra di ingrandimento](Std_ViewBoxZoom/it.md)
+   Name: Std ViewZoomOut
+   Name/it: Riduci
+   MenuLocation: Visualizza - Zoom - Riduci
+   Workbenches: Tutti
+   Shortcut: **Ctrl**+**-**
+   SeeAlso: [Ingrandisci](Std_ViewZoomIn/it.md), [Finestra di ingrandimento](Std_ViewBoxZoom/it.md)
 ---
 
 # Std ViewZoomOut/it
@@ -65,4 +65,4 @@ FreeCADGui.ActiveDocument.ActiveView.zoomOut()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewZoomOut/it
+⏵ [documentation index](../README.md) > Std ViewZoomOut/it

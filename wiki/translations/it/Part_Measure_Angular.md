@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Measure Angular
-   Name/it:Misura angolare
-   MenuLocation:{{StdMenu|[Misure](Std_Measure_Menu/it.md)}} - Misura angolare‏‎
-   Workbenches:[Part](Part_Workbench/it.md)
+   Name: Part Measure Angular
+   Name/it: Misura angolare
+   MenuLocation: {{StdMenu|[Misure](Std_Measure_Menu/it.md)}} - Misura angolare‏‎
+   Workbenches: [Part](Part_Workbench/it.md)
 ---
 
 # Part Measure Angular/it
@@ -58,4 +58,4 @@ The appearance of the measurements can be changed in the [preferences](PartDesig
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Angular/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Angular/it

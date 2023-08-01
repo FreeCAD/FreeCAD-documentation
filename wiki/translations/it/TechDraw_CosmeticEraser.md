@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw CosmeticEraser
-   Name/it:Rimuovi oggetto cosmetico
-   MenuLocation:TechDraw - Rimuovi oggetto cosmetico
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   Version:0.19
+   Name: TechDraw CosmeticEraser
+   Name/it: Rimuovi oggetto cosmetico
+   MenuLocation: TechDraw - Rimuovi oggetto cosmetico
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   Version: 0.19
 ---
 
 # TechDraw CosmeticEraser/it
@@ -55,4 +55,4 @@ Lo strumento Rimuovi oggetto cosmetico rimuove gli oggetti cosmetici da una pagi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticEraser/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticEraser/it

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw Dimension Angle
-   Name/de:TechDraw Winkelmaß
-   MenuLocation:TechDraw - Bemaßungen - Winkelmaß einfügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso:[TechDraw Winkelmaß3Punkte](TechDraw_3PtAngleDimension/de.md)
+   Name: TechDraw Dimension Angle
+   Name/de: TechDraw Winkelmaß
+   MenuLocation: TechDraw - Bemaßungen - Winkelmaß einfügen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   SeeAlso: [TechDraw Winkelmaß3Punkte](TechDraw_3PtAngleDimension/de.md)
 ---
 
 # TechDraw AngleDimension/de
@@ -111,4 +111,4 @@ rc = page.addView(dim1)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw AngleDimension/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw AngleDimension/de

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Lock
-   Name/cs:Přepínání uchopování
-   Workbenches:[Kreslení](Draft_Workbench/cs.md), [Architektura](Arch_Workbench/cs.md)
-   MenuLocation:Kreslení - Utility - Přepínání uchopování
+   Name: Draft Snap Lock
+   Name/cs: Přepínání uchopování
+   Workbenches: [Kreslení](Draft_Workbench/cs.md), [Architektura](Arch_Workbench/cs.md)
+   MenuLocation: Kreslení - Utility - Přepínání uchopování
 ---
 
 # Draft Snap Lock/cs
@@ -37,4 +37,4 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/cs
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/cs

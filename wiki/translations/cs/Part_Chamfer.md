@@ -1,6 +1,6 @@
 # Part Chamfer/cs
 ---
-- GuiCommand:   Name:Part Chamfer   Name/cs:Díl Zkosení   MenuLocation:Díl - Zkosení   Workbenches:[[Part_Workbench/cs   Díl]], Kompletace|SeeAlso:---
+- GuiCommand:   Name: Part Chamfer   Name/cs: Díl Zkosení   MenuLocation: Díl - Zkosení   Workbenches: [[Part_Workbench/cs   Díl]], Kompletace|SeeAlso: ---
 
 
 </div>
@@ -158,4 +158,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/cs
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/cs

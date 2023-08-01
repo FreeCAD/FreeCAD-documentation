@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher Trimming
-   Name/pl:Szkicownik: Przytnij krawędź
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Przytnij krawędź
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **T**
-   Version:0.12
-   SeeAlso:[Rozszerz krawędź](Sketcher_Extend/pl.md)
+   Name: Sketcher Trimming
+   Name/pl: Szkicownik: Przytnij krawędź
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Przytnij krawędź
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **G** **T**
+   Version: 0.12
+   SeeAlso: [Rozszerz krawędź](Sketcher_Extend/pl.md)
 ---
 
 # Sketcher Trimming/pl
@@ -39,4 +39,4 @@ To narzędzie przycina krawędź w miejscu najbliższego przecięcia z innymi kr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/pl

@@ -1,8 +1,4 @@
 # Standard Menu/de
-{{TOCright}}
-
-
-
 ## Einführung
 
 Das Standardmenü bietet Zugriff auf Werkzeuge, die in allen Arbeitsbereichen verwendet werden können. Das Menü kann je nach Desktop-Umgebung (KDE, Gnome, Windows, macOS usw.) etwas anders aussehen. Arbeitsbereiche können auch Untermenüs hinzufügen, je nachdem, wie sie sich entscheiden, ihre Werkzeuge zu strukturieren.
@@ -51,4 +47,4 @@ Das Standardmenü besteht aus 7 Untermenüs:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Standard Menu/de
+⏵ [documentation index](../README.md) > Standard Menu/de

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher Create3PointCircle
-   Name/it:Crea cerchio da 3 punti
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch - Geometrie - Cerchio da tre punti
-   Shortcut:
-   SeeAlso:
+   Name: Sketcher Create3PointCircle
+   Name/it: Crea cerchio da 3 punti
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation: Sketch - Geometrie - Cerchio da tre punti
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Sketcher Create3PointCircle/it
@@ -57,4 +57,4 @@ Accanto al puntatore sono visualizzate, in blu, le coordinate della sua posizion
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointCircle/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointCircle/it

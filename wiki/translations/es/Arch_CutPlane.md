@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch CutPlane
-   Name/es:Arch CutPlane
-   MenuLocation:Arch - Cut Plane
-   Workbenches:[Arch](Arch_Workbench/es.md)
-   SeeAlso:[Arch Remove](Arch_Remove/es.md)
+   Name: Arch CutPlane
+   Name/es: Arch CutPlane
+   MenuLocation: Arch - Cut Plane
+   Workbenches: [Arch](Arch_Workbench/es.md)
+   SeeAlso: [Arch Remove](Arch_Remove/es.md)
 ---
 
 # Arch CutPlane/es
@@ -135,4 +135,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/es
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/es

@@ -189,4 +189,4 @@ The tensile stress pattern suggests an alternative design concept using pre-stre
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > Analysis of reinforced concrete with FEM/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > Analysis of reinforced concrete with FEM/pl

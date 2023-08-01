@@ -8,7 +8,7 @@
 </div>
 
 
-{{TOCright}}
+
 
 ## Descrizione
 
@@ -83,4 +83,4 @@ There is currently no GUI integration of 4th-axis rotational settings in the rel
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path fourth axis/it
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path fourth axis/it

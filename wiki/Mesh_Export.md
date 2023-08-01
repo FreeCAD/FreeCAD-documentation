@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh Export
-   MenuLocation:Meshes - Export mesh...
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Std Export](Std_Export.md), [Import Export](Import_Export.md)
+   Name: Mesh Export
+   MenuLocation: Meshes - Export mesh...
+   Workbenches: [Mesh](Mesh_Workbench.md)
+   SeeAlso: [Std Export](Std_Export.md), [Import Export](Import_Export.md)
 ---
 
 # Mesh Export
@@ -55,4 +55,4 @@ Mesh.export([doc.Cone, doc.Cylinder], 'D:/testfiles/mymodel.stl')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Export
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Export

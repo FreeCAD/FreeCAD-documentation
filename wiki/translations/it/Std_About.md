@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std_About
-   Name/it:Informazioni su FreeCAD
-   Workbenches:Tutti
-   MenuLocation:Aiuto - Informazioni su FreeCAD
+   Name: Std_About
+   Name/it: Informazioni su FreeCAD
+   Workbenches: Tutti
+   MenuLocation: Aiuto - Informazioni su FreeCAD
 ---
 
 # Std About/it
@@ -87,4 +87,4 @@ La scheda Librerie mostra un elenco delle librerie esterne utilizzate dal progra
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/it
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/it

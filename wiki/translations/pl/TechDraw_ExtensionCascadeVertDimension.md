@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionCascadeVertDimension
-   Name/pl:Rysunek Techniczny: Rozszerzenie Wymiar pionowy kaskadowo
-   MenuLocation:Rysunek Techniczny - Rozszerzenia: Atrybuty / Modyfikatory - Wymiar pionowy kaskadowo
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[Wymiar pionowy kaskadowo](TechDraw_ExtensionCascadeHorizDimension/pl.md), [Wymiar ukośny kaskadowo](TechDraw_ExtensionCascadeObliqueDimension/pl.md)
+   Name: TechDraw ExtensionCascadeVertDimension
+   Name/pl: Rysunek Techniczny: Rozszerzenie Wymiar pionowy kaskadowo
+   MenuLocation: Rysunek Techniczny - Rozszerzenia: Atrybuty / Modyfikatory - Wymiar pionowy kaskadowo
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [Wymiar pionowy kaskadowo](TechDraw_ExtensionCascadeHorizDimension/pl.md), [Wymiar ukośny kaskadowo](TechDraw_ExtensionCascadeObliqueDimension/pl.md)
 ---
 
 # TechDraw ExtensionCascadeVertDimension/pl
@@ -49,4 +49,4 @@ Narzędzie **Wymiar poziomy kaskadowo** równomiernie rozmieszcza wymiary poziom
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCascadeVertDimension/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCascadeVertDimension/pl

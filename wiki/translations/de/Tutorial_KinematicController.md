@@ -1597,4 +1597,4 @@ if __name__ == "__main__":
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Tutorial KinematicController/de
+⏵ [documentation index](../README.md) > Tutorial KinematicController/de

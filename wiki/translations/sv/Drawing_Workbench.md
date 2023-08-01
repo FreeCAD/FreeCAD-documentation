@@ -9,7 +9,7 @@ The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement
 Ritnings modulen tillåter dig att lägga ut ditt 3D arbete på papper. Det är, att lägga vyer av dina modeller i ett 2D fönster osh att sätta in det fönstret i en ritning, till exempel ett ark med en ram, en titel och din logotyp och slutligen skriva ut det arket. Ritningsmodulen är för närvarande under konstruktion och är mer eller mindre en teknologisk förhandstitt!
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Drawing_extraction.png  style="width:600px;">
 
@@ -105,4 +105,4 @@ Some notes on the programming side of the drawing module will be added to the [D
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/sv
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/sv

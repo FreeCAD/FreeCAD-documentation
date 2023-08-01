@@ -142,4 +142,4 @@ The table below lists the other advanced Navigation Cube parameters that can be 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Navigation Cube
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Navigation Cube

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Robot RestoreHomePos
-   Name/tr:Robot Ana konuma dön
-   Workbenches:[Robot](Robot_Workbench/tr.md)
-   MenuLocation:Robot - Ana konuma dön
+   Name: Robot RestoreHomePos
+   Name/tr: Robot Ana konuma dön
+   Workbenches: [Robot](Robot_Workbench/tr.md)
+   MenuLocation: Robot - Ana konuma dön
 ---
 
 # Robot RestoreHomePos/tr
@@ -61,4 +61,4 @@ Birden fazla robot seçilmediyse, sadece bir robot seçmeniz istenir.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos/tr
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos/tr

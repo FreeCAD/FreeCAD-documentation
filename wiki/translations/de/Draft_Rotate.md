@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Rotate
-   Name/de:Draft Drehen
-   MenuLocation:Änderung - Drehen
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Shortcut:**R****O**
-   Version:0.7
-   SeeAlso:[Draft UnterelementHervorheben](Draft_SubelementHighlight/de.md)
+   Name: Draft Rotate
+   Name/de: Draft Drehen
+   MenuLocation: Änderung - Drehen
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut: **R****O**
+   Version: 0.7
+   SeeAlso: [Draft UnterelementHervorheben](Draft_SubelementHighlight/de.md)
 ---
 
 # Draft Rotate/de
@@ -134,4 +134,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/de

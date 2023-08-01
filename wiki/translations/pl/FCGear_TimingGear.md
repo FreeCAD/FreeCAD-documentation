@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FCGear TimingGear
-   MenuLocation:Gear - Timing Gear
-   Workbenches:[FCGear](FCGear_Workbench.md)
-   Shortcut:None
-   Version:v0.16
-   SeeAlso:
+   Name: FCGear TimingGear
+   MenuLocation: Gear - Timing Gear
+   Workbenches: [FCGear](FCGear_Workbench.md)
+   Shortcut: None
+   Version: v0.16
+   SeeAlso: 
 ---
 
 # FCGear TimingGear/pl
@@ -79,4 +79,4 @@ An FCGear TimingGear object is derived from a [Part Feature](Part_Feature.md) ob
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear TimingGear/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear TimingGear/pl

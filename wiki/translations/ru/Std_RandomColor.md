@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std RandomColor
-   Name/ru:Std RandomColor (Случайный цвет)
-   MenuLocation:Вид - Случайный цвет
-   Workbenches:Все
+   Name: Std RandomColor
+   Name/ru: Std RandomColor (Случайный цвет)
+   MenuLocation: Вид - Случайный цвет
+   Workbenches: Все
 ---
 
 # Std RandomColor/ru
@@ -34,4 +34,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std RandomColor/ru
+⏵ [documentation index](../README.md) > Std RandomColor/ru

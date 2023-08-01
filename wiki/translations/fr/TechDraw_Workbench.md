@@ -9,7 +9,7 @@ Des dimensions, des sections, des zones hachurées, des annotations et des symbo
 Si votre objectif principal est la production de dessins 2D complexes et de fichiers [DXF](DXF/fr.md) et que vous n\'avez pas besoin de modélisation 3D, FreeCAD n\'est peut-être pas le bon choix pour vous. Vous pouvez envisager d\'utiliser un logiciel dédié au dessin technique, tel que [LibreCAD](https://fr.wikipedia.org/wiki/LibreCAD) ou [QCad](https://fr.wikipedia.org/wiki/QCad).
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/TechDraw_Workbench_Example.png  style="width:600px;">
 
@@ -377,4 +377,4 @@ Voulez-vous en savoir plus sur l\'avenir de l\'atelier TechDraw ? Visitez [la pa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/fr
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/fr

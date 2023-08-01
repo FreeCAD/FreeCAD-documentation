@@ -1,6 +1,4 @@
 # Path Preferences/it
-{{TOCright}}
-
 ## Overview
 
 Le preferenze per l\'ambiente [Path](Path_Workbench/it.md) si trovano nel [Editor delle preferenze](Preferences_Editor/it.md), nel menu **Modifica → Preferenze → Path**.
@@ -56,4 +54,4 @@ There are four sections: General, Post processor, Setup and Tools.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Path](Path_Workbench.md) > Path Preferences/it
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Path](Path_Workbench.md) > Path Preferences/it

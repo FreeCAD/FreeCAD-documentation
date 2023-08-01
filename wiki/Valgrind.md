@@ -1,6 +1,4 @@
 # Valgrind
-{{TOCright}}
-
 ## Introduction
 
 [Valgrind](https://valgrind.org/) is an instrumentation framework for building dynamic analysis tools. There are [Valgrind tools](https://valgrind.org/info/tools.html) that can automatically detect many memory management and threading bugs, and profile your programs in detail. This wiki page will document using valgrind to detect memory management issues withing FreeCAD.
@@ -25,4 +23,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > [Developer](Category_Developer.md) > Valgrind
+⏵ [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > [Developer](Category_Developer.md) > Valgrind

@@ -1,12 +1,12 @@
 # OpenSCAD Minkowski/ru
 ---
 - GuiCommand:
-   Name:OpenSCAD Minkowski
-   Name/ru:OpenSCAD Minkowski
-   MenuLocation:OpenSCAD - Minkowski‏‎
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/ru.md)
-   Shortcut:нет
-   SeeAlso:
+   Name: OpenSCAD Minkowski
+   Name/ru: OpenSCAD Minkowski
+   MenuLocation: OpenSCAD - Minkowski‏‎
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench/ru.md)
+   Shortcut: нет
+   SeeAlso: 
 
 
 </div>
@@ -50,4 +50,4 @@ Feature needs OpenSCAD installed and configured in **Edit** → **Preferences**
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Minkowski/ru
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Minkowski/ru

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Web BrowserSetURL
-   MenuLocation:
-   Workbenches:[Web](Web_Workbench.md), [Start](Start_Workbench.md)
-   SeeAlso:[Web OpenWebsite](Web_OpenWebsite.md)
+   Name: Web BrowserSetURL
+   MenuLocation: 
+   Workbenches: [Web](Web_Workbench.md), [Start](Start_Workbench.md)
+   SeeAlso: [Web OpenWebsite](Web_OpenWebsite.md)
 ---
 
 # Web BrowserSetURL/en
@@ -31,4 +31,4 @@ Use the <img alt="" src=images/Web_BrowserSetURL.svg  style="width:24px;"> **Web
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserSetURL/en
+⏵ [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserSetURL/en

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std PrintPdf
-   Name/de:Std DruckZuPDF
-   MenuLocation:Datei - PDF exportieren...
-   Workbenches:All
-   SeeAlso:[Std Drucken](Std_Print/de.md), [Std Export](Std_Export/de.md), [Std AnsichtAufnehmen](Std_ViewScreenShot/de.md)
+   Name: Std PrintPdf
+   Name/de: Std DruckZuPDF
+   MenuLocation: Datei - PDF exportieren...
+   Workbenches: All
+   SeeAlso: [Std Drucken](Std_Print/de.md), [Std Export](Std_Export/de.md), [Std AnsichtAufnehmen](Std_ViewScreenShot/de.md)
 ---
 
 # Std PrintPdf/de
@@ -54,4 +54,4 @@ Der Befehl **Std DruckZuPDF** ist in erster Linie zum Erstellen von [PDF](PDF/de
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std PrintPdf/de
+⏵ [documentation index](../README.md) > Std PrintPdf/de

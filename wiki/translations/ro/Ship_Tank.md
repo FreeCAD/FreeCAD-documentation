@@ -1,6 +1,6 @@
 # Ship Tank/ro
 ---
-- GuiCommand:   Name:Ship TankNew   MenuLocation:Weights - Create a new tank   |Workbenches:[[Ship Workbench   Ship]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Ship TankNew   MenuLocation: Weights - Create a new tank   |Workbenches: [[Ship Workbench   Ship]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -27,4 +27,4 @@ When the **Accept** button is pressed, a new tank instance is created inside the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Tank/ro
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Tank/ro

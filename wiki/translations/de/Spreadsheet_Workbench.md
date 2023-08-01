@@ -7,7 +7,7 @@
 Der <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Arbeitsbereich Tabellenkalkulation](Spreadsheet_Workbench/de.md) ermöglicht die Erstellung und Bearbeitung von Tabellen, Daten aus der Tabellenkalkulation als Parameter in einem Modell zu verwenden, die Tabellenkalkulation mit aus einem Modell abgerufenen Daten zu füllen, Berechnungen durchzuführen und die Daten in andere Tabellenkalkulationsprogramme wie LibreOffice oder Microsoft Excel zu exportieren.
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:600px;"> 
 *Eine Tabellenblatt mit bestimmten Zellen, die mit Text und Mengen gefüllt sind*
@@ -383,4 +383,4 @@ sheet.get('Diameter')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/de
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/de

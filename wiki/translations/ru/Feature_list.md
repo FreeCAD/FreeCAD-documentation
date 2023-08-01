@@ -7,7 +7,7 @@
 Это обширный, но неполный список функций, реализованных во FreeCAD.
 
 
-{{TOCright}}
+
 
 
 
@@ -115,4 +115,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/ru
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/ru

@@ -142,4 +142,4 @@ These files are ready to send to the shops that will do the actual cut. It would
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Wikihouse porting tutorial/ru
+⏵ [documentation index](../README.md) > Wikihouse porting tutorial/ru

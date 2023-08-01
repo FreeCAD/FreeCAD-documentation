@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Facebinder
-   MenuLocation:Drafting - Facebinder
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:**F** **F**
-   Version:0.14
+   Name: Draft Facebinder
+   MenuLocation: Drafting - Facebinder
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut: **F** **F**
+   Version: 0.14
 ---
 
 # Draft Facebinder
@@ -121,4 +121,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Facebinder
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Facebinder

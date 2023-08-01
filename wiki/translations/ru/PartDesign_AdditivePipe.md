@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Аддитивный трубный профиль
-   Name:PartDesign_AdditivePipe
-   MenuLocation:PartDesign - Create an additive feature - Аддитивный трубный профиль
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Аддитивный профиль](PartDesign_AdditiveLoft/ru.md), [Субтрактивный трубный профиль](PartDesign_SubtractivePipe/ru.md)
+   Name/ru: Аддитивный трубный профиль
+   Name: PartDesign_AdditivePipe
+   MenuLocation: PartDesign - Create an additive feature - Аддитивный трубный профиль
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Аддитивный профиль](PartDesign_AdditiveLoft/ru.md), [Субтрактивный трубный профиль](PartDesign_SubtractivePipe/ru.md)
 ---
 
 # PartDesign AdditivePipe/ru
@@ -113,4 +113,4 @@ To use more than one cross-section, start with the first cross-section sketch as
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePipe/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePipe/ru

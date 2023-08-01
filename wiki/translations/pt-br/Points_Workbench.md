@@ -14,7 +14,7 @@
 ## Introdução
 
 
-{{TOCright}}
+
 
 A <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> [Bancada de trabalho Pontos](Points_Workbench.md) tem por objetivo fornecer ferramentas específicas para trabalhar com [nuvens de pontos](http://en.wikipedia.org/wiki/Point_cloud). A bancada de trabalho Pontos ainda está em desenvolvimento.
 
@@ -65,4 +65,4 @@ Todas as ferramentas da Bancada de Trabalho Points podem ser acessadas do menu *
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/pt-br
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/pt-br

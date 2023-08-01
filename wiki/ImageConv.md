@@ -16,4 +16,4 @@ ImageConv is a command line tool.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > ImageConv
+⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > ImageConv

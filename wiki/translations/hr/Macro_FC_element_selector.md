@@ -234,4 +234,4 @@ Drugi slični makro [Macro Mouse over cb](Macro_Mouse_over_cb/hr.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro FC element selector/hr
+⏵ [documentation index](../README.md) > Macro FC element selector/hr

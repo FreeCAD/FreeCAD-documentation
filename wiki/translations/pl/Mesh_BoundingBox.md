@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh BoundingBox
-   Name/pl:Siatka: Informacje o granicach
-   MenuLocation:Siatki - Analizuj - Informacje o granicach ...
-   Workbenches:[Mesh](Mesh_Workbench.md)
+   Name: Mesh BoundingBox
+   Name/pl: Siatka: Informacje o granicach
+   MenuLocation: Siatki - Analizuj - Informacje o granicach ...
+   Workbenches: [Mesh](Mesh_Workbench.md)
 ---
 
 # Mesh BoundingBox/pl
@@ -33,4 +33,4 @@ Polecenie **Informacje o granicach** pokazuje współrzędne ramki otaczającej 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/pl
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/pl

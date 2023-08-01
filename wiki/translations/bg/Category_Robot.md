@@ -10,4 +10,4 @@ This category lists pages related to the [Robot Workbench/bg](Robot_Workbench/bg
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Robot/bg
+⏵ [documentation index](../README.md) > Category:Robot/bg

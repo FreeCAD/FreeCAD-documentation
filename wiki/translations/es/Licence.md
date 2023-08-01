@@ -1,7 +1,4 @@
 # Licence/es
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 ### Licencias utilizadas 
@@ -125,4 +122,4 @@ No obstante, esta decisión se ha tomado sólo para el sistema básico de FreeCA
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/es
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/es

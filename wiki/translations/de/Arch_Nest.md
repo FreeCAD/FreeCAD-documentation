@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Nest
-   Name/de:Arch Verschachteln
-   MenuLocation:Arch - Tafelwerkzeuge - Verschachteln
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   SeeAlso:[Arch Tafel](Arch_Panel/de.md), [Arch Tafelplatte](Arch_Panel_Sheet/de.md)
+   Name: Arch Nest
+   Name/de: Arch Verschachteln
+   MenuLocation: Arch - Tafelwerkzeuge - Verschachteln
+   Workbenches: [Arch](Arch_Workbench/de.md)
+   SeeAlso: [Arch Tafel](Arch_Panel/de.md), [Arch Tafelplatte](Arch_Panel_Sheet/de.md)
 ---
 
 # Arch Nest/de
@@ -68,4 +68,4 @@ Der Algorithmus hinter dem Verschachtelungswerkzeug befindet sich in ständiger 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Nest/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Nest/de

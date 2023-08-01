@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Path Stop
-   Name/ru:Path Stop
-   MenuLocation:Путь - Частичные команды - Остановить
-   Workbenches:[Path](Path_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:
+   Name: Path Stop
+   Name/ru: Path Stop
+   MenuLocation: Путь - Частичные команды - Остановить
+   Workbenches: [Path](Path_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Path Stop/ru
@@ -38,4 +38,4 @@ The tool <img alt="" src=images/Path_Stop.svg  style="width:24px;"> [Stop](Path_
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Stop/ru
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Stop/ru

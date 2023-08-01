@@ -1,6 +1,6 @@
 # Part Fillet/it
 ---
-- GuiCommand:   Name:Part_Fillet   Name/it:Raccorda   MenuLocation:Parte - Raccorda...   Workbenches:[SeeAlso:[[Part Chamfer/it|Smussa](Part_Workbench/it___Parte]].md)---
+- GuiCommand:   Name: Part_Fillet   Name/it: Raccorda   MenuLocation: Parte - Raccorda...   Workbenches: [SeeAlso: [[Part Chamfer/it|Smussa](Part_Workbench/it___Parte]].md)---
 
 
 </div>
@@ -89,4 +89,4 @@ Notare inoltre che la funzione Raccordo è soggetta al problema della [denominaz
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/it

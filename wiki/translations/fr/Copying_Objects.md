@@ -1,8 +1,4 @@
 # Copying Objects/fr
-{{TOCright}}
-
-
-
 ## Présentation
 
 Comme beaucoup d\'autres programmes informatiques, FreeCAD a la possibilité de couper, copier et coller des objets. Les objets [Documents](Document_structure/fr.md) peuvent être librement copiés dans un document ou entre documents en utilisant les fonctions <img alt="" src=images/Std_Copy.svg  style="width:24px;"> [Std Copier](Std_Copy/fr.md), <img alt="" src=images/Std_Paste.svg  style="width:24px;"> [Std Coller](Std_Paste/fr.md) et [Std Dupliquer une sélection](Std_DuplicateSelection/fr.md).
@@ -36,4 +32,4 @@ Comme la plupart des choses dans FreeCAD, il y a plusieurs façons de faire une 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Copying Objects/fr
+⏵ [documentation index](../README.md) > Copying Objects/fr

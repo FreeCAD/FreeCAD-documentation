@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_Redo
-   Name/ru:Вернуть
-   MenuLocation:Правка - Вернуть
-   Workbenches:Все
-   Shortcut:**Ctrl**+**Y**
-   SeeAlso:[Отмена](Std_Undo/ru.md)
+   Name: Std_Redo
+   Name/ru: Вернуть
+   MenuLocation: Правка - Вернуть
+   Workbenches: Все
+   Shortcut: **Ctrl**+**Y**
+   SeeAlso: [Отмена](Std_Undo/ru.md)
 ---
 
 # Std Redo/ru
@@ -58,4 +58,4 @@ FreeCAD.ActiveDocument.redo()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Redo/ru
+⏵ [documentation index](../README.md) > Std Redo/ru

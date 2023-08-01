@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw_ArchView
-   Name/it:Vista di Arch
-   MenuLocation:TechDraw - Vista di Arch
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Arch](Arch_Workbench/it.md), [Piano di sezione di Arch](Arch_SectionPlane/it.md)
+   Name: TechDraw_ArchView
+   Name/it: Vista di Arch
+   MenuLocation: TechDraw - Vista di Arch
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso: [Arch](Arch_Workbench/it.md), [Piano di sezione di Arch](Arch_SectionPlane/it.md)
 ---
 
 # TechDraw ArchView/it
@@ -160,4 +160,4 @@ rc = page.addView(dv)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ArchView/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ArchView/it

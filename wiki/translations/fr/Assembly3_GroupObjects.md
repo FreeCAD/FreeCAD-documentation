@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Assembly3 GroupObjects
-   Name/fr:Assembly3 Grouper des objets
-   Icon:Assembly_New_Group.svg
-   MenuLocation:Assembly3 - Group objects
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
-   Shortcut:**A** **Z**
+   Name: Assembly3 GroupObjects
+   Name/fr: Assembly3 Grouper des objets
+   Icon: Assembly_New_Group.svg
+   MenuLocation: Assembly3 - Group objects
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Shortcut: **A** **Z**
 ---
 
 # Assembly3 GroupObjects/fr
@@ -26,4 +26,4 @@ Elle peut être utilisée pour regrouper des **Contraintes**, des **Éléments**
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 GroupObjects/fr
+⏵ [documentation index](../README.md) > Assembly3 GroupObjects/fr

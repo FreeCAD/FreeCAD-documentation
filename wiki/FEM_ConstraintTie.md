@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintTie
-   MenuLocation:Model - Mechanical Constraints - Constraint tie
-   Workbenches:[FEM](FEM_Workbench.md)
-   Version:0.19
-   SeeAlso:[FEM Constraint pressure](FEM_ConstraintPressure.md)
+   Name: FEM ConstraintTie
+   MenuLocation: Model - Mechanical Constraints - Constraint tie
+   Workbenches: [FEM](FEM_Workbench.md)
+   Version: 0.19
+   SeeAlso: [FEM Constraint pressure](FEM_ConstraintPressure.md)
 ---
 
 # FEM ConstraintTie
@@ -29,4 +29,4 @@ Defines a tie constraint that connects the two selected surfaces in such a way t
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FEM ConstraintTie
+⏵ [documentation index](../README.md) > FEM ConstraintTie

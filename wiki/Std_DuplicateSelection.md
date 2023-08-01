@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std DuplicateSelection
-   MenuLocation:Edit - Duplicate selected object
-   Workbenches:All
-   SeeAlso:[Std Cut](Std_Cut.md), [Std Copy](Std_Copy.md), [Std Paste](Std_Paste.md)
+   Name: Std DuplicateSelection
+   MenuLocation: Edit - Duplicate selected object
+   Workbenches: All
+   SeeAlso: [Std Cut](Std_Cut.md), [Std Copy](Std_Copy.md), [Std Paste](Std_Paste.md)
 ---
 
 # Std DuplicateSelection
@@ -34,4 +34,4 @@ The **Std DuplicateSelection** command duplicates objects within the active docu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DuplicateSelection
+⏵ [documentation index](../README.md) > Std DuplicateSelection

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher NewSketch
-   Name/pl:Szkicownik: Utwórz szkic
-   MenuLocation:Szkic - Utwórz szkic
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   SeeAlso:[Utwórz szkic](PartDesign_NewSketch/pl.md), [Zmień orientację szkicu ...](Sketcher_ReorientSketch/pl.md)
+   Name: Sketcher NewSketch
+   Name/pl: Szkicownik: Utwórz szkic
+   MenuLocation: Szkic - Utwórz szkic
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   SeeAlso: [Utwórz szkic](PartDesign_NewSketch/pl.md), [Zmień orientację szkicu ...](Sketcher_ReorientSketch/pl.md)
 ---
 
 # Sketcher NewSketch/pl
@@ -50,4 +50,4 @@ Szkic można przesuwać w przestrzeni okna [widoku 3D](3D_view/pl.md) za pomocą
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/pl

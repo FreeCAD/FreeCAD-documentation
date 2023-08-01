@@ -155,4 +155,4 @@ Aber das Beste aus beiden Welten existiert ebenfalls, das ist die [Assembly2 Wor
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/de
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/de

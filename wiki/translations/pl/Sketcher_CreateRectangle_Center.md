@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateRectangle Center
-   Name/pl:Szkicownik: Utwórz wyśrodkowany prostokąt
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz wyśrodkowany prostokąt
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **V**
-   Version:0.20
-   SeeAlso:[Utwórz prostokąt](Sketcher_CreateRectangle/pl.md)
+   Name: Sketcher CreateRectangle Center
+   Name/pl: Szkicownik: Utwórz wyśrodkowany prostokąt
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Utwórz wyśrodkowany prostokąt
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **G** **V**
+   Version: 0.20
+   SeeAlso: [Utwórz prostokąt](Sketcher_CreateRectangle/pl.md)
 ---
 
 # Sketcher CreateRectangle Center/pl
@@ -39,4 +39,4 @@ Podczas uruchamiania narzędzia kursor myszki zmienia wygląd na biały krzyżyk
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle Center/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle Center/pl

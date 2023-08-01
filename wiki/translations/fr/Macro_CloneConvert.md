@@ -147,4 +147,4 @@ ver 0.13 = 15/09/2019 remplacé le signe grec micro par \"um\" (trop de problèm
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro CloneConvert/fr
+⏵ [documentation index](../README.md) > Macro CloneConvert/fr

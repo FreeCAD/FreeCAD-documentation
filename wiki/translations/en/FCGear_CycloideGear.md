@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FCGear CycloideGear/en
+⏵ [documentation index](../README.md) > FCGear CycloideGear/en

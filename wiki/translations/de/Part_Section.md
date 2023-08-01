@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Section
-   Name/de:Part Schnittkurve
-   MenuLocation:Formteil - Schnittkurve
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Querschnitte](Part_CrossSections/de.md)
+   Name: Part Section
+   Name/de: Part Schnittkurve
+   MenuLocation: Formteil - Schnittkurve
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: [Part Querschnitte](Part_CrossSections/de.md)
 ---
 
 # Part Section/de
@@ -71,4 +71,4 @@ Zum Erzeugen von Querschnitten mit Schnittebenen siehe <img alt="" src=images/Pa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/de

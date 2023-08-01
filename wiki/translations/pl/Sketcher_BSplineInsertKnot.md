@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher BSplineInsertKnot
-   Name/pl:Szkicownik: Wstaw węzeł krzywej zlożonej
-   MenuLocation:Szkic - Narzędzia szkicownika krzywej złożonej - Wstaw węzeł
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Version:0.20
-   SeeAlso:[Pokaż / ukryj wyświetlanie węzłów krzywej złożonej](Sketcher_BSplineKnotMultiplicity/pl.md), [Zwiększ krotność węzłów krzywej złożonej](Sketcher_BSplineIncreaseKnotMultiplicity/pl.md), [Zmniejsz krotność węzła krzywej złożonej](Sketcher_BSplineDecreaseKnotMultiplicity/pl.md)
+   Name: Sketcher BSplineInsertKnot
+   Name/pl: Szkicownik: Wstaw węzeł krzywej zlożonej
+   MenuLocation: Szkic - Narzędzia szkicownika krzywej złożonej - Wstaw węzeł
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Version: 0.20
+   SeeAlso: [Pokaż / ukryj wyświetlanie węzłów krzywej złożonej](Sketcher_BSplineKnotMultiplicity/pl.md), [Zwiększ krotność węzłów krzywej złożonej](Sketcher_BSplineIncreaseKnotMultiplicity/pl.md), [Zmniejsz krotność węzła krzywej złożonej](Sketcher_BSplineDecreaseKnotMultiplicity/pl.md)
 ---
 
 # Sketcher BSplineInsertKnot/pl
@@ -39,4 +39,4 @@ Wstawia węzeł do istniejącej [krzywej złożonej](B-Splines/pl.md). Jeśli pr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineInsertKnot/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineInsertKnot/pl

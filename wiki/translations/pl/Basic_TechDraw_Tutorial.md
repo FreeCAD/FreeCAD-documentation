@@ -169,4 +169,4 @@ oferuje o wiele więcej funkcjonalności - widoki przekrojów, widoki szczegół
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Basic TechDraw Tutorial/pl
+⏵ [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Basic TechDraw Tutorial/pl

@@ -1,6 +1,6 @@
 # Draft Rotate/sv
 ---
-- GuiCommand:   Name:Draft_Rotate   Workbenches:[[Draft_Workbench/sv   Skiss]]|MenuLocation:Draft -> Rotate---
+- GuiCommand:   Name: Draft_Rotate   Workbenches: [[Draft_Workbench/sv   Skiss]]|MenuLocation: Draft -> Rotate---
 
 
 </div>
@@ -138,4 +138,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/sv

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Std Group
-   Name/pl:Std: Grupa
-   MenuLocation:[Widok drzewa](Tree_view/pl.md) - Kliknij prawym przyciskiem myszki nazwę dokumentu - Utwórz grupę ...
-   Workbenches:wszystkie
-   Shortcut:
-   Version:
-   SeeAlso:[Część](Std_Part/pl.md), [Wybierz grupę](Draft_SelectGroup/pl.md), [Dodaj do grupy](Draft_AddToGroup/pl.md)
+   Name: Std Group
+   Name/pl: Std: Grupa
+   MenuLocation: [Widok drzewa](Tree_view/pl.md) - Kliknij prawym przyciskiem myszki nazwę dokumentu - Utwórz grupę ...
+   Workbenches: wszystkie
+   Shortcut: 
+   Version: 
+   SeeAlso: [Część](Std_Part/pl.md), [Wybierz grupę](Draft_SelectGroup/pl.md), [Dodaj do grupy](Draft_AddToGroup/pl.md)
 ---
 
 # Std Group/pl
@@ -119,4 +119,4 @@ Na przykład [Analiza MES](FEM_Analysis/pl.md) jest obiektem `App::DocumentObjec
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Group/pl
+⏵ [documentation index](../README.md) > Std Group/pl

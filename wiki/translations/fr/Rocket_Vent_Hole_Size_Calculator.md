@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Rocket Vent Hole Size Calculator
-   Name/fr:Rocket Calcul taille trou d'évent
-   Icon:Rocket_Calculator.svg
-   MenuLocation:Rocket - Calculators - Vent Hole Size Calculator
-   Workbenches:[Rocket](Rocket_Workbench/fr.md)
-   Version:0.19
+   Name: Rocket Vent Hole Size Calculator
+   Name/fr: Rocket Calcul taille trou d'évent
+   Icon: Rocket_Calculator.svg
+   MenuLocation: Rocket - Calculators - Vent Hole Size Calculator
+   Workbenches: [Rocket](Rocket_Workbench/fr.md)
+   Version: 0.19
 ---
 
 # Rocket Vent Hole Size Calculator/fr
@@ -52,4 +52,4 @@ Les calculs sont effectués en unités métriques, mais s\'affichent dans les un
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Vent Hole Size Calculator/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Vent Hole Size Calculator/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Facebinder
-   Name/ru:Draft Facebinder
-   MenuLocation:Черчение - Граневяз
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:**F** **F**
+   Name: Draft Facebinder
+   Name/ru: Draft Facebinder
+   MenuLocation: Черчение - Граневяз
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: **F** **F**
 ---
 
 # Draft Facebinder/ru
@@ -130,4 +130,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Facebinder/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Facebinder/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet Export
-   MenuLocation:Spreadsheet - Export spreadsheet
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
-   Version:0.17
-   SeeAlso:[Spreadsheet Import](Spreadsheet_Import.md)
+   Name: Spreadsheet Export
+   MenuLocation: Spreadsheet - Export spreadsheet
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench.md)
+   Version: 0.17
+   SeeAlso: [Spreadsheet Import](Spreadsheet_Import.md)
 ---
 
 # Spreadsheet Export/en
@@ -29,4 +29,4 @@ The **[<img src=images/Spreadsheet_Export.svg style="width:16px"> [Spreadsheet E
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Export/en
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Export/en

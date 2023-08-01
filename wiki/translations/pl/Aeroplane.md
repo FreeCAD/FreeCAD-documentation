@@ -111,4 +111,4 @@ Mam nadzieję, że ten mały poradnik pomógł Ci zrozumieć rotacje.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Category_Part.md) > Aeroplane/pl
+⏵ [documentation index](../README.md) > [Part](Category_Part.md) > Aeroplane/pl

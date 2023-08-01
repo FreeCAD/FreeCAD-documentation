@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Builder
-   MenuLocation:Part - Shape builder...
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part Primitives](Part_Primitives.md)
+   Name: Part Builder
+   MenuLocation: Part - Shape builder...
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Part Primitives](Part_Primitives.md)
 ---
 
 # Part Builder/pt-br
@@ -74,4 +74,4 @@ A possible workflow could be:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/pt-br
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/pt-br

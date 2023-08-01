@@ -1,6 +1,6 @@
 # PartDesign Fillet/ro
 ---
-- GuiCommand:   Name:PartDesign Fillet   Workbenches:[MenuLocation:PartDesign - Fillet   SeeAlso:[[Part Fillet|Part Fillet](PartDesign_Workbench___PartDesign]],_Complete.md)---
+- GuiCommand:   Name: PartDesign Fillet   Workbenches: [MenuLocation: PartDesign - Fillet   SeeAlso: [[Part Fillet|Part Fillet](PartDesign_Workbench___PartDesign]],_Complete.md)---
 
 
 </div>
@@ -187,4 +187,4 @@ Read more in [topological naming problem](Topological_naming_problem.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Fillet/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Fillet/ro

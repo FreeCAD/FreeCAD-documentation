@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Git
-‏‎   Name/it:Arch Git
-   MenuLocation:Arch - Utilità - Git
-   Workbenches:[Arch](Arch_Workbench/it.md)
-   Shortcut:
-‏‎   SeeAlso:
+   Name: Arch Git
+‏‎   Name/it: Arch Git
+   MenuLocation: Arch - Utilità - Git
+   Workbenches: [Arch](Arch_Workbench/it.md)
+   Shortcut: 
+‏‎   SeeAlso: 
 ---
 
 # WebTools Git/it
@@ -171,4 +171,4 @@ Per abilitare l\'utilizzo di fcinfo (solo per Linux e Mac - Da fare: aggiungere 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > WebTools Git/it
+⏵ [documentation index](../README.md) > WebTools Git/it

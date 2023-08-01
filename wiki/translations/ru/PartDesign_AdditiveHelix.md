@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Аддитивная спираль
-   Name:PartDesign_AdditiveHelix
-   MenuLocation:PartDesign - Create an additive feature - Аддитивная спираль
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Субтрактивная спираль](PartDesign_SubtractiveHelix/ru.md)
+   Name/ru: Аддитивная спираль
+   Name: PartDesign_AdditiveHelix
+   MenuLocation: PartDesign - Create an additive feature - Аддитивная спираль
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Субтрактивная спираль](PartDesign_SubtractiveHelix/ru.md)
 ---
 
 # PartDesign AdditiveHelix/ru
@@ -136,4 +136,4 @@ If checked, the helix will be shown in the view, and updated automatically on ev
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveHelix/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveHelix/ru

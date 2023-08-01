@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:SheetMetal AddRelief
-   Name/de:SheetMetal EntlastungsausschnittHinzufügen
-   MenuLocation:SheetMetal - Make Relief
-   Workbenches:[Blech (SheetMetal)](SheetMetal_Workbench/de.md)
-   Shortcut:**S** **R**
-   SeeAlso:[SheetMetal Stoß hinzufügen](SheetMetal_AddJunction/de.md), [SheetMetal Biegung hinzufügen](SheetMetal_AddBend/de.md)
+   Name: SheetMetal AddRelief
+   Name/de: SheetMetal EntlastungsausschnittHinzufügen
+   MenuLocation: SheetMetal - Make Relief
+   Workbenches: [Blech (SheetMetal)](SheetMetal_Workbench/de.md)
+   Shortcut: **S** **R**
+   SeeAlso: [SheetMetal Stoß hinzufügen](SheetMetal_AddJunction/de.md), [SheetMetal Biegung hinzufügen](SheetMetal_AddBend/de.md)
 ---
 
 # SheetMetal AddRelief/de
@@ -83,4 +83,4 @@ Ein SheetMetal-Relief-Objekt wird von einem [Part-Formelement](Part_Feature/de.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddRelief/de
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddRelief/de

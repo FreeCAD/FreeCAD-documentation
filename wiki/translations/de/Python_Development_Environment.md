@@ -1,8 +1,4 @@
 # Python Development Environment/de
-{{TOCright}}
-
-
-
 ## Eine vereinfachte Entwicklungsumgebung für Python in FreeCAD 
 
 [Python](wikipedia:Python_(programming_language).md) ist eine Programmierumgebung, die in das [FreeCAD](https://www.freecadweb.org/)-System integriert wurde. Mit Python stehen viele von FreeCAD bereitgestellte Abläufe für den programmierten Zugriff zur Verfügung. Python-Programme für FreeCAD werden in der Regel so entwickelt, dass sie entweder auf der Python-Konsole oder über die Makrofunktion von FreeCAD ausgeführt werden können (siehe [Wie man Makros installiert](How_to_install_macros/de.md)).
@@ -649,4 +645,4 @@ Einige andere Verknüpfungen über IDEs für Python, die von Interesse sein kön
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Python Code](Category_Python Code.md) > Python Development Environment/de
+⏵ [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Python Code](Category_Python Code.md) > Python Development Environment/de

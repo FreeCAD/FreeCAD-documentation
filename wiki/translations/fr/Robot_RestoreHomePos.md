@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Robot RestoreHomePos
-   Name/fr:Robot Position de départ
-   MenuLocation:Robot - Passer à la position de départ
-   Workbenches:[Robot](Robot_Workbench/fr.md)
+   Name: Robot RestoreHomePos
+   Name/fr: Robot Position de départ
+   MenuLocation: Robot - Passer à la position de départ
+   Workbenches: [Robot](Robot_Workbench/fr.md)
 ---
 
 # Robot RestoreHomePos/fr
@@ -34,4 +34,4 @@ Permet au robot sélectionné de se déplacer vers sa position de départ.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos/fr
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos/fr

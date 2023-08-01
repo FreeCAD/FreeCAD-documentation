@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Line
-   Name/es:Borrador Linea
-   MenuLocation:Borrador - Línea
-   Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   Shortcut:**L** **I**
-   Version:0.7
-   SeeAlso:[Borrador Hilo](Draft_Wire/es.md), [Borrador Punto](Draft_Point/es.md)
+   Name: Draft Line
+   Name/es: Borrador Linea
+   MenuLocation: Borrador - Línea
+   Workbenches: [Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut: **L** **I**
+   Version: 0.7
+   SeeAlso: [Borrador Hilo](Draft_Wire/es.md), [Borrador Punto](Draft_Point/es.md)
 ---
 
 # Draft Line/es
@@ -165,4 +165,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Line/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Line/es

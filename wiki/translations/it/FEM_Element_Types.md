@@ -1,6 +1,4 @@
 # FEM Element Types/it
-{{TOCright}}
-
 ## Introduzione
 
 Questa descrizione è basata sul formato MED come descritto in \[<https://hammi.extra.cea.fr/static/MED/web_med/logiciels/med-2.3.1/doc/html/modele_de_donnees.html#3>. modele de donnes\].
@@ -275,4 +273,4 @@ Questa descrizione è basata sul formato MED come descritto in \[<https://hammi.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > [FEM](Category_FEM.md) > FEM Element Types/it
+⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > [FEM](Category_FEM.md) > FEM Element Types/it

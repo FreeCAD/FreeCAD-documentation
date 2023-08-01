@@ -1,8 +1,4 @@
 # Scripted objects/de
-{{TOCright}}
-
-
-
 ## Einführung
 
 Neben den Standard-Objekttypen wie Beschriftungen, Netze und Bauteilobjekte bietet FreeCAD auch die erstaunliche Möglichkeit, 100% mit Python geschriebene parametrische Objekte zu erstellen, die als [Python-Objekt](App_FeaturePython.md) (App FeaturePython-Objekt) bezeichnet werden. Diese Objekte verhalten sich genau wie jedes andere FreeCAD-Objekt und werden beim Speichern/Laden von Dateien automatisch gespeichert und wiederhergestellt.
@@ -1081,4 +1077,4 @@ Zusätzlich zu den hier vorgestellten Beispielen solltedz du einen Blick in den 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects/de

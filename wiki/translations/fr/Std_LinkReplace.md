@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std LinkReplace
-   Name/fr:Std Remplacer par un lien
-   MenuLocation:Aucun
-   Workbenches:Tous
-   Version:0.19
-   SeeAlso:[Std Créer un lien](Std_LinkMake/fr.md), [Std Créer un lien relatif](Std_LinkMakeRelative/fr.md), [Std Délier](Std_LinkUnlink/fr.md)
+   Name: Std LinkReplace
+   Name/fr: Std Remplacer par un lien
+   MenuLocation: Aucun
+   Workbenches: Tous
+   Version: 0.19
+   SeeAlso: [Std Créer un lien](Std_LinkMake/fr.md), [Std Créer un lien relatif](Std_LinkMakeRelative/fr.md), [Std Délier](Std_LinkUnlink/fr.md)
 ---
 
 # Std LinkReplace/fr
@@ -58,4 +58,4 @@ Cette commande crée un nouveau [App Link](App_Link/fr.md). Ses propriétés son
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkReplace/fr
+⏵ [documentation index](../README.md) > Std LinkReplace/fr

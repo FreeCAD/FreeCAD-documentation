@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Sketcher CompCreateRegularPolygon
-   Name/fr:Sketcher Polygones réguliers
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Name: Sketcher CompCreateRegularPolygon
+   Name/fr: Sketcher Polygones réguliers
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
 ---
 
 # Sketcher CompCreateRegularPolygon/fr
@@ -34,4 +34,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRegularPolygon/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRegularPolygon/fr

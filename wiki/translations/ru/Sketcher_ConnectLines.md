@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name/ru:Соединить края
-   Name:Sketcher_ConnectLines
-   MenuLocation:Sketch - Инструменты для эскиза - Соединить края
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**Ctrl**+**Shift**+**K**
-   Version:0.15
-   SeeAlso:[Ограничить совпадение](Sketcher_ConstrainCoincident/ru.md)
+   Name/ru: Соединить края
+   Name: Sketcher_ConnectLines
+   MenuLocation: Sketch - Инструменты для эскиза - Соединить края
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **Ctrl**+**Shift**+**K**
+   Version: 0.15
+   SeeAlso: [Ограничить совпадение](Sketcher_ConstrainCoincident/ru.md)
 ---
 
 # Sketcher ConnectLines/ru
@@ -53,4 +53,4 @@ Before using this command make sure that obvious constraints (horizontal, vertic
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConnectLines/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConnectLines/ru

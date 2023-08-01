@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std DlgMacroExecuteDirect
-   Name/de:Std MakroDirektAusführen
-   MenuLocation:Makro - Makro ausführen
-   Workbenches:Alle
-   Shortcut:**Ctrl**+**F6**
-   SeeAlso:[Std DlgMakroAusführen](Std_DlgMacroExecute/de.md)
+   Name: Std DlgMacroExecuteDirect
+   Name/de: Std MakroDirektAusführen
+   MenuLocation: Makro - Makro ausführen
+   Workbenches: Alle
+   Shortcut: **Ctrl**+**F6**
+   SeeAlso: [Std DlgMakroAusführen](Std_DlgMacroExecute/de.md)
 ---
 
 # Std DlgMacroExecuteDirect/de
@@ -39,4 +39,4 @@ Der Befehl **Std MakroDirektAusführen** Führt das Makroaus, das sich im aktive
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgMacroExecuteDirect/de
+⏵ [documentation index](../README.md) > Std DlgMacroExecuteDirect/de

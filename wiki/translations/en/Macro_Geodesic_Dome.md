@@ -348,4 +348,4 @@ Forum [Designing geodesic dome](https://forum.freecadweb.org/viewtopic.php?t=917
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Geodesic Dome/en
+⏵ [documentation index](../README.md) > Macro Geodesic Dome/en

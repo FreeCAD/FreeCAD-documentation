@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Chamfer
-   Name/es:DiseñoPieza Chaflán
-   Workbenches:[DiseñoPieza](PartDesign_Workbench/es.md)
-   MenuLocation:DiseñoPieza - Chaflán
-   SeeAlso:[Redondeo](PartDesign_Fillet/es.md), [Pieza Chaflán](Part_Chamfer/es.md)
+   Name: PartDesign Chamfer
+   Name/es: DiseñoPieza Chaflán
+   Workbenches: [DiseñoPieza](PartDesign_Workbench/es.md)
+   MenuLocation: DiseñoPieza - Chaflán
+   SeeAlso: [Redondeo](PartDesign_Fillet/es.md), [Pieza Chaflán](Part_Chamfer/es.md)
 ---
 
 # PartDesign Chamfer/es
@@ -157,4 +157,4 @@ See [PartDesign Fillet](PartDesign_Fillet#Known_issues.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/es

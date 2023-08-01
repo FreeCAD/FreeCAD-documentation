@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std DependencyGraph
-   Name/es:Std GrafoDependencia
-   MenuLocation:Hierramientas - Grafo Dependencia...
-   Workbenches:Todo
+   Name: Std DependencyGraph
+   Name/es: Std GrafoDependencia
+   MenuLocation: Hierramientas - Grafo Dependencia...
+   Workbenches: Todo
 ---
 
 # Std DependencyGraph/es
@@ -244,4 +244,4 @@ Puede guardar un gráfico dependencia:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/es
+⏵ [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/es

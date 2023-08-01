@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Layer
-   Name/it:Strato
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   MenuLocation:Draft - Utilità - Strato
-   Version:0.19
-   See also:[Draft AutoGruppo](Draft_AutoGroup/it.md)
+   Name: Draft Layer
+   Name/it: Strato
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Draft - Utilità - Strato
+   Version: 0.19
+   See also: [Draft AutoGruppo](Draft_AutoGroup/it.md)
 ---
 
 # Draft Layer/it
@@ -174,4 +174,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Layer/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Layer/it

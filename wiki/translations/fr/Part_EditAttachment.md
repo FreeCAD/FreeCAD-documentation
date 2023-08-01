@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part EditAttachment
-   Name/fr:Part Ancrage
-   MenuLocation:Part - Ancrage
-   Workbenches:[Part](Part_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[Placement](Placement/fr.md), [Tutoriel Les bases pour l'ancrage](Basic_Attachment_Tutorial/fr.md), [Part Part2DObject](Part_Part2DObject/fr.md)
+   Name: Part EditAttachment
+   Name/fr: Part Ancrage
+   MenuLocation: Part - Ancrage
+   Workbenches: [Part](Part_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [Placement](Placement/fr.md), [Tutoriel Les bases pour l'ancrage](Basic_Attachment_Tutorial/fr.md), [Part Part2DObject](Part_Part2DObject/fr.md)
 ---
 
 # Part EditAttachment/fr
@@ -314,4 +314,4 @@ Le décalage de l\'ancrage est utilisé pour appliquer un décalage linéaire ou
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part EditAttachment/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part EditAttachment/fr

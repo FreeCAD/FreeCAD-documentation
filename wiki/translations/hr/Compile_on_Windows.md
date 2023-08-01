@@ -1,7 +1,4 @@
 # Compile on Windows/hr
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 Ovaj članak objašnjava korak po korak **kako kompilirati FreeCAD na Windowsima**.
@@ -544,4 +541,4 @@ See also
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on Windows/hr
+⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on Windows/hr

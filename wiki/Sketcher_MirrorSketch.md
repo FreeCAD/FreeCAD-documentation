@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher MirrorSketch
-   MenuLocation:Sketch - Mirror sketch
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Version:0.16
+   Name: Sketcher MirrorSketch
+   MenuLocation: Sketch - Mirror sketch
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Version: 0.16
 ---
 
 # Sketcher MirrorSketch
@@ -30,4 +30,4 @@ Mirror a sketch along the x-axis, the y-axis, or the origin. This command is inv
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch

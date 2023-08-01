@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectConflictingConstraints
-   Name/es:Corquizador SeleccionarRestriccionesConflictivas
-   MenuLocation:Croquis - Corquizador Herramientas - Seleccionar Restricciones Conflictivas
-   Workbenches:[Corquizador](Sketcher_Workbench/es.md)
-   Shortcut:Shift+Ctrl+E
-   Version:0.15
+   Name: Sketcher SelectConflictingConstraints
+   Name/es: Corquizador SeleccionarRestriccionesConflictivas
+   MenuLocation: Croquis - Corquizador Herramientas - Seleccionar Restricciones Conflictivas
+   Workbenches: [Corquizador](Sketcher_Workbench/es.md)
+   Shortcut: Shift+Ctrl+E
+   Version: 0.15
 ---
 
 # Sketcher SelectConflictingConstraints/es
@@ -46,4 +46,4 @@ Selecciona las restricciones conflictivas de un croquis.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConflictingConstraints/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConflictingConstraints/es

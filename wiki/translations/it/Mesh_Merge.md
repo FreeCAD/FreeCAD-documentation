@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh_Merge
-   Name/it:Unisci
-   MenuLocation:Mesh - Unisci
-   Workbenches:[Mesh](Mesh_Workbench/it.md)
-   SeeAlso:[Dividi in componenti](Mesh_SplitComponents/it.md)
+   Name: Mesh_Merge
+   Name/it: Unisci
+   MenuLocation: Mesh - Unisci
+   Workbenches: [Mesh](Mesh_Workbench/it.md)
+   SeeAlso: [Dividi in componenti](Mesh_SplitComponents/it.md)
 ---
 
 # Mesh Merge/it
@@ -41,4 +41,4 @@ Vedere [Mesh Feature](Mesh_Feature/it.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Merge/it
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Merge/it

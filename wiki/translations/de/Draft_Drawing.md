@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Drawing
-   Name/de:Entwurf Zeichnung
-   MenuLocation:Entwurf - Zeichnung
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso:[TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md), [Form in 2D Ansicht](Draft_Shape2DView/de.md)
+   Name: Draft Drawing
+   Name/de: Entwurf Zeichnung
+   MenuLocation: Entwurf - Zeichnung
+   Workbenches: [Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso: [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md), [Form in 2D Ansicht](Draft_Shape2DView/de.md)
 ---
 
 # Draft Drawing/de
@@ -74,4 +74,4 @@ This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Drawing/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Drawing/de

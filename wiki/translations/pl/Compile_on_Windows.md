@@ -1,6 +1,4 @@
 # Compile on Windows/pl
-{{TOCright}}
-
 Ta strona wyjaśnia krok po kroku **jak skompilować FreeCAD 0.19 lub nowszy w systemie Windows** przy użyciu kompilatora MSVC firmy Microsoft. Informacje na temat korzystania z MSYS2/MinGW można znaleźć na stronie [Kompilacja z MinGW](Compile_on_MinGW/pl.md). Dla innych platform zobacz opis [kompilacji](Compiling/pl.md).
 
 
@@ -594,4 +592,4 @@ See also
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on Windows/pl
+⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on Windows/pl

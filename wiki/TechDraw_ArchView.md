@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:TechDraw ArchView
-   MenuLocation:TechDraw - Views From Other Workbenches - Insert Arch Workbench Object
-   Workbenches:[TechDraw](TechDraw_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso:[Arch Section Plane](Arch_SectionPlane.md)
+   Name: TechDraw ArchView
+   MenuLocation: TechDraw - Views From Other Workbenches - Insert Arch Workbench Object
+   Workbenches: [TechDraw](TechDraw_Workbench.md), [Arch](Arch_Workbench.md)
+   SeeAlso: [Arch Section Plane](Arch_SectionPlane.md)
 ---
 
 # TechDraw ArchView
@@ -102,4 +102,4 @@ rc = page.addView(dv)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ArchView
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ArchView

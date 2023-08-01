@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ToggleConstruction
-   Name/sv:Toggle construction geometry
-   Icon:Sketcher_AlterConstruction.svg
-   Workbenches:[Sketcher](Sketcher_Workbench/sv.md)
-   MenuLocation:Sketch - Skissgeometrier - Toggle construction geometry
+   Name: Sketcher ToggleConstruction
+   Name/sv: Toggle construction geometry
+   Icon: Sketcher_AlterConstruction.svg
+   Workbenches: [Sketcher](Sketcher_Workbench/sv.md)
+   MenuLocation: Sketch - Skissgeometrier - Toggle construction geometry
 ---
 
 # Sketcher ToggleConstruction/sv
@@ -52,4 +52,4 @@ There are two ways of using this tool:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/sv
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/sv

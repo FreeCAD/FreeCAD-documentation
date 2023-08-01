@@ -1,8 +1,4 @@
 # Macro documentation/de
-{{TOCright}}
-
-
-
 ## Beschreibung
 
 Alle Makros sollten ordentlich dokumentiert werden, und zwar auf die gleiche Weise wie [GUI-Befehle](Gui_Command/de.md) dokumentiert werden.
@@ -219,4 +215,4 @@ Um das Makro dort aufzunehmen, muss es zunächst von der FreeCAD Gemeinschaft im
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Macros](Category_Macros.md) > [User Documentation](Category_User Documentation.md) > Macro documentation/de
+⏵ [documentation index](../README.md) > [Macros](Category_Macros.md) > [User Documentation](Category_User Documentation.md) > Macro documentation/de

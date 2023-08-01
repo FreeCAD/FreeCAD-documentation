@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Surface_Sections
-   Name/it:Surface Sections
-   MenuLocation:Surface - Sections
-   Workbenches:[Surface](Surface_Workbench/it.md)
-   Version:0.19
+   Name: Surface_Sections
+   Name/it: Surface Sections
+   MenuLocation: Surface - Sections
+   Workbenches: [Surface](Surface_Workbench/it.md)
+   Version: 0.19
 ---
 
 # Surface Sections/it
@@ -133,4 +133,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface Sections/it
+⏵ [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface Sections/it

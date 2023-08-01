@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw RadiusDimension
-   Name/pl:Rysunek Techniczny: Wstaw wymiar promienia
-   MenuLocation:Rysunek Techniczny - Wymiary - Wstaw wymiar promienia
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso:[Wstaw wymiar średnicy](TechDraw_DiameterDimension/pl.md)
+   Name: TechDraw RadiusDimension
+   Name/pl: Rysunek Techniczny: Wstaw wymiar promienia
+   MenuLocation: Rysunek Techniczny - Wymiary - Wstaw wymiar promienia
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   SeeAlso: [Wstaw wymiar średnicy](TechDraw_DiameterDimension/pl.md)
 ---
 
 # TechDraw RadiusDimension/pl
@@ -89,4 +89,4 @@ rc = page.addView(dim1)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RadiusDimension/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RadiusDimension/pl

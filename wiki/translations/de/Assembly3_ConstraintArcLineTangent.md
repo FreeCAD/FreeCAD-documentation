@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintArcLineTangent
-   Name/de:Assembly3 Bogen-Linie-Tangente
-   Icon:Assembly_ConstraintArcLineTangent.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintArcLineTangent
+   Name/de: Assembly3 Bogen-Linie-Tangente
+   Icon: Assembly_ConstraintArcLineTangent.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintArcLineTangent/de
@@ -31,4 +31,4 @@ Constraint "ArcLineTangent" requires the 1st element to be an arc edge
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintArcLineTangent/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintArcLineTangent/de

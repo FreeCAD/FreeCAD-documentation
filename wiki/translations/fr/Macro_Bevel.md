@@ -39,4 +39,4 @@ Icône de la barre d\'outils ![](images/Bevel.svg )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Bevel/fr
+⏵ [documentation index](../README.md) > Macro Bevel/fr

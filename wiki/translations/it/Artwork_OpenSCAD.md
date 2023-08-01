@@ -12,4 +12,4 @@ Per tutte le icone nell\'albero del codice sorgente, vedere [Oggetti grafici](Ar
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [OpenSCAD](Category_OpenSCAD.md) > Artwork OpenSCAD/it
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [OpenSCAD](Category_OpenSCAD.md) > Artwork OpenSCAD/it

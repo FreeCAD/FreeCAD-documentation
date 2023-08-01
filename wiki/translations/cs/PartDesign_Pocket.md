@@ -1,6 +1,6 @@
 # PartDesign Pocket/cs
 ---
-- GuiCommand:   Name:PartDesign_Pocket   Name/cs:Návrh dílu Kapsa   Workbenches:[[PartDesign Workbench/cs   Návrh dílu]], Kompletace|MenuLocation:Návrh dílu -> Kapsa---
+- GuiCommand:   Name: PartDesign_Pocket   Name/cs: Návrh dílu Kapsa   Workbenches: [[PartDesign Workbench/cs   Návrh dílu]], Kompletace|MenuLocation: Návrh dílu -> Kapsa---
 
 
 </div>
@@ -190,4 +190,4 @@ Tapers the pocket in the opposite extrusion direction by the given angle. A posi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/cs
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/cs

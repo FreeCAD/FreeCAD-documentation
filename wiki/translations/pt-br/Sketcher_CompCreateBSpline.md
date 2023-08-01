@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Sketcher CompCreateBSpline
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Version:0.17
+   Name: Sketcher CompCreateBSpline
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Version: 0.17
 ---
 
 # Sketcher CompCreateBSpline/pt-br
@@ -32,4 +32,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateBSpline/pt-br
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateBSpline/pt-br

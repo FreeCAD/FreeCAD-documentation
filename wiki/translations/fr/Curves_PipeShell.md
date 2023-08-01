@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Curves PipeShell/fr
+⏵ [documentation index](../README.md) > Curves PipeShell/fr

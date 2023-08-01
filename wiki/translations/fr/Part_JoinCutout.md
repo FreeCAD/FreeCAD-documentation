@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part JoinCutout
-   Name/fr:Part Découpe
-   |MenuLocation:Part - Joindre - Découper pour un objet
-   Workbenches:[Part](Part_Workbench/fr.md)
-   Version:0.16
-   SeeAlso:[Part Connecter](Part_JoinConnect/fr.md), [Part Intégrer](Part_JoinEmbed/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)
+   Name: Part JoinCutout
+   Name/fr: Part Découpe
+   |MenuLocation: Part - Joindre - Découper pour un objet
+   Workbenches: [Part](Part_Workbench/fr.md)
+   Version: 0.16
+   SeeAlso: [Part Connecter](Part_JoinConnect/fr.md), [Part Intégrer](Part_JoinEmbed/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)
 ---
 
 # Part JoinCutout/fr
@@ -87,4 +87,4 @@ L\'outil lui-même est implémenté en Python, voir **/Mod/Part/JoinFeatures.py*
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinCutout/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinCutout/fr

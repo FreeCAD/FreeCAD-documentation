@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet StyleItalic
-   Name/de:Kalkulationstabelle StilKursiv
-   Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)
-   MenuLocation:Kalkulationstabelle - Stile - Kursiver Text
-   Version:0.17
+   Name: Spreadsheet StyleItalic
+   Name/de: Kalkulationstabelle StilKursiv
+   Workbenches: [Tabellenkalkulation](Spreadsheet_Workbench/de.md)
+   MenuLocation: Kalkulationstabelle - Stile - Kursiver Text
+   Version: 0.17
 ---
 
 # Spreadsheet StyleItalic/de
@@ -30,4 +30,4 @@ Das **[<img src=images/Spreadsheet_StyleItalic.svg style="width:16px"> [Kalkulat
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleItalic/de
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleItalic/de

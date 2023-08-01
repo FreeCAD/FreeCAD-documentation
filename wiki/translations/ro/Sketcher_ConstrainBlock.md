@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainBlock
-   Name/ro:Constrângere de blocare
-   Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation:Sketch - Constrângeri desenator - Constrain Block
-   SeeAlso:[Constrângere fixă](Sketcher_ConstrainLock/ro.md)
+   Name: Sketcher ConstrainBlock
+   Name/ro: Constrângere de blocare
+   Workbenches: [Sketcher](Sketcher_Workbench/ro.md)
+   MenuLocation: Sketch - Constrângeri desenator - Constrain Block
+   SeeAlso: [Constrângere fixă](Sketcher_ConstrainLock/ro.md)
 ---
 
 # Sketcher ConstrainBlock/ro
@@ -63,4 +63,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainBlock/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainBlock/ro

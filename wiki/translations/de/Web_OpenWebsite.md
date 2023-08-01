@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Web OpenWebsite
-   Name/de:Web WebseiteÖffnen
-   MenuLocation:
-   Workbenches:[Web](Web_Workbench/de.md), [Start](Start_Workbench/de.md)
-   SeeAlso:[Web BrowserURLBearbeiten](Web_BrowserSetURL/de.md)
+   Name: Web OpenWebsite
+   Name/de: Web WebseiteÖffnen
+   MenuLocation: 
+   Workbenches: [Web](Web_Workbench/de.md), [Start](Start_Workbench/de.md)
+   SeeAlso: [Web BrowserURLBearbeiten](Web_BrowserSetURL/de.md)
 ---
 
 # Web OpenWebsite/de
@@ -28,4 +28,4 @@ Der Befehl <img alt="" src=images/Web_OpenWebsite.svg  style="width:24px;"> **We
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web OpenWebsite/de
+⏵ [documentation index](../README.md) > [Web](Web_Workbench.md) > Web OpenWebsite/de

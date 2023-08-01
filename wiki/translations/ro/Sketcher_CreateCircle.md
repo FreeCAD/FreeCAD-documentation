@@ -1,6 +1,6 @@
 # Sketcher CreateCircle/ro
 ---
-- GuiCommand:   Name:Sketcher CreateCircle   Name/ro:Sketcher Circle   Workbenches:[MenuLocation:Sketch - Sketcher geometries - Create circle   SeeAlso:[[Sketcher CompCreateArc/ro|Sketcher Arc](Sketcher_Workbench/ro___Sketcher]].md)---
+- GuiCommand:   Name: Sketcher CreateCircle   Name/ro: Sketcher Circle   Workbenches: [MenuLocation: Sketch - Sketcher geometries - Create circle   SeeAlso: [[Sketcher CompCreateArc/ro|Sketcher Arc](Sketcher_Workbench/ro___Sketcher]].md)---
 
 
 </div>
@@ -41,4 +41,4 @@ Acest instrument desenează un cerc prin selectarea a două puncte: centrul și 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/ro

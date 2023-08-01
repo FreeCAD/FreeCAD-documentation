@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Drawing Symbol
-   Name/fr:Drawing Symbole
-   Workbenches:[Drawing](Drawing_Workbench/fr.md)
-   MenuLocation:Drawing - Symbole
-   Shortcut:
+   Name: Drawing Symbol
+   Name/fr: Drawing Symbole
+   Workbenches: [Drawing](Drawing_Workbench/fr.md)
+   MenuLocation: Drawing - Symbole
+   Shortcut: 
 ---
 
 # Drawing Symbol/fr
@@ -36,4 +36,4 @@ Cette commande vous permet d\'ajouter le contenu d\'une image SVG sur une [ Feui
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Symbol/fr
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Symbol/fr

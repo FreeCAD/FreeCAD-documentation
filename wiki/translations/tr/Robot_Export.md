@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Robot Export
-   Name/tr:Robot Dışa Aktar
-   Workbenches:[Robot](Robot_Workbench/tr.md)
-   MenuLocation:Robot - Yörünge Dışa Aktar
+   Name: Robot Export
+   Name/tr: Robot Dışa Aktar
+   Workbenches: [Robot](Robot_Workbench/tr.md)
+   MenuLocation: Robot - Yörünge Dışa Aktar
 ---
 
 # Robot Export/tr
@@ -72,4 +72,4 @@ Bir KRL dosyası (\* .src) oluşturulacaktır.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Export/tr
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Export/tr

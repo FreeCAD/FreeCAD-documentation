@@ -1,8 +1,4 @@
 # Expressions/it
-{{TOCright}}
-
-
-
 ## Descrizione
 
 È possibile definire le proprietà utilizzando espressioni matematiche. Nella GUI, gli spin box o i campi di input che sono legati alle proprietà contengono un\'icona blu <img alt="" src=images/Bound-expression.svg  style="width:24px;">. Cliccando sull\'icona, oppure digitando il segno di uguale **&#61;**, si porta in primo piano l\'editor delle espressioni per quella particolare proprietà.
@@ -1045,4 +1041,4 @@ Naturalmente, dopo spetta all\'utente il compito di caricare i documenti corrisp
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Expressions/it
+⏵ [documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Expressions/it

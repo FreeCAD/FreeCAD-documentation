@@ -1,6 +1,6 @@
 # FEM PostFilterDataAlongLine/it
 ---
-- GuiCommand:   Name:FEM_PostCreateDataAlongLineFilter   Name/it:FEM PostCreateDataAlongLineFilter   Icon:Fem-DataAlongLine.svg   MenuLocation: Risultati - Data along line filter    |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:   Name: FEM_PostCreateDataAlongLineFilter   Name/it: FEM PostCreateDataAlongLineFilter   Icon: Fem-DataAlongLine.svg   MenuLocation:  Risultati - Data along line filter    |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 
 </div>
@@ -45,4 +45,4 @@ Da fare
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterDataAlongLine/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterDataAlongLine/it

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_CloseAllWindows
-   Name/ru:Закрыть всё
-   MenuLocation:Файл - Закрыть всё
-   Workbenches:Все
-   SeeAlso:[Закрыть](Std_CloseActiveWindow/ru.md)
+   Name: Std_CloseAllWindows
+   Name/ru: Закрыть всё
+   MenuLocation: Файл - Закрыть всё
+   Workbenches: Все
+   SeeAlso: [Закрыть](Std_CloseActiveWindow/ru.md)
 ---
 
 # Std CloseAllWindows/ru
@@ -53,4 +53,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std CloseAllWindows/ru
+⏵ [documentation index](../README.md) > Std CloseAllWindows/ru

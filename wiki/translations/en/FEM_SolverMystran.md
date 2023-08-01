@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM SolverMystran
-   MenuLocation:Solve - Solver Mystran
-   Workbenches:[FEM](FEM_Workbench.md)
-   Shortcut:**S** **M**
-   Version:0.20
-   SeeAlso:[FEM tutorial](FEM_tutorial.md)
+   Name: FEM SolverMystran
+   MenuLocation: Solve - Solver Mystran
+   Workbenches: [FEM](FEM_Workbench.md)
+   Shortcut: **S** **M**
+   Version: 0.20
+   SeeAlso: [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM SolverMystran/en
@@ -113,4 +113,4 @@ add_con_force.py - Adding FORCE cards
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverMystran/en
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverMystran/en

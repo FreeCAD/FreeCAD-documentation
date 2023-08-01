@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std FreeCADFAQ
-   Name:Std: Często zadawane pytania dotyczące FreeCAD
-   MenuLocation:Pomoc - Std: Często zadawane pytania dotyczące FreeCAD
-   Workbenches:wszystkie
-   SeeAlso:[Witryna FreeCAD](Std_FreeCADWebsite/pl.md),  [Dokumentacja użytkowników](Std_FreeCADUserHub/pl.md),  [Dokumentacja skryptów środowiska Python](Std_FreeCADPowerUserHub/pl.md), [Forum FreeCAD](Std_FreeCADForum/pl.md)
+   Name: Std FreeCADFAQ
+   Name: Std: Często zadawane pytania dotyczące FreeCAD
+   MenuLocation: Pomoc - Std: Często zadawane pytania dotyczące FreeCAD
+   Workbenches: wszystkie
+   SeeAlso: [Witryna FreeCAD](Std_FreeCADWebsite/pl.md),  [Dokumentacja użytkowników](Std_FreeCADUserHub/pl.md),  [Dokumentacja skryptów środowiska Python](Std_FreeCADPowerUserHub/pl.md), [Forum FreeCAD](Std_FreeCADForum/pl.md)
 ---
 
 # Std FreeCADFAQ/pl
@@ -34,4 +34,4 @@ Obecnie polecenie wskazuje na stronę [<https://wiki.freecad.org/Frequently_aske
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADFAQ/pl
+⏵ [documentation index](../README.md) > Std FreeCADFAQ/pl

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditivePrism
-   Name/fr:PartDesign Prisme additif
-   MenuLocation:Part Design - Créer une primitive additive - Prisme additif
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[PartDesign Primitives additives](PartDesign_CompPrimitiveAdditive/fr.md), [PartDesign Prisme soustractif](PartDesign_SubtractivePrism/fr.md)
+   Name: PartDesign AdditivePrism
+   Name/fr: PartDesign Prisme additif
+   MenuLocation: Part Design - Créer une primitive additive - Prisme additif
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Primitives additives](PartDesign_CompPrimitiveAdditive/fr.md), [PartDesign Prisme soustractif](PartDesign_SubtractivePrism/fr.md)
 ---
 
 # PartDesign AdditivePrism/fr
@@ -63,4 +63,4 @@ Le Prisme peut être éditée après sa création de deux façons :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePrism/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePrism/fr

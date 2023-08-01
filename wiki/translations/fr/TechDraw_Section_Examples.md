@@ -1,6 +1,4 @@
 # TechDraw Section Examples/fr
-{{TOCright}}
-
 ## Introduction
 
 L\'<img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [atelier TechDraw](TechDraw_Workbench/fr.md) a fait un grand pas en avant en ce qui concerne la génération de **vues de coupe**. Pour ne pas surcharger les pages de référence, l\'objet de cette page est de donner des exemples et de fournir des noms appropriés pour les tâches effectuées.
@@ -270,4 +268,4 @@ A droite : vue décalée de la coupe basée sur une ligne de coupe alternative, 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Section Examples/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Section Examples/fr

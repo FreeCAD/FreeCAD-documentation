@@ -84,4 +84,4 @@ FreeCAD allows users to design in a variety of ways; from drawing 2D designs as 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Books/de
+⏵ [documentation index](../README.md) > Books/de

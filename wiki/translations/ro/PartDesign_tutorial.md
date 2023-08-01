@@ -160,4 +160,4 @@ Suntem terminați acum cu fluxul de lucru de bază pentru [PartDesign Workbench]
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial/ro

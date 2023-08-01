@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ViewLoadImage
-   Name/fr:Std Charger une image
-   MenuLocation:Outils - Charger une image...
-   Workbenches:Tous
-   Version:0.21
+   Name: Std ViewLoadImage
+   Name/fr: Std Charger une image
+   MenuLocation: Outils - Charger une image...
+   Workbenches: Tous
+   Version: 0.21
 ---
 
 # Std ViewLoadImage/fr
@@ -43,4 +43,4 @@ La commande **Std Charger une image** ouvre une image dans un nouvel onglet de l
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewLoadImage/fr
+⏵ [documentation index](../README.md) > Std ViewLoadImage/fr

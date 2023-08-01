@@ -131,4 +131,4 @@ this function use the function discretize [the original code](http://forum.freec
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Cut Line
+⏵ [documentation index](../README.md) > Macro Cut Line

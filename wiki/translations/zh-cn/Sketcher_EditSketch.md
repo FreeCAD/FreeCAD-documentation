@@ -1,10 +1,10 @@
 ---
 - GuiCommand:-cn
-   Name/zh-cn:编辑草绘
-   Name:Sketcher_EditSketch
-   MenuLocation:Sketch - 编辑草绘
-   Workbenches:[Sketcher](Sketcher_Workbench/zh-cn.md), [PartDesign](PartDesign_Workbench/zh-cn.md)
-   SeeAlso:[离开草图](Sketcher_LeaveSketch/zh-cn.md)
+   Name/zh-cn: 编辑草绘
+   Name: Sketcher_EditSketch
+   MenuLocation: Sketch - 编辑草绘
+   Workbenches: [Sketcher](Sketcher_Workbench/zh-cn.md), [PartDesign](PartDesign_Workbench/zh-cn.md)
+   SeeAlso: [离开草图](Sketcher_LeaveSketch/zh-cn.md)
 ---
 
 # Sketcher EditSketch/zh-cn
@@ -57,4 +57,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/zh-cn
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/zh-cn

@@ -1,12 +1,12 @@
 # Path MillFace/ro
 ---
-- GuiCommand:   Name:Path-Face   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path - Face   Shortcut|SeeAlso:---
+- GuiCommand:   Name: Path-Face   Workbenches: [[Path Workbench   Path]]|MenuLocation: Path - Face   Shortcut|SeeAlso: ---
 
 
 </div>
 
 ---
-- GuiCommand:   Name:Path-Face   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path - Face   Shortcut|SeeAlso:---
+- GuiCommand:   Name: Path-Face   Workbenches: [[Path Workbench   Path]]|MenuLocation: Path - Face   Shortcut|SeeAlso: ---
 
 ## Description
 
@@ -230,4 +230,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path MillFace/ro
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path MillFace/ro

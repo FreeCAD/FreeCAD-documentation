@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:TechDraw PageTemplate
-   MenuLocation:TechDraw - Page - Insert Page using Template
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw PageDefault](TechDraw_PageDefault.md), [TechDraw Templates](TechDraw_Templates.md)
+   Name: TechDraw PageTemplate
+   MenuLocation: TechDraw - Page - Insert Page using Template
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   SeeAlso: [TechDraw PageDefault](TechDraw_PageDefault.md), [TechDraw Templates](TechDraw_Templates.md)
 ---
 
 # TechDraw PageTemplate/es
@@ -97,4 +97,4 @@ page.Template.EditableTexts = texts
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageTemplate/es
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageTemplate/es

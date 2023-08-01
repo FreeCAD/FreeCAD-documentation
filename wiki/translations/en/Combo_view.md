@@ -1,6 +1,4 @@
 # Combo view/en
-{{TOCright}}
-
 ## Introduction
 
 The [Combo view](combo_view.md) is one of the main panels in the FreeCAD [interface](interface.md). It is located on the left side of the screen by default. It is **composed of two sections**, the:
@@ -61,4 +59,4 @@ Then activate the view using the menu, **View → Panels → Tree view** or **�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Combo view/en
+⏵ [documentation index](../README.md) > Combo view/en

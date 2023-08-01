@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionCustomizeFormat
-   Name/pl:Rysunek Techniczny: Rozszerzenie Dostosuj format etykiety
-   MenuLocation:Rysunek Techniczny - Rozszerzenia: Atrybuty / Modyfikatory - Dostosuj format etykiety
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:
+   Name: TechDraw ExtensionCustomizeFormat
+   Name/pl: Rysunek Techniczny: Rozszerzenie Dostosuj format etykiety
+   MenuLocation: Rysunek Techniczny - Rozszerzenia: Atrybuty / Modyfikatory - Dostosuj format etykiety
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: 
 ---
 
 # TechDraw ExtensionCustomizeFormat/pl
@@ -44,4 +44,4 @@ Narzędzie **Dostosuj format etykiety** umożliwia dostosowanie formatowania tek
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCustomizeFormat/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCustomizeFormat/pl

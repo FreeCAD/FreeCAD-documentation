@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainPerpendicular
-   Name/de:Sketcher RechtwinkligFestlegen
-   MenuLocation:Sketch - Skizzen-Beschränkungen - Orthogonalität festlegen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**N**
-   SeeAlso:[Sketcher WinkelFestlegen](Sketcher_ConstrainAngle/de.md)
+   Name: Sketcher ConstrainPerpendicular
+   Name/de: Sketcher RechtwinkligFestlegen
+   MenuLocation: Sketch - Skizzen-Beschränkungen - Orthogonalität festlegen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **N**
+   SeeAlso: [Sketcher WinkelFestlegen](Sketcher_ConstrainAngle/de.md)
 ---
 
 # Sketcher ConstrainPerpendicular/de
@@ -120,4 +120,4 @@ Die [Skizzierer Skripten](Sketcher_scripting/de.md) Seite erklärt die Werte, di
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPerpendicular/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPerpendicular/de

@@ -2,7 +2,7 @@
 ## Introduction
 
 
-{{TOCright}}
+
 
 Dans FreeCAD, le mot \"[Contrainte](Constraint/fr.md)\" est normalement utilisé pour désigner une \"règle\" pour dessiner des formes géométriques à l\'intérieur d\'une <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Esquisse](Sketch/fr.md) (classe `Sketcher::SketchObject`). Une contrainte limite la position d\'un certain élément géométrique de différentes manières, par exemple, elle peut spécifier si l\'élément est horizontal, vertical, tangent, parallèle, perpendiculaire, coïncidant avec un point, concentrique à un autre objet, etc.
 
@@ -47,4 +47,4 @@ Reportez-vous aux informations dans l\'<img alt="" src=images/Workbench_Sketcher
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Constraint/fr
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Constraint/fr

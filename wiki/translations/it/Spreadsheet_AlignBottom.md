@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet_AlignBottom
-   Name/it:Allinea in basso
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)
-   MenuLocation:Spreadsheet - Allineamento - In basso
-   Version:0.17
+   Name: Spreadsheet_AlignBottom
+   Name/it: Allinea in basso
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/it.md)
+   MenuLocation: Spreadsheet - Allineamento - In basso
+   Version: 0.17
 ---
 
 # Spreadsheet AlignBottom/it
@@ -34,4 +34,4 @@ Lo strumento <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:16
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignBottom/it
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignBottom/it

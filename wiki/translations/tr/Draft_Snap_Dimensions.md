@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Dimensions
-   Name/tr:Taslak Boyutlar
-   MenuLocation:Taslak - [Yakalama](Draft_Snap/tr.md) - Boyutlar
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   Shortcut:
-   SeeAlso:
+   Name: Draft Snap Dimensions
+   Name/tr: Taslak Boyutlar
+   MenuLocation: Taslak - [Yakalama](Draft_Snap/tr.md) - Boyutlar
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Draft Snap Dimensions/tr
@@ -56,4 +56,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Dimensions/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Dimensions/tr

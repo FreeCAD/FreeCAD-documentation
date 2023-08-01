@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std Refresh
-   Name/de:Std Aktualisieren
-   MenuLocation:Bearbeiten - Aktualisieren
-   Workbenches:Alle
-   Shortcut:**F5**
+   Name: Std Refresh
+   Name/de: Std Aktualisieren
+   MenuLocation: Bearbeiten - Aktualisieren
+   Workbenches: Alle
+   Shortcut: **F5**
 ---
 
 # Std Refresh/de
@@ -67,4 +67,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Refresh/de
+⏵ [documentation index](../README.md) > Std Refresh/de

@@ -198,4 +198,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Manual:All workbenches at a glance/ru
+⏵ [documentation index](../README.md) > Manual:All workbenches at a glance/ru

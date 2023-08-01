@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher_CreateArc
-   Name/ru:Дуга
-   MenuLocation:Эскиз - Геометрия эскиза - Дуга
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**G** **A**
-   SeeAlso:[Создать окружность](Sketcher_CompCreateCircle/ru.md)
+   Name: Sketcher_CreateArc
+   Name/ru: Дуга
+   MenuLocation: Эскиз - Геометрия эскиза - Дуга
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **G** **A**
+   SeeAlso: [Создать окружность](Sketcher_CompCreateCircle/ru.md)
 ---
 
 # Sketcher CreateArc/ru
@@ -38,4 +38,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/ru

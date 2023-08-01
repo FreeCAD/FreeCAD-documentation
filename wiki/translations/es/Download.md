@@ -1,8 +1,4 @@
 # Download/es
-{{TOCright}}
-
-
-
 ## Versión estable actual 
 
 
@@ -95,4 +91,4 @@ La comunidad de FreeCAD provee una multitud de módulos y macros adicionales. De
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Download/es
+⏵ [documentation index](../README.md) > Download/es

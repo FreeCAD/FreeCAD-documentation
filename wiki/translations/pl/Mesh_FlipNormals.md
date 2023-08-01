@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh FlipNormals
-   Name/pl:Siatka: Porządkuj wektory normalnych
-   MenuLocation:Siatka - Odwróć wektory normalnych
-   Workbenches:[Siatka](Mesh_Workbench/pl.md)
-   SeeAlso:[Porządkuj wektory normalnych](Mesh_HarmonizeNormals/pl.md)
+   Name: Mesh FlipNormals
+   Name/pl: Siatka: Porządkuj wektory normalnych
+   MenuLocation: Siatka - Odwróć wektory normalnych
+   Workbenches: [Siatka](Mesh_Workbench/pl.md)
+   SeeAlso: [Porządkuj wektory normalnych](Mesh_HarmonizeNormals/pl.md)
 ---
 
 # Mesh FlipNormals/pl
@@ -35,4 +35,4 @@ Polecenie **Odwróć wektory normalnych** odwraca, przerzuca, normalne obiektów
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FlipNormals/pl
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FlipNormals/pl

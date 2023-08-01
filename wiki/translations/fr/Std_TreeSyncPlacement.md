@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreeSyncPlacement
-   Name/fr:Std Arborescence Synchroniser le placement
-   MenuLocation:Affichage - Vue en arborescence - Synchroniser le placement
-   Workbenches:Tous
-   Shortcut:**T** **3**
-   Version:0.19
+   Name: Std TreeSyncPlacement
+   Name/fr: Std Arborescence Synchroniser le placement
+   MenuLocation: Affichage - Vue en arborescence - Synchroniser le placement
+   Workbenches: Tous
+   Shortcut: **T** **3**
+   Version: 0.19
 ---
 
 # Std TreeSyncPlacement/fr
@@ -40,4 +40,4 @@ Le mode Synchronisation placement arborescence est stocké dans : **Outils → �
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSyncPlacement/fr
+⏵ [documentation index](../README.md) > Std TreeSyncPlacement/fr

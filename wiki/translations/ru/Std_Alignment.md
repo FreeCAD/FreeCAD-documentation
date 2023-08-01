@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Выравнивание...
-   Name:Std_Alignment
-   MenuLocation:Правка - Выравнивание...
-   Workbenches:Все
-   SeeAlso:[Расположение...](Std_Placement/ru.md)
+   Name/ru: Выравнивание...
+   Name: Std_Alignment
+   MenuLocation: Правка - Выравнивание...
+   Workbenches: Все
+   SeeAlso: [Расположение...](Std_Placement/ru.md)
 ---
 
 # Std Alignment/ru
@@ -45,4 +45,4 @@ The **Std Alignment** command aligns an object in relation to a fixed reference 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Alignment/ru
+⏵ [documentation index](../README.md) > Std Alignment/ru

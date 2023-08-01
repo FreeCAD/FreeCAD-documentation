@@ -1,6 +1,4 @@
 # Mesh/pl
-{{TOCright}}
-
 ## Wprowadzenie
 
 W FreeCAD słowo \"[Siatka](Mesh/pl.md)\" jest zwykle używane w odniesieniu do [obiektu siatki](Mesh_MeshObject/pl.md) *(klasa `Mesh::MeshObject`)*, typu obiektu, który definiuje dane 3D, ale nie jest \"[kształtem](Shape/pl.md)\" bryły.
@@ -45,4 +43,4 @@ Więcej informacji można znaleźć na stronach [środowisko pracy MES](FEM_Work
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Mesh](Category_Mesh.md) > [FEM](Category_FEM.md) > Mesh/pl
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Mesh](Category_Mesh.md) > [FEM](Category_FEM.md) > Mesh/pl

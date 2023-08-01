@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name/ru:Assembly3 ConstraintMore
-   Icon:Assembly_ConstraintMore.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/ru.md)
+   Name/ru: Assembly3 ConstraintMore
+   Icon: Assembly_ConstraintMore.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/ru.md)
 ---
 
 # Assembly3 ConstraintMore/ru
@@ -18,4 +18,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintMore/ru
+⏵ [documentation index](../README.md) > Assembly3 ConstraintMore/ru

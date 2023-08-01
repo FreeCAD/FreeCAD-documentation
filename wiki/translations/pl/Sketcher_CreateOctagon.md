@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateOctagon
-   Name/pl:Szkicownik: Utwórz ośmiokąt
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz ośmiokąt
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **P** **8**
-   Version:0.15
+   Name: Sketcher CreateOctagon
+   Name/pl: Szkicownik: Utwórz ośmiokąt
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Utwórz ośmiokąt
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **G** **P** **8**
+   Version: 0.15
 ---
 
 # Sketcher CreateOctagon/pl
@@ -42,4 +42,4 @@ Wyznaczony okrąg to geometria konstrukcyjna, która jest widoczna tylko podczas
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOctagon/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOctagon/pl

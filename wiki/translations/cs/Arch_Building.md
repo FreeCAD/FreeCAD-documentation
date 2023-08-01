@@ -1,6 +1,6 @@
 # Arch Building/cs
 ---
-- GuiCommand:   Name:Arch Building   Name/cs:Arch Budova   Workbenches:[MenuLocation:Arch - Building   Shortcut:B U   SeeAlso:[[Arch Floor/cs|Arch Podlaží](Arch_Workbench/cs___Architektura]].md), [Arch Staveniště](Arch_Site/cs.md)---
+- GuiCommand:   Name: Arch Building   Name/cs: Arch Budova   Workbenches: [MenuLocation: Arch - Building   Shortcut: B U   SeeAlso: [[Arch Floor/cs|Arch Podlaží](Arch_Workbench/cs___Architektura]].md), [Arch Staveniště](Arch_Site/cs.md)---
 
 
 </div>
@@ -104,4 +104,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/cs
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/cs

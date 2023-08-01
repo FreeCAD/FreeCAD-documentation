@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign Pad
-   Name/ro:PartDesign Pad
-   Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation:Part Design - Pad
+   Name: PartDesign Pad
+   Name/ro: PartDesign Pad
+   Workbenches: [PartDesign](PartDesign_Workbench/ro.md)
+   MenuLocation: Part Design - Pad
 ---
 
 # PartDesign Pad/ro
@@ -213,4 +213,4 @@ Tapers the pad in the opposite extrusion direction by the given angle. A positiv
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad/ro

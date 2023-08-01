@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher ToggleActiveConstraint
-   Name/de:Sketcher UmschalterAktiveRandbedingung
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   MenuLocation:Sketch - Skizzen-Beschränkungen - Einschränkung zwischen festlegend und anzeigend umschalten
-   Shortcut:**K** **Z**
-   Version:0.19
-   SeeAlso:[Sketcher UmschalterFührendeRandbedingung](Sketcher_ToggleDrivingConstraint/de.md)
+   Name: Sketcher ToggleActiveConstraint
+   Name/de: Sketcher UmschalterAktiveRandbedingung
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Sketch - Skizzen-Beschränkungen - Einschränkung zwischen festlegend und anzeigend umschalten
+   Shortcut: **K** **Z**
+   Version: 0.19
+   SeeAlso: [Sketcher UmschalterFührendeRandbedingung](Sketcher_ToggleDrivingConstraint/de.md)
 ---
 
 # Sketcher ToggleActiveConstraint/de
@@ -78,4 +78,4 @@ sketch.toggleActive(3)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleActiveConstraint/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleActiveConstraint/de

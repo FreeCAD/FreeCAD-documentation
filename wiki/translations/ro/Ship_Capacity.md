@@ -1,6 +1,6 @@
 # Ship Capacity/ro
 ---
-- GuiCommand:   Name:Ship TankCapacity   MenuLocation:Weights - Tank capacity curve   |Workbenches:[[Ship Workbench   Ship]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Ship TankCapacity   MenuLocation: Weights - Tank capacity curve   |Workbenches: [[Ship Workbench   Ship]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -31,4 +31,4 @@ De făcut
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Capacity/ro
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Capacity/ro

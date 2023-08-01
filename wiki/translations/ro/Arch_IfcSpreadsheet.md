@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Arch_MakeIfcSpreadsheet
-   Name/ro:Arch_MakeIfcSpreadsheet
-   MenuLocation:Arch - Utilities - Create schedule...
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   Shortcut:**I** **P**
-   SeeAlso:[[Arch IFC]], [[Arch IfcExplorer]]
-   Icon:Arch_Schedule.svg
+   Name: Arch_MakeIfcSpreadsheet
+   Name/ro: Arch_MakeIfcSpreadsheet
+   MenuLocation: Arch - Utilities - Create schedule...
+   Workbenches: [Arch](Arch_Workbench/ro.md)
+   Shortcut: **I** **P**
+   SeeAlso: [[Arch IFC]], [[Arch IfcExplorer]]
+   Icon: Arch_Schedule.svg
 ---
 
 # Arch IfcSpreadsheet/ro
@@ -63,4 +63,4 @@ spreadsheet = Arch.makeIfcSpreadsheet(Wall)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcSpreadsheet/ro
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcSpreadsheet/ro

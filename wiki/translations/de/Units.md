@@ -1,6 +1,4 @@
 # Units/de
-{{TOCright}}
-
 Einige Artikel zu Einheiten:
 
 -   [Metrologie](https://de.wikipedia.org/wiki/Metrologie) (Meßwesen)
@@ -68,4 +66,4 @@ Eine vollständige Liste aller unterstützter Einheiten kann man [hier](Expressi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Units/de
+⏵ [documentation index](../README.md) > Units/de

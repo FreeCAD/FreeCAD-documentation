@@ -1,6 +1,4 @@
 # Third Party Libraries/ru
-{{TOCright}}
-
 ### Обзор
 
 Это библиотеки, которые FreeCAD использует в качестве сторонних зависимостей во время компиляции. Обычно они [dynamically linked libraries](https://en.wikipedia.org/wiki/Dynamic_loading) и имеют расширение `.so` в Linux/macOS и `.dll` в Windows и сопровождаются их заголовочными файлами `.h` или `.hpp` или аналогичными. Если необходима измененная библиотека или необходим класс-оболочка, код измененной библиотеки или оболочки должен стать частью исходного кода FreeCAD и быть скомпилирован вместе с ним.
@@ -280,4 +278,4 @@ LibPack - это удобный пакет с собранными вместе 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Libraries/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Libraries/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet SetAlias
-   Name/de:Kalkulationstabelle SetzeAlias
-   Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)
-   MenuLocation:
-   Version:0.17
+   Name: Spreadsheet SetAlias
+   Name/de: Kalkulationstabelle SetzeAlias
+   Workbenches: [Tabellenkalkulation](Spreadsheet_Workbench/de.md)
+   MenuLocation: 
+   Version: 0.17
 ---
 
 # Spreadsheet SetAlias/de
@@ -46,4 +46,4 @@ Das **[<img src=images/Spreadsheet_SetAlias.svg style="width:16px"> [Kalkulation
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SetAlias/de
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SetAlias/de

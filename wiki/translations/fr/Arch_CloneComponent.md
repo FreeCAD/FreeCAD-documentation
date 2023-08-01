@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch CloneComponent‏‎‏‎
-   Name/fr:Arch Cloner un composant
-   MenuLocation:Arch - Utilitaires - Cloner un composant
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   Shortcut:**C**, **C‏‎**
-   SeeAlso:[Draft Cloner](Draft_Clone/fr.md), [Arch Composant](Arch_Component/fr.md)
+   Name: Arch CloneComponent‏‎‏‎
+   Name/fr: Arch Cloner un composant
+   MenuLocation: Arch - Utilitaires - Cloner un composant
+   Workbenches: [Arch](Arch_Workbench/fr.md)
+   Shortcut: **C**, **C‏‎**
+   SeeAlso: [Draft Cloner](Draft_Clone/fr.md), [Arch Composant](Arch_Component/fr.md)
 ---
 
 # Arch CloneComponent/fr
@@ -37,4 +37,4 @@ Le composant clone aura simplement sa propriété **CloneOf** définie sur l\'ob
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/fr

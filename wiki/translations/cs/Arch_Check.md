@@ -1,6 +1,6 @@
 # Arch Check/cs
 ---
-- GuiCommand:   Name:Arch Check   Name/cs:Arch Check   Workbenches:[MenuLocation:Arch - Utilities - Check   SeeAlso:[[Arch CloseHoles/cs|Arch CloseHoles](Arch_Workbench/cs___Arch]].md)---
+- GuiCommand:   Name: Arch Check   Name/cs: Arch Check   Workbenches: [MenuLocation: Arch - Utilities - Check   SeeAlso: [[Arch CloseHoles/cs|Arch CloseHoles](Arch_Workbench/cs___Arch]].md)---
 
 
 </div>
@@ -96,4 +96,4 @@ print(list_bad)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check/cs
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check/cs

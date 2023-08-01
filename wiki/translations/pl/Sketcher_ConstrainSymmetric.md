@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainSymmetric
-   Name/pl:Szkicownik: Wiązanie symetrii
-   MenuLocation:Szkic - Wiązania szkicownika - Wiązanie symetrii
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**S**
-   SeeAlso:[Wiązanie równoległości](Sketcher_ConstrainParallel/pl.md)
+   Name: Sketcher ConstrainSymmetric
+   Name/pl: Szkicownik: Wiązanie symetrii
+   MenuLocation: Szkic - Wiązania szkicownika - Wiązanie symetrii
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **S**
+   SeeAlso: [Wiązanie równoległości](Sketcher_ConstrainParallel/pl.md)
 ---
 
 # Sketcher ConstrainSymmetric/pl
@@ -68,4 +68,4 @@ Strona [Skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/pl

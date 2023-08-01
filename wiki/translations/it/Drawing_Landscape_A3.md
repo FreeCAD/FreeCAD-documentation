@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Drawing Landscape A3
-   Name/it:Nuovo disegno A3
-   Workbenches:[Disegno](Drawing_Workbench/it.md), Completo
-   MenuLocation:Disegno - Nuovo disegno - A3 Orizzontale
-   Shortcut:Nessuno
+   Name: Drawing Landscape A3
+   Name/it: Nuovo disegno A3
+   Workbenches: [Disegno](Drawing_Workbench/it.md), Completo
+   MenuLocation: Disegno - Nuovo disegno - A3 Orizzontale
+   Shortcut: Nessuno
 ---
 
 # Drawing Landscape A3/it
@@ -101,4 +101,4 @@ Se la pagina non viene visualizzata, fare clic sull\'icona Aggiorna <img alt="" 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Landscape A3/it
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Landscape A3/it

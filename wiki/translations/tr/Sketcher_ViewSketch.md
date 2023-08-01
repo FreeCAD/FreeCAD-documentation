@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher ViewSketch
-   Name/tr:Eskiz Eskiz görünümü
-   Workbenches:[Eskiz](Sketcher_Workbench.md), [Parça tasarım](PartDesign_Workbench.md)
-   MenuLocation:Eskiz - Eskiz görünümü
+   Name: Sketcher ViewSketch
+   Name/tr: Eskiz Eskiz görünümü
+   Workbenches: [Eskiz](Sketcher_Workbench.md), [Parça tasarım](PartDesign_Workbench.md)
+   MenuLocation: Eskiz - Eskiz görünümü
 ---
 
 # Sketcher ViewSketch/tr
@@ -45,4 +45,4 @@ Eskiz düzenleme modundayken ya da
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/tr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/tr

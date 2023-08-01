@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintContact
-   Name/de:FEM RandbedingungKontakt
-   MenuLocation:Modell - Mechanische Randbedingungen - Randbedingung Flächenkontakt
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   SeeAlso:[FEM RandbedingungFixierung](FEM_ConstraintFixed/de.md)
+   Name: FEM ConstraintContact
+   Name/de: FEM RandbedingungKontakt
+   MenuLocation: Modell - Mechanische Randbedingungen - Randbedingung Flächenkontakt
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   SeeAlso: [FEM RandbedingungFixierung](FEM_ConstraintFixed/de.md)
 ---
 
 # FEM ConstraintContact/de
@@ -67,4 +67,4 @@ Erstellt eine FEM-Randbedingung für den Kontakt zwischen zwei Oberflächen.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintContact/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintContact/de

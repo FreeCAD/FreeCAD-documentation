@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std Copy
-   MenuLocation:Edit - Copy
-   Workbenches:All
-   Shortcut:**Ctrl**+**C**
-   SeeAlso:[Std Cut](Std_Cut.md), [Std Paste](Std_Paste.md), [Std DuplicateSelection](Std_DuplicateSelection.md)
+   Name: Std Copy
+   MenuLocation: Edit - Copy
+   Workbenches: All
+   Shortcut: **Ctrl**+**C**
+   SeeAlso: [Std Cut](Std_Cut.md), [Std Paste](Std_Paste.md), [Std DuplicateSelection](Std_DuplicateSelection.md)
 ---
 
 # Std Copy
@@ -36,4 +36,4 @@ The **Std Copy** command copies objects to the Clipboard.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Copy
+⏵ [documentation index](../README.md) > Std Copy

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_DlgMacroExecute
-   Name/it:Esegui la macro
-   MenuLocation:Macro - Esegui la macro
-   Workbenches:Tutti
-   SeeAlso:[Esegui la macro nell'editor](Std_DlgMacroExecuteDirect/it.md)
+   Name: Std_DlgMacroExecute
+   Name/it: Esegui la macro
+   MenuLocation: Macro - Esegui la macro
+   Workbenches: Tutti
+   SeeAlso: [Esegui la macro nell'editor](Std_DlgMacroExecuteDirect/it.md)
 ---
 
 # Std DlgMacroExecute/it
@@ -148,4 +148,4 @@ Il comando **Macro\...** apre la finestra di dialogo Esegui macro. Da questa fin
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgMacroExecute/it
+⏵ [documentation index](../README.md) > Std DlgMacroExecute/it

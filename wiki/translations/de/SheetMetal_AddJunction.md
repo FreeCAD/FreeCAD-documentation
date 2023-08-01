@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:SheetMetal AddJunction
-   Name/de:SheetMetal StoßHinzufügen
-   MenuLocation:SheetMetal - Make Junction
-   Workbenches:[SheetMetal (Blech)](SheetMetal_Workbench/de.md)
-   Shortcut:**S** **J**
-   SeeAlso:[SheetMetal Entlastungsausschnitt hinzufügen](SheetMetal_AddRelief/de.md), [SheetMetal Biegung hinzufügen](SheetMetal_AddBend/de.md)
+   Name: SheetMetal AddJunction
+   Name/de: SheetMetal StoßHinzufügen
+   MenuLocation: SheetMetal - Make Junction
+   Workbenches: [SheetMetal (Blech)](SheetMetal_Workbench/de.md)
+   Shortcut: **S** **J**
+   SeeAlso: [SheetMetal Entlastungsausschnitt hinzufügen](SheetMetal_AddRelief/de.md), [SheetMetal Biegung hinzufügen](SheetMetal_AddBend/de.md)
 ---
 
 # SheetMetal AddJunction/de
@@ -66,4 +66,4 @@ Ein SheetMetal-Junction-Objekt wird von einem [Part-Formelement](Part_Feature/de
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddJunction/de
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddJunction/de

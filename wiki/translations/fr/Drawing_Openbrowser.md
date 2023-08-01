@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Drawing Openbrowser
-   Name/fr:Drawing Ouvrir sur le navigateur interne
-   Workbenches:[Drawing](Drawing_Workbench/fr.md)
-   MenuLocation:Drawing - Ouvrir sur le navigateur interne 
-   Shortcut:
+   Name: Drawing Openbrowser
+   Name/fr: Drawing Ouvrir sur le navigateur interne
+   Workbenches: [Drawing](Drawing_Workbench/fr.md)
+   MenuLocation: Drawing - Ouvrir sur le navigateur interne 
+   Shortcut: 
 ---
 
 # Drawing Openbrowser/fr
@@ -35,4 +35,4 @@ Cette commande vous permet d\'afficher une [Feuille A3 paysage](Drawing_Landscap
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Openbrowser/fr
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Openbrowser/fr

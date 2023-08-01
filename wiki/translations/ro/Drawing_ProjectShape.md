@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Drawing ProjectShape
-   Empty:1
-   Workbenches:[Drawing](Drawing_Workbench.md)
-   MenuLocation:Drawing - Project shape
+   Name: Drawing ProjectShape
+   Empty: 1
+   Workbenches: [Drawing](Drawing_Workbench.md)
+   MenuLocation: Drawing - Project shape
 ---
 
 # Drawing ProjectShape/ro
@@ -115,4 +115,4 @@ Acest instrument creează o proiecți a obiectului selectate (Source) în the 3D
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing ProjectShape/ro
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing ProjectShape/ro

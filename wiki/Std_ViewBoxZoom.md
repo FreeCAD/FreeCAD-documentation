@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ViewBoxZoom
-   MenuLocation:View - Zoom - Box zoom
-   Workbenches:All
-   Shortcut:**Ctrl**+**B**
-   SeeAlso:[Std ViewZoomIn](Std_ViewZoomIn.md), [Std ViewZoomOut](Std_ViewZoomOut.md)
+   Name: Std ViewBoxZoom
+   MenuLocation: View - Zoom - Box zoom
+   Workbenches: All
+   Shortcut: **Ctrl**+**B**
+   SeeAlso: [Std ViewZoomIn](Std_ViewZoomIn.md), [Std ViewZoomOut](Std_ViewZoomOut.md)
 ---
 
 # Std ViewBoxZoom
@@ -28,4 +28,4 @@ The **Std ViewBoxZoom** command zooms in on a user defined rectangular area, a b
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewBoxZoom
+⏵ [documentation index](../README.md) > Std ViewBoxZoom

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path DressupDogbone
-   Name/fr:Path Dégagement des angles
-   MenuLocation:Path - Finition du parcours - Dégagement des angles
-   Workbenches:[Path](Path_Workbench/fr.md)
-   SeeAlso:[Path Attaches](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Lame rotative](Path_DressupDragKnife/fr.md)
+   Name: Path DressupDogbone
+   Name/fr: Path Dégagement des angles
+   MenuLocation: Path - Finition du parcours - Dégagement des angles
+   Workbenches: [Path](Path_Workbench/fr.md)
+   SeeAlso: [Path Attaches](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Lame rotative](Path_DressupDragKnife/fr.md)
 ---
 
 # Path DressupDogbone/fr
@@ -42,4 +42,4 @@ Pour déterminer le tracé de correction des coins, il faut un segment droit (G1
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDogbone/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDogbone/fr

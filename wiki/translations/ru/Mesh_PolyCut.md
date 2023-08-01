@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh PolyCut
-   MenuLocation:Meshes - Cutting - Cut mesh
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh PolyTrim](Mesh_PolyTrim.md), [Mesh TrimByPlane](Mesh_TrimByPlane.md)
+   Name: Mesh PolyCut
+   MenuLocation: Meshes - Cutting - Cut mesh
+   Workbenches: [Mesh](Mesh_Workbench.md)
+   SeeAlso: [Mesh PolyTrim](Mesh_PolyTrim.md), [Mesh TrimByPlane](Mesh_TrimByPlane.md)
 ---
 
 # Mesh PolyCut/ru
@@ -52,4 +52,4 @@ The **Mesh PolyCut** command cuts whole faces from mesh objects.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyCut/ru
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyCut/ru

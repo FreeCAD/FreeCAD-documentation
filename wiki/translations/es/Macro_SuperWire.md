@@ -57,4 +57,4 @@ else:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro SuperWire/es
+⏵ [documentation index](../README.md) > Macro SuperWire/es

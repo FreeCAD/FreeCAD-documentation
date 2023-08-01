@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintLock
-   Name/fr:Assembly3 Contrainte de verrouillage
-   Icon:Assembly_ConstraintLock.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 ConstraintLock
+   Name/fr: Assembly3 Contrainte de verrouillage
+   Icon: Assembly_ConstraintLock.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintLock/fr
@@ -34,4 +34,4 @@ IL peut être utilisé pour définir l\'ensemble fixe dans un assemblage statiqu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLock/fr
+⏵ [documentation index](../README.md) > Assembly3 ConstraintLock/fr

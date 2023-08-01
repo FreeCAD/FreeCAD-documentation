@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintPressure
-   Name/ru:FEM ConstraintPressure
-   MenuLocation:Model - Mechanical Constraints - Constraint pressure
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   SeeAlso:[FEM Constraint force](FEM_ConstraintForce/ru.md)
+   Name: FEM ConstraintPressure
+   Name/ru: FEM ConstraintPressure
+   MenuLocation: Model - Mechanical Constraints - Constraint pressure
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   SeeAlso: [FEM Constraint force](FEM_ConstraintForce/ru.md)
 ---
 
 # FEM ConstraintPressure/ru
@@ -42,4 +42,4 @@ Applies a pressure constraint to a face.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPressure/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPressure/ru

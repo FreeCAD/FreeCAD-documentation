@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_Cut
-   Name/fr:Std Couper
-   MenuLocation:Édition - Couper
-   Shortcut:**Ctrl**+**X**
-   Workbenches:Tous
-   SeeAlso:[Std Copier](Std_Copy/fr.md), [Std Coller](Std_Paste/fr.md), [Std Dupliquer une sélection](Std_DuplicateSelection/fr.md)
+   Name: Std_Cut
+   Name/fr: Std Couper
+   MenuLocation: Édition - Couper
+   Shortcut: **Ctrl**+**X**
+   Workbenches: Tous
+   SeeAlso: [Std Copier](Std_Copy/fr.md), [Std Coller](Std_Paste/fr.md), [Std Dupliquer une sélection](Std_DuplicateSelection/fr.md)
 ---
 
 # Std Cut/fr
@@ -42,4 +42,4 @@ Pour couper d\'autres objets, vous pouvez utiliser la commande [Std Copier](Std_
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Cut/fr
+⏵ [documentation index](../README.md) > Std Cut/fr

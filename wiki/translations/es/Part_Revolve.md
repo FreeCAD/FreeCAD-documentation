@@ -1,6 +1,6 @@
 # Part Revolve/es
 ---
-- GuiCommand:   Name:Part_Revolve   MenuLocation:Part - Revolve   Workbenches:[[Part_Workbench/es   Pieza]], Completo|SeeAlso:---
+- GuiCommand:   Name: Part_Revolve   MenuLocation: Part - Revolve   Workbenches: [[Part_Workbench/es   Pieza]], Completo|SeeAlso: ---
 
 
 </div>
@@ -69,4 +69,4 @@ Si seleccionas un eje definido por el usuario, los números definen la direcció
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/es
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/es

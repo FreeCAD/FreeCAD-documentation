@@ -1,8 +1,4 @@
 # Third Party Tools/it
-{{TOCright}}
-
-
-
 ## Pagina degli strumenti 
 
 Per sviluppare seriamente qualsiasi software servono degli strumenti. Ecco un elenco di quelli che si usa per sviluppare FreeCAD:
@@ -75,4 +71,4 @@ Da Fare
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Tools/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Tools/it

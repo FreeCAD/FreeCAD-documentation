@@ -1,6 +1,4 @@
 # FreeCAD Build Tool/pt-br
-{{TOCright}}
-
 ## Overview
 
 The **FreeCAD build tool** or **fcbt** is a python script located at 
@@ -62,4 +60,4 @@ The \"CM\" command [creates a new application module (Workbench)](Workbench_crea
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Build Tool/pt-br
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Build Tool/pt-br

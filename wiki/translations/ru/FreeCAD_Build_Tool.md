@@ -1,6 +1,4 @@
 # FreeCAD Build Tool/ru
-{{TOCright}}
-
 ## Введение
 
 **Инструмент сборки FreeCAD** или **fcbt** это python сценарий расположеный в 
@@ -76,4 +74,4 @@ FreeCAD Build Tool
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Build Tool/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Build Tool/ru

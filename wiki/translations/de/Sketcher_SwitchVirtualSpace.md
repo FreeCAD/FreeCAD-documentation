@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher SwitchVirtualSpace
-   Name/de:Sketcher VirtuellenBereichWechseln
-   MenuLocation:Sketch - Virtueller Bereich - Virtuellen Bereich wechseln
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Version:0.17
+   Name: Sketcher SwitchVirtualSpace
+   Name/de: Sketcher VirtuellenBereichWechseln
+   MenuLocation: Sketch - Virtueller Bereich - Virtuellen Bereich wechseln
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Version: 0.17
 ---
 
 # Sketcher SwitchVirtualSpace/de
@@ -45,4 +45,4 @@ Wenn man sich entscheidest, Einschränkungen dem zweiten virtuellen Bereich zuzu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SwitchVirtualSpace/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SwitchVirtualSpace/de

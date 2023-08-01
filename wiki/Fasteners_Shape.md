@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Fasteners Shape
-   MenuLocation:Fasteners - Simplify shape
-   Workbenches:[Fasteners](Fasteners_Workbench.md)
+   Name: Fasteners Shape
+   MenuLocation: Fasteners - Simplify shape
+   Workbenches: [Fasteners](Fasteners_Workbench.md)
 ---
 
 # Fasteners Shape
@@ -29,4 +29,4 @@ The <img alt="" src=images/Fasteners_Shape.svg  style="width:24px;"> **Fasteners
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners Shape
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners Shape

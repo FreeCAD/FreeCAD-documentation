@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreeSyncView
-   Name/fr:Std Arborescence Vue synchronisation
-   MenuLocation:Affichage - Vue en arborescence - Synchroniser la vue 
-   Workbenches:Tous
-   Shortcut:**T** **1**
-   Version:0.19
+   Name: Std TreeSyncView
+   Name/fr: Std Arborescence Vue synchronisation
+   MenuLocation: Affichage - Vue en arborescence - Synchroniser la vue 
+   Workbenches: Tous
+   Shortcut: **T** **1**
+   Version: 0.19
 ---
 
 # Std TreeSyncView/fr
@@ -40,4 +40,4 @@ Le mode Synchronisation de vue de l\'arborescence peut également être défini 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSyncView/fr
+⏵ [documentation index](../README.md) > Std TreeSyncView/fr

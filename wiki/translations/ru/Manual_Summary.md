@@ -57,4 +57,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Manual](Category_Manual.md) > Manual:Summary/ru
+⏵ [documentation index](../README.md) > [Manual](Category_Manual.md) > Manual:Summary/ru

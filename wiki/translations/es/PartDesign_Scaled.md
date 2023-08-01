@@ -1,6 +1,6 @@
 # PartDesign Scaled/es
 ---
-- GuiCommand:   Name:PartDesign_Scaled   Workbenches:[[PartDesign Workbench/es   Diseño de Piezas]], Complete|MenuLocation:Diseño de Piezas - MultiTransform---
+- GuiCommand:   Name: PartDesign_Scaled   Workbenches: [[PartDesign Workbench/es   Diseño de Piezas]], Complete|MenuLocation: Diseño de Piezas - MultiTransform---
 
 
 </div>
@@ -94,4 +94,4 @@ If there is no previous transformation within the <img alt="" src=images/PartDes
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/es

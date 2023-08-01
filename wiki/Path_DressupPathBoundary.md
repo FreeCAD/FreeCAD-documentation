@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path DressupPathBoundary
-   MenuLocation:Path - Path Dressup - Boundary
-   Workbenches:[Path](Path_Workbench.md)
-   SeeAlso:[Path DressupTag](Path_DressupTag.md), [Path DressupRampEntry](Path_DressupRampEntry.md)
+   Name: Path DressupPathBoundary
+   MenuLocation: Path - Path Dressup - Boundary
+   Workbenches: [Path](Path_Workbench.md)
+   SeeAlso: [Path DressupTag](Path_DressupTag.md), [Path DressupRampEntry](Path_DressupRampEntry.md)
 ---
 
 # Path DressupPathBoundary
@@ -36,4 +36,4 @@ The tool <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:24px;
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupPathBoundary
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupPathBoundary

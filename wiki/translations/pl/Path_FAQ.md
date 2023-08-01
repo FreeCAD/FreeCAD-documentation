@@ -232,4 +232,4 @@ This is only a matter of displaying the path. You can change this in the prefere
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path FAQ/pl
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path FAQ/pl

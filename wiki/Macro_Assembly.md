@@ -303,4 +303,4 @@ The page discussion [FreeCad Python assembly animation](http://forum.freecadweb.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Assembly
+⏵ [documentation index](../README.md) > Macro Assembly

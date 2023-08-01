@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft ToggleDisplayMode
-   Name/fr:Draft Mode d'affichage
-   MenuLocation:Utilitaires - Basculer le mode d'affichage de normal/filaire
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:**Maj** + **Espace**
-   SeeAlso:[Std Basculer la visibilité](Std_ToggleVisibility/fr.md)
+   Name: Draft ToggleDisplayMode
+   Name/fr: Draft Mode d'affichage
+   MenuLocation: Utilitaires - Basculer le mode d'affichage de normal/filaire
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut: **Maj** + **Espace**
+   SeeAlso: [Std Basculer la visibilité](Std_ToggleVisibility/fr.md)
 ---
 
 # Draft ToggleDisplayMode/fr
@@ -31,4 +31,4 @@ La commande <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:24p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/fr

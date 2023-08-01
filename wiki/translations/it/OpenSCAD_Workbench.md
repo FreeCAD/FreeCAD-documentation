@@ -9,7 +9,7 @@ Contiene un importatore [CSG](OpenSCAD_CSG/it.md) che permette di aprire i file 
 Questo ambiente contiene le funzioni per modificare l\'albero delle caratteristiche CSG e riparare i modelli. Contiene anche strumenti per scopi generali che non richiedono l\'installazione di OpenSCAD; essi possono essere utilizzati in combinazione con altri ambienti di lavoro. Ad esempio, l\'ambiente [Mesh](Mesh_Workbench/it.md) utilizza internamente le funzioni di OpenSCAD per eseguire le operazioni con le [mesh](mesh/it.md), poiché sono abbastanza robuste.
 
 
-{{TOCright}}
+
 
 ![](images/OpenSCADexamaple1.png )
 
@@ -118,4 +118,4 @@ Se FreeCAD va in crash durante l\'importazione CSG, si consiglia vivamente di at
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [OpenSCAD](Category_OpenSCAD.md) > OpenSCAD Workbench/it
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [OpenSCAD](Category_OpenSCAD.md) > OpenSCAD Workbench/it

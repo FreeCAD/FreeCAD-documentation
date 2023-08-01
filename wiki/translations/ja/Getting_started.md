@@ -1,8 +1,4 @@
 # Getting started/ja
-{{TOCright}}
-
-
-
 ## 序文
 
 
@@ -263,4 +259,4 @@ There are two types of addons:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Getting started/ja
+⏵ [documentation index](../README.md) > Getting started/ja

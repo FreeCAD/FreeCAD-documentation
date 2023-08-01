@@ -57,4 +57,4 @@ See also [Measurement Of Angles On Holes](Measurement_Of_Angles_On_Holes.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HowTo Page/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HowTo Page/en

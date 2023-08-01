@@ -282,4 +282,4 @@ metal```
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Build Utility/it
+⏵ [documentation index](../README.md) > Macro Build Utility/it

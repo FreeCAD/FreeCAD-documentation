@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Drawing Annotation
-   Name/fr:Drawing Annotation
-   MenuLocation:Drawing - Annotation
-   Workbenches:[Drawing](Drawing_Workbench/fr.md)
+   Name: Drawing Annotation
+   Name/fr: Drawing Annotation
+   MenuLocation: Drawing - Annotation
+   Workbenches: [Drawing](Drawing_Workbench/fr.md)
 ---
 
 # Drawing Annotation/fr
@@ -42,4 +42,4 @@ Cette commande vous permet de placer un bloc de texte sur une [Feuille A3 paysag
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Annotation/fr
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Annotation/fr

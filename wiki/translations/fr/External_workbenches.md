@@ -1,6 +1,4 @@
 # External workbenches/fr
-{{TOCright}}
-
 ## Introduction
 
 Les [ateliers externes](External_workbenches/fr.md) sont des ateliers créés par des utilisateurs expérimentés qui n\'ont pas été intégrés dans le code source principal de FreeCAD.
@@ -152,4 +150,4 @@ Voir la page du wiki pour plus d\'informations [Traduction d\'un atelier externe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External_Workbenches](Category_External_Workbenches.md) > External workbenches/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External_Workbenches](Category_External_Workbenches.md) > External workbenches/fr

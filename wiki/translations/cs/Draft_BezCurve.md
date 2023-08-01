@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft BezCurve
-   Workbenches:[Draft](Draft_Workbench/cs.md), [Arch](Arch_Workbench/cs.md)
-   MenuLocation:Draft -> BezCurve
-   Shortcut:B Z
+   Name: Draft BezCurve
+   Workbenches: [Draft](Draft_Workbench/cs.md), [Arch](Arch_Workbench/cs.md)
+   MenuLocation: Draft -> BezCurve
+   Shortcut: B Z
 ---
 
 # Draft BezCurve/cs
@@ -208,4 +208,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BezCurve/cs
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BezCurve/cs

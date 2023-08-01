@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher BSplineDecreaseDegree
-   MenuLocation:Szkic - Narzędzia szkicownika krzywej złożonej - Szkic - Narzędzia szkicownika krzywej złożonej
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Version:0.19
-   SeeAlso:[Pokaż / ukryj stopień krzywej złożonej](Sketcher_BSplineDegree/pl.md), [Zwiększ stopień krzywej złożonej](Sketcher_BSplineIncreaseDegree/pl.md)
+   Name: Sketcher BSplineDecreaseDegree
+   MenuLocation: Szkic - Narzędzia szkicownika krzywej złożonej - Szkic - Narzędzia szkicownika krzywej złożonej
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Version: 0.19
+   SeeAlso: [Pokaż / ukryj stopień krzywej złożonej](Sketcher_BSplineDegree/pl.md), [Zwiększ stopień krzywej złożonej](Sketcher_BSplineIncreaseDegree/pl.md)
 ---
 
 # Sketcher BSplineDecreaseDegree/pl
@@ -52,4 +52,4 @@ Jeśli weźmiesz ten wynik i zwiększysz stopień, nie możesz uzyskać początk
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDecreaseDegree/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDecreaseDegree/pl

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path ExportTemplate
-   MenuLocation:Path - Export Template
-   Workbenches:[Path](Path_Workbench.md)
-   SeeAlso:[Path SetupSheet](Path_SetupSheet.md)
+   Name: Path ExportTemplate
+   MenuLocation: Path - Export Template
+   Workbenches: [Path](Path_Workbench.md)
+   SeeAlso: [Path SetupSheet](Path_SetupSheet.md)
 ---
 
 # Path ExportTemplate/zh
@@ -110,4 +110,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate/zh
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate/zh

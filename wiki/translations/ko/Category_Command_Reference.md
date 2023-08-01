@@ -27,4 +27,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Command Reference/ko
+⏵ [documentation index](../README.md) > Category:Command Reference/ko

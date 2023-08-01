@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:CurvedShapes CurvedArray
-   Name/fr:CurvedShapes CurvedArray
-   MenuLocation:
-   Workbenches:[CurvedShapes](CurvedShapes_Workbench/fr.md)
-   Shortcut:
-   SeeAlso:
+   Name: CurvedShapes CurvedArray
+   Name/fr: CurvedShapes CurvedArray
+   MenuLocation: 
+   Workbenches: [CurvedShapes](CurvedShapes_Workbench/fr.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # CurvedShapes CurvedArray/fr
@@ -55,4 +55,4 @@ Crée un réseau et redimensionne les objets dans les limites d\'une ou plusieur
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Name](Category_Name.md) > [External Command Reference](Category_External Command Reference.md) > CurvedShapes CurvedArray/fr
+⏵ [documentation index](../README.md) > [Name](Category_Name.md) > [External Command Reference](Category_External Command Reference.md) > CurvedShapes CurvedArray/fr

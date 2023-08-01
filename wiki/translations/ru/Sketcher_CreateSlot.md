@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Паз
-   Name:Sketcher_CreateSlot
-   MenuLocation:Эскиз - Геометрия эскиза - Создать паз
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**G** **S**
+   Name/ru: Паз
+   Name: Sketcher_CreateSlot
+   MenuLocation: Эскиз - Геометрия эскиза - Создать паз
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **G** **S**
 ---
 
 # Sketcher CreateSlot/ru
@@ -44,4 +44,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSlot/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSlot/ru

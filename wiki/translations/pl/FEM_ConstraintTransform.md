@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintTransform
-   Name/pl:MES: Zdefiniuj odkształcenie
-   MenuLocation:Model - Wiązania Geometryczne - Zdefiniuj odkształcenie
-   Workbenches:[MES](FEM_Workbench/pl.md)
-   SeeAlso:[Zdefiniuj obrót w płaszczyźnie](FEM_ConstraintPlaneRotation/pl.md)
+   Name: FEM ConstraintTransform
+   Name/pl: MES: Zdefiniuj odkształcenie
+   MenuLocation: Model - Wiązania Geometryczne - Zdefiniuj odkształcenie
+   Workbenches: [MES](FEM_Workbench/pl.md)
+   SeeAlso: [Zdefiniuj obrót w płaszczyźnie](FEM_ConstraintPlaneRotation/pl.md)
 ---
 
 # FEM ConstraintTransform/pl
@@ -51,4 +51,4 @@ Przekształca układ współrzędnych powierzchni na określony układ współrz
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FEM ConstraintTransform/pl
+⏵ [documentation index](../README.md) > FEM ConstraintTransform/pl

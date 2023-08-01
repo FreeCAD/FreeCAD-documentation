@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Slope
-   Name/it:Draft Slope
-   MenuLocation:Draft - Utilità - Imposta la pendenza
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Version:0.17
-   SeeAlso:[Linea](Draft_Line/it.md), [Polilinea](Draft_Wire/it.md)
+   Name: Draft Slope
+   Name/it: Draft Slope
+   MenuLocation: Draft - Utilità - Imposta la pendenza
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Version: 0.17
+   SeeAlso: [Linea](Draft_Line/it.md), [Polilinea](Draft_Wire/it.md)
 ---
 
 # Draft Slope/it
@@ -41,4 +41,4 @@ Non esiste un metodo Python per impostare la pendenza agli oggetti. Per emulare 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Slope/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Slope/it

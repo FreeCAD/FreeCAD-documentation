@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ViewFullscreen
-   Name/ru:Std ViewFullscreen
-   MenuLocation:Вид - Окно документа - На весь экран
-   Workbenches:All
-   Shortcut:**F11**
-   SeeAlso:[Std ViewDockUndockFullscreen](Std_ViewDockUndockFullscreen/ru.md), [Std MainFullscreen](Std_MainFullscreen/ru.md)
+   Name: Std ViewFullscreen
+   Name/ru: Std ViewFullscreen
+   MenuLocation: Вид - Окно документа - На весь экран
+   Workbenches: All
+   Shortcut: **F11**
+   SeeAlso: [Std ViewDockUndockFullscreen](Std_ViewDockUndockFullscreen/ru.md), [Std MainFullscreen](Std_MainFullscreen/ru.md)
 ---
 
 # Std ViewFullscreen/ru
@@ -38,4 +38,4 @@ The **Std ViewFullscreen** command switches [3D views](3D_view.md) to and from f
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewFullscreen/ru
+⏵ [documentation index](../README.md) > Std ViewFullscreen/ru

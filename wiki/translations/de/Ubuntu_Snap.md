@@ -1,6 +1,4 @@
 # Ubuntu Snap/de
-{{TOCright}}
-
 ## Einführung
 
 
@@ -192,4 +190,4 @@ Weitere Informationen über die aktuellen Bemühungen, mit Snaps umzugehen.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > [Testing](Category_Testing.md) > Ubuntu Snap/de
+⏵ [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > [Testing](Category_Testing.md) > Ubuntu Snap/de

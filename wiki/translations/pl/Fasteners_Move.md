@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Fasteners Move
-   MenuLocation:Fasteners - Move fastener
-   Workbenches:[Fasteners](Fasteners_Workbench.md)
+   Name: Fasteners Move
+   MenuLocation: Fasteners - Move fastener
+   Workbenches: [Fasteners](Fasteners_Workbench.md)
 ---
 
 # Fasteners Move/pl
@@ -43,4 +43,4 @@ The <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Fasteners 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners Move/pl
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners Move/pl

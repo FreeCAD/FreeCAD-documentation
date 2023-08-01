@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch SelectNonSolidMeshes
-   Name/pl:Architektura: Wybierz siatki niebryłowe
-   MenuLocation:Architektura - Narzędzia - Wybierz siatki niebryłowe
-   Workbenches:[Architektura](Arch_Workbench/pl.md)
-   SeeAlso:[Podziel siatkę](Arch_SplitMesh/pl.md), [Siatka na kształt](Arch_MeshToShape/pl.md)
+   Name: Arch SelectNonSolidMeshes
+   Name/pl: Architektura: Wybierz siatki niebryłowe
+   MenuLocation: Architektura - Narzędzia - Wybierz siatki niebryłowe
+   Workbenches: [Architektura](Arch_Workbench/pl.md)
+   SeeAlso: [Podziel siatkę](Arch_SplitMesh/pl.md), [Siatka na kształt](Arch_MeshToShape/pl.md)
 ---
 
 # Arch SelectNonSolidMeshes/pl
@@ -21,4 +21,4 @@ Narzędzie to identyfikuje i wybiera siatki niebryłowe *(non-[manifold](http://
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/pl
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/pl

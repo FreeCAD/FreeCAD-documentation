@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher External
-   Name/pl:Szkicownik: Geometria zewnętrzna
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Geometria zewnętrzna
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**X**
-   SeeAlso:[Tryb konstrukcji](Sketcher_ToggleConstruction/pl.md)
+   Name: Sketcher External
+   Name/pl: Szkicownik: Geometria zewnętrzna
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Geometria zewnętrzna
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **X**
+   SeeAlso: [Tryb konstrukcji](Sketcher_ToggleConstruction/pl.md)
 ---
 
 # Sketcher External/pl
@@ -94,4 +94,4 @@ Gdy edycja szkicu jest zamknięta, zewnętrzne linie Geometrii nie są widoczne.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/pl

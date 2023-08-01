@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw 2PointCosmeticLine
-   MenuLocation:TechDraw - Add Lines - Add Cosmetic Line Through 2 points
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.19
-   SeeAlso:[TechDraw FaceCenterLine](TechDraw_FaceCenterLine.md), [TechDraw 2LineCenterLine](TechDraw_2LineCenterLine.md), [TechDraw 2PointCenterLine](TechDraw_2PointCenterLine.md)
+   Name: TechDraw 2PointCosmeticLine
+   MenuLocation: TechDraw - Add Lines - Add Cosmetic Line Through 2 points
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Version: 0.19
+   SeeAlso: [TechDraw FaceCenterLine](TechDraw_FaceCenterLine.md), [TechDraw 2LineCenterLine](TechDraw_2LineCenterLine.md), [TechDraw 2PointCenterLine](TechDraw_2PointCenterLine.md)
 ---
 
 # TechDraw 2PointCosmeticLine/en
@@ -69,4 +69,4 @@ Cosmetic lines can be created using the {{Incode|makeCosmeticLine(v1, v2)}} or {
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2PointCosmeticLine/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2PointCosmeticLine/en

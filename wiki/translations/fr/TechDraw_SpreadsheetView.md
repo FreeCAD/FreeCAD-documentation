@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:TechDraw SpreadsheetView
-   Name/fr:TechDraw Vue d'un objet Spreadsheet
-   MenuLocation:TechDraw - Insérer une vue de feuille de calcul
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md), [Spreadsheet](Spreadsheet_Workbench/fr.md)
+   Name: TechDraw SpreadsheetView
+   Name/fr: TechDraw Vue d'un objet Spreadsheet
+   MenuLocation: TechDraw - Insérer une vue de feuille de calcul
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md), [Spreadsheet](Spreadsheet_Workbench/fr.md)
 ---
 
 # TechDraw SpreadsheetView/fr
@@ -76,4 +76,4 @@ Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SpreadsheetView/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SpreadsheetView/fr

@@ -1,6 +1,4 @@
 # Create a FeaturePython object part II/fr
-{{TOCright}}
-
 ## Introduction
 
 Sur la page [Créer un objet FeaturePython partie I](Create_a_FeaturePython_object_part_I/fr.md), nous nous sommes concentrés sur les aspects internes d\'une classe Python construite autour d\'un objet FeaturePython, en particulier un objet `App::FeaturePython`. Nous avons créé l\'objet, défini certaines propriétés et ajouté un rappel d\'événement au niveau du document qui permet à notre objet de répondre à un recalcul de document avec la méthode `execute()`. Mais notre objet n\'a toujours pas de présence dans la [Vue 3D](3D_view/fr.md). Remédions à cela en ajoutant une boîte.
@@ -384,4 +382,4 @@ class ViewProviderBox:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Create a FeaturePython object part II/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Create a FeaturePython object part II/fr

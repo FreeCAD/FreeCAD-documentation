@@ -1,8 +1,4 @@
 # Getting started/pl
-{{TOCright}}
-
-
-
 ## Przedmowa
 
 FreeCAD jest aplikacją typu 3D [parametric modeling application](About_FreeCAD/pl.md). Został stworzony przede wszystkim do projektowania mechanicznego. Może służyć również do wszystkich pokrewnych zastosowań, w których trzeba precyzyjnie modelować obiekty przestrzenne. Dodatkowo zapewnia kontrolę nad historią modelowania.
@@ -162,4 +158,4 @@ I na końcu, jedną z najpotężniejszych cech FreeCAD jest środowisko [skrypto
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Getting started/pl
+⏵ [documentation index](../README.md) > Getting started/pl

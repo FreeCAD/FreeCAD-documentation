@@ -1,7 +1,7 @@
 # <img alt="Std Base icon" src=images/Freecad.svg  style="width:64px;"> Std File Menu/en
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -78,4 +78,4 @@ The following tools are available in this menu:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std File Menu/en
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std File Menu/en

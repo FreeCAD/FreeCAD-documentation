@@ -16,4 +16,4 @@ Für alle Symbole im Quellbaum, siehe [Grafik](Artwork/de.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Arch](Category_Arch.md) > Artwork Arch/de
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Arch](Category_Arch.md) > Artwork Arch/de

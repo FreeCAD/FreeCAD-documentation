@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Stairs
-   MenuLocation:Arch - Stairs
-   Workbenches:[Arch](Arch_Workbench.md)
-   Shortcut:**S** **R**
-   Version:0.14
-   SeeAlso:[Arch Structure](Arch_Structure.md), [Arch Equipment](Arch_Equipment.md)
+   Name: Arch Stairs
+   MenuLocation: Arch - Stairs
+   Workbenches: [Arch](Arch_Workbench.md)
+   Shortcut: **S** **R**
+   Version: 0.14
+   SeeAlso: [Arch Structure](Arch_Structure.md), [Arch Equipment](Arch_Equipment.md)
 ---
 
 # Arch Stairs
@@ -164,4 +164,4 @@ Stairs = Arch.makeStairs(length=5000, width=1200, height=3000, steps=14)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Stairs
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Stairs

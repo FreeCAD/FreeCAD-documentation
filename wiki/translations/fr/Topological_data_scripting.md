@@ -1,8 +1,4 @@
 # Topological data scripting/fr
-{{TOCright}}
-
-
-
 ## Introduction
 
 Ici, nous vous expliquerons comment contrôler l\'[atelier Part](Part_Workbench/fr.md) directement à partir de l\'interpréteur FreeCAD Python, ou à partir de n\'importe quel script externe. Les principes de base des scripts de données topologiques sont décrits dans le [Module Part expliquant les concepts](Part_Workbench#Explaining_the_concepts/fr.md). Assurez-vous de parcourir la section [Script](Scripting/fr.md) et les pages [bases pour script dans Freecad](FreeCAD_Scripting_Basics/fr.md) si vous avez besoin de plus d\'informations sur le fonctionnement des scripts Python dans FreeCAD. Si vous êtes nouveau sur Python, c\'est une bonne idée de lire d\'abord l\'[Introduction à Python](Introduction_to_Python/fr.md).
@@ -1148,4 +1144,4 @@ Pour convertir un fichier STEP en fichier IGS :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Topological data scripting/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Topological data scripting/fr

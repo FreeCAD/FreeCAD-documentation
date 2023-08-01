@@ -1,8 +1,4 @@
 # Workbench creation/ru
-{{TOCright}}
-
-
-
 ## Вступление
 
 В данном материале изложена информация о том, как создать новый верстак для FreeCAD и добавить его в интерфейс. [Верстаки](Workbenches/ru.md) являются контейнерами для команд FreeCAD. Они могут быть написаны на Python или на C++ или в сочетании того и другого, что имеет преимущество в сочетании скорости C++ и гибкости Python. Однако во всех случаях ваш верстак будет запущен через два специальных Python файла. Это касается, как \"внутренних\" верстаков, входящих в дистрибутив FreeCAD, так и \"внешних\", распространяемых через [менеджер дополнений](Std_AddonMgr/ru.md) или устанавливаемыми вручную путем загрузки из какого-либо онлайн-репозитория. Внутренние верстаки могут быть написаны либо на C++, либо на Python, либо на их комбинации, в то время как внешние верстаки могут быть написаны, только на Python.
@@ -418,4 +414,4 @@ os.remove(qrc_filename)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Workbench creation/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Workbench creation/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ViewCreate
-   Name/fr:Std Créer une nouvelle vue
-   MenuLocation:Affichage - Créer une nouvelle vue‏‎
-   Workbenches:Tous
-   SeeAlso:[Std Fenêtre du document](Std_ViewDockUndockFullscreen/fr.md), [Std Plein écran](Std_ViewFullscreen/fr.md)
+   Name: Std ViewCreate
+   Name/fr: Std Créer une nouvelle vue
+   MenuLocation: Affichage - Créer une nouvelle vue‏‎
+   Workbenches: Tous
+   SeeAlso: [Std Fenêtre du document](Std_ViewDockUndockFullscreen/fr.md), [Std Plein écran](Std_ViewFullscreen/fr.md)
 ---
 
 # Std ViewCreate/fr
@@ -35,4 +35,4 @@ La commande **Std Créer une nouvelle vue‏‎** crée une nouvelle [vue 3D](3D
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewCreate/fr
+⏵ [documentation index](../README.md) > Std ViewCreate/fr

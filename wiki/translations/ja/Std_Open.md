@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std_Open
-   Name/ja:Std_Open
-   Workbenches:All
-   SeeAlso:[[Std_Save]],[[Std_Import]]
+   Name: Std_Open
+   Name/ja: Std_Open
+   Workbenches: All
+   SeeAlso: [[Std_Save]],[[Std_Import]]
 ---
 
 # Std Open/ja
@@ -63,4 +63,4 @@ For a scripting example see [Std New](Std_New#Scripting.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Open/ja
+⏵ [documentation index](../README.md) > Std Open/ja

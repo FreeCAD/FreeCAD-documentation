@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Mesh Intersection‏‎
-   Name/ru:Mesh Intersection‏‎
-   MenuLocation:Сетки - Булевы операции - Пересечение
-   Workbenches:[Mesh](Mesh_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:
+   Name: Mesh Intersection‏‎
+   Name/ru: Mesh Intersection‏‎
+   MenuLocation: Сетки - Булевы операции - Пересечение
+   Workbenches: [Mesh](Mesh_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Mesh Intersection/ru
@@ -44,4 +44,4 @@ See: [Mesh Feature](Mesh_Feature.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Intersection/ru
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Intersection/ru

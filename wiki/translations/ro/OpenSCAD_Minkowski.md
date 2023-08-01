@@ -1,6 +1,6 @@
 # OpenSCAD Minkowski/ro
 ---
-- GuiCommand:   Name:OpenSCAD Minkowski   MenuLocation:OpenSCAD - Minkowski‏‎   |Workbenches:[[OpenSCAD Workbench   OpenSCAD]]|Shortcut:none   SeeAlso:
+- GuiCommand:   Name: OpenSCAD Minkowski   MenuLocation: OpenSCAD - Minkowski‏‎   |Workbenches: [[OpenSCAD Workbench   OpenSCAD]]|Shortcut: none   SeeAlso: 
 
 
 </div>
@@ -85,4 +85,4 @@ Funcțiile necesara OpenSCAD sunt instalate și configurate pe traseul ** Edit**
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Minkowski/ro
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Minkowski/ro

@@ -82,4 +82,4 @@ Strona [zewnętrzne środowiska pracy](External_workbenches/pl.md) zawiera list�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/pl
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/pl

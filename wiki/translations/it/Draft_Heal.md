@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Heal
-   Name/it:Ripara
-   MenuLocation:Utilità - Ripara
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   SeeAlso:[Promuovi](Draft_Upgrade/it.md), [Retrocedi](Draft_Downgrade/it.md)
+   Name: Draft Heal
+   Name/it: Ripara
+   MenuLocation: Utilità - Ripara
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   SeeAlso: [Promuovi](Draft_Upgrade/it.md), [Retrocedi](Draft_Downgrade/it.md)
 ---
 
 # Draft Heal/it
@@ -26,4 +26,4 @@ Il comando <img alt="" src=images/Draft_Heal.svg  style="width:24px;"> **Draft R
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/it

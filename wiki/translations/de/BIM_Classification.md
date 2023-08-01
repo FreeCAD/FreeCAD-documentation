@@ -1,10 +1,10 @@
 ---
 - GuiCommand:Addon/de
-   Name:BIM Classification
-   Name/de:BIM Klassifizierung
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
-   Addon:BIM
-   MenuLocation:Verwalten - Klassifizierung
+   Name: BIM Classification
+   Name/de: BIM Klassifizierung
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
+   Addon: BIM
+   MenuLocation: Verwalten - Klassifizierung
 ---
 
 # BIM Classification/de
@@ -24,4 +24,4 @@ Der Klassifizierungsverwalter erlaubt dir, einem BIM Objekt oder Material eine S
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Classification/de
+⏵ [documentation index](../README.md) > BIM Classification/de

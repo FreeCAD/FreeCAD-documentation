@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Undo
-   Name/pl:Std: Cofnij
-   MenuLocation:Edycja - Cofnij
-   Workbenches:wszystkie
-   Shortcut:**Ctrl**+**Z**
-   SeeAlso:[Przywróć](Std_Redo/pl.md)
+   Name: Std Undo
+   Name/pl: Std: Cofnij
+   MenuLocation: Edycja - Cofnij
+   Workbenches: wszystkie
+   Shortcut: **Ctrl**+**Z**
+   SeeAlso: [Przywróć](Std_Redo/pl.md)
 ---
 
 # Std Undo/pl
@@ -66,4 +66,4 @@ FreeCAD.ActiveDocument.UndoMode = 1
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Undo/pl
+⏵ [documentation index](../README.md) > Std Undo/pl

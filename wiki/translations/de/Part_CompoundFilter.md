@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Compound‏‎Filter
-   Name/de:Part VerbundFiltern
-   MenuLocation:Formteil - Verbund - Verbundfilter
-   Workbenches:[Part](Part_Workbench/de.md)
-   Version:0.17
+   Name: Part Compound‏‎Filter
+   Name/de: Part VerbundFiltern
+   MenuLocation: Formteil - Verbund - Verbundfilter
+   Workbenches: [Part](Part_Workbench/de.md)
+   Version: 0.17
 ---
 
 # Part CompoundFilter/de
@@ -86,4 +86,4 @@ aufgeteilte Objekt erneut ausgewählt. Es wird nun unter dem VerbundFilter im Ba
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/de

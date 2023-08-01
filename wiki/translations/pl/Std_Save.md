@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Save
-   Name/pl:Std: Zapisz
-   MenuLocation:Plik - Zapisz
-   Workbenches:wszystkie
-   Shortcut:**Ctrl** + **S**
-   SeeAlso:[Zapisz jako ...](Std_SaveAs/pl.md), [Zapisz jako kopię...](Std_SaveCopy/pl.md), [Zapisz wszystkie](Std_SaveAll/pl.md)
+   Name: Std Save
+   Name/pl: Std: Zapisz
+   MenuLocation: Plik - Zapisz
+   Workbenches: wszystkie
+   Shortcut: **Ctrl** + **S**
+   SeeAlso: [Zapisz jako ...](Std_SaveAs/pl.md), [Zapisz jako kopię...](Std_SaveCopy/pl.md), [Zapisz wszystkie](Std_SaveAll/pl.md)
 ---
 
 # Std Save/pl
@@ -54,4 +54,4 @@ Aby zapisać dokument, należy użyć metody `save` obiektu *document*. Nowy dok
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Save/pl
+⏵ [documentation index](../README.md) > Std Save/pl

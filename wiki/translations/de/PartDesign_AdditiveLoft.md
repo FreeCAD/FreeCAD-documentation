@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveLoft
-   Name/de:PartDesign AusformungHinzufügen
-   MenuLocation:Part Design - Objekte hinzufügen - Ausformung
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[PartDesign RohrHinzufügen](PartDesign_AdditivePipe/de.md), [PartDesign AusformungAbziehen](PartDesign_SubtractiveLoft/de.md)
+   Name: PartDesign AdditiveLoft
+   Name/de: PartDesign AusformungHinzufügen
+   MenuLocation: Part Design - Objekte hinzufügen - Ausformung
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [PartDesign RohrHinzufügen](PartDesign_AdditivePipe/de.md), [PartDesign AusformungAbziehen](PartDesign_SubtractiveLoft/de.md)
 ---
 
 # PartDesign AdditiveLoft/de
@@ -105,4 +105,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveLoft/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveLoft/de

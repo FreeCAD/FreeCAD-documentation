@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD MeshBoolean
-   MenuLocation:OpenSCAD - Mesh Boolean...
-‏‎   Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
+   Name: OpenSCAD MeshBoolean
+   MenuLocation: OpenSCAD - Mesh Boolean...
+‏‎   Workbenches: [OpenSCAD](OpenSCAD_Workbench/de.md)
 ---
 
 # OpenSCAD MeshBoolean/de
@@ -37,4 +37,4 @@ OpenSCAD muss installiert und konfiguriert sein in **Bearbeiten** → **Einstell
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD MeshBoolean/de
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD MeshBoolean/de

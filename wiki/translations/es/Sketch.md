@@ -2,7 +2,7 @@
 ## Introducción
 
 
-{{TOCright}}
+
 
 En FreeCAD la palabra \"[Croquis](Sketch/es.md)\" se usa normalmente para referirse a un [Croquizador CroquisObjeto](Sketcher_SketchObject/es.md) (`Sketcher::SketchObject` clase) que es definida por el [Ambiente de trabajo Croquizador](Sketcher_Workbench/es.md). Este es un dibujo 2D que utiliza restricciones matemáticas para describir la geometría 2D con precisión.
 
@@ -39,4 +39,4 @@ Sin embargo, un Croquis siempre puede ser creado por sí mismo para cualquier ot
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Sketch/es
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Sketch/es

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM PostFilterCutFunction
-   Name/fr:FEM Filtre de fonction de découpe
-   MenuLocation:Résultats - Filtre de fonction de découpe
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Pipeline de résultats](FEM_PostPipelineFromResult/fr.md), [FEM Fonctions de filtrage](FEM_PostCreateFunctions/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM PostFilterCutFunction
+   Name/fr: FEM Filtre de fonction de découpe
+   MenuLocation: Résultats - Filtre de fonction de découpe
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Pipeline de résultats](FEM_PostPipelineFromResult/fr.md), [FEM Fonctions de filtrage](FEM_PostCreateFunctions/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM PostFilterCutFunction/fr
@@ -46,4 +46,4 @@ Affiche les résultats sur une sphère ou un plan traversant le modèle.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterCutFunction/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterCutFunction/fr

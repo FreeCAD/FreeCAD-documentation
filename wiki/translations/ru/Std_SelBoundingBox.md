@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Габариты
-   Name:Std_SelBoundingBox
-   MenuLocation:Вид - Габариты
-   Workbenches:Все
-   Version:0.19
-   SeeAlso:[Стиль представления](Std_DrawStyle/ru.md)
+   Name/ru: Габариты
+   Name: Std_SelBoundingBox
+   MenuLocation: Вид - Габариты
+   Workbenches: Все
+   Version: 0.19
+   SeeAlso: [Стиль представления](Std_DrawStyle/ru.md)
 ---
 
 # Std SelBoundingBox/ru
@@ -65,4 +65,4 @@ FreeCADGui.updateCommands()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SelBoundingBox/ru
+⏵ [documentation index](../README.md) > Std SelBoundingBox/ru

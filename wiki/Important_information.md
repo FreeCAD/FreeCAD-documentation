@@ -25,4 +25,4 @@ The [FreeCAD forum](https://forum.freecadweb.org/viewforum.php?f=3) is the best 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Important information
+⏵ [documentation index](../README.md) > Important information

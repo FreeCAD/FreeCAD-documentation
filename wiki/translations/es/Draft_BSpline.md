@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft BSpline
-   Name/es:Borrador BSpline
-   MenuLocation:Borrador - B-Spline 
-   Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   Shortcut:**B** **S**
-   Version:0.7
-   SeeAlso:[Borrador Hilo](Draft_Wire/es.md), [Borrador CúbicaBezCurva](Draft_CubicBezCurve/es.md), [Borrador BezCurva](Draft_BezCurve/es.md)
+   Name: Draft BSpline
+   Name/es: Borrador BSpline
+   MenuLocation: Borrador - B-Spline 
+   Workbenches: [Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut: **B** **S**
+   Version: 0.7
+   SeeAlso: [Borrador Hilo](Draft_Wire/es.md), [Borrador CúbicaBezCurva](Draft_CubicBezCurve/es.md), [Borrador BezCurva](Draft_BezCurve/es.md)
 ---
 
 # Draft BSpline/es
@@ -182,4 +182,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BSpline/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BSpline/es

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch CompAxis
-   MenuLocation:Arch - Axis tools
-   Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
-   Version:0.17
-   SeeAlso:[Arch Axis](Arch_Axis.md), [Arch Axes system](Arch_AxisSystem.md), [Arch Grid](Arch_Grid.md)
+   Name: Arch CompAxis
+   MenuLocation: Arch - Axis tools
+   Workbenches: [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   Version: 0.17
+   SeeAlso: [Arch Axis](Arch_Axis.md), [Arch Axes system](Arch_AxisSystem.md), [Arch Grid](Arch_Grid.md)
 ---
 
 # Arch CompAxis/pt-br
@@ -33,4 +33,4 @@ Create axis.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompAxis/pt-br
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompAxis/pt-br

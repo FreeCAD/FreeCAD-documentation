@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher Snap
-   Name/fr:Sketcher Aimantation
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Version:0.21
-   SeeAlso:[Sketcher Grille](Sketcher_Grid/fr.md)
+   Name: Sketcher Snap
+   Name/fr: Sketcher Aimantation
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Version: 0.21
+   SeeAlso: [Sketcher Grille](Sketcher_Grid/fr.md)
 ---
 
 # Sketcher Snap/fr
@@ -44,4 +44,4 @@ L\'aimantation ne fonctionne que lors de la création d\'une géométrie. Notez 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Snap/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Snap/fr

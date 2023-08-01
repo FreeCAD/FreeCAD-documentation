@@ -15,4 +15,4 @@ This category lists pages related to the [Drawing Workbench/ro](Drawing_Workbenc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Drawing/ro
+⏵ [documentation index](../README.md) > Category:Drawing/ro

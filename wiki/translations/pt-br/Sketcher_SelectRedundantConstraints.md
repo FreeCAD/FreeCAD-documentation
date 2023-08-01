@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectRedundantConstraints
-   MenuLocation:Sketch - Sketcher tools - Select redundant constraints
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**Z** **P** **R**
-   Version:0.15
+   Name: Sketcher SelectRedundantConstraints
+   MenuLocation: Sketch - Sketcher tools - Select redundant constraints
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **Z** **P** **R**
+   Version: 0.15
 ---
 
 # Sketcher SelectRedundantConstraints/pt-br
@@ -30,4 +30,4 @@ Selects the redundant constraints of a sketch.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectRedundantConstraints/pt-br
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectRedundantConstraints/pt-br

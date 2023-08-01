@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw View
-   Name/pl:Rysunek Techniczny: Wstaw widok
-   MenuLocation:Rysunek Techniczny - Widoki - Wstaw widok
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso:[Grupa rzutów](TechDraw_ProjectionGroup/pl.md), [Widok przekroju](TechDraw_SectionView/pl.md)
+   Name: TechDraw View
+   Name/pl: Rysunek Techniczny: Wstaw widok
+   MenuLocation: Rysunek Techniczny - Widoki - Wstaw widok
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   SeeAlso: [Grupa rzutów](TechDraw_ProjectionGroup/pl.md), [Widok przekroju](TechDraw_SectionView/pl.md)
 ---
 
 # TechDraw View/pl
@@ -223,4 +223,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw View/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw View/pl

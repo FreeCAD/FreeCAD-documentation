@@ -12,4 +12,4 @@ See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [User_Documentation](Category_User_Documentation.md) > Category:Tutorials/zh
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [User_Documentation](Category_User_Documentation.md) > Category:Tutorials/zh

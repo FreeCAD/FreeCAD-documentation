@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw ToggleFrame
-   Name/de:TechDraw RahmenUmschalten
-   MenuLocation:TechDraw  - TechDraw Ansichten - Ansichtsrahmen ein- oder ausschalten
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso:[TechDraw Ansicht](TechDraw_View/de.md), [TechDraw Ansichtengruppe](TechDraw_ProjectionGroup/de.md)
+   Name: TechDraw ToggleFrame
+   Name/de: TechDraw RahmenUmschalten
+   MenuLocation: TechDraw  - TechDraw Ansichten - Ansichtsrahmen ein- oder ausschalten
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   SeeAlso: [TechDraw Ansicht](TechDraw_View/de.md), [TechDraw Ansichtengruppe](TechDraw_ProjectionGroup/de.md)
 ---
 
 # TechDraw ToggleFrame/de
@@ -62,4 +62,4 @@ Das Umschaltwerkzeug verfügt derzeit nicht über eine Programmierschnittstelle.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ToggleFrame/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ToggleFrame/de

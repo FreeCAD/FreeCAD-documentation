@@ -182,4 +182,4 @@ As a resource: there is an excellent explanation on - [Jason\'s Blog](https://jt
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Sandbox:TutorialBIMannex
+⏵ [documentation index](../README.md) > Sandbox:TutorialBIMannex

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ViewSection
-   Name/sk:Náčrtník ZobraziťRez
-   MenuLocation:Náčrt - Zobraziť rez
-   Workbenches:[Náčrtník](Sketcher_Workbench/sk.md), [Tvorba dielu](PartDesign_Workbench/sk.md) 
-   Version:0.18
+   Name: Sketcher ViewSection
+   Name/sk: Náčrtník ZobraziťRez
+   MenuLocation: Náčrt - Zobraziť rez
+   Workbenches: [Náčrtník](Sketcher_Workbench/sk.md), [Tvorba dielu](PartDesign_Workbench/sk.md) 
+   Version: 0.18
 ---
 
 # Sketcher ViewSection/sk
@@ -47,4 +47,4 @@ Tento príkaz môžete spustiť viacerými spôsobmi:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/sk
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/sk

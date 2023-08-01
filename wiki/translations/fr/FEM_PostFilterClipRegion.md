@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM PostFilterClipRegion
-   Name/fr:FEM Filtre d'écrêtage selon une région
-   MenuLocation:Résultats - Filtre d'écrêtage selon une région
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM PostFilterClipRegion
+   Name/fr: FEM Filtre d'écrêtage selon une région
+   MenuLocation: Résultats - Filtre d'écrêtage selon une région
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM PostFilterClipRegion/fr
@@ -46,4 +46,4 @@ Filtre un champ à l\'aide d\'une sphère ou d\'un plan coupant le modèle.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterClipRegion/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterClipRegion/fr

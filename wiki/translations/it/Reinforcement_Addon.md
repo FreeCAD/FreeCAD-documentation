@@ -40,4 +40,4 @@ Sono in fase di sviluppo ulteriori nuovi ambienti.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Category_Arch.md) > Reinforcement Addon/it
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Category_Arch.md) > Reinforcement Addon/it

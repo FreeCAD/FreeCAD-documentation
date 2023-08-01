@@ -1,6 +1,6 @@
 # Robot Simulate/it
 ---
-- GuiCommand:   Name:Robot Simulate   Name/it:Simula una traiettoria   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot - Simula una traiettoria---
+- GuiCommand:   Name: Robot Simulate   Name/it: Simula una traiettoria   Workbenches: [[Robot_Workbench/it   Robot]]|MenuLocation: Robot - Simula una traiettoria---
 
 
 </div>
@@ -70,4 +70,4 @@ I pulsanti da sinistra a destra.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Simulate/it
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Simulate/it

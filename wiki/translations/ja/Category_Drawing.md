@@ -10,4 +10,4 @@ This category lists pages related to the [Drawing Workbench/ja](Drawing_Workbenc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Drawing/ja
+⏵ [documentation index](../README.md) > Category:Drawing/ja

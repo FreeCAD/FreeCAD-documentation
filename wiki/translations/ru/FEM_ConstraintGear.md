@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintGear
-   Name/ru:FEM ConstraintGear
-   MenuLocation:Model - Mechanical Constraints - Constraint gear
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM ConstraintGear
+   Name/ru: FEM ConstraintGear
+   MenuLocation: Model - Mechanical Constraints - Constraint gear
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM ConstraintGear/ru
@@ -30,4 +30,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintGear/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintGear/ru

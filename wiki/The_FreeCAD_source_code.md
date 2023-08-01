@@ -35,4 +35,4 @@ Below are some clues and useful information to get you on tracks if you are inte
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > The FreeCAD source code
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > The FreeCAD source code

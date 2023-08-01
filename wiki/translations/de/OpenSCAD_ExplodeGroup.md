@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD ExplodeGroup
-   Name/de:OpenSCAD GruppeSprengen
-   MenuLocation:OpenSCAD - Sprenge Gruppe‏‎
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
+   Name: OpenSCAD ExplodeGroup
+   Name/de: OpenSCAD GruppeSprengen
+   MenuLocation: OpenSCAD - Sprenge Gruppe‏‎
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench/de.md)
 ---
 
 # OpenSCAD ExplodeGroup/de
@@ -53,4 +53,4 @@ Um Anordnungen des Arbeitsbereichs Draft aufzulösen, wird das das Werkzeug [Dra
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExplodeGroup/de
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExplodeGroup/de

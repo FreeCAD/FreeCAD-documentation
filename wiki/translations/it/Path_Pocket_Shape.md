@@ -1,6 +1,6 @@
 # Path Pocket Shape/it
 ---
-- GuiCommand:   Name:Path Pocket   Name/it:Tasca   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path - Tasca   Shortcut:P,O   SeeAlso:---
+- GuiCommand:   Name: Path Pocket   Name/it: Tasca   Workbenches: [[Path Workbench/it   Path]]|MenuLocation: Path - Tasca   Shortcut: P,O   SeeAlso: ---
 
 
 </div>
@@ -264,4 +264,4 @@ This section is simply a layout map of the settings in the window editor for the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Pocket Shape/it
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Pocket Shape/it

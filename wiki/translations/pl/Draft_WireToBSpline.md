@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft WireToBSpline
-   MenuLocation:Modification - Wire to B-spline
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso:[Draft Wire](Draft_Wire.md), [Draft BSpline](Draft_BSpline.md)
+   Name: Draft WireToBSpline
+   MenuLocation: Modification - Wire to B-spline
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   SeeAlso: [Draft Wire](Draft_Wire.md), [Draft BSpline](Draft_BSpline.md)
 ---
 
 # Draft WireToBSpline/pl
@@ -62,4 +62,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WireToBSpline/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WireToBSpline/pl

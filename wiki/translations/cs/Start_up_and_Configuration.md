@@ -3,7 +3,7 @@
 See [Release notes 0.20](Release_notes_0.20#Core.md) for more information. This page has not yet been updated accordingly.**
 
 
-{{TOCright}}
+
 
 ## Overview
 
@@ -417,4 +417,4 @@ Now double-click the batch file to start FreeCAD. ([see](https://forum.freecadwe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Start](Start_Workbench.md) > Start up and Configuration/cs
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Start](Start_Workbench.md) > Start up and Configuration/cs

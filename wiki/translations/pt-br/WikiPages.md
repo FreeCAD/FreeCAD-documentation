@@ -1,6 +1,4 @@
 # WikiPages/pt-br
-{{TOCright}}
-
 Esta página é uma extensão da página [Help:Editing](Special:MyLanguage/Help_Editing.md) e dá orientações comuns para escrever e atualizar a documentação do wiki FreeCAD. Resume várias discussões e sessões de troca de ideias.
 
 
@@ -685,4 +683,4 @@ Consulte [Glossário](Glossary.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Wiki](Category_Wiki.md) > [Wiki Documentation](Category_Wiki Documentation.md) > [Administration](Category_Administration.md) > WikiPages/pt-br
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Wiki](Category_Wiki.md) > [Wiki Documentation](Category_Wiki Documentation.md) > [Administration](Category_Administration.md) > WikiPages/pt-br

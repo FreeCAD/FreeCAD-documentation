@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_PrintPdf
-   Name/it:Esporta PDF
-   MenuLocation:File - Esporta PDF...
-   Workbenches:All
-   SeeAlso:[Stampa](Std_Print/it.md), [Esporta](Std_Export/it.md), [Cattura Schermata](Std_ViewScreenShot/it.md)
+   Name: Std_PrintPdf
+   Name/it: Esporta PDF
+   MenuLocation: File - Esporta PDF...
+   Workbenches: All
+   SeeAlso: [Stampa](Std_Print/it.md), [Esporta](Std_Export/it.md), [Cattura Schermata](Std_ViewScreenShot/it.md)
 ---
 
 # Std PrintPdf/it
@@ -54,4 +54,4 @@ Il comando **Esporta PDF** ha principalmente lo scopo di creare dei file [PDF](P
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std PrintPdf/it
+⏵ [documentation index](../README.md) > Std PrintPdf/it

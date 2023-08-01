@@ -1,6 +1,6 @@
 # Sketcher CreatePoint/pt
 ---
-- GuiCommand:   Name:Sketcher CreatePoint   Name/pt:Sketcher Point   Workbenches:[[Sketcher Workbench/pt   Sketcher]]|MenuLocation:Sketch - Sketcher geometries - Create point---
+- GuiCommand:   Name: Sketcher CreatePoint   Name/pt: Sketcher Point   Workbenches: [[Sketcher Workbench/pt   Sketcher]]|MenuLocation: Sketch - Sketcher geometries - Create point---
 
 
 </div>
@@ -33,4 +33,4 @@ The Point tool creates a point in the current sketch, which can be used for cons
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/pt
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/pt

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:Addon
-   Name:BIM Box
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
-   Addon:BIM
-   MenuLocation:3D Modeling -> Box
-   SeeAlso:[[Part Box]]
+   Name: BIM Box
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
+   Addon: BIM
+   MenuLocation: 3D Modeling -> Box
+   SeeAlso: [[Part Box]]
 ---
 
 # BIM Box/es
@@ -35,4 +35,4 @@ La herramienta BIM Box le permite crear un estándar [Part Box](Part_Box.md), pe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Box/es
+⏵ [documentation index](../README.md) > BIM Box/es

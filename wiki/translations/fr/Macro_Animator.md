@@ -37,4 +37,4 @@ Icône de la barre d\'outils ![](images/Animator.svg )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Animator/fr
+⏵ [documentation index](../README.md) > Macro Animator/fr

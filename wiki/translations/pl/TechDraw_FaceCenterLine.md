@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw FaceCenterLine
-   Name/pl:Rysunek Techniczny: Dodaj oś ściany
-   MenuLocation:Rysunek Techniczny - Dodaj linie - Dodaj oś ściany
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Version:0.19
-   SeeAlso:[Dodaj wierzchołek kosmetyczny](TechDraw_CosmeticVertex/pl.md), [Dodaj oś pomiędzy dwiema liniami](TechDraw_2LineCenterLine/pl.md), [Dodaj oś pomiędzy dwoma punktami](TechDraw_2PointCenterLine/pl.md), [Usuń geometrie pomocnicze](TechDraw_CosmeticEraser/pl.md)
+   Name: TechDraw FaceCenterLine
+   Name/pl: Rysunek Techniczny: Dodaj oś ściany
+   MenuLocation: Rysunek Techniczny - Dodaj linie - Dodaj oś ściany
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Version: 0.19
+   SeeAlso: [Dodaj wierzchołek kosmetyczny](TechDraw_CosmeticVertex/pl.md), [Dodaj oś pomiędzy dwiema liniami](TechDraw_2LineCenterLine/pl.md), [Dodaj oś pomiędzy dwoma punktami](TechDraw_2PointCenterLine/pl.md), [Usuń geometrie pomocnicze](TechDraw_CosmeticEraser/pl.md)
 ---
 
 # TechDraw FaceCenterLine/pl
@@ -129,4 +129,4 @@ Centerlines have no properties of their own, as they are not document objects.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw FaceCenterLine/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw FaceCenterLine/pl

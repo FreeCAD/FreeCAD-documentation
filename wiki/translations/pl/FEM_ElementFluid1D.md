@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:FEM ElementFluid1D
-   MenuLocation:Model - Element Geometry - Fluid section for 1D flow
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM tutorial](FEM_tutorial.md)
+   Name: FEM ElementFluid1D
+   MenuLocation: Model - Element Geometry - Fluid section for 1D flow
+   Workbenches: [FEM](FEM_Workbench.md)
+   SeeAlso: [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM ElementFluid1D/pl
@@ -46,4 +46,4 @@ Tworzy element MES przekroju cieczy dla układów pneumatycznych i hydraulicznyc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementFluid1D/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementFluid1D/pl

@@ -1,6 +1,4 @@
 # TechDraw Hatching/fr
-{{TOCright}}
-
 ## Description
 
 L\'atelier TechDraw dispose de deux outils de hachurage :
@@ -82,4 +80,4 @@ Le fichier `FCPAT.pat` peut être trouvé à l\'emplacement suivant :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Hatching/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Hatching/fr

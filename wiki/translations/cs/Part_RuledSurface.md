@@ -1,6 +1,6 @@
 # Part RuledSurface/cs
 ---
-- GuiCommand:   Name:Part RuledSurface   Name/pl:Part RuledSurface   MenuLocation:Part - RuledSurface   Workbenches:[[Part_Workbench/pl   Part]], Complete|SeeAlso:---
+- GuiCommand:   Name: Part RuledSurface   Name/pl: Part RuledSurface   MenuLocation: Part - RuledSurface   Workbenches: [[Part_Workbench/pl   Part]], Complete|SeeAlso: ---
 
 
 </div>
@@ -24,4 +24,4 @@ Create ruled surface
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RuledSurface/cs
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RuledSurface/cs

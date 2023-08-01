@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std FreeCADDonation
-   Name/pl:Std: Przekaż darowiznę
-   MenuLocation:Pomoc - Przekaż darowiznę
-   Workbenches:wszystkie
-   Version:0.19
+   Name: Std FreeCADDonation
+   Name/pl: Std: Przekaż darowiznę
+   MenuLocation: Pomoc - Przekaż darowiznę
+   Workbenches: wszystkie
+   Version: 0.19
 ---
 
 # Std FreeCADDonation/pl
@@ -34,4 +34,4 @@ Obecnie polecenie wskazuje na [<https://wiki.freecad.org/Donate>](https://wiki.f
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADDonation/pl
+⏵ [documentation index](../README.md) > Std FreeCADDonation/pl

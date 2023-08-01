@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Image Scaling
-   Name/fr:Image Redimensionner l'image
-   MenuLocation:
-   Workbenches:[Image](Image_Workbench/fr.md)
-   SeeAlso:[Image Ouvrir](Image_Open/fr.md), [Image Créer un plan d'image](Image_CreateImagePlane/fr.md)
+   Name: Image Scaling
+   Name/fr: Image Redimensionner l'image
+   MenuLocation: 
+   Workbenches: [Image](Image_Workbench/fr.md)
+   SeeAlso: [Image Ouvrir](Image_Open/fr.md), [Image Créer un plan d'image](Image_CreateImagePlane/fr.md)
 ---
 
 # Image Scaling/fr
@@ -32,4 +32,4 @@ L\'outil [Image Redimensionner l\'image](Image_Scaling/fr.md) redimensionne une 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/fr
+⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/fr

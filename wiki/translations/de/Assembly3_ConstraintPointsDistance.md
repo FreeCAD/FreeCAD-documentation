@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPointsDistance
-   Name/de:Assembly3 PunktZuPunktAbstand
-   Icon:Assembly_ConstraintPointsDistance.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintPointsDistance
+   Name/de: Assembly3 PunktZuPunktAbstand
+   Icon: Assembly_ConstraintPointsDistance.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintPointsDistance/de
@@ -21,4 +21,4 @@ Dieses Werkzeug stellt eine Verbindung zwischen zwei Objekten eines Zusammenbaus
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointsDistance/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPointsDistance/de

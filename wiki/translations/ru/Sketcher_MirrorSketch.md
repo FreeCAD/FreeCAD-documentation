@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher MirrorSketch
-   Name/ru:Отразить эскиз
-   MenuLocation:Sketch - Отразить эскиз
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.16
+   Name: Sketcher MirrorSketch
+   Name/ru: Отразить эскиз
+   MenuLocation: Sketch - Отразить эскиз
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Version: 0.16
 ---
 
 # Sketcher MirrorSketch/ru
@@ -50,4 +50,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MirrorSketch/ru

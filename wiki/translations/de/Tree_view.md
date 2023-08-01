@@ -1,8 +1,4 @@
 # Tree view/de
-{{TOCright}}
-
-
-
 ## Einleitung
 
 Die [Baumansicht](Tree_view/de.md) befindet sich auf der Registerkarte **Modell** in der [Combo-Ansicht](Combo_view/de.md), einem der wichtigsten Bereiche der [Oberfläche](Interface/de.md); sie zeigt alle benutzerdefinierten Objekte, die Teil eines FreeCAD-Dokuments sind. Die Baumansicht ist eine Darstellung der [Dokumentstruktur](document_structure/de.md) und zeigt an, welche Informationen auf die Festplatte gespeichert werden.
@@ -247,4 +243,4 @@ Dies zeigt an, dass das Objekt in der Baumansicht ausgeblendet ist, wenn die Kon
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Tree view/de
+⏵ [documentation index](../README.md) > Tree view/de

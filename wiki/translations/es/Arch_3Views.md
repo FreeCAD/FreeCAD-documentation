@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch 3Views
-   Name/es:Arch 3Views
-   MenuLocation:Arch - Utilities - 3 Views from mesh
-   Workbenches:[Arch](Arch_Workbench/es.md)
-   Shortcut:
-   SeeAlso:
+   Name: Arch 3Views
+   Name/es: Arch 3Views
+   MenuLocation: Arch - Utilities - 3 Views from mesh
+   Workbenches: [Arch](Arch_Workbench/es.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Arch 3Views/es
@@ -85,4 +85,4 @@ mesh_obj.ViewObject.Visibility = False
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch 3Views/es
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch 3Views/es

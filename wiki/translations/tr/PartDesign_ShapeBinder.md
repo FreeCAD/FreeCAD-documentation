@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign ShapeBinder
-   Name/tr:Şekil bağlayıcı oluştur
-   Workbenches:[Parça tasarım](PartDesign_Workbench/tr.md)
-   MenuLocation:Parça tasarım - Şekil bağlayıcı oluştur
-   Version:0.17
-   SeeAlso:[klonla](PartDesign_Clone/tr.md)
+   Name: PartDesign ShapeBinder
+   Name/tr: Şekil bağlayıcı oluştur
+   Workbenches: [Parça tasarım](PartDesign_Workbench/tr.md)
+   MenuLocation: Parça tasarım - Şekil bağlayıcı oluştur
+   Version: 0.17
+   SeeAlso: [klonla](PartDesign_Clone/tr.md)
 ---
 
 # PartDesign ShapeBinder/tr
@@ -150,4 +150,4 @@ Here is how you use the ShapeBinder Feature to achieve it:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/tr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/tr

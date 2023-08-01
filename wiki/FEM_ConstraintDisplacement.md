@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintDisplacement
-   MenuLocation:Model - Mechanical Constraints - Constraint displacement
-   Workbenches:[FEM](FEM_Workbench.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial.md)
+   Name: FEM ConstraintDisplacement
+   MenuLocation: Model - Mechanical Constraints - Constraint displacement
+   Workbenches: [FEM](FEM_Workbench.md)
+   Shortcut: 
+   SeeAlso: [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM ConstraintDisplacement
@@ -85,4 +85,4 @@ For the <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintDisplacement
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintDisplacement

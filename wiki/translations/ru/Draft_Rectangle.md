@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Rectangle
-   Name/ru:Draft Rectangle
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   MenuLocation:Черчение -> Прямоугольник
-   Shortcut:R E
-   SeeAlso:[Куб](Part_Box/ru.md)
+   Name: Draft Rectangle
+   Name/ru: Draft Rectangle
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Черчение -> Прямоугольник
+   Shortcut: R E
+   SeeAlso: [Куб](Part_Box/ru.md)
 ---
 
 # Draft Rectangle/ru
@@ -133,4 +133,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rectangle/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rectangle/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExportPageSVG
-   Name/de:TechDraw BlattExportierenSVG
-   MenuLocation:TechDraw - Page - Seite als SVG-Datei exportieren
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso:[TechDraw Vorlagen](TechDraw_Templates/de.md), [Draft SVG](Draft_SVG/de.md)
+   Name: TechDraw ExportPageSVG
+   Name/de: TechDraw BlattExportierenSVG
+   MenuLocation: TechDraw - Page - Seite als SVG-Datei exportieren
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   SeeAlso: [TechDraw Vorlagen](TechDraw_Templates/de.md), [Draft SVG](Draft_SVG/de.md)
 ---
 
 # TechDraw ExportPageSVG/de
@@ -66,4 +66,4 @@ Beachte, dass das FreeCADGui Modul aktiv sein muss, um diese Funktion nutzen zu 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExportPageSVG/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExportPageSVG/de

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Пользовательская документация
-   Name:Std_FreeCADUserHub
-   MenuLocation:Помощь - Пользовательская документация
-   Workbenches:Все
-   SeeAlso:[Сайт FreeCAD](Std_FreeCADWebsite/ru.md), [Документация по созданию скриптов на Python](Std_FreeCADPowerUserHub/ru.md), [Форум FreeCAD](Std_FreeCADForum/ru.md), [FreeCAD Часто Задаваемые  Вопросы](Std_FreeCADFAQ/ru.md)
+   Name/ru: Пользовательская документация
+   Name: Std_FreeCADUserHub
+   MenuLocation: Помощь - Пользовательская документация
+   Workbenches: Все
+   SeeAlso: [Сайт FreeCAD](Std_FreeCADWebsite/ru.md), [Документация по созданию скриптов на Python](Std_FreeCADPowerUserHub/ru.md), [Форум FreeCAD](Std_FreeCADForum/ru.md), [FreeCAD Часто Задаваемые  Вопросы](Std_FreeCADFAQ/ru.md)
 ---
 
 # Std FreeCADUserHub/ru
@@ -34,4 +34,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADUserHub/ru
+⏵ [documentation index](../README.md) > Std FreeCADUserHub/ru

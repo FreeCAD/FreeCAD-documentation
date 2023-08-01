@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainDistanceX
-   Name/pl:Szkicownik: Zwiąż w poziomie
-   MenuLocation:Szkic - Wiązania szkicownika - Zwiąż w poziomie
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**L**
-   SeeAlso:[Wiązanie odległości](Sketcher_ConstrainDistance/pl.md), [Zwiąż w pionie](Sketcher_ConstrainDistanceY/pl.md)
+   Name: Sketcher ConstrainDistanceX
+   Name/pl: Szkicownik: Zwiąż w poziomie
+   MenuLocation: Szkic - Wiązania szkicownika - Zwiąż w poziomie
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **L**
+   SeeAlso: [Wiązanie odległości](Sketcher_ConstrainDistance/pl.md), [Zwiąż w pionie](Sketcher_ConstrainDistanceY/pl.md)
 ---
 
 # Sketcher ConstrainDistanceX/pl
@@ -63,4 +63,4 @@ Strona [Skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistanceX/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistanceX/pl

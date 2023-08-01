@@ -806,4 +806,4 @@ ToolBar icon ![](images/Macro_Unfold_Box.png )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Unfold Box/en
+⏵ [documentation index](../README.md) > Macro Unfold Box/en

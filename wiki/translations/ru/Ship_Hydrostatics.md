@@ -1,11 +1,11 @@
 # Ship Hydrostatics/ru
 ---
 - GuiCommand:
-   Name:Ship Hydrostatics
-   Name/ru:Ship Hydrostatics
-   MenuLocation:Ship design - Гидростатика
-   Workbenches:[Ship](Ship_Workbench/ru.md)
-   Shortcut:   SeeAlso:---
+   Name: Ship Hydrostatics
+   Name/ru: Ship Hydrostatics
+   MenuLocation: Ship design - Гидростатика
+   Workbenches: [Ship](Ship_Workbench/ru.md)
+   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -97,4 +97,4 @@ Press the **Accept** button when you are ready, so the Ship module will start th
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Hydrostatics/ru
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Hydrostatics/ru

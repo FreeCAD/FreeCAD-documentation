@@ -1,8 +1,4 @@
 # TechDraw Preferences/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 Ekran preferencji środowiska pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) znajduje się w [Edytorze preferencji](Preferences_Editor/pl.md), **Edycja → Preferencje → Rysunek Techniczny**.
@@ -212,4 +208,4 @@ HLR oznacza \"usunięcie ukrytej linii\".
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/pl
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/pl

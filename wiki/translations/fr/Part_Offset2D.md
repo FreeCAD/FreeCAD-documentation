@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Offset2D
-   Name/fr:Part Décalage 2D
-   MenuLocation:Part - Décalage 2D...
-   Workbenches:[Part](Part_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[Part Décalage 3D](Part_Offset/fr.md), [Part Évidement](Part_Thickness/fr.md), [Draft Décalage](Draft_Offset/fr.md)
+   Name: Part Offset2D
+   Name/fr: Part Décalage 2D
+   MenuLocation: Part - Décalage 2D...
+   Workbenches: [Part](Part_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [Part Décalage 3D](Part_Offset/fr.md), [Part Évidement](Part_Thickness/fr.md), [Draft Décalage](Draft_Offset/fr.md)
 ---
 
 # Part Offset2D/fr
@@ -122,4 +122,4 @@ Part.show(enlarged_circle)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset2D/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset2D/fr

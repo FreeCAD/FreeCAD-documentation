@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw SurfaceFinishSymbol
-   Name/de:TechDraw Oberflächensymbol
-   MenuLocation:TechDraw - Symbols - Oberflächensymbol erstellen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.21
+   Name: TechDraw SurfaceFinishSymbol
+   Name/de: TechDraw Oberflächensymbol
+   MenuLocation: TechDraw - Symbols - Oberflächensymbol erstellen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Version: 0.21
 ---
 
 # TechDraw SurfaceFinishSymbol/de
@@ -47,4 +47,4 @@ Das Werkzeug **TechDraw Oberflächensymbol** fügt dem Zeichnungsblatt (Page-Obj
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SurfaceFinishSymbol/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SurfaceFinishSymbol/de

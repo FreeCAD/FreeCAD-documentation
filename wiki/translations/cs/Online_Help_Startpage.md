@@ -43,4 +43,4 @@ Jak už jste možná někdy zjistili, programátoři jsou skutečně špatní au
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/cs
+⏵ [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/cs

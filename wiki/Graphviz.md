@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Graphviz
+⏵ [documentation index](../README.md) > Graphviz

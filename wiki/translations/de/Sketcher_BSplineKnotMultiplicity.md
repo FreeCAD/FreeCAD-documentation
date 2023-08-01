@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher BSplineKnotMultiplicity
-   Name/de:Sketcher BSplineKnotenVielfachheit
-   MenuLocation:Sketch - B-Spline-Werkzeuge - Vielfachheit der B-Spline-Knoten ein- / ausblenden
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[AuswahlBSplineErstellen](Sketcher_CompCreateBSpline/de.md)
+   Name: Sketcher BSplineKnotMultiplicity
+   Name/de: Sketcher BSplineKnotenVielfachheit
+   MenuLocation: Sketch - B-Spline-Werkzeuge - Vielfachheit der B-Spline-Knoten ein- / ausblenden
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [AuswahlBSplineErstellen](Sketcher_CompCreateBSpline/de.md)
 ---
 
 # Sketcher BSplineKnotMultiplicity/de
@@ -32,4 +32,4 @@ Zeigt oder verbirgt die Anzeige der Knotenvielfalt einer B-Spline. Siehe [diese 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineKnotMultiplicity/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineKnotMultiplicity/de

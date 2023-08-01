@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path Profile
-   MenuLocation:Path - Profile
-   Workbenches:[Path](Path_Workbench.md)
-   Version:0.19
+   Name: Path Profile
+   MenuLocation: Path - Profile
+   Workbenches: [Path](Path_Workbench.md)
+   Version: 0.19
 ---
 
 # Path Profile/ro
@@ -309,4 +309,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Profile/ro
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Profile/ro

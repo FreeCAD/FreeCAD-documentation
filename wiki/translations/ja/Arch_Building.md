@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_Edit
-   Name/ja:Std_Edit
-   MenuLocation:Edit -> Toggle Editmode
-   Workbenches:All
-   SeeAlso:
+   Name: Std_Edit
+   Name/ja: Std_Edit
+   MenuLocation: Edit -> Toggle Editmode
+   Workbenches: All
+   SeeAlso: 
 ---
 
 # Arch Building/ja
@@ -97,4 +97,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/ja
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/ja

@@ -1,6 +1,4 @@
 # Debugging/pt
-{{TOCright}}
-
 ## Test First 
 
 Before you go through the pain of debugging use the [Test framework](Testing.md) to check if the standard tests work properly. If they do not run complete there is possibly a broken installation.
@@ -419,4 +417,4 @@ For developers needing to dig deeper in to the OpenCasCade kernel, user \@abdull
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Debugging/pt
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Debugging/pt

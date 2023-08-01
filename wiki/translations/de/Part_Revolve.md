@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Revolve
-   Name/de:Part Drehen
-   MenuLocation:Formteil - Drehen
-   Workbenches:[Part](Part_Workbench/de.md)
+   Name: Part Revolve
+   Name/de: Part Drehen
+   MenuLocation: Formteil - Drehen
+   Workbenches: [Part](Part_Workbench/de.md)
 ---
 
 # Part Revolve/de
@@ -36,4 +36,4 @@ Wenn Du eine benutzerdefinierte Achse wählst, definieren die Zahlen die Richtun
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/de

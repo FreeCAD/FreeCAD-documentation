@@ -374,4 +374,4 @@ form.exec_()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Global Variable Watcher/it
+⏵ [documentation index](../README.md) > Macro Global Variable Watcher/it

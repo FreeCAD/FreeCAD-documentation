@@ -4,7 +4,7 @@
 <img alt="Arch workbench icon" src=images/Workbench_Arch.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
  A Bancada de trabalho \"Arch\" (Arquitectura) permite um moderno fluxo de trabalho [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) para FreeCAD, com suporte a recursos como [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes), Entidades de arquitetura totalmente paramétricas como paredes, elementos estruturais ou janelas, e produção de documentos 2D. A Bancada de trabalho \"Arch\" (Arquitectura) também utiliza todas as ferramentas da [bancada de trabalho \"Draft\" (traço)](Draft_Workbench/pt.md).
 
@@ -209,4 +209,4 @@ O módulo Arch (Arquitetura) pode ser usado em scripts python e [ macros](macros
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/pt
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/pt

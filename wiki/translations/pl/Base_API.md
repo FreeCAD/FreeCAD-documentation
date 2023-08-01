@@ -29,4 +29,4 @@ Ramka ograniczająca to sześcian prostokątny, który jest sposobem na zdefinio
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Base API/pl
+⏵ [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Base API/pl

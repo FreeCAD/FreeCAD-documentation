@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionShortenLine
-   MenuLocation:TechDraw - Extensions: Attributes/Modifications - Shorten Line
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ExtensionExtendLine](TechDraw_ExtensionExtendLine.md)
+   Name: TechDraw ExtensionShortenLine
+   MenuLocation: TechDraw - Extensions: Attributes/Modifications - Shorten Line
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ExtensionExtendLine](TechDraw_ExtensionExtendLine.md)
 ---
 
 # TechDraw ExtensionShortenLine
@@ -34,4 +34,4 @@ The **TechDraw ExtensionShortenLine** tool shortens a cosmetic line or centerlin
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionShortenLine
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionShortenLine

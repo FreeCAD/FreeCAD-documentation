@@ -1,6 +1,4 @@
 # FreeCAD Build Tool/it
-{{TOCright}}
-
 ## Introduzione
 
 Lo **Strumento per la compilazione di FreeCAD** (FreeCAD build tool o **fcbt**) è uno script in Python ubicato in 
@@ -62,4 +60,4 @@ Il comando \"CM\" [crea un nuovo modulo dell\'applicazione (Workbench)](Workbenc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Build Tool/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Build Tool/it

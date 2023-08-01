@@ -1,12 +1,12 @@
 ---
 - GuiCommand:Addon/es
-   Name:Arch Rebar BentShape
-   Name/es: Arch Barra de refuerzo doblada
-   MenuLocation:Arch - Rebar tools
-   Workbenches:[Arquitectura](Arch_Workbench/es.md)
-   SeeAlso:[Estribo](Arch_Rebar_Stirrup/es.md), [[Arch Rebar/es]]
-   Version:0.17
-   Addon:Reinforcement
+   Name: Arch Rebar BentShape
+   Name/es:  Arch Barra de refuerzo doblada
+   MenuLocation: Arch - Rebar tools
+   Workbenches: [Arquitectura](Arch_Workbench/es.md)
+   SeeAlso: [Estribo](Arch_Rebar_Stirrup/es.md), [[Arch Rebar/es]]
+   Version: 0.17
+   Addon: Reinforcement
 ---
 
 # Arch Rebar BentShape/es
@@ -198,4 +198,4 @@ BentShapeRebar.editBentShapeRebar(Rebar2, 50, 35, 20, 20,
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar BentShape/es
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar BentShape/es

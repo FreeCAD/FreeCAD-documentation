@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch CompSetMaterial
-   Name/de:Arch AuswahlMaterialZuordnen
-   MenuLocation:Arch - Materialwerkzeuge
-   Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[Arch MaterialZuordnen](Arch_SetMaterial/de.md), [Arch MehrfachMaterial](Arch_MultiMaterial/de.md)
+   Name: Arch CompSetMaterial
+   Name/de: Arch AuswahlMaterialZuordnen
+   MenuLocation: Arch - Materialwerkzeuge
+   Workbenches: [Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [Arch MaterialZuordnen](Arch_SetMaterial/de.md), [Arch MehrfachMaterial](Arch_MultiMaterial/de.md)
 ---
 
 # Arch CompSetMaterial/de
@@ -23,4 +23,4 @@ Mit den Materialwerkzeugen können Materialien zum aktiven Dokument hinzugefügt
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompSetMaterial/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompSetMaterial/de

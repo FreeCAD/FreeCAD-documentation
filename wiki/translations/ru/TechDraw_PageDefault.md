@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Вставить страницу по умолчанию
-   Name:TechDraw_PageDefault
-   MenuLocation:TechDraw - Вставить страницу по умолчанию
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Вставить страницу используя шаблон](TechDraw_PageTemplate/ru.md), [Шаблоны TechDraw](TechDraw_Templates/ru.md)
+   Name/ru: Вставить страницу по умолчанию
+   Name: TechDraw_PageDefault
+   MenuLocation: TechDraw - Вставить страницу по умолчанию
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso: [Вставить страницу используя шаблон](TechDraw_PageTemplate/ru.md), [Шаблоны TechDraw](TechDraw_Templates/ru.md)
 ---
 
 # TechDraw PageDefault/ru
@@ -114,4 +114,4 @@ See [TechDraw PageTemplate](TechDraw_PageTemplate#Scripting.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageDefault/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageDefault/ru

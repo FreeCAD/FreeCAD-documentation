@@ -19,4 +19,4 @@ Aby nauczyć się korzystać z systemu kontroli rewizji i kodu źródłowego, pr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compiling/pl
+⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compiling/pl

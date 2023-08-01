@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Bugtracker
+⏵ [documentation index](../README.md) > Bugtracker

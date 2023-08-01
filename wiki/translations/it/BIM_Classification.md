@@ -1,10 +1,10 @@
 ---
 - GuiCommand:Addon/it
-   Name:BIM Classification
-   Name/it:Classificazione BIM
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/it.md)
-   Addon:BIM
-   MenuLocation:Gestione - Classificazione
+   Name: BIM Classification
+   Name/it: Classificazione BIM
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/it.md)
+   Addon: BIM
+   MenuLocation: Gestione - Classificazione
 ---
 
 # BIM Classification/it
@@ -24,4 +24,4 @@ Il gestore delle classificazioni consente di attribuire una classe standard a un
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Classification/it
+⏵ [documentation index](../README.md) > BIM Classification/it

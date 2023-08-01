@@ -86,4 +86,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Manual:The Community/ru
+⏵ [documentation index](../README.md) > Manual:The Community/ru

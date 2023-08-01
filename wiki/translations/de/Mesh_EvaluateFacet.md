@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh EvaluateFacet
-   Name/de:Mesh FacetteAuswerten
-   MenuLocation: Netze - Analysieren - Dreiecksinformation
-   Workbenches:[Mesh](Mesh_Workbench/de.md)
+   Name: Mesh EvaluateFacet
+   Name/de: Mesh FacetteAuswerten
+   MenuLocation:  Netze - Analysieren - Dreiecksinformation
+   Workbenches: [Mesh](Mesh_Workbench/de.md)
 ---
 
 # Mesh EvaluateFacet/de
@@ -49,4 +49,4 @@ Triangle: <[1.964574, 0.047063, 0.748046], [1.937166, 0.062461, 0.992797],
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh EvaluateFacet/de
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh EvaluateFacet/de

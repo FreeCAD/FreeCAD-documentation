@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Offset
-   MenuLocation:Part - 3D Offset
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part Thickness](Part_Thickness.md), [Part 2D Offset](Part_Offset2D.md)
+   Name: Part Offset
+   MenuLocation: Part - 3D Offset
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Part Thickness](Part_Thickness.md), [Part 2D Offset](Part_Offset2D.md)
 ---
 
 # Part Offset/en
@@ -65,4 +65,4 @@ same shape with a 3D Offset as SKIN and *filled* offset
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/en
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/en

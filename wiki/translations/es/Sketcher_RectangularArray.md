@@ -1,6 +1,6 @@
 # Sketcher RectangularArray/es
 ---
-- GuiCommand:   Name:Sketcher RectangularArray   Workbenches:[PartDesign](Sketcher_Workbench/es___Sketcher]],_[[PartDesign_Workbench/es.md)|MenuLocation:Sketch - Sketcher tools - Rectangular Array   Version:0.16---
+- GuiCommand:   Name: Sketcher RectangularArray   Workbenches: [PartDesign](Sketcher_Workbench/es___Sketcher]],_[[PartDesign_Workbench/es.md)|MenuLocation: Sketch - Sketcher tools - Rectangular Array   Version: 0.16---
 
 
 </div>
@@ -44,4 +44,4 @@ Creates an array of selected sketcher elements.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RectangularArray/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RectangularArray/es

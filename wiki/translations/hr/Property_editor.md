@@ -1,9 +1,4 @@
 # Property editor/hr
-{{TOCright}}
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 ## Pregled
@@ -20,7 +15,7 @@ Generally, the property editor is intended to deal with just one object at one t
 Not all properties can be modified always; depending on the specific status of the property, some of them will be invisible (not listed), or be read-only (not editable).
 
 
-{{TOCright}}
+
 
 ![](images/FreeCAD_Property_editor_empty.png )
 
@@ -417,4 +412,4 @@ print(obj.ViewObject.PropertiesList)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Property editor/hr
+⏵ [documentation index](../README.md) > Property editor/hr

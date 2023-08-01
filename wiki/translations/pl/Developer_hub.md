@@ -1,5 +1,4 @@
-# Developer hub/pl
-{{TOCright}} <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;">
+# <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> Developer hub/pl
 
 
 
@@ -149,4 +148,4 @@ FreeCAD, choć użyteczny w pewnych obszarach, jest na początku długiej drogi 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > [Developer Documentation](Category_Developer Documentation.md) > Developer hub/pl
+⏵ [documentation index](../README.md) > [Hubs](Category_Hubs.md) > [Developer Documentation](Category_Developer Documentation.md) > Developer hub/pl

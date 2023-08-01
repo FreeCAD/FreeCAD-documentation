@@ -1,10 +1,10 @@
 ---
 - GuiCommand:Addon
-   Name:BIM Layers
-   Name/de:BIM Lagen
-   Workbenches:[BIM](BIM_Workbench/de.md)
-   Addon:BIM
-   MenuLocation:Verwalten - Lagen
+   Name: BIM Layers
+   Name/de: BIM Lagen
+   Workbenches: [BIM](BIM_Workbench/de.md)
+   Addon: BIM
+   MenuLocation: Verwalten - Lagen
 ---
 
 # BIM Layers/de
@@ -22,4 +22,4 @@ Mit dem Lagenverwalter kannst du deine Lagen verwalten, Lagen hinzufügen oder e
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Layers/de
+⏵ [documentation index](../README.md) > BIM Layers/de

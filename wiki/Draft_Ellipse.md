@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Ellipse
-   MenuLocation:Drafting - Ellipse
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:**E** **L**
-   Version:0.7
+   Name: Draft Ellipse
+   MenuLocation: Drafting - Ellipse
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut: **E** **L**
+   Version: 0.7
 ---
 
 # Draft Ellipse
@@ -126,4 +126,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Ellipse
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Ellipse

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Показать/скрыть кратность узлов B-сплайна
-   Name:Sketcher_BSplineKnotMultiplicity
-   MenuLocation:Sketch - B-сплйан инструменты эскиза - Показать/скрыть кратность узлов B-сплайна
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Создать B-сплайн](Sketcher_CompCreateBSpline/ru.md)
+   Name/ru: Показать/скрыть кратность узлов B-сплайна
+   Name: Sketcher_BSplineKnotMultiplicity
+   MenuLocation: Sketch - B-сплйан инструменты эскиза - Показать/скрыть кратность узлов B-сплайна
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Создать B-сплайн](Sketcher_CompCreateBSpline/ru.md)
 ---
 
 # Sketcher BSplineKnotMultiplicity/ru
@@ -41,4 +41,4 @@ Shows or hides the display of the knot multiplicity of a B-spline. See [this pag
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineKnotMultiplicity/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineKnotMultiplicity/ru

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Заменить ссылкой
-   Name:Std_LinkReplace
-   MenuLocation:Нет
-   Workbenches:Все
-   Version:0.19
-   SeeAlso:[Создать ссылку](Std_LinkMake/ru.md), [Ссылка](Std_LinkMakeRelative/ru.md), [Отвязать](Std_LinkUnlink/ru.md)
+   Name/ru: Заменить ссылкой
+   Name: Std_LinkReplace
+   MenuLocation: Нет
+   Workbenches: Все
+   Version: 0.19
+   SeeAlso: [Создать ссылку](Std_LinkMake/ru.md), [Ссылка](Std_LinkMakeRelative/ru.md), [Отвязать](Std_LinkUnlink/ru.md)
 ---
 
 # Std LinkReplace/ru
@@ -64,4 +64,4 @@ This can also be done with objects contained inside {{button|[<img src=images/St
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkReplace/ru
+⏵ [documentation index](../README.md) > Std LinkReplace/ru

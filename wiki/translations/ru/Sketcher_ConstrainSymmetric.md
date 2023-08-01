@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Ограничение симметричности
-   Name:Sketcher_ConstrainSymmetric
-   MenuLocation:Sketch - Ограничения эскиза - Ограничение симметричности
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:S
-   SeeAlso:[Ограничение параллельности](Sketcher_ConstrainParallel/ru.md)
+   Name/ru: Ограничение симметричности
+   Name: Sketcher_ConstrainSymmetric
+   MenuLocation: Sketch - Ограничения эскиза - Ограничение симметричности
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: S
+   SeeAlso: [Ограничение параллельности](Sketcher_ConstrainParallel/ru.md)
 ---
 
 # Sketcher ConstrainSymmetric/ru
@@ -83,4 +83,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/ru

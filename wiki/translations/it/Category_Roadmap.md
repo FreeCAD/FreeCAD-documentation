@@ -12,4 +12,4 @@ Questa categoria raccoglie tutti gli articoli che documentano ciò che è previs
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Roadmap/it
+⏵ [documentation index](../README.md) > Category:Roadmap/it

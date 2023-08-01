@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD Hull
-   Name/fr:OpenSCAD Enveloppe
-   MenuLocation:OpenSCAD - Enveloppe
-‏‎   Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
+   Name: OpenSCAD Hull
+   Name/fr: OpenSCAD Enveloppe
+   MenuLocation: OpenSCAD - Enveloppe
+‏‎   Workbenches: [OpenSCAD](OpenSCAD_Workbench/fr.md)
 ---
 
 # OpenSCAD Hull/fr
@@ -38,4 +38,4 @@ La fonction nécessite qu\'OpenSCAD soit installé et configuré dans **Edition*
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Hull/fr
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Hull/fr

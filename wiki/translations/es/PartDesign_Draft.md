@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign Draft
-   Name/es:DiseñoPiezas Borrador
-   MenuLocation:DiseñoPiezas - Borrador
-   Workbenches:[DiseñoPiezas](PartDesign_Workbench/es.md)
-   Shortcut:Ninguno
-   SeeAlso:Ninguno
+   Name: PartDesign Draft
+   Name/es: DiseñoPiezas Borrador
+   MenuLocation: DiseñoPiezas - Borrador
+   Workbenches: [DiseñoPiezas](PartDesign_Workbench/es.md)
+   Shortcut: Ninguno
+   SeeAlso: Ninguno
 ---
 
 # PartDesign Draft/es
@@ -134,4 +134,4 @@ A PartDesign Draft object is derived from a [Part Feature](Part_Feature.md) obje
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft/es

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBit Dock
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBit Dock

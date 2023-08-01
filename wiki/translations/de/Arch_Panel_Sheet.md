@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Panel Sheet
-   Name/de:Arch Tafel Blech
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   MenuLocation:Arch - Panel tools - Tafel Blatt
-   Shortcut:**P** **S**
-   SeeAlso:[Arch Tafel](Arch_Panel/de.md), [Arch Tafelschnitt](Arch_Panel_Cut/de.md), [Arch Verschachteln](Arch_Nest/de.md)
+   Name: Arch Panel Sheet
+   Name/de: Arch Tafel Blech
+   Workbenches: [Arch](Arch_Workbench/de.md)
+   MenuLocation: Arch - Panel tools - Tafel Blatt
+   Shortcut: **P** **S**
+   SeeAlso: [Arch Tafel](Arch_Panel/de.md), [Arch Tafelschnitt](Arch_Panel_Cut/de.md), [Arch Verschachteln](Arch_Nest/de.md)
 ---
 
 # Arch Panel Sheet/de
@@ -175,4 +175,4 @@ Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Sheet/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Sheet/de

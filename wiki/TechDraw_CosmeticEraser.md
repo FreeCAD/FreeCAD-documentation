@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:TechDraw CosmeticEraser
-   MenuLocation:TechDraw - Remove Cosmetic Object
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.19
+   Name: TechDraw CosmeticEraser
+   MenuLocation: TechDraw - Remove Cosmetic Object
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Version: 0.19
 ---
 
 # TechDraw CosmeticEraser
@@ -27,4 +27,4 @@ The **TechDraw CosmeticEraser** tool removes cosmetic objects. Cosmetic objects 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticEraser
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticEraser

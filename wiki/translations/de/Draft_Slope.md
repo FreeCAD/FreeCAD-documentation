@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Slope
-   Name/de:Entwurf Neigung
-   MenuLocation:Entwurf - Setze Neigung<br>Dienstprogramme - Setze Neigung
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
-   Version:0.17
+   Name: Draft Slope
+   Name/de: Entwurf Neigung
+   MenuLocation: Entwurf - Setze Neigung<br>Dienstprogramme - Setze Neigung
+   Workbenches: [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   Version: 0.17
 ---
 
 # Draft Slope/de
@@ -44,4 +44,4 @@ Es gibt keine Python Methode zur Neigung von Objekten. Um die Ergebnisse des Ent
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Slope/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Slope/de

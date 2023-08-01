@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Part Union
-   Icon:Part Fuse.svg
-   MenuLocation:Деталь - Булевы операции - Объединение
-   Workbenches:[Part](Part_Workbench/ru.md)
-   SeeAlso:[Обрезать](Part_Cut/ru.md), [Пересечение](Part_Common/ru.md), [Part Boolean](Part_Boolean/ru.md)
+   Name/ru: Part Union
+   Icon: Part Fuse.svg
+   MenuLocation: Деталь - Булевы операции - Объединение
+   Workbenches: [Part](Part_Workbench/ru.md)
+   SeeAlso: [Обрезать](Part_Cut/ru.md), [Пересечение](Part_Common/ru.md), [Part Boolean](Part_Boolean/ru.md)
 ---
 
 # Part Fuse/ru
@@ -43,4 +43,4 @@ Items can be added and removed from a fusion, by dragging them in or out of the 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/ru

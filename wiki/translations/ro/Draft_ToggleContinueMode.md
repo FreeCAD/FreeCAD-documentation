@@ -1,6 +1,6 @@
 # Draft ToggleContinueMode/ro
 ---
-- GuiCommand:   Name:Draft ToggleContinueMode   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft - Utilities - Toggle continue mode---
+- GuiCommand:   Name: Draft ToggleContinueMode   Workbenches: [Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation: Draft - Utilities - Toggle continue mode---
 
 
 </div>
@@ -35,4 +35,4 @@ Unele instrumente ale modulelor Draft și Arch conțin o casetă de selectare Co
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode/ro

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD RefineShapeFeature
-   Name/de:OpenSCAD FormelementAufbereiten
-   MenuLocation:OpenSCAD - Formelement aufbereiten
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/de.md)
+   Name: OpenSCAD RefineShapeFeature
+   Name/de: OpenSCAD FormelementAufbereiten
+   MenuLocation: OpenSCAD - Formelement aufbereiten
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench/de.md)
 ---
 
 # OpenSCAD RefineShapeFeature/de
@@ -52,4 +52,4 @@ Entfernt unnötige Linien. Nach einer Booleschen Operation bleiben einige Linien
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD RefineShapeFeature/de
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD RefineShapeFeature/de

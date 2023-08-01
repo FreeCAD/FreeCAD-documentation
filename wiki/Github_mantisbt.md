@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Github mantisbt
+⏵ [documentation index](../README.md) > Github mantisbt

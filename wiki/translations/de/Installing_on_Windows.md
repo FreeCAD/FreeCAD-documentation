@@ -5,7 +5,7 @@
 }}
 
 
-{{TOCright}}
+
 
 ## Standardinstallation
 
@@ -92,4 +92,4 @@ Beachte: die Deinstallation im Hintergrund verursacht einen Fehler, wenn eine In
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Installing on Windows/de
+⏵ [documentation index](../README.md) > Installing on Windows/de

@@ -1,6 +1,4 @@
 # B-Splines/pl
-{{TOCright}}
-
 Ta strona opisuje jak używać krzywych złożonych *(typu B-spline)* w programie FreeCAD. Podaje również podstawowe informacje czym są krzywe złożone i do jakich zastosowań są przydatne.
 
 ## Motywacja
@@ -285,4 +283,4 @@ Mamy więc również obszary przestrzenne, w których natężenie światła odbi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > B-Splines/pl
+⏵ [documentation index](../README.md) > B-Splines/pl

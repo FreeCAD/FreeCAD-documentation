@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path Fixture
-   Workbenches:[Path](Path_Workbench.md)
-   MenuLocation:Path - Partial Commands - Fixture
-   Shortcut:**P** **F**
-   SeeAlso:
+   Name: Path Fixture
+   Workbenches: [Path](Path_Workbench.md)
+   MenuLocation: Path - Partial Commands - Fixture
+   Shortcut: **P** **F**
+   SeeAlso: 
 ---
 
 # Path Fixture/ro
@@ -89,4 +89,4 @@ Fixarea G59 este utilizată pentru a extinde dispozitivele disponibile. Gradul d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Fixture/ro
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Fixture/ro

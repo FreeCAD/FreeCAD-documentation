@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Ship Area/ro
+⏵ [documentation index](../README.md) > Ship Area/ro

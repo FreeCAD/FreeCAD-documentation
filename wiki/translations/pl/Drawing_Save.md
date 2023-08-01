@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Drawing Save
-   Name/pl:Drawing - zaspisz SVG
-   Workbenches:[[Drawing Workbench   Drawing]], Complete|MenuLocation:Rysunek - Eksportuj stronę...
-   Shortcut:brak
-   SeeAlso:[Drawing Open SVG](Drawing_Open_SVG.md)
+   Name: Drawing Save
+   Name/pl: Drawing - zaspisz SVG
+   Workbenches: [[Drawing Workbench   Drawing]], Complete|MenuLocation: Rysunek - Eksportuj stronę...
+   Shortcut: brak
+   SeeAlso: [Drawing Open SVG](Drawing_Open_SVG.md)
 ---
 
 # Drawing Save/pl
@@ -24,4 +24,4 @@ Pliki SVG są powszechne i mogą być przeglądane w większości nowoczesnych p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Save/pl
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Save/pl

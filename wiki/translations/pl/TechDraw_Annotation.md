@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw Annotation
-   Name/pl:Rysunek Techniczny: Wstaw adnotację
-   MenuLocation:TechDraw - Adnotacje - Wstaw adnotację
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso:[Adnotacja wieloliniowa](Draft_Text/pl.md), [Kształt z tekstu](Draft_ShapeString/pl.md)
+   Name: TechDraw Annotation
+   Name/pl: Rysunek Techniczny: Wstaw adnotację
+   MenuLocation: TechDraw - Adnotacje - Wstaw adnotację
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   SeeAlso: [Adnotacja wieloliniowa](Draft_Text/pl.md), [Kształt z tekstu](Draft_ShapeString/pl.md)
 ---
 
 # TechDraw Annotation/pl
@@ -110,4 +110,4 @@ rc = page.addView(anno)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Annotation/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Annotation/pl

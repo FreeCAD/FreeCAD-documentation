@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Path_Job
-   Name/it:Lavorazione
-   Workbenches:[Path](Path_Workbench/it.md)
-   MenuLocation:Path - Lavorazione
-   Shortcut:**P** **F**
-   SeeAlso:
+   Name: Path_Job
+   Name/it: Lavorazione
+   Workbenches: [Path](Path_Workbench/it.md)
+   MenuLocation: Path - Lavorazione
+   Shortcut: **P** **F**
+   SeeAlso: 
 ---
 
 # Path Job/it
@@ -127,4 +127,4 @@ Se si dispone di una lavorazione composta da più operazioni percorso, è possib
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/it
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/it

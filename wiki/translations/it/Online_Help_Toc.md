@@ -111,4 +111,4 @@ C\'è un altro sommario per il [Manuale di FreeCAD](Manual:Introduction/it.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/it
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/it

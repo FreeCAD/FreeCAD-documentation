@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path Comment
-   Name/de:Path Kommentar
-   MenuLocation:Path - Supplemental Commands - Comment
-   Workbenches:[Path](Path_Workbench/de.md)
+   Name: Path Comment
+   Name/de: Path Kommentar
+   MenuLocation: Path - Supplemental Commands - Comment
+   Workbenches: [Path](Path_Workbench/de.md)
 ---
 
 # Path Comment/de
@@ -54,4 +54,4 @@ Beispiel:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Comment/de
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Comment/de

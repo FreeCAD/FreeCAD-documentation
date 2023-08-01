@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part EditAttachment
-   Name/pl:Część: Dołączenie
-   MenuLocation:Część - Dołączenie ...
-   Workbenches:[Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Umiejscowienie](Placement/pl.md), [Podstawy mocowania](Basic_Attachment_Tutorial/pl.md), [Część na obiekt 2D](Part_Part2DObject/pl.md)
+   Name: Part EditAttachment
+   Name/pl: Część: Dołączenie
+   MenuLocation: Część - Dołączenie ...
+   Workbenches: [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Umiejscowienie](Placement/pl.md), [Podstawy mocowania](Basic_Attachment_Tutorial/pl.md), [Część na obiekt 2D](Part_Part2DObject/pl.md)
 ---
 
 # Part EditAttachment/pl
@@ -370,4 +370,4 @@ Funkcja Odsunięcie dołączenia jest używana do zastosowania liniowego lub obr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part EditAttachment/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part EditAttachment/pl

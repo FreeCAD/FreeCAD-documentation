@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Mesh_EvaluateFacet
-   Name/ru:Mesh_EvaluateFacet
-   MenuLocation:Сетки - Анализ - Информация о поверхности
-   Workbenches:[Mesh](Mesh_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:
+   Name: Mesh_EvaluateFacet
+   Name/ru: Mesh_EvaluateFacet
+   MenuLocation: Сетки - Анализ - Информация о поверхности
+   Workbenches: [Mesh](Mesh_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Mesh EvaluateFacet/ru
@@ -53,4 +53,4 @@ Triangle: <[1.964574, 0.047063, 0.748046], [1.937166, 0.062461, 0.992797],
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh EvaluateFacet/ru
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh EvaluateFacet/ru

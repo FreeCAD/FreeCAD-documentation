@@ -16,4 +16,4 @@ Ako ste si už určite niekedy všimli, programátori nebývajú dobrými autorm
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/sk
+⏵ [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/sk

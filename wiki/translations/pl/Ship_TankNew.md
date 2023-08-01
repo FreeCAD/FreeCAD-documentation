@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Ship TankNew/pl
+⏵ [documentation index](../README.md) > Ship TankNew/pl

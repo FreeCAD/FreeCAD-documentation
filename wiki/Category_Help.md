@@ -11,4 +11,4 @@ This category lists pages that contain helpfull information on MediaWiki and edi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Help
+⏵ [documentation index](../README.md) > Category:Help

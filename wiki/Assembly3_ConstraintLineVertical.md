@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintLineVertical
-   Icon:Assembly_ConstraintLineVertical.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintLineVertical
+   Icon: Assembly_ConstraintLineVertical.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintLineVertical
@@ -23,4 +23,4 @@ Based on one planar element\'s ICS the line element\'s start and end point are p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLineVertical
+⏵ [documentation index](../README.md) > Assembly3 ConstraintLineVertical

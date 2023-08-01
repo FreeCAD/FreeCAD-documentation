@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Measure Toggle All
-   Name/de:Part Messung AlleUmschalten
-   MenuLocation:Messen - Alle umschalten
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Messung 3D umschalten](Part_Measure_Toggle_3D/de.md), [Part Messung DeltaUmschalten](Part_Measure_Toggle_Delta/de.md)
+   Name: Part Measure Toggle All
+   Name/de: Part Messung AlleUmschalten
+   MenuLocation: Messen - Alle umschalten
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: [Part Messung 3D umschalten](Part_Measure_Toggle_3D/de.md), [Part Messung DeltaUmschalten](Part_Measure_Toggle_Delta/de.md)
 ---
 
 # Part Measure Toggle All/de
@@ -28,4 +28,4 @@ Dieser Befehl schaltet die Sichtbarkeit aller Messungen in der [3D-Ansicht](3D_v
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle All/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle All/de

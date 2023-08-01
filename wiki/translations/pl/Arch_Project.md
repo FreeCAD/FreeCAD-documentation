@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Project
-   MenuLocation:Arch - Project
-   Workbenches:[Arch](Arch_Workbench.md)
-   Shortcut:**P** **O**
-   SeeAlso:[Arch Site](Arch_Site.md), [Arch Building](Arch_Building.md)
+   Name: Arch Project
+   MenuLocation: Arch - Project
+   Workbenches: [Arch](Arch_Workbench.md)
+   Shortcut: **P** **O**
+   SeeAlso: [Arch Site](Arch_Site.md), [Arch Building](Arch_Building.md)
 ---
 
 # Arch Project/pl
@@ -25,4 +25,4 @@ Note that, although any other BIM object can be added to a Project, which the IF
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Project/pl
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Project/pl

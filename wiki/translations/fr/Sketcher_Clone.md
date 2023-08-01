@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher Clone
-   Name/fr:Sketcher Clone
-   MenuLocation:Esquisse - Outils d'esquisse - Clone
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**Z** **L**
-   Version:0.16
-   SeeAlso:[Sketcher Copie](Sketcher_Copy/fr.md), [Sketcher Déplacer](Sketcher_Move/fr.md)
+   Name: Sketcher Clone
+   Name/fr: Sketcher Clone
+   MenuLocation: Esquisse - Outils d'esquisse - Clone
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **Z** **L**
+   Version: 0.16
+   SeeAlso: [Sketcher Copie](Sketcher_Copy/fr.md), [Sketcher Déplacer](Sketcher_Move/fr.md)
 ---
 
 # Sketcher Clone/fr
@@ -39,4 +39,4 @@ Aucune contrainte supplémentaire n\'est ajoutée pour le clone.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/fr

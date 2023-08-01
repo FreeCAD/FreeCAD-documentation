@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Hatch
-   MenuLocation:Drafting - Hatch
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:**H** **A**
-   Version:0.20
-   SeeAlso:[Draft Pattern](Draft_Pattern.md)
+   Name: Draft Hatch
+   MenuLocation: Drafting - Hatch
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut: **H** **A**
+   Version: 0.20
+   SeeAlso: [Draft Pattern](Draft_Pattern.md)
 ---
 
 # Draft Hatch
@@ -120,4 +120,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Hatch
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Hatch

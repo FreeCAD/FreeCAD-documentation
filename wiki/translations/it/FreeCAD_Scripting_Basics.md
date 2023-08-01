@@ -1,6 +1,4 @@
 # FreeCAD Scripting Basics/it
-{{TOCright}}
-
 ## Script Python in FreeCAD 
 
 FreeCAD è stato costruito fin dall\'inizio per essere totalmente controllato tramite gli script Python.
@@ -218,4 +216,4 @@ Ora puoi davvero iniziare a giocare con FreeCAD! Per un elenco completo dei modu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FreeCAD Scripting Basics/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FreeCAD Scripting Basics/it

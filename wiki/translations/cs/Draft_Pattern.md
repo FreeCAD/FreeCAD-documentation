@@ -1,6 +1,4 @@
 # Draft Pattern/cs
-{{TOCright}}
-
 ## Description
 
 
@@ -58,4 +56,4 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Pattern/cs
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Pattern/cs

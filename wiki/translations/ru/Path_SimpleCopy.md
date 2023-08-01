@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Path SimpleCopy
-   Name/ru:Path SimpleCopy
-   MenuLocation:Path - Path Modification - Простое копирование
-   Workbenches:[Path](Path_Workbench/ru.md)
-   Shortcut:
-   Version:
-   SeeAlso:[Path Copy](Path_Copy/ru.md)
+   Name: Path SimpleCopy
+   Name/ru: Path SimpleCopy
+   MenuLocation: Path - Path Modification - Простое копирование
+   Workbenches: [Path](Path_Workbench/ru.md)
+   Shortcut: 
+   Version: 
+   SeeAlso: [Path Copy](Path_Copy/ru.md)
 ---
 
 # Path SimpleCopy/ru
@@ -38,4 +38,4 @@ The tool <img alt="" src=images/Path_SimpleCopy.svg  style="width:24px;"> [Simpl
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SimpleCopy/ru
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SimpleCopy/ru

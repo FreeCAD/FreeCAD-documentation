@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part RefineShape
-   Name/de:Part FormAufbereiten
-   MenuLocation:Formteil - Kopie erstellen - Form aufbereiten
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[EinfacheKopie](Part_SimpleCopy/de.md), [Part TransformierteKopie](Part_TransformedCopy/de.md), [Part ElementKopieren](Part_ElementCopy/de.md), [OpenSCAD FunktionFormAufbereiten](OpenSCAD_RefineShapeFeature/de.md)
+   Name: Part RefineShape
+   Name/de: Part FormAufbereiten
+   MenuLocation: Formteil - Kopie erstellen - Form aufbereiten
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: [EinfacheKopie](Part_SimpleCopy/de.md), [Part TransformierteKopie](Part_TransformedCopy/de.md), [Part ElementKopieren](Part_ElementCopy/de.md), [OpenSCAD FunktionFormAufbereiten](OpenSCAD_RefineShapeFeature/de.md)
 ---
 
 # Part RefineShape/de
@@ -73,4 +73,4 @@ shape.removeSplitter()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RefineShape/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RefineShape/de

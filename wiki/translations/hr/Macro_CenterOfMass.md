@@ -116,4 +116,4 @@ Raspravu na forumu [Macro to compute center of mass](https://forum.freecadweb.or
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro CenterOfMass/hr
+⏵ [documentation index](../README.md) > Macro CenterOfMass/hr

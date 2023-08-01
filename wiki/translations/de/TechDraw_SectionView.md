@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw SectionView
-   Name/de:TechDraw Schnittansicht
-   MenuLocation:TechDraw- TechDraw Ansichten - Schnittansicht einfügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso:[TechDraw KomplexerSchnitt](TechDraw_ComplexSection/de.md), [TechDraw Ansicht einfügen](TechDraw_View/de.md), [TechDraw Ansichtengruppe einfügen](TechDraw_ProjectionGroup/de.md)
+   Name: TechDraw SectionView
+   Name/de: TechDraw Schnittansicht
+   MenuLocation: TechDraw- TechDraw Ansichten - Schnittansicht einfügen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   SeeAlso: [TechDraw KomplexerSchnitt](TechDraw_ComplexSection/de.md), [TechDraw Ansicht einfügen](TechDraw_View/de.md), [TechDraw Ansichtengruppe einfügen](TechDraw_ProjectionGroup/de.md)
 ---
 
 # TechDraw SectionView/de
@@ -193,4 +193,4 @@ Für weitere Information über Schnittansichten und einige Beispiele siehe: [Tec
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SectionView/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SectionView/de

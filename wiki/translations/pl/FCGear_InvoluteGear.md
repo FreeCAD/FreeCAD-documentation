@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FCGear InvoluteGear
-   Name/pl:FCGear: Koło zębate ewolwentowe
-   MenuLocation:Gear - Koło zębate ewolwentowe
-   Workbenches:[FCGear](FCGear_Workbench/pl.md)
-   Version:v0.16
-   SeeAlso:[Koło zębate cykloidalne](FCGear_CycloideGear/pl.md)
+   Name: FCGear InvoluteGear
+   Name/pl: FCGear: Koło zębate ewolwentowe
+   MenuLocation: Gear - Koło zębate ewolwentowe
+   Workbenches: [FCGear](FCGear_Workbench/pl.md)
+   Version: v0.16
+   SeeAlso: [Koło zębate cykloidalne](FCGear_CycloideGear/pl.md)
 ---
 
 # FCGear InvoluteGear/pl
@@ -255,4 +255,4 @@ Gui.SendMsgToActiveView("ViewFit")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear InvoluteGear/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear InvoluteGear/pl

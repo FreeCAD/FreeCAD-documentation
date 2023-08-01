@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionRemovePrefixChar
-   Name/de:TechDraw ErgänzungPräfixsymbolEntfernen
-   MenuLocation:TechDraw - Ergänzungen: Maße - Präfixsymbol entfernen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:
+   Name: TechDraw ExtensionRemovePrefixChar
+   Name/de: TechDraw ErgänzungPräfixsymbolEntfernen
+   MenuLocation: TechDraw - Ergänzungen: Maße - Präfixsymbol entfernen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: 
 ---
 
 # TechDraw ExtensionRemovePrefixChar/de
@@ -53,4 +53,4 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionRemovePrefixChar.svg  styl
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionRemovePrefixChar/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionRemovePrefixChar/de

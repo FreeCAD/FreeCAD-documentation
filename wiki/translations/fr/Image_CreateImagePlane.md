@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Image CreateImagePlane
-   Name/fr:Image Créer un plan d'image
-   MenuLocation:
-   Workbenches:[Image](Image_Workbench/fr.md)
-   SeeAlso:[Image Ouvrir](Image_Open/fr.md), [Image Redimensionner une image](Image_Scaling/fr.md)
+   Name: Image CreateImagePlane
+   Name/fr: Image Créer un plan d'image
+   MenuLocation: 
+   Workbenches: [Image](Image_Workbench/fr.md)
+   SeeAlso: [Image Ouvrir](Image_Open/fr.md), [Image Redimensionner une image](Image_Scaling/fr.md)
 ---
 
 # Image CreateImagePlane/fr
@@ -60,4 +60,4 @@ Si aucun décalage n\'est initialement attribué à l\'image, sa position peut t
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/fr
+⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/fr

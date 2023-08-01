@@ -1,6 +1,6 @@
 # Part Offset/cs
 ---
-- GuiCommand:   Name:Part Offset   Name/cs:Part Offset   MenuLocation:Part - Offset   |Workbenches:[SeeAlso:[[Part_Thickness/cs|Thickness](Part_Workbench/cs___Part]],_Complet.md)---
+- GuiCommand:   Name: Part Offset   Name/cs: Part Offset   MenuLocation: Part - Offset   |Workbenches: [SeeAlso: [[Part_Thickness/cs|Thickness](Part_Workbench/cs___Part]],_Complet.md)---
 
 
 </div>
@@ -62,4 +62,4 @@ same shape with a 3D Offset as SKIN and *filled* offset
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/cs
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/cs

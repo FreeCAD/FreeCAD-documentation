@@ -1,7 +1,4 @@
 # Draft Preferences/zh-cn
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 [底图工作台的首选项可以在](Draft_Workbench.md)[首选项编辑器中找到](Preferences_Editor.md)，它位于**Edit → Preferences → Draft**菜单。
@@ -508,4 +505,4 @@ On the *Texts and dimensions* tab you can specify the following:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Draft](Draft_Workbench.md) > Draft Preferences/zh-cn
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Draft](Draft_Workbench.md) > Draft Preferences/zh-cn

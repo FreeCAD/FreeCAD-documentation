@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM EquationFlux
-   Name/fr:FEM Équation de flux
-   MenuLocation:Résolution - Équation de flux
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:
+   Name: FEM EquationFlux
+   Name/fr: FEM Équation de flux
+   MenuLocation: Résolution - Équation de flux
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: 
 ---
 
 # FEM EquationFlux/fr
@@ -79,4 +79,4 @@ Le flux résultant est soit le flux de chaleur $\rm W/m^2$ (faussement appelé \
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationFlux/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationFlux/fr

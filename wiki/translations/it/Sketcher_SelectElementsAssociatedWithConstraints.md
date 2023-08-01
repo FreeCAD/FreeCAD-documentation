@@ -1,6 +1,6 @@
 # Sketcher SelectElementsAssociatedWithConstraints/it
 ---
-- GuiCommand:   Name:Sketcher SelectElementsAssociatedWithConstraints   Name/it:Seleziona gli elementi associati ai vincoli   Workbenches:[[Sketcher Workbench/it   Sketcher]]|MenuLocation:Sketch - Strumenti - Seleziona gli elementi associati ai vincoli   Shortcut:Maiusc+Ctrl+E   SeeAlso:   Version:0.15---
+- GuiCommand:   Name: Sketcher SelectElementsAssociatedWithConstraints   Name/it: Seleziona gli elementi associati ai vincoli   Workbenches: [[Sketcher Workbench/it   Sketcher]]|MenuLocation: Sketch - Strumenti - Seleziona gli elementi associati ai vincoli   Shortcut: Maiusc+Ctrl+E   SeeAlso:    Version: 0.15---
 
 
 </div>
@@ -44,4 +44,4 @@ Seleziona gli elementi dello schizzo che sono associati a determinati vincoli
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsAssociatedWithConstraints/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsAssociatedWithConstraints/it

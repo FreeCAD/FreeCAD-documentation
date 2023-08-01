@@ -15,4 +15,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Workbenches/ko
+⏵ [documentation index](../README.md) > Category:Workbenches/ko

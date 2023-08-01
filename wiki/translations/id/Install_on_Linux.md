@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Install on Linux/id
+⏵ [documentation index](../README.md) > Install on Linux/id

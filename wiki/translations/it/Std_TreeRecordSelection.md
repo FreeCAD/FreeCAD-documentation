@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_TreeRecordSelection
-   Name/it:Registra la selezione
-   MenuLocation:Visualizza - Azioni della vista ad albero - Registra la selezione
-   Workbenches:Tutti
-   Shortcut:**T** **5**
-   Version:0.19
+   Name: Std_TreeRecordSelection
+   Name/it: Registra la selezione
+   MenuLocation: Visualizza - Azioni della vista ad albero - Registra la selezione
+   Workbenches: Tutti
+   Shortcut: **T** **5**
+   Version: 0.19
 ---
 
 # Std TreeRecordSelection/it
@@ -42,4 +42,4 @@ La modalità Registra la selezione della vista ad albero può essere impostata a
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeRecordSelection/it
+⏵ [documentation index](../README.md) > Std TreeRecordSelection/it

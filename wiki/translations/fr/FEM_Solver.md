@@ -1,8 +1,4 @@
 # FEM Solver/fr
-{{TOCright}}
-
-
-
 ## Préface
 
 Cette page rassemble des informations sur les solveurs par éléments finis utilisés par l\'[atelier FEM](FEM_Workbench/fr.md). L\'interface entre un solveur et FreeCAD dans le pré-traitement ainsi que dans le post-traitement se fait par le biais de fichiers texte. Cela signifie qu\'en théorie, tout solveur pouvant être configuré et contrôlé au moyen de fichiers texte est capable de fonctionner avec FreeCAD; un analyseur et un rédacteur appropriés des fichiers d'entrée et de sortie doivent être programmés pour que cette communication fonctionne. Un sujet de forum pour discuter et annoncer tout ce qui concerne les différents solveurs peut être trouvé ici : [Sujet de discussion sur les solveurs FEM généraux](https://forum.freecadweb.org/viewtopic.php?f=18&t=26326).
@@ -239,4 +235,4 @@ Technog a été utilisé avec succès dans FreeCAD en tant que substitut de Calc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Solver/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Solver/fr

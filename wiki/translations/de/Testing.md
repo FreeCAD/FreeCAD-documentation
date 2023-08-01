@@ -1,7 +1,7 @@
 # <img alt="Erprobung Arbeitsbereichssymbol" src=images/Workbench_Test.svg  style="width:64px;"> Testing/de
 
 
-{{TOCright}}
+
 
 
 
@@ -211,4 +211,4 @@ r.run(suite)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Test Framework](Category_Test Framework.md) > [Workbenches](Category_Workbenches.md) > [Testing](Category_Testing.md) > Testing/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Test Framework](Category_Test Framework.md) > [Workbenches](Category_Workbenches.md) > [Testing](Category_Testing.md) > Testing/de

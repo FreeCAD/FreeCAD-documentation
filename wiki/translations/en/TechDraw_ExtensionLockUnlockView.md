@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionLockUnlockView
-   MenuLocation:TechDraw - Extensions: Attributes/Modifications - Lock/Unlock View
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:
+   Name: TechDraw ExtensionLockUnlockView
+   MenuLocation: TechDraw - Extensions: Attributes/Modifications - Lock/Unlock View
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: 
 ---
 
 # TechDraw ExtensionLockUnlockView/en
@@ -33,4 +33,4 @@ The **TechDraw ExtensionLockUnlockView** tool locks or unlocks the position of a
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionLockUnlockView/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionLockUnlockView/en

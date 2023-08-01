@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintEqualAngle
-   Name/fr:Assembly3 Contrainte égalité angle
-   Icon:Assembly_ConstraintEqualAngle.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 ConstraintEqualAngle
+   Name/fr: Assembly3 Contrainte égalité angle
+   Icon: Assembly_ConstraintEqualAngle.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintEqualAngle/fr
@@ -28,4 +28,4 @@ Les directions des lignes ainsi que les normales des faces sont représentées p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintEqualAngle/fr
+⏵ [documentation index](../README.md) > Assembly3 ConstraintEqualAngle/fr

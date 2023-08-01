@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Curves CompressionSpring
-   MenuLocation:Surfaces - Compression Spring
-   Workbenches:[Curves](Curves_Workbench.md)
+   Name: Curves CompressionSpring
+   MenuLocation: Surfaces - Compression Spring
+   Workbenches: [Curves](Curves_Workbench.md)
 ---
 
 # Curves CompressionSpring
@@ -34,4 +34,4 @@ The <img alt="" src=images/Curves_CompressionSpring.svg  style="width:24px;"> [C
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves CompressionSpring
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves CompressionSpring

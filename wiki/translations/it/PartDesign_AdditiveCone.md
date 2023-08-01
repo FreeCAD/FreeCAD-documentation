@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveCone
-   Name/it:Cono additivo
-   Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:Part Design - Crea una primitiva additiva - Cono
-   Version:0.17
-   SeeAlso:[Primitive additive](PartDesign_CompPrimitiveAdditive/it.md)
+   Name: PartDesign AdditiveCone
+   Name/it: Cono additivo
+   Workbenches: [PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation: Part Design - Crea una primitiva additiva - Cono
+   Version: 0.17
+   SeeAlso: [Primitive additive](PartDesign_CompPrimitiveAdditive/it.md)
 ---
 
 # PartDesign AdditiveCone/it
@@ -82,4 +82,4 @@ Dopo la sua creazione il cono può essere modificato in due modi:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCone/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCone/it

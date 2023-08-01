@@ -1,6 +1,6 @@
 # Part Mirror/sv
 ---
-- GuiCommand:   Name:Part Mirror   Name/sv:Part Mirror   MenuLocation:Part -> Mirror/sv   Workbenches:[[Part Workbench/sv   Part]], Complete|SeeAlso:---
+- GuiCommand:   Name: Part Mirror   Name/sv: Part Mirror   MenuLocation: Part -> Mirror/sv   Workbenches: [[Part Workbench/sv   Part]], Complete|SeeAlso: ---
 
 
 </div>
@@ -53,4 +53,4 @@ The **Base point** boxes can be used to move the mirror plane parallel to the se
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/sv
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/sv

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw ArchView
-   Name/pl:Rysunek Techniczny: Wstaw obiekt środowiska Architektura
-   MenuLocation:Rysunek Techniczny - Insert Arch Workbench Object
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   SeeAlso:[Płaszczyzna przekroju](Arch_SectionPlane/pl.md)
+   Name: TechDraw ArchView
+   Name/pl: Rysunek Techniczny: Wstaw obiekt środowiska Architektura
+   MenuLocation: Rysunek Techniczny - Insert Arch Workbench Object
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   SeeAlso: [Płaszczyzna przekroju](Arch_SectionPlane/pl.md)
 ---
 
 # TechDraw ArchView/pl
@@ -124,4 +124,4 @@ rc = page.addView(dv)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ArchView/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ArchView/pl

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 MultiplyConstraint
-   Name/de:Assembly3 BeziehungVervielfältigen
-   Icon:Assembly_ConstraintMultiply.svg‎‎
-   MenuLocation:Assembly3 - Multiply constraint
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 MultiplyConstraint
+   Name/de: Assembly3 BeziehungVervielfältigen
+   Icon: Assembly_ConstraintMultiply.svg‎‎
+   MenuLocation: Assembly3 - Multiply constraint
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 MultiplyConstraint/de
@@ -22,4 +22,4 @@ Der Befehl <img alt="" src=images/Assembly_ConstraintMultiply.svg  style="width:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 MultiplyConstraint/de
+⏵ [documentation index](../README.md) > Assembly3 MultiplyConstraint/de

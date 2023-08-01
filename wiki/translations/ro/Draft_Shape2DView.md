@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Shape2DView
-   Name/ro:Draft Shape2DView
-   MenuLocation:Draft -> Shape 2D View
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Name: Draft Shape2DView
+   Name/ro: Draft Shape2DView
+   MenuLocation: Draft -> Shape 2D View
+   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
 ---
 
 # Draft Shape2DView/ro
@@ -154,4 +154,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Shape2DView/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Shape2DView/ro

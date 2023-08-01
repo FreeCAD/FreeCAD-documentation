@@ -1,11 +1,11 @@
 # Plot Grid/tr
 ---
 - GuiCommand:
-   Name/tr:Izgara
-   MenuLocation:Arsa - Izgara
-‏‎   |Workbenches:[Arsa](Plot_Workbench/tr.md)
-   Shortcut:
-   SeeAlso:---
+   Name/tr: Izgara
+   MenuLocation: Arsa - Izgara
+‏‎   |Workbenches: [Arsa](Plot_Workbench/tr.md)
+   Shortcut: 
+   SeeAlso: ---
 
 
 </div>
@@ -33,4 +33,4 @@ This tool acts on the active set of axis. In case of multi-axes plots you can se
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Grid/tr
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Grid/tr

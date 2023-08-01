@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionDrawCosmArc
-   MenuLocation:TechDraw - Extensions: Centerlines/Threading - Add Cosmetic Arc
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ExtensionDrawCosmCircle](TechDraw_ExtensionDrawCosmCircle.md)
+   Name: TechDraw ExtensionDrawCosmArc
+   MenuLocation: TechDraw - Extensions: Centerlines/Threading - Add Cosmetic Arc
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ExtensionDrawCosmCircle](TechDraw_ExtensionDrawCosmCircle.md)
 ---
 
 # TechDraw ExtensionDrawCosmArc/en
@@ -39,4 +39,4 @@ The **TechDraw ExtensionDrawCosmArc** tool adds a cosmetic counter clockwise arc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDrawCosmArc/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDrawCosmArc/en

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Fillet
-   Name/fr:PartDesign Congé 
-   MenuLocation:Part Design - Appliquer une fonction d'habillage - Congé
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso:[PartDesign Chanfrein](PartDesign_Chamfer/fr.md)
+   Name: PartDesign Fillet
+   Name/fr: PartDesign Congé 
+   MenuLocation: Part Design - Appliquer une fonction d'habillage - Congé
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso: [PartDesign Chanfrein](PartDesign_Chamfer/fr.md)
 ---
 
 # PartDesign Fillet/fr
@@ -133,4 +133,4 @@ Voir la page [Problème de dénomination topologique](Topological_naming_problem
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Fillet/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Fillet/fr

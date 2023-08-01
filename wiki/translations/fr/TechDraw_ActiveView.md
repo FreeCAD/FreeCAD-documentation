@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ActiveView
-   Name/fr:TechDraw Vue active
-   MenuLocation:TechDraw -  Vues des autres ateliers - Insérer la vue active (dans la vue 3D)
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[TechDraw Image](TechDraw_Image/fr.md)
+   Name: TechDraw ActiveView
+   Name/fr: TechDraw Vue active
+   MenuLocation: TechDraw -  Vues des autres ateliers - Insérer la vue active (dans la vue 3D)
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Version: 0.19
+   SeeAlso: [TechDraw Image](TechDraw_Image/fr.md)
 ---
 
 # TechDraw ActiveView/fr
@@ -73,4 +73,4 @@ Voir [TechDraw Image](TechDraw_Image/fr#Propri.C3.A9t.C3.A9s.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ActiveView/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ActiveView/fr

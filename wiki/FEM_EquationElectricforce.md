@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM EquationElectricforce
-   MenuLocation:Solve - Electromagnetic Equations - Electricforce equation
-   Workbenches:[FEM](FEM_Workbench.md)
-   Version:0.19
-   SeeAlso:[FEM Electrostatic equation](FEM_EquationElectrostatic.md)
+   Name: FEM EquationElectricforce
+   MenuLocation: Solve - Electromagnetic Equations - Electricforce equation
+   Workbenches: [FEM](FEM_Workbench.md)
+   Version: 0.19
+   SeeAlso: [FEM Electrostatic equation](FEM_EquationElectrostatic.md)
 ---
 
 # FEM EquationElectricforce
@@ -48,4 +48,4 @@ The result is the electric force density in $\rm N/m^2$.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElectricforce
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElectricforce

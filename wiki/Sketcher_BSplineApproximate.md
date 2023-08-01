@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher BSplineApproximate
-   MenuLocation:Sketch - Sketcher B-spline tools - Convert geometry to B-spline
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Version:0.17
-   SeeAlso:[Sketcher Create B-spline](Sketcher_CompCreateBSpline.md)
+   Name: Sketcher BSplineApproximate
+   MenuLocation: Sketch - Sketcher B-spline tools - Convert geometry to B-spline
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Version: 0.17
+   SeeAlso: [Sketcher Create B-spline](Sketcher_CompCreateBSpline.md)
 ---
 
 # Sketcher BSplineApproximate
@@ -33,4 +33,4 @@ Make sure to have either the spline [degree](Sketcher_BSplineDegree.md), [polygo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineApproximate
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineApproximate

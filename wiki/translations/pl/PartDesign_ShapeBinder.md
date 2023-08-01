@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign ShapeBinder
-   Name/pl:Projekt części: Łącznik kształtu
-   MenuLocation:Part Design - Utwórz nowy łącznik kształtu
-   Workbenches:[Projekt części](PartDesign_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Projekt części: Podrzędny łącznik kształtu](PartDesign_SubShapeBinder.md), [Projekt części: Klon](PartDesign_Clone.md)
+   Name: PartDesign ShapeBinder
+   Name/pl: Projekt części: Łącznik kształtu
+   MenuLocation: Part Design - Utwórz nowy łącznik kształtu
+   Workbenches: [Projekt części](PartDesign_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Projekt części: Podrzędny łącznik kształtu](PartDesign_SubShapeBinder.md), [Projekt części: Klon](PartDesign_Clone.md)
 ---
 
 # PartDesign ShapeBinder/pl
@@ -127,4 +127,4 @@ Jeśli wprowadzisz te same wartości, co w przypadku otworu początkowego, zauwa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/pl

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:SheetMetal AddJunction
-   MenuLocation:SheetMetal - Make Junction
-   Workbenches:[SheetMetal](SheetMetal_Workbench.md)
-   Shortcut:**S** **J**
-   SeeAlso:[SheetMetal AddRelief](SheetMetal_AddRelief.md), [SheetMetal AddBend](SheetMetal_AddBend.md)
+   Name: SheetMetal AddJunction
+   MenuLocation: SheetMetal - Make Junction
+   Workbenches: [SheetMetal](SheetMetal_Workbench.md)
+   Shortcut: **S** **J**
+   SeeAlso: [SheetMetal AddRelief](SheetMetal_AddRelief.md), [SheetMetal AddBend](SheetMetal_AddBend.md)
 ---
 
 # SheetMetal AddJunction/pl
@@ -65,4 +65,4 @@ A SheetMetal Junction object is derived from a [Part Feature](Part_Feature.md) o
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddJunction/pl
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddJunction/pl

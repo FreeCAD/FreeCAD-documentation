@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FCGear BevelGear
-   Name/fr:FCGear Engrenage conique
-   MenuLocation:Gear - Bevel Gear
-   Workbenches:[FCGear](FCGear_Workbench/fr.md)
-   Version:v0.16
+   Name: FCGear BevelGear
+   Name/fr: FCGear Engrenage conique
+   MenuLocation: Gear - Bevel Gear
+   Workbenches: [FCGear](FCGear_Workbench/fr.md)
+   Version: v0.16
 ---
 
 # FCGear BevelGear/fr
@@ -113,4 +113,4 @@ Angle du cône de référence substantiel \[TECH.\]
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear BevelGear/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear BevelGear/fr

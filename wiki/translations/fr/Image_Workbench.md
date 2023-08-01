@@ -5,7 +5,7 @@ Ses fonctionnalités ont été intégrées dans [Std Base](Std_Base/fr.md). Voir
 <img alt="Icône de l\'atelier Image" src=images/Workbench_Image.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -48,4 +48,4 @@ Le décalage de l\'image peut être défini lors de l\'importation ou modifié u
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Image](Category_Image.md) > Image Workbench/fr
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Image](Category_Image.md) > Image Workbench/fr

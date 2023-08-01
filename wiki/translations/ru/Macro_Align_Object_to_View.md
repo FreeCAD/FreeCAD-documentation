@@ -77,4 +77,4 @@ rentlau_64 провел упрощение кода.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Align Object to View/ru
+⏵ [documentation index](../README.md) > Macro Align Object to View/ru

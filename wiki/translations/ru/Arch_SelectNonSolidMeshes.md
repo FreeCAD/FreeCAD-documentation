@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch SelectNonSolidMeshes
-   Name/ru:Arch SelectNonSolidMeshes
-   MenuLocation:Архитектура - Утилиты - Выбрать не-разнородные сетки
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   SeeAlso:[Сетка в фигуру](Arch_MeshToShape/ru.md)
+   Name: Arch SelectNonSolidMeshes
+   Name/ru: Arch SelectNonSolidMeshes
+   MenuLocation: Архитектура - Утилиты - Выбрать не-разнородные сетки
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   SeeAlso: [Сетка в фигуру](Arch_MeshToShape/ru.md)
 ---
 
 # Arch SelectNonSolidMeshes/ru
@@ -24,4 +24,4 @@ This tool identifies and selects the non-solid (non-[manifold](http://en.wikiped
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/ru

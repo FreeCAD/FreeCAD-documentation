@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Обновить
-   Name:Std_Refresh
-   MenuLocation:Правка - Обновить
-   Workbenches:Все
-   Shortcut:**F5**
+   Name/ru: Обновить
+   Name: Std_Refresh
+   MenuLocation: Правка - Обновить
+   Workbenches: Все
+   Shortcut: **F5**
 ---
 
 # Std Refresh/ru
@@ -67,4 +67,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Refresh/ru
+⏵ [documentation index](../README.md) > Std Refresh/ru

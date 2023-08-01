@@ -1,6 +1,4 @@
 # Macros recipes/en
-{{TOCright}}
-
 This page lists [macros](Macros.md) that can add functionality to a FreeCAD installation.
 
 If you have written a macro and want to include it in one of the categories on this page, then go to [Macro documentation](Macro_documentation.md) to learn more about properly documenting a macro.
@@ -768,4 +766,4 @@ If the [Addon Manager](Std_AddonMgr.md) is not used, the macro can be installed 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python Code.md) > Macros recipes/en
+⏵ [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python Code.md) > Macros recipes/en

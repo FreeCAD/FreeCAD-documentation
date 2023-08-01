@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FCGear InvoluteGear
-   MenuLocation:Gear - Involute Gear
-   Workbenches:[FCGear](FCGear_Workbench.md)
-   Shortcut:None
-   Version:v0.16
-   SeeAlso:[FCGear CycloideGear](FCGear_CycloideGear.md)
+   Name: FCGear InvoluteGear
+   MenuLocation: Gear - Involute Gear
+   Workbenches: [FCGear](FCGear_Workbench.md)
+   Shortcut: None
+   Version: v0.16
+   SeeAlso: [FCGear CycloideGear](FCGear_CycloideGear.md)
 ---
 
 # FCGear InvoluteGear
@@ -237,4 +237,4 @@ Gui.SendMsgToActiveView("ViewFit")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear InvoluteGear
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear InvoluteGear

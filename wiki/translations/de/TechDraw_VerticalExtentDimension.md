@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw Dimension Vertical Extent
-   Name/de:TechDraw MaßVertikaleAusdehnung
-   MenuLocation:TechDraw - Maßeinträge - Maß für die vertikale Ausdehnung einfügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[TechDraw Längenmaß](TechDraw_LengthDimension/de.md), [TechDraw MaßHorizontaleAusdehnung](TechDraw_HorizontalExtentDimension/de.md)
+   Name: TechDraw Dimension Vertical Extent
+   Name/de: TechDraw MaßVertikaleAusdehnung
+   MenuLocation: TechDraw - Maßeinträge - Maß für die vertikale Ausdehnung einfügen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [TechDraw Längenmaß](TechDraw_LengthDimension/de.md), [TechDraw MaßHorizontaleAusdehnung](TechDraw_HorizontalExtentDimension/de.md)
 ---
 
 # TechDraw VerticalExtentDimension/de
@@ -71,4 +71,4 @@ rc = page.addView(hExtentDim)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw VerticalExtentDimension/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw VerticalExtentDimension/de

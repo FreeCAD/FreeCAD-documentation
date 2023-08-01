@@ -7,7 +7,7 @@ L'atelier externe [https://github.com/FreeCAD/FreeCAD-render Render] peut être 
 ## Introduction
 
 
-{{TOCright}}
+
 
 L\'<img alt="" src=images/Workbench_Raytracing.svg  style="width:24px;"> [atelier Raytracing](Raytracing_Workbench/fr.md) est utilisé pour générer des images photoréalistes de vos modèles en les interprétant avec un moteur de rendu externe.
 
@@ -154,4 +154,4 @@ Ces pages font référence au nouveau plan de travail, programmé en Python, des
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/fr
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/fr

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FCGear InvoluteRack
-   Name/fr:FCGear Engrenage à crémaillère
-   MenuLocation:Gear - Involute Rack
-   Workbenches:[FCGear](FCGear_Workbench/fr.md)
-   Shortcut:Aucun
-   Version:v0.16
-   SeeAlso:[FCGear Engrenage à développante](FCGear_InvoluteGear/fr.md)
+   Name: FCGear InvoluteRack
+   Name/fr: FCGear Engrenage à crémaillère
+   MenuLocation: Gear - Involute Rack
+   Workbenches: [FCGear](FCGear_Workbench/fr.md)
+   Shortcut: Aucun
+   Version: v0.16
+   SeeAlso: [FCGear Engrenage à développante](FCGear_InvoluteGear/fr.md)
 ---
 
 # FCGear InvoluteRack/fr
@@ -128,4 +128,4 @@ Gui.SendMsgToActiveView("ViewFit")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear InvoluteRack/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear InvoluteRack/fr

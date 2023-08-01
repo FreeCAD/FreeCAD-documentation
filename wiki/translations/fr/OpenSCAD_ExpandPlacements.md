@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD ExpandPlacements
-   Name/fr:OpenSCAD Développer les placements
-   MenuLocation:OpenSCAD - Développer les placements
-‏‎   Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
+   Name: OpenSCAD ExpandPlacements
+   Name/fr: OpenSCAD Développer les placements
+   MenuLocation: OpenSCAD - Développer les placements
+‏‎   Workbenches: [OpenSCAD](OpenSCAD_Workbench/fr.md)
 ---
 
 # OpenSCAD ExpandPlacements/fr
@@ -40,4 +40,4 @@ Marche avec :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExpandPlacements/fr
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExpandPlacements/fr

@@ -1,8 +1,4 @@
 # Sketcher Examples/de
-{{TOCright}}
-
-
-
 ## Einleitung
 
 Ich denke der Arbeitsbereich <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/de.md) kann einige Beispiele gebrauchen, die nicht so detailliert sind wie Anleitungen oder Videos\...
@@ -224,4 +220,4 @@ Jetzt sollte das Ergebnis ein Klipp sein, der nur aus einem Einzel-Festkörper b
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Examples/de
+⏵ [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Examples/de

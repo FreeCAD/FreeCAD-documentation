@@ -2,7 +2,7 @@
 ## Introduction
 
 
-{{TOCright}}
+
 
 La [Fenêtre de sélection](selection_view/fr.md) est un panneau dans l\'[interface](interface/fr.md) par défaut situé sous la [Vue combinée](combo_view/fr.md). Tout comme l\'[Éditeur de propriétés](property_editor/fr.md), il affiche plus d\'informations sur les objets actuellement sélectionnés.
 
@@ -86,4 +86,4 @@ Depuis la v0.19, la case **picked object list** est disponible. Si cette case es
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Selection view/fr
+⏵ [documentation index](../README.md) > Selection view/fr

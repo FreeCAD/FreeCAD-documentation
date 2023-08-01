@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainAngle
-   Name/de:Sketcher WinkelFestlegen
-   MenuLocation:Sketch - Sketcher constraints - Winkel festlegen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**K** **A**
-   SeeAlso:[Sketcher AbstandFestlegen](Sketcher_ConstrainDistance/de.md), [Sketcher RechtwinkligFestlegen](Sketcher_ConstrainPerpendicular/de.md)
+   Name: Sketcher ConstrainAngle
+   Name/de: Sketcher WinkelFestlegen
+   MenuLocation: Sketch - Sketcher constraints - Winkel festlegen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **K** **A**
+   SeeAlso: [Sketcher AbstandFestlegen](Sketcher_ConstrainDistance/de.md), [Sketcher RechtwinkligFestlegen](Sketcher_ConstrainPerpendicular/de.md)
 ---
 
 # Sketcher ConstrainAngle/de
@@ -133,4 +133,4 @@ Die Seite [Sketcher Skripten](Sketcher_scripting/de.md) erklärt die Werte, die 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/de

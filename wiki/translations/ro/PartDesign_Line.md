@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign Line
-   Name/ro:PartDesign Line
-   Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation:Part Design - Create a datum line
-   Version:0.17
-   SeeAlso:[[PartDesign Point/ro]], [[PartDesign Plane/ro]]
+   Name: PartDesign Line
+   Name/ro: PartDesign Line
+   Workbenches: [PartDesign](PartDesign_Workbench/ro.md)
+   MenuLocation: Part Design - Create a datum line
+   Version: 0.17
+   SeeAlso: [[PartDesign Point/ro]], [[PartDesign Plane/ro]]
 ---
 
 # PartDesign Line/ro
@@ -72,4 +72,4 @@ Faceți dublu clic pe eticheta DatumLine din arborescența Model sau faceți cli
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Line/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Line/ro

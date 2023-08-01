@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Snap WorkingPlane
-   Name/fr:Draft Aimantation Plan de travail
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Draft Aimantation](Draft_Snap/fr.md), [Draft Verrouillage de l'aimantation](Draft_Snap_Lock/fr.md), [Draft Plan de travail](Draft_SelectPlane/fr.md)
+   Name: Draft Snap WorkingPlane
+   Name/fr: Draft Aimantation Plan de travail
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   SeeAlso: [Draft Aimantation](Draft_Snap/fr.md), [Draft Verrouillage de l'aimantation](Draft_Snap_Lock/fr.md), [Draft Plan de travail](Draft_SelectPlane/fr.md)
 ---
 
 # Draft Snap WorkingPlane/fr
@@ -39,4 +39,4 @@ Voir [Draft Préférences](Draft_Snap/fr#Pr.C3.A9f.C3.A9rences.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap WorkingPlane/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap WorkingPlane/fr

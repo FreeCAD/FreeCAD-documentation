@@ -1,6 +1,6 @@
 # Sketcher LeaveSketch/ro
 ---
-- GuiCommand:   Name:Sketcher LeaveSketch   Workbenches:[PartDesign](Sketcher_Workbench___Sketcher]],_[[PartDesign_Workbench.md)|MenuLocation:Sketch - Leave sketch|---
+- GuiCommand:   Name: Sketcher LeaveSketch   Workbenches: [PartDesign](Sketcher_Workbench___Sketcher]],_[[PartDesign_Workbench.md)|MenuLocation: Sketch - Leave sketch|---
 
 
 </div>
@@ -47,4 +47,4 @@ There are several ways to invoke this command:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/ro

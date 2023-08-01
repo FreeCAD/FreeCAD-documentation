@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FCGear InvoluteRack
-   Name/de:FCGear InvoluteRack
-   MenuLocation:Gear - Involute Rack
-   Workbenches:[FCGear](FCGear_Workbench/de.md)
-   Shortcut:Kein
-   Version:v0.16
-   SeeAlso:[FCGear Evolventenzahnrad](FCGear_InvoluteGear/de.md)
+   Name: FCGear InvoluteRack
+   Name/de: FCGear InvoluteRack
+   MenuLocation: Gear - Involute Rack
+   Workbenches: [FCGear](FCGear_Workbench/de.md)
+   Shortcut: Kein
+   Version: v0.16
+   SeeAlso: [FCGear Evolventenzahnrad](FCGear_InvoluteGear/de.md)
 ---
 
 # FCGear InvoluteRack/de
@@ -133,4 +133,4 @@ Gui.SendMsgToActiveView("ViewFit")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear InvoluteRack/de
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear InvoluteRack/de

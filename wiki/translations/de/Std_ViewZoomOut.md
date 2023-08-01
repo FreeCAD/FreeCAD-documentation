@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Icon:Zoom-out.svg
-   Name/de:Std ViewZoomOut
-   MenuLocation:Ansicht - Zoom‏‎ - Verkleinern
-   Workbenches:Alle
-   Shortcut:**Strg** + **-**
-   SeeAlso:[Vergrößern](Std_ViewZoomIn/de.md), [Zoomen mit Rechteck](Std_ViewBoxZoom/de.md)
+   Icon: Zoom-out.svg
+   Name/de: Std ViewZoomOut
+   MenuLocation: Ansicht - Zoom‏‎ - Verkleinern
+   Workbenches: Alle
+   Shortcut: **Strg** + **-**
+   SeeAlso: [Vergrößern](Std_ViewZoomIn/de.md), [Zoomen mit Rechteck](Std_ViewBoxZoom/de.md)
 ---
 
 # Std ViewZoomOut/de
@@ -55,4 +55,4 @@ FreeCADGui.ActiveDocument.ActiveView.zoomOut()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewZoomOut/de
+⏵ [documentation index](../README.md) > Std ViewZoomOut/de

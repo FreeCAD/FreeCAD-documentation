@@ -6,7 +6,7 @@
 ## Informacje ogólne 
 
 
-{{TOCright}}
+
 
 Środowisko pracy MOOC to [zewnętrzne środowisko pracy](External_workbenches/pl.md), za pomocą którego można śledzić interaktywne poradniki i dokonywać oceny swojej pracy bezpośrednio w interfejsie FreeCAD. Środowisko pracy MOOC oferuje 2 narzędzia: interaktywne poradniki i oceny.
 
@@ -67,4 +67,4 @@ New workbenches are in development, stay tuned!
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > MOOC Workbench/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > MOOC Workbench/pl

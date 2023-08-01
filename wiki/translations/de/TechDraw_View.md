@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw View
-   Name/de:TechDraw Ansicht
-   MenuLocation:TechDraw- TechDraw Ansichten - Ansicht einfügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso:[TechDraw Ansichtengruppe einfügen](TechDraw_ProjectionGroup/de.md), [TechDraw Schnittansicht einfügen](TechDraw_SectionView/de.md)
+   Name: TechDraw View
+   Name/de: TechDraw Ansicht
+   MenuLocation: TechDraw- TechDraw Ansichten - Ansicht einfügen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   SeeAlso: [TechDraw Ansichtengruppe einfügen](TechDraw_ProjectionGroup/de.md), [TechDraw Schnittansicht einfügen](TechDraw_SectionView/de.md)
 ---
 
 # TechDraw View/de
@@ -223,4 +223,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw View/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw View/de

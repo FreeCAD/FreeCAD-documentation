@@ -1,6 +1,4 @@
 # Sketcher SketchObject/it
-{{TOCright}}
-
 ## Introduzione
 
 <img alt="" src=images/Sketcher_Sketch.svg  style="width:32px;">
@@ -210,4 +208,4 @@ obj.Label = "Custom label"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SketchObject/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SketchObject/it

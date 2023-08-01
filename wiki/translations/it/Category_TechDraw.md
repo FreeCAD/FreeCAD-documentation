@@ -32,4 +32,4 @@ Questa categoria elenca le pagine relative a [TechDraw Workbench/it](TechDraw_Wo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:TechDraw/it
+⏵ [documentation index](../README.md) > Category:TechDraw/it

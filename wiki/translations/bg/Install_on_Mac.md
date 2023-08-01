@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Install on Mac/bg
+⏵ [documentation index](../README.md) > Install on Mac/bg

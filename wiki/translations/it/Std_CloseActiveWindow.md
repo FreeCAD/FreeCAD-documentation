@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_CloseActiveWindow
-   Name/it:Chiudi
-   MenuLocation:File - Chiudi
-   Workbenches:Tutti
-   Shortcut:**Ctrl**+**F4**
-   SeeAlso:[Chiudi tutto](Std_CloseAllWindows/it.md)
+   Name: Std_CloseActiveWindow
+   Name/it: Chiudi
+   MenuLocation: File - Chiudi
+   Workbenches: Tutti
+   Shortcut: **Ctrl**+**F4**
+   SeeAlso: [Chiudi tutto](Std_CloseAllWindows/it.md)
 ---
 
 # Std CloseActiveWindow/it
@@ -69,4 +69,4 @@ Per chiudere un documento usare il metodo `closeDocument` dell\'applicazione Fre
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std CloseActiveWindow/it
+⏵ [documentation index](../README.md) > Std CloseActiveWindow/it

@@ -1,7 +1,7 @@
 # <img alt="Ikonka FreeCAD dla zewnętrznego środowiska pracy KicadStepUp" src=images/Kicad-StepUp-tools-WB.svg  style="width:64px;"> KicadStepUp Workbench/pl
 
 
-{{TOCright}}
+
 
 
 
@@ -141,4 +141,4 @@ Nowe środowiska pracy są w czasie tworzenia, bądź cierpliwy!
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > KicadStepUp Workbench/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > KicadStepUp Workbench/pl

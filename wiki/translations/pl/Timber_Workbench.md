@@ -6,7 +6,7 @@
 ## Wprowadzenie
 
 
-{{TOCright}}
+
 
 Komplementarne środowisko pracy dla FreeCAD, którego głównym celem jest dostarczenie narzędzi ułatwiających modelowanie konstrukcji drewnianych *(szkieletów, ram drewnianych itp.)*.
 
@@ -83,4 +83,4 @@ Zapoznaj się z informacjami na stronie [Jak zainstalować makrodefinicje](How_t
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Timber Workbench/pl
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Timber Workbench/pl

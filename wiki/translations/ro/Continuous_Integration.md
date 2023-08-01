@@ -1,6 +1,4 @@
 # Continuous Integration/ro
-{{TOCright}}
-
 ## Continuous Integration 
 
 
@@ -41,4 +39,4 @@ Dacă adăugaţi [skip ci] sau [ci skip] pentru comiterea unui \"git\", aceasta 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Testing](Category_Testing.md) > Continuous Integration/ro
+⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Testing](Category_Testing.md) > Continuous Integration/ro

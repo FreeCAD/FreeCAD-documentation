@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreeSelection
-   Name/de:Std BaumAnsichtSelektion
-   MenuLocation:View - BaumAnsicht-Aktionen - Gehe zu Selektion
-   Workbenches:Alle
-   Shortcut:**T** **G**
-   Version:0.19
+   Name: Std TreeSelection
+   Name/de: Std BaumAnsichtSelektion
+   MenuLocation: View - BaumAnsicht-Aktionen - Gehe zu Selektion
+   Workbenches: Alle
+   Shortcut: **T** **G**
+   Version: 0.19
 ---
 
 # Std TreeSelection/de
@@ -40,4 +40,4 @@ Falls der Baumansicht [Sync-Auswahl](Std_TreeSyncSelection/de.md)-Modus ausgesch
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSelection/de
+⏵ [documentation index](../README.md) > Std TreeSelection/de

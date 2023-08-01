@@ -11,7 +11,7 @@ Więcej informacji na temat sposobów przyczyniania się do rozwoju programu Fre
 {{Message|Wszystkie obrazy na tej stronie muszą używać przyrostka **_relnotes_0.21**.}}
 
 
-{{TOCright}}
+
 
 **FreeCAD 0.21** zostanie wydany w roku *2023*, pobranie będzie możliwe ze strony [Download](Download/pl.md). Ta strona jest podsumowaniem najciekawszych zmian i funkcji.
 
@@ -522,4 +522,4 @@ Jeśli środowisko pracy [Start](Start_Workbench.md) pokazuje tylko pustą stron
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.21/pl
+⏵ [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.21/pl

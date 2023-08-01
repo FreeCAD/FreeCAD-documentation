@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw StackTop
-   Name/de:TechDraw StapelOberseite
-   MenuLocation:TechDraw - Stacking - Ansicht auf die Stapeloberseite bewegen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Shortcut:
-   Version:0.21
-   SeeAlso:[TechDraw StapelUnterseite](TechDraw_StackBottom/de.md), [TechDraw StapelNachOben](TechDraw_StackUp/de.md), [TechDraw StapelNachUnten](TechDraw_StackDown/de.md).
+   Name: TechDraw StackTop
+   Name/de: TechDraw StapelOberseite
+   MenuLocation: TechDraw - Stacking - Ansicht auf die Stapeloberseite bewegen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Shortcut: 
+   Version: 0.21
+   SeeAlso: [TechDraw StapelUnterseite](TechDraw_StackBottom/de.md), [TechDraw StapelNachOben](TechDraw_StackUp/de.md), [TechDraw StapelNachUnten](TechDraw_StackDown/de.md).
 ---
 
 # TechDraw StackTop/de
@@ -46,4 +46,4 @@ Die Stapelreihenfolge kann in Skripten durch Ändern der Eigenschaft {{Incode|St
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw StackTop/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw StackTop/de

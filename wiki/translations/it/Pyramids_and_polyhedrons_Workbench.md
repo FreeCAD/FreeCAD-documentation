@@ -1,7 +1,7 @@
 # <img alt="The Pyramids-and-Polyhedrons Workbench Icon" src=images/Pyramids-and-Polyhedrons_workbench_icon.svg  style="width:64px;"> Pyramids and polyhedrons Workbench/it
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -61,4 +61,4 @@ Invia il tuo feedback, idee, pensieri su questo banco di lavoro al thread del fo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Pyramids and polyhedrons Workbench/it
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Pyramids and polyhedrons Workbench/it

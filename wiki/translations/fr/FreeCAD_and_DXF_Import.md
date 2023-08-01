@@ -1,8 +1,4 @@
 # FreeCAD and DXF Import/fr
-{{TOCright}}
-
-
-
 ## Contexte
 
 DXF est un format de données CAO propriétaire pour les dessins 2D créés avec AutoCAD. Plus de détails peuvent être trouvés sur la page wiki [DXF](DXF/fr.md).
@@ -63,4 +59,4 @@ Pour un aperçu de toutes les préférences liées à DXF, voir les [Préférenc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [File_Formats](Category_File_Formats.md) > FreeCAD and DXF Import/fr
+⏵ [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [File_Formats](Category_File_Formats.md) > FreeCAD and DXF Import/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD_ResizeMeshFeature
-   Name/it:Ridimensiona le mesh
-   Empty:1
-   MenuLocation:OpenSCAD - Ridimensiona le mesh
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/it.md)
+   Name: OpenSCAD_ResizeMeshFeature
+   Name/it: Ridimensiona le mesh
+   Empty: 1
+   MenuLocation: OpenSCAD - Ridimensiona le mesh
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench/it.md)
 ---
 
 # OpenSCAD ResizeMeshFeature/it
@@ -61,4 +61,4 @@ Mesh.show(resized_mesh)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ResizeMeshFeature/it
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ResizeMeshFeature/it

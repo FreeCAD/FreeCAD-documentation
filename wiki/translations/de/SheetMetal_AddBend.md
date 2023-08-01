@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:SheetMetal AddBend
-   Name/de:SheetMetal BiegungHinzufügen
-   MenuLocation:SheetMetal - Make Bend
-   Workbenches:[SheetMetal (Blech)](SheetMetal_Workbench/de.md)
-   Shortcut:**S** **B**
-   SeeAlso:[SheetMetal Entlastungsausschnitt hinzufügen](SheetMetal_AddRelief/de.md), [SheetMetal Stoß hinzufügen](SheetMetal_AddJunction/de.md)
+   Name: SheetMetal AddBend
+   Name/de: SheetMetal BiegungHinzufügen
+   MenuLocation: SheetMetal - Make Bend
+   Workbenches: [SheetMetal (Blech)](SheetMetal_Workbench/de.md)
+   Shortcut: **S** **B**
+   SeeAlso: [SheetMetal Entlastungsausschnitt hinzufügen](SheetMetal_AddRelief/de.md), [SheetMetal Stoß hinzufügen](SheetMetal_AddJunction/de.md)
 ---
 
 # SheetMetal AddBend/de
@@ -68,4 +68,4 @@ Ein SheetMetal-SolidBend-Objekt wird von einem [Part-Formelement](Part_Feature/d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddBend/de
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddBend/de

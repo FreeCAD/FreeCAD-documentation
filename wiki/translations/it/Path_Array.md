@@ -1,6 +1,6 @@
 # Path Array/it
 ---
-- GuiCommand:   Name:Path Array   Name/it:Schiera   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path - Modifica percorso - Schiera   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Path Array   Name/it: Schiera   Workbenches: [[Path Workbench/it   Path]]|MenuLocation: Path - Modifica percorso - Schiera   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -81,4 +81,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Array/it
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Array/it

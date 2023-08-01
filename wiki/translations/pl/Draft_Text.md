@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Text
-   Name/pl:Rysunek roboczy: Tekst
-   MenuLocation:Adnotacja - Tekst
-   Workbenches:[Rysunek roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut:**T** **E**
-   Version:0.7
-   SeeAlso:[Etykieta](Draft_Label/pl.md), [Kształt z tekstu](Draft_ShapeString/pl.md)
+   Name: Draft Text
+   Name/pl: Rysunek roboczy: Tekst
+   MenuLocation: Adnotacja - Tekst
+   Workbenches: [Rysunek roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut: **T** **E**
+   Version: 0.7
+   SeeAlso: [Etykieta](Draft_Label/pl.md), [Kształt z tekstu](Draft_ShapeString/pl.md)
 ---
 
 # Draft Text/pl
@@ -166,4 +166,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Text/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Text/pl

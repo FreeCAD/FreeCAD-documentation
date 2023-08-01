@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintCoincidence
-   Name/de:Assembly3 DeckungsgleicheEbenen
-   Icon:Assembly_ConstraintCoincidence.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintCoincidence
+   Name/de: Assembly3 DeckungsgleicheEbenen
+   Icon: Assembly_ConstraintCoincidence.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintCoincidence/de
@@ -44,4 +44,4 @@ In der Realität erlauben die Formen der Objekte eine Drehung und verhindert ein
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintCoincidence/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintCoincidence/de

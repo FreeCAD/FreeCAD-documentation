@@ -1,6 +1,4 @@
 # Draft Constrain/en
-{{TOCright}}
-
 ## Description
 
 Apart from entering coordinates or using [snapping](Draft_Snap.md), there is a feature called constraining to help you draw accurately in the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) and the <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch Workbench](Arch_Workbench.md). For each subsequent point you can constrain the movement of the cursor to the X, Y, or Z direction of the [working plane](Draft_SelectPlane.md) coordinate system. This can for example be used to create a perfectly vertical line.
@@ -50,4 +48,4 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Constrain/en
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Constrain/en

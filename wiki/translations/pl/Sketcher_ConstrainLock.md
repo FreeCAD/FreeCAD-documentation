@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainLock
-   Name/pl:Sketcher: Wiązanie blokady odległości
-   MenuLocation:Szkic - Wiązania szkicownika - Wiązanie blokady odległości
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**K** **L**
-   SeeAlso:[Wiązanie zablokowania](Sketcher_ConstrainBlock/pl.md)
+   Name: Sketcher ConstrainLock
+   Name/pl: Sketcher: Wiązanie blokady odległości
+   MenuLocation: Szkic - Wiązania szkicownika - Wiązanie blokady odległości
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **K** **L**
+   SeeAlso: [Wiązanie zablokowania](Sketcher_ConstrainBlock/pl.md)
 ---
 
 # Sketcher ConstrainLock/pl
@@ -43,4 +43,4 @@ Wiązanie <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/pl

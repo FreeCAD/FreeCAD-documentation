@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Stretch
-   Name/de:Draft Strecken
-   MenuLocation:Änderung - Strecken
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Shortcut:**S** **H**
-   Version:0.17
+   Name: Draft Stretch
+   Name/de: Draft Strecken
+   MenuLocation: Änderung - Strecken
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut: **S** **H**
+   Version: 0.17
 ---
 
 # Draft Stretch/de
@@ -69,4 +69,4 @@ Es gibt keine Python-Methode, um Objekte zu strecken. Um die Ergebnisse des Befe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Stretch/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Stretch/de

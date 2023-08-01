@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh_FillInteractiveHole‏‎
-   Name/it:Chiudi il buco
-   MenuLocation:Mesh - Chiudi il buco
-   Workbenches:[Mesh](Mesh_Workbench/it.md)
-   SeeAlso:[Riempi i buchi](Mesh_FillupHoles/it.md), [Aggiungi triangolo](Mesh_AddFacet/it.md)
+   Name: Mesh_FillInteractiveHole‏‎
+   Name/it: Chiudi il buco
+   MenuLocation: Mesh - Chiudi il buco
+   Workbenches: [Mesh](Mesh_Workbench/it.md)
+   SeeAlso: [Riempi i buchi](Mesh_FillupHoles/it.md), [Aggiungi triangolo](Mesh_AddFacet/it.md)
 ---
 
 # Mesh FillInteractiveHole/it
@@ -50,4 +50,4 @@ Il comando **Chiudi il buco** permette di chiudere i fori nelle mesh selezionand
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillInteractiveHole/it
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillInteractiveHole/it

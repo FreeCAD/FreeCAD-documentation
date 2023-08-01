@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ViewSketch
-   Name/de: Sketcher SkizzeAnzeigen
-   MenuLocation: Sketch - Skizze anzeigen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
-   Shortcut:**Q** **P**
+   Name: Sketcher ViewSketch
+   Name/de:  Sketcher SkizzeAnzeigen
+   MenuLocation:  Sketch - Skizze anzeigen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
+   Shortcut: **Q** **P**
 ---
 
 # Sketcher ViewSketch/de
@@ -31,4 +31,4 @@ Solange der Skizzenbearbeitungsmodus aktiv ist, kann man entweder
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/de

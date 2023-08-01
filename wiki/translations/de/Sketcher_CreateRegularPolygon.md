@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateRegularPolygon
-   Name/de:Sketcher RegelmäßigesVieleckErstellen
-   MenuLocation:Sketch - Skizzengeometrien - Regelmäßiges Vieleck erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **P** **R**
+   Name: Sketcher CreateRegularPolygon
+   Name/de: Sketcher RegelmäßigesVieleckErstellen
+   MenuLocation: Sketch - Skizzengeometrien - Regelmäßiges Vieleck erstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **P** **R**
 ---
 
 # Sketcher CreateRegularPolygon/de
@@ -34,4 +34,4 @@ Der umschriebene Kreis ist Konstruktionsgeometrie, die nur bei der Bearbeitung d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRegularPolygon/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRegularPolygon/de

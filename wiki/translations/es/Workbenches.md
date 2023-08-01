@@ -159,4 +159,4 @@ Los [Ambiente de trabajo externos](external_workbenches/es.md) página lista tod
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/es
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/es

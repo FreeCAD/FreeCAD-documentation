@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Schedule
-   Name/ru:Arch Schedule
-   MenuLocation:Архитектура - Create schedule...
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   Shortcut:
+   Name: Arch Schedule
+   Name/ru: Arch Schedule
+   MenuLocation: Архитектура - Create schedule...
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   Shortcut: 
 ---
 
 # Arch Schedule/ru
@@ -105,4 +105,4 @@ It is possible to add your own properties to objects. These are called [Dynamic 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Schedule/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Schedule/ru

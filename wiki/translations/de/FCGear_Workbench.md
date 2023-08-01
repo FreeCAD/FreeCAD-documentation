@@ -1,7 +1,7 @@
 # <img alt="Symbol des externen Arbeitsbereichs FCGear" src=images/FCGear_workbench_icon.svg  style="width:64px;"> FCGear Workbench/de
 
 
-{{TOCright}}
+
 
 ## Einleitung
 
@@ -125,4 +125,4 @@ Nach der Installation stehen die Werkzeuge in der Symbolleiste Gear und dem MenÃ
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > FCGear Workbench/de
+âµ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > FCGear Workbench/de

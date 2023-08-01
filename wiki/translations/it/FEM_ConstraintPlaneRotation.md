@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM_ConstraintPlaneRotation
-   Name/it:Vincolo piano di rotazione
-   MenuLocation:Modello - Vincoli meccanici - Vincolo piano di rotazione
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/it.md)
+   Name: FEM_ConstraintPlaneRotation
+   Name/it: Vincolo piano di rotazione
+   MenuLocation: Modello - Vincoli meccanici - Vincolo piano di rotazione
+   Workbenches: [FEM](FEM_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: [FEM tutorial](FEM_tutorial/it.md)
 ---
 
 # FEM ConstraintPlaneRotation/it
@@ -66,4 +66,4 @@ Crea un vincolo FEM per mantenere i nodi in una superficie planare nello stesso 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPlaneRotation/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPlaneRotation/it

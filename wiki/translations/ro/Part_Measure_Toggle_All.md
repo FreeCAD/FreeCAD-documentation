@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Part Measure Toggle All
-   MenuLocation:Measure - Toggle All
-   Workbenches:[Part](Part_Workbench.md)
+   Name: Part Measure Toggle All
+   MenuLocation: Measure - Toggle All
+   Workbenches: [Part](Part_Workbench.md)
 ---
 
 # Part Measure Toggle All/ro
@@ -35,4 +35,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle All/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle All/ro

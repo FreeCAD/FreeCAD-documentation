@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher MergeSketches
-   Name/de:Sketcher SkizzenZusammenführen
-   MenuLocation:Sketch - Skizzen zusammenführen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Version:0.15
+   Name: Sketcher MergeSketches
+   Name/de: Sketcher SkizzenZusammenführen
+   MenuLocation: Sketch - Skizzen zusammenführen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Version: 0.15
 ---
 
 # Sketcher MergeSketches/de
@@ -30,4 +30,4 @@ Zwei oder mehr Skizzen in einer Skizze zusammenführen.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MergeSketches/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MergeSketches/de

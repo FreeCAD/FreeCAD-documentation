@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign InvoluteGear
-   Name/es:DiseñoPiezas EngranajeEvolvente
-   MenuLocation:DiseñoPiezas - Engranaje Evolvente...
-   Workbenches:[DiseñoPiezas](PartDesign_Workbench/es.md)
-   SeeAlso:[Ambiente de trabajo FCEngranaje](FCGear_Workbench/es.md)
+   Name: PartDesign InvoluteGear
+   Name/es: DiseñoPiezas EngranajeEvolvente
+   MenuLocation: DiseñoPiezas - Engranaje Evolvente...
+   Workbenches: [DiseñoPiezas](PartDesign_Workbench/es.md)
+   SeeAlso: [Ambiente de trabajo FCEngranaje](FCGear_Workbench/es.md)
 ---
 
 # PartDesign InvoluteGear/es
@@ -218,4 +218,4 @@ Video: [How to make gears in FreeCAD](https://www.youtube.com/watch?v=8VNhTrnFMf
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/es

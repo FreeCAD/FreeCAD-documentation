@@ -1,7 +1,7 @@
 # <img alt="Assembly3 workbench icon" src=images/Assembly3_workbench_icon.svg  style="width:64px;"> Assembly3 Workbench/it
 
 
-{{TOCright}}
+
 
 
 
@@ -896,4 +896,4 @@ Un modo per risolvere questo problema è quello di eliminare tutti i vincoli e g
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Assembly3 Workbench/it
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Assembly3 Workbench/it

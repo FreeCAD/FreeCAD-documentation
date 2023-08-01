@@ -1,8 +1,4 @@
 # Debugging/pl
-{{TOCright}}
-
-
-
 ## Najpierw przetestuj 
 
 Zanim przejdziesz przez ból debugowania użyj [środowiska pracy Test](Testing/pl.md) aby sprawdzić czy standardowe testy działają poprawnie. Jeśli testy nie są kompletne, prawdopodobnie instalacja jest uszkodzona.
@@ -441,4 +437,4 @@ Dla programistów chcących zagłębić się w kernel OpenCasCade, użytkownik \
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Debugging/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Debugging/pl

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateArc
-   Name/cs:Skicář Oblouk
-   Workbenches:[Skicář](Sketcher_Workbench/cs.md)
-   MenuLocation:Náčrt - Skicář Konstrukce - Vytvořit oblouk
-   SeeAlso:[Skicář Kružnice](Sketcher_CompCreateCircle/cs.md)
+   Name: Sketcher CreateArc
+   Name/cs: Skicář Oblouk
+   Workbenches: [Skicář](Sketcher_Workbench/cs.md)
+   MenuLocation: Náčrt - Skicář Konstrukce - Vytvořit oblouk
+   SeeAlso: [Skicář Kružnice](Sketcher_CompCreateCircle/cs.md)
 ---
 
 # Sketcher CreateArc/cs
@@ -46,4 +46,4 @@ Po spuštění nástroje se ukazatel myši změní na bílý křížek s červen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/cs
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/cs

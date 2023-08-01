@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh Union
-   Name:Mesh Vereinigung
-   MenuLocation:Meshes - Boolesche Verknüpfungen - Vereinigung
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh Schnitt](Mesh_Intersection.md), [Mesh Differenz](Mesh_Difference.md)
+   Name: Mesh Union
+   Name: Mesh Vereinigung
+   MenuLocation: Meshes - Boolesche Verknüpfungen - Vereinigung
+   Workbenches: [Mesh](Mesh_Workbench.md)
+   SeeAlso: [Mesh Schnitt](Mesh_Intersection.md), [Mesh Differenz](Mesh_Difference.md)
 ---
 
 # Mesh Union/de
@@ -46,4 +46,4 @@ Siehe: [Mesh Formelement](Mesh_Feature/de.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Union/de
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Union/de

@@ -1,6 +1,4 @@
 # Draft DXF/de
-{{TOCright}}
-
 ## Beschreibung
 
 Draft DXF ist ein Softwaremodul, das von den <img alt="" src=images/Std_Open.svg  style="width:24px;"> [Std Öffnen](Std_Open/de.md), <img alt="" src=images/Std_Import.svg  style="width:24px;"> [Std Import](Std_Import/de.md) und <img alt="" src=images/Std_Export.svg  style="width:24px;">[Std Export](Std_Export/de.md) Befehlen verwendet wird, um das DXF-Dateiformat zu verarbeiten.
@@ -170,4 +168,4 @@ importDXF.export(objects, "/home/user/Pictures/myfile.dxf")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft DXF/de
+⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft DXF/de

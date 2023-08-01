@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch SplitMesh
-   Name/ro:Arch SplitMesh
-   MenuLocation:Arch - Utilities - Split Mesh
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   SeeAlso:[[Arch SelectNonSolidMeshes]], [[Arch MeshToShape]]
+   Name: Arch SplitMesh
+   Name/ro: Arch SplitMesh
+   MenuLocation: Arch - Utilities - Split Mesh
+   Workbenches: [Arch](Arch_Workbench/ro.md)
+   SeeAlso: [[Arch SelectNonSolidMeshes]], [[Arch MeshToShape]]
 ---
 
 # Arch SplitMesh/ro
@@ -93,4 +93,4 @@ new_list = Arch.splitMesh(mesh_obj)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/ro
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/ro

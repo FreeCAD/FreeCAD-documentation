@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw PageTemplate
-   Name/pl:Rysunek Techniczny: Wstaw nową stronę przy użyciu szablonu
-   MenuLocation:Rysunek Techniczny - Strona - Wstaw nową stronę przy użyciu szablonu
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso:[Wstaw nową domyślna stronę rysunku](TechDraw_PageDefault/pl.md), [Szablony](TechDraw_Templates/pl.md)
+   Name: TechDraw PageTemplate
+   Name/pl: Rysunek Techniczny: Wstaw nową stronę przy użyciu szablonu
+   MenuLocation: Rysunek Techniczny - Strona - Wstaw nową stronę przy użyciu szablonu
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   SeeAlso: [Wstaw nową domyślna stronę rysunku](TechDraw_PageDefault/pl.md), [Szablony](TechDraw_Templates/pl.md)
 ---
 
 # TechDraw PageTemplate/pl
@@ -100,4 +100,4 @@ page.Template.EditableTexts = texts
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageTemplate/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageTemplate/pl

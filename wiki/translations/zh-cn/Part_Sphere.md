@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Sphere
-   MenuLocation:Part - Primitives - Sphere
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part Primitives](Part_Primitives.md)
+   Name: Part Sphere
+   MenuLocation: Part - Primitives - Sphere
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Part Primitives](Part_Primitives.md)
 ---
 
 # Part Sphere/zh-cn
@@ -111,4 +111,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/zh-cn
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/zh-cn

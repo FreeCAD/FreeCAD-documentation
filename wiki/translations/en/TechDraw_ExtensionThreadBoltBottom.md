@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionThreadBoltBottom
-   MenuLocation:TechDraw - Extensions: Centerlines/Threading - Add Cosmetic Thread Bolt Bottom View
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ExtensionThreadHoleBottom](TechDraw_ExtensionThreadHoleBottom.md)
+   Name: TechDraw ExtensionThreadBoltBottom
+   MenuLocation: TechDraw - Extensions: Centerlines/Threading - Add Cosmetic Thread Bolt Bottom View
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ExtensionThreadHoleBottom](TechDraw_ExtensionThreadHoleBottom.md)
 ---
 
 # TechDraw ExtensionThreadBoltBottom/en
@@ -37,4 +37,4 @@ The **TechDraw ExtensionThreadBoltBottom** tool adds a cosmetic thread to the to
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadBoltBottom/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadBoltBottom/en

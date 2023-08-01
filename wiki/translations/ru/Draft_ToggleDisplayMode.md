@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft ToggleDisplayMode
-   Name/ru:Draft ToggleDisplayMode
-   MenuLocation:Черчение -> Утилиты -> Переключить режим отображения
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:**Shift**+**Space**
+   Name: Draft ToggleDisplayMode
+   Name/ru: Draft ToggleDisplayMode
+   MenuLocation: Черчение -> Утилиты -> Переключить режим отображения
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: **Shift**+**Space**
 ---
 
 # Draft ToggleDisplayMode/ru
@@ -31,4 +31,4 @@ The <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:24px;"> **D
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/ru

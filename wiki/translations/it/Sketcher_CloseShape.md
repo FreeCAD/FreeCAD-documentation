@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher_CloseShape
-   Name/it:Chiudi la forma
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch - Strumenti - Chiudi la forma
-   Shortcut:**Ctrl** + **Maiusc** + **S**
-   Version:0.15
+   Name: Sketcher_CloseShape
+   Name/it: Chiudi la forma
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation: Sketch - Strumenti - Chiudi la forma
+   Shortcut: **Ctrl** + **Maiusc** + **S**
+   Version: 0.15
 ---
 
 # Sketcher CloseShape/it
@@ -58,4 +58,4 @@ Lo strumento collega gli elementi secondo l\'ordine di selezione, quindi cliccar
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/it

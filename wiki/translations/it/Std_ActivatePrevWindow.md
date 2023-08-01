@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ActivatePrevWindow
-   Name/it:Precedente
-   MenuLocation:Finestre - Precedente
-   Workbenches:Tutti
-   Shortcut:**Ctrl**+**Shift**+**Tab**
-   SeeAlso:[Prossima](Std_ActivateNextWindow/it.md), [Finestre](Std_Windows/it.md)
+   Name: Std ActivatePrevWindow
+   Name/it: Precedente
+   MenuLocation: Finestre - Precedente
+   Workbenches: Tutti
+   Shortcut: **Ctrl**+**Shift**+**Tab**
+   SeeAlso: [Prossima](Std_ActivateNextWindow/it.md), [Finestre](Std_Windows/it.md)
 ---
 
 # Std ActivatePrevWindow/it
@@ -42,4 +42,4 @@ Il comando **Precedente** attiva la finestra precedente nell\'[Area della vista 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ActivatePrevWindow/it
+⏵ [documentation index](../README.md) > Std ActivatePrevWindow/it

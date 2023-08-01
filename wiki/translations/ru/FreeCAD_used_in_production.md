@@ -2,7 +2,7 @@
 ## Обзор
 
 
-{{TOCright}}
+
 
 Продолжение темы **: Список фирм / компаний / организаций, которые используют FreeCAD в производстве или в своем рабочем процессе** ([ветка форума](https://forum.freecadweb.org/viewtopic.php?f=8&t=43604)) эта вики-страница была создана для отслеживания всего коммерческого и некоммерческого использования FreeCAD в производственной среде государственным и частным сектором. Основная цель - развенчать клеймо / мнение о том, что FreeCAD недостаточно стабилен или надежен для работы в производственной среде.
 
@@ -79,4 +79,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD used in production/ru
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD used in production/ru

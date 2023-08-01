@@ -1,6 +1,6 @@
 # Part Fillet/sv
 ---
-- GuiCommand:   Name:Part_Fillet   Workbenches:Part,Complete---
+- GuiCommand:   Name: Part_Fillet   Workbenches: Part,Complete---
 
 Rundar av de valda kanterna på ett objekt. En dialogruta tillåter dig att välja vilka objekt och vilka kanter som ska rundas.
 
@@ -42,4 +42,4 @@ The fillet tool is affected by the [topological naming problem](Topological_nami
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/sv
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/sv

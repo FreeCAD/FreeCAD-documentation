@@ -3,7 +3,7 @@
 Więcej informacji można znaleźć na stronie [Informacje o wydaniu 0.20](Release_notes_0.20/pl#Rdze.C5.84_programu.md). Niniejsza strona nie została jeszcze odpowiednio zaktualizowana.**
 
 
-{{TOCright}}
+
 
 
 
@@ -459,4 +459,4 @@ Teraz kliknij dwukrotnie plik wsadowy, aby uruchomić program FreeCAD. *([zobacz
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Start](Start_Workbench.md) > Start up and Configuration/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Start](Start_Workbench.md) > Start up and Configuration/pl

@@ -211,4 +211,4 @@ Autre discussion sur le forum [Macro_Connect_And_Sweep](https://forum.freecadweb
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Connect And Sweep/fr
+⏵ [documentation index](../README.md) > Macro Connect And Sweep/fr

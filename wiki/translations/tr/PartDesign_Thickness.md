@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Thickness
-   MenuLocation:Part Design - Apply a dress-up feature - Thickness
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   Version:0.17
-   SeeAlso:[Part Thickness](Part_Thickness.md)
+   Name: PartDesign Thickness
+   MenuLocation: Part Design - Apply a dress-up feature - Thickness
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   Version: 0.17
+   SeeAlso: [Part Thickness](Part_Thickness.md)
 ---
 
 # PartDesign Thickness/tr
@@ -144,4 +144,4 @@ A PartDesign Thickness object is derived from a [Part Feature](Part_Feature.md) 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/tr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/tr

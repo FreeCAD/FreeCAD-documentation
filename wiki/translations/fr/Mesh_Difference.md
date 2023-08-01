@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh Difference
-   Name/fr:Mesh Différence
-   MenuLocation:Maillages - Opération booléenne - Différence
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Union](Mesh_Union/fr.md), [Mesh Intersection](Mesh_Intersection/fr.md)
+   Name: Mesh Difference
+   Name/fr: Mesh Différence
+   MenuLocation: Maillages - Opération booléenne - Différence
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
+   SeeAlso: [Mesh Union](Mesh_Union/fr.md), [Mesh Intersection](Mesh_Intersection/fr.md)
 ---
 
 # Mesh Difference/fr
@@ -46,4 +46,4 @@ Voir : [Mesh Feature](Mesh_Feature/fr.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Difference/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Difference/fr

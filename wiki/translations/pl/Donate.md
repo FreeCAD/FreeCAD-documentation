@@ -90,4 +90,4 @@ FPA może zawsze wystawić pokwitowanie za darowiznę. [Wyślij nam maila](mailt
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Donate/pl
+⏵ [documentation index](../README.md) > Donate/pl

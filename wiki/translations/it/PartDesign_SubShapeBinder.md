@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubShapeBinder
-   Name/it:Lega forme secondarie
-   Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:Part Design - Forme legate secondarie
-   Version:0.19
-   SeeAlso:[PartDesign Forme legate](PartDesign_ShapeBinder/it.md), [PartDesign Clona](PartDesign_Clone/it.md)
+   Name: PartDesign SubShapeBinder
+   Name/it: Lega forme secondarie
+   Workbenches: [PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation: Part Design - Forme legate secondarie
+   Version: 0.19
+   SeeAlso: [PartDesign Forme legate](PartDesign_ShapeBinder/it.md), [PartDesign Clona](PartDesign_Clone/it.md)
 ---
 
 # PartDesign SubShapeBinder/it
@@ -185,4 +185,4 @@ The main differences are:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubShapeBinder/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubShapeBinder/it

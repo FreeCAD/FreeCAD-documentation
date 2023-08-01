@@ -1,6 +1,6 @@
 # Arch Floor/uk
 ---
-- GuiCommand:   Name:Arch Floor   Name/uk:Arch Floor   Workbenches:[MenuLocation:Arch - Floor   Shortcut:F L   SeeAlso:[[Arch Building/uk|Arch Building](Arch_Workbench/uk___Arch]].md), [Arch Site](Arch_Site/uk.md)---
+- GuiCommand:   Name: Arch Floor   Name/uk: Arch Floor   Workbenches: [MenuLocation: Arch - Floor   Shortcut: F L   SeeAlso: [[Arch Building/uk|Arch Building](Arch_Workbench/uk___Arch]].md), [Arch Site](Arch_Site/uk.md)---
 
 
 </div>
@@ -76,4 +76,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Floor/uk
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Floor/uk

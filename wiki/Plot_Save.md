@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Plot Save
-   MenuLocation:Plot - Save plot
-   Workbenches:[Plot](Plot_Workbench.md)
+   Name: Plot Save
+   MenuLocation: Plot - Save plot
+   Workbenches: [Plot](Plot_Workbench.md)
 ---
 
 # Plot Save
@@ -34,4 +34,4 @@ Select the plot tab that you want to save, and run this tool. Use the path selec
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Save
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Save

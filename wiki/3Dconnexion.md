@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > 3Dconnexion
+⏵ [documentation index](../README.md) > 3Dconnexion

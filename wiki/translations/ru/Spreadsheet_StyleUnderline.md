@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Подчеркивание текста
-   Name:Spreadsheet_StyleUnderline
-   MenuLocation:Электронная таблица - Styles - Подчеркивание текста
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/ru.md)
-   Version:0.17
+   Name/ru: Подчеркивание текста
+   Name: Spreadsheet_StyleUnderline
+   MenuLocation: Электронная таблица - Styles - Подчеркивание текста
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/ru.md)
+   Version: 0.17
 ---
 
 # Spreadsheet StyleUnderline/ru
@@ -30,4 +30,4 @@ The underline style.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleUnderline/ru
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleUnderline/ru

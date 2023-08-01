@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:WebTools Sketchfab
-   Name/de:WebWerkzeuge Sketchfab
-   MenuLocation:WebWerkzeuge - Sketchfab
-   Workbenches:[Arbeitsbereich WebWerkzeuge](WebTools_Workbench/de.md)
+   Name: WebTools Sketchfab
+   Name/de: WebWerkzeuge Sketchfab
+   MenuLocation: WebWerkzeuge - Sketchfab
+   Workbenches: [Arbeitsbereich WebWerkzeuge](WebTools_Workbench/de.md)
 ---
 
 # WebTools Sketchfab/de
@@ -34,4 +34,4 @@ Dieses Werkzeug erlaubt dir Objekte zu exportieren und auf dein [SketchFab](http
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > WebTools Sketchfab/de
+⏵ [documentation index](../README.md) > WebTools Sketchfab/de

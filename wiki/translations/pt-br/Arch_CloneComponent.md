@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch CloneComponent
-   MenuLocation:Arch - Utilities - Clone component‎‏‎
-   Workbenches:[Arch](Arch_Workbench.md)
-   Shortcut:**C** **C‏‎**
-   SeeAlso:[Draft Clone](Draft_Clone.md), [Arch Component](Arch_Component.md)
+   Name: Arch CloneComponent
+   MenuLocation: Arch - Utilities - Clone component‎‏‎
+   Workbenches: [Arch](Arch_Workbench.md)
+   Shortcut: **C** **C‏‎**
+   SeeAlso: [Draft Clone](Draft_Clone.md), [Arch Component](Arch_Component.md)
 ---
 
 # Arch CloneComponent/pt-br
@@ -41,4 +41,4 @@ The clone component will simply have its **CloneOf** property set to the selecte
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/pt-br
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/pt-br

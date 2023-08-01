@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ActivateNextWindow
-   Name/fr:Std Suivante
-   MenuLocation:Fenêtre - Suivante
-   Workbenches:Tous
-   Shortcut:**Ctrl**+**Tab**
-   SeeAlso:[Std Précédente](Std_ActivatePrevWindow/fr.md), [Std Fenêtre](Std_Windows/fr.md)
+   Name: Std ActivateNextWindow
+   Name/fr: Std Suivante
+   MenuLocation: Fenêtre - Suivante
+   Workbenches: Tous
+   Shortcut: **Ctrl**+**Tab**
+   SeeAlso: [Std Précédente](Std_ActivatePrevWindow/fr.md), [Std Fenêtre](Std_Windows/fr.md)
 ---
 
 # Std ActivateNextWindow/fr
@@ -40,4 +40,4 @@ La commande **Std Suivante** active la fenêtre suivante dans la [zone de vue pr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ActivateNextWindow/fr
+⏵ [documentation index](../README.md) > Std ActivateNextWindow/fr

@@ -32,4 +32,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Part](Category_Part.md) > Artwork Part/ru
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Part](Category_Part.md) > Artwork Part/ru

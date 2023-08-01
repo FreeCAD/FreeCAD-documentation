@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft ShapeString
-   Name/pl:Rysunek Roboczy: Kształt z tekstu
-   MenuLocation:Kreślenie - Kształt z tekstu ...
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut:
-   Version:0.14
-   SeeAlso:[Tekst](Draft_Text/pl.md), [Etykieta](Draft_Label/pl.md), [Wyciągnij](Part_Extrude/pl.md)
+   Name: Draft ShapeString
+   Name/pl: Rysunek Roboczy: Kształt z tekstu
+   MenuLocation: Kreślenie - Kształt z tekstu ...
+   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut: 
+   Version: 0.14
+   SeeAlso: [Tekst](Draft_Text/pl.md), [Etykieta](Draft_Label/pl.md), [Wyciągnij](Part_Extrude/pl.md)
 ---
 
 # Draft ShapeString/pl
@@ -157,4 +157,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShapeString/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShapeString/pl

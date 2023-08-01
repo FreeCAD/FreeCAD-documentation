@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name/ru:Обратить нормали формы
-   Name:Part_ReverseShapes
-   MenuLocation:Деталь - Обратить нормали формы
-   Workbenches:[Part](Part_Workbench/ru.md)
+   Name/ru: Обратить нормали формы
+   Name: Part_ReverseShapes
+   MenuLocation: Деталь - Обратить нормали формы
+   Workbenches: [Part](Part_Workbench/ru.md)
 ---
 
 # Part ReverseShapes/ru
@@ -30,4 +30,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ReverseShapes/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ReverseShapes/ru

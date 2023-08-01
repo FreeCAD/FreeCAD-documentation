@@ -1,6 +1,4 @@
 # Gui Command/de
-{{TOCright}}
-
 Der GUI-Befehl (Befehl der grafischen Benutzerschnittstelle) ist eine der wichtigsten Funktionen von FreeCAD im Hauptinteraktionsbereich des Benutzers. Jedes Mal, wenn der Benutzer einen Menüeintrag auswählt oder eine Schaltfläche in der Werkzeugleiste drückt, wird ein GUI-Befehl aktiviert. Einige der Merkmale eines GUI-Befehls sind:
 
 -   Definiert einen Namen
@@ -45,4 +43,4 @@ Wir versuchen so weit wie möglich, dieses Diagramm zu berücksichtigen, und so 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Gui Command/de
+⏵ [documentation index](../README.md) > Gui Command/de

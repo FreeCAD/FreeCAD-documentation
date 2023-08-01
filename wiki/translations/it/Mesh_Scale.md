@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh_Scale
-   Name/it:Scala
-   MenuLocation:Mesh - Scala...
-   Workbenches:[Mesh](Mesh_Workbench/it.md)
+   Name: Mesh_Scale
+   Name/it: Scala
+   MenuLocation: Mesh - Scala...
+   Workbenches: [Mesh](Mesh_Workbench/it.md)
 ---
 
 # Mesh Scale/it
@@ -69,4 +69,4 @@ msh.Mesh = new_msh
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Scale/it
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Scale/it

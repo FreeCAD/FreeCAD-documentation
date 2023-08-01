@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std LinkMakeRelative
-   Name/de:Std UnterverknüpfungErstellen
-   MenuLocation:Kein
-   Workbenches:Alle
-   Version:0.19
-   SeeAlso:[Std Part](Std_Part/de.md), [Std Gruppe](Std_Group/de.md), [Std VerknüpfungErstellen](Std_LinkMake/de.md)
+   Name: Std LinkMakeRelative
+   Name/de: Std UnterverknüpfungErstellen
+   MenuLocation: Kein
+   Workbenches: Alle
+   Version: 0.19
+   SeeAlso: [Std Part](Std_Part/de.md), [Std Gruppe](Std_Group/de.md), [Std VerknüpfungErstellen](Std_LinkMake/de.md)
 ---
 
 # Std LinkMakeRelative/de
@@ -80,4 +80,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkMakeRelative/de
+⏵ [documentation index](../README.md) > Std LinkMakeRelative/de

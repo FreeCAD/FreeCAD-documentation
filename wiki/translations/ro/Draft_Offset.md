@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Offset
-   Name/ro:Draft Offset
-   MenuLocation:Draft - Offset
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   Shortcut:**O** **S**
-   SeeAlso:[Part 2D Offset](Part_Offset2D/ro.md)
+   Name: Draft Offset
+   Name/ro: Draft Offset
+   MenuLocation: Draft - Offset
+   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut: **O** **S**
+   SeeAlso: [Part 2D Offset](Part_Offset2D/ro.md)
 ---
 
 # Draft Offset/ro
@@ -138,4 +138,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Offset/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Offset/ro

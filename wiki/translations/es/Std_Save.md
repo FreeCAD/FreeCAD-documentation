@@ -1,6 +1,6 @@
 # Std Save/es
 ---
-- GuiCommand:   Name:Std Save   Name/es:Std Save   MenuLocation:[Workbenches:All   Shortcut:Crtl+S   SeeAlso:[[Std_SaveAs/es|Save as...](Std_File_Menu/es___File]]_-_Save.md)---
+- GuiCommand:   Name: Std Save   Name/es: Std Save   MenuLocation: [Workbenches: All   Shortcut: Crtl+S   SeeAlso: [[Std_SaveAs/es|Save as...](Std_File_Menu/es___File]]_-_Save.md)---
 
 
 </div>
@@ -49,4 +49,4 @@ To save a document use the `save` method of the document object. A new document 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Save/es
+⏵ [documentation index](../README.md) > Std Save/es

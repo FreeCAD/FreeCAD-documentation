@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainParallel
-   Name/fr:Sketcher Contrainte parallèle
-   MenuLocation:Esquisse - Contraintes d'esquisse - Contrainte parallèle
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**P**
-   SeeAlso:[Sketcher Contrainte verticale](Sketcher_ConstrainVertical/fr.md), [Sketcher Contrainte horizontale](Sketcher_ConstrainHorizontal/fr.md)
+   Name: Sketcher ConstrainParallel
+   Name/fr: Sketcher Contrainte parallèle
+   MenuLocation: Esquisse - Contraintes d'esquisse - Contrainte parallèle
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **P**
+   SeeAlso: [Sketcher Contrainte verticale](Sketcher_ConstrainVertical/fr.md), [Sketcher Contrainte horizontale](Sketcher_ConstrainHorizontal/fr.md)
 ---
 
 # Sketcher ConstrainParallel/fr
@@ -60,4 +60,4 @@ La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui pe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainParallel/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainParallel/fr

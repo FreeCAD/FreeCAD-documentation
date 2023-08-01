@@ -1,6 +1,6 @@
 # Robot Edge2Trac/ro
 ---
-- GuiCommand:   Name:Robot Edge2Trac   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot - Edge to trajectory---
+- GuiCommand:   Name: Robot Edge2Trac   Workbenches: [[Robot_Workbench   Robot]]|MenuLocation: Robot - Edge to trajectory---
 
 
 </div>
@@ -54,4 +54,4 @@ Puteți modifica valori pentru această traiectorie prin definirea unei valori [
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Edge2Trac/ro
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Edge2Trac/ro

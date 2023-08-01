@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet_Import
-   Name/it:Importa un foglio di calcolo
-   MenuLocation:Spreadsheet - Importa un foglio di calcolo
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/it.md)
-   Version:0.17
-   SeeAlso:[Esporta il foglio di calcolo](Spreadsheet_Export/it.md)
+   Name: Spreadsheet_Import
+   Name/it: Importa un foglio di calcolo
+   MenuLocation: Spreadsheet - Importa un foglio di calcolo
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/it.md)
+   Version: 0.17
+   SeeAlso: [Esporta il foglio di calcolo](Spreadsheet_Export/it.md)
 ---
 
 # Spreadsheet Import/it
@@ -40,4 +40,4 @@ Lo strumento **[<img src=images/Spreadsheet_Import.svg style="width:16px"> [Impo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Import/it
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Import/it

@@ -241,4 +241,4 @@ Notre page est maintenant prête, et nous pouvons l\'exporter vers les formats S
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > Manual:BIM modeling/fr
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > Manual:BIM modeling/fr

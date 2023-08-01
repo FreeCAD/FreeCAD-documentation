@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Common
-   Name/pl:Część: Część wspólna
-   MenuLocation:Część - Operacje logiczne - Część wspólna
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Operacja logiczna](Part_Boolean/pl.md), [Wytnij](Part_Cut/pl.md), [Połączenie](Part_Fuse/pl.md)
+   Name: Part Common
+   Name/pl: Część: Część wspólna
+   MenuLocation: Część - Operacje logiczne - Część wspólna
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: [Operacja logiczna](Part_Boolean/pl.md), [Wytnij](Part_Cut/pl.md), [Połączenie](Part_Fuse/pl.md)
 ---
 
 # Part Common/pl
@@ -31,4 +31,4 @@ Obiekty wejściowe muszą być kształtami [OpenCascade](OpenCASCADE/pl.md). Prz
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/pl

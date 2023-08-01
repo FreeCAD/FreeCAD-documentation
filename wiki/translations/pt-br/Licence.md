@@ -8,7 +8,7 @@
 </div>
 
 
-{{TOCright}}
+
 
 ## Licenças utilizadas no FreeCAD 
 
@@ -69,4 +69,4 @@ Nevertheless this decision is made only for the core system of FreeCAD. Every wr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/pt-br
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/pt-br

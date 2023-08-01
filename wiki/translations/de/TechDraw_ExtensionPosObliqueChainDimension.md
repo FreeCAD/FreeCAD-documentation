@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionPosObliqueChainDimension
-   Name/de:TechDraw ErgänzungSchrägeKettenmaßeAnordnen
-   MenuLocation:TechDraw - Extensions: Attributes/Modifications - Position Oblique Chain Dimensions
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ErgänzungHorizontaleKettenmaßeAnordnen](TechDraw_ExtensionPosHorizChainDimension/de.md), [TechDraw ErgänzungVertikaleKettenmaßeAnordnen](TechDraw_ExtensionPosVertChainDimension/de.md)
+   Name: TechDraw ExtensionPosObliqueChainDimension
+   Name/de: TechDraw ErgänzungSchrägeKettenmaßeAnordnen
+   MenuLocation: TechDraw - Extensions: Attributes/Modifications - Position Oblique Chain Dimensions
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ErgänzungHorizontaleKettenmaßeAnordnen](TechDraw_ExtensionPosHorizChainDimension/de.md), [TechDraw ErgänzungVertikaleKettenmaßeAnordnen](TechDraw_ExtensionPosVertChainDimension/de.md)
 ---
 
 # TechDraw ExtensionPosObliqueChainDimension/de
@@ -54,4 +54,4 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionPosObliqueChainDimension.s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPosObliqueChainDimension/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPosObliqueChainDimension/de

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Drawing Symbol
-   Name/pl:Drawing: Symbol
-   Workbenches:[Kreślenie](Drawing_Workbench/pl.md)
-   MenuLocation:Kreślenie - Symbol
-   Shortcut:brak
+   Name: Drawing Symbol
+   Name/pl: Drawing: Symbol
+   Workbenches: [Kreślenie](Drawing_Workbench/pl.md)
+   MenuLocation: Kreślenie - Symbol
+   Shortcut: brak
 ---
 
 # Drawing Symbol/pl
@@ -39,4 +39,4 @@ To polecenie pozwala na dodanie zawartości obrazu SVG na wybranej stronie [stro
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Symbol/pl
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Symbol/pl

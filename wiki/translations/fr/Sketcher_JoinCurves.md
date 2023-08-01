@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher JoinCurves
-   Name/fr:Sketcher Joindre des courbes
-   MenuLocation:Esquisse - Outils d'esquisse des B-splines - Joindre des courbes
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Version:0.21
-   SeeAlso:
+   Name: Sketcher JoinCurves
+   Name/fr: Sketcher Joindre des courbes
+   MenuLocation: Esquisse - Outils d'esquisse des B-splines - Joindre des courbes
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Version: 0.21
+   SeeAlso: 
 ---
 
 # Sketcher JoinCurves/fr
@@ -36,4 +36,4 @@ Réunit deux courbes aux points d\'extrémité sélectionnés.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher JoinCurves/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher JoinCurves/fr

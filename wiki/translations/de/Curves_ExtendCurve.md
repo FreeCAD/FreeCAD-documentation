@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Curves ExtendCurve
-   Name/de:Curves KurveVerlängern
-   MenuLocation:Curves - Extend Curve
-   Workbenches:[Curves](Curves_Workbench/de.md)
+   Name: Curves ExtendCurve
+   Name/de: Curves KurveVerlängern
+   MenuLocation: Curves - Extend Curve
+   Workbenches: [Curves](Curves_Workbench/de.md)
 ---
 
 # Curves ExtendCurve/de
@@ -50,4 +50,4 @@ Das Werkzeug <img alt="" src=images/Curves_ExtendCurve.svg  style="width:24px;">
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves ExtendCurve/de
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves ExtendCurve/de

@@ -40,4 +40,4 @@ ToolBar Icon ![](images/Bevel.svg )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Bevel/pl
+⏵ [documentation index](../README.md) > Macro Bevel/pl

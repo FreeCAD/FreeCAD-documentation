@@ -1,6 +1,4 @@
 # Part scripting/pt-br
-{{TOCright}}
-
 ## Introduction
 
 The main data structure used in the Part module is the [BRep](http://en.wikipedia.org/wiki/Boundary_representation) data type from [OpenCASCADE](OpenCASCADE.md). Almost all contents and object types of the Part module are available in [Python](Python.md) scripting. This includes geometric primitives, such as Lines, Circles and Arcs, and the whole range of TopoShapes, like Vertexes, Edges, Wires, Faces, Solids and Compounds. For each of those objects, several creation methods exist, and for some of them, especially the TopoShapes, advanced operations like boolean union/difference/intersection are also available. Explore the contents of the Part module, as described in the [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) page, to know more.
@@ -246,4 +244,4 @@ It needs a circle, and a start angle and end angle in radians.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Part](Part_Workbench.md) > Part scripting/pt-br
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Part](Part_Workbench.md) > Part scripting/pt-br

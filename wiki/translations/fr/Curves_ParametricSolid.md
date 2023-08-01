@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Curves ParametricSolid
-   Name/fr:Curves Solide paramétrique
-   MenuLocation:Misc. - Parametric solid
-   Workbenches:[Curves](Curves_Workbench/fr.md)
+   Name: Curves ParametricSolid
+   Name/fr: Curves Solide paramétrique
+   MenuLocation: Misc. - Parametric solid
+   Workbenches: [Curves](Curves_Workbench/fr.md)
 ---
 
 # Curves ParametricSolid/fr
@@ -44,4 +44,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Curves](Category_Curves.md) > Curves ParametricSolid/fr
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Curves](Category_Curves.md) > Curves ParametricSolid/fr

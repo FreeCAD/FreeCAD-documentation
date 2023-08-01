@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:SheetMetal AddBase
-   Name/fr:SheetMetal Tôle de base
-   MenuLocation:SheetMetal - Make Base Wall
-   Workbenches:[SheetMetal](SheetMetal_Workbench/fr.md)
-   Shortcut:**C** **B**
+   Name: SheetMetal AddBase
+   Name/fr: SheetMetal Tôle de base
+   MenuLocation: SheetMetal - Make Base Wall
+   Workbenches: [SheetMetal](SheetMetal_Workbench/fr.md)
+   Shortcut: **C** **B**
 ---
 
 # SheetMetal AddBase/fr
@@ -93,4 +93,4 @@ Un objet SheetMetal Tôle de base est dérivé d\'un objet [Part Feature](Part_F
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddBase/fr
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddBase/fr

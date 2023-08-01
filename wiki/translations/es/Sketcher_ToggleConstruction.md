@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher AlterConstruction
-   Name/es:Alternar geometría de construcción
-   Icon:Sketcher_AlterConstruction.svg
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation:Sketch - Geometrías de croquis - Alternar geometría de construcción
+   Name: Sketcher AlterConstruction
+   Name/es: Alternar geometría de construcción
+   Icon: Sketcher_AlterConstruction.svg
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   MenuLocation: Sketch - Geometrías de croquis - Alternar geometría de construcción
 ---
 
 # Sketcher ToggleConstruction/es
@@ -80,4 +80,4 @@ Las líneas de Construcción se pueden utilizar como ejes de rotación para la o
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/es

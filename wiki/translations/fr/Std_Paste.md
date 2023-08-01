@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_Paste
-   Name/fr:Std Coller
-   MenuLocation:Édition - Coller
-   Workbenches:Tous
-   Shortcut:**Ctrl** + **V**
-   SeeAlso:[Std Couper](Std_Cut/fr.md), [Std Copier](Std_Copy/fr.md), [Std Dupliquer une sélection](Std_DuplicateSelection/fr.md)
+   Name: Std_Paste
+   Name/fr: Std Coller
+   MenuLocation: Édition - Coller
+   Workbenches: Tous
+   Shortcut: **Ctrl** + **V**
+   SeeAlso: [Std Couper](Std_Cut/fr.md), [Std Copier](Std_Copy/fr.md), [Std Dupliquer une sélection](Std_DuplicateSelection/fr.md)
 ---
 
 # Std Paste/fr
@@ -50,4 +50,4 @@ La commande **Std Coller** colle les objets du Presse-papiers dans le document a
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Paste/fr
+⏵ [documentation index](../README.md) > Std Paste/fr

@@ -30,4 +30,4 @@ Ikony te znajdują się we wskazanej ścieżce źródłowej gałęzi Realthunder
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Assembly](Category_Assembly.md) > Artwork Assembly3/pl
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Assembly](Category_Assembly.md) > Artwork Assembly3/pl

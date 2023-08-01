@@ -117,4 +117,4 @@ Puteți utiliza propriul fișier FreeCAD, dar puteți crea, de asemenea, un fiș
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Export to STL or OBJ/ro
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Export to STL or OBJ/ro

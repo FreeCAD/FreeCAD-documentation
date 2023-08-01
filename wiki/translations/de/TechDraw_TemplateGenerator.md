@@ -559,4 +559,4 @@ Und so soll es aussehen, wenn sie (die Vorlage) eingefügt wurde (mit vergröße
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateGenerator/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateGenerator/de

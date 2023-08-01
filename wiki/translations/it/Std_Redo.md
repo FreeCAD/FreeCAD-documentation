@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_Redo
-   Name/it:Ripristina
-   MenuLocation:Modifica - Ripristina
-   Workbenches:Tutti
-   Shortcut:**Ctrl**+**Y**
-   SeeAlso:[Annulla](Std_Undo/it.md)
+   Name: Std_Redo
+   Name/it: Ripristina
+   MenuLocation: Modifica - Ripristina
+   Workbenches: Tutti
+   Shortcut: **Ctrl**+**Y**
+   SeeAlso: [Annulla](Std_Undo/it.md)
 ---
 
 # Std Redo/it
@@ -57,4 +57,4 @@ FreeCAD.ActiveDocument.redo()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Redo/it
+⏵ [documentation index](../README.md) > Std Redo/it

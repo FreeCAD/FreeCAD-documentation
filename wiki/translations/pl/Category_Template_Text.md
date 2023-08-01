@@ -15,4 +15,4 @@ Dłuższe fragmenty tekstu należy umieścić na samej stronie, aby można je by
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Template:Text/pl
+⏵ [documentation index](../README.md) > Category:Template:Text/pl

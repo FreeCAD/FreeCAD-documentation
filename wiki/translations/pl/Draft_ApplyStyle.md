@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Apply
-   Name/pl:Rysunek Roboczy: Zastosuj bieżący styl
-   MenuLocation:Przybory - Zastosuj bieżący styl
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   SeeAlso:[Ustaw styl](Draft_SetStyle/pl.md)
+   Name: Draft Apply
+   Name/pl: Rysunek Roboczy: Zastosuj bieżący styl
+   MenuLocation: Przybory - Zastosuj bieżący styl
+   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   SeeAlso: [Ustaw styl](Draft_SetStyle/pl.md)
 ---
 
 # Draft ApplyStyle/pl
@@ -43,4 +43,4 @@ To polecenie obsługuje obecnie tylko pięć ustawień:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/pl

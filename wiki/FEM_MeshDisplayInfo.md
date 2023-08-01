@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:FEM MeshDisplayInfo
-   MenuLocation:Context menu on mesh object - Display FEM mesh info
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM tutorial](FEM_tutorial.md)
+   Name: FEM MeshDisplayInfo
+   MenuLocation: Context menu on mesh object - Display FEM mesh info
+   Workbenches: [FEM](FEM_Workbench.md)
+   SeeAlso: [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM MeshDisplayInfo
@@ -89,4 +89,4 @@ will output the following result:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshDisplayInfo
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshDisplayInfo

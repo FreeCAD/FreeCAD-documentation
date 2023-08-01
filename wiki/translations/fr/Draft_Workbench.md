@@ -1,7 +1,7 @@
 # <img alt="Icône de l\'atelier Draft" src=images/Workbench_Draft.svg  style="width:64px;"> Draft Workbench/fr
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -377,4 +377,4 @@ L\'inspection du code de ce module peut aider à comprendre l\'interface de prog
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Draft](Category_Draft.md) > Draft Workbench/fr
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Draft](Category_Draft.md) > Draft Workbench/fr

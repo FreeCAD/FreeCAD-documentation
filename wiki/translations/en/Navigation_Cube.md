@@ -1,6 +1,4 @@
 # Navigation Cube/en
-{{TOCright}}
-
 ## Introduction
 
 The **Navigation Cube** gives visual information about the camera orientation in the current [3D view](3D_view.md) and can be used to change it. By default it is visible and resides in the upper right corner of the view.
@@ -144,4 +142,4 @@ The table below lists the other advanced Navigation Cube parameters that can be 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Navigation Cube/en
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Navigation Cube/en

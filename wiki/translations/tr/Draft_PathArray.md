@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft PathArray
-   Name/tr:Yol dizisi
-   MenuLocation:Draft - PathArray
-   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
-   SeeAlso:[Draft Array](Draft_Array/tr.md)
+   Name: Draft PathArray
+   Name/tr: Yol dizisi
+   MenuLocation: Draft - PathArray
+   Workbenches: [Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   SeeAlso: [Draft Array](Draft_Array/tr.md)
 ---
 
 # Draft PathArray/tr
@@ -267,4 +267,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathArray/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathArray/tr

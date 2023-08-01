@@ -1,6 +1,4 @@
 # Feature editing/es
-{{TOCright}}
-
 ## Introducción
 
 Esta página explica la forma en que [Ambiente de trabajo Diseño de piezas](PartDesign_Workbench/es.md) está destinado a ser utilizado a partir de FreeCAD 0.17.
@@ -190,4 +188,4 @@ The [tutorials](Tutorials.md) page provides some examples of using the [feature 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [PartDesign](Category_PartDesign.md) > Feature editing/es
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [PartDesign](Category_PartDesign.md) > Feature editing/es

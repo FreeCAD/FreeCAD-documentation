@@ -7,7 +7,7 @@
 ## Opis
 
 
-{{TOCright}}
+
 
 Środowisko pracy Silk to [Zewnętrzne środowisko pracy](External_workbenches/pl.md), dzięki któremu w programie FreeCAD można tworzyć powierzchnie NURBS.
 
@@ -34,4 +34,4 @@ Zalecana sposób instalacji można wykonać poprzez <img alt="" src=images/Std_A
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Silk](Category_Silk.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > Silk Workbench/pl
+⏵ [documentation index](../README.md) > [Silk](Category_Silk.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > Silk Workbench/pl

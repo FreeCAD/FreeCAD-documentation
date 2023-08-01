@@ -1,6 +1,6 @@
 # Part Common/cs
 ---
-- GuiCommand:   Name:Part Common   Name/cs:Part Common   MenuLocation:Part - Common   Workbenches:[SeeAlso:[[Part Union/cs|Part Union](Part_Workbench/cs___Part]],Complete.md), [Part Cut](Part_Cut/cs.md)---
+- GuiCommand:   Name: Part Common   Name/cs: Part Common   MenuLocation: Part - Common   Workbenches: [SeeAlso: [[Part Union/cs|Part Union](Part_Workbench/cs___Part]],Complete.md), [Part Cut](Part_Cut/cs.md)---
 
 
 </div>
@@ -21,4 +21,4 @@ Input objects must be [OpenCASCADE](OpenCASCADE.md) shapes. Examples: stuff made
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/cs
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/cs

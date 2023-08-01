@@ -6,7 +6,7 @@
 ## Présentation
 
 
-{{TOCright}}
+
 
 L\'atelier MOOC est un [atelier externe](External_workbenches/fr.md) avec lequel vous pouvez suivre des didacticiels interactifs et faire l\'évaluation de votre travail directement dans l\'interface FreeCAD. L\'atelier MOOC propose 2 outils: des tutoriels interactifs et des évaluations.
 
@@ -75,4 +75,4 @@ De nouveaux ateliers sont en développement, tenez vous au courant!
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > MOOC Workbench/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > MOOC Workbench/fr

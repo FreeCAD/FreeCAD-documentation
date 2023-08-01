@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher BSplineIncreaseDegree
-   MenuLocation:Sketch - Sketcher B-spline tools - Increase B-spline degree
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Version:0.17
-   SeeAlso:[Sketcher Show/hide B-spline degree](Sketcher_BSplineDegree.md), [Sketcher Decrease B-spline degree](Sketcher_BSplineDecreaseDegree.md)
+   Name: Sketcher BSplineIncreaseDegree
+   MenuLocation: Sketch - Sketcher B-spline tools - Increase B-spline degree
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Version: 0.17
+   SeeAlso: [Sketcher Show/hide B-spline degree](Sketcher_BSplineDegree.md), [Sketcher Decrease B-spline degree](Sketcher_BSplineDecreaseDegree.md)
 ---
 
 # Sketcher BSplineIncreaseDegree
@@ -47,4 +47,4 @@ You can see that now each segment has 2 control points and the knots are coincid
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineIncreaseDegree
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineIncreaseDegree

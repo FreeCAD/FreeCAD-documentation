@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Path Drilling
-   Name/ru:Path Drilling
-   MenuLocation:Path - Сверление
-   Workbenches:[Path](Path_Workbench/ru.md)
-   Shortcut:**P** **D**
-   SeeAlso:
+   Name: Path Drilling
+   Name/ru: Path Drilling
+   MenuLocation: Path - Сверление
+   Workbenches: [Path](Path_Workbench/ru.md)
+   Shortcut: **P** **D**
+   SeeAlso: 
 ---
 
 # Path Drilling/ru
@@ -247,4 +247,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Drilling/ru
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Drilling/ru

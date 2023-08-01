@@ -5,7 +5,7 @@
 ## Wprowadzenie
 
 
-{{TOCright}}
+
 
 Środowisko pracy <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> [Punkty](Points_Workbench/pl.md) oferuje specjalne narzędzia do pracy z [chmurami punktów](http://en.wikipedia.org/wiki/Point_cloud). Środowisko to jest wciąż w fazie rozwoju.
 
@@ -50,4 +50,4 @@ Wszystkie narzędzia Środowiska pracy **Punkty** są dostępne w menu **Punkty*
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/pl
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/pl

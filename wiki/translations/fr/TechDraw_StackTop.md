@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw StackTop
-   Name/fr:TechDraw Empiler en haut
-   MenuLocation:TechDraw - Empiler - Déplacer la vue vers le haut de la pile
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.21
-   SeeAlso:[TechDraw Empiler en bas](TechDraw_StackBottom/fr.md), [TechDraw Empiler vers le haut](TechDraw_StackUp/fr.md), [TechDraw Empiler vers le bas](TechDraw_StackDown/fr.md).
+   Name: TechDraw StackTop
+   Name/fr: TechDraw Empiler en haut
+   MenuLocation: TechDraw - Empiler - Déplacer la vue vers le haut de la pile
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.21
+   SeeAlso: [TechDraw Empiler en bas](TechDraw_StackBottom/fr.md), [TechDraw Empiler vers le haut](TechDraw_StackUp/fr.md), [TechDraw Empiler vers le bas](TechDraw_StackDown/fr.md).
 ---
 
 # TechDraw StackTop/fr
@@ -44,4 +44,4 @@ L\'ordre d\'empilement peut être modifié dans les scripts en changeant la prop
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw StackTop/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw StackTop/fr

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Fasteners BOM
-   MenuLocation:Fasteners - Generate BOM
-   Workbenches:[Fasteners](Fasteners_Workbench.md)
-   SeeAlso:[Spreadsheet Workbench](Spreadsheet_Workbench.md)
+   Name: Fasteners BOM
+   MenuLocation: Fasteners - Generate BOM
+   Workbenches: [Fasteners](Fasteners_Workbench.md)
+   SeeAlso: [Spreadsheet Workbench](Spreadsheet_Workbench.md)
 ---
 
 # Fasteners BOM/en
@@ -38,4 +38,4 @@ The <img alt="" src=images/Fasteners_BOM.svg  style="width:24px;"> **Fasteners B
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners BOM/en
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners BOM/en

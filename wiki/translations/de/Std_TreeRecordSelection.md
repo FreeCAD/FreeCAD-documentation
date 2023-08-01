@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreeRecordSelection
-   Name/de:Std BaumAuswahlAufzeichnen
-   MenuLocation:Ansicht - Baumansicht-Aktionen - Auswahl aufzeichnen
-   Workbenches:Alle
-   Shortcut:**T** **5**
-   Version:0.19
+   Name: Std TreeRecordSelection
+   Name/de: Std BaumAuswahlAufzeichnen
+   MenuLocation: Ansicht - Baumansicht-Aktionen - Auswahl aufzeichnen
+   Workbenches: Alle
+   Shortcut: **T** **5**
+   Version: 0.19
 ---
 
 # Std TreeRecordSelection/de
@@ -42,4 +42,4 @@ Der Befehl **Std BaumAuswahlAufzeichnen** schaltet den Auswahl-Aufzeichnen-Modus
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeRecordSelection/de
+⏵ [documentation index](../README.md) > Std TreeRecordSelection/de

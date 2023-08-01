@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Укоротить/Растянуть
-   Name:Draft_Trimex
-   MenuLocation:Modification - Укоротить/Растянуть
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:**T** **R**
-   SeeAlso:[Выдавить](Part_Extrude/ru.md)
+   Name/ru: Укоротить/Растянуть
+   Name: Draft_Trimex
+   MenuLocation: Modification - Укоротить/Растянуть
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: **T** **R**
+   SeeAlso: [Выдавить](Part_Extrude/ru.md)
 ---
 
 # Draft Trimex/ru
@@ -130,4 +130,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Trimex/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Trimex/ru

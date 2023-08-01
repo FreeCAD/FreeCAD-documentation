@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Drawing ProjectShape
-   Name/fr:Drawing Projection de forme
-   Empty:1
-   Workbenches:[Drawing](Drawing_Workbench/fr.md)
-   MenuLocation:Drawing - Projeter la forme...
+   Name: Drawing ProjectShape
+   Name/fr: Drawing Projection de forme
+   Empty: 1
+   Workbenches: [Drawing](Drawing_Workbench/fr.md)
+   MenuLocation: Drawing - Projeter la forme...
 ---
 
 # Drawing ProjectShape/fr
@@ -114,4 +114,4 @@ Cet outil crée une projection de l\'objet sélectionné (Source) dans la vue 3D
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing ProjectShape/fr
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing ProjectShape/fr

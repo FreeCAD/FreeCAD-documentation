@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Экспорт электронной таблицы
-   Name:Spreadsheet_Export
-   MenuLocation:Электронная таблица - Экспорт электронной таблицы
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Импорт электронной таблицы](Spreadsheet_Import/ru.md)
+   Name/ru: Экспорт электронной таблицы
+   Name: Spreadsheet_Export
+   MenuLocation: Электронная таблица - Экспорт электронной таблицы
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Импорт электронной таблицы](Spreadsheet_Import/ru.md)
 ---
 
 # Spreadsheet Export/ru
@@ -30,4 +30,4 @@ The **[<img src=images/Spreadsheet_Export.svg style="width:16px"> [Spreadsheet E
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Export/ru
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Export/ru

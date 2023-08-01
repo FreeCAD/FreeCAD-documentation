@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Attachment
-   Name/de:Part Befestigen
-   MenuLocation:Part - Befestigung...
-   Workbenches:[Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[Positionierung](Placement/de.md),
+   Name: Part Attachment
+   Name/de: Part Befestigen
+   MenuLocation: Part - Befestigung...
+   Workbenches: [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [Positionierung](Placement/de.md),
 [Basic Attachment Tutorial](Basic_Attachment_Tutorial.md) [Part Part2DObject](Part_Part2DObject/de.md)
 ---
 
@@ -366,4 +366,4 @@ Attachment Versatz wird verwendet, um einen linearen oder rotatorischen Versatz 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part EditAttachment/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part EditAttachment/de

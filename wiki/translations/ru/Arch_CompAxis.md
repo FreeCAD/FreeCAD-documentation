@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Arch_CompAxis
-   Name:Arch_CompAxis
-   MenuLocation:Arch - Инстументы осей
-   Workbenches:[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Arch Axis](Arch_Axis/ru.md), [Arch Axes system](Arch_AxisSystem/ru.md), [Arch Grid](Arch_Grid/ru.md)
+   Name/ru: Arch_CompAxis
+   Name: Arch_CompAxis
+   MenuLocation: Arch - Инстументы осей
+   Workbenches: [Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Arch Axis](Arch_Axis/ru.md), [Arch Axes system](Arch_AxisSystem/ru.md), [Arch Grid](Arch_Grid/ru.md)
 ---
 
 # Arch CompAxis/ru
@@ -25,4 +25,4 @@ Create axis.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompAxis/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompAxis/ru

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Section
-   MenuLocation:Part - Section
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part CrossSections](Part_CrossSections.md)
+   Name: Part Section
+   MenuLocation: Part - Section
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Part CrossSections](Part_CrossSections.md)
 ---
 
 # Part Section
@@ -60,4 +60,4 @@ To create sections with a section plane see <img alt="" src=images/Part_CrossSec
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section

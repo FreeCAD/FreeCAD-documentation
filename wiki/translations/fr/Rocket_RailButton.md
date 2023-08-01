@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Rocket RailButton
-   Name/fr:Rocket Bouton rail
-   MenuLocation:Rocket - Launch Guides - Rail Button
-   Workbenches:[Rocket](Rocket_Workbench/fr.md)
-   Version:0.19
+   Name: Rocket RailButton
+   Name/fr: Rocket Bouton rail
+   MenuLocation: Rocket - Launch Guides - Rail Button
+   Workbenches: [Rocket](Rocket_Workbench/fr.md)
+   Version: 0.19
 ---
 
 # Rocket RailButton/fr
@@ -88,4 +88,4 @@ Ces paramètres sont fournis à titre indicatif et n\'ont aucun effet sur la con
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket RailButton/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket RailButton/fr

@@ -1,6 +1,6 @@
 # Draft Dimension/sv
 ---
-- GuiCommand:   Name:Draft Dimension   Workbenches:[MenuLocation:Draft - Dimension   Shortcut:D I   SeeAlso:[[Draft FlipDimension/sv|FlipDimension](Draft_Workbench/sv___Skiss]].md)---
+- GuiCommand:   Name: Draft Dimension   Workbenches: [MenuLocation: Draft - Dimension   Shortcut: D I   SeeAlso: [[Draft FlipDimension/sv|FlipDimension](Draft_Workbench/sv___Skiss]].md)---
 
 
 </div>
@@ -302,4 +302,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/sv

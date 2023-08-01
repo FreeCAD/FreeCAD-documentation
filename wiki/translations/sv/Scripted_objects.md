@@ -1,6 +1,4 @@
 # Scripted objects/sv
-{{TOCright}}
-
 ## Introduction
 
 
@@ -1132,4 +1130,4 @@ In addition to the examples presented here have a look at FreeCAD source code [s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects/sv
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects/sv

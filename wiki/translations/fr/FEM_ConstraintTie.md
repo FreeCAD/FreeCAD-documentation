@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintTie
-   Name/fr:FEM Contrainte de liaison
-   MenuLocation:Modèle - Contraintes mécaniques - Contrainte de liaison
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[FEM Contrainte de pression](FEM_ConstraintPressure.md)
+   Name: FEM ConstraintTie
+   Name/fr: FEM Contrainte de liaison
+   MenuLocation: Modèle - Contraintes mécaniques - Contrainte de liaison
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Version: 0.19
+   SeeAlso: [FEM Contrainte de pression](FEM_ConstraintPressure.md)
 ---
 
 # FEM ConstraintTie/fr
@@ -33,4 +33,4 @@ Définit une contrainte de liaison qui relie les deux surfaces sélectionnées d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FEM ConstraintTie/fr
+⏵ [documentation index](../README.md) > FEM ConstraintTie/fr

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Component
-‏‎‏‎   Name/es:Arch Componente
-‏‎‏‎   MenuLocation:Arch - Utilities - Component
-   Workbenches:[Arch](Arch_Workbench/es.md)
-   Shortcut:**C** **M**
-   SeeAlso:
+   Name: Arch Component
+‏‎‏‎   Name/es: Arch Componente
+‏‎‏‎   MenuLocation: Arch - Utilities - Component
+   Workbenches: [Arch](Arch_Workbench/es.md)
+   Shortcut: **C** **M**
+   SeeAlso: 
 ---
 
 # Arch Component/es
@@ -143,4 +143,4 @@ El objeto del Arch componente es también una base compartida por todos los dem�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/es
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/es

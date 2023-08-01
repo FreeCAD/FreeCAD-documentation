@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Heal
-   MenuLocation:Utilities - Heal
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso:[Draft Upgrade](Draft_Upgrade.md), [Draft Downgrade](Draft_Downgrade.md)
+   Name: Draft Heal
+   MenuLocation: Utilities - Heal
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   SeeAlso: [Draft Upgrade](Draft_Upgrade.md), [Draft Downgrade](Draft_Downgrade.md)
 ---
 
 # Draft Heal/pt-br
@@ -30,4 +30,4 @@ The <img alt="" src=images/Draft_Heal.svg  style="width:24px;"> **Draft Heal** c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/pt-br
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/pt-br

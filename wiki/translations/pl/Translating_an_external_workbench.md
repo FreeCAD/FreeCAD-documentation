@@ -366,4 +366,4 @@ Plik `outfile.ts` będzie zawierał zestaw ciągów znaków, które są przesył
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Translating an external workbench/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Translating an external workbench/pl

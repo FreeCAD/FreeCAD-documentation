@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft SetStyle
-   Name/de:Draft StilFestlegen
-   MenuLocation:Utilities - Stil festlegen
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[Draft AnmerkungsStilEditor](Draft_AnnotationStyleEditor/de.md), [Draft AktuellenStilAnwenden](Draft_ApplyStyle/de.md)
+   Name: Draft SetStyle
+   Name/de: Draft StilFestlegen
+   MenuLocation: Utilities - Stil festlegen
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [Draft AnmerkungsStilEditor](Draft_AnnotationStyleEditor/de.md), [Draft AktuellenStilAnwenden](Draft_ApplyStyle/de.md)
 ---
 
 # Draft SetStyle/de
@@ -189,4 +189,4 @@ Die folgenden Einstellungen sind betroffen:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SetStyle/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SetStyle/de

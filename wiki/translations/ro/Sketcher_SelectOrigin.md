@@ -1,6 +1,6 @@
 # Sketcher SelectOrigin/ro
 ---
-- GuiCommand:   Name:Sketcher SelectOrigin   Workbenches:[[Sketcher Workbench   Sketcher]]|MenuLocation:Sketch - Sketcher tools - Select Origin   Shortcut:Shift+Ctrl+O   Version:0.15---
+- GuiCommand:   Name: Sketcher SelectOrigin   Workbenches: [[Sketcher Workbench   Sketcher]]|MenuLocation: Sketch - Sketcher tools - Select Origin   Shortcut: Shift+Ctrl+O   Version: 0.15---
 
 
 </div>
@@ -42,4 +42,4 @@ Selectează originea schiței.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectOrigin/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectOrigin/ro

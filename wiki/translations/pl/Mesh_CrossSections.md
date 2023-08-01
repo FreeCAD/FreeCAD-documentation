@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Mesh CrossSections
-   Name/pl:Siatka: Wiele przekrojów
-   MenuLocation:Siatki - Cięcie - Przekrój poprzeczny ...
-   Workbenches:[Siatka](Mesh_Workbench/pl.md)
-   Version:0.19
-   SeeAlso:[Przekrój płaszczyzną](Mesh_SectionByPlane/pl.md)
+   Name: Mesh CrossSections
+   Name/pl: Siatka: Wiele przekrojów
+   MenuLocation: Siatki - Cięcie - Przekrój poprzeczny ...
+   Workbenches: [Siatka](Mesh_Workbench/pl.md)
+   Version: 0.19
+   SeeAlso: [Przekrój płaszczyzną](Mesh_SectionByPlane/pl.md)
 ---
 
 # Mesh CrossSections/pl
@@ -77,4 +77,4 @@ Zapoznaj się z informacjami na stronie: [cecha](Part_Feature/pl.md) środowiska
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CrossSections/pl
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CrossSections/pl

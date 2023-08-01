@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std SetAppearance
-   Name/de:Std Darstellung
-   MenuLocation:Ansicht - Darstellung…
-   Workbenches:Alle
-   Shortcut:Ctrl + D
-   SeeAlso:[Part FlächenFarben](Part_FaceColors/de.md)
+   Name: Std SetAppearance
+   Name/de: Std Darstellung
+   MenuLocation: Ansicht - Darstellung…
+   Workbenches: Alle
+   Shortcut: Ctrl + D
+   SeeAlso: [Part FlächenFarben](Part_FaceColors/de.md)
 ---
 
 # Std SetAppearance/de
@@ -65,4 +65,4 @@ Das Werkzeug **Darstellung** zeigt im [Aufgabenbereich](Task_panel.md) die Anzei
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SetAppearance/de
+⏵ [documentation index](../README.md) > Std SetAppearance/de

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_MacroStopRecord
-   Name/ru:Запись макроса...
-   MenuLocation:Макросы - Запись макроса...
-   Workbenches:Все
-   SeeAlso:[Остановить запись макроса](Std_MacroStopRecord/ru.md)
+   Name: Std_MacroStopRecord
+   Name/ru: Запись макроса...
+   MenuLocation: Макросы - Запись макроса...
+   Workbenches: Все
+   SeeAlso: [Остановить запись макроса](Std_MacroStopRecord/ru.md)
 ---
 
 # Std DlgMacroRecord/ru
@@ -74,4 +74,4 @@ The **Std DlgMacroRecord** command starts a [macro](Macros.md) recording session
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgMacroRecord/ru
+⏵ [documentation index](../README.md) > Std DlgMacroRecord/ru

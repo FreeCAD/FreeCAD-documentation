@@ -1,8 +1,4 @@
 # FEM Install/ru
-{{TOCright}}
-
-
-
 ## Введение
 
 
@@ -246,4 +242,4 @@ If you have problems installing Netgen, Gmsh, or CalculiX, or another external t
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Install/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Install/ru

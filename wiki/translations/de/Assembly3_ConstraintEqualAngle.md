@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintEqualAngle
-   Name/de:Assembly3 GleicheWinkel
-   Icon:Assembly_ConstraintEqualAngle.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintEqualAngle
+   Name/de: Assembly3 GleicheWinkel
+   Icon: Assembly_ConstraintEqualAngle.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintEqualAngle/de
@@ -27,4 +27,4 @@ Die Richtung der Linien und auch die Flächennormalen werden durch die Z-Achse d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintEqualAngle/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintEqualAngle/de

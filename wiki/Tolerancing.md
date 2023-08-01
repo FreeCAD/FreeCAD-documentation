@@ -1,6 +1,4 @@
 # Tolerancing
-{{TOCright}}
-
 ![GD&T 3D annotations](images/Tolerancing_Annotated_Design_Model.png ) [Geometric dimensioning and tolerancing](https://en.wikipedia.org/wiki/Geometric_dimensioning_and_tolerancing) (GD&T) means the specification of permissible limits/deviation of dimensions. Here we\'re talking strictly about geometric tolerances: a real-world error of shape, size, location, orientation in relation to the designed ideal.
 
 There\'s also a distinction between the terms \"limits and fits\" and \"geometric tolerances and surface conditions\". 
@@ -70,4 +68,4 @@ There are two approaches to specifying Product and Manufacturing Information (PM
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [TechDraw](Category_TechDraw.md) > Tolerancing
+⏵ [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [TechDraw](Category_TechDraw.md) > Tolerancing

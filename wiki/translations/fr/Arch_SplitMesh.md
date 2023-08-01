@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch SplitMesh
-   Name/fr:Arch Diviser un maillage
-   MenuLocation:Arch - Utilitaires - Diviser un maillage
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Arch Sélection de maillages non-manifold](Arch_SelectNonSolidMeshes/fr.md), [Arch Maillage vers une forme](Arch_MeshToShape/fr.md)
+   Name: Arch SplitMesh
+   Name/fr: Arch Diviser un maillage
+   MenuLocation: Arch - Utilitaires - Diviser un maillage
+   Workbenches: [Arch](Arch_Workbench/fr.md)
+   SeeAlso: [Arch Sélection de maillages non-manifold](Arch_SelectNonSolidMeshes/fr.md), [Arch Maillage vers une forme](Arch_MeshToShape/fr.md)
 ---
 
 # Arch SplitMesh/fr
@@ -65,4 +65,4 @@ new_list = Arch.splitMesh(mesh_obj)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/fr

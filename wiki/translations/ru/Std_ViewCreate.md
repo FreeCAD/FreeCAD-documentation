@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ViewCreate
-   Name/ru:Создать новый вид
-   MenuLocation:Вид - Создать новый вид
-   Workbenches:Все
-   SeeAlso:[Std ViewDockUndockFullscreen](Std_ViewDockUndockFullscreen/ru.md), [Std ViewFullscreen](Std_ViewFullscreen/ru.md)
+   Name: Std ViewCreate
+   Name/ru: Создать новый вид
+   MenuLocation: Вид - Создать новый вид
+   Workbenches: Все
+   SeeAlso: [Std ViewDockUndockFullscreen](Std_ViewDockUndockFullscreen/ru.md), [Std ViewFullscreen](Std_ViewFullscreen/ru.md)
 ---
 
 # Std ViewCreate/ru
@@ -35,4 +35,4 @@ The **Std ViewCreate** command creates a new [3D view](3D_view.md) for the activ
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewCreate/ru
+⏵ [documentation index](../README.md) > Std ViewCreate/ru

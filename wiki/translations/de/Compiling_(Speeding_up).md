@@ -1,8 +1,4 @@
 # Compiling (Speeding up)/de
-{{TOCright}}
-
-
-
 ## Übersicht
 
 FreeCAD ist eine große Anwendung, deren vollständige Kompilierung aus dem Quellcode zwischen 10 Minuten und einer Stunde dauern kann. Dies hängt in erster Linie von der CPU ab, die du hast, und von der Anzahl der Kerne, die im Kompilierungsprozess verwendet werden. Hier sind einige Tipps, um diesen Prozess zu verkürzen und die Erstellungszeiten zu verkürzen.
@@ -96,4 +92,4 @@ FreeCAD dev \'etrombly\' has published a short explanation on [how to install di
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compiling (Speeding up)/de
+⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compiling (Speeding up)/de

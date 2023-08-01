@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:PartDesign MoveFeatureInTree
-   Name/ru:PartDesign MoveFeatureInTree
-   Empty:1
-   MenuLocation:Контекстное меню - Поместить объект позади другого объекта
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Set tip](PartDesign_MoveTip/ru.md), [Перемещение объекта в другое тело](PartDesign_MoveFeature/ru.md)
+   Name: PartDesign MoveFeatureInTree
+   Name/ru: PartDesign MoveFeatureInTree
+   Empty: 1
+   MenuLocation: Контекстное меню - Поместить объект позади другого объекта
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Set tip](PartDesign_MoveTip/ru.md), [Перемещение объекта в другое тело](PartDesign_MoveFeature/ru.md)
 ---
 
 # PartDesign MoveFeatureInTree/ru
@@ -42,4 +42,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeatureInTree/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeatureInTree/ru

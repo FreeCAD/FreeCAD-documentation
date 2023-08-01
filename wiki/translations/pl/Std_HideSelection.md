@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std HideSelection
-   Name/pl:Std: Ukryj zaznaczone
-   MenuLocation:Widok - Widoczność - Ukryj zaznaczone
-   Workbenches:wszystkie
-   SeeAlso:[Przełącz widoczność](Std_ToggleVisibility/pl.md), [Pokaż zaznaczone](Std_ShowSelection/pl.md), [Przełącz widoczność wszystkich](Std_ToggleObjects/pl.md), [Wyświetl wszystkie obiekty](Std_ShowObjects/pl.md), [Ukryj wszystkie obiekty](Std_HideObjects/pl.md)
+   Name: Std HideSelection
+   Name/pl: Std: Ukryj zaznaczone
+   MenuLocation: Widok - Widoczność - Ukryj zaznaczone
+   Workbenches: wszystkie
+   SeeAlso: [Przełącz widoczność](Std_ToggleVisibility/pl.md), [Pokaż zaznaczone](Std_ShowSelection/pl.md), [Przełącz widoczność wszystkich](Std_ToggleObjects/pl.md), [Wyświetl wszystkie obiekty](Std_ShowObjects/pl.md), [Ukryj wszystkie obiekty](Std_HideObjects/pl.md)
 ---
 
 # Std HideSelection/pl
@@ -48,4 +48,4 @@ Aby zapoznać się z przykładami skryptów zobacz stronę [Przełącz widoczno�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std HideSelection/pl
+⏵ [documentation index](../README.md) > Std HideSelection/pl

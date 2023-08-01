@@ -2,7 +2,7 @@
 **Le développement de l'[atelier Drawing](Drawing_Workbench/fr.md) s'est arrêté, et un nouvel atelier [Techdraw](TechDraw_Workbench/fr.md) visant à le remplacer sera introduit dans la version 0.17. Les deux ateliers seront fournis dans la version v0.17, mais l'atelier Mise en plan peut être supprimé dans les versions ultérieures.**
 
 
-{{TOCright}}
+
 
 Dans les documents [SVG](https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics) exportés par l\'[atelier Drawing](Drawing_Workbench/fr.md) de FreeCAD et utilisés comme des pages [modèles](Drawing_templates.md), plusieurs [attributs](http://www.w3schools.com/xml/xml_attributes.asp) personnalisés peuvent être utilisés, à l\'origine pour l\'usage interne de FreeCAD, mais pourraient également être utilisés par d\'autres applications compatibles avec FreeCAD dans le futur. Ces attributs utilisent tous le préfixe **freecad:** [namespace](http://www.w3schools.com/xml/xml_namespaces.asp). L\'URL de l\'espace de nom défini dans ces documents SVG fait référence à cette page.
 
@@ -240,4 +240,4 @@ Voir [Drawing Modèles](Drawing_templates/fr.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > [Developer](Category_Developer.md) > [Python_Code](Category_Python_Code.md) > [Macros](Category_Macros.md) > [Drawing](Category_Drawing.md) > Svg Namespace/fr
+⏵ [documentation index](../README.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > [Developer](Category_Developer.md) > [Python_Code](Category_Python_Code.md) > [Macros](Category_Macros.md) > [Drawing](Category_Drawing.md) > Svg Namespace/fr

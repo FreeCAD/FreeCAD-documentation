@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Cone
-   Name/pl:Część: Stożek
-   MenuLocation:Część - Bryła pierwotna - Stożek
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Utwórz geometrie pierwotne](Part_CreatePrimitives/pl.md)
+   Name: Part Cone
+   Name/pl: Część: Stożek
+   MenuLocation: Część - Bryła pierwotna - Stożek
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: [Utwórz geometrie pierwotne](Part_CreatePrimitives/pl.md)
 ---
 
 # Part Cone/pl
@@ -123,4 +123,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/pl

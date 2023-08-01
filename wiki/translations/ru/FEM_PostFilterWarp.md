@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM PostFilterWarp
-   Name/ru:FEM PostCreateWarpVectorFilter
-   MenuLocation: Results - Wrap vector filter
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM PostFilterWarp
+   Name/ru: FEM PostCreateWarpVectorFilter
+   MenuLocation:  Results - Wrap vector filter
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM PostFilterWarp/ru
@@ -50,4 +50,4 @@ The result will be the same like with the *Displacement* slider of the [result s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterWarp/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterWarp/ru

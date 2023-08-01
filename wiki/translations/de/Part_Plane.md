@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Plane
-   Name/de:Part Ebene
-   MenuLocation:Formteil - [Grundkörper erstellen...](Part_Primitives/de.md) - Ebene
-   Workbenches:[Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
-   SeeAlso:[Part Grundelemente](Part_Primitives/de.md)
+   Name: Part Plane
+   Name/de: Part Ebene
+   MenuLocation: Formteil - [Grundkörper erstellen...](Part_Primitives/de.md) - Ebene
+   Workbenches: [Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
+   SeeAlso: [Part Grundelemente](Part_Primitives/de.md)
 ---
 
 # Part Plane/de
@@ -86,4 +86,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane/de

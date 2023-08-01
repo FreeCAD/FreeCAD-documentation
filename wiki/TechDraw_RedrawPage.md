@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:TechDraw RedrawPage
-   MenuLocation:TechDraw - Page - Redraw Page
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.19
+   Name: TechDraw RedrawPage
+   MenuLocation: TechDraw - Page - Redraw Page
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Version: 0.19
 ---
 
 # TechDraw RedrawPage
@@ -30,4 +30,4 @@ The **TechDraw RedrawPage** tool forces a page update despite any contrary setti
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RedrawPage
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RedrawPage

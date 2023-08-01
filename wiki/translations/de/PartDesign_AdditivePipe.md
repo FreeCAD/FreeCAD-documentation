@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditivePipe
-   Name/de:PartDesign RohrHinzufügen
-   MenuLocation:Part Design - Objekt hinzufügen - Rohr
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[PartDesign AustragungHinzufügen](PartDesign_AdditiveLoft/de.md), [PartDesign RohrAbziehen](PartDesign_SubtractivePipe/de.md)
+   Name: PartDesign AdditivePipe
+   Name/de: PartDesign RohrHinzufügen
+   MenuLocation: Part Design - Objekt hinzufügen - Rohr
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [PartDesign AustragungHinzufügen](PartDesign_AdditiveLoft/de.md), [PartDesign RohrAbziehen](PartDesign_SubtractivePipe/de.md)
 ---
 
 # PartDesign AdditivePipe/de
@@ -120,4 +120,4 @@ Um mehr als einen Querschnitt zu verwenden, beginnt man mit der ersten Querschni
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePipe/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePipe/de

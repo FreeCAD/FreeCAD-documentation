@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Wireframe mode
+⏵ [documentation index](../README.md) > Wireframe mode

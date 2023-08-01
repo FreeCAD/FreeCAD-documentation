@@ -1,6 +1,6 @@
 # Path DressupTag/ro
 ---
-- GuiCommand:   Name:Path DressupTag   Workbenches:[MenuLocation:Path - Path Dressup - Tag Dress-up   SeeAlso:[[Path_DressupRampEntry|Path_DressupRampEntry](Path_Workbench___Path]].md), [Path_DressupDogbone](Path_DressupDogbone.md) , [Path_DressupDragKnife](Path_DressupDragKnife.md) ---
+- GuiCommand:   Name: Path DressupTag   Workbenches: [MenuLocation: Path - Path Dressup - Tag Dress-up   SeeAlso: [[Path_DressupRampEntry|Path_DressupRampEntry](Path_Workbench___Path]].md), [Path_DressupDogbone](Path_DressupDogbone.md) , [Path_DressupDragKnife](Path_DressupDragKnife.md) ---
 
 
 </div>
@@ -61,4 +61,4 @@ Tags are automatically generated evenly spaced along the contour, beginning with
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupTag/ro
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupTag/ro

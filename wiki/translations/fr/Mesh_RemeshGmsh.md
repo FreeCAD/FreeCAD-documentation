@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Mesh RemeshGmsh
-   Name/fr:Mesh Affiner
-   MenuLocation:Maillages - Affiner...
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[Mesh Créer un maillage](Mesh_FromPartShape/fr.md)
+   Name: Mesh RemeshGmsh
+   Name/fr: Mesh Affiner
+   MenuLocation: Maillages - Affiner...
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
+   Version: 0.19
+   SeeAlso: [Mesh Créer un maillage](Mesh_FromPartShape/fr.md)
 ---
 
 # Mesh RemeshGmsh/fr
@@ -52,4 +52,4 @@ Voir : [Mesh Feature](Mesh_Feature/fr.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemeshGmsh/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemeshGmsh/fr

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExportPageDXF
-   Name/pl:Rysunek Techniczny: Wyeksportuj stronę do formatu DXF
-   MenuLocation:Rysunek Techniczny - Strona - Wyeksportuj stronę do formatu DXF
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Version:0.18
-   SeeAlso:[Wyeksportuj stronę do formatu SVG](TechDraw_ExportPageSVG/pl.md), [DXF](Draft_DXF/pl.md)
+   Name: TechDraw ExportPageDXF
+   Name/pl: Rysunek Techniczny: Wyeksportuj stronę do formatu DXF
+   MenuLocation: Rysunek Techniczny - Strona - Wyeksportuj stronę do formatu DXF
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Version: 0.18
+   SeeAlso: [Wyeksportuj stronę do formatu SVG](TechDraw_ExportPageSVG/pl.md), [DXF](Draft_DXF/pl.md)
 ---
 
 # TechDraw ExportPageDXF/pl
@@ -89,4 +89,4 @@ TechDraw.writeDXFPage(page,filename)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExportPageDXF/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExportPageDXF/pl

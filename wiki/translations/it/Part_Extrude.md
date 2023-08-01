@@ -1,6 +1,6 @@
 # Part Extrude/it
 ---
-- GuiCommand:   Name:Part_Extrude   Name/it:Estrusione   MenuLocation:Parte - Estrudi...   Workbenches:[SeeAlso:[[Draft Trimex/it|Tronca o estendi](Part_Workbench/it___Parte]].md)---
+- GuiCommand:   Name: Part_Extrude   Name/it: Estrusione   MenuLocation: Parte - Estrudi...   Workbenches: [SeeAlso: [[Draft Trimex/it|Tronca o estendi](Part_Workbench/it___Parte]].md)---
 
 
 </div>
@@ -217,4 +217,4 @@ Il Pad di PartDesign è anche una funzione di estrusione, ma ci sono delle diffe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/it

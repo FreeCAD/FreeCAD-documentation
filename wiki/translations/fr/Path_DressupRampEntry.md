@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path DressupRampEntry
-   Name/fr:Path Rampe d'entrée
-   MenuLocation:Path - Finition du parcours - Rampe d'entrée
-   Workbenches:[Path](Path_Workbench/fr.md)
-   SeeAlso:[Path Attaches](Path_DressupTag/fr.md), [Path Dégagement d'angles](Path_DressupDogbone/fr.md), [Path Lame rotative](Path_DressupDragKnife/fr.md)
+   Name: Path DressupRampEntry
+   Name/fr: Path Rampe d'entrée
+   MenuLocation: Path - Finition du parcours - Rampe d'entrée
+   Workbenches: [Path](Path_Workbench/fr.md)
+   SeeAlso: [Path Attaches](Path_DressupTag/fr.md), [Path Dégagement d'angles](Path_DressupDogbone/fr.md), [Path Lame rotative](Path_DressupDragKnife/fr.md)
 ---
 
 # Path DressupRampEntry/fr
@@ -51,4 +51,4 @@ L\'outil <img alt="" src=images/Path_DressupRampEntry.svg  style="width:24px;"> 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupRampEntry/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupRampEntry/fr

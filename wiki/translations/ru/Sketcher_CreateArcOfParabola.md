@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name/ru:Парабола
-   Name:Sketcher_CreateArcOfParabola
-   MenuLocation:Sketch - Геометрия эскиза - Парабола
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**G** **J**
-   Version:0.17
-   SeeAlso:[Создать дугу эллипса](Sketcher_CreateArcOfEllipse/ru.md), [Создать дугу гиперболы](Sketcher_CreateArcOfHyperbola/ru.md)
+   Name/ru: Парабола
+   Name: Sketcher_CreateArcOfParabola
+   MenuLocation: Sketch - Геометрия эскиза - Парабола
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **G** **J**
+   Version: 0.17
+   SeeAlso: [Создать дугу эллипса](Sketcher_CreateArcOfEllipse/ru.md), [Создать дугу гиперболы](Sketcher_CreateArcOfHyperbola/ru.md)
 ---
 
 # Sketcher CreateArcOfParabola/ru
@@ -40,4 +40,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfParabola/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfParabola/ru

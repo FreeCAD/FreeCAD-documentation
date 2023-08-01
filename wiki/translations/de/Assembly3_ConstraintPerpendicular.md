@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPerpendicular
-   Name/de:Assembly3 RechtwinkligFestlegen
-   Icon:Assembly_ConstraintPerpendicular.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintPerpendicular
+   Name/de: Assembly3 RechtwinkligFestlegen
+   Icon: Assembly_ConstraintPerpendicular.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintPerpendicular/de
@@ -27,4 +27,4 @@ Diese Beziehung akzeptiert gerade Kanten und ebene Flächen.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPerpendicular/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPerpendicular/de

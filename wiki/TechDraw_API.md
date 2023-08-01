@@ -373,4 +373,4 @@ dvp.requestPaint() Redraw the graphic for this View.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw API
+⏵ [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw API

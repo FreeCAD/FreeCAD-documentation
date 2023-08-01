@@ -1,6 +1,4 @@
 # TechDraw Hatching/en
-{{TOCright}}
-
 ## Description
 
 The TechDraw workbench includes two hatching tools:
@@ -74,4 +72,4 @@ The `FCPAT.pat` file can be found in the following location.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Hatching/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Hatching/en

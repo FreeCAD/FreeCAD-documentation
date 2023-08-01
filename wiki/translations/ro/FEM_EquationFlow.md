@@ -1,6 +1,6 @@
 # FEM EquationFlow/ro
 ---
-- GuiCommand:   Name:FEM EquationFlow   MenuLocation: Solve - Equation flow   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
+- GuiCommand:   Name: FEM EquationFlow   MenuLocation:  Solve - Equation flow   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
 
 
 </div>
@@ -74,4 +74,4 @@ The results are the velocity in $\rm m/s$ and the pressure in $\rm Pa$. If there
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationFlow/ro
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationFlow/ro

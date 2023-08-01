@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainDistance
-   Name/es:Restricción de distancia
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation:Sketch - Restricciones de croquis - Restricción de distancia
-   Shortcut:May + D
-   SeeAlso:[Distancia Horizontal](Sketcher_ConstrainDistanceX/es.md), [Distancia Vertical](Sketcher_ConstrainDistanceY/es.md)
+   Name: Sketcher ConstrainDistance
+   Name/es: Restricción de distancia
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   MenuLocation: Sketch - Restricciones de croquis - Restricción de distancia
+   Shortcut: May + D
+   SeeAlso: [Distancia Horizontal](Sketcher_ConstrainDistanceX/es.md), [Distancia Vertical](Sketcher_ConstrainDistanceY/es.md)
 ---
 
 # Sketcher ConstrainDistance/es
@@ -90,4 +90,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistance/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistance/es

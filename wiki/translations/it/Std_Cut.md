@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_Cut
-   Name/it:Taglia
-   MenuLocation:Modifica - Taglia
-   Workbenches:Tutti
-   SeeAlso:[Copia](Std_Copy/it.md), [Incolla](Std_Paste/it.md), [Duplica la selezione](Std_DuplicateSelection/it.md)
+   Name: Std_Cut
+   Name/it: Taglia
+   MenuLocation: Modifica - Taglia
+   Workbenches: Tutti
+   SeeAlso: [Copia](Std_Copy/it.md), [Incolla](Std_Paste/it.md), [Duplica la selezione](Std_DuplicateSelection/it.md)
 ---
 
 # Std Cut/it
@@ -43,4 +43,4 @@ Per tagliare altri oggetti è possibile utilizzare il comando [Std Copy](Std_Cop
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Cut/it
+⏵ [documentation index](../README.md) > Std Cut/it

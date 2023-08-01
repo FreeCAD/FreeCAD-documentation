@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintLineLength
-   Icon:Assembly_ConstraintLineLength.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintLineLength
+   Icon: Assembly_ConstraintLineLength.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintLineLength/en
@@ -23,4 +23,4 @@ The length is set to a certain value by editing the length parameter in the prop
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLineLength/en
+⏵ [documentation index](../README.md) > Assembly3 ConstraintLineLength/en

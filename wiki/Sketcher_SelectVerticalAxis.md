@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectVerticalAxis
-   MenuLocation:Sketch - Sketcher tools - Select vertical axis
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**Z** **V**
-   Version:0.15
+   Name: Sketcher SelectVerticalAxis
+   MenuLocation: Sketch - Sketcher tools - Select vertical axis
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **Z** **V**
+   Version: 0.15
 ---
 
 # Sketcher SelectVerticalAxis
@@ -27,4 +27,4 @@ Selects the vertical axis of a sketch.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectVerticalAxis
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectVerticalAxis

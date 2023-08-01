@@ -1,6 +1,6 @@
 # Arch Schedule/it
 ---
-- GuiCommand:   Name:Arch Schedule   Name/it:Scheda   Workbenches:[MenuLocation:Arch - Scheda   SeeAlso:[[Arch Equipment/it|Arredo](Arch_Workbench/it___Arch]].md)---
+- GuiCommand:   Name: Arch Schedule   Name/it: Scheda   Workbenches: [MenuLocation: Arch - Scheda   SeeAlso: [[Arch Equipment/it|Arredo](Arch_Workbench/it___Arch]].md)---
 
 ## Descrizione
 
@@ -97,4 +97,4 @@ It is possible to add your own properties to objects. These are called [Dynamic 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Schedule/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Schedule/it

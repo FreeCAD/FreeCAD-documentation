@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 LockMover
-   Icon:Assembly_LockMover.svg‎‎
-   MenuLocation:Assembly3 - Lock mover
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 LockMover
+   Icon: Assembly_LockMover.svg‎‎
+   MenuLocation: Assembly3 - Lock mover
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 LockMover/pl
@@ -27,4 +27,4 @@ Selected **2D geometry**, such as Draft lines, arcs, and circles, fixed with the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 LockMover/pl
+⏵ [documentation index](../README.md) > Assembly3 LockMover/pl

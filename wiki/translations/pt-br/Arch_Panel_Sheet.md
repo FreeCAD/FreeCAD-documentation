@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Panel Sheet
-   MenuLocation:Arch - Panel tools - Panel Sheet
-   Workbenches:[Arch](Arch_Workbench.md)
-   Shortcut:**P** **S**
-   Version:0.17
-   SeeAlso:[Arch Panel](Arch_Panel.md), [Arch Panel Cut](Arch_Panel_Cut.md), [Arch Nest](Arch_Nest.md)
+   Name: Arch Panel Sheet
+   MenuLocation: Arch - Panel tools - Panel Sheet
+   Workbenches: [Arch](Arch_Workbench.md)
+   Shortcut: **P** **S**
+   Version: 0.17
+   SeeAlso: [Arch Panel](Arch_Panel.md), [Arch Panel Cut](Arch_Panel_Cut.md), [Arch Nest](Arch_Nest.md)
 ---
 
 # Arch Panel Sheet/pt-br
@@ -128,4 +128,4 @@ Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Sheet/pt-br
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Sheet/pt-br

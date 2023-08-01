@@ -1,8 +1,4 @@
 # Sketcher Examples/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 Myślę, że środowisko pracy <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Szkicownik](Sketcher_Workbench/pl.md) potrzebuje kilku przykładów, które nie są szczegółowymi poradnikami czy filmikami \...
@@ -224,4 +220,4 @@ Rezultatem powinien być pojedynczy klip, który można zamykać i otwierać, zm
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Examples/pl
+⏵ [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Examples/pl

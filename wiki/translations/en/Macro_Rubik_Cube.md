@@ -1678,4 +1678,4 @@ ToolBar Icon <img alt="" src=images/Macro_Rubik_Cube.png  style="width:64px;">
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Rubik Cube/en
+⏵ [documentation index](../README.md) > Macro Rubik Cube/en

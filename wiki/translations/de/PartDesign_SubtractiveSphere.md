@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractiveSphere
-   Name/de:PartDesign KugelAbziehen
-   MenuLocation:Part Design - Grundkörper abziehen - Kugel
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[PartDesign AuswahlGrundkörperAbziehen](PartDesign_CompPrimitiveSubtractive/de.md), [PartDesign KugelHinzufügen](PartDesign_AdditiveSphere/de.md)
+   Name: PartDesign SubtractiveSphere
+   Name/de: PartDesign KugelAbziehen
+   MenuLocation: Part Design - Grundkörper abziehen - Kugel
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [PartDesign AuswahlGrundkörperAbziehen](PartDesign_CompPrimitiveSubtractive/de.md), [PartDesign KugelHinzufügen](PartDesign_AdditiveSphere/de.md)
 ---
 
 # PartDesign SubtractiveSphere/de
@@ -67,4 +67,4 @@ Die Kugel kann nach der Erstellung auf zwei Arten bearbeitet werden:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveSphere/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveSphere/de

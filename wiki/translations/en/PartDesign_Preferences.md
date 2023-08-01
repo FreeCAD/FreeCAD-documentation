@@ -1,6 +1,4 @@
 # PartDesign Preferences/en
-{{TOCright}}
-
 ## Introduction
 
 The <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) and the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md) use the same preferences. They can be found in the <img alt="" src=images/Preferences-part_design.svg  style="width:24px;"> **Part/Part design** section of the [Preferences editor](Preferences_Editor.md). This section will only be available if one of the workbenches has been loaded in the current FreeCAD session.
@@ -160,4 +158,4 @@ Right click on **Mesh deviation** choose in the context menu **Change value**. S
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Preferences/en
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Preferences/en

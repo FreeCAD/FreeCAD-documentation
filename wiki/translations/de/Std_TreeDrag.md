@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreeDrag
-   Name/de:Std BaumZiehen
-   MenuLocation:Ansicht - Baumansicht-Aktionen - Ziehen initiieren
-   Workbenches:Alle
-   Shortcut:**T** **D**
-   Version:0.19
+   Name: Std TreeDrag
+   Name/de: Std BaumZiehen
+   MenuLocation: Ansicht - Baumansicht-Aktionen - Ziehen initiieren
+   Workbenches: Alle
+   Shortcut: **T** **D**
+   Version: 0.19
 ---
 
 # Std TreeDrag/de
@@ -39,4 +39,4 @@ Der Befehl **Std TreeDrag** startet das Ziehen von ausgewählten Objekten in der
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeDrag/de
+⏵ [documentation index](../README.md) > Std TreeDrag/de

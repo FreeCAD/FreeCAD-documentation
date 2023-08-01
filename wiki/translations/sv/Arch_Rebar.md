@@ -1,6 +1,6 @@
 # Arch Rebar/sv
 ---
-- GuiCommand:   Name:Arch Rebar   Name/sv:Arch Rebar   Workbenches:[MenuLocation:Arch - Rebar   Shortcut:R B   SeeAlso:[[Arch Structure/sv|Arch Structure](Arch_Workbench/sv___Arch]].md)---
+- GuiCommand:   Name: Arch Rebar   Name/sv: Arch Rebar   Workbenches: [MenuLocation: Arch - Rebar   Shortcut: R B   SeeAlso: [[Arch Structure/sv|Arch Structure](Arch_Workbench/sv___Arch]].md)---
 
 
 </div>
@@ -120,4 +120,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar/sv
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar/sv

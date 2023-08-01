@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part ProjectionOnSurface
-   Name/pl:Część: Rzutowanie na powierzchnię
-   MenuLocation:Część - Utwórz rzut na powierzchni ...
-   Workbenches:[Część](Part_Workbench/pl.md)
-   Version:0.19
+   Name: Part ProjectionOnSurface
+   Name/pl: Część: Rzutowanie na powierzchnię
+   MenuLocation: Część - Utwórz rzut na powierzchni ...
+   Workbenches: [Część](Part_Workbench/pl.md)
+   Version: 0.19
 ---
 
 # Part ProjectionOnSurface/pl
@@ -108,4 +108,4 @@ Rzutowanie wykonane w środowisku pracy Część nie jest parametryczne. Jeśli 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ProjectionOnSurface/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ProjectionOnSurface/pl

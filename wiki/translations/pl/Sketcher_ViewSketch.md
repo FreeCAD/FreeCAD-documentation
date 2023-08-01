@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ViewSketch
-   Name/pl:Skzkicownik: Widok szkicu
-   MenuLocation:Sketch - Widok szkicu
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md)
-   Shortcut:**Q** **P**
+   Name: Sketcher ViewSketch
+   Name/pl: Skzkicownik: Widok szkicu
+   MenuLocation: Sketch - Widok szkicu
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md)
+   Shortcut: **Q** **P**
 ---
 
 # Sketcher ViewSketch/pl
@@ -35,4 +35,4 @@ W trybie edycji szkicu są dostępne dwie możliwości
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/pl

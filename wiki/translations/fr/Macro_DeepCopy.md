@@ -124,4 +124,4 @@ if __name__ == '__main__':
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro DeepCopy/fr
+⏵ [documentation index](../README.md) > Macro DeepCopy/fr

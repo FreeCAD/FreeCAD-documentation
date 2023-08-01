@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM MeshDisplayInfo
-   Name/de:FEM NetzinformationenAnzeigen
-   MenuLocation:Kontextmenü des Mesh-Objekts - Informationen zum FEM-Netz anzeigen
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
+   Name: FEM MeshDisplayInfo
+   Name/de: FEM NetzinformationenAnzeigen
+   MenuLocation: Kontextmenü des Mesh-Objekts - Informationen zum FEM-Netz anzeigen
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   SeeAlso: [FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM MeshDisplayInfo/de
@@ -95,4 +95,4 @@ gibt folgendes Ergebnis aus:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshDisplayInfo/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshDisplayInfo/de

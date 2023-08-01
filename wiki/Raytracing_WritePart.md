@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Raytracing WritePart
-   MenuLocation:Raytracing - Utilities - Export part to POV-Ray
-   Workbenches:[Raytracing](Raytracing_Workbench.md)
-   Shortcut:
-   SeeAlso:
+   Name: Raytracing WritePart
+   MenuLocation: Raytracing - Utilities - Export part to POV-Ray
+   Workbenches: [Raytracing](Raytracing_Workbench.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Raytracing WritePart
@@ -30,4 +30,4 @@ Exports the selected part to a pov-file for use in a POV-Ray project.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WritePart
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WritePart

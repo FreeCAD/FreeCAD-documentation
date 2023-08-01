@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Primitives
-   Name/pl:Część: Utwórz geometrie pierwotne
-   MenuLocation:Część - Utwórz geometrie pierwotne ...
-   Workbenches:[Część](Part_Workbench/pl.md), [OpenSCAD](OpenSCAD_Workbench/pl.md)
-   SeeAlso:[Konstruktor kształtu](Part_Builder/pl.md)
+   Name: Part Primitives
+   Name/pl: Część: Utwórz geometrie pierwotne
+   MenuLocation: Część - Utwórz geometrie pierwotne ...
+   Workbenches: [Część](Part_Workbench/pl.md), [OpenSCAD](OpenSCAD_Workbench/pl.md)
+   SeeAlso: [Konstruktor kształtu](Part_Builder/pl.md)
 ---
 
 # Part Primitives/pl
@@ -118,4 +118,4 @@ freecad $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Primitives/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Primitives/pl

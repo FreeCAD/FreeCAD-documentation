@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Part Mirror
-   MenuLocation:Part - Mirror
-   Workbenches:[Part](Part_Workbench.md)
+   Name: Part Mirror
+   MenuLocation: Part - Mirror
+   Workbenches: [Part](Part_Workbench.md)
 ---
 
 # Part Mirror
@@ -48,4 +48,4 @@ The **Base point** boxes can be used to move the mirror plane parallel to the se
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror

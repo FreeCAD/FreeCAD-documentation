@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign PolarPattern
-   Name/ro:PartDesign PolarPattern
-   Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation:PartDesign - PolarPattern
+   Name: PartDesign PolarPattern
+   Name/ro: PartDesign PolarPattern
+   Workbenches: [PartDesign](PartDesign_Workbench/ro.md)
+   MenuLocation: PartDesign - PolarPattern
 ---
 
 # PartDesign PolarPattern/ro
@@ -143,4 +143,4 @@ If some of the selected features are additive and others subtractive, their orde
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/ro

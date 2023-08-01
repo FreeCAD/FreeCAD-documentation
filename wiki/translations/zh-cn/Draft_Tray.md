@@ -1,6 +1,4 @@
 # Draft Tray/zh-cn
-{{TOCright}}
-
 ## Description
 
 
@@ -27,4 +25,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Tray/zh-cn
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Tray/zh-cn

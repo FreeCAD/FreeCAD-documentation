@@ -1,11 +1,11 @@
 # Plot Labels/tr
 ---
 - GuiCommand:
-   Name/tr:Etiket
-   MenuLocation:Arsa - Etiket
-‏‎   |Workbenches:[Arsa](Plot_Workbench/tr.md)
-   Shortcut:
-   SeeAlso:---
+   Name/tr: Etiket
+   MenuLocation: Arsa - Etiket
+‏‎   |Workbenches: [Arsa](Plot_Workbench/tr.md)
+   Shortcut: 
+   SeeAlso: ---
 
 
 </div>
@@ -43,4 +43,4 @@ Select the plot tab that you want to edit, and run this tool. In case of multi-a
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Labels/tr
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Labels/tr

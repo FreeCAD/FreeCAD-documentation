@@ -1,6 +1,4 @@
 # Units/fr
-{{TOCright}}
-
 Un peu de lecture sur les unités :
 
 -   [Métrologie](https://fr.wikipedia.org/wiki/M%C3%A9trologie)
@@ -68,4 +66,4 @@ Une liste complète de toutes les unités prises en charge peut être [trouvée 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Units/fr
+⏵ [documentation index](../README.md) > Units/fr

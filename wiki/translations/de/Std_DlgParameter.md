@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std DlgParameter
-   Name/de:Std ParameterDialog
-   MenuLocation:Werkzeuge - Parameter bearbeiten...
-   Workbenches:All
-   SeeAlso:[Voreinstellungseditor](Preferences_Editor/de.md)
+   Name: Std DlgParameter
+   Name/de: Std ParameterDialog
+   MenuLocation: Werkzeuge - Parameter bearbeiten...
+   Workbenches: All
+   SeeAlso: [Voreinstellungseditor](Preferences_Editor/de.md)
 ---
 
 # Std DlgParameter/de
@@ -178,4 +178,4 @@ It is likely a bad idea to modify the preferences of other parts of FreeCAD unle
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgParameter/de
+⏵ [documentation index](../README.md) > Std DlgParameter/de

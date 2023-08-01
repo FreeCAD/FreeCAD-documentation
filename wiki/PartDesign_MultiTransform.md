@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign MultiTransform
-   MenuLocation:Part Design - Apply a pattern - Create MultiTransform
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[PartDesign Mirrored](PartDesign_Mirrored.md), [PartDesign LinearPattern](PartDesign_LinearPattern.md), [PartDesign PolarPattern](PartDesign_PolarPattern.md), [PartDesign Scaled](PartDesign_Scaled.md)
+   Name: PartDesign MultiTransform
+   MenuLocation: Part Design - Apply a pattern - Create MultiTransform
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   SeeAlso: [PartDesign Mirrored](PartDesign_Mirrored.md), [PartDesign LinearPattern](PartDesign_LinearPattern.md), [PartDesign PolarPattern](PartDesign_PolarPattern.md), [PartDesign Scaled](PartDesign_Scaled.md)
 ---
 
 # PartDesign MultiTransform
@@ -147,4 +147,4 @@ To verify that the part is fully parametric open the initial sketch with the qua
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform

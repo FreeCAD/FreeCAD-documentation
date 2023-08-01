@@ -10,4 +10,4 @@ This category lists pages related to the [Sketcher Workbench/zh-hant](Sketcher_W
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Sketcher/zh-hant
+⏵ [documentation index](../README.md) > Category:Sketcher/zh-hant

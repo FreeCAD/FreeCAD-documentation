@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateLine
-   Name/it:Linea
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch - Geometrie - Linea
-   Shortcut:L
-   SeeAlso:[Polilinea](Sketcher_CreatePolyline/it.md)
+   Name: Sketcher CreateLine
+   Name/it: Linea
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation: Sketch - Geometrie - Linea
+   Shortcut: L
+   SeeAlso: [Polilinea](Sketcher_CreatePolyline/it.md)
 ---
 
 # Sketcher CreateLine/it
@@ -67,4 +67,4 @@ L\'oggetto linea creato inizia e finisce nei punti specificati, ma rispetto ai v
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/it

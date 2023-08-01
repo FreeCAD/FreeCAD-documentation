@@ -117,4 +117,4 @@ if ok == QtGui.QMessageBox.Ok or ok==0:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro findConfigFiles/fr
+⏵ [documentation index](../README.md) > Macro findConfigFiles/fr

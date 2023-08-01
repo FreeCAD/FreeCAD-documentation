@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher Conics
-   Name/es:Croquizador Cónicos
-   Icon:Sketcher_CompCreateConic.png
-   MenuLocation:Ninguno (sólo barra de herramientas)
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
+   Name: Sketcher Conics
+   Name/es: Croquizador Cónicos
+   Icon: Sketcher_CompCreateConic.png
+   MenuLocation: Ninguno (sólo barra de herramientas)
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
 ---
 
 # Sketcher CompCreateConic/es
@@ -51,4 +51,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateConic/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateConic/es

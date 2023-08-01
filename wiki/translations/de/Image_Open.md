@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Image Open
-   Name/de:Image Öffnen
-   MenuLocation:
-   Workbenches:[Image (Bild)](Image_Workbench/de.md)
-   SeeAlso:[Bildebene erstellen](Image_CreateImagePlane/de.md), [Bildebene skalieren](Image_Scaling/de.md)
+   Name: Image Open
+   Name/de: Image Öffnen
+   MenuLocation: 
+   Workbenches: [Image (Bild)](Image_Workbench/de.md)
+   SeeAlso: [Bildebene erstellen](Image_CreateImagePlane/de.md), [Bildebene skalieren](Image_Scaling/de.md)
 ---
 
 # Image Open/de
@@ -31,4 +31,4 @@ Das Bild wird in einem neuen Ansichtsfenster platziert, nicht in der 3D-Ansicht.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/de
+⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/de

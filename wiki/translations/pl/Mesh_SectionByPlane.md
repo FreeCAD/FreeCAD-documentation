@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh SectionByPlane
-   Name/pl:Siatka: Utwórz przekrój siatki płaszczyzną
-   MenuLocation:Siatki - Cięcie - Utwórz przekrój siatki płaszczyzną
-   Workbenches:[Siatka](Mesh_Workbench/pl.md)
-   SeeAlso:[przekrój poprzeczny](Mesh_CrossSections/pl.md)
+   Name: Mesh SectionByPlane
+   Name/pl: Siatka: Utwórz przekrój siatki płaszczyzną
+   MenuLocation: Siatki - Cięcie - Utwórz przekrój siatki płaszczyzną
+   Workbenches: [Siatka](Mesh_Workbench/pl.md)
+   SeeAlso: [przekrój poprzeczny](Mesh_CrossSections/pl.md)
 ---
 
 # Mesh SectionByPlane/pl
@@ -73,4 +73,4 @@ Part.show(Part.makePolygon(loops[0]))
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SectionByPlane/pl
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SectionByPlane/pl

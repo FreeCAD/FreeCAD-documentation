@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh_Smoothing
-   Name/it:Mesh Smoothing
-   MenuLocation:Mesh - Leviga...
-   Workbenches:[Mesh](Mesh_Workbench/it.md)
+   Name: Mesh_Smoothing
+   Name/it: Mesh Smoothing
+   MenuLocation: Mesh - Leviga...
+   Workbenches: [Mesh](Mesh_Workbench/it.md)
 ---
 
 # Mesh Smoothing/it
@@ -73,4 +73,4 @@ Il comando **Leviga** smussa gli oggetti mesh cambiando la posizione dei loro ve
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Smoothing/it
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Smoothing/it

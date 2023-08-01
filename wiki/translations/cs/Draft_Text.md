@@ -1,6 +1,6 @@
 # Draft Text/cs
 ---
-- GuiCommand:   Name:Draft_Text   Name/cs:Draft Text   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft - Text   Shortcut:T E---
+- GuiCommand:   Name: Draft_Text   Name/cs: Draft Text   Workbenches: [Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation: Draft - Text   Shortcut: T E---
 
 
 </div>
@@ -209,4 +209,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Text/cs
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Text/cs

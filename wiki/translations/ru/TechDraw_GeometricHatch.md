@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Применить геометрическую штриховку к грани
-   Name:TechDraw_GeometricHatch
-   MenuLocation:TechDraw - Применить геометрическую штриховку к грани
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Штриховать грань, используя файл изображения](TechDraw_Hatch/ru.md), [Штриховка](TechDraw_Hatching/ru.md)
+   Name/ru: Применить геометрическую штриховку к грани
+   Name: TechDraw_GeometricHatch
+   MenuLocation: TechDraw - Применить геометрическую штриховку к грани
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso: [Штриховать грань, используя файл изображения](TechDraw_Hatch/ru.md), [Штриховка](TechDraw_Hatching/ru.md)
 ---
 
 # TechDraw GeometricHatch/ru
@@ -122,4 +122,4 @@ Part.show(hatch)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw GeometricHatch/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw GeometricHatch/ru

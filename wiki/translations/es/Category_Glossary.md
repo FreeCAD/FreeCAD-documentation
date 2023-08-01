@@ -11,4 +11,4 @@ This category tracks pages that explain definitions of words related to FreeCAD
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Glossary/es
+⏵ [documentation index](../README.md) > Category:Glossary/es

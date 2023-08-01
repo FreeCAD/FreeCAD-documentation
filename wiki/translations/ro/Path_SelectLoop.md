@@ -1,6 +1,6 @@
 # Path SelectLoop/ro
 ---
-- GuiCommand:   Name:Path SelectLoop   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path - Finish Selecting Loop   Shortcut:P,L   SeeAlso:---
+- GuiCommand:   Name: Path SelectLoop   Workbenches: [[Path Workbench   Path]]|MenuLocation: Path - Finish Selecting Loop   Shortcut: P,L   SeeAlso: ---
 
 
 </div>
@@ -44,4 +44,4 @@ Pentru a utiliza: selectați două margini care au un vârf comun. Apoi executa�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SelectLoop/ro
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SelectLoop/ro

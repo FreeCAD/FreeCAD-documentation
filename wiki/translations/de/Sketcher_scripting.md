@@ -1,8 +1,4 @@
 # Sketcher scripting/de
-{{TOCright}}
-
-
-
 ## Erstellen eines Sketch-Objekts mit Python 
 
 So wird ein Sketch-Objekt erstellt:
@@ -240,4 +236,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher scripting/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher scripting/de

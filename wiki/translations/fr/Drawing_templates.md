@@ -2,7 +2,7 @@
 **L'[atelier Drawing](Drawing_Workbench/fr.md) est devenu obsolète dans la version 0.17. Pensez à utiliser l'[atelier TechDraw](TechDraw_Workbench/fr.md) à la place.**
 
 
-{{TOCright}}
+
 
 ## Création d\'une feuille SVG 
 
@@ -213,4 +213,4 @@ Les deux lignes que FreeCAD recherchera sont \"\$blocks\" et \"\$entities\". Ell
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Documentation](Category_Documentation.md) > [Drawing](Category_Drawing.md) > Drawing templates/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Documentation](Category_Documentation.md) > [Drawing](Category_Drawing.md) > Drawing templates/fr

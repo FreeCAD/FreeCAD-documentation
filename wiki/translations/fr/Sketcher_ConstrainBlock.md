@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainBlock
-   Name/fr:Sketcher Contrainte de blocage
-   MenuLocation:Esquisse - Contraintes d'esquisse - Contrainte de blocage
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**K** **B**
-   Version:0.17
-   SeeAlso:[Sketcher Contrainte fixe](Sketcher_ConstrainLock/fr.md)
+   Name: Sketcher ConstrainBlock
+   Name/fr: Sketcher Contrainte de blocage
+   MenuLocation: Esquisse - Contraintes d'esquisse - Contrainte de blocage
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **K** **B**
+   Version: 0.17
+   SeeAlso: [Sketcher Contrainte fixe](Sketcher_ConstrainLock/fr.md)
 ---
 
 # Sketcher ConstrainBlock/fr
@@ -46,4 +46,4 @@ La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui pe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainBlock/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainBlock/fr

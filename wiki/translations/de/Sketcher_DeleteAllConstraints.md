@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher DeleteAllConstraints
-   Name/de:Sketcher AlleRandbedingungenLöschen
-   MenuLocation:Skizze - Skizzen-Werkzeuge - Alle Randbedingungen löschen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Version:0.18
-   SeeAlso:[Sketcher AlleGeometrienLöschen](Sketcher_DeleteAllGeometry/de.md)
+   Name: Sketcher DeleteAllConstraints
+   Name/de: Sketcher AlleRandbedingungenLöschen
+   MenuLocation: Skizze - Skizzen-Werkzeuge - Alle Randbedingungen löschen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Version: 0.18
+   SeeAlso: [Sketcher AlleGeometrienLöschen](Sketcher_DeleteAllGeometry/de.md)
 ---
 
 # Sketcher DeleteAllConstraints/de
@@ -30,4 +30,4 @@ Dieses Werkzeug löscht alle Beschränkungen aus der zu bearbeitenden Skizze und
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllConstraints/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllConstraints/de

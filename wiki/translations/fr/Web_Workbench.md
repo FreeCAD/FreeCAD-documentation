@@ -39,4 +39,4 @@ L\'atelier Web offre les outils suivants :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Web](Category_Web.md) > Web Workbench/fr
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Web](Category_Web.md) > Web Workbench/fr

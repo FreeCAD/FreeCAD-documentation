@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft PolarArray
-   Name/fr:Draft Réseau polaire
-   MenuLocation:Modification - Outils pour les réseaux - Réseau polaire
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[Draft Réseau orthogonal](Draft_OrthoArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Réseau selon une courbe](Draft_PathArray/fr.md), [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md), [Draft Réseau de points](Draft_PointArray/fr.md), [Draft Réseau lié selon des points](Draft_PointLinkArray/fr.md)
+   Name: Draft PolarArray
+   Name/fr: Draft Réseau polaire
+   MenuLocation: Modification - Outils pour les réseaux - Réseau polaire
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Version: 0.19
+   SeeAlso: [Draft Réseau orthogonal](Draft_OrthoArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Réseau selon une courbe](Draft_PathArray/fr.md), [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md), [Draft Réseau de points](Draft_PointArray/fr.md), [Draft Réseau lié selon des points](Draft_PointLinkArray/fr.md)
 ---
 
 # Draft PolarArray/fr
@@ -155,4 +155,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PolarArray/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PolarArray/fr

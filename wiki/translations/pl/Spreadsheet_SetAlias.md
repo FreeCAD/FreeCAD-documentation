@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet SetAlias
-   Name/pl:Arkusz Kalkulacyjny: Definiuj alias
-   MenuLocation:-
-   Workbenches:[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
-   Version:0.17
+   Name: Spreadsheet SetAlias
+   Name/pl: Arkusz Kalkulacyjny: Definiuj alias
+   MenuLocation: -
+   Workbenches: [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   Version: 0.17
 ---
 
 # Spreadsheet SetAlias/pl
@@ -42,4 +42,4 @@ Upewnij się, że jest aktywny jest otwarty **[<img src=images/Spreadshee
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SetAlias/pl
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SetAlias/pl

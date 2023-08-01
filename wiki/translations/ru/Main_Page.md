@@ -72,4 +72,4 @@ FreeCAD может быть скомпилирован на всех платф�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/ru
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/ru

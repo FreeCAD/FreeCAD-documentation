@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ShowAll
-   Name/pl:Rysunek Techniczny: Pokaż / ukryj niewidoczne krawędzie
-   MenuLocation:Rysunek Techniczny - Pokaż / ukryj niewidoczne krawędzie
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Version:0.19
-   SeeAlso:[Zmień wygląd linii](TechDraw_DecorateLine/pl.md)
+   Name: TechDraw ShowAll
+   Name/pl: Rysunek Techniczny: Pokaż / ukryj niewidoczne krawędzie
+   MenuLocation: Rysunek Techniczny - Pokaż / ukryj niewidoczne krawędzie
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Version: 0.19
+   SeeAlso: [Zmień wygląd linii](TechDraw_DecorateLine/pl.md)
 ---
 
 # TechDraw ShowAll/pl
@@ -68,4 +68,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ShowAll/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ShowAll/pl

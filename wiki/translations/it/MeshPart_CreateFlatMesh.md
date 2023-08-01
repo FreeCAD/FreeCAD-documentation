@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:MeshPart_CreateFlatMesh
-   Name/it:Sviluppa una mesh
-   Empty:1
-   MenuLocation:Mesh - Sviluppa una mesh
-   Workbenches:[Mesh](Mesh_Workbench/it.md)
-   SeeAlso:[Sviluppa una faccia](MeshPart_CreateFlatFace/it.md)
+   Name: MeshPart_CreateFlatMesh
+   Name/it: Sviluppa una mesh
+   Empty: 1
+   MenuLocation: Mesh - Sviluppa una mesh
+   Workbenches: [Mesh](Mesh_Workbench/it.md)
+   SeeAlso: [Sviluppa una faccia](MeshPart_CreateFlatFace/it.md)
 ---
 
 # MeshPart CreateFlatMesh/it
@@ -52,4 +52,4 @@ Vedere: [Funzioni Part](Part_Feature/it.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Category_Mesh.md) > [MeshPart](MeshPart_Workbench.md) > MeshPart CreateFlatMesh/it
+⏵ [documentation index](../README.md) > [Mesh](Category_Mesh.md) > [MeshPart](MeshPart_Workbench.md) > MeshPart CreateFlatMesh/it

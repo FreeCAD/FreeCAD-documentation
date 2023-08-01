@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign ShapeBinder
-   MenuLocation:Part Design - Create a shape binder
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   Version:0.17
-   SeeAlso:[PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md), [PartDesign Clone](PartDesign_Clone.md)
+   Name: PartDesign ShapeBinder
+   MenuLocation: Part Design - Create a shape binder
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   Version: 0.17
+   SeeAlso: [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md), [PartDesign Clone](PartDesign_Clone.md)
 ---
 
 # PartDesign ShapeBinder/pt-br
@@ -106,4 +106,4 @@ Here is how you use the ShapeBinder Feature to achieve it:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/pt-br
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/pt-br

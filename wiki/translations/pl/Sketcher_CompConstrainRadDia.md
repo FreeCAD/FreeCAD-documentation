@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher constrain arc or circle
-   Name/pl:Szkicownik: Wiązanie promienia lub średnicy
-   MenuLocation:
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
+   Name: Sketcher constrain arc or circle
+   Name/pl: Szkicownik: Wiązanie promienia lub średnicy
+   MenuLocation: 
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
 ---
 
 # Sketcher CompConstrainRadDia/pl
@@ -35,4 +35,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompConstrainRadDia/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompConstrainRadDia/pl

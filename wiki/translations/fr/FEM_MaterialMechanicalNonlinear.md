@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM MaterialMechanicalNonlinear
-   Name/fr:FEM Matériau mécanique non linéaire
-   MenuLocation:Modèle - Matériaux -  Matériau mécanique non linéaire
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM MaterialMechanicalNonlinear
+   Name/fr: FEM Matériau mécanique non linéaire
+   MenuLocation: Modèle - Matériaux -  Matériau mécanique non linéaire
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM MaterialMechanicalNonlinear/fr
@@ -38,4 +38,4 @@ Ajoute un modèle de matériau mécanique non linéaire. Actuellement, seule la 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialMechanicalNonlinear/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialMechanicalNonlinear/fr

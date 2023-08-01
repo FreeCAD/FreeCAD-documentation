@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher BSplineIncreaseDegree
-   Name/fr:Sketcher Augmenter le degré d'une B-spline
-   MenuLocation:Esquisse - Outils d'esquisse des B-splines - Augmenter le degré d'une B-spline
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[Sketcher Afficher/masquer degré d'une B-spline](Sketcher_BSplineDegree/fr.md), [Sketcher Diminuer le degré d'une B-spline](Sketcher_BSplineDecreaseDegree/fr.md)
+   Name: Sketcher BSplineIncreaseDegree
+   Name/fr: Sketcher Augmenter le degré d'une B-spline
+   MenuLocation: Esquisse - Outils d'esquisse des B-splines - Augmenter le degré d'une B-spline
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [Sketcher Afficher/masquer degré d'une B-spline](Sketcher_BSplineDegree/fr.md), [Sketcher Diminuer le degré d'une B-spline](Sketcher_BSplineDecreaseDegree/fr.md)
 ---
 
 # Sketcher BSplineIncreaseDegree/fr
@@ -53,4 +53,4 @@ Vous pouvez voir que maintenant chaque segment a 2 points de contrôle et les n�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineIncreaseDegree/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineIncreaseDegree/fr

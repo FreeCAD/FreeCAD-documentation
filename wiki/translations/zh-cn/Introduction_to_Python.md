@@ -1,8 +1,4 @@
 # Introduction to Python/zh-cn
-{{TOCright}}
-
-
-
 ## 概述
 
 这是适合[Python](http://en.wikipedia.org/wiki/Python_%28programming_language%29)新手的一篇简短指南。Python是一个开源、多平台的 [编程语言](http://en.wikipedia.org/wiki/Programming_language)。Python有几种不同于其他常见语言的特性，使之与众不同，而且还易于对此毫无经验的人使用：
@@ -923,4 +919,4 @@ dir()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Introduction to Python/zh-cn
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Introduction to Python/zh-cn

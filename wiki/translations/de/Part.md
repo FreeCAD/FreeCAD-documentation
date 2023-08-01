@@ -2,7 +2,7 @@
 ## Einleitung
 
 
-{{TOCright}}
+
 
 In FreeCAD wird das Wort \"[Part](Part/de.md)\" normalerweise verwendet, um auf eine <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Std Teil](Std_Part/de.md)(`App::Part` Klasse) zu verweisen, ein Typ eines Containerobjekts, das durch das Basissystem definiert ist. Dieses Teil wird zur Verwaltung der Position von 3D Formen verwendet, um mechanische Baugruppen zu erstellen.
 
@@ -36,4 +36,4 @@ Wenn jedoch mehr Präzision erforderlich ist, muss die Unterscheidung vorgenomme
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Part/de
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Part/de

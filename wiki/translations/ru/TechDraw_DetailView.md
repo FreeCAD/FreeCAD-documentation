@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Вставить подробный Вид
-   Name:TechDraw_DetailView
-   MenuLocation:TechDraw - Вставить подробный Вид
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Вставить Вид](TechDraw_View/ru.md), [Вставить группу проекций](TechDraw_ProjectionGroup/ru.md)
+   Name/ru: Вставить подробный Вид
+   Name: TechDraw_DetailView
+   MenuLocation: TechDraw - Вставить подробный Вид
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso: [Вставить Вид](TechDraw_View/ru.md), [Вставить группу проекций](TechDraw_ProjectionGroup/ru.md)
 ---
 
 # TechDraw DetailView/ru
@@ -97,4 +97,4 @@ Detail = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDetail','Detail')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DetailView/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DetailView/ru

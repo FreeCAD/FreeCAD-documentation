@@ -1,6 +1,6 @@
 # Part Fillet/cs
 ---
-- GuiCommand:   Name:Part Fillet   Name/cs:Díl Zaoblení   MenuLocation:Díl - Zaoblení   Workbenches:[SeeAlso:[[Part Chamfer/cs|Díl Zkosení](Part_Workbench/cs___Díl]],_Kompletace.md)---
+- GuiCommand:   Name: Part Fillet   Name/cs: Díl Zaoblení   MenuLocation: Díl - Zaoblení   Workbenches: [SeeAlso: [[Part Chamfer/cs|Díl Zkosení](Part_Workbench/cs___Díl]],_Kompletace.md)---
 
 
 </div>
@@ -77,4 +77,4 @@ The fillet tool is affected by the [topological naming problem](Topological_nami
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/cs
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/cs

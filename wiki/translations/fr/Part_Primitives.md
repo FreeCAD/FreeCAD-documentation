@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Primitives
-   Name/fr:Part Primitives
-   MenuLocation:Part - Créer des primitives...
-   Workbenches:[Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
-   SeeAlso:[Part Générateur de formes](Part_Builder/fr.md)
+   Name: Part Primitives
+   Name/fr: Part Primitives
+   MenuLocation: Part - Créer des primitives...
+   Workbenches: [Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
+   SeeAlso: [Part Générateur de formes](Part_Builder/fr.md)
 ---
 
 # Part Primitives/fr
@@ -116,4 +116,4 @@ freecad $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Primitives/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Primitives/fr

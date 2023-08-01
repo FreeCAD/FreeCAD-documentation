@@ -5,7 +5,7 @@
 ## Einleitung
 
 
-{{TOCright}}
+
 
 Der Arbeitsbereich <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> [Points](Points_Workbench/de.md) enthält bestimmte Werkzeuge für die Arbeit mit [Punktwolken](https://de.wikipedia.org/wiki/Punktwolke). Der Arbeitsbereich befindet sich noch in der Entwicklung.
 
@@ -50,4 +50,4 @@ Alle Werkzeuge des Arbeitsbereichs Points sind aus dem Menü **Punkte** erreichb
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/de
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/de

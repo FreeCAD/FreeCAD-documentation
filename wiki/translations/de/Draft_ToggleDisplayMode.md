@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft ToggleDisplayMode
-   Name/de:Draft DarstellungsartUmschalten
-   MenuLocation:Hilfsprogramme - Normal-/Wireframe-Anzeige umschalten
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Shortcut:**Shift**+**Space**
-   SeeAlso:[Std SichtbarkeitUmschalten](Std_ToggleVisibility/de.md)
+   Name: Draft ToggleDisplayMode
+   Name/de: Draft DarstellungsartUmschalten
+   MenuLocation: Hilfsprogramme - Normal-/Wireframe-Anzeige umschalten
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut: **Shift**+**Space**
+   SeeAlso: [Std SichtbarkeitUmschalten](Std_ToggleVisibility/de.md)
 ---
 
 # Draft ToggleDisplayMode/de
@@ -33,4 +33,4 @@ Der Befehl <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:24px
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/de

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher Symmetry
-   Name/pl:Szkicownik: Odbicie lustrzane
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Odbicie lustrzane
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**Z** **S**
-   Version:0.16
-   SeeAlso:[Odbicie lustrzane szkicu](Sketcher_MirrorSketch/pl.md)
+   Name: Sketcher Symmetry
+   Name/pl: Szkicownik: Odbicie lustrzane
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Odbicie lustrzane
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **Z** **S**
+   Version: 0.16
+   SeeAlso: [Odbicie lustrzane szkicu](Sketcher_MirrorSketch/pl.md)
 ---
 
 # Sketcher Symmetry/pl
@@ -38,4 +38,4 @@ Zauważ, że nie zostanie dodane żadne dodatkowe wiązanie symetrii.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Symmetry/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Symmetry/pl

@@ -1,8 +1,4 @@
 # Preference Packs/de
-{{TOCright}}
-
-
-
 ## Einleitung
 
 Ein **Voreinstellungspaket** (Preference Pack) stellt eine Sammlung von Benutzervoreinstellungen, zum Verteilen zur Verfügung ({{Version/de|0.20}}); es kann als Addon installiert und die Einstellungen so als kompletter Satz angewendet werden. Jede Benutzereinstellung, die in der user.cfg festgelegt werden kann, kann auch in einem Voreinstellungspaket verwendet werden. Die Anwendung eines Voreinstellungspakets setzt alle die Variablen, die in der mitgelieferten CFG-Datei vorhanden sind und lässt alle anderen Einstellungen unverändert. Diese Pakete können z.B. verwendet werden, um Themen (Themes) zu erstellen, indem man ein selbsterstelltes Stylesheet zusammen mit einem Satz Benutzereinstellungen bündelt, die unterschiedliche Farben und Ausführungsarten von Elementen in FreeCAD steuern, die nicht von dem Stylesheet festgelegt werden.
@@ -378,4 +374,4 @@ See also [Private Preference Packs](Private_Preference_Packs.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > Preference Packs/de
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > Preference Packs/de

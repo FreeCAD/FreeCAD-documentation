@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign NewSketch
-   Name/it:Nuovo schizzo
-   Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:Part Design - Crea schizzo
-   Version:0.17
+   Name: PartDesign NewSketch
+   Name/it: Nuovo schizzo
+   Workbenches: [PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation: Part Design - Crea schizzo
+   Version: 0.17
 ---
 
 # PartDesign NewSketch/it
@@ -110,4 +110,4 @@ To reference any items in the [Workbench Sketcher](Sketcher_Workbench.md) use th
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/it

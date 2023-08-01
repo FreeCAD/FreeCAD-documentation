@@ -1,8 +1,4 @@
 # Getting started/fr
-{{TOCright}}
-
-
-
 ## Avant-propos 
 
 FreeCAD est une [application de modélisation paramétrique](About_FreeCAD/fr.md) 3D. Elle est principalement destinée à la conception mécanique, mais sert aussi à toutes les utilisations où vous avez besoin de modéliser des objets de précision et de contrôler l\'historique de la modélisation 3D.
@@ -162,4 +158,4 @@ Et enfin, une des caractéristiques les plus puissantes de FreeCAD est l\'enviro
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Getting started/fr
+⏵ [documentation index](../README.md) > Getting started/fr

@@ -14,4 +14,4 @@ This category lists pages related to the [FEM Workbench/es](FEM_Workbench/es.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:FEM/es
+⏵ [documentation index](../README.md) > Category:FEM/es

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Reinforcement Bar Bending Schedule
-   Name/fr:Reinforcement Tableau des armatures
-   MenuLocation:Reinforcement - Bar Bending Schedule
-   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Rebar Nomenclature](Arch_Rebar_BOM/fr.md), [Arch Rebar Dessins](Arch_Rebar_Drawing_Dimensioning/fr.md)
+   Name: Reinforcement Bar Bending Schedule
+   Name/fr: Reinforcement Tableau des armatures
+   MenuLocation: Reinforcement - Bar Bending Schedule
+   Workbenches: [Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   Version: 0.19
+   SeeAlso: [Reinforcement](Reinforcement_Workbench/fr.md), [Arch Rebar Nomenclature](Arch_Rebar_BOM/fr.md), [Arch Rebar Dessins](Arch_Rebar_Drawing_Dimensioning/fr.md)
 ---
 
 # Reinforcement Bar Bending Schedule/fr
@@ -360,4 +360,4 @@ BBSfunc.getBarBendingSchedule(
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > Reinforcement Bar Bending Schedule/fr
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > Reinforcement Bar Bending Schedule/fr

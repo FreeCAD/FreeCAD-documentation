@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FreeCAD on video
+⏵ [documentation index](../README.md) > FreeCAD on video

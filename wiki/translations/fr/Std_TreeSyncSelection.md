@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreeSyncSelection
-   Name/fr:Std Arborescence Synchroniser la sélection
-   MenuLocation:Affichage - Vue en arborescence - Synchroniser la sélection
-   Workbenches:Tous
-   Shortcut:**T** **2**
-   Version:0.19
+   Name: Std TreeSyncSelection
+   Name/fr: Std Arborescence Synchroniser la sélection
+   MenuLocation: Affichage - Vue en arborescence - Synchroniser la sélection
+   Workbenches: Tous
+   Shortcut: **T** **2**
+   Version: 0.19
 ---
 
 # Std TreeSyncSelection/fr
@@ -40,4 +40,4 @@ Le mode Expansion synchrone de l\'arborescence peut également être défini dan
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSyncSelection/fr
+⏵ [documentation index](../README.md) > Std TreeSyncSelection/fr

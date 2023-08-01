@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std SelBoundingBox
-   MenuLocation:View - Bounding box
-   Workbenches:All
-   Version:0.19
-   SeeAlso:[Std DrawStyle](Std_DrawStyle.md)
+   Name: Std SelBoundingBox
+   MenuLocation: View - Bounding box
+   Workbenches: All
+   Version: 0.19
+   SeeAlso: [Std DrawStyle](Std_DrawStyle.md)
 ---
 
 # Std SelBoundingBox
@@ -53,4 +53,4 @@ FreeCADGui.updateCommands()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SelBoundingBox
+⏵ [documentation index](../README.md) > Std SelBoundingBox

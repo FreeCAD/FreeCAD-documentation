@@ -173,4 +173,4 @@ Your final object should look like the picture on the right.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Engine Block Tutorial
+⏵ [documentation index](../README.md) > Engine Block Tutorial

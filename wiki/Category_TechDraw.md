@@ -52,4 +52,4 @@ This category lists pages related to the [TechDraw Workbench](TechDraw_Workbench
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:TechDraw
+⏵ [documentation index](../README.md) > Category:TechDraw

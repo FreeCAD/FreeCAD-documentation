@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Fuse
-   Name/fr:Part Union
-   MenuLocation:Part - Opération booléenne - Union
-   Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Part Opération booléenne](Part_Boolean/fr.md), [Part Soustraction](Part_Cut/fr.md), [Part Intersection](Part_Common/fr.md), 
+   Name: Part Fuse
+   Name/fr: Part Union
+   MenuLocation: Part - Opération booléenne - Union
+   Workbenches: [Part](Part_Workbench/fr.md)
+   SeeAlso: [Part Opération booléenne](Part_Boolean/fr.md), [Part Soustraction](Part_Cut/fr.md), [Part Intersection](Part_Common/fr.md), 
 ---
 
 # Part Fuse/fr
@@ -43,4 +43,4 @@ Après que cette opération soit complète, il peut être nécessaire de nettoye
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/fr

@@ -107,4 +107,4 @@ FreeCAD може да бъде компилиран на всички платф
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/bg
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/bg

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Shape2DView
-   Name/it:Vista forma 2D
-   MenuLocation:Modifiche - Vista forma 2D
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   SeeAlso:[TechDraw Proietta forma](TechDraw_ProjectShape/it.md)
+   Name: Draft Shape2DView
+   Name/it: Vista forma 2D
+   MenuLocation: Modifiche - Vista forma 2D
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   SeeAlso: [TechDraw Proietta forma](TechDraw_ProjectShape/it.md)
 ---
 
 # Draft Shape2DView/it
@@ -165,4 +165,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Shape2DView/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Shape2DView/it

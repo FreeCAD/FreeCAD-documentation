@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part_Revolve
-   Name/ru:Вращать
-   MenuLocation:Деталь - Вращать...
-   Workbenches:[Part(Деталь)](Part_Workbench/ru.md)
-   SeeAlso:
+   Name: Part_Revolve
+   Name/ru: Вращать
+   MenuLocation: Деталь - Вращать...
+   Workbenches: [Part(Деталь)](Part_Workbench/ru.md)
+   SeeAlso: 
 ---
 
 # Part Revolve/ru
@@ -37,4 +37,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/ru

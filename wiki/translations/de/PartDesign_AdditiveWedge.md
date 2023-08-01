@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveWedge
-   Name/de:PartDesign KeilHinzufügen
-   MenuLocation:Part Design - Grundkörper hinzufügen - Keil
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[PartDesign AuswahlGrundkörperHinzufügen](PartDesign_CompPrimitiveAdditive/de.md), [PartDesign KeilAbziehen](PartDesign_SubtractiveWedge/de.md)
+   Name: PartDesign AdditiveWedge
+   Name/de: PartDesign KeilHinzufügen
+   MenuLocation: Part Design - Grundkörper hinzufügen - Keil
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [PartDesign AuswahlGrundkörperHinzufügen](PartDesign_CompPrimitiveAdditive/de.md), [PartDesign KeilAbziehen](PartDesign_SubtractiveWedge/de.md)
 ---
 
 # PartDesign AdditiveWedge/de
@@ -63,4 +63,4 @@ Keile können zur Erstellung von Pyramiden verwendet werden, wenn die {{Property
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveWedge/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveWedge/de

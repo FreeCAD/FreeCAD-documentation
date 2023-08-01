@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Fillet
-   Name/de:Part Verrundung
-   MenuLocation:Formteil - Verrundung
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Fase](Part_Chamfer/de.md)
+   Name: Part Fillet
+   Name/de: Part Verrundung
+   MenuLocation: Formteil - Verrundung
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: [Part Fase](Part_Chamfer/de.md)
 ---
 
 # Part Fillet/de
@@ -53,4 +53,4 @@ Das Werkzeug Verrundung ist von dem Problem der topologischen Benennung betroffe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/de

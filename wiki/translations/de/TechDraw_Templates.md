@@ -1,8 +1,4 @@
 # TechDraw Templates/de
-{{TOCright}}
-
-
-
 ## Beschreibung
 
 Jedes TechDraw-Zeichnungsblatt (Page-Objekt) basiert auf einer Vorlage (Template-Objekt). Die Vorlage steuert die Blattgröße und enthält unveränderliche grafische Elemente und Text, z.B. einen Zeichnugsrahmen oder eine Beschnittkante.
@@ -89,4 +85,4 @@ Siehe auch [So wird eine benutzerdefinierte TechDraw Vorlage erstellt](TechDraw_
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Templates/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Templates/de

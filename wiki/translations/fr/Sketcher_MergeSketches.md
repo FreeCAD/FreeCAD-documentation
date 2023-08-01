@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher MergeSketches
-   Name/fr:Sketcher Fusionner les esquisses
-   MenuLocation:Esquisse - Fusionner les esquisses
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Version:0.15
+   Name: Sketcher MergeSketches
+   Name/fr: Sketcher Fusionner les esquisses
+   MenuLocation: Esquisse - Fusionner les esquisses
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Version: 0.15
 ---
 
 # Sketcher MergeSketches/fr
@@ -32,4 +32,4 @@ Fusionne deux esquisses ou plus en une seule.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MergeSketches/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MergeSketches/fr

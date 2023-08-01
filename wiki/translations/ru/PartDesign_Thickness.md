@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Преобразовать в полое тело
-   Name:PartDesign_Thickness
-   MenuLocation:Part Design - Apply a dress up feature - Преобразовать в полое тело
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Преобразовать в полое тело](Part_Thickness/ru.md)
+   Name/ru: Преобразовать в полое тело
+   Name: PartDesign_Thickness
+   MenuLocation: Part Design - Apply a dress up feature - Преобразовать в полое тело
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Преобразовать в полое тело](Part_Thickness/ru.md)
 ---
 
 # PartDesign Thickness/ru
@@ -145,4 +145,4 @@ A PartDesign Thickness object is derived from a [Part Feature](Part_Feature.md) 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/ru

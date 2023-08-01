@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Скругление
-   Name:Sketcher_CreateFillet
-   MenuLocation:Sketch - Геометрия эскиза - Создать скругление
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**G** **F** **F**
-   SeeAlso:[Создать скругление с сохранением точки пересечения](Sketcher_CreatePointFillet/ru.md)
+   Name/ru: Скругление
+   Name: Sketcher_CreateFillet
+   MenuLocation: Sketch - Геометрия эскиза - Создать скругление
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **G** **F** **F**
+   SeeAlso: [Создать скругление с сохранением точки пересечения](Sketcher_CreatePointFillet/ru.md)
 ---
 
 # Sketcher CreateFillet/ru
@@ -44,4 +44,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/ru

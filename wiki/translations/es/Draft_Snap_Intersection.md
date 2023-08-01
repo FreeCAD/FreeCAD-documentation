@@ -1,6 +1,6 @@
 # Draft Snap Intersection/es
 ---
-- GuiCommand:   Name:Draft Snap Intersection   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft - [[Draft_Snap   Snap]] - Intersection|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Draft Snap Intersection   Workbenches: [Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation: Draft - [[Draft_Snap   Snap]] - Intersection|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -44,4 +44,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Intersection/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Intersection/es

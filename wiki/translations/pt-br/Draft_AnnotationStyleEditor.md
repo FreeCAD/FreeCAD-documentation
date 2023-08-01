@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft AnnotationStyleEditor
-   MenuLocation:Annotation - Annotation styles...
-   Workbenches:[Draft](Draft_Workbench.md)
-   SeeAlso:[Draft Text](Draft_Text.md), [Draft Label](Draft_Label.md), [Draft Dimension](Draft_Dimension.md)
-   Version:0.19
+   Name: Draft AnnotationStyleEditor
+   MenuLocation: Annotation - Annotation styles...
+   Workbenches: [Draft](Draft_Workbench.md)
+   SeeAlso: [Draft Text](Draft_Text.md), [Draft Label](Draft_Label.md), [Draft Dimension](Draft_Dimension.md)
+   Version: 0.19
 ---
 
 # Draft AnnotationStyleEditor/pt-br
@@ -147,4 +147,4 @@ props = {
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AnnotationStyleEditor/pt-br
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AnnotationStyleEditor/pt-br

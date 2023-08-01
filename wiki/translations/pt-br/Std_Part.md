@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std Part
-   MenuLocation:None
-   Workbenches:All
-   Version:0.17
-   SeeAlso:[Std Group](Std_Group.md), [PartDesign Body](PartDesign_Body.md)
+   Name: Std Part
+   MenuLocation: None
+   Workbenches: All
+   Version: 0.17
+   SeeAlso: [Std Group](Std_Group.md), [PartDesign Body](PartDesign_Body.md)
 ---
 
 # Std Part/pt-br
@@ -247,4 +247,4 @@ App.ActiveDocument.addObject("Part::FeaturePython",
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Part/pt-br
+⏵ [documentation index](../README.md) > Std Part/pt-br

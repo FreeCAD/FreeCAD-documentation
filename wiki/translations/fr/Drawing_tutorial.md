@@ -123,4 +123,4 @@ Nous avons terminé le travail de base pour l\'[atelier Drawing](Drawing_Workben
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing tutorial/fr
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing tutorial/fr

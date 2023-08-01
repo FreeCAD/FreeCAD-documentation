@@ -1,8 +1,4 @@
 # Scripted objects/fr
-{{TOCright}}
-
-
-
 ## Introduction
 
 Outre les types d\'objets standard tels que les annotations, les maillages et les objets de pièces, FreeCAD offre également l\'étonnante possibilité de construire des objets paramétrique 100% Python, appelés [Python Features](App_FeaturePython/fr.md). Ces objets se comporteront exactement comme tout autre objet FreeCAD, et seront enregistrés et restaurés automatiquement lors de la sauvegarde/du chargement du fichier.
@@ -1094,4 +1090,4 @@ En plus de ces exemples, vous pouvez voir dans le code source de FreeCAD [src/Mo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects/fr

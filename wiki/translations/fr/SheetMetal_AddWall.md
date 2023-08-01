@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:SheetMetal AddWall
-   Name/fr:SheetMetal Tôle pliée
-   MenuLocation:SheetMetal - Make Wall
-   Workbenches:[SheetMetal](SheetMetal_Workbench/fr.md)
-   Shortcut:**W**
+   Name: SheetMetal AddWall
+   Name/fr: SheetMetal Tôle pliée
+   MenuLocation: SheetMetal - Make Wall
+   Workbenches: [SheetMetal](SheetMetal_Workbench/fr.md)
+   Shortcut: **W**
 ---
 
 # SheetMetal AddWall/fr
@@ -185,4 +185,4 @@ Un objet SheetMetal Bend est dérivé d\'un objet [Part Feature](Part_Feature/fr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddWall/fr
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddWall/fr

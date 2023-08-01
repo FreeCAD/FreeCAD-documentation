@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part_Common
-   Name/fr:Part Intersection
-   MenuLocation:Part - Opération booléenne - Intersection 
-   Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Part Opération booléenne](Part_Boolean/fr.md), [Part Soustraction](Part_Cut/fr.md), [Part Union](Part_Fuse/fr.md)
+   Name: Part_Common
+   Name/fr: Part Intersection
+   MenuLocation: Part - Opération booléenne - Intersection 
+   Workbenches: [Part](Part_Workbench/fr.md)
+   SeeAlso: [Part Opération booléenne](Part_Boolean/fr.md), [Part Soustraction](Part_Cut/fr.md), [Part Union](Part_Fuse/fr.md)
 ---
 
 # Part Common/fr
@@ -25,4 +25,4 @@ Les objets utilisés doivent être des formes [OpenCASCADE](OpenCASCADE/fr.md). 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/fr

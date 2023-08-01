@@ -1,5 +1,4 @@
-# Power users hub/ro
-{{TOCright}} <img alt="" src=images/Power_user_hub.png  style="width:64px;">
+# <img alt="" src=images/Power_user_hub.png  style="width:64px;"> Power users hub/ro
 
 
 
@@ -254,4 +253,4 @@ Pe pagina [Community portal](FreeCAD_Community_Portal.md), puteți căuta alte p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/ro
+⏵ [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/ro

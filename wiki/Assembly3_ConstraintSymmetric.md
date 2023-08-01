@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintSymmetric
-   Icon:Assembly_ConstraintSymmetric.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintSymmetric
+   Icon: Assembly_ConstraintSymmetric.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintSymmetric
@@ -20,4 +20,4 @@ This tool builds a link between two objects of an assembly and matches their ori
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintSymmetric
+⏵ [documentation index](../README.md) > Assembly3 ConstraintSymmetric

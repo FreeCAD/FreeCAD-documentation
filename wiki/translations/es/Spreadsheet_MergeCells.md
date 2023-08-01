@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet MergeCells
-   Name/es:Hoja de cálculo UnirCeldas
-   MenuLocation:Hoja de cálculo - Unir celdas
-   Workbenches:[Hoja de cálculo](Spreadsheet_Workbench/es.md)
-   Version:0.17
+   Name: Spreadsheet MergeCells
+   Name/es: Hoja de cálculo UnirCeldas
+   MenuLocation: Hoja de cálculo - Unir celdas
+   Workbenches: [Hoja de cálculo](Spreadsheet_Workbench/es.md)
+   Version: 0.17
 ---
 
 # Spreadsheet MergeCells/es
@@ -30,4 +30,4 @@ La herramienta **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px">
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells/es
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells/es

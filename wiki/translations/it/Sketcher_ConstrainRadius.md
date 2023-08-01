@@ -1,6 +1,6 @@
 # Sketcher ConstrainRadius/it
 ---
-- GuiCommand:   Name:Sketcher_ConstrainRadius   Name/it:Raggio   Workbenches:[MenuLocation:Schizzo - Vincoli - Raggio   SeeAlso:[[Sketcher ConstrainDistance/it|Distanza orizzontale](Sketcher_Workbench/it___Schizzo]].md), [Distanza verticale](Sketcher_ConstrainDistanceY/it.md)---
+- GuiCommand:   Name: Sketcher_ConstrainRadius   Name/it: Raggio   Workbenches: [MenuLocation: Schizzo - Vincoli - Raggio   SeeAlso: [[Sketcher ConstrainDistance/it|Distanza orizzontale](Sketcher_Workbench/it___Schizzo]].md), [Distanza verticale](Sketcher_ConstrainDistanceY/it.md)---
 
 
 </div>
@@ -54,4 +54,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadius/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadius/it

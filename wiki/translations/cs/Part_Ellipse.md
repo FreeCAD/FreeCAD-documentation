@@ -1,6 +1,6 @@
 # Part Ellipse/cs
 ---
-- GuiCommand:   Name:Part Ellipse   Name/cs:Díl Elipsa   MenuLocation:Díl - [Workbenches:[[Part_Workbench/cs   Díl](Part_CreatePrimitives/cs___Vytváření_zákl.geom.tvarů]] - Elipsa.md),  [OpenSCAD](OpenSCAD_Workbench/cs.md)|SeeAlso:..---
+- GuiCommand:   Name: Part Ellipse   Name/cs: Díl Elipsa   MenuLocation: Díl - [Workbenches: [[Part_Workbench/cs   Díl](Part_CreatePrimitives/cs___Vytváření_zákl.geom.tvarů]] - Elipsa.md),  [OpenSCAD](OpenSCAD_Workbench/cs.md)|SeeAlso: ..---
 
 
 </div>
@@ -123,4 +123,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipse/cs
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipse/cs

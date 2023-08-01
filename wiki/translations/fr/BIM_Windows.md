@@ -1,10 +1,10 @@
 ---
 - GuiCommand:Addon/fr
-   Name:BIM Windows
-   Name/fr:BIM Fenêtres
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/fr.md)
-   Addon:BIM
-   MenuLocation:Manage - Manage doors and windows
+   Name: BIM Windows
+   Name/fr: BIM Fenêtres
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/fr.md)
+   Addon: BIM
+   MenuLocation: Manage - Manage doors and windows
 ---
 
 # BIM Windows/fr
@@ -20,4 +20,4 @@ La boîte de dialogue Gestionnaire de fenêtres BIM vous permet de parcourir et 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Windows/fr
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Windows/fr

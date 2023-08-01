@@ -1,7 +1,4 @@
 # FreeCAD Build Tool/ro
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 Instrumentul de construcție **FreeCAD build tool** sau **fcbt** este un script python localizat la:
@@ -84,4 +81,4 @@ Comanda \"CM\" [creates a new application module (Workbench)](Workbench_creation
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Build Tool/ro
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Build Tool/ro

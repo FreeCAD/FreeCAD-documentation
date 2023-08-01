@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:TechDraw ClipGroup
-   MenuLocation:TechDraw - Clipped Views - Insert Clip Group
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw Add Clip Group](TechDraw_ClipGroupAdd.md), [TechDraw Remove Clip Group](TechDraw_ClipGroupRemove.md)
+   Name: TechDraw ClipGroup
+   MenuLocation: TechDraw - Clipped Views - Insert Clip Group
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   SeeAlso: [TechDraw Add Clip Group](TechDraw_ClipGroupAdd.md), [TechDraw Remove Clip Group](TechDraw_ClipGroupRemove.md)
 ---
 
 # TechDraw ClipGroup/en
@@ -48,4 +48,4 @@ The **TechDraw ClipGroup** tool creates a clipping window which can contain View
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroup/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroup/en

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FCGear LanternGear
-   Name/pl:Gear: Koło drabinkowe
-   MenuLocation:Gear - Koło drabinkowe
-   Workbenches:[FCGear](FCGear_Workbench/pl.md)
-   Version:v0.16
-   SeeAlso:
+   Name: FCGear LanternGear
+   Name/pl: Gear: Koło drabinkowe
+   MenuLocation: Gear - Koło drabinkowe
+   Workbenches: [FCGear](FCGear_Workbench/pl.md)
+   Version: v0.16
+   SeeAlso: 
 ---
 
 # FCGear LanternGear/pl
@@ -94,4 +94,4 @@ Obiekt LanternGear wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear LanternGear/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear LanternGear/pl

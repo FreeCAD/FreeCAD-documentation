@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher_BSplineIncreaseKnotMultiplicity
-   Name/it:Aumenta la molteplicità di nodo
-   MenuLocation:Sketch - Strumeti B-spline - Aumenta la molteplicità di nodo
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   Version:0.17
-   SeeAlso:[Crea B-spline](Sketcher_CompCreateBSpline/it.md)
+   Name: Sketcher_BSplineIncreaseKnotMultiplicity
+   Name/it: Aumenta la molteplicità di nodo
+   MenuLocation: Sketch - Strumeti B-spline - Aumenta la molteplicità di nodo
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   Version: 0.17
+   SeeAlso: [Crea B-spline](Sketcher_CompCreateBSpline/it.md)
 ---
 
 # Sketcher BSplineIncreaseKnotMultiplicity/it
@@ -75,4 +75,4 @@ One can see that the spline with knot multiplicity 1 is completely changed while
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineIncreaseKnotMultiplicity/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineIncreaseKnotMultiplicity/it

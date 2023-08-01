@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher Copy
-   Name/ro:Sketcher: Copiere
-   Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation:Sketch - Sketcher tools - Copiere
-   Version:0.16
-   SeeAlso:[Sketcher Clonă](Sketcher_Clone/ro.md), [Sketcher Move](Sketcher_Move/ro.md)
+   Name: Sketcher Copy
+   Name/ro: Sketcher: Copiere
+   Workbenches: [Sketcher](Sketcher_Workbench/ro.md)
+   MenuLocation: Sketch - Sketcher tools - Copiere
+   Version: 0.16
+   SeeAlso: [Sketcher Clonă](Sketcher_Clone/ro.md), [Sketcher Move](Sketcher_Move/ro.md)
 ---
 
 # Sketcher Copy/ro
@@ -48,4 +48,4 @@ Nu sunt adăugate extra constrâgeri pentru comportamentul copiei.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Copy/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Copy/ro

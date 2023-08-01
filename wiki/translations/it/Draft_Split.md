@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Split
-   Name/it:Dividi
-   MenuLocation:Modifiche - Dividi
-   Workbenches:[Draft](Draft_Workbench/it.md),  [Arch](Arch_Workbench/it.md)
-   Shortcut:**S** **P**
-   Version:0.18
-   SeeAlso:[Unisci](Draft_Join/it.md)
+   Name: Draft Split
+   Name/it: Dividi
+   MenuLocation: Modifiche - Dividi
+   Workbenches: [Draft](Draft_Workbench/it.md),  [Arch](Arch_Workbench/it.md)
+   Shortcut: **S** **P**
+   Version: 0.18
+   SeeAlso: [Unisci](Draft_Join/it.md)
 ---
 
 # Draft Split/it
@@ -83,4 +83,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Split/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Split/it

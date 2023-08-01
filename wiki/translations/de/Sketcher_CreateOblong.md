@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateOblong
-   Name/de:Sketcher AbgerundetesRechteckErstellen
-   MenuLocation:Sketch - Skizzengeometrien - Abgerundetes Rechteck erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **O**
-   Version:0.20
-   SeeAlso:[Sketcher RechteckErstellen](Sketcher_CreateRectangle/de.md)
+   Name: Sketcher CreateOblong
+   Name/de: Sketcher AbgerundetesRechteckErstellen
+   MenuLocation: Sketch - Skizzengeometrien - Abgerundetes Rechteck erstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **O**
+   Version: 0.20
+   SeeAlso: [Sketcher RechteckErstellen](Sketcher_CreateRectangle/de.md)
 ---
 
 # Sketcher CreateOblong/de
@@ -37,4 +37,4 @@ Dieses Werkzeug zeichnet ein abgerundetes Rechteck, indem zwei gegenüberliegend
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOblong/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOblong/de

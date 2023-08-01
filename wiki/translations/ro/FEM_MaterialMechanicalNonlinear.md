@@ -1,6 +1,6 @@
 # FEM MaterialMechanicalNonlinear/ro
 ---
-- GuiCommand:   Name:FEM MaterialMechanicalNonlinear   MenuLocation: Model - Nonlinear mechanical material   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
+- GuiCommand:   Name: FEM MaterialMechanicalNonlinear   MenuLocation:  Model - Nonlinear mechanical material   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
 
 
 </div>
@@ -34,4 +34,4 @@ Adds nonlinear mechanical material model. Currently only plasticity with simple 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialMechanicalNonlinear/ro
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialMechanicalNonlinear/ro

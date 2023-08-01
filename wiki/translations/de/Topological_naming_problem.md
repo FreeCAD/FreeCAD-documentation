@@ -2,7 +2,7 @@
 ## Einleitung
 
 
-{{TOCright}}
+
 
 Das [topologische Benennungsproblem](topological_naming_problem/de.md) in FreeCAD bezieht sich auf die Frage, ob eine Form ihren internen Namen nach einer Modellierungsoperation (Polstern, Schnitt, Vereinigung, Fase, Verrundung, usw.) ändert. Dies führt dazu, dass andere parametrische Merkmale, die von dieser Form abhängen, brechen oder falsch berechnet werden. Dieser Sachverhalt betrifft alle Objekte in FreeCAD, ist aber besonders bemerkenswert, wenn Volumenkörper mit der <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Arbeitsbereich PartDesign](PartDesign_Workbench/de.md) erstellt und diese mit der <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) dimensioniert werden.
 
@@ -129,4 +129,4 @@ Bezugsobjekte, [Punkte](PartDesign_Point/de.md), [Linien](PartDesign_Line/de.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [TechDraw](Category_TechDraw.md) > [PartDesign](Category_PartDesign.md) > [Part](Category_Part.md) > Topological naming problem/de
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [TechDraw](Category_TechDraw.md) > [PartDesign](Category_PartDesign.md) > [Part](Category_Part.md) > Topological naming problem/de

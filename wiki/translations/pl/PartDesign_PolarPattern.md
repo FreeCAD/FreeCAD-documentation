@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign PolarPattern
-   Name/pl:Projekt Części: Szyk kołowy
-   MenuLocation:Projekt Części - Zastosuj szyk - Szyk kołowy
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   SeeAlso:[Transformacja wielokrotna](PartDesign_MultiTransform/pl.md)
+   Name: PartDesign PolarPattern
+   Name/pl: Projekt Części: Szyk kołowy
+   MenuLocation: Projekt Części - Zastosuj szyk - Szyk kołowy
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   SeeAlso: [Transformacja wielokrotna](PartDesign_MultiTransform/pl.md)
 ---
 
 # PartDesign PolarPattern/pl
@@ -135,4 +135,4 @@ Jeśli niektóre z wybranych cech są addytywne, a inne subtraktywne, ich kolejn
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/pl

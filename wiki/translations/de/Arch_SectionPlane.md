@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch SectionPlane
-   Name/de:Arch SchnittEbene
-   MenuLocation:Arch - Schnittebene
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   Shortcut:**S** **P**
-   SeeAlso:[Entwurf Form2DAnsicht](Draft_Shape2DView/de.md), [TechDraw ArchAnsicht](TechDraw_ArchView/de.md)
+   Name: Arch SectionPlane
+   Name/de: Arch SchnittEbene
+   MenuLocation: Arch - Schnittebene
+   Workbenches: [Arch](Arch_Workbench/de.md)
+   Shortcut: **S** **P**
+   SeeAlso: [Entwurf Form2DAnsicht](Draft_Shape2DView/de.md), [TechDraw ArchAnsicht](TechDraw_ArchView/de.md)
 ---
 
 # Arch SectionPlane/de
@@ -163,4 +163,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/de

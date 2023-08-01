@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw DecorateLine
-   Name/de:TechDraw LiniendarstellungÄndern
-   MenuLocation:TechDraw - Liniendarstellung ändern
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[TechDraw  Mittelinie zu Fläche(n)](TechDraw_FaceCenterLine/de.md), [TechDraw  Kosmetik Radierer](TechDraw_CosmeticEraser/de.md)
+   Name: TechDraw DecorateLine
+   Name/de: TechDraw LiniendarstellungÄndern
+   MenuLocation: TechDraw - Liniendarstellung ändern
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [TechDraw  Mittelinie zu Fläche(n)](TechDraw_FaceCenterLine/de.md), [TechDraw  Kosmetik Radierer](TechDraw_CosmeticEraser/de.md)
 ---
 
 # TechDraw DecorateLine/de
@@ -74,4 +74,4 @@ Das Werkzeug Liniendarstellung ändern ändert die Darstellung von Kanten.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DecorateLine/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DecorateLine/de

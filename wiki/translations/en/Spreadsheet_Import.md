@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet Import
-   MenuLocation:Spreadsheet - Import spreadsheet
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
-   Version:0.17
-   SeeAlso:[Spreadsheet Export](Spreadsheet_Export.md)
+   Name: Spreadsheet Import
+   MenuLocation: Spreadsheet - Import spreadsheet
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench.md)
+   Version: 0.17
+   SeeAlso: [Spreadsheet Export](Spreadsheet_Export.md)
 ---
 
 # Spreadsheet Import/en
@@ -33,4 +33,4 @@ The **[<img src=images/Spreadsheet_Import.svg style="width:16px"> [Spreadsheet I
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Import/en
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Import/en

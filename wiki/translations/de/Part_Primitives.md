@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Primitives
-   Name/de:Part Grundelemente
-   MenuLocation:Formteil - Grundkörper erstellen...
-   Workbenches:[Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
-   SeeAlso:[Part Formgenerator](Part_Builder/de.md)
+   Name: Part Primitives
+   Name/de: Part Grundelemente
+   MenuLocation: Formteil - Grundkörper erstellen...
+   Workbenches: [Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
+   SeeAlso: [Part Formgenerator](Part_Builder/de.md)
 ---
 
 # Part Primitives/de
@@ -118,4 +118,4 @@ freecad $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Primitives/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Primitives/de

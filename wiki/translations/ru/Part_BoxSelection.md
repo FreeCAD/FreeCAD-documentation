@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Выделить область
-   Name:Part_BoxSelection
-   MenuLocation:Part - Выделить область
-   Workbenches:[Part](Part_Workbench/ru.md)
-   Version:0.18
-   SeeAlso:[Выделить область](Std_BoxSelection/ru.md), [Область выбора элементов](Std_BoxElementSelection/ru.md), [Выбрать всё](Std_SelectAll/ru.md)
+   Name/ru: Выделить область
+   Name: Part_BoxSelection
+   MenuLocation: Part - Выделить область
+   Workbenches: [Part](Part_Workbench/ru.md)
+   Version: 0.18
+   SeeAlso: [Выделить область](Std_BoxSelection/ru.md), [Область выбора элементов](Std_BoxElementSelection/ru.md), [Выбрать всё](Std_SelectAll/ru.md)
 ---
 
 # Part BoxSelection/ru
@@ -32,4 +32,4 @@ The **<img src="images/Part_BoxSelection.svg" width=16px> [Part BoxSelection](Pa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BoxSelection/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BoxSelection/ru

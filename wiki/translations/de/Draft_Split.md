@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Split
-   Name/de:Entwurf Teilen
-   MenuLocation:Änderung - Teilen
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
-   Shortcut:**S** **P**
-   Version:0.18
-   SeeAlso:[Entwurf Verbinden](Draft_Join/de.md)
+   Name: Draft Split
+   Name/de: Entwurf Teilen
+   MenuLocation: Änderung - Teilen
+   Workbenches: [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   Shortcut: **S** **P**
+   Version: 0.18
+   SeeAlso: [Entwurf Verbinden](Draft_Join/de.md)
 ---
 
 # Draft Split/de
@@ -79,4 +79,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Split/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Split/de

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainPointOnObject
-   Name/de:Sketcher PunktAufObjektFestlegen
-   MenuLocation:Sketch - Skizzen-Beschränkungen - Punkt auf Objekt festlegen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**O**
-   SeeAlso:[Sketcher KoinzidentFestlegen](Sketcher_ConstrainCoincident/de.md)
+   Name: Sketcher ConstrainPointOnObject
+   Name/de: Sketcher PunktAufObjektFestlegen
+   MenuLocation: Sketch - Skizzen-Beschränkungen - Punkt auf Objekt festlegen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **O**
+   SeeAlso: [Sketcher KoinzidentFestlegen](Sketcher_ConstrainCoincident/de.md)
 ---
 
 # Sketcher ConstrainPointOnObject/de
@@ -50,4 +50,4 @@ Die Seite [Sketcher Skripten](Sketcher_scripting/de.md) erklärt, wie man die Za
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/de

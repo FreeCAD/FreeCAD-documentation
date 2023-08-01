@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Raytracing New
-   Name/de:Raytracing Neu
-   MenuLocation:Raytracing - Neues Pov-Ray Projekt‏‎|
-   Workbenches:[Raytracing](Raytracing_Workbench/de.md)
-   Shortcut:
-   SeeAlso:
+   Name: Raytracing New
+   Name/de: Raytracing Neu
+   MenuLocation: Raytracing - Neues Pov-Ray Projekt‏‎|
+   Workbenches: [Raytracing](Raytracing_Workbench/de.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Raytracing New/de
@@ -78,4 +78,4 @@ Zusätzliche Projektkonfigurationen würden die Definition von zusätzlichen Vor
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing New/de
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing New/de

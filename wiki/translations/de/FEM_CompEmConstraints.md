@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM CompEmConstraints
-   Name/de:FEM AuswahlEmRandbedingungen
-   MenuLocation:
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   Version:0.21
-   SeeAlso:
+   Name: FEM CompEmConstraints
+   Name/de: FEM AuswahlEmRandbedingungen
+   MenuLocation: 
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   Version: 0.21
+   SeeAlso: 
 ---
 
 # FEM CompEmConstraints/de
@@ -37,4 +37,4 @@ Drei Randbedingungen stehen zur Wahl:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM CompEmConstraints/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM CompEmConstraints/de

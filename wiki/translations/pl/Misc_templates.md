@@ -83,4 +83,4 @@ Kompas Róża 3D [CompassRose_3D.FCStd](http://forum.freecadweb.org/download/fil
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Drawing](Category_Drawing.md) > Misc templates/pl
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Drawing](Category_Drawing.md) > Misc templates/pl

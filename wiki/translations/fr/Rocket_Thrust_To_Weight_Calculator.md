@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Rocket Thrust To Weight Calculator
-   Name/fr:Rocket Calcul poussée par rapport au poids
-   Icon:Rocket_Calculator.svg
-   MenuLocation:Rocket - Calculators - Thrust To Weight Calculator
-   Workbenches:[Rocket](Rocket_Workbench/fr.md)
-   Version:0.19
+   Name: Rocket Thrust To Weight Calculator
+   Name/fr: Rocket Calcul poussée par rapport au poids
+   Icon: Rocket_Calculator.svg
+   MenuLocation: Rocket - Calculators - Thrust To Weight Calculator
+   Workbenches: [Rocket](Rocket_Workbench/fr.md)
+   Version: 0.19
 ---
 
 # Rocket Thrust To Weight Calculator/fr
@@ -44,4 +44,4 @@ Les calculs sont effectués en unités métriques, mais s\'affichent dans les un
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Thrust To Weight Calculator/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Thrust To Weight Calculator/fr

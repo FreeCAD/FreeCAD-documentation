@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Cone
-   MenuLocation:Part - Primitives - Cone
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part Primitives](Part_Primitives.md)
+   Name: Part Cone
+   MenuLocation: Part - Primitives - Cone
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Part Primitives](Part_Primitives.md)
 ---
 
 # Part Cone/pt-br
@@ -108,4 +108,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/pt-br
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/pt-br

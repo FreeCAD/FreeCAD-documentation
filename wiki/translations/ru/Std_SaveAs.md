@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_SaveAs
-   Name/ru:Сохранить как...
-   MenuLocation:[Файл](Std_File_Menu/ru.md) - Сохранить как...
-   Workbenches:Все
-   SeeAlso:[Сохранить копию](Std_SaveCopy/ru.md),<br> [Cохранить](Std_Save/ru.md)
+   Name: Std_SaveAs
+   Name/ru: Сохранить как...
+   MenuLocation: [Файл](Std_File_Menu/ru.md) - Сохранить как...
+   Workbenches: Все
+   SeeAlso: [Сохранить копию](Std_SaveCopy/ru.md),<br> [Cохранить](Std_Save/ru.md)
 ---
 
 # Std SaveAs/ru
@@ -51,4 +51,4 @@ To save a document under a new name use the `saveAs` method of the document obje
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SaveAs/ru
+⏵ [documentation index](../README.md) > Std SaveAs/ru

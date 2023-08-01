@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintCoincidence
-   Name/fr:Assembly3 Contrainte de coïncidence
-   Icon:Assembly_ConstraintCoincidence.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 ConstraintCoincidence
+   Name/fr: Assembly3 Contrainte de coïncidence
+   Icon: Assembly_ConstraintCoincidence.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintCoincidence/fr
@@ -44,4 +44,4 @@ Dans la vie réelle, les formes des objets permettent la rotation et empêchent 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintCoincidence/fr
+⏵ [documentation index](../README.md) > Assembly3 ConstraintCoincidence/fr

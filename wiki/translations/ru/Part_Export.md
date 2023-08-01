@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Экспорт в CAD
-   Name:Part_Export‎
-   MenuLocation:Part - Экспорт в CAD ...
-   Workbenches:[Part](Part_Workbench/ru.md)
-   SeeAlso:[Импорт CAD...](Part_Import/ru.md), [Экспортировать...](Std_Export/ru.md), [Import Export](Import_Export/ru.md)
+   Name/ru: Экспорт в CAD
+   Name: Part_Export‎
+   MenuLocation: Part - Экспорт в CAD ...
+   Workbenches: [Part](Part_Workbench/ru.md)
+   SeeAlso: [Импорт CAD...](Part_Import/ru.md), [Экспортировать...](Std_Export/ru.md), [Import Export](Import_Export/ru.md)
 ---
 
 # Part Export/ru
@@ -34,4 +34,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Export/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Export/ru

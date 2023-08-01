@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPointsCoincident
-   Icon:Assembly_ConstraintPointCoincident.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintPointsCoincident
+   Icon: Assembly_ConstraintPointCoincident.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintPointsCoincident
@@ -39,4 +39,4 @@ In real life we cannot handle points and so spherical faces are used to represen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointsCoincident
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPointsCoincident

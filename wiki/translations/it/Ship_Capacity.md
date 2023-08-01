@@ -1,6 +1,6 @@
 # Ship Capacity/it
 ---
-- GuiCommand:   Name:Ship TankCapacity   Name/it:Capacità serbatoio   MenuLocation:Weights - Curva di capacità del serbatoio   |Workbenches:[[Ship Workbench/it   Ship]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Ship TankCapacity   Name/it: Capacità serbatoio   MenuLocation: Weights - Curva di capacità del serbatoio   |Workbenches: [[Ship Workbench/it   Ship]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -31,4 +31,4 @@ Da fare
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Capacity/it
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Capacity/it

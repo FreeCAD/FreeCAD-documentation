@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch_Rebar_BeamReinforcement
-   Name/de:Architektur Bewehrung BalkenVerstärkung
-   MenuLocation:Arch - Bewehrungswerkzeuge oder 3D/BIM - Reinforcement - BalkenVerstärkung
-   Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[Reinforcement_Workbench/de](Reinforcement_Workbench/de.md), [Arch Rebar](Arch_Rebar/de.md), [SäulenVerstärkung ZweiBinderSechsStäbe](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/de.md), [Architektur Bewehrung](Arch_Rebar/de.md)
+   Name: Arch_Rebar_BeamReinforcement
+   Name/de: Architektur Bewehrung BalkenVerstärkung
+   MenuLocation: Arch - Bewehrungswerkzeuge oder 3D/BIM - Reinforcement - BalkenVerstärkung
+   Workbenches: [Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [Reinforcement_Workbench/de](Reinforcement_Workbench/de.md), [Arch Rebar](Arch_Rebar/de.md), [SäulenVerstärkung ZweiBinderSechsStäbe](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/de.md), [Architektur Bewehrung](Arch_Rebar/de.md)
 ---
 
 # Arch Rebar BeamReinforcement/de
@@ -397,4 +397,4 @@ RebarGroup = TwoLeggedBeam.makeReinforcement(
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar BeamReinforcement/de
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar BeamReinforcement/de

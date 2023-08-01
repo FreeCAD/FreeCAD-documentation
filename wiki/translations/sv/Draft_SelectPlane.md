@@ -1,6 +1,6 @@
 # Draft SelectPlane/sv
 ---
-- GuiCommand:   Name:Draft_Workingplane   Workbenches:[[Draft_Workbench/sv   Skiss]]|MenuLocation:Drafting - SelectPlane---
+- GuiCommand:   Name: Draft_Workingplane   Workbenches: [[Draft_Workbench/sv   Skiss]]|MenuLocation: Drafting - SelectPlane---
 
 
 </div>
@@ -141,4 +141,4 @@ print(projection)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectPlane/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectPlane/sv

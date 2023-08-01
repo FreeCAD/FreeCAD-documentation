@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionPositionSectionView
-   MenuLocation:TechDraw - Extensions: Attributes/Modifications - Position Section View
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:
+   Name: TechDraw ExtensionPositionSectionView
+   MenuLocation: TechDraw - Extensions: Attributes/Modifications - Position Section View
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: 
 ---
 
 # TechDraw ExtensionPositionSectionView/en
@@ -36,4 +36,4 @@ The **TechDraw ExtensionPositionSectionView** tool orthogonally aligns a section
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPositionSectionView/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPositionSectionView/en

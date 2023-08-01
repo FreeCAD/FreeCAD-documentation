@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch CompPipe
-   MenuLocation:Arch - Pipe tools
-   Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
-   Version:0.17
-   SeeAlso:
+   Name: Arch CompPipe
+   MenuLocation: Arch - Pipe tools
+   Workbenches: [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   Version: 0.17
+   SeeAlso: 
 ---
 
 # Arch CompPipe/pl
@@ -22,4 +22,4 @@ Grouping of several pipe related tools.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPipe/pl
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPipe/pl

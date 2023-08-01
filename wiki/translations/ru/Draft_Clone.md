@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Clone
-   Name/ru:Клонировать
-   MenuLocation:Черчение - Клонировать
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:**C** **L**
-   SeeAlso:[Масштаб](Draft_Scale/ru.md)
+   Name: Draft Clone
+   Name/ru: Клонировать
+   MenuLocation: Черчение - Клонировать
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: **C** **L**
+   SeeAlso: [Масштаб](Draft_Scale/ru.md)
 ---
 
 # Draft Clone/ru
@@ -104,4 +104,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Clone/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Clone/ru

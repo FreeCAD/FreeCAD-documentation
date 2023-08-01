@@ -1,6 +1,6 @@
 # Robot TrajectoryCompound/es
 ---
-- GuiCommand:   Name:Robot TrajectoryCompound   Name/es:Robot TrajectoryCompound   Workbenches:[[Robot_Workbench/es   Robot]]|MenuLocation:Robot - TrajectoryCompound---
+- GuiCommand:   Name: Robot TrajectoryCompound   Name/es: Robot TrajectoryCompound   Workbenches: [[Robot_Workbench/es   Robot]]|MenuLocation: Robot - TrajectoryCompound---
 
 
 </div>
@@ -31,4 +31,4 @@ Creates a compound out of some single trajectories.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryCompound/es
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryCompound/es

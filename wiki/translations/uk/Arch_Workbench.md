@@ -4,7 +4,7 @@
 <img alt="Arch workbench icon" src=images/Workbench_Arch.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
  Робочий простір Архітектора (Arch workbench) забезпечує сучасний [BIM](http://uk.wikipedia.org/wiki/Building_Information_Modeling) робочий процес до FreeCAD, з підтримкою таких функцій як:
 
@@ -216,4 +216,4 @@ These are additional tools to help you in specific tasks.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/uk
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/uk

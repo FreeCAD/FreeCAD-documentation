@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Raytracing WriteCamera‏‎ 
-   Name/ru:Raytracing WriteCamera‏‎ 
-   MenuLocation:Трассировка лучей - Экспорт камеры в POV-Ray
-   Workbenches:[Raytracing](Raytracing_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:
+   Name: Raytracing WriteCamera‏‎ 
+   Name/ru: Raytracing WriteCamera‏‎ 
+   MenuLocation: Трассировка лучей - Экспорт камеры в POV-Ray
+   Workbenches: [Raytracing](Raytracing_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Raytracing WriteCamera/ru
@@ -37,4 +37,4 @@ Exports the current camera properties to a pov-file for use in a POV-Ray project
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteCamera/ru
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteCamera/ru

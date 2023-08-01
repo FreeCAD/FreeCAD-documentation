@@ -1,6 +1,4 @@
 # Document structure/de
-{{TOCright}}
-
 ![](images/Screenshot_treeview.jpg ) Ein FreeCAD Dokument enthält alle Objekte deiner Arbeitsumgebung. Es kann Gruppen und Objekte enthalten, die Sie mit den Arbeitsbereichen erstellt haben. Daher kannst du zwischen Arbeitsbereichen wechseln und immer noch im selben Dokument arbeiten. Es ist das Dokument, das gespeichert wird, wenn du deine Arbeit auf Datenträger speichern. Du kannst sowohl mehrere Dokumente gleichzeitig in FreeCAD öffnen, als auch mehrere Ansichten im selben Dokument.
 
 Innerhalb des Dokuments können die Objekte in Gruppen geschoben werden und haben einen eindeutigen Namen. Das Verwalten von Gruppen, Objekten und Objektnamen wird vor allem in der [Baumansicht](Tree_view/de.md) erledigt. **Hinweis:** Es kann natürlich auch, wie alles in FreeCAD, über den [Python](Python/de.md)-Interpreter geschehen. In der [Baumansicht](Tree_view/de.md) können durch einen Rechtsklick in der [Baumansicht](Tree_view/de.md) <img alt="" src=images/Std_Group.svg  style="width:16px;"> [Gruppen](Std_Group/de.md) erstellt, Objekte in Gruppen eingefügt, Objekte oder Gruppen gelöscht, oder bei einem Objekt durch einen Doppelklick auf dessen Namen, dieses umbenannt oder eventuell andere Operationen durchgeführt werden, abhängig vom aktiven Arbeitsbereich.
@@ -39,4 +37,4 @@ FreeCADGui.ActiveDocument.ActiveView
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Document structure/de
+⏵ [documentation index](../README.md) > Document structure/de

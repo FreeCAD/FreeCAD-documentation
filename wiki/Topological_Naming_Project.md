@@ -42,4 +42,4 @@ Hard
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Topological Naming Project
+⏵ [documentation index](../README.md) > Topological Naming Project

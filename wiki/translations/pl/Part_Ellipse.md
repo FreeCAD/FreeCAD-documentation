@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Ellipse
-   Name/pl:Część Elipsoida
-   MenuLocation:Część - Utwórz geometrie pierwotne ... - Elipsa
-   Workbenches:[Część](Part_Workbench/pl.md), [OpenSCAD](OpenSCAD_Workbench/pl.md)
-   SeeAlso:[Utwórz geometrie pierwotne](Part_Primitives/pl.md)
+   Name: Part Ellipse
+   Name/pl: Część Elipsoida
+   MenuLocation: Część - Utwórz geometrie pierwotne ... - Elipsa
+   Workbenches: [Część](Part_Workbench/pl.md), [OpenSCAD](OpenSCAD_Workbench/pl.md)
+   SeeAlso: [Utwórz geometrie pierwotne](Part_Primitives/pl.md)
 ---
 
 # Part Ellipse/pl
@@ -106,4 +106,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipse/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipse/pl

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_MainFullscreen
-   Name/it:Schermo intero
-   MenuLocation:Visualizza - Schermo intero
-   Workbenches:All
-   Shortcut:**Alt**+**F11**
-   SeeAlso:[Vista 3D a schermo intero](Std_ViewFullscreen/it.md)
+   Name: Std_MainFullscreen
+   Name/it: Schermo intero
+   MenuLocation: Visualizza - Schermo intero
+   Workbenches: All
+   Shortcut: **Alt**+**F11**
+   SeeAlso: [Vista 3D a schermo intero](Std_ViewFullscreen/it.md)
 ---
 
 # Std MainFullscreen/it
@@ -31,4 +31,4 @@ Il comando **Schermo intero** attiva o disattiva la modalità a schermo intero d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MainFullscreen/it
+⏵ [documentation index](../README.md) > Std MainFullscreen/it

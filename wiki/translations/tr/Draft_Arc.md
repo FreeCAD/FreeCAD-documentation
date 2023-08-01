@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Arc
-   Name/tr:Yay
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   MenuLocation:Taslak - Yay
-   Shortcut:**A** **R**
-   Version:0.17
-   SeeAlso:[Çember](Draft_Circle/tr.md),[Elips](Draft_Ellipse/tr.md)
+   Name: Draft Arc
+   Name/tr: Yay
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   MenuLocation: Taslak - Yay
+   Shortcut: **A** **R**
+   Version: 0.17
+   SeeAlso: [Çember](Draft_Circle/tr.md),[Elips](Draft_Ellipse/tr.md)
 ---
 
 # Draft Arc/tr
@@ -166,4 +166,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc/tr

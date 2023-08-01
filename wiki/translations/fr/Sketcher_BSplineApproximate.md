@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher BSplineApproximate
-   Name/fr:Sketcher Convertir en B-spline
-   MenuLocation:Esquisse - Outils d'esquisse des B-splines - Convertir la géometrie en B-spline
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[Sketcher B-splines](Sketcher_CompCreateBSpline/fr.md)
+   Name: Sketcher BSplineApproximate
+   Name/fr: Sketcher Convertir en B-spline
+   MenuLocation: Esquisse - Outils d'esquisse des B-splines - Convertir la géometrie en B-spline
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [Sketcher B-splines](Sketcher_CompCreateBSpline/fr.md)
 ---
 
 # Sketcher BSplineApproximate/fr
@@ -39,4 +39,4 @@ Assurez-vous d\'avoir soit le [Degré d\'une B-spline](Sketcher_BSplineDegree/fr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineApproximate/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineApproximate/fr

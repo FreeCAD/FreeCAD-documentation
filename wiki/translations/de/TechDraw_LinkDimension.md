@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw Dimension Link
-   Name/de:TechDraw MaßVerknüpfen
-   MenuLocation:TechDraw - Bemaßungen - Maß mit 3D Geometrie verknüpfen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso:[TechDraw Ansicht](TechDraw_View/de.md), [TechDraw ProjektionsGruppe](TechDraw_ProjectionGroup/de.md)
+   Name: TechDraw Dimension Link
+   Name/de: TechDraw MaßVerknüpfen
+   MenuLocation: TechDraw - Bemaßungen - Maß mit 3D Geometrie verknüpfen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   SeeAlso: [TechDraw Ansicht](TechDraw_View/de.md), [TechDraw ProjektionsGruppe](TechDraw_ProjectionGroup/de.md)
 ---
 
 # TechDraw LinkDimension/de
@@ -70,4 +70,4 @@ Das Werkzeug TechDraw MaßVerknüpfen kann nicht direkt in Makros verwendet werd
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LinkDimension/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LinkDimension/de

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Pad
-   Name/de:PartDesign Aufpolsterung
-   MenuLocation:Part Design - Objekt hinzufügen - Aufpolsterung
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso:[PartDesign Tasche](PartDesign_Pocket/de.md)
+   Name: PartDesign Pad
+   Name/de: PartDesign Aufpolsterung
+   MenuLocation: Part Design - Objekt hinzufügen - Aufpolsterung
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso: [PartDesign Tasche](PartDesign_Pocket/de.md)
 ---
 
 # PartDesign Pad/de
@@ -203,4 +203,4 @@ Schrägt die Seiten eines Blocks entgegen der Extrusionsrichtung um den gegebene
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad/de

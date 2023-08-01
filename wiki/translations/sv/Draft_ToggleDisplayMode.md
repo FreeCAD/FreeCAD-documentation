@@ -1,6 +1,6 @@
 # Draft ToggleDisplayMode/sv
 ---
-- GuiCommand:   Name:Draft ToggleDisplayMode   Name/sv:Draft ToggleDisplayMode   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> Utilities -> Toggle display mode   Shortcut:Shift + Space---
+- GuiCommand:   Name: Draft ToggleDisplayMode   Name/sv: Draft ToggleDisplayMode   Workbenches: [Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation: Draft -> Utilities -> Toggle display mode   Shortcut: Shift + Space---
 
 
 </div>
@@ -24,4 +24,4 @@ The <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:24px;"> **D
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/sv

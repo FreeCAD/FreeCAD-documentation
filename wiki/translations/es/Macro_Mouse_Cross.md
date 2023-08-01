@@ -214,4 +214,4 @@ La cuadrícula es permanente.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Mouse Cross/es
+⏵ [documentation index](../README.md) > Macro Mouse Cross/es

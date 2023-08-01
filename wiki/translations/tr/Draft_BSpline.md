@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft BSpline
-   Name/tr:BSpline
-   MenuLocation:Taslak - BSpline
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
-   Shortcut:**B** **S**
-   Version:0.7
-   SeeAlso:[Tel](Draft_Wire/tr.md),[Bezier eğrisi](Draft_BezCurve/tr.md)
+   Name: Draft BSpline
+   Name/tr: BSpline
+   MenuLocation: Taslak - BSpline
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   Shortcut: **B** **S**
+   Version: 0.7
+   SeeAlso: [Tel](Draft_Wire/tr.md),[Bezier eğrisi](Draft_BezCurve/tr.md)
 ---
 
 # Draft BSpline/tr
@@ -246,4 +246,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BSpline/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BSpline/tr

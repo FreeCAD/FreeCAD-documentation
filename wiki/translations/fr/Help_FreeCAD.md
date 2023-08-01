@@ -1,6 +1,4 @@
 # Help FreeCAD/fr
-{{TOCright}}
-
 ## Introduction
 
 Si vous aimez FreeCAD et souhaitez aider le projet, vous pouvez faire beaucoup de choses, que vous préfériez investir du temps ou de l\'argent, ou que vous sachiez écrire du code ou non.
@@ -99,4 +97,4 @@ FreeCAD dispose d\'une [bibliothèque de modèles](https://github.com/FreeCAD/Fr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Command_Reference/fr|commandes de référence]] de toutes les ](Category_Command_Reference/fr|commandes de référence]] de toutes les .md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > Help FreeCAD/fr
+⏵ [documentation index](../README.md) > [Command_Reference/fr|commandes de référence]] de toutes les ](Category_Command_Reference/fr|commandes de référence]] de toutes les .md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > Help FreeCAD/fr

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Near
-   Name/pl:Rysunek Roboczy: Przyciągnij do najbliższego
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   SeeAlso:[Przyciąganie](Draft_Snap/pl.md), [Przełącz przyciąganie](Draft_Snap_Lock/pl.md)
+   Name: Draft Snap Near
+   Name/pl: Rysunek Roboczy: Przyciągnij do najbliższego
+   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   SeeAlso: [Przyciąganie](Draft_Snap/pl.md), [Przełącz przyciąganie](Draft_Snap_Lock/pl.md)
 ---
 
 # Draft Snap Near/pl
@@ -51,4 +51,4 @@ Zobacz stronę [Przyciąganie](Draft_Snap/pl#Ustawienia.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Near/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Near/pl

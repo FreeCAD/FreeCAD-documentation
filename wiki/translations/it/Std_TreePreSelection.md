@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_TreePreSelection
-   Name/it:Pre-selezione
-   MenuLocation:Visualizza - Azioni della vista ad albero - Pre-selezione
-   Workbenches:Tutti
-   Shortcut:**T** **4**
-   Version:0.19
+   Name: Std_TreePreSelection
+   Name/it: Pre-selezione
+   MenuLocation: Visualizza - Azioni della vista ad albero - Pre-selezione
+   Workbenches: Tutti
+   Shortcut: **T** **4**
+   Version: 0.19
 ---
 
 # Std TreePreSelection/it
@@ -42,4 +42,4 @@ La modalità di Pre-selezione della vista ad albero può essere impostata anche 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreePreSelection/it
+⏵ [documentation index](../README.md) > Std TreePreSelection/it

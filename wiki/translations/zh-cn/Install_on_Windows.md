@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Install on Windows/zh-cn
+⏵ [documentation index](../README.md) > Install on Windows/zh-cn

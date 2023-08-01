@@ -14,4 +14,4 @@ Această pagină afișează addon la atelierele care au o pagină în acest wiki
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Categories](Category_Categories.md) > Category:Addons/ro
+⏵ [documentation index](../README.md) > [Categories](Category_Categories.md) > Category:Addons/ro

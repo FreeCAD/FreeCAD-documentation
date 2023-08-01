@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path-Area
-   Name/fr:Path Surface
-   MenuLocation:Path - Surface
-   Workbenches:[Path](Path_Workbench/fr.md)
+   Name: Path-Area
+   Name/fr: Path Surface
+   MenuLocation: Path - Surface
+   Workbenches: [Path](Path_Workbench/fr.md)
 ---
 
 # Path Area/fr
@@ -187,4 +187,4 @@ Exemple :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Area/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Area/fr

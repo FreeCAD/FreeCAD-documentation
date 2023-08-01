@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectHorizontalAxis
-   Name/es:Corquizador SeleccionarEjeHorizontal
-   MenuLocation:Corquis - Corquizador Herramientas - Seleccionar Eje Horizontal
-   Workbenches:[Corquizador](Sketcher_Workbench/es.md)
-   Shortcut:Shift+Ctrl+H
-   Version:0.15
+   Name: Sketcher SelectHorizontalAxis
+   Name/es: Corquizador SeleccionarEjeHorizontal
+   MenuLocation: Corquis - Corquizador Herramientas - Seleccionar Eje Horizontal
+   Workbenches: [Corquizador](Sketcher_Workbench/es.md)
+   Shortcut: Shift+Ctrl+H
+   Version: 0.15
 ---
 
 # Sketcher SelectHorizontalAxis/es
@@ -50,4 +50,4 @@ Selecciona el eje horizontal de un croquis.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectHorizontalAxis/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectHorizontalAxis/es

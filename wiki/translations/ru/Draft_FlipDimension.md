@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft FlipDimension
-   Name/ru:Draft FlipDimension
-   MenuLocation:Черчение - Утилиты - Перевернуть размер
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   SeeAlso:[Размер](Draft_Dimension/ru.md)
+   Name: Draft FlipDimension
+   Name/ru: Draft FlipDimension
+   MenuLocation: Черчение - Утилиты - Перевернуть размер
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   SeeAlso: [Размер](Draft_Dimension/ru.md)
 ---
 
 # Draft FlipDimension/ru
@@ -70,4 +70,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft FlipDimension/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft FlipDimension/ru

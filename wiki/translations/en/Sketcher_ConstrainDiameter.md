@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainDiameter
-   MenuLocation:Sketch - Sketcher constraints - Constrain diameter
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**K** **O**
-   Version:0.18
-   SeeAlso:[Sketcher Constrain distance](Sketcher_ConstrainDistance.md), [Sketcher Constrain horizontal distance](Sketcher_ConstrainDistanceX.md), [Sketcher Constrain vertical distance](Sketcher_ConstrainDistanceY.md)
+   Name: Sketcher ConstrainDiameter
+   MenuLocation: Sketch - Sketcher constraints - Constrain diameter
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **K** **O**
+   Version: 0.18
+   SeeAlso: [Sketcher Constrain distance](Sketcher_ConstrainDistance.md), [Sketcher Constrain horizontal distance](Sketcher_ConstrainDistanceX.md), [Sketcher Constrain vertical distance](Sketcher_ConstrainDistanceY.md)
 ---
 
 # Sketcher ConstrainDiameter/en
@@ -52,4 +52,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDiameter/en
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDiameter/en

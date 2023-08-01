@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part ExplodeCompound
-   Name/fr:Part Éclater le composé
-   MenuLocation:Part - Composés - Éclater le composé
-   Workbenches:[Part](Part_Workbench/fr.md)
-   Version:0.18
-   SeeAlso:[Part Composé](Part_Compound/fr.md), [Draft Désagréger](Draft_Downgrade/fr.md)
+   Name: Part ExplodeCompound
+   Name/fr: Part Éclater le composé
+   MenuLocation: Part - Composés - Éclater le composé
+   Workbenches: [Part](Part_Workbench/fr.md)
+   Version: 0.18
+   SeeAlso: [Part Composé](Part_Compound/fr.md), [Draft Désagréger](Draft_Downgrade/fr.md)
 ---
 
 # Part ExplodeCompound/fr
@@ -36,4 +36,4 @@ L\'outil fera également exploser des formes non composées dans leurs constitua
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ExplodeCompound/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ExplodeCompound/fr

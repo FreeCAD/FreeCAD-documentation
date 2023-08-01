@@ -1,7 +1,7 @@
 # <img alt="L\'icona di Arch" src=images/Workbench_Arch.svg  style="width:64px;"> Arch Workbench/it
 
 
-{{TOCright}}
+
 
 
 
@@ -201,4 +201,4 @@ Il Modulo Arch può essere usato negli [Python](Python/it.md) e [macro](macros/i
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/it
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/it

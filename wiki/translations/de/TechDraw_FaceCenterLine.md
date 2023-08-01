@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw FaceCenterLine
-   Name/de:TechDraw FlächenMittellinie
-   MenuLocation:TechDraw - Linien hinzufügen - Mittellinie zu Fläche(n) hinzufügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[TechDraw Hilfspunkt](TechDraw_CosmeticVertex/de.md), [TechDraw 2LinienMittellinie](TechDraw_2LineCenterLine/de.md), [TechDraw 2PunkteMittellinie](TechDraw_2PointCenterLine/de.md), [TechDraw HilfsobjektEntfernen](TechDraw_CosmeticEraser/de.md)
+   Name: TechDraw FaceCenterLine
+   Name/de: TechDraw FlächenMittellinie
+   MenuLocation: TechDraw - Linien hinzufügen - Mittellinie zu Fläche(n) hinzufügen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [TechDraw Hilfspunkt](TechDraw_CosmeticVertex/de.md), [TechDraw 2LinienMittellinie](TechDraw_2LineCenterLine/de.md), [TechDraw 2PunkteMittellinie](TechDraw_2PointCenterLine/de.md), [TechDraw HilfsobjektEntfernen](TechDraw_CosmeticEraser/de.md)
 ---
 
 # TechDraw FaceCenterLine/de
@@ -133,4 +133,4 @@ Centerlines have no properties of their own, as they are not document objects.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw FaceCenterLine/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw FaceCenterLine/de

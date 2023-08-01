@@ -1,6 +1,4 @@
 # Sketcher Preferences/pl
-{{TOCright}}
-
 Ekran preferencji środowiska pracy <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Szkicownik](Sketcher_Workbench/pl.md) można znaleźć w [Edytorze Preferencji](Preferences_Editor/pl.md), zlokalizowane w menu **Edycja → Preferencje → Szkicownik**.
 
 Znajdują się tam cztery zakładki: [Ogólne](#Ogólne.md), [Siatka](#Siatka.md)[Wyświetlanie](#Wyświetlanie.md) and [Kolory](#Kolory.md).
@@ -295,4 +293,4 @@ Zobacz ten [temat na forum](https://forum.freecad.org/viewtopic.php?t=70975&star
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Preferences/pl
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Preferences/pl

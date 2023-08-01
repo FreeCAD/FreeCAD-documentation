@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainParallel
-   Name/pl:Szkicownik: Wiązanie równoległości
-   MenuLocation:Szkic - Wiązania szkicownika - Wiązanie równoległości
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**P**
-   SeeAlso:[Zwiąż w pionie](Sketcher_ConstrainVertical/pl.md), [Zwiąż w poziomie](Sketcher_ConstrainHorizontal/pl.md)
+   Name: Sketcher ConstrainParallel
+   Name/pl: Szkicownik: Wiązanie równoległości
+   MenuLocation: Szkic - Wiązania szkicownika - Wiązanie równoległości
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **P**
+   SeeAlso: [Zwiąż w pionie](Sketcher_ConstrainVertical/pl.md), [Zwiąż w poziomie](Sketcher_ConstrainHorizontal/pl.md)
 ---
 
 # Sketcher ConstrainParallel/pl
@@ -62,4 +62,4 @@ Strona [skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainParallel/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainParallel/pl

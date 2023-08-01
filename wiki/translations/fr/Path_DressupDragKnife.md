@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path DressupDragKnife
-   Name/fr:Path Lame rotative
-   MenuLocation:Path - Finition du parcours - Lame rotative
-   Workbenches:[Path](Path_Workbench/fr.md)
-   SeeAlso:[Path Attaches](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Dégagement d'angles](Path_DressupDogbone/fr.md)
+   Name: Path DressupDragKnife
+   Name/fr: Path Lame rotative
+   MenuLocation: Path - Finition du parcours - Lame rotative
+   Workbenches: [Path](Path_Workbench/fr.md)
+   SeeAlso: [Path Attaches](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Dégagement d'angles](Path_DressupDogbone/fr.md)
 ---
 
 # Path DressupDragKnife/fr
@@ -39,4 +39,4 @@ Cet outil ajoute au tracé existant des actions de coin et des extensions de bor
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDragKnife/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDragKnife/fr

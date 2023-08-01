@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintElectrostaticPotential
-   Name/fr:FEM Contrainte de potentiel électrostatique
-   MenuLocation:Modèle - Contraintes électrostatiques - Contrainte de potentiel électrostatique
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Exemple calcul capacité de deux sphères](FEM_Example_Capacitance_Two_Balls/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM ConstraintElectrostaticPotential
+   Name/fr: FEM Contrainte de potentiel électrostatique
+   MenuLocation: Modèle - Contraintes électrostatiques - Contrainte de potentiel électrostatique
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Exemple calcul capacité de deux sphères](FEM_Example_Capacitance_Two_Balls/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM ConstraintElectrostaticPotential/fr
@@ -52,4 +52,4 @@ La boîte de dialogue propose les paramètres suivants :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintElectrostaticPotential/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintElectrostaticPotential/fr

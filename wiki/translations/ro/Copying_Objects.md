@@ -1,6 +1,4 @@
 # Copying Objects/ro
-{{TOCright}}
-
 ## Overview
 
 
@@ -62,4 +60,4 @@ Ca multe lucruri în FreeCAD, există multe modalități de a face o copie. Pent
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Copying Objects/ro
+⏵ [documentation index](../README.md) > Copying Objects/ro

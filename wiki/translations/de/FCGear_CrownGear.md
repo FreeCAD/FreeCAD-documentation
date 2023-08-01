@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FCGear CrownGear
-   Name/de:FCGear Kronenrad
-   MenuLocation:Gear - Crown Gear
-   Workbenches:[FCGear](FCGear_Workbench/de.md)
-   Shortcut:None
-   Version:v0.16
-   SeeAlso:[FCGear Evolventenzahnrad](FCGear_InvoluteGear/de.md)
+   Name: FCGear CrownGear
+   Name/de: FCGear Kronenrad
+   MenuLocation: Gear - Crown Gear
+   Workbenches: [FCGear](FCGear_Workbench/de.md)
+   Shortcut: None
+   Version: v0.16
+   SeeAlso: [FCGear Evolventenzahnrad](FCGear_InvoluteGear/de.md)
 ---
 
 # FCGear CrownGear/de
@@ -130,4 +130,4 @@ Ein FCGear-CrownGear-Objekt wird von einem [Part-Formelement](Part_Feature/de.md
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear CrownGear/de
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear CrownGear/de

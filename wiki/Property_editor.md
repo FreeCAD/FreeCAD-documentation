@@ -254,4 +254,4 @@ print(obj.ViewObject.PropertiesList)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Property editor
+⏵ [documentation index](../README.md) > Property editor

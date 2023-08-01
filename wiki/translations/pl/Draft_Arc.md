@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Arc
-   Name/pl:Rysunek Roboczy: Łuk
-   MenuLocation:Kreślenie - Narzędzia łuku - Łuk
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut:**A** **R**
-   Version:0.7
-   SeeAlso:[Okrąg](Draft_Circle/pl.md), [Łuk przez trzy punkty](Draft_Arc_3Points/pl.md)
+   Name: Draft Arc
+   Name/pl: Rysunek Roboczy: Łuk
+   MenuLocation: Kreślenie - Narzędzia łuku - Łuk
+   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut: **A** **R**
+   Version: 0.7
+   SeeAlso: [Okrąg](Draft_Circle/pl.md), [Łuk przez trzy punkty](Draft_Arc_3Points/pl.md)
 ---
 
 # Draft Arc/pl
@@ -84,4 +84,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc/pl

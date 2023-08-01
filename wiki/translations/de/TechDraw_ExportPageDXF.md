@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExportPageDXF
-   Name/de:TechDraw BlattExportierenDXF
-   MenuLocation:TechDraw - Page - Seite als DXF-Datei exportieren 
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.18
-   SeeAlso:[TechDraw BlattExportierenSVG](TechDraw_ExportPageSVG/de.md), [Draft DXF](Draft_DXF/de.md)
+   Name: TechDraw ExportPageDXF
+   Name/de: TechDraw BlattExportierenDXF
+   MenuLocation: TechDraw - Page - Seite als DXF-Datei exportieren 
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Version: 0.18
+   SeeAlso: [TechDraw BlattExportierenSVG](TechDraw_ExportPageSVG/de.md), [Draft DXF](Draft_DXF/de.md)
 ---
 
 # TechDraw ExportPageDXF/de
@@ -92,4 +92,4 @@ TechDraw.writeDXFPage(page,filename)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExportPageDXF/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExportPageDXF/de

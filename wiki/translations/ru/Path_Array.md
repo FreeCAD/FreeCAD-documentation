@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Path Array
-   Name/ru:Path Array
-   MenuLocation:Path - Path Modification - Массив
-   Workbenches:[Path](Path_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:
+   Name: Path Array
+   Name/ru: Path Array
+   MenuLocation: Path - Path Modification - Массив
+   Workbenches: [Path](Path_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Path Array/ru
@@ -69,4 +69,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Array/ru
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Array/ru

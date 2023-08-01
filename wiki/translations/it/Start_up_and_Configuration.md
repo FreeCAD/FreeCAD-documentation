@@ -3,7 +3,7 @@
 Vedere [Note sulla versione 0.20](Release_notes_0.20/it#Core.md) per ulteriori informazioni. Questa pagina non è stata ancora aggiornata di conseguenza.**
 
 
-{{TOCright}}
+
 
 
 
@@ -455,4 +455,4 @@ Ora fai doppio clic sul file batch per avviare FreeCAD. ([vedere](https://forum.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Start](Start_Workbench.md) > Start up and Configuration/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Start](Start_Workbench.md) > Start up and Configuration/it

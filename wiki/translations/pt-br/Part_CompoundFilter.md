@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Compound‏‎Filter
-   MenuLocation:Part - Compound - Compound Filter
-   Workbenches:[Part](Part_Workbench.md)
-   Version:0.17
+   Name: Part Compound‏‎Filter
+   MenuLocation: Part - Compound - Compound Filter
+   Workbenches: [Part](Part_Workbench.md)
+   Version: 0.17
 ---
 
 # Part CompoundFilter/pt-br
@@ -71,4 +71,4 @@ If there is only one child in the result, the output is the child. If there is m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/pt-br
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/pt-br

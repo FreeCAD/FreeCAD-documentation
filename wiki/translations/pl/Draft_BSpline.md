@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft BSpline
-   Name/pl:Draft: Krzywa złożona
-   MenuLocation:Kreślenie - Krzywa złożona
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut:**B** **S**
-   SeeAlso:[Linia łamana](Draft_Wire/pl.md), [CubicBezCurve](Draft_CubicBezCurve/pl.md), [Krzywa Beziera](Draft_BezCurve/pl.md)
-   Version:0.7
+   Name: Draft BSpline
+   Name/pl: Draft: Krzywa złożona
+   MenuLocation: Kreślenie - Krzywa złożona
+   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut: **B** **S**
+   SeeAlso: [Linia łamana](Draft_Wire/pl.md), [CubicBezCurve](Draft_CubicBezCurve/pl.md), [Krzywa Beziera](Draft_BezCurve/pl.md)
+   Version: 0.7
 ---
 
 # Draft BSpline/pl
@@ -140,4 +140,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BSpline/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BSpline/pl

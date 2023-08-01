@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Icon:Sketcher MergeSketch.svg
-   Name/es:Combinar croquis
-   Workbenches:[Sketcher](Sketcher_Workbench/es.md)
-   MenuLocation:Sketch - Combinar croquis
-   Version:0.15
+   Icon: Sketcher MergeSketch.svg
+   Name/es: Combinar croquis
+   Workbenches: [Sketcher](Sketcher_Workbench/es.md)
+   MenuLocation: Sketch - Combinar croquis
+   Version: 0.15
 ---
 
 # Sketcher MergeSketches/es
@@ -39,4 +39,4 @@ Merge two or more sketches into one.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MergeSketches/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MergeSketches/es

@@ -1,8 +1,4 @@
 # Part and PartDesign/ru
-{{TOCright}}
-
-
-
 ## Обзор
 
 В течение многих лет широко обсуждались различия и особенности совместного применения верстаков <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/ru.md) и <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/ru.md).
@@ -189,4 +185,4 @@ In this example, a mirror of the tip (which is the pocket of the slot) is perfor
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign/ru
+⏵ [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign/ru

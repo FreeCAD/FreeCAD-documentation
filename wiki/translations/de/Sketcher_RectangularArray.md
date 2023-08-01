@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher RectangularArray
-   Name/de:Sketcher RechteckigeAnordnung
-   MenuLocation: Skizze - Skizzen-Werkzeuge - Rechteckige Anordnung
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**Z** **A**
-   Version:0.16
+   Name: Sketcher RectangularArray
+   Name/de: Sketcher RechteckigeAnordnung
+   MenuLocation:  Skizze - Skizzen-Werkzeuge - Rechteckige Anordnung
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **Z** **A**
+   Version: 0.16
 ---
 
 # Sketcher RectangularArray/de
@@ -62,4 +62,4 @@ Erstellt eine Anordnung ausgewählter Skizzenelemente.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RectangularArray/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RectangularArray/de

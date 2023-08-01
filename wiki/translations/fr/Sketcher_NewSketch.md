@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher NewSketch
-   Name/fr:Sketcher Créer une esquisse
-   MenuLocation:Esquisse - Créer une esquisse
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   SeeAlso:[PartDesign Esquisse](PartDesign_NewSketch/fr.md), [Sketcher Esquisse sur une face](Sketcher_MapSketch/fr.md), [Sketcher Réorienter l'esquisse](Sketcher_ReorientSketch/fr.md)
+   Name: Sketcher NewSketch
+   Name/fr: Sketcher Créer une esquisse
+   MenuLocation: Esquisse - Créer une esquisse
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   SeeAlso: [PartDesign Esquisse](PartDesign_NewSketch/fr.md), [Sketcher Esquisse sur une face](Sketcher_MapSketch/fr.md), [Sketcher Réorienter l'esquisse](Sketcher_ReorientSketch/fr.md)
 ---
 
 # Sketcher NewSketch/fr
@@ -48,4 +48,4 @@ L\'esquisse peut être déplacée dans la [vue 3D](3D_view/fr.md) en utilisant [
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/fr

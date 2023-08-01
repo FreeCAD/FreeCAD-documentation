@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Web OpenWebsite
-   MenuLocation:
-   Workbenches:[Web](Web_Workbench.md), [Start](Start_Workbench.md)
-   SeeAlso:[Web BrowserSetURL](Web_BrowserSetURL.md)
+   Name: Web OpenWebsite
+   MenuLocation: 
+   Workbenches: [Web](Web_Workbench.md), [Start](Start_Workbench.md)
+   SeeAlso: [Web BrowserSetURL](Web_BrowserSetURL.md)
 ---
 
 # Web OpenWebsite/pl
@@ -27,4 +27,4 @@ The <img alt="" src=images/Web_OpenWebsite.svg  style="width:24px;"> **Web OpenW
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web OpenWebsite/pl
+⏵ [documentation index](../README.md) > [Web](Web_Workbench.md) > Web OpenWebsite/pl

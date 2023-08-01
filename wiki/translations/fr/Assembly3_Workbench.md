@@ -1,7 +1,7 @@
 # <img alt="Icône de l\'atelier Assembly3" src=images/Assembly3_workbench_icon.svg  style="width:64px;"> Assembly3 Workbench/fr
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -634,4 +634,4 @@ Une façon de résoudre ce problème consiste simplement à supprimer toutes les
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Assembly3 Workbench/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Assembly3 Workbench/fr

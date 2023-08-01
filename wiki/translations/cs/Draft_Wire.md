@@ -1,6 +1,6 @@
 # Draft Wire/cs
 ---
-- GuiCommand:   Name:Draft_Wire   Name/cs:Kreslení Drát   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|Shortcut:W I   MenuLocation:Kreslení -> Drát   SeeAlso:[Kreslení Přímka](Draft_Line/cs.md), [Kreslení B-křivka](Draft_BSpline/cs.md)---
+- GuiCommand:   Name: Draft_Wire   Name/cs: Kreslení Drát   Workbenches: [Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|Shortcut: W I   MenuLocation: Kreslení -> Drát   SeeAlso: [Kreslení Přímka](Draft_Line/cs.md), [Kreslení B-křivka](Draft_BSpline/cs.md)---
 
 
 </div>
@@ -200,4 +200,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/cs
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/cs

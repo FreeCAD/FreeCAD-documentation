@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Measure Toggle 3D
-   MenuLocation:Measure - Toggle 3D
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part Measure Toggle All](Part_Measure_Toggle_All.md), [Part Measure Toggle Delta](Part_Measure_Toggle_Delta.md)
+   Name: Part Measure Toggle 3D
+   MenuLocation: Measure - Toggle 3D
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Part Measure Toggle All](Part_Measure_Toggle_All.md), [Part Measure Toggle Delta](Part_Measure_Toggle_Delta.md)
 ---
 
 # Part Measure Toggle 3D/pt-br
@@ -21,4 +21,4 @@ This command toggles the visibility of linear and angular measurements in the [3
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle 3D/pt-br
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle 3D/pt-br

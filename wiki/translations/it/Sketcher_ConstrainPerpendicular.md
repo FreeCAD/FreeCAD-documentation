@@ -1,6 +1,6 @@
 # Sketcher ConstrainPerpendicular/it
 ---
-- GuiCommand:   Name:Sketcher ConstrainPerpendicular   Name/it:Perpendicolare   Workbenches:[PartDesign](Sketcher_Workbench/it___Schizzo]],_[[PartDesign_Workbench/it.md)|MenuLocation:PartDesign - Schizzo - Perpendicolare   Shortcut:**N**   SeeAlso:[Angolo](Sketcher_ConstrainAngle/it.md)---
+- GuiCommand:   Name: Sketcher ConstrainPerpendicular   Name/it: Perpendicolare   Workbenches: [PartDesign](Sketcher_Workbench/it___Schizzo]],_[[PartDesign_Workbench/it.md)|MenuLocation: PartDesign - Schizzo - Perpendicolare   Shortcut: **N**   SeeAlso: [Angolo](Sketcher_ConstrainAngle/it.md)---
 
 
 </div>
@@ -180,4 +180,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPerpendicular/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPerpendicular/it

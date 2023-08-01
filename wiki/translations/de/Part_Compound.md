@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Compound‏‎
-   Name/de:Part Verbund
-   MenuLocation:Formteil - Verbund - Erzeuge Verbund
-   Workbenches:[Part](Part_Workbench/de.md)
-   Version:0.14
-   SeeAlso:[Part Verschmelzen](Part_Fuse/de.md), [Part VerbundFiltern](Part_CompoundFilter/de.md), [Part VerbundSprengen](Part_ExplodeCompound/de.md)
+   Name: Part Compound‏‎
+   Name/de: Part Verbund
+   MenuLocation: Formteil - Verbund - Erzeuge Verbund
+   Workbenches: [Part](Part_Workbench/de.md)
+   Version: 0.14
+   SeeAlso: [Part Verschmelzen](Part_Fuse/de.md), [Part VerbundFiltern](Part_CompoundFilter/de.md), [Part VerbundSprengen](Part_ExplodeCompound/de.md)
 ---
 
 # Part Compound/de
@@ -34,4 +34,4 @@ Um diese Prüfung einzuschalten, gehe zu **Werkzeuge → Parameter bearbeiten �
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/de

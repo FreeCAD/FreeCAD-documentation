@@ -1,8 +1,4 @@
 # Part Part2DObject/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 <img alt="" src=images/Tree_Part2D.svg  style="width:32px;">
@@ -108,4 +104,4 @@ obj.Label = "Custom label"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Part2DObject/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Part2DObject/pl

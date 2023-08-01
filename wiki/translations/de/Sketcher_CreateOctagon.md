@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateOctagon
-   Name/de:Sketcher AchteckErstellen
-   MenuLocation:Sketch - Skizzengeometrien - Achteck erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **P** **8**
-   Version:0.15
+   Name: Sketcher CreateOctagon
+   Name/de: Sketcher AchteckErstellen
+   MenuLocation: Sketch - Skizzengeometrien - Achteck erstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **P** **8**
+   Version: 0.15
 ---
 
 # Sketcher CreateOctagon/de
@@ -36,4 +36,4 @@ Der umschriebene Kreis ist Konstruktionsgeometrie, die nur bei der Bearbeitung d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOctagon/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOctagon/de

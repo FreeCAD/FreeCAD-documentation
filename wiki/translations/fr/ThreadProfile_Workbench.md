@@ -6,4 +6,4 @@ La documentation complète peut être trouvée sur Github: [ThreadProfile Workbe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > ThreadProfile Workbench/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > ThreadProfile Workbench/fr

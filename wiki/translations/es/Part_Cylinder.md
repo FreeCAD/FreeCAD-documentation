@@ -1,6 +1,6 @@
 # Part Cylinder/es
 ---
-- GuiCommand:   Name:Part Cylinder   Name/es:Part Cylinder   MenuLocation:Part - Cylinder   |Workbenches:[SeeAlso:[[Part CreatePrimitives/es|Part CreatePrimitives](Part_Workbench/es___Part]],_Complete.md)---
+- GuiCommand:   Name: Part Cylinder   Name/es: Part Cylinder   MenuLocation: Part - Cylinder   |Workbenches: [SeeAlso: [[Part CreatePrimitives/es|Part CreatePrimitives](Part_Workbench/es___Part]],_Complete.md)---
 
 
 </div>
@@ -108,4 +108,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cylinder/es
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cylinder/es

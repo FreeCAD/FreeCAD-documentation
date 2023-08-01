@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw LengthDimension
-   Name/fr:TechDraw Cote de longueur
-   MenuLocation:TechDraw - Dimensions - Insérer une cote de longueur
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Cote horizontale](TechDraw_HorizontalDimension/fr.md), [TechDraw Cote verticale](TechDraw_VerticalDimension/fr.md)
+   Name: TechDraw LengthDimension
+   Name/fr: TechDraw Cote de longueur
+   MenuLocation: TechDraw - Dimensions - Insérer une cote de longueur
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   SeeAlso: [TechDraw Cote horizontale](TechDraw_HorizontalDimension/fr.md), [TechDraw Cote verticale](TechDraw_VerticalDimension/fr.md)
 ---
 
 # TechDraw LengthDimension/fr
@@ -416,4 +416,4 @@ rc = page.addView(dim1)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LengthDimension/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LengthDimension/fr

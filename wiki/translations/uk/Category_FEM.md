@@ -10,4 +10,4 @@ This category lists pages related to the [FEM Workbench/uk](FEM_Workbench/uk.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:FEM/uk
+⏵ [documentation index](../README.md) > Category:FEM/uk

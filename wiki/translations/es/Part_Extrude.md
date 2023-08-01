@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Extrude
-   Name/es:Pieza Extruye
-   MenuLocation:Pieza - Extrusión
-   Workbenches:[Pieza](Part_Workbench/es.md)
-   SeeAlso:[Draft Trimex](Draft_Trimex/es.md)
+   Name: Part Extrude
+   Name/es: Pieza Extruye
+   MenuLocation: Pieza - Extrusión
+   Workbenches: [Pieza](Part_Workbench/es.md)
+   SeeAlso: [Draft Trimex](Draft_Trimex/es.md)
 ---
 
 # Part Extrude/es
@@ -153,4 +153,4 @@ La forma de la extrusión está definida por los siguientes parámetros, que pue
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/es
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/es

@@ -9,7 +9,7 @@
 <img alt="Arch workbench icon" src=images/Workbench_Arch.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 
 
@@ -236,4 +236,4 @@ Modulul Arch poate fi folosit în scripturile [Python](Python.md) scripts și [m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/ro
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/ro

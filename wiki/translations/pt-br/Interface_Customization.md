@@ -1,8 +1,4 @@
 # Interface Customization/pt-br
-{{TOCright}}
-
-
-
 ## Introdução
 
 A interface do FreeCAD é baseada no moderno kit de ferramentas [Qt](http://en.wikipedia.org/wiki/Qt_(toolkit)) e tem uma organização de última geração. Alguns aspectos da interface podem ser personalizados. Você pode, por exemplo, adicionar barras de ferramentas personalizadas, com ferramentas de várias bancadas de trabalho (workbenches) ou ferramentas definidas em macros, e você pode criar seus próprios atalhos de teclado. Mas os menus e barras de ferramentas padrão que vêm com o FreeCAD e suas bancadas de trabalho não podem ser alterados.
@@ -274,4 +270,4 @@ In the Workbenches category of the Addon Manager some addons by user triplus can
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Interface Customization/pt-br
+⏵ [documentation index](../README.md) > Interface Customization/pt-br

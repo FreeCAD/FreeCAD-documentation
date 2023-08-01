@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw FaceCenterLine
-   Name/fr:TechDraw Ligne centrale à une face
-   MenuLocation:TechDraw - Ajouter des lignes - Ajouter une ligne centrale à des faces
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[TechDraw Point cosmétique](TechDraw_CosmeticVertex/fr.md), [TechDrawAdd Ligne centrale entre 2 lignes](TechDraw_2LineCenterLine/fr.md), [TechDraw Ligne centrale entre 2 sommets](TechDraw_2PointCenterLine/fr.md), [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md)
+   Name: TechDraw FaceCenterLine
+   Name/fr: TechDraw Ligne centrale à une face
+   MenuLocation: TechDraw - Ajouter des lignes - Ajouter une ligne centrale à des faces
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Version: 0.19
+   SeeAlso: [TechDraw Point cosmétique](TechDraw_CosmeticVertex/fr.md), [TechDrawAdd Ligne centrale entre 2 lignes](TechDraw_2LineCenterLine/fr.md), [TechDraw Ligne centrale entre 2 sommets](TechDraw_2PointCenterLine/fr.md), [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md)
 ---
 
 # TechDraw FaceCenterLine/fr
@@ -127,4 +127,4 @@ Centerlines have no properties of their own, as they are not document objects.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw FaceCenterLine/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw FaceCenterLine/fr

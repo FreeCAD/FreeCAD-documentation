@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw Quadrants
-   Name/fr:TechDraw Sommets quadrants
-   MenuLocation:TechDraw - Ajouter des sommets - Ajouter des sommets de quadrants
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[TechDraw Point cosmétique](TechDraw_CosmeticVertex/fr.md), [TechDraw Point milieu](TechDraw_Midpoints/fr.md)
+   Name: TechDraw Quadrants
+   Name/fr: TechDraw Sommets quadrants
+   MenuLocation: TechDraw - Ajouter des sommets - Ajouter des sommets de quadrants
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Version: 0.19
+   SeeAlso: [TechDraw Point cosmétique](TechDraw_CosmeticVertex/fr.md), [TechDraw Point milieu](TechDraw_Midpoints/fr.md)
 ---
 
 # TechDraw Quadrants/fr
@@ -77,4 +77,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Quadrants/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Quadrants/fr

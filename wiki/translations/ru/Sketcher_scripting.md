@@ -1,6 +1,4 @@
 # Sketcher scripting/ru
-{{TOCright}}
-
 ## Creating a SketchObject using Python 
 
 We create a SketchObject like this:
@@ -234,4 +232,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher scripting/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher scripting/ru

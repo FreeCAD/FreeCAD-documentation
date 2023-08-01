@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/es:Sketcher Copia de Carbón
-   Icon:Sketcher CarbonCopy.svg
-   MenuLocation:Sketch - Geometrías de croquis - Copia de Carbón
-   Workbenches:[Sketcher](Sketcher_Workbench/es.md)
-   Version:0.17
+   Name/es: Sketcher Copia de Carbón
+   Icon: Sketcher CarbonCopy.svg
+   MenuLocation: Sketch - Geometrías de croquis - Copia de Carbón
+   Workbenches: [Sketcher](Sketcher_Workbench/es.md)
+   Version: 0.17
 ---
 
 # Sketcher CarbonCopy/es
@@ -50,4 +50,4 @@ Dimensional constraints which exist before the copy function remain linked to th
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CarbonCopy/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CarbonCopy/es

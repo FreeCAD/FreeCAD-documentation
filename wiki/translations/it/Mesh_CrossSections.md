@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Mesh_CrossSections
-   Name/it:Sezioni
-   MenuLocation:Mesh - Taglio - Sezioni...
-   Workbenches:[Mesh](Mesh_Workbench/it.md)
-   Version:0.19
-   SeeAlso:[Sezione da mesh e piano](Mesh_SectionByPlane/it.md)
+   Name: Mesh_CrossSections
+   Name/it: Sezioni
+   MenuLocation: Mesh - Taglio - Sezioni...
+   Workbenches: [Mesh](Mesh_Workbench/it.md)
+   Version: 0.19
+   SeeAlso: [Sezione da mesh e piano](Mesh_SectionByPlane/it.md)
 ---
 
 # Mesh CrossSections/it
@@ -77,4 +77,4 @@ Vedere: [Funzioni Part](Part_Feature/it.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CrossSections/it
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CrossSections/it

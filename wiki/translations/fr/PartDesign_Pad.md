@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Pad
-   Name/fr:PartDesign Protrusion 
-   MenuLocation:Part Design - Créer une fonction additive - Protrusion
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso:[PartDesign Cavité](PartDesign_Pocket/fr.md)
+   Name: PartDesign Pad
+   Name/fr: PartDesign Protrusion 
+   MenuLocation: Part Design - Créer une fonction additive - Protrusion
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso: [PartDesign Cavité](PartDesign_Pocket/fr.md)
 ---
 
 # PartDesign Pad/fr
@@ -189,4 +189,4 @@ Génère la protrusion dans le sens opposé de l\'extrusion selon l\'angle donn�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pad/fr

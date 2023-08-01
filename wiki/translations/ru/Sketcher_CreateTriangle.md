@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Треугольник
-   Name:Sketcher_CreateTriangle
-   MenuLocation:Sketch - Геометрия эскиза - Создать равносторонний треугольник
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**G** **P** **3**
-   Version:0.15
+   Name/ru: Треугольник
+   Name: Sketcher_CreateTriangle
+   MenuLocation: Sketch - Геометрия эскиза - Создать равносторонний треугольник
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **G** **P** **3**
+   Version: 0.15
 ---
 
 # Sketcher CreateTriangle/ru
@@ -44,4 +44,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateTriangle/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateTriangle/ru

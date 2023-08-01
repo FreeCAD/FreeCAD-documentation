@@ -1,6 +1,4 @@
 # Draft Snap/ru
-{{TOCright}}
-
 ## Description
 
 In the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) and the <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch Workbench](Arch_Workbench.md) you can create geometry by picking points in the [3D view](3D_view.md) or by entering coordinates in the [task panel](Task_panel.md) of commands. Another way of selecting points is by snapping. Snapping allows to select exact geometric points on, or defined by, existing objects or the grid. You can for example snap to the endpoint of a line, to the center of a circle, or to the intersection of two edges.
@@ -95,4 +93,4 @@ Note that after changing some preferences you must restart FreeCAD.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ro:Arch Component
-   Icon:Arch Component.svg‏‎
-‏   MenuLocation:Arch - Utilities - Component‎‏‎
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   Shortcut:**C** **M**
+   Name/ro: Arch Component
+   Icon: Arch Component.svg‏‎
+‏   MenuLocation: Arch - Utilities - Component‎‏‎
+   Workbenches: [Arch](Arch_Workbench/ro.md)
+   Shortcut: **C** **M**
 ---
 
 # Arch Component/ro
@@ -152,4 +152,4 @@ Obiectul componentă Arch este, de asemenea, o bază partajată de toate celelal
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/ro
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/ro

@@ -126,4 +126,4 @@ In FC 0.18 this does not work. The View are projected from the acutal 3D view, b
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Sandbox:HowTo
+⏵ [documentation index](../README.md) > Sandbox:HowTo

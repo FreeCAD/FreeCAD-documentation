@@ -1,7 +1,7 @@
 # <img alt="Mesh Arbeitsbereichssymbol" src=images/Workbench_Mesh.svg  style="width:64px;"> Mesh Workbench/de
 
 
-{{TOCright}}
+
 
 
 
@@ -115,4 +115,4 @@ Netz Arbeitsbereichseinstellungen können in den folgenden Kategorien des [Vorei
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Mesh](Category_Mesh.md) > Mesh Workbench/de
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Mesh](Category_Mesh.md) > Mesh Workbench/de

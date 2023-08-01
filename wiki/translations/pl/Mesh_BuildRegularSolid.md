@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh BuildRegularSolid
-   Name/pl:Siatka Utwórz bryłę pierwotną
-   MenuLocation:Siatki - Utwórz bryłę pierwotną ...
-   Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   Name: Mesh BuildRegularSolid
+   Name/pl: Siatka Utwórz bryłę pierwotną
+   MenuLocation: Siatki - Utwórz bryłę pierwotną ...
+   Workbenches: [Siatka](Mesh_Workbench/pl.md)
 ---
 
 # Mesh BuildRegularSolid/pl
@@ -190,4 +190,4 @@ Obiekty siatkowe utworzone za pomocą tego polecenia dziedziczą wszystkie wła�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BuildRegularSolid/pl
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BuildRegularSolid/pl

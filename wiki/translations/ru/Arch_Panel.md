@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name/ru:Паенль
-   Name:Arch_Panel
-   MenuLocation:Arch - Инструменты панелирования - Панель
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   Shortcut:**P** **A**
-   Version:0.15
-   SeeAlso:[Панельный контур](Arch_Panel_Cut/ru.md), [Панельный лист](Arch_Panel_Sheet/ru.md)
+   Name/ru: Паенль
+   Name: Arch_Panel
+   MenuLocation: Arch - Инструменты панелирования - Панель
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   Shortcut: **P** **A**
+   Version: 0.15
+   SeeAlso: [Панельный контур](Arch_Panel_Cut/ru.md), [Панельный лист](Arch_Panel_Sheet/ru.md)
 ---
 
 # Arch Panel/ru
@@ -109,4 +109,4 @@ Panel = Arch.makePanel(Rect, thickness=36)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel/ru

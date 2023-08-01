@@ -90,4 +90,4 @@ Naturalmente, i risultati visualizzati attualmente dall\'ambiente FEM non sono s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Creating FEM analyses/it
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Creating FEM analyses/it

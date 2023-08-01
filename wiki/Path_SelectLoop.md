@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path SelectLoop
-   MenuLocation:Path - Finish Selecting Loop
-   Workbenches:[Path](Path_Workbench.md)
-   Shortcut:**P** **L**
-   SeeAlso:
+   Name: Path SelectLoop
+   MenuLocation: Path - Finish Selecting Loop
+   Workbenches: [Path](Path_Workbench.md)
+   Shortcut: **P** **L**
+   SeeAlso: 
 ---
 
 # Path SelectLoop
@@ -34,4 +34,4 @@ The <img alt="" src=images/Path_SelectLoop.svg  style="width:16px;"> [SelectLoop
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SelectLoop
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SelectLoop

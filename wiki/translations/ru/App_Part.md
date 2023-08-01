@@ -1,6 +1,4 @@
 # App Part/ru
-{{TOCright}}
-
 ## Вступление
 
 <img alt="" src=images/Geofeaturegroup.svg  style="width:32px;">
@@ -31,4 +29,4 @@ See [Std Part](Std_Part#Properties.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > App Part/ru
+⏵ [documentation index](../README.md) > App Part/ru

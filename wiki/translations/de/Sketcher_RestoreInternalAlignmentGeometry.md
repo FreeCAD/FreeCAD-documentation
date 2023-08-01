@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher RestoreInternalAlignmentGeometry
-   Name/de:Sketcher InterneAusrichtungsgeometrieWiederherstellen
-   MenuLocation:Sketch - Skizzen-Werkzeuge - Interne Geometrie anzeigen / ausblenden
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**Z** **I**
-   SeeAlso:
+   Name: Sketcher RestoreInternalAlignmentGeometry
+   Name/de: Sketcher InterneAusrichtungsgeometrieWiederherstellen
+   MenuLocation: Sketch - Skizzen-Werkzeuge - Interne Geometrie anzeigen / ausblenden
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **Z** **I**
+   SeeAlso: 
 ---
 
 # Sketcher RestoreInternalAlignmentGeometry/de
@@ -47,4 +47,4 @@ Sind für das ausgewählte Element mögliche Ausrichtungen ungenutzt, wird neue 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RestoreInternalAlignmentGeometry/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RestoreInternalAlignmentGeometry/de

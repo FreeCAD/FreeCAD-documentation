@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveCylinder
-   Name/pl:Projekt Części: Addytywny walec
-   MenuLocation:Projekt Części - Utwórz cechę przez dodanie - Addytywny walec
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Komponent bryła pierwotna do dodania](PartDesign_CompPrimitiveAdditive/pl.md), [Subtraktywny walec](PartDesign_SubtractiveCylinder/pl.md)
+   Name: PartDesign AdditiveCylinder
+   Name/pl: Projekt Części: Addytywny walec
+   MenuLocation: Projekt Części - Utwórz cechę przez dodanie - Addytywny walec
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Komponent bryła pierwotna do dodania](PartDesign_CompPrimitiveAdditive/pl.md), [Subtraktywny walec](PartDesign_SubtractiveCylinder/pl.md)
 ---
 
 # PartDesign AdditiveCylinder/pl
@@ -67,4 +67,4 @@ Walec można edytować po jego utworzeniu na dwa sposoby:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCylinder/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCylinder/pl

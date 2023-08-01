@@ -3,7 +3,7 @@
 ## 简介
 
 
-{{TOCright}}
+
 
 
 <div class="mw-translate-fuzzy">
@@ -791,4 +791,4 @@ This is an A2plus-specific command. It solves the assembly constraints of the as
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > A2plus Workbench/zh-hans
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > A2plus Workbench/zh-hans

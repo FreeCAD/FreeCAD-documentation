@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw Image
-   Name/fr:TechDraw Image
-   MenuLocation:TechDraw - Insérer une image Bitmap
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Symbole SVG](TechDraw_Symbol/fr.md)
+   Name: TechDraw Image
+   Name/fr: TechDraw Image
+   MenuLocation: TechDraw - Insérer une image Bitmap
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   SeeAlso: [TechDraw Symbole SVG](TechDraw_Symbol/fr.md)
 ---
 
 # TechDraw Image/fr
@@ -91,4 +91,4 @@ dvi.Width  = 200
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Image/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Image/fr

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path Surface
-   MenuLocation:Path - 3D Surface
-   Workbenches:[Path](Path_Workbench.md)
-   Version:0.19
+   Name: Path Surface
+   MenuLocation: Path - 3D Surface
+   Workbenches: [Path](Path_Workbench.md)
+   Version: 0.19
 ---
 
 # Path Surface/ru
@@ -462,4 +462,4 @@ This section is simply a layout map of the settings in the window editor for the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Surface/ru
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Surface/ru

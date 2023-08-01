@@ -8,7 +8,7 @@
 </div>
 
 
-{{TOCright}}
+
 
 # Introduction
 
@@ -281,4 +281,4 @@ O bibliotecă pentru exploatarea și manipularea câmpului (FOAM), care este nec
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Installing additional components/ro
+⏵ [documentation index](../README.md) > Installing additional components/ro

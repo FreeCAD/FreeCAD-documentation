@@ -1,6 +1,4 @@
 # TechDraw Preferences/hr
-{{TOCright}}
-
 ## Introduction
 
 The preferences of the [TechDraw Workbench](TechDraw_Workbench.md) are found in the [Preferences Editor](Preferences_Editor.md), **Edit → Preferences → TechDraw**.
@@ -197,4 +195,4 @@ HLR stands for *hidden line removal*.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/hr
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/hr

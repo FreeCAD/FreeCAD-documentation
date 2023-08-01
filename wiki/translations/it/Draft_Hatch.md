@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Hatch
-   Name/it:Tratteggio
-   MenuLocation:Drafting - Tratteggio
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:**H** **A**
-   Version:0.20
-   SeeAlso:[Campitura](Draft_Pattern/it.md)
+   Name: Draft Hatch
+   Name/it: Tratteggio
+   MenuLocation: Drafting - Tratteggio
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut: **H** **A**
+   Version: 0.20
+   SeeAlso: [Campitura](Draft_Pattern/it.md)
 ---
 
 # Draft Hatch/it
@@ -139,4 +139,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Hatch/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Hatch/it

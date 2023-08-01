@@ -1,6 +1,4 @@
 # Scenegraph/ro
-{{TOCright}}
-
 ## Introduction
 
 
@@ -161,4 +159,4 @@ See [Coin3d snippets](Coin3d_snippets.md) courtesy of MariwanJ\'s research for t
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scenegraph/ro
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scenegraph/ro

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintSelfWeight
-   Name/de:FEM RandbedingungEigengewicht
-   MenuLocation:Modell - Mechanische Randbedingungen - Randbedingung Eigengewicht
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
+   Name: FEM ConstraintSelfWeight
+   Name/de: FEM RandbedingungEigengewicht
+   MenuLocation: Modell - Mechanische Randbedingungen - Randbedingung Eigengewicht
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   SeeAlso: [FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM ConstraintSelfWeight/de
@@ -82,4 +82,4 @@ wobei 9810 der Wert der Erdbeschleunigung in \[mm/s\^2\] ist und 0,0,-1 den Rich
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSelfWeight/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSelfWeight/de

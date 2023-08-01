@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Sketcher CompCreateArc
-   Name/de:Sketcher AuswahlBogenErstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
+   Name: Sketcher CompCreateArc
+   Name/de: Sketcher AuswahlBogenErstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
 ---
 
 # Sketcher CompCreateArc/de
@@ -31,4 +31,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateArc/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateArc/de

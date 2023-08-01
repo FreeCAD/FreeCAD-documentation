@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveHelix
-   MenuLocation:Part Design - Create an additive feature - Additive helix
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   Version:0.19
-   SeeAlso:[PartDesign SubtractiveHelix](PartDesign_SubtractiveHelix.md)
+   Name: PartDesign AdditiveHelix
+   MenuLocation: Part Design - Create an additive feature - Additive helix
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   Version: 0.19
+   SeeAlso: [PartDesign SubtractiveHelix](PartDesign_SubtractiveHelix.md)
 ---
 
 # PartDesign AdditiveHelix/en
@@ -132,4 +132,4 @@ If checked, the helix will be shown in the view, and updated automatically on ev
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveHelix/en
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveHelix/en

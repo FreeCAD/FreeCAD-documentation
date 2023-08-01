@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintSketchPlane
-   Icon:Assembly_ConstraintSketchPlane.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintSketchPlane
+   Icon: Assembly_ConstraintSketchPlane.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintSketchPlane/en
@@ -27,4 +27,4 @@ It can be used to create a skeleton sketch for 2D kinematics.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintSketchPlane/en
+⏵ [documentation index](../README.md) > Assembly3 ConstraintSketchPlane/en

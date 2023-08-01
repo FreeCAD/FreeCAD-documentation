@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Drawing Annotation
-   Name/de:Drawing Annotation
-   MenuLocation:Drawing - Anmerkung
-   Workbenches:[Drawing](Drawing_Workbench/de.md)
+   Name: Drawing Annotation
+   Name/de: Drawing Annotation
+   MenuLocation: Drawing - Anmerkung
+   Workbenches: [Drawing](Drawing_Workbench/de.md)
 ---
 
 # Drawing Annotation/de
@@ -43,4 +43,4 @@ Dieser Befehl erlaubt, einen Textblock auf einer [Zeichnungsseite](Drawing_Lands
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Annotation/de
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Annotation/de

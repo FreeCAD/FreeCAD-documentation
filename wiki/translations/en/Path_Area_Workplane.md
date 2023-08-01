@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Path Area Workplane
-   MenuLocation:Path - Area workplane
-   Workbenches:[Path](Path_Workbench.md)
+   Name: Path Area Workplane
+   MenuLocation: Path - Area workplane
+   Workbenches: [Path](Path_Workbench.md)
 ---
 
 # Path Area Workplane/en
@@ -54,4 +54,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Area Workplane/en
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Area Workplane/en

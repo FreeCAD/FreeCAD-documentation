@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher B-splines
-   Name/it:B-spline
-   Icon:Sketcher_CompCreateBSpline.png
-   MenuLocation:
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   Version:0.17
+   Name: Sketcher B-splines
+   Name/it: B-spline
+   Icon: Sketcher_CompCreateBSpline.png
+   MenuLocation: 
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   Version: 0.17
 ---
 
 # Sketcher CompCreateBSpline/it
@@ -48,4 +48,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateBSpline/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateBSpline/it

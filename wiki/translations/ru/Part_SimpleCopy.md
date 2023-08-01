@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Создать простую копию‎
-   Name:Part_SimpleCopy‎
-   MenuLocation:Part - Создать копию - Создать простую копию
-   Workbenches:[Part](Part_Workbench/ru.md)
-   SeeAlso:[Копировать](Std_Copy/ru.md), [Дублировать выбранное](Std_DuplicateSelection/ru.md), [Создать преобразованную копию](Part_TransformedCopy/ru.md), [Создать копию элемента формы](Part_ElementCopy/ru.md), [Улучшить форму](Part_RefineShape/ru.md)
+   Name/ru: Создать простую копию‎
+   Name: Part_SimpleCopy‎
+   MenuLocation: Part - Создать копию - Создать простую копию
+   Workbenches: [Part](Part_Workbench/ru.md)
+   SeeAlso: [Копировать](Std_Copy/ru.md), [Дублировать выбранное](Std_DuplicateSelection/ru.md), [Создать преобразованную копию](Part_TransformedCopy/ru.md), [Создать копию элемента формы](Part_ElementCopy/ru.md), [Улучшить форму](Part_RefineShape/ru.md)
 ---
 
 # Part SimpleCopy/ru
@@ -36,4 +36,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SimpleCopy/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SimpleCopy/ru

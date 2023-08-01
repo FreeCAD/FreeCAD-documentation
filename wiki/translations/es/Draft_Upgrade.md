@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Upgrade
-   Name/es:Borrador Elevar
-   MenuLocation:Modificación - Elevar
-   Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   Shortcut:**U** **P**
-   SeeAlso:[Borrador Rebajar](Draft_Downgrade/es.md)
+   Name: Draft Upgrade
+   Name/es: Borrador Elevar
+   MenuLocation: Modificación - Elevar
+   Workbenches: [Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Shortcut: **U** **P**
+   SeeAlso: [Borrador Rebajar](Draft_Downgrade/es.md)
 ---
 
 # Draft Upgrade/es
@@ -91,4 +91,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Upgrade/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Upgrade/es

@@ -7,7 +7,7 @@
 </div>
 
 
-{{TOCright}}
+
 
 
 
@@ -186,4 +186,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/zh
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/zh

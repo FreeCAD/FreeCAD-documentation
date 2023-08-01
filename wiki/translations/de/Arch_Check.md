@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Check
-   Name/de:Arch Überprüfen
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   MenuLocation:Arch - Dienstprogramme - Überprüfen
-   SeeAlso:[Arch SchließeLöcher](Arch_CloseHoles/de.md)
+   Name: Arch Check
+   Name/de: Arch Überprüfen
+   Workbenches: [Arch](Arch_Workbench/de.md)
+   MenuLocation: Arch - Dienstprogramme - Überprüfen
+   SeeAlso: [Arch SchließeLöcher](Arch_CloseHoles/de.md)
 ---
 
 # Arch Check/de
@@ -84,4 +84,4 @@ print(list_bad)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check/de

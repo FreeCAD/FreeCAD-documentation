@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Constraint PointOnObject
-   Name/cs:Constraint PointOnObject
-   Workbenches:[Náčrt](Sketcher_Workbench/cs.md), [Návrh dílu](PartDesign_Workbench/cs.md)
-   MenuLocation:Sketch - Sketcher constraints - Constrain point onto object
-   SeeAlso:[Vazba totožnosti](Sketcher_ConstrainCoincident/cs.md)
+   Name: Constraint PointOnObject
+   Name/cs: Constraint PointOnObject
+   Workbenches: [Náčrt](Sketcher_Workbench/cs.md), [Návrh dílu](PartDesign_Workbench/cs.md)
+   MenuLocation: Sketch - Sketcher constraints - Constrain point onto object
+   SeeAlso: [Vazba totožnosti](Sketcher_ConstrainCoincident/cs.md)
 ---
 
 # Sketcher ConstrainPointOnObject/cs
@@ -64,4 +64,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains how to identify th
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/cs
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/cs

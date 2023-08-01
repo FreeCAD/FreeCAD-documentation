@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft BezCurve
-   Name/pl:Draft: Krzywa Beziera
-   MenuLocation:Drafting - Narzędzia Beziera - Krzywa Beziera
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut:**B** **Z**
-   Version:0.14
-   SeeAlso:[CubicBezCurve](Draft_CubicBezCurve/pl.md), [Krzywa złożona](Draft_BSpline/pl.md)
+   Name: Draft BezCurve
+   Name/pl: Draft: Krzywa Beziera
+   MenuLocation: Drafting - Narzędzia Beziera - Krzywa Beziera
+   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut: **B** **Z**
+   Version: 0.14
+   SeeAlso: [CubicBezCurve](Draft_CubicBezCurve/pl.md), [Krzywa złożona](Draft_BSpline/pl.md)
 ---
 
 # Draft BezCurve/pl
@@ -147,4 +147,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BezCurve/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BezCurve/pl

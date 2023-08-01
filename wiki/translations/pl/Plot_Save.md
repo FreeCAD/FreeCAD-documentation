@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Plot Save
-   Name/pl:Wykres: Zapisz wykres
-   MenuLocation:Wykres - Zapisz wykres
-   Workbenches:[Wykres](Plot_Workbench/pl.md)
+   Name: Plot Save
+   Name/pl: Wykres: Zapisz wykres
+   MenuLocation: Wykres - Zapisz wykres
+   Workbenches: [Wykres](Plot_Workbench/pl.md)
 ---
 
 # Plot Save/pl
@@ -38,4 +38,4 @@ Wybierz kartę powierzchni, którą chcesz zapisać, i uruchom to narzędzie. U�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Save/pl
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Save/pl

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part RuledSurface
-   Name/ru:Линейчатая поверхность
-   MenuLocation:Деталь - Создать линейчатую поверхность
-   Workbenches:[Part(Деталь)](Part_Workbench/ru.md)
-   SeeAlso:[Создать грань из ломанных](Part_MakeFace/ru.md)
+   Name: Part RuledSurface
+   Name/ru: Линейчатая поверхность
+   MenuLocation: Деталь - Создать линейчатую поверхность
+   Workbenches: [Part(Деталь)](Part_Workbench/ru.md)
+   SeeAlso: [Создать грань из ломанных](Part_MakeFace/ru.md)
 ---
 
 # Part RuledSurface/ru
@@ -37,4 +37,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RuledSurface/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RuledSurface/ru

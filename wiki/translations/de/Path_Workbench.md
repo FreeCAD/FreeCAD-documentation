@@ -1,7 +1,7 @@
 # <img alt="Symbol des Arbeitsbereichs Path" src=images/Workbench_Path.svg  style="width:64px;"> Path Workbench/de
 
 
-{{TOCright}}
+
 
 
 
@@ -336,4 +336,4 @@ Siehe [Pfad Skripten](Path_scripting/de.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/de
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/de

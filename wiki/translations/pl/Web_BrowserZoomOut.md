@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Web BrowserZoomOut
-   MenuLocation:
-   Workbenches:[Web](Web_Workbench.md), [Start](Start_Workbench.md)
-   SeeAlso:
+   Name: Web BrowserZoomOut
+   MenuLocation: 
+   Workbenches: [Web](Web_Workbench.md), [Start](Start_Workbench.md)
+   SeeAlso: 
 ---
 
 # Web BrowserZoomOut/pl
@@ -27,4 +27,4 @@ Use the <img alt="" src=images/Web_BrowserZoomOut.svg  style="width:24px;"> **We
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserZoomOut/pl
+⏵ [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserZoomOut/pl

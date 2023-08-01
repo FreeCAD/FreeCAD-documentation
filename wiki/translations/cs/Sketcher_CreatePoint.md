@@ -1,6 +1,6 @@
 # Sketcher CreatePoint/cs
 ---
-- GuiCommand:   Name:Sketcher CreatePoint   Name/cs: Skicář Bod   Workbenches:[[Sketcher Workbench/cs   Skicář]]|MenuLocation:Náčrt - Skicář Konstrukce -  Vytvořit bod   SeeAlso:---
+- GuiCommand:   Name: Sketcher CreatePoint   Name/cs:  Skicář Bod   Workbenches: [[Sketcher Workbench/cs   Skicář]]|MenuLocation: Náčrt - Skicář Konstrukce -  Vytvořit bod   SeeAlso: ---
 
 
 </div>
@@ -56,4 +56,4 @@ Nástroj Bod vytvoří bod v aktuálním listu \"**Skicáře**\".
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/cs
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/cs

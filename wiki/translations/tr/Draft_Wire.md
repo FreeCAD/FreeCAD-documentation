@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Wire
-   Name/tr:Tel
-   MenuLocation:Taslak - Tel
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
-   Shortcut:**P** **L**
-   Version:0.17
-   SeeAlso:[Çizgi](Draft_Line/tr.md), [BSpline](Draft_BSpline/tr.md)
+   Name: Draft Wire
+   Name/tr: Tel
+   MenuLocation: Taslak - Tel
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   Shortcut: **P** **L**
+   Version: 0.17
+   SeeAlso: [Çizgi](Draft_Line/tr.md), [BSpline](Draft_BSpline/tr.md)
 ---
 
 # Draft Wire/tr
@@ -253,4 +253,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/tr

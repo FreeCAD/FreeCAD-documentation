@@ -1,6 +1,4 @@
 # Workbench creation/ro
-{{TOCright}}
-
 ## Introduction
 
 This page will show you how to add a new workbench to the FreeCAD interface. [Workbenches](Workbenches.md) are containers for FreeCAD commands. They can be coded in Python, in C++, or in a mix of both, which has the advantage to ally the speed of C++ to the flexibility of Python. In all cases, though, your workbench will be launched by a set of two Python files. They can be \"internal\" workbenches, included with FreeCAD\'s distribution, or \"external\" workbenches, distributed via the [Addon Manager](Std_AddonMgr.md) or installed manually by downloading from some online repository. Internal workbenches may be coded in either C++, Python, or a combination of the two, whereas external workbenches must be Python-only.
@@ -388,4 +386,4 @@ os.remove(qrc_filename)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Workbench creation/ro
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Workbench creation/ro

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Улучшить форму
-   Name:Part_RefineShape
-   MenuLocation:Деталь - Создать копию - Refine Shape
-   Workbenches:[Part](Part_Workbench/ru.md)
-   SeeAlso:[Создать простую копию](Part_SimpleCopy/ru.md), [Создать преобразованную копию](Part_TransformedCopy/ru.md), [Создать копию элемента формы](Part_ElementCopy/ru.md), [Элемент закрепления фигуры](OpenSCAD_RefineShapeFeature/ru.md)
+   Name/ru: Улучшить форму
+   Name: Part_RefineShape
+   MenuLocation: Деталь - Создать копию - Refine Shape
+   Workbenches: [Part](Part_Workbench/ru.md)
+   SeeAlso: [Создать простую копию](Part_SimpleCopy/ru.md), [Создать преобразованную копию](Part_TransformedCopy/ru.md), [Создать копию элемента формы](Part_ElementCopy/ru.md), [Элемент закрепления фигуры](OpenSCAD_RefineShapeFeature/ru.md)
 ---
 
 # Part RefineShape/ru
@@ -80,4 +80,4 @@ shape.removeSplitter()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RefineShape/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RefineShape/ru

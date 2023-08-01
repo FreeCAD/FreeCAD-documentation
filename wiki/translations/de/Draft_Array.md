@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Array
-   Name/de:Entwurf Anordnung
-   MenuLocation:Entwurf - Anordnung
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso:[PfadDatenfeld](Draft_PathArray/de.md), [Draft PointArray](Draft_PointArray/de.md), [Draft Klonen](Draft_Clone/de.md)
+   Name: Draft Array
+   Name/de: Entwurf Anordnung
+   MenuLocation: Entwurf - Anordnung
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso: [PfadDatenfeld](Draft_PathArray/de.md), [Draft PointArray](Draft_PointArray/de.md), [Draft Klonen](Draft_Clone/de.md)
 ---
 
 # Draft Array/de
@@ -91,4 +91,4 @@ This command is now obsolete. Use the [Draft OrthoArray](Draft_OrthoArray.md), [
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/de

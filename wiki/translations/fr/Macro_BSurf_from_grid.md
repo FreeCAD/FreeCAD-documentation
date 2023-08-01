@@ -225,4 +225,4 @@ Voir le docstring.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro BSurf from grid/fr
+⏵ [documentation index](../README.md) > Macro BSurf from grid/fr

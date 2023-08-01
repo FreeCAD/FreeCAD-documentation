@@ -13,4 +13,4 @@ Eine [Kalkulationstabelle](spreadsheet/de.md) ist eine Seite, die Zeilen und Spa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Spreadsheet/de
+⏵ [documentation index](../README.md) > Spreadsheet/de

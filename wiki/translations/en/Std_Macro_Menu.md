@@ -1,7 +1,7 @@
 # <img alt="Std Base icon" src=images/Freecad.svg  style="width:64px;"> Std Macro Menu/en
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -64,4 +64,4 @@ The following tools are available in this menu:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Macro Menu/en
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Macro Menu/en

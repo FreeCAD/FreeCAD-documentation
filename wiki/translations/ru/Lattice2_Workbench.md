@@ -10,7 +10,7 @@
 **Lattice2 застабилизирован. Новые возможности могут быть добавлены, но революционных изменений не ожидается.**
 
 
-{{TOCright}}
+
 
 
 <div class="mw-translate-fuzzy">
@@ -191,4 +191,4 @@ After you install the workbench, it should appear at the bottom of list of workb
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Lattice2 Workbench/ru
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Lattice2 Workbench/ru

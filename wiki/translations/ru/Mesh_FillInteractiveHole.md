@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Mesh FillInteractiveHole‏‎
-   Name/ru:Mesh FillInteractiveHole‏‎
-   MenuLocation:Сетки - Закрыть отверстие
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   Shortcut:
-   SeeAlso:
+   Name: Mesh FillInteractiveHole‏‎
+   Name/ru: Mesh FillInteractiveHole‏‎
+   MenuLocation: Сетки - Закрыть отверстие
+   Workbenches: [Mesh](Mesh_Workbench.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Mesh FillInteractiveHole/ru
@@ -44,4 +44,4 @@ The **Mesh FillInteractiveHole** command fills selected holes in mesh objects.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillInteractiveHole/ru
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillInteractiveHole/ru

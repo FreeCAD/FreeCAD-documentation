@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionLinePerpendicular
-   MenuLocation:TechDraw - Extensions: Centerlines/Threading - Add Cosmetic Perpendicular Line
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ExtensionLineParallel](TechDraw_ExtensionLineParallel.md)
+   Name: TechDraw ExtensionLinePerpendicular
+   MenuLocation: TechDraw - Extensions: Centerlines/Threading - Add Cosmetic Perpendicular Line
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ExtensionLineParallel](TechDraw_ExtensionLineParallel.md)
 ---
 
 # TechDraw ExtensionLinePerpendicular
@@ -35,4 +35,4 @@ The **TechDraw ExtensionLinePerpendicular** tool adds a cosmetic line perpendicu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionLinePerpendicular
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionLinePerpendicular

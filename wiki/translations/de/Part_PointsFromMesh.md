@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part PointsFromMesh‎
-   Name/de:Part PunkteAusGeometrie
-   MenuLocation:Part - Punktobjekt aus Geometrie erstellen
-   Workbenches:[Part](Part_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[Part FormAusNetz](Part_ShapeFromMesh/de.md), [Part FestkörperErstellen](Part_MakeSolid/de.md), [Part FormAufbereiten](Part_RefineShape/de.md)
+   Name: Part PointsFromMesh‎
+   Name/de: Part PunkteAusGeometrie
+   MenuLocation: Part - Punktobjekt aus Geometrie erstellen
+   Workbenches: [Part](Part_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [Part FormAusNetz](Part_ShapeFromMesh/de.md), [Part FestkörperErstellen](Part_MakeSolid/de.md), [Part FormAufbereiten](Part_RefineShape/de.md)
 ---
 
 # Part PointsFromMesh/de
@@ -31,4 +31,4 @@ Die resultierende Form ist ein Verbund aus Knoten, der als Referenz verwendet we
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part PointsFromMesh/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part PointsFromMesh/de

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FreeCADShip Workbench
+⏵ [documentation index](../README.md) > FreeCADShip Workbench

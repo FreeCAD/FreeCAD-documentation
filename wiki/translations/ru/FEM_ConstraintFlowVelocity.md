@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintFlowVelocity
-   Name/ru:FEM ConstraintFlowVelocity
-   Icon:Fem-constraint-flow-velocity.svg
-   MenuLocation: Model - Fluid constraints - Constraint flow velocity
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM ConstraintFlowVelocity
+   Name/ru: FEM ConstraintFlowVelocity
+   Icon: Fem-constraint-flow-velocity.svg
+   MenuLocation:  Model - Fluid constraints - Constraint flow velocity
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM ConstraintFlowVelocity/ru
@@ -96,4 +96,4 @@ It is also possible to use more than one variable. See as example the definition
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintFlowVelocity/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintFlowVelocity/ru

@@ -1,6 +1,4 @@
 # Path scripting/fr
-{{TOCright}}
-
 ## Introduction
 
 L\'atelier Path propose des outils pour importer, créer, manipuler et exporter des [parcours-outils](https://fr.wikipedia.org/wiki/Programmation_de_commande_num%C3%A9rique) dans FreeCAD. Avec eux, l\'utilisateur peut importer, voir et modifier des programmes G-Code existants, créer des chemins d\'outils depuis des formes 3D et exporter ces chemins d\'outils vers G-Code.
@@ -483,4 +481,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Path](Path_Workbench.md) > Path scripting/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Path](Path_Workbench.md) > Path scripting/fr

@@ -1,6 +1,4 @@
 # Part TopoShape/pl
-{{TOCright}}
-
 ## Wprowadzenie
 
 [Część: Kształt topologiczny](Part_TopoShape/pl.md), lub formalnie `Part::TopoShape`, jest klasą, która definiuje parametryczny **kształt topologiczny** w oprogramowaniu. Obiekty w dokumencie, które pokazują coś w oknie [widoku 3D](3D_view/pl.md) zazwyczaj mają Kształt topologiczny.
@@ -77,4 +75,4 @@ help(obj.Shape)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part TopoShape/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part TopoShape/pl

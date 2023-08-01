@@ -10,4 +10,4 @@ This category lists pages related to the [Surface Workbench/zh-hant](Surface_Wor
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Surface/zh-hant
+⏵ [documentation index](../README.md) > Category:Surface/zh-hant

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro FCConvertLines/fr
+⏵ [documentation index](../README.md) > Macro FCConvertLines/fr

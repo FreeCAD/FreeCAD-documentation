@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Preferences editor
+⏵ [documentation index](../README.md) > Preferences editor

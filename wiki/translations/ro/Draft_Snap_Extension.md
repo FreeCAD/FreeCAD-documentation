@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Extension
-   Name/ro:Draft Snap Extension
-   MenuLocation:Draft - [Snap](Draft_Snap/ro.md) - Extension
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   SeeAlso:[Draft Snap](Draft_Snap/ro.md), [Draft Snap Lock](Draft_Snap_Lock/ro.md)
+   Name: Draft Snap Extension
+   Name/ro: Draft Snap Extension
+   MenuLocation: Draft - [Snap](Draft_Snap/ro.md) - Extension
+   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   SeeAlso: [Draft Snap](Draft_Snap/ro.md), [Draft Snap Lock](Draft_Snap_Lock/ro.md)
 ---
 
 # Draft Snap Extension/ro
@@ -50,4 +50,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Extension/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Extension/ro

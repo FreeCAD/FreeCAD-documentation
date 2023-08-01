@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher External
-   Name/es:Croquizador Externo
-   MenuLocation:Croquis - Croquizador Geometrías - Croquizador Externo
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   Shortcut:X
-   SeeAlso:[Croquizador ModoConstrucción](Sketcher_ToggleConstruction/es.md)
+   Name: Sketcher External
+   Name/es: Croquizador Externo
+   MenuLocation: Croquis - Croquizador Geometrías - Croquizador Externo
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   Shortcut: X
+   SeeAlso: [Croquizador ModoConstrucción](Sketcher_ToggleConstruction/es.md)
 ---
 
 # Sketcher External/es
@@ -113,4 +113,4 @@ When the sketch edit mode is closed, external Geometry lines are not visible.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/es

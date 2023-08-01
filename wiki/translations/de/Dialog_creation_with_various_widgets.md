@@ -396,4 +396,4 @@ Die Code-Seite und die Piktogramme [Qt_Beispiel](Qt_Example/de.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Dialog creation with various widgets/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Dialog creation with various widgets/de

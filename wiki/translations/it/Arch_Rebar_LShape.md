@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch_Rebar_LShape
-   Name/it:Armatura a L
-   MenuLocation:Arch - Strumenti armatura - Armatura a L o BIM - 3D/BIM - Reinforcement - LShape Rebar 
-   Workbenches:[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   SeeAlso:[Armatura sagomata](Arch_Rebar_BentShape/it.md), [Armature](Arch_Rebar/it.md)
-   Version:0.17
+   Name: Arch_Rebar_LShape
+   Name/it: Armatura a L
+   MenuLocation: Arch - Strumenti armatura - Armatura a L o BIM - 3D/BIM - Reinforcement - LShape Rebar 
+   Workbenches: [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   SeeAlso: [Armatura sagomata](Arch_Rebar_BentShape/it.md), [Armature](Arch_Rebar/it.md)
+   Version: 0.17
 ---
 
 # Arch Rebar LShape/it
@@ -194,4 +194,4 @@ LShapeRebar.editLShapeRebar(Rebar2, 50, 50, 20, 20,
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar LShape/it
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar LShape/it

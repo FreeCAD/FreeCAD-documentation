@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher Clone
-   Name/pl:Szkicownik: Klonuj
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Klonuj
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**Z** **L**
-   Version:0.16
-   SeeAlso:[Kopiuj](Sketcher_Copy/pl.md), [Przesuń](Sketcher_Move/pl.md)
+   Name: Sketcher Clone
+   Name/pl: Szkicownik: Klonuj
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Klonuj
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **Z** **L**
+   Version: 0.16
+   SeeAlso: [Kopiuj](Sketcher_Copy/pl.md), [Przesuń](Sketcher_Move/pl.md)
 ---
 
 # Sketcher Clone/pl
@@ -42,4 +42,4 @@ Nie są dodawane żadne dodatkowe wiązania dla klona.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/pl

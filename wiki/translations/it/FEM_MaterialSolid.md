@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM_MaterialSolid
-   Name/it:FEM Materiale per solidi
-   MenuLocation:Modello - Materiale solido
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:**M** **M**
-   SeeAlso:[FEM tutorial](FEM_tutorial/it.md)
+   Name: FEM_MaterialSolid
+   Name/it: FEM Materiale per solidi
+   MenuLocation: Modello - Materiale solido
+   Workbenches: [FEM](FEM_Workbench/it.md)
+   Shortcut: **M** **M**
+   SeeAlso: [FEM tutorial](FEM_tutorial/it.md)
 ---
 
 # FEM MaterialSolid/it
@@ -68,4 +68,4 @@ Aggiunge le proprietà dei materiali ad una parte.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialSolid/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialSolid/it

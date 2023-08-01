@@ -53,4 +53,4 @@ Cette catégorie rassemble les articles de documentation s\'adressant surtout au
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Developer Documentation/fr
+⏵ [documentation index](../README.md) > Category:Developer Documentation/fr

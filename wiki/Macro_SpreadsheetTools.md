@@ -509,4 +509,4 @@ form.show()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro SpreadsheetTools
+⏵ [documentation index](../README.md) > Macro SpreadsheetTools

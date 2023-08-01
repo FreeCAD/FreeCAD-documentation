@@ -11,4 +11,4 @@ This category lists pages related to the [Image Workbench/pt-br](Image_Workbench
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Image/pt-br
+⏵ [documentation index](../README.md) > Category:Image/pt-br

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MergeProject/fr
+⏵ [documentation index](../README.md) > Std MergeProject/fr

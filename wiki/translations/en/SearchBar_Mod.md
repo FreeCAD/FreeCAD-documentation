@@ -1,7 +1,7 @@
 # <img alt="SearchBar Mod icon" src=images/SearchBarModIcon.svg  style="width:64px;"> SearchBar Mod/en
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -22,4 +22,4 @@ For manual installation see [Installing more workbenches](Installing_more_workbe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > SearchBar Mod/en
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > SearchBar Mod/en

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Преобразовать
-   Name:Std_TransformManip
-   MenuLocation:В контекстном меню древовидного обзора проекта - Преобразовать
+   Name/ru: Преобразовать
+   Name: Std_TransformManip
+   MenuLocation: В контекстном меню древовидного обзора проекта - Преобразовать
 Правка - Преобразовать
-   Workbenches:Все
-   SeeAlso:[Стандартные команды и инструменты](Std_Base/ru.md)
+   Workbenches: Все
+   SeeAlso: [Стандартные команды и инструменты](Std_Base/ru.md)
 ---
 
 # Std TransformManip/ru
@@ -48,4 +48,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TransformManip/ru
+⏵ [documentation index](../README.md) > Std TransformManip/ru

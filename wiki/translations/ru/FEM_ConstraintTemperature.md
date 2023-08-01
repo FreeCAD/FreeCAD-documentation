@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintTemperature
-   Name/ru:FEM ConstraintTemperature
-   MenuLocation:Model - Thermal Constraints - Constraint temperature
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM ConstraintTemperature
+   Name/ru: FEM ConstraintTemperature
+   MenuLocation: Model - Thermal Constraints - Constraint temperature
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM ConstraintTemperature/ru
@@ -50,4 +50,4 @@ By default the constraint defines a temperature. By using the option **Concentra
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintTemperature/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintTemperature/ru

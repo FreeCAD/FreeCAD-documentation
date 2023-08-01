@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Section
-   Name/pl:Część: Przecięcie
-   MenuLocation:Część - Operacje logiczne - Przecięcie
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Przekrój poprzeczny](Part_CrossSections/pl.md)
+   Name: Part Section
+   Name/pl: Część: Przecięcie
+   MenuLocation: Część - Operacje logiczne - Przecięcie
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: [Przekrój poprzeczny](Part_CrossSections/pl.md)
 ---
 
 # Part Section/pl
@@ -73,4 +73,4 @@ Aby utworzyć przekroje za pomocą płaszczyzny przekroju, zobacz stronę <img a
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/pl

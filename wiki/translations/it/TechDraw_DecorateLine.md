@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw DecorateLine
-   Name/it:Cambia l'aspetto delle linee
-   MenuLocation:TechDraw - Cambia l'aspetto delle linee
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Linea centro faccia](TechDraw_FaceCenterLine/it.md), [Rimuovi oggetto cosmetico](TechDraw_CosmeticEraser/it.md)
-   Version:0.19
+   Name: TechDraw DecorateLine
+   Name/it: Cambia l'aspetto delle linee
+   MenuLocation: TechDraw - Cambia l'aspetto delle linee
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso: [Linea centro faccia](TechDraw_FaceCenterLine/it.md), [Rimuovi oggetto cosmetico](TechDraw_CosmeticEraser/it.md)
+   Version: 0.19
 ---
 
 # TechDraw DecorateLine/it
@@ -81,4 +81,4 @@ Lo strumento Decora linea modifica l\'aspetto dei bordi.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DecorateLine/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DecorateLine/it

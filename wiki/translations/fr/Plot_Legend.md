@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Plot Legend
-   Name/fr:Plot Légende
-   MenuLocation:Plot - Afficher/Masquer la légende
-   Workbenches:[Plot](Plot_Workbench/fr.md)
+   Name: Plot Legend
+   Name/fr: Plot Légende
+   MenuLocation: Plot - Afficher/Masquer la légende
+   Workbenches: [Plot](Plot_Workbench/fr.md)
 ---
 
 # Plot Legend/fr
@@ -31,4 +31,4 @@ N\'oubliez pas que les styles et les étiquettes des séries de données peuvent
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Legend/fr
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Legend/fr

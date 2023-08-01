@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar Slab Reinforcement
-   MenuLocation:Arch - Rebar tools - Slab Reinforcement<br>3D/BIM - Reinforcement tools - Slab Reinforcement
-   Workbenches:[Arch](Arch_Workbench.md)
-   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Helical Rebar](Arch_Rebar_Helical.md)
+   Name: Arch Rebar Slab Reinforcement
+   MenuLocation: Arch - Rebar tools - Slab Reinforcement<br>3D/BIM - Reinforcement tools - Slab Reinforcement
+   Workbenches: [Arch](Arch_Workbench.md)
+   SeeAlso: [Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Helical Rebar](Arch_Rebar_Helical.md)
 ---
 
 # Arch Rebar Slab Reinforcement
@@ -351,4 +351,4 @@ slabReinforcementGroup = editSlabReinforcement(
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Slab Reinforcement
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Slab Reinforcement

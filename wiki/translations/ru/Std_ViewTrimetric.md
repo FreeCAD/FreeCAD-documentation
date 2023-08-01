@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Триметрическая
-   Name:Std_ViewTrimetric
-   MenuLocation:Вид - Стандартные виды‏‎ - Axonometric - Триметрическая
-   Workbenches:Все
-   SeeAlso:[Изометрическая](Std_ViewIsometric/ru.md), [Диметрическая](Std_ViewDimetric/ru.md)
+   Name/ru: Триметрическая
+   Name: Std_ViewTrimetric
+   MenuLocation: Вид - Стандартные виды‏‎ - Axonometric - Триметрическая
+   Workbenches: Все
+   SeeAlso: [Изометрическая](Std_ViewIsometric/ru.md), [Диметрическая](Std_ViewDimetric/ru.md)
 ---
 
 # Std ViewTrimetric/ru
@@ -48,4 +48,4 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewTrimetric/ru
+⏵ [documentation index](../README.md) > Std ViewTrimetric/ru

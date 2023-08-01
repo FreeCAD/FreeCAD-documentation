@@ -37,4 +37,4 @@ FreeCADGui.ActiveDocument.ActiveView
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Document structure
+⏵ [documentation index](../README.md) > Document structure

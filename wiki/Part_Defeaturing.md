@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Defeaturing
-   MenuLocation:Part - Defeaturing
-   Workbenches:[Part](Part_Workbench.md)
-   Version:0.18
-   SeeAlso:[Defeaturing Workbench](Defeaturing_Workbench.md), [Macro Parametric Defeaturing](Macro_Parametric_Defeaturing.md)
+   Name: Part Defeaturing
+   MenuLocation: Part - Defeaturing
+   Workbenches: [Part](Part_Workbench.md)
+   Version: 0.18
+   SeeAlso: [Defeaturing Workbench](Defeaturing_Workbench.md), [Macro Parametric Defeaturing](Macro_Parametric_Defeaturing.md)
 ---
 
 # Part Defeaturing
@@ -38,4 +38,4 @@ To be available, this tool requires FreeCAD to be based on Open Cascade 7.3.0 or
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Defeaturing
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Defeaturing

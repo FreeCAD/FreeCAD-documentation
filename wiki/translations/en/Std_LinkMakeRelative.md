@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std LinkMakeRelative
-   MenuLocation:None
-   Workbenches:All
-   Version:0.19
-   SeeAlso:[Std Part](Std_Part.md), [Std Group](Std_Group.md), [Std LinkMake](Std_LinkMake.md)
+   Name: Std LinkMakeRelative
+   MenuLocation: None
+   Workbenches: All
+   Version: 0.19
+   SeeAlso: [Std Part](Std_Part.md), [Std Group](Std_Group.md), [Std LinkMake](Std_LinkMake.md)
 ---
 
 # Std LinkMakeRelative/en
@@ -71,4 +71,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkMakeRelative/en
+⏵ [documentation index](../README.md) > Std LinkMakeRelative/en

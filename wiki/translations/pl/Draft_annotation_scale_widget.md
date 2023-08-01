@@ -1,6 +1,4 @@
 # Draft annotation scale widget/pl
-{{TOCright}}
-
 ## Description
 
 The **Draft annotation scale widget** can be used to specify the Draft annotation scale. This scale determines the **Scale Multiplier** of new [Draft Texts](Draft_Text.md), [Draft Dimensions](Draft_Dimension.md) and [Draft Labels](Draft_Label.md). The widget is only available in the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md). It is an [optional](#Preferences.md) GUI element that is located in the [Status bar](Status_bar.md).
@@ -35,4 +33,4 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft annotation scale widget/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft annotation scale widget/pl

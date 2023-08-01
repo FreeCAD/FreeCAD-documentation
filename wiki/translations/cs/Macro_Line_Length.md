@@ -83,4 +83,4 @@ alebo výberu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Line Length/cs
+⏵ [documentation index](../README.md) > Macro Line Length/cs

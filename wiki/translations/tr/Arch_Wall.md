@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Wall
-   Name/tr:Mimari Duvar
-   MenuLocation:Mimari - Duvar
-   Workbenches:[Mimari](Arch_Workbench/tr.md)
-   Shortcut:**W** **A**
-   SeeAlso:[Mimari Yapı](Arch_Structure/tr.md)
+   Name: Arch Wall
+   Name/tr: Mimari Duvar
+   MenuLocation: Mimari - Duvar
+   Workbenches: [Mimari](Arch_Workbench/tr.md)
+   Shortcut: **W** **A**
+   SeeAlso: [Mimari Yapı](Arch_Structure/tr.md)
 ---
 
 # Arch Wall/tr
@@ -162,4 +162,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Wall/tr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Wall/tr

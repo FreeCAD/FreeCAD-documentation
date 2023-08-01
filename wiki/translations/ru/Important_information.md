@@ -25,4 +25,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Important information/ru
+⏵ [documentation index](../README.md) > Important information/ru

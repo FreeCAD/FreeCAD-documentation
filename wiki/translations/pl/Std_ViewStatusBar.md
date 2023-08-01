@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ViewStatusBar
-   Name/pl:Std: Pasek stanu
-   Empty:1
-   MenuLocation:Widok - Pasek stanu
-   Workbenches:Wszystkie
+   Name: Std ViewStatusBar
+   Name/pl: Std: Pasek stanu
+   Empty: 1
+   MenuLocation: Widok - Pasek stanu
+   Workbenches: Wszystkie
 ---
 
 # Std ViewStatusBar/pl
@@ -28,4 +28,4 @@ Polecenie **Pasek stanu** przełącza wyświetlanie [Paska statusu](Status_bar/p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewStatusBar/pl
+⏵ [documentation index](../README.md) > Std ViewStatusBar/pl

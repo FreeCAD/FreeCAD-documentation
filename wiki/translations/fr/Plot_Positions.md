@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Plot Positions
-   Name/fr:Plot Positions
-   MenuLocation:Plot - Définir les tailles et positions
-   Workbenches:[Plot](Plot_Workbench/fr.md)
+   Name: Plot Positions
+   Name/fr: Plot Positions
+   MenuLocation: Plot - Définir les tailles et positions
+   Workbenches: [Plot](Plot_Workbench/fr.md)
 ---
 
 # Plot Positions/fr
@@ -37,4 +37,4 @@ Sélectionnez l\'onglet du graphique que vous souhaitez modifier, puis exécutez
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Positions/fr
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Positions/fr

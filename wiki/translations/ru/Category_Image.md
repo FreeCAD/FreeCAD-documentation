@@ -11,4 +11,4 @@ This category lists pages related to the [Image Workbench/ru](Image_Workbench/ru
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Image/ru
+⏵ [documentation index](../README.md) > Category:Image/ru

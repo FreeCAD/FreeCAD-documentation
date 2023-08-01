@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh_SegmentationBestFit
-   Name/it:Adatta i segmenti
-   MenuLocation:Mesh - Adatta i segmenti...
-   Workbenches:[Mesh](Mesh_Workbench/it.md)
-   SeeAlso:[Crea segmenti di mesh](Mesh_Segmentation/it.md)
+   Name: Mesh_SegmentationBestFit
+   Name/it: Adatta i segmenti
+   MenuLocation: Mesh - Adatta i segmenti...
+   Workbenches: [Mesh](Mesh_Workbench/it.md)
+   SeeAlso: [Crea segmenti di mesh](Mesh_Segmentation/it.md)
 ---
 
 # Mesh SegmentationBestFit/it
@@ -66,4 +66,4 @@ Il comando **Adatta i segmenti** crea segmenti di mesh separati per i tipi di su
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SegmentationBestFit/it
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SegmentationBestFit/it

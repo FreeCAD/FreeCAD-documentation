@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Compound‏‎Filter
-   Name/es:Pieza FiltroCompuesto
-   MenuLocation:Part - Filtro Compuesto
-   Workbenches:[Pieza](Part_Workbench/es.md)
-   Version:0.17
+   Name: Part Compound‏‎Filter
+   Name/es: Pieza FiltroCompuesto
+   MenuLocation: Part - Filtro Compuesto
+   Workbenches: [Pieza](Part_Workbench/es.md)
+   Version: 0.17
 ---
 
 # Part CompoundFilter/es
@@ -81,4 +81,4 @@ Si sólo hay un niño en el resultado, la salida es el niño. Si hay más de un 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/es
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/es

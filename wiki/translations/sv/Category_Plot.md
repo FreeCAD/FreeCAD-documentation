@@ -10,4 +10,4 @@ This category lists pages related to the [Plot Workbench/sv](Plot_Workbench/sv.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Plot/sv
+⏵ [documentation index](../README.md) > Category:Plot/sv

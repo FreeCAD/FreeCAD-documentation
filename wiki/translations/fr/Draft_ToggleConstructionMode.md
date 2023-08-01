@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft ToggleConstructionMode
-   Name/fr:Draft Basculer en mode construction
-   MenuLocation:Utilitaires - Basculer en mode construction
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:**C** **M**
-   SeeAlso:[Draft Ajouter au groupe de construction](Draft_AddConstruction/fr.md), [Draft Groupe automatique](Draft_AutoGroup/fr.md)
+   Name: Draft ToggleConstructionMode
+   Name/fr: Draft Basculer en mode construction
+   MenuLocation: Utilitaires - Basculer en mode construction
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut: **C** **M**
+   SeeAlso: [Draft Ajouter au groupe de construction](Draft_AddConstruction/fr.md), [Draft Groupe automatique](Draft_AutoGroup/fr.md)
 ---
 
 # Draft ToggleConstructionMode/fr
@@ -37,4 +37,4 @@ La commande <img alt="" src=images/Draft_ToggleConstructionMode.svg  style="widt
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/fr

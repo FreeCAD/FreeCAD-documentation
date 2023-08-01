@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:SheetMetal AddWall
-   MenuLocation:SheetMetal - Make Wall
-   Workbenches:[SheetMetal](SheetMetal_Workbench.md)
-   Shortcut:**W**
+   Name: SheetMetal AddWall
+   MenuLocation: SheetMetal - Make Wall
+   Workbenches: [SheetMetal](SheetMetal_Workbench.md)
+   Shortcut: **W**
 ---
 
 # SheetMetal AddWall/pl
@@ -193,4 +193,4 @@ Done!
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddWall/pl
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddWall/pl

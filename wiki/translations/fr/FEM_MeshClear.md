@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM MeshClear
-   Name/fr:FEM Supprimer maillage FEM
-   MenuLocation:Menu contextuel sur l'objet maillé - Effacer le maillage FEM
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
+   Name: FEM MeshClear
+   Name/fr: FEM Supprimer maillage FEM
+   MenuLocation: Menu contextuel sur l'objet maillé - Effacer le maillage FEM
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
 # FEM MeshClear/fr
@@ -33,4 +33,4 @@ Les objets de l\'arborescence du modèle sont maintenus car ils représentent le
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshClear/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshClear/fr

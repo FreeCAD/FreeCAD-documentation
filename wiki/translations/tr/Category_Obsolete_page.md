@@ -10,4 +10,4 @@ Bu kategori, mevcut FreeCAD sürümüyle ilgili olarak kullanılmayan sayfaları
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Obsolete page/tr
+⏵ [documentation index](../README.md) > Category:Obsolete page/tr

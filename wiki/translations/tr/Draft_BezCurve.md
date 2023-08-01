@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft BezCurve
-   Name/tr:Bezier eğrisi
-   MenuLocation:Taslak - Bezier eğrisi
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
-   Shortcut:B Z
-   Version:0.14
+   Name: Draft BezCurve
+   Name/tr: Bezier eğrisi
+   MenuLocation: Taslak - Bezier eğrisi
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   Shortcut: B Z
+   Version: 0.14
 ---
 
 # Draft BezCurve/tr
@@ -232,4 +232,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BezCurve/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BezCurve/tr

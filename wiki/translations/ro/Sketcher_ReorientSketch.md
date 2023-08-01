@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher Reorient
-   Empty:1
-   Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
-   MenuLocation:Part design - Reorient sketch
-   SeeAlso:[Map sketch](Sketcher_MapSketch.md), [New Sketch](Sketcher_NewSketch.md)
+   Name: Sketcher Reorient
+   Empty: 1
+   Workbenches: [Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
+   MenuLocation: Part design - Reorient sketch
+   SeeAlso: [Map sketch](Sketcher_MapSketch.md), [New Sketch](Sketcher_NewSketch.md)
 ---
 
 # Sketcher ReorientSketch/ro
@@ -68,4 +68,4 @@ Orientarea schiței
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ReorientSketch/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ReorientSketch/ro

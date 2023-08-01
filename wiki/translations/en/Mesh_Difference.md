@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh Difference
-   MenuLocation:Meshes - Boolean - Difference
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh Union](Mesh_Union.md), [Mesh Intersection](Mesh_Intersection.md)
+   Name: Mesh Difference
+   MenuLocation: Meshes - Boolean - Difference
+   Workbenches: [Mesh](Mesh_Workbench.md)
+   SeeAlso: [Mesh Union](Mesh_Union.md), [Mesh Intersection](Mesh_Intersection.md)
 ---
 
 # Mesh Difference/en
@@ -40,4 +40,4 @@ See: [Mesh Feature](Mesh_Feature.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Difference/en
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Difference/en

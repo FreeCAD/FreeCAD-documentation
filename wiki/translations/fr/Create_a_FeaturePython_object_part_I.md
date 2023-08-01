@@ -1,6 +1,4 @@
 # Create a FeaturePython object part I/fr
-{{TOCright}}
-
 ## Introduction
 
 Les objets FeaturePython (également appelés [Objets créés par script](Scripted_objects/fr.md)) offrent aux utilisateurs la possibilité d\'étendre FreeCAD avec des objets qui s\'intègrent de manière transparente dans le framework FreeCAD.
@@ -391,4 +389,4 @@ class box():
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Create a FeaturePython object part I/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Create a FeaturePython object part I/fr

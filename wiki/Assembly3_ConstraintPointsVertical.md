@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPointsVertical
-   Icon:Assembly_ConstraintPointsVertical.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintPointsVertical
+   Icon: Assembly_ConstraintPointsVertical.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintPointsVertical
@@ -30,4 +30,4 @@ Or
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointsVertical
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPointsVertical

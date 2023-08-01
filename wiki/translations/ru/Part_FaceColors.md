@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Установить цвет
-   Name:Part_FaceColors
-   MenuLocation:Context menu - Установить цвет
-   Workbenches:[Part](Part_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
-   SeeAlso:[Внешний вид](Std_SetAppearance/ru.md)
+   Name/ru: Установить цвет
+   Name: Part_FaceColors
+   MenuLocation: Context menu - Установить цвет
+   Workbenches: [Part](Part_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso: [Внешний вид](Std_SetAppearance/ru.md)
 ---
 
 # Part FaceColors/ru
@@ -36,4 +36,4 @@ To reset all face colors:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Command_Reference](Category_Command_Reference.md) > [Part](Part_Workbench.md) > Part FaceColors/ru
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Command_Reference](Category_Command_Reference.md) > [Part](Part_Workbench.md) > Part FaceColors/ru

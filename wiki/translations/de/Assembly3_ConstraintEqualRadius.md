@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintEqualRadius
-   Name/de:Assembly3 GleicherRadius
-   Icon:Assembly_ConstraintEqualRadius.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintEqualRadius
+   Name/de: Assembly3 GleicherRadius
+   Icon: Assembly_ConstraintEqualRadius.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintEqualRadius/de
@@ -31,4 +31,4 @@ Der Radius des ersten Kreises oder Bogens ist gleich dem Radius des zweiten Krei
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintEqualRadius/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintEqualRadius/de

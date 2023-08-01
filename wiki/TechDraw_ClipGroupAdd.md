@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:TechDraw ClipGroupAdd
-   MenuLocation:TechDraw - Clipped Views - Add View to Clip Group
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw Clip Group](TechDraw_ClipGroup.md), [TechDraw Remove Clip Group](TechDraw_ClipGroupRemove.md)
+   Name: TechDraw ClipGroupAdd
+   MenuLocation: TechDraw - Clipped Views - Add View to Clip Group
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   SeeAlso: [TechDraw Clip Group](TechDraw_ClipGroup.md), [TechDraw Remove Clip Group](TechDraw_ClipGroupRemove.md)
 ---
 
 # TechDraw ClipGroupAdd
@@ -30,4 +30,4 @@ The **TechDraw ClipGroupAdd** tool adds a View to an existing Clip.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupAdd
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupAdd

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:View Measure Toggle All
-   Name/it:View Measure Toggle All
-   MenuLocation:Visualizza - Visibilità - Attiva/disattiva le misure
-   Workbenches:Tutti
-   SeeAlso:[Cancella le misure](View_Measure_Clear_All/it.md), [Part: Attiva o Disattiva tutte le misure](Part_Measure_Toggle_All/it.md), [Part: Cancella tutte le misure](Part_Measure_Clear_All/it.md)
+   Name: View Measure Toggle All
+   Name/it: View Measure Toggle All
+   MenuLocation: Visualizza - Visibilità - Attiva/disattiva le misure
+   Workbenches: Tutti
+   SeeAlso: [Cancella le misure](View_Measure_Clear_All/it.md), [Part: Attiva o Disattiva tutte le misure](Part_Measure_Toggle_All/it.md), [Part: Cancella tutte le misure](Part_Measure_Clear_All/it.md)
 ---
 
 # View Measure Toggle All/it
@@ -40,4 +40,4 @@ Il comando **Attiva o disattiva tutte le misure** attiva o disattiva la visualiz
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > View Measure Toggle All/it
+⏵ [documentation index](../README.md) > View Measure Toggle All/it

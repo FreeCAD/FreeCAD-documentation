@@ -674,4 +674,4 @@ ver 00.05 17/08/2017 : upgrade for 0.17 FreeCAD version by Sam see [Sezione Dina
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro cross section/hr
+⏵ [documentation index](../README.md) > Macro cross section/hr

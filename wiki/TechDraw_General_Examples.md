@@ -442,4 +442,4 @@ In most cases tolerance indicators are aligned with a dimension line which is im
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw General Examples
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw General Examples

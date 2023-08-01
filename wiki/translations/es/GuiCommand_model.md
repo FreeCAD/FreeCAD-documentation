@@ -1,6 +1,6 @@
 # GuiCommand model/es
 ---
-- GuiCommand:   Name:Base_ExampleCommandModel   Workbenches:Wb1,Wb2---
+- GuiCommand:   Name: Base_ExampleCommandModel   Workbenches: Wb1,Wb2---
 
 
 </div>
@@ -269,4 +269,4 @@ Optional.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbench_Tools_navi{{#translation:}}}} <!--use the](Category_Workbench_Tools_navi{{#translation:}}}} <!--use the.md) > GuiCommand model/es
+⏵ [documentation index](../README.md) > [Workbench_Tools_navi{{#translation:}}}} <!--use the](Category_Workbench_Tools_navi{{#translation:}}}} <!--use the.md) > GuiCommand model/es

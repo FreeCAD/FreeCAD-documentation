@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 MeasureAngle
-   Icon:Assembly_MeasureAngle.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 MeasureAngle
+   Icon: Assembly_MeasureAngle.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 MeasureAngle
@@ -19,4 +19,4 @@ This tool measures the angle between two objects of an assembly using straight e
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 MeasureAngle
+⏵ [documentation index](../README.md) > Assembly3 MeasureAngle

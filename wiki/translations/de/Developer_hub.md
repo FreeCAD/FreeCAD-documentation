@@ -1,5 +1,4 @@
-# Developer hub/de
-{{TOCright}} <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;">
+# <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> Developer hub/de
 
 
 
@@ -151,4 +150,4 @@ FreeCAD, obwohl in bestimmten Bereichen verwendbar, steht am Anfang eines langen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > [Developer Documentation](Category_Developer Documentation.md) > Developer hub/de
+⏵ [documentation index](../README.md) > [Hubs](Category_Hubs.md) > [Developer Documentation](Category_Developer Documentation.md) > Developer hub/de

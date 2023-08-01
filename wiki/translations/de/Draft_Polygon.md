@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Polygon
-   Name/de:Entwurf Polygon
-   MenuLocation:Entwurf - Polygon
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Shortcut:**P** **G**
-   Version:0.7
-   SeeAlso:[Entwurf Kreis](Draft_Circle/de.md), [Entwurf Muster](Draft_Pattern/de.md)
+   Name: Draft Polygon
+   Name/de: Entwurf Polygon
+   MenuLocation: Entwurf - Polygon
+   Workbenches: [Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut: **P** **G**
+   Version: 0.7
+   SeeAlso: [Entwurf Kreis](Draft_Circle/de.md), [Entwurf Muster](Draft_Pattern/de.md)
 ---
 
 # Draft Polygon/de
@@ -180,4 +180,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Polygon/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Polygon/de

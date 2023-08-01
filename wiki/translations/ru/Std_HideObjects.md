@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std HideObjects
-   Name/ru:Std HideObjects
-   MenuLocation:Вид - Видимость - Скрыть все объекты
-   Workbenches:All
-   SeeAlso:[Std ToggleVisibility](Std_ToggleVisibility/ru.md), [Std ShowSelection](Std_ShowSelection/ru.md), [Std HideSelection](Std_HideSelection/ru.md), [Std ToggleObjects](Std_ToggleObjects/ru.md), [Std ShowObjects](Std_ShowObjects/ru.md)
+   Name: Std HideObjects
+   Name/ru: Std HideObjects
+   MenuLocation: Вид - Видимость - Скрыть все объекты
+   Workbenches: All
+   SeeAlso: [Std ToggleVisibility](Std_ToggleVisibility/ru.md), [Std ShowSelection](Std_ShowSelection/ru.md), [Std HideSelection](Std_HideSelection/ru.md), [Std ToggleObjects](Std_ToggleObjects/ru.md), [Std ShowObjects](Std_ShowObjects/ru.md)
 ---
 
 # Std HideObjects/ru
@@ -43,4 +43,4 @@ The **Std HideObjects** command hides all objects belonging to the active docume
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std HideObjects/ru
+⏵ [documentation index](../README.md) > Std HideObjects/ru

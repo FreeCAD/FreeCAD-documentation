@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher Trimming
-   MenuLocation:Sketch - Sketcher geometries - Trim edge
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**G** **T**
-   Version:0.12
-   SeeAlso:[Sketcher Extend edge](Sketcher_Extend.md)
+   Name: Sketcher Trimming
+   MenuLocation: Sketch - Sketcher geometries - Trim edge
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **G** **T**
+   Version: 0.12
+   SeeAlso: [Sketcher Extend edge](Sketcher_Extend.md)
 ---
 
 # Sketcher Trimming/hr
@@ -34,4 +34,4 @@ This tool trims an edge at the nearest intersections with other edges. If the se
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/hr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/hr

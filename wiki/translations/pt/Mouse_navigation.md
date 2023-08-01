@@ -1,6 +1,4 @@
 # Mouse navigation/pt
-{{TOCright}}
-
 ## Overview
 
 Os **estilos de navegação** do FreeCAD consistem nos comandos usados para navegar visualmente no espaço 3D e interagir com os objetos mostrados. O FreeCAD suporta múltiplos estilos de navegação. O predefinido é o chamado [Navegação CAD](#CAD_navigation.md), e é muito simples e prático, mas o FreeCAD também disponibiliza estilos de navegação alternativos, que pode escolher de acordo com as suas preferências. O estilo escolhido fica activado para todas as Bancadas de trabalho.
@@ -323,4 +321,4 @@ The tutorial [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mous
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Mouse navigation/pt
+⏵ [documentation index](../README.md) > Mouse navigation/pt

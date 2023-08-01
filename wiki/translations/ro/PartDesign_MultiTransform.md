@@ -1,6 +1,6 @@
 # PartDesign MultiTransform/ro
 ---
-- GuiCommand:   Name:PartDesign MultiTransform   Workbenches:[[PartDesign Workbench   PartDesign]], Complete|MenuLocation:PartDesign -> MultiTransform---
+- GuiCommand:   Name: PartDesign MultiTransform   Workbenches: [[PartDesign Workbench   PartDesign]], Complete|MenuLocation: PartDesign -> MultiTransform---
 
 
 </div>
@@ -155,4 +155,4 @@ To verify that the part is fully parametric open the initial sketch with the qua
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/ro

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Plot Legend
-   Name/ru:Plot Legend
-   MenuLocation:Plot - Показать/скрыть легенду
-   Workbenches:[Plot](Plot_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:
+   Name: Plot Legend
+   Name/ru: Plot Legend
+   MenuLocation: Plot - Показать/скрыть легенду
+   Workbenches: [Plot](Plot_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Plot Legend/ru
@@ -36,4 +36,4 @@ Remember that the styles and labels of the data series can be edited with the [d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Legend/ru
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Legend/ru

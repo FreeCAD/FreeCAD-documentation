@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path Deburr
-   Name/pl:Path: Usuwanie zadziorów
-   MenuLocation:Path - Usuwanie zadziorów
-   Workbenches:[Path](Path_Workbench/pl.md)
-   Version:0.18
+   Name: Path Deburr
+   Name/pl: Path: Usuwanie zadziorów
+   MenuLocation: Path - Usuwanie zadziorów
+   Workbenches: [Path](Path_Workbench/pl.md)
+   Version: 0.18
 ---
 
 # Path Deburr/pl
@@ -121,4 +121,4 @@ The Final step is to activate the **Operation** section where you can specify th
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Deburr/pl
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Deburr/pl

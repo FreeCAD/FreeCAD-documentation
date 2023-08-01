@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Measure Refresh
-   Name/it:Aggiorna le misure
-   MenuLocation:[Misure](Std_Measure_Menu/it.md) - Aggiorna
-   Workbenches:[Part](Part_Workbench/it.md)
-   SeeAlso:[Misura lineare](Part_Measure_Linear/it.md), [Misura angolare](Part_Measure_Angular/it.md)
+   Name: Part Measure Refresh
+   Name/it: Aggiorna le misure
+   MenuLocation: [Misure](Std_Measure_Menu/it.md) - Aggiorna
+   Workbenches: [Part](Part_Workbench/it.md)
+   SeeAlso: [Misura lineare](Part_Measure_Linear/it.md), [Misura angolare](Part_Measure_Angular/it.md)
 ---
 
 # Part Measure Refresh/it
@@ -45,4 +45,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Refresh/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Refresh/it

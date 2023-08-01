@@ -1,6 +1,4 @@
 # Branding/ru
-{{TOCright}}
-
 ## Overview
 
 
@@ -123,4 +121,4 @@ All listed tags are optional.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Branding/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Branding/ru

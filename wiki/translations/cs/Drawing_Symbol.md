@@ -1,6 +1,6 @@
 # Drawing Symbol/cs
 ---
-- GuiCommand:   Name:Drawing Symbol   Name/cs:Drawing Symbol   Workbenches:[[Drawing Workbench/cs   Drawing]], Complete|MenuLocation:Drawing - Symbol   Shortcut:none---
+- GuiCommand:   Name: Drawing Symbol   Name/cs: Drawing Symbol   Workbenches: [[Drawing Workbench/cs   Drawing]], Complete|MenuLocation: Drawing - Symbol   Shortcut: none---
 
 ## Description
 
@@ -28,4 +28,4 @@ This command allows you to add the contents of a SVG image on a selected [Drawin
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Symbol/cs
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Symbol/cs

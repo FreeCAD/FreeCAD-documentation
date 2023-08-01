@@ -279,4 +279,4 @@ to be continued\...
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Fr Widget Basics
+⏵ [documentation index](../README.md) > Fr Widget Basics

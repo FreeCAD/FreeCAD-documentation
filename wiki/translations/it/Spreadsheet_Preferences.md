@@ -1,6 +1,4 @@
 # Spreadsheet Preferences/it
-{{TOCright}}
-
 Le preferenze per l\'ambiente <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Spreadsheet](Spreadsheet_Workbench/it.md) ({{Version/it|0.20}}) sono disponibili nell\'[Editor Preferenze](Preferences_Editor/it.md). Nel menu selezionare **Modifica → Preferenze...** e poi **Spreadsheet**. Questa sezione è disponibile solo dopo aver aperto un documento contenente un oggetto foglio di calcolo, dopo aver visitato l\'ambiente o dopo aver caricato l\'ambiente tramite la scheda *Ambienti disponibili* nella sezione **Workbenches**.
 
 C\'è solo una scheda: *Spreadsheet* nella sezione **Spreadsheet**. In questa scheda è possibile specificare quanto segue:
@@ -37,4 +35,4 @@ C\'è solo una scheda: *Spreadsheet* nella sezione **Spreadsheet**. In questa sc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Preferences/it
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Preferences/it

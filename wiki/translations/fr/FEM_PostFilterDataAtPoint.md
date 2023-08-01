@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM PostFilterDataAtPoint
-   Name/fr:FEM Données du filtre d'écrêtage du point
-   MenuLocation:Résultats - Données du filtre d'écrêtage du point
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Pipeline de résultats](FEM_PostPipelineFromResult/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM PostFilterDataAtPoint
+   Name/fr: FEM Données du filtre d'écrêtage du point
+   MenuLocation: Résultats - Données du filtre d'écrêtage du point
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Pipeline de résultats](FEM_PostPipelineFromResult/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM PostFilterDataAtPoint/fr
@@ -37,4 +37,4 @@ La valeur à ce point pour le **Champ** donné est affichée dans la boîte de d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterDataAtPoint/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterDataAtPoint/fr

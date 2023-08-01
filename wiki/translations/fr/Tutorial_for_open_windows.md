@@ -271,4 +271,4 @@ Une interaction plus étroite entre les ateliers est prévue pour les futures ve
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > Tutorial for open windows/fr
+⏵ [documentation index](../README.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > Tutorial for open windows/fr

@@ -1,7 +1,7 @@
 # <img alt="Ikonka FreeCAD dla środowiska pracy FEMbyGEN" src=images/FEMbyGEN.svg  style="width:64px;"> FEMbyGEN Workbench/pl
 
 
-{{TOCright}}
+
 
 
 
@@ -68,4 +68,4 @@ See [How to install additional workbenches](How_to_install_additional_workbenche
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > FEMbyGEN Workbench/pl
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > FEMbyGEN Workbench/pl

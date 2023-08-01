@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path ToolBitLibraryOpen
-   MenuLocation:Path - ToolBit Library editor
-   Workbenches:[Path](Path_Workbench.md)
-   Version:0.19
-   SeeAlso:[Path ToolBitDock](Path_ToolBitDock.md), [Path Tools](Path_Tools.md), [Path ToolBit](Path_ToolBit.md)
+   Name: Path ToolBitLibraryOpen
+   MenuLocation: Path - ToolBit Library editor
+   Workbenches: [Path](Path_Workbench.md)
+   Version: 0.19
+   SeeAlso: [Path ToolBitDock](Path_ToolBitDock.md), [Path Tools](Path_Tools.md), [Path ToolBit](Path_ToolBit.md)
 ---
 
 # Path ToolBitLibraryOpen/en
@@ -100,4 +100,4 @@ C. Double clicking anywhere else in the row will open the toolbit editing panel.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBitLibraryOpen/en
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBitLibraryOpen/en

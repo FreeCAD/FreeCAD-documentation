@@ -12,4 +12,4 @@ Für alle Symbole im Verzeichnisbaum siehe [Grafik](Artwork/de.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Points](Category_Points.md) > Artwork Points/de
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Points](Category_Points.md) > Artwork Points/de

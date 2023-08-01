@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Near
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso:[Draft Snap](Draft_Snap.md), [Draft Snap Lock](Draft_Snap_Lock.md)
+   Name: Draft Snap Near
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   SeeAlso: [Draft Snap](Draft_Snap.md), [Draft Snap Lock](Draft_Snap_Lock.md)
 ---
 
 # Draft Snap Near
@@ -42,4 +42,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Near
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Near

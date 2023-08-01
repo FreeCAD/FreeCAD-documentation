@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Nest
-   MenuLocation:Arch - Panel tools - Nest
-   Workbenches:[Arch](Arch_Workbench.md)
-   Version:0.17
-   SeeAlso:[Arch Panel](Arch_Panel.md), [Arch Panel Sheet](Arch_Panel_Sheet.md)
+   Name: Arch Nest
+   MenuLocation: Arch - Panel tools - Nest
+   Workbenches: [Arch](Arch_Workbench.md)
+   Version: 0.17
+   SeeAlso: [Arch Panel](Arch_Panel.md), [Arch Panel Sheet](Arch_Panel_Sheet.md)
 ---
 
 # Arch Nest/pl
@@ -44,4 +44,4 @@ The algorithm behind the Nest tool is in constant evolution, and is currently no
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Nest/pl
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Nest/pl

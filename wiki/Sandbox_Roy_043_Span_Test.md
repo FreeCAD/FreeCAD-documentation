@@ -18,4 +18,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Sandbox:Roy 043 Span Test
+⏵ [documentation index](../README.md) > Sandbox:Roy 043 Span Test

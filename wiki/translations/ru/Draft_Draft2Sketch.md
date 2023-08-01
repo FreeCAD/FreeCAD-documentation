@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Draft2Sketch
-   Name/ru:Draft Draft2Sketch
-   MenuLocation:Черчение - Преобразовать в эскиз
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   SeeAlso:[Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
+   Name: Draft Draft2Sketch
+   Name/ru: Draft Draft2Sketch
+   MenuLocation: Черчение - Преобразовать в эскиз
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   SeeAlso: [Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
 ---
 
 # Draft Draft2Sketch/ru
@@ -123,4 +123,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Draft2Sketch/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Draft2Sketch/ru

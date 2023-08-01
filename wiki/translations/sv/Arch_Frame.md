@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Arch Frame
-   Name/sv:Arch Frame
-   Workbenches:[Arch](Arch_Workbench/sv.md)
-   MenuLocation:Arch - Frame
-   Shortcut:**F** **R**
-   SeeAlso:[[Arch Wall]], [[Arch Structure]]
-   SeeAlso/sv:[[Arch Wall/sv]], [[Arch Structure/sv]]
+   Name: Arch Frame
+   Name/sv: Arch Frame
+   Workbenches: [Arch](Arch_Workbench/sv.md)
+   MenuLocation: Arch - Frame
+   Shortcut: **F** **R**
+   SeeAlso: [[Arch Wall]], [[Arch Structure]]
+   SeeAlso/sv: [[Arch Wall/sv]], [[Arch Structure/sv]]
 ---
 
 # Arch Frame/sv
@@ -92,4 +92,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Frame/sv
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Frame/sv

@@ -2,7 +2,7 @@
 **Rozwój Środowiska pracy [Kreślenie](Drawing_Workbench/pl.md) zatrzymał się w FreeCAD '''0.16''', a nowe Środowisko pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) mające na celu zastąpienie go zostało wprowadzone w wersji '''0.17'''. Oba Środowiska pracy są nadal dostępne w wersji '''0.17''', ale środowisko pracy Kreślenie może zostać usunięte w przyszłych wydaniach.**
 
 
-{{TOCright}}
+
 
 W dokumentach [SVG](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics) eksportowanych przez środowisko [Kreślenie](Drawing_Workbench/pl.md) i używanych jako strony [szablonów](Drawing_templates.md), może zostac użytych kilka niestandardowych [atrybutów](http://www.w3schools.com/xml/xml_attributes.asp). Pierwotnie do użytku wewnętrznego programu FreeCAD, ale mogą być również używane przez inne aplikacje obsługujące FreeCAD w przyszłości. Wszystkie te atrybuty używają prefiksu **freecad:** [przestrzeni nazw](http://www.w3schools.com/xml/xml_namespaces.asp). URL przestrzeni nazw zdefiniowany w tych dokumentach SVG odnosi się do tej strony.
 
@@ -224,4 +224,4 @@ Zobacz [Szablony środowiska Kreślenie](Drawing_templates/pl.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > [Developer](Category_Developer.md) > [Python_Code](Category_Python_Code.md) > [Macros](Category_Macros.md) > [Drawing](Category_Drawing.md) > Svg Namespace/pl
+⏵ [documentation index](../README.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > [Developer](Category_Developer.md) > [Python_Code](Category_Python_Code.md) > [Macros](Category_Macros.md) > [Drawing](Category_Drawing.md) > Svg Namespace/pl

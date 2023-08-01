@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Measure Clear All
-   Name/de:Part Messung AllesLöschen
-   MenuLocation:Messen - Alles löschen
-   Workbenches:[Part](Part_Workbench/de.md)
+   Name: Part Measure Clear All
+   Name/de: Part Messung AllesLöschen
+   MenuLocation: Messen - Alles löschen
+   Workbenches: [Part](Part_Workbench/de.md)
 ---
 
 # Part Measure Clear All/de
@@ -25,4 +25,4 @@ Dieser Befehl löscht alle Messungen in der [3D-Ansicht](3D_view/de.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Clear All/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Clear All/de

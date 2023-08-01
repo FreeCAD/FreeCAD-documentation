@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Mirror
-   MenuLocation:Modification - Mirror
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:**M** **I**
-   SeeAlso:[Draft Clone](Draft_Clone.md)
+   Name: Draft Mirror
+   MenuLocation: Modification - Mirror
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut: **M** **I**
+   SeeAlso: [Draft Clone](Draft_Clone.md)
 ---
 
 # Draft Mirror/pl
@@ -123,4 +123,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Mirror/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Mirror/pl

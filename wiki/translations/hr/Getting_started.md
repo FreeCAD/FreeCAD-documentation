@@ -1,8 +1,4 @@
 # Getting started/hr
-{{TOCright}}
-
-
-
 ## Predgovor
 
 FreeCAD je CAD/CAE [aplikacija parametarskog modeliranja](About_FreeCAD/hr.md).Prvenstveno je napravljen za dizajn mehanike, ali podržava sve druge primjene gdje je potrebno 3D modeliranje objekata sa velikom preciznošću i kontrolom zabilješki modeliranja.
@@ -192,4 +188,4 @@ I na kraju, jedna od najmoćnijih značajki FreeCAD-a je [skriptiranje](scriptin
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Getting started/hr
+⏵ [documentation index](../README.md) > Getting started/hr

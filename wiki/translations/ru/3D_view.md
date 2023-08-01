@@ -2,7 +2,7 @@
 ## Введение
 
 
-{{TOCright}}
+
 
 3D вид в FreeCAD это экземпляр Coin3D [ граф сцены](Scenegraph/ru.md), который формирует самое важное окно [интерфейса](interface/ru.md). Coin3D-это библиотека, реализующая стандарт описания сцен OpenInventor 2.1
 
@@ -102,4 +102,4 @@ FreeCAD использует библиотеку Quarter для использ�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > 3D view/ru
+⏵ [documentation index](../README.md) > 3D view/ru

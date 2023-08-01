@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std_Edit
-   Name/it:Modalità modifica
-   MenuLocation:Modifica - Attiva/disattiva Modalità modifica
-   Workbenches:Tutti
+   Name: Std_Edit
+   Name/it: Modalità modifica
+   MenuLocation: Modifica - Attiva/disattiva Modalità modifica
+   Workbenches: Tutti
 ---
 
 # Std Edit/it
@@ -76,4 +76,4 @@ FreeCADGui.ActiveDocument.resetEdit()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Edit/it
+⏵ [documentation index](../README.md) > Std Edit/it

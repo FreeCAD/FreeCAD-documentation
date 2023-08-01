@@ -1,6 +1,6 @@
 # FEM EquationHeat/it
 ---
-- GuiCommand:   Name:FEM_EquationHeat   Name/it:FEM EquationHeat   Icon:Fem-equation-heat.svg   MenuLocation: Solve - Equation heat   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:   Name: FEM_EquationHeat   Name/it: FEM EquationHeat   Icon: Fem-equation-heat.svg   MenuLocation:  Solve - Equation heat   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 
 </div>
@@ -66,4 +66,4 @@ The result is the temperature in Kelvin.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationHeat/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationHeat/it

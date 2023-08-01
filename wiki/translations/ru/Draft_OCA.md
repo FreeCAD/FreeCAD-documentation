@@ -8,7 +8,7 @@
 </div>
 
 
-{{TOCright}}
+
 
 ## Описание
 
@@ -80,4 +80,4 @@ importOCA.export(objects, "/home/user/Pictures/myfile.oca")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft OCA/ru
+⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft OCA/ru

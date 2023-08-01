@@ -1,8 +1,4 @@
 # Branding/de
-{{TOCright}}
-
-
-
 ## Übersicht
 
 Dieser Artikel beschreibt die **Markenbildung** von FreeCAD. Markenbildung bedeutet, deine eigene Anwendung basierend auf FreeCAD zu erstellen. Das kann nur eine eigene ausführbare Datei oder [Eingangsbildschirm](Splash_screen/de.md) sein, bis hin zu einem komplett überarbeiteten Programm. Aufgrund der flexiblen Architektur von FreeCAD ist es einfach, es als Basis für die Erstellung deines eigenen speziellen Programms zu verwenden.
@@ -112,4 +108,4 @@ Alle aufgeführten Tags sind optional.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Branding/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Branding/de

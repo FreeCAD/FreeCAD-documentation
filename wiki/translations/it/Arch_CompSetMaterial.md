@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch CompSetMaterial
-   Name/it:Materiali
-   MenuLocation:Arch - Materiali
-   Workbenches:[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   SeeAlso:[Materiale](Arch_SetMaterial/it.md), [Multimateriale](Arch_MultiMaterial/it.md)
-   Version:0.17
+   Name: Arch CompSetMaterial
+   Name/it: Materiali
+   MenuLocation: Arch - Materiali
+   Workbenches: [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   SeeAlso: [Materiale](Arch_SetMaterial/it.md), [Multimateriale](Arch_MultiMaterial/it.md)
+   Version: 0.17
 ---
 
 # Arch CompSetMaterial/it
@@ -41,4 +41,4 @@ Gli strumenti Materiale consentono di aggiungere materiali al documento attivo.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompSetMaterial/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompSetMaterial/it

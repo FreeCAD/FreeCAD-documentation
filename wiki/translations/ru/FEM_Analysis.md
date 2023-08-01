@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM Analysis
-   Name/ru:FEM Analysis
-   MenuLocation:Model - Блок анализа
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:**N** **A**
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM Analysis
+   Name/ru: FEM Analysis
+   MenuLocation: Model - Блок анализа
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   Shortcut: **N** **A**
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM Analysis/ru
@@ -92,4 +92,4 @@ App.ActiveDocument.MechanicalAnalysis.Member = member
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Analysis/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Analysis/ru

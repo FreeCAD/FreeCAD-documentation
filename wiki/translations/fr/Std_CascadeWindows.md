@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std CascadeWindows
-   Name/fr:Std Cascade
-   MenuLocation:Fenêtre  - Fenêtres en cascade
-   Workbenches:Tous
-   SeeAlso:[Std Mosaïque](Std_TileWindows/fr.md)
+   Name: Std CascadeWindows
+   Name/fr: Std Cascade
+   MenuLocation: Fenêtre  - Fenêtres en cascade
+   Workbenches: Tous
+   SeeAlso: [Std Mosaïque](Std_TileWindows/fr.md)
 ---
 
 # Std CascadeWindows/fr
@@ -34,4 +34,4 @@ La commande **Std Cascade** réorganise les fenêtres dans la [Zone de vue princ
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std CascadeWindows/fr
+⏵ [documentation index](../README.md) > Std CascadeWindows/fr

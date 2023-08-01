@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Аддитивный цилиндр
-   Name:PartDesign_AdditiveCylinder
-   MenuLocation:Part Design - Создать аддитивный примитив - Аддитивный Цилиндр
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Создать аддитивный примитив](PartDesign_CompPrimitiveAdditive/ru.md), [Субтрактивный цилиндр](PartDesign_SubtractiveCylinder/ru.md)
+   Name/ru: Аддитивный цилиндр
+   Name: PartDesign_AdditiveCylinder
+   MenuLocation: Part Design - Создать аддитивный примитив - Аддитивный Цилиндр
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Создать аддитивный примитив](PartDesign_CompPrimitiveAdditive/ru.md), [Субтрактивный цилиндр](PartDesign_SubtractiveCylinder/ru.md)
 ---
 
 # PartDesign AdditiveCylinder/ru
@@ -59,4 +59,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCylinder/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCylinder/ru

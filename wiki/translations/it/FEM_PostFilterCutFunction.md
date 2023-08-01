@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM PostFilterCutFunction
-   Name/it:FEM PostFilterCutFunction
-   MenuLocation: Riultati - Crea cut filter
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
+   Name: FEM PostFilterCutFunction
+   Name/it: FEM PostFilterCutFunction
+   MenuLocation:  Riultati - Crea cut filter
+   Workbenches: [FEM](FEM_Workbench/it.md)
+   Shortcut:    SeeAlso: [Tutorial FEM](FEM_tutorial/it.md)
 ---
 
 # FEM PostFilterCutFunction/it
@@ -48,4 +48,4 @@ Da fare
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterCutFunction/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterCutFunction/it

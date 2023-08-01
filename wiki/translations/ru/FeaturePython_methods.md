@@ -1,6 +1,4 @@
 # FeaturePython methods/ru
-{{TOCright}}
-
 ## Введение
 
 Данная страница содержит справочные данные по доступным переопределяемым методам примененных в описаниях: [Create a FeaturePython object part I](Create_a_FeaturePython_object_part_I/ru.md) и [Программируемые объекты](Scripted_objects/ru.md).
@@ -67,4 +65,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FeaturePython methods/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FeaturePython methods/ru

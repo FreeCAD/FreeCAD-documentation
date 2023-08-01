@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Rocket LaunchGuide
-   Name/fr:Rocket Guides de lancement
-   MenuLocation:Rocket - Launch Guides
-   Workbenches:[Rocket](Rocket_Workbench/fr.md)
-   Version:0.19
+   Name: Rocket LaunchGuide
+   Name/fr: Rocket Guides de lancement
+   MenuLocation: Rocket - Launch Guides
+   Workbenches: [Rocket](Rocket_Workbench/fr.md)
+   Version: 0.19
 ---
 
 # Rocket CompLaunchGuide/fr
@@ -22,4 +22,4 @@ Crée un guide de lancement utilisé pour assurer un vol droit avant que la fus�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket CompLaunchGuide/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket CompLaunchGuide/fr

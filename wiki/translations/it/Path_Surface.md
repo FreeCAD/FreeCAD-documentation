@@ -1,6 +1,6 @@
 # Path Surface/it
 ---
-- GuiCommand:   Name:Path 3DSurface   Name/it:Sfacciatura 3D   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path - Sfacciatura 3D   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Path 3DSurface   Name/it: Sfacciatura 3D   Workbenches: [[Path Workbench/it   Path]]|MenuLocation: Path - Sfacciatura 3D   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -450,4 +450,4 @@ This section is simply a layout map of the settings in the window editor for the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Surface/it
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Surface/it

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:-br
-   Name//pt-br:Sketcher Arcs
-   Empty:1
-   Workbenches:[Sketcher](Sketcher_Workbench/pt-br.md)
-   MenuLocation:None (toolbar only)
+   Name//pt-br: Sketcher Arcs
+   Empty: 1
+   Workbenches: [Sketcher](Sketcher_Workbench/pt-br.md)
+   MenuLocation: None (toolbar only)
 ---
 
 # Sketcher CompCreateArc/pt-br
@@ -31,4 +31,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateArc/pt-br
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateArc/pt-br

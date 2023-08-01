@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainLock
-   Name/es:Sketcher ConstrainLock
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md), [Diseño de Piezas](PartDesign_Workbench/es.md)
-   MenuLocation:Croquizador - Restricciones del Croquizador  - Bloquear
-   SeeAlso:[Croquizador RestringirBloque](Sketcher_ConstrainBlock/es.md)
+   Name: Sketcher ConstrainLock
+   Name/es: Sketcher ConstrainLock
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md), [Diseño de Piezas](PartDesign_Workbench/es.md)
+   MenuLocation: Croquizador - Restricciones del Croquizador  - Bloquear
+   SeeAlso: [Croquizador RestringirBloque](Sketcher_ConstrainBlock/es.md)
 ---
 
 # Sketcher ConstrainLock/es
@@ -72,4 +72,4 @@ The <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Loc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/es

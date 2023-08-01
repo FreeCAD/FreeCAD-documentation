@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std About
-   Name/pl:Std: Informacje o FreeCAD
-   Workbenches:Wszystkie
-   MenuLocation:Pomoc - Informacje o FreeCAD
+   Name: Std About
+   Name/pl: Std: Informacje o FreeCAD
+   Workbenches: Wszystkie
+   MenuLocation: Pomoc - Informacje o FreeCAD
 ---
 
 # Std About/pl
@@ -87,4 +87,4 @@ Na karcie Biblioteki znajduje się lista zewnętrznych bibliotek używanych prze
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/pl
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/pl

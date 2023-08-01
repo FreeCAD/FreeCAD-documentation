@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionInsertSquare
-   Name/fr:TechDraw Section tube
-   MenuLocation:TechDraw - Extensions : cotes - Insérer un préfixe '〼'
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw Diamètre](TechDraw_ExtensionInsertDiameter/fr.md)
+   Name: TechDraw ExtensionInsertSquare
+   Name/fr: TechDraw Section tube
+   MenuLocation: TechDraw - Extensions : cotes - Insérer un préfixe '〼'
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw Diamètre](TechDraw_ExtensionInsertDiameter/fr.md)
 ---
 
 # TechDraw ExtensionInsertSquare/fr
@@ -39,4 +39,4 @@ L\'outil **TechDraw Section tube** insère un symbole \"〼\" au début du texte
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionInsertSquare/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionInsertSquare/fr

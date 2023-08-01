@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign Boolean
-   MenuLocation:Part Design - Boolean operation
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   Version:0.17
+   Name: PartDesign Boolean
+   MenuLocation: Part Design - Boolean operation
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   Version: 0.17
 ---
 
 # PartDesign Boolean/en
@@ -69,4 +69,4 @@ Alternatively, one or more Bodies can be selected prior to pressing the Boolean 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Boolean/en
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Boolean/en

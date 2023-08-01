@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreeSelection
-   Name/pl:Std: Wybór w widoku drzewa
-   MenuLocation:Widok - Akcje widoku drzewa - Przejdź do zaznaczenia
-   Workbenches:Wszystkie
-   Shortcut:**T** **G**
-   Version:0.19
+   Name: Std TreeSelection
+   Name/pl: Std: Wybór w widoku drzewa
+   MenuLocation: Widok - Akcje widoku drzewa - Przejdź do zaznaczenia
+   Workbenches: Wszystkie
+   Shortcut: **T** **G**
+   Version: 0.19
 ---
 
 # Std TreeSelection/pl
@@ -36,4 +36,4 @@ Jeżeli tryb [Synchronizacja wyboru](Std_TreeSyncSelection/pl.md) widoku drzewa 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSelection/pl
+⏵ [documentation index](../README.md) > Std TreeSelection/pl

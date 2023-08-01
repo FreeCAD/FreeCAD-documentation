@@ -1,6 +1,4 @@
 # TechDraw Section Examples/en
-{{TOCright}}
-
 ## Introduction
 
 The <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw workbench](TechDraw_Workbench.md) has made a big step forward regarding the generation of **section views**. To not overload the reference pages, this page\'s intention is to give examples and supply proper naming for the performed tasks.
@@ -228,4 +226,4 @@ Right: Offset section view based on an alternative section line, see section M-M
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Section Examples/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Section Examples/en

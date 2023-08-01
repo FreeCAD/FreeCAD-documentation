@@ -1,12 +1,12 @@
 # Arch SectionPlane/it
 ---
 - GuiCommand:
-   Name:Arch SectionPlane
-   Name/it:Piano di sezione
-   Workbenches:[Architettura](Arch_Workbench/it.md)
-   MenuLocation:Arch - Piano di sezione
-   Shortcut:**S** **P**
-   SeeAlso:[Vista 2D](Draft_Shape2DView/it.md), [Vista di Arch](TechDraw_ArchView/it.md)---
+   Name: Arch SectionPlane
+   Name/it: Piano di sezione
+   Workbenches: [Architettura](Arch_Workbench/it.md)
+   MenuLocation: Arch - Piano di sezione
+   Shortcut: **S** **P**
+   SeeAlso: [Vista 2D](Draft_Shape2DView/it.md), [Vista di Arch](TechDraw_ArchView/it.md)---
 
 
 </div>
@@ -183,4 +183,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/it

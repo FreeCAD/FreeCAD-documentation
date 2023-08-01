@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Fillet
-   Name/it:Raccordo
-   Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:PartDesign - Raccordo
-   SeeAlso:[PartDesign Smusso](PartDesign_Chamfer.md), [Part Raccordo](Part_Fillet.md)
+   Name: PartDesign Fillet
+   Name/it: Raccordo
+   Workbenches: [PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation: PartDesign - Raccordo
+   SeeAlso: [PartDesign Smusso](PartDesign_Chamfer.md), [Part Raccordo](Part_Fillet.md)
 ---
 
 # PartDesign Fillet/it
@@ -189,4 +189,4 @@ Ulteriori informazioni nella pagina dedicata al [problema di denominazione topol
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Fillet/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Fillet/it

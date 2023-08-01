@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Sandbox:Printed Circuit Board
+⏵ [documentation index](../README.md) > Sandbox:Printed Circuit Board

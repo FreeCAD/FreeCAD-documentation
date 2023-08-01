@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:SheetMetal AddBend
-   Name/fr:SheetMetal Transformation en pli
-   MenuLocation:SheetMetal - Make Bend
-   Workbenches:[SheetMetal](SheetMetal_Workbench/fr.md)
-   Shortcut:**S** **B**
-   SeeAlso:[SheetMetal Grugeage carré](SheetMetal_AddRelief/fr.md), [SheetMetal Découpe d'angle](SheetMetal_AddJunction/fr.md)
+   Name: SheetMetal AddBend
+   Name/fr: SheetMetal Transformation en pli
+   MenuLocation: SheetMetal - Make Bend
+   Workbenches: [SheetMetal](SheetMetal_Workbench/fr.md)
+   Shortcut: **S** **B**
+   SeeAlso: [SheetMetal Grugeage carré](SheetMetal_AddRelief/fr.md), [SheetMetal Découpe d'angle](SheetMetal_AddJunction/fr.md)
 ---
 
 # SheetMetal AddBend/fr
@@ -68,4 +68,4 @@ Un objet SheetMetal Transformation en pli est dérivé d\'un objet [Part Feature
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddBend/fr
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddBend/fr

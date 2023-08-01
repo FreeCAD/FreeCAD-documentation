@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintSymmetricVertical
-   Icon:Assembly_ConstraintGeneral.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintSymmetricVertical
+   Icon: Assembly_ConstraintGeneral.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintSymmetricVertical
@@ -23,4 +23,4 @@ Based on one planar element\'s ICS both other elements\' ICSs\' origins are posi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintSymmetricVertical
+⏵ [documentation index](../README.md) > Assembly3 ConstraintSymmetricVertical

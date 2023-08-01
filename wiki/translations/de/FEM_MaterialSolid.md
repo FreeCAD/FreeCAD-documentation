@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM MaterialSolid
-   Name/de:FEM MaterialFeststoff
-   MenuLocation:Modell - Materiallien - Material für Feststoffe
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   Shortcut:**M** **S**
-   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
+   Name: FEM MaterialSolid
+   Name/de: FEM MaterialFeststoff
+   MenuLocation: Modell - Materiallien - Material für Feststoffe
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   Shortcut: **M** **S**
+   SeeAlso: [FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM MaterialSolid/de
@@ -52,4 +52,4 @@ Fügt einem Teil Materialeigenschaften hinzu.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialSolid/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialSolid/de

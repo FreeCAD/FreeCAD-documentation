@@ -11,4 +11,4 @@ This category lists pages related to the [Robot Workbench/sv](Robot_Workbench/sv
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Robot/sv
+⏵ [documentation index](../README.md) > Category:Robot/sv

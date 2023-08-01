@@ -1,8 +1,4 @@
 # NumPy/de
-{{TOCright}}
-
-
-
 ## Einführung
 
 Diese Seite zielt darauf, die Nutzung von [NumPy](https://numpy.org/) mit FreeCAD zu dokumentieren.
@@ -72,4 +68,4 @@ Output is:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > NumPy/de
+⏵ [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > NumPy/de

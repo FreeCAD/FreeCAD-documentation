@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name/ru:Установка значений по умолчанию
-   Name:Robot_SetDefaultValues
-   MenuLocation:Робот - Установка значений по умолчанию
-   Workbenches:[Robot](Robot_Workbench/ru.md)
+   Name/ru: Установка значений по умолчанию
+   Name: Robot_SetDefaultValues
+   MenuLocation: Робот - Установка значений по умолчанию
+   Workbenches: [Robot](Robot_Workbench/ru.md)
 ---
 
 # Robot SetDefaultValues/ru
@@ -41,4 +41,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetDefaultValues/ru
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetDefaultValues/ru

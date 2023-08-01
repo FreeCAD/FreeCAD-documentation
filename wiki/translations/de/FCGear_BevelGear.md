@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FCGear BevelGear
-   Name/de:FCGear Kegelrad
-   MenuLocation:Gear - Bevel Gear
-   Workbenches:[FCGear](FCGear_Workbench/de.md)
-   Version:v0.16
+   Name: FCGear BevelGear
+   Name/de: FCGear Kegelrad
+   MenuLocation: Gear - Bevel Gear
+   Workbenches: [FCGear](FCGear_Workbench/de.md)
+   Version: v0.16
 ---
 
 # FCGear BevelGear/de
@@ -113,4 +113,4 @@ Substantiv Referenz-Kegelwinkel \[TECH.\]
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear BevelGear/de
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear BevelGear/de

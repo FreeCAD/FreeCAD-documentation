@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Wedge
-   Name/fr:Part Pyramide tronquée
-   MenuLocation:Part - [Créer des primitives](Part_Primitives/fr.md) - Pyramide tronquée
-   Workbenches:[Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
-   SeeAlso:[Part Primitives](Part_Primitives/fr.md)
+   Name: Part Wedge
+   Name/fr: Part Pyramide tronquée
+   MenuLocation: Part - [Créer des primitives](Part_Primitives/fr.md) - Pyramide tronquée
+   Workbenches: [Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
+   SeeAlso: [Part Primitives](Part_Primitives/fr.md)
 ---
 
 # Part Wedge/fr
@@ -126,4 +126,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/fr

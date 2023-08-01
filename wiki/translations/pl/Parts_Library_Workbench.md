@@ -2,7 +2,7 @@
 ## Wprowadzenie
 
 
-{{TOCright}}
+
 
 To repozytorium zawiera bibliotekę części, które mogą być używane w programie FreeCAD. Jest ono utrzymywane przez społeczność użytkowników programu FreeCAD i nie jest częścią projektu FreeCAD, choć zostało stworzone z myślą o wykorzystaniu go w przyszłości jako repozytorium części w programie FreeCAD.
 
@@ -55,4 +55,4 @@ Biblioteka ta jest prostym zasobnikiem dla plików FreeCAD *(.fcstd)* i STEP *(.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Parts Library Workbench/pl
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Parts Library Workbench/pl

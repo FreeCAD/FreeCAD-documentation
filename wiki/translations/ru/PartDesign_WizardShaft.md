@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign WizardShaft
-   Name/ru:PartDesign WizardShaft
-   MenuLocation:Part Design - Shaft design wizard...
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md), Complete
+   Name: PartDesign WizardShaft
+   Name/ru: PartDesign WizardShaft
+   MenuLocation: Part Design - Shaft design wizard...
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md), Complete
 ---
 
 # PartDesign WizardShaft/ru
@@ -91,4 +91,4 @@ For each shaft segment, the following parameters can be defined
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/ru

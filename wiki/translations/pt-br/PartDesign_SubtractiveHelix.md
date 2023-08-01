@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractiveHelix
-   MenuLocation:Part Design - Create a subtractive feature - Subtractive helix
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   Version:0.19
-   SeeAlso:[PartDesign AdditiveHelix](PartDesign_AdditiveHelix.md)
+   Name: PartDesign SubtractiveHelix
+   MenuLocation: Part Design - Create a subtractive feature - Subtractive helix
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   Version: 0.19
+   SeeAlso: [PartDesign AdditiveHelix](PartDesign_AdditiveHelix.md)
 ---
 
 # PartDesign SubtractiveHelix/pt-br
@@ -130,4 +130,4 @@ If checked, the helix will be shown in the view, and updated automatically on ev
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveHelix/pt-br
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveHelix/pt-br

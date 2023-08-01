@@ -1,6 +1,6 @@
 # Draft Wire/sv
 ---
-- GuiCommand:   Name:Draft Wire   Name/sv:Draft Wire   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|Shortcut:W I   MenuLocation:Draft - Wire   SeeAlso:[Draft Line](Draft_Line/sv.md), [Draft BSpline](Draft_BSpline/sv.md)---
+- GuiCommand:   Name: Draft Wire   Name/sv: Draft Wire   Workbenches: [Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|Shortcut: W I   MenuLocation: Draft - Wire   SeeAlso: [Draft Line](Draft_Line/sv.md), [Draft BSpline](Draft_BSpline/sv.md)---
 
 
 </div>
@@ -204,4 +204,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/sv

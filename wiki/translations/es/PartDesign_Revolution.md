@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign_Revolution
-   Name/es:DiseñoPiezas Rotación
-   MenuLocation:DiseñoPiezas -> Rotación
-   Workbenches:[DiseñoPiezas](PartDesign_Workbench/es.md)
+   Name: PartDesign_Revolution
+   Name/es: DiseñoPiezas Rotación
+   MenuLocation: DiseñoPiezas -> Rotación
+   Workbenches: [DiseñoPiezas](PartDesign_Workbench/es.md)
 ---
 
 # PartDesign Revolution/es
@@ -115,4 +115,4 @@ A [detailed example of use](http://forum.freecadweb.org/viewtopic.php?f=3&t=3674
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/es

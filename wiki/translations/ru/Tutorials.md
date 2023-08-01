@@ -1,6 +1,4 @@
 # Tutorials/ru
-{{TOCright}}
-
 На этой странице представлен набор высококачественных письменных руководств. Полный, несортированный список учебных пособий на английском языке можно найти в [:Category:Tutorials](:Category_Tutorials.md), на русском языке в [:Category:Tutorials/ru](:Category:Tutorials/ru.md), полный и сортируемый список - в [таблице ниже](Tutorials/ru#Учебники_-_Полный_список.md).
 
 Если вы хотите внести свой вклад в написание руководств и документации для вики, см. общие рекомендации в [Wiki Pages](WikiPages/ru.md), так же вы можете ознакомиться с [tutorial guidelines](tutorial_guidelines/ru.md).
@@ -384,4 +382,4 @@ These are tutorials that are related to scripting or programming. They are geare
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials]], на русском языке в ](Category_Tutorials]], на русском языке в .md) > [Tutorials/ru]], полный и сортируемый список - в ](Category_Tutorials/ru]], полный и сортируемый список - в .md) > [Tutorials](Category_Tutorials.md) > Tutorials/ru
+⏵ [documentation index](../README.md) > [Tutorials]], на русском языке в ](Category_Tutorials]], на русском языке в .md) > [Tutorials/ru]], полный и сортируемый список - в ](Category_Tutorials/ru]], полный и сортируемый список - в .md) > [Tutorials](Category_Tutorials.md) > Tutorials/ru

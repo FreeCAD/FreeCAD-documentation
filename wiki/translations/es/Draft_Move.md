@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Move
-   Name/es:Draft Move
-   MenuLocation:Croquis -> Mover
-   Workbenches:[Croquis](Draft_Workbench/es.md)
-   Shortcut:**M** **V**
+   Name: Draft Move
+   Name/es: Draft Move
+   MenuLocation: Croquis -> Mover
+   Workbenches: [Croquis](Draft_Workbench/es.md)
+   Shortcut: **M** **V**
 ---
 
 # Draft Move/es
@@ -144,4 +144,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move/es

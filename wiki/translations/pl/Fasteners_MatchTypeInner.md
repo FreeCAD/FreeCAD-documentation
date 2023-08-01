@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Fasteners MatchTypeInner
-   MenuLocation:Fasteners - Match for tap hole
-   Workbenches:[Fasteners](Fasteners_Workbench.md)
-   SeeAlso:[Fasteners MatchTypeOuter](Fasteners_MatchTypeOuter.md)
+   Name: Fasteners MatchTypeInner
+   MenuLocation: Fasteners - Match for tap hole
+   Workbenches: [Fasteners](Fasteners_Workbench.md)
+   SeeAlso: [Fasteners MatchTypeOuter](Fasteners_MatchTypeOuter.md)
 ---
 
 # Fasteners MatchTypeInner/pl
@@ -30,4 +30,4 @@ The <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:24px;"> **
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners MatchTypeInner/pl
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners MatchTypeInner/pl

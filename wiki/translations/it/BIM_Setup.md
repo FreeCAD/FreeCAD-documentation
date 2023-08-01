@@ -1,10 +1,10 @@
 ---
 - GuiCommand:Addon/it
-   Name:BIM Setup
-   Name/it:Setup BIM
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/it.md)
-   Addon:BIM
-   MenuLocation:Gestione - Setup
+   Name: BIM Setup
+   Name/it: Setup BIM
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/it.md)
+   Addon: BIM
+   MenuLocation: Gestione - Setup
 ---
 
 # BIM Setup/it
@@ -20,4 +20,4 @@ Passando il mouse sopra ogni impostazione, viene mostrato un suggerimento che sp
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Setup/it
+⏵ [documentation index](../README.md) > BIM Setup/it

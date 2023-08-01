@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Assembly3 CreateAssembly
-   Name/de:Assembly3 BaugruppeAnlegen
-   Icon:Assembly_New_Assembly.svg
-   MenuLocation:Assembly3 - Create assembly
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
-   Shortcut:**A** **N**
+   Name: Assembly3 CreateAssembly
+   Name/de: Assembly3 BaugruppeAnlegen
+   Icon: Assembly_New_Assembly.svg
+   MenuLocation: Assembly3 - Create assembly
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   Shortcut: **A** **N**
 ---
 
 # Assembly3 CreateAssembly/de
@@ -35,4 +35,4 @@ Das hinzugefügte **Assembly**-Objekt mit allen sichtbaren Containern sieht so a
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 CreateAssembly/de
+⏵ [documentation index](../README.md) > Assembly3 CreateAssembly/de

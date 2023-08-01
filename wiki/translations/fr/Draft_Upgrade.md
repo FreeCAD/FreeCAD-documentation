@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Upgrade
-   Name/fr:Draft Agréger
-   MenuLocation:Modification - Agréger
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:**U** **P**
-   SeeAlso:[Draft Désagréger](Draft_Downgrade/fr.md)
+   Name: Draft Upgrade
+   Name/fr: Draft Agréger
+   MenuLocation: Modification - Agréger
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut: **U** **P**
+   SeeAlso: [Draft Désagréger](Draft_Downgrade/fr.md)
 ---
 
 # Draft Upgrade/fr
@@ -85,4 +85,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Upgrade/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Upgrade/fr

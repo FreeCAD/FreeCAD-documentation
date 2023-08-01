@@ -81,4 +81,4 @@ for i in tb:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro GuiResetToolbars/ru
+⏵ [documentation index](../README.md) > Macro GuiResetToolbars/ru

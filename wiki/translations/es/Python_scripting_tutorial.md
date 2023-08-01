@@ -1,8 +1,4 @@
 # Python scripting tutorial/es
-{{TOCright}}
-
-
-
 ## Introducción
 
 [Python](http://es.wikipedia.org/wiki/Python) es un lenguaje de programación relativamente fácil de aprender y comprender. Es de código abierto y multiplataforma, y puede utilizarse para muchos fines: desde simples scripts de shell hasta programas muy complejos. Pero su uso más extendido es como lenguaje de scripting incrustado en otras aplicaciones. Así es como se utiliza dentro de FreeCAD. Desde la [Consola de Python](Python_console/es.md), o desde scripts personalizados, puedes controlar FreeCAD y hacer que realice operaciones muy complejas.
@@ -349,4 +345,4 @@ Ahora estás listo para profundizar en guionización FreeCAD. Así que dirígete
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Python scripting tutorial/es
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Python scripting tutorial/es

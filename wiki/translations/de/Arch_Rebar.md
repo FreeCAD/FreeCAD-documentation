@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar
-   Name/de:Architektur Bewehrung oder 3D/BIM-Verstärkung
-   MenuLocation:Architektur - Bewehrung
-   Workbenches:[Architektur](Arch_Workbench/de.md),[BIM](BIM_Workbench/de.md)
-   Shortcut:**R** **B**
-   SeeAlso:[Architektur Struktur](Arch_Structure/de.md), [Verstärkungserweiterung](Reinforcement_Workbench/de.md)
+   Name: Arch Rebar
+   Name/de: Architektur Bewehrung oder 3D/BIM-Verstärkung
+   MenuLocation: Architektur - Bewehrung
+   Workbenches: [Architektur](Arch_Workbench/de.md),[BIM](BIM_Workbench/de.md)
+   Shortcut: **R** **B**
+   SeeAlso: [Architektur Struktur](Arch_Structure/de.md), [Verstärkungserweiterung](Reinforcement_Workbench/de.md)
 ---
 
 # Arch Rebar/de
@@ -161,4 +161,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar/de
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar/de

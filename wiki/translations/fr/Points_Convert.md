@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Points Convert
-   Name/fr:Points Convertir
-   MenuLocation:Points - Convertir en points...
-   Workbenches:[Points](Points_Workbench/fr.md)
+   Name: Points Convert
+   Name/fr: Points Convertir
+   MenuLocation: Points - Convertir en points...
+   Workbenches: [Points](Points_Workbench/fr.md)
 ---
 
 # Points Convert/fr
@@ -72,4 +72,4 @@ Les objets nuage de points sont des objets [App GeoFeature](App_GeoFeature/fr.md
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Convert/fr
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Convert/fr

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionCascadeObliqueDimension
-   Name/fr:TechDraw Cascade oblique
-   MenuLocation:TechDraw - Extensions : attributs/modifications - Cascader obliquement les cotes
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw Cascade horizontale](TechDraw_ExtensionCascadeHorizDimension/fr.md), [TechDraw Cascade verticale](TechDraw_ExtensionCascadeVertDimension/fr.md)
+   Name: TechDraw ExtensionCascadeObliqueDimension
+   Name/fr: TechDraw Cascade oblique
+   MenuLocation: TechDraw - Extensions : attributs/modifications - Cascader obliquement les cotes
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw Cascade horizontale](TechDraw_ExtensionCascadeHorizDimension/fr.md), [TechDraw Cascade verticale](TechDraw_ExtensionCascadeVertDimension/fr.md)
 ---
 
 # TechDraw ExtensionCascadeObliqueDimension/fr
@@ -41,4 +41,4 @@ L\'outil **TechDraw Cascade oblique** permet d\'espacer uniformément les cotes 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCascadeObliqueDimension/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCascadeObliqueDimension/fr

@@ -1,6 +1,4 @@
 # SheetMetal Examples/fr
-{{TOCright}}
-
 ## Introduction
 
 L\'<img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:24px;"> [atelier SheetMetal](SheetMetal_Workbench/fr.md) (un [atelier externe](External_workbenches/fr.md) disponible via le [Gestionnaire des extensions](Std_AddonMgr/fr.md)) est devenu assez puissant et mérite d\'être documenté de manière appropriée.
@@ -479,4 +477,4 @@ Profilé fusionné → Profilé avec extension emboîtée, ce résultat final es
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal Examples/fr
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal Examples/fr

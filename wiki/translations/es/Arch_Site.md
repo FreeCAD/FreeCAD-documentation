@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Site
-   Name/es:Arquitectura Ubicación
-   MenuLocation:Arquitectura - Ubicación
-   Workbenches:[Arquitectura](Arch_Workbench/es.md)
-   Shortcut:**S** **I**
-   SeeAlso:[Arquitectura Piso](Arch_Floor/es.md), [Arquitectura Edificio](Arch_Building/es.md)
+   Name: Arch Site
+   Name/es: Arquitectura Ubicación
+   MenuLocation: Arquitectura - Ubicación
+   Workbenches: [Arquitectura](Arch_Workbench/es.md)
+   Shortcut: **S** **I**
+   SeeAlso: [Arquitectura Piso](Arch_Floor/es.md), [Arquitectura Edificio](Arch_Building/es.md)
 ---
 
 # Arch Site/es
@@ -238,4 +238,4 @@ FreeCAD.Gui.ActiveDocument.ActiveView.getSceneGraph().addChild(Node)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Site/es
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Site/es

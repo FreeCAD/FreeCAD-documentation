@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std TreePreSelection
-   MenuLocation:View - TreeView actions - Pre-selection
-   Workbenches:All
-   Shortcut:**T** **4**
-   Version:0.19
+   Name: Std TreePreSelection
+   MenuLocation: View - TreeView actions - Pre-selection
+   Workbenches: All
+   Shortcut: **T** **4**
+   Version: 0.19
 ---
 
 # Std TreePreSelection/en
@@ -35,4 +35,4 @@ The Tree view PreSelection mode can also be set in the [Preferences editor](Pref
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreePreSelection/en
+⏵ [documentation index](../README.md) > Std TreePreSelection/en

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Points Convert
-   Name/de:Points umwandeln
-   MenuLocation:Punkte - In Punkte umwandeln...
-   Workbenches:[Points](Points_Workbench/de.md)
+   Name: Points Convert
+   Name/de: Points umwandeln
+   MenuLocation: Punkte - In Punkte umwandeln...
+   Workbenches: [Points](Points_Workbench/de.md)
 ---
 
 # Points Convert/de
@@ -74,4 +74,4 @@ Punktwolkenobjekte sind [App GeoFeature](App_GeoFeature/de.md)-Objekte mit den f
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Convert/de
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Convert/de

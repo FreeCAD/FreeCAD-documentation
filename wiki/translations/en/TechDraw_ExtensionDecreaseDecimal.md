@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionDecreaseDecimal
-   MenuLocation:TechDraw - Extensions: Dimensions - Decrease Decimal Places
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ExtensionIncreaseDecimal](TechDraw_ExtensionIncreaseDecimal.md)
+   Name: TechDraw ExtensionDecreaseDecimal
+   MenuLocation: TechDraw - Extensions: Dimensions - Decrease Decimal Places
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ExtensionIncreaseDecimal](TechDraw_ExtensionIncreaseDecimal.md)
 ---
 
 # TechDraw ExtensionDecreaseDecimal/en
@@ -37,4 +37,4 @@ The **TechDraw ExtensionDecreaseDecimal** tool decreases the number of decimal p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDecreaseDecimal/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionDecreaseDecimal/en

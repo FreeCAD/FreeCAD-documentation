@@ -87,4 +87,4 @@ FreeCAD использует [оболочку Qt](https://ru.wikipedia.org/wiki
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Manual:The FreeCAD Interface/ru
+⏵ [documentation index](../README.md) > Manual:The FreeCAD Interface/ru

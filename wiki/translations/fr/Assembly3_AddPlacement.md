@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 AddPlacement
-   Name/fr:Assembly3 Ajoutez un emplacement
-   Icon:Assembly_Add_Placement.svg‎‎
-   MenuLocation:Assembly3 - Workplane and origin - Add placement
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 AddPlacement
+   Name/fr: Assembly3 Ajoutez un emplacement
+   Icon: Assembly_Add_Placement.svg‎‎
+   MenuLocation: Assembly3 - Workplane and origin - Add placement
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 AddPlacement/fr
@@ -31,4 +31,4 @@ Les éléments valides sont par exemple des éléments, des corps, des sommets, 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 AddPlacement/fr
+⏵ [documentation index](../README.md) > Assembly3 AddPlacement/fr

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std RandomColor
-   Name/it:Colore casuale
-   MenuLocation:Visualizza - Colore casuale
-   Workbenches:Tutti
+   Name: Std RandomColor
+   Name/it: Colore casuale
+   MenuLocation: Visualizza - Colore casuale
+   Workbenches: Tutti
 ---
 
 # Std RandomColor/it
@@ -40,4 +40,4 @@ Il comando **Colore casuale** applica un {{PropertyView/it|Shape Color}} casuale
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std RandomColor/it
+⏵ [documentation index](../README.md) > Std RandomColor/it

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part CrossSections
-   MenuLocation:Part - Cross-sections...
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part Section](Part_Section.md)
+   Name: Part CrossSections
+   MenuLocation: Part - Cross-sections...
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Part Section](Part_Section.md)
 ---
 
 # Part CrossSections/pt-br
@@ -40,4 +40,4 @@ The **Cross-sections** utility creates one or more cross-sections through the se
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/pt-br
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/pt-br

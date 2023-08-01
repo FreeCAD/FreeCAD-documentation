@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign Migrate
-   Name/it:Migra
-   Empty:1
-   Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation:Part Design - Migra
-   Version:0.17
+   Name: PartDesign Migrate
+   Name/it: Migra
+   Empty: 1
+   Workbenches: [PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation: Part Design - Migra
+   Version: 0.17
 ---
 
 # PartDesign Migrate/it
@@ -56,4 +56,4 @@ PartDesign in FreeCAD v0.17 introduce nuovi strumenti ed elementi che non sono r
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Migrate/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Migrate/it

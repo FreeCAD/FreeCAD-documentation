@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionLockUnlockView
-   Name/pl:Rysunek Techniczny: Rozszerzenie Zablokuj / odblokuj widok
-   MenuLocation:Rysunek Techniczny - Rozszerzenie: Atrybuty / Modyfikatory - Zablokuj / odblokuj widok
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:
+   Name: TechDraw ExtensionLockUnlockView
+   Name/pl: Rysunek Techniczny: Rozszerzenie Zablokuj / odblokuj widok
+   MenuLocation: Rysunek Techniczny - Rozszerzenie: Atrybuty / Modyfikatory - Zablokuj / odblokuj widok
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: 
 ---
 
 # TechDraw ExtensionLockUnlockView/pl
@@ -38,4 +38,4 @@ Narzędzie **Zablokuj / odblokuj widok** blokuje lub odblokowuje pozycję widoku
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionLockUnlockView/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionLockUnlockView/pl

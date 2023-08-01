@@ -1,12 +1,12 @@
 # Part Cylinder/ro
 ---
 - GuiCommand:
-   Name:Part Cylinder
-   Name/ro:Part Cylinder
-   MenuLocation:Part -> Cylinder
+   Name: Part Cylinder
+   Name/ro: Part Cylinder
+   MenuLocation: Part -> Cylinder
 |
-   Workbenches:[Part Workbench](Part_Workbench/ro.md), Complete
-   SeeAlso:[Part CreatePrimitives](Part_CreatePrimitives/ro.md)---
+   Workbenches: [Part Workbench](Part_Workbench/ro.md), Complete
+   SeeAlso: [Part CreatePrimitives](Part_CreatePrimitives/ro.md)---
 
 
 </div>
@@ -148,4 +148,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cylinder/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cylinder/ro

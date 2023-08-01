@@ -1,6 +1,6 @@
 # PartDesign SubtractiveEllipsoid/ro
 ---
-- GuiCommand:   Name:PartDesign SubtractiveEllipsoid   Workbenches:[MenuLocation:Part Design - Create an subtractive primitive - Subtractive Ellipsoid   Shortcut:None   SeeAlso:[[PartDesign CompPrimitiveSubtractive](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign SubtractiveEllipsoid   Workbenches: [MenuLocation: Part Design - Create an subtractive primitive - Subtractive Ellipsoid   Shortcut: None   SeeAlso: [[PartDesign CompPrimitiveSubtractive](PartDesign_Workbench___PartDesign]].md)---
 
 
 </div>
@@ -80,4 +80,4 @@ Elipsoidul poate fi editat după crearea sa în două moduri:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveEllipsoid/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveEllipsoid/ro

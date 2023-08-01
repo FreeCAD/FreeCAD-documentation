@@ -11,4 +11,4 @@ This category gathers the meeting points of the 3 broad categories of users of F
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Hubs/pt-br
+⏵ [documentation index](../README.md) > Category:Hubs/pt-br

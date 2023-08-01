@@ -2,7 +2,7 @@
 ## Einführung
 
 
-{{TOCright}}
+
 
 In dieser Dokumentation wird erklärt, wie ein Makro so eingerichtet wird, dass es beim Start von FreeCAD automatisch ausgeführt wird.
 
@@ -129,4 +129,4 @@ Beachte, dass, wenn das Originalmakro über den Erweiterungsverwalter herunterge
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Macros](Category_Macros.md) > Macro at Startup/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Macros](Category_Macros.md) > Macro at Startup/de

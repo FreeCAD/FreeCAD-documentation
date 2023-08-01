@@ -421,4 +421,4 @@ Moji makroi na [mario52a](https://gist.github.com/mario52a) gists
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro PropertyMemo/hr
+⏵ [documentation index](../README.md) > Macro PropertyMemo/hr

@@ -16,4 +16,4 @@ Wie Sie vielleicht mitbekommen haben, sind Programmierer schlechte Autoren für 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/de
+⏵ [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/de

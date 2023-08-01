@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch CompPanel
-   Name/it:Pannelli
-   MenuLocation:Arch - Pannelli
-   Workbenches:[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   SeeAlso:
-   Version:0.17
+   Name: Arch CompPanel
+   Name/it: Pannelli
+   MenuLocation: Arch - Pannelli
+   Workbenches: [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   SeeAlso: 
+   Version: 0.17
 ---
 
 # Arch CompPanel/it
@@ -39,4 +39,4 @@ Raggruppamento di numerosi strumenti relativi al pannello.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPanel/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPanel/it

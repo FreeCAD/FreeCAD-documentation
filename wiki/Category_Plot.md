@@ -14,4 +14,4 @@ This category lists pages related to the [Plot Workbench](Plot_Workbench.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [Workbenches](Category_Workbenches.md) > Category:Plot
+⏵ [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [Workbenches](Category_Workbenches.md) > Category:Plot

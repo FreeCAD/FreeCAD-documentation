@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Sandbox:Pyrate
+⏵ [documentation index](../README.md) > Sandbox:Pyrate

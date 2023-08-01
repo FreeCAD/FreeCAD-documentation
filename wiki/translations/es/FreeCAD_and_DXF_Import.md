@@ -1,8 +1,4 @@
 # FreeCAD and DXF Import/es
-{{TOCright}}
-
-
-
 ## Fondo
 
 DXF es un formato de datos CAD propietario para dibujos 2D que se originó con AutoCAD. Se pueden encontrar más detalles en la página wiki [DXF](DXF/es.md).
@@ -65,4 +61,4 @@ Para ver un resumen de todas las preferencias relacionadas con DXF, consulte [Pr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [File_Formats](Category_File_Formats.md) > FreeCAD and DXF Import/es
+⏵ [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [File_Formats](Category_File_Formats.md) > FreeCAD and DXF Import/es

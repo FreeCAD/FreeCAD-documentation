@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Вставить Вид сечения
-   Name:TechDraw_SectionView
-   MenuLocation:TechDraw - Вставить Вид сечения
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Вставить Вид](TechDraw_View/ru.md), [Вставить группу проекций](TechDraw_ProjectionGroup/ru.md)
+   Name/ru: Вставить Вид сечения
+   Name: TechDraw_SectionView
+   MenuLocation: TechDraw - Вставить Вид сечения
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso: [Вставить Вид](TechDraw_View/ru.md), [Вставить группу проекций](TechDraw_ProjectionGroup/ru.md)
 ---
 
 # TechDraw SectionView/ru
@@ -199,4 +199,4 @@ For some more information about section views and some use cases, have a look at
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SectionView/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SectionView/ru

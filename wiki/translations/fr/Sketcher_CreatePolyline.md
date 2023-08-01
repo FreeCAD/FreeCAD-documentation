@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreatePolyline
-   Name/fr:Sketcher Polyligne
-   MenuLocation:Esquisse - Géométries d'esquisse - Créer une polyligne
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **M**
-   SeeAlso:[Sketcher Ligne](Sketcher_CreateLine/fr.md)
+   Name: Sketcher CreatePolyline
+   Name/fr: Sketcher Polyligne
+   MenuLocation: Esquisse - Géométries d'esquisse - Créer une polyligne
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **M**
+   SeeAlso: [Sketcher Ligne](Sketcher_CreateLine/fr.md)
 ---
 
 # Sketcher CreatePolyline/fr
@@ -52,4 +52,4 @@ L\'outil Polyligne commence toujours par un segment de droite: cliquez, déplace
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePolyline/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePolyline/fr

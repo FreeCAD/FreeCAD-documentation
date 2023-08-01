@@ -145,4 +145,4 @@ Spójrz na poradnik [Sterownik Kinematyczny](Tutorial_KinematicController/pl.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Tutorial KinematicAssembly/pl
+⏵ [documentation index](../README.md) > Tutorial KinematicAssembly/pl

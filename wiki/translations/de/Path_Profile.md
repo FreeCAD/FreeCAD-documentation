@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path Profile
-   Name/de:Pfad Profil
-   MenuLocation:Pfad - Profil
-   Workbenches:[Pfad](Path_Workbench/de.md)
-   Version:0.19
+   Name: Path Profile
+   Name/de: Pfad Profil
+   MenuLocation: Pfad - Profil
+   Workbenches: [Pfad](Path_Workbench/de.md)
+   Version: 0.19
 ---
 
 # Path Profile/de
@@ -325,4 +325,4 @@ Beispiel:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Profile/de
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Profile/de

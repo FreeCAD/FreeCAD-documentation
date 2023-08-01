@@ -1,8 +1,4 @@
 # Path experimental/de
-{{TOCright}}
-
-
-
 ## Beschreibung
 
 The Path Workbench contains a set of hidden commands. They are hidden by default because they are experimental. A command can be considered experimental for any of the following reasons:
@@ -44,4 +40,4 @@ Read more about the specific experimental commands on the [wiki pages that link 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Path](Path_Workbench.md) > Path experimental/de
+⏵ [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Path](Path_Workbench.md) > Path experimental/de

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw DetailView
-   Name/fr:TechDraw Vue détaillée
-   MenuLocation:TechDraw - Insérer une vue de détail
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[TechDraw Vue](TechDraw_View/fr.md), [TechDraw Groupe de projection](TechDraw_ProjectionGroup/fr.md)
+   Name: TechDraw DetailView
+   Name/fr: TechDraw Vue détaillée
+   MenuLocation: TechDraw - Insérer une vue de détail
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Version: 0.19
+   SeeAlso: [TechDraw Vue](TechDraw_View/fr.md), [TechDraw Groupe de projection](TechDraw_ProjectionGroup/fr.md)
 ---
 
 # TechDraw DetailView/fr
@@ -93,4 +93,4 @@ Detail = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDetail','Detail')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DetailView/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DetailView/fr

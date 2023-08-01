@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Path Fixture
-   Name/ru:Path Fixture
-   MenuLocation:Path - Supplemental Commands - Крепление
-   Workbenches:[Path](Path_Workbench/ru.md)
-   Shortcut:**P** **F**
-   SeeAlso:
+   Name: Path Fixture
+   Name/ru: Path Fixture
+   MenuLocation: Path - Supplemental Commands - Крепление
+   Workbenches: [Path](Path_Workbench/ru.md)
+   Shortcut: **P** **F**
+   SeeAlso: 
 ---
 
 # Path Fixture/ru
@@ -59,4 +59,4 @@ The G59 Fixture is used to expand available fixtures. The degree of expansion im
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Fixture/ru
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Fixture/ru

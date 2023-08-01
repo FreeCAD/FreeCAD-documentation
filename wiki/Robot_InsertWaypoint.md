@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Robot InsertWaypoint
-   MenuLocation:Robot - Insert in trajectory
-   Workbenches:[Robot](Robot_Workbench.md)
-   Shortcut:**A**
-   SeeAlso:
+   Name: Robot InsertWaypoint
+   MenuLocation: Robot - Insert in trajectory
+   Workbenches: [Robot](Robot_Workbench.md)
+   Shortcut: **A**
+   SeeAlso: 
 ---
 
 # Robot InsertWaypoint
@@ -37,4 +37,4 @@ Moving a robot is done by:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypoint
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypoint

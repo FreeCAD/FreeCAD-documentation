@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreatePentagon
-   Name/de:Sketcher FünfeckErstellen
-   MenuLocation:Sketch - Skizzengeometrien - Fünfeck erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **P** **5**
-   Version:0.15
+   Name: Sketcher CreatePentagon
+   Name/de: Sketcher FünfeckErstellen
+   MenuLocation: Sketch - Skizzengeometrien - Fünfeck erstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **P** **5**
+   Version: 0.15
 ---
 
 # Sketcher CreatePentagon/de
@@ -36,4 +36,4 @@ Der umschriebene Kreis ist Konstruktionsgeometrie, die nur bei der Bearbeitung d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePentagon/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePentagon/de

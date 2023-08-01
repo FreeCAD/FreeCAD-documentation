@@ -1,6 +1,6 @@
 # Plot Legend/it
 ---
-- GuiCommand:   Name:Plot Legend   Name/it:Legenda   MenuLocation:Plot - Legenda‏‎   |Workbenches:[[Plot_Workbench/it   Plot]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Plot Legend   Name/it: Legenda   MenuLocation: Plot - Legenda‏‎   |Workbenches: [[Plot_Workbench/it   Plot]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -34,4 +34,4 @@ Remember that the styles and labels of the data series can be edited with the [d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Legend/it
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Legend/it

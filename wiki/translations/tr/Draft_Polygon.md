@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Polygon
-   Name/tr:Çokgen
-   MenuLocation:Taslak - Çokgen
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   Shortcut:**P** **G**
-   SeeAlso:[Çember](Draft_Circle/tr.md)
-   Version:0.7
+   Name: Draft Polygon
+   Name/tr: Çokgen
+   MenuLocation: Taslak - Çokgen
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   Shortcut: **P** **G**
+   SeeAlso: [Çember](Draft_Circle/tr.md)
+   Version: 0.7
 ---
 
 # Draft Polygon/tr
@@ -228,4 +228,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Polygon/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Polygon/tr

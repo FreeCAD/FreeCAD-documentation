@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw DecorateLine
-   MenuLocation:TechDraw - Add Lines - Change Appearance of Lines
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.19
-   SeeAlso:[TechDraw ShowAll](TechDraw_ShowAll.md), [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md)
+   Name: TechDraw DecorateLine
+   MenuLocation: TechDraw - Add Lines - Change Appearance of Lines
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Version: 0.19
+   SeeAlso: [TechDraw ShowAll](TechDraw_ShowAll.md), [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md)
 ---
 
 # TechDraw DecorateLine/en
@@ -56,4 +56,4 @@ The **TechDraw DecorateLine** tool changes the appearance of edges. It can also 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DecorateLine/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DecorateLine/en

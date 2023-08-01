@@ -1,6 +1,6 @@
 # Part Thickness/cs
 ---
-- GuiCommand:   Name:Part Thickness   Name/cs:Part Thickness   MenuLocation:Part - Thickness   |Workbenches:[SeeAlso:[[Part Offset/cs|Offset](Part_Workbench/cs___Part]],_Complet.md)---
+- GuiCommand:   Name: Part Thickness   Name/cs: Part Thickness   MenuLocation: Part - Thickness   |Workbenches: [SeeAlso: [[Part Offset/cs|Offset](Part_Workbench/cs___Part]],_Complet.md)---
 
 
 </div>
@@ -78,4 +78,4 @@ Notes:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Thickness/cs
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Thickness/cs

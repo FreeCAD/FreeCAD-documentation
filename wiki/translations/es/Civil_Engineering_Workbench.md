@@ -30,4 +30,4 @@ Las herramientas de Barra de refuerzo forman parte actualmente del [Ambiente de 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > Civil Engineering Workbench/es
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > Civil Engineering Workbench/es

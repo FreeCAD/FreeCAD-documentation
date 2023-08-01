@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Fasteners MatchTypeOuter
-   Name/fr:Fasteners MatchTypeOuter
-   MenuLocation:Fasteners - Match for pass hole
-   Workbenches:[Fasteners](Fasteners_Workbench/fr.md)
-   SeeAlso:[Fasteners MatchTypeInner](Fasteners_MatchTypeInner/fr.md)
+   Name: Fasteners MatchTypeOuter
+   Name/fr: Fasteners MatchTypeOuter
+   MenuLocation: Fasteners - Match for pass hole
+   Workbenches: [Fasteners](Fasteners_Workbench/fr.md)
+   SeeAlso: [Fasteners MatchTypeInner](Fasteners_MatchTypeInner/fr.md)
 ---
 
 # Fasteners MatchTypeOuter/fr
@@ -31,4 +31,4 @@ La commande <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:24
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners MatchTypeOuter/fr
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners MatchTypeOuter/fr

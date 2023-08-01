@@ -1,8 +1,4 @@
 # Path Preferences/de
-{{TOCright}}
-
-
-
 ## Übersicht
 
 Der Einstellungsbildschirm der [Pfad Arbeitsbereich](Path_Workbench/de.md) befindet sich im [Preferences Editor](Preferences_Editor.md), **Bearbeiten → Einstellungen → Pfad**.
@@ -68,4 +64,4 @@ Es gibt vier Abschnitte: Allgemein, Nachbearbeitungsprogramm, Einrichtung und We
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Path](Path_Workbench.md) > Path Preferences/de
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Path](Path_Workbench.md) > Path Preferences/de

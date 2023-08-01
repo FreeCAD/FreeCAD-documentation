@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ReportBug
-   Name/it:Segnala un bug
-   MenuLocation:Aiuto - Segnala un bug
-   Workbenches:Tutti
-   Version:0.20
+   Name: Std ReportBug
+   Name/it: Segnala un bug
+   MenuLocation: Aiuto - Segnala un bug
+   Workbenches: Tutti
+   Version: 0.20
 ---
 
 # Std ReportBug/it
@@ -34,4 +34,4 @@ Attualmente il comando punta a [<https://github.com/FreeCAD/FreeCAD/issues>](htt
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ReportBug/it
+⏵ [documentation index](../README.md) > Std ReportBug/it

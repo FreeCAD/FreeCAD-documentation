@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part CheckGeometry‏‎
-   Name/es:Pieza ComprobarGeometría
-   MenuLocation:Pieza - Comprobar geometría
-   Workbenches:[Pieza](Part_Workbench/es.md)
+   Name: Part CheckGeometry‏‎
+   Name/es: Pieza ComprobarGeometría
+   MenuLocation: Pieza - Comprobar geometría
+   Workbenches: [Pieza](Part_Workbench/es.md)
 ---
 
 # Part CheckGeometry/es
@@ -106,4 +106,4 @@ In addition to detecting potential geometry errors, this tool shows a range of p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/es
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/es

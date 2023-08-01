@@ -144,4 +144,4 @@ if rect:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Place Image/fr
+⏵ [documentation index](../README.md) > Macro Place Image/fr

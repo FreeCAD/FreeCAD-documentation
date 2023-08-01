@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part CompCompoundTools
-   Name/de:Part AuswahlVerbundwerkzeuge
-   MenuLocation:Formteil - Verbund
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:
+   Name: Part CompCompoundTools
+   Name/de: Part AuswahlVerbundwerkzeuge
+   MenuLocation: Formteil - Verbund
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: 
 ---
 
 # Part CompCompoundTools/de
@@ -22,4 +22,4 @@ Ein Satz verschiedener Verbundwerkzeuge.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompCompoundTools/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompCompoundTools/de

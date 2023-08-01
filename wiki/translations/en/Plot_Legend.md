@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Plot Legend
-   MenuLocation:Plot - Show/hide legend‏‎
-   Workbenches:[Plot](Plot_Workbench.md)
+   Name: Plot Legend
+   MenuLocation: Plot - Show/hide legend‏‎
+   Workbenches: [Plot](Plot_Workbench.md)
 ---
 
 # Plot Legend/en
@@ -30,4 +30,4 @@ Remember that the styles and labels of the data series can be edited with the [d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Legend/en
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Legend/en

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Assembly3 MovePart
-   Name/de:Assembly3 TeilBewegen
-   Icon:Assembly_Move.svg
-   MenuLocation:Assembly3 - Move part
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
-   Shortcut:**A** dann **M**
+   Name: Assembly3 MovePart
+   Name/de: Assembly3 TeilBewegen
+   Icon: Assembly_Move.svg
+   MenuLocation: Assembly3 - Move part
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   Shortcut: **A** dann **M**
 ---
 
 # Assembly3 MovePart/de
@@ -33,4 +33,4 @@ Die Anfasser bewegen das Teil parallel zu einer der Basisebenen des LKS des gewÃ
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 MovePart/de
+âµ [documentation index](../README.md) > Assembly3 MovePart/de

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch CutLine
-   MenuLocation:Arch - Cut with line
-   Workbenches:[Arch](Arch_Workbench.md)
-   Version:0.19
-   SeeAlso:[Arch CutPlane](Arch_CutPlane.md)
+   Name: Arch CutLine
+   MenuLocation: Arch - Cut with line
+   Workbenches: [Arch](Arch_Workbench.md)
+   Version: 0.19
+   SeeAlso: [Arch CutPlane](Arch_CutPlane.md)
 ---
 
 # Arch CutLine/pt-br
@@ -37,4 +37,4 @@ The [Arch CutLine](Arch_CutLine.md) tool allows you to cut a solid Arch object l
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutLine/pt-br
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutLine/pt-br

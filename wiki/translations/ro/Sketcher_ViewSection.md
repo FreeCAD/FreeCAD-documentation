@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ViewSection
-   Name/ro:Sketcher ViewSection
-   MenuLocation:Sketch - View section
-   Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md) 
-   Version:0.18
+   Name: Sketcher ViewSection
+   Name/ro: Sketcher ViewSection
+   MenuLocation: Sketch - View section
+   Workbenches: [Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md) 
+   Version: 0.18
 ---
 
 # Sketcher ViewSection/ro
@@ -50,4 +50,4 @@ Instrumentul **View section** creează un plan de secțiune care ascunde tempora
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/ro

@@ -1654,4 +1654,4 @@ My macros to [Github](https://gist.github.com/mario52a)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Compound Plus
+⏵ [documentation index](../README.md) > Macro Compound Plus

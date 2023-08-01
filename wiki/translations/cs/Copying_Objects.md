@@ -1,6 +1,4 @@
 # Copying Objects/cs
-{{TOCright}}
-
 ## Overview
 
 
@@ -62,4 +60,4 @@ Jako mnoho věcí ve FreeCADu, je mnoho způsobů jak vytvořit kopii. Pro dalš
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Copying Objects/cs
+⏵ [documentation index](../README.md) > Copying Objects/cs

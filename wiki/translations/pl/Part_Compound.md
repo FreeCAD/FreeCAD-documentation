@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Compound‏‎
-   Name/pl:Część: Utwórz kształt złożony
-   MenuLocation:Część - Złożenie - Utwórz kształt złożony
-   Workbenches:[Część](Part_Workbench/pl.md)
-   Version:0.14
-   SeeAlso:[Suma](Part_Fuse/pl.md), [Filtr złożeń](Part_CompoundFilter/pl.md), [Rozbij złożenie](Part_ExplodeCompound/pl.md)
+   Name: Part Compound‏‎
+   Name/pl: Część: Utwórz kształt złożony
+   MenuLocation: Część - Złożenie - Utwórz kształt złożony
+   Workbenches: [Część](Part_Workbench/pl.md)
+   Version: 0.14
+   SeeAlso: [Suma](Part_Fuse/pl.md), [Filtr złożeń](Part_CompoundFilter/pl.md), [Rozbij złożenie](Part_ExplodeCompound/pl.md)
 ---
 
 # Part Compound/pl
@@ -34,4 +34,4 @@ Aby uaktywnić tę kontrolę, przejdź do **Narzędzia → Edycja Parametrów �
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/pl

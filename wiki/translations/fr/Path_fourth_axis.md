@@ -1,6 +1,4 @@
 # Path fourth axis/fr
-{{TOCright}}
-
 ## Description
 
 Ces fonctionnalités expérimentales permettent le fraisage de quatre axes [faces](https://forum.freecadweb.org/viewtopic.php?f=15&t=36773) et [35867 poches](https://forum.freecadweb.org/viewtopic.php?f=15&t=)
@@ -68,4 +66,4 @@ Il n\'y a actuellement aucune intégration GUI des paramètres de rotation du 4�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path fourth axis/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path fourth axis/fr

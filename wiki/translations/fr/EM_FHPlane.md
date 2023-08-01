@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:EM FHPlane
-   Name/fr:EM Plan FH
-   MenuLocation:EM - FHPlane
-   Workbenches:[EM](EM_Workbench/fr.md)
-   Shortcut:**E** **P**
-   Version:0.17
-   SeeAlso:[EM Noeud FH](EM_FHNode/fr.md), [EM Trou FH](EM_FHPlaneHole/fr.md), [EM Bascule noeud trou FH](EM_FHPlaneAddRemoveNodeHole/fr.md)
+   Name: EM FHPlane
+   Name/fr: EM Plan FH
+   MenuLocation: EM - FHPlane
+   Workbenches: [EM](EM_Workbench/fr.md)
+   Shortcut: **E** **P**
+   Version: 0.17
+   SeeAlso: [EM Noeud FH](EM_FHNode/fr.md), [EM Trou FH](EM_FHPlaneHole/fr.md), [EM Bascule noeud trou FH](EM_FHPlaneAddRemoveNodeHole/fr.md)
 ---
 
 # EM FHPlane/fr
@@ -136,4 +136,4 @@ fhplane = EM.makeFHPlane(rect, thickness=1.0, seg1=15, seg2=15, nodes=[fhnode1, 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [EM](Category_EM.md) > EM FHPlane/fr
+⏵ [documentation index](../README.md) > [EM](Category_EM.md) > EM FHPlane/fr

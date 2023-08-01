@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Ship Load
-   Name/ru:Ship Load
-   MenuLocation:Ship design - Загрузить пример геометрии судна
-   Workbenches:[Ship](Ship_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:
+   Name: Ship Load
+   Name/ru: Ship Load
+   MenuLocation: Ship design - Загрузить пример геометрии судна
+   Workbenches: [Ship](Ship_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Ship LoadExample/ru
@@ -53,4 +53,4 @@ In order to help new users, Ship includes a geometries examples loader, with the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship LoadExample/ru
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship LoadExample/ru

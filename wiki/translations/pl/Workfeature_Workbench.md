@@ -4,7 +4,7 @@
 {{Note|Note|Połączyć z [makrodefinicją](Macro_WorkFeatures/pl.md)??}}
 
 
-{{TOCright}}
+
 
 
 
@@ -99,4 +99,4 @@ To środowisko pracy można zainstalować za pomocą [Menadżera dodatków](Std_
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Workfeature Workbench/pl
+⏵ [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Workfeature Workbench/pl

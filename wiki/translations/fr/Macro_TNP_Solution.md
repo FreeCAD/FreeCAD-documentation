@@ -216,4 +216,4 @@ Il existe de nombreux problèmes de ce type lors de la programmation dans FreeCA
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro TNP Solution/fr
+⏵ [documentation index](../README.md) > Macro TNP Solution/fr

@@ -1,6 +1,4 @@
 # Python scripting tutorial/ro
-{{TOCright}}
-
 ## Introduction
 
 
@@ -594,4 +592,4 @@ Acum sunteți gata pentru mai multă programare/script FreeCAD în profunzime. D
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Python scripting tutorial/ro
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Python scripting tutorial/ro

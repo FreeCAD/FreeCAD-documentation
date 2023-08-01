@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft PathArray
-   Name/ru:Draft PathArray
-   MenuLocation:Черчение - Массив по направляющей
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   SeeAlso:[Массив](Draft_Array/ru.md) 
+   Name: Draft PathArray
+   Name/ru: Draft PathArray
+   MenuLocation: Черчение - Массив по направляющей
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   SeeAlso: [Массив](Draft_Array/ru.md) 
 ---
 
 # Draft PathArray/ru
@@ -267,4 +267,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathArray/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathArray/ru

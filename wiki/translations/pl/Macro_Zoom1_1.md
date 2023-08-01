@@ -125,4 +125,4 @@ else:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Zoom1 1/pl
+⏵ [documentation index](../README.md) > Macro Zoom1 1/pl

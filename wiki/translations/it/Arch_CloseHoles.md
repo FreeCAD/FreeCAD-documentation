@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Arch CloseHoles
-   Name/it:Chiudi fori
-   Workbenches:[Architettura](Arch_Workbench/it.md)
-   MenuLocation:Arch - Utilità - Chiudi fori   SeeAlso:[Controlla](Arch_Check/it.md)
+   Name: Arch CloseHoles
+   Name/it: Chiudi fori
+   Workbenches: [Architettura](Arch_Workbench/it.md)
+   MenuLocation: Arch - Utilità - Chiudi fori   SeeAlso: [Controlla](Arch_Check/it.md)
 ---
 
 # Arch CloseHoles/it
@@ -105,4 +105,4 @@ solid = Arch.closeHole(Wall.Shape)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/it

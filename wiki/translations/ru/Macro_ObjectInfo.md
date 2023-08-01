@@ -51,4 +51,4 @@ webbrowser.open("https://github.com/KeithSloan/FreeCAD_Info/archive/master.zip")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro ObjectInfo/ru
+⏵ [documentation index](../README.md) > Macro ObjectInfo/ru

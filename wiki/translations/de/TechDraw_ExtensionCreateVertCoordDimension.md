@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionCreateVertCoordDimension
-   Name/de:TechDraw ErgänzungVertikaleKoordinatenmaße
-   MenuLocation:TechDraw - Ergänzungen: Maße - Vertikale Koordinatenmaße erstellen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ErgänzungHorizontaleKoordinatenmaße](TechDraw_ExtensionCreateHorizCoordDimension/de.md), [TechDraw ErgänzungSchrägeKoordinatenmaße](TechDraw_ExtensionCreateObliqueCoordDimension/de.md)
+   Name: TechDraw ExtensionCreateVertCoordDimension
+   Name/de: TechDraw ErgänzungVertikaleKoordinatenmaße
+   MenuLocation: TechDraw - Ergänzungen: Maße - Vertikale Koordinatenmaße erstellen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ErgänzungHorizontaleKoordinatenmaße](TechDraw_ExtensionCreateHorizCoordDimension/de.md), [TechDraw ErgänzungSchrägeKoordinatenmaße](TechDraw_ExtensionCreateObliqueCoordDimension/de.md)
 ---
 
 # TechDraw ExtensionCreateVertCoordDimension/de
@@ -55,4 +55,4 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionCreateVertCoordDimension.s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateVertCoordDimension/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateVertCoordDimension/de

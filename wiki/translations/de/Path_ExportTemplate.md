@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path ExportTemplate
-   Name/de:Pfad ExportVorlage
-   MenuLocation:Pfad - Export Vorlage
-   Workbenches:[Pfad](Path_Workbench/de.md)
-   SeeAlso:[Pfad EinrichtungsBlatt](Path_SetupSheet.md)
+   Name: Path ExportTemplate
+   Name/de: Pfad ExportVorlage
+   MenuLocation: Pfad - Export Vorlage
+   Workbenches: [Pfad](Path_Workbench/de.md)
+   SeeAlso: [Pfad EinrichtungsBlatt](Path_SetupSheet.md)
 ---
 
 # Path ExportTemplate/de
@@ -75,4 +75,4 @@ Der **Bearbeiten → Voreinstellungen... → Pfad →  Auftragsvorgaben Reiter, 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate/de
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate/de

@@ -1,6 +1,6 @@
 # Sketcher SelectConstraints/ro
 ---
-- GuiCommand:   Name:Sketcher SelectConstraints   Workbenches:[[Sketcher Workbench   Sketcher]]|MenuLocation:Sketch - Sketcher tools - Select Constraints   Shortcut:Shift+Ctrl+C   SeeAlso:   Version:0.15---
+- GuiCommand:   Name: Sketcher SelectConstraints   Workbenches: [[Sketcher Workbench   Sketcher]]|MenuLocation: Sketch - Sketcher tools - Select Constraints   Shortcut: Shift+Ctrl+C   SeeAlso:    Version: 0.15---
 
 
 </div>
@@ -42,4 +42,4 @@ Selectați constrângerile unui element al schiței.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConstraints/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConstraints/ro

@@ -1,6 +1,4 @@
 # Branding/pt-br
-{{TOCright}}
-
 ## Visão geral 
 
 
@@ -128,4 +126,4 @@ Todas as etiquetas listadas são opcionais.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Branding/pt-br
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Branding/pt-br

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw ProjectionGroup
-   Name/fr:TechDraw Groupe de projections
-   MenuLocation:TechDraw - Vues de Techdraw - Insérer un groupe de projections
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Vue active](TechDraw_View/fr.md), [TechDraw Vue de coupe](TechDraw_SectionView/fr.md)
+   Name: TechDraw ProjectionGroup
+   Name/fr: TechDraw Groupe de projections
+   MenuLocation: TechDraw - Vues de Techdraw - Insérer un groupe de projections
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   SeeAlso: [TechDraw Vue active](TechDraw_View/fr.md), [TechDraw Vue de coupe](TechDraw_SectionView/fr.md)
 ---
 
 # TechDraw ProjectionGroup/fr
@@ -152,4 +152,4 @@ Remarque : le groupe de projection doit toujours être ajouté à la page {{Inco
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ProjectionGroup/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ProjectionGroup/fr

@@ -10,4 +10,4 @@ This category lists pages related to the [FEM Workbench/zh-cn](FEM_Workbench/zh-
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:FEM/zh-cn
+⏵ [documentation index](../README.md) > Category:FEM/zh-cn

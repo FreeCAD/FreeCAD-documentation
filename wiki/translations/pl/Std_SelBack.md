@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std SelBack
-   Name/pl:Std: Przywróć wybór
-   MenuLocation:
-   Workbenches:wszystkie
-   Version:0.19
-   SeeAlso:[Przejdź do połączonego obiektu](Std_LinkSelectLinked/pl.md), [Przejdź do najgłębiej połączonego obiektu](Std_LinkSelectLinkedFinal/pl.md),  [Wybierz wszystkie łącza](Std_LinkSelectAllLinks/pl.md), [Ponów wybór](Std_SelForward/pl.md)
+   Name: Std SelBack
+   Name/pl: Std: Przywróć wybór
+   MenuLocation: 
+   Workbenches: wszystkie
+   Version: 0.19
+   SeeAlso: [Przejdź do połączonego obiektu](Std_LinkSelectLinked/pl.md), [Przejdź do najgłębiej połączonego obiektu](Std_LinkSelectLinkedFinal/pl.md),  [Wybierz wszystkie łącza](Std_LinkSelectAllLinks/pl.md), [Ponów wybór](Std_SelForward/pl.md)
 ---
 
 # Std SelBack/pl
@@ -41,4 +41,4 @@ Polecenie **Przywróć wybór** przywraca poprzedni zarejestrowany wybór z [Wid
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SelBack/pl
+⏵ [documentation index](../README.md) > Std SelBack/pl

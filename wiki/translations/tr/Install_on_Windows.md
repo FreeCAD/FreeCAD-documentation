@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Install on Windows/tr
+⏵ [documentation index](../README.md) > Install on Windows/tr

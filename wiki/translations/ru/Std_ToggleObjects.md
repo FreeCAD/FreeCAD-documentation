@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ToggleObjects
-   Name/ru:Std ToggleObjects
-   Empty:1
-   MenuLocation:Вид - Видимость - Инвертировать все видимости
-   Workbenches:All
-   SeeAlso:[Std ToggleVisibility](Std_ToggleVisibility/ru.md), [Std ShowSelection](Std_ShowSelection/ru.md), [Std HideSelection](Std_HideSelection/ru.md), [Std ShowObjects](Std_ShowObjects/ru.md), [Std HideObjects](Std_HideObjects/ru.md)
+   Name: Std ToggleObjects
+   Name/ru: Std ToggleObjects
+   Empty: 1
+   MenuLocation: Вид - Видимость - Инвертировать все видимости
+   Workbenches: All
+   SeeAlso: [Std ToggleVisibility](Std_ToggleVisibility/ru.md), [Std ShowSelection](Std_ShowSelection/ru.md), [Std HideSelection](Std_HideSelection/ru.md), [Std ShowObjects](Std_ShowObjects/ru.md), [Std HideObjects](Std_HideObjects/ru.md)
 ---
 
 # Std ToggleObjects/ru
@@ -49,4 +49,4 @@ The **Std ToggleObjects** command toggles the visibility of all objects belongin
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleObjects/ru
+⏵ [documentation index](../README.md) > Std ToggleObjects/ru

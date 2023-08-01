@@ -129,4 +129,4 @@ fi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Blender Sverchok Addon Setup
+⏵ [documentation index](../README.md) > Blender Sverchok Addon Setup

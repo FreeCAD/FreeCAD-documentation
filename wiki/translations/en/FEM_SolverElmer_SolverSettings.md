@@ -1,6 +1,4 @@
 # FEM SolverElmer SolverSettings/en
-{{TOCright}}
-
 This page describes the possible settings for [solver Elmer](FEM_SolverElmer.md).
 
 # General
@@ -123,4 +121,4 @@ whereas $\epsilon$ is the steady state tolerance and $u_{i}$ is the calculated v
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverElmer SolverSettings/en
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverElmer SolverSettings/en

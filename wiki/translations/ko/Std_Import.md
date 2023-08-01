@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Import
-   Name/ko:표준 가져오기
-   MenuLocation:파일 - 가져오기...
-   Workbenches:모두
-   Shortcut:**Ctrl**+**I**
-   SeeAlso:[표준 열기](Std_Open/ko.md), [가져오기 내보내기](Import_Export/ko.md), [가져오기 내보내기 환경 설정](Import_Export_Preferences/ko.md)
+   Name: Std Import
+   Name/ko: 표준 가져오기
+   MenuLocation: 파일 - 가져오기...
+   Workbenches: 모두
+   Shortcut: **Ctrl**+**I**
+   SeeAlso: [표준 열기](Std_Open/ko.md), [가져오기 내보내기](Import_Export/ko.md), [가져오기 내보내기 환경 설정](Import_Export_Preferences/ko.md)
 ---
 
 # Std Import/ko
@@ -132,4 +132,4 @@ An Image Plane object is derived from an [App GeoFeature](App_GeoFeature.md) obj
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/ko
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/ko

@@ -1,6 +1,4 @@
 # Third Party Libraries/it
-{{TOCright}}
-
 ## Panoramica
 
 Si tratta di librerie che FreeCAD utilizza come dipendenze di terze parti durante la compilazione. Di solito sono [librerie collegate dinamicamente](https://en.wikipedia.org/wiki/Dynamic_loading) e hanno un\'estensione `.so` in Linux/MacOS e `.dll` in Windows, e sono accompagnate dai loro file di intestazione `.h` o `.hpp` o simili. Se è necessaria una libreria modificata o una classe wrapper, il codice della libreria modificata, o wrapper, deve diventare parte del codice sorgente di FreeCAD e compilato insieme ad esso.
@@ -280,4 +278,4 @@ Include tra le altre cose: Boost 1.67, Coin3D 4.0.0a, Eigen3, Open CASCADE Techn
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Libraries/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Libraries/it

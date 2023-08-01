@@ -22,4 +22,4 @@ FreeCAD 的官方网站是 <http://www.freecadweb.org>
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Manual:What is FreeCAD/zh-cn
+⏵ [documentation index](../README.md) > Manual:What is FreeCAD/zh-cn

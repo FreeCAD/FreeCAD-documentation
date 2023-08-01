@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Offset
-   Name/pl:Rysunek Roboczy: Odsunięcie
-   MenuLocation:Modyfikacja - Odsunięcie
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   Shortcut:**O** **S**
-   SeeAlso:[Odsunięcie 2D](Part_Offset2D/pl.md)
+   Name: Draft Offset
+   Name/pl: Rysunek Roboczy: Odsunięcie
+   MenuLocation: Modyfikacja - Odsunięcie
+   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Shortcut: **O** **S**
+   SeeAlso: [Odsunięcie 2D](Part_Offset2D/pl.md)
 ---
 
 # Draft Offset/pl
@@ -116,4 +116,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Offset/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Offset/pl

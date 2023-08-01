@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std Revert
-   Name/de:Std Rückgängig
-   MenuLocation:Datei - Rückgängig
-   Workbenches:Alle
+   Name: Std Revert
+   Name/de: Std Rückgängig
+   MenuLocation: Datei - Rückgängig
+   Workbenches: Alle
 ---
 
 # Std Revert/de
@@ -32,4 +32,4 @@ Der Befehl **Std Rückgängig** schließt das aktive Dokument und öffnet die zu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Revert/de
+⏵ [documentation index](../README.md) > Std Revert/de

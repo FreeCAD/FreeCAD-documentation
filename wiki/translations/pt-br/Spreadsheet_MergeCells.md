@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet MergeCells
-   MenuLocation:Spreadsheet - Merge cells
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
-   Version:0.17
+   Name: Spreadsheet MergeCells
+   MenuLocation: Spreadsheet - Merge cells
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench.md)
+   Version: 0.17
 ---
 
 # Spreadsheet MergeCells/pt-br
@@ -29,4 +29,4 @@ The **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Spreadshe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells/pt-br
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells/pt-br

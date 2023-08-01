@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Mesh Scale
-   Name/ru:Mesh Scale
-   Workbenches:[Mesh](Mesh_Workbench/ru.md)
-   MenuLocation:
-   Shortcut:
-   SeeAlso:
+   Name: Mesh Scale
+   Name/ru: Mesh Scale
+   Workbenches: [Mesh](Mesh_Workbench/ru.md)
+   MenuLocation: 
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Mesh Scale/ru
@@ -72,4 +72,4 @@ msh.Mesh = new_msh
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Scale/ru
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Scale/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:SheetMetal AddFoldWall
-   Name/fr:SheetMetal Pli sur tôle
-   MenuLocation:SheetMetal - Fold a Wall
-   Workbenches:[SheetMetal](SheetMetal_Workbench/fr.md)
-   Shortcut:**C** **F**
+   Name: SheetMetal AddFoldWall
+   Name/fr: SheetMetal Pli sur tôle
+   MenuLocation: SheetMetal - Fold a Wall
+   Workbenches: [SheetMetal](SheetMetal_Workbench/fr.md)
+   Shortcut: **C** **F**
 ---
 
 # SheetMetal AddFoldWall/fr
@@ -150,4 +150,4 @@ Remarque : dans la vie réelle, le pliage vers le haut doit être effectué avan
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddFoldWall/fr
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddFoldWall/fr

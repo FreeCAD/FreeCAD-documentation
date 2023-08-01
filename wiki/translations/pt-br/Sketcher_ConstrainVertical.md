@@ -1,11 +1,11 @@
 ---
 - GuiCommand:-br
-   Icon:Constraint Vertical.svg
-   Name/pt-br:Vertical constraint
-   Workbenches:[Sketcher](Sketcher_Workbench/pt-br.md)
-   Shortcut:V
-   MenuLocation:Sketch - Sketcher constraints - Constrain vertically
-   SeeAlso:[Constraint Horizontal](Sketcher_ConstrainHorizontal/pt-br.md)
+   Icon: Constraint Vertical.svg
+   Name/pt-br: Vertical constraint
+   Workbenches: [Sketcher](Sketcher_Workbench/pt-br.md)
+   Shortcut: V
+   MenuLocation: Sketch - Sketcher constraints - Constrain vertically
+   SeeAlso: [Constraint Horizontal](Sketcher_ConstrainHorizontal/pt-br.md)
 ---
 
 # Sketcher ConstrainVertical/pt-br
@@ -54,4 +54,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainVertical/pt-br
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainVertical/pt-br

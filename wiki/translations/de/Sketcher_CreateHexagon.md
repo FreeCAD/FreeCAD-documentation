@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateHexagon
-   Name/de:Sketcher SechseckErstellen
-   MenuLocation:Sketch - Skizzengeometrien - Sechseck erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **P** **6**
-   Version:0.15
+   Name: Sketcher CreateHexagon
+   Name/de: Sketcher SechseckErstellen
+   MenuLocation: Sketch - Skizzengeometrien - Sechseck erstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **P** **6**
+   Version: 0.15
 ---
 
 # Sketcher CreateHexagon/de
@@ -36,4 +36,4 @@ Der umschriebene Kreis ist Konstruktionsgeometrie, die nur bei der Bearbeitung d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateHexagon/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateHexagon/de

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:Addon
-   Name:BIM Views
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
-   Addon:BIM
-   MenuLocation:Manage - Views
+   Name: BIM Views
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
+   Addon: BIM
+   MenuLocation: Manage - Views
 ---
 
 # BIM Views/pl
@@ -35,4 +35,4 @@ The BIM views manager will show all the levels (building parts) and working plan
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Views/pl
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Views/pl

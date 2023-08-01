@@ -17,4 +17,4 @@ These long pages should not be transcluded; rather, the information should be pl
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Template:Text Long
+⏵ [documentation index](../README.md) > Category:Template:Text Long

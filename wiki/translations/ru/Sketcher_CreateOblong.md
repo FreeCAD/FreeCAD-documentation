@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name/ru:Создать скруглённый прямоугольник
-   Name:Sketcher_CreateOblong
-   MenuLocation:Sketch - Геометрия эскиза - Создать скруглённый прямоугольник
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**G** **O**
-   Version:0.20
-   SeeAlso:[Создать прямоугольник](Sketcher_CreateRectangle/ru.md)
+   Name/ru: Создать скруглённый прямоугольник
+   Name: Sketcher_CreateOblong
+   MenuLocation: Sketch - Геометрия эскиза - Создать скруглённый прямоугольник
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **G** **O**
+   Version: 0.20
+   SeeAlso: [Создать прямоугольник](Sketcher_CreateRectangle/ru.md)
 ---
 
 # Sketcher CreateOblong/ru
@@ -37,4 +37,4 @@ This tool draws a rounded rectangle by picking two opposite points. When startin
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOblong/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOblong/ru

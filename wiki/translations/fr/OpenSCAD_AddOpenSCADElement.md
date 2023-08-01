@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD_AddOpenSCADElement
-   Name/fr:OpenSCAD Ajout d'un élément OpenSCAD
-   MenuLocation:OpenSCAD - Ajouter un élément OpenSCAD
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/fr.md)
+   Name: OpenSCAD_AddOpenSCADElement
+   Name/fr: OpenSCAD Ajout d'un élément OpenSCAD
+   MenuLocation: OpenSCAD - Ajouter un élément OpenSCAD
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench/fr.md)
 ---
 
 # OpenSCAD AddOpenSCADElement/fr
@@ -58,4 +58,4 @@ Remarque: Il est également possible d\'ajouter un autre paramètre facultatif q
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD AddOpenSCADElement/fr
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD AddOpenSCADElement/fr

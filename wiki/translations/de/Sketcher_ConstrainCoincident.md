@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainCoincident
-   Name/de:Skizzierer KoinzidentFestlegen
-   MenuLocation:Skizze - Skizzen-Beschränkungen - Koinzidenz festlegen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**C**
-   SeeAlso:[Sketcher Sperren](Sketcher_ConstrainLock/de.md), [Sketcher PunktAufObjektFestlegen](Sketcher_ConstrainPointOnObject/de.md)
+   Name: Sketcher ConstrainCoincident
+   Name/de: Skizzierer KoinzidentFestlegen
+   MenuLocation: Skizze - Skizzen-Beschränkungen - Koinzidenz festlegen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **C**
+   SeeAlso: [Sketcher Sperren](Sketcher_ConstrainLock/de.md), [Sketcher PunktAufObjektFestlegen](Sketcher_ConstrainPointOnObject/de.md)
 ---
 
 # Sketcher ConstrainCoincident/de
@@ -78,4 +78,4 @@ Die Seite [Sketcher Skripten](Sketcher_scripting/de.md) erklärt die Werte, die 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/de

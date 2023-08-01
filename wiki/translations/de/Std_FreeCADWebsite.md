@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std FreeCADWebsite
-   Name/de:Std FreeCADWebseite
-   MenuLocation:Hilfe - FreeCAD Webseite
-   Workbenches:Alle
-   SeeAlso:[Std Benutzerdokumentation](Std_FreeCADUserHub/de.md), [Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub/de.md), [Std FreeCADForum](Std_FreeCADForum/de.md), [Std FreeCADFAQ](Std_FreeCADFAQ/de.md)
+   Name: Std FreeCADWebsite
+   Name/de: Std FreeCADWebseite
+   MenuLocation: Hilfe - FreeCAD Webseite
+   Workbenches: Alle
+   SeeAlso: [Std Benutzerdokumentation](Std_FreeCADUserHub/de.md), [Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub/de.md), [Std FreeCADForum](Std_FreeCADForum/de.md), [Std FreeCADFAQ](Std_FreeCADFAQ/de.md)
 ---
 
 # Std FreeCADWebsite/de
@@ -34,4 +34,4 @@ Aktuell verweist der Befehl auf die Seite [<https://www.freecad.org>](https://ww
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADWebsite/de
+⏵ [documentation index](../README.md) > Std FreeCADWebsite/de

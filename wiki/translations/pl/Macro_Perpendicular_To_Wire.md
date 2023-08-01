@@ -144,4 +144,4 @@ Ver 00.03 2020-03-21: Source and comment typo fixes Ver 00.02 2019-04-06: Python
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Perpendicular To Wire/pl
+⏵ [documentation index](../README.md) > Macro Perpendicular To Wire/pl

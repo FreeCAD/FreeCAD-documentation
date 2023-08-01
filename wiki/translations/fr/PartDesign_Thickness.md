@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign Thickness
-   Name/fr:PartDesign Coque
-   MenuLocation:Part Design - Appliquer une fonction d'habillage - Coque
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[Part Évidement](Part_Thickness/fr.md)
+   Name: PartDesign Thickness
+   Name/fr: PartDesign Coque
+   MenuLocation: Part Design - Appliquer une fonction d'habillage - Coque
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [Part Évidement](Part_Thickness/fr.md)
 ---
 
 # PartDesign Thickness/fr
@@ -157,4 +157,4 @@ Un objet Part Épaisseur est dérivé d\'un [Part Feature](Part_Feature/fr.md) e
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/fr

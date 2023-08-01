@@ -70,4 +70,4 @@ Se você instalou o FreeCAD com homebrew simplesmente use o comando `brew uninst
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Installing on Mac/pt-br
+⏵ [documentation index](../README.md) > Installing on Mac/pt-br

@@ -57,4 +57,4 @@ There is another table of contents for the [FreeCAD **Online Help** system](Onli
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Manual](Category_Manual.md) > Manual:Summary
+⏵ [documentation index](../README.md) > [Manual](Category_Manual.md) > Manual:Summary

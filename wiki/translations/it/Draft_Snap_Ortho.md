@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Ortho
-   Name/it:Ortogonale
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   MenuLocation:Draft - [Snap](Draft_Snap/it.md) - Ortogonale
-   Shortcut:
-   SeeAlso:[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
+   Name: Draft Snap Ortho
+   Name/it: Ortogonale
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Draft - [Snap](Draft_Snap/it.md) - Ortogonale
+   Shortcut: 
+   SeeAlso: [Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
 ---
 
 # Draft Snap Ortho/it
@@ -58,4 +58,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Ortho/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Ortho/it

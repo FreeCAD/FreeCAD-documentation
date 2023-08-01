@@ -11,7 +11,7 @@ L'atelier CadQuery n'est '''plus activement maintenu''' mais peut recevoir des c
 ## Introduction
 
 
-{{TOCright}}
+
 
 Un combo module-atelier qui ajoute un éditeur CadQuery à FreeCAD. Veuillez consulter le [wiki](https://github.com/jmwright/cadquery-freecad-module/wiki) pour des informations plus détaillées sur la mise en route.
 
@@ -69,4 +69,4 @@ La dernière version de CadQuery n\'utilise plus FreeCAD et n\'est pas compatibl
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > CadQuery Workbench/fr
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > CadQuery Workbench/fr

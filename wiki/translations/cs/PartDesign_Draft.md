@@ -1,6 +1,6 @@
 # PartDesign Draft/cs
 ---
-- GuiCommand:   Name:PartDesign_Draft   Name/cs:PartDesign Draft   MenuLocation:Part Design -> Draft   Workbenches:[[PartDesign_Workbench/cs   Part Design]]|Shortcut:None   SeeAlso:None---
+- GuiCommand:   Name: PartDesign_Draft   Name/cs: PartDesign Draft   MenuLocation: Part Design -> Draft   Workbenches: [[PartDesign_Workbench/cs   Part Design]]|Shortcut: None   SeeAlso: None---
 
 
 </div>
@@ -156,4 +156,4 @@ A PartDesign Draft object is derived from a [Part Feature](Part_Feature.md) obje
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft/cs
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Draft/cs

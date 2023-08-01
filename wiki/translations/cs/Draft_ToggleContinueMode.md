@@ -1,6 +1,6 @@
 # Draft ToggleContinueMode/cs
 ---
-- GuiCommand:   Name:Draft ToggleContinueMode   Name/cs:Kreslení Přepnout pokračovací mód   Workbenches:[Architektura](Draft_Workbench/cs___kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> Utility -> Přepnout pokračovací mód---
+- GuiCommand:   Name: Draft ToggleContinueMode   Name/cs: Kreslení Přepnout pokračovací mód   Workbenches: [Architektura](Draft_Workbench/cs___kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation: Kreslení -> Utility -> Přepnout pokračovací mód---
 
 
 </div>
@@ -35,4 +35,4 @@ Některé nástroje modulů Kreslení a Architektura mají zaklikávací políč
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode/cs
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode/cs

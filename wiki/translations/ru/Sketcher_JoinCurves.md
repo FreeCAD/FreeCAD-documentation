@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher JoinCurves
-   MenuLocation:Sketch - Sketcher B-spline tools - Join curves
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Version:0.21
-   SeeAlso:
+   Name: Sketcher JoinCurves
+   MenuLocation: Sketch - Sketcher B-spline tools - Join curves
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Version: 0.21
+   SeeAlso: 
 ---
 
 # Sketcher JoinCurves/ru
@@ -58,4 +58,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher JoinCurves/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher JoinCurves/ru

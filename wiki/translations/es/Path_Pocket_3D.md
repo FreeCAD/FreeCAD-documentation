@@ -1,6 +1,6 @@
 # Path Pocket 3D/es
 ---
-- GuiCommand:   Name:Path 3DPocket   Workbenches:[[Path Workbench   Banco de trabajo Trayectoria]]|MenuLocation:Trayectoria - Vaciado 3D   ShortCut:   SeeAlso:---
+- GuiCommand:   Name: Path 3DPocket   Workbenches: [[Path Workbench   Banco de trabajo Trayectoria]]|MenuLocation: Trayectoria - Vaciado 3D   ShortCut:    SeeAlso: ---
 
 
 </div>
@@ -219,4 +219,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Pocket 3D/es
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Pocket 3D/es

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreatePeriodicBSplineByInterpolation
-   Name/de:Sketcher GeschlossenenB-SplineDurchInterpolationErstellen
-   MenuLocation:Skizze - Skizzengeometrien - Geschlossenen B-Spline durch Knoten erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **B** **O**
-   Version:0.21
-   SeeAlso:[Sketcher GeschlossenenB-SplineErstellen](Sketcher_CreatePeriodicBSpline/de.md)
+   Name: Sketcher CreatePeriodicBSplineByInterpolation
+   Name/de: Sketcher GeschlossenenB-SplineDurchInterpolationErstellen
+   MenuLocation: Skizze - Skizzengeometrien - Geschlossenen B-Spline durch Knoten erstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **B** **O**
+   Version: 0.21
+   SeeAlso: [Sketcher GeschlossenenB-SplineErstellen](Sketcher_CreatePeriodicBSpline/de.md)
 ---
 
 # Sketcher CreatePeriodicBSplineByInterpolation/de
@@ -47,4 +47,4 @@ Siehe [Sketcher B-SplineDurchInterpolationErstellen](Sketcher_CreateBSplineByInt
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePeriodicBSplineByInterpolation/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePeriodicBSplineByInterpolation/de

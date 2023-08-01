@@ -1,6 +1,4 @@
 # Flatpak/pl
-{{TOCright}}
-
 ## Instalacja
 
 ### Wersja stabilna 
@@ -64,4 +62,4 @@ flatpak run --command=FreeCADCmd org.freecadweb.FreeCAD
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > [Testing](Category_Testing.md) > Flatpak/pl
+⏵ [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > [Testing](Category_Testing.md) > Flatpak/pl

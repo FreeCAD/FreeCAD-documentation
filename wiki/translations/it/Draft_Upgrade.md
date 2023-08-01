@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Upgrade
-   Name/it:Promuovi
-   MenuLocation:Modifiche - Promuovi
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:**U** **P**
-   SeeAlso:[Declassa](Draft_Downgrade/it.md)
+   Name: Draft Upgrade
+   Name/it: Promuovi
+   MenuLocation: Modifiche - Promuovi
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut: **U** **P**
+   SeeAlso: [Declassa](Draft_Downgrade/it.md)
 ---
 
 # Draft Upgrade/it
@@ -93,4 +93,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Upgrade/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Upgrade/it

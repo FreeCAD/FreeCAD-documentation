@@ -1,10 +1,10 @@
 # Robot Export/ru
 ---
 - GuiCommand:
-   Name:Robot Export
-   Name/ru:Robot Export
-   Workbenches:[Robot](Robot_Workbench/ru.md)
-   MenuLocation:Робот- Экспорт траектории---
+   Name: Robot Export
+   Name/ru: Robot Export
+   Workbenches: [Robot](Robot_Workbench/ru.md)
+   MenuLocation: Робот- Экспорт траектории---
 
 
 </div>
@@ -35,4 +35,4 @@ Result: A KRL file (\*.src) will be created.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Export/ru
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Export/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateArc
-   Name/pt:Sketcher Arc
-   Workbenches:[Sketcher](Sketcher_Workbench/pt.md)
-   MenuLocation:Sketch - Sketcher geometries - Create arc
-   SeeAlso:[Sketcher Circle](Sketcher_CompCreateCircle/pt.md)
+   Name: Sketcher CreateArc
+   Name/pt: Sketcher Arc
+   Workbenches: [Sketcher](Sketcher_Workbench/pt.md)
+   MenuLocation: Sketch - Sketcher geometries - Create arc
+   SeeAlso: [Sketcher Circle](Sketcher_CompCreateCircle/pt.md)
 ---
 
 # Sketcher CreateArc/pt
@@ -36,4 +36,4 @@ When starting the tool, the mouse pointer changes to a white cross with a red ar
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/pt
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/pt

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD MirrorMeshFeature
-   MenuLocation:OpenSCAD - Mirror Mesh Feature
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench.md)
-   SeeAlso:[Part Mirror](Part_Mirror.md)
+   Name: OpenSCAD MirrorMeshFeature
+   MenuLocation: OpenSCAD - Mirror Mesh Feature
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench.md)
+   SeeAlso: [Part Mirror](Part_Mirror.md)
 ---
 
 # OpenSCAD MirrorMeshFeature/en
@@ -50,4 +50,4 @@ Mesh.show(mirrored_mesh)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD MirrorMeshFeature/en
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD MirrorMeshFeature/en

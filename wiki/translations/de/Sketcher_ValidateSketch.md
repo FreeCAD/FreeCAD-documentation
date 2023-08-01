@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ValidateSketch
-   Name/de:Sketcher SkizzeÜberprüfen
-   MenuLocation:Sketch - Skizze überprüfen…
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso:[Sketcher KoinzidentFestlegen](Sketcher_ConstrainCoincident/de.md), [Problem der topologischen Benennung](Topological_naming_problem/de.md)
+   Name: Sketcher ValidateSketch
+   Name/de: Sketcher SkizzeÜberprüfen
+   MenuLocation: Sketch - Skizze überprüfen…
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso: [Sketcher KoinzidentFestlegen](Sketcher_ConstrainCoincident/de.md), [Problem der topologischen Benennung](Topological_naming_problem/de.md)
 ---
 
 # Sketcher ValidateSketch/de
@@ -96,4 +96,4 @@ Der Sperrmechanismus funktioniert in der Regel gut und dieses Werkzeug sollte ni
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/de

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part Import‎
-   MenuLocation:Part - Import CAD
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part Export](Part_Export.md), [Std Import](Std_Import.md), [Import Export](Import_Export.md)
+   Name: Part Import‎
+   MenuLocation: Part - Import CAD
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Part Export](Part_Export.md), [Std Import](Std_Import.md), [Import Export](Import_Export.md)
 ---
 
 # Part Import/pt-br
@@ -21,4 +21,4 @@ The **<img src="images/Part_Import.svg" width=16px> [Part Import](Part_Import.md
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Import/pt-br
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Import/pt-br

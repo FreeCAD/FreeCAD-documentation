@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std MeasureDistance
-   Name/de:Std AbstandMessen
-   MenuLocation:Werkzeuge - Abstand messen
-   Workbenches:Alle
-   SeeAlso:[Part LinearMessen](Part_Measure_Linear/de.md), [Draft Maß](Draft_Dimension/de.md)
+   Name: Std MeasureDistance
+   Name/de: Std AbstandMessen
+   MenuLocation: Werkzeuge - Abstand messen
+   Workbenches: Alle
+   SeeAlso: [Part LinearMessen](Part_Measure_Linear/de.md), [Draft Maß](Draft_Dimension/de.md)
 ---
 
 # Std MeasureDistance/de
@@ -69,4 +69,4 @@ Das Werkzeug **Std AbstendMessen** erstellt ein Distance-Objekt, das den Abstand
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MeasureDistance/de
+⏵ [documentation index](../README.md) > Std MeasureDistance/de

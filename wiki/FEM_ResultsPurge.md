@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ResultsPurge
-   MenuLocation:Results - Purge results
-   Workbenches:[FEM](FEM_Workbench.md)
-   Shortcut:**R** **P**
-   SeeAlso:[FEM tutorial](FEM_tutorial.md)
+   Name: FEM ResultsPurge
+   MenuLocation: Results - Purge results
+   Workbenches: [FEM](FEM_Workbench.md)
+   Shortcut: **R** **P**
+   SeeAlso: [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM ResultsPurge
@@ -27,4 +27,4 @@ Either press the **<img src="images/FEM_ResultsPurge.svg" width=16px> '''Purge r
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ResultsPurge
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ResultsPurge

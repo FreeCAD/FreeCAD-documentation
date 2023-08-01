@@ -1,6 +1,4 @@
 # Document structure/pl
-{{TOCright}}
-
 ![](images/Screenshot_treeview.jpg ) Dokument FreeCADa zawiera wszystkie obiekty twojej sceny. Może zawierać grupy i obiekty wykonane w dowolnym Środowisku pracy. Dlatego możesz przełączać się między nimi, ciągle pracując z tym samym dokumentem. Dokument jest tym co zostaje zapisane na dysku kiedy zachowujesz swoją pracę. Możesz także uruchomić kilka dokumentów jednocześnie i kilka widoków tego samego dokumentu.
 
 W środku dokumentu obiekty mogą być łączone w grupy i posiadać unikalną nazwę. Zarządzanie grupami, obiektami i nazwami obiektów dokonywane jest głównie z poziomu drzewa widoku *(Tree view)*. **Uwaga:** Jak wszystko w programie FreeCAD, można dokonać tego przez interpreter [Python](Python.md). W [Drzewie widoku](Tree_view.md) możesz tworzyć <img alt="" src=images/Std_Group.svg  style="width:16px;"> [grupy](Std_Group.md), łączyć obiekty w grupy, usuwać obiekty lub grupy przez kliknięcie prawym przyciskiem na [drzewo](Tree_view.md) lub obiekt, zmieniać nazwy przez podwójne kliknięcie na ich nazwy lub dokonywać innych operacji - zależnie od Środowiska pracy.
@@ -40,4 +38,4 @@ FreeCADGui.ActiveDocument.ActiveView
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Document structure/pl
+⏵ [documentation index](../README.md) > Document structure/pl

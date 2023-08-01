@@ -1,6 +1,4 @@
 # Selection methods/pl
-{{TOCright}}
-
 ## Overview
 
 [Selection methods](Selection_methods.md) in FreeCAD allow picking objects in the [FreeCAD Interface](Interface.md): such as [3D view](3D_view.md), [tree view](Tree_view.md), [selection view](Selection_view.md), and other dialogs. Some selection methods are workbench specific and are documented in the particular workbench documentation.
@@ -97,4 +95,4 @@ See the [Source documentation](Source_documentation.md) and [Std PythonHelp](Std
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Selection methods/pl
+⏵ [documentation index](../README.md) > Selection methods/pl

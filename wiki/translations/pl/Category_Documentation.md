@@ -19,4 +19,4 @@ Ta kategoria grupuje całą dokumentację FreeCAD.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Documentation/pl
+⏵ [documentation index](../README.md) > Category:Documentation/pl

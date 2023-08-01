@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Ellipsoid/en
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Ellipsoid/en

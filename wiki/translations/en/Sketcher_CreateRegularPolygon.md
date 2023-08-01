@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateRegularPolygon
-   MenuLocation:Sketch - Sketcher geometries - Create regular polygon
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**G** **P** **R**
+   Name: Sketcher CreateRegularPolygon
+   MenuLocation: Sketch - Sketcher geometries - Create regular polygon
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **G** **P** **R**
 ---
 
 # Sketcher CreateRegularPolygon/en
@@ -33,4 +33,4 @@ The circumscribed circle is construction geometry, which is only visible when ed
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRegularPolygon/en
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRegularPolygon/en

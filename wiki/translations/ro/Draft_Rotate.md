@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Rotate
-   Name/ro:Draft Rotate
-   MenuLocation:Draft - Rotate
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   Shortcut:**R** **O**
+   Name: Draft Rotate
+   Name/ro: Draft Rotate
+   MenuLocation: Draft - Rotate
+   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut: **R** **O**
 ---
 
 # Draft Rotate/ro
@@ -150,4 +150,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/ro

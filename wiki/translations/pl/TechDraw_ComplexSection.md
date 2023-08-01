@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ComplexSection
-   Name/pl:Rysunek Techniczny: Przekrój złożony
-   MenuLocation:Rysunek Techniczny - Widoki - Wstaw przekrój złożony
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Version:0.21
-   SeeAlso:[Wstaw widok przekroju](TechDraw_SectionView/pl.md), [Wstaw widok](TechDraw_View/pl.md), [Wstaw grupę rzutów](TechDraw_ProjectionGroup/pl.md)
+   Name: TechDraw ComplexSection
+   Name/pl: Rysunek Techniczny: Przekrój złożony
+   MenuLocation: Rysunek Techniczny - Widoki - Wstaw przekrój złożony
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Version: 0.21
+   SeeAlso: [Wstaw widok przekroju](TechDraw_SectionView/pl.md), [Wstaw widok](TechDraw_View/pl.md), [Wstaw grupę rzutów](TechDraw_ProjectionGroup/pl.md)
 ---
 
 # TechDraw ComplexSection/pl
@@ -122,4 +122,4 @@ Więcej informacji na temat widoków przekrojów i niektórych przypadków użyc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ComplexSection/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ComplexSection/pl

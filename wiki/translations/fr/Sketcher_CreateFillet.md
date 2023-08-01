@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateFillet
-   Name/fr:Sketcher Congé
-   MenuLocation:Esquisse - Géométries d'esquisse - Congé d'esquisse
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **F** **F**
-   SeeAlso:[Sketcher Congé avec contrainte](Sketcher_CreatePointFillet/fr.md)
+   Name: Sketcher CreateFillet
+   Name/fr: Sketcher Congé
+   MenuLocation: Esquisse - Géométries d'esquisse - Congé d'esquisse
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **F** **F**
+   SeeAlso: [Sketcher Congé avec contrainte](Sketcher_CreatePointFillet/fr.md)
 ---
 
 # Sketcher CreateFillet/fr
@@ -38,4 +38,4 @@ Au démarrage de l\'outil, les sélections sont effacées et le pointeur de la s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/fr

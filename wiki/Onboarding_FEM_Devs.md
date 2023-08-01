@@ -1,6 +1,4 @@
 # Onboarding FEM Devs
-{{TOCright}}
-
 ## Description
 
 This page will orient new developers on how to setup their development environments in order to hack on the FEM workbench.
@@ -138,4 +136,4 @@ TBD
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > [Developer Documentation](Category_Developer Documentation.md) > Onboarding FEM Devs
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > [Developer Documentation](Category_Developer Documentation.md) > Onboarding FEM Devs

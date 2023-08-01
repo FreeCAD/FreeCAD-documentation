@@ -1,6 +1,6 @@
 # Part Prism/cs
 ---
-- GuiCommand:   Name:Part Prism   Name/cs:Part Prism   MenuLocation:Part - [Workbenches:[[Part_Workbench/cs   Part](Part_CreatePrimitives/cs___Create_Primitives]]_-_Prism.md), [OpenSCAD](OpenSCAD_Workbench/cs.md)|SeeAlso:Part - Primitives - [Box](Part_Box/cs.md)---
+- GuiCommand:   Name: Part Prism   Name/cs: Part Prism   MenuLocation: Part - [Workbenches: [[Part_Workbench/cs   Part](Part_CreatePrimitives/cs___Create_Primitives]]_-_Prism.md), [OpenSCAD](OpenSCAD_Workbench/cs.md)|SeeAlso: Part - Primitives - [Box](Part_Box/cs.md)---
 
 
 </div>
@@ -91,4 +91,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Prism/cs
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Prism/cs

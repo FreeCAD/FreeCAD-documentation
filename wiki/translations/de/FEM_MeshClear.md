@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM MeshClear
-   Name/de:FEM NetzLöschen
-   MenuLocation:Kontextmenü des Mesh-Objekts oder der Baumansicht - FEM-Netz löschen
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
+   Name: FEM MeshClear
+   Name/de: FEM NetzLöschen
+   MenuLocation: Kontextmenü des Mesh-Objekts oder der Baumansicht - FEM-Netz löschen
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   SeeAlso: [FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM MeshClear/de
@@ -33,4 +33,4 @@ Die Objekte in der Baumansicht bleiben erhalten, da sie die Vernetzungsdaten rep
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshClear/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshClear/de

@@ -1,6 +1,6 @@
 # Draft Circle/cs
 ---
-- GuiCommand:   Name:Draft_Circle   Name/cs:Kreslení_Kružnice   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> Kružnice   Shortcut:C I   SeeAlso:[Kreslení oblouk](Draft_Arc/cs.md)---
+- GuiCommand:   Name: Draft_Circle   Name/cs: Kreslení_Kružnice   Workbenches: [Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation: Kreslení -> Kružnice   Shortcut: C I   SeeAlso: [Kreslení oblouk](Draft_Arc/cs.md)---
 
 
 </div>
@@ -167,4 +167,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Circle/cs
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Circle/cs

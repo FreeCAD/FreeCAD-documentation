@@ -1,6 +1,4 @@
 # Part TopoShape/de
-{{TOCright}}
-
 ## Einführung
 
 Eine [Part TopoForm](Part_TopoShape/de.md), oder formal eine `Part::TopoShape`, ist eine Klasse, die eine parametrische *\'topologische Form* in der Software definiert. Objekte im Dokument, die etwas in der [3D Ansicht](3D_view/de.md) zeigen, haben normalerweise eine TopoForm.
@@ -77,4 +75,4 @@ help(obj.Shape)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part TopoShape/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part TopoShape/de

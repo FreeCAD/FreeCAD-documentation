@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintContact
-   Name/it:Vincolo contatto
-   MenuLocation:Modello - Vincoli meccanici - Vincolo contatto
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Tutorial di FEM](FEM_tutorial/it.md)
+   Name: FEM ConstraintContact
+   Name/it: Vincolo contatto
+   MenuLocation: Modello - Vincoli meccanici - Vincolo contatto
+   Workbenches: [FEM](FEM_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: [Tutorial di FEM](FEM_tutorial/it.md)
 ---
 
 # FEM ConstraintContact/it
@@ -105,4 +105,4 @@ Crea un vincolo FEM di contatto tra 2 superfici.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintContact/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintContact/it

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ViewSketch
-   Name/fr:Sketcher Vue de l'esquisse
-   MenuLocation:Esquisse - Vue de l'esquisse
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
-   Shortcut:**Q** **P**
+   Name: Sketcher ViewSketch
+   Name/fr: Sketcher Vue de l'esquisse
+   MenuLocation: Esquisse - Vue de l'esquisse
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
+   Shortcut: **Q** **P**
 ---
 
 # Sketcher ViewSketch/fr
@@ -33,4 +33,4 @@ En mode de modification d\'esquisse,
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/fr

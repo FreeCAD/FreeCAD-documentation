@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign Plane
-   Name/de:PartDesign Bezugsebene erstellen
-   MenuLocation:Part Design - Bezugselement erstellen - Bezugsebene erstellen
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[PartDesign Bezugspunkt](PartDesign_Point/de.md), [PartDesign Bezugslinie](PartDesign_Line/de.md)
+   Name: PartDesign Plane
+   Name/de: PartDesign Bezugsebene erstellen
+   MenuLocation: Part Design - Bezugselement erstellen - Bezugsebene erstellen
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Bezugspunkt](PartDesign_Point/de.md), [PartDesign Bezugslinie](PartDesign_Line/de.md)
 ---
 
 # PartDesign Plane/de
@@ -60,4 +60,4 @@ Mit einem Doppelklick auf die Beschriftung der Bezugsebene in der Baumstruktur o
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/de

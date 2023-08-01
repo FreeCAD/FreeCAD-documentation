@@ -10,4 +10,4 @@ Questa categoria elenca i modelli di formato testo forniti come input.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Template:Text Format/it
+⏵ [documentation index](../README.md) > Category:Template:Text Format/it

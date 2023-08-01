@@ -68,4 +68,4 @@ These advanced customization options are available from the **Tools → Customiz
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Manual:The FreeCAD Interface/en
+⏵ [documentation index](../README.md) > Manual:The FreeCAD Interface/en

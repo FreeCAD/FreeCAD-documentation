@@ -1,6 +1,4 @@
 # Mesh Scripting/pl
-{{TOCright}}
-
 ## Wprowadzenie
 
 Aby uzyskać dostęp do modułu `Mesh` musisz go najpierw zaimportować:
@@ -98,4 +96,4 @@ Zobacz również: [API dla Mesh](Mesh_API.md) {{Top}}  {{Mesh Tools navi}}
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/pl

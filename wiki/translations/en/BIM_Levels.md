@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Levels/en
+⏵ [documentation index](../README.md) > BIM Levels/en

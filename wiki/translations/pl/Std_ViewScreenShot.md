@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ViewScreenShot
-   Name/pl:Std: Zapisz zrzut ekranu
-   MenuLocation:Przybory - Zapisz obrazek ...
-   Workbenches:wszystkie
-   SeeAlso:[Drukuj](Std_Print/pl.md), [Eksportuj do PDF](Std_PrintPdf/pl.md), [Kopiuj widok 3D do schowka](Macro_Copy3DViewToClipboard/pl.md), [Ekran Wiki](Macro_Screen_Wiki/pl.md), [Wycinek](Macro_Snip/pl.md)
+   Name: Std ViewScreenShot
+   Name/pl: Std: Zapisz zrzut ekranu
+   MenuLocation: Przybory - Zapisz obrazek ...
+   Workbenches: wszystkie
+   SeeAlso: [Drukuj](Std_Print/pl.md), [Eksportuj do PDF](Std_PrintPdf/pl.md), [Kopiuj widok 3D do schowka](Macro_Copy3DViewToClipboard/pl.md), [Ekran Wiki](Macro_Screen_Wiki/pl.md), [Wycinek](Macro_Snip/pl.md)
 ---
 
 # Std ViewScreenShot/pl
@@ -149,4 +149,4 @@ App.closeDocument(App.ActiveDocument.Name)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewScreenShot/pl
+⏵ [documentation index](../README.md) > Std ViewScreenShot/pl

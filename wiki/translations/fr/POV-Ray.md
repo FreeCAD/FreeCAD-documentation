@@ -103,4 +103,4 @@ Ensuite, avant d\'essayer d\'effectuer un rendu, démarrez POV-Ray séparément 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > POV-Ray/fr
+⏵ [documentation index](../README.md) > POV-Ray/fr

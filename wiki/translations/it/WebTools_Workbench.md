@@ -37,4 +37,4 @@ Questo ambiente può essere facilmente installato e aggiornato dal [Addon Manage
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [User Documentation](Category_User Documentation.md) > WebTools Workbench/it
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [User Documentation](Category_User Documentation.md) > WebTools Workbench/it

@@ -1,7 +1,4 @@
 # Tutorials/zh-tw
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 本頁面提供了一系列高質量的書面教學。 完整的，未排序的教學課程可以在[目錄：Tutorial中找到](:Category_Tutorials.md)，而經過排序整理的教學課程，請見下方表格[綜合清單](Tutorials#Tutorials_-_Comprehensive_list.md)。
@@ -361,4 +358,4 @@ These are tutorials that are related to scripting or programming. They are geare
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials|目錄：Tutorial]]中找到，而經過排序整理的教學課程，請見下方表格](Category_Tutorials|目錄：Tutorial]]中找到，而經過排序整理的教學課程，請見下方表格.md) > [Tutorials](Category_Tutorials.md) > Tutorials/zh-tw
+⏵ [documentation index](../README.md) > [Tutorials|目錄：Tutorial]]中找到，而經過排序整理的教學課程，請見下方表格](Category_Tutorials|目錄：Tutorial]]中找到，而經過排序整理的教學課程，請見下方表格.md) > [Tutorials](Category_Tutorials.md) > Tutorials/zh-tw

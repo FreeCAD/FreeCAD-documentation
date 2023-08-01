@@ -1,7 +1,7 @@
 # <img alt="Иконка стандартных инструментов" src=images/Freecad.svg  style="width:64px;"> Std Tools Menu/ru
 
 
-{{TOCright}}
+
 
 
 
@@ -88,4 +88,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Tools Menu/ru
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Tools Menu/ru

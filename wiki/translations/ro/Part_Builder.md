@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Shapebuilder
-   Name/ro:Part Shapebuilder
-   MenuLocation:Part -> Shapebuilder...
+   Name: Part Shapebuilder
+   Name/ro: Part Shapebuilder
+   MenuLocation: Part -> Shapebuilder...
 |
-   Workbenches:[Part](Part_Workbench/ro.md)
-   SeeAlso:[Part CreatePrimitives](Part_CreatePrimitives/ro.md)
+   Workbenches: [Part](Part_Workbench/ro.md)
+   SeeAlso: [Part CreatePrimitives](Part_CreatePrimitives/ro.md)
 ---
 
 # Part Builder/ro
@@ -129,4 +129,4 @@ Un posibil flux de lucru ar putea fi:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/ro

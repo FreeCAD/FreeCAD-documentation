@@ -4,4 +4,4 @@ This addon provides an easy way to upload designs to the Ondsel cloud service. I
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Ondsel Lens
+⏵ [documentation index](../README.md) > Ondsel Lens

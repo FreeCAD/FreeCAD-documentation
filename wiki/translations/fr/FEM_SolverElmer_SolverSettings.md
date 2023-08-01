@@ -1,6 +1,4 @@
 # FEM SolverElmer SolverSettings/fr
-{{TOCright}}
-
 Cette page décrit les paramètres possibles pour le [solveur Elmer](FEM_SolverElmer/fr.md).
 
 
@@ -143,4 +141,4 @@ alors que $\epsilon$ est la tolérance en régime stationnaire et $u_{i}$ est la
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverElmer SolverSettings/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverElmer SolverSettings/fr

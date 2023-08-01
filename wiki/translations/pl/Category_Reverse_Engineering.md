@@ -10,4 +10,4 @@ Ta kategoria zawiera strony związane ze środowiskiem pracy [Inżynieria wstecz
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Reverse Engineering/pl
+⏵ [documentation index](../README.md) > Category:Reverse Engineering/pl

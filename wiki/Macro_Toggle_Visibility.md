@@ -85,4 +85,4 @@ ver 00.02 12/11/2015 **macro Macro_SelectVisible** : hidden the objects not sele
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Toggle Visibility
+⏵ [documentation index](../README.md) > Macro Toggle Visibility

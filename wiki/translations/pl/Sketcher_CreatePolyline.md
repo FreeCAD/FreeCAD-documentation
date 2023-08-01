@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreatePolyline
-   Name/pl:Szkicownik: Utwórz polilinię
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz polilinię
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **M**
-   SeeAlso:[Szkicownik: Linia](Sketcher_CreateLine/pl.md)
+   Name: Sketcher CreatePolyline
+   Name/pl: Szkicownik: Utwórz polilinię
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Utwórz polilinię
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **G** **M**
+   SeeAlso: [Szkicownik: Linia](Sketcher_CreateLine/pl.md)
 ---
 
 # Sketcher CreatePolyline/pl
@@ -54,4 +54,4 @@ Polilinia zawsze zaczyna się od odcinka prostego: kliknij - przesuń kursor mys
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePolyline/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePolyline/pl

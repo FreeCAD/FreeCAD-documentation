@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Slope
-   Name/es:Borrador Pendiente
-   MenuLocation:Modificación - Fijar pendiente<br>Utilidades - Fijar pendiente
-   Workbenches:[Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   Version:0.17
+   Name: Draft Slope
+   Name/es: Borrador Pendiente
+   MenuLocation: Modificación - Fijar pendiente<br>Utilidades - Fijar pendiente
+   Workbenches: [Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Version: 0.17
 ---
 
 # Draft Slope/es
@@ -53,4 +53,4 @@ There is no Python method to slope objects. To emulate the results of the Draft 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Slope/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Slope/es

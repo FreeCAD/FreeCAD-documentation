@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainPointOnObject
-   Name/pl:Szkicownik: Zwiąż punkt na obiekcie
-   MenuLocation:Szkic - Wiązania szkicownika - Zwiąż punkt na obiekcie
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**O**
-   SeeAlso:[Wiązanie spójności punktów](Sketcher_ConstrainCoincident/pl.md)
+   Name: Sketcher ConstrainPointOnObject
+   Name/pl: Szkicownik: Zwiąż punkt na obiekcie
+   MenuLocation: Szkic - Wiązania szkicownika - Zwiąż punkt na obiekcie
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **O**
+   SeeAlso: [Wiązanie spójności punktów](Sketcher_ConstrainCoincident/pl.md)
 ---
 
 # Sketcher ConstrainPointOnObject/pl
@@ -56,4 +56,4 @@ Na stronie [Skrypty Szkicownika](Sketcher_scripting/pl.md) wyjaśniono, jak iden
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/pl

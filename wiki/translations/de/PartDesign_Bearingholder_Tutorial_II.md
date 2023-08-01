@@ -91,4 +91,4 @@ Für den Rest der soaneneden Bearbeitung erzeuge einen neuen Körper. Der Boden 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial II/de
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial II/de

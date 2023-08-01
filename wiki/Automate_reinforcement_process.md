@@ -36,4 +36,4 @@ Don\'t forget to see <https://www.freecadweb.org/wiki/Extended_functionality_of_
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Automate reinforcement process
+⏵ [documentation index](../README.md) > Automate reinforcement process

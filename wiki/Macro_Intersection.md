@@ -39,4 +39,4 @@ ToolBar Icon  ![](images/Intersection_Icon.svg )
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Intersection
+⏵ [documentation index](../README.md) > Macro Intersection

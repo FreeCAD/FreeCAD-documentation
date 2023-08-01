@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Intersection
-   Name/it:Intersezione
-   MenuLocation:Draft - [Ancoraggio](Draft_Snap/it.md) - Intersezione
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
+   Name: Draft Snap Intersection
+   Name/it: Intersezione
+   MenuLocation: Draft - [Ancoraggio](Draft_Snap/it.md) - Intersezione
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: [Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
 ---
 
 # Draft Snap Intersection/it
@@ -60,4 +60,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Intersection/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Intersection/it

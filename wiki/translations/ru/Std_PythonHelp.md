@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std PythonHelp
-   Name/ru:Std PythonHelp
-   MenuLocation:Help - Automatic python modules documentation
-   Workbenches:All
-   SeeAlso:[Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub/ru.md)
+   Name: Std PythonHelp
+   Name/ru: Std PythonHelp
+   MenuLocation: Help - Automatic python modules documentation
+   Workbenches: All
+   SeeAlso: [Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub/ru.md)
 ---
 
 # Std PythonHelp/ru
@@ -31,4 +31,4 @@ The web server is based on Python\'s [pydoc](https://docs.python.org/3.8/library
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std PythonHelp/ru
+⏵ [documentation index](../README.md) > Std PythonHelp/ru

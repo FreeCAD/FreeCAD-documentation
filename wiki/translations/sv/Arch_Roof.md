@@ -1,6 +1,6 @@
 # Arch Roof/sv
 ---
-- GuiCommand:   Name:Arch Roof   Name/sv:Arch Roof   Workbenches:[[Arch_Workbench/sv   Arch]]|MenuLocation:Arch - Roof   Shortcut:R F---
+- GuiCommand:   Name: Arch Roof   Name/sv: Arch Roof   Workbenches: [[Arch_Workbench/sv   Arch]]|MenuLocation: Arch - Roof   Shortcut: R F---
 
 
 </div>
@@ -132,4 +132,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Roof/sv
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Roof/sv

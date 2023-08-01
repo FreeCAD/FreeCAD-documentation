@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Добавить 4-ре вершины по краям окружности
-   Name:TechDraw_Quadrants
-   MenuLocation:TechDraw - Добавить Вершины - Добавить 4-ре вершины по краям окружности
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Добавить Вспомогательную Вершину](TechDraw_CosmeticVertex/ru.md), [Добавить Средние Вершины](TechDraw_Midpoints/ru.md)
+   Name/ru: Добавить 4-ре вершины по краям окружности
+   Name: TechDraw_Quadrants
+   MenuLocation: TechDraw - Добавить Вершины - Добавить 4-ре вершины по краям окружности
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Добавить Вспомогательную Вершину](TechDraw_CosmeticVertex/ru.md), [Добавить Средние Вершины](TechDraw_Midpoints/ru.md)
 ---
 
 # TechDraw Quadrants/ru
@@ -71,4 +71,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Quadrants/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Quadrants/ru

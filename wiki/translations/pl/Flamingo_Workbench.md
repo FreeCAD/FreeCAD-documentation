@@ -524,4 +524,4 @@ Nowe środowiska pracy są w czasie tworzenia, bądź cierpliwy!
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Flamingo Workbench/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Flamingo Workbench/pl

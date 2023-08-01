@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM MeshGmshFromShape
-   Name/ru:FEM MeshGmshFromShape
-   MenuLocation:Mesh - Сетка МКЭ из фигуры генерируемая построителем Gmsh
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:нет
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM MeshGmshFromShape
+   Name/ru: FEM MeshGmshFromShape
+   MenuLocation: Mesh - Сетка МКЭ из фигуры генерируемая построителем Gmsh
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   Shortcut: нет
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM MeshGmshFromShape/ru
@@ -154,4 +154,4 @@ Lower right: recombination at the surface and in the volume using the '''Simple 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshGmshFromShape/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshGmshFromShape/ru

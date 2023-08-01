@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh BuildRegularSolid
-   Name/fr:Mesh Solide régulier
-   MenuLocation:Maillages - Solide régulier...
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
+   Name: Mesh BuildRegularSolid
+   Name/fr: Mesh Solide régulier
+   MenuLocation: Maillages - Solide régulier...
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
 ---
 
 # Mesh BuildRegularSolid/fr
@@ -188,4 +188,4 @@ Les objets maillés créés avec cette commande héritent de toutes les proprié
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BuildRegularSolid/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BuildRegularSolid/fr

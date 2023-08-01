@@ -1,6 +1,6 @@
 # Arch Add/cs
 ---
-- GuiCommand:   Name:Arch Add   Name/cs:Arch Přidat   Workbenches:[MenuLocation:Arch - Add   SeeAlso:[[Arch Remove/cs|Remove](Arch_Workbench/cs___Arch]].md)---
+- GuiCommand:   Name: Arch Add   Name/cs: Arch Přidat   Workbenches: [MenuLocation: Arch - Add   SeeAlso: [[Arch Remove/cs|Remove](Arch_Workbench/cs___Arch]].md)---
 
 
 </div>
@@ -110,4 +110,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Add/cs
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Add/cs

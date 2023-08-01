@@ -12,4 +12,4 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [OpenSCAD](Category_OpenSCAD.md) > Artwork OpenSCAD/pl
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [OpenSCAD](Category_OpenSCAD.md) > Artwork OpenSCAD/pl

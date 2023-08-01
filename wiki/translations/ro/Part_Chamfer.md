@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Chamfer
-   Name/ro:Part Chamfer
-   MenuLocation:Part - Chamfer
-   Workbenches:[Part](Part_Workbench/ro.md), Complete
-   SeeAlso:
+   Name: Part Chamfer
+   Name/ro: Part Chamfer
+   MenuLocation: Part - Chamfer
+   Workbenches: [Part](Part_Workbench/ro.md), Complete
+   SeeAlso: 
 ---
 
 # Part Chamfer/ro
@@ -607,4 +607,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/ro

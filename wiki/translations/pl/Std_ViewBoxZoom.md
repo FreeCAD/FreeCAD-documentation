@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Std ViewBoxZoom
-   Name/pl:Std: Powiększ obszar
-   MenuLocation:Widok - Powiększenie - Powiększ obszar
-   Workbenches:wszystkie
-   Shortcut:**Ctrl** + **B**
-   SeeAlso:[Przybliż](Std_ViewZoomIn/pl.md),  [Oddal](Std_ViewZoomOut/pl.md)
+   Name: Std Std ViewBoxZoom
+   Name/pl: Std: Powiększ obszar
+   MenuLocation: Widok - Powiększenie - Powiększ obszar
+   Workbenches: wszystkie
+   Shortcut: **Ctrl** + **B**
+   SeeAlso: [Przybliż](Std_ViewZoomIn/pl.md),  [Oddal](Std_ViewZoomOut/pl.md)
 ---
 
 # Std ViewBoxZoom/pl
@@ -32,4 +32,4 @@ Polecenie **Powiększ obszar** powoduje powiększenie prostokątnego obszaru zde
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewBoxZoom/pl
+⏵ [documentation index](../README.md) > Std ViewBoxZoom/pl

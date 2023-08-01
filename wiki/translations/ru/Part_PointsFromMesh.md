@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part PointsFromMesh‎
-   Name/ru:Part PointsFromMesh‎
-   MenuLocation:Part - Create points object from mesh
-   Workbenches:[Part](Part_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Part ShapeFromMesh](Part_ShapeFromMesh/ru.md), [Part ConvertToSolid](Part_MakeSolid/ru.md), [Part RefineShape](Part_RefineShape/ru.md)
+   Name: Part PointsFromMesh‎
+   Name/ru: Part PointsFromMesh‎
+   MenuLocation: Part - Create points object from mesh
+   Workbenches: [Part](Part_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Part ShapeFromMesh](Part_ShapeFromMesh/ru.md), [Part ConvertToSolid](Part_MakeSolid/ru.md), [Part RefineShape](Part_RefineShape/ru.md)
 ---
 
 # Part PointsFromMesh/ru
@@ -34,4 +34,4 @@ The resulting shape is a compound of vertices, which can be used as reference to
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part PointsFromMesh/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part PointsFromMesh/ru

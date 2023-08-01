@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std LinkSelectLinked
-   Name/pl:Std: Przejdź do połączonego obiektu
-   MenuLocation:brak
-   Workbenches:wszystkie
-   Version:0.19
-   SeeAlso:[Przejdź do najgłębiej połączonego obiektu](Std_LinkSelectLinkedFinal/pl.md), [Wybierz wszystkie łącza](Std_LinkSelectAllLinks/pl.md), [Przywróć wybór](Std_SelBack/pl.md), [Ponów wybór](Std_SelForward/pl.md)
+   Name: Std LinkSelectLinked
+   Name/pl: Std: Przejdź do połączonego obiektu
+   MenuLocation: brak
+   Workbenches: wszystkie
+   Version: 0.19
+   SeeAlso: [Przejdź do najgłębiej połączonego obiektu](Std_LinkSelectLinkedFinal/pl.md), [Wybierz wszystkie łącza](Std_LinkSelectAllLinks/pl.md), [Przywróć wybór](Std_SelBack/pl.md), [Ponów wybór](Std_SelForward/pl.md)
 ---
 
 # Std LinkSelectLinked/pl
@@ -36,4 +36,4 @@ Polecenie **Wybierz powiązane łącza** wybiera **Powiązany obiekt**, będący
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkSelectLinked/pl
+⏵ [documentation index](../README.md) > Std LinkSelectLinked/pl

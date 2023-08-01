@@ -1,6 +1,4 @@
 # Migrating to FreeCAD from SolidWorks/en
-{{TOCright}}
-
 ## Overview
 
 The intention of this page is to serve as a guide for users that are accustomed to the SolidWorks CAD/CAM workflow and want to migrate to FreeCAD.
@@ -45,4 +43,4 @@ Some of the other videos are comparisons of SolidWorks and FreeCAD: <https://www
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Migrating to FreeCAD from SolidWorks/en
+⏵ [documentation index](../README.md) > Migrating to FreeCAD from SolidWorks/en

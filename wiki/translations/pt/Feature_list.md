@@ -7,7 +7,7 @@ Esta é uma lista extensiva, ainda que incompleta dos recursos que o FreeCAD dis
 </div>
 
 
-{{TOCright}}
+
 
 
 
@@ -281,4 +281,4 @@ Utilizadores avançados criaram várias [Bancadas de trabalho externas](external
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/pt
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/pt

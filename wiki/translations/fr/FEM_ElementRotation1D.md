@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ElementRotation1D
-   Name/fr:FEM Rotation de poutre
-   MenuLocation:Modèle - Géométrie de l'élement - Rotation de poutre
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
+   Name: FEM ElementRotation1D
+   Name/fr: FEM Rotation de poutre
+   MenuLocation: Modèle - Géométrie de l'élement - Rotation de poutre
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
 # FEM ElementRotation1D/fr
@@ -49,4 +49,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementRotation1D/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementRotation1D/fr

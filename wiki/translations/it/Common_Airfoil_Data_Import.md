@@ -35,4 +35,4 @@ AG35
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Common Airfoil Data Import/it
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Common Airfoil Data Import/it

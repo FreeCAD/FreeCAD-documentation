@@ -1,10 +1,10 @@
 ---
 - GuiCommand:Addon/fr
-   Name:BIM Preflight
-   Name/fr:BIM Contrôle en amont
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/fr.md)
-   Addon:BIM
-   MenuLocation:Manage - Preflight check
+   Name: BIM Preflight
+   Name/fr: BIM Contrôle en amont
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/fr.md)
+   Addon: BIM
+   MenuLocation: Manage - Preflight check
 ---
 
 # BIM Preflight/fr
@@ -92,4 +92,4 @@ def myCustomTest():
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Preflight/fr
+⏵ [documentation index](../README.md) > BIM Preflight/fr

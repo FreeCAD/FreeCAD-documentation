@@ -1,6 +1,6 @@
 # Robot TrajectoryDressUp/ro
 ---
-- GuiCommand:   Name:Robot TrajectoryDressUp   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot - TrajectoryDressUp ---
+- GuiCommand:   Name: Robot TrajectoryDressUp   Workbenches: [[Robot_Workbench   Robot]]|MenuLocation: Robot - TrajectoryDressUp ---
 
 
 </div>
@@ -59,4 +59,4 @@ Apoi puteți schimba valori pentru
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryDressUp/ro
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryDressUp/ro

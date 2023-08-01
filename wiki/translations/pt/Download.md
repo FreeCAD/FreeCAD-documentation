@@ -1,9 +1,4 @@
 # Download/pt
-{{TOCright}}
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 ## Instaladores oficiais 
@@ -93,4 +88,4 @@ The FreeCAD community provides a wealth of additional modules and macros. They c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Download/pt
+⏵ [documentation index](../README.md) > Download/pt

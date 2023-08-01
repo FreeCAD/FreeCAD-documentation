@@ -22,4 +22,4 @@ Diese Bilder sind größer als Symbole.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Gui/de
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Gui/de

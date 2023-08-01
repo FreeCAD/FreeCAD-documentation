@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SaveaCopy/it
+⏵ [documentation index](../README.md) > Std SaveaCopy/it

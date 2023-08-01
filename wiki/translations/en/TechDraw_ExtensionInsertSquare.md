@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionInsertSquare
-   MenuLocation:TechDraw - Extensions: Dimensions - Insert '〼' Prefix
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ExtensionInsertDiameter](TechDraw_ExtensionInsertDiameter.md)
+   Name: TechDraw ExtensionInsertSquare
+   MenuLocation: TechDraw - Extensions: Dimensions - Insert '〼' Prefix
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ExtensionInsertDiameter](TechDraw_ExtensionInsertDiameter.md)
 ---
 
 # TechDraw ExtensionInsertSquare/en
@@ -36,4 +36,4 @@ The **TechDraw ExtensionInsertSquare** tool inserts a \'〼\' symbol at the begi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionInsertSquare/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionInsertSquare/en

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintSameOrientation
-   Name/de:Assembly3 RichtungenAngleichen
-   Icon:Assembly_ConstraintSameOrientation.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintSameOrientation
+   Name/de: Assembly3 RichtungenAngleichen
+   Icon: Assembly_ConstraintSameOrientation.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintSameOrientation/de
@@ -27,4 +27,4 @@ Diese Beziehung akzeptiert ebene Flächen.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintSameOrientation/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintSameOrientation/de

@@ -4,7 +4,7 @@
 ## Introduzione
 
 
-{{TOCright}}
+
 
 La [console Python](Python_console/it.md) è un pannello che fa parte dell\'[interfaccia utente](interface/it.md) di FreeCAD . Esegue un\'istanza dell\'interprete [Python](Python/it.md) che può essere utilizzato per controllare i processi di FreeCAD e creare e modificare gli oggetti e le loro proprietà.
 
@@ -98,4 +98,4 @@ Un clic con il tasto destro sulla console Python mostra alcuni comandi:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Python console/it
+⏵ [documentation index](../README.md) > Python console/it

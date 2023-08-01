@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std UnitsCalculator
-   Name/pl:Std: Kalkulator jednostek
-   MenuLocation:Przybory - Kalkulator jednostek
-   Workbenches:wszystkie
+   Name: Std UnitsCalculator
+   Name/pl: Std: Kalkulator jednostek
+   MenuLocation: Przybory - Kalkulator jednostek
+   Workbenches: wszystkie
 ---
 
 # Std UnitsCalculator/pl
@@ -80,4 +80,4 @@ Polecenie **Kalkulator jednostek** otwiera okno dialogowe Kalkulatora jednostek.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std UnitsCalculator/pl
+⏵ [documentation index](../README.md) > Std UnitsCalculator/pl

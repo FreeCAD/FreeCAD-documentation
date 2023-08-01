@@ -2,7 +2,7 @@
 ## Einleitung
 
 
-{{TOCright}}
+
 
 Die [Auswahlansicht](selection_view/de.md) ist ein Bereich der [Oberfläche](interface/de.md), der sich standardmäßig unter der [Combo-Ansicht](combo_view/de.md) befindet. Genau wie der [Eigenschafteneditor](property_editor/de.md) zeigt sie weitere Informationen über die aktuell ausgewählten Objekte an.
 
@@ -83,4 +83,4 @@ Starting from v0.19, the **picked object list** checkbox is available. If this i
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Selection view/de
+⏵ [documentation index](../README.md) > Selection view/de

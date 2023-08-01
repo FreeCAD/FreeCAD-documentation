@@ -81,4 +81,4 @@ Die Vorlagen wurden erstellt durch [Quick61](User_Quick61.md) und aufgelistet in
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Drawing](Category_Drawing.md) > ANSI templates/de
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Drawing](Category_Drawing.md) > ANSI templates/de

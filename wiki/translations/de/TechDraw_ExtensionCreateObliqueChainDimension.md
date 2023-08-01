@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionCreateObliqueChainDimension
-   Name/de:TechDraw ErgänzungSchrägeMaßkette
-   MenuLocation:TechDraw - Ergänzungen: Maße - Schräge Maßketten erstellen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ErgänzungHorizontaleMaßkette](TechDraw_ExtensionCreateHorizChainDimension/de.md), [TechDraw ErgänzungVertikaleMaßkette](TechDraw_ExtensionCreateVertChainDimension/de.md)
+   Name: TechDraw ExtensionCreateObliqueChainDimension
+   Name/de: TechDraw ErgänzungSchrägeMaßkette
+   MenuLocation: TechDraw - Ergänzungen: Maße - Schräge Maßketten erstellen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ErgänzungHorizontaleMaßkette](TechDraw_ExtensionCreateHorizChainDimension/de.md), [TechDraw ErgänzungVertikaleMaßkette](TechDraw_ExtensionCreateVertChainDimension/de.md)
 ---
 
 # TechDraw ExtensionCreateObliqueChainDimension/de
@@ -54,4 +54,4 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionCreateObliqueChainDimensio
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateObliqueChainDimension/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateObliqueChainDimension/de

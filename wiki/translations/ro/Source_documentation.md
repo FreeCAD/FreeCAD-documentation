@@ -1,7 +1,4 @@
 # Source documentation/ro
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 Codul sursă al FreeCAD este comentat pentru a permite generarea automată a documentației html cu [Doxygen](http://www.doxygen.org). Acesta este cazul atât pentru părțile C ++ și Python ale codului sursă FreeCAD.
@@ -213,4 +210,4 @@ void removeTaskWatcher(void);
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source documentation/ro
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source documentation/ro

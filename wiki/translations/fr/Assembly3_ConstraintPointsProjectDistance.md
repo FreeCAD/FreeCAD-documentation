@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPointsProjectDistance
-   Name/fr:Assembly3 Contrainte distance du point projeté
-   Icon:Assembly_ConstraintPointsProjectDistance.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 ConstraintPointsProjectDistance
+   Name/fr: Assembly3 Contrainte distance du point projeté
+   Icon: Assembly_ConstraintPointsProjectDistance.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintPointsProjectDistance/fr
@@ -29,4 +29,4 @@ En se basant sur la direction de la ligne (l\'axe z de son système de coordonn�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointsProjectDistance/fr
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPointsProjectDistance/fr

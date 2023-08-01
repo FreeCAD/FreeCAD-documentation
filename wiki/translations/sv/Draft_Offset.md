@@ -1,6 +1,6 @@
 # Draft Offset/sv
 ---
-- GuiCommand:   Name:Draft_Offset   Workbenches:[MenuLocation:Draft - Offset   SeeAlso:[[Part_Offset2D/sv|Part 2D Offset](Draft_Workbench/sv___Skiss]].md)---
+- GuiCommand:   Name: Draft_Offset   Workbenches: [MenuLocation: Draft - Offset   SeeAlso: [[Part_Offset2D/sv|Part 2D Offset](Draft_Workbench/sv___Skiss]].md)---
 
 
 </div>
@@ -128,4 +128,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Offset/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Offset/sv

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:Addon/it
-   Name:BIM_Library
-   Name/it:Libreria BIM
-   MenuLocation:Modellazione 3D - Libreria
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/it.md)
-   Addon:BIM
-   SeeAlso:[Arredo](Arch_Equipment/it.md)
+   Name: BIM_Library
+   Name/it: Libreria BIM
+   MenuLocation: Modellazione 3D - Libreria
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/it.md)
+   Addon: BIM
+   SeeAlso: [Arredo](Arch_Equipment/it.md)
 ---
 
 # BIM Library/it
@@ -37,4 +37,4 @@ Lo strumento Libreria BIM consente di posizionare nel modello corrente un oggett
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > BIM Library/it
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > BIM Library/it

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet SplitCell
-   Name/de:Kalkulationstabelle ZellenTeilen
-   Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)
-   MenuLocation:Kalkulationstabelle - Zellen Teilen
-   Version:0.17
+   Name: Spreadsheet SplitCell
+   Name/de: Kalkulationstabelle ZellenTeilen
+   Workbenches: [Tabellenkalkulation](Spreadsheet_Workbench/de.md)
+   MenuLocation: Kalkulationstabelle - Zellen Teilen
+   Version: 0.17
 ---
 
 # Spreadsheet SplitCell/de
@@ -30,4 +30,4 @@ Das **[<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> [Kalkulatio
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SplitCell/de
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SplitCell/de

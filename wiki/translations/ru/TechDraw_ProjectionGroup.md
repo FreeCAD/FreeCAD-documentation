@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Вставить группу проекций
-   Name:TechDraw_ProjectionGroup
-   MenuLocation:TechDraw - Вставить группу проекций
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Вставить Вид](TechDraw_View/ru.md), [Вставить Вид сечения](TechDraw_SectionView/ru.md)
+   Name/ru: Вставить группу проекций
+   Name: TechDraw_ProjectionGroup
+   MenuLocation: TechDraw - Вставить группу проекций
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso: [Вставить Вид](TechDraw_View/ru.md), [Вставить Вид сечения](TechDraw_SectionView/ru.md)
 ---
 
 # TechDraw ProjectionGroup/ru
@@ -154,4 +154,4 @@ Note: The Projection Group should always be added to the Page, {{Incode|page.add
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ProjectionGroup/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ProjectionGroup/ru

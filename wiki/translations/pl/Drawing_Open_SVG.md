@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Drawing Open SVG
-   Name/pl:Drawing Open SVG
-   Workbenches:[Kreślenie](Drawing_Workbench/pl.md), Complete
-   MenuLocation:Drawing - Open SVG...
-   Shortcut:none
-   SeeAlso:[Zapisz](Drawing_Save/pl.md)
+   Name: Drawing Open SVG
+   Name/pl: Drawing Open SVG
+   Workbenches: [Kreślenie](Drawing_Workbench/pl.md), Complete
+   MenuLocation: Drawing - Open SVG...
+   Shortcut: none
+   SeeAlso: [Zapisz](Drawing_Save/pl.md)
 ---
 
 # Drawing Open SVG/pl
@@ -26,4 +26,4 @@ Narzędzie to otwiera arkusz rysunkowy zapisany wcześniej jako plik SVG *(skalo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Open SVG/pl
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Open SVG/pl

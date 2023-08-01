@@ -1,6 +1,6 @@
 # Robot CreateTrajectory/ro
 ---
-- GuiCommand:   Name:Robot CreateTrajectory   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot - Create trajectory---
+- GuiCommand:   Name: Robot CreateTrajectory   Workbenches: [[Robot_Workbench   Robot]]|MenuLocation: Robot - Create trajectory---
 
 
 </div>
@@ -48,4 +48,4 @@ Click pe <img alt="" src=images/Robot_CreateTrajectory.png  style="width:32px;">
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateTrajectory/ro
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateTrajectory/ro

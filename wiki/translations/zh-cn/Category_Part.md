@@ -13,4 +13,4 @@ This category lists pages related to the [Part Workbench/zh-cn](Part_Workbench/z
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Part/zh-cn
+⏵ [documentation index](../README.md) > Category:Part/zh-cn

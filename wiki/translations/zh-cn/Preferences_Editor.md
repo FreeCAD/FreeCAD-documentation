@@ -1,6 +1,4 @@
 # Preferences Editor/zh-cn
-{{TOCright}}
-
 ## Introduction
 
 
@@ -1032,4 +1030,4 @@ For a scripting example see [Std DlgParameter](Std_DlgParameter.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Preferences Editor/zh-cn
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Preferences Editor/zh-cn

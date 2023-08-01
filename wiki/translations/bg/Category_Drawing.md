@@ -10,4 +10,4 @@ This category lists pages related to the [Drawing Workbench/bg](Drawing_Workbenc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Drawing/bg
+⏵ [documentation index](../README.md) > Category:Drawing/bg

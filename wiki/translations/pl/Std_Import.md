@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Import
-   Name/pl:Std: Importuj
-   MenuLocation:Plik - Importuj ...
-   Workbenches:wszystkie
-   Shortcut:**Ctrl** + **I**
-   SeeAlso:[Otwórz](Std_Open/pl.md), [Import Export](Import_Export/pl.md), [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl.md)
+   Name: Std Import
+   Name/pl: Std: Importuj
+   MenuLocation: Plik - Importuj ...
+   Workbenches: wszystkie
+   Shortcut: **Ctrl** + **I**
+   SeeAlso: [Otwórz](Std_Open/pl.md), [Import Export](Import_Export/pl.md), [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl.md)
 ---
 
 # Std Import/pl
@@ -130,4 +130,4 @@ Obiekt Płaszczyzna obrazu wywodzi się z obiektu [App: Cechy geometrii](App_Geo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/pl
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/pl

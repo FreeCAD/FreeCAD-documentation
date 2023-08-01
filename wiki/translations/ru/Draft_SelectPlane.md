@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft SelectPlane
-   Name/ru:Draft SelectPlane
-   MenuLocation:Draft - Utilities - Select Plane
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:**W** **P**
-   SeeAlso:[Draft SetWorkingPlaneProxy](Draft_SetWorkingPlaneProxy/ru.md), [Draft ToggleGrid](Draft_ToggleGrid/ru.md)
+   Name: Draft SelectPlane
+   Name/ru: Draft SelectPlane
+   MenuLocation: Draft - Utilities - Select Plane
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: **W** **P**
+   SeeAlso: [Draft SetWorkingPlaneProxy](Draft_SetWorkingPlaneProxy/ru.md), [Draft ToggleGrid](Draft_ToggleGrid/ru.md)
 ---
 
 # Draft SelectPlane/ru
@@ -150,4 +150,4 @@ print(projection)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectPlane/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectPlane/ru

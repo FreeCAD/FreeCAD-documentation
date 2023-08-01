@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD ExpandPlacements
-   MenuLocation:OpenSCAD - Expand Placements‏‎
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench.md)
+   Name: OpenSCAD ExpandPlacements
+   MenuLocation: OpenSCAD - Expand Placements‏‎
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench.md)
 ---
 
 # OpenSCAD ExpandPlacements/pl
@@ -39,4 +39,4 @@ Works with:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExpandPlacements/pl
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExpandPlacements/pl

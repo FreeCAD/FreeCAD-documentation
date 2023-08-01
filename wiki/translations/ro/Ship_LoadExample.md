@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Ship Load
-   MenuLocation:Ship design - Load‏‎ an example ship geometry
-   Workbenches:[Ship](Ship_Workbench.md)
-   Shortcut:
-   SeeAlso:
+   Name: Ship Load
+   MenuLocation: Ship design - Load‏‎ an example ship geometry
+   Workbenches: [Ship](Ship_Workbench.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Ship LoadExample/ro
@@ -75,4 +75,4 @@ Executing the tool (Ship design/Load an example ship geometry) a task dialogue w
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship LoadExample/ro
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship LoadExample/ro

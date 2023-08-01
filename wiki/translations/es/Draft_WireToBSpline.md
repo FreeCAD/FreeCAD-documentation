@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft_WireToBSpline
-   Name/es:Draft_WireToBSpline
-   MenuLocation:Boceto - Contorno a BSpline
-   Workbenches:[Boceto](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Name: Draft_WireToBSpline
+   Name/es: Draft_WireToBSpline
+   MenuLocation: Boceto - Contorno a BSpline
+   Workbenches: [Boceto](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
 ---
 
 # Draft WireToBSpline/es
@@ -96,4 +96,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WireToBSpline/es
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WireToBSpline/es

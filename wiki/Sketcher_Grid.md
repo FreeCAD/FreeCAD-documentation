@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher Grid
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Version:0.21
-   SeeAlso:[Sketcher Snap](Sketcher_Snap.md)
+   Name: Sketcher Grid
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Version: 0.21
+   SeeAlso: [Sketcher Snap](Sketcher_Snap.md)
 ---
 
 # Sketcher Grid
@@ -34,4 +34,4 @@ See also: [Sketcher Preferences](Sketcher_Preferences#Grid.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Grid
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Grid

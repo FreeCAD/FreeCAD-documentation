@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:FEM ElementRotation1D
-   MenuLocation:Model - Element Geometry - Beam rotation
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM tutorial](FEM_tutorial.md)
+   Name: FEM ElementRotation1D
+   MenuLocation: Model - Element Geometry - Beam rotation
+   Workbenches: [FEM](FEM_Workbench.md)
+   SeeAlso: [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM ElementRotation1D/pt-br
@@ -57,4 +57,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementRotation1D/pt-br
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementRotation1D/pt-br

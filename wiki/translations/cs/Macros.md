@@ -1,6 +1,4 @@
 # Macros/cs
-{{TOCright}}
-
 ## Introduction
 
 
@@ -130,4 +128,4 @@ You can manually install extensions, however, it is much simpler to just use the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Macros](Category_Macros.md) > Macros/cs
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Macros](Category_Macros.md) > Macros/cs

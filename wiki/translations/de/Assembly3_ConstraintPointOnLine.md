@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPointOnLine
-   Name/de:Assembly3 PunktAufLinie
-   Icon:Assembly_ConstraintPointOnLine.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintPointOnLine
+   Name/de: Assembly3 PunktAufLinie
+   Icon: Assembly_ConstraintPointOnLine.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintPointOnLine/de
@@ -27,4 +27,4 @@ Im Bezug auf das erste Element, kann sich das folgende Objekt noch entlang der Z
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointOnLine/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPointOnLine/de

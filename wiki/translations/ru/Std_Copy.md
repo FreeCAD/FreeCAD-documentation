@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_Copy
-   Name/ru:Копировать
-   MenuLocation:Правка - Копировать
-   Workbenches:Все
-   Shortcut:**Ctrl**+**C**
-   SeeAlso:[Вырезать](Std_Cut/ru.md), [Вставить](Std_Paste/ru.md), [Дублировать выбранное](Std_DuplicateSelection/ru.md)
+   Name: Std_Copy
+   Name/ru: Копировать
+   MenuLocation: Правка - Копировать
+   Workbenches: Все
+   Shortcut: **Ctrl**+**C**
+   SeeAlso: [Вырезать](Std_Cut/ru.md), [Вставить](Std_Paste/ru.md), [Дублировать выбранное](Std_DuplicateSelection/ru.md)
 ---
 
 # Std Copy/ru
@@ -51,4 +51,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Copy/ru
+⏵ [documentation index](../README.md) > Std Copy/ru

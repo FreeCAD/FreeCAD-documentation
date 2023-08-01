@@ -1,8 +1,4 @@
 # Debugging/ru
-{{TOCright}}
-
-
-
 ## Певые испытания 
 
 Перед тем как пройти через боль от процесса отладки , используйте [фреймворк для тестирования](Testing/ru.md) , чтобы проверить будут ли работать стандартные тесты должным образом. Если они не будут пройдены полностью, то возможно дело, в сбоях при установке программы.
@@ -438,4 +434,4 @@ For developers needing to dig deeper in to the OpenCasCade kernel, user \@abdull
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Debugging/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Debugging/ru

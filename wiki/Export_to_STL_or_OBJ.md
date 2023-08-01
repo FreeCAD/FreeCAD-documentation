@@ -62,4 +62,4 @@ Method 2 is to be preferred. Among the reasons:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Export to STL or OBJ
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Export to STL or OBJ

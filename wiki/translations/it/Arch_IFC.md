@@ -1,8 +1,4 @@
 # Arch IFC/it
-{{TOCright}}
-
-
-
 ## Descrizione
 
 Gli ambienti <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/it.md) e <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/it.md) (Build Information Modeling) forniscono un importatore e esportatore [Industry Foundation Classes (IFC)](http://en.wikipedia.org/wiki/Industry_Foundation_Classes). Il formato IFC è un formato sempre più diffuso per scambiare dati tra le applicazioni [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling), utilizzato in architettura e in ingegneria.
@@ -76,4 +72,4 @@ Se la forma degli oggetti esportati si basa su una estrusione o una operazione b
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch IFC/it
+⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch IFC/it

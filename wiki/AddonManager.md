@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > AddonManager
+⏵ [documentation index](../README.md) > AddonManager

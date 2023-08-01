@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Polygon
-   Name/it:Poligono
-   MenuLocation:Drafting - Poligono
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:**P** **G**
-   Version:0.7
+   Name: Draft Polygon
+   Name/it: Poligono
+   MenuLocation: Drafting - Poligono
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut: **P** **G**
+   Version: 0.7
 ---
 
 # Draft Polygon/it
@@ -145,4 +145,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Polygon/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Polygon/it

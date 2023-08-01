@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch_Rebar_ColumnReinforcement
-   Name/it:Armatura di colonna
-   MenuLocation:Reinforcement - Column Reinforcement, Arch - Strumenti armatura
-   Workbenches:[Reinforcement](Reinforcement_Workbench/it.md), [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   SeeAlso:[Armatura di pilastro con 2 staffe e 6 barre](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/it.md), [Armatura personalizzata](Arch_Rebar/it.md)
-   Version:0.19
+   Name: Arch_Rebar_ColumnReinforcement
+   Name/it: Armatura di colonna
+   MenuLocation: Reinforcement - Column Reinforcement, Arch - Strumenti armatura
+   Workbenches: [Reinforcement](Reinforcement_Workbench/it.md), [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   SeeAlso: [Armatura di pilastro con 2 staffe e 6 barre](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/it.md), [Armatura personalizzata](Arch_Rebar/it.md)
+   Version: 0.19
 ---
 
 # Arch Rebar Circular ColumnReinforcement/it
@@ -227,4 +227,4 @@ rebar_group = CircularColumn.editReinforcement(
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Circular ColumnReinforcement/it
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Circular ColumnReinforcement/it

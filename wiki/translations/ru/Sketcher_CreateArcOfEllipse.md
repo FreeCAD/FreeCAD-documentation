@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name/ru:Эллиптическая дуга
-   Name:Sketcher_CreateArcOfEllipse
-   MenuLocation:Sketch - Геометрия эскиза - Эллиптическая дуга
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**G** **E** **A**
-   Version:0.15
-   SeeAlso:[Создать эллипс от центра](Sketcher_CreateEllipseByCenter/ru.md), [Создать дугу от центра](Sketcher_CompCreateArc/ru.md)
+   Name/ru: Эллиптическая дуга
+   Name: Sketcher_CreateArcOfEllipse
+   MenuLocation: Sketch - Геометрия эскиза - Эллиптическая дуга
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **G** **E** **A**
+   Version: 0.15
+   SeeAlso: [Создать эллипс от центра](Sketcher_CreateEllipseByCenter/ru.md), [Создать дугу от центра](Sketcher_CompCreateArc/ru.md)
 ---
 
 # Sketcher CreateArcOfEllipse/ru
@@ -61,4 +61,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfEllipse/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfEllipse/ru

@@ -91,4 +91,4 @@ Although this list focuses on German content, many of these channels also have v
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for product design/ru
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for product design/ru

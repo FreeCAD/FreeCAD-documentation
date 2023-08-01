@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM ResultShow
-   Name/it:Mostra i risultati
-   MenuLocation:Risultati - Mostra i risultati
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:**R** **S**
-   SeeAlso:[FEM tutorial](FEM_tutorial/it.md)
+   Name: FEM ResultShow
+   Name/it: Mostra i risultati
+   MenuLocation: Risultati - Mostra i risultati
+   Workbenches: [FEM](FEM_Workbench/it.md)
+   Shortcut: **R** **S**
+   SeeAlso: [FEM tutorial](FEM_tutorial/it.md)
 ---
 
 # FEM ResultShow/it
@@ -71,4 +71,4 @@ The dialog is shown at the left and offers the following features:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ResultShow/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ResultShow/it

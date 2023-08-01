@@ -11,4 +11,4 @@ This category lists pages related to the [Start Workbench/fr](Start_Workbench/fr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Start/fr
+⏵ [documentation index](../README.md) > Category:Start/fr

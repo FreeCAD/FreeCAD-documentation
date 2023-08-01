@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Cut
-   Name/de:Part Differenz
-   MenuLocation:Formteil - Boolesche Operationen - Differenz
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Boolesche Operation](Part_Boolean/de.md), [Part Vereinigung](Part_Fuse/de.md), [Part Schnitt](Part_Common/de.md)
+   Name: Part Cut
+   Name/de: Part Differenz
+   MenuLocation: Formteil - Boolesche Operationen - Differenz
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: [Part Boolesche Operation](Part_Boolean/de.md), [Part Vereinigung](Part_Fuse/de.md), [Part Schnitt](Part_Common/de.md)
 ---
 
 # Part Cut/de
@@ -37,4 +37,4 @@ Eingabeobjekte müssen [OpenCASCADE](OpenCASCADE/de.md)-Formen sein. Zum Beispie
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/de

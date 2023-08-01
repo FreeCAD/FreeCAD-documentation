@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintCentrif
-   Name/fr:FEM Contrainte centrifuge
-   MenuLocation:Modèle - Contraintes mécaniques - Contrainte centrifuge
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:
+   Name: FEM ConstraintCentrif
+   Name/fr: FEM Contrainte centrifuge
+   MenuLocation: Modèle - Contraintes mécaniques - Contrainte centrifuge
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: 
 ---
 
 # FEM ConstraintCentrif/fr
@@ -35,4 +35,4 @@ Définit une charge centrifuge sur le corps.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FEM ConstraintCentrif/fr
+⏵ [documentation index](../README.md) > FEM ConstraintCentrif/fr

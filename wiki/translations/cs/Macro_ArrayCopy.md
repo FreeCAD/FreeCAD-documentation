@@ -87,4 +87,4 @@ dialog.show()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro ArrayCopy/cs
+⏵ [documentation index](../README.md) > Macro ArrayCopy/cs

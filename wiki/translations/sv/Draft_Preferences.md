@@ -1,7 +1,4 @@
 # Draft Preferences/sv
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 Skissmodulens alternativskärm hittas i [Alternativfönstret](Preferences_Editor/sv.md) (Meny Redigera -\> Alternativ).
@@ -502,4 +499,4 @@ On the *Texts and dimensions* tab you can specify the following:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Draft](Draft_Workbench.md) > Draft Preferences/sv
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Draft](Draft_Workbench.md) > Draft Preferences/sv

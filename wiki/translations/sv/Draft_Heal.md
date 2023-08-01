@@ -1,6 +1,6 @@
 # Draft Heal/sv
 ---
-- GuiCommand:   Name:Draft Heal   Name/sv:Draft Heal   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft - Utilities - Heal---
+- GuiCommand:   Name: Draft Heal   Name/sv: Draft Heal   Workbenches: [Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation: Draft - Utilities - Heal---
 
 
 </div>
@@ -18,4 +18,4 @@ The <img alt="" src=images/Draft_Heal.svg  style="width:24px;"> **Draft Heal** c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/sv

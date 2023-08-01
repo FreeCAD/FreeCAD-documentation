@@ -6,4 +6,4 @@ Forum: [About PDM for FreeCAD](https://forum.freecadweb.org/viewtopic.php?f=8&t=
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Developer](Category_Developer.md) > PDM Roadmap
+⏵ [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Developer](Category_Developer.md) > PDM Roadmap

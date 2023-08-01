@@ -15,4 +15,4 @@ Längere Textteile sollten auf der Seite selbst platziert werden, damit sie mit 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Template:Text/de
+⏵ [documentation index](../README.md) > Category:Template:Text/de

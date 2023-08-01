@@ -1,6 +1,4 @@
 # Mouse navigation/pl
-{{TOCright}}
-
 ## Informacje ogólne 
 
 **Nawigacja myszką** w programie FreeCAD jest bardzo elastyczna i intuicyjna, z kilkoma wskazówkami możesz go używać po minucie praktyki. FreeCAD obsługuje wiele stylów nawigacji myszki. Domyślny styl nawigacji jest określany jako [Nawigacja CAD](#CAD.md) i jest bardzo intuicyjny i praktyczny, ale FreeCAD udostępnia również kilka alternatywnych stylów nawigacji do wyboru. Wybrany styl jest używany we wszystkich środowiskach pracy.
@@ -272,4 +270,4 @@ Poradnik [Dodanie nowego stylu nawigacji myszką do FreeCAD](Adding_a_new_mouse_
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Mouse navigation/pl
+⏵ [documentation index](../README.md) > Mouse navigation/pl

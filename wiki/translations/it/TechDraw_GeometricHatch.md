@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw GeometricHatch
-   Name/it:Tratteggio geometrico
-   MenuLocation:TechDraw - Tratteggio geometrico
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Tratteggio da modello](TechDraw_Hatch/it.md), [Tipi di tratteggio](TechDraw_Hatching/it.md)
+   Name: TechDraw GeometricHatch
+   Name/it: Tratteggio geometrico
+   MenuLocation: TechDraw - Tratteggio geometrico
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso: [Tratteggio da modello](TechDraw_Hatch/it.md), [Tipi di tratteggio](TechDraw_Hatching/it.md)
 ---
 
 # TechDraw GeometricHatch/it
@@ -146,4 +146,4 @@ Part.show(hatch)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw GeometricHatch/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw GeometricHatch/it

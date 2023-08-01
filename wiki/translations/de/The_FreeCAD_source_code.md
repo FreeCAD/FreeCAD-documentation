@@ -37,4 +37,4 @@ Abk. GUI von englisch graphical user interface Diese Trennung spiegelt sich übe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > The FreeCAD source code/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > The FreeCAD source code/de

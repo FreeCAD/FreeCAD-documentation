@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std_SceneInspector
-   Name/it:Ispettore di scena
-   MenuLocation:Strumenti - Ispettore di scena...
-   Workbenches:Tutti
+   Name: Std_SceneInspector
+   Name/it: Ispettore di scena
+   MenuLocation: Strumenti - Ispettore di scena...
+   Workbenches: Tutti
 ---
 
 # Std SceneInspector/it
@@ -35,4 +35,4 @@ Il comando **Ispettore di scena** apre una finestra di dialogo che mostra una pa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SceneInspector/it
+⏵ [documentation index](../README.md) > Std SceneInspector/it

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainTangent
-   Name/pl:Szkicownik: Wiązanie styczności
-   MenuLocation:Sketch - Wiązania szkicownika - Wiązanie styczności
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**T**
-   SeeAlso:[Wiązanie punktu na obiekcie](Sketcher_ConstrainPointOnObject/pl.md)
+   Name: Sketcher ConstrainTangent
+   Name/pl: Szkicownik: Wiązanie styczności
+   MenuLocation: Sketch - Wiązania szkicownika - Wiązanie styczności
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **T**
+   SeeAlso: [Wiązanie punktu na obiekcie](Sketcher_ConstrainPointOnObject/pl.md)
 ---
 
 # Sketcher ConstrainTangent/pl
@@ -130,4 +130,4 @@ Strona [Skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainTangent/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainTangent/pl

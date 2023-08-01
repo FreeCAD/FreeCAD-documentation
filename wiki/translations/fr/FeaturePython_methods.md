@@ -1,6 +1,4 @@
 # FeaturePython methods/fr
-{{TOCright}}
-
 ## Introduction
 
 Cette page sert de référence pour les méthodes de contournement disponibles pour [Créer un objet FeaturePython partie I](Create_a_FeaturePython_object_part_I/fr.md) ou [Objets créés par script](Scripted_objects/fr.md).
@@ -67,4 +65,4 @@ Remarquez que getPyObject() et init() sont des cas particuliers et ne suivent pa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FeaturePython methods/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FeaturePython methods/fr

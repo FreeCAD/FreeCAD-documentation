@@ -2,7 +2,7 @@
 ## Introducción
 
 
-{{TOCright}}
+
 
 La [vista 3D](3D_view/es.md) de FreeCAD es una instancia de una Coin3D [escenografía](Scenegraph/es.md) que forma la ventana más importante de la [interfaz](interface/es.md). Coin3D es una biblioteca que implementa el estándar de descripción de escenas OpenInventor 2.1.
 
@@ -96,4 +96,4 @@ For more information see the power user documentation:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > 3D view/es
+⏵ [documentation index](../README.md) > 3D view/es

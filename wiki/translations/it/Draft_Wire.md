@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Wire
-   Name/it:Polilinea
-   MenuLocation:Drafting - Polilinea
-   Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   Shortcut:**P** **L**
-   Version:0.7
-   SeeAlso:[Linea](Draft_Line/it.md), [BSpline](Draft_BSpline/it.md)
+   Name: Draft Wire
+   Name/it: Polilinea
+   MenuLocation: Drafting - Polilinea
+   Workbenches: [Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   Shortcut: **P** **L**
+   Version: 0.7
+   SeeAlso: [Linea](Draft_Line/it.md), [BSpline](Draft_BSpline/it.md)
 ---
 
 # Draft Wire/it
@@ -194,4 +194,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/it

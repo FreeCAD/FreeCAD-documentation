@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std Windows
-   Name/pl:Std: Okna
-   MenuLocation:Okna - Okna ...
-   Workbenches:wszystkie
-   SeeAlso:[Następne](Std_ActivateNextWindow/pl.md), [Poprzednie](Std_ActivatePrevWindow/pl.md)
+   Name: Std Windows
+   Name/pl: Std: Okna
+   MenuLocation: Okna - Okna ...
+   Workbenches: wszystkie
+   SeeAlso: [Następne](Std_ActivateNextWindow/pl.md), [Poprzednie](Std_ActivatePrevWindow/pl.md)
 ---
 
 # Std Windows/pl
@@ -53,4 +53,4 @@ Polecenie **Okna** otwiera okno dialogowe z listą okien [Głównego obszaru wid
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Windows/pl
+⏵ [documentation index](../README.md) > Std Windows/pl

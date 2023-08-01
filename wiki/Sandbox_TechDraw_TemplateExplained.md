@@ -1,6 +1,4 @@
 # Sandbox:TechDraw TemplateExplained
-{{TOCright}}
-
 ## Introduction
 
 TechDraw templates are SVG files used as the basis to create Technical drawings in FreeCAD. They can be used with the Draft workbench as well.
@@ -659,4 +657,4 @@ Dies ist eine Sandbox
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Sandbox:TechDraw TemplateExplained
+⏵ [documentation index](../README.md) > Sandbox:TechDraw TemplateExplained

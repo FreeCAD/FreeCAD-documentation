@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Path Helix
-   Name/tr:CNC G-Kodu Helezon
-   Workbenches:[CNC G-Kodu](Path_Workbench/tr.md)
-   MenuLocation:CNC G-Kodu - Helezon
-   Shortcut:
-   SeeAlso:
+   Name: Path Helix
+   Name/tr: CNC G-Kodu Helezon
+   Workbenches: [CNC G-Kodu](Path_Workbench/tr.md)
+   MenuLocation: CNC G-Kodu - Helezon
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Path Helix/tr
@@ -88,4 +88,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Helix/tr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Helix/tr

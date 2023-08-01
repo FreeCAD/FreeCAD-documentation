@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD Edgestofaces
-   MenuLocation:OpenSCAD - Convert Edges to Faces
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench.md)
-   SeeAlso:[Draft Upgrade](Draft_Upgrade.md)
+   Name: OpenSCAD Edgestofaces
+   MenuLocation: OpenSCAD - Convert Edges to Faces
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench.md)
+   SeeAlso: [Draft Upgrade](Draft_Upgrade.md)
 ---
 
 # OpenSCAD Edgestofaces/pl
@@ -34,4 +34,4 @@ See also <img alt="Draft_Upgrade" src=images/Draft_Upgrade.svg  style="width:24p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Edgestofaces/pl
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Edgestofaces/pl

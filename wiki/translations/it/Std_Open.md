@@ -1,6 +1,6 @@
 # Std Open/it
 ---
-- GuiCommand:   Name:Std_Open   Name/it:Apri   MenuLocation:File - Apri   Workbenches:Tutti   Shortcut:**Ctrl**+**O**   SeeAlso:[Nuovo](Std_New.md), [Importa](Std_Import/it.md)---
+- GuiCommand:   Name: Std_Open   Name/it: Apri   MenuLocation: File - Apri   Workbenches: Tutti   Shortcut: **Ctrl**+**O**   SeeAlso: [Nuovo](Std_New.md), [Importa](Std_Import/it.md)---
 
 ## Descrizione
 
@@ -48,4 +48,4 @@ Per esempi di scripting vedere [Nuovo](Std_New/it#Scripting.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Open/it
+⏵ [documentation index](../README.md) > Std Open/it

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw HorizontalExtentDimension
-   MenuLocation:TechDraw - Dimensions - Insert Horizontal Extent Dimension
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.19
-   SeeAlso:[TechDraw LengthDimension](TechDraw_LengthDimension.md), [TechDraw VerticalExtentDimension](TechDraw_VerticalExtentDimension.md)
+   Name: TechDraw HorizontalExtentDimension
+   MenuLocation: TechDraw - Dimensions - Insert Horizontal Extent Dimension
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Version: 0.19
+   SeeAlso: [TechDraw LengthDimension](TechDraw_LengthDimension.md), [TechDraw VerticalExtentDimension](TechDraw_VerticalExtentDimension.md)
 ---
 
 # TechDraw HorizontalExtentDimension/en
@@ -68,4 +68,4 @@ App.ActiveDocument.DimExtent001.FormatSpec = '%.0f'
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HorizontalExtentDimension/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HorizontalExtentDimension/en

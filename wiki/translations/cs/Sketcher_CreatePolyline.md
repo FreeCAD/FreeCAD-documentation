@@ -1,6 +1,6 @@
 # Sketcher CreatePolyline/cs
 ---
-- GuiCommand:   Name:Sketcher CreatePolyline   Name/cs:Skicář Lomená čára   Workbenches:[MenuLocation:Náčrt - Skicář Konstrukce - Vytvořit Lomenou čáru   SeeAlso:[[Sketcher CreateLine/cs|Skicář Přímka](Sketcher_Workbench/cs___Skicář]].md)---
+- GuiCommand:   Name: Sketcher CreatePolyline   Name/cs: Skicář Lomená čára   Workbenches: [MenuLocation: Náčrt - Skicář Konstrukce - Vytvořit Lomenou čáru   SeeAlso: [[Sketcher CreateLine/cs|Skicář Přímka](Sketcher_Workbench/cs___Skicář]].md)---
 
 
 </div>
@@ -61,4 +61,4 @@ Nástroj má vícenásobný mód, který může bý přepnut klávesou **M**. Na
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePolyline/cs
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePolyline/cs

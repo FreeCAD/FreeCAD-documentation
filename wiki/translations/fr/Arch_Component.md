@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Component
-   Name/fr:Arch Composant
-   MenuLocation:Arch - Utilitaires - Composant
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   Shortcut:**C** **M**
+   Name: Arch Component
+   Name/fr: Arch Composant
+   MenuLocation: Arch - Utilitaires - Composant
+   Workbenches: [Arch](Arch_Workbench/fr.md)
+   Shortcut: **C** **M**
 ---
 
 # Arch Component/fr
@@ -56,4 +56,4 @@ L\'objet Composant Arch est également une base partagée par tous les autres ob
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/fr

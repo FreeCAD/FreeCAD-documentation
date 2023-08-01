@@ -1,8 +1,4 @@
 # PartDesign Preferences/de
-{{TOCright}}
-
-
-
 ## Einleitung
 
 Die Arbeitsbereiche <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md) und <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md) verwenden dieselben Einstellungen. Sie sind im Abschnitt <img alt="" src=images/Preferences-part_design.svg  style="width:24px;"> **Part/Part Design** des [Voreinstellungseditors](Preferences_Editor.md) zu finden. Dieser Abschnitt ist nur nur vorhanden, wenn einer der Arbeitsbereiche in der aktuellen FreeCAD-Sitzung geladen wurde.
@@ -174,4 +170,4 @@ Rechtsklick auf **Netzabweichung** und wähle im Kontextmenü **Wert ändern**. 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Preferences/de
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Preferences/de

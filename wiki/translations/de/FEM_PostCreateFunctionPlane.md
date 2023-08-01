@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM PostCreateFunctionPlane
-   Name/de:FEM NachbereitungFunktionEbene
-   MenuLocation:Ergebnisse - Filterfunktionen - Ebene
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
+   Name: FEM PostCreateFunctionPlane
+   Name/de: FEM NachbereitungFunktionEbene
+   MenuLocation: Ergebnisse - Filterfunktionen - Ebene
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   SeeAlso: [FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM PostCreateFunctionPlane/de
@@ -72,4 +72,4 @@ Wenn das Plane-Objekt in der [Baumansicht](Tree_view/de.md) ausgeblendet ist, wÃ
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionPlane/de
+âµ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionPlane/de

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std AxisCross
-   Name/fr:Std Axes du repère
-   MenuLocation:Affichage - Afficher les axes des coordonnées
-   Workbenches:Tous
-   Shortcut:**A** **C**
+   Name: Std AxisCross
+   Name/fr: Std Axes du repère
+   MenuLocation: Affichage - Afficher les axes des coordonnées
+   Workbenches: Tous
+   Shortcut: **A** **C**
 ---
 
 # Std AxisCross/fr
@@ -69,4 +69,4 @@ FreeCADGui.ActiveDocument.ActiveView.hasAxisCross()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std AxisCross/fr
+⏵ [documentation index](../README.md) > Std AxisCross/fr

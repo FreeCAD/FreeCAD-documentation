@@ -98,4 +98,4 @@ Il n\'y a qu\'un seul onglet : *Options de la page de démarrage* dans la sectio
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Start](Start_Workbench.md) > Start Preferences/fr
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Start](Start_Workbench.md) > Start Preferences/fr

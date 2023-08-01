@@ -1,7 +1,7 @@
 # <img alt="иконка верстака Assembly3" src=images/Assembly3_workbench_icon.svg  style="width:64px;"> Assembly3 Workbench/ru
 
 
-{{TOCright}}
+
 
 
 
@@ -641,4 +641,4 @@ Assembly3 не предлагает смещение с константами, 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Assembly3 Workbench/ru
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Assembly3 Workbench/ru

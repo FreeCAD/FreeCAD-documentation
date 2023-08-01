@@ -80,4 +80,4 @@ Det är allt. Eventuellt så kommer FreeCAD att finnas tillgängligt som ett app
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Installing on Mac/sv
+⏵ [documentation index](../README.md) > Installing on Mac/sv

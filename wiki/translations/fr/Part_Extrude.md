@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Extrude
-   Name/fr:Part Extrusion
-   MenuLocation:Part - Extrusion...
-   Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Draft Ajuster ou prolonger](Draft_Trimex/fr.md), [PartDesign Protrusion](PartDesign_Pad/fr.md)
+   Name: Part Extrude
+   Name/fr: Part Extrusion
+   MenuLocation: Part - Extrusion...
+   Workbenches: [Part](Part_Workbench/fr.md)
+   SeeAlso: [Draft Ajuster ou prolonger](Draft_Trimex/fr.md), [PartDesign Protrusion](PartDesign_Pad/fr.md)
 ---
 
 # Part Extrude/fr
@@ -145,4 +145,4 @@ La forme extrudée est définie par les paramètres suivants qui peuvent être �
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/fr

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Редактор материалов
-   Name:FEM_MaterialEditor
-   MenuLocation:Модель - Материалы - Редактор материалов
-   Workbenches:[FEM](FEM_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Version:0.18
-   SeeAlso:[Material/ru](Material/ru.md), [Arch SetMaterial](Arch_SetMaterial/ru.md), [FEM tutorial](FEM_tutorial/ru.md)
+   Name/ru: Редактор материалов
+   Name: FEM_MaterialEditor
+   MenuLocation: Модель - Материалы - Редактор материалов
+   Workbenches: [FEM](FEM_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Version: 0.18
+   SeeAlso: [Material/ru](Material/ru.md), [Arch SetMaterial](Arch_SetMaterial/ru.md), [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM MaterialEditor/ru
@@ -69,4 +69,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialEditor/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialEditor/ru

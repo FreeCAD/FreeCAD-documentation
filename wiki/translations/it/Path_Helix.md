@@ -1,6 +1,6 @@
 # Path Helix/it
 ---
-- GuiCommand:   Name:Path Helix   Name/it:Elica   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path - Elica   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Path Helix   Name/it: Elica   Workbenches: [[Path Workbench/it   Path]]|MenuLocation: Path - Elica   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -80,4 +80,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Helix/it
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Helix/it

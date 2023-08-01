@@ -1,8 +1,4 @@
 # Getting started/pt
-{{TOCright}}
-
-
-
 ## Introdução
 
 
@@ -287,4 +283,4 @@ E finalmente, um dos recursos mais poderosos do FreeCAD é o ambiente de [ progr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Getting started/pt
+⏵ [documentation index](../README.md) > Getting started/pt

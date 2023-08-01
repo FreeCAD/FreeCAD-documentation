@@ -11,4 +11,4 @@ This category lists pages related to the [PartDesign Workbench/hr](PartDesign_Wo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Path/hr
+⏵ [documentation index](../README.md) > Category:Path/hr

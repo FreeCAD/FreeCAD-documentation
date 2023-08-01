@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM MeshGroup
-   Name/fr:FEM Groupe de maillage FEM
-   MenuLocation:Maillage - Groupe de maillage FEM
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM MeshGroup
+   Name/fr: FEM Groupe de maillage FEM
+   MenuLocation: Maillage - Groupe de maillage FEM
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM MeshGroup/fr
@@ -48,4 +48,4 @@ Groupe de maillage FEM permet donc à FreeCAD d\'être utilisé avec des solveur
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FEM MeshGroup/fr
+⏵ [documentation index](../README.md) > FEM MeshGroup/fr

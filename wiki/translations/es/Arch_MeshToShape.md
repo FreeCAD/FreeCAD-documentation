@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Arch MeshToShape   Name/es:Arch Malla a forma
-   MenuLocation:Arquitectura - Utilidades - Malla a forma
-   Workbenches:[Arquitectura](Arch_Workbench/es.md)
-   SeeAlso:[Arch SplitMesh/es](Arch_SplitMesh/es.md), [Eliminar forma](Arch_RemoveShape/es.md)
+   Name: Arch MeshToShape   Name/es: Arch Malla a forma
+   MenuLocation: Arquitectura - Utilidades - Malla a forma
+   Workbenches: [Arquitectura](Arch_Workbench/es.md)
+   SeeAlso: [Arch SplitMesh/es](Arch_SplitMesh/es.md), [Eliminar forma](Arch_RemoveShape/es.md)
 ---
 
 # Arch MeshToShape/es
@@ -101,4 +101,4 @@ new_obj = Arch.meshToShape(Box)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/es
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/es

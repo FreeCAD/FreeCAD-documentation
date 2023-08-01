@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name/ru:Плоскость сечения
-   Name:Std_ToggleClipPlane
-   MenuLocation:Вид - Плоскость сечения
-   Workbenches:Все
+   Name/ru: Плоскость сечения
+   Name: Std_ToggleClipPlane
+   MenuLocation: Вид - Плоскость сечения
+   Workbenches: Все
 ---
 
 # Std ToggleClipPlane/ru
@@ -73,4 +73,4 @@ The **Std ToggleClipPlane** command temporarily hides objects and parts of objec
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleClipPlane/ru
+⏵ [documentation index](../README.md) > Std ToggleClipPlane/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Sphere
-   Name/pl:Część: Sfera
-   MenuLocation:Część - Bryła pierwotna - Sfera
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Utwórz geometrie pierwotne](Part_CreatePrimitives/pl.md)
+   Name: Part Sphere
+   Name/pl: Część: Sfera
+   MenuLocation: Część - Bryła pierwotna - Sfera
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: [Utwórz geometrie pierwotne](Part_CreatePrimitives/pl.md)
 ---
 
 # Part Sphere/pl
@@ -121,4 +121,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/pl

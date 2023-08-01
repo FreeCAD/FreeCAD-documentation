@@ -1,6 +1,4 @@
 # Constructive solid geometry/fr
-{{TOCright}}
-
 ## Introduction
 
 La [Géométrie de construction de solides](https://fr.wikipedia.org/wiki/Géométrie_de_construction_de_solides) (**CSG** en anglais) est un paradigme de modélisation utilisé dans de nombreux systèmes de CAO traditionnels. Cela consiste essentiellement à utiliser des objets solides primitifs et à effectuer des opérations booléennes, telles que la fusion, la soustraction et l\'intersection, afin de créer une forme finale.
@@ -43,4 +41,4 @@ La page [Tutoriels](Tutorials/fr.md) fournit des exemples de création de solide
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Part](Category_Part.md) > Constructive solid geometry/fr
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Part](Category_Part.md) > Constructive solid geometry/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std Windows
-   Name/it:Finestre
-   MenuLocation:Finestre - Finestre...
-   Workbenches:Tutti
-   SeeAlso:[Prossima](Std_ActivateNextWindow/it.md), [Precedente](Std_ActivatePrevWindow/it.md)
+   Name: Std Windows
+   Name/it: Finestre
+   MenuLocation: Finestre - Finestre...
+   Workbenches: Tutti
+   SeeAlso: [Prossima](Std_ActivateNextWindow/it.md), [Precedente](Std_ActivatePrevWindow/it.md)
 ---
 
 # Std Windows/it
@@ -53,4 +53,4 @@ Il comando **Finestre** apre una finestra di dialogo con un elenco di finestre d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Windows/it
+⏵ [documentation index](../README.md) > Std Windows/it

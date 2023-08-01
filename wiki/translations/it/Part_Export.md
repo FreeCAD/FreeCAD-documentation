@@ -1,11 +1,11 @@
 # Part Export/it
 ---
 - GuiCommand:
-   Name:Part_Export
-   Name/it:Esporta CAD
-   MenuLocation:Part - Esporta CAD
-   Workbenches:[Part](Part_Workbench/it.md)
-   SeeAlso:[Importa CAD](Part_Import/it.md), [Esporta](Std_Export/it.md), [Importazione ed Esportazione](Import_Export/it.md)---
+   Name: Part_Export
+   Name/it: Esporta CAD
+   MenuLocation: Part - Esporta CAD
+   Workbenches: [Part](Part_Workbench/it.md)
+   SeeAlso: [Importa CAD](Part_Import/it.md), [Esporta](Std_Export/it.md), [Importazione ed Esportazione](Import_Export/it.md)---
 
 ## Descrizione
 
@@ -21,4 +21,4 @@ Lo strumento **<img src="images/Part_Export.svg" width=16px> [Esporta CAD](Part_
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Export/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Export/it

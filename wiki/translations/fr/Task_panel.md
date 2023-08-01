@@ -1,6 +1,4 @@
 # Task panel/fr
-{{TOCright}}
-
 ## Introduction
 
 Le [Panneau des tâches](Task_panel/fr.md) apparaît dans l\'onglet **Tâches** de la [vue combinée](Combo_view/fr.md), l\'un des panneaux importants de l\'[interface](interface/fr.md). Il s'agit d'un espace personnalisable pouvant contenir n'importe quel type de widget graphique, comme des sous-fenêtres, des tableaux, des champs de saisie, des cases à cocher, des sélecteurs, des zones de texte, des boutons, des libellés, des images et d'autres éléments, en fonction de l\'[atelier](Workbenches/fr.md) et de l'outil couramment actifs.
@@ -45,4 +43,4 @@ De nombreuses commandes requièrent la sélection de formes ou d\'objets présen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Task panel/fr
+⏵ [documentation index](../README.md) > Task panel/fr

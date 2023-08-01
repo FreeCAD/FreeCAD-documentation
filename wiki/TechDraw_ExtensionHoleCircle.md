@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionHoleCircle
-   MenuLocation:TechDraw - Extensions: Centerlines/Threading - Add Bolt Circle Centerlines
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ExtensionCircleCenterLines](TechDraw_ExtensionCircleCenterLines.md)
+   Name: TechDraw ExtensionHoleCircle
+   MenuLocation: TechDraw - Extensions: Centerlines/Threading - Add Bolt Circle Centerlines
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ExtensionCircleCenterLines](TechDraw_ExtensionCircleCenterLines.md)
 ---
 
 # TechDraw ExtensionHoleCircle
@@ -34,4 +34,4 @@ The **TechDraw ExtensionHoleCircle** tool adds centerlines to a circular pattern
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionHoleCircle
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionHoleCircle

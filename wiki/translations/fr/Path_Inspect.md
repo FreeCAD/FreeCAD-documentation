@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path Inspect
-   Name/fr:Path Inspecter des commandes
-   MenuLocation:Path - Inspecter les commandes
-   Workbenches:[Path](Path_Workbench/fr.md)
-   Shortcut:**P** **I**
+   Name: Path Inspect
+   Name/fr: Path Inspecter des commandes
+   MenuLocation: Path - Inspecter les commandes
+   Workbenches: [Path](Path_Workbench/fr.md)
+   Shortcut: **P** **I**
 ---
 
 # Path Inspect/fr
@@ -45,4 +45,4 @@ L\'outil <img alt="" src=images/Path_Inspect.svg  style="width:24px;"> [Inspecte
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Inspect/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Inspect/fr

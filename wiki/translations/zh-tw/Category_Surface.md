@@ -10,4 +10,4 @@ This category lists pages related to the [Surface Workbench/zh-tw](Surface_Workb
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Surface/zh-tw
+⏵ [documentation index](../README.md) > Category:Surface/zh-tw

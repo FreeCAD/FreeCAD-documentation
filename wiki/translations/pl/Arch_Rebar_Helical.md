@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar Helical
-   MenuLocation:Arch - Rebar tools - Helical Rebar<br>3D/BIM - Reinforcement tools - Helical Rebar
-   Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
-   Version:0.17
-   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Rebar Stirrup](Arch_Rebar_Stirrup.md), [Arch Rebar Column Reinforcement](Arch_Rebar_ColumnReinforcement.md)
+   Name: Arch Rebar Helical
+   MenuLocation: Arch - Rebar tools - Helical Rebar<br>3D/BIM - Reinforcement tools - Helical Rebar
+   Workbenches: [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   Version: 0.17
+   SeeAlso: [Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Rebar Stirrup](Arch_Rebar_Stirrup.md), [Arch Rebar Column Reinforcement](Arch_Rebar_ColumnReinforcement.md)
 ---
 
 # Arch Rebar Helical/pl
@@ -125,4 +125,4 @@ HelicalRebar.editHelicalRebar(Rebar, 20, 100, 20, 20, 100)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Helical/pl
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Helical/pl

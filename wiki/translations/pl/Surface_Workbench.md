@@ -1,7 +1,7 @@
 # <img alt="Ikonka FreeCAD dla środowiska pracy Powierzchnia" src=images/Workbench_Surface.svg  style="width:64px;"> Surface Workbench/pl
 
 
-{{TOCright}}
+
 
 
 
@@ -62,4 +62,4 @@ Wygenerowana powierzchnia nie może być umieszczona wewnątrz **[<img src=image
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Surface](Category_Surface.md) > Surface Workbench/pl
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Surface](Category_Surface.md) > Surface Workbench/pl

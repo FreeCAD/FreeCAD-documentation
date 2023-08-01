@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher Split
-   Name/fr:Sketcher Diviser
-   MenuLocation:Esquisse - Géométries d'esquisse - Diviser une arête
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **Z**
-   Version:0.20
-   SeeAlso:[Sketcher Ajuster](Sketcher_Trimming/fr.md)
+   Name: Sketcher Split
+   Name/fr: Sketcher Diviser
+   MenuLocation: Esquisse - Géométries d'esquisse - Diviser une arête
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **Z**
+   Version: 0.20
+   SeeAlso: [Sketcher Ajuster](Sketcher_Trimming/fr.md)
 ---
 
 # Sketcher Split/fr
@@ -57,4 +57,4 @@ Cet outil scinde une arête en deux, les contraintes applicables existantes éta
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Split/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Split/fr

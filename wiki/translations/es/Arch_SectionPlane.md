@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch SectionPlane
-   Name/es:Arch Plano de Sección
-   MenuLocation:Arquitectura - Plano de sección
-   Workbenches:[Entorno de Arquitectura](Arch_Workbench/es.md)
-   Shortcut:**S** **P**
+   Name: Arch SectionPlane
+   Name/es: Arch Plano de Sección
+   MenuLocation: Arquitectura - Plano de sección
+   Workbenches: [Entorno de Arquitectura](Arch_Workbench/es.md)
+   Shortcut: **S** **P**
 ---
 
 # Arch SectionPlane/es
@@ -194,4 +194,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/es
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/es

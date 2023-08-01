@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std SendToPythonConsole
-   MenuLocation:Edit - Send to Python Console
-   Workbenches:All
-   Shortcut:**Ctrl**+**Shift**+**P**
-   Version:0.19
+   Name: Std SendToPythonConsole
+   MenuLocation: Edit - Send to Python Console
+   Workbenches: All
+   Shortcut: **Ctrl**+**Shift**+**P**
+   Version: 0.19
 ---
 
 # Std SendToPythonConsole/en
@@ -94,4 +94,4 @@ Depending on the selected object and its selected subshapes, if any, the followi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SendToPythonConsole/en
+⏵ [documentation index](../README.md) > Std SendToPythonConsole/en

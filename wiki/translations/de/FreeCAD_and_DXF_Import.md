@@ -1,8 +1,4 @@
 # FreeCAD and DXF Import/de
-{{TOCright}}
-
-
-
 ## Hintergrund
 
 DXF ist ein proprietäres CAD Datenformat für 2D Zeichnungen, das seinen Ursprung in AutoCAD hat. Weitere Details findest du auf der [DXF](DXF/de.md) Wiki Seite.
@@ -65,4 +61,4 @@ Für eine Übersicht über alle DXF bezogenen Voreinstellungen siehe [Import Exp
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [File_Formats](Category_File_Formats.md) > FreeCAD and DXF Import/de
+⏵ [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [File_Formats](Category_File_Formats.md) > FreeCAD and DXF Import/de

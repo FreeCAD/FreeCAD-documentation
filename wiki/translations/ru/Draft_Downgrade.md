@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Downgrade
-   Name/ru:Draft Downgrade
-   MenuLocation:Черчение -> Перестроить
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:**D** **N**
-   SeeAlso:[Обновить](Draft_Upgrade/ru.md)
+   Name: Draft Downgrade
+   Name/ru: Draft Downgrade
+   MenuLocation: Черчение -> Перестроить
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: **D** **N**
+   SeeAlso: [Обновить](Draft_Upgrade/ru.md)
 ---
 
 # Draft Downgrade/ru
@@ -107,4 +107,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Downgrade/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Downgrade/ru

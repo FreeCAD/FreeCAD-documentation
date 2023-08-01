@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD Hull
-   MenuLocation:OpenSCAD - Perform Hull‏‎
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench.md)
+   Name: OpenSCAD Hull
+   MenuLocation: OpenSCAD - Perform Hull‏‎
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench.md)
 ---
 
 # OpenSCAD Hull/pl
@@ -37,4 +37,4 @@ Feature needs OpenSCAD installed and configured in **Edit** → **Preferences**
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Hull/pl
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Hull/pl

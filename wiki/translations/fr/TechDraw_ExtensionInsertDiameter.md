@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionInsertDiameter
-   Name/fr:TechDraw Diamètre
-   MenuLocation:TechDraw - Extensions : cotes - Insérer un préfixe '⌀'
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw Section tube](TechDraw_ExtensionInsertSquare.md)
+   Name: TechDraw ExtensionInsertDiameter
+   Name/fr: TechDraw Diamètre
+   MenuLocation: TechDraw - Extensions : cotes - Insérer un préfixe '⌀'
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw Section tube](TechDraw_ExtensionInsertSquare.md)
 ---
 
 # TechDraw ExtensionInsertDiameter/fr
@@ -39,4 +39,4 @@ L\'outil **TechDraw Diamètre** insère un symbole \"⌀\" au début du texte de
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionInsertDiameter/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionInsertDiameter/fr

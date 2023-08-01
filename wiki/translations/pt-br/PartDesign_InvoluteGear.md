@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign InvoluteGear
-   Icon:PartDesign_InternalExternalGear.svg
-   MenuLocation:Part Design - Involute gear...
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[FCGear Workbench](FCGear_Workbench.md)
+   Name: PartDesign InvoluteGear
+   Icon: PartDesign_InternalExternalGear.svg
+   MenuLocation: Part Design - Involute gear...
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   SeeAlso: [FCGear Workbench](FCGear_Workbench.md)
 ---
 
 # PartDesign InvoluteGear/pt-br
@@ -167,4 +167,4 @@ Video: [How to make gears in FreeCAD](https://www.youtube.com/watch?v=8VNhTrnFMf
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/pt-br
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/pt-br

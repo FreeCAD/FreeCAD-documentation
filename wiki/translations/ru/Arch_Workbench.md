@@ -1,7 +1,7 @@
 # <img alt="Логотип верстака Arch" src=images/Workbench_Arch.svg  style="width:64px;"> Arch Workbench/ru
 
 
-{{TOCright}}
+
 
 
 
@@ -233,4 +233,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/ru
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/ru

@@ -5,7 +5,7 @@
 
 
 
-{{TOCright}}
+
 
 ## Opis
 
@@ -61,4 +61,4 @@ Bibliotekę narzędzi można wyeksportować w celu utworzenia [LinuxCNC Tabeli n
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBit Library/pl
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBit Library/pl

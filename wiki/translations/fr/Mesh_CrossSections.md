@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh CrossSections
-   Name/fr:Mesh Coupes
-   MenuLocation:Maillages - Couper - Coupes...
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Section](Mesh_SectionByPlane/fr.md)
+   Name: Mesh CrossSections
+   Name/fr: Mesh Coupes
+   MenuLocation: Maillages - Couper - Coupes...
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
+   SeeAlso: [Mesh Section](Mesh_SectionByPlane/fr.md)
 ---
 
 # Mesh CrossSections/fr
@@ -75,4 +75,4 @@ Voir: [Part Feature](Part_Feature/fr.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CrossSections/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CrossSections/fr

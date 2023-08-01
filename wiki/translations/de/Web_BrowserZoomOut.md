@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Web BrowserZoomOut
-   Name/de:Web BrowserVerkleinern
-   MenuLocation:
-   Workbenches:[Web](Web_Workbench/de.md), [Start](Start_Workbench/de.md)
-   SeeAlso:
+   Name: Web BrowserZoomOut
+   Name/de: Web BrowserVerkleinern
+   MenuLocation: 
+   Workbenches: [Web](Web_Workbench/de.md), [Start](Start_Workbench/de.md)
+   SeeAlso: 
 ---
 
 # Web BrowserZoomOut/de
@@ -28,4 +28,4 @@ Der Befehl <img alt="" src=images/Web_BrowserZoomOut.svg  style="width:24px;"> *
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserZoomOut/de
+⏵ [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserZoomOut/de

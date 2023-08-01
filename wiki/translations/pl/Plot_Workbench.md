@@ -1,7 +1,7 @@
 # <img alt="Ikonka FreeCAD dla środowiska pracy Wykres" src=images/Workbench_Plot.svg  style="width:64px;"> Plot Workbench/pl
 
 
-{{TOCright}}
+
 
 ## Wprowadzenie
 
@@ -63,4 +63,4 @@ Ponieważ środowisko pracy Wykres jest nakładką `matplotlib`, możesz swobodn
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot Workbench/pl
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot Workbench/pl

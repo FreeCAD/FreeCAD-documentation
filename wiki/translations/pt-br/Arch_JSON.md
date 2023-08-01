@@ -8,7 +8,7 @@
 </div>
 
 
-{{TOCright}}
+
 
 ## Description
 
@@ -44,4 +44,4 @@ Note that facets form triangles and their integer values reference points in the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch JSON/pt-br
+⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch JSON/pt-br

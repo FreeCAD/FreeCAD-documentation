@@ -1,6 +1,6 @@
 # Drawing Openbrowser/sv
 ---
-- GuiCommand:   Name:Drawing Openbrowser   Name/sv:Drawing Openbrowser   Workbenches:[[Drawing Workbench/sv   Drawing]], Complete|MenuLocation:Drawing - Open Browser   Shortcut:none---
+- GuiCommand:   Name: Drawing Openbrowser   Name/sv: Drawing Openbrowser   Workbenches: [[Drawing Workbench/sv   Drawing]], Complete|MenuLocation: Drawing - Open Browser   Shortcut: none---
 
 ## Beskrivning
 
@@ -34,4 +34,4 @@ This command allows you to display a selected [Drawing page](Drawing_Landscape_A
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Openbrowser/sv
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Openbrowser/sv

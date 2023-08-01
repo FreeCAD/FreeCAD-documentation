@@ -1,8 +1,4 @@
 # External workbenches/it
-{{TOCright}}
-
-
-
 ## Introduzione
 
 Gli [Ambienti complementari](External_workbenches/it.md) sono quelli creati da utenti esperti e che non sono stati integrati nel codice sorgente di FreeCAD principale.
@@ -154,4 +150,4 @@ Per maggiori informazioni vedere la pagina wiki [Tradurre un ambiente esterno](T
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External_Workbenches](Category_External_Workbenches.md) > External workbenches/it
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External_Workbenches](Category_External_Workbenches.md) > External workbenches/it

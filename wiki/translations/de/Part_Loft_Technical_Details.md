@@ -83,4 +83,4 @@ Beachte, dass Ausformung eine \"Ruled\"-Eigenschaft hat. Wenn sie auf \"true\" g
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/de

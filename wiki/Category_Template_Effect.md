@@ -12,4 +12,4 @@ This category lists templates that produce an effect in the page without necessa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Template:Effect
+⏵ [documentation index](../README.md) > Category:Template:Effect

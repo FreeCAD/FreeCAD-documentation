@@ -1,6 +1,6 @@
 # Draft Label/ru
 ---
-- GuiCommand:   Name:Draft Label   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft - Label   Shortcut:D L---
+- GuiCommand:   Name: Draft Label   Workbenches: [Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation: Draft - Label   Shortcut: D L---
 
 
 </div>
@@ -234,4 +234,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Label/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Label/ru

@@ -1,7 +1,7 @@
 # <img alt="Ikonka FreeCAD dla środowiska pracy Złożenie 3" src=images/Assembly3_workbench_icon.svg  style="width:64px;"> Assembly3 Workbench/pl
 
 
-{{TOCright}}
+
 
 
 
@@ -649,4 +649,4 @@ Jednym ze sposobów rozwiązania tego problemu jest po prostu usunięcie wszystk
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Assembly3 Workbench/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Assembly3 Workbench/pl

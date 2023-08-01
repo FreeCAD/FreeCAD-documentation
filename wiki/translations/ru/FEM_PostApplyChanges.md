@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM PostApplyChanges
-   Name/ru:FEM PostApplyChanges
-   MenuLocation: Results - apply changes to pipeline
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM PostApplyChanges
+   Name/ru: FEM PostApplyChanges
+   MenuLocation:  Results - apply changes to pipeline
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM PostApplyChanges/ru
@@ -42,4 +42,4 @@ Click the toolbar button **<img src="images/FEM_PostApplyChanges.svg" width=16px
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostApplyChanges/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostApplyChanges/ru

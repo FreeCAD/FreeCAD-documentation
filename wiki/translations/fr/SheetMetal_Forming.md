@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:SheetMetal Forming
-   Name/fr:SheetMetal Outil d'emboutissage
-   MenuLocation:SheetMetal - Make Forming in Wall
-   Workbenches:[SheetMetal](SheetMetal_Workbench/fr.md)
-   Shortcut:**M** **F**
+   Name: SheetMetal Forming
+   Name/fr: SheetMetal Outil d'emboutissage
+   MenuLocation: SheetMetal - Make Forming in Wall
+   Workbenches: [SheetMetal](SheetMetal_Workbench/fr.md)
+   Shortcut: **M** **F**
 ---
 
 # SheetMetal Forming/fr
@@ -180,4 +180,4 @@ Il n\'est pas nécessaire de travailler avec des esquisses coplanaires ici.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal Forming/fr
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal Forming/fr

@@ -1,6 +1,6 @@
 # Sketcher CreateSquare/ro
 ---
-- GuiCommand:   Name:Sketcher CreateSquare   Name/ro:Sketcher CreateSquare   Workbenches:[[Sketcher Workbench/ro   Sketcher]]|MenuLocation:Sketch - Sketcher geometries - Create square   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Sketcher CreateSquare   Name/ro: Sketcher CreateSquare   Workbenches: [[Sketcher Workbench/ro   Sketcher]]|MenuLocation: Sketch - Sketcher geometries - Create square   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -49,4 +49,4 @@ Când este definită schița obiectului geometric cercul circumscris este vizibi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSquare/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSquare/ro

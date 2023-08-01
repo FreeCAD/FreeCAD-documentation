@@ -1,6 +1,4 @@
 # Bug Triage/it
-{{TOCright}}
-
 ## Perchè
 
 
@@ -151,4 +149,4 @@ Una metodologia importante per tenere traccia dei ticket in base ad un determina
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Bug Triage/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Bug Triage/it

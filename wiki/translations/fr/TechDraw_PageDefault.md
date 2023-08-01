@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw PageDefault
-   Name/fr:TechDraw Page par défaut
-   MenuLocation:TechDraw - Page - Insérer une page par défaut
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Page à partir d'un modèle](TechDraw_PageTemplate/fr.md), [TechDraw Modèles](TechDraw_Templates/fr.md)
+   Name: TechDraw PageDefault
+   Name/fr: TechDraw Page par défaut
+   MenuLocation: TechDraw - Page - Insérer une page par défaut
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   SeeAlso: [TechDraw Page à partir d'un modèle](TechDraw_PageTemplate/fr.md), [TechDraw Modèles](TechDraw_Templates/fr.md)
 ---
 
 # TechDraw PageDefault/fr
@@ -113,4 +113,4 @@ Voir [TechDraw Page à partir d\'un modèle](TechDraw_PageTemplate/fr#Script.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageDefault/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageDefault/fr

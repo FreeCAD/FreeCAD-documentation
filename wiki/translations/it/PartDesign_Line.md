@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign Line
-   Name/it:Linea di riferimento
-   MenuLocation:Part Design - Linea di riferimento
-   Workbenches:[PartDesign](PartDesign_Workbench/it.md)
-   Version:0.17
-   SeeAlso:[Punto di riferimento](PartDesign_Point/it.md), [Piano di riferimento](PartDesign_Plane/it.md)
+   Name: PartDesign Line
+   Name/it: Linea di riferimento
+   MenuLocation: Part Design - Linea di riferimento
+   Workbenches: [PartDesign](PartDesign_Workbench/it.md)
+   Version: 0.17
+   SeeAlso: [Punto di riferimento](PartDesign_Point/it.md), [Piano di riferimento](PartDesign_Plane/it.md)
 ---
 
 # PartDesign Line/it
@@ -71,4 +71,4 @@ Fare doppio clic sull\'etichetta DatumLine nell\'albero del modello o fare clic 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Line/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Line/it

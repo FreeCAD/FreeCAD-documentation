@@ -2,7 +2,7 @@
 ## Wprowadzenie
 
 
-{{TOCright}}
+
 
 W FreeCAD słowo \"[Szkic](Sketch/pl.md)\" jest zwykle używane w odniesieniu do [Sketcher: SketchObject](Sketcher_SketchObject.md). (`Sketcher::SketchObject`) jest zdefiniowany przez klasę [Środowiska pracy Sketcher](Sketcher_Workbench/pl.md). Jest to rysunek 2D, który wykorzystuje wiązania matematyczne w celu dokładnego opisania geometrii 2D.
 
@@ -40,4 +40,4 @@ Niemniej jednak, Szkic zawsze może być stworzony samodzielnie w dowolnym innym
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Sketch/pl
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Sketch/pl

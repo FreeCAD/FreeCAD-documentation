@@ -1,7 +1,7 @@
 # <img alt="Icône de l\'atelier externe FEMbyGEN" src=images/FEMbyGEN.svg  style="width:64px;"> FEMbyGEN Workbench/fr
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -80,4 +80,4 @@ Voir [Comment installer des ateliers supplémentaires](How_to_install_additional
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > FEMbyGEN Workbench/fr
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > FEMbyGEN Workbench/fr

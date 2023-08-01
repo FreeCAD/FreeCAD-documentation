@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ProjectInfo
-   Name/fr:Std Information sur le projet
-   MenuLocation:Fichier - Information sur le projet
-   Workbenches:Tous
-   SeeAlso:[Std Nouveau](Std_New/fr.md)
+   Name: Std ProjectInfo
+   Name/fr: Std Information sur le projet
+   MenuLocation: Fichier - Information sur le projet
+   Workbenches: Tous
+   SeeAlso: [Std Nouveau](Std_New/fr.md)
 ---
 
 # Std ProjectInfo/fr
@@ -53,4 +53,4 @@ La commande **Information sur le projet** affiche une boîte de dialogue avec de
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ProjectInfo/fr
+⏵ [documentation index](../README.md) > Std ProjectInfo/fr

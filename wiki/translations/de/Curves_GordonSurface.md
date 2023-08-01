@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Curves GordonSurface
-   Name/de:Curves GordonFläche
-   MenuLocation:Surfaces - Gordon surface
-   Workbenches:[Curves](Curves_Workbench/de.md)
+   Name: Curves GordonSurface
+   Name/de: Curves GordonFläche
+   MenuLocation: Surfaces - Gordon surface
+   Workbenches: [Curves](Curves_Workbench/de.md)
 ---
 
 # Curves GordonSurface/de
@@ -96,4 +96,4 @@ Auf der rechten Seite wurden die Leitkurven (Schienen) von -Y nach +Y gezogen un
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves GordonSurface/de
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves GordonSurface/de

@@ -1,6 +1,4 @@
 # Source code management/fr
-{{TOCright}}
-
 ## Introduction
 
 Le principal outil de gestion de code source du projet FreeCAD est [Git](http://en.wikipedia.org/wiki/Git_%28software%29), qui peut être facilement installé dans la plupart des systèmes d\'exploitation à partir d\'un gestionnaire de paquets ou directement à partir de [Git\'s website](https://git-scm.com/). Nous vous conseillons de vous familiariser avec Git avant de travailler directement avec le code source FreeCAD. Visitez la page [Git documentation](https://git-scm.com/doc) pour obtenir le manuel de référence, ainsi que le [Pro Git book](https://git-scm.com/book/en/v2) pour apprendre à utiliser le système de manière générale. Le présent document porte sur l\'utilisation de Git pour le développement FreeCAD. La compilation de FreeCAD est décrite dans [Compilation](Compiling/fr.md).
@@ -1069,4 +1067,4 @@ Dirigez vous vers la section de développement du [forum FreeCAD](https://forum.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source code management/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source code management/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ViewCreate
-   Name/pl:Std: Utwórz widok
-   MenuLocation:Widok - Utwórz nowy widok
-   Workbenches:wszystkie
-   SeeAlso:[Zablokuj / Odblokuj widok](Std_ViewDockUndockFullscreen/pl.md), [Wyświetl na pełnym ekranie](Std_ViewFullscreen/pl.md)
+   Name: Std ViewCreate
+   Name/pl: Std: Utwórz widok
+   MenuLocation: Widok - Utwórz nowy widok
+   Workbenches: wszystkie
+   SeeAlso: [Zablokuj / Odblokuj widok](Std_ViewDockUndockFullscreen/pl.md), [Wyświetl na pełnym ekranie](Std_ViewFullscreen/pl.md)
 ---
 
 # Std ViewCreate/pl
@@ -36,4 +36,4 @@ Polecenie **Utwórz nowy widok** tworzy nowy [widok przestrzenny](3D_view/pl.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewCreate/pl
+⏵ [documentation index](../README.md) > Std ViewCreate/pl

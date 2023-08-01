@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std TileWindows
-   MenuLocation:Windows - Tile
-   Workbenches:All
-   SeeAlso:[Std CascadeWindows](Std_CascadeWindows.md)
+   Name: Std TileWindows
+   MenuLocation: Windows - Tile
+   Workbenches: All
+   SeeAlso: [Std CascadeWindows](Std_CascadeWindows.md)
 ---
 
 # Std TileWindows
@@ -28,4 +28,4 @@ The **Std TileWindows** command rearranges the windows in the [Main view area](M
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TileWindows
+⏵ [documentation index](../README.md) > Std TileWindows

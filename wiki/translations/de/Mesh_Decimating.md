@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh Decimating
-   MenuLocation:Meshes - Decimation...
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   Version:0.19
+   Name: Mesh Decimating
+   MenuLocation: Meshes - Decimation...
+   Workbenches: [Mesh](Mesh_Workbench.md)
+   Version: 0.19
 ---
 
 # Mesh Decimating/de
@@ -42,4 +42,4 @@ Der Befehl **Mesh Dezimieren** verringert die Anzahl der Flächen von Netzobjekt
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Decimating/de
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Decimating/de

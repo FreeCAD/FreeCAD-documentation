@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch IfcExplorer
-   Name/ru:Arch IfcExplorer
-   MenuLocation:Архитектура - Утилиты - Исследователь Ifc
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   SeeAlso:[Arch IFC](Arch_IFC/ru.md)
+   Name: Arch IfcExplorer
+   Name/ru: Arch IfcExplorer
+   MenuLocation: Архитектура - Утилиты - Исследователь Ifc
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   SeeAlso: [Arch IFC](Arch_IFC/ru.md)
 ---
 
 # Arch IfcExplorer/ru
@@ -55,4 +55,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/ru
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/ru

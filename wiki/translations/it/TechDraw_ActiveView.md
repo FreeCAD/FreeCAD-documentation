@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw_ActiveView
-   Name/it:Vista attiva
-   Icon:TechDraw_ActiveView.svg
-   MenuLocation:TechDraw - Vista attiva
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Simbolo](TechDraw_Symbol/it.md)
-   Version:0.19
+   Name: TechDraw_ActiveView
+   Name/it: Vista attiva
+   Icon: TechDraw_ActiveView.svg
+   MenuLocation: TechDraw - Vista attiva
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso: [Simbolo](TechDraw_Symbol/it.md)
+   Version: 0.19
 ---
 
 # TechDraw ActiveView/it
@@ -112,4 +112,4 @@ Vedere <img alt="" src=images/TechDraw_Symbol.svg  style="width:16px;"> [Simbolo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ActiveView/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ActiveView/it

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionThreadBoltSide
-   Name/fr:TechDraw Corps de filetage
-   MenuLocation:TechDraw - Extensions : taraudages/filetages - Corps de filetage
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.20
-   SeeAlso:[TechDraw Corps de taraudage](TechDraw_ExtensionThreadHoleSide/fr.md)
+   Name: TechDraw ExtensionThreadBoltSide
+   Name/fr: TechDraw Corps de filetage
+   MenuLocation: TechDraw - Extensions : taraudages/filetages - Corps de filetage
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Version: 0.20
+   SeeAlso: [TechDraw Corps de taraudage](TechDraw_ExtensionThreadHoleSide/fr.md)
 ---
 
 # TechDraw ExtensionThreadBoltSide/fr
@@ -39,4 +39,4 @@ L\'outil **TechDraw Corps de filetage** ajoute un filetage cosmétique à la vue
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadBoltSide/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadBoltSide/fr

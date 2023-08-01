@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher Extend
-   Name/ru:Продлить
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**G** **Q**
-   MenuLocation:Эскиз - Геометрия эскиза - Продлить
-   Version:0.17
-   SeeAlso:[Обрезать](Sketcher_Trimming/ru.md)
+   Name: Sketcher Extend
+   Name/ru: Продлить
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **G** **Q**
+   MenuLocation: Эскиз - Геометрия эскиза - Продлить
+   Version: 0.17
+   SeeAlso: [Обрезать](Sketcher_Trimming/ru.md)
 ---
 
 # Sketcher Extend/ru
@@ -54,4 +54,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Extend/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Extend/ru

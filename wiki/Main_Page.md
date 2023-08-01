@@ -63,4 +63,4 @@ Check the [Development roadmap](Development_roadmap.md) for news about what is b
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page

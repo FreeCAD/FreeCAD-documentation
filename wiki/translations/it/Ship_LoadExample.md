@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Ship Load‏‎
-   Name/it:Carica esempio
-   MenuLocation:Ship design - Carica un esempio di geometria di una nave
-   Workbenches:[Ship](Ship_Workbench/it.md)
-   Shortcut:
-   SeeAlso:
+   Name: Ship Load‏‎
+   Name/it: Carica esempio
+   MenuLocation: Ship design - Carica un esempio di geometria di una nave
+   Workbenches: [Ship](Ship_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Ship LoadExample/it
@@ -76,4 +76,4 @@ Eseguendo lo strumento (Caricare una geometria modello di nave) si apre una fine
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship LoadExample/it
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship LoadExample/it

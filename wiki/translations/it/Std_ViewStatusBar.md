@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_ViewStatusBar
-   Name/it:Barra di stato
-   Empty:1
-   MenuLocation:Visualizza - Barra di stato
-   Workbenches:All
+   Name: Std_ViewStatusBar
+   Name/it: Barra di stato
+   Empty: 1
+   MenuLocation: Visualizza - Barra di stato
+   Workbenches: All
 ---
 
 # Std ViewStatusBar/it
@@ -28,4 +28,4 @@ Il comando **Barra di stato** attiva o disattiva la visualizzazione della [Barra
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewStatusBar/it
+⏵ [documentation index](../README.md) > Std ViewStatusBar/it

@@ -1,6 +1,6 @@
 # Part Extrude/sv
 ---
-- GuiCommand:   Name:Part_Extrude   Workbenches:[Part](Part_Workbench/sv.md),Komplett---
+- GuiCommand:   Name: Part_Extrude   Workbenches: [Part](Part_Workbench/sv.md),Komplett---
 
 
 </div>
@@ -142,4 +142,4 @@ The Model tree will list as many Extrude objects as there were selected shapes. 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/sv
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/sv

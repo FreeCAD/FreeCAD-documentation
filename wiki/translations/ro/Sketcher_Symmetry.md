@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher Symmetry
-   Name/ro:Sketcher Simetrie
-   Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation:Sketch - Sketcher tools - Symmetry
-   Version:0.16
+   Name: Sketcher Symmetry
+   Name/ro: Sketcher Simetrie
+   Workbenches: [Sketcher](Sketcher_Workbench/ro.md)
+   MenuLocation: Sketch - Sketcher tools - Symmetry
+   Version: 0.16
 ---
 
 # Sketcher Symmetry/ro
@@ -49,4 +49,4 @@ Copiază un simetric la un element al schiței față de o linie aleasă .
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Symmetry/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Symmetry/ro

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:FEM PostFilterCutFunction
-   MenuLocation:Results - Function cut filter
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM Result pipeline](FEM_PostPipelineFromResult.md), [FEM Filter functions](FEM_PostCreateFunctions.md), [FEM tutorial](FEM_tutorial.md)
+   Name: FEM PostFilterCutFunction
+   MenuLocation: Results - Function cut filter
+   Workbenches: [FEM](FEM_Workbench.md)
+   SeeAlso: [FEM Result pipeline](FEM_PostPipelineFromResult.md), [FEM Filter functions](FEM_PostCreateFunctions.md), [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM PostFilterCutFunction
@@ -40,4 +40,4 @@ Displays the results on a sphere or a plane cutting through the model.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterCutFunction
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterCutFunction

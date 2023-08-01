@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM PostFilterClipScalar
-   Name/de:FEM NachbereitungFilterSkalarerBeschnitt
-   MenuLocation:Ergebnisse - Skalar Ausschnitt-Filter
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   SeeAlso:[FEM Result pipeline](FEM_PostPipelineFromResult/de.md), [FEM Tutorium](FEM_tutorial/de.md)
+   Name: FEM PostFilterClipScalar
+   Name/de: FEM NachbereitungFilterSkalarerBeschnitt
+   MenuLocation: Ergebnisse - Skalar Ausschnitt-Filter
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   SeeAlso: [FEM Result pipeline](FEM_PostPipelineFromResult/de.md), [FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM PostFilterClipScalar/de
@@ -44,4 +44,4 @@ A scalar filter can be combined with other filters. Here is for example a scalar
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterClipScalar/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterClipScalar/de

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Ограничение перемещения
-   Name:Sketcher_ConstrainBlock
-   MenuLocation:Sketch - Ограничения эскиза - Constrain Block
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Ограничение положения](Sketcher_ConstrainLock/ru.md)
+   Name/ru: Ограничение перемещения
+   Name: Sketcher_ConstrainBlock
+   MenuLocation: Sketch - Ограничения эскиза - Constrain Block
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Ограничение положения](Sketcher_ConstrainLock/ru.md)
 ---
 
 # Sketcher ConstrainBlock/ru
@@ -50,4 +50,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainBlock/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainBlock/ru

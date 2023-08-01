@@ -1,6 +1,6 @@
 # PartDesign AdditiveTorus/ro
 ---
-- GuiCommand:   Name:PartDesign AdditiveTorus   Workbenches:[MenuLocation:Part Design - Create an additive primitive - Additive Torus   Shortcut:   SeeAlso:[[PartDesign CompPrimitiveAdditive](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign AdditiveTorus   Workbenches: [MenuLocation: Part Design - Create an additive primitive - Additive Torus   Shortcut:    SeeAlso: [[PartDesign CompPrimitiveAdditive](PartDesign_Workbench___PartDesign]].md)---
 
 
 </div>
@@ -76,4 +76,4 @@ Torul poate fi definit după crearea sa în două moduri:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveTorus/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveTorus/ro

@@ -1,6 +1,6 @@
 # Arch SplitMesh/cs
 ---
-- GuiCommand:   Name:Arch SplitMesh   Name/cs:Arch Rozděl síť   Workbenches:[MenuLocation:Arch - Utilities - Split Mesh   SeeAlso:[[Arch SelectNonSolidMeshes/cs|Arch SelectNonSolidMeshes](Arch_Workbench/cs___Arch]].md)---
+- GuiCommand:   Name: Arch SplitMesh   Name/cs: Arch Rozděl síť   Workbenches: [MenuLocation: Arch - Utilities - Split Mesh   SeeAlso: [[Arch SelectNonSolidMeshes/cs|Arch SelectNonSolidMeshes](Arch_Workbench/cs___Arch]].md)---
 
 
 </div>
@@ -86,4 +86,4 @@ new_list = Arch.splitMesh(mesh_obj)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/cs
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/cs

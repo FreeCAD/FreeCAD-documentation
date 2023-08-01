@@ -11,7 +11,7 @@ Der CadAbfrage Arbeitsbereich wird '''nicht mehr aktiv gewartet''', kann aber sp
 ## Einführung
 
 
-{{TOCright}}
+
 
 Eine Modul-Arbeitsbereichskombination, die einen CadAbfrage Editor zu FreeCAD hinzufügt. Schau bitte das [wiki](https://github.com/jmwright/cadquery-freecad-module/wiki) für detailliertere Informationen über die ersten Schritte an.
 
@@ -71,4 +71,4 @@ Die neueste Version von CadAbfrage nutzt nicht mehr FreeCAD und ist nicht mit de
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > CadQuery Workbench/de
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > CadQuery Workbench/de

@@ -1,6 +1,4 @@
 # Sandbox:Keyboard Shortcuts
-{{TOCright}}
-
 # Context
 
 This page is aiming at refactoring the keyboard shortcuts in FreeCAD. Indeed at the moment, several problems exist such as overlapping, lack of consistency, \... When work is over, this page can be mutated so it serves as a keyboard shortcuts overview.
@@ -1211,4 +1209,4 @@ The global workbench\'s cut/copy/paste shortcuts work in spreadsheet.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Sandbox:Keyboard Shortcuts
+⏵ [documentation index](../README.md) > Sandbox:Keyboard Shortcuts

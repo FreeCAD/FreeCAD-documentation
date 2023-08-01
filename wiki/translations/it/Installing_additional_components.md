@@ -1,6 +1,4 @@
 # Installing additional components/it
-{{TOCright}}
-
 ## Introduzione
 
 Dopo aver installato FreeCAD sul tuo sistema operativo ([Windows](Installing_on_Windows/it.md), [Linux](Installing_on_Linux/it.md) o [Mac](Installing_on_Mac/it.md)), si può prendere in considerazione l\'installazione di uno o più dei seguenti componenti aggiuntivi.
@@ -118,4 +116,4 @@ Vedere [Preferenze di Importa/Esporta](Import_Export_Preferences/it#DWG.md) e [I
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Installing additional components/it
+⏵ [documentation index](../README.md) > Installing additional components/it

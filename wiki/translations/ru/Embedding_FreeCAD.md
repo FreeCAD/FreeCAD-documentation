@@ -1,6 +1,4 @@
 # Embedding FreeCAD/ru
-{{TOCright}}
-
 ## Introduction
 
 FreeCAD может импортироваться как модуль [Python](Python/ru.md) в другие программы или в автономную консоль python, вместе со всеми модулями и компонентами. Можно даже импортировать пользовательский интерфейс FreeCAD как модуль python, но с [некоторыми ограничениями](Embedding_FreeCAD/ru#Caveats.md).
@@ -157,4 +155,4 @@ Since the FreeCAD Python module is compiled from C++ (rather than being a pure P
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Embedding FreeCAD/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Embedding FreeCAD/ru

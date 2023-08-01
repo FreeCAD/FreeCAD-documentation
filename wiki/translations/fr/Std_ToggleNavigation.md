@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ToggleNavigation
-   Name/fr:Std Bascule de mode navigation
-   MenuLocation:Affichage - Basculer en mode navigation/édition
-   Workbenches:Tous
-   Shortcut:**Echap**
+   Name: Std ToggleNavigation
+   Name/fr: Std Bascule de mode navigation
+   MenuLocation: Affichage - Basculer en mode navigation/édition
+   Workbenches: Tous
+   Shortcut: **Echap**
 ---
 
 # Std ToggleNavigation/fr
@@ -58,4 +58,4 @@ Ne confondez pas cette commande avec la commande [Std Mode édition](Std_Edit/fr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleNavigation/fr
+⏵ [documentation index](../README.md) > Std ToggleNavigation/fr

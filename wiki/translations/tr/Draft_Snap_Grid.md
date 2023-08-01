@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Grid
-   Name/tr:Taslak Izgara
-   MenuLocation:Taslak - [Snapping](Draft_Snap/tr.md) - Izgara
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   SeeAlso:[IzgaraYakala](Draft_ToggleGrid/tr.md), [Snap](Draft_Snap/tr.md)
+   Name: Draft Snap Grid
+   Name/tr: Taslak Izgara
+   MenuLocation: Taslak - [Snapping](Draft_Snap/tr.md) - Izgara
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   SeeAlso: [IzgaraYakala](Draft_ToggleGrid/tr.md), [Snap](Draft_Snap/tr.md)
 ---
 
 # Draft Snap Grid/tr
@@ -77,4 +77,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Grid/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Grid/tr

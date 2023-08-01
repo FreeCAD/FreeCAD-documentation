@@ -1,6 +1,4 @@
 # Scripted objects with attachment/fr
-{{TOCright}}
-
 ## Introduction
 
 Le but de cette page est de montrer un exemple minimal de fonctionnalité de [Part Ancrage](Part_EditAttachment/fr.md) utilisant des [Objets créés par script](Scripted_objects/fr.md) en Python.
@@ -152,4 +150,4 @@ Remarque : pour FreeCAD 0.19, ce tutoriel nécessite une mise à jour mineure :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects with attachment/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects with attachment/fr

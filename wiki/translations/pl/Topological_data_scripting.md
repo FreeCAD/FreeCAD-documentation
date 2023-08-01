@@ -1,6 +1,4 @@
 # Topological data scripting/pl
-{{TOCright}}
-
 ## Wprowadzenie
 
 Tutaj wyjaśnimy Ci jak kontrolować środowisko [Część](Part_Workbench/pl.md) bezpośrednio z interpretera FreeCAD Python, lub z dowolnego zewnętrznego skryptu. Przejrzyj sekcję [ o skryptach](Power_users_hub/pl.md) oraz strony [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md), jeśli potrzebujesz więcej informacji na temat działania skryptów Pythona w FreeCAD. Jeśli jesteś początkującym użytkownikiem środowiska Python, dobrze jest najpierw przeczytać [Wprowadzenie do środowiska Python](Introduction_to_Python/pl.md).
@@ -1073,4 +1071,4 @@ Aby przekonwertować plik STEP na plik IGS:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Topological data scripting/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Topological data scripting/pl

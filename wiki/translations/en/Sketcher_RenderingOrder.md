@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Sketcher RenderingOrder
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Version:0.21
+   Name: Sketcher RenderingOrder
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Version: 0.21
 ---
 
 # Sketcher RenderingOrder/en
@@ -33,4 +33,4 @@ In case of coincident objects, the rendering order determines which elements app
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RenderingOrder/en
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RenderingOrder/en

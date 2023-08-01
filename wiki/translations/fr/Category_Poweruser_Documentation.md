@@ -43,4 +43,4 @@ Cette catégorie affiche les articles de la documentation concernant le scriptin
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Poweruser Documentation/fr
+⏵ [documentation index](../README.md) > Category:Poweruser Documentation/fr

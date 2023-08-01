@@ -1,6 +1,6 @@
 # Mesh BuildRegularSolid/hu
 ---
-- GuiCommand:   Name:Mesh BuildRegularSolid   Workbenches:[[Mesh Workbench/hu   Háló]]|MenuLocation:Hálók - Szabályos tömör test…   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Mesh BuildRegularSolid   Workbenches: [[Mesh Workbench/hu   Háló]]|MenuLocation: Hálók - Szabályos tömör test…   Shortcut:    SeeAlso: ---
 
 ## Description
 
@@ -142,4 +142,4 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BuildRegularSolid/hu
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BuildRegularSolid/hu

@@ -5,7 +5,7 @@
 
 ## Introduction
 
-<img alt="Icône de l\'atelier externe Curves" src=images/Curves_workbench_icon.svg  style="width:128px;"> {{TOCright}}
+<img alt="Icône de l\'atelier externe Curves" src=images/Curves_workbench_icon.svg  style="width:128px;"> 
 
 L\'atelier Curves est un [atelier externe](External_workbenches/fr.md) basé sur Python avec une collection d\'outils pour les courbes et les surfaces NURBS. Cet atelier est développé avec FreeCAD Master et OCC 7.4.
 
@@ -62,4 +62,4 @@ Télécharger l\'atelier externe via le <img alt="" src=images/Std_AddonMgr.svg 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [Curves](Category_Curves.md) > Curves Workbench/fr
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [Curves](Category_Curves.md) > Curves Workbench/fr

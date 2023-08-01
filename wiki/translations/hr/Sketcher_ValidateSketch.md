@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher ValidateSketch
-   MenuLocation:Sketch - Validate sketch…
-   Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[Sketcher ConstrainCoincident](Sketcher_ConstrainCoincident.md), [Topological naming problem](Topological_naming_problem.md)
+   Name: Sketcher ValidateSketch
+   MenuLocation: Sketch - Validate sketch…
+   Workbenches: [Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
+   SeeAlso: [Sketcher ConstrainCoincident](Sketcher_ConstrainCoincident.md), [Topological naming problem](Topological_naming_problem.md)
 ---
 
 # Sketcher ValidateSketch/hr
@@ -85,4 +85,4 @@ The locking mechanism typically works well and this tool should not be needed. *
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/hr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/hr

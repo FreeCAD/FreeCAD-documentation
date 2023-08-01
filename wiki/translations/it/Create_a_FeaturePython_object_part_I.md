@@ -2,7 +2,7 @@
 {{docnav/it|[PySide](PySide/it.md)|[Creare un Box FeaturePython, Parte II](Creating_a_FeaturePython_Box,_Part_II/it.md)}}
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -383,4 +383,4 @@ class box():
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Create a FeaturePython object part I/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Create a FeaturePython object part I/it

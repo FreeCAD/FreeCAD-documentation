@@ -38,4 +38,4 @@ Eine Teilebibliothek, die für ein breites Spektrum von Anwendungsfällen nützl
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro BOLTS/de
+⏵ [documentation index](../README.md) > Macro BOLTS/de

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_TreeSingleDocument
-   Name/it:Documento singolo
-   MenuLocation:Visualizza - Azioni della vista ad albero - Documento singolo
-   Workbenches:Tutti
-   Version:0.19
-   SeeAlso:[Multi documento](Std_TreeMultiDocument/it.md), [Comprimi/espandi](Std_TreeCollapseDocument/it.md)
+   Name: Std_TreeSingleDocument
+   Name/it: Documento singolo
+   MenuLocation: Visualizza - Azioni della vista ad albero - Documento singolo
+   Workbenches: Tutti
+   Version: 0.19
+   SeeAlso: [Multi documento](Std_TreeMultiDocument/it.md), [Comprimi/espandi](Std_TreeCollapseDocument/it.md)
 ---
 
 # Std TreeSingleDocument/it
@@ -43,4 +43,4 @@ La modalità DocumentMode della vista ad albero è memorizzata: **Strumenti → 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSingleDocument/it
+⏵ [documentation index](../README.md) > Std TreeSingleDocument/it

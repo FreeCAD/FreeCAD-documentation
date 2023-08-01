@@ -1,6 +1,6 @@
 # Arch Roof/uk
 ---
-- GuiCommand:   Name:Arch Roof   Name/uk:Arch Roof   Workbenches:[[Arch_Workbench/uk   Arch]]|MenuLocation:Arch - Roof   Shortcut:R F---
+- GuiCommand:   Name: Arch Roof   Name/uk: Arch Roof   Workbenches: [[Arch_Workbench/uk   Arch]]|MenuLocation: Arch - Roof   Shortcut: R F---
 
 
 </div>
@@ -125,4 +125,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Roof/uk
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Roof/uk

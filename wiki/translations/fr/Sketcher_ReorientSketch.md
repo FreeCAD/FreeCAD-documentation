@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ReorientSketch
-   Name/fr:Sketcher Réorienter l'esquisse
-   MenuLocation:Esquisse - Réorienter l'esquisse...
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso:[Sketcher Appliquer une esquisse sur une face](Sketcher_MapSketch/fr.md), [Sketcher Créer une esquisse](Sketcher_NewSketch/fr.md)
+   Name: Sketcher ReorientSketch
+   Name/fr: Sketcher Réorienter l'esquisse
+   MenuLocation: Esquisse - Réorienter l'esquisse...
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso: [Sketcher Appliquer une esquisse sur une face](Sketcher_MapSketch/fr.md), [Sketcher Créer une esquisse](Sketcher_NewSketch/fr.md)
 ---
 
 # Sketcher ReorientSketch/fr
@@ -42,4 +42,4 @@ Vous permet de détacher une esquisse d'une face et de la lier à l'un des plans
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ReorientSketch/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ReorientSketch/fr

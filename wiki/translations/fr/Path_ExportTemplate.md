@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path ExportTemplate
-   Name/fr:Path Exporter un modèle
-   MenuLocation:Path - Exporter comme modèle
-   Workbenches:[Path](Path_Workbench/fr.md)
-   SeeAlso:[Path Feuille de configuration](Path_SetupSheet/fr.md)
+   Name: Path ExportTemplate
+   Name/fr: Path Exporter un modèle
+   MenuLocation: Path - Exporter comme modèle
+   Workbenches: [Path](Path_Workbench/fr.md)
+   SeeAlso: [Path Feuille de configuration](Path_SetupSheet/fr.md)
 ---
 
 # Path ExportTemplate/fr
@@ -70,4 +70,4 @@ définit le modèle par défaut.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate/fr

@@ -193,4 +193,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro MoveToOrigin/ru
+⏵ [documentation index](../README.md) > Macro MoveToOrigin/ru

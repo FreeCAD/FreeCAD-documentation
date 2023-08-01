@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Сзади
-   Name:Std_ViewRear
-   MenuLocation:Вид - Стандартные виды‏‎ - Сзади
-   Workbenches:Все
-   Shortcut:**4**
-   SeeAlso:[Снизу](Std_ViewBottom/ru.md), [Слева](Std_ViewLeft/ru.md)
+   Name/ru: Сзади
+   Name: Std_ViewRear
+   MenuLocation: Вид - Стандартные виды‏‎ - Сзади
+   Workbenches: Все
+   Shortcut: **4**
+   SeeAlso: [Снизу](Std_ViewBottom/ru.md), [Слева](Std_ViewLeft/ru.md)
 ---
 
 # Std ViewRear/ru
@@ -53,4 +53,4 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewRear/ru
+⏵ [documentation index](../README.md) > Std ViewRear/ru

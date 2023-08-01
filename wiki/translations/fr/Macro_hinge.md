@@ -64,4 +64,4 @@ La page de discussion sur le forum [Struggling with LinearPattern (again)](http:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro hinge/fr
+⏵ [documentation index](../README.md) > Macro hinge/fr

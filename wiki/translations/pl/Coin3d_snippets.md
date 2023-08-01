@@ -1,6 +1,4 @@
 # Coin3d snippets/pl
-{{TOCright}}
-
 ## Description of this list 
 
 Complex libraries like [COIN3D](https://en.wikipedia.org/wiki/Coin3D) need good documentation and good tutorials. Unfortunately, there aren\'t many tutorials for the COIN library. After much research, the code examples listed below were found. They have been modified so that they can be loaded in FreeCAD. But some code may fail as these examples were created for other environments. You will find warnings for those problems in the code.
@@ -97,4 +95,4 @@ No installation is required. Thanks go to the author of the program.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Coin3d snippets/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Coin3d snippets/pl

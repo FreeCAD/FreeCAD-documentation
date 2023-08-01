@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FCGear GearConnector
-   MenuLocation:Gear - Combine two gears
-   Workbenches:[FCGear](FCGear_Workbench.md)
-   Shortcut:None
-   Version:1.0
-   SeeAlso:
+   Name: FCGear GearConnector
+   MenuLocation: Gear - Combine two gears
+   Workbenches: [FCGear](FCGear_Workbench.md)
+   Shortcut: None
+   Version: 1.0
+   SeeAlso: 
 ---
 
 # FCGear GearConnector/en
@@ -34,4 +34,4 @@ The selection order determines whether the second element can roll around the fi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear GearConnector/en
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear GearConnector/en

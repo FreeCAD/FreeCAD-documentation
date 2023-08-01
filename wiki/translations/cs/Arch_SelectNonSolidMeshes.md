@@ -1,6 +1,6 @@
 # Arch SelectNonSolidMeshes/cs
 ---
-- GuiCommand:   Name:Arch SelectNonSolidMeshes   Name/cs:SelectNonSolidMeshes   Workbenches:[MenuLocation:Arch - Utilities - Select non solid   SeeAlso:[[Arch MeshToShape/cs|Arch MeshToShape](Arch_Workbench/cs___Arch]].md)---
+- GuiCommand:   Name: Arch SelectNonSolidMeshes   Name/cs: SelectNonSolidMeshes   Workbenches: [MenuLocation: Arch - Utilities - Select non solid   SeeAlso: [[Arch MeshToShape/cs|Arch MeshToShape](Arch_Workbench/cs___Arch]].md)---
 
 
 </div>
@@ -35,4 +35,4 @@ Tento nástroj identifikuje a vybírá netělesové (neuzavřené) (non-[manifol
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/cs
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/cs

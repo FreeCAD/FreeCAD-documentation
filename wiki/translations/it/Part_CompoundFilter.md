@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Compound‏‎Filter
-   Name/it:Filtra composto
-   MenuLocation:Part - Filtra composto
-   Workbenches:[Part](Part_Workbench/it.md)
-   Version:0.17
+   Name: Part Compound‏‎Filter
+   Name/it: Filtra composto
+   MenuLocation: Part - Filtra composto
+   Workbenches: [Part](Part_Workbench/it.md)
+   Version: 0.17
 ---
 
 # Part CompoundFilter/it
@@ -87,4 +87,4 @@ Se c\'è un solo figlio nel risultato, l\'output è il figlio. Se è presente pi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/it

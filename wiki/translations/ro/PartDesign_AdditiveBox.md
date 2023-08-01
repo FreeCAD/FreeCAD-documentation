@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveBox
-   Name/ro:PartDesign Casetă aditivă
-   Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation:Part Design - Create an additive primitive - Additive Box
-   Version:0.17
-   SeeAlso:[PartDesign Primitive additive](PartDesign_CompPrimitiveAdditive/ro.md)
+   Name: PartDesign AdditiveBox
+   Name/ro: PartDesign Casetă aditivă
+   Workbenches: [PartDesign](PartDesign_Workbench/ro.md)
+   MenuLocation: Part Design - Create an additive primitive - Additive Box
+   Version: 0.17
+   SeeAlso: [PartDesign Primitive additive](PartDesign_CompPrimitiveAdditive/ro.md)
 ---
 
 # PartDesign AdditiveBox/ro
@@ -80,4 +80,4 @@ Caseta poate fi editată după crearea acesteia în două moduri:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveBox/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveBox/ro

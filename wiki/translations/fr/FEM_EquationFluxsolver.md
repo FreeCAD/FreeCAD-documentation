@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FEM EquationFluxsolver/fr
+⏵ [documentation index](../README.md) > FEM EquationFluxsolver/fr

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Std AddonMgr
-   Name/tr:Addon manager
-   Icon:AddonManager.svg
-   MenuLocation:Araçlar - Addon manager
-   Workbenches:''None''
-   SeeAlso:[Makros](Macros/tr.md), [[External workbenches/tr]]
-   Version:0.17
+   Name: Std AddonMgr
+   Name/tr: Addon manager
+   Icon: AddonManager.svg
+   MenuLocation: Araçlar - Addon manager
+   Workbenches: ''None''
+   SeeAlso: [Makros](Macros/tr.md), [[External workbenches/tr]]
+   Version: 0.17
 ---
 
 # Std AddonMgr/tr
@@ -135,4 +135,4 @@ Then define the functions {{Incode|installation_succeeded}} and {{Incode|install
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std AddonMgr/tr
+⏵ [documentation index](../README.md) > Std AddonMgr/tr

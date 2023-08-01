@@ -1,6 +1,6 @@
 # Part Prism/it
 ---
-- GuiCommand:   Name:Part Prism   Name/it:Prisma   MenuLocation:Parte - [Workbenches:[[Part_Workbench/it   Parte](Part_CreatePrimitives/it___Crea_primitive]]_-_Prism.md)|Version:0.14   SeeAlso:[Crea primitive](Part_CreatePrimitives/it.md), [Box/Cubo](Part_Box/it.md)---
+- GuiCommand:   Name: Part Prism   Name/it: Prisma   MenuLocation: Parte - [Workbenches: [[Part_Workbench/it   Parte](Part_CreatePrimitives/it___Crea_primitive]]_-_Prism.md)|Version: 0.14   SeeAlso: [Crea primitive](Part_CreatePrimitives/it.md), [Box/Cubo](Part_Box/it.md)---
 
 
 </div>
@@ -119,4 +119,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Prism/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Prism/it

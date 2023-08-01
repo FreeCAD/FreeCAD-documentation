@@ -20,7 +20,7 @@ The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement
 O módulo Drawing permite que você coloque seu trabalho em 3D no papel. Ou seja, colocar vistas de seus modelos em uma janela 2D e inserir essa janela em um desenho, por exemplo, uma folha com uma borda, um título e seu logotipo e finalmente imprimir essa folha.
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Drawing_extraction.png  style="width:600px;">
 
@@ -116,4 +116,4 @@ Some notes on the programming side of the drawing module will be added to the [D
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/pt-br
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/pt-br

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:EM FHPlaneAddRemoveNodeHole
-   Name/it:EM FHPlaneAddRemoveNodeHole
-   MenuLocation:EM - FHPlaneAddRemoveNodeHole
-   Workbenches:[EM](EM_Workbench/it.md) (add-on)
-   Shortcut:E A
-   SeeAlso:[EM FHPlane](EM_FHPlane/it.md), [EM FHNode](EM_FHNode/it.md), [EM FHPlaneHole](EM_FHPlaneHole/it.md)
-   Version:0.17
+   Name: EM FHPlaneAddRemoveNodeHole
+   Name/it: EM FHPlaneAddRemoveNodeHole
+   MenuLocation: EM - FHPlaneAddRemoveNodeHole
+   Workbenches: [EM](EM_Workbench/it.md) (add-on)
+   Shortcut: E A
+   SeeAlso: [EM FHPlane](EM_FHPlane/it.md), [EM FHNode](EM_FHNode/it.md), [EM FHPlaneHole](EM_FHPlaneHole/it.md)
+   Version: 0.17
 ---
 
 # EM FHPlaneAddRemoveNodeHole/it
@@ -60,4 +60,4 @@ To add or remove FHNode or FHPlaneHole objects from a FHPlane via Python scripti
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [EM](Category_EM.md) > EM FHPlaneAddRemoveNodeHole/it
+⏵ [documentation index](../README.md) > [EM](Category_EM.md) > EM FHPlaneAddRemoveNodeHole/it

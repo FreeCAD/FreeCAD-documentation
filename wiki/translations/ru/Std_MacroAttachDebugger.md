@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std MacroAttachDebugger
-   Empty:1
-   MenuLocation:Macro - Attach to remote debugger...
-   Workbenches:All
+   Name: Std MacroAttachDebugger
+   Empty: 1
+   MenuLocation: Macro - Attach to remote debugger...
+   Workbenches: All
 ---
 
 # Std MacroAttachDebugger/ru
@@ -27,4 +27,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MacroAttachDebugger/ru
+⏵ [documentation index](../README.md) > Std MacroAttachDebugger/ru

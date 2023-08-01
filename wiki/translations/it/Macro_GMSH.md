@@ -42,4 +42,4 @@ La pagina della discussione nel forum: [GMSH macro](http://forum.freecadweb.org/
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro GMSH/it
+⏵ [documentation index](../README.md) > Macro GMSH/it

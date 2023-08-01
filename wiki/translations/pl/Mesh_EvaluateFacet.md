@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh EvaluateFacet
-   Name/pl:Sitka: Informacje o powierzchni
-   MenuLocation:Siatki - Analizuj - Informacja o powierzchni
-   Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   Name: Mesh EvaluateFacet
+   Name/pl: Sitka: Informacje o powierzchni
+   MenuLocation: Siatki - Analizuj - Informacja o powierzchni
+   Workbenches: [Siatka](Mesh_Workbench/pl.md)
 ---
 
 # Mesh EvaluateFacet/pl
@@ -48,4 +48,4 @@ Triangle: <[1.964574, 0.047063, 0.748046], [1.937166, 0.062461, 0.992797],
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh EvaluateFacet/pl
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh EvaluateFacet/pl

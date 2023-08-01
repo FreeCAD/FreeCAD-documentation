@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign_MultiTransform
-   Name/fr:PartDesign Transformation multiple
-   MenuLocation:Part Design - Appliquer une transformation - Transformation multiple
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso:[PartDesign Symétrie](PartDesign_Mirrored/fr.md), [PartDesign Répétition linéaire](PartDesign_LinearPattern/fr.md), [PartDesign Répétition circulaire](PartDesign_PolarPattern/fr.md), [PartDesign Mise à l'échelle](PartDesign_Scaled/fr.md)
+   Name: PartDesign_MultiTransform
+   Name/fr: PartDesign Transformation multiple
+   MenuLocation: Part Design - Appliquer une transformation - Transformation multiple
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso: [PartDesign Symétrie](PartDesign_Mirrored/fr.md), [PartDesign Répétition linéaire](PartDesign_LinearPattern/fr.md), [PartDesign Répétition circulaire](PartDesign_PolarPattern/fr.md), [PartDesign Mise à l'échelle](PartDesign_Scaled/fr.md)
 ---
 
 # PartDesign MultiTransform/fr
@@ -161,4 +161,4 @@ Pour vérifier que la pièce est entièrement paramétrique, ouvrez l\'esquisse 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/fr

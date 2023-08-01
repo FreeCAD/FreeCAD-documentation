@@ -1,9 +1,4 @@
 # Download/ro
-{{TOCright}}
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 ## Varianta curentă stabilă 
@@ -120,4 +115,4 @@ Comunitatea FreeCAD oferă o multitudine de module și macrocomenzi suplimentare
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Download/ro
+⏵ [documentation index](../README.md) > Download/ro

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Slice
-   Name/pl:Część: Rozbij na kształty złożenia
-   MenuLocation:Część - Rozdziel - Rozbij na kształty złożenia
-   Workbenches:[Część](Part_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Funkcja logiczna rozdzielająca](Part_BooleanFragments/pl.md), [Logiczny XOR](Part_XOR/pl.md), [Połącz obiekty](Part_CompJoinFeatures/pl.md), [Operacje logiczne na bryłach](Part_Boolean/pl.md)
+   Name: Part Slice
+   Name/pl: Część: Rozbij na kształty złożenia
+   MenuLocation: Część - Rozdziel - Rozbij na kształty złożenia
+   Workbenches: [Część](Part_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Funkcja logiczna rozdzielająca](Part_BooleanFragments/pl.md), [Logiczny XOR](Part_XOR/pl.md), [Połącz obiekty](Part_CompJoinFeatures/pl.md), [Operacje logiczne na bryłach](Part_Boolean/pl.md)
 ---
 
 # Part Slice/pl
@@ -149,4 +149,4 @@ Samo narzędzie jest zaimplementowane w środowisku Python, patrz **/Mod/Part/BO
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/pl

@@ -1,8 +1,4 @@
 # Scripted objects saving attributes
-{{TOCright}}
-
-
-
 ## Introduction
 
 [Scripted objects](Scripted_objects.md) are rebuilt every time a [FCStd document](File_Format_FCStd.md) is opened. To do this the document keeps a reference to the module and Python class that were used to create the object, along with its properties.
@@ -187,4 +183,4 @@ class CustomObject:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects saving attributes
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects saving attributes

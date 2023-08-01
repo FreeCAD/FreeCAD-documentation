@@ -1,8 +1,4 @@
 # Topological data scripting/de
-{{TOCright}}
-
-
-
 ## Einleitung
 
 Hier wird erklärt, wie sich der Arbeitsbereich [Part](Part_Workbench/de.md) direkt aus dem FreeCAD-Python-Interpreter oder aus einem externen Skript heraus steuern lässt. Unter [Skripten](Scripting/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md) finden sich weitere Informationen über die Funktionsweise von Python-Skripten in FreeCAD. Für Python-Anfänger ist es eine gute Idee, zuerst die [Einführung in Python](Introduction_to_Python/de.md) zu lesen.
@@ -1148,4 +1144,4 @@ Um eine STEP Datei in eine IGS Datei umzuwandeln:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Topological data scripting/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Topological data scripting/de

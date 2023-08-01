@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path ExportTemplate
-   MenuLocation:Path - Export Template
-   Workbenches:[Path](Path_Workbench.md)
-   SeeAlso:[Path SetupSheet](Path_SetupSheet.md)
+   Name: Path ExportTemplate
+   MenuLocation: Path - Export Template
+   Workbenches: [Path](Path_Workbench.md)
+   SeeAlso: [Path SetupSheet](Path_SetupSheet.md)
 ---
 
 # Path ExportTemplate/en
@@ -56,4 +56,4 @@ The **Edit → Preferences... → Path → Job Preferences → Defaults → Temp
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate/en
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate/en

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Curves ParametricComb
-   Name/fr:Curves Peigne paramétrique
-   MenuLocation:Curves - Comb plot
-   Workbenches:[Curves](Curves_Workbench/fr.md)
+   Name: Curves ParametricComb
+   Name/fr: Curves Peigne paramétrique
+   MenuLocation: Curves - Comb plot
+   Workbenches: [Curves](Curves_Workbench/fr.md)
 ---
 
 # Curves ParametricComb/fr
@@ -47,4 +47,4 @@ Un peigne 3D sera créé pour les courbes 3D. L\'échantillonnage et l\'échelle
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Curves](Category_Curves.md) > Curves ParametricComb/fr
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Curves](Category_Curves.md) > Curves ParametricComb/fr

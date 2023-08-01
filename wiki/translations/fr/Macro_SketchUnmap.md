@@ -198,4 +198,4 @@ Pour tout commentaire (bug, demande de fonctionnalité, commentaires, \...), veu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro SketchUnmap/fr
+⏵ [documentation index](../README.md) > Macro SketchUnmap/fr

@@ -1,6 +1,6 @@
 # PartDesign SubtractiveBox/ro
 ---
-- GuiCommand:   Name:PartDesign SubtractiveBox   Workbenches:[MenuLocation:Part Design - Create a subtractive primitive - Subtractive box   Shortcut:None   SeeAlso:[[PartDesign CompPrimitiveSubtractive](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign SubtractiveBox   Workbenches: [MenuLocation: Part Design - Create a subtractive primitive - Subtractive box   Shortcut: None   SeeAlso: [[PartDesign CompPrimitiveSubtractive](PartDesign_Workbench___PartDesign]].md)---
 
 
 </div>
@@ -75,4 +75,4 @@ The Box can be edited after its creation in two ways:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveBox/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveBox/ro

@@ -1,6 +1,6 @@
 # Part Ellipsoid/ro
 ---
-- GuiCommand:   Name:Part Ellipsoid   MenuLocation:Part - [Workbenches:[[Part Workbench   Part](Part_CreatePrimitives___Create_Primitives]]_-_Ellipsoid.md),  [OpenSCAD](OpenSCAD_Workbench.md)|SeeAlso:..---
+- GuiCommand:   Name: Part Ellipsoid   MenuLocation: Part - [Workbenches: [[Part Workbench   Part](Part_CreatePrimitives___Create_Primitives]]_-_Ellipsoid.md),  [OpenSCAD](OpenSCAD_Workbench.md)|SeeAlso: ..---
 
 
 </div>
@@ -110,4 +110,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipsoid/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipsoid/ro

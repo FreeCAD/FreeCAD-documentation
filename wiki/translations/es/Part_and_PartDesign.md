@@ -1,8 +1,4 @@
 # Part and PartDesign/es
-{{TOCright}}
-
-
-
 ## Introducción
 
 Ha habido muchas discusiones a lo largo de los años sobre las diferencias y ramificaciones del uso de los bancos de trabajo <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/es.md) y <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/es.md) .
@@ -237,4 +233,4 @@ Los bancos de trabajo Part y PartDesign pueden ser usados juntos con cuidado, cr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign/es
+⏵ [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign/es

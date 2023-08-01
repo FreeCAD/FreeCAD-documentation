@@ -169,4 +169,4 @@ Es gibt viel mehr Funktionalitäten in TechDraw zu erforschen - Section Views, D
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Basic TechDraw Tutorial/de
+⏵ [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Basic TechDraw Tutorial/de

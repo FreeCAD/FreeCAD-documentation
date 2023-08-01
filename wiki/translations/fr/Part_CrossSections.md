@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part CrossSections
-   Name/fr:Part Coupes
-   Icon:Part_CrossSections.svg
-   MenuLocation:Part - Coupes...
-   Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Part Section](Part_Section/fr.md)
+   Name: Part CrossSections
+   Name/fr: Part Coupes
+   Icon: Part_CrossSections.svg
+   MenuLocation: Part - Coupes...
+   Workbenches: [Part](Part_Workbench/fr.md)
+   SeeAlso: [Part Section](Part_Section/fr.md)
 ---
 
 # Part CrossSections/fr
@@ -48,4 +48,4 @@ L\'utilitaire **Coupes** crée une ou plusieurs coupes transversales à travers 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/fr

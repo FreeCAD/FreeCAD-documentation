@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Remove
-   Name/cs:Architektura Odebrat
-   MenuLocation:Arch - Remove
-   Workbenches:[Arch](Arch_Workbench/cs.md)
-   SeeAlso:[[Arch Add]]
+   Name: Arch Remove
+   Name/cs: Architektura Odebrat
+   MenuLocation: Arch - Remove
+   Workbenches: [Arch](Arch_Workbench/cs.md)
+   SeeAlso: [[Arch Add]]
 ---
 
 # Arch Remove/cs
@@ -124,4 +124,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/cs
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/cs

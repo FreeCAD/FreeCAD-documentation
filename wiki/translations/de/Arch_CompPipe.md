@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch CompPipe
-   Name/de:Arch BildeRohr
-   MenuLocation:Arch - Rohrwerkzeuge
-   Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
-   SeeAlso:
-   Version:0.17
+   Name: Arch CompPipe
+   Name/de: Arch BildeRohr
+   MenuLocation: Arch - Rohrwerkzeuge
+   Workbenches: [Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   SeeAlso: 
+   Version: 0.17
 ---
 
 # Arch CompPipe/de
@@ -32,4 +32,4 @@ Grouping of several pipe related tools.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPipe/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPipe/de

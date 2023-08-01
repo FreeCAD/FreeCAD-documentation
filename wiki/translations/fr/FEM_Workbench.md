@@ -1,7 +1,7 @@
 # <img alt="Icône de l\'atelier FEM" src=images/Workbench_FEM.svg  style="width:64px;"> FEM Workbench/fr
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -347,4 +347,4 @@ Un guide du développeur a été rédigé pour aider les utilisateurs expérimen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [FEM](Category_FEM.md) > FEM Workbench/fr
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [FEM](Category_FEM.md) > FEM Workbench/fr

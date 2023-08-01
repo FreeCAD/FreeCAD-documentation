@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Circle
-   Name/ru:Draft Circle
-   MenuLocation:Черчение - Окружность
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:**C** **I**
-   SeeAlso:[Дуга](Draft_Arc/ru.md)
+   Name: Draft Circle
+   Name/ru: Draft Circle
+   MenuLocation: Черчение - Окружность
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: **C** **I**
+   SeeAlso: [Дуга](Draft_Arc/ru.md)
 ---
 
 # Draft Circle/ru
@@ -151,4 +151,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Circle/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Circle/ru

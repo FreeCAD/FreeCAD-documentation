@@ -1,10 +1,10 @@
 ---
 - GuiCommand:Addon
-   Name:BIM IfcQuantities
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
-   Addon:BIM
-   MenuLocation:Manage - IFC Quantities
-   SeeAlso:[[BIM IfcElements]],[[BIM IfcProperties]]
+   Name: BIM IfcQuantities
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
+   Addon: BIM
+   MenuLocation: Manage - IFC Quantities
+   SeeAlso: [[BIM IfcElements]],[[BIM IfcProperties]]
 ---
 
 # BIM IfcQuantities/en
@@ -26,4 +26,4 @@ You can also use the quantities manager to change or fix the actual **Height**, 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM IfcQuantities/en
+⏵ [documentation index](../README.md) > BIM IfcQuantities/en

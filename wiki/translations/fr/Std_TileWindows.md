@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std TileWindows
-   Name/fr:Std Mosaïque
-   MenuLocation:Fenêtre - Mosaïque
-   Workbenches:Tous
-   SeeAlso:[Std Fenêtre en cascade](Std_CascadeWindows/fr.md)
+   Name: Std TileWindows
+   Name/fr: Std Mosaïque
+   MenuLocation: Fenêtre - Mosaïque
+   Workbenches: Tous
+   SeeAlso: [Std Fenêtre en cascade](Std_CascadeWindows/fr.md)
 ---
 
 # Std TileWindows/fr
@@ -32,4 +32,4 @@ La commande **Std Mosaïque** réorganise les fenêtres dans la [Zone de vue pri
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TileWindows/fr
+⏵ [documentation index](../README.md) > Std TileWindows/fr

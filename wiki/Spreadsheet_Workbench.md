@@ -5,7 +5,7 @@
 The <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Spreadsheet Workbench](Spreadsheet_Workbench.md) allows you to create and edit spreadsheets, use data from the spreadsheet as parameters in a model, fill the spreadsheet with data retrieved from a model, perform calculations, and export the data to other spreadsheet applications such as LibreOffice or Microsoft Excel.
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:600px;"> 
 *A spreadsheet with certain cells filled with text and quantities*
@@ -363,4 +363,4 @@ sheet.get('Diameter')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench

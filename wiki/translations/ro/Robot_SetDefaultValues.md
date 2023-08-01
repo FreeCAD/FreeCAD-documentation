@@ -1,6 +1,6 @@
 # Robot SetDefaultValues/ro
 ---
-- GuiCommand:   Name:Robot SetDefaultValues   Workbenches:[[Robot_Workbench   Robot]]|MenuLocation:Robot - Set default values---
+- GuiCommand:   Name: Robot SetDefaultValues   Workbenches: [[Robot_Workbench   Robot]]|MenuLocation: Robot - Set default values---
 
 
 </div>
@@ -60,4 +60,4 @@ Valorile implicite ale programului sunt:he program\'s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetDefaultValues/ro
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetDefaultValues/ro

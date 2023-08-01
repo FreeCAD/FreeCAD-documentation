@@ -131,4 +131,4 @@ FreeCAD 的另一个特点是，3D 对象的概念和 3D 操作的概念往往�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Traditional modeling, the CSG way/zh-cn
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Traditional modeling, the CSG way/zh-cn

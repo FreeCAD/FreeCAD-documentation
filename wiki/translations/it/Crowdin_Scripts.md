@@ -1,6 +1,4 @@
 # Crowdin Scripts/it
-{{TOCright}}
-
 ## Gestire le traduzioni per FreeCAD 
 
 Per gestire le traduzioni FreeCAD utilizza un servizio di traduzione di terzi chiamato [Crowdin](https://crowdin.com/project/freecad).
@@ -90,4 +88,4 @@ Lo script updatefromcrowdin.py estrae le modifiche da crowdin alla directory loc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Crowdin Scripts/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Crowdin Scripts/it

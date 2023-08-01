@@ -1,6 +1,6 @@
 # Part Common/sv
 ---
-- GuiCommand:   Name:Part_Common   Workbenches:Del,Komplett---
+- GuiCommand:   Name: Part_Common   Workbenches: Del,Komplett---
 
 
 </div>
@@ -21,4 +21,4 @@ Input objects must be [OpenCASCADE](OpenCASCADE.md) shapes. Examples: stuff made
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/sv
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/sv

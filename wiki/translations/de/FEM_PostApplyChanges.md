@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM PostApplyChanges
-   Name/de:FEM PostApplyChanges
-   MenuLocation:Ergebnisse - Änderungen auf Pipeline anwenden
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   SeeAlso:[Std Aktualisieren](Std_Refresh/de.md), [NachbereitungFunktionenErstellen](FEM_PostCreateFunctions/de.md)
+   Name: FEM PostApplyChanges
+   Name/de: FEM PostApplyChanges
+   MenuLocation: Ergebnisse - Änderungen auf Pipeline anwenden
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   SeeAlso: [Std Aktualisieren](Std_Refresh/de.md), [NachbereitungFunktionenErstellen](FEM_PostCreateFunctions/de.md)
 ---
 
 # FEM PostApplyChanges/de
@@ -36,4 +36,4 @@ Click the toolbar button **<img src="images/FEM_PostApplyChanges.svg" width=16px
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostApplyChanges/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostApplyChanges/de

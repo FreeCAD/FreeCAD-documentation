@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std TreeSelection
-   MenuLocation:View - TreeView actions - Go to selection
-   Workbenches:All
-   Shortcut:**T** **G**
-   Version:0.19
+   Name: Std TreeSelection
+   MenuLocation: View - TreeView actions - Go to selection
+   Workbenches: All
+   Shortcut: **T** **G**
+   Version: 0.19
 ---
 
 # Std TreeSelection/en
@@ -35,4 +35,4 @@ If the Tree view [SyncSelection](Std_TreeSyncSelection.md) mode is off, the Tree
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSelection/en
+⏵ [documentation index](../README.md) > Std TreeSelection/en

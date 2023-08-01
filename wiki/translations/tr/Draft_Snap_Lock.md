@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Lock
-   Name/tr:Yakalama açık/kapalı
-   MenuLocation:Taslak - Araçlar- Yakalama açık/kapalı
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   SeeAlso:[Taslak Yakalama](Draft_Snap/tr.md), [Taslak Izgara açık/kapalı](Draft_ToggleGrid/tr.md)
+   Name: Draft Snap Lock
+   Name/tr: Yakalama açık/kapalı
+   MenuLocation: Taslak - Araçlar- Yakalama açık/kapalı
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   SeeAlso: [Taslak Yakalama](Draft_Snap/tr.md), [Taslak Izgara açık/kapalı](Draft_ToggleGrid/tr.md)
 ---
 
 # Draft Snap Lock/tr
@@ -56,4 +56,4 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/tr

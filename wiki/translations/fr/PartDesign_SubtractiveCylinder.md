@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractiveCylinder
-   Name/fr:PartDesign Cylindre soustractif
-   MenuLocation:Part Design - Créer une primitive soustractive - Cylindre soustractif
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[PartDesign Créer une primitive soustractive](PartDesign_CompPrimitiveSubtractive/fr.md), [PartDesign Cylindre additif](PartDesign_AdditiveCylinder/fr.md)
+   Name: PartDesign SubtractiveCylinder
+   Name/fr: PartDesign Cylindre soustractif
+   MenuLocation: Part Design - Créer une primitive soustractive - Cylindre soustractif
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Créer une primitive soustractive](PartDesign_CompPrimitiveSubtractive/fr.md), [PartDesign Cylindre additif](PartDesign_AdditiveCylinder/fr.md)
 ---
 
 # PartDesign SubtractiveCylinder/fr
@@ -65,4 +65,4 @@ Le Cylindre peut être édité après sa création de deux façons :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveCylinder/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveCylinder/fr

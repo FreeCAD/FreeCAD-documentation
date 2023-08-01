@@ -219,4 +219,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Draft Circle Tangent/pl
+⏵ [documentation index](../README.md) > Macro Draft Circle Tangent/pl

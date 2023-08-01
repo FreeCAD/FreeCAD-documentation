@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft FlipDimension
-   Name/it:Capovolgi quota
-   MenuLocation:Modifiche - Capovolgi quota
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Name: Draft FlipDimension
+   Name/it: Capovolgi quota
+   MenuLocation: Modifiche - Capovolgi quota
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
 ---
 
 # Draft FlipDimension/it
@@ -59,4 +59,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft FlipDimension/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft FlipDimension/it

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:   Name:Part SliceApart
-   Name/it:Affetta in parti
-   MenuLocation:Part - Dividi - Affetta in parti
-   Workbenches:[Part](Part_Workbench/it.md)
-   Version:0.18.15506
-   SeeAlso:[Affetta in composto](Part_Slice/it.md), [Esplodi il composto](Part_ExplodeCompound/it.md)
+- GuiCommand:   Name: Part SliceApart
+   Name/it: Affetta in parti
+   MenuLocation: Part - Dividi - Affetta in parti
+   Workbenches: [Part](Part_Workbench/it.md)
+   Version: 0.18.15506
+   SeeAlso: [Affetta in composto](Part_Slice/it.md), [Esplodi il composto](Part_ExplodeCompound/it.md)
 ---
 
 # Part SliceApart/it
@@ -83,4 +83,4 @@ Affetta in parti è stato introdotto in FreeCAD v0.18.15506. FreeCAD deve essere
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/it

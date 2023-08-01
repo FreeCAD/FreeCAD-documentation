@@ -1,8 +1,4 @@
 # Path scripting/de
-{{TOCright}}
-
-
-
 ## Einführung
 
 Der Arbeitsbereichen Path (Pfad) bietet Werkzeuge zum Importieren, Erstellen, Ändern und Exportieren von [Bearbeitungs-Werkzeugbahnen](https://en.wikipedia.org/wiki/G-code) in FreeCAD. Mit ihnen kann der Anwender bestehende G-code-Programme importieren, visualisieren und modifizieren, Werkzeugbahnen aus 3D-Formen erstellen und diese Werkzeugbahnen in G-code exportieren.
@@ -485,4 +481,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Path](Path_Workbench.md) > Path scripting/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Path](Path_Workbench.md) > Path scripting/de

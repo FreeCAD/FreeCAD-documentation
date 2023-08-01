@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std BoxElementSelection
-   Name/de:Std RechteckElementAuswahl
-   MenuLocation:Edit - Box element selection
-   Workbenches:Alle
-   Shortcut:**Shift**+**E**
-   SeeAlso:[Std Rechteckauswahl](Std_BoxSelection/de.md), [Std AllesAuswählen](Std_SelectAll/de.md)
+   Name: Std BoxElementSelection
+   Name/de: Std RechteckElementAuswahl
+   MenuLocation: Edit - Box element selection
+   Workbenches: Alle
+   Shortcut: **Shift**+**E**
+   SeeAlso: [Std Rechteckauswahl](Std_BoxSelection/de.md), [Std AllesAuswählen](Std_SelectAll/de.md)
 ---
 
 # Std BoxElementSelection/de
@@ -44,4 +44,4 @@ Der Befehl **Std RechteckElementAuswahl** wählt Flächen innerhalb eines benutz
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std BoxElementSelection/de
+⏵ [documentation index](../README.md) > Std BoxElementSelection/de

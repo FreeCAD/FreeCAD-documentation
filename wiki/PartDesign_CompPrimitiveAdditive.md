@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign CompPrimitiveAdditive
-   MenuLocation:Part Design - Create an additive primitive
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md)
+   Name: PartDesign CompPrimitiveAdditive
+   MenuLocation: Part Design - Create an additive primitive
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   Version: 0.17
+   SeeAlso: [PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md)
 ---
 
 # PartDesign CompPrimitiveAdditive
@@ -32,4 +32,4 @@ Creates an additive primitive in the active Body as the first feature, or fuses 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveAdditive
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveAdditive

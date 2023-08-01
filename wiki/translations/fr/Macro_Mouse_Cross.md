@@ -215,4 +215,4 @@ La grille est permanente.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Mouse Cross/fr
+⏵ [documentation index](../README.md) > Macro Mouse Cross/fr

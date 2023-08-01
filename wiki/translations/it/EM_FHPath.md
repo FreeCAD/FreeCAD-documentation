@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:EM FHPath
-   Name/it:EM FHPath
-   MenuLocation:EM - FHPath
-   Workbenches:[EM](EM_Workbench/it.md) (add-on)
-   Shortcut:**E** **T**
-   SeeAlso:[EM FHNode](EM_FHNode/it.md), [EM FHSegment](EM_FHSegment/it.md)
-   Version:0.17
+   Name: EM FHPath
+   Name/it: EM FHPath
+   MenuLocation: EM - FHPath
+   Workbenches: [EM](EM_Workbench/it.md) (add-on)
+   Shortcut: **E** **T**
+   SeeAlso: [EM FHNode](EM_FHNode/it.md), [EM FHSegment](EM_FHSegment/it.md)
+   Version: 0.17
 ---
 
 # EM FHPath/it
@@ -121,4 +121,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [EM](Category_EM.md) > EM FHPath/it
+⏵ [documentation index](../README.md) > [EM](Category_EM.md) > EM FHPath/it

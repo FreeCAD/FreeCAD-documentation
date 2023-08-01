@@ -21,4 +21,4 @@ Die Statusleiste zeigt auch das zuletzt vorgewählte Objekt (jedes Objekt unter 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Status bar/de
+⏵ [documentation index](../README.md) > Status bar/de

@@ -151,4 +151,4 @@ Em abril de 2019, a equipe de desenvolvedores principais foi expandida: Jürgen,
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [News](Category_News.md) > History/pt-br
+⏵ [documentation index](../README.md) > [News](Category_News.md) > History/pt-br

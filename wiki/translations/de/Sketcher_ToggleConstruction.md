@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ToggleConstruction
-   Name/de:Sketcher UmschalterKonstruktion
-   MenuLocation:Skizze - Skizzengeometrien - Umschalten der Hilfsgeometrie
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **N**
-   SeeAlso:[Sketcher UmschalterRandbedingung](Sketcher_ToggleDrivingConstraint/de.md)
+   Name: Sketcher ToggleConstruction
+   Name/de: Sketcher UmschalterKonstruktion
+   MenuLocation: Skizze - Skizzengeometrien - Umschalten der Hilfsgeometrie
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **N**
+   SeeAlso: [Sketcher UmschalterRandbedingung](Sketcher_ToggleDrivingConstraint/de.md)
 ---
 
 # Sketcher ToggleConstruction/de
@@ -56,4 +56,4 @@ Dieses Werkzeug kann auf zwei Arten verwendet werden:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/de

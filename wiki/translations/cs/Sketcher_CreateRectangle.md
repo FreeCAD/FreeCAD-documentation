@@ -1,6 +1,6 @@
 # Sketcher CreateRectangle/cs
 ---
-- GuiCommand:   Name:Sketcher CreateRectangle   Name/cs:Skicář Obdélník   Workbenches:[Shortcut:R   MenuLocation:Náčrt - Skicář Konstrukce - Vytvořit Obdélník   SeeAlso:[[Sketcher CreatePolyline/cs|Skicář Lomená čára](Sketcher_Workbench/cs___Skicář]].md)---
+- GuiCommand:   Name: Sketcher CreateRectangle   Name/cs: Skicář Obdélník   Workbenches: [Shortcut: R   MenuLocation: Náčrt - Skicář Konstrukce - Vytvořit Obdélník   SeeAlso: [[Sketcher CreatePolyline/cs|Skicář Lomená čára](Sketcher_Workbench/cs___Skicář]].md)---
 
 
 </div>
@@ -49,4 +49,4 @@ To define a rectangle via a center point and an edge point, use the [Centered re
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle/cs
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle/cs

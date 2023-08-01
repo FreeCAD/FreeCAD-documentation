@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Axis
-   Name/ro:Arch Axis
-   MenuLocation:Arch - Axis
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   Shortcut:**A** **X**
-   SeeAlso:[Axis System](Arch_AxisSystem/ro.md), [Grid](Arch_Grid.md)
+   Name: Arch Axis
+   Name/ro: Arch Axis
+   MenuLocation: Arch - Axis
+   Workbenches: [Arch](Arch_Workbench/ro.md)
+   Shortcut: **A** **X**
+   SeeAlso: [Axis System](Arch_AxisSystem/ro.md), [Grid](Arch_Grid.md)
 ---
 
 # Arch Axis/ro
@@ -158,4 +158,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Axis/ro
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Axis/ro

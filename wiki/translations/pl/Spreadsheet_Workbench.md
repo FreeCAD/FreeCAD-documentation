@@ -5,7 +5,7 @@
 Środowisko pracy <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> **Arkusz Kalkulacyjny** pozwala tworzyć i edytować arkusze kalkulacyjne, używać danych z arkusza kalkulacyjnego jako parametrów w modelu, wypełniać arkusz kalkulacyjny danymi pobranymi z modelu, wykonywać obliczenia i eksportować dane do innych aplikacji arkuszy kalkulacyjnych, takich jak LibreOffice czy Microsoft Excel.
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:600px;"> 
 *Arkusz kalkulacyjny z komórkami wypełnionymi tekstem i ilościami*
@@ -347,4 +347,4 @@ sheet.get('Diameter')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/pl
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/pl

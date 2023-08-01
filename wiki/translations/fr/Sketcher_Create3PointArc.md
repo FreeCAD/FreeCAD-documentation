@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher Create3PointArc
-   Name/fr:Sketcher Arc par 3 points
-   MenuLocation:Esquisse - Géometries d'esquisse - Créer un arc par 3 points
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **3** **A**
-   SeeAlso:
+   Name: Sketcher Create3PointArc
+   Name/fr: Sketcher Arc par 3 points
+   MenuLocation: Esquisse - Géometries d'esquisse - Créer un arc par 3 points
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **3** **A**
+   SeeAlso: 
 ---
 
 # Sketcher Create3PointArc/fr
@@ -34,4 +34,4 @@ Au démarrage de l\'outil, le pointeur de la souris se transforme en une croix b
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointArc/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointArc/fr

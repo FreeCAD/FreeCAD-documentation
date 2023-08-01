@@ -1,6 +1,6 @@
 # Sketcher ConnectLines/es
 ---
-- GuiCommand:   Name:Sketcher ConnectLines   Name/es:Sketcher ConnectLines   Workbenches:[[Sketcher Workbench/es   Sketcher]]|MenuLocation:Sketch - Sketcher tools - Connect Edges   Shortcut:Ctrl+Shift+K   Version:0.15---
+- GuiCommand:   Name: Sketcher ConnectLines   Name/es: Sketcher ConnectLines   Workbenches: [[Sketcher Workbench/es   Sketcher]]|MenuLocation: Sketch - Sketcher tools - Connect Edges   Shortcut: Ctrl+Shift+K   Version: 0.15---
 
 
 </div>
@@ -32,4 +32,4 @@ Before using this command make sure that obvious constraints (horizontal, vertic
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConnectLines/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConnectLines/es

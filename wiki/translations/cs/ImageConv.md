@@ -33,4 +33,4 @@ ImageConv je nástroj používaný z příkazové řádky.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > ImageConv/cs
+⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > ImageConv/cs

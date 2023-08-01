@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintContact
-   Name/fr:FEM Contrainte de contact
-   MenuLocation:Modèle - Contraintes mécaniques - Contrainte de contact
-   Workbenches:[Atelier FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Contrainte d'immobilisation](FEM_ConstraintFixed/fr.md)
+   Name: FEM ConstraintContact
+   Name/fr: FEM Contrainte de contact
+   MenuLocation: Modèle - Contraintes mécaniques - Contrainte de contact
+   Workbenches: [Atelier FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Contrainte d'immobilisation](FEM_ConstraintFixed/fr.md)
 ---
 
 # FEM ConstraintContact/fr
@@ -73,4 +73,4 @@ Crée une contrainte FEM de contact entre deux surfaces.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintContact/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintContact/fr

@@ -1,8 +1,4 @@
 # Part scripting/fr
-{{TOCright}}
-
-
-
 ## Introduction
 
 La structure principale de données utilisée dans le module Part est le type de données [BRep](https://fr.wikipedia.org/wiki/B-Rep) de [OpenCASCADE](OpenCASCADE/fr.md). Presque tous les contenus et types d\'objets du module Part sont disponibles par script en [Python](Python/fr.md). Cela inclut les primitives géométriques, telles que les lignes, les cercles et les arcs, et toute la gamme des TopoShapes, comme les vertex, les arêtes, les fils, les faces, les solides et les composés. Pour chacun de ces objets, plusieurs méthodes de création existent, et pour certains d\'entre eux, notamment les TopoShapes, des opérations avancées telles que l\'union/différence/intersection booléenne sont également disponibles. Explorez le contenu du module Part, comme décrit dans la page [Notions de base sur les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md), pour en savoir plus.
@@ -258,4 +254,4 @@ Il faut un cercle, un angle de départ et un angle d\'arrivée en radians.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Part](Part_Workbench.md) > Part scripting/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Part](Part_Workbench.md) > Part scripting/fr

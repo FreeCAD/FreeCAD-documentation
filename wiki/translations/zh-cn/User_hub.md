@@ -1,5 +1,4 @@
-# User hub/zh-cn
-{{TOCright}} <img alt="" src=images/User_hub.png  style="width:64px;">
+# <img alt="" src=images/User_hub.png  style="width:64px;"> User hub/zh-cn
 
 
 
@@ -144,4 +143,4 @@ FreeCAD 正在持续发展当中，所以可能存在缺少或过时的信息。
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/zh-cn
+⏵ [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/zh-cn

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher Copy
-   Name/pl:Szkicownik: Kopiuj
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Kopiuj
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**Z** **C**
-   Version:0.16
-   SeeAlso:[Klonuj](Sketcher_Clone/pl.md), [Przesuń](Sketcher_Move/pl.md)
+   Name: Sketcher Copy
+   Name/pl: Szkicownik: Kopiuj
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Kopiuj
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **Z** **C**
+   Version: 0.16
+   SeeAlso: [Klonuj](Sketcher_Clone/pl.md), [Przesuń](Sketcher_Move/pl.md)
 ---
 
 # Sketcher Copy/pl
@@ -40,4 +40,4 @@ Nie są dodawane żadne dodatkowe wiązania.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Copy/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Copy/pl

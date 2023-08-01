@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FCGear WormGear
-   Name/de:FCGear WormGear
-   MenuLocation:Gear - Worm Gear
-   Workbenches:[FCGear](FCGear_Workbench/de.md)
-   Shortcut:Kein
-   Version:v0.16
-   SeeAlso:[PartDesign Evolventenrad](PartDesign_InvoluteGear/de.md)
+   Name: FCGear WormGear
+   Name/de: FCGear WormGear
+   MenuLocation: Gear - Worm Gear
+   Workbenches: [FCGear](FCGear_Workbench/de.md)
+   Shortcut: Kein
+   Version: v0.16
+   SeeAlso: [PartDesign Evolventenrad](PartDesign_InvoluteGear/de.md)
 ---
 
 # FCGear WormGear/de
@@ -103,4 +103,4 @@ Das Schneckenrad muss von Hand erstellt werden. Ein [FCGear Evolventenrad](FCGea
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear WormGear/de
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear WormGear/de

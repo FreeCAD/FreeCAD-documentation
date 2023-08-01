@@ -587,4 +587,4 @@ FreeCAD jest wolnym oprogramowaniem, rozwijanym przez entuzjastyczną społeczno
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Tutorials](Category_Tutorials.md) > BIM ingame tutorial/pl
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Tutorials](Category_Tutorials.md) > BIM ingame tutorial/pl

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainParallel
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   MenuLocation:Sketch - Sketcher constraints - Constrain parallel
-   Shortcut:Shift + P
-   SeeAlso:[Constraint Vertical](Sketcher_ConstrainVertical.md), [Constraint Horizontal](Sketcher_ConstrainHorizontal.md)
+   Name: Sketcher ConstrainParallel
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch - Sketcher constraints - Constrain parallel
+   Shortcut: Shift + P
+   SeeAlso: [Constraint Vertical](Sketcher_ConstrainVertical.md), [Constraint Horizontal](Sketcher_ConstrainHorizontal.md)
 ---
 
 # Sketcher ConstrainParallel/ro
@@ -102,4 +102,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainParallel/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainParallel/ro

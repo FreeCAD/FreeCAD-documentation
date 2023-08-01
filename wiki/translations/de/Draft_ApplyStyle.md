@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft ApplyStyle
-   Name/de:AktuellenStilAnwenden
-   MenuLocation:Draft - Utilities - Aktuellen Stil anwenden
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso:[Draft StilFestlegen](Draft_SetStyle/de.md)
+   Name: Draft ApplyStyle
+   Name/de: AktuellenStilAnwenden
+   MenuLocation: Draft - Utilities - Aktuellen Stil anwenden
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   SeeAlso: [Draft StilFestlegen](Draft_SetStyle/de.md)
 ---
 
 # Draft ApplyStyle/de
@@ -47,4 +47,4 @@ Dieser Befehl behandelt aktuell nur fünf der Einstellungen, die der [Draft Stil
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/de

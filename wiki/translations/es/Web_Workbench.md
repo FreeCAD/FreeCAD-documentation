@@ -64,4 +64,4 @@ The Web Workbench offers the following tools:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Web](Category_Web.md) > Web Workbench/es
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Web](Category_Web.md) > Web Workbench/es

@@ -5,7 +5,7 @@
 ## Введение
 
 
-{{TOCright}}
+
 
 Верстак A2plus - это [внешний верстак](External_workbenches/ru.md) для [создания сборок](Assembly/ru.md) деталей в FreeCAD.
 
@@ -740,4 +740,4 @@ while AnimationDialog.isVisible():
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > A2plus Workbench/ru
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > A2plus Workbench/ru

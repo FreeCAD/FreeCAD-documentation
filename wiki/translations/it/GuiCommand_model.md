@@ -1,13 +1,13 @@
 ---
 - GuiCommand:
-   Name:Base ExampleCommandModel
-   Name/it:Esempio di comando
-   Icon:
-   MenuLocation:Menu - Sottomenu - Comando
-   Workbenches:[Ambiente](Workbench_Name/it.md)
-   Shortcut:
-   SeeAlso:
-   Version:0.17
+   Name: Base ExampleCommandModel
+   Name/it: Esempio di comando
+   Icon: 
+   MenuLocation: Menu - Sottomenu - Comando
+   Workbenches: [Ambiente](Workbench_Name/it.md)
+   Shortcut: 
+   SeeAlso: 
+   Version: 0.17
 ---
 
 # GuiCommand model/it
@@ -350,4 +350,4 @@ Optional.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbench_Tools_navi{{#translation:}}}} <!--use the](Category_Workbench_Tools_navi{{#translation:}}}} <!--use the.md) > GuiCommand model/it
+⏵ [documentation index](../README.md) > [Workbench_Tools_navi{{#translation:}}}} <!--use the](Category_Workbench_Tools_navi{{#translation:}}}} <!--use the.md) > GuiCommand model/it

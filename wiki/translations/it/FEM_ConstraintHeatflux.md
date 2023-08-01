@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM_ConstraintHeatflux
-   Name/it:Scambio termico
-   MenuLocation:Modello - Vincoli termici - Vincolo scambio termico
-   Workbenches:[FEM](FEM_Workbench/it.md)
-   Shortcut:
-   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
+   Name: FEM_ConstraintHeatflux
+   Name/it: Scambio termico
+   MenuLocation: Modello - Vincoli termici - Vincolo scambio termico
+   Workbenches: [FEM](FEM_Workbench/it.md)
+   Shortcut: 
+   SeeAlso: [Tutorial FEM](FEM_tutorial/it.md)
 ---
 
 # FEM ConstraintHeatflux/it
@@ -62,4 +62,4 @@ Questo vincolo specifica lo scambio termico (film heat transfer) di una superfic
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintHeatflux/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintHeatflux/it

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateEllipseBy3Points
-   Name/ro:Sketcher CreateEllipse3Point
-   Icon:Sketcher_CreateEllipse_3points.png
-   Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation:Sketch - Sketcher geometries - Create ellipse by 3 points
-   Version:0.15
-   SeeAlso:[Sketcher Ellipse by center](Sketcher_CreateEllipseByCenter/ro.md), [Sketcher Circle](Sketcher_CreateCircle/ro.md), [Sketcher Arc of Ellipse](Sketcher_CreateArcOfEllipse/ro.md)
+   Name: Sketcher CreateEllipseBy3Points
+   Name/ro: Sketcher CreateEllipse3Point
+   Icon: Sketcher_CreateEllipse_3points.png
+   Workbenches: [Sketcher](Sketcher_Workbench/ro.md)
+   MenuLocation: Sketch - Sketcher geometries - Create ellipse by 3 points
+   Version: 0.15
+   SeeAlso: [Sketcher Ellipse by center](Sketcher_CreateEllipseByCenter/ro.md), [Sketcher Circle](Sketcher_CreateCircle/ro.md), [Sketcher Arc of Ellipse](Sketcher_CreateArcOfEllipse/ro.md)
 ---
 
 # Sketcher CreateEllipseBy3Points/ro
@@ -65,4 +65,4 @@ When starting the tool, the mouse pointer changes to a white cross with a red el
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseBy3Points/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseBy3Points/ro

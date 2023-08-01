@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM MeshGmshFromShape
-   Name/fr:FEM Maillage FEM à partir d'une forme avec Gmsh
-   MenuLocation:Maillage - Maillage FEM à partir d'une forme de Gmsh
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM MeshGmshFromShape
+   Name/fr: FEM Maillage FEM à partir d'une forme avec Gmsh
+   MenuLocation: Maillage - Maillage FEM à partir d'une forme de Gmsh
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM MeshGmshFromShape/fr
@@ -136,4 +136,4 @@ L\'algorithme de recombinaison *Simple* laissera quelques triangles dans le mail
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshGmshFromShape/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshGmshFromShape/fr

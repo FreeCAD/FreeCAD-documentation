@@ -1,7 +1,4 @@
 # Source documentation/sv
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 FreeCADs källkod är kommenterad för att tillåta automatisk generering av html dokumentation med [Doxygen](http://www.doxygen.org).
@@ -190,4 +187,4 @@ void removeTaskWatcher(void);
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source documentation/sv
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source documentation/sv

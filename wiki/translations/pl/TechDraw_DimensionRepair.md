@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw DimensionRepair
-   Name/pl:Rysunek Techniczny: Napraw odniesienia do wymiarów
-   MenuLocation:Rysunek Techniczny - Wymiary - Napraw odniesienia do wymiarów
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Version:0.21
-   SeeAlso:[Wstaw wymiar długości](TechDraw_LengthDimension/pl.md)
+   Name: TechDraw DimensionRepair
+   Name/pl: Rysunek Techniczny: Napraw odniesienia do wymiarów
+   MenuLocation: Rysunek Techniczny - Wymiary - Napraw odniesienia do wymiarów
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Version: 0.21
+   SeeAlso: [Wstaw wymiar długości](TechDraw_LengthDimension/pl.md)
 ---
 
 # TechDraw DimensionRepair/pl
@@ -51,4 +51,4 @@ Narzędzie TechDraw DimensionRepair nie może być używane w [makroinstrukcjach
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DimensionRepair/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DimensionRepair/pl

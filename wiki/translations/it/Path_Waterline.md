@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Path_Waterline
-   Name/it:Piani orizzontali
-   Workbenches:[Path](Path_Workbench/it.md)
-   MenuLocation:Path - Piani orizzontali
-   Shortcut:
-   Version:
-   SeeAlso:
+   Name: Path_Waterline
+   Name/it: Piani orizzontali
+   Workbenches: [Path](Path_Workbench/it.md)
+   MenuLocation: Path - Piani orizzontali
+   Shortcut: 
+   Version: 
+   SeeAlso: 
 ---
 
 # Path Waterline/it
@@ -279,4 +279,4 @@ This section is simply a layout map of the settings in the window editor for the
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Waterline/it
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Waterline/it

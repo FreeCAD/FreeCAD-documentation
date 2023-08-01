@@ -1,6 +1,4 @@
 # FreeCAD Philanthropy Open Source Hardware
-{{TOCright}}
-
 ## Introduction
 
 The purpose of this page is to log the activity of the FreeCAD community as it interacts with the open source hardware community.
@@ -30,4 +28,4 @@ The purpose of this page is to log the activity of the FreeCAD community as it i
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FreeCAD Philanthropy Open Source Hardware
+⏵ [documentation index](../README.md) > FreeCAD Philanthropy Open Source Hardware

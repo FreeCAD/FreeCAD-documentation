@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ViewRear
-   Name/de:Std Rückansicht
-   MenuLocation:Ansicht - Standardansichten - Hinten
-   Workbenches:Alle
-   Shortcut:**4**
-   SeeAlso:[Std Bodenansicht](Std_ViewBottom/de.md), [Std Ansicht von links](Std_ViewLeft.md)
+   Name: Std ViewRear
+   Name/de: Std Rückansicht
+   MenuLocation: Ansicht - Standardansichten - Hinten
+   Workbenches: Alle
+   Shortcut: **4**
+   SeeAlso: [Std Bodenansicht](Std_ViewBottom/de.md), [Std Ansicht von links](Std_ViewLeft.md)
 ---
 
 # Std ViewRear/de
@@ -53,4 +53,4 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewRear/de
+⏵ [documentation index](../README.md) > Std ViewRear/de

@@ -1,6 +1,4 @@
 # Sketcher Preferences/de
-{{TOCright}}
-
 Die Einstellungen für den Arbeitsbereich <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/de.md) befinden sich im [Voreinstellungseditor](Preferences_Editor.md). Im Menü wählt man **Bearbeiten → Einstellungen...** und dann **Sketcher**.
 
 Es gibt vier Registerkarten: [Allgemein](#Allgemein.md), [Raster](#Raster.md), [Anzeige](#Anzeige.md) und [Farben](#Farben.md).
@@ -298,4 +296,4 @@ Siehe [Forumsbeitrag](https://forum.freecad.org/viewtopic.php?t=70975&start=10).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Preferences/de
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Preferences/de

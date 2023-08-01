@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part FaceColors
-   MenuLocation:Context menu - Set colors
-   Workbenches:[Part](Part_Workbench.md), [PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[Std Appearance](Std_SetAppearance.md)
+   Name: Part FaceColors
+   MenuLocation: Context menu - Set colors
+   Workbenches: [Part](Part_Workbench.md), [PartDesign](PartDesign_Workbench.md)
+   SeeAlso: [Std Appearance](Std_SetAppearance.md)
 ---
 
 # Part FaceColors
@@ -35,4 +35,4 @@ To reset all face colors:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Command_Reference](Category_Command_Reference.md) > [Part](Part_Workbench.md) > Part FaceColors
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Command_Reference](Category_Command_Reference.md) > [Part](Part_Workbench.md) > Part FaceColors

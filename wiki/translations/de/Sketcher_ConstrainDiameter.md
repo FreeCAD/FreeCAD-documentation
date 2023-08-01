@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainDiameter
-   Name/de:Sketcher DurchmesserFestlegen
-   MenuLocation:Sketch - Skizzen-Beschränkungen - Durchmesser festlegen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**K** **O**
-   Version:0.18
-   SeeAlso:[Sketcher AbstandFestlegen](Sketcher_ConstrainDistance/de.md), [Sketcher XAbstandFestlegen](Sketcher_ConstrainDistanceX/de.md), [Sketcher YAbstandFestlegen](Sketcher_ConstrainDistanceY/de.md)
+   Name: Sketcher ConstrainDiameter
+   Name/de: Sketcher DurchmesserFestlegen
+   MenuLocation: Sketch - Skizzen-Beschränkungen - Durchmesser festlegen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **K** **O**
+   Version: 0.18
+   SeeAlso: [Sketcher AbstandFestlegen](Sketcher_ConstrainDistance/de.md), [Sketcher XAbstandFestlegen](Sketcher_ConstrainDistanceX/de.md), [Sketcher YAbstandFestlegen](Sketcher_ConstrainDistanceY/de.md)
 ---
 
 # Sketcher ConstrainDiameter/de
@@ -59,4 +59,4 @@ Die Seite [Sketcher Skripten](Sketcher_scripting.md) erklärt die Werte, die fü
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDiameter/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDiameter/de

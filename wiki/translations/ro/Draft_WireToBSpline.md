@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft WireToBSpline
-   Name/ro:Draft WireToBSpline
-   MenuLocation:Drafting -  Wire to BSpline
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Name: Draft WireToBSpline
+   Name/ro: Draft WireToBSpline
+   MenuLocation: Drafting -  Wire to BSpline
+   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
 ---
 
 # Draft WireToBSpline/ro
@@ -99,4 +99,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WireToBSpline/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WireToBSpline/ro

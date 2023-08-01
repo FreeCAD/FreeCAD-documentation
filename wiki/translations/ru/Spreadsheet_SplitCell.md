@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet SplitCell
-   Name/ru:Разделить ячейку
-   MenuLocation:Spreadsheet - Разделить ячейку
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/ru.md)
-   Version:0.17
+   Name: Spreadsheet SplitCell
+   Name/ru: Разделить ячейку
+   MenuLocation: Spreadsheet - Разделить ячейку
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/ru.md)
+   Version: 0.17
 ---
 
 # Spreadsheet SplitCell/ru
@@ -30,4 +30,4 @@ The **[<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> [Spreadshee
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SplitCell/ru
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SplitCell/ru

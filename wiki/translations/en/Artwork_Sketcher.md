@@ -54,4 +54,4 @@ In the past, the `.xpm` icons were used as overlays when displaying constraints 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Sketcher](Category_Sketcher.md) > Artwork Sketcher/en
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Sketcher](Category_Sketcher.md) > Artwork Sketcher/en

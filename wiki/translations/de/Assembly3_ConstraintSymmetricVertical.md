@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintSymmetricVertical
-   Name/de:Assembly3 Vertikale Symmetrie
-   Icon:Assembly_ConstraintGeneral.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintSymmetricVertical
+   Name/de: Assembly3 Vertikale Symmetrie
+   Icon: Assembly_ConstraintGeneral.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintSymmetricVertical/de
@@ -24,4 +24,4 @@ Bezüglich des LKS eines planaren Elements haben die Ursprünge der LKS von zwei
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintSymmetricVertical/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintSymmetricVertical/de

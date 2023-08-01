@@ -1,7 +1,7 @@
 # <img alt="Std Basis Symbol" src=images/Freecad.svg  style="width:64px;"> Std Macro Menu/de
 
 
-{{TOCright}}
+
 
 
 
@@ -70,4 +70,4 @@ Führt das Makro aus, das sich derzeit im Python Editor befindet.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Macro Menu/de
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Macro Menu/de

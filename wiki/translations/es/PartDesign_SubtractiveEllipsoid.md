@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractiveEllipsoid
-   Name/es:PartDesign Elipsoide Sustractivo
-   MenuLocation:Part Design - Crear una primitiva sustractiva - Elipsoide sustractivo
-   Workbenches:[PartDesign](PartDesign_Workbench/es.md)
-   Version:0.17
-   SeeAlso:[Crear una Primitiva sustractiva](PartDesign_CompPrimitiveSubtractive/es.md)
+   Name: PartDesign SubtractiveEllipsoid
+   Name/es: PartDesign Elipsoide Sustractivo
+   MenuLocation: Part Design - Crear una primitiva sustractiva - Elipsoide sustractivo
+   Workbenches: [PartDesign](PartDesign_Workbench/es.md)
+   Version: 0.17
+   SeeAlso: [Crear una Primitiva sustractiva](PartDesign_CompPrimitiveSubtractive/es.md)
 ---
 
 # PartDesign SubtractiveEllipsoid/es
@@ -82,4 +82,4 @@ Tras su creación, el Elipsoide puede ser editado de dos maneras:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveEllipsoid/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveEllipsoid/es

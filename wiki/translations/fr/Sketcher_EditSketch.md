@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher EditSketch
-   Name/fr:Sketcher Modifier l'esquisse
-   MenuLocation:Esquisse - Modifier l'esquisse
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso:[Sketcher Quitter l'esquisse](Sketcher_LeaveSketch/fr.md)
+   Name: Sketcher EditSketch
+   Name/fr: Sketcher Modifier l'esquisse
+   MenuLocation: Esquisse - Modifier l'esquisse
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso: [Sketcher Quitter l'esquisse](Sketcher_LeaveSketch/fr.md)
 ---
 
 # Sketcher EditSketch/fr
@@ -41,4 +41,4 @@ Il existe plusieurs façons de lancer la commande :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/fr

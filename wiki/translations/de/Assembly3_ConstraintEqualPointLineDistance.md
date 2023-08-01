@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintEqualPointLineDistance
-   Name/de:Assembly3 GleicherPunktLinieAbstand
-   Icon:Assembly_ConstraintEqualPointLineDistance.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintEqualPointLineDistance
+   Name/de: Assembly3 GleicherPunktLinieAbstand
+   Icon: Assembly_ConstraintEqualPointLineDistance.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintEqualPointLineDistance/de
@@ -30,4 +30,4 @@ Der Befehl <img alt="" src=images/Assembly_ConstraintEqualPointLineDistance.svg 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintEqualPointLineDistance/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintEqualPointLineDistance/de

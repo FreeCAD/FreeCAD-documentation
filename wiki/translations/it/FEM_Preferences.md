@@ -1,7 +1,4 @@
 # FEM Preferences/it
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 Le finestre delle preferenze di [FEM ](FEM_Workbench/it.md) si trovano nell\'[Editor delle Preferenze](Preferences_Editor/it.md), **Modifica → Preferenze → Fem**.
@@ -209,4 +206,4 @@ On the *Material* tab you can specify the following:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [FEM](Category_FEM.md) > FEM Preferences/it
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [FEM](Category_FEM.md) > FEM Preferences/it

@@ -1,6 +1,6 @@
 # Path DressupDragKnife/ro
 ---
-- GuiCommand:   Name:Path DressupTag   Workbenches:[MenuLocation:Path - Path Dressup - Dragknife Dress-up   SeeAlso:[[Path_DressupTag|Path DressupTag](Path_Workbench___Path]].md), [Path DressupRampEntry](Path_DressupRampEntry.md), [Path DressupDogbone](Path_DressupDogbone.md) ---
+- GuiCommand:   Name: Path DressupTag   Workbenches: [MenuLocation: Path - Path Dressup - Dragknife Dress-up   SeeAlso: [[Path_DressupTag|Path DressupTag](Path_Workbench___Path]].md), [Path DressupRampEntry](Path_DressupRampEntry.md), [Path DressupDogbone](Path_DressupDogbone.md) ---
 
 
 </div>
@@ -63,4 +63,4 @@ Acest instrument îmbracă o cale existentă pentru a adăuga acțiuni de colț 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDragKnife/ro
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDragKnife/ro

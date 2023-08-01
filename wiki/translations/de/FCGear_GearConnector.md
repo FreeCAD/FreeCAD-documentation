@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FCGear GearConnector
-   Name/de:FCGear GearConnector
-   MenuLocation:Gear - Combine two gears
-   Workbenches:[FCGear](FCGear_Workbench/de.md)
-   Shortcut:Kein
-   Version:1.0
-   SeeAlso:
+   Name: FCGear GearConnector
+   Name/de: FCGear GearConnector
+   MenuLocation: Gear - Combine two gears
+   Workbenches: [FCGear](FCGear_Workbench/de.md)
+   Shortcut: Kein
+   Version: 1.0
+   SeeAlso: 
 ---
 
 # FCGear GearConnector/de
@@ -35,4 +35,4 @@ Die Reihenfolge der Auswahl bestimmt, ob das zweite Element auf dem ersten abrol
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear GearConnector/de
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear GearConnector/de

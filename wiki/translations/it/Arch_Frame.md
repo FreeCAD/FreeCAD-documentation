@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Frame
-   Name/it:Carpenteria
-   MenuLocation:Arch - Carpenteria
-   Workbenches:[Arch](Arch_Workbench/it.md)
-   Shortcut:**F** **R**
-   SeeAlso:[Parete](Arch_Wall/it.md), [Struttura](Arch_Structure/it.md)
+   Name: Arch Frame
+   Name/it: Carpenteria
+   MenuLocation: Arch - Carpenteria
+   Workbenches: [Arch](Arch_Workbench/it.md)
+   Shortcut: **F** **R**
+   SeeAlso: [Parete](Arch_Wall/it.md), [Struttura](Arch_Structure/it.md)
 ---
 
 # Arch Frame/it
@@ -147,4 +147,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Frame/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Frame/it

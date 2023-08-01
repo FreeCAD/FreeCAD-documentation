@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher Create Ellipse by center
-   Icon:Sketcher_CreateEllipse.png
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   MenuLocation:Sketch - Sketcher geometries - Create ellipse by center
-   Version:0.15
-   SeeAlso:[Sketcher Ellipse by 3 Points](Sketcher_CreateEllipseBy3Points.md), [Sketcher Circle](Sketcher_CreateCircle.md), [Sketcher Arc of Ellipse](Sketcher_CreateArcOfEllipse.md)
+   Name: Sketcher Create Ellipse by center
+   Icon: Sketcher_CreateEllipse.png
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch - Sketcher geometries - Create ellipse by center
+   Version: 0.15
+   SeeAlso: [Sketcher Ellipse by 3 Points](Sketcher_CreateEllipseBy3Points.md), [Sketcher Circle](Sketcher_CreateCircle.md), [Sketcher Arc of Ellipse](Sketcher_CreateArcOfEllipse.md)
 ---
 
 # Sketcher CreateEllipseByCenter/ro
@@ -75,4 +75,4 @@ C is the center, a the major diameter, b the minor diameter, F1 and F2 are foci.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseByCenter/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseByCenter/ro

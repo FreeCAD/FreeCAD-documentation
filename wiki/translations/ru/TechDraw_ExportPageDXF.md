@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Экспорт листа в DXF
-   Name:TechDraw_ExportPageDXF
-   MenuLocation:TechDraw - Экспорт листа в DXF
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   Version:0.18
-   SeeAlso:[Экспорт листа в SVG](TechDraw_ExportPageSVG/ru.md), [Draft DXF](Draft_DXF/ru.md)
+   Name/ru: Экспорт листа в DXF
+   Name: TechDraw_ExportPageDXF
+   MenuLocation: TechDraw - Экспорт листа в DXF
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   Version: 0.18
+   SeeAlso: [Экспорт листа в SVG](TechDraw_ExportPageSVG/ru.md), [Draft DXF](Draft_DXF/ru.md)
 ---
 
 # TechDraw ExportPageDXF/ru
@@ -101,4 +101,4 @@ TechDraw.writeDXFPage(page,filename)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExportPageDXF/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExportPageDXF/ru

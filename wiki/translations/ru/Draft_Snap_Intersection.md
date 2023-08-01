@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Intersection
-   MenuLocation:Черчение - [Привязка](Draft_Snap/ru.md) - Пересечение
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:
+   Name: Draft Snap Intersection
+   MenuLocation: Черчение - [Привязка](Draft_Snap/ru.md) - Пересечение
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Draft Snap Intersection/ru
@@ -51,4 +51,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Intersection/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Intersection/ru

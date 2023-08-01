@@ -49,4 +49,4 @@ Vidéos montrant la modélisation de pièces, de maisons, d\'immeubles de bureau
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for architectural design/fr
+⏵ [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for architectural design/fr

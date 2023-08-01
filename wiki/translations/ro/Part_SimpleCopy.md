@@ -1,6 +1,6 @@
 # Part SimpleCopy/ro
 ---
-- GuiCommand:   Name:Part CreateSimpleCopy‏‎   Name/ro:Part CreateSimpleCopy‏‎   MenuLocation:Part - Create simple copy   Workbenches:[SeeAlso:[[Draft_Clone/ro   Clone](Part_Workbench/ro___Part]].md), [Copy](Std_Copy/ro.md), [Duplicate Selection](Std_DuplicateSelection/ro.md)|Icon:Tree_Part.svg---
+- GuiCommand:   Name: Part CreateSimpleCopy‏‎   Name/ro: Part CreateSimpleCopy‏‎   MenuLocation: Part - Create simple copy   Workbenches: [SeeAlso: [[Draft_Clone/ro   Clone](Part_Workbench/ro___Part]].md), [Copy](Std_Copy/ro.md), [Duplicate Selection](Std_DuplicateSelection/ro.md)|Icon: Tree_Part.svg---
 
 
 </div>
@@ -48,4 +48,4 @@ The copy has simple view properties like any other [Part Feature](Part_Feature.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SimpleCopy/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SimpleCopy/ro

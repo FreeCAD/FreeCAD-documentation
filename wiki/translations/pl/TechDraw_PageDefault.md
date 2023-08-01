@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw PageDefault
-   Name/pl:Rysunek Techniczny: Wstaw nową domyślną stronę rysunku
-   MenuLocation:Rysunek Techniczny - Strona - Wstaw nową domyślną stronę rysunku
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso:[Wstaw nową stronę przy użyciu szablonu](TechDraw_PageTemplate/pl.md), [Szablony](TechDraw_Templates/pl.md)
+   Name: TechDraw PageDefault
+   Name/pl: Rysunek Techniczny: Wstaw nową domyślną stronę rysunku
+   MenuLocation: Rysunek Techniczny - Strona - Wstaw nową domyślną stronę rysunku
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   SeeAlso: [Wstaw nową stronę przy użyciu szablonu](TechDraw_PageTemplate/pl.md), [Szablony](TechDraw_Templates/pl.md)
 ---
 
 # TechDraw PageDefault/pl
@@ -107,4 +107,4 @@ Zobacz informacje na stronie [Wstaw nową stronę przy użyciu szablonu](TechDra
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageDefault/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageDefault/pl

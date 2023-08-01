@@ -1,11 +1,11 @@
 ---
 - GuiCommand:Addon/es
-   Name:BIM Library
-   Name/es:BIM Library
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/es.md)
-   Addon:BIM
-   MenuLocation:3D Modeling - Library
-   SeeAlso:[Arch Equipment](Arch_Equipment/es.md)
+   Name: BIM Library
+   Name/es: BIM Library
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/es.md)
+   Addon: BIM
+   MenuLocation: 3D Modeling - Library
+   SeeAlso: [Arch Equipment](Arch_Equipment/es.md)
 ---
 
 # BIM Library/es
@@ -68,4 +68,4 @@ La herramienta de biblioteca le permite colocar, en el modelo actual, un objeto 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > BIM Library/es
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > BIM Library/es

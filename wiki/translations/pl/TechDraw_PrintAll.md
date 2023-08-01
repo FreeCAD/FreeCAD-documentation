@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw PrintAll
-   Name/pl:Rysunek Techniczny:
-   MenuLocation:Rysunek Techniczny - Strona - Drukuj wszystkie strony
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Shortcut:
-   Version:0.21
-   SeeAlso:[Dukuj](Std_Print/pl.md)
+   Name: TechDraw PrintAll
+   Name/pl: Rysunek Techniczny:
+   MenuLocation: Rysunek Techniczny - Strona - Drukuj wszystkie strony
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Shortcut: 
+   Version: 0.21
+   SeeAlso: [Dukuj](Std_Print/pl.md)
 ---
 
 # TechDraw PrintAll/pl
@@ -43,4 +43,4 @@ Narzędzie <img alt="" src=images/TechDraw_PrintAll.svg  style="width:24px;"> **
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PrintAll/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PrintAll/pl

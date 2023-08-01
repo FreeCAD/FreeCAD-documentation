@@ -1,7 +1,7 @@
 # <img alt="MeshRemodel Workbench Icon" src=images/MeshRemodel_workbench_icon.svg  style="width:64px;"> MeshRemodel Workbench/en
 
 
-{{TOCright}}
+
 
 ## Overview
 
@@ -19,4 +19,4 @@ This workbench can be installed from the <img alt="" src=images/Std_AddonMgr.svg
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > MeshRemodel Workbench/en
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > MeshRemodel Workbench/en

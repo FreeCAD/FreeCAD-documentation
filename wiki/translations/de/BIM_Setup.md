@@ -1,10 +1,10 @@
 ---
 - GuiCommand:Addon/de
-   Name:BIM Setup
-   Name/de:BIM Einrichtung
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
-   Addon:BIM
-   MenuLocation:Verwalten - Einrichtung
+   Name: BIM Setup
+   Name/de: BIM Einrichtung
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
+   Addon: BIM
+   MenuLocation: Verwalten - Einrichtung
 ---
 
 # BIM Setup/de
@@ -20,4 +20,4 @@ Durch Bewegen des Mauszeigers über jede Einstellung wird dir eine ttoltip Erlä
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Setup/de
+⏵ [documentation index](../README.md) > BIM Setup/de

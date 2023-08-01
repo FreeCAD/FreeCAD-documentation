@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part BooleanFragments
-   Name/pl:Część: Fragmentacja funkcją logiczną
-   MenuLocation:Część - Rozdziel - Fragmentacja funkcją logiczną
-   Workbenches:[Część](Part_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Krojenie](Part_Slice/pl.md), [Logiczny XOR](Part_XOR/pl.md), [Połącz obiekty](Part_CompJoinFeatures/pl.md), [Operacje logiczne na bryłach](Part_Boolean/pl.md)
+   Name: Part BooleanFragments
+   Name/pl: Część: Fragmentacja funkcją logiczną
+   MenuLocation: Część - Rozdziel - Fragmentacja funkcją logiczną
+   Workbenches: [Część](Part_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Krojenie](Part_Slice/pl.md), [Logiczny XOR](Part_XOR/pl.md), [Połącz obiekty](Part_CompJoinFeatures/pl.md), [Operacje logiczne na bryłach](Part_Boolean/pl.md)
 ---
 
 # Part BooleanFragments/pl
@@ -111,4 +111,4 @@ Narzędzie zostało wprowadzone w wersji FreeCAD v0.17.8053. FreeCAD musi być s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BooleanFragments/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BooleanFragments/pl

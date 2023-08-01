@@ -72,4 +72,4 @@ FreeCAD 提供了深度可自定义的界面。所有面板和工具栏可以移
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Manual:The FreeCAD Interface/zh-cn
+⏵ [documentation index](../README.md) > Manual:The FreeCAD Interface/zh-cn

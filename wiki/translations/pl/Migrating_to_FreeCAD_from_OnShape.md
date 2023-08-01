@@ -1,6 +1,4 @@
 # Migrating to FreeCAD from OnShape/pl
-{{TOCright}}
-
 ## Kontekst
 
 Ta strona jest przeznaczona dla użytkowników, którzy są zainteresowani pracą z programem FreeCAD, a którzy pochodzą ze świata OnShape.
@@ -14,4 +12,4 @@ Ta strona jest przeznaczona dla użytkowników, którzy są zainteresowani prac�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Migrating to FreeCAD from OnShape/pl
+⏵ [documentation index](../README.md) > Migrating to FreeCAD from OnShape/pl

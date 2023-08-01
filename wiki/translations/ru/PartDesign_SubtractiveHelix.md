@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Субтрактивная спираль
-   Name:PartDesign_SubtractiveHelix
-   MenuLocation:Part Design - Субтрактивные преобразования - Субтрактивная спираль
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Аддитивная спираль](PartDesign_AdditiveHelix/ru.md)
+   Name/ru: Субтрактивная спираль
+   Name: PartDesign_SubtractiveHelix
+   MenuLocation: Part Design - Субтрактивные преобразования - Субтрактивная спираль
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Аддитивная спираль](PartDesign_AdditiveHelix/ru.md)
 ---
 
 # PartDesign SubtractiveHelix/ru
@@ -131,4 +131,4 @@ If checked, the helix will be shown in the view, and updated automatically on ev
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveHelix/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveHelix/ru

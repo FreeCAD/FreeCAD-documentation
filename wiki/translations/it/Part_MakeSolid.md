@@ -1,6 +1,6 @@
 # Part MakeSolid/it
 ---
-- GuiCommand:   Name:Part ConvertToSolid   Name/it:Converti in solido   Empty:1‏‎   MenuLocation:Parte - Converti in solido   Workbenches:[[Part Workbench/it   Parte]]|SeeAlso:---
+- GuiCommand:   Name: Part ConvertToSolid   Name/it: Converti in solido   Empty: 1‏‎   MenuLocation: Parte - Converti in solido   Workbenches: [[Part Workbench/it   Parte]]|SeeAlso: ---
 
 
 </div>
@@ -44,4 +44,4 @@ Si raccomanda di usare ** Part** → ** Affina forma** prima di convertirla in u
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/it

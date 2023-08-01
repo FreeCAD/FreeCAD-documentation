@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintAttachment
-   Name/de:Assembly3 Befestigung
-   Icon:Part_Attachment.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintAttachment
+   Name/de: Assembly3 Befestigung
+   Icon: Part_Attachment.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintAttachment/de
@@ -24,4 +24,4 @@ Diese Verbindung lässt keinen Freiheitsgrad unbestimmt.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintAttachment/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintAttachment/de

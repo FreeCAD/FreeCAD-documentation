@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Assembly3 CreateElement
-   Name/ru:Assembly3 CreateElement
-   Icon:Assembly_New_Element.svg
-   MenuLocation:Assembly3 - Create element
-   Workbenches:[Assembly3](Assembly3_Workbench/ru.md)
-   Shortcut:**A** **E**
+   Name: Assembly3 CreateElement
+   Name/ru: Assembly3 CreateElement
+   Icon: Assembly_New_Element.svg
+   MenuLocation: Assembly3 - Create element
+   Workbenches: [Assembly3](Assembly3_Workbench/ru.md)
+   Shortcut: **A** **E**
 ---
 
 # Assembly3 CreateElement/ru
@@ -27,4 +27,4 @@ The <img alt="" src=images/Assembly_New_Element.svg‎‎  style="width:24px;"> 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 CreateElement/ru
+⏵ [documentation index](../README.md) > Assembly3 CreateElement/ru

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Слой
-   Name:Draft_Layer
-   MenuLocation:Utilities - Слой
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Автогруппировка](Draft_AutoGroup/ru.md)
+   Name/ru: Слой
+   Name: Draft_Layer
+   MenuLocation: Utilities - Слой
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Автогруппировка](Draft_AutoGroup/ru.md)
 ---
 
 # Draft Layer/ru
@@ -161,4 +161,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Layer/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Layer/ru

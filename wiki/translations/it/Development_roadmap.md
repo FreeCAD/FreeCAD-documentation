@@ -16,4 +16,4 @@ Alcune roadmap sul Wiki usano lo stile [Getting Things Done (GTD)](https://en.wi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Development roadmap/it
+⏵ [documentation index](../README.md) > Development roadmap/it

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher LeaveSketch
-   MenuLocation:Sketch - Leave sketch
-   Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[Sketcher EditSketch](Sketcher_EditSketch.md)
+   Name: Sketcher LeaveSketch
+   MenuLocation: Sketch - Leave sketch
+   Workbenches: [Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
+   SeeAlso: [Sketcher EditSketch](Sketcher_EditSketch.md)
 ---
 
 # Sketcher LeaveSketch
@@ -28,4 +28,4 @@ There are several ways to invoke this command:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch

@@ -1,8 +1,4 @@
 # FreeCAD Scripting Basics/fr
-{{TOCright}}
-
-
-
 ## Les scripts Python dans FreeCAD 
 
 FreeCAD a été programmé dès la première ligne de code pour être totalement contrôlé par des scripts écrits en Python. Presque toutes les parties de FreeCAD, telles que l\'interface, le contenu des scènes et même la représentation de ce contenu dans les vues 3D, sont accessibles à partir de l\'interpréteur Python intégré ou de vos propres scripts. En conséquence, FreeCAD est probablement l\'une des applications d\'ingénierie les plus personnalisables et évolutives disponibles actuellement.
@@ -206,4 +202,4 @@ Maintenant, vous pouvez vraiment commencer à vous amuser avec FreeCAD ! Pour un
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FreeCAD Scripting Basics/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FreeCAD Scripting Basics/fr

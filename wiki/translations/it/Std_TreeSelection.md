@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_TreeSelection
-   Name/it:Vai alla selezione
-   MenuLocation:Visualizza - Azioni della vista ad albero - Vai alla selezione
-   Workbenches:Tutti
-   Shortcut:**T** **G**
-   Version:0.19
+   Name: Std_TreeSelection
+   Name/it: Vai alla selezione
+   MenuLocation: Visualizza - Azioni della vista ad albero - Vai alla selezione
+   Workbenches: Tutti
+   Shortcut: **T** **G**
+   Version: 0.19
 ---
 
 # Std TreeSelection/it
@@ -40,4 +40,4 @@ Se [Sincronizza la selezione](Std_TreeSyncSelection/it.md) della vista ad albero
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSelection/it
+⏵ [documentation index](../README.md) > Std TreeSelection/it

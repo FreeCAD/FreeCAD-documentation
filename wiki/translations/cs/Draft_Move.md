@@ -1,6 +1,6 @@
 # Draft Move/cs
 ---
-- GuiCommand:   Name:Draft_Move   Name/cs:Kreslení Posun   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Draft -> Move   Shortcut:M V---
+- GuiCommand:   Name: Draft_Move   Name/cs: Kreslení Posun   Workbenches: [Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation: Draft -> Move   Shortcut: M V---
 
 
 </div>
@@ -131,4 +131,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move/cs
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move/cs

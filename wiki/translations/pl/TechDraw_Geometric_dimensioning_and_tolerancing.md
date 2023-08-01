@@ -1,8 +1,4 @@
 # TechDraw Geometric dimensioning and tolerancing/pl
-{{TOCright}}
-
-
-
 ## Idea
 
 Głównym celem rysunku technicznego jest to, aby inni zrozumieli, co projektant stworzył z jakimi tolerancjami ORAZ jak wyprodukować konstrukcję. Ponieważ większość części musi pasować do zespołów, również geometryczne relacje z innymi częściami są ważne. Aby to osiągnąć, opracowano system [wymiarowania geometrycznego i tolerancji](https://en.wikipedia.org/wiki/Geometric_dimensioning_and_tolerancing) *(GD&T)*.
@@ -364,4 +360,4 @@ Poniżej znajduje się lista znaków, które należy wykorzystać w oznaczeniach
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Geometric dimensioning and tolerancing/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Geometric dimensioning and tolerancing/pl

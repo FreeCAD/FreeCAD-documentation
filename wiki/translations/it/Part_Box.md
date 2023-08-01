@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Box   Name/it:Cubo
-   Icon:Part Box.svg
-   MenuLocation:Parte - Primitive - Cubo
-   Workbenches:[Parte](Part_Workbench/it.md)
-   SeeAlso:[Crea primitive...](Part_CreatePrimitives/it.md)
-   Version:?
+   Name: Part Box   Name/it: Cubo
+   Icon: Part Box.svg
+   MenuLocation: Parte - Primitive - Cubo
+   Workbenches: [Parte](Part_Workbench/it.md)
+   SeeAlso: [Crea primitive...](Part_CreatePrimitives/it.md)
+   Version: ?
 ---
 
 # Part Box/it
@@ -140,4 +140,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Box/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Box/it

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainVertical
-   Name/de:Sketcher VertikalFestlegen
-   MenuLocation:Sketch - Skizzen-Beschränkungen - Vertikal einschränken
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**V**
-   SeeAlso:[Sketcher HorizontalFestlegen](Sketcher_ConstrainHorizontal/de.md)
+   Name: Sketcher ConstrainVertical
+   Name/de: Sketcher VertikalFestlegen
+   MenuLocation: Sketch - Skizzen-Beschränkungen - Vertikal einschränken
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **V**
+   SeeAlso: [Sketcher HorizontalFestlegen](Sketcher_ConstrainHorizontal/de.md)
 ---
 
 # Sketcher ConstrainVertical/de
@@ -48,4 +48,4 @@ Die [Skizzierer Skripten](Sketcher_scripting.md) Seite erklärt die Werte, die f
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainVertical/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainVertical/de

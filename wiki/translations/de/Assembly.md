@@ -2,7 +2,7 @@
 ## Einführung
 
 
-{{TOCright}}
+
 
 In FreeCAD wird das Wort \"[Zusammenbau](Assembly/de.md)\" normalerweise verwendet, um sich auf ein [3D Modell](model/de.md) zu beziehen, das aus mehreren unterscheidbaren Teilen besteht, die auf irgendeine Art und Weise zusammengesetzt werden, um ein funktionales Objekt zu schaffen, so wie Produkte im echten Leben hergestellt werden.
 
@@ -54,4 +54,4 @@ Die Entwicklung der Zusammenbau Arbeitsbereiche geht weiter, und es wird erwarte
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly/de
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly/de

@@ -1,7 +1,4 @@
 # Macros recipes/es
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 Esta página contiene macros para añadir funcionalidad a tu instalación de FreeCAD
@@ -784,4 +781,4 @@ If the [Addon Manager](Std_AddonMgr.md) is not used, the macro can be installed 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python Code.md) > Macros recipes/es
+⏵ [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python Code.md) > Macros recipes/es

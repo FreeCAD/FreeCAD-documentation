@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std DemoMode
-   Name/de:Std Präsentationsmodus
-   MenuLocation:Werkzeuge - Drehscheibe...
-   Workbenches:Alle
+   Name: Std DemoMode
+   Name/de: Std Präsentationsmodus
+   MenuLocation: Werkzeuge - Drehscheibe...
+   Workbenches: Alle
 ---
 
 # Std DemoMode/de
@@ -44,4 +44,4 @@ Der Befehl **Std Präsentationsmodus** dreht die Kamera kontinuierlich in einer 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DemoMode/de
+⏵ [documentation index](../README.md) > Std DemoMode/de

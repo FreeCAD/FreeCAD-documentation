@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher ViewSection   Name/it:Vista sezione
-   MenuLocation:Sketch - Vista sezione
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md) 
-   Version:0.18
+   Name: Sketcher ViewSection   Name/it: Vista sezione
+   MenuLocation: Sketch - Vista sezione
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md) 
+   Version: 0.18
 ---
 
 # Sketcher ViewSection/it
@@ -49,4 +49,4 @@ Lo strumento **Vista sezione** crea un piano di sezione che nasconde temporaneam
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/it

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std TreeSelection
-   Name/ru:Std TreeSelection
-   MenuLocation:Вид - Дерево документа - Go to selection
-   Workbenches:All
-   Shortcut:**T** **G**
+   Name: Std TreeSelection
+   Name/ru: Std TreeSelection
+   MenuLocation: Вид - Дерево документа - Go to selection
+   Workbenches: All
+   Shortcut: **T** **G**
 ---
 
 # Std TreeSelection/ru
@@ -38,4 +38,4 @@ If the Tree view [SyncSelection](Std_TreeSyncSelection.md) mode is off, the Tree
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSelection/ru
+⏵ [documentation index](../README.md) > Std TreeSelection/ru

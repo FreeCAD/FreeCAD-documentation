@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch CutPlane
-   Name/de:Arch SchneideEbene
-   MenuLocation:Arch - Ebene Schneiden
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   SeeAlso:[Arch SchneideLinie](Arch_CutLine/de.md), [Arch Entfernen](Arch_Remove/de.md)
+   Name: Arch CutPlane
+   Name/de: Arch SchneideEbene
+   MenuLocation: Arch - Ebene Schneiden
+   Workbenches: [Arch](Arch_Workbench/de.md)
+   SeeAlso: [Arch SchneideLinie](Arch_CutLine/de.md), [Arch Entfernen](Arch_Remove/de.md)
 ---
 
 # Arch CutPlane/de
@@ -133,4 +133,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/de

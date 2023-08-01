@@ -1,7 +1,4 @@
 # Mesh to Part/ja
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 ## Partオブジェクトをメッシュに変換する
@@ -180,4 +177,4 @@ Part.show(solid)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh to Part/ja
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh to Part/ja

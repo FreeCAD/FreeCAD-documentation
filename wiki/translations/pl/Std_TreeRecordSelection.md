@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreeRecordSelection
-   Name/pl:Std: Zapisz zaznaczenie z widoku drzewa
-   MenuLocation:Widok- Akcje widoku drzewa - Zapisz zaznaczenie
-   Workbenches:wszystkie
-   Shortcut:**T** **5**
-   Version:0.19
+   Name: Std TreeRecordSelection
+   Name/pl: Std: Zapisz zaznaczenie z widoku drzewa
+   MenuLocation: Widok- Akcje widoku drzewa - Zapisz zaznaczenie
+   Workbenches: wszystkie
+   Shortcut: **T** **5**
+   Version: 0.19
 ---
 
 # Std TreeRecordSelection/pl
@@ -36,4 +36,4 @@ Tryb Zapisu zaznaczenia w widoku drzewa można również ustawić w [Edytorze pr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeRecordSelection/pl
+⏵ [documentation index](../README.md) > Std TreeRecordSelection/pl

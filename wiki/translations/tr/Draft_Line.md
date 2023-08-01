@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Line
-   Name/tr:Çizgi
-   MenuLocation:Taslak - Çizgi
-   Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   Shortcut:**L** **I**
-   Version:0.7
-   SeeAlso:[Tel](Draft_Wire/tr.md),[Nokta](Draft_Point/tr.md)
+   Name: Draft Line
+   Name/tr: Çizgi
+   MenuLocation: Taslak - Çizgi
+   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   Shortcut: **L** **I**
+   Version: 0.7
+   SeeAlso: [Tel](Draft_Wire/tr.md),[Nokta](Draft_Point/tr.md)
 ---
 
 # Draft Line/tr
@@ -187,4 +187,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Line/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Line/tr

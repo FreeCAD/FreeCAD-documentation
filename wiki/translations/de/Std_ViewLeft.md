@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ViewLeft
-   Name/de:Std Ansicht von links
-   MenuLocation:{{StdMenu|[Ansichtsmenü](Std_View_Menu/de.md)}} - Standardansichten - Links
-   Workbenches:Alle
-   Shortcut:**6**
-   SeeAlso:[Rückansicht](Std_ViewRear/de.md), [Bodenansicht](Std_ViewBottom/de.md)
+   Name: Std ViewLeft
+   Name/de: Std Ansicht von links
+   MenuLocation: {{StdMenu|[Ansichtsmenü](Std_View_Menu/de.md)}} - Standardansichten - Links
+   Workbenches: Alle
+   Shortcut: **6**
+   SeeAlso: [Rückansicht](Std_ViewRear/de.md), [Bodenansicht](Std_ViewBottom/de.md)
 ---
 
 # Std ViewLeft/de
@@ -53,4 +53,4 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewLeft/de
+⏵ [documentation index](../README.md) > Std ViewLeft/de

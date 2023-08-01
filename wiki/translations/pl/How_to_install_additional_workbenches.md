@@ -192,4 +192,4 @@ Na potrzeby tego przykładu powiedzmy, że wybrałeś środowisko pracy [Krzywe]
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > How to install additional workbenches/pl
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > How to install additional workbenches/pl

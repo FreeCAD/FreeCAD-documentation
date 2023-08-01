@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std Placement
-   Name/pl:Std: Umiejscowienie
-   MenuLocation:Edycja - Umiejscowienie ...
-   Workbenches:wszystkie
-   SeeAlso:[Wyrównanie](Std_Alignment/pl.md), [Umiejscowienie](Placement/pl.md)
+   Name: Std Placement
+   Name/pl: Std: Umiejscowienie
+   MenuLocation: Edycja - Umiejscowienie ...
+   Workbenches: wszystkie
+   SeeAlso: [Wyrównanie](Std_Alignment/pl.md), [Umiejscowienie](Placement/pl.md)
 ---
 
 # Std Placement/pl
@@ -92,4 +92,4 @@ print(obj.Placement.Matrix)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Placement/pl
+⏵ [documentation index](../README.md) > Std Placement/pl

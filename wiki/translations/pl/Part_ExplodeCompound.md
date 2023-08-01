@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part ExplodeCompound
-   Name/pl:Część: Rozbij kształt złożony
-   MenuLocation:Część - Złożenie - Rozbij kształt złożony
-   Workbenches:[Część](Part_Workbench/pl.md)
-   Version:0.18
-   SeeAlso:[Utwórz kształt złożony](Part_Compound/pl.md), [Rozbij kształt](Draft_Downgrade/pl.md)
+   Name: Part ExplodeCompound
+   Name/pl: Część: Rozbij kształt złożony
+   MenuLocation: Część - Złożenie - Rozbij kształt złożony
+   Workbenches: [Część](Part_Workbench/pl.md)
+   Version: 0.18
+   SeeAlso: [Utwórz kształt złożony](Part_Compound/pl.md), [Rozbij kształt](Draft_Downgrade/pl.md)
 ---
 
 # Part ExplodeCompound/pl
@@ -42,4 +42,4 @@ Narzędzie rozbija również kształty niezłożone na ich składniki niższego 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ExplodeCompound/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ExplodeCompound/pl

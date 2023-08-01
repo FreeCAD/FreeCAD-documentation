@@ -100,4 +100,4 @@ Part.Shape
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Part](Part_Workbench.md) > Part API/ro
+⏵ [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Part](Part_Workbench.md) > Part API/ro

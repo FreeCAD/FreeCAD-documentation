@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Fasteners Move
-   Name/de:Fasteners Bewegen
-   MenuLocation:Fasteners - Move fastener
-   Workbenches:[Fasteners](Fasteners_Workbench/de.md)
+   Name: Fasteners Move
+   Name/de: Fasteners Bewegen
+   MenuLocation: Fasteners - Move fastener
+   Workbenches: [Fasteners](Fasteners_Workbench/de.md)
 ---
 
 # Fasteners Move/de
@@ -44,4 +44,4 @@ Der Befehl <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Fas
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners Move/de
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners Move/de

@@ -1698,4 +1698,4 @@ Le mie macro su [Github](https://gist.github.com/mario52a)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Compound Plus/it
+⏵ [documentation index](../README.md) > Macro Compound Plus/it

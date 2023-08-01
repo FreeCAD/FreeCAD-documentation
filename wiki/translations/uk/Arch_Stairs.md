@@ -1,6 +1,6 @@
 # Arch Stairs/uk
 ---
-- GuiCommand:   Name:Arch Stairs   Name/uk:Arch Stairs   Workbenches:[[Arch_Workbench/uk   Arch]]|MenuLocation:Arch - Stairs   Shortcut:S R---
+- GuiCommand:   Name: Arch Stairs   Name/uk: Arch Stairs   Workbenches: [[Arch_Workbench/uk   Arch]]|MenuLocation: Arch - Stairs   Shortcut: S R---
 
 
 </div>
@@ -168,4 +168,4 @@ Stairs = Arch.makeStairs(length=5000, width=1200, height=3000, steps=14)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Stairs/uk
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Stairs/uk

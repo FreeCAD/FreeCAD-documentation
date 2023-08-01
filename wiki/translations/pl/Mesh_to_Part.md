@@ -1,6 +1,4 @@
 # Mesh to Part/pl
-{{TOCright}}
-
 ### Konwersja obiektów środowiska Część do siatek 
 
 Konwersja obiektów wyższego poziomu takich jak [część](Part_Workbench/pl.md) środowiska Część, na prostsze obiekty takie jak [siatka](Mesh_Workbench/pl.md) środowiska Projekt Siatki jest całkiem prostą operacją, gdzie wszystkie ściany obiektu Część są triangulowane. Wynik tej triangulacji *(teselacji)* jest następnie używany do skonstruowania siatki:
@@ -107,4 +105,4 @@ Part.show(solid)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh to Part/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh to Part/pl

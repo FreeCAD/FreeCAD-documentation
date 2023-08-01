@@ -1,6 +1,4 @@
 # Draft Constrain/sv
-{{TOCright}}
-
 ## Description
 
 
@@ -62,4 +60,4 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Constrain/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Constrain/sv

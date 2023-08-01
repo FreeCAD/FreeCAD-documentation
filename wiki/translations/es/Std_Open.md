@@ -1,6 +1,6 @@
 # Std Open/es
 ---
-- GuiCommand:   Name:Std Open   MenuLocation:[Workbenches:Todos   SeeAlso:[[Std_Save/es](Std_File_Menu___File]]_-_Open.md),[[Std_Import/es]]---
+- GuiCommand:   Name: Std Open   MenuLocation: [Workbenches: Todos   SeeAlso: [[Std_Save/es](Std_File_Menu___File]]_-_Open.md),[[Std_Import/es]]---
 
 
 </div>
@@ -57,4 +57,4 @@ For a scripting example see [Std New](Std_New#Scripting.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Open/es
+⏵ [documentation index](../README.md) > Std Open/es

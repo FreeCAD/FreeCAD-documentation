@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft AutoGroup
-   Name/fr:Draft Groupement automatique
-   Empty:1
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[Draft Calque](Draft_Layer/fr.md), [Std Créer un groupe](Std_Group/fr.md)
+   Name: Draft AutoGroup
+   Name/fr: Draft Groupement automatique
+   Empty: 1
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [Draft Calque](Draft_Layer/fr.md), [Std Créer un groupe](Std_Group/fr.md)
 ---
 
 # Draft AutoGroup/fr
@@ -75,4 +75,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AutoGroup/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AutoGroup/fr

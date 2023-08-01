@@ -307,4 +307,4 @@ Pour rendre le placement de \"Sketch\" égal à celui de \"Cylinder\", vous deve
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Placement/fr
+⏵ [documentation index](../README.md) > Placement/fr

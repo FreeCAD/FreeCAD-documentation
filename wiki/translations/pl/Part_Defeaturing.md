@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Defeaturing
-   Name/pl:Część: Usuwanie cech
-   MenuLocation:Część - Usuwanie cech
-   Workbenches:[Część](Part_Workbench/pl.md)
-   Version:0.18
-   SeeAlso:[środowisko Upraszczanie](Defeaturing_Workbench/pl.md), [makrodefinicja: Upraszczanie parametryczne](Macro_Parametric_Defeaturing/pl.md)
+   Name: Part Defeaturing
+   Name/pl: Część: Usuwanie cech
+   MenuLocation: Część - Usuwanie cech
+   Workbenches: [Część](Part_Workbench/pl.md)
+   Version: 0.18
+   SeeAlso: [środowisko Upraszczanie](Defeaturing_Workbench/pl.md), [makrodefinicja: Upraszczanie parametryczne](Macro_Parametric_Defeaturing/pl.md)
 ---
 
 # Part Defeaturing/pl
@@ -45,4 +45,4 @@ Aby to narzędzie było dostępne, FreeCAD musi być oparty na Open Cascade **7.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Defeaturing/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Defeaturing/pl

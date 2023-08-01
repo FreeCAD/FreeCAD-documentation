@@ -1,7 +1,7 @@
 # <img alt="EM Workbench icon" src=images/EMWorkbench.svg  style="width:64px;"> EM Workbench/en
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -71,4 +71,4 @@ Some video tutorials are available for the EM Workbench beta versions:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [EM](Category_EM.md) > EM Workbench/en
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [EM](Category_EM.md) > EM Workbench/en

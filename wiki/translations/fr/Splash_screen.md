@@ -4,4 +4,4 @@ L**\'écran de démarrage** est l\'image qui apparaît lors du démarrage de Fre
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Splash screen/fr
+⏵ [documentation index](../README.md) > Splash screen/fr

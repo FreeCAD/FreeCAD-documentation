@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionVertexAtIntersection
-   Name/fr:TechDraw Intersection de lignes
-   MenuLocation:TechDraw - Extensions : taraudages/filetages - Intersection de lignes
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:
+   Name: TechDraw ExtensionVertexAtIntersection
+   Name/fr: TechDraw Intersection de lignes
+   MenuLocation: TechDraw - Extensions : taraudages/filetages - Intersection de lignes
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: 
 ---
 
 # TechDraw ExtensionVertexAtIntersection/fr
@@ -39,4 +39,4 @@ L\'outil **TechDraw Intersection de lignes** ajoute un ou plusieurs sommets cosm
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionVertexAtIntersection/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionVertexAtIntersection/fr

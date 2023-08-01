@@ -1,6 +1,4 @@
 # Feature editing/sk
-{{TOCright}}
-
 ## Úvod
 
 Táto stránka vysvetľuje spôsob, akým by sa mal využívať <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [pracovný stôl Návrh dielu](pracovný_stôl_Návrh_dielu.md) od FreeCAD verzie 0.17.
@@ -174,4 +172,4 @@ The [tutorials](Tutorials.md) page provides some examples of using the [feature 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [PartDesign](Category_PartDesign.md) > Feature editing/sk
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [PartDesign](Category_PartDesign.md) > Feature editing/sk

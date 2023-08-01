@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw AngleDimension
-   Name/fr:TechDraw Cote angulaire
-   MenuLocation:TechDraw - Dimensions - Insérer une cote angulaire
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Cote angulaire par 3 points](TechDraw_3PtAngleDimension/fr.md)
+   Name: TechDraw AngleDimension
+   Name/fr: TechDraw Cote angulaire
+   MenuLocation: TechDraw - Dimensions - Insérer une cote angulaire
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   SeeAlso: [TechDraw Cote angulaire par 3 points](TechDraw_3PtAngleDimension/fr.md)
 ---
 
 # TechDraw AngleDimension/fr
@@ -109,4 +109,4 @@ rc = page.addView(dim1)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw AngleDimension/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw AngleDimension/fr

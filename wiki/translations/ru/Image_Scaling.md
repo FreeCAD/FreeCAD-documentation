@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Image Scaling
-   Name/ru:Image Scaling
-   Icon:Image Scaling.svg
-   MenuLocation:None
-   Workbenches:[Image](Image_Workbench/ru.md)
-   Version:0.18
-   SeeAlso:[Open image](Image_Open/ru.md), [Image plane](Image_CreateImagePlane/ru.md)
+   Name: Image Scaling
+   Name/ru: Image Scaling
+   Icon: Image Scaling.svg
+   MenuLocation: None
+   Workbenches: [Image](Image_Workbench/ru.md)
+   Version: 0.18
+   SeeAlso: [Open image](Image_Open/ru.md), [Image plane](Image_CreateImagePlane/ru.md)
 ---
 
 # Image Scaling/ru
@@ -49,4 +49,4 @@ The [Image Scaling](Image_Scaling.md) tool scales an image that was imported wit
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/ru
+⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/ru

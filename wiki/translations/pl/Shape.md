@@ -43,4 +43,4 @@ Jednakże, gdy wymagana jest większa precyzja, należy dokonać rozróżnienia.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Part](Category_Part.md) > Shape/pl
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Part](Category_Part.md) > Shape/pl

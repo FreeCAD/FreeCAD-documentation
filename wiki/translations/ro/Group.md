@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Group/ro
+⏵ [documentation index](../README.md) > Group/ro

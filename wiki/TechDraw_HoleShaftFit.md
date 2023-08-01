@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw HoleShaftFit
-   MenuLocation:TechDraw - Symbols - Add hole or shaft fit
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.21
-   SeeAlso:[TechDraw Geometric dimensioning and tolerancing](TechDraw_Geometric_dimensioning_and_tolerancing.md)
+   Name: TechDraw HoleShaftFit
+   MenuLocation: TechDraw - Symbols - Add hole or shaft fit
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Version: 0.21
+   SeeAlso: [TechDraw Geometric dimensioning and tolerancing](TechDraw_Geometric_dimensioning_and_tolerancing.md)
 ---
 
 # TechDraw HoleShaftFit
@@ -36,4 +36,4 @@ The **TechDraw HoleShaftFit** tool adds hole or shaft tolerances using ISO 286 t
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HoleShaftFit
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HoleShaftFit

@@ -1,6 +1,6 @@
 # TechDraw Image/it
 ---
-- GuiCommand:   Name:TechDraw Image   Name/it:Immagine bitmap   Workbenches:[MenuLocation:TechDraw - Immagine bitmap   Shortcut:   SeeAlso:[[TechDraw Symbol/it|Simbolo SVG](TechDraw_Workbench/it___TechDraw]].md)---
+- GuiCommand:   Name: TechDraw Image   Name/it: Immagine bitmap   Workbenches: [MenuLocation: TechDraw - Immagine bitmap   Shortcut:    SeeAlso: [[TechDraw Symbol/it|Simbolo SVG](TechDraw_Workbench/it___TechDraw]].md)---
 
 
 </div>
@@ -108,4 +108,4 @@ dvi.Width  = 200
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Image/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Image/it

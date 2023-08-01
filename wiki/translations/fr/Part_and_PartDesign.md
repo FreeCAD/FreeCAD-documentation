@@ -1,8 +1,4 @@
 # Part and PartDesign/fr
-{{TOCright}}
-
-
-
 ## Présentation
 
 Il y a eu beaucoup de discussions au cours des années sur les différences et les conséquences de l\'utilisation des ateliers <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/fr.md) et <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/fr.md).
@@ -187,4 +183,4 @@ Les ateliers Part et PartDesign peuvent être utilisés ensemble, avec un peu de
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign/fr
+⏵ [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign/fr

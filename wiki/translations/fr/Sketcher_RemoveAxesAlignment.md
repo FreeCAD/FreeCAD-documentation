@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher RemoveAxesAlignment
-   Name/fr:Sketcher Supprimer l'alignement des axes
-   MenuLocation:Esquisse - Outils d'esquisse - Supprimer l'alignement des axes
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**Z** **R**
-   Version:0.20
+   Name: Sketcher RemoveAxesAlignment
+   Name/fr: Sketcher Supprimer l'alignement des axes
+   MenuLocation: Esquisse - Outils d'esquisse - Supprimer l'alignement des axes
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **Z** **R**
+   Version: 0.20
 ---
 
 # Sketcher RemoveAxesAlignment/fr
@@ -40,4 +40,4 @@ Le résultat est que les contraintes (horizontales et verticales) seront supprim
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RemoveAxesAlignment/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RemoveAxesAlignment/fr

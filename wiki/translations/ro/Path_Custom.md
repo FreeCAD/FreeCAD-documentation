@@ -1,6 +1,6 @@
 # Path Custom/ro
 ---
-- GuiCommand:   Name:Path Custom   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path - Partial Commands - Custom   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Path Custom   Workbenches: [[Path Workbench   Path]]|MenuLocation: Path - Partial Commands - Custom   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -86,4 +86,4 @@ a noului obiect creat. Consulatați pagina [Path scripting](Path_scripting
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Custom/ro
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Custom/ro

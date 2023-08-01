@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Curves Discretize
-   Name/fr:Curves Discrétisation
-   MenuLocation:Curves - Discretize
-   Workbenches:[Curves](Curves_Workbench/fr.md)
+   Name: Curves Discretize
+   Name/fr: Curves Discrétisation
+   MenuLocation: Curves - Discretize
+   Workbenches: [Curves](Curves_Workbench/fr.md)
 ---
 
 # Curves Discretize/fr
@@ -38,4 +38,4 @@ La commande <img alt="" src=images/Curves_Discretize.svg  style="width:24px;"> [
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves Discretize/fr
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves Discretize/fr

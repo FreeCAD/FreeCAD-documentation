@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std ActivatePrevWindow
-   Name/pl:Std: Poprzednie
-   MenuLocation:Okna - Poprzednie
-   Workbenches:wszystkie
-   Shortcut:**Ctrl** + **Shift** + **Tab**
-   SeeAlso:[Następne](Std_ActivateNextWindow/pl.md), [Okna](Std_Windows/pl.md)
+   Name: Std ActivatePrevWindow
+   Name/pl: Std: Poprzednie
+   MenuLocation: Okna - Poprzednie
+   Workbenches: wszystkie
+   Shortcut: **Ctrl** + **Shift** + **Tab**
+   SeeAlso: [Następne](Std_ActivateNextWindow/pl.md), [Okna](Std_Windows/pl.md)
 ---
 
 # Std ActivatePrevWindow/pl
@@ -42,4 +42,4 @@ Polecenie **Poprzednie** aktywuje poprzednie okno w [Głównym obszarze widoku](
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ActivatePrevWindow/pl
+⏵ [documentation index](../README.md) > Std ActivatePrevWindow/pl

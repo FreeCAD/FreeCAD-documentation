@@ -1,6 +1,4 @@
 # Macros recipes/fr
-{{TOCright}}
-
 Cette page répertorie des [macros](macros/fr.md) qui peuvent ajouter des fonctionnalités intéressantes à une installation FreeCAD.
 
 Si vous avez écrit une macro et que vous souhaitez l\'inclure dans l\'une des catégories de cette page, rendez-vous sur [Documentation pour les macros](Macro_documentation/fr.md) pour en savoir plus sur la façon de documenter correctement une macro.
@@ -812,4 +810,4 @@ Si le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnair
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python Code.md) > Macros recipes/fr
+⏵ [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python Code.md) > Macros recipes/fr

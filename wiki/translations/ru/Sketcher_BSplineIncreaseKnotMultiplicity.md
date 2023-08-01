@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Увеличение кратности узлов
-   Name:Sketcher_BSplineIncreaseKnotMultiplicity
-   MenuLocation:Sketch - B-сплйан инструменты эскиза - Увеличение кратности узлов
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Показать/скрыть кратность узлов B-сплайна](Sketcher_BSplineKnotMultiplicity/ru.md), [Уменьшение кратности узлов](Sketcher_BSplineDecreaseKnotMultiplicity/ru.md)
+   Name/ru: Увеличение кратности узлов
+   Name: Sketcher_BSplineIncreaseKnotMultiplicity
+   MenuLocation: Sketch - B-сплйан инструменты эскиза - Увеличение кратности узлов
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Показать/скрыть кратность узлов B-сплайна](Sketcher_BSplineKnotMultiplicity/ru.md), [Уменьшение кратности узлов](Sketcher_BSplineDecreaseKnotMultiplicity/ru.md)
 ---
 
 # Sketcher BSplineIncreaseKnotMultiplicity/ru
@@ -53,4 +53,4 @@ One can see that the spline with knot multiplicity 1 is completely changed while
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineIncreaseKnotMultiplicity/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineIncreaseKnotMultiplicity/ru

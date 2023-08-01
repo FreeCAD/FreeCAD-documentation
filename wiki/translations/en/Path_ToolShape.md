@@ -1,6 +1,4 @@
 # Path ToolShape/en
-{{TOCright}}
-
 ## Description
 
 ToolShapes are a core part of the [Path Tools](Path_Tools.md) system. ToolShapes are the templates from which ToolBits are created. They represent the specific physical shape of a tool. A ToolShape does not completely describe the bit - for that some additional parameters are needed which will be added when an actual bit is parameterized from the template.
@@ -112,4 +110,4 @@ Important notes:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolShape/en
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolShape/en

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM PostCreateFunctionSphere
-   Name/de:FEM NachbereitungFunktionKugel
-   MenuLocation:Ergebnisse - Filterfunktionen - Kugel
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
+   Name: FEM PostCreateFunctionSphere
+   Name/de: FEM NachbereitungFunktionKugel
+   MenuLocation: Ergebnisse - Filterfunktionen - Kugel
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   SeeAlso: [FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM PostCreateFunctionSphere/de
@@ -65,4 +65,4 @@ Wenn das Sphere-Objekt in der [Baumansicht](Tree_view/de.md) ausgeblendet ist, w
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionSphere/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostCreateFunctionSphere/de

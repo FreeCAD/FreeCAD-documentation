@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FCGear HypoCycloidGear
-   MenuLocation:Gear - HypoCycloid Gear
-   Workbenches:[FCGear](FCGear_Workbench.md)
-   Shortcut:None
-   Version:1.0
-   SeeAlso:
+   Name: FCGear HypoCycloidGear
+   MenuLocation: Gear - HypoCycloid Gear
+   Workbenches: [FCGear](FCGear_Workbench.md)
+   Shortcut: None
+   Version: 1.0
+   SeeAlso: 
 ---
 
 # FCGear HypoCycloidGear
@@ -51,4 +51,4 @@ To display the cam disks and the set of rollers (pins) in different colours, we 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear HypoCycloidGear
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear HypoCycloidGear

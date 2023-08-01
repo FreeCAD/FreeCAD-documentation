@@ -38,4 +38,4 @@ Easy-Medium
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > GSoC FEM Unit Tests
+⏵ [documentation index](../README.md) > GSoC FEM Unit Tests

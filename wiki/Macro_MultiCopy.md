@@ -379,4 +379,4 @@ __Files__         = "MultiCopy_UI_Files/MultiCopy_Main_Dialog.ui, "\
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro MultiCopy
+⏵ [documentation index](../README.md) > Macro MultiCopy

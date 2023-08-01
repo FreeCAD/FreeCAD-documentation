@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Mirrored
-   Name/pl:Projekt Części: Odbicie lustrzane
-   MenuLocation:Projekt Części - Zastosuj przekształcenie - Odbicie lustrzane
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   SeeAlso:[Transformacja wielokrotna](PartDesign_MultiTransform/pl.md)
+   Name: PartDesign Mirrored
+   Name/pl: Projekt Części: Odbicie lustrzane
+   MenuLocation: Projekt Części - Zastosuj przekształcenie - Odbicie lustrzane
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   SeeAlso: [Transformacja wielokrotna](PartDesign_MultiTransform/pl.md)
 ---
 
 # PartDesign Mirrored/pl
@@ -116,4 +116,4 @@ Zobacz stronę o ograniczeniach [Szyku kołowego](PartDesign_PolarPattern/pl#Ogr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/pl

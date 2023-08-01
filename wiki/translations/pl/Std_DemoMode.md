@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std DemoMode
-   Name/pl:Std: Widok obrotowy
-   MenuLocation:Przybory - Widok obrotowy ...
-   Workbenches:wszystkie
+   Name: Std DemoMode
+   Name/pl: Std: Widok obrotowy
+   MenuLocation: Przybory - Widok obrotowy ...
+   Workbenches: wszystkie
 ---
 
 # Std DemoMode/pl
@@ -50,4 +50,4 @@ Polecenie **Widok obrotowy** powoduje ciągły obrót ujęcia widoku w oknie [wi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DemoMode/pl
+⏵ [documentation index](../README.md) > Std DemoMode/pl

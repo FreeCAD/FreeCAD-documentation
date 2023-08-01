@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std SelectVisibleObjects
-   Name/pl:Std: Wybierz widoczne obiekty
-   MenuLocation:Widok - Widoczność - Wybierz widoczne obiekty
-   Workbenches:wszystkie
+   Name: Std SelectVisibleObjects
+   Name/pl: Std: Wybierz widoczne obiekty
+   MenuLocation: Widok - Widoczność - Wybierz widoczne obiekty
+   Workbenches: wszystkie
 ---
 
 # Std SelectVisibleObjects/pl
@@ -28,4 +28,4 @@ Polecenie **Wybierz widoczne obiekty** zaznacza wszystkie widoczne obiekty. Zauw
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SelectVisibleObjects/pl
+⏵ [documentation index](../README.md) > Std SelectVisibleObjects/pl

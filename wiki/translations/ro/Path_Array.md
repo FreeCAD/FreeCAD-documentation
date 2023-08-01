@@ -1,6 +1,6 @@
 # Path Array/ro
 ---
-- GuiCommand:   Name:Path Array   Workbenches:[[Path Workbench   Path]]|MenuLocation:Path - Path Modification - Array   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Path Array   Workbenches: [[Path Workbench   Path]]|MenuLocation: Path - Path Modification - Array   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -73,4 +73,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Array/ro
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Array/ro

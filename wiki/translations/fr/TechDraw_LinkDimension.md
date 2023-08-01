@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw LinkDimension
-   Name/fr:TechDraw Lier une cote
-   MenuLocation:TechDraw - Dimensions -  Lier une cote à une géométrie 3D
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Vue](TechDraw_View/fr.md), [TechDraw Groupe de projection](TechDraw_ProjectionGroup/fr.md)
+   Name: TechDraw LinkDimension
+   Name/fr: TechDraw Lier une cote
+   MenuLocation: TechDraw - Dimensions -  Lier une cote à une géométrie 3D
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   SeeAlso: [TechDraw Vue](TechDraw_View/fr.md), [TechDraw Groupe de projection](TechDraw_ProjectionGroup/fr.md)
 ---
 
 # TechDraw LinkDimension/fr
@@ -70,4 +70,4 @@ L\'outil TechDraw Lier une cote n\'est pas directement utilisable dans les macro
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LinkDimension/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LinkDimension/fr

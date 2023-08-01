@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:TechDraw Symbol
-   MenuLocation:TechDraw - TechDraw Views - Insert SVG Symbol
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw Templates](TechDraw_Templates.md), [Draft SVG](Draft_SVG.md)
+   Name: TechDraw Symbol
+   MenuLocation: TechDraw - TechDraw Views - Insert SVG Symbol
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   SeeAlso: [TechDraw Templates](TechDraw_Templates.md), [Draft SVG](Draft_SVG.md)
 ---
 
 # TechDraw Symbol
@@ -67,4 +67,4 @@ rc = page.addView(sym)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Symbol
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Symbol

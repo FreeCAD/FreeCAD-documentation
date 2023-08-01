@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateLine
-   MenuLocation:Sketch - Sketcher geometries - Create line
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**G** **L**
-   SeeAlso:[Sketcher Polyline](Sketcher_CreatePolyline.md)
+   Name: Sketcher CreateLine
+   MenuLocation: Sketch - Sketcher geometries - Create line
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **G** **L**
+   SeeAlso: [Sketcher Polyline](Sketcher_CreatePolyline.md)
 ---
 
 # Sketcher CreateLine
@@ -30,4 +30,4 @@ The created line object starts and ends at the given points, but the line is inf
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine

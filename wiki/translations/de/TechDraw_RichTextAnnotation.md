@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw RichTextAnnotation
-   Name/de:TechDraw FormatierteTextAnmerkung
-   MenuLocation:TechDraw - Anmerkungen - Rich-Text-Anmerkungen einfügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[TechDraw Vorlagen](TechDraw_Templates/de.md)
+   Name: TechDraw RichTextAnnotation
+   Name/de: TechDraw FormatierteTextAnmerkung
+   MenuLocation: TechDraw - Anmerkungen - Rich-Text-Anmerkungen einfügen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [TechDraw Vorlagen](TechDraw_Templates/de.md)
 ---
 
 # TechDraw RichTextAnnotation/de
@@ -84,4 +84,4 @@ blockObj.AnnoText = myHTMLText
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RichTextAnnotation/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RichTextAnnotation/de

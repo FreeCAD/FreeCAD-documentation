@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path Fixture
-   Name/fr:Path Fixation
-   MenuLocation:Path - Autres commandes - Fixation
-   Workbenches:[Path](Path_Workbench/fr.md)
+   Name: Path Fixture
+   Name/fr: Path Fixation
+   MenuLocation: Path - Autres commandes - Fixation
+   Workbenches: [Path](Path_Workbench/fr.md)
 ---
 
 # Path Fixture/fr
@@ -56,4 +56,4 @@ La commande G59 Fixation est utilisée pour étendre les fixations disponibles. 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Fixture/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Fixture/fr

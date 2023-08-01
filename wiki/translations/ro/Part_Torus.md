@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Torus
-   Name/ro:Part Torus
-   MenuLocation:Part - Torus
+   Name: Part Torus
+   Name/ro: Part Torus
+   MenuLocation: Part - Torus
 |
-   Workbenches:[Part](Part_Workbench/ro.md), Complete
-   SeeAlso:[Part CreatePrimitives](Part_CreatePrimitives/ro.md)
+   Workbenches: [Part](Part_Workbench/ro.md), Complete
+   SeeAlso: [Part CreatePrimitives](Part_CreatePrimitives/ro.md)
 ---
 
 # Part Torus/ro
@@ -137,4 +137,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/ro

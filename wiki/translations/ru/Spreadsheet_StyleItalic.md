@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Курсивный текст
-   Name:Spreadsheet_StyleItalic
-   MenuLocation:Электронная таблица - Styles - Курсивный текст
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/ru.md)
-   Version:0.17
+   Name/ru: Курсивный текст
+   Name: Spreadsheet_StyleItalic
+   MenuLocation: Электронная таблица - Styles - Курсивный текст
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/ru.md)
+   Version: 0.17
 ---
 
 # Spreadsheet StyleItalic/ru
@@ -30,4 +30,4 @@ The **[<img src=images/Spreadsheet_StyleItalic.svg style="width:16px"> [Spreadsh
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleItalic/ru
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleItalic/ru

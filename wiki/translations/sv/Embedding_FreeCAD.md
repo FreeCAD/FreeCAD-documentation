@@ -1,6 +1,4 @@
 # Embedding FreeCAD/sv
-{{TOCright}}
-
 ## Introduction
 
 
@@ -177,4 +175,4 @@ Since the FreeCAD Python module is compiled from C++ (rather than being a pure P
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Embedding FreeCAD/sv
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Embedding FreeCAD/sv

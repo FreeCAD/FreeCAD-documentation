@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateArc
-   Name/ro:Sketcher Arc
-   Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation:Sketch - Sketcher geometries - Create arc
-   SeeAlso:[Sketcher Circle](Sketcher_CompCreateCircle/ro.md)
+   Name: Sketcher CreateArc
+   Name/ro: Sketcher Arc
+   Workbenches: [Sketcher](Sketcher_Workbench/ro.md)
+   MenuLocation: Sketch - Sketcher geometries - Create arc
+   SeeAlso: [Sketcher Circle](Sketcher_CompCreateCircle/ro.md)
 ---
 
 # Sketcher CreateArc/ro
@@ -52,4 +52,4 @@ Când este activat acest instrument, indicatorul mouse-ului se transformă într
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/ro

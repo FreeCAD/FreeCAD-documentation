@@ -2,7 +2,7 @@
 **Данная статья нуждается в развитии. Пожалуйста, внесите в неё вклад своими знаниями!**
 
 
-{{TOCright}}
+
 
 ## Background
 
@@ -161,4 +161,4 @@ PyAPI_FUNC(int) PyArg_VaParseTupleAndKeywords (PyObject *, PyObject *, const cha
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > Wrapping a Cplusplus class in Python/ru
+⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > Wrapping a Cplusplus class in Python/ru

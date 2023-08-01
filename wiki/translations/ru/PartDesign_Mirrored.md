@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Симметрия
-   Name:PartDesign_Mirrored
-   MenuLocation:Part Design - Apply a pattern - Симметрия
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   SeeAlso:[Множественное преобразование](PartDesign_MultiTransform/ru.md)
+   Name/ru: Симметрия
+   Name: PartDesign_Mirrored
+   MenuLocation: Part Design - Apply a pattern - Симметрия
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso: [Множественное преобразование](PartDesign_MultiTransform/ru.md)
 ---
 
 # PartDesign Mirrored/ru
@@ -104,4 +104,4 @@ The <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> **PartD
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/ru

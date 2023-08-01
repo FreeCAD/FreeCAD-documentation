@@ -12,4 +12,4 @@ Ta kategoria gromadzi strony związane z pakietowaniem FreeCAD na różne platfo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Packaging/pl
+⏵ [documentation index](../README.md) > Category:Packaging/pl

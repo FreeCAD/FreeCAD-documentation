@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM SolverControl
-   MenuLocation:Solve - Solver job control
-   Workbenches:[FEM](FEM_Workbench.md)
-   Shortcut:**S** **T**
-   SeeAlso:[FEM Run solver calculations](FEM_SolverRun.md)
+   Name: FEM SolverControl
+   MenuLocation: Solve - Solver job control
+   Workbenches: [FEM](FEM_Workbench.md)
+   Shortcut: **S** **T**
+   SeeAlso: [FEM Run solver calculations](FEM_SolverRun.md)
 ---
 
 # FEM SolverControl/en
@@ -45,4 +45,4 @@ This command is used to control the FEM solver (write the input file, edit it, a
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverControl/en
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverControl/en

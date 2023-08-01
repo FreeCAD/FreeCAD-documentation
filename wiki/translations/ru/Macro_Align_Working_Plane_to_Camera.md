@@ -38,4 +38,4 @@ FreeCADGui.Snapper.setGrid()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Align Working Plane to Camera/ru
+⏵ [documentation index](../README.md) > Macro Align Working Plane to Camera/ru

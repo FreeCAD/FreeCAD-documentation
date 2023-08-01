@@ -1,6 +1,4 @@
 # Headless FreeCAD/fr
-{{TOCright}}
-
 ## Introduction
 
 Cette page wiki documente les différents aspects de l\'exécution de FreeCAD dans la console sans activer l\'interface utilisateur graphique (GUI) ou aussi appelé \"headless\".
@@ -52,4 +50,4 @@ Voir : [fil du forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=55794&p=
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Headless FreeCAD/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Headless FreeCAD/fr

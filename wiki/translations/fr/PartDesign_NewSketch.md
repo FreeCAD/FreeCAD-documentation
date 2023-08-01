@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign NewSketch
-   Name/fr:PartDesign Esquisse
-   MenuLocation:Esquisse - Créer une esquisse
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[Sketcher Esquisse](Sketcher_NewSketch/fr.md)
+   Name: PartDesign NewSketch
+   Name/fr: PartDesign Esquisse
+   MenuLocation: Esquisse - Créer une esquisse
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [Sketcher Esquisse](Sketcher_NewSketch/fr.md)
 ---
 
 # PartDesign NewSketch/fr
@@ -74,4 +74,4 @@ Pour référencer des éléments dans l\'[atelier Sketcher](Sketcher_Workbench/f
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/fr

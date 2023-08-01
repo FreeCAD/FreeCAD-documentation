@@ -1,6 +1,6 @@
 # Part Mirror/it
 ---
-- GuiCommand:   Name:Part_Mirror   Name/it:Specchia   MenuLocation:Parte - Specchia...   Workbenches:[[Part_Workbench/it   Parte]]|SeeAlso:---
+- GuiCommand:   Name: Part_Mirror   Name/it: Specchia   MenuLocation: Parte - Specchia...   Workbenches: [[Part_Workbench/it   Parte]]|SeeAlso: ---
 
 
 </div>
@@ -69,4 +69,4 @@ Le caselle **Punto base** possono essere utilizzate per spostare il piano di spe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/it

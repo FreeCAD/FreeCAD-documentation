@@ -71,4 +71,4 @@ Exemple :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro MessageBox/fr
+⏵ [documentation index](../README.md) > Macro MessageBox/fr

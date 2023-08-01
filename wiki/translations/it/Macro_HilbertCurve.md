@@ -292,4 +292,4 @@ hilbert_dialog.exec()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro HilbertCurve/it
+⏵ [documentation index](../README.md) > Macro HilbertCurve/it

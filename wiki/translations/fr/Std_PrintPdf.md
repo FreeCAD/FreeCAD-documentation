@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std PrintPdf
-   Name/fr:Std Exporter au format PDF
-   MenuLocation:Fichier - Exporter au format PDF
-   Workbenches:Tous
-   SeeAlso:[Std Imprimer](Std_Print/fr.md), [Exporter](Std_Export/fr.md), [Std Capture d'écran](Std_ViewScreenShot.md)
+   Name: Std PrintPdf
+   Name/fr: Std Exporter au format PDF
+   MenuLocation: Fichier - Exporter au format PDF
+   Workbenches: Tous
+   SeeAlso: [Std Imprimer](Std_Print/fr.md), [Exporter](Std_Export/fr.md), [Std Capture d'écran](Std_ViewScreenShot.md)
 ---
 
 # Std PrintPdf/fr
@@ -50,4 +50,4 @@ La commande **Std Exporter au format PDF** est principalement destinée à crée
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std PrintPdf/fr
+⏵ [documentation index](../README.md) > Std PrintPdf/fr

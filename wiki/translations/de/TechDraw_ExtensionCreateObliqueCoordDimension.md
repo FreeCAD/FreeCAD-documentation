@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionCreateObliqueCoordDimension
-   Name/de:TechDraw ErgänzungSchrägeKoordinatenmaße
-   MenuLocation:TechDraw - Ergänzungen: Maße - Schräge Koordinatenmaße erstellen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ErgänzungHorizontaleKoordinatenmaße](TechDraw_ExtensionCreateHorizCoordDimension/de.md), [TechDraw ErgänzungVertikaleKoordinatenmaße](TechDraw_ExtensionCreateVertCoordDimension/de.md)
+   Name: TechDraw ExtensionCreateObliqueCoordDimension
+   Name/de: TechDraw ErgänzungSchrägeKoordinatenmaße
+   MenuLocation: TechDraw - Ergänzungen: Maße - Schräge Koordinatenmaße erstellen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ErgänzungHorizontaleKoordinatenmaße](TechDraw_ExtensionCreateHorizCoordDimension/de.md), [TechDraw ErgänzungVertikaleKoordinatenmaße](TechDraw_ExtensionCreateVertCoordDimension/de.md)
 ---
 
 # TechDraw ExtensionCreateObliqueCoordDimension/de
@@ -56,4 +56,4 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionCreateObliqueCoordDimensio
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateObliqueCoordDimension/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateObliqueCoordDimension/de

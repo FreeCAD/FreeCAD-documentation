@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM MaterialFluid
-   Name/de:FEM MaterialFluide
-   MenuLocation:Modell - Materialien - Material für Fluide
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
+   Name: FEM MaterialFluid
+   Name/de: FEM MaterialFluide
+   MenuLocation: Modell - Materialien - Material für Fluide
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   SeeAlso: [FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM MaterialFluid/de
@@ -45,4 +45,4 @@ Fügt einem Teil Fluideigenschaften hinzu.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialFluid/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialFluid/de

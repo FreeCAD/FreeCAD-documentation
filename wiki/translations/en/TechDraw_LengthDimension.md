@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:TechDraw LengthDimension
-   MenuLocation:TechDraw - Dimensions - Insert Length Dimension
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw HorizontalDimension](TechDraw_HorizontalDimension.md), [TechDraw VerticalDimension](TechDraw_VerticalDimension.md)
+   Name: TechDraw LengthDimension
+   MenuLocation: TechDraw - Dimensions - Insert Length Dimension
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   SeeAlso: [TechDraw HorizontalDimension](TechDraw_HorizontalDimension.md), [TechDraw VerticalDimension](TechDraw_VerticalDimension.md)
 ---
 
 # TechDraw LengthDimension/en
@@ -338,4 +338,4 @@ rc = page.addView(dim1)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LengthDimension/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LengthDimension/en

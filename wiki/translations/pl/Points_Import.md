@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Points Import
-   Name/pl:Punkty: Import
-   MenuLocation:Punkty - Import punktów ...
-   Workbenches:[Punkty](Points_Workbench/pl.md)
-   SeeAlso:[Import Eksport](Import_Export/pl.md)
+   Name: Points Import
+   Name/pl: Punkty: Import
+   MenuLocation: Punkty - Import punktów ...
+   Workbenches: [Punkty](Points_Workbench/pl.md)
+   SeeAlso: [Import Eksport](Import_Export/pl.md)
 ---
 
 # Points Import/pl
@@ -51,4 +51,4 @@ Do testów możesz użyć [ten plik](https://raw.githubusercontent.com/FreeCAD/E
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Import/pl
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Import/pl

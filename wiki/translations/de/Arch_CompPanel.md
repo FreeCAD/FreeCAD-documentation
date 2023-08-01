@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch CompPanel
-   Name/de:Arch BildePaneel
-   MenuLocation:Arch - Paneel
-   Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
-   SeeAlso:
-   Version:0.17
+   Name: Arch CompPanel
+   Name/de: Arch BildePaneel
+   MenuLocation: Arch - Paneel
+   Workbenches: [Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   SeeAlso: 
+   Version: 0.17
 ---
 
 # Arch CompPanel/de
@@ -30,4 +30,4 @@ Gruppierung mehrerer Paneel bezogener Werkzeuge.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPanel/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPanel/de

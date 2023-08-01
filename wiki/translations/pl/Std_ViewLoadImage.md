@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ViewLoadImage
-   Name/pl:Std: Załaduj obraz
-   MenuLocation:Przybory - Załaduj obraz ...
-   Workbenches:wszystkie
-   Version:0.21
+   Name: Std ViewLoadImage
+   Name/pl: Std: Załaduj obraz
+   MenuLocation: Przybory - Załaduj obraz ...
+   Workbenches: wszystkie
+   Version: 0.21
 ---
 
 # Std ViewLoadImage/pl
@@ -45,4 +45,4 @@ Polecenie **Załaduj obraz** otwiera obraz w nowej karcie w [głównego obszaru 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewLoadImage/pl
+⏵ [documentation index](../README.md) > Std ViewLoadImage/pl

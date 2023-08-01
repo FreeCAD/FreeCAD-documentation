@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Chamfer
-   Name/de:Part Fase
-   MenuLocation:Part - Anfasen...
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Verrundung](Part_Fillet/de.md)
+   Name: Part Chamfer
+   Name/de: Part Fase
+   MenuLocation: Part - Anfasen...
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: [Part Verrundung](Part_Fillet/de.md)
 ---
 
 # Part Chamfer/de
@@ -173,4 +173,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/de

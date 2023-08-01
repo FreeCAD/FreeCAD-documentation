@@ -10,4 +10,4 @@ This category lists pages that relate to using the wiki effectively for document
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Wiki Documentation
+⏵ [documentation index](../README.md) > Category:Wiki Documentation

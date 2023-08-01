@@ -1,6 +1,4 @@
 # Scenegraph/pl
-{{TOCright}}
-
 ## Wprowadzenie
 
 Geometria, która pojawia się w oknie [widoku 3D](3D_view/pl.md) programu FreeCAD jest renderowana przez bibliotekę [Coin3D](https://en.wikipedia.org/wiki/Coin3D). Coin3D jest implementacją standardu [Open Inventor](https://en.wikipedia.org/wiki/Open_Inventor). Oprogramowanie [OpenCASCADE](https://en.wikipedia.org/wiki/Open_Cascade_Technology) również zapewnia tę samą funkcjonalność, ale na bardzo wczesnym etapie rozwoju programu FreeCAD zdecydowano, aby nie używać wbudowanej przeglądarki OpenCASCADE, lecz przejść na bardziej wydajne oprogramowanie Coin3D. Dobrym sposobem na zapoznanie się z tą biblioteką jest książka [Open Inventor Mentor](http://www-evasion.imag.fr/Membres/Francois.Faure/doc/inventorMentor/sgi_html/).
@@ -73,4 +71,4 @@ Zobacz stronę [wycinki Coin3d](Coin3d_snippets/pl.md) dzięki uprzejmości Mari
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scenegraph/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scenegraph/pl

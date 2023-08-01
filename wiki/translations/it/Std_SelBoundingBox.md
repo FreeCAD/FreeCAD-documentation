@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_SelBoundingBox
-   Name/it:Box contenitore
-   MenuLocation:Visualizza - Box contenitore
-   Workbenches:Tutti
-   Version:0.19
-   SeeAlso:[Stile di disegno](Std_DrawStyle/it.md)
+   Name: Std_SelBoundingBox
+   Name/it: Box contenitore
+   MenuLocation: Visualizza - Box contenitore
+   Workbenches: Tutti
+   Version: 0.19
+   SeeAlso: [Stile di disegno](Std_DrawStyle/it.md)
 ---
 
 # Std SelBoundingBox/it
@@ -65,4 +65,4 @@ FreeCADGui.updateCommands()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SelBoundingBox/it
+⏵ [documentation index](../README.md) > Std SelBoundingBox/it

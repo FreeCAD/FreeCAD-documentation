@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std FreezeViews
-   MenuLocation:View - Freeze display - ...
-   Workbenches:All
-   SeeAlso:[Std StoreWorkingView](Std_StoreWorkingView.md), [Std RecallWorkingView](Std_RecallWorkingView.md), [Std ViewIvIssueCamPos](Std_ViewIvIssueCamPos.md)
+   Name: Std FreezeViews
+   MenuLocation: View - Freeze display - ...
+   Workbenches: All
+   SeeAlso: [Std StoreWorkingView](Std_StoreWorkingView.md), [Std RecallWorkingView](Std_RecallWorkingView.md), [Std ViewIvIssueCamPos](Std_ViewIvIssueCamPos.md)
 ---
 
 # Std FreezeViews/en
@@ -93,4 +93,4 @@ For each frozen view a **Restore view** option is added with which it can be res
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std FreezeViews/en
+⏵ [documentation index](../README.md) > Std FreezeViews/en

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 CreateElement
-   Icon:Assembly_New_Element.svg
-   MenuLocation:Assembly3 - Create element
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
-   Shortcut:**A** **E**
+   Name: Assembly3 CreateElement
+   Icon: Assembly_New_Element.svg
+   MenuLocation: Assembly3 - Create element
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
+   Shortcut: **A** **E**
 ---
 
 # Assembly3 CreateElement/en
@@ -26,4 +26,4 @@ It can be used to prepare **elements** before the use of constraints.  This coul
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 CreateElement/en
+⏵ [documentation index](../README.md) > Assembly3 CreateElement/en

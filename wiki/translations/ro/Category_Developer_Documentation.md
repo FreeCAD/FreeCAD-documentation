@@ -29,4 +29,4 @@ This category gathers documentation article mostly aimed at programmers
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Developer Documentation/ro
+⏵ [documentation index](../README.md) > Category:Developer Documentation/ro

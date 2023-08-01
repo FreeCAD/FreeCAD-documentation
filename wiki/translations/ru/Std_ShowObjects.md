@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ShowObjects
-   Name/ru:Std ShowObjects
-   MenuLocation:Вид - Видимость - Показать все объекты
-   Workbenches:All
-   SeeAlso:[Std ToggleVisibility](Std_ToggleVisibility/ru.md), [Std ShowSelection](Std_ShowSelection/ru.md), [Std HideSelection](Std_HideSelection/ru.md), [Std ToggleObjects](Std_ToggleObjects/ru.md), [Std HideObjects](Std_HideObjects/ru.md)
+   Name: Std ShowObjects
+   Name/ru: Std ShowObjects
+   MenuLocation: Вид - Видимость - Показать все объекты
+   Workbenches: All
+   SeeAlso: [Std ToggleVisibility](Std_ToggleVisibility/ru.md), [Std ShowSelection](Std_ShowSelection/ru.md), [Std HideSelection](Std_HideSelection/ru.md), [Std ToggleObjects](Std_ToggleObjects/ru.md), [Std HideObjects](Std_HideObjects/ru.md)
 ---
 
 # Std ShowObjects/ru
@@ -42,4 +42,4 @@ The **Std ShowObjects** command shows all objects belonging to the active docume
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ShowObjects/ru
+⏵ [documentation index](../README.md) > Std ShowObjects/ru

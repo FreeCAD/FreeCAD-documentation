@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std PrintPreview
-   Name/pl:Std: Podgląd wydruku
-   MenuLocation:Plik - Podgląd wydruku ...
-   Workbenches:wszystkie
-   SeeAlso:[Drukuj](Std_Print/pl.md)
+   Name: Std PrintPreview
+   Name/pl: Std: Podgląd wydruku
+   MenuLocation: Plik - Podgląd wydruku ...
+   Workbenches: wszystkie
+   SeeAlso: [Drukuj](Std_Print/pl.md)
 ---
 
 # Std PrintPreview/pl
@@ -41,4 +41,4 @@ Polecenie **Podgląd wydruku** wyświetli podgląd wyniku polecenia [Drukuj](Std
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std PrintPreview/pl
+⏵ [documentation index](../README.md) > Std PrintPreview/pl

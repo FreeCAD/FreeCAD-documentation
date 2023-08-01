@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM PostApplyChanges
-   Name/pl:MES Zastosuj zmiany
-   MenuLocation:Wyniki - Zastosuj zmiany
-   Workbenches:[MES](FEM_Workbench/pl.md)
-   SeeAlso:[Odśwież](Std_Refresh/pl.md), [Komponent funkcje](FEM_PostCreateFunctions/pl.md)
+   Name: FEM PostApplyChanges
+   Name/pl: MES Zastosuj zmiany
+   MenuLocation: Wyniki - Zastosuj zmiany
+   Workbenches: [MES](FEM_Workbench/pl.md)
+   SeeAlso: [Odśwież](Std_Refresh/pl.md), [Komponent funkcje](FEM_PostCreateFunctions/pl.md)
 ---
 
 # FEM PostApplyChanges/pl
@@ -36,4 +36,4 @@ Kliknij przycisk na pasku narzędzi **<img src="images/FEM_PostApplyChanges.svg"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostApplyChanges/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostApplyChanges/pl

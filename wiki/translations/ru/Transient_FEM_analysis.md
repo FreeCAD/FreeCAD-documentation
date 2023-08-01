@@ -125,4 +125,4 @@ setup()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > Transient FEM analysis/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > Transient FEM analysis/ru

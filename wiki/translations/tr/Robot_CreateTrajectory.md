@@ -1,10 +1,10 @@
 # Robot CreateTrajectory/tr
 ---
 - GuiCommand:
-   Name:Robot CreateTrajectory
-   Name/tr:Yörünge oluştur
-   Workbenches:[Robot](Robot_Workbench/tr.md)
-   MenuLocation:Robot - Yörünge oluştur---
+   Name: Robot CreateTrajectory
+   Name/tr: Yörünge oluştur
+   Workbenches: [Robot](Robot_Workbench/tr.md)
+   MenuLocation: Robot - Yörünge oluştur---
 
 
 </div>
@@ -52,4 +52,4 @@ Sahneye yeni bir boş yörünge nesnesi ekler.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateTrajectory/tr
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateTrajectory/tr

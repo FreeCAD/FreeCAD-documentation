@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Добавить осевую линию между 2 точками
-   Name:TechDraw_2PointCenterLine
-   MenuLocation:TechDraw - Добавить Линии - Добавить осевую линию между 2 точками
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Добавить осевую линию к граням](TechDraw_FaceCenterLine/ru.md), [Добавить осевую линию между 2 линиями](TechDraw_2LineCenterLine/ru.md)
+   Name/ru: Добавить осевую линию между 2 точками
+   Name: TechDraw_2PointCenterLine
+   MenuLocation: TechDraw - Добавить Линии - Добавить осевую линию между 2 точками
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Добавить осевую линию к граням](TechDraw_FaceCenterLine/ru.md), [Добавить осевую линию между 2 линиями](TechDraw_2LineCenterLine/ru.md)
 ---
 
 # TechDraw 2PointCenterLine/ru
@@ -58,4 +58,4 @@ Centerlines have no properties of their own, as they are not document objects.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2PointCenterLine/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2PointCenterLine/ru

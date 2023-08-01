@@ -1,6 +1,6 @@
 # Sketcher ConstrainHorizontal/it
 ---
-- GuiCommand:   Name:Constraint Horizontal   Name/it:Vincolo orizzontale   Workbenches:[PartDesign](Sketcher_Workbench/it___Schizzo]],_[[PartDesign_Workbench/it.md)|Shortcut:**H**   MenuLocation:PartDesign - Vincoli - Orizzontale   SeeAlso:[Verticale](Sketcher_ConstrainVertical/it.md)---
+- GuiCommand:   Name: Constraint Horizontal   Name/it: Vincolo orizzontale   Workbenches: [PartDesign](Sketcher_Workbench/it___Schizzo]],_[[PartDesign_Workbench/it.md)|Shortcut: **H**   MenuLocation: PartDesign - Vincoli - Orizzontale   SeeAlso: [Verticale](Sketcher_ConstrainVertical/it.md)---
 
 
 </div>
@@ -80,4 +80,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/it

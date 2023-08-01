@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FCGear BevelGear
-   Name/it:Ingranaggio conico
-   MenuLocation:FCGear - Create a Bevel gear
-   Workbenches:[FCGear](FCGear_Workbench/it.md)
-   Version:0.16
+   Name: FCGear BevelGear
+   Name/it: Ingranaggio conico
+   MenuLocation: FCGear - Create a Bevel gear
+   Workbenches: [FCGear](FCGear_Workbench/it.md)
+   Version: 0.16
 ---
 
 # FCGear BevelGear/it
@@ -125,4 +125,4 @@ Substantive reference cone angle \[TECH.\]
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear BevelGear/it
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear BevelGear/it

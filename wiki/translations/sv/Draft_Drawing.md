@@ -1,6 +1,6 @@
 # Draft Drawing/sv
 ---
-- GuiCommand:   Name:Draft_Drawing   Name/sv:Draft Drawing   Workbenches:[[Draft_Workbench/sv   Skiss]]|MenuLocation:Drafting - Drawing---
+- GuiCommand:   Name: Draft_Drawing   Name/sv: Draft Drawing   Workbenches: [[Draft_Workbench/sv   Skiss]]|MenuLocation: Drafting - Drawing---
 
 
 </div>
@@ -43,4 +43,4 @@ This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Drawing/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Drawing/sv

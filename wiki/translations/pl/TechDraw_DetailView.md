@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw DetailView
-   Name/pl:Rysunek Techniczny: Wstaw widok szczegółu
-   MenuLocation:Rysunek Techniczny - Wstaw widok szczegółu
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso:[Wstaw widok](TechDraw_View/pl.md), [Wstaw grupę rzutów](TechDraw_ProjectionGroup/pl.md)
+   Name: TechDraw DetailView
+   Name/pl: Rysunek Techniczny: Wstaw widok szczegółu
+   MenuLocation: Rysunek Techniczny - Wstaw widok szczegółu
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   SeeAlso: [Wstaw widok](TechDraw_View/pl.md), [Wstaw grupę rzutów](TechDraw_ProjectionGroup/pl.md)
 ---
 
 # TechDraw DetailView/pl
@@ -94,4 +94,4 @@ Detail = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDetail','Detail')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DetailView/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DetailView/pl

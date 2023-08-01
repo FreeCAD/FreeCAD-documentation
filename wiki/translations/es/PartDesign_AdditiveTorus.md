@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveTorus
-   Name/es:Part Design Toro aditivo
-   Workbenches:[Part Design](PartDesign_Workbench/es.md)
-   MenuLocation:Part Design - Crear una primitiva aditiva - Toro aditivo
-   Version:0.17
-   SeeAlso:[Part Design Crear una Primitiva aditiva](PartDesign_CompPrimitiveAdditive/es.md)
+   Name: PartDesign AdditiveTorus
+   Name/es: Part Design Toro aditivo
+   Workbenches: [Part Design](PartDesign_Workbench/es.md)
+   MenuLocation: Part Design - Crear una primitiva aditiva - Toro aditivo
+   Version: 0.17
+   SeeAlso: [Part Design Crear una Primitiva aditiva](PartDesign_CompPrimitiveAdditive/es.md)
 ---
 
 # PartDesign AdditiveTorus/es
@@ -78,4 +78,4 @@ Tras su creación, el Toro puede ser editado de dos maneras:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveTorus/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveTorus/es

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractiveSphere
-   Name/pl:Projekt Części: Subtraktywna sfera
-   MenuLocation:Projekt Części - Utwórz cechę przez odjęcie - Subtraktywna sfera
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Komponent bryła pierwotna do odjęcia](PartDesign_CompPrimitiveSubtractive/pl.md), [Addytywna sfera](PartDesign_AdditiveSphere/pl.md)
+   Name: PartDesign SubtractiveSphere
+   Name/pl: Projekt Części: Subtraktywna sfera
+   MenuLocation: Projekt Części - Utwórz cechę przez odjęcie - Subtraktywna sfera
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Komponent bryła pierwotna do odjęcia](PartDesign_CompPrimitiveSubtractive/pl.md), [Addytywna sfera](PartDesign_AdditiveSphere/pl.md)
 ---
 
 # PartDesign SubtractiveSphere/pl
@@ -63,4 +63,4 @@ Sferę można edytować po jej utworzeniu na dwa sposoby:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveSphere/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveSphere/pl

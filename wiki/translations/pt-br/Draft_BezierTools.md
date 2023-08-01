@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BezierTools/pt-br
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BezierTools/pt-br

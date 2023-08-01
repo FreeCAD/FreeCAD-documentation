@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign NewSketch
-   Name/pl:Projekt Części: Utwór szkic
-   MenuLocation:Szkic - Utwór szkic
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Utwór szkic](Sketcher_NewSketch/pl.md)
+   Name: PartDesign NewSketch
+   Name/pl: Projekt Części: Utwór szkic
+   MenuLocation: Szkic - Utwór szkic
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Utwór szkic](Sketcher_NewSketch/pl.md)
 ---
 
 # PartDesign NewSketch/pl
@@ -78,4 +78,4 @@ Aby odwołać się do dowolnych elementów w w obrębie środowiska pracy [Szkic
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/pl

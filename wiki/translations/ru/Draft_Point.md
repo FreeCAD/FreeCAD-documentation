@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Point
-   Name/ru:Draft Point
-   MenuLocation:Черчение -> Точка
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:P T
+   Name: Draft Point
+   Name/ru: Draft Point
+   MenuLocation: Черчение -> Точка
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: P T
 ---
 
 # Draft Point/ru
@@ -145,4 +145,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Point/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Point/ru

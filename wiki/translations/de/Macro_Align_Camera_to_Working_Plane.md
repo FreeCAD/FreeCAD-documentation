@@ -43,4 +43,4 @@ c.orientation.setValue(r)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Align Camera to Working Plane/de
+⏵ [documentation index](../README.md) > Macro Align Camera to Working Plane/de

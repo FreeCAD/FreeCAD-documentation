@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ToggleNavigation
-   Name/pl:Std: Przełącz tryb nawigacja / edycja
-   MenuLocation:Widok - Przełącz tryb nawigacja / edycja
-   Workbenches:wszystkie
-   Shortcut:**Esc**
+   Name: Std ToggleNavigation
+   Name/pl: Std: Przełącz tryb nawigacja / edycja
+   MenuLocation: Widok - Przełącz tryb nawigacja / edycja
+   Workbenches: wszystkie
+   Shortcut: **Esc**
 ---
 
 # Std ToggleNavigation/pl
@@ -57,4 +57,4 @@ Nie należy mylić tego polecenia z poleceniem [Std: Edycja](Std_Edit/pl.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleNavigation/pl
+⏵ [documentation index](../README.md) > Std ToggleNavigation/pl

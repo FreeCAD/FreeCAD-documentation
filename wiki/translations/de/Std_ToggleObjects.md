@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ToggleObjects
-   Name/de:Std ObjekteUmschalten
-   MenuLocation:Ansicht - Sichtbarkeit - Alle Objekte umkehren
-   Workbenches:Alle
-   SeeAlso:[Std SichtbarkeitUmschalten](Std_ToggleVisibility/de.md), [Std AuswahlEinblenden](Std_ShowSelection/de.md), [Std AuswahlAusblenden](Std_HideSelection.md), [Std ObjekteEinblenden](Std_ShowObjects/de.md), [Std ObjekteAusblenden](Std_HideObjects/de.md)
+   Name: Std ToggleObjects
+   Name/de: Std ObjekteUmschalten
+   MenuLocation: Ansicht - Sichtbarkeit - Alle Objekte umkehren
+   Workbenches: Alle
+   SeeAlso: [Std SichtbarkeitUmschalten](Std_ToggleVisibility/de.md), [Std AuswahlEinblenden](Std_ShowSelection/de.md), [Std AuswahlAusblenden](Std_HideSelection.md), [Std ObjekteEinblenden](Std_ShowObjects/de.md), [Std ObjekteAusblenden](Std_HideObjects/de.md)
 ---
 
 # Std ToggleObjects/de
@@ -53,4 +53,4 @@ Für ein Beispiel-Skript siehe [Std SichbarkeitUmschalten](Std_ToggleVisibility/
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleObjects/de
+⏵ [documentation index](../README.md) > Std ToggleObjects/de

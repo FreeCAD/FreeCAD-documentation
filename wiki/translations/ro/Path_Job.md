@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Path Job
-   Name/ro:Path: Job/Prelucrare
-   Workbenches:[Path](Path_Workbench.md)
-   MenuLocation:Path - Job
-   Shortcut:**P** **F**
-   SeeAlso:
+   Name: Path Job
+   Name/ro: Path: Job/Prelucrare
+   Workbenches: [Path](Path_Workbench.md)
+   MenuLocation: Path - Job
+   Shortcut: **P** **F**
+   SeeAlso: 
 ---
 
 # Path Job/ro
@@ -146,4 +146,4 @@ Dacă aveți o activitate care susține mai multe operațiuni de traiectorie, pu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/ro
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/ro

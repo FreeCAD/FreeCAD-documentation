@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ToggleConstruction
-   Name/cs: Skicář Změna konst.módu
-   Icon:Sketcher_AlterConstruction.svg
-   Workbenches:[Skicář](Sketcher_Workbench/cs.md)
-   MenuLocation:Náčrt - Skicář Konstrukce -  Změna konst.módu
+   Name: Sketcher ToggleConstruction
+   Name/cs:  Skicář Změna konst.módu
+   Icon: Sketcher_AlterConstruction.svg
+   Workbenches: [Skicář](Sketcher_Workbench/cs.md)
+   MenuLocation: Náčrt - Skicář Konstrukce -  Změna konst.módu
 ---
 
 # Sketcher ToggleConstruction/cs
@@ -86,4 +86,4 @@ V editačním módu náčrtu jsou podpůrné konstrukce zobrazeny modře a nezez
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/cs
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/cs

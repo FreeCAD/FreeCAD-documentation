@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Lock
-   Name/sv:Draft ToggleSnap
-   Workbenches:[Draft](Draft_Workbench/sv.md), [Arch](Arch_Workbench/sv.md)
-   MenuLocation:Draft - Utilities - Toggle snap
+   Name: Draft Snap Lock
+   Name/sv: Draft ToggleSnap
+   Workbenches: [Draft](Draft_Workbench/sv.md), [Arch](Arch_Workbench/sv.md)
+   MenuLocation: Draft - Utilities - Toggle snap
 ---
 
 # Draft Snap Lock/sv
@@ -29,4 +29,4 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/sv
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/sv

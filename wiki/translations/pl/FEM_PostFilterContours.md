@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM PostFilterContours
-   MenuLocation:Results - Contours filter
-   Workbenches:[FEM](FEM_Workbench.md)
-   Version:0.21
-   SeeAlso:[FEM Result pipeline](FEM_PostPipelineFromResult.md), [FEM Filter functions](FEM_PostCreateFunctions.md), [FEM tutorial](FEM_tutorial.md)
+   Name: FEM PostFilterContours
+   MenuLocation: Results - Contours filter
+   Workbenches: [FEM](FEM_Workbench.md)
+   Version: 0.21
+   SeeAlso: [FEM Result pipeline](FEM_PostPipelineFromResult.md), [FEM Filter functions](FEM_PostCreateFunctions.md), [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM PostFilterContours/pl
@@ -147,4 +147,4 @@ If you use contours only on a part of the mesh, for example when you have a clip
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterContours/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostFilterContours/pl

@@ -1,6 +1,6 @@
 # FEM ConstraintFlowVelocity/it
 ---
-- GuiCommand:   Name:FEM_ConstraintFlowVelocity   Name/it:Vincolo velocità del flusso   Icon:Fem-constraint-flow-velocity.svg   MenuLocation: Modello - Vincoli dei fluidi - Vincolo velocità del flusso   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:   Name: FEM_ConstraintFlowVelocity   Name/it: Vincolo velocità del flusso   Icon: Fem-constraint-flow-velocity.svg   MenuLocation:  Modello - Vincoli dei fluidi - Vincolo velocità del flusso   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 
 </div>
@@ -106,4 +106,4 @@ It is also possible to use more than one variable. See as example the definition
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintFlowVelocity/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintFlowVelocity/it

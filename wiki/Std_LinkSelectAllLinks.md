@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std LinkSelectAllLinks
-   MenuLocation:
-   Workbenches:All
-   Version:0.19
-   SeeAlso:[Std LinkSelectLinked](Std_LinkSelectLinked.md), [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal.md), [Std SelBack](Std_SelBack.md), [Std SelForward](Std_SelForward.md)
+   Name: Std LinkSelectAllLinks
+   MenuLocation: 
+   Workbenches: All
+   Version: 0.19
+   SeeAlso: [Std LinkSelectLinked](Std_LinkSelectLinked.md), [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal.md), [Std SelBack](Std_SelBack.md), [Std SelForward](Std_SelForward.md)
 ---
 
 # Std LinkSelectAllLinks
@@ -29,4 +29,4 @@ The **Std LinkSelectAllLinks** command selects all [App Link](App_Link.md) objec
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkSelectAllLinks
+⏵ [documentation index](../README.md) > Std LinkSelectAllLinks

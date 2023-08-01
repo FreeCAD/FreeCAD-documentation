@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Points Merge
-   Name/pl:Punkty: Scal chmury punktów
-   MenuLocation:Punkty - Scal chmury punktów
-   Workbenches:[Punkty](Points_Workbench/pl.md)
+   Name: Points Merge
+   Name/pl: Punkty: Scal chmury punktów
+   MenuLocation: Punkty - Scal chmury punktów
+   Workbenches: [Punkty](Points_Workbench/pl.md)
 ---
 
 # Points Merge/pl
@@ -32,4 +32,4 @@ Zobacz stronę [Konwertuj na punkty](Points_Convert/pl.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Merge/pl
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Merge/pl

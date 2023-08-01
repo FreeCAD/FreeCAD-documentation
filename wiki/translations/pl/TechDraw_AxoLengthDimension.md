@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw AxoHorizontalDimension
-   Name/pl:Rysunek Techniczny: Wstaw wymiar długości w aksonometrii
-   MenuLocation:Rysunek Techniczny - Adnotacje - Wstaw wymiar długości w aksonometrii
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   Version:0.21
+   Name: TechDraw AxoHorizontalDimension
+   Name/pl: Rysunek Techniczny: Wstaw wymiar długości w aksonometrii
+   MenuLocation: Rysunek Techniczny - Adnotacje - Wstaw wymiar długości w aksonometrii
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   Version: 0.21
 ---
 
 # TechDraw AxoLengthDimension/pl
@@ -55,4 +55,4 @@ Aby zmienić właściwości obiektu wymiaru, kliknij dwukrotnie na niego w rysun
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw AxoLengthDimension/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw AxoLengthDimension/pl

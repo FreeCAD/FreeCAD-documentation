@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std RandomColor
-   Name/pl:Std: Kolor losowy
-   MenuLocation:Widok - Nadaj kolor losowo
-   Workbenches:wszystkie
+   Name: Std RandomColor
+   Name/pl: Std: Kolor losowy
+   MenuLocation: Widok - Nadaj kolor losowo
+   Workbenches: wszystkie
 ---
 
 # Std RandomColor/pl
@@ -34,4 +34,4 @@ Polecenie **Nadaj kolor losowo** stosuje losowy **Kolor kształtu** do wybranych
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std RandomColor/pl
+⏵ [documentation index](../README.md) > Std RandomColor/pl

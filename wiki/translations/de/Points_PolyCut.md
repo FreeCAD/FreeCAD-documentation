@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Points PolyCut
-   Name/de:Points PolySchnitt
-   MenuLocation:Punkte - Punktwolke schneiden
-   Workbenches:[Points](Points_Workbench/de.md)
+   Name: Points PolyCut
+   Name/de: Points PolySchnitt
+   MenuLocation: Punkte - Punktwolke schneiden
+   Workbenches: [Points](Points_Workbench/de.md)
 ---
 
 # Points PolyCut/de
@@ -51,4 +51,4 @@ Der Befehl **Points PolySchnitt** schneidet Punkte aus Punktwolken aus.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points PolyCut/de
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points PolyCut/de

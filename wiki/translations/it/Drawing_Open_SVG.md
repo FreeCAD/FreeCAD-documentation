@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Drawing Open SVG
-   Name/it:Apri SVG
-   Workbenches:[Disegno](Drawing_Workbench/it.md), Completo
-   MenuLocation:Disegno - Apri SVG...
-   Shortcut:Nessuno
-   SeeAlso:[Salva SVG](Drawing_Save/it.md)
+   Name: Drawing Open SVG
+   Name/it: Apri SVG
+   Workbenches: [Disegno](Drawing_Workbench/it.md), Completo
+   MenuLocation: Disegno - Apri SVG...
+   Shortcut: Nessuno
+   SeeAlso: [Salva SVG](Drawing_Save/it.md)
 ---
 
 # Drawing Open SVG/it
@@ -26,4 +26,4 @@ Questo strumento apre un foglio di disegno salvato in precedenza come file SVG (
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Open SVG/it
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Open SVG/it

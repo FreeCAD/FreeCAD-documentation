@@ -2,7 +2,7 @@
 ## Introduction
 
 
-{{TOCright}}
+
 
 Dans FreeCAD, le mot \"[Sketch](Sketch/fr.md)\" est normalement utilisé pour désigner un [Objet esquisse](Sketcher_SketchObject/fr.md) (`Sketcher::Sketcher::SketchObject` class) définie par l\'[atelier Sketcher](Sketcher_Workbench/fr.md). Il s\'agit d\'un dessin 2D qui utilise des contraintes mathématiques pour décrire avec précision la géométrie 2D.
 
@@ -39,4 +39,4 @@ Néanmoins, une esquisse peut toujours être créée à toute autre fin. Elle ne
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Sketch/fr
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Sketch/fr

@@ -401,4 +401,4 @@ The file `outfile.ts` will contain the set of strings that are uploaded to Crowd
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Translating an external workbench/en
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Translating an external workbench/en

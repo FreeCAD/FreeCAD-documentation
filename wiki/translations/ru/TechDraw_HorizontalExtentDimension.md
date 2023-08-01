@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Указать горизонтальный габаритный размер
-   Name:TechDraw_HorizontalExtentDimension
-   MenuLocation:TechDraw - Размеры - Указать горизонтальный габаритный размер
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Указать длину](TechDraw_LengthDimension/ru.md), [Указать вертикальный габаритный размер](TechDraw_VerticalExtentDimension/ru.md)
+   Name/ru: Указать горизонтальный габаритный размер
+   Name: TechDraw_HorizontalExtentDimension
+   MenuLocation: TechDraw - Размеры - Указать горизонтальный габаритный размер
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Указать длину](TechDraw_LengthDimension/ru.md), [Указать вертикальный габаритный размер](TechDraw_VerticalExtentDimension/ru.md)
 ---
 
 # TechDraw HorizontalExtentDimension/ru
@@ -84,4 +84,4 @@ App.ActiveDocument.DimExtent001.FormatSpec = '%.0f'
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HorizontalExtentDimension/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HorizontalExtentDimension/ru

@@ -3,7 +3,7 @@
 ## Introduction
 
 
-{{TOCright}}
+
 
 L\'<img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> [Atelier Defeaturing](Defeaturing_Workbench/fr.md) est un atelier complémentaire destiné à l\'édition de modèles STEP, en supprimant des fonctionnalités sélectionnées sur le modèle. C\'est un [atelier externe](External_workbenches/fr.md) et ne fait pas partie de l\'installation standard de FreeCAD.
 
@@ -117,4 +117,4 @@ De nouveaux ateliers sont en développement, restez à l\'écoute !
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Defeaturing Workbench/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Defeaturing Workbench/fr

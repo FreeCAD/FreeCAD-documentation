@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Part SimpleCopy‎
-   MenuLocation:Part - Create a copy - Create simple copy
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Std Copy](Std_Copy.md), [Std Duplicate Selection](Std_DuplicateSelection.md), [Part TransformedCopy](Part_TransformedCopy.md), [Part ElementCopy](Part_ElementCopy.md), [Part RefineShape](Part_RefineShape.md)
+   Name: Part SimpleCopy‎
+   MenuLocation: Part - Create a copy - Create simple copy
+   Workbenches: [Part](Part_Workbench.md)
+   SeeAlso: [Std Copy](Std_Copy.md), [Std Duplicate Selection](Std_DuplicateSelection.md), [Part TransformedCopy](Part_TransformedCopy.md), [Part ElementCopy](Part_ElementCopy.md), [Part RefineShape](Part_RefineShape.md)
 ---
 
 # Part SimpleCopy/en
@@ -35,4 +35,4 @@ The copy has simple view properties like any other [Part Feature](Part_Feature.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SimpleCopy/en
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SimpleCopy/en

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std CloseActiveWindow
-   Name/fr:Std Fermer
-   MenuLocation:Fichier - Fermer
-   Workbenches:Tous
-   Shortcut:**Ctrl**+**W**
-   SeeAlso:[Std Fermer tout](Std_CloseAllWindows/fr.md)
+   Name: Std CloseActiveWindow
+   Name/fr: Std Fermer
+   MenuLocation: Fichier - Fermer
+   Workbenches: Tous
+   Shortcut: **Ctrl**+**W**
+   SeeAlso: [Std Fermer tout](Std_CloseAllWindows/fr.md)
 ---
 
 # Std CloseActiveWindow/fr
@@ -57,4 +57,4 @@ Pour fermer un document, utilisez la méthode `closeDocument` de l\'application 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std CloseActiveWindow/fr
+⏵ [documentation index](../README.md) > Std CloseActiveWindow/fr

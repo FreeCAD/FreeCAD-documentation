@@ -10,4 +10,4 @@ This category gathers pages that act as a repository of resources for FreeCAD, s
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Repository/ro
+⏵ [documentation index](../README.md) > Category:Repository/ro

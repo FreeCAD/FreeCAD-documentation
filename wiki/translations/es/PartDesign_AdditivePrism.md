@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditivePrism
-   Name/es:DiseñoPiezas PrismaAditivo
-   MenuLocation:DiseñoPiezas - Crear una primitiva aditiva - Prisma Aditivo
-   Workbenches:[DiseñoPiezas](PartDesign_Workbench/es.md)
-   Version:0.17
-   SeeAlso:[DiseñoPiezas Componer un primitiva aditiva](PartDesign_CompPrimitiveAdditive/es.md), [DiseñoPiezas Prisma Sustractivo](PartDesign_SubtractivePrism/es.md)
+   Name: PartDesign AdditivePrism
+   Name/es: DiseñoPiezas PrismaAditivo
+   MenuLocation: DiseñoPiezas - Crear una primitiva aditiva - Prisma Aditivo
+   Workbenches: [DiseñoPiezas](PartDesign_Workbench/es.md)
+   Version: 0.17
+   SeeAlso: [DiseñoPiezas Componer un primitiva aditiva](PartDesign_CompPrimitiveAdditive/es.md), [DiseñoPiezas Prisma Sustractivo](PartDesign_SubtractivePrism/es.md)
 ---
 
 # PartDesign AdditivePrism/es
@@ -94,4 +94,4 @@ Tras su creación, el Prisma puede ser editado de dos maneras:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePrism/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePrism/es

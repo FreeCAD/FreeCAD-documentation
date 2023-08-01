@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Rocket BodyTube
-   Name/fr:Rocket Tube du corps
-   MenuLocation:Rocket - Body Tube
-   Workbenches:[Rocket](Rocket_Workbench/fr.md)
-   Version:0.19
+   Name: Rocket BodyTube
+   Name/fr: Rocket Tube du corps
+   MenuLocation: Rocket - Body Tube
+   Workbenches: [Rocket](Rocket_Workbench/fr.md)
+   Version: 0.19
 ---
 
 # Rocket BodyTube/fr
@@ -60,4 +60,4 @@ A définir
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [API/fr]] et ](Category_API/fr]] et .md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket BodyTube/fr
+⏵ [documentation index](../README.md) > [API/fr]] et ](Category_API/fr]] et .md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket BodyTube/fr

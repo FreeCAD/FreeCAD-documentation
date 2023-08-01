@@ -1,6 +1,6 @@
 # Path Stop/it
 ---
-- GuiCommand:   Name:Path Stop   Name/it:Stop   Workbenches:[[Path Workbench/it   Path]]|MenuLocation:Path - Comandi parziali - Stop   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Path Stop   Name/it: Stop   Workbenches: [[Path Workbench/it   Path]]|MenuLocation: Path - Comandi parziali - Stop   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -55,4 +55,4 @@ Nota che questo comando non ferma il mandrino.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Stop/it
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Stop/it

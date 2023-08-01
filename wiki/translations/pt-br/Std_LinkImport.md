@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std LinkImport
-   MenuLocation:None
-   Workbenches:All
-   Version:0.19
-   SeeAlso:[Std LinkMake](Std_LinkMake.md), [Std LinkMakeRelative](Std_LinkMakeRelative.md), [Std LinkImportAll](Std_LinkImportAll.md)
+   Name: Std LinkImport
+   MenuLocation: None
+   Workbenches: All
+   Version: 0.19
+   SeeAlso: [Std LinkMake](Std_LinkMake.md), [Std LinkMakeRelative](Std_LinkMakeRelative.md), [Std LinkImportAll](Std_LinkImportAll.md)
 ---
 
 # Std LinkImport/pt-br
@@ -45,4 +45,4 @@ A copy of the original **[<img src=images/Std_Part.svg style="width:16px"> [Std 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkImport/pt-br
+⏵ [documentation index](../README.md) > Std LinkImport/pt-br

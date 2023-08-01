@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher SelectRedundantConstraints
-   Name/de:Sketcher SelectRedundantConstraints
-   MenuLocation:Skizze - Skizzenwerkzeuge - Überflüssige Randbedingungen auswählen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**Z** **P** **R**
-   Version:0.15
+   Name: Sketcher SelectRedundantConstraints
+   Name/de: Sketcher SelectRedundantConstraints
+   MenuLocation: Skizze - Skizzenwerkzeuge - Überflüssige Randbedingungen auswählen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **Z** **P** **R**
+   Version: 0.15
 ---
 
 # Sketcher SelectRedundantConstraints/de
@@ -31,4 +31,4 @@ Wählt die überflüssigen Randbedingungen einer Skizze aus.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectRedundantConstraints/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectRedundantConstraints/de

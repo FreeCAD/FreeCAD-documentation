@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Fence
-   Name/it:Recinzione
-   MenuLocation:Arch - Recinzione
-   Workbenches:[Arch](Arch_Workbench/it.md)
-   Version:0.19
+   Name: Arch Fence
+   Name/it: Recinzione
+   MenuLocation: Arch - Recinzione
+   Workbenches: [Arch](Arch_Workbench/it.md)
+   Version: 0.19
 ---
 
 # Arch Fence/it
@@ -118,4 +118,4 @@ Fence = Arch.buildFence(fence_section, post, sketch)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Fence/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Fence/it

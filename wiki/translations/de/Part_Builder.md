@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Builder
-   Name/de:Part FormGenerator
-   MenuLocation:Formteil - Form-Generator...
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Grundkörper](Part_Primitives/de.md)
+   Name: Part Builder
+   Name/de: Part FormGenerator
+   MenuLocation: Formteil - Form-Generator...
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: [Part Grundkörper](Part_Primitives/de.md)
 ---
 
 # Part Builder/de
@@ -93,4 +93,4 @@ Ein möglicher Arbeitsablauf könnte sein:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/de

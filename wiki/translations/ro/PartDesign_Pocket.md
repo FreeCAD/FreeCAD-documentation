@@ -1,6 +1,6 @@
 # PartDesign Pocket/ro
 ---
-- GuiCommand:   Name:PartDesign Pocket   Workbenches:[[PartDesign Workbench   PartDesign]], Complete|MenuLocation:PartDesign - Pocket---
+- GuiCommand:   Name: PartDesign Pocket   Workbenches: [[PartDesign Workbench   PartDesign]], Complete|MenuLocation: PartDesign - Pocket---
 
 
 </div>
@@ -204,4 +204,4 @@ Tapers the pocket in the opposite extrusion direction by the given angle. A posi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/ro

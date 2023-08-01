@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher RestoreInternalAlignmentGeometry
-   Name/ro:Sketcher RestoreInternalAlignmentGeometry
-   MenuLocation:Sketch - Sketcher tools - Show/hide internal geometry
-   Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   Shortcut:**Ctrl**+**Shift**+**E**
-   SeeAlso:
+   Name: Sketcher RestoreInternalAlignmentGeometry
+   Name/ro: Sketcher RestoreInternalAlignmentGeometry
+   MenuLocation: Sketch - Sketcher tools - Show/hide internal geometry
+   Workbenches: [Sketcher](Sketcher_Workbench/ro.md)
+   Shortcut: **Ctrl**+**Shift**+**E**
+   SeeAlso: 
 ---
 
 # Sketcher RestoreInternalAlignmentGeometry/ro
@@ -74,4 +74,4 @@ Creați o nouă elipsă. Noi elipse sunt întotdeauna complet ambalate. Veți ve
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RestoreInternalAlignmentGeometry/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RestoreInternalAlignmentGeometry/ro

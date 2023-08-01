@@ -1,6 +1,6 @@
 # Std Undo/ro
 ---
-- GuiCommand:   Name:Std Undo   MenuLocation:[Workbenches:All   Shortcut:Ctrl+Z   SeeAlso:[[Std Redo|Redo](Std_Edit_Menu___Edit]]_-_Undo.md)---
+- GuiCommand:   Name: Std Undo   MenuLocation: [Workbenches: All   Shortcut: Ctrl+Z   SeeAlso: [[Std Redo|Redo](Std_Edit_Menu___Edit]]_-_Undo.md)---
 
 
 </div>
@@ -78,4 +78,4 @@ FreeCAD.ActiveDocument.UndoMode = 1
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Undo/ro
+⏵ [documentation index](../README.md) > Std Undo/ro

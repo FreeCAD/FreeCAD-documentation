@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Web BrowserSetURL
-   Name/fr:Web Changer l'URL
-   MenuLocation:
-   Workbenches:[Web](Web_Workbench/fr.md), [Start](Start_Workbench/fr.md)
-   SeeAlso:[Web Ouvrir le site web](Web_OpenWebsite/fr.md)
+   Name: Web BrowserSetURL
+   Name/fr: Web Changer l'URL
+   MenuLocation: 
+   Workbenches: [Web](Web_Workbench/fr.md), [Start](Start_Workbench/fr.md)
+   SeeAlso: [Web Ouvrir le site web](Web_OpenWebsite/fr.md)
 ---
 
 # Web BrowserSetURL/fr
@@ -32,4 +32,4 @@ Utilisez la commande <img alt="" src=images/Web_BrowserSetURL.svg  style="width:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserSetURL/fr
+⏵ [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserSetURL/fr

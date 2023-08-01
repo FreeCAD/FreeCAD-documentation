@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path DressupLeadInOut
-   MenuLocation:Path - Path Dressup - LeadInOut
-   Workbenches:[Path](Path_Workbench.md)
-   SeeAlso:[Path DressupDogbone](Path_DressupDogbone.md), [Path DressupTag](Path_DressupTag.md), [Path DressupRampEntry](Path_DressupRampEntry.md), [Path DressupDragKnife](Path_DressupDragKnife.md)
+   Name: Path DressupLeadInOut
+   MenuLocation: Path - Path Dressup - LeadInOut
+   Workbenches: [Path](Path_Workbench.md)
+   SeeAlso: [Path DressupDogbone](Path_DressupDogbone.md), [Path DressupTag](Path_DressupTag.md), [Path DressupRampEntry](Path_DressupRampEntry.md), [Path DressupDragKnife](Path_DressupDragKnife.md)
 ---
 
 # Path DressupLeadInOut/it
@@ -36,4 +36,4 @@ Add python code here
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupLeadInOut/it
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupLeadInOut/it

@@ -1,6 +1,4 @@
 # PartDesign Examples/fr
-{{TOCright}}
-
 ## Introduction
 
 Parfois, vous avez besoin d\'un indice de la puissance d\'un outil, sans trop d\'explications.
@@ -280,4 +278,4 @@ La transformation nécessite une attention particulière car elle peut produire 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Examples/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Examples/fr

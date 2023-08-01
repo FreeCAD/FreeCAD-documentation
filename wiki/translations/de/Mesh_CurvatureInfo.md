@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh CurvatureInfo
-   Name/de:Netz KrümmungInfo
-   MenuLocation:Netze - Analyse - Krümmungsinfo
-   Workbenches:[Netz](Mesh_Workbench/de.md)
-   SeeAlso:[Netz KnotenKrümmung](Mesh_VertexCurvature/de.md)
+   Name: Mesh CurvatureInfo
+   Name/de: Netz KrümmungInfo
+   MenuLocation: Netze - Analyse - Krümmungsinfo
+   Workbenches: [Netz](Mesh_Workbench/de.md)
+   SeeAlso: [Netz KnotenKrümmung](Mesh_VertexCurvature/de.md)
 ---
 
 # Mesh CurvatureInfo/de
@@ -37,4 +37,4 @@ Der **Netz KrümmungsInfo** Befehl zeigt die absolute Krümmung von [Krümmungso
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CurvatureInfo/de
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CurvatureInfo/de

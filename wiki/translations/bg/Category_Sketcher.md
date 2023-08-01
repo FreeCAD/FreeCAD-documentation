@@ -10,4 +10,4 @@ This category lists pages related to the [Sketcher Workbench/bg](Sketcher_Workbe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Sketcher/bg
+⏵ [documentation index](../README.md) > Category:Sketcher/bg

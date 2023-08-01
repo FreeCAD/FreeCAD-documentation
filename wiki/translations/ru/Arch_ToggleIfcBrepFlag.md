@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch ToggleIfcBrepFlag
-   Name/ru:Arch ToggleIfcBrepFlag
-   MenuLocation:Архитектура - Утилиты - Toggle Ifc Brep flag
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[Arch IfcExplorer](Arch_IfcExplorer.md), [Arch IFC](Arch_IFC.md)
+   Name: Arch ToggleIfcBrepFlag
+   Name/ru: Arch ToggleIfcBrepFlag
+   MenuLocation: Архитектура - Утилиты - Toggle Ifc Brep flag
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: [Arch IfcExplorer](Arch_IfcExplorer.md), [Arch IFC](Arch_IFC.md)
 ---
 
 # Arch ToggleIfcBrepFlag/ru
@@ -44,4 +44,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/ru

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:TechDraw SurfaceFinishSymbol
-   MenuLocation:TechDraw - Symbols - Create a Surface Finish Symbol
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.21
+   Name: TechDraw SurfaceFinishSymbol
+   MenuLocation: TechDraw - Symbols - Create a Surface Finish Symbol
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Version: 0.21
 ---
 
 # TechDraw SurfaceFinishSymbol/en
@@ -42,4 +42,4 @@ The **TechDraw SurfaceFinishSymbol** tool adds a surface finish symbol to a page
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SurfaceFinishSymbol/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SurfaceFinishSymbol/en

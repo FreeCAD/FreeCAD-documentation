@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Cylinder
-   Name/de:Part Zylinder
-   MenuLocation:Formteil - Grundkörper - Zylinder
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Grundelemente](Part_Primitives/de.md)
+   Name: Part Cylinder
+   Name/de: Part Zylinder
+   MenuLocation: Formteil - Grundkörper - Zylinder
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: [Part Grundelemente](Part_Primitives/de.md)
 ---
 
 # Part Cylinder/de
@@ -126,4 +126,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cylinder/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cylinder/de

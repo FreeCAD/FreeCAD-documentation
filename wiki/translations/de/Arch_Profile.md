@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Profile
-   Name/de:Arch Profil
-   MenuLocation:Arch - Profil
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   Version:0.19
+   Name: Arch Profile
+   Name/de: Arch Profil
+   MenuLocation: Arch - Profil
+   Workbenches: [Arch](Arch_Workbench/de.md)
+   Version: 0.19
 ---
 
 # Arch Profile/de
@@ -104,4 +104,4 @@ wobei das erste Element der Liste eine Bestellnummer (order number) ist, die bis
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Profile/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Profile/de

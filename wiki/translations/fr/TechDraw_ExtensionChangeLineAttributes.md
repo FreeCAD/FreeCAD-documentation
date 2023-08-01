@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionChangeLineAttributes
-   Name/fr:TechDraw Modification des attributs
-   MenuLocation:TechDraw - Extensions : attributs/modifications - Modifier les attibuts de lignes
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw Sélection des attributs](TechDraw_ExtensionSelectLineAttributes/fr.md)
+   Name: TechDraw ExtensionChangeLineAttributes
+   Name/fr: TechDraw Modification des attributs
+   MenuLocation: TechDraw - Extensions : attributs/modifications - Modifier les attibuts de lignes
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw Sélection des attributs](TechDraw_ExtensionSelectLineAttributes/fr.md)
 ---
 
 # TechDraw ExtensionChangeLineAttributes/fr
@@ -42,4 +42,4 @@ L\'outil **TechDraw Modification des attributs** modifie les attributs (style, l
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionChangeLineAttributes/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionChangeLineAttributes/fr

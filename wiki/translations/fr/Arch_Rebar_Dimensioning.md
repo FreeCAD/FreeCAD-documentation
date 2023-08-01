@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar Dimensioning
-   Name/fr:Arch Dimensions des armatures
-   MenuLocation:Arch - Rebar - Rebar Dimensioning
-   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
-   SeeAlso:[Arch Dessin d'armatures](Arch_Rebar_Drawing/fr.md), [Extension Reinforcement](Reinforcement_Addon/fr.md)
-   Version:0.19
+   Name: Arch Rebar Dimensioning
+   Name/fr: Arch Dimensions des armatures
+   MenuLocation: Arch - Rebar - Rebar Dimensioning
+   Workbenches: [Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   SeeAlso: [Arch Dessin d'armatures](Arch_Rebar_Drawing/fr.md), [Extension Reinforcement](Reinforcement_Addon/fr.md)
+   Version: 0.19
 ---
 
 # Arch Rebar Dimensioning/fr
@@ -352,4 +352,4 @@ for visible_rebar in visible_rebars:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Dimensioning/fr
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Dimensioning/fr

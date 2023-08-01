@@ -1,6 +1,4 @@
 # FEM Element Types/ru
-{{TOCright}}
-
 ## Введение
 
 Это описание основано на формате MED, описанном в \[<https://hammi.extra.cea.fr/static/MED/web_med/logiciels/med-2.3.1/doc/html/modele_de_donnees.html#3>. modele de donnes\].
@@ -275,4 +273,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer](Category_Developer.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > [FEM](Category_FEM.md) > FEM Element Types/ru
+⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > [FEM](Category_FEM.md) > FEM Element Types/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ToggleNavigation
-   Name/ru:Std ToggleNavigation
-   MenuLocation:Вид - Навигация/редактирование
-   Workbenches:All
-   Shortcut:**Esc**
+   Name: Std ToggleNavigation
+   Name/ru: Std ToggleNavigation
+   MenuLocation: Вид - Навигация/редактирование
+   Workbenches: All
+   Shortcut: **Esc**
 ---
 
 # Std ToggleNavigation/ru
@@ -56,4 +56,4 @@ The **Std ToggleNavigation** command is intended for certain inspection operatio
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleNavigation/ru
+⏵ [documentation index](../README.md) > Std ToggleNavigation/ru

@@ -1,7 +1,7 @@
 # <img alt="Ikonka FreeCAD dla środowiska pracy Część" src=images/Workbench_Part.svg  style="width:64px;"> Part Module/pl
 
 
-{{TOCright}}
+
 
 
 
@@ -213,4 +213,4 @@ Zobacz również: [skrypty dla środowiska Część](Part_scripting/pl.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Part](Part_Workbench.md) > Part Module/pl
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Part](Part_Workbench.md) > Part Module/pl

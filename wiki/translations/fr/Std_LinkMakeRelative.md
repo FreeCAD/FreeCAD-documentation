@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std LinkMakeRelative
-   Name/fr:Std Créer un sous-lien
-   MenuLocation:Aucun
-   Workbenches:Tous
-   Version:0.19
-   SeeAlso:[Std Part](Std_Part/fr.md), [Std Groupe](Std_Group/fr.md), [Std Créer un lien](Std_LinkMake/fr.md)
+   Name: Std LinkMakeRelative
+   Name/fr: Std Créer un sous-lien
+   MenuLocation: Aucun
+   Workbenches: Tous
+   Version: 0.19
+   SeeAlso: [Std Part](Std_Part/fr.md), [Std Groupe](Std_Group/fr.md), [Std Créer un lien](Std_LinkMake/fr.md)
 ---
 
 # Std LinkMakeRelative/fr
@@ -72,4 +72,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkMakeRelative/fr
+⏵ [documentation index](../README.md) > Std LinkMakeRelative/fr

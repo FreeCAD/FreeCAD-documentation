@@ -5,7 +5,7 @@
 L\'<img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [atelier Spreadsheet](Spreadsheet_Workbench/fr.md) vous permet de créer et de modifier des feuilles de calcul, d\'utiliser les données de la feuille de calcul comme paramètres dans un modèle, de remplir la feuille de calcul avec des données extraites d\'un modèle, d\'effectuer des calculs et d\'exporter les données vers d\'autres applications de feuilles de calcul telles que LibreOffice ou Microsoft Excel.
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:600px;"> 
 *Une feuille de tableur avec un certain nombre de cellules remplies de texte et de quantités*
@@ -347,4 +347,4 @@ sheet.get('Diameter')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/fr
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/fr

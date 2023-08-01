@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ToggleClipPlane
-   Name/it:Piano di taglio
-   MenuLocation:Visualizza - Piano di taglio
-   Workbenches:Tutti
-   SeeAlso:[Taglio sezione persistente](Part_SectionCut/it.md)
+   Name: Std ToggleClipPlane
+   Name/it: Piano di taglio
+   MenuLocation: Visualizza - Piano di taglio
+   Workbenches: Tutti
+   SeeAlso: [Taglio sezione persistente](Part_SectionCut/it.md)
 ---
 
 # Std ToggleClipPlane/it
@@ -56,4 +56,4 @@ Il comando **Piano di taglio** nasconde temporaneamente oggetti e parti di ogget
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ToggleClipPlane/it
+⏵ [documentation index](../README.md) > Std ToggleClipPlane/it

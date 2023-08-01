@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar Stirrup
-   MenuLocation:Arch - Rebar tools - Stirrup<br>3D/BIM - Reinforcement tools - Stirrup
-   Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
-   Version:0.17
-   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Rebar Helical](Arch_Rebar_Helical.md)
+   Name: Arch Rebar Stirrup
+   MenuLocation: Arch - Rebar tools - Stirrup<br>3D/BIM - Reinforcement tools - Stirrup
+   Workbenches: [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   Version: 0.17
+   SeeAlso: [Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Rebar Helical](Arch_Rebar_Helical.md)
 ---
 
 # Arch Rebar Stirrup/pl
@@ -141,4 +141,4 @@ Stirrup.editStirrup(Rebar, 20, 20, 20, 20, 50,
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Stirrup/pl
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Stirrup/pl

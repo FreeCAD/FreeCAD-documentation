@@ -1,8 +1,4 @@
 # Tree view/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 [Widok drzewa](Tree_view.md) pojawia się w zakładce **Model** w [widoku połączonym](Combo_view.md), jest to jeden z najważniejszych paneli w [interfejsie użytkownika](Interface.md). Pokazuje wszystkie obiekty zdefiniowane przez użytkownika, które są częścią dokumentu FreeCAD. Widok drzewa jest reprezentacją [struktury dokumentu](document_structure.md) i wskazuje, jakie informacje są zapisane na dysku.
@@ -234,4 +230,4 @@ Oznacza to, że obiekt będzie ukryty w Widoku drzewa, jeśli opcja menu podręc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Tree view/pl
+⏵ [documentation index](../README.md) > Tree view/pl

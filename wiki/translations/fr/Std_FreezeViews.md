@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std FreezeViews
-   Name/fr:Std Figer l'affichage
-   MenuLocation:Affichage - Figer l'affichage - ...
-   Workbenches:Tous
-   SeeAlso:[Std Position de la caméra](Std_ViewIvIssueCamPos/fr.md)
-   SeeAlso:[Std Enregistrer la vue](Std_StoreWorkingView/fr.md), [Std Rappel de vue](Std_RecallWorkingView/fr.md), [Std Position de la caméra](Std_ViewIvIssueCamPos/fr.md)
+   Name: Std FreezeViews
+   Name/fr: Std Figer l'affichage
+   MenuLocation: Affichage - Figer l'affichage - ...
+   Workbenches: Tous
+   SeeAlso: [Std Position de la caméra](Std_ViewIvIssueCamPos/fr.md)
+   SeeAlso: [Std Enregistrer la vue](Std_StoreWorkingView/fr.md), [Std Rappel de vue](Std_RecallWorkingView/fr.md), [Std Position de la caméra](Std_ViewIvIssueCamPos/fr.md)
 ---
 
 # Std FreezeViews/fr
@@ -117,4 +117,4 @@ Pour chaque vue figée, une option **Vue de restauration** est ajoutée avec laq
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std FreezeViews/fr
+⏵ [documentation index](../README.md) > Std FreezeViews/fr

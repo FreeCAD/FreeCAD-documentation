@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path DressupDragKnife
-   MenuLocation:Path - Path Dressup - DragKnife
-   Workbenches:[Path](Path_Workbench.md)
-   SeeAlso:[Path DressupTag](Path_DressupTag.md), [Path DressupRampEntry](Path_DressupRampEntry.md), [Path DressupDogbone](Path_DressupDogbone.md)
+   Name: Path DressupDragKnife
+   MenuLocation: Path - Path Dressup - DragKnife
+   Workbenches: [Path](Path_Workbench.md)
+   SeeAlso: [Path DressupTag](Path_DressupTag.md), [Path DressupRampEntry](Path_DressupRampEntry.md), [Path DressupDogbone](Path_DressupDogbone.md)
 ---
 
 # Path DressupDragKnife
@@ -33,4 +33,4 @@ This tool dresses up an existing path to add corner actions and edge extensions 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDragKnife
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDragKnife

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Ship Area
-   Name/ru:Ship Area
-   Icon:Ship_AreaCurve.svg
-   MenuLocation:Ship design - Строевая
-   Workbenches:[Ship](Ship_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:
+   Name: Ship Area
+   Name/ru: Ship Area
+   Icon: Ship_AreaCurve.svg
+   MenuLocation: Ship design - Строевая
+   Workbenches: [Ship](Ship_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Ship AreasCurve/ru
@@ -45,4 +45,4 @@ When you press the **Accept** button, the computation starts. It may hang FreeCA
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship AreasCurve/ru
+⏵ [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship AreasCurve/ru

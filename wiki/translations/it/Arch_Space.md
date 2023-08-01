@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Arch_Space
-   Name/it:Spazio
-   MenuLocation:Arch - Spazio
-   Workbenches:[Arch](Arch_Workbench/it.md)
-   Shortcut:**S** **P**
-   Version:0.14
-   SeeAlso:[Parete](Arch_Wall/it.md), [Struttura](Arch_Structure/it.md)
+   Name: Arch_Space
+   Name/it: Spazio
+   MenuLocation: Arch - Spazio
+   Workbenches: [Arch](Arch_Workbench/it.md)
+   Shortcut: **S** **P**
+   Version: 0.14
+   SeeAlso: [Parete](Arch_Wall/it.md), [Struttura](Arch_Structure/it.md)
 ---
 
 # Arch Space/it
@@ -157,4 +157,4 @@ Arch.removeSpaceBoundaries(Space, selection)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Space/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Space/it

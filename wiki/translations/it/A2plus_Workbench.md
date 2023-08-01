@@ -5,7 +5,7 @@
 ## Introduzione
 
 
-{{TOCright}}
+
 
 A2plus è un [ambiente complementare](External_workbenches/it.md) per [assemblare](Assembly/it.md) varie parti in FreeCAD.
 
@@ -720,4 +720,4 @@ Questo è un comando specifico di A2plus. Risolve i vincoli di assieme dell\'ass
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > A2plus Workbench/it
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > A2plus Workbench/it

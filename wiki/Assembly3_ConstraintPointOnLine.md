@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPointOnLine
-   Icon:Assembly_ConstraintPointOnLine.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintPointOnLine
+   Icon: Assembly_ConstraintPointOnLine.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintPointOnLine
@@ -26,4 +26,4 @@ Related to the first object the following object can still move along the z-axis
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointOnLine
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPointOnLine

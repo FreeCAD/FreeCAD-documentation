@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateArc
-   Name/de:Sketcher BogenErstellen
-   MenuLocation:Sketch - Skizzengeometrien - Bogen aus Mittelpunkt erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **A**
-   SeeAlso:[Sketcher AuswahlKreisErstellen](Sketcher_CompCreateCircle/de.md)
+   Name: Sketcher CreateArc
+   Name/de: Sketcher BogenErstellen
+   MenuLocation: Sketch - Skizzengeometrien - Bogen aus Mittelpunkt erstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **A**
+   SeeAlso: [Sketcher AuswahlKreisErstellen](Sketcher_CompCreateCircle/de.md)
 ---
 
 # Sketcher CreateArc/de
@@ -38,4 +38,4 @@ Beim starten des Werkzeugs verwandelt sich der Mauszeiger in ein weißes Kreuz m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/de

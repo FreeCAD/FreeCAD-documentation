@@ -9,7 +9,7 @@
 ## Introduzione
 
 
-{{TOCright}}
+
 
 L\'[Ambiente Raytracing](Raytracing_Workbench/it.md) <img alt="" src=images/Workbench_Raytracing.svg  style="width:24px;"> viene utilizzato per generare immagini fotorealistiche dei modelli elaborandole con un renderer esterno.
 
@@ -156,4 +156,4 @@ Queste pagine si riferiscono al nuovo ambiente, programmato in Python, destinato
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/it
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/it

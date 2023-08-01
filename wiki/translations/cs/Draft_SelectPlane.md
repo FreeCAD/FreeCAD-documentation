@@ -1,6 +1,6 @@
 # Draft SelectPlane/cs
 ---
-- GuiCommand:   Name:Draft SelectPlane   Name/cs:Kreslení VýběrRoviny   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení -> Utility -> Výběr roviny---
+- GuiCommand:   Name: Draft SelectPlane   Name/cs: Kreslení VýběrRoviny   Workbenches: [Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation: Kreslení -> Utility -> Výběr roviny---
 
 
 </div>
@@ -164,4 +164,4 @@ print(projection)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectPlane/cs
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectPlane/cs

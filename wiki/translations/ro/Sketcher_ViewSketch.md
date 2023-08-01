@@ -1,6 +1,6 @@
 # Sketcher ViewSketch/ro
 ---
-- GuiCommand:   Name:Sketcher ViewSketch   Name/ro:Sketcher ViewSketch   Workbenches:[PartDesign](Sketcher_Workbench___Sketcher]],_[[PartDesign_Workbench.md)|MenuLocation:Sketch - View sketch---
+- GuiCommand:   Name: Sketcher ViewSketch   Name/ro: Sketcher ViewSketch   Workbenches: [PartDesign](Sketcher_Workbench___Sketcher]],_[[PartDesign_Workbench.md)|MenuLocation: Sketch - View sketch---
 
 
 </div>
@@ -39,4 +39,4 @@ Atunci când Sketch este în edit mode, sau
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/ro

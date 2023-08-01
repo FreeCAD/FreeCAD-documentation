@@ -1,6 +1,4 @@
 # Addon/fr
-{{TOCright}}
-
 ## Introduction
 
 Dans FreeCAD et dans cette documentation, une [extension](addon/fr.md) est un composant qui ne fait pas partie de l\'installation de base mais peut être ajouté au système par certaines méthodes.
@@ -34,4 +32,4 @@ Voir aussi :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > Addon/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > Addon/fr

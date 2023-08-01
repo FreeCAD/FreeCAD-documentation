@@ -1,6 +1,4 @@
 # Migrating to FreeCAD from OnShape/de
-{{TOCright}}
-
 ## Hintergrund
 
 Diese Seite ist für Anwender gedacht, die sich für die Arbeit mit FreeCAD interessieren und aus der OnShape Welt kommen.
@@ -14,4 +12,4 @@ Diese Seite ist für Anwender gedacht, die sich für die Arbeit mit FreeCAD inte
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Migrating to FreeCAD from OnShape/de
+⏵ [documentation index](../README.md) > Migrating to FreeCAD from OnShape/de

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:PartDesign Pocket
-   MenuLocation:Part Design - Create a substractive feature - Pocket
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[PartDesign Pad](PartDesign_Pad.md)
+   Name: PartDesign Pocket
+   MenuLocation: Part Design - Create a substractive feature - Pocket
+   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   SeeAlso: [PartDesign Pad](PartDesign_Pad.md)
 ---
 
 # PartDesign Pocket/en
@@ -147,4 +147,4 @@ Tapers the pocket in the opposite extrusion direction by the given angle. A posi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/en
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Pocket/en

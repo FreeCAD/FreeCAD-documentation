@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet AlignVCenter
-   Name/de:Kalkulationstabelle AusrichtenVMittig
-   MenuLocation:Kalkulationstabelle - Ausrichtung - Ausrichten Vertikal Mittig
-   Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)
-   Version:0.17
+   Name: Spreadsheet AlignVCenter
+   Name/de: Kalkulationstabelle AusrichtenVMittig
+   MenuLocation: Kalkulationstabelle - Ausrichtung - Ausrichten Vertikal Mittig
+   Workbenches: [Tabellenkalkulation](Spreadsheet_Workbench/de.md)
+   Version: 0.17
 ---
 
 # Spreadsheet AlignVCenter/de
@@ -30,4 +30,4 @@ Das **[<img src=images/Spreadsheet_AlignVCenter.svg style="width:16px"> [Kalkula
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignVCenter/de
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignVCenter/de

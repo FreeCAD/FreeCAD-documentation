@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Assembly3 CreateElement
-   Name/fr:Assembly3 Créer un élément
-   Icon:Assembly_New_Element.svg
-   MenuLocation:Assembly3 - Create element
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
-   Shortcut:**A** **E**
+   Name: Assembly3 CreateElement
+   Name/fr: Assembly3 Créer un élément
+   Icon: Assembly_New_Element.svg
+   MenuLocation: Assembly3 - Create element
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Shortcut: **A** **E**
 ---
 
 # Assembly3 CreateElement/fr
@@ -27,4 +27,4 @@ Il peut être utilisé pour préparer des **éléments** avant l\'utilisation de
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 CreateElement/fr
+⏵ [documentation index](../README.md) > Assembly3 CreateElement/fr

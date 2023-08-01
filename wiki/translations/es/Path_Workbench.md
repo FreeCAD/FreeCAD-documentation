@@ -1,7 +1,7 @@
 # <img alt="El icono del Ambiente de trabajo Trayectoria" src=images/Workbench_Part.svg  style="width:64px;"> Path Workbench/es
 
 
-{{TOCright}}
+
 
 
 
@@ -514,4 +514,4 @@ See [Path scripting](Path_scripting.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/es
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/es

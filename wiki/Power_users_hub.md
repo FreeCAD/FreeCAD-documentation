@@ -1,5 +1,4 @@
-# Power users hub
-{{TOCright}} <img alt="" src=images/Power_user_hub.png  style="width:64px;">
+# <img alt="" src=images/Power_user_hub.png  style="width:64px;"> Power users hub
 
 
 
@@ -136,4 +135,4 @@ On the [Community portal](FreeCAD_Community_Portal.md), you can find other FreeC
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub
+⏵ [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub

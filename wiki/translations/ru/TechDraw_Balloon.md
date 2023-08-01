@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Вставить примечание в выноску
-   Name:TechDraw_Balloon
-   MenuLocation:TechDraw - Заметки - Вставить примечание в выноску
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Вставить заметку](TechDraw_Annotation/ru.md)
+   Name/ru: Вставить примечание в выноску
+   Name: TechDraw_Balloon
+   MenuLocation: TechDraw - Заметки - Вставить примечание в выноску
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Вставить заметку](TechDraw_Annotation/ru.md)
 ---
 
 # TechDraw Balloon/ru
@@ -122,4 +122,4 @@ rc = page.addView(bal1)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Balloon/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Balloon/ru

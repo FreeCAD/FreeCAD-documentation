@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionCircleCenterLines
-   Name/de:TechDraw ErgänzungKreismittellinien
-   MenuLocation:TechDraw - Ergänzungen: Mittellinien/Gewinde - Kreismittellinien hinzufügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ErgänzungLochkreis](TechDraw_ExtensionHoleCircle/de.md)
+   Name: TechDraw ExtensionCircleCenterLines
+   Name/de: TechDraw ErgänzungKreismittellinien
+   MenuLocation: TechDraw - Ergänzungen: Mittellinien/Gewinde - Kreismittellinien hinzufügen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ErgänzungLochkreis](TechDraw_ExtensionHoleCircle/de.md)
 ---
 
 # TechDraw ExtensionCircleCenterLines/de
@@ -42,4 +42,4 @@ Das Werkzeug **TechDraw ErgänzungKreismittellinien** fügt Mittellinien zu Krei
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCircleCenterLines/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCircleCenterLines/de

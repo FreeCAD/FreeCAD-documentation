@@ -45,4 +45,4 @@ Ta strona zawiera listę zewnętrznych Środowisk pracy dla dodatków, które ma
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Categories](Category_Categories.md) > Category:Addons/pl
+⏵ [documentation index](../README.md) > [Categories](Category_Categories.md) > Category:Addons/pl

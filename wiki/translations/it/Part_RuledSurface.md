@@ -1,6 +1,6 @@
 # Part RuledSurface/it
 ---
-- GuiCommand:   Name:Part RuledSurface   Name/it:Superficie rigata   MenuLocation:Parte - Superficie rigata   Workbenches:[[Part_Workbench/it     Parte]]|SeeAlso:---
+- GuiCommand:   Name: Part RuledSurface   Name/it: Superficie rigata   MenuLocation: Parte - Superficie rigata   Workbenches: [[Part_Workbench/it     Parte]]|SeeAlso: ---
 
 
 </div>
@@ -42,4 +42,4 @@ La macro [Sviluppa superfici rigate](Macro_Unroll_Ruled_Surface/it.md) permette 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RuledSurface/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RuledSurface/it

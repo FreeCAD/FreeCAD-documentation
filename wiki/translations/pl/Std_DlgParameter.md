@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std DlgParameter
-   Name/pl:Std: Edytor parametrów
-   MenuLocation:Przybory - Edytor parametrów ...
-   Workbenches:wszystkie
-   SeeAlso:[Edytor preferencji](Preferences_Editor/pl.md)
+   Name: Std DlgParameter
+   Name/pl: Std: Edytor parametrów
+   MenuLocation: Przybory - Edytor parametrów ...
+   Workbenches: wszystkie
+   SeeAlso: [Edytor preferencji](Preferences_Editor/pl.md)
 ---
 
 # Std DlgParameter/pl
@@ -227,4 +227,4 @@ Modyfikowanie preferencji innych części programu FreeCAD jest raczej złym pom
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgParameter/pl
+⏵ [documentation index](../README.md) > Std DlgParameter/pl

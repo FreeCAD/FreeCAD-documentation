@@ -1,6 +1,6 @@
 # PartDesign AdditivePrism/it
 ---
-- GuiCommand:   Name:PartDesign AdditivePrism   Name/it:Prisma additivo   Workbenches:[MenuLocation:Part Design - Crea una primitiva additiva - Prisma   Version:0.17   SeeAlso:[[PartDesign CompPrimitiveAdditive/it|Primitive additive](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign AdditivePrism   Name/it: Prisma additivo   Workbenches: [MenuLocation: Part Design - Crea una primitiva additiva - Prisma   Version: 0.17   SeeAlso: [[PartDesign CompPrimitiveAdditive/it|Primitive additive](PartDesign_Workbench/it___PartDesign]].md)---
 
 
 </div>
@@ -82,4 +82,4 @@ Dopo la sua creazione il Prisma può essere modificato in due modi:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePrism/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePrism/it

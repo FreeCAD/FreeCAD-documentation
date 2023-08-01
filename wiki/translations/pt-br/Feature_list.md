@@ -2,7 +2,7 @@
 Esta é lista recursos uma extensa, porém incompleta, que o FreeCAD disponibiliza.
 
 
-{{TOCright}}
+
 
 
 
@@ -138,4 +138,4 @@ Diversas [bancadas de trabalho alternativas](External_workbenches/pt-br.md) fora
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/pt-br
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/pt-br

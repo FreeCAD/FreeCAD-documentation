@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch SelectNonSolidMeshes
-   Name/ro:Arch SelectNonSolidMeshes
-   MenuLocation:Arch - Utilities - Select non solid
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   SeeAlso:[Arch MeshToShape](Arch_SplitMesh]],_[[Arch_MeshToShape.md)
+   Name: Arch SelectNonSolidMeshes
+   Name/ro: Arch SelectNonSolidMeshes
+   MenuLocation: Arch - Utilities - Select non solid
+   Workbenches: [Arch](Arch_Workbench/ro.md)
+   SeeAlso: [Arch MeshToShape](Arch_SplitMesh]],_[[Arch_MeshToShape.md)
 ---
 
 # Arch SelectNonSolidMeshes/ro
@@ -42,4 +42,4 @@ Acest instrument identifică și selectează obiecte non solide/neprintabile 3D 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/ro
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/ro

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ClippingPlaneRemoveAll
-   Name/de:FEM AlleSchnittebenenEntfernen
-   MenuLocation:Dienstprogramme - Alle Schnittebenen entfernen
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   SeeAlso:[FEM Tutorium](FEM_tutorial/de.md)
+   Name: FEM ClippingPlaneRemoveAll
+   Name/de: FEM AlleSchnittebenenEntfernen
+   MenuLocation: Dienstprogramme - Alle Schnittebenen entfernen
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   SeeAlso: [FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM ClippingPlaneRemoveAll/de
@@ -28,4 +28,4 @@ Either use the toolbar button <img alt="" src=images/FEM_ClippingPlaneRemoveAll.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ClippingPlaneRemoveAll/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ClippingPlaneRemoveAll/de

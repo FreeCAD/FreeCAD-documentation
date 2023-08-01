@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:PartDesign WizardShaft
-   Name/es:DiseñoPiezas AsistenteEje
-   Workbenches:[DiseñoPiezas](PartDesign_Workbench/es.md)
+   Name: PartDesign WizardShaft
+   Name/es: DiseñoPiezas AsistenteEje
+   Workbenches: [DiseñoPiezas](PartDesign_Workbench/es.md)
 ---
 
 # PartDesign WizardShaft/es
@@ -137,4 +137,4 @@ Para añadir un nuevo segmento de eje, pulsa con el botón derecho en un espacio
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/es
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/es

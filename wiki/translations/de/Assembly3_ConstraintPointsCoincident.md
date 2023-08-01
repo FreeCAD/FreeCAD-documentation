@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPointsCoincident
-   Name/de:Assembly3 PunktAufPunkt
-   Icon:Assembly_ConstraintPointCoincident.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintPointsCoincident
+   Name/de: Assembly3 PunktAufPunkt
+   Icon: Assembly_ConstraintPointCoincident.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintPointsCoincident/de
@@ -40,4 +40,4 @@ In der Realität kann man nicht mit Punkten arbeiten, daher nutzt man Kugelfläc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointsCoincident/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPointsCoincident/de

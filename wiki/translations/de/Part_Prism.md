@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Prism
-   Name/de:Part Prisma
-   MenuLocation:Formteil - [Grundkörper erzeugen...](Part_Primitives/de.md) - Prisma
-   Workbenches:[Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
-   Version:0.14
-   SeeAlso:[Part Primitives](Part_Primitives/de.md)
+   Name: Part Prism
+   Name/de: Part Prisma
+   MenuLocation: Formteil - [Grundkörper erzeugen...](Part_Primitives/de.md) - Prisma
+   Workbenches: [Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
+   Version: 0.14
+   SeeAlso: [Part Primitives](Part_Primitives/de.md)
 ---
 
 # Part Prism/de
@@ -108,4 +108,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Prism/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Prism/de

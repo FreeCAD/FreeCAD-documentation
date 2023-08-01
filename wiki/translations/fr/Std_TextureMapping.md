@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std TextureMapping
-   Name/fr:Std Mappage de textures
-   MenuLocation:Affichage - Mappage de texture...
-   Workbenches:Tous
+   Name: Std TextureMapping
+   Name/fr: Std Mappage de textures
+   MenuLocation: Affichage - Mappage de texture...
+   Workbenches: Tous
 ---
 
 # Std TextureMapping/fr
@@ -34,4 +34,4 @@ La commande **Std Mappage de textures** applique temporairement une texture sur 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TextureMapping/fr
+⏵ [documentation index](../README.md) > Std TextureMapping/fr

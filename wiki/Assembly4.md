@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly4
+⏵ [documentation index](../README.md) > Assembly4

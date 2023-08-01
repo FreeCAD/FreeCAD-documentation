@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Проверить эскиз
-   Name:Sketcher_ValidateSketch
-   MenuLocation:Sketch - Проверить эскиз
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
-   SeeAlso:[Ограничить совпадение](Sketcher_ConstrainCoincident/ru.md), [Topological naming problem](Topological_naming_problem/ru.md)
+   Name/ru: Проверить эскиз
+   Name: Sketcher_ValidateSketch
+   MenuLocation: Sketch - Проверить эскиз
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso: [Ограничить совпадение](Sketcher_ConstrainCoincident/ru.md), [Topological naming problem](Topological_naming_problem/ru.md)
 ---
 
 # Sketcher ValidateSketch/ru
@@ -99,4 +99,4 @@ The locking mechanism typically works well and this tool should not be needed. *
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/ru

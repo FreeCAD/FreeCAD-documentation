@@ -13,4 +13,4 @@ Questa categoria raccoglie e riunisce i punti di incontro delle 3 grandi categor
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Hubs/it
+⏵ [documentation index](../README.md) > Category:Hubs/it

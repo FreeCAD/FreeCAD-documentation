@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign_LinearPattern
-   Name/fr:PartDesign Répétition linéaire
-   MenuLocation:Part Design - Appliquer une transformation - Répétition linéaire
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso:[PartDesign Transformation multiple](PartDesign_MultiTransform/fr.md)
+   Name: PartDesign_LinearPattern
+   Name/fr: PartDesign Répétition linéaire
+   MenuLocation: Part Design - Appliquer une transformation - Répétition linéaire
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso: [PartDesign Transformation multiple](PartDesign_MultiTransform/fr.md)
 ---
 
 # PartDesign LinearPattern/fr
@@ -118,4 +118,4 @@ Voir [PartDesign Répétition circulaire](PartDesign_PolarPattern/fr#Limitations
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/fr

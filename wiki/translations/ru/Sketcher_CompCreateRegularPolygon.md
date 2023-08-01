@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Создать правильный многоугольник
-   Name:Sketcher_CompCreateRegularPolygon
-   Icon:Sketcher_CompCreateRegularPolygon.png
-   MenuLocation:Нет (только на панели инструментов)
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
+   Name/ru: Создать правильный многоугольник
+   Name: Sketcher_CompCreateRegularPolygon
+   Icon: Sketcher_CompCreateRegularPolygon.png
+   MenuLocation: Нет (только на панели инструментов)
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
 ---
 
 # Sketcher CompCreateRegularPolygon/ru
@@ -41,4 +41,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRegularPolygon/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRegularPolygon/ru

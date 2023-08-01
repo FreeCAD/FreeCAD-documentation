@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw Quadrants
-   Name/de:TechDraw Quadranten
-   MenuLocation:TechDraw - Knoten hinzufügen - Quadranten Knoten hinzufügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[TechDraw Kosmetikknoten](TechDraw_CosmeticVertex/de.md), [TechDraw Mittenpunkt](TechDraw_Midpoints/de.md)
+   Name: TechDraw Quadrants
+   Name/de: TechDraw Quadranten
+   MenuLocation: TechDraw - Knoten hinzufügen - Quadranten Knoten hinzufügen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [TechDraw Kosmetikknoten](TechDraw_CosmeticVertex/de.md), [TechDraw Mittenpunkt](TechDraw_Midpoints/de.md)
 ---
 
 # TechDraw Quadrants/de
@@ -79,4 +79,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Quadrants/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Quadrants/de

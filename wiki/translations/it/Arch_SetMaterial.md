@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch_SetMaterial
-   Name/it:Imposta Materiale
-   MenuLocation:Arch - Strumenti materiali - Materiale
-   Workbenches:[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   Shortcut:**M** **T**
-   SeeAlso:[Materiali](Arch_CompSetMaterial/it.md), [Multimateriali](Arch_MultiMaterial/it.md)
+   Name: Arch_SetMaterial
+   Name/it: Imposta Materiale
+   MenuLocation: Arch - Strumenti materiali - Materiale
+   Workbenches: [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   Shortcut: **M** **T**
+   SeeAlso: [Materiali](Arch_CompSetMaterial/it.md), [Multimateriali](Arch_MultiMaterial/it.md)
 ---
 
 # Arch SetMaterial/it
@@ -79,4 +79,4 @@ Questo corrisponde approssimativamente a [IfcMaterial](https://standards.buildin
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SetMaterial/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SetMaterial/it

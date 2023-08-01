@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Constraint SnellsLaw
-   Name/es:Restricción de refracción (Ley de Snell)
-   MenuLocation:Sketch - Restricciones de croquis - Restricción de refracción (Ley de Snell)
-   Workbenches:[Sketcher](Sketcher_Workbench/es.md)
+   Name: Constraint SnellsLaw
+   Name/es: Restricción de refracción (Ley de Snell)
+   MenuLocation: Sketch - Restricciones de croquis - Restricción de refracción (Ley de Snell)
+   Workbenches: [Sketcher](Sketcher_Workbench/es.md)
 ---
 
 # Sketcher ConstrainSnellsLaw/es
@@ -106,4 +106,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSnellsLaw/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSnellsLaw/es

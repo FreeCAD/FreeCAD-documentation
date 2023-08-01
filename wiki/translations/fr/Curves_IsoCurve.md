@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Curves IsoCurve
-   Name/fr:Curves Courbes iso
-   MenuLocation:Surfaces - IsoCurve
-   Workbenches:[Curves](Curves_Workbench/fr.md)
-   SeeAlso:[Curves Joindre courbe](Curves_JoinCurve/fr.md)
+   Name: Curves IsoCurve
+   Name/fr: Curves Courbes iso
+   MenuLocation: Surfaces - IsoCurve
+   Workbenches: [Curves](Curves_Workbench/fr.md)
+   SeeAlso: [Curves Joindre courbe](Curves_JoinCurve/fr.md)
 ---
 
 # Curves IsoCurve/fr
@@ -47,4 +47,4 @@ L\'outil <img alt="" src=images/Curves_IsoCurve.svg  style="width:24px;"> [Courb
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves IsoCurve/fr
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves IsoCurve/fr

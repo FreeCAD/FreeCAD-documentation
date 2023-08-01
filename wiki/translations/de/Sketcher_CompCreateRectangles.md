@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher CompCreateRectangles
-   Name/de:Sketcher AuswahlRechteckErstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Version:0.20
+   Name: Sketcher CompCreateRectangles
+   Name/de: Sketcher AuswahlRechteckErstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Version: 0.20
 ---
 
 # Sketcher CompCreateRectangles/de
@@ -33,4 +33,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRectangles/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRectangles/de

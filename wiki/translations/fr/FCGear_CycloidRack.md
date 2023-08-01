@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FCGear CycloidRack
-   Name/fr:FCGear Crémaillère cycloïde
-   MenuLocation:Gear - Cycloid Rack
-   Workbenches:[FCGear](FCGear_Workbench/fr.md)
-   Shortcut:Aucun
-   Version:1.0
-   SeeAlso:[FCGear CycloidGear](FCGear_CycloidGear/fr.md)
+   Name: FCGear CycloidRack
+   Name/fr: FCGear Crémaillère cycloïde
+   MenuLocation: Gear - Cycloid Rack
+   Workbenches: [FCGear](FCGear_Workbench/fr.md)
+   Shortcut: Aucun
+   Version: 1.0
+   SeeAlso: [FCGear CycloidGear](FCGear_CycloidGear/fr.md)
 ---
 
 # FCGear CycloidRack/fr
@@ -108,4 +108,4 @@ Voir [FCGear CycloidGear](FCGear_CycloidGear/fr#Formules_utiles.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear CycloidRack/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear CycloidRack/fr

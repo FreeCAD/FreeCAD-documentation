@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std PythonHelp
-   Name/it:Documentazione dei moduli Python
-   MenuLocation:Aiuto - Documentazione automatica dei moduli Python
-   Workbenches:Tutti
-   SeeAlso:[Documentazione di scripting Python](Std_FreeCADPowerUserHub/it.md)
+   Name: Std PythonHelp
+   Name/it: Documentazione dei moduli Python
+   MenuLocation: Aiuto - Documentazione automatica dei moduli Python
+   Workbenches: Tutti
+   SeeAlso: [Documentazione di scripting Python](Std_FreeCADPowerUserHub/it.md)
 ---
 
 # Std PythonHelp/it
@@ -35,4 +35,4 @@ Il web server è basato sul modulo [pydoc](https://docs.python.org/3.8/library/p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std PythonHelp/it
+⏵ [documentation index](../README.md) > Std PythonHelp/it

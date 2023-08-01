@@ -13,4 +13,4 @@ Denna kategori innehåller makron om du vill utöka din FreeCAD installation med
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Macros/sv
+⏵ [documentation index](../README.md) > Category:Macros/sv

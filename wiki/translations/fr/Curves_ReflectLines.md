@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Curves ReflectLines
-   Name/fr:Curves Ligne réfléchie
-   MenuLocation:Surfaces - Reflect Lines
-   Workbenches:[Curves](Curves_Workbench/fr.md)
+   Name: Curves ReflectLines
+   Name/fr: Curves Ligne réfléchie
+   MenuLocation: Surfaces - Reflect Lines
+   Workbenches: [Curves](Curves_Workbench/fr.md)
 ---
 
 # Curves ReflectLines/fr
@@ -38,4 +38,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves ReflectLines/fr
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves ReflectLines/fr

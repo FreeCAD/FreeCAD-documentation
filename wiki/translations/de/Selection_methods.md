@@ -1,8 +1,4 @@
 # Selection methods/de
-{{TOCright}}
-
-
-
 ## Überblick
 
 [Auswahlmethoden](Selection_methods/de.md) in FreeCAD ermöglichen das Auswählen von Objekten in der [FreeCAD-Oberfläche](Interface/de.md): z. B. [3D Ansicht](3D_view/de.md), [Baumansicht](Tree_view/de.md), [Auswahlansicht](Selection_view/de.md) und anderen Dialogen. Einige Auswahlmethoden sind Arbeitsbereich-spezifisch und in der jeweiligen Arbeitsbereich-Dokumentation dokumentiert.
@@ -115,4 +111,4 @@ See the [Source documentation](Source_documentation.md) and [Std PythonHelp](Std
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Selection methods/de
+⏵ [documentation index](../README.md) > Selection methods/de

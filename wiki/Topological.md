@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Topological
+⏵ [documentation index](../README.md) > Topological

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std Windows
-   Name/fr:Std Fenêtres
-   MenuLocation:Fenêtres - Fenêtres...
-   Workbenches:Tous
-   SeeAlso:[Std Suivante](Std_ActivateNextWindow/fr.md), [Std Précédente](Std_ActivatePrevWindow/fr.md)
+   Name: Std Windows
+   Name/fr: Std Fenêtres
+   MenuLocation: Fenêtres - Fenêtres...
+   Workbenches: Tous
+   SeeAlso: [Std Suivante](Std_ActivateNextWindow/fr.md), [Std Précédente](Std_ActivatePrevWindow/fr.md)
 ---
 
 # Std Windows/fr
@@ -49,4 +49,4 @@ La commande **Std Fenêtres** ouvre une boîte de dialogue avec une liste de fen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Windows/fr
+⏵ [documentation index](../README.md) > Std Windows/fr

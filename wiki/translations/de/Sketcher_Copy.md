@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher Copy
-   Name/de:Sketcher Kopieren
-   MenuLocation:Sketch - Skizzen-Werkzeuge - Kopieren
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**Z** **C**
-   Version:0.16
-   SeeAlso:[Sketcher Klonen](Sketcher_Clone/de.md), [Sketcher Verschieben](Sketcher_Move/de.md)
+   Name: Sketcher Copy
+   Name/de: Sketcher Kopieren
+   MenuLocation: Sketch - Skizzen-Werkzeuge - Kopieren
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **Z** **C**
+   Version: 0.16
+   SeeAlso: [Sketcher Klonen](Sketcher_Clone/de.md), [Sketcher Verschieben](Sketcher_Move/de.md)
 ---
 
 # Sketcher Copy/de
@@ -35,4 +35,4 @@ Es werden keine weiteren Randbedingungen hinzugefügt.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Copy/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Copy/de

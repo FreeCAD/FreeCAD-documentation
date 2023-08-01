@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part_Tube
-   Name/ru:Создать трубу
-   MenuLocation:Деталь - Примитивы - Создать трубу
-   Workbenches:[Part(Деталь)](Part_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Создать примитивы](Part_CreatePrimitives/ru.md)
+   Name: Part_Tube
+   Name/ru: Создать трубу
+   MenuLocation: Деталь - Примитивы - Создать трубу
+   Workbenches: [Part(Деталь)](Part_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Создать примитивы](Part_CreatePrimitives/ru.md)
 ---
 
 # Part Tube/ru
@@ -132,4 +132,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Tube/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Tube/ru

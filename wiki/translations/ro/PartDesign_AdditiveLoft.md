@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditiveLoft
-   Name/ro:PartDesign Loft Aditivă
-   Workbenches:[PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation:Part Design - Additive loft
-   Version:0.17
-   SeeAlso:[[PartDesign AdditivePipe/ro]]
+   Name: PartDesign AdditiveLoft
+   Name/ro: PartDesign Loft Aditivă
+   Workbenches: [PartDesign](PartDesign_Workbench/ro.md)
+   MenuLocation: Part Design - Additive loft
+   Version: 0.17
+   SeeAlso: [[PartDesign AdditivePipe/ro]]
 ---
 
 # PartDesign AdditiveLoft/ro
@@ -137,4 +137,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveLoft/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveLoft/ro

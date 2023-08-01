@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std Placement
-   MenuLocation:Edit - Placement...
-   Workbenches:All
-   SeeAlso:[Std Alignment](Std_Alignment.md), [Placement](Placement.md)
+   Name: Std Placement
+   MenuLocation: Edit - Placement...
+   Workbenches: All
+   SeeAlso: [Std Alignment](Std_Alignment.md), [Placement](Placement.md)
 ---
 
 # Std Placement/en
@@ -91,4 +91,4 @@ print(obj.Placement.Matrix)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Placement/en
+⏵ [documentation index](../README.md) > Std Placement/en

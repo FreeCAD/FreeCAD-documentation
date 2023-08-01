@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM EquationElasticity
-   MenuLocation:Solve - Mechanical equations - Elasticity equation
-   Workbenches:[FEM](FEM_Workbench.md)
-   Version:0.17
-   SeeAlso:[Deformation equation](FEM_EquationDeformation.md), [FEM tutorial](FEM_tutorial.md)
+   Name: FEM EquationElasticity
+   MenuLocation: Solve - Mechanical equations - Elasticity equation
+   Workbenches: [FEM](FEM_Workbench.md)
+   Version: 0.17
+   SeeAlso: [Deformation equation](FEM_EquationDeformation.md), [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM EquationElasticity/pl
@@ -139,4 +139,4 @@ whereas $\vec{u}$ is the eigenvector and $c$ is a complex number.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElasticity/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElasticity/pl

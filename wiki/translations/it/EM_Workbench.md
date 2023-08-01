@@ -1,7 +1,7 @@
 # <img alt="EM Workbench icon" src=images/EMWorkbench.svg  style="width:64px;"> EM Workbench/it
 
 
-{{TOCright}}
+
 
 ## Introduzione
 
@@ -77,4 +77,4 @@ Per le versioni beta di EM Workbench sono disponibili alcune esercitazioni video
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [EM](Category_EM.md) > EM Workbench/it
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [EM](Category_EM.md) > EM Workbench/it

@@ -2,7 +2,7 @@
 ## Einführung
 
 
-{{TOCright}}
+
 
 In FreeCAD wird das Wort \"[Beschränkung](Constraint/de.md)\" normalerweise verwendet, um sich auf eine \"Regel\" zum Zeichnen geometrischer Formen innerhalb einer <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Skizze](Sketch/de.md) (`Sketcher::SketchObject` Klasse) zu beziehen. Eine Beschränkung begrenzt die Position eines bestimmten geometrischen Elements auf verschiedene Weise, z.B. kann sie angeben, ob das Element horizontal, vertikal, tangential, parallel, senkrecht, mit einem Punkt deckungsgleich, konzentrisch zu einem anderen Objekt usw. ist.
 
@@ -47,4 +47,4 @@ Siehe die Informationen in der <img alt="" src=images/Workbench_Sketcher.svg  st
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Constraint/de
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Constraint/de

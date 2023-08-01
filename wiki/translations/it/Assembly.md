@@ -2,7 +2,7 @@
 ## Introduzione
 
 
-{{TOCright}}
+
 
 In FreeCAD il termine \"[Assemblaggio](Assembly/it.md)\" è normalmente usato per riferirsi a un [modello 3D](Model/it.md) che è composto da diverse parti distinte, assemblate assieme in modo da creare un oggetto funzionale, proprio come sono fatti i prodotti nel mondo reale.
 
@@ -54,4 +54,4 @@ Gli ambienti di assemblaggio continuano ad essere sviluppati, e ci si aspetta ch
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly/it
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly/it

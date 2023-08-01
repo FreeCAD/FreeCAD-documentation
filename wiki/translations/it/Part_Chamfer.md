@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part_Chamfer
-   Name/it:Smussa
-   MenuLocation:Parte - Smussa...
-   Workbenches:[Parte](Part_Workbench/it.md)
-   SeeAlso:[Raccorda...](Part_Fillet/it.md)
+   Name: Part_Chamfer
+   Name/it: Smussa
+   MenuLocation: Parte - Smussa...
+   Workbenches: [Parte](Part_Workbench/it.md)
+   SeeAlso: [Raccorda...](Part_Fillet/it.md)
 ---
 
 # Part Chamfer/it
@@ -229,4 +229,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/it

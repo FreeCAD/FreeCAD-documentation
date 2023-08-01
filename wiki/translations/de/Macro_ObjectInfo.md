@@ -51,4 +51,4 @@ Vom Forum [Info Workbench - Help with icons please.](http://forum.freecadweb.org
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro ObjectInfo/de
+⏵ [documentation index](../README.md) > Macro ObjectInfo/de

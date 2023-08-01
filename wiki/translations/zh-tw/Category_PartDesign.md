@@ -10,4 +10,4 @@ This category lists pages related to the [PartDesign Workbench/zh-tw](PartDesign
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:PartDesign/zh-tw
+⏵ [documentation index](../README.md) > Category:PartDesign/zh-tw

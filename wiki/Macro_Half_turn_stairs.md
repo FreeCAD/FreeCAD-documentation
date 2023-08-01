@@ -306,4 +306,4 @@ Save this Data as file **stairs.dat** in your macro directory
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Half turn stairs
+⏵ [documentation index](../README.md) > Macro Half turn stairs

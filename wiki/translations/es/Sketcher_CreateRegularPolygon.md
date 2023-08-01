@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateRegularPolygon
-   Name/es:Croquizador CrearPolígonoRegular
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation:Dibujar - Dibujar geometrías - Crear un polígono regular
-   Shortcut:
-   SeeAlso:
+   Name: Sketcher CreateRegularPolygon
+   Name/es: Croquizador CrearPolígonoRegular
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   MenuLocation: Dibujar - Dibujar geometrías - Crear un polígono regular
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Sketcher CreateRegularPolygon/es
@@ -50,4 +50,4 @@ The circumscribed circle is construction geometry, which is only visible when ed
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRegularPolygon/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRegularPolygon/es

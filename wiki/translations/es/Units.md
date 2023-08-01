@@ -1,7 +1,4 @@
 # Units/es
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 Aquí hay algunos enlaces con información sobre unidades:
@@ -80,4 +77,4 @@ Aquí están las unidades definidas en FreeCAD hasta el momento. Es sencillo añ
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Units/es
+⏵ [documentation index](../README.md) > Units/es

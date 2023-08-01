@@ -1,8 +1,4 @@
 # Package Metadata/ru
-{{TOCright}}
-
-
-
 ## Введение
 
 Начиная с 0.20 версии FreeCAD, внешние дополнения (верстаки, макросы и пакеты настроек) могут распространяться с файлом метаданных, описывающим содержимое пакета. Если файл \"package.xml\" присутствует, он читается FreeCAD и его содержимое используется в различных частях пользовательского интерфейса. В настоящее время это необязательно для рабочих мест и макросов, но требуется для пакетов настроек. На данной странице описывается формат метаданных. Сам формат (и содержание этой вики-страницы) основано на [REP 149](https://ros.org/reps/rep-0149.html).
@@ -427,4 +423,4 @@ A simple workbench-only package (for example, to add a metadata file to a packag
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Package Metadata/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Package Metadata/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:PartDesign Scaled
-   Name/de:PartDesign Scaled
-   MenuLocation:None (Option within Part Design - Muster anwenden - Mehrfach-Transformation erstellen)
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso:[PartDesign Mehrfach-Transformation](PartDesign_MultiTransform/de.md)
+   Name: PartDesign Scaled
+   Name/de: PartDesign Scaled
+   MenuLocation: None (Option within Part Design - Muster anwenden - Mehrfach-Transformation erstellen)
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso: [PartDesign Mehrfach-Transformation](PartDesign_MultiTransform/de.md)
 ---
 
 # PartDesign Scaled/de
@@ -69,4 +69,4 @@ Wenn noch keine Transformation in der <img alt="" src=images/PartDesign_MultiTra
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/de

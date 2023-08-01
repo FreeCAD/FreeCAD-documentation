@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std LinkImportAll
-   MenuLocation:None
-   Workbenches:All
-   Version:0.19
-   SeeAlso:[Std LinkMake](Std_LinkMake.md), [Std LinkMakeRelative](Std_LinkMakeRelative.md), [Std LinkImport](Std_LinkImport.md)
+   Name: Std LinkImportAll
+   MenuLocation: None
+   Workbenches: All
+   Version: 0.19
+   SeeAlso: [Std LinkMake](Std_LinkMake.md), [Std LinkMakeRelative](Std_LinkMakeRelative.md), [Std LinkImport](Std_LinkImport.md)
 ---
 
 # Std LinkImportAll/en
@@ -40,4 +40,4 @@ This command essentially runs **[<img src=images/Std_LinkImport.svg style="width
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkImportAll/en
+⏵ [documentation index](../README.md) > Std LinkImportAll/en

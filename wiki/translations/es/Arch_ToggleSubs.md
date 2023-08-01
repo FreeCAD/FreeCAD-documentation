@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch ToggleSubs
-   Name/es:Arch ToggleSubs
-   MenuLocation:Arch - Utilities - Toggle Subcomponents
-   Workbenches:[Arch](Arch_Workbench/es.md)
-   Shortcut:‏‎Ctrl + Space
-   SeeAlso:
+   Name: Arch ToggleSubs
+   Name/es: Arch ToggleSubs
+   MenuLocation: Arch - Utilities - Toggle Subcomponents
+   Workbenches: [Arch](Arch_Workbench/es.md)
+   Shortcut: ‏‎Ctrl + Space
+   SeeAlso: 
 ---
 
 # Arch ToggleSubs/es
@@ -60,4 +60,4 @@ The [Draft construction](Draft_ToggleConstructionMode.md) style can be set in th
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/es
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/es

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM EquationDeformation
-   MenuLocation:Solve - Mechanical equations - Deformation equation
-   Workbenches:[FEM](FEM_Workbench.md)
-   Version:0.21
-   SeeAlso:[Elasticity equation](FEM_EquationElasticity.md), [FEM tutorial](FEM_tutorial.md)
+   Name: FEM EquationDeformation
+   MenuLocation: Solve - Mechanical equations - Deformation equation
+   Workbenches: [FEM](FEM_Workbench.md)
+   Version: 0.21
+   SeeAlso: [Elasticity equation](FEM_EquationElasticity.md), [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM EquationDeformation/pl
@@ -183,4 +183,4 @@ The available results depend on the [solver settings](#Solver_Settings.md). If n
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationDeformation/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationDeformation/pl

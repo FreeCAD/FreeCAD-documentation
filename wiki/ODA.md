@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > ODA
+⏵ [documentation index](../README.md) > ODA

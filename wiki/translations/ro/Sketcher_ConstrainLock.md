@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher ConstrainLock
-   Name/ro:Constrângere fixă
-   Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation:Sketch - Constrângeri desenator - Constrângere fixă
-   SeeAlso:[Constraint Block](Sketcher_ConstrainBlock/ro.md)
+   Name: Sketcher ConstrainLock
+   Name/ro: Constrângere fixă
+   Workbenches: [Sketcher](Sketcher_Workbench/ro.md)
+   MenuLocation: Sketch - Constrângeri desenator - Constrângere fixă
+   SeeAlso: [Constraint Block](Sketcher_ConstrainBlock/ro.md)
 ---
 
 # Sketcher ConstrainLock/ro
@@ -57,4 +57,4 @@ The <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Loc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainLock/ro

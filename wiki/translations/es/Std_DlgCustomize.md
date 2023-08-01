@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std DlgCustomize
-   Name/es:Std PersonalizarDiálogo
-   MenuLocation:Herramientas - Personalizar...
-   Workbenches:Todo
-   SeeAlso:[Personalización del interfaz](Interface_Customization/es.md)
+   Name: Std DlgCustomize
+   Name/es: Std PersonalizarDiálogo
+   MenuLocation: Herramientas - Personalizar...
+   Workbenches: Todo
+   SeeAlso: [Personalización del interfaz](Interface_Customization/es.md)
 ---
 
 # Std DlgCustomize/es
@@ -40,4 +40,4 @@ El comando **Std DiálogoPersonalizar** abre el cuadro de diálogo Personalizar 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgCustomize/es
+⏵ [documentation index](../README.md) > Std DlgCustomize/es

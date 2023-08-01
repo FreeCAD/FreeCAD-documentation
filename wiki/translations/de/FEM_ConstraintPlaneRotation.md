@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintPlaneRotation
-   MenuLocation:Model - Geometrical Constraints - Constraint plane rotation
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM Constraint transform](FEM_ConstraintTransform.md)
+   Name: FEM ConstraintPlaneRotation
+   MenuLocation: Model - Geometrical Constraints - Constraint plane rotation
+   Workbenches: [FEM](FEM_Workbench.md)
+   SeeAlso: [FEM Constraint transform](FEM_ConstraintTransform.md)
 ---
 
 # FEM ConstraintPlaneRotation/de
@@ -39,4 +39,4 @@ Creates a FEM constraint for keeping the nodes in a planar surface in the same p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPlaneRotation/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPlaneRotation/de

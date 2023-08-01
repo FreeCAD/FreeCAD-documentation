@@ -5,7 +5,7 @@
 
 
 
-{{TOCright}}
+
 
 ## Overview
 
@@ -81,4 +81,4 @@ FreeCAD forum thread: <https://forum.freecadweb.org/viewtopic.php?f=8&t=45877>
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FreeCAD Docker CLI mode/en
+⏵ [documentation index](../README.md) > FreeCAD Docker CLI mode/en

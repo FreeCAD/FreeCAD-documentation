@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Sweep
-   Name/es:Part Barrido
-   MenuLocation:Pieza - Barrido...
-   Workbenches:[Part](Part_Workbench/es.md)
-   SeeAlso:[Part Loft](Part_Loft.md)
+   Name: Part Sweep
+   Name/es: Part Barrido
+   MenuLocation: Pieza - Barrido...
+   Workbenches: [Part](Part_Workbench/es.md)
+   SeeAlso: [Part Loft](Part_Loft.md)
 ---
 
 # Part Sweep/es
@@ -166,4 +166,4 @@ Si \"Frenet\" es \"true\" la orientación del perfil se computa en base a la cur
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/es
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/es

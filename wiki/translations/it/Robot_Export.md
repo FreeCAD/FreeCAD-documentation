@@ -1,6 +1,6 @@
 # Robot Export/it
 ---
-- GuiCommand:   Name:Robot Export   Name/it:Esporta traiettoria   Workbenches:[[Robot_Workbench/it   Robot]]|MenuLocation:Robot - Esporta traiettoria---
+- GuiCommand:   Name: Robot Export   Name/it: Esporta traiettoria   Workbenches: [[Robot_Workbench/it   Robot]]|MenuLocation: Robot - Esporta traiettoria---
 
 
 </div>
@@ -72,4 +72,4 @@ Viene creato un file KRL (\*.src).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Export/it
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Export/it

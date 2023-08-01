@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ClippingPlaneAdd
-   Name/ru:FEM ClippingPlaneAdd
-   MenuLocation: Utilities - Clipping Plane on Face
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM ClippingPlaneAdd
+   Name/ru: FEM ClippingPlaneAdd
+   MenuLocation:  Utilities - Clipping Plane on Face
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM ClippingPlaneAdd/ru
@@ -53,4 +53,4 @@ To remove all clipping planes, use the feature [Remove all clipping planes](FEM_
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ClippingPlaneAdd/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ClippingPlaneAdd/ru

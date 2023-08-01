@@ -1479,4 +1479,4 @@ Also in {{Code|
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Sandbox:TutorialArchBIM
+⏵ [documentation index](../README.md) > Sandbox:TutorialArchBIM

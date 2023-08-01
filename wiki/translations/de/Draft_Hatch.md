@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Hatch
-   Name/de:Draft Schraffur
-   MenuLocation:Entwurf - Schraffur
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Shortcut:**H** **A**
-   Version:0.20
-   SeeAlso:[Draft Muster](Draft_Pattern/de.md)
+   Name: Draft Hatch
+   Name/de: Draft Schraffur
+   MenuLocation: Entwurf - Schraffur
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut: **H** **A**
+   Version: 0.20
+   SeeAlso: [Draft Muster](Draft_Pattern/de.md)
 ---
 
 # Draft Hatch/de
@@ -121,4 +121,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Hatch/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Hatch/de

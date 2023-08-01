@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintSpring
-   MenuLocation:Model - Mechanical Constraints - Constraint spring
-   Workbenches:[FEM](FEM_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:
+   Name: FEM ConstraintSpring
+   MenuLocation: Model - Mechanical Constraints - Constraint spring
+   Workbenches: [FEM](FEM_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: 
 ---
 
 # FEM ConstraintSpring/pl
@@ -39,4 +39,4 @@ Definiuje warunek brzegowy sprężyny, do wykorzystania w analizach mechanicznyc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSpring/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSpring/pl

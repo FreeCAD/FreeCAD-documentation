@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Draft2Sketch
-   Name/de:Entwurf EntwurfZuSkizze
-   MenuLocation:Änderung - Entwurf zu Skizze
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench.md)
+   Name: Draft Draft2Sketch
+   Name/de: Entwurf EntwurfZuSkizze
+   MenuLocation: Änderung - Entwurf zu Skizze
+   Workbenches: [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench.md)
 ---
 
 # Draft Draft2Sketch/de
@@ -99,4 +99,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Draft2Sketch/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Draft2Sketch/de

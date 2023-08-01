@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TransformManip
-   Name/pl:Std: Przemieszczenie
-   MenuLocation:Kliknij prawym przyciskiem na obiekt w widoku drzewa - Przekształć
+   Name: Std TransformManip
+   Name/pl: Std: Przemieszczenie
+   MenuLocation: Kliknij prawym przyciskiem na obiekt w widoku drzewa - Przekształć
 Edycja - Przemieszczenie
-   Workbenches:Wszystkie
-   SeeAlso:[Strona Startowa](Std_Base/pl.md)
+   Workbenches: Wszystkie
+   SeeAlso: [Strona Startowa](Std_Base/pl.md)
 ---
 
 # Std TransformManip/pl
@@ -45,4 +45,4 @@ Nie ma przycisku Anuluj.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TransformManip/pl
+⏵ [documentation index](../README.md) > Std TransformManip/pl

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM SolverCalculiX
-   MenuLocation:Solve - Solver CalculiX (new framework)
-   Workbenches:[FEM](FEM_Workbench.md)
-   Shortcut:**S** **C**
-   SeeAlso:[FEM CalculiX](FEM_CalculiX.md), [FEM tutorial](FEM_tutorial.md)
+   Name: FEM SolverCalculiX
+   MenuLocation: Solve - Solver CalculiX (new framework)
+   Workbenches: [FEM](FEM_Workbench.md)
+   Shortcut: **S** **C**
+   SeeAlso: [FEM CalculiX](FEM_CalculiX.md), [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM SolverCalculiX/en
@@ -32,4 +32,4 @@ The **Solver CalculiX (new framework)** command creates a SolverCalculix object,
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverCalculiX/en
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverCalculiX/en

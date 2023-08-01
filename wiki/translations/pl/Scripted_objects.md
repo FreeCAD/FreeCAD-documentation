@@ -1,8 +1,4 @@
 # Scripted objects/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 Oprócz standardowych typów obiektów, takich jak adnotacje, siatki i obiekty części, FreeCAD oferuje również niesamowitą możliwość tworzenia obiektów parametrycznych w 100% napisanych w języku Python, zwanych [właściwościami Python](App_FeaturePython/pl.md). Obiekty te zachowują się dokładnie tak, jak każdy inny obiekt programu FreeCAD i są zapisywane i przywracane automatycznie podczas zapisywania/wczytywania pliku.
@@ -1090,4 +1086,4 @@ Oprócz przykładów przedstawionych tutaj więcej przykładów można znaleźć
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects/pl

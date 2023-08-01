@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ResolveConstraints
-   Icon:Assembly3_workbench_icon.svg
-   MenuLocation:Assembly3 - Resolve constraints
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
-   Shortcut:**A** then **S**
+   Name: Assembly3 ResolveConstraints
+   Icon: Assembly3_workbench_icon.svg
+   MenuLocation: Assembly3 - Resolve constraints
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
+   Shortcut: **A** then **S**
 ---
 
 # Assembly3 ResolveConstraints/pl
@@ -25,4 +25,4 @@ This tool is used to recompute an assembly after adding/removing constraints or 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ResolveConstraints/pl
+⏵ [documentation index](../README.md) > Assembly3 ResolveConstraints/pl

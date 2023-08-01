@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Arch Panel Cut
-   Name/fr:Arch Découpe de panneau
-   MenuLocation:Arch - Outils pour les panneaux - Découpe de panneau
-   Workbenches:[Arch](Arch_Workbench/fr.md), [Path](Path_Workbench/fr.md)
-   Shortcut:**P** **C**
-   Version:0.17
-   SeeAlso:[Arch Panneau](Arch_Panel/fr.md), [Arch Feuille de panneaux](Arch_Panel_Sheet/fr.md), [Arch Calepinage](Arch_Nest/fr.md)
+   Name: Arch Panel Cut
+   Name/fr: Arch Découpe de panneau
+   MenuLocation: Arch - Outils pour les panneaux - Découpe de panneau
+   Workbenches: [Arch](Arch_Workbench/fr.md), [Path](Path_Workbench/fr.md)
+   Shortcut: **P** **C**
+   Version: 0.17
+   SeeAlso: [Arch Panneau](Arch_Panel/fr.md), [Arch Feuille de panneaux](Arch_Panel_Sheet/fr.md), [Arch Calepinage](Arch_Nest/fr.md)
 ---
 
 # Arch Panel Cut/fr
@@ -103,4 +103,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Cut/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Cut/fr

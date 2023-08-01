@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionLinePerpendicular
-   Name/fr:TechDraw Ligne perpendiculaire
-   MenuLocation:TechDraw - Extensions : taraudages/filetages - Ligne perpendiculaire
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw Ligne parallèle](TechDraw_ExtensionLineParallel/fr.md)
+   Name: TechDraw ExtensionLinePerpendicular
+   Name/fr: TechDraw Ligne perpendiculaire
+   MenuLocation: TechDraw - Extensions : taraudages/filetages - Ligne perpendiculaire
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw Ligne parallèle](TechDraw_ExtensionLineParallel/fr.md)
 ---
 
 # TechDraw ExtensionLinePerpendicular/fr
@@ -41,4 +41,4 @@ L\'outil **TechDraw Ligne perpendiculaire** ajoute une ligne cosmétique perpend
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionLinePerpendicular/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionLinePerpendicular/fr

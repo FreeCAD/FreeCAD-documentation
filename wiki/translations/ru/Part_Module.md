@@ -1,7 +1,7 @@
 # <img alt="Иконка верстака Part" src=images/Workbench_Part.svg  style="width:64px;"> Part Module/ru
 
 
-{{TOCright}}
+
 
 
 
@@ -254,4 +254,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Part](Part_Workbench.md) > Part Module/ru
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Part](Part_Workbench.md) > Part Module/ru

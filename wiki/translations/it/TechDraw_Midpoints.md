@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw Midpoints
-   Name/it:Punti mediani
-   MenuLocation:TechDraw - Aggiungi vertici - Punti mediani
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Vertice cosmetico](TechDraw_CosmeticVertex/it.md), [Quadrante](TechDraw_Quadrants/it.md)
-   Version:0.19
+   Name: TechDraw Midpoints
+   Name/it: Punti mediani
+   MenuLocation: TechDraw - Aggiungi vertici - Punti mediani
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso: [Vertice cosmetico](TechDraw_CosmeticVertex/it.md), [Quadrante](TechDraw_Quadrants/it.md)
+   Version: 0.19
 ---
 
 # TechDraw Midpoints/it
@@ -101,4 +101,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Midpoints/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Midpoints/it

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path Sanity
-   MenuLocation:Path - Check the path job for common errors
-   Workbenches:[Path](Path_Workbench.md)
-   Shortcut:**P** **S**
-   Version:0.19
+   Name: Path Sanity
+   MenuLocation: Path - Check the path job for common errors
+   Workbenches: [Path](Path_Workbench.md)
+   Shortcut: **P** **S**
+   Version: 0.19
 ---
 
 # Path Sanity/ru
@@ -94,4 +94,4 @@ Warnings and errors detected by [Path Sanity](Path_Sanity.md). These may or may 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Sanity/ru
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Sanity/ru

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ro:Sketcher Copie la indigo
-   Icon:Sketcher CarbonCopy.svg
-   MenuLocation:Sketch - Geometria schitei - Copie la indigo
-   Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   Version:0.17
+   Name/ro: Sketcher Copie la indigo
+   Icon: Sketcher CarbonCopy.svg
+   MenuLocation: Sketch - Geometria schitei - Copie la indigo
+   Workbenches: [Sketcher](Sketcher_Workbench/ro.md)
+   Version: 0.17
 ---
 
 # Sketcher CarbonCopy/ro
@@ -50,4 +50,4 @@ Dimensional constraints which exist before the copy function remain linked to th
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CarbonCopy/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CarbonCopy/ro

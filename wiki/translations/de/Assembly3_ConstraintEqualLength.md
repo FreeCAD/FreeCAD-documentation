@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintEqualLength
-   Name/de:Assembly3 GleicheLänge
-   Icon:Assembly_ConstraintEqualLength.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintEqualLength
+   Name/de: Assembly3 GleicheLänge
+   Icon: Assembly_ConstraintEqualLength.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintEqualLength/de
@@ -29,4 +29,4 @@ Der Längenwert der zuerst gewählten Linie ist gleich dem Längenwert der zweit
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintEqualLength/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintEqualLength/de

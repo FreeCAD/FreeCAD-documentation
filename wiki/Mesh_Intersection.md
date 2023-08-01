@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh Intersection
-   MenuLocation:Meshes - Boolean - Intersection
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   SeeAlso:[Mesh Union](Mesh_Union.md), [Mesh Difference](Mesh_Difference.md)
+   Name: Mesh Intersection
+   MenuLocation: Meshes - Boolean - Intersection
+   Workbenches: [Mesh](Mesh_Workbench.md)
+   SeeAlso: [Mesh Union](Mesh_Union.md), [Mesh Difference](Mesh_Difference.md)
 ---
 
 # Mesh Intersection
@@ -36,4 +36,4 @@ See: [Mesh Feature](Mesh_Feature.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Intersection
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Intersection

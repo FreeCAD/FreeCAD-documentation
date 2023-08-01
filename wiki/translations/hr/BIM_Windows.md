@@ -1,9 +1,9 @@
 ---
 - GuiCommand:Addon
-   Name:BIM Windows
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
-   Addon:BIM
-   MenuLocation:Manage - Windows
+   Name: BIM Windows
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
+   Addon: BIM
+   MenuLocation: Manage - Windows
 ---
 
 # BIM Windows/hr
@@ -19,4 +19,4 @@ The BIM windows manager dialog allows you to browse and modify all the [windows 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Windows/hr
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Windows/hr

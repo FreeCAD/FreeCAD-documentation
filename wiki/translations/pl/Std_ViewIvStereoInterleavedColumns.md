@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ViewIvStereoInterleavedColumns
-   Name/pl:Std: Widok stereo z przeplotem kolumn
-   MenuLocation:Widok - Widok trójwymiarowy - Widok z przeplotem kolumn
-   Workbenches:wszystkie
-   SeeAlso:[Widok stereo czerwony / cyjan](Std_ViewIvStereoRedGreen/pl.md),  [Widok poczwórny bufor stereo](Std_ViewIvStereoQuadBuff/pl.md), [Widok stereo z przeplotem wierszy](Std_ViewIvStereoInterleavedRows/pl.md), [Wyłącz widok trójwymiarowy](Std_ViewIvStereoOff/pl.md)
+   Name: Std ViewIvStereoInterleavedColumns
+   Name/pl: Std: Widok stereo z przeplotem kolumn
+   MenuLocation: Widok - Widok trójwymiarowy - Widok z przeplotem kolumn
+   Workbenches: wszystkie
+   SeeAlso: [Widok stereo czerwony / cyjan](Std_ViewIvStereoRedGreen/pl.md),  [Widok poczwórny bufor stereo](Std_ViewIvStereoQuadBuff/pl.md), [Widok stereo z przeplotem wierszy](Std_ViewIvStereoInterleavedRows/pl.md), [Wyłącz widok trójwymiarowy](Std_ViewIvStereoOff/pl.md)
 ---
 
 # Std ViewIvStereoInterleavedColumns/pl
@@ -49,4 +49,4 @@ FreeCADGui.ActiveDocument.ActiveView.getStereoType()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewIvStereoInterleavedColumns/pl
+⏵ [documentation index](../README.md) > Std ViewIvStereoInterleavedColumns/pl

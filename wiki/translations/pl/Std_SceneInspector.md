@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std SceneInspector
-   Name/pl:Std: Inspektor sceny
-   MenuLocation:Przybory - Inspektor sceny
-   Workbenches:wszystkie
+   Name: Std SceneInspector
+   Name/pl: Std: Inspektor sceny
+   MenuLocation: Przybory - Inspektor sceny
+   Workbenches: wszystkie
 ---
 
 # Std SceneInspector/pl
@@ -35,4 +35,4 @@ Polecenie **Inspektor sceny** otwiera okno dialogowe wyświetlające przegląd w
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SceneInspector/pl
+⏵ [documentation index](../README.md) > Std SceneInspector/pl

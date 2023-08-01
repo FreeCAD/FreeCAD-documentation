@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh PolyCut
-   Name/pl:Siatka Przetnij
-   MenuLocation:Siatki - Cięcie - Przetnij siatkę
-   Workbenches:[Siatka](Mesh_Workbench/pl.md)
-   SeeAlso:[Przytnij](Mesh_PolyTrim/pl.md), [Przytnij siatkę płaszczyzną](Mesh_TrimByPlane/pl.md)
+   Name: Mesh PolyCut
+   Name/pl: Siatka Przetnij
+   MenuLocation: Siatki - Cięcie - Przetnij siatkę
+   Workbenches: [Siatka](Mesh_Workbench/pl.md)
+   SeeAlso: [Przytnij](Mesh_PolyTrim/pl.md), [Przytnij siatkę płaszczyzną](Mesh_TrimByPlane/pl.md)
 ---
 
 # Mesh PolyCut/pl
@@ -57,4 +57,4 @@ Polecenie **Przetnij** wycina z obiektów siatkowych całe ściany.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyCut/pl
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyCut/pl

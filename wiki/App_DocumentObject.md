@@ -74,4 +74,4 @@ obj.Label = "Custom label"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > App DocumentObject
+⏵ [documentation index](../README.md) > App DocumentObject

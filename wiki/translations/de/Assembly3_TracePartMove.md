@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 TracePartMove
-   Name/de:Assembly3 BewegungAufzeichnen
-   Icon:Assembly_Trace.svg‎‎
-   MenuLocation:Assembly3 - Trace part move
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 TracePartMove
+   Name/de: Assembly3 BewegungAufzeichnen
+   Icon: Assembly_Trace.svg‎‎
+   MenuLocation: Assembly3 - Trace part move
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 TracePartMove/de
@@ -38,4 +38,4 @@ Der Befehl <img alt="" src=images/Assembly_Trace.svg  style="width:24px;"> [Bewe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 TracePartMove/de
+⏵ [documentation index](../README.md) > Assembly3 TracePartMove/de

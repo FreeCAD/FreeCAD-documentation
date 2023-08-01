@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionCircleCenterLines
-   Name/fr:TechDraw Axes de centrage
-   MenuLocation:TechDraw - Extensions : taraudages/filetages - Axes de centrage
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw Axes de centrage de trous/vis](TechDraw_ExtensionHoleCircle/fr.md)
+   Name: TechDraw ExtensionCircleCenterLines
+   Name/fr: TechDraw Axes de centrage
+   MenuLocation: TechDraw - Extensions : taraudages/filetages - Axes de centrage
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw Axes de centrage de trous/vis](TechDraw_ExtensionHoleCircle/fr.md)
 ---
 
 # TechDraw ExtensionCircleCenterLines/fr
@@ -42,4 +42,4 @@ L\'outil **TechDraw Axes de centrage** ajoute des lignes de centre aux cercles e
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCircleCenterLines/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCircleCenterLines/fr

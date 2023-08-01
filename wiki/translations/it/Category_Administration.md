@@ -18,4 +18,4 @@ Questa categoria contiene articoli e categorie su argomenti amministrativi del w
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Administration/it
+⏵ [documentation index](../README.md) > Category:Administration/it

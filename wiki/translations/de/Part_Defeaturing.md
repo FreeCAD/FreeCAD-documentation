@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Defeaturing
-   Name/de:Part MerkmalEntfernen
-   MenuLocation:Formteil - Merkmal entfernen
-   Workbenches:[Part](Part_Workbench/de.md)
-   Version:0.18
-   SeeAlso:[Defeaturing](Defeaturing_Workbench/de.md), [Macro Parametric Defeaturing](Macro_Parametric_Defeaturing.md)
+   Name: Part Defeaturing
+   Name/de: Part MerkmalEntfernen
+   MenuLocation: Formteil - Merkmal entfernen
+   Workbenches: [Part](Part_Workbench/de.md)
+   Version: 0.18
+   SeeAlso: [Defeaturing](Defeaturing_Workbench/de.md), [Macro Parametric Defeaturing](Macro_Parametric_Defeaturing.md)
 ---
 
 # Part Defeaturing/de
@@ -39,4 +39,4 @@ Um verfügbar zu sein, muss FreeCAD auf Open Cascade 7.3.0 oder höher basieren.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Defeaturing/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Defeaturing/de

@@ -1,7 +1,4 @@
 # FreeCAD Scripting Basics/ro
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 ## Programarea script Python in FreeCAD 
@@ -414,4 +411,4 @@ Acum puteți începe să jucați cu FreeCAD! Pentru a vedea ce puteți face cu [
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FreeCAD Scripting Basics/ro
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FreeCAD Scripting Basics/ro

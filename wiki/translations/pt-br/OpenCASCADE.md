@@ -1,8 +1,4 @@
 # OpenCASCADE/pt-br
-{{TOCright}}
-
-
-
 ## Descrição
 
 [OpenCASCADE Technology](OpenCASCADE/pt-br.md), **OCC** ou **OCCT** para abreviar, é uma coleção de bibliotecas C++ que juntas constituem um kernel profissional de projeto assistido por computador (CAD) para modelagem de objetos 2D e 3D, e construção de ferramentas especializadas para fabricação, simulação ou visualização. O OpenCASCADE é o coração das capacidades geométricas do FreeCAD.
@@ -96,4 +92,4 @@ Assim, a partir de formas, você pode construir peças muito complexas ou, ao co
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > OpenCASCADE/pt-br
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > OpenCASCADE/pt-br

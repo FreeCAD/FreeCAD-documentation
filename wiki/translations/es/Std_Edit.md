@@ -1,6 +1,6 @@
 # Std Edit/es
 ---
-- GuiCommand:   Name:Std_Edit   Name/es:Std Edit   MenuLocation:[[Std_Edit_Menu/es   Edición]] -> Conmutar modo de edición|Workbenches:Todos   SeeAlso:...---
+- GuiCommand:   Name: Std_Edit   Name/es: Std Edit   MenuLocation: [[Std_Edit_Menu/es   Edición]] -> Conmutar modo de edición|Workbenches: Todos   SeeAlso: ...---
 
 
 </div>
@@ -95,4 +95,4 @@ FreeCADGui.ActiveDocument.resetEdit()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Edit/es
+⏵ [documentation index](../README.md) > Std Edit/es

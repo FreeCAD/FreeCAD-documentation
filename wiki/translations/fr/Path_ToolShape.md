@@ -1,6 +1,4 @@
 # Path ToolShape/fr
-{{TOCright}}
-
 ## Description
 
 Les Formes d\'outils sont un élément essentiel du système [Path Outils](Path_Tools/fr.md). Les Formes d\'outils sont les modèles à partir desquels les Outils coupants sont créés. Elles représentent la forme physique spécifique d\'un outil. Une forme d\'outil ne décrit pas complètement l\'outil - pour cela, des paramètres supplémentaires sont nécessaires, qui seront ajoutés lorsqu\'un outil réel sera paramétré à partir du modèle.
@@ -112,4 +110,4 @@ Remarques importantes :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolShape/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolShape/fr

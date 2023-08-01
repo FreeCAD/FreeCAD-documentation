@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Drawing Landscape A3
-   Name/ru:Drawing Landscape A3
-   Workbenches:[Drawing](Drawing_Workbench/ru.md), Complete
-   MenuLocation:Чертёж - Вставить новый чертёж - A3 Ландшафтная
-   Shortcut:none
+   Name: Drawing Landscape A3
+   Name/ru: Drawing Landscape A3
+   Workbenches: [Drawing](Drawing_Workbench/ru.md), Complete
+   MenuLocation: Чертёж - Вставить новый чертёж - A3 Ландшафтная
+   Shortcut: none
 ---
 
 # Drawing Landscape A3/ru
@@ -34,4 +34,4 @@ If the page does not display, click on the <img alt="" src=images/view-refresh.p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Landscape A3/ru
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Landscape A3/ru

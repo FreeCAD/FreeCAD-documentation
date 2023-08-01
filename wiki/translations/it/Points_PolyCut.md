@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Points PolyCut
-   Name/it:Taglia una nuvola di punti
-   Icon:PolygonPick.svg
-   MenuLocation:Punti - Taglia una nuvola di punti
-   Workbenches:[Punti](Points_Workbench/it.md)
-   SeeAlso:
+   Name: Points PolyCut
+   Name/it: Taglia una nuvola di punti
+   Icon: PolygonPick.svg
+   MenuLocation: Punti - Taglia una nuvola di punti
+   Workbenches: [Punti](Points_Workbench/it.md)
+   SeeAlso: 
 ---
 
 # Points PolyCut/it
@@ -61,4 +61,4 @@ The **Points PolyCut** command cuts points from point clouds.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points PolyCut/it
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points PolyCut/it

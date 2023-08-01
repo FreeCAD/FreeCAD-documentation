@@ -10,4 +10,4 @@ This category lists pages related to the [OpenSCAD_Workbench/sv](OpenSCAD_Workbe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:OpenSCAD/sv
+⏵ [documentation index](../README.md) > Category:OpenSCAD/sv

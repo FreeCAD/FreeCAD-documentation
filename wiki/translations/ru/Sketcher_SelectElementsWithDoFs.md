@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Выбрать геометрию имеющую неограниченные степени свободы
-   Name:Sketcher_SelectElementsWithDoFs
-   MenuLocation:Sketch - Инструменты для эскиза - Выбрать геометрию имеющую неограниченные степени свободы
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.18
+   Name/ru: Выбрать геометрию имеющую неограниченные степени свободы
+   Name: Sketcher_SelectElementsWithDoFs
+   MenuLocation: Sketch - Инструменты для эскиза - Выбрать геометрию имеющую неограниченные степени свободы
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Version: 0.18
 ---
 
 # Sketcher SelectElementsWithDoFs/ru
@@ -54,4 +54,4 @@ where \"X\" is the number of degrees of freedom remaining in the sketch; you wil
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsWithDoFs/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsWithDoFs/ru

@@ -1,6 +1,6 @@
 # PartDesign Thickness/ro
 ---
-- GuiCommand:   Name:PartDesign Thickness   Workbenches:[MenuLocation:Part Design - Thickness   Shortcut:None   SeeAlso:[[Part_Thickness|Part Thickness](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign Thickness   Workbenches: [MenuLocation: Part Design - Thickness   Shortcut: None   SeeAlso: [[Part_Thickness|Part Thickness](PartDesign_Workbench___PartDesign]].md)---
 
 
 </div>
@@ -134,4 +134,4 @@ A PartDesign Thickness object is derived from a [Part Feature](Part_Feature.md) 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/ro

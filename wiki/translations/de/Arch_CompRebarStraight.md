@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch CompRebarStraight
-   Name/de:Arch CompRebarStraight
-   MenuLocation:Architektur - Bewehrungswerkzeuge
-   Workbenches:[Architektur](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
-   Version:0.17
+   Name: Arch CompRebarStraight
+   Name/de: Arch CompRebarStraight
+   MenuLocation: Architektur - Bewehrungswerkzeuge
+   Workbenches: [Architektur](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   Version: 0.17
 ---
 
 # Arch CompRebarStraight/de
@@ -104,4 +104,4 @@ Zurück zu [Arbeitsbereiche](Workbenches#External_workbenches/de.md) / [Externe 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/de

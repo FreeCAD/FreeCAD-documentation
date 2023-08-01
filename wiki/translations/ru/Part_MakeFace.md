@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part_MakeFace
-   Name/ru:Создать грань из ломанных
-   MenuLocation:Деталь - Создать грань из ломанных
-   Workbenches:[Part(Деталь)](Part_Workbench/ru.md)
-   Version:0.19
-   SeeAlso:[Линейчатая поверхность](Part_RuledSurface/ru.md)
+   Name: Part_MakeFace
+   Name/ru: Создать грань из ломанных
+   MenuLocation: Деталь - Создать грань из ломанных
+   Workbenches: [Part(Деталь)](Part_Workbench/ru.md)
+   Version: 0.19
+   SeeAlso: [Линейчатая поверхность](Part_RuledSurface/ru.md)
 ---
 
 # Part MakeFace/ru
@@ -42,4 +42,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeFace/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeFace/ru

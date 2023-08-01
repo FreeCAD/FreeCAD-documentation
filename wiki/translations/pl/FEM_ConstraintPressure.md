@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintPressure
-   MenuLocation:Model - Mechanical Constraints - Constraint pressure
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM Constraint force](FEM_ConstraintForce.md)
+   Name: FEM ConstraintPressure
+   MenuLocation: Model - Mechanical Constraints - Constraint pressure
+   Workbenches: [FEM](FEM_Workbench.md)
+   SeeAlso: [FEM Constraint force](FEM_ConstraintForce.md)
 ---
 
 # FEM ConstraintPressure/pl
@@ -42,4 +42,4 @@ Nakłada na ścianę warunek nacisku ciśnieniem.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPressure/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPressure/pl

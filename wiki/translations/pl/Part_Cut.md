@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Cut
-   Name/pl:Część: Wytnij
-   MenuLocation:Część - Operacje logiczne - Wytnij
-   Workbenches:[Part](Part_Workbench/pl.md)
-   SeeAlso:[Operacja logiczna](Part_Boolean/pl.md), [Połączenie](Part_Fuse/pl.md), [Część wspólna](Part_Common/pl.md)
+   Name: Part Cut
+   Name/pl: Część: Wytnij
+   MenuLocation: Część - Operacje logiczne - Wytnij
+   Workbenches: [Part](Part_Workbench/pl.md)
+   SeeAlso: [Operacja logiczna](Part_Boolean/pl.md), [Połączenie](Part_Fuse/pl.md), [Część wspólna](Part_Common/pl.md)
 ---
 
 # Part Cut/pl
@@ -37,4 +37,4 @@ Obiekty wejściowe muszą być kształtami [OpenCascade](OpenCASCADE/pl.md). Prz
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/pl

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std MainFullscreen
-   Name/de:Std HauptfensterVollbild
-   MenuLocation:Ansicht - Vollbild
-   Workbenches:Alle
-   Shortcut:**Alt**+**F11**
-   SeeAlso:[Std AnsichtVollbild](Std_ViewFullscreen/de.md)
+   Name: Std MainFullscreen
+   Name/de: Std HauptfensterVollbild
+   MenuLocation: Ansicht - Vollbild
+   Workbenches: Alle
+   Shortcut: **Alt**+**F11**
+   SeeAlso: [Std AnsichtVollbild](Std_ViewFullscreen/de.md)
 ---
 
 # Std MainFullscreen/de
@@ -31,4 +31,4 @@ Der Befehl **Std HauptfensterVollbild** schaltet das Hauptfenster, die FreeCAD-O
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MainFullscreen/de
+⏵ [documentation index](../README.md) > Std MainFullscreen/de

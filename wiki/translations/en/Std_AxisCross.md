@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std AxisCross
-   MenuLocation:View - Toggle axis cross
-   Workbenches:All
-   Shortcut:**A** **C**
+   Name: Std AxisCross
+   MenuLocation: View - Toggle axis cross
+   Workbenches: All
+   Shortcut: **A** **C**
 ---
 
 # Std AxisCross/en
@@ -60,4 +60,4 @@ FreeCADGui.ActiveDocument.ActiveView.hasAxisCross()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std AxisCross/en
+⏵ [documentation index](../README.md) > Std AxisCross/en

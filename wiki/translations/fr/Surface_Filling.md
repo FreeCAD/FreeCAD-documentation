@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Surface Filling
-   Name/fr:Surface Remplissage
-   MenuLocation:Surface - Filling...
-   Workbenches:[Surface](Surface_Workbench/fr.md)
-   Version:0.17
+   Name: Surface Filling
+   Name/fr: Surface Remplissage
+   MenuLocation: Surface - Filling...
+   Workbenches: [Surface](Surface_Workbench/fr.md)
+   Version: 0.17
 ---
 
 # Surface Filling/fr
@@ -220,4 +220,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface Filling/fr
+⏵ [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface Filling/fr

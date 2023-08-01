@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintInitialTemperature
-   MenuLocation:Model - Thermal Constraints - Constraint initial temperature
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM tutorial](FEM_tutorial.md)
+   Name: FEM ConstraintInitialTemperature
+   MenuLocation: Model - Thermal Constraints - Constraint initial temperature
+   Workbenches: [FEM](FEM_Workbench.md)
+   SeeAlso: [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM ConstraintInitialTemperature
@@ -35,4 +35,4 @@ This constraint applies the initial temperature to all nodes in the FEA model - 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintInitialTemperature
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintInitialTemperature

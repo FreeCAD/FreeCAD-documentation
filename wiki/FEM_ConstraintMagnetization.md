@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintMagnetization
-   MenuLocation: Model - Electromagnetic Constraints - Constraint magnetization
-   Workbenches:[FEM](FEM_Workbench.md)
-   Version:0.21
-   SeeAlso:[Magnetodynamic equation](FEM_EquationMagnetodynamic.md), [Magnetodynamic 2D equation](FEM_EquationMagnetodynamic2D.md)
+   Name: FEM ConstraintMagnetization
+   MenuLocation:  Model - Electromagnetic Constraints - Constraint magnetization
+   Workbenches: [FEM](FEM_Workbench.md)
+   Version: 0.21
+   SeeAlso: [Magnetodynamic equation](FEM_EquationMagnetodynamic.md), [Magnetodynamic 2D equation](FEM_EquationMagnetodynamic2D.md)
 ---
 
 # FEM ConstraintMagnetization
@@ -34,4 +34,4 @@ Creates a FEM constraint for the magnetization. To be used together with the [Ma
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintMagnetization
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintMagnetization

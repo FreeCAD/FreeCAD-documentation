@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintMultiParallel
-   Icon:Assembly_ConstraintMultiParallel.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintMultiParallel
+   Icon: Assembly_ConstraintMultiParallel.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintMultiParallel
@@ -26,4 +26,4 @@ The constraint accepts straight edges and planar faces, which become parallel.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintMultiParallel
+⏵ [documentation index](../README.md) > Assembly3 ConstraintMultiParallel

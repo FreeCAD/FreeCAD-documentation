@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std_DlgParameter
-   Name/it:Modifica parametri
-   MenuLocation:Strumenti - Modifica parametri...
-   Workbenches:Tutti
-   SeeAlso:[Editor delle preferenze](Preferences_Editor/it.md)
+   Name: Std_DlgParameter
+   Name/it: Modifica parametri
+   MenuLocation: Strumenti - Modifica parametri...
+   Workbenches: Tutti
+   SeeAlso: [Editor delle preferenze](Preferences_Editor/it.md)
 ---
 
 # Std DlgParameter/it
@@ -226,4 +226,4 @@ Probabilmente è una cattiva idea modificare le preferenze di altre parti di Fre
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgParameter/it
+⏵ [documentation index](../README.md) > Std DlgParameter/it

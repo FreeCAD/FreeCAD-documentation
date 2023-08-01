@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:SheetMetal UnattendedUnfold
-   MenuLocation:SheetMetal - Unattended Unfold
-   Workbenches:[SheetMetal](SheetMetal_Workbench.md)
-   Shortcut:**U**
-   SeeAlso:[SheetMetal Unfold](SheetMetal_Unfold.md)
+   Name: SheetMetal UnattendedUnfold
+   MenuLocation: SheetMetal - Unattended Unfold
+   Workbenches: [SheetMetal](SheetMetal_Workbench.md)
+   Shortcut: **U**
+   SeeAlso: [SheetMetal Unfold](SheetMetal_Unfold.md)
 ---
 
 # SheetMetal UnattendedUnfold/pl
@@ -45,4 +45,4 @@ See <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Unfold](
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal UnattendedUnfold/pl
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal UnattendedUnfold/pl

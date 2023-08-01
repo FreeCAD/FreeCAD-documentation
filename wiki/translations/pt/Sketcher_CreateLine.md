@@ -1,6 +1,6 @@
 # Sketcher CreateLine/pt
 ---
-- GuiCommand:   Name:Sketcher CreateLine   Name/pt:Sketcher Line   Workbenches:[MenuLocation:Sketch - Sketcher geometries - Create line   Shortcut:L   SeeAlso:[[Sketcher CreatePolyline/pt|Sketcher Polyline](Sketcher_Workbench/pt___Sketcher]].md)---
+- GuiCommand:   Name: Sketcher CreateLine   Name/pt: Sketcher Line   Workbenches: [MenuLocation: Sketch - Sketcher geometries - Create line   Shortcut: L   SeeAlso: [[Sketcher CreatePolyline/pt|Sketcher Polyline](Sketcher_Workbench/pt___Sketcher]].md)---
 
 
 </div>
@@ -31,4 +31,4 @@ The created line object starts and ends at the given points, but the line is inf
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/pt
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/pt

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Path Profile
-   Name/fr:Path Contournage
-   MenuLocation:Path - Contournage
-   Workbenches:[Path](Path_Workbench/fr.md)
-   Version:0.19
+   Name: Path Profile
+   Name/fr: Path Contournage
+   MenuLocation: Path - Contournage
+   Workbenches: [Path](Path_Workbench/fr.md)
+   Version: 0.19
 ---
 
 # Path Profile/fr
@@ -329,4 +329,4 @@ Exemple :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Profile/fr
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Profile/fr

@@ -59,4 +59,4 @@ C\'è un altro indice per il [Sommario della **Guida in linea**](Online_Help_Toc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Manual](Category_Manual.md) > Manual:Summary/it
+⏵ [documentation index](../README.md) > [Manual](Category_Manual.md) > Manual:Summary/it

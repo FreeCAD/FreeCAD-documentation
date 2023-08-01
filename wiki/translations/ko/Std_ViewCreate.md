@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ViewCreate
-   Name/ko:표준 3D 보기 만들기
-   MenuLocation:보기 - 새 3D 보기 만들기
-   Workbenches:모두
-   SeeAlso:[표준 고정 분리 전체화면 보기](Std_ViewDockUndockFullscreen/ko.md), [표준 전체화면 보기](Std_ViewFullscreen/ko.md)
+   Name: Std ViewCreate
+   Name/ko: 표준 3D 보기 만들기
+   MenuLocation: 보기 - 새 3D 보기 만들기
+   Workbenches: 모두
+   SeeAlso: [표준 고정 분리 전체화면 보기](Std_ViewDockUndockFullscreen/ko.md), [표준 전체화면 보기](Std_ViewFullscreen/ko.md)
 ---
 
 # Std ViewCreate/ko
@@ -35,4 +35,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewCreate/ko
+⏵ [documentation index](../README.md) > Std ViewCreate/ko

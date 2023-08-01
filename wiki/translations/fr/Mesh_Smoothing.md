@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh Smoothing
-   Name/fr:Mesh Lissage
-   MenuLocation:Maillages - Lisser...
-   Workbenches:[Mesh](Mesh_Workbench/fr.md)
+   Name: Mesh Smoothing
+   Name/fr: Mesh Lissage
+   MenuLocation: Maillages - Lisser...
+   Workbenches: [Mesh](Mesh_Workbench/fr.md)
 ---
 
 # Mesh Smoothing/fr
@@ -76,4 +76,4 @@ La commande **Lissage** lisse les objets maillés en modifiant la position de le
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Smoothing/fr
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Smoothing/fr

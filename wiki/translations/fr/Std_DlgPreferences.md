@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std DlgPreferences
-   Name/fr:Std Préférences
-   MenuLocation:Édition - Préférences...
-   Workbenches:Tous
-   SeeAlso:[Réglage des préférences](Preferences_Editor/fr.md)
+   Name: Std DlgPreferences
+   Name/fr: Std Préférences
+   MenuLocation: Édition - Préférences...
+   Workbenches: Tous
+   SeeAlso: [Réglage des préférences](Preferences_Editor/fr.md)
 ---
 
 # Std DlgPreferences/fr
@@ -37,4 +37,4 @@ La commande **Std Préférences** ouvre le [Réglage des préférences](Preferen
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgPreferences/fr
+⏵ [documentation index](../README.md) > Std DlgPreferences/fr

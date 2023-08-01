@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft ToggleConstructionMode
-   Name/it:Modalità Costruzione
-   MenuLocation:Utilità - Attiva/Disattiva modalità di costruzione
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:**C** **M**
-   SeeAlso:[Aggiungi al gruppo Costruzione](Draft_AddConstruction/it.md)
+   Name: Draft ToggleConstructionMode
+   Name/it: Modalità Costruzione
+   MenuLocation: Utilità - Attiva/Disattiva modalità di costruzione
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut: **C** **M**
+   SeeAlso: [Aggiungi al gruppo Costruzione](Draft_AddConstruction/it.md)
 ---
 
 # Draft ToggleConstructionMode/it
@@ -45,4 +45,4 @@ Il comando <img alt="" src=images/Draft_ToggleConstructionMode.svg  style="width
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/it

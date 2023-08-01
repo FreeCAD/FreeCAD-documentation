@@ -1,6 +1,4 @@
 # Document structure/pt-br
-{{TOCright}}
-
 ![](images/Screenshot_treeview.jpg ) Um documento FreeCAD contém todos os objetos de sua cena. Pode conter tanto grupos quanto objetos criados com qualquer oficina. Assim, você pode alternar entre as oficinas e ainda trabalhar no mesmo documento. Este documento é o que é salvo em disco quando você salva seu trabalho. Você também pode abrir vários documentos em simultâneo, no FreeCAD, e abrir várias visualizações do mesmo documento.
 
 No documento, os objetos podem ser movidos em grupos, e ter um nome único. O gerenciamento de grupos, objetos e nomes de objetos é feito principalmente a partir da [Vista em árvore](Tree_view/pt-br.md). **Nota:** Também pode ser feito, é claro, como tudo no FreeCAD, a partir do intérprete [Python](Python/pt-br.md). Na [Vista em árvore](Tree_view/pt-br.md), você pode criar <img alt="" src=images/Std_Group.svg  style="width:16px;">. [grupos](Std_Group/pt-br.md), mover objetos para grupos, apagar objetos ou grupos, clicando com o botão direito na [Vista em árvore](Tree_view/pt-br.md) ou em um objeto, renomear objetos clicando duas vezes em seus nomes, ou possivelmente outras operações, dependendo da bancada de trabalho atual.
@@ -39,4 +37,4 @@ FreeCADGui.ActiveDocument.ActiveView
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Document structure/pt-br
+⏵ [documentation index](../README.md) > Document structure/pt-br

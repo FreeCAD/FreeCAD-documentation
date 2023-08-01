@@ -1,6 +1,4 @@
 # SVG/pl
-{{TOCright}}
-
 ## Opis
 
 [Scalable Vector Graphics](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) *(**SVG**)* jest typem wektorowego formatu obrazu dla grafiki dwuwymiarowej.
@@ -24,4 +22,4 @@ FreeCAD jest przede wszystkim aplikacją do modelowania przestrzennego, a więc 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > [File_Formats](Category_File_Formats.md) > SVG/pl
+⏵ [documentation index](../README.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > [File_Formats](Category_File_Formats.md) > SVG/pl

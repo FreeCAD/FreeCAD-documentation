@@ -1,6 +1,4 @@
 # Mesh/ru
-{{TOCright}}
-
 ## Введение
 
 In FreeCAD the word \"[Mesh](Mesh.md)\" is normally used to refer to a [Mesh MeshObject](Mesh_MeshObject.md) (`Mesh::MeshObject` class), a type of object that defines 3D data but is not a solid \"[Shape](Shape.md)\".
@@ -45,4 +43,4 @@ For more information see [FEM Workbench](FEM_Workbench.md) and [FEM Mesh](FEM_Me
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Mesh](Category_Mesh.md) > [FEM](Category_FEM.md) > Mesh/ru
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Mesh](Category_Mesh.md) > [FEM](Category_FEM.md) > Mesh/ru

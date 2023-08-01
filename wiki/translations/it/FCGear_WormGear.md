@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FCGear WormGear
-   Name/it:Vite senza fine
-   MenuLocation:FCGear - Create a Worm gear
-   Workbenches:[FCGear](FCGear_Workbench/it.md)
-   Shortcut:None
-   Version:v0.16
-   SeeAlso:[PartDesign: Ingranaggio a spirale](PartDesign_InvoluteGear/it.md)
+   Name: FCGear WormGear
+   Name/it: Vite senza fine
+   MenuLocation: FCGear - Create a Worm gear
+   Workbenches: [FCGear](FCGear_Workbench/it.md)
+   Shortcut: None
+   Version: v0.16
+   SeeAlso: [PartDesign: Ingranaggio a spirale](PartDesign_InvoluteGear/it.md)
 ---
 
 # FCGear WormGear/it
@@ -115,4 +115,4 @@ The worm wheel must be designed manually. For this purpose [FCGear InvoluteGear]
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear WormGear/it
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear WormGear/it

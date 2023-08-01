@@ -135,4 +135,4 @@ La meilleure façon de procéder est probablement de parcourir le [Manuel FreeCA
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Which workbench should I choose/fr
+⏵ [documentation index](../README.md) > Which workbench should I choose/fr

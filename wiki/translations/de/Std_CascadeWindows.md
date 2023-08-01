@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std CascadeWindows
-   Name/de:Std FensterÜberlappendAnordnen
-   MenuLocation:Fenster - Überlappend anordnen
-   Workbenches:Alle
-   SeeAlso:[Std FensterAnordnen](Std_TileWindows/de.md)
+   Name: Std CascadeWindows
+   Name/de: Std FensterÜberlappendAnordnen
+   MenuLocation: Fenster - Überlappend anordnen
+   Workbenches: Alle
+   SeeAlso: [Std FensterAnordnen](Std_TileWindows/de.md)
 ---
 
 # Std CascadeWindows/de
@@ -36,4 +36,4 @@ Der **Std FensterÜberlappendAnordnen**-Befehl ordnet die Fenster im [Hauptansic
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std CascadeWindows/de
+⏵ [documentation index](../README.md) > Std CascadeWindows/de

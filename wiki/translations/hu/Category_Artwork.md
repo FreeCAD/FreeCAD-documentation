@@ -10,4 +10,4 @@ This category collects pages related to artwork existing in the program, like ic
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Artwork/hu
+⏵ [documentation index](../README.md) > Category:Artwork/hu

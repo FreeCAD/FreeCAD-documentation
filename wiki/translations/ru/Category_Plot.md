@@ -13,4 +13,4 @@ This category lists pages related to the [Plot Workbench/ru](Plot_Workbench/ru.m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Plot/ru
+⏵ [documentation index](../README.md) > Category:Plot/ru

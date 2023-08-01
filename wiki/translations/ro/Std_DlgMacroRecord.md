@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std DlgMacroRecord
-   Name/ro:Std DlgMacroRecord
-   MenuLocation:[Macro](Macros/ro.md) - Macro recording ...
-   Workbenches:All
-   SeeAlso:[Execute macro](Std_DlgMacroExecuteDirect/ro.md)
+   Name: Std DlgMacroRecord
+   Name/ro: Std DlgMacroRecord
+   MenuLocation: [Macro](Macros/ro.md) - Macro recording ...
+   Workbenches: All
+   SeeAlso: [Execute macro](Std_DlgMacroExecuteDirect/ro.md)
 ---
 
 # Std DlgMacroRecord/ro
@@ -75,4 +75,4 @@ Este accesibil via **Macro → Macro recording ...**, sau pe calea apăsării bu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DlgMacroRecord/ro
+⏵ [documentation index](../README.md) > Std DlgMacroRecord/ro

@@ -117,4 +117,4 @@ We are now finished with the basic workflow for the [Drawing Workbench](Drawing_
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing tutorial
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing tutorial

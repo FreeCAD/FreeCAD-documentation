@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM MeshBoundaryLayer
-   Name/ru:FEM MeshBoundaryLayer
-   MenuLocation: Mesh - FEM Mesh boundary layer
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+   Name: FEM MeshBoundaryLayer
+   Name/ru: FEM MeshBoundaryLayer
+   MenuLocation:  Mesh - FEM Mesh boundary layer
+   Workbenches: [FEM](FEM_Workbench/ru.md)
+   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM MeshBoundaryLayer/ru
@@ -68,4 +68,4 @@ You can create as many different mesh boundary layers as needed.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshBoundaryLayer/ru
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshBoundaryLayer/ru

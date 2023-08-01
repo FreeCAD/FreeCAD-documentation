@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std MacroAttachDebugger
-   Name/pl:Std: Przełącz na debuger zewnętrzny
-   Empty:1
-   MenuLocation:Makrodefinicje - Przełącz na debuger zewnętrzny ...
-   Workbenches:wszystkie
+   Name: Std MacroAttachDebugger
+   Name/pl: Std: Przełącz na debuger zewnętrzny
+   Empty: 1
+   MenuLocation: Makrodefinicje - Przełącz na debuger zewnętrzny ...
+   Workbenches: wszystkie
 ---
 
 # Std MacroAttachDebugger/pl
@@ -32,4 +32,4 @@ Do wykonania.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MacroAttachDebugger/pl
+⏵ [documentation index](../README.md) > Std MacroAttachDebugger/pl

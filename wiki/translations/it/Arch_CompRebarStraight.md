@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch CompRebarStraight
-   Name/it:Armature
-   MenuLocation:Arch - Armature
-   Workbenches:[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   Version:0.17
+   Name: Arch CompRebarStraight
+   Name/it: Armature
+   MenuLocation: Arch - Armature
+   Workbenches: [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   Version: 0.17
 ---
 
 # Arch CompRebarStraight/it
@@ -115,4 +115,4 @@ Torna alla pagina [Ambienti](Workbenches/it#Ambienti_aggiuntivi.md) o alla pagin
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/it
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/it

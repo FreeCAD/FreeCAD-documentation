@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Equipment
-   Name/uk:Arch Equipment
-   MenuLocation:Arch - Equipment
-   Workbenches:[Arch](Arch_Workbench/uk.md)
-   Shortcut:E Q
-   SeeAlso:[3 views from mesh](Arch_3Views.md)
+   Name: Arch Equipment
+   Name/uk: Arch Equipment
+   MenuLocation: Arch - Equipment
+   Workbenches: [Arch](Arch_Workbench/uk.md)
+   Shortcut: E Q
+   SeeAlso: [3 views from mesh](Arch_3Views.md)
 ---
 
 # Arch Equipment/uk
@@ -85,4 +85,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/uk
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/uk

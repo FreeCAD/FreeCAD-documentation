@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet Export
-   Name/fr:Spreadsheet Exporter
-   MenuLocation:Spreadsheet - Exporter la feuille de calcul
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[Spreadsheet Importer](Spreadsheet_Import/fr.md)
+   Name: Spreadsheet Export
+   Name/fr: Spreadsheet Exporter
+   MenuLocation: Spreadsheet - Exporter la feuille de calcul
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [Spreadsheet Importer](Spreadsheet_Import/fr.md)
 ---
 
 # Spreadsheet Export/fr
@@ -30,4 +30,4 @@ L\'outil **[<img src=images/Spreadsheet_Export.svg style="width:16px"> [Spreadsh
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Export/fr
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Export/fr

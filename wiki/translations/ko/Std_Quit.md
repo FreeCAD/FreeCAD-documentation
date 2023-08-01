@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Quit
-   Name/ko:표준 종료
-   MenuLocation:파일 - 종료
-   Workbenches:모두
-   Shortcut:**Alt**+**F4**
-   SeeAlso:[표준 닫기](Std_CloseActiveWindow/ko.md)
+   Name: Std Quit
+   Name/ko: 표준 종료
+   MenuLocation: 파일 - 종료
+   Workbenches: 모두
+   Shortcut: **Alt**+**F4**
+   SeeAlso: [표준 닫기](Std_CloseActiveWindow/ko.md)
 ---
 
 # Std Quit/ko
@@ -43,4 +43,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Quit/ko
+⏵ [documentation index](../README.md) > Std Quit/ko

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Dimensions
-   Name/pl:Rysunek Roboczy: Przyciągnij do wymiaru
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   SeeAlso:[Przyciąganie](Draft_Snap/pl.md), [Przełącz przyciąganie](Draft_Snap_Lock/pl.md), [Wybór płaszczyzny roboczej](Draft_SelectPlane/pl.md)
+   Name: Draft Snap Dimensions
+   Name/pl: Rysunek Roboczy: Przyciągnij do wymiaru
+   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   SeeAlso: [Przyciąganie](Draft_Snap/pl.md), [Przełącz przyciąganie](Draft_Snap_Lock/pl.md), [Wybór płaszczyzny roboczej](Draft_SelectPlane/pl.md)
 ---
 
 # Draft Snap Dimensions/pl
@@ -42,4 +42,4 @@ Zobacz stronę [Przyciąganie](Draft_Snap/pl#Ustawienia.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Dimensions/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Dimensions/pl

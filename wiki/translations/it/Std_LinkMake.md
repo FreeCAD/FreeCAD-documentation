@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std LinkMake
-   Name/it:Crea link
-   MenuLocation:None
-   Workbenches:Tutti
-   Version:0.19
-   SeeAlso:[Parte](Std_Part/it.md), [Gruppo](Std_Group/it.md), [Corpo di PartDesign](PartDesign_Body/it.md)
+   Name: Std LinkMake
+   Name/it: Crea link
+   MenuLocation: None
+   Workbenches: Tutti
+   Version: 0.19
+   SeeAlso: [Parte](Std_Part/it.md), [Gruppo](Std_Group/it.md), [Corpo di PartDesign](PartDesign_Body/it.md)
 ---
 
 # Std LinkMake/it
@@ -424,4 +424,4 @@ Altri \"link\" vari su Link includono:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkMake/it
+⏵ [documentation index](../README.md) > Std LinkMake/it

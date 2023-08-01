@@ -1,8 +1,4 @@
 # Combo view/de
-{{TOCright}}
-
-
-
 ## Einführung
 
 Die [Comboansicht](combo_view/de.md) ist eines der Hauptpaneele in der FreeCAD [Benutzeroberfläche](interface/de.md). Sie befindet sich standardmäßig auf der linken Seite des Bildschirms. Sie ist \'\'zusammengesetzt aus zwei Abschnitten\", der:
@@ -67,4 +63,4 @@ Aktiviere dann die Ansicht über das Menü **Ansicht → Paneele → Baumansicht
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Combo view/de
+⏵ [documentation index](../README.md) > Combo view/de

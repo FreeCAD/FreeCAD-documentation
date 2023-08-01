@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std DrawStyle
-   MenuLocation:View - Draw style - ...
-   Workbenches:All
-   Shortcut:**V** **1** - **V** **7**
-   SeeAlso:[Std SelBoundingBox](Std_SelBoundingBox.md)
+   Name: Std DrawStyle
+   MenuLocation: View - Draw style - ...
+   Workbenches: All
+   Shortcut: **V** **1** - **V** **7**
+   SeeAlso: [Std SelBoundingBox](Std_SelBoundingBox.md)
 ---
 
 # Std DrawStyle/en
@@ -88,4 +88,4 @@ The **Flat lines** style overrides the **Display Mode** of objects. This style m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std DrawStyle/en
+⏵ [documentation index](../README.md) > Std DrawStyle/en

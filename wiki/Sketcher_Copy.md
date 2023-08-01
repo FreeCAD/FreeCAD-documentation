@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher Copy
-   MenuLocation:Sketch - Sketcher tools - Copy
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**Z** **C**
-   Version:0.16
-   SeeAlso:[Sketcher Clone](Sketcher_Clone.md), [Sketcher Move](Sketcher_Move.md)
+   Name: Sketcher Copy
+   MenuLocation: Sketch - Sketcher tools - Copy
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **Z** **C**
+   Version: 0.16
+   SeeAlso: [Sketcher Clone](Sketcher_Clone.md), [Sketcher Move](Sketcher_Move.md)
 ---
 
 # Sketcher Copy
@@ -31,4 +31,4 @@ No extra constraints are added.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Copy
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Copy

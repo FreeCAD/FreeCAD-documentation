@@ -1,12 +1,12 @@
 # Std Cut/de
 ---
 - GuiCommand:
-   Name:Std Cut
-   Name/de:Std Ausschneiden
-   MenuLocation:[Bearbeiten](Std_Edit_Menu/de.md) - Ausschneiden
-   Shortcut:**Strg**+**X**
-   Workbenches:Alle
-   SeeAlso:[Kopieren](Std_Copy/de.md), [Einfügen](Std_Paste/de.md), [Löschen](Std_Delete/de.md)---
+   Name: Std Cut
+   Name/de: Std Ausschneiden
+   MenuLocation: [Bearbeiten](Std_Edit_Menu/de.md) - Ausschneiden
+   Shortcut: **Strg**+**X**
+   Workbenches: Alle
+   SeeAlso: [Kopieren](Std_Copy/de.md), [Einfügen](Std_Paste/de.md), [Löschen](Std_Delete/de.md)---
 
 
 
@@ -42,4 +42,4 @@ Um andere Objekte auszuschneiden, kannst du den [Std Kopieren](Std_Copy/de.md)-B
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std Cut/de
+⏵ [documentation index](../README.md) > Std Cut/de

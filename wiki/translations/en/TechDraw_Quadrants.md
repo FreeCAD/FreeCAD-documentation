@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw Quadrants
-   MenuLocation:TechDraw - Add Vertices - Add Quadrant Vertices
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Version:0.19
-   SeeAlso:[TechDraw CosmeticVertex](TechDraw_CosmeticVertex.md), [TechDraw Midpoint](TechDraw_Midpoints.md)
+   Name: TechDraw Quadrants
+   MenuLocation: TechDraw - Add Vertices - Add Quadrant Vertices
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Version: 0.19
+   SeeAlso: [TechDraw CosmeticVertex](TechDraw_CosmeticVertex.md), [TechDraw Midpoint](TechDraw_Midpoints.md)
 ---
 
 # TechDraw Quadrants/en
@@ -56,4 +56,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Quadrants/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Quadrants/en

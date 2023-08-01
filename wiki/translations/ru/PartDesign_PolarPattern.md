@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Круговой массив
-   Name:PartDesign_PolarPattern
-   MenuLocation:Part Design - Apply a pattern - Круговой массив
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   SeeAlso:[Множественное преобразование](PartDesign_MultiTransform/ru.md)
+   Name/ru: Круговой массив
+   Name: PartDesign_PolarPattern
+   MenuLocation: Part Design - Apply a pattern - Круговой массив
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   SeeAlso: [Множественное преобразование](PartDesign_MultiTransform/ru.md)
 ---
 
 # PartDesign PolarPattern/ru
@@ -133,4 +133,4 @@ If some of the selected features are additive and others subtractive, their orde
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/ru

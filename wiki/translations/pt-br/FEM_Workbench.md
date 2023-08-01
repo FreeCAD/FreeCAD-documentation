@@ -10,7 +10,7 @@
 <img alt="Ícone da bancada de trabalho FEM" src=images/Workbench_FEM.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 
 
@@ -587,4 +587,4 @@ Um guia do desenvolvedor foi escrito para ajudar os usuários a entenderem a com
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [FEM](Category_FEM.md) > FEM Workbench/pt-br
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [FEM](Category_FEM.md) > FEM Workbench/pt-br

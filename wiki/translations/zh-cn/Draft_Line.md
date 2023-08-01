@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Line
-   MenuLocation:Draft - Line
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:L I
-   SeeAlso:[Draft Wire](Draft_Wire.md), [[Draft Point]]
-   Version:0.7
+   Name: Draft Line
+   MenuLocation: Draft - Line
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut: L I
+   SeeAlso: [Draft Wire](Draft_Wire.md), [[Draft Point]]
+   Version: 0.7
 ---
 
 # Draft Line/zh-cn
@@ -164,4 +164,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Line/zh-cn
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Line/zh-cn

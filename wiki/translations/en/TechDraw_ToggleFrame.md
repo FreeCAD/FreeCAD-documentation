@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:TechDraw ToggleFrame
-   MenuLocation:TechDraw - TechDraw Views - Turn View Frames On/Off
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw View](TechDraw_View.md), [TechDraw Projection Group](TechDraw_ProjectionGroup.md)
+   Name: TechDraw ToggleFrame
+   MenuLocation: TechDraw - TechDraw Views - Turn View Frames On/Off
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   SeeAlso: [TechDraw View](TechDraw_View.md), [TechDraw Projection Group](TechDraw_ProjectionGroup.md)
 ---
 
 # TechDraw ToggleFrame/en
@@ -53,4 +53,4 @@ The Toggle tool currently doesn\'t have a programming interface.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ToggleFrame/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ToggleFrame/en

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM SolverControl
-   Name/fr:FEM Réglage du solveur
-   MenuLocation:Résolution - Contrôle des tâches du solveur
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Shortcut:**S** **T**
-   SeeAlso:[FEM Résolution](FEM_SolverRun/fr.md)
+   Name: FEM SolverControl
+   Name/fr: FEM Réglage du solveur
+   MenuLocation: Résolution - Contrôle des tâches du solveur
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Shortcut: **S** **T**
+   SeeAlso: [FEM Résolution](FEM_SolverRun/fr.md)
 ---
 
 # FEM SolverControl/fr
@@ -50,4 +50,4 @@ Cette commande est utilisée pour contrôler le solveur FEM (écrire le fichier 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverControl/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverControl/fr

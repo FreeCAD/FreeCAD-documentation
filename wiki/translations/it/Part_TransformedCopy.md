@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part TransformedCopy
-   Name/it:Crea una copia modificata
-   MenuLocation:Part - Crea una copia - Crea una copia modificata
-   Workbenches:[Part](Part_Workbench/it.md)
-   Version:0.19
-   SeeAlso:[Copia semplice](Part_SimpleCopy/it.md), [Copia di un elemento](Part_ElementCopy/it.md), [Affina forma](Part_RefineShape/it.md)
+   Name: Part TransformedCopy
+   Name/it: Crea una copia modificata
+   MenuLocation: Part - Crea una copia - Crea una copia modificata
+   Workbenches: [Part](Part_Workbench/it.md)
+   Version: 0.19
+   SeeAlso: [Copia semplice](Part_SimpleCopy/it.md), [Copia di un elemento](Part_ElementCopy/it.md), [Affina forma](Part_RefineShape/it.md)
 ---
 
 # Part TransformedCopy/it
@@ -34,4 +34,4 @@ La copia ha una semplice proprietà vista come qualsiasi altra [Part Feature](Pa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part TransformedCopy/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part TransformedCopy/it

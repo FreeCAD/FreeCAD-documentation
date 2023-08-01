@@ -1,6 +1,6 @@
 # Plot Labels/es
 ---
-- GuiCommand:   Name:Plot Labels   MenuLocation:Plot - Labels‏‎   |Workbenches:[[Plot_Workbench/es   Plot]]|Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Plot Labels   MenuLocation: Plot - Labels‏‎   |Workbenches: [[Plot_Workbench/es   Plot]]|Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -38,4 +38,4 @@ Select the plot tab that you want to edit, and run this tool. In case of multi-a
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Labels/es
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Plot_Workbench.md) > Plot Labels/es

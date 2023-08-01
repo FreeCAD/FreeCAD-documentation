@@ -1,6 +1,6 @@
 # Part CheckGeometry/ro
 ---
-- GuiCommand:   Name:Part CheckGeometry‏‎   MenuLocation:Part - Check geometry   Workbenches:[[Part Workbench   Part]]|SeeAlso:---
+- GuiCommand:   Name: Part CheckGeometry‏‎   MenuLocation: Part - Check geometry   Workbenches: [[Part Workbench   Part]]|SeeAlso: ---
 
 
 </div>
@@ -82,4 +82,4 @@ In addition to detecting potential geometry errors, this tool shows a range of p
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/ro

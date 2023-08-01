@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Assembly3 AutoElementVisibility
-   Name/fr:Assembly3 Visibilité automatique des éléments 
-   Icon:Assembly_AutoElementVis.svg‎‎
-   MenuLocation:Assembly3 - Element style - Auto element visibility
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 AutoElementVisibility
+   Name/fr: Assembly3 Visibilité automatique des éléments 
+   Icon: Assembly_AutoElementVis.svg‎‎
+   MenuLocation: Assembly3 - Element style - Auto element visibility
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 AutoElementVisibility/fr
@@ -30,4 +30,4 @@ Lorsqu\'elle est activée, le ou les éléments sélectionnés sont mis en évid
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 AutoElementVisibility/fr
+⏵ [documentation index](../README.md) > Assembly3 AutoElementVisibility/fr

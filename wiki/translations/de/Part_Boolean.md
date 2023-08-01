@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Boolean
-   Name/de:Part BoolescheOperation
-   MenuLocation:Formteil - Boolesche Operation - Boolesche Operation...
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Differenz](Part_Cut/de.md), [Part Vereinigung](Part_Fuse/de.md), [Part Schnitt](Part_Common/de.md), und [Part Schnittkurve](Part_Section/de.md)
+   Name: Part Boolean
+   Name/de: Part BoolescheOperation
+   MenuLocation: Formteil - Boolesche Operation - Boolesche Operation...
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: [Part Differenz](Part_Cut/de.md), [Part Vereinigung](Part_Fuse/de.md), [Part Schnitt](Part_Common/de.md), und [Part Schnittkurve](Part_Section/de.md)
 ---
 
 # Part Boolean/de
@@ -77,4 +77,4 @@ In Fällen von Koplanarität können, selbst wenn die erste boolesche Operation 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Boolean/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Boolean/de

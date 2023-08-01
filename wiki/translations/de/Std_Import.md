@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std Import
-   Name/de:Std Import
-   MenuLocation:Datei - Import
-   Workbenches:Alle
-   Shortcut:**Strg**+**I**
-   SeeAlso:[Std Öffnen](Std_Open/de.md), [Import Export](Import_Export/de.md), [Import Export Einstellungen](Import_Export_Preferences/de.md)
+   Name: Std Import
+   Name/de: Std Import
+   MenuLocation: Datei - Import
+   Workbenches: Alle
+   Shortcut: **Strg**+**I**
+   SeeAlso: [Std Öffnen](Std_Open/de.md), [Import Export](Import_Export/de.md), [Import Export Einstellungen](Import_Export_Preferences/de.md)
 ---
 
 # Std Import/de
@@ -138,4 +138,4 @@ Eine Bildebene (Image-Plane-Objekt) wird von einem [App GeoFeature](App_GeoFeatu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/de
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/de

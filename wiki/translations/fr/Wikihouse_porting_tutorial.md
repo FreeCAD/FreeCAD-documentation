@@ -152,4 +152,4 @@ Ces fichiers sont prêts à être envoyés aux ateliers qui effectueront la déc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Wikihouse porting tutorial/fr
+⏵ [documentation index](../README.md) > Wikihouse porting tutorial/fr

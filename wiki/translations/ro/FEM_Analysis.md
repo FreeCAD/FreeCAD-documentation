@@ -1,6 +1,6 @@
 # FEM Analysis/ro
 ---
-- GuiCommand:   Name:FEM Analysis   Name/ro:FEM Analysis   MenuLocation:Model - Analysis container‏‎   |Workbenches:[Shortcut:N,A   SeeAlso:[[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
+- GuiCommand:   Name: FEM Analysis   Name/ro: FEM Analysis   MenuLocation: Model - Analysis container‏‎   |Workbenches: [Shortcut: N,A   SeeAlso: [[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
 
 
 </div>
@@ -111,4 +111,4 @@ App.ActiveDocument.MechanicalAnalysis.Member = member
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Analysis/ro
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Analysis/ro

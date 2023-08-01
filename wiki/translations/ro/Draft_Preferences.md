@@ -1,7 +1,4 @@
 # Draft Preferences/ro
-{{TOCright}}
-
-
 <div class="mw-translate-fuzzy">
 
 Ecranul de setare a valorilor preferate din panoul Ciornă (Draft) se găsesc în [Fereastra de dialog Preferinţe](Preferences_Editor.md) (Meniul Edit -\> Preferinţe).
@@ -502,4 +499,4 @@ On the *Texts and dimensions* tab you can specify the following:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Draft](Draft_Workbench.md) > Draft Preferences/ro
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Draft](Draft_Workbench.md) > Draft Preferences/ro

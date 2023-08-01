@@ -1,6 +1,4 @@
 # Code snippets/fr
-{{TOCright}}
-
 ## Introduction
 
 Cette page contient des exemples, des pièces, des extraits de code FreeCAD en Python, recueillis auprès d\'utilisateurs expérimentés et de discussions sur les [forums](https://forum.freecadweb.org/viewforum.php?f=22). Lisez les et utilisez les comme point de départ pour vos propres scripts\...
@@ -1950,4 +1948,4 @@ Voir [Bouts de codes Coin3d](Coin3d_snippets/fr.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Code snippets/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Code snippets/fr

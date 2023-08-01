@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM MeshClear
-   Name/pl:MES: Wyczyść dane siatki
-   MenuLocation:Menu podręczne na obiekcie siatki - Wyczyść dane siatki MES
-   Workbenches:[MES](FEM_Workbench/pl.md)
-   SeeAlso:[Poradnik dla środowiska pracy MES](FEM_tutorial/pl.md)
+   Name: FEM MeshClear
+   Name/pl: MES: Wyczyść dane siatki
+   MenuLocation: Menu podręczne na obiekcie siatki - Wyczyść dane siatki MES
+   Workbenches: [MES](FEM_Workbench/pl.md)
+   SeeAlso: [Poradnik dla środowiska pracy MES](FEM_tutorial/pl.md)
 ---
 
 # FEM MeshClear/pl
@@ -33,4 +33,4 @@ Obiekty w drzewie modelu są zachowane, ponieważ reprezentują dane siatki, ale
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshClear/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshClear/pl

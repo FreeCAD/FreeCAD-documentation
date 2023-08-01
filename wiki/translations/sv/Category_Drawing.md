@@ -13,4 +13,4 @@ This category lists pages related to the [Drawing Workbench/sv](Drawing_Workbenc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Drawing/sv
+⏵ [documentation index](../README.md) > Category:Drawing/sv

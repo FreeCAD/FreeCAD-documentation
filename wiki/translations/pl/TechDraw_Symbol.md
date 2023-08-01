@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw Symbol
-   Name/pl:Rysunek Techniczny: Wstaw symbol SVG
-   MenuLocation:Rysunek Techniczny - Wstaw symbol SVG
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso:[Szablony](TechDraw_Templates/pl.md), [SVG](Draft_SVG/pl.md)
+   Name: TechDraw Symbol
+   Name/pl: Rysunek Techniczny: Wstaw symbol SVG
+   MenuLocation: Rysunek Techniczny - Wstaw symbol SVG
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   SeeAlso: [Szablony](TechDraw_Templates/pl.md), [SVG](Draft_SVG/pl.md)
 ---
 
 # TechDraw Symbol/pl
@@ -83,4 +83,4 @@ rc = page.addView(sym)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Symbol/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Symbol/pl

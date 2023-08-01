@@ -151,4 +151,4 @@ Un certain nombre d\'autres ateliers très utiles produits par les membres de la
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Manual:All workbenches at a glance/fr
+⏵ [documentation index](../README.md) > Manual:All workbenches at a glance/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher BSplinePolygon
-   MenuLocation:Sketch - Sketcher B-spline tools - Show/hide B-spline control polygon
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Version:0.17
-   SeeAlso:[Sketcher Create B-spline](Sketcher_CompCreateBSpline.md)
+   Name: Sketcher BSplinePolygon
+   MenuLocation: Sketch - Sketcher B-spline tools - Show/hide B-spline control polygon
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Version: 0.17
+   SeeAlso: [Sketcher Create B-spline](Sketcher_CompCreateBSpline.md)
 ---
 
 # Sketcher BSplinePolygon/en
@@ -31,4 +31,4 @@ Shows or hides the display of the defining polygon of a B-spline (see [this page
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplinePolygon/en
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplinePolygon/en

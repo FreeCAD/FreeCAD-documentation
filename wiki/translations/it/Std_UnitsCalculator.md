@@ -1,6 +1,6 @@
 # Std UnitsCalculator/it
 ---
-- GuiCommand:   Name:Std_UnitsCalculator   Name/it:Convertitore di unità   MenuLocation:Strumenti - Convertitore di unità...   Workbenches:Tutti   SeeAlso:---
+- GuiCommand:   Name: Std_UnitsCalculator   Name/it: Convertitore di unità   MenuLocation: Strumenti - Convertitore di unità...   Workbenches: Tutti   SeeAlso: ---
 
 ## Descrizione
 
@@ -60,4 +60,4 @@ Il comando **Convertitore di unità** apre la finestra di dialogo per convertire
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std UnitsCalculator/it
+⏵ [documentation index](../README.md) > Std UnitsCalculator/it

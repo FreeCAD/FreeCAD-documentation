@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Points Merge
-   Name/fr:Points Fusionner
-   MenuLocation:Points - Fusionner des nuages de points
-   Workbenches:[Points](Points_Workbench/fr.md)
+   Name: Points Merge
+   Name/fr: Points Fusionner
+   MenuLocation: Points - Fusionner des nuages de points
+   Workbenches: [Points](Points_Workbench/fr.md)
 ---
 
 # Points Merge/fr
@@ -36,4 +36,4 @@ Voir [Points Convertir](Points_Convert/fr.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Merge/fr
+⏵ [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Merge/fr

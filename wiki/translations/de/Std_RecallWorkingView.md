@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Std RecallWorkingView
-   Name/de:Std ArbeitsansichtWiederherstellen
-   MenuLocation:Ansicht - Standardansichten - Arbeitsansicht wiederherstellen
-   Workbenches:Alle
-   Shortcut:**End**
-   Version:0.21
-   SeeAlso:[Std ArbeitsansichtSpeichern](Std_StoreWorkingView/de.md), [Std AnsichtenEinfrieren](Std_FreezeViews/de.md)
+   Name: Std RecallWorkingView
+   Name/de: Std ArbeitsansichtWiederherstellen
+   MenuLocation: Ansicht - Standardansichten - Arbeitsansicht wiederherstellen
+   Workbenches: Alle
+   Shortcut: **End**
+   Version: 0.21
+   SeeAlso: [Std ArbeitsansichtSpeichern](Std_StoreWorkingView/de.md), [Std AnsichtenEinfrieren](Std_FreezeViews/de.md)
 ---
 
 # Std RecallWorkingView/de
@@ -55,4 +55,4 @@ FreeCADGui.runCommand("Std_RecallWorkingView", 0)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std RecallWorkingView/de
+⏵ [documentation index](../README.md) > Std RecallWorkingView/de

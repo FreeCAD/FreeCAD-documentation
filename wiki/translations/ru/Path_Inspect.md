@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Path Inspect
-   Name/ru:Path Inspect
-   MenuLocation:Путь - Исследовать G-code
-   Workbenches:[Path](Path_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:
+   Name: Path Inspect
+   Name/ru: Path Inspect
+   MenuLocation: Путь - Исследовать G-code
+   Workbenches: [Path](Path_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Path Inspect/ru
@@ -43,4 +43,4 @@ The <img alt="" src=images/Path_Inspect.svg  style="width:24px;"> [Inspect](Path
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Inspect/ru
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Inspect/ru

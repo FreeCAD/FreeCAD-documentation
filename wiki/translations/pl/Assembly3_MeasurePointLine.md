@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 MeasurePointLine
-   Icon:Assembly_MeasurePointLineDistance.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 MeasurePointLine
+   Icon: Assembly_MeasurePointLineDistance.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 MeasurePointLine/pl
@@ -19,4 +19,4 @@ To narzędzie mierzy odległość pomiędzy dwoma obiektami złożenia przy uży
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 MeasurePointLine/pl
+⏵ [documentation index](../README.md) > Assembly3 MeasurePointLine/pl

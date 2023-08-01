@@ -213,4 +213,4 @@ There are many such problems when programming in FreeCAD, but they can all be so
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro TNP Solution
+⏵ [documentation index](../README.md) > Macro TNP Solution

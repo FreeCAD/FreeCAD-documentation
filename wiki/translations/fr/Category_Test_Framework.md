@@ -12,4 +12,4 @@ Cette catégorie répertorie les pages liées à l\'atelier [Test Framework Work
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Test Framework/fr
+⏵ [documentation index](../README.md) > Category:Test Framework/fr

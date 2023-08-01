@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part ShapeFromMesh
-   Name/fr:Part Forme à partir du maillage
-   MenuLocation:Part - Créer la forme à partir d'un maillage...
-   Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Part Convertir en solide](Part_MakeSolid/fr.md), [Part Affiner la forme](Part_RefineShape/fr.md), [Part Points à partir de maillage](Part_PointsFromMesh/fr.md)
+   Name: Part ShapeFromMesh
+   Name/fr: Part Forme à partir du maillage
+   MenuLocation: Part - Créer la forme à partir d'un maillage...
+   Workbenches: [Part](Part_Workbench/fr.md)
+   SeeAlso: [Part Convertir en solide](Part_MakeSolid/fr.md), [Part Affiner la forme](Part_RefineShape/fr.md), [Part Points à partir de maillage](Part_PointsFromMesh/fr.md)
 ---
 
 # Part ShapeFromMesh/fr
@@ -58,4 +58,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ShapeFromMesh/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ShapeFromMesh/fr

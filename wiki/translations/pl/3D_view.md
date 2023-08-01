@@ -2,7 +2,7 @@
 ## Wprowadzenie
 
 
-{{TOCright}}
+
 
 [Widok 3D](3D_view/pl.md) programu FreeCAD jest przykładem [scenografii](Scenegraph/pl.md) Coin3D, tworzy również najważniejsze okno w [interfejsie użytkownika](interface/pl.md). Coin3D jest biblioteką, która implementuje standard opisu sceny OpenInventor 2.1.
 
@@ -90,4 +90,4 @@ Więcej informacji można znaleźć w dokumentacji dla Power użytkowników:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > 3D view/pl
+⏵ [documentation index](../README.md) > 3D view/pl

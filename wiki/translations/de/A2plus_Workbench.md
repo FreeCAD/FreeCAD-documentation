@@ -3,7 +3,7 @@
 ## Einführung
 
 
-{{TOCright}}
+
 
 Der A2plus Arbeitsbereich ist ein [externer Arbeitsbereich](External_workbenches/de.md), zum [Zusammenbau](Assembly/de.md) verschiedener Teile in FreeCAD.
 
@@ -618,4 +618,4 @@ This is an A2plus-specific command. It solves the assembly constraints of the as
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > A2plus Workbench/de
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > A2plus Workbench/de

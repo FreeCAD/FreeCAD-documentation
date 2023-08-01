@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Design456 PartMerge
-   MenuLocation:Design456_Tools - 3DTools - Merge
-   Workbenches:[Design456](Design456_Workbench.md)
-   Shortcut:None
-   SeeAlso:
+   Name: Design456 PartMerge
+   MenuLocation: Design456_Tools - 3DTools - Merge
+   Workbenches: [Design456](Design456_Workbench.md)
+   Shortcut: None
+   SeeAlso: 
 ---
 
 # Design456 PartMerge
@@ -32,4 +32,4 @@ Works on 3D objects.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 PartMerge
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 PartMerge

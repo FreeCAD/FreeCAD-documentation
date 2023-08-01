@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:SheetMetal Junction
-   Name/fr:SheetMetal Découpe d'angle
-   MenuLocation:SheetMetal - Make Junction
-   Workbenches:[SheetMetal](SheetMetal_Workbench/fr.md)
-   Shortcut:**S** **J**
-   SeeAlso:[SheetMetal Grugeage carré](SheetMetal_AddRelief/fr.md), [SheetMetal Transformation en pli](SheetMetal_AddBend/fr.md)
+   Name: SheetMetal Junction
+   Name/fr: SheetMetal Découpe d'angle
+   MenuLocation: SheetMetal - Make Junction
+   Workbenches: [SheetMetal](SheetMetal_Workbench/fr.md)
+   Shortcut: **S** **J**
+   SeeAlso: [SheetMetal Grugeage carré](SheetMetal_AddRelief/fr.md), [SheetMetal Transformation en pli](SheetMetal_AddBend/fr.md)
 ---
 
 # SheetMetal AddJunction/fr
@@ -66,4 +66,4 @@ Un objet SheetMetal Découpe d\'angle est dérivé d\'un objet [Part Feature](Pa
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddJunction/fr
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddJunction/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part SectionCut
-   MenuLocation:View - Persistent section cut
-   Workbenches:All
-   Version:0.20
-   SeeAlso:[Std ToggleClipPlane](Std_ToggleClipPlane.md)
+   Name: Part SectionCut
+   MenuLocation: View - Persistent section cut
+   Workbenches: All
+   Version: 0.20
+   SeeAlso: [Std ToggleClipPlane](Std_ToggleClipPlane.md)
 ---
 
 # Part SectionCut/en
@@ -102,4 +102,4 @@ All visible objects are put into a <img alt="" src=images/Part_Compound.svg  sty
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SectionCut/en
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SectionCut/en

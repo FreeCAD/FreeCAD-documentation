@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher Circles
-   Name/it:Cerchi
-   Icon:Sketcher_CompCreateCircle.png
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Nessuno (solo sulla barra degli strumenti)
+   Name: Sketcher Circles
+   Name/it: Cerchi
+   Icon: Sketcher_CompCreateCircle.png
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation: Nessuno (solo sulla barra degli strumenti)
 ---
 
 # Sketcher CompCreateCircle/it
@@ -48,4 +48,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateCircle/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateCircle/it

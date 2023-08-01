@@ -592,4 +592,4 @@ Para hacer que la ubicación del \"Boceto\" sea la misma que la del \"Cilindro\"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Placement/es
+⏵ [documentation index](../README.md) > Placement/es

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher CarbonCopy
-   MenuLocation:Sketch - Sketcher geometries - Create carbon copy
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**G** **W**
-   Version:0.17
+   Name: Sketcher CarbonCopy
+   MenuLocation: Sketch - Sketcher geometries - Create carbon copy
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Shortcut: **G** **W**
+   Version: 0.17
 ---
 
 # Sketcher CarbonCopy/en
@@ -45,4 +45,4 @@ Dimensional constraints which exist before the copy function remain linked to th
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CarbonCopy/en
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CarbonCopy/en

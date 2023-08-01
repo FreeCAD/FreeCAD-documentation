@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 MeasureAngle
-   Name/de:Assembly3 WinkelMessen
-   Icon:Assembly_MeasureAngle.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 MeasureAngle
+   Name/de: Assembly3 WinkelMessen
+   Icon: Assembly_MeasureAngle.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 MeasureAngle/de
@@ -20,4 +20,4 @@ Dieses Werkzeug misst den Winkel zwischen zwei Objekten eines Zusammenbaus unter
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 MeasureAngle/de
+⏵ [documentation index](../README.md) > Assembly3 MeasureAngle/de

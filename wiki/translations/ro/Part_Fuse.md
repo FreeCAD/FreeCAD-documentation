@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ro:Part Union
-   Icon:Part Fuse.png
-   MenuLocation:Part - Boolean - Union
-   Workbenches:[Part](Part_Workbench/ro.md)
-   SeeAlso:[Part Cut](Part_Cut/ro.md), [Part Common](Part_Common/ro.md)
+   Name/ro: Part Union
+   Icon: Part Fuse.png
+   MenuLocation: Part - Boolean - Union
+   Workbenches: [Part](Part_Workbench/ro.md)
+   SeeAlso: [Part Cut](Part_Cut/ro.md), [Part Common](Part_Common/ro.md)
 ---
 
 # Part Fuse/ro
@@ -66,4 +66,4 @@ După această operație, este posibil să fie necesară curățarea formei [Ref
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/ro

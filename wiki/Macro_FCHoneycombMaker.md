@@ -362,4 +362,4 @@ Other similar Honeycomb [Honeycomb Array](https://forum.freecadweb.org/viewtopic
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro FCHoneycombMaker
+⏵ [documentation index](../README.md) > Macro FCHoneycombMaker

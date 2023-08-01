@@ -1,6 +1,4 @@
 # Branding/it
-{{TOCright}}
-
 ## Presentazione
 
 Questo articolo descrive la **Marchiatura** di FreeCAD. Marchiare (Branding) significa creare una propria applicazione basata su FreeCAD. La personalizzazione può riguardare solo il proprio eseguibile oppure andare dalla [schermata iniziale](Splash_screen/it.md) fino alla rielaborazione completa del programma. Sulla base dell\'architettura flessibile di FreeCAD è facile utilizzarlo come base per il proprio programma per scopi speciali.
@@ -100,4 +98,4 @@ Tutti i tag elencati sono opzionali.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Branding/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Branding/it

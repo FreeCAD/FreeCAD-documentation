@@ -1,6 +1,6 @@
 # FEM ConstraintTransform/it
 ---
-- GuiCommand:   Name:FEM_ConstraintTransform   Name/it:ConstraintTransform   MenuLocation: Modello - Vincoli meccanici - Constraint transform   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:   Name: FEM_ConstraintTransform   Name/it: ConstraintTransform   MenuLocation:  Modello - Vincoli meccanici - Constraint transform   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 ## Descrizione
 
@@ -36,4 +36,4 @@ Transforms the coordinate system of a face to a particular coordinate system - r
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FEM ConstraintTransform/it
+⏵ [documentation index](../README.md) > FEM ConstraintTransform/it

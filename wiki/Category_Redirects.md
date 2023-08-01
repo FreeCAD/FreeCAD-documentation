@@ -24,4 +24,4 @@ This category tracks redirects in the FreeCAD wiki
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Redirects
+⏵ [documentation index](../README.md) > Category:Redirects

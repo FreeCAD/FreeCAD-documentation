@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft FlipDimension
-   Name/pl:Rysunek Roboczy: Obróć wymiar
-   MenuLocation:Modyfikacja - Obróć wymiar
-   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   Name: Draft FlipDimension
+   Name/pl: Rysunek Roboczy: Obróć wymiar
+   MenuLocation: Modyfikacja - Obróć wymiar
+   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
 
 ---
 
@@ -52,4 +52,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft FlipDimension/pl
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft FlipDimension/pl

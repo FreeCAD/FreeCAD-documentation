@@ -1,6 +1,4 @@
 # Scripting PartDesign Workbench
-{{TOCright}}
-
 ## Introduction
 
 Here we will explain to you how to control the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md) using a script. Be sure to browse the [Scripting](Scripting.md) section and the [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) pages if you need more information about how Python scripting works in FreeCAD. If you are new to Python, it is a good idea to first read the [Introduction to Python](Introduction_to_Python.md).
@@ -109,4 +107,4 @@ ROT0 = Rotation(0, 0, 0)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Scripting PartDesign Workbench
+⏵ [documentation index](../README.md) > Scripting PartDesign Workbench

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Parts Library/en
+⏵ [documentation index](../README.md) > Parts Library/en

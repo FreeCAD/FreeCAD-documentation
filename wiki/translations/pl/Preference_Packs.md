@@ -1,6 +1,4 @@
 # Preference Packs/pl
-{{TOCright}}
-
 ## Wprowadzenie
 
 **Pakiet Preferencji** jest dystrybuowalnym zbiorem preferencji użytkownika ({{Version/pl|0.20}}), który może być zainstalowany jako dodatek i zastosowany jako pojedynczy zestaw. Każdy parametr użytkownika, który może być ustawiony w pliku user.cfg może być zawarty w pakiecie preferencji. Zastosowanie pakietu preferencji ustawia wszystkie zmienne w dostarczonym pliku CFG, nie modyfikując żadnych innych ustawień użytkownika. Na przykład, te pakiety mogą być użyte do stworzenia \"Motywów\" poprzez połączenie niestandardowego arkusza stylów wraz z zestawem preferencji użytkownika, które ustawiają różne kolory i style elementów w programie FreeCAD, które nie są kontrolowane przez arkusz stylów.
@@ -368,4 +366,4 @@ Zobacz również stronę [Osobiste pakiety preferencji](Private_Preference_Packs
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > Preference Packs/pl
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > Preference Packs/pl

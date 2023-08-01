@@ -5,7 +5,7 @@
 <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Верстак электронных таблиц](Spreadsheet_Workbench/ru.md) позволяет создать и редактировать электронные таблицы, использовать данные из электронной таблицы как параметр в модели, заполнять таблицу данными из модели, выполнять вычисления, и экспортировать данные в другие приложения текстовых таблиц, такие как LibreOffice или Microsoft Excel.
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:600px;"> 
 *Таблица с определенными ячейками, заполненными текстом и значениями.*
@@ -397,4 +397,4 @@ sheet.get('Diameter')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/ru
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/ru

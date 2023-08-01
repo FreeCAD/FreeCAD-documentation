@@ -1,6 +1,6 @@
 # Draft Snap Midpoint/ro
 ---
-- GuiCommand:   Name:Draft Midpoint   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft - [Shortcut:''None''   SeeAlso:[[Draft Snap](Draft_Snap___Snap]]_-_Midpoint.md)---
+- GuiCommand:   Name: Draft Midpoint   Workbenches: [Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation: Draft - [Shortcut: ''None''   SeeAlso: [[Draft Snap](Draft_Snap___Snap]]_-_Midpoint.md)---
 
 
 </div>
@@ -45,4 +45,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Midpoint/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Midpoint/ro

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Rocket Bulkhead
-   Name/fr:Rocket Cloison
-   MenuLocation:Rocket - Bulkhead
-   Workbenches:[Rocket](Rocket_Workbench/fr.md)
-   Version:0.19
+   Name: Rocket Bulkhead
+   Name/fr: Rocket Cloison
+   MenuLocation: Rocket - Bulkhead
+   Workbenches: [Rocket](Rocket_Workbench/fr.md)
+   Version: 0.19
 ---
 
 # Rocket Bulkhead/fr
@@ -90,4 +90,4 @@ A définir
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [API/fr]] et ](Category_API/fr]] et .md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Bulkhead/fr
+⏵ [documentation index](../README.md) > [API/fr]] et ](Category_API/fr]] et .md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Bulkhead/fr

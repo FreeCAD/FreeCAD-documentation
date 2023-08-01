@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Measure Toggle All
-   Name/fr:Part Tout basculer
-   MenuLocation:Mesure - Tout basculer
-   Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Part Basculer 3D](Part_Measure_Toggle_3D/fr.md), [Part Basculer Delta](Part_Measure_Toggle_Delta/fr.md)
+   Name: Part Measure Toggle All
+   Name/fr: Part Tout basculer
+   MenuLocation: Mesure - Tout basculer
+   Workbenches: [Part](Part_Workbench/fr.md)
+   SeeAlso: [Part Basculer 3D](Part_Measure_Toggle_3D/fr.md), [Part Basculer Delta](Part_Measure_Toggle_Delta/fr.md)
 ---
 
 # Part Measure Toggle All/fr
@@ -24,4 +24,4 @@ Cette commande permet de basculer la visibilité de toutes les mesures dans la [
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle All/fr
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle All/fr

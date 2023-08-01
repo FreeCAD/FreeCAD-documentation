@@ -5,7 +5,7 @@
 El <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Ambiente de trabajo de hojas de cálculo](Spreadsheet_Workbench/es.md) permite crear y editar hojas de cálculo, utilizar datos de la hoja de cálculo como parámetros en un modelo, rellenar la hoja de cálculo con datos recuperados de un modelo, realizar cálculos y exportar los datos a otras aplicaciones de hojas de cálculo como LibreOffice o Microsoft Excel.
 
 
-{{TOCright}}
+
 
 <img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:600px;"> 
 *Una hoja de cálculo con determinadas celdas rellenas de texto y cantidades*
@@ -377,4 +377,4 @@ sheet.get('Diameter')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/es
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/es

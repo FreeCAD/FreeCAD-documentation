@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part FaceColors
-   Name/de:Part FlächenFarben
-   MenuLocation:Kontextmenü - Farben setzen
-   Workbenches:[Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso:[Std Erscheinungsbild](Std_SetAppearance/de.md)
+   Name: Part FaceColors
+   Name/de: Part FlächenFarben
+   MenuLocation: Kontextmenü - Farben setzen
+   Workbenches: [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
+   SeeAlso: [Std Erscheinungsbild](Std_SetAppearance/de.md)
 ---
 
 # Part FaceColors/de
@@ -44,4 +44,4 @@ Um alle Flächenfarben zurückzusetzen:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Command_Reference](Category_Command_Reference.md) > [Part](Part_Workbench.md) > Part FaceColors/de
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Command_Reference](Category_Command_Reference.md) > [Part](Part_Workbench.md) > Part FaceColors/de

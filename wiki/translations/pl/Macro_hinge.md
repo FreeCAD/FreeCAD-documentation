@@ -64,4 +64,4 @@ The discussion page [Struggling with LinearPattern (again)](http://forum.freecad
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro hinge/pl
+⏵ [documentation index](../README.md) > Macro hinge/pl

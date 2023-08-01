@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft AnnotationStyleEditor
-   Name/ru:Draft AnnotationStyleEditor
-   MenuLocation:Annotation - Annotation styles
-   Workbenches:[Draft](Draft_Workbench/ru.md)
-   Shortcut:-
-   SeeAlso:[Draft Text](Draft_Text/ru.md), [Draft Dimension](Draft_Dimension/ru.md), [Draft Label](Draft_Label/ru.md)
-   Version:0.19
+   Name: Draft AnnotationStyleEditor
+   Name/ru: Draft AnnotationStyleEditor
+   MenuLocation: Annotation - Annotation styles
+   Workbenches: [Draft](Draft_Workbench/ru.md)
+   Shortcut: -
+   SeeAlso: [Draft Text](Draft_Text/ru.md), [Draft Dimension](Draft_Dimension/ru.md), [Draft Label](Draft_Label/ru.md)
+   Version: 0.19
 ---
 
 # Draft AnnotationStyleEditor/ru
@@ -139,4 +139,4 @@ props = {
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AnnotationStyleEditor/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AnnotationStyleEditor/ru

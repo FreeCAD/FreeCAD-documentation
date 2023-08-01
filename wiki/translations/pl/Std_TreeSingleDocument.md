@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std TreeSingleDocument
-   Name/pl:Std: Jeden dokument w widoku drzewa
-   MenuLocation:Widok - Akcje widoku drzewa - Jeden dokument
-   Workbenches:wszystkie
-   Version:0.19
-   SeeAlso:[Wiele dokumentów](Std_TreeMultiDocument/pl.md), [Zwiń dokument](Std_TreeCollapseDocument/pl.md)
+   Name: Std TreeSingleDocument
+   Name/pl: Std: Jeden dokument w widoku drzewa
+   MenuLocation: Widok - Akcje widoku drzewa - Jeden dokument
+   Workbenches: wszystkie
+   Version: 0.19
+   SeeAlso: [Wiele dokumentów](Std_TreeMultiDocument/pl.md), [Zwiń dokument](Std_TreeCollapseDocument/pl.md)
 ---
 
 # Std TreeSingleDocument/pl
@@ -37,4 +37,4 @@ Tryb Tryb dokumentu w widoku drzewa jest zapisywany: **Przybory → Edycja param
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TreeSingleDocument/pl
+⏵ [documentation index](../README.md) > Std TreeSingleDocument/pl

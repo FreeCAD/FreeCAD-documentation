@@ -30,4 +30,4 @@ for Linux : \"\"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Macros](Category_Macros.md) > Misc templates Full/en
+⏵ [documentation index](../README.md) > [Macros](Category_Macros.md) > Misc templates Full/en

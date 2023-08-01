@@ -24,4 +24,4 @@ This category lists pages related to the [FEM Workbench/ro](FEM_Workbench/ro.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:FEM/ro
+⏵ [documentation index](../README.md) > Category:FEM/ro

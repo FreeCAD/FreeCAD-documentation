@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintSketchPlane
-   Name/fr:Assembly3 Plan esquisse
-   Icon:Assembly_ConstraintSketchPlane.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 ConstraintSketchPlane
+   Name/fr: Assembly3 Plan esquisse
+   Icon: Assembly_ConstraintSketchPlane.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintSketchPlane/fr
@@ -29,4 +29,4 @@ Elle peut être utilisé pour créer une esquisse de structure pour la cinémati
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintSketchPlane/fr
+⏵ [documentation index](../README.md) > Assembly3 ConstraintSketchPlane/fr

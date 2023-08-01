@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet AlignLeft
-   Name/de:Kalkulationstabelle LinksAusrichten
-   MenuLocation:Kalkulationstabelle - Ausrichtung - LinksAusrichten
-   Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)
-   Version:0.17
+   Name: Spreadsheet AlignLeft
+   Name/de: Kalkulationstabelle LinksAusrichten
+   MenuLocation: Kalkulationstabelle - Ausrichtung - LinksAusrichten
+   Workbenches: [Tabellenkalkulation](Spreadsheet_Workbench/de.md)
+   Version: 0.17
 ---
 
 # Spreadsheet AlignLeft/de
@@ -30,4 +30,4 @@ Das **[<img src=images/Spreadsheet_AlignLeft.svg style="width:16px"> [Kalkulatio
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignLeft/de
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignLeft/de

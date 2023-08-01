@@ -7,7 +7,7 @@ Detta är en extensiv, fast inte komplett, lista på de funktioner som FreeCAD h
 </div>
 
 
-{{TOCright}}
+
 
 ## Release notes 
 
@@ -270,4 +270,4 @@ Power users have created various custom [external workbenches](External_workbenc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/sv
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/sv

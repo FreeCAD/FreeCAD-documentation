@@ -1,6 +1,4 @@
 # Path experimental/fr
-{{TOCright}}
-
 ## Description
 
 L\'atelier Path contient un ensemble de commandes cachées. Elles sont cachées par défaut car elles sont expérimentales. Une commande peut être considérée comme expérimentale pour l\'une des raisons suivantes :
@@ -44,4 +42,4 @@ En savoir plus sur les commandes expérimentales spécifiques sur les [pages du 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Path](Path_Workbench.md) > Path experimental/fr
+⏵ [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Path](Path_Workbench.md) > Path experimental/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Design456 Extract
-   MenuLocation:Design456_Tools - 3DTools - Extract
-   Workbenches:[Design456](Design456_Workbench.md)
-   Shortcut:None
-   SeeAlso:
+   Name: Design456 Extract
+   MenuLocation: Design456_Tools - 3DTools - Extract
+   Workbenches: [Design456](Design456_Workbench.md)
+   Shortcut: None
+   SeeAlso: 
 ---
 
 # Design456 Extract
@@ -34,4 +34,4 @@ Works on 3D objects.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 Extract
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Design456 Extract

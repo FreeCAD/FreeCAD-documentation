@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part SliceApart
-   Name/ru:Part SliceApart
-   MenuLocation:Деталь - Разделить - Slice Apart
-   Workbenches:[Part](Part_Workbench/ru.md)
-   Version:0.18
-   SeeAlso:[Part Slice to compound](Part_Slice/ru.md), [Part Explode Compound](Part_ExplodeCompound/ru.md)
+   Name: Part SliceApart
+   Name/ru: Part SliceApart
+   MenuLocation: Деталь - Разделить - Slice Apart
+   Workbenches: [Part](Part_Workbench/ru.md)
+   Version: 0.18
+   SeeAlso: [Part Slice to compound](Part_Slice/ru.md), [Part Explode Compound](Part_ExplodeCompound/ru.md)
 ---
 
 # Part SliceApart/ru
@@ -84,4 +84,4 @@ Slice Apart was introduced in FreeCAD v0.18.15506. FreeCAD needs to be compiled 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/ru

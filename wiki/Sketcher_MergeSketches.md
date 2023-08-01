@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Sketcher MergeSketches
-   MenuLocation:Sketch - Merge sketches
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Version:0.15
+   Name: Sketcher MergeSketches
+   MenuLocation: Sketch - Merge sketches
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Version: 0.15
 ---
 
 # Sketcher MergeSketches
@@ -26,4 +26,4 @@ Merge two or more sketches into one.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MergeSketches
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MergeSketches

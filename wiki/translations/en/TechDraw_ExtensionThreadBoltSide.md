@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionThreadBoltSide
-   MenuLocation:TechDraw - Extensions: Centerlines/Threading - Add Cosmetic Thread Bolt Side View
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ExtensionThreadHoleSide](TechDraw_ExtensionThreadHoleSide.md)
+   Name: TechDraw ExtensionThreadBoltSide
+   MenuLocation: TechDraw - Extensions: Centerlines/Threading - Add Cosmetic Thread Bolt Side View
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ExtensionThreadHoleSide](TechDraw_ExtensionThreadHoleSide.md)
 ---
 
 # TechDraw ExtensionThreadBoltSide/en
@@ -37,4 +37,4 @@ The **TechDraw ExtensionThreadBoltSide** tool adds a cosmetic thread to the side
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadBoltSide/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadBoltSide/en

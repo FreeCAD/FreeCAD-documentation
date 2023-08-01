@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft Split
-   Name/fr:Draft Scinder
-   MenuLocation:Modification - Scinder
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:**S** **P**
-   Version:0.18
-   SeeAlso:[Draft Joindre](Draft_Join/fr.md)
+   Name: Draft Split
+   Name/fr: Draft Scinder
+   MenuLocation: Modification - Scinder
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut: **S** **P**
+   Version: 0.18
+   SeeAlso: [Draft Joindre](Draft_Join/fr.md)
 ---
 
 # Draft Split/fr
@@ -75,4 +75,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Split/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Split/fr

@@ -1,6 +1,6 @@
 # PartDesign Hole/ro
 ---
-- GuiCommand:   Name:PartDesign Hole   Workbenches:[MenuLocation:Part Design - Hole   Shortcut:None   SeeAlso:[[PartDesign Pocket](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign Hole   Workbenches: [MenuLocation: Part Design - Hole   Shortcut: None   SeeAlso: [[PartDesign Pocket](PartDesign_Workbench___PartDesign]].md)---
 
 
 </div>
@@ -178,4 +178,4 @@ Example: {{Code|lang=json|code=
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Hole/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Hole/ro

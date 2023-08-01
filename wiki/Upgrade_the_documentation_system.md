@@ -66,4 +66,4 @@ Medium
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Upgrade the documentation system
+⏵ [documentation index](../README.md) > Upgrade the documentation system

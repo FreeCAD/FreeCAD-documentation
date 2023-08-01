@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Draft BSpline
-   Name/it:BSpline
-   MenuLocation:Drafting - BSpline
-   Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   Shortcut:**B** **S**
-   Version:0.7
-   SeeAlso:[Polilinea](Draft_Wire/it.md), [Curva di Bezier](Draft_BezCurve/it.md)
+   Name: Draft BSpline
+   Name/it: BSpline
+   MenuLocation: Drafting - BSpline
+   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   Shortcut: **B** **S**
+   Version: 0.7
+   SeeAlso: [Polilinea](Draft_Wire/it.md), [Curva di Bezier](Draft_BezCurve/it.md)
 ---
 
 # Draft BSpline/it
@@ -158,4 +158,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BSpline/it
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BSpline/it

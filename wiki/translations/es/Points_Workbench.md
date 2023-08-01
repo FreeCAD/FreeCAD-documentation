@@ -14,7 +14,7 @@
 ## Introducción
 
 
-{{TOCright}}
+
 
 El <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> [Ambiente de trabajo Puntos](Points_Workbench/es.md) está creado para darte herramientas específicas para trabajar con [nubes de puntos](http://en.wikipedia.org/wiki/Point_cloud). Está Ambiente de trabajo aún en desarrollo.
 
@@ -71,4 +71,4 @@ Se puede acceder a todas las herramientas del ambiente de trabajo de puntos desd
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/es
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/es

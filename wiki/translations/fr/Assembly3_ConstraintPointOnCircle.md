@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintPointOnCircle
-   Name/fr:Assembly3 Contrainte point sur un cercle
-   Icon:Assembly_ConstraintPointOnCircle.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
+   Name: Assembly3 ConstraintPointOnCircle
+   Name/fr: Assembly3 Contrainte point sur un cercle
+   Icon: Assembly_ConstraintPointOnCircle.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
 ---
 
 # Assembly3 ConstraintPointOnCircle/fr
@@ -27,4 +27,4 @@ La position sur l\'élément circulaire (longueur d\'arc à partir du point de d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintPointOnCircle/fr
+⏵ [documentation index](../README.md) > Assembly3 ConstraintPointOnCircle/fr

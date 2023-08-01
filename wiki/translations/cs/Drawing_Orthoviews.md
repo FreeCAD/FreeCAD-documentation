@@ -1,6 +1,6 @@
 # Drawing Orthoviews/cs
 ---
-- GuiCommand:   Name:Drawing Orthoviews   Name/cs:Drawing Orthoviews   Workbenches:[MenuLocation:Drawing - Insert orthographic views   Shortcut:none   SeeAlso:[[Drawing Landscape A3/cs|Drawing Landscape A3](Drawing_Workbench/cs___Drawing]],_Complete.md)---
+- GuiCommand:   Name: Drawing Orthoviews   Name/cs: Drawing Orthoviews   Workbenches: [MenuLocation: Drawing - Insert orthographic views   Shortcut: none   SeeAlso: [[Drawing Landscape A3/cs|Drawing Landscape A3](Drawing_Workbench/cs___Drawing]],_Complete.md)---
 
 The Orthoviews tool inserts a set of orthographic projections of the selected object in the active drawing sheet. Note that it does not create a single view object on the page. Instead, a separate orthographic projection will be created for each of the views selected in the options.
 
@@ -62,4 +62,4 @@ To be added
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Orthoviews/cs
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Orthoviews/cs

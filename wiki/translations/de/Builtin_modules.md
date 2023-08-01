@@ -22,4 +22,4 @@ Auf dieser Seite findest Du weiterführende Informationen über die eingebauten 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [API](Category_API.md) > Builtin modules/de
+⏵ [documentation index](../README.md) > [API](Category_API.md) > Builtin modules/de

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Sketcher CompCreateRegularPolygon
-   Name/de:Sketcher AuswahlRegelmäßigesVieleckErstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
+   Name: Sketcher CompCreateRegularPolygon
+   Name/de: Sketcher AuswahlRegelmäßigesVieleckErstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
 ---
 
 # Sketcher CompCreateRegularPolygon/de
@@ -36,4 +36,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRegularPolygon/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateRegularPolygon/de

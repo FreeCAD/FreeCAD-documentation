@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintColinear
-   Name/de:Assembly3 Kollinear
-   Icon:Assembly_ConstraintColinear.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintColinear
+   Name/de: Assembly3 Kollinear
+   Icon: Assembly_ConstraintColinear.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintColinear/de
@@ -35,4 +35,4 @@ Dieses Werkzeug akzeptiert auch 3D-Elemente wie z.B. Kanten oder Mittellinien.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintColinear/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintColinear/de

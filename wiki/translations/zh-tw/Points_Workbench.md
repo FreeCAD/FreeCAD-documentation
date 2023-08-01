@@ -12,7 +12,7 @@
 ## Introduction
 
 
-{{TOCright}}
+
 
 The <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> [Points Workbench](Points_Workbench.md) offers specific tools for working with [point clouds](http://en.wikipedia.org/wiki/Point_cloud). The workbench is still in development.
 
@@ -59,4 +59,4 @@ All Points Workbench tools can be accessed from the **Points** menu. Some tools 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/zh-tw
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/zh-tw

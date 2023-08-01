@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateBSplineByInterpolation
-   Name/pl:Szkicownik: Krzywa złozona przez interpolację
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Krzywa złożona przez węzły
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **B** **I**
-   Version:0.21
-   SeeAlso:[Utwórz okresową krzywą złożoną](Sketcher_CreatePeriodicBSpline/pl.md)
+   Name: Sketcher CreateBSplineByInterpolation
+   Name/pl: Szkicownik: Krzywa złozona przez interpolację
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Krzywa złożona przez węzły
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **G** **B** **I**
+   Version: 0.21
+   SeeAlso: [Utwórz okresową krzywą złożoną](Sketcher_CreatePeriodicBSpline/pl.md)
 ---
 
 # Sketcher CreateBSplineByInterpolation/pl
@@ -56,4 +56,4 @@ Zobacz stronę [Krzywa złożona przez punkty kontrolne](Sketcher_CreateBSpline/
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateBSplineByInterpolation/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateBSplineByInterpolation/pl

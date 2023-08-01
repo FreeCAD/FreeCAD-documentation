@@ -13,4 +13,4 @@ A [spreadsheet](spreadsheet.md) is a page that contains rows and columns that al
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Spreadsheet
+⏵ [documentation index](../README.md) > Spreadsheet

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch ToggleIfcBrepFlag
-   Name/ro:Arch ToggleIfcBrepFlag
-   MenuLocation:Arch - Utilities - Toggle Ifc Brep flag
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   Shortcut:
-   SeeAlso:
+   Name: Arch ToggleIfcBrepFlag
+   Name/ro: Arch ToggleIfcBrepFlag
+   MenuLocation: Arch - Utilities - Toggle Ifc Brep flag
+   Workbenches: [Arch](Arch_Workbench/ro.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Arch ToggleIfcBrepFlag/ro
@@ -44,4 +44,4 @@ Acest instrument permite / dezactivează funcția IfcBrep a unui obiect Arch sel
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/ro
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/ro

@@ -1,6 +1,4 @@
 # FeaturePython methods/de
-{{TOCright}}
-
 ## Einführung
 
 Diese Seite dient als Referenz für die verfügbaren überschreibbaren Methoden von [Ein FeaturePython-Objekt erstellen Teil I](Create_a_FeaturePython_object_part_I/de.md) oder [Skriptgenerierte Objekte](Scripted_objects/de.md).
@@ -67,4 +65,4 @@ Note, getPyObject() and init() are special-cases and don\'t follow the above heu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FeaturePython methods/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FeaturePython methods/de

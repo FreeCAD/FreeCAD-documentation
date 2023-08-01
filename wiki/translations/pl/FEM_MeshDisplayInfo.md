@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM MeshDisplayInfo
-   Name:MES: Wyświetl informacje o siatce MES
-   MenuLocation:Context menu on mesh object - Wyświetl informacje o siatce MES
-   Workbenches:[MES](FEM_Workbench/pl.md)
-   SeeAlso:[Poradnik dla środowiska pracy MES](FEM_tutorial/pl.md)
+   Name: FEM MeshDisplayInfo
+   Name: MES: Wyświetl informacje o siatce MES
+   MenuLocation: Context menu on mesh object - Wyświetl informacje o siatce MES
+   Workbenches: [MES](FEM_Workbench/pl.md)
+   SeeAlso: [Poradnik dla środowiska pracy MES](FEM_tutorial/pl.md)
 ---
 
 # FEM MeshDisplayInfo/pl
@@ -95,4 +95,4 @@ will output the following result:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshDisplayInfo/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshDisplayInfo/pl

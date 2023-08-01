@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Mesh Evaluation
-   Name/pl:Siatka: Analiza
-   MenuLocation:Siatki - Analizuj - Oceń i napraw siatkę ...
-   Workbenches:[Siatka](Mesh_Workbench/pl.md)
+   Name: Mesh Evaluation
+   Name/pl: Siatka: Analiza
+   MenuLocation: Siatki - Analizuj - Oceń i napraw siatkę ...
+   Workbenches: [Siatka](Mesh_Workbench/pl.md)
 ---
 
 # Mesh Evaluation/pl
@@ -68,4 +68,4 @@ Polecenie **Analizuj** ocenia i naprawia obiekt siatkowy.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Evaluation/pl
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Evaluation/pl

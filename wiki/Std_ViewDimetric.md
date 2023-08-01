@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std ViewDimetric
-   MenuLocation:View - Standard views - Axonometric - Dimetric
-   Workbenches:All
-   SeeAlso:[Std ViewIsometric](Std_ViewIsometric.md), [Std ViewTrimetric](Std_ViewTrimetric.md)
+   Name: Std ViewDimetric
+   MenuLocation: View - Standard views - Axonometric - Dimetric
+   Workbenches: All
+   SeeAlso: [Std ViewIsometric](Std_ViewIsometric.md), [Std ViewTrimetric](Std_ViewTrimetric.md)
 ---
 
 # Std ViewDimetric
@@ -44,4 +44,4 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewDimetric
+⏵ [documentation index](../README.md) > Std ViewDimetric

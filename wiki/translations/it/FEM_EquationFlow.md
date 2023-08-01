@@ -1,6 +1,6 @@
 # FEM EquationFlow/it
 ---
-- GuiCommand:   Name:FEM_EquationFlow   Name/it:FEM EquationFlow   Icon:Fem-equation-flow.svg   MenuLocation: Solve - Equation flow   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:   Name: FEM_EquationFlow   Name/it: FEM EquationFlow   Icon: Fem-equation-flow.svg   MenuLocation:  Solve - Equation flow   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
 
 </div>
@@ -80,4 +80,4 @@ The results are the velocity in $\rm m/s$ and the pressure in $\rm Pa$. If there
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationFlow/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationFlow/it

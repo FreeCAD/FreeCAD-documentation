@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher LeaveSketch
-   Name/fr:Sketcher Quitter l'esquisse
-   MenuLocation:Esquisse - Quitter l'esquisse
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso:[Sketcher Modifier l'esquisse](Sketcher_EditSketch/fr.md)
+   Name: Sketcher LeaveSketch
+   Name/fr: Sketcher Quitter l'esquisse
+   MenuLocation: Esquisse - Quitter l'esquisse
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso: [Sketcher Modifier l'esquisse](Sketcher_EditSketch/fr.md)
 ---
 
 # Sketcher LeaveSketch/fr
@@ -34,4 +34,4 @@ Il existe plusieurs façons de lancer cette commande :
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/fr

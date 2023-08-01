@@ -42,4 +42,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:External Workbenches/fr
+⏵ [documentation index](../README.md) > Category:External Workbenches/fr

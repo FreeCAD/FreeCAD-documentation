@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher Symmetry
-   Name/it:Simmetria
-   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation:Sketch - Strumenti - Simmetria
-   Version:0.16
+   Name: Sketcher Symmetry
+   Name/it: Simmetria
+   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation: Sketch - Strumenti - Simmetria
+   Version: 0.16
 ---
 
 # Sketcher Symmetry/it
@@ -57,4 +57,4 @@ Notare che non viene aggiunto nessun vincolo di simmetria aggiuntivo.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Symmetry/it
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Symmetry/it

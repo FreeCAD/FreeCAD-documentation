@@ -13,4 +13,4 @@ Z tego interfejsu możesz zobaczyć przydatne informacje i przejść do ostatnio
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Start](Category_Start.md) > [Workbenches](Category_Workbenches.md) > Start Workbench/pl
+⏵ [documentation index](../README.md) > [Start](Category_Start.md) > [Workbenches](Category_Workbenches.md) > Start Workbench/pl

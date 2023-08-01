@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Область выбора элементов
-   Name:Std_BoxElementSelection
-   MenuLocation:Правка - Область выбора элементов
-   Workbenches:Все
-   Shortcut:**Shift**+**E**
-   SeeAlso:[Выделить область](Std_BoxSelection/ru.md), [Выбрать всё](Std_SelectAll/ru.md)
+   Name/ru: Область выбора элементов
+   Name: Std_BoxElementSelection
+   MenuLocation: Правка - Область выбора элементов
+   Workbenches: Все
+   Shortcut: **Shift**+**E**
+   SeeAlso: [Выделить область](Std_BoxSelection/ru.md), [Выбрать всё](Std_SelectAll/ru.md)
 ---
 
 # Std BoxElementSelection/ru
@@ -38,4 +38,4 @@ The **Std BoxElementSelection** command selects faces from a user defined rectan
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std BoxElementSelection/ru
+⏵ [documentation index](../README.md) > Std BoxElementSelection/ru

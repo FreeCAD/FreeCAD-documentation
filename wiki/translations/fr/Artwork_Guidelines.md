@@ -170,4 +170,4 @@ Une image en niveaux de gris vous permet d\'identifier plus facilement les probl
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer Documentation](Category_Developer Documentation.md) > Artwork Guidelines/fr
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer Documentation](Category_Developer Documentation.md) > Artwork Guidelines/fr

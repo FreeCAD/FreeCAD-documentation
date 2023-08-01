@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Связать размер с 3D геометрией
-   Name:TechDraw_LinkDimension
-   MenuLocation:TechDraw - Размеры - Связать размер с 3D геометрией
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Вставить Вид](TechDraw_View/ru.md), [Вставить группу проекций](TechDraw_ProjectionGroup/ru.md)
+   Name/ru: Связать размер с 3D геометрией
+   Name: TechDraw_LinkDimension
+   MenuLocation: TechDraw - Размеры - Связать размер с 3D геометрией
+   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso: [Вставить Вид](TechDraw_View/ru.md), [Вставить группу проекций](TechDraw_ProjectionGroup/ru.md)
 ---
 
 # TechDraw LinkDimension/ru
@@ -70,4 +70,4 @@ The TechDraw LinkDimension tool is not directly usable in macros, but changing t
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LinkDimension/ru
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LinkDimension/ru

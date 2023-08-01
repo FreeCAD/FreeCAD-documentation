@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft AddToGroup
-   Name/ru:Draft AddToGroup
-   MenuLocation:Черчение - Утилиты - Добавить в группу
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[Draft SelectGroup](Draft_SelectGroup/ru.md), [Std CreateGroup](Std_Group/ru.md)
+   Name: Draft AddToGroup
+   Name/ru: Draft AddToGroup
+   MenuLocation: Черчение - Утилиты - Добавить в группу
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: [Draft SelectGroup](Draft_SelectGroup/ru.md), [Std CreateGroup](Std_Group/ru.md)
 ---
 
 # Draft AddToGroup/ru
@@ -52,4 +52,4 @@ In FreeCAD version 0.20 the command can also handle group-like [Arch](Arch_Workb
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddToGroup/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddToGroup/ru

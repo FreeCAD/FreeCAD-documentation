@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch 3Views
-   Name/de:Arch 3Ansichten
-   MenuLocation:Arch - Dienstprogramme - 3 Ansichten aus Netz
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   SeeAlso:[Arch NetzAufteilen](Arch_SplitMesh/de.md), [Arch NetzZuForm](Arch_MeshToShape/de.md)
+   Name: Arch 3Views
+   Name/de: Arch 3Ansichten
+   MenuLocation: Arch - Dienstprogramme - 3 Ansichten aus Netz
+   Workbenches: [Arch](Arch_Workbench/de.md)
+   SeeAlso: [Arch NetzAufteilen](Arch_SplitMesh/de.md), [Arch NetzZuForm](Arch_MeshToShape/de.md)
 ---
 
 # Arch 3Views/de
@@ -99,4 +99,4 @@ mesh_obj.ViewObject.Visibility = False
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch 3Views/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch 3Views/de

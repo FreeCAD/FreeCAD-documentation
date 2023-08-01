@@ -39,4 +39,4 @@ Although you will be able to perform the same tasks and obtain a similar result 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Migrating to FreeCAD from Revit/de
+⏵ [documentation index](../README.md) > Migrating to FreeCAD from Revit/de

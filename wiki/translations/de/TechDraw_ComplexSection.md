@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ComplexSection
-   Name/de:TechDraw KomplexerSchnitt
-   MenuLocation:TechDraw - TechDraw Ansichten - Komplexe Schnittansicht einfügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.21
-   SeeAlso:[TechDraw Schnittansicht](TechDraw_SectionView/de.md), [TechDraw Ansicht](TechDraw_View/de.md), [TechDraw Ansichtengruppe](TechDraw_ProjectionGroup/de.md)
+   Name: TechDraw ComplexSection
+   Name/de: TechDraw KomplexerSchnitt
+   MenuLocation: TechDraw - TechDraw Ansichten - Komplexe Schnittansicht einfügen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Version: 0.21
+   SeeAlso: [TechDraw Schnittansicht](TechDraw_SectionView/de.md), [TechDraw Ansicht](TechDraw_View/de.md), [TechDraw Ansichtengruppe](TechDraw_ProjectionGroup/de.md)
 ---
 
 # TechDraw ComplexSection/de
@@ -122,4 +122,4 @@ Für weitere Information über Schnittansichten und einige Beispiele siehe: [Tec
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ComplexSection/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ComplexSection/de

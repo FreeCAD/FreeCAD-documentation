@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintAlignment
-   Icon:Assembly_ConstraintAlignment.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintAlignment
+   Icon: Assembly_ConstraintAlignment.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintAlignment/en
@@ -24,4 +24,4 @@ The offset of their z-axes and the angle between their x-axes (and y-axes as wel
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintAlignment/en
+⏵ [documentation index](../README.md) > Assembly3 ConstraintAlignment/en

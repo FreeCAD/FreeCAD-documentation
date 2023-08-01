@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Special
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   MenuLocation:Draft - [Snap](Draft_Snap.md) - Special
-   Shortcut:
-   SeeAlso:
+   Name: Draft Snap Special
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Draft - [Snap](Draft_Snap.md) - Special
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Draft Snap Special/ro
@@ -56,4 +56,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Special/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Special/ro

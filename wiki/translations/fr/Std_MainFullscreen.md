@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std MainFullscreen
-   Name/fr:Std Plein écran principal
-   MenuLocation:Affichage - Plein écran
-   Workbenches:Tous
-   Shortcut:**Alt**+**F11**
-   SeeAlso:[Std Plein écran](Std_ViewFullscreen/fr.md)
+   Name: Std MainFullscreen
+   Name/fr: Std Plein écran principal
+   MenuLocation: Affichage - Plein écran
+   Workbenches: Tous
+   Shortcut: **Alt**+**F11**
+   SeeAlso: [Std Plein écran](Std_ViewFullscreen/fr.md)
 ---
 
 # Std MainFullscreen/fr
@@ -31,4 +31,4 @@ La commande **Std Plein écran principal** bascule le mode plein écran de la fe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MainFullscreen/fr
+⏵ [documentation index](../README.md) > Std MainFullscreen/fr

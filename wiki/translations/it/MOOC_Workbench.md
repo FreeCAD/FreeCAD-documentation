@@ -4,7 +4,7 @@
 ## Descrizione
 
 
-{{TOCright}}
+
 
 
 <div class="mw-translate-fuzzy">
@@ -92,4 +92,4 @@ Sono in fase di sviluppo ulteriori nuovi ambienti.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > MOOC Workbench/it
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > MOOC Workbench/it

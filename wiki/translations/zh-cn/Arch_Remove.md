@@ -1,10 +1,10 @@
 ---
 - GuiCommand:-cn
-   Name:Arch Remove
-   Name/zh-cn:建筑移除工具
-   MenuLocation:Arch - Remove
-   Workbenches:[Arch](Arch_Workbench/zh-cn.md)
-   SeeAlso:[[Arch Add/zh-cn]]
+   Name: Arch Remove
+   Name/zh-cn: 建筑移除工具
+   MenuLocation: Arch - Remove
+   Workbenches: [Arch](Arch_Workbench/zh-cn.md)
+   SeeAlso: [[Arch Add/zh-cn]]
 ---
 
 # Arch Remove/zh-cn
@@ -125,4 +125,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/zh-cn
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Remove/zh-cn

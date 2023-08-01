@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std MeasureDistance
-   Name/fr:Std Mesurer une distance
-   MenuLocation:Outils - Mesurer une distance‏‎
-   Workbenches:Tous
-   SeeAlso:[Part Mesure linéaire](Part_Measure_Linear/fr.md), [Draft Cote](Draft_Dimension/fr.md)
+   Name: Std MeasureDistance
+   Name/fr: Std Mesurer une distance
+   MenuLocation: Outils - Mesurer une distance‏‎
+   Workbenches: Tous
+   SeeAlso: [Part Mesure linéaire](Part_Measure_Linear/fr.md), [Draft Cote](Draft_Dimension/fr.md)
 ---
 
 # Std MeasureDistance/fr
@@ -69,4 +69,4 @@ La commande **Std Mesurer une distance** crée un objet distance qui mesure et a
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MeasureDistance/fr
+⏵ [documentation index](../README.md) > Std MeasureDistance/fr

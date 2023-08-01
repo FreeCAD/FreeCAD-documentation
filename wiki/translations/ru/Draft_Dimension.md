@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Dimension
-   Name/ru:Draft Dimension
-   MenuLocation:Черчение - Размер
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:**D** **I**
-   SeeAlso:[Перевернуть размер](Draft_FlipDimension/ru.md)
+   Name: Draft Dimension
+   Name/ru: Draft Dimension
+   MenuLocation: Черчение - Размер
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: **D** **I**
+   SeeAlso: [Перевернуть размер](Draft_FlipDimension/ru.md)
 ---
 
 # Draft Dimension/ru
@@ -333,4 +333,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/ru

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM ElementGeometry2D
-   Name/fr:FEM Épaisseur de l'élément de type coque
-   MenuLocation:Modèle - Géométrie de l'élement - Épaisseur de la coque
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Shortcut:**C** **S**
-   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
+   Name: FEM ElementGeometry2D
+   Name/fr: FEM Épaisseur de l'élément de type coque
+   MenuLocation: Modèle - Géométrie de l'élement - Épaisseur de la coque
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Shortcut: **C** **S**
+   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM ElementGeometry2D/fr
@@ -58,4 +58,4 @@ Pour afficher les résultats du solveur CalculiX sur le maillage développé à 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementGeometry2D/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementGeometry2D/fr

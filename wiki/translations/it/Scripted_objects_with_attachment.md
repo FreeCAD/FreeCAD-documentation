@@ -1,6 +1,4 @@
 # Scripted objects with attachment/it
-{{TOCright}}
-
 ## Introduzione
 
 The purpose of this page is to show a minimal example of [Part EditAttachment](Part_EditAttachment.md) feature using [Scripted objects](Scripted_objects.md) in Python.
@@ -152,4 +150,4 @@ Note: For FreeCAD 0.19 this tutorial needs a minor update:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects with attachment/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects with attachment/it

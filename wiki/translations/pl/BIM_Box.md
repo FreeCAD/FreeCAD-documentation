@@ -1,10 +1,10 @@
 ---
 - GuiCommand:Addon
-   Name:BIM Box
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
-   Addon:BIM
-   MenuLocation:3D Modeling - Box
-   SeeAlso:[Part Box](Part_Box.md)
+   Name: BIM Box
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
+   Addon: BIM
+   MenuLocation: 3D Modeling - Box
+   SeeAlso: [Part Box](Part_Box.md)
 ---
 
 # BIM Box/pl
@@ -26,4 +26,4 @@ The BIM Box tool allows you to create a standard [Part Box](Part_Box.md), but in
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM Box/pl
+⏵ [documentation index](../README.md) > BIM Box/pl

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Icon:Sketcher MergeSketch.svg
-   Name/ro:Combină schițe
-   Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation:Sketch - Combină schițe
-   Version:0.15
+   Icon: Sketcher MergeSketch.svg
+   Name/ro: Combină schițe
+   Workbenches: [Sketcher](Sketcher_Workbench/ro.md)
+   MenuLocation: Sketch - Combină schițe
+   Version: 0.15
 ---
 
 # Sketcher MergeSketches/ro
@@ -51,4 +51,4 @@ Fuziunea a două sau mai multor schițe.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MergeSketches/ro
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MergeSketches/ro

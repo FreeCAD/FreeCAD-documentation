@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Constraint InternalAngle
-   Name/es:Constraint InternalAngle
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md), [Diseño de Piezas](PartDesign_Workbench/es.md)
-   Shortcut:A
-   MenuLocation:Croquizador - Restricciones del Croquizador - Restricción angular
-   SeeAlso:[Restricción distancia](Sketcher_ConstrainDistance/es.md), [Restricción perpendicular](Sketcher_ConstrainPerpendicular/es.md)
+   Name: Constraint InternalAngle
+   Name/es: Constraint InternalAngle
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md), [Diseño de Piezas](PartDesign_Workbench/es.md)
+   Shortcut: A
+   MenuLocation: Croquizador - Restricciones del Croquizador - Restricción angular
+   SeeAlso: [Restricción distancia](Sketcher_ConstrainDistance/es.md), [Restricción perpendicular](Sketcher_ConstrainPerpendicular/es.md)
 ---
 
 # Sketcher ConstrainAngle/es
@@ -115,4 +115,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/es

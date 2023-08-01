@@ -10,4 +10,4 @@ Cette catégorie répertorie les pages obsolètes par rapport à la version actu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Obsolete page/fr
+⏵ [documentation index](../README.md) > Category:Obsolete page/fr

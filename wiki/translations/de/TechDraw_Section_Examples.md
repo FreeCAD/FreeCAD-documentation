@@ -1,8 +1,4 @@
 # TechDraw Section Examples/de
-{{TOCright}}
-
-
-
 ## Einleitung
 
 Der Arbeitsbereicch <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench/de.md) hat einen großen Schritt vorwärts gemacht, was die Erstellung von Schnittansichten angeht. Um die Referenzseite nicht zu überfrachten, ist die Absicht dieser Seite, Beispiele zu geben und die ausgeführten Aufgaben korrekt zu benennen.
@@ -276,4 +272,4 @@ Rechts: Abgesetzter Schnitt basierend auf einer alternativen Schnittlinie, siehe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Section Examples/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Section Examples/de

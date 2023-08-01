@@ -2,7 +2,7 @@
 Still not finished :-)
 
 
-{{TOCright}}
+
 
 Don't mark for translation yet!
 
@@ -199,4 +199,4 @@ Dies ist eine Sandbox
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Assembly3](Category_Assembly3.md) > [Addons](Category_Addons.md) > Sandbox:Assembly3 Elements
+⏵ [documentation index](../README.md) > [Assembly3](Category_Assembly3.md) > [Addons](Category_Addons.md) > Sandbox:Assembly3 Elements

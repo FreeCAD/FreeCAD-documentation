@@ -1,8 +1,4 @@
 # Code snippets/ru
-{{TOCright}}
-
-
-
 ## Введение
 
 Эта страница содержит примеры, обрывки, куски FreeCAD python кода, собранный для получения пользователями оптыта и обсуждения на [форумах](https://forum.freecadweb.org/viewforum.php?f=22). Читайте и используете их как начало для ваших собственных сценариев\...
@@ -1888,4 +1884,4 @@ See [Coin3d snippets](Coin3d_snippets.md)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Code snippets/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Code snippets/ru

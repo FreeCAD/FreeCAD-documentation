@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std ViewRotateLeft
-   MenuLocation:View - Standard views - Rotate Left
-   Workbenches:All
-   Shortcut:**Shift**+**Left**
-   SeeAlso:[Std ViewRotateRight](Std_ViewRotateRight.md)
+   Name: Std ViewRotateLeft
+   MenuLocation: View - Standard views - Rotate Left
+   Workbenches: All
+   Shortcut: **Shift**+**Left**
+   SeeAlso: [Std ViewRotateRight](Std_ViewRotateRight.md)
 ---
 
 # Std ViewRotateLeft
@@ -45,4 +45,4 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraOrientation()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewRotateLeft
+⏵ [documentation index](../README.md) > Std ViewRotateLeft

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw PrintAll
-   MenuLocation:TechDraw - Page - Print All Pages
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.21
-   SeeAlso:[Std Print](Std_Print.md)
+   Name: TechDraw PrintAll
+   MenuLocation: TechDraw - Page - Print All Pages
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.21
+   SeeAlso: [Std Print](Std_Print.md)
 ---
 
 # TechDraw PrintAll/en
@@ -36,4 +36,4 @@ The <img alt="" src=images/TechDraw_PrintAll.svg  style="width:24px;"> **TechDra
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PrintAll/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PrintAll/en

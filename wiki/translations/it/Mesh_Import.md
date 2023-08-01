@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Mesh_Import
-   Name/it:Importa mesh
-   MenuLocation:Mesh - Importa mesh...
-   Workbenches:[Mesh](Mesh_Workbench/it.md)
-   SeeAlso:[Importa](Std_Import/it.md), [Apri](Std_Open/it.md), [Importazione e Esportazione](Import_Export/it.md)
+   Name: Mesh_Import
+   Name/it: Importa mesh
+   MenuLocation: Mesh - Importa mesh...
+   Workbenches: [Mesh](Mesh_Workbench/it.md)
+   SeeAlso: [Importa](Std_Import/it.md), [Apri](Std_Open/it.md), [Importazione e Esportazione](Import_Export/it.md)
 ---
 
 # Mesh Import/it
@@ -70,4 +70,4 @@ Mesh.insert('D:/testfiles/cylinder.stl')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Import/it
+⏵ [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Import/it

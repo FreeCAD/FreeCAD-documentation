@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std TextureMapping
-   Name/it:Mappa una trama
-   MenuLocation:Visualizza - Mappa una trama...
-   Workbenches:Tutti
+   Name: Std TextureMapping
+   Name/it: Mappa una trama
+   MenuLocation: Visualizza - Mappa una trama...
+   Workbenches: Tutti
 ---
 
 # Std TextureMapping/it
@@ -38,4 +38,4 @@ Il comando **Mappa una trama** mappa temporaneamente una trama su tutti gli ogge
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std TextureMapping/it
+⏵ [documentation index](../README.md) > Std TextureMapping/it

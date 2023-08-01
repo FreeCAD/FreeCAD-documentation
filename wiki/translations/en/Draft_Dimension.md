@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Dimension
-   MenuLocation:Annotation - Dimension
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:**D** **I**
-   Version:0.8
-   SeeAlso:[Draft FlipDimension](Draft_FlipDimension.md)
+   Name: Draft Dimension
+   MenuLocation: Annotation - Dimension
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut: **D** **I**
+   Version: 0.8
+   SeeAlso: [Draft FlipDimension](Draft_FlipDimension.md)
 ---
 
 # Draft Dimension/en
@@ -307,4 +307,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/en
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/en

@@ -1,8 +1,4 @@
 # Addon/de
-{{TOCright}}
-
-
-
 ## Einführung
 
 In FreeCAD und dieser Dokumentation ist ein [Addon](addon/de.md) (eine Erweiterung oder Ergänzung) eine beliebige Komponente, die nicht Teil der Basisinstallation ist, die aber dem System durch bestimmte Methoden hinzugefügt werden kann.
@@ -40,4 +36,4 @@ Siehe auch:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > Addon/de
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > Addon/de

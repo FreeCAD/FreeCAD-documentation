@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Rocket NoseCone
-   Name/fr:Rocket Coiffe
-   MenuLocation:Rocket - Nose Cone
-   Workbenches:[Rocket](Rocket_Workbench/fr.md)
-   Version:0.19
+   Name: Rocket NoseCone
+   Name/fr: Rocket Coiffe
+   MenuLocation: Rocket - Nose Cone
+   Workbenches: [Rocket](Rocket_Workbench/fr.md)
+   Version: 0.19
 ---
 
 # Rocket NoseCone/fr
@@ -167,4 +167,4 @@ Tutoriel sur YouTube [Rocket Workbench Nose Cones](https://youtu.be/zwLgie2E4Ts)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket NoseCone/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket NoseCone/fr

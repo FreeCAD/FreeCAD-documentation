@@ -10,4 +10,4 @@ This category lists pages related to the [Image Workbench/zh-hant](Image_Workben
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Image/zh-hant
+⏵ [documentation index](../README.md) > Category:Image/zh-hant

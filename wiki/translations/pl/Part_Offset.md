@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Offset
-   Name/pl:Część: Odsunięcie 3D
-   MenuLocation:Część - Odsunięcie 3D
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Grubość](Part_Thickness/pl.md), [Odsunięcie 2D](Part_Offset2D/pl.md)
+   Name: Part Offset
+   Name/pl: Część: Odsunięcie 3D
+   MenuLocation: Część - Odsunięcie 3D
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: [Grubość](Part_Thickness/pl.md), [Odsunięcie 2D](Part_Offset2D/pl.md)
 ---
 
 # Part Offset/pl
@@ -77,4 +77,4 @@ Odsunięcie **wypełnione** z 2 cylindrami tworzącymi cięcia funkcją logiczn�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/pl

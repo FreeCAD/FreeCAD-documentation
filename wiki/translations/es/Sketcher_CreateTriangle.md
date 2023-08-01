@@ -1,6 +1,6 @@
 # Sketcher CreateTriangle/es
 ---
-- GuiCommand:   Name:Sketcher CreateTriangle   Name/es:Sketcher CreateTriangle   Workbenches:[[Sketcher Workbench/es   Sketcher]]|MenuLocation:Sketch - Sketcher geometries - Create equilateral triangle   Shortcut:   SeeAlso:---
+- GuiCommand:   Name: Sketcher CreateTriangle   Name/es: Sketcher CreateTriangle   Workbenches: [[Sketcher Workbench/es   Sketcher]]|MenuLocation: Sketch - Sketcher geometries - Create equilateral triangle   Shortcut:    SeeAlso: ---
 
 
 </div>
@@ -33,4 +33,4 @@ The circumscribed circle is construction geometry, which is only visible when ed
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateTriangle/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateTriangle/es

@@ -1,9 +1,4 @@
 # Property editor/zh-cn
-{{TOCright}}
-
-
-
-
 <div class="mw-translate-fuzzy">
 
 ## 概述
@@ -32,7 +27,7 @@ The [property editor](Property_editor.md) appears when the **Model** tab of the 
 </div>
 
 
-{{TOCright}}
+
 
 ![](images/FreeCAD_Property_editor_empty.png )
 
@@ -361,4 +356,4 @@ print(obj.ViewObject.PropertiesList)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Property editor/zh-cn
+⏵ [documentation index](../README.md) > Property editor/zh-cn

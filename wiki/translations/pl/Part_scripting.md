@@ -1,8 +1,4 @@
 # Part scripting/pl
-{{TOCright}}
-
-
-
 ## Wprowadzenie
 
 Główną strukturą danych używaną w środowisku Część jest typ danych [BRep](http://en.wikipedia.org/wiki/Boundary_representation) z [OpenCASCADE](OpenCASCADE/pl.md). Prawie cała zawartość i typy obiektów środowiska Część są dostępne w skryptach [Python](Python.md). Obejmuje to geometryczne elementy pierwotne, takie jak Linie, Okręgi i Łuki, a także całą gamę Kształtów Topologicznych, takich jak Wierzchołki, Krawędzie, Polilinie, Ściany, Bryły i Złożenia. Dla każdego z tych obiektów istnieje kilka metod tworzenia, a dla niektórych z nich, zwłaszcza Kształtów Topologicznych, dostępne są również zaawansowane operacje, takie jak operacje logiczne połączenie / różnica / przecięcie. Zapoznaj się z zawartością środowiska Część, jak opisano na stronie [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md), aby dowiedzieć się więcej.
@@ -260,4 +256,4 @@ Wymaga on okręgu oraz kąta początkowego i końcowego w radianach.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Part](Part_Workbench.md) > Part scripting/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Part](Part_Workbench.md) > Part scripting/pl

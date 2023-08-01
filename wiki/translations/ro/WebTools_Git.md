@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:WebTools Git‏‎
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   MenuLocation:Arch - Utilities - Git
-   Shortcut:
-   SeeAlso:
+   Name: WebTools Git‏‎
+   Workbenches: [Arch](Arch_Workbench/ro.md)
+   MenuLocation: Arch - Utilities - Git
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # WebTools Git/ro
@@ -170,4 +170,4 @@ Pentru a permite utilizarea fcinfo (numai Linux și Mac - TODO: adăugați instr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > WebTools Git/ro
+⏵ [documentation index](../README.md) > WebTools Git/ro

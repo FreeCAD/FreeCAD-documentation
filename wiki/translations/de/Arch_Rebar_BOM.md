@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar BOM
-   Name/de:Arch Bewehrung Stückliste
-   MenuLocation:Reinforcement - Stückliste
-   Workbenches:[Arch-Arbeitsbereich](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[Reinforcement](Reinforcement_Workbench/de.md), [Bewehrungsstab Biegeplan](Reinforcement_Bar_Bending_Schedule/de.md), [Bewehrungszeichnungsbemessung](Arch_Rebar_Drawing_Dimensioning/de.md)
+   Name: Arch Rebar BOM
+   Name/de: Arch Bewehrung Stückliste
+   MenuLocation: Reinforcement - Stückliste
+   Workbenches: [Arch-Arbeitsbereich](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [Reinforcement](Reinforcement_Workbench/de.md), [Bewehrungsstab Biegeplan](Reinforcement_Bar_Bending_Schedule/de.md), [Bewehrungszeichnungsbemessung](Arch_Rebar_Drawing_Dimensioning/de.md)
 ---
 
 # Arch Rebar BOM/de
@@ -539,4 +539,4 @@ BillOfMaterial_SVG.makeBillOfMaterialSVG(
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar BOM/de
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar BOM/de

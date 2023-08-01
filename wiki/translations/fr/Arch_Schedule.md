@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch Schedule
-   Name/fr:Arch Nomenclature
-   MenuLocation:Arch - Nomenclature
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Arch Équipement](Arch_Equipment/fr.md)
+   Name: Arch Schedule
+   Name/fr: Arch Nomenclature
+   MenuLocation: Arch - Nomenclature
+   Workbenches: [Arch](Arch_Workbench/fr.md)
+   SeeAlso: [Arch Équipement](Arch_Equipment/fr.md)
 ---
 
 # Arch Schedule/fr
@@ -108,4 +108,4 @@ Il est possible d\'ajouter vos propres propriétés aux objets. Celles-ci sont a
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Schedule/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Schedule/fr

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Dimension
-   Name/ro:Cotare
-   MenuLocation:Draft - Dimension
-   Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   Shortcut:**D** **I**
-   SeeAlso:[FlipDimension](Draft_FlipDimension/ro.md)
+   Name: Draft Dimension
+   Name/ro: Cotare
+   MenuLocation: Draft - Dimension
+   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Shortcut: **D** **I**
+   SeeAlso: [FlipDimension](Draft_FlipDimension/ro.md)
 ---
 
 # Draft Dimension/ro
@@ -383,4 +383,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/ro
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Dimension/ro

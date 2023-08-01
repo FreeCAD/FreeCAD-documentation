@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch ToggleSubs
-   Name/de:Arch UmschaltenUnterkomponenten
-   MenuLocation:Arch - Utilities - Umschalten Unterkomponenten
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   Shortcut:**Strg**+**Leertaste**
-   SeeAlso:[Arch Komponente](Arch_Component/de.md)
+   Name: Arch ToggleSubs
+   Name/de: Arch UmschaltenUnterkomponenten
+   MenuLocation: Arch - Utilities - Umschalten Unterkomponenten
+   Workbenches: [Arch](Arch_Workbench/de.md)
+   Shortcut: **Strg**+**Leertaste**
+   SeeAlso: [Arch Komponente](Arch_Component/de.md)
 ---
 
 # Arch ToggleSubs/de
@@ -47,4 +47,4 @@ Der [Entwurfskonstruktion](Draft_ToggleConstructionMode/de.md) Stil kann in den 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/de
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/de

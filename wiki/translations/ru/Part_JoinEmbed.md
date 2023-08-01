@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Встроить объект
-   Name:Part_JoinEmbed
-   MenuLocation:Part - Соединить - Встроить объект
-   Workbenches:[Part](Part_Workbench/ru.md)
-   Version:0.16
-   SeeAlso:[Соединить объекты](Part_JoinConnect/ru.md), [Вырез объекта](Part_JoinCutout/ru.md), [Булевы операции](Part_Boolean/ru.md), [Толщина](Part_Thickness/ru.md)
+   Name/ru: Встроить объект
+   Name: Part_JoinEmbed
+   MenuLocation: Part - Соединить - Встроить объект
+   Workbenches: [Part](Part_Workbench/ru.md)
+   Version: 0.16
+   SeeAlso: [Соединить объекты](Part_JoinConnect/ru.md), [Вырез объекта](Part_JoinCutout/ru.md), [Булевы операции](Part_Boolean/ru.md), [Толщина](Part_Thickness/ru.md)
 ---
 
 # Part JoinEmbed/ru
@@ -91,4 +91,4 @@ The tool itself is implemented in Python, see **/Mod/Part/JoinFeatures.py** ([Gi
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinEmbed/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinEmbed/ru

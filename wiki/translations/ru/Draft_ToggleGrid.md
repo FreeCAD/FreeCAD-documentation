@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft ToggleGrid
-   Name/ru:Показывать сетку
-   MenuLocation:Черчение - Вспомогательные - Показывать сетку
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:**G** **R**
-   SeeAlso:[Draft Snap](Draft_Snap/ru.md), [Draft ToggleSnap](Draft_Snap_Lock/ru.md)
+   Name: Draft ToggleGrid
+   Name/ru: Показывать сетку
+   MenuLocation: Черчение - Вспомогательные - Показывать сетку
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: **G** **R**
+   SeeAlso: [Draft Snap](Draft_Snap/ru.md), [Draft ToggleSnap](Draft_Snap_Lock/ru.md)
 ---
 
 # Draft ToggleGrid/ru
@@ -52,4 +52,4 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleGrid/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleGrid/ru

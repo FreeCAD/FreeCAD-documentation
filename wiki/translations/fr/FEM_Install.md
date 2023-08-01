@@ -1,6 +1,4 @@
 # FEM Install/fr
-{{TOCright}}
-
 ## Introduction
 
 Pour pouvoir effectuer une analyse par éléments finis (FEA) dans l\'**<img src="images/Workbench_FEM.svg" width=24px> [atelier FEM](FEM_Workbench/fr.md)**, FreeCAD utilise deux programmes externes: l'un est utilisé pour générer le [FEM Mesh](FEM_Mesh/fr.md), l'autre pour la résolution numérique du analyse réelle. Vous pouvez tester si votre installation FreeCAD est prête pour une FEA en exécutant l'exemple [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D/fr.md) fourni avec l\'installation de FreeCAD depuis la v0.17.
@@ -258,4 +256,4 @@ Si vous rencontrez des problèmes pour installer Netgen, Gmsh ou CalculiX, ou un
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Install/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Install/fr

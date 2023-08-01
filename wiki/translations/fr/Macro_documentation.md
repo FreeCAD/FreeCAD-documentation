@@ -1,6 +1,4 @@
 # Macro documentation/fr
-{{TOCright}}
-
 ## Description
 
 Toutes les macros doivent être correctement documentées de la même manière que les [Gui Commands](Gui_Command/fr.md) le sont.
@@ -217,4 +215,4 @@ Pour y inclure la macro, elle doit d'abord être examinée par la communauté Fr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Macros](Category_Macros.md) > [User Documentation](Category_User Documentation.md) > Macro documentation/fr
+⏵ [documentation index](../README.md) > [Macros](Category_Macros.md) > [User Documentation](Category_User Documentation.md) > Macro documentation/fr

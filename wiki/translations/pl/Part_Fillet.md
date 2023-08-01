@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Fillet
-   Name/pl:Część: Zaokrąglenie
-   MenuLocation:Część - Zaokrąglenie ...
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Sfazowanie](Part_Chamfer/pl.md)
+   Name: Part Fillet
+   Name/pl: Część: Zaokrąglenie
+   MenuLocation: Część - Zaokrąglenie ...
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: [Sfazowanie](Part_Chamfer/pl.md)
 ---
 
 # Part Fillet/pl
@@ -49,4 +49,4 @@ Zwróć również uwagę, że na funkcję zaokrąglania części wpływa [Topolo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/pl

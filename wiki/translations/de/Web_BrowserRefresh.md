@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Web BrowserRefresh
-   Name/de:Web BrowserAktualisieren
-   MenuLocation:
-   Workbenches:[Web](Web_Workbench/de.md), [Start](Start_Workbench/de.md)
-   SeeAlso:
+   Name: Web BrowserRefresh
+   Name/de: Web BrowserAktualisieren
+   MenuLocation: 
+   Workbenches: [Web](Web_Workbench/de.md), [Start](Start_Workbench/de.md)
+   SeeAlso: 
 ---
 
 # Web BrowserRefresh/de
@@ -28,4 +28,4 @@ Der Befehl <img alt="" src=images/Web_BrowserRefresh.svg  style="width:24px;"> *
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserRefresh/de
+⏵ [documentation index](../README.md) > [Web](Web_Workbench.md) > Web BrowserRefresh/de

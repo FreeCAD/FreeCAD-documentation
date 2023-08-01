@@ -10,7 +10,7 @@
 <img alt="Draft workbench icon" src=images/Workbench_Draft.svg  style="width:128px;">
 
 
-{{TOCright}}
+
 
 ## Introduction
 
@@ -367,4 +367,4 @@ Inspecting the code of this module can help to understand the programming interf
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Draft](Category_Draft.md) > Draft Workbench/ko
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Draft](Category_Draft.md) > Draft Workbench/ko

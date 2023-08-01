@@ -144,4 +144,4 @@ Have a look at the [Kinematic Controller](Tutorial_KinematicController.md) tutor
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Tutorial KinematicAssembly/en
+⏵ [documentation index](../README.md) > Tutorial KinematicAssembly/en

@@ -1,6 +1,4 @@
 # App FeaturePython/ru
-{{TOCright}}
-
 ## Введение
 
 
@@ -131,4 +129,4 @@ obj.Label = "Custom label"
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > App FeaturePython/ru
+⏵ [documentation index](../README.md) > App FeaturePython/ru

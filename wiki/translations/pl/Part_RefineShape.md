@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part RefineShape
-   Name/pl:Część: Udoskonal kształt
-   MenuLocation:Część - Utwórz kopię - Udoskonal kształt
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Szybka kopia](Part_SimpleCopy/pl.md), [Utwórz przekształconą kopię](Part_TransformedCopy/pl.md), [Utwórz kopię kształtu elementu](Part_ElementCopy/pl.md), [Udoskonal kształt cechy](OpenSCAD_RefineShapeFeature/pl.md)
+   Name: Part RefineShape
+   Name/pl: Część: Udoskonal kształt
+   MenuLocation: Część - Utwórz kopię - Udoskonal kształt
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: [Szybka kopia](Part_SimpleCopy/pl.md), [Utwórz przekształconą kopię](Part_TransformedCopy/pl.md), [Utwórz kopię kształtu elementu](Part_ElementCopy/pl.md), [Udoskonal kształt cechy](OpenSCAD_RefineShapeFeature/pl.md)
 ---
 
 # Part RefineShape/pl
@@ -70,4 +70,4 @@ shape.removeSplitter()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RefineShape/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RefineShape/pl

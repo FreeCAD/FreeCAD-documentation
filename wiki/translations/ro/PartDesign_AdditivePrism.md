@@ -1,6 +1,6 @@
 # PartDesign AdditivePrism/ro
 ---
-- GuiCommand:   Name:PartDesign AdditivePrism   Workbenches:[MenuLocation:Part Design - Create an additive primitive - Additive Prism   Shortcut:   SeeAlso:[[PartDesign CompPrimitiveAdditive](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign AdditivePrism   Workbenches: [MenuLocation: Part Design - Create an additive primitive - Additive Prism   Shortcut:    SeeAlso: [[PartDesign CompPrimitiveAdditive](PartDesign_Workbench___PartDesign]].md)---
 
 
 </div>
@@ -82,4 +82,4 @@ Prisma pote fi editată după crearea sa în două moduri:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePrism/ro
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePrism/ro

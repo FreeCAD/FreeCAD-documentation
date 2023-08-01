@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM EquationElectricforce
-   Name/de:FEM GleichungElektrischeKraft
-   MenuLocation:Lösen - Electromagnetic Equations - Gleichung für elektrische Kraft
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[FEM GleichungElektrostatik](FEM_EquationElectrostatic/de.md)
+   Name: FEM EquationElectricforce
+   Name/de: FEM GleichungElektrischeKraft
+   MenuLocation: Lösen - Electromagnetic Equations - Gleichung für elektrische Kraft
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [FEM GleichungElektrostatik](FEM_EquationElectrostatic/de.md)
 ---
 
 # FEM EquationElectricforce/de
@@ -58,4 +58,4 @@ Das Ergebnis it die elektrische Kraft in $\rm N/m^2$.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElectricforce/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM EquationElectricforce/de

@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Ship TankCapacity/pl
+⏵ [documentation index](../README.md) > Ship TankCapacity/pl

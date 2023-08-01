@@ -32,4 +32,4 @@ See also:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > Addon
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > Addon

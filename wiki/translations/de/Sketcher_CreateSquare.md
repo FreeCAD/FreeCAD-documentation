@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateSquare
-   Name/de:Sketcher QuadratErstellen
-   MenuLocation:Sketch - Skizzengeometrien - Quadrat erstellen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **P** **4**
-   Version:0.15
+   Name: Sketcher CreateSquare
+   Name/de: Sketcher QuadratErstellen
+   MenuLocation: Sketch - Skizzengeometrien - Quadrat erstellen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **P** **4**
+   Version: 0.15
 ---
 
 # Sketcher CreateSquare/de
@@ -36,4 +36,4 @@ Der umschriebene Kreis ist Konstruktionsgeometrie, die nur bei der Bearbeitung d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSquare/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSquare/de

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Draft ShowSnapBar
-   Name/tr:Yakalama çubuğunu göster
-   MenuLocation:Draft - Utilities - Show Snap Bar
-   Workbenches:[Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   Name: Draft ShowSnapBar
+   Name/tr: Yakalama çubuğunu göster
+   MenuLocation: Draft - Utilities - Show Snap Bar
+   Workbenches: [Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
 ---
 
 # Draft ShowSnapBar/tr
@@ -28,4 +28,4 @@ The <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:24px;"> **Draft S
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShowSnapBar/tr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShowSnapBar/tr

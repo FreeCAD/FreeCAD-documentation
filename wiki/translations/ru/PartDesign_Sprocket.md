@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Цепное колесо (звёздочка)
-   Name:PartDesign_Sprocket
-   MenuLocation:Part Design - Цепное колесо (звёздочка)
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   Version:0.19
+   Name/ru: Цепное колесо (звёздочка)
+   Name: PartDesign_Sprocket
+   MenuLocation: Part Design - Цепное колесо (звёздочка)
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   Version: 0.19
 ---
 
 # PartDesign Sprocket/ru
@@ -44,4 +44,4 @@ This tool allows you to create a 2D profile of a sprocket (or chainwheel). It ca
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Sprocket/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Sprocket/ru

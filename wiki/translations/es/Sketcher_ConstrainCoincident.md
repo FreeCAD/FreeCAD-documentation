@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Icon:Constraint PointOnPoint.svg
-   Name/es:Restricción de coincidencia
-   Workbenches:[Sketcher](Sketcher_Workbench/es.md)
-   Shortcut:C
-   MenuLocation:Sketch - Restricciones de croquis - Restricción de coincidencia   SeeAlso:[Restricción de bloqueo](Sketcher_ConstrainLock/es.md), [Punto en objeto](Sketcher_ConstrainPointOnObject/es.md)
+   Icon: Constraint PointOnPoint.svg
+   Name/es: Restricción de coincidencia
+   Workbenches: [Sketcher](Sketcher_Workbench/es.md)
+   Shortcut: C
+   MenuLocation: Sketch - Restricciones de croquis - Restricción de coincidencia   SeeAlso: [Restricción de bloqueo](Sketcher_ConstrainLock/es.md), [Punto en objeto](Sketcher_ConstrainPointOnObject/es.md)
 ---
 
 # Sketcher ConstrainCoincident/es
@@ -75,4 +75,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/es

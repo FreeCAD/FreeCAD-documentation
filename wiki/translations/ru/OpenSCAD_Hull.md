@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:OpenSCAD Hull
-   Name/ru:OpenSCAD Hull
-   MenuLocation:OpenSCAD - Hull‏‎
-   Workbenches:[OpenSCAD](OpenSCAD_Workbench/ru.md)
-   Shortcut:none
-   SeeAlso:---
+   Name: OpenSCAD Hull
+   Name/ru: OpenSCAD Hull
+   MenuLocation: OpenSCAD - Hull‏‎
+   Workbenches: [OpenSCAD](OpenSCAD_Workbench/ru.md)
+   Shortcut: none
+   SeeAlso: ---
 ---
 
 # OpenSCAD Hull/ru
@@ -43,4 +43,4 @@ Feature needs OpenSCAD installed and configured in **Edit** → **Preferences**
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Hull/ru
+⏵ [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Hull/ru

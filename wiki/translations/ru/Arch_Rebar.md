@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Арматура по эскизу
-   Name:Arch_Rebar
-   MenuLocation:Arch - Rebar tools - Custom Rebar<br>3D/BIM - Reinforcement tools - Пользовательская Арматура
-   Workbenches:[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
-   Shortcut:**R** **B**
-   SeeAlso:[Структура](Arch_Structure/ru.md), [Reinforcement](Reinforcement_Workbench/ru.md)
+   Name/ru: Арматура по эскизу
+   Name: Arch_Rebar
+   MenuLocation: Arch - Rebar tools - Custom Rebar<br>3D/BIM - Reinforcement tools - Пользовательская Арматура
+   Workbenches: [Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
+   Shortcut: **R** **B**
+   SeeAlso: [Структура](Arch_Structure/ru.md), [Reinforcement](Reinforcement_Workbench/ru.md)
 ---
 
 # Arch Rebar/ru
@@ -127,4 +127,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar/ru
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar/ru

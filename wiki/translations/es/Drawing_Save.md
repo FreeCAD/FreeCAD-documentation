@@ -1,6 +1,6 @@
 # Drawing Save/es
 ---
-- GuiCommand:   Name:Drawing Save   Workbenches:[MenuLocation:Dibujo - Exportar página...   Shortcut:none   SeeAlso:[[Drawing Open SVG/es|Abrir SVG](Drawing_Workbench/es___Dibujo]],_Complete.md)---
+- GuiCommand:   Name: Drawing Save   Workbenches: [MenuLocation: Dibujo - Exportar página...   Shortcut: none   SeeAlso: [[Drawing Open SVG/es|Abrir SVG](Drawing_Workbench/es___Dibujo]],_Complete.md)---
 
 
 </div>
@@ -26,4 +26,4 @@ Los archivos SVG son comunes y se pueden visualizar en la mayoría de visores y 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Save/es
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Save/es

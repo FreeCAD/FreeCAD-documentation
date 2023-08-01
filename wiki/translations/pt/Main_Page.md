@@ -115,4 +115,4 @@ Visite o [ Mapa de desenvolvimento](Development_roadmap/en.md) para ver notícia
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/pt
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/pt

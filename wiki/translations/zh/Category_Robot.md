@@ -10,4 +10,4 @@ This category lists pages related to the [Robot Workbench/zh](Robot_Workbench/zh
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Robot/zh
+⏵ [documentation index](../README.md) > Category:Robot/zh

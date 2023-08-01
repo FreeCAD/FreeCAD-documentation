@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:PartDesign CompPrimitiveAdditive
-   Name/de:PartDesign AuswahlGrundkörperHinzufügen
-   MenuLocation:Part Design - Grundkörper hinzufügen
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   Shortcut:
-   SeeAlso:[PartDesign AuswahlGrundkörperAbziehen](PartDesign_CompPrimitiveSubtractive/de.md)
+   Name: PartDesign CompPrimitiveAdditive
+   Name/de: PartDesign AuswahlGrundkörperHinzufügen
+   MenuLocation: Part Design - Grundkörper hinzufügen
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.17
+   Shortcut: 
+   SeeAlso: [PartDesign AuswahlGrundkörperAbziehen](PartDesign_CompPrimitiveSubtractive/de.md)
 ---
 
 # PartDesign CompPrimitiveAdditive/de
@@ -41,4 +41,4 @@ Erzeugt einen Grundkörper im aktiven Körper (Body-Objekt) als erstes Formeleme
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveAdditive/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveAdditive/de

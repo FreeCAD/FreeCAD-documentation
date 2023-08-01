@@ -1,6 +1,4 @@
 # Tree view/fr
-{{TOCright}}
-
 ## Introduction
 
 La [vue en arborescence](Tree_view/fr.md) apparaît dans l\'onglet **Modèle** de la [vue combinée](Combo_view/fr.md), l\'un des panneaux les plus importants de l\'[interface](Interface/fr.md). Elle montre tous les objets définis par l\'utilisateur qui font partie d\'un document FreeCAD. L\'arborescence est une représentation de la [structure d\'un document](Document_structure/fr.md) et indique quelles informations sont enregistrées sur le disque.
@@ -237,4 +235,4 @@ Ceci indique que l\'objet sera caché dans la vue en arborescence si l\'option d
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Tree view/fr
+⏵ [documentation index](../README.md) > Tree view/fr

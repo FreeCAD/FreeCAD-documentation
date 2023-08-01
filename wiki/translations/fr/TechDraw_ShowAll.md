@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ShowAll
-   Name/fr:TechDraw Montrer tout
-   MenuLocation:TechDraw - Afficher/Masquer les arrêtes cachées
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[TechDraw Apparence des lignes](TechDraw_DecorateLine/fr.md)
+   Name: TechDraw ShowAll
+   Name/fr: TechDraw Montrer tout
+   MenuLocation: TechDraw - Afficher/Masquer les arrêtes cachées
+   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   Version: 0.19
+   SeeAlso: [TechDraw Apparence des lignes](TechDraw_DecorateLine/fr.md)
 ---
 
 # TechDraw ShowAll/fr
@@ -66,4 +66,4 @@ App.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ShowAll/fr
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ShowAll/fr

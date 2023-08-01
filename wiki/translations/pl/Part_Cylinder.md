@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Cylinder
-   Name/pl:Część: Walec
-   MenuLocation:Część - Bryła pierwotna - Walec
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Utwórz geometrie pierwotne](Part_CreatePrimitives/pl.md)
+   Name: Part Cylinder
+   Name/pl: Część: Walec
+   MenuLocation: Część - Bryła pierwotna - Walec
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: [Utwórz geometrie pierwotne](Part_CreatePrimitives/pl.md)
 ---
 
 # Part Cylinder/pl
@@ -126,4 +126,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cylinder/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cylinder/pl

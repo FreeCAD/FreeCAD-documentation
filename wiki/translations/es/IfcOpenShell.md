@@ -2,7 +2,7 @@
 ## Descripción
 
 
-{{TOCright}}
+
 
 [IfcOpenShell](IfcOpenShell/es.md) es una biblioteca de software de código abierto (LGPL 3) que ayuda a los desarrolladores a trabajar con el formato de archivo [industry foundation classes](http://www.buildingsmart-tech.org/specifications/ifc-overview) ([IFC](Arch_IFC/es.md)). El formato de archivo IFC puede utilizarse para describir datos de construcción y edificación. El formato se utiliza habitualmente para [building information modelling](https://en.wikipedia.org/wiki/Building_information_modeling) (BIM), por ejemplo, para el análisis de cargas mecánicas y para los estudios de eficiencia térmica y energética. IfcOpenShell es principalmente una colección de librerías C++, sin embargo, como tiene enlaces [Python](Python/es.md), puede integrarse con programas como FreeCAD y Blender.
 
@@ -508,4 +508,4 @@ The IfcOpenShell project has also developed \"IFC Pipeline\", a self-hosted IFC 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [BIM](Category_BIM.md) > [3rd Party](Category_3rd Party.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > IfcOpenShell/es
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [3rd Party](Category_3rd Party.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > IfcOpenShell/es

@@ -1,6 +1,4 @@
 # FEM Mesh/de
-{{TOCright}}
-
 ## Ein Finite-Elemente-Netz erstellen 
 
 Die Finite-Elemente-Analyse (FEA) wird auf einem Polygonnetz durchgeführt, das aus mehreren drei- und vierseitigen finiten Elementen besteht, die einen Originalkörper unterteilen. Je feiner das Netz ist, desto genauer sind die numerischen Ergebnisse, aber desto größer ist auch die Berechnungszeit. Ein Gleichgewicht zwischen der Größe des Netzes, der Berechnungszeit und der Genauigkeit der Ergebnisse ist ein wichtiges Merkmal einer gut definierten Finite-Elemente-Analyse.
@@ -1310,4 +1308,4 @@ See for example <https://forum.freecadweb.org/viewtopic.php?f=18&t=37304&start=2
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Mesh/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Mesh/de

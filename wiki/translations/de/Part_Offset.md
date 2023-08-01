@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Offset
-   Name/de:Part Versatz
-   MenuLocation:Formteil - 3D-Versatz...
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Dicke](Part_Thickness/de.md), [Part 2D-Versatz](Part_Offset2D/de.md)
+   Name: Part Offset
+   Name/de: Part Versatz
+   MenuLocation: Formteil - 3D-Versatz...
+   Workbenches: [Part](Part_Workbench/de.md)
+   SeeAlso: [Part Dicke](Part_Thickness/de.md), [Part 2D-Versatz](Part_Offset2D/de.md)
 ---
 
 # Part Offset/de
@@ -76,4 +76,4 @@ dieselbe Form mit einem 3D Versatz als SKIN und *gefülltem* Versatz
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/de

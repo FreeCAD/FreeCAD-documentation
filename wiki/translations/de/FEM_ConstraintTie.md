@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintTie
-   Name/de:FEM RandbedingungVerbinder
-   MenuLocation:Modell - Mechanische Randbedingungen - Randbedingung Verbinder
-   Workbenches:[FEM](FEM_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[FEM Randbedingung Druck](FEM_ConstraintPressure/de.md)
+   Name: FEM ConstraintTie
+   Name/de: FEM RandbedingungVerbinder
+   MenuLocation: Modell - Mechanische Randbedingungen - Randbedingung Verbinder
+   Workbenches: [FEM](FEM_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [FEM Randbedingung Druck](FEM_ConstraintPressure/de.md)
 ---
 
 # FEM ConstraintTie/de
@@ -33,4 +33,4 @@ Legt eine Randbedingung Verbinder fest, die zwei ausgewählte Flächen in einer 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FEM ConstraintTie/de
+⏵ [documentation index](../README.md) > FEM ConstraintTie/de

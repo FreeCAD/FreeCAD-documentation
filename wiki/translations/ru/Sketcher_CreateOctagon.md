@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Восьмиугольник
-   Name:Sketcher_CreateOctagon
-   MenuLocation:Эскиз - Геометрия эскиза - Восьмиугольник
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:**G** **P** **8**
-   Version:0.15
+   Name/ru: Восьмиугольник
+   Name: Sketcher_CreateOctagon
+   MenuLocation: Эскиз - Геометрия эскиза - Восьмиугольник
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: **G** **P** **8**
+   Version: 0.15
 ---
 
 # Sketcher CreateOctagon/ru
@@ -42,4 +42,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOctagon/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOctagon/ru

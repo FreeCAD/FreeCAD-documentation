@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > FEM PostCreateCutFilter/fr
+⏵ [documentation index](../README.md) > FEM PostCreateCutFilter/fr

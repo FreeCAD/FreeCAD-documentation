@@ -29,4 +29,4 @@ FreeCAD je udržiavaný a vyvíjaný komunitou nadšených vývojárov a použí
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/sk
+⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/sk

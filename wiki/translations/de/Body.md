@@ -29,4 +29,4 @@ Ein Körper ist nicht erforderlich, wenn der [Part Arbeitsbereich](Part_Workbenc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [PartDesign](Category_PartDesign.md) > Body/de
+⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [PartDesign](Category_PartDesign.md) > Body/de

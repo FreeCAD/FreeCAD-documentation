@@ -38,4 +38,4 @@ Téléchargez le code de <https://github.com/rparkins999/Megaminx> dans votre ma
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Megaminx/fr
+⏵ [documentation index](../README.md) > Macro Megaminx/fr

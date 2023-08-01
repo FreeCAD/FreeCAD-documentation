@@ -13,4 +13,4 @@ This category lists pages related to the [Sketcher Workbench/tr](Sketcher_Workbe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Sketcher/tr
+⏵ [documentation index](../README.md) > Category:Sketcher/tr

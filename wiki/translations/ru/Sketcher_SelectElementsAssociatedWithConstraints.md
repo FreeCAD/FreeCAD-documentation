@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Выделить связанную геометрию
-   Name:Sketcher_SelectElementsAssociatedWithConstraints
-   MenuLocation:Sketch - Инструменты для эскиза - Выделить связанную геометрию
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Shortcut:Shift+Ctrl+E
-   Version:0.15
+   Name/ru: Выделить связанную геометрию
+   Name: Sketcher_SelectElementsAssociatedWithConstraints
+   MenuLocation: Sketch - Инструменты для эскиза - Выделить связанную геометрию
+   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Shortcut: Shift+Ctrl+E
+   Version: 0.15
 ---
 
 # Sketcher SelectElementsAssociatedWithConstraints/ru
@@ -40,4 +40,4 @@ Select Sketcher Elements associated with constraints.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsAssociatedWithConstraints/ru
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsAssociatedWithConstraints/ru

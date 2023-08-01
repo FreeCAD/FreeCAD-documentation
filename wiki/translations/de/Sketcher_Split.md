@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher Split
-   Name/de:Sketcher Teilen
-   MenuLocation:Sketch - Skizzengeometrien - Kante teilen
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:**G** **Z**
-   Version:0.20
-   SeeAlso:[Sketcher Zuschneiden](Sketcher_Trimming/de.md)
+   Name: Sketcher Split
+   Name/de: Sketcher Teilen
+   MenuLocation: Sketch - Skizzengeometrien - Kante teilen
+   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Shortcut: **G** **Z**
+   Version: 0.20
+   SeeAlso: [Sketcher Zuschneiden](Sketcher_Trimming/de.md)
 ---
 
 # Sketcher Split/de
@@ -61,4 +61,4 @@ Dieses Werkzeug teilt eine Kante in zwei auf, wobei vorhandene anwendbare Randbe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Split/de
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Split/de

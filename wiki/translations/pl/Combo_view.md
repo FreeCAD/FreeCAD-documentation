@@ -1,6 +1,4 @@
 # Combo view/pl
-{{TOCright}}
-
 ## Wprowadzenie
 
 [Widok połączony](combo_view/pl.md) jest jednym z głównych paneli w [interfejsie](interface/pl.md) FreeCAD . Domyślnie znajduje się on po lewej stronie ekranu. Składa się z **dwóch części**:
@@ -63,4 +61,4 @@ Następnie należy aktywować widok za pomocą menu, **Widok → Panele → Wido
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Combo view/pl
+⏵ [documentation index](../README.md) > Combo view/pl

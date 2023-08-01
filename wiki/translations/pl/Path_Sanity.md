@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Path Sanity
-   Name/pl:Path: Bezpieczeństwo
-   MenuLocation:Ścieżka - Sprawdź zadanie ścieżki pod kątem typowych błędów
-   Workbenches:[Path](Path_Workbench/pl.md)
-   Shortcut:**P** **S**
-   Version:0.19
+   Name: Path Sanity
+   Name/pl: Path: Bezpieczeństwo
+   MenuLocation: Ścieżka - Sprawdź zadanie ścieżki pod kątem typowych błędów
+   Workbenches: [Path](Path_Workbench/pl.md)
+   Shortcut: **P** **S**
+   Version: 0.19
 ---
 
 # Path Sanity/pl
@@ -117,4 +117,4 @@ Ostrzeżenia i błędy wykryte przez funkcję **Bezpieczeństwo**. Mogą to być
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Sanity/pl
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Sanity/pl

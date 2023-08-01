@@ -202,4 +202,4 @@ Siehe [Grafik Schiff](Artwork_Ship.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Artwork/de
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Artwork/de

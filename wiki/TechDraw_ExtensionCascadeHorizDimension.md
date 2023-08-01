@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionCascadeHorizDimension
-   MenuLocation:TechDraw - Extensions: Attributes/Modifications - Cascade Horizontal Dimensions
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ExtensionCascadeVertDimension](TechDraw_ExtensionCascadeVertDimension.md), [TechDraw ExtensionCascadeObliqueDimension](TechDraw_ExtensionCascadeObliqueDimension.md)
+   Name: TechDraw ExtensionCascadeHorizDimension
+   MenuLocation: TechDraw - Extensions: Attributes/Modifications - Cascade Horizontal Dimensions
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ExtensionCascadeVertDimension](TechDraw_ExtensionCascadeVertDimension.md), [TechDraw ExtensionCascadeObliqueDimension](TechDraw_ExtensionCascadeObliqueDimension.md)
 ---
 
 # TechDraw ExtensionCascadeHorizDimension
@@ -39,4 +39,4 @@ The **TechDraw ExtensionCascadeHorizDimension** tool evenly spaces horizontal di
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCascadeHorizDimension
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCascadeHorizDimension

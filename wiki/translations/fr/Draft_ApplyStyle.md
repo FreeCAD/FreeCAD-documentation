@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Apply
-   Name/fr:Draft Appliquer le style
-   MenuLocation:Utilitaires - Appliquer le style en cours
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Draft Définir le style](Draft_SetStyle/fr.md)
+   Name: Draft Apply
+   Name/fr: Draft Appliquer le style
+   MenuLocation: Utilitaires - Appliquer le style en cours
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   SeeAlso: [Draft Définir le style](Draft_SetStyle/fr.md)
 ---
 
 # Draft ApplyStyle/fr
@@ -47,4 +47,4 @@ Cette commande ne gère actuellement que cinq des paramètres proposés par la c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/fr

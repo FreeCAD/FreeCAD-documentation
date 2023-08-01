@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher DeleteAllConstraints
-   MenuLocation:Sketch - Sketcher tools - Delete all constraints
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Version:0.18
-   SeeAlso:[Sketcher Delete All Geometry](Sketcher_DeleteAllGeometry.md)
+   Name: Sketcher DeleteAllConstraints
+   MenuLocation: Sketch - Sketcher tools - Delete all constraints
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Version: 0.18
+   SeeAlso: [Sketcher Delete All Geometry](Sketcher_DeleteAllGeometry.md)
 ---
 
 # Sketcher DeleteAllConstraints/hr
@@ -35,4 +35,4 @@ This tool deletes all constraints from the sketch being edited, and leaves the g
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllConstraints/hr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllConstraints/hr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Arch CloseHoles
-   Name/fr:Arch Fermer les trous
-   MenuLocation:Arch - Utilitaires - Fermer les trous
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Arch Vérification](Arch_Check/fr.md)
+   Name: Arch CloseHoles
+   Name/fr: Arch Fermer les trous
+   MenuLocation: Arch - Utilitaires - Fermer les trous
+   Workbenches: [Arch](Arch_Workbench/fr.md)
+   SeeAlso: [Arch Vérification](Arch_Check/fr.md)
 ---
 
 # Arch CloseHoles/fr
@@ -61,4 +61,4 @@ solid = Arch.closeHole(Wall.Shape)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/fr
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/fr

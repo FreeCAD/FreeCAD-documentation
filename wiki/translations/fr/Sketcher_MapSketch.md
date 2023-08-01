@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher_MapSketch
-   Name/fr:Sketcher Esquisse sur une face
-   MenuLocation:Part Design/Esquisse - Appliquer une esquisse sur une face...
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso:[Sketcher Créer une esquisse](Sketcher_NewSketch/fr.md)
+   Name: Sketcher_MapSketch
+   Name/fr: Sketcher Esquisse sur une face
+   MenuLocation: Part Design/Esquisse - Appliquer une esquisse sur une face...
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso: [Sketcher Créer une esquisse](Sketcher_NewSketch/fr.md)
 ---
 
 # Sketcher MapSketch/fr
@@ -67,4 +67,4 @@ Maintenant, nous sélectionnons la face supérieure de la protrusion (Pad) puis 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/fr

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Curves PipeshellProfile
-   MenuLocation:Surfaces - Pipeshell profile
-   Workbenches:[Curves](Curves_Workbench.md)
-   SeeAlso:[Curves Pipeshell](Curves_Pipeshell.md)
+   Name: Curves PipeshellProfile
+   MenuLocation: Surfaces - Pipeshell profile
+   Workbenches: [Curves](Curves_Workbench.md)
+   SeeAlso: [Curves Pipeshell](Curves_Pipeshell.md)
 ---
 
 # Curves PipeshellProfile/pl
@@ -38,4 +38,4 @@ The <img alt="" src=images/Curves_PipeshellProfile.svg  style="width:24px;"> [Cu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves PipeshellProfile/pl
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves PipeshellProfile/pl

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher Create3PointArc
-   Name/es:Croquizador CrearArco3Puntos
-   MenuLocation:Croquis - Geometrías Croqizador - Crear arco por tres puntos
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   Shortcut:
-   SeeAlso:
+   Name: Sketcher Create3PointArc
+   Name/es: Croquizador CrearArco3Puntos
+   MenuLocation: Croquis - Geometrías Croqizador - Crear arco por tres puntos
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Sketcher Create3PointArc/es
@@ -45,4 +45,4 @@ Al iniciar la herramienta, el puntero del ratón cambia a una cruz blanca con un
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointArc/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointArc/es

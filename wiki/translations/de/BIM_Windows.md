@@ -1,10 +1,10 @@
 ---
 - GuiCommand:Addon/de
-   Name:BIM Windows
-   Name/de:BIM Fenster
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
-   Addon:BIM
-   MenuLocation:Verwalten - Fenster
+   Name: BIM Windows
+   Name/de: BIM Fenster
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
+   Addon: BIM
+   MenuLocation: Verwalten - Fenster
 ---
 
 # BIM Windows/de
@@ -20,4 +20,4 @@ Der BIM Fenstermanager Dialog ermöglicht es dir, alle [Fenster und Türen](Arch
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Windows/de
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Windows/de

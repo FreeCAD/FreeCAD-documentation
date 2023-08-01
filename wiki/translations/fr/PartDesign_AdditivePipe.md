@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign AdditivePipe
-   Name/fr:PartDesign Balayage additif
-   MenuLocation:Part Design - Créer une fonction additive - Balayage additif
-   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[PartDesign Lissage additif](PartDesign_AdditiveLoft/fr.md), [PartDesign Balayage soustractif](PartDesign_SubtractivePipe/fr.md)
+   Name: PartDesign AdditivePipe
+   Name/fr: PartDesign Balayage additif
+   MenuLocation: Part Design - Créer une fonction additive - Balayage additif
+   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   Version: 0.17
+   SeeAlso: [PartDesign Lissage additif](PartDesign_AdditiveLoft/fr.md), [PartDesign Balayage soustractif](PartDesign_SubtractivePipe/fr.md)
 ---
 
 # PartDesign AdditivePipe/fr
@@ -110,4 +110,4 @@ Pour utiliser plusieurs sections, commencez par la section comme décrit ci-dess
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePipe/fr
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePipe/fr

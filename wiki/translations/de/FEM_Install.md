@@ -1,8 +1,4 @@
 # FEM Install/de
-{{TOCright}}
-
-
-
 ## Einführung
 
 Um die Finite Element Analyse (FEA) innerhalb des **<img src="images/Workbench_FEM.svg" width=24px> [FEM Arbeitsbereichs](FEM_Workbench/de.md)** durchführen zu können, verwendet FreeCAD zwei externe Programme: eines wird für die Generierung des [FEM Netz](FEM_Mesh/de.md) verwendet, das andere für die numerische Lösung der eigentlichen Analyse. Du kannst testen, ob dein FreeCAD Installation für die FEA bereit ist, indem du das [FEM CalculiX Kragarm 3D](FEM_CalculiX_Cantilever_3D/de.md) Beispiel ausführen, das in jeder Installation von FreeCAD seit v0.17 enthalten ist.
@@ -258,4 +254,4 @@ Wenn du Probleme bei der Installation von Netgen, Gmsh oder CalculiX oder einem 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Install/de
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Install/de

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Draft Array
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso:[Draft OrthoArray](Draft_OrthoArray.md), [Draft PolarArray](Draft_PolarArray.md), [Draft CircularArray](Draft_CircularArray.md)
+   Name: Draft Array
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   SeeAlso: [Draft OrthoArray](Draft_OrthoArray.md), [Draft PolarArray](Draft_PolarArray.md), [Draft CircularArray](Draft_CircularArray.md)
 ---
 
 # Draft Array/pt-br
@@ -46,4 +46,4 @@ See [Draft OrthoArray](Draft_OrthoArray#Scripting.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/pt-br
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/pt-br

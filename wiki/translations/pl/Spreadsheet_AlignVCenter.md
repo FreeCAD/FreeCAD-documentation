@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet AlignVCenter
-   Name/pl:Arkusz Kalkulacyjny: Wyśrodkuj w pionie
-   MenuLocation:Arkusz kalkulacyjny - Wyrównanie - Wyśrodkuj w pionie
-   Workbenches:[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
-   Version:0.17
+   Name: Spreadsheet AlignVCenter
+   Name/pl: Arkusz Kalkulacyjny: Wyśrodkuj w pionie
+   MenuLocation: Arkusz kalkulacyjny - Wyrównanie - Wyśrodkuj w pionie
+   Workbenches: [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   Version: 0.17
 ---
 
 # Spreadsheet AlignVCenter/pl
@@ -30,4 +30,4 @@ Narzędzie **[<img src=images/Spreadsheet_AlignVCenter.svg style="width:16px"> [
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignVCenter/pl
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignVCenter/pl

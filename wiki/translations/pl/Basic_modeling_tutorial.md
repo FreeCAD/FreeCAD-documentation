@@ -140,4 +140,4 @@ Powyższe instrukcje będą działać, bez względu na to, jaką etykietę posia
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Category_Part.md) > Basic modeling tutorial/pl
+⏵ [documentation index](../README.md) > [Part](Category_Part.md) > Basic modeling tutorial/pl

@@ -215,4 +215,4 @@ The grid is permanent.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Mouse Cross
+⏵ [documentation index](../README.md) > Macro Mouse Cross

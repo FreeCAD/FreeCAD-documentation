@@ -186,4 +186,4 @@ blah blah blah
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Wiring And Hoses/en
+⏵ [documentation index](../README.md) > Macro Wiring And Hoses/en

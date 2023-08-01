@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:Sketcher Extend
-   Name/fr:Sketcher Prolonger
-   MenuLocation:Esquisse - Géométries d'esquisse - Prolonger l'arête
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **Q**
-   Version:0.17
-   SeeAlso:[Sketcher Ajuster](Sketcher_Trimming/fr.md)
+   Name: Sketcher Extend
+   Name/fr: Sketcher Prolonger
+   MenuLocation: Esquisse - Géométries d'esquisse - Prolonger l'arête
+   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut: **G** **Q**
+   Version: 0.17
+   SeeAlso: [Sketcher Ajuster](Sketcher_Trimming/fr.md)
 ---
 
 # Sketcher Extend/fr
@@ -47,4 +47,4 @@ L\'outil **Prolonger** étend une arête vers une position arbitraire dans l\'es
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Extend/fr
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Extend/fr

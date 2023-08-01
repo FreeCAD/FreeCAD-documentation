@@ -150,4 +150,4 @@ Es gibt auch eine Reihe anderer sehr nützlicher Arbeitsbereiche, die von Mitgli
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Manual:All workbenches at a glance/de
+⏵ [documentation index](../README.md) > Manual:All workbenches at a glance/de

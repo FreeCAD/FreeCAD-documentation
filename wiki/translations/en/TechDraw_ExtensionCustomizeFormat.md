@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionCustomizeFormat
-   MenuLocation:TechDraw - Extensions: Attributes/Modifications - Customize Format Label
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:
+   Name: TechDraw ExtensionCustomizeFormat
+   MenuLocation: TechDraw - Extensions: Attributes/Modifications - Customize Format Label
+   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: 
 ---
 
 # TechDraw ExtensionCustomizeFormat/en
@@ -39,4 +39,4 @@ The **TechDraw ExtensionCustomizeFormat** tool customizes the formatting of a ba
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCustomizeFormat/en
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCustomizeFormat/en

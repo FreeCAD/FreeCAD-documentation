@@ -1,8 +1,4 @@
 # Installing on Linux/fr
-{{TOCright}}
-
-
-
 ## Présentation
 
 L\'installation de FreeCAD sur les systèmes Linux les plus connus a maintenant été approuvée par la communauté, et FreeCAD devrait être directement disponible via le gestionnaire de paquets disponible sur votre distribution. L\'équipe FreeCAD propose également :
@@ -376,4 +372,4 @@ Une fois FreeCAD installé, il est temps de [commencer](Getting_started/fr.md)!
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing on Linux/fr
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing on Linux/fr

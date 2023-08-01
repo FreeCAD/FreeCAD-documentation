@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part ProjectionOnSurface
-   Name/de:Part ProjektionAufOberfläche
-   MenuLocation:Part - Erstelle Projektion auf Oberfläche...
-   Workbenches:[Part](Part_Workbench/de.md)
-   Version:0.19
-   SeeAlso:
+   Name: Part ProjectionOnSurface
+   Name/de: Part ProjektionAufOberfläche
+   MenuLocation: Part - Erstelle Projektion auf Oberfläche...
+   Workbenches: [Part](Part_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: 
 ---
 
 # Part ProjectionOnSurface/de
@@ -100,4 +100,4 @@ The projection done in the Part workbench is not parametric. If you need a param
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ProjectionOnSurface/de
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ProjectionOnSurface/de

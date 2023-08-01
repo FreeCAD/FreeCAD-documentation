@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:FCGear CrownGear
-   Name/it:Corona dentata
-   MenuLocation:FCGear - Create an Crown gear
-   Workbenches:[FCGear](FCGear_Workbench/it.md)
-   Shortcut:None
-   Version:v0.16
-   SeeAlso:[Ingranaggi a evolvente](FCGear_InvoluteGear/it.md)
+   Name: FCGear CrownGear
+   Name/it: Corona dentata
+   MenuLocation: FCGear - Create an Crown gear
+   Workbenches: [FCGear](FCGear_Workbench/it.md)
+   Shortcut: None
+   Version: v0.16
+   SeeAlso: [Ingranaggi a evolvente](FCGear_InvoluteGear/it.md)
 ---
 
 # FCGear CrownGear/it
@@ -130,4 +130,4 @@ An FCGear CrownGear object is derived from a [Part Feature](Part_Feature.md) obj
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear CrownGear/it
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear CrownGear/it

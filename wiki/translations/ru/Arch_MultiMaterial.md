@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Arch MultiMaterial   Name/ru:Arch MultiMaterial
-   MenuLocation:Архитектура - Multi-Material
-   Workbenches:[Arch](Arch_Workbench/ru.md)
+   Name: Arch MultiMaterial   Name/ru: Arch MultiMaterial
+   MenuLocation: Архитектура - Multi-Material
+   Workbenches: [Arch](Arch_Workbench/ru.md)
 ---
 
 # Arch MultiMaterial/ru
@@ -64,4 +64,4 @@ This roughly corresponds to a combination of [IfcMaterialLayerSet](https://stand
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MultiMaterial/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MultiMaterial/ru

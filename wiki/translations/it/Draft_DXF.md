@@ -8,7 +8,7 @@
 </div>
 
 
-{{TOCright}}
+
 
 ## Descrizione
 
@@ -207,4 +207,4 @@ importDXF.export(objects, "/home/user/Pictures/myfile.dxf")
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft DXF/it
+⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft DXF/it

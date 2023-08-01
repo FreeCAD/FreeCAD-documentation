@@ -136,4 +136,4 @@ A number of other very useful workbenches produced by FreeCAD community members 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Manual:All workbenches at a glance/pl
+⏵ [documentation index](../README.md) > Manual:All workbenches at a glance/pl

@@ -241,4 +241,4 @@ Unsere Seite ist nun fertig und wir können sie im SVG- oder DXF-Format ausgeben
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > Manual:BIM modeling/de
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > Manual:BIM modeling/de

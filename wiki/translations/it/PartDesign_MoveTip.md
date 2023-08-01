@@ -1,6 +1,6 @@
 # PartDesign MoveTip/it
 ---
-- GuiCommand:   Name:PartDesign MoveTip   Name/it:Usa come entità finale   MenuLocation:Menu contestuale - Usa come entità finale   Workbenches:[Version:0.17   SeeAlso:[[PartDesign MoveFeature/it|Sposta in altro corpo](PartDesign_Workbench/it___PartDesign]].md), [Sposta dopo altro oggetto](PartDesign_MoveFeatureInTree/it.md)---
+- GuiCommand:   Name: PartDesign MoveTip   Name/it: Usa come entità finale   MenuLocation: Menu contestuale - Usa come entità finale   Workbenches: [Version: 0.17   SeeAlso: [[PartDesign MoveFeature/it|Sposta in altro corpo](PartDesign_Workbench/it___PartDesign]].md), [Sposta dopo altro oggetto](PartDesign_MoveFeatureInTree/it.md)---
 
 
 </div>
@@ -50,4 +50,4 @@ La cima è visivamente distinta nell\'albero del modello da una piccola freccia 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveTip/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveTip/it

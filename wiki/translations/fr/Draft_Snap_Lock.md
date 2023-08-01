@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Snap Lock
-   Name/fr:Draft Verrouillage de l'aimantation
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:**Shift**+**S**
-   SeeAlso:[Draft Aimantation](Draft_Snap/fr.md)
+   Name: Draft Snap Lock
+   Name/fr: Draft Verrouillage de l'aimantation
+   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut: **Shift**+**S**
+   SeeAlso: [Draft Aimantation](Draft_Snap/fr.md)
 ---
 
 # Draft Snap Lock/fr
@@ -29,4 +29,4 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/fr
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru:Выровнять по правому краю
-   Name:Spreadsheet_AlignRight
-   MenuLocation:Электронная таблица - Alignment - Выровнять по правому краю
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench/ru.md)
-   Version:0.17
+   Name/ru: Выровнять по правому краю
+   Name: Spreadsheet_AlignRight
+   MenuLocation: Электронная таблица - Alignment - Выровнять по правому краю
+   Workbenches: [Spreadsheet](Spreadsheet_Workbench/ru.md)
+   Version: 0.17
 ---
 
 # Spreadsheet AlignRight/ru
@@ -30,4 +30,4 @@ The **[<img src=images/Spreadsheet_AlignRight.svg style="width:16px"> [Spreadshe
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignRight/ru
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignRight/ru

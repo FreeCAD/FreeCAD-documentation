@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Sketcher CompCreateFillets
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Version:0.19
+   Name: Sketcher CompCreateFillets
+   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Version: 0.19
 ---
 
 # Sketcher CompCreateFillets/en
@@ -28,4 +28,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateFillets/en
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateFillets/en

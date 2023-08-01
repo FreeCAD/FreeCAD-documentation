@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Arch Rebar ColumnReinforcement
-   Name/de:Architektur Bewehrung Säulenverstärkung
-   MenuLocation:Arch - Bewehrungswerkzeuge
-   Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[SäulenVerstärkung ZweiBinderSechsStäbe](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/de.md), [Arch Bewehrung](Arch_Rebar/de.md)
+   Name: Arch Rebar ColumnReinforcement
+   Name/de: Architektur Bewehrung Säulenverstärkung
+   MenuLocation: Arch - Bewehrungswerkzeuge
+   Workbenches: [Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [SäulenVerstärkung ZweiBinderSechsStäbe](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/de.md), [Arch Bewehrung](Arch_Rebar/de.md)
 ---
 
 # Arch Rebar Circular ColumnReinforcement/de
@@ -202,4 +202,4 @@ rebar_group = CircularColumn.editReinforcement(
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Circular ColumnReinforcement/de
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Circular ColumnReinforcement/de

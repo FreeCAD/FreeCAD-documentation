@@ -1,6 +1,6 @@
 # Part Extrude/ro
 ---
-- GuiCommand:   Name:Part Extrude   MenuLocation:Part - Extrude   Workbenches:[[Part_Workbench   Part]]|SeeAlso:---
+- GuiCommand:   Name: Part Extrude   MenuLocation: Part - Extrude   Workbenches: [[Part_Workbench   Part]]|SeeAlso: ---
 
 
 </div>
@@ -251,4 +251,4 @@ PartDesign Pad este, de asemenea, o funcți(e)onalitate de extrudare, dar exist�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/ro
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/ro

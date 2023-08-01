@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet MergeCells
-   Name/de:Kalkulationstabelle ZellenZusammenführen
-   Workbenches:[Tabellenkalkulation](Spreadsheet_Workbench/de.md)
-   MenuLocation:Kalkulationstabelle - Zellen Zusammenführen
-   Version:0.17
+   Name: Spreadsheet MergeCells
+   Name/de: Kalkulationstabelle ZellenZusammenführen
+   Workbenches: [Tabellenkalkulation](Spreadsheet_Workbench/de.md)
+   MenuLocation: Kalkulationstabelle - Zellen Zusammenführen
+   Version: 0.17
 ---
 
 # Spreadsheet MergeCells/de
@@ -30,4 +30,4 @@ Das **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Kalkulati
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells/de
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells/de

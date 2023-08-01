@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std SetAppearance
-   Name:Std: Wygląd zewnętrzny
-   MenuLocation:Widok - Wygląd zewnętrzny ...
-   Workbenches:wszystkie
-   Shortcut:**Ctrl**+**D**
-   SeeAlso:[Kolor powierzchni](Part_FaceColors/pl.md)
+   Name: Std SetAppearance
+   Name: Std: Wygląd zewnętrzny
+   MenuLocation: Widok - Wygląd zewnętrzny ...
+   Workbenches: wszystkie
+   Shortcut: **Ctrl**+**D**
+   SeeAlso: [Kolor powierzchni](Part_FaceColors/pl.md)
 ---
 
 # Std SetAppearance/pl
@@ -65,4 +65,4 @@ Polecenie **Wygląd zewnętrzny** pokazuje [Panel zadań](Task_panel/pl.md) wła
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std SetAppearance/pl
+⏵ [documentation index](../README.md) > Std SetAppearance/pl

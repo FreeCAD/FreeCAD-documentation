@@ -538,4 +538,4 @@ ver 0.4 il 04/06/2016 : testo se value = 0 allora non crea il boundbox (esempio:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro BoundingBox Tracing/it
+⏵ [documentation index](../README.md) > Macro BoundingBox Tracing/it

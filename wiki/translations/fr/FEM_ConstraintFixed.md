@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:FEM ConstraintFixed
-   Name/fr:FEM Contrainte d'immobilisation
-   MenuLocation:Modèle - Contraintes mécaniques - Contrainte d'immobilisation
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Contrainte de contact](FEM_ConstraintContact/fr.md)
+   Name: FEM ConstraintFixed
+   Name/fr: FEM Contrainte d'immobilisation
+   MenuLocation: Modèle - Contraintes mécaniques - Contrainte d'immobilisation
+   Workbenches: [FEM](FEM_Workbench/fr.md)
+   SeeAlso: [FEM Contrainte de contact](FEM_ConstraintContact/fr.md)
 ---
 
 # FEM ConstraintFixed/fr
@@ -37,4 +37,4 @@ Vous ne pouvez pas mélanger les objets dans la même contrainte. Utilisez une c
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintFixed/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintFixed/fr

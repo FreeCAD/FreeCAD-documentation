@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Raytracing New
-   Name/ru:Raytracing New
-   MenuLocation:Трассировка лучей - Новый проект POV-Ray
-   Workbenches:[Raytracing](Raytracing_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:
+   Name: Raytracing New
+   Name/ru: Raytracing New
+   MenuLocation: Трассировка лучей - Новый проект POV-Ray
+   Workbenches: [Raytracing](Raytracing_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Raytracing New/ru
@@ -41,4 +41,4 @@ Insert new PovRay project in the document.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing New/ru
+⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing New/ru

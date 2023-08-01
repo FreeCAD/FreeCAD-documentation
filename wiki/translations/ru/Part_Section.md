@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Section
-   Name/ru:Разделить
-   MenuLocation:Part - Разделить
-   Workbenches:[Верстак Part](Part_Workbench/ru.md)
-   SeeAlso:[Поперечные сечения](Part_CrossSections/ru.md)
+   Name: Part Section
+   Name/ru: Разделить
+   MenuLocation: Part - Разделить
+   Workbenches: [Верстак Part](Part_Workbench/ru.md)
+   SeeAlso: [Поперечные сечения](Part_CrossSections/ru.md)
 ---
 
 # Part Section/ru
@@ -61,4 +61,4 @@ To create sections with a section plane see <img alt="" src=images/Part_CrossSec
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/ru

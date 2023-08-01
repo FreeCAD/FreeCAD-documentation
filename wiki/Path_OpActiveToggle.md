@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Path OpActiveToggle
-   MenuLocation:Path - Toggle the Active State of the Operation
-   Workbenches:[Path](Path_Workbench.md)
-   Shortcut:**P** **X **
+   Name: Path OpActiveToggle
+   MenuLocation: Path - Toggle the Active State of the Operation
+   Workbenches: [Path](Path_Workbench.md)
+   Shortcut: **P** **X **
 ---
 
 # Path OpActiveToggle
@@ -61,4 +61,4 @@ Example:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path OpActiveToggle
+⏵ [documentation index](../README.md) > [Path](Path_Workbench.md) > Path OpActiveToggle

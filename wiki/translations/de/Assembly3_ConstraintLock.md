@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintLock    Name/de:Assembly3 Festsetzen
-   Icon:Assembly_ConstraintLock.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   Name: Assembly3 ConstraintLock    Name/de: Assembly3 Festsetzen
+   Icon: Assembly_ConstraintLock.svg
+   Workbenches: [Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 ConstraintLock/de
@@ -32,4 +32,4 @@ Dies kann genutzt werden, um ein unbewegliches Set zu definieren, sowohl für ei
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLock/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintLock/de

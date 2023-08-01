@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Image Scaling
-   Name/de:Image BildebeneSkalieren
-   MenuLocation:
-   Workbenches:[Image (Bild)](Image_Workbench/de.md)
-   Version:0.18
-   SeeAlso:[Image Öffnen](Image_Open/de.md), [Image Bildebene erstellen](Image_CreateImagePlane/de.md)
+   Name: Image Scaling
+   Name/de: Image BildebeneSkalieren
+   MenuLocation: 
+   Workbenches: [Image (Bild)](Image_Workbench/de.md)
+   Version: 0.18
+   SeeAlso: [Image Öffnen](Image_Open/de.md), [Image Bildebene erstellen](Image_CreateImagePlane/de.md)
 ---
 
 # Image Scaling/de
@@ -33,4 +33,4 @@ Das Werkzeug [Bildebene skalieren](Image_Scaling/de.md) skaliert ein Bild, das m
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/de
+⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/de

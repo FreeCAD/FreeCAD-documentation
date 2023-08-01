@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateSquare
-   Name/pl:Szkicownik: Utwórz kwadrat
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz kwadrat
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **P** **4**
-   Version:0.15
+   Name: Sketcher CreateSquare
+   Name/pl: Szkicownik: Utwórz kwadrat
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Utwórz kwadrat
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **G** **P** **4**
+   Version: 0.15
 ---
 
 # Sketcher CreateSquare/pl
@@ -42,4 +42,4 @@ Wyznaczony okrąg to geometria konstrukcyjna, która jest widoczna tylko podczas
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSquare/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSquare/pl

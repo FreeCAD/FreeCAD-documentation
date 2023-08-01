@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Part Measure Toggle All
-   Name/ru:Part Measure Toggle All
-   MenuLocation:Measure - Скрыть/Показать всё
-   Workbenches:[Part](Part_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:
+   Name: Part Measure Toggle All
+   Name/ru: Part Measure Toggle All
+   MenuLocation: Measure - Скрыть/Показать всё
+   Workbenches: [Part](Part_Workbench/ru.md)
+   Shortcut: 
+   SeeAlso: 
 ---
 
 # Part Measure Toggle All/ru
@@ -28,4 +28,4 @@ This command toggles the visibility of all measurements in the [3D view](3D_view
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle All/ru
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle All/ru

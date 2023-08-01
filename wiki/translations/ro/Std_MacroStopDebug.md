@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std MacroStopDebug
-   Workbenches:All
-   MenuLocation:[Macro](Std_Macro_Menu/ro.md) - Debug Stop 
-   Shortcut:Maiusc+F6
-   SeeAlso:
+   Name: Std MacroStopDebug
+   Workbenches: All
+   MenuLocation: [Macro](Std_Macro_Menu/ro.md) - Debug Stop 
+   Shortcut: Maiusc+F6
+   SeeAlso: 
 ---
 
 # Std MacroStopDebug/ro
@@ -27,4 +27,4 @@ This command does not work at this time.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std MacroStopDebug/ro
+⏵ [documentation index](../README.md) > Std MacroStopDebug/ro

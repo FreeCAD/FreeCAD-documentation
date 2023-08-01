@@ -1,6 +1,6 @@
 # PartDesign Thickness/it
 ---
-- GuiCommand:   Name:PartDesign Thickness   Name/it:Spessore   Workbenches:[MenuLocation:Part Design - Spessore   Version:0.17   SeeAlso:[[Part_Thickness/it|Spessore di Parte](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign Thickness   Name/it: Spessore   Workbenches: [MenuLocation: Part Design - Spessore   Version: 0.17   SeeAlso: [[Part_Thickness/it|Spessore di Parte](PartDesign_Workbench/it___PartDesign]].md)---
 
 
 </div>
@@ -135,4 +135,4 @@ A PartDesign Thickness object is derived from a [Part Feature](Part_Feature.md) 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/it
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Thickness/it

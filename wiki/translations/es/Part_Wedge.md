@@ -1,6 +1,6 @@
 # Part Wedge/es
 ---
-- GuiCommand:   Name:Part Wedge   Name/es:Part Wedge   MenuLocation:Part -> [|Workbenches:[[Part_Workbench/es   Part](Part_CreatePrimitives/es___Part_CreatePrimitives]]_->_Cuña.md)|SeeAlso:[Part CreatePrimitives](Part_CreatePrimitives/es.md)---
+- GuiCommand:   Name: Part Wedge   Name/es: Part Wedge   MenuLocation: Part -> [|Workbenches: [[Part_Workbench/es   Part](Part_CreatePrimitives/es___Part_CreatePrimitives]]_->_Cuña.md)|SeeAlso: [Part CreatePrimitives](Part_CreatePrimitives/es.md)---
 
 
 </div>
@@ -116,4 +116,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/es
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/es

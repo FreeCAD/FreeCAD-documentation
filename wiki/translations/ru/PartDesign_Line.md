@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Создать опорный отрезок
-   Name:PartDesign_Line
-   MenuLocation:Part Design - Create a datum - Создать опорный отрезок
-   Workbenches:[PartDesign](PartDesign_Workbench/ru.md)
-   Version:0.17
-   SeeAlso:[Создать опорную точку](PartDesign_Point/ru.md), [Создать опорную плоскость](PartDesign_Plane/ru.md)
+   Name/ru: Создать опорный отрезок
+   Name: PartDesign_Line
+   MenuLocation: Part Design - Create a datum - Создать опорный отрезок
+   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   Version: 0.17
+   SeeAlso: [Создать опорную точку](PartDesign_Point/ru.md), [Создать опорную плоскость](PartDesign_Plane/ru.md)
 ---
 
 # PartDesign Line/ru
@@ -50,4 +50,4 @@ Double-click the DatumLine label in the Model tree or right-click and select **E
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Line/ru
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Line/ru

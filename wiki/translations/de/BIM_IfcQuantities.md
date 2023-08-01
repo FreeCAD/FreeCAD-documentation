@@ -1,11 +1,11 @@
 ---
 - GuiCommand:Addon/de
-   Name:BIM IfcQuantities
-   Name/de:BIM IfcGrößen
-   Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
-   Addon:BIM
-   MenuLocation:Verwalten - IFC GRößen
-   SeeAlso:[BIM IfcElemente](BIM_IfcElements/de.md),[BIM IfcGrößen](BIM_IfcQuantities/de.md)
+   Name: BIM IfcQuantities
+   Name/de: BIM IfcGrößen
+   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
+   Addon: BIM
+   MenuLocation: Verwalten - IFC GRößen
+   SeeAlso: [BIM IfcElemente](BIM_IfcElements/de.md),[BIM IfcGrößen](BIM_IfcQuantities/de.md)
 ---
 
 # BIM IfcQuantities/de
@@ -27,4 +27,4 @@ Du kannst auch den Größenmanager verwenden, um die tatsächlichen **Höhe**, *
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > BIM IfcQuantities/de
+⏵ [documentation index](../README.md) > BIM IfcQuantities/de

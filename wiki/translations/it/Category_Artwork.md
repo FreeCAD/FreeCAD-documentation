@@ -20,4 +20,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:Artwork/it
+⏵ [documentation index](../README.md) > Category:Artwork/it

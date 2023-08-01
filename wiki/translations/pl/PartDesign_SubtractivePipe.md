@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractivePipe
-   Name/pl:Projekt Części: Odejmowanie wyciągnięciem wzdłuż ścieżki
-   MenuLocation:Projekt Części - Utwórz cechę przez odjęcie - Odejmowanie wyciągnięciem wzdłuż ścieżki
-   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
-   Version:0.17
-   SeeAlso:[Uzupełnianie wyciągnięciem wzdłuż ścieżki](PartDesign_AdditivePipe/pl.md), [Odejmowanie wyciągnięciem przez profile](PartDesign_SubtractiveLoft/pl.md)
+   Name: PartDesign SubtractivePipe
+   Name/pl: Projekt Części: Odejmowanie wyciągnięciem wzdłuż ścieżki
+   MenuLocation: Projekt Części - Utwórz cechę przez odjęcie - Odejmowanie wyciągnięciem wzdłuż ścieżki
+   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   Version: 0.17
+   SeeAlso: [Uzupełnianie wyciągnięciem wzdłuż ścieżki](PartDesign_AdditivePipe/pl.md), [Odejmowanie wyciągnięciem przez profile](PartDesign_SubtractiveLoft/pl.md)
 ---
 
 # PartDesign SubtractivePipe/pl
@@ -108,4 +108,4 @@ Funkcja **Odejmowanie wyciągnięciem wzdłuż ścieżki** tworzy bryłę odejmu
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePipe/pl
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePipe/pl

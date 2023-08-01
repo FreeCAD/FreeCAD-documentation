@@ -10,7 +10,7 @@
 **Lattice2 ist stabil. Es können neue Funktionen hinzugefügt werden, aber es sollen keine bahnbrechenden Änderungen vorgenommen werden.**
 
 
-{{TOCright}}
+
 
 Der Arbeitsbereich Lattice2 ist ein [externer FreeCAD-Arbeitsbereich](External_workbenches/de.md), der dem Zweck dient, mit Positionierungen und Anordnungen von Positionierungen zu arbeiten. Es ist eine Art Zusammenbau-Arbeitsbereich, jedoch mit Schwerpunkt auf Anordnungen. Es gibt keine Randbedingungen und Beziehungen, es gibt nur Anordnungen von Positionierungen, die erzeugt, kombiniert, transformiert, überlagert und mit Formen bestückt werden können.
 
@@ -182,4 +182,4 @@ After you install the workbench, it should appear at the bottom of list of workb
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Lattice2 Workbench/de
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Lattice2 Workbench/de

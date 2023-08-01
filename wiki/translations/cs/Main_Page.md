@@ -104,4 +104,4 @@ Podívejte se na [Vývojovou mapu](Development_roadmap/cs.md) na novinky, které
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/cs
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/cs

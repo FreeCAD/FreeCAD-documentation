@@ -221,4 +221,4 @@ Enfin, FreeCAD est réalisé par des volontaires pendant leur temps libre. Si vo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Creating a simple part with Draft and Part WB/fr
+⏵ [documentation index](../README.md) > Creating a simple part with Draft and Part WB/fr

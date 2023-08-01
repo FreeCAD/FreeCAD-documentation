@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Surface GeomFillSurface
-   Name/fr:Surface Remplir entre les courbes limites
-   MenuLocation:Surface - Fill boundary curves
-   Workbenches:[Surface](Surface_Workbench/fr.md)
-   Version:0.17
+   Name: Surface GeomFillSurface
+   Name/fr: Surface Remplir entre les courbes limites
+   MenuLocation: Surface - Fill boundary curves
+   Workbenches: [Surface](Surface_Workbench/fr.md)
+   Version: 0.17
 ---
 
 # Surface GeomFillSurface/fr
@@ -166,4 +166,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface GeomFillSurface/fr
+⏵ [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface GeomFillSurface/fr

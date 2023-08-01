@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Robot Edge2Trac
-   Name/fr:Robot Trajectoire à partir d'arêtes
-   MenuLocation:Robot - Arêtes vers trajectoire
-   Workbenches:[Robot](Robot_Workbench/fr.md)
+   Name: Robot Edge2Trac
+   Name/fr: Robot Trajectoire à partir d'arêtes
+   MenuLocation: Robot - Arêtes vers trajectoire
+   Workbenches: [Robot](Robot_Workbench/fr.md)
 ---
 
 # Robot Edge2Trac/fr
@@ -40,4 +40,4 @@ Vous pouvez modifier les valeurs de cette trajectoire en définissant un <img al
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Edge2Trac/fr
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Edge2Trac/fr

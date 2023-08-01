@@ -1,6 +1,6 @@
 # Arch Site/sv
 ---
-- GuiCommand:   Name:Arch Site   Name/sv:Arch Site   Workbenches:[MenuLocation:Arch - Site   Shortcut:S I   SeeAlso:[[Arch Floor/sv|Arch Floor](Arch_Workbench/sv___Arch]].md), [Arch Building](Arch_Building/sv.md)---
+- GuiCommand:   Name: Arch Site   Name/sv: Arch Site   Workbenches: [MenuLocation: Arch - Site   Shortcut: S I   SeeAlso: [[Arch Floor/sv|Arch Floor](Arch_Workbench/sv___Arch]].md), [Arch Building](Arch_Building/sv.md)---
 
 
 </div>
@@ -170,4 +170,4 @@ FreeCAD.Gui.ActiveDocument.ActiveView.getSceneGraph().addChild(Node)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Site/sv
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Site/sv

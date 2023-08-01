@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Part Sweep
-   Name/pl:Część: Wyciągnięcie po ścieżce
-   MenuLocation:Część - Wyciągnięcie po ścieżce
-   Workbenches:[Część](Part_Workbench/pl.md)
-   SeeAlso:[Wyciągnięcie przez profile](Part_Loft/pl.md)
+   Name: Part Sweep
+   Name/pl: Część: Wyciągnięcie po ścieżce
+   MenuLocation: Część - Wyciągnięcie po ścieżce
+   Workbenches: [Część](Part_Workbench/pl.md)
+   SeeAlso: [Wyciągnięcie przez profile](Part_Loft/pl.md)
 ---
 
 # Part Sweep/pl
@@ -110,4 +110,4 @@ Opcja **Przejście** ustawia styl przejścia Przeciągania w miejscu połączeni
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/pl
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/pl

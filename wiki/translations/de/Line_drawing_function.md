@@ -1,6 +1,4 @@
 # Line drawing function/de
-{{TOCright}}
-
 ## Einführung
 
 Diese Seite zeigt, wie erweiterte Funktionalität in Python einfach erstellt werden kann. In dieser Übung werden wir ein neues Werkzeug bauen, das eine Linie zeichnet. Dieses Werkzeug kann dann mit einem FreeCAD Befehl verknüpft werden, und dieser Befehl kann von jedem Element in der Oberfläche, wie z.B. einem Menüpunkt oder einer Werkzeugleistenschaltfläche, aufgerufen werden.
@@ -268,4 +266,4 @@ Zögere nicht, deine Fragen oder Ideen im [Forum](http://forum.freecadweb.org/) 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Line drawing function/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Line drawing function/de

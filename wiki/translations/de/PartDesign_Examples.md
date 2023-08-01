@@ -1,8 +1,4 @@
 # PartDesign Examples/de
-{{TOCright}}
-
-
-
 ## Einführung
 
 Manchmal braucht man einen Hinweis darauf, wie mächtig ein Werkzeug ist, ohne zu viele Erklärungen.
@@ -280,4 +276,4 @@ Ein Linienzug kann als Pfad verwendet werden, wobei die Eigenschaft **Transition
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Examples/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Examples/de

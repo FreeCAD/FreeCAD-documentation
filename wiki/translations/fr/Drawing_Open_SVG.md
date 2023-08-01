@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Drawing Open SVG
-   Name/fr:Drawing Ouvrir SVG
-   Workbenches:[Drawing](Drawing_Workbench/fr.md)
-   MenuLocation:Drawing - Ouvrir SVG...
-   Shortcut:Aucun
-   SeeAlso:[Drawing Sauvegarder](Drawing_Save/fr.md)
+   Name: Drawing Open SVG
+   Name/fr: Drawing Ouvrir SVG
+   Workbenches: [Drawing](Drawing_Workbench/fr.md)
+   MenuLocation: Drawing - Ouvrir SVG...
+   Shortcut: Aucun
+   SeeAlso: [Drawing Sauvegarder](Drawing_Save/fr.md)
 ---
 
 # Drawing Open SVG/fr
@@ -26,4 +26,4 @@ Cette commande ouvre une feuille de dessin précédemment sauvegardée au format
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Open SVG/fr
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Open SVG/fr

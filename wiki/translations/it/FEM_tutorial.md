@@ -233,4 +233,4 @@ A questo punto il flusso di lavoro di base per il [Modulo FEM](FEM_Workbench/it.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM tutorial/it
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM tutorial/it

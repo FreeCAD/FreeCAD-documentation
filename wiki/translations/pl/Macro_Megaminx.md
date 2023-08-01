@@ -37,4 +37,4 @@ Download the code from <https://github.com/rparkins999/Megaminx> into your macro
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Megaminx/pl
+⏵ [documentation index](../README.md) > Macro Megaminx/pl

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
-   Name:Curves JoinCurve
-   MenuLocation:Curves - Join Curves
-   Workbenches:[Curves](Curves_Workbench.md)
+   Name: Curves JoinCurve
+   MenuLocation: Curves - Join Curves
+   Workbenches: [Curves](Curves_Workbench.md)
 ---
 
 # Curves JoinCurve/en
@@ -42,4 +42,4 @@ The <img alt="" src=images/Curves_JoinCurve.svg  style="width:24px;"> [Curves Jo
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves JoinCurve/en
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves JoinCurve/en

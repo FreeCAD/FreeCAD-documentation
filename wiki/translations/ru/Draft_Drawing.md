@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Drawing
-   Name/ru:Draft Drawing
-   MenuLocation:Черчение -> Рисунок
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   SeeAlso:[TechDraw DraftView](TechDraw_DraftView.md)
+   Name: Draft Drawing
+   Name/ru: Draft Drawing
+   MenuLocation: Черчение -> Рисунок
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   SeeAlso: [TechDraw DraftView](TechDraw_DraftView.md)
 ---
 
 # Draft Drawing/ru
@@ -50,4 +50,4 @@ This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Drawing/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Drawing/ru

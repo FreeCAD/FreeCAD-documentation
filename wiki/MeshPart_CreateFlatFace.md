@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:MeshPart CreateFlatFace
-   MenuLocation:Meshes - Unwrap Face
-   Workbenches:[Mesh](Mesh_Workbench.md)
-   Version:0.19
-   SeeAlso:[Mesh Part Create Flat Mesh](MeshPart_CreateFlatMesh.md)
+   Name: MeshPart CreateFlatFace
+   MenuLocation: Meshes - Unwrap Face
+   Workbenches: [Mesh](Mesh_Workbench.md)
+   Version: 0.19
+   SeeAlso: [Mesh Part Create Flat Mesh](MeshPart_CreateFlatMesh.md)
 ---
 
 # MeshPart CreateFlatFace
@@ -30,4 +30,4 @@ See: [Part Feature](Part_Feature.md).
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Mesh](Category_Mesh.md) > [MeshPart](MeshPart_Workbench.md) > MeshPart CreateFlatFace
+⏵ [documentation index](../README.md) > [Mesh](Category_Mesh.md) > [MeshPart](MeshPart_Workbench.md) > MeshPart CreateFlatFace

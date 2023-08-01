@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw_ClipGroup
-   Name/it:Gruppo di clip
-   MenuLocation:TechDraw - Gruppo di clip
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Aggiungi una vista al gruppo clip](TechDraw_ClipGroupAdd/it.md), [Rimuovi la vista dal gruppo clip](TechDraw_ClipGroupRemove/it.md)
+   Name: TechDraw_ClipGroup
+   Name/it: Gruppo di clip
+   MenuLocation: TechDraw - Gruppo di clip
+   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso: [Aggiungi una vista al gruppo clip](TechDraw_ClipGroupAdd/it.md), [Rimuovi la vista dal gruppo clip](TechDraw_ClipGroupRemove/it.md)
 ---
 
 # TechDraw ClipGroup/it
@@ -70,4 +70,4 @@ Questo strumento crea una finestra di ritaglio che può contenere una o più vis
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroup/it
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroup/it

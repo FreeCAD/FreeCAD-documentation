@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Curves PipeshellProfile
-   Name/fr:Curves Profil de l'enveloppe d'un tube
-   MenuLocation:Surfaces - Pipeshell profile
-   Workbenches:[Curves](Curves_Workbench/fr.md)
-   SeeAlso:[Curves Enveloppe de tube](Curves_Pipeshell/fr.md)
+   Name: Curves PipeshellProfile
+   Name/fr: Curves Profil de l'enveloppe d'un tube
+   MenuLocation: Surfaces - Pipeshell profile
+   Workbenches: [Curves](Curves_Workbench/fr.md)
+   SeeAlso: [Curves Enveloppe de tube](Curves_Pipeshell/fr.md)
 ---
 
 # Curves PipeshellProfile/fr
@@ -39,4 +39,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves PipeshellProfile/fr
+⏵ [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves PipeshellProfile/fr

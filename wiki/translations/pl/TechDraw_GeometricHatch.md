@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw GeometricHatch
-   Name/pl:Rysunek Techniczny: Zastosuj na powierzchni kreskowanie geometryczne
-   MenuLocation:Rysunek Techniczny - Kreskowanie - Zastosuj na powierzchni kreskowanie geometryczne
-   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso:[Kreskowanie powierzchni](TechDraw_Hatch/pl.md), [Kreskowanie](TechDraw_Hatching/pl.md)
+   Name: TechDraw GeometricHatch
+   Name/pl: Rysunek Techniczny: Zastosuj na powierzchni kreskowanie geometryczne
+   MenuLocation: Rysunek Techniczny - Kreskowanie - Zastosuj na powierzchni kreskowanie geometryczne
+   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   SeeAlso: [Kreskowanie powierzchni](TechDraw_Hatch/pl.md), [Kreskowanie](TechDraw_Hatching/pl.md)
 ---
 
 # TechDraw GeometricHatch/pl
@@ -110,4 +110,4 @@ Part.show(hatch)
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw GeometricHatch/pl
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw GeometricHatch/pl

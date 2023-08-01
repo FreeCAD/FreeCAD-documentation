@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft PolarArray
-   Name/de:Draft PolareAnordnung
-   MenuLocation:Änderung - Array tools - Polare Anordnung
-   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[Draft RechtwinkligeAnordnung](Draft_OrthoArray/de.md), [Draft KreisAnordnung](Draft_CircularArray/de.md), [Draft PfadAnordnung](Draft_PathArray/de.md), [Draft PfadVerknüpfungsanordnung](Draft_PathLinkArray/de.md), [Draft Punktanordnung](Draft_PointArray/de.md), [Draft PunktVerknüpfungsanordnung](Draft_PointLinkArray/de.md)
+   Name: Draft PolarArray
+   Name/de: Draft PolareAnordnung
+   MenuLocation: Änderung - Array tools - Polare Anordnung
+   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Version: 0.19
+   SeeAlso: [Draft RechtwinkligeAnordnung](Draft_OrthoArray/de.md), [Draft KreisAnordnung](Draft_CircularArray/de.md), [Draft PfadAnordnung](Draft_PathArray/de.md), [Draft PfadVerknüpfungsanordnung](Draft_PathLinkArray/de.md), [Draft Punktanordnung](Draft_PointArray/de.md), [Draft PunktVerknüpfungsanordnung](Draft_PointLinkArray/de.md)
 ---
 
 # Draft PolarArray/de
@@ -180,4 +180,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PolarArray/de
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PolarArray/de

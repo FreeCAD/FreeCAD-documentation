@@ -1,8 +1,4 @@
 # FreeCAD and DXF Import/pl
-{{TOCright}}
-
-
-
 ## Kontekst
 
 DXF jest zastrzeżonym formatem danych CAD dla rysunków 2D, który wywodzi się z programu AutoCAD. Więcej szczegółów można znaleźć na stronie Wiki [DXF](DXF/pl.md).
@@ -65,4 +61,4 @@ Aby uzyskać przegląd wszystkich preferencji związanych z DXF, zobacz stronę 
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [File_Formats](Category_File_Formats.md) > FreeCAD and DXF Import/pl
+⏵ [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [File_Formats](Category_File_Formats.md) > FreeCAD and DXF Import/pl

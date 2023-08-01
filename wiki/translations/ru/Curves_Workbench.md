@@ -5,7 +5,7 @@
 
 ## Введение
 
-<img alt="Иконка Внешнего верстака Curves" src=images/Curves_workbench_icon.svg  style="width:128px;"> {{TOCright}}
+<img alt="Иконка Внешнего верстака Curves" src=images/Curves_workbench_icon.svg  style="width:128px;"> 
 
 
 <div class="mw-translate-fuzzy">
@@ -75,4 +75,4 @@ Note: Some tools may not work with earlier versions.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [Curves](Category_Curves.md) > Curves Workbench/ru
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [Curves](Category_Curves.md) > Curves Workbench/ru

@@ -51,4 +51,4 @@ Diese Kategorie zeigt eine Liste von Seiten, die zum [TechDraw](TechDraw_Workben
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Category:TechDraw/de
+⏵ [documentation index](../README.md) > Category:TechDraw/de

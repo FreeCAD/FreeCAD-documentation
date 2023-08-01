@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Std LinkSelectLinked
-   MenuLocation:''None''
-   Workbenches:All
-   Version:0.19
-   SeeAlso:[Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks.md), [Std SelBack](Std_SelBack.md), [Std SelForward](Std_SelForward.md)
+   Name: Std LinkSelectLinked
+   MenuLocation: ''None''
+   Workbenches: All
+   Version: 0.19
+   SeeAlso: [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks.md), [Std SelBack](Std_SelBack.md), [Std SelForward](Std_SelForward.md)
 ---
 
 # Std LinkSelectLinked/pt-br
@@ -31,4 +31,4 @@ The **Std LinkSelectLinked** command selects the **Linked Object**, the source o
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std LinkSelectLinked/pt-br
+⏵ [documentation index](../README.md) > Std LinkSelectLinked/pt-br

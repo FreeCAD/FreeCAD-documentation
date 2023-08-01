@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:TechDraw PageTemplate
-   Name/de:TechDraw Seitenvorlage
-   MenuLocation:TechDraw - Page - Neues Zeichnungsblatt aus einer Vorlage erstellen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso:[TechDraw Standardseite](TechDraw_PageDefault/de.md), [TechDraw Vorlagen](TechDraw_Templates/de.md)
+   Name: TechDraw PageTemplate
+   Name/de: TechDraw Seitenvorlage
+   MenuLocation: TechDraw - Page - Neues Zeichnungsblatt aus einer Vorlage erstellen
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   SeeAlso: [TechDraw Standardseite](TechDraw_PageDefault/de.md), [TechDraw Vorlagen](TechDraw_Templates/de.md)
 ---
 
 # TechDraw PageTemplate/de
@@ -100,4 +100,4 @@ page.Template.EditableTexts = texts
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageTemplate/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageTemplate/de

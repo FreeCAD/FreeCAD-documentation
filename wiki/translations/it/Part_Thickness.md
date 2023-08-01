@@ -1,6 +1,6 @@
 # Part Thickness/it
 ---
-- GuiCommand:   Name:Part_Thickness   Name/it:Spessore   MenuLocation:Parte - Spessore...   |Workbenches:[SeeAlso:[[Part_Offset/it|Offset](Part_Workbench/it___Parte]].md)---
+- GuiCommand:   Name: Part_Thickness   Name/it: Spessore   MenuLocation: Parte - Spessore...   |Workbenches: [SeeAlso: [[Part_Offset/it|Offset](Part_Workbench/it___Parte]].md)---
 
 
 </div>
@@ -123,4 +123,4 @@ Notes:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Thickness/it
+⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Thickness/it

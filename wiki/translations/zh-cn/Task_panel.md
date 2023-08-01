@@ -1,8 +1,4 @@
 # Task panel/zh-cn
-{{TOCright}}
-
-
-
 ## 简介
 
 The [task panel](Task_panel.md) appears in the **Tasks** tab of the [combo view](Combo_view.md), one of the important panels of the [interface](interface.md). It is a customizable space that is able to contain any type of graphical widget like collapsible sub-windows, tables, input fields, checkboxes, spinboxes, selector boxes, text boxes, buttons, labels, images, and other elements, depending on the currently active [workbench](Workbenches.md), and the currently active tool.
@@ -49,4 +45,4 @@ There are many commands that require selection of shapes or objects present in t
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Task panel/zh-cn
+⏵ [documentation index](../README.md) > Task panel/zh-cn

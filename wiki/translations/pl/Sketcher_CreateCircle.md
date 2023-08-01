@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Sketcher CreateCircle
-   Name/pl:Szkicownik: Utwórz okrąg
-   MenuLocation:Szkic - Elementy geometryczne szkicownika - Utwórz okrąg
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**G** **C**
-   SeeAlso:[Łuk](Sketcher_CompCreateArc/pl.md)
+   Name: Sketcher CreateCircle
+   Name/pl: Szkicownik: Utwórz okrąg
+   MenuLocation: Szkic - Elementy geometryczne szkicownika - Utwórz okrąg
+   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut: **G** **C**
+   SeeAlso: [Łuk](Sketcher_CompCreateArc/pl.md)
 ---
 
 # Sketcher CreateCircle/pl
@@ -34,4 +34,4 @@ Narzędzie to rysuje okrąg, wybierając dwa punkty: środek i punkt wzdłuż pr
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/pl
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/pl

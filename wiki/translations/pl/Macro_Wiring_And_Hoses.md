@@ -177,4 +177,4 @@ W chwili obecnej nie ma żadnych opcji dotyczących przewodów i rur.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Macro Wiring And Hoses/pl
+⏵ [documentation index](../README.md) > Macro Wiring And Hoses/pl

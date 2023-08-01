@@ -4,4 +4,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Installing/bg
+⏵ [documentation index](../README.md) > Installing/bg

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:PartDesign SubtractiveEllipsoid
-   Name/de:PartDesign EllipsoidAbziehen
-   MenuLocation:Part Design - Grundkörper abziehen - Ellipsoid
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[PartDesign AuswahlGrundkörperAbziehen](PartDesign_CompPrimitiveSubtractive/de.md), [PartDesign EllipsoidHinzufügen](PartDesign_AdditiveEllipsoid/de.md)
+   Name: PartDesign SubtractiveEllipsoid
+   Name/de: PartDesign EllipsoidAbziehen
+   MenuLocation: Part Design - Grundkörper abziehen - Ellipsoid
+   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   Version: 0.17
+   SeeAlso: [PartDesign AuswahlGrundkörperAbziehen](PartDesign_CompPrimitiveSubtractive/de.md), [PartDesign EllipsoidHinzufügen](PartDesign_AdditiveEllipsoid/de.md)
 ---
 
 # PartDesign SubtractiveEllipsoid/de
@@ -73,4 +73,4 @@ Das Ellipsoid kann nach der Erstellung auf zwei Arten bearbeitet werden:
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveEllipsoid/de
+⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveEllipsoid/de

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Robot_RestoreHomePos
-   Name/ru:Вернуть в исходное положение
-   MenuLocation:Робот - Вернуть в исходное положение
-   Workbenches:[Robot](Robot_Workbench/ru.md)
+   Name: Robot_RestoreHomePos
+   Name/ru: Вернуть в исходное положение
+   MenuLocation: Робот - Вернуть в исходное положение
+   Workbenches: [Robot](Robot_Workbench/ru.md)
 ---
 
 # Robot RestoreHomePos/ru
@@ -34,4 +34,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos/ru
+⏵ [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos/ru

@@ -245,4 +245,4 @@ Cele două instrumente folosite în acest tutorial au fost Inkscape și Kate. Ac
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Template HowTo/ro
+⏵ [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Template HowTo/ro

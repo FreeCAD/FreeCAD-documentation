@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintLineHorizontal
-   Name/de:Assembly3 ConstraintLineHorizontal
-   Icon:Assembly_ConstraintLineHorizontal.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintLineHorizontal
+   Name/de: Assembly3 ConstraintLineHorizontal
+   Icon: Assembly_ConstraintLineHorizontal.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintLineHorizontal/de
@@ -24,4 +24,4 @@ Bezüglich des LKS des planaren Elements werden Anfangs- und Endpunkt des Linien
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintLineHorizontal/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintLineHorizontal/de

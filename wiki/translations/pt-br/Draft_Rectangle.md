@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Draft Rectangle
-   MenuLocation:Drafting - Rectangle
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:**R** **E**
-   Version:0.7
+   Name: Draft Rectangle
+   MenuLocation: Drafting - Rectangle
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut: **R** **E**
+   Version: 0.7
 ---
 
 # Draft Rectangle/pt-br
@@ -138,4 +138,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rectangle/pt-br
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rectangle/pt-br

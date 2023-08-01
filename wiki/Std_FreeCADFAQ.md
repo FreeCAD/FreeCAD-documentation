@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Std FreeCADFAQ
-   MenuLocation:Help - FreeCAD FAQ
-   Workbenches:All
-   SeeAlso:[Std FreeCADWebsite](Std_FreeCADWebsite.md), [Std FreeCADUserHub](Std_FreeCADUserHub.md), [Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub.md), [Std FreeCADForum](Std_FreeCADForum.md)
+   Name: Std FreeCADFAQ
+   MenuLocation: Help - FreeCAD FAQ
+   Workbenches: All
+   SeeAlso: [Std FreeCADWebsite](Std_FreeCADWebsite.md), [Std FreeCADUserHub](Std_FreeCADUserHub.md), [Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub.md), [Std FreeCADForum](Std_FreeCADForum.md)
 ---
 
 # Std FreeCADFAQ
@@ -26,4 +26,4 @@ Currently the command points to [<https://wiki.freecad.org/Frequently_asked_ques
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std FreeCADFAQ
+⏵ [documentation index](../README.md) > Std FreeCADFAQ

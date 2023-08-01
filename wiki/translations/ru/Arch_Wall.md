@@ -1,12 +1,12 @@
 # Arch Wall/ru
 ---
 - GuiCommand:
-   Name:Arch_Wall
-   Name/ru:Стена
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   MenuLocation:Архитектура - Стена
-   Shortcut:**W** **A**
-   SeeAlso:[Структура](Arch_Structure/ru.md)---
+   Name: Arch_Wall
+   Name/ru: Стена
+   Workbenches: [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Архитектура - Стена
+   Shortcut: **W** **A**
+   SeeAlso: [Структура](Arch_Structure/ru.md)---
 
 
 
@@ -179,4 +179,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Wall/ru
+⏵ [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Wall/ru

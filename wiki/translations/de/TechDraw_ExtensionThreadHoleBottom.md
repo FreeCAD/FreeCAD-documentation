@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionThreadHoleBottom
-   Name/de:TechDraw ErgänzungInnengewindeAxial
-   MenuLocation:TechDraw - Extensions: Centerlines/Threading - Add Cosmetic Thread Hole Bottom View
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:[TechDraw ErgänzungAußengewindeAxial](TechDraw_ExtensionThreadBoltBottom/de.md)
+   Name: TechDraw ExtensionThreadHoleBottom
+   Name/de: TechDraw ErgänzungInnengewindeAxial
+   MenuLocation: TechDraw - Extensions: Centerlines/Threading - Add Cosmetic Thread Hole Bottom View
+   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   Shortcut: 
+   Version: 0.20
+   SeeAlso: [TechDraw ErgänzungAußengewindeAxial](TechDraw_ExtensionThreadBoltBottom/de.md)
 ---
 
 # TechDraw ExtensionThreadHoleBottom/de
@@ -54,4 +54,4 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  styl
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadHoleBottom/de
+⏵ [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadHoleBottom/de

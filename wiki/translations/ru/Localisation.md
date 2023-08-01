@@ -1,8 +1,4 @@
 # Localisation/ru
-{{TOCright}}
-
-
-
 ## Обзор
 
 **Локализация** в целом, это процесс создания многоязыкового пользовательского интерфейса для программного обеспечения. В FreeCAD вы можете установить язык пользовательского интерфейса в **Правка → Настройки → Основные**. FreeCAD использует [Qt](wikipedia:Qt_(toolkit).md) чтобы поддерживать несколько языков. По умолчанию в Unix/Linux системах, FreeCAD использует текущие языковые настройки вашей системы для выбора языка интерфейса FreeCAD.
@@ -289,4 +285,4 @@ FreeCADGui.setLocale('ru')
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Wiki](Category_Wiki.md) > Localisation/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Wiki](Category_Wiki.md) > Localisation/ru

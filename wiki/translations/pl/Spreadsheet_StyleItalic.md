@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Spreadsheet StyleItalic
-   Name/pl:Arkusz Kalkulacyjny: Kursywa
-   MenuLocation:Arkusz kalkulacyjny - Style - Kursywa
-   Workbenches:[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
-   Version:0.17
+   Name: Spreadsheet StyleItalic
+   Name/pl: Arkusz Kalkulacyjny: Kursywa
+   MenuLocation: Arkusz kalkulacyjny - Style - Kursywa
+   Workbenches: [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   Version: 0.17
 ---
 
 # Spreadsheet StyleItalic/pl
@@ -30,4 +30,4 @@ Narzędzie **[<img src=images/Spreadsheet_StyleItalic.svg style="width:16px"> [K
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleItalic/pl
+⏵ [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleItalic/pl

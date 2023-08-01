@@ -16,4 +16,4 @@ Como você pode ter experimentado algumas vezes, os programadores não sabem esc
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/pt-br
+⏵ [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/pt-br

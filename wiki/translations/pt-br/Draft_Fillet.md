@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Draft Fillet
-   MenuLocation:Drafting - Fillet
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:**F** **I**
-   Version:0.19
-   SeeAlso:[Draft Line](Draft_Line.md), [Draft Wire](Draft_Wire.md)
+   Name: Draft Fillet
+   MenuLocation: Drafting - Fillet
+   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut: **F** **I**
+   Version: 0.19
+   SeeAlso: [Draft Line](Draft_Line.md), [Draft Wire](Draft_Wire.md)
 ---
 
 # Draft Fillet/pt-br
@@ -124,4 +124,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Fillet/pt-br
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Fillet/pt-br

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru:Отразить
-   Name:Draft_Mirror
-   MenuLocation:Modification - Отразить
-   Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut:**M** **I**
-   SeeAlso:[Клонировать](Draft_Clone/ru.md)
+   Name/ru: Отразить
+   Name: Draft_Mirror
+   MenuLocation: Modification - Отразить
+   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Shortcut: **M** **I**
+   SeeAlso: [Клонировать](Draft_Clone/ru.md)
 ---
 
 # Draft Mirror/ru
@@ -124,4 +124,4 @@ doc.recompute()
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Mirror/ru
+⏵ [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Mirror/ru

@@ -1,12 +1,12 @@
 ---
 - GuiCommand:
-   Name/ru:Домой
-   Name:Std_ViewHome
-   MenuLocation:Вид - Стандартные виды‏‎ - Домой
-   Workbenches:Все
-   Shortcut:**Home**
-   Version:0.19
-   SeeAlso:[Уместить всё](Std_ViewFitAll/ru.md)
+   Name/ru: Домой
+   Name: Std_ViewHome
+   MenuLocation: Вид - Стандартные виды‏‎ - Домой
+   Workbenches: Все
+   Shortcut: **Home**
+   Version: 0.19
+   SeeAlso: [Уместить всё](Std_ViewFitAll/ru.md)
 ---
 
 # Std ViewHome/ru
@@ -37,4 +37,4 @@ The **Std ViewHome** command changes the camera in the active [3D view](3D_view.
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std ViewHome/ru
+⏵ [documentation index](../README.md) > Std ViewHome/ru

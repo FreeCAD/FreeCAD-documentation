@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name:Std_BoxSelection
-   Name/it:Box di selezione
-   MenuLocation:Modifica - Box di selezione
-   Workbenches:Tutti
-   Shortcut:**Maiusc**+**B**
-   SeeAlso:[Seleziona elementi](Std_BoxElementSelection/it.md),[Seleziona tutto](Std_SelectAll/it.md),  [Box di selezione di Part](Part_BoxSelection/it.md)
+   Name: Std_BoxSelection
+   Name/it: Box di selezione
+   MenuLocation: Modifica - Box di selezione
+   Workbenches: Tutti
+   Shortcut: **Maiusc**+**B**
+   SeeAlso: [Seleziona elementi](Std_BoxElementSelection/it.md),[Seleziona tutto](Std_SelectAll/it.md),  [Box di selezione di Part](Part_BoxSelection/it.md)
 ---
 
 # Std BoxSelection/it
@@ -49,4 +49,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Std BoxSelection/it
+⏵ [documentation index](../README.md) > Std BoxSelection/it

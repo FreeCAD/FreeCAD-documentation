@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name:Sketcher Circles
-   Name/es:Croquizador Círculos
-   Icon:Sketcher_CompCreateConic.png
-   MenuLocation:Ninguno (sólo barra de herramientas)
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
+   Name: Sketcher Circles
+   Name/es: Croquizador Círculos
+   Icon: Sketcher_CompCreateConic.png
+   MenuLocation: Ninguno (sólo barra de herramientas)
+   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
 ---
 
 # Sketcher CompCreateCircle/es
@@ -48,4 +48,4 @@
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateCircle/es
+⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCreateCircle/es

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
-   Name:Assembly3 ConstraintAxial
-   Name/de:Assembly3 AxialeAusrichtung
-   Icon:Assembly_ConstraintAxial.svg
-   Workbenches:[Assembly3](Assembly3_Workbench/de.md)
+   Name: Assembly3 ConstraintAxial
+   Name/de: Assembly3 AxialeAusrichtung
+   Icon: Assembly_ConstraintAxial.svg
+   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
 ---
 
 # Assembly3 ConstraintAxial/de
@@ -46,4 +46,4 @@ In der Realität kann man nicht mit Achsen arbeiten, daher nutzt man Zylinderfl�
 
 
 ---
-![](images/Button_right.svg) [documentation index](../README.md) > Assembly3 ConstraintAxial/de
+⏵ [documentation index](../README.md) > Assembly3 ConstraintAxial/de
