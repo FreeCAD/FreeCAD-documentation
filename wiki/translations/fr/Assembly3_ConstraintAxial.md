@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintAxial
    Name/fr: Assembly3 Contrainte axiale
    Icon: Assembly_ConstraintAxial.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 ConstraintAxial/fr

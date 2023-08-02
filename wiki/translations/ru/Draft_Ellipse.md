@@ -3,9 +3,9 @@
    Name: Draft Ellipse
    Name/ru: Draft Ellipse
    MenuLocation: Черчение -> Эллипс
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: **E** **L**
-   SeeAlso: [Окружность](Draft_Circle/ru.md)
+   SeeAlso: Draft Circle/ru
 ---
 
 # Draft Ellipse/ru

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Draft AddNamedGroup
-   MenuLocation: Utilities - Add a new named group
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Utilities -> Add a new named group
+   Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: 
    Version: 0.20
-   SeeAlso: [Std Group](Std_Group.md), [Draft AddToGroup](Draft_AddToGroup.md), [Draft AutoGroup](Draft_AutoGroup.md)
+   SeeAlso: Std_Group, Draft_AddToGroup, Draft_AutoGroup
 ---
 
 # Draft AddNamedGroup

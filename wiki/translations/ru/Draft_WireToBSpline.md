@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft WireToBSpline
    Name/ru: Draft WireToBSpline
-   MenuLocation: Черчение - Направляющая в BSpline
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Черчение -> Направляющая в BSpline
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
 ---
 
 # Draft WireToBSpline/ru

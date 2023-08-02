@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path Engrave
    Name/de: Path Gravieren
-   MenuLocation: Path - Gravieren
-   Workbenches: [Path](Path_Workbench/de.md)
+   MenuLocation: Path -> Gravieren
+   Workbenches: Path_Workbench/de
 ---
 
 # Path Engrave/de

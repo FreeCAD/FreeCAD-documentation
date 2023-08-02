@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM EquationDeformation
    Name/de: FEM Verformungsgleichung
-   MenuLocation: Lösen - Mechanical equations - Deformation equation
-   Workbenches: [FEM](FEM_Workbench/de.md)
+   MenuLocation: Lösen -> Mechanical equations -> Deformation equation
+   Workbenches: FEM_Workbench/de
    Version: 0.21
-   SeeAlso: [Elastizitätsgleichung](FEM_EquationElasticity/de.md), [FEM Anleitung](FEM_tutorial/de.md)
+   SeeAlso: FEM_EquationElasticity/de, FEM_tutorial/de
 ---
 
 # FEM EquationDeformation/de

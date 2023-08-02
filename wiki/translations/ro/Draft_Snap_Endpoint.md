@@ -1,6 +1,6 @@
 # Draft Snap Endpoint/ro
 ---
-- GuiCommand:   Name: Draft Endpoint   Workbenches: [Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation: Draft - [[Draft Snap   Snap]] - Endpoint|Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: Draft Endpoint   Workbenches: Draft Workbench   Draft, Arch Workbench -> Endpoint|Shortcut:    SeeAlso: ---
 
 
 </div>

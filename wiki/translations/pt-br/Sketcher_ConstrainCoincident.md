@@ -2,10 +2,10 @@
 - GuiCommand:-br
    Name/pt-br: Sketcher ConstrainCoincident
    Icon: Constraint_PointOnPoint.svg
-   Workbenches: [Sketcher](Sketcher_Workbench/pt-br.md)
+   Workbenches: Sketcher Workbench/pt-br
    Shortcut: C
-   MenuLocation: Sketch - Sketcher constraints - Constrain coincident
-   SeeAlso: [Constrain Lock](Sketcher_ConstrainLock/pt-br.md), [Constrain Point onto Object](Sketcher_ConstrainPointOnObject/pt-br.md)
+   MenuLocation: Sketch -> Sketcher constraints -> Constrain coincident
+   SeeAlso: Sketcher_ConstrainLock/pt-br, Sketcher ConstrainPointOnObject/pt-br
 ---
 
 # Sketcher ConstrainCoincident/pt-br

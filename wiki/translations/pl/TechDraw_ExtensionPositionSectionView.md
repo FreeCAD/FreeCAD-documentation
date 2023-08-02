@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: TechDraw ExtensionPositionSectionView
    Name/pl: Rysunek Techniczny: Rozszerzenie Wyrównaj widok przekroju
-   MenuLocation: Rysunek Techniczny - Rozszerzenie: Atrybuty / Modyfikatory - Wyrównaj widok przekroju
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   MenuLocation: Rysunek Techniczny -> Rozszerzenie: Atrybuty / Modyfikatory -> Wyrównaj widok przekroju
+   Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20
    SeeAlso: 

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Cut
    Name/ru: Обрезать
-   MenuLocation: Деталь - Булевы операции - Обрезать
-   Workbenches: [Part](Part_Workbench/ru.md)
-   SeeAlso: [Объединение](Part_Union/ru.md), [Пересечение](Part_Common/ru.md), [Part Boolean](Part_Boolean/ru.md)
+   MenuLocation: Деталь -> Булевы операции -> Обрезать
+   Workbenches: Part_Workbench/ru
+   SeeAlso: Part Union/ru, Part Common/ru, Part Boolean/ru
 ---
 
 # Part Cut/ru

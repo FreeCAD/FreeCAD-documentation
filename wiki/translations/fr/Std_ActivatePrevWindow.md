@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std ActivatePrevWindow
    Name/fr: Std Précédente
-   MenuLocation: Fenêtre - Précédente
+   MenuLocation: Fenêtre -> Précédente
    Workbenches: Tous
    Shortcut: **Ctrl**+**Shift**+**Tab**
-   SeeAlso: [Std Suivante](Std_ActivateNextWindow/fr.md), [Std Fenêtre](Std_Windows/fr.md)
+   SeeAlso: Std_ActivateNextWindow/fr, Std_Windows/fr
 ---
 
 # Std ActivatePrevWindow/fr

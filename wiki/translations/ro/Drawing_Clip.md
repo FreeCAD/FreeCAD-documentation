@@ -1,6 +1,6 @@
 # Drawing Clip/ro
 ---
-- GuiCommand:   Name: Drawing Clip   Workbenches: [[Drawing Workbench   Drawing]], Complete|MenuLocation: Drawing - Clip   Shortcut: none---
+- GuiCommand:   Name: Drawing Clip   Workbenches: Drawing Workbench   Drawing, Complete|MenuLocation: Drawing -> Clip   Shortcut: none---
 
 ## Descriere
 

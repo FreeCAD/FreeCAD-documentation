@@ -3,9 +3,9 @@
    Name: Image Scaling
    Name/de: Image BildebeneSkalieren
    MenuLocation: 
-   Workbenches: [Image (Bild)](Image_Workbench/de.md)
+   Workbenches: Image Workbench/de
    Version: 0.18
-   SeeAlso: [Image Öffnen](Image_Open/de.md), [Image Bildebene erstellen](Image_CreateImagePlane/de.md)
+   SeeAlso: Image_Open/de, Image_CreateImagePlane/de
 ---
 
 # Image Scaling/de

@@ -1,6 +1,6 @@
 # Sketcher Trimming/pt-br
 ---
-- GuiCommand:-br   Name: Sketcher Trimming   Name/pt-br: Sketcher Trimming   Workbenches: [PartDesign](Sketcher_Workbench/pt-br___Sketcher]],_[[PartDesign_Workbench/pt-br.md)|Shortcut: T   MenuLocation: Sketch - Sketcher geometries - Trim edge---
+- GuiCommand:-br   Name: Sketcher Trimming   Name/pt-br: Sketcher Trimming   Workbenches: Sketcher Workbench/pt-br   Sketcher, PartDesign Workbench/pt-br|Shortcut: T   MenuLocation: Sketch -> Sketcher geometries -> Trim edge---
 
 
 </div>

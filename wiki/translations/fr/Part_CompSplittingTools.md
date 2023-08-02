@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Part CompSplittingTools
    Name/fr: Part Scinder
-   MenuLocation: Part - Scinder
-   Workbenches: [Part](Part_Workbench/fr.md)
+   MenuLocation: Part -> Scinder
+   Workbenches: Part_Workbench/fr
 ---
 
 # Part CompSplittingTools/fr

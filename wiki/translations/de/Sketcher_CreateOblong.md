@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher CreateOblong
    Name/de: Sketcher AbgerundetesRechteckErstellen
-   MenuLocation: Sketch - Skizzengeometrien - Abgerundetes Rechteck erstellen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Sketch -> Skizzengeometrien -> Abgerundetes Rechteck erstellen
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **O**
    Version: 0.20
-   SeeAlso: [Sketcher RechteckErstellen](Sketcher_CreateRectangle/de.md)
+   SeeAlso: Sketcher_CreateRectangle/de
 ---
 
 # Sketcher CreateOblong/de

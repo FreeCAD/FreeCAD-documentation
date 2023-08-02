@@ -3,8 +3,8 @@
    Name: Assembly3 AddWorkplane
    Name/de: Assembly3 ArbeitsebeneHinzufügen
    Icon: Assembly_Add_Workplane.svg‎‎
-   MenuLocation: Assembly3 - Workplane and origin - Add workplane
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   MenuLocation: Assembly3 -> Workplane and origin -> Add workplane
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 AddWorkplane/de

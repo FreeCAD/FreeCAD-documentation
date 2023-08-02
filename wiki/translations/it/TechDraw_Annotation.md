@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw Annotation
    Name/it: Annotazione
-   MenuLocation: TechDraw - Annotazioni - Annotazione
-   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso: [Testo Draft](Draft_Text/it.md), [Forma da testo di Draft](Draft_ShapeString/it.md)
+   MenuLocation: TechDraw -> Annotazioni -> Annotazione
+   Workbenches: TechDraw_Workbench/it
+   SeeAlso: Draft Text/it, Draft ShapeString/it
 ---
 
 # TechDraw Annotation/it

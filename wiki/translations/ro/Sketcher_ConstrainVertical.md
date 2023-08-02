@@ -2,10 +2,10 @@
 - GuiCommand:
    Icon: Constraint Vertical.svg
    Name/ro: Vertical constraint
-   Workbenches: [Sketcher](Sketcher_Workbench/ro.md)
+   Workbenches: Sketcher Workbench/ro
    Shortcut: V
-   MenuLocation: Sketch - Sketcher constraints - Constrain vertically
-   SeeAlso: [Constraint Horizontal](Sketcher_ConstrainHorizontal/ro.md)
+   MenuLocation: Sketch -> Sketcher constraints -> Constrain vertically
+   SeeAlso: Sketcher_ConstrainHorizontal/ro
 ---
 
 # Sketcher ConstrainVertical/ro

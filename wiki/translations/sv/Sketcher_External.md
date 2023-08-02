@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher External
    Name/sv: Sketcher External
-   Workbenches: [Sketcher](Sketcher_Workbench/sv.md), [PartDesign](PartDesign_Workbench/sv.md)
+   Workbenches: Sketcher Workbench/sv, PartDesign Workbench/sv
    Shortcut: E
-   MenuLocation: Sketch - Sketcher geometries - Sketcher External
-   SeeAlso: [ConstructionMode](Sketcher_ToggleConstruction/sv.md)
+   MenuLocation: Sketch -> Sketcher geometries -> Sketcher External
+   SeeAlso: Sketcher_ToggleConstruction/sv
 ---
 
 # Sketcher External/sv

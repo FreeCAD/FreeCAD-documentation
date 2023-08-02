@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std_Save
    Name/it: Salva
-   MenuLocation: File - Salva
+   MenuLocation: File -> Salva
    Workbenches: Tutti
    Shortcut: **Ctrl**+**S**
-   SeeAlso: [Salva con nome](Std_SaveAs/it.md), [Salva una copia](Std_SaveCopy/it.md), [Salva tutto](Std_SaveAll/it.md)
+   SeeAlso: Std_SaveAs/it, Std_SaveCopy/it, Std_SaveAll/it
 ---
 
 # Std Save/it

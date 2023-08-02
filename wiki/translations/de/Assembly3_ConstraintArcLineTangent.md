@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintArcLineTangent
    Name/de: Assembly3 Bogen-Linie-Tangente
    Icon: Assembly_ConstraintArcLineTangent.svg
-   Workbenches: [Assembly3](Assembly3_Workbench.md)
+   Workbenches: Assembly3_Workbench
 ---
 
 # Assembly3 ConstraintArcLineTangent/de

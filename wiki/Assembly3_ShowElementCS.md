@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Assembly3 ShowElementCS
    Icon: Assembly_ShowElementCS.svg‎‎
-   MenuLocation: Assembly3 - Element style - Show element coordinate system
-   Workbenches: [Assembly3](Assembly3_Workbench.md)
+   MenuLocation: Assembly3 -> Element style -> Show element coordinate system
+   Workbenches: Assembly3_Workbench
 ---
 
 # Assembly3 ShowElementCS

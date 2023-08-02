@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std ViewIvStereoQuadBuff
    Name/fr: Std Tampon stéréo quadruple
-   MenuLocation: Affichage - Stéréo - Tampon stéréo quadruple
+   MenuLocation: Affichage -> Stéréo -> Tampon stéréo quadruple
    Workbenches: Tous
-   SeeAlso: [Std Stéréo rouge cyan](Std_ViewIvStereoRedGreen/fr.md), [Std Lignes stéréo entrelacées](Std_ViewIvStereoInterleavedRows/fr.md), [Std Colonnes stéréo entrelacées](Std_ViewIvStereoInterleavedColumns/fr.md), [Std Stéréo désactivée](Std_ViewIvStereoOff/fr.md)
+   SeeAlso: Std_ViewIvStereoRedGreen/fr, Std_ViewIvStereoInterleavedRows/fr, Std_ViewIvStereoInterleavedColumns/fr, Std_ViewIvStereoOff/fr
 ---
 
 # Std ViewIvStereoQuadBuff/fr

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Surface Sections
    Name/fr: Surface Sections
-   MenuLocation: Surface - Sections...
-   Workbenches: [Surface](Surface_Workbench/fr.md)
+   MenuLocation: Surface -> Sections...
+   Workbenches: Surface_Workbench/fr
    Version: 0.19
 ---
 

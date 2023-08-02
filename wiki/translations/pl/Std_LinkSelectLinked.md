@@ -5,7 +5,7 @@
    MenuLocation: brak
    Workbenches: wszystkie
    Version: 0.19
-   SeeAlso: [Przejdź do najgłębiej połączonego obiektu](Std_LinkSelectLinkedFinal/pl.md), [Wybierz wszystkie łącza](Std_LinkSelectAllLinks/pl.md), [Przywróć wybór](Std_SelBack/pl.md), [Ponów wybór](Std_SelForward/pl.md)
+   SeeAlso: Std_LinkSelectLinkedFinal/pl, Std_LinkSelectAllLinks/pl, Std_SelBack/pl, Std_SelForward/pl
 ---
 
 # Std LinkSelectLinked/pl

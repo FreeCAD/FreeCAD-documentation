@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Arch CurtainWall
    Name/it: Facciata continua
-   MenuLocation: Arch - Facciata continua
-   Workbenches: [Arch](Arch_Workbench/it.md)
+   MenuLocation: Arch -> Facciata continua
+   Workbenches: Arch_Workbench/it
    Shortcut: **C** **W**
    Version: 0.19
-   SeeAlso: [Muro](Arch_Wall/it.md), [Griglia](Arch_Grid/it.md)
+   SeeAlso: Arch Wall/it, Arch Grid/it
 ---
 
 # Arch CurtainWall/it

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std Revert
    Name/fr: Std Rétablir
-   MenuLocation: Fichier - Rétablir
+   MenuLocation: Fichier -> Rétablir
    Workbenches: Tous
 ---
 

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Габариты
    Name: Std_SelBoundingBox
-   MenuLocation: Вид - Габариты
+   MenuLocation: Вид -> Габариты
    Workbenches: Все
    Version: 0.19
-   SeeAlso: [Стиль представления](Std_DrawStyle/ru.md)
+   SeeAlso: Std_DrawStyle/ru
 ---
 
 # Std SelBoundingBox/ru

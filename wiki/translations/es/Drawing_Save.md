@@ -1,6 +1,6 @@
 # Drawing Save/es
 ---
-- GuiCommand:   Name: Drawing Save   Workbenches: [MenuLocation: Dibujo - Exportar página...   Shortcut: none   SeeAlso: [[Drawing Open SVG/es|Abrir SVG](Drawing_Workbench/es___Dibujo]],_Complete.md)---
+- GuiCommand:   Name: Drawing Save   Workbenches: Drawing Workbench/es   Dibujo, Complete---
 
 
 </div>

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: TechDraw CosmeticEraser
    Name/fr: TechDraw Gomme
-   MenuLocation: TechDraw - Supprimer l'objet cosmétique
-   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   MenuLocation: TechDraw -> Supprimer l'objet cosmétique
+   Workbenches: TechDraw_Workbench/fr
    Version: 0.19
 ---
 

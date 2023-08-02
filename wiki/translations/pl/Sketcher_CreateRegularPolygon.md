@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher CreateRegularPolygon
    Name/pl: Szkicownik: Utwórz wielokąt foremny
-   MenuLocation: Szkic - Elementy geometryczne szkicownika - Utwórz wielokąt foremny
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   MenuLocation: Szkic -> Elementy geometryczne szkicownika -> Utwórz wielokąt foremny
+   Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **P** **R**
 ---
 

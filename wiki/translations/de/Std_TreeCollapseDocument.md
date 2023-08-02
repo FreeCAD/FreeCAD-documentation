@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std TreeCollapseDocument
    Name/de: Std BaumDokumentReduzieren
-   MenuLocation: Ansicht - Baumansicht-Aktionen - Reduzieren/Erweitern
+   MenuLocation: Ansicht -> Baumansicht-Aktionen -> Reduzieren/Erweitern
    Workbenches: Alle
    Version: 0.19
-   SeeAlso: [Std BaumEinzeldokument](Std_TreeSingleDocument/de.md), [Std BaumMehrfachdokument](Std_TreeMultiDocument/de.md)
+   SeeAlso: Std_TreeSingleDocument/de, Std_TreeMultiDocument/de
 ---
 
 # Std TreeCollapseDocument/de

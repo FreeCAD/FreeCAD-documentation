@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Dimension
    Name/tr: Boyut
-   MenuLocation: Taslak - Boyut
-   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   MenuLocation: Taslak -> Boyut
+   Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **D** **I**
    Version: 0.18
-   SeeAlso: [FlipDimension](Draft_FlipDimension/tr.md),[Teknik resim](TechDraw_Workbench/tr.md)
+   SeeAlso: Draft FlipDimension/tr,TechDraw Workbench/tr
 ---
 
 # Draft Dimension/tr

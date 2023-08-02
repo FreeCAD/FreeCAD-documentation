@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch SetMaterial
    Name/fr: Arch Matériaux
-   MenuLocation: Arch - Outils pour les matériaux - Matériau
-   Workbenches: [Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   MenuLocation: Arch -> Outils pour les matériaux -> Matériau
+   Workbenches: Arch_Workbench/fr, BIM_Workbench/fr
    Shortcut: **M** **T**
-   SeeAlso: [Arch Outils matériaux](Arch_CompSetMaterial/fr.md), [Arch Matériaux multiples](Arch_MultiMaterial/fr.md)
+   SeeAlso: Arch_CompSetMaterial/fr, Arch_MultiMaterial/fr
 ---
 
 # Arch SetMaterial/fr

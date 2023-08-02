@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher CreateEllipseBy3Points
    Name/de: Sketcher EllipseDurch3PunkteErstellen
-   MenuLocation: Sketch - Skizzengeometrien - Ellipse durch 3 Punkte erstellen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Sketch -> Skizzengeometrien -> Ellipse durch 3 Punkte erstellen
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **3** **E**
    Version: 0.15
-   SeeAlso: [Sketcher EllipseDurchMittelpunktErstellen](Sketcher_CreateEllipseByCenter/de.md), [Sketcher KreisErstellen](Sketcher_CreateCircle/de.md), [Sketcher EllipsenbogenErstellen](Sketcher_CreateArcOfEllipse/de.md)
+   SeeAlso: Sketcher_CreateEllipseByCenter/de, Sketcher_CreateCircle/de, Sketcher_CreateArcOfEllipse/de
 ---
 
 # Sketcher CreateEllipseBy3Points/de

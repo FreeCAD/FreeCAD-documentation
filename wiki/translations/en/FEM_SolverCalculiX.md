@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: FEM SolverCalculiX
-   MenuLocation: Solve - Solver CalculiX (new framework)
-   Workbenches: [FEM](FEM_Workbench.md)
+   MenuLocation: Solve -> Solver CalculiX 
+   Workbenches: FEM_Workbench
    Shortcut: **S** **C**
-   SeeAlso: [FEM CalculiX](FEM_CalculiX.md), [FEM tutorial](FEM_tutorial.md)
+   SeeAlso: FEM_CalculiX, FEM_tutorial
 ---
 
 # FEM SolverCalculiX/en

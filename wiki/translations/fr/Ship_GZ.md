@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Ship PlotGZ
    Name/fr: Ship Courbe GZ
-   MenuLocation: Weights - GZ curve computation
-   Workbenches: [Ship](Ship_Workbench/fr.md)
+   MenuLocation: Weights -> GZ curve computation
+   Workbenches: Ship_Workbench/fr
    Shortcut: 
    SeeAlso: 
 ---

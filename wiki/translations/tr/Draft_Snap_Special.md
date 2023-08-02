@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Snap Special
    Name/tr: Taslak Özel
-   MenuLocation: Taslak - [Yakalama](Draft_Snap/tr.md) - Özel
-   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   MenuLocation: Taslak -> Draft Snap/tr -> Özel
+   Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: 
    SeeAlso: 
 ---

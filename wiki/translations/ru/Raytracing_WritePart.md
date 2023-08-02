@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Raytracing WritePart 
    Name/ru: Raytracing WritePart 
-   MenuLocation: Трассировка лучей - Экспортировать деталь в POV-Ray
-   Workbenches: [Raytracing](Raytracing_Workbench/ru.md)
+   MenuLocation: Трассировка лучей -> Экспортировать деталь в POV-Ray
+   Workbenches: Raytracing_Workbench/ru
    Shortcut: 
    SeeAlso: 
 ---

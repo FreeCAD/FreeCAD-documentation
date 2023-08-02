@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Curves SegmentSurface
    Name/fr: Curves Segmenter une surface
-   MenuLocation: Surfaces - Segment surface
-   Workbenches: [Curves](Curves_Workbench/fr.md)
+   MenuLocation: Surfaces -> Segment surface
+   Workbenches: Curves_Workbench/fr
 ---
 
 # Curves SegmentSurface/fr

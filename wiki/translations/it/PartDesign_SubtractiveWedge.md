@@ -1,6 +1,6 @@
 # PartDesign SubtractiveWedge/it
 ---
-- GuiCommand:   Name: PartDesign SubtractiveWedge   Name/it: Cuneo sottrattivo   Workbenches: [MenuLocation: Part Design - Crea una primitiva sottrattiva - Cuneo   Version: 0.17   SeeAlso: [[PartDesign CompPrimitiveSubtractive/it|Primitive sottrattive](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign SubtractiveWedge   Name/it: Cuneo sottrattivo   Workbenches: PartDesign Workbench/it   PartDesign---
 
 
 </div>

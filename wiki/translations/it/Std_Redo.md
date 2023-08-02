@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std_Redo
    Name/it: Ripristina
-   MenuLocation: Modifica - Ripristina
+   MenuLocation: Modifica -> Ripristina
    Workbenches: Tutti
    Shortcut: **Ctrl**+**Y**
-   SeeAlso: [Annulla](Std_Undo/it.md)
+   SeeAlso: Std_Undo/it
 ---
 
 # Std Redo/it

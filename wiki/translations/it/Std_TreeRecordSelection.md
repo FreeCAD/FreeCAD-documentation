@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std_TreeRecordSelection
    Name/it: Registra la selezione
-   MenuLocation: Visualizza - Azioni della vista ad albero - Registra la selezione
+   MenuLocation: Visualizza -> Azioni della vista ad albero -> Registra la selezione
    Workbenches: Tutti
    Shortcut: **T** **5**
    Version: 0.19

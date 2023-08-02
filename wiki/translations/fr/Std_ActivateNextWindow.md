@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std ActivateNextWindow
    Name/fr: Std Suivante
-   MenuLocation: Fenêtre - Suivante
+   MenuLocation: Fenêtre -> Suivante
    Workbenches: Tous
    Shortcut: **Ctrl**+**Tab**
-   SeeAlso: [Std Précédente](Std_ActivatePrevWindow/fr.md), [Std Fenêtre](Std_Windows/fr.md)
+   SeeAlso: Std_ActivatePrevWindow/fr, Std_Windows/fr
 ---
 
 # Std ActivateNextWindow/fr

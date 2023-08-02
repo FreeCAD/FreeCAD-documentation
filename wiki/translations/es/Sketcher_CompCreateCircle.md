@@ -3,8 +3,8 @@
    Name: Sketcher Circles
    Name/es: Croquizador Círculos
    Icon: Sketcher_CompCreateConic.png
-   MenuLocation: Ninguno (sólo barra de herramientas)
-   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   MenuLocation: Ninguno 
+   Workbenches: Sketcher Workbench/es
 ---
 
 # Sketcher CompCreateCircle/es

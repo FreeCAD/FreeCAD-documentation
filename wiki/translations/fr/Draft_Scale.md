@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Scale
    Name/fr: Draft Échelle
-   MenuLocation: Modification - Échelle
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Modification -> Échelle
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **S** **C**
-   SeeAlso: [Draft Surligner les sous éléments](Draft_SubelementHighlight/fr.md), [Draft Cloner](Draft_Clone/fr.md)
+   SeeAlso: Draft_SubelementHighlight/fr, Draft_Clone/fr
 ---
 
 # Draft Scale/fr

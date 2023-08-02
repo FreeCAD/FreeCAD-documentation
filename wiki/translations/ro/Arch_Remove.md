@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch Remove
    Name/ro: Arch Remove
-   MenuLocation: Arch - Remove
-   Workbenches: [Arch](Arch_Workbench/fr.md)
-   SeeAlso: [[Arch Add]]
+   MenuLocation: Arch -> Remove
+   Workbenches: Arch_Workbench/fr
+   SeeAlso: Arch Add
 ---
 
 # Arch Remove/ro

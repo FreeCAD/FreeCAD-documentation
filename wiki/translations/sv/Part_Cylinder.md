@@ -1,6 +1,6 @@
 # Part Cylinder/sv
 ---
-- GuiCommand:   Name: Part Cylinder   Name/sv: Part Cylinder   MenuLocation: Part - Cylinder   |Workbenches: [SeeAlso: [[Part CreatePrimitives/sv|Part CreatePrimitives](Part_Workbench/sv___Part]],_Complete.md)---
+- GuiCommand:   Name: Part Cylinder   Name/sv: Part Cylinder   MenuLocation: Part -> Cylinder   , Complete---
 
 
 </div>

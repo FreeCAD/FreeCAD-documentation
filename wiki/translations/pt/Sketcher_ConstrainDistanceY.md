@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Sketcher ConstrainDistanceY
    Name/pt: Sketcher ConstrainDistanceY
-   Workbenches: [Sketcher](Sketcher_Workbench/pt.md)
-   MenuLocation: Sketch - Sketcher geometries - Constrain vertical distance
-   SeeAlso: [Constraint HorizontalDistance](Sketcher_ConstrainDistanceX/pt.md), [Constraint Length](Sketcher_ConstrainDistance/pt.md)
+   Workbenches: Sketcher Workbench/pt
+   MenuLocation: Sketch -> Sketcher geometries -> Constrain vertical distance
+   SeeAlso: Sketcher_ConstrainDistanceX/pt, Sketcher_ConstrainDistance/pt
 ---
 
 # Sketcher ConstrainDistanceY/pt

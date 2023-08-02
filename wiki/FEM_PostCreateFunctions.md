@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: FEM CompPostCreateFunctions
    MenuLocation: 
-   Workbenches: [FEM](FEM_Workbench.md)
+   Workbenches: FEM_Workbench
    SeeAlso: 
 ---
 

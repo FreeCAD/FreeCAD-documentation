@@ -3,10 +3,10 @@
 - GuiCommand:
    Name: Std Copy
    Name/de: Std Kopieren
-   MenuLocation: Bearbeiten - Kopieren
+   MenuLocation: Bearbeiten -> Kopieren
    Shortcut: **Strg**+**C**
    Workbenches: Alle
-   SeeAlso: [Std Ausschneiden](Std_Cut/de.md), [Std Einfügen](Std_Paste/de.md), [Std Auswahl duplizieren](Std_DuplicateSelection/de.md)---
+   SeeAlso: Std_Cut/de, Std_Paste/de, Std_DuplicateSelection/de---
 
 
 

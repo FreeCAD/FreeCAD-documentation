@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Part Compound‏‎Filter
    Name/fr: Part Filtre de composé
-   MenuLocation: Part - Composés - Filtre composé
-   Workbenches: [Part](Part_Workbench/fr.md)
+   MenuLocation: Part -> Composés -> Filtre composé
+   Workbenches: Part_Workbench/fr
    Version: 0.17
 ---
 

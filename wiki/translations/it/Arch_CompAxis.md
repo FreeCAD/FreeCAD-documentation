@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch CompAxis
    Name/it: Assi
-   MenuLocation: Arch - Assi
-   Workbenches: [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   MenuLocation: Arch -> Assi
+   Workbenches: Arch Workbench/it, BIM Workbench/it
    Version: 0.17
-   SeeAlso: [Assi](Arch_Axis/it.md), [Sistema di assi](Arch_AxisSystem/it.md), [Griglia](Arch_Grid/it.md)
+   SeeAlso: Arch_Axis/it, Arch_AxisSystem/it, Arch_Grid/it
 ---
 
 # Arch CompAxis/it

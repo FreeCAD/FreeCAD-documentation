@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher CreateRectangle Center
    Name/pl: Szkicownik: Utwórz wyśrodkowany prostokąt
-   MenuLocation: Szkic - Elementy geometryczne szkicownika - Utwórz wyśrodkowany prostokąt
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   MenuLocation: Szkic -> Elementy geometryczne szkicownika -> Utwórz wyśrodkowany prostokąt
+   Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **V**
    Version: 0.20
-   SeeAlso: [Utwórz prostokąt](Sketcher_CreateRectangle/pl.md)
+   SeeAlso: Sketcher_CreateRectangle/pl
 ---
 
 # Sketcher CreateRectangle Center/pl

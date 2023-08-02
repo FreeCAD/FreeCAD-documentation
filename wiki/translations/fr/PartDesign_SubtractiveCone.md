@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign SubtractiveCone
    Name/fr: PartDesign Cône soustractif
-   MenuLocation: Part Design - Créer une primitive soustractive - Cône soustractif
-   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   MenuLocation: Part Design -> Créer une primitive soustractive -> Cône soustractif
+   Workbenches: PartDesign_Workbench/fr
    Version: 0.17
-   SeeAlso: [PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md), [PartDesign Cône additif](PartDesign_AdditiveCone/fr.md)
+   SeeAlso: PartDesign_CompPrimitiveSubtractive/fr, PartDesign_AdditiveCone/fr
 ---
 
 # PartDesign SubtractiveCone/fr

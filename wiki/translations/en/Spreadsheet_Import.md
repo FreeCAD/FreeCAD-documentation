@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Spreadsheet Import
-   MenuLocation: Spreadsheet - Import spreadsheet
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench.md)
+   MenuLocation: Spreadsheet -> Import spreadsheet
+   Workbenches: Spreadsheet_Workbench
    Version: 0.17
-   SeeAlso: [Spreadsheet Export](Spreadsheet_Export.md)
+   SeeAlso: Spreadsheet_Export
 ---
 
 # Spreadsheet Import/en

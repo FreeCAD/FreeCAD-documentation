@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Draft Dimension
-   MenuLocation: Annotation - Dimension
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Annotation -> Dimension
+   Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **D** **I**
    Version: 0.8
-   SeeAlso: [Draft FlipDimension](Draft_FlipDimension.md)
+   SeeAlso: Draft_FlipDimension
 ---
 
 # Draft Dimension/pt-br

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std TreeMultiDocument
    Name/de: Std BaumMehrfachdokument
-   MenuLocation: Ansicht - Baumansicht-Aktionen - Mehrfachdokument
+   MenuLocation: Ansicht -> Baumansicht-Aktionen -> Mehrfachdokument
    Workbenches: Alle
    Version: 0.19
-   SeeAlso: [Std BaumEinfachdokument](Std_TreeSingleDocument/de.md), [Std BaumDokumentReduzieren](Std_TreeCollapseDocument/de.md)
+   SeeAlso: Std_TreeSingleDocument/de, Std_TreeCollapseDocument/de
 ---
 
 # Std TreeMultiDocument/de

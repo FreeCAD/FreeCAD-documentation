@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: PartDesign Pad
    Name/pl: Projekt Części: Wyciągnij
-   MenuLocation: Projekt Części - Utwórz cechę przez dodanie - Wyciągnij
-   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
-   SeeAlso: [Kieszeń](PartDesign_Pocket/pl.md)
+   MenuLocation: Projekt Części -> Utwórz cechę przez dodanie -> Wyciągnij
+   Workbenches: PartDesign_Workbench/pl
+   SeeAlso: PartDesign_Pocket/pl
 ---
 
 # PartDesign Pad/pl

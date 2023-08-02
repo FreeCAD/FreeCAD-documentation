@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/cs: Part Union
    Icon: Part Fuse.png
-   MenuLocation: Part - Boolean - Union
-   Workbenches: [Part](Part_Workbench/cs.md)
-   SeeAlso: [Part Cut](Part_Cut/cs.md), [Part Common](Part_Common/cs.md)
+   MenuLocation: Part -> Boolean -> Union
+   Workbenches: Part_Workbench/cs
+   SeeAlso: Part Cut/cs, Part Common/cs
 ---
 
 # Part Fuse/cs

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path Stop
    Name/ru: Path Stop
-   MenuLocation: Путь - Частичные команды - Остановить
-   Workbenches: [Path](Path_Workbench/ru.md)
+   MenuLocation: Путь -> Частичные команды -> Остановить
+   Workbenches: Path_Workbench/ru
    Shortcut: 
    SeeAlso: 
 ---

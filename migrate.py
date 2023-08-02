@@ -79,7 +79,7 @@ import inspect
 
 unhandledTemplates = [] # holder for unhandled templates
 BASE_URL = "https://wiki.freecadweb.org"
-THREADS = 4 # number of threads for file writing
+THREADS = 8 # number of threads for file writing
 WIKIFOLDER = "wiki"
 CATEGORY_COLUMNS = 3 # the number of columns on category pages
 PART_API_PAGES = ["Vertex","Edge","Wire","Face","Shell","Solid","CompSolid","Compound",
@@ -833,11 +833,16 @@ class MediaWiki:
                 guicommandblk = re.findall("```{\=mediawiki}.*?{{GuiCommand(.*?)}}\n```",result,flags=flags)
                 if guicommandblk:
                     guicommandblk = guicommandblk[0]
-                    guicommandblk = re.sub("\|(.*?)\=(.*?)",r"   \1: \2",guicommandblk) # fixing GuiCommand contents
-                    guicommandblk = guicommandblk.replace("→","-") # github does not like unicode in here...
+                    guicommandblk = re.sub("\|(.*?)\=(.*?)",r'   \1: \2',guicommandblk) # fixing GuiCommand contents
+                    # stricter formatting of yaml stuff for github pages
+                    guicommandblk = guicommandblk.replace("→","->") # github does not like unicode in here...
                     if guicommandblk.strip().startswith("/"):  # fix malformation of translated GuiCommands
                         guicommandblk = guicommandblk[3:]
-                    guicommandblk = re.sub("/:\s*/", ": ", guicommandblk) # fixes bad yaml entries
+                    guicommandblk = re.sub("/:\s*/", ": ", guicommandblk) # add spaces after colon
+                    guicommandblk = re.sub("\(.*?\)", "", guicommandblk) # removes markdown links
+                    guicommandblk = re.sub("\|.*?\]", "", guicommandblk)
+                    guicommandblk = guicommandblk.replace("[","")
+                    guicommandblk = guicommandblk.replace("]","")
                     result = re.sub("```{\=mediawiki}.*?{{GuiCommand(.*?)}}\n```",r"---\n- GuiCommand:"+guicommandblk+"---\n",result,flags=flags)
                     result = "---"+"---".join(result.split("---")[1:]) # removing empty line before yaml block
 

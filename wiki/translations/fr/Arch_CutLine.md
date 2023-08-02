@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch CutLine
    Name/fr: Arch Couper selon une ligne
-   MenuLocation: Arch - Couper selon une ligne
-   Workbenches: [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Arch -> Couper selon une ligne
+   Workbenches: Arch_Workbench/fr
    Version: 0.19
-   SeeAlso: [Arch Couper selon un plan](Arch_CutPlane/fr.md)
+   SeeAlso: Arch_CutPlane/fr
 ---
 
 # Arch CutLine/fr

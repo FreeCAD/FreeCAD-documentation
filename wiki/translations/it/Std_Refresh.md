@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std_Refresh
    Name/it: Aggiorna
-   MenuLocation: Modifica - Aggiorna
+   MenuLocation: Modifica -> Aggiorna
    Workbenches: Tutti
    Shortcut: **F5**
 ---

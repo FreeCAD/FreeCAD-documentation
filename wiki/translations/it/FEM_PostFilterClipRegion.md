@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM PostFilterClipRegion
    Name/it: FEM PostFilterClipRegion
-   MenuLocation:  Risultati - Crea clip filter
-   Workbenches: [FEM](FEM_Workbench/it.md)
+   MenuLocation:  Risultati -> Crea clip filter
+   Workbenches: FEM_Workbench/it
    Shortcut: 
-   SeeAlso: [Tutorial FEM](FEM_tutorial/it.md)
+   SeeAlso: FEM_tutorial/it
 ---
 
 # FEM PostFilterClipRegion/it

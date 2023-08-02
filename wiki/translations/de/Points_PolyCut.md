@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Points PolyCut
    Name/de: Points PolySchnitt
-   MenuLocation: Punkte - Punktwolke schneiden
-   Workbenches: [Points](Points_Workbench/de.md)
+   MenuLocation: Punkte -> Punktwolke schneiden
+   Workbenches: Points_Workbench/de
 ---
 
 # Points PolyCut/de

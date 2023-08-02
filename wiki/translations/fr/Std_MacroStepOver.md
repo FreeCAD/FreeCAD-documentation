@@ -3,10 +3,10 @@
    Name: Std DebugOver
    Name/fr: Std Passer outre
    Empty: 1
-   MenuLocation: Macro - Passer outre 
+   MenuLocation: Macro -> Passer outre 
    Workbenches: Tous
    Shortcut: **F10**
-   SeeAlso: [Std Pénétrer dans](Std_MacroStepInto/fr.md), [Std Basculer le point d'arrêt](Std_ToggleBreakpoint/fr.md)
+   SeeAlso: Std_MacroStepInto/fr, Std_ToggleBreakpoint/fr
 ---
 
 # Std MacroStepOver/fr

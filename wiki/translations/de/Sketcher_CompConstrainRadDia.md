@@ -3,7 +3,7 @@
    Name: Sketcher constrain radius or diameter
    Name/de: Sketcher Radius oder Durchmesser festlegen
    MenuLocation: 
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Workbenches: Sketcher Workbench/de
 ---
 
 # Sketcher CompConstrainRadDia/de

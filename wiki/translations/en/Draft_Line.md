@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Draft Line
-   MenuLocation: Drafting - Line
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Drafting -> Line
+   Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **L** **I**
    Version: 0.7
-   SeeAlso: [Draft Wire](Draft_Wire.md)
+   SeeAlso: Draft_Wire
 ---
 
 # Draft Line/en

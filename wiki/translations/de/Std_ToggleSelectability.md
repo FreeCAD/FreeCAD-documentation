@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std ToggleSelectability
    Name/de: Std AuswählbarkeitUmschalten
-   MenuLocation: Ansicht - Sichtbarkeit - Selektierbarkeit an/aus
+   MenuLocation: Ansicht -> Sichtbarkeit -> Selektierbarkeit an/aus
    Workbenches: Alle
 ---
 

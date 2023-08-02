@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Text
    Name/de: Draft Text
-   MenuLocation: Anmerkung - Text
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   MenuLocation: Anmerkung -> Text
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **T** **E**
    Version: 0.7
-   SeeAlso: [Draft Notiz](Draft_Label/de.md), [Draft Textform](Draft_ShapeString/de.md)
+   SeeAlso: Draft_Label/de, Draft_ShapeString/de
 ---
 
 # Draft Text/de

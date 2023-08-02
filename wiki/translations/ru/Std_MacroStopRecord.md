@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std_MacroStopRecord
    Name/ru: Остановить запись макроса
-   MenuLocation: Макросы - Остановить запись макроса
+   MenuLocation: Макросы -> Остановить запись макроса
    Workbenches: Все
-   SeeAlso: [Запись макроса](Std_DlgMacroRecord/ru.md)
+   SeeAlso: Std_DlgMacroRecord/ru
 ---
 
 # Std MacroStopRecord/ru

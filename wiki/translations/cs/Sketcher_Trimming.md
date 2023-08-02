@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/cs:  Skicář Oříznutíí
    Icon: Sketcher Trimming.png
-   Workbenches: [Skicář](Sketcher_Workbench/cs.md)
-   MenuLocation: Náčrt - Skicář Konstrukce -  Oříznutí hrany
+   Workbenches: Sketcher Workbench/cs
+   MenuLocation: Náčrt -> Skicář Konstrukce ->  Oříznutí hrany
    Version: 0.12
-   SeeAlso: [Prodloužit hranu](Sketcher_Extend/cs.md)
+   SeeAlso: Sketcher Extend/cs
 ---
 
 # Sketcher Trimming/cs

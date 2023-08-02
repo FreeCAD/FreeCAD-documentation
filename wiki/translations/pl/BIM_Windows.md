@@ -2,9 +2,9 @@
 - GuiCommand:Addon/pl
    Name: BIM Windows
    Name/pl: BIM Windows
-   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/pl.md)
+   Workbenches: Image:IFC.svg BIM_Workbench/pl
    Addon: BIM
-   MenuLocation: Manage - Zarządzaj drzwiami i oknami
+   MenuLocation: Manage -> Zarządzaj drzwiami i oknami
 ---
 
 # BIM Windows/pl

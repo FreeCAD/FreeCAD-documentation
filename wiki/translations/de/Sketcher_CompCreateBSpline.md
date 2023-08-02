@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Sketcher CompCreateBSpline
    Name/de: Sketcher AuswahlBSplineErstellen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Workbenches: Sketcher_Workbench/de
    Version: 0.17
 ---
 

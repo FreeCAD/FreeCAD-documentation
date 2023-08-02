@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Spreadsheet AlignBottom
    Name/fr: Spreadsheet Alignement en bas
-   MenuLocation: Spreadsheet - Alignement - Alignement en bas
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench/fr.md)
+   MenuLocation: Spreadsheet -> Alignement -> Alignement en bas
+   Workbenches: Spreadsheet_Workbench/fr
    Version: 0.17
 ---
 

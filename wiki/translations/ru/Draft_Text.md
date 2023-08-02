@@ -2,11 +2,11 @@
 - GuiCommand:
    Name/ru: Текст
    Name: Draft_Text
-   MenuLocation: Annotation - Текст
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Annotation -> Текст
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: **T** **E**
    Version: 0.7
-   SeeAlso: [Метка](Draft_Label/ru.md), [Фигура из текста](Draft_ShapeString/ru.md)
+   SeeAlso: Draft_Label/ru, Draft_ShapeString/ru
 ---
 
 # Draft Text/ru

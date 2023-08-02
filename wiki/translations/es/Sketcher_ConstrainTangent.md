@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ConstrainTangent
    Name/es: Croquizador RestringirTangent
-   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation: Croquis - Restricciones Croquizador -  Restringir Tangent
+   Workbenches: Sketcher Workbench/es
+   MenuLocation: Croquis -> Restricciones Croquizador ->  Restringir Tangent
    Shortcut: T
-   SeeAlso: [Restriccion Punto sobre objeto](Sketcher_ConstrainPointOnObject/es.md)
+   SeeAlso: Sketcher ConstrainPointOnObject/es
 ---
 
 # Sketcher ConstrainTangent/es

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Sketcher ConnectLines
-   MenuLocation: Sketch - Sketcher tools - Connect edges
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch -> Sketcher tools -> Connect edges
+   Workbenches: Sketcher_Workbench
    Shortcut: **Z** **J**
    Version: 0.15
-   SeeAlso: [Sketcher ConstrainCoincident](Sketcher_ConstrainCoincident.md)
+   SeeAlso: Sketcher_ConstrainCoincident
 ---
 
 # Sketcher ConnectLines/hr

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Mesh RemoveCompByHand
    Name/fr: Mesh Suppression manuelle de composants
-   MenuLocation: Maillages - Supprimer manuellement des composants...
-   Workbenches: [Mesh](Mesh_Workbench/fr.md)
-   SeeAlso: [Mesh Supprimer des composants](Mesh_RemoveComponents/fr.md), [Arch Séparer un objet Mesh](Arch_SplitMesh/fr.md)
+   MenuLocation: Maillages -> Supprimer manuellement des composants...
+   Workbenches: Mesh Workbench/fr
+   SeeAlso: Mesh_RemoveComponents/fr, Arch_SplitMesh/fr
 ---
 
 # Mesh RemoveCompByHand/fr

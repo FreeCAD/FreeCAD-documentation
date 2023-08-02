@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part JoinCutout
    Name/fr: Part Découpe
-   |MenuLocation: Part - Joindre - Découper pour un objet
-   Workbenches: [Part](Part_Workbench/fr.md)
+   |MenuLocation: Part -> Joindre -> Découper pour un objet
+   Workbenches: Part_Workbench/fr
    Version: 0.16
-   SeeAlso: [Part Connecter](Part_JoinConnect/fr.md), [Part Intégrer](Part_JoinEmbed/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)
+   SeeAlso: Part_JoinConnect/fr, Part_JoinEmbed/fr, Part_Boolean/fr, Part_Thickness/fr
 ---
 
 # Part JoinCutout/fr

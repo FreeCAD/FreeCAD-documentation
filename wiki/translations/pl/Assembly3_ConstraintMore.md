@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintMore
    Name/pl: Złożenie 3 Więcej wiązań
    Icon: Assembly_ConstraintMore.svg
-   Workbenches: [Złożenie 3](Assembly3_Workbench/pl.md)
+   Workbenches: Assembly3_Workbench/pl
 ---
 
 # Assembly3 ConstraintMore/pl

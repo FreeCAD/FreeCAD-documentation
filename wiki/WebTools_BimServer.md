@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: WebTools BimServer
-   MenuLocation: Web Tools - BIM server
-   Workbenches: [WebTools](WebTools_Workbench.md)
+   MenuLocation: Web Tools -> BIM server
+   Workbenches: WebTools_Workbench
 ---
 
 # WebTools BimServer

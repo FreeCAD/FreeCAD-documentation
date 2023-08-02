@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/ru: Отображение рамки вкл/выкл
    Name: TechDraw_ToggleFrame
-   MenuLocation: TechDraw - Отображение рамки вкл/выкл
-   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso: [Вставить Вид](TechDraw_View/ru.md), [Вставить Группу проекций](TechDraw_ProjectionGroup/ru.md)
+   MenuLocation: TechDraw -> Отображение рамки вкл/выкл
+   Workbenches: TechDraw_Workbench/ru
+   SeeAlso: TechDraw_View/ru, TechDraw_ProjectionGroup/ru
 ---
 
 # TechDraw ToggleFrame/ru

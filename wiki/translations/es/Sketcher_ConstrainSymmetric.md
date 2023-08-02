@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Constraint Symmetric
    Name/es: Restricción Simetría
-   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation: Croquis - Restricciones del Croquizador - Restricción de Simetría
+   Workbenches: Sketcher Workbench/es
+   MenuLocation: Croquis -> Restricciones del Croquizador -> Restricción de Simetría
    Shortcut: S
-   SeeAlso: [Restricción Paralela](Sketcher_ConstrainParallel/es.md)
+   SeeAlso: Sketcher_ConstrainParallel/es
 ---
 
 # Sketcher ConstrainSymmetric/es

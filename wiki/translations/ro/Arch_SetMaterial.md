@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Arch SetMaterial
-   Workbenches: [Arch](Arch_Workbench/ro.md)
-   MenuLocation: Arch - Set material...
+   Workbenches: Arch_Workbench/ro
+   MenuLocation: Arch -> Set material...
    Shortcut: **M** **T**
 ---
 

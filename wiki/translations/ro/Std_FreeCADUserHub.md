@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Std FreeCADUserHub
-   MenuLocation: [Help](Std_Help_Menu.md) - Users documentation
+   MenuLocation: Std Help Menu -> Users documentation
    Workbenches: All
-   SeeAlso: [Help](Std_OnlineHelp.md)
+   SeeAlso: Std OnlineHelp
 ---
 
 # Std FreeCADUserHub/ro

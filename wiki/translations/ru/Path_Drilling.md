@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path Drilling
    Name/ru: Path Drilling
-   MenuLocation: Path - Сверление
-   Workbenches: [Path](Path_Workbench/ru.md)
+   MenuLocation: Path -> Сверление
+   Workbenches: Path_Workbench/ru
    Shortcut: **P** **D**
    SeeAlso: 
 ---

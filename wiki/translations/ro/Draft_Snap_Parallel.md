@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Draft Snap Parallel
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   MenuLocation: Draft - [Snap](Draft_Snap.md) - Parallel
+   Workbenches: Draft Workbench, Arch Workbench
+   MenuLocation: Draft -> Draft Snap -> Parallel
    Shortcut: 
    SeeAlso: 
 ---

@@ -1,6 +1,6 @@
 # OpenSCAD ReplaceObject/es
 ---
-- GuiCommand:   Name: OpenSCAD ReplaceObject   Name/es: OpenSCAD ReplaceObject   MenuLocation: OpenSCAD - ReplaceObject‏‎   |Workbenches: [[OpenSCAD_Workbench/es   OpenSCAD]]|Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: OpenSCAD ReplaceObject   Name/es: OpenSCAD ReplaceObject   MenuLocation: OpenSCAD -> ReplaceObject‏‎   |Shortcut:    SeeAlso: ---
 
 
 </div>

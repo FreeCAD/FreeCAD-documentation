@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Scale
    Name/pl: Rysunek Roboczy: Skaluj
-   MenuLocation: Modyfikacja - Skala
-   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   MenuLocation: Modyfikacja -> Skala
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **S** **C**
-   SeeAlso: [Podświetl element podrzędny](Draft_SubelementHighlight/pl.md), [Klonuj](Draft_Clone/pl.md)
+   SeeAlso: Draft_SubelementHighlight/pl, Draft_Clone/pl
 ---
 
 # Draft Scale/pl

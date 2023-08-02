@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch Grid
    Name/it: Griglia
-   MenuLocation: Arch - Assi - Griglia
-   Workbenches: [Arch](Arch_Workbench/it.md)
-   SeeAlso: [Asse](Arch_Axis/it.md), [Sistema di assi](Arch_AxisSystem/it.md)
+   MenuLocation: Arch -> Assi -> Griglia
+   Workbenches: Arch_Workbench/it
+   SeeAlso: Arch Axis/it, Arch AxisSystem/it
 ---
 
 # Arch Grid/it

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ConstrainDistance
    Name/es: Restricción de distancia
-   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation: Sketch - Restricciones de croquis - Restricción de distancia
+   Workbenches: Sketcher Workbench/es
+   MenuLocation: Sketch -> Restricciones de croquis -> Restricción de distancia
    Shortcut: May + D
-   SeeAlso: [Distancia Horizontal](Sketcher_ConstrainDistanceX/es.md), [Distancia Vertical](Sketcher_ConstrainDistanceY/es.md)
+   SeeAlso: Sketcher ConstrainDistanceX/es, Sketcher ConstrainDistanceY/es
 ---
 
 # Sketcher ConstrainDistance/es

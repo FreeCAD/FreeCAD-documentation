@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Draft Label
-   MenuLocation: Annotation - Label
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Annotation -> Label
+   Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **D** **L**
    Version: 0.17
-   SeeAlso: [Draft Text](Draft_Text.md), [Draft ShapeString](Draft_ShapeString.md)
+   SeeAlso: Draft_Text, Draft_ShapeString
 ---
 
 # Draft Label/pl

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std RandomColor
    Name/de: Std ZufälligeFarbe
-   MenuLocation: Ansicht - Zufällige Farbe
+   MenuLocation: Ansicht -> Zufällige Farbe
    Workbenches: All
 ---
 

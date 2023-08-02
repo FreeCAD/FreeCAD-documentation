@@ -2,12 +2,12 @@
 - GuiCommand:
    Name: Draft Arc
    Name/it: Arco
-   MenuLocation: Drafting - Strumenti Arco - Arco
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Drafting -> Strumenti Arco -> Arco
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **A** **R**
    Version: 0.7
-   SeeAlso:  [Arco da 3 punti](Draft_Arc_3Points/it.md),
-[Cerchio](Draft_Circle/it.md)
+   SeeAlso:  Draft_Arc_3Points/it,
+Draft_Circle/it
 ---
 
 # Draft Arc/it

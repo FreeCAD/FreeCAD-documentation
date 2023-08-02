@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
-   Name/ru: Субтрактивный куб (параллелепипед)
+   Name/ru: Субтрактивный куб 
    Name: PartDesign_SubtractiveBox
-   MenuLocation: Part Design - Создать субтрактивный примитив - Субтрактивный куб (параллелепипед)
-   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   MenuLocation: Part Design -> Создать субтрактивный примитив -> Субтрактивный куб 
+   Workbenches: PartDesign_Workbench/ru
    Version: 0.17
-   SeeAlso: [Создать субтрактивный примитив](PartDesign_CompPrimitiveSubtractive/ru.md), [Аддитивный куб (параллелепипед)](PartDesign_AdditiveBox/ru.md)
+   SeeAlso: PartDesign_CompPrimitiveSubtractive/ru, PartDesign_AdditiveBox/ru
 ---
 
 # PartDesign SubtractiveBox/ru

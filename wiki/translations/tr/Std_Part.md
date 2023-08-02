@@ -5,7 +5,7 @@
    MenuLocation: None
    Workbenches: Hepsi
    Version: 0.17
-   SeeAlso: [Grup Oluştur](Std_Group.md), [Cisim Oluştur](PartDesign_Body.md)
+   SeeAlso: Std Group, PartDesign Body
 ---
 
 # Std Part/tr

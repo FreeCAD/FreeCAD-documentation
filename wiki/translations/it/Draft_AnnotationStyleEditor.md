@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft AnnotationStyleEditor
    Name/it: Stile delle annotazioni
-   MenuLocation: Annotazioni - Stile delle annotazioni...
-   Workbenches: [Draft](Draft_Workbench/it.md)
-   SeeAlso: [Testo](Draft_Text/it.md), [Etichetta](Draft_Label/it.md), [Quotatura](Draft_Dimension/it.md)
+   MenuLocation: Annotazioni -> Stile delle annotazioni...
+   Workbenches: Draft_Workbench/it
+   SeeAlso: Draft_Text/it, Draft_Label/it, Draft_Dimension/it
    Version: 0.19
 ---
 

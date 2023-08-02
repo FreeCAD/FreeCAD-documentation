@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Web BrowserSetURL
    MenuLocation: 
-   Workbenches: [Web](Web_Workbench.md), [Start](Start_Workbench.md)
-   SeeAlso: [Web OpenWebsite](Web_OpenWebsite.md)
+   Workbenches: Web_Workbench, Start_Workbench
+   SeeAlso: Web_OpenWebsite
 ---
 
 # Web BrowserSetURL

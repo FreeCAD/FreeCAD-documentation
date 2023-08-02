@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std PrintPdf
    Name/fr: Std Exporter au format PDF
-   MenuLocation: Fichier - Exporter au format PDF
+   MenuLocation: Fichier -> Exporter au format PDF
    Workbenches: Tous
-   SeeAlso: [Std Imprimer](Std_Print/fr.md), [Exporter](Std_Export/fr.md), [Std Capture d'écran](Std_ViewScreenShot.md)
+   SeeAlso: Std_Print/fr, Std_Export/fr, Std_ViewScreenShot
 ---
 
 # Std PrintPdf/fr

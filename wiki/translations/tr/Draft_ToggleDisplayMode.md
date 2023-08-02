@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft ToggleDisplayMode
    Name/tr: Ekran modunu değiştir
-   MenuLocation: Draft - Utilities - Toggle display mode
-   Workbenches: [Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   MenuLocation: Draft -> Utilities -> Toggle display mode
+   Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: Shift + Space
 ---
 

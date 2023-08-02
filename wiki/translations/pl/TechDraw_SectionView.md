@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw SectionView
    Name/pl: Rysunek Techniczny: Wstaw widok przekroju
-   MenuLocation: Rysunek Techniczny - Widoki - Wstaw widok przekroju
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso: [Przekrój złożony](TechDraw_ComplexSection/pl.md), [Wstaw widok](TechDraw_View/pl.md), [Wstaw grupę rzutów](TechDraw_ProjectionGroup/pl.md)
+   MenuLocation: Rysunek Techniczny -> Widoki -> Wstaw widok przekroju
+   Workbenches: TechDraw_Workbench/pl
+   SeeAlso: TechDraw_ComplexSection/pl, TechDraw_View/pl, TechDraw_ProjectionGroup/pl
 ---
 
 # TechDraw SectionView/pl

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch Check
    Name/it: Controlla
-   Workbenches: [Architettura](Arch_Workbench/it.md)
-   MenuLocation: Arch - Utilità - Controlla
-   SeeAlso: [ Chiudi fori](Arch_CloseHoles/it.md)
+   Workbenches: Arch_Workbench/it
+   MenuLocation: Arch -> Utilità -> Controlla
+   SeeAlso: Arch CloseHoles/it
 ---
 
 # Arch Check/it

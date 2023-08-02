@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: FEM PostFilterWarp
-   MenuLocation: Results - Wrap filter
-   Workbenches: [FEM](FEM_Workbench.md)
-   SeeAlso: [FEM Result pipeline](FEM_PostPipelineFromResult.md), [FEM tutorial](FEM_tutorial.md)
+   MenuLocation: Results -> Wrap filter
+   Workbenches: FEM_Workbench
+   SeeAlso: FEM_PostPipelineFromResult, FEM_tutorial
 ---
 
 # FEM PostFilterWarp

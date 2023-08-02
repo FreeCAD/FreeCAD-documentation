@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part Slice
    Name/de: Part Zerschneiden
-   MenuLocation: Part - Teilen - Schneiden zu Verbund
-   Workbenches: [Part](Part_Workbench/de.md)
+   MenuLocation: Part -> Teilen -> Schneiden zu Verbund
+   Workbenches: Part_Workbench/de
    Version: 0.17
-   SeeAlso: [Part BoolescheFragmente](Part_BooleanFragments/de.md), [Part XOdeR](Part_XOR/de.md), [Part AuswahlVerbindungsmethoden](Part_CompJoinFeatures/de.md), [Part BoolescheOperation](Part_Boolean/de.md)
+   SeeAlso: Part_BooleanFragments/de, Part_XOR/de, Part_CompJoinFeatures/de, Part_Boolean/de
 ---
 
 # Part Slice/de

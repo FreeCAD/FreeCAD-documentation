@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Drawing Clip
    Name/fr: Drawing Masque
-   Workbenches: [Drawing](Drawing_Workbench/fr.md)
-   MenuLocation: Drawing - Masque
+   Workbenches: Drawing_Workbench/fr
+   MenuLocation: Drawing -> Masque
 Shortcut=
 ---
 

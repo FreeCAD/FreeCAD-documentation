@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Mesh VertexCurvature
-   MenuLocation: Meshes - Curvature plot
-   Workbenches: [Mesh](Mesh_Workbench.md)
-   SeeAlso: [Mesh CurvatureInfo](Mesh_CurvatureInfo.md)
+   MenuLocation: Meshes -> Curvature plot
+   Workbenches: Mesh_Workbench
+   SeeAlso: Mesh_CurvatureInfo
 ---
 
 # Mesh VertexCurvature/en

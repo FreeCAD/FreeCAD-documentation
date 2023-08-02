@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Draft BSpline
-   MenuLocation: Drafting - B-spline
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Drafting -> B-spline
+   Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **B** **S**
    Version: 0.7
-   SeeAlso: [Draft Wire](Draft_Wire.md), [Draft CubicBezCurve](Draft_CubicBezCurve.md), [Draft BezCurve](Draft_BezCurve.md)
+   SeeAlso: Draft_Wire, Draft_CubicBezCurve, Draft_BezCurve
 ---
 
 # Draft BSpline

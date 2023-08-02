@@ -3,8 +3,8 @@
    Name: Image CreateImagePlane
    Name/de: Image BildebeneErstellen
    MenuLocation: 
-   Workbenches: [Image (Bild)](Image_Workbench/de.md)
-   SeeAlso: [Image Öffnen](Image_Open/de.md), [Image BildebeneSkalieren](Image_Scaling/de.md)
+   Workbenches: Image_Workbench/de
+   SeeAlso: Image_Open/de, Image_Scaling/de
 ---
 
 # Image CreateImagePlane/de

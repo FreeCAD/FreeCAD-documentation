@@ -3,7 +3,7 @@
    Name: CurvedShapes CurvedArray
    Name/fr: CurvedShapes CurvedArray
    MenuLocation: 
-   Workbenches: [CurvedShapes](CurvedShapes_Workbench/fr.md)
+   Workbenches: CurvedShapes Workbench/fr
    Shortcut: 
    SeeAlso: 
 ---

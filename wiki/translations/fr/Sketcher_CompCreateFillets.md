@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Sketcher CompCreateFillets
    Name/fr: Sketcher Congés
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Workbenches: Sketcher_Workbench/fr
    Version: 0.19
 ---
 

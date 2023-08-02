@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Sketcher CreatePoint
-   MenuLocation: Sketch - Sketcher geometries - Create point
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch -> Sketcher geometries -> Create point
+   Workbenches: Sketcher_Workbench
    Shortcut: **G** **Y**
 ---
 

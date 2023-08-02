@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Sketcher Snap
    Name/pl: Szkicownik: Włącz / wyłącz przyciąganie
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Workbenches: Sketcher_Workbench/pl
    Version: 0.21
-   SeeAlso: [Sketcher Grid](Sketcher_Grid.md)
+   SeeAlso: Sketcher_Grid
 ---
 
 # Sketcher Snap/pl

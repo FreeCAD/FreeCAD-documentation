@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch SplitMesh
    Name/ru: Arch SplitMesh
-   MenuLocation: Архитектура - Утилиты - Разделить сетку
-   Workbenches: [Arch](Arch_Workbench/ru.md)
-   SeeAlso: [Выбрать не-разнородные сетки](Arch_SelectNonSolidMeshes/ru.md)
+   MenuLocation: Архитектура -> Утилиты -> Разделить сетку
+   Workbenches: Arch_Workbench/ru
+   SeeAlso: Arch SelectNonSolidMeshes/ru
 ---
 
 # Arch SplitMesh/ru

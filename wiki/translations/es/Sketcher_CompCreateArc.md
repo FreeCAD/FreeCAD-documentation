@@ -3,8 +3,8 @@
    Name: Sketcher Arcs
    Name/es: Croquizador Arcos
    Icon: Sketcher_CompCreateArc.png
-   MenuLocation: Ninguno (solo barra de herramientas)
-   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   MenuLocation: Ninguno 
+   Workbenches: Sketcher_Workbench/es
 ---
 
 # Sketcher CompCreateArc/es

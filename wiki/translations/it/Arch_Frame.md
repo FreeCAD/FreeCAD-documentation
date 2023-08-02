@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch Frame
    Name/it: Carpenteria
-   MenuLocation: Arch - Carpenteria
-   Workbenches: [Arch](Arch_Workbench/it.md)
+   MenuLocation: Arch -> Carpenteria
+   Workbenches: Arch_Workbench/it
    Shortcut: **F** **R**
-   SeeAlso: [Parete](Arch_Wall/it.md), [Struttura](Arch_Structure/it.md)
+   SeeAlso: Arch Wall/it, Arch Structure/it
 ---
 
 # Arch Frame/it

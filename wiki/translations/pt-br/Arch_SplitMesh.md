@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Arch SplitMesh
-   MenuLocation: Arch - Utilities - Split Mesh
-   Workbenches: [Arch](Arch_Workbench.md)
-   SeeAlso: [Arch SelectNonSolidMeshes](Arch_SelectNonSolidMeshes.md), [Arch MeshToShape](Arch_MeshToShape.md)
+   MenuLocation: Arch -> Utilities -> Split Mesh
+   Workbenches: Arch_Workbench
+   SeeAlso: Arch_SelectNonSolidMeshes, Arch_MeshToShape
 ---
 
 # Arch SplitMesh/pt-br

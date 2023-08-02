@@ -2,10 +2,10 @@
 - GuiCommand:-br
    Name: Arch Window
    Name/pt-br: Arch Window
-   MenuLocation: Arch - Window
-   Workbenches: [Arch](Arch_Workbench/pt-br.md)
+   MenuLocation: Arch -> Window
+   Workbenches: Arch_Workbench/pt-br
    Shortcut: **W** **I**
-   SeeAlso: [Arch Wall](Arch_Wall/pt-br.md)
+   SeeAlso: Arch Wall/pt-br
 ---
 
 # Arch Window/pt-br

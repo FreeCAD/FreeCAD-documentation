@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Snap Ortho
    Name/ru: Draft Snap Ortho
-   MenuLocation: Черчение - [Привязка](Draft_Snap/ru.md) - Ортогональная
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Черчение -> Draft Snap/ru -> Ортогональная
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: 
    SeeAlso: 
 ---

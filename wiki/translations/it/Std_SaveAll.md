@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std_SaveAll
    Name/it: Salva tutto
-   MenuLocation: File - Salva tutto
+   MenuLocation: File -> Salva tutto
    Workbenches: Tutti
-   SeeAlso: [Salva](Std_Save/it.md)
+   SeeAlso: Std_Save/it
 ---
 
 # Std SaveAll/it

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std Redo
    Name/fr: Std Rétablir
-   MenuLocation: Édition - Rétablir
+   MenuLocation: Édition -> Rétablir
    Workbenches: Tous
    Shortcut: **Ctrl**+**Y**
-   SeeAlso: [Std Annuler](Std_Undo/fr.md)
+   SeeAlso: Std_Undo/fr
 ---
 
 # Std Redo/fr

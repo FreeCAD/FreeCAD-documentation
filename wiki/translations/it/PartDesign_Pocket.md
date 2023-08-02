@@ -1,6 +1,6 @@
 # PartDesign Pocket/it
 ---
-- GuiCommand:   Name: PartDesign_Pocket   Name/it: Tasca   MenuLocation: PartDesign - Tasca   Workbenches: [PartDesign](PartDesign_Workbench/it.md)---
+- GuiCommand:   Name: PartDesign_Pocket   Name/it: Tasca   MenuLocation: PartDesign -> Tasca   Workbenches: PartDesign Workbench/it---
 
 
 </div>

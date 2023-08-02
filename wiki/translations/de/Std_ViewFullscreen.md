@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std ViewFullscreen
    Name/de: Std AnsichtVollbild
-   MenuLocation: Ansicht - Dokumentfenster - Vollbild
+   MenuLocation: Ansicht -> Dokumentfenster -> Vollbild
    Workbenches: Alle
    Shortcut: **F11**
-   SeeAlso: [Std AuswahlDokumentfenster](Std_ViewDockUndockFullscreen/de.md), [Std HauptfensterVollbild](Std_MainFullscreen.md)
+   SeeAlso: Std_ViewDockUndockFullscreen/de, Std_MainFullscreen
 ---
 
 # Std ViewFullscreen/de

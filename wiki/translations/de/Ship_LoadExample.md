@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Ship Load‏‎
    Name/de: Schiffslast
-   MenuLocation: Schiffkonstruktion - Laden einer Beispielschiffsgeometrie
-   Workbenches: [Schiff](Ship_Workbench/de.md)
+   MenuLocation: Schiffkonstruktion -> Laden einer Beispielschiffsgeometrie
+   Workbenches: Ship_Workbench/de
    Shortcut: 
    SeeAlso: 
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Sketcher CompCreateCircle
    Name/de: Sketcher AuswahlKreisErstellen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Workbenches: Sketcher Workbench/de
 ---
 
 # Sketcher CompCreateCircle/de

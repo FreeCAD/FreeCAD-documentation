@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std SendToPythonConsole
    Name/de: Std AnPythonKonsoleSenden
-   MenuLocation: Bearbeiten -  An Python-Konsole senden
+   MenuLocation: Bearbeiten ->  An Python-Konsole senden
    Workbenches: Alle
    Shortcut: **Ctrl**+**Shift**+**P**
    Version: 0.19

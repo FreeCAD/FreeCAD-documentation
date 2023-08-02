@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft Mirror
    Name/es: Draft Mirror
-   MenuLocation: Draft - Mirror
-   Workbenches: [Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
-   SeeAlso: [Draft Scale](Draft_Scale/es.md)
+   MenuLocation: Draft -> Mirror
+   Workbenches: Draft_Workbench/es, Arch_Workbench/es
+   SeeAlso: Draft Scale/es
 ---
 
 # Draft Mirror/es

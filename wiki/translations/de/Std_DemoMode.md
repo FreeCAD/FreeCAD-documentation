@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std DemoMode
    Name/de: Std Präsentationsmodus
-   MenuLocation: Werkzeuge - Drehscheibe...
+   MenuLocation: Werkzeuge -> Drehscheibe...
    Workbenches: Alle
 ---
 

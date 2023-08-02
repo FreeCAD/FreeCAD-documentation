@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Создать опорный отрезок
    Name: PartDesign_Line
-   MenuLocation: Part Design - Create a datum - Создать опорный отрезок
-   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   MenuLocation: Part Design -> Create a datum -> Создать опорный отрезок
+   Workbenches: PartDesign_Workbench/ru
    Version: 0.17
-   SeeAlso: [Создать опорную точку](PartDesign_Point/ru.md), [Создать опорную плоскость](PartDesign_Plane/ru.md)
+   SeeAlso: PartDesign_Point/ru, PartDesign_Plane/ru
 ---
 
 # PartDesign Line/ru

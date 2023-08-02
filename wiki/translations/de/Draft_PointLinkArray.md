@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft PointLinkArray
    Name/de: Entwurf PunktVerknüpfeAnordnung
-   MenuLocation: Änderung - Anordnungswerkzeuge - Punkt Verknüpfe Anordnung
-   Workbenches: [Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso: [OrthoAnordnung](Draft_OrthoArray/de.md), [PolarAnordnung](Draft_PolarArray/de.md), [KreisAnordnung](Draft_CircularArray/de.md), [PfadAnordnung](Draft_PathArray/de.md), [PunktAnordnung](Draft_PointArray/de.md)
+   MenuLocation: Änderung -> Anordnungswerkzeuge -> Punkt Verknüpfe Anordnung
+   Workbenches: Draft Workbench/de, Arch_Workbench/de
+   SeeAlso: Draft_OrthoArray/de, Draft_PolarArray/de, Draft_CircularArray/de, Draft_PathArray/de, Draft_PointArray/de
    Version: 0.19
 ---
 

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ConstrainVertical
    Name/fr: Sketcher Contrainte verticale
-   MenuLocation: Esquisse - Contraintes d'esquisse - Contrainte verticale
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   MenuLocation: Esquisse -> Contraintes d'esquisse -> Contrainte verticale
+   Workbenches: Sketcher_Workbench/fr
    Shortcut: **V**
-   SeeAlso: [Sketcher Contrainte horizontale](Sketcher_ConstrainHorizontal/fr.md)
+   SeeAlso: Sketcher_ConstrainHorizontal/fr
 ---
 
 # Sketcher ConstrainVertical/fr

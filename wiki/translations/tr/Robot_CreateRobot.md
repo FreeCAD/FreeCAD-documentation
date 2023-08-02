@@ -3,8 +3,8 @@
 - GuiCommand:
    Name: Robot CreateRobot
    Name/tr: Robot oluştur
-   Workbenches: [Robot](Robot_Workbench/tr.md)
-   MenuLocation: Robot - Robot oluştur---
+   Workbenches: Robot_Workbench/tr
+   MenuLocation: Robot -> Robot oluştur---
 
 
 </div>

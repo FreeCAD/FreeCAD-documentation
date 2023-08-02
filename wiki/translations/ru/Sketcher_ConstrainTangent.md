@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Ограничение касательности
    Name: Sketcher_ConstrainTangent
-   MenuLocation: Sketch - Ограничения эскиза - Ограничение касательности
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation: Sketch -> Ограничения эскиза -> Ограничение касательности
+   Workbenches: Sketcher_Workbench/ru
    Shortcut: **T**
-   SeeAlso: [Зафиксировать точку на объекте](Sketcher_ConstrainPointOnObject/ru.md)
+   SeeAlso: Sketcher_ConstrainPointOnObject/ru
 ---
 
 # Sketcher ConstrainTangent/ru

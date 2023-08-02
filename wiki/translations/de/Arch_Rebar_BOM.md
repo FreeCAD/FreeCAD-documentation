@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch Rebar BOM
    Name/de: Arch Bewehrung Stückliste
-   MenuLocation: Reinforcement - Stückliste
-   Workbenches: [Arch-Arbeitsbereich](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   MenuLocation: Reinforcement -> Stückliste
+   Workbenches: Arch_Workbench/de, BIM_Workbench/de
    Version: 0.19
-   SeeAlso: [Reinforcement](Reinforcement_Workbench/de.md), [Bewehrungsstab Biegeplan](Reinforcement_Bar_Bending_Schedule/de.md), [Bewehrungszeichnungsbemessung](Arch_Rebar_Drawing_Dimensioning/de.md)
+   SeeAlso: Reinforcement_Workbench/de, Reinforcement_Bar_Bending_Schedule/de, Arch_Rebar_Drawing_Dimensioning/de
 ---
 
 # Arch Rebar BOM/de

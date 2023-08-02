@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Path DressupAxisMap
-   MenuLocation: Path - Path Dressup - Axis Map
-   Workbenches: [Path](Path_Workbench.md)
+   MenuLocation: Path -> Path Dressup -> Axis Map
+   Workbenches: Path_Workbench
 ---
 
 # Path DressupAxisMap

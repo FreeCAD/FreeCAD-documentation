@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Measure Angular
    Name/de: Part Messung Winkel
-   MenuLocation: Messen - Winkel messen
-   Workbenches: [Part](Part_Workbench/de.md)
-   SeeAlso: [Draft Maß](Draft_Dimension/de.md)
+   MenuLocation: Messen -> Winkel messen
+   Workbenches: Part_Workbench/de
+   SeeAlso: Draft_Dimension/de
 ---
 
 # Part Measure Angular/de

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Sketcher Snap
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Workbenches: Sketcher_Workbench
    Version: 0.21
-   SeeAlso: [Sketcher Grid](Sketcher_Grid.md)
+   SeeAlso: Sketcher_Grid
 ---
 
 # Sketcher Snap

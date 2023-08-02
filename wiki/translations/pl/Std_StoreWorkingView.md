@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Std StoreWorkingView
    Name/pl: Std: Zachowaj widok
-   MenuLocation: Widok - Widoki standardowe - Przechowaj widok roboczy
+   MenuLocation: Widok -> Widoki standardowe -> Przechowaj widok roboczy
    Workbenches: wszystkie
    Shortcut: **Shift** + **End**
    Version: 0.21
-   SeeAlso: [Odtwórz widok](Std_RecallWorkingView/pl.md), [Zamroź widok](Std_FreezeViews/pl.md)
+   SeeAlso: Std_RecallWorkingView/pl, Std_FreezeViews/pl
 ---
 
 # Std StoreWorkingView/pl

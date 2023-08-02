@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Draft Rectangle   Name/de: Draft Rectangle
-   MenuLocation: Entwurf - Rechteck
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   MenuLocation: Entwurf -> Rechteck
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **R** **E**
-   SeeAlso: [Part Box](Part_Box/de.md)
+   SeeAlso: Part Box/de
 ---
 
 # Draft Rectangle/de

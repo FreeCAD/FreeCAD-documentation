@@ -5,7 +5,7 @@
    MenuLocation: ''None''
    Workbenches: Tutti
    Version: 0.19
-   SeeAlso: [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal/it.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks/it.md), [Std SelBack](Std_SelBack/it.md), [Std SelForward](Std_SelForward/it.md)
+   SeeAlso: Std_LinkSelectLinkedFinal/it, Std_LinkSelectAllLinks/it, Std_SelBack/it, Std_SelForward/it
 ---
 
 # Std LinkSelectLinked/it

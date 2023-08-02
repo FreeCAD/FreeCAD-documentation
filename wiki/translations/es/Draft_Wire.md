@@ -3,10 +3,10 @@
    Name: Draft Wire
    Name/es: Draft Wire
    MenuLocation: Croquis -> Polilínea
-   Workbenches: [Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Shortcut: **P** **L**
    Version: 0.7
-   SeeAlso: [Línea Boceto](Draft_Line/es.md), [BSpline Boceto](Draft_BSpline/es.md)
+   SeeAlso: Draft Line/es, Draft BSpline/es
 ---
 
 # Draft Wire/es

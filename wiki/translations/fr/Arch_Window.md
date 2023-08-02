@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch Window
    Name/fr: Arch Fenêtre
-   MenuLocation: Arch - Fenêtre
-   Workbenches: [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Arch -> Fenêtre
+   Workbenches: Arch_Workbench/fr
    Shortcut: **W** **I**
-   SeeAlso: [Arch Mur](Arch_Wall/fr.md), [Arch Ajouter](Arch_Add/fr.md)
+   SeeAlso: Arch_Wall/fr, Arch_Add/fr
 ---
 
 # Arch Window/fr

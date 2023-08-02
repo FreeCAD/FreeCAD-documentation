@@ -3,8 +3,8 @@
    Name: Part Builder
    Name/ru: Построитель форм
    MenuLocation: Деталь -> Построитель форм...
-   Workbenches: [Part(Деталь)](Part_Workbench/ru.md)
-   SeeAlso: [Примитивы](Part_Primitives/ru.md)
+   Workbenches: Part_Workbench/ru
+   SeeAlso: Part_Primitives/ru
 ---
 
 # Part Builder/ru

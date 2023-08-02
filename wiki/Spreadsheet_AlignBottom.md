@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Spreadsheet AlignBottom
-   MenuLocation: Spreadsheet - Alignment - Align bottom
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench.md)
+   MenuLocation: Spreadsheet -> Alignment -> Align bottom
+   Workbenches: Spreadsheet_Workbench
    Version: 0.17
 ---
 

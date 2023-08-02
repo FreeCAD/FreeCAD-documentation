@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: TechDraw ShowAll
    Name/de:  TechDraw AllesAnzeigen
-   MenuLocation: TechDraw - Linien hinzufügen - Ausgeblendete Kanten ein-/ausblenden
-   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   MenuLocation: TechDraw -> Linien hinzufügen -> Ausgeblendete Kanten ein-/ausblenden
+   Workbenches: TechDraw_Workbench/de
    Version: 0.19
-   SeeAlso: [LiniendarstellungÄndern](TechDraw_DecorateLine/de.md)
+   SeeAlso: TechDraw_DecorateLine/de
 ---
 
 # TechDraw ShowAll/de

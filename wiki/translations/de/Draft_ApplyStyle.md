@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft ApplyStyle
    Name/de: AktuellenStilAnwenden
-   MenuLocation: Draft - Utilities - Aktuellen Stil anwenden
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso: [Draft StilFestlegen](Draft_SetStyle/de.md)
+   MenuLocation: Draft -> Utilities -> Aktuellen Stil anwenden
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   SeeAlso: Draft_SetStyle/de
 ---
 
 # Draft ApplyStyle/de

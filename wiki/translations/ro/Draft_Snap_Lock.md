@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft Snap Lock
    Name/ro: Draft ToggleSnap
-   MenuLocation: Draft - [Snapping](Draft_Snap/ro.md) - Toggle snap
-   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   SeeAlso: [[Draft Snap/ro]], [[Draft ToggleGrid/ro]]
+   MenuLocation: Draft -> Draft Snap/ro -> Toggle snap
+   Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
+   SeeAlso: Draft Snap/ro, Draft ToggleGrid/ro
 ---
 
 # Draft Snap Lock/ro

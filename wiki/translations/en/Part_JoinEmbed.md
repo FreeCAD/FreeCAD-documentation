@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Part JoinEmbed
-   MenuLocation: Part - Join - Embed Object
-   Workbenches: [Part](Part_Workbench.md)
+   MenuLocation: Part -> Join -> Embed Object
+   Workbenches: Part_Workbench
    Version: 0.16
-   SeeAlso: [Part JoinConnect](Part_JoinConnect.md), [Part JoinCutout](Part_JoinCutout.md), [Part Boolean](Part_Boolean.md), [Part Thickness](Part_Thickness.md)
+   SeeAlso: Part_JoinConnect, Part_JoinCutout, Part_Boolean, Part_Thickness
 ---
 
 # Part JoinEmbed/en

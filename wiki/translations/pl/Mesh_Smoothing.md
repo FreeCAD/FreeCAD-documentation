@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Mesh Smoothing
    Name/pl: Siatka: Wygładź
-   MenuLocation: Siatki - Wygładź ...
-   Workbenches: [Siatka](Mesh_Workbench/pl.md)
+   MenuLocation: Siatki -> Wygładź ...
+   Workbenches: Mesh_Workbench/pl
 ---
 
 # Mesh Smoothing/pl

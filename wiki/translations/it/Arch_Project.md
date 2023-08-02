@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch Project
    Name/it: Progetto
-   MenuLocation: Arch - Progetto
-   Workbenches: [Arch](Arch_Workbench/it.md)
+   MenuLocation: Arch -> Progetto
+   Workbenches: Arch_Workbench/it
    Shortcut: **P** **O**
-   SeeAlso: [Sito](Arch_Site/it.md), [Edificio](Arch_Building/it.md)
+   SeeAlso: Arch Site/it, Arch Building/it
 ---
 
 # Arch Project/it

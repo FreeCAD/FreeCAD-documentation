@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Part MakeFace‏‎
-   MenuLocation: Part - Make face from wires
-   Workbenches: [Part](Part_Workbench.md)
+   MenuLocation: Part -> Make face from wires
+   Workbenches: Part_Workbench
    Version: 0.19
-   SeeAlso: [Part RuledSurface](Part_RuledSurface.md)
+   SeeAlso: Part_RuledSurface
 ---
 
 # Part MakeFace

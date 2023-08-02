@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher Conics
    Icon: Sketcher_CompCreateConic.png
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
-   MenuLocation: None (toolbar only)
+   Workbenches: Sketcher Workbench
+   MenuLocation: None 
 ---
 
 # Sketcher CompCreateConic/ro

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Draft Slope
-   MenuLocation: Modification - Set slope
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Modification -> Set slope
+   Workbenches: Draft_Workbench, Arch_Workbench
    Version: 0.17
 ---
 

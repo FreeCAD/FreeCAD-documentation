@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Draft LayerManager
-   MenuLocation: Utilities - Manage layers...
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Utilities -> Manage layers...
+   Workbenches: Draft_Workbench, Arch_Workbench
    Version: 0.21
-   SeeAlso: [BIM Workbench](BIM_Workbench.md), [Draft Layer](Draft_Layer.md)
+   SeeAlso: BIM_Workbench, Draft_Layer
 ---
 
 # Draft LayerManager/de

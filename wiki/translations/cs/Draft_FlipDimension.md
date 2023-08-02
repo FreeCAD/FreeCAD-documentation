@@ -1,6 +1,6 @@
 # Draft FlipDimension/cs
 ---
-- GuiCommand:   Name: Draft FlipDimension   Name/cs: Kreslení PřehoďKótu   Workbenches: [Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation: Draft - Utilities - Flip Dimension   SeeAlso: [Kóty](Draft_Dimension/cs.md)---
+- GuiCommand:   Name: Draft FlipDimension   Name/cs: Kreslení PřehoďKótu   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
 
 
 </div>

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft ToggleGrid
    Name/fr: Draft Basculer la grille
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **G** **R**
-   SeeAlso: [Draft Aimantation](Draft_Snap/fr.md), [Draft Aimantation Grille](Draft_Snap_Grid/fr.md), [Draft Plan de travail](Draft_SelectPlane/fr.md)
+   SeeAlso: Draft_Snap/fr, Draft_Snap_Grid/fr, Draft_SelectPlane/fr
 ---
 
 # Draft ToggleGrid/fr

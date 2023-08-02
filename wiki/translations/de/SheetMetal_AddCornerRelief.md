@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: SheetMetal AddCornerRelief
    Name/de: SheetMetal EckentlastungHinzufügen
-   MenuLocation: SheetMetal - Add Corner Relief
-   Workbenches: [Blech (SheetMetal)](SheetMetal_Workbench/de.md)
+   MenuLocation: SheetMetal -> Add Corner Relief
+   Workbenches: SheetMetal_Workbench/de
    Shortcut: **C** **R**
 ---
 

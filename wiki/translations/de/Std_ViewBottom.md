@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std ViewBottom
    Name/de: Std Bodenansicht
-   MenuLocation: {{StdMenu|[Ansichtsmenü](Std_View_Menu/de.md)}} - Standardansichten - Bodenansicht
+   MenuLocation: {{StdMenu}} -> Standardansichten -> Bodenansicht
    Workbenches: Alle
    Shortcut: 5
-   SeeAlso: [Rückansicht](Std_ViewRear/de.md), [Ansicht von links](Std_ViewLeft/de.md)
+   SeeAlso: Std_ViewRear/de, Std_ViewLeft/de
 ---
 
 # Std ViewBottom/de

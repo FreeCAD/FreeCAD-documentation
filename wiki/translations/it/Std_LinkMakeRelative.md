@@ -5,7 +5,7 @@
    MenuLocation: Nessuna
    Workbenches: Tutti
    Version: 0.19
-   SeeAlso: [Parte](Std_Part/it.md), [Gruppo](Std_Group/it.md), [Crea un link](Std_LinkMake/it.md)
+   SeeAlso: Std_Part/it, Std_Group/it, Std_LinkMake/it
 ---
 
 # Std LinkMakeRelative/it

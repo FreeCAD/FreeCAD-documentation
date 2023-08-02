@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: View Measure Clear All
    Name/de: Ansicht Messen alle löschen
-   MenuLocation: Ansicht - Navigations-/Editier-Modus
+   MenuLocation: Ansicht -> Navigations-/Editier-Modus
    Workbenches: Alle
-   SeeAlso: [Ansicht Messen alle umschalten](View_Measure_Toggle_All/de.md), [Part Messen alle umschalten](Part_Measure_Toggle_All/de.md), [Part Messen alle löschen](Part_Measure_Clear_All/de.md)
+   SeeAlso: View_Measure_Toggle_All/de, Part_Measure_Toggle_All/de, Part_Measure_Clear_All/de
 ---
 
 # View Measure Clear All/de

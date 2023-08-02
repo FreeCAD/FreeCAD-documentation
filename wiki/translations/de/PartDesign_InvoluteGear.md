@@ -3,9 +3,9 @@
    Name: PartDesign InvoluteGear
    Name/de: PartDesign Evolventenrad
    Icon: PartDesign_InternalExternalGear.svg
-   MenuLocation: Part Design - Evolventenrad...
-   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso: [Arbeitsbereich FCGear](FCGear_Workbench/de.md)
+   MenuLocation: Part Design -> Evolventenrad...
+   Workbenches: PartDesign_Workbench/de
+   SeeAlso: FCGear_Workbench/de
 ---
 
 # PartDesign InvoluteGear/de

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std_SaveCopy
    Name/ru: Сохранить копию...
-   MenuLocation: Файл - Сохранить копию...
+   MenuLocation: Файл -> Сохранить копию...
    Workbenches: Все
-   SeeAlso: [Сохранить](Std_Save/ru.md),<br> [Сохранить как...](Std_SaveAs/ru.md) 
+   SeeAlso: Std_Save/ru,<br> Std_SaveAs/ru 
 ---
 
 # Std SaveCopy/ru

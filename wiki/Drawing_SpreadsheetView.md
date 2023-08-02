@@ -1,6 +1,6 @@
 # Drawing SpreadsheetView
 ---
-- GuiCommand:   Name: Drawing SpreadsheetView   Workbenches: [[Drawing Workbench   Drawing]]|MenuLocation: Drawing - Spreadsheet View---
+- GuiCommand:   Name: Drawing SpreadsheetView   Workbenches: Drawing Workbench   Drawing|MenuLocation: Drawing -> Spreadsheet View---
 
 ## Description
 

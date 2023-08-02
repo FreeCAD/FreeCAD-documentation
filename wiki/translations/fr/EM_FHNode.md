@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: EM FHNode
    Name/fr: EM Noeud FH
-   MenuLocation: EM - FHNode
-   Workbenches: [EM](EM_Workbench/fr.md)
+   MenuLocation: EM -> FHNode
+   Workbenches: EM_Workbench/fr
    Shortcut: **E** **N**
    Version: 0.17
-   SeeAlso: [EM Segment FH](EM_FHSegment/fr.md), [EM Chemin FH](EM_FHPath/fr.md), [EM Plan FH](EM_FHPlane/fr.md), [EM Bascule noeud trou FH](EM_FHPlaneAddRemoveNodeHole/fr.md), [EM Equivalence FH](EM_FHEquiv/fr.md), [EM Port FH](EM_FHPort/fr.md)
+   SeeAlso: EM_FHSegment/fr, EM_FHPath/fr, EM_FHPlane/fr, EM_FHPlaneAddRemoveNodeHole/fr, EM_FHEquiv/fr, EM_FHPort/fr
 ---
 
 # EM FHNode/fr

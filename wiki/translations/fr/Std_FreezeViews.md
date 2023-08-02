@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std FreezeViews
    Name/fr: Std Figer l'affichage
-   MenuLocation: Affichage - Figer l'affichage - ...
+   MenuLocation: Affichage -> Figer l'affichage -> ...
    Workbenches: Tous
-   SeeAlso: [Std Position de la caméra](Std_ViewIvIssueCamPos/fr.md)
-   SeeAlso: [Std Enregistrer la vue](Std_StoreWorkingView/fr.md), [Std Rappel de vue](Std_RecallWorkingView/fr.md), [Std Position de la caméra](Std_ViewIvIssueCamPos/fr.md)
+   SeeAlso: Std_ViewIvIssueCamPos/fr
+   SeeAlso: Std_StoreWorkingView/fr, Std_RecallWorkingView/fr, Std_ViewIvIssueCamPos/fr
 ---
 
 # Std FreezeViews/fr

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Arch SectionPlane
    Name/es: Arch Plano de Sección
-   MenuLocation: Arquitectura - Plano de sección
-   Workbenches: [Entorno de Arquitectura](Arch_Workbench/es.md)
+   MenuLocation: Arquitectura -> Plano de sección
+   Workbenches: Arch_Workbench/es
    Shortcut: **S** **P**
 ---
 

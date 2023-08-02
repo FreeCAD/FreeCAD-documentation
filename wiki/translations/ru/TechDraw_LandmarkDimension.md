@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Вставить размер знака
    Name: TechDraw_LandmarkDimension
-   MenuLocation: TechDraw - Размеры - Вставить размер знака
-   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   MenuLocation: TechDraw -> Размеры -> Вставить размер знака
+   Workbenches: TechDraw_Workbench/ru
    Version: 0.19
-   SeeAlso: [Указать горизонтальный размер](TechDraw_HorizontalDimension/ru.md), [Указать вертикальный размер](TechDraw_VerticalDimension/ru.md)
+   SeeAlso: TechDraw_HorizontalDimension/ru, TechDraw_VerticalDimension/ru
 ---
 
 # TechDraw LandmarkDimension/ru

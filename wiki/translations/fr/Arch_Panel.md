@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Arch Panel
    Name/fr: Arch Panneau
-   MenuLocation: Arch - Outils pour les  panneaux - Panneau
-   Workbenches: [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Arch -> Outils pour les  panneaux -> Panneau
+   Workbenches: Arch_Workbench/fr
    Shortcut: **P** **A**
    Version: 0.15
-   SeeAlso: [Arch Découpe de panneau](Arch_Panel_Cut/fr.md), [Arch Feuille de panneaux](Arch_Panel_Sheet/fr.md)
+   SeeAlso: Arch_Panel_Cut/fr, Arch_Panel_Sheet/fr
 ---
 
 # Arch Panel/fr

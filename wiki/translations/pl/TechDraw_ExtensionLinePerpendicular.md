@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ExtensionLinePerpendicular
    Name/pl: Rysunek Techniczny: Rozszerzenie Dodaj pomocniczą linię prostopadłą
-   MenuLocation: Rysunek Techniczny - Rozszerzenie: Linie środka / gwinty - Dodaj pomocniczą linię prostopadłą
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   MenuLocation: Rysunek Techniczny -> Rozszerzenie: Linie środka / gwinty -> Dodaj pomocniczą linię prostopadłą
+   Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20
-   SeeAlso: [Dodaj pomocniczą linię równoległą](TechDraw_ExtensionLineParallel/pl.md)
+   SeeAlso: TechDraw_ExtensionLineParallel/pl
 ---
 
 # TechDraw ExtensionLinePerpendicular/pl

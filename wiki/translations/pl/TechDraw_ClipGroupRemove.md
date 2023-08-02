@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw ClipGroupRemove
    Name/pl: Rysunek Techniczny: Usuń widok z grupy wycinków
-   MenuLocation: Rysunek Techniczny - Usuń widok z grupy wycinków
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso: [Wstaw grupę wycinków](TechDraw_ClipGroup/pl.md),  [Dodaj widok do grupy wycinków](TechDraw_ClipGroupAdd/pl.md), 
+   MenuLocation: Rysunek Techniczny -> Usuń widok z grupy wycinków
+   Workbenches: TechDraw_Workbench/pl
+   SeeAlso: TechDraw_ClipGroup/pl,  TechDraw_ClipGroupAdd/pl, 
 ---
 
 # TechDraw ClipGroupRemove/pl

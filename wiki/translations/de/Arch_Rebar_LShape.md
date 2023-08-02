@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Arch Rebar LShape   Name/de: Arch Bewehrungsstab L-förmig
-   MenuLocation: Arch - Rebar tools - L-Shape Rebar oder 3D/BIM - Reinforcement tools - L-förmige Bewehrung
-   Workbenches: [Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   MenuLocation: Arch -> Rebar tools -> L-Shape Rebar oder 3D/BIM -> Reinforcement tools -> L-förmige Bewehrung
+   Workbenches: Arch_Workbench/de, BIM_Workbench/de
    Version: 0.17
-   SeeAlso: [Verstärkung](Reinforcement_Workbench/de.md), [Bewehrungsstab](Arch_Rebar/de.md), [abgewinkelter Bewehrungsstab](Arch_Rebar_BentShape/de.md)
+   SeeAlso: Reinforcement_Workbench/de, Arch Rebar/de, Arch_Rebar_BentShape/de
 ---
 
 # Arch Rebar LShape/de

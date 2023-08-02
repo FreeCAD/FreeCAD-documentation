@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std Redo
    Name/pl: Std: Przywróć
-   MenuLocation: Edycja - Przywróć
+   MenuLocation: Edycja -> Przywróć
    Workbenches: wszystkie
    Shortcut: **Ctrl** + **Y**
-   SeeAlso: [Cofnij](Std_Undo/pl.md)
+   SeeAlso: Std_Undo/pl
 ---
 
 # Std Redo/pl

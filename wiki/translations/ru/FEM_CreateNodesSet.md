@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: FEM CreateNodesSet
    Name/ru: FEM CreateNodesSet
-   MenuLocation: Mesh - Nodes set
-   Workbenches: [FEM](FEM_Workbench/ru.md)
-   Shortcut:    SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
+   MenuLocation: Mesh -> Nodes set
+   Workbenches: FEM_Workbench/ru
+   Shortcut:    SeeAlso: FEM_tutorial/ru
 ---
 
 # FEM CreateNodesSet/ru

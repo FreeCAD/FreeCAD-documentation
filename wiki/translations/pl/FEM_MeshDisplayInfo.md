@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: FEM MeshDisplayInfo
    Name: MES: Wyświetl informacje o siatce MES
-   MenuLocation: Context menu on mesh object - Wyświetl informacje o siatce MES
-   Workbenches: [MES](FEM_Workbench/pl.md)
-   SeeAlso: [Poradnik dla środowiska pracy MES](FEM_tutorial/pl.md)
+   MenuLocation: Context menu on mesh object -> Wyświetl informacje o siatce MES
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM MeshDisplayInfo/pl

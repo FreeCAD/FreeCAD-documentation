@@ -3,9 +3,9 @@
    Name: Sketcher Reorient
    Name/cs: Skicář Změna orientace
    Empty: 1
-   Workbenches: [Skicář](Sketcher_Workbench/cs.md), [Návrh dílu](PartDesign_Workbench/cs.md)
-   MenuLocation: Návrh dílu - Změna orientace náčrtu
-   SeeAlso: [Vyznač náčrt](Sketcher_MapSketch/cs.md), [Nový náčrt](Sketcher_NewSketch/cs.md)
+   Workbenches: Sketcher Workbench/cs, PartDesign Workbench/cs
+   MenuLocation: Návrh dílu -> Změna orientace náčrtu
+   SeeAlso: Sketcher_MapSketch/cs, Sketcher_NewSketch/cs
 ---
 
 # Sketcher ReorientSketch/cs

@@ -1,6 +1,6 @@
 # PartDesign Mirrored/cs
 ---
-- GuiCommand:   Name: PartDesign_Mirrored   Name/cs: PartDesign Mirrored   Workbenches: [[PartDesign Workbench/cs   Návrh dílu]], Complete|MenuLocation: PartDesign -> Mirrored---
+- GuiCommand:   Name: PartDesign_Mirrored   Name/cs: PartDesign Mirrored   Workbenches: PartDesign Workbench/cs   Návrh dílu, Complete|MenuLocation: PartDesign -> Mirrored---
 
 
 </div>

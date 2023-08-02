@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Arch Panel Cut
    Name/de: Arch Tafelschnitt
-   MenuLocation: Arch - Panel-Werkzeuge - Tafelschnitt
-   Workbenches: [Arch](Arch_Workbench.md),[Pfad](Path_Workbench/de.md)
+   MenuLocation: Arch -> Panel-Werkzeuge -> Tafelschnitt
+   Workbenches: Arch_Workbench,Path_Workbench/de
    Shortcut: **P** **C**
    Version: 0.17
-   SeeAlso: [Arch Platte](Arch_Panel/de.md), [Arch Tafelplatte](Arch_Panel_Sheet/de.md), [Arch Verschachteln](Arch_Nest/de.md)
+   SeeAlso: Arch_Panel/de, Arch_Panel_Sheet/de, Arch_Nest/de
 ---
 
 # Arch Panel Cut/de

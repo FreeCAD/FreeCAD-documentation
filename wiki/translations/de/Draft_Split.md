@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Split
    Name/de: Entwurf Teilen
-   MenuLocation: Änderung - Teilen
-   Workbenches: [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   MenuLocation: Änderung -> Teilen
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **S** **P**
    Version: 0.18
-   SeeAlso: [Entwurf Verbinden](Draft_Join/de.md)
+   SeeAlso: Draft_Join/de
 ---
 
 # Draft Split/de

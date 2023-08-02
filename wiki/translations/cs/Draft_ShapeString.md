@@ -1,6 +1,6 @@
 # Draft ShapeString/cs
 ---
-- GuiCommand:   Name: Draft_ShapeString   Name/cs: Draft ShapeString   Workbenches: [MenuLocation: Draft -> ShapeString   Shortcut: S S   SeeAlso: [[Draft Text/cs|Draft Text](Draft_Workbench/cs___Kreslení]].md), [Part Extrude](Part_Extrude/cs.md)---
+- GuiCommand:   Name: Draft_ShapeString   Name/cs: Draft ShapeString   Workbenches: Draft_Workbench/cs   Kreslení, Part Extrude/cs---
 
 
 </div>

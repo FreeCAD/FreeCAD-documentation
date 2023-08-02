@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std Import
    Name/ru: Std Import
-   MenuLocation: Файл - Импортировать
+   MenuLocation: Файл -> Импортировать
    Workbenches: All
    Shortcut: **Ctrl**+**I**
-   SeeAlso: [Std Open](Std_Open/ru.md), [Import Export](Import_Export/ru.md), [Import Export Preferences](Import_Export_Preferences/ru.md)
+   SeeAlso: Std_Open/ru, Import_Export/ru, Import_Export_Preferences/ru
 ---
 
 # Std Import/ru

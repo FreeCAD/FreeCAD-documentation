@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Raytracing InsertPart
    Name/ru: Raytracing InsertPart
-   MenuLocation: Трассировка лучей - Вставить деталь
-   Workbenches: [Raytracing](Raytracing_Workbench/ru.md)
+   MenuLocation: Трассировка лучей -> Вставить деталь
+   Workbenches: Raytracing_Workbench/ru
    Shortcut: 
    SeeAlso: 
 ---

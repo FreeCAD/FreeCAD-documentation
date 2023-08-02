@@ -1,6 +1,6 @@
 # Drawing Open SVG/cs
 ---
-- GuiCommand:   Name: Drawing Open SVG   Name/cs: Drawing Open SVG   Workbenches: [MenuLocation: Drawing - Open SVG...   Shortcut: none   SeeAlso: [[Drawing Save/cs|Uložení výkresu](Drawing_Workbench/cs___Výkres]],_Sestavení.md)---
+- GuiCommand:   Name: Drawing Open SVG   Name/cs: Drawing Open SVG   Workbenches: Drawing Workbench/cs   Výkres, Sestavení---
 
 
 </div>

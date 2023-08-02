@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: L-Образная арматура
    Name: Arch_Rebar_LShape
-   MenuLocation: Arch - Rebar tools - L-Shape Rebar<br>3D/BIM - Reinforcement tools - L-Shape Rebar
-   Workbenches: [Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
+   MenuLocation: Arch -> Rebar tools -> L-Shape Rebar<br>3D/BIM -> Reinforcement tools -> L-Shape Rebar
+   Workbenches: Arch_Workbench/ru, BIM_Workbench/ru
    Version: 0.17
-   SeeAlso: [Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [Изогнутая арматура](Arch_Rebar_BentShape/ru.md)
+   SeeAlso: Reinforcement_Workbench/ru, Arch_Rebar/ru, Arch_Rebar_BentShape/ru
 ---
 
 # Arch Rebar LShape/ru

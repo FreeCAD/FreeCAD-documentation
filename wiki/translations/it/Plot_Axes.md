@@ -1,6 +1,6 @@
 # Plot Axes/it
 ---
-- GuiCommand:   Name: Plot Axes   Name/it: Assi   MenuLocation: Grafico - Assi‏‎   |Workbenches: [[Plot_Workbench/it   Grafico]]|Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: Plot Axes   Name/it: Assi   MenuLocation: Grafico -> Assi‏‎   |Shortcut:    SeeAlso: ---
 
 
 </div>

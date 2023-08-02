@@ -2,9 +2,9 @@
 - GuiCommand:Addon/de
    Name: BIM Views
    Name/de: BIM Ansichten
-   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
+   Workbenches: Image:IFC.svg BIM Workbench/de
    Addon: BIM
-   MenuLocation: Verwalten - Ansichten
+   MenuLocation: Verwalten -> Ansichten
 ---
 
 # BIM Views/de

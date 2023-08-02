@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Arch_CompAxis
    Name: Arch_CompAxis
-   MenuLocation: Arch - Инстументы осей
-   Workbenches: [Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
+   MenuLocation: Arch -> Инстументы осей
+   Workbenches: Arch_Workbench/ru, BIM_Workbench/ru
    Version: 0.17
-   SeeAlso: [Arch Axis](Arch_Axis/ru.md), [Arch Axes system](Arch_AxisSystem/ru.md), [Arch Grid](Arch_Grid/ru.md)
+   SeeAlso: Arch_Axis/ru, Arch_AxisSystem/ru, Arch_Grid/ru
 ---
 
 # Arch CompAxis/ru

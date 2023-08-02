@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Robot InsertWaypointPre
    Name/fr: Robot Point de passage à partir d'objets présélectionnés
-   MenuLocation: Robot - Insérer dans la trajectoire 
-   Workbenches: [Robot](Robot_Workbench/fr.md)
+   MenuLocation: Robot -> Insérer dans la trajectoire 
+   Workbenches: Robot_Workbench/fr
    Shortcut: **W**
-   SeeAlso: [Robot Trajectoire](Robot_CreateTrajectory/fr.md), [Robot Point de passage](Robot_InsertWaypoint/fr.md)
+   SeeAlso: Robot_CreateTrajectory/fr, Robot_InsertWaypoint/fr
 ---
 
 # Robot InsertWaypointPre/fr

@@ -1,6 +1,6 @@
 # Part RegularPolygon/es
 ---
-- GuiCommand:   Name: Part RegularPolygon   MenuLocation: Part - [Workbenches: [[Part_Workbench   Part](Part_CreatePrimitives___Create_Primitives]]_-_Regular_Polygon.md),  [OpenSCAD](OpenSCAD_Workbench.md)|SeeAlso: ---
+- GuiCommand:   Name: Part RegularPolygon   MenuLocation: Part -> Part_CreatePrimitives   Create Primitives -> Regular Polygon,  OpenSCAD_Workbench|SeeAlso: ---
 
 
 </div>

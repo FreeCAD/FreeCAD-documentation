@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher Move
    Name/pl: Szkicownik: Przesuń
-   MenuLocation: Szkic - Elementy geometryczne szkicownika - Przesuń
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   MenuLocation: Szkic -> Elementy geometryczne szkicownika -> Przesuń
+   Workbenches: Sketcher_Workbench/pl
    Shortcut: **Z** **M**
    Version: 0.16
-   SeeAlso: [Klonuj](Sketcher_Clone/pl.md), [Kopiuj](Sketcher_Copy/pl.md)
+   SeeAlso: Sketcher_Clone/pl, Sketcher_Copy/pl
 ---
 
 # Sketcher Move/pl

@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ExtensionThreadHoleSide
    Name/de: TechDraw ErgänzungInnengewindeSeitlich
-   MenuLocation: TechDraw - Extensions: Centerlines/Threading - Add Cosmetic Thread Hole Side View
-   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   MenuLocation: TechDraw -> Extensions: Centerlines/Threading -> Add Cosmetic Thread Hole Side View
+   Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20
-   SeeAlso: [TechDraw ErgänzungAußengewindeSeitlich](TechDraw_ExtensionThreadBoltSide/de.md)
+   SeeAlso: TechDraw_ExtensionThreadBoltSide/de
 ---
 
 # TechDraw ExtensionThreadHoleSide/de

@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintCoincidence
    Name/de: Assembly3 DeckungsgleicheEbenen
    Icon: Assembly_ConstraintCoincidence.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 ConstraintCoincidence/de

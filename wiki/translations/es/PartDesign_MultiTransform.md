@@ -1,6 +1,6 @@
 # PartDesign MultiTransform/es
 ---
-- GuiCommand:   Name: PartDesign_MultiTransform   Workbenches: [[PartDesign Workbench/es   Diseño de Piezas]], Complete|MenuLocation: Diseño de Piezas-> MultiTransformación---
+- GuiCommand:   Name: PartDesign_MultiTransform   Workbenches: PartDesign Workbench/es   Diseño de Piezas, Complete|MenuLocation: Diseño de Piezas-> MultiTransformación---
 
 
 </div>

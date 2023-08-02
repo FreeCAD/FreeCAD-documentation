@@ -3,8 +3,8 @@
    Name: Part Primitives
    Name/ru: Создать примитивы
    MenuLocation: Деталь -> Создать примитивы...
-   |Workbenches: [Part(Деталь)](Part_Workbench/ru.md)
-   SeeAlso: [Построитель форм](Part_Builder/ru.md)
+   
+   SeeAlso: Part_Builder/ru
 ---
 
 # Part Primitives/ru

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Sketcher ConstrainBlock
    Name/ro: Constrângere de blocare
-   Workbenches: [Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation: Sketch - Constrângeri desenator - Constrain Block
-   SeeAlso: [Constrângere fixă](Sketcher_ConstrainLock/ro.md)
+   Workbenches: Sketcher Workbench/ro
+   MenuLocation: Sketch -> Constrângeri desenator -> Constrain Block
+   SeeAlso: Sketcher_ConstrainLock/ro
 ---
 
 # Sketcher ConstrainBlock/ro

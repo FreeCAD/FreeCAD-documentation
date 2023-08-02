@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Reinforcement_Bar_Bending_Schedule
    Name/it: Distinta e sagomatura dei ferri
-   MenuLocation: Reinforcement - BarBendingSchedule
-   Workbenches: [Reinforcement](Reinforcement_Workbench/it.md), [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   SeeAlso: [Distinta dei ferri](Arch_Rebar_BOM/it.md), [Disegno_dell'armatura](Arch_Rebar_Drawing_Dimensioning/it#Disegno_dell'armatura.md)
+   MenuLocation: Reinforcement -> BarBendingSchedule
+   Workbenches: Reinforcement Workbench/it, Arch Workbench/it, BIM Workbench/it
+   SeeAlso: Arch Rebar BOM/it, Arch_Rebar_Drawing_Dimensioning/it#Disegno_dell'armatura
    Version: 0.19
 ---
 

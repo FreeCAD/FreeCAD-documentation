@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: FCGear TimingGear
    Name/fr: FCGear Engrenage de distribution
-   MenuLocation: Gear - Timing Gear
-   Workbenches: [FCGear](FCGear_Workbench/fr.md)
+   MenuLocation: Gear -> Timing Gear
+   Workbenches: FCGear_Workbench/fr
    Shortcut: Aucun
    Version: v0.16
    SeeAlso: 

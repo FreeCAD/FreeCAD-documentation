@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std DependencyGraph
    Name/pl: Std: Graf zależności
-   MenuLocation: Przybory - Graf zależności ...
+   MenuLocation: Przybory -> Graf zależności ...
    Workbenches: wszystkie
 ---
 

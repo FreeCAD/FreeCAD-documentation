@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Fillet
    Name/it: Raccordo
-   MenuLocation: Drafting - Raccordo
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Drafting -> Raccordo
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **F** **I**
    Version: 0.19
-   SeeAlso: [Linea](Draft_Line/it.md), [Polilinea](Draft_Wire/it.md)
+   SeeAlso: Draft_Line/it, Draft_Wire/it
 ---
 
 # Draft Fillet/it

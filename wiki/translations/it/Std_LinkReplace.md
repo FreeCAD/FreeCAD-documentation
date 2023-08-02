@@ -5,7 +5,7 @@
    MenuLocation: Nessuna
    Workbenches: Tutti
    Version: 0.19
-   SeeAlso: [Crea un link](Std_LinkMake/it.md), [Crea un link relativo](Std_LinkMakeRelative/it.md), [Annulla il link](Std_LinkUnlink/it.md)
+   SeeAlso: Std_LinkMake/it, Std_LinkMakeRelative/it, Std_LinkUnlink/it
 ---
 
 # Std LinkReplace/it

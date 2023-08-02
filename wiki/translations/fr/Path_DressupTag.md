@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Path DressupTag
    Name/fr: Path Attache
-   MenuLocation: Path - Finition du parcours - Attache
-   Workbenches: [Path](Path_Workbench/fr.md)
-   SeeAlso: [Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Dégagement d'angles](Path_DressupDogbone/fr.md) , [Path Lame rotative](Path_DressupDragKnife/fr.md)
+   MenuLocation: Path -> Finition du parcours -> Attache
+   Workbenches: Path_Workbench/fr
+   SeeAlso: Path_DressupRampEntry/fr, Path_DressupDogbone/fr , Path_DressupDragKnife/fr
 ---
 
 # Path DressupTag/fr

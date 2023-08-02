@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign Thickness
    Name/es: PartDesign Espesor
-   MenuLocation: Part Design - Apply a dress up feature - Espesor
-   Workbenches: [PartDesign](PartDesign_Workbench/es.md)
+   MenuLocation: Part Design -> Apply a dress up feature -> Espesor
+   Workbenches: PartDesign_Workbench/es
    Version: 0.17
-   SeeAlso: [Part Thickness](Part_Thickness/es.md)
+   SeeAlso: Part_Thickness/es
 ---
 
 # PartDesign Thickness/es

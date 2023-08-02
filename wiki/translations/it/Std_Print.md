@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std_Print
    Name/it: Stampa
-   MenuLocation: File - Stampa...
+   MenuLocation: File -> Stampa...
    Workbenches: Tutti
    Shortcut: **Ctrl**+**P**
-   SeeAlso: [Anteprima di stampa](Std_PrintPreview/it.md), [Esporta PDF](Std_PrintPdf/it.md), [Esporta](Std_Export/it.md), [Cattura schermata](Std_ViewScreenShot/it.md)
+   SeeAlso: Std_PrintPreview/it, Std_PrintPdf/it, Std_Export/it, Std_ViewScreenShot/it
 ---
 
 # Std Print/it

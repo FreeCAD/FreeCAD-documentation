@@ -3,8 +3,8 @@
    Name: Sketcher ValidateSketch
    Name/sv: Sketcher ValidateSketch
    Empty: 1
-   Workbenches: [Sketcher](Sketcher_Workbench/sv.md), [PartDesign](PartDesign_Workbench/sv.md)
-   MenuLocation: Sketch / Part Design - Validate sketch
+   Workbenches: Sketcher Workbench/sv, PartDesign Workbench/sv
+   MenuLocation: Sketch / Part Design -> Validate sketch
 ---
 
 # Sketcher ValidateSketch/sv

@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ExtensionCreateHorizChamferDimension
    Name/pl: Rysunek Techniczny: Rozszerzenie Wymiar poziomy sfazowania
-   MenuLocation: Rysunek Techniczny - Rozszerzenia: Wymiary - Wymiar poziomy sfazowania
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   MenuLocation: Rysunek Techniczny -> Rozszerzenia: Wymiary -> Wymiar poziomy sfazowania
+   Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20
-   SeeAlso: [Wymiar pionowy sfazowania](TechDraw_ExtensionCreateVertChamferDimension/pl.md)
+   SeeAlso: TechDraw_ExtensionCreateVertChamferDimension/pl
 ---
 
 # TechDraw ExtensionCreateHorizChamferDimension/pl

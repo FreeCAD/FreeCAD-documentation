@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Plot Series
    Name/pl: Wykres: Skonfiguruj serie
-   MenuLocation: Wykres - Skonfiguru serię
-‏‎   Workbenches: [Wykres](Plot_Workbench/pl.md)
+   MenuLocation: Wykres -> Skonfiguru serię
+‏‎   Workbenches: Plot_Workbench/pl
 ---
 
 # Plot Series/pl

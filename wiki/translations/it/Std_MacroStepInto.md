@@ -3,10 +3,10 @@
    Name: Std_MacroStepInto
    Name/it: Un passo
    Empty: 1
-   MenuLocation: Macro - Un passo 
+   MenuLocation: Macro -> Un passo 
    Workbenches: Tutti
    Shortcut: **F11**
-   SeeAlso: [Macro: Passo successivo](Std_MacroStepOver/it.md), [Attiva/disattiva punto di interruzione](Std_ToggleBreakpoint/it.md)
+   SeeAlso: Std_MacroStepOver/it, Std_ToggleBreakpoint/it
 ---
 
 # Std MacroStepInto/it

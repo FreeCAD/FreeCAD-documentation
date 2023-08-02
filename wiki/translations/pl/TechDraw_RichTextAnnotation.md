@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: TechDraw RichTextAnnotation
    Name/pl: Rysunek Techniczny: Wstaw adnotację w postaci tekstu sformatowanego
-   MenuLocation: Rysunek Techniczny - Adnotacja - Wstaw adnotację w postaci tekstu sformatowanego
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   MenuLocation: Rysunek Techniczny -> Adnotacja -> Wstaw adnotację w postaci tekstu sformatowanego
+   Workbenches: TechDraw_Workbench/pl
    Version: 0.19
-   SeeAlso: [Szablony](TechDraw_Templates/pl.md), [SVG](Draft_SVG/pl.md), [Dodaj linię odniesienia do widoku](TechDraw_LeaderLine/pl.md)
+   SeeAlso: TechDraw_Templates/pl, Draft_SVG/pl, TechDraw_LeaderLine/pl
 ---
 
 # TechDraw RichTextAnnotation/pl

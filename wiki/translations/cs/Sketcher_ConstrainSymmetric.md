@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Constraint Symmetric
    Name/cs: Constraint Symmetric
-   Workbenches: [Náčrt](Sketcher_Workbench/cs.md), [Návrh dílu](PartDesign_Workbench/cs.md)
-   MenuLocation: Sketch - Sketcher constraints - Constrain symmetrical
-   SeeAlso: [Vazba rovnoběžnosti](Sketcher_ConstrainParallel/cs.md)
+   Workbenches: Sketcher Workbench/cs, PartDesign Workbench/cs
+   MenuLocation: Sketch -> Sketcher constraints -> Constrain symmetrical
+   SeeAlso: Sketcher_ConstrainParallel/cs
 ---
 
 # Sketcher ConstrainSymmetric/cs

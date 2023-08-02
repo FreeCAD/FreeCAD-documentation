@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher CreateEllipseByCenter
    Name/fr: Sketcher Ellipse par son centre
-   MenuLocation: Esquisse - Géométries d'esquisse - Créer une ellipse par son centre
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   MenuLocation: Esquisse -> Géométries d'esquisse -> Créer une ellipse par son centre
+   Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **E** **E**
    Version: 0.15
-   SeeAlso: [Sketcher Ellipse par 3 points](Sketcher_CreateEllipseBy3Points/fr.md), [Sketcher Cercle](Sketcher_CreateCircle/fr.md), [Sketcher Arc d'ellipse](Sketcher_CreateArcOfEllipse/fr.md)
+   SeeAlso: Sketcher_CreateEllipseBy3Points/fr, Sketcher_CreateCircle/fr, Sketcher_CreateArcOfEllipse/fr
 ---
 
 # Sketcher CreateEllipseByCenter/fr

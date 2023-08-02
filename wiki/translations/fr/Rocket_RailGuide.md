@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Rocket RailGuide
    Name/fr: Rocket Guide rail
-   MenuLocation: Rocket - Launch Guides - Rail Guide
-   Workbenches: [Rocket](Rocket_Workbench/fr.md)
+   MenuLocation: Rocket -> Launch Guides -> Rail Guide
+   Workbenches: Rocket_Workbench/fr
    Version: 0.19
 ---
 

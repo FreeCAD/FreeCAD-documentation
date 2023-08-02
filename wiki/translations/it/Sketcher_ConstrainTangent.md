@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ConstrainTangent
    Name/it: Sketcher VincoloTangente
-   MenuLocation: Sketch - Sketcher Vincoli - Vincolo Tangente
-   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation: Sketch -> Sketcher Vincoli -> Vincolo Tangente
+   Workbenches: Sketcher Workbench/it
    Shortcut: **T**
-   SeeAlso: [Sketcher Vincolo Punto su oggetto](Sketcher_ConstrainPointOnObject/it.md)
+   SeeAlso: Sketcher_ConstrainPointOnObject/it
 ---
 
 # Sketcher ConstrainTangent/it

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std SceneInspector
    Name/es: Std InspectorEscena
-   MenuLocation: Hierramientas - Inspector Escena...
+   MenuLocation: Hierramientas -> Inspector Escena...
    Workbenches: Todo
 ---
 

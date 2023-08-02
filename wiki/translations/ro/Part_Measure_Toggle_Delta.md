@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Part Measure Toggle Delta
    Name/ro: Part Measure Toggle Delta
-   MenuLocation: Measure - Toggle Delta‏‎
-   Workbenches: [Part](Part_Workbench/ro.md)
+   MenuLocation: Measure -> Toggle Delta‏‎
+   Workbenches: Part_Workbench/ro
 ---
 
 # Part Measure Toggle Delta/ro

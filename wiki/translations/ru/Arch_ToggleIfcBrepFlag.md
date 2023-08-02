@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch ToggleIfcBrepFlag
    Name/ru: Arch ToggleIfcBrepFlag
-   MenuLocation: Архитектура - Утилиты - Toggle Ifc Brep flag
-   Workbenches: [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Архитектура -> Утилиты -> Toggle Ifc Brep flag
+   Workbenches: Arch_Workbench/ru
    Shortcut: 
-   SeeAlso: [Arch IfcExplorer](Arch_IfcExplorer.md), [Arch IFC](Arch_IFC.md)
+   SeeAlso: Arch_IfcExplorer, Arch_IFC
 ---
 
 # Arch ToggleIfcBrepFlag/ru

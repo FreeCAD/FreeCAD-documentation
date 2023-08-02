@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft Snap Special
    Name/fr: Draft Aimantation Spécial
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Version: 0.17
-   SeeAlso: [Draft Aimantation](Draft_Snap/fr.md), [Draft Verrouillage de l'aimantation](Draft_Snap_Lock/fr.md)
+   SeeAlso: Draft_Snap/fr, Draft_Snap_Lock/fr
 ---
 
 # Draft Snap Special/fr

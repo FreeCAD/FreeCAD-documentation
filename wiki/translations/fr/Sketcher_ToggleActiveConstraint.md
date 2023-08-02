@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher ToggleActiveConstraint
    Name/fr: Sketcher Activation des contraintes
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
-   MenuLocation: Esquisse - Contraintes d'esquisse - Activer/désactiver la contrainte
+   Workbenches: Sketcher_Workbench/fr
+   MenuLocation: Esquisse -> Contraintes d'esquisse -> Activer/désactiver la contrainte
    Shortcut: **K** **Z**
    Version: 0.19
-   SeeAlso: [Sketcher Géométrie de construction](Sketcher_ToggleConstruction/fr.md)
+   SeeAlso: Sketcher_ToggleConstruction/fr
 ---
 
 # Sketcher ToggleActiveConstraint/fr

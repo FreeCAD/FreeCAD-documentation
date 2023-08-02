@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std WhatsThis
    Name/it: Cos'è questo?
-   MenuLocation: Aiuto - Cos'è questo?‏‎
+   MenuLocation: Aiuto -> Cos'è questo?‏‎
    Workbenches: Tutti
    Shortcut: **Shift**+**F1**
-   SeeAlso: [Aiuto](Std_OnlineHelp/it.md)
+   SeeAlso: Std_OnlineHelp/it
 ---
 
 # Std WhatsThis/it

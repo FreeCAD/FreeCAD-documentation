@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher CreateArc
    Name/it: Arco
-   MenuLocation: Sketch - Geometrie - Arco da centro
-   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation: Sketch -> Geometrie -> Arco da centro
+   Workbenches: Sketcher_Workbench/it
    Shortcut: **G** **A**
-   SeeAlso: [Cerchi](Sketcher_CompCreateCircle/it.md)
+   SeeAlso: Sketcher_CompCreateCircle/it
 ---
 
 # Sketcher CreateArc/it

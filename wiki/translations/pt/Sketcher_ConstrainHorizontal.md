@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Constraint Horizontal
    Name/pt: Constraint Horizontal
-   Workbenches: [Sketcher](Sketcher_Workbench/pt.md)
+   Workbenches: Sketcher Workbench/pt
    Shortcut: H
-   MenuLocation: Sketch - Sketcher constraints - Constrain horizontally
-   SeeAlso: [Constraint Vertical](Sketcher_ConstrainVertical/pt.md)
+   MenuLocation: Sketch -> Sketcher constraints -> Constrain horizontally
+   SeeAlso: Sketcher_ConstrainVertical/pt
 ---
 
 # Sketcher ConstrainHorizontal/pt

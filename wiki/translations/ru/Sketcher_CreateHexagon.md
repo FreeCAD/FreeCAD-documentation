@@ -2,8 +2,8 @@
 - GuiCommand:
    Name/ru: Шестиугольник
    Name: Sketcher_CreateHexagon
-   MenuLocation: Эскиз - Геометрия эскиза - Шестиугольник
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation: Эскиз -> Геометрия эскиза -> Шестиугольник
+   Workbenches: Sketcher_Workbench/ru
    Shortcut: **G** **P** **6**
    Version: 0.15
 ---

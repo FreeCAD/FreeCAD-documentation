@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: TechDraw ExtensionDecreaseDecimal
-   MenuLocation: TechDraw - Extensions: Dimensions - Decrease Decimal Places
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   MenuLocation: TechDraw -> Extensions: Dimensions -> Decrease Decimal Places
+   Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20
-   SeeAlso: [TechDraw ExtensionIncreaseDecimal](TechDraw_ExtensionIncreaseDecimal.md)
+   SeeAlso: TechDraw_ExtensionIncreaseDecimal
 ---
 
 # TechDraw ExtensionDecreaseDecimal

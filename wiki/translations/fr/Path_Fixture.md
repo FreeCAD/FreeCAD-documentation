@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path Fixture
    Name/fr: Path Fixation
-   MenuLocation: Path - Autres commandes - Fixation
-   Workbenches: [Path](Path_Workbench/fr.md)
+   MenuLocation: Path -> Autres commandes -> Fixation
+   Workbenches: Path_Workbench/fr
 ---
 
 # Path Fixture/fr

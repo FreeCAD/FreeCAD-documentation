@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Array
    Name/fr: Draft Réseau
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   SeeAlso: [Draft Réseau orthogonal](Draft_OrthoArray/fr.md), [Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md)
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   SeeAlso: Draft_OrthoArray/fr, Draft_PolarArray/fr, Draft_CircularArray/fr
 ---
 
 # Draft Array/fr

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Part Compound‏‎Filter
    Name/pl: Część: Filtr złożeń
-   MenuLocation: Część - Złożenie - Filtr złożeń
-   Workbenches: [Część](Part_Workbench/pl.md)
+   MenuLocation: Część -> Złożenie -> Filtr złożeń
+   Workbenches: Part_Workbench/pl
    Version: 0.17
 ---
 

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Добавить информацию о сварке в линию-выноску
    Name: TechDraw_WeldSymbol
-   MenuLocation: TechDraw - Добавить информацию о сварке в линию-выноску
-   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   MenuLocation: TechDraw -> Добавить информацию о сварке в линию-выноску
+   Workbenches: TechDraw_Workbench/ru
    Version: 0.19
-   SeeAlso: [Добавить Линию-выноску в Вид](TechDraw_LeaderLine/ru.md)
+   SeeAlso: TechDraw_LeaderLine/ru
 ---
 
 # TechDraw WeldSymbol/ru

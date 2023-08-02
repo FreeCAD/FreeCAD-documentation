@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft SelectPlane
    Name/tr: Çalışma düzlemini ayarla
-   MenuLocation: Draft - Utilities - Select Plane
-   Workbenches: [Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   MenuLocation: Draft -> Utilities -> Select Plane
+   Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
 ---
 
 # Draft SelectPlane/tr

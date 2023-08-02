@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM ElementGeometry2D
    Name/ru: FEM ElementGeometry2D
-   MenuLocation: Model -Shell plate tickness
-   Workbenches: [FEM](FEM_Workbench/ru.md)
+   MenuLocation: Model ->Shell plate tickness
+   Workbenches: FEM_Workbench/ru
    Shortcut: **C** **S**
-   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
+   SeeAlso: FEM_tutorial/ru
 ---
 
 # FEM ElementGeometry2D/ru

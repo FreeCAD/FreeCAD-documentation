@@ -1,6 +1,6 @@
 # Drawing Save
 ---
-- GuiCommand:   Name: Drawing Save   Workbenches: [MenuLocation: Drawing - Export page...   Shortcut: none   SeeAlso: [[Drawing Open SVG|Drawing Open SVG](Drawing_Workbench___Drawing]],_Complete.md)---
+- GuiCommand:   Name: Drawing Save   Workbenches: Drawing Workbench   Drawing, Complete---
 
 This tool saves the current Drawing sheet as an SVG (scalable vector graphics) file. Such a file can then be edited in a scalable vector graphics program such as [Inkscape](http://www.inkscape.org).
 

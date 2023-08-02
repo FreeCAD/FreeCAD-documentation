@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: SheetMetal Unfold
    Name/de: SheetMetal Abwickeln
-   MenuLocation: SheetMetal - Unfold
-   Workbenches: [Blech (SheetMetal)](SheetMetal_Workbench/de.md)
+   MenuLocation: SheetMetal -> Unfold
+   Workbenches: SheetMetal_Workbench/de
    Shortcut: **U**
-   SeeAlso: [SheetMetal UnattendedUnfold](SheetMetal_UnattendedUnfold/de.md)
+   SeeAlso: SheetMetal_UnattendedUnfold/de
 ---
 
 # SheetMetal Unfold/de

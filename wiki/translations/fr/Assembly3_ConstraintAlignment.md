@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintAlignment
    Name/fr: Assembly3 Contrainte d'alignement
    Icon: Assembly_ConstraintAlignment.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 ConstraintAlignment/fr

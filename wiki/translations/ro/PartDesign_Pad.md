@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: PartDesign Pad
    Name/ro: PartDesign Pad
-   Workbenches: [PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation: Part Design - Pad
+   Workbenches: PartDesign Workbench/ro
+   MenuLocation: Part Design -> Pad
 ---
 
 # PartDesign Pad/ro

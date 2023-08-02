@@ -1,6 +1,6 @@
 # PartDesign AdditiveEllipsoid/ro
 ---
-- GuiCommand:   Name: PartDesign AdditiveEllipsoid   Workbenches: [MenuLocation: Part Design - Create an additive primitive - Additive Ellipsoid   Shortcut: None   SeeAlso: [[PartDesign CompPrimitiveAdditive](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign AdditiveEllipsoid   Workbenches: PartDesign Workbench   PartDesign---
 
 
 </div>

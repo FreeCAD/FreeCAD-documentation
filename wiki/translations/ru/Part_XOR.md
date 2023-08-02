@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part XOR
    Name/ru: Part XOR
-   MenuLocation: Деталь - Разделить - Boolean Xor
-   Workbenches: [Part](Part_Workbench/ru.md)
+   MenuLocation: Деталь -> Разделить -> Boolean Xor
+   Workbenches: Part_Workbench/ru
    Version: 0.17
-   SeeAlso: [Part Boolean Fragments](Part_BooleanFragments/ru.md), [Part Slice](Part_Slice/ru.md), [Join features](Part_CompJoinFeatures/ru.md), [Part Boolean](Part_Boolean/ru.md)
+   SeeAlso: Part_BooleanFragments/ru, Part_Slice/ru, Part_CompJoinFeatures/ru, Part_Boolean/ru
 ---
 
 # Part XOR/ru

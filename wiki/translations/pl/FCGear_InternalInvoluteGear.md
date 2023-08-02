@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FCGear InternalInvoluteGear
    Name/pl: FCGear: Wewnętrzna zębatka ewolwentowa
-   MenuLocation: Gear - Wewnętrzna zębatka ewolwentowa
-   Workbenches: [FCGear](FCGear_Workbench/pl.md)
+   MenuLocation: Gear -> Wewnętrzna zębatka ewolwentowa
+   Workbenches: FCGear_Workbench/pl
    Version: 0.21
-   SeeAlso: [Koło zębate ewolwentowe](FCGear_InvoluteGear/pl.md)
+   SeeAlso: FCGear_InvoluteGear/pl
 ---
 
 # FCGear InternalInvoluteGear/pl

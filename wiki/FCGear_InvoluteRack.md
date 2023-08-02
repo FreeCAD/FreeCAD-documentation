@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: FCGear InvoluteRack
-   MenuLocation: Gear - Involute Rack
-   Workbenches: [FCGear](FCGear_Workbench.md)
+   MenuLocation: Gear -> Involute Rack
+   Workbenches: FCGear_Workbench
    Shortcut: None
    Version: v0.16
-   SeeAlso: [FCGear InvoluteGear](FCGear_InvoluteGear.md)
+   SeeAlso: FCGear_InvoluteGear
 ---
 
 # FCGear InvoluteRack

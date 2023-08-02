@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Constraint InternalAngle
    Name/es: Constraint InternalAngle
-   Workbenches: [Croquizador](Sketcher_Workbench/es.md), [Diseño de Piezas](PartDesign_Workbench/es.md)
+   Workbenches: Sketcher Workbench/es, PartDesign Workbench/es
    Shortcut: A
-   MenuLocation: Croquizador - Restricciones del Croquizador - Restricción angular
-   SeeAlso: [Restricción distancia](Sketcher_ConstrainDistance/es.md), [Restricción perpendicular](Sketcher_ConstrainPerpendicular/es.md)
+   MenuLocation: Croquizador -> Restricciones del Croquizador -> Restricción angular
+   SeeAlso: Sketcher_ConstrainDistance/es, Sketcher_ConstrainPerpendicular/es
 ---
 
 # Sketcher ConstrainAngle/es

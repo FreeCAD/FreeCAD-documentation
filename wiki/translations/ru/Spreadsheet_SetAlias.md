@@ -3,7 +3,7 @@
    Name/ru: Установить псевдоним
    Name: Spreadsheet_SetAlias
    MenuLocation: -
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench/ru.md)
+   Workbenches: Spreadsheet_Workbench/ru
    Version: 0.17
 ---
 

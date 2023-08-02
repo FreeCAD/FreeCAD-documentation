@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: PartDesign Pad
    Name/fr: PartDesign Protrusion 
-   MenuLocation: Part Design - Créer une fonction additive - Protrusion
-   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso: [PartDesign Cavité](PartDesign_Pocket/fr.md)
+   MenuLocation: Part Design -> Créer une fonction additive -> Protrusion
+   Workbenches: PartDesign_Workbench/fr
+   SeeAlso: PartDesign_Pocket/fr
 ---
 
 # PartDesign Pad/fr

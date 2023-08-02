@@ -3,7 +3,7 @@
    Name: Draft ToggleDisplayMode
    Name/ru: Draft ToggleDisplayMode
    MenuLocation: Черчение -> Утилиты -> Переключить режим отображения
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: **Shift**+**Space**
 ---
 

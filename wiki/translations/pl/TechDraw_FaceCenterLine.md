@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: TechDraw FaceCenterLine
    Name/pl: Rysunek Techniczny: Dodaj oś ściany
-   MenuLocation: Rysunek Techniczny - Dodaj linie - Dodaj oś ściany
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   MenuLocation: Rysunek Techniczny -> Dodaj linie -> Dodaj oś ściany
+   Workbenches: TechDraw_Workbench/pl
    Version: 0.19
-   SeeAlso: [Dodaj wierzchołek kosmetyczny](TechDraw_CosmeticVertex/pl.md), [Dodaj oś pomiędzy dwiema liniami](TechDraw_2LineCenterLine/pl.md), [Dodaj oś pomiędzy dwoma punktami](TechDraw_2PointCenterLine/pl.md), [Usuń geometrie pomocnicze](TechDraw_CosmeticEraser/pl.md)
+   SeeAlso: TechDraw_CosmeticVertex/pl, TechDraw_2LineCenterLine/pl, TechDraw_2PointCenterLine/pl, TechDraw_CosmeticEraser/pl
 ---
 
 # TechDraw FaceCenterLine/pl

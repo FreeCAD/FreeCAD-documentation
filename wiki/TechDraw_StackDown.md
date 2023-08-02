@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: TechDraw StackDown
-   MenuLocation: TechDraw - Stacking - Move view down one level
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   MenuLocation: TechDraw -> Stacking -> Move view down one level
+   Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.21
-   SeeAlso: [TechDraw StackTop](TechDraw_StackTop.md), [TechDraw StackBottom](TechDraw_StackBottom.md), [TechDraw StackUp](TechDraw_StackUp.md)
+   SeeAlso: TechDraw_StackTop, TechDraw_StackBottom, TechDraw_StackUp
 ---
 
 # TechDraw StackDown

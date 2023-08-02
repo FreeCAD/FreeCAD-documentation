@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Downgrade
    Name/it: Declassa
-   MenuLocation: Modifiche - Declassa
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Modifiche -> Declassa
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **D** **N**
-   SeeAlso: [Promuovi](Draft_Upgrade/it.md), [Sottrazione booleana](Part_Cut/it.md)
+   SeeAlso: Draft_Upgrade/it, Part_Cut/it
 ---
 
 # Draft Downgrade/it

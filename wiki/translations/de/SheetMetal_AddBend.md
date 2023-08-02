@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: SheetMetal AddBend
    Name/de: SheetMetal BiegungHinzufügen
-   MenuLocation: SheetMetal - Make Bend
-   Workbenches: [SheetMetal (Blech)](SheetMetal_Workbench/de.md)
+   MenuLocation: SheetMetal -> Make Bend
+   Workbenches: SheetMetal_Workbench/de
    Shortcut: **S** **B**
-   SeeAlso: [SheetMetal Entlastungsausschnitt hinzufügen](SheetMetal_AddRelief/de.md), [SheetMetal Stoß hinzufügen](SheetMetal_AddJunction/de.md)
+   SeeAlso: SheetMetal_AddRelief/de, SheetMetal_AddJunction/de
 ---
 
 # SheetMetal AddBend/de

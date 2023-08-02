@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Curves PasteSVG
-   MenuLocation: Misc. - Paste SVG
-   Workbenches: [Curves](Curves_Workbench.md)
+   MenuLocation: Misc. -> Paste SVG
+   Workbenches: Curves_Workbench
 ---
 
 # Curves PasteSVG/it

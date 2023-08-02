@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw_ClipGroupRemove
    Name/it: Rimuovi la vista dal gruppo clip
-   MenuLocation: TechDraw - Rimuovi la vista dal gruppo clip
-   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso: [Gruppo di clip](TechDraw_ClipGroup/it.md), [Aggiungi una vista al gruppo clip](TechDraw_ClipGroupAdd/it.md)
+   MenuLocation: TechDraw -> Rimuovi la vista dal gruppo clip
+   Workbenches: TechDraw_Workbench/it
+   SeeAlso: TechDraw_ClipGroup/it, TechDraw_ClipGroupAdd/it
 ---
 
 # TechDraw ClipGroupRemove/it

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Draft Snap Midpoint
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso: [Draft Snap](Draft_Snap.md), [Draft Snap Lock](Draft_Snap_Lock.md)
+   Workbenches: Draft_Workbench, Arch_Workbench
+   SeeAlso: Draft_Snap, Draft_Snap_Lock
 ---
 
 # Draft Snap Midpoint/en

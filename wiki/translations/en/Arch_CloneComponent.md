@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Arch CloneComponent
-   MenuLocation: Arch - Utilities - Clone component‎‏‎
-   Workbenches: [Arch](Arch_Workbench.md)
+   MenuLocation: Arch -> Utilities -> Clone component‎‏‎
+   Workbenches: Arch_Workbench
    Shortcut: **C** **C‏‎**
-   SeeAlso: [Draft Clone](Draft_Clone.md), [Arch Component](Arch_Component.md)
+   SeeAlso: Draft_Clone, Arch_Component
 ---
 
 # Arch CloneComponent/en

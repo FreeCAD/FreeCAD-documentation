@@ -5,7 +5,7 @@
    MenuLocation: ''Aucun''
    Workbenches: Tous
    Version: 0.19
-   SeeAlso: [Std Lien objet lié primaire](Std_LinkSelectLinkedFinal/fr.md), [Std Tous les liens](Std_LinkSelectAllLinks/fr.md), [Std Rétablir](Std_SelBack/fr.md), [Std Établir](Std_SelForward/fr.md)
+   SeeAlso: Std_LinkSelectLinkedFinal/fr, Std_LinkSelectAllLinks/fr, Std_SelBack/fr, Std_SelForward/fr
 ---
 
 # Std LinkSelectLinked/fr

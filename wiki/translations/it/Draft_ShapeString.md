@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft_ShapeString
    Name/it: Forma da testo
-   MenuLocation: Drafting - Forma da testo
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Drafting -> Forma da testo
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: 
    Version: 0.14
-   SeeAlso: [Testo](Draft_Text/it.md), [Etichetta](Draft_Label/it.md) [Estrusione](Part_Extrude/it.md)
+   SeeAlso: Draft_Text/it, Draft_Label/it Part_Extrude/it
 ---
 
 # Draft ShapeString/it

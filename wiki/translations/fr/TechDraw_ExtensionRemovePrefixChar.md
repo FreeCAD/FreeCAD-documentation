@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: TechDraw ExtensionRemovePrefixChar
    Name/fr: TechDraw Supprimer les symboles
-   MenuLocation: TechDraw - Extensions : cotes - Supprimer le préfixe
-   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   MenuLocation: TechDraw -> Extensions : cotes -> Supprimer le préfixe
+   Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.20
    SeeAlso: 

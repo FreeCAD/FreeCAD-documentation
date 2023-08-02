@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher CreatePolyline
    Name/pl: Szkicownik: Utwórz polilinię
-   MenuLocation: Szkic - Elementy geometryczne szkicownika - Utwórz polilinię
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   MenuLocation: Szkic -> Elementy geometryczne szkicownika -> Utwórz polilinię
+   Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **M**
-   SeeAlso: [Szkicownik: Linia](Sketcher_CreateLine/pl.md)
+   SeeAlso: Sketcher CreateLine/pl
 ---
 
 # Sketcher CreatePolyline/pl

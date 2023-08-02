@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM MaterialSolid
    Name/fr: FEM Matériau pour solide
-   MenuLocation: Modèle - Matériaux - Matériau pour solide
-   Workbenches: [FEM](FEM_Workbench/fr.md)
+   MenuLocation: Modèle -> Matériaux -> Matériau pour solide
+   Workbenches: FEM_Workbench/fr
    Shortcut: **M** **S**
-   SeeAlso: [Tutoriel FEM](FEM_tutorial/fr.md)
+   SeeAlso: FEM_tutorial/fr
 ---
 
 # FEM MaterialSolid/fr

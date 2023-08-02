@@ -3,10 +3,10 @@
    Name: Arch_MakeIfcSpreadsheet
    Name/it: Crea un foglio di calcolo Ifc
    Icon: Arch_Schedule.svg
-   MenuLocation: Arch - Utilità - Crea un foglio di calcolo Ifc...
-   Workbenches: [Arch](Arch_Workbench/it.md)
+   MenuLocation: Arch -> Utilità -> Crea un foglio di calcolo Ifc...
+   Workbenches: Arch_Workbench/it
    Shortcut: **I** **P**
-   SeeAlso: [File IFC](Arch_IFC/it.md), [Esplora Ifc](Arch_IfcExplorer/it.md)
+   SeeAlso: Arch IFC/it, Arch IfcExplorer/it
 ---
 
 # Arch IfcSpreadsheet/it

@@ -1,6 +1,6 @@
 # Draft Heal/ro
 ---
-- GuiCommand:   Name: Draft Heal   Workbenches: [Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation: Draft - Utilities - Heal---
+- GuiCommand:   Name: Draft Heal   Workbenches: Draft Workbench   Draft, Arch Workbench|MenuLocation: Draft -> Utilities -> Heal---
 
 
 </div>

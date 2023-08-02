@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Path Copy
-   MenuLocation: Path - Path Modification - Copy the operation in the job
-   Workbenches: [Path](Path_Workbench.md)
+   MenuLocation: Path -> Path Modification -> Copy the operation in the job
+   Workbenches: Path_Workbench
 ---
 
 # Path Copy/en

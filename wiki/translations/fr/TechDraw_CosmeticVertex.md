@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: TechDraw CosmeticVertex
    Name/fr: TechDraw Point cosmétique
-   MenuLocation: TechDraw - Add Vertices - Ajouter un sommet cosmétique
-   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   MenuLocation: TechDraw -> Add Vertices -> Ajouter un sommet cosmétique
+   Workbenches: TechDraw_Workbench/fr
    Version: 0.19
-   SeeAlso: [TechDraw Point milieu](TechDraw_Midpoints/fr.md), [TechDraw Sommets quadrants](TechDraw_Quadrants/fr.md)
+   SeeAlso: TechDraw_Midpoints/fr, TechDraw_Quadrants/fr
 ---
 
 # TechDraw CosmeticVertex/fr

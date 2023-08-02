@@ -3,11 +3,11 @@
 - GuiCommand:
    Name: Std Group
    Name/de: Std Gruppe
-   MenuLocation: Baumansicht - Rechtsklick auf den Dokumentennamen
+   MenuLocation: Baumansicht -> Rechtsklick auf den Dokumentennamen
    |Workbenches: Alle
    Shortcut: 
    Version: 
-   SeeAlso: [Standard Teil](Std_Part/de.md), [Wähle Gruppe](Draft_SelectGroup/de.md), [zur Gruppe hinzufügen](Draft_AddToGroup/de.md)---
+   SeeAlso: Std_Part/de, Draft_SelectGroup/de, Draft_AddToGroup/de---
 
 
 

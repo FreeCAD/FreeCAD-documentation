@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Mesh HarmonizeNormals
    Name/pl: Siatka: Porządkuj wektory normalnych
-   MenuLocation: Siatka - Porządkuj wektory normalnych
-   Workbenches: [Siatka](Mesh_Workbench/pl.md)
-   SeeAlso: [Odwróć wektory normalnych](Mesh_FlipNormals/pl.md)
+   MenuLocation: Siatka -> Porządkuj wektory normalnych
+   Workbenches: Mesh_Workbench/pl
+   SeeAlso: Mesh_FlipNormals/pl
 ---
 
 # Mesh HarmonizeNormals/pl

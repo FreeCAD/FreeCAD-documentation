@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Std ToggleClipPlane
-   MenuLocation: View - Clipping plane
+   MenuLocation: View -> Clipping plane
    Workbenches: All
-   SeeAlso: [Part SectionCut](Part_SectionCut.md)
+   SeeAlso: Part_SectionCut
 ---
 
 # Std ToggleClipPlane/en

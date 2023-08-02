@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std ShowObjects
    Name/ru: Std ShowObjects
-   MenuLocation: Вид - Видимость - Показать все объекты
+   MenuLocation: Вид -> Видимость -> Показать все объекты
    Workbenches: All
-   SeeAlso: [Std ToggleVisibility](Std_ToggleVisibility/ru.md), [Std ShowSelection](Std_ShowSelection/ru.md), [Std HideSelection](Std_HideSelection/ru.md), [Std ToggleObjects](Std_ToggleObjects/ru.md), [Std HideObjects](Std_HideObjects/ru.md)
+   SeeAlso: Std_ToggleVisibility/ru, Std_ShowSelection/ru, Std_HideSelection/ru, Std_ToggleObjects/ru, Std_HideObjects/ru
 ---
 
 # Std ShowObjects/ru

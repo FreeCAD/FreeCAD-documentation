@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Std TreeMultiDocument
-   MenuLocation: View - TreeView actions - Multi document
+   MenuLocation: View -> TreeView actions -> Multi document
    Workbenches: All
    Version: 0.19
-   SeeAlso: [Std TreeSingleDocument](Std_TreeSingleDocument.md), [Std TreeCollapseDocument](Std_TreeCollapseDocument.md)
+   SeeAlso: Std_TreeSingleDocument, Std_TreeCollapseDocument
 ---
 
 # Std TreeMultiDocument

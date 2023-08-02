@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path Adaptive
    Name/fr: Path Adaptatif
-   MenuLocation: Path - Adaptatif
-   Workbenches: [Path](Path_Workbench/fr.md)
+   MenuLocation: Path -> Adaptatif
+   Workbenches: Path_Workbench/fr
 ---
 
 # Path Adaptive/fr

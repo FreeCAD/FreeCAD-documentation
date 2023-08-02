@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part_Box
    Name/ru: Куб
-   MenuLocation: Деталь - Примитивы - Куб
-   Workbenches: [Part](Part_Workbench/ru.md)
-   SeeAlso: [Создать примитивы](Part_CreatePrimitives/ru.md)
+   MenuLocation: Деталь -> Примитивы -> Куб
+   Workbenches: Part_Workbench/ru
+   SeeAlso: Part_CreatePrimitives/ru
 ---
 
 # Part Box/ru

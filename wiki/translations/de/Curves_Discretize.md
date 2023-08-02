@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Curves Discretize
    Name/de: Curves Punktefolge
-   MenuLocation: Curves - Discretize
-   Workbenches: [Curves](Curves_Workbench/de.md)
+   MenuLocation: Curves -> Discretize
+   Workbenches: Curves_Workbench/de
 ---
 
 # Curves Discretize/de

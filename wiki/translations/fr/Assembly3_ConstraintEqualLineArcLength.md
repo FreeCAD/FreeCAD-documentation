@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintEqualLineArcLength
    Name/fr: Assembly3 Contrainte égalité longueur d'arc
    Icon: Assembly_ConstraintEqualLineArcLength.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 ConstraintEqualLineArcLength/fr

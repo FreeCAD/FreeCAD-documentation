@@ -3,9 +3,9 @@
 - GuiCommand:
    Name: Arch Axis
    Name/it: Assi
-   Workbenches: [Arch](Arch_Workbench/it.md)
-   MenuLocation: Arch - Assi   Shortcut: **A** **X**
-   SeeAlso: [Sistema di assi](Arch_AxisSystem/it.md), [Griglia](Arch_Grid/it.md)---
+   Workbenches: Arch_Workbench/it
+   MenuLocation: Arch -> Assi   Shortcut: **A** **X**
+   SeeAlso: Arch AxisSystem/it, Arch Grid/it---
 
 
 </div>

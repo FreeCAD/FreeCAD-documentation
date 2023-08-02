@@ -1,6 +1,6 @@
 # Std ViewFitAll/ro
 ---
-- GuiCommand:   Name: Std ViewFitAll   MenuLocation: [|Workbenches: All   Shortcut:    SeeAlso: [[Std_ViewFitSelection|Fit Selection](Std_View_Menu___View]]_-_Standard_views‏‎_-_FitAll.md)---
+- GuiCommand:   Name: Std ViewFitAll   MenuLocation: Std View Menu   View -> Standard views‏‎ -> FitAll---
 
 
 </div>

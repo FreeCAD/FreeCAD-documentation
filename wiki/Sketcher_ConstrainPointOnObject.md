@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Sketcher ConstrainPointOnObject
-   MenuLocation: Sketch - Sketcher constraints - Constrain point onto object
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch -> Sketcher constraints -> Constrain point onto object
+   Workbenches: Sketcher_Workbench
    Shortcut: **O**
-   SeeAlso: [Sketcher Constrain Coincident](Sketcher_ConstrainCoincident.md)
+   SeeAlso: Sketcher_ConstrainCoincident
 ---
 
 # Sketcher ConstrainPointOnObject

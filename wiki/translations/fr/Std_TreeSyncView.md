@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std TreeSyncView
    Name/fr: Std Arborescence Vue synchronisation
-   MenuLocation: Affichage - Vue en arborescence - Synchroniser la vue 
+   MenuLocation: Affichage -> Vue en arborescence -> Synchroniser la vue 
    Workbenches: Tous
    Shortcut: **T** **1**
    Version: 0.19

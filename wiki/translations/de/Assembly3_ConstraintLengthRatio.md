@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintLengthRatio
    Name/de: Assembly3 Längenverhältnis
    Icon: Assembly_ConstraintLengthRatio.svg
-   Workbenches: [Assembly3](Assembly3_Workbench.md)
+   Workbenches: Assembly3_Workbench
 ---
 
 # Assembly3 ConstraintLengthRatio/de

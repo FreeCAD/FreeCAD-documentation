@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher CreateArcOfEllipse
    Name/de: Sketcher EllipsenbogenErstellen
-   MenuLocation: Sketch - Skizzengeometrien - Ellipsenbogen erstellen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Sketch -> Skizzengeometrien -> Ellipsenbogen erstellen
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **E** **A**
    Version: 0.15
-   SeeAlso: [Sketcher EllipseDurchMittelpunktErstellen](Sketcher_CreateEllipseByCenter/de.md), [Sketcher AuswahlBogenErstellen](Sketcher_CompCreateArc/de.md)
+   SeeAlso: Sketcher_CreateEllipseByCenter/de, Sketcher_CompCreateArc/de
 ---
 
 # Sketcher CreateArcOfEllipse/de

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: FEM EquationFlux
-   MenuLocation:  Solve - Equation fluxsolver
-   Workbenches: [FEM](FEM_Workbench.md)
+   MenuLocation:  Solve -> Equation fluxsolver
+   Workbenches: FEM_Workbench
    Shortcut: 
-   SeeAlso: [FEM tutorial](FEM_tutorial.md)
+   SeeAlso: FEM_tutorial
 ---
 
 # FEM EquationFlux/ro

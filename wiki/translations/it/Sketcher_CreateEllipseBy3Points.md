@@ -3,10 +3,10 @@
    Name: Sketcher CreateEllipseBy3Points
    Name/it: Ellisse da tre punti
    Icon: Sketcher_CreateEllipse_3points.png
-   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation: Sketch - Geometrie - Ellisse da 3 punti
+   Workbenches: Sketcher Workbench/it
+   MenuLocation: Sketch -> Geometrie -> Ellisse da 3 punti
    Version: 0.15
-   SeeAlso: [Ellisse da centro ...](Sketcher_CreateEllipseByCenter/it.md), [Cerchio](Sketcher_CreateCircle/it.md), [Arco di ellisse ...](Sketcher_CreateArcOfEllipse/it.md)
+   SeeAlso: Sketcher_CreateEllipseByCenter/it, Sketcher CreateCircle/it, Sketcher_CreateArcOfEllipse/it
 ---
 
 # Sketcher CreateEllipseBy3Points/it

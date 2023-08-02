@@ -1,6 +1,6 @@
 # PartDesign AdditiveTorus/it
 ---
-- GuiCommand:   Name: PartDesign AdditiveTorus   Name/it: Toro additivo   Workbenches: [MenuLocation: Part Design - Crea una primitiva additiva - Toro   Version: 0.17   SeeAlso: [[PartDesign CompPrimitiveAdditive/it|Primitive additive](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign AdditiveTorus   Name/it: Toro additivo   Workbenches: PartDesign Workbench/it   PartDesign---
 
 
 </div>

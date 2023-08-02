@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Snap Dimensions
    Name/it: Dimensioni
-   MenuLocation: Draft - [Aggancio](Draft_Snap/it.md) - Dimensioni
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Draft -> Draft Snap/it -> Dimensioni
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: 
-   SeeAlso: [Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
+   SeeAlso: Draft Snap/it, Draft_Snap_Lock/it
 ---
 
 # Draft Snap Dimensions/it

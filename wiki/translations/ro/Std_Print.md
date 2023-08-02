@@ -1,6 +1,6 @@
 # Std Print/ro
 ---
-- GuiCommand:   Name: Std Print   Name/ro: Imprimare   MenuLocation: [Workbenches: All   Shortcut: Ctrl+P   SeeAlso: [[Std_PrintPreview/ro|Previzualizare tipărire...](Std_File_Menu/ro___File]]_-_Imprimare....md)---
+- GuiCommand:   Name: Std Print   Name/ro: Imprimare   MenuLocation: Std_File_Menu/ro   File -> Imprimare...---
 
 
 </div>

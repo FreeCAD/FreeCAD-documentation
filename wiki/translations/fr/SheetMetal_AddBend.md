@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: SheetMetal AddBend
    Name/fr: SheetMetal Transformation en pli
-   MenuLocation: SheetMetal - Make Bend
-   Workbenches: [SheetMetal](SheetMetal_Workbench/fr.md)
+   MenuLocation: SheetMetal -> Make Bend
+   Workbenches: SheetMetal_Workbench/fr
    Shortcut: **S** **B**
-   SeeAlso: [SheetMetal Grugeage carré](SheetMetal_AddRelief/fr.md), [SheetMetal Découpe d'angle](SheetMetal_AddJunction/fr.md)
+   SeeAlso: SheetMetal_AddRelief/fr, SheetMetal_AddJunction/fr
 ---
 
 # SheetMetal AddBend/fr

@@ -1,6 +1,6 @@
 # Draft PathArray/cs
 ---
-- GuiCommand:   Name: Draft PathArray   Name/cs: Kreslení TrasovéPole   Workbenches: [Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation: Draft - PathArray   SeeAlso: [Draft Array](Draft_Array/cs.md) ---
+- GuiCommand:   Name: Draft PathArray   Name/cs: Kreslení TrasovéPole   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs ---
 
 
 </div>

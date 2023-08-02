@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std SelectVisibleObjects
    Name/it: Seleziona gli oggetti visibili
-   MenuLocation: Visualizza - Visibilità - Seleziona gli oggetti visibili
+   MenuLocation: Visualizza -> Visibilità -> Seleziona gli oggetti visibili
    Workbenches: Tutti
 ---
 

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Drawing Save
    Name/ru: Drawing Save
-   Workbenches: [Drawing](Drawing_Workbench/ru.md), Complete
-   MenuLocation: Чертёж- Экспортировать страницу...
+   Workbenches: Drawing Workbench/ru, Complete
+   MenuLocation: Чертёж-> Экспортировать страницу...
    Shortcut: 
-   SeeAlso: [Открыть SVG](Drawing_Open_SVG/ru.md)
+   SeeAlso: Drawing Open SVG/ru
 ---
 
 # Drawing Save/ru

@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintLineLength
    Name/fr: Assembly3 Contrainte longueur ligne
    Icon: Assembly_ConstraintLineLength.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 ConstraintLineLength/fr

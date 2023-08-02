@@ -3,10 +3,10 @@
    Name: FEM SolverElmer
    Name/ru: FEM SolverElmer
    Icon: Fem-elmer.svg
-   MenuLocation:  Solve - solver Elmer
-   Workbenches: [FEM](FEM_Workbench/ru.md)
+   MenuLocation:  Solve -> solver Elmer
+   Workbenches: FEM_Workbench/ru
    Shortcut: 
-   SeeAlso: [FEM Solver CalculiX](FEM_SolverCalculiX/ru.md), [FEM Solver Z88](FEM_SolverZ88/ru.md), [Учебник МКЭ](FEM_tutorial/ru.md)
+   SeeAlso: FEM_SolverCalculiX/ru, FEM_SolverZ88/ru, FEM_tutorial/ru
 ---
 
 # FEM SolverElmer/ru

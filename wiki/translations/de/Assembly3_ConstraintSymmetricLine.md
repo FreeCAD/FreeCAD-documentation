@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintSymmetricLine
    Name/de: Assembly3 Achsensymmetrie
    Icon: Assembly_ConstraintSymmetricLine.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 ConstraintSymmetricLine/de

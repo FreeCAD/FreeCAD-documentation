@@ -1,6 +1,6 @@
 # Part Offset/cs
 ---
-- GuiCommand:   Name: Part Offset   Name/cs: Part Offset   MenuLocation: Part - Offset   |Workbenches: [SeeAlso: [[Part_Thickness/cs|Thickness](Part_Workbench/cs___Part]],_Complet.md)---
+- GuiCommand:   Name: Part Offset   Name/cs: Part Offset   MenuLocation: Part -> Offset   , Complet---
 
 
 </div>

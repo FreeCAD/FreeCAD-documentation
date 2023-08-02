@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Arch Pipe
    Name/fr: Arch Conduite
-   MenuLocation: Arch - Outils pour la tuyauterie - Conduite
-   Workbenches: [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Arch -> Outils pour la tuyauterie -> Conduite
+   Workbenches: Arch_Workbench/fr
    Shortcut: **P** **I**
    Version: 0.17
-   SeeAlso: [Arch Raccord](Arch_PipeConnector/fr.md), [Arch Equipement](Arch_Equipment/fr.md)
+   SeeAlso: Arch_PipeConnector/fr, Arch_Equipment/fr
 ---
 
 # Arch Pipe/fr

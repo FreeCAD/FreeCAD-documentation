@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/ru: Покинуть эскиз
    Name: Sketcher_LeaveSketch
-   MenuLocation: Sketch - Покинуть эскиз
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
-   SeeAlso: [Редактировать эскиз](Sketcher_EditSketch/ru.md)
+   MenuLocation: Sketch -> Покинуть эскиз
+   Workbenches: Sketcher_Workbench/ru, PartDesign_Workbench/ru
+   SeeAlso: Sketcher_EditSketch/ru
 ---
 
 # Sketcher LeaveSketch/ru

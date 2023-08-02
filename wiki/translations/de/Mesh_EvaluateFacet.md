@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Mesh EvaluateFacet
    Name/de: Mesh FacetteAuswerten
-   MenuLocation:  Netze - Analysieren - Dreiecksinformation
-   Workbenches: [Mesh](Mesh_Workbench/de.md)
+   MenuLocation:  Netze -> Analysieren -> Dreiecksinformation
+   Workbenches: Mesh_Workbench/de
 ---
 
 # Mesh EvaluateFacet/de

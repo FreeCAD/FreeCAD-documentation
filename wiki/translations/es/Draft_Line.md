@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Line
    Name/es: Borrador Linea
-   MenuLocation: Borrador - Línea
-   Workbenches: [Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   MenuLocation: Borrador -> Línea
+   Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Shortcut: **L** **I**
    Version: 0.7
-   SeeAlso: [Borrador Hilo](Draft_Wire/es.md), [Borrador Punto](Draft_Point/es.md)
+   SeeAlso: Draft_Wire/es, Draft_Point/es
 ---
 
 # Draft Line/es

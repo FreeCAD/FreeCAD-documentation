@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Part Measure Clear All
    Name/it: Cancella tutto
-   MenuLocation: {{StdMenu|[Misure](Std_Measure_Menu/it.md)}} - Cancella tutto‎
-   Workbenches: [Part](Part_Workbench/it.md)
+   MenuLocation: {{StdMenu}} -> Cancella tutto‎
+   Workbenches: Part_Workbench/it
 ---
 
 # Part Measure Clear All/it

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Mesh Segmentation
-   MenuLocation: Meshes - Create mesh segments...
-   Workbenches: [Mesh](Mesh_Workbench.md)
-   SeeAlso: [Mesh SegmentationBestFit](Mesh_SegmentationBestFit.md)
+   MenuLocation: Meshes -> Create mesh segments...
+   Workbenches: Mesh_Workbench
+   SeeAlso: Mesh_SegmentationBestFit
 ---
 
 # Mesh Segmentation

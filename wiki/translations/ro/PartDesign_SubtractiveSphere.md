@@ -1,6 +1,6 @@
 # PartDesign SubtractiveSphere/ro
 ---
-- GuiCommand:   Name: PartDesign SubtractiveSphere   Workbenches: [MenuLocation: Part Design - Create a subtractive primitive - Subtractive Sphere   Shortcut: None   SeeAlso: [[PartDesign CompPrimitiveSubtractive](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign SubtractiveSphere   Workbenches: PartDesign Workbench   PartDesign---
 
 
 </div>

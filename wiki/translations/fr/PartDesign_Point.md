@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign Point
    Name/fr: PartDesign Point de référence
-   MenuLocation: Part Design - Créer une référence - Créer un point de référence
-   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   MenuLocation: Part Design -> Créer une référence -> Créer un point de référence
+   Workbenches: PartDesign_Workbench/fr
    Version: 0.17
-   SeeAlso: [PartDesign Droite de référence](PartDesign_Line/fr.md), [PartDesign Plan de référence](PartDesign_Plane/fr.md)
+   SeeAlso: PartDesign_Line/fr, PartDesign_Plane/fr
 ---
 
 # PartDesign Point/fr

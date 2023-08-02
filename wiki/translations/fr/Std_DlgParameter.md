@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std DlgParameter
    Name/fr: Std Éditeur de paramètres
-   MenuLocation: Outils - Éditeur de paramètres
+   MenuLocation: Outils -> Éditeur de paramètres
    Workbenches: Tous
-   SeeAlso: [Réglage des préférences](Preferences_Editor/fr.md) 
+   SeeAlso: Preferences_Editor/fr 
 ---
 
 # Std DlgParameter/fr

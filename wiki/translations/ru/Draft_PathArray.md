@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft PathArray
    Name/ru: Draft PathArray
-   MenuLocation: Черчение - Массив по направляющей
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   SeeAlso: [Массив](Draft_Array/ru.md) 
+   MenuLocation: Черчение -> Массив по направляющей
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
+   SeeAlso: Draft Array/ru 
 ---
 
 # Draft PathArray/ru

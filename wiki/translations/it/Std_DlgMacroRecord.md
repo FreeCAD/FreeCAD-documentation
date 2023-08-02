@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std_DlgMacroRecord
    Name/it: Registra una macro
-   MenuLocation: Macro - Registra una macro ...
+   MenuLocation: Macro -> Registra una macro ...
    Workbenches: Tutti
-   SeeAlso: [Interrompi la registrazione](Std_MacroStopRecord/it.md)
+   SeeAlso: Std_MacroStopRecord/it
 ---
 
 # Std DlgMacroRecord/it

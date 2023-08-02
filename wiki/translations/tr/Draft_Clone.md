@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Clone
    Name/tr: Klonla
-   MenuLocation: Taslak - Klonla
-   Workbenches: [Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   MenuLocation: Taslak -> Klonla
+   Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **C** **L**
-   SeeAlso: [Taşı](Draft_Move/tr.md), [Ölçek](Draft_Scale/tr.md)
+   SeeAlso: Draft Move/tr, Draft Scale/tr
 ---
 
 # Draft Clone/tr

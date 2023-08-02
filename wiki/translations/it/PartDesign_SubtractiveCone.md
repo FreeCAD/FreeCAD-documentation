@@ -1,6 +1,6 @@
 # PartDesign SubtractiveCone/it
 ---
-- GuiCommand:   Name: PartDesign SubtractiveCone   Name/it: Cono sottrattivo   Workbenches: [MenuLocation: Part Design - Crea una primitiva sotttrattiva - Cono   Version: 0.17   SeeAlso: [[PartDesign CompPrimitiveSubtractive/it|Primitive sottrattive](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign SubtractiveCone   Name/it: Cono sottrattivo   Workbenches: PartDesign Workbench/it   PartDesign---
 
 
 </div>

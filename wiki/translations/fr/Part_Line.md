@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Line
    Name/fr: Part Ligne
-   MenuLocation: Part - [Créer des primitives](Part_Primitives/fr.md) - Ligne
-   Workbenches: [Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
-   SeeAlso: [Part Primitives](Part_Primitives/fr.md)
+   MenuLocation: Part -> Part_Primitives/fr -> Ligne
+   Workbenches: Part_Workbench/fr, OpenSCAD_Workbench/fr
+   SeeAlso: Part_Primitives/fr
 ---
 
 # Part Line/fr

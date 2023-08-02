@@ -1,6 +1,6 @@
 # Arch Schedule/it
 ---
-- GuiCommand:   Name: Arch Schedule   Name/it: Scheda   Workbenches: [MenuLocation: Arch - Scheda   SeeAlso: [[Arch Equipment/it|Arredo](Arch_Workbench/it___Arch]].md)---
+- GuiCommand:   Name: Arch Schedule   Name/it: Scheda   Workbenches: Arch_Workbench/it   Arch---
 
 ## Descrizione
 

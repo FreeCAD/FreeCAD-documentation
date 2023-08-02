@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Curves IsoCurve
    Name/fr: Curves Courbes iso
-   MenuLocation: Surfaces - IsoCurve
-   Workbenches: [Curves](Curves_Workbench/fr.md)
-   SeeAlso: [Curves Joindre courbe](Curves_JoinCurve/fr.md)
+   MenuLocation: Surfaces -> IsoCurve
+   Workbenches: Curves_Workbench/fr
+   SeeAlso: Curves_JoinCurve/fr
 ---
 
 # Curves IsoCurve/fr

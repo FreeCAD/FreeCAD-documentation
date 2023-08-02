@@ -3,8 +3,8 @@
    Name: Assembly3 GoToRelation
    Name/fr: Assembly3 GoToRelation
    Icon: Assembly_GotoRelation.svg
-   MenuLocation: Assembly3 - Go to relation
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   MenuLocation: Assembly3 -> Go to relation
+   Workbenches: Assembly3_Workbench/fr
    Shortcut: **A** **R**
 ---
 

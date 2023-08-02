@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher CreateArcOfParabola
    Name/de: Sketcher ParabelbogenErstellen
-   MenuLocation: Sketch - Skizzengeometrien - Parabelbogen erstellen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Sketch -> Skizzengeometrien -> Parabelbogen erstellen
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **J**
    Version: 0.17
-   SeeAlso: [Sketcher EllipsenbogenErstellen](Sketcher_CreateArcOfEllipse/de.md), [Sketcher HyperbelbogenErstellen](Sketcher_CreateArcOfHyperbola/de.md)
+   SeeAlso: Sketcher_CreateArcOfEllipse/de, Sketcher_CreateArcOfHyperbola/de
 ---
 
 # Sketcher CreateArcOfParabola/de

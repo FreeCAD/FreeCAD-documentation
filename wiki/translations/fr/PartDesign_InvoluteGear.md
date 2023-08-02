@@ -3,9 +3,9 @@
    Name: PartDesign InvoluteGear
    Name/fr: PartDesign Engrenage à développante
    Icon: PartDesign_InternalExternalGear.svg
-   MenuLocation: Part Design - Engrenage à développante...
-   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso: [Atelier FCGear](FCGear_Workbench/fr.md)
+   MenuLocation: Part Design -> Engrenage à développante...
+   Workbenches: PartDesign_Workbench/fr
+   SeeAlso: FCGear_Workbench/fr
 ---
 
 # PartDesign InvoluteGear/fr

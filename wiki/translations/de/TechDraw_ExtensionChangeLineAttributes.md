@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ExtensionChangeLineAttributes
    Name/de: TechDraw ErgänzungLinienmerkmaleÄndern
-   MenuLocation: TechDraw - Ergänzungen: Merkmale/Änderungen - Linienmerkmale ändern
-   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   MenuLocation: TechDraw -> Ergänzungen: Merkmale/Änderungen -> Linienmerkmale ändern
+   Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20
-   SeeAlso: [TechDraw ErgänzungLinienmerkmaleAuswählen](TechDraw_ExtensionSelectLineAttributes/de.md)
+   SeeAlso: TechDraw_ExtensionSelectLineAttributes/de
 ---
 
 # TechDraw ExtensionChangeLineAttributes/de

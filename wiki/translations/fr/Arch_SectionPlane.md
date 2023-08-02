@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch SectionPlane
    Name/fr: Arch Plan de coupe
-   MenuLocation: Arch - Plan de coupe
-   Workbenches: [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Arch -> Plan de coupe
+   Workbenches: Arch_Workbench/fr
    Shortcut: **S** **P**
-   SeeAlso: [Draft Vue 2D d'une forme](Draft_Shape2DView/fr.md), [TechDraw Vue d'un objet Arch](TechDraw_ArchView/fr.md)
+   SeeAlso: Draft_Shape2DView/fr, TechDraw_ArchView/fr
 ---
 
 # Arch SectionPlane/fr

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Curves EditableSpline
    Name/de: Curves EditierbarerSpline
-   MenuLocation: Curves - Freehand BSpline
-   Workbenches: [Curves](Curves_Workbench/de.md)
+   MenuLocation: Curves -> Freehand BSpline
+   Workbenches: Curves_Workbench/de
 ---
 
 # Curves EditableSpline/de

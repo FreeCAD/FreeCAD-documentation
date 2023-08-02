@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part_Fillet
    Name/ru: Скругление
-   MenuLocation: Деталь - Скругление...
-   Workbenches: [Верстак Part](Part_Workbench/ru.md)
-   SeeAlso: [Фаска](Part_Chamfer/ru.md)
+   MenuLocation: Деталь -> Скругление...
+   Workbenches: Part_Workbench/ru
+   SeeAlso: Part_Chamfer/ru
 ---
 
 # Part Fillet/ru

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/ru: Четверная буферизация стерео
    Name: Std_ViewIvStereoQuadBuff
-   MenuLocation: Вид - Стерео - Четверная буферизация стерео
+   MenuLocation: Вид -> Стерео -> Четверная буферизация стерео
    Workbenches: Все
-   SeeAlso: [Стерео красный/голубой](Std_ViewIvStereoRedGreen/ru.md), [Стерео с чередованием строк](Std_ViewIvStereoInterleavedRows/ru.md), [Стерео с чередованием столбцов](Std_ViewIvStereoInterleavedColumns/ru.md), [Выключить стерео](Std_ViewIvStereoOff/ru.md)
+   SeeAlso: Std_ViewIvStereoRedGreen/ru, Std_ViewIvStereoInterleavedRows/ru, Std_ViewIvStereoInterleavedColumns/ru, Std_ViewIvStereoOff/ru
 ---
 
 # Std ViewIvStereoQuadBuff/ru

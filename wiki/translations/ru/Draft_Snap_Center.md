@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft Snap Center
    Name/ru: Draft Snap Center
-   MenuLocation: Черчение - Привязка - Центр
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   SeeAlso: [Draft привязка](Draft_Snap/ru.md), [Draft Toggle привязка](Draft_Snap_Lock/ru.md)
+   MenuLocation: Черчение -> Привязка -> Центр
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
+   SeeAlso: Draft_Snap/ru, Draft_Snap_Lock/ru
 ---
 
 # Draft Snap Center/ru

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Sketcher ConstrainLock
    Name/ru: Sketcher ConstrainLock
-   MenuLocation: Sketch - Ограничения эскиза - Ограничение положения
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
-   SeeAlso: [Sketcher Constrain Block](Sketcher_ConstrainBlock/ru.md)
+   MenuLocation: Sketch -> Ограничения эскиза -> Ограничение положения
+   Workbenches: Sketcher_Workbench/ru
+   SeeAlso: Sketcher_ConstrainBlock/ru
 ---
 
 # Sketcher ConstrainLock/ru

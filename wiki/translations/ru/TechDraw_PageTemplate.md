@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/ru: Вставить страницу используя шаблон
    Name: TechDraw_PageTemplate
-   MenuLocation: TechDraw - Вставить страницу используя шаблон
-   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso: [Вставить страницу по умолчанию](TechDraw_PageDefault/ru.md), [Шаблоны](TechDraw_Templates/ru.md)
+   MenuLocation: TechDraw -> Вставить страницу используя шаблон
+   Workbenches: TechDraw_Workbench/ru
+   SeeAlso: TechDraw_PageDefault/ru, TechDraw_Templates/ru
 ---
 
 # TechDraw PageTemplate/ru

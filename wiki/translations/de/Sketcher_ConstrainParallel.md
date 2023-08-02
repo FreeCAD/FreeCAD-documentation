@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ConstrainParallel
    Name/de: Sketcher ParallelFestlegen
-   MenuLocation: Sketch - Skizzen-Beschränkungen - Parallelität erzwingen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Sketch -> Skizzen-Beschränkungen -> Parallelität erzwingen
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **P**
-   SeeAlso: [Sketcher VertikalFestlegen](Sketcher_ConstrainVertical/de.md), [Sketcher HorizontalFestlegen](Sketcher_ConstrainHorizontal/de.md)
+   SeeAlso: Sketcher_ConstrainVertical/de, Sketcher_ConstrainHorizontal/de
 ---
 
 # Sketcher ConstrainParallel/de

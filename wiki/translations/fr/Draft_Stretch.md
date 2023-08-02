@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Stretch
    Name/fr: Draft Étirer
-   MenuLocation: Modification - Étirer
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Modification -> Étirer
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **S** **H**
    Version: 0.17
 ---

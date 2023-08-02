@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std_ProjectInfo
    Name/it: Informazioni sul progetto
-   MenuLocation: File - Informazioni sul progetto...
+   MenuLocation: File -> Informazioni sul progetto...
    Workbenches: Tutti
-   SeeAlso: [Nuovo](Std_New/it.md)
+   SeeAlso: Std_New/it
 ---
 
 # Std ProjectInfo/it

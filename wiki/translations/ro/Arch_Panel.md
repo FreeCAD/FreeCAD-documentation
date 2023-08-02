@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Arch Panel   Name/ro: Arch Panel
-   MenuLocation: Arch - Panel Tools - Panel
-   Workbenches: [Arch](Arch_Workbench/ro.md)
+   MenuLocation: Arch -> Panel Tools -> Panel
+   Workbenches: Arch_Workbench/ro
    Shortcut: **P** **A**
-   SeeAlso: [Arch Panel Cut](Arch_Panel_Cut/ro.md), [Arch Panel Sheet](Arch_Panel_Sheet/ro.md)
+   SeeAlso: Arch Panel Cut/ro, Arch Panel Sheet/ro
    Version: 0.15
 ---
 

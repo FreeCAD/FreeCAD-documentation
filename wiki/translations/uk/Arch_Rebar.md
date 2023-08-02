@@ -1,6 +1,6 @@
 # Arch Rebar/uk
 ---
-- GuiCommand:   Name: Arch Rebar   Name/uk: Arch Rebar   Workbenches: [MenuLocation: Arch - Rebar   Shortcut: R B   SeeAlso: [[Arch Structure/uk|Arch Structure](Arch_Workbench/uk___Arch]].md)---
+- GuiCommand:   Name: Arch Rebar   Name/uk: Arch Rebar   Workbenches: Arch_Workbench/uk   Arch---
 
 
 </div>
@@ -9,7 +9,7 @@
 <div class="mw-translate-fuzzy">
 
 ---
-- GuiCommand:   Name: Arch Rebar   Name/uk: Arch Rebar   Workbenches: [MenuLocation: Arch - Rebar   Shortcut: R B   SeeAlso: [[Arch Structure/uk|Arch Structure](Arch_Workbench/uk___Arch]].md)---
+- GuiCommand:   Name: Arch Rebar   Name/uk: Arch Rebar   Workbenches: Arch_Workbench/uk   Arch---
 
 
 </div>

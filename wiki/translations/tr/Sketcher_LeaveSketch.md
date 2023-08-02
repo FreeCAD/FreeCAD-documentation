@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher LeaveSketch
    Name/tr: Eskizi Kapat
-   Workbenches: [Eskiz](Sketcher_Workbench/tr.md), [Parça tasarım](PartDesign_Workbench/tr.md)
-   MenuLocation: Eskiz - Eskizi kapat
+   Workbenches: Sketcher Workbench/tr, PartDesign Workbench/tr
+   MenuLocation: Eskiz -> Eskizi kapat
 ---
 
 # Sketcher LeaveSketch/tr

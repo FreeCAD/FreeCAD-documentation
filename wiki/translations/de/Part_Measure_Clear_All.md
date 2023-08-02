@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Part Measure Clear All
    Name/de: Part Messung AllesLöschen
-   MenuLocation: Messen - Alles löschen
-   Workbenches: [Part](Part_Workbench/de.md)
+   MenuLocation: Messen -> Alles löschen
+   Workbenches: Part_Workbench/de
 ---
 
 # Part Measure Clear All/de

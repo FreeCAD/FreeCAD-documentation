@@ -1,6 +1,6 @@
 # Draft ShapeString/sv
 ---
-- GuiCommand:   Name: Draft ShapeString   Name/sv: Draft ShapeString   Workbenches: [Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation: Draft -> ShapeString   Shortcut: S S   SeeAlso: [Draft Text](Draft_Text/sv.md), [Part Extrude](Part_Extrude/sv.md)---
+- GuiCommand:   Name: Draft ShapeString   Name/sv: Draft ShapeString   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv, Part Extrude/sv---
 
 
 </div>

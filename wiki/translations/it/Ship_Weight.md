@@ -1,6 +1,6 @@
 # Ship Weight/it
 ---
-- GuiCommand:   Name: Ship Weight   Name/it: Peso   MenuLocation: Weights - Create a new ship weight   |Workbenches: [[Ship Workbench/it   Ship]]|Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: Ship Weight   Name/it: Peso   MenuLocation: Weights -> Create a new ship weight   |Shortcut:    SeeAlso: ---
 
 
 </div>

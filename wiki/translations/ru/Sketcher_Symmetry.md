@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Симметрия
    Name: Sketcher_Symmetry
-   MenuLocation: Sketch - Инструменты для эскиза - Симметрия
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation: Sketch -> Инструменты для эскиза -> Симметрия
+   Workbenches: Sketcher_Workbench/ru
    Version: 0.16
-   SeeAlso: [Отразить эскиз зеркально](Sketcher_MirrorSketch/ru.md)
+   SeeAlso: Sketcher_MirrorSketch/ru
 ---
 
 # Sketcher Symmetry/ru

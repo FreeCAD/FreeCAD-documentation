@@ -3,8 +3,8 @@
 - GuiCommand:
    Name: Draft Snap Angle
    Name/tr: Açı
-   Workbenches: [Taslak](Draft_Workbench.md), [Yapı](Arch_Workbench.md)
-   MenuLocation: Taslak - [Snap](Draft_Snap/tr.md) - Açı
+   Workbenches: Draft Workbench, Arch Workbench
+   MenuLocation: Taslak -> Draft Snap/tr -> Açı
    Shortcut: 
    SeeAlso: ---
 

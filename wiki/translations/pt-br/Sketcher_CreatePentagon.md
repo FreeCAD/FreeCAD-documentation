@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Sketcher CreatePentagon
-   MenuLocation: Sketch - Sketcher geometries - Create pentagon
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch -> Sketcher geometries -> Create pentagon
+   Workbenches: Sketcher_Workbench
    Shortcut: **G** **P** **5**
    Version: 0.15
 ---

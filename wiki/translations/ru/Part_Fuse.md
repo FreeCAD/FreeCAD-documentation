@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/ru: Part Union
    Icon: Part Fuse.svg
-   MenuLocation: Деталь - Булевы операции - Объединение
-   Workbenches: [Part](Part_Workbench/ru.md)
-   SeeAlso: [Обрезать](Part_Cut/ru.md), [Пересечение](Part_Common/ru.md), [Part Boolean](Part_Boolean/ru.md)
+   MenuLocation: Деталь -> Булевы операции -> Объединение
+   Workbenches: Part_Workbench/ru
+   SeeAlso: Part Cut/ru, Part Common/ru, Part Boolean/ru
 ---
 
 # Part Fuse/ru

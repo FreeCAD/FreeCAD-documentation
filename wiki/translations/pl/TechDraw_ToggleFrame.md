@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw ToggleFrame
    Name/pl: Rysunek Techniczny: Włącz / wyłącz wyświetlanie ramek
-   MenuLocation: Rysunek Techniczny - Widoki - Włącz / wyłącz wyświetlanie ramek
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso: [Wstaw widok](TechDraw_View/pl.md), [Wstaw grupę rzutów](TechDraw_ProjectionGroup/pl.md)
+   MenuLocation: Rysunek Techniczny -> Widoki -> Włącz / wyłącz wyświetlanie ramek
+   Workbenches: TechDraw_Workbench/pl
+   SeeAlso: TechDraw_View/pl, TechDraw_ProjectionGroup/pl
 ---
 
 # TechDraw ToggleFrame/pl

@@ -2,9 +2,9 @@
 - GuiCommand:
    Icon: Constraint PointOnPoint.svg
    Name/es: Restricción de coincidencia
-   Workbenches: [Sketcher](Sketcher_Workbench/es.md)
+   Workbenches: Sketcher Workbench/es
    Shortcut: C
-   MenuLocation: Sketch - Restricciones de croquis - Restricción de coincidencia   SeeAlso: [Restricción de bloqueo](Sketcher_ConstrainLock/es.md), [Punto en objeto](Sketcher_ConstrainPointOnObject/es.md)
+   MenuLocation: Sketch -> Restricciones de croquis -> Restricción de coincidencia   SeeAlso: Sketcher_ConstrainLock/es, Sketcher_ConstrainPointOnObject/es
 ---
 
 # Sketcher ConstrainCoincident/es

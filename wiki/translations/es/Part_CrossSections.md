@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Part CrossSections
-   MenuLocation: Part - Cross-sections...
-   Workbenches: [Part](Part_Workbench/es.md),Complete
+   MenuLocation: Part -> Cross-sections...
+   Workbenches: Part_Workbench/es,Complete
    SeeAlso: 
 ---
 

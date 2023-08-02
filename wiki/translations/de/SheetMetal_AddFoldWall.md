@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: SheetMetal AddFoldWall
    Name/de: SheetMetal Abkanten
-   MenuLocation: SheetMetal - Fold a Wall
-   Workbenches: [Blech (SheetMetal)](SheetMetal_Workbench/de.md)
+   MenuLocation: SheetMetal -> Fold a Wall
+   Workbenches: SheetMetal_Workbench/de
    Shortcut: **C** **F**
 ---
 

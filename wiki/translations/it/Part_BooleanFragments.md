@@ -1,6 +1,6 @@
 # Part BooleanFragments/it
 ---
-- GuiCommand:   Name: Part BooleanFragments   Name/it: Frammenti booleani   MenuLocation: Part - Dividi - Frammenti booleani   Workbenches: [SeeAlso: [[Part_Slice/it   Affetta in composto](Part_Workbench/it___Part]].md), [Part XOR](Part_XOR/it.md), [Congiungi](Part_CompJoinFeatures/it.md), [Operazione booleana](Part_Boolean/it.md)|Version: 0.17.8053---
+- GuiCommand:   Name: Part BooleanFragments   Name/it: Frammenti booleani   MenuLocation: Part -> Dividi -> Frammenti booleani   Workbenches: Part_Workbench/it   Part, Part_XOR/it, Part_CompJoinFeatures/it, Part Boolean/it|Version: 0.17.8053---
 
 
 </div>

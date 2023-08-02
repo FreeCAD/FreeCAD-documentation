@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part SimpleCopy‎
    Name/de: Part EinfacheKopie
-   MenuLocation: Part - Erzeuge eine Kopie - Erzeuge eine einfache Kopie
-   Workbenches: [Part Modul](Part_Workbench/de.md)
-   Siehe auch: [Kopie](Std_Copy/de.md), [Dupliziere Auswahl](Std_DuplicateSelection/de.md), [Part_TransformierteKopie (verschobene Kopie)](Part_TransformedCopy/de.md), [Part_ElementKopie](Part_ElementCopy/de.md), [Part_FormAufbereiten](Part_RefineShape/de.md)
+   MenuLocation: Part -> Erzeuge eine Kopie -> Erzeuge eine einfache Kopie
+   Workbenches: Part Workbench/de
+   Siehe auch: Std Copy/de, Std_DuplicateSelection/de, Part_TransformedCopy/de, Part_ElementCopy/de, Part_RefineShape/de
 ---
 
 # Part SimpleCopy/de

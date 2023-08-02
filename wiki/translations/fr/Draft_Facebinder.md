@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Facebinder
    Name/fr: Draft Surfaces liées
-   MenuLocation: Draft - Surfaces liées
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Draft -> Surfaces liées
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **F** **F**
    Version: 0.14
 ---

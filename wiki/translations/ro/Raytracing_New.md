@@ -1,6 +1,6 @@
 # Raytracing New/ro
 ---
-- GuiCommand:   Name: Raytracing New   Name/ro: Raytracing New   MenuLocation: Raytracing - New‏‎   |Workbenches: [[Raytracing Workbench/ro   Raytracing]]|Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: Raytracing New   Name/ro: Raytracing New   MenuLocation: Raytracing -> New‏‎   |Shortcut:    SeeAlso: ---
 
 
 </div>

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: FEM Examples
    Name/it: Esempi FEM
-   MenuLocation:  Utilities - Open FEM Examples
-   Workbenches: [FEM](FEM_Workbench/it.md)
-   SeeAlso: [Tutorial FEM](FEM_tutorial/it.md)
+   MenuLocation:  Utilities -> Open FEM Examples
+   Workbenches: FEM_Workbench/it
+   SeeAlso: FEM_tutorial/it
    Version: 0.19
 ---
 

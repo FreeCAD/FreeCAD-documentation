@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: EM FHPath
-   MenuLocation: EM - FHPath
-   Workbenches: [EM](EM_Workbench.md)
+   MenuLocation: EM -> FHPath
+   Workbenches: EM_Workbench
    Shortcut: **E** **T**
    Version: 0.17
-   SeeAlso: [EM FHNode](EM_FHNode.md), [EM FHSegment](EM_FHSegment.md)
+   SeeAlso: EM_FHNode, EM_FHSegment
 ---
 
 # EM FHPath

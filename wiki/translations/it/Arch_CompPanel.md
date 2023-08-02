@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Arch CompPanel
    Name/it: Pannelli
-   MenuLocation: Arch - Pannelli
-   Workbenches: [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   MenuLocation: Arch -> Pannelli
+   Workbenches: Arch Workbench/it, BIM Workbench/it
    SeeAlso: 
    Version: 0.17
 ---

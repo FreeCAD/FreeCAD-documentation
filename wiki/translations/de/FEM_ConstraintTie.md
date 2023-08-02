@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM ConstraintTie
    Name/de: FEM RandbedingungVerbinder
-   MenuLocation: Modell - Mechanische Randbedingungen - Randbedingung Verbinder
-   Workbenches: [FEM](FEM_Workbench/de.md)
+   MenuLocation: Modell -> Mechanische Randbedingungen -> Randbedingung Verbinder
+   Workbenches: FEM_Workbench/de
    Version: 0.19
-   SeeAlso: [FEM Randbedingung Druck](FEM_ConstraintPressure/de.md)
+   SeeAlso: FEM_ConstraintPressure/de
 ---
 
 # FEM ConstraintTie/de

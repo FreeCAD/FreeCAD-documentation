@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: FCGear WormGear
    Name/it: Vite senza fine
-   MenuLocation: FCGear - Create a Worm gear
-   Workbenches: [FCGear](FCGear_Workbench/it.md)
+   MenuLocation: FCGear -> Create a Worm gear
+   Workbenches: FCGear Workbench/it
    Shortcut: None
    Version: v0.16
-   SeeAlso: [PartDesign: Ingranaggio a spirale](PartDesign_InvoluteGear/it.md)
+   SeeAlso: PartDesign_InvoluteGear/it
 ---
 
 # FCGear WormGear/it

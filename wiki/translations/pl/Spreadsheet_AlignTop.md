@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Spreadsheet AlignTop
    Name/pl: Arkusz Kalkulacyjny: Wyrównaj w górę
-   MenuLocation: Arkusz kalkulacyjny - Wyrównanie - Wyrównaj w górę
-   Workbenches: [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   MenuLocation: Arkusz kalkulacyjny -> Wyrównanie -> Wyrównaj w górę
+   Workbenches: Spreadsheet_Workbench/pl
    Version: 0.17
 ---
 

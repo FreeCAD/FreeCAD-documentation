@@ -3,10 +3,10 @@
    Icon: Constraint Vertical.svg
    Name: Vertical constraint
    Name/it: Vincolo verticale
-   Workbenches: [Schizzo](Sketcher_Workbench/it.md)
+   Workbenches: Sketcher Workbench/it
    Shortcut: **V**
-   MenuLocation: Sketch - Vincoli - Verticale
-   SeeAlso: [Orizzontale](Sketcher_ConstrainHorizontal/it.md)
+   MenuLocation: Sketch -> Vincoli -> Verticale
+   SeeAlso: Sketcher_ConstrainHorizontal/it
 ---
 
 # Sketcher ConstrainVertical/it

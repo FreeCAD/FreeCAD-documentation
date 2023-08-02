@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Curves ParametricSolid
-   MenuLocation: Misc. - Parametric solid
-   Workbenches: [Curves](Curves_Workbench.md)
+   MenuLocation: Misc. -> Parametric solid
+   Workbenches: Curves_Workbench
 ---
 
 # Curves ParametricSolid/it

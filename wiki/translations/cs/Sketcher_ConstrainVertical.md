@@ -2,10 +2,10 @@
 - GuiCommand:
    Icon: Constraint Vertical.svg
    Name/cs: Constraint Vertical
-   Workbenches: [Náčrt](Sketcher_Workbench/cs.md)
+   Workbenches: Sketcher Workbench/cs
    Shortcut: V
-   MenuLocation: Sketch - Sketcher constraints - Constrain vertically
-   SeeAlso: [Vazba vodorovnosti](Sketcher_ConstrainHorizontal/cs.md)
+   MenuLocation: Sketch -> Sketcher constraints -> Constrain vertically
+   SeeAlso: Sketcher_ConstrainHorizontal/cs
 ---
 
 # Sketcher ConstrainVertical/cs

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Mesh Difference
-   MenuLocation: Meshes - Boolean - Difference
-   Workbenches: [Mesh](Mesh_Workbench.md)
-   SeeAlso: [Mesh Union](Mesh_Union.md), [Mesh Intersection](Mesh_Intersection.md)
+   MenuLocation: Meshes -> Boolean -> Difference
+   Workbenches: Mesh_Workbench
+   SeeAlso: Mesh_Union, Mesh_Intersection
 ---
 
 # Mesh Difference/en

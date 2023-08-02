@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher Symmetry
    Name/de: Sketcher Symmetrie
-   MenuLocation: Skizze - Skizzenwerkzeuge - Symmetrie
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Skizze -> Skizzenwerkzeuge -> Symmetrie
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **Z** **S**
    Version: 0.16
-   SeeAlso: [Sketcher SkizzeSpiegeln](Sketcher_MirrorSketch/de.md)
+   SeeAlso: Sketcher_MirrorSketch/de
 ---
 
 # Sketcher Symmetry/de

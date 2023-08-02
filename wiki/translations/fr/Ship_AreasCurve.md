@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Ship Area
    Name/fr: Ship Courbe de surface
-   MenuLocation: Ship design - Areas curve
-   Workbenches: [Ship](Ship_Workbench/fr.md)
+   MenuLocation: Ship design -> Areas curve
+   Workbenches: Ship_Workbench/fr
    Shortcut: 
    SeeAlso: 
 ---

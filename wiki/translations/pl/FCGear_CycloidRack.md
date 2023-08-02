@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: FCGear CycloidRack
-   MenuLocation: Gear - Cycloid Rack
-   Workbenches: [FCGear](FCGear_Workbench.md)
+   MenuLocation: Gear -> Cycloid Rack
+   Workbenches: FCGear_Workbench
    Shortcut: None
    Version: 1.0
-   SeeAlso: [FCGear CycloidGear](FCGear_CycloidGear.md)
+   SeeAlso: FCGear_CycloidGear
 ---
 
 # FCGear CycloidRack/pl

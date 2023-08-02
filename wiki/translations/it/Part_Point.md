@@ -1,6 +1,6 @@
 # Part Point/it
 ---
-- GuiCommand:   Name: Part_Point   Name/it: Punto   MenuLocation: Parte - [Workbenches: [[Part_Workbench/it   Parte](Part_CreatePrimitives/it___Crea_primitive]]_-_Punto.md)|SeeAlso: [Crea primitive](Part_CreatePrimitives/it.md)---
+- GuiCommand:   Name: Part_Point   Name/it: Punto   MenuLocation: Parte -> Part_CreatePrimitives/it   Crea primitive -> Punto---
 
 
 </div>

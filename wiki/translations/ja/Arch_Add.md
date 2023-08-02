@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch Add
    Name/ja: Arch Add
-   Workbenches: [建築](Arch_Workbench/ja.md)
+   Workbenches: Arch Workbench/ja
    MenuLocation: Arch -> Add
-   SeeAlso: [Arch Remove](Arch_Remove/ja.md)
+   SeeAlso: Arch Remove/ja
 ---
 
 # Arch Add/ja

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std_TreePreSelection
    Name/it: Pre-selezione
-   MenuLocation: Visualizza - Azioni della vista ad albero - Pre-selezione
+   MenuLocation: Visualizza -> Azioni della vista ad albero -> Pre-selezione
    Workbenches: Tutti
    Shortcut: **T** **4**
    Version: 0.19

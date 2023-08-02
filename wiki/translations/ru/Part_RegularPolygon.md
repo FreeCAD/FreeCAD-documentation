@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part_RegularPolygon
    Name/ru: Правильный Многоугольник
-   MenuLocation: Деталь - [Создать примитивы...](Part_CreatePrimitives.md) - Правильный Многоугольник
-   Workbenches: [Верстак Part](Part_Workbench/ru.md)
+   MenuLocation: Деталь -> Part_CreatePrimitives -> Правильный Многоугольник
+   Workbenches: Part_Workbench/ru
    Version: 0.14
-   SeeAlso: [Примитивы](Part_Primitives/ru.md)
+   SeeAlso: Part_Primitives/ru
 ---
 
 # Part RegularPolygon/ru

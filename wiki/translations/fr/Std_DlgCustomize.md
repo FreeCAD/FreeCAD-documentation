@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std_DlgCustomize
    Name/fr: Std Personnalisation
-   MenuLocation: Outils - Personnaliser...
+   MenuLocation: Outils -> Personnaliser...
    Workbenches: Tous
-   SeeAlso: [Personnaliser l'interface](Interface_Customization/fr.md)
+   SeeAlso: Interface_Customization/fr
 ---
 
 # Std DlgCustomize/fr

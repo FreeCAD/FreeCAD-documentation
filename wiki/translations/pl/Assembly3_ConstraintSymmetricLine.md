@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Assembly3 ConstraintSymmetricLine
    Icon: Assembly_ConstraintSymmetricLine.svg
-   Workbenches: [Assembly3](Assembly3_Workbench.md)
+   Workbenches: Assembly3_Workbench
 ---
 
 # Assembly3 ConstraintSymmetricLine/pl

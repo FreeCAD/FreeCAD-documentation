@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std Export
    Name/ru: Std Export
-   MenuLocation: Файл - Экспорт
+   MenuLocation: Файл -> Экспорт
    Workbenches: All
    Shortcut: **Ctrl**+**E**
-   SeeAlso: [Std PrintPdf](Std_PrintPdf/ru.md), [Import Export](Import_Export/ru.md), [Import Export Preferences](Import_Export_Preferences/ru.md)
+   SeeAlso: Std_PrintPdf/ru, Import_Export/ru, Import_Export_Preferences/ru
 ---
 
 # Std Export/ru

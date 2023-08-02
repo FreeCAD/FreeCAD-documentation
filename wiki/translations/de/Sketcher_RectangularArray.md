@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher RectangularArray
    Name/de: Sketcher RechteckigeAnordnung
-   MenuLocation:  Skizze - Skizzen-Werkzeuge - Rechteckige Anordnung
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation:  Skizze -> Skizzen-Werkzeuge -> Rechteckige Anordnung
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **Z** **A**
    Version: 0.16
 ---

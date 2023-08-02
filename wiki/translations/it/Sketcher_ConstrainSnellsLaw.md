@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Constraint SnellsLaw
    Name/it: Rifrazione
-   MenuLocation: Sketch - Sketcher Constraints - Rifrazione (Legge di Snell)
-   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation: Sketch -> Sketcher Constraints -> Rifrazione 
+   Workbenches: Sketcher Workbench/it
    Version: 0.15
 ---
 

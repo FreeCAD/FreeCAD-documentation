@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Part Measure Angular
-   MenuLocation: Measure - Measure Angular‏‎
-   Workbenches: [Part](Part_Workbench.md)
-   SeeAlso: [Draft Dimension](Draft_Dimension.md)
+   MenuLocation: Measure -> Measure Angular‏‎
+   Workbenches: Part_Workbench
+   SeeAlso: Draft_Dimension
 ---
 
 # Part Measure Angular/en

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft ToggleGrid
    Name/ro: Draft ToggleGrid
-   MenuLocation: Draft - Utilities - Toggle grid
-   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   MenuLocation: Draft -> Utilities -> Toggle grid
+   Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
    Shortcut: **G** **R**
-   SeeAlso: [Draft Snap](Draft_Snap.md), [Draft Snap Grid](Draft_Snap_Grid.md), [Draft SelectPlane](Draft_SelectPlane.md)
+   SeeAlso: Draft_Snap, Draft_Snap_Grid, Draft_SelectPlane
 ---
 
 # Draft ToggleGrid/ro

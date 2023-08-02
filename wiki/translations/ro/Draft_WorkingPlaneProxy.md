@@ -1,6 +1,6 @@
 # Draft WorkingPlaneProxy/ro
 ---
-- GuiCommand:   Name: Draft SetWorkingPlaneProxy   Workbenches: [Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation: Draft - Utilities - Create WP Proxy   SeeAlso: [[Draft SelectPlane]]---
+- GuiCommand:   Name: Draft SetWorkingPlaneProxy   Workbenches: Draft Workbench   Draft, Arch Workbench---
 
 
 </div>

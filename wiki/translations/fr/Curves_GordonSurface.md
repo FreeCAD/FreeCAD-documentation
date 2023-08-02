@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Curves GordonSurface
    Name/fr: Curves Surface de Gordon
-   MenuLocation: Surfaces - Gordon surface
-   Workbenches: [Curves](Curves_Workbench/fr.md)
+   MenuLocation: Surfaces -> Gordon surface
+   Workbenches: Curves_Workbench/fr
 ---
 
 # Curves GordonSurface/fr

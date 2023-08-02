@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: FCGear WormGear
-   MenuLocation: Gear - Worm Gear
-   Workbenches: [FCGear](FCGear_Workbench.md)
+   MenuLocation: Gear -> Worm Gear
+   Workbenches: FCGear_Workbench
    Shortcut: None
    Version: v0.16
-   SeeAlso: [PartDesign InvoluteGear](PartDesign_InvoluteGear.md)
+   SeeAlso: PartDesign_InvoluteGear
 ---
 
 # FCGear WormGear

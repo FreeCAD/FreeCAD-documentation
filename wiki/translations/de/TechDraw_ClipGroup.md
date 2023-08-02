@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw ClipGroup
    Name/de: TechDraw Ausschnittsgruppe
-   MenuLocation: TechDraw - Ausschnittsgruppe einfügen
-   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso: [TechDraw AusschnittsgruppeHinzufügen](TechDraw_ClipGroupAdd/de.md), [TechDraw AusschnittsgruppeEntfernen](TechDraw_ClipGroupRemove/de.md)
+   MenuLocation: TechDraw -> Ausschnittsgruppe einfügen
+   Workbenches: TechDraw_Workbench/de
+   SeeAlso: TechDraw_ClipGroupAdd/de, TechDraw_ClipGroupRemove/de
 ---
 
 # TechDraw ClipGroup/de

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: TechDraw Dimension Angle
    Name/it: Angolo
-   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
-   MenuLocation: TechDraw - Angolo
+   Workbenches: TechDraw_Workbench/it
+   MenuLocation: TechDraw -> Angolo
    Shortcut: 
-   SeeAlso: [Angolo da tre punti](TechDraw_3PtAngleDimension.md)
+   SeeAlso: TechDraw_3PtAngleDimension
 ---
 
 # TechDraw AngleDimension/it

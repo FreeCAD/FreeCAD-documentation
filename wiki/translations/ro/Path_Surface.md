@@ -1,6 +1,6 @@
 # Path Surface/ro
 ---
-- GuiCommand:   Name: Path 3DSurface   Workbenches: [[Path Workbench   Path]]|MenuLocation: Path - 3D Surface   Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: Path 3DSurface   Workbenches: Path Workbench   Path|MenuLocation: Path -> 3D Surface   Shortcut:    SeeAlso: ---
 
 
 </div>

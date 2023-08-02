@@ -1,11 +1,11 @@
 ---
 - GuiCommand:-cn
    Name: 通过中心创建椭圆
-   MenuLocation: Sketch - 草图几何体 - 通过中心创建椭圆
-   Workbenches: [Sketcher](Sketcher_Workbench/zh-cn.md)
+   MenuLocation: Sketch -> 草图几何体 -> 通过中心创建椭圆
+   Workbenches: Sketcher_Workbench/zh-cn
    Shortcut: **G** **E** **E**
    Version: 0.15
-   SeeAlso: [通过三点创建椭圆](Sketcher_CreateEllipseBy3Points/zh-cn.md), [创建圆](Sketcher_CreateCircle/zh-cn.md), [创建椭圆弧](Sketcher_CreateArcOfEllipse/zh-cn.md)
+   SeeAlso: Sketcher_CreateEllipseBy3Points/zh-cn, Sketcher_CreateCircle/zh-cn, Sketcher_CreateArcOfEllipse/zh-cn
 ---
 
 # Sketcher CreateEllipseByCenter/zh-cn

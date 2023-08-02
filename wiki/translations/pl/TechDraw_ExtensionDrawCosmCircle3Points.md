@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ExtensionDrawCosmCircle3Points
    Name/pl: Rysunek Techniczny: Rozszerzenie Dodaj okrąg kosmetyczny oparty na trzech punktach
-   MenuLocation: Rysunek Techniczny - Rozszerzenia: Linie środka / Gwinty - Dodaj okrąg kosmetyczny oparty na trzech punktach
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   MenuLocation: Rysunek Techniczny -> Rozszerzenia: Linie środka / Gwinty -> Dodaj okrąg kosmetyczny oparty na trzech punktach
+   Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20
-   SeeAlso: [Dodaj łuk kosmetyczny](TechDraw_ExtensionDrawCosmArc/pl.md)
+   SeeAlso: TechDraw_ExtensionDrawCosmArc/pl
 ---
 
 # TechDraw ExtensionDrawCosmCircle3Points/pl

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch Rebar Slab Reinforcement
    Name/fr: Arch Rebar Renfort de dalle
-   MenuLocation: Arch - Rebar tools - Slab Reinforcement<br>3D/BIM - Reinforcement tools - Slab 
-   Workbenches: [Arch](Arch_Workbench/fr.md)
-   SeeAlso: [Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Rebar Armature hélicoïdale](Arch_Rebar_Helical/fr.md)
+   MenuLocation: Arch -> Rebar tools -> Slab Reinforcement<br>3D/BIM -> Reinforcement tools -> Slab 
+   Workbenches: Arch_Workbench/fr
+   SeeAlso: Reinforcement_Workbench/fr, Arch_Rebar/fr, Arch_Rebar_Helical/fr
 ---
 
 # Arch Rebar Slab Reinforcement/fr

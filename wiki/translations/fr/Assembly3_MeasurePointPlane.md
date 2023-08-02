@@ -3,7 +3,7 @@
    Name: Assembly3 MeasurePointPlane
    Name/fr: Assembly3 Mesure point au plan
    Icon: Assembly_MeasurePointPlaneDistance.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 MeasurePointPlane/fr

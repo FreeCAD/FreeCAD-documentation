@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Draft Drawing
-   Workbenches: [Drawing](Drawing_Workbench.md), [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso: [TechDraw DraftView](TechDraw_DraftView.md)
+   Workbenches: Drawing_Workbench, Draft_Workbench, Arch_Workbench
+   SeeAlso: TechDraw_DraftView
 ---
 
 # Draft Drawing

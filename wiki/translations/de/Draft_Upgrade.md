@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Upgrade
    Name/de: Entwurf Hochstufen
-   MenuLocation: Entwurf - Hochstufen
-   Workbenches: [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   MenuLocation: Entwurf -> Hochstufen
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **U** **P**
-   SeeAlso: [Entwurf Herabstufen](Draft_Downgrade/de.md)
+   SeeAlso: Draft_Downgrade/de
 ---
 
 # Draft Upgrade/de

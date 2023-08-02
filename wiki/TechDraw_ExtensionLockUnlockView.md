@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: TechDraw ExtensionLockUnlockView
-   MenuLocation: TechDraw - Extensions: Attributes/Modifications - Lock/Unlock View
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   MenuLocation: TechDraw -> Extensions: Attributes/Modifications -> Lock/Unlock View
+   Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20
    SeeAlso: 

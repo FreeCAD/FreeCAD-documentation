@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Draft PathLinkArray
-   MenuLocation: Modification - Array tools - Path Link array
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Modification -> Array tools -> Path Link array
+   Workbenches: Draft_Workbench, Arch_Workbench
    Version: 0.19
-   SeeAlso: [Draft OrthoArray](Draft_OrthoArray.md), [Draft PolarArray](Draft_PolarArray.md), [Draft CircularArray](Draft_CircularArray.md), [Draft PathArray](Draft_PathArray.md), [Draft PointArray](Draft_PointArray.md), [Draft PointLinkArray](Draft_PointLinkArray.md)
+   SeeAlso: Draft_OrthoArray, Draft_PolarArray, Draft_CircularArray, Draft_PathArray, Draft_PointArray, Draft_PointLinkArray
 ---
 
 # Draft PathLinkArray/en

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: OpenSCAD Minkowski
-   MenuLocation: OpenSCAD - Minkowski
-‎   |Workbenches: [OpenSCAD](OpenSCAD_Workbench/de.md)
+   MenuLocation: OpenSCAD -> Minkowski
+‎   
 ---
 
 # OpenSCAD Minkowski/de

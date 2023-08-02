@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: OpenSCAD ExplodeGroup
    Name/fr: OpenSCAD Dégrouper
-   MenuLocation: OpenSCAD - Dégrouper
-‏‎   Workbenches: [OpenSCAD](OpenSCAD_Workbench.md)
+   MenuLocation: OpenSCAD -> Dégrouper
+‏‎   Workbenches: OpenSCAD_Workbench
 ---
 
 # OpenSCAD ExplodeGroup/fr

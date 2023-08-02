@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std ViewFitAll
    Name/ko: 표준 전체 보기
-   MenuLocation: 보기 - 표준 보기 - 전체 보기
+   MenuLocation: 보기 -> 표준 보기 -> 전체 보기
    Workbenches: 모두
    Shortcut: **V** **F**
-   SeeAlso: [표준 선택 보기](Std_ViewFitSelection/ko.md)
+   SeeAlso: Std_ViewFitSelection/ko
 ---
 
 # Std ViewFitAll/ko

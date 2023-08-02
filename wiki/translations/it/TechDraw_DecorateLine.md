@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw DecorateLine
    Name/it: Cambia l'aspetto delle linee
-   MenuLocation: TechDraw - Cambia l'aspetto delle linee
-   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso: [Linea centro faccia](TechDraw_FaceCenterLine/it.md), [Rimuovi oggetto cosmetico](TechDraw_CosmeticEraser/it.md)
+   MenuLocation: TechDraw -> Cambia l'aspetto delle linee
+   Workbenches: TechDraw_Workbench/it
+   SeeAlso: TechDraw_FaceCenterLine/it, TechDraw_CosmeticEraser/it
    Version: 0.19
 ---
 

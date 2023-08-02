@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Std ViewFitAll
-   MenuLocation: View - Standard views - Fit all
+   MenuLocation: View -> Standard views -> Fit all
    Workbenches: All
    Shortcut: **V** **F**
-   SeeAlso: [Std ViewFitSelection](Std_ViewFitSelection.md)
+   SeeAlso: Std_ViewFitSelection
 ---
 
 # Std ViewFitAll

@@ -5,7 +5,7 @@
    MenuLocation: brak
    Workbenches: wszystkie
    Version: 0.19
-   SeeAlso: [Utwórz łącze](Std_LinkMake/pl.md), [Utwórz łącze względne](Std_LinkMakeRelative/pl.md), [Importuj wszystkie łącza](Std_LinkImportAll/pl.md)
+   SeeAlso: Std_LinkMake/pl, Std_LinkMakeRelative/pl, Std_LinkImportAll/pl
 ---
 
 # Std LinkImportAll/pl

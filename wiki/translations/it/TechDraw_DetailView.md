@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw_DetailView
    Name/it: Dettaglio
-   MenuLocation: TechDraw - Dettaglio
-   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso: [Vista](TechDraw_View/it.md), [Gruppo di proiezioni](TechDraw_ProjectionGroup/it.md)
+   MenuLocation: TechDraw -> Dettaglio
+   Workbenches: TechDraw_Workbench/it
+   SeeAlso: TechDraw_View/it, TechDraw_ProjectionGroup/it
 ---
 
 # TechDraw DetailView/it

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Raytracing WritePart
    Name/es: Raytracing WritePart
-   MenuLocation: Raytracing - Part
-   Workbenches: [Raytracing](Raytracing_Workbench/es.md)
+   MenuLocation: Raytracing -> Part
+   Workbenches: Raytracing_Workbench/es
    Shortcut: 
    SeeAlso: 
 ---

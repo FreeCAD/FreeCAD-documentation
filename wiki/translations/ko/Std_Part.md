@@ -4,7 +4,7 @@
    MenuLocation: None
    Workbenches: All
    Version: 0.17
-   SeeAlso: [Std Group](Std_Group.md), [PartDesign Body](PartDesign_Body.md)
+   SeeAlso: Std_Group, PartDesign_Body
 ---
 
 # Std Part/ko

@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Arc
    Name/tr: Yay
-   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   MenuLocation: Taslak - Yay
+   Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
+   MenuLocation: Taslak -> Yay
    Shortcut: **A** **R**
    Version: 0.17
-   SeeAlso: [Çember](Draft_Circle/tr.md),[Elips](Draft_Ellipse/tr.md)
+   SeeAlso: Draft Circle/tr,Draft Ellipse/tr
 ---
 
 # Draft Arc/tr

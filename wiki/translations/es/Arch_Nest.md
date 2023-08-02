@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Arch Nest   Name/es: Arch Nest
-   MenuLocation: Arch - Panel tools - Nest
-   Workbenches: [Arch](Arch_Workbench/es.md)
-   SeeAlso: [[Arch Panel/es]], [[Arch Panel Sheet/es]]
+   MenuLocation: Arch -> Panel tools -> Nest
+   Workbenches: Arch_Workbench/es
+   SeeAlso: Arch Panel/es, Arch Panel Sheet/es
 ---
 
 # Arch Nest/es

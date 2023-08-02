@@ -3,8 +3,8 @@
    Name: Drawing ProjectShape
    Name/fr: Drawing Projection de forme
    Empty: 1
-   Workbenches: [Drawing](Drawing_Workbench/fr.md)
-   MenuLocation: Drawing - Projeter la forme...
+   Workbenches: Drawing_Workbench/fr
+   MenuLocation: Drawing -> Projeter la forme...
 ---
 
 # Drawing ProjectShape/fr

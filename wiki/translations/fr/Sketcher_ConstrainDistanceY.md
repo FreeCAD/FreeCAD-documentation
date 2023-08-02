@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ConstrainDistanceY
    Name/fr: Sketcher Contrainte distance en Y
-   MenuLocation: Esquisse - Géométries d'esquisse - Contrainte distance verticale
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   MenuLocation: Esquisse -> Géométries d'esquisse -> Contrainte distance verticale
+   Workbenches: Sketcher_Workbench/fr
    Shortcut: **I**
-   SeeAlso: [Sketcher Contrainte distance horizontale](Sketcher_ConstrainDistanceX/fr.md), [Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md)
+   SeeAlso: Sketcher_ConstrainDistanceX/fr, Sketcher_ConstrainDistance/fr
 ---
 
 # Sketcher ConstrainDistanceY/fr

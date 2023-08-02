@@ -3,8 +3,8 @@
    Name: PartDesign Migrate
    Name/it: Migra
    Empty: 1
-   Workbenches: [PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation: Part Design - Migra
+   Workbenches: PartDesign Workbench/it
+   MenuLocation: Part Design -> Migra
    Version: 0.17
 ---
 

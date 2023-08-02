@@ -3,8 +3,8 @@
    Name: Base ExampleCommandModel
    Name/it: Esempio di comando
    Icon: 
-   MenuLocation: Menu - Sottomenu - Comando
-   Workbenches: [Ambiente](Workbench_Name/it.md)
+   MenuLocation: Menu -> Sottomenu -> Comando
+   Workbenches: Workbench Name/it
    Shortcut: 
    SeeAlso: 
    Version: 0.17

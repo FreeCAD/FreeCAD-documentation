@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Upgrade
    Name/fr: Draft Agréger
-   MenuLocation: Modification - Agréger
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Modification -> Agréger
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **U** **P**
-   SeeAlso: [Draft Désagréger](Draft_Downgrade/fr.md)
+   SeeAlso: Draft_Downgrade/fr
 ---
 
 # Draft Upgrade/fr

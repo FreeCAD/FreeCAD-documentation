@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Rocket LaunchGuide
    Name/fr: Rocket Guides de lancement
-   MenuLocation: Rocket - Launch Guides
-   Workbenches: [Rocket](Rocket_Workbench/fr.md)
+   MenuLocation: Rocket -> Launch Guides
+   Workbenches: Rocket_Workbench/fr
    Version: 0.19
 ---
 

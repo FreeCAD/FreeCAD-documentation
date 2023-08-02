@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path Vcarve
    Name/fr: Path Gravure en V
-   MenuLocation: Path - Graver en V
-   Workbenches: [Path](Path_Workbench/fr.md)
+   MenuLocation: Path -> Graver en V
+   Workbenches: Path_Workbench/fr
    Version: 0.19
 ---
 

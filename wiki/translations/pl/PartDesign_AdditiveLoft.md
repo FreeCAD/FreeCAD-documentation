@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign AdditiveLoft
    Name/pl: Projekt Części: Uzupełnianie wyciągnięciem przez profile
-   MenuLocation: Projekt Części - Utwórz cechę przez dodanie - Uzupełnianie wyciągnięciem przez profile
-   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   MenuLocation: Projekt Części -> Utwórz cechę przez dodanie -> Uzupełnianie wyciągnięciem przez profile
+   Workbenches: PartDesign_Workbench/pl
    Version: 0.17
-   SeeAlso: [Uzupełnianie wyciągnięciem po ścieżce](PartDesign_AdditivePipe/pl.md), [Odejmowanie wyciągnięciem przez profile](PartDesign_SubtractiveLoft/pl.md)
+   SeeAlso: PartDesign_AdditivePipe/pl, PartDesign_SubtractiveLoft/pl
 ---
 
 # PartDesign AdditiveLoft/pl

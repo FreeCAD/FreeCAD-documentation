@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign MoveFeature
    Name/pl: Projekt Części: Przesuń cechę do innej zawartości
-   MenuLocation: Menu kontekstowe - Przesuń cechę do innej zawartości
-   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   MenuLocation: Menu kontekstowe -> Przesuń cechę do innej zawartości
+   Workbenches: PartDesign_Workbench/pl
    Version: 0.17
-   SeeAlso: [Ustaw czubek](PartDesign_MoveTip/pl.md), [Przesuń cechę w drzewie](PartDesign_MoveFeatureInTree/pl.md)
+   SeeAlso: PartDesign_MoveTip/pl, PartDesign_MoveFeatureInTree/pl
 ---
 
 # PartDesign MoveFeature/pl

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name: Std TreeRecordSelection
-   MenuLocation: View - TreeView actions - Record selection
+   MenuLocation: View -> TreeView actions -> Record selection
    Workbenches: All
    Shortcut: **T** **5**
    Version: 0.19

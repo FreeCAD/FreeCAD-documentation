@@ -3,8 +3,8 @@
    Name: Image CreateImagePlane
    Name/fr: Image Créer un plan d'image
    MenuLocation: 
-   Workbenches: [Image](Image_Workbench/fr.md)
-   SeeAlso: [Image Ouvrir](Image_Open/fr.md), [Image Redimensionner une image](Image_Scaling/fr.md)
+   Workbenches: Image_Workbench/fr
+   SeeAlso: Image_Open/fr, Image_Scaling/fr
 ---
 
 # Image CreateImagePlane/fr

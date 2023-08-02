@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM SolverCalculixCxxtools
    Name/it: FEM SolverCalculixCxxtools
-   MenuLocation: Solve - Solutore CalculiX Standard
-   Workbenches: [FEM](FEM_Workbench/it.md)
+   MenuLocation: Solve -> Solutore CalculiX Standard
+   Workbenches: FEM_Workbench/it
    Shortcut: 
-   SeeAlso: [FEM tutorial](FEM_tutorial/it.md)
+   SeeAlso: FEM_tutorial/it
 ---
 
 # FEM SolverCalculixCxxtools/it

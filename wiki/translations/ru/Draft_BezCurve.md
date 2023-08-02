@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft BezCurve
    Name/ru: Draft BezCurve
-   MenuLocation: Черчение -  Кривая Безье
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Черчение ->  Кривая Безье
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: B Z
 ---
 

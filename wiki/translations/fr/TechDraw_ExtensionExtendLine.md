@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ExtensionExtendLine
    Name/fr: TechDraw Prolonger
-   MenuLocation: TechDraw - Extensions : attributs/modifications - Prolonger la ligne
-   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   MenuLocation: TechDraw -> Extensions : attributs/modifications -> Prolonger la ligne
+   Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.20
-   SeeAlso: [TechDraw Raccourcir](TechDraw_ExtensionShortenLine/fr.md)
+   SeeAlso: TechDraw_ExtensionShortenLine/fr
 ---
 
 # TechDraw ExtensionExtendLine/fr

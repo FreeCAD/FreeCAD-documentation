@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: SheetMetal Forming
    Name/fr: SheetMetal Outil d'emboutissage
-   MenuLocation: SheetMetal - Make Forming in Wall
-   Workbenches: [SheetMetal](SheetMetal_Workbench/fr.md)
+   MenuLocation: SheetMetal -> Make Forming in Wall
+   Workbenches: SheetMetal_Workbench/fr
    Shortcut: **M** **F**
 ---
 

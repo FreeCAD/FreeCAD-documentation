@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ConstrainTangent
    Name/pl: Szkicownik: Wiązanie styczności
-   MenuLocation: Sketch - Wiązania szkicownika - Wiązanie styczności
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   MenuLocation: Sketch -> Wiązania szkicownika -> Wiązanie styczności
+   Workbenches: Sketcher_Workbench/pl
    Shortcut: **T**
-   SeeAlso: [Wiązanie punktu na obiekcie](Sketcher_ConstrainPointOnObject/pl.md)
+   SeeAlso: Sketcher_ConstrainPointOnObject/pl
 ---
 
 # Sketcher ConstrainTangent/pl

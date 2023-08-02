@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Ellipse
    Name/de: Entwurf Ellipse
-   MenuLocation: Entwurf - Ellipse
-   Workbenches: [Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   MenuLocation: Entwurf -> Ellipse
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **E** **L**
    Version: 0.7
-   SeeAlso: [Kreis](Draft_Circle/de.md), [Bogen](Draft_Arc/de.md)
+   SeeAlso: Draft_Circle/de, Draft_Arc/de
 ---
 
 # Draft Ellipse/de

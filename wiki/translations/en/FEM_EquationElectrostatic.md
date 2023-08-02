@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: FEM EquationElectrostatic
-   MenuLocation: Solve - Electromagnetic Equations - Electrostatic equation
-   Workbenches: [FEM](FEM_Workbench.md)
+   MenuLocation: Solve -> Electromagnetic Equations -> Electrostatic equation
+   Workbenches: FEM_Workbench
    Version: 0.19
-   SeeAlso: [FEM Electricforce equation](FEM_EquationElectricforce.md), [FEM Example Capacitance Two Balls](FEM_Example_Capacitance_Two_Balls.md)
+   SeeAlso: FEM_EquationElectricforce, FEM_Example_Capacitance_Two_Balls
 ---
 
 # FEM EquationElectrostatic/en

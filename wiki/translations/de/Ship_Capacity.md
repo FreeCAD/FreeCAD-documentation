@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Ship TankCapacity
    Name/de: Schiff TankKapazität
-   MenuLocation: Gewichte - Tankkapazitätskurve
+   MenuLocation: Gewichte -> Tankkapazitätskurve
 |
-   Workbenches: [Schiff](Ship_Workbench/de.md)
+   Workbenches: Ship Workbench/de
    Shortcut:    SeeAlso: 
 ---
 

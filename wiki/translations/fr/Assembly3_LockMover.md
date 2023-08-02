@@ -3,8 +3,8 @@
    Name: Assembly3 LockMover
    Name/fr: Assembly3 Verrouiller le déplacement
    Icon: Assembly_LockMover.svg‎‎
-   MenuLocation: Assembly3 - Lock mover
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   MenuLocation: Assembly3 -> Lock mover
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 LockMover/fr

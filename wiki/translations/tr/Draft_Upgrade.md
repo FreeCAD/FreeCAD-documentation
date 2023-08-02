@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Upgrade
    Name/tr: Yükselt
-   Workbenches: [Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
-   MenuLocation: Draft - Upgrade
+   Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
+   MenuLocation: Draft -> Upgrade
    Shortcut: **U** **P**
-   SeeAlso: [Draft Downgrade](Draft_Downgrade/tr.md)
+   SeeAlso: Draft Downgrade/tr
 ---
 
 # Draft Upgrade/tr

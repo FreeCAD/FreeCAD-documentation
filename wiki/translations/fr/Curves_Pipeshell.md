@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Curves Pipeshell
    Name/fr: Curves Enveloppe de tube
-   MenuLocation: Surfaces - Pipeshell 
-   Workbenches: [Curves](Curves_Workbench/fr.md)
+   MenuLocation: Surfaces -> Pipeshell 
+   Workbenches: Curves_Workbench/fr
 ---
 
 # Curves Pipeshell/fr

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std MacroStartDebug
    Name/pl: Std: Debugowanie makrodefinicjii
-   MenuLocation: Makrodefinicje - Debugowanie makrodefinicji
+   MenuLocation: Makrodefinicje -> Debugowanie makrodefinicji
    Workbenches: wszystkie
    Shortcut: **F6**
-   SeeAlso: [Zatrzymaj debugowanie](Std_MacroStopDebug/pl.md)
+   SeeAlso: Std_MacroStopDebug/pl
 ---
 
 # Std MacroStartDebug/pl

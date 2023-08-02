@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Std OnlineHelp
-   MenuLocation: Help - Help
+   MenuLocation: Help -> Help
    Workbenches: All
    Shortcut: **F1**
-   SeeAlso: [Std WhatsThis](Std_WhatsThis.md)
+   SeeAlso: Std_WhatsThis
 ---
 
 # Std OnlineHelp/en

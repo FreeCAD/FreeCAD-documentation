@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft Draft2Sketch
    Name/ru: Draft Draft2Sketch
-   MenuLocation: Черчение - Преобразовать в эскиз
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   SeeAlso: [Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
+   MenuLocation: Черчение -> Преобразовать в эскиз
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
+   SeeAlso: Sketcher_Workbench/ru, PartDesign_Workbench/ru
 ---
 
 # Draft Draft2Sketch/ru

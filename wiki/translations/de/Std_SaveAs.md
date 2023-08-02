@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std SaveAs
    Name/de: Std SpeichernUnter
-   MenuLocation: Datei - Speichern unter...
+   MenuLocation: Datei -> Speichern unter...
    Workbenches: Alle
-   SeeAlso: [Std KopieSpeichern](Std_SaveCopy/de.md), [Std Speichern](Std_Save/de.md)
+   SeeAlso: Std_SaveCopy/de, Std_Save/de
 ---
 
 # Std SaveAs/de

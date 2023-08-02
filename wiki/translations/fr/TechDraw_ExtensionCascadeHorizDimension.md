@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ExtensionCascadeHorizDimension
    Name/fr: TechDraw Cascade horizontale
-   MenuLocation: TechDraw - Extensions : attributs/modifications - Cascader horizontalement les cotes
-   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   MenuLocation: TechDraw -> Extensions : attributs/modifications -> Cascader horizontalement les cotes
+   Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.20
-   SeeAlso: [TechDraw Cascade verticale](TechDraw_ExtensionCascadeVertDimension.md), [TechDraw Cascade oblique](TechDraw_ExtensionCascadeObliqueDimension.md)
+   SeeAlso: TechDraw_ExtensionCascadeVertDimension, TechDraw_ExtensionCascadeObliqueDimension
 ---
 
 # TechDraw ExtensionCascadeHorizDimension/fr

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Points Merge
    Name/pl: Punkty: Scal chmury punktów
-   MenuLocation: Punkty - Scal chmury punktów
-   Workbenches: [Punkty](Points_Workbench/pl.md)
+   MenuLocation: Punkty -> Scal chmury punktów
+   Workbenches: Points_Workbench/pl
 ---
 
 # Points Merge/pl

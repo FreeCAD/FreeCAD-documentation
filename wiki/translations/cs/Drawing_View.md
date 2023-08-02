@@ -1,6 +1,6 @@
 # Drawing View/cs
 ---
-- GuiCommand:   Name: Drawing View   Name/cs: Drawing View   Workbenches: [MenuLocation: Drawing - Insert view in drawing   Shortcut: none   SeeAlso: [[Drawing Landscape A3/cs|Výkres A3 na šířku](Drawing_Workbench/cs___Výkres]],_Complete.md)---
+- GuiCommand:   Name: Drawing View   Name/cs: Drawing View   Workbenches: Drawing Workbench/cs   Výkres, Complete---
 
 
 </div>

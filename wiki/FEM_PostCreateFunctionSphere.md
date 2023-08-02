@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: FEM PostCreateFunctionSphere
-   MenuLocation: Results - Filter Functions - Sphere
-   Workbenches: [FEM](FEM_Workbench.md)
-   SeeAlso: [FEM tutorial](FEM_tutorial.md)
+   MenuLocation: Results -> Filter Functions -> Sphere
+   Workbenches: FEM_Workbench
+   SeeAlso: FEM_tutorial
 ---
 
 # FEM PostCreateFunctionSphere

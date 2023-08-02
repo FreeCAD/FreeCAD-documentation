@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Спиральная арматура
    Name: Arch_Rebar_Helical
-   MenuLocation: Arch - Rebar tools - Helical Rebar<br>3D/BIM - Reinforcement tools - Helical Rebar
-   Workbenches: [Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
+   MenuLocation: Arch -> Rebar tools -> Helical Rebar<br>3D/BIM -> Reinforcement tools -> Helical Rebar
+   Workbenches: Arch_Workbench/ru, BIM_Workbench/ru
    Version: 0.17
-   SeeAlso: [Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [Кольцевая арматура](Arch_Rebar_Stirrup/ru.md), [Армировать колонну](Arch_Rebar_ColumnReinforcement/ru.md)
+   SeeAlso: Reinforcement_Workbench/ru, Arch_Rebar/ru, Arch_Rebar_Stirrup/ru, Arch_Rebar_ColumnReinforcement/ru
 ---
 
 # Arch Rebar Helical/ru

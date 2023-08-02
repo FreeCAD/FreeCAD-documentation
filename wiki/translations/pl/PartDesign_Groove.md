@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: PartDesign Groove
    Name/pl: Projekt Części: Rowek
-   MenuLocation: Projekt części - Utwórz cechę przez odjęcie - Kieszeń
-   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
-   SeeAlso: [Wyciągnij przez obrót](PartDesign_Revolution/pl.md)
+   MenuLocation: Projekt części -> Utwórz cechę przez odjęcie -> Kieszeń
+   Workbenches: PartDesign_Workbench/pl
+   SeeAlso: PartDesign_Revolution/pl
 ---
 
 # PartDesign Groove/pl

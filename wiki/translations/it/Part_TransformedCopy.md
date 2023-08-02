@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part TransformedCopy
    Name/it: Crea una copia modificata
-   MenuLocation: Part - Crea una copia - Crea una copia modificata
-   Workbenches: [Part](Part_Workbench/it.md)
+   MenuLocation: Part -> Crea una copia -> Crea una copia modificata
+   Workbenches: Part_Workbench/it
    Version: 0.19
-   SeeAlso: [Copia semplice](Part_SimpleCopy/it.md), [Copia di un elemento](Part_ElementCopy/it.md), [Affina forma](Part_RefineShape/it.md)
+   SeeAlso: Part_SimpleCopy/it, Part_ElementCopy/it, Part_RefineShape/it
 ---
 
 # Part TransformedCopy/it

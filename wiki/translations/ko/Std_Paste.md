@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std Paste
    Name/ko: 표준 붙여넣기
-   MenuLocation: 편집 - 붙여넣기
+   MenuLocation: 편집 -> 붙여넣기
    Workbenches: 모두
    Shortcut: **Ctrl**+**V**
-   SeeAlso: [표준 잘라내기](Std_Cut/ko.md), [표준 복사](Std_Copy/ko.md), [표준 개체 복제](Std_DuplicateSelection/ko.md)
+   SeeAlso: Std_Cut/ko, Std_Copy/ko, Std_DuplicateSelection/ko
 ---
 
 # Std Paste/ko

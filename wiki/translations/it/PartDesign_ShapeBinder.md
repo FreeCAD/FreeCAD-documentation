@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: PartDesign_ShapeBinder
    Name/it: Forme legate
-   Workbenches: [PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation: Part Design - forme legate
+   Workbenches: PartDesign Workbench/it
+   MenuLocation: Part Design -> forme legate
    Version: 0.17
-   SeeAlso: [PartDesign Forme legate secondarie](PartDesign_SubShapeBinder/it.md),
- [Clone](PartDesign_Clone/it.md)
+   SeeAlso: PartDesign_SubShapeBinder/it,
+ PartDesign Clone/it
 ---
 
 # PartDesign ShapeBinder/it

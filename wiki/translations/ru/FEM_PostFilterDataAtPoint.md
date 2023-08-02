@@ -3,10 +3,10 @@
    Name: FEM PostCreateDataAtPointFilter
    Name/ru: FEM PostCreateDataAtPointFilter
    Icon: Fem-post-filter-data-at-point.png
-   MenuLocation:  Results - Data at point filter
-   Workbenches: [FEM](FEM_Workbench/ru.md)
+   MenuLocation:  Results -> Data at point filter
+   Workbenches: FEM_Workbench/ru
    Shortcut: 
-   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
+   SeeAlso: FEM_tutorial/ru
 ---
 
 # FEM PostFilterDataAtPoint/ru

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Fasteners ScrewCalculator
    Name/de: Fasteners Schraubenrechner
-   MenuLocation: Fasteners - Screw calculator
-   Workbenches: [Fasteners](Fasteners_Workbench.md)
+   MenuLocation: Fasteners -> Screw calculator
+   Workbenches: Fasteners_Workbench
 ---
 
 # Fasteners ScrewCalculator/de

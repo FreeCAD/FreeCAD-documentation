@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft AutoGroup
    Name/it: AutoGruppo
-   MenuLocation: Draft - Utilità - AutoGruppo
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Draft -> Utilità -> AutoGruppo
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Version: 0.17
-   SeeAlso: [Draft Layer](Draft_Layer/it.md), [Gruppo](Std_Group/it.md)
+   SeeAlso: Draft_Layer/it, Std Group/it
 ---
 
 # Draft AutoGroup/it

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Sketcher ValidateSketch
    Name/fr: Sketcher Valider l'esquisse
-   MenuLocation: Esquisse - Valider l'esquisse...
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso: [Sketcher Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md), [Problème de dénomination topologique](Topological_naming_problem/fr.md)
+   MenuLocation: Esquisse -> Valider l'esquisse...
+   Workbenches: Sketcher_Workbench/fr, PartDesign_Workbench/fr
+   SeeAlso: Sketcher_ConstrainCoincident/fr, Topological_naming_problem/fr
 ---
 
 # Sketcher ValidateSketch/fr

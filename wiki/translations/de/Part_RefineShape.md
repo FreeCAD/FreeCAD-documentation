@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part RefineShape
    Name/de: Part FormAufbereiten
-   MenuLocation: Formteil - Kopie erstellen - Form aufbereiten
-   Workbenches: [Part](Part_Workbench/de.md)
-   SeeAlso: [EinfacheKopie](Part_SimpleCopy/de.md), [Part TransformierteKopie](Part_TransformedCopy/de.md), [Part ElementKopieren](Part_ElementCopy/de.md), [OpenSCAD FunktionFormAufbereiten](OpenSCAD_RefineShapeFeature/de.md)
+   MenuLocation: Formteil -> Kopie erstellen -> Form aufbereiten
+   Workbenches: Part_Workbench/de
+   SeeAlso: Part_SimpleCopy/de, Part_TransformedCopy/de, Part_ElementCopy/de, OpenSCAD_RefineShapeFeature/de
 ---
 
 # Part RefineShape/de

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Curves PipeshellProfile
    Name/de: Curves Rohrschalenprofil
-   MenuLocation: Surfaces - Pipeshell profile
-   Workbenches: [Curves](Curves_Workbench/de.md)
-   SeeAlso: [Curves Rohrschale](Curves_Pipeshell/de.md)
+   MenuLocation: Surfaces -> Pipeshell profile
+   Workbenches: Curves_Workbench/de
+   SeeAlso: Curves_Pipeshell/de
 ---
 
 # Curves PipeshellProfile/de

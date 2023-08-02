@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Part Measure Toggle All
-   MenuLocation: Measure - Toggle All
-   Workbenches: [Part](Part_Workbench.md)
-   SeeAlso: [Part Measure Toggle 3D](Part_Measure_Toggle_3D.md), [Part Measure Toggle Delta](Part_Measure_Toggle_Delta.md)
+   MenuLocation: Measure -> Toggle All
+   Workbenches: Part_Workbench
+   SeeAlso: Part_Measure_Toggle_3D, Part_Measure_Toggle_Delta
 ---
 
 # Part Measure Toggle All/en

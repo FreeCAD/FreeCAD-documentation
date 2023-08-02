@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Part ReverseShapes
-   MenuLocation: Part - Reverse shapes
-   Workbenches: [Part](Part_Workbench.md)
+   MenuLocation: Part -> Reverse shapes
+   Workbenches: Part_Workbench
 ---
 
 # Part ReverseShapes

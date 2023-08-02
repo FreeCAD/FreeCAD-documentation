@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Offset
    Name/de: Draft Versatz
-   MenuLocation: Änderung - Versatz
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   MenuLocation: Änderung -> Versatz
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **O** **S**
-   SeeAlso: [Part 2DVersatz](Part_Offset2D/de.md)
+   SeeAlso: Part_Offset2D/de
 ---
 
 # Draft Offset/de

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std_DlgMacroRecord
    Name/fr: Std Enregistrement de macro
-   MenuLocation: Macro - Enregistrement de macro...
+   MenuLocation: Macro -> Enregistrement de macro...
    Workbenches: Tous
-   SeeAlso: [Std Arrêt enregistrement macro](Std_MacroStopRecord/fr.md)
+   SeeAlso: Std_MacroStopRecord/fr
 ---
 
 # Std DlgMacroRecord/fr

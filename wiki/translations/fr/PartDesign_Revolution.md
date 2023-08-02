@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: PartDesign_Revolution
    Name/fr: PartDesign Révolution
-   MenuLocation: Part Design - Créer une fonction additive - Révolution
-   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso: [PartDesign Rainure](PartDesign_Groove/fr.md)
+   MenuLocation: Part Design -> Créer une fonction additive -> Révolution
+   Workbenches: PartDesign_Workbench/fr
+   SeeAlso: PartDesign_Groove/fr
 ---
 
 # PartDesign Revolution/fr

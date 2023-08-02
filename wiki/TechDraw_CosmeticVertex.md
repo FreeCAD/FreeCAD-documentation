@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: TechDraw CosmeticVertex
-   MenuLocation: TechDraw - Add Vertices - Add Cosmetic Vertex 
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   MenuLocation: TechDraw -> Add Vertices -> Add Cosmetic Vertex 
+   Workbenches: TechDraw_Workbench
    Version: 0.19
-   SeeAlso: [TechDraw Midpoint](TechDraw_Midpoints.md), [TechDraw Quadrant](TechDraw_Quadrants.md)
+   SeeAlso: TechDraw_Midpoints, TechDraw_Quadrants
 ---
 
 # TechDraw CosmeticVertex

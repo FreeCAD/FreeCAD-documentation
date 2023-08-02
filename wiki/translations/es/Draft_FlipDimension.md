@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft FlipDimension
    Name/es: Draft FlipDimension
-   MenuLocation: Draft - Utilities - Flip Dimension
-   Workbenches: [Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
-   SeeAlso: [Dimension](Draft_Dimension/es.md)
+   MenuLocation: Draft -> Utilities -> Flip Dimension
+   Workbenches: Draft_Workbench/es, Arch_Workbench/es
+   SeeAlso: Draft Dimension/es
 ---
 
 # Draft FlipDimension/es

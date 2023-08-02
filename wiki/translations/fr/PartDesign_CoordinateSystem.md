@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign CoordinateSystem
    Name/fr: PartDesign Système de coordonnées local
-   MenuLocation: Part Design - Créer un système de coordonnées local
-   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   MenuLocation: Part Design -> Créer un système de coordonnées local
+   Workbenches: PartDesign_Workbench/fr
    Version: 0.18
-   SeeAlso: [PartDesign Point de référence](PartDesign_Point/fr.md), [PartDesign Ligne de référence](PartDesign_Line/fr.md), [PartDesign Plan de référence](PartDesign_Plane/fr.md)
+   SeeAlso: PartDesign_Point/fr, PartDesign_Line/fr, PartDesign_Plane/fr
 ---
 
 # PartDesign CoordinateSystem/fr

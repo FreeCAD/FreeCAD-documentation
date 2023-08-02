@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: FCGear CrownGear
    Name/fr: FCGear Engrenage couronne
-   MenuLocation: Gear - Crown Gear
-   Workbenches: [FCGear](FCGear_Workbench/fr.md)
+   MenuLocation: Gear -> Crown Gear
+   Workbenches: FCGear_Workbench/fr
    Shortcut: Aucun
    Version: v0.16
-   SeeAlso: [FCGear Engrenage à développante](FCGear_InvoluteGear/fr.md)
+   SeeAlso: FCGear_InvoluteGear/fr
 ---
 
 # FCGear CrownGear/fr

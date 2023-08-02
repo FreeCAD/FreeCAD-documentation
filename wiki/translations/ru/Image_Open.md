@@ -3,8 +3,8 @@
    Name: Image Open
    Name/ru: Image Open
    MenuLocation: None
-   Workbenches: [Image](Image_Workbench/ru.md)
-   SeeAlso: [Image plane](Image_CreateImagePlane/ru.md), [Image Scaling](Image_Scaling/ru.md)
+   Workbenches: Image_Workbench/ru
+   SeeAlso: Image_CreateImagePlane/ru, Image_Scaling/ru
 ---
 
 # Image Open/ru

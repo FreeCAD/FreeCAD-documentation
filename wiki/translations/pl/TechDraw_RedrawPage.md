@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: TechDraw RedrawPage
    Name/pl: Rysunek Techniczny: Przerysuj stronę
-   MenuLocation: Rysunek Techniczny - Strona - Przerysuj stronę
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   MenuLocation: Rysunek Techniczny -> Strona -> Przerysuj stronę
+   Workbenches: TechDraw_Workbench/pl
    Version: 0.19
 ---
 

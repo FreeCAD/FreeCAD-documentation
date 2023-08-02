@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Mesh_Export
    Name/it: Esporta mesh
-   MenuLocation: Mesh - Esporta mesh...
-   Workbenches: [Mesh](Mesh_Workbench/it.md)
-   SeeAlso: [Esporta](Std_Export/it.md), [Importazione e Esportazione](Import_Export/it.md)
+   MenuLocation: Mesh -> Esporta mesh...
+   Workbenches: Mesh_Workbench/it
+   SeeAlso: Std_Export/it, Import_Export/it
 ---
 
 # Mesh Export/it

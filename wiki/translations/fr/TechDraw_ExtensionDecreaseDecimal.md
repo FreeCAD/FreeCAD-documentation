@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ExtensionDecreaseDecimal
    Name/fr: TechDraw Moins de décimales
-   MenuLocation: TechDraw - Extensions : cotes - Moins de décimales
-   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   MenuLocation: TechDraw -> Extensions : cotes -> Moins de décimales
+   Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.20
-   SeeAlso: [TechDraw Plus de décimales](TechDraw_ExtensionIncreaseDecimal/fr.md)
+   SeeAlso: TechDraw_ExtensionIncreaseDecimal/fr
 ---
 
 # TechDraw ExtensionDecreaseDecimal/fr

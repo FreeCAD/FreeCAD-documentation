@@ -3,8 +3,8 @@
    Name: Std Workbench
    Name/ru: Std Workbench
    Empty: 1
-   MenuLocation: {{StdMenu|[Вид](Std_View_Menu/ru.md)}} - Верстак
-   Workbenches: [Верстаки](Workbenches/ru.md)
+   MenuLocation: {{StdMenu}} -> Верстак
+   Workbenches: Workbenches/ru
    SeeAlso: 
 ---
 

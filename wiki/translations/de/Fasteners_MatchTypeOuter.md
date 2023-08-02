@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Fasteners MatchTypeOuter
    Name/de: Fasteners AuswahlNachAußenmaß
-   MenuLocation: Fasteners - Match for pass hole
-   Workbenches: [Fasteners](Fasteners_Workbench/de.md)
-   SeeAlso: [Fasteners AuswahlNachInnenmaß](Fasteners_MatchTypeInner/de.md)
+   MenuLocation: Fasteners -> Match for pass hole
+   Workbenches: Fasteners_Workbench/de
+   SeeAlso: Fasteners_MatchTypeInner/de
 ---
 
 # Fasteners MatchTypeOuter/de

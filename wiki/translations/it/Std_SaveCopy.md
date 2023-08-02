@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std_SaveCopy
    Name/it: Salva una copia
-   MenuLocation: File - Salva una copia...
+   MenuLocation: File -> Salva una copia...
    Workbenches: All
-   SeeAlso: [Salva con nome](Std_SaveAs/it.md), [Salva](Std_Save/it.md)
+   SeeAlso: Std_SaveAs/it, Std_Save/it
 ---
 
 # Std SaveCopy/it

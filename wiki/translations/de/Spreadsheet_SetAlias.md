@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Spreadsheet SetAlias
    Name/de: Kalkulationstabelle SetzeAlias
-   Workbenches: [Tabellenkalkulation](Spreadsheet_Workbench/de.md)
+   Workbenches: Spreadsheet_Workbench/de
    MenuLocation: 
    Version: 0.17
 ---

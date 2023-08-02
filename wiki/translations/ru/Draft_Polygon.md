@@ -3,7 +3,7 @@
    Name: Draft Polygon
    Name/ru: Draft Polygon
    MenuLocation: Черчение -> Многоугольник
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: **P** **G**
 ---
 

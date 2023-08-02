@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Std DlgParameter
-   MenuLocation: Tools - Edit parameters...
+   MenuLocation: Tools -> Edit parameters...
    Workbenches: All
-   SeeAlso: [Preferences Editor](Preferences_Editor.md)
+   SeeAlso: Preferences_Editor
 ---
 
 # Std DlgParameter/en

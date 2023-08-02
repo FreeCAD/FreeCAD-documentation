@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintMidPoint
    Name/fr: Assembly3 Contrainte milieu
    Icon: Assembly_ConstraintMidPoint.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 ConstraintMidPoint/fr

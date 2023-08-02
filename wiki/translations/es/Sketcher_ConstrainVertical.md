@@ -2,10 +2,10 @@
 - GuiCommand:
    Icon: Constraint Vertical.svg
    Name/es: Restricción de verticalidad
-   Workbenches: [Sketch](Sketcher_Workbench/es.md)
+   Workbenches: Sketcher Workbench/es
    Shortcut: V
-   MenuLocation: Sketch - Restricciones de croquis - Restricción de verticalidad
-   SeeAlso: [Restringir horizontalmente](Sketcher_ConstrainHorizontal/es.md)
+   MenuLocation: Sketch -> Restricciones de croquis -> Restricción de verticalidad
+   SeeAlso: Sketcher_ConstrainHorizontal/es
 ---
 
 # Sketcher ConstrainVertical/es

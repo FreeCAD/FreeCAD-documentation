@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw ClipGroupRemove
    Name/de: TechDraw AusschnittsgruppeEntfernen
-   MenuLocation: TechDraw - Ansicht aus Ausschnittsgruppe entfernen
-   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso: [TechDraw Ausschnittsgruppe](TechDraw_ClipGroup/de.md), [TechDraw AusschnittsgruppeHinzufügen](TechDraw_ClipGroupAdd/de.md)
+   MenuLocation: TechDraw -> Ansicht aus Ausschnittsgruppe entfernen
+   Workbenches: TechDraw_Workbench/de
+   SeeAlso: TechDraw_ClipGroup/de, TechDraw_ClipGroupAdd/de
 ---
 
 # TechDraw ClipGroupRemove/de

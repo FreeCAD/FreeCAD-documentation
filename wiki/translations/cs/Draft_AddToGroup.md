@@ -3,9 +3,9 @@
    Name: Draft AddToGroup
    Name/cs: Kreslení Přidat do skupiny
    MenuLocation: Draft -> Display option -> Add to group
-   Workbenches: [Kreslení](Draft_Workbench/cs.md), [Architektura](Arch_Workbench/cs.md)
+   Workbenches: Draft_Workbench/cs, Arch_Workbench/cs
    Shortcut: 
-   SeeAlso: [Draft SelectGroup](Draft_SelectGroup/cs.md), [Std Group](Std_Group/cs.md)
+   SeeAlso: Draft_SelectGroup/cs, Std_Group/cs
 ---
 
 # Draft AddToGroup/cs

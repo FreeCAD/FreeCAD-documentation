@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Constraint InternalAngle
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Workbenches: Sketcher Workbench
    Shortcut: A
-   MenuLocation: Sketch - Sketcher constraints - Constrain angle
-   SeeAlso: [Constrain distance](Sketcher_ConstrainDistance.md), [Constraint Perpendicular](Sketcher_ConstrainPerpendicular.md)
+   MenuLocation: Sketch -> Sketcher constraints -> Constrain angle
+   SeeAlso: Sketcher ConstrainDistance, Sketcher ConstrainPerpendicular
 ---
 
 # Sketcher ConstrainAngle/ro

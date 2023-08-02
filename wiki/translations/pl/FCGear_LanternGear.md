@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: FCGear LanternGear
    Name/pl: Gear: Koło drabinkowe
-   MenuLocation: Gear - Koło drabinkowe
-   Workbenches: [FCGear](FCGear_Workbench/pl.md)
+   MenuLocation: Gear -> Koło drabinkowe
+   Workbenches: FCGear_Workbench/pl
    Version: v0.16
    SeeAlso: 
 ---

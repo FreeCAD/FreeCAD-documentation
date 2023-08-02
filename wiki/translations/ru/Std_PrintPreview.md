@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std PrintPreview
    Name/ru: Std PrintPreview
-   MenuLocation: Файл - Предварительный просмотр 
+   MenuLocation: Файл -> Предварительный просмотр 
    Workbenches: All
-   SeeAlso: File [Печать](Std_Print/ru.md)
+   SeeAlso: File Std Print/ru
 ---
 
 # Std PrintPreview/ru

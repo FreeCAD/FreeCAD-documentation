@@ -1,6 +1,6 @@
 # Std ViewCreate/it
 ---
-- GuiCommand:   Name: Std_ViewCreate   Name/it: Crea una nuova vista   MenuLocation: Visualizza - Crea una nuova vista   Workbenches: Tutti   SeeAlso: [Finestra del documento](Std_ViewDockUndockFullscreen/it.md), [Vista 3D a schermo intero](Std_ViewFullscreen/it.md)---
+- GuiCommand:   Name: Std_ViewCreate   Name/it: Crea una nuova vista   MenuLocation: Visualizza -> Crea una nuova vista   Workbenches: Tutti   SeeAlso: Std_ViewDockUndockFullscreen/it, Std_ViewFullscreen/it---
 
 
 

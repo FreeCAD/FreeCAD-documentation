@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Создать эскиз
    Name: PartDesign_NewSketch
-   MenuLocation: Sketch - Создать эскиз
-   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   MenuLocation: Sketch -> Создать эскиз
+   Workbenches: PartDesign_Workbench/ru
    Version: 0.17
-   SeeAlso: [Создать эскиз](Sketcher_NewSketch/ru.md)
+   SeeAlso: Sketcher_NewSketch/ru
 ---
 
 # PartDesign NewSketch/ru

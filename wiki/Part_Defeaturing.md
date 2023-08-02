@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Part Defeaturing
-   MenuLocation: Part - Defeaturing
-   Workbenches: [Part](Part_Workbench.md)
+   MenuLocation: Part -> Defeaturing
+   Workbenches: Part_Workbench
    Version: 0.18
-   SeeAlso: [Defeaturing Workbench](Defeaturing_Workbench.md), [Macro Parametric Defeaturing](Macro_Parametric_Defeaturing.md)
+   SeeAlso: Defeaturing_Workbench, Macro_Parametric_Defeaturing
 ---
 
 # Part Defeaturing

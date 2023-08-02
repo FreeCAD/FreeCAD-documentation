@@ -1,6 +1,6 @@
 # Sketcher ConnectLines/it
 ---
-- GuiCommand:   Name: Sketcher_ConnectLines   Name/it: Collega le linee   Workbenches: [[Sketcher Workbench/it   Sketcher]]|MenuLocation: Sketch - Strumenti - Collega le linee   Shortcut: **Ctrl**+**Maiusc**+**K**   Version: 0.15---
+- GuiCommand:   Name: Sketcher_ConnectLines   Name/it: Collega le linee   Workbenches: Sketcher Workbench/it   Sketcher|MenuLocation: Sketch -> Strumenti -> Collega le linee   Shortcut: **Ctrl**+**Maiusc**+**K**   Version: 0.15---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Path Array
-   MenuLocation: Path - Path Modification - Array
-   Workbenches: [Path](Path_Workbench.md)
+   MenuLocation: Path -> Path Modification -> Array
+   Workbenches: Path_Workbench
 ---
 
 # Path Array/pt-br

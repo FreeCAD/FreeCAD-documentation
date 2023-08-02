@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Spreadsheet Import
    Name/es: Hojas de cálculo Importar
-   MenuLocation: Hojas de cálculo - Importar Hojas de cálculo
-   Workbenches: [Ambiente de trabajo Hojas de cálculo](Spreadsheet_Workbench/es.md)
+   MenuLocation: Hojas de cálculo -> Importar Hojas de cálculo
+   Workbenches: Spreadsheet_Workbench/es
    Version: 0.17
    SeeAlso: 
-[Spreadsheet Export](Spreadsheet_Export.md)
+Spreadsheet_Export
 ---
 
 # Spreadsheet Import/es

@@ -2,8 +2,8 @@
 - GuiCommand:Addon/fr
    Name: BIM Layers
    Name/fr: BIM Calques
-   MenuLocation: Manage - Layers
-   Workbenches: [BIM](BIM_Workbench/fr.md)
+   MenuLocation: Manage -> Layers
+   Workbenches: BIM_Workbench/fr
    Addon: BIM
 ---
 

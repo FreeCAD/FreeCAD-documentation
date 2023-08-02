@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: EM FHPlaneHole
-   MenuLocation: EM - FHPlaneHole
-   Workbenches: [EM](EM_Workbench.md)
+   MenuLocation: EM -> FHPlaneHole
+   Workbenches: EM_Workbench
    Shortcut: **E** **H**
    Version: 0.17
-   SeeAlso: [EM FHPlane](EM_FHPlane.md), [EM FHNode](EM_FHNode.md), [EM FHPlaneAddRemoveNodeHole](EM_FHPlaneAddRemoveNodeHole.md)
+   SeeAlso: EM_FHPlane, EM_FHNode, EM_FHPlaneAddRemoveNodeHole
 ---
 
 # EM FHPlaneHole/en

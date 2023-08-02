@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std Windows
    Name/it: Finestre
-   MenuLocation: Finestre - Finestre...
+   MenuLocation: Finestre -> Finestre...
    Workbenches: Tutti
-   SeeAlso: [Prossima](Std_ActivateNextWindow/it.md), [Precedente](Std_ActivatePrevWindow/it.md)
+   SeeAlso: Std_ActivateNextWindow/it, Std_ActivatePrevWindow/it
 ---
 
 # Std Windows/it

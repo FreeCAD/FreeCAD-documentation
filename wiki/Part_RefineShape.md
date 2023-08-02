@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Part RefineShape
-   MenuLocation: Part - Create a copy - Refine Shape
-   Workbenches: [Part](Part_Workbench.md)
-   SeeAlso: [Part SimpleCopy](Part_SimpleCopy.md), [Part TransformedCopy](Part_TransformedCopy.md), [Part ElementCopy](Part_ElementCopy.md), [OpenSCAD RefineShapeFeature](OpenSCAD_RefineShapeFeature.md)
+   MenuLocation: Part -> Create a copy -> Refine Shape
+   Workbenches: Part_Workbench
+   SeeAlso: Part_SimpleCopy, Part_TransformedCopy, Part_ElementCopy, OpenSCAD_RefineShapeFeature
 ---
 
 # Part RefineShape

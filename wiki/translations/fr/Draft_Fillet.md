@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Fillet
    Name/fr: Draft Congé
-   MenuLocation: Draft - Congé
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Draft -> Congé
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **F** **I**
    Version: 0.19
-   SeeAlso: [Draft Ligne](Draft_Line/fr.md), [Draft Polyligne](Draft_Wire/fr.md)
+   SeeAlso: Draft_Line/fr, Draft_Wire/fr
 ---
 
 # Draft Fillet/fr

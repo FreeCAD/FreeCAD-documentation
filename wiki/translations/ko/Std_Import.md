@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std Import
    Name/ko: 표준 가져오기
-   MenuLocation: 파일 - 가져오기...
+   MenuLocation: 파일 -> 가져오기...
    Workbenches: 모두
    Shortcut: **Ctrl**+**I**
-   SeeAlso: [표준 열기](Std_Open/ko.md), [가져오기 내보내기](Import_Export/ko.md), [가져오기 내보내기 환경 설정](Import_Export_Preferences/ko.md)
+   SeeAlso: Std_Open/ko, Import_Export/ko, Import_Export_Preferences/ko
 ---
 
 # Std Import/ko

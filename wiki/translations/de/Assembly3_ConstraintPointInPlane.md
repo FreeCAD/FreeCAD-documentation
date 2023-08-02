@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintPointInPlane
    Name/de: Assembly3 PunktAufEbene
    Icon: Assembly_ConstraintPointInPlane.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 ConstraintPointInPlane/de

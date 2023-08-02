@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign NewSketch
    Name/pl: Projekt Części: Utwór szkic
-   MenuLocation: Szkic - Utwór szkic
-   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   MenuLocation: Szkic -> Utwór szkic
+   Workbenches: PartDesign_Workbench/pl
    Version: 0.17
-   SeeAlso: [Utwór szkic](Sketcher_NewSketch/pl.md)
+   SeeAlso: Sketcher_NewSketch/pl
 ---
 
 # PartDesign NewSketch/pl

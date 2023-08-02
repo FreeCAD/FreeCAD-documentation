@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: PartDesign WizardShaft
    Name/es: DiseñoPiezas AsistenteEje
-   Workbenches: [DiseñoPiezas](PartDesign_Workbench/es.md)
+   Workbenches: PartDesign_Workbench/es
 ---
 
 # PartDesign WizardShaft/es

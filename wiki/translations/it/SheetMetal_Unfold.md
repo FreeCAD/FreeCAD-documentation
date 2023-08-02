@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: SheetMetal_Unfold
    Name/it: Dispiega
-   MenuLocation: SheetMetal - Unfold
-   Workbenches: [SheetMetal](SheetMetal_Workbench/it.md)
+   MenuLocation: SheetMetal -> Unfold
+   Workbenches: SheetMetal Workbench/it
    Shortcut: None
    Version: 
-   SeeAlso: [SheetMetal UnattendedUnfold](SheetMetal_UnattendedUnfold.md)
+   SeeAlso: SheetMetal_UnattendedUnfold
 ---
 
 # SheetMetal Unfold/it

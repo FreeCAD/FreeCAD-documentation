@@ -1,6 +1,6 @@
 # Sketcher CreateRectangle/pt-br
 ---
-- GuiCommand:-br   Name: Sketcher CreateRectangle   Name/pt-br: Sketcher CreateRectangle   Workbenches: [Shortcut: R   MenuLocation: Sketch - Sketcher geometries - Create rectangle   SeeAlso: [[Sketcher CreatePolyline/pt-br|Sketcher Polyline](Sketcher_Workbench/pt-br___Sketcher]].md)---
+- GuiCommand:-br   Name: Sketcher CreateRectangle   Name/pt-br: Sketcher CreateRectangle   Workbenches: Sketcher Workbench/pt-br   Sketcher---
 
 
 </div>

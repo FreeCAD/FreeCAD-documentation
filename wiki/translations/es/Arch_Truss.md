@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Arch Truss
    Name/es: Arquitectura Armadura
-   MenuLocation: Arquitectura - Armadura
-   Workbenches: [Arquitectura](Arch_Workbench/es.md)
+   MenuLocation: Arquitectura -> Armadura
+   Workbenches: Arch_Workbench/es
    Version: 0.19
 ---
 

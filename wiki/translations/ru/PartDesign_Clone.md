@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Создать клон
    Name: PartDesign_Clone
-   MenuLocation: Part Design - Создать клон
-   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   MenuLocation: Part Design -> Создать клон
+   Workbenches: PartDesign_Workbench/ru
    Version: 0.17
-   SeeAlso: [Клонировать](Draft_Clone/ru.md)
+   SeeAlso: Draft_Clone/ru
 ---
 
 # PartDesign Clone/ru

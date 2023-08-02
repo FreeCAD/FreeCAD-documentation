@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch Remove
    Name/de: Arch Entfernen
-   MenuLocation: Arch - Komponente entfernen
-   Workbenches: [Arch](Arch_Workbench/de.md)
-   SeeAlso: [Arch Schnittlinie](Arch_CutLine/de.md), [Arch Schnittebene](Arch_CutPlane/de.md), [Arch Hinzufügen](Arch_Add/de.md)
+   MenuLocation: Arch -> Komponente entfernen
+   Workbenches: Arch_Workbench/de
+   SeeAlso: Arch_CutLine/de, Arch_CutPlane/de, Arch_Add/de
 ---
 
 # Arch Remove/de

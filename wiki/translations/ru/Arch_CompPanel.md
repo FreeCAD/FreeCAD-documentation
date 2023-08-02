@@ -2,8 +2,8 @@
 - GuiCommand:
    Name/ru: Arch_CompPanel
    Name: Инструменты панелирования
-   MenuLocation: Arch - Инструменты панелирования
-   Workbenches: [Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
+   MenuLocation: Arch -> Инструменты панелирования
+   Workbenches: Arch_Workbench/ru, BIM_Workbench/ru
    Version: 0.17
    SeeAlso: 
 ---

@@ -3,8 +3,8 @@
    Name: Sketcher Regular Polygons
    Name/es: Croquizador Polígonos regulares
    Icon: Sketcher_CompCreateRegularPolygon.png
-   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation: Ninguno (sólo barra de herramientas)
+   Workbenches: Sketcher Workbench/es
+   MenuLocation: Ninguno 
 ---
 
 # Sketcher CompCreateRegularPolygon/es

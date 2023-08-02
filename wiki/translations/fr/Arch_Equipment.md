@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch Equipment
    Name/fr: Arch Équipement
-   MenuLocation: Arch - Équipement
-   Workbenches: [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Arch -> Équipement
+   Workbenches: Arch_Workbench/fr
    Shortcut: **E** **Q**
-   SeeAlso: [Arch 3 vues depuis maillage](Arch_3Views/fr.md)
+   SeeAlso: Arch_3Views/fr
 ---
 
 # Arch Equipment/fr

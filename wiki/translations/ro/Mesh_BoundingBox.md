@@ -1,6 +1,6 @@
 # Mesh BoundingBox/ro
 ---
-- GuiCommand:   Name: Mesh BoundingBox‏‎   MenuLocation: Meshes - Analyze - Boundings info...   Workbenches: [[Mesh Workbench   Mesh]]|Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: Mesh BoundingBox‏‎   MenuLocation: Meshes -> Analyze -> Boundings info...   Workbenches: Mesh Workbench   Mesh|Shortcut:    SeeAlso: ---
 
 
 </div>

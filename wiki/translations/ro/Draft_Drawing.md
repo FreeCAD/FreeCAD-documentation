@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Drawing
    Name/ro: Draft Drawing
-   MenuLocation: Drafting - Drawing
-   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   MenuLocation: Drafting -> Drawing
+   Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
 ---
 
 # Draft Drawing/ro

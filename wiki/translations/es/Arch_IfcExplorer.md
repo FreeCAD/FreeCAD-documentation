@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch IfcExplorer
    Name/es: Arquitectura IfcExplorador
-   Workbenches: [Arquitectura](Arch_Workbench/es.md)
-   MenuLocation: Arch - Utilities - Ifc Explorer
-   SeeAlso: [Arch IFC](Arch_IFC/es.md)
+   Workbenches: Arch_Workbench/es
+   MenuLocation: Arch -> Utilities -> Ifc Explorer
+   SeeAlso: Arch IFC/es
 ---
 
 # Arch IfcExplorer/es

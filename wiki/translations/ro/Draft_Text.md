@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Text
    Name/ro: Draft Text
-   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   MenuLocation: Draft - Text
+   Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
+   MenuLocation: Draft -> Text
    Shortcut: **T** **E**
-   SeeAlso: [Draft Label](Draft_Label.md), [Draft ShapeString](Draft_ShapeString.md)
+   SeeAlso: Draft_Label, Draft_ShapeString
 ---
 
 # Draft Text/ro

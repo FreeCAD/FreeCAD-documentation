@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std TreeCollapseDocument
    Name/ru: Std TreeCollapseDocument
-   |MenuLocation: Вид - Дерево документа - Свернуть/Развернуть
+   |MenuLocation: Вид -> Дерево документа -> Свернуть/Развернуть
    Workbenches: All
-   SeeAlso: [Std TreeSingleDocument](Std_TreeSingleDocument/ru.md), [Std TreeMultiDocument](Std_TreeMultiDocument/ru.md)
+   SeeAlso: Std_TreeSingleDocument/ru, Std_TreeMultiDocument/ru
 ---
 
 # Std TreeCollapseDocument/ru

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft Apply
    Name/ro: Draft Apply
-   MenuLocation: Draft - Utilities - Apply style
-   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   SeeAlso: [Draft SetStyle](Draft_SetStyle.md)
+   MenuLocation: Draft -> Utilities -> Apply style
+   Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
+   SeeAlso: Draft_SetStyle
 ---
 
 # Draft ApplyStyle/ro

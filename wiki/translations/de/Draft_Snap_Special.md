@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft Snap Special
    Name/de: Draft EinrastenSpezial
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Version: 0.17
-   SeeAlso: [Draft Einrasten](Draft_Snap/de.md), [Draft EinrastenSperren](Draft_Snap_Lock/de.md)
+   SeeAlso: Draft_Snap/de, Draft_Snap_Lock/de
 ---
 
 # Draft Snap Special/de

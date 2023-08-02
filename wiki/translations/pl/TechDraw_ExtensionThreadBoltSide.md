@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ExtensionThreadBoltSide
    Name/pl: Rysunek Techniczny: Geometria pomocnicza dla gwintu śruby, widok z boku
-   MenuLocation: Rysunek Techniczny - Rozszerzenie: Linie środka / gwinty - Geometria pomocnicza dla gwintu śruby, widok z boku
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   MenuLocation: Rysunek Techniczny -> Rozszerzenie: Linie środka / gwinty -> Geometria pomocnicza dla gwintu śruby, widok z boku
+   Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20
-   SeeAlso: [Geometria pomocnicza dla otworu gwintowanego, widok z boku](TechDraw_ExtensionThreadHoleSide/pl.md)
+   SeeAlso: TechDraw_ExtensionThreadHoleSide/pl
 ---
 
 # TechDraw ExtensionThreadBoltSide/pl

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Measure Linear
    Name/de: Part Messung Abstand
-   MenuLocation: Messen - Linear messen
-   Workbenches: [Part](Part_Workbench/de.md)
-   SeeAlso: [Std AbstandMessen](Std_MeasureDistance/de.md), [Draft Maß](Draft_Dimension/de.md)
+   MenuLocation: Messen -> Linear messen
+   Workbenches: Part_Workbench/de
+   SeeAlso: Std_MeasureDistance/de, Draft_Dimension/de
 ---
 
 # Part Measure Linear/de

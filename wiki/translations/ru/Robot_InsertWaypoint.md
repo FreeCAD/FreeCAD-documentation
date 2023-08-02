@@ -2,8 +2,8 @@
 - GuiCommand:
    Name/ru: Вставить точку в траекторию
    Name: Robot_InsertWaypoint
-   MenuLocation: Робот - Вставить в траекторию
-   Workbenches: [Robot](Robot_Workbench/ru.md)
+   MenuLocation: Робот -> Вставить в траекторию
+   Workbenches: Robot_Workbench/ru
    Shortcut: **A**
    SeeAlso: 
 ---

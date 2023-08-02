@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft PathArray
    Name/ro: Draft PathArray
-   MenuLocation: Draft - PathArray
-   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   MenuLocation: Draft -> PathArray
+   Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
    Version: 0.14
-   SeeAlso: [Draft Array](Draft_Array/ro.md)
+   SeeAlso: Draft Array/ro
 ---
 
 # Draft PathArray/ro

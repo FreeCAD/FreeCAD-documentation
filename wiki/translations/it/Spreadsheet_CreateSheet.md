@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Spreadsheet_CreateSheet
    Name/it: Crea un foglio di calcolo
-   MenuLocation: Spreadsheet - Crea un foglio di calcolo
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench/it.md)
+   MenuLocation: Spreadsheet -> Crea un foglio di calcolo
+   Workbenches: Spreadsheet_Workbench/it
    Version: 0.17
 ---
 

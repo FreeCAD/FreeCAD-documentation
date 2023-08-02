@@ -1,6 +1,6 @@
 # Path DressupRampEntry/ro
 ---
-- GuiCommand:   Name: Path DressupTag   Workbenches: [MenuLocation: Path - Path Dressup - RampEntry Dress-up   SeeAlso: [[Path_DressupTag|Path_DressupTag](Path_Workbench___Path]].md), [Path_DressupDogbone](Path_DressupDogbone.md) , [Path_DressupDragKnife](Path_DressupDragKnife.md) ---
+- GuiCommand:   Name: Path DressupTag   Workbenches: Path Workbench   Path, Path_DressupDogbone , Path_DressupDragKnife ---
 
 
 </div>

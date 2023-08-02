@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Snap Extension
    Name/de: Draft EinrastenAufVerlängerung
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso: [Draft Einrasten](Draft_Snap/de.md), [Draft EinrastenSperren](Draft_Snap_Lock/de.md)
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   SeeAlso: Draft_Snap/de, Draft_Snap_Lock/de
 ---
 
 # Draft Snap Extension/de

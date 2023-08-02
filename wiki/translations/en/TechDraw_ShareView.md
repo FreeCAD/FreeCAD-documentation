@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: TechDraw ShareView
-   MenuLocation: TechDraw - TechDraw Views - Share View
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   MenuLocation: TechDraw -> TechDraw Views -> Share View
+   Workbenches: TechDraw_Workbench
    Version: 0.20
-   SeeAlso: [TechDraw MoveView](TechDraw_MoveView.md)
+   SeeAlso: TechDraw_MoveView
 ---
 
 # TechDraw ShareView/en

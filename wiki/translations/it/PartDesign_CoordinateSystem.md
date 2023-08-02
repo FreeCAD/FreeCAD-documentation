@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign CoordinateSystem
    Name/it: Sistema di coordinate locale
-   MenuLocation: PartDesign - Sistema di coordinate locale
-   Workbenches: [PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation: PartDesign -> Sistema di coordinate locale
+   Workbenches: PartDesign Workbench/it
    Version: 0.18
-   SeeAlso: [Punto di riferimento](PartDesign_Point/it.md), [Linea di riferimento](PartDesign_Line/it.md), [Piano di riferimento](PartDesign_Plane/it.md)
+   SeeAlso: PartDesign Point/it, PartDesign Line/it, PartDesign Plane/it
 ---
 
 # PartDesign CoordinateSystem/it

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Robot SetDefaultValues
-   MenuLocation: Robot - Set default values
-   Workbenches: [Robot](Robot_Workbench.md)
+   MenuLocation: Robot -> Set default values
+   Workbenches: Robot_Workbench
 ---
 
 # Robot SetDefaultValues/pl

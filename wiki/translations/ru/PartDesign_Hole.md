@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Отверстие
    Name: PartDesign_Hole
-   MenuLocation: Part Design - Create a substractive feature - Отверстие
-   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   MenuLocation: Part Design -> Create a substractive feature -> Отверстие
+   Workbenches: PartDesign_Workbench/ru
    Version: 0.17
-   SeeAlso: [Вырез](PartDesign_Pocket/ru.md)
+   SeeAlso: PartDesign_Pocket/ru
 ---
 
 # PartDesign Hole/ru

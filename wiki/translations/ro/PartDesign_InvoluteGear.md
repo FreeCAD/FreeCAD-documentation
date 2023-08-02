@@ -3,8 +3,8 @@
    Icon: PartDesign InternalExternalGear.svg
    Name: PartDesign InvoluteGear
    Name/ro: PartDesign: Angrenaj cilindric cu dinți drepți în evolventă
-   MenuLocation: Part Design - Involute gear...
-   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   MenuLocation: Part Design -> Involute gear...
+   Workbenches: PartDesign Workbench
 ---
 
 # PartDesign InvoluteGear/ro

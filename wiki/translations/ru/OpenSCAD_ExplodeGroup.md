@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: OpenSCAD ExplodeGroup
    Name/ru: OpenSCAD ExplodeGroup
-   MenuLocation: OpenSCAD - Расчленить Группу
-   Workbenches: [OpenSCAD](OpenSCAD_Workbench/ru.md)
+   MenuLocation: OpenSCAD -> Расчленить Группу
+   Workbenches: OpenSCAD_Workbench/ru
    Shortcut: нет
    SeeAlso: ---
 ---

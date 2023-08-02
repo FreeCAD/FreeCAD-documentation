@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std DrawStyle
    Name/ru: Std DrawStyle
-   MenuLocation: Вид - Стиль представления - ...
+   MenuLocation: Вид -> Стиль представления -> ...
    Workbenches: All
    Shortcut: **V** **1** - **V** **7**
-   SeeAlso: [Std SelBoundingBox](Std_SelBoundingBox/ru.md)
+   SeeAlso: Std_SelBoundingBox/ru
 ---
 
 # Std DrawStyle/ru

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft ShowSnapBar
    Name/fr: Draft Barre d'aimantation
-   MenuLocation: Utilitaires - Afficher la barre d'outils d'aimantation
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   SeeAlso: [Draft Aimantation](Draft_Snap/fr.md)
+   MenuLocation: Utilitaires -> Afficher la barre d'outils d'aimantation
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   SeeAlso: Draft_Snap/fr
 ---
 
 # Draft ShowSnapBar/fr

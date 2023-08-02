@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name: Draft BezCurve
-   Workbenches: [Draft](Draft_Workbench/cs.md), [Arch](Arch_Workbench/cs.md)
+   Workbenches: Draft_Workbench/cs, Arch_Workbench/cs
    MenuLocation: Draft -> BezCurve
    Shortcut: B Z
 ---

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Субтрактивная призма
    Name: PartDesign_SubtractivePrism
-   MenuLocation: Part Design - Создать субтрактивный примитив - Субтрактивная призма
-   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   MenuLocation: Part Design -> Создать субтрактивный примитив -> Субтрактивная призма
+   Workbenches: PartDesign_Workbench/ru
    Version: 0.17
-   SeeAlso: [Создать субтрактивный примитив](PartDesign_CompPrimitiveSubtractive/ru.md), [Аддитивная призма](PartDesign_AdditivePrism/ru.md)
+   SeeAlso: PartDesign_CompPrimitiveSubtractive/ru, PartDesign_AdditivePrism/ru
 ---
 
 # PartDesign SubtractivePrism/ru

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: TechDraw HoleShaftFit
    Name/fr: TechDraw Tolérance de trou/d'arbre
-   MenuLocation: TechDraw - Ajouter une tolérance à un trou ou à un arbre
-   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   MenuLocation: TechDraw -> Ajouter une tolérance à un trou ou à un arbre
+   Workbenches: TechDraw_Workbench/fr
    Version: 0.21
-   SeeAlso: [TechDraw Dimensionnement géométrique et tolérance](TechDraw_Geometric_dimensioning_and_tolerancing/fr.md)
+   SeeAlso: TechDraw_Geometric_dimensioning_and_tolerancing/fr
 ---
 
 # TechDraw HoleShaftFit/fr

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Label
    Name/es: Draft Label
-   Workbenches: [Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
-   MenuLocation: Draft - Label
+   Workbenches: Draft_Workbench/es, Arch_Workbench/es
+   MenuLocation: Draft -> Label
    Shortcut: D L
 ---
 

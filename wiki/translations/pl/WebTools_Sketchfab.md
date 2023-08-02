@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: WebTools Sketchfab
    Name/pl: Web: Sketchfab
-   MenuLocation: WebTools - Sketchfab
+   MenuLocation: WebTools -> Sketchfab
 |
-   Workbenches: [Narzędzia Web](WebTools_Workbench/pl.md)
+   Workbenches: WebTools_Workbench/pl
 ---
 
 # WebTools Sketchfab/pl

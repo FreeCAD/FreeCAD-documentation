@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Snap Extension
    Name/fr: Draft Aimantation Extension
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   SeeAlso: [Draft Aimantation](Draft_Snap/fr.md), [Draft Verrouillage de l'aimantation](Draft_Snap_Lock/fr.md)
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   SeeAlso: Draft_Snap/fr, Draft_Snap_Lock/fr
 ---
 
 # Draft Snap Extension/fr

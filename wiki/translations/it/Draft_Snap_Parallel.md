@@ -3,10 +3,10 @@
 - GuiCommand:
    Name: Draft Snap Parallel
    Name/it: Parallela
-   MenuLocation: Draft - [Aggancio](Draft_Snap/it.md) - Parallela
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Draft -> Draft Snap/it -> Parallela
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: 
-   SeeAlso: [Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)---
+   SeeAlso: Draft Snap/it, Draft_Snap_Lock/it---
 
 ## Descrizione
 

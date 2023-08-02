@@ -2,8 +2,8 @@
 - GuiCommand:
    Name/ru: Выровнять по левому краю
    Name: Spreadsheet_AlignLeft
-   MenuLocation: Электронная таблица - Alignment - Выровнять по левому краю
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench/ru.md)
+   MenuLocation: Электронная таблица -> Alignment -> Выровнять по левому краю
+   Workbenches: Spreadsheet_Workbench/ru
    Version: 0.17
 ---
 

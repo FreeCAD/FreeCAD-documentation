@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path Stop
    Name/fr: Path Arrêter
-   MenuLocation: Path - Autres commandes - Arrêter
-   Workbenches: [Path](Path_Workbench/fr.md)
+   MenuLocation: Path -> Autres commandes -> Arrêter
+   Workbenches: Path_Workbench/fr
 ---
 
 # Path Stop/fr

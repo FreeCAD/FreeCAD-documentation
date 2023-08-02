@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std TreeSyncSelection
    Name/ru: Std TreeSyncSelection
-   MenuLocation: Вид - Дерево документа - Sync selection
+   MenuLocation: Вид -> Дерево документа -> Sync selection
    Workbenches: All
    Shortcut: **T** **2**
    Version: 0.19

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path-Area
    Name/fr: Path Surface
-   MenuLocation: Path - Surface
-   Workbenches: [Path](Path_Workbench/fr.md)
+   MenuLocation: Path -> Surface
+   Workbenches: Path_Workbench/fr
 ---
 
 # Path Area/fr

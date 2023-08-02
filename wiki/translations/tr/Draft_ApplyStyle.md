@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft Apply
    Name/tr: Stili uygula
-   MenuLocation: Taslak- Araçlar - Stili uygula
-   Workbenches: [Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
-   SeeAlso: [Tepsi](Draft_Tray/tr.md)
+   MenuLocation: Taslak-> Araçlar -> Stili uygula
+   Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
+   SeeAlso: Draft Tray/tr
 ---
 
 # Draft ApplyStyle/tr

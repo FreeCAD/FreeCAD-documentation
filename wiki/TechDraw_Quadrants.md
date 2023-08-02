@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: TechDraw Quadrants
-   MenuLocation: TechDraw - Add Vertices - Add Quadrant Vertices
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   MenuLocation: TechDraw -> Add Vertices -> Add Quadrant Vertices
+   Workbenches: TechDraw_Workbench
    Version: 0.19
-   SeeAlso: [TechDraw CosmeticVertex](TechDraw_CosmeticVertex.md), [TechDraw Midpoint](TechDraw_Midpoints.md)
+   SeeAlso: TechDraw_CosmeticVertex, TechDraw_Midpoints
 ---
 
 # TechDraw Quadrants

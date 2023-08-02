@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch Structure
    Name/ja: Arch Structure
-   Workbenches: [建築](Arch_Workbench/ja.md)
+   Workbenches: Arch Workbench/ja
    MenuLocation: Arch -> Structure   Shortcut: S T
-   SeeAlso: [[Arch Wall/ja]]
+   SeeAlso: Arch Wall/ja
 ---
 
 # Arch Structure/ja

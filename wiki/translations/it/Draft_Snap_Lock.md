@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft Snap Lock
    Name/it: Attiva/Disattiva
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   MenuLocation: Draft - [Aggancio](Draft_Snap/it.md) - Attiva/Disattiva
-   SeeAlso: [Agganciare](Draft_Snap/it.md), [Mostra/Nacondi la griglia](Draft_ToggleGrid/it.md)
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   MenuLocation: Draft -> Draft Snap/it -> Attiva/Disattiva
+   SeeAlso: Draft Snap/it, Draft ToggleGrid/it
 ---
 
 # Draft Snap Lock/it

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path Surface
    Name/pl: Path: Powierzchnia 3D
-   MenuLocation: Path - Powierzchnia 3D
-   Workbenches: [Path](Path_Workbench/pl.md)
+   MenuLocation: Path -> Powierzchnia 3D
+   Workbenches: Path_Workbench/pl
    Version: 0.19
 ---
 

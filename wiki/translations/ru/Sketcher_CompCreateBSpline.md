@@ -3,8 +3,8 @@
    Name/ru: Создать B-Сплайн
    Name: Sketcher_Create_a_B-Spline
    Icon: Sketcher_CompCreateBSpline.png
-   MenuLocation: Нет (только на панели инструментов)
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation: Нет 
+   Workbenches: Sketcher_Workbench/ru
    Version: 0.17
 ---
 

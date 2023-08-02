@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: PartDesign Mirrored
    Name/de: PartDesign Spiegeln
-   MenuLocation: Part Design - Muster anwenden - Spiegeln
-   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso: [PartDesign MehrfachTransformation](PartDesign_MultiTransform/de.md)
+   MenuLocation: Part Design -> Muster anwenden -> Spiegeln
+   Workbenches: PartDesign_Workbench/de
+   SeeAlso: PartDesign_MultiTransform/de
 ---
 
 # PartDesign Mirrored/de

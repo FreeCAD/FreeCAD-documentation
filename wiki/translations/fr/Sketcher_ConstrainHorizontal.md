@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ConstrainHorizontal
    Name/fr: Sketcher_Contrainte horizontale
-   MenuLocation: Esquisse - Contraintes d'esquisse - Contrainte horizontale
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   MenuLocation: Esquisse -> Contraintes d'esquisse -> Contrainte horizontale
+   Workbenches: Sketcher_Workbench/fr
    Shortcut: **H**
-   SeeAlso: [Sketcher Contrainte verticale](Sketcher_ConstrainVertical/fr.md)
+   SeeAlso: Sketcher_ConstrainVertical/fr
 ---
 
 # Sketcher ConstrainHorizontal/fr

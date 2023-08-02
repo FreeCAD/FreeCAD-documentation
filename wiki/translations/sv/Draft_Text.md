@@ -1,6 +1,6 @@
 # Draft Text/sv
 ---
-- GuiCommand:   Name: Draft_Text   Workbenches: [Arch](Draft_Workbench/sv___Skiss]],_[[Arch_Workbench/sv.md)|MenuLocation: Draft - Text   Shortcut: T E---
+- GuiCommand:   Name: Draft_Text   Workbenches: Draft_Workbench/sv   Skiss, Arch_Workbench/sv|MenuLocation: Draft -> Text   Shortcut: T E---
 
 
 </div>

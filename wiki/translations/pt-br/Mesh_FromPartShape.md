@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Mesh FromPartShape
-   MenuLocation: Meshes - Create mesh from shape...
-   Workbenches: [Mesh](Mesh_Workbench.md)
+   MenuLocation: Meshes -> Create mesh from shape...
+   Workbenches: Mesh_Workbench
 ---
 
 # Mesh FromPartShape/pt-br

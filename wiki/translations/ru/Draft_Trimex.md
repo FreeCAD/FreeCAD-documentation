@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Укоротить/Растянуть
    Name: Draft_Trimex
-   MenuLocation: Modification - Укоротить/Растянуть
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Modification -> Укоротить/Растянуть
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: **T** **R**
-   SeeAlso: [Выдавить](Part_Extrude/ru.md)
+   SeeAlso: Part_Extrude/ru
 ---
 
 # Draft Trimex/ru

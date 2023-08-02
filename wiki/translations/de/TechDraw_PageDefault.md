@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw PageDefault
    Name/de: TechDraw Standardseite
-   MenuLocation: TechDraw - Page - Neues Zeichnungsblatt aus der Standardvorlage erstellen
-   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso: [TechDraw Seitenvorlage](TechDraw_PageTemplate/de.md), [TechDraw Vorlagen](TechDraw_Templates/de.md)
+   MenuLocation: TechDraw -> Page -> Neues Zeichnungsblatt aus der Standardvorlage erstellen
+   Workbenches: TechDraw_Workbench/de
+   SeeAlso: TechDraw_PageTemplate/de, TechDraw Templates/de
 ---
 
 # TechDraw PageDefault/de

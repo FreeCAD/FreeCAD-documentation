@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft BSpline
    Name/ru: Draft BSpline
-   MenuLocation: Черчение - B-сплайн
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Черчение -> B-сплайн
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: **B** **S**
-   SeeAlso: [DWire](Draft_Wire.md)
+   SeeAlso: Draft Wire
 ---
 
 # Draft BSpline/ru

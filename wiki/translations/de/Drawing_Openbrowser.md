@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Drawing Openbrowser
    Name/de: Zeichen Openbrowser
-   Workbenches: [Zeichnung](Drawing_Workbench/de.md), Complete
-   MenuLocation: Drawing - Open Browser
+   Workbenches: Drawing Workbench/de, Complete
+   MenuLocation: Drawing -> Open Browser
    Shortcut: none
 ---
 

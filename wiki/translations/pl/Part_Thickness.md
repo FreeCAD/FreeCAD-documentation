@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Thickness
    Name/pl: Część: Grubość
-   MenuLocation: Część - Grubość
-   Workbenches: [Środowisko pracy Część](Part_Workbench/pl.md)
-   SeeAlso: [Odsunięcie](Part_Offset/pl.md)
+   MenuLocation: Część -> Grubość
+   Workbenches: Part_Workbench/pl
+   SeeAlso: Part_Offset/pl
 ---
 
 # Part Thickness/pl

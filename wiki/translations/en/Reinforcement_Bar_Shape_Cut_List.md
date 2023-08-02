@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Reinforcement Bar Shape Cut List
-   MenuLocation: Reinforcement - Rebar Shape Cut List
-   Workbenches: [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   MenuLocation: Reinforcement -> Rebar Shape Cut List
+   Workbenches: Arch_Workbench, BIM_Workbench
    Version: 0.19
-   SeeAlso: [Reinforcement](Reinforcement_Workbench.md), [Arch Rebar Reinforcement Drawing Dimensioning](Arch_Rebar_Drawing_Dimensioning.md), [Arch Rebar BOM](Arch_Rebar_BOM.md)
+   SeeAlso: Reinforcement_Workbench, Arch_Rebar_Drawing_Dimensioning, Arch_Rebar_BOM
 ---
 
 # Reinforcement Bar Shape Cut List/en

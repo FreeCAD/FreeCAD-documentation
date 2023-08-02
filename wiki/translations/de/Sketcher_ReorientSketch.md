@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Sketcher ReorientSketch
    Name/de: Sketcher SkizzeAnordnen
-   MenuLocation: Sketch - Skizze neu Anordnen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso: [Sketcher SkizzeZuordnen](Sketcher_MapSketch/de.md), [Sketcher NeueSkizze](Sketcher_NewSketch/de.md)
+   MenuLocation: Sketch -> Skizze neu Anordnen
+   Workbenches: Sketcher_Workbench/de, PartDesign_Workbench/de
+   SeeAlso: Sketcher_MapSketch/de, Sketcher_NewSketch/de
 ---
 
 # Sketcher ReorientSketch/de

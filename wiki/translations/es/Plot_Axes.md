@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Plot Axes
-   MenuLocation: Plot - Configure axes
-   Workbenches: [Plot](Plot_Workbench.md)
+   MenuLocation: Plot -> Configure axes
+   Workbenches: Plot_Workbench
 ---
 
 # Plot Axes/es

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch_Rebar
    Name/fr: Arch Armature personnalisée
-   MenuLocation: Arch - Outils pour armatures - Armature personnalisée<br>3D/BIM - Reinforcement tools - Armature personnalisée
-   Workbenches: [Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   MenuLocation: Arch -> Outils pour armatures -> Armature personnalisée<br>3D/BIM -> Reinforcement tools -> Armature personnalisée
+   Workbenches: Arch_Workbench/fr, BIM_Workbench/fr
    Shortcut: **R** **B**
-   SeeAlso: [Arch Structure](Arch_Structure/fr.md), [Atelier Reinforcement](Reinforcement_Workbench/fr.md)
+   SeeAlso: Arch_Structure/fr, Reinforcement_Workbench/fr
 ---
 
 # Arch Rebar/fr

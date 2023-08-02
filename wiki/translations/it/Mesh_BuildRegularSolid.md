@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Mesh BuildRegularSolid
    Name/it: Solido regolare
-   MenuLocation: Mesh - Solido regolare...
-   Workbenches: [Mesh](Mesh_Workbench/it.md)
+   MenuLocation: Mesh -> Solido regolare...
+   Workbenches: Mesh Workbench/it
 ---
 
 # Mesh BuildRegularSolid/it

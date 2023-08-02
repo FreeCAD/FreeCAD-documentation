@@ -1,6 +1,6 @@
 # Part Extrude/sv
 ---
-- GuiCommand:   Name: Part_Extrude   Workbenches: [Part](Part_Workbench/sv.md),Komplett---
+- GuiCommand:   Name: Part_Extrude   Workbenches: Part_Workbench/sv,Komplett---
 
 
 </div>

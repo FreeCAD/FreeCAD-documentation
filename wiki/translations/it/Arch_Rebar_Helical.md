@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch Rebar Helical
    Name/it: Armatura elicoidale
-   MenuLocation: Arch - Strumenti armatura - Armatura elicoidale o 3D/BIM - Reinforcement - Helical Rebar
-   Workbenches: [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   SeeAlso: [Staffa armatura](Arch_Rebar_Stirrup/it.md), [Rinforzo di pilastro](Arch_Rebar_ColumnReinforcement/it.md)
+   MenuLocation: Arch -> Strumenti armatura -> Armatura elicoidale o 3D/BIM -> Reinforcement -> Helical Rebar
+   Workbenches: Arch Workbench/it, BIM Workbench/it
+   SeeAlso: Arch_Rebar_Stirrup/it, Arch_Rebar_ColumnReinforcement/it
    Version: 0.17
 ---
 

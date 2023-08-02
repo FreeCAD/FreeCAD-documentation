@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std DependencyGraph
    Name/es: Std GrafoDependencia
-   MenuLocation: Hierramientas - Grafo Dependencia...
+   MenuLocation: Hierramientas -> Grafo Dependencia...
    Workbenches: Todo
 ---
 

@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ProjectShape
    Name/pl: Rysunek Techniczny: Rzutowanie kształtów
-   MenuLocation: Rysunek Techniczny - Widoki - Rzutowanie kształtów ...
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   MenuLocation: Rysunek Techniczny -> Widoki -> Rzutowanie kształtów ...
+   Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20
-   SeeAlso: [Widok 2D kształtu](Draft_Shape2DView/pl.md)
+   SeeAlso: Draft_Shape2DView/pl
 ---
 
 # TechDraw ProjectShape/pl

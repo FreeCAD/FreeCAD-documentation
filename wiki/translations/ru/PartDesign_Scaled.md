@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: PartDesign Scaled
    Name/ru: PartDesign Scaled
-   Workbenches: [PartDesign](PartDesign_Workbench/ru.md), Complete
-   MenuLocation: PartDesign - Множественное преобразование
+   Workbenches: PartDesign Workbench/ru, Complete
+   MenuLocation: PartDesign -> Множественное преобразование
 ---
 
 # PartDesign Scaled/ru

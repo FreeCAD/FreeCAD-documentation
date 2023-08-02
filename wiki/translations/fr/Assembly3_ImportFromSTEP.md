@@ -3,8 +3,8 @@
    Name: Assembly3 ImportFromSTEP
    Name/fr: Assembly3 Importer fichier STEP
    Icon: Assembly_Import.svg
-   MenuLocation: Assembly3 - Import from STEP - Import from STEP
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   MenuLocation: Assembly3 -> Import from STEP -> Import from STEP
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 ImportFromSTEP/fr

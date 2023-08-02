@@ -2,8 +2,8 @@
 - GuiCommand:
    Name/ru: Выровнять вертикально по центру
    Name: Spreadsheet_AlignVCenter
-   MenuLocation: Электронная таблица - Alignment - Vertically-center align
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench/ru.md)
+   MenuLocation: Электронная таблица -> Alignment -> Vertically-center align
+   Workbenches: Spreadsheet_Workbench/ru
    Version: 0.17
 ---
 

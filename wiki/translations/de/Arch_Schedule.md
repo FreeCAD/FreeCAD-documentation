@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch Schedule
    Name/de: Arch Ablaufplan
-   MenuLocation: Arch - Ablaufplan
-   Workbenches: [Arch](Arch_Workbench/de.md)
-   SeeAlso: [Arch Ausstattung](Arch_Equipment/de.md)
+   MenuLocation: Arch -> Ablaufplan
+   Workbenches: Arch_Workbench/de
+   SeeAlso: Arch_Equipment/de
 ---
 
 # Arch Schedule/de

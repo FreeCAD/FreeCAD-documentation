@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Path Stop
-   MenuLocation: Path - Supplemental Commands - Stop
-   Workbenches: [Path](Path_Workbench.md)
+   MenuLocation: Path -> Supplemental Commands -> Stop
+   Workbenches: Path_Workbench
 ---
 
 # Path Stop

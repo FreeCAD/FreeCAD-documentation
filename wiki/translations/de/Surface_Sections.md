@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Surface Sections
    Name/de: Surface Querschnitte
-   MenuLocation: Surface - Sections
-   Workbenches: [Surface](Surface_Workbench/de.md)
+   MenuLocation: Surface -> Sections
+   Workbenches: Surface_Workbench/de
    Version: 0.19
 ---
 

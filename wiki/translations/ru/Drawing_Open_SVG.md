@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Drawing Open SVG
    Name/ru: Drawing Open SVG
-   Workbenches: [Drawing](Drawing_Workbench/ru.md), Complete
-   MenuLocation: Чертёж - Открыть SVG...
+   Workbenches: Drawing Workbench/ru, Complete
+   MenuLocation: Чертёж -> Открыть SVG...
    Shortcut: 
-   SeeAlso: [Экспортировать страницу](Drawing_Save/ru.md)
+   SeeAlso: Drawing Save/ru
 ---
 
 # Drawing Open SVG/ru

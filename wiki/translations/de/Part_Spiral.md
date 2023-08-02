@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part Spiral
    Name/de: Part Spirale
-   MenuLocation: Formteil - [Grundkörper erstellen...](Part_Primitives/de.md) - Spirale
-   Workbenches: [Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
+   MenuLocation: Formteil -> Part_Primitives/de -> Spirale
+   Workbenches: Part_Workbench/de, OpenSCAD_Workbench/de
    Version: 0.14
-   SeeAlso: [Part Grundelemente](Part_Primitives/de.md)
+   SeeAlso: Part_Primitives/de
 ---
 
 # Part Spiral/de

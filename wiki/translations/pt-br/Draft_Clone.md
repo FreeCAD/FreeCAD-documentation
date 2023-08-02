@@ -2,10 +2,10 @@
 - GuiCommand:-br
    Name: Draft Clone
    Name/pt-br: Draft Clone
-   MenuLocation: Draft - Clone
-   Workbenches: [Draft](Draft_Workbench/pt-br.md), [Arch](Arch_Workbench/pt-br.md)
+   MenuLocation: Draft -> Clone
+   Workbenches: Draft_Workbench/pt-br, Arch_Workbench/pt-br
    Shortcut: **C** **L**
-   SeeAlso: [Draft Scale](Draft_Scale/pt-br.md)
+   SeeAlso: Draft Scale/pt-br
 ---
 
 # Draft Clone/pt-br

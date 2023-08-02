@@ -2,12 +2,12 @@
 - GuiCommand:
    Name: Sketcher ConstrainDiameter
    Name/pl: Szkicownik: Wiązanie średnicy
-   MenuLocation: Szkic - Wiązania szkicownika - Wiązanie średnicy
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md),
-[Projekt Części](PartDesign_Workbench/pl.md)
+   MenuLocation: Szkic -> Wiązania szkicownika -> Wiązanie średnicy
+   Workbenches: Sketcher_Workbench/pl,
+PartDesign_Workbench/pl
    Shortcut: **K** **O**
    Version: 0.18
-   SeeAlso: [Wiązanie odległości](Sketcher_ConstrainDistance/pl.md), [Zwiąż w poziomie](Sketcher_ConstrainDistanceX/pl.md), [Zwiąż w pionie](Sketcher_ConstrainDistanceY/pl.md)
+   SeeAlso: Sketcher_ConstrainDistance/pl, Sketcher_ConstrainDistanceX/pl, Sketcher_ConstrainDistanceY/pl
 ---
 
 # Sketcher ConstrainDiameter/pl

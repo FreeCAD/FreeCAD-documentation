@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher ConnectLines
    Name/de: Sketcher LinienVerbinden
-   MenuLocation: Skizze - Skizzen-Werkzeuge - Kanten verbinden
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Skizze -> Skizzen-Werkzeuge -> Kanten verbinden
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **Z** **J**
    Version: 0.15
-   SeeAlso: [Sketcher KoinzidenzFestlegen](Sketcher_ConstrainCoincident/de.md)
+   SeeAlso: Sketcher_ConstrainCoincident/de
 ---
 
 # Sketcher ConnectLines/de

@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher CreateArcOfHyperbola
    Name/fr: Sketcher Créer un arc d'hyberbole
-   MenuLocation: Esquisse - Géométries d'esquisse - Créer un arc d'hyberbole
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   MenuLocation: Esquisse -> Géométries d'esquisse -> Créer un arc d'hyberbole
+   Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **H**
    Version: 0.17
-   SeeAlso: [Sketcher Arc d'ellipse](Sketcher_CreateArcOfEllipse/fr.md), [Sketcher Arc de parabole](Sketcher_CreateArcOfParabola/fr.md)
+   SeeAlso: Sketcher_CreateArcOfEllipse/fr, Sketcher_CreateArcOfParabola/fr
 ---
 
 # Sketcher CreateArcOfHyperbola/fr

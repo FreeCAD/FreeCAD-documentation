@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Rectangle
    Name/it: Rettangolo
-   MenuLocation: Drafting - Rettangolo
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Drafting -> Rettangolo
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **R** **E**
    Version: 0.7
 ---

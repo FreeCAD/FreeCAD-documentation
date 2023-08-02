@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: PartDesign NewSketch
    Name/es: Croquis PartDesign
-   Workbenches: [PartDesign](PartDesign_Workbench/es.md)
-   MenuLocation: Part Design - Crear croquis
+   Workbenches: PartDesign Workbench/es
+   MenuLocation: Part Design -> Crear croquis
    Version: 0.17
 ---
 

@@ -1,6 +1,6 @@
 # Part Cone/sv
 ---
-- GuiCommand:   Name: Part Cone   Name/sv: Part Cone   MenuLocation: Part -> Cone   Workbenches: [SeeAlso: [[Part_CreatePrimitives/sv|Part CreatePrimitives](Part_Workbench/sv___Part]],_Complete.md)---
+- GuiCommand:   Name: Part Cone   Name/sv: Part Cone   MenuLocation: Part -> Cone   Workbenches: Part_Workbench/sv   Part, Complete---
 
 
 </div>

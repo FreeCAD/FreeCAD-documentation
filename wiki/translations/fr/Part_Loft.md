@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part Loft
    Name/fr: Part Lissage
-   MenuLocation: Part - Lissage...
-   Workbenches: [Part](Part_Workbench/fr.md)
+   MenuLocation: Part -> Lissage...
+   Workbenches: Part_Workbench/fr
    Version: 0.13
-   SeeAlso: [Part Balayage](Part_Sweep/fr.md)
+   SeeAlso: Part_Sweep/fr
 ---
 
 # Part Loft/fr

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Mesh Difference
    Name/ru: Mesh Difference
-   MenuLocation:  Сетки - Булевы операции - Разность
-   Workbenches: [Mesh](Mesh_Workbench/ru.md)
+   MenuLocation:  Сетки -> Булевы операции -> Разность
+   Workbenches: Mesh Workbench/ru
    Shortcut: 
    SeeAlso: 
 ---

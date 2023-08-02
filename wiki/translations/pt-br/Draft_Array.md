@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Draft Array
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso: [Draft OrthoArray](Draft_OrthoArray.md), [Draft PolarArray](Draft_PolarArray.md), [Draft CircularArray](Draft_CircularArray.md)
+   Workbenches: Draft_Workbench, Arch_Workbench
+   SeeAlso: Draft_OrthoArray, Draft_PolarArray, Draft_CircularArray
 ---
 
 # Draft Array/pt-br

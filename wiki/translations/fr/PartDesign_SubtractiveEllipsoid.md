@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign SubtractiveEllipsoid
    Name/fr: PartDesign Ellipsoïde soustractif
-   MenuLocation: Part Design - Créer une primitive soustractive - Ellipsoïde soustractif 
-   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   MenuLocation: Part Design -> Créer une primitive soustractive -> Ellipsoïde soustractif 
+   Workbenches: PartDesign_Workbench/fr
    Version: 0.17
-   SeeAlso: [PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md), [PartDesign Ellipsoïde additif](PartDesign_AdditiveEllipsoid/fr.md)
+   SeeAlso: PartDesign_CompPrimitiveSubtractive/fr, PartDesign_AdditiveEllipsoid/fr
 ---
 
 # PartDesign SubtractiveEllipsoid/fr

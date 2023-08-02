@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch Check
    Name/fr: Arch Vérifier
-   MenuLocation: Arch - Utilitaires - Vérifier
-   Workbenches: [Arch](Arch_Workbench/fr.md)
-   SeeAlso: [Arch Fermer les trous](Arch_CloseHoles/fr.md)
+   MenuLocation: Arch -> Utilitaires -> Vérifier
+   Workbenches: Arch_Workbench/fr
+   SeeAlso: Arch_CloseHoles/fr
 ---
 
 # Arch Check/fr

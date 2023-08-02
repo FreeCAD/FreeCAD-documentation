@@ -4,7 +4,7 @@
    Name/it: B-spline
    Icon: Sketcher_CompCreateBSpline.png
    MenuLocation: 
-   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   Workbenches: Sketcher_Workbench/it
    Version: 0.17
 ---
 

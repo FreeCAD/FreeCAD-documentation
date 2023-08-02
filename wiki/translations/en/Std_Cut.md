@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Std Cut
-   MenuLocation: Edit - Cut
+   MenuLocation: Edit -> Cut
    Workbenches: All
-   SeeAlso: [Std Copy](Std_Copy.md), [Std Paste](Std_Paste.md), [Std DuplicateSelection](Std_DuplicateSelection.md)
+   SeeAlso: Std_Copy, Std_Paste, Std_DuplicateSelection
 ---
 
 # Std Cut/en

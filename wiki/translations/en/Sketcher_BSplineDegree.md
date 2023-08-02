@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Sketcher BSplineDegree
-   MenuLocation: Sketch - Sketcher B-spline tools - Show/hide B-spline degree
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch -> Sketcher B-spline tools -> Show/hide B-spline degree
+   Workbenches: Sketcher Workbench
    Version: 0.17
-   SeeAlso: [Sketcher Create B-spline](Sketcher_CompCreateBSpline.md)
+   SeeAlso: Sketcher_CompCreateBSpline
 ---
 
 # Sketcher BSplineDegree/en

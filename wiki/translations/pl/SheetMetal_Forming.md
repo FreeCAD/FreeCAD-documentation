@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: SheetMetal Forming
    Name/pl: Formowanie blach
-   MenuLocation: SheetMetal - Wykonaj formowanie na ścianie
-   Workbenches: [Blacha](SheetMetal_Workbench/pl.md)
+   MenuLocation: SheetMetal -> Wykonaj formowanie na ścianie
+   Workbenches: SheetMetal_Workbench/pl
    Shortcut: **M** **F**
 ---
 

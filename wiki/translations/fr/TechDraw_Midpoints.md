@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: TechDraw Midpoints
    Name/fr: TechDraw Points médians
-   MenuLocation: TechDraw - Ajouter des sommets - Ajouter des sommets de points médians
-   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   MenuLocation: TechDraw -> Ajouter des sommets -> Ajouter des sommets de points médians
+   Workbenches: TechDraw_Workbench/fr
    Version: 0.19
-   SeeAlso: [TechDraw Point cosmétique](TechDraw_CosmeticVertex/fr.md), [TechDraw Sommets quadrants](TechDraw_Quadrants/fr.md)
+   SeeAlso: TechDraw_CosmeticVertex/fr, TechDraw_Quadrants/fr
 ---
 
 # TechDraw Midpoints/fr

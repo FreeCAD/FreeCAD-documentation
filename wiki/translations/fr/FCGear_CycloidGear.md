@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: FCGear CycloidGear
    Name/fr: FCGear Engrenage cycloïde
-   MenuLocation: Gear - Cycloid Gear
-   Workbenches: [FCGear](FCGear_Workbench/fr.md)
+   MenuLocation: Gear -> Cycloid Gear
+   Workbenches: FCGear_Workbench/fr
    Shortcut: Aucun
    Version: v0.16
-   SeeAlso: [FCGear Engrenage à développante](FCGear_InvoluteGear/fr.md)
+   SeeAlso: FCGear_InvoluteGear/fr
 ---
 
 # FCGear CycloidGear/fr

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft PointLinkArray
    Name/fr: Draft Réseau lié selon des points
-   MenuLocation: Modification - Outils pour les réseaux - Réseau lié selon des points
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Modification -> Outils pour les réseaux -> Réseau lié selon des points
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Version: 0.19
-   SeeAlso: [Draft Réseau orthogonal](Draft_OrthoArray/fr.md), [Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Réseau selon une courbe](Draft_PathArray/fr.md), [Draft Réseau de points](Draft_PointArray/fr.md)
+   SeeAlso: Draft_OrthoArray/fr, Draft_PolarArray/fr, Draft_CircularArray/fr, Draft_PathArray/fr, Draft_PointArray/fr
 ---
 
 # Draft PointLinkArray/fr

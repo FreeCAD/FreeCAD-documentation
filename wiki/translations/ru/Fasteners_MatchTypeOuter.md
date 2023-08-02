@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Fasteners MatchTypeOuter
-   MenuLocation: Fasteners - Match for pass hole
-   Workbenches: [Fasteners](Fasteners_Workbench.md)
-   SeeAlso: [Fasteners MatchTypeInner](Fasteners_MatchTypeInner.md)
+   MenuLocation: Fasteners -> Match for pass hole
+   Workbenches: Fasteners_Workbench
+   SeeAlso: Fasteners_MatchTypeInner
 ---
 
 # Fasteners MatchTypeOuter/ru

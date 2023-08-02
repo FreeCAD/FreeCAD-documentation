@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft AnnotationStyleEditor
    Name/ru: Draft AnnotationStyleEditor
-   MenuLocation: Annotation - Annotation styles
-   Workbenches: [Draft](Draft_Workbench/ru.md)
+   MenuLocation: Annotation -> Annotation styles
+   Workbenches: Draft_Workbench/ru
    Shortcut: -
-   SeeAlso: [Draft Text](Draft_Text/ru.md), [Draft Dimension](Draft_Dimension/ru.md), [Draft Label](Draft_Label/ru.md)
+   SeeAlso: Draft_Text/ru, Draft_Dimension/ru, Draft_Label/ru
    Version: 0.19
 ---
 

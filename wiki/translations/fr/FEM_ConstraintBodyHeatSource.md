@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM ConstraintBodyHeatSource
    Name/fr: FEM Contrainte source thermique
-   MenuLocation: Modèle - Contraintes thermiques - Contrainte source de chaleur pour le corps
-   Workbenches: [FEM](FEM_Workbench/fr.md)
+   MenuLocation: Modèle -> Contraintes thermiques -> Contrainte source de chaleur pour le corps
+   Workbenches: FEM_Workbench/fr
    Version: 0.19
-   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
+   SeeAlso: FEM_tutorial/fr
 ---
 
 # FEM ConstraintBodyHeatSource/fr

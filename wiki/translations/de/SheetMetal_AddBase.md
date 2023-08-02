@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: SheetMetal AddBase
    Name/de: SheetMetal BasisprofilErstellen
-   MenuLocation: SheetMetal - Make Base Wall
-   Workbenches: [SheetMetal (Blech)](SheetMetal_Workbench/de.md)
+   MenuLocation: SheetMetal -> Make Base Wall
+   Workbenches: SheetMetal_Workbench/de
    Shortcut: **C** **B**
 ---
 

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Sketcher ConstrainHorizontal
    Name/ja: Sketcher ConstrainHorizontal
-   Workbenches: [スケッチャー](Sketcher_Workbench/ja.md), [パートデザイン](PartDesign_Workbench/ja.md)
-   MenuLocation: Sketch - Sketcher constraints - Constrain horizontally
-   SeeAlso: [Constraint Vertical](Constraint_Vertical/ja.md)
+   Workbenches: Sketcher Workbench/ja, PartDesign Workbench/ja
+   MenuLocation: Sketch -> Sketcher constraints -> Constrain horizontally
+   SeeAlso: Constraint Vertical/ja
 ---
 
 # Sketcher ConstrainHorizontal/ja

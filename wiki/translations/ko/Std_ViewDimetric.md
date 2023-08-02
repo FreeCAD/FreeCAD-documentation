@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Std ViewDimetric
-   MenuLocation: View - Standard views - Axonometric - Dimetric
+   MenuLocation: View -> Standard views -> Axonometric -> Dimetric
    Workbenches: All
-   SeeAlso: [Std ViewIsometric](Std_ViewIsometric.md), [Std ViewTrimetric](Std_ViewTrimetric.md)
+   SeeAlso: Std_ViewIsometric, Std_ViewTrimetric
 ---
 
 # Std ViewDimetric/ko

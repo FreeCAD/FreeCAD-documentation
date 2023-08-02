@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Measure Refresh
    Name/de: Part Messung Aktualisieren
-   MenuLocation: Messen - Aktualisieren
-   Workbenches: [Part](Part_Workbench/de.md)
-   SeeAlso: [Part Messung Abstand](Part_Measure_Linear/de.md), [Part Messung Winkel](Part_Measure_Angular/de.md)
+   MenuLocation: Messen -> Aktualisieren
+   Workbenches: Part_Workbench/de
+   SeeAlso: Part_Measure_Linear/de, Part_Measure_Angular/de
 ---
 
 # Part Measure Refresh/de

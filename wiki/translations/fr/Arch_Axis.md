@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch Axis
    Name/fr: Arch Axes
-   MenuLocation: Arch - Outils pour les axes - Axe
-   Workbenches: [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Arch -> Outils pour les axes -> Axe
+   Workbenches: Arch_Workbench/fr
    Shortcut: **A** **X**
-   SeeAlso: [Arch Système d'axes](Arch_AxisSystem/fr.md), [Arch Grille](Arch_Grid/fr.md)
+   SeeAlso: Arch_AxisSystem/fr, Arch_Grid/fr
 ---
 
 # Arch Axis/fr

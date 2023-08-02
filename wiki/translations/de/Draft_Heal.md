@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Draft Heal   Name/de: Draft Heilen
-   MenuLocation: Entwurf - Dienstprogramme - Heilen
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso: [Hochstufen](Draft_Upgrade/de.md), [Herabstufen](Draft_Downgrade/de.md)
+   MenuLocation: Entwurf -> Dienstprogramme -> Heilen
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   SeeAlso: Draft_Upgrade/de, Draft_Downgrade/de
 ---
 
 # Draft Heal/de

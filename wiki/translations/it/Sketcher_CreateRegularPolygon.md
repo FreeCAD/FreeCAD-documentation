@@ -1,6 +1,6 @@
 # Sketcher CreateRegularPolygon/it
 ---
-- GuiCommand:   Name: Sketcher CreateRegularPolygon   Name/it: Poligono regolare   Workbenches: [[Sketcher Workbench/it   Sketcher]]|MenuLocation: Sketch - Geometrie - Crea poligono regolare   Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: Sketcher CreateRegularPolygon   Name/it: Poligono regolare   Workbenches: Sketcher Workbench/it   Sketcher|MenuLocation: Sketch -> Geometrie -> Crea poligono regolare   Shortcut:    SeeAlso: ---
 
 
 </div>

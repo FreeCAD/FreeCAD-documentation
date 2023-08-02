@@ -2,9 +2,9 @@
 - GuiCommand:-br
    Name: Sketcher CreateArc
    Name/pt-br: Sketcher Arc
-   Workbenches: [Sketcher](Sketcher_Workbench/pt-br.md)
-   MenuLocation: Sketch - Sketcher geometries - Create arc
-   SeeAlso: [Sketcher Circle](Sketcher_CompCreateCircle/pt-br.md)
+   Workbenches: Sketcher Workbench/pt-br
+   MenuLocation: Sketch -> Sketcher geometries -> Create arc
+   SeeAlso: Sketcher CompCreateCircle/pt-br
 ---
 
 # Sketcher CreateArc/pt-br

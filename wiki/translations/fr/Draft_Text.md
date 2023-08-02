@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Text
    Name/fr: Draft Texte
-   MenuLocation: Annotation - Texte
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Annotation -> Texte
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **T** **E**
    Version: 0.7
-   SeeAlso: [Draft Étiquette](Draft_Label/fr.md), [Draft Formes à partir de texte](Draft_ShapeString/fr.md)
+   SeeAlso: Draft_Label/fr, Draft_ShapeString/fr
 ---
 
 # Draft Text/fr

@@ -2,9 +2,9 @@
 - GuiCommand:-br
    Name: Sketcher NewSketch
    Name/pt-br: Criar um esboço
-   Workbenches: [Sketcher](Sketcher_Workbench/pt-br.md)
-   MenuLocation: Sketch - Criar um esboço
-   SeeAlso: [Mapear um esboço para uma face](Sketcher_MapSketch/pt-br.md), [Reorientar um esboço...](Sketcher_ReorientSketch/pt-br.md)
+   Workbenches: Sketcher Workbench/pt-br
+   MenuLocation: Sketch -> Criar um esboço
+   SeeAlso: Sketcher_MapSketch/pt-br, Sketcher_ReorientSketch/pt-br
 ---
 
 # Sketcher NewSketch/pt-br

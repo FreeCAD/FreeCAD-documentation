@@ -1,6 +1,6 @@
 # Path Custom/it
 ---
-- GuiCommand:   Name: Path Custom   Name/it: Personalizza   Workbenches: [[Path Workbench/it   Path]]|MenuLocation: Path - Comandi parziali - Personalizza   Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: Path Custom   Name/it: Personalizza   Workbenches: Path Workbench/it   Path|MenuLocation: Path -> Comandi parziali -> Personalizza   Shortcut:    SeeAlso: ---
 
 
 </div>

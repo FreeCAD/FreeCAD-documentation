@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher BSplineComb
    Name/it: Curvatura della B-spline
-   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation: Sketch - Sketcher B-spline tools - Mostra/Nascondi lo strumento curvatura per la B-spline
+   Workbenches: Sketcher Workbench/it
+   MenuLocation: Sketch -> Sketcher B-spline tools -> Mostra/Nascondi lo strumento curvatura per la B-spline
    Version: 0.17
-SeeAlso=[Crea B-spline](Sketcher_CompCreateBSpline/it.md)
+SeeAlso=Sketcher CompCreateBSpline/it
 ---
 
 # Sketcher BSplineComb/it

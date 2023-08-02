@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Arch CurtainWall
    Name/es: Arquitectura  Muro Cortina
-   MenuLocation: Arquitectura - MuroCortina
-   Workbenches: [Arquitectura](Arch_Workbench/es.md)
+   MenuLocation: Arquitectura -> MuroCortina
+   Workbenches: Arch_Workbench/es
    Shortcut: **C** **W**
    Version: 0.19
-   SeeAlso: [Arquitectura Muro](Arch_Wall/es.md), [Arquitecturah Rejilla](Arch_Grid/es.md)
+   SeeAlso: Arch Wall/es, Arch Grid/es
 ---
 
 # Arch CurtainWall/es

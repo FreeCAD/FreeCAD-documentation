@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std TreeDrag
    Name/fr: Std Arborescence Déplacement
-   MenuLocation: Affichage - Vue en arborescence - Commencer un déplacement
+   MenuLocation: Affichage -> Vue en arborescence -> Commencer un déplacement
    Workbenches: Tous
    Shortcut: **T** **D**
    Version: 0.19

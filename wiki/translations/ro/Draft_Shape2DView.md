@@ -3,7 +3,7 @@
    Name: Draft Shape2DView
    Name/ro: Draft Shape2DView
    MenuLocation: Draft -> Shape 2D View
-   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
 ---
 
 # Draft Shape2DView/ro

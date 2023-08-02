@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher Trimming
    Name/pl: Szkicownik: Przytnij krawędź
-   MenuLocation: Szkic - Elementy geometryczne szkicownika - Przytnij krawędź
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   MenuLocation: Szkic -> Elementy geometryczne szkicownika -> Przytnij krawędź
+   Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **T**
    Version: 0.12
-   SeeAlso: [Rozszerz krawędź](Sketcher_Extend/pl.md)
+   SeeAlso: Sketcher_Extend/pl
 ---
 
 # Sketcher Trimming/pl

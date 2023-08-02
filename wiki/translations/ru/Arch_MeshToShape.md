@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch MeshToShape
    Name/ru: Arch MeshToShape
-   MenuLocation: Архитектура - Утилиты - Сетка в фигуру
-   Workbenches: [Arch](Arch_Workbench/ru.md)
-   SeeAlso: [Arch SplitMesh](Arch_SplitMesh/ru.md), [Удалить форму из Архитектуры](Arch_RemoveShape/ru.md)
+   MenuLocation: Архитектура -> Утилиты -> Сетка в фигуру
+   Workbenches: Arch_Workbench/ru
+   SeeAlso: Arch SplitMesh/ru, Arch RemoveShape/ru
 ---
 
 # Arch MeshToShape/ru

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Mesh Merge
-   MenuLocation: Meshes - Merge
-   Workbenches: [Mesh](Mesh_Workbench.md)
-   SeeAlso: [Mesh SplitComponents](Mesh_SplitComponents.md)
+   MenuLocation: Meshes -> Merge
+   Workbenches: Mesh_Workbench
+   SeeAlso: Mesh_SplitComponents
 ---
 
 # Mesh Merge

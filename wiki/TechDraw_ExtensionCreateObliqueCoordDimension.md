@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: TechDraw ExtensionCreateObliqueCoordDimension
-   MenuLocation: TechDraw - Extensions: Dimensions - Create Oblique Coordinate Dimensions
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   MenuLocation: TechDraw -> Extensions: Dimensions -> Create Oblique Coordinate Dimensions
+   Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20
-   SeeAlso: [TechDraw ExtensionCreateHorizCoordDimension](TechDraw_ExtensionCreateHorizCoordDimension.md), [TechDraw ExtensionCreateVertCoordDimension](TechDraw_ExtensionCreateVertCoordDimension.md)
+   SeeAlso: TechDraw_ExtensionCreateHorizCoordDimension, TechDraw_ExtensionCreateVertCoordDimension
 ---
 
 # TechDraw ExtensionCreateObliqueCoordDimension

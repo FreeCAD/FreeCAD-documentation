@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Mesh Evaluation
    Name/de: Netz Auswertung
-   MenuLocation: Netze - Analyse - Netz auswerten und reparieren...
-   Workbenches: [Netz](Mesh_Workbench/de.md)
+   MenuLocation: Netze -> Analyse -> Netz auswerten und reparieren...
+   Workbenches: Mesh_Workbench/de
 ---
 
 # Mesh Evaluation/de

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Sketcher Snap
    Name/fr: Sketcher Aimantation
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Workbenches: Sketcher_Workbench/fr
    Version: 0.21
-   SeeAlso: [Sketcher Grille](Sketcher_Grid/fr.md)
+   SeeAlso: Sketcher_Grid/fr
 ---
 
 # Sketcher Snap/fr

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: OpenSCAD Minkowski
    Name/fr: OpenSCAD Somme de Minkowski
-   MenuLocation: OpenSCAD - Minkowski
-‏‎   Workbenches: [OpenSCAD](OpenSCAD_Workbench/fr.md)
+   MenuLocation: OpenSCAD -> Minkowski
+‏‎   Workbenches: OpenSCAD_Workbench/fr
 ---
 
 # OpenSCAD Minkowski/fr

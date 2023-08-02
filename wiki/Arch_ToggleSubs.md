@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Arch ToggleSubs
-   MenuLocation: Arch - Utilities - Toggle Subcomponents
-   Workbenches: [Arch](Arch_Workbench.md)
+   MenuLocation: Arch -> Utilities -> Toggle Subcomponents
+   Workbenches: Arch_Workbench
    Shortcut: Ctrl + Space
-   SeeAlso: [Arch Component](Arch_Component.md)
+   SeeAlso: Arch_Component
 ---
 
 # Arch ToggleSubs

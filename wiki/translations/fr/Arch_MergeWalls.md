@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch MergeWalls
    Name/fr: Arch Fusionner des murs
-   MenuLocation: Arch - Utilitaires - Fusionner des murs
-   Workbenches: [Arch](Arch_Workbench/fr.md)
-   SeeAlso: [Arch Murs](Arch_Wall/fr.md)
+   MenuLocation: Arch -> Utilitaires -> Fusionner des murs
+   Workbenches: Arch_Workbench/fr
+   SeeAlso: Arch_Wall/fr
 ---
 
 # Arch MergeWalls/fr

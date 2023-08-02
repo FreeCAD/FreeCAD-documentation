@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std DlgCustomize
    Name/pl: Std: Dostosuj
-   MenuLocation: Przybory - Dostosuj ...
+   MenuLocation: Przybory -> Dostosuj ...
    Workbenches: wszystkie
-   SeeAlso: [Dostosowywanie interfejsu użytkownika](Interface_Customization/pl.md)
+   SeeAlso: Interface_Customization/pl
 ---
 
 # Std DlgCustomize/pl

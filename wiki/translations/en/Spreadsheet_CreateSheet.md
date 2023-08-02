@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Spreadsheet CreateSheet
-   MenuLocation: Spreadsheet - Create spreadsheet
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench.md)
+   MenuLocation: Spreadsheet -> Create spreadsheet
+   Workbenches: Spreadsheet_Workbench
    Version: 0.17
 ---
 

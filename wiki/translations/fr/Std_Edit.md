@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std_Edit
    Name/fr: Std Bascule mode édition
-   MenuLocation: Édition - Basculer le mode d'édition
+   MenuLocation: Édition -> Basculer le mode d'édition
    Workbenches: Tous
-   SeeAlso: [Std Mode d'édition](Std_UserEditMode/fr.md)
+   SeeAlso: Std_UserEditMode/fr
 ---
 
 # Std Edit/fr

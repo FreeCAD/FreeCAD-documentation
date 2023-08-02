@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Std DebugInto
    Name/fr: Std Pénétrer dans
-   MenuLocation: Macro  - Pénétrer dans
+   MenuLocation: Macro  -> Pénétrer dans
    Empty: 1
    Workbenches: Tous
    Shortcut: **F11**
-   SeeAlso: [Std Passer outre](Std_MacroStepOver/fr.md), [Std Basculer le point d'arrêt](Std_ToggleBreakpoint/fr.md)
+   SeeAlso: Std_MacroStepOver/fr, Std_ToggleBreakpoint/fr
 ---
 
 # Std MacroStepInto/fr

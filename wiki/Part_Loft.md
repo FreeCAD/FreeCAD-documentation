@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Part Loft
-   MenuLocation: Part - Loft...
-   Workbenches: [Part](Part_Workbench.md)
+   MenuLocation: Part -> Loft...
+   Workbenches: Part_Workbench
    Version: 0.13
-   SeeAlso: [Part Sweep](Part_Sweep.md)
+   SeeAlso: Part_Sweep
 ---
 
 # Part Loft

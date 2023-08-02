@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft FlipDimension
    Name/pl: Rysunek Roboczy: Obróć wymiar
-   MenuLocation: Modyfikacja - Obróć wymiar
-   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   MenuLocation: Modyfikacja -> Obróć wymiar
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
 
 ---
 

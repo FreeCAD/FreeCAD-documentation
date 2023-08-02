@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM_ConstraintGear
    Name/it: Vincolo ingranaggio
-   MenuLocation: Modello - Vincoli meccanici - Vincolo ingranaggio
-   Workbenches: [FEM](FEM_Workbench/it.md)
+   MenuLocation: Modello -> Vincoli meccanici -> Vincolo ingranaggio
+   Workbenches: FEM_Workbench/it
    Shortcut: 
-   SeeAlso: [Tutorial FEM](FEM_tutorial/it.md)
+   SeeAlso: FEM_tutorial/it
 ---
 
 # FEM ConstraintGear/it

@@ -1,6 +1,6 @@
 # Mesh Difference/ro
 ---
-- GuiCommand:   Name: Mesh Difference   MenuLocation: Meshes - Boolean - Difference   Workbenches: [[Mesh Workbench   Mesh]]|Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: Mesh Difference   MenuLocation: Meshes -> Boolean -> Difference   Workbenches: Mesh Workbench   Mesh|Shortcut:    SeeAlso: ---
 
 
 </div>

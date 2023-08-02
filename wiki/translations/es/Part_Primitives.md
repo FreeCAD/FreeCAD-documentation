@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Primitives
    Name/es: Part Crear Primitivas
-   MenuLocation: Pieza - Crear primitivas...
-   |Workbenches: [Part](Part_Workbench/es.md)
-   SeeAlso: [Part Shapebuilder](Part_Builder.md)
+   MenuLocation: Pieza -> Crear primitivas...
+   
+   SeeAlso: Part_Builder
 ---
 
 # Part Primitives/es

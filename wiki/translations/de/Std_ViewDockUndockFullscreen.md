@@ -4,9 +4,9 @@
    Name: Std AuswahlDokumentfenster
    Name/de: Std AuswahlDokumentfenster
    Empty: 1
-   MenuLocation: Ansicht - Dokumentfenster - Angedockt/Abgedockt/Vollbild
+   MenuLocation: Ansicht -> Dokumentfenster -> Angedockt/Abgedockt/Vollbild
    Workbenches: Alle
-   SeeAlso: [Std Neue Ansicht‏‎](Std_ViewCreate/de.md), [Std AnsichtAufnehmen](Std_ViewScreenShot/de.md), [Std AnsichtenEinfrieren‏‎](Std_FreezeViews/de.md), [Std Menü Fenster](Std_Windows_Menu/de.md)
+   SeeAlso: Std ViewCreate/de, Std ViewScreenShot/de, Std_FreezeViews/de, Std_Windows_Menu/de
 ---
 
 # Std ViewDockUndockFullscreen/de

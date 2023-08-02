@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintCoincidence
    Name/fr: Assembly3 Contrainte de coïncidence
    Icon: Assembly_ConstraintCoincidence.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 ConstraintCoincidence/fr

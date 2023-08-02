@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: EM FHInputFile
-   MenuLocation: EM - FHInputFile
-   Workbenches: [EM](EM_Workbench.md)
+   MenuLocation: EM -> FHInputFile
+   Workbenches: EM Workbench
    Shortcut: **E** **I**
    Version: 0.17
-   SeeAlso: [EM FHSolver](EM_FHSolver.md)
+   SeeAlso: EM_FHSolver
 ---
 
 # EM FHInputFile

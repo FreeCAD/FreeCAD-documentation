@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name/de: Std Fenster
-   MenuLocation: Fenster - Fenster...
+   MenuLocation: Fenster -> Fenster...
    Workbenches: Alle
-   SeeAlso: [Std NächstesFensterAktivieren](Std_ActivateNextWindow/de.md), [Std VorherigesFensterAktivieren](Std_ActivatePrevWindow/de.md)
+   SeeAlso: Std_ActivateNextWindow/de, Std_ActivatePrevWindow/de
 ---
 
 # Std Windows/de

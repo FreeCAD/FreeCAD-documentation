@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Assembly3 SmartRecompute
    Icon: Assembly_SmartRecompute.svg‎‎
-   MenuLocation: Assembly3 - Smart recompute
-   Workbenches: [Assembly3](Assembly3_Workbench.md)
+   MenuLocation: Assembly3 -> Smart recompute
+   Workbenches: Assembly3_Workbench
 ---
 
 # Assembly3 SmartRecompute/pl

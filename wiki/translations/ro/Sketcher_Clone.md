@@ -8,10 +8,10 @@
    Name/it: Sketcher Clona
    Name/ro: Sketcher Clonă
    Name/ru: Sketcher Клонировать
-   Workbenches: [Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation: Sketch - Sketcher tools - Clonă
+   Workbenches: Sketcher Workbench/ro
+   MenuLocation: Sketch -> Sketcher tools -> Clonă
    Version: 0.16
-   SeeAlso: [Sketcher Copiere](Sketcher_Copy/ro.md), [Sketcher Move](Sketcher_Move/ro.md)
+   SeeAlso: Sketcher Copy/ro, Sketcher Move/ro
 ---
 
 # Sketcher Clone/ro

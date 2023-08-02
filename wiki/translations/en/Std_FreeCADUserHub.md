@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Std FreeCADUserHub
-   MenuLocation: Help - Users documentation
+   MenuLocation: Help -> Users documentation
    Workbenches: All
-   SeeAlso: [Std FreeCADWebsite](Std_FreeCADWebsite.md), [Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub.md), [Std FreeCADForum](Std_FreeCADForum.md), [Std FreeCADFAQ](Std_FreeCADFAQ.md)
+   SeeAlso: Std_FreeCADWebsite, Std_FreeCADPowerUserHub, Std_FreeCADForum, Std_FreeCADFAQ
 ---
 
 # Std FreeCADUserHub/en

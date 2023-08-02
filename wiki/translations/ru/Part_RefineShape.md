@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/ru: Улучшить форму
    Name: Part_RefineShape
-   MenuLocation: Деталь - Создать копию - Refine Shape
-   Workbenches: [Part](Part_Workbench/ru.md)
-   SeeAlso: [Создать простую копию](Part_SimpleCopy/ru.md), [Создать преобразованную копию](Part_TransformedCopy/ru.md), [Создать копию элемента формы](Part_ElementCopy/ru.md), [Элемент закрепления фигуры](OpenSCAD_RefineShapeFeature/ru.md)
+   MenuLocation: Деталь -> Создать копию -> Refine Shape
+   Workbenches: Part_Workbench/ru
+   SeeAlso: Part_SimpleCopy/ru, Part_TransformedCopy/ru, Part_ElementCopy/ru, OpenSCAD_RefineShapeFeature/ru
 ---
 
 # Part RefineShape/ru

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft AutoGroup
    Empty: 1
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Workbenches: Draft_Workbench, Arch_Workbench
    Version: 0.17
-   SeeAlso: [Draft Layer](Draft_Layer.md), [Std Group](Std_Group.md)
+   SeeAlso: Draft_Layer, Std_Group
 ---
 
 # Draft AutoGroup/ru

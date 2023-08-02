@@ -1,6 +1,6 @@
 # Part Torus/sv
 ---
-- GuiCommand:   Name: Part Torus   Name/sv: Part Torus   MenuLocation: Part -> Torus   |Workbenches: [SeeAlso: [[Part_CreatePrimitives/sv|Part_CreatePrimitives](Part_Workbench/sv___Part_Module]],Complete.md)---
+- GuiCommand:   Name: Part Torus   Name/sv: Part Torus   MenuLocation: Part -> Torus   ,Complete---
 
 
 </div>

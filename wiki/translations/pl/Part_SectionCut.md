@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part SectionCut
    Name/pl: Część: Wycinek przekroju
-   MenuLocation: Widok - Wycinek z przekroju
+   MenuLocation: Widok -> Wycinek z przekroju
    Workbenches: All
    Version: 0.20
-   SeeAlso: [[Std_ToggleClipPlane/pl]]
+   SeeAlso: Std_ToggleClipPlane/pl
 ---
 
 # Part SectionCut/pl

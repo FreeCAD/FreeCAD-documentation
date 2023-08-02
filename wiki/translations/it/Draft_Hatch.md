@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Hatch
    Name/it: Tratteggio
-   MenuLocation: Drafting - Tratteggio
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Drafting -> Tratteggio
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **H** **A**
    Version: 0.20
-   SeeAlso: [Campitura](Draft_Pattern/it.md)
+   SeeAlso: Draft_Pattern/it
 ---
 
 # Draft Hatch/it

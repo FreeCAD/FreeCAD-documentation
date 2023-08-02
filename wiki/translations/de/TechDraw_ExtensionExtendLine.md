@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ExtensionExtendLine
    Name/de: TechDraw ErgänzungLinieVerlängern
-   MenuLocation: TechDraw - Extensions: Attributes/Modifications - Extend Line
-   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   MenuLocation: TechDraw -> Extensions: Attributes/Modifications -> Extend Line
+   Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20
-   SeeAlso: [TechDraw ErgänzungLinieKürzen](TechDraw_ExtensionShortenLine/de.md)
+   SeeAlso: TechDraw_ExtensionShortenLine/de
 ---
 
 # TechDraw ExtensionExtendLine/de

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Создать опорную плоскость
    Name: PartDesign_Plane
-   MenuLocation: Part Design - Create a datum - Создать опорную плоскость
-   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   MenuLocation: Part Design -> Create a datum -> Создать опорную плоскость
+   Workbenches: PartDesign_Workbench/ru
    Version: 0.17
-   SeeAlso: [Создать опорную точку](PartDesign_Point/ru.md), [Создать опорный отрезок](PartDesign_Line/ru.md)
+   SeeAlso: PartDesign_Point/ru, PartDesign_Line/ru
 ---
 
 # PartDesign Plane/ru

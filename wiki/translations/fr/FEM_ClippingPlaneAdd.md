@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: FEM ClippingPlaneAdd
    Name/fr: FEM Plan de coupe
-   MenuLocation: Utilitaires - Plan de coupe
-   Workbenches: [FEM](FEM_Workbench/fr.md)
-   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
+   MenuLocation: Utilitaires -> Plan de coupe
+   Workbenches: FEM_Workbench/fr
+   SeeAlso: FEM_tutorial/fr
 ---
 
 # FEM ClippingPlaneAdd/fr

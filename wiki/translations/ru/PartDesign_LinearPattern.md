@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/ru: Линейный массив
    Name: PartDesign_LinearPattern
-   MenuLocation: Part Design - Apply a pattern - Линейный массив
-   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
-   SeeAlso: [Множественное преобразование](PartDesign_MultiTransform/ru.md)
+   MenuLocation: Part Design -> Apply a pattern -> Линейный массив
+   Workbenches: PartDesign_Workbench/ru
+   SeeAlso: PartDesign_MultiTransform/ru
 ---
 
 # PartDesign LinearPattern/ru

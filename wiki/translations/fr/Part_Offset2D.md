@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part Offset2D
    Name/fr: Part Décalage 2D
-   MenuLocation: Part - Décalage 2D...
-   Workbenches: [Part](Part_Workbench/fr.md)
+   MenuLocation: Part -> Décalage 2D...
+   Workbenches: Part_Workbench/fr
    Version: 0.17
-   SeeAlso: [Part Décalage 3D](Part_Offset/fr.md), [Part Évidement](Part_Thickness/fr.md), [Draft Décalage](Draft_Offset/fr.md)
+   SeeAlso: Part_Offset/fr, Part_Thickness/fr, Draft_Offset/fr
 ---
 
 # Part Offset2D/fr

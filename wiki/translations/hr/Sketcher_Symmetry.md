@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Sketcher Symmetry
-   MenuLocation: Sketch - Sketcher tools - Symmetry
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch -> Sketcher tools -> Symmetry
+   Workbenches: Sketcher_Workbench
    Shortcut: **Z** **S**
    Version: 0.16
-   SeeAlso: [Sketcher MirrorSketch](Sketcher_MirrorSketch.md)
+   SeeAlso: Sketcher_MirrorSketch
 ---
 
 # Sketcher Symmetry/hr

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: FEM PostFilterCutFunction
-   MenuLocation: Results - Function cut filter
-   Workbenches: [FEM](FEM_Workbench.md)
-   SeeAlso: [FEM Result pipeline](FEM_PostPipelineFromResult.md), [FEM Filter functions](FEM_PostCreateFunctions.md), [FEM tutorial](FEM_tutorial.md)
+   MenuLocation: Results -> Function cut filter
+   Workbenches: FEM_Workbench
+   SeeAlso: FEM_PostPipelineFromResult, FEM_PostCreateFunctions, FEM_tutorial
 ---
 
 # FEM PostFilterCutFunction

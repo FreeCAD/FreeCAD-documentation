@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Fillet
    Name/pl: Część: Zaokrąglenie
-   MenuLocation: Część - Zaokrąglenie ...
-   Workbenches: [Część](Part_Workbench/pl.md)
-   SeeAlso: [Sfazowanie](Part_Chamfer/pl.md)
+   MenuLocation: Część -> Zaokrąglenie ...
+   Workbenches: Part_Workbench/pl
+   SeeAlso: Part_Chamfer/pl
 ---
 
 # Part Fillet/pl

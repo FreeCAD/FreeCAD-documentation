@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintPointPlaneDistance
    Name/de: Assembly3 PunktZuEbeneAbstand
    Icon: Assembly_ConstraintPointPlaneDistance.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 ConstraintPointPlaneDistance/de

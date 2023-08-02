@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: View Measure Clear All
    Name/ru: View Measure Clear All
-   MenuLocation: Вид - Видимость - Удалить замер
+   MenuLocation: Вид -> Видимость -> Удалить замер
    Workbenches: All
-   SeeAlso: [View Measure Toggle All](View_Measure_Toggle_All/ru.md), [Part Measure Toggle All](Part_Measure_Toggle_All/ru.md), [Part Measure Clear All](Part_Measure_Clear_All/ru.md)
+   SeeAlso: View_Measure_Toggle_All/ru, Part_Measure_Toggle_All/ru, Part_Measure_Clear_All/ru
 ---
 
 # View Measure Clear All/ru

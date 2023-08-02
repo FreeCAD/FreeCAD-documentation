@@ -3,8 +3,8 @@
    Name: Assembly3 ImportMultiDocument
    Name/fr: Assembly3 Importer plusieurs documents
    Icon: Assembly_Import.svg
-   MenuLocation: Assembly3 - Import from STEP - Import as multi-document
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   MenuLocation: Assembly3 -> Import from STEP -> Import as multi-document
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 ImportMultiDocument/fr

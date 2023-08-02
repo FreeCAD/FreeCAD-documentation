@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher_BSplineIncreaseKnotMultiplicity
    Name/it: Aumenta la molteplicità di nodo
-   MenuLocation: Sketch - Strumeti B-spline - Aumenta la molteplicità di nodo
-   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation: Sketch -> Strumeti B-spline -> Aumenta la molteplicità di nodo
+   Workbenches: Sketcher Workbench/it
    Version: 0.17
-   SeeAlso: [Crea B-spline](Sketcher_CompCreateBSpline/it.md)
+   SeeAlso: Sketcher CompCreateBSpline/it
 ---
 
 # Sketcher BSplineIncreaseKnotMultiplicity/it

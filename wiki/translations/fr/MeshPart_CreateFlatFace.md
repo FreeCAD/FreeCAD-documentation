@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: MeshPart CreateFlatFace
    Name/fr: Mesh Développer une face
-   MenuLocation: Maillages - Développer une face
-   Workbenches: [Mesh](Mesh_Workbench/fr.md)
-   SeeAlso: [Mesh Développer un maillage](MeshPart_CreateFlatMesh/fr.md)
+   MenuLocation: Maillages -> Développer une face
+   Workbenches: Mesh_Workbench/fr
+   SeeAlso: MeshPart_CreateFlatMesh/fr
 ---
 
 # MeshPart CreateFlatFace/fr

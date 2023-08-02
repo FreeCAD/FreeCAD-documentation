@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Part ElementCopy
-   MenuLocation: Part - Create a copy - Create shape element copy
-   Workbenches: [Part](Part_Workbench.md)
+   MenuLocation: Part -> Create a copy -> Create shape element copy
+   Workbenches: Part_Workbench
    Version: 0.19
-   SeeAlso: [Part SimpleCopy](Part_SimpleCopy.md), [Part TransformedCopy](Part_TransformedCopy.md), [Part RefineShape](Part_RefineShape.md)
+   SeeAlso: Part_SimpleCopy, Part_TransformedCopy, Part_RefineShape
 ---
 
 # Part ElementCopy

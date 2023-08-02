@@ -3,9 +3,9 @@
    Name: PartDesign InvoluteGear
    Name/pl: Projekt Części: Koło zębate ewolwentowe
    Icon: PartDesign_InternalExternalGear.svg
-   MenuLocation: Projekt Części - Koło zębate ewolwentowe ...
-   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
-   SeeAlso: [FCGear](FCGear_Workbench/pl.md)
+   MenuLocation: Projekt Części -> Koło zębate ewolwentowe ...
+   Workbenches: PartDesign_Workbench/pl
+   SeeAlso: FCGear_Workbench/pl
 ---
 
 # PartDesign InvoluteGear/pl

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch Roof
    Name/ro: Arch Roof
-   MenuLocation: Arch - Roof
-   Workbenches: [Arch](Arch_Workbench/ro.md)
+   MenuLocation: Arch -> Roof
+   Workbenches: Arch_Workbench/ro
    Shortcut: R F
-   SeeAlso: [[Arch Structure]], [[Arch Wall]]
+   SeeAlso: Arch Structure, Arch Wall
 ---
 
 # Arch Roof/ro

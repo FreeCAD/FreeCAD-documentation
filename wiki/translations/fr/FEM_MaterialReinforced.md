@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: FEM MaterialReinforced
    Name/fr: FEM Matériau renforcé
-   MenuLocation: Modèle - Matériaux - Matériau renforcé (type béton)
-   Workbenches: [FEM](FEM_Workbench/fr.md)
-   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
+   MenuLocation: Modèle -> Matériaux -> Matériau renforcé 
+   Workbenches: FEM_Workbench/fr
+   SeeAlso: FEM_tutorial/fr
 ---
 
 # FEM MaterialReinforced/fr

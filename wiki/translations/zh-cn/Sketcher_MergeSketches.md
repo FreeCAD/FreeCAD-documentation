@@ -1,8 +1,8 @@
 ---
 - GuiCommand:-cn
    Name: 合并草图
-   MenuLocation: Sketch - 合并草图
-   Workbenches: [Sketcher](Sketcher_Workbench/zh-cn.md)
+   MenuLocation: Sketch -> 合并草图
+   Workbenches: Sketcher_Workbench/zh-cn
    Version: 0.15
 ---
 

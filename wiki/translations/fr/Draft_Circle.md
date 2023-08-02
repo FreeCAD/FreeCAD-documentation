@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Circle
    Name/fr: Draft Cercle
-   MenuLocation: Draft - Cercle
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Draft -> Cercle
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **C** **I**
    Version: 0.7
-   SeeAlso: [Draft Arc](Draft_Arc/fr.md), [Draft Arc par 3 points](Draft_Arc_3Points/fr.md)
+   SeeAlso: Draft_Arc/fr, Draft_Arc_3Points/fr
 ---
 
 # Draft Circle/fr

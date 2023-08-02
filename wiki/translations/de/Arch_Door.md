@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/de: [Arch Tür](Arch_Door/de.md)
-   MenuLocation: Arch - Fenster
-   Workbenches: [Arch](Arch_Workbench/de.md)
+   Name/de: Arch_Door/de
+   MenuLocation: Arch -> Fenster
+   Workbenches: Arch_Workbench/de
    Shortcut: **W** **I**
-   SeeAlso: [Wand](Arch_Wall/de.md), [Fenster](Arch_Window/de.md)
+   SeeAlso: Arch_Wall/de, Arch_Window/de
    Icon: Arch_Window.svg
 ---
 

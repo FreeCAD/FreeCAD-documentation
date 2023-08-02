@@ -1,6 +1,6 @@
 # Sketcher RectangularArray/es
 ---
-- GuiCommand:   Name: Sketcher RectangularArray   Workbenches: [PartDesign](Sketcher_Workbench/es___Sketcher]],_[[PartDesign_Workbench/es.md)|MenuLocation: Sketch - Sketcher tools - Rectangular Array   Version: 0.16---
+- GuiCommand:   Name: Sketcher RectangularArray   Workbenches: Sketcher Workbench/es   Sketcher, PartDesign Workbench/es|MenuLocation: Sketch -> Sketcher tools -> Rectangular Array   Version: 0.16---
 
 
 </div>

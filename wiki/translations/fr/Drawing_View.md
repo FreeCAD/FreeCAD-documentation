@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Drawing View
    Name/fr: Drawing Insérer une vue
-   Workbenches: [Drawing](Drawing_Workbench/fr.md)
-   MenuLocation: Drawing - Insérer une vue dans la page
+   Workbenches: Drawing Workbench/fr
+   MenuLocation: Drawing -> Insérer une vue dans la page
    Shortcut: 
-   SeeAlso: [Feuille A3 Paysage](Drawing_Landscape_A3/fr.md)
+   SeeAlso: Drawing_Landscape_A3/fr
 ---
 
 # Drawing View/fr

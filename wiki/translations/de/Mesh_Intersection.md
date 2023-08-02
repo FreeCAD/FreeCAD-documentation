@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Mesh Intersection
    Name/de: Mesh Intersection
-   MenuLocation: Netze - Boolesche Verknüpfungen - Schnitt
-   Workbenches: [Mesh](Mesh_Workbench/de.md)
-   SeeAlso: [Mesh Vereinigung](Mesh_Union/de.md), [Mesh Differenz](Mesh_Difference/de.md)
+   MenuLocation: Netze -> Boolesche Verknüpfungen -> Schnitt
+   Workbenches: Mesh_Workbench/de
+   SeeAlso: Mesh_Union/de, Mesh_Difference/de
 ---
 
 # Mesh Intersection/de

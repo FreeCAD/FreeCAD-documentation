@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Sketcher ConstrainRadius
-   MenuLocation: Sketch - Sketcher constraints - Constrain radius or weight
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch -> Sketcher constraints -> Constrain radius or weight
+   Workbenches: Sketcher_Workbench
    Shortcut: **K** **R**
-   SeeAlso: [Sketcher Constrain distance](Sketcher_ConstrainDistance.md), [Sketcher Constrain horizontal distance](Sketcher_ConstrainDistanceX.md), [Sketcher Constrain vertical distance](Sketcher_ConstrainDistanceY.md)
+   SeeAlso: Sketcher_ConstrainDistance, Sketcher_ConstrainDistanceX, Sketcher_ConstrainDistanceY
 ---
 
 # Sketcher ConstrainRadius

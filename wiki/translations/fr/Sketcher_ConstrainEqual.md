@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ConstrainEqual
    Name/fr: Sketcher Contrainte d'égalité
-   MenuLocation: Esquisse - Contraintes d'esquisse - Contrainte d'égalité
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   MenuLocation: Esquisse -> Contraintes d'esquisse -> Contrainte d'égalité
+   Workbenches: Sketcher_Workbench/fr
    Shortcut: **E**
-   SeeAlso: [Sketcher Contrainte rayon](Sketcher_ConstrainRadius/fr.md)
+   SeeAlso: Sketcher_ConstrainRadius/fr
 ---
 
 # Sketcher ConstrainEqual/fr

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Sketcher MapSketch
    Name/de: Sketcher SkizzeZuordnen
-   MenuLocation: Sketch (Sketcher)/Skizze (Part Design) - Skizze einer Fläche zuordnen...
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso: [Sketcher NeueSkizze](Sketcher_NewSketch/de.md)
+   MenuLocation: Sketch /Skizze  -> Skizze einer Fläche zuordnen...
+   Workbenches: Sketcher_Workbench/de, PartDesign_Workbench/de
+   SeeAlso: Sketcher_NewSketch/de
 ---
 
 # Sketcher MapSketch/de

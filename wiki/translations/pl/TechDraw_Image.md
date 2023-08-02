@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw Image
    Name/pl: Rysunek Techniczny: Wstaw obraz bitmapy
-   MenuLocation: Rysunek Techniczny - Wstaw obraz bitmapy
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso: [Wstaw symbol SVG](TechDraw_Symbol/pl.md)
+   MenuLocation: Rysunek Techniczny -> Wstaw obraz bitmapy
+   Workbenches: TechDraw_Workbench/pl
+   SeeAlso: TechDraw_Symbol/pl
 ---
 
 # TechDraw Image/pl

@@ -3,7 +3,7 @@
    Name: PartDesign_Revolution
    Name/es: DiseñoPiezas Rotación
    MenuLocation: DiseñoPiezas -> Rotación
-   Workbenches: [DiseñoPiezas](PartDesign_Workbench/es.md)
+   Workbenches: PartDesign Workbench/es
 ---
 
 # PartDesign Revolution/es

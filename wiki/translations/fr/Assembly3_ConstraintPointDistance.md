@@ -3,8 +3,8 @@
    Name: Assembly3 ConstraintPointDistance
    Name/fr: Assembly3 Contrainte distance d'un point
    Icon: Assembly_ConstraintPointDistance.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
-   SeeAlso: [Assembly3 Contrainte distance entre points](Assembly3_ConstraintPointsDistance/fr.md)
+   Workbenches: Assembly3_Workbench/fr
+   SeeAlso: Assembly3_ConstraintPointsDistance/fr
 ---
 
 # Assembly3 ConstraintPointDistance/fr

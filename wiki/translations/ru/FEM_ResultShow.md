@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM ResultShow
    Name/ru: FEM ShowResult
-   MenuLocation: Results - Показать результаты
-   Workbenches: [FEM](FEM_Workbench/ru.md)
+   MenuLocation: Results -> Показать результаты
+   Workbenches: FEM_Workbench/ru
    Shortcut: **S** **R**
-   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
+   SeeAlso: FEM_tutorial/ru
 ---
 
 # FEM ResultShow/ru

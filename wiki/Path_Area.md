@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Path Area
-   MenuLocation: Path - Area
-   Workbenches: [Path](Path_Workbench.md)
+   MenuLocation: Path -> Area
+   Workbenches: Path_Workbench
 ---
 
 # Path Area

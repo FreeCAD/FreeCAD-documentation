@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw LengthDimension
    Name/fr: TechDraw Cote de longueur
-   MenuLocation: TechDraw - Dimensions - Insérer une cote de longueur
-   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso: [TechDraw Cote horizontale](TechDraw_HorizontalDimension/fr.md), [TechDraw Cote verticale](TechDraw_VerticalDimension/fr.md)
+   MenuLocation: TechDraw -> Dimensions -> Insérer une cote de longueur
+   Workbenches: TechDraw_Workbench/fr
+   SeeAlso: TechDraw_HorizontalDimension/fr, TechDraw_VerticalDimension/fr
 ---
 
 # TechDraw LengthDimension/fr

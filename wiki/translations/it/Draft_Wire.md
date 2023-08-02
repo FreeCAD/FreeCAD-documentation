@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Wire
    Name/it: Polilinea
-   MenuLocation: Drafting - Polilinea
-   Workbenches: [Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
+   MenuLocation: Drafting -> Polilinea
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **P** **L**
    Version: 0.7
-   SeeAlso: [Linea](Draft_Line/it.md), [BSpline](Draft_BSpline/it.md)
+   SeeAlso: Draft_Line/it, Draft_BSpline/it
 ---
 
 # Draft Wire/it

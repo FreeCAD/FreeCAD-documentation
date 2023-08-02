@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Arch Pipe   Name/ro: Arch: Pipe/Țeavă
-   MenuLocation: Arch - Pipe Tools - Pipe
-   Workbenches: [Arch](Arch_Workbench/ro.md)
+   MenuLocation: Arch -> Pipe Tools -> Pipe
+   Workbenches: Arch_Workbench/ro
    Shortcut: **P** **I**
    Version: 0.17
-   SeeAlso: [Arch PipeConnector](Arch_PipeConnector/ro.md), [Arch Equipment](Arch_Equipment/ro.md)
+   SeeAlso: Arch PipeConnector/ro, Arch Equipment/ro
 ---
 
 # Arch Pipe/ro

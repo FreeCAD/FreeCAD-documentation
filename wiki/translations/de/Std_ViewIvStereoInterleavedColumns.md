@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std ViewIvStereoInterleavedColumns
    Name/de: Std AnsichtStereoVersetzteSpalten
-   MenuLocation: Ansicht - Stereo - Vertikales Interlacing
+   MenuLocation: Ansicht -> Stereo -> Vertikales Interlacing
    Workbenches: Alle
-   SeeAlso: [Std AnsichtStereoRotGrün](Std_ViewIvStereoRedGreen/de.md), [Std AnsichtStereoVierfachPuffer](Std_ViewIvStereoQuadBuff/de.md), [Std AnsichtStereoVersetzteZeilen](Std_ViewIvStereoInterleavedRows/de.md), [Std AnsichtStereoAus](Std_ViewIvStereoOff/de.md)
+   SeeAlso: Std_ViewIvStereoRedGreen/de, Std_ViewIvStereoQuadBuff/de, Std_ViewIvStereoInterleavedRows/de, Std_ViewIvStereoOff/de
 ---
 
 # Std ViewIvStereoInterleavedColumns/de

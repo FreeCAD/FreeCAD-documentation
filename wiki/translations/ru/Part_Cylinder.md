@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name/ru: Цилиндр
-   MenuLocation: Деталь - Примитивы - Цилиндр
-   Workbenches: [Part](Part_Workbench/ru.md)
-   SeeAlso: [Создать примитивы](Part_Primitives/ru.md)
+   MenuLocation: Деталь -> Примитивы -> Цилиндр
+   Workbenches: Part_Workbench/ru
+   SeeAlso: Part_Primitives/ru
 ---
 
 # Part Cylinder/ru

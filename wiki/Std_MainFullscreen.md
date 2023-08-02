@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Std MainFullscreen
-   MenuLocation: View - Fullscreen
+   MenuLocation: View -> Fullscreen
    Workbenches: All
    Shortcut: **Alt**+**F11**
-   SeeAlso: [Std ViewFullscreen](Std_ViewFullscreen.md)
+   SeeAlso: Std_ViewFullscreen
 ---
 
 # Std MainFullscreen

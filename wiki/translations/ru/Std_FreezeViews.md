@@ -3,9 +3,9 @@
    Name: Std FreezeViews
    Name/ru: Std FreezeViews
    Empty: 1
-   MenuLocation: Вид - Положения камеры - ...
+   MenuLocation: Вид -> Положения камеры -> ...
    Workbenches: All
-   SeeAlso: [Std ViewIvIssueCamPos](Std_ViewIvIssueCamPos/ru.md)
+   SeeAlso: Std_ViewIvIssueCamPos/ru
 ---
 
 # Std FreezeViews/ru

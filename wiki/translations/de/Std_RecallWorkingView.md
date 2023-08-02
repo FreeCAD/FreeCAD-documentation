@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Std RecallWorkingView
    Name/de: Std ArbeitsansichtWiederherstellen
-   MenuLocation: Ansicht - Standardansichten - Arbeitsansicht wiederherstellen
+   MenuLocation: Ansicht -> Standardansichten -> Arbeitsansicht wiederherstellen
    Workbenches: Alle
    Shortcut: **End**
    Version: 0.21
-   SeeAlso: [Std ArbeitsansichtSpeichern](Std_StoreWorkingView/de.md), [Std AnsichtenEinfrieren](Std_FreezeViews/de.md)
+   SeeAlso: Std_StoreWorkingView/de, Std_FreezeViews/de
 ---
 
 # Std RecallWorkingView/de

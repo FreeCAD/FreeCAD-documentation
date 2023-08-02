@@ -1,6 +1,6 @@
 # Draft Array/sv
 ---
-- GuiCommand:   Name: Draft Array   Name/sv: Draft Array   Workbenches: [Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation: Draft - Array   SeeAlso: [PathArray](Draft_PathArray/sv.md)---
+- GuiCommand:   Name: Draft Array   Name/sv: Draft Array   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv---
 
 
 </div>

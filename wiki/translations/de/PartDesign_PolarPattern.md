@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: PartDesign PolarPattern
    Name/de: PartDesign PolaresMuster
-   MenuLocation: Part Design - Muster anwenden - Polares Muster
-   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso: [PartDesign MehrfachTransformation](PartDesign_MultiTransform/de.md)
+   MenuLocation: Part Design -> Muster anwenden -> Polares Muster
+   Workbenches: PartDesign_Workbench/de
+   SeeAlso: PartDesign_MultiTransform/de
 ---
 
 # PartDesign PolarPattern/de

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: TechDraw HorizontalDimension
    Name/fr: TechDraw Cote horizontale
-   MenuLocation: TechDraw - Dimensions - Insérer une cote horizontale
-   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   MenuLocation: TechDraw -> Dimensions -> Insérer une cote horizontale
+   Workbenches: TechDraw_Workbench/fr
    Shortcut: **Maj** + **H**
-   SeeAlso: [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md), [TechDraw Cote verticale](TechDraw_VerticalDimension/fr.md)
+   SeeAlso: TechDraw_LengthDimension/fr, TechDraw_VerticalDimension/fr
 ---
 
 # TechDraw HorizontalDimension/fr

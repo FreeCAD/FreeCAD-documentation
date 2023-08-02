@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Scale
    Name/es: Draft Scale
-   Workbenches: [Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Workbenches: Draft_Workbench/es, Arch_Workbench/es
    MenuLocation: Croquis -> Escala
    Shortcut: **S** **C**
-   SeeAlso: [Clonar](Draft_Clone/es.md)
+   SeeAlso: Draft Clone/es
 ---
 
 # Draft Scale/es

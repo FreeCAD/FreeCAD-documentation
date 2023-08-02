@@ -1,6 +1,6 @@
 # PartDesign SubtractiveWedge/ro
 ---
-- GuiCommand:   Name: PartDesign SubtractiveWedge   Workbenches: [MenuLocation: Part Design - Create a subtractive primitive - Subtractive Wedge   Shortcut: None   SeeAlso: [[PartDesign CompPrimitiveSubtractive](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign SubtractiveWedge   Workbenches: PartDesign Workbench   PartDesign---
 
 
 </div>

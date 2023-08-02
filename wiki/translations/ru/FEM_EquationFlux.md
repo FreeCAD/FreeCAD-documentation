@@ -3,10 +3,10 @@
    Name: FEM EquationFluxsolver
    Name/ru: FEM EquationFluxsolver
    Icon: Fem-equation-fluxsolver.svg
-   MenuLocation:  Solve - Equation fluxsolver
-   Workbenches: [FEM](FEM_Workbench/ru.md)
+   MenuLocation:  Solve -> Equation fluxsolver
+   Workbenches: FEM_Workbench/ru
    Shortcut: 
-   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
+   SeeAlso: FEM_tutorial/ru
 ---
 
 # FEM EquationFlux/ru

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:Addon
    Name: BIM Windows
-   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench.md)
+   Workbenches: Image:IFC.svg BIM Workbench
    Addon: BIM
-   MenuLocation: Manage - Windows
+   MenuLocation: Manage -> Windows
 ---
 
 # BIM Windows

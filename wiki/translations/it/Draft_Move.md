@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft_Move
    Name/it: Sposta
-   MenuLocation: Modifiche - Sposta
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Modifiche -> Sposta
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **M** **V**
    Version: 0.7
-   SeeAlso: [Evidenzia i sottoelementi](Draft_SubelementHighlight/it.md)
+   SeeAlso: Draft_SubelementHighlight/it
 ---
 
 # Draft Move/it

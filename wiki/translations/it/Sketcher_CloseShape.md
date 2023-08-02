@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher_CloseShape
    Name/it: Chiudi la forma
-   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation: Sketch - Strumenti - Chiudi la forma
+   Workbenches: Sketcher Workbench/it
+   MenuLocation: Sketch -> Strumenti -> Chiudi la forma
    Shortcut: **Ctrl** + **Maiusc** + **S**
    Version: 0.15
 ---

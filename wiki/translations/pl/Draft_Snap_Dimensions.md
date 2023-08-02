@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Snap Dimensions
    Name/pl: Rysunek Roboczy: Przyciągnij do wymiaru
-   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   SeeAlso: [Przyciąganie](Draft_Snap/pl.md), [Przełącz przyciąganie](Draft_Snap_Lock/pl.md), [Wybór płaszczyzny roboczej](Draft_SelectPlane/pl.md)
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   SeeAlso: Draft_Snap/pl, Draft_Snap_Lock/pl, Draft_SelectPlane/pl
 ---
 
 # Draft Snap Dimensions/pl

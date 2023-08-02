@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Spreadsheet StyleBold
-   MenuLocation: Spreadsheet - Styles - Bold text
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench.md)
+   MenuLocation: Spreadsheet -> Styles -> Bold text
+   Workbenches: Spreadsheet_Workbench
    Version: 0.17
 ---
 

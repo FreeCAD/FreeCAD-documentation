@@ -1,6 +1,6 @@
 # PartDesign Pocket/cs
 ---
-- GuiCommand:   Name: PartDesign_Pocket   Name/cs: Návrh dílu Kapsa   Workbenches: [[PartDesign Workbench/cs   Návrh dílu]], Kompletace|MenuLocation: Návrh dílu -> Kapsa---
+- GuiCommand:   Name: PartDesign_Pocket   Name/cs: Návrh dílu Kapsa   Workbenches: PartDesign Workbench/cs   Návrh dílu, Kompletace|MenuLocation: Návrh dílu -> Kapsa---
 
 
 </div>

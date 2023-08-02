@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name/sk: Náčrtník: Klon
-   MenuLocation: Náčrt - Nástroje náčrtníka - Klon
-   Workbenches: [Náčrtník](Sketcher_Workbench/sk.md)
+   MenuLocation: Náčrt -> Nástroje náčrtníka -> Klon
+   Workbenches: Sketcher_Workbench/sk
    Version: 0.16
-   SeeAlso: [Náčrtník kópia](Sketcher_Copy/sk.md), [Náčrtník presun](Sketcher_Move/sk.md)
+   SeeAlso: Sketcher_Copy/sk, Sketcher_Move/sk
 ---
 
 # Sketcher Clone/sk

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path Shape
    Name/ru: Path Shape
-   MenuLocation: Path - Supplemental commands - Из фигуры
-   Workbenches: [Path](Path_Workbench/ru.md)
+   MenuLocation: Path -> Supplemental commands -> Из фигуры
+   Workbenches: Path_Workbench/ru
    Shortcut: 
    SeeAlso: 
 ---

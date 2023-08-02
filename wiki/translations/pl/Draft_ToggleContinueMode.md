@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Draft ToggleContinueMode
-   MenuLocation: Utilities - Toggle continue mode
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Utilities -> Toggle continue mode
+   Workbenches: Draft_Workbench, Arch_Workbench
 ---
 
 # Draft ToggleContinueMode/pl

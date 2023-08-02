@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: TechDraw DraftView
    Name/fr: TechDraw Vue d'un objet Draft
-   MenuLocation: TechDraw - Insérer un objet de l'atelier Draft
-   Workbenches: [TechDraw](TechDraw_Workbench/fr.md), [Draft](Draft_Workbench/fr.md)
+   MenuLocation: TechDraw -> Insérer un objet de l'atelier Draft
+   Workbenches: TechDraw_Workbench/fr, Draft_Workbench/fr
    Version: 0.19
-   SeeAlso: [TechDraw Vue d'un objet Arch](TechDraw_ArchView/fr.md)
+   SeeAlso: TechDraw_ArchView/fr
 ---
 
 # TechDraw DraftView/fr

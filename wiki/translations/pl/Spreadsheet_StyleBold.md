@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Spreadsheet StyleBold
    Name/pl: Arkusz Kalkulacyjny: Pogrubienie
-   MenuLocation: Arkusz kalkulacyjny - Style - Pogrubienie
-   Workbenches: [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   MenuLocation: Arkusz kalkulacyjny -> Style -> Pogrubienie
+   Workbenches: Spreadsheet_Workbench/pl
    Version: 0.17
 ---
 

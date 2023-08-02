@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: FEM ConstraintSelfWeight
    Name/de: FEM RandbedingungEigengewicht
-   MenuLocation: Modell - Mechanische Randbedingungen - Randbedingung Eigengewicht
-   Workbenches: [FEM](FEM_Workbench/de.md)
-   SeeAlso: [FEM Tutorium](FEM_tutorial/de.md)
+   MenuLocation: Modell -> Mechanische Randbedingungen -> Randbedingung Eigengewicht
+   Workbenches: FEM_Workbench/de
+   SeeAlso: FEM_tutorial/de
 ---
 
 # FEM ConstraintSelfWeight/de

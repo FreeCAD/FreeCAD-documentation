@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std ViewScreenShot
    Name/pl: Std: Zapisz zrzut ekranu
-   MenuLocation: Przybory - Zapisz obrazek ...
+   MenuLocation: Przybory -> Zapisz obrazek ...
    Workbenches: wszystkie
-   SeeAlso: [Drukuj](Std_Print/pl.md), [Eksportuj do PDF](Std_PrintPdf/pl.md), [Kopiuj widok 3D do schowka](Macro_Copy3DViewToClipboard/pl.md), [Ekran Wiki](Macro_Screen_Wiki/pl.md), [Wycinek](Macro_Snip/pl.md)
+   SeeAlso: Std_Print/pl, Std_PrintPdf/pl, Macro_Copy3DViewToClipboard/pl, Macro_Screen_Wiki/pl, Macro_Snip/pl
 ---
 
 # Std ViewScreenShot/pl

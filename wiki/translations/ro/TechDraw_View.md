@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name/ro: Noua vedere TechDraw
-   MenuLocation: TechDraw - Insert View
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
-   SeeAlso: [Insert Projection Group](TechDraw_ProjectionGroup.md), [Insert Section View](TechDraw_SectionView.md)
+   MenuLocation: TechDraw -> Insert View
+   Workbenches: TechDraw Workbench
+   SeeAlso: TechDraw_ProjectionGroup, TechDraw_SectionView
 ---
 
 # TechDraw View/ro

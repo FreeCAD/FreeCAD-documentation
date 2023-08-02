@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Std DlgCustomize
-   MenuLocation: Tools - Customize...
+   MenuLocation: Tools -> Customize...
    Workbenches: All
-   SeeAlso: [Interface Customization](Interface_Customization.md)
+   SeeAlso: Interface_Customization
 ---
 
 # Std DlgCustomize/en

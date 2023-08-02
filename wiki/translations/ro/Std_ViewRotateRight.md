@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Std ViewRotateRight
-   MenuLocation: View - Standard views - Rotate Right
+   MenuLocation: View -> Standard views -> Rotate Right
    Workbenches: All
    Shortcut: **Shift**+**Right**
-   SeeAlso: [Std ViewRotateLeft](Std_ViewRotateLeft.md)
+   SeeAlso: Std_ViewRotateLeft
 ---
 
 # Std ViewRotateRight/ro

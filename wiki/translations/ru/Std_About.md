@@ -3,7 +3,7 @@
    Name/ru: О FreeCAD
    Name: Std_About
    Workbenches: Все
-   MenuLocation: Справка - О FreeCAD
+   MenuLocation: Справка -> О FreeCAD
 ---
 
 # Std About/ru

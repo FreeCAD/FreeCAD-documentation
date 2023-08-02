@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std_ViewScreenShot
    Name/fr: Std Capture d'écran
-   MenuLocation: Outils - Enregistrer l'image...
+   MenuLocation: Outils -> Enregistrer l'image...
    Workbenches: Tous
-   SeeAlso: [Std Imprimer](Std_Print/fr.md), [Std Exporter au format PDF](Std_PrintPdf/fr.md), [Macro Snip](Macro_Snip/fr.md)
+   SeeAlso: Std_Print/fr, Std_PrintPdf/fr, Macro_Snip/fr
 ---
 
 # Std ViewScreenShot/fr

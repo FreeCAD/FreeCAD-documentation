@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Arch CurtainWall
    Name/de: Arch Vorhangfassade
-   MenuLocation: Arch - Vorhandene Fassade
-   Workbenches: [Arch](Arch_Workbench/de.md)
+   MenuLocation: Arch -> Vorhandene Fassade
+   Workbenches: Arch_Workbench/de
    Shortcut: **C** **W**
    Version: 0.19
-   SeeAlso: [Arch Wand](Arch_Wall/de.md), [Arch Gitter](Arch_Grid/de.md)
+   SeeAlso: Arch_Wall/de, Arch_Grid/de
 ---
 
 # Arch CurtainWall/de

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft BSpline
    Name/ro: Funcții BSpline
-   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   MenuLocation: Draft - BSpline
+   Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
+   MenuLocation: Draft -> BSpline
    Shortcut: **B** **S**
-   SeeAlso: [Draft Wire](Draft_Wire/ro.md)
+   SeeAlso: Draft Wire/ro
 ---
 
 # Draft BSpline/ro

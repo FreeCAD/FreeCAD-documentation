@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Rocket FinCan
-   MenuLocation: Rocket - Fin Can
-   Workbenches: [Rocket Workbench](Rocket_Workbench.md)
+   MenuLocation: Rocket -> Fin Can
+   Workbenches: Rocket_Workbench
    Version: 0.19
 ---
 

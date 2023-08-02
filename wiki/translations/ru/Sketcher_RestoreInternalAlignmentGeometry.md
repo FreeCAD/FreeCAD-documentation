@@ -2,8 +2,8 @@
 - GuiCommand:
    Name/ru: Показать/скрыть внутреннюю геометрию
    Name: Sketcher_RestoreInternalAlignmentGeometry
-   MenuLocation: Sketch - Инструменты для эскиза - Показать/скрыть внутреннюю геометрию
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation: Sketch -> Инструменты для эскиза -> Показать/скрыть внутреннюю геометрию
+   Workbenches: Sketcher_Workbench/ru
    Shortcut: Ctrl+Shift+E
    SeeAlso: 
 ---

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Path SimpleCopy
-   MenuLocation: Path - Path Modification - Simple Copy
-   Workbenches: [Path](Path_Workbench.md)
-   SeeAlso: [Path Copy](Path_Copy.md)
+   MenuLocation: Path -> Path Modification -> Simple Copy
+   Workbenches: Path_Workbench
+   SeeAlso: Path_Copy
 ---
 
 # Path SimpleCopy

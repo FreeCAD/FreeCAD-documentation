@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Rotate
    Name/ro: Draft Rotate
-   MenuLocation: Draft - Rotate
-   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   MenuLocation: Draft -> Rotate
+   Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
    Shortcut: **R** **O**
 ---
 

@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft BezCurve
    Name/de: Entwurf BezKurve
-   MenuLocation: Entwurf - Bézierwerkzeuge - BézKurve
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   MenuLocation: Entwurf -> Bézierwerkzeuge -> BézKurve
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **B** **Z**
    Version: 0.14
-   SeeAlso: [Draft KubischeBezKurve](Draft_CubicBezCurve/de.md), [Entwurf BSpline](Draft_BSpline/de.md)
+   SeeAlso: Draft_CubicBezCurve/de, Draft_BSpline/de
 ---
 
 # Draft BezCurve/de

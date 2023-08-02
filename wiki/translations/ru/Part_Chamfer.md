@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part_Chamfer
    Name/ru: Фаска
-   MenuLocation: Деталь - Фаска
-   Workbenches: [Part(Деталь)](Part_Workbench/ru.md)
-   SeeAlso: [Скругление](Part_Fillet/ru.md)
+   MenuLocation: Деталь -> Фаска
+   Workbenches: Part_Workbench/ru
+   SeeAlso: Part_Fillet/ru
 ---
 
 # Part Chamfer/ru

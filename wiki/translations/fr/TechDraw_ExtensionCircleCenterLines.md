@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ExtensionCircleCenterLines
    Name/fr: TechDraw Axes de centrage
-   MenuLocation: TechDraw - Extensions : taraudages/filetages - Axes de centrage
-   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   MenuLocation: TechDraw -> Extensions : taraudages/filetages -> Axes de centrage
+   Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.20
-   SeeAlso: [TechDraw Axes de centrage de trous/vis](TechDraw_ExtensionHoleCircle/fr.md)
+   SeeAlso: TechDraw_ExtensionHoleCircle/fr
 ---
 
 # TechDraw ExtensionCircleCenterLines/fr

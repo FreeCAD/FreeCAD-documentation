@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Part Measure Toggle 3D
-   MenuLocation: [Measure](Std_Measure_Menu.md) - Toggle 3D
-   Workbenches: [Part](Part_Workbench.md)
-   SeeAlso: [Part Measure Toggle Delta](Part_Measure_Toggle_Delta.md)
+   MenuLocation: Std Measure Menu -> Toggle 3D
+   Workbenches: Part_Workbench
+   SeeAlso: Part_Measure_Toggle_Delta
 ---
 
 # Part Measure Toggle 3D/ro

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Point
    Name/ro: Draft Punctul
-   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   MenuLocation: Draft - Point
+   Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
+   MenuLocation: Draft -> Point
    Shortcut: P T
 ---
 

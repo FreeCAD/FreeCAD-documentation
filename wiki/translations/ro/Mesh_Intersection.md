@@ -1,6 +1,6 @@
 # Mesh Intersection/ro
 ---
-- GuiCommand:   Name: Mesh Intersection‏‎   MenuLocation: Meshes - Boolean - Intersection   Workbenches: [[Mesh Workbench   Mesh]]|Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: Mesh Intersection‏‎   MenuLocation: Meshes -> Boolean -> Intersection   Workbenches: Mesh Workbench   Mesh|Shortcut:    SeeAlso: ---
 
 
 </div>

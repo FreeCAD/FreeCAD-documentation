@@ -3,8 +3,8 @@
    Name: Sketcher_CompCreateConic
    Name/ru: Создать фигуру конического сечения
    Icon: Sketcher_CompCreateConic.png
-   MenuLocation: Нет (только на панели инструментов) 
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation: Нет  
+   Workbenches: Sketcher Workbench/ru
 ---
 
 # Sketcher CompCreateConic/ru

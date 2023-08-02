@@ -1,6 +1,6 @@
 # OpenSCAD Minkowski/ro
 ---
-- GuiCommand:   Name: OpenSCAD Minkowski   MenuLocation: OpenSCAD - Minkowski‏‎   |Workbenches: [[OpenSCAD Workbench   OpenSCAD]]|Shortcut: none   SeeAlso: 
+- GuiCommand:   Name: OpenSCAD Minkowski   MenuLocation: OpenSCAD -> Minkowski‏‎   |Shortcut: none   SeeAlso: 
 
 
 </div>

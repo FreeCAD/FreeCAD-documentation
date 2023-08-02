@@ -3,7 +3,7 @@
    Name: Draft ToggleContinueMode
    Name/es: Draft ToggleContinueMode
    MenuLocation: Draft -> Utilities -> Toggle continue mode
-   Workbenches: [Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
+   Workbenches: Draft_Workbench/es, Arch_Workbench/es
 ---
 
 # Draft ToggleContinueMode/es

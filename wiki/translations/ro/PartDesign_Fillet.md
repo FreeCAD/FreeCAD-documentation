@@ -1,6 +1,6 @@
 # PartDesign Fillet/ro
 ---
-- GuiCommand:   Name: PartDesign Fillet   Workbenches: [MenuLocation: PartDesign - Fillet   SeeAlso: [[Part Fillet|Part Fillet](PartDesign_Workbench___PartDesign]],_Complete.md)---
+- GuiCommand:   Name: PartDesign Fillet   Workbenches: PartDesign Workbench   PartDesign, Complete---
 
 
 </div>

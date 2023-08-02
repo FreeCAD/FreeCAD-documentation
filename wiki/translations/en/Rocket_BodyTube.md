@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Rocket BodyTube
-   MenuLocation: Rocket - Body Tube
-   Workbenches: [Rocket Workbench](Rocket_Workbench.md)
+   MenuLocation: Rocket -> Body Tube
+   Workbenches: Rocket_Workbench
    Version: 0.19
 ---
 

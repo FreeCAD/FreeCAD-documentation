@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher_CarbonCopy
    Name/it: Copia carbone
-   MenuLocation: Sketch - Geometrie - Copia carbone
-   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
+   MenuLocation: Sketch -> Geometrie -> Copia carbone
+   Workbenches: Sketcher Workbench/it
    Version: 0.17
 ---
 

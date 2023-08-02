@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Surface BlendCurve
    Name/fr: Surface Fusion de courbes
-   MenuLocation: Surface - Fusionner des courbes
-   Workbenches: [Surface](Surface_Workbench/fr.md)
+   MenuLocation: Surface -> Fusionner des courbes
+   Workbenches: Surface_Workbench/fr
    Version: 0.21
 ---
 

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path PostProcess
    Name/ru: Path PostProcess
-   MenuLocation: Path - Постобработка
-   Workbenches: [Path](Path_Workbench/ru.md)
+   MenuLocation: Path -> Постобработка
+   Workbenches: Path_Workbench/ru
    Shortcut: **P** **P**
    SeeAlso: 
 ---

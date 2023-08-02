@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std ToggleVisibility
    Name/pl: Std: Przełącz widoczność
-   MenuLocation: Widok - Przełącz widoczność
+   MenuLocation: Widok -> Przełącz widoczność
    Workbenches: wszystkie
    Shortcut: **Spacja**
-   SeeAlso: [Pokaż zaznaczone](Std_ShowSelection/pl.md), [Ukryj zaznaczone](Std_HideSelection/pl.md), [Przełącz widoczność](Std_ToggleObjects/pl.md), [Wyświetl wszystkie obiekty](Std_ShowObjects/pl.md), [Ukryj wszystkie obiekty](Std_HideObjects/pl.md)
+   SeeAlso: Std_ShowSelection/pl, Std_HideSelection/pl, Std_ToggleObjects/pl, Std_ShowObjects/pl, Std_HideObjects/pl
 ---
 
 # Std ToggleVisibility/pl

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: SheetMetal Extrude
    Name/fr: SheetMetal Prolonger une face
-   MenuLocation: SheetMetal - Extend Face
-   Workbenches: [SheetMetal](SheetMetal_Workbench/fr.md)
+   MenuLocation: SheetMetal -> Extend Face
+   Workbenches: SheetMetal_Workbench/fr
    Shortcut: **E**
 ---
 

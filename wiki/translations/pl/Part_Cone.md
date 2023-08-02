@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Cone
    Name/pl: Część: Stożek
-   MenuLocation: Część - Bryła pierwotna - Stożek
-   Workbenches: [Część](Part_Workbench/pl.md)
-   SeeAlso: [Utwórz geometrie pierwotne](Part_CreatePrimitives/pl.md)
+   MenuLocation: Część -> Bryła pierwotna -> Stożek
+   Workbenches: Part_Workbench/pl
+   SeeAlso: Part_CreatePrimitives/pl
 ---
 
 # Part Cone/pl

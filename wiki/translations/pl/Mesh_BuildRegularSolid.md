@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Mesh BuildRegularSolid
    Name/pl: Siatka Utwórz bryłę pierwotną
-   MenuLocation: Siatki - Utwórz bryłę pierwotną ...
-   Workbenches: [Siatka](Mesh_Workbench/pl.md)
+   MenuLocation: Siatki -> Utwórz bryłę pierwotną ...
+   Workbenches: Mesh_Workbench/pl
 ---
 
 # Mesh BuildRegularSolid/pl

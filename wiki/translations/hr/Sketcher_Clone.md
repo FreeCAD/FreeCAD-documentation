@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Sketcher Clone
-   MenuLocation: Sketch - Sketcher tools - Clone
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch -> Sketcher tools -> Clone
+   Workbenches: Sketcher_Workbench
    Shortcut: **Z** **L**
    Version: 0.16
-   SeeAlso: [Sketcher Copy](Sketcher_Copy.md), [Sketcher Move](Sketcher_Move.md)
+   SeeAlso: Sketcher_Copy, Sketcher_Move
 ---
 
 # Sketcher Clone/hr

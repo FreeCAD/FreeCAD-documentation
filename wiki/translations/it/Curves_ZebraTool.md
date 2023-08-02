@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Curves ZebraTool
-   MenuLocation: Surfaces - Zebra Tool
-   Workbenches: [Curves](Curves_Workbench.md)
+   MenuLocation: Surfaces -> Zebra Tool
+   Workbenches: Curves_Workbench
 ---
 
 # Curves ZebraTool/it

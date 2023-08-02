@@ -1,6 +1,6 @@
 # Drawing Annotation/ro
 ---
-- GuiCommand:   Name: Drawing Annotation   Workbenches: [[Drawing Workbench   Drawing]], Complete|MenuLocation: Drawing - Annotation   Shortcut: none---
+- GuiCommand:   Name: Drawing Annotation   Workbenches: Drawing Workbench   Drawing, Complete|MenuLocation: Drawing -> Annotation   Shortcut: none---
 
 
 </div>

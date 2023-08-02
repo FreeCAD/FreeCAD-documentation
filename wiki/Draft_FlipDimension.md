@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Draft FlipDimension
-   MenuLocation: Modification - Flip dimension
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Modification -> Flip dimension
+   Workbenches: Draft_Workbench, Arch_Workbench
 ---
 
 # Draft FlipDimension

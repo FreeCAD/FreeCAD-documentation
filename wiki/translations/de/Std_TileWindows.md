@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name/de: Std FensterAnordnen
-   MenuLocation: Fenster - Anordnen
+   MenuLocation: Fenster -> Anordnen
    Workbenches: Alle
-   SeeAlso: [Std FensterÜberlappendAnordnen](Std_CascadeWindows/de.md)
+   SeeAlso: Std_CascadeWindows/de
 ---
 
 # Std TileWindows/de

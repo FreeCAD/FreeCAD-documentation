@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FCGear InvoluteGear
    Name/pl: FCGear: Koło zębate ewolwentowe
-   MenuLocation: Gear - Koło zębate ewolwentowe
-   Workbenches: [FCGear](FCGear_Workbench/pl.md)
+   MenuLocation: Gear -> Koło zębate ewolwentowe
+   Workbenches: FCGear_Workbench/pl
    Version: v0.16
-   SeeAlso: [Koło zębate cykloidalne](FCGear_CycloideGear/pl.md)
+   SeeAlso: FCGear_CycloideGear/pl
 ---
 
 # FCGear InvoluteGear/pl

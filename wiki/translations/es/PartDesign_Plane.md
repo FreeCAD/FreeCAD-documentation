@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign Plane
    Name/es: Plano PartDesign
-   Workbenches: [PartDesign](PartDesign_Workbench/es.md)
-   MenuLocation: Part Design - Crear un plano de referencia
+   Workbenches: PartDesign Workbench/es
+   MenuLocation: Part Design -> Crear un plano de referencia
    Version: 0.17
-   SeeAlso: [Punto PartDesign](PartDesign_Point/es.md), [Línea PartDesign](PartDesign_Line/es.md)
+   SeeAlso: PartDesign Point/es, PartDesign Line/es
 ---
 
 # PartDesign Plane/es

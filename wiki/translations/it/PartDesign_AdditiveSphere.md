@@ -1,6 +1,6 @@
 # PartDesign AdditiveSphere/it
 ---
-- GuiCommand:   Name: PartDesign AdditiveSphere   Name/it: Sfera additiva   Workbenches: [MenuLocation: Part Design - Crea una primitiva additiva - Sfera   Shortcut: None   Version: 0.17   SeeAlso: [[PartDesign CompPrimitiveAdditive/it|Primitive additive](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign AdditiveSphere   Name/it: Sfera additiva   Workbenches: PartDesign Workbench/it   PartDesign---
 
 
 </div>

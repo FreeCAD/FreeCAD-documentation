@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch_Roof
    Name/ru: Крыша
-   MenuLocation: Архитектура - Крыша
-   Workbenches: [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Архитектура -> Крыша
+   Workbenches: Arch_Workbench/ru
    Shortcut: **R** **F**
-   SeeAlso: [Структура](Arch_Structure/ru.md), [Стена](Arch_Wall/ru.md)
+   SeeAlso: Arch_Structure/ru, Arch_Wall/ru
 ---
 
 # Arch Roof/ru

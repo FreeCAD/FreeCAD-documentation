@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: TechDraw ShareView
    Name/de: TechDraw AnsichtTeilen
-   MenuLocation: TechDraw - TechDraw Ansichten - Ansicht teilen
-   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   MenuLocation: TechDraw -> TechDraw Ansichten -> Ansicht teilen
+   Workbenches: TechDraw_Workbench/de
    Version: 0.20
-   SeeAlso: [TechDraw AnsichtVerschieben](TechDraw_MoveView/de.md)
+   SeeAlso: TechDraw_MoveView/de
 ---
 
 # TechDraw ShareView/de

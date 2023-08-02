@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Split
    Name/fr: Draft Scinder
-   MenuLocation: Modification - Scinder
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Modification -> Scinder
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **S** **P**
    Version: 0.18
-   SeeAlso: [Draft Joindre](Draft_Join/fr.md)
+   SeeAlso: Draft_Join/fr
 ---
 
 # Draft Split/fr

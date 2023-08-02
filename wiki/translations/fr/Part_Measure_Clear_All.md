@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Part Measure Clear All
    Name/fr: Part Tout effacer
-   MenuLocation: Mesure - Tout effacer
-   Workbenches: [Part](Part_Workbench/fr.md)
+   MenuLocation: Mesure -> Tout effacer
+   Workbenches: Part_Workbench/fr
 ---
 
 # Part Measure Clear All/fr

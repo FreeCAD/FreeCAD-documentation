@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Sketcher EditSketch
-   MenuLocation: Sketch - Edit sketch
-   Workbenches: [Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
-   SeeAlso: [Sketcher LeaveSketch](Sketcher_LeaveSketch.md)
+   MenuLocation: Sketch -> Edit sketch
+   Workbenches: Sketcher_Workbench, PartDesign_Workbench
+   SeeAlso: Sketcher_LeaveSketch
 ---
 
 # Sketcher EditSketch

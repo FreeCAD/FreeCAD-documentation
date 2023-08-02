@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: TechDraw ExtensionPosHorizChainDimension
-   MenuLocation: TechDraw - Extensions: Attributes/Modifications - Position Horizontal Chain Dimensions
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   MenuLocation: TechDraw -> Extensions: Attributes/Modifications -> Position Horizontal Chain Dimensions
+   Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20
-   SeeAlso: [TechDraw ExtensionPosVertChainDimension](TechDraw_ExtensionPosVertChainDimension.md), [TechDraw ExtensionPosObliqueChainDimension](TechDraw_ExtensionPosObliqueChainDimension.md)
+   SeeAlso: TechDraw_ExtensionPosVertChainDimension, TechDraw_ExtensionPosObliqueChainDimension
 ---
 
 # TechDraw ExtensionPosHorizChainDimension/en

@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: EM FHPlaneHole
    Name/fr: EM Trou FH
-   MenuLocation: EM - FHPlaneHole
-   Workbenches: [EM](EM_Workbench/fr.md)
+   MenuLocation: EM -> FHPlaneHole
+   Workbenches: EM_Workbench/fr
    Shortcut: **E** **H**
    Version: 0.17
-   SeeAlso: [EM Plan FH](EM_FHPlane/fr.md), [EM Noeud FH](EM_FHNode/fr.md), [EM Bascule noeud trou FH](EM_FHPlaneAddRemoveNodeHole/fr.md)
+   SeeAlso: EM_FHPlane/fr, EM_FHNode/fr, EM_FHPlaneAddRemoveNodeHole/fr
 ---
 
 # EM FHPlaneHole/fr

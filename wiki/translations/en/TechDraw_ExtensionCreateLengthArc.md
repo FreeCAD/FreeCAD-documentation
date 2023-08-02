@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: TechDraw ExtensionCreateLengthArc
-   MenuLocation: TechDraw - Extensions: Dimensions - Create Arc Length Dimension
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   MenuLocation: TechDraw -> Extensions: Dimensions -> Create Arc Length Dimension
+   Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20
    SeeAlso: 

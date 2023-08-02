@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Draft SetStyle
-   MenuLocation: Utilities - Set style
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Utilities -> Set style
+   Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **S** **S**
    Version: 0.19
-   SeeAlso: [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md), [Draft ApplyStyle](Draft_ApplyStyle.md)
+   SeeAlso: Draft_AnnotationStyleEditor, Draft_ApplyStyle
 ---
 
 # Draft SetStyle/it

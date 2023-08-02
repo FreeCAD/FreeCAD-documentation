@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher Split
    Name/pl: Szkicownik: Podziel krawędź
-   MenuLocation: Szkic - Elementy geometryczne szkicownika - Podziel krawędź
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   MenuLocation: Szkic -> Elementy geometryczne szkicownika -> Podziel krawędź
+   Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **Z**
    Version: 0.20
-   SeeAlso: [Przytnij krawędź](Sketcher_Trimming/pl.md)
+   SeeAlso: Sketcher_Trimming/pl
 ---
 
 # Sketcher Split/pl

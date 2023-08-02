@@ -3,8 +3,8 @@
    Name/ru: Создать правильный многоугольник
    Name: Sketcher_CompCreateRegularPolygon
    Icon: Sketcher_CompCreateRegularPolygon.png
-   MenuLocation: Нет (только на панели инструментов)
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation: Нет 
+   Workbenches: Sketcher_Workbench/ru
 ---
 
 # Sketcher CompCreateRegularPolygon/ru

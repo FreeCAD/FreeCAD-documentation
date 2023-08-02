@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ConstrainCoincident
    Name/de: Skizzierer KoinzidentFestlegen
-   MenuLocation: Skizze - Skizzen-Beschränkungen - Koinzidenz festlegen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Skizze -> Skizzen-Beschränkungen -> Koinzidenz festlegen
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **C**
-   SeeAlso: [Sketcher Sperren](Sketcher_ConstrainLock/de.md), [Sketcher PunktAufObjektFestlegen](Sketcher_ConstrainPointOnObject/de.md)
+   SeeAlso: Sketcher_ConstrainLock/de, Sketcher_ConstrainPointOnObject/de
 ---
 
 # Sketcher ConstrainCoincident/de

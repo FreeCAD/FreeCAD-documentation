@@ -1,6 +1,6 @@
 # Part Loft/cs
 ---
-- GuiCommand:   Name: Part Loft   Name/cs: Part Loft   MenuLocation: Part - Loft...   |Workbenches: [SeeAlso: [[Part Sweep/cs|Part Sweep](Part_Workbench/cs___Part]].md)---
+- GuiCommand:   Name: Part Loft   Name/cs: Part Loft   MenuLocation: Part -> Loft...   ---
 
 
 </div>

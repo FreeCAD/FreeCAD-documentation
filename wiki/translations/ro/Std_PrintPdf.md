@@ -1,6 +1,6 @@
 # Std PrintPdf/ro
 ---
-- GuiCommand:   Name: Std PrintPdf   Name/ro: Std PrintPdf   Workbenches: All   MenuLocation: [Shortcut:    SeeAlso: File [[Std_Export/ro|Export](Std_File_Menu___File]]_-_PrintPdf_.md)---
+- GuiCommand:   Name: Std PrintPdf   Name/ro: Std PrintPdf   Workbenches: All   MenuLocation: Std File Menu   File -> PrintPdf ---
 
 
 </div>

@@ -1,6 +1,6 @@
 # Robot SetHomePos/es
 ---
-- GuiCommand:   Name: Robot SetHomePos   Name/es: Robot SetHomePos   Workbenches: [[Robot_Workbench/es   Robot]]|MenuLocation: Robot - Set home position---
+- GuiCommand:   Name: Robot SetHomePos   Name/es: Robot SetHomePos   Workbenches: Robot_Workbench/es   Robot|MenuLocation: Robot -> Set home position---
 
 
 </div>

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher JoinCurves
    Name/pl: Szkicownik: Połącz krzywe
-   MenuLocation: Szkic - Narzędzia szkicownika krzywej złożonej - Połącz krzywe
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   MenuLocation: Szkic -> Narzędzia szkicownika krzywej złożonej -> Połącz krzywe
+   Workbenches: Sketcher_Workbench/pl
    Version: 0.21
 ---
 

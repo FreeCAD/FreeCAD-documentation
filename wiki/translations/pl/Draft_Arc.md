@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Arc
    Name/pl: Rysunek Roboczy: Łuk
-   MenuLocation: Kreślenie - Narzędzia łuku - Łuk
-   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   MenuLocation: Kreślenie -> Narzędzia łuku -> Łuk
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **A** **R**
    Version: 0.7
-   SeeAlso: [Okrąg](Draft_Circle/pl.md), [Łuk przez trzy punkty](Draft_Arc_3Points/pl.md)
+   SeeAlso: Draft_Circle/pl, Draft_Arc_3Points/pl
 ---
 
 # Draft Arc/pl

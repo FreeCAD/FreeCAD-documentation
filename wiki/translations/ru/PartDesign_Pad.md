@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/ru: Выдавливание
    Name: PartDesign_Pad
-   MenuLocation: Part Design - Аддитивные преобразования - Выдавливание
-   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
-   SeeAlso: [Вырез](PartDesign_Pocket/ru.md)
+   MenuLocation: Part Design -> Аддитивные преобразования -> Выдавливание
+   Workbenches: PartDesign_Workbench/ru
+   SeeAlso: PartDesign_Pocket/ru
 ---
 
 # PartDesign Pad/ru

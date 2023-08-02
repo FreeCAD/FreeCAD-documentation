@@ -1,6 +1,6 @@
 # Draft Downgrade/sv
 ---
-- GuiCommand:   Name: Draft Downgrade   Name/sv: Draft Downgrade   Workbenches: [Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation: Draft -> Downgrade   Shortcut: D N   SeeAlso: [Draft Upgrade](Draft_Upgrade/sv.md)---
+- GuiCommand:   Name: Draft Downgrade   Name/sv: Draft Downgrade   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv---
 
 
 </div>

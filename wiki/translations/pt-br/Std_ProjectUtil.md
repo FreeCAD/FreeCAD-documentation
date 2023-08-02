@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name: Std ProjectUtil
-   MenuLocation: Tools - Project utility...
+   MenuLocation: Tools -> Project utility...
    Workbenches: All
 ---
 

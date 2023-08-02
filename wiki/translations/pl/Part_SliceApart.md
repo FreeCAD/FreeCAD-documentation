@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part SliceApart
    Name/pl: Część: Rozetnij
-   MenuLocation: Część - Rozdziel - Rozetnij
-   Workbenches: [Część](Part_Workbench/pl.md)
+   MenuLocation: Część -> Rozdziel -> Rozetnij
+   Workbenches: Part_Workbench/pl
    Version: 0.18
-   SeeAlso: [Krojenie](Part_Slice/pl.md), [Rozbij kształt złożony](Part_ExplodeCompound/pl.md)
+   SeeAlso: Part_Slice/pl, Part_ExplodeCompound/pl
 ---
 
 # Part SliceApart/pl

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: FEM PostFilterLinearizedStresses
    Name/fr: FEM Graphique de linéarisation des contraintes
-   MenuLocation: Résultats - Graphique de linéarisation des contraintes
-   Workbenches: [FEM](FEM_Workbench/fr.md)
-   SeeAlso: [FEM Pipeline de résultats](FEM_PostPipelineFromResult/fr.md), [FEM Filtre d'écrêtage selon une ligne](FEM_PostFilterDataAlongLine/fr.md),  [FEM Tutoriel](FEM_tutorial/fr.md)
+   MenuLocation: Résultats -> Graphique de linéarisation des contraintes
+   Workbenches: FEM_Workbench/fr
+   SeeAlso: FEM_PostPipelineFromResult/fr, FEM_PostFilterDataAlongLine/fr,  FEM_tutorial/fr
 ---
 
 # FEM PostFilterLinearizedStresses/fr

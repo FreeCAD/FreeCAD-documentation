@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Assembly3 AutoElementVisibility
    Icon: Assembly_AutoElementVis.svg‎‎
-   MenuLocation: Assembly3 - Element style - Auto element visibility
-   Workbenches: [Assembly3](Assembly3_Workbench.md)
+   MenuLocation: Assembly3 -> Element style -> Auto element visibility
+   Workbenches: Assembly3_Workbench
 ---
 
 # Assembly3 AutoElementVisibility/pl

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: PartDesign SubtractiveSphere
-   MenuLocation: Part Design - Create a subtractive primitive - Subtractive Sphere
-   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   MenuLocation: Part Design -> Create a subtractive primitive -> Subtractive Sphere
+   Workbenches: PartDesign_Workbench
    Version: 0.17
-   SeeAlso: [PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign AdditiveSphere](PartDesign_AdditiveSphere.md)
+   SeeAlso: PartDesign_CompPrimitiveSubtractive, PartDesign_AdditiveSphere
 ---
 
 # PartDesign SubtractiveSphere

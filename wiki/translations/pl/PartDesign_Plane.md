@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign Plane
    Name/pl: Projekt Części: Utwórz płaszczyznę odniesienia
-   MenuLocation: Projekt Części - Utwórz układ odniesienia - Utwórz płaszczyznę odniesienia
-   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   MenuLocation: Projekt Części -> Utwórz układ odniesienia -> Utwórz płaszczyznę odniesienia
+   Workbenches: PartDesign_Workbench/pl
    Version: 0.17
-   SeeAlso: [Utwórz punkt odniesienia](PartDesign_Point/pl.md), [Utwórz linię odniesienia](PartDesign_Line/pl.md)
+   SeeAlso: PartDesign_Point/pl, PartDesign_Line/pl
 ---
 
 # PartDesign Plane/pl

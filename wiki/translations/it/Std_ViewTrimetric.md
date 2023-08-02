@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std_ViewTrimetric
    Name/it: Vista trimetrica
-   MenuLocation: Visualizza - Viste standard - Assonometria - Trimetrica
+   MenuLocation: Visualizza -> Viste standard -> Assonometria -> Trimetrica
    Workbenches: Tutti
-   SeeAlso: [Assonometria isometrica](Std_ViewIsometric/it.md), [Assonometria dimetrica](Std_ViewDimetric/it.md)
+   SeeAlso: Std_ViewIsometric/it, Std_ViewDimetric/it
 ---
 
 # Std ViewTrimetric/it

@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintPointInPlane
    Name/fr: Assembly3 Contrainte point sur un plan
    Icon: Assembly_ConstraintPointInPlane.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 ConstraintPointInPlane/fr

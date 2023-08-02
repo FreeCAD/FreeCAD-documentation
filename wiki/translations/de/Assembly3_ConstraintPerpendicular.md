@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintPerpendicular
    Name/de: Assembly3 RechtwinkligFestlegen
    Icon: Assembly_ConstraintPerpendicular.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 ConstraintPerpendicular/de

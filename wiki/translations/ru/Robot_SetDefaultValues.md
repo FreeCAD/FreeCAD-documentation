@@ -2,8 +2,8 @@
 - GuiCommand:
    Name/ru: Установка значений по умолчанию
    Name: Robot_SetDefaultValues
-   MenuLocation: Робот - Установка значений по умолчанию
-   Workbenches: [Robot](Robot_Workbench/ru.md)
+   MenuLocation: Робот -> Установка значений по умолчанию
+   Workbenches: Robot_Workbench/ru
 ---
 
 # Robot SetDefaultValues/ru

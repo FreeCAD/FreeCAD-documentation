@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Part Revolve
    Name/de: Part Drehen
-   MenuLocation: Formteil - Drehen
-   Workbenches: [Part](Part_Workbench/de.md)
+   MenuLocation: Formteil -> Drehen
+   Workbenches: Part_Workbench/de
 ---
 
 # Part Revolve/de

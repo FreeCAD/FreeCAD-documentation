@@ -1,6 +1,6 @@
 # Draft Snap Angle/es
 ---
-- GuiCommand:   Name: Draft Angle   Workbenches: [Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation: Draft - [[Draft Snap   Snap]] - Angle|Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: Draft Angle   Workbenches: Draft Workbench   Draft, Arch Workbench -> Angle|Shortcut:    SeeAlso: ---
 
 
 </div>

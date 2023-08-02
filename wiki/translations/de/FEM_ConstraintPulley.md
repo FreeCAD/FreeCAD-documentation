@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: FEM ConstraintPulley
    Name/de : FEM RandbedingungRolle
-   MenuLocation: Model - Randbedingungen ohne Solver - Randbedingung Riemenscheibe
-   Workbenches: [FEM](FEM_Workbench/de.md)
-   SeeAlso: [FEM RandbedingungWälzlager](FEM_ConstraintBearing/de.md), [FEM RandbedingungZahnrad](FEM_ConstraintGear/de.md)
+   MenuLocation: Model -> Randbedingungen ohne Solver -> Randbedingung Riemenscheibe
+   Workbenches: FEM_Workbench/de
+   SeeAlso: FEM_ConstraintBearing/de, FEM_ConstraintGear/de
 ---
 
 # FEM ConstraintPulley/de

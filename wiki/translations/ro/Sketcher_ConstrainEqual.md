@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Sketcher ConstrainEqual
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
-   MenuLocation: Sketch - Sketcher constraints - Constrain equal
+   Workbenches: Sketcher Workbench
+   MenuLocation: Sketch -> Sketcher constraints -> Constrain equal
    Shortcut: E
-   SeeAlso: [Constrain radius](Sketcher_ConstrainRadius.md)
+   SeeAlso: Sketcher_ConstrainRadius
 ---
 
 # Sketcher ConstrainEqual/ro

@@ -3,7 +3,7 @@
    Name: FEM CompEmEquations
    Name/de: FEM AuswahlEmGleichungen
    MenuLocation: 
-   Workbenches: [FEM](FEM_Workbench/de.md)
+   Workbenches: FEM_Workbench/de
    Version: 0.21
    SeeAlso: 
 ---

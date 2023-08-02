@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Arch CompAxis
-   MenuLocation: Arch - Axis tools
-   Workbenches: [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   MenuLocation: Arch -> Axis tools
+   Workbenches: Arch_Workbench, BIM_Workbench
    Version: 0.17
-   SeeAlso: [Arch Axis](Arch_Axis.md), [Arch Axes system](Arch_AxisSystem.md), [Arch Grid](Arch_Grid.md)
+   SeeAlso: Arch_Axis, Arch_AxisSystem, Arch_Grid
 ---
 
 # Arch CompAxis/pt-br

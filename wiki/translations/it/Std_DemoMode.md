@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std DemoMode
    Name/it: Visualizza rotazione oggetti
-   MenuLocation: Strumenti - Visualizza rotazione oggetti...
+   MenuLocation: Strumenti -> Visualizza rotazione oggetti...
    Workbenches: Tutti
 ---
 

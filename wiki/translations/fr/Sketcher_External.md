@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher External
    Name/fr: Sketcher Géométrie externe
-   MenuLocation: Esquisse - Géométries d'esquisse - Créer une géométrie externe
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   MenuLocation: Esquisse -> Géométries d'esquisse -> Créer une géométrie externe
+   Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **X**
-   SeeAlso: [Sketcher Géométrie de construction](Sketcher_ToggleConstruction/fr.md)
+   SeeAlso: Sketcher_ToggleConstruction/fr
 ---
 
 # Sketcher External/fr

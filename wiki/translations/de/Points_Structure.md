@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Points Structure
    Name/de: Points Strukturieren
-   MenuLocation: Punkte - Strukturierte Punktwolke
-   Workbenches: [Points](Points_Workbench/de.md)
+   MenuLocation: Punkte -> Strukturierte Punktwolke
+   Workbenches: Points_Workbench/de
 ---
 
 # Points Structure/de

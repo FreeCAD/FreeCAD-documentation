@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher CreateSquare
    Name/fr: Sketcher Carré
-   MenuLocation: Esquisse - Géométries d'esquisse - Créer un carré
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   MenuLocation: Esquisse -> Géométries d'esquisse -> Créer un carré
+   Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **P** **4**
    Version: 0.15
 ---

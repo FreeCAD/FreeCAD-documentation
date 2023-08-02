@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM ResultsPurge
    Name/it: Azzera risultati
-   MenuLocation: Risultati - Azzera risultati
-   Workbenches: [FEM](FEM_Workbench/it.md)
+   MenuLocation: Risultati -> Azzera risultati
+   Workbenches: FEM_Workbench/it
    Shortcut: **R** **P**
-   SeeAlso: [Tutorial FEM](FEM_tutorial/it.md)
+   SeeAlso: FEM_tutorial/it
 ---
 
 # FEM ResultsPurge/it

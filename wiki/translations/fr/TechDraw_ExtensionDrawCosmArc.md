@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ExtensionDrawCosmArc
    Name/fr: TechDraw Arc
-   MenuLocation: TechDraw - Extensions : taraudages/filetages - Arc
-   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   MenuLocation: TechDraw -> Extensions : taraudages/filetages -> Arc
+   Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.20
-   SeeAlso: [TechDraw Cercle](TechDraw_ExtensionDrawCosmCircle/fr.md)
+   SeeAlso: TechDraw_ExtensionDrawCosmCircle/fr
 ---
 
 # TechDraw ExtensionDrawCosmArc/fr

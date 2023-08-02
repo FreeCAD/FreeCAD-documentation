@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher SelectElementsAssociatedWithConstraints
    Name/fr: Sketcher Éléments associés aux contraintes
-   MenuLocation: Esquisse - Outils d'esquisse - Sélectionner les éléments associés aux contraintes 
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   MenuLocation: Esquisse -> Outils d'esquisse -> Sélectionner les éléments associés aux contraintes 
+   Workbenches: Sketcher_Workbench/fr
    Shortcut: **Z** **E**
    Version: 0.15
 ---

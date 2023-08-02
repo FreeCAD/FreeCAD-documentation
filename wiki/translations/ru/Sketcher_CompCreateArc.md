@@ -3,8 +3,8 @@
    Name: Sketcher_CreateArc
    Name/ru: Создать дугу
    Icon: Sketcher_CompCreateArc.png
-   MenuLocation: Нет (только на панели инструментов)
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation: Нет 
+   Workbenches: Sketcher_Workbench/ru
 ---
 
 # Sketcher CompCreateArc/ru

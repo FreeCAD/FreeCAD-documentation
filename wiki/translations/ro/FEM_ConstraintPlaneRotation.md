@@ -1,6 +1,6 @@
 # FEM ConstraintPlaneRotation/ro
 ---
-- GuiCommand:   Name: FEM ConstraintPlaneRotation   Name/ro: FEM ConstraintPlaneRotation   MenuLocation: Model - Mechanical Constraints - Constraint plane rotation   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
+- GuiCommand:   Name: FEM ConstraintPlaneRotation   Name/ro: FEM ConstraintPlaneRotation   MenuLocation: Model -> Mechanical Constraints -> Constraint plane rotation   ---
 
 
 </div>

@@ -3,8 +3,8 @@
 - GuiCommand:
    Name: OpenSCAD Minkowski
    Name/ru: OpenSCAD Minkowski
-   MenuLocation: OpenSCAD - Minkowski‏‎
-   Workbenches: [OpenSCAD](OpenSCAD_Workbench/ru.md)
+   MenuLocation: OpenSCAD -> Minkowski‏‎
+   Workbenches: OpenSCAD_Workbench/ru
    Shortcut: нет
    SeeAlso: 
 

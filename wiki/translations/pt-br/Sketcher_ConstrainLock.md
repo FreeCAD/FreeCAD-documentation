@@ -2,9 +2,9 @@
 - GuiCommand:-br
    Name: Sketcher ConstrainLock
    Name/pt-br: Sketcher ConstrainLock
-   Workbenches: [Sketcher](Sketcher_Workbench/pt-br.md), [PartDesign](PartDesign_Workbench/pt-br.md)
-   MenuLocation: Sketch - Sketcher constraints - Constrain lock
-   SeeAlso: [Sketcher Constrain Block](Sketcher_ConstrainBlock.md)
+   Workbenches: Sketcher Workbench/pt-br, PartDesign Workbench/pt-br
+   MenuLocation: Sketch -> Sketcher constraints -> Constrain lock
+   SeeAlso: Sketcher_ConstrainBlock
 ---
 
 # Sketcher ConstrainLock/pt-br

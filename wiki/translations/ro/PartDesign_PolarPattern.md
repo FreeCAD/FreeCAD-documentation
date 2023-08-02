@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: PartDesign PolarPattern
    Name/ro: PartDesign PolarPattern
-   Workbenches: [PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation: PartDesign - PolarPattern
+   Workbenches: PartDesign Workbench/ro
+   MenuLocation: PartDesign -> PolarPattern
 ---
 
 # PartDesign PolarPattern/ro

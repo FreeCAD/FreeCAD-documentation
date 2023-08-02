@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: PartDesign Fillet
    Name/de: PartDesign Verrundung
-   MenuLocation: Part Design - Modifikationen - Verrundung
-   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso: [PartDesign Fase](PartDesign_Chamfer/de.md)
+   MenuLocation: Part Design -> Modifikationen -> Verrundung
+   Workbenches: PartDesign_Workbench/de
+   SeeAlso: PartDesign_Chamfer/de
 ---
 
 # PartDesign Fillet/de

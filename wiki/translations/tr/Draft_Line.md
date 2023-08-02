@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Line
    Name/tr: Çizgi
-   MenuLocation: Taslak - Çizgi
-   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   MenuLocation: Taslak -> Çizgi
+   Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **L** **I**
    Version: 0.7
-   SeeAlso: [Tel](Draft_Wire/tr.md),[Nokta](Draft_Point/tr.md)
+   SeeAlso: Draft Wire/tr,Draft Point/tr
 ---
 
 # Draft Line/tr

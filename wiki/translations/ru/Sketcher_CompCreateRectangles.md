@@ -3,8 +3,8 @@
    Name/ru: Создать прямоугольник
    Name: Sketcher_CompCreateRectangles
    Icon: Sketcher_CompCreateRectangles.png
-   MenuLocation: Нет (только на панели инструментов)
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation: Нет 
+   Workbenches: Sketcher_Workbench/ru
    Version :  0.20
 ---
 

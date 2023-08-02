@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std Copy
    Name/fr: Std Copier
-   MenuLocation: Édition - Copier
+   MenuLocation: Édition -> Copier
    Workbenches: Tous
    Shortcut: **Ctrl**+**C**
-   SeeAlso: [Std Couper](Std_Cut/fr.md), [Std Coller](Std_Paste/fr.md), [Std Dupliquer la sélection](Std_DuplicateSelection/fr.md)
+   SeeAlso: Std_Cut/fr, Std_Paste/fr, Std_DuplicateSelection/fr
 ---
 
 # Std Copy/fr

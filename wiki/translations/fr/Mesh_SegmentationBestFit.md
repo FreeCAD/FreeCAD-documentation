@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Mesh SegmentationBestFit
    Name/fr: Mesh Segmentation adaptée
-   MenuLocation: Maillages - Créer des segments de maillage de surfaces ajustées...
-   Workbenches: [Mesh](Mesh_Workbench/fr.md)
-   SeeAlso: [Mesh Segmentation](Mesh_Segmentation/fr.md)
+   MenuLocation: Maillages -> Créer des segments de maillage de surfaces ajustées...
+   Workbenches: Mesh_Workbench/fr
+   SeeAlso: Mesh_Segmentation/fr
 ---
 
 # Mesh SegmentationBestFit/fr

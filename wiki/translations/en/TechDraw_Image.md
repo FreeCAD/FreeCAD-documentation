@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: TechDraw Image
-   MenuLocation: TechDraw - TechDraw Views - Insert Bitmap Image
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
-   SeeAlso: [TechDraw SVG Symbol](TechDraw_Symbol.md)
+   MenuLocation: TechDraw -> TechDraw Views -> Insert Bitmap Image
+   Workbenches: TechDraw_Workbench
+   SeeAlso: TechDraw_Symbol
 ---
 
 # TechDraw Image/en

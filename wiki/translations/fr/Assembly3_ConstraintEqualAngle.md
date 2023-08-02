@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintEqualAngle
    Name/fr: Assembly3 Contrainte égalité angle
    Icon: Assembly_ConstraintEqualAngle.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 ConstraintEqualAngle/fr

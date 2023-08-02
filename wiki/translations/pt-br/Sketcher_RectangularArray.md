@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Sketcher RectangularArray
-   MenuLocation: Sketch - Sketcher tools - Rectangular array
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch -> Sketcher tools -> Rectangular array
+   Workbenches: Sketcher_Workbench
    Shortcut: **Z** **A**
    Version: 0.16
 ---

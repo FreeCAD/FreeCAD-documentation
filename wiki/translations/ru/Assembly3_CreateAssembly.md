@@ -3,8 +3,8 @@
    Name: Assembly3 CreateAssembly
    Name/ru: Assembly3 CreateAssembly
    Icon: Assembly_New_Assembly.svg
-   MenuLocation: Assembly3 - Create assembly
-   Workbenches: [Assembly3](Assembly3_Workbench.md)
+   MenuLocation: Assembly3 -> Create assembly
+   Workbenches: Assembly3_Workbench
    Shortcut: **A** **N**
 ---
 

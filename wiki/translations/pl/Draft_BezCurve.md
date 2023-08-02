@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft BezCurve
    Name/pl: Draft: Krzywa Beziera
-   MenuLocation: Drafting - Narzędzia Beziera - Krzywa Beziera
-   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   MenuLocation: Drafting -> Narzędzia Beziera -> Krzywa Beziera
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **B** **Z**
    Version: 0.14
-   SeeAlso: [CubicBezCurve](Draft_CubicBezCurve/pl.md), [Krzywa złożona](Draft_BSpline/pl.md)
+   SeeAlso: Draft_CubicBezCurve/pl, Draft_BSpline/pl
 ---
 
 # Draft BezCurve/pl

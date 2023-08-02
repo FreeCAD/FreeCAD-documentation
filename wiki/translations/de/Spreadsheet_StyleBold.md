@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Spreadsheet StyleBold
    Name/de: Kalkulationstabelle StilFett
-   Workbenches: [Tabellenkalkulation](Spreadsheet_Workbench/de.md)
-   MenuLocation: Kalkulationstabelle - Stile - Fetter Text
+   Workbenches: Spreadsheet_Workbench/de
+   MenuLocation: Kalkulationstabelle -> Stile -> Fetter Text
    Version: 0.17
 ---
 

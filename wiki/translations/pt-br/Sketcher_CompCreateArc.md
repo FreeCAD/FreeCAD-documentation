@@ -2,8 +2,8 @@
 - GuiCommand:-br
    Name//pt-br: Sketcher Arcs
    Empty: 1
-   Workbenches: [Sketcher](Sketcher_Workbench/pt-br.md)
-   MenuLocation: None (toolbar only)
+   Workbenches: Sketcher Workbench/pt-br
+   MenuLocation: None 
 ---
 
 # Sketcher CompCreateArc/pt-br

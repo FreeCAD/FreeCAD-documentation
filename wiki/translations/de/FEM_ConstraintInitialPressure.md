@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM ConstraintInitialPressure
    Name/de: FEM StartbedingungDruck
-   MenuLocation: Model - Fluid-Randbedingungen - Constraint initial pressure
-   Workbenches: [FEM](FEM_Workbench/de.md)
+   MenuLocation: Model -> Fluid-Randbedingungen -> Constraint initial pressure
+   Workbenches: FEM_Workbench/de
    Version: 0.21
-   SeeAlso: [FEM StartbedingungStrömungsgeschwindigkeit](FEM_ConstraintInitialFlowVelocity/de.md)
+   SeeAlso: FEM_ConstraintInitialFlowVelocity/de
 ---
 
 # FEM ConstraintInitialPressure/de

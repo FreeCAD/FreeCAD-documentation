@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch 3Views
    Name/it: 3 Viste da mesh
-   MenuLocation: Arch - Utilità - 3 Viste da mesh
-   Workbenches: [Arch](Arch_Workbench/it.md)
-   SeeAlso: [Dividi Mesh](Arch_SplitMesh/it.md), [Da Mesh a Forma](Arch_MeshToShape/it.md)
+   MenuLocation: Arch -> Utilità -> 3 Viste da mesh
+   Workbenches: Arch_Workbench/it
+   SeeAlso: Arch SplitMesh/it, Arch MeshToShape/it
 ---
 
 # Arch 3Views/it

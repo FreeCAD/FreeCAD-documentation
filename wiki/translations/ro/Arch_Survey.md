@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch Survey
    Name/ro: Arch Survey
-   MenuLocation: Arch - Survey
-   Workbenches: [Arch](Arch_Workbench/ro.md)
-   SeeAlso: [FCInfo (macro)](Macro_FCInfo/ro.md)
+   MenuLocation: Arch -> Survey
+   Workbenches: Arch_Workbench/ro
+   SeeAlso: Macro FCInfo/ro
 ---
 
 # Arch Survey/ro

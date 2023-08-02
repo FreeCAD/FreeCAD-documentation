@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Sketcher ConstrainLock
-   MenuLocation: Sketch - Sketcher constraints - Constrain lock
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch -> Sketcher constraints -> Constrain lock
+   Workbenches: Sketcher_Workbench
    Shortcut: **K** **L**
-   SeeAlso: [Sketcher Constrain Block](Sketcher_ConstrainBlock.md)
+   SeeAlso: Sketcher_ConstrainBlock
 ---
 
 # Sketcher ConstrainLock/en

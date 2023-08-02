@@ -4,7 +4,7 @@
    Name: Sketcher_Fillets
    Icon: Sketcher_CompCreateFillets.png
    MenuLocation: 
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   Workbenches: Sketcher_Workbench/ru
    Version: 0.19
 ---
 

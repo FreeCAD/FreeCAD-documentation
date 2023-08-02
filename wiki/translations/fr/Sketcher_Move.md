@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher Move
    Name/fr: Sketcher Déplacer
-   MenuLocation: Esquisse - Outils d'esquisse - Déplacer
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   MenuLocation: Esquisse -> Outils d'esquisse -> Déplacer
+   Workbenches: Sketcher_Workbench/fr
    Shortcut: **Z** **M**
    Version: 0.18
-   SeeAlso: [Sketcher Clone](Sketcher_Clone/fr.md), [Sketcher Copie](Sketcher_Copy/fr.md)
+   SeeAlso: Sketcher_Clone/fr, Sketcher_Copy/fr
 ---
 
 # Sketcher Move/fr

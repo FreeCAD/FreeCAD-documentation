@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft PolarArray
    Name/de: Draft PolareAnordnung
-   MenuLocation: Änderung - Array tools - Polare Anordnung
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   MenuLocation: Änderung -> Array tools -> Polare Anordnung
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Version: 0.19
-   SeeAlso: [Draft RechtwinkligeAnordnung](Draft_OrthoArray/de.md), [Draft KreisAnordnung](Draft_CircularArray/de.md), [Draft PfadAnordnung](Draft_PathArray/de.md), [Draft PfadVerknüpfungsanordnung](Draft_PathLinkArray/de.md), [Draft Punktanordnung](Draft_PointArray/de.md), [Draft PunktVerknüpfungsanordnung](Draft_PointLinkArray/de.md)
+   SeeAlso: Draft_OrthoArray/de, Draft_CircularArray/de, Draft_PathArray/de, Draft_PathLinkArray/de, Draft_PointArray/de, Draft_PointLinkArray/de
 ---
 
 # Draft PolarArray/de

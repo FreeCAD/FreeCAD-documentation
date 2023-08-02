@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Слой
    Name: Draft_Layer
-   MenuLocation: Utilities - Слой
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Utilities -> Слой
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Version: 0.19
-   SeeAlso: [Автогруппировка](Draft_AutoGroup/ru.md)
+   SeeAlso: Draft_AutoGroup/ru
 ---
 
 # Draft Layer/ru

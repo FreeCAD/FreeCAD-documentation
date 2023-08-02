@@ -3,10 +3,10 @@
 - GuiCommand:
    Name: Arch SectionPlane
    Name/it: Piano di sezione
-   Workbenches: [Architettura](Arch_Workbench/it.md)
-   MenuLocation: Arch - Piano di sezione
+   Workbenches: Arch_Workbench/it
+   MenuLocation: Arch -> Piano di sezione
    Shortcut: **S** **P**
-   SeeAlso: [Vista 2D](Draft_Shape2DView/it.md), [Vista di Arch](TechDraw_ArchView/it.md)---
+   SeeAlso: Draft Shape2DView/it, TechDraw_ArchView/it---
 
 
 </div>

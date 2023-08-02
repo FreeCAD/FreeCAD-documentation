@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part ElementCopy
    Name/de: Part_ElementKopie
-   MenuLocation: Part - Erzeuge eine Kopie - Erzeuge Formelement Kopie
-   Workbenches: [Arbeitsbereich Part](Part_Workbench/de.md)
+   MenuLocation: Part -> Erzeuge eine Kopie -> Erzeuge Formelement Kopie
+   Workbenches: Part Workbench/de
    Version: 0.19
-   Siehe auch: [Part_EinfacheKopie](Part_SimpleCopy/de.md), [Part_TransformierteKopie](Part_TransformedCopy/de.md), [Part_FormAufbereiten](Part_RefineShape/de.md)
+   Siehe auch: Part_SimpleCopy/de, Part_TransformedCopy/de, Part_RefineShape/de
 ---
 
 # Part ElementCopy/de

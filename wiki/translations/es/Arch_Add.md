@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch Add
    Name/es: Arch Add
-   Workbenches: [Entorno de Arquitectura](Arch_Workbench/es.md)
-   MenuLocation: Arquitectura - Adicción
-   SeeAlso: [Arch Suprimir](Arch_Remove/es.md)
+   Workbenches: Arch_Workbench/es
+   MenuLocation: Arquitectura -> Adicción
+   SeeAlso: Arch Remove/es
 ---
 
 # Arch Add/es

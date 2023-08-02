@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Arch Rebar Footing Reinforcement
-   MenuLocation: Arch - Rebar tools - Footing Reinforcement<br>3D/BIM - Reinforcement tools - Footing Reinforcement
-   Workbenches: [Arch](Arch_Workbench.md)
-   SeeAlso: [Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md)
+   MenuLocation: Arch -> Rebar tools -> Footing Reinforcement<br>3D/BIM -> Reinforcement tools -> Footing Reinforcement
+   Workbenches: Arch_Workbench
+   SeeAlso: Reinforcement_Workbench, Arch_Rebar
 ---
 
 # Arch Rebar Footing Reinforcement

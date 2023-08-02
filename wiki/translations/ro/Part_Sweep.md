@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part Sweep
    Name/ro: Part Sweep
-   MenuLocation: Part - Sweep...
+   MenuLocation: Part -> Sweep...
 |
-   Workbenches: [Part](Part_Workbench/ro.md)
-   SeeAlso: [Part Loft](Part_Loft/ro.md)
+   Workbenches: Part_Workbench/ro
+   SeeAlso: Part Loft/ro
 ---
 
 # Part Sweep/ro

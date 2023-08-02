@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part BoxSelection
    Name/fr: Part Sélection par zone
-   MenuLocation: Part - Sélection par boîte
-   Workbenches: [Part](Part_Workbench/fr.md)
+   MenuLocation: Part -> Sélection par boîte
+   Workbenches: Part_Workbench/fr
    Version: 0.18
-   SeeAlso: [Std Sélection par boîte](Std_BoxSelection/fr.md), [Std Sélection d'éléments](Std_BoxElementSelection/fr.md), [Std Tout sélectionner](Std_SelectAll/fr.md)
+   SeeAlso: Std_BoxSelection/fr, Std_BoxElementSelection/fr, Std_SelectAll/fr
 ---
 
 # Part BoxSelection/fr

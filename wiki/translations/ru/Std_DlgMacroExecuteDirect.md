@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name/ru: Выполнить макрос
-   MenuLocation: Макросы - Выполнить макрос
+   MenuLocation: Макросы -> Выполнить макрос
    Workbenches: Все
    Shortcut: **Ctrl**+**F6**
-   SeeAlso: [Макросы...](Std_DlgMacroExecute/ru.md)
+   SeeAlso: Std_DlgMacroExecute/ru
 ---
 
 # Std DlgMacroExecuteDirect/ru

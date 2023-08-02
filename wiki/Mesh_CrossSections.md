@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Mesh CrossSections
-   MenuLocation: Meshes - Cutting - Cross-sections..
-   Workbenches: [Mesh](Mesh_Workbench.md)
+   MenuLocation: Meshes -> Cutting -> Cross-sections..
+   Workbenches: Mesh_Workbench
    Version: 0.19
-   SeeAlso: [Mesh SectionByPlane](Mesh_SectionByPlane.md)
+   SeeAlso: Mesh_SectionByPlane
 ---
 
 # Mesh CrossSections

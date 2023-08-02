@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ExtensionDrawCosmCircle
    Name/pl: Rysunek Techniczny: Rozszerzenie Dodaj okrąg kosmetyczny
-   MenuLocation: Rysunek Techniczny - Rozszerzenia: Linie środka / Gwinty - Dodaj okrąg kosmetyczny
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   MenuLocation: Rysunek Techniczny -> Rozszerzenia: Linie środka / Gwinty -> Dodaj okrąg kosmetyczny
+   Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20
-   SeeAlso: [Dodaj łuk kosmetyczny](TechDraw_ExtensionDrawCosmArc/pl.md)
+   SeeAlso: TechDraw_ExtensionDrawCosmArc/pl
 ---
 
 # TechDraw ExtensionDrawCosmCircle/pl

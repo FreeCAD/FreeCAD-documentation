@@ -3,7 +3,7 @@
    Name: Part_Mirror
    Name/ru: Зеркальное отражение
    MenuLocation: Деталь -> Зеркальное отражение...
-   Workbenches: [Верстак Part](Part_Workbench/ru.md)
+   Workbenches: Part_Workbench/ru
    SeeAlso: 
 ---
 

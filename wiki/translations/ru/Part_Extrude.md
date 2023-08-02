@@ -3,8 +3,8 @@
    Name: Part_Extrude
    Name/ru: Выдавить...
    MenuLocation: Деталь -> Выдавить...
-   Workbenches: [Part(Деталь)](Part_Workbench/ru.md)
-   SeeAlso: [Draft Trimex](Draft_Trimex/ru.md)
+   Workbenches: Part_Workbench/ru
+   SeeAlso: Draft_Trimex/ru
 ---
 
 # Part Extrude/ru

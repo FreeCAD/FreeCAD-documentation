@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: OpenSCAD MirrorMeshFeature
    Name/fr: OpenSCAD Miroir du maillage 
-   MenuLocation: OpenSCAD - Miroir du maillage
-   Workbenches: [OpenSCAD](OpenSCAD_Workbench/fr.md)
-   SeeAlso: [Part Mise en miroir](Part_Mirror/fr.md)
+   MenuLocation: OpenSCAD -> Miroir du maillage
+   Workbenches: OpenSCAD_Workbench/fr
+   SeeAlso: Part_Mirror/fr
 ---
 
 # OpenSCAD MirrorMeshFeature/fr

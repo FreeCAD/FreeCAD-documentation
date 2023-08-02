@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft FlipDimension
    Name/tr: Boyutu çevir
-   MenuLocation: Draft - Utilities - Flip Dimension
-   Workbenches: [Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
-   SeeAlso: [Dimension](Draft_Dimension/tr.md)
+   MenuLocation: Draft -> Utilities -> Flip Dimension
+   Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
+   SeeAlso: Draft Dimension/tr
 ---
 
 # Draft FlipDimension/tr

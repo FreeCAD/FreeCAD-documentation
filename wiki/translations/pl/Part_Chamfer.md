@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Chamfer
    Name/pl: Część: Sfazowanie
-   MenuLocation: Część - Sfazowanie ...
-   Workbenches: [Część](Part_Workbench/pl.md)
-   SeeAlso: [Zaokrąglenie](Part_Fillet/pl.md)
+   MenuLocation: Część -> Sfazowanie ...
+   Workbenches: Part_Workbench/pl
+   SeeAlso: Part_Fillet/pl
 ---
 
 # Part Chamfer/pl

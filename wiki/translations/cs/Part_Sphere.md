@@ -1,6 +1,6 @@
 # Part Sphere/cs
 ---
-- GuiCommand:   Name: Part Sphere   Name/cs: Díl Koule   MenuLocation: Díl -> Koule   |Workbenches: [SeeAlso: [[Part_CreatePrimitives/cs|Díl Vytváření zákl.geom.tvarů](Part_Workbench/cs___Modul_Díl]],_Kompletace.md)---
+- GuiCommand:   Name: Part Sphere   Name/cs: Díl Koule   MenuLocation: Díl -> Koule   , Kompletace---
 
 
 </div>

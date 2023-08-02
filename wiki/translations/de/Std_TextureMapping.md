@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std TextureMapping
    Name/de: Std Texturabbildung
-   MenuLocation: Ansicht - Texturabbildung...
+   MenuLocation: Ansicht -> Texturabbildung...
    Workbenches: Alle
 ---
 

@@ -1,6 +1,6 @@
 # Sketcher CreatePolyline/es
 ---
-- GuiCommand:   Name: Sketcher CreatePolyline   Workbenches: [MenuLocation: Croquizador- Geometrías del croquizador - Crear polilínea   SeeAlso: [[Sketcher CreateLine/es|Línea](Sketcher_Workbench/es___Croquizador]].md)---
+- GuiCommand:   Name: Sketcher CreatePolyline   Workbenches: Sketcher Workbench/es   Croquizador---
 
 
 </div>

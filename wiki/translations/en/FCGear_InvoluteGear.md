@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: FCGear InvoluteGear
-   MenuLocation: Gear - Involute Gear
-   Workbenches: [FCGear](FCGear_Workbench.md)
+   MenuLocation: Gear -> Involute Gear
+   Workbenches: FCGear_Workbench
    Shortcut: None
    Version: v0.16
-   SeeAlso: [FCGear CycloideGear](FCGear_CycloideGear.md)
+   SeeAlso: FCGear_CycloideGear
 ---
 
 # FCGear InvoluteGear/en

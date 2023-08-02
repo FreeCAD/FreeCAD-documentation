@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Sketcher CreateRegularPolygon
-   MenuLocation: Sketch - Sketcher geometries - Create regular polygon
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch -> Sketcher geometries -> Create regular polygon
+   Workbenches: Sketcher_Workbench
    Shortcut: **G** **P** **R**
 ---
 

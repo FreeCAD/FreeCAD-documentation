@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ConstrainDistance
    Name/it: Distanza
-   Workbenches: [Schizzo](Sketcher_Workbench/it.md)
-   MenuLocation: Sketch - Vincolo - Distanza
+   Workbenches: Sketcher Workbench/it
+   MenuLocation: Sketch -> Vincolo -> Distanza
    Shortcut: **Maiusc** + **D**
-   SeeAlso: [Distanza Orizzontale](Sketcher_ConstrainDistanceX/it.md), [Distanza Verticale](Sketcher_ConstrainDistanceY/it.md)
+   SeeAlso: Sketcher ConstrainDistanceX/it, Sketcher ConstrainDistanceY/it
 ---
 
 # Sketcher ConstrainDistance/it

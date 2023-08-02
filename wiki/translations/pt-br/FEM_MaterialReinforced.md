@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: FEM MaterialReinforced
-   MenuLocation:  Model - Materials - Reinforced material (concrete)
-   Workbenches: [FEM](FEM_Workbench.md)
-   SeeAlso: [FEM tutorial](FEM_tutorial.md)
+   MenuLocation:  Model -> Materials -> Reinforced material 
+   Workbenches: FEM_Workbench
+   SeeAlso: FEM_tutorial
 ---
 
 # FEM MaterialReinforced/pt-br

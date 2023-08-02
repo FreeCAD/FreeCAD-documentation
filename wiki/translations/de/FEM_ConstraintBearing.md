@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: FEM ConstraintBearing
    Name/de: FEM RandbedingungWälzlager
-   MenuLocation: Modell - Randbedingungen ohne Solver - Randbedingung Wälzlager
-   Workbenches: [FEM](FEM_Workbench/de.md)
-   SeeAlso: [FEM Randbedingung Zahnrad](FEM_ConstraintGear/de.md), [FEM Randbedingung Rolle](FEM_ConstraintPulley/de.md)
+   MenuLocation: Modell -> Randbedingungen ohne Solver -> Randbedingung Wälzlager
+   Workbenches: FEM_Workbench/de
+   SeeAlso: FEM_ConstraintGear/de, FEM_ConstraintPulley/de
 ---
 
 # FEM ConstraintBearing/de

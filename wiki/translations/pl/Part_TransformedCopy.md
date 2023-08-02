@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part TransformedCopy
    Name/pl: Część: Utwórz przekształconą kopię
-   MenuLocation: Część - Utwórz kopię - Utwórz przekształconą kopię
-   Workbenches: [Część](Part_Workbench/pl.md)
+   MenuLocation: Część -> Utwórz kopię -> Utwórz przekształconą kopię
+   Workbenches: Part_Workbench/pl
    Version: 0.19
-   SeeAlso: [Utwórz prostą kopię](Part_SimpleCopy/pl.md), [Utwórz kopię kształtu elementu](Part_ElementCopy/pl.md), [Udoskonal kształt](Part_RefineShape/pl.md)
+   SeeAlso: Part_SimpleCopy/pl, Part_ElementCopy/pl, Part_RefineShape/pl
 ---
 
 # Part TransformedCopy/pl

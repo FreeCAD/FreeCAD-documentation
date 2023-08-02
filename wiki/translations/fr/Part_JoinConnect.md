@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part JoinConnect
    Name/fr: Part Connecter des objets
-   MenuLocation: Part - Joindre - Connecter des objets
-   Workbenches: [Part](Part_Workbench/fr.md)
+   MenuLocation: Part -> Joindre -> Connecter des objets
+   Workbenches: Part_Workbench/fr
    Version: 0.16
-   SeeAlso: [Part Intégrer](Part_JoinEmbed/fr.md), [Part Découper](Part_JoinCutout/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)
+   SeeAlso: Part_JoinEmbed/fr, Part_JoinCutout/fr, Part_Boolean/fr, Part_Thickness/fr
 ---
 
 # Part JoinConnect/fr

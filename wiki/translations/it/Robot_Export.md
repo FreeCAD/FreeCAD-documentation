@@ -1,6 +1,6 @@
 # Robot Export/it
 ---
-- GuiCommand:   Name: Robot Export   Name/it: Esporta traiettoria   Workbenches: [[Robot_Workbench/it   Robot]]|MenuLocation: Robot - Esporta traiettoria---
+- GuiCommand:   Name: Robot Export   Name/it: Esporta traiettoria   Workbenches: Robot_Workbench/it   Robot|MenuLocation: Robot -> Esporta traiettoria---
 
 
 </div>

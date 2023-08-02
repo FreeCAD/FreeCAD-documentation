@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Part SliceApart
-   MenuLocation: Part - Split - Slice apart
-   Workbenches: [Part](Part_Workbench.md)
+   MenuLocation: Part -> Split -> Slice apart
+   Workbenches: Part_Workbench
    Version: 0.18
-   SeeAlso: [Part Slice to compound](Part_Slice.md), [Part Explode Compound](Part_ExplodeCompound.md)
+   SeeAlso: Part_Slice, Part_ExplodeCompound
 ---
 
 # Part SliceApart/pt-br

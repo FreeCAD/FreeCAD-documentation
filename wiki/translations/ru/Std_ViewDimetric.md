@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std_ViewDimetric
    Name/ru: Диметрическая
-   MenuLocation: Вид - Стандартные виды - Axonometric - Диметрическая
+   MenuLocation: Вид -> Стандартные виды -> Axonometric -> Диметрическая
    Workbenches: Все
-   SeeAlso: [Изометрическая](Std_ViewIsometric/ru.md),<br> [Триметрическая](Std_ViewTrimetric/ru.md)
+   SeeAlso: Std_ViewIsometric/ru,<br> Std_ViewTrimetric/ru
 ---
 
 # Std ViewDimetric/ru

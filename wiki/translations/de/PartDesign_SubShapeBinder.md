@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign SubShapeBinder
    Name/de: PartDesign Teilformbinder
-   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
-   MenuLocation: Part Design - Formbinder für Teilobjekt erstellen
+   Workbenches: PartDesign_Workbench/de
+   MenuLocation: Part Design -> Formbinder für Teilobjekt erstellen
    Version: 0.19
-   SeeAlso: [PartDesign Formbinder](PartDesign_ShapeBinder/de.md), [PartDesign Klon](PartDesign_Clone/de.md)
+   SeeAlso: PartDesign_ShapeBinder/de, PartDesign_Clone/de
 ---
 
 # PartDesign SubShapeBinder/de

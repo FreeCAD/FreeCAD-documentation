@@ -1,6 +1,6 @@
 # Plot Positions/ro
 ---
-- GuiCommand:   Name: Plot Positions   MenuLocation: Plot - Positions   |Workbenches: [[Plot_Workbench   Plot]]|Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: Plot Positions   MenuLocation: Plot -> Positions   |Shortcut:    SeeAlso: ---
 
 
 </div>

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path Sanity
    Name/fr: Path Rechercher des erreurs
-   MenuLocation: Path - Vérifier les erreurs courantes dans la tâche du parcours
-   Workbenches: [Path](Path_Workbench/fr.md)
+   MenuLocation: Path -> Vérifier les erreurs courantes dans la tâche du parcours
+   Workbenches: Path_Workbench/fr
    Shortcut: **P** **S**
    Version: 0.19
 ---

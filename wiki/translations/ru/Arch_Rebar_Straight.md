@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Прямая арматура
    Name: Arch_Rebar_Straight
-   MenuLocation: Arch - Rebar tools - Straight Rebar<br>3D/BIM - Reinforcement tools - Straight Rebar
-   Workbenches: [Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
+   MenuLocation: Arch -> Rebar tools -> Straight Rebar<br>3D/BIM -> Reinforcement tools -> Straight Rebar
+   Workbenches: Arch_Workbench/ru, BIM_Workbench/ru
    Version: 0.17
-   SeeAlso: [Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [Arch Rebar BOM](Arch_Rebar_BOM/ru.md)
+   SeeAlso: Reinforcement_Workbench/ru, Arch_Rebar/ru, Arch_Rebar_BOM/ru
 ---
 
 # Arch Rebar Straight/ru

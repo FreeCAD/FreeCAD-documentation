@@ -1,6 +1,6 @@
 # Sketcher CreateSlot/ro
 ---
-- GuiCommand:   Name: Sketcher CreateSlot   Name/ro: Sketcher CreateSlot   Workbenches: [[Sketcher Workbench/ro   Sketcher]]|MenuLocation: Sketch - Sketcher geometries - Create slot   Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: Sketcher CreateSlot   Name/ro: Sketcher CreateSlot   Workbenches: Sketcher Workbench/ro   Sketcher|MenuLocation: Sketch -> Sketcher geometries -> Create slot   Shortcut:    SeeAlso: ---
 
 
 </div>

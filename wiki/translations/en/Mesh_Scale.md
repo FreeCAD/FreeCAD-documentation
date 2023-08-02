@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Mesh Scale
-   MenuLocation: Meshes - Scale...
-   Workbenches: [Mesh](Mesh_Workbench.md)
+   MenuLocation: Meshes -> Scale...
+   Workbenches: Mesh_Workbench
 ---
 
 # Mesh Scale/en

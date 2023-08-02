@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintLineHorizontal
    Name/fr: Assembly3 Contrainte ligne horizontale
    Icon: Assembly_ConstraintLineHorizontal.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 ConstraintLineHorizontal/fr

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ro: Sketcher Taie marginea
    Icon: Sketcher Trimming.png
-   Workbenches: [Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation: Sketch - Geometria schitei - Taie marginea
+   Workbenches: Sketcher Workbench/ro
+   MenuLocation: Sketch -> Geometria schitei -> Taie marginea
    Version: 0.12
-   SeeAlso: [Prelungirea muchiei](Sketcher_Extend/ro.md)
+   SeeAlso: Sketcher Extend/ro
 ---
 
 # Sketcher Trimming/ro

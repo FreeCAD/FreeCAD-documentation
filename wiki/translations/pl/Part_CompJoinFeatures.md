@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part CompJoinFeatures
    Name/pl: Część: Połącz obiekty
-   MenuLocation: Część - Połącz
-   Workbenches: [Część](Part_Workbench/pl.md)
+   MenuLocation: Część -> Połącz
+   Workbenches: Part_Workbench/pl
    Version: 0.16
-   SeeAlso: [Połącz obiekty](Part_JoinConnect/pl.md), [Osadź obiekty](Part_JoinEmbed/pl.md), [Wycięcie dla obiektu](Part_JoinCutout/pl.md), [Operacja logiczna](Part_Boolean/pl.md), [Grubość](Part_Thickness/pl.md)
+   SeeAlso: Part_JoinConnect/pl, Part_JoinEmbed/pl, Part_JoinCutout/pl, Part_Boolean/pl, Part_Thickness/pl
 ---
 
 # Part CompJoinFeatures/pl

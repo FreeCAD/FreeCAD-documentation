@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std Windows
    Name/pl: Std: Okna
-   MenuLocation: Okna - Okna ...
+   MenuLocation: Okna -> Okna ...
    Workbenches: wszystkie
-   SeeAlso: [Następne](Std_ActivateNextWindow/pl.md), [Poprzednie](Std_ActivatePrevWindow/pl.md)
+   SeeAlso: Std_ActivateNextWindow/pl, Std_ActivatePrevWindow/pl
 ---
 
 # Std Windows/pl

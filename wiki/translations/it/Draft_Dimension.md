@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Dimension
    Name/it: Quota
-   MenuLocation: Draft - Quota
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Draft -> Quota
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **D** **I**
    Version: 0.8
-   SeeAlso: [Invertire la direzione delle quote](Draft_FlipDimension/it.md)
+   SeeAlso: Draft_FlipDimension/it
 ---
 
 # Draft Dimension/it

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ConstrainDistance
    Name/cs: Constraint Length
-   Workbenches: [Sketcher](Sketcher_Workbench/cs.md)
-   MenuLocation: Sketch - Vazby náčrtu - Vazba vzdálenosti
+   Workbenches: Sketcher Workbench/cs
+   MenuLocation: Sketch -> Vazby náčrtu -> Vazba vzdálenosti
    Shortcut: Shift + D
-   SeeAlso: [Constrain  horizontal distance](Sketcher_ConstrainDistanceX/cs.md), [Constrain vertical distance](Sketcher_ConstrainDistanceY/cs.md)
+   SeeAlso: Sketcher ConstrainDistanceX/cs, Sketcher ConstrainDistanceY/cs
 ---
 
 # Sketcher ConstrainDistance/cs

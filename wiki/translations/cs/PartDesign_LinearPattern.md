@@ -1,6 +1,6 @@
 # PartDesign LinearPattern/cs
 ---
-- GuiCommand:   Name: PartDesign_LinearPattern   Name/cs: PartDesign LinearPattern   Workbenches: [[PartDesign Workbench/cs   Návrh dílu]], Complete|MenuLocation: PartDesign -> LinearPattern---
+- GuiCommand:   Name: PartDesign_LinearPattern   Name/cs: PartDesign LinearPattern   Workbenches: PartDesign Workbench/cs   Návrh dílu, Complete|MenuLocation: PartDesign -> LinearPattern---
 
 
 </div>

@@ -3,9 +3,9 @@
    Name: Arch SectionPlane
    Name/ru: Arch SectionPlane
    MenuLocation: Архитектура -> Плоскость сечения
-   Workbenches: [Arch](Arch_Workbench/ru.md)
+   Workbenches: Arch_Workbench/ru
    Shortcut: **S** **P**
-   SeeAlso: [Draft Shape2DView](Draft_Shape2DView/ru.md), [TechDraw NewArch](TechDraw_ArchView/ru.md)
+   SeeAlso: Draft_Shape2DView/ru, TechDraw_ArchView/ru
 ---
 
 # Arch SectionPlane/ru

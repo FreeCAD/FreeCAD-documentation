@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Mesh EvaluateSolid
-   MenuLocation: Meshes - Analyze - Check solid mesh
-   Workbenches: [Mesh](Mesh_Workbench.md)
-   SeeAlso: [Arch SelectNonSolidMeshes](Arch_SelectNonSolidMeshes.md)
+   MenuLocation: Meshes -> Analyze -> Check solid mesh
+   Workbenches: Mesh_Workbench
+   SeeAlso: Arch_SelectNonSolidMeshes
 ---
 
 # Mesh EvaluateSolid/en

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Offset
    Name/pl: Rysunek Roboczy: Odsunięcie
-   MenuLocation: Modyfikacja - Odsunięcie
-   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   MenuLocation: Modyfikacja -> Odsunięcie
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **O** **S**
-   SeeAlso: [Odsunięcie 2D](Part_Offset2D/pl.md)
+   SeeAlso: Part_Offset2D/pl
 ---
 
 # Draft Offset/pl

@@ -5,7 +5,7 @@
    MenuLocation: Aucun
    Workbenches: Tous
    Version: 0.19
-   SeeAlso: [Std Créer un lien](Std_LinkMake/fr.md), [Std Créer un lien relatif](Std_LinkMakeRelative/fr.md), [Std Délier](Std_LinkUnlink/fr.md)
+   SeeAlso: Std_LinkMake/fr, Std_LinkMakeRelative/fr, Std_LinkUnlink/fr
 ---
 
 # Std LinkReplace/fr

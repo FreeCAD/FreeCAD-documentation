@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: TechDraw ExtensionRemovePrefixChar
    Name/pl: Rysunek Techniczny: Rozszerzenie Usuń przedrostek
-   MenuLocation: Rysunek Techniczny - Rozszerzenia: Wymiary - Usuń prefiks
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   MenuLocation: Rysunek Techniczny -> Rozszerzenia: Wymiary -> Usuń prefiks
+   Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20
    SeeAlso: 

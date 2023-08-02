@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Dimension
    Name/de: Draft Maß
-   MenuLocation: Anmerkung - Abmessung
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   MenuLocation: Anmerkung -> Abmessung
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **D** **I**
    Version: 0.8
-   SeeAlso: [Draft MaßKippen](Draft_FlipDimension/de.md)
+   SeeAlso: Draft_FlipDimension/de
 ---
 
 # Draft Dimension/de

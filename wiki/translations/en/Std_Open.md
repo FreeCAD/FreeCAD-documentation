@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Std Open
-   MenuLocation: File - Open...
+   MenuLocation: File -> Open...
    Workbenches: All
    Shortcut: **Ctrl**+**O**
-   SeeAlso: [Std Import](Std_Import.md), [Std New](Std_New.md)
+   SeeAlso: Std_Import, Std_New
 ---
 
 # Std Open/en

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: TechDraw Balloon
    Name/it: Pallinatura
-   MenuLocation: TechDraw - Pallinatura
-   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
+   MenuLocation: TechDraw -> Pallinatura
+   Workbenches: TechDraw_Workbench/it
    Version: 0.19
-   SeeAlso: [Annotazione](TechDraw_Annotation/it.md)
+   SeeAlso: TechDraw_Annotation/it
 ---
 
 # TechDraw Balloon/it

@@ -3,10 +3,10 @@
    Name: FEM PostCreateLinearizedStressesFilter
    Name/ru: FEM PostCreateLinearizedStressesFilter
    Icon: Fem-linearizedstresses.svg
-   MenuLocation:  Results - Linearized stresses filter
-   Workbenches: [FEM](FEM_Workbench/ru.md)
+   MenuLocation:  Results -> Linearized stresses filter
+   Workbenches: FEM_Workbench/ru
    Shortcut: 
-   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
+   SeeAlso: FEM_tutorial/ru
 ---
 
 # FEM PostFilterLinearizedStresses/ru

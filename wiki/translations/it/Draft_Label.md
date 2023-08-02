@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Label
    Name/it: Etichetta
-   MenuLocation: Annotazione - Etichetta
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Annotazione -> Etichetta
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **D** **L**
    Version: 0.17
-   SeeAlso: [Testo](Draft_Text/it.md), [Forma da testo](Draft_ShapeString/it.md)
+   SeeAlso: Draft_Text/it, Draft_ShapeString/it
 ---
 
 # Draft Label/it

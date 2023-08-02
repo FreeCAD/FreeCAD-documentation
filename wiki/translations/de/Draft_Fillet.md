@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Fillet
    Name/de: Draft Verrundung
-   MenuLocation: Entwurf - Verrundung
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   MenuLocation: Entwurf -> Verrundung
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **F** **I**
    Version: 0.19
-   SeeAlso: [Draft Linie](Draft_Line/de.md), [Draft Polylinie](Draft_Wire/de.md)
+   SeeAlso: Draft_Line/de, Draft_Wire/de
 ---
 
 # Draft Fillet/de

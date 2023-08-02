@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Sketcher Extend
-   MenuLocation: Sketch - Sketcher geometries - Extend edge
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch -> Sketcher geometries -> Extend edge
+   Workbenches: Sketcher_Workbench
    Shortcut: **G** **Q**
    Version: 0.17
-   SeeAlso: [Sketcher Trim edge](Sketcher_Trimming.md)
+   SeeAlso: Sketcher_Trimming
 ---
 
 # Sketcher Extend/en

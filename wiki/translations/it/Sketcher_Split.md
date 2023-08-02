@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Sketcher Split
-   MenuLocation: Sketch - Sketcher geometries - Split edge
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch -> Sketcher geometries -> Split edge
+   Workbenches: Sketcher_Workbench
    Shortcut: **G** **Z**
    Version: 0.20
-   SeeAlso: [Sketcher Trimming](Sketcher_Trimming.md)
+   SeeAlso: Sketcher_Trimming
 ---
 
 # Sketcher Split/it

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part CrossSections
    Name/pl: Część: Przekrój poprzeczny
-   MenuLocation: Część - Przekrój poprzeczny ...
-   Workbenches: [Część](Part_Workbench/pl.md)
-   SeeAlso: [Przekrój](Part_Section/pl.md)
+   MenuLocation: Część -> Przekrój poprzeczny ...
+   Workbenches: Part_Workbench/pl
+   SeeAlso: Part_Section/pl
 ---
 
 # Part CrossSections/pl

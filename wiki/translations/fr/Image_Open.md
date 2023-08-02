@@ -3,8 +3,8 @@
    Name: Image Open
    Name/fr: Image Ouvrir
    MenuLocation: 
-   Workbenches: [Image](Image_Workbench/fr.md)
-   SeeAlso: [Image Créer un plan d'image](Image_CreateImagePlane/fr.md), [Image Redimensionner une image](Image_Scaling/fr.md)
+   Workbenches: Image_Workbench/fr
+   SeeAlso: Image_CreateImagePlane/fr, Image_Scaling/fr
 ---
 
 # Image Open/fr

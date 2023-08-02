@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Mesh_RemoveComponents
-   MenuLocation: Meshes - Remove components...
-   Workbenches: [Mesh](Mesh_Workbench.md)
-   SeeAlso: [Mesh RemoveCompByHand](Mesh_RemoveCompByHand.md), [Arch SplitMesh](Arch_SplitMesh.md)
+   MenuLocation: Meshes -> Remove components...
+   Workbenches: Mesh_Workbench
+   SeeAlso: Mesh_RemoveCompByHand, Arch_SplitMesh
 ---
 
 # Mesh RemoveComponents

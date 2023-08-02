@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Mesh AddFacet
-   MenuLocation: Meshes - Add triangle
-   Workbenches: [Mesh](Mesh_Workbench.md)
-   SeeAlso: [Mesh FillupHoles](Mesh_FillupHoles.md), [Mesh FillInteractiveHole](Mesh_FillInteractiveHole.md)
+   MenuLocation: Meshes -> Add triangle
+   Workbenches: Mesh_Workbench
+   SeeAlso: Mesh_FillupHoles, Mesh_FillInteractiveHole
 ---
 
 # Mesh AddFacet/de

@@ -5,7 +5,7 @@
    MenuLocation: Kein
    Workbenches: Alle
    Version: 0.19
-   SeeAlso: [Std Part](Std_Part/de.md), [Std Gruppe](Std_Group/de.md), [Std VerknüpfungErstellen](Std_LinkMake/de.md)
+   SeeAlso: Std_Part/de, Std_Group/de, Std_LinkMake/de
 ---
 
 # Std LinkMakeRelative/de

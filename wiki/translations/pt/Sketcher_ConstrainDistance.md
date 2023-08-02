@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ConstrainDistance
    Name/pt: Restringir distância
-   Workbenches: [Sketcher](Sketcher_Workbench/pt.md)
-   MenuLocation: Sketch - Sketcher constraints - Constrain distance
+   Workbenches: Sketcher Workbench/pt
+   MenuLocation: Sketch -> Sketcher constraints -> Constrain distance
    Shortcut: Shift + D
-   SeeAlso: [Constraint HorizontalDistance](Sketcher_ConstrainDistanceX/pt.md), [Constraint VerticalDistance](Sketcher_ConstrainDistanceY/pt.md)
+   SeeAlso: Sketcher ConstrainDistanceX/pt, Sketcher ConstrainDistanceY/pt
 ---
 
 # Sketcher ConstrainDistance/pt

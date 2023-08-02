@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: FCGear CycloidRack
    Name/fr: FCGear Crémaillère cycloïde
-   MenuLocation: Gear - Cycloid Rack
-   Workbenches: [FCGear](FCGear_Workbench/fr.md)
+   MenuLocation: Gear -> Cycloid Rack
+   Workbenches: FCGear_Workbench/fr
    Shortcut: Aucun
    Version: 1.0
-   SeeAlso: [FCGear CycloidGear](FCGear_CycloidGear/fr.md)
+   SeeAlso: FCGear_CycloidGear/fr
 ---
 
 # FCGear CycloidRack/fr

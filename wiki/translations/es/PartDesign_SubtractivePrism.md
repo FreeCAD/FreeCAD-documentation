@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign SubtractivePrism
    Name/es: PartDesign Prisma Sustractivo
-   MenuLocation: Part Design - Crear una primitiva sustractiva - Prisma sustractivo
-   Workbenches: [PartDesign](PartDesign_Workbench/es.md)
+   MenuLocation: Part Design -> Crear una primitiva sustractiva -> Prisma sustractivo
+   Workbenches: PartDesign_Workbench/es
    Version: 0.17
-   SeeAlso: [Crear una Primitiva sustractiva](PartDesign_CompPrimitiveSubtractive/es.md), [Additive Prism](PartDesign_AdditivePrism.md)
+   SeeAlso: PartDesign_CompPrimitiveSubtractive/es, PartDesign_AdditivePrism
 ---
 
 # PartDesign SubtractivePrism/es

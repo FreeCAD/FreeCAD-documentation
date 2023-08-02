@@ -1,6 +1,6 @@
 # Std Group/ro
 ---
-- GuiCommand:   Name: Std Group   MenuLocation: Tree View - Right click on the document name   |Workbenches: All   Shortcut:    SeeAlso: [Draft SelectGroup](Draft_SelectGroup.md), [Draft AddToGroup](Draft_AddToGroup.md)---
+- GuiCommand:   Name: Std Group   MenuLocation: Tree View -> Right click on the document name   , Draft_AddToGroup---
 
 
 </div>

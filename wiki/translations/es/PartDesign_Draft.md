@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: PartDesign Draft
    Name/es: DiseñoPiezas Borrador
-   MenuLocation: DiseñoPiezas - Borrador
-   Workbenches: [DiseñoPiezas](PartDesign_Workbench/es.md)
+   MenuLocation: DiseñoPiezas -> Borrador
+   Workbenches: PartDesign_Workbench/es
    Shortcut: Ninguno
    SeeAlso: Ninguno
 ---

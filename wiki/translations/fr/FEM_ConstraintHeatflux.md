@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: FEM ConstraintHeatflux
    Name/fr: FEM Contrainte de flux de chaleur
-   MenuLocation: Modèle - Contraintes thermiques - Contrainte de flux de chaleur
-   Workbenches: [FEM](FEM_Workbench/fr.md)
-   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
+   MenuLocation: Modèle -> Contraintes thermiques -> Contrainte de flux de chaleur
+   Workbenches: FEM_Workbench/fr
+   SeeAlso: FEM_tutorial/fr
 ---
 
 # FEM ConstraintHeatflux/fr

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: FEM MeshBoundaryLayer
    Name/de: FEM NetzGrenzschicht
-   MenuLocation: Netz - FEM Netz Begrenzungsschicht
-   Workbenches: [FEM](FEM_Workbench/de.md)
-   SeeAlso: [FEM Tutorium](FEM_tutorial/de.md)
+   MenuLocation: Netz -> FEM Netz Begrenzungsschicht
+   Workbenches: FEM_Workbench/de
+   SeeAlso: FEM_tutorial/de
 ---
 
 # FEM MeshBoundaryLayer/de

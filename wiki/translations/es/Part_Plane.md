@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Plane
    Name/es: Part Plano
-   MenuLocation: Pieza - Crear primitivas... -Plano
-   |Workbenches: [Part](Part_Workbench/es.md)
-   SeeAlso: [Part Primitivas](Part_Primitives/es.md)
+   MenuLocation: Pieza -> Crear primitivas... ->Plano
+   
+   SeeAlso: Part_Primitives/es
 ---
 
 # Part Plane/es

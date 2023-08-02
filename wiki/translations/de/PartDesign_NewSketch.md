@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign NewSketch
    Name/de: PartDesign NeueSkizze
-   MenuLocation: Skizze - Skizze erstellen
-   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   MenuLocation: Skizze -> Skizze erstellen
+   Workbenches: PartDesign_Workbench/de
    Version: 0.17
-   SeeAlso: [Sketcher NeueSkizze](Sketcher_NewSketch/de.md)
+   SeeAlso: Sketcher_NewSketch/de
 ---
 
 # PartDesign NewSketch/de

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Arch ToggleSubs
    Name/ru: Arch ToggleSubs
-   MenuLocation: Архитектура - Утилиты - Toggle Subcomponents
-   Workbenches: [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Архитектура -> Утилиты -> Toggle Subcomponents
+   Workbenches: Arch_Workbench/ru
    Shortcut: 
 ‏‎   SeeAlso: 
 ---

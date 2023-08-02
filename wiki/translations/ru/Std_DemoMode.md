@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru: Поворотный просмотр
    Name: Std_DemoMode
-   MenuLocation: Инструменты - Поворотный просмотр...
+   MenuLocation: Инструменты -> Поворотный просмотр...
    Workbenches: Все
 ---
 

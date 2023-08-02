@@ -1,6 +1,6 @@
 # Std Open/es
 ---
-- GuiCommand:   Name: Std Open   MenuLocation: [Workbenches: Todos   SeeAlso: [[Std_Save/es](Std_File_Menu___File]]_-_Open.md),[[Std_Import/es]]---
+- GuiCommand:   Name: Std Open   MenuLocation: Std_File_Menu   File -> Open,Std_Import/es---
 
 
 </div>

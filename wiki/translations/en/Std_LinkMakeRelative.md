@@ -4,7 +4,7 @@
    MenuLocation: None
    Workbenches: All
    Version: 0.19
-   SeeAlso: [Std Part](Std_Part.md), [Std Group](Std_Group.md), [Std LinkMake](Std_LinkMake.md)
+   SeeAlso: Std_Part, Std_Group, Std_LinkMake
 ---
 
 # Std LinkMakeRelative/en

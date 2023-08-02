@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Draft Ellipse
-   MenuLocation: Drafting - Ellipse
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Drafting -> Ellipse
+   Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **E** **L**
    Version: 0.7
 ---

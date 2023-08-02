@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Arch Structure
-   MenuLocation: Arch - Structure tools - Structure
-   Workbenches: [Arch](Arch_Workbench.md)
+   MenuLocation: Arch -> Structure tools -> Structure
+   Workbenches: Arch_Workbench
    Shortcut: **S** **T**
-   SeeAlso: [Arch Wall](Arch_Wall.md), [Arch Rebar](Arch_Rebar.md)
+   SeeAlso: Arch_Wall, Arch_Rebar
 ---
 
 # Arch Structure/en

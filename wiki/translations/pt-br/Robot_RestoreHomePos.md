@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Robot RestoreHomePos
-   MenuLocation: Robot - Restore home position
-   Workbenches: [Robot](Robot_Workbench.md)
+   MenuLocation: Robot -> Restore home position
+   Workbenches: Robot_Workbench
 ---
 
 # Robot RestoreHomePos/pt-br

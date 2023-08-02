@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher RestoreInternalAlignmentGeometry
    Name/es: Sketcher RestoreInternalAlignmentGeometry
-   MenuLocation: Sketch - Sketcher tools - Show/hide internal geometry
-   Workbenches: [Sketcher](Sketcher_Workbench/es.md)
+   MenuLocation: Sketch -> Sketcher tools -> Show/hide internal geometry
+   Workbenches: Sketcher_Workbench/es
    Shortcut: **Ctrl**+**Shift**+**E**
    SeeAlso: 
 ---

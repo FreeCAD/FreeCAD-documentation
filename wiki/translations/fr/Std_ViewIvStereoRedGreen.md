@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std ViewIvStereoRedGreen
    Name/fr: Std Stéréo rouge cyan
-   MenuLocation: Affichage - Stéréo - Stéréo rouge/cyan
+   MenuLocation: Affichage -> Stéréo -> Stéréo rouge/cyan
    Workbenches: Tous
-   SeeAlso: [Std Tampon stéréo quadruple](Std_ViewIvStereoQuadBuff/fr.md), [Std Lignes stéréo entrelacées](Std_ViewIvStereoInterleavedRows/fr.md), [Std Colonnes stéréo entrelacées](Std_ViewIvStereoInterleavedColumns/fr.md), [Std Stéréo désactivée](Std_ViewIvStereoOff/fr.md)
+   SeeAlso: Std_ViewIvStereoQuadBuff/fr, Std_ViewIvStereoInterleavedRows/fr, Std_ViewIvStereoInterleavedColumns/fr, Std_ViewIvStereoOff/fr
 ---
 
 # Std ViewIvStereoRedGreen/fr

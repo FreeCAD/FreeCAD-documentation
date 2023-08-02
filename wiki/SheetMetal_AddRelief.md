@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: SheetMetal AddRelief
-   MenuLocation: SheetMetal - Make Relief
-   Workbenches: [SheetMetal](SheetMetal_Workbench.md)
+   MenuLocation: SheetMetal -> Make Relief
+   Workbenches: SheetMetal Workbench
    Shortcut: **S** **R**
-   SeeAlso: [SheetMetal AddJunction](SheetMetal_AddJunction.md), [SheetMetal AddBend](SheetMetal_AddBend.md)
+   SeeAlso: SheetMetal_AddJunction, SheetMetal_AddBend
 ---
 
 # SheetMetal AddRelief

@@ -1,6 +1,6 @@
 # Sketcher CreateFillet/pt-br
 ---
-- GuiCommand:-br   Name: Sketcher CreateFillet   Name/pt-br: Sketcher CreateFillet   Workbenches: [[Sketcher Workbench/pt-br   Sketcher]]|Shortcut: F   MenuLocation: Sketch - Sketcher geometries - Create fillet---
+- GuiCommand:-br   Name: Sketcher CreateFillet   Name/pt-br: Sketcher CreateFillet   Workbenches: Sketcher Workbench/pt-br   Sketcher|Shortcut: F   MenuLocation: Sketch -> Sketcher geometries -> Create fillet---
 
 
 </div>

@@ -1,6 +1,6 @@
 # Arch Survey/cs
 ---
-- GuiCommand:   Name: Arch Survey   Name/cs: Architektura Přehled    Workbenches: [MenuLocation: Arch - Survey   SeeAlso: [[Macro FCInfo/cs|FcInfo (macro)](Arch_Workbench/cs___Architektura]].md)---
+- GuiCommand:   Name: Arch Survey   Name/cs: Architektura Přehled    Workbenches: Arch_Workbench/cs   Architektura---
 
 
 </div>

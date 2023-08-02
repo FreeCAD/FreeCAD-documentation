@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std ToggleNavigation
    Name/ru: Std ToggleNavigation
-   MenuLocation: Вид - Навигация/редактирование
+   MenuLocation: Вид -> Навигация/редактирование
    Workbenches: All
    Shortcut: **Esc**
 ---

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Polygon
    Name/it: Poligono
-   MenuLocation: Drafting - Poligono
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Drafting -> Poligono
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **P** **G**
    Version: 0.7
 ---

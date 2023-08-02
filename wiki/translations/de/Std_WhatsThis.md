@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name/de: Std Direkthilfe
-   MenuLocation: [Hilfe](Std_Help_Menu/de.md) - Direkthilfe
+   MenuLocation: Std Help Menu/de -> Direkthilfe
    Workbenches: Alle
    Shortcut: **Shift** + **F1**
-   SeeAlso: [Hilfe](Std_OnlineHelp/de.md)
+   SeeAlso: Std_OnlineHelp/de
 ---
 
 # Std WhatsThis/de

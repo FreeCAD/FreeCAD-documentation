@@ -3,10 +3,10 @@
    Name: FEM ConstraintFlowVelocity
    Name/ru: FEM ConstraintFlowVelocity
    Icon: Fem-constraint-flow-velocity.svg
-   MenuLocation:  Model - Fluid constraints - Constraint flow velocity
-   Workbenches: [FEM](FEM_Workbench/ru.md)
+   MenuLocation:  Model -> Fluid constraints -> Constraint flow velocity
+   Workbenches: FEM_Workbench/ru
    Shortcut: 
-   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
+   SeeAlso: FEM_tutorial/ru
 ---
 
 # FEM ConstraintFlowVelocity/ru

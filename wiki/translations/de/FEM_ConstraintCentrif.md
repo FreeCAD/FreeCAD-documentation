@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: FEM ConstraintCentrif
    Name/de: FEM RandbedingungZentrif
-   MenuLocation: Modell - Mechanische Randbedingungen - RandbedingungZentrif
-   Workbenches: [FEM](FEM_Workbench/de.md)
+   MenuLocation: Modell -> Mechanische Randbedingungen -> RandbedingungZentrif
+   Workbenches: FEM_Workbench/de
    Shortcut: 
    Version: 0.20
    SeeAlso: 

@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintArcLineTangent
    Name/fr: Assembly3 Contrainte tangence arc ligne
    Icon: Assembly_ConstraintArcLineTangent.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 ConstraintArcLineTangent/fr

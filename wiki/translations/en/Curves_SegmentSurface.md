@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Curves SegmentSurface
-   MenuLocation: Surfaces - Segment surface
-   Workbenches: [Curves](Curves_Workbench.md)
+   MenuLocation: Surfaces -> Segment surface
+   Workbenches: Curves_Workbench
 ---
 
 # Curves SegmentSurface/en

@@ -3,10 +3,10 @@
 - GuiCommand:
    Name: Drawing View
    Name/de: Drawing View
-   Workbenches: [Drawing](Drawing_Workbench/de.md), Complete
-   MenuLocation: Zeichnung - Ansicht in Zeichnung einfügen
+   Workbenches: Drawing_Workbench/de, Complete
+   MenuLocation: Zeichnung -> Ansicht in Zeichnung einfügen
    Shortcut: Keine
-   SeeAlso: [Drawing Landscape A3](Drawing_Landscape_A3/de.md)---
+   SeeAlso: Drawing Landscape A3/de---
 
 
 **Die Entwicklung des Drawing-Arbeitsbereich wurde gestoppt und ein neuer in v0.17 eingeführter TechDraw-Arbeitsbereich zielt darauf, es zu ersetzen. Beide Module stehen in v0.17 zur Verfügung, aber das Drawing-Arbeitsbereich könnte in zukünftigen Ausgaben entfernt werden.**

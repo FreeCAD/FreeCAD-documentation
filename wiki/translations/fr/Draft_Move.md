@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Move
    Name/fr: Draft Déplacer
-   MenuLocation: Modification - Déplacer
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Modification -> Déplacer
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **M** **V**
    Version: 0.7
-   SeeAlso: [Draft Surligner les sous éléments](Draft_SubelementHighlight/fr.md)
+   SeeAlso: Draft_SubelementHighlight/fr
 ---
 
 # Draft Move/fr

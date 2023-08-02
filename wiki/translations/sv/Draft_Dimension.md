@@ -1,6 +1,6 @@
 # Draft Dimension/sv
 ---
-- GuiCommand:   Name: Draft Dimension   Workbenches: [MenuLocation: Draft - Dimension   Shortcut: D I   SeeAlso: [[Draft FlipDimension/sv|FlipDimension](Draft_Workbench/sv___Skiss]].md)---
+- GuiCommand:   Name: Draft Dimension   Workbenches: Draft_Workbench/sv   Skiss---
 
 
 </div>

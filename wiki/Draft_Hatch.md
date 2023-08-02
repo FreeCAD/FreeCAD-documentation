@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Draft Hatch
-   MenuLocation: Drafting - Hatch
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Drafting -> Hatch
+   Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **H** **A**
    Version: 0.20
-   SeeAlso: [Draft Pattern](Draft_Pattern.md)
+   SeeAlso: Draft_Pattern
 ---
 
 # Draft Hatch

@@ -1,6 +1,6 @@
 # Path ExportTemplate/ro
 ---
-- GuiCommand:   Name: Path ExportTemplate   Workbenches: [MenuLocation: Path - Export Template   SeeAlso: [[Path_SetupSheet|Path SetupSheet](Path_Workbench___Path]].md) ---
+- GuiCommand:   Name: Path ExportTemplate   Workbenches: Path Workbench   Path ---
 
 
 </div>

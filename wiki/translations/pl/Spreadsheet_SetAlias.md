@@ -3,7 +3,7 @@
    Name: Spreadsheet SetAlias
    Name/pl: Arkusz Kalkulacyjny: Definiuj alias
    MenuLocation: -
-   Workbenches: [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   Workbenches: Spreadsheet_Workbench/pl
    Version: 0.17
 ---
 

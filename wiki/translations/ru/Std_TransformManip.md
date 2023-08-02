@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Преобразовать
    Name: Std_TransformManip
-   MenuLocation: В контекстном меню древовидного обзора проекта - Преобразовать
-Правка - Преобразовать
+   MenuLocation: В контекстном меню древовидного обзора проекта -> Преобразовать
+Правка -> Преобразовать
    Workbenches: Все
-   SeeAlso: [Стандартные команды и инструменты](Std_Base/ru.md)
+   SeeAlso: Std_Base/ru
 ---
 
 # Std TransformManip/ru

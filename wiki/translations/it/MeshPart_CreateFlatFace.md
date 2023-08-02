@@ -3,9 +3,9 @@
    Name: MeshPart_CreateFlatFace
    Name/it: Sviluppa una faccia
    Empty: 1
-   MenuLocation: Mesh - Sviluppa una faccia
-   Workbenches: [Mesh](Mesh_Workbench/it.md)
-   SeeAlso: [Sviluppa una mesh](MeshPart_CreateFlatMesh/it.md)
+   MenuLocation: Mesh -> Sviluppa una faccia
+   Workbenches: Mesh_Workbench/it
+   SeeAlso: MeshPart_CreateFlatMesh/it
 ---
 
 # MeshPart CreateFlatFace/it

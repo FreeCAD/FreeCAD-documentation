@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Sketcher NewSketch
    Name/es: Croquizador Nuevo croquis
-   MenuLocation: Croquis - Crear croquis
-   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
-   SeeAlso: [DiseñoPieza Nuevo croquis](PartDesign_NewSketch/es.md), [Croquizador MapearCroquis](Sketcher_MapSketch/es.md), [Croquizador Reorientar](Sketcher_ReorientSketch/es.md)
+   MenuLocation: Croquis -> Crear croquis
+   Workbenches: Sketcher_Workbench/es
+   SeeAlso: PartDesign_NewSketch/es, Sketcher_MapSketch/es, Sketcher_ReorientSketch/es
 ---
 
 # Sketcher NewSketch/es

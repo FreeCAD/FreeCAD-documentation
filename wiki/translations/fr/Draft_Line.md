@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Line
    Name/fr: Draft Ligne
-   MenuLocation: Draft - Ligne
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Draft -> Ligne
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **L** **I**
    Version: 0.7
-   SeeAlso: [Draft Polyligne](Draft_Wire/fr.md)
+   SeeAlso: Draft_Wire/fr
 ---
 
 # Draft Line/fr

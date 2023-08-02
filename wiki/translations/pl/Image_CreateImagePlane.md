@@ -3,8 +3,8 @@
    Name: Image CreateImagePlane
    Name/pl: Obraz: Utwórz płaszczyznę obrazu
    MenuLocation: 
-   Workbenches: [Obraz](Image_Workbench/pl.md)
-   SeeAlso: [Otwórz](Image_Open/pl.md), [Skaluj](Image_Scaling/pl.md)
+   Workbenches: Image_Workbench/pl
+   SeeAlso: Image_Open/pl, Image_Scaling/pl
 ---
 
 # Image CreateImagePlane/pl

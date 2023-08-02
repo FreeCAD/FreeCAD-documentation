@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft AddNamedGroup
    Name: Draft BenannteGruppeHinzufügen
-   MenuLocation: Utilities - Neue benannte Gruppe hizufügen
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Utilities -> Neue benannte Gruppe hizufügen
+   Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: 
    Version: 0.20
-   SeeAlso: [Std Gruppe](Std_Group/de.md), [Draft ZurGruppeHinzufügen](Draft_AddToGroup/de.md), [Draft AutoGruppe](Draft_AutoGroup/de.md)
+   SeeAlso: Std_Group/de, Draft_AddToGroup/de, Draft_AutoGroup/de
 ---
 
 # Draft AddNamedGroup/de

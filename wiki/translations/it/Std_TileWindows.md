@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std TileWindows
    Name/it: Affianca
-   MenuLocation: Finestre - Affianca
+   MenuLocation: Finestre -> Affianca
    Workbenches: Tutti
-   SeeAlso: [A cascata](Std_CascadeWindows/it.md)
+   SeeAlso: Std_CascadeWindows/it
 ---
 
 # Std TileWindows/it

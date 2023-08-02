@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name: Std RandomColor
-   MenuLocation: View - Random color
+   MenuLocation: View -> Random color
    Workbenches: All
 ---
 

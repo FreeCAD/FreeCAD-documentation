@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft_Scale
    Name/it: Scala
-   MenuLocation: Modifiche - Scala
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Modifiche -> Scala
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **S** **C**
-   SeeAlso: [Evidenzia i sottoelementi](Draft_SubelementHighlight/it.md), [Clona](Draft_Clone/it.md)
+   SeeAlso: Draft_SubelementHighlight/it, Draft Clone/it
 ---
 
 # Draft Scale/it

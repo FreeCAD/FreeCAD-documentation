@@ -3,8 +3,8 @@
    Name: Draft_AddToGroup
    Name/es: Draft_AddToGroup
    MenuLocation: Boceto -> Opciones de visualización -> Añadir a grupo
-   Workbenches: [Boceto](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
-   SeeAlso: [Draft SelectGroup](Draft_SelectGroup.md), [Std Group](Std_Group.md)
+   Workbenches: Draft_Workbench/es, Arch_Workbench/es
+   SeeAlso: Draft_SelectGroup, Std_Group
 ---
 
 # Draft AddToGroup/es

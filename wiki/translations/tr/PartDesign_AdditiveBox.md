@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: PartDesign AdditiveBox
-   MenuLocation: Part Design - Create an additive primitive - Additive Box
-   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   MenuLocation: Part Design -> Create an additive primitive -> Additive Box
+   Workbenches: PartDesign_Workbench
    Version: 0.17
-   SeeAlso: [PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md), [PartDesign SubtractiveBox](PartDesign_SubtractiveBox.md)
+   SeeAlso: PartDesign_CompPrimitiveAdditive, PartDesign_SubtractiveBox
 ---
 
 # PartDesign AdditiveBox/tr

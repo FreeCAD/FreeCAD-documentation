@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/ru: График кривизны
    Name: Mesh_VertexCurvature
-   MenuLocation: Полигональные Сетки - График кривизны
-   Workbenches: [Mesh](Mesh_Workbench/ru.md)
-   SeeAlso: [Mesh CurvatureInfo](Mesh_CurvatureInfo/ru.md)
+   MenuLocation: Полигональные Сетки -> График кривизны
+   Workbenches: Mesh_Workbench/ru
+   SeeAlso: Mesh_CurvatureInfo/ru
 ---
 
 # Mesh VertexCurvature/ru

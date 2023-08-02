@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Draft ShapeString
-   MenuLocation: Drafting - Shape from text
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Drafting -> Shape from text
+   Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: 
    Version: 0.14
-   SeeAlso: [Draft Text](Draft_Text.md), [Draft Label](Draft_Label.md), [Part Extrude](Part_Extrude.md)
+   SeeAlso: Draft_Text, Draft_Label, Part_Extrude
 ---
 
 # Draft ShapeString

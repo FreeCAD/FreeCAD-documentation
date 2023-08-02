@@ -3,7 +3,7 @@
    Name: Web BrowserZoomIn
    Name/fr: Web Zoom avant
    MenuLocation: 
-   Workbenches: [Web](Web_Workbench/fr.md), [Start](Start_Workbench/fr.md)
+   Workbenches: Web_Workbench/fr, Start_Workbench/fr
    SeeAlso: 
 ---
 

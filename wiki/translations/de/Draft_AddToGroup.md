@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft AddToGroup
    Name/de: Draft ZurGruppeHinzufügen
-   MenuLocation: Dienstprogramme - Zur Gruppe hinzufügen...
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso: [Std Gruppe](Std_Group/de.md), [Draft BenannteGruppeHinzufügen](Draft_AddNamedGroup/de.md), [Draft ZurKonstruktionsgruppeHinzufügen](Draft_AddConstruction/de.md), [Draft Autogruppe](Draft_AutoGroup/de.md)
+   MenuLocation: Dienstprogramme -> Zur Gruppe hinzufügen...
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   SeeAlso: Std_Group/de, Draft_AddNamedGroup/de, Draft_AddConstruction/de, Draft_AutoGroup/de
 ---
 
 # Draft AddToGroup/de

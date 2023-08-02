@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw PageTemplate
    Name/pl: Rysunek Techniczny: Wstaw nową stronę przy użyciu szablonu
-   MenuLocation: Rysunek Techniczny - Strona - Wstaw nową stronę przy użyciu szablonu
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso: [Wstaw nową domyślna stronę rysunku](TechDraw_PageDefault/pl.md), [Szablony](TechDraw_Templates/pl.md)
+   MenuLocation: Rysunek Techniczny -> Strona -> Wstaw nową stronę przy użyciu szablonu
+   Workbenches: TechDraw_Workbench/pl
+   SeeAlso: TechDraw_PageDefault/pl, TechDraw_Templates/pl
 ---
 
 # TechDraw PageTemplate/pl

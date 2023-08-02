@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Join
    Name/de: Entwurf Verbinden
-   MenuLocation: Änderung - Verbinden
-   Workbenches: [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench.md)
+   MenuLocation: Änderung -> Verbinden
+   Workbenches: Draft_Workbench/de, Arch_Workbench
    Shortcut: **J** **O**
    Version: 0.18
-   SeeAlso: [Entwurf Teilen](Draft_Split/de.md)
+   SeeAlso: Draft_Split/de
 ---
 
 # Draft Join/de

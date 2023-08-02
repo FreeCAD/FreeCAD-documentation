@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part_Chamfer
    Name/it: Smussa
-   MenuLocation: Parte - Smussa...
-   Workbenches: [Parte](Part_Workbench/it.md)
-   SeeAlso: [Raccorda...](Part_Fillet/it.md)
+   MenuLocation: Parte -> Smussa...
+   Workbenches: Part_Workbench/it
+   SeeAlso: Part Fillet/it
 ---
 
 # Part Chamfer/it

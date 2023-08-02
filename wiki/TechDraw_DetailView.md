@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: TechDraw DetailView
-   MenuLocation: TechDraw - TechDraw Views - Insert Detail View
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
-   SeeAlso: [TechDraw View](TechDraw_View.md), [TechDraw Projection Group](TechDraw_ProjectionGroup.md)
+   MenuLocation: TechDraw -> TechDraw Views -> Insert Detail View
+   Workbenches: TechDraw_Workbench
+   SeeAlso: TechDraw_View, TechDraw_ProjectionGroup
 ---
 
 # TechDraw DetailView

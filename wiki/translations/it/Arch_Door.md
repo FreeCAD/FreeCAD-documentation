@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch Door
    Name/it: Arch Porta
-   MenuLocation: Arch - Finestra
-   Workbenches: [Arch](Arch_Workbench/it.md)
+   MenuLocation: Arch -> Finestra
+   Workbenches: Arch_Workbench/it
    Shortcut: **W** **I**
-   SeeAlso: [Muro](Arch_Wall/it.md), [Finestra](Arch_Window/it.md)
+   SeeAlso: Arch Wall/it, Arch Window/it
    Icon: Arch_Window.svg
 ---
 

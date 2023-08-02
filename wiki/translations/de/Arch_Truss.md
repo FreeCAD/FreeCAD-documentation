@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Arch Truss
    Name/de: Arch Traverse
-   MenuLocation: Arch - Traverse
-   Workbenches: [Arch](Arch_Workbench/de.md)
+   MenuLocation: Arch -> Traverse
+   Workbenches: Arch_Workbench/de
    Version: 0.19
 ---
 

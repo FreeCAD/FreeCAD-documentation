@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Part RuledSurface
-   MenuLocation: Part - RuledSurface
-   Workbenches: [Part](Part_Workbench.md)
-   SeeAlso: [Part MakeFace](Part_MakeFace.md)
+   MenuLocation: Part -> RuledSurface
+   Workbenches: Part_Workbench
+   SeeAlso: Part_MakeFace
 ---
 
 # Part RuledSurface/en

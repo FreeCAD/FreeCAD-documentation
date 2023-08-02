@@ -3,8 +3,8 @@
    Name: Ship New‏‎ 
    Name/ru: Ship New‏‎ 
    Icon: Ship_Instance.svg
-   MenuLocation: Ship design - Задание параметров плавательного судна
-   Workbenches: [Ship](Ship_Workbench/ru.md)
+   MenuLocation: Ship design -> Задание параметров плавательного судна
+   Workbenches: Ship Workbench/ru
    Shortcut: 
    SeeAlso: 
 ---

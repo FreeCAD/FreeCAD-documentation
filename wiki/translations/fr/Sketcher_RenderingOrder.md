@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Sketcher RenderingOrder
    Name/fr: Sketcher Ordre de rendu
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Workbenches: Sketcher_Workbench/fr
    Version: 0.21
 ---
 

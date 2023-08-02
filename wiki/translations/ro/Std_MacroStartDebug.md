@@ -3,7 +3,7 @@
    Name: Std MacroStartDebug
    Name/ro: Std MacroStartDebug
    Workbenches: All
-   MenuLocation: [Macro](Std_Macro_Menu/ro.md) - Debug Macro 
+   MenuLocation: Std Macro Menu/ro -> Debug Macro 
    Shortcut: F6
    SeeAlso: 
 ---

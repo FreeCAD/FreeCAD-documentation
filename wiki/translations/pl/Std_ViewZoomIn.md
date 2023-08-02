@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std ViewZoomIn
    Name/pl: Std: Przybliż widok
-   MenuLocation: Widok - Powiększenie - Przybliż
+   MenuLocation: Widok -> Powiększenie -> Przybliż
    Workbenches: wszystkie
    Shortcut: **Ctrl** + **+**
-   SeeAlso: [Oddal](Std_ViewZoomOut/pl.md), [Powiększ obszar](Std_ViewBoxZoom/pl.md)
+   SeeAlso: Std_ViewZoomOut/pl, Std_ViewBoxZoom/pl
 ---
 
 # Std ViewZoomIn/pl

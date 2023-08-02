@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: TechDraw ExportPageSVG
    Name/fr: TechDraw Exporter au format SVG
-   MenuLocation: TechDraw - Page - Exporter une page au format SVG
-   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   MenuLocation: TechDraw -> Page -> Exporter une page au format SVG
+   Workbenches: TechDraw_Workbench/fr
    Version: 0.19
-   SeeAlso: [TechDraw Modèles](TechDraw_Templates/fr.md), [Draft SVG](Draft_SVG/fr.md)
+   SeeAlso: TechDraw_Templates/fr, Draft_SVG/fr
 ---
 
 # TechDraw ExportPageSVG/fr

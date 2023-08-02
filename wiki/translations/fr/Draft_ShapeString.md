@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft ShapeString
    Name/fr: Draft Formes à partir texte
-   MenuLocation: Draft - Formes à partir de texte
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Draft -> Formes à partir de texte
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: 
    Version/fr: 0.14
-   SeeAlso: [Draft Texte](Draft_Text/fr.md), [Draft Etiquette](Draft_Label/fr.md), [Part Extrusion](Part_Extrude/fr.md)
+   SeeAlso: Draft_Text/fr, Draft_Label/fr, Part_Extrude/fr
 ---
 
 # Draft ShapeString/fr

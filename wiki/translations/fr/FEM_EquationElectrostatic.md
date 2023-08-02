@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM EquationElectrostatic
    Name/fr: FEM Equation électrostatique
-   MenuLocation: Résolution - Équations électromagnétiques - Équation électrostastique
-   Workbenches: [FEM](FEM_Workbench/fr.md)
+   MenuLocation: Résolution -> Équations électromagnétiques -> Équation électrostastique
+   Workbenches: FEM_Workbench/fr
    Version: 0.19
-   SeeAlso: [FEM Équation de force électrique](FEM_EquationElectricforce/fr.md), [FEM Exemple calcul capacité de deux sphères](FEM_Example_Capacitance_Two_Balls/fr.md)
+   SeeAlso: FEM_EquationElectricforce/fr, FEM_Example_Capacitance_Two_Balls/fr
 ---
 
 # FEM EquationElectrostatic/fr

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: FEM EquationFlow
-   MenuLocation:  Solve - Flow equation
-   Workbenches: [FEM](FEM_Workbench.md)
+   MenuLocation:  Solve -> Flow equation
+   Workbenches: FEM_Workbench
    Version: 0.17
    SeeAlso: 
 ---

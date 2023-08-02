@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Polygon
    Name/tr: Çokgen
-   MenuLocation: Taslak - Çokgen
-   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   MenuLocation: Taslak -> Çokgen
+   Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **P** **G**
-   SeeAlso: [Çember](Draft_Circle/tr.md)
+   SeeAlso: Draft Circle/tr
    Version: 0.7
 ---
 

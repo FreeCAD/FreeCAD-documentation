@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Mirror
    Name/fr: Draft Miroir
-   MenuLocation: Modification - Miroir
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Modification -> Miroir
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **M** **I**
-   SeeAlso: [Draft Cloner](Draft_Clone/fr.md)
+   SeeAlso: Draft_Clone/fr
 ---
 
 # Draft Mirror/fr

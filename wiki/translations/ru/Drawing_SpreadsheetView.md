@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Drawing SpreadsheetView
    Name/ru: Drawing SpreadsheetView
-   Workbenches: [Drawing](Drawing_Workbench/ru.md)
-   MenuLocation: Чертёж - Spreadsheet View
+   Workbenches: Drawing Workbench/ru
+   MenuLocation: Чертёж -> Spreadsheet View
 ---
 
 # Drawing SpreadsheetView/ru

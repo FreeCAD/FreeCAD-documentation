@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch AxisSystem
    Name/ro: Arch AxisSystem
-   MenuLocation: Arch - Axis System
-   Workbenches: [Arch](Arch_Workbench/ro.md)
-   SeeAlso: [Arch Axis](Arch_Axis/ro.md), [Grid](Arch_Grid/ro.md)
+   MenuLocation: Arch -> Axis System
+   Workbenches: Arch_Workbench/ro
+   SeeAlso: Arch Axis/ro, Arch Grid/ro
 ---
 
 # Arch AxisSystem/ro

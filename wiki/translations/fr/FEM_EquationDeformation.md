@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM EquationDeformation
    Name/fr: FEM
-   MenuLocation: Résolution - Équations mécaniques - Équation de déformation
-   Workbenches: [FEM](FEM_Workbench/fr.md)
+   MenuLocation: Résolution -> Équations mécaniques -> Équation de déformation
+   Workbenches: FEM_Workbench/fr
    Version: 0.21
-   SeeAlso: [FEM Équation d'élasticité](FEM_EquationElasticity/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
+   SeeAlso: FEM_EquationElasticity/fr, FEM_tutorial/fr
 ---
 
 # FEM EquationDeformation/fr

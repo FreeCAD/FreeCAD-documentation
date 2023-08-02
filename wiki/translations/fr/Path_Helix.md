@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path Helix
    Name/fr: Path Hélice 
-   MenuLocation: Path - Hélice
-   Workbenches: [Path](Path_Workbench/fr.md)
+   MenuLocation: Path -> Hélice
+   Workbenches: Path_Workbench/fr
 ---
 
 # Path Helix/fr

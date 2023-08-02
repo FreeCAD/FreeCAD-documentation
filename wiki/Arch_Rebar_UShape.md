@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Arch Rebar UShape
-   MenuLocation: Arch - Rebar tools - U-Shape Rebar<br>3D/BIM - Reinforcement tools - U-Shape Rebar
-   Workbenches: [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   MenuLocation: Arch -> Rebar tools -> U-Shape Rebar<br>3D/BIM -> Reinforcement tools -> U-Shape Rebar
+   Workbenches: Arch_Workbench, BIM_Workbench
    Version: 0.17
-   SeeAlso: [Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Rebar LShape](Arch_Rebar_LShape.md)
+   SeeAlso: Reinforcement_Workbench, Arch_Rebar, Arch_Rebar_LShape
 ---
 
 # Arch Rebar UShape

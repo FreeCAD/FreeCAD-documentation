@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintAngle
    Name/de: Assembly3 WinkelFestlegen
    Icon: Assembly_ConstraintAngle.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 ConstraintAngle/de

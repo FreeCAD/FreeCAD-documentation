@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Heal
    Name/es: Draft Heal
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   MenuLocation: Draft - Utilities - Heal
+   Workbenches: Draft_Workbench, Arch_Workbench
+   MenuLocation: Draft -> Utilities -> Heal
 ---
 
 # Draft Heal/es

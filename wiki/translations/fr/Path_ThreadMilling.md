@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path ThreadMilling
    Name/fr: Path Fraisage de filets
-   MenuLocation: Path - Opérations spécialisées - Fraisage de filets
-   Workbenches: [Path](Path_Workbench/fr.md)
+   MenuLocation: Path -> Opérations spécialisées -> Fraisage de filets
+   Workbenches: Path_Workbench/fr
 ---
 
 # Path ThreadMilling/fr

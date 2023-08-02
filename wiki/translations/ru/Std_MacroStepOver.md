@@ -3,10 +3,10 @@
    Name: Std_MacroStepOver
    Name/ru: Шаг с обходом
    Empty: 1
-   MenuLocation: Макросы - Шаг с обходом
+   MenuLocation: Макросы -> Шаг с обходом
    Workbenches: Все
    Shortcut: **F10**
-   SeeAlso: [Шаг с заходом](Std_MacroStepInto/ru.md), [Установить/снять точку останова](Std_ToggleBreakpoint/ru.md)
+   SeeAlso: Std_MacroStepInto/ru, Std_ToggleBreakpoint/ru
 ---
 
 # Std MacroStepOver/ru

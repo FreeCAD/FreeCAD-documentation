@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Arch MergeWalls
-   MenuLocation: Arch - Utilities - Merge Walls
-   Workbenches: [Arch](Arch_Workbench.md)
-   SeeAlso: [Arch Wall](Arch_Wall.md)
+   MenuLocation: Arch -> Utilities -> Merge Walls
+   Workbenches: Arch_Workbench
+   SeeAlso: Arch_Wall
 ---
 
 # Arch MergeWalls/pl

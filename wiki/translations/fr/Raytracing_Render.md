@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Raytracing Render
    Name/fr: Raytracing Rendu
-   MenuLocation: Raytracing - Rendu
-   Workbenches: [Raytracing](Raytracing_Workbench/fr.md)
+   MenuLocation: Raytracing -> Rendu
+   Workbenches: Raytracing_Workbench/fr
    Shortcut: 
    SeeAlso: 
 ---

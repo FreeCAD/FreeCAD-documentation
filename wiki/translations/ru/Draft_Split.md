@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Split
    Name/ru: Draft Split
-   MenuLocation: Draft - Split
-   Workbenches: [Draft](Draft_Workbench/ru.md)
+   MenuLocation: Draft -> Split
+   Workbenches: Draft_Workbench/ru
    Shortcut: **S** **P**
    Version: 0.18
-   SeeAlso: [Draft Join](Draft_Join/ru.md)
+   SeeAlso: Draft Join/ru
 ---
 
 # Draft Split/ru

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/ru: Проверить эскиз
    Name: Sketcher_ValidateSketch
-   MenuLocation: Sketch - Проверить эскиз
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
-   SeeAlso: [Ограничить совпадение](Sketcher_ConstrainCoincident/ru.md), [Topological naming problem](Topological_naming_problem/ru.md)
+   MenuLocation: Sketch -> Проверить эскиз
+   Workbenches: Sketcher_Workbench/ru, PartDesign_Workbench/ru
+   SeeAlso: Sketcher_ConstrainCoincident/ru, Topological_naming_problem/ru
 ---
 
 # Sketcher ValidateSketch/ru

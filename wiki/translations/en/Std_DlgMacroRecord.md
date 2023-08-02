@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Std DlgMacroRecord
-   MenuLocation: Macro - Macro recording...
+   MenuLocation: Macro -> Macro recording...
    Workbenches: All
-   SeeAlso: [Std MacroStopRecord](Std_MacroStopRecord.md)
+   SeeAlso: Std_MacroStopRecord
 ---
 
 # Std DlgMacroRecord/en

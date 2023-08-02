@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Spreadsheet StyleItalic
    Name/pl: Arkusz Kalkulacyjny: Kursywa
-   MenuLocation: Arkusz kalkulacyjny - Style - Kursywa
-   Workbenches: [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   MenuLocation: Arkusz kalkulacyjny -> Style -> Kursywa
+   Workbenches: Spreadsheet_Workbench/pl
    Version: 0.17
 ---
 

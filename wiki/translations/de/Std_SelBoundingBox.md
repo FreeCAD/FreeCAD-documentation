@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name/de: Std WahlBegrenzungRahmen
-   MenuLocation: Ansicht - Begrenzungsrahmen
+   MenuLocation: Ansicht -> Begrenzungsrahmen
    Workbenches: Alle
    Version: 0.19
-   SeeAlso: [Std ZeichenStil](Std_DrawStyle/de.md)
+   SeeAlso: Std_DrawStyle/de
 ---
 
 # Std SelBoundingBox/de

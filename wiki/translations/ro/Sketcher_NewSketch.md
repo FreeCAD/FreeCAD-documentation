@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Sketcher NewSketch
    Name/ro: Creaza schita
-   Workbenches: [Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation: Sketch - Creaza schita
-   SeeAlso: [Asociază schiţa unei feţe...](Sketcher_MapSketch/ro.md), [Reorientați schița...](Sketcher_ReorientSketch/ro.md)
+   Workbenches: Sketcher Workbench/ro
+   MenuLocation: Sketch -> Creaza schita
+   SeeAlso: Sketcher_MapSketch/ro, Sketcher_ReorientSketch/ro
 ---
 
 # Sketcher NewSketch/ro

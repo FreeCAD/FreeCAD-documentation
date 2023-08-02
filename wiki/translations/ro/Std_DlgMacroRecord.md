@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std DlgMacroRecord
    Name/ro: Std DlgMacroRecord
-   MenuLocation: [Macro](Macros/ro.md) - Macro recording ...
+   MenuLocation: Macros/ro -> Macro recording ...
    Workbenches: All
-   SeeAlso: [Execute macro](Std_DlgMacroExecuteDirect/ro.md)
+   SeeAlso: Std_DlgMacroExecuteDirect/ro
 ---
 
 # Std DlgMacroRecord/ro

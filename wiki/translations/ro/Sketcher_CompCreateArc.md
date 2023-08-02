@@ -2,8 +2,8 @@
 - GuiCommand:
    Name/ro: Sketcher Arcs
    Empty: 1
-   Workbenches: [Sketcher](Sketcher_Workbench/ro.md)
-   MenuLocation: None (toolbar only)
+   Workbenches: Sketcher Workbench/ro
+   MenuLocation: None 
 ---
 
 # Sketcher CompCreateArc/ro

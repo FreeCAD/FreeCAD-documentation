@@ -1,6 +1,6 @@
 # PartDesign SubtractiveCylinder/ro
 ---
-- GuiCommand:   Name: PartDesign SubtractiveCylinder   Workbenches: [MenuLocation: Part Design - Create a subtractive primitive - Subtractive Cylinder   Shortcut: None   SeeAlso: [[PartDesign CompPrimitiveSubtractive](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign SubtractiveCylinder   Workbenches: PartDesign Workbench   PartDesign---
 
 
 </div>

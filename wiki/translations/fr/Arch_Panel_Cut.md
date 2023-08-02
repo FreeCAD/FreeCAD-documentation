@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Arch Panel Cut
    Name/fr: Arch Découpe de panneau
-   MenuLocation: Arch - Outils pour les panneaux - Découpe de panneau
-   Workbenches: [Arch](Arch_Workbench/fr.md), [Path](Path_Workbench/fr.md)
+   MenuLocation: Arch -> Outils pour les panneaux -> Découpe de panneau
+   Workbenches: Arch_Workbench/fr, Path_Workbench/fr
    Shortcut: **P** **C**
    Version: 0.17
-   SeeAlso: [Arch Panneau](Arch_Panel/fr.md), [Arch Feuille de panneaux](Arch_Panel_Sheet/fr.md), [Arch Calepinage](Arch_Nest/fr.md)
+   SeeAlso: Arch_Panel/fr, Arch_Panel_Sheet/fr, Arch_Nest/fr
 ---
 
 # Arch Panel Cut/fr

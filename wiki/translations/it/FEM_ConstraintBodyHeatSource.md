@@ -1,6 +1,6 @@
 # FEM ConstraintBodyHeatSource/it
 ---
-- GuiCommand:   Name: FEM ConstraintBodyHeatSource   Name/it: Vincolo fonte di calore del corpo   Icon: Fem-constraint-heatflux.svg   MenuLocation:  Modello - Vincoli termici - Vincolo fonte di calore del corpo   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:   Name: FEM ConstraintBodyHeatSource   Name/it: Vincolo fonte di calore del corpo   Icon: Fem-constraint-heatflux.svg   MenuLocation:  Modello -> Vincoli termici -> Vincolo fonte di calore del corpo   ---
 
 
 </div>

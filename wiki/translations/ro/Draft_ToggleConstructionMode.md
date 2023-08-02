@@ -1,6 +1,6 @@
 # Draft ToggleConstructionMode/ro
 ---
-- GuiCommand:   Name: Draft ToggleConstructionMode   Workbenches: [Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation: Draft - Utilities - Toggle construction mode   SeeAlso: [[Draft_AddConstruction]]---
+- GuiCommand:   Name: Draft ToggleConstructionMode   Workbenches: Draft_Workbench   Draft, Arch_Workbench---
 
 
 </div>

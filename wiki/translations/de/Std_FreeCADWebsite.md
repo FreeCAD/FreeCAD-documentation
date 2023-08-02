@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std FreeCADWebsite
    Name/de: Std FreeCADWebseite
-   MenuLocation: Hilfe - FreeCAD Webseite
+   MenuLocation: Hilfe -> FreeCAD Webseite
    Workbenches: Alle
-   SeeAlso: [Std Benutzerdokumentation](Std_FreeCADUserHub/de.md), [Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub/de.md), [Std FreeCADForum](Std_FreeCADForum/de.md), [Std FreeCADFAQ](Std_FreeCADFAQ/de.md)
+   SeeAlso: Std_FreeCADUserHub/de, Std_FreeCADPowerUserHub/de, Std_FreeCADForum/de, Std_FreeCADFAQ/de
 ---
 
 # Std FreeCADWebsite/de

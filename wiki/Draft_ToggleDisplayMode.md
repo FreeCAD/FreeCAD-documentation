@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Draft ToggleDisplayMode
-   MenuLocation: Utilities - Toggle normal/wireframe display
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Utilities -> Toggle normal/wireframe display
+   Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **Shift**+**Space**
-   SeeAlso: [Std ToggleVisibility](Std_ToggleVisibility.md)
+   SeeAlso: Std_ToggleVisibility
 ---
 
 # Draft ToggleDisplayMode

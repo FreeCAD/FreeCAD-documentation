@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Trimex
    Name/de: Draft Trimex
-   MenuLocation: Änderung - Trimex
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   MenuLocation: Änderung -> Trimex
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **T** **R**
-   SeeAlso: [Part Extrudieren](Part_Extrude/de.md)
+   SeeAlso: Part_Extrude/de
 ---
 
 # Draft Trimex/de

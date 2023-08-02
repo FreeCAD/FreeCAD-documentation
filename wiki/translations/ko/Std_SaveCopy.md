@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std SaveCopy
    Name/ko: 표준 사본 저장
-   MenuLocation: 파일 - 사본 저장...
+   MenuLocation: 파일 -> 사본 저장...
    Workbenches: 모두
-   SeeAlso: [표준 다른 이름으로 저장](Std_SaveAs/ko.md), [표준 저장](Std_Save/ko.md)
+   SeeAlso: Std_SaveAs/ko, Std_Save/ko
 ---
 
 # Std SaveCopy/ko

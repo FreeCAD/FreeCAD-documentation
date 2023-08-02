@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Arch Panel
    Name/it: Pannello
-   MenuLocation: Arch - Strumenti pannello - Pannello
-   Workbenches: [Arch](Arch_Workbench/it.md)
+   MenuLocation: Arch -> Strumenti pannello -> Pannello
+   Workbenches: Arch_Workbench/it
    Shortcut: **P** **A**
    Version: 0.15
-   SeeAlso: [Sagoma pannello](Arch_Panel_Cut/it.md), [Foglio pannello](Arch_Panel_Sheet/it.md)
+   SeeAlso: Arch Panel Cut/it, Arch Panel Sheet/it
 ---
 
 # Arch Panel/it

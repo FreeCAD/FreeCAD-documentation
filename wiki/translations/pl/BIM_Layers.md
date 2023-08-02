@@ -1,9 +1,9 @@
 ---
 - GuiCommand:Addon
    Name: BIM Layers
-   Workbenches: [BIM](BIM_Workbench.md)
+   Workbenches: BIM Workbench
    Addon: BIM
-   MenuLocation: Manage - Layers
+   MenuLocation: Manage -> Layers
 ---
 
 # BIM Layers/pl

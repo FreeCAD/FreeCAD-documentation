@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part BoxSelection
    Name/pl: Część: Zaznacz obszarem
-   MenuLocation: Część - Zaznacz obszarem
-   Workbenches: [Część](Part_Workbench/pl.md)
+   MenuLocation: Część -> Zaznacz obszarem
+   Workbenches: Part_Workbench/pl
    Version: 0.18
-   SeeAlso: [Zaznacz obszar](Std_BoxSelection/pl.md), [Wybór elementów ramką zaznaczenia](Std_BoxElementSelection/pl.md), [Zaznacz wszystko](Std_SelectAll/pl.md)
+   SeeAlso: Std_BoxSelection/pl, Std_BoxElementSelection/pl, Std_SelectAll/pl
 ---
 
 # Part BoxSelection/pl

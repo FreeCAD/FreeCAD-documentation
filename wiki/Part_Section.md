@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Part Section
-   MenuLocation: Part - Section
-   Workbenches: [Part](Part_Workbench.md)
-   SeeAlso: [Part CrossSections](Part_CrossSections.md)
+   MenuLocation: Part -> Section
+   Workbenches: Part_Workbench
+   SeeAlso: Part_CrossSections
 ---
 
 # Part Section

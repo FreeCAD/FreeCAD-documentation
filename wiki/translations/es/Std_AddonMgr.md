@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std AddonMgr
    Name/es: Std GestorComplementos
-   MenuLocation: Herramientas - Gestor Complementos
+   MenuLocation: Herramientas -> Gestor Complementos
    Workbenches: Todo
    Version: 0.17
-   SeeAlso: [Ambientes de trabajo externos](External_workbenches/es.md), [Macros](Macros/es.md)
+   SeeAlso: External_workbenches/es, Macros/es
 ---
 
 # Std AddonMgr/es

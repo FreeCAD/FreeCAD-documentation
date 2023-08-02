@@ -1,6 +1,6 @@
 # PartDesign MoveTip/ro
 ---
-- GuiCommand:   Name: PartDesign MoveTip   MenuLocation: Contextual menu - Set tip   Workbenches: [Shortcut: None   SeeAlso: [[PartDesign MoveFeature|Move object to other body](PartDesign_Workbench___PartDesign]].md), [Move object after other object](PartDesign_MoveFeatureInTree.md)---
+- GuiCommand:   Name: PartDesign MoveTip   MenuLocation: Contextual menu -> Set tip   Workbenches: PartDesign Workbench   PartDesign, PartDesign MoveFeatureInTree---
 
 
 </div>

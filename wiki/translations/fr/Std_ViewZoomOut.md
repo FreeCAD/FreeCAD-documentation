@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std ViewZoomOut
    Name/fr: Std Zoom arrière
-   MenuLocation: Affichage - Zoom‏‎ - Zoom arrière
+   MenuLocation: Affichage -> Zoom‏‎ -> Zoom arrière
    Workbenches: Tous
    Shortcut: **Ctrl**+**-**
-   SeeAlso: [Std Zoom avant](Std_ViewZoomIn/fr.md), [Std Zoom de sélection](Std_ViewBoxZoom/fr.md)
+   SeeAlso: Std_ViewZoomIn/fr, Std_ViewBoxZoom/fr
 ---
 
 # Std ViewZoomOut/fr

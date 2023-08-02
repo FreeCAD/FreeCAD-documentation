@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Arch Panel Sheet   Name/es: Arch Panel Sheet
-   MenuLocation: Arch - Panel tools - Panel Sheet
-   Workbenches: [Arch](Arch_Workbench/es.md)
+   MenuLocation: Arch -> Panel tools -> Panel Sheet
+   Workbenches: Arch_Workbench/es
    Shortcut: **P** **S**
-   SeeAlso: [Arch Panel](Arch_Panel/es.md)
+   SeeAlso: Arch Panel/es
 ---
 
 # Arch Panel Sheet/es

@@ -3,8 +3,8 @@
    Name: Assembly3 TogglePartVisibility
    Name/de: Assembly3 SichtbarkeitUmschalten
    Icon: Assembly_TogglePartVisibility.svg‎‎
-   MenuLocation: Assembly3 - Toggle part visibility
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   MenuLocation: Assembly3 -> Toggle part visibility
+   Workbenches: Assembly3_Workbench/de
    Shortcut: **A** dann **Space**
 ---
 

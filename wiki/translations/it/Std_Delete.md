@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std_Delete
    Name/it: Elimina
-   MenuLocation: Modifica - Elimina
+   MenuLocation: Modifica -> Elimina
    Workbenches: Tutti
    Shortcut: **Canc**
 ---

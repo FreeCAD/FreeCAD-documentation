@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Measure Toggle Delta
    Name/fr: Part Basculer Delta
-   MenuLocation: Mesure - Basculer Delta
-   Workbenches: [Part](Part_Workbench/fr.md)
-   SeeAlso: [Part Tout basculer](Part_Measure_Toggle_All/fr.md), [Part Basculer 3D](Part_Measure_Toggle_3D/fr.md)
+   MenuLocation: Mesure -> Basculer Delta
+   Workbenches: Part_Workbench/fr
+   SeeAlso: Part_Measure_Toggle_All/fr, Part_Measure_Toggle_3D/fr
 ---
 
 # Part Measure Toggle Delta/fr

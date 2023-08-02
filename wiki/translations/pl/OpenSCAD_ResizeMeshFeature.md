@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: OpenSCAD ResizeMeshFeature
-   MenuLocation: OpenSCAD - Resize Mesh Feature
-   Workbenches: [OpenSCAD](OpenSCAD_Workbench.md)
+   MenuLocation: OpenSCAD -> Resize Mesh Feature
+   Workbenches: OpenSCAD_Workbench
 ---
 
 # OpenSCAD ResizeMeshFeature/pl

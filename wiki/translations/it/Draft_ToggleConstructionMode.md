@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft ToggleConstructionMode
    Name/it: Modalità Costruzione
-   MenuLocation: Utilità - Attiva/Disattiva modalità di costruzione
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Utilità -> Attiva/Disattiva modalità di costruzione
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **C** **M**
-   SeeAlso: [Aggiungi al gruppo Costruzione](Draft_AddConstruction/it.md)
+   SeeAlso: Draft_AddConstruction/it
 ---
 
 # Draft ToggleConstructionMode/it

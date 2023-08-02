@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Sphere
    Name/pl: Część: Sfera
-   MenuLocation: Część - Bryła pierwotna - Sfera
-   Workbenches: [Część](Part_Workbench/pl.md)
-   SeeAlso: [Utwórz geometrie pierwotne](Part_CreatePrimitives/pl.md)
+   MenuLocation: Część -> Bryła pierwotna -> Sfera
+   Workbenches: Part_Workbench/pl
+   SeeAlso: Part_CreatePrimitives/pl
 ---
 
 # Part Sphere/pl

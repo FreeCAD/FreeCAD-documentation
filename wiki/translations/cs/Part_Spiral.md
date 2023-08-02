@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Part Spiral
-   MenuLocation: Part - [Create primitives](Part_Primitives.md) - Spiral
-   Workbenches: [Part](Part_Workbench.md), [OpenSCAD](OpenSCAD_Workbench.md)
+   MenuLocation: Part -> Part_Primitives -> Spiral
+   Workbenches: Part_Workbench, OpenSCAD_Workbench
    Version: 0.14
-   SeeAlso: [Part Primitives](Part_Primitives.md)
+   SeeAlso: Part_Primitives
 ---
 
 # Part Spiral/cs

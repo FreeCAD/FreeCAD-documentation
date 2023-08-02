@@ -2,10 +2,10 @@
 - GuiCommand:-cn
    Name: Arch Wall
    Name/zh-cn: 建筑墙体
-   MenuLocation: Arch - Wall
-   Workbenches: [Arch](Arch_Workbench.md)
+   MenuLocation: Arch -> Wall
+   Workbenches: Arch_Workbench
    Shortcut: **W** **A**
-   SeeAlso: [Arch Structure](Arch_Structure.md)
+   SeeAlso: Arch Structure
 ---
 
 # Arch Wall/zh-cn

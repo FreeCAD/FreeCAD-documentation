@@ -2,8 +2,8 @@
 - GuiCommand:
    Name/ru: Переключение виртуального пространства
    Name: Sketcher_SwitchVirtualSpace
-   MenuLocation: Sketch - Виртуальное пространство эскиза - Переключение виртуального пространства
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation: Sketch -> Виртуальное пространство эскиза -> Переключение виртуального пространства
+   Workbenches: Sketcher_Workbench/ru
    Version: 0.17
 ---
 

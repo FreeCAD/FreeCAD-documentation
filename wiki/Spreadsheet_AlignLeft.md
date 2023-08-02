@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Spreadsheet AlignLeft
-   MenuLocation: Spreadsheet - Alignment - Align left
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench.md)
+   MenuLocation: Spreadsheet -> Alignment -> Align left
+   Workbenches: Spreadsheet_Workbench
    Version: 0.17
 ---
 

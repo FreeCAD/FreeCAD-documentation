@@ -3,9 +3,9 @@
    Name: Part Union
    Name/it: Unione
    Icon: Part Fuse.svg
-   MenuLocation: Parte - Operazione booleana - Unione
-   Workbenches: [Parte](Part_Workbench/it.md)
-   SeeAlso: [Sottrazione](Part_Cut/it.md), [Intersezione](Part_Common/it.md), [Operazione booleana](Part_Boolean.md)
+   MenuLocation: Parte -> Operazione booleana -> Unione
+   Workbenches: Part_Workbench/it
+   SeeAlso: Part Cut/it, Part Common/it, Part Boolean
 ---
 
 # Part Fuse/it

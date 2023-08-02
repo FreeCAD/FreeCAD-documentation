@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Points Import
    Name/pl: Punkty: Import
-   MenuLocation: Punkty - Import punktów ...
-   Workbenches: [Punkty](Points_Workbench/pl.md)
-   SeeAlso: [Import Eksport](Import_Export/pl.md)
+   MenuLocation: Punkty -> Import punktów ...
+   Workbenches: Points_Workbench/pl
+   SeeAlso: Import_Export/pl
 ---
 
 # Points Import/pl

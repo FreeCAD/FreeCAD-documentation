@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part_JoinConnect
    Name/ru: Part JoinConnect
-   MenuLocation: Деталь - Join - Connect objects
-   Workbenches: [Part](Part_Workbench/ru.md)
-   SeeAlso: [Connect](Part_JoinConnect/ru.md), [Embed](Part_JoinEmbed/ru.md), [Cutout](Part_JoinCutout/ru.md), [Part Boolean](Part_Boolean/ru.md), [Part Thickness](Part_Thickness/ru.md)
+   MenuLocation: Деталь -> Join -> Connect objects
+   Workbenches: Part_Workbench/ru
+   SeeAlso: Part_JoinConnect/ru, Part_JoinEmbed/ru, Part_JoinCutout/ru, Part Boolean/ru, Part Thickness/ru
 ---
 
 # Part JoinConnect/ru

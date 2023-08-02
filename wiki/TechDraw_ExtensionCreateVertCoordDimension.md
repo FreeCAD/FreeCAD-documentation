@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: TechDraw ExtensionCreateVertCoordDimension
-   MenuLocation: TechDraw - Extensions: Dimensions - Create Vertical Coordinate Dimensions
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   MenuLocation: TechDraw -> Extensions: Dimensions -> Create Vertical Coordinate Dimensions
+   Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20
-   SeeAlso: [TechDraw ExtensionCreateHorizCoordDimension](TechDraw_ExtensionCreateHorizCoordDimension.md), [TechDraw ExtensionCreateObliqueCoordDimension](TechDraw_ExtensionCreateObliqueCoordDimension.md)
+   SeeAlso: TechDraw_ExtensionCreateHorizCoordDimension, TechDraw_ExtensionCreateObliqueCoordDimension
 ---
 
 # TechDraw ExtensionCreateVertCoordDimension

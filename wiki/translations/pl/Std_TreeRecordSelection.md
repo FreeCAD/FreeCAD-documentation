@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std TreeRecordSelection
    Name/pl: Std: Zapisz zaznaczenie z widoku drzewa
-   MenuLocation: Widok- Akcje widoku drzewa - Zapisz zaznaczenie
+   MenuLocation: Widok-> Akcje widoku drzewa -> Zapisz zaznaczenie
    Workbenches: wszystkie
    Shortcut: **T** **5**
    Version: 0.19

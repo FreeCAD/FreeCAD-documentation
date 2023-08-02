@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Drawing Save
    Name/fr: Drawing Sauvegarde
-   MenuLocation: Drawing - Exporter la page...
-   Workbenches: [Drawing](Drawing_Workbench/fr.md)
+   MenuLocation: Drawing -> Exporter la page...
+   Workbenches: Drawing Workbench/fr
    Raccourci: 
-   SeeAlso: [Drawing Ouvrir SVG](Drawing_Open_SVG/fr.md)
+   SeeAlso: Drawing_Open_SVG/fr
 ---
 
 # Drawing Save/fr

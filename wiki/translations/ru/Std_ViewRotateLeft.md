@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std ViewRotateLeft
    Name/ru: Std ViewRotateLeft
-   MenuLocation: Вид - Стандартные виды - Повернуть влево
+   MenuLocation: Вид -> Стандартные виды -> Повернуть влево
    Workbenches: All
    Shortcut: **Shift**+**Left**
-   SeeAlso: [Std ViewRotateRight](Std_ViewRotateRight/ru.md)
+   SeeAlso: Std_ViewRotateRight/ru
 ---
 
 # Std ViewRotateLeft/ru

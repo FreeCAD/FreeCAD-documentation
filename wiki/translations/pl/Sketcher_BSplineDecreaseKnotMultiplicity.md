@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher BSplineDecreaseKnotMultiplicity
    Name/pl: Szkicownik: Zwiększ krotność węzła krzywej złożonej
-   MenuLocation: Szkic - Narzędzia szkicownika krzywej złożonej - Zwiększ krotność węzła krzywej złożonej
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   MenuLocation: Szkic -> Narzędzia szkicownika krzywej złożonej -> Zwiększ krotność węzła krzywej złożonej
+   Workbenches: Sketcher_Workbench/pl
    Version: 0.17
-   SeeAlso: [Pokaż / ukryj wyświetlanie węzłów krzywej złożonej](Sketcher_BSplineKnotMultiplicity/pl.md), [Zwiększ krotność węzła krzywej złożonej](Sketcher_BSplineIncreaseKnotMultiplicity/pl.md)
+   SeeAlso: Sketcher_BSplineKnotMultiplicity/pl, Sketcher_BSplineIncreaseKnotMultiplicity/pl
 ---
 
 # Sketcher BSplineDecreaseKnotMultiplicity/pl

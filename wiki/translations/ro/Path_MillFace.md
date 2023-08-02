@@ -1,12 +1,12 @@
 # Path MillFace/ro
 ---
-- GuiCommand:   Name: Path-Face   Workbenches: [[Path Workbench   Path]]|MenuLocation: Path - Face   Shortcut|SeeAlso: ---
+- GuiCommand:   Name: Path-Face   Workbenches: Path Workbench   Path|MenuLocation: Path -> Face   Shortcut|SeeAlso: ---
 
 
 </div>
 
 ---
-- GuiCommand:   Name: Path-Face   Workbenches: [[Path Workbench   Path]]|MenuLocation: Path - Face   Shortcut|SeeAlso: ---
+- GuiCommand:   Name: Path-Face   Workbenches: Path Workbench   Path|MenuLocation: Path -> Face   Shortcut|SeeAlso: ---
 
 ## Description
 

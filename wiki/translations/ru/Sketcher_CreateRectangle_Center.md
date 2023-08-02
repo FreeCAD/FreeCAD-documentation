@@ -2,11 +2,11 @@
 - GuiCommand:
    Name/ru: Создать центрированный прямоугольник
    Name: Sketcher_CreateRectangle_Center
-   MenuLocation: Sketch - Геометрия эскиза - Создать центрированный прямоугольник
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation: Sketch -> Геометрия эскиза -> Создать центрированный прямоугольник
+   Workbenches: Sketcher_Workbench/ru
    Shortcut: **G** **V**
    Version: 0.20
-   SeeAlso: [Создать прямоугольник](Sketcher_CreateRectangle/ru.md)
+   SeeAlso: Sketcher_CreateRectangle/ru
 ---
 
 # Sketcher CreateRectangle Center/ru

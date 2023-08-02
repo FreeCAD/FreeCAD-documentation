@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Sketcher CompCreateCircle
    Name/pl: Szkicownik: Komponent Utwórz okrąg
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Workbenches: Sketcher Workbench/pl
 ---
 
 # Sketcher CompCreateCircle/pl

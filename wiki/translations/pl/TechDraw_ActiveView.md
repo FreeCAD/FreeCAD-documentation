@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: TechDraw  ActiveView
    Name/pl: Rysunek Techniczny:  Wstaw aktywny widok
-   MenuLocation: Rysunek Techniczny - Widoki innych środowisk - Wstaw aktywny widok (widok 3D)
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   MenuLocation: Rysunek Techniczny -> Widoki innych środowisk -> Wstaw aktywny widok 
+   Workbenches: TechDraw_Workbench/pl
    Version: 0.19
-   SeeAlso: [Wstaw obraz bitmapy](TechDraw_Image/pl.md)
+   SeeAlso: TechDraw_Image/pl
 ---
 
 # TechDraw ActiveView/pl

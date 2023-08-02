@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: PartDesign MultiTransform
    Name/de: PartDesign MultiTransform
-   MenuLocation: Part Design - Muster anwenden - Mehrfach-Transformation erstellen
-   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso: [PartDesign Spiegeln](PartDesign_Mirrored/de.md), [PartDesign LinearesMuster](PartDesign_LinearPattern/de.md), [PartDesign PolaresMuster](PartDesign_PolarPattern/de.md), [PartDesign Skalieren](PartDesign_Scaled/de.md)
+   MenuLocation: Part Design -> Muster anwenden -> Mehrfach-Transformation erstellen
+   Workbenches: PartDesign_Workbench/de
+   SeeAlso: PartDesign_Mirrored/de, PartDesign_LinearPattern/de, PartDesign_PolarPattern/de, PartDesign_Scaled/de
 ---
 
 # PartDesign MultiTransform/de

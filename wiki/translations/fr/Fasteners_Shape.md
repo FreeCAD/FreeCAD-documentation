@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Fasteners Shape
    Name/fr: Fasteners Shape
-   MenuLocation: Fasteners - Simplify shape
-   Workbenches: [Fasteners](Fasteners_Workbench/fr.md)
+   MenuLocation: Fasteners -> Simplify shape
+   Workbenches: Fasteners_Workbench/fr
 ---
 
 # Fasteners Shape/fr

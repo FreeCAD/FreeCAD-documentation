@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: PartDesign Clone
-   MenuLocation: Part Design - Create a clone
-   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   MenuLocation: Part Design -> Create a clone
+   Workbenches: PartDesign_Workbench
    Version: 0.17
-   SeeAlso: [Draft Clone](Draft_Clone.md)
+   SeeAlso: Draft_Clone
 ---
 
 # PartDesign Clone

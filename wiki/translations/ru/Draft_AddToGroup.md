@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft AddToGroup
    Name/ru: Draft AddToGroup
-   MenuLocation: Черчение - Утилиты - Добавить в группу
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Черчение -> Утилиты -> Добавить в группу
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: 
-   SeeAlso: [Draft SelectGroup](Draft_SelectGroup/ru.md), [Std CreateGroup](Std_Group/ru.md)
+   SeeAlso: Draft_SelectGroup/ru, Std_Group/ru
 ---
 
 # Draft AddToGroup/ru

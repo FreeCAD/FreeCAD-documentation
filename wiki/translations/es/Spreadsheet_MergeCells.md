@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Spreadsheet MergeCells
    Name/es: Hoja de cálculo UnirCeldas
-   MenuLocation: Hoja de cálculo - Unir celdas
-   Workbenches: [Hoja de cálculo](Spreadsheet_Workbench/es.md)
+   MenuLocation: Hoja de cálculo -> Unir celdas
+   Workbenches: Spreadsheet_Workbench/es
    Version: 0.17
 ---
 

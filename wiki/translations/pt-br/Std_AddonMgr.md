@@ -3,9 +3,9 @@
    Name: Addon manager
    Name/pt-br: Addon manager
    Icon: AddonManager.svg
-   MenuLocation: Tools - Addon manager
+   MenuLocation: Tools -> Addon manager
    Workbenches: ''None''
-   SeeAlso: [Macros](Macros/pt-br.md), [[External workbenches/pt-br]]
+   SeeAlso: Macros/pt-br, External workbenches/pt-br
    Version: 0.17
 ---
 

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Аддитивная призма
    Name: PartDesign_AdditivePrism
-   MenuLocation: Part Design - Создать аддитивный примитив - Аддитивная Призма
-   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   MenuLocation: Part Design -> Создать аддитивный примитив -> Аддитивная Призма
+   Workbenches: PartDesign_Workbench/ru
    Version: 0.17
-   SeeAlso: [Создать аддитивный примитив](PartDesign_CompPrimitiveAdditive/ru.md), [Субтрактивная призма](PartDesign_SubtractivePrism/ru.md)
+   SeeAlso: PartDesign_CompPrimitiveAdditive/ru, PartDesign_SubtractivePrism/ru
 ---
 
 # PartDesign AdditivePrism/ru

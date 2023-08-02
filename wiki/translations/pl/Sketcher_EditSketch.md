@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Sketcher EditSketch
    Name/pl: Szkicownik: Edycja szkicu
-   MenuLocation: Szkic - Edycja szkicu
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md)
-   SeeAlso: [Opuść szkic](Sketcher_LeaveSketch/pl.md)
+   MenuLocation: Szkic -> Edycja szkicu
+   Workbenches: Sketcher_Workbench/pl, PartDesign_Workbench/pl
+   SeeAlso: Sketcher_LeaveSketch/pl
 ---
 
 # Sketcher EditSketch/pl

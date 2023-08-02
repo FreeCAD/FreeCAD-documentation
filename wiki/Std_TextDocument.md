@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Std TextDocument
-   MenuLocation: Tools - Add text document
+   MenuLocation: Tools -> Add text document
    Workbenches: All
    Version: 0.19
-   SeeAlso: [Draft ShapeString](Draft_ShapeString.md), [Draft Text](Draft_Text.md)
+   SeeAlso: Draft ShapeString, Draft Text
 ---
 
 # Std TextDocument

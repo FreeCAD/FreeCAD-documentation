@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Drawing
    Name/pl: Kreślenie: Projekt rysunku
-   Workbenches: [Kreślenie](Drawing_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   SeeAlso: [Wstaw widok rysunku](TechDraw_DraftView/pl.md)
+   Workbenches: Drawing_Workbench/pl, Arch_Workbench/pl
+   SeeAlso: TechDraw_DraftView/pl
 ---
 
 # Draft Drawing/pl

@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher CreateBSpline
    Name/fr: Sketcher B-spline simple
-   MenuLocation: Esquisse - Géométries d'esquisse - Créer une B-spline
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   MenuLocation: Esquisse -> Géométries d'esquisse -> Créer une B-spline
+   Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **B** **B**
    Version: 0.17
-   SeeAlso: [Sketcher B-spline périodique](Sketcher_CreatePeriodicBSpline/fr.md)
+   SeeAlso: Sketcher_CreatePeriodicBSpline/fr
 ---
 
 # Sketcher CreateBSpline/fr

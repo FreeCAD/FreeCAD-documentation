@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign AdditivePipe
    Name/ro: PartDesign AdditivePipe
-   Workbenches: [PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation: PartDesign - Additive pipe
+   Workbenches: PartDesign Workbench/ro
+   MenuLocation: PartDesign -> Additive pipe
    Version: 0.17
-   SeeAlso: [PartDesign Additive Loft](PartDesign_AdditiveLoft/ro.md)
+   SeeAlso: PartDesign AdditiveLoft/ro
 ---
 
 # PartDesign AdditivePipe/ro

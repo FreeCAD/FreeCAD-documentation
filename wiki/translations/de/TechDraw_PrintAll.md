@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw PrintAll
    Name/de: TechDraw AllesDrucken
-   MenuLocation: TechDraw- Page - Alle Seiten drucken
-   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   MenuLocation: TechDraw-> Page -> Alle Seiten drucken
+   Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.21
-   SeeAlso: [Std Drucken](Std_Print/de.md)
+   SeeAlso: Std_Print/de
 ---
 
 # TechDraw PrintAll/de

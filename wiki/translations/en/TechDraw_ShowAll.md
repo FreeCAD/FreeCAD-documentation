@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: TechDraw ShowAll
-   MenuLocation: TechDraw - Add Lines - Show/Hide Invisible Edges
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   MenuLocation: TechDraw -> Add Lines -> Show/Hide Invisible Edges
+   Workbenches: TechDraw_Workbench
    Version: 0.19
-   SeeAlso: [TechDraw DecorateLine](TechDraw_DecorateLine.md)
+   SeeAlso: TechDraw_DecorateLine
 ---
 
 # TechDraw ShowAll/en

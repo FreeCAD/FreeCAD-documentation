@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Cylinder
    Name/fr: Part Cylindre
-   MenuLocation: Part - Primitives - Cylindre
-   Workbenches: [Part](Part_Workbench/fr.md)
-   SeeAlso: [Part Primitives](Part_Primitives/fr.md)
+   MenuLocation: Part -> Primitives -> Cylindre
+   Workbenches: Part_Workbench/fr
+   SeeAlso: Part_Primitives/fr
 ---
 
 # Part Cylinder/fr

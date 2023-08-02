@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std HideSelection
    Name/fr: Std Masquer la sélection
-   MenuLocation: Affichage - Visibilité - Masquer la selection
+   MenuLocation: Affichage -> Visibilité -> Masquer la selection
    Workbenches: Tous
-   SeeAlso: [Std Basculer la visibilité](Std_ToggleVisibility/fr.md), [Std Afficher la sélection](Std_ShowSelection/fr.md), [Std Basculer tous les objets](Std_ToggleObjects/fr.md), [Std Afficher les objets](Std_ShowObjects/fr.md), [Std Masquer tous les objets](Std_HideObjects.md)
+   SeeAlso: Std_ToggleVisibility/fr, Std_ShowSelection/fr, Std_ToggleObjects/fr, Std_ShowObjects/fr, Std_HideObjects
 ---
 
 # Std HideSelection/fr

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Downgrade
    Name/tr: Düşür
-   MenuLocation: Draft - Downgrade
-   Workbenches: [Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   MenuLocation: Draft -> Downgrade
+   Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **D** **N**
-   SeeAlso: [Draft Upgrade](Draft_Upgrade/tr.md)
+   SeeAlso: Draft Upgrade/tr
 ---
 
 # Draft Downgrade/tr

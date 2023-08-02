@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: FEM ConstraintInitialFlowVelocity
-   MenuLocation: Model - Fluid Constraints - Constraint initial flow velocity
-   Workbenches: [FEM](FEM_Workbench.md)
-   SeeAlso: [Constraint flow velocity](FEM_ConstraintFlowVelocity.md), [Constraint initial pressure](FEM_ConstraintInitialPressure.md)
+   MenuLocation: Model -> Fluid Constraints -> Constraint initial flow velocity
+   Workbenches: FEM_Workbench
+   SeeAlso: FEM_ConstraintFlowVelocity, FEM_ConstraintInitialPressure
 ---
 
 # FEM ConstraintInitialFlowVelocity/pl

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Sketcher DeleteAllConstraints
-   MenuLocation: Sketch - Sketcher tools - Delete all constraints
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch -> Sketcher tools -> Delete all constraints
+   Workbenches: Sketcher_Workbench
    Version: 0.18
-   SeeAlso: [Sketcher Delete All Geometry](Sketcher_DeleteAllGeometry.md)
+   SeeAlso: Sketcher_DeleteAllGeometry
 ---
 
 # Sketcher DeleteAllConstraints/pt-br

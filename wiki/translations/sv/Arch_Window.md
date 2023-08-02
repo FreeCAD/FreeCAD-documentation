@@ -1,6 +1,6 @@
 # Arch Window/sv
 ---
-- GuiCommand:   Name: Arch Window   Name/sv: Arch Window   Workbenches: [MenuLocation: Arch - Window   Shortcut: W I   SeeAlso: [[Arch Wall/sv|Arch Wall](Arch_Workbench/sv___Arch]].md)---
+- GuiCommand:   Name: Arch Window   Name/sv: Arch Window   Workbenches: Arch_Workbench/sv   Arch---
 
 
 </div>

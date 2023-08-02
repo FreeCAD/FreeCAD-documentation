@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft BSpline
    Name/it: BSpline
-   MenuLocation: Drafting - BSpline
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Drafting -> BSpline
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **B** **S**
    Version: 0.7
-   SeeAlso: [Polilinea](Draft_Wire/it.md), [Curva di Bezier](Draft_BezCurve/it.md)
+   SeeAlso: Draft Wire/it, Draft BezCurve/it
 ---
 
 # Draft BSpline/it

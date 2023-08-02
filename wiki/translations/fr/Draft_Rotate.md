@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Rotate
    Name/fr: Draft Pivoter
-   MenuLocation: Modification - Pivoter
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Modification -> Pivoter
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **R** **O**
    Version: 0.7
-   SeeAlso: [Draft Surligner les sous éléments](Draft_SubelementHighlight/fr.md)
+   SeeAlso: Draft_SubelementHighlight/fr
 ---
 
 # Draft Rotate/fr

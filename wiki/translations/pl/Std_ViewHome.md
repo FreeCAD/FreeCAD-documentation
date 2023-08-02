@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Std ViewHome
    Name/pl: Std: Widok domyślny
-   MenuLocation: Widok - Widoki standardowe - Widok domyślny
+   MenuLocation: Widok -> Widoki standardowe -> Widok domyślny
    Workbenches: wszystkie
    Shortcut: **Home**
    Version: 0.19
-   SeeAlso: [Przybliż i dopasuj wszystko](Std_ViewFitAll/pl.md)
+   SeeAlso: Std_ViewFitAll/pl
 ---
 
 # Std ViewHome/pl

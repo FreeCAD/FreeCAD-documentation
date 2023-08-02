@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Arch Reference
-   MenuLocation: Arch - Reference
-   Workbenches: [Arch](Arch_Workbench.md)
-   SeeAlso: [Arch BuildingPart](Arch_BuildingPart.md)
+   MenuLocation: Arch -> Reference
+   Workbenches: Arch_Workbench
+   SeeAlso: Arch_BuildingPart
 ---
 
 # Arch Reference/pl

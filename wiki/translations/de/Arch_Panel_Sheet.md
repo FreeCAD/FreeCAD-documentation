@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch Panel Sheet
    Name/de: Arch Tafel Blech
-   Workbenches: [Arch](Arch_Workbench/de.md)
-   MenuLocation: Arch - Panel tools - Tafel Blatt
+   Workbenches: Arch_Workbench/de
+   MenuLocation: Arch -> Panel tools -> Tafel Blatt
    Shortcut: **P** **S**
-   SeeAlso: [Arch Tafel](Arch_Panel/de.md), [Arch Tafelschnitt](Arch_Panel_Cut/de.md), [Arch Verschachteln](Arch_Nest/de.md)
+   SeeAlso: Arch_Panel/de, Arch_Panel_Cut/de, Arch_Nest/de
 ---
 
 # Arch Panel Sheet/de

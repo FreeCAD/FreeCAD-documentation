@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Добавить вспомогательную вершину
    Name: TechDraw_CosmeticVertex
-   MenuLocation: TechDraw - Добавить Вершины - Добавить вспомогательную вершину 
-   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   MenuLocation: TechDraw -> Добавить Вершины -> Добавить вспомогательную вершину 
+   Workbenches: TechDraw_Workbench/ru
    Version: 0.19
-   SeeAlso: [Добавить вершины по центрам граней](TechDraw_Midpoints/ru.md), [Добавить 4-ре вершины по краям окружности](TechDraw_Quadrants/ru.md)
+   SeeAlso: TechDraw_Midpoints/ru, TechDraw_Quadrants/ru
 ---
 
 # TechDraw CosmeticVertex/ru

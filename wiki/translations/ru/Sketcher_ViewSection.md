@@ -2,8 +2,8 @@
 - GuiCommand:
    Name/ru: Просмотр сечения
    Name: Sketcher_ViewSection
-   MenuLocation: Sketch - Просмотр сечения
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md) 
+   MenuLocation: Sketch -> Просмотр сечения
+   Workbenches: Sketcher_Workbench/ru, PartDesign_Workbench/ru 
    Version: 0.18
 ---
 

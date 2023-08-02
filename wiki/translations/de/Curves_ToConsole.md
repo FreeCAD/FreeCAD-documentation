@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Curves ToConsole
    Name/de: Curves ZurKonsole
-   MenuLocation: Misc. - Objects to Console
-   Workbenches: [Curves](Curves_Workbench/de.md)
+   MenuLocation: Misc. -> Objects to Console
+   Workbenches: Curves_Workbench/de
 ---
 
 # Curves ToConsole/de

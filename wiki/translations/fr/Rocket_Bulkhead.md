@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Rocket Bulkhead
    Name/fr: Rocket Cloison
-   MenuLocation: Rocket - Bulkhead
-   Workbenches: [Rocket](Rocket_Workbench/fr.md)
+   MenuLocation: Rocket -> Bulkhead
+   Workbenches: Rocket_Workbench/fr
    Version: 0.19
 ---
 

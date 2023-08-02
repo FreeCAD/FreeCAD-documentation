@@ -5,7 +5,7 @@
    MenuLocation: brak
    Workbenches: wszystkie
    Version: 0.19
-   SeeAlso: [Std LinkSelectLinked](Std_LinkSelectLinked.md), [Wybierz wszystkie łącza](Std_LinkSelectAllLinks/pl.md), [Przywróć wybór](Std_SelBack/pl.md), [Ponów wybór](Std_SelForward/pl.md)
+   SeeAlso: Std_LinkSelectLinked, Std_LinkSelectAllLinks/pl, Std_SelBack/pl, Std_SelForward/pl
 ---
 
 # Std LinkSelectLinkedFinal/pl

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std SceneInspector
    Name/fr: Std Inspecteur de scène‏‎
-   MenuLocation: Outils - Inspecteur de scène‏‎...
+   MenuLocation: Outils -> Inspecteur de scène‏‎...
    Workbenches: Tous
 ---
 

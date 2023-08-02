@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign SubtractiveSphere
    Name/pl: Projekt Części: Subtraktywna sfera
-   MenuLocation: Projekt Części - Utwórz cechę przez odjęcie - Subtraktywna sfera
-   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   MenuLocation: Projekt Części -> Utwórz cechę przez odjęcie -> Subtraktywna sfera
+   Workbenches: PartDesign_Workbench/pl
    Version: 0.17
-   SeeAlso: [Komponent bryła pierwotna do odjęcia](PartDesign_CompPrimitiveSubtractive/pl.md), [Addytywna sfera](PartDesign_AdditiveSphere/pl.md)
+   SeeAlso: PartDesign_CompPrimitiveSubtractive/pl, PartDesign_AdditiveSphere/pl
 ---
 
 # PartDesign SubtractiveSphere/pl

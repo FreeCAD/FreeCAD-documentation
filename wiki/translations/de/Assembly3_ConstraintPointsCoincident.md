@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintPointsCoincident
    Name/de: Assembly3 PunktAufPunkt
    Icon: Assembly_ConstraintPointCoincident.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 ConstraintPointsCoincident/de

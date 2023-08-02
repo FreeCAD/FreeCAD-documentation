@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintAttachmentOffset
    Name/de: Assembly3 BefestigungVersatz
    Icon: Assembly_ConstraintAttachmentOffset.svg‎‎
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 ConstraintAttachmentOffset/de

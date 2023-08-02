@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher ConstrainRadiam
    Name/de: Sketcher RadiamFestlegen
-   MenuLocation: Sketch - Skizzen-Beschränkungen - Automatisch Radius/Durchmesser einschränken
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Sketch -> Skizzen-Beschränkungen -> Automatisch Radius/Durchmesser einschränken
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **K** **S**
    Version: 0.20
-   SeeAlso: [Sketcher AbstandFestlegen](Sketcher_ConstrainDistance/de.md), [Sketcher XAbstandFestlegen](Sketcher_ConstrainDistanceX/de.md), [Sketcher YAbstandFestlegen](Sketcher_ConstrainDistanceY/de.md)
+   SeeAlso: Sketcher_ConstrainDistance/de, Sketcher_ConstrainDistanceX/de, Sketcher_ConstrainDistanceY/de
 ---
 
 # Sketcher ConstrainRadiam/de

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Mesh VertexCurvature
    Name/fr: Mesh Courbure
-   MenuLocation: Maillages - Tracer la courbure
-   Workbenches: [Mesh](Mesh_Workbench/fr.md)
-   SeeAlso: [Mesh Info sur les courbures](Mesh_CurvatureInfo/fr.md)
+   MenuLocation: Maillages -> Tracer la courbure
+   Workbenches: Mesh_Workbench/fr
+   SeeAlso: Mesh_CurvatureInfo/fr
 ---
 
 # Mesh VertexCurvature/fr

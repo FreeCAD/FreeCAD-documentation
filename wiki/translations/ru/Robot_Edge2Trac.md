@@ -3,8 +3,8 @@
 - GuiCommand:
    Name: Robot Edge2Trac
    Name/ru: Robot Edge2Trac
-   Workbenches: [Robot](Robot_Workbench/ru.md)
-   MenuLocation: Робот - Край траектории---
+   Workbenches: Robot_Workbench/ru
+   MenuLocation: Робот -> Край траектории---
 
 
 </div>

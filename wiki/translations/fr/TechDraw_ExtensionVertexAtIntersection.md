@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: TechDraw ExtensionVertexAtIntersection
    Name/fr: TechDraw Intersection de lignes
-   MenuLocation: TechDraw - Extensions : taraudages/filetages - Intersection de lignes
-   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   MenuLocation: TechDraw -> Extensions : taraudages/filetages -> Intersection de lignes
+   Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.20
    SeeAlso: 

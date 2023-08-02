@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
-   Name/ru: Усиленный материал (бетон)
+   Name/ru: Усиленный материал 
    Name: FEM_MaterialReinforced
-   MenuLocation:  Model - Материалы - Усиленный материал (бетон)
-   Workbenches: [FEM](FEM_Workbench/ru.md)
-   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
+   MenuLocation:  Model -> Материалы -> Усиленный материал 
+   Workbenches: FEM_Workbench/ru
+   SeeAlso: FEM_tutorial/ru
 ---
 
 # FEM MaterialReinforced/ru

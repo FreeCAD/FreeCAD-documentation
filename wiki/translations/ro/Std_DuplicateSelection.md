@@ -1,6 +1,6 @@
 # Std DuplicateSelection/ro
 ---
-- GuiCommand:   Name: Std DuplicateSelection   Name/ro: Std DuplicateSelection   MenuLocation: Edit - Copy   Shortcut:     Workbenches: All   SeeAlso: [Copy](Std_Copy/ro.md), [Paste](Std_Paste/ro.md)---
+- GuiCommand:   Name: Std DuplicateSelection   Name/ro: Std DuplicateSelection   MenuLocation: Edit -> Copy   Shortcut:     Workbenches: All   SeeAlso: Std_Copy/ro, Std_Paste/ro---
 
 
 </div>

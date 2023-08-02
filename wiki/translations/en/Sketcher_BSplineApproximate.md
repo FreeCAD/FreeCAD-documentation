@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Sketcher BSplineApproximate
-   MenuLocation: Sketch - Sketcher B-spline tools - Convert geometry to B-spline
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch -> Sketcher B-spline tools -> Convert geometry to B-spline
+   Workbenches: Sketcher_Workbench
    Version: 0.17
-   SeeAlso: [Sketcher Create B-spline](Sketcher_CompCreateBSpline.md)
+   SeeAlso: Sketcher_CompCreateBSpline
 ---
 
 # Sketcher BSplineApproximate/en

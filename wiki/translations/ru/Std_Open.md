@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std_Open
    Name/ru: Открыть...
-   MenuLocation: [Файл](Std_File_Menu/ru.md) - Открыть...
+   MenuLocation: Std_File_Menu/ru -> Открыть...
    Workbenches: All
    Shortcut: **Ctrl**+**O**
-   SeeAlso: [Импортировать файл](Std_Import/ru.md),<br>[Создать файл](Std_New/ru.md)
+   SeeAlso: Std_Import/ru,<br>Std_New/ru
 ---
 
 # Std Open/ru

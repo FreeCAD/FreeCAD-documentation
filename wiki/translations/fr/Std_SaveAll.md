@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std SaveAll
    Name/fr: Std Tout enregistrer
-   MenuLocation: Fichier - Enregistrer tout
+   MenuLocation: Fichier -> Enregistrer tout
    Workbenches: Tous
-   SeeAlso: [Std Enregistrer](Std_Save/fr.md)
+   SeeAlso: Std_Save/fr
 ---
 
 # Std SaveAll/fr

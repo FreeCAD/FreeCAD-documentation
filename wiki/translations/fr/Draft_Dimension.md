@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Dimension
    Name/fr: Draft Dimension
-   MenuLocation: Annotation - Dimension
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Annotation -> Dimension
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **D** **I**
    Version: 0.8
-   SeeAlso: [Draft Inverser le texte de la dimension](Draft_FlipDimension/fr.md)
+   SeeAlso: Draft_FlipDimension/fr
 ---
 
 # Draft Dimension/fr

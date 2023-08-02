@@ -3,7 +3,7 @@
    Name: Web BrowserZoomIn
    Name/de: Web BrowserVergrößern
    MenuLocation: 
-   Workbenches: [Web](Web_Workbench/de.md), [Start](Start_Workbench/de.md)
+   Workbenches: Web_Workbench/de, Start_Workbench/de
    SeeAlso: 
 ---
 

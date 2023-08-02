@@ -1,10 +1,10 @@
 ---
 - GuiCommand:   Name: Part SliceApart
    Name/it: Affetta in parti
-   MenuLocation: Part - Dividi - Affetta in parti
-   Workbenches: [Part](Part_Workbench/it.md)
+   MenuLocation: Part -> Dividi -> Affetta in parti
+   Workbenches: Part_Workbench/it
    Version: 0.18.15506
-   SeeAlso: [Affetta in composto](Part_Slice/it.md), [Esplodi il composto](Part_ExplodeCompound/it.md)
+   SeeAlso: Part Slice/it, Part_ExplodeCompound/it
 ---
 
 # Part SliceApart/it

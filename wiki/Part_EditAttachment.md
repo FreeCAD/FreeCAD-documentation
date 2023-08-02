@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Part EditAttachment
-   MenuLocation: Part - Attachment...
-   Workbenches: [Part](Part_Workbench.md), [PartDesign](PartDesign_Workbench.md)
+   MenuLocation: Part -> Attachment...
+   Workbenches: Part_Workbench, PartDesign_Workbench
    Version: 0.17
-   SeeAlso: [Placement](Placement.md), [Basic Attachment Tutorial](Basic_Attachment_Tutorial.md), [Part Part2DObject](Part_Part2DObject.md)
+   SeeAlso: Placement, Basic_Attachment_Tutorial, Part_Part2DObject
 ---
 
 # Part EditAttachment

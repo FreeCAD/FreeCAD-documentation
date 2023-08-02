@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch ToggleSubs
    Name/fr: Arch Bascule des sous composants
-   MenuLocation: Arch - Utilitaires - Activer/désactiver sous composants
-   Workbenches: [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Arch -> Utilitaires -> Activer/désactiver sous composants
+   Workbenches: Arch_Workbench/fr
    Shortcut: ‏‎Ctrl + Espace
-   SeeAlso: [Arch Composants](Arch_Component/fr.md)
+   SeeAlso: Arch_Component/fr
 ---
 
 # Arch ToggleSubs/fr

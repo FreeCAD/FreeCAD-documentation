@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std SaveCopy
    Name/de: Std KopieSpeichern
-   MenuLocation: Datei - Speichern einer Kopie...
+   MenuLocation: Datei -> Speichern einer Kopie...
    Workbenches: Alle
    Shortcut: **C**
-   SeeAlso: [Std Speichern](Std_Save/de.md), [Std SpeichernUnter](Std_SaveAs/de.md)
+   SeeAlso: Std_Save/de, Std_SaveAs/de
 ---
 
 # Std SaveCopy/de

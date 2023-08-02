@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Sketcher CompCreateRectangles
    Name/de: Sketcher AuswahlRechteckErstellen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Workbenches: Sketcher_Workbench/de
    Version: 0.20
 ---
 

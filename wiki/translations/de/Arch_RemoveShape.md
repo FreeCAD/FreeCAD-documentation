@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch RemoveShape
    Name/de: Arch FormEntfernen
-   Workbenches: [Arch-Arbeitsbereich](Arch_Workbench/de.md)
-   MenuLocation: Architektur - Dienstprogramme - Entferne Form
-   SeeAlso: [Arch NetzAufteilen](Arch_SplitMesh/de.md), [Arch NetzZuForm](Arch_MeshToShape/de.md)
+   Workbenches: Arch_Workbench/de
+   MenuLocation: Architektur -> Dienstprogramme -> Entferne Form
+   SeeAlso: Arch_SplitMesh/de, Arch_MeshToShape/de
 ---
 
 # Arch RemoveShape/de

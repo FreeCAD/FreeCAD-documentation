@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch Grid
    Name/de: Arch Gitter
-   MenuLocation: Arch - Achsenwerkzeuge - Gitter
-   Workbenches: [Arch](Arch_Workbench/de.md)
-   SeeAlso: [Arch Achse](Arch_Axis/de.md), [Arch AchsenSystem](Arch_AxisSystem/de.md)
+   MenuLocation: Arch -> Achsenwerkzeuge -> Gitter
+   Workbenches: Arch_Workbench/de
+   SeeAlso: Arch_Axis/de, Arch_AxisSystem/de
 ---
 
 # Arch Grid/de

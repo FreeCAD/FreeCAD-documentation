@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw GeometricHatch
    Name/it: Tratteggio geometrico
-   MenuLocation: TechDraw - Tratteggio geometrico
-   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso: [Tratteggio da modello](TechDraw_Hatch/it.md), [Tipi di tratteggio](TechDraw_Hatching/it.md)
+   MenuLocation: TechDraw -> Tratteggio geometrico
+   Workbenches: TechDraw_Workbench/it
+   SeeAlso: TechDraw_Hatch/it, TechDraw_Hatching/it
 ---
 
 # TechDraw GeometricHatch/it

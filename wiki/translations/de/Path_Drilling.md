@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path Drilling
    Name/de: Path Bohrung
-   MenuLocation: Path - Drilling
-   Workbenches: [Path](Path_Workbench/de.md)
+   MenuLocation: Path -> Drilling
+   Workbenches: Path_Workbench/de
 ---
 
 # Path Drilling/de

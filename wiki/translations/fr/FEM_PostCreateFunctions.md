@@ -3,7 +3,7 @@
    Name: FEM CompPostCreateFunctions
    Name/fr: FEM Fonctions de filtrage
    MenuLocation: 
-   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Workbenches: FEM_Workbench/fr
    SeeAlso: 
 ---
 

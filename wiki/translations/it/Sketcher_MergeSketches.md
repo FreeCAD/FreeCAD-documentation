@@ -2,8 +2,8 @@
 - GuiCommand:
    Icon: Sketcher MergeSketch.svg
    Name/it: Unisci schizzi
-   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation: Sketch - Unisci schizzi
+   Workbenches: Sketcher Workbench/it
+   MenuLocation: Sketch -> Unisci schizzi
    Version: 0.15
 ---
 

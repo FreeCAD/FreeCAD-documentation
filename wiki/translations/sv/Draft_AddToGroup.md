@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft AddToGroup
    Name/sv: Draft AddToGroup
-   Workbenches: [Draft](Draft_Workbench/sv.md), [Arch](Arch_Workbench/sv.md)
-   MenuLocation: Draft - Utilities - Add to group
+   Workbenches: Draft_Workbench/sv, Arch_Workbench/sv
+   MenuLocation: Draft -> Utilities -> Add to group
    Shortcut: 
-   SeeAlso: [Draft SelectGroup](Draft_SelectGroup/sv.md), [Std Group](Std_Group/sv.md)
+   SeeAlso: Draft_SelectGroup/sv, Std_Group/sv
 ---
 
 # Draft AddToGroup/sv

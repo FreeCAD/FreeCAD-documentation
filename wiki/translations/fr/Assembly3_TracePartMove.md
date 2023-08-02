@@ -3,8 +3,8 @@
    Name: Assembly3 TracePartMove
    Name/fr: Assembly3 Tracé du déplacement d'une pièce
    Icon: Assembly_Trace.svg‎‎
-   MenuLocation: Assembly3 - Trace part move
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   MenuLocation: Assembly3 -> Trace part move
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 TracePartMove/fr

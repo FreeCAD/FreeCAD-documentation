@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: PartDesign PolarPattern
    Name/es: DiseñoPieza PatrónPolar
-   MenuLocation: DiseñoPieza - Aplicar un patrón - PatrónPolar
-   Workbenches: [DiseñoPieza](PartDesign_Workbench/es.md)
+   MenuLocation: DiseñoPieza -> Aplicar un patrón -> PatrónPolar
+   Workbenches: PartDesign_Workbench/es
 ---
 
 # PartDesign PolarPattern/es

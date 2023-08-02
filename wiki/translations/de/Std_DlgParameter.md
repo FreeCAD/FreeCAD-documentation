@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std DlgParameter
    Name/de: Std ParameterDialog
-   MenuLocation: Werkzeuge - Parameter bearbeiten...
+   MenuLocation: Werkzeuge -> Parameter bearbeiten...
    Workbenches: All
-   SeeAlso: [Voreinstellungseditor](Preferences_Editor/de.md)
+   SeeAlso: Preferences_Editor/de
 ---
 
 # Std DlgParameter/de

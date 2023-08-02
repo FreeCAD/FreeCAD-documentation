@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintAlignment
    Name/de: Assembly3 EbenenAusrichten
    Icon: Assembly_ConstraintAlignment.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 ConstraintAlignment/de

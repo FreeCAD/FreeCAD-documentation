@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher SelectOrigin
    Name/de: Sketcher UrsprungAuswählen
-   MenuLocation: Skizze - Skizzenwerkzeuge - Ursprung auswählen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Skizze -> Skizzenwerkzeuge -> Ursprung auswählen
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **Z** **O**
    Version: 0.15
 ---

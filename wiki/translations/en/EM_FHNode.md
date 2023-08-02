@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: EM FHNode
-   MenuLocation: EM - FHNode
-   Workbenches: [EM](EM_Workbench.md)
+   MenuLocation: EM -> FHNode
+   Workbenches: EM_Workbench
    Shortcut: **E** **N**
    Version: 0.17
-   SeeAlso: [EM FHSegment](EM_FHSegment.md), [EM FHPath](EM_FHPath.md), [EM FHPlane](EM_FHPlane.md), [EM FHPlane Add/Remove Node/Hole](EM_FHPlaneAddRemoveNodeHole.md), [EM FHEquiv](EM_FHEquiv.md), [EM FHPort](EM_FHPort.md)
+   SeeAlso: EM_FHSegment, EM_FHPath, EM_FHPlane, EM_FHPlaneAddRemoveNodeHole, EM_FHEquiv, EM_FHPort
 ---
 
 # EM FHNode/en

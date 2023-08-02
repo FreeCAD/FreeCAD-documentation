@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Robot CreateRobot
-   MenuLocation: Robot - Insert robot
-   Workbenches: [Robot](Robot_Workbench.md)
+   MenuLocation: Robot -> Insert robot
+   Workbenches: Robot_Workbench
 ---
 
 # Robot CreateRobot

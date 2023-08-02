@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher CreateArcOfHyperbola
    Name/de: Sketcher HyperbelbogenErstellen
-   MenuLocation: Sketch - Skizzengeometrien - Hyperbelbogen erstellen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Sketch -> Skizzengeometrien -> Hyperbelbogen erstellen
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **H**
    Version: 0.17
-   SeeAlso: [EllipsenbogenErstellen](Sketcher_CreateArcOfEllipse/de.md), [ParabelbogenErstellen](Sketcher_CreateArcOfParabola/de.md)
+   SeeAlso: Sketcher_CreateArcOfEllipse/de, Sketcher_CreateArcOfParabola/de
 ---
 
 # Sketcher CreateArcOfHyperbola/de

@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintDiameter
    Name/de: Assembly3 Durchmesser
    Icon: Assembly_ConstraintDiameter.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 ConstraintDiameter/de

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Thickness
    Name/es: Part Espesor
-   MenuLocation: Pieza - Espesor
-   Workbenches: [Part](Part_Workbench/es.md)
-   SeeAlso: [Part Offset](Part_Offset.md)
+   MenuLocation: Pieza -> Espesor
+   Workbenches: Part_Workbench/es
+   SeeAlso: Part_Offset
 ---
 
 # Part Thickness/es

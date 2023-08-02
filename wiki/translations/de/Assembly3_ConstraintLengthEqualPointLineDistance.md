@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintLengthEqualPointLineDistance
    Name/de: Assembly3 LängeGleichPunktLinieAbstand
    Icon: Assembly_ConstraintLengthEqualPointLineDistance.svg
-   Workbenches: [Assembly3](Assembly3_Workbench.md)
+   Workbenches: Assembly3_Workbench
 ---
 
 # Assembly3 ConstraintLengthEqualPointLineDistance/de

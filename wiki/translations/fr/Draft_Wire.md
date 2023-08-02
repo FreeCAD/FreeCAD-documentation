@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Wire
    Name/fr: Draft Polyligne
-   MenuLocation: Draft - Polyligne
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Draft -> Polyligne
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **P** **L**
    Version: 0.7
-   SeeAlso: [Draft Ligne](Draft_Line/fr.md), [Draft B-spline](Draft_BSpline/fr.md)
+   SeeAlso: Draft_Line/fr, Draft_BSpline/fr
 ---
 
 # Draft Wire/fr

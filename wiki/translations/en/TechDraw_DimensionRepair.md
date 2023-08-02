@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: TechDraw DimensionRepair
-   MenuLocation: TechDraw - Dimensions - Repair Dimension References
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   MenuLocation: TechDraw -> Dimensions -> Repair Dimension References
+   Workbenches: TechDraw_Workbench
    Version: 0.21
-   SeeAlso: [TechDraw LengthDimension](TechDraw_LengthDimension.md)
+   SeeAlso: TechDraw_LengthDimension
 ---
 
 # TechDraw DimensionRepair/en

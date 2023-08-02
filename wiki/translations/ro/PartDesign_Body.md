@@ -3,10 +3,10 @@
    Name: PartDesign Body
    Name/ro: PartDesign Body
    Icon: PartDesign_Body_Create_New.svg
-   Workbenches: [PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation: Part Design - Create body
+   Workbenches: PartDesign Workbench/ro
+   MenuLocation: Part Design -> Create body
    Version: 0.17
-   SeeAlso: [Std Piesă](Std_Part/ro.md)
+   SeeAlso: Std Part/ro
 ---
 
 # PartDesign Body/ro

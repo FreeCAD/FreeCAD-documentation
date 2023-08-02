@@ -1,6 +1,6 @@
 # PartDesign MoveTip/it
 ---
-- GuiCommand:   Name: PartDesign MoveTip   Name/it: Usa come entità finale   MenuLocation: Menu contestuale - Usa come entità finale   Workbenches: [Version: 0.17   SeeAlso: [[PartDesign MoveFeature/it|Sposta in altro corpo](PartDesign_Workbench/it___PartDesign]].md), [Sposta dopo altro oggetto](PartDesign_MoveFeatureInTree/it.md)---
+- GuiCommand:   Name: PartDesign MoveTip   Name/it: Usa come entità finale   MenuLocation: Menu contestuale -> Usa come entità finale   Workbenches: PartDesign Workbench/it   PartDesign, PartDesign MoveFeatureInTree/it---
 
 
 </div>

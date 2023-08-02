@@ -3,8 +3,8 @@
    Name: Sketcher Conics
    Name/es: Croquizador Cónicos
    Icon: Sketcher_CompCreateConic.png
-   MenuLocation: Ninguno (sólo barra de herramientas)
-   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   MenuLocation: Ninguno 
+   Workbenches: Sketcher Workbench/es
 ---
 
 # Sketcher CompCreateConic/es

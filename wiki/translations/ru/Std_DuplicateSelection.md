@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/ru: Дублировать выбранное
    Name: Std_DuplicateSelection
-   MenuLocation: Правка - Дублировать выбранное
+   MenuLocation: Правка -> Дублировать выбранное
    Workbenches: All
-   SeeAlso: [Вырезать](Std_Cut/ru.md), [Копировать](Std_Copy/ru.md), [Вставить](Std_Paste/ru.md)
+   SeeAlso: Std_Cut/ru, Std_Copy/ru, Std_Paste/ru
 ---
 
 # Std DuplicateSelection/ru

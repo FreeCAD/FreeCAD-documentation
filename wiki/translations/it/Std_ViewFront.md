@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std_ViewFront
    Name/it: Vista frontale
-   MenuLocation: Visualizza - Viste standard - Di fronte
+   MenuLocation: Visualizza -> Viste standard -> Di fronte
    Workbenches: Tutti
    Shortcut: **1**
-   SeeAlso: [Vista dall'alto](Std_ViewTop/it.md), [Vista da destra](Std_ViewRight/it.md)
+   SeeAlso: Std_ViewTop/it, Std_ViewRight/it
 ---
 
 # Std ViewFront/it

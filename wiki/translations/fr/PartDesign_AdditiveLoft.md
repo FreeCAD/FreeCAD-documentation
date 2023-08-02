@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign AdditiveLoft
    Name/fr: PartDesign Lissage additif
-   MenuLocation: Part Design - Créer une fonction additive - Lissage additif
-   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   MenuLocation: Part Design -> Créer une fonction additive -> Lissage additif
+   Workbenches: PartDesign_Workbench/fr
    Version: 0.17
-   SeeAlso: [PartDesign Balayage additif](PartDesign_AdditivePipe/fr.md), [PartDesign Lissage soustractif](PartDesign_SubtractiveLoft/fr.md)
+   SeeAlso: PartDesign_AdditivePipe/fr, PartDesign_SubtractiveLoft/fr
 ---
 
 # PartDesign AdditiveLoft/fr

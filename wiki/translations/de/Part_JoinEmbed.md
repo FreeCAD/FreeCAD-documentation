@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part JoinEmbed
    Name/de: Part Einbetten
-   MenuLocation: Formteil - Verbinden - Objekt einbinden
-   Workbenches: [Part](Part_Workbench/de.md)
+   MenuLocation: Formteil -> Verbinden -> Objekt einbinden
+   Workbenches: Part_Workbench/de
    Version: 0.16
-   SeeAlso: [Part Verbinden](Part_JoinConnect/de.md), [Part Ausschneiden](Part_JoinCutout/de.md), [Part Boolesche Operationen](Part_Boolean/de.md), [Part Dicke](Part_Thickness/de.md)
+   SeeAlso: Part_JoinConnect/de, Part_JoinCutout/de, Part_Boolean/de, Part_Thickness/de
 ---
 
 # Part JoinEmbed/de

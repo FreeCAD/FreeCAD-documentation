@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Ship LoadExample
-   MenuLocation: Ship design - Load an example ship geometry
-   Workbenches: [Ship](Ship_Workbench.md)
+   MenuLocation: Ship design -> Load an example ship geometry
+   Workbenches: Ship_Workbench
    Shortcut: 
    SeeAlso: 
 ---

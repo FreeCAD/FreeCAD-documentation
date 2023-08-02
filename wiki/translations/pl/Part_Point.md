@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Point
    Name/pl: Część: Punkt
-   MenuLocation: Część - Utwórz geometrie pierwotne ... - Punkt
-   Workbenches: [Część](Part_Workbench/pl.md), [OpenSCAD](OpenSCAD_Workbench/pl.md)
-   SeeAlso: [Utwórz geometrie pierwotne](Part_Primitives/pl.md)
+   MenuLocation: Część -> Utwórz geometrie pierwotne ... -> Punkt
+   Workbenches: Part_Workbench/pl, OpenSCAD_Workbench/pl
+   SeeAlso: Part_Primitives/pl
 ---
 
 # Part Point/pl

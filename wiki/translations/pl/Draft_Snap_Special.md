@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Draft Snap Special
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Workbenches: Draft_Workbench, Arch_Workbench
    Version: 0.17
-   SeeAlso: [Draft Snap](Draft_Snap.md), [Draft Snap Lock](Draft_Snap_Lock.md)
+   SeeAlso: Draft_Snap, Draft_Snap_Lock
 ---
 
 # Draft Snap Special/pl

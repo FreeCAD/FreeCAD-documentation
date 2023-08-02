@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Arch CompRebarStraight
    Name/it: Armature
-   MenuLocation: Arch - Armature
-   Workbenches: [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   MenuLocation: Arch -> Armature
+   Workbenches: Arch Workbench/it, BIM Workbench/it
    Version: 0.17
 ---
 

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Ship AreasCurve
-   MenuLocation: Ship design - Areas curve
-   |Workbenches: [Ship](Ship_Workbench.md)
+   MenuLocation: Ship design -> Areas curve
+   
    Shortcut: 
    SeeAlso: 
 ---

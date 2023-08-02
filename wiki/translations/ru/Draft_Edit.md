@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Edit
    Name/ru: Draft Edit
-   MenuLocation: Черчение - Правка
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Черчение -> Правка
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
 ---
 
 # Draft Edit/ru

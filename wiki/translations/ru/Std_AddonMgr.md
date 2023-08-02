@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name/ru: Менеджер дополнений
-   MenuLocation: Инструменты - Менеджер дополнений
+   MenuLocation: Инструменты -> Менеджер дополнений
    Workbenches: All
    Version: 0.17
-   SeeAlso: [External workbenches](External_workbenches/ru.md), [Макросы](Macros/ru.md)
+   SeeAlso: External_workbenches/ru, Macros/ru
 ---
 
 # Std AddonMgr/ru

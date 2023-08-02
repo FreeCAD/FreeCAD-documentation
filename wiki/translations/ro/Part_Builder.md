@@ -4,8 +4,8 @@
    Name/ro: Part Shapebuilder
    MenuLocation: Part -> Shapebuilder...
 |
-   Workbenches: [Part](Part_Workbench/ro.md)
-   SeeAlso: [Part CreatePrimitives](Part_CreatePrimitives/ro.md)
+   Workbenches: Part_Workbench/ro
+   SeeAlso: Part_CreatePrimitives/ro
 ---
 
 # Part Builder/ro

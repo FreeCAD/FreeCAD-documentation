@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/de: Std neue Ansicht
    Name: Std ViewCreate
-   MenuLocation: [Ansichtsmenü](Std_View_Menu/de.md) - Neue Ansicht‏‎
+   MenuLocation: Std View Menu/de -> Neue Ansicht‏‎
    Workbenches: Alle
-   SeeAlso: [[Std ViewDockUndockFullscreen/de]]
+   SeeAlso: Std ViewDockUndockFullscreen/de
 ---
 
 # Std ViewCreate/de

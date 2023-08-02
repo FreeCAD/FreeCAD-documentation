@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: OpenSCAD MirrorMeshFeature
    Name/de: OpenSCAD NetzelementSpiegeln
-   MenuLocation: OpenSCAD - Netzelement spiegeln
-   Workbenches: [OpenSCAD](OpenSCAD_Workbench/de.md)
-   SeeAlso: [Part Spiegelung](Part_Mirror/de.md)
+   MenuLocation: OpenSCAD -> Netzelement spiegeln
+   Workbenches: OpenSCAD_Workbench/de
+   SeeAlso: Part_Mirror/de
 ---
 
 # OpenSCAD MirrorMeshFeature/de

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ConstrainEqual
    Name/pl: Szkicownik: Wiązanie równości
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
-   MenuLocation: Szkic - Wiązania szkicownika - Wiązanie równości
+   Workbenches: Sketcher_Workbench/pl
+   MenuLocation: Szkic -> Wiązania szkicownika -> Wiązanie równości
    Shortcut: **E**
-   SeeAlso: [Wiązanie kąta](Sketcher_ConstrainRadius/pl.md)
+   SeeAlso: Sketcher_ConstrainRadius/pl
 ---
 
 # Sketcher ConstrainEqual/pl

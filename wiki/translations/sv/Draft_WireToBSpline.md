@@ -1,6 +1,6 @@
 # Draft WireToBSpline/sv
 ---
-- GuiCommand:   Name: Draft WireToBSpline   Name/sv: Draft WireToBSpline   Workbenches: [Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation: Drafting -> Wire to BSpline---
+- GuiCommand:   Name: Draft WireToBSpline   Name/sv: Draft WireToBSpline   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv|MenuLocation: Drafting -> Wire to BSpline---
 
 
 </div>

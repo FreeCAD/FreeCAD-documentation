@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Loft
    Name/ru: Лофт
-   MenuLocation: Деталь - Лофт...
-   Workbenches: [Part](Part_Workbench/ru.md)
-   SeeAlso: [Part Sweep](Part_Sweep/ru.md)
+   MenuLocation: Деталь -> Лофт...
+   Workbenches: Part_Workbench/ru
+   SeeAlso: Part Sweep/ru
 ---
 
 # Part Loft/ru

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std_UnitsCalculator
    Name/ru: Std_UnitsCalculator
-   MenuLocation: Панели инструментов - Калькулятор единиц...
+   MenuLocation: Панели инструментов -> Калькулятор единиц...
    Workbenches: Все
 ---
 

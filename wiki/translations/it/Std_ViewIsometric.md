@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std_ViewIsometric
    Name/it: Vista isometrica
-   MenuLocation: Visualizza - Viste standard - Assonometria - Isometrica
+   MenuLocation: Visualizza -> Viste standard -> Assonometria -> Isometrica
    Workbenches: Tutti
    Shortcut: **0**
-   SeeAlso: [Vista ortografica](Std_OrthographicCamera/it.md), [Assonometria dimetrica](Std_ViewDimetric/it.md), [Assonometria trimetrica](Std_ViewTrimetric/it.md)
+   SeeAlso: Std_OrthographicCamera/it, Std_ViewDimetric/it, Std_ViewTrimetric/it
 ---
 
 # Std ViewIsometric/it

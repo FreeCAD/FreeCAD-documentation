@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Установить точку завершения расчёта тела
    Name: PartDesign_MoveTip
-   MenuLocation: Контекстное меню - Установить точку завершения расчёта тела
-   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   MenuLocation: Контекстное меню -> Установить точку завершения расчёта тела
+   Workbenches: PartDesign_Workbench/ru
    Version: 0.17
-   SeeAlso: [Переместить объекта в другое тело](PartDesign_MoveFeature/ru.md), [Поместить объект позади другого объекта](PartDesign_MoveFeatureInTree/ru.md)
+   SeeAlso: PartDesign_MoveFeature/ru, PartDesign_MoveFeatureInTree/ru
 ---
 
 # PartDesign MoveTip/ru

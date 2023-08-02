@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Snap Center
    Name/tr: Taslak Merkez
-   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   MenuLocation: Taslak - [Yakalama](Draft_Snap/tr.md) - Merkez
+   Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
+   MenuLocation: Taslak -> Draft Snap/tr -> Merkez
    Shortcut: 
-   SeeAlso: [Taslak Yakalama](Draft_Snap/tr.md), [Taslak Geçiş yakalama](Draft_Snap_Lock/tr.md)
+   SeeAlso: Draft Snap/tr, Draft_Snap_Lock/tr
 ---
 
 # Draft Snap Center/tr

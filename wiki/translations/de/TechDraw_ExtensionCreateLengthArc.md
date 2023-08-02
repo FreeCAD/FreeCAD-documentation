@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: TechDraw ExtensionCreateLengthArc
    Name/de: TechDraw ErgänzungBogenlänge
-   MenuLocation: TechDraw - Ergänzungen: Maße - Maß für Bogenlänge einfügen
-   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   MenuLocation: TechDraw -> Ergänzungen: Maße -> Maß für Bogenlänge einfügen
+   Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20
    SeeAlso: 

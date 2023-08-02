@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign Plane
    Name/de: PartDesign Bezugsebene erstellen
-   MenuLocation: Part Design - Bezugselement erstellen - Bezugsebene erstellen
-   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   MenuLocation: Part Design -> Bezugselement erstellen -> Bezugsebene erstellen
+   Workbenches: PartDesign_Workbench/de
    Version: 0.17
-   SeeAlso: [PartDesign Bezugspunkt](PartDesign_Point/de.md), [PartDesign Bezugslinie](PartDesign_Line/de.md)
+   SeeAlso: PartDesign_Point/de, PartDesign_Line/de
 ---
 
 # PartDesign Plane/de

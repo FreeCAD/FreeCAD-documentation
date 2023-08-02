@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintPointsCoincident
    Name/fr: Assembly3 Contrainte de points coïncidents
    Icon: Assembly_ConstraintPointCoincident.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 ConstraintPointsCoincident/fr

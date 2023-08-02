@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign ShapeBinder
    Name/tr: Şekil bağlayıcı oluştur
-   Workbenches: [Parça tasarım](PartDesign_Workbench/tr.md)
-   MenuLocation: Parça tasarım - Şekil bağlayıcı oluştur
+   Workbenches: PartDesign Workbench/tr
+   MenuLocation: Parça tasarım -> Şekil bağlayıcı oluştur
    Version: 0.17
-   SeeAlso: [klonla](PartDesign_Clone/tr.md)
+   SeeAlso: PartDesign Clone/tr
 ---
 
 # PartDesign ShapeBinder/tr

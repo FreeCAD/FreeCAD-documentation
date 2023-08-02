@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ConstrainPerpendicular
    Name/fr: Sketcher Contrainte perpendiculaire
-   MenuLocation: Esquisse - Contraintes d'esquisse - Contrainte perpendiculaire
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   MenuLocation: Esquisse -> Contraintes d'esquisse -> Contrainte perpendiculaire
+   Workbenches: Sketcher_Workbench/fr
    Shortcut: **N**
-   SeeAlso: [Sketcher Contrainte angulaire](Sketcher_ConstrainAngle/fr.md)
+   SeeAlso: Sketcher_ConstrainAngle/fr
 ---
 
 # Sketcher ConstrainPerpendicular/fr

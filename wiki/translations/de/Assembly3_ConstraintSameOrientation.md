@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintSameOrientation
    Name/de: Assembly3 RichtungenAngleichen
    Icon: Assembly_ConstraintSameOrientation.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 ConstraintSameOrientation/de

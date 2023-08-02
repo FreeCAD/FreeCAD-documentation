@@ -1,6 +1,6 @@
 # Std Revert/ro
 ---
-- GuiCommand:   Name: Std Revert   Name/ro: Restabilire   MenuLocation: [[Std_File_Menu/ro   File]] - Restabilire|Workbenches: All   Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: Std Revert   Name/ro: Restabilire   MenuLocation: Std_File_Menu/ro   File -> Restabilire|Workbenches: All   Shortcut:    SeeAlso: ---
 
 
 </div>

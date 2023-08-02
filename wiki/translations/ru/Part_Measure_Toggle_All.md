@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Part Measure Toggle All
    Name/ru: Part Measure Toggle All
-   MenuLocation: Measure - Скрыть/Показать всё
-   Workbenches: [Part](Part_Workbench/ru.md)
+   MenuLocation: Measure -> Скрыть/Показать всё
+   Workbenches: Part_Workbench/ru
    Shortcut: 
    SeeAlso: 
 ---

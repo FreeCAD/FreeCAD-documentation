@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: FEM ConstraintSectionPrint
-   MenuLocation: Model - Geometrical Constraints - Constraint section print
-   Workbenches: [FEM](FEM_Workbench.md)
+   MenuLocation: Model -> Geometrical Constraints -> Constraint section print
+   Workbenches: FEM_Workbench
    Version: 0.19
    SeeAlso: 
 ---

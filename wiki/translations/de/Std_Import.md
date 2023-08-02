@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std Import
    Name/de: Std Import
-   MenuLocation: Datei - Import
+   MenuLocation: Datei -> Import
    Workbenches: Alle
    Shortcut: **Strg**+**I**
-   SeeAlso: [Std Öffnen](Std_Open/de.md), [Import Export](Import_Export/de.md), [Import Export Einstellungen](Import_Export_Preferences/de.md)
+   SeeAlso: Std_Open/de, Import_Export/de, Import_Export_Preferences/de
 ---
 
 # Std Import/de

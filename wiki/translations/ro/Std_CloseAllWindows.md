@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Std CloseAllWindows
-   MenuLocation: File - Close All
+   MenuLocation: File -> Close All
    Workbenches: All
-   SeeAlso: [Std Close](Std_CloseActiveWindow.md)
+   SeeAlso: Std_CloseActiveWindow
 ---
 
 # Std CloseAllWindows/ro

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Spreadsheet StyleUnderline
    Name/pl: Arkusz Kalkulacyjny: Podkreślenie
-   MenuLocation: Arkusz kalkulacyjny - Style - Podkreślenie
-   Workbenches: [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   MenuLocation: Arkusz kalkulacyjny -> Style -> Podkreślenie
+   Workbenches: Spreadsheet_Workbench/pl
    Version: 0.17
 ---
 

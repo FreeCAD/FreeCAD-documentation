@@ -2,10 +2,10 @@
 - GuiCommand:Addon/de
    Name: BIM Clone
    Name/de: BIM Klonen
-   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
+   Workbenches: Image:IFC.svg BIM Workbench/de
    Addon: BIM
-   MenuLocation: Ändern - Kopieren
-   SeeAlso: [Entwurf Klonen](Draft_Clone/de.md)
+   MenuLocation: Ändern -> Kopieren
+   SeeAlso: Draft Clone/de
 ---
 
 # BIM Clone/de

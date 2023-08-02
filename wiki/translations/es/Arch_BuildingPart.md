@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch BuildingPart
    Name/es: Arquitectura EdificioPieza
-   MenuLocation: Arquitectura - EdificioPieza
-   Workbenches: [Arquitectura](Arch_Workbench/es.md)
+   MenuLocation: Arquitectura -> EdificioPieza
+   Workbenches: Arch_Workbench/es
    Version: 0.18
-   SeeAlso: [Arquitectura Edificio](Arch_Building/es.md), [Arquitectura Sitio](Arch_Site/es.md)
+   SeeAlso: Arch_Building/es, Arch_Site/es
 ---
 
 # Arch BuildingPart/es

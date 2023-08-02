@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Добавить вершины по центрам граней
    Name: TechDraw_Midpoints
-   MenuLocation: TechDraw - Добавить Вершины - Add Midpoints Vertices
-   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   MenuLocation: TechDraw -> Добавить Вершины -> Add Midpoints Vertices
+   Workbenches: TechDraw_Workbench/ru
    Version: 0.19
-   SeeAlso: [Добавить вспомогательную вершину](TechDraw_CosmeticVertex/ru.md), [Добавить 4-ре вершины по краям окружности](TechDraw_Quadrants/ru.md)
+   SeeAlso: TechDraw_CosmeticVertex/ru, TechDraw_Quadrants/ru
 ---
 
 # TechDraw Midpoints/ru

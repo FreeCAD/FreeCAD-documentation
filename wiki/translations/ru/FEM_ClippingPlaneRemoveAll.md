@@ -3,10 +3,10 @@
    Name: FEM ClippingPlaneRemoveAll
    Name/ru: FEM ClippingPlaneRemoveAll
    Icon: Fem-clipping-plane-remove-all.svg
-   MenuLocation:  Utility - Clipping Plane Remove All
-   Workbenches: [FEM](FEM_Workbench/ru.md)
+   MenuLocation:  Utility -> Clipping Plane Remove All
+   Workbenches: FEM_Workbench/ru
    Shortcut: 
-   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
+   SeeAlso: FEM_tutorial/ru
 ---
 
 # FEM ClippingPlaneRemoveAll/ru

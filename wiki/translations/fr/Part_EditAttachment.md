@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part EditAttachment
    Name/fr: Part Ancrage
-   MenuLocation: Part - Ancrage
-   Workbenches: [Part](Part_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
+   MenuLocation: Part -> Ancrage
+   Workbenches: Part_Workbench/fr, PartDesign_Workbench/fr
    Version: 0.17
-   SeeAlso: [Placement](Placement/fr.md), [Tutoriel Les bases pour l'ancrage](Basic_Attachment_Tutorial/fr.md), [Part Part2DObject](Part_Part2DObject/fr.md)
+   SeeAlso: Placement/fr, Basic_Attachment_Tutorial/fr, Part_Part2DObject/fr
 ---
 
 # Part EditAttachment/fr

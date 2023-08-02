@@ -3,8 +3,8 @@
    Name: Sketcher ToggleConstruction
    Name/it: Geometria di costruzione
    Icon: Sketcher_AlterConstruction.svg
-   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation: Sketcher - Geometrie - Geometrie di costruzione
+   Workbenches: Sketcher Workbench/it
+   MenuLocation: Sketcher -> Geometrie -> Geometrie di costruzione
 ---
 
 # Sketcher ToggleConstruction/it

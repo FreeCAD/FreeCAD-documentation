@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Mesh_EvaluateSolid
    Name/it: Controlla se è un solido
-   MenuLocation: Mesh - Analizza - Controlla se è un solido
-   Workbenches: [Mesh](Mesh_Workbench/it.md)
-   SeeAlso: [Arch Seleziona le mesh non solidi ](Arch_SelectNonSolidMeshes.md)
+   MenuLocation: Mesh -> Analizza -> Controlla se è un solido
+   Workbenches: Mesh_Workbench/it
+   SeeAlso: Arch_SelectNonSolidMeshes
 ---
 
 # Mesh EvaluateSolid/it

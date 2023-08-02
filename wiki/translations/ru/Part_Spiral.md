@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part Spiral
    Name/ru: Плоская Cпираль
-   MenuLocation: [Деталь](Part_Workbench/ru.md) - [Создать примитивы...](Part_Primitives/ru.md) - Спираль
-   Workbenches: [Part(Деталь)](Part_Workbench/ru.md)
+   MenuLocation: Part_Workbench/ru -> Part_Primitives/ru -> Спираль
+   Workbenches: Part_Workbench/ru
    Version: 0.14
-   SeeAlso: [Создать примитивы...](Part_CreatePrimitives/ru.md)
+   SeeAlso: Part_CreatePrimitives/ru
 ---
 
 # Part Spiral/ru

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Fuse
    Name/de: Part Vereinigung
-   MenuLocation: Formteil - Boolesche Operation - Vereinigung
-   Workbenches: [Part](Part_Workbench/de.md)
-   SeeAlso: [Part Boolesche Operationen](Part_Boolean/de.md), [Part Differenz](Part_Cut/de.md), [Part Schnitt](Part_Common/de.md), 
+   MenuLocation: Formteil -> Boolesche Operation -> Vereinigung
+   Workbenches: Part_Workbench/de
+   SeeAlso: Part_Boolean/de, Part_Cut/de, Part_Common/de, 
 ---
 
 # Part Fuse/de

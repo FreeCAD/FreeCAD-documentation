@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: TechDraw FaceCenterLine
    Name/de: TechDraw FlächenMittellinie
-   MenuLocation: TechDraw - Linien hinzufügen - Mittellinie zu Fläche(n) hinzufügen
-   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   MenuLocation: TechDraw -> Linien hinzufügen -> Mittellinie zu Fläche hinzufügen
+   Workbenches: TechDraw_Workbench/de
    Version: 0.19
-   SeeAlso: [TechDraw Hilfspunkt](TechDraw_CosmeticVertex/de.md), [TechDraw 2LinienMittellinie](TechDraw_2LineCenterLine/de.md), [TechDraw 2PunkteMittellinie](TechDraw_2PointCenterLine/de.md), [TechDraw HilfsobjektEntfernen](TechDraw_CosmeticEraser/de.md)
+   SeeAlso: TechDraw_CosmeticVertex/de, TechDraw_2LineCenterLine/de, TechDraw_2PointCenterLine/de, TechDraw_CosmeticEraser/de
 ---
 
 # TechDraw FaceCenterLine/de

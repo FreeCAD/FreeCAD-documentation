@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std ViewIsometric
    Name/pl: Std: Widok izometryczny
-   MenuLocation: Widok - Widoki standardowe - Aksonometryczny - Izometryczny
+   MenuLocation: Widok -> Widoki standardowe -> Aksonometryczny -> Izometryczny
    Workbenches: wszystkie
    Shortcut: **0**
-   SeeAlso: [Widok dimetryczny](Std_ViewDimetric/pl.md), [Widok trimetryczny](Std_ViewTrimetric/pl.md)
+   SeeAlso: Std_ViewDimetric/pl, Std_ViewTrimetric/pl
 ---
 
 # Std ViewIsometric/pl

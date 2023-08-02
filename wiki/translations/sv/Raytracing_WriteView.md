@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Raytracing WriteView
 ‏‎   Name/sv: Raytracing WriteView
-   MenuLocation: Raytracing - Export
-   Workbenches: [Raytracing](Raytracing_Workbench/sv.md)
+   MenuLocation: Raytracing -> Export
+   Workbenches: Raytracing_Workbench/sv
    Shortcut: 
    SeeAlso: 
 ---

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher CreateHeptagon
    Name/de: Sketcher SiebeneckErstellen
-   MenuLocation: Sketch - Skizzengeometrien - Siebeneck erstellen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Sketch -> Skizzengeometrien -> Siebeneck erstellen
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **P** **7**
    Version: 0.15
 ---

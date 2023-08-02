@@ -3,8 +3,8 @@
    Name: Sketcher Circles
    Name/it: Cerchi
    Icon: Sketcher_CompCreateCircle.png
-   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation: Nessuno (solo sulla barra degli strumenti)
+   Workbenches: Sketcher Workbench/it
+   MenuLocation: Nessuno 
 ---
 
 # Sketcher CompCreateCircle/it

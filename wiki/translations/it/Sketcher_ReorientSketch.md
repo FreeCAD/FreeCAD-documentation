@@ -3,9 +3,9 @@
    Name: Sketcher_ReorientSketch
    Name/it: Riposiziona lo schizzo
    Empty: 1
-   Workbenches: [Sketcher](Sketcher_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation: Part design - Riposiziona sketch
-   SeeAlso: [Mappa schizzo](Sketcher_MapSketch/it.md), [Nuovo schizzo](Sketcher_NewSketch/it.md)
+   Workbenches: Sketcher Workbench/it, PartDesign Workbench/it
+   MenuLocation: Part design -> Riposiziona sketch
+   SeeAlso: Sketcher_MapSketch/it, Sketcher_NewSketch/it
 ---
 
 # Sketcher ReorientSketch/it

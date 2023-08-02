@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/ru: Создать фигуру из полигональной сетки
    Name: Part_ShapeFromMesh‏‎
-   MenuLocation: Part - Создание фигуры из полигональной сетки...
-   Workbenches: [Part](Part_Workbench/ru.md)
-   SeeAlso: [Преобразовать в твердые](Part_MakeSolid/ru.md), [Закрепить фигуру](Part_RefineShape/ru.md), [Part PointsFromMesh](Part_PointsFromMesh/ru.md)
+   MenuLocation: Part -> Создание фигуры из полигональной сетки...
+   Workbenches: Part_Workbench/ru
+   SeeAlso: Part_MakeSolid/ru, Part_RefineShape/ru, Part_PointsFromMesh/ru
 ---
 
 # Part ShapeFromMesh/ru

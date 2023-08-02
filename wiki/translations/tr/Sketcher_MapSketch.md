@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Sketcher MapSketch
    Name/tr: Eskizi yüze eşle
-   Workbenches: [Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
-   MenuLocation: Part Design/Sketch - Map sketch to face...
-   SeeAlso: [Create a new sketch](Sketcher_NewSketch.md)
+   Workbenches: Sketcher Workbench, PartDesign Workbench
+   MenuLocation: Part Design/Sketch -> Map sketch to face...
+   SeeAlso: Sketcher NewSketch
 ---
 
 # Sketcher MapSketch/tr

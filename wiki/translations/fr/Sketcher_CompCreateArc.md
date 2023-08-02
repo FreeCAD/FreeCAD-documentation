@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Sketcher CompCreateArc
    Name/fr: Sketcher Arcs
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Workbenches: Sketcher_Workbench/fr
 ---
 
 # Sketcher CompCreateArc/fr

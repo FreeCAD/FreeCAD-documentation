@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintMultiParallel
    Name/de: Assembly3 MehrfachParallel
    Icon: Assembly_ConstraintMultiParallel.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 ConstraintMultiParallel/de

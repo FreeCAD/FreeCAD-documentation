@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ExtensionLineParallel
    Name/de: TechDraw ErgänzungParalleleLinie
-   MenuLocation: TechDraw - Ergänzungen: Mittellinien/Gewinde - Parallele Hilfslinie hinzufügen
-   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   MenuLocation: TechDraw -> Ergänzungen: Mittellinien/Gewinde -> Parallele Hilfslinie hinzufügen
+   Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20
-   SeeAlso: [TechDraw ErgänzungRechtwinkligeLinie](TechDraw_ExtensionLinePerpendicular/de.md)
+   SeeAlso: TechDraw_ExtensionLinePerpendicular/de
 ---
 
 # TechDraw ExtensionLineParallel/de

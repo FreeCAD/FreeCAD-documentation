@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign SubtractiveHelix
    Name/fr: PartDesign Hélice soustractive
-   MenuLocation: Part Design - Créer une fonction soustractive - Hélice soustractive
-   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   MenuLocation: Part Design -> Créer une fonction soustractive -> Hélice soustractive
+   Workbenches: PartDesign_Workbench/fr
    Version: 0.19
-   SeeAlso: [PartDesign Hélice additive](PartDesign_AdditiveHelix/fr.md)
+   SeeAlso: PartDesign_AdditiveHelix/fr
 ---
 
 # PartDesign SubtractiveHelix/fr

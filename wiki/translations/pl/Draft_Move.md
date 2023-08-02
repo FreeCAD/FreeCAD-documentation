@@ -2,11 +2,11 @@
 - GuiCommand:
    Name/pl: Draft: Move
    Name: Draft Move
-   MenuLocation: Modyfikacja - Przesuń
-   Workbenches: [Rysunek roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   MenuLocation: Modyfikacja -> Przesuń
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **M** **V**
    Version: 0.7
-   SeeAlso: [Podświetl element podrzędny](Draft_SubelementHighlight/pl.md)
+   SeeAlso: Draft_SubelementHighlight/pl
 ---
 
 # Draft Move/pl

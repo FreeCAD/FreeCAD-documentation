@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Drawing View
    Name/it: Inserisci vista
-   Workbenches: [Disegno](Drawing_Workbench/it.md), Completo
-   MenuLocation: Disegno - Inserisci Vista
+   Workbenches: Drawing Workbench/it, Completo
+   MenuLocation: Disegno -> Inserisci Vista
    Shortcut: Nessuno
-   SeeAlso: [Disegno A3](Drawing_Landscape_A3/it.md)
+   SeeAlso: Drawing Landscape A3/it
 ---
 
 # Drawing View/it

@@ -1,6 +1,6 @@
 # Part Primitives/it
 ---
-- GuiCommand:   Name: Part_Primitives   Name/it: Crea primitive   Workbenches: [MenuLocation: Parte - Crea primitive...   Shortcut: Nessuno   SeeAlso: [[Part_Builder/it|Crea forma](Part_Workbench/it___Parte]].md)---
+- GuiCommand:   Name: Part_Primitives   Name/it: Crea primitive   Workbenches: Part_Workbench/it   Parte---
 
 
 </div>

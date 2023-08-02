@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch 3Views
    Name/de: Arch 3Ansichten
-   MenuLocation: Arch - Dienstprogramme - 3 Ansichten aus Netz
-   Workbenches: [Arch](Arch_Workbench/de.md)
-   SeeAlso: [Arch NetzAufteilen](Arch_SplitMesh/de.md), [Arch NetzZuForm](Arch_MeshToShape/de.md)
+   MenuLocation: Arch -> Dienstprogramme -> 3 Ansichten aus Netz
+   Workbenches: Arch_Workbench/de
+   SeeAlso: Arch_SplitMesh/de, Arch_MeshToShape/de
 ---
 
 # Arch 3Views/de

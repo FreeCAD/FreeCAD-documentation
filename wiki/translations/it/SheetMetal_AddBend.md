@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: SheetMetal AddBend
-   MenuLocation: SheetMetal - Make Bend
-   Workbenches: [SheetMetal](SheetMetal_Workbench.md)
+   MenuLocation: SheetMetal -> Make Bend
+   Workbenches: SheetMetal_Workbench
    Shortcut: **S** **B**
-   SeeAlso: [SheetMetal AddRelief](SheetMetal_AddRelief.md), [SheetMetal AddJunction](SheetMetal_AddJunction.md)
+   SeeAlso: SheetMetal_AddRelief, SheetMetal_AddJunction
 ---
 
 # SheetMetal AddBend/it

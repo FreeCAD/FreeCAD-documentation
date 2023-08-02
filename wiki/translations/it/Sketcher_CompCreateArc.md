@@ -3,8 +3,8 @@
    Name: Sketcher Arcs
    Name/it: Archi
    Empty: 1
-   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation: Nessuno (solo sulla barra degli strumenti)
+   Workbenches: Sketcher Workbench/it
+   MenuLocation: Nessuno 
 ---
 
 # Sketcher CompCreateArc/it

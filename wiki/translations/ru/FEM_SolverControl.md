@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Управление решателем
    Name: FEM_SolverControl
-   MenuLocation: Решить - Управление решателем
-   Workbenches: [FEM](FEM_Workbench/ru.md)
+   MenuLocation: Решить -> Управление решателем
+   Workbenches: FEM_Workbench/ru
    Shortcut: **S** **T**
-   SeeAlso: [Запустить решатель](FEM_SolverRun/ru.md)
+   SeeAlso: FEM_SolverRun/ru
 ---
 
 # FEM SolverControl/ru

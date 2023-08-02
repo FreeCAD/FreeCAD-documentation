@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ExtensionSelectLineAttributes
    Name: Rysunek Techniczny: Rozszerzenie Wybierz atrybuty linii
-   MenuLocation: Rysunek Techniczny - Rozszerzenia: Atrybuty / Modyfikatory - Wybierz atrybuty linii, rozmieszczenie i odległość delta
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   MenuLocation: Rysunek Techniczny -> Rozszerzenia: Atrybuty / Modyfikatory -> Wybierz atrybuty linii, rozmieszczenie i odległość delta
+   Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20
-   SeeAlso: [Zmień atrybuty linii](TechDraw_ExtensionChangeLineAttributes/pl.md)
+   SeeAlso: TechDraw_ExtensionChangeLineAttributes/pl
 ---
 
 # TechDraw ExtensionSelectLineAttributes/pl

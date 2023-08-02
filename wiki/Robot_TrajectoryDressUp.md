@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Robot TrajectoryDressUp
-   MenuLocation: Robot - TrajectoryDressUp
-   Workbenches: [Robot](Robot_Workbench.md)
+   MenuLocation: Robot -> TrajectoryDressUp
+   Workbenches: Robot_Workbench
 ---
 
 # Robot TrajectoryDressUp

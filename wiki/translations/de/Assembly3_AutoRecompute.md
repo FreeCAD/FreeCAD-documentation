@@ -3,8 +3,8 @@
    Name: Assembly3 AutoRecompute
    Name/de: Assembly3 AutomatischeBerechnung
    Icon: Assembly_AutoRecompute.svg‎‎
-   MenuLocation: Assembly3 - Auto recompute
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   MenuLocation: Assembly3 -> Auto recompute
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 AutoRecompute/de

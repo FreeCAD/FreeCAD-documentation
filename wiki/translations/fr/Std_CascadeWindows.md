@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std CascadeWindows
    Name/fr: Std Cascade
-   MenuLocation: Fenêtre  - Fenêtres en cascade
+   MenuLocation: Fenêtre  -> Fenêtres en cascade
    Workbenches: Tous
-   SeeAlso: [Std Mosaïque](Std_TileWindows/fr.md)
+   SeeAlso: Std_TileWindows/fr
 ---
 
 # Std CascadeWindows/fr

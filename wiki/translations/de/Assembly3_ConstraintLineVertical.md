@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintLineVertical
    Name/de: Assembly3 Vertikale Linie
    Icon: Assembly_ConstraintLineVertical.svg
-   Workbenches: [Assembly3](Assembly3_Workbench.md)
+   Workbenches: Assembly3_Workbench
 ---
 
 # Assembly3 ConstraintLineVertical/de

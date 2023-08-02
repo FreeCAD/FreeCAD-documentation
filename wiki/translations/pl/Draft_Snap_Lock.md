@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Draft Snap Lock
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **Shift**+**S**
-   SeeAlso: [Draft Snap](Draft_Snap.md)
+   SeeAlso: Draft_Snap
 ---
 
 # Draft Snap Lock/pl

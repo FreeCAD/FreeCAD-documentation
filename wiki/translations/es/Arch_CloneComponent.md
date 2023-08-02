@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Arch cloneComponent
 ‏‎‏‎   Name/es: Arch Componente clonado
-   MenuLocation: Arch - Utilities - Clone Component
-   Workbenches: [Arch](Arch_Workbench/es.md)
+   MenuLocation: Arch -> Utilities -> Clone Component
+   Workbenches: Arch_Workbench/es
    Shortcut: **C** **C‏‎**
    SeeAlso: 
 ---

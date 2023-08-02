@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: TechDraw ExtensionAreaAnnotation
    Name/fr: TechDraw Surface
-   MenuLocation: TechDraw - Extensions : attributs/modifications - Calculer la surface des faces sélectionnées
-   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   MenuLocation: TechDraw -> Extensions : attributs/modifications -> Calculer la surface des faces sélectionnées
+   Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.20
    SeeAlso: 

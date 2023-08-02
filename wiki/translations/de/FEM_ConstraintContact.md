@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: FEM ConstraintContact
    Name/de: FEM RandbedingungKontakt
-   MenuLocation: Modell - Mechanische Randbedingungen - Randbedingung Flächenkontakt
-   Workbenches: [FEM](FEM_Workbench/de.md)
-   SeeAlso: [FEM RandbedingungFixierung](FEM_ConstraintFixed/de.md)
+   MenuLocation: Modell -> Mechanische Randbedingungen -> Randbedingung Flächenkontakt
+   Workbenches: FEM_Workbench/de
+   SeeAlso: FEM_ConstraintFixed/de
 ---
 
 # FEM ConstraintContact/de

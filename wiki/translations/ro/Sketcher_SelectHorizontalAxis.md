@@ -1,6 +1,6 @@
 # Sketcher SelectHorizontalAxis/ro
 ---
-- GuiCommand:   Name: Sketcher SelectHorizontalAxis   Name/ro: Sketcher SelectHorizontalAxis   Workbenches: [[Sketcher Workbench/ro   Sketcher]]|MenuLocation: Sketch - Sketcher tools - Select Horizontal Axis   Shortcut: Shift+Ctrl+H   Version: 0.15---
+- GuiCommand:   Name: Sketcher SelectHorizontalAxis   Name/ro: Sketcher SelectHorizontalAxis   Workbenches: Sketcher Workbench/ro   Sketcher|MenuLocation: Sketch -> Sketcher tools -> Select Horizontal Axis   Shortcut: Shift+Ctrl+H   Version: 0.15---
 
 
 </div>

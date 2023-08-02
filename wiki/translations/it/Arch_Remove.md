@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch Remove
    Name/it: Rimuovi
-   Workbenches: [Architettura](Arch_Workbench/it.md)
-   MenuLocation: Arch - Rimuovi
-   SeeAlso: [Taglia con una linea](Arch_CutLine/it.md), [Taglia con un piano](Arch_CutPlane/it.md), [Aggiungi](Arch_Add/it.md)
+   Workbenches: Arch_Workbench/it
+   MenuLocation: Arch -> Rimuovi
+   SeeAlso: Arch CutLine/it, Arch CutPlane/it, Arch Add/it
 ---
 
 # Arch Remove/it

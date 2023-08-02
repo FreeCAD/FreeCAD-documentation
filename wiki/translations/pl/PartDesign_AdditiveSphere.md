@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign AdditiveSphere
    Name/pl: Projekt Części: Addytywna sfera
-   MenuLocation: Projekt Części - Utwórz cechę przez dodanie - Addytywna sfera
-   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   MenuLocation: Projekt Części -> Utwórz cechę przez dodanie -> Addytywna sfera
+   Workbenches: PartDesign_Workbench/pl
    Version: 0.17
-   SeeAlso: [Komponent bryła pierwotna do dodania](PartDesign_CompPrimitiveAdditive/pl.md), [Subtraktywna sfera](PartDesign_SubtractiveSphere/pl.md)
+   SeeAlso: PartDesign_CompPrimitiveAdditive/pl, PartDesign_SubtractiveSphere/pl
 ---
 
 # PartDesign AdditiveSphere/pl

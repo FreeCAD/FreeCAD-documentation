@@ -1,6 +1,6 @@
 # Draft Text/cs
 ---
-- GuiCommand:   Name: Draft_Text   Name/cs: Draft Text   Workbenches: [Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation: Draft - Text   Shortcut: T E---
+- GuiCommand:   Name: Draft_Text   Name/cs: Draft Text   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs|MenuLocation: Draft -> Text   Shortcut: T E---
 
 
 </div>

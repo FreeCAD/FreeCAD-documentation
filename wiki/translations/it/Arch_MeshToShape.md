@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch MeshToShape
    Name/it: Da Mesh a Forma
-   Workbenches: [Architettura](Arch_Workbench/it.md)
-   MenuLocation: Arch - Utilità - Da Mesh a Forma
-   SeeAlso: [Dividi mesh](Arch_SplitMesh/it.md), [Rimuovi Forma](Arch_RemoveShape/it.md)
+   Workbenches: Arch_Workbench/it
+   MenuLocation: Arch -> Utilità -> Da Mesh a Forma
+   SeeAlso: Arch SplitMesh/it, Arch RemoveShape/it
 ---
 
 # Arch MeshToShape/it

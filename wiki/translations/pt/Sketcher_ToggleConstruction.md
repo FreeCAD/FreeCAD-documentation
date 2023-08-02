@@ -3,8 +3,8 @@
    Name: Sketcher ToggleConstruction
    Name/pt: Ativa/desativa a geometria de construção
    Icon: Sketcher_AlterConstruction.svg
-   Workbenches: [Sketcher](Sketcher_Workbench/pt.md)
-   MenuLocation: Sketch - Geometrias do Sketcher - Ativa/desativa a geometria de construção
+   Workbenches: Sketcher Workbench/pt
+   MenuLocation: Sketch -> Geometrias do Sketcher -> Ativa/desativa a geometria de construção
 ---
 
 # Sketcher ToggleConstruction/pt

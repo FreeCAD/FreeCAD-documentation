@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM ElementGeometry1D
    Name/fr: FEM Coupe transversale de poutre
-   MenuLocation: Modèle - Géométrie de l'élement - Coupe transversale de poutre
-   Workbenches: [FEM](FEM_Workbench/fr.md)
+   MenuLocation: Modèle -> Géométrie de l'élement -> Coupe transversale de poutre
+   Workbenches: FEM_Workbench/fr
    Shortcut: **C** **B**
-   SeeAlso: [Tutoriel FEM](FEM_tutorial/fr.md)
+   SeeAlso: FEM_tutorial/fr
 ---
 
 # FEM ElementGeometry1D/fr

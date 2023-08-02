@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: FEM ConstraintForce
    Name/de: FEM RandbedingungKraft
-   MenuLocation: Modell - Mechanische Randbedingungen - Randbedingung Krafteinwirkung
-   Workbenches: [FEM](FEM_Workbench/de.md)
-   SeeAlso: [FEM RandbedingungDruck](FEM_ConstraintPressure/de.md)
+   MenuLocation: Modell -> Mechanische Randbedingungen -> Randbedingung Krafteinwirkung
+   Workbenches: FEM_Workbench/de
+   SeeAlso: FEM_ConstraintPressure/de
 ---
 
 # FEM ConstraintForce/de

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Plot Save
    Name/ja: Plot Save
-   Workbenches: [Plot](Plot_Workbench.md)
+   Workbenches: Plot Workbench
    MenuLocation: Plot -> Save plot
 ---
 

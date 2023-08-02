@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Cylinder
    Name/de: Part Zylinder
-   MenuLocation: Formteil - Grundkörper - Zylinder
-   Workbenches: [Part](Part_Workbench/de.md)
-   SeeAlso: [Part Grundelemente](Part_Primitives/de.md)
+   MenuLocation: Formteil -> Grundkörper -> Zylinder
+   Workbenches: Part_Workbench/de
+   SeeAlso: Part_Primitives/de
 ---
 
 # Part Cylinder/de

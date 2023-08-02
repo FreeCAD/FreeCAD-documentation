@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: PartDesign LinearPattern
    Name/de: PartDesign LinearesMuster
-   MenuLocation: Part Design - Muster anwenden - Lineares Muster
-   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso: [PartDesign MehrfachTransformation](PartDesign_MultiTransform/de.md)
+   MenuLocation: Part Design -> Muster anwenden -> Lineares Muster
+   Workbenches: PartDesign_Workbench/de
+   SeeAlso: PartDesign_MultiTransform/de
 ---
 
 # PartDesign LinearPattern/de

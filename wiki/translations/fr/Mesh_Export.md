@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Mesh Export
    Name/fr: Mesh Exporter le maillage
-   MenuLocation: Maillages - Exporter le maillage...
-   Workbenches: [Mesh](Mesh_Workbench/fr.md)
-   SeeAlso: [Std Exporter](Std_Export/fr.md), [Import Export](Import_Export/fr.md)
+   MenuLocation: Maillages -> Exporter le maillage...
+   Workbenches: Mesh_Workbench/fr
+   SeeAlso: Std_Export/fr, Import_Export/fr
 ---
 
 # Mesh Export/fr

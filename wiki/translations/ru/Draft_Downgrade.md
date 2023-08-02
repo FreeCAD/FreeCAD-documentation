@@ -3,9 +3,9 @@
    Name: Draft Downgrade
    Name/ru: Draft Downgrade
    MenuLocation: Черчение -> Перестроить
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: **D** **N**
-   SeeAlso: [Обновить](Draft_Upgrade/ru.md)
+   SeeAlso: Draft Upgrade/ru
 ---
 
 # Draft Downgrade/ru

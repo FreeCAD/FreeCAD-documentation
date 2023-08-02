@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part RegularPolygon
    Name/pl: Część: Wielokąt foremny
-   MenuLocation: Część - Utwórz geometrie pierwotne ... - Wielokąt foremny
-   Workbenches: [Część](Part_Workbench/pl.md), [OpenSCAD](OpenSCAD_Workbench/pl.md)
+   MenuLocation: Część -> Utwórz geometrie pierwotne ... -> Wielokąt foremny
+   Workbenches: Part_Workbench/pl, OpenSCAD_Workbench/pl
    Version: 0.14
-   SeeAlso: [Utwórz geometrie pierwotne](Part_Primitives/pl.md)
+   SeeAlso: Part_Primitives/pl
 ---
 
 # Part RegularPolygon/pl

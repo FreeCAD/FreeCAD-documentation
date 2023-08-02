@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/ru: Выравнивание...
    Name: Std_Alignment
-   MenuLocation: Правка - Выравнивание...
+   MenuLocation: Правка -> Выравнивание...
    Workbenches: Все
-   SeeAlso: [Расположение...](Std_Placement/ru.md)
+   SeeAlso: Std_Placement/ru
 ---
 
 # Std Alignment/ru

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std ViewBottom
    Name/ru: Std ViewBottom
-   MenuLocation: Виды - Стандартные виды - Снизу
+   MenuLocation: Виды -> Стандартные виды -> Снизу
    Workbenches: All
    Shortcut: **5**
-   SeeAlso: [Std ViewRear](Std_ViewRear/ru.md), [Std ViewLeft](Std_ViewLeft/ru.md)
+   SeeAlso: Std_ViewRear/ru, Std_ViewLeft/ru
 ---
 
 # Std ViewBottom/ru

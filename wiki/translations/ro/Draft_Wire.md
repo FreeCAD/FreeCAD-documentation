@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Wire
    Name/ro: Draft Wire
-   MenuLocation: Draft - Wire
-   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   MenuLocation: Draft -> Wire
+   Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
    Shortcut: **P** **L**
-   SeeAlso: [Draft Line](Draft_Line/ro.md), [Draft BSpline](Draft_BSpline/ro.md)
+   SeeAlso: Draft Line/ro, Draft BSpline/ro
 ---
 
 # Draft Wire/ro

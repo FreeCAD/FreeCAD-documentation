@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher CloseShape
    Name/pl: Szkicownik: Zamknij kształt
-   MenuLocation: Szkic - Narzędzia szkicownika - Zamknij kształt
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   MenuLocation: Szkic -> Narzędzia szkicownika -> Zamknij kształt
+   Workbenches: Sketcher_Workbench/pl
    Shortcut: **Z** **W**
    Version: 0.15
 ---

@@ -3,9 +3,9 @@
    Name: Arch IfcExplorer
    Name/it: Esplora Ifc
    Icon: IFC.svg
-   Workbenches: [Arch](Arch_Workbench/it.md)
-   MenuLocation: Arch - Utilità - Esplora Ifc
-   SeeAlso: [Arch IFC](Arch_IFC/it.md)
+   Workbenches: Arch_Workbench/it
+   MenuLocation: Arch -> Utilità -> Esplora Ifc
+   SeeAlso: Arch IFC/it
 ---
 
 # Arch IfcExplorer/it

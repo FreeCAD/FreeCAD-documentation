@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft PathLinkArray
    Name/it: Serie di link su tracciato
-   MenuLocation: Modifiche - Strumenti serie - Serie di link su tracciato
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Modifiche -> Strumenti serie -> Serie di link su tracciato
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Version: 0.19
-   SeeAlso: [Serie ortognale](Draft_OrthoArray/it.md), [Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie di link su tracciato](Draft_PathLinkArray/it.md), [Serie su punti](Draft_PointArray/it.md)
+   SeeAlso: Draft_OrthoArray/it, Draft_PolarArray/it, Draft_CircularArray/it, Draft_PathLinkArray/it, Draft_PointArray/it
 ---
 
 # Draft PathLinkArray/it

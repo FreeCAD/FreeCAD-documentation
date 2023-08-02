@@ -4,7 +4,7 @@
    MenuLocation: None
    Workbenches: All
    Version: 0.19
-   SeeAlso: [Std Part](Std_Part.md), [Std Group](Std_Group.md), [PartDesign Body](PartDesign_Body.md)
+   SeeAlso: Std_Part, Std_Group, PartDesign_Body
 ---
 
 # Sandbox:Roy 043

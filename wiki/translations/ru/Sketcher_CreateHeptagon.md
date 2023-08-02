@@ -2,8 +2,8 @@
 - GuiCommand:
    Name/ru: Семиугольник
    Name: Sketcher_CreateHeptagon
-   MenuLocation: Эскиз - Геометрия эскиза - Семиугольник
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation: Эскиз -> Геометрия эскиза -> Семиугольник
+   Workbenches: Sketcher_Workbench/ru
    Shortcut: **G** **P** **7**
    Version: 0.15
 ---

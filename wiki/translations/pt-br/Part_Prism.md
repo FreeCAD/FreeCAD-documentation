@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Part Prism
-   MenuLocation: Part - [Create primitives](Part_Primitives.md) - Prism
-   Workbenches: [Part](Part_Workbench.md), [OpenSCAD](OpenSCAD_Workbench.md)
+   MenuLocation: Part -> Part_Primitives -> Prism
+   Workbenches: Part_Workbench, OpenSCAD_Workbench
    Version: 0.14
-   SeeAlso: [Part Primitives](Part_Primitives.md)
+   SeeAlso: Part_Primitives
 ---
 
 # Part Prism/pt-br

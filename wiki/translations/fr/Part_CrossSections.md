@@ -3,9 +3,9 @@
    Name: Part CrossSections
    Name/fr: Part Coupes
    Icon: Part_CrossSections.svg
-   MenuLocation: Part - Coupes...
-   Workbenches: [Part](Part_Workbench/fr.md)
-   SeeAlso: [Part Section](Part_Section/fr.md)
+   MenuLocation: Part -> Coupes...
+   Workbenches: Part_Workbench/fr
+   SeeAlso: Part_Section/fr
 ---
 
 # Part CrossSections/fr

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Measure Linear
    Name/pl: Część: Pomiar liniowy
-   MenuLocation: Pomiary - Pomiar liniowy
-   Workbenches: [Część](Part_Workbench/pl.md)
-   SeeAlso: [Pomiar odległości](Std_MeasureDistance/pl.md), [Wymiarowanie](Draft_Dimension/pl.md)
+   MenuLocation: Pomiary -> Pomiar liniowy
+   Workbenches: Part_Workbench/pl
+   SeeAlso: Std_MeasureDistance/pl, Draft_Dimension/pl
 ---
 
 # Part Measure Linear/pl

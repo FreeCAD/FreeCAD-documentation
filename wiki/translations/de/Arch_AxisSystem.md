@@ -3,9 +3,9 @@
    Name: Arch AxisSystem
    Name/de: Arch AchsenSystem
    Icon: Arch Axis System.svg
-   MenuLocation: Arch - Achsenwerkzeuge - Achsensystem
-   Workbenches: [Arch](Arch_Workbench/de.md)
-   SeeAlso: [Arch Achse](Arch_Axis/de.md), [Arch Gitter](Arch_Grid/de.md)
+   MenuLocation: Arch -> Achsenwerkzeuge -> Achsensystem
+   Workbenches: Arch_Workbench/de
+   SeeAlso: Arch_Axis/de, Arch_Grid/de
 ---
 
 # Arch AxisSystem/de

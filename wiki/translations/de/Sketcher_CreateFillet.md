@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher CreateFillet
    Name/de: Sketcher VerrundungErstellen
-   MenuLocation: Sketch - Skizzengeometrie - Verrundung erstellen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Sketch -> Skizzengeometrie -> Verrundung erstellen
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **F** **F**
-   SeeAlso: [Sketcher PunktVerrundungErstellen](Sketcher_CreatePointFillet/de.md)
+   SeeAlso: Sketcher_CreatePointFillet/de
 ---
 
 # Sketcher CreateFillet/de

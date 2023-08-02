@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher_Clone
    Name/it: Clona
-   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation: Sketch - Strumenti - Clona
+   Workbenches: Sketcher Workbench/it
+   MenuLocation: Sketch -> Strumenti -> Clona
    Version: 0.16
-   SeeAlso: [Sketcher Copia](Sketcher_Copy/it.md), [Sketcher Sposta](Sketcher_Move/it.md)
+   SeeAlso: Sketcher Copy/it, Sketcher Move/it
 ---
 
 # Sketcher Clone/it

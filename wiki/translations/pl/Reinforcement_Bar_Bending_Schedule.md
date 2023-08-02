@@ -3,9 +3,9 @@
    Name: Reinforcement Bar Bending Schedule
    Name/pl: Zbrojenie: Schemat gięcia prętów
    MenuLocation: brak
-   Workbenches: [Architektura](Arch_Workbench/pl.md), [BIM](BIM_Workbench/pl.md)
+   Workbenches: Arch_Workbench/pl, BIM_Workbench/pl
    Version: 0.19
-   SeeAlso: [Zbrojenie](Reinforcement_Workbench/pl.md), [Zestawienie zbrojenia](Arch_Rebar_BOM/pl.md), [Wymiarowanie rysunku zbrojenia](Arch_Rebar_Drawing_Dimensioning/pl.md)
+   SeeAlso: Reinforcement_Workbench/pl, Arch_Rebar_BOM/pl, Arch_Rebar_Drawing_Dimensioning/pl
 ---
 
 # Reinforcement Bar Bending Schedule/pl

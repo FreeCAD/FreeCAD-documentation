@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher SelectConflictingConstraints
    Name/es: Corquizador SeleccionarRestriccionesConflictivas
-   MenuLocation: Croquis - Corquizador Herramientas - Seleccionar Restricciones Conflictivas
-   Workbenches: [Corquizador](Sketcher_Workbench/es.md)
+   MenuLocation: Croquis -> Corquizador Herramientas -> Seleccionar Restricciones Conflictivas
+   Workbenches: Sketcher Workbench/es
    Shortcut: Shift+Ctrl+E
    Version: 0.15
 ---

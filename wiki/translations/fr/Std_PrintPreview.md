@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std PrintPreview
    Name/fr: Std Aperçu impression
-   MenuLocation: Fichier - Aperçu avant impression
+   MenuLocation: Fichier -> Aperçu avant impression
    Workbenches: Tous
-   SeeAlso: [Std Imprimer](Std_Print/fr.md)
+   SeeAlso: Std_Print/fr
 ---
 
 # Std PrintPreview/fr

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Sketcher ConstrainDiameter
    Name/es: Croquizador RestringirDiámetro
-   Workbenches: [Sketcher](Sketcher_Workbench/es.md)
-   MenuLocation: Boceto - Croquizador restricciónes - RestringirDiámetro
-   SeeAlso: [Restringir la distancia](Sketcher_ConstrainDistance/es.md), [Restringir distancia horizontal](Sketcher_ConstrainDistanceX/es.md), [Restringir distancia vertical](Sketcher_ConstrainDistanceY/es.md)
+   Workbenches: Sketcher Workbench/es
+   MenuLocation: Boceto -> Croquizador restricciónes -> RestringirDiámetro
+   SeeAlso: Sketcher ConstrainDistance/es, Sketcher ConstrainDistanceX/es, Sketcher ConstrainDistanceY/es
 ---
 
 # Sketcher ConstrainDiameter/es

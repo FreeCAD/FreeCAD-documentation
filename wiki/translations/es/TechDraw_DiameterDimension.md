@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw  Dimension Diameter
    Name/es: TechDraw  Dimensión Diámetro
-   MenuLocation: TechDraw - Dimensión Diámetro
-   Workbenches: [TechDraw](TechDraw_Workbench/es.md)
-   SeeAlso: [TechDraw Dimensión Radio](TechDraw_RadiusDimension/es.md)
+   MenuLocation: TechDraw -> Dimensión Diámetro
+   Workbenches: TechDraw_Workbench/es
+   SeeAlso: TechDraw_RadiusDimension/es
 ---
 
 # TechDraw DiameterDimension/es

@@ -1,6 +1,6 @@
 # Path Pocket Shape/it
 ---
-- GuiCommand:   Name: Path Pocket   Name/it: Tasca   Workbenches: [[Path Workbench/it   Path]]|MenuLocation: Path - Tasca   Shortcut: P,O   SeeAlso: ---
+- GuiCommand:   Name: Path Pocket   Name/it: Tasca   Workbenches: Path Workbench/it   Path|MenuLocation: Path -> Tasca   Shortcut: P,O   SeeAlso: ---
 
 
 </div>

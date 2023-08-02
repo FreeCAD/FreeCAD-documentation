@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Part MakeSolid
    Name/pl: Część: Przekształć na bryłę
-   MenuLocation: Część - Przekształć na bryłę
-   Workbenches: [Część](Part_Workbench/pl.md)
+   MenuLocation: Część -> Przekształć na bryłę
+   Workbenches: Part_Workbench/pl
 ---
 
 # Part MakeSolid/pl

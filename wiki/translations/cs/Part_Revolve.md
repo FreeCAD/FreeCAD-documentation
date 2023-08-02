@@ -1,6 +1,6 @@
 # Part Revolve/cs
 ---
-- GuiCommand:   Name: Part Revolve   Name/cs: Díl Obtáčení   MenuLocation: Díl -> Obtáčení   Workbenches: [[Part_Workbench/cs   Díl]], Kompletace|SeeAlso: ---
+- GuiCommand:   Name: Part Revolve   Name/cs: Díl Obtáčení   MenuLocation: Díl -> Obtáčení   Workbenches: Part_Workbench/cs   Díl, Kompletace|SeeAlso: ---
 
 
 </div>

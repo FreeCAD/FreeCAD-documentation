@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Part Compound‏‎Filter
    Name/ru: Part Compound‏‎Filter
-   MenuLocation: Деталь - Фильтр соединений
-   Workbenches: [Part](Part_Workbench/ru.md)
+   MenuLocation: Деталь -> Фильтр соединений
+   Workbenches: Part Workbench/ru
    Version: 0.17
 ---
 

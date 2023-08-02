@@ -1,6 +1,6 @@
 # Std RecentFiles/ro
 ---
-- GuiCommand:   Name: Std RecentFiles   Name/ro: Fișiere recente   MenuLocation: [|Workbenches: All   Shortcut:    SeeAlso: [[Std Open/ro|Deschidere](Std_File_Menu/ro___File]]_-_Fișiere_recente.md), [Importul](Std_Import/ro.md)---
+- GuiCommand:   Name: Std RecentFiles   Name/ro: Fișiere recente   MenuLocation: Std File Menu/ro   File -> Fișiere recente, Std Import/ro---
 
 
 </div>

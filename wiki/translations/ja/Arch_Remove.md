@@ -4,8 +4,8 @@
    Name: Arch Remove
    Name/ja: Removeツール
    MenuLocation: Arch -> Remove
-   Workbenches: [建築](Arch_Workbench/ja.md)
-   SeeAlso: [Arch Add](Arch_Add/ja.md)---
+   Workbenches: Arch Workbench/ja
+   SeeAlso: Arch Add/ja---
 
 
 </div>

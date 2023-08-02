@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Spreadsheet_Export
    Name/it: Esporta il foglio di calcolo
-   MenuLocation: Spreadsheet - Esporta il foglio di calcolo
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench/it.md)
+   MenuLocation: Spreadsheet -> Esporta il foglio di calcolo
+   Workbenches: Spreadsheet_Workbench/it
    Version: 0.17
-   SeeAlso: [Importa un foglio di calcolo](Spreadsheet_Import/it.md)
+   SeeAlso: Spreadsheet_Import/it
 ---
 
 # Spreadsheet Export/it

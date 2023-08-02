@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: TechDraw_Dimension_Length
    Name/it: Lunghezza
-   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
-   MenuLocation: TechDraw - Lunghezza
+   Workbenches: TechDraw_Workbench/it
+   MenuLocation: TechDraw -> Lunghezza
    Shortcut: 
-   SeeAlso: [Dimensione orizzontale](TechDraw_HorizontalDimension/it.md), [Dimensione verticale](TechDraw_VerticalDimension/it.md)
+   SeeAlso: TechDraw_HorizontalDimension/it, TechDraw_VerticalDimension/it
 ---
 
 # TechDraw LengthDimension/it

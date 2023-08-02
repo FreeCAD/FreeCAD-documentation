@@ -1,6 +1,6 @@
 # Sketcher ConstrainPerpendicular/it
 ---
-- GuiCommand:   Name: Sketcher ConstrainPerpendicular   Name/it: Perpendicolare   Workbenches: [PartDesign](Sketcher_Workbench/it___Schizzo]],_[[PartDesign_Workbench/it.md)|MenuLocation: PartDesign - Schizzo - Perpendicolare   Shortcut: **N**   SeeAlso: [Angolo](Sketcher_ConstrainAngle/it.md)---
+- GuiCommand:   Name: Sketcher ConstrainPerpendicular   Name/it: Perpendicolare   Workbenches: Sketcher Workbench/it   Schizzo, PartDesign Workbench/it---
 
 
 </div>

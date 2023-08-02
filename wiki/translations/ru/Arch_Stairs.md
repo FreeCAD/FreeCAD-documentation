@@ -2,11 +2,11 @@
 - GuiCommand:
    Name/ru: Лестница
    Name: Arch_Stairs
-   MenuLocation: Arch - Лестница
-   Workbenches: [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Arch -> Лестница
+   Workbenches: Arch_Workbench/ru
    Shortcut: **S** **R**
    Version: 0.14
-   SeeAlso: [Структура](Arch_Structure/ru.md), [Оборудование](Arch_Equipment/ru.md)
+   SeeAlso: Arch_Structure/ru, Arch_Equipment/ru
 ---
 
 # Arch Stairs/ru

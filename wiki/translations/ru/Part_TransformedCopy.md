@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Создать преобразованную копию
    Name: Part_TransformedCopy
-   MenuLocation: Деталь - Создать копию - Создать преобразованную копию
-   Workbenches: [Part](Part_Workbench/ru.md)
+   MenuLocation: Деталь -> Создать копию -> Создать преобразованную копию
+   Workbenches: Part_Workbench/ru
    Version: 0.19
-   SeeAlso: [Создать простую копию](Part_SimpleCopy/ru.md), [Создать копию элемента формы](Part_ElementCopy/ru.md), [Улучшить форму](Part_RefineShape/ru.md)
+   SeeAlso: Part_SimpleCopy/ru, Part_ElementCopy/ru, Part_RefineShape/ru
 ---
 
 # Part TransformedCopy/ru

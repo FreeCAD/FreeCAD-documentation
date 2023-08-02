@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft SelectPlane
    Name/fr: Draft Plan de travail
-   MenuLocation: Utilitaires - Sélectionner un plan
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Utilitaires -> Sélectionner un plan
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **W** **P**
-   SeeAlso: [Draft Objet Proxy pour plan de travail](Draft_WorkingPlaneProxy/fr.md)
+   SeeAlso: Draft_WorkingPlaneProxy/fr
 ---
 
 # Draft SelectPlane/fr

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM PostPipelineFromResult
    Name/fr: FEM Pipeline de résultats
-   MenuLocation: Résultats - Afficher le pipeline des résultats
-   Workbenches: [FEM](FEM_Workbench/fr.md)
+   MenuLocation: Résultats -> Afficher le pipeline des résultats
+   Workbenches: FEM_Workbench/fr
    Version: 0.17
-   SeeAlso: [FEM Afficher les résultats](FEM_ResultShow/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
+   SeeAlso: FEM_ResultShow/fr, FEM_tutorial/fr
 ---
 
 # FEM PostPipelineFromResult/fr

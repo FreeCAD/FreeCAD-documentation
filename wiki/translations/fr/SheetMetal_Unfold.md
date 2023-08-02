@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: SheetMetal Unfold
    Name/fr: SheetMetal Déplier
-   MenuLocation: SheetMetal - Unfold
-   Workbenches: [SheetMetal](SheetMetal_Workbench/fr.md)
+   MenuLocation: SheetMetal -> Unfold
+   Workbenches: SheetMetal_Workbench/fr
    Shortcut: **U**
-   SeeAlso: [Déplier sans assistance](SheetMetal_UnattendedUnfold/fr.md)
+   SeeAlso: SheetMetal_UnattendedUnfold/fr
 ---
 
 # SheetMetal Unfold/fr

@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft ShapeString
    Name/pl: Rysunek Roboczy: Kształt z tekstu
-   MenuLocation: Kreślenie - Kształt z tekstu ...
-   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   MenuLocation: Kreślenie -> Kształt z tekstu ...
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: 
    Version: 0.14
-   SeeAlso: [Tekst](Draft_Text/pl.md), [Etykieta](Draft_Label/pl.md), [Wyciągnij](Part_Extrude/pl.md)
+   SeeAlso: Draft_Text/pl, Draft_Label/pl, Part_Extrude/pl
 ---
 
 # Draft ShapeString/pl

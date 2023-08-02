@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Torus
    Name/de: Part Torus
-   MenuLocation: Formteil - Grundkörper - Torus
-   Workbenches: [Part](Part_Workbench/de.md)
-   SeeAlso: [Part Grundelemente](Part_Primitives/de.md)
+   MenuLocation: Formteil -> Grundkörper -> Torus
+   Workbenches: Part_Workbench/de
+   SeeAlso: Part_Primitives/de
 ---
 
 # Part Torus/de

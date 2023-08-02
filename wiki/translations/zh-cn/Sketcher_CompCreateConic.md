@@ -3,8 +3,8 @@
    Name: Sketcher Conics
    Name/zh-cn: Sketcher Conics
    Icon: Sketcher_CompCreateConic.png
-   Workbenches: [Sketcher](Sketcher_Workbench/zh-cn.md)
-   MenuLocation: None (toolbar only)
+   Workbenches: Sketcher Workbench/zh-cn
+   MenuLocation: None 
 ---
 
 # Sketcher CompCreateConic/zh-cn

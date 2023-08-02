@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Каркас
    Name: Arch_Frame
-   MenuLocation: Arch - Каркас
-   Workbenches: [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Arch -> Каркас
+   Workbenches: Arch_Workbench/ru
    Shortcut: **F** **R**
-   SeeAlso: [Стена](Arch_Wall/ru.md), [Структура](Arch_Structure/ru.md)
+   SeeAlso: Arch_Wall/ru, Arch_Structure/ru
 ---
 
 # Arch Frame/ru

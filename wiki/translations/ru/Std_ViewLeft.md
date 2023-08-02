@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std ViewLeft
    Name/ru: Std ViewLeft
-   MenuLocation: Виды - Стандартные виды - Слева
+   MenuLocation: Виды -> Стандартные виды -> Слева
    Workbenches: All
    Shortcut: **6**
-   SeeAlso: [Std ViewRear](Std_ViewRear/ru.md), [Std ViewBottom](Std_ViewBottom/ru.md)
+   SeeAlso: Std_ViewRear/ru, Std_ViewBottom/ru
 ---
 
 # Std ViewLeft/ru

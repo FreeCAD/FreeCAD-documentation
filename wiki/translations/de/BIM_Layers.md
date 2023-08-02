@@ -2,9 +2,9 @@
 - GuiCommand:Addon
    Name: BIM Layers
    Name/de: BIM Lagen
-   Workbenches: [BIM](BIM_Workbench/de.md)
+   Workbenches: BIM Workbench/de
    Addon: BIM
-   MenuLocation: Verwalten - Lagen
+   MenuLocation: Verwalten -> Lagen
 ---
 
 # BIM Layers/de

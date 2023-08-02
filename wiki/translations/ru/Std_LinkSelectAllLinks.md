@@ -5,7 +5,7 @@
    MenuLocation: 
    Workbenches: Все
    Version: 0.19
-   SeeAlso: [Перейти к связанному объекту](Std_LinkSelectLinked/ru.md), [Перейти на самый глубокий связанный объект](Std_LinkSelectLinkedFinal/ru.md), [Назад](Std_SelBack/ru.md), [Вперёд](Std_SelForward/ru.md)
+   SeeAlso: Std_LinkSelectLinked/ru, Std_LinkSelectLinkedFinal/ru, Std_SelBack/ru, Std_SelForward/ru
 ---
 
 # Std LinkSelectAllLinks/ru

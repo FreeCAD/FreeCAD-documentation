@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std Revert
    Name/de: Std Rückgängig
-   MenuLocation: Datei - Rückgängig
+   MenuLocation: Datei -> Rückgängig
    Workbenches: Alle
 ---
 

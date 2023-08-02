@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Sketcher Grid
    Name/pl: Szkicownik: Przełącz widoczność siatki
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Workbenches: Sketcher_Workbench/pl
    Version: 0.21
-   SeeAlso: [Włącz / wyłącz przyciąganie](Sketcher_Snap/pl.md)
+   SeeAlso: Sketcher_Snap/pl
 ---
 
 # Sketcher Grid/pl

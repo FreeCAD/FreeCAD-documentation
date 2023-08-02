@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw StackUp
    Name/pl: Rysunek Techniczny: Przesuń poziom w górę
-   MenuLocation: Rysunek Techniczny - Sortowanie - Przesuń poziom w górę
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   MenuLocation: Rysunek Techniczny -> Sortowanie -> Przesuń poziom w górę
+   Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.21
-   SeeAlso: [Przesuń poziom na górę](TechDraw_StackTop/pl.md), [Przesuń poziom na dół](TechDraw_StackBottom/pl.md), [Przesuń poziom w dół](TechDraw_StackDown/pl.md)
+   SeeAlso: TechDraw_StackTop/pl, TechDraw_StackBottom/pl, TechDraw_StackDown/pl
 ---
 
 # TechDraw StackUp/pl

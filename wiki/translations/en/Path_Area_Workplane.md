@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Path Area Workplane
-   MenuLocation: Path - Area workplane
-   Workbenches: [Path](Path_Workbench.md)
+   MenuLocation: Path -> Area workplane
+   Workbenches: Path_Workbench
 ---
 
 # Path Area Workplane/en

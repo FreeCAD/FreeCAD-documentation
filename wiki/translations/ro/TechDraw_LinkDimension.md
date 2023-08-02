@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name/ro: TechDraw Dimension Link
-   MenuLocation: TechDraw - Dimension Link
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
-   SeeAlso: [TechDraw View](TechDraw_View.md), [TechDraw ProjectionGroup](TechDraw_ProjectionGroup.md)
+   MenuLocation: TechDraw -> Dimension Link
+   Workbenches: TechDraw_Workbench
+   SeeAlso: TechDraw_View, TechDraw_ProjectionGroup
 ---
 
 # TechDraw LinkDimension/ro

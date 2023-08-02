@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: FEM EquationFlux
-   MenuLocation: Solve - Flux equation
-   Workbenches: [FEM](FEM_Workbench.md)
+   MenuLocation: Solve -> Flux equation
+   Workbenches: FEM_Workbench
    Version: 0.17
    SeeAlso: 
 ---

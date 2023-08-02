@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher CreatePointFillet
    Name/de: Sketcher PunktVerrundungErstellen
-   MenuLocation: Sketch - Skizzengeometrien - Eckenerhaltende Verrundung erstellen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Sketch -> Skizzengeometrien -> Eckenerhaltende Verrundung erstellen
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **F** **P**
    Version: 0.19
-   SeeAlso: [Sketcher VerrundungErstellen](Sketcher_CreateFillet/de.md)
+   SeeAlso: Sketcher_CreateFillet/de
 ---
 
 # Sketcher CreatePointFillet/de

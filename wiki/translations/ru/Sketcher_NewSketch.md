@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/ru: Создать эскиз
    Name: Sketcher_NewSketch
-   MenuLocation: Sketch - Создать эскиз
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
-   SeeAlso: [Создать эскиз](PartDesign_NewSketch/ru.md), [Разместить эскиз на грани...](Sketcher_MapSketch/ru.md), [Переориентировать эскиз...](Sketcher_ReorientSketch/ru.md)
+   MenuLocation: Sketch -> Создать эскиз
+   Workbenches: Sketcher_Workbench/ru
+   SeeAlso: PartDesign_NewSketch/ru, Sketcher_MapSketch/ru, Sketcher_ReorientSketch/ru
 ---
 
 # Sketcher NewSketch/ru

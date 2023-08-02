@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path_Waterline
    Name/it: Piani orizzontali
-   Workbenches: [Path](Path_Workbench/it.md)
-   MenuLocation: Path - Piani orizzontali
+   Workbenches: Path Workbench/it
+   MenuLocation: Path -> Piani orizzontali
    Shortcut: 
    Version: 
    SeeAlso: 

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Sketcher ToggleConstruction
-   MenuLocation: Sketch - Sketcher geometries - Toggle construction geometry
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch -> Sketcher geometries -> Toggle construction geometry
+   Workbenches: Sketcher_Workbench
    Shortcut: **G** **N**
-   SeeAlso: [Sketcher ToggleDrivingConstraint](Sketcher_ToggleDrivingConstraint.md)
+   SeeAlso: Sketcher_ToggleDrivingConstraint
 ---
 
 # Sketcher ToggleConstruction/en

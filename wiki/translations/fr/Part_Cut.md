@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part_Cut
    Name/fr: Part Soustraction
-   MenuLocation: Part - Opération booléenne - Soustraction
-   Workbenches: [Part](Part_Workbench/fr.md)
-   SeeAlso: [Part Opération booléenne](Part_Boolean/fr.md), [Part Union](Part_Fuse/fr.md), [Part Intersection](Part_Common/fr.md), 
+   MenuLocation: Part -> Opération booléenne -> Soustraction
+   Workbenches: Part_Workbench/fr
+   SeeAlso: Part_Boolean/fr, Part_Fuse/fr, Part_Common/fr, 
 ---
 
 # Part Cut/fr

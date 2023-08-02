@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher CreateOblong
    Name/fr: Sketcher Rectangle arrondi
-   MenuLocation: Esquisse - Géométries d'esquisse - Créer un rectangle arrondi
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   MenuLocation: Esquisse -> Géométries d'esquisse -> Créer un rectangle arrondi
+   Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **O**
    Version:  0.20
-   SeeAlso: [Sketcher Rectangle](Sketcher_CreateRectangle/fr.md)
+   SeeAlso: Sketcher_CreateRectangle/fr
 ---
 
 # Sketcher CreateOblong/fr

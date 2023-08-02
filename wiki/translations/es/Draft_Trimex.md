@@ -3,9 +3,9 @@
    Name: Draft Trimex
    Name/es: Draft Trimex
    MenuLocation: Croquis -> Recortar/Extender
-   Workbenches: [Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Shortcut: **T** **R**
-   SeeAlso: [Extrusión](Part_Extrude/es.md)
+   SeeAlso: Part Extrude/es
 ---
 
 # Draft Trimex/es

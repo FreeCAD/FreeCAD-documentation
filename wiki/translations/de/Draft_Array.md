@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft Array
    Name/de: Entwurf Anordnung
-   MenuLocation: Entwurf - Anordnung
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso: [PfadDatenfeld](Draft_PathArray/de.md), [Draft PointArray](Draft_PointArray/de.md), [Draft Klonen](Draft_Clone/de.md)
+   MenuLocation: Entwurf -> Anordnung
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   SeeAlso: Draft PathArray/de, Draft PointArray/de, Draft Clone/de
 ---
 
 # Draft Array/de

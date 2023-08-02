@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft BSpline
    Name/fr: Draft B-spline
-   MenuLocation: Draft - B-spline
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Draft -> B-spline
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **B** **S**
    Version: 0.7
-   SeeAlso: [Draft Polyligne](Draft_Wire/fr.md), [Draft Courbe de Bézier cubique](Draft_CubicBezCurve/fr.md), [Draft Courbe de Bézier](Draft_BezCurve/fr.md)
+   SeeAlso: Draft_Wire/fr, Draft_CubicBezCurve/fr, Draft_BezCurve/fr
 ---
 
 # Draft BSpline/fr

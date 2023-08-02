@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ExtensionCreateHorizChainDimension
    Name/pl: Rysunek Techniczny: Rozszerzenie Seria wymiarów poziomo
-   MenuLocation: Rysunek Techniczny - Rozszerzenia: Wymiary - Seria wymiarów poziomo
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   MenuLocation: Rysunek Techniczny -> Rozszerzenia: Wymiary -> Seria wymiarów poziomo
+   Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20
-   SeeAlso: [Seria wymiarów pionowo](TechDraw_ExtensionCreateVertChainDimension/pl.md), [Seria wymiarów ukośnie](TechDraw_ExtensionCreateObliqueChainDimension/pl.md)
+   SeeAlso: TechDraw_ExtensionCreateVertChainDimension/pl, TechDraw_ExtensionCreateObliqueChainDimension/pl
 ---
 
 # TechDraw ExtensionCreateHorizChainDimension/pl

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path DressupAxisMap
    Name/fr: Path Assigner un axe
-   MenuLocation: Path - Finition du parcours - Assigner un axe
-   Workbenches: [Path](Path_Workbench/fr.md)
+   MenuLocation: Path -> Finition du parcours -> Assigner un axe
+   Workbenches: Path_Workbench/fr
 ---
 
 # Path DressupAxisMap/fr

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher DeleteAllConstraints
    Name/pl: Szkicownik: Usuń wszystkie wiązania
-   MenuLocation: Szkic - Narzędzia szkicownika - Usuń wszystkie wiązania
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   MenuLocation: Szkic -> Narzędzia szkicownika -> Usuń wszystkie wiązania
+   Workbenches: Sketcher_Workbench/pl
    Version: 0.18
-   SeeAlso: [Usuń wszystkie geometrie](Sketcher_DeleteAllGeometry/pl.md)
+   SeeAlso: Sketcher_DeleteAllGeometry/pl
 ---
 
 # Sketcher DeleteAllConstraints/pl

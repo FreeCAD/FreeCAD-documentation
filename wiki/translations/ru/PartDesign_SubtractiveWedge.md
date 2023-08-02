@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Субтрактивный клин
    Name: PartDesign_SubtractiveWedge
-   MenuLocation: Part Design - Создать субтрактивный примитив - Субтрактивный клин
-   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   MenuLocation: Part Design -> Создать субтрактивный примитив -> Субтрактивный клин
+   Workbenches: PartDesign_Workbench/ru
    Version: 0.17
-   SeeAlso: [Создать субтрактивный примитив](PartDesign_CompPrimitiveSubtractive/ru.md), [Аддитивный клин](PartDesign_AdditiveWedge/ru.md)
+   SeeAlso: PartDesign_CompPrimitiveSubtractive/ru, PartDesign_AdditiveWedge/ru
 ---
 
 # PartDesign SubtractiveWedge/ru

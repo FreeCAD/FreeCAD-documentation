@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Surface ExtendFace
    Name/fr: Surface Extension de surface
-   MenuLocation: Surface - Extend face
-   Workbenches: [Surface](Surface_Workbench/fr.md)
+   MenuLocation: Surface -> Extend face
+   Workbenches: Surface_Workbench/fr
    Version: 0.17
 ---
 

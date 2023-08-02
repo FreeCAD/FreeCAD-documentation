@@ -2,10 +2,10 @@
 - GuiCommand:
    Icon: Constraint PointOnPoint.svg
    Name/cs: Constraint PointOnPoint
-   Workbenches: [Náčrt](Sketcher_Workbench/cs.md)
+   Workbenches: Sketcher Workbench/cs
    Shortcut: C
-   MenuLocation: Sketch - Sketcher constraints - Constrain coincident
-   SeeAlso: [Constraint Lock](Sketcher_ConstrainLock/cs.md), [Vazba Bod na objekt](Sketcher_ConstrainPointOnObject/cs.md)
+   MenuLocation: Sketch -> Sketcher constraints -> Constrain coincident
+   SeeAlso: Sketcher_ConstrainLock/cs, Sketcher ConstrainPointOnObject/cs
 ---
 
 # Sketcher ConstrainCoincident/cs

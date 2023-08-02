@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Fasteners Flip
    Name/de: Fasteners Umdrehen
-   MenuLocation: Fasteners - Invert fastener
-   Workbenches: [Fasteners](Fasteners_Workbench/de.md)
+   MenuLocation: Fasteners -> Invert fastener
+   Workbenches: Fasteners_Workbench/de
 ---
 
 # Fasteners Flip/de

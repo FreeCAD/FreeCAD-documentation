@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch Wall
    Name/tr: Mimari Duvar
-   MenuLocation: Mimari - Duvar
-   Workbenches: [Mimari](Arch_Workbench/tr.md)
+   MenuLocation: Mimari -> Duvar
+   Workbenches: Arch_Workbench/tr
    Shortcut: **W** **A**
-   SeeAlso: [Mimari Yapı](Arch_Structure/tr.md)
+   SeeAlso: Arch Structure/tr
 ---
 
 # Arch Wall/tr

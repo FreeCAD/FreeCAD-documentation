@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Assembly3 QuickMove
    Icon: Assembly_QuickMove.svg‎‎
-   MenuLocation: Assembly3 - Quick move
-   Workbenches: [Assembly3](Assembly3_Workbench.md)
+   MenuLocation: Assembly3 -> Quick move
+   Workbenches: Assembly3_Workbench
    Shortcut: **A** then **Q**
 ---
 

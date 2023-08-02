@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: FEM EquationFlux
    Name/de: FEM GleichungFluss
-   MenuLocation: Lösen - Flux equation
-   Workbenches: [FEM](FEM_Workbench/de.md)
+   MenuLocation: Lösen -> Flux equation
+   Workbenches: FEM_Workbench/de
    Version: 0.17
    SeeAlso: 
 ---

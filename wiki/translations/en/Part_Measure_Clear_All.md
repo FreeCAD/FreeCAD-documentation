@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Part Measure Clear All
-   MenuLocation: Measure - Clear All
-   Workbenches: [Part](Part_Workbench.md)
+   MenuLocation: Measure -> Clear All
+   Workbenches: Part_Workbench
 ---
 
 # Part Measure Clear All/en

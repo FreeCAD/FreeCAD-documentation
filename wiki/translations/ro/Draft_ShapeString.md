@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft ShapeString
    Name/ro: Draft ShapeString
-   MenuLocation: Draft - Shape from text ...
-   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   MenuLocation: Draft -> Shape from text ...
+   Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
    Shortcut: **S** **S**
-   SeeAlso: [Draft Text](Draft_Text/ro.md), [Part Extrude](Part_Extrude/ro.md)
+   SeeAlso: Draft Text/ro, Part Extrude/ro
 ---
 
 # Draft ShapeString/ro

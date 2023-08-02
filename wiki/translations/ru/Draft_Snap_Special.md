@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Snap Special
    Name/ru: Draft Snap Special
-   MenuLocation: Черчение - [Привязка](Draft_Snap/ru.md) - Special
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Черчение -> Draft Snap/ru -> Special
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: 
    SeeAlso: 
 ---

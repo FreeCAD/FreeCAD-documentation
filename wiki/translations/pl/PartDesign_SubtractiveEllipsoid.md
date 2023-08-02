@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign SubtractiveEllipsoid
    Name/pl: Projekt Części: Subtraktywna elipsoida
-   MenuLocation: Projekt Części - Utwórz cechę przez odjęcie - Subtraktywna elipsoida
-   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   MenuLocation: Projekt Części -> Utwórz cechę przez odjęcie -> Subtraktywna elipsoida
+   Workbenches: PartDesign_Workbench/pl
    Version: 0.17
-   SeeAlso: [Komponent bryła pierwotna do odjęcia](PartDesign_CompPrimitiveSubtractive/pl.md), [Addytywna elipsoida](PartDesign_AdditiveEllipsoid/pl.md)
+   SeeAlso: PartDesign_CompPrimitiveSubtractive/pl, PartDesign_AdditiveEllipsoid/pl
 ---
 
 # PartDesign SubtractiveEllipsoid/pl

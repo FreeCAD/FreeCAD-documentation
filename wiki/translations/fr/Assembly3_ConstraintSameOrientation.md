@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintSameOrientation
    Name/fr: Assembly3 Contrainte orientation identique
    Icon: Assembly_ConstraintSameOrientation.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 ConstraintSameOrientation/fr

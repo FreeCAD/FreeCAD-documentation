@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Mesh Import
-   MenuLocation: Meshes - Import mesh...
-   Workbenches: [Mesh](Mesh_Workbench.md)
-   SeeAlso: [Std Import](Std_Import.md), [Std Open](Std_Open.md), [Import Export](Import_Export.md)
+   MenuLocation: Meshes -> Import mesh...
+   Workbenches: Mesh_Workbench
+   SeeAlso: Std_Import, Std_Open, Import_Export
 ---
 
 # Mesh Import/en

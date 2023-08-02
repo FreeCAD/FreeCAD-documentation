@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Path ToolBitLibraryOpen
-   MenuLocation: Path - ToolBit Library editor
-   Workbenches: [Path](Path_Workbench.md)
+   MenuLocation: Path -> ToolBit Library editor
+   Workbenches: Path_Workbench
    Version: 0.19
-   SeeAlso: [Path ToolBitDock](Path_ToolBitDock.md), [Path Tools](Path_Tools.md), [Path ToolBit](Path_ToolBit.md)
+   SeeAlso: Path_ToolBitDock, Path_Tools, Path_ToolBit
 ---
 
 # Path ToolBitLibraryOpen/en

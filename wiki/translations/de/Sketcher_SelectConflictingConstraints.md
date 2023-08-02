@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher SelectConflictingConstraints
    Name/de: Sketcher WidersprüchlicheRandbedingungenAuswählen
-   MenuLocation: Skizze - Skizzenwerkzeuge - Widersprüchliche Randbedingungen auswählen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Skizze -> Skizzenwerkzeuge -> Widersprüchliche Randbedingungen auswählen
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **Z** **P** **C**
    Version: 0.15
 ---

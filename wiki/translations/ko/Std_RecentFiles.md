@@ -3,9 +3,9 @@
    Name: Std RecentFiles
    Name/ko: 표준 최근 파일
    Empty: 1
-   MenuLocation: 파일 - 최근 파일
+   MenuLocation: 파일 -> 최근 파일
    Workbenches: 모두
-   SeeAlso: [표준 열기](Std_Open/ko.md), [표준 가져오기](Std_Import/ko.md)
+   SeeAlso: Std_Open/ko, Std_Import/ko
 ---
 
 # Std RecentFiles/ko

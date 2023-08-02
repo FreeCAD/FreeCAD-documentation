@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Sketcher CompCreateArc
    Name/de: Sketcher AuswahlBogenErstellen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Workbenches: Sketcher_Workbench/de
 ---
 
 # Sketcher CompCreateArc/de

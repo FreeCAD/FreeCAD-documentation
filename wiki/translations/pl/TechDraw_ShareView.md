@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: TechDraw ShareView
    Name/pl: Rysunek Techniczny: Udostępnij widok
-   MenuLocation: Rysunek Techniczny - Widoki - Udostępnij widok
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   MenuLocation: Rysunek Techniczny -> Widoki -> Udostępnij widok
+   Workbenches: TechDraw_Workbench/pl
    Version: 0.20
-   SeeAlso: [Przesuń widok](TechDraw_MoveView/pl.md)
+   SeeAlso: TechDraw_MoveView/pl
 ---
 
 # TechDraw ShareView/pl

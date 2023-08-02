@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: TechDraw GeometricHatch
-   MenuLocation: TechDraw - Hatching - Apply Geometric Hatch to Face
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
-   SeeAlso: [TechDraw Hatch](TechDraw_Hatch.md), [TechDraw Hatching](TechDraw_Hatching.md)
+   MenuLocation: TechDraw -> Hatching -> Apply Geometric Hatch to Face
+   Workbenches: TechDraw_Workbench
+   SeeAlso: TechDraw_Hatch, TechDraw_Hatching
 ---
 
 # TechDraw GeometricHatch

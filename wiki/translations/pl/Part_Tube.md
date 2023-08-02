@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part Tube
    Name/pl: Część: Rura
-   MenuLocation: Część - Bryła pierwotna - Utwórz rurę
-   Workbenches: [Część](Part_Workbench/pl.md)
+   MenuLocation: Część -> Bryła pierwotna -> Utwórz rurę
+   Workbenches: Part_Workbench/pl
    Version: 0.19
-   SeeAlso: [Utwórz geometrie pierwotne](Part_Primitives/pl.md)
+   SeeAlso: Part_Primitives/pl
 ---
 
 # Part Tube/pl

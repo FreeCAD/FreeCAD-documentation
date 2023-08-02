@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: SheetMetal AddBase
-   MenuLocation: SheetMetal - Make Base Wall
-   Workbenches: [SheetMetal](SheetMetal_Workbench.md)
+   MenuLocation: SheetMetal -> Make Base Wall
+   Workbenches: SheetMetal_Workbench
    Shortcut: **C** **B**
 ---
 

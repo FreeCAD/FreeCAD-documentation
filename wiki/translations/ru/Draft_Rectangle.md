@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Rectangle
    Name/ru: Draft Rectangle
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    MenuLocation: Черчение -> Прямоугольник
    Shortcut: R E
-   SeeAlso: [Куб](Part_Box/ru.md)
+   SeeAlso: Part Box/ru
 ---
 
 # Draft Rectangle/ru

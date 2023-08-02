@@ -3,9 +3,9 @@
    Name: Draft SelectGroup
    Name/es: Draft SelectGroup
    MenuLocation: Draft -> Utilities -> Select group
-   Workbenches: [Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
+   Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Shortcut: 
-   SeeAlso: [Draft AddToGroup](Draft_AddToGroup/es.md), [Std CreateGroup](Std_Group/es.md)
+   SeeAlso: Draft_AddToGroup/es, Std_Group/es
 ---
 
 # Draft SelectGroup/es

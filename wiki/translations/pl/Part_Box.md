@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Box
    Name/pl: Część: Sześcian
-   MenuLocation: Część - Bryła pierwotna - Sześcian
-   Workbenches: [Część](Part_Workbench/pl.md)
-   SeeAlso: [Bryły pierwotne](Part_Primitives/pl.md)
+   MenuLocation: Część -> Bryła pierwotna -> Sześcian
+   Workbenches: Part_Workbench/pl
+   SeeAlso: Part_Primitives/pl
 ---
 
 # Part Box/pl

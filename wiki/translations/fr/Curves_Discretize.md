@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Curves Discretize
    Name/fr: Curves Discrétisation
-   MenuLocation: Curves - Discretize
-   Workbenches: [Curves](Curves_Workbench/fr.md)
+   MenuLocation: Curves -> Discretize
+   Workbenches: Curves_Workbench/fr
 ---
 
 # Curves Discretize/fr

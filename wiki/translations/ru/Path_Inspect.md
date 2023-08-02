@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path Inspect
    Name/ru: Path Inspect
-   MenuLocation: Путь - Исследовать G-code
-   Workbenches: [Path](Path_Workbench/ru.md)
+   MenuLocation: Путь -> Исследовать G-code
+   Workbenches: Path_Workbench/ru
    Shortcut: 
    SeeAlso: 
 ---

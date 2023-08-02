@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft OrthoArray
    Name/es: Borrador ArregloOrtogonal
-   MenuLocation: Modificación - Herramientas de  Arreglo - Arreglo
-   Workbenches: [Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   MenuLocation: Modificación -> Herramientas de  Arreglo -> Arreglo
+   Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Version: 0.19
-   SeeAlso: [Borrador ArregloPolar](Draft_PolarArray/es.md), [Borrador ArregloCircular](Draft_CircularArray/es.md), [Borrador ArregloRutas](Draft_PathArray/es.md), [Borrador ArregloEnlaceRuta](Draft_PathLinkArray/es.md), [Borrador ArregloPunto](Draft_PointArray/es.md), [Borrador ArregloEnlacePunto](Draft_PointLinkArray/es.md).
+   SeeAlso: Draft_PolarArray/es, Draft_CircularArray/es, Draft_PathArray/es, Draft_PathLinkArray/es, Draft_PointArray/es, Draft_PointLinkArray/es.
 ---
 
 # Draft OrthoArray/es

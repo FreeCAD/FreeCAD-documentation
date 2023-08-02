@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Drawing View
-   Workbenches: [Drawing](Drawing_Workbench.md), Complete
-   MenuLocation: Drawing - Insert view in drawing
+   Workbenches: Drawing Workbench, Complete
+   MenuLocation: Drawing -> Insert view in drawing
    Shortcut: none
-   SeeAlso: [Drawing Landscape A3](Drawing_Landscape_A3.md)
+   SeeAlso: Drawing Landscape A3
 ---
 
 # Drawing View

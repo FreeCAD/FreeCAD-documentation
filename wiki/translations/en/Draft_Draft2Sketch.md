@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Draft Draft2Sketch
-   MenuLocation: Modification - Draft to Sketch
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Modification -> Draft to Sketch
+   Workbenches: Draft_Workbench, Arch_Workbench
 ---
 
 # Draft Draft2Sketch/en

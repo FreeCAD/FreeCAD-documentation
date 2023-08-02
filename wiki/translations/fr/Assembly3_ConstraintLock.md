@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintLock
    Name/fr: Assembly3 Contrainte de verrouillage
    Icon: Assembly_ConstraintLock.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 ConstraintLock/fr

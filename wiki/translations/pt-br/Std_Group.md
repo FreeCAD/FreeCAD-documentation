@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Std Group
-   MenuLocation: [Tree view](Tree_view.md) - Right click on the document name - Create group
+   MenuLocation: Tree_view -> Right click on the document name -> Create group
    Workbenches: All
    Shortcut: 
    Version: 
-   SeeAlso: [Std Part](Std_Part.md), [Draft SelectGroup](Draft_SelectGroup.md), [Draft AddToGroup](Draft_AddToGroup.md)
+   SeeAlso: Std_Part, Draft_SelectGroup, Draft_AddToGroup
 ---
 
 # Std Group/pt-br

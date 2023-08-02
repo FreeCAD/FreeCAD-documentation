@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintSketchPlane
    Name/fr: Assembly3 Plan esquisse
    Icon: Assembly_ConstraintSketchPlane.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 ConstraintSketchPlane/fr

@@ -3,9 +3,9 @@
    Name: Draft ShapeString
    Name/es: Bosquejar forma de cadena
    MenuLocation: Borrador -> Bosquejar forma de cadena
-   Workbenches: [Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Shortcut: **S** **S**
-   SeeAlso: [Draft Text](Draft_Text/es.md), [Part Extrude](Part_Extrude/es.md)
+   SeeAlso: Draft Text/es, Part Extrude/es
 ---
 
 # Draft ShapeString/es

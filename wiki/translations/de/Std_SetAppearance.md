@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std SetAppearance
    Name/de: Std Darstellung
-   MenuLocation: Ansicht - Darstellung…
+   MenuLocation: Ansicht -> Darstellung…
    Workbenches: Alle
    Shortcut: Ctrl + D
-   SeeAlso: [Part FlächenFarben](Part_FaceColors/de.md)
+   SeeAlso: Part_FaceColors/de
 ---
 
 # Std SetAppearance/de

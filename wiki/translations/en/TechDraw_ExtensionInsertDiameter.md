@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: TechDraw ExtensionInsertDiameter
-   MenuLocation: TechDraw - Extensions: Dimensions - Insert '⌀' Prefix
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   MenuLocation: TechDraw -> Extensions: Dimensions -> Insert '⌀' Prefix
+   Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20
-   SeeAlso: [TechDraw ExtensionInsertSquare](TechDraw_ExtensionInsertSquare.md)
+   SeeAlso: TechDraw_ExtensionInsertSquare
 ---
 
 # TechDraw ExtensionInsertDiameter/en

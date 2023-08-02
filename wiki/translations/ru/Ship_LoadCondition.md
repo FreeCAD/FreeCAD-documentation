@@ -3,8 +3,8 @@
 - GuiCommand:
    Name: Ship Loading
    Name/ru: Ship Loading
-   MenuLocation: Weights - Create a new loading condition
-   Workbenches: [Ship](Ship_Workbench/ru.md)
+   MenuLocation: Weights -> Create a new loading condition
+   Workbenches: Ship Workbench/ru
    Shortcut:    SeeAlso: ---
 
 

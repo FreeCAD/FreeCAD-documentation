@@ -1,6 +1,6 @@
 # Arch Structure/cs
 ---
-- GuiCommand:   Name: Arch_Structure   Name/cs: Struktury   Workbenches: [MenuLocation: Arch - Struktura   Shortcut: S T   SeeAlso: [[Arch Wall/cs|Zed'](Arch_Workbench/cs___Arch]].md)---
+- GuiCommand:   Name: Arch_Structure   Name/cs: Struktury   Workbenches: Arch_Workbench/cs   Arch---
 
 
 </div>

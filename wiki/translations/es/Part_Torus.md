@@ -1,6 +1,6 @@
 # Part Torus/es
 ---
-- GuiCommand:   Name: Part Torus   Name/es: Part Torus   MenuLocation: Part - Torus   |Workbenches: [SeeAlso: [[Part_CreatePrimitives/es|Part CreatePrimitives](Part_Workbench/es___Part]],_Complete.md)---
+- GuiCommand:   Name: Part Torus   Name/es: Part Torus   MenuLocation: Part -> Torus   , Complete---
 
 
 </div>

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw Hatch
    Name/pl: Rysunek Techniczny: Kreskowanie powierzchni za pomocą pliku obrazu
-   MenuLocation: Rysunek Techniczny - Kreskowanie - Kreskowanie na powierzchni za pomocą pliku obrazu
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso: [Zastosuj na powierzchni kreskowanie geometryczne](TechDraw_GeometricHatch/pl.md), [Kreskowanie](TechDraw_Hatching/pl.md)
+   MenuLocation: Rysunek Techniczny -> Kreskowanie -> Kreskowanie na powierzchni za pomocą pliku obrazu
+   Workbenches: TechDraw_Workbench/pl
+   SeeAlso: TechDraw_GeometricHatch/pl, TechDraw_Hatching/pl
 ---
 
 # TechDraw Hatch/pl

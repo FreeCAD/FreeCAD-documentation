@@ -1,6 +1,6 @@
 # OpenSCAD RemoveSubtree/es
 ---
-- GuiCommand:   Name: OpenSCAD RemoveSubtree   Name/es: OpenSCAD RemoveSubtree   MenuLocation: OpenSCAD - RemoveSubtree‏‎   |Workbenches: [[OpenSCAD_Workbench/es   OpenSCAD]]|Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: OpenSCAD RemoveSubtree   Name/es: OpenSCAD RemoveSubtree   MenuLocation: OpenSCAD -> RemoveSubtree‏‎   |Shortcut:    SeeAlso: ---
 
 
 </div>

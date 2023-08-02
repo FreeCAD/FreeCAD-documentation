@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std FreeCADFAQ
    Name/ru: Std FreeCADFAQ
-   MenuLocation: {{StdMenu|[Help](Std_Help_Menu/ru.md)}} - FreeCAD FAQ
+   MenuLocation: {{StdMenu}} -> FreeCAD FAQ
    Workbenches: All
-   SeeAlso: [Online help](Std_OnlineHelp/ru.md), [User hub](Std_FreeCADUserHub/ru.md), [Help menu](Std_Help_Menu/ru.md)
+   SeeAlso: Std OnlineHelp/ru, Std_FreeCADUserHub/ru, Std_Help_Menu/ru
 ---
 
 # Std FreeCADFAQ/ru

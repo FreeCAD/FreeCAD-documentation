@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std ViewFullscreen
    Name/ru: Std ViewFullscreen
-   MenuLocation: Вид - Окно документа - На весь экран
+   MenuLocation: Вид -> Окно документа -> На весь экран
    Workbenches: All
    Shortcut: **F11**
-   SeeAlso: [Std ViewDockUndockFullscreen](Std_ViewDockUndockFullscreen/ru.md), [Std MainFullscreen](Std_MainFullscreen/ru.md)
+   SeeAlso: Std_ViewDockUndockFullscreen/ru, Std_MainFullscreen/ru
 ---
 
 # Std ViewFullscreen/ru

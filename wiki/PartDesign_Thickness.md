@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: PartDesign Thickness
-   MenuLocation: Part Design - Apply a dress-up feature - Thickness
-   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   MenuLocation: Part Design -> Apply a dress-up feature -> Thickness
+   Workbenches: PartDesign_Workbench
    Version: 0.17
-   SeeAlso: [Part Thickness](Part_Thickness.md)
+   SeeAlso: Part_Thickness
 ---
 
 # PartDesign Thickness

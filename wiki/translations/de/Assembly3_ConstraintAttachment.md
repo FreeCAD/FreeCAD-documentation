@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintAttachment
    Name/de: Assembly3 Befestigung
    Icon: Part_Attachment.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 ConstraintAttachment/de

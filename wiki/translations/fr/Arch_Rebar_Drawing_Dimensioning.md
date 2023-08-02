@@ -3,9 +3,9 @@
    Name: Arch Rebar Drawing Dimensioning
    Name/fr: Arch Rebar Dessins dimensions
    MenuLocation: 
-   Workbenches: [Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   Workbenches: Arch_Workbench/fr, BIM_Workbench/fr
    Version: 0.19
-   SeeAlso: [Reinforcement](Reinforcement_Workbench/fr.md), [Arch Nomenclature armature](Arch_Rebar_BOM/fr.md), [Reinforcement Nomenclature de façonnage des armatures](Reinforcement_Bar_Shape_Cut_List.md)
+   SeeAlso: Reinforcement_Workbench/fr, Arch_Rebar_BOM/fr, Reinforcement_Bar_Shape_Cut_List
 ---
 
 # Arch Rebar Drawing Dimensioning/fr

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft BezCurve
    Name/ro: Draft BezCurve
-   MenuLocation: Draft - BezCurve
-   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   MenuLocation: Draft -> BezCurve
+   Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
    Shortcut: B Z
 ---
 

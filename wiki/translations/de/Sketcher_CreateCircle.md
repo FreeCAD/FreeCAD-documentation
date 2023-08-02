@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher CreateCircle
    Name/de: Sketcher KreisErstellen
-   MenuLocation: Sketch - Skizzengeometrien - Kreis erstellen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Sketch -> Skizzengeometrien -> Kreis erstellen
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **C**
-   SeeAlso: [AuswahlBogenErstellen](Sketcher_CompCreateArc/de.md)
+   SeeAlso: Sketcher_CompCreateArc/de
 ---
 
 # Sketcher CreateCircle/de

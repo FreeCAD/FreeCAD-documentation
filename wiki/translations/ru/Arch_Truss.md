@@ -2,8 +2,8 @@
 - GuiCommand:
    Name/ru: Ферма
    Name: Arch_Truss
-   MenuLocation: Arch - Ферма
-   Workbenches: [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Arch -> Ферма
+   Workbenches: Arch_Workbench/ru
    Version: 0.19
 ---
 

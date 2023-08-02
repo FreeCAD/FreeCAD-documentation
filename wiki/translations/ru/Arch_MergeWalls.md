@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch MergeWalls
    Name/ru: Arch MergeWalls
-   MenuLocation: Архитектура - Утилиты - Объединить стенки
-   Workbenches: [Arch](Arch_Workbench/ru.md)
-   SeeAlso: [[Arch Wall]]
+   MenuLocation: Архитектура -> Утилиты -> Объединить стенки
+   Workbenches: Arch_Workbench/ru
+   SeeAlso: Arch Wall
 ---
 
 # Arch MergeWalls/ru

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path Job
    Name/zh: 刀路作业
-   Workbenches: [Path](Path_Workbench.md)
-   MenuLocation: Path - Job
+   Workbenches: Path Workbench
+   MenuLocation: Path -> Job
    Shortcut: **P** **F**
    SeeAlso: 
 ---

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Std_Group   Name/it: Crea Gruppo
-   MenuLocation: Vista ad albero - Cliccare col destro sul nome del documento - Crea gruppo
+   MenuLocation: Vista ad albero -> Cliccare col destro sul nome del documento -> Crea gruppo
    |Workbenches: Tutti
    Shortcut: 
    Version: 
-   SeeAlso: [Parte](Std_Part/it.md), [Seleziona gruppo](Draft_SelectGroup/it.md), [Aggiungi al gruppo](Draft_AddToGroup/it.md)
+   SeeAlso: Std_Part/it, Draft_SelectGroup/it, Draft_AddToGroup/it
 ---
 
 # Std Group/it

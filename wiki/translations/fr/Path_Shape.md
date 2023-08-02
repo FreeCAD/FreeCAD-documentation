@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path Shape
    Name/fr: Path Parcours à partir de formes
-   MenuLocation: Path - Autres commandes - À partir de la forme
-   Workbenches: [Path](Path_Workbench/fr.md)
+   MenuLocation: Path -> Autres commandes -> À partir de la forme
+   Workbenches: Path_Workbench/fr
 ---
 
 # Path Shape/fr

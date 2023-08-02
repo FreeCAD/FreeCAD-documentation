@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Curves SegmentSurface
    Name/de: Curves FlächeAufteilen
-   MenuLocation: Surfaces - Segment surface
-   Workbenches: [Curves](Curves_Workbench/de.md)
+   MenuLocation: Surfaces -> Segment surface
+   Workbenches: Curves_Workbench/de
 ---
 
 # Curves SegmentSurface/de

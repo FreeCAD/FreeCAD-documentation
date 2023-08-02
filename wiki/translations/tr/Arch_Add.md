@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch Add
    Name/tr: Mimari Ekle
-   MenuLocation: Mimari - Ekle
-   Workbenches: [Mimari](Arch_Workbench/tr.md)
-   SeeAlso: [Mimari Kaldır](Arch_Remove/tr.md)
+   MenuLocation: Mimari -> Ekle
+   Workbenches: Arch_Workbench/tr
+   SeeAlso: Arch Remove/tr
 ---
 
 # Arch Add/tr

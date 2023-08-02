@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Scale
    Name/de: Draft Skalieren
-   MenuLocation: Änderung - Skalieren
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   MenuLocation: Änderung -> Skalieren
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **S** **C**
-   SeeAlso: [Draft UnterelementHervorheben](Draft_SubelementHighlight/de.md), [Draft Klonen](Draft_Clone/de.md)
+   SeeAlso: Draft_SubelementHighlight/de, Draft_Clone/de
 ---
 
 # Draft Scale/de

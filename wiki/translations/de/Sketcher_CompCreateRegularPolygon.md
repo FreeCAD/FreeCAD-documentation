@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Sketcher CompCreateRegularPolygon
    Name/de: Sketcher AuswahlRegelmäßigesVieleckErstellen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Workbenches: Sketcher_Workbench/de
 ---
 
 # Sketcher CompCreateRegularPolygon/de

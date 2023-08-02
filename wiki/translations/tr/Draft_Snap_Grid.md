@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft Snap Grid
    Name/tr: Taslak Izgara
-   MenuLocation: Taslak - [Snapping](Draft_Snap/tr.md) - Izgara
-   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   SeeAlso: [IzgaraYakala](Draft_ToggleGrid/tr.md), [Snap](Draft_Snap/tr.md)
+   MenuLocation: Taslak -> Draft_Snap/tr -> Izgara
+   Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
+   SeeAlso: Draft ToggleGrid/tr, Draft Snap/tr
 ---
 
 # Draft Snap Grid/tr

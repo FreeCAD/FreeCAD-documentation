@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch_Reference
    Name/ru: Ссылка
-   MenuLocation: Arch - Ссылка
-   Workbenches: [Архитектурный верстак "Arch"](Arch_Workbench/ru.md)
-   SeeAlso: [Строительная деталь](Arch_BuildingPart/ru.md)
+   MenuLocation: Arch -> Ссылка
+   Workbenches: Arch_Workbench/ru
+   SeeAlso: Arch_BuildingPart/ru
 ---
 
 # Arch Reference/ru

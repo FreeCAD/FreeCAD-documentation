@@ -1,6 +1,6 @@
 # Draft ToggleConstructionMode/sv
 ---
-- GuiCommand:   Name: Draft ToggleConstructionMode   Name/sv: Draft ToggleConstructionMode   Workbenches: [Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation: Draft -> Utilities -> Toggle construction mode---
+- GuiCommand:   Name: Draft ToggleConstructionMode   Name/sv: Draft ToggleConstructionMode   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv|MenuLocation: Draft -> Utilities -> Toggle construction mode---
 
 
 </div>

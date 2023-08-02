@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Sketcher LeaveSketch
    Name/de: Sketcher Skizze verlassen
-   MenuLocation: Sketch - SkizzeVerlassen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso: [Sketcher SkizzeBearbeiten](Sketcher_EditSketch/de.md)
+   MenuLocation: Sketch -> SkizzeVerlassen
+   Workbenches: Sketcher_Workbench/de, PartDesign_Workbench/de
+   SeeAlso: Sketcher_EditSketch/de
 ---
 
 # Sketcher LeaveSketch/de

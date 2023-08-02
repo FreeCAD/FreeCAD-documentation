@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM ConstraintDisplacement
    Name/fr: FEM Contrainte de déplacement
-   MenuLocation: Modèle - Contraintes mécaniques - Contrainte de déplacement
-   Workbenches: [FEM](FEM_Workbench/fr.md)
+   MenuLocation: Modèle -> Contraintes mécaniques -> Contrainte de déplacement
+   Workbenches: FEM_Workbench/fr
    Shortcut: 
-   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
+   SeeAlso: FEM_tutorial/fr
 ---
 
 # FEM ConstraintDisplacement/fr

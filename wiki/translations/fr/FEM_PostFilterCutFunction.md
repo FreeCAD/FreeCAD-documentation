@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: FEM PostFilterCutFunction
    Name/fr: FEM Filtre de fonction de découpe
-   MenuLocation: Résultats - Filtre de fonction de découpe
-   Workbenches: [FEM](FEM_Workbench/fr.md)
-   SeeAlso: [FEM Pipeline de résultats](FEM_PostPipelineFromResult/fr.md), [FEM Fonctions de filtrage](FEM_PostCreateFunctions/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
+   MenuLocation: Résultats -> Filtre de fonction de découpe
+   Workbenches: FEM_Workbench/fr
+   SeeAlso: FEM_PostPipelineFromResult/fr, FEM_PostCreateFunctions/fr, FEM_tutorial/fr
 ---
 
 # FEM PostFilterCutFunction/fr

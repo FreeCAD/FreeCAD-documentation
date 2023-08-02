@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Drawing Landscape A3
    Name/ru: Drawing Landscape A3
-   Workbenches: [Drawing](Drawing_Workbench/ru.md), Complete
-   MenuLocation: Чертёж - Вставить новый чертёж - A3 Ландшафтная
+   Workbenches: Drawing Workbench/ru, Complete
+   MenuLocation: Чертёж -> Вставить новый чертёж -> A3 Ландшафтная
    Shortcut: none
 ---
 

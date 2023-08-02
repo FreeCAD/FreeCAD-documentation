@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Plot Axes
    Name/pl: Wykres: Konfiguruj osie
-   MenuLocation: Wykres - Konfiguruj osie
-   Workbenches: [Wykres](Plot_Workbench/pl.md)
+   MenuLocation: Wykres -> Konfiguruj osie
+   Workbenches: Plot_Workbench/pl
 ---
 
 # Plot Axes/pl

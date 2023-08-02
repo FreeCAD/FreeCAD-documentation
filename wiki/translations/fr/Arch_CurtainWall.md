@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Arch CurtainWall
    Name/fr: Arch Mur-rideau
-   MenuLocation: Arch - Mur-rideau
-   Workbenches: [Atelier Arch](Arch_Workbench/fr.md)
+   MenuLocation: Arch -> Mur-rideau
+   Workbenches: Arch_Workbench/fr
    Shortcut: **C** **W**
    Version: 0.19
-   SeeAlso: [Arch Mur](Arch_Wall/fr.md), [Arch Grille](Arch_Grid/fr.md)
+   SeeAlso: Arch_Wall/fr, Arch_Grid/fr
 ---
 
 # Arch CurtainWall/fr

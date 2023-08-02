@@ -2,8 +2,8 @@
 - GuiCommand:
    Icon: Sketcher MergeSketch.svg
    Name/es: Combinar croquis
-   Workbenches: [Sketcher](Sketcher_Workbench/es.md)
-   MenuLocation: Sketch - Combinar croquis
+   Workbenches: Sketcher Workbench/es
+   MenuLocation: Sketch -> Combinar croquis
    Version: 0.15
 ---
 

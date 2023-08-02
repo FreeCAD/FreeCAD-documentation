@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Part Import
-‏‎   MenuLocation: Part - Import CAD
-   Workbenches: [Part](Part_Workbench.md)
-   SeeAlso: [Std Import](Std_Import.md)
+‏‎   MenuLocation: Part -> Import CAD
+   Workbenches: Part Workbench
+   SeeAlso: Std_Import
 ---
 
 # Part Import/ro

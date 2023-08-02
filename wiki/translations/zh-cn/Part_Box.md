@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Part Box
-   MenuLocation: Part - Primitives - Cube
-   Workbenches: [Part](Part_Workbench.md)
-   SeeAlso: [Part Primitives](Part_Primitives.md)
+   MenuLocation: Part -> Primitives -> Cube
+   Workbenches: Part_Workbench
+   SeeAlso: Part_Primitives
 ---
 
 # Part Box/zh-cn

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name/tr: İyileştirme
-   MenuLocation: Taslak - Araçlar - İyileştirme
-   Workbenches: [Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
-   SeeAlso: [Yükselt](Draft_Upgrade/tr.md), [Düşür](Draft_Downgrade/tr.md)
+   MenuLocation: Taslak -> Araçlar -> İyileştirme
+   Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
+   SeeAlso: Draft Upgrade/tr, Draft Downgrade/tr
 ---
 
 # Draft Heal/tr

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std ViewScreenShot
    Name/de: Std AnsichtAufnehmen
-   MenuLocation: Werkzeuge - Bildinhalt speichern...
+   MenuLocation: Werkzeuge -> Bildinhalt speichern...
    Workbenches: Alle
-   SeeAlso: [Std Drucken](Std_Print/de.md), [Std PDF exportieren](Std_PrintPdf/de.md), [Makro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard.md), [Makro Screen Wiki](Macro_Screen_Wiki/de.md), [Makro Snip](Macro_Snip/de.md)
+   SeeAlso: Std_Print/de, Std_PrintPdf/de, Macro_Copy3DViewToClipboard, Macro_Screen_Wiki/de, Macro_Snip/de
 ---
 
 # Std ViewScreenShot/de

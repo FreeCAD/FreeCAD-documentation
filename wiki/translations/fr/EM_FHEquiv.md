@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: EM FHEquiv
    Name/fr: EM Equivalence FH
-   MenuLocation: EM - FHEquiv
-   Workbenches: [EM](EM_Workbench/fr.md)
+   MenuLocation: EM -> FHEquiv
+   Workbenches: EM_Workbench/fr
    Shortcut: **E** **E**
    Version: 0.17
-   SeeAlso: [EM Noeud FH](EM_FHNode/fr.md), [EM Segment FH](EM_FHSegment/fr.md), [EM Chemin Fh](EM_FHPath/fr.md), [EM Plan FH](EM_FHPlane/fr.md), [EM Port FH](EM_FHPort/fr.md)
+   SeeAlso: EM_FHNode/fr, EM_FHSegment/fr, EM_FHPath/fr, EM_FHPlane/fr, EM_FHPort/fr
 ---
 
 # EM FHEquiv/fr

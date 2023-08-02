@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign Point
    Name/ro: PartDesign Point
-   Workbenches: [PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation: Part Design - Create a datum point
+   Workbenches: PartDesign Workbench/ro
+   MenuLocation: Part Design -> Create a datum point
    Version: 0.17
-   SeeAlso: [[PartDesign Line/ro]], [[PartDesign Plane/ro]]
+   SeeAlso: PartDesign Line/ro, PartDesign Plane/ro
 ---
 
 # PartDesign Point/ro

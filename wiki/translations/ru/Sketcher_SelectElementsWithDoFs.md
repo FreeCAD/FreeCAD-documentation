@@ -2,8 +2,8 @@
 - GuiCommand:
    Name/ru: Выбрать геометрию имеющую неограниченные степени свободы
    Name: Sketcher_SelectElementsWithDoFs
-   MenuLocation: Sketch - Инструменты для эскиза - Выбрать геометрию имеющую неограниченные степени свободы
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation: Sketch -> Инструменты для эскиза -> Выбрать геометрию имеющую неограниченные степени свободы
+   Workbenches: Sketcher_Workbench/ru
    Version: 0.18
 ---
 

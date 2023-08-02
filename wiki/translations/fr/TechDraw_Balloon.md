@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: TechDraw Balloon
    Name/fr: TechDraw Infobulle
-   MenuLocation: TechDraw - Annotations - Insérer une infobulle
-   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   MenuLocation: TechDraw -> Annotations -> Insérer une infobulle
+   Workbenches: TechDraw_Workbench/fr
    Version: 0.19
-   SeeAlso: [TechDraw Annotation](TechDraw_Annotation/fr.md)
+   SeeAlso: TechDraw_Annotation/fr
 ---
 
 # TechDraw Balloon/fr

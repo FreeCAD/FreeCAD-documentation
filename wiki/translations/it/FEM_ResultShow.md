@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM ResultShow
    Name/it: Mostra i risultati
-   MenuLocation: Risultati - Mostra i risultati
-   Workbenches: [FEM](FEM_Workbench/it.md)
+   MenuLocation: Risultati -> Mostra i risultati
+   Workbenches: FEM_Workbench/it
    Shortcut: **R** **S**
-   SeeAlso: [FEM tutorial](FEM_tutorial/it.md)
+   SeeAlso: FEM_tutorial/it
 ---
 
 # FEM ResultShow/it

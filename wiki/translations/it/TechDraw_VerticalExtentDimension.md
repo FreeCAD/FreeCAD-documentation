@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw Dimension Vertical Extent
    Name/it: Estensione verticale
-   MenuLocation: TechDraw - Estensione verticale
-   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso: [Lunghezza](TechDraw_LengthDimension/it.md), [Estensione orizzontale](TechDraw_HorizontalExtentDimension/it.md)
+   MenuLocation: TechDraw -> Estensione verticale
+   Workbenches: TechDraw_Workbench/it
+   SeeAlso: TechDraw_LengthDimension/it, TechDraw_HorizontalExtentDimension/it
 ---
 
 # TechDraw VerticalExtentDimension/it

@@ -1,6 +1,6 @@
 # Draft Snap Near/ro
 ---
-- GuiCommand:   Name: Draft Snap Near   Workbenches: [Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation: Draft - [[Draft Snap   Snap]] - Near|Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: Draft Snap Near   Workbenches: Draft Workbench   Draft, Arch Workbench -> Near|Shortcut:    SeeAlso: ---
 
 
 </div>

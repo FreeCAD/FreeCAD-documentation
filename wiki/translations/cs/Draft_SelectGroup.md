@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft SelectGroup
    Name/cs: Kreslení VybratSkupinu
-   Workbenches: [Kreslení](Draft_Workbench/cs.md), [Architektura](Arch_Workbench/cs.md)
+   Workbenches: Draft_Workbench/cs, Arch_Workbench/cs
    MenuLocation: Kreslení -> Utility -> VybratSkupinu
-   Shortcut:    SeeAlso: [Draft AddToGroup](Draft_AddToGroup/cs.md), [Std CreateGroup](Std_Group/cs.md)
+   Shortcut:    SeeAlso: Draft_AddToGroup/cs, Std_Group/cs
 ---
 
 # Draft SelectGroup/cs

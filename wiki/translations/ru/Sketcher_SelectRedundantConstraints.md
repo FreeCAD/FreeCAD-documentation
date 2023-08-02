@@ -2,8 +2,8 @@
 - GuiCommand:
    Name/ru: Выделить избыточные ограничения
    Name: Sketcher_SelectRedundantConstraints
-   MenuLocation: Sketch - Инструменты для эскиза - Выделить избыточные ограничения
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation: Sketch -> Инструменты для эскиза -> Выделить избыточные ограничения
+   Workbenches: Sketcher_Workbench/ru
    Shortcut: Shift+Ctrl+R
    Version: 0.15
 ---

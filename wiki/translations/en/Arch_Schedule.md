@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Arch Schedule
-   MenuLocation: Arch - Schedule
-   Workbenches: [Arch](Arch_Workbench.md)
-   SeeAlso: [Arch Equipment](Arch_Equipment.md)
+   MenuLocation: Arch -> Schedule
+   Workbenches: Arch_Workbench
+   SeeAlso: Arch_Equipment
 ---
 
 # Arch Schedule/en

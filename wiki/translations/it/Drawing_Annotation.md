@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Drawing_Annotation
    Name/it: Annotazione
-   MenuLocation: Drawing - Annotazione
-   Workbenches: [Drawing](Drawing_Workbench/it.md)
+   MenuLocation: Drawing -> Annotazione
+   Workbenches: Drawing Workbench/it
 ---
 
 # Drawing Annotation/it

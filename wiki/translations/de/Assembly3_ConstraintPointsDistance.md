@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintPointsDistance
    Name/de: Assembly3 PunktZuPunktAbstand
    Icon: Assembly_ConstraintPointsDistance.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 ConstraintPointsDistance/de

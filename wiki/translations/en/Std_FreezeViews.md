@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Std FreezeViews
-   MenuLocation: View - Freeze display - ...
+   MenuLocation: View -> Freeze display -> ...
    Workbenches: All
-   SeeAlso: [Std StoreWorkingView](Std_StoreWorkingView.md), [Std RecallWorkingView](Std_RecallWorkingView.md), [Std ViewIvIssueCamPos](Std_ViewIvIssueCamPos.md)
+   SeeAlso: Std_StoreWorkingView, Std_RecallWorkingView, Std_ViewIvIssueCamPos
 ---
 
 # Std FreezeViews/en

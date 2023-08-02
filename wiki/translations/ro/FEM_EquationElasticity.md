@@ -1,6 +1,6 @@
 # FEM EquationElasticity/ro
 ---
-- GuiCommand:   Name: FEM EquationElasticity   MenuLocation:  Solve - Equation elasticity   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
+- GuiCommand:   Name: FEM EquationElasticity   MenuLocation:  Solve -> Equation elasticity   ---
 
 
 </div>

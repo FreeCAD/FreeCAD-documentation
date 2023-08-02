@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Plot Grid
    Name/fr: Plot Grille
-   MenuLocation: Plot - Afficher/masquer la grille‏‎
-   Workbenches: [Plot](Plot_Workbench/fr.md)
+   MenuLocation: Plot -> Afficher/masquer la grille‏‎
+   Workbenches: Plot_Workbench/fr
 ---
 
 # Plot Grid/fr

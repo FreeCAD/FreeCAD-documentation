@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: TechDraw SurfaceFinishSymbol
    Name/de: TechDraw Oberflächensymbol
-   MenuLocation: TechDraw - Symbols - Oberflächensymbol erstellen
-   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   MenuLocation: TechDraw -> Symbols -> Oberflächensymbol erstellen
+   Workbenches: TechDraw_Workbench/de
    Version: 0.21
 ---
 

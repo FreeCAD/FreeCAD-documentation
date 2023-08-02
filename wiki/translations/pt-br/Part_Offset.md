@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Part Offset
-   MenuLocation: Part - 3D Offset
-   Workbenches: [Part](Part_Workbench.md)
-   SeeAlso: [Part Thickness](Part_Thickness.md), [Part 2D Offset](Part_Offset2D.md)
+   MenuLocation: Part -> 3D Offset
+   Workbenches: Part_Workbench
+   SeeAlso: Part_Thickness, Part_Offset2D
 ---
 
 # Part Offset/pt-br

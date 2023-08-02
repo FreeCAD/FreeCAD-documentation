@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: PartDesign_WizardShaft
    Name/it: PartDesign Procedura guidata per alberi
-   MenuLocation: PartDesign - Assistente Formazione Albero...
-   Workbenches: [DisegnoPezzo](PartDesign_Workbench/it.md)
+   MenuLocation: PartDesign -> Assistente Formazione Albero...
+   Workbenches: PartDesign_Workbench/it
 ---
 
 # PartDesign WizardShaft/it

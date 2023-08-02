@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: PartDesign_Scaled
    Name/fr: PartDesign Mise à l'échelle
-   MenuLocation: Aucune (option dans Part Design - Appliquer une transformation - Transformation multiple)
-   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso: [PartDesign Transformation multiple](PartDesign_MultiTransform/fr.md)
+   MenuLocation: Aucune 
+   Workbenches: PartDesign Workbench/fr
+   SeeAlso: PartDesign_MultiTransform/fr
 ---
 
 # PartDesign Scaled/fr

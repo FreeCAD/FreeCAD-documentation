@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Std ViewIvStereoInterleavedRows
-   MenuLocation: View - Stereo - Stereo interleaved Rows
+   MenuLocation: View -> Stereo -> Stereo interleaved Rows
    Workbenches: All
-   SeeAlso: [Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen.md), [Std ViewIvStereoQuadBuff](Std_ViewIvStereoQuadBuff.md), [Std ViewIvStereoInterleavedColumns](Std_ViewIvStereoInterleavedColumns.md), [Std ViewIvStereoOff](Std_ViewIvStereoOff.md)
+   SeeAlso: Std_ViewIvStereoRedGreen, Std_ViewIvStereoQuadBuff, Std_ViewIvStereoInterleavedColumns, Std_ViewIvStereoOff
 ---
 
 # Std ViewIvStereoInterleavedRows/en

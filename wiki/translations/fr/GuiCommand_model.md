@@ -3,8 +3,8 @@
    Name: Base ExampleCommandModel
    Name/fr: Modèle GuiCommand
    Icon: 
-   MenuLocation: Menu - Sousmenu - Texte de menu pour la commande 
-   Workbenches: [Nom de l'atelier](Workbench_Name/fr.md)
+   MenuLocation: Menu -> Sousmenu -> Texte de menu pour la commande 
+   Workbenches: Workbench_Name/fr
    Shortcut: **F** **C**
    Version: 0.19
    SeeAlso: 

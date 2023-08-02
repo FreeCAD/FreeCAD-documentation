@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign AdditiveBox
    Name/es: DiseñoPiezas CuboAditivo
-   MenuLocation: DiseñoPiezas - Crear una primitiva aditiva - Cubo Aditivo
-   Workbenches: [DiseñoPiezas](PartDesign_Workbench/es.md)
+   MenuLocation: DiseñoPiezas -> Crear una primitiva aditiva -> Cubo Aditivo
+   Workbenches: PartDesign Workbench/es
    Version: 0.17
-   SeeAlso: [DiseñoPiezas Primitiva aditiva](PartDesign_CompPrimitiveAdditive/es.md)
+   SeeAlso: PartDesign_CompPrimitiveAdditive/es
 ---
 
 # PartDesign AdditiveBox/es

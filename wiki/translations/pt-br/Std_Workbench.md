@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Std Workbench
    Empty: 1
-   MenuLocation: View - Workbench
-   Workbenches: [Workbenches](Workbenches.md)
+   MenuLocation: View -> Workbench
+   Workbenches: Workbenches
 ---
 
 # Std Workbench/pt-br

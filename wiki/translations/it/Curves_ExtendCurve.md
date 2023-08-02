@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Curves ExtendCurve
-   MenuLocation: Curves - Extend Curve
-   Workbenches: [Curves](Curves_Workbench.md)
+   MenuLocation: Curves -> Extend Curve
+   Workbenches: Curves_Workbench
 ---
 
 # Curves ExtendCurve/it

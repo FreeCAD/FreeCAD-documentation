@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Arch Frame
    Name/sv: Arch Frame
-   Workbenches: [Arch](Arch_Workbench/sv.md)
-   MenuLocation: Arch - Frame
+   Workbenches: Arch_Workbench/sv
+   MenuLocation: Arch -> Frame
    Shortcut: **F** **R**
-   SeeAlso: [[Arch Wall]], [[Arch Structure]]
-   SeeAlso/sv: [[Arch Wall/sv]], [[Arch Structure/sv]]
+   SeeAlso: Arch Wall, Arch Structure
+   SeeAlso/sv: Arch Wall/sv, Arch Structure/sv
 ---
 
 # Arch Frame/sv

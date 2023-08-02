@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Субтрактивный тор
    Name: PartDesign_SubtractiveTorus
-   MenuLocation: Part Design - Создать субтрактивный примитив - Субтрактивный тор
-   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   MenuLocation: Part Design -> Создать субтрактивный примитив -> Субтрактивный тор
+   Workbenches: PartDesign_Workbench/ru
    Version: 0.17
-   SeeAlso: [Создать субтрактивный примитив](PartDesign_CompPrimitiveSubtractive/ru.md), [Аддитивный тор](PartDesign_AdditiveTorus/ru.md)
+   SeeAlso: PartDesign_CompPrimitiveSubtractive/ru, PartDesign_AdditiveTorus/ru
 ---
 
 # PartDesign SubtractiveTorus/ru

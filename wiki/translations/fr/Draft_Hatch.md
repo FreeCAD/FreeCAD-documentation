@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Hatch
    Name/fr: Draft Hachure
-   MenuLocation: Draft - Hachure
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Draft -> Hachure
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **H** **A**
    Version: 0.20
-   SeeAlso: [Draft Motif](Draft_Pattern/fr.md)
+   SeeAlso: Draft_Pattern/fr
 ---
 
 # Draft Hatch/fr

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Part BoxSelection
-   MenuLocation: Part - Box selection
-   Workbenches: [Part](Part_Workbench.md)
+   MenuLocation: Part -> Box selection
+   Workbenches: Part_Workbench
    Version: 0.18
-   SeeAlso: [Std BoxSelection](Std_BoxSelection.md), [Std BoxElementSelection](Std_BoxElementSelection.md), [Std SelectAll](Std_SelectAll.md)
+   SeeAlso: Std_BoxSelection, Std_BoxElementSelection, Std_SelectAll
 ---
 
 # Part BoxSelection/pt-br

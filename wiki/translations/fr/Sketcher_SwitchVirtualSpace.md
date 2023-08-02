@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher SwitchVirtualSpace
    Name/fr: Sketcher Basculer l'espace virtuel
-   MenuLocation: Esquisse - Espace virtuel de l'esquisse - Basculer vers/de l'espace virtuel
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   MenuLocation: Esquisse -> Espace virtuel de l'esquisse -> Basculer vers/de l'espace virtuel
+   Workbenches: Sketcher_Workbench/fr
    Version: 0.17
 ---
 

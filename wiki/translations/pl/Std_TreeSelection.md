@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std TreeSelection
    Name/pl: Std: Wybór w widoku drzewa
-   MenuLocation: Widok - Akcje widoku drzewa - Przejdź do zaznaczenia
+   MenuLocation: Widok -> Akcje widoku drzewa -> Przejdź do zaznaczenia
    Workbenches: Wszystkie
    Shortcut: **T** **G**
    Version: 0.19

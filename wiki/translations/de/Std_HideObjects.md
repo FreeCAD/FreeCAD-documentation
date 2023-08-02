@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std HideObjects
    Name/de: Std ObjekteAusblenden
-   MenuLocation: Ansicht - Sichtbarkeit - Alle Objekte ausblenden
+   MenuLocation: Ansicht -> Sichtbarkeit -> Alle Objekte ausblenden
    Workbenches: Alle
-   SeeAlso: [Std SichtbarkeitUmschalten](Std_ToggleVisibility/de.md), [Std AuswahlEinblenden](Std_ShowSelection/de.md), [Std AuswahlAusblenden](Std_HideSelection.md), [Std ObjekteUmschalten](Std_ToggleObjects/de.md), [Std ObjekteEinblenden](Std_ShowObjects/de.md)
+   SeeAlso: Std_ToggleVisibility/de, Std_ShowSelection/de, Std_HideSelection, Std_ToggleObjects/de, Std_ShowObjects/de
 ---
 
 # Std HideObjects/de

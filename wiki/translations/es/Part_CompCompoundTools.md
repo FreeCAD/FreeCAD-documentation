@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Part CompCompoundTools
    Name/es: Pieza CompHerramientasCompuesto
-   MenuLocation: Pieza - Compuesto
-   Workbenches: [Pieza](Part_Workbench/es.md)
+   MenuLocation: Pieza -> Compuesto
+   Workbenches: Part_Workbench/es
    SeeAlso: 
 ---
 

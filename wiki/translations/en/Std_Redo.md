@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Std Redo
-   MenuLocation: Edit - Redo
+   MenuLocation: Edit -> Redo
    Workbenches: All
    Shortcut: **Ctrl**+**Y**
-   SeeAlso: [Std Undo](Std_Undo.md)
+   SeeAlso: Std_Undo
 ---
 
 # Std Redo/en

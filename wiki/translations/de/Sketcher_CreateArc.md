@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher CreateArc
    Name/de: Sketcher BogenErstellen
-   MenuLocation: Sketch - Skizzengeometrien - Bogen aus Mittelpunkt erstellen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Sketch -> Skizzengeometrien -> Bogen aus Mittelpunkt erstellen
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **A**
-   SeeAlso: [Sketcher AuswahlKreisErstellen](Sketcher_CompCreateCircle/de.md)
+   SeeAlso: Sketcher_CompCreateCircle/de
 ---
 
 # Sketcher CreateArc/de

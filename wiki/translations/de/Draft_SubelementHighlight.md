@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft SubelementHighlight
    Name/de: Draft UnterelementHervorheben
-   MenuLocation: Entwurf - Änderung - Unterelement hervorheben
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   MenuLocation: Entwurf -> Änderung -> Unterelement hervorheben
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **H** **S**
    Version: 0.19
-   SeeAlso: [Draft Verschieben](Draft_Move/de.md), [Draft Drehen](Draft_Rotate/de.md), [Draft Skalieren](Draft_Scale/de.md)
+   SeeAlso: Draft_Move/de, Draft_Rotate/de, Draft_Scale/de
 ---
 
 # Draft SubelementHighlight/de

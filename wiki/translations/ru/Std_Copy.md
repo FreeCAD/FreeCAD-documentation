@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std_Copy
    Name/ru: Копировать
-   MenuLocation: Правка - Копировать
+   MenuLocation: Правка -> Копировать
    Workbenches: Все
    Shortcut: **Ctrl**+**C**
-   SeeAlso: [Вырезать](Std_Cut/ru.md), [Вставить](Std_Paste/ru.md), [Дублировать выбранное](Std_DuplicateSelection/ru.md)
+   SeeAlso: Std_Cut/ru, Std_Paste/ru, Std_DuplicateSelection/ru
 ---
 
 # Std Copy/ru

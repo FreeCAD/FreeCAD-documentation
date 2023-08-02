@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std WhatsThis
    Name/ru: Std WhatsThis
-   MenuLocation: {{StdMenu|[Справка](Std_Help_Menu/ru.md)}} - Что это?
+   MenuLocation: {{StdMenu}} -> Что это?
    Workbenches: All
    Shortcut: **Shift** + **F1**
-   SeeAlso: [Online help](Std_OnlineHelp.md), [User hub](Std_FreeCADUserHub.md), [Help menu](Std_Help_Menu.md)
+   SeeAlso: Std OnlineHelp, Std FreeCADUserHub, Std_Help_Menu
 ---
 
 # Std WhatsThis/ru

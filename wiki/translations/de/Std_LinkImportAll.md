@@ -5,7 +5,7 @@
    MenuLocation: None
    Workbenches: All
    Version: 0.19
-   SeeAlso: [Std VerknüpfungErstellen](Std_LinkMake/de.md), [Std UnterverknüpfungErstellen](Std_LinkMakeRelative/de.md), [Std VerknüpfungImportieren](Std_LinkImport/de.md)
+   SeeAlso: Std_LinkMake/de, Std_LinkMakeRelative/de, Std_LinkImport/de
 ---
 
 # Std LinkImportAll/de

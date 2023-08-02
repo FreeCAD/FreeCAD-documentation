@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintSymmetricVertical
    Name/fr: Assembly3 Contrainte symétrie verticale
    Icon: Assembly_ConstraintGeneral.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 ConstraintSymmetricVertical/fr

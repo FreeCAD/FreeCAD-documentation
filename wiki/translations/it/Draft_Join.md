@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Join
    Name/it: Unisci
-   MenuLocation: Modifiche - Unisci
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Modifiche -> Unisci
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **J** **O**
    Version: 0.18
-   SeeAlso: [Dividi](Draft_Split/it.md)
+   SeeAlso: Draft_Split/it
 ---
 
 # Draft Join/it

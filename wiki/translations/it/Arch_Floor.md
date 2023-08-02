@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch Floor
    Name/it: Piano
-   MenuLocation: Arch - Piano
-   Workbenches: [Arch](Arch_Workbench/it.md)
+   MenuLocation: Arch -> Piano
+   Workbenches: Arch_Workbench/it
    Shortcut: **L** **V**
-   SeeAlso: [Arch Edificio](Arch̞_Building/it.md), [Arch Parte di edificio](Arch_BuildingPart/it.md), [Arch Sito](Arch_Site/it.md)
+   SeeAlso: Arch̞_Building/it, Arch_BuildingPart/it, Arch_Site/it
 ---
 
 # Arch Floor/it

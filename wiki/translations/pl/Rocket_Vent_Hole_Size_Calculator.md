@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Rocket Vent Hole Size Calculator
    Icon: Rocket_Calculator.svg
-   MenuLocation: Rocket - Calculators - Vent Hole Size Calculator
-   Workbenches: [Rocket Workbench](Rocket_Workbench.md)
+   MenuLocation: Rocket -> Calculators -> Vent Hole Size Calculator
+   Workbenches: Rocket_Workbench
    Version: 0.19
 ---
 

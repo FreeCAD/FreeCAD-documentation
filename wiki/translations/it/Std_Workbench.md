@@ -3,8 +3,8 @@
    Name: Std Workbench
    Name/it: Ambiente
    Empty: 1
-   MenuLocation: View - Workbench
-   Workbenches: [Ambienti](Workbenches/it.md)
+   MenuLocation: View -> Workbench
+   Workbenches: Workbenches/it
 ---
 
 # Std Workbench/it

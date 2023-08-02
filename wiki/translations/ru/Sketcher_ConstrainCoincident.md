@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Ограничение наложения точек
    Name: Sketcher_ConstrainCoincident
-   MenuLocation: Sketch - Ограничения эскиза - Ограничение наложения точек
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation: Sketch -> Ограничения эскиза -> Ограничение наложения точек
+   Workbenches: Sketcher_Workbench/ru
    Shortcut: **C**
-   SeeAlso: [Ограничение положения](Sketcher_ConstrainLock/ru.md), [Ограничить точку на объекте](Sketcher_ConstrainPointOnObject/ru.md)
+   SeeAlso: Sketcher_ConstrainLock/ru, Sketcher_ConstrainPointOnObject/ru
 ---
 
 # Sketcher ConstrainCoincident/ru

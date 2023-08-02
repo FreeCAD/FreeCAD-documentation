@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher CreateLine
    Name/it: Linea
-   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation: Sketch - Geometrie - Linea
+   Workbenches: Sketcher Workbench/it
+   MenuLocation: Sketch -> Geometrie -> Linea
    Shortcut: L
-   SeeAlso: [Polilinea](Sketcher_CreatePolyline/it.md)
+   SeeAlso: Sketcher CreatePolyline/it
 ---
 
 # Sketcher CreateLine/it

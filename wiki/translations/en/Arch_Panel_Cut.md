@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Arch Panel Cut
-   MenuLocation: Arch - Panel tools - Panel Cut
-   Workbenches: [Arch](Arch_Workbench.md), [Path](Path_Workbench.md)
+   MenuLocation: Arch -> Panel tools -> Panel Cut
+   Workbenches: Arch_Workbench, Path_Workbench
    Shortcut: **P** **C**
    Version: 0.17
-   SeeAlso: [Arch Panel](Arch_Panel.md), [Arch Panel Sheet](Arch_Panel_Sheet.md), [Arch Nest](Arch_Nest.md)
+   SeeAlso: Arch_Panel, Arch_Panel_Sheet, Arch_Nest
 ---
 
 # Arch Panel Cut/en

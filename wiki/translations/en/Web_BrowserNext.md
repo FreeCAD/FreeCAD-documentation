@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Web BrowserNext
    MenuLocation: 
-   Workbenches: [Web](Web_Workbench.md), [Start](Start_Workbench.md)
+   Workbenches: Web_Workbench, Start_Workbench
    SeeAlso: 
 ---
 

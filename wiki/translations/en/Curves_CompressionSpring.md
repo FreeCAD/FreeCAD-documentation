@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Curves CompressionSpring
-   MenuLocation: Surfaces - Compression Spring
-   Workbenches: [Curves](Curves_Workbench.md)
+   MenuLocation: Surfaces -> Compression Spring
+   Workbenches: Curves_Workbench
 ---
 
 # Curves CompressionSpring/en

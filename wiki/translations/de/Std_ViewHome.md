@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Std ViewHome
    Name/de: Std ViewHome
-   MenuLocation: Ansicht - Standardansichten - Home
+   MenuLocation: Ansicht -> Standardansichten -> Home
    Workbenches: Alle
    Shortcut: **Pos1**
    Version: 0.19
-   SeeAlso: [Std AnsichtEinpassenAlles](Std_ViewFitAll/de.md)
+   SeeAlso: Std_ViewFitAll/de
 ---
 
 # Std ViewHome/de

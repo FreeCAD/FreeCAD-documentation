@@ -3,9 +3,9 @@
    Name: Std Export
    Name/ro: Exportul
    Workbenches: All
-   MenuLocation: [File](Std_File_Menu/ro.md) - Exportul
+   MenuLocation: Std File Menu/ro -> Exportul
    Shortcut: Ctrl + E
-   SeeAlso: [Importul](Std_Import/ro.md)
+   SeeAlso: Std_Import/ro
 ---
 
 # Std Export/ro

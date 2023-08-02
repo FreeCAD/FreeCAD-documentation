@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Snap WorkingPlane
    Name/de: Draft EinrastenAufArbeitsebene
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso: [Draft Einrasten](Draft_Snap/de.md), [Draft EinrastenSperren](Draft_Snap_Lock/de.md), [Draft EbeneAuswählen](Draft_SelectPlane/de.md)
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   SeeAlso: Draft_Snap/de, Draft_Snap_Lock/de, Draft_SelectPlane/de
 ---
 
 # Draft Snap WorkingPlane/de

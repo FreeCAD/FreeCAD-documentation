@@ -1,6 +1,6 @@
 # Sketcher CreateCircle/pt-br
 ---
-- GuiCommand:-br   Name: Sketcher CreateCircle   Name/pt-br: Sketcher Circle   Workbenches: [MenuLocation: Sketch - Sketcher geometries - Create circle   SeeAlso: [[Sketcher CompCreateArc/pt-br|Sketcher Arc](Sketcher_Workbench/pt-br___Sketcher]].md)---
+- GuiCommand:-br   Name: Sketcher CreateCircle   Name/pt-br: Sketcher Circle   Workbenches: Sketcher Workbench/pt-br   Sketcher---
 
 
 </div>

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign ShapeBinder
    Name/es: DiseñoPiezas FormaAglomerante
-   MenuLocation: DiseñoPiezas - Crear una forma aglomerante
-   Workbenches: [DiseñoPiezas](PartDesign_Workbench/es.md)
+   MenuLocation: DiseñoPiezas -> Crear una forma aglomerante
+   Workbenches: PartDesign Workbench/es
    Version: 0.17
-   SeeAlso: [DiseñoPiezas SubFormaAglomerante](PartDesign_SubShapeBinder/es.md), [DiseñoPiezas Clon](PartDesign_Clone/es.md)
+   SeeAlso: PartDesign_SubShapeBinder/es, PartDesign Clone/es
 ---
 
 # PartDesign ShapeBinder/es

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch_Rebar_Drawing_Dimensioning
    Name/it: Disegna e quota un'armatura
-   MenuLocation: Arch - Armatura
-   Workbenches: [Reinforcement](Reinforcement_Workbench/it.md), [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   SeeAlso: [Distinta dei ferri](Arch_Rebar_BOM/it.md), [Sagomatura dei ferri](Reinforcement_Bar_Shape_Cut_List/it.md)
+   MenuLocation: Arch -> Armatura
+   Workbenches: Reinforcement Workbench/it, Arch Workbench/it, BIM Workbench/it
+   SeeAlso: Arch_Rebar_BOM/it, Reinforcement_Bar_Shape_Cut_List/it
    Version: 0.19
 ---
 

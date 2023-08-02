@@ -2,7 +2,7 @@
 - GuiCommand:
    Name/ru: Assembly3 ConstraintSketchPlane
    Icon: Assembly_ConstraintSketchPlane.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/ru.md)
+   Workbenches: Assembly3_Workbench/ru
 ---
 
 # Assembly3 ConstraintSketchPlane/ru

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Draft Heal
-   MenuLocation: Utilities - Heal
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso: [Draft Upgrade](Draft_Upgrade.md), [Draft Downgrade](Draft_Downgrade.md)
+   MenuLocation: Utilities -> Heal
+   Workbenches: Draft_Workbench, Arch_Workbench
+   SeeAlso: Draft_Upgrade, Draft_Downgrade
 ---
 
 # Draft Heal/pt-br

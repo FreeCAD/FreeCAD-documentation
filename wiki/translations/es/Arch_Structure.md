@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch Structure
    Name/es: Arch Estructura
-   Workbenches: [Arquitectura](Arch_Workbench/es.md)
-   MenuLocation: Arquitectura - Estructura
+   Workbenches: Arch_Workbench/es
+   MenuLocation: Arquitectura -> Estructura
    Shortcut: **S** **T**
-   SeeAlso: [Arquitectura Muro](Arch_Wall/es.md), [Arquitectura Barra de refuerzo](Arch_Rebar/es.md)
+   SeeAlso: Arch_Wall/es, Arch_Rebar/es
 ---
 
 # Arch Structure/es

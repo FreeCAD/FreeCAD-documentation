@@ -3,8 +3,8 @@
    Name: Image Scaling
    Name/it: Scala immagine
    MenuLocation: 
-   Workbenches: [Image](Image_Workbench/it.md)
-   SeeAlso: [Apri immagine](Image_Open/it.md), [Piano immagine](Image_CreateImagePlane/it.md)
+   Workbenches: Image_Workbench/it
+   SeeAlso: Image_Open/it, Image_CreateImagePlane/it
 ---
 
 # Image Scaling/it

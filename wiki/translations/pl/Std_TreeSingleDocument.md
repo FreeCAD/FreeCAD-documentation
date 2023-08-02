@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std TreeSingleDocument
    Name/pl: Std: Jeden dokument w widoku drzewa
-   MenuLocation: Widok - Akcje widoku drzewa - Jeden dokument
+   MenuLocation: Widok -> Akcje widoku drzewa -> Jeden dokument
    Workbenches: wszystkie
    Version: 0.19
-   SeeAlso: [Wiele dokumentów](Std_TreeMultiDocument/pl.md), [Zwiń dokument](Std_TreeCollapseDocument/pl.md)
+   SeeAlso: Std_TreeMultiDocument/pl, Std_TreeCollapseDocument/pl
 ---
 
 # Std TreeSingleDocument/pl

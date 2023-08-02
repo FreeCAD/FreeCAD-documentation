@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher External
    Name/de: Sketcher ExterneGeometrie
-   MenuLocation: Skizze - Skizzengeometrien - Externe Geometrie
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Skizze -> Skizzengeometrien -> Externe Geometrie
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **X**
-   SeeAlso: [Sketcher UmschalterKonstruktion](Sketcher_ToggleConstruction/de.md)
+   SeeAlso: Sketcher_ToggleConstruction/de
 ---
 
 # Sketcher External/de

@@ -3,8 +3,8 @@
    Name: Assembly3 AxialMove
    Name/fr: Assembly3 Déplacement axial
    Icon: Assembly_AxialMove.svg
-   MenuLocation: Assembly3 - Axial move part
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   MenuLocation: Assembly3 -> Axial move part
+   Workbenches: Assembly3_Workbench/fr
    Shortcut: **A** puis **A**
 ---
 

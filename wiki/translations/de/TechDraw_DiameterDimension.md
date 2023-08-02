@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw Dimension Diameter
    Name/de: TechDraw MaßDurchmesser
-   MenuLocation: TechDraw - Bemaßungen - Durchmessermaß einfügen
-   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso: [TechDraw Radienmaß einfügen](TechDraw_RadiusDimension/de.md)
+   MenuLocation: TechDraw -> Bemaßungen -> Durchmessermaß einfügen
+   Workbenches: TechDraw_Workbench/de
+   SeeAlso: TechDraw_RadiusDimension/de
 ---
 
 # TechDraw DiameterDimension/de

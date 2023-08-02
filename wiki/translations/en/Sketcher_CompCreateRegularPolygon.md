@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name: Sketcher CompCreateRegularPolygon
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Workbenches: Sketcher_Workbench
 ---
 
 # Sketcher CompCreateRegularPolygon/en

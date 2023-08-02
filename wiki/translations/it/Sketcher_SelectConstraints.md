@@ -1,6 +1,6 @@
 # Sketcher SelectConstraints/it
 ---
-- GuiCommand:   Name: Sketcher SelectConstraints   Name/it: Seleziona Vincoli   Workbenches: [[Sketcher Workbench/it   Sketcher]]|MenuLocation: Sketch - Strumenti - Seleziona i vincoli   Shortcut: **Maiusc**+**Ctrl**+**C**   Version: 0.15---
+- GuiCommand:   Name: Sketcher SelectConstraints   Name/it: Seleziona Vincoli   Workbenches: Sketcher Workbench/it   Sketcher|MenuLocation: Sketch -> Strumenti -> Seleziona i vincoli   Shortcut: **Maiusc**+**Ctrl**+**C**   Version: 0.15---
 
 
 </div>

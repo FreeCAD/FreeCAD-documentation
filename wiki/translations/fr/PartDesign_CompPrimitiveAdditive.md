@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign CompPrimitiveAdditive
    Name/fr: PartDesign Primitives additives
-   MenuLocation: Part Design - Créer une primitive additive
-   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   MenuLocation: Part Design -> Créer une primitive additive
+   Workbenches: PartDesign_Workbench/fr
    Version: 0.17
-   SeeAlso: [PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md)
+   SeeAlso: PartDesign_CompPrimitiveSubtractive/fr
 ---
 
 # PartDesign CompPrimitiveAdditive/fr

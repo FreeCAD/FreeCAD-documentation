@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std ToggleSelectability
    Name/it: Std ToggleSelectability
-   MenuLocation: Visualizza - Visibilita - Commuta la selezionabilità
+   MenuLocation: Visualizza -> Visibilita -> Commuta la selezionabilità
    Workbenches: All
 ---
 

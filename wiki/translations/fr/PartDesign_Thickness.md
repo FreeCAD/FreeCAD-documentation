@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign Thickness
    Name/fr: PartDesign Coque
-   MenuLocation: Part Design - Appliquer une fonction d'habillage - Coque
-   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   MenuLocation: Part Design -> Appliquer une fonction d'habillage -> Coque
+   Workbenches: PartDesign_Workbench/fr
    Version: 0.17
-   SeeAlso: [Part Évidement](Part_Thickness/fr.md)
+   SeeAlso: Part_Thickness/fr
 ---
 
 # PartDesign Thickness/fr

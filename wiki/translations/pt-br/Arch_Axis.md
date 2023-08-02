@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Arch Axis
-   MenuLocation: Arch - Axis tools - Axis
-   Workbenches: [Arch](Arch_Workbench.md)
+   MenuLocation: Arch -> Axis tools -> Axis
+   Workbenches: Arch_Workbench
    Shortcut: **A** **X**
-   SeeAlso: [Arch AxisSystem](Arch_AxisSystem.md), [Arch Grid](Arch_Grid.md)
+   SeeAlso: Arch_AxisSystem, Arch_Grid
 ---
 
 # Arch Axis/pt-br

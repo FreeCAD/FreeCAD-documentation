@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: TechDraw SectionView
-   MenuLocation: TechDraw - TechDraw Views - Insert Section View
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
-   SeeAlso: [TechDraw ComplexSection](TechDraw_ComplexSection.md), [TechDraw View](TechDraw_View.md), [TechDraw Projection Group](TechDraw_ProjectionGroup.md)
+   MenuLocation: TechDraw -> TechDraw Views -> Insert Section View
+   Workbenches: TechDraw_Workbench
+   SeeAlso: TechDraw_ComplexSection, TechDraw_View, TechDraw_ProjectionGroup
 ---
 
 # TechDraw SectionView

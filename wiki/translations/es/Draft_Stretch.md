@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft Stretch
    Name/es: Draft Stretch
-   MenuLocation: Draft - Stretch
-   Workbenches: [Draft](Draft_Workbench/es.md), [Arch](Arch_Workbench/es.md)
-   SeeAlso: [[Draft Offset]]
+   MenuLocation: Draft -> Stretch
+   Workbenches: Draft_Workbench/es, Arch_Workbench/es
+   SeeAlso: Draft Offset
 ---
 
 # Draft Stretch/es

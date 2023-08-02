@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ExtensionDrawCosmArc
    Name/de: TechDraw ErgänzungHilfsbogenZeichnen
-   MenuLocation: TechDraw - Ergänzungen: Mittellinien/Gewinde - Hilfsbogen hinzufügen
-   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   MenuLocation: TechDraw -> Ergänzungen: Mittellinien/Gewinde -> Hilfsbogen hinzufügen
+   Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20
-   SeeAlso: [TechDraw ErgänzungHilfskreisZeichnen](TechDraw_ExtensionDrawCosmCircle/de.md)
+   SeeAlso: TechDraw_ExtensionDrawCosmCircle/de
 ---
 
 # TechDraw ExtensionDrawCosmArc/de

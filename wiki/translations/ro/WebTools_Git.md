@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: WebTools Git‏‎
-   Workbenches: [Arch](Arch_Workbench/ro.md)
-   MenuLocation: Arch - Utilities - Git
+   Workbenches: Arch_Workbench/ro
+   MenuLocation: Arch -> Utilities -> Git
    Shortcut: 
    SeeAlso: 
 ---

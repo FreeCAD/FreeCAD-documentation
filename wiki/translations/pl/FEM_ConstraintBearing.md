@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: FEM ConstraintBearing
-   MenuLocation: Model - Constraints without solver - Constraint bearing
-   Workbenches: [FEM](FEM_Workbench.md)
-   SeeAlso: [FEM Constraint gear](FEM_ConstraintGear.md), [FEM Constraint pulley](FEM_ConstraintPulley.md)
+   MenuLocation: Model -> Constraints without solver -> Constraint bearing
+   Workbenches: FEM_Workbench
+   SeeAlso: FEM_ConstraintGear, FEM_ConstraintPulley
 ---
 
 # FEM ConstraintBearing/pl

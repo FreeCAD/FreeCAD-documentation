@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Circle
    Name/pl: Draft: Okrąg
-   MenuLocation: Drafting - Okrąg
-   Workbenches: [Rysunek roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   MenuLocation: Drafting -> Okrąg
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **C** **I**
    Version: 0.7
-   SeeAlso: [Łuk](Draft_Arc/pl.md), [Łuk przez 3 punkty](Draft_Arc_3Points/pl.md)
+   SeeAlso: Draft_Arc/pl, Draft_Arc_3Points/pl
 
 ---
 

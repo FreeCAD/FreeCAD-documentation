@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft_PointArray
    Name/it: Serie su punti
-   MenuLocation: Modifiche - Strumenti serie -  Serie su punti
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Modifiche -> Strumenti serie ->  Serie su punti
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Version: 0.18
-   SeeAlso: [Serie ortogonale](Draft_OrthoArray/it.md), [Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie su tracciato](Draft_PathArray/it.md), [Serie di link su tracciato](Draft_PathLinkArray/it.md), [Serie di link su punti](Draft_PointLinkArray/it.md)
+   SeeAlso: Draft_OrthoArray/it, Draft_PolarArray/it, Draft_CircularArray/it, Draft_PathArray/it, Draft_PathLinkArray/it, Draft_PointLinkArray/it
 ---
 
 # Draft PointArray/it

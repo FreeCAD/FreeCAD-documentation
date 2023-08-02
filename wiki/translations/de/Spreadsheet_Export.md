@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Spreadsheet Export
    Name/de: Kalkulationstabelle Exportieren
-   MenuLocation: Kalkulationstabelle - Exportiere Kalkulationstabelle
-   Workbenches: [Arbeitsbereich Tabellenkalkulation](Spreadsheet_Workbench/de.md)
+   MenuLocation: Kalkulationstabelle -> Exportiere Kalkulationstabelle
+   Workbenches: Spreadsheet_Workbench/de
    Version: 0.17
-   SeeAlso: [Kalkulationstabelle Importieren](Spreadsheet_Import/de.md)
+   SeeAlso: Spreadsheet_Import/de
 ---
 
 # Spreadsheet Export/de

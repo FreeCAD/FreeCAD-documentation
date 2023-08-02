@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part RefineShape
    Name/fr: Part Affiner la forme
-   MenuLocation: Part - Créer une copie - Affiner la forme
-   Workbenches: [Part](Part_Workbench/fr.md)
-   SeeAlso: [Part Copie simple](Part_SimpleCopy/fr.md), [Part Copie transformée](Part_TransformedCopy/fr.md), [Part Copie d'un élément](Part_ElementCopy/fr.md), [OpenSCAD Affinage de la forme](OpenSCAD_RefineShapeFeature/fr.md)
+   MenuLocation: Part -> Créer une copie -> Affiner la forme
+   Workbenches: Part_Workbench/fr
+   SeeAlso: Part_SimpleCopy/fr, Part_TransformedCopy/fr, Part_ElementCopy/fr, OpenSCAD_RefineShapeFeature/fr
 ---
 
 # Part RefineShape/fr

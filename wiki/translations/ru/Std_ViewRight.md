@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Справа
    Name: Std_ViewRight
-   MenuLocation: Вид - Стандартные виды‏‎ - Справа
+   MenuLocation: Вид -> Стандартные виды‏‎ -> Справа
    Workbenches: Все
    Shortcut: **3**
-   SeeAlso: [Спереди](Std_ViewFront/ru.md), [Сверху](Std_ViewTop/ru.md)
+   SeeAlso: Std_ViewFront/ru, Std_ViewTop/ru
 ---
 
 # Std ViewRight/ru

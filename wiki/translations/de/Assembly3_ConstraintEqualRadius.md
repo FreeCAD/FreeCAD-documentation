@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintEqualRadius
    Name/de: Assembly3 GleicherRadius
    Icon: Assembly_ConstraintEqualRadius.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 ConstraintEqualRadius/de

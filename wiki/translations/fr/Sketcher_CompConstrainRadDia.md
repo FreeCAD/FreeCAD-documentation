@@ -3,7 +3,7 @@
    Name: Sketcher constrain radius or diameter
    Name/fr: Sketcher Contrainte rayon ou diamètre
    MenuLocation: 
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Workbenches: Sketcher_Workbench/fr
 ---
 
 # Sketcher CompConstrainRadDia/fr

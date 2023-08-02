@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Создать тело
    Name: PartDesign_Body
-   MenuLocation: Part Design - Создать тело
-   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   MenuLocation: Part Design -> Создать тело
+   Workbenches: PartDesign_Workbench/ru
    Version: 0.17
-   SeeAlso: [Создать деталь](Std_Part/ru.md), [Особенности редактирования](Feature_editing/ru.md)
+   SeeAlso: Std_Part/ru, Feature_editing/ru
 ---
 
 # PartDesign Body/ru

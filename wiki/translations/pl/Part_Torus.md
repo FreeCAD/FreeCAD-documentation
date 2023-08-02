@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Torus
    Name/pl: Część: Torus
-   MenuLocation: Część  - Bryła pierwotna - Torus
-   Workbenches: [Część](Part_Workbench/pl.md)
-   SeeAlso: [Bryły pierwotne](Part_Primitives/pl.md)
+   MenuLocation: Część  -> Bryła pierwotna -> Torus
+   Workbenches: Part_Workbench/pl
+   SeeAlso: Part_Primitives/pl
 ---
 
 # Part Torus/pl

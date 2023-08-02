@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft FlipDimension
    Name/ru: Draft FlipDimension
-   MenuLocation: Черчение - Утилиты - Перевернуть размер
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   SeeAlso: [Размер](Draft_Dimension/ru.md)
+   MenuLocation: Черчение -> Утилиты -> Перевернуть размер
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
+   SeeAlso: Draft Dimension/ru
 ---
 
 # Draft FlipDimension/ru

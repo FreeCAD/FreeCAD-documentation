@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Sketcher Reorient
    Empty: 1
-   Workbenches: [Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
-   MenuLocation: Part design - Reorient sketch
-   SeeAlso: [Map sketch](Sketcher_MapSketch.md), [New Sketch](Sketcher_NewSketch.md)
+   Workbenches: Sketcher Workbench, PartDesign Workbench
+   MenuLocation: Part design -> Reorient sketch
+   SeeAlso: Sketcher_MapSketch, Sketcher_NewSketch
 ---
 
 # Sketcher ReorientSketch/ro

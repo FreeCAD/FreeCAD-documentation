@@ -5,7 +5,7 @@
    MenuLocation: Нет
    Workbenches: Все
    Version: 0.19
-   SeeAlso: [Создать ссылку](Std_LinkMake/ru.md), [Ссылка](Std_LinkMakeRelative/ru.md), [Заменить ссылкой](Std_LinkReplace/ru.md)
+   SeeAlso: Std_LinkMake/ru, Std_LinkMakeRelative/ru, Std_LinkReplace/ru
 ---
 
 # Std LinkUnlink/ru

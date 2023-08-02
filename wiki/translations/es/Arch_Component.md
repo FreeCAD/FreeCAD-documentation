@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Arch Component
 ‏‎‏‎   Name/es: Arch Componente
-‏‎‏‎   MenuLocation: Arch - Utilities - Component
-   Workbenches: [Arch](Arch_Workbench/es.md)
+‏‎‏‎   MenuLocation: Arch -> Utilities -> Component
+   Workbenches: Arch_Workbench/es
    Shortcut: **C** **M**
    SeeAlso: 
 ---

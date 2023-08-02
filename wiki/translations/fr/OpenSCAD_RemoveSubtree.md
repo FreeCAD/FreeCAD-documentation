@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: OpenSCAD RemoveSubtree
    Name/fr: OpenSCAD Suppression de l'arborescence
-   MenuLocation: OpenSCAD - Supprimer les objets et leurs enfants
-   Workbenches: [OpenSCAD](OpenSCAD_Workbench/fr.md)
+   MenuLocation: OpenSCAD -> Supprimer les objets et leurs enfants
+   Workbenches: OpenSCAD_Workbench/fr
 ---
 
 # OpenSCAD RemoveSubtree/fr

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher JoinCurves
    Name/de: Sketcher KurvenVerbinden
-   MenuLocation: Skizze - B-Spline-Werkzeuge - Kurven verbinden
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Skizze -> B-Spline-Werkzeuge -> Kurven verbinden
+   Workbenches: Sketcher_Workbench/de
    Version: 0.21
    SeeAlso: 
 ---

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch CutPlane
    Name/es: Arch CutPlane
-   MenuLocation: Arch - Cut Plane
-   Workbenches: [Arch](Arch_Workbench/es.md)
-   SeeAlso: [Arch Remove](Arch_Remove/es.md)
+   MenuLocation: Arch -> Cut Plane
+   Workbenches: Arch_Workbench/es
+   SeeAlso: Arch Remove/es
 ---
 
 # Arch CutPlane/es

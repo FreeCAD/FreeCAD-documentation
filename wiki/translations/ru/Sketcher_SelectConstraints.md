@@ -2,8 +2,8 @@
 - GuiCommand:
    Name/ru: Выделить связанные ограничения
    Name: Sketcher_SelectConstraints
-   MenuLocation: Sketch - Инструменты для эскиза - Выделить связанные ограничения
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation: Sketch -> Инструменты для эскиза -> Выделить связанные ограничения
+   Workbenches: Sketcher_Workbench/ru
    Shortcut: **Shift**+**Ctrl**+**C**
    Version: 0.15
 ---

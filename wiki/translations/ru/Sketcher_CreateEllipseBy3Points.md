@@ -2,11 +2,11 @@
 - GuiCommand:
    Name/ru: Создать эллипс по трём точкам
    Name: Sketcher_CreateEllipseBy3Points
-   MenuLocation: Sketch - Геометрия эскиза - Создать эллипс по трём точкам
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation: Sketch -> Геометрия эскиза -> Создать эллипс по трём точкам
+   Workbenches: Sketcher_Workbench/ru
    Shortcut: **G** **3** **E**
    Version: 0.15
-   SeeAlso: [Создать эллипс от центра](Sketcher_CreateEllipseByCenter/ru.md), [Создать окружность](Sketcher_CreateCircle/ru.md), [Создать дугу эллипса](Sketcher_CreateArcOfEllipse/ru.md)
+   SeeAlso: Sketcher_CreateEllipseByCenter/ru, Sketcher_CreateCircle/ru, Sketcher_CreateArcOfEllipse/ru
 ---
 
 # Sketcher CreateEllipseBy3Points/ru

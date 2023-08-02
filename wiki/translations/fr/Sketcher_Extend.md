@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher Extend
    Name/fr: Sketcher Prolonger
-   MenuLocation: Esquisse - Géométries d'esquisse - Prolonger l'arête
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   MenuLocation: Esquisse -> Géométries d'esquisse -> Prolonger l'arête
+   Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **Q**
    Version: 0.17
-   SeeAlso: [Sketcher Ajuster](Sketcher_Trimming/fr.md)
+   SeeAlso: Sketcher_Trimming/fr
 ---
 
 # Sketcher Extend/fr

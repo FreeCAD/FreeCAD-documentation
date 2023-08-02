@@ -2,11 +2,11 @@
 - GuiCommand:
    Name/ru: Переместить
    Name: Sketcher_Move
-   MenuLocation: Sketch - Инструменты для эскиза - Переместить
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation: Sketch -> Инструменты для эскиза -> Переместить
+   Workbenches: Sketcher_Workbench/ru
    Shortcut: **Ctrl** + **M**
    Version: 0.18
-   SeeAlso: [Клонировать](Sketcher_Clone/ru.md), [Копировать](Sketcher_Copy/ru.md)
+   SeeAlso: Sketcher_Clone/ru, Sketcher_Copy/ru
 ---
 
 # Sketcher Move/ru

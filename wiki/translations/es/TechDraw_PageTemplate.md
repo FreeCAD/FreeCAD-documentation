@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: TechDraw PageTemplate
-   MenuLocation: TechDraw - Page - Insert Page using Template
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
-   SeeAlso: [TechDraw PageDefault](TechDraw_PageDefault.md), [TechDraw Templates](TechDraw_Templates.md)
+   MenuLocation: TechDraw -> Page -> Insert Page using Template
+   Workbenches: TechDraw_Workbench
+   SeeAlso: TechDraw_PageDefault, TechDraw_Templates
 ---
 
 # TechDraw PageTemplate/es

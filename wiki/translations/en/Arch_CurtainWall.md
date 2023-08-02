@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Arch CurtainWall
-   MenuLocation: Arch - Curtain Wall
-   Workbenches: [Arch](Arch_Workbench.md)
+   MenuLocation: Arch -> Curtain Wall
+   Workbenches: Arch_Workbench
    Shortcut: **C** **W**
    Version: 0.19
-   SeeAlso: [Arch Wall](Arch_Wall.md), [Arch Grid](Arch_Grid.md)
+   SeeAlso: Arch_Wall, Arch_Grid
 ---
 
 # Arch CurtainWall/en

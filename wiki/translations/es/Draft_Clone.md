@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Clone
    Name/es: Borrador Clon
-   MenuLocation: Modificación - Clon
-   Workbenches: [Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   MenuLocation: Modificación -> Clon
+   Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Shortcut: **C** **L**
-   SeeAlso: [Borrador Escalar](Draft_Scale/es.md)
+   SeeAlso: Draft_Scale/es
 ---
 
 # Draft Clone/es

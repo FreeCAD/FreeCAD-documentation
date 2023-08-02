@@ -3,10 +3,10 @@
    Name: FEM EquationFlow
    Name/ru: FEM EquationFlow
    Icon: Fem-equation-flow.svg
-   MenuLocation:  Solve - Equation flow
-   Workbenches: [FEM](FEM_Workbench/ru.md)
+   MenuLocation:  Solve -> Equation flow
+   Workbenches: FEM_Workbench/ru
    Shortcut: 
-   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
+   SeeAlso: FEM_tutorial/ru
 ---
 
 # FEM EquationFlow/ru

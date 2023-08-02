@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/ru: Вставить растровое изображение
    Name: TechDraw_Image
-   MenuLocation: TechDraw - Вставить растровое изображение
-   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso: [Вставить SVG знак](TechDraw_Symbol/ru.md)
+   MenuLocation: TechDraw -> Вставить растровое изображение
+   Workbenches: TechDraw_Workbench/ru
+   SeeAlso: TechDraw_Symbol/ru
 ---
 
 # TechDraw Image/ru

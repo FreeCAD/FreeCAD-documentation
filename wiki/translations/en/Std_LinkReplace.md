@@ -4,7 +4,7 @@
    MenuLocation: None
    Workbenches: All
    Version: 0.19
-   SeeAlso: [Std LinkMake](Std_LinkMake.md), [Std LinkMakeRelative](Std_LinkMakeRelative.md), [Std LinkUnlink](Std_LinkUnlink.md)
+   SeeAlso: Std_LinkMake, Std_LinkMakeRelative, Std_LinkUnlink
 ---
 
 # Std LinkReplace/en

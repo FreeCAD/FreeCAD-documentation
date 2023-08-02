@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Edit
    Name/es: Borrador Edición
-   MenuLocation: Modificación - Editar<br>Utilidades - Editar
-   Workbenches: [Borrador](Draft_Workbench/es.md), [Arquirectura](Arch_Workbench/es.md)
+   MenuLocation: Modificación -> Editar<br>Utilidades -> Editar
+   Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Shortcut: **D** **E**
-   SeeAlso: [Std Edición](Std_Edit/es.md)
+   SeeAlso: Std_Edit/es
 ---
 
 # Draft Edit/es

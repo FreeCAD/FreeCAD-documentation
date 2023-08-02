@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Cisim Oluştur
    Icon: PartDesign_Body_Create_New.svg
-   Workbenches: [Parça tasarım](PartDesign_Workbench/tr.md)
-   MenuLocation: Parça tasarım - Cisim Oluştur
+   Workbenches: PartDesign Workbench/tr
+   MenuLocation: Parça tasarım -> Cisim Oluştur
    Version/tr: 0.17
-   SeeAlso: [Parça Oluştur](Std_Part/tr.md)
+   SeeAlso: Std Part/tr
 ---
 
 # PartDesign Body/tr

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Arch CompRebarStraight
-   MenuLocation: Arch - Rebar tools
-   Workbenches: [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   MenuLocation: Arch -> Rebar tools
+   Workbenches: Arch_Workbench, BIM_Workbench
    Version: 0.17
 ---
 

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: FEM CompEmEquations
    MenuLocation: 
-   Workbenches: [FEM](FEM_Workbench.md)
+   Workbenches: FEM_Workbench
    Version: 0.21
    SeeAlso: 
 ---

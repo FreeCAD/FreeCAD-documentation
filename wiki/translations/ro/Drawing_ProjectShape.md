@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Drawing ProjectShape
    Empty: 1
-   Workbenches: [Drawing](Drawing_Workbench.md)
-   MenuLocation: Drawing - Project shape
+   Workbenches: Drawing Workbench
+   MenuLocation: Drawing -> Project shape
 ---
 
 # Drawing ProjectShape/ro

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path Probe
    Name/fr: Path Sonde
-   MenuLocation: Path - Autres commandes - Sonde
-   Workbenches: [Path](Path_Workbench/fr.md)
+   MenuLocation: Path -> Autres commandes -> Sonde
+   Workbenches: Path_Workbench/fr
 ---
 
 # Path Probe/fr

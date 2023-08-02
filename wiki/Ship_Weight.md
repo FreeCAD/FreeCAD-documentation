@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Ship Weight
-   MenuLocation: Weights - Create a new ship weight
-   Workbenches: [Ship](Ship_Workbench.md)
+   MenuLocation: Weights -> Create a new ship weight
+   Workbenches: Ship_Workbench
    Shortcut: 
    SeeAlso: 
 ---

@@ -3,8 +3,8 @@
    Name: Assembly3 MovePart
    Name/fr: Assembly3 Déplacer une pièce
    Icon: Assembly_Move.svg
-   MenuLocation: Assembly3 - Move part
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   MenuLocation: Assembly3 -> Move part
+   Workbenches: Assembly3_Workbench/fr
    Shortcut: **A** puis **M**
 ---
 

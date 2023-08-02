@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher ViewSketch
    Name/de:  Sketcher SkizzeAnzeigen
-   MenuLocation:  Sketch - Skizze anzeigen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
+   MenuLocation:  Sketch -> Skizze anzeigen
+   Workbenches: Sketcher_Workbench/de, PartDesign_Workbench/de
    Shortcut: **Q** **P**
 ---
 

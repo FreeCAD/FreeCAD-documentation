@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch_Rebar_ColumnReinforcement
    Name/it: Armatura di pilastro
-   MenuLocation: Arch - Strumenti armatura - Armatura di colonna o BIM - 3D/BIM - Reinforcement - Column Reinforcement
-   Workbenches: [Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   SeeAlso: [Armatura elicoidale](Arch_Rebar_Helical/it.md), [Armatura di pilastro con due staffe e sei barre](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/it.md)
+   MenuLocation: Arch -> Strumenti armatura -> Armatura di colonna o BIM -> 3D/BIM -> Reinforcement -> Column Reinforcement
+   Workbenches: Arch Workbench/it, BIM Workbench/it
+   SeeAlso: Arch_Rebar_Helical/it, Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/it
    Version: 0.19
 ---
 

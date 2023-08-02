@@ -4,8 +4,8 @@
    Name/it: Apri immagine
    Icon: Image Open.svg
    MenuLocation: None
-   Workbenches: [Image](Image_Workbench/it.md)
-   SeeAlso: [Piano immagine](Image_CreateImagePlane/it.md), [Scala immagine](Image_Scaling/it.md)
+   Workbenches: Image Workbench/it
+   SeeAlso: Image CreateImagePlane/it, Image Scaling/it
 ---
 
 # Image Open/it

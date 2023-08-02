@@ -1,9 +1,9 @@
 ---
 - GuiCommand:-cn
    Name: Arch Add   Name/zh-cn: 建筑添加工具
-   MenuLocation: Arch - Add
-   Workbenches: [Arch](Arch_Workbench.md)
-   SeeAlso: [Arch Remove](Arch_Remove.md)
+   MenuLocation: Arch -> Add
+   Workbenches: Arch_Workbench
+   SeeAlso: Arch Remove
 ---
 
 # Arch Add/zh-cn

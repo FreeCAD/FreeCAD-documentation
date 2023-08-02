@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: EM FHSolver
-   MenuLocation: EM - FHSolver
-   Workbenches: [EM](EM_Workbench.md)
+   MenuLocation: EM -> FHSolver
+   Workbenches: EM_Workbench
    Shortcut: **E** **X**
    Version: 0.17
-   SeeAlso: [EM FHInputFile](EM_FHInputFile.md), [EM FHNode](EM_FHNode.md), [EM FHSegment](EM_FHSegment.md), [EM FHPath](EM_FHPath.md), [EM FHPlane](EM_FHPlane.md), [EM FHEquiv](EM_FHEquiv.md), [EM FHPort](EM_FHPort.md)
+   SeeAlso: EM FHInputFile, EM FHNode, EM FHSegment, EM FHPath, EM FHPlane, EM FHEquiv, EM FHPort
 ---
 
 # EM FHSolver/pl

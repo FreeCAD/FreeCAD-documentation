@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: FEM ConstraintTransform
    Name/fr: FEM Contrainte de transformation
-   MenuLocation: Modèle - Contraintes géométriques - Contrainte de transformation
-   Workbenches: [FEM](FEM_Workbench/fr.md)
-   SeeAlso: [FEM Contrainte de rotation plane](FEM_ConstraintPlaneRotation/fr.md)
+   MenuLocation: Modèle -> Contraintes géométriques -> Contrainte de transformation
+   Workbenches: FEM_Workbench/fr
+   SeeAlso: FEM_ConstraintPlaneRotation/fr
 ---
 
 # FEM ConstraintTransform/fr

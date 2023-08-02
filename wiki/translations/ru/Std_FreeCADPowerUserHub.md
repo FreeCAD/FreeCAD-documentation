@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/ru: Документация по созданию скриптов на Python
    Name: Std_FreeCADPowerUserHub
-   MenuLocation: Помощь - Документация по созданию скриптов на Python
+   MenuLocation: Помощь -> Документация по созданию скриптов на Python
    Workbenches: Все
-   SeeAlso: [Сайт FreeCAD](Std_FreeCADWebsite/ru.md), [Пользовательская документация](Std_FreeCADUserHub/ru.md), [Форум FreeCAD](Std_FreeCADForum/ru.md), [FreeCAD Часто Задаваемые  Вопросы](Std_FreeCADFAQ/ru.md)
+   SeeAlso: Std_FreeCADWebsite/ru, Std_FreeCADUserHub/ru, Std_FreeCADForum/ru, Std_FreeCADFAQ/ru
 ---
 
 # Std FreeCADPowerUserHub/ru

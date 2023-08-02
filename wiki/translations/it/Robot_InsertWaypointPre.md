@@ -1,6 +1,6 @@
 # Robot InsertWaypointPre/it
 ---
-- GuiCommand:   Name: Robot InsertWaypoint   Name/it: Inserisci un punto preselezionato nella traiettoria   Workbenches: [[Robot_Workbench/it   Robot]]|MenuLocation: Robot - Inserisci un punto nella traiettoria   Shortcut: W   SeeAlso: ---
+- GuiCommand:   Name: Robot InsertWaypoint   Name/it: Inserisci un punto preselezionato nella traiettoria   Workbenches: Robot_Workbench/it   Robot|MenuLocation: Robot -> Inserisci un punto nella traiettoria   Shortcut: W   SeeAlso: ---
 
 
 </div>

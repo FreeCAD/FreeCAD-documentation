@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Spreadsheet SetAlias
    MenuLocation: -
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench.md)
+   Workbenches: Spreadsheet_Workbench
    Version: 0.17
 ---
 

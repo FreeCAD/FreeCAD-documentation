@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch Nest
    Name/de: Arch Verschachteln
-   MenuLocation: Arch - Tafelwerkzeuge - Verschachteln
-   Workbenches: [Arch](Arch_Workbench/de.md)
-   SeeAlso: [Arch Tafel](Arch_Panel/de.md), [Arch Tafelplatte](Arch_Panel_Sheet/de.md)
+   MenuLocation: Arch -> Tafelwerkzeuge -> Verschachteln
+   Workbenches: Arch_Workbench/de
+   SeeAlso: Arch_Panel/de, Arch_Panel_Sheet/de
 ---
 
 # Arch Nest/de

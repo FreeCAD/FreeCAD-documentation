@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintPointsProjectDistance
    Name/de: Assembly3 ProjizierterPunktabstand
    Icon: Assembly_ConstraintPointsProjectDistance.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 ConstraintPointsProjectDistance/de

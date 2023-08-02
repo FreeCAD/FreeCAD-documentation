@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Slope
    Name/fr: Draft Pente
-   MenuLocation: Modification - Pente
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Modification -> Pente
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Version: 0.17
 ---
 

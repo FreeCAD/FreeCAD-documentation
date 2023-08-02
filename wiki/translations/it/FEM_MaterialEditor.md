@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM MaterialEditor
    Name/it: Editor dei materiali
-   MenuLocation: Modello - Materiali - Editor dei materiali
-   Workbenches: [FEM](FEM_Workbench/it.md)
+   MenuLocation: Modello -> Materiali -> Editor dei materiali
+   Workbenches: FEM_Workbench/it
    Shortcut: 
-   SeeAlso: [Tutorial FEM](FEM_tutorial/it.md)
+   SeeAlso: FEM_tutorial/it
 ---
 
 # FEM MaterialEditor/it

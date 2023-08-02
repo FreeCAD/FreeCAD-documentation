@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std ViewLeft
    Name/fr: Std Vue de gauche
-   MenuLocation: Affichage - Vues standards - Gauche
+   MenuLocation: Affichage -> Vues standards -> Gauche
    Workbenches: Tous
    Shortcut: **6**
-   SeeAlso: [Std Vue arrière](Std_ViewRear/fr.md), [Std Vue de dessous](Std_ViewBottom/fr.md)
+   SeeAlso: Std_ViewRear/fr, Std_ViewBottom/fr
 ---
 
 # Std ViewLeft/fr

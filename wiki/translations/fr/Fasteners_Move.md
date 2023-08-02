@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Fasteners Move
    Name/fr: Fasteners Move
-   MenuLocation: Fasteners - Move fastener
-   Workbenches: [Fasteners](Fasteners_Workbench/fr.md)
+   MenuLocation: Fasteners -> Move fastener
+   Workbenches: Fasteners_Workbench/fr
 ---
 
 # Fasteners Move/fr

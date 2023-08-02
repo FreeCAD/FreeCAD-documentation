@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Reinforcement Bar Shape Cut List
    Name/pl: Zbrojenie: Zestawienie kształtów i cięć prętów
-   MenuLocation: Zbrojenie - Zestawienie kształtów i cięć prętów
-   Workbenches: [Architektura](Arch_Workbench/pl.md), [BIM](BIM_Workbench/pl.md)
+   MenuLocation: Zbrojenie -> Zestawienie kształtów i cięć prętów
+   Workbenches: Arch_Workbench/pl, BIM_Workbench/pl
    Version: 0.19
-   SeeAlso: [Zbrojenie](Reinforcement_Workbench/pl.md), [Wymiarowanie rysunku zbrojenia](Arch_Rebar_Drawing_Dimensioning/pl.md), [Zestawienie zbrojenia](Arch_Rebar_BOM/pl.md)
+   SeeAlso: Reinforcement_Workbench/pl, Arch_Rebar_Drawing_Dimensioning/pl, Arch_Rebar_BOM/pl
 ---
 
 # Reinforcement Bar Shape Cut List/pl

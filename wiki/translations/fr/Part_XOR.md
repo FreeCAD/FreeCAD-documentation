@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part XOR
    Name/fr: Part OU exclusif
-   MenuLocation: Part - Scinder - OU exclusif
-   Workbenches: [Part](Part_Workbench/fr.md)
+   MenuLocation: Part -> Scinder -> OU exclusif
+   Workbenches: Part_Workbench/fr
    Version: 0.17
-   SeeAlso: [Part Fragments booléens](Part_BooleanFragments/fr.md), [Part Scinder](Part_Slice/fr.md), [Part Jointure](Part_CompJoinFeatures/fr.md), [Part Opérations booléennes](Part_Boolean/fr.md)
+   SeeAlso: Part_BooleanFragments/fr, Part_Slice/fr, Part_CompJoinFeatures/fr, Part_Boolean/fr
 ---
 
 # Part XOR/fr

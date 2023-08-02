@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch MeshToShape
    Name/de: Arch NetzZuForm
-   MenuLocation: Arch - Dienstprogramme - Netz zu Form
-   Workbenches: [Arch](Arch_Workbench/de.md)
-   SeeAlso: [Arch NetzAufteilen](Arch_SplitMesh/de.md), [Arch EntferneForm](Arch_RemoveShape/de.md)
+   MenuLocation: Arch -> Dienstprogramme -> Netz zu Form
+   Workbenches: Arch_Workbench/de
+   SeeAlso: Arch_SplitMesh/de, Arch_RemoveShape/de
 ---
 
 # Arch MeshToShape/de

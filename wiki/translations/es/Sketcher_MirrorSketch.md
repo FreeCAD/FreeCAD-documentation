@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher MirrorSketch
    Name/es: Croquizador SimetríaCroquis
-   MenuLocation: Croquis - SimetríaCroquis
-   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   MenuLocation: Croquis -> SimetríaCroquis
+   Workbenches: Sketcher_Workbench/es
    Version: 0.16
 ---
 

@@ -2,8 +2,8 @@
 ---
 - GuiCommand:
    Name/tr: Konum
-   MenuLocation: Arsa - Konum
-‏‎   |Workbenches: [Arsa](Plot_Workbench/tr.md)
+   MenuLocation: Arsa -> Konum
+‏‎   
    Shortcut: 
    SeeAlso: ---
 

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Assembly3 TracePartMove
    Icon: Assembly_Trace.svg‎‎
-   MenuLocation: Assembly3 - Trace part move
-   Workbenches: [Assembly3](Assembly3_Workbench.md)
+   MenuLocation: Assembly3 -> Trace part move
+   Workbenches: Assembly3_Workbench
 ---
 
 # Assembly3 TracePartMove/en

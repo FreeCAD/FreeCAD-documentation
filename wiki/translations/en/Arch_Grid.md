@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Arch Grid
-   MenuLocation: Arch - Axis tools - Grid
-   Workbenches: [Arch](Arch_Workbench.md)
-   SeeAlso: [Arch Axis](Arch_Axis.md), [Arch AxisSystem](Arch_AxisSystem.md)
+   MenuLocation: Arch -> Axis tools -> Grid
+   Workbenches: Arch_Workbench
+   SeeAlso: Arch_Axis, Arch_AxisSystem
 ---
 
 # Arch Grid/en

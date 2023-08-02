@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Mesh FlipNormals‏‎
    Name/ru: Mesh FlipNormals‏‎
-   MenuLocation: Сетки - Согласовать нормали
-   Workbenches: [Mesh](Mesh_Workbench/ru.md)
+   MenuLocation: Сетки -> Согласовать нормали
+   Workbenches: Mesh Workbench/ru
    Shortcut: 
    SeeAlso: 
 ---

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Spreadsheet_AlignLeft
    Name/it: Allinea a sinistra
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench/it.md)
-   MenuLocation: Spreadsheet - Allineamento - A sinistra
+   Workbenches: Spreadsheet_Workbench/it
+   MenuLocation: Spreadsheet -> Allineamento -> A sinistra
    Version: 0.17
 ---
 

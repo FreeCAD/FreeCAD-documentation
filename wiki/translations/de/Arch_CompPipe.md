@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Arch CompPipe
    Name/de: Arch BildeRohr
-   MenuLocation: Arch - Rohrwerkzeuge
-   Workbenches: [Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   MenuLocation: Arch -> Rohrwerkzeuge
+   Workbenches: Arch_Workbench/de, BIM_Workbench/de
    SeeAlso: 
    Version: 0.17
 ---

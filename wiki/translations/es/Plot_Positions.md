@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Plot Positions
-   MenuLocation: Plot - Set positions and sizes
-   Workbenches: [Plot](Plot_Workbench.md)
+   MenuLocation: Plot -> Set positions and sizes
+   Workbenches: Plot_Workbench
 ---
 
 # Plot Positions/es

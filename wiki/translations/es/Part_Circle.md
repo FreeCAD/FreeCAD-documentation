@@ -1,6 +1,6 @@
 # Part Circle/es
 ---
-- GuiCommand:   Name: Part_Circle   Name/es: Part_Circle   MenuLocation: Part - [Workbenches: [[Part_Workbench/es   Part](Part_CreatePrimitives/es___Create_Primitives]]_-_Circle.md), [OpenSCAD](OpenSCAD_Workbench/es.md)|SeeAlso: ..---
+- GuiCommand:   Name: Part_Circle   Name/es: Part_Circle   MenuLocation: Part -> Part_CreatePrimitives/es   Create Primitives -> Circle, OpenSCAD_Workbench/es|SeeAlso: ..---
 
 
 </div>

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std ToggleClipPlane
    Name/it: Piano di taglio
-   MenuLocation: Visualizza - Piano di taglio
+   MenuLocation: Visualizza -> Piano di taglio
    Workbenches: Tutti
-   SeeAlso: [Taglio sezione persistente](Part_SectionCut/it.md)
+   SeeAlso: Part_SectionCut/it
 ---
 
 # Std ToggleClipPlane/it

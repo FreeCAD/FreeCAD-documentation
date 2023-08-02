@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std SelectAll
    Name/pl: Std: Zaznacz wszystko
-   MenuLocation: Edycja - Zaznacz wszystko
+   MenuLocation: Edycja -> Zaznacz wszystko
    Workbenches: wszystkie
-   SeeAlso: [Zaznacz obszar](Std_BoxSelection/pl.md), [Wybór elementów ramką zaznaczenia](Std_BoxElementSelection/pl.md)
+   SeeAlso: Std_BoxSelection/pl, Std_BoxElementSelection/pl
 ---
 
 # Std SelectAll/pl

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: TechDraw ClipGroup
-   MenuLocation: TechDraw - Clipped Views - Insert Clip Group
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
-   SeeAlso: [TechDraw Add Clip Group](TechDraw_ClipGroupAdd.md), [TechDraw Remove Clip Group](TechDraw_ClipGroupRemove.md)
+   MenuLocation: TechDraw -> Clipped Views -> Insert Clip Group
+   Workbenches: TechDraw_Workbench
+   SeeAlso: TechDraw_ClipGroupAdd, TechDraw_ClipGroupRemove
 ---
 
 # TechDraw ClipGroup/en

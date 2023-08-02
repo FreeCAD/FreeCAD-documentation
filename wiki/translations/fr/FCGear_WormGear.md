@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: FCGear WormGear
    Name/fr: FCGear Vis sans fin
-   MenuLocation: Gear - Worm Gear
-   Workbenches: [FCGear](FCGear_Workbench/fr.md)
+   MenuLocation: Gear -> Worm Gear
+   Workbenches: FCGear_Workbench/fr
    Shortcut: Aucun
    Version: v0.16
-   SeeAlso: [PartDesign Engrenage à développante](PartDesign_InvoluteGear/fr.md)
+   SeeAlso: PartDesign_InvoluteGear/fr
 ---
 
 # FCGear WormGear/fr

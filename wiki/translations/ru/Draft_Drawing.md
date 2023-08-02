@@ -3,8 +3,8 @@
    Name: Draft Drawing
    Name/ru: Draft Drawing
    MenuLocation: Черчение -> Рисунок
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   SeeAlso: [TechDraw DraftView](TechDraw_DraftView.md)
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
+   SeeAlso: TechDraw_DraftView
 ---
 
 # Draft Drawing/ru

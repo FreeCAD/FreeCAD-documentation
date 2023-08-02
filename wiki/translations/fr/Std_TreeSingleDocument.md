@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std TreeSingleDocument
    Name/fr: Std Arborescence Document unique
-   MenuLocation: Affichage - Vue en arborescence - Document unique
+   MenuLocation: Affichage -> Vue en arborescence -> Document unique
    Workbenches: Tous
    Version: 0.19
-   SeeAlso: [Std Arborescence Document multiple](Std_TreeMultiDocument/fr.md), [Std Arborescence Réduire développer](Std_TreeCollapseDocument/fr.md)
+   SeeAlso: Std_TreeMultiDocument/fr, Std_TreeCollapseDocument/fr
 ---
 
 # Std TreeSingleDocument/fr

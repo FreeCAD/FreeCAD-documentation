@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Part ProjectionOnSurface
    Name/pl: Część: Rzutowanie na powierzchnię
-   MenuLocation: Część - Utwórz rzut na powierzchni ...
-   Workbenches: [Część](Part_Workbench/pl.md)
+   MenuLocation: Część -> Utwórz rzut na powierzchni ...
+   Workbenches: Part_Workbench/pl
    Version: 0.19
 ---
 

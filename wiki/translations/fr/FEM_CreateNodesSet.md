@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: FEM CreateNodesSet
    Name/fr: FEM Ensemble de nœuds
-   MenuLocation: Maillage - Ensemble de nœuds
-   Workbenches: [FEM](FEM_Workbench/fr.md)
-   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
+   MenuLocation: Maillage -> Ensemble de nœuds
+   Workbenches: FEM_Workbench/fr
+   SeeAlso: FEM_tutorial/fr
 ---
 
 # FEM CreateNodesSet/fr

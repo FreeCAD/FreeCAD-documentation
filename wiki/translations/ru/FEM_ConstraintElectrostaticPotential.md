@@ -3,10 +3,10 @@
    Name: FEM ConstraintElectrostaticPotential
    Name/ru: FEM ConstraintElectrostaticPotential
    Icon: Fem-constraint-electrostatic-potential.svg
-   MenuLocation:  Model - Electrostatic Constraints - Constraint Electrostatic Potential
-   Workbenches: [FEM](FEM_Workbench/ru.md)
+   MenuLocation:  Model -> Electrostatic Constraints -> Constraint Electrostatic Potential
+   Workbenches: FEM_Workbench/ru
    Shortcut: 
-   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
+   SeeAlso: FEM_tutorial/ru
 ---
 
 # FEM ConstraintElectrostaticPotential/ru

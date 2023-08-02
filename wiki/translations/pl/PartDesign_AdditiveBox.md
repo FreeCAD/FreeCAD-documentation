@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign AdditiveBox
    Name/pl: Projekt Części: Addytywny prostopadłościan
-   MenuLocation: Projekt Części - Utwórz cechę przez dodanie - Addytywny prostopadłościan
-   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   MenuLocation: Projekt Części -> Utwórz cechę przez dodanie -> Addytywny prostopadłościan
+   Workbenches: PartDesign_Workbench/pl
    Version: 0.17
-   SeeAlso: [Komponent bryła pierwotna do dodania](PartDesign_CompPrimitiveAdditive/pl.md), [Subtraktywny prostopadłościan](PartDesign_SubtractiveBox/pl.md)
+   SeeAlso: PartDesign_CompPrimitiveAdditive/pl, PartDesign_SubtractiveBox/pl
 ---
 
 # PartDesign AdditiveBox/pl

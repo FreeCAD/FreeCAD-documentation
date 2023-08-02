@@ -1,6 +1,6 @@
 # PartDesign Hole/it
 ---
-- GuiCommand:   Name: PartDesign Hole   Name/it: Foro   Workbenches: [MenuLocation: Part Design - Foro   Version: 0.17   SeeAlso: [[PartDesign Pocket/it|Tasca](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign Hole   Name/it: Foro   Workbenches: PartDesign Workbench/it   PartDesign---
 
 
 </div>

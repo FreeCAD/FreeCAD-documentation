@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Circle
    Name/ru: Draft Circle
-   MenuLocation: Черчение - Окружность
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Черчение -> Окружность
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: **C** **I**
-   SeeAlso: [Дуга](Draft_Arc/ru.md)
+   SeeAlso: Draft Arc/ru
 ---
 
 # Draft Circle/ru

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Sketcher NewSketch
    Name/de: Sketcher NeueSkizze
-   MenuLocation:  Skizze - Skizze erstellen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
-   SeeAlso: [PartDesign NeueSkizze](PartDesign_NewSketch/de.md),[SkizzeZuordnen](Sketcher_MapSketch/de.md), [SkizzeAusrichten](Sketcher_ReorientSketch/de.md)
+   MenuLocation:  Skizze -> Skizze erstellen
+   Workbenches: Sketcher Workbench/de
+   SeeAlso: PartDesign_NewSketch/de,Sketcher_MapSketch/de, Sketcher_ReorientSketch/de
 ---
 
 # Sketcher NewSketch/de

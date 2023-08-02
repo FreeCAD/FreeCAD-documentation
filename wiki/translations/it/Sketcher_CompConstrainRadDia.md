@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher constrain an arc or a circle
    Name/it: Vincola un arco o un cerchio
-   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation: Nessuno (solo nella barra degli strumenti)
+   Workbenches: Sketcher Workbench/it
+   MenuLocation: Nessuno 
 ---
 
 # Sketcher CompConstrainRadDia/it

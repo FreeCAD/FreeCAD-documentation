@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: TechDraw ExtensionCreateObliqueChainDimension
-   MenuLocation: TechDraw - Extensions: Dimensions - Create Oblique Chain Dimensions
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   MenuLocation: TechDraw -> Extensions: Dimensions -> Create Oblique Chain Dimensions
+   Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20
-   SeeAlso: [TechDraw ExtensionCreateHorizChainDimension](TechDraw_ExtensionCreateHorizChainDimension.md), [TechDraw ExtensionCreateVertChainDimension](TechDraw_ExtensionCreateVertChainDimension.md)
+   SeeAlso: TechDraw_ExtensionCreateHorizChainDimension, TechDraw_ExtensionCreateVertChainDimension
 ---
 
 # TechDraw ExtensionCreateObliqueChainDimension/en

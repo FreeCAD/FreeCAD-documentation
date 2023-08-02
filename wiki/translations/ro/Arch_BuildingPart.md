@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch BuildingPart
    Name/ro: Arch BuildingPart
-   MenuLocation: Arch - BuildingPart
-   Workbenches: [Arch](Arch_Workbench/ro.md)
+   MenuLocation: Arch -> BuildingPart
+   Workbenches: Arch_Workbench/ro
    Shortcut: 
-   SeeAlso: [[Arch Building]], [[Arch Floor]]
+   SeeAlso: Arch Building, Arch Floor
 ---
 
 # Arch BuildingPart/ro

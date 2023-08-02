@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std SelBoundingBox
    Name/fr: Std Boîte englobante
-   MenuLocation: Affichage - Boîte englobante
+   MenuLocation: Affichage -> Boîte englobante
    Workbenches: Tous
    Version: 0.19
-   SeeAlso: [Std Style de représentation](Std_DrawStyle/fr.md)
+   SeeAlso: Std_DrawStyle/fr
 ---
 
 # Std SelBoundingBox/fr

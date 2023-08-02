@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Mesh RemoveComponents‏‎
    Name/ru: Mesh RemoveComponents‏‎
-   MenuLocation: Сетки- Удалить компоненты...
-   Workbenches: [Mesh](Mesh_Workbench/ru.md)
+   MenuLocation: Сетки-> Удалить компоненты...
+   Workbenches: Mesh Workbench/ru
    Shortcut: 
    SeeAlso: 
 ---

@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintMore
    Name/fr: Assembly3 Plus de contraintes
    Icon: Assembly_ConstraintMore.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 ConstraintMore/fr

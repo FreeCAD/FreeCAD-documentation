@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher CreateOblong
    Name/pl: Szkicownik: Utwórz zaokrąglony prostokąt
-   MenuLocation: Szkic - Elementy geometryczne szkicownika - Utwórz zaokrąglony prostokąt
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   MenuLocation: Szkic -> Elementy geometryczne szkicownika -> Utwórz zaokrąglony prostokąt
+   Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **O**
    Version: 0.20
-   SeeAlso: [Utwórz prostokąt](Sketcher_CreateRectangle/pl.md)
+   SeeAlso: Sketcher_CreateRectangle/pl
 ---
 
 # Sketcher CreateOblong/pl

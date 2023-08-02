@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part Slice
    Name/fr: Part Scinder
-   MenuLocation: Part - Scinder - Scinder vers composé
-   Workbenches: [Part](Part_Workbench/fr.md)
+   MenuLocation: Part -> Scinder -> Scinder vers composé
+   Workbenches: Part_Workbench/fr
    Version: 0.17
-   SeeAlso: [Part Fragments booléens](Part_BooleanFragments/fr.md), [Part OU exclusif](Part_XOR/fr.md), [Part Jointure](Part_CompJoinFeatures/fr.md), [Part Opérations booléennes](Part_Boolean/fr.md)
+   SeeAlso: Part_BooleanFragments/fr, Part_XOR/fr, Part_CompJoinFeatures/fr, Part_Boolean/fr
 ---
 
 # Part Slice/fr

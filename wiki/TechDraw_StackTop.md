@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: TechDraw StackTop
-   MenuLocation: TechDraw - Stacking - Move view to top of stack
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   MenuLocation: TechDraw -> Stacking -> Move view to top of stack
+   Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.21
-   SeeAlso: [TechDraw StackBottom](TechDraw_StackBottom.md), [TechDraw StackUp](TechDraw_StackUp.md), [TechDraw StackDown](TechDraw_StackDown.md).
+   SeeAlso: TechDraw_StackBottom, TechDraw_StackUp, TechDraw_StackDown.
 ---
 
 # TechDraw StackTop

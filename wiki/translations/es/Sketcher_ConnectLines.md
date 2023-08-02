@@ -1,6 +1,6 @@
 # Sketcher ConnectLines/es
 ---
-- GuiCommand:   Name: Sketcher ConnectLines   Name/es: Sketcher ConnectLines   Workbenches: [[Sketcher Workbench/es   Sketcher]]|MenuLocation: Sketch - Sketcher tools - Connect Edges   Shortcut: Ctrl+Shift+K   Version: 0.15---
+- GuiCommand:   Name: Sketcher ConnectLines   Name/es: Sketcher ConnectLines   Workbenches: Sketcher Workbench/es   Sketcher|MenuLocation: Sketch -> Sketcher tools -> Connect Edges   Shortcut: Ctrl+Shift+K   Version: 0.15---
 
 
 </div>

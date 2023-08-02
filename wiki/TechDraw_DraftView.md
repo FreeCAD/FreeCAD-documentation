@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: TechDraw DraftView
-   MenuLocation: TechDraw - Views From Other Workbenches - Insert Draft Workbench Object
-   Workbenches: [TechDraw](TechDraw_Workbench.md), [Draft](Draft_Workbench.md)
-   SeeAlso: [TechDraw Arch View](TechDraw_ArchView.md)
+   MenuLocation: TechDraw -> Views From Other Workbenches -> Insert Draft Workbench Object
+   Workbenches: TechDraw_Workbench, Draft_Workbench
+   SeeAlso: TechDraw_ArchView
 ---
 
 # TechDraw DraftView

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Assembly3 ImportMultiDocument
    Icon: Assembly_Import.svg
-   MenuLocation: Assembly3 - Import from STEP - Import as multi-document
-   Workbenches: [Assembly3](Assembly3_Workbench.md)
+   MenuLocation: Assembly3 -> Import from STEP -> Import as multi-document
+   Workbenches: Assembly3_Workbench
 ---
 
 # Assembly3 ImportMultiDocument/pl

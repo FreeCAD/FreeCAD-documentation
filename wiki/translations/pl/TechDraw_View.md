@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw View
    Name/pl: Rysunek Techniczny: Wstaw widok
-   MenuLocation: Rysunek Techniczny - Widoki - Wstaw widok
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso: [Grupa rzutów](TechDraw_ProjectionGroup/pl.md), [Widok przekroju](TechDraw_SectionView/pl.md)
+   MenuLocation: Rysunek Techniczny -> Widoki -> Wstaw widok
+   Workbenches: TechDraw_Workbench/pl
+   SeeAlso: TechDraw_ProjectionGroup/pl, TechDraw_SectionView/pl
 ---
 
 # TechDraw View/pl

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: TechDraw ExtensionDrawCosmCircle
-   MenuLocation: TechDraw - Extensions: Centerlines/Threading - Add Cosmetic Circle
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   MenuLocation: TechDraw -> Extensions: Centerlines/Threading -> Add Cosmetic Circle
+   Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20
-   SeeAlso: [TechDraw ExtensionDrawCosmArc](TechDraw_ExtensionDrawCosmArc.md)
+   SeeAlso: TechDraw_ExtensionDrawCosmArc
 ---
 
 # TechDraw ExtensionDrawCosmCircle

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: OpenSCAD ResizeMeshFeature
    Name/fr: OpenSCAD Redimensionner le maillage
-   MenuLocation: OpenSCAD - Redimensionner le maillage
-   Workbenches: [OpenSCAD](OpenSCAD_Workbench/fr.md)
+   MenuLocation: OpenSCAD -> Redimensionner le maillage
+   Workbenches: OpenSCAD_Workbench/fr
 ---
 
 # OpenSCAD ResizeMeshFeature/fr

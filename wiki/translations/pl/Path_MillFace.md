@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Path MillFace
-   MenuLocation: Path - Face
-   Workbenches: [Path](Path_Workbench.md)
+   MenuLocation: Path -> Face
+   Workbenches: Path_Workbench
 ---
 
 # Path MillFace/pl

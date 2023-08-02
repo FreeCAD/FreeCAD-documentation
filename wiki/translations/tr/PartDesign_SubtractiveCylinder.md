@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: PartDesign SubtractiveCylinder
-   MenuLocation: Part Design - Create a subtractive primitive - Subtractive Cylinder
-   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   MenuLocation: Part Design -> Create a subtractive primitive -> Subtractive Cylinder
+   Workbenches: PartDesign_Workbench
    Version: 0.17
-   SeeAlso: [PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign_AdditiveCylinder](PartDesign_AdditiveCylinder.md)
+   SeeAlso: PartDesign_CompPrimitiveSubtractive, PartDesign AdditiveCylinder
 ---
 
 # PartDesign SubtractiveCylinder/tr

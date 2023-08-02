@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Mesh PolyCut
-   MenuLocation: Meshes - Cutting - Cut mesh
-   Workbenches: [Mesh](Mesh_Workbench.md)
-   SeeAlso: [Mesh PolyTrim](Mesh_PolyTrim.md), [Mesh TrimByPlane](Mesh_TrimByPlane.md)
+   MenuLocation: Meshes -> Cutting -> Cut mesh
+   Workbenches: Mesh_Workbench
+   SeeAlso: Mesh_PolyTrim, Mesh_TrimByPlane
 ---
 
 # Mesh PolyCut/ru

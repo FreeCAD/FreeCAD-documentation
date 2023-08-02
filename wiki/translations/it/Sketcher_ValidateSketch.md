@@ -3,8 +3,8 @@
    Name: Sketcher_ValidateSketch
    Name/it: Convalida lo schizzo
    Empty: 1
-   Workbenches: [Sketcher](Sketcher_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation: Sketch/Part Design - Convalida lo schizzo...
+   Workbenches: Sketcher Workbench/it, PartDesign Workbench/it
+   MenuLocation: Sketch/Part Design -> Convalida lo schizzo...
 ---
 
 # Sketcher ValidateSketch/it

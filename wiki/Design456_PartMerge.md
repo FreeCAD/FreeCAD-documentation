@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Design456 PartMerge
-   MenuLocation: Design456_Tools - 3DTools - Merge
-   Workbenches: [Design456](Design456_Workbench.md)
+   MenuLocation: Design456_Tools -> 3DTools -> Merge
+   Workbenches: Design456 Workbench
    Shortcut: None
    SeeAlso: 
 ---

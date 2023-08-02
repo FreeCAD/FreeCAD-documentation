@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Arch MultiMaterial
-   MenuLocation: Arch - Material tools - Multi-Material
-   Workbenches: [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   MenuLocation: Arch -> Material tools -> Multi-Material
+   Workbenches: Arch_Workbench, BIM_Workbench
    Version: 0.17
-   SeeAlso: [Arch SetMaterial](Arch_SetMaterial.md), [Arch CompSetMaterial](Arch_CompSetMaterial.md)
+   SeeAlso: Arch_SetMaterial, Arch_CompSetMaterial
 ---
 
 # Arch MultiMaterial/en

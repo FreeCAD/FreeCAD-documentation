@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path Face
    Name/fr: Path Surfaçage
-   MenuLocation: Path - Surfaçage
-   Workbenches: [Path](Path_Workbench/fr.md)
+   MenuLocation: Path -> Surfaçage
+   Workbenches: Path_Workbench/fr
 ---
 
 # Path MillFace/fr

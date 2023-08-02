@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Ellipsoid
    Name/fr: Part Ellipsoide
-   MenuLocation: Part - [Créer des primitives...](Part_Primitives/fr.md) - Ellipsoïde
-   Workbenches: [Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
-   SeeAlso: [Part Primitives](Part_Primitives/fr.md)
+   MenuLocation: Part -> Part_Primitives/fr -> Ellipsoïde
+   Workbenches: Part_Workbench/fr, OpenSCAD_Workbench/fr
+   SeeAlso: Part_Primitives/fr
 ---
 
 # Part Ellipsoid/fr

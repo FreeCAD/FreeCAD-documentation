@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Spreadsheet SplitCell
    Name/fr: Spreadsheet Diviser une cellule
-   MenuLocation: Spreadsheet - Diviser la cellule
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench/fr.md)
+   MenuLocation: Spreadsheet -> Diviser la cellule
+   Workbenches: Spreadsheet_Workbench/fr
    Version: 0.17
 ---
 

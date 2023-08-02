@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: PartDesign_LinearPattern
    Name/fr: PartDesign Répétition linéaire
-   MenuLocation: Part Design - Appliquer une transformation - Répétition linéaire
-   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso: [PartDesign Transformation multiple](PartDesign_MultiTransform/fr.md)
+   MenuLocation: Part Design -> Appliquer une transformation -> Répétition linéaire
+   Workbenches: PartDesign_Workbench/fr
+   SeeAlso: PartDesign_MultiTransform/fr
 ---
 
 # PartDesign LinearPattern/fr

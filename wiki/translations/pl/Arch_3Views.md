@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Arch 3Views
-   MenuLocation: Arch - Utilities - 3 Views from mesh
-   Workbenches: [Arch](Arch_Workbench.md)
-   SeeAlso: [Arch SplitMesh](Arch_SplitMesh.md), [Arch MeshToShape](Arch_MeshToShape.md)
+   MenuLocation: Arch -> Utilities -> 3 Views from mesh
+   Workbenches: Arch_Workbench
+   SeeAlso: Arch_SplitMesh, Arch_MeshToShape
 ---
 
 # Arch 3Views/pl

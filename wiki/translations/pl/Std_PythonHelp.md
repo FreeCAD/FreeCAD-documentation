@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std PythonHelp
    Name/pl: Std: Pomoc dla środowiska Python
-   MenuLocation: Pomoc - Dokumentacja automatyczna modułów Python
+   MenuLocation: Pomoc -> Dokumentacja automatyczna modułów Python
    Workbenches: wszystkie
-   SeeAlso: [Dokumentacja skryptów środowiska Python](Std_FreeCADPowerUserHub/pl.md)
+   SeeAlso: Std_FreeCADPowerUserHub/pl
 ---
 
 # Std PythonHelp/pl

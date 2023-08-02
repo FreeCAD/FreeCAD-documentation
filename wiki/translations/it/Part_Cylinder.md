@@ -1,6 +1,6 @@
 # Part Cylinder/it
 ---
-- GuiCommand:   Name: Part Cylinder   Name/it: Cilindro   MenuLocation: Parte - Primitive - Cilindro   Workbenches: [SeeAlso: [[Part_CreatePrimitives/it|Crea primitive](Part_Workbench/it___Parte]].md)---
+- GuiCommand:   Name: Part Cylinder   Name/it: Cilindro   MenuLocation: Parte -> Primitive -> Cilindro   Workbenches: Part_Workbench/it   Parte---
 
 
 </div>

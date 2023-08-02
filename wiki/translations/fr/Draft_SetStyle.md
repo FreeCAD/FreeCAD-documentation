@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft SetStyle
    Name/fr: Draft Définir le style
-   MenuLocation: Utilitaires - Définir le style
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Utilitaires -> Définir le style
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **S** **S**
    Version: 0.19
-   SeeAlso: [Draft Éditeur de styles d'annotations](Draft_AnnotationStyleEditor/fr.md), [Draft Appliquer le style](Draft_ApplyStyle/fr.md)
+   SeeAlso: Draft_AnnotationStyleEditor/fr, Draft_ApplyStyle/fr
 ---
 
 # Draft SetStyle/fr

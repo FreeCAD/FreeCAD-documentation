@@ -1,6 +1,6 @@
 # PartDesign Chamfer/ro
 ---
-- GuiCommand:   Name: PartDesign Chamfer   Workbenches: [MenuLocation: Part Design - Chamfer   SeeAlso: [[Part Chamfer|Chamfer Part](PartDesign_Workbench___PartDesign]],_Complete.md)---
+- GuiCommand:   Name: PartDesign Chamfer   Workbenches: PartDesign Workbench   PartDesign, Complete---
 
 
 </div>

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: PartDesign Pocket
    Name/de: PartDesign Tasche
-   MenuLocation: PartDesign - Objekte abziehen - Tasche
-   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso: [PartDesign Aufpolsterung](PartDesign_Pad/de.md)
+   MenuLocation: PartDesign -> Objekte abziehen -> Tasche
+   Workbenches: PartDesign_Workbench/de
+   SeeAlso: PartDesign_Pad/de
 ---
 
 # PartDesign Pocket/de

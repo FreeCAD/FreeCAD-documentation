@@ -3,9 +3,9 @@
    Icon: Points_Import.svg
    Name: Points Import
    Name/fr: Points Importer
-   MenuLocation: Points - Importer des points...
-   Workbenches: [Points](Points_Workbench/fr.md)
-   SeeAlso: [Points Exporter](Points_Export/fr.md)
+   MenuLocation: Points -> Importer des points...
+   Workbenches: Points_Workbench/fr
+   SeeAlso: Points_Export/fr
 ---
 
 # Points Import/fr

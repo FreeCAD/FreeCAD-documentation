@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw Dimension Length
    Name/de: TechDraw Längenmaß
-   MenuLocation: TechDraw - Maßeinträge - Längenmaß einfügen
-   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso: [TechDraw MaßHorizontal](TechDraw_HorizontalDimension/de.md), [TechDraw MaßVertikal](TechDraw_VerticalDimension/de.md)
+   MenuLocation: TechDraw -> Maßeinträge -> Längenmaß einfügen
+   Workbenches: TechDraw_Workbench/de
+   SeeAlso: TechDraw_HorizontalDimension/de, TechDraw_VerticalDimension/de
 ---
 
 # TechDraw LengthDimension/de

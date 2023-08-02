@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Torus
    Name/fr: Part Tore
-   MenuLocation: Part - Primitives - Tore
-   Workbenches: [Part](Part_Workbench/fr.md)
-   SeeAlso: [Part Primitives](Part_Primitives/fr.md)
+   MenuLocation: Part -> Primitives -> Tore
+   Workbenches: Part_Workbench/fr
+   SeeAlso: Part_Primitives/fr
 ---
 
 # Part Torus/fr

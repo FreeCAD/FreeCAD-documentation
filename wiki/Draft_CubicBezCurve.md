@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Draft CubicBezCurve
-   MenuLocation: Drafting - Bézier tools - Cubic Bézier curve
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Drafting -> Bézier tools -> Cubic Bézier curve
+   Workbenches: Draft_Workbench, Arch_Workbench
    Version: 0.19
-   SeeAlso: [Draft BezCurve](Draft_BezCurve.md), [Draft BSpline](Draft_BSpline.md)
+   SeeAlso: Draft_BezCurve, Draft_BSpline
 ---
 
 # Draft CubicBezCurve

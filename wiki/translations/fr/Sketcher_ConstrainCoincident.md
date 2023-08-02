@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ConstrainCoincident
    Name/fr: Sketcher Contrainte de coïncidence
-   MenuLocation: Esquisse - Contraintes d'esquisse - Contrainte coïncidente
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   MenuLocation: Esquisse -> Contraintes d'esquisse -> Contrainte coïncidente
+   Workbenches: Sketcher_Workbench/fr
    Shortcut: **C**
-   SeeAlso: [Sketcher Contrainte fixe](Sketcher_ConstrainLock/fr.md), [Sketcher Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md)
+   SeeAlso: Sketcher_ConstrainLock/fr, Sketcher_ConstrainPointOnObject/fr
 ---
 
 # Sketcher ConstrainCoincident/fr

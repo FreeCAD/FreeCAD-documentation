@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part BooleanFragments
    Name/ru: Part BooleanFragments
-   MenuLocation: Деталь - Разделить - Boolean Fragments
-   Workbenches: [Part](Part_Workbench/ru.md)
-   SeeAlso: [Part XOR](Part_Slice/ru___Part_Slice]],_[[Part_XOR/ru.md), [Join features](Part_CompJoinFeatures/ru.md), [Part Boolean](Part_Boolean/ru.md)|Version: 0.17.8053
+   MenuLocation: Деталь -> Разделить -> Boolean Fragments
+   Workbenches: Part_Workbench/ru
+   SeeAlso: Part_Slice/ru   Part Slice, Part_XOR/ru, Part_CompJoinFeatures/ru, Part Boolean/ru|Version: 0.17.8053
 ---
 
 # Part BooleanFragments/ru

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Prism
    Name/ru: Призма
-   MenuLocation: Деталь - [Создать примитивы...](Part_CreatePrimitives/ru.md) - Призма
-   Workbenches: [OpenSCAD](Part_Workbench/ru___Part(Деталь)]],__[[OpenSCAD_Workbench/ru.md)|Version: 0.14
-   SeeAlso: [Примитивы](Part_Primitives/ru.md), [Куб](Part_Box/ru.md)
+   MenuLocation: Деталь -> Part_CreatePrimitives/ru -> Призма
+   Workbenches: Part_Workbench/ru   Part,  OpenSCAD_Workbench/ru|Version: 0.14
+   SeeAlso: Part_Primitives/ru, Part_Box/ru
 ---
 
 # Part Prism/ru

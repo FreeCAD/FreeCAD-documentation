@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std ViewFront
    Name/fr: Std Vue de face
-   MenuLocation: Affichage - Vues standards - Face
+   MenuLocation: Affichage -> Vues standards -> Face
    Workbenches: Tous
    Shortcut: **1**
-   SeeAlso: [Std Vue de dessus](Std_ViewTop/fr.md), [Std Vue droite](Std_ViewRight/fr.md)
+   SeeAlso: Std_ViewTop/fr, Std_ViewRight/fr
 ---
 
 # Std ViewFront/fr

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: TechDraw ComplexSection
    Name/fr: TechDraw Vue en coupe complexe
-   MenuLocation: TechDraw - Vues de Techdraw - Insérer une vue en coupe complexe
-   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   MenuLocation: TechDraw -> Vues de Techdraw -> Insérer une vue en coupe complexe
+   Workbenches: TechDraw_Workbench/fr
    Version: 0.21
-   SeeAlso: [TechDraw Vue en coupe](TechDraw_SectionView/fr.md), [TechDraw Vue](TechDraw_View/fr.md), [TechDraw Groupe de projection](TechDraw_ProjectionGroup/fr.md)
+   SeeAlso: TechDraw_SectionView/fr, TechDraw_View/fr, TechDraw_ProjectionGroup/fr
 ---
 
 # TechDraw ComplexSection/fr

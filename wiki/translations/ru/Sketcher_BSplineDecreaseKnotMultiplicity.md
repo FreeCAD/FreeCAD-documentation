@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Уменьшение кратности узлов
    Name: Sketcher_BSplineDecreaseKnotMultiplicity
-   MenuLocation: Sketch - B-сплйан инструменты эскиза - Уменьшение кратности узлов
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation: Sketch -> B-сплйан инструменты эскиза -> Уменьшение кратности узлов
+   Workbenches: Sketcher_Workbench/ru
    Version: 0.17
-   SeeAlso: [Показать/скрыть кратность узлов B-сплайна](Sketcher_BSplineKnotMultiplicity/ru.md), [Увеличение кратности узлов](Sketcher_BSplineIncreaseKnotMultiplicity/ru.md)
+   SeeAlso: Sketcher_BSplineKnotMultiplicity/ru, Sketcher_BSplineIncreaseKnotMultiplicity/ru
 ---
 
 # Sketcher BSplineDecreaseKnotMultiplicity/ru

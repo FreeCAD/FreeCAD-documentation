@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: PartDesign Draft
-   MenuLocation: Part Design - Apply a dress-up feature - Draft
-   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   MenuLocation: Part Design -> Apply a dress-up feature -> Draft
+   Workbenches: PartDesign_Workbench
 ---
 
 # PartDesign Draft/pt-br

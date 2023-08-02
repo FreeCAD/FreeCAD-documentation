@@ -3,8 +3,8 @@
    Name: Points_Merge
    Name/it: Unisci le nuvole di punti
    Empty: 1
-   MenuLocation: Punti - Unisci le nuvole di punti
-   Workbenches: [Punti](Points_Workbench/it.md)
+   MenuLocation: Punti -> Unisci le nuvole di punti
+   Workbenches: Points_Workbench/it
    SeeAlso: 
 ---
 

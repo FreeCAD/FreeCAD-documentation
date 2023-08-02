@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch Reference
    Name/es: Arquitectura Referencia
-   MenuLocation: Arquitectura - Referencia
-   Workbenches: [Arquitectura](Arch_Workbench/es.md)
-   SeeAlso: [Arquitectura EdificioPieza](Arch_BuildingPart/es.md)
+   MenuLocation: Arquitectura -> Referencia
+   Workbenches: Arch_Workbench/es
+   SeeAlso: Arch_BuildingPart/es
 ---
 
 # Arch Reference/es

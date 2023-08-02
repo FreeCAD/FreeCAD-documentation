@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Points Convert
    Name/fr: Points Convertir
-   MenuLocation: Points - Convertir en points...
-   Workbenches: [Points](Points_Workbench/fr.md)
+   MenuLocation: Points -> Convertir en points...
+   Workbenches: Points_Workbench/fr
 ---
 
 # Points Convert/fr

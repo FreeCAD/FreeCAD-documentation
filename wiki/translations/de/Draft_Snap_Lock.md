@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft Snap Lock
    Name/de: Draft EinrastenSperren
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **Shift**+**S**
-   SeeAlso: [Draft Einrasten](Draft_Snap/de.md)
+   SeeAlso: Draft_Snap/de
 ---
 
 # Draft Snap Lock/de

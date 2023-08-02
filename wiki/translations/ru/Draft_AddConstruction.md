@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft AddConstruction
    Name/ru: Draft AddConstruction
-   MenuLocation: Draft - Utilities - Add to construction group
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   SeeAlso: [[Draft ToggleConstructionMode]], [[Draft AddToGroup]]
+   MenuLocation: Draft -> Utilities -> Add to construction group
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
+   SeeAlso: Draft ToggleConstructionMode, Draft AddToGroup
    Version: 0.17
 ---
 

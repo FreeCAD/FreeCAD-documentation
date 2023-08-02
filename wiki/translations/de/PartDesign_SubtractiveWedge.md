@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign SubtractiveWedge
    Name/de: PartDesign KeilAbziehen
-   MenuLocation: Part Design - Grundkörper abziehen - Keil
-   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   MenuLocation: Part Design -> Grundkörper abziehen -> Keil
+   Workbenches: PartDesign_Workbench/de
    Version: 0.17
-   SeeAlso: [PartDesign AuswahlGrundkörperAbziehen](PartDesign_CompPrimitiveSubtractive/de.md), [PartDesign KeilHinzufügen](PartDesign_AdditiveWedge/de.md)
+   SeeAlso: PartDesign_CompPrimitiveSubtractive/de, PartDesign_AdditiveWedge/de
 ---
 
 # PartDesign SubtractiveWedge/de

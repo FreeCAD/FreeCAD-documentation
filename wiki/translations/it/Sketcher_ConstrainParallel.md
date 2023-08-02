@@ -1,6 +1,6 @@
 # Sketcher ConstrainParallel/it
 ---
-- GuiCommand:   Name: Sketcher ConstrainParallel   Name/it: Parallela   Icon: Constraint Parallel.svg   Workbenches: [MenuLocation: PartDesign - Schizzo - Parallela   Shortcut: **Shift** + **P**   SeeAlso: [[Sketcher ConstrainVertical/it|Verticale](Sketcher_Workbench/it___Schizzo]].md), [Orizzontale](Sketcher_ConstrainHorizontal/it.md)---
+- GuiCommand:   Name: Sketcher ConstrainParallel   Name/it: Parallela   Icon: Constraint Parallel.svg   Workbenches: Sketcher Workbench/it   Schizzo, Sketcher ConstrainHorizontal/it---
 
 
 </div>

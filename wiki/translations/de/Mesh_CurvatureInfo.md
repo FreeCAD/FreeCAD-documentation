@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Mesh CurvatureInfo
    Name/de: Netz KrümmungInfo
-   MenuLocation: Netze - Analyse - Krümmungsinfo
-   Workbenches: [Netz](Mesh_Workbench/de.md)
-   SeeAlso: [Netz KnotenKrümmung](Mesh_VertexCurvature/de.md)
+   MenuLocation: Netze -> Analyse -> Krümmungsinfo
+   Workbenches: Mesh_Workbench/de
+   SeeAlso: Mesh_VertexCurvature/de
 ---
 
 # Mesh CurvatureInfo/de

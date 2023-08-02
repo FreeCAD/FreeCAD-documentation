@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Sketcher Grid
    Name/fr: Sketcher Grille
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Workbenches: Sketcher_Workbench/fr
    Version: 0.21
-   SeeAlso: [Sketcher Aimantation](Sketcher_Snap/fr.md)
+   SeeAlso: Sketcher_Snap/fr
 ---
 
 # Sketcher Grid/fr

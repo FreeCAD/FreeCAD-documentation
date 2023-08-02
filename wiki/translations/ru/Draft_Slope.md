@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Slope
    Name/ru: Draft Slope
-   MenuLocation: Черчение - Утилиты - Set Slope
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Черчение -> Утилиты -> Set Slope
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    SeeAlso: 
 ---
 

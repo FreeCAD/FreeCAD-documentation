@@ -3,9 +3,9 @@
 - GuiCommand:
    Name: Part_Export
    Name/it: Esporta CAD
-   MenuLocation: Part - Esporta CAD
-   Workbenches: [Part](Part_Workbench/it.md)
-   SeeAlso: [Importa CAD](Part_Import/it.md), [Esporta](Std_Export/it.md), [Importazione ed Esportazione](Import_Export/it.md)---
+   MenuLocation: Part -> Esporta CAD
+   Workbenches: Part Workbench/it
+   SeeAlso: Part_Import/it, Std_Export/it, Import_Export/it---
 
 ## Descrizione
 

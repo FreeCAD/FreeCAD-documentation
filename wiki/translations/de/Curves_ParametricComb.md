@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Curves ParametricComb
    Name/de: Curves Parameterkamm
-   MenuLocation: Curves - Comb plot
-   Workbenches: [Curves](Curves_Workbench/de.md)
+   MenuLocation: Curves -> Comb plot
+   Workbenches: Curves_Workbench/de
 ---
 
 # Curves ParametricComb/de

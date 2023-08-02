@@ -3,8 +3,8 @@
    Name: Std Workbench
    Name/pl: Std: Środowiska pracy
    Empty: 1
-   MenuLocation: Widok - Środowiska pracy
-   Workbenches: [Środowiska pracy](Workbenches/pl.md)
+   MenuLocation: Widok -> Środowiska pracy
+   Workbenches: Workbenches/pl
 ---
 
 # Std Workbench/pl

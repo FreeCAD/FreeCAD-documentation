@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: TechDraw AngleDimension
-   MenuLocation: TechDraw - Dimensions - Insert Angle Dimension
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
-   SeeAlso: [TechDraw 3PtAngleDimension](TechDraw_3PtAngleDimension.md)
+   MenuLocation: TechDraw -> Dimensions -> Insert Angle Dimension
+   Workbenches: TechDraw_Workbench
+   SeeAlso: TechDraw_3PtAngleDimension
 ---
 
 # TechDraw AngleDimension/en

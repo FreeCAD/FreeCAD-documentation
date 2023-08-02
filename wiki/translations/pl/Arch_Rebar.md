@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Arch Rebar
-   MenuLocation: Arch - Rebar tools - Custom Rebar<br>3D/BIM - Reinforcement tools - Custom Rebar
-   Workbenches: [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   MenuLocation: Arch -> Rebar tools -> Custom Rebar<br>3D/BIM -> Reinforcement tools -> Custom Rebar
+   Workbenches: Arch_Workbench, BIM_Workbench
    Shortcut: **R** **B**
-   SeeAlso: [Arch Structure](Arch_Structure.md), [Reinforcement](Reinforcement_Workbench.md)
+   SeeAlso: Arch_Structure, Reinforcement_Workbench
 ---
 
 # Arch Rebar/pl

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: TechDraw ArchView
-   MenuLocation: TechDraw - Views From Other Workbenches - Insert Arch Workbench Object
-   Workbenches: [TechDraw](TechDraw_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso: [Arch Section Plane](Arch_SectionPlane.md)
+   MenuLocation: TechDraw -> Views From Other Workbenches -> Insert Arch Workbench Object
+   Workbenches: TechDraw_Workbench, Arch_Workbench
+   SeeAlso: Arch_SectionPlane
 ---
 
 # TechDraw ArchView/en

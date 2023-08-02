@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Rectangle
    Name/ro: Dreptunghi
-   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
-   MenuLocation: Draft - Rectangle
+   Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
+   MenuLocation: Draft -> Rectangle
    Shortcut: **R** **E**
    Version: 0.7
-   SeeAlso: [Part Box](Part_Box/ro.md)
+   SeeAlso: Part Box/ro
 ---
 
 # Draft Rectangle/ro

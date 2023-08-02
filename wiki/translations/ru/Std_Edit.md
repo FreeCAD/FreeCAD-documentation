@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/ru: Редактировать/закончить редактирование
    Name: Std_Edit
-   MenuLocation: Редактировать - Редактировать/закончить редактирование
+   MenuLocation: Редактировать -> Редактировать/закончить редактирование
    Workbenches: Все
-   SeeAlso: [Режим редактирования](Std_UserEditMode/ru.md)
+   SeeAlso: Std_UserEditMode/ru
 ---
 
 # Std Edit/ru

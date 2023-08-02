@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: PartDesign Fillet
    Name/es: DiseñoPiezas Redondeo
-   Workbenches: [DiseñoPiezas](PartDesign_Workbench/es.md)
-   MenuLocation: DiseñoPiezas - Redondeo
-   SeeAlso: [Chaflán](PartDesign_Chamfer.md),[Piezas Redondeo](Part_Fillet/es.md)
+   Workbenches: PartDesign Workbench/es
+   MenuLocation: DiseñoPiezas -> Redondeo
+   SeeAlso: PartDesign_Chamfer,Part Fillet/es
 ---
 
 # PartDesign Fillet/es

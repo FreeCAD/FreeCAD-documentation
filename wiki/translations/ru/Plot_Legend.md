@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Plot Legend
    Name/ru: Plot Legend
-   MenuLocation: Plot - Показать/скрыть легенду
-   Workbenches: [Plot](Plot_Workbench/ru.md)
+   MenuLocation: Plot -> Показать/скрыть легенду
+   Workbenches: Plot_Workbench/ru
    Shortcut: 
    SeeAlso: 
 ---

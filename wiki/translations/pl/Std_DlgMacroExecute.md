@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std DlgMacroExecute
    Name/pl: Std: Okno dialogowe Makrodefinicje
-   MenuLocation: Makrodefinicje - Makrodefinicje ...
+   MenuLocation: Makrodefinicje -> Makrodefinicje ...
    Workbenches: wszystkie
-   SeeAlso: [Wykonaj makrodefinicję w trakcie edycji](Std_DlgMacroExecuteDirect/pl.md)
+   SeeAlso: Std_DlgMacroExecuteDirect/pl
 ---
 
 # Std DlgMacroExecute/pl

@@ -1,6 +1,6 @@
 # Part Cut/ro
 ---
-- GuiCommand:   Name: Part Cut   MenuLocation: Part - Cut   Workbenches: [SeeAlso: [[Part_Union|Part Union](Part_Workbench___Part]].md), [Part Common](Part_Common.md)---
+- GuiCommand:   Name: Part Cut   MenuLocation: Part -> Cut   Workbenches: Part_Workbench   Part, Part_Common---
 
 
 </div>

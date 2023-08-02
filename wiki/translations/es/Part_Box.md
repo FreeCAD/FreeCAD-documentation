@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Box
    Name/es: Part Cubo
-   MenuLocation: Pieza - Primitivas - Cubo
-   Workbenches: [Part](Part_Workbench/es.md)
-   SeeAlso: [Part Crear primitivas](Part_Primitives/es.md)
+   MenuLocation: Pieza -> Primitivas -> Cubo
+   Workbenches: Part_Workbench/es
+   SeeAlso: Part_Primitives/es
 ---
 
 # Part Box/es

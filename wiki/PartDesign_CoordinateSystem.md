@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: PartDesign CoordinateSystem
-   MenuLocation: Part Design - Create a local coordinate system
-   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   MenuLocation: Part Design -> Create a local coordinate system
+   Workbenches: PartDesign_Workbench
    Version: 0.18
-   SeeAlso: [PartDesign Point](PartDesign_Point.md), [PartDesign Line](PartDesign_Line.md), [PartDesign Plane](PartDesign_Plane.md)
+   SeeAlso: PartDesign_Point, PartDesign_Line, PartDesign_Plane
 ---
 
 # PartDesign CoordinateSystem

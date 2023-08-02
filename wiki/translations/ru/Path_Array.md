@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path Array
    Name/ru: Path Array
-   MenuLocation: Path - Path Modification - Массив
-   Workbenches: [Path](Path_Workbench/ru.md)
+   MenuLocation: Path -> Path Modification -> Массив
+   Workbenches: Path_Workbench/ru
    Shortcut: 
    SeeAlso: 
 ---

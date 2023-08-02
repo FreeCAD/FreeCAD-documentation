@@ -4,7 +4,7 @@
    Name/de: OpenSCAD OpenSCADElementHinzufügen
    Empty: 1
    MenuLocation: OpenSCAD -> OpenSCAD Element hinzufügen
-   Workbenches: [OpenSCAD](OpenSCAD_Workbench/de.md)
+   Workbenches: OpenSCAD_Workbench/de
 ---
 
 # OpenSCAD AddOpenSCADElement/de

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std SelectAll
    Name/fr: Std Tout sélectionner 
-   MenuLocation: Édition - Tout sélectionner
+   MenuLocation: Édition -> Tout sélectionner
    Workbenches: Tous
-   SeeAlso: [Sélection par boîte](Std_BoxSelection/fr.md), [Sélection d'éléments](Std_BoxElementSelection/fr.md)
+   SeeAlso: Std_BoxSelection/fr, Std_BoxElementSelection/fr
 ---
 
 # Std SelectAll/fr

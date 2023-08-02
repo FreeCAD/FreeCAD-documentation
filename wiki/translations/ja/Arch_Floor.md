@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Arch Floor   Name/ja: Arch Floor
-   MenuLocation: Arch - Floor
-   Workbenches: [Arch](Arch_Workbench/ja.md)
+   MenuLocation: Arch -> Floor
+   Workbenches: Arch Workbench/ja
    Shortcut: **F** **L**
-   SeeAlso: [[Arch Building]], [[Arch BuildingPart]], [[Arch Site]]
+   SeeAlso: Arch Building, Arch BuildingPart, Arch Site
 ---
 
 # Arch Floor/ja

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign SubtractivePipe
    Name/pl: Projekt Części: Odejmowanie wyciągnięciem wzdłuż ścieżki
-   MenuLocation: Projekt Części - Utwórz cechę przez odjęcie - Odejmowanie wyciągnięciem wzdłuż ścieżki
-   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   MenuLocation: Projekt Części -> Utwórz cechę przez odjęcie -> Odejmowanie wyciągnięciem wzdłuż ścieżki
+   Workbenches: PartDesign_Workbench/pl
    Version: 0.17
-   SeeAlso: [Uzupełnianie wyciągnięciem wzdłuż ścieżki](PartDesign_AdditivePipe/pl.md), [Odejmowanie wyciągnięciem przez profile](PartDesign_SubtractiveLoft/pl.md)
+   SeeAlso: PartDesign_AdditivePipe/pl, PartDesign_SubtractiveLoft/pl
 ---
 
 # PartDesign SubtractivePipe/pl

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ConstrainTangent
    Name/cs: Sketcher ConstrainTangent
-   Workbenches: [Sketcher](Sketcher_Workbench/cs.md)
-   MenuLocation: Sketch - Sketcher constraints - Constrain tangent
+   Workbenches: Sketcher Workbench/cs
+   MenuLocation: Sketch -> Sketcher constraints -> Constrain tangent
    Shortcut: T
-   SeeAlso: [Constraint point on object](Sketcher_ConstrainPointOnObject/cs.md)
+   SeeAlso: Sketcher ConstrainPointOnObject/cs
 ---
 
 # Sketcher ConstrainTangent/cs

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Mesh Export
    Name/de: Polygonnetz Export
-   MenuLocation: Polygonnetze - Polygonnetz exportieren...
-   Workbenches: [Polygonnetz](Mesh_Workbench/de.md)
-   SeeAlso: [Std Export](Std_Export/de.md), [Import Export](Import_Export/de.md)
+   MenuLocation: Polygonnetze -> Polygonnetz exportieren...
+   Workbenches: Mesh_Workbench/de
+   SeeAlso: Std_Export/de, Import_Export/de
 ---
 
 # Mesh Export/de

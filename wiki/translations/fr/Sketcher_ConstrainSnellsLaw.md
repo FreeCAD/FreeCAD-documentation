@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher ConstrainSnellsLaw
    Name/fr: Sketcher Contrainte de réfraction
-   MenuLocation: Esquisse - Contraintes d'esquisse - Contrainte de réfraction (Loi de Snell)
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   MenuLocation: Esquisse -> Contraintes d'esquisse -> Contrainte de réfraction 
+   Workbenches: Sketcher_Workbench/fr
    Shortcut: **K** **W**
    Version: 0.15
 ---

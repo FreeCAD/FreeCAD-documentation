@@ -3,9 +3,9 @@
    Name: Std Workbench
    Name/de: Std Arbeitsbereich
    Empty: 1
-   MenuLocation: Ansicht - Arbeitsbereich
+   MenuLocation: Ansicht -> Arbeitsbereich
    Workbenches: Alle
-   SeeAlso: [Arbeitsbereiche](Workbenches/de.md)
+   SeeAlso: Workbenches/de
 ---
 
 # Std Workbench/de

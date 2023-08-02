@@ -4,9 +4,9 @@
    Name/ru: Image Scaling
    Icon: Image Scaling.svg
    MenuLocation: None
-   Workbenches: [Image](Image_Workbench/ru.md)
+   Workbenches: Image Workbench/ru
    Version: 0.18
-   SeeAlso: [Open image](Image_Open/ru.md), [Image plane](Image_CreateImagePlane/ru.md)
+   SeeAlso: Image Open/ru, Image CreateImagePlane/ru
 ---
 
 # Image Scaling/ru

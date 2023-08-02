@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Part_Mirror
    Name/fr: Part Miroir
-   MenuLocation: Part - Mise en miroir...
-   Workbenches: [Part](Part_Workbench/fr.md)
+   MenuLocation: Part -> Mise en miroir...
+   Workbenches: Part_Workbench/fr
 ---
 
 # Part Mirror/fr

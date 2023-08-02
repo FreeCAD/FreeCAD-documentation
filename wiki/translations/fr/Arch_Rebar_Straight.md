@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch Rebar Straight
    Name/fr: Arch Rebar Armature droite
-   MenuLocation: Arch - Outils pour les armatures - Armature droite<br>3D/BIM - Reinforcement tools - Armature droite
-   Workbenches: [Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   MenuLocation: Arch -> Outils pour les armatures -> Armature droite<br>3D/BIM -> Reinforcement tools -> Armature droite
+   Workbenches: Arch_Workbench/fr, BIM_Workbench/fr
    Version: 0.17
-   SeeAlso: [Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Rebar Nomenclature](Arch_Rebar_BOM/fr.md)
+   SeeAlso: Reinforcement_Workbench/fr, Arch_Rebar/fr, Arch_Rebar_BOM/fr
 ---
 
 # Arch Rebar Straight/fr

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std TreeSyncSelection
    Name/de: Std BaumSyncAuswahl
-   MenuLocation: View - Baumansicht-Aktionen - Sync-Auswahl
+   MenuLocation: View -> Baumansicht-Aktionen -> Sync-Auswahl
    Workbenches: Alle
    Shortcut: **T** **2**
    Version: 0.19

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Mesh BoundingBox‏‎
    Name/ru: Mesh BoundingBox‏‎
-   MenuLocation: Сетки - Анализ - Информация о структуре...
-   Workbenches: [Mesh](Mesh_Workbench/ru.md)
+   MenuLocation: Сетки -> Анализ -> Информация о структуре...
+   Workbenches: Mesh Workbench/ru
    Shortcut: 
    SeeAlso: 
 ---

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part CompJoinFeatures
    Name/de: Part AuswahlVerbindungsmethoden
-   MenuLocation: Formteil - Verbinden
-   Workbenches: [Part](Part_Workbench/de.md)
+   MenuLocation: Formteil -> Verbinden
+   Workbenches: Part_Workbench/de
    Version: 0.16
-   SeeAlso: [Part Verbinden](Part_JoinConnect/de.md), [Part Einbetten](Part_JoinEmbed/de.md), [Part Ausschneiden](Part_JoinCutout/de.md), [Part Boolesche Operationen](Part_Boolean/de.md), [Part Dicke](Part_Thickness/de.md)
+   SeeAlso: Part_JoinConnect/de, Part_JoinEmbed/de, Part_JoinCutout/de, Part_Boolean/de, Part_Thickness/de
 ---
 
 # Part CompJoinFeatures/de

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std New
    Name/ko: 표준 새 파일
-   MenuLocation: 파일 - 새 파일
+   MenuLocation: 파일 -> 새 파일
    Workbenches: 모두
    Shortcut: **Ctrl**+**N**
-   SeeAlso: [표준 열기](Std_Open/ko.md), [Std Import](Std_Import.md)
+   SeeAlso: Std_Open/ko, Std_Import
 ---
 
 # Std New/ko

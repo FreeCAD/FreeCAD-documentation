@@ -3,7 +3,7 @@
    Name: Std_Open
    Name/ja: Std_Open
    Workbenches: All
-   SeeAlso: [[Std_Save]],[[Std_Import]]
+   SeeAlso: Std_Save,Std_Import
 ---
 
 # Std Open/ja

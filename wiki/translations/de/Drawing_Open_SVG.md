@@ -3,10 +3,10 @@
 - GuiCommand:
    Name: Drawing Open SVG
    Name/de: Zeichnen Open SVG
-   Workbenches: [Zeichnen](Drawing_Workbench/de.md), Complete
-   MenuLocation: Drawing - Open SVG...
+   Workbenches: Drawing_Workbench/de, Complete
+   MenuLocation: Drawing -> Open SVG...
    Shortcut: none
-   SeeAlso: [Zeichnung speichern](Drawing_Save/de.md)---
+   SeeAlso: Drawing_Save/de---
 
 Dieses Werkzeug öffnet ein Zeichenblatt, das als SVG- (scalable vector graphics)-Datei gespeichert wurde. Es kann auch zur Ansicht jeder SVG-Graphik verwendet werden.
 

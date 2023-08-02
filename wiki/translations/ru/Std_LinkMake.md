@@ -5,7 +5,7 @@
    MenuLocation: Нет
    Workbenches: Все
    Version: 0.19
-   SeeAlso: ["Создать деталь"](Std_Part/ru.md), ["Создать группу"](Std_Group/ru.md), ["PartDesign Body"](PartDesign_Body/ru.md)
+   SeeAlso: Std_Part/ru, Std_Group/ru, PartDesign_Body/ru
 ---
 
 # Std LinkMake/ru

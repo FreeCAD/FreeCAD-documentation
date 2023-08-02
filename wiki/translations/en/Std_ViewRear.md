@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Std ViewRear
-   MenuLocation: View - Standard views - Rear
+   MenuLocation: View -> Standard views -> Rear
    Workbenches: All
    Shortcut: **4**
-   SeeAlso: [Std ViewBottom](Std_ViewBottom.md), [Std ViewLeft](Std_ViewLeft.md)
+   SeeAlso: Std_ViewBottom, Std_ViewLeft
 ---
 
 # Std ViewRear/en

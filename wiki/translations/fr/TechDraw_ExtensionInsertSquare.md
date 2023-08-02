@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ExtensionInsertSquare
    Name/fr: TechDraw Section tube
-   MenuLocation: TechDraw - Extensions : cotes - Insérer un préfixe '〼'
-   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   MenuLocation: TechDraw -> Extensions : cotes -> Insérer un préfixe '〼'
+   Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.20
-   SeeAlso: [TechDraw Diamètre](TechDraw_ExtensionInsertDiameter/fr.md)
+   SeeAlso: TechDraw_ExtensionInsertDiameter/fr
 ---
 
 # TechDraw ExtensionInsertSquare/fr

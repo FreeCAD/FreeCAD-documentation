@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name: Sketcher CompCreateCircle
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Workbenches: Sketcher Workbench
 ---
 
 # Sketcher CompCreateCircle/zh-cn

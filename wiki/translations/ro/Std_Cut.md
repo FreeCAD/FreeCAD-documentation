@@ -1,6 +1,6 @@
 # Std Cut/ro
 ---
-- GuiCommand:   Name: Std Cut   MenuLocation: [Shortcut: Ctrl+X   Workbenches: All   SeeAlso: [[Std Copy|Copy](Std_Edit_Menu___Edit]]_-_Cut.md), [Paste](Std_Paste.md), [Delete](Std_Delete.md)---
+- GuiCommand:   Name: Std Cut   MenuLocation: Std_Edit_Menu   Edit -> Cut, Std Paste, Std Delete---
 
 
 </div>

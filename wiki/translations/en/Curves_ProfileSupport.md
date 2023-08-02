@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Curves ProfileSupport
-   MenuLocation: Surfaces - Profile support plane
-   Workbenches: [Curves](Curves_Workbench.md)
+   MenuLocation: Surfaces -> Profile support plane
+   Workbenches: Curves_Workbench
 ---
 
 # Curves ProfileSupport/en

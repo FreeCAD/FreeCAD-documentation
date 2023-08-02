@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Snap Parallel
    Name/ru: Draft Snap Parallel
-   MenuLocation: Черчение - [Привязка](Draft_Snap/ru.md) - Параллельно
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Черчение -> Draft Snap/ru -> Параллельно
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: 
    SeeAlso: 
 ---

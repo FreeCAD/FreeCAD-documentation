@@ -1,6 +1,6 @@
 # FEM ConstraintDisplacement/ro
 ---
-- GuiCommand:   Name: FEM ConstraintDisplacement   Name/ro: FEM ConstraintDisplacement   MenuLocation: Model - Mechanical Constraints - Constraint displacement   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
+- GuiCommand:   Name: FEM ConstraintDisplacement   Name/ro: FEM ConstraintDisplacement   MenuLocation: Model -> Mechanical Constraints -> Constraint displacement   ---
 
 
 </div>

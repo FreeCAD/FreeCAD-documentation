@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Drawing Open SVG
    Name/pl: Drawing Open SVG
-   Workbenches: [Kreślenie](Drawing_Workbench/pl.md), Complete
-   MenuLocation: Drawing - Open SVG...
+   Workbenches: Drawing_Workbench/pl, Complete
+   MenuLocation: Drawing -> Open SVG...
    Shortcut: none
-   SeeAlso: [Zapisz](Drawing_Save/pl.md)
+   SeeAlso: Drawing_Save/pl
 ---
 
 # Drawing Open SVG/pl

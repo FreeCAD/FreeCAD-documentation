@@ -1,6 +1,6 @@
 # TechDraw Symbol/ro
 ---
-- GuiCommand:   Name: TechDraw  Symbol   Workbenches: [[TechDraw Workbench   TechDraw]]|MenuLocation: TechDraw - Symbol   Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: TechDraw  Symbol   Workbenches: TechDraw Workbench   TechDraw|MenuLocation: TechDraw -> Symbol   Shortcut:    SeeAlso: ---
 
 
 </div>

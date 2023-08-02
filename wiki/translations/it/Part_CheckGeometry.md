@@ -1,6 +1,6 @@
 # Part CheckGeometry/it
 ---
-- GuiCommand:   Name: Part CheckGeometry   Name/it: Controlla geometria‏‎   MenuLocation: Part - Controlla geometria   Workbenches: [[Part Workbench/it   Part]]|SeeAlso: ---
+- GuiCommand:   Name: Part CheckGeometry   Name/it: Controlla geometria‏‎   MenuLocation: Part -> Controlla geometria   Workbenches: Part Workbench/it   Part|SeeAlso: ---
 
 
 </div>

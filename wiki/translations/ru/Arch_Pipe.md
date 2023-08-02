@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch Pipe
    Name/ru: Труба
-   MenuLocation: Arch - Инструменты для труб - Труба
-   Workbenches: [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Arch -> Инструменты для труб -> Труба
+   Workbenches: Arch_Workbench/ru
    Shortcut: **P** **I**
-   SeeAlso: [Соединитель труб](Arch_PipeConnector/ru.md), [Оборудование](Arch_Equipment/ru.md)
+   SeeAlso: Arch PipeConnector/ru, Arch_Equipment/ru
    Version: 0.17
 ---
 

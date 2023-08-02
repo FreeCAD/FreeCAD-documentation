@@ -3,7 +3,7 @@
    Name: Draft Apply
    Name/ru: Применить текущий стиль
    MenuLocation: Черчение -> Утилиты -> Применить текущий стиль
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
 ---
 
 # Draft ApplyStyle/ru

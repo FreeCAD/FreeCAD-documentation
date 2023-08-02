@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Reinforcement Bar Shape Cut List
    Name/fr: Reinforcement Nomenclature de façonnage des armatures
-   MenuLocation: Reinforcement - Rebar Shape Cut List
-   Workbenches: [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   MenuLocation: Reinforcement -> Rebar Shape Cut List
+   Workbenches: Arch_Workbench, BIM_Workbench
    Version: 0.19
-   SeeAlso: [Reinforcement](Reinforcement_Workbench/fr.md), [Arch Rebar Dimensions dessins](Arch_Rebar_Drawing_Dimensioning/fr.md), [Arch Rebar Nomenclature](Arch_Rebar_BOM/fr.md)
+   SeeAlso: Reinforcement_Workbench/fr, Arch_Rebar_Drawing_Dimensioning/fr, Arch_Rebar_BOM/fr
 ---
 
 # Reinforcement Bar Shape Cut List/fr

@@ -1,6 +1,6 @@
 # Robot RestoreHomePos/de
 ---
-- GuiCommand:   Name: Robot RestoreHomePos   Workbenches: [[Robot_Workbench   Robot]]|MenuLocation: Roboter - zur Ausgangsposition bewegen---
+- GuiCommand:   Name: Robot RestoreHomePos   Workbenches: Robot_Workbench   Robot|MenuLocation: Roboter -> zur Ausgangsposition bewegen---
 
 
 </div>

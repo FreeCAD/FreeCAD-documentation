@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Curves Interpolate
    Name/de: Curves Interpolieren
-   MenuLocation: Curves - Interpolate
-   Workbenches: [Curves](Curves_Workbench/de.md)
+   MenuLocation: Curves -> Interpolate
+   Workbenches: Curves_Workbench/de
 ---
 
 # Curves Interpolate/de

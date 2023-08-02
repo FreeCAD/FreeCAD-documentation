@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Line
    Name/tr: Parça Çizgi
-   MenuLocation: Parça - [Temel geometrik şekil oluştur](Part_CreatePrimitives/tr.md) - Çizgi
-   Workbenches: [Parça](Part_Workbench.md),  [OpenSCAD](OpenSCAD_Workbench.md)
-   SeeAlso: [Part Primitives](Part_Primitives.md)
+   MenuLocation: Parça -> Part_CreatePrimitives/tr -> Çizgi
+   Workbenches: Part_Workbench,  OpenSCAD_Workbench
+   SeeAlso: Part_Primitives
 ---
 
 # Part Line/tr

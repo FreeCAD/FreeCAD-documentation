@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std DlgMacroRecord
    Name/de: Std DialogMakroAufzeichnen
-   MenuLocation: [Makro](Macros/de.md) - Makro aufzeichnen...
+   MenuLocation: Macros/de -> Makro aufzeichnen...
    Workbenches: Alle
-   Siehe auch: [Std MakroaufzeichnungBeenden](Std_DlgMacroExecuteDirect/de.md)
+   Siehe auch: Std_DlgMacroExecuteDirect/de
 ---
 
 # Std DlgMacroRecord/de

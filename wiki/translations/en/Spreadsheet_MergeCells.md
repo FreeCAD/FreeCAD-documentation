@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Spreadsheet MergeCells
-   MenuLocation: Spreadsheet - Merge cells
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench.md)
+   MenuLocation: Spreadsheet -> Merge cells
+   Workbenches: Spreadsheet_Workbench
    Version: 0.17
 ---
 

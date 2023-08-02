@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Mesh BoundingBox
    Name/fr: Mesh Limites englobantes
-   MenuLocation: Maillages - Analyser - Limites englobantes...
-   Workbenches: [Mesh](Mesh_Workbench/fr.md)
+   MenuLocation: Maillages -> Analyser -> Limites englobantes...
+   Workbenches: Mesh_Workbench/fr
 ---
 
 # Mesh BoundingBox/fr

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std Undo
    Name/pl: Std: Cofnij
-   MenuLocation: Edycja - Cofnij
+   MenuLocation: Edycja -> Cofnij
    Workbenches: wszystkie
    Shortcut: **Ctrl**+**Z**
-   SeeAlso: [Przywróć](Std_Redo/pl.md)
+   SeeAlso: Std_Redo/pl
 ---
 
 # Std Undo/pl

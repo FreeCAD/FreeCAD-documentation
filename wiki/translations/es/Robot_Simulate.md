@@ -1,6 +1,6 @@
 # Robot Simulate/es
 ---
-- GuiCommand:   Name: Robot Simulate   Name/es: Robot Simulate   Workbenches: [[Robot_Workbench/es   Robot]]|MenuLocation: Robot - Simulate a trajectory---
+- GuiCommand:   Name: Robot Simulate   Name/es: Robot Simulate   Workbenches: Robot_Workbench/es   Robot|MenuLocation: Robot -> Simulate a trajectory---
 
 
 </div>

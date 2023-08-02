@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher StopOperation
    Name/fr: Sketcher Arrêt de l'opération
-   MenuLocation: Esquisse - Arrêter l'opération
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   MenuLocation: Esquisse -> Arrêter l'opération
+   Workbenches: Sketcher_Workbench/fr
 ---
 
 # Sketcher StopOperation/fr

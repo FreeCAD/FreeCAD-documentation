@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Part Cut
-   MenuLocation: Part - Boolean - Cut
-   Workbenches: [Part](Part_Workbench.md)
-   SeeAlso: [Part Boolean](Part_Boolean.md), [Part Fuse](Part_Fuse.md), [Part Common](Part_Common.md)
+   MenuLocation: Part -> Boolean -> Cut
+   Workbenches: Part_Workbench
+   SeeAlso: Part_Boolean, Part_Fuse, Part_Common
 ---
 
 # Part Cut

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name/ru: Инструменты для создания труб
    Name: Arch_CompPipe
-   MenuLocation: Arch - Инструменты для создания труб
-   Workbenches: [Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
+   MenuLocation: Arch -> Инструменты для создания труб
+   Workbenches: Arch_Workbench/ru, BIM_Workbench/ru
    Version: 0.17
    SeeAlso: 
 ---

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: SheetMetal SketchOnSheet
-   MenuLocation: SheetMetal - Sketch On Sheet metal
-   Workbenches: [SheetMetal](SheetMetal_Workbench.md)
+   MenuLocation: SheetMetal -> Sketch On Sheet metal
+   Workbenches: SheetMetal_Workbench
    Shortcut: **M** **S**
 ---
 

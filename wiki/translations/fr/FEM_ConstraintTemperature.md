@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: FEM ConstraintTemperature
    Name/fr: FEM Contrainte de température
-   MenuLocation: Modèle - Contraintes thermiques - Contrainte de température
-   Workbenches: [FEM](FEM_Workbench/fr.md)
-   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
+   MenuLocation: Modèle -> Contraintes thermiques -> Contrainte de température
+   Workbenches: FEM_Workbench/fr
+   SeeAlso: FEM_tutorial/fr
 ---
 
 # FEM ConstraintTemperature/fr

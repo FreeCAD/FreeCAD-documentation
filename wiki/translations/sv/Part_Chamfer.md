@@ -1,6 +1,6 @@
 # Part Chamfer/sv
 ---
-- GuiCommand:   Name: Part Chamfer   Name/sv: Part Chamfer   MenuLocation: Part - Chamfer   Workbenches: [[Part_Workbench/sv   Part]], Complete|SeeAlso: ---
+- GuiCommand:   Name: Part Chamfer   Name/sv: Part Chamfer   MenuLocation: Part -> Chamfer   Workbenches: Part_Workbench/sv   Part, Complete|SeeAlso: ---
 
 
 </div>

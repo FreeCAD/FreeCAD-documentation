@@ -3,8 +3,8 @@
    Name: Sketcher Create a B-Spline
    Name/es: Croquizador Crear una B-Spline
    Icon: Sketcher_CompCreateBSpline.png
-   MenuLocation: Ninguno (sólo barra de herramientas)
-   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   MenuLocation: Ninguno 
+   Workbenches: Sketcher_Workbench/es
    Version: 0.17
 ---
 

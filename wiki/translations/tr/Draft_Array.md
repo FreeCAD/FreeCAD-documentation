@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft Array
    Name/tr: Dizi
-   MenuLocation: Taslak - Dizi
-   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   SeeAlso: [Yol dizisi](Draft_PathArray/tr.md),[Nokta dizisi](Draft_PointArray/tr.md),[Klonla](Draft_Clone/tr.md)
+   MenuLocation: Taslak -> Dizi
+   Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
+   SeeAlso: Draft PathArray/tr,Draft PointArray/tr,Draft Clone/tr
 ---
 
 # Draft Array/tr

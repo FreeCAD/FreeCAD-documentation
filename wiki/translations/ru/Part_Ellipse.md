@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Part Ellipse
    Name/ru: Эллипс
-   MenuLocation: Деталь - [Создать примитивы...](Part_Primitives/ru.md) - Эллипс
-   Workbenches: [Part(Деталь)](Part_Workbench/ru.md), [OpenSCAD](OpenSCAD_Workbench/ru.md)
+   MenuLocation: Деталь -> Part_Primitives/ru -> Эллипс
+   Workbenches: Part_Workbench/ru, OpenSCAD_Workbench/ru
    SeeAlso: ..
 ---
 

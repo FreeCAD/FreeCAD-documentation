@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Dimension
    Name/pl: Draft: Wymiar
-   MenuLocation: Adnotacja - Wymiar
-   Workbenches: [Rysunek roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   MenuLocation: Adnotacja -> Wymiar
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **D** **I**
    Version: 0.8
-   SeeAlso: [FlipDimension](Draft_FlipDimension/pl.md)
+   SeeAlso: Draft_FlipDimension/pl
 ---
 
 # Draft Dimension/pl

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name/ru: Draft_Stretch
    Name: Draft_Stretch
-   MenuLocation: Modification - Stretch
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Modification -> Stretch
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: **S** **H**
    Version: 0.17
 ---

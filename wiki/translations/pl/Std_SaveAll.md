@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std SaveAll
    Name/pl: Std: Zapisz wszystkie
-   MenuLocation: Plik - Zapisz wszystkie
+   MenuLocation: Plik -> Zapisz wszystkie
    Workbenches: wszystkie
-   SeeAlso: [Zapisz](Std_Save/pl.md)
+   SeeAlso: Std_Save/pl
 ---
 
 # Std SaveAll/pl

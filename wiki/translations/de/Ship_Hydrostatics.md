@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Ship Hydrostatics
    Name/de: Schiff Hydrostatik
-   MenuLocation: Schiffkonstruktion - Hydrostatics
-   Workbenches: [Schiff](Ship_Workbench/de.md)
+   MenuLocation: Schiffkonstruktion -> Hydrostatics
+   Workbenches: Ship Workbench/de
    Shortcut: |
 SeeAlso=
 ---

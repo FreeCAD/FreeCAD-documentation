@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Curves Pipeshell
-   MenuLocation: Surfaces - Pipeshell 
-   Workbenches: [Curves](Curves_Workbench.md)
+   MenuLocation: Surfaces -> Pipeshell 
+   Workbenches: Curves_Workbench
 ---
 
 # Curves Pipeshell/en

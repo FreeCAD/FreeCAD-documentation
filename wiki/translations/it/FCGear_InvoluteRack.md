@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: FCGear InvoluteRack
    Name/it: Cremagliera
-   MenuLocation: FCGear - Create an Involute rack
-   Workbenches: [FCGear](FCGear_Workbench/it.md)
+   MenuLocation: FCGear -> Create an Involute rack
+   Workbenches: FCGear Workbench/it
    Shortcut: None
    Version: 0.16
-   SeeAlso: [Ingranaggio a spirale](FCGear_InvoluteGear/it.md)
+   SeeAlso: FCGear InvoluteGear/it
 ---
 
 # FCGear InvoluteRack/it

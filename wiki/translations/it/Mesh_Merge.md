@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Mesh_Merge
    Name/it: Unisci
-   MenuLocation: Mesh - Unisci
-   Workbenches: [Mesh](Mesh_Workbench/it.md)
-   SeeAlso: [Dividi in componenti](Mesh_SplitComponents/it.md)
+   MenuLocation: Mesh -> Unisci
+   Workbenches: Mesh_Workbench/it
+   SeeAlso: Mesh_SplitComponents/it
 ---
 
 # Mesh Merge/it

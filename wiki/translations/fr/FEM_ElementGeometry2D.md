@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM ElementGeometry2D
    Name/fr: FEM Épaisseur de l'élément de type coque
-   MenuLocation: Modèle - Géométrie de l'élement - Épaisseur de la coque
-   Workbenches: [FEM](FEM_Workbench/fr.md)
+   MenuLocation: Modèle -> Géométrie de l'élement -> Épaisseur de la coque
+   Workbenches: FEM_Workbench/fr
    Shortcut: **C** **S**
-   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
+   SeeAlso: FEM_tutorial/fr
 ---
 
 # FEM ElementGeometry2D/fr

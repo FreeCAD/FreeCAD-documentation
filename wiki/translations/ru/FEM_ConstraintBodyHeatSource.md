@@ -3,10 +3,10 @@
    Name: FEM ConstraintBodyHeatSource
    Name/ru: FEM ConstraintBodyHeatSource
    Icon: Fem-constraint-heatflux.svg
-   MenuLocation:  Model - Thermal constraints - Constraint body heat source
-   Workbenches: [FEM](FEM_Workbench/ru.md)
+   MenuLocation:  Model -> Thermal constraints -> Constraint body heat source
+   Workbenches: FEM_Workbench/ru
    Shortcut: 
-   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
+   SeeAlso: FEM_tutorial/ru
 ---
 
 # FEM ConstraintBodyHeatSource/ru

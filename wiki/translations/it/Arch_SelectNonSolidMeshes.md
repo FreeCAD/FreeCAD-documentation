@@ -3,9 +3,9 @@
    Name: Arch SelectNonSolidMeshes
    Name/it: Seleziona non solidi
    Icon: Arch SelectNonManifold.svg
-   Workbenches: [Architettura](Arch_Workbench/it.md)
-   MenuLocation: Arch - Utilità - Seleziona le mesh non solidi
-   SeeAlso: [Dividi mesh](Arch_SplitMesh/it.md),[Da mesh a forma](Arch_MeshToShape/it.md)
+   Workbenches: Arch_Workbench/it
+   MenuLocation: Arch -> Utilità -> Seleziona le mesh non solidi
+   SeeAlso: Arch SplitMesh/it,Arch MeshToShape/it
 ---
 
 # Arch SelectNonSolidMeshes/it

@@ -1,6 +1,6 @@
 # Std OrthographicCamera/es
 ---
-- GuiCommand:   Name: Std OrthographicCamera   Name/es: Std OrthographicCamera   MenuLocation: [|Workbenches: All   Shortcut:    SeeAlso: [[Std PerspectiveCamera/es|Perspective View](Std_View_Menu/es___View]]_-_Orthographic_view.md)---
+- GuiCommand:   Name: Std OrthographicCamera   Name/es: Std OrthographicCamera   MenuLocation: Std View Menu/es   View -> Orthographic view---
 
 
 </div>

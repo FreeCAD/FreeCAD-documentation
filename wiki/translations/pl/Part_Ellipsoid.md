@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Ellipsoid
    Name/pl: Część Elipsoida
-   MenuLocation: Część - Utwórz geometrie pierwotne ... - Elipsoida
-   Workbenches: [Część](Part_Workbench/pl.md), [OpenSCAD](OpenSCAD_Workbench/pl.md)
-   SeeAlso: [Utwórz geometrie pierwotne](Part_Primitives/pl.md)
+   MenuLocation: Część -> Utwórz geometrie pierwotne ... -> Elipsoida
+   Workbenches: Part_Workbench/pl, OpenSCAD_Workbench/pl
+   SeeAlso: Part_Primitives/pl
 ---
 
 # Part Ellipsoid/pl

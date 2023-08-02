@@ -3,7 +3,7 @@
    Name: Std MergeProjects
    Name/ro: Fuzionați Proiectul
    Workbenches: All
-   MenuLocation: File - Fuzionați Proiectul
+   MenuLocation: File -> Fuzionați Proiectul
    Shortcut: 
    SeeAlso: 
 ---

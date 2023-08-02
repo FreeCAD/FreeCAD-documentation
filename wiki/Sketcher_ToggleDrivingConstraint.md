@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Sketcher ToggleDrivingConstraint
-   MenuLocation: Sketch - Sketcher constraints - Toggle driving/reference constraint
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch -> Sketcher constraints -> Toggle driving/reference constraint
+   Workbenches: Sketcher_Workbench
    Shortcut: **K** **X**
    Version: 0.16
-   SeeAlso: [Sketcher Toggle Construction](Sketcher_ToggleConstruction.md)
+   SeeAlso: Sketcher_ToggleConstruction
 ---
 
 # Sketcher ToggleDrivingConstraint

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch BuildingPart
    Name/de: Arch Gebäudeteil
-   MenuLocation: Arch - Gebäudeteil
-   Workbenches: [Arch](Arch_Workbench/de.md)
+   MenuLocation: Arch -> Gebäudeteil
+   Workbenches: Arch_Workbench/de
    Version: 0.18
-   SeeAlso: [Arch Gebäude](Arch_Building/de.md), [Arch Grundstück](Arch_Site/de.md)
+   SeeAlso: Arch_Building/de, Arch_Site/de
 ---
 
 # Arch BuildingPart/de

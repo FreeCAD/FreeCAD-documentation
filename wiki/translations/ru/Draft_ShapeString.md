@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft ShapeString
    Name/ru: Draft ShapeString
-   MenuLocation: Черчение - Текст в кривую ...
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Черчение -> Текст в кривую ...
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: **S** **S**
    Version: 0.14
-   SeeAlso: [Draft Text](Draft_Text/ru.md), [Part Extrude](Part_Extrude/ru.md)
+   SeeAlso: Draft Text/ru, Part Extrude/ru
 ---
 
 # Draft ShapeString/ru

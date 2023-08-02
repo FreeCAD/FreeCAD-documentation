@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Robot RestoreHomePos
    Name/tr: Robot Ana konuma dön
-   Workbenches: [Robot](Robot_Workbench/tr.md)
-   MenuLocation: Robot - Ana konuma dön
+   Workbenches: Robot_Workbench/tr
+   MenuLocation: Robot -> Ana konuma dön
 ---
 
 # Robot RestoreHomePos/tr

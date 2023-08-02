@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std_New
    Name/ru: Создать
-   MenuLocation: Файл - Создать
+   MenuLocation: Файл -> Создать
    Workbenches: All
    Shortcut: **Ctrl**+**N**
-   SeeAlso: [Открыть файл](Std_Open/ru.md),<br>[Импортировать файл](Std_Import/ru.md)
+   SeeAlso: Std_Open/ru,<br>Std_Import/ru
 ---
 
 # Std New/ru

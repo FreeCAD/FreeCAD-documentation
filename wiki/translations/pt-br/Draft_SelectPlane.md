@@ -3,9 +3,9 @@
    Name: Draft SelectPlane
    Name/pt-br: Draft SelectPlane
    MenuLocation: Draft -> Utilities -> Select Plane
-   Workbenches: [Draft](Draft_Workbench/pt-br.md), [Arch](Arch_Workbench/pt-br.md)
+   Workbenches: Draft_Workbench/pt-br, Arch_Workbench/pt-br
    Shortcut: **W** **P**
-   SeeAlso: [Draft WorkingPlaneProxy](Draft_WorkingPlaneProxy.md)
+   SeeAlso: Draft_WorkingPlaneProxy
 ---
 
 # Draft SelectPlane/pt-br

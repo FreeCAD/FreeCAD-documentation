@@ -1,6 +1,6 @@
 # Drawing Symbol/sv
 ---
-- GuiCommand:   Name: Drawing Symbol   Name/sv: Drawing Symbol   Workbenches: [[Drawing Workbench/sv   Drawing]], Complete|MenuLocation: Drawing - Symbol   Shortcut: none---
+- GuiCommand:   Name: Drawing Symbol   Name/sv: Drawing Symbol   Workbenches: Drawing Workbench/sv   Drawing, Complete|MenuLocation: Drawing -> Symbol   Shortcut: none---
 
 ## Beskrivning
 

@@ -4,7 +4,7 @@
    MenuLocation: 
    Workbenches: All
    Version: 0.19
-   SeeAlso: [Std LinkSelectLinked](Std_LinkSelectLinked.md), [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks.md), [Std SelForward](Std_SelForward.md)
+   SeeAlso: Std_LinkSelectLinked, Std_LinkSelectLinkedFinal, Std_LinkSelectAllLinks, Std_SelForward
 ---
 
 # Std SelBack/pt-br

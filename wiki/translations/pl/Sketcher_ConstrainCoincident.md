@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ConstrainCoincident
    Name/pl: Szkicownik: Wiązanie zbieżności punktów
-   MenuLocation: Szkic - Wiązania szkicownika - Wiązanie zbieżności
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   MenuLocation: Szkic -> Wiązania szkicownika -> Wiązanie zbieżności
+   Workbenches: Sketcher_Workbench/pl
    Shortcut: **C**
-   SeeAlso: [Wiązanie blokady odległości](Sketcher_ConstrainLock/pl.md), [Wiązanie punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md)
+   SeeAlso: Sketcher_ConstrainLock/pl, Sketcher_ConstrainPointOnObject/pl
 ---
 
 # Sketcher ConstrainCoincident/pl

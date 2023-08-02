@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: FEM ConstraintFlowVelocity
    Name/fr: FEM Contrainte de vitesse d'écoulement
-   MenuLocation: Modèle - Contraintes du fluide - Contrainte de vitesse d'écoulement
-   Workbenches: [FEM](FEM_Workbench/fr.md)
-   SeeAlso: [FEM Contrainte vitesse d'écoulement initiale](FEM_ConstraintInitialFlowVelocity/fr.md)
+   MenuLocation: Modèle -> Contraintes du fluide -> Contrainte de vitesse d'écoulement
+   Workbenches: FEM_Workbench/fr
+   SeeAlso: FEM_ConstraintInitialFlowVelocity/fr
 ---
 
 # FEM ConstraintFlowVelocity/fr

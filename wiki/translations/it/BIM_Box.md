@@ -2,10 +2,10 @@
 - GuiCommand:Addon/it
    Name: BIM Box
    Name/it: Box BIM
-   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/it.md)
+   Workbenches: Image:IFC.svg BIM Workbench/it
    Addon: BIM
-   MenuLocation: Modellazione 3D - Box
-   SeeAlso: [Box di Parte](Part_Box/it.md)
+   MenuLocation: Modellazione 3D -> Box
+   SeeAlso: Part Box/it
 ---
 
 # BIM Box/it

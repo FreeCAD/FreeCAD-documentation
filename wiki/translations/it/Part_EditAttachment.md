@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part Attachment
    Name/it: Part Allegato
-   MenuLocation: Part - Allegato...
-   Workbenches: [Part](Part_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation: Part -> Allegato...
+   Workbenches: Part_Workbench/it, PartDesign_Workbench/it
    Version: 0.17
-   SeeAlso: [Posizionamento](Placement/it.md), [Tutorial di base sugli allegati](Basic_Attachment_Tutorial/it.md), [Part Parte2DOggetto](Part_Part2DObject/it.md)
+   SeeAlso: Placement/it, Basic_Attachment_Tutorial/it, Part_Part2DObject/it
 ---
 
 # Part EditAttachment/it

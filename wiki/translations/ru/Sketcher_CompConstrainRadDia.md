@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Sketcher constrain radius or diameter
    MenuLocation: 
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Workbenches: Sketcher Workbench
 ---
 
 # Sketcher CompConstrainRadDia/ru

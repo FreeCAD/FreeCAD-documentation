@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Part Cone
-   MenuLocation: Part - Primitives - Cone
-   Workbenches: [Part](Part_Workbench.md)
-   SeeAlso: [Part Primitives](Part_Primitives.md)
+   MenuLocation: Part -> Primitives -> Cone
+   Workbenches: Part_Workbench
+   SeeAlso: Part_Primitives
 ---
 
 # Part Cone/pt-br

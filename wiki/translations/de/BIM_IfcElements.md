@@ -2,10 +2,10 @@
 - GuiCommand:Addon/de
    Name: BIM IfcElements
    Name/de: BIM IfcElemente
-   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
+   Workbenches: Image:IFC.svg BIM Workbench/de
    Addon: BIM
-   MenuLocation: Verwalten - IFC Elemente
-   SeeAlso: [BIM IfcEigenschaften](BIM_IfcProperties/de.md),[BIM IfcGrößen](BIM_IfcQuantities/de.md)
+   MenuLocation: Verwalten -> IFC Elemente
+   SeeAlso: BIM IfcProperties/de,BIM IfcQuantities/de
 ---
 
 # BIM IfcElements/de

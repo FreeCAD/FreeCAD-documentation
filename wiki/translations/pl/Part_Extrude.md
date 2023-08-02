@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Extrude
    Name/pl: Część: Wyciągnięcie
-   MenuLocation: Część - Wyciągnięcie
-   Workbenches: [Część](Part_Workbench/pl.md)
-   SeeAlso: [Przytnij](Draft_Trimex/pl.md), [Wyciągnij](PartDesign_Pad/pl.md)
+   MenuLocation: Część -> Wyciągnięcie
+   Workbenches: Part_Workbench/pl
+   SeeAlso: Draft_Trimex/pl, PartDesign_Pad/pl
 ---
 
 # Part Extrude/pl

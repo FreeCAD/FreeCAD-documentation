@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: PartDesign SubtractiveBox
-   MenuLocation: Part Design - Create a subtractive primitive - Subtractive box
-   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   MenuLocation: Part Design -> Create a subtractive primitive -> Subtractive box
+   Workbenches: PartDesign_Workbench
    Version: 0.17
-   SeeAlso: [PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign AdditiveBox](PartDesign_AdditiveBox.md)
+   SeeAlso: PartDesign_CompPrimitiveSubtractive, PartDesign_AdditiveBox
 ---
 
 # PartDesign SubtractiveBox/pt-br

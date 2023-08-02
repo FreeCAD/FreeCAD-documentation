@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Sphere
    Name/fr: Part Sphère
-   MenuLocation: Part - Primitives - Sphère
-   Workbenches: [Part](Part_Workbench/fr.md)
-   SeeAlso: [Part Primitives](Part_Primitives/fr.md)
+   MenuLocation: Part -> Primitives -> Sphère
+   Workbenches: Part_Workbench/fr
+   SeeAlso: Part_Primitives/fr
 ---
 
 # Part Sphere/fr

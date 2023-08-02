@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part_Sphere
    Name/ru: Сфера
-   MenuLocation: Деталь - Примитивы - Сфера
-   Workbenches: [Part(Деталь)](Part_Workbench/ru.md)
-   SeeAlso: [Создать примитивы](Part_Primitives/ru.md)
+   MenuLocation: Деталь -> Примитивы -> Сфера
+   Workbenches: Part_Workbench/ru
+   SeeAlso: Part_Primitives/ru
 ---
 
 # Part Sphere/ru

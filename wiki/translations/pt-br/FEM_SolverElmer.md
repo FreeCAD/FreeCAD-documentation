@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: FEM SolverElmer
-   MenuLocation: Solver - Solver Elmer
-   Workbenches: [FEM](FEM_Workbench.md)
+   MenuLocation: Solver -> Solver Elmer
+   Workbenches: FEM_Workbench
    Shortcut: **S** **E**
-   SeeAlso: [FEM SolverElmer SolverSettings](FEM_SolverElmer_SolverSettings.md), [FEM Solver CalculiX](FEM_SolverCalculiX.md), [FEM Solver Z88](FEM_SolverZ88.md), [FEM tutorial](FEM_tutorial.md)
+   SeeAlso: FEM_SolverElmer_SolverSettings, FEM_SolverCalculiX, FEM_SolverZ88, FEM_tutorial
 ---
 
 # FEM SolverElmer/pt-br

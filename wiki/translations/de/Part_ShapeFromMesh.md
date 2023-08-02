@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part ShapeFromMesh‏‎
    Name/de: Part FormAusNetz
-   MenuLocation: Part - Erzeuge Form aus Netz...
-   Workbenches: [Part](Part_Workbench/de.md)
-   SeeAlso: [Part UmwandelnInFestkörper](Part_MakeSolid/de.md), [Part FormVerfeinern](Part_RefineShape/de.md), [Part PunkteAusNetz](Part_PointsFromMesh/de.md)
+   MenuLocation: Part -> Erzeuge Form aus Netz...
+   Workbenches: Part_Workbench/de
+   SeeAlso: Part_MakeSolid/de, Part_RefineShape/de, Part_PointsFromMesh/de
 ---
 
 # Part ShapeFromMesh/de

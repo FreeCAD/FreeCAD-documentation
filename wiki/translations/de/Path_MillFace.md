@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path MillFace
    Name/de: Pfad Fräsfläche
-   MenuLocation: Pfad - Fläche
-   Workbenches: [Pfad](Path_Workbench/de.md)
+   MenuLocation: Pfad -> Fläche
+   Workbenches: Path_Workbench/de
 ---
 
 # Path MillFace/de

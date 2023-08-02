@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintColinear
    Name/de: Assembly3 Kollinear
    Icon: Assembly_ConstraintColinear.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 ConstraintColinear/de

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft Apply
    Name/pl: Rysunek Roboczy: Zastosuj bieżący styl
-   MenuLocation: Przybory - Zastosuj bieżący styl
-   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
-   SeeAlso: [Ustaw styl](Draft_SetStyle/pl.md)
+   MenuLocation: Przybory -> Zastosuj bieżący styl
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   SeeAlso: Draft_SetStyle/pl
 ---
 
 # Draft ApplyStyle/pl

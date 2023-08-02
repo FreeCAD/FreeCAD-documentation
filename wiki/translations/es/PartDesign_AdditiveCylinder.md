@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign AdditiveCylinder
    Name/es: DiseñoPiezas CilindroAditivo
-   MenuLocation: DiseñoPiezas - Crear una primitiva aditiva - Cilindro Aditivo
-   Workbenches: [DiseñoPiezas](PartDesign_Workbench/es.md)
+   MenuLocation: DiseñoPiezas -> Crear una primitiva aditiva -> Cilindro Aditivo
+   Workbenches: PartDesign_Workbench/es
    Version: 0.17
-   SeeAlso: [Crear una primitiva aditiva](PartDesign_CompPrimitiveAdditive/es.md), [Cilindro sustractivo](PartDesign_SubtractiveCylinder/es.md)
+   SeeAlso: PartDesign_CompPrimitiveAdditive/es, PartDesign_SubtractiveCylinder/es
 ---
 
 # PartDesign AdditiveCylinder/es

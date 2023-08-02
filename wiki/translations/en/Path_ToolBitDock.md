@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Path ToolBitDock
-   MenuLocation: Path - ToolBit Dock
-   Workbenches: [Path](Path_Workbench.md)
+   MenuLocation: Path -> ToolBit Dock
+   Workbenches: Path_Workbench
    Shortcut: **P** **T**
    Version: 0.19
-   SeeAlso: [Path ToolBitLibraryOpen](Path_ToolBitLibraryOpen.md), [Path Tools](Path_Tools.md), [Path ToolBit](Path_ToolBit.md)
+   SeeAlso: Path_ToolBitLibraryOpen, Path_Tools, Path_ToolBit
 ---
 
 # Path ToolBitDock/en

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Assembly3 ConstraintPointDistance
    Icon: Assembly_ConstraintPointDistance.svg
-   Workbenches: [Assembly3](Assembly3_Workbench.md)
-   SeeAlso: [Assembly3 Constraint Points distance](Assembly3_ConstraintPointsDistance.md)
+   Workbenches: Assembly3_Workbench
+   SeeAlso: Assembly3_ConstraintPointsDistance
 ---
 
 # Assembly3 ConstraintPointDistance/pl

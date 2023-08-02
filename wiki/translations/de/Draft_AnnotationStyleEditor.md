@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft AnnotationStyleEditor
    Name/de: Entwurf AnmerkungsStilEditor
-   MenuLocation: Anmerkung - Anmerkungsstile...
-   Workbenches: [Entwurf](Draft_Workbench/de.md)
-   SeeAlso: [Entwurf Text](Draft_Text/de.md), [Entwurf Beschriftung](Draft_Label/de.md), [Entwurf Abmessung](Draft_Dimension/de.md)
+   MenuLocation: Anmerkung -> Anmerkungsstile...
+   Workbenches: Draft_Workbench/de
+   SeeAlso: Draft_Text/de, Draft_Label/de, Draft_Dimension/de
    Version: 0.19
 ---
 

@@ -3,7 +3,7 @@
    Name: Sketcher constrain arc or circle
    Name/pl: Szkicownik: Wiązanie promienia lub średnicy
    MenuLocation: 
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   Workbenches: Sketcher Workbench/pl
 ---
 
 # Sketcher CompConstrainRadDia/pl

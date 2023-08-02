@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Snap Special
    Name/it: Speciale
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   MenuLocation: Draft - [Snap](Draft_Snap/it.md) - Speciale
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   MenuLocation: Draft -> Draft Snap/it -> Speciale
    Shortcut: 
-   SeeAlso: [Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
+   SeeAlso: Draft Snap/it, Draft_Snap_Lock/it
    Version: 0.17
 ---
 

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: TechDraw  Dimension Diameter
    Name/it: Diametro
-   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
-   MenuLocation: TechDraw - Diametro
+   Workbenches: TechDraw_Workbench/it
+   MenuLocation: TechDraw -> Diametro
    Shortcut: 
-   SeeAlso: [Raggio](TechDraw_RadiusDimension/it.md)
+   SeeAlso: TechDraw_RadiusDimension/it
 ---
 
 # TechDraw DiameterDimension/it

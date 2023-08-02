@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher CloseShape
    Name/fr: Sketcher Fermer la forme
-   MenuLocation: Esquisse - Outils d'esquisse - Fermer la forme
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   MenuLocation: Esquisse -> Outils d'esquisse -> Fermer la forme
+   Workbenches: Sketcher_Workbench/fr
    Shortcut: **Z** **W**
    Version: 0.15
 ---

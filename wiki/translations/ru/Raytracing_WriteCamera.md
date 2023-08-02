@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Raytracing WriteCamera‏‎ 
    Name/ru: Raytracing WriteCamera‏‎ 
-   MenuLocation: Трассировка лучей - Экспорт камеры в POV-Ray
-   Workbenches: [Raytracing](Raytracing_Workbench/ru.md)
+   MenuLocation: Трассировка лучей -> Экспорт камеры в POV-Ray
+   Workbenches: Raytracing_Workbench/ru
    Shortcut: 
    SeeAlso: 
 ---

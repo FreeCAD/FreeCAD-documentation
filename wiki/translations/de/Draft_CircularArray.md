@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft CircularArray
    Name/de: Draft KreisAnordnung
-   MenuLocation: Änderung - Array tools - Kreis-Anordnung
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   MenuLocation: Änderung -> Array tools -> Kreis-Anordnung
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Version: 0.19
-   SeeAlso: [Draft RechtwinkligeAnordnung](Draft_OrthoArray/de.md), [Draft PolareAnordnung](Draft_PolarArray/de.md), [Draft PfadAnordnung](Draft_PathArray/de.md), [Draft PfadVerknüpfungsanordnung](Draft_PathLinkArray/de.md), [Draft PunktAnordnung](Draft_PointArray/de.md), [Draft PunktVerknüpfungsanordnung](Draft_PointLinkArray/de.md)
+   SeeAlso: Draft_OrthoArray/de, Draft_PolarArray/de, Draft_PathArray/de, Draft_PathLinkArray/de, Draft_PointArray/de, Draft_PointLinkArray/de
 ---
 
 # Draft CircularArray/de

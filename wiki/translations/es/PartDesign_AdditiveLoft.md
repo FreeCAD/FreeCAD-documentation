@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: PartDesign AdditiveLoft
-   MenuLocation: Part Design - Create an additive feature - Additive loft
-   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   MenuLocation: Part Design -> Create an additive feature -> Additive loft
+   Workbenches: PartDesign_Workbench
    Version: 0.17
-   SeeAlso: [PartDesign AdditivePipe](PartDesign_AdditivePipe.md), [PartDesign SubtractiveLoft](PartDesign_SubtractiveLoft.md)
+   SeeAlso: PartDesign_AdditivePipe, PartDesign_SubtractiveLoft
 ---
 
 # PartDesign AdditiveLoft/es

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: PartDesign Sprocket
-   MenuLocation: Part Design - Sprocket...
-   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   MenuLocation: Part Design -> Sprocket...
+   Workbenches: PartDesign_Workbench
    Version: 0.19
 ---
 

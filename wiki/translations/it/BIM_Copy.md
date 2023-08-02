@@ -2,10 +2,10 @@
 - GuiCommand:Addon/it
    Name: BIM Copy
    Name/it: Copia BIM
-   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/it.md)
+   Workbenches: Image:IFC.svg BIM Workbench/it
    Addon: BIM
-   MenuLocation: Modifica - Copia
-   SeeAlso: [Sposta di Draft](Draft_Move/it.md)
+   MenuLocation: Modifica -> Copia
+   SeeAlso: Draft Move/it
 ---
 
 # BIM Copy/it

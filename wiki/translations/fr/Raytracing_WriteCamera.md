@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Raytracing WriteCamera‏‎
    Name/fr: Raytracing Exporter la caméra vers POV-Ray
-‏‎   MenuLocation: Raytracing - Utilitaires - Exporter la caméra vers POV-Ray
-   Workbenches: [Raytracing](Raytracing_Workbench/fr.md)
+‏‎   MenuLocation: Raytracing -> Utilitaires -> Exporter la caméra vers POV-Ray
+   Workbenches: Raytracing_Workbench/fr
    Shortcut: 
    SeeAlso: 
 ---

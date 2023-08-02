@@ -3,8 +3,8 @@
    Name: Drawing ProjectShape
    Name/ru: Drawing ProjectShape
    Empty: 1
-   Workbenches: [Drawing](Drawing_Workbench/ru.md)
-   MenuLocation: Чертёж - Проекция фигуры
+   Workbenches: Drawing Workbench/ru
+   MenuLocation: Чертёж -> Проекция фигуры
 ---
 
 # Drawing ProjectShape/ru

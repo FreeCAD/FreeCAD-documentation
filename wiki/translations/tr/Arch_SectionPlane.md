@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch SectionPlane
    Name/tr: Arch SectionPlane
-   MenuLocation: Arch - Section Plane
-   Workbenches: [Arch](Arch_Workbench.md)
+   MenuLocation: Arch -> Section Plane
+   Workbenches: Arch_Workbench
    Shortcut: **S** **P**
-   SeeAlso: [Draft Shape2DView](Draft_Shape2DView.md), [TechDraw NewArch](TechDraw_ArchView.md)
+   SeeAlso: Draft Shape2DView, TechDraw_ArchView
 ---
 
 # Arch SectionPlane/tr

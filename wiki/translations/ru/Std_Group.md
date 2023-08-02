@@ -2,11 +2,11 @@
 - GuiCommand:
    Name/ru: Создать группу
    Name: Std_Group
-   MenuLocation: [Древовидное представление](Tree_view/ru.md) - Правый клик на имени документа - Создать группу
+   MenuLocation: Tree_view/ru -> Правый клик на имени документа -> Создать группу
    Workbenches: Все
    Shortcut: 
    Version: 
-   SeeAlso: [Создать деталь](Std_Part/ru.md), [Выбрать группу](Draft_SelectGroup/ru.md), [Переместить в группу](Draft_AddToGroup/ru.md)
+   SeeAlso: Std_Part/ru, Draft_SelectGroup/ru, Draft_AddToGroup/ru
 ---
 
 # Std Group/ru

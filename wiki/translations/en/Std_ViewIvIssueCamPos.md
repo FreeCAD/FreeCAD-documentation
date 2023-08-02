@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Std ViewIvIssueCamPos
-   MenuLocation: View - Stereo - Issue camera position
+   MenuLocation: View -> Stereo -> Issue camera position
    Workbenches: All
-   SeeAlso: [Std FreezeViews](Std_FreezeViews.md)
+   SeeAlso: Std_FreezeViews
 ---
 
 # Std ViewIvIssueCamPos/en

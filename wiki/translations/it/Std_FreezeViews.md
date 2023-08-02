@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std_FreezeViews
    Name/it: Viste bloccate
-   MenuLocation: Visualizza - Viste bloccate - ...
+   MenuLocation: Visualizza -> Viste bloccate -> ...
    Workbenches: Tutti
-   SeeAlso: [Memorizza vista di lavoro](Std_StoreWorkingView/it.md), [Richiama vista di lavoro](Std_RecallWorkingView/it.md), [Pubblica la posizione della camera](Std_ViewIvIssueCamPos/it.md)
+   SeeAlso: Std_StoreWorkingView/it, Std_RecallWorkingView/it, Std_ViewIvIssueCamPos/it
 ---
 
 # Std FreezeViews/it

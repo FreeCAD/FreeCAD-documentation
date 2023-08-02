@@ -1,6 +1,6 @@
 # Part Boolean/es
 ---
-- GuiCommand:   Name: Part Booleans   Name/es: Part Booleans   MenuLocation: Part - Booleans   Workbenches: [SeeAlso: [[Part Union/es|Part Union](Part_Workbench/es___Part]].md), [Part Common](Part_Common/es.md) and [Part Cut](Part_Cut/es.md)---
+- GuiCommand:   Name: Part Booleans   Name/es: Part Booleans   MenuLocation: Part -> Booleans   Workbenches: Part_Workbench/es   Part, Part Common/es and Part Cut/es---
 
 
 </div>

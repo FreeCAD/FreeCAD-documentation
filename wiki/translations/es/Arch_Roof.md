@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Arch Roof
    Name/es: Arch Techo
-   MenuLocation: Arquitectura - Techo
-   Workbenches: [Arquitectura](Arch_Workbench/es.md)
+   MenuLocation: Arquitectura -> Techo
+   Workbenches: Arch_Workbench/es
    Shortcut: **R** **F**
 ---
 

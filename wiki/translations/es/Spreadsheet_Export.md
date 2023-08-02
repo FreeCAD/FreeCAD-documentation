@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Spreadsheet Export
    Name/es: Hoja de cálculo Exportar
-   MenuLocation: Hoja de cálculo - Exportar Hoja de cálculo
-   Workbenches: [Ambiente de trabajo Hoja de cálculo](Spreadsheet_Workbench/es.md)
+   MenuLocation: Hoja de cálculo -> Exportar Hoja de cálculo
+   Workbenches: Spreadsheet_Workbench/es
    Version: 0.17
-   SeeAlso: [Spreadsheet Import](Spreadsheet_Import/es.md)
+   SeeAlso: Spreadsheet_Import/es
 ---
 
 # Spreadsheet Export/es

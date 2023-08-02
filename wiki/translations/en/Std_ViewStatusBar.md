@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std ViewStatusBar
    Empty: 1
-   MenuLocation: View - Status bar
+   MenuLocation: View -> Status bar
    Workbenches: All
 ---
 

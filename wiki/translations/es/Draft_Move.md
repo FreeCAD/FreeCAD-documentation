@@ -3,7 +3,7 @@
    Name: Draft Move
    Name/es: Draft Move
    MenuLocation: Croquis -> Mover
-   Workbenches: [Croquis](Draft_Workbench/es.md)
+   Workbenches: Draft_Workbench/es
    Shortcut: **M** **V**
 ---
 

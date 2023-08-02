@@ -2,9 +2,9 @@
 - GuiCommand:-cn
    Name: Arch Remove
    Name/zh-cn: 建筑移除工具
-   MenuLocation: Arch - Remove
-   Workbenches: [Arch](Arch_Workbench/zh-cn.md)
-   SeeAlso: [[Arch Add/zh-cn]]
+   MenuLocation: Arch -> Remove
+   Workbenches: Arch_Workbench/zh-cn
+   SeeAlso: Arch Add/zh-cn
 ---
 
 # Arch Remove/zh-cn

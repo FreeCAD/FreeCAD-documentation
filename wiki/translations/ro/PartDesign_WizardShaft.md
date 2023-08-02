@@ -1,6 +1,6 @@
 # PartDesign WizardShaft/ro
 ---
-- GuiCommand:   Name: PartDesign WizardShaft   MenuLocation: Part Design - Shaft design wizard...   Workbenches: [PartDesign](PartDesign_Workbench.md), Complete---
+- GuiCommand:   Name: PartDesign WizardShaft   MenuLocation: Part Design -> Shaft design wizard...   Workbenches: PartDesign Workbench, Complete---
 
 
 </div>

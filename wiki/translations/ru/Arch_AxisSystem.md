@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/ru: Arch: AxisSystem/Система осей
    Icon: Arch Axis System.svg
-   MenuLocation: Arch - Axis System
-   Workbenches: [Arch](Arch_Workbench.md)
-   SeeAlso: [Arch Axis](Arch_Axis.md), [Arch Grid](Arch_Grid.md)
+   MenuLocation: Arch -> Axis System
+   Workbenches: Arch_Workbench
+   SeeAlso: Arch Axis, Arch Grid
 ---
 
 # Arch AxisSystem/ru

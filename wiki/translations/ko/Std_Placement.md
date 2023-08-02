@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std Placement
    Name/ko: 표준 배치
-   MenuLocation: 편집 - 위치 설정...
+   MenuLocation: 편집 -> 위치 설정...
    Workbenches: 모두
-   SeeAlso: [표준 정렬](Std_Alignment/ko.md), [배치 작업](Tasks_Placement/ko.md), [배치](Placement/ko.md)
+   SeeAlso: Std_Alignment/ko, Tasks_Placement/ko, Placement/ko
 ---
 
 # Std Placement/ko

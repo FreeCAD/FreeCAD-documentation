@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch Reference
    Name/fr: Arch Référence externe
-   MenuLocation: Arch - Référence externe
-   Workbenches: [Arch](Arch_Workbench/fr.md)
-   SeeAlso: [Arch Partie de bâtiment](Arch_BuildingPart/fr.md)
+   MenuLocation: Arch -> Référence externe
+   Workbenches: Arch_Workbench/fr
+   SeeAlso: Arch_BuildingPart/fr
 ---
 
 # Arch Reference/fr

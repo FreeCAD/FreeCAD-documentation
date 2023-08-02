@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintPointOnLine
    Name/de: Assembly3 PunktAufLinie
    Icon: Assembly_ConstraintPointOnLine.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 ConstraintPointOnLine/de

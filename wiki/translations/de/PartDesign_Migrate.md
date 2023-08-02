@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: PartDesign Migrate
    Name/de: PartDesign Migrieren
-   MenuLocation: Part Design - Migrieren
-   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   MenuLocation: Part Design -> Migrieren
+   Workbenches: PartDesign_Workbench/de
    Version: 0.17
 ---
 

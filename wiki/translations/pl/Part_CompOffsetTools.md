@@ -3,7 +3,7 @@
    Name: Part CompOffsetTools
    Name/pl: Część: Komponent narzędzia odsunięcia
    MenuLocation: brak
-   Workbenches: [Część](Part_Workbench/pl.md)
+   Workbenches: Part_Workbench/pl
    SeeAlso: 
 ---
 

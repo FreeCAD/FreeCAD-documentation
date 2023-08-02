@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ConstrainSymmetric
    Name/pl: Szkicownik: Wiązanie symetrii
-   MenuLocation: Szkic - Wiązania szkicownika - Wiązanie symetrii
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   MenuLocation: Szkic -> Wiązania szkicownika -> Wiązanie symetrii
+   Workbenches: Sketcher_Workbench/pl
    Shortcut: **S**
-   SeeAlso: [Wiązanie równoległości](Sketcher_ConstrainParallel/pl.md)
+   SeeAlso: Sketcher_ConstrainParallel/pl
 ---
 
 # Sketcher ConstrainSymmetric/pl

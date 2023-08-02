@@ -3,9 +3,9 @@
 - GuiCommand:
    Name: Draft Drawing
    Name/it: Disegno
-   Workbenches: [Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
-   MenuLocation: Draft - Disegno
-   SeeAlso: [TechDraw DraftView](TechDraw_DraftView/it.md), [Vista 2D](Draft_Shape2DView/it.md)---
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   MenuLocation: Draft -> Disegno
+   SeeAlso: TechDraw_DraftView/it, Draft Shape2DView/it---
 
 
 </div>

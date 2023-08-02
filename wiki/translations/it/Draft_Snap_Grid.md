@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Snap Grid
    Name/it: Griglia
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   SeeAlso: [Draft Snap](Draft_Snap/it.md), [Draft Snap Lock](Draft_Snap_Lock/it.md), [Draft ToggleGrid](Draft_ToggleGrid/it.md), [Draft SelectPlane](Draft_SelectPlane/it.md)
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   SeeAlso: Draft_Snap/it, Draft_Snap_Lock/it, Draft_ToggleGrid/it, Draft_SelectPlane/it
 ---
 
 # Draft Snap Grid/it

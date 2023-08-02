@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Sketcher_ConstrainDiameter   Name/it: Diametro
-   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation: Sketch - Vincoli - Diametro
-   SeeAlso: [Distanza](Sketcher_ConstrainDistance/it.md), [Distanza orizzontale](Sketcher_ConstrainDistanceX/it.md), [Distanza verticale](Sketcher_ConstrainDistanceY/it.md)
+   Workbenches: Sketcher Workbench/it
+   MenuLocation: Sketch -> Vincoli -> Diametro
+   SeeAlso: Sketcher ConstrainDistance/it, Sketcher ConstrainDistanceX/it, Sketcher ConstrainDistanceY/it
 ---
 
 # Sketcher ConstrainDiameter/it

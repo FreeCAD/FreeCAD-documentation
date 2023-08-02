@@ -1,6 +1,6 @@
 # Path Helix/ro
 ---
-- GuiCommand:   Name: Path Helix   Workbenches: [[Path Workbench   Path]]|MenuLocation: Path - Helix   Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: Path Helix   Workbenches: Path Workbench   Path|MenuLocation: Path -> Helix   Shortcut:    SeeAlso: ---
 
 
 </div>

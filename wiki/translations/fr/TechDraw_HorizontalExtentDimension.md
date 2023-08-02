@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: TechDraw HorizontalExtentDimension
    Name/fr: TechDraw Cote étendue horizontale
-   MenuLocation: TechDraw - Dimensions - Insérer une cote étendue horizontale
-   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   MenuLocation: TechDraw -> Dimensions -> Insérer une cote étendue horizontale
+   Workbenches: TechDraw_Workbench/fr
    Version: 0.19
-   SeeAlso: [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md), [TechDraw Cote étendue verticale](TechDraw_VerticalExtentDimension/fr.md)
+   SeeAlso: TechDraw_LengthDimension/fr, TechDraw_VerticalExtentDimension/fr
 ---
 
 # TechDraw HorizontalExtentDimension/fr

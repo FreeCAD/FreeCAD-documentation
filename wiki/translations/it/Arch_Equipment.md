@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch Equipment
    Name/it: Arredo
-   MenuLocation: Arch - Arredo
-   Workbenches: [Arch](Arch_Workbench/it.md)
+   MenuLocation: Arch -> Arredo
+   Workbenches: Arch_Workbench/it
    Shortcut: **E** **Q**
-   SeeAlso: [3 viste da mesh](Arch_3Views/it.md)
+   SeeAlso: Arch_3Views/it
 ---
 
 # Arch Equipment/it

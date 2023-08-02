@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: FCGear InternalInvoluteGear
    Name/fr: FCGear Engrenage à développante interne
-   MenuLocation: Gear - Internal Involute Gear
-   Workbenches: [FCGear](FCGear_Workbench/fr.md)
+   MenuLocation: Gear -> Internal Involute Gear
+   Workbenches: FCGear_Workbench/fr
    Shortcut: Aucun
    Version: 1.0
-   SeeAlso: [FCGear Engrenage à développante](FCGear_InvoluteGear/fr.md)
+   SeeAlso: FCGear_InvoluteGear/fr
 ---
 
 # FCGear InternalInvoluteGear/fr

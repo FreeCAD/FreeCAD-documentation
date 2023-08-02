@@ -1,6 +1,6 @@
 # Std Edit/cs
 ---
-- GuiCommand:   Name: Std Edit   Name/cs: Std Edit   MenuLocation: [[Std_Edit_Menu/cs   Edit]] - Toggle Editmode|Workbenches: All   SeeAlso: ...---
+- GuiCommand:   Name: Std Edit   Name/cs: Std Edit   MenuLocation: Std_Edit_Menu/cs   Edit -> Toggle Editmode|Workbenches: All   SeeAlso: ...---
 
 
 </div>

@@ -3,8 +3,8 @@
    Name: Web OpenWebsite
    Name/de: Web WebseiteÖffnen
    MenuLocation: 
-   Workbenches: [Web](Web_Workbench/de.md), [Start](Start_Workbench/de.md)
-   SeeAlso: [Web BrowserURLBearbeiten](Web_BrowserSetURL/de.md)
+   Workbenches: Web_Workbench/de, Start_Workbench/de
+   SeeAlso: Web_BrowserSetURL/de
 ---
 
 # Web OpenWebsite/de

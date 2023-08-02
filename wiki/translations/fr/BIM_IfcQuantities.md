@@ -2,10 +2,10 @@
 - GuiCommand:Addon/fr
    Name: BIM IfcQuantities
    Name/fr: BIM Quantité IFC
-   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/fr.md)
+   Workbenches: Image:IFC.svg BIM Workbench/fr
    Addon: BIM
-   MenuLocation: Manage - IFC Quantities
-   SeeAlso: [BIM Elements IFC](BIM_IfcElements/fr.md),[BIM Propriétés IFC](BIM_IfcProperties/fr.md)
+   MenuLocation: Manage -> IFC Quantities
+   SeeAlso: BIM IfcElements/fr,BIM IfcProperties/fr
 ---
 
 # BIM IfcQuantities/fr

@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft AddNamedGroup
    Name/fr: Draft Nommer un groupe
-   MenuLocation: Utilitaires - Ajouter un nouveau groupe nommé
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Utilitaires -> Ajouter un nouveau groupe nommé
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: 
    Version: 0.20
-   SeeAlso: [Std Groupe](Std_Group/fr.md), [Draft Déplacer vers un groupe](Draft_AddToGroup/fr.md), [Draft Groupement automatique](Draft_AutoGroup/fr.md)
+   SeeAlso: Std_Group/fr, Draft_AddToGroup/fr, Draft_AutoGroup/fr
 ---
 
 # Draft AddNamedGroup/fr

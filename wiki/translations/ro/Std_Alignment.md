@@ -1,6 +1,6 @@
 # Std Alignment/ro
 ---
-- GuiCommand:   Name: Std Alignment   MenuLocation: [Workbenches: All   SeeAlso: [[Std Placement|Placement](Std_Edit_Menu___Edit]]_-_Alignment....md)---
+- GuiCommand:   Name: Std Alignment   MenuLocation: Std_Edit_Menu   Edit -> Alignment...---
 
 
 </div>

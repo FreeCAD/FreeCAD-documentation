@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Fasteners_BOM
    Name/ru: Спецификация
-   MenuLocation: Стандартные изделия - Спецификация
-   Workbenches: [Стандартные изделия](Fasteners_Workbench/ru.md)
-   SeeAlso: [Верстак электронных таблиц](Spreadsheet_Workbench/ru.md)
+   MenuLocation: Стандартные изделия -> Спецификация
+   Workbenches: Fasteners_Workbench/ru
+   SeeAlso: Spreadsheet_Workbench/ru
 ---
 
 # Fasteners BOM/ru

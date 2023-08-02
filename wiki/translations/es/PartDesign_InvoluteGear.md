@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: PartDesign InvoluteGear
    Name/es: DiseñoPiezas EngranajeEvolvente
-   MenuLocation: DiseñoPiezas - Engranaje Evolvente...
-   Workbenches: [DiseñoPiezas](PartDesign_Workbench/es.md)
-   SeeAlso: [Ambiente de trabajo FCEngranaje](FCGear_Workbench/es.md)
+   MenuLocation: DiseñoPiezas -> Engranaje Evolvente...
+   Workbenches: PartDesign Workbench/es
+   SeeAlso: FCGear_Workbench/es
 ---
 
 # PartDesign InvoluteGear/es

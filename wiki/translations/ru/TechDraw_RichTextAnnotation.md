@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Вставка аннотаций форматированным текстом
    Name: TechDraw_RichTextAnnotation
-   MenuLocation: TechDraw - Заметки - Вставка аннотаций форматированным текстомs
-   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   MenuLocation: TechDraw -> Заметки -> Вставка аннотаций форматированным текстомs
+   Workbenches: TechDraw_Workbench/ru
    Version: 0.19
-   SeeAlso: [Шаблоны](TechDraw_Templates/ru.md), [Draft SVG](Draft_SVG/ru.md), [Добавить Линию-выноску в Вид](TechDraw_LeaderLine/ru.md)
+   SeeAlso: TechDraw_Templates/ru, Draft_SVG/ru, TechDraw_LeaderLine/ru
 ---
 
 # TechDraw RichTextAnnotation/ru

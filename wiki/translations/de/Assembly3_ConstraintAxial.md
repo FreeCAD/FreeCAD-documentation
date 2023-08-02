@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintAxial
    Name/de: Assembly3 AxialeAusrichtung
    Icon: Assembly_ConstraintAxial.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 ConstraintAxial/de

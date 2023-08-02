@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Raytracing ResetCamera
    Name/fr: Raytracing Réinitialiser la caméra
-   MenuLocation: Raytracing - Réinitialiser la caméra
-   Workbenches: [Raytracing](Raytracing_Workbench/fr.md)
+   MenuLocation: Raytracing -> Réinitialiser la caméra
+   Workbenches: Raytracing_Workbench/fr
    Shortcut: 
    SeeAlso: 
 ---

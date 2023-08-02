@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std New
    Name/pl: Std: Nowy
-   MenuLocation: Plik - Nowy
+   MenuLocation: Plik -> Nowy
    Workbenches: Wszystkie
    Shortcut: **Ctrl**+**N**
-   SeeAlso: [Otwórz](Std_Open/pl.md), [Importuj](Std_Import/pl.md)
+   SeeAlso: Std_Open/pl, Std_Import/pl
 ---
 
 # Std New/pl

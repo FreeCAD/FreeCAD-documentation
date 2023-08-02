@@ -5,7 +5,7 @@
    MenuLocation: brak
    Workbenches: wszystkie
    Version: 0.19
-   SeeAlso: [Część](Std_Part/pl.md), [Grupa](Std_Group/pl.md), [Zawartość](PartDesign_Body/pl.md)
+   SeeAlso: Std_Part/pl, Std_Group/pl, PartDesign_Body/pl
 ---
 
 # Std LinkMake/pl

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch ToggleSubs
 ‏‎   Name/it: Mostra/Nascondi sottocomponenti
-   MenuLocation: Architettura - Utilità - Mostra/Nascondi sottocomponenti
-   Workbenches: [Arch](Arch_Workbench/it.md)
+   MenuLocation: Architettura -> Utilità -> Mostra/Nascondi sottocomponenti
+   Workbenches: Arch_Workbench/it
    Shortcut: ‏‎Ctrl + Spazio
-   SeeAlso: [Componente](Arch_Component/it.md)
+   SeeAlso: Arch Component/it
 ---
 
 # Arch ToggleSubs/it

@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Polygon
    Name/de: Entwurf Polygon
-   MenuLocation: Entwurf - Polygon
-   Workbenches: [Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   MenuLocation: Entwurf -> Polygon
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **P** **G**
    Version: 0.7
-   SeeAlso: [Entwurf Kreis](Draft_Circle/de.md), [Entwurf Muster](Draft_Pattern/de.md)
+   SeeAlso: Draft_Circle/de, Draft_Pattern/de
 ---
 
 # Draft Polygon/de

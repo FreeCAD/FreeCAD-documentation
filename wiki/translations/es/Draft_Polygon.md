@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Polygon
    Name/es: Draft Polygon
-   MenuLocation: Croquis - Polígono
-   Workbenches: [Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   MenuLocation: Croquis -> Polígono
+   Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Shortcut: **P** **G**
 ---
 

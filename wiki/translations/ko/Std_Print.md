@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std Print
    Name/ko: 인쇄
-   MenuLocation: 파일 - 인쇄...
+   MenuLocation: 파일 -> 인쇄...
    Workbenches: 모두
    Shortcut: **Ctrl**+**P**
-   SeeAlso: [표준 인쇄 미리보기](Std_PrintPreview/ko.md), [표준 Pdf로 내보내기](Std_PrintPdf/ko.md), [표준 내보내기](Std_Export/ko.md), [표준 스크린샷 보기](Std_ViewScreenShot/ko.md)
+   SeeAlso: Std_PrintPreview/ko, Std_PrintPdf/ko, Std_Export/ko, Std_ViewScreenShot/ko
 ---
 
 # Std Print/ko

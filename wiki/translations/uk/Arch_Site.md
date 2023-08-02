@@ -1,6 +1,6 @@
 # Arch Site/uk
 ---
-- GuiCommand:   Name: Arch Site   Name/uk: Arch Site   Workbenches: [MenuLocation: Arch - Site   Shortcut: S I   SeeAlso: [[Arch Floor/uk|Arch Floor](Arch_Workbench/uk___Arch]].md), [Arch Building](Arch_Building/uk.md)---
+- GuiCommand:   Name: Arch Site   Name/uk: Arch Site   Workbenches: Arch_Workbench/uk   Arch, Arch Building/uk---
 
 
 </div>

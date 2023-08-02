@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher SelectOrigin
    Name/pl: Szkicownik: Wybierz odniesienie położenia
-   MenuLocation: Szkic - Narzędzia szkicownika - Wybierz odniesienie położenia
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   MenuLocation: Szkic -> Narzędzia szkicownika -> Wybierz odniesienie położenia
+   Workbenches: Sketcher_Workbench/pl
    Shortcut: **Z** **O**
    Version: 0.15
 ---

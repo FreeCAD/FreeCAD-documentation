@@ -5,7 +5,7 @@
    Workbenches: Tous
    MenuLocation: Aucun
    Version: 0.17
-   SeeAlso: [Std Groupe](Std_Group/fr.md), [PartDesign Corps](PartDesign_Body/fr.md)
+   SeeAlso: Std_Group/fr, PartDesign_Body/fr
 ---
 
 # Std Part/fr

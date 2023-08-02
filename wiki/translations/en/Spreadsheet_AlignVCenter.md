@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Spreadsheet AlignVCenter
-   MenuLocation: Spreadsheet - Alignment - Vertically-center align
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench.md)
+   MenuLocation: Spreadsheet -> Alignment -> Vertically-center align
+   Workbenches: Spreadsheet_Workbench
    Version: 0.17
 ---
 

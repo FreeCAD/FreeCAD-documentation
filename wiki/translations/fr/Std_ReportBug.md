@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std ReportBug
    Name/fr: Std Rapport de bogue
-   MenuLocation: Aide - Signaler un bogue
+   MenuLocation: Aide -> Signaler un bogue
    Workbenches: Tous
    Version: 0.20
 ---

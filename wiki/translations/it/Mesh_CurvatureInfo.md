@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Mesh_CurvatureInfo
    Name/it: Dettagli curvatura
-   MenuLocation: Mesh - Analizza - Dettagli curvatura
-   Workbenches: [Mesh](Mesh_Workbench/it.md)
-   SeeAlso: [Grafico della curvatura](Mesh_VertexCurvature/it.md)
+   MenuLocation: Mesh -> Analizza -> Dettagli curvatura
+   Workbenches: Mesh_Workbench/it
+   SeeAlso: Mesh_VertexCurvature/it
 ---
 
 # Mesh CurvatureInfo/it

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch Survey
    Name/it: Ispeziona
-   MenuLocation: Arch - Ispeziona
-   Workbenches: [Arch](Arch_Workbench/it.md)
-   SeeAlso: [FCInfo|<img src=images/FCInfo.png style="width:24px"> [FCInfo (macro)](Macro_FCInfo/it.md)<br />[Macro SimpleProperties (macro)](Macro_SimpleProperties.md)
+   MenuLocation: Arch -> Ispeziona
+   Workbenches: Arch_Workbench/it
+   SeeAlso: File:FCInfo.png Macro FCInfo/it<br />Macro_SimpleProperties
 ---
 
 # Arch Survey/it

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part Tube
    Name/de: Part Rohr
-   MenuLocation: Part - Grundkörper - Rohr erstellen...
-   Workbenches: [Part](Part_Workbench/de.md)
+   MenuLocation: Part -> Grundkörper -> Rohr erstellen...
+   Workbenches: Part_Workbench/de
    Version: 0.19
-   SeeAlso: [Part Grundelemente](Part_Primitives/de.md)
+   SeeAlso: Part_Primitives/de
 ---
 
 # Part Tube/de

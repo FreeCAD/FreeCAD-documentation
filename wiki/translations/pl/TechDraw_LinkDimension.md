@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw LinkDimension
    Name/pl: Rysunek Techniczny: Powiąż wymiar z geometrią 3D
-   MenuLocation: Rysunek Techniczny - Wymiary - Powiąż wymiar z geometrią 3D
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso: [Wstaw widok](TechDraw_View/pl.md), [Wstaw grupę rzutów](TechDraw_ProjectionGroup/pl.md)
+   MenuLocation: Rysunek Techniczny -> Wymiary -> Powiąż wymiar z geometrią 3D
+   Workbenches: TechDraw_Workbench/pl
+   SeeAlso: TechDraw_View/pl, TechDraw_ProjectionGroup/pl
 ---
 
 # TechDraw LinkDimension/pl

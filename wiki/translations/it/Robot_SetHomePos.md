@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Robot SetHomePos
    Name/it: Imposta la posizione iniziale
-   MenuLocation: Robot - Imposta la posizione iniziale
-   Workbenches: [Robot](Robot_Workbench/it.md)
+   MenuLocation: Robot -> Imposta la posizione iniziale
+   Workbenches: Robot_Workbench/it
 ---
 
 # Robot SetHomePos/it

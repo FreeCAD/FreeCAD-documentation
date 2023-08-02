@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM Analysis
    Name/pl: MES Analiza
-   MenuLocation: Model - Analiza MES
-   Workbenches: [MES](FEM_Workbench/pl.md)
+   MenuLocation: Model -> Analiza MES
+   Workbenches: FEM_Workbench/pl
    Shortcut: **S** **A**
-   SeeAlso: [Poradnik MES](FEM_tutorial/pl.md)
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM Analysis/pl

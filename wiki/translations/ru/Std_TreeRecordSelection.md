@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std TreeRecordSelection
    Name/ru: Std TreeRecordSelection
-   MenuLocation: Вид - Дерево документа - Record selection
+   MenuLocation: Вид -> Дерево документа -> Record selection
    Workbenches: All
    Shortcut: **T** **5**
 ---

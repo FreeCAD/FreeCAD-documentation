@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: PartDesign_WizardShaft
    Name/ja: PartDesign_WizardShaft
-   Workbenches: [パートデザイン](PartDesign_Workbench/ja.md), Complete
+   Workbenches: PartDesign Workbench/ja, Complete
 ---
 
 # PartDesign WizardShaft/ja

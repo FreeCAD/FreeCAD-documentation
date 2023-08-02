@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign SubtractiveWedge
    Name/es: PartDesign Cuña Sustractiva
-   MenuLocation: Part Design - Crear una primitiva sustractiva - Cuña sustractiva
-   Workbenches: [PartDesign](PartDesign_Workbench/es.md)
+   MenuLocation: Part Design -> Crear una primitiva sustractiva -> Cuña sustractiva
+   Workbenches: PartDesign_Workbench/es
    Version: 0.17
-   SeeAlso: [Crear una Primitiva sustractiva](PartDesign_CompPrimitiveSubtractive/es.md), [Cuña aditiva](PartDesign_AdditiveWedge/es.md)
+   SeeAlso: PartDesign_CompPrimitiveSubtractive/es, PartDesign_AdditiveWedge/es
 ---
 
 # PartDesign SubtractiveWedge/es

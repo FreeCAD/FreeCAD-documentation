@@ -3,7 +3,7 @@
    Name: Std AxisCross
    Name/it: Origine degli assi
    Empty: 1
-   MenuLocation: Visualizza - Origine degli assi
+   MenuLocation: Visualizza -> Origine degli assi
    Workbenches: Tutti
    Shortcut: **A** **C**
 ---

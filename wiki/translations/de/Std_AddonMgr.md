@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std AddonMgr
    Name/de: Std AddonManager
-   MenuLocation: Werkzeuge - Addon-Manager
+   MenuLocation: Werkzeuge -> Addon-Manager
    Workbenches: Alle
    Version: 0.17
-   SeeAlso: [Externe Arbeitsbereiche](External_workbenches/de.md), [Makros](Macros/de.md)
+   SeeAlso: External_workbenches/de, Macros/de
 ---
 
 # Std AddonMgr/de

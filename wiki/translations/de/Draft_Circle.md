@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Circle
    Name/de: Draft Kreis
-   MenuLocation: Entwurf - Kreis
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   MenuLocation: Entwurf -> Kreis
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **C** **I**
    Version: 0.7
-   SeeAlso: [Draft Bogen](Draft_Arc/de.md), [Draft Bogen 3Punkte](Draft_Arc_3Points/de.md)
+   SeeAlso: Draft_Arc/de, Draft_Arc_3Points/de
 ---
 
 # Draft Circle/de

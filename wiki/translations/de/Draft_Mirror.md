@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Mirror
    Name/de: Entwurf Spiegeln
-   MenuLocation: Änderung - Spiegeln
-   Workbenches: [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   MenuLocation: Änderung -> Spiegeln
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **M** **I**
-   SeeAlso: [Entwurf Klonen](Draft_Clone/de.md)
+   SeeAlso: Draft_Clone/de
 ---
 
 # Draft Mirror/de

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: FEM ConstantVacuumPermittivity
-   MenuLocation: Model - Overwrite Constraints - Constant vacuum permittivity
-   Workbenches: [FEM](FEM_Workbench.md)
+   MenuLocation: Model -> Overwrite Constraints -> Constant vacuum permittivity
+   Workbenches: FEM_Workbench
    Version: 0.19
    SeeAlso: 
 ---

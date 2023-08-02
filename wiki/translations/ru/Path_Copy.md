@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path Copy
    Name/ru: Path Copy
-   MenuLocation: Path - Supplemental Commands - Простое копирование
-   Workbenches: [Path](Path_Workbench/ru.md)
+   MenuLocation: Path -> Supplemental Commands -> Простое копирование
+   Workbenches: Path_Workbench/ru
    Shortcut: **P** **Y**
    SeeAlso: 
 ---

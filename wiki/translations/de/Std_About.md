@@ -3,8 +3,8 @@
    Name: Std About
    Name/de: Über FreeCAD
    Workbenches: Alle
-   MenuLocation: Hilfe - Über FreeCAD
-   SeeAlso: [Standardmenü](Standard_Menu/de.md)
+   MenuLocation: Hilfe -> Über FreeCAD
+   SeeAlso: Standard Menu/de
 ---
 
 # Std About/de

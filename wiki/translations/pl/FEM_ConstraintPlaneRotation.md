@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: FEM ConstraintPlaneRotation
    Name/pl: MES: Zdefiniuj obrót w płaszczyźnie
-   MenuLocation: Model - Wiązania geometryczne - Zdefiniuj obrót w płaszczyźnie
-   Workbenches: [środowisko pracy MES](FEM_Workbench/pl.md)
-   SeeAlso: [Zdefiniuj odkształcenia](FEM_ConstraintTransform/pl.md)
+   MenuLocation: Model -> Wiązania geometryczne -> Zdefiniuj obrót w płaszczyźnie
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_ConstraintTransform/pl
 ---
 
 # FEM ConstraintPlaneRotation/pl

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Mesh_RemoveComponents
    Name/pl: Siatka: Usuń fragmenty
-   MenuLocation: Siatki - Usuń fragmenty ...
-   Workbenches: [Siatka](Mesh_Workbench/pl.md)
-   SeeAlso: [Usuń elementy interaktywnie](Mesh_RemoveCompByHand/pl.md), [Podziel siatkę](Arch_SplitMesh/pl.md)
+   MenuLocation: Siatki -> Usuń fragmenty ...
+   Workbenches: Mesh_Workbench/pl
+   SeeAlso: Mesh_RemoveCompByHand/pl, Arch_SplitMesh/pl
 ---
 
 # Mesh RemoveComponents/pl

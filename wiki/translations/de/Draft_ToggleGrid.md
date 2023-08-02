@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft ToggleGrid
    Name/de: Draft RasterUmschalten
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **G** **R**
-   SeeAlso: [Draft Einrasten](Draft_Snap/de.md), [Draft EinrastenAufRaster](Draft_Snap_Grid/de.md), [Draft EbeneAuswählen](Draft_SelectPlane/de.md)
+   SeeAlso: Draft_Snap/de, Draft_Snap_Grid/de, Draft_SelectPlane/de
 ---
 
 # Draft ToggleGrid/de

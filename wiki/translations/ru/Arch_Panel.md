@@ -2,11 +2,11 @@
 - GuiCommand:
    Name/ru: Паенль
    Name: Arch_Panel
-   MenuLocation: Arch - Инструменты панелирования - Панель
-   Workbenches: [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Arch -> Инструменты панелирования -> Панель
+   Workbenches: Arch_Workbench/ru
    Shortcut: **P** **A**
    Version: 0.15
-   SeeAlso: [Панельный контур](Arch_Panel_Cut/ru.md), [Панельный лист](Arch_Panel_Sheet/ru.md)
+   SeeAlso: Arch_Panel_Cut/ru, Arch_Panel_Sheet/ru
 ---
 
 # Arch Panel/ru

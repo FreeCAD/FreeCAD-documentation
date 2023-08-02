@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Добавить 4-ре вершины по краям окружности
    Name: TechDraw_Quadrants
-   MenuLocation: TechDraw - Добавить Вершины - Добавить 4-ре вершины по краям окружности
-   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   MenuLocation: TechDraw -> Добавить Вершины -> Добавить 4-ре вершины по краям окружности
+   Workbenches: TechDraw_Workbench/ru
    Version: 0.19
-   SeeAlso: [Добавить Вспомогательную Вершину](TechDraw_CosmeticVertex/ru.md), [Добавить Средние Вершины](TechDraw_Midpoints/ru.md)
+   SeeAlso: TechDraw_CosmeticVertex/ru, TechDraw_Midpoints/ru
 ---
 
 # TechDraw Quadrants/ru

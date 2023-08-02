@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: FEM PostCreateFunctionBox
-   MenuLocation: Results - Filter Functions - Box
-   Workbenches: [FEM](FEM_Workbench.md)
+   MenuLocation: Results -> Filter Functions -> Box
+   Workbenches: FEM_Workbench
    Version: 0.21
-   SeeAlso: [FEM tutorial](FEM_tutorial.md)
+   SeeAlso: FEM_tutorial
 ---
 
 # FEM PostCreateFunctionBox/en

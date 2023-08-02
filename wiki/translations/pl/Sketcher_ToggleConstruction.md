@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ToggleConstruction
    Name/pl: Szkicownik: Przełącz geometrię konstrukcji
-   MenuLocation: Szkic - Elementy geometryczne szkicownika - Przełącz tryb konstrukcji
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   MenuLocation: Szkic -> Elementy geometryczne szkicownika -> Przełącz tryb konstrukcji
+   Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **N**
-   SeeAlso: [Przełącz wiązanie kontrolujące](Sketcher_ToggleDrivingConstraint/pl.md)
+   SeeAlso: Sketcher_ToggleDrivingConstraint/pl
 ---
 
 # Sketcher ToggleConstruction/pl

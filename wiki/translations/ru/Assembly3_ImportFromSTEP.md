@@ -3,8 +3,8 @@
    Name/ru: Assembly3 ImportFromSTEP
    Name: Assembly3 ImportFromSTEP
    Icon: Assembly_Import.svg
-   MenuLocation: Assembly3 - Import from STEP - Import from STEP
-   Workbenches: [Assembly3](Assembly3_Workbench/ru.md)
+   MenuLocation: Assembly3 -> Import from STEP -> Import from STEP
+   Workbenches: Assembly3_Workbench/ru
 ---
 
 # Assembly3 ImportFromSTEP/ru

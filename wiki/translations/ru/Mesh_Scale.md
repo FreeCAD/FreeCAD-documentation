@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Mesh Scale
    Name/ru: Mesh Scale
-   Workbenches: [Mesh](Mesh_Workbench/ru.md)
+   Workbenches: Mesh Workbench/ru
    MenuLocation: 
    Shortcut: 
    SeeAlso: 

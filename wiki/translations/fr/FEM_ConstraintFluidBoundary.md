@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: FEM ConstraintFluidBoundary
    Name/fr: FEM Contrainte de limite du fluide
-   MenuLocation: Modèle - Contraintes sans solveur - Contrainte de limite du fluide
-   Workbenches: [FEM](FEM_Workbench.md)
-   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
+   MenuLocation: Modèle -> Contraintes sans solveur -> Contrainte de limite du fluide
+   Workbenches: FEM_Workbench
+   SeeAlso: FEM_tutorial/fr
 ---
 
 # FEM ConstraintFluidBoundary/fr

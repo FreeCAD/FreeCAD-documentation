@@ -2,8 +2,8 @@
 - GuiCommand:
    Name/ru: Просмотр эскиза
    Name: Sketcher_ViewSketch
-   MenuLocation: Sketch - Просмотр эскиза
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
+   MenuLocation: Sketch -> Просмотр эскиза
+   Workbenches: Sketcher_Workbench/ru, PartDesign_Workbench/ru
 ---
 
 # Sketcher ViewSketch/ru

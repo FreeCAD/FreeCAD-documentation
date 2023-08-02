@@ -1,6 +1,6 @@
 # Draft Edit/cs
 ---
-- GuiCommand:   Name: Draft Edit   |Name/cs: Kreslení Úpravy   Workbenches: [Architektura](Draft_Workbench/cs___Modul_kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation: Draft -> Edit---
+- GuiCommand:   Name: Draft Edit   , Arch_Workbench/cs|MenuLocation: Draft -> Edit---
 
 
 </div>

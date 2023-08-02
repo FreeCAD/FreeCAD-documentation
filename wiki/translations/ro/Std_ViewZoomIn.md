@@ -2,10 +2,10 @@
 - GuiCommand:
    Icon: Zoom-in.svg
    Name: Std ViewZoomIn
-   MenuLocation: [View](Std_View_Menu.md) - Zoom‏‎ - Zoom In
+   MenuLocation: Std View Menu -> Zoom‏‎ -> Zoom In
    Workbenches: All
    Shortcut: Ctrl + +
-   SeeAlso: [Zoom Out](Std_ViewZoomOut.md), [Zoom box](Std_ViewBoxZoom.md)
+   SeeAlso: Std ViewZoomOut, Std ViewBoxZoom
 ---
 
 # Std ViewZoomIn/ro

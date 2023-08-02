@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: FEM EquationFlow
    Name/fr: FEM Equation d'écoulement
-   MenuLocation: Résolution - Équation d'écoulement
-   Workbenches: [FEM](FEM_Workbench/fr.md)
+   MenuLocation: Résolution -> Équation d'écoulement
+   Workbenches: FEM_Workbench/fr
    Version: 0.17
    SeeAlso: 
 ---

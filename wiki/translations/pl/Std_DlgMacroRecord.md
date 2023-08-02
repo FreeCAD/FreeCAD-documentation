@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std DlgMacroRecord
    Name/pl: Std: Rejestrator makrodefinicji 
-   MenuLocation: Makrodefinicje - Rejestrator makrodefinicji ...
+   MenuLocation: Makrodefinicje -> Rejestrator makrodefinicji ...
    Workbenches: wszystkie
-   SeeAlso: [Zatrzymaj nagrywanie makra](Std_MacroStopRecord/pl.md)
+   SeeAlso: Std_MacroStopRecord/pl
 ---
 
 # Std DlgMacroRecord/pl

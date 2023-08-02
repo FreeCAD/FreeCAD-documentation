@@ -2,11 +2,11 @@
 - GuiCommand:
    Name/ru: Скругление с сохранением точки пересечения
    Name: Sketcher_CreatePointFillet
-   MenuLocation: Sketch - Геометрия эскиза - Создать скругление с сохранением точки пересечения
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation: Sketch -> Геометрия эскиза -> Создать скругление с сохранением точки пересечения
+   Workbenches: Sketcher_Workbench/ru
    Shortcut: **G** **F** **P**
    Version: 0.19
-   SeeAlso: [Создать скругление](Sketcher_CreateFillet/ru.md)
+   SeeAlso: Sketcher_CreateFillet/ru
 ---
 
 # Sketcher CreatePointFillet/ru

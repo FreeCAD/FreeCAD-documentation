@@ -4,7 +4,7 @@
    MenuLocation: None
    Workbenches: All
    Version: 0.19
-   SeeAlso: [Std LinkMake](Std_LinkMake.md), [Std LinkMakeRelative](Std_LinkMakeRelative.md), [Std LinkImport](Std_LinkImport.md)
+   SeeAlso: Std_LinkMake, Std_LinkMakeRelative, Std_LinkImport
 ---
 
 # Std LinkImportAll

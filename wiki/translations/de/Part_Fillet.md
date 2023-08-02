@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Fillet
    Name/de: Part Verrundung
-   MenuLocation: Formteil - Verrundung
-   Workbenches: [Part](Part_Workbench/de.md)
-   SeeAlso: [Part Fase](Part_Chamfer/de.md)
+   MenuLocation: Formteil -> Verrundung
+   Workbenches: Part_Workbench/de
+   SeeAlso: Part_Chamfer/de
 ---
 
 # Part Fillet/de

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Spreadsheet AlignTop
    Name/fr: Spreadsheet Alignement en haut
-   MenuLocation: Spreadsheet - Alignement - Alignement en haut
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench/fr.md)
+   MenuLocation: Spreadsheet -> Alignement -> Alignement en haut
+   Workbenches: Spreadsheet_Workbench/fr
    Version: 0.17
 ---
 

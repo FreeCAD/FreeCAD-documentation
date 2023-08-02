@@ -1,6 +1,6 @@
 # Path Helix/it
 ---
-- GuiCommand:   Name: Path Helix   Name/it: Elica   Workbenches: [[Path Workbench/it   Path]]|MenuLocation: Path - Elica   Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: Path Helix   Name/it: Elica   Workbenches: Path Workbench/it   Path|MenuLocation: Path -> Elica   Shortcut:    SeeAlso: ---
 
 
 </div>

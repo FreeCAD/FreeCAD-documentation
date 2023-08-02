@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ConstrainDistanceY
    Name/cs: Sketcher ConstrainDistanceY
-   Workbenches: [Náčrt](Sketcher_Workbench/cs.md)
-   MenuLocation: Sketch - Sketcher geometries - Constrain vertical distance
+   Workbenches: Sketcher Workbench/cs
+   MenuLocation: Sketch -> Sketcher geometries -> Constrain vertical distance
    Shortcut: Shift+V
-   SeeAlso: [Vazba vodorovné vzdálenosti](Sketcher_ConstrainDistanceX/cs.md), [Vazba délky](Sketcher_ConstrainDistance/cs.md)
+   SeeAlso: Sketcher_ConstrainDistanceX/cs, Sketcher_ConstrainDistance/cs
 ---
 
 # Sketcher ConstrainDistanceY/cs

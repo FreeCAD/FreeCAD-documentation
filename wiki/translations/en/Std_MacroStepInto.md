@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std MacroStepInto
    Empty: 1
-   MenuLocation: Macro - Step into
+   MenuLocation: Macro -> Step into
    Workbenches: All
    Shortcut: **F11**
-   SeeAlso: [Std MacroStepOver](Std_MacroStepOver.md), [Std ToggleBreakpoint](Std_ToggleBreakpoint.md)
+   SeeAlso: Std_MacroStepOver, Std_ToggleBreakpoint
 ---
 
 # Std MacroStepInto/en

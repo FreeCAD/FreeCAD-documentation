@@ -1,6 +1,6 @@
 # TechDraw LengthDimension/ro
 ---
-- GuiCommand:   Name: TechDraw  Dimension Length   Workbenches: [[TechDraw_Workbench   TechDraw]]|MenuLocation: TechDraw - Dimension Length   Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: TechDraw  Dimension Length   Workbenches: TechDraw_Workbench   TechDraw|MenuLocation: TechDraw -> Dimension Length   Shortcut:    SeeAlso: ---
 
 
 </div>

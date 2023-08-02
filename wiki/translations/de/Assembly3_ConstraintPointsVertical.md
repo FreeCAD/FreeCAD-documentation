@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintPointsVertical
    Name/de: Assembly3 VertikalePunkte
    Icon: Assembly_ConstraintPointsVertical.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 ConstraintPointsVertical/de

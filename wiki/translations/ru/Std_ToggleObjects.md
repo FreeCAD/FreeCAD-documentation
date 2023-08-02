@@ -3,9 +3,9 @@
    Name: Std ToggleObjects
    Name/ru: Std ToggleObjects
    Empty: 1
-   MenuLocation: Вид - Видимость - Инвертировать все видимости
+   MenuLocation: Вид -> Видимость -> Инвертировать все видимости
    Workbenches: All
-   SeeAlso: [Std ToggleVisibility](Std_ToggleVisibility/ru.md), [Std ShowSelection](Std_ShowSelection/ru.md), [Std HideSelection](Std_HideSelection/ru.md), [Std ShowObjects](Std_ShowObjects/ru.md), [Std HideObjects](Std_HideObjects/ru.md)
+   SeeAlso: Std_ToggleVisibility/ru, Std_ShowSelection/ru, Std_HideSelection/ru, Std_ShowObjects/ru, Std_HideObjects/ru
 ---
 
 # Std ToggleObjects/ru

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Ellipsoid
    Name/ru: Эллипсоид
-   MenuLocation: Деталь - [Создать примитивы...](Part_Primitives/ru.md) - Эллипсоид
-   Workbenches: [Part](Part_Workbench/ru.md),  [OpenSCAD](OpenSCAD_Workbench/ru.md)
-   SeeAlso: [Создать примитивы...](Part_Primitives/ru.md)
+   MenuLocation: Деталь -> Part_Primitives/ru -> Эллипсоид
+   Workbenches: Part_Workbench/ru,  OpenSCAD_Workbench/ru
+   SeeAlso: Part_Primitives/ru
 ---
 
 # Part Ellipsoid/ru

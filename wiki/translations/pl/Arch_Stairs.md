@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Arch Stairs
-   MenuLocation: Arch - Stairs
-   Workbenches: [Arch](Arch_Workbench.md)
+   MenuLocation: Arch -> Stairs
+   Workbenches: Arch_Workbench
    Shortcut: **S** **R**
    Version: 0.14
-   SeeAlso: [Arch Structure](Arch_Structure.md), [Arch Equipment](Arch_Equipment.md)
+   SeeAlso: Arch_Structure, Arch_Equipment
 ---
 
 # Arch Stairs/pl

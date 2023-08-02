@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Cone
    Name/ru: Конус
-   MenuLocation: Деталь - Примитивы - Конус
-   Workbenches: [Part](Part_Workbench/ru.md)
-   SeeAlso: [Создать примитивы](Part_Primitives/ru.md)
+   MenuLocation: Деталь -> Примитивы -> Конус
+   Workbenches: Part_Workbench/ru
+   SeeAlso: Part_Primitives/ru
 ---
 
 # Part Cone/ru

@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ExtensionCascadeObliqueDimension
    Name/de: TechDraw ErgänzungSchrägeMaßeAnordnen
-   MenuLocation: TechDraw - Ergänzungen: Merkmale/Änderungen - Schräge Maße anordnen
-   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   MenuLocation: TechDraw -> Ergänzungen: Merkmale/Änderungen -> Schräge Maße anordnen
+   Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20
-   SeeAlso: [TechDraw ErgänzungHorizontaleMaßeAnordnen](TechDraw_ExtensionCascadeHorizDimension/de.md), [TechDraw ErgänzungVertikaleMaßeAnordnen](TechDraw_ExtensionCascadeVertDimension/de.md)
+   SeeAlso: TechDraw_ExtensionCascadeHorizDimension/de, TechDraw_ExtensionCascadeVertDimension/de
 ---
 
 # TechDraw ExtensionCascadeObliqueDimension/de

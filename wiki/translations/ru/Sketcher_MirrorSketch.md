@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher MirrorSketch
    Name/ru: Отразить эскиз
-   MenuLocation: Sketch - Отразить эскиз
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation: Sketch -> Отразить эскиз
+   Workbenches: Sketcher_Workbench/ru
    Version: 0.16
 ---
 

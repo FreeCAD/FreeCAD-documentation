@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Measure Angular
    Name/fr: Part Mesure angulaire
-   MenuLocation: Mesure - Mesure angulaire‏‎
-   Workbenches: [Part](Part_Workbench/fr.md)
-   SeeAlso: [Draft Dimension](Draft_Dimension/fr.md)
+   MenuLocation: Mesure -> Mesure angulaire‏‎
+   Workbenches: Part_Workbench/fr
+   SeeAlso: Draft_Dimension/fr
 ---
 
 # Part Measure Angular/fr

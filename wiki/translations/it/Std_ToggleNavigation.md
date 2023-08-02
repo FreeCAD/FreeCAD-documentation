@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std ToggleNavigation
    Name/it: Attiva/disattiva la modalità modifica
-   MenuLocation: Visualizza - Attiva/disattiva la modalità modifica
+   MenuLocation: Visualizza -> Attiva/disattiva la modalità modifica
    Workbenches: Tutti
    Shortcut: **Esc**
 ---

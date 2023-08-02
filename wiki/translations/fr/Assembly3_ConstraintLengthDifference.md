@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintLengthDifference
    Name/fr: Assembly3 Contrainte longueur différence
    Icon: Assembly_ConstraintLengthDifference.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 ConstraintLengthDifference/fr

@@ -2,10 +2,10 @@
 - GuiCommand:Addon/ru
    Name: BIM Library
    Name/ru: BIM Library
-   MenuLocation: 3D Modeling - Library
-   Workbenches: <img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/ru.md)
+   MenuLocation: 3D Modeling -> Library
+   Workbenches: Image:IFC.svg BIM Workbench/ru
    Addon: BIM
-   SeeAlso: [Arch Equipment](Arch_Equipment/ru.md)
+   SeeAlso: Arch Equipment/ru
 ---
 
 # BIM Library/ru

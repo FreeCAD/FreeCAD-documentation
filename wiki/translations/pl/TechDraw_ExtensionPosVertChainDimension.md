@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ExtensionPosVertChainDimension
    Name/pl: Rysunek Techniczny: Rozszerzenie Ułóż pionową serię wymiarów
-   MenuLocation: Rysunek Techniczny - Rozszerzenia: Atrybuty / Modyfikatory - Ułóż pionową serię wymiarów
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   MenuLocation: Rysunek Techniczny -> Rozszerzenia: Atrybuty / Modyfikatory -> Ułóż pionową serię wymiarów
+   Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20
-   SeeAlso: [Ułóż poziomą serię wymiarów](TechDraw_ExtensionPosHorizChainDimension/pl.md), [Ułóż ukośną serię wymiarów](TechDraw_ExtensionPosObliqueChainDimension/pl.md)
+   SeeAlso: TechDraw_ExtensionPosHorizChainDimension/pl, TechDraw_ExtensionPosObliqueChainDimension/pl
 ---
 
 # TechDraw ExtensionPosVertChainDimension/pl

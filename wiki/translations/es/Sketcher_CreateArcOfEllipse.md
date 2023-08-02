@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher CreateArcOfEllipse
    Name/es: Croquizador CrearArcoDeElipse
-   MenuLocation: Croquis - Geometrías de Croquizador - Crear un arco de elipse
-   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   MenuLocation: Croquis -> Geometrías de Croquizador -> Crear un arco de elipse
+   Workbenches: Sketcher_Workbench/es
    Version: 0.15
-   SeeAlso: [Croquizador Ellipse por el centro](Sketcher_CreateEllipseByCenter/es.md), [Croquizador Arco](Sketcher_CompCreateArc/es.md)
+   SeeAlso: Sketcher_CreateEllipseByCenter/es, Sketcher CompCreateArc/es
 ---
 
 # Sketcher CreateArcOfEllipse/es

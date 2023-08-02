@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Robot Edge2Trac
    Name/fr: Robot Trajectoire à partir d'arêtes
-   MenuLocation: Robot - Arêtes vers trajectoire
-   Workbenches: [Robot](Robot_Workbench/fr.md)
+   MenuLocation: Robot -> Arêtes vers trajectoire
+   Workbenches: Robot_Workbench/fr
 ---
 
 # Robot Edge2Trac/fr

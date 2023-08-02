@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part_Plane
    Name/ru: Плоскость
-   MenuLocation: [Деталь](Part_Workbench/ru.md) - [Создать примитивы...](Part_Primitives/ru.md) - Плоскость
-   Workbenches: [Part(Деталь)](Part_Workbench/ru.md)
-   SeeAlso: [Создать примитивы...](Part_Primitives/ru.md)
+   MenuLocation: Part_Workbench/ru -> Part_Primitives/ru -> Плоскость
+   Workbenches: Part_Workbench/ru
+   SeeAlso: Part_Primitives/ru
 ---
 
 # Part Plane/ru

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Draft Point
-   MenuLocation: Drafting - Point
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Drafting -> Point
+   Workbenches: Draft_Workbench, Arch_Workbench
    Version: 0.7
 ---
 

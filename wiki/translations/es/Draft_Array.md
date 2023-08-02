@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Array
    Name/es: Borrador Arreglo
-   MenuLocation: Borrador - Arreglo
-   Workbenches: [Borrador](Draft_Workbench/es.md)
-   SeeAlso: [[Draft_PolarArray/es|Borrador ArregloPolar
-]], [Borrador ArregloCircular](Draft_CircularArray/es.md), [Borrador ArregloTrayectorias](Draft_PathArray/es.md), [Borrador ArregloPuntos](Draft_PointArray/es.md), [Borrador Clon](Draft_Clone/es.md)
+   MenuLocation: Borrador -> Arreglo
+   Workbenches: Draft_Workbench/es
+   SeeAlso: Draft_PolarArray/es|Borrador ArregloPolar
+, Draft_CircularArray/es, Draft_PathArray/es, Draft_PointArray/es, Draft_Clone/es
 ---
 
 # Draft Array/es

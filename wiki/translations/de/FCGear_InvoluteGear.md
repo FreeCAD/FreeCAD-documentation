@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: FCGear InvoluteGear
    Name/de: FCGear Evolventenzahnrad
-   MenuLocation: Gear - Involute Gear
-   Workbenches: [FCGear](FCGear_Workbench/de.md)
+   MenuLocation: Gear -> Involute Gear
+   Workbenches: FCGear_Workbench/de
    Shortcut: Kein
    Version: v0.16
-   SeeAlso: [FCGear_Zykloidenzahnrad](FCGear_CycloidGear/de.md)
+   SeeAlso: FCGear_CycloidGear/de
 ---
 
 # FCGear InvoluteGear/de

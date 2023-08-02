@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft ShowSnapBar
    Name/de: Draft ShowSnapBar
-   MenuLocation: Werkzeuge - Fangen-Symbolleisten einblenden
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso: [Draft Fangen](Draft_Snap/de.md)
+   MenuLocation: Werkzeuge -> Fangen-Symbolleisten einblenden
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   SeeAlso: Draft_Snap/de
 ---
 
 # Draft ShowSnapBar/de

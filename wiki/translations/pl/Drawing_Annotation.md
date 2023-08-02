@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Drawing Annotation
    Name/pl: Kreślenie: Adnotacja
-   MenuLocation: Kreślenie - Adnotacja
-   Workbenches: [Kreślenie](Drawing_Workbench/pl.md)
+   MenuLocation: Kreślenie -> Adnotacja
+   Workbenches: Drawing_Workbench/pl
 ---
 
 # Drawing Annotation/pl

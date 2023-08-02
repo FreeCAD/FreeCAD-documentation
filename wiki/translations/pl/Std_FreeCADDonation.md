@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std FreeCADDonation
    Name/pl: Std: Przekaż darowiznę
-   MenuLocation: Pomoc - Przekaż darowiznę
+   MenuLocation: Pomoc -> Przekaż darowiznę
    Workbenches: wszystkie
    Version: 0.19
 ---

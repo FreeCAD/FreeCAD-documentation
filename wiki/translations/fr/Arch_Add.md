@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch Add
    Name/fr: Arch Ajouter
-   MenuLocation: Arch - Ajouter un composant
-   Workbenches: [Arch](Arch_Workbench/fr.md)
-   SeeAlso: [Arch Soustraire](Arch_Remove/fr.md)
+   MenuLocation: Arch -> Ajouter un composant
+   Workbenches: Arch_Workbench/fr
+   SeeAlso: Arch_Remove/fr
 ---
 
 # Arch Add/fr

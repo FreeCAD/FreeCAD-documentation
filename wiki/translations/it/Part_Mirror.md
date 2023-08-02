@@ -1,6 +1,6 @@
 # Part Mirror/it
 ---
-- GuiCommand:   Name: Part_Mirror   Name/it: Specchia   MenuLocation: Parte - Specchia...   Workbenches: [[Part_Workbench/it   Parte]]|SeeAlso: ---
+- GuiCommand:   Name: Part_Mirror   Name/it: Specchia   MenuLocation: Parte -> Specchia...   Workbenches: Part_Workbench/it   Parte|SeeAlso: ---
 
 
 </div>

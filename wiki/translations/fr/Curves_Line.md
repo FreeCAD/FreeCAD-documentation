@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Curves Line
    Name/fr: Curves Ligne
-   MenuLocation: Curves - Parametric line
-   Workbenches: [Curves](Curves_Workbench/fr.md)
+   MenuLocation: Curves -> Parametric line
+   Workbenches: Curves_Workbench/fr
 ---
 
 # Curves Line/fr

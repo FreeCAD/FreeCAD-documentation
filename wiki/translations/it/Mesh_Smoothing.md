@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Mesh_Smoothing
    Name/it: Mesh Smoothing
-   MenuLocation: Mesh - Leviga...
-   Workbenches: [Mesh](Mesh_Workbench/it.md)
+   MenuLocation: Mesh -> Leviga...
+   Workbenches: Mesh_Workbench/it
 ---
 
 # Mesh Smoothing/it

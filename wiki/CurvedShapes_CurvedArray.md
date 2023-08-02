@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: CurvedShapes CurvedArray
    MenuLocation: 
-   Workbenches: [CurvedShapes](CurvedShapes_Workbench.md)
+   Workbenches: CurvedShapes Workbench
    Shortcut: 
    SeeAlso: 
 ---

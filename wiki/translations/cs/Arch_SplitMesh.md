@@ -1,6 +1,6 @@
 # Arch SplitMesh/cs
 ---
-- GuiCommand:   Name: Arch SplitMesh   Name/cs: Arch Rozděl síť   Workbenches: [MenuLocation: Arch - Utilities - Split Mesh   SeeAlso: [[Arch SelectNonSolidMeshes/cs|Arch SelectNonSolidMeshes](Arch_Workbench/cs___Arch]].md)---
+- GuiCommand:   Name: Arch SplitMesh   Name/cs: Arch Rozděl síť   Workbenches: Arch_Workbench/cs   Arch---
 
 
 </div>

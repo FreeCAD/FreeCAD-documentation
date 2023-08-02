@@ -1,6 +1,6 @@
 # Draft Polygon/sv
 ---
-- GuiCommand:   Name: Draft_Polygon   Workbenches: [[Draft_Workbench/sv   Skiss]]|MenuLocation: Draft -> Polygon---
+- GuiCommand:   Name: Draft_Polygon   Workbenches: Draft_Workbench/sv   Skiss|MenuLocation: Draft -> Polygon---
 
 
 </div>

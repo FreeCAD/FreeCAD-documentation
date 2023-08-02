@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM ResultsPurge
    Name/fr: FEM Purger les résultats
-   MenuLocation: Résultats - Purger les résultats
-   Workbenches: [FEM](FEM_Workbench/fr.md)
+   MenuLocation: Résultats -> Purger les résultats
+   Workbenches: FEM_Workbench/fr
    Shortcut: **R** **P**
-   SeeAlso: [FEM Tutoriel](FEM_tutorial/fr.md)
+   SeeAlso: FEM_tutorial/fr
 ---
 
 # FEM ResultsPurge/fr

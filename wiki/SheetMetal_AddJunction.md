@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: SheetMetal AddJunction
-   MenuLocation: SheetMetal - Make Junction
-   Workbenches: [SheetMetal](SheetMetal_Workbench.md)
+   MenuLocation: SheetMetal -> Make Junction
+   Workbenches: SheetMetal_Workbench
    Shortcut: **S** **J**
-   SeeAlso: [SheetMetal AddRelief](SheetMetal_AddRelief.md), [SheetMetal AddBend](SheetMetal_AddBend.md)
+   SeeAlso: SheetMetal_AddRelief, SheetMetal_AddBend
 ---
 
 # SheetMetal AddJunction

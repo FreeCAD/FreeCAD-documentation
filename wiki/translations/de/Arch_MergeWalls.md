@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch MergeWalls
    Name/de: Arch WändeZusammenführen
-   MenuLocation: Arch - Dienstprogramme - Wände zusammenführen
-   Workbenches: [Arch](Arch_Workbench/de.md)
-   SeeAlso: [Arch Wand](Arch_Wall/de.md)
+   MenuLocation: Arch -> Dienstprogramme -> Wände zusammenführen
+   Workbenches: Arch_Workbench/de
+   SeeAlso: Arch_Wall/de
 ---
 
 # Arch MergeWalls/de

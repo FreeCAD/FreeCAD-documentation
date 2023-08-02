@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher CreatePeriodicBSpline
    Name/pl: Szkicownik: Okresowa krzywa złożona przez punkty
-   MenuLocation:  Szkic - Elementy geometryczne szkicownika - Utwórz okresową krzywą złożoną
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   MenuLocation:  Szkic -> Elementy geometryczne szkicownika -> Utwórz okresową krzywą złożoną
+   Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **B** **P**
    Version: 0.17
-   SeeAlso: [Utwórz krzywą złożoną](Sketcher_CreateBSpline/pl.md)
+   SeeAlso: Sketcher_CreateBSpline/pl
 ---
 
 # Sketcher CreatePeriodicBSpline/pl

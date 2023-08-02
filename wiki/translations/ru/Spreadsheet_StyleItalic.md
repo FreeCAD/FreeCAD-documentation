@@ -2,8 +2,8 @@
 - GuiCommand:
    Name/ru: Курсивный текст
    Name: Spreadsheet_StyleItalic
-   MenuLocation: Электронная таблица - Styles - Курсивный текст
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench/ru.md)
+   MenuLocation: Электронная таблица -> Styles -> Курсивный текст
+   Workbenches: Spreadsheet_Workbench/ru
    Version: 0.17
 ---
 

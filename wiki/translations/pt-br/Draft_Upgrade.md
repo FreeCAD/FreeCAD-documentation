@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Draft Upgrade
-   MenuLocation: Modification - Upgrade
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Modification -> Upgrade
+   Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **U** **P**
-   SeeAlso: [Draft Downgrade](Draft_Downgrade.md)
+   SeeAlso: Draft_Downgrade
 ---
 
 # Draft Upgrade/pt-br

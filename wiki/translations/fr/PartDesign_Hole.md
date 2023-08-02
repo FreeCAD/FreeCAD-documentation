@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign Hole
    Name/fr: PartDesign Perçage
-   MenuLocation: Part Design - Créer une fonction soustractive - Perçage
-   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
+   MenuLocation: Part Design -> Créer une fonction soustractive -> Perçage
+   Workbenches: PartDesign_Workbench/fr
    Version: 0.17
-   SeeAlso: [PartDesign Cavité](PartDesign_Pocket/fr.md)
+   SeeAlso: PartDesign_Pocket/fr
 ---
 
 # PartDesign Hole/fr

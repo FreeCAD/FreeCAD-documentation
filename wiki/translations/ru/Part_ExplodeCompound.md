@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part ExplodeCompound
    Name/ru: Part ExplodeCompound
-   MenuLocation: Деталь - Соединить - Разъединить соединение
-   Workbenches: [Part](Part_Workbench/ru.md)
+   MenuLocation: Деталь -> Соединить -> Разъединить соединение
+   Workbenches: Part_Workbench/ru
    Version: 0.18
-   SeeAlso: [Part Compound](Part_Compound/ru.md), [Draft Downgrade](Draft_Downgrade/ru.md)
+   SeeAlso: Part_Compound/ru, Draft_Downgrade/ru
 ---
 
 # Part ExplodeCompound/ru

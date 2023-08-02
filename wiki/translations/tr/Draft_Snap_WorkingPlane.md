@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Snap WorkingPlane
    Name/tr: Taslak Çalışma düzlemi
-   MenuLocation: Taslak - [Yakalama](Draft_Snap/tr.md) - Çalışma düzlemi
-   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   MenuLocation: Taslak -> Draft Snap/tr -> Çalışma düzlemi
+   Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: 
    SeeAlso: 
 ---

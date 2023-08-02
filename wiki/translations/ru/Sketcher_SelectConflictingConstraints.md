@@ -2,8 +2,8 @@
 - GuiCommand:
    Name/ru: Выделить конфликтующие ограничения
    Name: Sketcher_SelectConflictingConstraints
-   MenuLocation: Sketch - Инструменты для эскиза - Выделить конфликтующие ограничения
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation: Sketch -> Инструменты для эскиза -> Выделить конфликтующие ограничения
+   Workbenches: Sketcher_Workbench/ru
    Shortcut: Shift+Ctrl+E
    Version: 0.15
 ---

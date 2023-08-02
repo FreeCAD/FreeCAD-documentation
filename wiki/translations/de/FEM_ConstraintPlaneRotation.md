@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: FEM ConstraintPlaneRotation
-   MenuLocation: Model - Geometrical Constraints - Constraint plane rotation
-   Workbenches: [FEM](FEM_Workbench.md)
-   SeeAlso: [FEM Constraint transform](FEM_ConstraintTransform.md)
+   MenuLocation: Model -> Geometrical Constraints -> Constraint plane rotation
+   Workbenches: FEM_Workbench
+   SeeAlso: FEM_ConstraintTransform
 ---
 
 # FEM ConstraintPlaneRotation/de

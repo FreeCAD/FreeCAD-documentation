@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Drawing
    Name/fr: Draft Dessin
-   Workbenches: [Drawing](Drawing_Workbench/fr.md), [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   SeeAlso: [TechDraw Vue d'un objet Draft](TechDraw_DraftView/fr.md)
+   Workbenches: Drawing_Workbench/fr, Draft_Workbench/fr, Arch_Workbench/fr
+   SeeAlso: TechDraw_DraftView/fr
 ---
 
 # Draft Drawing/fr

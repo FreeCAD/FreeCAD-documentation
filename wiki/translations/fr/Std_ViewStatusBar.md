@@ -3,7 +3,7 @@
    Name: Std ViewStatusBar
    Name/fr: Std Barre d'état
    Empty: 1
-   MenuLocation: Affichage - Barre d'état
+   MenuLocation: Affichage -> Barre d'état
    Workbenches: Tous
 ---
 

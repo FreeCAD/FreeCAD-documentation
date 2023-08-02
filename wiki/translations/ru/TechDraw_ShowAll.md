@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Показать/скрыть невидимые края
    Name: TechDraw_ShowAll
-   MenuLocation: TechDraw - ShowAll
-   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   MenuLocation: TechDraw -> ShowAll
+   Workbenches: TechDraw_Workbench/ru
    Version: 0.19
-   SeeAlso: [Изменить внешний вид линий](TechDraw_DecorateLine/ru.md)
+   SeeAlso: TechDraw_DecorateLine/ru
 ---
 
 # TechDraw ShowAll/ru

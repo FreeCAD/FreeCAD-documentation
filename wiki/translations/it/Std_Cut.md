@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std_Cut
    Name/it: Taglia
-   MenuLocation: Modifica - Taglia
+   MenuLocation: Modifica -> Taglia
    Workbenches: Tutti
-   SeeAlso: [Copia](Std_Copy/it.md), [Incolla](Std_Paste/it.md), [Duplica la selezione](Std_DuplicateSelection/it.md)
+   SeeAlso: Std Copy/it, Std Paste/it, Std_DuplicateSelection/it
 ---
 
 # Std Cut/it

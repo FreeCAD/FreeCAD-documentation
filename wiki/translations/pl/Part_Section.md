@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Section
    Name/pl: Część: Przecięcie
-   MenuLocation: Część - Operacje logiczne - Przecięcie
-   Workbenches: [Część](Part_Workbench/pl.md)
-   SeeAlso: [Przekrój poprzeczny](Part_CrossSections/pl.md)
+   MenuLocation: Część -> Operacje logiczne -> Przecięcie
+   Workbenches: Part_Workbench/pl
+   SeeAlso: Part_CrossSections/pl
 ---
 
 # Part Section/pl

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher External
    Name/ro: Sketcher External
-   Workbenches: [Sketcher](Sketcher_Workbench/ro.md)
+   Workbenches: Sketcher Workbench/ro
    Shortcut: X
-   MenuLocation: Sketch - Sketcher geometries - Sketcher External
-   SeeAlso: [ConstructionMode](Sketcher_ToggleConstruction/ro.md)
+   MenuLocation: Sketch -> Sketcher geometries -> Sketcher External
+   SeeAlso: Sketcher_ToggleConstruction/ro
 ---
 
 # Sketcher External/ro

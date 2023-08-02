@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ConstrainVertical
    Name/pl: Szkicownik: Zwiąż w pionie
-   MenuLocation: Szkic - Wiązania szkicownika - Zwiąż w pionie
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   MenuLocation: Szkic -> Wiązania szkicownika -> Zwiąż w pionie
+   Workbenches: Sketcher_Workbench/pl
    Shortcut: **V**
-   SeeAlso: [Szkicownik: Wiązanie poziome](Sketcher_ConstrainHorizontal/pl.md)
+   SeeAlso: Sketcher_ConstrainHorizontal/pl
 ---
 
 # Sketcher ConstrainVertical/pl

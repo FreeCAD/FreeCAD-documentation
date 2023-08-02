@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name/es: Fixtura de trayectoria
-   Workbenches: [Trayectoria](Path_Workbench.md)
-   MenuLocation: Trayectoria - Comandos Parciales - Fixtura
+   Workbenches: Path Workbench
+   MenuLocation: Trayectoria -> Comandos Parciales -> Fixtura
    Shortcut: **P** **F**
    SeeAlso: 
 ---

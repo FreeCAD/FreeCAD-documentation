@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Draft Fillet
-   MenuLocation: Drafting - Fillet
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Drafting -> Fillet
+   Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **F** **I**
    Version: 0.19
-   SeeAlso: [Draft Line](Draft_Line.md), [Draft Wire](Draft_Wire.md)
+   SeeAlso: Draft_Line, Draft_Wire
 ---
 
 # Draft Fillet/pt-br

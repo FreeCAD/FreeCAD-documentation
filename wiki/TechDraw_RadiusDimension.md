@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: TechDraw RadiusDimension
-   MenuLocation: TechDraw - Dimensions - Insert Radius Dimension
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
-   SeeAlso: [TechDraw DiameterDimension](TechDraw_DiameterDimension.md)
+   MenuLocation: TechDraw -> Dimensions -> Insert Radius Dimension
+   Workbenches: TechDraw_Workbench
+   SeeAlso: TechDraw_DiameterDimension
 ---
 
 # TechDraw RadiusDimension

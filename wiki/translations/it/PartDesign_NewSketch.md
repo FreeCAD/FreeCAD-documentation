@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: PartDesign NewSketch
    Name/it: Nuovo schizzo
-   Workbenches: [PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation: Part Design - Crea schizzo
+   Workbenches: PartDesign Workbench/it
+   MenuLocation: Part Design -> Crea schizzo
    Version: 0.17
 ---
 

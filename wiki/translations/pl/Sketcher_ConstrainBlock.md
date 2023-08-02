@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher ConstrainBlock
    Name/pl: Szkicownik: Wiązanie zablokowania
-   MenuLocation: Szkic - Wiązania szkicownika - Wiązanie zablokowania
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   MenuLocation: Szkic -> Wiązania szkicownika -> Wiązanie zablokowania
+   Workbenches: Sketcher_Workbench/pl
    Shortcut: **K** **B**
    Version: 0.17
-   SeeAlso: [Wiązanie blokady odległości](Sketcher_ConstrainLock/pl.md)
+   SeeAlso: Sketcher_ConstrainLock/pl
 ---
 
 # Sketcher ConstrainBlock/pl

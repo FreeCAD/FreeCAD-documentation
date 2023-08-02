@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Snap Near
    Name/it: Vicino a
-   MenuLocation: Draft - [Aggancio](Draft_Snap/it.md) - Vicino
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Draft -> Draft Snap/it -> Vicino
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: 
-   SeeAlso: [Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
+   SeeAlso: Draft Snap/it, Draft_Snap_Lock/it
 ---
 
 # Draft Snap Near/it

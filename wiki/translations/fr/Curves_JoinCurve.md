@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Curves JoinCurve
    Name/fr: Curves Joindre courbe
-   MenuLocation: Curves - Join Curves
-   Workbenches: [Curves](Curves_Workbench/fr.md)
+   MenuLocation: Curves -> Join Curves
+   Workbenches: Curves_Workbench/fr
 ---
 
 # Curves JoinCurve/fr

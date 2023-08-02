@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft PathLinkArray
    Name/de: Draft PfadVerknüpfungsanordnung
-   MenuLocation: Änderung - Array tools - Pfad-Verknüpfungsanordnung
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   MenuLocation: Änderung -> Array tools -> Pfad-Verknüpfungsanordnung
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Version: 0.19
-   SeeAlso: [Draft RechtwinkligeAnordnung](Draft_OrthoArray/de.md), [Draft PolareAnordnung](Draft_PolarArray/de.md), [Draft KreisAnordnung](Draft_CircularArray/de.md), [Draft PathArray](Draft_PathArray/de.md), [Draft PunktAnordnung](Draft_PointArray/de.md), [Draft PunktVerknüpfungsanordnung](Draft_PointLinkArray/de.md)
+   SeeAlso: Draft_OrthoArray/de, Draft_PolarArray/de, Draft_CircularArray/de, Draft_PathArray/de, Draft_PointArray/de, Draft_PointLinkArray/de
 ---
 
 # Draft PathLinkArray/de

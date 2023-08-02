@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch Axis
    Name/de: Arch Achse
-   MenuLocation: Arch - Achsenwerkzeuge - Achse
-   Workbenches: [Arch](Arch_Workbench/de.md)
+   MenuLocation: Arch -> Achsenwerkzeuge -> Achse
+   Workbenches: Arch_Workbench/de
    Shortcut: **A** **X**
-   SeeAlso: [Arch AchsenSystem](Arch_AxisSystem/de.md), [Arch Gitter](Arch_Grid/de.md)
+   SeeAlso: Arch_AxisSystem/de, Arch_Grid/de
 ---
 
 # Arch Axis/de

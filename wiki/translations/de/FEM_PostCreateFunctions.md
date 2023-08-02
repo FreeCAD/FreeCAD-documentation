@@ -3,7 +3,7 @@
    Name: FEM CompPostCreateFunctions
    Name/de: FEM NachbereitungFunktionenErstellen
    MenuLocation: 
-   Workbenches: [FEM](FEM_Workbench/de.md)
+   Workbenches: FEM_Workbench/de
    SeeAlso: 
 ---
 

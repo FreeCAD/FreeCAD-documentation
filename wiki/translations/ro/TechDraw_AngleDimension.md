@@ -1,6 +1,6 @@
 # TechDraw AngleDimension/ro
 ---
-- GuiCommand:   Name: TechDraw  Dimension Angle   Workbenches: [[TechDraw_Workbench   TechDraw]]|MenuLocation: TechDraw - Dimension Angle   Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: TechDraw  Dimension Angle   Workbenches: TechDraw_Workbench   TechDraw|MenuLocation: TechDraw -> Dimension Angle   Shortcut:    SeeAlso: ---
 
 
 </div>

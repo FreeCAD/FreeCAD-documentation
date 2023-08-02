@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std FreeCADForum
    Name/pl: Std: Forum FreeCAD
-   MenuLocation: Pomoc - Forum FreeCAD
+   MenuLocation: Pomoc -> Forum FreeCAD
    Workbenches: wszystkie
-   SeeAlso: [Witryna FreeCAD](Std_FreeCADWebsite/pl.md), [Dokumentacja użytkowników](Std_FreeCADUserHub/pl.md), [Dokumentacja skryptów środowiska Python](Std_FreeCADPowerUserHub/pl.md),[Często zadawane pytania dotyczące FreeCAD](Std_FreeCADFAQ/pl.md)
+   SeeAlso: Std_FreeCADWebsite/pl, Std_FreeCADUserHub/pl, Std_FreeCADPowerUserHub/pl,Std_FreeCADFAQ/pl
 ---
 
 # Std FreeCADForum/pl

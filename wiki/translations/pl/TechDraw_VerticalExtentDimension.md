@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: TechDraw VerticalExtentDimension
    Name/pl: Rysunek Techniczny: Wstaw wymiar rozpiętości pionowej
-   MenuLocation: Rysunek Techniczny - Wymiary - Wstaw wymiar rozpiętości pionowej
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   MenuLocation: Rysunek Techniczny -> Wymiary -> Wstaw wymiar rozpiętości pionowej
+   Workbenches: TechDraw_Workbench/pl
    Version: 0.19
-   SeeAlso: [Wstaw wymiar długości](TechDraw_LengthDimension/pl.md),  [Wstaw wymiar rozpiętości poziomej](TechDraw_HorizontalExtentDimension/pl.md)
+   SeeAlso: TechDraw_LengthDimension/pl,  TechDraw_HorizontalExtentDimension/pl
 ---
 
 # TechDraw VerticalExtentDimension/pl

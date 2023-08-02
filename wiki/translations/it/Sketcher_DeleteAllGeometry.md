@@ -3,9 +3,9 @@
    Name: Sketcher Delete All Geometry
    Name/it: Cancella tutta la geometria
    Icon: Sketcher Element SelectionTypeInvalid.svg
-   MenuLocation: Sketch - Strumenti - Cancella tutta la geometria
-   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
-   SeeAlso: [Cancella tutti i vincoli](Sketcher_DeleteAllConstraints/it.md)
+   MenuLocation: Sketch -> Strumenti -> Cancella tutta la geometria
+   Workbenches: Sketcher Workbench/it
+   SeeAlso: Sketcher DeleteAllConstraints/it
    Version: 0.18
 ---
 

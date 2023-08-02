@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft_Draft2Sketch
    Name/es: Boceto a Croquis
-   MenuLocation: Modificación - Borador a Croquis
-   Workbenches: [Boceto](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   MenuLocation: Modificación -> Borador a Croquis
+   Workbenches: Draft_Workbench/es, Arch_Workbench/es
 ---
 
 # Draft Draft2Sketch/es

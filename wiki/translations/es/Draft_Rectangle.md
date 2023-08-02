@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Rectangle
    Name/es: Draft Rectangle
-   MenuLocation: Croquis -  Rectángulo
-   Workbenches: [Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   MenuLocation: Croquis ->  Rectángulo
+   Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Shortcut: **R** **E**
    Version: 0.7
-   SeeAlso: [Cubo](Part_Box/es.md)
+   SeeAlso: Part Box/es
 ---
 
 # Draft Rectangle/es

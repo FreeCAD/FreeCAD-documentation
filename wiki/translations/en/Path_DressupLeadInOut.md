@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Path DressupLeadInOut
-   MenuLocation: Path - Path Dressup - LeadInOut
-   Workbenches: [Path](Path_Workbench.md)
-   SeeAlso: [Path DressupDogbone](Path_DressupDogbone.md), [Path DressupTag](Path_DressupTag.md), [Path DressupRampEntry](Path_DressupRampEntry.md), [Path DressupDragKnife](Path_DressupDragKnife.md)
+   MenuLocation: Path -> Path Dressup -> LeadInOut
+   Workbenches: Path_Workbench
+   SeeAlso: Path_DressupDogbone, Path_DressupTag, Path_DressupRampEntry, Path_DressupDragKnife
 ---
 
 # Path DressupLeadInOut/en

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name: Base ExampleCommandModel
-   MenuLocation: Sample - Command
+   MenuLocation: Sample -> Command
    Workbenches: 
    Shortcut: 
    SeeAlso: 

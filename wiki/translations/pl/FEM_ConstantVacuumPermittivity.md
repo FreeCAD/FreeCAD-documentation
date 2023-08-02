@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: FEM ConstantVacuumPermittivity
    Name/pl: MES: Przenikalność elektryczna próżni
-   MenuLocation: Model - Nadpisz stałe - Przenikalność elektryczna próżni
-   Workbenches: [MES](FEM_Workbench/pl.md)
+   MenuLocation: Model -> Nadpisz stałe -> Przenikalność elektryczna próżni
+   Workbenches: FEM_Workbench/pl
    Version: 0.19
    SeeAlso: 
 ---

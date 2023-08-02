@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher CarbonCopy
    Name/de: Sketcher Pause
-   MenuLocation: Skizze - Skizzengeometrien - Pause
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Skizze -> Skizzengeometrien -> Pause
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **W**
    Version: 0.17
 ---

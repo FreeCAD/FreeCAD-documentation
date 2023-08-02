@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Mesh EvaluateFacet
    Name/fr: Mesh Infos sur la face
-   MenuLocation: Maillages - Analyser - Infos sur la face
-   Workbenches: [Mesh](Mesh_Workbench/fr.md)
+   MenuLocation: Maillages -> Analyser -> Infos sur la face
+   Workbenches: Mesh_Workbench/fr
 ---
 
 # Mesh EvaluateFacet/fr

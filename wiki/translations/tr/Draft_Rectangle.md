@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Rectangle
    Name/tr: Dikdörtgen
-   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
-   MenuLocation: Taslak - Dikdörtgen
+   Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
+   MenuLocation: Taslak -> Dikdörtgen
    Shortcut: **R** **E**
    Version/tr: 0.17
-   SeeAlso: [Elips](Draft_Ellipse/tr.md),[Parça Kutu](Part_Box/tr.md)
+   SeeAlso: Draft Ellipse/tr,Part Box/tr
 ---
 
 # Draft Rectangle/tr

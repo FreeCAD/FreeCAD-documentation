@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft SelectGroup
    Name/fr: Draft Sélection groupée
-   MenuLocation: Utilitaires - Sélection d'un groupe
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   SeeAlso: [Std Groupe](Std_Group/fr.md), [Draft Ajouter au groupe](Draft_AddToGroup/fr.md), [Draft Ajouter au groupe de construction](Draft_AddConstruction/fr.md), [Draft Groupement automatique](Draft_AutoGroup/fr.md)
+   MenuLocation: Utilitaires -> Sélection d'un groupe
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   SeeAlso: Std_Group/fr, Draft_AddToGroup/fr, Draft_AddConstruction/fr, Draft_AutoGroup/fr
 ---
 
 # Draft SelectGroup/fr

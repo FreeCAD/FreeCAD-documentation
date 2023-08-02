@@ -1,6 +1,6 @@
 # Draft ApplyStyle/cs
 ---
-- GuiCommand:   Name: Draft_Apply   Name/cs: Kreslení Použij   Workbenches: [Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation: Draft -> Apply style---
+- GuiCommand:   Name: Draft_Apply   Name/cs: Kreslení Použij   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs|MenuLocation: Draft -> Apply style---
 
 
 </div>

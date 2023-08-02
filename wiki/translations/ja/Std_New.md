@@ -4,7 +4,7 @@
    Name/ja: Std_New
    MenuLocation: File -> New
    Workbenches: All
-   SeeAlso: [[Std_Open]],[[Std_Import]]
+   SeeAlso: Std_Open,Std_Import
 ---
 
 # Std New/ja

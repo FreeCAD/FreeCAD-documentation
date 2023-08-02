@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std MergeProjects
    Name/de: Std ProjekteZusammenführen
-   MenuLocation: Datei - Projekte zusammenführen...
+   MenuLocation: Datei -> Projekte zusammenführen...
    Workbenches: All
 ---
 

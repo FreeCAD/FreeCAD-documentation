@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part Torus
    Name/ro: Part Torus
-   MenuLocation: Part - Torus
+   MenuLocation: Part -> Torus
 |
-   Workbenches: [Part](Part_Workbench/ro.md), Complete
-   SeeAlso: [Part CreatePrimitives](Part_CreatePrimitives/ro.md)
+   Workbenches: Part_Workbench/ro, Complete
+   SeeAlso: Part_CreatePrimitives/ro
 ---
 
 # Part Torus/ro

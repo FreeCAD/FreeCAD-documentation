@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Point
    Name/de: Part Punkt
-   MenuLocation: Formteil - [Grundkörper erstellen](Part_Primitives/de.md) - Punkt
-   Workbenches: [Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
-   SeeAlso: [Part Grundelemente](Part_Primitives/de.md)
+   MenuLocation: Formteil -> Part_Primitives/de -> Punkt
+   Workbenches: Part_Workbench/de, OpenSCAD_Workbench/de
+   SeeAlso: Part_Primitives/de
 ---
 
 # Part Point/de

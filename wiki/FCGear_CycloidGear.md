@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: FCGear CycloidGear
-   MenuLocation: Gear - Cycloid Gear
-   Workbenches: [FCGear](FCGear_Workbench.md)
+   MenuLocation: Gear -> Cycloid Gear
+   Workbenches: FCGear_Workbench
    Shortcut: None
    Version: v0.16
-   SeeAlso: [FCGear InvoluteGear](FCGear_InvoluteGear.md)
+   SeeAlso: FCGear_InvoluteGear
 ---
 
 # FCGear CycloidGear

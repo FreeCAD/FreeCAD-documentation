@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Spreadsheet_AlignCenter
    Name/it: Centra in orizzontale
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench/it.md)
-   MenuLocation: Spreadsheet - Allineamento - Centra in orizzontale
+   Workbenches: Spreadsheet_Workbench/it
+   MenuLocation: Spreadsheet -> Allineamento -> Centra in orizzontale
    Version: 0.17
 ---
 

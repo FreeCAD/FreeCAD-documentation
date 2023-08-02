@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path Drilling
    Name/fr: Path Perçage
-   MenuLocation: Path - Perçage
-   Workbenches: [Path](Path_Workbench/fr.md)
+   MenuLocation: Path -> Perçage
+   Workbenches: Path_Workbench/fr
 ---
 
 # Path Drilling/fr

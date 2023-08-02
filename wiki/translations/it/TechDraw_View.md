@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw_View
    Name/it: Vista
-   MenuLocation: TechDraw - Vista
-   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso: [Gruppo di proiezioni](TechDraw_ProjectionGroup/it.md), [Vista di sezione](TechDraw_SectionView/it.md)
+   MenuLocation: TechDraw -> Vista
+   Workbenches: TechDraw_Workbench/it
+   SeeAlso: TechDraw_ProjectionGroup/it, TechDraw_SectionView/it
 ---
 
 # TechDraw View/it

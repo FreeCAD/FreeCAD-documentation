@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher CreatePentagon
    Name/de: Sketcher FünfeckErstellen
-   MenuLocation: Sketch - Skizzengeometrien - Fünfeck erstellen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Sketch -> Skizzengeometrien -> Fünfeck erstellen
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **P** **5**
    Version: 0.15
 ---

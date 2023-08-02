@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft BSpline
    Name/tr: BSpline
-   MenuLocation: Taslak - BSpline
-   Workbenches: [Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   MenuLocation: Taslak -> BSpline
+   Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **B** **S**
    Version: 0.7
-   SeeAlso: [Tel](Draft_Wire/tr.md),[Bezier eğrisi](Draft_BezCurve/tr.md)
+   SeeAlso: Draft Wire/tr,Draft BezCurve/tr
 ---
 
 # Draft BSpline/tr

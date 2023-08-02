@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Mesh Union
    Name/pl: Siatka Połączenie
-   MenuLocation: Siatki - Operacje logiczne - Połączenie
-   Workbenches: [Siatka](Mesh_Workbench/pl.md)
-   SeeAlso: [Przecięcie](Mesh_Intersection/pl.md), [Różnica](Mesh_Difference/pl.md)
+   MenuLocation: Siatki -> Operacje logiczne -> Połączenie
+   Workbenches: Mesh_Workbench/pl
+   SeeAlso: Mesh_Intersection/pl, Mesh_Difference/pl
 ---
 
 # Mesh Union/pl

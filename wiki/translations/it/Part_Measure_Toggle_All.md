@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Part Measure Toggle All
    Name/it: Attiva/Disattiva tutto
-   MenuLocation: [Misure](Std_Measure_Menu/it.md) - Attiva/Disattiva tutto‏‎
-   Workbenches: [Part](Part_Workbench/it.md)
+   MenuLocation: Std Measure Menu/it -> Attiva/Disattiva tutto‏‎
+   Workbenches: Part_Workbench/it
 ---
 
 # Part Measure Toggle All/it

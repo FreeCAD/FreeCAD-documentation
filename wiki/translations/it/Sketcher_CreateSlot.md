@@ -1,6 +1,6 @@
 # Sketcher CreateSlot/it
 ---
-- GuiCommand:   Name: Sketcher CreateSlot   Name/it: Crea asola   Workbenches: [[Sketcher Workbench/it   Sketcher]]|MenuLocation: Sketch - Geometrie - Asola   Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: Sketcher CreateSlot   Name/it: Crea asola   Workbenches: Sketcher Workbench/it   Sketcher|MenuLocation: Sketch -> Geometrie -> Asola   Shortcut:    SeeAlso: ---
 
 
 </div>

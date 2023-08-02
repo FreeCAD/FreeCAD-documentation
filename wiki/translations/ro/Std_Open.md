@@ -1,6 +1,6 @@
 # Std Open/ro
 ---
-- GuiCommand:   Name: Std Open   Name/ro: Deschidere   MenuLocation: [Workbenches: All   Shortcut: Ctrl+O   SeeAlso: [[Std Save/ro|Salvare](Std_File_Menu/ro___File]]_-_Deschidere.md),[Importul](Std_Import/ro.md)---
+- GuiCommand:   Name: Std Open   Name/ro: Deschidere   MenuLocation: Std_File_Menu/ro   File -> Deschidere,Std Import/ro---
 
 
 </div>

@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Arch Stairs
    Name/de: Arch Treppe
-   MenuLocation: Arch - Treppe
-   Workbenches: [Arch](Arch_Workbench/de.md)
+   MenuLocation: Arch -> Treppe
+   Workbenches: Arch_Workbench/de
    Shortcut: **S** **R**
    Version: 0.14
-   SeeAlso: [Arch Struktur](Arch_Structure/de.md), [Arch Ausstattung](Arch_Equipment/de.md)
+   SeeAlso: Arch_Structure/de, Arch_Equipment/de
 ---
 
 # Arch Stairs/de

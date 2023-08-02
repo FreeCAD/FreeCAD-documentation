@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher BSplineKnotMultiplicity
    Name/pl: Szkicownik: Pokaż / ukryj wyświetlanie węzłów krzywej złożonej
-   MenuLocation: Szkic - Narzędzia szkicownika krzywej złożonej - Pokaż / ukryj wyświetlanie węzłów krzywej złożonej
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   MenuLocation: Szkic -> Narzędzia szkicownika krzywej złożonej -> Pokaż / ukryj wyświetlanie węzłów krzywej złożonej
+   Workbenches: Sketcher_Workbench/pl
    Version: 0.17
-   SeeAlso: [Komponent utwórz krzywą złożoną](Sketcher_CompCreateBSpline/pl.md)
+   SeeAlso: Sketcher_CompCreateBSpline/pl
 ---
 
 # Sketcher BSplineKnotMultiplicity/pl

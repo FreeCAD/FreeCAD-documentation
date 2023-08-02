@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ExtensionCreateHorizChainDimension
    Name/de: TechDraw ErgänzungHorizontaleMaßkette
-   MenuLocation: TechDraw - Ergänzungen: Maße - Horizontale Maßketten erstellen
-   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   MenuLocation: TechDraw -> Ergänzungen: Maße -> Horizontale Maßketten erstellen
+   Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20
-   SeeAlso: [TechDraw ErgänzungVertikaleMaßkette](TechDraw_ExtensionCreateVertChainDimension/de.md), [TechDraw ErgänzungSchrägeMaßkette](TechDraw_ExtensionCreateObliqueChainDimension.md)
+   SeeAlso: TechDraw_ExtensionCreateVertChainDimension/de, TechDraw_ExtensionCreateObliqueChainDimension
 ---
 
 # TechDraw ExtensionCreateHorizChainDimension/de

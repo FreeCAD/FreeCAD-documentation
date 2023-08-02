@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher SelectHorizontalAxis
    Name/es: Corquizador SeleccionarEjeHorizontal
-   MenuLocation: Corquis - Corquizador Herramientas - Seleccionar Eje Horizontal
-   Workbenches: [Corquizador](Sketcher_Workbench/es.md)
+   MenuLocation: Corquis -> Corquizador Herramientas -> Seleccionar Eje Horizontal
+   Workbenches: Sketcher_Workbench/es
    Shortcut: Shift+Ctrl+H
    Version: 0.15
 ---

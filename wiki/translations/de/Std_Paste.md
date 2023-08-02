@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std Paste
    Name/de: Std Einfügen
-   MenuLocation: Bearbeiten - Einfügen
+   MenuLocation: Bearbeiten -> Einfügen
    Workbenches: Alle
    Shortcut: ** Strg**+**V**
-   SeeAlso: [Std Ausschneiden](Std_Cut/de.md), [Std Kopieren](Std_Copy/de.md), [Std AuswahlDuplizieren](Std_DuplicateSelection/de.md)
+   SeeAlso: Std_Cut/de, Std_Copy/de, Std_DuplicateSelection/de
 ---
 
 # Std Paste/de

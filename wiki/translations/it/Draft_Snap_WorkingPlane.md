@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Snap WorkingPlane
    Name/it:  Limita al piano di lavoro
-   MenuLocation: Draft - [Aggancio](Draft_Snap/it.md) -  Piano di lavoro
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Draft -> Draft Snap/it ->  Piano di lavoro
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: 
-   SeeAlso: [Agganciare](Draft_Snap/it.md), [Selezione del piano](Draft_SelectPlane/it.md)
+   SeeAlso: Draft Snap/it, Draft SelectPlane/it
 ---
 
 # Draft Snap WorkingPlane/it

@@ -1,6 +1,6 @@
 # Arch Rebar/sv
 ---
-- GuiCommand:   Name: Arch Rebar   Name/sv: Arch Rebar   Workbenches: [MenuLocation: Arch - Rebar   Shortcut: R B   SeeAlso: [[Arch Structure/sv|Arch Structure](Arch_Workbench/sv___Arch]].md)---
+- GuiCommand:   Name: Arch Rebar   Name/sv: Arch Rebar   Workbenches: Arch_Workbench/sv   Arch---
 
 
 </div>

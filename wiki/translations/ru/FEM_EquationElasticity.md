@@ -3,10 +3,10 @@
    Name: FEM EquationElasticity
    Name/ru: Уравнение гибкости
    Icon: Fem-equation-elasticity.svg
-   MenuLocation:  Solve - Уравнение гибкости
-   Workbenches: [FEM](FEM_Workbench/ru.md)
+   MenuLocation:  Solve -> Уравнение гибкости
+   Workbenches: FEM_Workbench/ru
    Shortcut: 
-   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
+   SeeAlso: FEM_tutorial/ru
 ---
 
 # FEM EquationElasticity/ru

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign Clone
    Name/es: DiseñoPiezas Clon
-   Workbenches: [DiseñoPiezas](PartDesign_Workbench/es.md)
-   MenuLocation: Diseño Piezas - Crear un clon
+   Workbenches: PartDesign Workbench/es
+   MenuLocation: Diseño Piezas -> Crear un clon
    Version: 0.17
-   SeeAlso: [Clonar Draft](Draft_Clone/es.md)
+   SeeAlso: Draft Clone/es
 ---
 
 # PartDesign Clone/es

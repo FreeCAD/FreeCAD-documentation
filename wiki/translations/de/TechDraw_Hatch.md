@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw Hatch
    Name/de: TechDraw Schraffur
-   MenuLocation: TechDraw - Hatching - Fläche mit Muster aus einer Bilddatei schraffieren
-   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso: [TechDraw Geometrische Schraffur](TechDraw_GeometricHatch/de.md), [TechDraw Schraffieren](TechDraw_Hatching/de.md)
+   MenuLocation: TechDraw -> Hatching -> Fläche mit Muster aus einer Bilddatei schraffieren
+   Workbenches: TechDraw_Workbench/de
+   SeeAlso: TechDraw_GeometricHatch/de, TechDraw_Hatching/de
 ---
 
 # TechDraw Hatch/de

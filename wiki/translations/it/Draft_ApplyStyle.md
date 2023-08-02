@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft ApplyStyle
    Name/it: Applica lo stile
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   MenuLocation: Draft - Utilità - Applica stile
-   SeeAlso: [Barra di Draft](Draft_Tray/it.md), [Draft SetStyle](Draft_SetStyle.md)
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   MenuLocation: Draft -> Utilità -> Applica stile
+   SeeAlso: Draft Tray/it, Draft_SetStyle
 ---
 
 # Draft ApplyStyle/it

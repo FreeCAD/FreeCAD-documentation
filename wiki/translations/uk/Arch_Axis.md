@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch Axis
    Name/uk: Arch Axis
-   Workbenches: [Arch](Arch_Workbench/uk.md)
+   Workbenches: Arch_Workbench/uk
    MenuLocation: Arch -> Axis
    Shortcut: A X
-   SeeAlso: [Axis System](Arch_AxisSystem.md), [[Arch Grid]]
+   SeeAlso: Arch AxisSystem, Arch Grid
 ---
 
 # Arch Axis/uk

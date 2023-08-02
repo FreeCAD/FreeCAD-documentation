@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std_Undo
    Name/ru: Отменить
-   MenuLocation: Правка - Отменить
+   MenuLocation: Правка -> Отменить
    Workbenches: Все
    Shortcut: **Ctrl**+**Z**
-   SeeAlso: [Вернуть](Std_Redo/ru.md)
+   SeeAlso: Std_Redo/ru
 ---
 
 # Std Undo/ru

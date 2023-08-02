@@ -1,6 +1,6 @@
 # Path DressupDogbone/it
 ---
-- GuiCommand:   Name: Path DressupTag   Name/it: Vestizione Osso di cane   Workbenches: [MenuLocation: Path - Vestizione - Osso di cane   SeeAlso: [[Path_DressupTag/it|Tag di vestizione](Path_Workbench/it___Path]].md), [Rampa di ingresso](Path_DressupRampEntry/it.md), [Trascina lama](Path_DressupDragKnife/it.md) ---
+- GuiCommand:   Name: Path DressupTag   Name/it: Vestizione Osso di cane   Workbenches: Path Workbench/it   Path, Path_DressupRampEntry/it, Path_DressupDragKnife/it ---
 
 
 </div>

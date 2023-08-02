@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Snap Near
    Name/ru: Draft Snap Near
-   MenuLocation: Черчение - [Привязка](Draft_Snap/ru.md) - Ближайшие
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Черчение -> Draft Snap/ru -> Ближайшие
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: 
    SeeAlso: 
 ---

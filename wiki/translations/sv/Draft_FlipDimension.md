@@ -1,6 +1,6 @@
 # Draft FlipDimension/sv
 ---
-- GuiCommand:   Name: Draft FlipDimension   Name/sv: Draft FlipDimension   Workbenches: [Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation: Draft -> Utilities -> Flip Dimension   SeeAlso: [Dimension](Draft_Dimension/sv.md)---
+- GuiCommand:   Name: Draft FlipDimension   Name/sv: Draft FlipDimension   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv---
 
 
 </div>

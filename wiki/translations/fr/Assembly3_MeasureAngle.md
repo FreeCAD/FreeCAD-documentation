@@ -3,7 +3,7 @@
    Name: Assembly3 MeasureAngle
    Name/fr: Assembly3 Mesure d'angle
    Icon: Assembly_MeasureAngle.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 MeasureAngle/fr

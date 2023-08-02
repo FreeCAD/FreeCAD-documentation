@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch Check
    Name/ru: Arch Check
-   Workbenches: [Arch](Arch_Workbench/ru.md)
-   MenuLocation: Архитектура - Утилиты - Проверь
-   SeeAlso: [Убрать отверстия](Arch_CloseHoles/ru.md)
+   Workbenches: Arch_Workbench/ru
+   MenuLocation: Архитектура -> Утилиты -> Проверь
+   SeeAlso: Arch CloseHoles/ru
 ---
 
 # Arch Check/ru

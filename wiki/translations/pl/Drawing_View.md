@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Drawing View
    Name/pl: Kreślenie: Widok
-   Workbenches: [Kreślenie](Drawing_Workbench/pl.md)
-   MenuLocation: Kreślenie - Wstaw widok w rysunku
+   Workbenches: Drawing_Workbench/pl
+   MenuLocation: Kreślenie -> Wstaw widok w rysunku
    Shortcut: brak
-   SeeAlso: [Rysunek w formacie poziomym A3](Drawing_Landscape_A3/pl.md)
+   SeeAlso: Drawing_Landscape_A3/pl
 ---
 
 # Drawing View/pl

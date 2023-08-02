@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/ru: Армировать плиту
    Name: Arch_Rebar_Slab_Reinforcement
-   MenuLocation: Arch - Rebar tools - Slab Reinforcement<br>3D/BIM - Reinforcement tools - Slab Reinforcement
-   Workbenches: [Arch](Arch_Workbench/ru.md)
-   SeeAlso: [Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [Спиральная арматура](Arch_Rebar_Helical/ru.md)
+   MenuLocation: Arch -> Rebar tools -> Slab Reinforcement<br>3D/BIM -> Reinforcement tools -> Slab Reinforcement
+   Workbenches: Arch_Workbench/ru
+   SeeAlso: Reinforcement_Workbench/ru, Arch_Rebar/ru, Arch_Rebar_Helical/ru
 ---
 
 # Arch Rebar Slab Reinforcement/ru

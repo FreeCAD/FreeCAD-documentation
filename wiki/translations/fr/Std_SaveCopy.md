@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std SaveCopy
    Name/fr: Std Enregistrer une copie
-   MenuLocation: Fichier - Enregistrer une copie...
+   MenuLocation: Fichier -> Enregistrer une copie...
    Workbenches: Tous
-   SeeAlso: [Std Enregistrer sous](Std_SaveAs/fr.md), [Std Enregistrer](Std_Save/fr.md)
+   SeeAlso: Std_SaveAs/fr, Std_Save/fr
 ---
 
 # Std SaveCopy/fr

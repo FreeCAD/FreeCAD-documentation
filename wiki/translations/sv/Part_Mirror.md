@@ -1,6 +1,6 @@
 # Part Mirror/sv
 ---
-- GuiCommand:   Name: Part Mirror   Name/sv: Part Mirror   MenuLocation: Part -> Mirror/sv   Workbenches: [[Part Workbench/sv   Part]], Complete|SeeAlso: ---
+- GuiCommand:   Name: Part Mirror   Name/sv: Part Mirror   MenuLocation: Part -> Mirror/sv   Workbenches: Part Workbench/sv   Part, Complete|SeeAlso: ---
 
 
 </div>

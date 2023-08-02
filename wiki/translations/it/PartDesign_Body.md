@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign Body
    Name/it: Corpo
-   MenuLocation: Part Design - Crea un corpo
-   Workbenches: [PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation: Part Design -> Crea un corpo
+   Workbenches: PartDesign_Workbench/it
    Version: 0.17
-   SeeAlso: [Parte standard](Std_Part/it.md), [Editazione delle funzioni](feature_editing/it.md)
+   SeeAlso: Std_Part/it, feature_editing/it
 ---
 
 # PartDesign Body/it

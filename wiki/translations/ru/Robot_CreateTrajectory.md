@@ -3,8 +3,8 @@
 - GuiCommand:
    Name: Robot CreateTrajectory
    Name/ru: Robot CreateTrajectory
-   Workbenches: [Robot](Robot_Workbench/ru.md)
-   MenuLocation: Робот - Создание траектории---
+   Workbenches: Robot_Workbench/ru
+   MenuLocation: Робот -> Создание траектории---
 
 
 </div>

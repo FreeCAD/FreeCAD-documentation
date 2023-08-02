@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Part Primitives
-   MenuLocation: Part - Create primitives...
-   Workbenches: [Part](Part_Workbench.md), [OpenSCAD](OpenSCAD_Workbench.md)
-   SeeAlso: [Part Builder](Part_Builder.md)
+   MenuLocation: Part -> Create primitives...
+   Workbenches: Part_Workbench, OpenSCAD_Workbench
+   SeeAlso: Part_Builder
 ---
 
 # Part Primitives/ro

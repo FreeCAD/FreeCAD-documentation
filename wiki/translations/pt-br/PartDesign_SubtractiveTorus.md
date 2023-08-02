@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: PartDesign SubtractiveTorus
-   MenuLocation: Part Design - Create a subtractive primitive - Subtractive Torus
-   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   MenuLocation: Part Design -> Create a subtractive primitive -> Subtractive Torus
+   Workbenches: PartDesign_Workbench
    Version: 0.17
-   SeeAlso: [PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign AdditiveTorus](PartDesign_AdditiveTorus.md)
+   SeeAlso: PartDesign_CompPrimitiveSubtractive, PartDesign_AdditiveTorus
 ---
 
 # PartDesign SubtractiveTorus/pt-br

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std TextureMapping
    Name/pl: Std: Odwzorowanie tekstury
-   MenuLocation: Widok - Odwzorowanie tekstury ...
+   MenuLocation: Widok -> Odwzorowanie tekstury ...
    Workbenches: wszystkie
 ---
 

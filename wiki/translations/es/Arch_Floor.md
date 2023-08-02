@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Arch Floor
    Name/es: Arch Floor
-   Workbenches: [Entorno de Arquitectura](Arch_Workbench/es.md)
-   MenuLocation: Arquitectura - Piso
+   Workbenches: Arch_Workbench/es
+   MenuLocation: Arquitectura -> Piso
    Shortcut: **F** **L**
    SeeAlso: 
 ---

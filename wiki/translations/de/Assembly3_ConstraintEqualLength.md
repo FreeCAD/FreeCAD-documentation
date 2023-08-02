@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintEqualLength
    Name/de: Assembly3 GleicheLänge
    Icon: Assembly_ConstraintEqualLength.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 ConstraintEqualLength/de

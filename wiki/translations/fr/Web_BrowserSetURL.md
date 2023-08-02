@@ -3,8 +3,8 @@
    Name: Web BrowserSetURL
    Name/fr: Web Changer l'URL
    MenuLocation: 
-   Workbenches: [Web](Web_Workbench/fr.md), [Start](Start_Workbench/fr.md)
-   SeeAlso: [Web Ouvrir le site web](Web_OpenWebsite/fr.md)
+   Workbenches: Web_Workbench/fr, Start_Workbench/fr
+   SeeAlso: Web_OpenWebsite/fr
 ---
 
 # Web BrowserSetURL/fr

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std Group
    Name/tr: Grup Oluştur
-   MenuLocation: Ağaç görünüm - Belge üzerine sağ tıkla
+   MenuLocation: Ağaç görünüm -> Belge üzerine sağ tıkla
    Workbenches: Hepsi
    Shortcut: 
-   SeeAlso: [Taslak grup seçme](Draft_SelectGroup.md), [Taslak gruba ekle](Draft_AddToGroup.md)
+   SeeAlso: Draft_SelectGroup, Draft_AddToGroup
 ---
 
 # Std Group/tr

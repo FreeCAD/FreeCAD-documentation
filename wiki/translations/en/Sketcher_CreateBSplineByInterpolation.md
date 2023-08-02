@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Sketcher CreateBSplineByInterpolation
-   MenuLocation: Sketch - Sketcher geometries - Create B-spline by knots
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch -> Sketcher geometries -> Create B-spline by knots
+   Workbenches: Sketcher_Workbench
    Shortcut: **G** **B** **I**
    Version: 0.21
-   SeeAlso: [Sketcher Periodic B-spline](Sketcher_CreatePeriodicBSpline.md)
+   SeeAlso: Sketcher_CreatePeriodicBSpline
 ---
 
 # Sketcher CreateBSplineByInterpolation/en

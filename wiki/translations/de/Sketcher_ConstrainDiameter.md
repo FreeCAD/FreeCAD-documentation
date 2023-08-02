@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher ConstrainDiameter
    Name/de: Sketcher DurchmesserFestlegen
-   MenuLocation: Sketch - Skizzen-Beschränkungen - Durchmesser festlegen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Sketch -> Skizzen-Beschränkungen -> Durchmesser festlegen
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **K** **O**
    Version: 0.18
-   SeeAlso: [Sketcher AbstandFestlegen](Sketcher_ConstrainDistance/de.md), [Sketcher XAbstandFestlegen](Sketcher_ConstrainDistanceX/de.md), [Sketcher YAbstandFestlegen](Sketcher_ConstrainDistanceY/de.md)
+   SeeAlso: Sketcher_ConstrainDistance/de, Sketcher_ConstrainDistanceX/de, Sketcher_ConstrainDistanceY/de
 ---
 
 # Sketcher ConstrainDiameter/de

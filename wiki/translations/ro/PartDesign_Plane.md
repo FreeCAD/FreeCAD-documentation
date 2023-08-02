@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign Plane
    Name/ro: PartDesign Plane
-   Workbenches: [PartDesign](PartDesign_Workbench/ro.md)
-   MenuLocation: PartDesign - Create a datum plane
+   Workbenches: PartDesign Workbench/ro
+   MenuLocation: PartDesign -> Create a datum plane
    Version: 0.17
-   SeeAlso: [[PartDesign Point/ro]], [[PartDesign Line/ro]]
+   SeeAlso: PartDesign Point/ro, PartDesign Line/ro
 ---
 
 # PartDesign Plane/ro

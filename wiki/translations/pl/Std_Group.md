@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Std Group
    Name/pl: Std: Grupa
-   MenuLocation: [Widok drzewa](Tree_view/pl.md) - Kliknij prawym przyciskiem myszki nazwę dokumentu - Utwórz grupę ...
+   MenuLocation: Tree_view/pl -> Kliknij prawym przyciskiem myszki nazwę dokumentu -> Utwórz grupę ...
    Workbenches: wszystkie
    Shortcut: 
    Version: 
-   SeeAlso: [Część](Std_Part/pl.md), [Wybierz grupę](Draft_SelectGroup/pl.md), [Dodaj do grupy](Draft_AddToGroup/pl.md)
+   SeeAlso: Std_Part/pl, Draft_SelectGroup/pl, Draft_AddToGroup/pl
 ---
 
 # Std Group/pl

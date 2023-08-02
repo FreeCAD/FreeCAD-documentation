@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: PartDesign_Mirrored
    Name/fr: PartDesign Symétrie
-   MenuLocation: Part Design - Appliquer une transformation - Symétrie
-   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso: [PartDesign Transformation multiple](PartDesign_MultiTransform/fr.md)
+   MenuLocation: Part Design -> Appliquer une transformation -> Symétrie
+   Workbenches: PartDesign_Workbench/fr
+   SeeAlso: PartDesign_MultiTransform/fr
 ---
 
 # PartDesign Mirrored/fr

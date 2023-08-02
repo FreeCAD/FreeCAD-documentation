@@ -2,11 +2,11 @@
 - GuiCommand:
    Name/ru: Обозначить внутреннюю резьбу в разрезе отверстия
    Name: TechDraw_ExtensionThreadHoleSide
-   MenuLocation: TechDraw - Extensions: centerlines and threading - Cosmetic thread hole side view
-   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
+   MenuLocation: TechDraw -> Extensions: centerlines and threading -> Cosmetic thread hole side view
+   Workbenches: TechDraw_Workbench/ru
    Shortcut: 
    Version: 0.20
-   SeeAlso: [Обозначить наружную резьбу в разрезе стержня](TechDraw_ExtensionThreadBoltSide/ru.md)
+   SeeAlso: TechDraw_ExtensionThreadBoltSide/ru
 ---
 
 # TechDraw ExtensionThreadHoleSide/ru

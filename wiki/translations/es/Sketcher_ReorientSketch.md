@@ -3,9 +3,9 @@
    Name: Sketcher Reorient
    Name/es: Sketcher Reorient
    Empty: 1
-   Workbenches: [Sketcher](Sketcher_Workbench/es.md), [PartDesign](PartDesign_Workbench/es.md)
-   MenuLocation: Part design - Reorient sketch
-   SeeAlso: [Map sketch](Sketcher_MapSketch/es.md), [New Sketch](Sketcher_NewSketch/es.md)
+   Workbenches: Sketcher Workbench/es, PartDesign Workbench/es
+   MenuLocation: Part design -> Reorient sketch
+   SeeAlso: Sketcher_MapSketch/es, Sketcher_NewSketch/es
 ---
 
 # Sketcher ReorientSketch/es

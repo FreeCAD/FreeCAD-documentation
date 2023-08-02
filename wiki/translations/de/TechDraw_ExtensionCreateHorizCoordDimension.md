@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ExtensionCreateHorizCoordDimension
    Name/de: TechDraw ErgänzungHorizontaleKoordinatenmaße
-   MenuLocation: TechDraw - Ergänzungen: Maße - Horizontale Koordinatenmaße erstellen
-   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   MenuLocation: TechDraw -> Ergänzungen: Maße -> Horizontale Koordinatenmaße erstellen
+   Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20
-   SeeAlso: [TechDraw ErgänzungVertikaleKoordinatenmaße](TechDraw_ExtensionCreateVertCoordDimension/de.md), [TechDraw ErgänzungSchrägeKoordinatenmaße](TechDraw_ExtensionCreateObliqueCoordDimension/de.md)
+   SeeAlso: TechDraw_ExtensionCreateVertCoordDimension/de, TechDraw_ExtensionCreateObliqueCoordDimension/de
 ---
 
 # TechDraw ExtensionCreateHorizCoordDimension/de

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Sketcher ViewSection   Name/it: Vista sezione
-   MenuLocation: Sketch - Vista sezione
-   Workbenches: [Sketcher](Sketcher_Workbench/it.md), [PartDesign](PartDesign_Workbench/it.md) 
+   MenuLocation: Sketch -> Vista sezione
+   Workbenches: Sketcher Workbench/it, PartDesign Workbench/it 
    Version: 0.18
 ---
 

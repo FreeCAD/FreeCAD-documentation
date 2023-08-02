@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Sketcher SelectOrigin
-   MenuLocation: Sketch - Sketcher tools - Select origin
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch -> Sketcher tools -> Select origin
+   Workbenches: Sketcher_Workbench
    Shortcut: **Z** **O**
    Version: 0.15
 ---

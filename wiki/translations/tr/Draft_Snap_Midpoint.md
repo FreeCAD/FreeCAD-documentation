@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Midpoint
    Name/tr: Taslak Orta nokta
-   MenuLocation: Taslak - [Yakalama](Draft_Snap/tr.md) - Orta nokta
-   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   MenuLocation: Taslak -> Draft_Snap/tr -> Orta nokta
+   Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: ''None''
-   SeeAlso: [Yakalama](Draft_Snap/tr.md)
+   SeeAlso: Draft Snap/tr
 ---
 
 # Draft Snap Midpoint/tr

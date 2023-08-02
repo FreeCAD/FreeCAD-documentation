@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Helix
    Name/de: Part Helix
-   MenuLocation: Formteil - [Grundkörper erstellen...](Part_Primitives/de.md) - Helix
-   Workbenches: [Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
-   SeeAlso: [Part Grundelemente](Part_Primitives/de.md)
+   MenuLocation: Formteil -> Part_Primitives/de -> Helix
+   Workbenches: Part_Workbench/de, OpenSCAD_Workbench/de
+   SeeAlso: Part_Primitives/de
 ---
 
 # Part Helix/de

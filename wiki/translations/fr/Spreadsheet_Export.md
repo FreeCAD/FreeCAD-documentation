@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Spreadsheet Export
    Name/fr: Spreadsheet Exporter
-   MenuLocation: Spreadsheet - Exporter la feuille de calcul
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench/fr.md)
+   MenuLocation: Spreadsheet -> Exporter la feuille de calcul
+   Workbenches: Spreadsheet_Workbench/fr
    Version: 0.17
-   SeeAlso: [Spreadsheet Importer](Spreadsheet_Import/fr.md)
+   SeeAlso: Spreadsheet_Import/fr
 ---
 
 # Spreadsheet Export/fr

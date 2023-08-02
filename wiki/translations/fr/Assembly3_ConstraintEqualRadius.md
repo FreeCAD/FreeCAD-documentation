@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintEqualRadius
    Name/fr: Assembly3 Contrainte rayon
    Icon: Assembly_ConstraintEqualRadius.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 ConstraintEqualRadius/fr

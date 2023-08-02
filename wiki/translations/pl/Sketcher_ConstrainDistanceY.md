@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ConstrainDistanceY
    Name/pl: Szkicownik: Zwiąż w pionie
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
-   MenuLocation: Szkic - Wiązania szkicownika - Zwiąż w pionie
+   Workbenches: Sketcher_Workbench/pl
+   MenuLocation: Szkic -> Wiązania szkicownika -> Zwiąż w pionie
    Shortcut: **I**
-   SeeAlso: [Zwiąż w poziomie](Sketcher_ConstrainDistanceX/pl.md), [Wiązanie odległości](Sketcher_ConstrainDistance/pl.md)
+   SeeAlso: Sketcher_ConstrainDistanceX/pl, Sketcher_ConstrainDistance/pl
 ---
 
 # Sketcher ConstrainDistanceY/pl

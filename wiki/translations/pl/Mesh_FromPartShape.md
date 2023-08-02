@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Mesh FromPartShape
    Name/pl: Siatka: Utwórz siatkę z kształtu
-   MenuLocation: Siatki - Utwórz siatkę z kształtu ...
-   Workbenches: [Siatka](Mesh_Workbench/pl.md)
+   MenuLocation: Siatki -> Utwórz siatkę z kształtu ...
+   Workbenches: Mesh_Workbench/pl
 ---
 
 # Mesh FromPartShape/pl

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part_Tube
    Name/ru: Создать трубу
-   MenuLocation: Деталь - Примитивы - Создать трубу
-   Workbenches: [Part(Деталь)](Part_Workbench/ru.md)
+   MenuLocation: Деталь -> Примитивы -> Создать трубу
+   Workbenches: Part_Workbench/ru
    Version: 0.19
-   SeeAlso: [Создать примитивы](Part_CreatePrimitives/ru.md)
+   SeeAlso: Part_CreatePrimitives/ru
 ---
 
 # Part Tube/ru

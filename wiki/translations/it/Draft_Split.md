@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Split
    Name/it: Dividi
-   MenuLocation: Modifiche - Dividi
-   Workbenches: [Draft](Draft_Workbench/it.md),  [Arch](Arch_Workbench/it.md)
+   MenuLocation: Modifiche -> Dividi
+   Workbenches: Draft_Workbench/it,  Arch_Workbench/it
    Shortcut: **S** **P**
    Version: 0.18
-   SeeAlso: [Unisci](Draft_Join/it.md)
+   SeeAlso: Draft_Join/it
 ---
 
 # Draft Split/it

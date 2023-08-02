@@ -1,6 +1,6 @@
 # Std DlgParameter/ro
 ---
-- GuiCommand:   Name: Std DlgParameter   Workbenches: All   MenuLocation: [[Std Tools Menu   Tools]] - Parameter |Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: Std DlgParameter   Workbenches: All   MenuLocation: Std Tools Menu   Tools -> Parameter |Shortcut:    SeeAlso: ---
 
 
 </div>

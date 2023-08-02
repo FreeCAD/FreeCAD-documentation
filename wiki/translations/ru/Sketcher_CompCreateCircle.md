@@ -3,8 +3,8 @@
    Name: Sketcher Circles
    Name/ru: Создать окружность
    Icon: Sketcher_CompCreateCircle.png
-   MenuLocation: Нет (только на панели инструментов)
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation: Нет 
+   Workbenches: Sketcher_Workbench/ru
 ---
 
 # Sketcher CompCreateCircle/ru

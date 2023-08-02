@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Sketcher CreateArcOfParabola
-   MenuLocation: Sketch - Sketcher geometries - Create arc of parabola
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch -> Sketcher geometries -> Create arc of parabola
+   Workbenches: Sketcher_Workbench
    Shortcut: **G** **J**
    Version: 0.17
-   SeeAlso: [Sketcher Arc of ellipse](Sketcher_CreateArcOfEllipse.md), [Sketcher Arc of hyperbola](Sketcher_CreateArcOfHyperbola.md)
+   SeeAlso: Sketcher_CreateArcOfEllipse, Sketcher_CreateArcOfHyperbola
 ---
 
 # Sketcher CreateArcOfParabola

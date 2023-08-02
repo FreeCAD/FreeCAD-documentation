@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Mesh_AddFacet
    Name/it: Aggiungi triangolo
-   MenuLocation: Mesh - Aggiungi triangolo
-   Workbenches: [Mesh](Mesh_Workbench/it.md)
-   SeeAlso: [Riempi i buchi](Mesh_FillupHoles/it.md), [Chiudi il buco](Mesh_FillInteractiveHole/it.md)
+   MenuLocation: Mesh -> Aggiungi triangolo
+   Workbenches: Mesh_Workbench/it
+   SeeAlso: Mesh_FillupHoles/it, Mesh_FillInteractiveHole/it
 ---
 
 # Mesh AddFacet/it

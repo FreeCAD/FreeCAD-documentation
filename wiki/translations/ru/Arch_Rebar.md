@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Арматура по эскизу
    Name: Arch_Rebar
-   MenuLocation: Arch - Rebar tools - Custom Rebar<br>3D/BIM - Reinforcement tools - Пользовательская Арматура
-   Workbenches: [Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
+   MenuLocation: Arch -> Rebar tools -> Custom Rebar<br>3D/BIM -> Reinforcement tools -> Пользовательская Арматура
+   Workbenches: Arch_Workbench/ru, BIM_Workbench/ru
    Shortcut: **R** **B**
-   SeeAlso: [Структура](Arch_Structure/ru.md), [Reinforcement](Reinforcement_Workbench/ru.md)
+   SeeAlso: Arch_Structure/ru, Reinforcement_Workbench/ru
 ---
 
 # Arch Rebar/ru

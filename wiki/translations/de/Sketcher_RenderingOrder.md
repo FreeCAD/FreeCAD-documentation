@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Sketcher RenderingOrder
    Name/de: Sketcher RenderingReihenfolge
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   Workbenches: Sketcher_Workbench/de
    Version: 0.21
 ---
 

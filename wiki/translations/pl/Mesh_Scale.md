@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Mesh Scale
    Name/pl: Siatka Skaluj
-   MenuLocation: Siatki - Skaluj ...
-   Workbenches: [Siatka](Mesh_Workbench/pl.md)
+   MenuLocation: Siatki -> Skaluj ...
+   Workbenches: Mesh_Workbench/pl
 ---
 
 # Mesh Scale/pl

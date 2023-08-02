@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Upgrade
    Name/ru: Draft Upgrade
-   MenuLocation: Черчение - Обновить
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Черчение -> Обновить
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: **U** **P**
-   SeeAlso: [Draft Downgrade](Draft_Downgrade/ru.md), [Part Fuse](Part_Fuse/ru.md)
+   SeeAlso: Draft_Downgrade/ru, Part_Fuse/ru
 ---
 
 # Draft Upgrade/ru

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: OpenSCAD ExpandPlacements
    Name/de: OpenSCAD PositionierungenErweitern
-   MenuLocation: OpenSCAD - Positionierungen erweitern
-   Workbenches: [OpenSCAD](OpenSCAD_Workbench/de.md)
+   MenuLocation: OpenSCAD -> Positionierungen erweitern
+   Workbenches: OpenSCAD_Workbench/de
 ---
 
 # OpenSCAD ExpandPlacements/de

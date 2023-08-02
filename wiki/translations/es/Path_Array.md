@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path Array
    Name/es: Trayecoria Arreglo
-   MenuLocation: Trayecoria - Trayecoria Modificación - Arreglo
-   Workbenches: [Trayecoria](Path_Workbench/es.md)
+   MenuLocation: Trayecoria -> Trayecoria Modificación -> Arreglo
+   Workbenches: Path_Workbench/es
    Shortcut: 
    SeeAlso: 
 ---

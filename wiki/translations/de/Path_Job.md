@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path Job
    Name/de: Path Auftrag
-   MenuLocation: Pfad - Auftrag
-   Workbenches: [Pfad](Path_Workbench/de.md)
+   MenuLocation: Pfad -> Auftrag
+   Workbenches: Path_Workbench/de
    Shortcut: **P** **J**
 ---
 

@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintPointsSymmetric
    Name/fr: Assembly3 Contrainte points symétriques
    Icon: Assembly_ConstraintPointsSymmetric.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 ConstraintPointsSymmetric/fr

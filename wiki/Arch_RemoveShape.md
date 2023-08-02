@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Arch RemoveShape
-   MenuLocation: Arch - Utilities - Remove Shape
-   Workbenches: [Arch](Arch_Workbench.md)
-   SeeAlso: [Arch SplitMesh](Arch_SplitMesh.md), [Arch MeshToShape](Arch_MeshToShape.md)
+   MenuLocation: Arch -> Utilities -> Remove Shape
+   Workbenches: Arch_Workbench
+   SeeAlso: Arch_SplitMesh, Arch_MeshToShape
 ---
 
 # Arch RemoveShape

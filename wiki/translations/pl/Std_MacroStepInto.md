@@ -3,10 +3,10 @@
    Name: Std MacroStepInto
    Name/pl: Std: Wejdź do
    Empty: 1
-   MenuLocation: Makrodefinicje - Wejdź do
+   MenuLocation: Makrodefinicje -> Wejdź do
    Workbenches: wszystkie
    Shortcut: **F11**
-   SeeAlso: [Krok dalej](Std_MacroStepOver/pl.md), [Przełącz punkt przerwania](Std_ToggleBreakpoint/pl.md)
+   SeeAlso: Std_MacroStepOver/pl, Std_ToggleBreakpoint/pl
 ---
 
 # Std MacroStepInto/pl

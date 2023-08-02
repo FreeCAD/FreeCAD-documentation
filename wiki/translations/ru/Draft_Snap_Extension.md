@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Snap Extension
    Name/ru: Draft Snap Extension
-   MenuLocation: Черчение - [Привязка](Draft_Snap/ru.md) - Продолжение
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Черчение -> Draft Snap/ru -> Продолжение
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: 
    SeeAlso: 
 ---

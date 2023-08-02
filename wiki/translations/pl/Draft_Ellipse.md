@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Ellipse
    Name/pl: Draft: Elipsa
-   MenuLocation: Kreślenie - Elipsa
-   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   MenuLocation: Kreślenie -> Elipsa
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **E** **L**
    Version: 0.7
 ---

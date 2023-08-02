@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part Loft
    Name: Part Ausformung
-   MenuLocation: Formteil - Ausformung...
-   Workbenches: [Part](Part_Workbench/de.md)
+   MenuLocation: Formteil -> Ausformung...
+   Workbenches: Part_Workbench/de
    Version: 0.13
-   SeeAlso: [Part Austragung](Part_Sweep/de.md)
+   SeeAlso: Part_Sweep/de
 ---
 
 # Part Loft/de

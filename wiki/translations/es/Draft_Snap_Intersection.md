@@ -1,6 +1,6 @@
 # Draft Snap Intersection/es
 ---
-- GuiCommand:   Name: Draft Snap Intersection   Workbenches: [Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation: Draft - [[Draft_Snap   Snap]] - Intersection|Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: Draft Snap Intersection   Workbenches: Draft Workbench   Draft, Arch Workbench -> Intersection|Shortcut:    SeeAlso: ---
 
 
 </div>

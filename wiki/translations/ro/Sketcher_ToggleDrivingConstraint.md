@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Sketcher ToggleConstraint
-   Workbenches: [Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
-   MenuLocation: Sketch - Sketcher constraints - Toggle reference/driving constraint
-   SeeAlso: [Toggle Construction](Sketcher_ToggleConstruction.md)
+   Workbenches: Sketcher Workbench, PartDesign Workbench
+   MenuLocation: Sketch -> Sketcher constraints -> Toggle reference/driving constraint
+   SeeAlso: Sketcher_ToggleConstruction
 ---
 
 # Sketcher ToggleDrivingConstraint/ro

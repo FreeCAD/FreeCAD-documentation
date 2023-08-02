@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Measure Refresh
    Name/ru: Part Measure Refresh
-   MenuLocation: Measure - Refresh
-   Workbenches: [Part](Part_Workbench/ru.md)
-   SeeAlso: [Measure Linear](Part_Measure_Linear/ru.md), [Measure Angular](Part_Measure_Angular/ru.md)
+   MenuLocation: Measure -> Refresh
+   Workbenches: Part_Workbench/ru
+   SeeAlso: Part_Measure_Linear/ru, Part_Measure_Angular/ru
 ---
 
 # Part Measure Refresh/ru

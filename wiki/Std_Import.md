@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Std Import
-   MenuLocation: File - Import...
+   MenuLocation: File -> Import...
    Workbenches: All
    Shortcut: **Ctrl**+**I**
-   SeeAlso: [Std Open](Std_Open.md), [Import Export](Import_Export.md), [Import Export Preferences](Import_Export_Preferences.md)
+   SeeAlso: Std_Open, Import_Export, Import_Export_Preferences
 ---
 
 # Std Import

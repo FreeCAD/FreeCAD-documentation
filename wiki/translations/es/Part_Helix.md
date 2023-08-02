@@ -1,6 +1,6 @@
 # Part Helix/es
 ---
-- GuiCommand:   Name: Part Helix   Name/es: Part Helix   MenuLocation: Part - [Workbenches: [[Part_Workbench/es   Part](Part_CreatePrimitives/es___Create_Primitives]]_-_Helix.md), [OpenSCAD](OpenSCAD_Workbench/es.md)|SeeAlso: ..---
+- GuiCommand:   Name: Part Helix   Name/es: Part Helix   MenuLocation: Part -> Part_CreatePrimitives/es   Create Primitives -> Helix, OpenSCAD_Workbench/es|SeeAlso: ..---
 
 
 </div>

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/ru: Одномерная секция для текучего вещества
    Name: FEM_ElementFluid1D
-   MenuLocation: Модель - Геометрия элемента - Одномерная секция для текучего вещества
-   Workbenches: [FEM](FEM_Workbench/ru.md)
-   SeeAlso: [Руководство по МКЭ](FEM_tutorial/ru.md)
+   MenuLocation: Модель -> Геометрия элемента -> Одномерная секция для текучего вещества
+   Workbenches: FEM_Workbench/ru
+   SeeAlso: FEM_tutorial/ru
 ---
 
 # FEM ElementFluid1D/ru

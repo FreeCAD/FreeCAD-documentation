@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std ReportBug
    Name/it: Segnala un bug
-   MenuLocation: Aiuto - Segnala un bug
+   MenuLocation: Aiuto -> Segnala un bug
    Workbenches: Tutti
    Version: 0.20
 ---

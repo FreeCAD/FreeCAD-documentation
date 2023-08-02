@@ -1,6 +1,6 @@
 # TechDraw Hatch/it
 ---
-- GuiCommand:   Name: TechDraw Hatch   Name/it: Tratteggio da modello   Workbenches: [MenuLocation: TechDraw - Tratteggio da modello   Shortcut:    SeeAlso: [[TechDraw_GeometricHatch/it|Tratteggio geometrico](TechDraw_Workbench/it___TechDraw]].md), [Tipi di tratteggio](TechDraw_Hatching/it.md)---
+- GuiCommand:   Name: TechDraw Hatch   Name/it: Tratteggio da modello   Workbenches: TechDraw_Workbench/it   TechDraw, TechDraw_Hatching/it---
 
 
 </div>

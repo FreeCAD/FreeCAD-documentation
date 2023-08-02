@@ -1,6 +1,6 @@
 # TechDraw DiameterDimension/ro
 ---
-- GuiCommand:   Name: TechDraw  Dimension Diameter   Workbenches: [[TechDraw_Workbench   TechDraw]]|MenuLocation: TechDraw - Dimension Diameter   Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: TechDraw  Dimension Diameter   Workbenches: TechDraw_Workbench   TechDraw|MenuLocation: TechDraw -> Dimension Diameter   Shortcut:    SeeAlso: ---
 
 
 </div>

@@ -1,6 +1,6 @@
 # Part Ellipse/ro
 ---
-- GuiCommand:   Name: Part Ellipse   MenuLocation: Part - [Workbenches: [[Part Workbench   Part](Part_CreatePrimitives___Create_Primitives]]_-_Ellipse.md),  [OpenSCAD](OpenSCAD_Workbench.md)|SeeAlso: ..---
+- GuiCommand:   Name: Part Ellipse   MenuLocation: Part -> Part_CreatePrimitives   Create Primitives -> Ellipse,  OpenSCAD_Workbench|SeeAlso: ..---
 
 
 </div>

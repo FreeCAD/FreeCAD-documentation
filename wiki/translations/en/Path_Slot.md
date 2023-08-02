@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Path Slot
-   MenuLocation: Path - Slot
-   Workbenches: [Path](Path_Workbench.md)
+   MenuLocation: Path -> Slot
+   Workbenches: Path_Workbench
    Version: 0.19
 ---
 

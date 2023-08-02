@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch CutLine
    Name/it: Taglia con una linea
-   MenuLocation: Arch - Taglia con una linea
-   Workbenches: [Arch](Arch_Workbench/it.md)
-   SeeAlso: [Taglia con un piano](Arch_CutPlane/it.md)
+   MenuLocation: Arch -> Taglia con una linea
+   Workbenches: Arch_Workbench/it
+   SeeAlso: Arch_CutPlane/it
    Version: 0.19
 ---
 

@@ -1,6 +1,6 @@
 # Draft Draft2Sketch/cs
 ---
-- GuiCommand:   Name: Draft_Draft2Sketch   Name/cs: Kreslení Kreslení2Náčrt   Workbenches: [Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation: Kreslení -> Nákres do Náčrtu---
+- GuiCommand:   Name: Draft_Draft2Sketch   Name/cs: Kreslení Kreslení2Náčrt   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs|MenuLocation: Kreslení -> Nákres do Náčrtu---
 
 
 </div>

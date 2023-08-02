@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Raytracing New
-   MenuLocation: Raytracing - New Pov-Ray project‏‎
-   Workbenches: [Raytracing](Raytracing_Workbench.md)
+   MenuLocation: Raytracing -> New Pov-Ray project‏‎
+   Workbenches: Raytracing_Workbench
    Shortcut: 
    SeeAlso: 
 ---

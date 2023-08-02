@@ -3,9 +3,9 @@
    Name: Draft SelectPlane
    Name/es: Borrador SeleccionarPlano
    MenuLocation: Borrador -> Seleccionar Plano
-   Workbenches: [Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Shortcut: **W** **P**
-   SeeAlso: [Borrador PlanoTrabajoProxy](Draft_WorkingPlaneProxy/es.md), [Borrador AlternarRejilla](Draft_ToggleGrid/es.md)
+   SeeAlso: Draft_WorkingPlaneProxy/es, Draft_ToggleGrid/es
 ---
 
 # Draft SelectPlane/es

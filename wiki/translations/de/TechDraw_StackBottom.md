@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw StackBottom
    Name/de: TechDraw StapelUnterseite
-   MenuLocation: TechDraw - Stacking - Ansicht zur Stapelunterseite bewegen
-   Workbenches: [TechDraw](TechDraw_Workbench/de.md)
+   MenuLocation: TechDraw -> Stacking -> Ansicht zur Stapelunterseite bewegen
+   Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.21
-   SeeAlso: [TechDraw StapelOberseite](TechDraw_StackTop/de.md), [TechDraw StapelNachOben](TechDraw_StackUp/de.md), [TechDraw StapelNachUnten](TechDraw_StackDown/de.md)
+   SeeAlso: TechDraw_StackTop/de, TechDraw_StackUp/de, TechDraw_StackDown/de
 ---
 
 # TechDraw StackBottom/de

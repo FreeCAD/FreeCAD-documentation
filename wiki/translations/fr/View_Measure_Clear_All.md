@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: View Measure Clear All
    Name/fr: Affichage Supprimer les mesures
-   MenuLocation: Affichage - Visibilité - Supprimer les mesures
+   MenuLocation: Affichage -> Visibilité -> Supprimer les mesures
    Workbenches: Tous
-   SeeAlso: [Affichage Afficher les mesures](View_Measure_Toggle_All/fr.md), [Part Basculer tout](Part_Measure_Toggle_All/fr.md), [Part Effacer toute mesure](Part_Measure_Clear_All/fr.md)
+   SeeAlso: View_Measure_Toggle_All/fr, Part_Measure_Toggle_All/fr, Part_Measure_Clear_All/fr
 ---
 
 # View Measure Clear All/fr

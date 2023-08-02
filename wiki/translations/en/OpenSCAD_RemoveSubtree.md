@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: OpenSCAD RemoveSubtree‏‎
-   MenuLocation: OpenSCAD - Remove Objects and their children
-   Workbenches: [OpenSCAD](OpenSCAD_Workbench.md)
+   MenuLocation: OpenSCAD -> Remove Objects and their children
+   Workbenches: OpenSCAD_Workbench
 ---
 
 # OpenSCAD RemoveSubtree/en

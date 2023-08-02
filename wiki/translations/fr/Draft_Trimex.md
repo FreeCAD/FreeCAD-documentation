@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Trimex
    Name/fr: Draft Ajuster ou prolonger
-   MenuLocation: Modification - Ajuster ou Prolonger
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Modification -> Ajuster ou Prolonger
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **T** **R**
-   SeeAlso: [Part Extrusion](Part_Extrude/fr.md)
+   SeeAlso: Part_Extrude/fr
 ---
 
 # Draft Trimex/fr

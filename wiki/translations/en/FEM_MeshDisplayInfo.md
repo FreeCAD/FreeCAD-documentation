@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: FEM MeshDisplayInfo
-   MenuLocation: Context menu on mesh object - Display FEM mesh info
-   Workbenches: [FEM](FEM_Workbench.md)
-   SeeAlso: [FEM tutorial](FEM_tutorial.md)
+   MenuLocation: Context menu on mesh object -> Display FEM mesh info
+   Workbenches: FEM_Workbench
+   SeeAlso: FEM_tutorial
 ---
 
 # FEM MeshDisplayInfo/en

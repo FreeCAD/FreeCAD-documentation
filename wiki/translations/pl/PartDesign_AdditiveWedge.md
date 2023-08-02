@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign AdditiveWedge
    Name/pl: Projekt Części: Addytywny klin
-   MenuLocation: Projekt Części - Utwórz cechę przez dodanie - Addytywny klin
-   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   MenuLocation: Projekt Części -> Utwórz cechę przez dodanie -> Addytywny klin
+   Workbenches: PartDesign_Workbench/pl
    Version: 0.17
-   SeeAlso: [Komponent bryła pierwotna do dodania](PartDesign_CompPrimitiveAdditive/pl.md), [Subtraktywny klin](PartDesign_SubtractiveWedge/pl.md)
+   SeeAlso: PartDesign_CompPrimitiveAdditive/pl, PartDesign_SubtractiveWedge/pl
 ---
 
 # PartDesign AdditiveWedge/pl

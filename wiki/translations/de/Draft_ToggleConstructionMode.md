@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft ToggleConstructionMode
    Name/de: Draft UmschaltenKonstruktionsmodus
-   MenuLocation: Draft - Utilities - Konstruktionsmodus umschalten
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso: [Draft ZurKonstruktionsgruppeHinzufügen](Draft_AddConstruction/de.md)
+   MenuLocation: Draft -> Utilities -> Konstruktionsmodus umschalten
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   SeeAlso: Draft AddConstruction/de
 ---
 
 # Draft ToggleConstructionMode/de

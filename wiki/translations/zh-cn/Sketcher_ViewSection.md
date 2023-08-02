@@ -1,8 +1,8 @@
 ---
 - GuiCommand:-cn
    Name: 查看截面
-   MenuLocation: Sketch - 查看截面
-   Workbenches: [Sketcher](Sketcher_Workbench/zh-cn.md), [PartDesign](PartDesign_Workbench/zh-cn.md)
+   MenuLocation: Sketch -> 查看截面
+   Workbenches: Sketcher_Workbench/zh-cn, PartDesign_Workbench/zh-cn
    Shortcut: **Q** **S**
    Version: 0.18
 ---

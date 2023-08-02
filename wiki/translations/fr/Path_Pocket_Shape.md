@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path Pocket Shape
    Name/fr: Path Poche
-   MenuLocation: Path - Poche
-   Workbenches: [Path](Path_Workbench/fr.md)
+   MenuLocation: Path -> Poche
+   Workbenches: Path_Workbench/fr
 ---
 
 # Path Pocket Shape/fr

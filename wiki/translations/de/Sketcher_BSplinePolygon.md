@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher BSplinePolygon
    Name/de: Sketcher BSplinePolygon
-   MenuLocation: Sketch - B-Spline-Werkzeuge -B-Spline-Kontrollpolygon ein- / ausblenden
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Sketch -> B-Spline-Werkzeuge ->B-Spline-Kontrollpolygon ein- / ausblenden
+   Workbenches: Sketcher_Workbench/de
    Version: 0.17
-   SeeAlso: [Sketcher CompCreateBSpline](Sketcher_CompCreateBSpline/de.md)
+   SeeAlso: Sketcher_CompCreateBSpline/de
 ---
 
 # Sketcher BSplinePolygon/de

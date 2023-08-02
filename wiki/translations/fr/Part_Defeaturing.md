@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part Defeaturing
    Name/fr: Part Supprimer la fonctionnalité
-   MenuLocation: Part - Supprimer la fonctionnalité
-   Workbenches: [Part](Part_Workbench/fr.md)
+   MenuLocation: Part -> Supprimer la fonctionnalité
+   Workbenches: Part_Workbench/fr
    Version: 0.18
-   SeeAlso: [Atelier Defeaturing](Defeaturing_Workbench/fr.md), [Macro Parametric Defeaturing](Macro_Parametric_Defeaturing/fr.md)
+   SeeAlso: Defeaturing_Workbench/fr, Macro_Parametric_Defeaturing/fr
 ---
 
 # Part Defeaturing/fr

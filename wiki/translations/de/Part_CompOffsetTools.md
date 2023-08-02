@@ -3,7 +3,7 @@
    Name: Part CompOffsetTools
    Name/de: Part AuswahlVersatzwerkzeuge
    MenuLocation: 
-   Workbenches: [Part](Part_Workbench/de.md)
+   Workbenches: Part_Workbench/de
    SeeAlso: 
 ---
 

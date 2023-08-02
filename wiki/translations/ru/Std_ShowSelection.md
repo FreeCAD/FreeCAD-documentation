@@ -3,9 +3,9 @@
    Name: Std ShowSelection
    Name/ru: Std ShowSelection
    Empty: 1
-   MenuLocation: Вид - Видимость - Показать выделенные
+   MenuLocation: Вид -> Видимость -> Показать выделенные
    Workbenches: All
-   SeeAlso: [Std ToggleVisibility](Std_ToggleVisibility/ru.md), [Std HideSelection](Std_HideSelection/ru.md), [Std ToggleObjects](Std_ToggleObjects/ru.md), [Std ShowObjects](Std_ShowObjects/ru.md), [Std HideObjects](Std_HideObjects/ru.md)
+   SeeAlso: Std_ToggleVisibility/ru, Std_HideSelection/ru, Std_ToggleObjects/ru, Std_ShowObjects/ru, Std_HideObjects/ru
 ---
 
 # Std ShowSelection/ru

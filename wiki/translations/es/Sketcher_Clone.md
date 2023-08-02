@@ -8,10 +8,10 @@
    Name/it: Sketcher Clona
    Name/ro: Sketcher Clonă
    Name/ru: Sketcher Клонировать
-   Workbenches: [Sketcher](Sketcher_Workbench/es.md)
-   MenuLocation: Sketch - Herriamentas de croquis - Clonar
+   Workbenches: Sketcher Workbench/es
+   MenuLocation: Sketch -> Herriamentas de croquis -> Clonar
    Version: 0.16
-   SeeAlso: [Sketcher Copiar](Sketcher_Copy/es.md), [Sketcher Move](Sketcher_Move/es.md)
+   SeeAlso: Sketcher Copy/es, Sketcher Move/es
 ---
 
 # Sketcher Clone/es

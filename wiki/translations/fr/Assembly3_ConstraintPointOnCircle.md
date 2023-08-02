@@ -3,7 +3,7 @@
    Name: Assembly3 ConstraintPointOnCircle
    Name/fr: Assembly3 Contrainte point sur un cercle
    Icon: Assembly_ConstraintPointOnCircle.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 ConstraintPointOnCircle/fr

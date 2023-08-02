@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Primitives
    Name/de: Part Grundelemente
-   MenuLocation: Formteil - Grundkörper erstellen...
-   Workbenches: [Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
-   SeeAlso: [Part Formgenerator](Part_Builder/de.md)
+   MenuLocation: Formteil -> Grundkörper erstellen...
+   Workbenches: Part_Workbench/de, OpenSCAD_Workbench/de
+   SeeAlso: Part_Builder/de
 ---
 
 # Part Primitives/de

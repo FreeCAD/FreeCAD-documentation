@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Boolean
    Name/de: Part BoolescheOperation
-   MenuLocation: Formteil - Boolesche Operation - Boolesche Operation...
-   Workbenches: [Part](Part_Workbench/de.md)
-   SeeAlso: [Part Differenz](Part_Cut/de.md), [Part Vereinigung](Part_Fuse/de.md), [Part Schnitt](Part_Common/de.md), und [Part Schnittkurve](Part_Section/de.md)
+   MenuLocation: Formteil -> Boolesche Operation -> Boolesche Operation...
+   Workbenches: Part_Workbench/de
+   SeeAlso: Part_Cut/de, Part_Fuse/de, Part_Common/de, und Part_Section/de
 ---
 
 # Part Boolean/de

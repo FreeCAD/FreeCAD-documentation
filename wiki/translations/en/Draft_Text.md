@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Draft Text
-   MenuLocation: Annotation - Text
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Annotation -> Text
+   Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **T** **E**
    Version: 0.7
-   SeeAlso: [Draft Label](Draft_Label.md), [Draft ShapeString](Draft_ShapeString.md)
+   SeeAlso: Draft_Label, Draft_ShapeString
 ---
 
 # Draft Text/en

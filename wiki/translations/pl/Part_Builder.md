@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Shapebuilder
    Name/pl: Część: Konstruktor
-   MenuLocation: Część - Konstruktor kształtu ...
-   Workbenches: [Część](Part_Workbench/pl.md)
-   SeeAlso: [Utwórz geometrie pierwotne](Part_CreatePrimitives/pl.md)
+   MenuLocation: Część -> Konstruktor kształtu ...
+   Workbenches: Part_Workbench/pl
+   SeeAlso: Part_CreatePrimitives/pl
 ---
 
 # Part Builder/pl

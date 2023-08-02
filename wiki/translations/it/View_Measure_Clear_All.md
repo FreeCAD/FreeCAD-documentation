@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: View Measure Clear All
    Name/it: View Measure Clear All
-   MenuLocation: Visualizza - Visibilita - Cancella le misure
+   MenuLocation: Visualizza -> Visibilita -> Cancella le misure
    Workbenches: Tutti
-   SeeAlso: [Attiva/disattiva le misure](View_Measure_Toggle_All/it.md), [Part: Attiva o Disattiva tutte le misure](Part_Measure_Toggle_All/it.md), [Part: Cancella tutte le misure](Part_Measure_Clear_All/it.md)
+   SeeAlso: View_Measure_Toggle_All/it, Part_Measure_Toggle_All/it, Part_Measure_Clear_All/it
 ---
 
 # View Measure Clear All/it

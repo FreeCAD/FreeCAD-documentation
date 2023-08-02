@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part CrossSections
    Name/ru: Поперечные сечения
-   MenuLocation: Деталь - Поперечные сечения
-   Workbenches: [Верстак Part](Part_Workbench/ru.md)
-   SeeAlso: [Разделить](Part_Section/ru.md)
+   MenuLocation: Деталь -> Поперечные сечения
+   Workbenches: Part_Workbench/ru
+   SeeAlso: Part_Section/ru
 ---
 
 # Part CrossSections/ru

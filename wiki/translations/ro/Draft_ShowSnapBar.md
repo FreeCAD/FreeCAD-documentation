@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft ShowSnapBar
    Name/ro: Draft ShowSnapBar
-   MenuLocation: Draft - Utilities - Show Snap Bar
-   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   MenuLocation: Draft -> Utilities -> Show Snap Bar
+   Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
 ---
 
 # Draft ShowSnapBar/ro

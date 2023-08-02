@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher Symmetry
    Name/es: Croquizador Simetria
-   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation: Sketch - Herriamentas Croquizador - Simetria
+   Workbenches: Sketcher Workbench/es
+   MenuLocation: Sketch -> Herriamentas Croquizador -> Simetria
    Version: 0.16
 ---
 

@@ -1,6 +1,6 @@
 # Arch CloseHoles/cs
 ---
-- GuiCommand:   Name: Arch CloseHoles   Name/cs: Arch CloseHoles   Workbenches: [MenuLocation: Arch - Utilities - Close Holes   SeeAlso: [[Arch Check](Arch_Workbench/cs___Arch]].md)---
+- GuiCommand:   Name: Arch CloseHoles   Name/cs: Arch CloseHoles   Workbenches: Arch_Workbench/cs   Arch---
 
 
 </div>

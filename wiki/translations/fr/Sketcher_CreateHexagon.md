@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher CreateHexagon
    Name/fr: Sketcher Hexagone
-   MenuLocation: Esquisse - Géométries d'esquisse - Créer un hexagone
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   MenuLocation: Esquisse -> Géométries d'esquisse -> Créer un hexagone
+   Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **P** **6**
    Version: 0.15
 ---

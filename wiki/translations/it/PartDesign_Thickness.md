@@ -1,6 +1,6 @@
 # PartDesign Thickness/it
 ---
-- GuiCommand:   Name: PartDesign Thickness   Name/it: Spessore   Workbenches: [MenuLocation: Part Design - Spessore   Version: 0.17   SeeAlso: [[Part_Thickness/it|Spessore di Parte](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign Thickness   Name/it: Spessore   Workbenches: PartDesign Workbench/it   PartDesign---
 
 
 </div>

@@ -4,10 +4,10 @@
    Name: Std ViewDockUndockFullscreen
    Name/it: Finestra del documento
    Empty: 1
-   MenuLocation: Visualizza - Finestra del documento - Agganciata o Non agganciata
+   MenuLocation: Visualizza -> Finestra del documento -> Agganciata o Non agganciata
    Workbenches: All
    Shortcut: **V** **D** / **V** **U**
-   SeeAlso: [Vista 3D a schermo intero](Std_ViewFullscreen/it.md), [Finestra principale a schermo intero](Std_MainFullscreen/it.md)
+   SeeAlso: Std_ViewFullscreen/it, Std_MainFullscreen/it
 ---
 
 # Std ViewDockUndockFullscreen/it

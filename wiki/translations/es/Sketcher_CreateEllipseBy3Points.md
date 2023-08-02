@@ -2,10 +2,10 @@
 - GuiCommand:
 Name=Sketcher CreateEllipseBy3Points
 Name/es=Croquizador CrearElipsePor3Puntos
-   MenuLocation: Croquis - Geometrías del Croquizador - Crear elipse por 3 puntos
-   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
+   MenuLocation: Croquis -> Geometrías del Croquizador -> Crear elipse por 3 puntos
+   Workbenches: Sketcher_Workbench/es
    Version: 0.15
-   SeeAlso: [Croquizador Elipse por el Central](Sketcher_CreateEllipseByCenter/es.md), [Croquizador Círculo](Sketcher_CreateCircle/es.md), [Croquizador Arco de Elipse](Sketcher_CreateArcOfEllipse/es.md)
+   SeeAlso: Sketcher_CreateEllipseByCenter/es, Sketcher_CreateCircle/es, Sketcher_CreateArcOfEllipse/es
 ---
 
 # Sketcher CreateEllipseBy3Points/es

@@ -3,8 +3,8 @@
    Name: Assembly3 ShowElementCS
    Name/de: Assembly3 ElementKoordinatensystemAnzeigen
    Icon: Assembly_ShowElementCS.svg‎‎
-   MenuLocation: Assembly3 - Element style - Show element coordinate system
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   MenuLocation: Assembly3 -> Element style -> Show element coordinate system
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 ShowElementCS/de

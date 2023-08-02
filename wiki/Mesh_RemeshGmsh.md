@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Mesh RemeshGmsh
-   MenuLocation: Meshes - Refinement...
-   Workbenches: [Mesh](Mesh_Workbench.md)
+   MenuLocation: Meshes -> Refinement...
+   Workbenches: Mesh_Workbench
    Version: 0.19
-   SeeAlso: [Mesh FromPartShape](Mesh_FromPartShape.md)
+   SeeAlso: Mesh_FromPartShape
 ---
 
 # Mesh RemeshGmsh

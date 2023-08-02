@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part RuledSurface
    Name/pl: Część: RuledSurface
-   MenuLocation: Część - Utwórz powierzchnię prostokreślną
-   Workbenches: [Part](Part_Workbench/pl.md)
-   SeeAlso: [Utwórz ścianę z polilinii](Part_MakeFace/pl.md)
+   MenuLocation: Część -> Utwórz powierzchnię prostokreślną
+   Workbenches: Part_Workbench/pl
+   SeeAlso: Part_MakeFace/pl
 ---
 
 # Part RuledSurface/pl

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Part Builder
-   MenuLocation: Part - Shape builder...
-   Workbenches: [Part](Part_Workbench.md)
-   SeeAlso: [Part Primitives](Part_Primitives.md)
+   MenuLocation: Part -> Shape builder...
+   Workbenches: Part_Workbench
+   SeeAlso: Part_Primitives
 ---
 
 # Part Builder/pt-br

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ConstrainSymmetric
    Name/fr: Sketcher Contrainte symétrique
-   MenuLocation: Esquisse - Contraintes d'esquisse - Contrainte symétrique
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   MenuLocation: Esquisse -> Contraintes d'esquisse -> Contrainte symétrique
+   Workbenches: Sketcher_Workbench/fr
    Shortcut: **S**
-   SeeAlso: [Sketcher Contrainte parallèle](Sketcher_ConstrainParallel/fr.md)
+   SeeAlso: Sketcher_ConstrainParallel/fr
 ---
 
 # Sketcher ConstrainSymmetric/fr

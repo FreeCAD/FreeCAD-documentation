@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Upgrade
    Name/pl: Draft: Ulepsz kształt
-   MenuLocation: Modyfikacja - Upgrade
-   Workbenches: [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   MenuLocation: Modyfikacja -> Upgrade
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **U** **P**
-   SeeAlso: [Rozbij kształt](Draft_Downgrade/pl.md)
+   SeeAlso: Draft_Downgrade/pl
 ---
 
 # Draft Upgrade/pl

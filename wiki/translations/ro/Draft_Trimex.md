@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Trimex
    Name/ro: Draft Trimex
-   MenuLocation: Draft  - Trim/Extend
-   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   MenuLocation: Draft  -> Trim/Extend
+   Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
    Shortcut: **T** **R**
-   SeeAlso: [Part Extrude](Part_Extrude/ro.md)
+   SeeAlso: Part Extrude/ro
 ---
 
 # Draft Trimex/ro

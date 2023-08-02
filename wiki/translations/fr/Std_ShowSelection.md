@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std ShowSelection
    Name/fr: Std Afficher la sélection
-   MenuLocation: Affichage - Visibilité - Afficher la sélection
+   MenuLocation: Affichage -> Visibilité -> Afficher la sélection
    Workbenches: Tous
-   SeeAlso: [Std Basculer la visibilité](Std_ToggleVisibility/fr.md), [Std Masquer la sélection](Std_HideSelection/fr.md), [Std Basculer tous les objets](Std_ToggleObjects/fr.md), [Std Afficher tous les objets](Std_ShowObjects/fr.md), [Std Masquer tous les objets](Std_HideObjects/fr.md)
+   SeeAlso: Std_ToggleVisibility/fr, Std_HideSelection/fr, Std_ToggleObjects/fr, Std_ShowObjects/fr, Std_HideObjects/fr
 ---
 
 # Std ShowSelection/fr

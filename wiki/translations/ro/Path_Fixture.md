@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Path Fixture
-   Workbenches: [Path](Path_Workbench.md)
-   MenuLocation: Path - Partial Commands - Fixture
+   Workbenches: Path Workbench
+   MenuLocation: Path -> Partial Commands -> Fixture
    Shortcut: **P** **F**
    SeeAlso: 
 ---

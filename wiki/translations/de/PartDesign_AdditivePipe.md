@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign AdditivePipe
    Name/de: PartDesign RohrHinzufügen
-   MenuLocation: Part Design - Objekt hinzufügen - Rohr
-   Workbenches: [PartDesign](PartDesign_Workbench/de.md)
+   MenuLocation: Part Design -> Objekt hinzufügen -> Rohr
+   Workbenches: PartDesign_Workbench/de
    Version: 0.17
-   SeeAlso: [PartDesign AustragungHinzufügen](PartDesign_AdditiveLoft/de.md), [PartDesign RohrAbziehen](PartDesign_SubtractivePipe/de.md)
+   SeeAlso: PartDesign_AdditiveLoft/de, PartDesign_SubtractivePipe/de
 ---
 
 # PartDesign AdditivePipe/de

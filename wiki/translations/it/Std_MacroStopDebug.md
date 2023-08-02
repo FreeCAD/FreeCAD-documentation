@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std_MacroStopDebug
    Name/it: Interrompi il debug
-   MenuLocation: Macro - Interrompi il debug 
+   MenuLocation: Macro -> Interrompi il debug 
    Workbenches: Tutti
    Shortcut: **Maiusc**+**F6**
-   SeeAlso: [Avvia il debug](Std_MacroStartDebug/it.md)
+   SeeAlso: Std_MacroStartDebug/it
 ---
 
 # Std MacroStopDebug/it

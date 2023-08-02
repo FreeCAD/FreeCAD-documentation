@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std Quit
    Name/fr: Std Quitter
-   MenuLocation: Fichier - Quitter
+   MenuLocation: Fichier -> Quitter
    Workbenches: Tous
    Shortcut: **Alt**+**F4**
-   SeeAlso: [Std Fermer](Std_CloseActiveWindow/fr.md)
+   SeeAlso: Std_CloseActiveWindow/fr
 ---
 
 # Std Quit/fr

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft ToggleGrid
    Name/tr: Izgarayı aç/kapa
-   MenuLocation: Draft - Utilities - Toggle grid
-   Workbenches: [Draft](Draft_Workbench/tr.md), [Arch](Arch_Workbench/tr.md)
+   MenuLocation: Draft -> Utilities -> Toggle grid
+   Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **G** **R**
-   SeeAlso: [Draft Snap](Draft_Snap.md), [Draft Snap Grid](Draft_Snap_Grid.md), [Draft SelectPlane](Draft_SelectPlane.md)
+   SeeAlso: Draft_Snap, Draft_Snap_Grid, Draft_SelectPlane
 ---
 
 # Draft ToggleGrid/tr

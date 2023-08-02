@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Arc 3Points
    Name/it: Arco da tre punti
-   MenuLocation: Drafting - Strumenti Arco - Arco da tre punti
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Drafting -> Strumenti Arco -> Arco da tre punti
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **A** **T**
    Version: 0.19
-   SeeAlso: [Arco](Draft_Arc/it.md), [Cerchio](Draft_Circle/it.md)
+   SeeAlso: Draft Arc/it, Draft Circle/it
 ---
 
 # Draft Arc 3Points/it

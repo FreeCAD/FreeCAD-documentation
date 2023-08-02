@@ -3,8 +3,8 @@
    Name: Assembly3 MultiplyConstraint
    Name/de: Assembly3 BeziehungVervielfältigen
    Icon: Assembly_ConstraintMultiply.svg‎‎
-   MenuLocation: Assembly3 - Multiply constraint
-   Workbenches: [Assembly3](Assembly3_Workbench/de.md)
+   MenuLocation: Assembly3 -> Multiply constraint
+   Workbenches: Assembly3_Workbench/de
 ---
 
 # Assembly3 MultiplyConstraint/de

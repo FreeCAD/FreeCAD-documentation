@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name: Std TreeDrag
-   MenuLocation: View - TreeView actions - Initiate dragging
+   MenuLocation: View -> TreeView actions -> Initiate dragging
    Workbenches: All
    Shortcut: **T** **D**
    Version: 0.19

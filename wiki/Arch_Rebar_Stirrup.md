@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Arch Rebar Stirrup
-   MenuLocation: Arch - Rebar tools - Stirrup<br>3D/BIM - Reinforcement tools - Stirrup
-   Workbenches: [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   MenuLocation: Arch -> Rebar tools -> Stirrup<br>3D/BIM -> Reinforcement tools -> Stirrup
+   Workbenches: Arch_Workbench, BIM_Workbench
    Version: 0.17
-   SeeAlso: [Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Rebar Helical](Arch_Rebar_Helical.md)
+   SeeAlso: Reinforcement_Workbench, Arch_Rebar, Arch_Rebar_Helical
 ---
 
 # Arch Rebar Stirrup

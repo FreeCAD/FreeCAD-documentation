@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw Hatch
    Name/fr: TechDraw Hachures par motif
-   MenuLocation: TechDraw - Hachures - Hachurer une face en utilisant un fichier image
-   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso: [TechDraw Hachures géométriques](TechDraw_GeometricHatch/fr.md), [TechDraw Hachures](TechDraw_Hatching/fr.md)
+   MenuLocation: TechDraw -> Hachures -> Hachurer une face en utilisant un fichier image
+   Workbenches: TechDraw_Workbench/fr
+   SeeAlso: TechDraw_GeometricHatch/fr, TechDraw_Hatching/fr
 ---
 
 # TechDraw Hatch/fr

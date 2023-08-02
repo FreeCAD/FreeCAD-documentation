@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Drawing Openbrowser
    Name/ru: Drawing Openbrowser
-   Workbenches: [Drawing](Drawing_Workbench/ru.md), Complete
-   MenuLocation: Чертёж - Открыть в браузере
+   Workbenches: Drawing Workbench/ru, Complete
+   MenuLocation: Чертёж -> Открыть в браузере
    Shortcut: 
 ---
 

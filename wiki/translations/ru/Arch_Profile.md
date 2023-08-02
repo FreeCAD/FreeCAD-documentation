@@ -2,8 +2,8 @@
 - GuiCommand:
    Name/ru: Профиль
    Name: Arch_Profile
-   MenuLocation: Arch - Профиль
-   Workbenches: [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Arch -> Профиль
+   Workbenches: Arch_Workbench/ru
    Version: 0.19
 ---
 

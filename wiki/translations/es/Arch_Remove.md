@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch Remove
    Name/es: Sustraer
-   MenuLocation: Arquitectura - Sustraer
-   Workbenches: [Entorno de Arquitectura](Arch_Workbench/es.md)
-   SeeAlso: [Añadir](Arch_Add/es.md)
+   MenuLocation: Arquitectura -> Sustraer
+   Workbenches: Arch_Workbench/es
+   SeeAlso: Arch Add/es
 ---
 
 # Arch Remove/es

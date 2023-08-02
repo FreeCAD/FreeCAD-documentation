@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Std RecallWorkingView
-   MenuLocation: View - Standard views - Recall working view
+   MenuLocation: View -> Standard views -> Recall working view
    Workbenches: All
    Shortcut: **End**
    Version: 0.21
-   SeeAlso: [Std StoreWorkingView](Std_StoreWorkingView.md), [Std FreezeViews](Std_FreezeViews.md)
+   SeeAlso: Std_StoreWorkingView, Std_FreezeViews
 ---
 
 # Std RecallWorkingView/en

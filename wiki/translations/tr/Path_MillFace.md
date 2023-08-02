@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name/tr: Yüzeyden
-   Workbenches: [CNC G-Kodu](Path_Workbench/tr.md)
-   MenuLocation: CNC G-Kodu - Yüzeyden
+   Workbenches: Path Workbench/tr
+   MenuLocation: CNC G-Kodu -> Yüzeyden
 |Shortcut
    SeeAlso: 
 ---
@@ -15,8 +15,8 @@
 ---
 - GuiCommand:
    Name/tr: Yüzeyden
-   Workbenches: [CNC G-Kodu](Path_Workbench/tr.md)
-   MenuLocation: CNC G-Kodu - Yüzeyden
+   Workbenches: Path Workbench/tr
+   MenuLocation: CNC G-Kodu -> Yüzeyden
 |Shortcut
    SeeAlso: 
 ---

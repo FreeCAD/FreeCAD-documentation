@@ -1,6 +1,6 @@
 # TechDraw RadiusDimension/ro
 ---
-- GuiCommand:   Name: TechDraw  Dimension Radius   Workbenches: [[TechDraw_Workbench   TechDraw]]|MenuLocation: TechDraw - Dimension Radius   Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: TechDraw  Dimension Radius   Workbenches: TechDraw_Workbench   TechDraw|MenuLocation: TechDraw -> Dimension Radius   Shortcut:    SeeAlso: ---
 
 
 </div>

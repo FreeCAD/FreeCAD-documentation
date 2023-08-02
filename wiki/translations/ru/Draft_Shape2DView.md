@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Shape2DView
    Name/ru: Draft Shape2DView
-   MenuLocation: Черчение - 2D вид фигуры
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Черчение -> 2D вид фигуры
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
 ---
 
 # Draft Shape2DView/ru

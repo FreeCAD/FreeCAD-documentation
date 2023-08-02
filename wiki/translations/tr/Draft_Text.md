@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Text
    Name/tr: Metin
-   MenuLocation: Taslak - Metin
-   Workbenches: [Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
+   MenuLocation: Taslak -> Metin
+   Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **T** **E**
    Version/tr: 0.7
-   SeeAlso: [Etiket](Draft_Label/tr.md), [Şekil dizesi](Draft_ShapeString/tr.md)
+   SeeAlso: Draft Label/tr, Draft ShapeString/tr
 ---
 
 # Draft Text/tr

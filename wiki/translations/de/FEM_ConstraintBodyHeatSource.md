@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM ConstraintBodyHeatSource
    Name/de: FEM RandbedingungKörperwärmequelle
-   MenuLocation: Modell - Thermische Randbedingungen - Randbedingung Körperwärmequelle
-   Workbenches: [FEM](FEM_Workbench/de.md)
+   MenuLocation: Modell -> Thermische Randbedingungen -> Randbedingung Körperwärmequelle
+   Workbenches: FEM_Workbench/de
    Version: 0.19
-   SeeAlso: [FEM Tutorium](FEM_tutorial/de.md)
+   SeeAlso: FEM_tutorial/de
 ---
 
 # FEM ConstraintBodyHeatSource/de

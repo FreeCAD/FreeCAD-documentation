@@ -1,6 +1,6 @@
 # FEM ConstraintTemperature/ro
 ---
-- GuiCommand:   Name: FEM ConstraintTemperature   MenuLocation: Model - Thermal Constraints - Constraint temperature   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
+- GuiCommand:   Name: FEM ConstraintTemperature   MenuLocation: Model -> Thermal Constraints -> Constraint temperature   ---
 
 
 </div>

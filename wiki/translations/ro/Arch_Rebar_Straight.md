@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch Rebar UShape
    Name/ro: Arch Rebar UShape
-   MenuLocation: Arch - Rebar tools
-   Workbenches: [Arch](Arch_Workbench/ro.md)
+   MenuLocation: Arch -> Rebar tools
+   Workbenches: Arch_Workbench/ro
    Shortcut: None
-   SeeAlso: [LShape Rebar](Arch_Rebar_LShape/ro.md)
+   SeeAlso: Arch_Rebar_LShape/ro
    Addon: Reinforcement
 ---
 

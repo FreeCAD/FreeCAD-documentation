@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Fasteners ChangeParameters
    Name/de: Fasteners ParameterÄndern
-   MenuLocation: Fasteners - Change fastener parameters
-   Workbenches: [Fasteners](Fasteners_Workbench/de.md)
+   MenuLocation: Fasteners -> Change fastener parameters
+   Workbenches: Fasteners_Workbench/de
    Shortcut: None
    SeeAlso: 
 ---

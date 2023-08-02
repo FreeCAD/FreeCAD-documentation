@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw Dimension Angle
    Name/es: TechDraw Dimensión Ángulo
-   MenuLocation: TechDraw - Dimensión Ángulo
-   Workbenches: [TechDraw](TechDraw_Workbench/es.md)
-   SeeAlso: [TechDraw Dimensión Ángulo3Ps](TechDraw_3PtAngleDimension/es.md)
+   MenuLocation: TechDraw -> Dimensión Ángulo
+   Workbenches: TechDraw_Workbench/es
+   SeeAlso: TechDraw_3PtAngleDimension/es
 ---
 
 # TechDraw AngleDimension/es

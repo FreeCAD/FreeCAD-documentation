@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: TechDraw WeldSymbol
    Name/fr: TechDraw Soudure
-   MenuLocation: TechDraw - Ajouter les informations de soudage...
-   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   MenuLocation: TechDraw -> Ajouter les informations de soudage...
+   Workbenches: TechDraw_Workbench/fr
    Version: 0.19
-   SeeAlso: [TechDraw Ligne de référence](TechDraw_LeaderLine/fr.md)
+   SeeAlso: TechDraw_LeaderLine/fr
 ---
 
 # TechDraw WeldSymbol/fr

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std MergeProjects
    Name/ko: 표준 프로젝트 병합
-   MenuLocation: 파일 - 프로젝트 병합...
+   MenuLocation: 파일 -> 프로젝트 병합...
    Workbenches: 모두
 ---
 

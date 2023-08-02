@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Part Common
-   MenuLocation: Part - Boolean - Common
-   Workbenches: [Part](Part_Workbench.md)
-   SeeAlso: [Part Boolean](Part_Boolean.md), [Part Cut](Part_Cut.md), [Part Fuse](Part_Fuse.md)
+   MenuLocation: Part -> Boolean -> Common
+   Workbenches: Part_Workbench
+   SeeAlso: Part_Boolean, Part_Cut, Part_Fuse
 ---
 
 # Part Common

@@ -3,10 +3,10 @@
    Name: Arch CloneComponent
 ‏‎‏‎   Name/it: Clona component‏‎‏‎e
    Icon: Arch_Component_Clone.svg
-   MenuLocation: Arch - Utilità - Clona componente
-   Workbenches: [Arch](Arch_Workbench/it.md)
+   MenuLocation: Arch -> Utilità -> Clona componente
+   Workbenches: Arch_Workbench/it
    Shortcut: **C** **C‏‎**
-   SeeAlso: [Clona componente](Draft_Clone/it.md) di Draft, [Componente](Arch_Component/it.md)
+   SeeAlso: Draft Clone/it di Draft, Arch Component/it
 ---
 
 # Arch CloneComponent/it

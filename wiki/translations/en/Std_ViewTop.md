@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Std ViewTop
-   MenuLocation: View - Standard views - Top
+   MenuLocation: View -> Standard views -> Top
    Workbenches: All
    Shortcut: **2**
-   SeeAlso: [Std ViewFront](Std_ViewFront.md), [Std ViewRight](Std_ViewRight.md)
+   SeeAlso: Std_ViewFront, Std_ViewRight
 ---
 
 # Std ViewTop/en

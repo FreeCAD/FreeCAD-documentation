@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: PartDesign_Groove
    Name/fr: PartDesign Rainure
-   MenuLocation: Part Design - Créer une fonction soustractive - Rainure
-   Workbenches: [PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso: [PartDesign Révolution](PartDesign_Revolution/fr.md)
+   MenuLocation: Part Design -> Créer une fonction soustractive -> Rainure
+   Workbenches: PartDesign_Workbench/fr
+   SeeAlso: PartDesign_Revolution/fr
 ---
 
 # PartDesign Groove/fr

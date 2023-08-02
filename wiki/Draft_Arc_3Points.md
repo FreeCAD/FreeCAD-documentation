@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Draft Arc 3Points
-   MenuLocation: Drafting - Arc tools - Arc by 3 points
-   Workbenches: [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation: Drafting -> Arc tools -> Arc by 3 points
+   Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **A** **T**
    Version: 0.19
-   SeeAlso: [Draft Arc](Draft_Arc.md), [Draft Circle](Draft_Circle.md)
+   SeeAlso: Draft_Arc, Draft_Circle
 ---
 
 # Draft Arc 3Points

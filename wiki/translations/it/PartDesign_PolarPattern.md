@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: PartDesign_PolarPattern
    Name/it: Serie polare
-   Workbenches: [PartDesign](PartDesign_Workbench/it.md)
-   MenuLocation: PartDesign - Serie polare
-   SeeAlso: [Serie lineare](PartDesign_LinearPattern/it.md)
+   Workbenches: PartDesign Workbench/it
+   MenuLocation: PartDesign -> Serie polare
+   SeeAlso: PartDesign_LinearPattern/it
 ---
 
 # PartDesign PolarPattern/it

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Std ViewBoxZoom
-   MenuLocation: View - Zoom - Box zoom
+   MenuLocation: View -> Zoom -> Box zoom
    Workbenches: All
    Shortcut: **Ctrl**+**B**
-   SeeAlso: [Std ViewZoomIn](Std_ViewZoomIn.md), [Std ViewZoomOut](Std_ViewZoomOut.md)
+   SeeAlso: Std_ViewZoomIn, Std_ViewZoomOut
 ---
 
 # Std ViewBoxZoom

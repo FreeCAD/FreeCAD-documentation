@@ -3,8 +3,8 @@
    Name: Web OpenWebsite
    Name/fr: Web Ouvrir le site web
    MenuLocation: 
-   Workbenches: [Web](Web_Workbench/fr.md), [Start](Start_Workbench/fr.md)
-   SeeAlso: [Web Définir l'URL](Web_BrowserSetURL/fr.md)
+   Workbenches: Web_Workbench/fr, Start_Workbench/fr
+   SeeAlso: Web_BrowserSetURL/fr
 ---
 
 # Web OpenWebsite/fr

@@ -1,6 +1,6 @@
 # Path Array/ro
 ---
-- GuiCommand:   Name: Path Array   Workbenches: [[Path Workbench   Path]]|MenuLocation: Path - Path Modification - Array   Shortcut:    SeeAlso: ---
+- GuiCommand:   Name: Path Array   Workbenches: Path Workbench   Path|MenuLocation: Path -> Path Modification -> Array   Shortcut:    SeeAlso: ---
 
 
 </div>

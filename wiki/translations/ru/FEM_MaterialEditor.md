@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Редактор материалов
    Name: FEM_MaterialEditor
-   MenuLocation: Модель - Материалы - Редактор материалов
-   Workbenches: [FEM](FEM_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Модель -> Материалы -> Редактор материалов
+   Workbenches: FEM_Workbench/ru, Arch_Workbench/ru
    Version: 0.18
-   SeeAlso: [Material/ru](Material/ru.md), [Arch SetMaterial](Arch_SetMaterial/ru.md), [FEM tutorial](FEM_tutorial/ru.md)
+   SeeAlso: Material/ru, Arch_SetMaterial/ru, FEM_tutorial/ru
 ---
 
 # FEM MaterialEditor/ru

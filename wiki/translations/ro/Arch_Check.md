@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Arch Check
-   Workbenches: [Arch](Arch_Workbench/ro.md)
-   MenuLocation: Arch - Utilities - Check
-   SeeAlso: [Arch CloseHoles](Arch_CloseHoles.md)
+   Workbenches: Arch_Workbench/ro
+   MenuLocation: Arch -> Utilities -> Check
+   SeeAlso: Arch CloseHoles
 ---
 
 # Arch Check/ro

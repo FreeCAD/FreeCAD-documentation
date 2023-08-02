@@ -1,6 +1,6 @@
 # Draft Edit/ro
 ---
-- GuiCommand:   Name: Draft Edit   Workbenches: [Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation: Draft - Edit---
+- GuiCommand:   Name: Draft Edit   Workbenches: Draft_Workbench   Draft, Arch_Workbench|MenuLocation: Draft -> Edit---
 
 
 </div>

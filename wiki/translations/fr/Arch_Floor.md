@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch Floor
    Name/fr: Arch Niveau
-   MenuLocation: Arch - Niveau
-   Workbenches: [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Arch -> Niveau
+   Workbenches: Arch_Workbench/fr
    Shortcut: **L** **V**
-   SeeAlso: [Arch Bâtiment](Arch_Building/fr.md), [Arch Partie de bâtiment](Arch_BuildingPart/fr.md), [Arch Site](Arch_Site/fr.md)
+   SeeAlso: Arch_Building/fr, Arch_BuildingPart/fr, Arch_Site/fr
 ---
 
 # Arch Floor/fr

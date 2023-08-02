@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Constraint SnellsLaw
    Name/ru: Constraint SnellsLaw
-   MenuLocation: Sketch - Ограничения эскиза - Ограничение преломления (закон Снеллиуса)
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
+   MenuLocation: Sketch -> Ограничения эскиза -> Ограничение преломления 
+   Workbenches: Sketcher Workbench/ru, PartDesign Workbench/ru
 ---
 
 # Sketcher ConstrainSnellsLaw/ru

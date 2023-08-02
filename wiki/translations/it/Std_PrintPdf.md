@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std_PrintPdf
    Name/it: Esporta PDF
-   MenuLocation: File - Esporta PDF...
+   MenuLocation: File -> Esporta PDF...
    Workbenches: All
-   SeeAlso: [Stampa](Std_Print/it.md), [Esporta](Std_Export/it.md), [Cattura Schermata](Std_ViewScreenShot/it.md)
+   SeeAlso: Std_Print/it, Std_Export/it, Std_ViewScreenShot/it
 ---
 
 # Std PrintPdf/it

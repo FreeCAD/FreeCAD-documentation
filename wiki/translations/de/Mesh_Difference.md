@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Mesh Difference   Name/de: Netze Differenz
-   MenuLocation: Netze - Boolean - Differenz
-   Workbenches: [Netze-Arbeitsbereich](Mesh_Workbench/de.md)
+   MenuLocation: Netze -> Boolean -> Differenz
+   Workbenches: Mesh Workbench/de
    SeeAlso: 
 ---
 

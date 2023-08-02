@@ -3,9 +3,9 @@
    Name: PartDesign MoveFeature
    Name/it: Sposta in altro corpo
    Empty: 1
-   MenuLocation: Menu contestuale - Sposta in altro corpo   Workbenches: [PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation: Menu contestuale -> Sposta in altro corpo   Workbenches: PartDesign Workbench/it
    Version: 0.17
-   SeeAlso: [Usa come entità finale](PartDesign_MoveTip/it.md), [Sposta dopo altro oggetto](PartDesign_MoveFeatureInTree/it.md)
+   SeeAlso: PartDesign MoveTip/it, PartDesign MoveFeatureInTree/it
 ---
 
 # PartDesign MoveFeature/it

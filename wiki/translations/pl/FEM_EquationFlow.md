@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: FEM EquationFlow
    Name/pl: MES: Równanie przepływu
-   MenuLocation:  Solwer - Równanie przepływu
-   Workbenches: [MES](FEM_Workbench/pl.md)
+   MenuLocation:  Solwer -> Równanie przepływu
+   Workbenches: FEM_Workbench/pl
    Version: 0.17
    SeeAlso: 
 ---

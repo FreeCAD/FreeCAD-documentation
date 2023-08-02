@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ExtensionThreadHoleBottom
    Name/pl: Rozszerzenie Geometria pomocnicza dla otworu gwintowanego, widok od dołu
-   MenuLocation: Rysunek Techniczny - Rozszerzenia: Linie środka / Gwinty - Geometria pomocnicza dla otworu gwintowanego, widok od dołu
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   MenuLocation: Rysunek Techniczny -> Rozszerzenia: Linie środka / Gwinty -> Geometria pomocnicza dla otworu gwintowanego, widok od dołu
+   Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20
-   SeeAlso: [Geometria pomocnicza dla gwintu śruby, widok od dołu](TechDraw_ExtensionThreadBoltBottom/pl.md)
+   SeeAlso: TechDraw_ExtensionThreadBoltBottom/pl
 ---
 
 # TechDraw ExtensionThreadHoleBottom/pl

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Plot Save
    Name/ru: Plot Save
-   Workbenches: [Plot](Plot_Workbench/ru.md)
-   MenuLocation: Plot - Сохранить диаграмму
+   Workbenches: Plot_Workbench/ru
+   MenuLocation: Plot -> Сохранить диаграмму
 ---
 
 # Plot Save/ru

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft WorkingPlaneProxy
    Name/de: Draft ArbeitsebenenProxy
-   MenuLocation:  Dienstprogramme - Arbeitsebenen-Proxy erstellen
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso: [Draft EbeneAuswählen](Draft_SelectPlane/de.md)
+   MenuLocation:  Dienstprogramme -> Arbeitsebenen-Proxy erstellen
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
+   SeeAlso: Draft_SelectPlane/de
 ---
 
 # Draft WorkingPlaneProxy/de

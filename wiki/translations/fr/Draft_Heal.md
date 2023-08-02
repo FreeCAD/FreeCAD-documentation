@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft Heal
    Name/fr: Draft Réparer
-   MenuLocation: Utilitaires - Réparer
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   SeeAlso: [Draft Agréger](Draft_Upgrade/fr.md), [Draft Désagréger](Draft_Downgrade/fr.md)
+   MenuLocation: Utilitaires -> Réparer
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   SeeAlso: Draft_Upgrade/fr, Draft_Downgrade/fr
 ---
 
 # Draft Heal/fr

@@ -1,6 +1,6 @@
 # Path Simulator/it
 ---
-- GuiCommand:   Name: Path Simulator   Name/it: Simulatore   Workbenches: [MenuLocation: Path - Simulatore CAM   SeeAlso: [[Path_Inspect/it|Ispeziona](Path_Workbench/it___Path]].md) ---
+- GuiCommand:   Name: Path Simulator   Name/it: Simulatore   Workbenches: Path Workbench/it   Path ---
 
 
 </div>

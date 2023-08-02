@@ -3,8 +3,8 @@
    Name: Image Open
    Name/de: Image Öffnen
    MenuLocation: 
-   Workbenches: [Image (Bild)](Image_Workbench/de.md)
-   SeeAlso: [Bildebene erstellen](Image_CreateImagePlane/de.md), [Bildebene skalieren](Image_Scaling/de.md)
+   Workbenches: Image_Workbench/de
+   SeeAlso: Image_CreateImagePlane/de, Image_Scaling/de
 ---
 
 # Image Open/de

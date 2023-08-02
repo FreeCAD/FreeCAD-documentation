@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Spreadsheet MergeCells
    Name/fr: Spreadsheet Fusionner des cellules
-   MenuLocation: Spreadsheet - Fusionner des cellules
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench/fr.md)
+   MenuLocation: Spreadsheet -> Fusionner des cellules
+   Workbenches: Spreadsheet_Workbench/fr
    Version: 0.17
 ---
 

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std ViewBoxZoom
    Name/fr: Std Zoom fenêtre
-   MenuLocation: Affichage - Zoom - Zoom fenêtre
+   MenuLocation: Affichage -> Zoom -> Zoom fenêtre
    Workbenches: Tous
    Shortcut: **Ctrl**+**B**
-   SeeAlso: [Std Zoom avant](Std_ViewZoomIn/fr.md), [Std Zoom arrière](Std_ViewZoomOut/fr.md)
+   SeeAlso: Std_ViewZoomIn/fr, Std_ViewZoomOut/fr
 ---
 
 # Std ViewBoxZoom/fr

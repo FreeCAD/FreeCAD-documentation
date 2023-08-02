@@ -3,9 +3,9 @@
    Name: Std_RecentFiles
    Name/it: File recenti
    Empty: 1
-   MenuLocation: File - File recenti
+   MenuLocation: File -> File recenti
    Workbenches: Tutti
-   SeeAlso: [Apri](Std_Open/it.md), [Importa](Std_Import/it.md)
+   SeeAlso: Std_Open/it, Std_Import/it
 ---
 
 # Std RecentFiles/it

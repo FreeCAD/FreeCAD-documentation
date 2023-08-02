@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: PartDesign Sprocket
    Name/pl: Projekt Części: Koło łańcuchowe
-   MenuLocation: Projekt Części - Koło łańcuchowe ...
-   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   MenuLocation: Projekt Części -> Koło łańcuchowe ...
+   Workbenches: PartDesign_Workbench/pl
    Version: 0.19
 ---
 

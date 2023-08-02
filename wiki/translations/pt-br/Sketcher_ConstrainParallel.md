@@ -2,9 +2,9 @@
 - GuiCommand:-br
    Name: Constraint Parallel
    Name/pt-br: Constraint Parallel
-   Workbenches: [Sketcher](Sketcher_Workbench/pt-br.md), [PartDesign](PartDesign_Workbench/pt-br.md)
-   MenuLocation: Sketch - Sketcher constraints - Constrain parallel
-   SeeAlso: [Constraint Vertical](Sketcher_ConstrainVertical/pt-br.md), [Constraint Horizontal](Sketcher_ConstrainHorizontal/pt-br.md)
+   Workbenches: Sketcher Workbench/pt-br, PartDesign Workbench/pt-br
+   MenuLocation: Sketch -> Sketcher constraints -> Constrain parallel
+   SeeAlso: Sketcher_ConstrainVertical/pt-br, Sketcher_ConstrainHorizontal/pt-br
 ---
 
 # Sketcher ConstrainParallel/pt-br

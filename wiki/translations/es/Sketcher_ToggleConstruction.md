@@ -3,8 +3,8 @@
    Name: Sketcher AlterConstruction
    Name/es: Alternar geometría de construcción
    Icon: Sketcher_AlterConstruction.svg
-   Workbenches: [Croquizador](Sketcher_Workbench/es.md)
-   MenuLocation: Sketch - Geometrías de croquis - Alternar geometría de construcción
+   Workbenches: Sketcher Workbench/es
+   MenuLocation: Sketch -> Geometrías de croquis -> Alternar geometría de construcción
 ---
 
 # Sketcher ToggleConstruction/es

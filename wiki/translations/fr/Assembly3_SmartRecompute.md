@@ -3,8 +3,8 @@
    Name: Assembly3 SmartRecompute
    Name/fr: Assembly3 Recomputation intelligente
    Icon: Assembly_SmartRecompute.svg‎‎
-   MenuLocation: Assembly3 - Smart recompute
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   MenuLocation: Assembly3 -> Smart recompute
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 SmartRecompute/fr

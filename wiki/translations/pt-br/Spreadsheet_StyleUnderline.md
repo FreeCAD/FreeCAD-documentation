@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Spreadsheet StyleUnderline
-   MenuLocation: Spreadsheet - Styles - Underline text
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench.md)
+   MenuLocation: Spreadsheet -> Styles -> Underline text
+   Workbenches: Spreadsheet_Workbench
    Version: 0.17
 ---
 

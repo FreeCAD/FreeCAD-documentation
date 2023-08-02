@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher Copy
    Name/de: Sketcher Kopieren
-   MenuLocation: Sketch - Skizzen-Werkzeuge - Kopieren
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Sketch -> Skizzen-Werkzeuge -> Kopieren
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **Z** **C**
    Version: 0.16
-   SeeAlso: [Sketcher Klonen](Sketcher_Clone/de.md), [Sketcher Verschieben](Sketcher_Move/de.md)
+   SeeAlso: Sketcher_Clone/de, Sketcher_Move/de
 ---
 
 # Sketcher Copy/de

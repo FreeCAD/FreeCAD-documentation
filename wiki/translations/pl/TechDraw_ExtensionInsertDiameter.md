@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw ExtensionInsertDiameter
    Name/pl: Rysunek Techniczny: Rozszerzenie Dodaj przedrostek "⌀"
-   MenuLocation: Rysunek Techniczny - Rozszerzenia: Wymiary - Dodaj przedrostek "⌀"
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   MenuLocation: Rysunek Techniczny -> Rozszerzenia: Wymiary -> Dodaj przedrostek "⌀"
+   Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20
-   SeeAlso: [Dodaj przedrostek "〼"](TechDraw_ExtensionInsertSquare/pl.md)
+   SeeAlso: TechDraw_ExtensionInsertSquare/pl
 ---
 
 # TechDraw ExtensionInsertDiameter/pl

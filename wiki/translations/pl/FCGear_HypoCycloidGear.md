@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: FCGear HypoCycloidGear
-   MenuLocation: Gear - HypoCycloid Gear
-   Workbenches: [FCGear](FCGear_Workbench.md)
+   MenuLocation: Gear -> HypoCycloid Gear
+   Workbenches: FCGear_Workbench
    Shortcut: None
    Version: 1.0
    SeeAlso: 

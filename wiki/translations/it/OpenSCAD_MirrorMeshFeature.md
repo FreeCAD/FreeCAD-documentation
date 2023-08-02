@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: OpenSCAD_MirrorMeshFeature
    Name/it: Specchia la mesh
-   MenuLocation: OpenSCAD - Specchia la mesh
-   Workbenches: [OpenSCAD](OpenSCAD_Workbench/it.md)
-   SeeAlso: [Specchia di Part](Part_Mirror/it.md)
+   MenuLocation: OpenSCAD -> Specchia la mesh
+   Workbenches: OpenSCAD_Workbench/it
+   SeeAlso: Part_Mirror/it
 ---
 
 # OpenSCAD MirrorMeshFeature/it

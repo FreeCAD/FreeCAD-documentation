@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std_OrthographicCamera
    Name/it: Vista ortografica
-   MenuLocation: Visualizza - Vista ortografica
+   MenuLocation: Visualizza -> Vista ortografica
    Workbenches: Tutti
    Shortcut: **V** **O**
-   SeeAlso: [Vista in prospettiva](Std_PerspectiveCamera/it.md)
+   SeeAlso: Std_PerspectiveCamera/it
 ---
 
 # Std OrthographicCamera/it

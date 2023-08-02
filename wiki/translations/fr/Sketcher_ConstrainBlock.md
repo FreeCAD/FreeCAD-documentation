@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher ConstrainBlock
    Name/fr: Sketcher Contrainte de blocage
-   MenuLocation: Esquisse - Contraintes d'esquisse - Contrainte de blocage
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   MenuLocation: Esquisse -> Contraintes d'esquisse -> Contrainte de blocage
+   Workbenches: Sketcher_Workbench/fr
    Shortcut: **K** **B**
    Version: 0.17
-   SeeAlso: [Sketcher Contrainte fixe](Sketcher_ConstrainLock/fr.md)
+   SeeAlso: Sketcher_ConstrainLock/fr
 ---
 
 # Sketcher ConstrainBlock/fr

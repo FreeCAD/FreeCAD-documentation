@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Sketcher CreateArc
    Name/cs: Skicář Oblouk
-   Workbenches: [Skicář](Sketcher_Workbench/cs.md)
-   MenuLocation: Náčrt - Skicář Konstrukce - Vytvořit oblouk
-   SeeAlso: [Skicář Kružnice](Sketcher_CompCreateCircle/cs.md)
+   Workbenches: Sketcher Workbench/cs
+   MenuLocation: Náčrt -> Skicář Konstrukce -> Vytvořit oblouk
+   SeeAlso: Sketcher CompCreateCircle/cs
 ---
 
 # Sketcher CreateArc/cs

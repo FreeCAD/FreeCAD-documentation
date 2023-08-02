@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Mesh SplitComponents
    Name/fr: Mesh Éclater par composants
-   MenuLocation: Maillages - Éclater par composants
-   Workbenches: [Mesh](Mesh_Workbench/fr.md)
-   SeeAlso: [Mesh Fusionner](Mesh_Merge/fr.md)
+   MenuLocation: Maillages -> Éclater par composants
+   Workbenches: Mesh_Workbench/fr
+   SeeAlso: Mesh_Merge/fr
 ---
 
 # Mesh SplitComponents/fr

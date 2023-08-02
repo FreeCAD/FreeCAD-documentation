@@ -5,7 +5,7 @@
    Workbenches: All
    MenuLocation: None
    Version: 0.17
-   SeeAlso: [Std Group](Std_Group/ro.md), [PartDesign Body](PartDesign_Body/ro.md)
+   SeeAlso: Std Group/ro, PartDesign Body/ro
 ---
 
 # Std Part/ro

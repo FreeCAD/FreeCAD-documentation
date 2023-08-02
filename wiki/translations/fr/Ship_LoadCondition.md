@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Ship Loading
    Name/fr: Ship Charge
-   MenuLocation: Weights - Create a new loading condition
-   Workbenches: [Ship](Ship_Workbench/fr.md)
+   MenuLocation: Weights -> Create a new loading condition
+   Workbenches: Ship_Workbench/fr
    Shortcut: 
    SeeAlso: 
 ---

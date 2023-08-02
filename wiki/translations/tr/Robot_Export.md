@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Robot Export
    Name/tr: Robot Dışa Aktar
-   Workbenches: [Robot](Robot_Workbench/tr.md)
-   MenuLocation: Robot - Yörünge Dışa Aktar
+   Workbenches: Robot_Workbench/tr
+   MenuLocation: Robot -> Yörünge Dışa Aktar
 ---
 
 # Robot Export/tr

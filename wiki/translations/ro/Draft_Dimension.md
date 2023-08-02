@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Dimension
    Name/ro: Cotare
-   MenuLocation: Draft - Dimension
-   Workbenches: [Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
+   MenuLocation: Draft -> Dimension
+   Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
    Shortcut: **D** **I**
-   SeeAlso: [FlipDimension](Draft_FlipDimension/ro.md)
+   SeeAlso: Draft FlipDimension/ro
 ---
 
 # Draft Dimension/ro

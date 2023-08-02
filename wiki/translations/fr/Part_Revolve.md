@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Part_Revolve
    Name/fr: Part Révolution
-   MenuLocation: Part - Révolution...
-   Workbenches: [Part](Part_Workbench/fr.md)
+   MenuLocation: Part -> Révolution...
+   Workbenches: Part_Workbench/fr
 ---
 
 # Part Revolve/fr

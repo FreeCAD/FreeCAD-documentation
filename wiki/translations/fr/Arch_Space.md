@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Arch Space
    Name/fr: Arch Espace
-   MenuLocation: Arch - Espace
-   Workbenches: [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Arch -> Espace
+   Workbenches: Arch_Workbench/fr
    Shortcut: **S** **P**
    Version: 0.14
-   SeeAlso: [Arch Mur](Arch_Wall/fr.md), [Arch Structure](Arch_Structure/fr.md)
+   SeeAlso: Arch_Wall/fr, Arch_Structure/fr
 ---
 
 # Arch Space/fr

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw ShowAll
    Name/it: Mostra tutto
-   MenuLocation: TechDraw - Mostra tutto
-   Workbenches: [TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso: [Cambia aspetto delle linee](TechDraw_DecorateLine/it.md)
+   MenuLocation: TechDraw -> Mostra tutto
+   Workbenches: TechDraw_Workbench/it
+   SeeAlso: TechDraw_DecorateLine/it
    Version: 0.19
 ---
 

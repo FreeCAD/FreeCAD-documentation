@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Spreadsheet MergeCells
    Name/pl: Arkusz Kalkulacyjny: Połącz komórki
-   MenuLocation: Arkusz kalkulacyjny - Połącz komórki
-   Workbenches: [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   MenuLocation: Arkusz kalkulacyjny -> Połącz komórki
+   Workbenches: Spreadsheet_Workbench/pl
    Version: 0.17
 ---
 

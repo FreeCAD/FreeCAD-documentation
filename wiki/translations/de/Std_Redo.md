@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std Redo
    Name/de: Std Wiederherstellen
-   MenuLocation: Bearbeiten - Wiederherstellen‎
+   MenuLocation: Bearbeiten -> Wiederherstellen‎
    Workbenches: Alle
    Shortcut: **Strg**+**Y**
-   SeeAlso: [Rückgängig](Std_Undo/de.md)
+   SeeAlso: Std_Undo/de
 ---
 
 # Std Redo/de

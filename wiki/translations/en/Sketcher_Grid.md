@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Sketcher Grid
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Workbenches: Sketcher_Workbench
    Version: 0.21
-   SeeAlso: [Sketcher Snap](Sketcher_Snap.md)
+   SeeAlso: Sketcher_Snap
 ---
 
 # Sketcher Grid/en

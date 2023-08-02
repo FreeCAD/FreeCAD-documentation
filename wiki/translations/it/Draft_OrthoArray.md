@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft OrthoArray
    Name/it: Serie ortogonale
-   MenuLocation: Modifiche - Strumenti serie - Serie ortogonale
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Modifiche -> Strumenti serie -> Serie ortogonale
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Version: 0.19
-   SeeAlso: [Serie polare](Draft_PolarArray/it.md), [Serie circolare](Draft_CircularArray/it.md), [Serie su tracciato](Draft_PathArray/it.md), [Serie di link su tracciato](Draft_PathLinkArray/it.md), [Serie su punti](Draft_PointArray/it.md), [Serie di link su punti](Draft_PointLinkArray/it.md)
+   SeeAlso: Draft_PolarArray/it, Draft_CircularArray/it, Draft_PathArray/it, Draft_PathLinkArray/it, Draft_PointArray/it, Draft_PointLinkArray/it
 ---
 
 # Draft OrthoArray/it

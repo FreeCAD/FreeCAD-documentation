@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft ShowSnapBar
    Name/it: Barra Snap
-   MenuLocation: Draft - Utilità - Mostra barra Snap
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   SeeAlso: [Agganciare](Draft_Snap/it.md)
+   MenuLocation: Draft -> Utilità -> Mostra barra Snap
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
+   SeeAlso: Draft Snap/it
 ---
 
 # Draft ShowSnapBar/it

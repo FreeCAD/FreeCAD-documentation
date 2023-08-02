@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Sketcher StopOperation
-   MenuLocation: Sketch - Stop operation
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch -> Stop operation
+   Workbenches: Sketcher_Workbench
 ---
 
 # Sketcher StopOperation/pt-br

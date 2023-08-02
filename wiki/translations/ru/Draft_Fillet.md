@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Fillet
    Name/ru: Draft Fillet
-   MenuLocation: Draft - Fillet
-   Workbenches: [Draft](Draft_Workbench/ru.md)
+   MenuLocation: Draft -> Fillet
+   Workbenches: Draft_Workbench/ru
    Version: 0.19
-   SeeAlso: [Draft Line](Draft_Line/ru.md), [Draft Wire](Draft_Wire/ru.md)
+   SeeAlso: Draft Line/ru, Draft Wire/ru
 ---
 
 # Draft Fillet/ru

@@ -1,6 +1,6 @@
 # PartDesign SubtractiveEllipsoid/it
 ---
-- GuiCommand:   Name: PartDesign SubtractiveEllipsoid   Name/it: Ellissoide sottrattivo   Workbenches: [MenuLocation: Part Design - Crea una primitiva sottrattiva - Ellissoide   Version: 0.17   SeeAlso: [[PartDesign CompPrimitiveSubtractive/it|Primitive sottrattive](PartDesign_Workbench/it___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign SubtractiveEllipsoid   Name/it: Ellissoide sottrattivo   Workbenches: PartDesign Workbench/it   PartDesign---
 
 
 </div>

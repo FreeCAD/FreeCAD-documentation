@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: FEM ConstraintElectrostaticPotential
    Name/de: FEM RandbedingungElektrostatischesPotential
-   MenuLocation:  Model - Electromagnetic Constraints - Constraint Electrostatic Potential
-   Workbenches: [FEM](FEM_Workbench/de.md)
-   SeeAlso: [FEM Beispiel Kapazität Zweier Kugeln](FEM_Example_Capacitance_Two_Balls/de.md), [FEM Anleitung](FEM_tutorial/de.md)
+   MenuLocation:  Model -> Electromagnetic Constraints -> Constraint Electrostatic Potential
+   Workbenches: FEM_Workbench/de
+   SeeAlso: FEM_Example_Capacitance_Two_Balls/de, FEM_tutorial/de
 ---
 
 # FEM ConstraintElectrostaticPotential/de

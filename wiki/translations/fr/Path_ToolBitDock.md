@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Path ToolBitDock
    Name/fr: Path Sélecteur d'outils coupants
-   MenuLocation: Path - Sélecteur des outils coupants
-   Workbenches: [Path](Path_Workbench/fr.md)
+   MenuLocation: Path -> Sélecteur des outils coupants
+   Workbenches: Path_Workbench/fr
    Shortcut: **P** **T**
    Version: 0.19
-   SeeAlso: [Path Gestionnaire des outils coupants](Path_ToolBitLibraryOpen/fr.md), [Path Outils](Path_Tools/fr.md), [Path Outil coupant](Path_ToolBit/fr.md)
+   SeeAlso: Path_ToolBitLibraryOpen/fr, Path_Tools/fr, Path_ToolBit/fr
 ---
 
 # Path ToolBitDock/fr

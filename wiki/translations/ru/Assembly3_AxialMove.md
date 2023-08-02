@@ -2,8 +2,8 @@
 - GuiCommand:
    Name/ru: Assembly3 AxialMove
    Icon: Assembly_AxialMove.svg
-   MenuLocation: Assembly3 - Axial move part
-   Workbenches: [Assembly3](Assembly3_Workbench/ru.md)
+   MenuLocation: Assembly3 -> Axial move part
+   Workbenches: Assembly3_Workbench/ru
    Shortcut: **A** потом **A**
 ---
 

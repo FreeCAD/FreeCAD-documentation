@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: FEM PostCreateFunctionSphere
    Name/de: FEM NachbereitungFunktionKugel
-   MenuLocation: Ergebnisse - Filterfunktionen - Kugel
-   Workbenches: [FEM](FEM_Workbench/de.md)
-   SeeAlso: [FEM Tutorium](FEM_tutorial/de.md)
+   MenuLocation: Ergebnisse -> Filterfunktionen -> Kugel
+   Workbenches: FEM_Workbench/de
+   SeeAlso: FEM_tutorial/de
 ---
 
 # FEM PostCreateFunctionSphere/de

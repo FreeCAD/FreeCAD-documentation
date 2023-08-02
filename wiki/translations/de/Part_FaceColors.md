@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part FaceColors
    Name/de: Part FlächenFarben
-   MenuLocation: Kontextmenü - Farben setzen
-   Workbenches: [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso: [Std Erscheinungsbild](Std_SetAppearance/de.md)
+   MenuLocation: Kontextmenü -> Farben setzen
+   Workbenches: Part_Workbench/de, PartDesign_Workbench/de
+   SeeAlso: Std_SetAppearance/de
 ---
 
 # Part FaceColors/de

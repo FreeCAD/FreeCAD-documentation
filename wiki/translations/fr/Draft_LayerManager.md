@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft LayerManager
    Name/fr: Draft Gestionnaire de calques
-   MenuLocation: Utilitaire - Gestion des calques
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Utilitaire -> Gestion des calques
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Version: 0.21
-   SeeAlso: [Atelier BIM](BIM_Workbench/fr.md), [Draft Calque](Draft_Layer/fr.md)
+   SeeAlso: BIM_Workbench/fr, Draft_Layer/fr
 ---
 
 # Draft LayerManager/fr

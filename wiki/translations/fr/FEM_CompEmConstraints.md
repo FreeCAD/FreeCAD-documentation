@@ -3,7 +3,7 @@
    Name: FEM CompEmConstraints
    Name: FEM Contraintes électromagnétiques
    MenuLocation: 
-   Workbenches: [FEM](FEM_Workbench/fr.md)
+   Workbenches: FEM_Workbench/fr
    Version: 0.21
    SeeAlso: 
 ---

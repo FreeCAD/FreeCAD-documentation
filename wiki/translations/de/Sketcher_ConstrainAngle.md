@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher ConstrainAngle
    Name/de: Sketcher WinkelFestlegen
-   MenuLocation: Sketch - Sketcher constraints - Winkel festlegen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Sketch -> Sketcher constraints -> Winkel festlegen
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **K** **A**
-   SeeAlso: [Sketcher AbstandFestlegen](Sketcher_ConstrainDistance/de.md), [Sketcher RechtwinkligFestlegen](Sketcher_ConstrainPerpendicular/de.md)
+   SeeAlso: Sketcher_ConstrainDistance/de, Sketcher_ConstrainPerpendicular/de
 ---
 
 # Sketcher ConstrainAngle/de

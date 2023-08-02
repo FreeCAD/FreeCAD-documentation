@@ -1,6 +1,6 @@
 # PartDesign Scaled/cs
 ---
-- GuiCommand:   Name: PartDesign_Scaled   Name/cs: PartDesign Scaled   Workbenches: [[PartDesign Workbench/cs   PartDesign]], Complete|MenuLocation: PartDesign - MultiTransform---
+- GuiCommand:   Name: PartDesign_Scaled   Name/cs: PartDesign Scaled   Workbenches: PartDesign Workbench/cs   PartDesign, Complete|MenuLocation: PartDesign -> MultiTransform---
 
 
 </div>

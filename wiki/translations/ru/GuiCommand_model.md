@@ -3,8 +3,8 @@
    Name: Base ExampleCommandModel
    Name/ru: Base ExampleCommandModel
    Icon:  
-   MenuLocation: Меню - Подменю - Текст меню для комманды
-   Workbenches: [Workbench](Workbench_Name/ru.md)
+   MenuLocation: Меню -> Подменю -> Текст меню для комманды
+   Workbenches: Workbench_Name/ru
    Shortcut: **F** **C**
    SeeAlso:  
    Version: 0.19

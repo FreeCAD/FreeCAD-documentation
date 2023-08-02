@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Part CompOffsetTools
-   MenuLocation: Part - CompOffsetTools
-   Workbenches: [Part](Part_Workbench.md)
+   MenuLocation: Part -> CompOffsetTools
+   Workbenches: Part_Workbench
    SeeAlso: 
 ---
 

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Constraint Radius
    Name/pl: Szkicownik: Wiązanie promienia
-   MenuLocation: Szkic - Wiązania szkicownika - Wiązanie promienia
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md)
+   MenuLocation: Szkic -> Wiązania szkicownika -> Wiązanie promienia
+   Workbenches: Sketcher_Workbench/pl, PartDesign_Workbench/pl
    Shortcut: **K** **R**
-   SeeAlso: [Szkicownik: Wiązanie odległości](Sketcher_ConstrainDistance/pl.md), [Szkicownik: Zwiąż odległość poziomą](Sketcher_ConstrainDistanceX/pl.md), [Szkicownik: Zwiąż odległość pionową](Sketcher_ConstrainDistanceY/pl.md)
+   SeeAlso: Sketcher_ConstrainDistance/pl, Sketcher_ConstrainDistanceX/pl, Sketcher_ConstrainDistanceY/pl
 ---
 
 # Sketcher ConstrainRadius/pl

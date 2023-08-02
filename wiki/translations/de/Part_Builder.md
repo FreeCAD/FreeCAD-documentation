@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Builder
    Name/de: Part FormGenerator
-   MenuLocation: Formteil - Form-Generator...
-   Workbenches: [Part](Part_Workbench/de.md)
-   SeeAlso: [Part Grundkörper](Part_Primitives/de.md)
+   MenuLocation: Formteil -> Form-Generator...
+   Workbenches: Part_Workbench/de
+   SeeAlso: Part_Primitives/de
 ---
 
 # Part Builder/de

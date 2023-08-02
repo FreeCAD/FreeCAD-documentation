@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Circle
    Name/tr: Çember
-   MenuLocation: Taslak - Çember
-   Workbenches: [Çember](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
+   MenuLocation: Taslak -> Çember
+   Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **C** **I**
-   SeeAlso: [Yay](Draft_Arc/tr.md), [Elips](Draft_Ellipse/tr.md)
+   SeeAlso: Draft Arc/tr, Draft Ellipse/tr
    Version: 0.7
 ---
 

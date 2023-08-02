@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Draft WireToBSpline
    Name/fr: Draft Polyligne vers B-spline
-   MenuLocation: Modification - Polyligne vers B-spline
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   SeeAlso: [Draft Polyligne](Draft_Wire/fr.md), [Draft B-spline](Draft_BSpline/fr.md)
+   MenuLocation: Modification -> Polyligne vers B-spline
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
+   SeeAlso: Draft_Wire/fr, Draft_BSpline/fr
 ---
 
 # Draft WireToBSpline/fr

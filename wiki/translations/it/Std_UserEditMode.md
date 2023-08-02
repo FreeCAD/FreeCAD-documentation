@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std UserEditMode
    Name/it: Impostazioni Modalità modifica
-   MenuLocation: Modifica - Impostazione modalità modifica - ...
+   MenuLocation: Modifica -> Impostazione modalità modifica -> ...
    Workbenches: Tutti
    Version: 0.20
-   SeeAlso: [Modalità modifica](Std_Edit/it.md)
+   SeeAlso: Std_Edit/it
 ---
 
 # Std UserEditMode/it

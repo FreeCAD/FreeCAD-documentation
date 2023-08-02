@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: TechDraw DimensionRepair
    Name/fr: TechDraw Réparation des cotes
-   MenuLocation: TechDraw - Dimensions - Réparer les références d'une cote
-   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   MenuLocation: TechDraw -> Dimensions -> Réparer les références d'une cote
+   Workbenches: TechDraw_Workbench/fr
    Version: 0.21
-   SeeAlso: [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md)
+   SeeAlso: TechDraw_LengthDimension/fr
 ---
 
 # TechDraw DimensionRepair/fr

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Part Fillet
-   MenuLocation: Part - Fillet...
-   Workbenches: [Part](Part_Workbench.md)
-   SeeAlso: [Part Chamfer](Part_Chamfer.md)
+   MenuLocation: Part -> Fillet...
+   Workbenches: Part_Workbench
+   SeeAlso: Part_Chamfer
 ---
 
 # Part Fillet/pt-br

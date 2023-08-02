@@ -1,6 +1,6 @@
 # PartDesign AdditiveCylinder/ro
 ---
-- GuiCommand:   Name: PartDesign AdditiveCylinder   Workbenches: [MenuLocation: Part Design - Create an additive primitive - Additive Cylinder   Shortcut: None   SeeAlso: [[PartDesign CompPrimitiveAdditive](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign AdditiveCylinder   Workbenches: PartDesign Workbench   PartDesign---
 
 
 </div>

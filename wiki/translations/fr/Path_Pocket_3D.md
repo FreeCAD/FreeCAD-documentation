@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Path Pocket 3D
    Name/fr: Path Évidement 3D
-   MenuLocation: Path - Évidement 3D
-   Workbenches: [Path](Path_Workbench/fr.md)
+   MenuLocation: Path -> Évidement 3D
+   Workbenches: Path_Workbench/fr
 ---
 
 # Path Pocket 3D/fr

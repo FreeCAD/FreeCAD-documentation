@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Std DlgMacroExecuteDirect
-   MenuLocation: Macro - Execute macro
+   MenuLocation: Macro -> Execute macro
    Workbenches: All
    Shortcut: **Ctrl**+**F6**
-   SeeAlso: [Std DlgMacroExecute](Std_DlgMacroExecute.md)
+   SeeAlso: Std_DlgMacroExecute
 ---
 
 # Std DlgMacroExecuteDirect

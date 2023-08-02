@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Part Mirror
    Name/de: Part Spiegeln
-   MenuLocation: Formteil - Spiegeln
-   Workbenches: [Part](Part_Workbench/de.md)
+   MenuLocation: Formteil -> Spiegeln
+   Workbenches: Part_Workbench/de
 ---
 
 # Part Mirror/de

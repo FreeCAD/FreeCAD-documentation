@@ -1,6 +1,6 @@
 # PartDesign AdditiveSphere/ro
 ---
-- GuiCommand:   Name: PartDesign AdditiveSphere   Workbenches: [MenuLocation: Part Design - Create an additive primitive - Additive Sphere   Shortcut: None   SeeAlso: [[PartDesign CompPrimitiveAdditive](PartDesign_Workbench___PartDesign]].md)---
+- GuiCommand:   Name: PartDesign AdditiveSphere   Workbenches: PartDesign Workbench   PartDesign---
 
 
 </div>

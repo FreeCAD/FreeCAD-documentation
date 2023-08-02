@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/ru: Переориентировать эскиз
    Name: Sketcher_ReorientSketch
-   MenuLocation: Sketch - Переориентировать эскиз
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
-   SeeAlso: [Разместить эскиз на грани](Sketcher_MapSketch/ru.md), [Создать эскиз](Sketcher_NewSketch/ru.md)
+   MenuLocation: Sketch -> Переориентировать эскиз
+   Workbenches: Sketcher_Workbench/ru, PartDesign_Workbench/ru
+   SeeAlso: Sketcher_MapSketch/ru, Sketcher_NewSketch/ru
 ---
 
 # Sketcher ReorientSketch/ru

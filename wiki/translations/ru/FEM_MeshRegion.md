@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM MeshRegion
    Name/ru: Область сетки МКЭ
-   MenuLocation:  Mesh - Область сетки МКЭ
-   Workbenches: [FEM](FEM_Workbench/ru.md)
+   MenuLocation:  Mesh -> Область сетки МКЭ
+   Workbenches: FEM_Workbench/ru
    Shortcut: 
-   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
+   SeeAlso: FEM_tutorial/ru
 ---
 
 # FEM MeshRegion/ru

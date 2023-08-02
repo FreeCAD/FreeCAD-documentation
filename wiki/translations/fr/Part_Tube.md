@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part Tube
    Name/fr: Part Tube
-   MenuLocation: Part - Primitives - Tube
-   Workbenches: [Part](Part_Workbench/fr.md)
+   MenuLocation: Part -> Primitives -> Tube
+   Workbenches: Part_Workbench/fr
    Version: 0.19
-   SeeAlso: [Part Primitives](Part_Primitives/fr.md)
+   SeeAlso: Part_Primitives/fr
 ---
 
 # Part Tube/fr

@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: Sketcher ConstrainDiameter
-   MenuLocation: Sketch - Sketcher constraints - Constrain diameter
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch -> Sketcher constraints -> Constrain diameter
+   Workbenches: Sketcher_Workbench
    Shortcut: **K** **O**
    Version: 0.18
-   SeeAlso: [Sketcher Constrain distance](Sketcher_ConstrainDistance.md), [Sketcher Constrain horizontal distance](Sketcher_ConstrainDistanceX.md), [Sketcher Constrain vertical distance](Sketcher_ConstrainDistanceY.md)
+   SeeAlso: Sketcher_ConstrainDistance, Sketcher_ConstrainDistanceX, Sketcher_ConstrainDistanceY
 ---
 
 # Sketcher ConstrainDiameter

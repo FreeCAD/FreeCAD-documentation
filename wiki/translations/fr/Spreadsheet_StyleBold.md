@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Spreadsheet StyleBold
    Name/fr: Spreadsheet Texte en gras
-   MenuLocation: Spreadsheet - Styles - Texte en gras
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench/fr.md)
+   MenuLocation: Spreadsheet -> Styles -> Texte en gras
+   Workbenches: Spreadsheet_Workbench/fr
    Version: 0.17
 ---
 

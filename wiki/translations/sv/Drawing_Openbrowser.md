@@ -1,6 +1,6 @@
 # Drawing Openbrowser/sv
 ---
-- GuiCommand:   Name: Drawing Openbrowser   Name/sv: Drawing Openbrowser   Workbenches: [[Drawing Workbench/sv   Drawing]], Complete|MenuLocation: Drawing - Open Browser   Shortcut: none---
+- GuiCommand:   Name: Drawing Openbrowser   Name/sv: Drawing Openbrowser   Workbenches: Drawing Workbench/sv   Drawing, Complete|MenuLocation: Drawing -> Open Browser   Shortcut: none---
 
 ## Beskrivning
 

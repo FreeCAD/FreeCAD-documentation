@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Mesh Union
    Name: Mesh Vereinigung
-   MenuLocation: Meshes - Boolesche Verknüpfungen - Vereinigung
-   Workbenches: [Mesh](Mesh_Workbench.md)
-   SeeAlso: [Mesh Schnitt](Mesh_Intersection.md), [Mesh Differenz](Mesh_Difference.md)
+   MenuLocation: Meshes -> Boolesche Verknüpfungen -> Vereinigung
+   Workbenches: Mesh_Workbench
+   SeeAlso: Mesh_Intersection, Mesh_Difference
 ---
 
 # Mesh Union/de

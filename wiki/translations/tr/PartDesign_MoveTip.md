@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: PartDesign MoveTip
-   MenuLocation: Context menu - Set tip
-   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   MenuLocation: Context menu -> Set tip
+   Workbenches: PartDesign_Workbench
    Version: 0.17
-   SeeAlso: [PartDesign Move object to other body](PartDesign_MoveFeature.md), [PartDesign Move object after other object](PartDesign_MoveFeatureInTree.md)
+   SeeAlso: PartDesign_MoveFeature, PartDesign_MoveFeatureInTree
 ---
 
 # PartDesign MoveTip/tr

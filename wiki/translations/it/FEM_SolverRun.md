@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM SolverRun
    Name/it: Avvia il solutore
-   MenuLocation: Soluzione - Avvia il solutore
-   Workbenches: [FEM](FEM_Workbench/it.md)
+   MenuLocation: Soluzione -> Avvia il solutore
+   Workbenches: FEM_Workbench/it
    Shortcut: **R** **C**
-   SeeAlso: [Tutorial di FEM](FEM_tutorial/it.md)
+   SeeAlso: FEM_tutorial/it
 ---
 
 # FEM SolverRun/it

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Clone
    Name/it: Clona
-   MenuLocation: Modifiche - Clona
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Modifiche -> Clona
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **C** **L**
-   SeeAlso: [Scala](Draft_Scale/it.md)
+   SeeAlso: Draft Scale/it
 ---
 
 # Draft Clone/it

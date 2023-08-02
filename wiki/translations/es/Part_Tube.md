@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Part Tube
    Name/es: Part Tubo
-   MenuLocation: Pieza - Primitivas - Crear un tubo
-   Workbenches: [Part](Part_Workbench/es.md)
+   MenuLocation: Pieza -> Primitivas -> Crear un tubo
+   Workbenches: Part_Workbench/es
    Version: 0.19
-   Seealso: [Part CreatePrimitives](Part_CreatePrimitives/es.md)
+   Seealso: Part_CreatePrimitives/es
 ---
 
 # Part Tube/es

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: TechDraw Annotation
-   MenuLocation: TechDraw - Annotations - Insert Annotation
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
-   SeeAlso: [TechDraw RichTextAnnotation](TechDraw_RichTextAnnotation.md)
+   MenuLocation: TechDraw -> Annotations -> Insert Annotation
+   Workbenches: TechDraw_Workbench
+   SeeAlso: TechDraw_RichTextAnnotation
 ---
 
 # TechDraw Annotation

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: Part Measure Linear
-   MenuLocation: Measure - Measure Linear
-   Workbenches: [Part](Part_Workbench.md)
-   SeeAlso: [Std MeasureDistance](Std_MeasureDistance.md), [Draft Dimension](Draft_Dimension.md)
+   MenuLocation: Measure -> Measure Linear
+   Workbenches: Part_Workbench
+   SeeAlso: Std_MeasureDistance, Draft_Dimension
 ---
 
 # Part Measure Linear/pt-br

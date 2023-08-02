@@ -5,7 +5,7 @@
    MenuLocation: None
    Workbenches: Все
    Version: 0.17
-   SeeAlso: [Создать группу](Std_Group/ru.md), [Создать тело](PartDesign_Body/ru.md)
+   SeeAlso: Std_Group/ru, PartDesign_Body/ru
 ---
 
 # Std Part/ru

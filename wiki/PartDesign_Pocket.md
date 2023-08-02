@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: PartDesign Pocket
-   MenuLocation: Part Design - Create a substractive feature - Pocket
-   Workbenches: [PartDesign](PartDesign_Workbench.md)
-   SeeAlso: [PartDesign Pad](PartDesign_Pad.md)
+   MenuLocation: Part Design -> Create a substractive feature -> Pocket
+   Workbenches: PartDesign_Workbench
+   SeeAlso: PartDesign_Pad
 ---
 
 # PartDesign Pocket

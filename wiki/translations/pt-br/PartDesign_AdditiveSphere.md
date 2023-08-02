@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: PartDesign AdditiveSphere
-   MenuLocation: Part Design - Create an additive primitive - Additive Sphere
-   Workbenches: [PartDesign](PartDesign_Workbench.md)
+   MenuLocation: Part Design -> Create an additive primitive -> Additive Sphere
+   Workbenches: PartDesign_Workbench
    Version: 0.17
-   SeeAlso: [PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md), [PartDesign SubtractiveSphere](PartDesign_SubtractiveSphere.md)
+   SeeAlso: PartDesign_CompPrimitiveAdditive, PartDesign_SubtractiveSphere
 ---
 
 # PartDesign AdditiveSphere/pt-br

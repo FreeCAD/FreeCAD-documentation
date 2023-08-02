@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: FEM MaterialMechanicalNonlinear
-   MenuLocation: Model - Materials - Nonlinear mechanical material
-   Workbenches: [FEM](FEM_Workbench.md)
-   SeeAlso: [FEM tutorial](FEM_tutorial.md)
+   MenuLocation: Model -> Materials -> Nonlinear mechanical material
+   Workbenches: FEM_Workbench
+   SeeAlso: FEM_tutorial
 ---
 
 # FEM MaterialMechanicalNonlinear/pl

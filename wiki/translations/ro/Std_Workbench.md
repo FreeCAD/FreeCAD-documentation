@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std Workbench
    Empty: 1
-   MenuLocation: [View](Std_View_Menu.md) - Workbench
+   MenuLocation: Std View Menu -> Workbench
    Workbenches: All
    Shortcut: 
    SeeAlso: 

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Constraint Perpendicular
    Name/pt: Constraint Perpendicular
-   Workbenches: [Sketcher](Sketcher_Workbench/pt.md), [PartDesign](PartDesign_Workbench/pt.md)
-   MenuLocation: Sketch - Sketcher constraints - Constrain perpendicular
+   Workbenches: Sketcher Workbench/pt, PartDesign Workbench/pt
+   MenuLocation: Sketch -> Sketcher constraints -> Constrain perpendicular
    Shortcut: N
-   SeeAlso: [Constraint Angle](Sketcher_ConstrainAngle/pt.md)
+   SeeAlso: Sketcher_ConstrainAngle/pt
 ---
 
 # Sketcher ConstrainPerpendicular/pt

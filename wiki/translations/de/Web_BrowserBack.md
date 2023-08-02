@@ -3,7 +3,7 @@
    Name: Web BrowserBack
    Name/de: Web BrowserVorherigeSeite
    MenuLocation: 
-   Workbenches: [Web](Web_Workbench/de.md), [Start](Start_Workbench/de.md)
+   Workbenches: Web_Workbench/de, Start_Workbench/de
    SeeAlso: 
 ---
 

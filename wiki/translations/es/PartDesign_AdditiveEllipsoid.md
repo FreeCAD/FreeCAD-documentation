@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign AdditiveEllipsoid
    Name/es: DiseñoPiezas  ElipsoideAditivo
-   MenuLocation: DiseñoPiezas - Crear una primitiva aditiva - Elipsoide Aditivo
-   Workbenches: [DiseñoPiezas](PartDesign_Workbench/es.md)
+   MenuLocation: DiseñoPiezas -> Crear una primitiva aditiva -> Elipsoide Aditivo
+   Workbenches: PartDesign_Workbench/es
    Version: 0.17
-   SeeAlso: [DiseñoPiezas CompPrimitivaAditiva](PartDesign_CompPrimitiveAdditive/es.md)
+   SeeAlso: PartDesign_CompPrimitiveAdditive/es
 ---
 
 # PartDesign AdditiveEllipsoid/es

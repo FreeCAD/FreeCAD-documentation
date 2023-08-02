@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std ViewIvIssueCamPos
    Name/fr: Std Position de la caméra
-   MenuLocation: Affichage - Stéréo - Récupérer la position de la caméra
+   MenuLocation: Affichage -> Stéréo -> Récupérer la position de la caméra
    Workbenches: Tous
-   SeeAlso: [Std Figer l'affichage](Std_FreezeViews/fr.md)
+   SeeAlso: Std_FreezeViews/fr
 ---
 
 # Std ViewIvIssueCamPos/fr

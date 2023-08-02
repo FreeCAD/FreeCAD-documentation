@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Raytracing WritePart
-   MenuLocation: Raytracing - Utilities - Export part to POV-Ray
-   Workbenches: [Raytracing](Raytracing_Workbench.md)
+   MenuLocation: Raytracing -> Utilities -> Export part to POV-Ray
+   Workbenches: Raytracing_Workbench
    Shortcut: 
    SeeAlso: 
 ---

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: PartDesign Pocket
    Name/es: DiseñoPieza Cajera
-   MenuLocation: DiseñoPieza - Crear una característica substractivo - Cajera
-   Workbenches: [DiseñoPieza](PartDesign_Workbench/es.md)
-   SeeAlso: [DiseñoPieza Pastilla](PartDesign_Pad/es.md)
+   MenuLocation: DiseñoPieza -> Crear una característica substractivo -> Cajera
+   Workbenches: PartDesign_Workbench/es
+   SeeAlso: PartDesign_Pad/es
 ---
 
 # PartDesign Pocket/es

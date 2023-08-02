@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw ProjectionGroup
    Name/pl: Rysunek Techniczny: Wstaw grupę rzutów
-   MenuLocation: Rysunek Techniczny - Widoki - Wstaw grupę rzutów
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso: [Wstaw widok](TechDraw_View/pl.md), [Wstaw widok przekroju](TechDraw_SectionView/pl.md)
+   MenuLocation: Rysunek Techniczny -> Widoki -> Wstaw grupę rzutów
+   Workbenches: TechDraw_Workbench/pl
+   SeeAlso: TechDraw_View/pl, TechDraw_SectionView/pl
 ---
 
 # TechDraw ProjectionGroup/pl

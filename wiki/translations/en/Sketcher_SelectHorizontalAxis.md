@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Sketcher SelectHorizontalAxis
-   MenuLocation: Sketch - Sketcher tools - Select horizontal axis
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch -> Sketcher tools -> Select horizontal axis
+   Workbenches: Sketcher_Workbench
    Shortcut: **Z** **H**
    Version: 0.15
 ---

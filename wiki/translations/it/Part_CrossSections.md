@@ -3,9 +3,9 @@
    Name: Part SectionCross
    Name/it: Sezioni...
    Icon: Part_CrossSections.svg
-   MenuLocation: Parte - Sezioni...
-   Workbenches: [Parte](Part_Workbench/it.md)
-   SeeAlso: [Seziona](Part_Section/it.md)
+   MenuLocation: Parte -> Sezioni...
+   Workbenches: Part_Workbench/it
+   SeeAlso: Part_Section/it
 ---
 
 # Part CrossSections/it

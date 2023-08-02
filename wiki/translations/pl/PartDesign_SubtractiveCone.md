@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: PartDesign SubtractiveCone
    Name/pl: Projekt Części: Subtraktywny stożek
-   MenuLocation: Projekt Części - Utwórz cechę przez odjęcie - Subtraktywny stożek
-   Workbenches: [Projekt Części](PartDesign_Workbench/pl.md)
+   MenuLocation: Projekt Części -> Utwórz cechę przez odjęcie -> Subtraktywny stożek
+   Workbenches: PartDesign_Workbench/pl
    Version: 0.17
-   SeeAlso: [Komponent bryła pierwotna do odjęcia](PartDesign_CompPrimitiveSubtractive/pl.md), [Addytywny stożek](PartDesign_AdditiveCone/pl.md)
+   SeeAlso: PartDesign_CompPrimitiveSubtractive/pl, PartDesign_AdditiveCone/pl
 ---
 
 # PartDesign SubtractiveCone/pl

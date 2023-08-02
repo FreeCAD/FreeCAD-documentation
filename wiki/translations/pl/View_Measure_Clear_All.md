@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: View Measure Clear All
    Name/pl: Usuń widoczne wymiary
-   MenuLocation: Widok - Widoczność- Usuń widoczne wymiary
+   MenuLocation: Widok -> Widoczność-> Usuń widoczne wymiary
    Workbenches: wszystkie
-   SeeAlso: [Przełącz widoczność wymiarów](View_Measure_Toggle_All/pl.md), [Przełącz widoczność wszystkich wymiarów](Part_Measure_Toggle_All/pl.md), [Usuń wymiary](Part_Measure_Clear_All/pl.md)
+   SeeAlso: View_Measure_Toggle_All/pl, Part_Measure_Toggle_All/pl, Part_Measure_Clear_All/pl
 ---
 
 # View Measure Clear All/pl

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Point
    Name/de: Entwurf Punkt
-   MenuLocation: Entwurf - Punkt
-   Workbenches: [Entwurf Arbeitsbereich](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   MenuLocation: Entwurf -> Punkt
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Version: 0.7
 ---
 

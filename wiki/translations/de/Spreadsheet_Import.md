@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Spreadsheet Import
    Name/de: Kalkulationstabelle Importieren
-   MenuLocation: Tabellenkalkulation - Kalkulationstabelle importieren
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench/de.md)
+   MenuLocation: Tabellenkalkulation -> Kalkulationstabelle importieren
+   Workbenches: Spreadsheet_Workbench/de
    Version: 0.17
-   SeeAlso: [Kalkulationstabelle Exportieren](Spreadsheet_Export/de.md)
+   SeeAlso: Spreadsheet_Export/de
 ---
 
 # Spreadsheet Import/de

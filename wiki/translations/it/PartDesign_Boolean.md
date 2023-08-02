@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: PartDesign Boolean
    Name/it: Operazioni booleane
-   MenuLocation: Part Design - Operazioni booleane
-   Workbenches: [PartDesign](PartDesign_Workbench/it.md)
+   MenuLocation: Part Design -> Operazioni booleane
+   Workbenches: PartDesign Workbench/it
    Version: 0.17
 ---
 

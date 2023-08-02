@@ -3,8 +3,8 @@
    Name: Sketcher ToggleConstruction
    Name/cs:  Skicář Změna konst.módu
    Icon: Sketcher_AlterConstruction.svg
-   Workbenches: [Skicář](Sketcher_Workbench/cs.md)
-   MenuLocation: Náčrt - Skicář Konstrukce -  Změna konst.módu
+   Workbenches: Sketcher Workbench/cs
+   MenuLocation: Náčrt -> Skicář Konstrukce ->  Změna konst.módu
 ---
 
 # Sketcher ToggleConstruction/cs

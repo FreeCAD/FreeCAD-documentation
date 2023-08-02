@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Std Group
    Name/fr: Std Groupe
-   MenuLocation: [Vue arborescente](Tree_view/fr.md) - Clic droit sur le nom du document - Créer un groupe...
+   MenuLocation: Tree_view/fr -> Clic droit sur le nom du document -> Créer un groupe...
    Workbenches: Tous
    Shortcut: 
    Version: 
-   SeeAlso: [Std Part](Std_Part/fr.md), [Draft Sélection groupée](Draft_SelectGroup/fr.md), [Draft Ajouter au groupe](Draft_AddToGroup/fr.md)
+   SeeAlso: Std_Part/fr, Draft_SelectGroup/fr, Draft_AddToGroup/fr
 ---
 
 # Std Group/fr

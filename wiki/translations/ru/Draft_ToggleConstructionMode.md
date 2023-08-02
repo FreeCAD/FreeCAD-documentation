@@ -3,7 +3,7 @@
    Name: Draft ToggleConstructionMode
    Name/ru: Draft ToggleConstructionMode
    MenuLocation: Черчение -> Утилиты -> Переключить режим конструирования
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
 ---
 
 # Draft ToggleConstructionMode/ru

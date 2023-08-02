@@ -3,8 +3,8 @@
    Name: Web BrowserSetURL
    Name/de: Web BrowserURLBearbeiten
    MenuLocation: 
-   Workbenches: [Web](Web_Workbench/de.md), [Start](Start_Workbench/de.md)
-   SeeAlso: [Web WebseiteÖffnen](Web_OpenWebsite/de.md)
+   Workbenches: Web_Workbench/de, Start_Workbench/de
+   SeeAlso: Web_OpenWebsite/de
 ---
 
 # Web BrowserSetURL/de

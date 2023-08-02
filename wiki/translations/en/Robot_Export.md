@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Robot Export
-   MenuLocation: Robot - Export trajectory
-   Workbenches: [Robot](Robot_Workbench.md)
+   MenuLocation: Robot -> Export trajectory
+   Workbenches: Robot_Workbench
 ---
 
 # Robot Export/en

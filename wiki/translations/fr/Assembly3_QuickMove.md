@@ -3,8 +3,8 @@
    Name: Assembly3 QuickMove
    Name/fr: Assembly3 Déplacement rapide
    Icon: Assembly_QuickMove.svg‎‎
-   MenuLocation: Assembly3 - Quick move
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   MenuLocation: Assembly3 -> Quick move
+   Workbenches: Assembly3_Workbench/fr
    Shortcut: **A** puis **Q**
 ---
 

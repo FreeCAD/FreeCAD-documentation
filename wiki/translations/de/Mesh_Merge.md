@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Mesh Merge
    Name/de: Mesh Zusammenführen
-   MenuLocation: Netze - Zusammenführen
-   Workbenches: [Mesh](Mesh_Workbench/de.md)
-   SeeAlso: [Mesh KomponentenTeilen](Mesh_SplitComponents/de.md)
+   MenuLocation: Netze -> Zusammenführen
+   Workbenches: Mesh_Workbench/de
+   SeeAlso: Mesh_SplitComponents/de
 ---
 
 # Mesh Merge/de

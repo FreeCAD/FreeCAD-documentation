@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: SheetMetal Extrude
    Name/de: SheetMetal KanteVerlängern
-   MenuLocation: SheetMetal - Extend Face
-   Workbenches: [SheetMetal (Blech)](SheetMetal_Workbench/de.md)
+   MenuLocation: SheetMetal -> Extend Face
+   Workbenches: SheetMetal_Workbench/de
    Shortcut: **E**
 ---
 

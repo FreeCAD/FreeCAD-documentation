@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std_CloseAllWindows
    Name/it: Chiudi tutto
-   MenuLocation: File - Chiudi tutto
+   MenuLocation: File -> Chiudi tutto
    Workbenches: Tutti
-   SeeAlso: [Chiudi](Std_CloseActiveWindow/it.md)
+   SeeAlso: Std_CloseActiveWindow/it
 ---
 
 # Std CloseAllWindows/it

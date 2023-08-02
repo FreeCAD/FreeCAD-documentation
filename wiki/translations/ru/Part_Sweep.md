@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part_Sweep
    Name/ru: Развёртка
-   MenuLocation: Деталь - Развёртка
-   Workbenches: [Верстак Part](Part_Workbench/ru.md)
-   SeeAlso: [Лофт](Part_Loft/ru.md)
+   MenuLocation: Деталь -> Развёртка
+   Workbenches: Part_Workbench/ru
+   SeeAlso: Part_Loft/ru
 ---
 
 # Part Sweep/ru

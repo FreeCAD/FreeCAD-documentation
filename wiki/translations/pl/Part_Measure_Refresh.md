@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Measure Refresh
    Name/pl: Część: Odśwież pomiary
-   MenuLocation: Pomiary - Odśwież pomiary
-   Workbenches: [Część](Part_Workbench/pl.md)
-   SeeAlso: [Part Measure Linear](Part_Measure_Linear/pl.md), [Pomiar kątowy](Part_Measure_Angular/pl.md)
+   MenuLocation: Pomiary -> Odśwież pomiary
+   Workbenches: Part_Workbench/pl
+   SeeAlso: Part_Measure_Linear/pl, Part_Measure_Angular/pl
 ---
 
 # Part Measure Refresh/pl

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Part Measure Angular
-   MenuLocation: [Measure](Std_Measure_Menu.md) - Measure Angular‏‎
-   Workbenches: [Part](Part_Workbench.md)
+   MenuLocation: Std Measure Menu -> Measure Angular‏‎
+   Workbenches: Part_Workbench
 ---
 
 # Part Measure Angular/ro

@@ -2,7 +2,7 @@
 - GuiCommand:
    Name: Std MergeProjects
    Name/pl: Std: Scal projekt
-   MenuLocation: Plik - Scal projekt ...
+   MenuLocation: Plik -> Scal projekt ...
    Workbenches: wszystkie
 ---
 

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Std_ViewRotateLeft
    Name/it: Ruota a sinistra
-   MenuLocation: Visualizza - Viste standard - Ruota a sinistra
+   MenuLocation: Visualizza -> Viste standard -> Ruota a sinistra
    Shortcut:  **Shift**+**Sinistra**
    Workbenches: Tutti
-   SeeAlso: [Ruota a destra](Std_ViewRotateRight/it.md)
+   SeeAlso: Std_ViewRotateRight/it
 ---
 
 # Std ViewRotateLeft/it

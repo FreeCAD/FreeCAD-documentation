@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: TechDraw ExtensionLineParallel
-   MenuLocation: TechDraw - Extensions: Centerlines/Threading - Add Cosmetic Parallel Line
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   MenuLocation: TechDraw -> Extensions: Centerlines/Threading -> Add Cosmetic Parallel Line
+   Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20
-   SeeAlso: [TechDraw ExtensionLinePerpendicular](TechDraw_ExtensionLinePerpendicular.md)
+   SeeAlso: TechDraw_ExtensionLinePerpendicular
 ---
 
 # TechDraw ExtensionLineParallel

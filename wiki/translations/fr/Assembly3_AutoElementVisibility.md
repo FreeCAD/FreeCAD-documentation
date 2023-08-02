@@ -3,8 +3,8 @@
    Name: Assembly3 AutoElementVisibility
    Name/fr: Assembly3 Visibilité automatique des éléments 
    Icon: Assembly_AutoElementVis.svg‎‎
-   MenuLocation: Assembly3 - Element style - Auto element visibility
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   MenuLocation: Assembly3 -> Element style -> Auto element visibility
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 AutoElementVisibility/fr

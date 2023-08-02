@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft BSpline
    Name/de: Entwurf BSpline
-   MenuLocation: Entwurf - BSpline
-   Workbenches: [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   MenuLocation: Entwurf -> BSpline
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **B** **S**
    Version: 0.7
-   SeeAlso: [Entwurf Polygonzug](Draft_Wire/de.md), [Entwurf Bézkurve](Draft_BezCurve/de.md)
+   SeeAlso: Draft_Wire/de, Draft_BezCurve/de
 ---
 
 # Draft BSpline/de

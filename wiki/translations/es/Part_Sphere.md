@@ -1,6 +1,6 @@
 # Part Sphere/es
 ---
-- GuiCommand:   Name: Part Sphere   Name/es: Part Sphere   MenuLocation: Part -> Sphere   |Workbenches: [SeeAlso: [[Part_CreatePrimitives/es|Part CreatePrimitives](Part_Workbench/es___Part_Module]],Complete.md)---
+- GuiCommand:   Name: Part Sphere   Name/es: Part Sphere   MenuLocation: Part -> Sphere   ,Complete---
 
 
 </div>

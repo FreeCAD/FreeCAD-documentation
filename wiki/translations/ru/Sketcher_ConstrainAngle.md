@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Ограничить угол
    Name: Sketcher_ConstrainAngle
-   MenuLocation: Sketch - Ограничения эскиза - Ограничить угол
-   Workbenches: [Sketcher](Sketcher_Workbench/ru.md)
+   MenuLocation: Sketch -> Ограничения эскиза -> Ограничить угол
+   Workbenches: Sketcher_Workbench/ru
    Shortcut: **A**
-   SeeAlso: [Ограничить расстояние](Sketcher_ConstrainDistance/ru.md), [Ограничить перпендикулярность](Sketcher_ConstrainPerpendicular/ru.md)
+   SeeAlso: Sketcher_ConstrainDistance/ru, Sketcher_ConstrainPerpendicular/ru
 ---
 
 # Sketcher ConstrainAngle/ru

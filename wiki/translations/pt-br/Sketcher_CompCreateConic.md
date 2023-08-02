@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name: Sketcher CompCreateConic
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   Workbenches: Sketcher_Workbench
 ---
 
 # Sketcher CompCreateConic/pt-br

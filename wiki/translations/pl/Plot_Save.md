@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Plot Save
    Name/pl: Wykres: Zapisz wykres
-   MenuLocation: Wykres - Zapisz wykres
-   Workbenches: [Wykres](Plot_Workbench/pl.md)
+   MenuLocation: Wykres -> Zapisz wykres
+   Workbenches: Plot_Workbench/pl
 ---
 
 # Plot Save/pl

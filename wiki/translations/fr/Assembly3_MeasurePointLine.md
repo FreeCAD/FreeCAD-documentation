@@ -3,7 +3,7 @@
    Name: Assembly3 MeasurePointLine
    Name/fr: Assembly3 Mesure point à la ligne
    Icon: Assembly_MeasurePointLineDistance.svg
-   Workbenches: [Assembly3](Assembly3_Workbench/fr.md)
+   Workbenches: Assembly3_Workbench/fr
 ---
 
 # Assembly3 MeasurePointLine/fr

@@ -3,8 +3,8 @@
    Name: Drawing_ProjectShape
    Name/it: Proietta le forme
    Empty: 1
-   Workbenches: [Drawing](Drawing_Workbench/it.md)
-   MenuLocation: Drawing - Proietta le forme
+   Workbenches: Drawing Workbench/it
+   MenuLocation: Drawing -> Proietta le forme
 ---
 
 # Drawing ProjectShape/it

@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std DlgMacroExecute
    Name/de: Std DlgMakroAusführen
-   MenuLocation: Makro - Makros...
+   MenuLocation: Makro -> Makros...
    Workbenches: Alle
-   SeeAlso: [Std MakroDirektAusführen](Std_DlgMacroExecuteDirect/de.md)
+   SeeAlso: Std_DlgMacroExecuteDirect/de
 ---
 
 # Std DlgMacroExecute/de

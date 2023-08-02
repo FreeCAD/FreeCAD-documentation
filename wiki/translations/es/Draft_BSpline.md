@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft BSpline
    Name/es: Borrador BSpline
-   MenuLocation: Borrador - B-Spline 
-   Workbenches: [Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   MenuLocation: Borrador -> B-Spline 
+   Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Shortcut: **B** **S**
    Version: 0.7
-   SeeAlso: [Borrador Hilo](Draft_Wire/es.md), [Borrador CúbicaBezCurva](Draft_CubicBezCurve/es.md), [Borrador BezCurva](Draft_BezCurve/es.md)
+   SeeAlso: Draft_Wire/es, Draft_CubicBezCurve/es, Draft_BezCurve/es
 ---
 
 # Draft BSpline/es

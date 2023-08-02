@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Part Chamfer
    Name/de: Part Fase
-   MenuLocation: Part - Anfasen...
-   Workbenches: [Part](Part_Workbench/de.md)
-   SeeAlso: [Part Verrundung](Part_Fillet/de.md)
+   MenuLocation: Part -> Anfasen...
+   Workbenches: Part_Workbench/de
+   SeeAlso: Part_Fillet/de
 ---
 
 # Part Chamfer/de

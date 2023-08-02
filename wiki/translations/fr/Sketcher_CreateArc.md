@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher Arc
    Name/fr: Sketcher Création d'arc
-   MenuLocation: Esquisse - Géométries d'esquisse - Créer un arc à partir du centre
-   Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   MenuLocation: Esquisse -> Géométries d'esquisse -> Créer un arc à partir du centre
+   Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **A**
-   SeeAlso: [Sketcher Cercle](Sketcher_CompCreateCircle/fr.md)
+   SeeAlso: Sketcher_CompCreateCircle/fr
 ---
 
 # Sketcher CreateArc/fr

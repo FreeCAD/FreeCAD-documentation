@@ -1,6 +1,6 @@
 # Draft Rectangle/sv
 ---
-- GuiCommand:   Name: Draft Rectangle   Name/sv: Draft Rectangle   Workbenches: [Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation: Draft -> Rectangle   Shortcut: R E   SeeAlso: [Part Box](Part_Box/sv.md)---
+- GuiCommand:   Name: Draft Rectangle   Name/sv: Draft Rectangle   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv---
 
 
 </div>

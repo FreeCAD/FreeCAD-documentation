@@ -3,8 +3,8 @@
    Name: Drawing ProjectShape
    Name/de: Drawing ProjectShape
    Empty: 1
-   Workbenches: [Drawing](Drawing_Workbench/de.md)
-   MenuLocation: Drawing - Project shape
+   Workbenches: Drawing_Workbench/de
+   MenuLocation: Drawing -> Project shape
 ---
 
 # Drawing ProjectShape/de

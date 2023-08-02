@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Upgrade
    Name/it: Promuovi
-   MenuLocation: Modifiche - Promuovi
-   Workbenches: [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
+   MenuLocation: Modifiche -> Promuovi
+   Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **U** **P**
-   SeeAlso: [Declassa](Draft_Downgrade/it.md)
+   SeeAlso: Draft_Downgrade/it
 ---
 
 # Draft Upgrade/it

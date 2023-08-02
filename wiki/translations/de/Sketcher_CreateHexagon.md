@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Sketcher CreateHexagon
    Name/de: Sketcher SechseckErstellen
-   MenuLocation: Sketch - Skizzengeometrien - Sechseck erstellen
-   Workbenches: [Sketcher](Sketcher_Workbench/de.md)
+   MenuLocation: Sketch -> Skizzengeometrien -> Sechseck erstellen
+   Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **P** **6**
    Version: 0.15
 ---

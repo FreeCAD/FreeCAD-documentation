@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher CreateArcOfEllipse
    Name/it: Arco di ellisse
-   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation: Sketch - Geometrie - Arco di ellisse
+   Workbenches: Sketcher Workbench/it
+   MenuLocation: Sketch -> Geometrie -> Arco di ellisse
    Version: 0.15
-   SeeAlso: [Ellisse da centro](Sketcher_CreateEllipseByCenter/it.md), [Arco di ellisse](Sketcher_CompCreateArc/it.md), [Cerchio](Sketcher_CreateCircle/it.md)
+   SeeAlso: Sketcher CreateEllipseByCenter/it, Sketcher CompCreateArc/it, Sketcher CreateCircle/it
 ---
 
 # Sketcher CreateArcOfEllipse/it

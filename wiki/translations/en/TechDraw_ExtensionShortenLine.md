@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name: TechDraw ExtensionShortenLine
-   MenuLocation: TechDraw - Extensions: Attributes/Modifications - Shorten Line
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   MenuLocation: TechDraw -> Extensions: Attributes/Modifications -> Shorten Line
+   Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20
-   SeeAlso: [TechDraw ExtensionExtendLine](TechDraw_ExtensionExtendLine.md)
+   SeeAlso: TechDraw_ExtensionExtendLine
 ---
 
 # TechDraw ExtensionShortenLine/en

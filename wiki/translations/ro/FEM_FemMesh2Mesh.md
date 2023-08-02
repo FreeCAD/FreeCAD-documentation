@@ -1,6 +1,6 @@
 # FEM FemMesh2Mesh/ro
 ---
-- GuiCommand:   Name: FEM FemMesh2Mesh   Name/ro: FEM FemMesh2Mesh   MenuLocation: Mesh - FEM mesh to mesh   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
+- GuiCommand:   Name: FEM FemMesh2Mesh   Name/ro: FEM FemMesh2Mesh   MenuLocation: Mesh -> FEM mesh to mesh   ---
 
 
 </div>

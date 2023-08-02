@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Sketcher BSplinePoleWeight
-   MenuLocation: Sketch - Sketcher B-spline tools - Show/hide B-spline control point weight
-   Workbenches: [Sketcher](Sketcher_Workbench.md)
+   MenuLocation: Sketch -> Sketcher B-spline tools -> Show/hide B-spline control point weight
+   Workbenches: Sketcher_Workbench
    Version: 0.19
-   SeeAlso: [Sketcher Create B-spline](Sketcher_CompCreateBSpline.md)
+   SeeAlso: Sketcher_CompCreateBSpline
 ---
 
 # Sketcher BSplinePoleWeight

@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Part Point
-   Name/ru: Точка(Вершина)
-   MenuLocation: Деталь - [Создать примитивы...](Part_Primitives/ru.md) - Точка
-   Workbenches: [Part(Деталь)](Part_Workbench/ru.md)
-   SeeAlso: [Примитивы](Part_Primitives/ru.md)
+   Name/ru: Точка
+   MenuLocation: Деталь -> Part_Primitives/ru -> Точка
+   Workbenches: Part_Workbench/ru
+   SeeAlso: Part_Primitives/ru
 ---
 
 # Part Point/ru

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft CircularArray
    Name/ru: Draft CircularArray
-   MenuLocation: Draft - Circular array
-   Workbenches: [Draft](Draft_Workbench/ru.md)
+   MenuLocation: Draft -> Circular array
+   Workbenches: Draft_Workbench/ru
    Version: 0.19
-   SeeAlso: [Array](Draft_Array/ru.md), [PolarArray](Draft_PolarArray/ru.md), [PathArray](Draft_PathArray/ru.md), [PointArray](Draft_PointArray/ru.md), [Clone](Draft_Clone/ru.md)
+   SeeAlso: Draft_Array/ru, Draft_PolarArray/ru, Draft_PathArray/ru, Draft_PointArray/ru, Draft_Clone/ru
 ---
 
 # Draft CircularArray/ru

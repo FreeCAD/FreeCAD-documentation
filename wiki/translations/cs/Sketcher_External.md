@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Sketcher External
    Name/cs: Sketcher External
-   MenuLocation: Sketch - Sketcher geometries - Sketcher External
-   Workbenches: [Sketcher](Sketcher_Workbench/cs.md)
+   MenuLocation: Sketch -> Sketcher geometries -> Sketcher External
+   Workbenches: Sketcher_Workbench/cs
    Shortcut: X
-   SeeAlso: [Sketcher ConstructionMode](Sketcher_ToggleConstruction/cs.md)
+   SeeAlso: Sketcher_ToggleConstruction/cs
 ---
 
 # Sketcher External/cs

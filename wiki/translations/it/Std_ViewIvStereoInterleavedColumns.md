@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std ViewIvStereoInterleavedColumns
    Name/it: Stereo a colonne interlacciate
-   MenuLocation: Visualizza - Stereo - Stereo a colonne interlacciate
+   MenuLocation: Visualizza -> Stereo -> Stereo a colonne interlacciate
    Workbenches: Tutti
-   SeeAlso: [Stereo rosso/ciano](Std_ViewIvStereoRedGreen/it.md), [Stereo quad buffer](Std_ViewIvStereoQuadBuff/it.md),  [Stereo a righe interlacciate](Std_ViewIvStereoInterleavedRows/it.md), [Stereo off](Std_ViewIvStereoOff/it.md)
+   SeeAlso: Std_ViewIvStereoRedGreen/it, Std_ViewIvStereoQuadBuff/it,  Std_ViewIvStereoInterleavedRows/it, Std_ViewIvStereoOff/it
 ---
 
 # Std ViewIvStereoInterleavedColumns/it

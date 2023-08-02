@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft Snap Lock
    Name/ru: Draft ToggleSnap
-   MenuLocation: Черчение - Утилиты - Toggle snap
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Черчение -> Утилиты -> Toggle snap
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
 ---
 
 # Draft Snap Lock/ru

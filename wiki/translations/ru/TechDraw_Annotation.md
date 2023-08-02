@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/ru: Вставить заметку
    Name: TechDraw_Annotation
-   MenuLocation: TechDraw - Заметки - Вставить заметку
-   Workbenches: [TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso: [Текст](Draft_Text/ru.md), [Фигура из текста](Draft_ShapeString/ru.md)
+   MenuLocation: TechDraw -> Заметки -> Вставить заметку
+   Workbenches: TechDraw_Workbench/ru
+   SeeAlso: Draft_Text/ru, Draft_ShapeString/ru
 ---
 
 # TechDraw Annotation/ru

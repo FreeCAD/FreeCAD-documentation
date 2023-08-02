@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: TechDraw 2PointCenterLine
-   MenuLocation: TechDraw - Add Lines - Add Centerline between 2 points
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
+   MenuLocation: TechDraw -> Add Lines -> Add Centerline between 2 points
+   Workbenches: TechDraw_Workbench
    Version: 0.19
-   SeeAlso: [TechDraw FaceCenterLine](TechDraw_FaceCenterLine.md), [TechDraw 2LineCenterLine](TechDraw_2LineCenterLine.md)
+   SeeAlso: TechDraw_FaceCenterLine, TechDraw_2LineCenterLine
 ---
 
 # TechDraw 2PointCenterLine

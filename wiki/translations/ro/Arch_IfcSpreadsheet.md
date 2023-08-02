@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch_MakeIfcSpreadsheet
    Name/ro: Arch_MakeIfcSpreadsheet
-   MenuLocation: Arch - Utilities - Create schedule...
-   Workbenches: [Arch](Arch_Workbench/ro.md)
+   MenuLocation: Arch -> Utilities -> Create schedule...
+   Workbenches: Arch_Workbench/ro
    Shortcut: **I** **P**
-   SeeAlso: [[Arch IFC]], [[Arch IfcExplorer]]
+   SeeAlso: Arch IFC, Arch IfcExplorer
    Icon: Arch_Schedule.svg
 ---
 

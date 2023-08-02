@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Fasteners BOM
    Name/fr: Fasteners BOM
-   MenuLocation: Fasteners - Generate BOM
-   Workbenches: [Fasteners](Fasteners_Workbench/fr.md)
-   SeeAlso: [Atelier Spreadsheet](Spreadsheet_Workbench/fr.md)
+   MenuLocation: Fasteners -> Generate BOM
+   Workbenches: Fasteners_Workbench/fr
+   SeeAlso: Spreadsheet_Workbench/fr
 ---
 
 # Fasteners BOM/fr

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Arch Rebar
    Name/de: Architektur Bewehrung oder 3D/BIM-Verstärkung
-   MenuLocation: Architektur - Bewehrung
-   Workbenches: [Architektur](Arch_Workbench/de.md),[BIM](BIM_Workbench/de.md)
+   MenuLocation: Architektur -> Bewehrung
+   Workbenches: Arch_Workbench/de,BIM_Workbench/de
    Shortcut: **R** **B**
-   SeeAlso: [Architektur Struktur](Arch_Structure/de.md), [Verstärkungserweiterung](Reinforcement_Workbench/de.md)
+   SeeAlso: Arch_Structure/de, Reinforcement_Workbench/de
 ---
 
 # Arch Rebar/de

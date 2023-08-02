@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: TechDraw LengthDimension
    Name/pl: Rysunek Techniczny: Wstaw wymiar długości
-   MenuLocation: Rysunek Techniczny - Wymiary - Wstaw wymiar długości
-   Workbenches: [Rysunek Techniczny](TechDraw_Workbench/pl.md)
-   SeeAlso: [Wstaw wymiar poziomy](TechDraw_HorizontalDimension/pl.md), [Wstaw wymiar pionowy](TechDraw_VerticalDimension/pl.md)
+   MenuLocation: Rysunek Techniczny -> Wymiary -> Wstaw wymiar długości
+   Workbenches: TechDraw_Workbench/pl
+   SeeAlso: TechDraw_HorizontalDimension/pl, TechDraw_VerticalDimension/pl
 ---
 
 # TechDraw LengthDimension/pl

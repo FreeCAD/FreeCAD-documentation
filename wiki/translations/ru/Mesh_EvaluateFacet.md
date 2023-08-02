@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Mesh_EvaluateFacet
    Name/ru: Mesh_EvaluateFacet
-   MenuLocation: Сетки - Анализ - Информация о поверхности
-   Workbenches: [Mesh](Mesh_Workbench/ru.md)
+   MenuLocation: Сетки -> Анализ -> Информация о поверхности
+   Workbenches: Mesh Workbench/ru
    Shortcut: 
    SeeAlso: 
 ---

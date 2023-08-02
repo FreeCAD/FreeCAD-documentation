@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Constraint PointOnObject
    Name/cs: Constraint PointOnObject
-   Workbenches: [Náčrt](Sketcher_Workbench/cs.md), [Návrh dílu](PartDesign_Workbench/cs.md)
-   MenuLocation: Sketch - Sketcher constraints - Constrain point onto object
-   SeeAlso: [Vazba totožnosti](Sketcher_ConstrainCoincident/cs.md)
+   Workbenches: Sketcher Workbench/cs, PartDesign Workbench/cs
+   MenuLocation: Sketch -> Sketcher constraints -> Constrain point onto object
+   SeeAlso: Sketcher_ConstrainCoincident/cs
 ---
 
 # Sketcher ConstrainPointOnObject/cs

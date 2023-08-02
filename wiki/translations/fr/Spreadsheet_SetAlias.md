@@ -3,7 +3,7 @@
    Name: Spreadsheet SetAlias
    Name/fr: Spreadsheet Alias
    MenuLocation: 
-   Workbenches: [Spreadsheet](Spreadsheet_Workbench/fr.md)
+   Workbenches: Spreadsheet_Workbench/fr
    Version: 0.17
 ---
 

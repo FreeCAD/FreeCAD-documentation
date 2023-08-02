@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name: TechDraw Hatch
-   MenuLocation: TechDraw - Hatching - Hatch a Face using Image File
-   Workbenches: [TechDraw](TechDraw_Workbench.md)
-   SeeAlso: [TechDraw Geometric Hatch](TechDraw_GeometricHatch.md), [TechDraw Hatching](TechDraw_Hatching.md)
+   MenuLocation: TechDraw -> Hatching -> Hatch a Face using Image File
+   Workbenches: TechDraw_Workbench
+   SeeAlso: TechDraw_GeometricHatch, TechDraw_Hatching
 ---
 
 # TechDraw Hatch/en

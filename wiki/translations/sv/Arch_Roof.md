@@ -1,6 +1,6 @@
 # Arch Roof/sv
 ---
-- GuiCommand:   Name: Arch Roof   Name/sv: Arch Roof   Workbenches: [[Arch_Workbench/sv   Arch]]|MenuLocation: Arch - Roof   Shortcut: R F---
+- GuiCommand:   Name: Arch Roof   Name/sv: Arch Roof   Workbenches: Arch_Workbench/sv   Arch|MenuLocation: Arch -> Roof   Shortcut: R F---
 
 
 </div>

@@ -1,6 +1,6 @@
 # FEM ConstraintBearing/ro
 ---
-- GuiCommand:   Name: FEM ConstraintBearing   MenuLocation: Model - Mechanical Constraints - Constraint bearing   |Workbenches: [Shortcut:    SeeAlso: [[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
+- GuiCommand:   Name: FEM ConstraintBearing   MenuLocation: Model -> Mechanical Constraints -> Constraint bearing   ---
 
 
 </div>

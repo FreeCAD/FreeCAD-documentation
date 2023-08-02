@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Std RecallWorkingView
    Name/it: Richiama vista di lavoro
-   MenuLocation: Visualizza - Viste standard - Richiama vista di lavoro
+   MenuLocation: Visualizza -> Viste standard -> Richiama vista di lavoro
    Workbenches: Tutte
    Shortcut: **End**
    Version: 0.21
-   SeeAlso: [Memorizza vista di lavoro](Std_StoreWorkingView/it.md), [Viste bloccate](Std_FreezeViews/it.md)
+   SeeAlso: Std_StoreWorkingView/it, Std_FreezeViews/it
 ---
 
 # Std RecallWorkingView/it

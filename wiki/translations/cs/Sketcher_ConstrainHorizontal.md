@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Constraint Horizontal
    Name/cs: Constraint Horizontal
-   Workbenches: [Sketcher](Sketcher_Workbench/cs.md), [PartDesign](PartDesign_Workbench/cs.md)
-   MenuLocation: Sketch - Sketcher constraints - Constrain horizontally
-   SeeAlso: [Constraint Vertical](Sketcher_ConstrainVertical/cs.md)
+   Workbenches: Sketcher Workbench/cs, PartDesign Workbench/cs
+   MenuLocation: Sketch -> Sketcher constraints -> Constrain horizontally
+   SeeAlso: Sketcher_ConstrainVertical/cs
 ---
 
 # Sketcher ConstrainHorizontal/cs

@@ -3,10 +3,10 @@
    Name: FEM EquationElectrostatic
    Name/ru: FEM EquationElectrostatic
    Icon: Fem-equation-electrostatic.svg
-   MenuLocation:  Solve - Equation electrostatic
-   Workbenches: [FEM](FEM_Workbench/ru.md)
+   MenuLocation:  Solve -> Equation electrostatic
+   Workbenches: FEM_Workbench/ru
    Shortcut: 
-   SeeAlso: [FEM tutorial](FEM_tutorial/ru.md)
+   SeeAlso: FEM_tutorial/ru
 ---
 
 # FEM EquationElectrostatic/ru

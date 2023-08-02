@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Arch RemoveShape
    Name/it: Rimuovi forma
-   Workbenches: [Architettura](Arch_Workbench/it.md)
-   MenuLocation: Arch - Utilità - Rimuovi forma
-   SeeAlso: [Dividi mesh](Arch_SplitMesh/it.md), [Da Mesh a Forma](Arch_MeshToShape/it.md)
+   Workbenches: Arch_Workbench/it
+   MenuLocation: Arch -> Utilità -> Rimuovi forma
+   SeeAlso: Arch SplitMesh/it, Arch MeshToShape/it
 ---
 
 # Arch RemoveShape/it

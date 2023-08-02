@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/ru: Установить цвет
    Name: Part_FaceColors
-   MenuLocation: Context menu - Установить цвет
-   Workbenches: [Part](Part_Workbench/ru.md), [PartDesign](PartDesign_Workbench/ru.md)
-   SeeAlso: [Внешний вид](Std_SetAppearance/ru.md)
+   MenuLocation: Context menu -> Установить цвет
+   Workbenches: Part_Workbench/ru, PartDesign_Workbench/ru
+   SeeAlso: Std_SetAppearance/ru
 ---
 
 # Part FaceColors/ru

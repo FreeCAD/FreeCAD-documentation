@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Создать локальную систему координат
    Name: PartDesign_CoordinateSystem
-   MenuLocation: PartDesign - Создать локальную систему координат
-   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
+   MenuLocation: PartDesign -> Создать локальную систему координат
+   Workbenches: PartDesign_Workbench/ru
    Version: 0.18
-   SeeAlso: [Создать опорную точку](PartDesign_Point/ru.md), [Создать опорную линию](PartDesign_Line/ru.md), [Создать опорную плоскость](PartDesign_Plane/ru.md)
+   SeeAlso: PartDesign_Point/ru, PartDesign_Line/ru, PartDesign_Plane/ru
 ---
 
 # PartDesign CoordinateSystem/ru

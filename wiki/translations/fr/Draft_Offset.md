@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: Draft Offset
    Name/fr: Draft Décalage
-   MenuLocation: Modification - Décalage
-   Workbenches: [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   MenuLocation: Modification -> Décalage
+   Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **O** **S**
-   SeeAlso: [Part Décalage 2D](Part_Offset2D/fr.md)
+   SeeAlso: Part_Offset2D/fr
 ---
 
 # Draft Offset/fr

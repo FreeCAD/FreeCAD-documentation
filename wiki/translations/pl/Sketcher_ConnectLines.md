@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher ConnectLines
    Name/pl: Szkicownik: Połącz linie
-   MenuLocation: Szkic - Narzędzia szkicownika - Połącz linie
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   MenuLocation: Szkic -> Narzędzia szkicownika -> Połącz linie
+   Workbenches: Sketcher_Workbench/pl
    Shortcut: **Z** **J**
    Version: 0.15
-   SeeAlso: [Wiązanie zbieżności punktów](Sketcher_ConstrainCoincident/pl.md)
+   SeeAlso: Sketcher_ConstrainCoincident/pl
 ---
 
 # Sketcher ConnectLines/pl

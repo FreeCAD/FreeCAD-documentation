@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name: Path Fixture
-   MenuLocation: Path - Supplemental Commands - Fixture
-   Workbenches: [Path](Path_Workbench.md)
+   MenuLocation: Path -> Supplemental Commands -> Fixture
+   Workbenches: Path_Workbench
 ---
 
 # Path Fixture/en

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Draft_Text
    Name/es: Draft_Text
-   MenuLocation: Croquis - Texto
-   Workbenches: [Croquis](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md)
+   MenuLocation: Croquis -> Texto
+   Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Shortcut: **T** **E**
 ---
 

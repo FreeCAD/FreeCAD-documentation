@@ -2,10 +2,10 @@
 - GuiCommand:
    Name: FEM_MeshGmshFromShape
    Name/it: Mesh FEM da forma con Gmsh
-   MenuLocation: Mesh - Mesh FEM da forma con Gmsh
-   Workbenches: [FEM](FEM_Workbench/it.md)
+   MenuLocation: Mesh -> Mesh FEM da forma con Gmsh
+   Workbenches: FEM_Workbench/it
    Shortcut: Nessuno
-   SeeAlso: [FEM tutorial](FEM_tutorial/it.md)
+   SeeAlso: FEM_tutorial/it
 ---
 
 # FEM MeshGmshFromShape/it

@@ -1,6 +1,6 @@
 # Draft Line/cs
 ---
-- GuiCommand:   Name: Draft Line   Name/cs: Kreslení Přímka   Workbenches: [Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation: Kreslení - Přímka   Shortcut: L I   SeeAlso: [Kreslení drát](Draft_Wire/cs.md)---
+- GuiCommand:   Name: Draft Line   Name/cs: Kreslení Přímka   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
 
 
 </div>

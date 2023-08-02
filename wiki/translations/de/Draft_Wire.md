@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Draft Wire
    Name/de: Draft Polylinie
-   MenuLocation: Entwurf - Polyline
-   Workbenches: [Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   MenuLocation: Entwurf -> Polyline
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **P** **L**
    Version: 0.7
-   SeeAlso: [Draft Linie](Draft_Line/de.md), [Draft BSpline](Draft_BSpline/de.md)
+   SeeAlso: Draft_Line/de, Draft_BSpline/de
 ---
 
 # Draft Wire/de

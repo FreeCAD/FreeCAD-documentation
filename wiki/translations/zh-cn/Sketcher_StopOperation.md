@@ -1,8 +1,8 @@
 ---
 - GuiCommand:-cn
    Name: 停止操作
-   MenuLocation: Sketch - 停止操作
-   Workbenches: [Sketcher](Sketcher_Workbench/zh-cn.md)
+   MenuLocation: Sketch -> 停止操作
+   Workbenches: Sketcher_Workbench/zh-cn
 ---
 
 # Sketcher StopOperation/zh-cn

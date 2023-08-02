@@ -2,9 +2,9 @@
 - GuiCommand:
    Name/ru: Вырез
    Name: PartDesign_Pocket
-   MenuLocation: Part Design - Create a substractive feature - Вырез
-   Workbenches: [PartDesign](PartDesign_Workbench/ru.md)
-   SeeAlso: [Выдавливание](PartDesign_Pad/ru.md)
+   MenuLocation: Part Design -> Create a substractive feature -> Вырез
+   Workbenches: PartDesign_Workbench/ru
+   SeeAlso: PartDesign_Pad/ru
 ---
 
 # PartDesign Pocket/ru

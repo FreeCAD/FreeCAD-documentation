@@ -2,9 +2,9 @@
 - GuiCommand:
    Name: Std FreeCADUserHub
    Name/pl: Std: Dokumentacja użytkowników
-   MenuLocation: Pomoc - Dokumentacja użytkowników
+   MenuLocation: Pomoc -> Dokumentacja użytkowników
    Workbenches: wszystkie
-   SeeAlso: [Witryna FreeCAD](Std_FreeCADWebsite/pl.md), [Dokumentacja skryptów środowiska Python](Std_FreeCADPowerUserHub/pl.md), [Forum FreeCAD](Std_FreeCADForum/pl.md), [Często zadawane pytania dotyczące FreeCAD](Std_FreeCADFAQ/pl.md)
+   SeeAlso: Std_FreeCADWebsite/pl, Std_FreeCADPowerUserHub/pl, Std_FreeCADForum/pl, Std_FreeCADFAQ/pl
 ---
 
 # Std FreeCADUserHub/pl

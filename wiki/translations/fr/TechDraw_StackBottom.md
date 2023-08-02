@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: TechDraw StackBottom
    Name/fr: TechDraw Empiler en bas
-   MenuLocation: TechDraw - Empiler - Déplacer la vue vers le bas de la pile
-   Workbenches: [TechDraw](TechDraw_Workbench/fr.md)
+   MenuLocation: TechDraw -> Empiler -> Déplacer la vue vers le bas de la pile
+   Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.21
-   SeeAlso: [TechDraw Empiler en haut](TechDraw_StackTop/fr.md), [TechDraw Empiler vers le haut](TechDraw_StackUp/fr.md), [TechDraw Empiler vers le bas](TechDraw_StackDown/fr.md)
+   SeeAlso: TechDraw_StackTop/fr, TechDraw_StackUp/fr, TechDraw_StackDown/fr
 ---
 
 # TechDraw StackBottom/fr

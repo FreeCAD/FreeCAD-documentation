@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name: Arch Rebar BOM
-   MenuLocation: Reinforcement - Bill Of Material
-   Workbenches: [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   MenuLocation: Reinforcement -> Bill Of Material
+   Workbenches: Arch_Workbench, BIM_Workbench
    Version: 0.19
-   SeeAlso: [Reinforcement](Reinforcement_Workbench.md), [Reinforcement Bar Bending Schedule](Reinforcement_Bar_Bending_Schedule.md), [Arch Rebar Drawing Dimensioning](Arch_Rebar_Drawing_Dimensioning.md)
+   SeeAlso: Reinforcement_Workbench, Reinforcement_Bar_Bending_Schedule, Arch_Rebar_Drawing_Dimensioning
 ---
 
 # Arch Rebar BOM/ru

@@ -2,8 +2,8 @@
 - GuiCommand:
    Name: Assembly3 MovePart
    Icon: Assembly_Move.svg
-   MenuLocation: Assembly3 - Move part
-   Workbenches: [Assembly3](Assembly3_Workbench.md)
+   MenuLocation: Assembly3 -> Move part
+   Workbenches: Assembly3_Workbench
    Shortcut: **A** then **M**
 ---
 

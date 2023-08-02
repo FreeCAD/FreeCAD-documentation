@@ -2,10 +2,10 @@
 - GuiCommand:
    Name/ru: Draft_OrthoArray
    Name: Draft_OrthoArray
-   MenuLocation: Modification - Array tools - Array
-   Workbenches: [Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
+   MenuLocation: Modification -> Array tools -> Array
+   Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Version: 0.19
-   SeeAlso: [Массив вращения](Draft_PolarArray/ru.md), [Круговой массив](Draft_CircularArray/ru.md), [Draft PathArray](Draft_PathArray/ru.md), [Draft PathLinkArray](Draft_PathLinkArray/ru.md), [Draft PointArray](Draft_PointArray/ru.md), [Draft PointLinkArray](Draft_PointLinkArray/ru.md)
+   SeeAlso: Draft_PolarArray/ru, Draft_CircularArray/ru, Draft_PathArray/ru, Draft_PathLinkArray/ru, Draft_PointArray/ru, Draft_PointLinkArray/ru
 ---
 
 # Draft OrthoArray/ru

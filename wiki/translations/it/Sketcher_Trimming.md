@@ -3,10 +3,10 @@
    Name: Sketcher Trim edge
    Name/it: Rifila
    Icon: Sketcher_Trimming.svg
-   Workbenches: [Sketcher](Sketcher_Workbench/it.md)
-   MenuLocation: Sketch - Geometrie - Rifila
+   Workbenches: Sketcher Workbench/it
+   MenuLocation: Sketch -> Geometrie -> Rifila
    Version: 0.12
-   SeeAlso: [Estendi lo spigolo](Sketcher_Extend/it.md)
+   SeeAlso: Sketcher Extend/it
 ---
 
 # Sketcher Trimming/it

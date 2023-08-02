@@ -2,11 +2,11 @@
 - GuiCommand:
    Name: Sketcher CreatePeriodicBSplineByInterpolation
    Name/pl: Szkicownik: Okresowa krzywa złozona przez interpolację
-   MenuLocation: Szkic - Elementy geometryczne szkicownika - Okresowa krzywa złozona przez węzły
-   Workbenches: [Szkicownik](Sketcher_Workbench/pl.md)
+   MenuLocation: Szkic -> Elementy geometryczne szkicownika -> Okresowa krzywa złozona przez węzły
+   Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **B** **O**
    Version: 0.21
-   SeeAlso: [Utwórz okresową krzywą złożoną](Sketcher_CreatePeriodicBSpline/pl.md)
+   SeeAlso: Sketcher_CreatePeriodicBSpline/pl
 ---
 
 # Sketcher CreatePeriodicBSplineByInterpolation/pl

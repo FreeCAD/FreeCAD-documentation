@@ -3,7 +3,7 @@
    Name: OpenSCAD AddOpenSCADElement
    Empty: 1
    MenuLocation: OpenSCAD -> Add OpenSCAD Element
-   Workbenches: [OpenSCAD](OpenSCAD_Workbench.md)
+   Workbenches: OpenSCAD_Workbench
 ---
 
 # OpenSCAD AddOpenSCADElement/pl

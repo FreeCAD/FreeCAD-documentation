@@ -1,6 +1,6 @@
 # Part Slice/it
 ---
-- GuiCommand:   Name: Part Slice   Name/it: Affetta in composto   MenuLocation: Part - Dividi - Affetta in composto   Workbenches: [SeeAlso: [[Part_BooleanFragments/it|Frammenti Booleani](Part_Workbench/it___Part]].md), [Part XOR](Part_XOR/it.md), [Giunzione](Part_CompJoinFeatures/it.md), [Operazioni booleane](Part_Boolean/it.md)---
+- GuiCommand:   Name: Part Slice   Name/it: Affetta in composto   MenuLocation: Part -> Dividi -> Affetta in composto   Workbenches: Part_Workbench/it   Part, Part_XOR/it, Part_CompJoinFeatures/it, Part Boolean/it---
 
 
 </div>

@@ -1,6 +1,6 @@
 # Mesh Import/ro
 ---
-- GuiCommand:   Name: Mesh ImportMesh‏‎   MenuLocation: Meshes - Import Mesh   Workbenches: [SeeAlso: [[Std_Import|Std Import](Mesh_Workbench___Mesh]].md)---
+- GuiCommand:   Name: Mesh ImportMesh‏‎   MenuLocation: Meshes -> Import Mesh   Workbenches: Mesh Workbench   Mesh---
 
 
 </div>
