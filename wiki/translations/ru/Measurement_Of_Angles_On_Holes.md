@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/ru
-   Topic:TechDraw
-   Level:Base
-   Time:1 минута
-   Author:AnHi
-   FCVersion:0.19
+ TutorialInfo:u
+   Topic: TechDraw
+   Level: Base
+   Time: 1 минута
+   Author: AnHi
+   FCVersion: 0.19
 ---
 
 # Measurement Of Angles On Holes/ru

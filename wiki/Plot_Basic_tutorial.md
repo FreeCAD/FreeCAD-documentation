@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Plot Workbench Basic Tutorial
-   Level:Beginner
-   Time:
-   Author:
-   FCVersion:0.19
-   Files:
+ TutorialInfo:
+   Topic: Plot Workbench Basic Tutorial
+   Level: Beginner
+   Time: 
+   Author: 
+   FCVersion: 0.19
+   Files: 
 ---
 
 # Plot Basic tutorial

@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ru
-   Topic:Руководство по портированию файлов проекта Wikihouse в FreeCAD
-   Level:Intermediate/Advanced
-   Time:60 минут
-   Author:
-   FCVersion:
-   Files:
+ TutorialInfo:u
+   Topic: Руководство по портированию файлов проекта Wikihouse в FreeCAD
+   Level: Intermediate/Advanced
+   Time: 60 минут
+   Author: 
+   FCVersion: 
+   Files: 
 ---
 
 # Wikihouse porting tutorial/ru

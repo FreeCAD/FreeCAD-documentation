@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Part Workbench
-   Level:Beginner
-   Time:10 minutes
-   Author:Hughthecat
-   FCVersion:
-   Files:
+ TutorialInfo:
+   Topic: Part Workbench
+   Level: Beginner
+   Time: 10 minutes
+   Author: Hughthecat
+   FCVersion: 
+   Files: 
 ---
 
 # Aeroplane/en

@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/pl
-   Topic:środowisko pracy wykres
-   Level:średniozaawansowany
-   Time:dowolny
-   Author:
-   FCVersion: -
-   Files:
+ TutorialInfo:l
+   Topic: środowisko pracy wykres
+   Level: średniozaawansowany
+   Time: dowolny
+   Author: 
+   FCVersion:  -
+   Files: 
 ---
 
 # Plot MultiAxes tutorial/pl

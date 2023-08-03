@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/pl
-   Topic:Programowanie
-   Level:programista średnio zaawansowany
-   Time:15 minut
-   FCVersion:wszystkie
-   Author:[Mario52](User_Mario52.md)
+ TutorialInfo:l
+   Topic: Programowanie
+   Level: programista średnio zaawansowany
+   Time: 15 minut
+   FCVersion: wszystkie
+   Author: User:Mario52
 ---
 
 # How to install macros/pl

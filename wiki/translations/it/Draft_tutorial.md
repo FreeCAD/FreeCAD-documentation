@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic: Draft
-   Level: Base
-   Time: 30 minuti
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] e vocx
-   FCVersion:0.19
-   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&t=43651 Draft tutorial updated]
+ TutorialInfo:t
+   Topic:  Draft
+   Level:  Base
+   Time:  30 minuti
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei e vocx
+   FCVersion: 0.19
+   Files: https://forum.freecadweb.org/viewtopic.php?f=36&t=43651 Draft tutorial updated
 ---
 
 # Draft tutorial/it

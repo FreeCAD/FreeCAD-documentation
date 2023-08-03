@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Product design
-   Level:Beginner
-   Time:30 minutes
-   Author:r-frank and vocx
-   FCVersion:0.17 and above
-   Files:[https://github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true Draft_Shapestring_Text]
+ TutorialInfo:
+   Topic: Product design
+   Level: Beginner
+   Time: 30 minutes
+   Author: r-frank and vocx
+   FCVersion: 0.17 and above
+   Files: https://github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true Draft_Shapestring_Text
 ---
 
 # Draft ShapeString tutorial

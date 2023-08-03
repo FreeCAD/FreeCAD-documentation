@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/uk
-   Topic:Modeling
-   Level:Intermediate
-   Time:
-   Author:[Yorik](User_Yorik.md)
-   FCVersion:0.14
-   Files:
+ TutorialInfo:k
+   Topic: Modeling
+   Level: Intermediate
+   Time: 
+   Author: User:Yorik
+   FCVersion: 0.14
+   Files: 
 ---
 
 # Arch tutorial/uk

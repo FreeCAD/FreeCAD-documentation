@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Wikihouse porting tutorial
-   Level:Intermediate/Advanced
-   Time:60 minutes
-   Author:
-   FCVersion:
-   Files:
+ TutorialInfo:
+   Topic: Wikihouse porting tutorial
+   Level: Intermediate/Advanced
+   Time: 60 minutes
+   Author: 
+   FCVersion: 
+   Files: 
 ---
 
 # Wikihouse porting tutorial/pl

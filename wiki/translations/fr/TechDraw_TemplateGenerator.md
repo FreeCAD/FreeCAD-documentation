@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/fr
-   Topic:Création de modèles avec une macro Python
-   Level:Des connaissances de base en Python et de svg-structures sont utiles.
-   FCVersion:0.19.1 et plus
-   Time:(ne sait pas)
-   Author:[FBXL5](User_FBXL5.md)
-   SeeAlso:[Macro TemplateHelper](Macro_TemplateHelper/fr.md)
+ TutorialInfo:r
+   Topic: Création de modèles avec une macro Python
+   Level: Des connaissances de base en Python et de svg-structures sont utiles.
+   FCVersion: 0.19.1 et plus
+   Time: 
+   Author: User:FBXL5
+   SeeAlso: Macro_TemplateHelper/fr
 ---
 
 # TechDraw TemplateGenerator/fr

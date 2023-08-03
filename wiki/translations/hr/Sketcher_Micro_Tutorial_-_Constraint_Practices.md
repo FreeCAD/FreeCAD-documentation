@@ -1,5 +1,5 @@
 ---
-- TutorialInfo:/hr   Topic:Modeling   Level:Beginner   Author:Mark Stephen ([[User:Quick61   Quick61]])|Time:Less than 15 minutes   FCVersion:0.15.4671 Release or greater
+ TutorialInfo:r   Topic: Modeling   Level: Beginner   Author: Mark Stephen |Time: Less than 15 minutes   FCVersion: 0.15.4671 Release or greater
 ---
 
 # Sketcher Micro Tutorial - Constraint Practices/hr

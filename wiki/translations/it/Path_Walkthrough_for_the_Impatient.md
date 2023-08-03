@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic:Ambiente Path
-   Level:Principiante
-   Time:15 minuti
-   Author:Chrisb
-   FCVersion:0.19
-   Files:
+ TutorialInfo:t
+   Topic: Ambiente Path
+   Level: Principiante
+   Time: 15 minuti
+   Author: Chrisb
+   FCVersion: 0.19
+   Files: 
 ---
 
 # Path Walkthrough for the Impatient/it

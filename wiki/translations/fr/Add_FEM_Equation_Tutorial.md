@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/fr
-   Topic:Ajouter des équations FEM
-   Level:Avancé
-   Time:1 jour
-   Author:[JohnWang](User_JohnWang.md)
-   FCVersion:0.19
+ TutorialInfo:r
+   Topic: Ajouter des équations FEM
+   Level: Avancé
+   Time: 1 jour
+   Author: User:JohnWang
+   FCVersion: 0.19
 ---
 
 # Add FEM Equation Tutorial/fr

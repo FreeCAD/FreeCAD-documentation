@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic:Ambiente Navale
-   Level:Base
-   Time:
-   Author:
-   FCVersion:
-   Files:
+ TutorialInfo:t
+   Topic: Ambiente Navale
+   Level: Base
+   Time: 
+   Author: 
+   FCVersion: 
+   Files: 
 ---
 
 # FreeCAD-Ship s60 tutorial/it

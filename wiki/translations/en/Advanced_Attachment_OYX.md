@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Attachment
-   Level:Intermediate/Advanced
-   Author:drmacro
-   Time:1 hour
-   FCVersion:0.19 or above
-   Files:[TBD]
+ TutorialInfo:
+   Topic: Attachment
+   Level: Intermediate/Advanced
+   Author: drmacro
+   Time: 1 hour
+   FCVersion: 0.19 or above
+   Files: TBD
 ---
 
 # Advanced Attachment OYX/en

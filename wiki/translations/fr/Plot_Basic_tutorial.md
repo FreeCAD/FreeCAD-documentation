@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/fr
-   Topic:Tutoriel de base de l'atelier Plot
-   Level:Débutant
-   Time:
-   Author:
-   FCVersion:0.19
-   Files:
+ TutorialInfo:r
+   Topic: Tutoriel de base de l'atelier Plot
+   Level: Débutant
+   Time: 
+   Author: 
+   FCVersion: 0.19
+   Files: 
 ---
 
 # Plot Basic tutorial/fr

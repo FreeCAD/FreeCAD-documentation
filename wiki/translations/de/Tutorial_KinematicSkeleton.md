@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/de
-   Topic:Assembly3, ein Kinematik-Skelett
-   Level:Grundwissen über Assembly3 und Sketcher ist hilfreich
-   FCVersion:0.20 und neuer
-   Time:40 Minuten
-   Author:[FBXL5](User_FBXL5.md)
-   SeeAlso:[Anleitung KinematischerZusammenbau](Tutorial_KinematicAssembly/de.md), [Anleitung Kinematiksteuerung](Tutorial_KinematicController/de.md)
+ TutorialInfo:e
+   Topic: Assembly3, ein Kinematik-Skelett
+   Level: Grundwissen über Assembly3 und Sketcher ist hilfreich
+   FCVersion: 0.20 und neuer
+   Time: 40 Minuten
+   Author: User:FBXL5
+   SeeAlso: Tutorial_KinematicAssembly/de, Tutorial_KinematicController/de
 ---
 
 # Tutorial KinematicSkeleton/de

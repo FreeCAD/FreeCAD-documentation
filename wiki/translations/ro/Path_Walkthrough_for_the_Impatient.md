@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ro
-   Topic:Path Workbench
-   Level:
-   Time:
-   Author:Chrisb
-   FCVersion:
-   Files:
+ TutorialInfo:o
+   Topic: Path Workbench
+   Level: 
+   Time: 
+   Author: Chrisb
+   FCVersion: 
+   Files: 
 ---
 
 # Path Walkthrough for the Impatient/ro

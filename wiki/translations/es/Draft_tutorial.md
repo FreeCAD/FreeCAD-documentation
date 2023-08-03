@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/es
-   Topic: Borrador
-   Level: Principiante
-   Time: 30 minutos
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] y vocx
-   FCVersion:0.19
-   Files:
+ TutorialInfo:s
+   Topic:  Borrador
+   Level:  Principiante
+   Time:  30 minutos
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei y vocx
+   FCVersion: 0.19
+   Files: 
 ---
 
 # Draft tutorial/es

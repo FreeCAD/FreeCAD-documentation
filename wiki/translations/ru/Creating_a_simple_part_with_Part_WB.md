@@ -1,12 +1,12 @@
 ---
-- TutorialInfo:/ru
-   Topic:Моделирование
-   Level:Для начинающих
-   Author:heda
-   Time:2 часа
-   FCVersion:0.19 и выше
-   Files:
-   SeeAlso:[Создание простой детали в верстаке PartDesign](Creating_a_simple_part_with_PartDesign/ru.md), [Создание простой детали в верстаках Draft и Part](Creating_a_simple_part_with_Draft_and_Part_WB/ru.md)
+ TutorialInfo:u
+   Topic: Моделирование
+   Level: Для начинающих
+   Author: heda
+   Time: 2 часа
+   FCVersion: 0.19 и выше
+   Files: 
+   SeeAlso: Creating_a_simple_part_with_PartDesign/ru, Creating_a_simple_part_with_Draft_and_Part_WB/ru
 ---
 
 # Creating a simple part with Part WB/ru

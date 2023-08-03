@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/tr
-   Topic: ShapeString (Draft workbench)
-   Level: Beginner
-   Time:30 minutes
-   Author:r-frank
-   FCVersion:0.16.6704
-   Files:[https://github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true Draft_Shapestring_Text]
+ TutorialInfo:r
+   Topic:  ShapeString 
+   Level:  Beginner
+   Time: 30 minutes
+   Author: r-frank
+   FCVersion: 0.16.6704
+   Files: https://github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true Draft_Shapestring_Text
 ---
 
 # Draft ShapeString tutorial/tr

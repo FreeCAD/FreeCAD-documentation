@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Example Combined Footing
-   Level:Intermediate
-   Time:
-   Author:Shiv Charan
-   FCVersion:0.20
-   Files:
+ TutorialInfo:
+   Topic: Example Combined Footing
+   Level: Intermediate
+   Time: 
+   Author: Shiv Charan
+   FCVersion: 0.20
+   Files: 
 ---
 
 # Example Combined Footing/de

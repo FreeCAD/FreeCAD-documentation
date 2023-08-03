@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Modeling
-   Level:Beginner
-   Author:Carlo Dormeletti ([onekk](User_onekk.md))<br>Ed Williams ([edwilliams16](User_edwilliams16.md))<br>Roy 043 ([Roy 043](User_Roy_043.md))
-   Time:1 hour
-   FCVersion:0.19 or higher
-   SeeAlso:[Basic Part Design Tutorial](Basic_Part_Design_Tutorial.md)
+ TutorialInfo:
+   Topic: Modeling
+   Level: Beginner
+   Author: Carlo Dormeletti <br>Ed Williams <br>Roy 043 
+   Time: 1 hour
+   FCVersion: 0.19 or higher
+   SeeAlso: Basic_Part_Design_Tutorial
 ---
 
 # Basic Part Design Tutorial 019

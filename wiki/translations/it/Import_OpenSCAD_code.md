@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic: Importare codice OpenSCAD
-   Level: Base
-   Time: 30 minuti
-   Author:r-frank
-   FCVersion:0.16.6704
-   Files:
+ TutorialInfo:t
+   Topic:  Importare codice OpenSCAD
+   Level:  Base
+   Time:  30 minuti
+   Author: r-frank
+   FCVersion: 0.16.6704
+   Files: 
 ---
 
 # Import OpenSCAD code/it

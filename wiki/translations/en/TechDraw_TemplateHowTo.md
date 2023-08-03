@@ -1,9 +1,10 @@
 ---
-- TutorialInfo:   Topic:Drafting
-   Level:Intermediate
-   Time:60 minutes
-   Author:[http://freecadweb.org/wiki/index.php?title=User:wandererfan wandererfan]
-   FCVersion:0.17
+ TutorialInfo:
+   Topic: Drafting
+   Level: Intermediate
+   Time: 60 minutes
+   Author: http://freecadweb.org/wiki/index.php?title=User:wandererfan wandererfan
+   FCVersion: 0.17
 ---
 
 # TechDraw TemplateHowTo/en

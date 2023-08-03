@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic: Post-elaborazione dei risultati FEM con Paraview
-   Level: Intermedio
-   Time: 120 minuti
-   Author:[http://www.freecadweb.org/wiki/index.php?title=User: HarryvL]
-   FCVersion:0.19
-   Files:[https://forum.freecadweb.org/download/file.php?id=103403 beam] and [https://forum.freecadweb.org/download/file.php?id=103557 wall] found in this [https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734 FC forum thread]
+ TutorialInfo:t
+   Topic:  Post-elaborazione dei risultati FEM con Paraview
+   Level:  Intermedio
+   Time:  120 minuti
+   Author: http://www.freecadweb.org/wiki/index.php?title=User: HarryvL
+   FCVersion: 0.19
+   Files: https://forum.freecadweb.org/download/file.php?id=103403 beam and https://forum.freecadweb.org/download/file.php?id=103557 wall found in this https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734 FC forum thread
 ---
 
 # Post-Processing of FEM Results with Paraview/it

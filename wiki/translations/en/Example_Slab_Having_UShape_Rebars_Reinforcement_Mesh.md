@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Example Slab Having U-Shape Rebars Reinforcement Mesh
-   Level:Intermediate
-   Time:
-   Author:Shiv Charan
-   FCVersion:0.20
-   Files:
+ TutorialInfo:
+   Topic: Example Slab Having U-Shape Rebars Reinforcement Mesh
+   Level: Intermediate
+   Time: 
+   Author: Shiv Charan
+   FCVersion: 0.20
+   Files: 
 ---
 
 # Example Slab Having UShape Rebars Reinforcement Mesh/en

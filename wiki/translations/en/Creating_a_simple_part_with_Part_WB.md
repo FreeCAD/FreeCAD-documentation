@@ -1,11 +1,12 @@
 ---
-- TutorialInfo:   Topic:Modeling
-   Level:Beginner
-   Author:heda
-   Time:2 hours
-   FCVersion:0.19 or above
-   Files:
-   SeeAlso:[Creating a simple part with PartDesign](Creating_a_simple_part_with_PartDesign.md), [Creating a simple part with Draft and Part WB](Creating_a_simple_part_with_Draft_and_Part_WB.md)
+ TutorialInfo:
+   Topic: Modeling
+   Level: Beginner
+   Author: heda
+   Time: 2 hours
+   FCVersion: 0.19 or above
+   Files: 
+   SeeAlso: Creating_a_simple_part_with_PartDesign, Creating_a_simple_part_with_Draft_and_Part_WB
 ---
 
 # Creating a simple part with Part WB/en

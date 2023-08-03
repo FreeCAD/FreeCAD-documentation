@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ro
-   Topic: Drafting
-   Level: Beginner
-   Time: 20 minutes
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-   FCVersion:0.16 or above
-   Files:
+ TutorialInfo:o
+   Topic:  Drafting
+   Level:  Beginner
+   Time:  20 minutes
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei
+   FCVersion: 0.16 or above
+   Files: 
 ---
 
 # Draft tutorial/ro

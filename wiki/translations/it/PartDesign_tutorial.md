@@ -1,18 +1,18 @@
 ---
-- TutorialInfo:/it
-   Topic: Schizzo
-   Level: Base
-   Time: 15 minuti
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-   FCVersion:0.16 o superiore
-   Files:
+ TutorialInfo:t
+   Topic:  Schizzo
+   Level:  Base
+   Time:  15 minuti
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei
+   FCVersion: 0.16 o superiore
+   Files: 
 }}
 
 ### Introduzione
 
-Questo tutorial ha lo scopo di introdurre il lettore al flusso di lavoro di base dell\'ambiente [PartDesign](PartDesign_Workbench/it.md). Il lettore vedrà come creare oggetti 3D sulla base di schizzi, eseguire operazioni di sottrazione e come replicare specifiche funzioni in una schiera.
+Questo tutorial ha lo scopo di introdurre il lettore al flusso di lavoro di base dell\'ambiente PartDesign. Il lettore vedrà come creare oggetti 3D sulla base di schizzi, eseguire operazioni di sottrazione e come replicare specifiche funzioni in una schiera.
 
-<img alt="" src=images/Sketcher_tutorial_result.png  style="width:480px;">
+!{width="480"}
 
 
 <div class="mw-translate-fuzzy">
@@ -20,7 +20,7 @@ Questo tutorial ha lo scopo di introdurre il lettore al flusso di lavoro di base
 ### Requisiti
 
 -   FreeCAD versione 0.17 o superiore
--   Il lettore abbia terminato il [tutorial di Schizzo](Basic_Sketcher_Tutorial/it.md)
+-   Il lettore abbia terminato il tutorial di Schizzo
 
 
 </div>
@@ -34,7 +34,7 @@ Lo scopo dell\'ambiente PartDesign è quello di consentire all\'utente di creare
 
 <div class="mw-translate-fuzzy">
 
-Per raggiungere questo obiettivo ci sono due funzioni fondamentali : <img alt="" src=images/PartDesign_Pad.png  style="width:32px;"> [Prisma](PartDesign_Pad/it.md) e <img alt="" src=images/PartDesign_Revolution.png  style="width:32px;"> [Rivoluzione](PartDesign_Revolution/it.md). Assieme alle loro controparti sottrattive (<img alt="" src=images/PartDesign_Pocket.png  style="width:32px;"> [Cavità](PartDesign_Pocket/it.md) e <img alt="" src=images/PartDesign_Groove.png  style="width:32px;"> [Gola](PartDesign_Groove/it.md)) esse costituiscono la maggior parte delle azioni comuni utilizzate da questo ambiente.
+Per raggiungere questo obiettivo ci sono due funzioni fondamentali : !{width="32"} Prisma e !{width="32"} Rivoluzione. Assieme alle loro controparti sottrattive {width="32"} Cavità e !{width="32"} Gola) esse costituiscono la maggior parte delle azioni comuni utilizzate da questo ambiente.
 
 
 </div>
@@ -43,8 +43,8 @@ Per raggiungere questo obiettivo ci sono due funzioni fondamentali : <img alt=""
 <div class="mw-translate-fuzzy">
 
 1.  Passare nell\'ambiente PartDesign
-2.  Selezionare lo schizzo creato nel [tutorial di Schizzo](Basic_Sketcher_Tutorial/it.md)
-3.  Selezionare <img alt="" src=images/PartDesign_Pad.png  style="width:32px;"> [Pad](PartDesign_Pad/it.md)
+2.  Selezionare lo schizzo creato nel tutorial di Schizzo
+3.  Selezionare !{width="32"} Pad
 4.  Impostare la distanza 5 mm
 5.  Selezionare **Ok**
 
@@ -54,18 +54,18 @@ Per raggiungere questo obiettivo ci sono due funzioni fondamentali : <img alt=""
 
 <div class="mw-translate-fuzzy">
 
-Un altro strumento per creare la geometria 3D è <img alt="" src=images/PartDesign_Revolution.png  style="width:32px;"> [Rivoluzione](PartDesign_Revolution/it.md).
+Un altro strumento per creare la geometria 3D è !{width="32"} Rivoluzione.
 
 
 </div>
 
-<img alt="" src=images/PartDesign_revolution_exercise.png  style="width:480px;">
+!{width="480"}
 
 
 <div class="mw-translate-fuzzy">
 
 1.  Creare uno schizzo basato sull\'immagine predente
-2.  Selezionare <img alt="" src=images/PartDesign_Revolution.png  style="width:32px;"> [Rivoluzione](PartDesign_Revolution/it.md)
+2.  Selezionare !{width="32"} Rivoluzione
 3.  Impostare \"Axis\" su \"Asse orizzontale dello schizzo\"
 4.  Impostare l\'angolo a 360°
 
@@ -80,8 +80,8 @@ Iniziare creando un disegno con la forma da sottrarre.
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare la faccia piatta superiore di **Revolution**
-2.  Selezionare <img alt="" src=images/Sketcher_NewSketch.png‎‎  style="width:32px;"> [Nuovo schizzo](Sketcher_NewSketch/it.md)
-3.  Selezionare <img alt="" src=images/Sketcher_External.png  style="width:32px;"> [Geometria esterna](Sketcher_External/it.md)
+2.  Selezionare !{width="32"} Nuovo schizzo
+3.  Selezionare !{width="32"} Geometria esterna
 4.  Avvicinarsi al bordo del pad. Viene evidenziato un arco
 5.  Selezionare l\'arco. Nel disegno dovrebbe apparire un arco di un colore diverso
 6.  Creare un esagono centrato nello stesso centro dell\'arco e impostare il raggio del cerchio di riferimento a 5 mm
@@ -95,7 +95,7 @@ Iniziare creando un disegno con la forma da sottrarre.
 
 {{Message| '''Geometria esterna'''
 Dopo che è stato creato un elemento 3D è possibile creare dei riferimenti ad esso all'interno di uno schizzo.
-# Selezionare <img src="images/Sketcher_External.png" width=32px> [Geometria esterna](Sketcher_External/it.md).
+# Selezionare Image:Sketcher_External.png Sketcher_External/it.
 # Accostarsi all'elemento a cui si desidera fare riferimento, ad esempio, il bordo di un '''Pad'''.
 # Cliccare sull'elemento
 # Nello schizzo dovrebbero apparire dei nuovi elementi di un colore diverso  nella posizione della funzionalità a cui si desidera fare riferimento.

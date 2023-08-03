@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/fr
-   Topic:Analyse par éléments finis
-   Level:Débutant
-   Time:10 minutes + temps d'exécution
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-   FCVersion:0.17 ou plus
+ TutorialInfo:r
+   Topic: Analyse par éléments finis
+   Level: Débutant
+   Time: 10 minutes + temps d'exécution
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei
+   FCVersion: 0.17 ou plus
 ---
 
 # FEM tutorial/fr

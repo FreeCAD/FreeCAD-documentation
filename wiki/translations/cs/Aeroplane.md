@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/cs
-   Topic:Part Workbench
-   Level:Beginner
-   Time:10 minutes
-   Author:
-   FCVersion:
-   Files:
+ TutorialInfo:s
+   Topic: Part Workbench
+   Level: Beginner
+   Time: 10 minutes
+   Author: 
+   FCVersion: 
+   Files: 
 ---
 
 # Aeroplane/cs

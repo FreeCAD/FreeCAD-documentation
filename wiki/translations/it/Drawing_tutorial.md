@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic: Stampa proiezioni
-   Level: Base
-   Time: 15 minuti
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-   FCVersion:0.16 o superiore
-   Files:
+ TutorialInfo:t
+   Topic:  Stampa proiezioni
+   Level:  Base
+   Time:  15 minuti
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei
+   FCVersion: 0.16 o superiore
+   Files: 
 ---
 
 # Drawing tutorial/it

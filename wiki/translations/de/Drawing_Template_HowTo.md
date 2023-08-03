@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/de
-   Topic:2D-Zeichnen
-   Level:Fortgeschrittene Anfänger
-   Author:Mark Stephen ([Quick61](User_Quick61.md))
-   Time:Eine Stunde oder weniger
-   FCVersion:0.14.3700 oder höher
+ TutorialInfo:e
+   Topic: 2D-Zeichnen
+   Level: Fortgeschrittene Anfänger
+   Author: Mark Stephen 
+   Time: Eine Stunde oder weniger
+   FCVersion: 0.14.3700 oder höher
 ---
 
 # Drawing Template HowTo/de

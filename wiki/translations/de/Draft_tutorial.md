@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/de
-   Topic: Technisches Zeichnen
-   Level: Anfänger
-   Time: 30 Minuten
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] und vocx
-   FCVersion:0.19
-   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&t=43651 Entwurf Tutorium aktualisiert]
+ TutorialInfo:e
+   Topic:  Technisches Zeichnen
+   Level:  Anfänger
+   Time:  30 Minuten
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei und vocx
+   FCVersion: 0.19
+   Files: https://forum.freecadweb.org/viewtopic.php?f=36&t=43651 Entwurf Tutorium aktualisiert
 ---
 
 # Draft tutorial/de

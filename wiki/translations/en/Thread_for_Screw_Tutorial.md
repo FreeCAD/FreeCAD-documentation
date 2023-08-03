@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Product design
-   Level:Advanced
-   Time:60 minutes
-   Author:[DeepSOIC](User_DeepSOIC.md), [Murdic](User_Murdic.md), vocx
-   FCVersion:0.19
-   Files:[https://forum.freecad.org/viewtopic.php?f=36&t=44668 Updated: Thread for screw tutorial]
+ TutorialInfo:
+   Topic: Product design
+   Level: Advanced
+   Time: 60 minutes
+   Author: User:DeepSOIC, User:Murdic, vocx
+   FCVersion: 0.19
+   Files: https://forum.freecad.org/viewtopic.php?f=36&t=44668 Updated: Thread for screw tutorial
 ---
 
 # Thread for Screw Tutorial/en

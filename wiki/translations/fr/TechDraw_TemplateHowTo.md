@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/fr
-   Topic:Dessin
-   Level:Intermédiaire
-   Time:60 minutes
-   Author:[wandererfan](User_wandererfan.md)
-   FCVersion:0.17
+ TutorialInfo:r
+   Topic: Dessin
+   Level: Intermédiaire
+   Time: 60 minutes
+   Author: User:wandererfan
+   FCVersion: 0.17
 ---
 
 # TechDraw TemplateHowTo/fr

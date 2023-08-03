@@ -1,18 +1,18 @@
 ---
-- TutorialInfo:/ro
-   Topic: Sketcher
-   Level: Beginner
-   Time: 15 minutes
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-   FCVersion:0.16 or above
-   Files:
+ TutorialInfo:o
+   Topic:  Sketcher
+   Level:  Beginner
+   Time:  15 minutes
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei
+   FCVersion: 0.16 or above
+   Files: 
 }}
 
 ### Introducere
 
-Acest tutorial are rolul de a introduce cititorul în fluxul de lucru de bază al aplicației [PartDesign Workbench](PartDesign_Workbench.md). Cititorul va vedea cum se creează obiecte 3D bazate pe schițe, operații substractive și replicarea unor caracteristici specifice într-un model.
+Acest tutorial are rolul de a introduce cititorul în fluxul de lucru de bază al aplicației PartDesign Workbench. Cititorul va vedea cum se creează obiecte 3D bazate pe schițe, operații substractive și replicarea unor caracteristici specifice într-un model.
 
-<img alt="" src=images/Sketcher_tutorial_result.png  style="width:480px;">
+!{width="480"}
 
 
 <div class="mw-translate-fuzzy">
@@ -20,7 +20,7 @@ Acest tutorial are rolul de a introduce cititorul în fluxul de lucru de bază a
 ### Cerințe
 
 -   FreeCAD version 0.17 or above
--   The reader has finished the [Basic Sketcher Tutorial](Basic_Sketcher_Tutorial/ro.md)
+-   The reader has finished the Basic Sketcher Tutorial
 
 
 </div>
@@ -34,32 +34,32 @@ Scopul Atelierului **PartDesign Workbench** este de a permite utilizatorului să
 
 <div class="mw-translate-fuzzy">
 
-Pentru a realiza acest lucru, există două instrumente:<img alt="" src=images/PartDesign_Pad.png  style="width:32px;"> [Pad](PartDesign_Pad.md) and <img alt="" src=images/PartDesign_Revolution.png  style="width:32px;"> [Revolution](PartDesign_Revolution.md). Alongside their subtractive counterparts (<img alt="" src=images/PartDesign_Pocket.png  style="width:32px;"> [Pocket](PartDesign_Pocket.md) and <img alt="" src=images/PartDesign_Groove.png  style="width:32px;"> [Groove](PartDesign_Groove.md)) they make up most of the common actions used by this workbench.
+Pentru a realiza acest lucru, există două instrumente:!{width="32"} Pad and !{width="32"} Revolution. Alongside their subtractive counterparts {width="32"} Pocket and !{width="32"} Groove) they make up most of the common actions used by this workbench.
 
 
 </div>
 
 1.  Switch to the PartDesign Workbench
-2.  With the sketch selected in the [tree view](tree_view.md), press **[PartDesign Body](File:PartDesign_Body.svg   16px]] [[PartDesign_Body.md)**, choose the default XY-plane, and press **OK**. The sketch should appear now inside the Body.
-3.  Select <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [Pad](PartDesign_Pad.md)
+2.  With the sketch selected in the tree view, press **File:PartDesign_Body.svg   16px PartDesign_Body**{: mediawiki}, choose the default XY-plane, and press **OK**. The sketch should appear now inside the Body.
+3.  Select !{width="32"} Pad
 4.  Set the distance to 5 mm
 5.  Select **Ok**
 
 
 <div class="mw-translate-fuzzy">
 
-Another way to create 3D geometry is with the <img alt="" src=images/PartDesign_Revolution.png  style="width:32px;"> [Revolution](PartDesign_Revolution.md) tool.
+Another way to create 3D geometry is with the !{width="32"} Revolution tool.
 
 
 </div>
 
-<img alt="" src=images/PartDesign_revolution_exercise.png  style="width:480px;">
+!{width="480"}
 
 
 <div class="mw-translate-fuzzy">
 
 1.  Create a sketch based on the image above
-2.  Select <img alt="" src=images/PartDesign_Revolution.png  style="width:32px;"> [Revolution](PartDesign_Revolution.md)
+2.  Select !{width="32"} Revolution
 3.  Set the \"Axis\" to the \"Horizontal Sketch Axis\"
 4.  Set the angle to 360°
 
@@ -74,8 +74,8 @@ Vom începe prin a crea o schiță cu forma pe care dorim să o extragem.
 <div class="mw-translate-fuzzy">
 
 1.  Select the top flat face of the \"Revolution\"
-2.  Select <img alt="" src=images/Sketcher_NewSketch.png‎‎  style="width:32px;"> [New sketch](Sketcher_NewSketch.md)
-3.  Select <img alt="" src=images/Sketcher_External.png  style="width:32px;"> [External Geometry](Sketcher_External.md)
+2.  Select !{width="32"} New sketch
+3.  Select !{width="32"} External Geometry
 4.  Approach the edge of the pad. An arc should be highlighted
 5.  Select the arc. An arc of a different color should appear in the sketch
 6.  Create a hexagon centered on the same point as the arc and set the radius of the reference circle to 5 mm
@@ -89,7 +89,7 @@ Vom începe prin a crea o schiță cu forma pe care dorim să o extragem.
 
 {{Message| '''External Geometry'''
 Când a fost creat un element 3D, este posibil să creați referințe la acesta într-o schiță.
-# Select <img src="images/Sketcher_External.png" width=32px> [External Geometry](Sketcher_External.md).
+# Select Image:Sketcher_External.png Sketcher_External.
 # Approach the element that you wish to reference, the edge of a '''Pad''' for example.
 # Click on it
 # New elements of a different color should appear on the sketch in the location of the feature you wish to reference.

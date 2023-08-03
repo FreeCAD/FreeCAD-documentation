@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/fr
-   Topic:Exporter des STL ou OBJ
-   Level:Débutant
-   Time:20 minutes
-   Author:r-frank
-   FCVersion:0.16.6703
+ TutorialInfo:r
+   Topic: Exporter des STL ou OBJ
+   Level: Débutant
+   Time: 20 minutes
+   Author: r-frank
+   FCVersion: 0.16.6703
 ---
 
 # Export to STL or OBJ/fr

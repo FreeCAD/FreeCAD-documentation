@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/fr
-   Topic:Atelier Part
-   Level:Débutant
-   Time:10 minutes
-   Author:Hughthecat
-   FCVersion:
-   Files:
+ TutorialInfo:r
+   Topic: Atelier Part
+   Level: Débutant
+   Time: 10 minutes
+   Author: Hughthecat
+   FCVersion: 
+   Files: 
 ---
 
 # Aeroplane/fr

@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/tr
-   Topic:Modeling
-   Level:Beginner
-   Author:GlouGlou
-   Time:1 hour
-   FCVersion:0.17 or above
-   Files:[https://github.com/FreeCAD/Examples/blob/master/Creating_a_simple_PartDesign_Body.FCStd Creating a simple PartDesign Body.FCStd]
+ TutorialInfo:r
+   Topic: Modeling
+   Level: Beginner
+   Author: GlouGlou
+   Time: 1 hour
+   FCVersion: 0.17 or above
+   Files: https://github.com/FreeCAD/Examples/blob/master/Creating_a_simple_PartDesign_Body.FCStd Creating a simple PartDesign Body.FCStd
 ---
 
 # Creating a simple part with PartDesign/tr

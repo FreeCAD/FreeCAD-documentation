@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/pl
-   Topic: Przygotowanie projektu
-   Level: początkujący
-   Time: 60 minut
-   Author:[http://freecadweb.org/wiki/index.php?title=User:wandererfan wandererfan]
-   FCVersion:0.17
+ TutorialInfo:l
+   Topic:  Przygotowanie projektu
+   Level:  początkujący
+   Time:  60 minut
+   Author: http://freecadweb.org/wiki/index.php?title=User:wandererfan wandererfan
+   FCVersion: 0.17
 ---
 
 # TechDraw TemplateHowTo/pl

@@ -1,5 +1,5 @@
 ---
-- TutorialInfo:/ro   Topic:Programming   Level:Medium programmer   Time:15 minutes   FCVersion:All   Author:[r-frank](User:R-Frank.md)
+ TutorialInfo:o   Topic: Programming   Level: Medium programmer   Time: 15 minutes   FCVersion: All   Author: User:R-Frank
 ---
 
 # How to install additional workbenches/ro

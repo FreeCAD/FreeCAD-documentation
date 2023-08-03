@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/fr
-   Topic:Atelier Bateau
-   Level:Débutant
-   Time:
-   Author:
-   FCVersion:
-   Files:
+ TutorialInfo:r
+   Topic: Atelier Bateau
+   Level: Débutant
+   Time: 
+   Author: 
+   FCVersion: 
+   Files: 
 ---
 
 # FreeCAD-Ship s60 tutorial/fr

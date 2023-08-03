@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/fr
-   Topic:Sketcher
-   Level:Débutant
-   Time:60 minutes
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] et vocx
-   FCVersion:0.19
-   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&t=43594 Basic Sketcher tutorial updated]
+ TutorialInfo:r
+   Topic: Sketcher
+   Level: Débutant
+   Time: 60 minutes
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei et vocx
+   FCVersion: 0.19
+   Files: https://forum.freecadweb.org/viewtopic.php?f=36&t=43594 Basic Sketcher tutorial updated
 ---
 
 # Basic Sketcher Tutorial/fr

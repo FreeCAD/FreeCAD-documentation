@@ -1,5 +1,5 @@
 ---
-- TutorialInfo:/it   Topic:Programmazione e Configurazione   Level:Medio   Time:15 minuti   FCVersion:Tutte   Author:[Mario52](User_Mario52.md)
+ TutorialInfo:t   Topic: Programmazione e Configurazione   Level: Medio   Time: 15 minuti   FCVersion: Tutte   Author: User:Mario52
 ---
 
 # How to install macros/it

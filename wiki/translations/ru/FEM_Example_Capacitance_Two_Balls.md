@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ru
-   Topic: Анализ конечных элементов
-   Level:Начинающие
-   Time:
-   Author:[https://wiki.freecadweb.org/User:Sudhanshu_Dubey Sudhanshu Dubey]
-   FCVersion:0.19 или выше
-   Files:
+ TutorialInfo:u
+   Topic:  Анализ конечных элементов
+   Level: Начинающие
+   Time: 
+   Author: https://wiki.freecadweb.org/User:Sudhanshu_Dubey Sudhanshu Dubey
+   FCVersion: 0.19 или выше
+   Files: 
 ---
 
 # FEM Example Capacitance Two Balls/ru

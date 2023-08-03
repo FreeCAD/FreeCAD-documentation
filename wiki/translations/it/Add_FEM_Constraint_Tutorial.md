@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic:Aggiungere vincoli FEM 
-   Level: 
-   Time: 
-   Author:[M42kus](User_M42kus.md)
-   FCVersion:
-   Files:
+ TutorialInfo:t
+   Topic: Aggiungere vincoli FEM 
+   Level:  
+   Time:  
+   Author: User:M42kus
+   FCVersion: 
+   Files: 
 ---
 
 # Add FEM Constraint Tutorial/it

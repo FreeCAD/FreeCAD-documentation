@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/de
-   Topic:Arbeitsbereich Plot Basis-Tutorial
-   Level:Anfänger
-   Time:
-   Author:
-   FCVersion:0.19
-   Files:
+ TutorialInfo:e
+   Topic: Arbeitsbereich Plot Basis-Tutorial
+   Level: Anfänger
+   Time: 
+   Author: 
+   FCVersion: 0.19
+   Files: 
 ---
 
 # Plot Basic tutorial/de

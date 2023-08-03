@@ -1,9 +1,10 @@
 ---
-- TutorialInfo:   Topic:2D Drafting
-   Level:Intermediate
-   Author:Mark Stephen ([Quick61](User_Quick61.md))
-   Time:An hour or less
-   FCVersion:0.14.3700 or greater
+ TutorialInfo:
+   Topic: 2D Drafting
+   Level: Intermediate
+   Author: Mark Stephen 
+   Time: An hour or less
+   FCVersion: 0.14.3700 or greater
 ---
 
 # Drawing Template HowTo/en

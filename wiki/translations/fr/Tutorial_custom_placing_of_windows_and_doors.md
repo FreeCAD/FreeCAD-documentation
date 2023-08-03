@@ -1,45 +1,45 @@
 ---
-- TutorialInfo:/fr
-   Topic:Architecture
-   Level:Intermédiaire
-   Time:60 minutes
-   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-   FCVersion:0.18 ou ultérieure
-   Files:aucun
+ TutorialInfo:r
+   Topic: Architecture
+   Level: Intermédiaire
+   Time: 60 minutes
+   Author: https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx
+   FCVersion: 0.18 ou ultérieure
+   Files: aucun
 }}
 
 
 
 ## Introduction
 
-Ce didacticiel montre comment placer des [fenêtres Arch](Arch_Window/fr.md) et des [portes Arch](Arch_Door/fr.md) personnalisées dans un modèle de bâtiment. Il utilise l\'[atelier Draft](Draft_Workbench/fr.md), l\'[atelier Arch](Arch_Workbench/fr.md) et l\'[atelier Sketcher](Sketcher_Workbench/fr.md).
+Ce didacticiel montre comment placer des fenêtres Arch et des portes Arch personnalisées dans un modèle de bâtiment. Il utilise l\'atelier Draft, l\'atelier Arch et l\'atelier Sketcher.
 
-Les outils couramment utilisés sont: [Draft Grille](Draft_Snap_Grid/fr.md), [Draft Accrochage](Draft_Snap/fr.md), [Draft Fil](Draft_Wire/fr.md), [Arch Mur](Arch_Wall/fr.md), [Arch Fenêtre](Arch_Window/fr.md) et [Sketcher Esquisse](Sketcher_NewSketch/fr.md). L\'utilisateur doit être familiarisé avec les esquisses contraignantes.
+Les outils couramment utilisés sont: Draft Grille, Draft Accrochage, Draft Fil, Arch Mur, Arch Fenêtre et Sketcher Esquisse. L\'utilisateur doit être familiarisé avec les esquisses contraignantes.
 
-Ce tutoriel est inspiré des tutoriels de jpg87 publiés dans les [forums FreeCAD](https://forum.freecadweb.org/viewforum.php?f=36).
+Ce tutoriel est inspiré des tutoriels de jpg87 publiés dans les forums FreeCAD.
 
--   [Arch Créer une fenêtre personnalisée](https://forum.freecadweb.org/viewtopic.php?f=36&t=32883)
--   [Arch: Comment utiliser votre fenêtre personnalisée](https://forum.freecadweb.org/viewtopic.php?f=36&t=32982)
+-   Arch Créer une fenêtre personnalisée
+-   Arch: Comment utiliser votre fenêtre personnalisée
 
 Voir également le fil suivant pour plus d\'informations sur la position des fenêtres et des portes.
 
--   [Discussion: Orientation des fenêtres et des portes](https://forum.freecadweb.org/viewtopic.php?t=35368)
+-   Discussion: Orientation des fenêtres et des portes
 
 Voir également la page suivante pour quelques vidéos sur la façon d\'aligner les fenêtres.
 
--   [L\'atelier utilisé pour créer des projets architecturaux s\'appelle Arch](http://help-freecad-jpg87.fr/04_arch_ind.php)
+-   L\'atelier utilisé pour créer des projets architecturaux s\'appelle Arch
 
 
 
 ## Installation
 
-1\. Ouvrez FreeCAD, créez un nouveau document vide et passez à l\'[atelier Arch](Arch_Workbench/fr.md)
+1\. Ouvrez FreeCAD, créez un nouveau document vide et passez à l\'atelier Arch
 
-2\. Assurez-vous que vos unités sont correctement définies dans le menu **Edition → Préférences → Général → Unités**. Par exemple, {{incode   MKS (m/kg/s/degré)}} est bon pour gérer les distances dans un bâtiment typique; de plus, définissez le nombre de décimales sur {{incode   4}} pour considérer même les plus petites fractions du mètre.
+2\. Assurez-vous que vos unités sont correctement définies dans le menu **Edition , Préférences , Général , Unités**. Par exemple, {{incode   MKS }}{: mediawiki} est bon pour gérer les distances dans un bâtiment typique; de plus, définissez le nombre de décimales sur {{incode   4}}{: mediawiki} pour considérer même les plus petites fractions du mètre.
 
-3\. Utilisez le bouton [Draft Visibilité de la grille](Draft_ToggleGrid/fr.md) pour afficher une grille avec une résolution suffisante. Vous pouvez modifier l\'apparence de la grille dans le menu **Edition → Préférences → Draft → Grille et ancrage → Grille**. Définissez des lignes tous les {{incode   50 mm}}, avec des lignes principales toutes les {{incode   20}} lignes (tous les mètres) et {{incode   1000 lignes}} au total (la grille couvre une superficie de 50 mx 50 m).
+3\. Utilisez le bouton Draft Visibilité de la grille pour afficher une grille avec une résolution suffisante. Vous pouvez modifier l\'apparence de la grille dans le menu **Edition , Préférences , Draft , Grille et ancrage , Grille**. Définissez des lignes tous les {{incode   50 mm}}{: mediawiki}, avec des lignes principales toutes les {{incode   20}}{: mediawiki} lignes  et {{incode   1000 lignes}}{: mediawiki} au total .
 
-4\. [Zoom arrière](Std_ViewZoomOut/fr.md) de la vue 3D si vous êtes trop près de la grille.
+4\. Zoom arrière de la vue 3D si vous êtes trop près de la grille.
 
 Nous sommes maintenant prêts à créer un mur simple sur lequel nous pouvons positionner les fenêtres et les portes.
 
@@ -47,34 +47,34 @@ Nous sommes maintenant prêts à créer un mur simple sur lequel nous pouvons po
 
 ## Placement d\'un mur 
 
-5\. Utilisez l\'outil [Draft Fil](Draft_Wire/fr.md) pour créer un fil. Allez dans le sens antihoraire.
+5\. Utilisez l\'outil Draft Fil pour créer un fil. Allez dans le sens antihoraire.
 
-:   5.1. Premier point dans (0, 4, 0); dans la boîte de dialogue, saisissez **0** **m** **Enter**, **4** **m** **Enter**, {{ KEY\   0}} **m** **Enter**.
-:   5.2. Deuxième point dans (2, 0, 0); dans la boîte de dialogue, saisissez **2** **m** **Enter**, **0** **m** **Enter**, {{ KEY\   0}} **m** **Enter**.
-:   5.3. Troisième point dans (4, 0, 0); dans la boîte de dialogue, saisissez **4** **m** **Enter**, **0** **m** **Enter**, {{ KEY\   0}} **m** **Enter**.
-:   5.4. Quatrième point dans (6, 2, 0); dans la boîte de dialogue, entrez **6** **m** **Enter**, **2** **m** **Enter**, {{ KEY\   0}} **m** **Enter**.
-:   5.4. Cinquième point dans (6, 5, 0); dans la boîte de dialogue, saisissez **6** **m** **Enter**, **5** **m** **Enter**, {{ KEY\   0}} **m** **Enter**.
+:   5.1. Premier point dans ; dans la boîte de dialogue, saisissez **0** **m** **Enter**, **4** **m** **Enter**, {{ KEY\   0}} **m**{: mediawiki} **Enter**.
+:   5.2. Deuxième point dans ; dans la boîte de dialogue, saisissez **2** **m** **Enter**, **0** **m** **Enter**, {{ KEY\   0}} **m**{: mediawiki} **Enter**.
+:   5.3. Troisième point dans ; dans la boîte de dialogue, saisissez **4** **m** **Enter**, **0** **m** **Enter**, {{ KEY\   0}} **m**{: mediawiki} **Enter**.
+:   5.4. Quatrième point dans ; dans la boîte de dialogue, entrez **6** **m** **Enter**, **2** **m** **Enter**, {{ KEY\   0}} **m**{: mediawiki} **Enter**.
+:   5.4. Cinquième point dans ; dans la boîte de dialogue, saisissez **6** **m** **Enter**, **5** **m** **Enter**, {{ KEY\   0}} **m**{: mediawiki} **Enter**.
 :   5.5. Sur le pavé numérique, appuyez sur **A** pour terminer le fil.
-:   5.6. Dans le pavé numérique, appuyez sur **0** pour obtenir une [vue axonométrique](Std_View_Menu/fr.md) du modèle.
+:   5.6. Dans le pavé numérique, appuyez sur **0** pour obtenir une vue axonométrique du modèle.
 :   
     **Note:**assurez-vous que la case **Relative** est désactivée si vous donnez des coordonnées absolues.
 :   
-    **Note 2:**les points peuvent également être définis avec le pointeur de la souris en choisissant les intersections sur la grille, à l\'aide de la barre d\'outils [Draft Accrochage](Draft_Snap/fr.md) et de la méthode [Draft Accrochage Grille](Draft_Snap_Grid/fr.md) .
+    **Note 2:**les points peuvent également être définis avec le pointeur de la souris en choisissant les intersections sur la grille, à l\'aide de la barre d\'outils Draft Accrochage et de la méthode Draft Accrochage Grille .
 :   
-    **Note 3:**vous pouvez également créer des formes par programmation en créant des scripts dans [Python](Python/fr.md). Attention, la plupart des fonctions attendent leur saisie en millimètres.
+    **Note 3:**vous pouvez également créer des formes par programmation en créant des scripts dans Python. Attention, la plupart des fonctions attendent leur saisie en millimètres.
 
 
-{{Code   code:
+{{Code   code: 
 import FreeCAD
 import Draft
 
-p = [FreeCAD.Vector(0.0, 4000.0, 0),
-FreeCAD.Vector(2000.0, 0.0, 0.0),
-FreeCAD.Vector(4000.0, 0.0, 0.0),
-FreeCAD.Vector(6000.0, 2000.0, 0.0),
-FreeCAD.Vector(6000.0, 5000.0, 0.0)]
+p = FreeCAD.Vector,
+FreeCAD.Vector,
+FreeCAD.Vector,
+FreeCAD.Vector,
+FreeCAD.Vector
 
-w = Draft.makeWire(p, closed=False)
+w = Draft.makeWire
 ---
 
 # Tutorial custom placing of windows and doors/fr

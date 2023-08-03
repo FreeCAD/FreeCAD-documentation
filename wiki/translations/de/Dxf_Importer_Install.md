@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/de
-   Topic:Musterklasse
-   Level:Durchschnittlicher Anwender
-   Time:15 Minuten
-   Author:[Mario52](User_Mario52.md)
-   FCVersion:Alle
+ TutorialInfo:e
+   Topic: Musterklasse
+   Level: Durchschnittlicher Anwender
+   Time: 15 Minuten
+   Author: User:Mario52
+   FCVersion: Alle
 ---
 
 # Dxf Importer Install/de

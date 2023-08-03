@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/cs
-   Topic:Robot Workbench
-   Level:Intermediate
-   Time:
-   Author:
-   FCVersion:
-   Files:
+ TutorialInfo:s
+   Topic: Robot Workbench
+   Level: Intermediate
+   Time: 
+   Author: 
+   FCVersion: 
+   Files: 
 ---
 
 # VRML Preparation for Robot Simulation/cs

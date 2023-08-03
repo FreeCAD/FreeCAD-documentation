@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/fr
-   Topic:Importer texte et géométrie depuis Inkscape
-   Level:Débutant
-   Time:30 minutes
-   Author:r-frank
-   FCVersion:0.16.6704
-   Files:
+ TutorialInfo:r
+   Topic: Importer texte et géométrie depuis Inkscape
+   Level: Débutant
+   Time: 30 minutes
+   Author: r-frank
+   FCVersion: 0.16.6704
+   Files: 
 ---
 
 # Import text and geometry from Inkscape/fr

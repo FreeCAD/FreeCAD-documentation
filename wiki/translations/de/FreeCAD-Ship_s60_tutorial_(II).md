@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/de
-   Topic:Schiff Arbeitsbereich
-   Level:Anfänger
-   Time:
-   Author:
-   FCVersion:
-   Files:
+ TutorialInfo:e
+   Topic: Schiff Arbeitsbereich
+   Level: Anfänger
+   Time: 
+   Author: 
+   FCVersion: 
+   Files: 
 ---
 
 # FreeCAD-Ship s60 tutorial (II)/de

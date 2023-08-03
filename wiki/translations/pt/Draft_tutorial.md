@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/pt
-   Topic: Rascunho
-   Level: Principiante
-   Time: 20 minutos
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-   FCVersion:0.16 or above
-   Files:
+ TutorialInfo:t
+   Topic:  Rascunho
+   Level:  Principiante
+   Time:  20 minutos
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei
+   FCVersion: 0.16 or above
+   Files: 
 ---
 
 # Draft tutorial/pt

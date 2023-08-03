@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Modélisation
-   Level:Utilisateur expérimenté
-   Author:NormandC
-   Time:
-   FCVersion: ≥ 0.19.23300
-   Files:
+ TutorialInfo:
+   Topic: Modélisation
+   Level: Utilisateur expérimenté
+   Author: NormandC
+   Time: 
+   FCVersion:  ≥ 0.19.23300
+   Files: 
 ---
 
 # PartDesign Bearingholder Tutorial I/fr

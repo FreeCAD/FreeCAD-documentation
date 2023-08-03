@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ru
-   Topic: Part Workbench
-   Level: Beginner
-   Time:
-   Author:Andrewbuck40
-   FCVersion:0.14.3700
-   Files:
+ TutorialInfo:u
+   Topic:  Part Workbench
+   Level:  Beginner
+   Time: 
+   Author: Andrewbuck40
+   FCVersion: 0.14.3700
+   Files: 
 ---
 
 # Engine Block Tutorial/ru

@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/fr
-   Topic:Ajouter des contraintes FEM
-   Level:
-   Time:
-   Author:[M42kus](User_M42kus.md)
-   FCVersion:
-   Files:
+ TutorialInfo:r
+   Topic: Ajouter des contraintes FEM
+   Level: 
+   Time: 
+   Author: User:M42kus
+   FCVersion: 
+   Files: 
 ---
 
 # Add FEM Constraint Tutorial/fr

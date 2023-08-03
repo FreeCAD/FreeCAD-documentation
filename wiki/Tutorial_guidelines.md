@@ -1,5 +1,6 @@
 ---
-- TutorialInfo:   Class:What is the tutorial about? Modeling? Drafting? Introduction to a workbench?   Level:What level of user is it meant for?   FCVersion:What FreeCAD version are you using?   Time: How long does it take to complete?   Author: Add a link to your forum profile
+ TutorialInfo:
+   Class: What is the tutorial about? Modeling? Drafting? Introduction to a workbench?   Level: What level of user is it meant for?   FCVersion: What FreeCAD version are you using?   Time:  How long does it take to complete?   Author:  Add a link to your forum profile
 ---
 
 # Tutorial guidelines

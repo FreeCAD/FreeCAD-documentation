@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic: Analisi Elementi Finiti
-   Level: Base
-   Time: 10 minuti
-   Author:[http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd]
-   FCVersion:0.16.6377 o superiore
-   Files:
+ TutorialInfo:t
+   Topic:  Analisi Elementi Finiti
+   Level:  Base
+   Time:  10 minuti
+   Author: http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd
+   FCVersion: 0.16.6377 o superiore
+   Files: 
 ---
 
 # FEM CalculiX Cantilever 3D/it

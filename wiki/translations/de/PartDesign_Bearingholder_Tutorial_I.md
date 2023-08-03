@@ -1,9 +1,9 @@
 ---
-- TutorialInfo:/de
-   Topic:Modellierung
-   Level:Erfahrene Anwender
-   Author:NormanC
-   FCVersion:0.19.23300 oder höher
+ TutorialInfo:e
+   Topic: Modellierung
+   Level: Erfahrene Anwender
+   Author: NormanC
+   FCVersion: 0.19.23300 oder höher
 ---
 
 # PartDesign Bearingholder Tutorial I/de

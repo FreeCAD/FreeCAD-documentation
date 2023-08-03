@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/es
-   Topic:Ambiente de Trabajo
-   Level:Principiante
-   Time:
-   Author:
-   FCVersion:
-   Files:
+ TutorialInfo:s
+   Topic: Ambiente de Trabajo
+   Level: Principiante
+   Time: 
+   Author: 
+   FCVersion: 
+   Files: 
 ---
 
 # FreeCAD-Ship s60 tutorial/es

@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ru
-   Topic: Export to STL or OBJ
-   Level: Beginner
-   Time: 20 minutes
-   Author:r-frank
-   FCVersion:0.16.6703
-   Files:
+ TutorialInfo:u
+   Topic:  Export to STL or OBJ
+   Level:  Beginner
+   Time:  20 minutes
+   Author: r-frank
+   FCVersion: 0.16.6703
+   Files: 
 ---
 
 # Export to STL or OBJ/ru

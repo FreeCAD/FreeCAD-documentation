@@ -1,9 +1,9 @@
 ---
-- TutorialInfo:/fr
-   Topic:Modélisation
-   Level:Intermédiaire
-   Author:[Yorik](User_Yorik.md)
-   FCVersion:0.14
+ TutorialInfo:r
+   Topic: Modélisation
+   Level: Intermédiaire
+   Author: User:Yorik
+   FCVersion: 0.14
 ---
 
 # Arch tutorial/fr

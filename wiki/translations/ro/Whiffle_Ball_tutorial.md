@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ro
-   Topic: Whiffle Ball (Part Module)
-   Level: Beginner
-   Time:
-   Author:r-frank
-   FCVersion:0.16.6703
-   Files:[https://github.com/FreeCAD/Examples/blob/master/Whiffle_Ball_Tutorial_ExampleFiles/WhiffleBall_Tutorial_FCWiki.FCStd?raw=true] Whiffle Ball
+ TutorialInfo:o
+   Topic:  Whiffle Ball 
+   Level:  Beginner
+   Time: 
+   Author: r-frank
+   FCVersion: 0.16.6703
+   Files: https://github.com/FreeCAD/Examples/blob/master/Whiffle_Ball_Tutorial_ExampleFiles/WhiffleBall_Tutorial_FCWiki.FCStd?raw=true Whiffle Ball
 ---
 
 # Whiffle Ball tutorial/ro

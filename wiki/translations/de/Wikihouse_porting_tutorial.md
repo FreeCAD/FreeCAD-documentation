@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/de
-   Topic:Wikihouse Migration Tutorium
-   Level:Zwischenstufe/Fortgeschritten
-   Time:60 Minuten
-   Author:
-   FCVersion:
-   Files:
+ TutorialInfo:e
+   Topic: Wikihouse Migration Tutorium
+   Level: Zwischenstufe/Fortgeschritten
+   Time: 60 Minuten
+   Author: 
+   FCVersion: 
+   Files: 
 ---
 
 # Wikihouse porting tutorial/de

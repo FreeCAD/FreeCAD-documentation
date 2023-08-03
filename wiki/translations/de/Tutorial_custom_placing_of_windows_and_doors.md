@@ -1,45 +1,45 @@
 ---
-- TutorialInfo:/de
-   Topic:Architektur
-   Level:fortgeschrittener Anfänger
-   Time:60 Minuten
-   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-   FCVersion:0.18 oder höher
-   Files:keine
+ TutorialInfo:e
+   Topic: Architektur
+   Level: fortgeschrittener Anfänger
+   Time: 60 Minuten
+   Author: https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx
+   FCVersion: 0.18 oder höher
+   Files: keine
 }}
 
 
 
 ## Einleitung
 
-Dieses Tutorial zeigt, wie man benutzerdefinierte [Fenster](Arch_Window/de.md) und [Türen](Arch_Door/de.md) in einem Gebäudemodell platziert. Es verwendet die Arbeitsbereiche [Entwurf (Draft)](Draft_Workbench/de.md), [Architektur (Arch)](Arch_Workbench/de.md) und [Skizze (Sketcher)](Sketcher_Workbench/de.md).
+Dieses Tutorial zeigt, wie man benutzerdefinierte Fenster und Türen in einem Gebäudemodell platziert. Es verwendet die Arbeitsbereiche Entwurf , Architektur  und Skizze .
 
-Häufig benutzte Werkzeuge sind: [Draft:Raster (Grid)](Draft_Snap_Grid/de.md), [Draft:Fang (Snap)](Draft_Snap/de.md), [Draft: Linienwerkzeug (Wire)](Draft_Wire/de.md), [Arch:Wand (Wall)](Arch_Wall/de.md), [Arch:Fenster (Window)](Arch_Window/de.md) und [Sketcher:Neue Skizze (NewSketch)](Sketcher_NewSketch/de.md). Der Anwender sollte mit der Einschränkung von Skizzen vertraut sein.
+Häufig benutzte Werkzeuge sind: Draft:Raster , Draft:Fang , Draft: Linienwerkzeug , Arch:Wand , Arch:Fenster  und Sketcher:Neue Skizze . Der Anwender sollte mit der Einschränkung von Skizzen vertraut sein.
 
-Dieses Tutorial wurde inspiriert von den Tutorials von jpg87, welche in folgenden [FreeCAD-Foren](https://forum.freecadweb.org/viewforum.php?f=36) gepostet wurden:
+Dieses Tutorial wurde inspiriert von den Tutorials von jpg87, welche in folgenden FreeCAD-Foren gepostet wurden:
 
--   [Arch Create a custom window](https://forum.freecadweb.org/viewtopic.php?f=36&t=32883)
--   [Arch : How to use your custom Window](https://forum.freecadweb.org/viewtopic.php?f=36&t=32982)
+-   Arch Create a custom window
+-   Arch : How to use your custom Window
 
 Siehe auch den folgenden Forumsbeitrag für weitere Informationen über die Position von Fenstern und Türen.
 
--   [Diskussion: Ausrichtung von Fenstern und Türen](https://forum.freecadweb.org/viewtopic.php?t=35368)
+-   Diskussion: Ausrichtung von Fenstern und Türen
 
 Siehe auch die folgende Seite für einige Videos über das Ausrichten von Fenstern.
 
--   [Der Arbeitsbereich, der zum Erstellen von Architekturprojekten verwendet wird, heißt Arch](http://help-freecad-jpg87.fr/04_arch_ind.php)
+-   Der Arbeitsbereich, der zum Erstellen von Architekturprojekten verwendet wird, heißt Arch
 
 
 
 ## Einrichtung
 
-1\. Öffne FreeCAD, erstelle ein neues, leeres Dokument und wechsel zum [Architektur-Arbeitsbereich](Arch_Workbench/de.md).
+1\. Öffne FreeCAD, erstelle ein neues, leeres Dokument und wechsel zum Architektur-Arbeitsbereich.
 
-2\. Stelle sicher, dass Deine Einheiten im Menü **Bearbeiten → Einstellungen → Allgemein → Einheiten** korrekt eingestellt sind. Zum Beispiel ist {{incode   MKS (m/kg/s/Grad)}} gut geeignet, um mit den Abständen in einem typischen Gebäude umzugehen; setze außerdem die Anzahl der Nachkommastellen auf {{incode   4}}, um auch die kleinsten Teile eines Meters zu berücksichtigen.
+2\. Stelle sicher, dass Deine Einheiten im Menü **Bearbeiten , Einstellungen , Allgemein , Einheiten** korrekt eingestellt sind. Zum Beispiel ist {{incode   MKS }}{: mediawiki} gut geeignet, um mit den Abständen in einem typischen Gebäude umzugehen; setze außerdem die Anzahl der Nachkommastellen auf {{incode   4}}{: mediawiki}, um auch die kleinsten Teile eines Meters zu berücksichtigen.
 
-3\. Benutze die Schaltfläche **![](images/)**,_um_ein_Raster_mit_ausreichender_Auflösung_einzublenden. Das Erscheinungsbild des Rasters kannst Du im Menü **Bearbeiten → Einstellungen → Draft → Raster und einrasten → Raster** ändern. Setze \"Hauptlinien alle\" auf {{incode   20}}, \"Rasterabstand\" auf {{incode   50 mm}} und \"Rastergröße\" auf {{incode   1000 Linien}} (das Raster wird damit eine Fläche von 50m x 50m abdecken).
+3\. Benutze die Schaltfläche **Image:Draft Grid.svg   16px Draft ToggleGrid/de**{: mediawiki}, um ein Raster mit ausreichender Auflösung einzublenden. Das Erscheinungsbild des Rasters kannst Du im Menü **Bearbeiten , Einstellungen , Draft , Raster und einrasten , Raster** ändern. Setze \"Hauptlinien alle\" auf {{incode   20}}{: mediawiki}, \"Rasterabstand\" auf {{incode   50 mm}}{: mediawiki} und \"Rastergröße\" auf {{incode   1000 Linien}}{: mediawiki} .
 
-4\. [Zoome im 3D-Ansichtsfenster heraus](Std_ViewZoomOut/de.md), wenn Du zu nahe am Raster bist.
+4\. Zoome im 3D-Ansichtsfenster heraus, wenn Du zu nahe am Raster bist.
 
 Jetzt sind wir bereit, um eine einfache Wand zu erstellen, in welcher wir Fenster und Türen positionieren können.
 
@@ -47,34 +47,34 @@ Jetzt sind wir bereit, um eine einfache Wand zu erstellen, in welcher wir Fenste
 
 ## Wände erstellen 
 
-5\. Benutze das [Draft: Linienwerkzeug](Draft_Wire/de.md), um einen Linienzug zu erstellen. Gehe gegen den Uhrzeigersinn vor.
+5\. Benutze das Draft: Linienwerkzeug, um einen Linienzug zu erstellen. Gehe gegen den Uhrzeigersinn vor.
 
-:   5.1. Erster Punkt bei (0, 4, 0); gib im Dialog ein: **0** **m** **Enter**, **4** **m** **Enter**, **0** **m** **Enter**.
-:   5.2. Zweiter Punkt bei (2, 0, 0); gib im Dialog ein: **2** **m** **Enter**, **0** **m** **Enter**, **0** **m** **Enter**.
-:   5.3. Ditter Punkt bei (4, 0, 0); gib im Dialog ein: **4** **m** **Enter**, **0** **m** **Enter**, **0** **m** **Enter**.
-:   5.4. Vierter Punkt bei (6, 2, 0); gib im Dialog ein: **6** **m** **Enter**, **2** **m** **Enter**, **0** **m** **Enter**.
-:   5.4. Fünfter Punkt bei (6, 5, 0); gib im Dialog ein: **6** **m** **Enter**, **5** **m** **Enter**, **0** **m** **Enter**.
+:   5.1. Erster Punkt bei ; gib im Dialog ein: **0** **m** **Enter**, **4** **m** **Enter**, **0** **m** **Enter**.
+:   5.2. Zweiter Punkt bei ; gib im Dialog ein: **2** **m** **Enter**, **0** **m** **Enter**, **0** **m** **Enter**.
+:   5.3. Ditter Punkt bei ; gib im Dialog ein: **4** **m** **Enter**, **0** **m** **Enter**, **0** **m** **Enter**.
+:   5.4. Vierter Punkt bei ; gib im Dialog ein: **6** **m** **Enter**, **2** **m** **Enter**, **0** **m** **Enter**.
+:   5.4. Fünfter Punkt bei ; gib im Dialog ein: **6** **m** **Enter**, **5** **m** **Enter**, **0** **m** **Enter**.
 :   5.5. Drücke **A** um den Linienzug zu beenden.
-:   5.6. Drücke auf dem Nummernblock **0** um eine [isometrische Projektion](Std_ViewIsometric/de.md) des Modells zu erhalten.
+:   5.6. Drücke auf dem Nummernblock **0** um eine isometrische Projektion des Modells zu erhalten.
 :   
     **Hinweis:**Stelle sicher, dass die **Relative**-Checkbox deaktiviert ist, wenn Du Absolut-Koordinaten eingibst.
 :   
-    **Hinweis 2:**Die Punkte können auch mit dem Mauscursor durch Anklicken der Rasterschnittpunkte unter Zuhilfenahme der [Draft:Fang](Draft_Snap/de.md)-Werkzeugleiste und der [Raster](Draft_Snap_Grid/de.md)-Methode definiert werden.
+    **Hinweis 2:**Die Punkte können auch mit dem Mauscursor durch Anklicken der Rasterschnittpunkte unter Zuhilfenahme der Draft:Fang-Werkzeugleiste und der Raster-Methode definiert werden.
 :   
-    **Hinweis 3:**Du kannst die Konturen auch programmatisch durch Scripting in [Python](Python/de.md) erstellen. Bedenke, dass die meisten Funktionen ihre Eingaben in Millimetern erwarten:
+    **Hinweis 3:**Du kannst die Konturen auch programmatisch durch Scripting in Python erstellen. Bedenke, dass die meisten Funktionen ihre Eingaben in Millimetern erwarten:
 
 
-{{Code   code:
+{{Code   code: 
 import FreeCAD
 import Draft
 
-p = [FreeCAD.Vector(0.0, 4000.0, 0),
-FreeCAD.Vector(2000.0, 0.0, 0.0),
-FreeCAD.Vector(4000.0, 0.0, 0.0),
-FreeCAD.Vector(6000.0, 2000.0, 0.0),
-FreeCAD.Vector(6000.0, 5000.0, 0.0)]
+p = FreeCAD.Vector,
+FreeCAD.Vector,
+FreeCAD.Vector,
+FreeCAD.Vector,
+FreeCAD.Vector
 
-w = Draft.makeWire(p, closed=False)
+w = Draft.makeWire
 ---
 
 # Tutorial custom placing of windows and doors/de

@@ -1,14 +1,14 @@
 ---
-- TutorialInfo:/it
-   Topic: Part
-   Level: Base
-   Time: 1 ora
-   Author:Andrewbuck40
-   FCVersion:0.14.3700
-   Files:
+ TutorialInfo:t
+   Topic:  Part
+   Level:  Base
+   Time:  1 ora
+   Author: Andrewbuck40
+   FCVersion: 0.14.3700
+   Files: 
 }}
 
-<img alt="" src=images/Engine_Block_Tutorial_-_Finished_Engine_Block.png  style="width:600px;">
+!{width="600"}
 
 Questa è una guida introduttiva alla modellazione in FreeCAD.
 
@@ -18,7 +18,7 @@ Come lavoro di esempio viene modellato un semplice monoblocco motore con il basa
 
 ## Operazioni iniziali 
 
-Per cominciare, aprire FreeCAD, andare su **File → Nuovo** e creare un nuovo documento, quindi andare su **File → Salva** e salvarlo sul computer dove si preferisce, denominare **\"Motore\"** il progetto.
+Per cominciare, aprire FreeCAD, andare su **File , Nuovo** e creare un nuovo documento, quindi andare su **File , Salva** e salvarlo sul computer dove si preferisce, denominare **\"Motore\"** il progetto.
 
 Notare che, dopo aver salvato il progetto, nella vista della *struttura* sul lato sinistro dello schermo, viene mostrato il nome del progetto su cui si sta lavorando. È possibile avere contemporaneamente più progetti aperti, in questo caso, nella vista ad albero tutti i progetti sono mostrati come radice di un albero.
 
@@ -27,7 +27,7 @@ Notare che, dopo aver salvato il progetto, nella vista della *struttura* sul lat
 
 ## Sgrossatura della billetta 
 
-Ora si inizia a lavorare sul modello. Per prima cosa aggiungere un cubo (Box) per rappresentare la sagoma del blocco motore. Per fare questo si deve aggiungere un oggetto *Parte* al modello, andare quindi in **Visualizza → Ambienti → Parte** e selezionare il [Modulo Parte](Part_Workbench/it.md).
+Ora si inizia a lavorare sul modello. Per prima cosa aggiungere un cubo  per rappresentare la sagoma del blocco motore. Per fare questo si deve aggiungere un oggetto *Parte* al modello, andare quindi in **Visualizza , Ambienti , Parte** e selezionare il Modulo Parte.
 
 Notare che dopo aver selezionato l\'ambiente di lavoro, la barra degli strumenti in alto propone un diverso set di pulsanti. Esplorare un paio di altri \'Ambienti di lavoro\' per familiarizzare con il sistema degli ambienti e poi tornare al modulo parte.
 
@@ -41,9 +41,9 @@ Notare che dopo aver selezionato l\'ambiente di lavoro, la barra degli strumenti
 
 Nel modulo parte si vedono diversi pulsanti per creare degli oggetti primitivi del tipo cubo, sfera, cono, ecc.
 
-Fare clic sul pulsante <img alt="" src=images/Part_Box.png  style="width:16px;"> *Cubo* per aggiungerne uno alla scena.
+Fare clic sul pulsante !{width="16"} *Cubo* per aggiungerne uno alla scena.
 
-Ciascuno degli oggetti primitivi elencati ha una serie predefinita di parametri che vengono impostati quando la forma primitiva viene aggiunta alla scena. Si può provare ad aggiungerne una forma per tipo e vedere come si presentano. Le primitive possono essere rimosse dalla scena selezionandole e premendo il tasto di cancellazione. Ci sono due modi per selezionare gli oggetti: è possibile usare il tasto sinistro del mouse su di loro nella vista 3D, oppure è possibile cliccare sul loro nome nella vista ad albero alla sinistra. In entrambi i metodi, tenere premuto **Ctrl** durante la selezione permette la selezione multipla. È possibile ingrandire la visualizzazione 3D con la rotellina del mouse. Per spostare la vista, premere il tasto centrale e trascinare. Per ruotare la vista premere e tenere premuto il pulsante centrale del mouse e contemporaneamente premere e tenere premuto il pulsante sinistro del mouse, quindi trascinare il mouse e eseguire la rotazione. Si può anche fare un click con il pulsante centrale in un punto all\'interno di un oggetto 3D per produrre la rotazione dello spazio 3D intorno a quel punto. Inoltre, i numeri 1-6 e il numero 0 del tastierino numerico visualizzano la scena secondo le viste standard (dall\'alto, da sinistra, assonometrica, ecc.). Dedicare un paio di minuti per prendere confidenza con la manipolazione della visualizzazione 3D.
+Ciascuno degli oggetti primitivi elencati ha una serie predefinita di parametri che vengono impostati quando la forma primitiva viene aggiunta alla scena. Si può provare ad aggiungerne una forma per tipo e vedere come si presentano. Le primitive possono essere rimosse dalla scena selezionandole e premendo il tasto di cancellazione. Ci sono due modi per selezionare gli oggetti: è possibile usare il tasto sinistro del mouse su di loro nella vista 3D, oppure è possibile cliccare sul loro nome nella vista ad albero alla sinistra. In entrambi i metodi, tenere premuto **Ctrl** durante la selezione permette la selezione multipla. È possibile ingrandire la visualizzazione 3D con la rotellina del mouse. Per spostare la vista, premere il tasto centrale e trascinare. Per ruotare la vista premere e tenere premuto il pulsante centrale del mouse e contemporaneamente premere e tenere premuto il pulsante sinistro del mouse, quindi trascinare il mouse e eseguire la rotazione. Si può anche fare un click con il pulsante centrale in un punto all\'interno di un oggetto 3D per produrre la rotazione dello spazio 3D intorno a quel punto. Inoltre, i numeri 1-6 e il numero 0 del tastierino numerico visualizzano la scena secondo le viste standard . Dedicare un paio di minuti per prendere confidenza con la manipolazione della visualizzazione 3D.
 
 
 </div>
@@ -52,20 +52,20 @@ Ciascuno degli oggetti primitivi elencati ha una serie predefinita di parametri 
 <div class="mw-translate-fuzzy">
 
 
-:   *Ulteriori letture: [Navigazione 3D](Mouse_Model/it.md)*
+:   *Ulteriori letture: Navigazione 3D*
 
 
 </div>
 
 Dopo aver posizionato il cubo e acquisito dimestichezza con il mouse, si prosegue impostando le dimensioni del modello CAD.
 
-Selezionare il cubo cliccando su di esso nella vista ad albero e poi fare clic sulla scheda *Dati* della *Finestra delle proprietà* che si trova sotto la vista ad albero (se l\'albero è stato chiuso andare in **Visualizza → Pannelli → Vista combinata**).
+Selezionare il cubo cliccando su di esso nella vista ad albero e poi fare clic sulla scheda *Dati* della *Finestra delle proprietà* che si trova sotto la vista ad albero .
 
-Nella scheda dei dati è possibile modificare le proprietà dell\'oggetto selezionato nella vista ad albero. Sempre nella stessa scheda, secondo il tipo di oggetto selezionato, si devono impostare differenti parametri. Per un cubo (scatola) servono 3 vettori, uno per la sua posizione nello spazio 3D, un altro per il suo orientamento e un terzo per definire le sue dimensioni. Per una sfera si deve specificare il suo punto centrale, e il raggio. I coni hanno un raggio, una altezza e la posizione, e così via.
+Nella scheda dei dati è possibile modificare le proprietà dell\'oggetto selezionato nella vista ad albero. Sempre nella stessa scheda, secondo il tipo di oggetto selezionato, si devono impostare differenti parametri. Per un cubo  servono 3 vettori, uno per la sua posizione nello spazio 3D, un altro per il suo orientamento e un terzo per definire le sue dimensioni. Per una sfera si deve specificare il suo punto centrale, e il raggio. I coni hanno un raggio, una altezza e la posizione, e così via.
 
-In questo caso si sta costruendo un piccolo blocco motore a due cilindri quindi impostare la dimensione e la posizione del cubo con i seguenti valori (accertarsi di impostare correttamente i valori X,Y,Z di *Posizione*, mentre per quelli di *Asse*, che impostano l\'asse di rotazione, vanno bene i valori di default):
+In questo caso si sta costruendo un piccolo blocco motore a due cilindri quindi impostare la dimensione e la posizione del cubo con i seguenti valori :
 
-:   {\    class:wikitable border=1
+:   {\    class: wikitable border=1
 
 \|- \| X: 0.0 mm \|\| Lunghezza: 140.0 mm \|- \| Y: -40.0 mm \|\| Larghezza: 80.0 mm \|- \| Z: 0.0 mm \|\| Altezza: 110.0 mm \|- \|}
 
@@ -78,13 +78,13 @@ Dopo aver dimensionato correttamente il blocco motore, dare al progetto un nome 
 
 Ora si procede praticando il foro del primo cilindro in tutta la lunghezza del blocco motore. Per fare questo, occorre aggiungere al modello un cilindro con la forma che si desidera asportare e poi eseguire una operazione booleana per *sottrarre* il materiale dal blocco.
 
-Fare clic sul pulsante aggiungi <img alt="" src=images/Part_Cylinder.png  style="width:16px;"> *Cilindro* per creare un nuovo cilindro, quindi selezionarlo nella vista ad albero e impostarne le proprietà come segue:
+Fare clic sul pulsante aggiungi !{width="16"} *Cilindro* per creare un nuovo cilindro, quindi selezionarlo nella vista ad albero e impostarne le proprietà come segue:
 
 
 </div>
 
 
-:   {\    class:wikitable border=1
+:   {\    class: wikitable border=1
 
 \|- \| X: 40.0 mm \|\| Altezza: 110.0 mm \|- \| Y: 0.0 mm \|\| Raggio: 25.0 mm \|- \| Z: 0.0 mm \|\| \|- \|}
 
@@ -96,24 +96,24 @@ Selezionare questo oggetto nella vista ad albero e nominarlo **Cilindro 1**.
 
 È possibile creare il secondo cilindro nello stesso modo del primo, però è molto più facile copiare il lavoro già fatto per il primo e cambiare solo la coordinata X della posizione.
 
-Per fare questo, selezionare **Cilindro 1** nella vista ad albero e poi andare in **Modifica → Duplica selezione**.
+Per fare questo, selezionare **Cilindro 1** nella vista ad albero e poi andare in **Modifica , Duplica selezione**.
 
-Appena impartito il comando, si vede immediatamente apparire il nuovo cilindro nella vista ad albero (rinominarlo subito **Cilindro 2**), ma non lo si vede nella vista 3D, in quanto è nella stessa posizione del primo cilindro. Ora selezionare *Cilindro 2* nella vista ad albero e poi modificare la sua coordinata X impostandola in 100 mm.
+Appena impartito il comando, si vede immediatamente apparire il nuovo cilindro nella vista ad albero , ma non lo si vede nella vista 3D, in quanto è nella stessa posizione del primo cilindro. Ora selezionare *Cilindro 2* nella vista ad albero e poi modificare la sua coordinata X impostandola in 100 mm.
 
 Notare che mentre si aggiornano i numeri nel campo dati si vede il movimento del cilindro nella vista 3D.
 
-Dopo che il secondo cilindro è ubicato correttamente è possibile vedere il suo aspetto. Per vedere l\'aspetto del cilindro selezionare la **Billetta** nella vista ad albero e poi nasconderla premendo la **barra spaziatrice** (notare che ​​nella vista ad albero gli oggetti nascosti appaiono disattivati). Come esercizio, nascondere tutti tre gli oggetti uno ad uno e poi mostrarli di nuovo.
+Dopo che il secondo cilindro è ubicato correttamente è possibile vedere il suo aspetto. Per vedere l\'aspetto del cilindro selezionare la **Billetta** nella vista ad albero e poi nasconderla premendo la **barra spaziatrice** . Come esercizio, nascondere tutti tre gli oggetti uno ad uno e poi mostrarli di nuovo.
 
 ### Forare il Blocco 
 
-<img alt="" src=images/_Engine_Block_Tutorial_-_Bored_Block.png  style="width:300px;">
+!{width="300"}
 
 
 <div class="mw-translate-fuzzy">
 
 Ora che entrambi i cilindri sono posizionati essi vanno utilizzati per forare il blocco in modo appropriato. Per fare questo si applicano le *Operazioni Booleane* sulle 3 primitive. Iniziare creando una unione dei due cilindri in modo da poterli sottrarre contemporaneamente, come gruppo, dal blocco.
 
-Selezionare *Cilindro 1* nella vista ad albero con *CTRL + Tasto sinistro* poi nello stesso modo selezionare anche *Cilindro 2*. Ora premere il pulsante <img alt="" src=images/Part_Fuse.png  style="width:16px;"> *Unione* per fondere gli oggetti in uno solo.
+Selezionare *Cilindro 1* nella vista ad albero con *CTRL + Tasto sinistro* poi nello stesso modo selezionare anche *Cilindro 2*. Ora premere il pulsante !{width="16"} *Unione* per fondere gli oggetti in uno solo.
 
 Notare che nella vista ad albero, ora è presente un nuovo oggetto chiamato *Fusion*. Facendo clic sulla freccia accanto a Fusion si vedono i due cilindri, ma essi non sono accessibili.
 
@@ -121,9 +121,9 @@ Rinominare il blocco con *Cilindri* al posto di Fusion, così in seguito sarà p
 
 A questo punto si deve forare il blocco motore.
 
-Selezionare *Billetta* e quindi selezionare anche *Cilindri* poi premere il pulsante <img alt="" src=images/Part_Cut.png  style="width:16px;"> *Taglia* (Differenza).
+Selezionare *Billetta* e quindi selezionare anche *Cilindri* poi premere il pulsante !{width="16"} *Taglia* .
 
-I due oggetti selezionati sono di nuovo uniti come per una operazione di unione e il singolo oggetto risultante viene chiamato *Cut* (che è bene rinominare in *Billetta Forata*). Premere il tasto 2 del tastierino numerico per ottenere la vista dall\'alto e poter guardare dall\'altra parte del blocco motore dritto verso il basso attraverso i cilindri, quindi con *Tasto centrale + Tasto sinistro (entrambi premuti) + Trascinare* ruotare e osservare il blocco motore. Il risultato dovrebbe essere simile alla figura a destra.
+I due oggetti selezionati sono di nuovo uniti come per una operazione di unione e il singolo oggetto risultante viene chiamato *Cut* . Premere il tasto 2 del tastierino numerico per ottenere la vista dall\'alto e poter guardare dall\'altra parte del blocco motore dritto verso il basso attraverso i cilindri, quindi con *Tasto centrale + Tasto sinistro  + Trascinare* ruotare e osservare il blocco motore. Il risultato dovrebbe essere simile alla figura a destra.
 
 Notare che nella schermata la vista ad albero sulla sinistra è espansa per visualizzare le primitive individuali e che è selezionato *Cilindro 2* per esaminare la sua scheda *Dati* nella finestra delle *Proprietà*.
 

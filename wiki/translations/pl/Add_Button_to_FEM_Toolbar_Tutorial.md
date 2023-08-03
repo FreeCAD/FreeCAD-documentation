@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:FEM
-   Level:Advanced
-   Time:60 min
-   Author:[JohnWang](User_JohnWang.md)
-   FCVersion:0.19
-   Files:
+ TutorialInfo:
+   Topic: FEM
+   Level: Advanced
+   Time: 60 min
+   Author: User:JohnWang
+   FCVersion: 0.19
+   Files: 
 ---
 
 # Add Button to FEM Toolbar Tutorial/pl

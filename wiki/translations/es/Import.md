@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/es
-   Topic:Ambiente de trabajo Arquitectura
-   Level:Avanzado
-   Time:120 minutos
-   Author:Pablo Gil
-   FCVersion:0.19.x
-   Files:
+ TutorialInfo:s
+   Topic: Ambiente de trabajo Arquitectura
+   Level: Avanzado
+   Time: 120 minutos
+   Author: Pablo Gil
+   FCVersion: 0.19.x
+   Files: 
 }}
 
 ## Introducción
@@ -14,12 +14,12 @@ Fue una investigación tan dura sobre cómo obtener una copia de trabajo de IfcO
 
 ## Requisitos
 
--   [IfcOpenShell](IfcOpenShell/es.md)
+-   IfcOpenShell
 -   FreeCAD v0.19 o superior
 
 ## Pasos
 
-1\. Descargue o clone el proyecto completo de GitHub en <https://github.com/IfcOpenShell/IfcOpenShell> (siempre será la versión más reciente)
+1\. Descargue o clone el proyecto completo de GitHub en <https://github.com/IfcOpenShell/IfcOpenShell> 
 
 :   
     `git clone https://github.com/IfcOpenShell/IfcOpenShell

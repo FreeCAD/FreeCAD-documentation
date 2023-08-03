@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic:Arch
-   Level:Avanzato
-   Time:120 minuti
-   Author:Pablo Gil
-   FCVersion:
-   Files:
+ TutorialInfo:t
+   Topic: Arch
+   Level: Avanzato
+   Time: 120 minuti
+   Author: Pablo Gil
+   FCVersion: 
+   Files: 
 ---
 
 # Import/Export IFC - compiling IfcOpenShell/it

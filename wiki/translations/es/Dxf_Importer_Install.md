@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/es
-   Topic:ClaseMuestra
-   Level:Usuario medio
-   Time:15 minutos
-   Author:[Mario52](User_Mario52.md)
-   FCVersion:Todo
+ TutorialInfo:s
+   Topic: ClaseMuestra
+   Level: Usuario medio
+   Time: 15 minutos
+   Author: User:Mario52
+   FCVersion: Todo
 ---
 
 # Dxf Importer Install/es

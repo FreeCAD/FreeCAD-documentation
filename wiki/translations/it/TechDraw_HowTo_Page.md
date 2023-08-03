@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/it
-   Topic:How To's and Misc Info 
-   Level:all
-   Time:n/a
-   Author:n/a
-   FCVersion:0.19
+ TutorialInfo:t
+   Topic: How To's and Misc Info 
+   Level: all
+   Time: n/a
+   Author: n/a
+   FCVersion: 0.19
 ---
 
 # TechDraw HowTo Page/it

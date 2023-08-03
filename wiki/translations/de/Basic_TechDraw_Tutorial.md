@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/de
-   Topic:Modellierung
-   Level:Anfänger
-   Author:[WandererFan](User_WandererFan.md)
-   Time:Weniger als eine Stunde
-   FCVersion:0.17 oder höher
-   Files:[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd?raw=true Basic Part Design for v0.17 Sample]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd?raw=true Basic TechDraw Tutorial Sample]
+ TutorialInfo:e
+   Topic: Modellierung
+   Level: Anfänger
+   Author: User:WandererFan
+   Time: Weniger als eine Stunde
+   FCVersion: 0.17 oder höher
+   Files: https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd?raw=true Basic Part Design for v0.17 Sample<br />https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd?raw=true Basic TechDraw Tutorial Sample
 ---
 
 # Basic TechDraw Tutorial/de

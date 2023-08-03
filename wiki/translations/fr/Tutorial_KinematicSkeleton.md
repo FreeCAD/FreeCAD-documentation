@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/fr
-   Topic:Assembly3, un squelette cinématique
-   Level:Une connaissance de base d'Assembly3 et des outils Sketcher est utile.
-   FCVersion:0.20 et ultérieure
-   Time:40 minutes
-   Author:[FBXL5](User_FBXL5.md)
-   SeeAlso:[Tutoriel Assemblage cinématique](Tutorial_KinematicAssembly/fr.md), [Tutoriel Contrôleur cinématique](Tutorial_KinematicController/fr.md)
+ TutorialInfo:r
+   Topic: Assembly3, un squelette cinématique
+   Level: Une connaissance de base d'Assembly3 et des outils Sketcher est utile.
+   FCVersion: 0.20 et ultérieure
+   Time: 40 minutes
+   Author: User:FBXL5
+   SeeAlso: Tutorial_KinematicAssembly/fr, Tutorial_KinematicController/fr
 ---
 
 # Tutorial KinematicSkeleton/fr

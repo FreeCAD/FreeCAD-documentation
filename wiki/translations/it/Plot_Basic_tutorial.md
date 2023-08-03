@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic:Plot - Grafico
-   Level:Base
-   Time:
-   Author:
-   FCVersion:
-   Files:
+ TutorialInfo:t
+   Topic: Plot - Grafico
+   Level: Base
+   Time: 
+   Author: 
+   FCVersion: 
+   Files: 
 ---
 
 # Plot Basic tutorial/it

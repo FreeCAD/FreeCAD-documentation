@@ -1,9 +1,10 @@
 ---
-- TutorialInfo:   Topic:Assembly3, ein einfacher Mechanismus
-   Level:Grundwissen über Assembly3-Werkzeuge ist hilfreich
-   FCVersion:0.20 und neuer
-   Time:30 Minuten
-   Author:[FBXL5](User_FBXL5.md)
+ TutorialInfo:
+   Topic: Assembly3, ein einfacher Mechanismus
+   Level: Grundwissen über Assembly3-Werkzeuge ist hilfreich
+   FCVersion: 0.20 und neuer
+   Time: 30 Minuten
+   Author: User:FBXL5
 ---
 
 # Tutorial KinematicAssembly/de

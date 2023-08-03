@@ -1,9 +1,9 @@
 ---
-- TutorialInfo:/fr
-   Topic:Exemple Portée de la dalle dans une direction
-   Level:Intermédiaire
-   Author:Shiv Charan
-   FCVersion:0.20
+ TutorialInfo:r
+   Topic: Exemple Portée de la dalle dans une direction
+   Level: Intermédiaire
+   Author: Shiv Charan
+   FCVersion: 0.20
 ---
 
 # Example Slab Spanning in One Direction/fr

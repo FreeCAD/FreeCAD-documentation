@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Example Slab Having L-Shape Rebars Reinforcement Mesh
-   Level:Intermediate
-   Time:
-   Author:Shiv Charan
-   FCVersion:0.20
-   Files:
+ TutorialInfo:
+   Topic: Example Slab Having L-Shape Rebars Reinforcement Mesh
+   Level: Intermediate
+   Time: 
+   Author: Shiv Charan
+   FCVersion: 0.20
+   Files: 
 ---
 
 # Example Slab Having LShape Rebars Reinforcement Mesh/en

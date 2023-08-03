@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic: Analisi agli elementi finiti
-   Level:Base
-   Time:
-   Author:[https://wiki.freecadweb.org/User:Sudhanshu_Dubey Sudhanshu Dubey]
-   FCVersion:0.19 o superiore
-   Files:
+ TutorialInfo:t
+   Topic:  Analisi agli elementi finiti
+   Level: Base
+   Time: 
+   Author: https://wiki.freecadweb.org/User:Sudhanshu_Dubey Sudhanshu Dubey
+   FCVersion: 0.19 o superiore
+   Files: 
 ---
 
 # FEM Example Capacitance Two Balls/it

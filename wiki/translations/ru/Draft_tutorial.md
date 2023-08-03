@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ru
-   Topic: Черчение
-   Level: Начинающий
-   Time: 30 минут
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] и vocx
-   FCVersion:0.19
-   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&t=43651 Draft tutorial updated]
+ TutorialInfo:u
+   Topic:  Черчение
+   Level:  Начинающий
+   Time:  30 минут
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei и vocx
+   FCVersion: 0.19
+   Files: https://forum.freecadweb.org/viewtopic.php?f=36&t=43651 Draft tutorial updated
 ---
 
 # Draft tutorial/ru

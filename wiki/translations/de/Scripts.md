@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/de
-   Topic:Skripten
-   Level:Basis
-   Time:
-   Author:onekk Carlo
-   FCVersion:0.19
-   Files:
+ TutorialInfo:e
+   Topic: Skripten
+   Level: Basis
+   Time: 
+   Author: onekk Carlo
+   FCVersion: 0.19
+   Files: 
 ---
 
 # Scripts/de

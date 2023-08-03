@@ -1,9 +1,10 @@
 ---
-- TutorialInfo:   Topic:Modeling
-   Level:Beginner
-   Author:Mark Stephen ([Quick61](User_Quick61.md)) and HarryGeier ([HarryGeier](User_HarryGeier.md))
-   Time:Less than an hour
-   FCVersion:0.17 or higher   Files:[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Basic Part Design for v0.17]
+ TutorialInfo:
+   Topic: Modeling
+   Level: Beginner
+   Author: Mark Stephen  and HarryGeier 
+   Time: Less than an hour
+   FCVersion: 0.17 or higher   Files: https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Basic Part Design for v0.17
 ---
 
 # Basic Part Design Tutorial/pt-br

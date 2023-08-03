@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic: Esportare in STL o OBJ
-   Level: Base
-   Time: 20 minuti
-   Author:r-frank
-   FCVersion:0.16.6703
-   Files:
+ TutorialInfo:t
+   Topic:  Esportare in STL o OBJ
+   Level:  Base
+   Time:  20 minuti
+   Author: r-frank
+   FCVersion: 0.16.6703
+   Files: 
 ---
 
 # Export to STL or OBJ/it

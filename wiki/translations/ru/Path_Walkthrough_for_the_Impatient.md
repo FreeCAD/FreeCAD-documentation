@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ru
-   Topic:Верстак Path
-   Level:Начинающий/Средний
-   Time:15 минут
-   Author:Chrisb
-   FCVersion:0.19
-   Files:
+ TutorialInfo:u
+   Topic: Верстак Path
+   Level: Начинающий/Средний
+   Time: 15 минут
+   Author: Chrisb
+   FCVersion: 0.19
+   Files: 
 ---
 
 # Path Walkthrough for the Impatient/ru

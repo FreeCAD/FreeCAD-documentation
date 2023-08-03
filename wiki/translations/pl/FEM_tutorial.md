@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/pl
-   Topic: Analiza elementów skończonych
-   Level: początkujący
-   Time: 10 minut + czas Solvera
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-   FCVersion:0.17 lub nowszy
+ TutorialInfo:l
+   Topic:  Analiza elementów skończonych
+   Level:  początkujący
+   Time:  10 minut + czas Solvera
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei
+   FCVersion: 0.17 lub nowszy
 ---
 
 # FEM tutorial/pl

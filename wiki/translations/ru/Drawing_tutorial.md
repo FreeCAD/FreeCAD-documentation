@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ru
-   Topic: Blueprints / Drawings
-   Level: Beginner
-   Time: 15 minutes
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-   FCVersion:0.16 or above
-   Files:
+ TutorialInfo:u
+   Topic:  Blueprints / Drawings
+   Level:  Beginner
+   Time:  15 minutes
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei
+   FCVersion: 0.16 or above
+   Files: 
 ---
 
 # Drawing tutorial/ru

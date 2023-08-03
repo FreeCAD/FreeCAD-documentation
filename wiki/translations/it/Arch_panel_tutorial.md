@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic: Modellare un pannello in Arch
-   Level: Base
-   Time: 60 minuti
-   Author: Yorik
-   FCVersion:
-   Files:
+ TutorialInfo:t
+   Topic:  Modellare un pannello in Arch
+   Level:  Base
+   Time:  60 minuti
+   Author:  Yorik
+   FCVersion: 
+   Files: 
 ---
 
 # Arch panel tutorial/it

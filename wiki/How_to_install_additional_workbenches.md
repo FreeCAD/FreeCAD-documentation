@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Programming
-   Level:Medium programmer
-   Time:15 minutes
-   FCVersion:All
-   Author:[r-frank](User:R-Frank.md)
-   Files:none
+ TutorialInfo:
+   Topic: Programming
+   Level: Medium programmer
+   Time: 15 minutes
+   FCVersion: All
+   Author: User:R-Frank
+   Files: none
 ---
 
 # How to install additional workbenches

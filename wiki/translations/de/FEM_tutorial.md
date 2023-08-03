@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/de
-   Topic: Finite-Elemente-Analyse
-   Level: Anfänger
-   Time: 10 Minuten + Löserzeit
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-   FCVersion:0.17 oder höher
+ TutorialInfo:e
+   Topic:  Finite-Elemente-Analyse
+   Level:  Anfänger
+   Time:  10 Minuten + Löserzeit
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei
+   FCVersion: 0.17 oder höher
 ---
 
 # FEM tutorial/de

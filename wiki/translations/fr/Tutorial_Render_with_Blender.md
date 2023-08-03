@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/fr
-   Topic:Rendering
-   Level:Intermédiaire
-   Time:60 minutes
-   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-   FCVersion:0.18 ou ultérieure
-   Files:none
+ TutorialInfo:r
+   Topic: Rendering
+   Level: Intermédiaire
+   Time: 60 minutes
+   Author: https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx
+   FCVersion: 0.18 ou ultérieure
+   Files: none
 ---
 
 # Tutorial Render with Blender/fr

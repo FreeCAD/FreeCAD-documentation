@@ -1,9 +1,9 @@
 ---
-- TutorialInfo:/fr
-   Topic:Exemple de dalle avec armatures en forme de U Rebars Reinforcement Maillage
-   Level:Intermédiaire
-   Author:Shiv Charan
-   FCVersion:0.20
+ TutorialInfo:r
+   Topic: Exemple de dalle avec armatures en forme de U Rebars Reinforcement Maillage
+   Level: Intermédiaire
+   Author: Shiv Charan
+   FCVersion: 0.20
 ---
 
 # Example Slab Having UShape Rebars Reinforcement Mesh/fr

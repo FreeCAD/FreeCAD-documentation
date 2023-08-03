@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ru
-   Topic: Моделирование архитектурной панели
-   Level: Начинающие
-   Time: 60 минут
-   Author: Yorik
-   FCVersion:
-   Files:
+ TutorialInfo:u
+   Topic:  Моделирование архитектурной панели
+   Level:  Начинающие
+   Time:  60 минут
+   Author:  Yorik
+   FCVersion: 
+   Files: 
 ---
 
 # Arch panel tutorial/ru

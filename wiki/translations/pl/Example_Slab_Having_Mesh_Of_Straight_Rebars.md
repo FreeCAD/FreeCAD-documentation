@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Example Slab Having Mesh Of Straight Rebars
-   Level:Intermediate
-   Time:
-   Author:Shiv Charan
-   FCVersion:0.20
-   Files:
+ TutorialInfo:
+   Topic: Example Slab Having Mesh Of Straight Rebars
+   Level: Intermediate
+   Time: 
+   Author: Shiv Charan
+   FCVersion: 0.20
+   Files: 
 ---
 
 # Example Slab Having Mesh Of Straight Rebars/pl

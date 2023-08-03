@@ -1,9 +1,10 @@
 ---
-- TutorialInfo:   Topic:Kinematic controller created with Python
-   Level:Basic skills of Python are helpful
-   FCVersion:0.20 and later
-   Time:1 hour
-   Author:[FBXL5](User_FBXL5.md)
+ TutorialInfo:
+   Topic: Kinematic controller created with Python
+   Level: Basic skills of Python are helpful
+   FCVersion: 0.20 and later
+   Time: 1 hour
+   Author: User:FBXL5
 ---
 
 # Tutorial KinematicController

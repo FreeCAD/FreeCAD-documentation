@@ -1,20 +1,20 @@
 ---
-- TutorialInfo:/de
-   Topic: Part Scripting - Ball Bearing #1
-   Level: Beginner
-   Time: 30 min
-   Author:r-frank
-   FCVersion:0.16.6706
-   Files:
+ TutorialInfo:e
+   Topic:  Part Scripting - Ball Bearing #1
+   Level:  Beginner
+   Time:  30 min
+   Author: r-frank
+   FCVersion: 0.16.6706
+   Files: 
 }}
 
 ### Einleitung
 
 Dieses Tutorial ist gedacht als Einführung wie man Modelle erstellt mit Hilfe von Python Skripten innerhalb von FreeCAD.
 Dieses Tutorial erklärt wie man ein Kugellager erstellt mittels eines CSG-Arbeitsablaufes.
-Der Code wird ein neues FreeCAD-Dokument erstellen mit 12 einzelnen Körpern (Innerer Ring, äußerer Ring und 10 Kugeln).
+Der Code wird ein neues FreeCAD-Dokument erstellen mit 12 einzelnen Körpern .
 Das Ergebnis sieht so aus:
-<img alt="" src=images/Tutorial_BallBearing01.jpg  style="width:400px;">
+!{width="400"}
 
 ### Arbeitsablauf
 
@@ -43,23 +43,23 @@ Deshalb müssen wir die Kanten auswählen BEVOR wir die Rille für die Kugeln he
 ### Bemerkungen
 
 Dieses Tutorial benutzt Grundkörper und boolsche Operationen, welche sehr rechenintensiv sein können.
-Um zu sehen, wie man einen Körper mittels rotierten Skizzen erstellt, werfen Sie bitte einen Blick auf das Tutorial [Scripted Parts: Ball Bearing - Part 2/de](Scripted_Parts:_Ball_Bearing_-_Part_2/de.md).
+Um zu sehen, wie man einen Körper mittels rotierten Skizzen erstellt, werfen Sie bitte einen Blick auf das Tutorial Scripted Parts: Ball Bearing - Part 2/de.
 
 ### Links
 
-[Scripted objects](Scripted_objects.md): Diese Wiki-Seite erklärt die Grundlagen für part scripting
-[Topological data scripting](Topological_data_scripting.md): Ein Tutorial für die Grundlagen des part scriptings
-[Scripted Parts: Ball Bearing - Part 2](Scripted_Parts:_Ball_Bearing_-_Part_2.md): Erstellen des Modelles mittels Skizzen
-[Bearing Script 1](http://linuxforanengineer.blogspot.de/2013/08/free-cad-bearing-script.html): Basis für dieses Tutorial, vielen Dank an JMG \...
+Scripted objects: Diese Wiki-Seite erklärt die Grundlagen für part scripting
+Topological data scripting: Ein Tutorial für die Grundlagen des part scriptings
+Scripted Parts: Ball Bearing - Part 2: Erstellen des Modelles mittels Skizzen
+Bearing Script 1: Basis für dieses Tutorial, vielen Dank an JMG \...
 
 ### Code
 
 
-{{Code   code:
+{{Code   code: 
 ## Ball-bearing Skript
-## 11.08.2016 von r-frank (BPLRFE/LearnFreeCAD on Youtube)
+## 11.08.2016 von r-frank 
 ## basierend auf dem ball bearing script by JMG
-## (http://linuxforanengineer.blogspot.de/2013/08/free-cad-bearing-script.html)
+## 
 #
 #um Grundkoerper einzufuegen
 import Part
@@ -69,71 +69,71 @@ import math
 from FreeCAD import Base
 #
 #Werte#
-#(Radius des Schaftes/innerer Radius des inneren Ringes)
+#
 R1=15.0
-#(Aussenradius des Innenringes)
+#
 R2=25.0
-#(Innenradius des Aussenringes)
+#
 R3=30.0
-#(Aussenradius des Aussenringes)
+#
 R4=40.0
-#(Dicke des Lagers)
+#
 TH=15.0
-#(Anzahl der Kugeln)
+#
 NBall=10
-#(Radius der Kugeln)
+#
 RBall=5.0
-#(Verrundungs-Radius)
+#
 RR=1
 #Erste Koordinate des Zentrums der Kugel
-CBall=((R3-R2)/2)+R2
+CBall=/2)+R2
 #Zweite Koordinate des Zentrums der Kugel
 PBall=TH/2
 #
 #Erstelle neues Dokument
-App.newDocument("Unnamed")
-App.setActiveDocument("Unnamed")
-App.ActiveDocument=App.getDocument("Unnamed")
-Gui.ActiveDocument=Gui.getDocument("Unnamed")
+App.newDocument
+App.setActiveDocument
+App.ActiveDocument=App.getDocument
+Gui.ActiveDocument=Gui.getDocument
 #
 #Innerer Ring#
-B1=Part.makeCylinder(R1,TH)
-B2=Part.makeCylinder(R2,TH)
-IR=B2.cut(B1)
+B1=Part.makeCylinder
+B2=Part.makeCylinder
+IR=B2.cut
 #Kanten auswaehlen und Radius anbringen
 Bedges=IR.Edges
-IRF=IR.makeFillet(RR,Bedges)
+IRF=IR.makeFillet
 #Rille erstellen und Koerper einblenden
-T1=Part.makeTorus(CBall,RBall)
-T1.translate(Base.Vector(0,0,TH/2))
-InnerRing=IRF.cut(T1)
-Part.show(InnerRing)
+T1=Part.makeTorus
+T1.translate)
+InnerRing=IRF.cut
+Part.show
 #
 #Aeusserer Ring#
-B3=Part.makeCylinder(R3,TH)
-B4=Part.makeCylinder(R4,TH)
-OR=B4.cut(B3)
+B3=Part.makeCylinder
+B4=Part.makeCylinder
+OR=B4.cut
 #Kanten auswaehlen und Radius anbringen
 Bedges=OR.Edges
-ORF=OR.makeFillet(RR,Bedges)
+ORF=OR.makeFillet
 #Rille erstellen und Koerper einblenden
-T2=Part.makeTorus(CBall,RBall)
-T2.translate(Base.Vector(0,0,TH/2))
-OuterRing=ORF.cut(T2)
-Part.show(OuterRing)
+T2=Part.makeTorus
+T2.translate)
+OuterRing=ORF.cut
+Part.show
 #
 #Kugeln#
-for i in range(NBall):
-  Ball=Part.makeSphere(RBall)
-  Alpha=(i*2*math.pi)/NBall
-  BV=(CBall*math.cos(Alpha),CBall*math.sin(Alpha),TH/2)
-  Ball.translate(BV)
-  Part.show(Ball)
+for i in range:
+  Ball=Part.makeSphere
+  Alpha=/NBall
+  BV=,CBall*math.sin,TH/2)
+  Ball.translate
+  Part.show
 #
 #Und das Ganze noch huebsch machen ...#
-App.activeDocument().recompute()
-Gui.activeDocument().activeView().viewAxometric()
-Gui.SendMsgToActiveView("ViewFit")
+App.activeDocument.recompute
+Gui.activeDocument.activeView.viewAxometric
+Gui.SendMsgToActiveView
 ---
 
 # Scripted Parts: Ball Bearing - Part 1/de

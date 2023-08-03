@@ -1,9 +1,10 @@
 ---
-- TutorialInfo:   Topic:Kinematisteuerung erstellt mit Python
-   Level:Pythongrundkentnisse sind hilfreich
-   FCVersion:0.20 und später
-   Time:1 Stunde
-   Author:[FBXL5](User_FBXL5.md)
+ TutorialInfo:
+   Topic: Kinematisteuerung erstellt mit Python
+   Level: Pythongrundkentnisse sind hilfreich
+   FCVersion: 0.20 und später
+   Time: 1 Stunde
+   Author: User:FBXL5
 ---
 
 # Tutorial KinematicController/de

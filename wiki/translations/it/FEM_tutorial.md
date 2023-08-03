@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic:Analisi agli elementi finiti
-   Level:base
-   Time:10 minuti più il tempo del solutore
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-   FCVersion:0.16.6700 o superiore
-   Files:
+ TutorialInfo:t
+   Topic: Analisi agli elementi finiti
+   Level: base
+   Time: 10 minuti più il tempo del solutore
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei
+   FCVersion: 0.16.6700 o superiore
+   Files: 
 ---
 
 # FEM tutorial/it

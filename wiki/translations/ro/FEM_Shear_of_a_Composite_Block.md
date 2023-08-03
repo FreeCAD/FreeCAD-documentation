@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ro
-   Topic: Finite Element Analysis
-   Level: Beginner/Intermediate
-   Time: 30 minutes
-   Author:[http://www.freecadweb.org/wiki/index.php?title=User: HarryvL]
-   FCVersion:0.17.12960 or above
-   Files:
+ TutorialInfo:o
+   Topic:  Finite Element Analysis
+   Level:  Beginner/Intermediate
+   Time:  30 minutes
+   Author: http://www.freecadweb.org/wiki/index.php?title=User: HarryvL
+   FCVersion: 0.17.12960 or above
+   Files: 
 ---
 
 # FEM Shear of a Composite Block/ro

@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/zh-tw
-   Topic:草圖
-   Level:初學者
-   Time:60分鐘
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] 及 vocx
-   FCVersion:0.19
-   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&t=43594 草圖基本教學檔案更新]
+ TutorialInfo:h-tw
+   Topic: 草圖
+   Level: 初學者
+   Time: 60分鐘
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei 及 vocx
+   FCVersion: 0.19
+   Files: https://forum.freecadweb.org/viewtopic.php?f=36&t=43594 草圖基本教學檔案更新
 ---
 
 # Basic Sketcher Tutorial/zh-tw

@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ru
-   Topic:Моделирование
-   Level:Средний
-   Time:
-   Author:[Yorik](User_Yorik.md)
-   FCVersion:0.14
-   Files:
+ TutorialInfo:u
+   Topic: Моделирование
+   Level: Средний
+   Time: 
+   Author: User:Yorik
+   FCVersion: 0.14
+   Files: 
 ---
 
 # Arch tutorial/ru

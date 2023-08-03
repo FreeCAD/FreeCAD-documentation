@@ -1,13 +1,13 @@
 ---
-- TutorialInfo:/it
-   Topic:Modellazione
-   Level:Base
-   Author:GlouGlou
-   Time:1 ora
-   FCVersion:0.17 o superiore
-   Files:
-   SeeAlso:[Creazione di una parte semplice con l'Ambiente Part ](Creating_a_simple_part_with_Part_WB/it.md),
-[Creazione di una parte semplice con gli Ambienti Draft e Part](Creating_a_simple_part_with_Draft_and_Part_WB/it.md)
+ TutorialInfo:t
+   Topic: Modellazione
+   Level: Base
+   Author: GlouGlou
+   Time: 1 ora
+   FCVersion: 0.17 o superiore
+   Files: 
+   SeeAlso: Creating_a_simple_part_with_Part_WB/it,
+Creating_a_simple_part_with_Draft_and_Part_WB/it
 ---
 
 # Creating a simple part with PartDesign/it

@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ru
-   Topic: Руководство по добавлению ограничений в верстак FEM
-   Level: 
-   Time: 
-   Author:[M42kus](User_M42kus.md)
-   FCVersion:
-   Files:
+ TutorialInfo:u
+   Topic:  Руководство по добавлению ограничений в верстак FEM
+   Level:  
+   Time:  
+   Author: User:M42kus
+   FCVersion: 
+   Files: 
 ---
 
 # Add FEM Constraint Tutorial/ru

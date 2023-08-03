@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ru
-   Topic:Rendering
-   Level:Intermediate
-   Time:60 минут
-   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-   FCVersion:0.18 или выше
-   Files:нет
+ TutorialInfo:u
+   Topic: Rendering
+   Level: Intermediate
+   Time: 60 минут
+   Author: https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx
+   FCVersion: 0.18 или выше
+   Files: нет
 ---
 
 # Tutorial Render with Blender/ru

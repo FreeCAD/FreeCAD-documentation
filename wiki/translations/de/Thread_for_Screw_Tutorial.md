@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/de
-   Topic: Produktgestaltung
-   Level: Fortgeschrittene
-   Time: 60 Minuten
-   Author:[DeepSOIC](User_DeepSOIC.md), [Murdic](User_Murdic.md), vocx
-   FCVersion:0.19
-   Files:[https://forum.freecad.org/viewtopic.php?f=36&t=44668 Aktualisiert: Gewinde für Schrauben Tutorium]
+ TutorialInfo:e
+   Topic:  Produktgestaltung
+   Level:  Fortgeschrittene
+   Time:  60 Minuten
+   Author: User:DeepSOIC, User:Murdic, vocx
+   FCVersion: 0.19
+   Files: https://forum.freecad.org/viewtopic.php?f=36&t=44668 Aktualisiert: Gewinde für Schrauben Tutorium
 ---
 
 # Thread for Screw Tutorial/de

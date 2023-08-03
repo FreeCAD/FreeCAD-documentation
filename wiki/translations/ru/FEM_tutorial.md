@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ru
-   Topic: Анализ методом конечных элементов
-   Level: Новичок
-   Time: 10 минут + время работы Решателя
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-   FCVersion:0.16.6700 и выше
-   Files:
+ TutorialInfo:u
+   Topic:  Анализ методом конечных элементов
+   Level:  Новичок
+   Time:  10 минут + время работы Решателя
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei
+   FCVersion: 0.16.6700 и выше
+   Files: 
 ---
 
 # FEM tutorial/ru

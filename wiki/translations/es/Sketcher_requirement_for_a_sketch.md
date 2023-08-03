@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/es
-   Topic:Croquis
-   Level:Principiante
-   Author:[Maker](User_Maker.md)
-   Time:
-   FCVersion:
+ TutorialInfo:s
+   Topic: Croquis
+   Level: Principiante
+   Author: User:Maker
+   Time: 
+   FCVersion: 
 ---
 
 # Sketcher requirement for a sketch/es

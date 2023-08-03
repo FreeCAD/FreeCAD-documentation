@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic:Aggiungere equazioni FEM 
-   Level: 
-   Time: 
-   Author:[M42kus](User_M42kus.md)
-   FCVersion:
-   Files:
+ TutorialInfo:t
+   Topic: Aggiungere equazioni FEM 
+   Level:  
+   Time:  
+   Author: User:M42kus
+   FCVersion: 
+   Files: 
 ---
 
 # Add FEM Equation Tutorial/it

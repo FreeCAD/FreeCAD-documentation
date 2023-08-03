@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Arch Workbench
-   Level:Advanced
-   Time:120 minutes
-   Author:Pablo Gil
-   FCVersion:0.19.x
-   Files:
+ TutorialInfo:
+   Topic: Arch Workbench
+   Level: Advanced
+   Time: 120 minutes
+   Author: Pablo Gil
+   FCVersion: 0.19.x
+   Files: 
 }}
 
 ## Introduction
@@ -13,12 +14,12 @@ It was a such a hard investigation on how to get a working copy of IfcOpenShell-
 
 ## Requirements
 
--   [IfcOpenShell](IfcOpenShell.md)
+-   IfcOpenShell
 -   FreeCAD v0.19 or higher
 
 ## Steps
 
-1\. Download or clone the full GitHub project at <https://github.com/IfcOpenShell/IfcOpenShell> (it will always be the newest version)
+1\. Download or clone the full GitHub project at <https://github.com/IfcOpenShell/IfcOpenShell> 
 
 :   
     `git clone https://github.com/IfcOpenShell/IfcOpenShell

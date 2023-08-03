@@ -1,12 +1,12 @@
 ---
-- TutorialInfo:/fr
-   Topic:Modélisation
-   Level:Débutant
-   Author:heda
-   Time:1.5 heures
-   FCVersion:0.19 ou supérieure
-   Files:
-   SeeAlso:[Créer une simple pièce avec l'atelier Part](Creating_a_simple_part_with_Part_WB/fr.md), [Créer une simple pièce avec l'atelier PartDesign](Creating_a_simple_part_with_PartDesign/fr.md)
+ TutorialInfo:r
+   Topic: Modélisation
+   Level: Débutant
+   Author: heda
+   Time: 1.5 heures
+   FCVersion: 0.19 ou supérieure
+   Files: 
+   SeeAlso: Creating_a_simple_part_with_Part_WB/fr, Creating_a_simple_part_with_PartDesign/fr
 ---
 
 # Creating a simple part with Draft and Part WB/fr

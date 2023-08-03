@@ -1,12 +1,12 @@
 ---
-- TutorialInfo:/fr
-   Topic:Modélisation
-   Level:Débutant
-   Author:GlouGlou
-   Time:1 heure
-   FCVersion:0.17 ou ultérieure
-   Files:
-   SeeAlso:[Créer une simple pièce avec l'atelier Part](Creating_a_simple_part_with_Part_WB/fr.md), [Créer une simple pièce avec les ateliers Draft et Part](Creating_a_simple_part_with_Draft_and_Part_WB/fr.md)
+ TutorialInfo:r
+   Topic: Modélisation
+   Level: Débutant
+   Author: GlouGlou
+   Time: 1 heure
+   FCVersion: 0.17 ou ultérieure
+   Files: 
+   SeeAlso: Creating_a_simple_part_with_Part_WB/fr, Creating_a_simple_part_with_Draft_and_Part_WB/fr
 ---
 
 # Creating a simple part with PartDesign/fr

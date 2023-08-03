@@ -1,5 +1,5 @@
 ---
-- TutorialInfo:/it   Topic:Programmazione   Level:Medio   Time:15 minuti   FCVersion:Tutte   Author:[[User:R-Frank   r-frank]]|Files:none
+ TutorialInfo:t   Topic: Programmazione   Level: Medio   Time: 15 minuti   FCVersion: Tutte   Author: User:R-Frank   r-frank|Files: none
 ---
 
 # How to install additional workbenches/it

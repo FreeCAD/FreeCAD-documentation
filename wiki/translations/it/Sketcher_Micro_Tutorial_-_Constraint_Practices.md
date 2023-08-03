@@ -1,5 +1,5 @@
 ---
-- TutorialInfo:/it   Topic:Modellazione   Level:Principiante   Author:Mark Stephen ([[User:Quick61   Quick61]])|Time:Meno di 15 minuti   FCVersion:0.15.4671 o successiva
+ TutorialInfo:t   Topic: Modellazione   Level: Principiante   Author: Mark Stephen |Time: Meno di 15 minuti   FCVersion: 0.15.4671 o successiva
 ---
 
 # Sketcher Micro Tutorial - Constraint Practices/it

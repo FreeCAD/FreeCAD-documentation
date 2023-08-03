@@ -1,9 +1,10 @@
 ---
-- TutorialInfo:   Topic:Drafting
-   Level:Beginner
-   Time:(needs assessment)
-   Author:[https://wiki.freecadweb.org/User:ThanklessLiving ThanklessLiving] [http://freecadweb.org/wiki/index.php?title=User:wandererfan wandererfan]
-   FCVersion:0.19
+ TutorialInfo:
+   Topic: Drafting
+   Level: Beginner
+   Time: 
+   Author: https://wiki.freecadweb.org/User:ThanklessLiving ThanklessLiving http://freecadweb.org/wiki/index.php?title=User:wandererfan wandererfan
+   FCVersion: 0.19
 ---
 
 # Sandbox:TechDraw template creation tutorial

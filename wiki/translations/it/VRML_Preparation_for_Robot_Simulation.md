@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic:Robot
-   Level:Intermedio
-   Time:
-   Author:
-   FCVersion:
-   Files:
+ TutorialInfo:t
+   Topic: Robot
+   Level: Intermedio
+   Time: 
+   Author: 
+   FCVersion: 
+   Files: 
 ---
 
 # VRML Preparation for Robot Simulation/it

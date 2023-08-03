@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Path Workbench
-   Level:Beginner/Moderate
-   Time:15 minutes
-   Author:Chrisb
-   FCVersion:0.19
-   Files:
+ TutorialInfo:
+   Topic: Path Workbench
+   Level: Beginner/Moderate
+   Time: 15 minutes
+   Author: Chrisb
+   FCVersion: 0.19
+   Files: 
 ---
 
 # Path Walkthrough for the Impatient/pt-br

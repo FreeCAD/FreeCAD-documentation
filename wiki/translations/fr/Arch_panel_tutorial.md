@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/fr
-   Topic:Modélisation d'un panneau architectural
-   Level:Débutant
-   Time:60 minutes
-   Author:Yorik
-   FCVersion:
-   Files:
+ TutorialInfo:r
+   Topic: Modélisation d'un panneau architectural
+   Level: Débutant
+   Time: 60 minutes
+   Author: Yorik
+   FCVersion: 
+   Files: 
 ---
 
 # Arch panel tutorial/fr

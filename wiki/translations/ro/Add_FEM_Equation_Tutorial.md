@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ro
-   Topic: 
-   Level: 
-   Time: 
-   Author:[M42kus](User_M42kus.md)
-   FCVersion:
-   Files:
+ TutorialInfo:o
+   Topic:  
+   Level:  
+   Time:  
+   Author: User:M42kus
+   FCVersion: 
+   Files: 
 ---
 
 # Add FEM Equation Tutorial/ro

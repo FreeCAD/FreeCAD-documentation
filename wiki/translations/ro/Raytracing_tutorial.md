@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ro
-   Topic: Raytracing
-   Level: Beginner
-   Time: 10 minutes + Render time
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-   FCVersion:0.16 or above
-   Files:
+ TutorialInfo:o
+   Topic:  Raytracing
+   Level:  Beginner
+   Time:  10 minutes + Render time
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei
+   FCVersion: 0.16 or above
+   Files: 
 ---
 
 # Raytracing tutorial/ro

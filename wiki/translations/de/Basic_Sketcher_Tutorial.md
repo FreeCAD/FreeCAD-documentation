@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/de
-   Topic: Skizzierer
-   Level: Anfänger
-   Time: 60 Minuten
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] und vocx
-   FCVersion:0.19
-   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&t=43594 Grundlegendes Skizzierer Tutorium aktualisiert]
+ TutorialInfo:e
+   Topic:  Skizzierer
+   Level:  Anfänger
+   Time:  60 Minuten
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei und vocx
+   FCVersion: 0.19
+   Files: https://forum.freecadweb.org/viewtopic.php?f=36&t=43594 Grundlegendes Skizzierer Tutorium aktualisiert
 ---
 
 # Basic Sketcher Tutorial/de

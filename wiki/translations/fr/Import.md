@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/fr
-   Topic:Atelier Arch
-   Level:Avancé
-   Time:120 minutes
-   Author:Pablo Gil
-   FCVersion:0.19.x
-   Files:
+ TutorialInfo:r
+   Topic: Atelier Arch
+   Level: Avancé
+   Time: 120 minutes
+   Author: Pablo Gil
+   FCVersion: 0.19.x
+   Files: 
 }}
 
 ## Introduction
@@ -14,12 +14,12 @@ La recherche d\'une copie de travail d\'IfcOpenShell-python sous OSX/macOS pour 
 
 ## Conditions
 
--   [IfcOpenShell](IfcOpenShell/fr.md)
+-   IfcOpenShell
 -   FreeCAD v0.19 ou ultérieur
 
 ## Étapes
 
-1\. Téléchargez ou clonez le projet GitHub complet sur <https://github.com/IfcOpenShell/IfcOpenShell> (ce sera toujours la version la plus récente)
+1\. Téléchargez ou clonez le projet GitHub complet sur <https://github.com/IfcOpenShell/IfcOpenShell> 
 
 :   
     `git clone https://github.com/IfcOpenShell/IfcOpenShell

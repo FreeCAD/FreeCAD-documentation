@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/tr
-   Topic:Programming
-   Level:Medium programmer
-   Time:15 minutes
-   FCVersion:All
-   Author:[Mario52](User_Mario52.md)
+ TutorialInfo:r
+   Topic: Programming
+   Level: Medium programmer
+   Time: 15 minutes
+   FCVersion: All
+   Author: User:Mario52
 ---
 
 # How to install macros/tr

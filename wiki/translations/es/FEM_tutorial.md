@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/es
-   Topic: Análisis de Elemento Finito
-   Level: Principiante
-   Time: 10 minutos + tiempo del Solver
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-   FCVersion:0.16 o superior
-   Files:
+ TutorialInfo:s
+   Topic:  Análisis de Elemento Finito
+   Level:  Principiante
+   Time:  10 minutos + tiempo del Solver
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei
+   FCVersion: 0.16 o superior
+   Files: 
 ---
 
 # FEM tutorial/es

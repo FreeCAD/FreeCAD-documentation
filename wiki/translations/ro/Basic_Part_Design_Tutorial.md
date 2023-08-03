@@ -1,5 +1,5 @@
 ---
-- TutorialInfo:/ro   Topic:Modeling   Level:Beginner   Author:HarryGeier ([[User:HarryGeier   HarryGeier]])|Time:Less than an hour   FCVersion:0.17 or higher   Files:[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Basic Part Design for v0.17]
+ TutorialInfo:o   Topic: Modeling   Level: Beginner   Author: HarryGeier 
 ---
 
 # Basic Part Design Tutorial/ro

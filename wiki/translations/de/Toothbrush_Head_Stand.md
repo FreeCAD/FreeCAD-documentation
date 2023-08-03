@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/de
-   Topic:Modellierung
-   Level:Anfänger
-   Author:[EmmanuelG](User_EmmanuelG.md)
-   Time:1 Stunde
-   FCVersion:0.16 oder höher
-   Files:[https://www.thingiverse.com/thing:2403310 Thingiverse 2403310]
+ TutorialInfo:e
+   Topic: Modellierung
+   Level: Anfänger
+   Author: User:EmmanuelG
+   Time: 1 Stunde
+   FCVersion: 0.16 oder höher
+   Files: https://www.thingiverse.com/thing:2403310 Thingiverse 2403310
 ---
 
 # Toothbrush Head Stand/de

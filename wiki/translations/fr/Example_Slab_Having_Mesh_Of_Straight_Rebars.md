@@ -1,9 +1,9 @@
 ---
-- TutorialInfo:/fr
-   Topic:Exemple Dalle avec maillage d'armatures droites
-   Level:Intermédiaire
-   Author:Shiv Charan
-   FCVersion:0.20
+ TutorialInfo:r
+   Topic: Exemple Dalle avec maillage d'armatures droites
+   Level: Intermédiaire
+   Author: Shiv Charan
+   FCVersion: 0.20
 ---
 
 # Example Slab Having Mesh Of Straight Rebars/fr

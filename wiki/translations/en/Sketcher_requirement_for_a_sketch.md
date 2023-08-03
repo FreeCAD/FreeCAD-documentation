@@ -1,9 +1,10 @@
 ---
-- TutorialInfo:   Topic:Sketch
-   Level:Beginner
-   Author:[Maker](User_Maker.md)
-   Time:
-   FCVersion:
+ TutorialInfo:
+   Topic: Sketch
+   Level: Beginner
+   Author: User:Maker
+   Time: 
+   FCVersion: 
 ---
 
 # Sketcher requirement for a sketch/en

@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Sketcher
-   Level:Iniciante
-   Time:30 minutos
-   Author:Mark Stephen ([Quick61](User_Quick61.md)) e vocx
-   FCVersion:0.19
-   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&p=371659#p371659 Sketcher Constraints practices]
+ TutorialInfo:
+   Topic: Sketcher
+   Level: Iniciante
+   Time: 30 minutos
+   Author: Mark Stephen  e vocx
+   FCVersion: 0.19
+   Files: https://forum.freecadweb.org/viewtopic.php?f=36&p=371659#p371659 Sketcher Constraints practices
 ---
 
 # Sketcher Micro Tutorial - Constraint Practices/pt-br

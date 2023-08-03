@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/de
-   Topic: Blaupausen/ Zeichnungen
-   Level: Anfänger
-   Time: 15 Minuten
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-   FCVersion:0.16 oder neuer
-   Files:
+ TutorialInfo:e
+   Topic:  Blaupausen/ Zeichnungen
+   Level:  Anfänger
+   Time:  15 Minuten
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei
+   FCVersion: 0.16 oder neuer
+   Files: 
 ---
 
 # Drawing tutorial/de

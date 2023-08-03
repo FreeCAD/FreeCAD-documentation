@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/pl
-   Topic:Dołączanie
-   Level:Początkujący/Średniozaawansowany
-   Author:Bance
-   Time:1 godzina
-   FCVersion:0.17 lub nowszy
-   Files:[https://github.com/BanceFC/Examples/blob/master/AttachmentTutorial.FCStd Basic Attachment Tutorial.FCStd]
+ TutorialInfo:l
+   Topic: Dołączanie
+   Level: Początkujący/Średniozaawansowany
+   Author: Bance
+   Time: 1 godzina
+   FCVersion: 0.17 lub nowszy
+   Files: https://github.com/BanceFC/Examples/blob/master/AttachmentTutorial.FCStd Basic Attachment Tutorial.FCStd
 ---
 
 # Basic Attachment Tutorial/pl

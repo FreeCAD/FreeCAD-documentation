@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/pl
-   Topic:Umocowanie
-   Level:Średniozaawansowany / zaawansowany
-   Author:drmacro
-   Time:1 godzina
-   FCVersion:0.19 lub nowszy
-   Files:do ustalenia
+ TutorialInfo:l
+   Topic: Umocowanie
+   Level: Średniozaawansowany / zaawansowany
+   Author: drmacro
+   Time: 1 godzina
+   FCVersion: 0.19 lub nowszy
+   Files: do ustalenia
 ---
 
 # Advanced Attachment OYX/pl

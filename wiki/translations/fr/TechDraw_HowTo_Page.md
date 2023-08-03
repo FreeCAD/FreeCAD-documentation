@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/fr
-   Topic:Comment et informations diverses
-   Level:Tous
-   Time:n/a
-   Author:n/a
-   FCVersion:0.19
+ TutorialInfo:r
+   Topic: Comment et informations diverses
+   Level: Tous
+   Time: n/a
+   Author: n/a
+   FCVersion: 0.19
 ---
 
 # TechDraw HowTo Page/fr

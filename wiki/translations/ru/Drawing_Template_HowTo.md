@@ -1,5 +1,5 @@
 ---
-- TutorialInfo:/ru   Topic:2D Drafting   Level:Промежуточный   Author:Mark Stephen ([[User:Quick61   Quick61]])|Time:Час или меньше   FCVersion:0.14.3700 или выше
+ TutorialInfo:u   Topic: 2D Drafting   Level: Промежуточный   Author: Mark Stephen |Time: Час или меньше   FCVersion: 0.14.3700 или выше
 ---
 
 # Drawing Template HowTo/ru

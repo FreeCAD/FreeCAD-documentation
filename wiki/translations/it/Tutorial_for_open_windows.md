@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic:Architettura
-   Level:Base
-   Time:-
-   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-   FCVersion:0.18 o superiore
-   Files:nessuno
+ TutorialInfo:t
+   Topic: Architettura
+   Level: Base
+   Time: -
+   Author: https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx
+   FCVersion: 0.18 o superiore
+   Files: nessuno
 ---
 
 # Tutorial for open windows/it

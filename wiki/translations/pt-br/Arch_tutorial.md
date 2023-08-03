@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/pt-br
-   Topic:Modeling
-   Level:Intermediate
-   Time:
-   Author:[Yorik](User_Yorik.md)
-   FCVersion:0.14
-   Files:
+ TutorialInfo:t-br
+   Topic: Modeling
+   Level: Intermediate
+   Time: 
+   Author: User:Yorik
+   FCVersion: 0.14
+   Files: 
 ---
 
 # Arch tutorial/pt-br

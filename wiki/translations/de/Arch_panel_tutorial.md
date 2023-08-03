@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/de
-   Topic: Modellierung eines Architektur Panels
-   Level: Anfänger
-   Time: 60 Minuten
-   Author: Yorik
-   FCVersion:
-   Files:
+ TutorialInfo:e
+   Topic:  Modellierung eines Architektur Panels
+   Level:  Anfänger
+   Time:  60 Minuten
+   Author:  Yorik
+   FCVersion: 
+   Files: 
 ---
 
 # Arch panel tutorial/de

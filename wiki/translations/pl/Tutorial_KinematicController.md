@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/pl
-   Topic:Sterownik kinematyczny utworzony w środowisku Python
-   Level:Przydatna jest podstawowa znajomość języka Python
-   FCVersion:0.20 lub nowszy
-   Time:1 godzina
-   Author:[FBXL5](User_FBXL5.md)
+ TutorialInfo:l
+   Topic: Sterownik kinematyczny utworzony w środowisku Python
+   Level: Przydatna jest podstawowa znajomość języka Python
+   FCVersion: 0.20 lub nowszy
+   Time: 1 godzina
+   Author: User:FBXL5
 ---
 
 # Tutorial KinematicController/pl

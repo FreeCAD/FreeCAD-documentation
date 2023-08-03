@@ -1,5 +1,5 @@
 ---
-- TutorialInfo:/it   Topic:Disegno 2D   Level:Intermedio   Author:Mark Stephen ([[User:Quick61   Quick61]])|Time:Circa un'ora   FCVersion:0.14.3700 o superiore
+ TutorialInfo:t   Topic: Disegno 2D   Level: Intermedio   Author: Mark Stephen |Time: Circa un'ora   FCVersion: 0.14.3700 o superiore
 ---
 
 # Drawing Template HowTo/it

@@ -1,12 +1,12 @@
 ---
-- TutorialInfo:/pl
-   Topic:Modelowanie
-   Level:Początkujący
-   Author:GlouGlou
-   Time:1 godzina
-   FCVersion:0.17 lub nowszy
-   Files:nie dołączono
-   SeeAlso:[Projekt Części: Tworzenie prostej części](Creating_a_simple_part_with_Part_WB/pl.md), [Tworzenie prostej części za pomocą środowiska pracy Rysunek Roboczy i Część](Creating_a_simple_part_with_Draft_and_Part_WB/pl.md)
+ TutorialInfo:l
+   Topic: Modelowanie
+   Level: Początkujący
+   Author: GlouGlou
+   Time: 1 godzina
+   FCVersion: 0.17 lub nowszy
+   Files: nie dołączono
+   SeeAlso: Creating_a_simple_part_with_Part_WB/pl, Creating_a_simple_part_with_Draft_and_Part_WB/pl
 ---
 
 # Creating a simple part with PartDesign/pl

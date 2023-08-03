@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/fr
-   Topic: Plans / Dessins
-   Level: Débutant
-   Time: 15 minutes
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-   FCVersion:0.16 ou au dessus
-   Files:
+ TutorialInfo:r
+   Topic:  Plans / Dessins
+   Level:  Débutant
+   Time:  15 minutes
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei
+   FCVersion: 0.16 ou au dessus
+   Files: 
 ---
 
 # Drawing tutorial/fr

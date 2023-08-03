@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/pl
-   Topic:Modelowanie
-   Level:Użytkownik zaawansowany
-   Author:NormandC
-   Time: nieokreślony
-   FCVersion:0.19.23300 lub nowszy
-   Files:brak
+ TutorialInfo:l
+   Topic: Modelowanie
+   Level: Użytkownik zaawansowany
+   Author: NormandC
+   Time:  nieokreślony
+   FCVersion: 0.19.23300 lub nowszy
+   Files: brak
 ---
 
 # PartDesign Bearingholder Tutorial II/pl

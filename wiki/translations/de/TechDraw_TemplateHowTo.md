@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/de
-   Topic:Zeichnungserstellung
-   Level:Zwischenstufe
-   Time:60 Minuten
-   Author:[http://freecadweb.org/wiki/index.php?title=User:wandererfan wandererfan]
-   FCVersion:0.17
+ TutorialInfo:e
+   Topic: Zeichnungserstellung
+   Level: Zwischenstufe
+   Time: 60 Minuten
+   Author: http://freecadweb.org/wiki/index.php?title=User:wandererfan wandererfan
+   FCVersion: 0.17
 ---
 
 # TechDraw TemplateHowTo/de

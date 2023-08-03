@@ -1,76 +1,76 @@
 ---
-- TutorialInfo:/it
-   Topic:Architettura
-   Level:Intermedio
-   Time:60 minuti
-   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-   FCVersion:0.18 o superiore
-   Files:nessuno
+ TutorialInfo:t
+   Topic: Architettura
+   Level: Intermedio
+   Time: 60 minuti
+   Author: https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx
+   FCVersion: 0.18 o superiore
+   Files: nessuno
 }}
 
 
 
 ## Introduzione
 
-This tutorial shows how to place custom designed [Arch Windows](Arch_Window.md) and [Arch Doors](Arch_Door.md) in a building model. It uses the [Draft Workbench](Draft_Workbench.md), the [Arch Workbench](Arch_Workbench.md), and the [Sketcher Workbench](Sketcher_Workbench.md).
+This tutorial shows how to place custom designed Arch Windows and Arch Doors in a building model. It uses the Draft Workbench, the Arch Workbench, and the Sketcher Workbench.
 
-Common tools used are: [Draft Grid](Draft_Snap_Grid.md), [Draft Snap](Draft_Snap.md), [Draft Wire](Draft_Wire.md), [Arch Wall](Arch_Wall.md), [Arch Window](Arch_Window.md), and [Sketcher NewSketch](Sketcher_NewSketch.md). The user should be familiar with constraining sketches.
+Common tools used are: Draft Grid, Draft Snap, Draft Wire, Arch Wall, Arch Window, and Sketcher NewSketch. The user should be familiar with constraining sketches.
 
-This tutorial was inspired by the tutorials by jpg87 posted in the [FreeCAD forums](https://forum.freecadweb.org/viewforum.php?f=36).
+This tutorial was inspired by the tutorials by jpg87 posted in the FreeCAD forums.
 
--   [Arch Create a custom window](https://forum.freecadweb.org/viewtopic.php?f=36&t=32883)
--   [Arch : How to use your custom Window](https://forum.freecadweb.org/viewtopic.php?f=36&t=32982)
+-   Arch Create a custom window
+-   Arch : How to use your custom Window
 
 See also the following thread for more information on the position of windows and doors.
 
--   [Discussion: Orientation of Windows and Doors](https://forum.freecadweb.org/viewtopic.php?t=35368)
+-   Discussion: Orientation of Windows and Doors
 
 See also the following page for some videos on how to align windows.
 
--   [The workbench used to create architectural projects is called Arch](http://help-freecad-jpg87.fr/04_arch_ind.php)
+-   The workbench used to create architectural projects is called Arch
 
 ## Setup
 
-1\. Open FreeCAD, create a new empty document, and switch to the [Arch Workbench](Arch_Workbench.md).
+1\. Open FreeCAD, create a new empty document, and switch to the Arch Workbench.
 
-2\. Make sure your units are set correctly in the menu **Edit → Preferences → General → Units**. For example, {{incode   MKS (m/kg/s/degree)}} is good for dealing with distances in a typical building; moreover, set the number of decimals to {{incode   4}}, to consider even the smallest fractions of a meter.
+2\. Make sure your units are set correctly in the menu **Edit , Preferences , General , Units**. For example, {{incode   MKS }}{: mediawiki} is good for dealing with distances in a typical building; moreover, set the number of decimals to {{incode   4}}{: mediawiki}, to consider even the smallest fractions of a meter.
 
-3\. Use the [Draft ToggleGrid](Draft_ToggleGrid.md) button to show a grid with enough resolution. You can change the grid appearance in the menu **Edit → Preferences → Draft → Grid and snapping → Grid**. Set lines at every {{incode   50 mm}}, with major lines every {{incode   20}} lines (every meter), and {{incode   1000 lines}} in total (the grid covers an area of 50 m x 50 m).
+3\. Use the Draft ToggleGrid button to show a grid with enough resolution. You can change the grid appearance in the menu **Edit , Preferences , Draft , Grid and snapping , Grid**. Set lines at every {{incode   50 mm}}{: mediawiki}, with major lines every {{incode   20}}{: mediawiki} lines , and {{incode   1000 lines}}{: mediawiki} in total .
 
-4\. [Zoom out](Zoom_out.md) of the 3D view if you are too close to the grid.
+4\. Zoom out of the 3D view if you are too close to the grid.
 
 Now we are ready to create a simple wall on which we can position windows and doors.
 
 ## Placing a wall 
 
-5\. Use the [Draft Wire](Draft_Wire.md) tool to create a wire. Go counterclockwise.
+5\. Use the Draft Wire tool to create a wire. Go counterclockwise.
 
-:   5.1. First point in (0, 4, 0); in the dialog enter **0** **m** **Enter**, **4** **m** **Enter**, **0** **m** **Enter**.
-:   5.2. Second point in (2, 0, 0); in the dialog enter **2** **m** **Enter**, **0** **m** **Enter**, **0** **m** **Enter**.
-:   5.3. Third point in (4, 0, 0); in the dialog enter **4** **m** **Enter**, **0** **m** **Enter**, **0** **m** **Enter**.
-:   5.4. Fourth point in (6, 2, 0); in the dialog enter **6** **m** **Enter**, **2** **m** **Enter**, **0** **m** **Enter**.
-:   5.4. Fifth point in (6, 5, 0); in the dialog enter **6** **m** **Enter**, **5** **m** **Enter**, **0** **m** **Enter**.
+:   5.1. First point in ; in the dialog enter **0** **m** **Enter**, **4** **m** **Enter**, **0** **m** **Enter**.
+:   5.2. Second point in ; in the dialog enter **2** **m** **Enter**, **0** **m** **Enter**, **0** **m** **Enter**.
+:   5.3. Third point in ; in the dialog enter **4** **m** **Enter**, **0** **m** **Enter**, **0** **m** **Enter**.
+:   5.4. Fourth point in ; in the dialog enter **6** **m** **Enter**, **2** **m** **Enter**, **0** **m** **Enter**.
+:   5.4. Fifth point in ; in the dialog enter **6** **m** **Enter**, **5** **m** **Enter**, **0** **m** **Enter**.
 :   5.5. In the number pad press **A** to finish the wire.
-:   5.6. In the number pad press **0** to get an [axonometric view](axonometric_view.md) of the model.
+:   5.6. In the number pad press **0** to get an axonometric view of the model.
 :   
     **Note:**make sure the **Relative** checkbox is disabled if you are giving absolute coordinates.
 :   
-    **Note 2:**the points can also be defined with the mouse pointer by choosing intersections on the grid, with the help of the [Draft Snap](Draft_Snap.md) toolbar and the [Draft Grid](Draft_Snap_Grid.md) method.
+    **Note 2:**the points can also be defined with the mouse pointer by choosing intersections on the grid, with the help of the Draft Snap toolbar and the Draft Grid method.
 :   
-    **Note 3:**you can also create shapes programmatically by scripting in [Python](Python.md). Beware that most functions expect their input in millimeters.
+    **Note 3:**you can also create shapes programmatically by scripting in Python. Beware that most functions expect their input in millimeters.
 
 
-{{Code   code:
+{{Code   code: 
 import FreeCAD
 import Draft
 
-p = [FreeCAD.Vector(0.0, 4000.0, 0),
-FreeCAD.Vector(2000.0, 0.0, 0.0),
-FreeCAD.Vector(4000.0, 0.0, 0.0),
-FreeCAD.Vector(6000.0, 2000.0, 0.0),
-FreeCAD.Vector(6000.0, 5000.0, 0.0)]
+p = FreeCAD.Vector,
+FreeCAD.Vector,
+FreeCAD.Vector,
+FreeCAD.Vector,
+FreeCAD.Vector
 
-w = Draft.makeWire(p, closed=False)
+w = Draft.makeWire
 ---
 
 # Tutorial custom placing of windows and doors/it

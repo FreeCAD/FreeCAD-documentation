@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/de
-   Topic:Architektur Arbeitsbereich
-   Level:Fortgeschritten
-   Time:120 Minuten
-   Author:Pablo Gil
-   FCVersion:0.19.x
-   Files:
+ TutorialInfo:e
+   Topic: Architektur Arbeitsbereich
+   Level: Fortgeschritten
+   Time: 120 Minuten
+   Author: Pablo Gil
+   FCVersion: 0.19.x
+   Files: 
 }}
 
 ## Einführung
@@ -16,12 +16,12 @@ Es war eine so harte Nachforschung darüber, wie man eine Arbeitskopie von IfcOp
 
 ## Anforderungen
 
--   [IfcOpenShell](IfcOpenShell/de.md)
+-   IfcOpenShell
 -   FreeCAD v0.19 oder höher
 
 ## Schritte
 
-1\. Lade das vollständige GitHub Projekt unter <https://github.com/IfcOpenShell/IfcOpenShell> herunter oder klone es (es wird immer die neueste Version sein)
+1\. Lade das vollständige GitHub Projekt unter <https://github.com/IfcOpenShell/IfcOpenShell> herunter oder klone es 
 
 :   
     `git Klon https://github.com/IfcOpenShell/IfcOpenShell

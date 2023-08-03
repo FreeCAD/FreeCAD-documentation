@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/pl
-   Topic: Projektowanie wyrobu
-   Level: Zaawansowany
-   Time: 60 minut
-   Author:[DeepSOIC](User_DeepSOIC.md), [Murdic](User_Murdic.md), vocx
-   FCVersion:0.19
-   Files: [https://forum.freecad.org/viewtopic.php?f=36&t=44668 Aktualizacja - Przewodnik: Tworzenie gwintów.]
+ TutorialInfo:l
+   Topic:  Projektowanie wyrobu
+   Level:  Zaawansowany
+   Time:  60 minut
+   Author: User:DeepSOIC, User:Murdic, vocx
+   FCVersion: 0.19
+   Files:  https://forum.freecad.org/viewtopic.php?f=36&t=44668 Aktualizacja - Przewodnik: Tworzenie gwintów.
 ---
 
 # Thread for Screw Tutorial/pl

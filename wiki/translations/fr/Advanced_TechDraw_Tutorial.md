@@ -1,8 +1,9 @@
 ---
-- TutorialInfo:   Topic:Modélisation
-   Level:Utilisateur expérimenté
-   Author:NormandC
-   FCVersion:≥ 0.19.23300
+ TutorialInfo:
+   Topic: Modélisation
+   Level: Utilisateur expérimenté
+   Author: NormandC
+   FCVersion: ≥ 0.19.23300
 ---
 
 # Advanced TechDraw Tutorial/fr

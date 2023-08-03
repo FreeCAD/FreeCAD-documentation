@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/pl
-   Topic:Jak to zrobić i różne informacje
-   Level:wszyscy
-   Time:nie określono
-   Author:-
-   FCVersion:0.19
+ TutorialInfo:l
+   Topic: Jak to zrobić i różne informacje
+   Level: wszyscy
+   Time: nie określono
+   Author: -
+   FCVersion: 0.19
 ---
 
 # TechDraw HowTo Page/pl

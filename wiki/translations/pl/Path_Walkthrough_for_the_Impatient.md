@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/pl
-   Topic:środowisko pracy CAM
-   Level:początkujący / średnio zaawansowany
-   Time:15 minut
-   Author:Chrisb
-   FCVersion:0.19
-   Files:brak
+ TutorialInfo:l
+   Topic: środowisko pracy CAM
+   Level: początkujący / średnio zaawansowany
+   Time: 15 minut
+   Author: Chrisb
+   FCVersion: 0.19
+   Files: brak
 ---
 
 # Path Walkthrough for the Impatient/pl

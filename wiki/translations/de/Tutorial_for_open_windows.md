@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/de
-   Topic:Architektur
-   Level:Anfänger
-   Time:60 Minuten
-   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-   FCVersion:0.18 or höher
-   Files:none
+ TutorialInfo:e
+   Topic: Architektur
+   Level: Anfänger
+   Time: 60 Minuten
+   Author: https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx
+   FCVersion: 0.18 or höher
+   Files: none
 ---
 
 # Tutorial for open windows/de

@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/fr
-   Topic:Atelier Path
-   Level:Débutant/modéré
-   Time:15 minutes
-   Author:Chrisb
-   FCVersion:0.19
+ TutorialInfo:r
+   Topic: Atelier Path
+   Level: Débutant/modéré
+   Time: 15 minutes
+   Author: Chrisb
+   FCVersion: 0.19
 ---
 
 # Path Walkthrough for the Impatient/fr

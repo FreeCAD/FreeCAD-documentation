@@ -1,8 +1,9 @@
 ---
-- TutorialInfo:   Topic:Modeling
-   Level:Experienced User
-   Author:domad
-   FCVersion:0.19.23300 or higher
+ TutorialInfo:
+   Topic: Modeling
+   Level: Experienced User
+   Author: domad
+   FCVersion: 0.19.23300 or higher
 ---
 
 # Advanced TechDraw Tutorial/es

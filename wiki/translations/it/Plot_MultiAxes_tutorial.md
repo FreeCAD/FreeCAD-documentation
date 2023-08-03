@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic:Plot - Grafico
-   Level:Intermedio
-   Time:
-   Author:
-   FCVersion:
-   Files:
+ TutorialInfo:t
+   Topic: Plot - Grafico
+   Level: Intermedio
+   Time: 
+   Author: 
+   FCVersion: 
+   Files: 
 ---
 
 # Plot MultiAxes tutorial/it

@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/de
-   Topic:Part Arbeitsbereich
-   Level:Anfänger
-   Time:10 Minuten
-   Author:Hughthecat
-   FCVersion:
-   Files:
+ TutorialInfo:e
+   Topic: Part Arbeitsbereich
+   Level: Anfänger
+   Time: 10 Minuten
+   Author: Hughthecat
+   FCVersion: 
+   Files: 
 ---
 
 # Aeroplane/de

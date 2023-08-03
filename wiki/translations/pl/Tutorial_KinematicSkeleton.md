@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/pl
-   Topic:Złożenie 3, i Szkielet kinematyczny
-   Level:Podstawowa wiedza o środowisku Złożenie 3 i Szkicownik będzie pomocna
-   FCVersion:0.20 lub nowsza
-   Time:40 minut
-   Author:[FBXL5](User_FBXL5.md)
-   SeeAlso:[Poradnik Złożenie kinematyczne](Tutorial_KinematicAssembly/pl.md), [Poradnik Sterownik kinematyczny](Tutorial_KinematicController/pl.md)
+ TutorialInfo:l
+   Topic: Złożenie 3, i Szkielet kinematyczny
+   Level: Podstawowa wiedza o środowisku Złożenie 3 i Szkicownik będzie pomocna
+   FCVersion: 0.20 lub nowsza
+   Time: 40 minut
+   Author: User:FBXL5
+   SeeAlso: Tutorial_KinematicAssembly/pl, Tutorial_KinematicController/pl
 ---
 
 # Tutorial KinematicSkeleton/pl

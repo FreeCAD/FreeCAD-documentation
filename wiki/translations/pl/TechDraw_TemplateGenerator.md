@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/pl
-   Topic:Generator szablonów - makrodefinicja Python
-   Level:Podstawowa znajomość środowiska Python i struktur svg jest przydatna
-   FCVersion:0.19.1 i nowszy
-   Time:''(Jeszcze nie wiem)''
-   Author:[FBXL5](User_FBXL5.md)
-   SeeAlso:[Makro TemplateHelper](Macro_TemplateHelper/pl.md)
+ TutorialInfo:l
+   Topic: Generator szablonów - makrodefinicja Python
+   Level: Podstawowa znajomość środowiska Python i struktur svg jest przydatna
+   FCVersion: 0.19.1 i nowszy
+   Time: ''''
+   Author: User:FBXL5
+   SeeAlso: Macro_TemplateHelper/pl
 ---
 
 # TechDraw TemplateGenerator/pl

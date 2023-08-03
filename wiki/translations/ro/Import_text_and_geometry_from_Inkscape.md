@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ro
-   Topic: Importaţi text şi forme geometrice create cu InkScape
-   Nivel: Începător
-   Timp: 30 minute
-   Autor:r-frank
-   FCVersion:0.16.6704
-   Fişiere:
+ TutorialInfo:o
+   Topic:  Importaţi text şi forme geometrice create cu InkScape
+   Nivel:  Începător
+   Timp:  30 minute
+   Autor: r-frank
+   FCVersion: 0.16.6704
+   Fişiere: 
 ---
 
 # Import text and geometry from Inkscape/ro

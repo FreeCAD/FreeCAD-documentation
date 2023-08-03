@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/fr
-   Topic:Analyse par éléments finis
-   Level:Débutant
-   Time:10 minutes
-   Author:[http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd]
-   FCVersion:0.16.6377 ou plus récente
+ TutorialInfo:r
+   Topic: Analyse par éléments finis
+   Level: Débutant
+   Time: 10 minutes
+   Author: http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd
+   FCVersion: 0.16.6377 ou plus récente
 ---
 
 # FEM CalculiX Cantilever 3D/fr

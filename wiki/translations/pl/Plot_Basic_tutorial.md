@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/pl
-   Topic:Poradnik: Podstawy środowiska pracy Wykres
-   Level:Początkujący
-   Time:
-   Author:
-   FCVersion:-
-   Files:
+ TutorialInfo:l
+   Topic: Poradnik: Podstawy środowiska pracy Wykres
+   Level: Początkujący
+   Time: 
+   Author: 
+   FCVersion: -
+   Files: 
 ---
 
 # Plot Basic tutorial/pl

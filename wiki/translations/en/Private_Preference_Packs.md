@@ -1,9 +1,10 @@
 ---
-- TutorialInfo:   Topic:Custom Repositories
-   Level:Intermediate/Advanced
-   Author:drmacro
-   FCVersion:1.0 or above
-   Files:[TBD]
+ TutorialInfo:
+   Topic: Custom Repositories
+   Level: Intermediate/Advanced
+   Author: drmacro
+   FCVersion: 1.0 or above
+   Files: TBD
 ---
 
 # Private Preference Packs/en

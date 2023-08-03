@@ -1,12 +1,12 @@
 ---
-- TutorialInfo:/pl
-   Topic:Modelowanie
-   Level:początkujący
-   Author:heda
-   Time:2 godziny
-   FCVersion:0.19 lub nowszy
-   Files: nie dołączono
-   SeeAlso:[Projekt Części: tworzenie podstawowych brył](Creating_a_simple_part_with_PartDesign/pl.md), [Tworzenie prostej części za pomocą środowiska pracy Rysunek Roboczy i Część](Creating_a_simple_part_with_Draft_and_Part_WB/pl.md)
+ TutorialInfo:l
+   Topic: Modelowanie
+   Level: początkujący
+   Author: heda
+   Time: 2 godziny
+   FCVersion: 0.19 lub nowszy
+   Files:  nie dołączono
+   SeeAlso: Creating_a_simple_part_with_PartDesign/pl, Creating_a_simple_part_with_Draft_and_Part_WB/pl
 ---
 
 # Creating a simple part with Part WB/pl

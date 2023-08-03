@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Adding new navigation option to FreeCAD
-   Level:Advanced
-   Time:
-   Author:Kunda1
-   FCVersion:0.19.x and above
-   Files:
+ TutorialInfo:
+   Topic: Adding new navigation option to FreeCAD
+   Level: Advanced
+   Time: 
+   Author: Kunda1
+   FCVersion: 0.19.x and above
+   Files: 
 ---
 
 # Adding a new mouse navigation option to FreeCAD

@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Template generation with Python macro
-   Level:Basic skills of Python and svg-structures are helpful
-   FCVersion:0.19.1 and later
-   Time:(I don't know yet)
-   Author:[FBXL5](User_FBXL5.md)
-   SeeAlso:[Macro TemplateHelper](Macro_TemplateHelper.md)
+ TutorialInfo:
+   Topic: Template generation with Python macro
+   Level: Basic skills of Python and svg-structures are helpful
+   FCVersion: 0.19.1 and later
+   Time: 
+   Author: User:FBXL5
+   SeeAlso: Macro_TemplateHelper
 ---
 
 # TechDraw TemplateGenerator

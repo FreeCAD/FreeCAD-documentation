@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/pl
-   Topic:środowisko praczy Część
-   Level:początkujący
-   Time:10 minut
-   Author:Hughthecat
-   FCVersion:wszystkie
-   Files:brak
+ TutorialInfo:l
+   Topic: środowisko praczy Część
+   Level: początkujący
+   Time: 10 minut
+   Author: Hughthecat
+   FCVersion: wszystkie
+   Files: brak
 ---
 
 # Aeroplane/pl

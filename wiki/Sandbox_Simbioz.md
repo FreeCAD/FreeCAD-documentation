@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Placement
-   Level:Beginner
-   Author:Simbioz
-   Time:5 minutes
-   FCVersion:0.19 or above
-   Files:[none]
+ TutorialInfo:
+   Topic: Placement
+   Level: Beginner
+   Author: Simbioz
+   Time: 5 minutes
+   FCVersion: 0.19 or above
+   Files: none
 ---
 
 # Sandbox:Simbioz

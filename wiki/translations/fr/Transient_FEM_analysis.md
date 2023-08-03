@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/fr
-   Topic: Analyse FEM transitoire
-   Level: 
-   Time:
-   Author:
-   FCVersion:
-   Files:
+ TutorialInfo:r
+   Topic:  Analyse FEM transitoire
+   Level:  
+   Time: 
+   Author: 
+   FCVersion: 
+   Files: 
 ---
 
 # Transient FEM analysis/fr

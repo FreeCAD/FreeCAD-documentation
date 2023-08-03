@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/zh-tw
-   Topic:Part Workbench
-   Level:Beginner
-   Time:10 minutes
-   Author:
-   FCVersion:
-   Files:
+ TutorialInfo:h-tw
+   Topic: Part Workbench
+   Level: Beginner
+   Time: 10 minutes
+   Author: 
+   FCVersion: 
+   Files: 
 ---
 
 # Aeroplane/zh-tw

@@ -1,12 +1,12 @@
 ---
-- TutorialInfo:/ru
-   Topic:Моделирование
-   Level:Для начинающих
-   Author:GlouGlou
-   Time:1 час
-   FCVersion:0.17 и выше
-   Files:
-   SeeAlso:[Создание простой детали в верстаке Part](Creating_a_simple_part_with_Part_WB/ru.md), [Создание простой детали в верстаках Draft и Part](Creating_a_simple_part_with_Draft_and_Part_WB/ru.md)
+ TutorialInfo:u
+   Topic: Моделирование
+   Level: Для начинающих
+   Author: GlouGlou
+   Time: 1 час
+   FCVersion: 0.17 и выше
+   Files: 
+   SeeAlso: Creating_a_simple_part_with_Part_WB/ru, Creating_a_simple_part_with_Draft_and_Part_WB/ru
 ---
 
 # Creating a simple part with PartDesign/ru

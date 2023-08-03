@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ru
-   Topic:Scripting
-   Level:Base
-   Time:
-   Author:onekk Carlo
-   FCVersion:0.19
-   Files:
+ TutorialInfo:u
+   Topic: Scripting
+   Level: Base
+   Time: 
+   Author: onekk Carlo
+   FCVersion: 0.19
+   Files: 
 ---
 
 # Scripts/ru

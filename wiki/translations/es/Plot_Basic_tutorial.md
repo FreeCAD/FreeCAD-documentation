@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/es
-   Topic:Plot Workbench
-   Level:Beginner
-   Time:
-   Author:
-   FCVersion:
-   Files:
+ TutorialInfo:s
+   Topic: Plot Workbench
+   Level: Beginner
+   Time: 
+   Author: 
+   FCVersion: 
+   Files: 
 ---
 
 # Plot Basic tutorial/es

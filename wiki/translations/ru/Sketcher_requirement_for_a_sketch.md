@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/ru
-   Topic:Эскиз
-   Level:Новичок
-   Author:[Maker](User_Maker.md)
-   Time:
-   FCVersion:
+ TutorialInfo:u
+   Topic: Эскиз
+   Level: Новичок
+   Author: User:Maker
+   Time: 
+   FCVersion: 
 ---
 
 # Sketcher requirement for a sketch/ru

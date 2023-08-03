@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/fr
-   Topic:Modélisation 2D
-   Level:Intermédiaire
-   Author:Mark Stephen ([Quick61](User_Quick61.md))
-   Time:Moins d'une heure
-   FCVersion:0.14.3700 ou plus
+ TutorialInfo:r
+   Topic: Modélisation 2D
+   Level: Intermédiaire
+   Author: Mark Stephen 
+   Time: Moins d'une heure
+   FCVersion: 0.14.3700 ou plus
 ---
 
 # Drawing Template HowTo/fr

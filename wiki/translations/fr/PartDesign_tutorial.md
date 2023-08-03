@@ -1,23 +1,23 @@
 ---
-- TutorialInfo:/fr
-   Topic: Sketcher
-   Level: Débutant
-   Time: 15 minutes
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-   FCVersion:0.16 or above
-   Files:
+ TutorialInfo:r
+   Topic:  Sketcher
+   Level:  Débutant
+   Time:  15 minutes
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei
+   FCVersion: 0.16 or above
+   Files: 
 }}
 
 ### Introduction
 
-Ce tutoriel a pour but d\'initier le lecteur à utilisation de l\' [Atelier PartDesign](PartDesign_Workbench/fr.md). Le lecteur verra comment créer des objets 3D basés sur des esquisses, effectuer des opérations de soustraction et comment répliquer des entités spécifiques dans un modèle.
+Ce tutoriel a pour but d\'initier le lecteur à utilisation de l\' Atelier PartDesign. Le lecteur verra comment créer des objets 3D basés sur des esquisses, effectuer des opérations de soustraction et comment répliquer des entités spécifiques dans un modèle.
 
-<img alt="" src=images/Sketcher_tutorial_result.png  style="width:480px;">
+!{width="480"}
 
 ### Prérequis
 
 -   FreeCAD version 0.17 ou supérieure
--   Le lecteur a terminé le [tutoriel sur les esquisses](Basic_Sketcher_Tutorial/fr.md)
+-   Le lecteur a terminé le tutoriel sur les esquisses
 
 ### Procédure
 
@@ -25,21 +25,21 @@ Ce tutoriel a pour but d\'initier le lecteur à utilisation de l\' [Atelier Part
 
 L\'objectif de l**\'atelier PartDesign** est de permettre à l\'utilisateur de créer des formes géométriques dans un espace 3D, pour répondre à un certain besoin. Ainsi , sont mis à disposition des outils pour faire des esquisses et les convertir en objets 3D.
 
-Il existe deux outils de base pour y parvenir: <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [protusion](PartDesign_Pad/fr.md) et <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [Révolution](PartDesign_Revolution/fr.md). À coté de leur équivalent de substitution (<img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> [Poche](PartDesign_Pocket/fr.md) et <img alt="" src=images/PartDesign_Groove.svg  style="width:32px;"> [Rainure](PartDesign_Groove/fr.md)) Ils permettent de faire la plupart des actions usuelles utilisées dans cet atelier.
+Il existe deux outils de base pour y parvenir: !{width="32"} protusion et !{width="32"} Révolution. À coté de leur équivalent de substitution {width="32"} Poche et !{width="32"} Rainure) Ils permettent de faire la plupart des actions usuelles utilisées dans cet atelier.
 
 1.  Aller sur l\'atelier PartDesign
-2.  L\'esquisse étant sélectionnée dans l\'[arborescence](tree_view/fr.md), appuyez sur **[PartDesign Body](File:PartDesign_Body.svg   16px]] [[PartDesign_Body/fr.md)**, choisissez le plan XY par défaut et appuyez sur **OK**. L\'esquisse doit maintenant apparaître à l\'intérieur du corps.
-3.  Sélectionner <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [Protusion](PartDesign_Pad/fr.md)
+2.  L\'esquisse étant sélectionnée dans l\'arborescence, appuyez sur **File:PartDesign_Body.svg   16px PartDesign_Body/fr**{: mediawiki}, choisissez le plan XY par défaut et appuyez sur **OK**. L\'esquisse doit maintenant apparaître à l\'intérieur du corps.
+3.  Sélectionner !{width="32"} Protusion
 4.  Renseigner une distance de 5mm
 5.  Sélectionnez **Ok**
 
-Une autre manière de créer des formes géométriques 3D est avec l\'outil <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [éevolution](PartDesign_Revolution/fr.md) .
+Une autre manière de créer des formes géométriques 3D est avec l\'outil !{width="32"} éevolution .
 
-<img alt="" src=images/PartDesign_revolution_exercise.png  style="width:480px;">
+!{width="480"}
 
-1.  Créez un nouveau corps **[PartDesign Body](File:PartDesign_Body.svg   16px]] [[PartDesign_Body/fr.md)**, puis une esquisse basée sur l\'image ci-dessus.
+1.  Créez un nouveau corps **File:PartDesign_Body.svg   16px PartDesign_Body/fr**{: mediawiki}, puis une esquisse basée sur l\'image ci-dessus.
 2.  L\'esquisse peut être sur n\'importe quel plan, mais doit coïncider avec l\'axe horizontal.
-3.  Sélectionner <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [Révolution](PartDesign_Revolution/fr.md)
+3.  Sélectionner !{width="32"} Révolution
 4.  Définissez \"Axe\" sur \"Axe d\'esquisse horizontal\"
 5.  Renseigner un angle de 360°
 
@@ -48,8 +48,8 @@ Une autre manière de créer des formes géométriques 3D est avec l\'outil <img
 Commencer par créer une esquisse avec la forme à enlever.
 
 1.  Sélectionner la face supérieure du **pad**
-2.  Sélectionner <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> [Nouvelle esquisse](Sketcher_NewSketch/fr.md)
-3.  Sélectionner <img alt="" src=images/Sketcher_External.svg‎‎  style="width:32px;"> [Géométrie externe](Sketcher_External/fr.md)
+2.  Sélectionner !{width="32"} Nouvelle esquisse
+3.  Sélectionner !{width="32"} Géométrie externe
 4.  Approcher le bord du pad, un arc devrait apparaître en surbrillance
 5.  Sélectionner l\'arc. Un arc de couleur différente devrait apparaître dans l\'esquisse
 6.  Créer un cercle centré sur le même point que l\'arc, et renseigner un rayon de 5 mm
@@ -57,7 +57,7 @@ Commencer par créer une esquisse avec la forme à enlever.
 
 {{Message| '''External Geometry'''
 Lorsqu'un élément 3D a été créé, il est possible de créer des références à l'intérieur d'une esquisse.
-# Sélectionner <img src="images/Sketcher_External.svg" width=32px> [Géométrie externe](Sketcher_External/fr.md).
+# Sélectionner Image:Sketcher_External.svg Sketcher_External/fr.
 #Approcher l'élément à référencer, le bord d'un '''Pad''' par exemple.
 # Cliquer dessus
 # De nouveaux éléments d'une couleur différente doivent apparaître sur l'esquisse à l'emplacement de la fonction à référencer.

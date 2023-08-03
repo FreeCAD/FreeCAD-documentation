@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ru
-   Topic:Rendering
-   Level:Intermediate
-   Time:120 минут
-   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-   FCVersion:0.18 или выше
-   Files:нет
+ TutorialInfo:u
+   Topic: Rendering
+   Level: Intermediate
+   Time: 120 минут
+   Author: https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx
+   FCVersion: 0.18 или выше
+   Files: нет
 ---
 
 # Tutorial FreeCAD POV ray/ru

@@ -1,20 +1,20 @@
 ---
-- TutorialInfo:/de
-   Topic: Part Scripting - Ball Bearing #2
-   Level: Beginner
-   Time: 30 min
-   Author:r-frank
-   FCVersion:0.16.6706
-   Files:
+ TutorialInfo:e
+   Topic:  Part Scripting - Ball Bearing #2
+   Level:  Beginner
+   Time:  30 min
+   Author: r-frank
+   FCVersion: 0.16.6706
+   Files: 
 }}
 
 ### Einleitung
 
 Dieses Tutorial ist gedacht als Einführung wie man Modelle erstellt mit Hilfe von Python Skripten innerhalb von FreeCAD.
 Dieses Tutorial erklärt wie man ein Kugellager erstellt mittels Sizzen, die dann rotiert werden.
-Der Code wird ein neues FreeCAD-Dokument erstellen mit 12 einzelnen Körpern (Innerer Ring, äußerer Ring und 10 Kugeln).
+Der Code wird ein neues FreeCAD-Dokument erstellen mit 12 einzelnen Körpern .
 Das Ergebnis sieht so aus:
-<img alt="" src=images/Tutorial_BallBearing01.jpg  style="width:400px;">
+!{width="400"}
 
 ### Arbeitsablauf
 
@@ -24,24 +24,24 @@ Es gibt nur wenige Unterschiede.
 
 -   Zeichne die grundlegende Figur des äußeren Ringes bestehend aus vier Linien und vier Kreisbögen.
 
-<img alt="" src=images/TutorialBallBearing_P2-Sketch.png  style="width:150px;">
+!{width="150"}
 
--   Verbinde die Elemente und upgrade Sie zu einem Draht (wire)
+-   Verbinde die Elemente und upgrade Sie zu einem Draht 
 -   Upgrade des wires zu einer Fläche
 -   Rotieren der Fläche um einen Rotationskörper zu erhalten
 -   Zeichne einen Kreis
--   Upgrade des Kreises zu einem Draht (wire)
+-   Upgrade des Kreises zu einem Draht 
 -   Upgrade des wires zu einer Fläche
 -   Rotieren der Fläche und Hinzufügen einer boolschen Verschneidung um die Rille des äußeren Ringes zu erhalten
 -   Zeichne die grundlegende Figur des inneren Ringes bestehend aus vier Linien und vier Kreisbögen.
--   Verbinde die Elemente und upgrade Sie zu einem Draht (wire)
+-   Verbinde die Elemente und upgrade Sie zu einem Draht 
 -   Upgrade des wires zu einer Fläche
 -   Rotieren der Fläche um einen Rotationskörper zu erhalten
 -   Zeichne einen Kreis
--   Upgrade des Kreises zu einem Draht (wire)
+-   Upgrade des Kreises zu einem Draht 
 -   Upgrade des wires zu einer Fläche
 -   Rotieren der Fläche und Hinzufügen einer boolschen Verschneidung um die Rille des inneren Ringes zu erhalten
--   Einfügen der Kugeln auf dieselbe Art wie in Teil 1 (wegen der Effektivität)
+-   Einfügen der Kugeln auf dieselbe Art wie in Teil 1 
 -   Wechsle in die axometrische Ansicht
 -   Zoom auf Alles
 
@@ -58,7 +58,7 @@ Dann fügen wir eine boolsche Verschneidung hinzu und wir haben die komplette Fo
 Der korrekte skizzen-basierende Ablauf um die Kugeln einzufügen wäre wie folgt:
 \*Zeichne einen Halbkreis mit dem Zentrum im Nullpunkt und zeichne eine Linie, die die offene Seite des Halbkreises schließt.
 
--   Wandle die zwei Elemente in einen Draht (wire) um, upgrade zur Fläche und rotiere um die Z-Achse, um eine Kugel zu erhalten
+-   Wandle die zwei Elemente in einen Draht  um, upgrade zur Fläche und rotiere um die Z-Achse, um eine Kugel zu erhalten
 -   Dann mit dem \"translate\"-Befehl die Kugel in die korrekte Position bringen
 -   Die obigen Schritte neun mal wiederholen und mittels Formel die korrekte Positon der Kugel ermittlen
 -   Diese Operation kann mittels einer Schelife programmiert werden
@@ -68,19 +68,19 @@ Also benutzen wir dieselbe Methode wie in Teil 1.
 
 ### Links
 
-[Skriptgenerierte Objekte](Scripted_objects/de.md): Diese Wiki-Seite erklärt die Grundlagen für part scripting
-[Topologisches Datenskripten](Topological_data_scripting/de.md): Ein Tutorial für die Grundlagen des part scriptings
-[Skriptgenerierte Teile: Kugellager - Teil 1](Scripted_Parts:_Ball_Bearing_-_Part_1/de.md): Erstellen des Modelles mittels Grundkörpern
-[Bearings from scripted sketches](http://linuxforanengineer.blogspot.de/2013/12/bearings-from-scripted-sketches.html): Basis für dieses Tutorial, vielen Dank an JMG \...
+Skriptgenerierte Objekte: Diese Wiki-Seite erklärt die Grundlagen für part scripting
+Topologisches Datenskripten: Ein Tutorial für die Grundlagen des part scriptings
+Skriptgenerierte Teile: Kugellager - Teil 1: Erstellen des Modelles mittels Grundkörpern
+Bearings from scripted sketches: Basis für dieses Tutorial, vielen Dank an JMG \...
 
 ### Code
 
 
-{{Code   code:
+{{Code   code: 
 ## Ball-bearing Skript
-## 11.08.2016 von r-frank (BPLRFE/LearnFreeCAD on Youtube)
+## 11.08.2016 von r-frank 
 ## basierend auf dem ball bearing script by JMG
-## (http://linuxforanengineer.blogspot.de/2013/12/bearings-from-scripted-sketches.html)
+## 
 #
 #um Grundkoerper einzufuegen
 import Part
@@ -90,85 +90,85 @@ import math
 from FreeCAD import Base
 #
 #Werte#
-#(Radius des Schaftes/innerer Radius des inneren Ringes)
+#
 R1=15.0
-#(Aussenradius des Innenringes)
+#
 R2=25.0
-#(Innenradius des Aussenringes)
+#
 R3=30.0
-#(Aussenradius des Aussenringes)
+#
 R4=40.0
-#(Dicke des Lagers)
+#
 TH=15.0
-#(Anzahl der Kugeln)
+#
 NBall=10
-#(Radius der Kugeln)
+#
 RBall=5.0
-#(Verrundungs-Radius)
+#
 RR=1
 #Erste Koordinate des Zentrums der Kugel
-CBall=((R3-R2)/2)+R2
+CBall=/2)+R2
 #Zweite Koordinate des Zentrums der Kugel
 PBall=TH/2
 #
 #Erstelle neues Dokument
-App.newDocument("Unnamed")
-App.setActiveDocument("Unnamed")
+App.newDocument
+App.setActiveDocument
 #
 #Linien fuer die Grundform des aeusseren Ringes
-L1o=Part.makeLine((R4,0,TH-RR),(R4,0,RR))
-L2o=Part.makeLine((R4-RR,0,0),(R3+RR,0,0))
-L3o=Part.makeLine((R3,0,RR),(R3,0,TH-RR))
-L4o=Part.makeLine((R3+RR,0,TH),(R4-RR,0,TH))
+L1o=Part.makeLine,)
+L2o=Part.makeLine,)
+L3o=Part.makeLine,)
+L4o=Part.makeLine,)
 #Ecken abrunden
-A1o=Part.makeCircle(RR,Base.Vector(R4-RR,0,RR),Base.Vector(0,1,0),0,90)
-A2o=Part.makeCircle(RR,Base.Vector(R3+RR,0,RR),Base.Vector(0,1,0),90,180)
-A3o=Part.makeCircle(RR,Base.Vector(R3+RR,0,TH-RR),Base.Vector(0,1,0),180,270)
-A4o=Part.makeCircle(RR,Base.Vector(R4-RR,0,TH-RR),Base.Vector(0,1,0),270,360)
+A1o=Part.makeCircle,Base.Vector,0,90)
+A2o=Part.makeCircle,Base.Vector,90,180)
+A3o=Part.makeCircle,Base.Vector,180,270)
+A4o=Part.makeCircle,Base.Vector,270,360)
 #Verbinden der Elemente, Upgrade, Revolve und Cut fuer aeusseren Ring
-OR=Part.Wire([L1o,A1o,L2o,A2o,L3o,A3o,L4o,A4o])
-OR=Part.Face(OR)
-OR=OR.revolve(Base.Vector(0,0,1),Base.Vector(0,0,360))
-C1=Part.makeCircle(RBall,Base.Vector(R2+(R3-R2)/2,0,TH/2),Base.Vector(0,1,0),0,360)
-GRo=Part.Wire([C1])
-GRo=Part.Face(GRo)
-GRo=GRo.revolve(Base.Vector(0,0,1),Base.Vector(0,0,360))
-OR=OR.cut(GRo)
-Part.show(OR)
+OR=Part.Wire
+OR=Part.Face
+OR=OR.revolve,Base.Vector)
+C1=Part.makeCircle/2,0,TH/2),Base.Vector,0,360)
+GRo=Part.Wire
+GRo=Part.Face
+GRo=GRo.revolve,Base.Vector)
+OR=OR.cut
+Part.show
 #
 #Linien fuer die Grundform des inneren Ringes
-L1i=Part.makeLine((R2,0,TH-RR),(R2,0,RR))
-L2i=Part.makeLine((R2-RR,0,0),(R1+RR,0,0))
-L3i=Part.makeLine((R1,0,RR),(R1,0,TH-RR))
-L4i=Part.makeLine((R1+RR,0,TH),(R2-RR,0,TH))
+L1i=Part.makeLine,)
+L2i=Part.makeLine,)
+L3i=Part.makeLine,)
+L4i=Part.makeLine,)
 #Ecken abrunden
-A1i=Part.makeCircle(RR,Base.Vector(R2-RR,0,RR),Base.Vector(0,1,0),0,90)
-A2i=Part.makeCircle(RR,Base.Vector(R1+RR,0,RR),Base.Vector(0,1,0),90,180)
-A3i=Part.makeCircle(RR,Base.Vector(R1+RR,0,TH-RR),Base.Vector(0,1,0),180,270)
-A4i=Part.makeCircle(RR,Base.Vector(R2-RR,0,TH-RR),Base.Vector(0,1,0),270,360)
+A1i=Part.makeCircle,Base.Vector,0,90)
+A2i=Part.makeCircle,Base.Vector,90,180)
+A3i=Part.makeCircle,Base.Vector,180,270)
+A4i=Part.makeCircle,Base.Vector,270,360)
 #Verbinden der Elemente, Upgrade, Revolve und Cut fuer inneren Ring
-IR=Part.Wire([L1i,A1i,L2i,A2i,L3i,A3i,L4i,A4i])
-IR=Part.Face(IR)
-IR=IR.revolve(Base.Vector(0,0,1),Base.Vector(0,0,360))
-C2=Part.makeCircle(RBall,Base.Vector(R2+(R3-R2)/2,0,TH/2),Base.Vector(0,1,0),0,360)
-GRi=Part.Wire([C2])
-GRi=Part.Face(GRi)
-GRi=GRi.revolve(Base.Vector(0,0,1),Base.Vector(0,0,360))
-IR=IR.cut(GRi)
-Part.show(IR)
+IR=Part.Wire
+IR=Part.Face
+IR=IR.revolve,Base.Vector)
+C2=Part.makeCircle/2,0,TH/2),Base.Vector,0,360)
+GRi=Part.Wire
+GRi=Part.Face
+GRi=GRi.revolve,Base.Vector)
+IR=IR.cut
+Part.show
 #
 #Kugeln einfuegen#
-for i in range(NBall):
-  Ball=Part.makeSphere(RBall)
-  Alpha=(i*2*math.pi)/NBall
-  BV=(CBall*math.cos(Alpha),CBall*math.sin(Alpha),TH/2)
-  Ball.translate(BV)
-  Part.show(Ball)
+for i in range:
+  Ball=Part.makeSphere
+  Alpha=/NBall
+  BV=,CBall*math.sin,TH/2)
+  Ball.translate
+  Part.show
 #
 #Alles huebsch machen ...#
-App.ActiveDocument.recompute()
-Gui.ActiveDocument.ActiveView.viewAxometric()
-Gui.SendMsgToActiveView("ViewFit")
+App.ActiveDocument.recompute
+Gui.ActiveDocument.ActiveView.viewAxometric
+Gui.SendMsgToActiveView
 ---
 
 # Scripted Parts: Ball Bearing - Part 2/de

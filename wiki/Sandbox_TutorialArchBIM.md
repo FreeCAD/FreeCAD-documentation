@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/en
-   Topic:Modeling
-   Level:Intermediate
-   Time:Indefinate
-   Author:[cadgiru](User_cadgiru.md)
-   FCVersion:0.17
-   Files:
+ TutorialInfo:n
+   Topic: Modeling
+   Level: Intermediate
+   Time: Indefinate
+   Author: User:cadgiru
+   FCVersion: 0.17
+   Files: 
 ---
 
 # Sandbox:TutorialArchBIM

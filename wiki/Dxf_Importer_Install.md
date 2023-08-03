@@ -1,9 +1,10 @@
 ---
-- TutorialInfo:   Topic:SampleClass
-   Level:Medium user
-   Time:15 minutes
-   Author:[Mario52](User_Mario52.md)
-   FCVersion:All
+ TutorialInfo:
+   Topic: SampleClass
+   Level: Medium user
+   Time: 15 minutes
+   Author: User:Mario52
+   FCVersion: All
 }}
 
 ### Description
@@ -19,12 +20,12 @@ identify the macros folder FreeCAD
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-If you have a version from 0.15 you can use the automatic update DXF package (expand to see)
+If you have a version from 0.15 you can use the automatic update DXF package 
 
 
 <div class="mw-collapsible-content">
 
-<img alt="Automatic DXF install" src=images/Dxf_Importer_Install_01b.png  style="width:640px;"> 
+!Automatic DXF install{width="640"} 
 
 
 </div>
@@ -32,23 +33,23 @@ If you have a version from 0.15 you can use the automatic update DXF package (ex
 
 </div>
 
-**2 :** click **Menu \> Macro \> Macros** or the click the bottom <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:18px;"> \"Open a dialog to let you execute a macro Recorded\"
+**2 :** click **Menu \> Macro \> Macros** or the click the bottom !{width="18"} \"Open a dialog to let you execute a macro Recorded\"
 
-![open FreeCAD](images/Dxf_Importer_Install_01.png ) 
+!open FreeCAD 
 
 **3 :** one dialog box open
 
-**4 :** copy the address of \"Macro destination\" (here **C:\\Users\\d\\AppData\\Roaming\\FreeCAD\\**) In Ubuntu, this is normally **/home/your_user_name/.FreeCAD**
+**4 :** copy the address of \"Macro destination\"  In Ubuntu, this is normally **/home/your_user_name/.FreeCAD**
 
-![Open a dialog to let you execute a macro Recorded](images/Dxf_Importer_Install_02.png ) 
+!Open a dialog to let you execute a macro Recorded 
 
 **5 :** paste the address into your browser and confirm
 
-![paste the address into your browser](images/Dxf_Importer_Install_03.png ) 
+!paste the address into your browser 
 
 **6 :** leave open the explorer
 
-![](images/Dxf_Importer_Install_04.png) 
+! 
 
 **7 :** Close FreeCAD
 
@@ -63,12 +64,12 @@ Download the files
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-(or choice for your development version see down page) (expand to see)
+ 
 
 
 <div class="mw-collapsible-content">
 
-<img alt="Automatic DXF install" src=images/Dxf_Importer_Install_05b.png  style="width:640px;"> 
+!Automatic DXF install{width="640"} 
 
 
 </div>
@@ -76,43 +77,43 @@ Download the files
 
 </div>
 
-![download files](images/Dxf_Importer_Install_05.png ) 
+!download files 
 
-**10 :** you must extract the file to a temporary directory (here **c:\\tmp**)
+**10 :** you must extract the file to a temporary directory 
 
-![extract the file](images/Dxf_Importer_Install_06.png ) 
+!extract the file 
 
 **11 :** the decompresser creates a new folder named \"**Draft-dxf-import-master**\"
 
-![decompresser creates a new folder](images/Dxf_Importer_Install_07.png ) 
+!decompresser creates a new folder 
 
 **12 :** the files are in this folder select all the files and \"Cut\"
 
-![select all the files and Cut](images/Dxf_Importer_Install_08.png ) 
+!select all the files and Cut 
 
-**13 :** paste the files in the folder FreeCAD macros in the explorer open (step 6) (**C:\\Users\\d\\AppData\\Roaming\\FreeCAD\\**)
+**13 :** paste the files in the folder FreeCAD macros in the explorer open  
 
 In Ubuntu, this is normally **/home/your_user_name/.FreeCAD**
 
-![paste the files in the folder](images/Dxf_Importer_Install_09.png ) 
+!paste the files in the folder 
 
-**14 :** Open FreeCAD click the button <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:18px;"> , the necessary files in DXF format are present, close the window \"Execute macro
+**14 :** Open FreeCAD click the button !{width="18"} , the necessary files in DXF format are present, close the window \"Execute macro
 
-![open FreeCAD](images/Dxf_Importer_Install_15.png ) 
+!open FreeCAD 
 
 **15 :** load your DXF file
 
-![load your DXF file](images/Dxf_Importer_Install_10.png ) 
+!load your DXF file 
 
 **16 :** DXF file can be used
 
-![DXF file can be used](images/Dxf_Importer_Install_11.png ) 
+!DXF file can be used 
 
 **VERSIONS**
 
 This repository contains several versions of the DXF importer. The default version, that you download when you press the \"download ZIP\" button above, is always the version needed by the current stable version of FreeCAD.
 
-If you use another version of FreeCAD, for example a development version or an older version, you might also need another verison of this DXF library. You can find out which version of the DXF library is needed by your version of FreeCAD, by entering the following code in the FreeCAD python console:  {{Code   code:
+If you use another version of FreeCAD, for example a development version or an older version, you might also need another verison of this DXF library. You can find out which version of the DXF library is needed by your version of FreeCAD, by entering the following code in the FreeCAD python console:  {{Code   code: 
 import importDXF
 print importDXF.CURRENTDXFLIB
 ---

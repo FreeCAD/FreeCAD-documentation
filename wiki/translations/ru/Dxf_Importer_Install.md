@@ -1,5 +1,5 @@
 ---
-- TutorialInfo:/ru   Topic:SampleClass   Level:Medium user   Time:15 minutes   Author:[[User:Mario52   Mario52]]|FCVersion:All
+ TutorialInfo:u   Topic: SampleClass   Level: Medium user   Time: 15 minutes   Author: User:Mario52   Mario52|FCVersion: All
 ---
 
 # Dxf Importer Install/ru

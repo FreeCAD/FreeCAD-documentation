@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Example Slab Spanning in One Direction
-   Level:Intermediate
-   Time:
-   Author:Shiv Charan
-   FCVersion:0.20
-   Files:
+ TutorialInfo:
+   Topic: Example Slab Spanning in One Direction
+   Level: Intermediate
+   Time: 
+   Author: Shiv Charan
+   FCVersion: 0.20
+   Files: 
 ---
 
 # Example Slab Spanning in One Direction

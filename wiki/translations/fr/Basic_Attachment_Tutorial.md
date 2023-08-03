@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Ancrage
-   Level: Débutant et intermédiaire
-   Author:Bance
-   Time:1 heure
-   FCVersion: V0.17 ou au delà
-   Files:[https://github.com/BanceFC/Examples/blob/master/AttachmentTutorial.FCStd Basic Attachment Tutorial.FCStd]
+ TutorialInfo:
+   Topic: Ancrage
+   Level:  Débutant et intermédiaire
+   Author: Bance
+   Time: 1 heure
+   FCVersion:  V0.17 ou au delà
+   Files: https://github.com/BanceFC/Examples/blob/master/AttachmentTutorial.FCStd Basic Attachment Tutorial.FCStd
 ---
 
 # Basic Attachment Tutorial/fr

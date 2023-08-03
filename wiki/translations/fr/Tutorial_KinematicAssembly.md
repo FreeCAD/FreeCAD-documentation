@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/fr
-   Topic:Assembly3, un mécanisme simple
-   Level:Une connaissance basique des outils Assembly3 est utile
-   FCVersion:0.20 et plus
-   Time:30 minutes
-   Author:[FBXL5](User_FBXL5.md)
+ TutorialInfo:r
+   Topic: Assembly3, un mécanisme simple
+   Level: Une connaissance basique des outils Assembly3 est utile
+   FCVersion: 0.20 et plus
+   Time: 30 minutes
+   Author: User:FBXL5
 ---
 
 # Tutorial KinematicAssembly/fr

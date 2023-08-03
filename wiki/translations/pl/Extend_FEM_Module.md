@@ -1,9 +1,10 @@
 ---
-- TutorialInfo:   Topic:FEM
-   Level:Intermediate
-   Time:1 hour
-   Author:[M42kus](User_M42kus.md)
-   FCVersion:0.17
+ TutorialInfo:
+   Topic: FEM
+   Level: Intermediate
+   Time: 1 hour
+   Author: User:M42kus
+   FCVersion: 0.17
 ---
 
 # Extend FEM Module/pl

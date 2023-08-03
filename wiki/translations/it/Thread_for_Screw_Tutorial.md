@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic: Modellazione
-   Level: Avanzato
-   Time: 
-   Author:[DeepSOIC](User_DeepSOIC.md), [Murdic](User_Murdic.md)
-   FCVersion:0.14 o superiore (secondo il metodo)
-   Files:
+ TutorialInfo:t
+   Topic:  Modellazione
+   Level:  Avanzato
+   Time:  
+   Author: User:DeepSOIC, User:Murdic
+   FCVersion: 0.14 o superiore 
+   Files: 
 ---
 
 # Thread for Screw Tutorial/it

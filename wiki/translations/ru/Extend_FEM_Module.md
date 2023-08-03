@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/ru
-   Topic:МКЭ
-   Level:Средний 
-   Time:1 час 
-   Author:[M42kus](User_M42kus.md)
-   FCVersion:0.17
+ TutorialInfo:u
+   Topic: МКЭ
+   Level: Средний 
+   Time: 1 час 
+   Author: User:M42kus
+   FCVersion: 0.17
 ---
 
 # Extend FEM Module/ru

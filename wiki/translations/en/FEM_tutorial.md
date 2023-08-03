@@ -1,9 +1,10 @@
 ---
-- TutorialInfo:   Topic:Finite Element Analysis
-   Level:Beginner
-   Time:10 minutes + Solver time
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-   FCVersion:0.17 or above
+ TutorialInfo:
+   Topic: Finite Element Analysis
+   Level: Beginner
+   Time: 10 minutes + Solver time
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei
+   FCVersion: 0.17 or above
 ---
 
 # FEM tutorial/en

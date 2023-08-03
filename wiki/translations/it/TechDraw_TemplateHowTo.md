@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/it
-   Topic:Disegno tecnico
-   Level:Intermedio
-   Time:60 minuti
-   Author:[http://freecadweb.org/wiki/index.php?title=User:wandererfan wandererfan]
-   FCVersion:0.17
+ TutorialInfo:t
+   Topic: Disegno tecnico
+   Level: Intermedio
+   Time: 60 minuti
+   Author: http://freecadweb.org/wiki/index.php?title=User:wandererfan wandererfan
+   FCVersion: 0.17
 ---
 
 # TechDraw TemplateHowTo/it

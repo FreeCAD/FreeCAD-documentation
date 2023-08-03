@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/de
-   Topic:TechDraw-Vorlagen erzeugen mittels Python-Macro
-   Level:Grundkenntnisse von Python und SVG-Strukturen sind hilfreich
-   FCVersion: 0.19.1 und neuer
-   Time:(noch nicht bekannt)
-   Author:[FBXL5](User_FBXL5.md)
-   SeeAlso:[Makro TemplateHelper](Macro_TemplateHelper/de.md)
+ TutorialInfo:e
+   Topic: TechDraw-Vorlagen erzeugen mittels Python-Macro
+   Level: Grundkenntnisse von Python und SVG-Strukturen sind hilfreich
+   FCVersion:  0.19.1 und neuer
+   Time: 
+   Author: User:FBXL5
+   SeeAlso: Macro_TemplateHelper/de
 ---
 
 # TechDraw TemplateGenerator/de

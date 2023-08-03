@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Attachment
-   Level:Beginner/Intermediate
-   Author:Bance
-   Time:1 hour
-   FCVersion:0.17 or above
-   Files:[https://github.com/BanceFC/Examples/blob/master/AttachmentTutorial.FCStd Basic Attachment Tutorial.FCStd]
+ TutorialInfo:
+   Topic: Attachment
+   Level: Beginner/Intermediate
+   Author: Bance
+   Time: 1 hour
+   FCVersion: 0.17 or above
+   Files: https://github.com/BanceFC/Examples/blob/master/AttachmentTutorial.FCStd Basic Attachment Tutorial.FCStd
 ---
 
 # Basic Attachment Tutorial/en

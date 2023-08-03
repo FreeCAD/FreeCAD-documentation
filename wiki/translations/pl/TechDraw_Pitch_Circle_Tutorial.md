@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/pl
-   Topic:Rysunek Techniczny
-   Level:Początkujący
-   Time:10 minut
-   Author:Andergrin
-   FCVersion:0.19
+ TutorialInfo:l
+   Topic: Rysunek Techniczny
+   Level: Początkujący
+   Time: 10 minut
+   Author: Andergrin
+   FCVersion: 0.19
 ---
 
 # TechDraw Pitch Circle Tutorial/pl

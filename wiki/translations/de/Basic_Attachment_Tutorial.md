@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Befestigung
-   Level:Anfänger
-   Author:Bance
-   Time:1 Std.
-   FCVersion:0.17 oder neuer
-   Files:[https://github.com/BanceFC/Examples/blob/master/AttachmentTutorial.FCStd Basic Attachment Tutorial.FCStd]
+ TutorialInfo:
+   Topic: Befestigung
+   Level: Anfänger
+   Author: Bance
+   Time: 1 Std.
+   FCVersion: 0.17 oder neuer
+   Files: https://github.com/BanceFC/Examples/blob/master/AttachmentTutorial.FCStd Basic Attachment Tutorial.FCStd
 ---
 
 # Basic Attachment Tutorial/de

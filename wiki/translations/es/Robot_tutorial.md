@@ -1,23 +1,23 @@
 # Robot tutorial/es
 ---
-- TutorialInfo:/es
-   Topic: Robot Workbench
-   Level: Beginner
-   Time:
-   Author:r-frank
-   FCVersion:0.16.6703
-   Files:
+ TutorialInfo:s
+   Topic:  Robot Workbench
+   Level:  Beginner
+   Time: 
+   Author: r-frank
+   FCVersion: 0.16.6703
+   Files: 
 }}
 
 
 <div class="mw-translate-fuzzy">
 
-Este tutorial te mostrará cómo utilizar el [Entorno de simulación de Robots](Robot_Workbench/es.md) para simular la configuración de una célula de un robot.
+Este tutorial te mostrará cómo utilizar el Entorno de simulación de Robots para simular la configuración de una célula de un robot.
 
 
 </div>
 
-![](images/Robot_Tutorial_RobotSimulation.gif ) 
+! 
 *Final result of this tutorial*
 
 
@@ -25,7 +25,7 @@ Este tutorial te mostrará cómo utilizar el [Entorno de simulación de Robots](
 
 ## Antes de empezar 
 
-Este tutorial está escrito para FreeCAD Versión 0.11 R3977 o superior. Así que si no tienes FreeCAD en tu equipo ve a la página de [Descargas](Download/es.md) y haz la instalación.
+Este tutorial está escrito para FreeCAD Versión 0.11 R3977 o superior. Así que si no tienes FreeCAD en tu equipo ve a la página de Descargas y haz la instalación.
 
 
 </div>
@@ -33,7 +33,7 @@ Este tutorial está escrito para FreeCAD Versión 0.11 R3977 o superior. Así qu
 
 <div class="mw-translate-fuzzy">
 
-El objetivo de este tutorial es el uso de [robots industriales](http://en.wikipedia.org/wiki/Industrial_robot) y no móbiles o robots de servicio (mira [aquí](http://en.wikipedia.org/wiki/Robot#Modern_robots)).
+El objetivo de este tutorial es el uso de robots industriales y no móbiles o robots de servicio ).
 
 
 </div>
@@ -46,21 +46,21 @@ El objetivo de este tutorial es el uso de [robots industriales](http://en.wikipe
 
 ## Setting up a trajectory 
 
-1.  Switch to the <img alt="" src=images/Workbench_Robot.svg  style="width:24px;"> [Robot Workbench](Robot_Workbench.md)
-2.  Activate the model-tab in the [tree view](tree_view.md) by clicking on it
-3.  Create a new trajectory by clicking on the <img alt="" src=images/Robot_CreateTrajectory.svg  style="width:24px;"> [Robot CreateTrajectory](Robot_CreateTrajectory.md) button
-4.  Select the robot in the [tree view](tree_view.md)
-5.  Set home position for robot by clicking on <img alt="" src=images/Robot_SetHomePos.svg  style="width:24px;"> [Robot_SetHomePos](Robot_SetHomePos.md)
-6.  Switch to the [Task Panel](Task_Panel.md)
+1.  Switch to the !{width="24"} Robot Workbench
+2.  Activate the model-tab in the tree view by clicking on it
+3.  Create a new trajectory by clicking on the !{width="24"} Robot CreateTrajectory button
+4.  Select the robot in the tree view
+5.  Set home position for robot by clicking on !{width="24"} Robot_SetHomePos
+6.  Switch to the Task Panel
 7.  By using the sliders change robot position
-8.  When robot and trajectory are selected in [tree view](tree_view.md) clicking on <img alt="" src=images/Robot_InsertWaypoint.svg  style="width:24px;"> [Robot InsertWaypoint](Robot_InsertWaypoint.md) will insert the way-point in the trajectory
+8.  When robot and trajectory are selected in tree view clicking on !{width="24"} Robot InsertWaypoint will insert the way-point in the trajectory
 9.  Each way-point is shown with a yellow cross, the waypoints are connected with orange lines
 10. Define at least three different way points and insert them in the trajectory
 
 ## Simulating robot movement 
 
-1.  Select robot and trajectory in [tree view](tree_view.md)
-2.  Select simulation by clicking on <img alt="" src=images/Robot_Simulate.svg  style="width:24px;"> [Robot Simulate](Robot_Simulate.md)
+1.  Select robot and trajectory in tree view
+2.  Select simulation by clicking on !{width="24"} Robot Simulate
 3.  Click on Play ** &#9654;** button
 4.  Watch simulation
 

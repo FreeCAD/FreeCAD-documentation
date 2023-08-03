@@ -1,9 +1,9 @@
 ---
-- TutorialInfo:/fr
-   Topic:Sketcher
-   Level:Débutant
-   Author:[Maker](User_Maker.md)
-   FCVersion:
+ TutorialInfo:r
+   Topic: Sketcher
+   Level: Débutant
+   Author: User:Maker
+   FCVersion: 
 ---
 
 # Sketcher requirement for a sketch/fr

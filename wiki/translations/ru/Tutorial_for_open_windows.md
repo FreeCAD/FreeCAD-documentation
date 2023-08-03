@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ru
-   Topic:Архитектура
-   Level:Для начинающих
-   Time:60 минут
-   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-   FCVersion:0.18 и выше
-   Files:нет
+ TutorialInfo:u
+   Topic: Архитектура
+   Level: Для начинающих
+   Time: 60 минут
+   Author: https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx
+   FCVersion: 0.18 и выше
+   Files: нет
 ---
 
 # Tutorial for open windows/ru

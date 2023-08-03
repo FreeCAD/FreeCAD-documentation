@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/pl
-   Topic:Szkicownik
-   Level:Początkujący
-   Author:[Maker](User_Maker.md)
-   Time:
-   FCVersion: dowolna
+ TutorialInfo:l
+   Topic: Szkicownik
+   Level: Początkujący
+   Author: User:Maker
+   Time: 
+   FCVersion:  dowolna
 ---
 
 # Sketcher requirement for a sketch/pl

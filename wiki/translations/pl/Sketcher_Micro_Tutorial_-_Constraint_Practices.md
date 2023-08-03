@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/pl
-   Topic:Modelowanie
-   Level:początkujący
-   Time:30 minut
-   Author:Mark Stephen ([Quick61](User_Quick61.md)) and vocx
-   FCVersion:0.19
-   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&p=371659#p371659 Sketcher: wiązania praktycznie]
+ TutorialInfo:l
+   Topic: Modelowanie
+   Level: początkujący
+   Time: 30 minut
+   Author: Mark Stephen  and vocx
+   FCVersion: 0.19
+   Files: https://forum.freecadweb.org/viewtopic.php?f=36&p=371659#p371659 Sketcher: wiązania praktycznie
 ---
 
 # Sketcher Micro Tutorial - Constraint Practices/pl

@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/fr
-   Topic: Drafting
-   Level: Débutant
-   Time: 30 minutes
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] et vocx
-   FCVersion:0.19
-   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&t=43651 Draft tutorial updated]
+ TutorialInfo:r
+   Topic:  Drafting
+   Level:  Débutant
+   Time:  30 minutes
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei et vocx
+   FCVersion: 0.19
+   Files: https://forum.freecadweb.org/viewtopic.php?f=36&t=43651 Draft tutorial updated
 ---
 
 # Draft tutorial/fr

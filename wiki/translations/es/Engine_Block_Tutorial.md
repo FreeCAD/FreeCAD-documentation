@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/es
-   Topic: Part Workbench
-   Level: Beginner
-   Time:
-   Author:
-   FCVersion:
-   Files:
+ TutorialInfo:s
+   Topic:  Part Workbench
+   Level:  Beginner
+   Time: 
+   Author: 
+   FCVersion: 
+   Files: 
 ---
 
 # Engine Block Tutorial/es

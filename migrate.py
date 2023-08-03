@@ -834,15 +834,7 @@ class MediaWiki:
                 if guicommandblk:
                     guicommandblk = guicommandblk[0]
                     guicommandblk = re.sub("\|(.*?)\=(.*?)",r'   \1: \2',guicommandblk) # fixing GuiCommand contents
-                    # stricter formatting of yaml stuff for github pages
-                    guicommandblk = guicommandblk.replace("→",",") # github does not like unicode in here...
-                    if guicommandblk.strip().startswith("/"):  # fix malformation of translated GuiCommands
-                        guicommandblk = guicommandblk[3:]
-                    guicommandblk = re.sub("/:\s*/", ": ", guicommandblk) # add spaces after colon
-                    guicommandblk = re.sub("\(.*?\)", "", guicommandblk) # removes markdown links
-                    guicommandblk = re.sub("\|.*?\]", "", guicommandblk)
-                    guicommandblk = guicommandblk.replace("[","")
-                    guicommandblk = guicommandblk.replace("]","")
+                    guicommandblk = self.fix_yaml(guicommandblk)
                     result = re.sub("```{\=mediawiki}.*?{{GuiCommand(.*?)}}\n```",r"---\n GuiCommand:"+guicommandblk+"---\n",result,flags=flags)
                     result = "---"+"---".join(result.split("---")[1:]) # removing empty line before yaml block
 
@@ -853,9 +845,10 @@ class MediaWiki:
                 if tutblk:
                     tutblk = tutblk[0]
                     tutblk = tutblk.strip()
-                    tutblk = re.sub("\|(.*?)\=(.*?)",r"   \1:\2",tutblk) # fixing GuiCommand contents
+                    tutblk = re.sub("\|(.*?)\=(.*?)",r"   \1: \2",tutblk) # fixing GuiCommand contents
                     if not tutblk.startswith("\n"):
                         tutblk = "\n" + tutblk
+                    tutblk = self.fix_yaml(tutblk)
                     tutblk = "---\n TutorialInfo:"+tutblk+"\n---\n\n"
                     result = re.sub("{{TutorialInfo.*?}}\n","",result,flags=flags)
                     result = tutblk + result
@@ -939,6 +932,21 @@ class MediaWiki:
 
 
         return result.strip()
+
+
+    def fix_yaml(self, blk):
+
+        '''stricter formatting of yaml stuff for github pages'''
+        
+        blk = blk.replace("→",",") # github does not like unicode in here...
+        if blk.strip().startswith("/"):  # fix malformation of translated GuiCommands
+            blk = blk[3:]
+        blk = re.sub("/:\s*/", ": ", blk) # add spaces after colon
+        blk = re.sub("\(.*?\)", "", blk) # removes markdown links
+        blk = re.sub("\|.*?\]", "", blk)
+        blk = blk.replace("[","")
+        blk = blk.replace("]","")
+        return blk
 
 
     def writeMarkdown(self,page,overwrite=True,basepath=None,clean=True):

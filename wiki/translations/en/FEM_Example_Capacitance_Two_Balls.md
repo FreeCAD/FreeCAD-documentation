@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Finite Element Analysis
-   Level:Beginner
-   Time:30 min
-   Author:[https://wiki.freecadweb.org/User:Sudhanshu_Dubey Sudhanshu Dubey]
-   FCVersion:0.19 or above
-   Files:Created programmatically
+ TutorialInfo:
+   Topic: Finite Element Analysis
+   Level: Beginner
+   Time: 30 min
+   Author: https://wiki.freecadweb.org/User:Sudhanshu_Dubey Sudhanshu Dubey
+   FCVersion: 0.19 or above
+   Files: Created programmatically
 ---
 
 # FEM Example Capacitance Two Balls/en

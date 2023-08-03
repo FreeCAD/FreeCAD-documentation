@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic: Analisi di struttura in cemento armato con FEM
-   Level: Intermedio
-   Time: 60 minuti
-   Author:[http://www.freecadweb.org/wiki/index.php?title=User: HarryvL]
-   FCVersion:0.19.xxxxx o superiore
-   Files:
+ TutorialInfo:t
+   Topic:  Analisi di struttura in cemento armato con FEM
+   Level:  Intermedio
+   Time:  60 minuti
+   Author: http://www.freecadweb.org/wiki/index.php?title=User: HarryvL
+   FCVersion: 0.19.xxxxx o superiore
+   Files: 
 ---
 
 # Analysis of reinforced concrete with FEM/it

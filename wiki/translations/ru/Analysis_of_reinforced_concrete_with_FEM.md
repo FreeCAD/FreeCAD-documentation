@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ru
-   Topic: Reinforced concrete with FEM
-   Level: Intermediate
-   Time: 60 минут
-   Author:[http://www.freecadweb.org/wiki/index.php?title=User: HarryvL]
-   FCVersion:0.19.xxxxx и выше
-   Files:
+ TutorialInfo:u
+   Topic:  Reinforced concrete with FEM
+   Level:  Intermediate
+   Time:  60 минут
+   Author: http://www.freecadweb.org/wiki/index.php?title=User: HarryvL
+   FCVersion: 0.19.xxxxx и выше
+   Files: 
 ---
 
 # Analysis of reinforced concrete with FEM/ru

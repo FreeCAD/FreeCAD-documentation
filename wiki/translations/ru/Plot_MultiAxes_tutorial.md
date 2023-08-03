@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ru
-   Topic:Plot workbench
-   Level:Intermediate
-   Time:
-   Author:
-   FCVersion:
-   Files:
+ TutorialInfo:u
+   Topic: Plot workbench
+   Level: Intermediate
+   Time: 
+   Author: 
+   FCVersion: 
+   Files: 
 ---
 
 # Plot MultiAxes tutorial/ru

@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/pl
-   Topic:Programowanie
-   Level:Średniozaawansowany
-   Time:15 minut
-   FCVersion:Wszystkie
-   Author:[r-frank](User:R-Frank.md)
-   Files:brak
+ TutorialInfo:l
+   Topic: Programowanie
+   Level: Średniozaawansowany
+   Time: 15 minut
+   FCVersion: Wszystkie
+   Author: User:R-Frank
+   Files: brak
 ---
 
 # How to install additional workbenches/pl

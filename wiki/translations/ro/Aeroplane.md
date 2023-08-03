@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ro
-   Topic:Part Workbench
-   Level:Beginner
-   Time:10 minutes
-   Author:
-   FCVersion:
-   Files:
+ TutorialInfo:o
+   Topic: Part Workbench
+   Level: Beginner
+   Time: 10 minutes
+   Author: 
+   FCVersion: 
+   Files: 
 ---
 
 # Aeroplane/ro

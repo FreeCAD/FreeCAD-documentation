@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ru
-   Topic:Product design
-   Level:Advanced
-   Time:60 минут
-   Author:[DeepSOIC](User_DeepSOIC.md), [Murdic](User_Murdic.md), vocx
-   FCVersion:0.19
-   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&t=44668 Updated: Thread for screw tutorial]
+ TutorialInfo:u
+   Topic: Product design
+   Level: Advanced
+   Time: 60 минут
+   Author: User:DeepSOIC, User:Murdic, vocx
+   FCVersion: 0.19
+   Files: https://forum.freecadweb.org/viewtopic.php?f=36&t=44668 Updated: Thread for screw tutorial
 ---
 
 # Thread for Screw Tutorial/ru

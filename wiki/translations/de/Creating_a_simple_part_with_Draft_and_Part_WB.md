@@ -1,12 +1,12 @@
 ---
-- TutorialInfo:/de
-   Topic:Modellierung
-   Level:Anfänger
-   Author:heda
-   Time:1.5 hours
-   FCVersion:0.19 or above
-   Files:
-   SeeAlso:[Erstellen eines einfachen Bauteils mit dem Arbeitsbereich Part](Creating_a_simple_part_with_Part_WB/de.md), [Erstellen eines einfachen Bauteils mit dem Arbeitsbereich PartDesign](Creating_a_simple_part_with_PartDesign/de.md)
+ TutorialInfo:e
+   Topic: Modellierung
+   Level: Anfänger
+   Author: heda
+   Time: 1.5 hours
+   FCVersion: 0.19 or above
+   Files: 
+   SeeAlso: Creating_a_simple_part_with_Part_WB/de, Creating_a_simple_part_with_PartDesign/de
 ---
 
 # Creating a simple part with Draft and Part WB/de

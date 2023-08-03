@@ -1,11 +1,12 @@
 ---
-- TutorialInfo:   Topic:Modeling
-   Level:Beginner
-   Author:heda
-   Time:1.5 hours
-   FCVersion:0.19 or above
-   Files:
-   SeeAlso:[Criando uma peça simples com a bancada Part](Creating_a_simple_part_with_Part_WB/pt-br.md), [Criando uma peça simples com a bancada Part Design](Creating_a_simple_part_with_PartDesign/pt-br.md)
+ TutorialInfo:
+   Topic: Modeling
+   Level: Beginner
+   Author: heda
+   Time: 1.5 hours
+   FCVersion: 0.19 or above
+   Files: 
+   SeeAlso: Creating_a_simple_part_with_Part_WB/pt-br, Creating_a_simple_part_with_PartDesign/pt-br
 ---
 
 # Creating a simple part with Draft and Part WB/pt-br

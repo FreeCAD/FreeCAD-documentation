@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic:Part
-   Level:Base
-   Time:10 minuti
-   Author:Hughthecat
-   FCVersion:
-   Files:
+ TutorialInfo:t
+   Topic: Part
+   Level: Base
+   Time: 10 minuti
+   Author: Hughthecat
+   FCVersion: 
+   Files: 
 ---
 
 # Aeroplane/it

@@ -1,8 +1,9 @@
 ---
-- TutorialInfo:   Topic:Modeling
-   Level:Intermediate
-   Author:[Yorik](User_Yorik.md)
-   FCVersion:0.14
+ TutorialInfo:
+   Topic: Modeling
+   Level: Intermediate
+   Author: User:Yorik
+   FCVersion: 0.14
 ---
 
 # Arch tutorial/en

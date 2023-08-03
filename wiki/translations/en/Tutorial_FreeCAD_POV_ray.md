@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Rendering
-   Level:Intermediate
-   Time:120 minutes
-   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-   FCVersion:0.18 or greater
-   Files:none
+ TutorialInfo:
+   Topic: Rendering
+   Level: Intermediate
+   Time: 120 minutes
+   Author: https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx
+   FCVersion: 0.18 or greater
+   Files: none
 ---
 
 # Tutorial FreeCAD POV ray/en

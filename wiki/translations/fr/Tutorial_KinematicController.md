@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/fr
-   Topic:Contrôleur cinématique créé avec Python
-   Level:Des connaissances de base en Python sont utiles
-   FCVersion:0.20 et ultérieur 
-   Time:1 heure
-   Author:[FBXL5](User_FBXL5.md)
+ TutorialInfo:r
+   Topic: Contrôleur cinématique créé avec Python
+   Level: Des connaissances de base en Python sont utiles
+   FCVersion: 0.20 et ultérieur 
+   Time: 1 heure
+   Author: User:FBXL5
 ---
 
 # Tutorial KinematicController/fr

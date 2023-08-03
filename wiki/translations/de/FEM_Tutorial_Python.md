@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/de
-   Topic: Finite Element Analyse
-   Level: Fortgeschrittene
-   Time: 30 Minuten
-   Author:[http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd]
-   FCVersion:0.18.15985 oder höher
-   Files:
+ TutorialInfo:e
+   Topic:  Finite Element Analyse
+   Level:  Fortgeschrittene
+   Time:  30 Minuten
+   Author: http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd
+   FCVersion: 0.18.15985 oder höher
+   Files: 
 ---
 
 # FEM Tutorial Python/de

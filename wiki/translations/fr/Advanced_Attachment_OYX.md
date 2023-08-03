@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/fr
-   Topic:Ancrage
-   Level:Intermédiaire/avancé
-   Author:drmacro
-   Time:1 heure
-   FCVersion:0.19 ou supérieure
-   Files:[A définir]
+ TutorialInfo:r
+   Topic: Ancrage
+   Level: Intermédiaire/avancé
+   Author: drmacro
+   Time: 1 heure
+   FCVersion: 0.19 ou supérieure
+   Files: A définir
 ---
 
 # Advanced Attachment OYX/fr

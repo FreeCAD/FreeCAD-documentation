@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/fr
-   Topic:Atelier Plot
-   Level:Intermediaire
-   Time:
-   Author:
-   FCVersion:0.19
-   Files:
+ TutorialInfo:r
+   Topic: Atelier Plot
+   Level: Intermediaire
+   Time: 
+   Author: 
+   FCVersion: 0.19
+   Files: 
 ---
 
 # Plot MultiAxes tutorial/fr

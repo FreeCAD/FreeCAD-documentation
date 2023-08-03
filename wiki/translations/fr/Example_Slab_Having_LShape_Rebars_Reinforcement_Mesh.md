@@ -1,9 +1,9 @@
 ---
-- TutorialInfo:/fr
-   Topic:Exemple de dalle avec armatures en forme de L Rebars Reinforcement Maillage
-   Level:Intermédiaire
-   Author:Shiv Charan
-   FCVersion:0.20
+ TutorialInfo:r
+   Topic: Exemple de dalle avec armatures en forme de L Rebars Reinforcement Maillage
+   Level: Intermédiaire
+   Author: Shiv Charan
+   FCVersion: 0.20
 ---
 
 # Example Slab Having LShape Rebars Reinforcement Mesh/fr

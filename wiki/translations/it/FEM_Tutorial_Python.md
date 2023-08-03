@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/it
-   Topic: Analisi agli elementi finiti
-   Level: Intermedio
-   Time: 30 minuti
-   Author:[http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd]
-   FCVersion:0.18.15985 o superiore
-   Files:
+ TutorialInfo:t
+   Topic:  Analisi agli elementi finiti
+   Level:  Intermedio
+   Time:  30 minuti
+   Author: http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd
+   FCVersion: 0.18.15985 o superiore
+   Files: 
 ---
 
 # FEM Tutorial Python/it

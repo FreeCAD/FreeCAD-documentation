@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/fr
-   Topic:TechDraw Cercle imaginaire
-   Level:Débutant
-   Time:10 minutes
-   Author:Andergrin
-   FCVersion:0.19
+ TutorialInfo:r
+   Topic: TechDraw Cercle imaginaire
+   Level: Débutant
+   Time: 10 minutes
+   Author: Andergrin
+   FCVersion: 0.19
 ---
 
 # TechDraw Pitch Circle Tutorial/fr

@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ru
-   Topic:Arch Workbench
-   Level:Advanced
-   Time:120 minutes
-   Author:Pablo Gil
-   FCVersion:
-   Files:
+ TutorialInfo:u
+   Topic: Arch Workbench
+   Level: Advanced
+   Time: 120 minutes
+   Author: Pablo Gil
+   FCVersion: 
+   Files: 
 ---
 
 # Import/Export IFC - compiling IfcOpenShell/ru

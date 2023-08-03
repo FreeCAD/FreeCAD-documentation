@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ro
-   Topic: Finite Element Analysis
-   Level: Beginner
-   Time: 10 minutes
-   Author:[http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd]
-   FCVersion:0.16.6377 or above
-   Files:
+ TutorialInfo:o
+   Topic:  Finite Element Analysis
+   Level:  Beginner
+   Time:  10 minutes
+   Author: http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd
+   FCVersion: 0.16.6377 or above
+   Files: 
 ---
 
 # FEM CalculiX Cantilever 3D/ro

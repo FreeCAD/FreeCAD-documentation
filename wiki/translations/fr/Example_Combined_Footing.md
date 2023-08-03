@@ -1,9 +1,9 @@
 ---
-- TutorialInfo:/fr
-   Topic:Exemple de semelle combinée
-   Level:Intermédiaire
-   Author:Shiv Charan
-   FCVersion:0.20
+ TutorialInfo:r
+   Topic: Exemple de semelle combinée
+   Level: Intermédiaire
+   Author: Shiv Charan
+   FCVersion: 0.20
 ---
 
 # Example Combined Footing/fr

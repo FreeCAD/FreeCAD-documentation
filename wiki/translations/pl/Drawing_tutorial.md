@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/pl
-   Topic: Projekty / Kreślenie
-   Level: Początkujący
-   Time: 15 minut
-   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-   FCVersion:0.16 lub nowszy
-   Files:
+ TutorialInfo:l
+   Topic:  Projekty / Kreślenie
+   Level:  Początkujący
+   Time:  15 minut
+   Author: http://freecadweb.org/wiki/index.php?title=User:Drei Drei
+   FCVersion: 0.16 lub nowszy
+   Files: 
 ---
 
 # Drawing tutorial/pl

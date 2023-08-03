@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ru
-   Topic:Ship Workbench
-   Level:Beginner
-   Time:
-   Author:
-   FCVersion:
-   Files:
+ TutorialInfo:u
+   Topic: Ship Workbench
+   Level: Beginner
+   Time: 
+   Author: 
+   FCVersion: 
+   Files: 
 ---
 
 # FreeCAD-Ship s60 tutorial/ru

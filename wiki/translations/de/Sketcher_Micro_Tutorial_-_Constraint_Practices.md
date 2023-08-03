@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/de
-   Topic:Skizzierer
-   Level:Anfänger
-   Time:30 Minuten
-   Author:Mark Stephen ([Quick61](User_Quick61.md)) und vocx
+ TutorialInfo:e
+   Topic: Skizzierer
+   Level: Anfänger
+   Time: 30 Minuten
+   Author: Mark Stephen  und vocx
 |FCVersion 0.19
-   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&p=371659#p371659 Skizzierer Beschränkungspraktiken]
+   Files: https://forum.freecadweb.org/viewtopic.php?f=36&p=371659#p371659 Skizzierer Beschränkungspraktiken
 ---
 
 # Sketcher Micro Tutorial - Constraint Practices/de

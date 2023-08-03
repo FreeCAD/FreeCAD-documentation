@@ -1,10 +1,10 @@
 ---
-- TutorialInfo:/fr
-   Topic:Dépôts personnalisés
-   Level:Intermédiaire/Avancé
-   Author:drmacro
-   FCVersion:1.0 ou supérieur
-   Files:[A définir]
+ TutorialInfo:r
+   Topic: Dépôts personnalisés
+   Level: Intermédiaire/Avancé
+   Author: drmacro
+   FCVersion: 1.0 ou supérieur
+   Files: A définir
 ---
 
 # Private Preference Packs/fr

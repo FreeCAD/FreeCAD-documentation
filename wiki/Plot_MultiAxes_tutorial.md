@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Plot workbench
-   Level:Intermediate
-   Time:
-   Author:
-   FCVersion:0.19
-   Files:
+ TutorialInfo:
+   Topic: Plot workbench
+   Level: Intermediate
+   Time: 
+   Author: 
+   FCVersion: 0.19
+   Files: 
 ---
 
 # Plot MultiAxes tutorial

@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ru
-   Topic: Transient FEM analysis
-   Level: 
-   Time:
-   Author:
-   FCVersion:
-   Files:
+ TutorialInfo:u
+   Topic:  Transient FEM analysis
+   Level:  
+   Time: 
+   Author: 
+   FCVersion: 
+   Files: 
 ---
 
 # Transient FEM analysis/ru

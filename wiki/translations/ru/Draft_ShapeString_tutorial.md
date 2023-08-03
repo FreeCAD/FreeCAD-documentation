@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/ru
-   Topic: ShapeString (Draft workbench)
-   Level: Beginner
-   Time:30 minutes
-   Author:r-frank
-   FCVersion:0.16.6704
-   Files:
+ TutorialInfo:u
+   Topic:  ShapeString 
+   Level:  Beginner
+   Time: 30 minutes
+   Author: r-frank
+   FCVersion: 0.16.6704
+   Files: 
 ---
 
 # Draft ShapeString tutorial/ru
