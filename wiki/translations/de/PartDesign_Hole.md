@@ -116,7 +116,8 @@ Die Datei sollte enthalten:
     -   **diameter**: Der Durchmesser des Schnitts.
     -   **depth**: Tiefe der Flachsenkung (nicht notwendig bei Kegelsenkungen).
 
-Beispiel: {{Code|lang=json|code=
+Beispiel: 
+```json
 {
     "name": "DIN 7984",
     "cut_type": "counterbore",
@@ -127,7 +128,7 @@ Beispiel: {{Code|lang=json|code=
         …
     ]
 }
-}}
+```
 
 
 

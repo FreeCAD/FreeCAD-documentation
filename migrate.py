@@ -862,6 +862,7 @@ class MediaWiki:
         if debug >= 9:
             # creating new code fences
             result = re.sub("{{Code\|code\=(.*?)}}",r"```python\1```",result,flags=flags) # replace {{Code}} templates
+            result = re.sub("{{Code\|lang\=json\|code\=(.*?)}}",r"```json\1```",result,flags=flags) # replace {{Code}} templates
             result = re.sub("{{incode\|(.*?)}}",r"`\1`",result,flags=flags) # replace {{incode}} templates
             result = re.sub(" \`\`\`",r" \n```",result,flags=flags) # make sure all ``` are on a new line
             result = re.sub("{{TRUE}}",r"`True`",result,flags=flags) # replace {{TRUE}} templates

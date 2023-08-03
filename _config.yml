@@ -1,2 +1,2 @@
 theme: minima
-exclude: wiki/translations
+exclude: [wiki/translations]

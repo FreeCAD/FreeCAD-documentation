@@ -116,7 +116,8 @@ Plik ten powinien zawierać:
     -   **średnicę**: Średnica cięcia.
     -   **głębokość**: Głębokość pogłębienia *(nie jest konieczna w przypadku pogłębiania stożkowego)*.
 
-Przykład: {{Code|lang=json|code=
+Przykład: 
+```json
 {
     "name": "DIN 7984",
     "cut_type": "counterbore",
@@ -127,7 +128,7 @@ Przykład: {{Code|lang=json|code=
         …
     ]
 }
-}}
+```
 
 
 

@@ -111,7 +111,8 @@ Le fichier doit contenir :
     -   **diameter** : Le diamètre de la coupe.
     -   **depth** : Profondeur du chambrage (non nécessaire pour le fraisage).
 
-Exemple : {{Code|lang=json|code=
+Exemple : 
+```json
 {
     "name": "DIN 7984",
     "cut_type": "counterbore",
@@ -122,7 +123,7 @@ Exemple : {{Code|lang=json|code=
         …
     ]
 }
-}}
+```
 
 
 

@@ -152,7 +152,8 @@ The file should contain:
     -   **diameter**: The diameter of the cut.
     -   **depth**: Depth of the counterbore (not necessary for countersink).
 
-Example: {{Code|lang=json|code=
+Example: 
+```json
 {
     "name": "DIN 7984",
     "cut_type": "counterbore",
@@ -163,7 +164,7 @@ Example: {{Code|lang=json|code=
         …
     ]
 }
-}}
+```
 
 
 <div class="mw-translate-fuzzy">
